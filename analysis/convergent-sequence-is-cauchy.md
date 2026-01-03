@@ -9,9 +9,3 @@ $
 $
 
 This lemma is a standard one-way implication in {{< knowl id="complete-metric-space" text="completeness" >}} arguments.
-
-**Proof sketch**:
-Given $\varepsilon>0$, choose $N$ such that $d(x_n,x)<\varepsilon/2$ for all $n\ge N$. Then for $m,n\ge N$,
-$
-d(x_n,x_m)\le d(x_n,x)+d(x,x_m)<\varepsilon.
-$

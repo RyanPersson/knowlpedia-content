@@ -19,7 +19,3 @@ f'(x)=\sum_{n=1}^\infty f_n'(x)\quad\text{for all }x\in[a,b].
 $
 
 These statements formalize the usual calculus manipulations with function series; the uniform convergence hypotheses are the key analytic input.
-
-**Proof sketch**:
-Integration: apply the "{{< knowl id="uniform-limit-of-integrable-functions" text="uniform limit of integrable functions" >}}" theorem to partial sums $s_N=\sum_{n=1}^N f_n$.
-Differentiation: apply the "{{< knowl id="uniform-convergence-and-differentiation" text="uniform convergence and differentiation" >}}" theorem to the sequence of partial sums $s_N$, noting $s_N'= \sum_{n=1}^N f_n'$ and using the convergence at $x_0$ to pin down constants of integration.

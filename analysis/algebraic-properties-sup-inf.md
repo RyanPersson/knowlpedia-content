@@ -40,6 +40,3 @@ $
 $
 
 These rules are used constantly to manipulate bounds and to compare limiting processes.
-
-**Proof sketch**:
-All statements follow by checking the defining universal properties of $\sup$ and $\inf$. For example, to show $\sup(E+c)=\sup E+c$, note that $u$ is an {{< knowl id="upper-bound" text="upper bound" >}} for $E+c$ iff $u-c$ is an upper bound for $E$, then apply least-upper-bound minimality.

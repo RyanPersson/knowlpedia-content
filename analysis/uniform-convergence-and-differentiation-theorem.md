@@ -13,14 +13,3 @@ f'(x)=g(x)\quad \text{for all } x\in[a,b].
 $
 
 This theorem provides the rigorous justification for differentiating a sequence (or series) term-by-term, under uniform convergence of derivatives.
-
-**Proof sketch**:
-For each $n$ and $x\in[a,b]$,
-$
-f_n(x)=f_n(x_0)+\int_{x_0}^x f_n'(t)\,dt
-$
-by the {{< knowl id="fundamental-theorem-of-calculus-part-ii" text="fundamental theorem of calculus" >}}. Since $f_n(x_0)$ converges and $f_n'\to g$ uniformly, the right-hand side converges uniformly in $x$ to
-$
-f(x)=\lim_{n\to\infty} f_n(x_0)+\int_{x_0}^x g(t)\,dt.
-$
-Differentiate $f$ using the {{< knowl id="fundamental-theorem-of-calculus-part-i" text="fundamental theorem of calculus" >}} to obtain $f'=g$.

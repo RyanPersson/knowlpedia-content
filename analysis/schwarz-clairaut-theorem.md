@@ -9,10 +9,3 @@ $
 $
 
 This theorem ensures symmetry of the {{< knowl id="hessian-matrix" text="Hessian matrix" >}} under standard smoothness hypotheses and is used throughout multivariable analysis and optimization.
-
-**Proof sketch**:
-Reduce to the two-variable case. Consider the increment
-$
-f(a_i+h,a_j+k)-f(a_i+h,a_j)-f(a_i,a_j+k)+f(a_i,a_j),
-$
-divide by $hk$, and analyze limits as $(h,k)\to(0,0)$ using the {{< knowl id="mean-value-theorem" text="mean value theorem" >}} twice and continuity of the mixed partials.

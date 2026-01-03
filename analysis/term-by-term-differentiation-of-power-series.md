@@ -19,6 +19,3 @@ Then:
   $
 
 This theorem explains why power series define real-analytic (or complex-analytic) functions on their domain of convergence.
-
-**Proof sketch**:
-Fix $r<R$. On $|x-x_0|\le r$, both the original series and the derived series {{< knowl id="uniform-convergence-of-a-series-of-functions" text="converge uniformly" >}} (use {{< knowl id="weierstrass-m-test" text="M-test" >}}). Use the {{< knowl id="uniform-convergence-and-differentiation-theorem" text="uniform convergence of the derived series" >}} to control {{< knowl id="difference-quotient" text="difference quotients" >}} and justify exchanging limit and summation, yielding the {{< knowl id="derivative" text="derivative" >}} formula for $|x-x_0|<R$.

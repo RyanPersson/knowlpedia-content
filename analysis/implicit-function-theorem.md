@@ -21,6 +21,3 @@ Dg(x)= -\left(\frac{\partial F}{\partial y}(x,g(x))\right)^{-1}\left(\frac{\part
 $
 
 This theorem formalizes "implicit differentiation" and explains when a level set $F(x,y)=0$ is locally the graph of a smooth {{< knowl id="implicitly-defined-function" text="function" >}}.
-
-**Proof sketch**:
-Define $H(x,y)=(x,F(x,y))$ as a map $\mathbb{R}^{n+m}\to\mathbb{R}^{n+m}$. The derivative $DH(a,b)$ is block-triangular with invertible diagonal blocks (identity in $x$ and $\partial F/\partial y$ in $y$), hence invertible. Apply the {{< knowl id="inverse-function-theorem-rk" text="inverse function theorem" >}} to $H$ to solve for $(x,y)$ in terms of $(x,F)$ near $(a,0)$; setting $F=0$ yields $y=g(x)$.

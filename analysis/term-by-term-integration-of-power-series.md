@@ -21,6 +21,3 @@ $
 $
 
 This result provides an explicit antiderivative of a power {{< knowl id="series" text="series" >}} inside its disk/interval of convergence and is used to compute integrals and derive expansions.
-
-**Proof sketch**:
-Fix $r<R$. The series for $f$ {{< knowl id="uniform-convergence-of-a-series-of-functions" text="converges uniformly" >}} on $|x-x_0|\le r$, so one may integrate {{< knowl id="partial-sums" text="partial sums" >}} term-by-term and then pass to the limit using {{< knowl id="uniform-convergence-and-integration-theorem" text="uniform convergence and integration" >}}.

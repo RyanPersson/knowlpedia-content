@@ -9,10 +9,3 @@ $
 $
 
 This is the Cauchy criterion direction for uniform convergence and is often the easiest way to prove uniform convergence: show uniform Cauchy in a {{< knowl id="complete-metric-space" text="complete" >}} codomain.
-
-**Proof sketch**:
-Fix $\varepsilon>0$. Choose $N$ so that $\sup_x d(f_n(x),f(x))<\varepsilon/2$ for all $n\ge N$. Then for $m,n\ge N$,
-$
-d(f_n(x),f_m(x))\le d(f_n(x),f(x))+d(f(x),f_m(x))<\varepsilon,
-$
-uniformly in $x$.

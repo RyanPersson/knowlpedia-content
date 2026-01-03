@@ -11,6 +11,3 @@ description: "Limits respect addition, multiplication, scalar multiplication, an
 - in $\mathbb{C}$, $\overline{a_n}\to \overline{a}$ and $|a_n|\to |a|$.
 
 These rules make limits computationally usable and are proved directly from the $\varepsilon$–$N$ definition (often together with basic inequalities).
-
-**Proof sketch** *(optional)*:
-Use triangle inequalities such as $|a_n+b_n-(a+b)|\le |a_n-a|+|b_n-b|$ and similar estimates for products and quotients.

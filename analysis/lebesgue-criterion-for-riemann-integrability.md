@@ -11,7 +11,3 @@ D\subseteq \bigcup_{j=1}^\infty I_j
 $
 
 This theorem is the complete structural characterization of Riemann integrability and explains exactly which discontinuity sets are allowed.
-
-**Proof sketch**:
-($\Rightarrow$) If $f$ is integrable, choose a {{< knowl id="partition-of-an-interval" text="partition" >}} $P$ with $U(f,P)-L(f,P)$ small. Points of discontinuity must lie in subintervals where the {{< knowl id="oscillation-of-a-function" text="oscillation" >}} of $f$ is not small; these subintervals can be shown to have arbitrarily small total length, yielding a measure-zero cover of $D$.
-($\Leftarrow$) If $D$ has measure zero, cover $D$ by intervals of very small total length. On the remaining {{< knowl id="compact-set" text="compact set" >}}, $f$ is continuous and hence {{< knowl id="uniform-continuity" text="uniformly continuous" >}}, so choose a fine partition there. Boundedness controls the contribution from the small cover of $D$, giving $U-L$ arbitrarily small.

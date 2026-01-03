@@ -13,10 +13,3 @@ J_{g\circ f}(a)=J_g(f(a))\,J_f(a).
 $
 
 The chain rule is the main computational law of multivariable differentiation and underlies coordinate changes, implicit differentiation, and optimization.
-
-**Proof sketch**:
-Write linear approximations with remainders:
-$
-f(a+h)=f(a)+Df(a)h+r_f(h),\quad \frac{\|r_f(h)\|}{\|h\|}\to 0,
-$
-and similarly for $g$ at $f(a)$. Substitute the first into the second and control the remainder terms using {{< knowl id="differentiability-implies-continuity" text="continuity" >}} of $Dg$ at $f(a)$ (or directly from differentiability), yielding the stated {{< knowl id="total-derivative-frechet-derivative" text="derivative" >}}.

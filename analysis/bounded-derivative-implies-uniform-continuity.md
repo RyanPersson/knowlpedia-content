@@ -12,10 +12,3 @@ $
 In particular, $f$ is {{< knowl id="lipschitz-continuity" text="Lipschitz" >}} on $I$ and hence {{< knowl id="uniform-continuity" text="uniformly continuous" >}} on $I$.
 
 This proposition is one of the most common applications of the {{< knowl id="mean-value-theorem" text="mean value theorem" >}}: {{< knowl id="derivative" text="derivatives" >}} control global oscillation.
-
-**Proof sketch**:
-Fix $x<y$ in $I$ with $(x,y)\subseteq I^\circ$. By the mean value theorem, there exists $c\in(x,y)$ such that
-$
-f(y)-f(x)=f'(c)(y-x).
-$
-Taking absolute values gives $|f(y)-f(x)|\le M|y-x|$. The same bound holds for $x>y$ by symmetry.

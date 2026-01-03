@@ -10,6 +10,3 @@ $\bigcap_{\alpha\in A} F_\alpha\neq \varnothing.$
 Conversely, a space $X$ is compact iff this property holds for all families of closed sets.
 
 This theorem reformulates compactness in terms of closed sets and is often convenient in existence proofs.
-
-**Proof sketch** *(optional)*:
-If the total intersection were empty, then the complements $\{X\setminus F_\alpha\}$ would form an open cover of $X$. Compactness gives a finite subcover, meaning finitely many complements cover $X$, i.e., finitely many $F_\alpha$ have empty intersection, contradicting the FIP.

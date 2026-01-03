@@ -8,6 +8,3 @@ $X\subseteq \bigcup_{j=1}^N B(x_j,\varepsilon).$
 Equivalently, $X$ is {{< knowl id="totally-bounded-set" text="totally bounded" >}}.
 
 Total boundedness strengthens boundedness by requiring finitely many $\varepsilon$-balls to cover the set. Together with {{< knowl id="complete-metric-space" text="completeness" >}}, it characterizes compactness in metric spaces.
-
-**Proof sketch** *(optional)*:
-The family $\{B(x,\varepsilon):x\in X\}$ is an open cover of $X$. Compactness yields a finite subcover.

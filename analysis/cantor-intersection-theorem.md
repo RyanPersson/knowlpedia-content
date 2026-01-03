@@ -12,6 +12,3 @@ $\bigcap_{n=1}^\infty F_n$
 consists of exactly one point.
 
 This theorem generalizes the {{< knowl id="nested-interval-theorem" text="nested interval theorem" >}} from $\mathbb{R}$ to complete metric spaces and is a key completeness tool used in fixed point and approximation arguments.
-
-**Proof sketch** *(optional)*:
-Pick $x_n\in F_n$. Nestedness implies $(x_n)$ is {{< knowl id="cauchy-sequence" text="Cauchy" >}} because $d(x_m,x_n)\le \operatorname{diam}(F_n)$ for $m\ge n$. Completeness gives $x_n\to x$. Closedness gives $x\in F_n$ for all $n$. {{< knowl id="diameter" text="Diameter" >}} $\to 0$ gives uniqueness.

@@ -12,6 +12,3 @@ where $L(f,P)$ and $U(f,P)$ are the {{< knowl id="lower-sum-riemann" text="lower
 An analogous statement holds for Riemann–Stieltjes upper/lower sums when the integrator $\alpha$ is {{< knowl id="monotone-function" text="increasing" >}}.
 
 This lemma formalizes the idea that making the partition finer can only improve the approximation: lower sums go up and upper sums go down.
-
-**Proof sketch**:
-It suffices to check the effect of inserting a single new point $t$ into one subinterval $[x_{i-1},x_i]$ of $P$. On the refined partition, the {{< knowl id="infimum" text="infimum" >}} over $[x_{i-1},x_i]$ is $\le$ the infimum over each smaller subinterval, so the weighted sum of infima cannot decrease; similarly the {{< knowl id="supremum" text="supremum" >}} over the large interval is $\ge$ each smaller-interval supremum, so the weighted sum of suprema cannot increase. Iterate over all inserted points.

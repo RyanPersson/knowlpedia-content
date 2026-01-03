@@ -14,6 +14,3 @@ $
 Here $\alpha=(\alpha_1,\dots,\alpha_n)$, $|\alpha|=\alpha_1+\cdots+\alpha_n$, $\alpha!=\alpha_1!\cdots \alpha_n!$, and $h^\alpha=h_1^{\alpha_1}\cdots h_n^{\alpha_n}$.
 
 Taylor's theorem is the basis for local approximation, classification of {{< knowl id="critical-point" text="critical points" >}}, and higher-order error bounds in multivariable calculus.
-
-**Proof sketch**:
-Fix $h$ and consider the one-variable function $\phi(t)=f(a+th)$ for $t$ near $0$. Apply the one-dimensional {{< knowl id="taylors-theorem-with-remainder" text="Taylor theorem" >}} to $\phi$ at $t=0$ and translate the derivatives $\phi^{(j)}(0)$ into {{< knowl id="directional-derivative" text="directional derivatives" >}} expressed in terms of {{< knowl id="partial-derivative" text="partial derivatives" >}} of $f$ at $a$. The remainder estimate follows from the one-dimensional remainder estimate and smoothness of $f$.

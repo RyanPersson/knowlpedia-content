@@ -20,10 +20,3 @@ $
 In particular, if $\|B-A\|\le \frac{1}{2\|A^{-1}\|}$ then $B$ is invertible and $\|B^{-1}\|\le 2\|A^{-1}\|$.
 
 This lemma is a key linear-algebraic ingredient in the {{< knowl id="inverse-function-theorem-rk" text="inverse function theorem" >}}: once $Df(a)$ is invertible, $Df(x)$ remains invertible for all $x$ sufficiently close to $a$ (because $Df$ is {{< knowl id="continuity-on-a-set" text="continuous" >}}).
-
-**Proof sketch**:
-Write
-$
-B=A\bigl(I+E\bigr)\quad\text{where}\quad E=A^{-1}(B-A).
-$
-If $\|E\|<1$, then $(I+E)^{-1}=\sum_{k=0}^\infty (-E)^k$ {{< knowl id="convergent-series" text="converges" >}} in {{< knowl id="operator-norm" text="operator norm" >}}, so $B^{-1}=(I+E)^{-1}A^{-1}$. The norm bound follows from the {{< knowl id="geometric-series" text="geometric series" >}} estimate.

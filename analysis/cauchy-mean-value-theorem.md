@@ -13,8 +13,3 @@ $
 $
 
 This theorem is a standard tool for proving {{< knowl id="lhopitals-rule" text="L'Hôpital-type results" >}} and for comparing rates of change of two functions.
-
-**Proof sketch**:
-Consider
-$h(x)=\bigl(f(b)-f(a)\bigr)g(x)-\bigl(g(b)-g(a)\bigr)f(x).$
-Then $h$ is continuous on $[a,b]$, differentiable on $(a,b)$, and $h(a)=h(b)$. Apply {{< knowl id="rolles-theorem" text="Rolle's theorem" >}} to $h$ to obtain $h'(c)=0$ and rearrange.

@@ -10,6 +10,3 @@ $
 Then $\Gamma_f$ is compact in the product metric space $X\times Y$.
 
 This lemma is useful when turning statements about functions into statements about sets, for example in limiting arguments and compactness proofs.
-
-**Proof sketch**:
-Define $F:K\to X\times Y$ by $F(x)=(x,f(x))$. The map $F$ is continuous, and $\Gamma_f=F(K)$ is the {{< knowl id="continuous-image-of-compact-set-is-compact" text="continuous image of a compact set" >}}, hence compact.

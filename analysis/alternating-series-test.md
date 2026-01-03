@@ -8,6 +8,3 @@ $\sum_{n=1}^\infty (-1)^{n-1} b_n$
 {{< knowl id="convergent-series" text="converges" >}}.
 
 This test explains convergence driven by cancellation even when $\sum b_n$ diverges, and it yields a standard remainder estimate: the truncation error is at most the next term magnitude.
-
-**Proof sketch** *(optional)*:
-The even and odd {{< knowl id="partial-sums" text="partial sums" >}} form monotone sequences that are bounded and squeeze to the same limit, using the monotonicity of $b_n$.

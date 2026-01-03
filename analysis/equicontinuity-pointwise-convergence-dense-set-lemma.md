@@ -12,11 +12,3 @@ Assume there exists a {{< knowl id="dense-subset" text="dense" >}} subset $D\sub
 Then $(f_n)$ is {{< knowl id="uniform-cauchy-sequence-of-functions" text="uniformly Cauchy" >}} on $K$, hence {{< knowl id="uniform-convergence-of-a-sequence-of-functions" text="converges uniformly" >}} on $K$ to some continuous function $f$. Moreover, $f(x)=\lim_{n\to\infty} f_n(x)$ for all $x\in D$.
 
 This lemma is a standard compactness-and-equicontinuity upgrade principle and is one of the key steps behind Arzelà–Ascoli-type arguments.
-
-**Proof sketch**:
-Fix $\varepsilon>0$ and choose $\delta>0$ from equicontinuity for $\varepsilon/3$. Compactness gives a finite $\delta$-net in $K$; by density, choose net points $y_1,\dots,y_N\in D$. Since $(f_n(y_i))$ converges for each $i$, it is Cauchy, so choose $N_0$ making $|f_n(y_i)-f_m(y_i)|<\varepsilon/3$ for all $i$ when $m,n\ge N_0$. For any $x\in K$, pick $i$ with $d(x,y_i)<\delta$ and use
-$
-|f_n(x)-f_m(x)|
-\le |f_n(x)-f_n(y_i)|+|f_n(y_i)-f_m(y_i)|+|f_m(y_i)-f_m(x)|<\varepsilon,
-$
-giving uniform Cauchy.

@@ -26,6 +26,3 @@ V\subseteq Y \text{ open} \implies f^{-1}(V)\subseteq X \text{ open}.
 $
 
 These equivalences let you choose the most convenient continuity definition for a given proof.
-
-**Proof sketch**:
-Epsilon–delta $\Rightarrow$ sequential is immediate by applying the epsilon–delta condition to the tail of a convergent sequence. Sequential $\Rightarrow$ epsilon–delta is proved by contraposition: if epsilon–delta fails, build a sequence $x_n\to x_0$ with $f(x_n)$ staying a fixed distance from $f(x_0)$. The open-set formulation is obtained by taking $V$ to be an open ball around $f(x_0)$, and conversely by applying epsilon–delta to those balls.

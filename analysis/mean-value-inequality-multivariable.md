@@ -17,14 +17,3 @@ $
 $
 
 This inequality is the multivariable analogue of the one-dimensional {{< knowl id="mean-value-theorem" text="mean value estimate" >}} and is used to prove {{< knowl id="lipschitz-continuity" text="Lipschitz bounds" >}}, uniqueness results, and the {{< knowl id="inverse-function-theorem-rk" text="inverse" >}}/{{< knowl id="implicit-function-theorem" text="implicit function theorems" >}}.
-
-**Proof sketch**:
-Define $\gamma(t)=x+t(y-x)$ and consider $F(t)=f(\gamma(t))$. Then $F'(t)=Df(\gamma(t))(y-x)$ by the {{< knowl id="chain-rule-multivariable" text="chain rule" >}}, and
-$
-\|F'(t)\|\le \|Df(\gamma(t))\|\,\|y-x\|\le M\|y-x\|.
-$
-Integrate from $0$ to $1$:
-$
-f(y)-f(x)=F(1)-F(0)=\int_0^1 F'(t)\,dt,
-$
-and bound the integral norm by $M\|y-x\|$.

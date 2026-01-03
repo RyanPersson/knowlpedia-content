@@ -15,10 +15,3 @@ $
 $
 
 This result explains why nonvanishing {{< knowl id="derivative" text="derivative" >}} is the correct "local invertibility" condition in one dimension and provides the derivative formula for inverse functions used throughout calculus.
-
-**Proof sketch**:
-Strict monotonicity gives existence and continuity of the inverse. For the derivative, write for $y\neq y_0$
-$
-\frac{f^{-1}(y)-f^{-1}(y_0)}{y-y_0}=\frac{x-x_0}{f(x)-f(x_0)}
-$
-with $x=f^{-1}(y)$. As $y\to y_0$, we have $x\to x_0$, and the right-hand side tends to $1/f'(x_0)$ by the definition of the derivative of $f$ at $x_0$.

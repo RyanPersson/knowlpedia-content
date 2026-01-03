@@ -13,10 +13,3 @@ $
 $
 
 Uniform convergence on {{< knowl id="compact-set" text="compact subsets" >}} is the mechanism behind the "good behavior" of power series: {{< knowl id="continuity-on-a-set" text="continuity" >}}, {{< knowl id="term-by-term-differentiation-of-power-series" text="term-by-term differentiation" >}}, and {{< knowl id="term-by-term-integration-of-power-series" text="term-by-term integration" >}} hold inside the disk/interval of convergence.
-
-**Proof sketch**:
-For $|x-x_0|\le r$,
-$
-|a_n(x-x_0)^n|\le |a_n|\,r^n.
-$
-Since $r<R$, the numerical series $\sum |a_n|r^n$ {{< knowl id="convergent-series" text="converges" >}} ({{< knowl id="absolutely-convergent-series" text="absolute convergence" >}} inside the radius). Apply the {{< knowl id="weierstrass-m-test" text="Weierstrass M-test" >}} to obtain uniform convergence.

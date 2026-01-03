@@ -7,6 +7,3 @@ description: "In metric spaces, f is continuous at x iff it preserves limits of 
 $x_n\to x \quad\Longrightarrow\quad f(x_n)\to f(x).$
 
 This is one of the most-used characterizations of continuity in analysis: it converts an $\varepsilon$–$\delta$ condition into a limit-preservation property.
-
-**Proof sketch** *(optional)*:
-If $f$ is continuous, apply the $\varepsilon$–$\delta$ definition to the tail of the sequence. Conversely, if $f$ is not continuous at $x$, build a sequence $x_n\to x$ with $f(x_n)$ staying a fixed distance away from $f(x)$ by choosing $x_n$ in shrinking {{< knowl id="neighborhood" text="neighborhoods" >}} where the $\varepsilon$–$\delta$ condition fails.

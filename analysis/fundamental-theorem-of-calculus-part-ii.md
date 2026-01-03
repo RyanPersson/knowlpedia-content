@@ -13,6 +13,3 @@ $
 $
 
 This is the evaluation rule behind essentially all "antiderivative computations" of definite integrals in calculus.
-
-**Proof sketch**:
-Let $G(x)=\int_a^x f(t)\,dt$. By {{< knowl id="fundamental-theorem-of-calculus-part-i" text="Part I" >}}, $G'(x)=f(x)$ for all $x\in(a,b)$. Then $(F-G)'=0$ on $(a,b)$, so $F-G$ is constant on $[a,b]$. Evaluating at $a$ gives $F(x)-G(x)=F(a)$, hence $G(b)=F(b)-F(a)$.

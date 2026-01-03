@@ -10,6 +10,3 @@ description: "On a compact space, monotone pointwise convergence of continuous f
 Then $f_n\to f$ {{< knowl id="uniform-convergence-of-a-sequence-of-functions" text="uniformly" >}} on $K$.
 
 Dini's theorem is a compactness-based upgrade from pointwise to uniform convergence when monotonicity is present. It is especially useful when uniform estimates are hard but monotone structure is available.
-
-**Proof sketch**:
-Assume $f_n\uparrow f$ (the decreasing case is similar). If convergence were not uniform, there would exist $\varepsilon>0$ and points $x_n\in K$ with $f(x_n)-f_n(x_n)\ge\varepsilon$. By compactness, pass to a {{< knowl id="subsequence" text="subsequence" >}} $x_{n_k}\to x$. Use continuity of $f$ and $f_{n_k}$ plus monotonicity in $n$ to show $f(x)-f_{n_k}(x)$ cannot stay $\ge\varepsilon$, a contradiction.

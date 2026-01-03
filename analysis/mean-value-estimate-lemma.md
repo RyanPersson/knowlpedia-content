@@ -15,15 +15,3 @@ $
 $
 
 This estimate is a standard quantitative form of {{< knowl id="differentiable-map" text="differentiability" >}} used in proofs of the {{< knowl id="inverse-function-theorem-rk" text="inverse" >}} and {{< knowl id="implicit-function-theorem" text="implicit function theorems" >}}: it says that on sufficiently small scales, $f$ behaves like the {{< knowl id="linear-map" text="linear map" >}} $Df(a)$ with a uniformly small relative error.
-
-**Proof sketch**:
-Using the {{< knowl id="fundamental-theorem-of-calculus" text="fundamental theorem of calculus" >}} along the segment $\gamma(t)=x+t(y-x)$,
-$
-f(y)-f(x)=\int_0^1 Df(\gamma(t))(y-x)\,dt.
-$
-Subtract $Df(a)(y-x)$ and take norms:
-$
-\|f(y)-f(x)-Df(a)(y-x)\|
-\le \int_0^1 \|Df(\gamma(t))-Df(a)\|\,dt\;\|y-x\|.
-$
-{{< knowl id="continuity-on-a-set" text="Continuity" >}} of $Df$ at $a$ gives $\delta$ such that $\|Df(z)-Df(a)\|<\varepsilon$ whenever $\|z-a\|<\delta$, and $\gamma(t)$ stays within that ball when $x,y$ do.

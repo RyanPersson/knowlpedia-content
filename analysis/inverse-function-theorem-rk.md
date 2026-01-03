@@ -17,6 +17,3 @@ Let $b=f(a)$. Then there exist open {{< knowl id="neighborhood" text="neighborho
   and more generally $Df^{-1}(y)=(Df(f^{-1}(y)))^{-1}$ for $y\in V_0$.
 
 This theorem is the rigorous foundation for local coordinate changes and for solving $f(x)=y$ locally when the linearization is invertible. See also {{< knowl id="diffeomorphism" text="diffeomorphism" >}}.
-
-**Proof sketch**:
-Since $Df(a)$ is invertible, $f$ is well-approximated near $a$ by the invertible {{< knowl id="linear-map" text="linear map" >}} $Df(a)$. Using the {{< knowl id="mean-value-inequality-multivariable" text="mean value inequality" >}}, one shows that a suitable Newton-type map is a contraction on a small {{< knowl id="open-ball" text="ball" >}} (after composing with $(Df(a))^{-1}$), giving existence and uniqueness of local solutions via the contraction mapping principle. Differentiability of the inverse follows from differentiating the identity $f(f^{-1}(y))=y$.

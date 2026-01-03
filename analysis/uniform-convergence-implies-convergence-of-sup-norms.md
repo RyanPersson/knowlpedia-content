@@ -18,10 +18,3 @@ $
 $
 
 This inequality shows the sup norm is {{< knowl id="continuity-on-a-set" text="continuous" >}} with respect to uniform convergence and is used constantly in approximation arguments on {{< knowl id="compact-set" text="compact sets" >}}.
-
-**Proof sketch**:
-The equivalence is immediate from the definitions. For the inequality, note that for every $x$,
-$
-|f_n(x)|\le |f(x)|+|f_n(x)-f(x)|,
-$
-take {{< knowl id="supremum" text="suprema" >}} to get $\|f_n\|_\infty\le \|f\|_\infty+\|f_n-f\|_\infty$, and reverse the roles of $f_n$ and $f$.

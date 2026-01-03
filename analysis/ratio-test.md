@@ -10,6 +10,3 @@ $\rho=\limsup_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|.$
 - If $\rho=1$, the test is inconclusive.
 
 The ratio test is particularly effective for factorials and exponential-type terms.
-
-**Proof sketch** *(optional)*:
-If $\rho<1$, choose $r$ with $\rho<r<1$ so that eventually $|a_{n+1}|\le r|a_n|$, implying $|a_n|$ is bounded by a geometric sequence and hence summable.

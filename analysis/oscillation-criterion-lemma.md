@@ -19,6 +19,3 @@ $
 $
 
 This criterion repackages $U(f,P)-L(f,P)$ into a concrete "local oscillation" quantity and is a standard starting point for proving integrability of classes of functions.
-
-**Proof sketch**:
-On each subinterval, the {{< knowl id="upper-sum-riemann" text="upper" >}} contribution is $M_i\Delta x_i$ with $M_i=\sup f$ and the {{< knowl id="lower-sum-riemann" text="lower" >}} contribution is $m_i\Delta x_i$ with $m_i=\inf f$, so the difference is $(M_i-m_i)\Delta x_i=\omega(f;I_i)\Delta x_i$. The criterion is immediate from the definition of Riemann integrability as the ability to make $U(f,P)-L(f,P)$ arbitrarily small.

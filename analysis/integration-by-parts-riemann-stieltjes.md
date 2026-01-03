@@ -9,6 +9,3 @@ $
 $
 
 This identity generalizes the usual integration by parts formula for {{< knowl id="riemann-integral" text="Riemann integrals" >}} and is essential in applications of the Riemann–Stieltjes integral (e.g., summation by parts and Fourier analysis).
-
-**Proof sketch**:
-For a {{< knowl id="tagged-partition" text="tagged partition" >}}, the discrete sums satisfy a finite "summation by parts" identity. One shows that as the {{< knowl id="mesh-of-a-partition" text="mesh" >}} of the partition goes to zero, these sums converge to the Riemann–Stieltjes integrals, and the discrete identity passes to the limit under the bounded-variation/continuity hypotheses.

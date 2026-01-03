@@ -18,6 +18,3 @@ $
 with the conventions $1/0=\infty$ and $1/\infty=0$. The series {{< knowl id="absolutely-convergent-series" text="converges absolutely" >}} for $|x-x_0|<R$ and {{< knowl id="divergent-series" text="diverges" >}} for $|x-x_0|>R$.
 
 This theorem is the standard quantitative description of where a power series defines a function.
-
-**Proof sketch**:
-Apply the {{< knowl id="root-test" text="root test" >}} to the term $a_n(x-x_0)^n$. The $n$th root of its magnitude is $\sqrt[n]{|a_n|}\,|x-x_0|$, whose {{< knowl id="limit-superior-lim-sup" text="limsup" >}} is $L|x-x_0|$. The root test yields convergence when $L|x-x_0|<1$ and divergence when $L|x-x_0|>1$.

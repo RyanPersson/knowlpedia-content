@@ -19,6 +19,3 @@ $
 $
 
 This theorem justifies computing multiple integrals by integrating one variable at a time via {{< knowl id="iterated-integral" text="iterated integrals" >}}, a core technique in analysis and applications.
-
-**Proof sketch**:
-Continuity on the {{< knowl id="compact-set" text="compact" >}} rectangle implies {{< knowl id="uniform-continuity" text="uniform continuity" >}} and boundedness. Approximate $f$ uniformly by {{< knowl id="step-function" text="step functions" >}} on rectangles (or compare {{< knowl id="upper-sum-riemann" text="upper" >}}/{{< knowl id="lower-sum-riemann" text="lower sums" >}}). For step functions the statement is immediate by finite additivity. Uniform approximation plus the {{< knowl id="uniform-convergence-and-integration-theorem" text="uniform convergence-and-integration principle" >}} yields the equality for $f$.

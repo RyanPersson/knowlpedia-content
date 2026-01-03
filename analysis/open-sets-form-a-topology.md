@@ -9,6 +9,3 @@ description: "In a metric space, unions of open sets are open and finite interse
 - finite intersections of open sets are open: if $U_1,\dots,U_n$ are open, then $\bigcap_{j=1}^n U_j$ is open.
 
 These closure properties justify treating "open sets" as the primitive objects defining the topological structure induced by a {{< knowl id="metric" text="metric" >}}.
-
-**Proof sketch** *(optional)*:
-Use the $\varepsilon$-ball definition: for unions pick the ball guaranteed by the open set containing the point; for intersections use the minimum of the radii from each open set.

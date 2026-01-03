@@ -11,12 +11,3 @@ description: "Uniform limits of integrable functions are integrable and integral
   $
 
 This theorem justifies passing limits through integrals when convergence is uniform, and it is a standard tool in approximation and {{< knowl id="series-of-functions" text="series-of-functions" >}} arguments.
-
-**Proof sketch**:
-Uniform convergence gives $\|f-f_n\|_\infty\to 0$. For the integral identity, use
-$
-\left|\int_a^b f-\int_a^b f_n\right|
-\le \int_a^b |f-f_n|
-\le (b-a)\|f-f_n\|_\infty \to 0.
-$
-To show $f$ is integrable, combine integrability of some $f_n$ (choose $n$ large) with the estimate that {{< knowl id="upper-sum-riemann" text="upper" >}}/{{< knowl id="lower-sum-riemann" text="lower sums" >}} for $f$ differ from those of $f_n$ by at most $(b-a)\|f-f_n\|_\infty$.

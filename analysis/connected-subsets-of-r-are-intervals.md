@@ -8,6 +8,3 @@ $(a,b)\subseteq E,$
 equivalently, every $x$ with $a\le x\le b$ lies in $E$.
 
 This characterizes connectedness on the line and is the key to the {{< knowl id="intermediate-value-theorem" text="intermediate value theorem" >}} and many "no gaps" arguments.
-
-**Proof sketch** *(optional)*:
-If $E$ fails to contain some point between $a<b$ in $E$, then $E$ can be {{< knowl id="separated-sets" text="separated" >}} into $E\cap(-\infty,x)$ and $E\cap(x,\infty)$. Conversely, if $E$ is an interval, any attempted separation would force a "gap," contradicting the interval property.

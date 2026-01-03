@@ -8,6 +8,3 @@ $f^{-1}(V)=\{x\in X: f(x)\in V\}$
 is open in $X$.
 
 This formulation is fundamental in topology and makes continuity compatible with {{< knowl id="composition-of-functions" text="compositions" >}} and other structural operations.
-
-**Proof sketch** *(optional)*:
-If $f$ is continuous and $x\in f^{-1}(V)$, then $f(x)\in V$ and some {{< knowl id="open-ball" text="ball" >}} around $f(x)$ lies in $V$; continuity gives a ball around $x$ mapped into that ball, hence into $V$. Conversely, take $V$ to be an open ball around $f(x)$ to recover the $\varepsilon$–$\delta$ definition.

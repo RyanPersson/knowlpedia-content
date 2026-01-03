@@ -9,6 +9,3 @@ If at least one of the series $\sum a_n$ or $\sum b_n$ {{< knowl id="absolutely-
 $\sum_{n=0}^\infty c_n = \left(\sum_{n=0}^\infty a_n\right)\left(\sum_{n=0}^\infty b_n\right).$
 
 This result justifies multiplying power series and many other formal series manipulations when absolute convergence is present.
-
-**Proof sketch** *(optional)*:
-Absolute convergence lets one control double sums $\sum_{n,k}$ by comparison with $\sum |a_n|\,|b_k|$ and interchange summation order, turning the product of sums into the sum of convolutions.

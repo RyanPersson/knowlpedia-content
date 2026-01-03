@@ -14,6 +14,3 @@ $
 In particular, if $\delta=\min_{1\le i\le N} \frac{r_{x_i}}{2}$, then $\delta>0$ and for every $x\in K$ there exists $U\in\mathcal{U}$ with $B(x,\delta)\subseteq U$.
 
 This is the standard compactness step that produces a uniform scale from pointwise local containment. See also {{< knowl id="lebesgue-number-lemma" text="Lebesgue number lemma" >}}.
-
-**Proof sketch**:
-The family $\{B(x,r_x/2):x\in K\}$ is an open cover of $K$, so compactness yields a {{< knowl id="finite-subcover-lemma" text="finite subcover" >}}. The minimum of finitely many positive radii is positive.

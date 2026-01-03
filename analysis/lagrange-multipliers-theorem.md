@@ -17,6 +17,3 @@ $
 $
 
 This theorem explains the "{{< knowl id="gradient" text="gradient" >}} is normal to the constraint" principle and is a core technique in constrained optimization and geometry. See also {{< knowl id="lagrange-multiplier-condition" text="Lagrange multiplier condition" >}}.
-
-**Proof sketch**:
-By the {{< knowl id="implicit-function-theorem" text="implicit function theorem" >}} and the rank hypothesis, the constraint set $C$ is locally a smooth $(n-m)$-dimensional graph. Restrict $f$ to that local parameterization to obtain an unconstrained function of $n-m$ variables; at an interior extremum its {{< knowl id="gradient" text="gradient" >}} vanishes. Translating that condition back to the original coordinates yields the existence of $\lambda$ with the stated relation.

@@ -9,6 +9,3 @@ converges, and
 $\sum_{n=1}^\infty a_{\pi(n)}=\sum_{n=1}^\infty a_n.$
 
 Absolute convergence guarantees stability of infinite sums under reindexing, a property that fails for {{< knowl id="conditionally-convergent-series" text="conditionally convergent series" >}}.
-
-**Proof sketch** *(optional)*:
-Given $\varepsilon>0$, choose $N$ so that the tail $\sum_{n>N}|a_n|<\varepsilon$. Any {{< knowl id="partial-sums" text="partial sum" >}} of the rearranged series that contains all indices $\le N$ differs from the full sum by at most $\varepsilon$ in absolute value, forcing convergence to the same limit.

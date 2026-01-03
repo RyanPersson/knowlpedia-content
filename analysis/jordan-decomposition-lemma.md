@@ -20,14 +20,3 @@ $
 Then $h$ is increasing, and $g$ is increasing as well.
 
 This lemma is fundamental for the {{< knowl id="riemann-stieltjes-integral" text="Riemann–Stieltjes integral" >}}: bounded-variation integrators behave like differences of increasing (hence "measure-like") functions.
-
-**Proof sketch**:
-The map $x\mapsto V_a^x(f)$ is increasing by definition. For $a\le x<y\le b$, the variation estimate implies
-$
-V_a^y(f)-V_a^x(f)\ge |f(y)-f(x)|\ge -(f(y)-f(x)),
-$
-so
-$
-g(y)-g(x)=(f(y)-f(x))+\bigl(V_a^y(f)-V_a^x(f)\bigr)\ge 0,
-$
-hence $g$ is increasing. Finally, $f=g-h$ holds by construction.

@@ -9,6 +9,3 @@ $
 $
 
 This theorem is the rigorous basis for {{< knowl id="change-of-variables-for-multiple-integrals" text="coordinate changes" >}} such as polar, cylindrical, and spherical coordinates, and it explains why the {{< knowl id="jacobian-determinant" text="Jacobian determinant" >}} appears in such transformations.
-
-**Proof sketch**:
-First prove the linear case: if $\Phi(u)=Au$ with $A\in GL(n)$, then volumes scale by $|\det A|$. For smooth $\Phi$, on small boxes $\Phi$ is well-approximated by its {{< knowl id="total-derivative-frechet-derivative" text="derivative" >}} $D\Phi$; the Jacobian determinant controls local volume distortion. One then partitions $E$ into small pieces, applies near-linearity on each piece, and passes to the limit using {{< knowl id="uniform-continuity" text="uniform continuity" >}} and additivity.

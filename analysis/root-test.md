@@ -10,6 +10,3 @@ $\alpha=\limsup_{n\to\infty}\sqrt[n]{|a_n|}.$
 - If $\alpha=1$, the test is inconclusive.
 
 The root test is well-suited for expressions like $|a_n|=(\text{something})^n$.
-
-**Proof sketch** *(optional)*:
-If $\alpha<1$, choose $r$ with $\alpha<r<1$. Then for large $n$, $|a_n|\le r^n$, and $\sum r^n$ converges.

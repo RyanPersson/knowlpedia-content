@@ -13,12 +13,3 @@ $
 $
 
 The M-test is a primary mechanism for proving uniform convergence, especially for power series and Fourier-type expansions.
-
-**Proof sketch**:
-Use the uniform {{< knowl id="cauchy-sequence" text="Cauchy criterion" >}}: for $m>n$,
-$
-\sup_{x\in X}\left|\sum_{k=n+1}^m f_k(x)\right|
-\le \sup_{x\in X}\sum_{k=n+1}^m |f_k(x)|
-\le \sum_{k=n+1}^m M_k.
-$
-Since $\sum M_k$ converges, the tail $\sum_{k=n+1}^m M_k$ can be made arbitrarily small uniformly in $m$, proving uniform convergence.

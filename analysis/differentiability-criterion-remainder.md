@@ -17,6 +17,3 @@ Let $U\subseteq\mathbb{R}^n$ be {{< knowl id="open-set" text="open" >}}, let $f:
   $
 
 In this formulation, $Ah$ is the best linear approximation to $f$ near $a$ and the remainder is "small compared to $\|h\|$."
-
-**Proof sketch**:
-The second statement is the definition of differentiability. The third is exactly the $\varepsilon$–$\delta$ rewriting of the {{< knowl id="limit-of-a-function-at-a-point" text="limit" >}} in the second statement: a limit equals $0$ iff it can be made $<\varepsilon$ for all sufficiently small $h$.

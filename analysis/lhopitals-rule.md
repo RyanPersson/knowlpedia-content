@@ -14,10 +14,3 @@ $
 $
 
 This rule is a standard tool for evaluating difficult limits, but it must be used with all hypotheses in place (especially the differentiability and nonvanishing of $g'$ near the limit point).
-
-**Proof sketch**:
-For $x\in(a,b)$, apply the {{< knowl id="cauchy-mean-value-theorem" text="Cauchy mean value theorem" >}} to $f$ and $g$ on $[a,x]$. There exists $c\in(a,x)$ such that
-$
-\frac{f(x)-f(a)}{g(x)-g(a)}=\frac{f'(c)}{g'(c)}.
-$
-Since $f(a)=g(a)=0$, this becomes $\frac{f(x)}{g(x)}=\frac{f'(c)}{g'(c)}$. As $x\to a^+$ we have $c\to a^+$, and the right-hand side tends to $L$.

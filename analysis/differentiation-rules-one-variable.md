@@ -24,12 +24,3 @@ Let $I\subseteq\mathbb{R}$ be an {{< knowl id="interval" text="interval" >}} and
   $
 
 These formulas are the computational backbone of differential calculus; they are proved directly from the {{< knowl id="limit-of-a-function-at-a-point" text="limit" >}} definition of the {{< knowl id="derivative" text="derivative" >}}.
-
-**Proof sketch**:
-Use algebraic manipulation of difference quotients, e.g.
-$
-\frac{f(x+h)g(x+h)-f(x)g(x)}{h}
-=
-\frac{f(x+h)-f(x)}{h}g(x+h)+f(x)\frac{g(x+h)-g(x)}{h},
-$
-then pass to the limit using {{< knowl id="continuity-at-a-point" text="continuity" >}} of differentiable functions.

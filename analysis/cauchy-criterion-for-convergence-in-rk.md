@@ -9,6 +9,3 @@ $x_n\to x \text{ for some } x\in\mathbb{R}^k
 \forall \varepsilon>0\;\exists N\;\forall m,n\ge N:\ \|x_n-x_m\|<\varepsilon.$
 
 This is the {{< knowl id="complete-metric-space" text="completeness" >}} of Euclidean space and is central to analysis: it allows one to prove convergence by controlling pairwise distances rather than guessing the limit.
-
-**Proof sketch** *(optional)*:
-If $x_n\to x$ then $\|x_n-x_m\|\le \|x_n-x\|+\|x_m-x\|$ shows Cauchy. Conversely, if $(x_n)$ is Cauchy, each coordinate sequence is Cauchy in $\mathbb{R}$ and hence convergent; the vector of coordinate limits is the limit in $\mathbb{R}^k$.

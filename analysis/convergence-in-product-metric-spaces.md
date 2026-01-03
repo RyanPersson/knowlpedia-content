@@ -16,12 +16,3 @@ $
 Likewise, $((x_n,y_n))$ is {{< knowl id="cauchy-sequence" text="Cauchy" >}} in $X\times Y$ iff $(x_n)$ is Cauchy in $X$ and $(y_n)$ is Cauchy in $Y$.
 
 This proposition justifies treating product convergence as "simultaneous convergence of components."
-
-**Proof sketch**:
-By definition,
-$
-d_\infty\bigl((x_n,y_n),(x,y)\bigr)\to 0
-\quad\Longleftrightarrow\quad
-\max\{d_X(x_n,x),d_Y(y_n,y)\}\to 0,
-$
-which holds iff both $d_X(x_n,x)\to 0$ and $d_Y(y_n,y)\to 0$. The Cauchy statement is identical with $(x,y)$ replaced by $(x_m,y_m)$.

@@ -23,11 +23,3 @@ Let $U\subseteq\mathbb{R}^n$ be {{< knowl id="open-set" text="open" >}} and let 
 - If $H$ is only semidefinite, the test is inconclusive.
 
 These tests are consequences of {{< knowl id="taylor-polynomial" text="Taylor's theorem" >}}: near a critical point, the quadratic term $\frac12 h^{\mathsf T}Hh$ controls the leading behavior of $f(a+h)-f(a)$.
-
-**Proof sketch**:
-One-variable: Taylor's theorem gives $f(a+h)=f(a)+\tfrac12 f''(\xi)h^2$ for some $\xi$ between $a$ and $a+h$; the sign of $f''(a)$ controls the sign for $h$ small.
-Multivariable: Taylor's theorem yields
-$
-f(a+h)=f(a)+\frac12 h^{\mathsf T}Hh+o(\|h\|^2).
-$
-If $H$ is positive definite, then $h^{\mathsf T}Hh\ge c\|h\|^2$ for some $c>0$, which dominates the $o(\|h\|^2)$ remainder for small $h$, giving $f(a+h)>f(a)$ for $h\neq 0$ small.

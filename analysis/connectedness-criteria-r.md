@@ -11,6 +11,3 @@ Let $E\subseteq \mathbb{R}$ with the usual metric.
 - $E$ is an {{< knowl id="interval" text="interval" >}} in the order-theoretic sense (possibly degenerate: a point, empty set, open/closed/half-open intervals, rays, or all of $\mathbb{R}$).
 
 This is the special feature of $\mathbb{R}$ that makes connectedness extremely concrete and powers the {{< knowl id="intermediate-value-theorem" text="intermediate value theorem" >}}.
-
-**Proof sketch**:
-If $E$ fails the "between points" property, pick $a<b$ in $E$ and $c\in(a,b)\setminus E$; then $E\cap(-\infty,c)$ and $E\cap(c,\infty)$ separate $E$. Conversely, if $E$ is an interval, any alleged separation would force a gap, contradicting that the interval contains all intermediate points.
