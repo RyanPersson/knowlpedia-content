@@ -11,8 +11,8 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 
 ### Basic Definitions
 
-- {{< knowl id="lie-group" section="geometry-bundles" text="Lie group" >}}
-- {{< knowl id="lie-subgroup" section="geometry-bundles" text="Lie subgroup" >}}
+- {{< knowl id="lie-group" section="fiber-bundles" text="Lie group" >}}
+- {{< knowl id="lie-subgroup" section="fiber-bundles" text="Lie subgroup" >}}
 - {{< knowl id="connected-lie-group" text="Connected Lie group" >}}
 - {{< knowl id="simply-connected-lie-group" text="Simply connected Lie group" >}}
 - {{< knowl id="compact-lie-group" text="Compact Lie group" >}}
@@ -32,19 +32,19 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 
 ### Translations
 
-- {{< knowl id="left-translation" section="geometry-bundles" text="Left translation" >}}
-- {{< knowl id="right-translation" section="geometry-bundles" text="Right translation" >}}
-- {{< knowl id="left-invariant-vector-field" section="geometry-bundles" text="Left-invariant vector field" >}}
-- {{< knowl id="right-invariant-vector-field" section="geometry-bundles" text="Right-invariant vector field" >}}
+- {{< knowl id="left-translation" section="fiber-bundles" text="Left translation" >}}
+- {{< knowl id="right-translation" section="fiber-bundles" text="Right translation" >}}
+- {{< knowl id="left-invariant-vector-field" section="fiber-bundles" text="Left-invariant vector field" >}}
+- {{< knowl id="right-invariant-vector-field" section="fiber-bundles" text="Right-invariant vector field" >}}
 - {{< knowl id="bi-invariant-metric" text="Bi-invariant metric" >}}
 
 ## Lie Algebras
 
 ### Basic Definitions
 
-- {{< knowl id="lie-algebra" section="geometry-bundles" text="Lie algebra" >}}
-- {{< knowl id="lie-algebra-of-a-lie-group" section="geometry-bundles" text="Lie algebra of a Lie group" >}}
-- {{< knowl id="lie-bracket" section="geometry-bundles" text="Lie bracket" >}}
+- {{< knowl id="lie-algebra" section="fiber-bundles" text="Lie algebra" >}}
+- {{< knowl id="lie-algebra-of-a-lie-group" section="fiber-bundles" text="Lie algebra of a Lie group" >}}
+- {{< knowl id="lie-bracket" section="fiber-bundles" text="Lie bracket" >}}
 - {{< knowl id="lie-subalgebra" text="Lie subalgebra" >}}
 - {{< knowl id="ideal-lie-algebra" text="Ideal (Lie algebra)" >}}
 - {{< knowl id="lie-algebra-homomorphism" text="Lie algebra homomorphism" >}}
@@ -80,15 +80,15 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 
 ### Adjoint Representations
 
-- {{< knowl id="adjoint-action-of-a-lie-group" section="geometry-bundles" text="Adjoint action (Ad)" >}}
-- {{< knowl id="coadjoint-action-of-a-lie-group" section="geometry-bundles" text="Coadjoint action (Ad*)" >}}
-- {{< knowl id="adjoint-representation-of-a-lie-algebra" section="geometry-bundles" text="Adjoint representation (ad)" >}}
+- {{< knowl id="adjoint-action-of-a-lie-group" section="fiber-bundles" text="Adjoint action (Ad)" >}}
+- {{< knowl id="coadjoint-action-of-a-lie-group" section="fiber-bundles" text="Coadjoint action (Ad*)" >}}
+- {{< knowl id="adjoint-representation-of-a-lie-algebra" section="fiber-bundles" text="Adjoint representation (ad)" >}}
 - {{< knowl id="conjugation-action-of-a-lie-group" text="Conjugation action" >}}
 
 ### General Representations
 
-- {{< knowl id="representation-of-a-lie-group" section="geometry-bundles" text="Representation of a Lie group" >}}
-- {{< knowl id="representation-of-a-lie-algebra" section="geometry-bundles" text="Representation of a Lie algebra" >}}
+- {{< knowl id="representation-of-a-lie-group" section="fiber-bundles" text="Representation of a Lie group" >}}
+- {{< knowl id="representation-of-a-lie-algebra" section="fiber-bundles" text="Representation of a Lie algebra" >}}
 - {{< knowl id="irreducible-representation-lie-group" text="Irreducible representation (group)" >}}
 - {{< knowl id="irreducible-representation-lie-algebra" text="Irreducible representation (algebra)" >}}
 - {{< knowl id="completely-reducible-representation-lie" text="Completely reducible representation" >}}

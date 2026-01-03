@@ -6,7 +6,7 @@ description: "A linear action of a group on a vector space, equivalently a homom
 ## Definition
 Let \(G\) be a group and let \(k\) be a field. A **(linear) representation** of \(G\) over \(k\) is a pair \((V,\rho)\) where
 
-- \(V\) is a finite-dimensional {{< knowl id="vector-space" section="shared-linear-algebra" text="vector space" >}} over \(k\), and
+- \(V\) is a finite-dimensional {{< knowl id="vector-space" section="linear-algebra" text="vector space" >}} over \(k\), and
 - \(\rho: G \to \mathrm{GL}(V)\) is a group homomorphism.
 
 Equivalently, \(G\) acts on \(V\) by \(k\)-linear automorphisms via
@@ -22,7 +22,7 @@ A representation \((V,\rho)\) is equivalently a left module over the {{< knowl i
 \[
 k[G]\longrightarrow \mathrm{End}_k(V),
 \]
-where \(\mathrm{End}_k(V)\) consists of {{< knowl id="linear-map" section="shared-linear-algebra" text="linear maps" >}} \(V\to V\).
+where \(\mathrm{End}_k(V)\) consists of {{< knowl id="linear-map" section="linear-algebra" text="linear maps" >}} \(V\to V\).
 
 ### Morphisms of representations
 A **homomorphism of representations** \(f:(V,\rho)\to (W,\sigma)\) is a \(k\)-linear map \(f:V\to W\) such that
@@ -32,7 +32,7 @@ f(\rho(g)v)=\sigma(g)f(v)\quad\text{for all } g\in G,\ v\in V.
 Equivalently, \(f\) is a \(k[G]\)-module homomorphism (compare {{< knowl id="module-homomorphism" section="algebra-modules" text="module homomorphism" >}}).
 
 ### Character
-To any representation one associates its {{< knowl id="character" text="character" >}} \(\chi_\rho(g)=\mathrm{tr}(\rho(g))\), using the {{< knowl id="trace" section="shared-linear-algebra" text="trace" >}}.
+To any representation one associates its {{< knowl id="character" text="character" >}} \(\chi_\rho(g)=\mathrm{tr}(\rho(g))\), using the {{< knowl id="trace" section="linear-algebra" text="trace" >}}.
 
 ## Examples
 1. **Trivial representation (any group).**  

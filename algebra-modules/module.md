@@ -11,7 +11,7 @@ Let $R$ be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} (often 
 
 A **right $R$-module** is defined similarly with a map $M\times R\to M$, $(m,r)\mapsto mr$, satisfying the analogous axioms.
 
-The axioms are collected in {{< knowl id="module-axioms" text="module axioms" >}}. When $R$ is a {{< knowl id="field" section="algebra-rings" text="field" >}}, left $R$-modules are the same objects as {{< knowl id="vector-space" section="shared-linear-algebra" text="vector spaces" >}}. Ideals of a ring give basic examples of modules, linking module theory to {{< knowl id="ideal" section="algebra-rings" text="ideal" >}} theory.
+The axioms are collected in {{< knowl id="module-axioms" text="module axioms" >}}. When $R$ is a {{< knowl id="field" section="algebra-rings" text="field" >}}, left $R$-modules are the same objects as {{< knowl id="vector-space" section="linear-algebra" text="vector spaces" >}}. Ideals of a ring give basic examples of modules, linking module theory to {{< knowl id="ideal" section="algebra-rings" text="ideal" >}} theory.
 
 **Examples:**
 - For any ring $R$, the additive group of $R$ is a left $R$-module via multiplication: $r\cdot x=rx$.

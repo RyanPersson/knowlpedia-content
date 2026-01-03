@@ -1,9 +1,9 @@
 ---
-title: "Shared Linear Algebra"
-description: "Vector spaces, linear maps, and matrix theory used in both analysis and algebra"
+title: "Linear Algebra"
+description: "Vector spaces, linear maps, and matrix theory"
 ---
 
-This section contains definitions and theorems from linear algebra that are used throughout analysis and algebra.
+Click any term to expand its definition inline.
 
 ## Contents
 

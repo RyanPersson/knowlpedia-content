@@ -1,5 +1,5 @@
 ---
-title: "Geometry Bundles"
+title: "Fiber Bundles"
 description: "Differential geometry of fiber bundles, principal bundles, and connections."
 build:
   list: local

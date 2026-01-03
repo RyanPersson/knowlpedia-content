@@ -17,11 +17,11 @@ V \;=\; W \oplus W'.
 \]
 
 ## Standard mechanism (unitary averaging)
-Choose any Hermitian {{< knowl id="inner-product" section="shared-linear-algebra" text="inner product" >}} $\langle\cdot,\cdot\rangle$ on $V$ and average it over $G$:
+Choose any Hermitian {{< knowl id="inner-product" section="linear-algebra" text="inner product" >}} $\langle\cdot,\cdot\rangle$ on $V$ and average it over $G$:
 \[
 \langle v,w\rangle_G \;=\; \frac{1}{|G|}\sum_{g\in G}\langle g\cdot v,\, g\cdot w\rangle.
 \]
-Then $\langle\cdot,\cdot\rangle_G$ is $G$-invariant. If $W\subseteq V$ is $G$-stable, its {{< knowl id="orthogonality" section="shared-linear-algebra" text="orthogonal" >}} complement $W^\perp$ with respect to $\langle\cdot,\cdot\rangle_G$ is also $G$-stable, giving $V=W\oplus W^\perp$.
+Then $\langle\cdot,\cdot\rangle_G$ is $G$-invariant. If $W\subseteq V$ is $G$-stable, its {{< knowl id="orthogonality" section="linear-algebra" text="orthogonal" >}} complement $W^\perp$ with respect to $\langle\cdot,\cdot\rangle_G$ is also $G$-stable, giving $V=W\oplus W^\perp$.
 
 This is a complex-analytic presentation of {{< knowl id="maschkes-theorem" text="Maschke's theorem" >}}.
 

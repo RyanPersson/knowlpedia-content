@@ -9,5 +9,5 @@ This construction is functorial in both variables and is central for “extensio
 
 **Examples:**
 - For abelian groups (i.e. \(\mathbb Z\)-modules), \(\mathbb Z/n\mathbb Z\otimes_{\mathbb Z}\mathbb Z/m\mathbb Z \cong \mathbb Z/\gcd(n,m)\mathbb Z\).
-- For a {{< knowl id="field" section="algebra-rings" text="field" >}} \(k\) and finite-dimensional {{< knowl id="vector-space" section="shared-linear-algebra" text="vector spaces" >}} \(V,W\), one has \(\dim_k(V\otimes_k W)=\dim_k(V)\dim_k(W)\).
+- For a {{< knowl id="field" section="algebra-rings" text="field" >}} \(k\) and finite-dimensional {{< knowl id="vector-space" section="linear-algebra" text="vector spaces" >}} \(V,W\), one has \(\dim_k(V\otimes_k W)=\dim_k(V)\dim_k(W)\).
 - If \(R\) is commutative, \(I\) is an {{< knowl id="ideal" section="algebra-rings" text="ideal" >}} of \(R\), and \(M\) is an \(R\)-module, then \((R/I)\otimes_R M \cong M/IM\) as a {{< knowl id="quotient-module" text="quotient module" >}}.

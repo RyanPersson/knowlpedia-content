@@ -20,7 +20,7 @@ This follows from the linear algebra identity
 \[
 \mathrm{tr}(A\otimes B) = \mathrm{tr}(A)\,\mathrm{tr}(B),
 \]
-using the {{< knowl id="trace" section="shared-linear-algebra" text="trace" >}}.
+using the {{< knowl id="trace" section="linear-algebra" text="trace" >}}.
 
 ## Examples
 

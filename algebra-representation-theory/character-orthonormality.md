@@ -6,7 +6,7 @@ description: "With respect to the standard inner product on class functions, irr
 Let \(G\) be a finite group, and let \(\mathrm{Cl}(G;\mathbb C)\) denote the \(\mathbb C\)-vector space of complex-valued {{< knowl id="class-function" section="algebra-groups" text="class functions" >}} on \(G\).
 
 ## The standard inner product on class functions
-Define an {{< knowl id="inner-product" section="shared-linear-algebra" text="inner product" >}} on \(\mathrm{Cl}(G;\mathbb C)\) by
+Define an {{< knowl id="inner-product" section="linear-algebra" text="inner product" >}} on \(\mathrm{Cl}(G;\mathbb C)\) by
 \[
 \langle f,g\rangle \;:=\; \frac{1}{|G|}\sum_{x\in G} f(x)\,\overline{g(x)}.
 \]
@@ -16,7 +16,7 @@ Equivalently, if the sum is taken over {{< knowl id="conjugacy-class" section="a
 \]
 since \(f,g\) are constant on each class.
 
-For a (finite-dimensional complex) {{< knowl id="group-representation" text="representation" >}} \(V\) with {{< knowl id="character" text="character" >}} \(\chi_V(g)=\mathrm{tr}(V(g))\) (using {{< knowl id="trace" section="shared-linear-algebra" text="trace" >}}), the inner product \(\langle \chi_V,\chi_W\rangle\) measures overlap between \(V\) and \(W\).
+For a (finite-dimensional complex) {{< knowl id="group-representation" text="representation" >}} \(V\) with {{< knowl id="character" text="character" >}} \(\chi_V(g)=\mathrm{tr}(V(g))\) (using {{< knowl id="trace" section="linear-algebra" text="trace" >}}), the inner product \(\langle \chi_V,\chi_W\rangle\) measures overlap between \(V\) and \(W\).
 
 ## Orthonormality statement
 Let \(\chi,\psi\) be {{< knowl id="irreducible-character" text="irreducible characters" >}} of \(G\) (over \(\mathbb C\)). Then

@@ -27,7 +27,7 @@ Restriction of scalars is the natural companion to {{< knowl id="extension-of-sc
 ### Examples
 
 1. **From a polynomial algebra to the base field.**  
-   Let $k$ be a {{< knowl id="field" section="algebra-rings" text="field" >}} and $\varphi: k \hookrightarrow k[x]$ the usual inclusion. If $M = k[x]$ is viewed as a $k[x]$-module over itself, then $\operatorname{Res}_\varphi(M)$ is just the underlying $k$-{{< knowl id="vector-space" section="shared-linear-algebra" text="vector space" >}} of polynomials, which is infinite-dimensional over $k$.
+   Let $k$ be a {{< knowl id="field" section="algebra-rings" text="field" >}} and $\varphi: k \hookrightarrow k[x]$ the usual inclusion. If $M = k[x]$ is viewed as a $k[x]$-module over itself, then $\operatorname{Res}_\varphi(M)$ is just the underlying $k$-{{< knowl id="vector-space" section="linear-algebra" text="vector space" >}} of polynomials, which is infinite-dimensional over $k$.
 
 2. **Forgetting an $S$-module to a $\mathbb{Z}$-module.**  
    For the canonical surjection $\varphi: \mathbb{Z}\to \mathbb{Z}/n\mathbb{Z}$, any $\mathbb{Z}/n\mathbb{Z}$-module $M$ becomes a $\mathbb{Z}$-module by restriction. Concretely, $\operatorname{Res}_\varphi(M)$ is the underlying abelian group of $M$, and it satisfies $nM=0$, i.e. $n$ lies in the {{< knowl id="annihilator-module" section="algebra-modules" text="annihilator" >}} of $\operatorname{Res}_\varphi(M)$.

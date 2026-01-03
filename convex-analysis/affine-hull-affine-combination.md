@@ -3,7 +3,7 @@ title: "Affine Hull and Affine Combination"
 description: "The smallest affine set containing Ω, and linear combinations with coefficients summing to 1."
 ---
 
-Let $X$ be a {{< knowl id="vector-space" section="shared-linear-algebra" text="vector space" >}} and let $\Omega\subset X$.
+Let $X$ be a {{< knowl id="vector-space" section="linear-algebra" text="vector space" >}} and let $\Omega\subset X$.
 
 The **affine hull** of $\Omega$ is the intersection of all {{< knowl id="affine-set" text="affine sets" >}} containing $\Omega$:
 $$

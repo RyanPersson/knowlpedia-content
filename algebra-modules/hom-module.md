@@ -9,4 +9,4 @@ In the noncommutative setting, additional module structures arise from bimodules
 
 **Examples:**
 - For any left \(R\)-module \(M\), evaluation at \(1\) gives \(\mathrm{Hom}_R(R,M)\cong M\).
-- If \(V,W\) are {{< knowl id="vector-space" section="shared-linear-algebra" text="vector spaces" >}} over a field \(k\), then \(\mathrm{Hom}_k(V,W)\) is a vector space, naturally isomorphic to the space of \(k\)-linear maps \(V\to W\).
+- If \(V,W\) are {{< knowl id="vector-space" section="linear-algebra" text="vector spaces" >}} over a field \(k\), then \(\mathrm{Hom}_k(V,W)\) is a vector space, naturally isomorphic to the space of \(k\)-linear maps \(V\to W\).

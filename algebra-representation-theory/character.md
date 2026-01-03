@@ -9,7 +9,7 @@ Let \(G\) be a finite group and let \(\rho:G\to \mathrm{GL}(V)\) be a finite-dim
 \[
 \chi_\rho:G\to \mathbb{C},\qquad \chi_\rho(g)=\mathrm{tr}(\rho(g)),
 \]
-where \(\mathrm{tr}\) is the {{< knowl id="trace" section="shared-linear-algebra" text="trace" >}} of a linear operator on \(V\).
+where \(\mathrm{tr}\) is the {{< knowl id="trace" section="linear-algebra" text="trace" >}} of a linear operator on \(V\).
 
 ## Basic properties
 

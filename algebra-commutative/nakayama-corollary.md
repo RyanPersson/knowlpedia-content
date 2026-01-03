@@ -6,7 +6,7 @@ description: "For a finitely generated module over a local ring, generators of M
 Nakayama-style arguments convert statements “mod the maximal ideal” into statements in the whole module. The results below are standard consequences of {{< knowl id="nakayama-lemma" text="Nakayama's lemma" >}}.
 
 ## Corollary (lifting generators from the residue field)
-Let \((R,\mathfrak m)\) be a {{< knowl id="local-ring" text="local ring" >}} with maximal ideal \(\mathfrak m\) (as in {{< knowl id="maximal-ideal-local-ring" text="maximal-ideal characterization" >}}), and let \(M\) be a finitely generated \(R\)-module. Let \(k=R/\mathfrak m\) be the {{< knowl id="residue-field" text="residue field" >}}, so \(M/\mathfrak m M\) is naturally a \(k\)-{{< knowl id="vector-space" section="shared-linear-algebra" text="vector space" >}}.
+Let \((R,\mathfrak m)\) be a {{< knowl id="local-ring" text="local ring" >}} with maximal ideal \(\mathfrak m\) (as in {{< knowl id="maximal-ideal-local-ring" text="maximal-ideal characterization" >}}), and let \(M\) be a finitely generated \(R\)-module. Let \(k=R/\mathfrak m\) be the {{< knowl id="residue-field" text="residue field" >}}, so \(M/\mathfrak m M\) is naturally a \(k\)-{{< knowl id="vector-space" section="linear-algebra" text="vector space" >}}.
 
 1. **Generators lift.**  
    If \(m_1,\dots,m_r \in M\) map to elements whose images generate \(M/\mathfrak m M\) as a \(k\)-vector space, then \(m_1,\dots,m_r\) generate \(M\) as an \(R\)-module.

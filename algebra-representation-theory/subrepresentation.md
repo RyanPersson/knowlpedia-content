@@ -13,7 +13,7 @@ Equivalently, \(W\) is a **\(G\)-invariant subspace** of \(V\). In that case, re
 In the {{< knowl id="group-algebra" text="group algebra" >}} viewpoint, subrepresentations are exactly \(k[G]\)-submodules.
 
 ### Basic properties
-- The inclusion \(i:W\hookrightarrow V\) is a homomorphism of representations (a \(G\)-equivariant {{< knowl id="linear-map" section="shared-linear-algebra" text="linear map" >}}).
+- The inclusion \(i:W\hookrightarrow V\) is a homomorphism of representations (a \(G\)-equivariant {{< knowl id="linear-map" section="linear-algebra" text="linear map" >}}).
 - If \(W\) is a subrepresentation, one can form the quotient vector space \(V/W\), which carries an induced \(G\)-action by \(\overline{v}\mapsto \overline{\rho(g)v}\) (well-defined precisely because \(W\) is \(G\)-stable).
 
 Subrepresentations are the objects whose absence (except \(0\) and \(V\)) defines {{< knowl id="irreducible-representation" text="irreducibility" >}}.

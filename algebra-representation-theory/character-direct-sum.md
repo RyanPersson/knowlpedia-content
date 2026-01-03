@@ -7,7 +7,7 @@ Let \(G\) be a finite group and let \(V\) be a finite-dimensional complex {{< kn
 \[
 \chi_V(g) \;=\; \mathrm{tr}(\rho_V(g)),
 \]
-using the {{< knowl id="trace" section="shared-linear-algebra" text="trace" >}}.
+using the {{< knowl id="trace" section="linear-algebra" text="trace" >}}.
 
 If \(V\) and \(W\) are representations, their direct sum \(V\oplus W\) is a {{< knowl id="direct-sum-modules" section="algebra-modules" text="direct sum" >}} representation with
 \[

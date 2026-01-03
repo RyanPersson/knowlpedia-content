@@ -10,7 +10,7 @@ On the space \(\mathrm{Cl}(G)\) of complex class functions, define
 \[
 \langle f, g\rangle \;=\; \frac{1}{|G|}\sum_{x\in G} f(x)\,\overline{g(x)}.
 \]
-This is a Hermitian inner product (compare {{< knowl id="inner-product" section="shared-linear-algebra" text="inner product" >}} and {{< knowl id="orthogonality" section="shared-linear-algebra" text="orthogonality" >}}).
+This is a Hermitian inner product (compare {{< knowl id="inner-product" section="linear-algebra" text="inner product" >}} and {{< knowl id="orthogonality" section="linear-algebra" text="orthogonality" >}}).
 
 ## Theorem (orthogonality of irreducible characters)
 Let \(\chi_1,\dots,\chi_r\) be the distinct {{< knowl id="irreducible-character" text="irreducible characters" >}} of \(G\) over \(\mathbb C\). Then:
