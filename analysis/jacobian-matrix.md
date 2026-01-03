@@ -8,7 +8,7 @@ $$
 J_f(a) := \left[\frac{\partial f_i}{\partial x_j}(a)\right]_{1\le i\le m,\ 1\le j\le k}.
 $$
 
-When $f$ is {{< knowl id="differentiable-map" text="differentiable" >}} at $a$ in the ({{< knowl id="total-derivative-frechet-derivative" text="Fréchet" >}}) sense, $J_f(a)$ represents the derivative as a {{< knowl id="linear-map" text="linear map" >}} $\mathbb{R}^k\to\mathbb{R}^m$ with respect to the standard bases.
+When $f$ is {{< knowl id="differentiable-map" text="differentiable" >}} at $a$ in the ({{< knowl id="total-derivative-frechet-derivative" text="Fréchet" >}}) sense, $J_f(a)$ represents the derivative as a {{< knowl id="linear-map" section="linear-algebra" text="linear map" >}} $\mathbb{R}^k\to\mathbb{R}^m$ with respect to the standard bases.
 
 **Examples:**
 - If $f(x,y)=(x+y,x-y)$, then

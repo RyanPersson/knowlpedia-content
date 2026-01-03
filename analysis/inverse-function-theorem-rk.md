@@ -8,7 +8,7 @@ $
 \det Df(a)\neq 0.
 $
 Let $b=f(a)$. Then there exist open {{< knowl id="neighborhood" text="neighborhoods" >}} $U_0$ of $a$ and $V_0$ of $b$ such that:
-- $f:U_0\to V_0$ is {{< knowl id="bijective-function" text="bijective" >}},
+- $f:U_0\to V_0$ is {{< knowl id="bijective-function" section="shared-foundations" text="bijective" >}},
 - the {{< knowl id="inverse-function" text="inverse" >}} $f^{-1}:V_0\to U_0$ is of class $C^1$, and
 - the {{< knowl id="total-derivative-frechet-derivative" text="derivative" >}} of the inverse is given by
   $

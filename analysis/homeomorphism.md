@@ -4,7 +4,7 @@ description: "A bijection that is continuous with continuous inverse."
 ---
 
 Let $(X,d_X)$ and $(Y,d_Y)$ be {{< knowl id="metric-space" text="metric spaces" >}}. A function $f:X\to Y$ is a **homeomorphism** if:
-- $f$ is {{< knowl id="bijective-function" text="bijective" >}},
+- $f$ is {{< knowl id="bijective-function" section="shared-foundations" text="bijective" >}},
 - $f$ is {{< knowl id="continuity-on-a-set" text="continuous" >}} on $X$, and
 - $f^{-1}:Y\to X$ is continuous on $Y$.
 

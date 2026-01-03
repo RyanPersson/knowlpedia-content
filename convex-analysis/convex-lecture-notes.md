@@ -66,7 +66,7 @@ This chapter presents definitions, examples, and basic properties of vector spac
 - the addition $+:X\times X\to X$ which maps each element $(x,y)\in X\times X$ to $x+y$, and
 - the scalar multiplication $\cdot:K\times X\to X$ which maps each element $(\lambda,x)\in K\times X$ to $\lambda\cdot x$ (or simply $\lambda x$).
 
-We say that $(X,+,\cdot)$ is a {{< knowl id="vector-space" section="linear-algebra" text="vector space / linear space" >}} over the field $K$ if the following properties are satisfied:
+We say that $(X,+,\cdot)$ is a {{< knowl id="vector-space" section="linear-algebra" section="linear-algebra" text="vector space / linear space" >}} over the field $K$ if the following properties are satisfied:
 
 (i) $x+y=y+x$ for all $x,y\in X$.
 (ii) $(x+y)+z=x+(y+z)$ for all $x,y,z\in X$.
@@ -536,7 +536,7 @@ Then $x_n\in B'(x_N;r)$ for all $n\in\mathbb{N}$, and hence the sequence is boun
 $$
 n_1<n_2<n_3<\cdots.
 $$
-Then $(x_{n_k})_{k}$ is a sequence in $X$ and it is called a {{< knowl id="subsequence" section="analysis" text="subsequence" >}} of $(x_n)$.
+Then $(x_{n_k})_{k}$ is a sequence in $X$ and it is called a {{< knowl id="subsequence" section="analysis" section="analysis" text="subsequence" >}} of $(x_n)$.
 
 **Example 1.59.** Consider the sequence $x_n=(-1)^n$. Then $(x_{2k})$ is a subsequence of $(x_n)$ and $x_{2k}=1$ for all $k$. Similarly, $(x_{2k+1})$ is also a subsequence of $(x_n)$ and $x_{2k+1}=-1$ for all $k$.
 
@@ -2008,7 +2008,7 @@ Let $X$ be a vector space, let $Y$ be a {{< knowl id="linear-subspace" text="lin
 
 #### 3.2.1 Hahn-Banach theorem in real vector spaces
 
-**Theorem 3.11.** ({{< knowl id="hahn-banach-theorem-in-real-vector-spaces" text="Hahn-Banach theorem in real vector spaces" >}}) Let $X$ be a real {{< knowl id="vector-space" section="linear-algebra" text="vector space" >}}, let $Y$ be a subspace of $X$, and let $p: X \to \mathbb{R}$ be a {{< knowl id="subadditive-positively-homogeneous-and-sublinear-functions" text="sublinear function" >}} on $X$. Consider a linear functional $f : Y \to \mathbb{R}$ which satisfies the condition
+**Theorem 3.11.** ({{< knowl id="hahn-banach-theorem-in-real-vector-spaces" text="Hahn-Banach theorem in real vector spaces" >}}) Let $X$ be a real {{< knowl id="vector-space" section="linear-algebra" section="linear-algebra" text="vector space" >}}, let $Y$ be a subspace of $X$, and let $p: X \to \mathbb{R}$ be a {{< knowl id="subadditive-positively-homogeneous-and-sublinear-functions" text="sublinear function" >}} on $X$. Consider a linear functional $f : Y \to \mathbb{R}$ which satisfies the condition
 
 $$
 f(y) \le p(y) \quad \text{for all } y \in Y.

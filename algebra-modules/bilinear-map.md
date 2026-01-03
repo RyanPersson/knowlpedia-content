@@ -3,7 +3,7 @@ title: "Bilinear map"
 description: "A map that is linear in each variable (and balanced over a ring when needed)."
 ---
 
-A **bilinear map** between \(R\)-modules (for a {{< knowl id="commutative-ring" section="algebra-rings" text="commutative ring" >}} \(R\)) is a function \(\beta\colon M\times N\to P\) from a {{< knowl id="cartesian-product" section="analysis" text="cartesian product" >}} of \(R\)-modules such that, for each fixed argument, the resulting map is \(R\)-linear in the other:
+A **bilinear map** between \(R\)-modules (for a {{< knowl id="commutative-ring" section="algebra-rings" text="commutative ring" >}} \(R\)) is a function \(\beta\colon M\times N\to P\) from a {{< knowl id="cartesian-product" section="shared-foundations" text="cartesian product" >}} of \(R\)-modules such that, for each fixed argument, the resulting map is \(R\)-linear in the other:
 \[
 \beta(m+m',n)=\beta(m,n)+\beta(m',n),\quad \beta(m,n+n')=\beta(m,n)+\beta(m,n'),
 \]

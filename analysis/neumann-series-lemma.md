@@ -3,7 +3,7 @@ title: "Determinant nonvanishing implies local invertibility lemma"
 description: "Invertibility is stable under small perturbations, with a quantitative bound on the inverse"
 ---
 
-Let $A:\mathbb{R}^n\to\mathbb{R}^n$ be a {{< knowl id="linear-map" text="linear map" >}}. Saying $\det A\neq 0$ is equivalent to saying $A$ is invertible.
+Let $A:\mathbb{R}^n\to\mathbb{R}^n$ be a {{< knowl id="linear-map" section="linear-algebra" text="linear map" >}}. Saying $\det A\neq 0$ is equivalent to saying $A$ is invertible.
 
 **Stability of invertibility (Neumann series lemma)**: If $A$ is invertible and $B$ is another linear map such that
 $

@@ -4,7 +4,7 @@ description: "A C^1 bijection with a C^1 inverse between open subsets of Euclide
 ---
 
 A **diffeomorphism** between {{< knowl id="open-set" text="open sets" >}} $U,V \subseteq \mathbb{R}^n$ is a map $f:U\to V$ such that
-- $f$ is {{< knowl id="bijective-function" text="bijective" >}},
+- $f$ is {{< knowl id="bijective-function" section="shared-foundations" text="bijective" >}},
 - $f$ is {{< knowl id="class-ck-map" text="continuously differentiable" >}} on $U$ (i.e., $f\in C^1(U,V)$), and
 - the inverse map $f^{-1}:V\to U$ is also continuously differentiable (i.e., $f^{-1}\in C^1(V,U)$).
 

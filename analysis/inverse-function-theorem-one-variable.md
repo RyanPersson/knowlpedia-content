@@ -3,7 +3,7 @@ title: "Inverse Function Theorem (one variable)"
 description: "A differentiable strictly monotone function has a differentiable inverse with derivative 1/f'"
 ---
 
-**Inverse Function Theorem (one variable)**: Let $I\subseteq\mathbb{R}$ be an {{< knowl id="interval" text="interval" >}} and let $f:I\to\mathbb{R}$ be {{< knowl id="continuity-on-a-set" text="continuous" >}} and strictly {{< knowl id="monotone-sequence" text="monotone" >}}. Then $f$ is a {{< knowl id="bijective-function" text="bijection" >}} from $I$ onto $J=f(I)$, so the {{< knowl id="inverse-function" text="inverse" >}} $f^{-1}:J\to I$ exists and is continuous.
+**Inverse Function Theorem (one variable)**: Let $I\subseteq\mathbb{R}$ be an {{< knowl id="interval" text="interval" >}} and let $f:I\to\mathbb{R}$ be {{< knowl id="continuity-on-a-set" text="continuous" >}} and strictly {{< knowl id="monotone-sequence" text="monotone" >}}. Then $f$ is a {{< knowl id="bijective-function" section="shared-foundations" text="bijection" >}} from $I$ onto $J=f(I)$, so the {{< knowl id="inverse-function" text="inverse" >}} $f^{-1}:J\to I$ exists and is continuous.
 
 If moreover $x_0\in I^\circ$ and $f$ is {{< knowl id="differentiability-one-variable" text="differentiable" >}} at $x_0$ with $f'(x_0)\neq 0$, then $f^{-1}$ is differentiable at $y_0=f(x_0)$ and
 $

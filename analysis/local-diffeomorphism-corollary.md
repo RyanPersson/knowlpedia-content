@@ -9,7 +9,7 @@ Let $U\subseteq\mathbb{R}^n$ be {{< knowl id="open-set" text="open" >}} and let 
 $
 f:U_0\to V_0
 $
-is a $C^1$ {{< knowl id="diffeomorphism" text="diffeomorphism" >}} ({{< knowl id="bijective-function" text="bijective" >}}, $C^1$, with $C^1$ inverse).
+is a $C^1$ {{< knowl id="diffeomorphism" text="diffeomorphism" >}} ({{< knowl id="bijective-function" section="shared-foundations" text="bijective" >}}, $C^1$, with $C^1$ inverse).
 
 **Connection to parent theorem**:
 This is the {{< knowl id="inverse-function-theorem-rk" text="inverse function theorem" >}}, often summarized as "$f$ is a local diffeomorphism at $a$ when $\det Df(a)\neq 0$."

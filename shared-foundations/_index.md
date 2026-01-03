@@ -32,6 +32,7 @@ This section contains foundational definitions, axioms, and theorems from set th
 - {{< knowl id="surjective-function" text="Surjective function" >}}
 - {{< knowl id="bijective-function" text="Bijective function" >}}
 - {{< knowl id="inverse-function" text="Inverse function" >}}
+- {{< knowl id="morphism" text="Morphism" >}}
 
 ### Relations
 - {{< knowl id="relation" text="Relation" >}}

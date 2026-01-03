@@ -3,7 +3,7 @@ title: "Rational canonical form theorem"
 description: "Every linear operator is similar to a block diagonal companion-matrix form determined by invariant factors."
 ---
 
-**Rational canonical form theorem**: Let \(T\) be a {{< knowl id="linear-map" section="analysis" text="linear map" >}} on a finite-dimensional {{< knowl id="vector-space" section="linear-algebra" text="vector space" >}} \(V\) over a field \(k\). Then there exists a {{< knowl id="basis" text="basis" >}} of \(V\) such that the {{< knowl id="matrix-representation" text="matrix representation" >}} of \(T\) is block diagonal with blocks equal to companion matrices \(C(f_1),\dots,C(f_s)\) of monic polynomials \(f_1,\dots,f_s\in k[x]\) satisfying
+**Rational canonical form theorem**: Let \(T\) be a {{< knowl id="linear-map" section="linear-algebra" text="linear map" >}} on a finite-dimensional {{< knowl id="vector-space" section="linear-algebra" text="vector space" >}} \(V\) over a field \(k\). Then there exists a {{< knowl id="basis" text="basis" >}} of \(V\) such that the {{< knowl id="matrix-representation" text="matrix representation" >}} of \(T\) is block diagonal with blocks equal to companion matrices \(C(f_1),\dots,C(f_s)\) of monic polynomials \(f_1,\dots,f_s\in k[x]\) satisfying
 \[
 f_1 \mid f_2 \mid \cdots \mid f_s.
 \]
