@@ -17,8 +17,3 @@ $$
 
 **Context.**
 This is the structural content behind the {{< knowl id="class-equation" text="class equation" >}}: it turns the conjugation action into a counting identity, a key tool for $p$-groups and Sylow theory.
-
-**Proof sketch.**
-(1) Orbits of an action partition the underlying set.
-(2) A conjugacy class of $x$ has size $1$ iff $gxg^{-1}=x$ for all $g$, i.e. $x\in Z(G)$.
-(3) Apply orbit–stabilizer to the conjugation action: the stabilizer of $x$ is precisely $C_G(x)$.

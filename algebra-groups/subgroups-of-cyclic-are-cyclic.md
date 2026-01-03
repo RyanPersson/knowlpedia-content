@@ -11,7 +11,3 @@ Let $G$ be a {{< knowl id="group" text="group" >}} that is cyclic, meaning $G=\l
 
 **Context.**
 This result gives a complete classification of subgroups of cyclic groups: they are completely controlled by divisibility (finite case) or by a single positive integer (infinite case). It is frequently paired with {{< knowl id="lagranges-theorem" text="Lagrange's theorem" >}} in finite group computations.
-
-**Proof sketch.**
-(1) Consider the set $S=\{k\in\mathbb Z_{\ge 0}: g^k\in H\}$. If $H\neq\{e\}$ then $S$ contains a positive integer; let $m$ be the least positive element. Show $H=\langle g^m\rangle$ by Euclidean division: write $k=qm+r$ with $0\le r<m$, and use $g^k\in H$ to force $g^r\in H$, hence $r=0$.
-(2) Reduce to (1) in the finite cyclic group of order $n$ by working with exponents modulo $n$, and use Lagrange to identify $|H|$ as a divisor of $n$.

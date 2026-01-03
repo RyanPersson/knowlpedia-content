@@ -9,9 +9,6 @@ so in particular $|Z(G)|\ge p$.
 
 This is a direct consequence of the {{< knowl id="class-equation" text="class equation" >}}, which decomposes $|G|$ into $|Z(G)|$ plus sizes of non-central {{< knowl id="conjugacy-class" text="conjugacy classes" >}}, each of which has cardinality divisible by $p$ in a $p$-group.
 
-**Proof sketch**: The class equation has the form
-$$|G| = |Z(G)| + \sum_i |C_i|,$$
-where each $C_i$ is a conjugacy class of an element not in $Z(G)$. For a finite $p$-group, each $|C_i|$ is a power of $p$ strictly greater than $1$, hence divisible by $p$. Reducing the equation modulo $p$ gives $|G|\equiv |Z(G)|\pmod p$. Since $p\mid |G|$, it follows that $p\mid |Z(G)|$.
 
 **Examples:**
 - If $G$ is abelian, then $Z(G)=G$, so the conclusion holds trivially (and $|Z(G)|=|G|=p^n$).

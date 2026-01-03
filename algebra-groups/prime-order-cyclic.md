@@ -8,6 +8,3 @@ Let $G$ be a finite {{< knowl id="group" text="group" >}} with $|G|=p$ where $p$
 
 **Context.**
 This is one of the first applications of {{< knowl id="lagranges-theorem" text="Lagrange's theorem" >}}: subgroup orders must divide the group order.
-
-**Proof sketch.**
-Pick $g\neq e$. The cyclic subgroup $\langle g\rangle$ is a subgroup of $G$, hence its order divides $|G|=p$. Since $g\neq e$, $\langle g\rangle$ is nontrivial, so $|\langle g\rangle|\neq 1$, forcing $|\langle g\rangle|=p$. Therefore $\langle g\rangle=G$.

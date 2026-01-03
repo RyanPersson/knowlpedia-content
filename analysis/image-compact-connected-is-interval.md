@@ -9,7 +9,7 @@ Let $(X,d)$ be a {{< knowl id="compact-set" text="compact" >}}, {{< knowl id="co
 $
 f(X)=[m,M],
 $
-where $m={{< knowl id="minimum" text="min" >}}_X f$ and $M={{< knowl id="maximum" text="max" >}}_X f$.
+where $m=\min_X f$ and $M=\max_X f$ are the {{< knowl id="minimum" text="minimum" >}} and {{< knowl id="maximum" text="maximum" >}} of $f$ on $X$.
 
 **Connection to parent theorems**:
 - $f(X)$ is compact because {{< knowl id="continuous-image-of-compact-set-is-compact" text="continuous images of compact sets are compact" >}}.

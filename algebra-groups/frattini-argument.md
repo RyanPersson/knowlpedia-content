@@ -9,5 +9,3 @@ G = N\,N_G(P).
 $
 
 Equivalently, every $g\in G$ can be written as $g=nn'$ with $n\in N$ and $n'\in N_G(P)$.
-
-**Proof sketch**: For $g\in G$, the conjugate $gPg^{-1}$ is a Sylow $p$-subgroup of $gNg^{-1}=N$ (normality is used here). By {{< knowl id="sylows-second-theorem" text="Sylow's second theorem" >}} inside $N$, there exists $n\in N$ with $n(gPg^{-1})n^{-1}=P$. Then $ng\in N_G(P)$, so $g=n^{-1}(ng)\in N\,N_G(P)$.

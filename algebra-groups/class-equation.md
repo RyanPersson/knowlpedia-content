@@ -18,6 +18,3 @@ $$
 $$
 
 The class equation is the orbit decomposition of the {{< knowl id="conjugation-action" text="conjugation action" >}} of $G$ on itself, combined with the {{< knowl id="orbit-stabilizer-theorem" text="orbit–stabilizer theorem" >}}. It is a standard tool for proving existence of normal subgroups, for example {{< knowl id="p-group-nontrivial-center" text="a finite p-group has nontrivial center" >}}.
-
-**Proof sketch.**
-Under conjugation, the orbit of $g$ is $\operatorname{Cl}(g)$ and its stabilizer is $C_G(g)$. Orbit–stabilizer gives $|\operatorname{Cl}(g)|=[G:C_G(g)]$. Elements of $Z(G)$ have orbit size $1$, and the remaining orbits partition $G \setminus Z(G)$, yielding the stated sum.

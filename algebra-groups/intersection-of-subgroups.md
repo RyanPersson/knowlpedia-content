@@ -12,6 +12,3 @@ is a subgroup of $G$.
 
 **Context.**
 This implies there is a smallest subgroup of $G$ containing any given subset (the intersection of all subgroups containing it), which underlies the notion of a generated subgroup.
-
-**Proof sketch.**
-Each $H_i$ contains the identity, so $H$ is nonempty. If $x,y\in H$, then $x,y\in H_i$ for all $i$, hence $xy^{-1}\in H_i$ for all $i$, so $xy^{-1}\in H$. Apply the one-step subgroup test.

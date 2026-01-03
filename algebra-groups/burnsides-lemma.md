@@ -14,6 +14,3 @@ $$
 $$
 
 Burnside's lemma is a standard counting tool: instead of counting orbits directly, it averages easily computed fixed-point counts. It is frequently used in enumeration problems involving symmetries.
-
-**Proof sketch.**
-Count the set $S=\{(g,x)\in G\times X : g\cdot x=x\}$ in two ways. Summing over $g$ gives $|S|=\sum_{g\in G}|\operatorname{Fix}(g)|$. Summing over $x$ gives $|S|=\sum_{x\in X}|\operatorname{Stab}(x)|$, and grouping by orbits shows each orbit contributes $|G|$, hence $|S|=|G|\cdot |X/G|$.

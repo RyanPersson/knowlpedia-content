@@ -12,6 +12,3 @@ $$
 $$
 
 This theorem is proved by constructing an explicit free generating set for $H$ from a transversal of cosets; {{< knowl id="schreiers-lemma" text="Schreier's lemma" >}} provides the standard generating set used in the proof. It is a foundational result in combinatorial group theory.
-
-**Proof sketch.**
-Choose a Schreier transversal $T$ for the cosets of $H$ in $F$. Schreier's method produces generators of $H$ of the form $t s (\overline{ts})^{-1}$ (with $t\in T$ and $s$ in a free generating set of $F$), and one shows these generators satisfy no relations, hence freely generate $H$.

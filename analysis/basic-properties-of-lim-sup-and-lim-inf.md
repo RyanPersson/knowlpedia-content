@@ -16,7 +16,7 @@ Then:
   $
 - always $\liminf a_n\le \limsup a_n$,
 - if $\liminf a_n=\limsup a_n=L\in\mathbb{R}$, then $a_n\to L$,
-- if $\ell={{< knowl id="limit-superior-lim-sup" text="limsup" >}} a_n$ is finite, then there exists a {{< knowl id="subsequence" text="subsequence" >}} $(a_{n_j})$ with $a_{n_j}\to \ell$ (and similarly for {{< knowl id="limit-inferior-lim-inf" text="liminf" >}}).
+- if $\ell=\limsup a_n$ is finite, then there exists a {{< knowl id="subsequence" text="subsequence" >}} $(a_{n_j})$ with $a_{n_j}\to \ell$ (and similarly for $\liminf$). See {{< knowl id="limit-superior-lim-sup" text="limit superior" >}} and {{< knowl id="limit-inferior-lim-inf" text="limit inferior" >}}.
 
 These facts package the "eventual upper and lower behavior" of a sequence and are used to analyze oscillation and subsequential limits.
 

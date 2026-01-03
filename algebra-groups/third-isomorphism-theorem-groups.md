@@ -11,6 +11,3 @@ $$
 induced by the map $gN \mapsto gK$.
 
 This theorem formalizes the idea that "quotienting by $N$ and then by $K/N$" is the same as quotienting directly by $K$. It can be viewed as a special case of {{< knowl id="correspondence-theorem-groups" text="the correspondence theorem" >}}, or proved directly using {{< knowl id="first-isomorphism-theorem-groups" text="the first isomorphism theorem" >}}.
-
-**Proof sketch.**
-Define a homomorphism $G/N \to G/K$ by $gN \mapsto gK$; it is surjective. Its kernel is precisely $K/N$. Apply the first isomorphism theorem to conclude $(G/N)/(K/N) \cong G/K$.

@@ -18,8 +18,3 @@ hence it is a {{< knowl id="regular-action" text="regular action" >}}, often cal
 
 **Context.**
 This action is the input for {{< knowl id="cayleys-theorem" text="Cayley's theorem" >}}: it produces an injective homomorphism from $G$ into a symmetric group by viewing elements as permutations of $G$.
-
-**Proof sketch.**
-Check the two action axioms: $e\cdot x=ex=x$ and $(g_1g_2)\cdot x=g_1\cdot(g_2\cdot x)$ by associativity.
-Transitivity: given $x,y\in G$, take $g=yx^{-1}$ so that $g\cdot x=y$.
-Freeness: if $g\cdot x=x$ then $gx=x$, so multiplying by $x^{-1}$ gives $g=e$.

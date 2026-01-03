@@ -10,5 +10,3 @@ description: "For submodules A,B ≤ M, one has (A+B)/B ≅ A/(A∩B)."
 where \(A\cap B\) is the {{< knowl id="intersection" section="analysis" text="intersection" >}} and each quotient is a {{< knowl id="quotient-module" text="quotient module" >}}.
 
 This isomorphism is obtained by restricting the quotient map \(M\to M/B\) to \(A\), and it is a standard application of the {{< knowl id="first-isomorphism-theorem-modules" text="first isomorphism theorem" >}}.
-
-**Proof sketch**: Consider the homomorphism \(A\to (A+B)/B\) induced by inclusion \(A\hookrightarrow A+B\) followed by the quotient map. Its kernel is exactly \(A\cap B\), and its image is all of \((A+B)/B\). Apply the first isomorphism theorem.

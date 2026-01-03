@@ -8,5 +8,3 @@ description: "A sufficient condition (via a prime element) for a polynomial to b
 - \(p\nmid a_n\), and
 - \(p^2\nmid a_0\),
 then \(f\) is {{< knowl id="irreducible-polynomial" text="irreducible" >}} in \(\mathrm{Frac}(R)[x]\), where \(\mathrm{Frac}(R)\) is the {{< knowl id="fraction-field" text="fraction field" >}} of \(R\). Consequently, \(f\) is irreducible in \(R[x]\).
-
-**Proof sketch**: If \(f=gh\) with positive degrees, reduce coefficients modulo \(p\). The hypotheses force \(\bar f(x)=\bar a_n x^n\) in \((R/(p))[x]\), so one factor has zero constant term mod \(p\). Tracking constant terms then forces \(p^2\mid a_0\), contradicting the assumption.

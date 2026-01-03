@@ -9,10 +9,3 @@ If $x$ and $y$ are both inverses of $g$, then $x=y$.
 
 **Context.**
 This justifies writing $g^{-1}$ for *the* inverse of $g$.
-
-**Proof sketch.**
-Using associativity and the defining equations,
-$$
-x = xe = x(gy) = (xg)y = ey = y.
-$$
-(Here $e$ denotes the identity in $G$.)

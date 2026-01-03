@@ -69,6 +69,3 @@ For a functor \(G:\mathcal C^{\mathrm{op}}\to \mathbf{Set}\), there is a natural
    \]
    so a natural way to turn maps \(A\to X\) into maps \(M\to X\) is the same as choosing a map \(M\to A\).
 
-## Related knowls
-
-The Yoneda lemma implies that the {{< knowl id="yoneda-embedding" text="Yoneda embedding" >}} is fully faithful, and it is the basic tool for working with {{< knowl id="representable-functor" text="representable functors" >}}.

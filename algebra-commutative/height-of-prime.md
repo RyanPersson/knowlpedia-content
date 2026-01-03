@@ -3,7 +3,7 @@ title: "Height of a prime"
 description: "The codimension of a prime ideal, measured by the maximum length of chains of primes ending at it."
 ---
 
-Let $R$ be a {{< knowl id="commutative-ring" section="algebra-rings" text="commutative ring" >}} and let $\mathfrak p\in {{< knowl id="prime-spectrum" text="\operatorname{Spec}(R)" >}}$.
+Let $R$ be a {{< knowl id="commutative-ring" section="algebra-rings" text="commutative ring" >}} and let $\mathfrak p$ be a prime ideal (i.e., $\mathfrak p\in\operatorname{Spec}(R)$, the {{< knowl id="prime-spectrum" text="prime spectrum" >}}).
 
 The **height** of $\mathfrak p$, denoted $\operatorname{ht}(\mathfrak p)$, is the supremum of integers $n\ge 0$ such that there exists a strictly increasing chain of prime ideals
 \[

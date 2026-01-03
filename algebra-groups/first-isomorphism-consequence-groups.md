@@ -16,10 +16,3 @@ as groups, where $G/\ker(f)$ is the {{< knowl id="quotient-group" text="quotient
 
 **Context.**
 This is the standard "hands-on" form of the {{< knowl id="first-isomorphism-theorem-groups" text="first isomorphism theorem" >}}. It identifies precisely what information about $G$ is "lost" under $f$: exactly the {{< knowl id="kernel-group" text="kernel" >}}.
-
-**Proof sketch.**
-Define $\overline f(g\ker(f)):=f(g)$.
-- **Well-defined:** if $g\ker(f)=g'\ker(f)$ then $g^{-1}g'\in\ker(f)$ so $f(g)=f(g')$.
-- **Homomorphism:** follows from $f(gg')=f(g)f(g')$.
-- **Bijective onto $\mathrm{im}(f)$:** surjectivity is by definition of image; injectivity is $\ker(\overline f)=\{\,\ker(f)\,\}$.
-Thus $\overline f$ is an isomorphism.

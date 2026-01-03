@@ -7,13 +7,13 @@ Let $X$ be a {{< knowl id="vector-space" section="shared-linear-algebra" text="v
 
 **Theorem**:
 1. $p_\Omega$ is real-valued and {{< knowl id="subadditive-positively-homogeneous-and-sublinear-functions" text="sublinear" >}}.
-2. The strict sublevel set satisfies
+2. The strict sublevel set equals the {{< knowl id="algebraic-interior-core" text="algebraic interior (core)" >}}:
    $$
-   \{x\in X\mid p_\Omega(x)<1\}={{< knowl id="algebraic-interior-core" text="core(Ω)" >}}.
+   \{x\in X\mid p_\Omega(x)<1\}=\operatorname{core}(\Omega).
    $$
-3. The non-strict sublevel set satisfies
+3. The non-strict sublevel set equals the {{< knowl id="linear-closure" text="linear closure" >}}:
    $$
-   \{x\in X\mid p_\Omega(x)\le 1\}={{< knowl id="linear-closure" text="lin(Ω)" >}}.
+   \{x\in X\mid p_\Omega(x)\le 1\}=\operatorname{lin}(\Omega).
    $$
 
 **Context:**

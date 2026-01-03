@@ -13,6 +13,3 @@ such that each $G_{i+1}\trianglelefteq G_i$ and each factor $G_i/G_{i+1}$ is a {
 - the multisets of factor groups $\{G_i/G_{i+1}\}$ agree up to {{< knowl id="group-isomorphism" text="isomorphism" >}} and permutation.
 
 Jordan–Hölder gives a well-defined notion of the "composition factors" of a group (up to order and isomorphism). The standard proof combines {{< knowl id="schreier-refinement-theorem" text="the Schreier refinement theorem" >}} with the fact that a simple factor admits no nontrivial refinement.
-
-**Proof sketch.**
-Apply Schreier refinement to two composition series to obtain equivalent refinements. Since factors in a composition series are simple, any refinement must repeat the same factors (there is no proper intermediate normal subgroup), forcing the original series to have the same factors up to order.

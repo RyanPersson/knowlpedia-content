@@ -17,6 +17,3 @@ Moreover:
 - if $[G:A]$ is finite, then $[G:A] = [G/N : A/N]$.
 
 This theorem explains how the subgroup lattice of a {{< knowl id="quotient-group" text="quotient group" >}} $G/N$ is "the same as" the lattice of subgroups of $G$ containing $N$. It is a standard tool for building and comparing chains of subgroups, especially in the study of normal series.
-
-**Proof sketch.**
-Show $\pi(\pi^{-1}(B)) = B$ and $\pi^{-1}(A/N) = A$ when $N \subseteq A$. Inclusion preservation follows from basic properties of images and preimages, and normality corresponds because conjugation in $G/N$ is induced from conjugation in $G$.

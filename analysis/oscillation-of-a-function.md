@@ -4,7 +4,8 @@ description: "The quantity sup f − inf f on a set, measuring variation in valu
 ---
 
 Let $f:E\to\mathbb{R}$ be a {{< knowl id="bounded-set" text="bounded" >}} function and let $A\subseteq E$ be nonempty. The **oscillation** of $f$ on $A$ is
-$$\operatorname{osc}(f;A):={{< knowl id="supremum" text="sup" >}}\{f(x):x\in A\}-{{< knowl id="infimum" text="inf" >}}\{f(x):x\in A\}.$$
+$$\operatorname{osc}(f;A):=\sup\{f(x):x\in A\}-\inf\{f(x):x\in A\},$$
+using the {{< knowl id="supremum" text="supremum" >}} and {{< knowl id="infimum" text="infimum" >}}.
 
 For {{< knowl id="riemann-integrable-function" text="Riemann integration" >}}, oscillation on subintervals controls the gap between {{< knowl id="upper-sum-riemann" text="upper" >}} and {{< knowl id="lower-sum-riemann" text="lower sums" >}}: on an {{< knowl id="interval" text="interval" >}} $I$, the contribution to $U(f,P)-L(f,P)$ is the oscillation on $I$ times the interval length.
 

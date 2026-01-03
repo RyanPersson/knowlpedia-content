@@ -10,7 +10,7 @@ Let $G$ be a group, let $k$ be an algebraically closed field (e.g. $k=\mathbb C$
 be a finite-dimensional {{< knowl id="irreducible-representation" text="irreducible representation" >}}.
 
 ## Corollary of {{< knowl id="schurs-lemma" text="Schur's lemma" >}}
-If $z\in {{< knowl id="center-of-group" section="algebra-groups" text="Z(G)" >}}$ is central, then $\rho(z)$ is a scalar operator:
+If $z$ lies in the {{< knowl id="center-of-group" section="algebra-groups" text="center" >}} $Z(G)$, then $\rho(z)$ is a scalar operator:
 \[
 \rho(z) \;=\; \lambda_z\,\mathrm{Id}_V \quad \text{for some }\lambda_z\in k.
 \]

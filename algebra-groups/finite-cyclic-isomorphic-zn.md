@@ -12,6 +12,3 @@ is a well-defined isomorphism.
 
 **Context.**
 This identifies finite cyclic groups up to unique isomorphism by their order. Many computations about cyclic groups can therefore be reduced to modular arithmetic in $\mathbb Z/n\mathbb Z$.
-
-**Proof sketch.**
-Well-definedness uses $g^{k+n}=g^k$ since $g^n=e$. The map is a homomorphism because $\varphi(\overline{k+\ell})=g^{k+\ell}=g^kg^\ell$. It is surjective because $G=\langle g\rangle$, and injective because the kernel is exactly $\overline{0}$ when $g$ has order $n$.

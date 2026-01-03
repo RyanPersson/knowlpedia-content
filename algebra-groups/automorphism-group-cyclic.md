@@ -14,6 +14,3 @@ Equivalently: if $G=\langle g\rangle$, then every automorphism $\alpha\in \mathr
 
 **Context.**
 This makes automorphisms of cyclic groups completely explicit: an automorphism is exactly the choice of a generator-image. The group $\mathrm{Aut}(G)$ itself is a central object in extension theory and semidirect products.
-
-**Proof sketch.**
-Define a map $(\mathbb Z/n\mathbb Z)^\times\to \mathrm{Aut}(\mathbb Z/n\mathbb Z)$ by sending $\overline{k}$ to multiplication-by-$\overline{k}$. This is a homomorphism. It is injective because multiplication-by-$\overline{k}$ is the identity only when $\overline{k}=\overline{1}$. It is surjective because any group endomorphism of a cyclic group is determined by the image of $1$, and it is invertible exactly when that image is a generator, i.e. a unit modulo $n$.

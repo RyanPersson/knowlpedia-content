@@ -9,10 +9,3 @@ If $x,y\in G$ are {{< knowl id="conjugate-element" text="conjugate" >}}, i.e. $y
 
 **Context.**
 Many group-theoretic invariants are constant on conjugacy classes. Order is the first basic example and is used, for instance, in the class equation and Sylow theory.
-
-**Proof sketch.**
-For every integer $n\ge 1$ one has
-$$
-(gxg^{-1})^n = g x^n g^{-1}.
-$$
-Hence $(gxg^{-1})^n=e$ iff $x^n=e$, so the minimal such $n$ (or lack thereof) agrees for $x$ and its conjugate.

@@ -14,6 +14,3 @@ $$
 $$
 
 This theorem converts problems about orbits into problems about {{< knowl id="coset" text="cosets" >}} and {{< knowl id="index-of-subgroup" text="index" >}}. It is the main input for the {{< knowl id="class-equation" text="class equation" >}} and many counting arguments.
-
-**Proof sketch.**
-The map $g \mapsto g\cdot x$ is constant on left cosets of $\operatorname{Stab}(x)$ and surjects onto $\operatorname{Orb}(x)$. Two elements $g,h$ give the same point iff $h^{-1}g \in \operatorname{Stab}(x)$, which is exactly the equivalence relation defining the coset space.

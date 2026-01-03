@@ -21,10 +21,3 @@ Then:
 
 **Context.**
 This proposition is the standard bridge between abstract extensions and concrete constructions: split exact sequences are exactly semidirect products. The "internal" version is phrased via the {{< knowl id="internal-semidirect-product" text="internal semidirect product" >}} inside $G$.
-
-**Proof sketch.**
-Exactness implies $N=\ker(\pi)$, hence $N\lhd G$ by {{< knowl id="kernel-is-normal" text="kernel is normal" >}}. Define a map
-$$
-\Phi: N\rtimes_{\varphi} Q \to G,\qquad \Phi(n,q)=n\,s(q).
-$$
-Using the definition of the semidirect product multiplication (twisted by $\varphi$) and the fact that $s$ is a homomorphism, check $\Phi$ is a homomorphism. Surjectivity follows because $\pi(g)\in Q$ and $g\,s(\pi(g))^{-1}\in \ker(\pi)=N$. Injectivity and uniqueness come from $N\cap s(Q)=\{e\}$ (a consequence of $\pi\circ s=\mathrm{id}_Q$) and the factorization argument.

@@ -11,5 +11,3 @@ t\,s\,(\overline{ts})^{-1}\in H \qquad (t\in T,\ s\in S).
 $
 
 This is a core tool for proving results about generators of subgroups, including the {{< knowl id="nielsen-schreier-theorem" text="Nielsen–Schreier theorem" >}}.
-
-**Proof sketch**: Any $h\in H$ is a word in $S\cup S^{-1}$. Track the successive coset representatives in $T$ as you read the word; inserting and removing these representatives rewrites $h$ as a product of elements of the form $t s (\overline{ts})^{-1}$, showing these elements generate $H$.

@@ -11,6 +11,3 @@ $$
 is an injective {{< knowl id="group-homomorphism" text="homomorphism" >}} (i.e. a {{< knowl id="group-monomorphism" text="monomorphism" >}}). Equivalently, $G$ is isomorphic to a subgroup of $\operatorname{Sym}(G)$.
 
 Cayley's theorem says every abstract group can be realized concretely as a group of permutations. The construction comes from the {{< knowl id="left-multiplication-action" text="left multiplication action" >}} of $G$ on itself, which is {{< knowl id="faithful-action" text="faithful" >}} and hence yields a {{< knowl id="permutation-representation" text="permutation representation" >}}.
-
-**Proof sketch.**
-The rule $g \mapsto L_g$ respects multiplication because $L_{gh} = L_g \circ L_h$. Injectivity follows from $L_g = \mathrm{id}$ implying $g = L_g(e)=e$.

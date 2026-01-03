@@ -9,5 +9,3 @@ f = \bar f \circ \pi.
 $
 
 Equivalently: giving a homomorphism $G/N\to K$ is the same as giving a homomorphism $G\to K$ that sends every element of $N$ to the identity of $K$.
-
-**Proof sketch**: Define $\bar f(gN)=f(g)$. This is well-defined because if $gN=g'N$ then $g^{-1}g'\in N\subseteq\ker(f)$, so $f(g)=f(g')$. Homomorphism and uniqueness follow because $\pi$ is surjective and $\bar f$ is forced by $\bar f(\pi(g))=f(g)$.

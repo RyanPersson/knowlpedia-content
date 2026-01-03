@@ -32,11 +32,12 @@ $
 **Finite unions**:
 - If $E$ and $F$ are bounded above, then $E\cup F$ is bounded above and
   $
-  \sup(E\cup F)={{< knowl id="maximum" text="max" >}}\{\sup E,\sup F\}.
+  \sup(E\cup F)=\max\{\sup E,\sup F\}.
   $
 Similarly, if bounded below then
 $
-\inf(E\cup F)={{< knowl id="minimum" text="min" >}}\{\inf E,\inf F\}.
+\inf(E\cup F)=\min\{\inf E,\inf F\}.
 $
+Here {{< knowl id="maximum" text="max" >}} and {{< knowl id="minimum" text="min" >}} denote the maximum and minimum of a finite set.
 
 These rules are used constantly to manipulate bounds and to compare limiting processes.

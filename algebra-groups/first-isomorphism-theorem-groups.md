@@ -15,6 +15,3 @@ $$
 is a well-defined {{< knowl id="group-isomorphism" text="isomorphism" >}}. In particular, if $f$ is surjective then $G/K \cong H$.
 
 This result is the basic "quotient = image" principle and is the prototype for the {{< knowl id="second-isomorphism-theorem-groups" text="second" >}} and {{< knowl id="third-isomorphism-theorem-groups" text="third isomorphism theorems" >}}. It is often packaged as an {{< knowl id="exact-sequence-groups" text="exact sequence" >}} $1 \to K \to G \to I \to 1$.
-
-**Proof sketch.**
-Because $K \subseteq \ker(f)$, the map $g \mapsto f(g)$ is constant on cosets of $K$, so $\bar f$ is well-defined. The {{< knowl id="quotient-group-universal-property" text="universal property of quotient groups" >}} gives the induced homomorphism $G/K \to H$ with image $I$. Injectivity of $\bar f$ follows from $\bar f(gK)=e_H \iff g \in K$, and surjectivity onto $I$ is immediate from the definition of $I$.

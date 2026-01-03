@@ -16,6 +16,3 @@ $$
 $$
 
 This theorem is the basic dimension-counting tool for linear maps. For example, $T$ is {{< knowl id="injective-function" text="injective" >}} if and only if $\ker(T)=\{0\}$, and it is {{< knowl id="surjective-function" text="surjective" >}} if and only if $\operatorname{rank}(T)=\dim(W)$ (in finite dimensions). Standard proofs ultimately rely on the existence of bases, guaranteed in general by {{< knowl id="basis-existence-theorem" text="basis existence" >}}.
-
-**Proof sketch**:
-Choose a basis $(k_1,\dots,k_m)$ of $\ker(T)$ and extend it to a basis $(k_1,\dots,k_m,v_{m+1},\dots,v_n)$ of $V$. Then $(T(v_{m+1}),\dots,T(v_n))$ is a basis of $\operatorname{im}(T)$: it spans by construction, and linear independence follows because any dependence lifts to an element of $\ker(T)$. Counting basis elements gives $n=m+(n-m)$, i.e. $\dim(V)=\dim(\ker(T))+\dim(\operatorname{im}(T))$.

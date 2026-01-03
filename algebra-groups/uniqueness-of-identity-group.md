@@ -9,6 +9,3 @@ If $e,e'\in G$ are both identity elements, then $e=e'$.
 
 **Context.**
 This shows that "the" identity element of a group is well-defined (not dependent on choices).
-
-**Proof sketch.**
-Since $e$ is an identity, $ee'=e'$. Since $e'$ is an identity, $ee'=e$. Hence $e=e'$.

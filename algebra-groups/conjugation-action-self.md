@@ -12,9 +12,3 @@ Then this defines a {{< knowl id="group-action" text="group action" >}} of $G$ o
 
 **Context.**
 The orbits of this action are the {{< knowl id="conjugacy-class" text="conjugacy classes" >}} in $G$, and stabilizers are centralizers. This action is the mechanism behind the class equation and many counting arguments.
-
-**Proof sketch.**
-Identity: $e\cdot x=exe^{-1}=x$. Compatibility:
-$$
-(g_1g_2)\cdot x = g_1(g_2xg_2^{-1})g_1^{-1} = g_1\cdot(g_2\cdot x).
-$$

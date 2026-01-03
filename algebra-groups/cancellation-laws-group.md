@@ -13,6 +13,3 @@ Equivalently, for each fixed $a\in G$, the left-translation map $L_a:G\to G$, $L
 
 **Context.**
 Cancellation is the algebraic shadow of invertibility: you "cancel" by multiplying by $a^{-1}$ on the appropriate side. Uniqueness of inverses (see {{< knowl id="uniqueness-of-inverses-group" text="uniqueness of inverses" >}}) ensures $a^{-1}$ is well-defined.
-
-**Proof sketch.**
-If $ab=ac$, multiply on the left by $a^{-1}$ to get $b=c$. The right cancellation law is analogous.

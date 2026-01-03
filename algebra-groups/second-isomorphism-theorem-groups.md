@@ -18,6 +18,3 @@ H/(H \cap K) \cong HK/K.
 $$
 
 This theorem compares a subgroup with its image in a quotient and is frequently used to compute or identify quotients inside a larger group. It is most efficiently proved by applying {{< knowl id="first-isomorphism-theorem-groups" text="the first isomorphism theorem" >}} to the restriction of the quotient map $HK \to HK/K$.
-
-**Proof sketch.**
-The product set $HK$ is a subgroup because $K$ is normal, so products and inverses stay in $HK$. The quotient map $HK \to HK/K$ restricts to $H \to HK/K$ with kernel exactly $H \cap K$. Apply the first isomorphism theorem to obtain $H/(H\cap K) \cong HK/K$.

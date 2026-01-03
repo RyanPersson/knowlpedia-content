@@ -9,6 +9,3 @@ If $n_p=1$, then $P$ is a {{< knowl id="normal-subgroup" text="normal subgroup" 
 
 **Context.**
 Conjugation sends Sylow $p$-subgroups to Sylow $p$-subgroups (and in fact they are all conjugate by {{< knowl id="sylows-second-theorem" text="Sylow's second theorem" >}}). If there is only one, it must be fixed by conjugation.
-
-**Proof sketch.**
-For any $g\in G$, the subgroup $gPg^{-1}$ is again a Sylow $p$-subgroup (it has the same order as $P$). If $n_p=1$, then necessarily $gPg^{-1}=P$ for all $g\in G$. This is exactly the definition of normality: $P\lhd G$.

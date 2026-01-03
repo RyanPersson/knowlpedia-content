@@ -12,7 +12,6 @@ As usual, $x \equiv y \pmod n$ means $n$ divides $x-y$.
 
 This follows immediately from {{< knowl id="lagranges-theorem" text="Lagrange's theorem" >}} applied to the {{< knowl id="group-of-units" section="algebra-rings" text="group of units" >}} $(\mathbb{Z}/n\mathbb{Z})^\times$, a finite {{< knowl id="group" text="group" >}} with $|(\mathbb{Z}/n\mathbb{Z})^\times|=\varphi(n)$. The special case $n=p$ prime is {{< knowl id="fermats-little-theorem" text="Fermat's little theorem" >}}.
 
-**Proof sketch** *(group-theoretic)*: If $\gcd(a,n)=1$, then the residue class of $a$ is an element of $(\mathbb{Z}/n\mathbb{Z})^\times$. In any finite group, $x^{|G|}=e$ for all $x\in G$ (by Lagrange), so $a^{\varphi(n)}\equiv 1 \pmod n$.
 
 **Examples:**
 - $n=10$, $a=3$: $\varphi(10)=4$, and $3^4=81\equiv 1 \pmod{10}$.

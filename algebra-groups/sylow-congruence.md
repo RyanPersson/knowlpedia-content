@@ -8,7 +8,6 @@ $$n_p \equiv 1 \pmod p.$$
 
 This congruence is part of the standard consequences of {{< knowl id="sylows-third-theorem" text="Sylow's third theorem" >}}. A common proof uses a {{< knowl id="conjugation-action" text="conjugation action" >}} and the orbit decomposition of a finite {{< knowl id="group-action" text="group action" >}}.
 
-**Proof sketch** *(via an action)*: Fix a Sylow $p$-subgroup $P\le G$ and let $P$ act on the set $\mathrm{Syl}_p(G)$ of Sylow $p$-subgroups by conjugation: $x\cdot Q = xQx^{-1}$. Orbit sizes are powers of $p$, so every orbit has size $1$ or a multiple of $p$. The subgroup $P$ itself is fixed (it is a fixed point), so there is at least one orbit of size $1$. Therefore $|\mathrm{Syl}_p(G)|\equiv 1 \pmod p$, i.e. $n_p\equiv 1\pmod p$.
 
 **Examples:**
 - If $|G|=12$ and $p=3$, then $n_3\mid 4$ and $n_3\equiv 1\pmod 3$, so $n_3\in\{1,4\}$.
