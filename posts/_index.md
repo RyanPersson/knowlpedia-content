@@ -1,8 +1,7 @@
 ---
 title: "Posts"
-description: "Blog posts and comparisons"
+description: "Blog posts"
 ---
 
-## Comparisons
-
-- [Topology Prompt A/B Comparison](/posts/topology-prompt-comparison/) - Compare v1 vs v2 prompt templates
+- [Group Axioms](/posts/group-axioms/)
+- [Research Advice Analysis](/posts/research-advice-analysis/)
