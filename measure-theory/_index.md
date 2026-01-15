@@ -51,3 +51,10 @@ Click any term to expand its definition inline.
 - {{< knowl id="jordan-content" text="Jordan content" >}}
 - {{< knowl id="lebesgue-measure" text="Lebesgue measure" >}}
 - {{< knowl id="lebesgue-criterion-for-riemann-integrability" text="Lebesgue criterion for Riemann integrability" >}}
+---
+
+## Uncategorized
+
+- {{< knowl id="characteristic-function-indicator-function" text="Characteristic function (indicator function)" >}}
+- {{< knowl id="lebesgue-number-lemma-auxiliary-refinement" text="Lebesgue number lemma refinement lemma" >}}
+- {{< knowl id="set-of-measure-zero-in-rk" text="Set of measure zero in ℝ^k" >}}

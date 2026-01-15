@@ -11,8 +11,6 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 
 ### Basic Definitions
 
-- {{< knowl id="lie-group" section="fiber-bundles" text="Lie group" >}}
-- {{< knowl id="lie-subgroup" section="fiber-bundles" text="Lie subgroup" >}}
 - {{< knowl id="connected-lie-group" text="Connected Lie group" >}}
 - {{< knowl id="simply-connected-lie-group" text="Simply connected Lie group" >}}
 - {{< knowl id="compact-lie-group" text="Compact Lie group" >}}
@@ -32,19 +30,12 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 
 ### Translations
 
-- {{< knowl id="left-translation" section="fiber-bundles" text="Left translation" >}}
-- {{< knowl id="right-translation" section="fiber-bundles" text="Right translation" >}}
-- {{< knowl id="left-invariant-vector-field" section="fiber-bundles" text="Left-invariant vector field" >}}
-- {{< knowl id="right-invariant-vector-field" section="fiber-bundles" text="Right-invariant vector field" >}}
 - {{< knowl id="bi-invariant-metric" text="Bi-invariant metric" >}}
 
 ## Lie Algebras
 
 ### Basic Definitions
 
-- {{< knowl id="lie-algebra" section="fiber-bundles" text="Lie algebra" >}}
-- {{< knowl id="lie-algebra-of-a-lie-group" section="fiber-bundles" text="Lie algebra of a Lie group" >}}
-- {{< knowl id="lie-bracket" section="fiber-bundles" text="Lie bracket" >}}
 - {{< knowl id="lie-subalgebra" text="Lie subalgebra" >}}
 - {{< knowl id="ideal-lie-algebra" text="Ideal (Lie algebra)" >}}
 - {{< knowl id="lie-algebra-homomorphism" text="Lie algebra homomorphism" >}}
@@ -80,15 +71,10 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 
 ### Adjoint Representations
 
-- {{< knowl id="adjoint-action-of-a-lie-group" section="fiber-bundles" text="Adjoint action (Ad)" >}}
-- {{< knowl id="coadjoint-action-of-a-lie-group" section="fiber-bundles" text="Coadjoint action (Ad*)" >}}
-- {{< knowl id="adjoint-representation-of-a-lie-algebra" section="fiber-bundles" text="Adjoint representation (ad)" >}}
 - {{< knowl id="conjugation-action-of-a-lie-group" text="Conjugation action" >}}
 
 ### General Representations
 
-- {{< knowl id="representation-of-a-lie-group" section="fiber-bundles" text="Representation of a Lie group" >}}
-- {{< knowl id="representation-of-a-lie-algebra" section="fiber-bundles" text="Representation of a Lie algebra" >}}
 - {{< knowl id="irreducible-representation-lie-group" text="Irreducible representation (group)" >}}
 - {{< knowl id="irreducible-representation-lie-algebra" text="Irreducible representation (algebra)" >}}
 - {{< knowl id="completely-reducible-representation-lie" text="Completely reducible representation" >}}
@@ -160,3 +146,68 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - {{< knowl id="example-upper-triangular" text="Upper triangular (solvable)" >}}
 - {{< knowl id="example-strictly-upper-triangular" text="Strictly upper triangular (nilpotent)" >}}
 - {{< knowl id="example-sphere-homogeneous" text="S² as homogeneous space" >}}
+---
+
+## Uncategorized
+
+- {{< knowl id="adjoint-faithful-iff-discrete-center" text="Adjoint representation: discrete kernel iff discrete center" >}}
+- {{< knowl id="bi-invariant-differential-form" text="Bi-invariant differential form" >}}
+- {{< knowl id="cartan-subalgebra-self-normalizing-lemma" text="Cartan subalgebras are self-normalizing" >}}
+- {{< knowl id="coadjoint-representation-of-a-lie-algebra" text="Coadjoint representation of a Lie algebra" >}}
+- {{< knowl id="compact-lie-group-bi-invariant-metric" text="Bi-invariant metrics on compact Lie groups" >}}
+- {{< knowl id="compact-lie-group-structure" text="Structure of compact connected Lie groups" >}}
+- {{< knowl id="connected-abelian-lie-group-structure" text="Structure of connected abelian Lie groups" >}}
+- {{< knowl id="connected-subgroup-determined-by-algebra" text="Connected subgroup determined by its Lie algebra" >}}
+- {{< knowl id="derived-series-lie-algebra" text="Derived series of a Lie algebra" >}}
+- {{< knowl id="derived-subalgebra-is-ideal-lemma" text="Derived subalgebra is an ideal" >}}
+- {{< knowl id="differential-is-lie-algebra-homomorphism" text="Differential of a Lie group homomorphism" >}}
+- {{< knowl id="direct-sum-of-lie-algebras" text="Direct sum of Lie algebras" >}}
+- {{< knowl id="dual-representation-lie" text="Dual (contragredient) representation" >}}
+- {{< knowl id="effective-action" text="Effective action" >}}
+- {{< knowl id="example-torus" text="Example: the torus $T^n$" >}}
+- {{< knowl id="example-u1-circle" text="Example: $U(1)$ (the circle group)" >}}
+- {{< knowl id="exponential-local-diffeomorphism" text="Exponential map is a local diffeomorphism" >}}
+- {{< knowl id="exponential-one-parameter-subgroup-lemma" text="Exponentials and one-parameter subgroups" >}}
+- {{< knowl id="free-action-lie" text="Free action" >}}
+- {{< knowl id="fundamental-representation" text="Fundamental representation" >}}
+- {{< knowl id="general-linear-lie-algebra" text="General linear Lie algebra" >}}
+- {{< knowl id="heisenberg-group" text="Heisenberg group" >}}
+- {{< knowl id="highest-weight-theorem" text="Highest-weight theorem" >}}
+- {{< knowl id="kernel-of-ad-is-center-lemma" text="Kernel of Ad and the center" >}}
+- {{< knowl id="kernel-of-ad-small-is-center-lemma" text="Kernel of ad and the center" >}}
+- {{< knowl id="killing-form-ad-invariant-lemma" text="Ad-invariance of the Killing form" >}}
+- {{< knowl id="killing-form-nondegenerate-iff-semisimple" text="Killing form nondegeneracy criterion" >}}
+- {{< knowl id="left-invariant-differential-form" text="Left-invariant differential form" >}}
+- {{< knowl id="left-invariant-fields-lie-algebra-lemma" text="Left-invariant vector fields form the Lie algebra" >}}
+- {{< knowl id="lie-algebra-automorphism" text="Lie algebra automorphism" >}}
+- {{< knowl id="lie-algebra-compact-is-reductive" text="Compact Lie algebra is reductive" >}}
+- {{< knowl id="lie-algebra-of-product" text="Lie algebra of a product" >}}
+- {{< knowl id="lie-algebra-of-subgroup-lemma" text="Lie algebra of a subgroup lemma" >}}
+- {{< knowl id="lorentz-group" text="Lorentz group" >}}
+- {{< knowl id="lower-central-series-lie-algebra" text="Lower central series" >}}
+- {{< knowl id="maurer-cartan-equation-lemma" text="Maurer–Cartan equation lemma" >}}
+- {{< knowl id="nilpotent-implies-solvable-lemma" text="Nilpotent implies solvable" >}}
+- {{< knowl id="one-parameter-subgroups-integral-curves" text="One-parameter subgroups as integral curves" >}}
+- {{< knowl id="orbit-space" text="Orbit space" >}}
+- {{< knowl id="orthogonal-lie-algebra" text="Orthogonal Lie algebra" >}}
+- {{< knowl id="poincare-group" text="Poincaré group" >}}
+- {{< knowl id="proper-action-lie" text="Proper action" >}}
+- {{< knowl id="quotient-lie-algebra" text="Quotient Lie algebra" >}}
+- {{< knowl id="right-invariant-differential-form" text="Right-invariant differential form" >}}
+- {{< knowl id="root-space-decomposition" text="Root space decomposition" >}}
+- {{< knowl id="schur-orthogonality-lie-groups" text="Schur orthogonality for compact Lie groups" >}}
+- {{< knowl id="semisimple-direct-sum-simple" text="Semisimple Lie algebra as a direct sum of simple ideals" >}}
+- {{< knowl id="simple-lie-algebra-trivial-center" text="Center of a simple Lie algebra is trivial" >}}
+- {{< knowl id="simply-connected-determined-by-algebra" text="Simply connected Lie groups are determined by their Lie algebras" >}}
+- {{< knowl id="special-linear-lie-algebra" text="Special linear Lie algebra" >}}
+- {{< knowl id="special-unitary-lie-algebra" text="Special unitary Lie algebra" >}}
+- {{< knowl id="subrepresentation-lie-algebra" text="Subrepresentation of a Lie algebra" >}}
+- {{< knowl id="symplectic-lie-algebra" text="Symplectic Lie algebra" >}}
+- {{< knowl id="tensor-product-of-representations-lie" text="Tensor product of representations" >}}
+- {{< knowl id="tfae-nilpotency-lie-algebra" text="Equivalent characterizations of nilpotency for Lie algebras" >}}
+- {{< knowl id="tfae-semisimplicity-lie-algebra" text="Equivalent characterizations of semisimplicity for Lie algebras" >}}
+- {{< knowl id="tfae-solvability-lie-algebra" text="Equivalent characterizations of solvability for Lie algebras" >}}
+- {{< knowl id="transitive-action-lie" text="Transitive Lie group action" >}}
+- {{< knowl id="unitary-lie-algebra" text="Unitary Lie algebra" >}}
+- {{< knowl id="universal-covering-group-existence" text="Existence of universal covering groups" >}}
+- {{< knowl id="weights-in-dual-cartan" text="Weights in the dual Cartan" >}}

@@ -3,13 +3,13 @@ title: "Example: upper triangular matrices (a solvable Lie algebra)"
 description: "Upper triangular matrices form a Lie algebra whose derived subalgebra is strictly upper triangular, giving an explicit derived series."
 ---
 
-Let $B\subset {{< knowl id="general-linear-group" text="$GL(2,\mathbb R)$" >}}$ be the subgroup of invertible upper triangular matrices:
+Let $B\subset GL(2,\mathbb R)$ (see {{< knowl id="general-linear-group" text="general linear group" >}}) be the subgroup of invertible upper triangular matrices:
 \[
 B=\left\{\begin{pmatrix}a&b\\0&d\end{pmatrix}: a,d\ne 0\right\}.
 \]
 It is a Lie subgroup, and its Lie algebra is the upper triangular matrices
 \[
-\mathfrak b=\left\{\begin{pmatrix}x&y\\0&z\end{pmatrix}: x,y,z\in\mathbb R\right\}\subset {{< knowl id="general-linear-lie-algebra" text="$\mathfrak{gl}(2,\mathbb R)$" >}}.
+\mathfrak b=\left\{\begin{pmatrix}x&y\\0&z\end{pmatrix}: x,y,z\in\mathbb R\right\}\subset \mathfrak{gl}(2,\mathbb R).
 \]
 
 ## Commutator calculation
@@ -20,21 +20,13 @@ A'=\begin{pmatrix}x'&y'\\0&z'\end{pmatrix}.
 \]
 Then
 \[
-[A,A']=AA'-A'A
-=
-\begin{pmatrix}
-0 & (x-z)y'-(x'-z')y\\
-0 & 0
-\end{pmatrix},
+[A,A']=AA'-A'A = \begin{pmatrix} 0 & (x-z)y'-(x'-z')y\\ 0 & 0 \end{pmatrix},
 \]
 which is **strictly** upper triangular.
 
 Therefore the {{< knowl id="derived-subalgebra" text="derived subalgebra" >}} is
 \[
-[\mathfrak b,\mathfrak b]
-=
-\left\{\begin{pmatrix}0&u\\0&0\end{pmatrix}: u\in\mathbb R\right\}
-\cong \mathbb R,
+[\mathfrak b,\mathfrak b] = \left\{\begin{pmatrix}0&u\\0&0\end{pmatrix}: u\in\mathbb R\right\} \cong \mathbb R,
 \]
 matching the {{< knowl id="example-strictly-upper-triangular" text="strictly upper triangular" >}} pattern.
 

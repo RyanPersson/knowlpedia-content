@@ -18,7 +18,6 @@ Click any term to expand its definition inline.
 - {{< knowl id="closure-of-a-set" text="Closure" >}}
 - {{< knowl id="convergence-of-a-sequence" text="Convergence of a sequence" >}}
 - {{< knowl id="cauchy-sequence" text="Cauchy sequence" >}}
-- {{< knowl id="subsequence" text="Subsequence" >}}
 - {{< knowl id="complete-metric-space-complete-subset" text="Complete metric space" >}}
 - {{< knowl id="distance-function-to-a-set" text="Distance function to a set" >}}
 - {{< knowl id="product-space-cartesian-product" text="Product space" >}}
@@ -71,7 +70,6 @@ Click any term to expand its definition inline.
 ## Vector Spaces and Linear Algebra
 
 ### Definitions
-- {{< knowl id="vector-space" text="Vector space" >}}
 - {{< knowl id="linear-subspace" text="Linear subspace" >}}
 - {{< knowl id="linear-combination" text="Linear combination" >}}
 - {{< knowl id="subspace-generated-by-a-set-span" text="Span" >}}
@@ -239,3 +237,8 @@ Click any term to expand its definition inline.
 - {{< knowl id="youngs-inequality" text="Young's inequality" >}}
 - {{< knowl id="holder-inequality-finite-sums" text="Hölder inequality (finite sums)" >}}
 - {{< knowl id="holder-inequality-integrals" text="Hölder inequality (integrals)" >}}
+---
+
+## Uncategorized
+
+- {{< knowl id="convex-lecture-notes" text="Modern Analysis: Lecture Notes and Further Reading Materials" >}}

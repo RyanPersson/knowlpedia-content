@@ -25,9 +25,7 @@ so (up to an overall sign convention) $\mathfrak{su}(2)$ has the same structure 
 ## Exponentials (explicit)
 For $t\in\mathbb R$,
 \[
-\exp(tX_3)=\exp\!\left(\frac{it}{2}\begin{pmatrix}1&0\\0&-1\end{pmatrix}\right)
-=
-\begin{pmatrix}e^{it/2}&0\\0&e^{-it/2}\end{pmatrix}\in SU(2).
+\exp(tX_3)=\exp\!\left(\frac{it}{2}\begin{pmatrix}1&0\\0&-1\end{pmatrix}\right) = \begin{pmatrix}e^{it/2}&0\\0&e^{-it/2}\end{pmatrix}\in SU(2).
 \]
 This shows directly that one-parameter subgroups arise from the {{< knowl id="exponential-map-lie-group" text="exponential map" >}}.
 

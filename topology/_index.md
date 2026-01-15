@@ -144,3 +144,17 @@ Click any term to expand its definition inline.
 - {{< knowl id="complete-metric-space-is-baire" text="Complete metric space is Baire" >}}
 - {{< knowl id="intersection-of-dense-open-is-dense" text="Intersection of dense open is dense" >}}
 - {{< knowl id="category-argument-template" text="Category argument template" >}}
+---
+
+## Uncategorized
+
+- {{< knowl id="boundary" text="Boundary" >}}
+- {{< knowl id="closed-sets-are-complements-of-open-sets" text="Closed sets are complements of open sets" >}}
+- {{< knowl id="continuity-via-open-sets" text="Continuity via open sets" >}}
+- {{< knowl id="continuous-bijection-from-compact-homeomorphism-criterion" text="Continuous bijection from compact is a homeomorphism criterion" >}}
+- {{< knowl id="continuous-on-compact-bounded-corollary" text="Continuous function on a compact set is bounded" >}}
+- {{< knowl id="continuous-on-compact-is-bounded" text="Continuous functions on compact sets are bounded" >}}
+- {{< knowl id="convergence-in-product-metric-spaces" text="Convergence in product metric spaces" >}}
+- {{< knowl id="heine-cantor-corollary" text="Continuous function on a compact set is uniformly continuous" >}}
+- {{< knowl id="nested-interval-theorem" text="Nested interval theorem" >}}
+- {{< knowl id="open-sets-form-a-topology" text="Open sets form a topology" >}}

@@ -11,11 +11,7 @@ Let $G$ be a Lie group with Lie algebra $\mathfrak{g}$. The {{< knowl id="adjoin
 \]
 Equivalently, $\mathrm{Ad}^*_g$ is characterized by the pairing identity
 \[
-\langle \mathrm{Ad}^*_g\lambda,\, X\rangle
-=
-\langle \lambda,\, \mathrm{Ad}_{g^{-1}}X\rangle
-\quad
-(\lambda\in\mathfrak{g}^*,\, X\in\mathfrak{g}).
+\langle \mathrm{Ad}^*_g\lambda,\, X\rangle = \langle \lambda,\, \mathrm{Ad}_{g^{-1}}X\rangle \quad (\lambda\in\mathfrak{g}^*,\, X\in\mathfrak{g}).
 \]
 The assignment $g\mapsto \mathrm{Ad}^*_g$ is a smooth group homomorphism $G\to \mathrm{GL}(\mathfrak{g}^*)$.
 

@@ -7,9 +7,7 @@ Let $G$ be a Lie group with Lie algebra $\mathfrak{g}$. Consider the {{< knowl i
 
 Define the bracket of $\mathfrak{g}$-valued 1-forms by using the {{< knowl id="lie-bracket" text="Lie bracket" >}} on $\mathfrak{g}$: for tangent vectors $u,v\in T_gG$ set
 \[
-[\theta^L\wedge \theta^L]_g(u,v)
-=
-[\theta^L_g(u),\,\theta^L_g(v)]\in\mathfrak{g},
+[\theta^L\wedge \theta^L]_g(u,v) = [\theta^L_g(u),\,\theta^L_g(v)]\in\mathfrak{g},
 \]
 and extend by bilinearity and antisymmetry. Then the **Maurer–Cartan equation** is the identity
 \[

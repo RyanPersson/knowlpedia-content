@@ -22,18 +22,12 @@ The contraction satisfies the following standard identities.
 
 - **Graded derivation rule for the** {{< knowl id="wedge-product-of-differential-forms" text="wedge product" >}}: if $\alpha\in\Omega^p(M)$ and $\beta\in\Omega^q(M)$, then
   \[
-  \iota_X(\alpha\wedge\beta)
-  =
-  (\iota_X\alpha)\wedge\beta
-  +
-  (-1)^p\,\alpha\wedge(\iota_X\beta).
+  \iota_X(\alpha\wedge\beta) = (\iota_X\alpha)\wedge\beta + (-1)^p\,\alpha\wedge(\iota_X\beta).
   \]
 
 - **Cartan’s formula (interaction with differentiation):** the {{< knowl id="lie-derivative-of-a-differential-form" text="Lie derivative" >}} of forms along $X$ is given by
   \[
-  \mathcal{L}_X\omega
-  =
-  d(\iota_X\omega)+\iota_X(d\omega),
+  \mathcal{L}_X\omega = d(\iota_X\omega)+\iota_X(d\omega),
   \]
   where $d$ is the {{< knowl id="exterior-derivative" text="exterior derivative" >}}.
 

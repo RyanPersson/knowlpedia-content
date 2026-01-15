@@ -215,3 +215,11 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - {{< knowl id="sylow-congruence" text="n_p ≡ 1 mod p" >}}
 - {{< knowl id="classification-finite-abelian-groups" text="Classification of finite abelian groups" >}}
 - {{< knowl id="jordan-holder-uniqueness" text="Jordan-Hölder uniqueness" >}}
+---
+
+## Uncategorized
+
+- {{< knowl id="decomposition" text="Missing Knowls" >}}
+- {{< knowl id="loop" text="Loop" >}}
+- {{< knowl id="magma" text="Magma" >}}
+- {{< knowl id="quasigroup" text="Quasigroup" >}}

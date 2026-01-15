@@ -94,3 +94,14 @@ This section contains foundational definitions from set theory and mathematical 
 - {{< knowl id="well-ordering-principle" text="Well-ordering principle" >}}
 - {{< knowl id="well-ordering-theorem" text="Well-ordering theorem" >}}
 - {{< knowl id="zorns-lemma" text="Zorn's lemma" >}}
+---
+
+## Uncategorized
+
+- {{< knowl id="bounded-infinite-set-has-limit-point" text="Every bounded infinite subset of R^k has a limit point" >}}
+- {{< knowl id="complex-conjugate" text="Complex conjugate" >}}
+- {{< knowl id="complex-numbers-c" text="Complex numbers" >}}
+- {{< knowl id="composition-of-functions" text="Composition of functions" >}}
+- {{< knowl id="contraction-mapping" text="Contraction mapping" >}}
+- {{< knowl id="morphism" text="Morphism" >}}
+- {{< knowl id="total-order-linear-order" text="Total order (linear order)" >}}

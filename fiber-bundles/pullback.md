@@ -13,9 +13,7 @@ This is the **pullback of covectors**, and it assembles fiberwise into a bundle 
 
 More generally, for a {{< knowl id="differential-k-form" text="differential $k$-form" >}} $\omega\in\Omega^k(N)$, the **pullback form** $f^*\omega\in\Omega^k(M)$ is defined by
 \[
-(f^*\omega)_p(v_1,\dots,v_k)
-=
-\omega_{f(p)}(\mathrm{d}f_p(v_1),\dots,\mathrm{d}f_p(v_k)).
+(f^*\omega)_p(v_1,\dots,v_k) = \omega_{f(p)}(\mathrm{d}f_p(v_1),\dots,\mathrm{d}f_p(v_k)).
 \]
 Pullback is functorial and unital: $(g\circ f)^*=f^*\circ g^*$ and $\mathrm{id}^*=\mathrm{id}$. It also commutes with the {{< knowl id="exterior-derivative" text="exterior derivative" >}}: for all forms $\omega$ on $N$, one has $f^*(\mathrm{d}\omega)=\mathrm{d}(f^*\omega)$.
 

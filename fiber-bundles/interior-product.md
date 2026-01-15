@@ -5,11 +5,7 @@ description: "The contraction of a differential form with a vector field, loweri
 
 Let $M$ be a smooth manifold, let $X$ be a {{< knowl id="vector-field" text="vector field" >}} on $M$, and let $\omega\in\Omega^k(M)$ be a {{< knowl id="differential-k-form" text="differential $k$-form" >}} with $k\ge 1$. The **interior product** (or **contraction**) of $\omega$ with $X$ is the $(k-1)$-form $\iota_X\omega$ defined by
 \[
-(\iota_X\omega)_p(v_1,\dots,v_{k-1})
-=
-\omega_p\bigl(X_p,v_1,\dots,v_{k-1}\bigr)
-\qquad
-(p\in M).
+(\iota_X\omega)_p(v_1,\dots,v_{k-1}) = \omega_p\bigl(X_p,v_1,\dots,v_{k-1}\bigr) \qquad (p\in M).
 \]
 By convention, $\iota_X\omega=0$ if $k=0$.
 
