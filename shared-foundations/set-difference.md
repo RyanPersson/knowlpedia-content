@@ -1,16 +1,15 @@
 ---
 title: "Set difference"
-description: "The set of elements in A that are not in B, denoted A \\ B"
+description: "The elements of one set that are not in another set."
 ---
 
-Let $A$ and $B$ be {{< knowl id="set" text="sets" >}}. The **set difference** (or relative complement) of $B$ in $A$ is
+A **set difference** (or **relative complement**) of sets $A$ and $B$ is the set
 $$
-A \setminus B = \{x : x \in A \text{ and } x \notin B\}.
+A\setminus B=\{x : x\in A \text{ and } x\notin B\}.
 $$
 
-Set difference can be expressed using {{< knowl id="intersection" text="intersection" >}} and a {{< knowl id="complement" text="complement" >}} when a universe is fixed, and it is a basic operation in describing {{< knowl id="subset" text="subsets" >}} and {{< knowl id="partition" text="partitions" >}}.
+Set difference can be expressed using {{< knowl id="intersection" text="intersection" >}} and {{< knowl id="complement" text="complement" >}} once an ambient universe $U$ is chosen: if $B\subseteq U$, then $A\setminus B = A\cap B^{c}$.
 
 **Examples:**
-- $\{1,2,3\} \setminus \{2\} = \{1,3\}$.
-- $(0,2)\setminus(1,3) = (0,1]$.
-- If $A \subseteq B$ (see {{< knowl id="subset" text="subset" >}}), then $A\setminus B = \emptyset$.
+- $\{1,2,3\}\setminus\{2,4\}=\{1,3\}$.
+- If $A\subseteq B$, then $A\setminus B=\varnothing$ (see {{< knowl id="empty-set" text="empty set" >}}).

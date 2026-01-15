@@ -1,17 +1,12 @@
 ---
 title: "Binary operation"
-description: "A function *:S×S→S combining two elements of S into one"
+description: "A function that combines two elements of a set to produce another element of the same set"
 ---
 
-Let $S$ be a {{< knowl id="set" text="set" >}}. A **binary operation** on $S$ is a {{< knowl id="function" text="function" >}}
-$$
-*\colon S\times S \to S,
-$$
-where $S\times S$ is the {{< knowl id="cartesian-product" text="Cartesian product" >}}. Thus, for each {{< knowl id="ordered-pair" text="pair" >}} $(a,b)\in S\times S$, the value $a*b$ is an element of $S$.
+A **binary operation** on a set $S$ is a {{< knowl id="function" text="function" >}} $*:S\times S\to S$, where $S\times S$ is the {{< knowl id="cartesian-product" text="Cartesian product" >}} of $S$ with itself. The value of $*(x,y)$ is usually written $x*y$.
 
-Binary operations are the basic input for algebraic structures (groups, rings, etc.), where one adds axioms such as associativity or commutativity.
+Binary operations are functions with two inputs that are “closed” in the sense that combining two elements of $S$ produces an element of $S$ again. Many algebraic structures begin with a set equipped with a binary operation.
 
 **Examples:**
-- Addition $+\colon\mathbb{Z}\times\mathbb{Z}\to\mathbb{Z}$ is a binary operation.
-- Matrix multiplication on the set of $n\times n$ real matrices is a binary operation.
-- Subtraction on $\mathbb{N}$ is not a binary operation on $\mathbb{N}$ if $\mathbb{N}$ does not contain negatives (not closed).
+- Addition $+:\mathbb{Z}\times\mathbb{Z}\to\mathbb{Z}$ is a binary operation on {{< knowl id="integers" text="the integers" >}}.
+- For a fixed set $A$, the union map $(S,T)\mapsto S\cup T$ is a binary operation on the {{< knowl id="power-set" text="power set" >}} $\mathcal{P}(A)$, using {{< knowl id="union" text="union" >}} of subsets.

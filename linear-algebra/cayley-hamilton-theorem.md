@@ -1,16 +1,12 @@
 ---
-title: "Cayley-Hamilton Theorem"
-description: "Every linear operator satisfies its own characteristic polynomial"
+title: "Cayley–Hamilton theorem"
+description: "A square matrix satisfies its own characteristic polynomial."
 ---
 
-**Cayley-Hamilton Theorem**: Let $T$ be a {{< knowl id="linear-operator" text="linear operator" >}} on a finite-dimensional vector space $V$ over a field $F$, and let $\chi_T(t)$ be its {{< knowl id="characteristic-polynomial" text="characteristic polynomial" >}}. Then
-$$
-\chi_T(T)=0,
-$$
-meaning that when $\chi_T(t)$ is expanded as a polynomial $\chi_T(t)=t^n+c_{n-1}t^{n-1}+\cdots+c_0$, one has
-$$
-T^n+c_{n-1}T^{n-1}+\cdots+c_0 I=0
-$$
-as operators on $V$ (where $I$ is the identity operator and $0$ is the zero operator).
+**Cayley–Hamilton theorem:** Let $T:V\to V$ be a {{< knowl id="linear-operator" text="linear operator" >}} on a finite-dimensional vector space $V$. Let $p_T(t)$ be the {{< knowl id="characteristic-polynomial" text="characteristic polynomial" >}} of $T$. Then
+\[
+p_T(T)=0,
+\]
+meaning that substituting $T$ into its own characteristic polynomial yields the zero operator on $V$.
 
-A key consequence is that the {{< knowl id="minimal-polynomial" text="minimal polynomial" >}} of $T$ divides $\chi_T$.
+Equivalently, if $A$ is an $n\times n$ matrix and $p_A(t)=\det(tI-A)$ (defined using the {{< knowl id="determinant" text="determinant" >}}), then $p_A(A)=0$. One consequence is that the {{< knowl id="minimal-polynomial" text="minimal polynomial" >}} divides the characteristic polynomial, linking algebraic identities of $T$ to its {{< knowl id="eigenvalue" text="eigenvalues" >}}.

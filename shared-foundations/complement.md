@@ -1,16 +1,15 @@
 ---
 title: "Complement"
-description: "The elements not in A, relative to a fixed universe U"
+description: "The elements of an ambient universe that are not in a given set."
 ---
 
-Fix a {{< knowl id="set" text="set" >}} $U$ (the "universe"). For $A \subseteq U$ (see {{< knowl id="subset" text="subset" >}}), the **complement** of $A$ in $U$ is
+A **complement** of a set $A$ is defined relative to a fixed ambient set (universe) $U$ with $A\subseteq U$. The complement of $A$ in $U$ is
 $$
-A^{c} = U \setminus A,
+A^{c}=\{x\in U : x\notin A\}.
 $$
-where $\setminus$ is {{< knowl id="set-difference" text="set difference" >}}.
 
-Complements exchange {{< knowl id="union" text="unions" >}} and {{< knowl id="intersection" text="intersections" >}} via De Morgan's laws (relative to $U$).
+Equivalently, $A^{c}$ is the {{< knowl id="set-difference" text="set difference" >}} $U\setminus A$. Complements interact with {{< knowl id="union" text="union" >}} and {{< knowl id="intersection" text="intersection" >}} through De Morgan’s laws.
 
 **Examples:**
-- If $U=\{1,2,3,4,5\}$ and $A=\{2,5\}$, then $A^c=\{1,3,4\}$.
-- In $U=\mathbb{R}$, the complement of $(0,1)$ is $(-\infty,0]\cup[1,\infty)$.
+- If $U=\{1,2,3,4\}$ and $A=\{1,4\}$, then $A^{c}=\{2,3\}$.
+- If $U=\mathbb{R}$ and $A=\{x\in\mathbb{R}: x\ge 0\}$, then $A^{c}=\{x\in\mathbb{R}: x<0\}$.

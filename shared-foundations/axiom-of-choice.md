@@ -1,10 +1,8 @@
 ---
 title: "Axiom of Choice"
-description: "Every family of nonempty sets admits a choice function selecting one element from each set"
+description: "Every family of nonempty sets has a choice function."
 ---
 
-The **axiom of choice (AC)** states:
+**Axiom of Choice:** For every indexed family $(A_i)_{i\in I}$ of nonempty sets, there exists a {{< knowl id="function" text="function" >}} $f:I\to \bigcup_{i\in I} A_i$ such that $f(i)\in A_i$ for all $i\in I$.
 
-For every indexed family $(A_i)_{i\in I}$ of nonempty {{< knowl id="set" text="sets" >}}, there exists a {{< knowl id="function" text="function" >}} $c\colon I\to \bigcup_{i\in I} A_i$ (see {{< knowl id="union" text="union" >}}) such that $c(i)\in A_i$ for every $i\in I$. Such a function $c$ is called a **choice function** for the family.
-
-AC is independent of the other {{< knowl id="zfc-axioms" text="ZFC axioms" >}} (ZF) and is equivalent (over ZF) to several major principles, including {{< knowl id="zorns-lemma" text="Zorn's lemma" >}} and the {{< knowl id="well-ordering-theorem" text="well-ordering theorem" >}}.
+Equivalently, every {{< knowl id="indexed-family-of-sets" text="indexed family of sets" >}} of nonempty sets admits a choice function selecting one element from each set. In the presence of the other ZF axioms, this axiom is equivalent to {{< knowl id="zorns-lemma" text="Zorn's lemma" >}} and to the {{< knowl id="well-ordering-theorem" text="well-ordering theorem" >}}.

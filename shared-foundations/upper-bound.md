@@ -1,16 +1,12 @@
 ---
 title: "Upper bound"
-description: "An element u with s≤u for every s in a subset S of a poset"
+description: "An element that is greater than or equal to every element of a subset in an ordered set."
 ---
 
-Let $(P,\le)$ be a {{< knowl id="partial-order" text="partially ordered set" >}} and let $S\subseteq P$ be a {{< knowl id="subset" text="subset" >}}. An element $u\in P$ is an **upper bound** of $S$ if
-$$
-\forall s\in S,\; s\le u.
-$$
+An **upper bound** of a subset $A$ of a {{< knowl id="partial-order" text="partially ordered set" >}} $(P,\le)$ is an element $u\in P$ such that $a\le u$ for all $a\in A$. The subset $A$ is **bounded above** if it has at least one upper bound in $P$.
 
-Upper bounds are used to formulate maximality principles such as {{< knowl id="zorns-lemma" text="Zorn's lemma" >}}. In ordered structures like $\mathbb{R}$, one often asks whether a *least* upper bound exists (the {{< knowl id="supremum" text="supremum" >}}).
+Upper bounds are paired with {{< knowl id="lower-bound" text="lower bounds" >}} and are used to define least upper bounds (the {{< knowl id="supremum" section="real-analysis" text="supremum" >}} in real analysis).
 
 **Examples:**
-- In $(\mathbb{R},\le)$, the number $1$ is an upper bound of $(0,1)$.
-- In $(\mathcal{P}(X),\subseteq)$, the union of a family of subsets is an upper bound of that family.
-- In $(\mathbb{Z},\le)$, the set $\{n\in\mathbb{Z}: n\le 0\}$ has no upper bound.
+- In $(\mathbb{Z},\le)$, the integer $10$ is an upper bound for the subset $\{1,4,7\}$.
+- In the poset $(\mathcal P(X),\subseteq)$, the set $A\cup B$ is an upper bound for $\{A,B\}$, where $A\cup B$ is the {{< knowl id="union" text="union" >}} of $A$ and $B$.

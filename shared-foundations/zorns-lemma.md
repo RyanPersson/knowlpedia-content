@@ -1,8 +1,8 @@
 ---
 title: "Zorn's lemma"
-description: "If every chain in a poset has an upper bound, then a maximal element exists"
+description: "A maximal-element principle for partially ordered sets."
 ---
 
-**Zorn's lemma:** Let $(P,\le)$ be a {{< knowl id="partial-order" text="partially ordered set" >}}. Suppose that for every chain $C\subseteq P$ (i.e. a {{< knowl id="subset" text="subset" >}} that is {{< knowl id="total-order" text="totally ordered" >}} by $\le$), there exists an {{< knowl id="upper-bound" text="upper bound" >}} $u\in P$ of $C$. Then $P$ has a **maximal element**: an element $m\in P$ such that there is no $p\in P$ with $m<p$.
+**Zorn's lemma:** Let $(P,\le)$ be a {{< knowl id="partial-order" text="partially ordered set" >}}. If every chain $C\subseteq P$ has an {{< knowl id="upper-bound" text="upper bound" >}} in $P$, then $P$ has a maximal element.
 
-Over the usual background axioms of set theory, Zorn's lemma is equivalent to the {{< knowl id="axiom-of-choice" text="axiom of choice" >}} and to the {{< knowl id="well-ordering-theorem" text="well-ordering theorem" >}}.
+Here a **chain** means a subset $C\subseteq P$ on which the restriction of $\le$ is a {{< knowl id="total-order" text="total order" >}}, and an element $m\in P$ is **maximal** if there is no $p\in P$ with $m<p$ (i.e., $m\le p$ and $m\ne p$). Over ZF, Zorn's lemma is equivalent to the {{< knowl id="axiom-of-choice" text="Axiom of Choice" >}} and to the {{< knowl id="well-ordering-theorem" text="well-ordering theorem" >}}.

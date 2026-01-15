@@ -1,17 +1,12 @@
 ---
 title: "Proper subset"
-description: "A strict inclusion A ⊊ B, meaning A ⊆ B but A ≠ B"
+description: "A subset that is strictly smaller than the set it sits inside."
 ---
 
-Let $A$ and $B$ be {{< knowl id="set" text="sets" >}}. We say that **$A$ is a proper subset of $B$**, written $A \subsetneq B$, if
-$$
-A \subseteq B \quad\text{and}\quad A \neq B,
-$$
-where $\subseteq$ is the {{< knowl id="subset" text="subset" >}} relation.
+A **proper subset** of a set $B$ is a set $A$ such that $A\subseteq B$ and $A\neq B$. One writes $A\subsetneq B$ (or $A\subset B$ in contexts where ambiguity is avoided).
 
-Proper subset expresses *strict* containment, in contrast to $A \subseteq B$ which allows equality. In particular, the {{< knowl id="empty-set" text="empty set" >}} is a proper subset of any nonempty set.
+Proper inclusion strengthens the {{< knowl id="subset" text="subset" >}} relation by excluding equality, and it often appears when describing strict containments such as $A\subsetneq A\cup\{x\}$.
 
 **Examples:**
-- $\{1\} \subsetneq \{1,2\}$.
-- $\emptyset \subsetneq \{0\}$.
-- $\{1,2\} \not\subsetneq \{1,2\}$ (it is not strict).
+- $\{1,2\}\subsetneq \{1,2,3\}$.
+- For any set $A$, $\varnothing\subsetneq A$ holds exactly when $A\neq \varnothing$.

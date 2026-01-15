@@ -1,13 +1,8 @@
 ---
-title: "Principle of mathematical induction"
-description: "A proof principle for statements indexed by ℕ: base case plus inductive step implies all cases"
+title: "Mathematical induction"
+description: "A principle for proving statements for all natural numbers."
 ---
 
-The **principle of mathematical induction** says:
+**Mathematical induction:** Let $P(n)$ be a statement about $n\in\mathbb{N}$. If $P(0)$ is true and for every $n\in\mathbb{N}$ the implication $P(n)\Rightarrow P(n+1)$ holds, then $P(n)$ is true for all $n\in\mathbb{N}$.
 
-Let $P(n)$ be a statement for each $n\in\mathbb{N}$. If
-1. (Base case) $P(0)$ is true, and
-2. (Inductive step) for every $n\in\mathbb{N}$, $P(n)\Rightarrow P(n+1)$,
-then $P(n)$ is true for all $n\in\mathbb{N}$.
-
-Induction is equivalent (over basic set theory) to the {{< knowl id="well-ordering-principle" text="well-ordering principle for ℕ" >}}: every nonempty {{< knowl id="subset" text="subset" >}} of $\mathbb{N}$ has a least element.
+This is a fundamental method for proving claims indexed by the {{< knowl id="natural-numbers" text="natural numbers" >}}. It is closely connected to the {{< knowl id="well-ordering-principle" text="well-ordering principle" >}}, and each can be derived from the other in standard foundations.

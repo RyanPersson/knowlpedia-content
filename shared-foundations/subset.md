@@ -1,18 +1,15 @@
 ---
 title: "Subset"
-description: "A set A is a subset of B if every element of A is an element of B"
+description: "A set contained in another set, element by element."
 ---
 
-Let $A$ and $B$ be {{< knowl id="set" text="sets" >}}. We say that **$A$ is a subset of $B$**, written $A \subseteq B$, if
+A **subset** of a set $B$ is a set $A$ such that every element of $A$ is an element of $B$:
 $$
-\forall x\,(x \in A \Rightarrow x \in B).
+A\subseteq B \;\;:\!\iff\;\; \forall x\,(x\in A \Rightarrow x\in B).
 $$
 
-The subset relation is a basic way to compare sets; it also underlies the {{< knowl id="partial-order" text="partial order" >}}
-$\subseteq$ on collections of subsets.
+The subset relation is a basic way to compare {{< knowl id="set" text="sets" >}} and is used to define operations like {{< knowl id="power-set" text="power set" >}} and {{< knowl id="set-difference" text="set difference" >}}. Note that $A=B$ holds exactly when both $A\subseteq B$ and $B\subseteq A$.
 
 **Examples:**
-- $\{1,2\} \subseteq \{1,2,3\}$.
-- $\emptyset \subseteq A$ for every set $A$.
-- $A \subseteq A$ for every set $A$.
-- $\{1,2,3\} \nsubseteq \{1,2\}$ since $3 \in \{1,2,3\}$ but $3 \notin \{1,2\}$.
+- $\{1,2\}\subseteq \{1,2,3\}$.
+- For any set $A$, $\varnothing\subseteq A$ (see {{< knowl id="empty-set" text="empty set" >}}).

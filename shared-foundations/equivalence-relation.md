@@ -1,16 +1,16 @@
 ---
 title: "Equivalence relation"
-description: "A relation that is reflexive, symmetric, and transitive"
+description: "A relation that formalizes when two elements should be regarded as the same type."
 ---
 
-Let $A$ be a {{< knowl id="set" text="set" >}} and let $\sim$ be a {{< knowl id="relation" text="relation" >}} on $A$ (so $\sim \subseteq A\times A$, the {{< knowl id="cartesian-product" text="Cartesian product" >}}). Then $\sim$ is an **equivalence relation** if it satisfies:
-- (Reflexive) $\forall a\in A,\; a\sim a$.
-- (Symmetric) $\forall a,b\in A,\; a\sim b \Rightarrow b\sim a$.
-- (Transitive) $\forall a,b,c\in A,\; (a\sim b \text{ and } b\sim c)\Rightarrow a\sim c$.
+An **equivalence relation** on a set $A$ is a {{< knowl id="relation" text="relation" >}} $\sim\,\subseteq A\times A$ satisfying the following three properties for all $a,b,c\in A$:
 
-Equivalence relations are exactly the relations that partition $A$ into {{< knowl id="equivalence-class" text="equivalence classes" >}}; the set of classes is the {{< knowl id="quotient-set" text="quotient set" >}}.
+- **Reflexive:** $a\sim a$.
+- **Symmetric:** if $a\sim b$, then $b\sim a$.
+- **Transitive:** if $a\sim b$ and $b\sim c$, then $a\sim c$.
+
+Equivalence relations partition $A$ into {{< knowl id="equivalence-class" text="equivalence classes" >}}, and the set of all classes forms a {{< knowl id="quotient-set" text="quotient set" >}}.
 
 **Examples:**
-- Equality $=$ on any set $A$ is an equivalence relation.
-- On $\mathbb{Z}$, define $a\sim b$ iff $a-b$ is divisible by $n$ (congruence modulo $n$).
-- On $\mathbb{R}$, define $x\sim y$ iff $x-y\in\mathbb{Z}$.
+- On $\mathbb{Z}$, define $a\sim b$ iff $a-b$ is divisible by a fixed $n\in\mathbb{N}$ (congruence modulo $n$).
+- On any set $A$, the equality relation $a\sim b \iff a=b$ is an equivalence relation.

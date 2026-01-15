@@ -1,13 +1,8 @@
 ---
-title: "Existence of a Basis for Every Vector Space"
-description: "Every vector space has a basis; in general this is equivalent to the axiom of choice"
+title: "Basis existence theorem"
+description: "Every vector space has a basis."
 ---
 
-**Existence of a Basis for Every Vector Space**: Let $V$ be a {{< knowl id="vector-space" text="vector space" >}} over a field $F$. Then there exists a subset $B\subseteq V$ such that:
+**Basis existence theorem:** Every {{< knowl id="vector-space" text="vector space" >}} $V$ has a {{< knowl id="subset" section="shared-foundations" text="subset" >}} $B\subseteq V$ such that every $v\in V$ can be written uniquely as a finite linear combination of elements of $B$.
 
-- (**Spanning**) Every $v\in V$ can be written as a *finite linear combination* of elements of $B$, i.e. $v=\sum_{i=1}^n a_i b_i$ with $a_i\in F$ and $b_i\in B$.
-- (**Linear independence**) If $\sum_{i=1}^n a_i b_i=0$ with $a_i\in F$ and *distinct* $b_i\in B$, then all $a_i=0$.
-
-Such a set $B$ is called a **basis** of $V$.
-
-In full generality, this theorem is equivalent to the {{< knowl id="axiom-of-choice" text="axiom of choice" >}} (and hence also to {{< knowl id="zorns-lemma" text="Zorn's lemma" >}}). The standard proof uses a maximality argument in a {{< knowl id="partial-order" text="partially ordered set" >}}.
+This theorem guarantees that vector spaces admit coordinate descriptions once a basis is chosen, even when $V$ is infinite-dimensional. Standard proofs use Zorn's lemma (equivalently, the axiom of choice), and the result underlies many structural statements about {{< knowl id="linear-map" text="linear maps" >}}.

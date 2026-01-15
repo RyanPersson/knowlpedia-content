@@ -1,16 +1,19 @@
 ---
 title: "Ordered pair"
-description: "A pair (a,b) whose order matters; (a,b)=(c,d) iff a=c and b=d"
+description: "A two-component object where order matters."
 ---
 
-An **ordered pair** is a primitive two-component object $(a,b)$ with the defining equality rule
+An **ordered pair** is a two-component object $(a,b)$ whose equality is componentwise:
 $$
-(a,b) = (c,d)\quad\Longleftrightarrow\quad a=c \text{ and } b=d.
+(a,b)=(c,d)\iff a=c \text{ and } b=d.
+$$
+In set theory one standard implementation is the **Kuratowski ordered pair**:
+$$
+(a,b):=\bigl\{\{a\},\{a,b\}\bigr\}.
 $$
 
-In {{< knowl id="zfc-axioms" text="ZFC" >}}, one concrete realization is the Kuratowski definition $(a,b)=\{\{a\},\{a,b\}\}$ (so ordered pairs can be built from sets). Ordered pairs are used to define the {{< knowl id="cartesian-product" text="Cartesian product" >}}, and hence {{< knowl id="relation" text="relations" >}} and {{< knowl id="function" text="functions" >}}.
+Ordered pairs are used to form the {{< knowl id="cartesian-product" text="Cartesian product" >}} and to encode {{< knowl id="relation" text="relations" >}} as sets of pairs.
 
 **Examples:**
-- $(1,2)\neq(2,1)$.
-- A point in the plane is often modeled as an ordered pair $(x,y)\in\mathbb{R}^2$.
-- The graph of a function consists of ordered pairs $(x,f(x))$.
+- $(1,2)\neq(2,1)$ because the first coordinates differ.
+- If $a=b$, then $(a,a)$ is still a well-defined ordered pair (with both coordinates equal).

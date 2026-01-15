@@ -1,16 +1,12 @@
 ---
 title: "Injective function"
-description: "A function f is injective if f(a1)=f(a2) implies a1=a2"
+description: "A function that never takes the same value on two different inputs"
 ---
 
-Let $f\colon A\to B$ be a {{< knowl id="function" text="function" >}}. Then $f$ is **injective** (or **one-to-one**) if
-$$
-\forall a_1,a_2\in A,\; f(a_1)=f(a_2)\Rightarrow a_1=a_2.
-$$
+An **injective function** is a {{< knowl id="function" text="function" >}} $f:A\to B$ such that whenever $f(a_1)=f(a_2)$, it follows that $a_1=a_2$.
 
-Injectivity means distinct inputs never collide under $f$. Equivalently, each element of the {{< knowl id="image" text="image" >}} has at most one {{< knowl id="preimage" text="preimage" >}}.
+Injectivity means distinct elements of the {{< knowl id="domain" text="domain" >}} remain distinct after applying $f$. In terms of {{< knowl id="cardinality" text="cardinality" >}}, an injective function from $A$ to $B$ is evidence that $A$ is “no larger than” $B$.
 
 **Examples:**
-- The inclusion map $\iota\colon\{1,2\}\to\{1,2,3\}$ is injective.
-- The function $f\colon\mathbb{Z}\to\mathbb{Z}$ given by $f(n)=2n$ is injective.
-- The function $g\colon\mathbb{R}\to\mathbb{R}$ given by $g(x)=x^2$ is not injective since $g(1)=g(-1)$.
+- The inclusion map $i:S\to A$ of a {{< knowl id="subset" text="subset" >}} is injective, since $i(s)=i(s')$ implies $s=s'$.
+- The function $f:\mathbb{Z}\to\mathbb{Z}$ given by $f(n)=2n$ is injective, but it is not surjective onto $\mathbb{Z}$.

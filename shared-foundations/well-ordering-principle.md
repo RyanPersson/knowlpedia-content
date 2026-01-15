@@ -1,11 +1,8 @@
 ---
-title: "Well-ordering principle for ℕ"
-description: "Every nonempty subset of ℕ has a least element"
+title: "Well-ordering principle"
+description: "Every nonempty subset of the natural numbers has a least element."
 ---
 
-**Well-ordering principle for $\mathbb{N}$:** If $S\subseteq\mathbb{N}$ is a {{< knowl id="subset" text="subset" >}} and $S\neq\emptyset$ (see {{< knowl id="empty-set" text="empty set" >}}), then there exists $m\in S$ such that
-$$
-\forall s\in S,\; m\le s.
-$$
+**Well-ordering principle:** Every nonempty subset $S\subseteq\mathbb{N}$ has a least element (with respect to the usual order on $\mathbb{N}$); that is, there exists $m\in S$ such that $m\le s$ for all $s\in S$.
 
-This is exactly the statement that $(\mathbb{N},\le)$ is a {{< knowl id="well-ordered-set" text="well-ordered set" >}}. It is equivalent to the {{< knowl id="mathematical-induction" text="principle of mathematical induction" >}}.
+This is exactly the statement that $(\mathbb{N},\le)$ is a {{< knowl id="well-ordered-set" text="well-ordered set" >}}. It is equivalent in strength (over standard basic assumptions) to {{< knowl id="mathematical-induction" text="mathematical induction" >}}.

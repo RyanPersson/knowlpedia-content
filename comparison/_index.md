@@ -1,0 +1,594 @@
+---
+title: "Knowl Comparison: Old vs New"
+description: "Compare old and new versions of knowls side by side"
+---
+
+Click knowls to expand and compare old vs new versions.
+
+---
+
+## Shared Foundations
+
+### Both Old and New
+
+- **axiom-of-choice**: {{< knowl id="axiom-of-choice" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="axiom-of-choice" section="shared-foundations" text="NEW" >}}
+- **bijective-function**: {{< knowl id="bijective-function" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="bijective-function" section="shared-foundations" text="NEW" >}}
+- **binary-operation**: {{< knowl id="binary-operation" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="binary-operation" section="shared-foundations" text="NEW" >}}
+- **cardinality**: {{< knowl id="cardinality" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="cardinality" section="shared-foundations" text="NEW" >}}
+- **cartesian-product**: {{< knowl id="cartesian-product" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="cartesian-product" section="shared-foundations" text="NEW" >}}
+- **codomain**: {{< knowl id="codomain" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="codomain" section="shared-foundations" text="NEW" >}}
+- **complement**: {{< knowl id="complement" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="complement" section="shared-foundations" text="NEW" >}}
+- **composition**: {{< knowl id="composition" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="composition" section="shared-foundations" text="NEW" >}}
+- **countable-set**: {{< knowl id="countable-set" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="countable-set" section="shared-foundations" text="NEW" >}}
+- **domain**: {{< knowl id="domain" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="domain" section="shared-foundations" text="NEW" >}}
+- **empty-set**: {{< knowl id="empty-set" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="empty-set" section="shared-foundations" text="NEW" >}}
+- **equivalence-class**: {{< knowl id="equivalence-class" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="equivalence-class" section="shared-foundations" text="NEW" >}}
+- **equivalence-relation**: {{< knowl id="equivalence-relation" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="equivalence-relation" section="shared-foundations" text="NEW" >}}
+- **function**: {{< knowl id="function" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="function" section="shared-foundations" text="NEW" >}}
+- **identity-function**: {{< knowl id="identity-function" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="identity-function" section="shared-foundations" text="NEW" >}}
+- **image**: {{< knowl id="image" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="image" section="shared-foundations" text="NEW" >}}
+- **injective-function**: {{< knowl id="injective-function" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="injective-function" section="shared-foundations" text="NEW" >}}
+- **intersection**: {{< knowl id="intersection" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="intersection" section="shared-foundations" text="NEW" >}}
+- **inverse-function**: {{< knowl id="inverse-function" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="inverse-function" section="shared-foundations" text="NEW" >}}
+- **lower-bound**: {{< knowl id="lower-bound" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="lower-bound" section="shared-foundations" text="NEW" >}}
+- **mathematical-induction**: {{< knowl id="mathematical-induction" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="mathematical-induction" section="shared-foundations" text="NEW" >}}
+- **ordered-pair**: {{< knowl id="ordered-pair" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="ordered-pair" section="shared-foundations" text="NEW" >}}
+- **partial-order**: {{< knowl id="partial-order" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="partial-order" section="shared-foundations" text="NEW" >}}
+- **partition**: {{< knowl id="partition" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="partition" section="shared-foundations" text="NEW" >}}
+- **preimage**: {{< knowl id="preimage" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="preimage" section="shared-foundations" text="NEW" >}}
+- **proper-subset**: {{< knowl id="proper-subset" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="proper-subset" section="shared-foundations" text="NEW" >}}
+- **quotient-set**: {{< knowl id="quotient-set" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="quotient-set" section="shared-foundations" text="NEW" >}}
+- **relation**: {{< knowl id="relation" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="relation" section="shared-foundations" text="NEW" >}}
+- **set**: {{< knowl id="set" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="set" section="shared-foundations" text="NEW" >}}
+- **set-difference**: {{< knowl id="set-difference" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="set-difference" section="shared-foundations" text="NEW" >}}
+- **subset**: {{< knowl id="subset" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="subset" section="shared-foundations" text="NEW" >}}
+- **surjective-function**: {{< knowl id="surjective-function" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="surjective-function" section="shared-foundations" text="NEW" >}}
+- **total-order**: {{< knowl id="total-order" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="total-order" section="shared-foundations" text="NEW" >}}
+- **union**: {{< knowl id="union" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="union" section="shared-foundations" text="NEW" >}}
+- **upper-bound**: {{< knowl id="upper-bound" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="upper-bound" section="shared-foundations" text="NEW" >}}
+- **well-ordered-set**: {{< knowl id="well-ordered-set" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="well-ordered-set" section="shared-foundations" text="NEW" >}}
+- **well-ordering-principle**: {{< knowl id="well-ordering-principle" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="well-ordering-principle" section="shared-foundations" text="NEW" >}}
+- **well-ordering-theorem**: {{< knowl id="well-ordering-theorem" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="well-ordering-theorem" section="shared-foundations" text="NEW" >}}
+- **zfc-axioms**: {{< knowl id="zfc-axioms" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="zfc-axioms" section="shared-foundations" text="NEW" >}}
+- **zorns-lemma**: {{< knowl id="zorns-lemma" section="shared-foundations-old" text="OLD" >}} → {{< knowl id="zorns-lemma" section="shared-foundations" text="NEW" >}}
+
+### Old Only (not in new)
+
+- {{< knowl id="morphism" section="shared-foundations-old" text="morphism" >}}
+
+### New Only (not in old)
+
+- {{< knowl id="graph-of-function" section="shared-foundations" text="graph-of-function" >}}
+- {{< knowl id="indexed-family-of-sets" section="shared-foundations" text="indexed-family-of-sets" >}}
+- {{< knowl id="integers" section="shared-foundations" text="integers" >}}
+- {{< knowl id="natural-numbers" section="shared-foundations" text="natural-numbers" >}}
+- {{< knowl id="power-set" section="shared-foundations" text="power-set" >}}
+- {{< knowl id="rational-numbers" section="shared-foundations" text="rational-numbers" >}}
+- {{< knowl id="real-numbers" section="shared-foundations" text="real-numbers" >}}
+- {{< knowl id="restriction-of-a-function" section="shared-foundations" text="restriction-of-a-function" >}}
+- {{< knowl id="sequence" section="shared-foundations" text="sequence" >}}
+- {{< knowl id="symmetric-difference" section="shared-foundations" text="symmetric-difference" >}}
+
+---
+
+## Linear Algebra
+
+### Both Old and New
+
+- **banach-space**: {{< knowl id="banach-space" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="banach-space" section="linear-algebra" text="NEW" >}}
+- **basis-existence-theorem**: {{< knowl id="basis-existence-theorem" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="basis-existence-theorem" section="linear-algebra" text="NEW" >}}
+- **bilinear-form**: {{< knowl id="bilinear-form" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="bilinear-form" section="linear-algebra" text="NEW" >}}
+- **cayley-hamilton-theorem**: {{< knowl id="cayley-hamilton-theorem" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="cayley-hamilton-theorem" section="linear-algebra" text="NEW" >}}
+- **characteristic-polynomial**: {{< knowl id="characteristic-polynomial" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="characteristic-polynomial" section="linear-algebra" text="NEW" >}}
+- **compact-operator**: {{< knowl id="compact-operator" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="compact-operator" section="linear-algebra" text="NEW" >}}
+- **determinant**: {{< knowl id="determinant" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="determinant" section="linear-algebra" text="NEW" >}}
+- **eigenspace**: {{< knowl id="eigenspace" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="eigenspace" section="linear-algebra" text="NEW" >}}
+- **eigenvalue**: {{< knowl id="eigenvalue" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="eigenvalue" section="linear-algebra" text="NEW" >}}
+- **eigenvector**: {{< knowl id="eigenvector" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="eigenvector" section="linear-algebra" text="NEW" >}}
+- **euclidean-norm**: {{< knowl id="euclidean-norm" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="euclidean-norm" section="linear-algebra" text="NEW" >}}
+- **euclidean-space**: {{< knowl id="euclidean-space" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="euclidean-space" section="linear-algebra" text="NEW" >}}
+- **hilbert-space**: {{< knowl id="hilbert-space" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="hilbert-space" section="linear-algebra" text="NEW" >}}
+- **inner-product**: {{< knowl id="inner-product" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="inner-product" section="linear-algebra" text="NEW" >}}
+- **inner-product-space**: {{< knowl id="inner-product-space" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="inner-product-space" section="linear-algebra" text="NEW" >}}
+- **linear-map**: {{< knowl id="linear-map" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="linear-map" section="linear-algebra" text="NEW" >}}
+- **linear-operator**: {{< knowl id="linear-operator" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="linear-operator" section="linear-algebra" text="NEW" >}}
+- **minimal-polynomial**: {{< knowl id="minimal-polynomial" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="minimal-polynomial" section="linear-algebra" text="NEW" >}}
+- **norm**: {{< knowl id="norm" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="norm" section="linear-algebra" text="NEW" >}}
+- **operator-norm**: {{< knowl id="operator-norm" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="operator-norm" section="linear-algebra" text="NEW" >}}
+- **orthogonality**: {{< knowl id="orthogonality" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="orthogonality" section="linear-algebra" text="NEW" >}}
+- **rank-nullity-theorem**: {{< knowl id="rank-nullity-theorem" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="rank-nullity-theorem" section="linear-algebra" text="NEW" >}}
+- **trace**: {{< knowl id="trace" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="trace" section="linear-algebra" text="NEW" >}}
+- **vector-space**: {{< knowl id="vector-space" section="linear-algebra-old" text="OLD" >}} → {{< knowl id="vector-space" section="linear-algebra" text="NEW" >}}
+
+### Old Only (not in new)
+
+
+### New Only (not in old)
+
+- {{< knowl id="cauchy-schwarz-inequality" section="linear-algebra" text="cauchy-schwarz-inequality" >}}
+- {{< knowl id="normed-vector-space" section="linear-algebra" text="normed-vector-space" >}}
+
+---
+
+## Analysis Reorganization
+
+Old `analysis/` section split into `real-analysis/`, `topology/`, `measure-theory/`, etc.
+
+### Migrated (old → new)
+
+- **abel-test**: {{< knowl id="abel-test" section="analysis" text="OLD" >}} → {{< knowl id="abel-test" section="real-analysis" text="NEW (real-analysis)" >}}
+- **abels-theorem**: {{< knowl id="abels-theorem" section="analysis" text="OLD" >}} → {{< knowl id="abels-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **absolute-convergence-implies-convergence**: {{< knowl id="absolute-convergence-implies-convergence" section="analysis" text="OLD" >}} → {{< knowl id="absolute-convergence-implies-convergence" section="real-analysis" text="NEW (real-analysis)" >}}
+- **absolute-value-preserves-integrability**: {{< knowl id="absolute-value-preserves-integrability" section="analysis" text="OLD" >}} → {{< knowl id="absolute-value-preserves-integrability" section="real-analysis" text="NEW (real-analysis)" >}}
+- **absolutely-convergent-series**: {{< knowl id="absolutely-convergent-series" section="analysis" text="OLD" >}} → {{< knowl id="absolutely-convergent-series" section="real-analysis" text="NEW (real-analysis)" >}}
+- **alternating-series-test**: {{< knowl id="alternating-series-test" section="analysis" text="OLD" >}} → {{< knowl id="alternating-series-test" section="real-analysis" text="NEW (real-analysis)" >}}
+- **arzela-ascoli-theorem**: {{< knowl id="arzela-ascoli-theorem" section="analysis" text="OLD" >}} → {{< knowl id="arzela-ascoli-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **baire-category-theorem**: {{< knowl id="baire-category-theorem" section="analysis" text="OLD" >}} → {{< knowl id="baire-category-theorem" section="topology" text="NEW (topology)" >}}
+- **baire-space**: {{< knowl id="baire-space" section="analysis" text="OLD" >}} → {{< knowl id="baire-space" section="topology" text="NEW (topology)" >}}
+- **bolzano-weierstrass-theorem**: {{< knowl id="bolzano-weierstrass-theorem" section="analysis" text="OLD" >}} → {{< knowl id="bolzano-weierstrass-theorem" section="topology" text="NEW (topology)" >}}
+- **bounded-above**: {{< knowl id="bounded-above" section="analysis" text="OLD" >}} → {{< knowl id="bounded-above" section="real-analysis" text="NEW (real-analysis)" >}}
+- **bounded-below**: {{< knowl id="bounded-below" section="analysis" text="OLD" >}} → {{< knowl id="bounded-below" section="real-analysis" text="NEW (real-analysis)" >}}
+- **bounded-derivative-implies-uniform-continuity**: {{< knowl id="bounded-derivative-implies-uniform-continuity" section="analysis" text="OLD" >}} → {{< knowl id="bounded-derivative-implies-uniform-continuity" section="real-analysis" text="NEW (real-analysis)" >}}
+- **bounded-set**: {{< knowl id="bounded-set" section="analysis" text="OLD" >}} → {{< knowl id="bounded-set" section="topology" text="NEW (topology)" >}}
+- **cantor-intersection-theorem**: {{< knowl id="cantor-intersection-theorem" section="analysis" text="OLD" >}} → {{< knowl id="cantor-intersection-theorem" section="topology" text="NEW (topology)" >}}
+- **cauchy-condensation-test**: {{< knowl id="cauchy-condensation-test" section="analysis" text="OLD" >}} → {{< knowl id="cauchy-condensation-test" section="real-analysis" text="NEW (real-analysis)" >}}
+- **cauchy-hadamard-theorem**: {{< knowl id="cauchy-hadamard-theorem" section="analysis" text="OLD" >}} → {{< knowl id="cauchy-hadamard-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **cauchy-mean-value-theorem**: {{< knowl id="cauchy-mean-value-theorem" section="analysis" text="OLD" >}} → {{< knowl id="cauchy-mean-value-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **cauchy-product**: {{< knowl id="cauchy-product" section="analysis" text="OLD" >}} → {{< knowl id="cauchy-product" section="real-analysis" text="NEW (real-analysis)" >}}
+- **cauchy-schwarz-inequality**: {{< knowl id="cauchy-schwarz-inequality" section="analysis" text="OLD" >}} → {{< knowl id="cauchy-schwarz-inequality" section="linear-algebra" text="NEW (linear-algebra)" >}}
+- **cauchy-sequence**: {{< knowl id="cauchy-sequence" section="analysis" text="OLD" >}} → {{< knowl id="cauchy-sequence" section="topology" text="NEW (topology)" >}}
+- **class-ck-map**: {{< knowl id="class-ck-map" section="analysis" text="OLD" >}} → {{< knowl id="class-ck-map" section="real-analysis" text="NEW (real-analysis)" >}}
+- **closed-ball**: {{< knowl id="closed-ball" section="analysis" text="OLD" >}} → {{< knowl id="closed-ball" section="topology" text="NEW (topology)" >}}
+- **closed-set**: {{< knowl id="closed-set" section="analysis" text="OLD" >}} → {{< knowl id="closed-set" section="topology" text="NEW (topology)" >}}
+- **closed-subset-of-compact-set-is-compact**: {{< knowl id="closed-subset-of-compact-set-is-compact" section="analysis" text="OLD" >}} → {{< knowl id="closed-subset-of-compact-set-is-compact" section="topology" text="NEW (topology)" >}}
+- **closure**: {{< knowl id="closure" section="analysis" text="OLD" >}} → {{< knowl id="closure" section="topology" text="NEW (topology)" >}}
+- **compact-iff-complete-totally-bounded**: {{< knowl id="compact-iff-complete-totally-bounded" section="analysis" text="OLD" >}} → {{< knowl id="compact-iff-complete-totally-bounded" section="topology" text="NEW (topology)" >}}
+- **compact-set**: {{< knowl id="compact-set" section="analysis" text="OLD" >}} → {{< knowl id="compact-set" section="topology" text="NEW (topology)" >}}
+- **compactness-implies-boundedness**: {{< knowl id="compactness-implies-boundedness" section="analysis" text="OLD" >}} → {{< knowl id="compactness-implies-boundedness" section="topology" text="NEW (topology)" >}}
+- **compactness-implies-closedness**: {{< knowl id="compactness-implies-closedness" section="analysis" text="OLD" >}} → {{< knowl id="compactness-implies-closedness" section="topology" text="NEW (topology)" >}}
+- **compactness-implies-completeness**: {{< knowl id="compactness-implies-completeness" section="analysis" text="OLD" >}} → {{< knowl id="compactness-implies-completeness" section="topology" text="NEW (topology)" >}}
+- **compactness-implies-total-boundedness**: {{< knowl id="compactness-implies-total-boundedness" section="analysis" text="OLD" >}} → {{< knowl id="compactness-implies-total-boundedness" section="topology" text="NEW (topology)" >}}
+- **compactness-of-graphs-lemma**: {{< knowl id="compactness-of-graphs-lemma" section="analysis" text="OLD" >}} → {{< knowl id="compactness-of-graphs-lemma" section="topology" text="NEW (topology)" >}}
+- **comparison-test**: {{< knowl id="comparison-test" section="analysis" text="OLD" >}} → {{< knowl id="comparison-test" section="real-analysis" text="NEW (real-analysis)" >}}
+- **complement**: {{< knowl id="complement" section="analysis" text="OLD" >}} → {{< knowl id="complement" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **complete-metric-space**: {{< knowl id="complete-metric-space" section="analysis" text="OLD" >}} → {{< knowl id="complete-metric-space" section="topology" text="NEW (topology)" >}}
+- **completeness-equivalences**: {{< knowl id="completeness-equivalences" section="analysis" text="OLD" >}} → {{< knowl id="completeness-equivalences" section="real-analysis" text="NEW (real-analysis)" >}}
+- **composition-preserves-riemann-integrability**: {{< knowl id="composition-preserves-riemann-integrability" section="analysis" text="OLD" >}} → {{< knowl id="composition-preserves-riemann-integrability" section="real-analysis" text="NEW (real-analysis)" >}}
+- **conditionally-convergent-series**: {{< knowl id="conditionally-convergent-series" section="analysis" text="OLD" >}} → {{< knowl id="conditionally-convergent-series" section="real-analysis" text="NEW (real-analysis)" >}}
+- **connected-component**: {{< knowl id="connected-component" section="analysis" text="OLD" >}} → {{< knowl id="connected-component" section="topology" text="NEW (topology)" >}}
+- **connected-set**: {{< knowl id="connected-set" section="analysis" text="OLD" >}} → {{< knowl id="connected-set" section="topology" text="NEW (topology)" >}}
+- **connected-subsets-of-r-are-intervals**: {{< knowl id="connected-subsets-of-r-are-intervals" section="analysis" text="OLD" >}} → {{< knowl id="connected-subsets-of-r-are-intervals" section="topology" text="NEW (topology)" >}}
+- **connectedness-criteria-r**: {{< knowl id="connectedness-criteria-r" section="analysis" text="OLD" >}} → {{< knowl id="connectedness-criteria-r" section="topology" text="NEW (topology)" >}}
+- **constraint-set**: {{< knowl id="constraint-set" section="analysis" text="OLD" >}} → {{< knowl id="constraint-set" section="real-analysis" text="NEW (real-analysis)" >}}
+- **continuous-attains-max-min-compact**: {{< knowl id="continuous-attains-max-min-compact" section="analysis" text="OLD" >}} → {{< knowl id="continuous-attains-max-min-compact" section="topology" text="NEW (topology)" >}}
+- **continuous-image-of-compact-set-is-compact**: {{< knowl id="continuous-image-of-compact-set-is-compact" section="analysis" text="OLD" >}} → {{< knowl id="continuous-image-of-compact-set-is-compact" section="topology" text="NEW (topology)" >}}
+- **continuous-image-of-connected-set-is-connected**: {{< knowl id="continuous-image-of-connected-set-is-connected" section="analysis" text="OLD" >}} → {{< knowl id="continuous-image-of-connected-set-is-connected" section="topology" text="NEW (topology)" >}}
+- **convergent-sequence**: {{< knowl id="convergent-sequence" section="analysis" text="OLD" >}} → {{< knowl id="convergent-sequence" section="topology" text="NEW (topology)" >}}
+- **convergent-sequence-is-cauchy**: {{< knowl id="convergent-sequence-is-cauchy" section="analysis" text="OLD" >}} → {{< knowl id="convergent-sequence-is-cauchy" section="topology" text="NEW (topology)" >}}
+- **convergent-series**: {{< knowl id="convergent-series" section="analysis" text="OLD" >}} → {{< knowl id="convergent-series" section="real-analysis" text="NEW (real-analysis)" >}}
+- **critical-point**: {{< knowl id="critical-point" section="analysis" text="OLD" >}} → {{< knowl id="critical-point" section="real-analysis" text="NEW (real-analysis)" >}}
+- **curve**: {{< knowl id="curve" section="analysis" text="OLD" >}} → {{< knowl id="curve" section="topology" text="NEW (topology)" >}}
+- **darboux-theorem**: {{< knowl id="darboux-theorem" section="analysis" text="OLD" >}} → {{< knowl id="darboux-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **dense-set**: {{< knowl id="dense-set" section="analysis" text="OLD" >}} → {{< knowl id="dense-set" section="topology" text="NEW (topology)" >}}
+- **derivative**: {{< knowl id="derivative" section="analysis" text="OLD" >}} → {{< knowl id="derivative" section="real-analysis" text="NEW (real-analysis)" >}}
+- **derivative-zero-implies-constant**: {{< knowl id="derivative-zero-implies-constant" section="analysis" text="OLD" >}} → {{< knowl id="derivative-zero-implies-constant" section="real-analysis" text="NEW (real-analysis)" >}}
+- **derived-set**: {{< knowl id="derived-set" section="analysis" text="OLD" >}} → {{< knowl id="derived-set" section="topology" text="NEW (topology)" >}}
+- **diameter**: {{< knowl id="diameter" section="analysis" text="OLD" >}} → {{< knowl id="diameter" section="topology" text="NEW (topology)" >}}
+- **diffeomorphism**: {{< knowl id="diffeomorphism" section="analysis" text="OLD" >}} → {{< knowl id="diffeomorphism" section="real-analysis" text="NEW (real-analysis)" >}}
+- **differentiability-implies-continuity**: {{< knowl id="differentiability-implies-continuity" section="analysis" text="OLD" >}} → {{< knowl id="differentiability-implies-continuity" section="real-analysis" text="NEW (real-analysis)" >}}
+- **differentiable-map**: {{< knowl id="differentiable-map" section="analysis" text="OLD" >}} → {{< knowl id="differentiable-map" section="real-analysis" text="NEW (real-analysis)" >}}
+- **dinis-theorem**: {{< knowl id="dinis-theorem" section="analysis" text="OLD" >}} → {{< knowl id="dinis-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **directional-derivative**: {{< knowl id="directional-derivative" section="analysis" text="OLD" >}} → {{< knowl id="directional-derivative" section="real-analysis" text="NEW (real-analysis)" >}}
+- **dirichlet-test**: {{< knowl id="dirichlet-test" section="analysis" text="OLD" >}} → {{< knowl id="dirichlet-test" section="real-analysis" text="NEW (real-analysis)" >}}
+- **divergent-series**: {{< knowl id="divergent-series" section="analysis" text="OLD" >}} → {{< knowl id="divergent-series" section="real-analysis" text="NEW (real-analysis)" >}}
+- **empty-set**: {{< knowl id="empty-set" section="analysis" text="OLD" >}} → {{< knowl id="empty-set" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **equicontinuity**: {{< knowl id="equicontinuity" section="analysis" text="OLD" >}} → {{< knowl id="equicontinuity" section="real-analysis" text="NEW (real-analysis)" >}}
+- **equicontinuous-family**: {{< knowl id="equicontinuous-family" section="analysis" text="OLD" >}} → {{< knowl id="equicontinuous-family" section="real-analysis" text="NEW (real-analysis)" >}}
+- **equivalence-class**: {{< knowl id="equivalence-class" section="analysis" text="OLD" >}} → {{< knowl id="equivalence-class" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **equivalence-relation**: {{< knowl id="equivalence-relation" section="analysis" text="OLD" >}} → {{< knowl id="equivalence-relation" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **euclidean-norm**: {{< knowl id="euclidean-norm" section="analysis" text="OLD" >}} → {{< knowl id="euclidean-norm" section="linear-algebra" text="NEW (linear-algebra)" >}}
+- **field-axioms**: {{< knowl id="field-axioms" section="analysis" text="OLD" >}} → {{< knowl id="field-axioms" section="real-analysis" text="NEW (real-analysis)" >}}
+- **finite-intersection-property-theorem**: {{< knowl id="finite-intersection-property-theorem" section="analysis" text="OLD" >}} → {{< knowl id="finite-intersection-property-theorem" section="topology" text="NEW (topology)" >}}
+- **gradient**: {{< knowl id="gradient" section="analysis" text="OLD" >}} → {{< knowl id="gradient" section="real-analysis" text="NEW (real-analysis)" >}}
+- **heine-borel-theorem**: {{< knowl id="heine-borel-theorem" section="analysis" text="OLD" >}} → {{< knowl id="heine-borel-theorem" section="topology" text="NEW (topology)" >}}
+- **hessian-matrix**: {{< knowl id="hessian-matrix" section="analysis" text="OLD" >}} → {{< knowl id="hessian-matrix" section="real-analysis" text="NEW (real-analysis)" >}}
+- **higher-derivatives**: {{< knowl id="higher-derivatives" section="analysis" text="OLD" >}} → {{< knowl id="higher-derivatives" section="real-analysis" text="NEW (real-analysis)" >}}
+- **holder-continuity**: {{< knowl id="holder-continuity" section="analysis" text="OLD" >}} → {{< knowl id="holder-continuity" section="topology" text="NEW (topology)" >}}
+- **homeomorphism**: {{< knowl id="homeomorphism" section="analysis" text="OLD" >}} → {{< knowl id="homeomorphism" section="topology" text="NEW (topology)" >}}
+- **image-compact-connected-is-interval**: {{< knowl id="image-compact-connected-is-interval" section="analysis" text="OLD" >}} → {{< knowl id="image-compact-connected-is-interval" section="topology" text="NEW (topology)" >}}
+- **implicit-function-theorem**: {{< knowl id="implicit-function-theorem" section="analysis" text="OLD" >}} → {{< knowl id="implicit-function-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **implicitly-defined-function**: {{< knowl id="implicitly-defined-function" section="analysis" text="OLD" >}} → {{< knowl id="implicitly-defined-function" section="real-analysis" text="NEW (real-analysis)" >}}
+- **indexed-family-of-sets**: {{< knowl id="indexed-family-of-sets" section="analysis" text="OLD" >}} → {{< knowl id="indexed-family-of-sets" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **infimum**: {{< knowl id="infimum" section="analysis" text="OLD" >}} → {{< knowl id="infimum" section="real-analysis" text="NEW (real-analysis)" >}}
+- **injective-function**: {{< knowl id="injective-function" section="analysis" text="OLD" >}} → {{< knowl id="injective-function" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **integral-test**: {{< knowl id="integral-test" section="analysis" text="OLD" >}} → {{< knowl id="integral-test" section="real-analysis" text="NEW (real-analysis)" >}}
+- **integration-by-parts**: {{< knowl id="integration-by-parts" section="analysis" text="OLD" >}} → {{< knowl id="integration-by-parts" section="real-analysis" text="NEW (real-analysis)" >}}
+- **integration-by-parts-riemann-stieltjes**: {{< knowl id="integration-by-parts-riemann-stieltjes" section="analysis" text="OLD" >}} → {{< knowl id="integration-by-parts-riemann-stieltjes" section="real-analysis" text="NEW (real-analysis)" >}}
+- **integrator-function**: {{< knowl id="integrator-function" section="analysis" text="OLD" >}} → {{< knowl id="integrator-function" section="real-analysis" text="NEW (real-analysis)" >}}
+- **interior**: {{< knowl id="interior" section="analysis" text="OLD" >}} → {{< knowl id="interior" section="topology" text="NEW (topology)" >}}
+- **intermediate-value-theorem**: {{< knowl id="intermediate-value-theorem" section="analysis" text="OLD" >}} → {{< knowl id="intermediate-value-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **intersection**: {{< knowl id="intersection" section="analysis" text="OLD" >}} → {{< knowl id="intersection" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **interval**: {{< knowl id="interval" section="analysis" text="OLD" >}} → {{< knowl id="interval" section="real-analysis" text="NEW (real-analysis)" >}}
+- **inverse-function**: {{< knowl id="inverse-function" section="analysis" text="OLD" >}} → {{< knowl id="inverse-function" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **inverse-function-theorem-rk**: {{< knowl id="inverse-function-theorem-rk" section="analysis" text="OLD" >}} → {{< knowl id="inverse-function-theorem-rk" section="real-analysis" text="NEW (real-analysis)" >}}
+- **isometry**: {{< knowl id="isometry" section="analysis" text="OLD" >}} → {{< knowl id="isometry" section="topology" text="NEW (topology)" >}}
+- **iterated-integral**: {{< knowl id="iterated-integral" section="analysis" text="OLD" >}} → {{< knowl id="iterated-integral" section="real-analysis" text="NEW (real-analysis)" >}}
+- **jacobian-determinant**: {{< knowl id="jacobian-determinant" section="analysis" text="OLD" >}} → {{< knowl id="jacobian-determinant" section="real-analysis" text="NEW (real-analysis)" >}}
+- **jacobian-matrix**: {{< knowl id="jacobian-matrix" section="analysis" text="OLD" >}} → {{< knowl id="jacobian-matrix" section="real-analysis" text="NEW (real-analysis)" >}}
+- **jordan-content**: {{< knowl id="jordan-content" section="analysis" text="OLD" >}} → {{< knowl id="jordan-content" section="measure-theory" text="NEW (measure-theory)" >}}
+- **jordan-decomposition-lemma**: {{< knowl id="jordan-decomposition-lemma" section="analysis" text="OLD" >}} → {{< knowl id="jordan-decomposition-lemma" section="real-analysis" text="NEW (real-analysis)" >}}
+- **lagrange-multiplier-condition**: {{< knowl id="lagrange-multiplier-condition" section="analysis" text="OLD" >}} → {{< knowl id="lagrange-multiplier-condition" section="real-analysis" text="NEW (real-analysis)" >}}
+- **lagrange-multipliers-theorem**: {{< knowl id="lagrange-multipliers-theorem" section="analysis" text="OLD" >}} → {{< knowl id="lagrange-multipliers-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **lebesgue-criterion-for-riemann-integrability**: {{< knowl id="lebesgue-criterion-for-riemann-integrability" section="analysis" text="OLD" >}} → {{< knowl id="lebesgue-criterion-for-riemann-integrability" section="measure-theory" text="NEW (measure-theory)" >}}
+- **lebesgue-number-lemma**: {{< knowl id="lebesgue-number-lemma" section="analysis" text="OLD" >}} → {{< knowl id="lebesgue-number-lemma" section="topology" text="NEW (topology)" >}}
+- **lhopitals-rule**: {{< knowl id="lhopitals-rule" section="analysis" text="OLD" >}} → {{< knowl id="lhopitals-rule" section="real-analysis" text="NEW (real-analysis)" >}}
+- **limit-comparison-test**: {{< knowl id="limit-comparison-test" section="analysis" text="OLD" >}} → {{< knowl id="limit-comparison-test" section="real-analysis" text="NEW (real-analysis)" >}}
+- **lipschitz-continuity**: {{< knowl id="lipschitz-continuity" section="analysis" text="OLD" >}} → {{< knowl id="lipschitz-continuity" section="topology" text="NEW (topology)" >}}
+- **local-diffeomorphism-corollary**: {{< knowl id="local-diffeomorphism-corollary" section="analysis" text="OLD" >}} → {{< knowl id="local-diffeomorphism-corollary" section="real-analysis" text="NEW (real-analysis)" >}}
+- **local-implicit-function-parameterization**: {{< knowl id="local-implicit-function-parameterization" section="analysis" text="OLD" >}} → {{< knowl id="local-implicit-function-parameterization" section="real-analysis" text="NEW (real-analysis)" >}}
+- **lower-bound**: {{< knowl id="lower-bound" section="analysis" text="OLD" >}} → {{< knowl id="lower-bound" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **maximum**: {{< knowl id="maximum" section="analysis" text="OLD" >}} → {{< knowl id="maximum" section="real-analysis" text="NEW (real-analysis)" >}}
+- **meager-set**: {{< knowl id="meager-set" section="analysis" text="OLD" >}} → {{< knowl id="meager-set" section="topology" text="NEW (topology)" >}}
+- **mean-value-estimate-lemma**: {{< knowl id="mean-value-estimate-lemma" section="analysis" text="OLD" >}} → {{< knowl id="mean-value-estimate-lemma" section="real-analysis" text="NEW (real-analysis)" >}}
+- **mean-value-theorem**: {{< knowl id="mean-value-theorem" section="analysis" text="OLD" >}} → {{< knowl id="mean-value-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **mean-value-theorem-for-integrals**: {{< knowl id="mean-value-theorem-for-integrals" section="analysis" text="OLD" >}} → {{< knowl id="mean-value-theorem-for-integrals" section="real-analysis" text="NEW (real-analysis)" >}}
+- **mesh-of-a-partition**: {{< knowl id="mesh-of-a-partition" section="analysis" text="OLD" >}} → {{< knowl id="mesh-of-a-partition" section="real-analysis" text="NEW (real-analysis)" >}}
+- **metric**: {{< knowl id="metric" section="analysis" text="OLD" >}} → {{< knowl id="metric" section="topology" text="NEW (topology)" >}}
+- **metric-space**: {{< knowl id="metric-space" section="analysis" text="OLD" >}} → {{< knowl id="metric-space" section="topology" text="NEW (topology)" >}}
+- **minimum**: {{< knowl id="minimum" section="analysis" text="OLD" >}} → {{< knowl id="minimum" section="real-analysis" text="NEW (real-analysis)" >}}
+- **mixed-partial-derivative**: {{< knowl id="mixed-partial-derivative" section="analysis" text="OLD" >}} → {{< knowl id="mixed-partial-derivative" section="real-analysis" text="NEW (real-analysis)" >}}
+- **monotone-sequence**: {{< knowl id="monotone-sequence" section="analysis" text="OLD" >}} → {{< knowl id="monotone-sequence" section="real-analysis" text="NEW (real-analysis)" >}}
+- **monotone-subsequence-lemma**: {{< knowl id="monotone-subsequence-lemma" section="analysis" text="OLD" >}} → {{< knowl id="monotone-subsequence-lemma" section="real-analysis" text="NEW (real-analysis)" >}}
+- **neighborhood**: {{< knowl id="neighborhood" section="analysis" text="OLD" >}} → {{< knowl id="neighborhood" section="topology" text="NEW (topology)" >}}
+- **nested-interval-theorem**: {{< knowl id="nested-interval-theorem" section="analysis" text="OLD" >}} → {{< knowl id="nested-interval-theorem" section="topology" text="NEW (topology)" >}}
+- **nowhere-dense-set**: {{< knowl id="nowhere-dense-set" section="analysis" text="OLD" >}} → {{< knowl id="nowhere-dense-set" section="topology" text="NEW (topology)" >}}
+- **one-sided-limit**: {{< knowl id="one-sided-limit" section="analysis" text="OLD" >}} → {{< knowl id="one-sided-limit" section="real-analysis" text="NEW (real-analysis)" >}}
+- **open-ball**: {{< knowl id="open-ball" section="analysis" text="OLD" >}} → {{< knowl id="open-ball" section="topology" text="NEW (topology)" >}}
+- **open-set**: {{< knowl id="open-set" section="analysis" text="OLD" >}} → {{< knowl id="open-set" section="topology" text="NEW (topology)" >}}
+- **operator-norm**: {{< knowl id="operator-norm" section="analysis" text="OLD" >}} → {{< knowl id="operator-norm" section="linear-algebra" text="NEW (linear-algebra)" >}}
+- **order-axioms**: {{< knowl id="order-axioms" section="analysis" text="OLD" >}} → {{< knowl id="order-axioms" section="real-analysis" text="NEW (real-analysis)" >}}
+- **ordered-pair**: {{< knowl id="ordered-pair" section="analysis" text="OLD" >}} → {{< knowl id="ordered-pair" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **orthogonality**: {{< knowl id="orthogonality" section="analysis" text="OLD" >}} → {{< knowl id="orthogonality" section="linear-algebra" text="NEW (linear-algebra)" >}}
+- **partial-derivative**: {{< knowl id="partial-derivative" section="analysis" text="OLD" >}} → {{< knowl id="partial-derivative" section="real-analysis" text="NEW (real-analysis)" >}}
+- **partial-order**: {{< knowl id="partial-order" section="analysis" text="OLD" >}} → {{< knowl id="partial-order" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **partial-sums**: {{< knowl id="partial-sums" section="analysis" text="OLD" >}} → {{< knowl id="partial-sums" section="real-analysis" text="NEW (real-analysis)" >}}
+- **partition**: {{< knowl id="partition" section="analysis" text="OLD" >}} → {{< knowl id="partition" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **partition-of-an-interval**: {{< knowl id="partition-of-an-interval" section="analysis" text="OLD" >}} → {{< knowl id="partition-of-an-interval" section="real-analysis" text="NEW (real-analysis)" >}}
+- **path**: {{< knowl id="path" section="analysis" text="OLD" >}} → {{< knowl id="path" section="topology" text="NEW (topology)" >}}
+- **path-connected-set**: {{< knowl id="path-connected-set" section="analysis" text="OLD" >}} → {{< knowl id="path-connected-set" section="topology" text="NEW (topology)" >}}
+- **pointwise-bounded-family**: {{< knowl id="pointwise-bounded-family" section="analysis" text="OLD" >}} → {{< knowl id="pointwise-bounded-family" section="real-analysis" text="NEW (real-analysis)" >}}
+- **pointwise-convergence**: {{< knowl id="pointwise-convergence" section="analysis" text="OLD" >}} → {{< knowl id="pointwise-convergence" section="real-analysis" text="NEW (real-analysis)" >}}
+- **power-series-analytic-on-disk**: {{< knowl id="power-series-analytic-on-disk" section="analysis" text="OLD" >}} → {{< knowl id="power-series-analytic-on-disk" section="real-analysis" text="NEW (real-analysis)" >}}
+- **power-set**: {{< knowl id="power-set" section="analysis" text="OLD" >}} → {{< knowl id="power-set" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **proper-subset**: {{< knowl id="proper-subset" section="analysis" text="OLD" >}} → {{< knowl id="proper-subset" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **ratio-test**: {{< knowl id="ratio-test" section="analysis" text="OLD" >}} → {{< knowl id="ratio-test" section="real-analysis" text="NEW (real-analysis)" >}}
+- **refinement-lemma-upper-lower-sums**: {{< knowl id="refinement-lemma-upper-lower-sums" section="analysis" text="OLD" >}} → {{< knowl id="refinement-lemma-upper-lower-sums" section="real-analysis" text="NEW (real-analysis)" >}}
+- **refinement-of-a-partition**: {{< knowl id="refinement-of-a-partition" section="analysis" text="OLD" >}} → {{< knowl id="refinement-of-a-partition" section="real-analysis" text="NEW (real-analysis)" >}}
+- **relation**: {{< knowl id="relation" section="analysis" text="OLD" >}} → {{< knowl id="relation" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **relatively-compact-set**: {{< knowl id="relatively-compact-set" section="analysis" text="OLD" >}} → {{< knowl id="relatively-compact-set" section="topology" text="NEW (topology)" >}}
+- **residual-set**: {{< knowl id="residual-set" section="analysis" text="OLD" >}} → {{< knowl id="residual-set" section="topology" text="NEW (topology)" >}}
+- **restriction-of-a-function**: {{< knowl id="restriction-of-a-function" section="analysis" text="OLD" >}} → {{< knowl id="restriction-of-a-function" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **riemann-integrability-implies-boundedness**: {{< knowl id="riemann-integrability-implies-boundedness" section="analysis" text="OLD" >}} → {{< knowl id="riemann-integrability-implies-boundedness" section="real-analysis" text="NEW (real-analysis)" >}}
+- **riemann-integrable-function**: {{< knowl id="riemann-integrable-function" section="analysis" text="OLD" >}} → {{< knowl id="riemann-integrable-function" section="real-analysis" text="NEW (real-analysis)" >}}
+- **riemann-integral**: {{< knowl id="riemann-integral" section="analysis" text="OLD" >}} → {{< knowl id="riemann-integral" section="real-analysis" text="NEW (real-analysis)" >}}
+- **riemann-rearrangement-theorem**: {{< knowl id="riemann-rearrangement-theorem" section="analysis" text="OLD" >}} → {{< knowl id="riemann-rearrangement-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **riemann-stieltjes-integrability-theorem**: {{< knowl id="riemann-stieltjes-integrability-theorem" section="analysis" text="OLD" >}} → {{< knowl id="riemann-stieltjes-integrability-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **riemann-stieltjes-integral**: {{< knowl id="riemann-stieltjes-integral" section="analysis" text="OLD" >}} → {{< knowl id="riemann-stieltjes-integral" section="real-analysis" text="NEW (real-analysis)" >}}
+- **riemann-sum**: {{< knowl id="riemann-sum" section="analysis" text="OLD" >}} → {{< knowl id="riemann-sum" section="real-analysis" text="NEW (real-analysis)" >}}
+- **rolles-theorem**: {{< knowl id="rolles-theorem" section="analysis" text="OLD" >}} → {{< knowl id="rolles-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **root-test**: {{< knowl id="root-test" section="analysis" text="OLD" >}} → {{< knowl id="root-test" section="real-analysis" text="NEW (real-analysis)" >}}
+- **schwarz-clairaut-theorem**: {{< knowl id="schwarz-clairaut-theorem" section="analysis" text="OLD" >}} → {{< knowl id="schwarz-clairaut-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **second-derivative-tests**: {{< knowl id="second-derivative-tests" section="analysis" text="OLD" >}} → {{< knowl id="second-derivative-tests" section="real-analysis" text="NEW (real-analysis)" >}}
+- **separated-sets**: {{< knowl id="separated-sets" section="analysis" text="OLD" >}} → {{< knowl id="separated-sets" section="topology" text="NEW (topology)" >}}
+- **sequential-compactness-equals-compactness**: {{< knowl id="sequential-compactness-equals-compactness" section="analysis" text="OLD" >}} → {{< knowl id="sequential-compactness-equals-compactness" section="topology" text="NEW (topology)" >}}
+- **sequentially-compact-set**: {{< knowl id="sequentially-compact-set" section="analysis" text="OLD" >}} → {{< knowl id="sequentially-compact-set" section="topology" text="NEW (topology)" >}}
+- **series**: {{< knowl id="series" section="analysis" text="OLD" >}} → {{< knowl id="series" section="real-analysis" text="NEW (real-analysis)" >}}
+- **series-of-functions**: {{< knowl id="series-of-functions" section="analysis" text="OLD" >}} → {{< knowl id="series-of-functions" section="real-analysis" text="NEW (real-analysis)" >}}
+- **set**: {{< knowl id="set" section="analysis" text="OLD" >}} → {{< knowl id="set" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **set-difference**: {{< knowl id="set-difference" section="analysis" text="OLD" >}} → {{< knowl id="set-difference" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **squeeze-theorem**: {{< knowl id="squeeze-theorem" section="analysis" text="OLD" >}} → {{< knowl id="squeeze-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **step-function**: {{< knowl id="step-function" section="analysis" text="OLD" >}} → {{< knowl id="step-function" section="real-analysis" text="NEW (real-analysis)" >}}
+- **stone-weierstrass-theorem**: {{< knowl id="stone-weierstrass-theorem" section="analysis" text="OLD" >}} → {{< knowl id="stone-weierstrass-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **subsequence**: {{< knowl id="subsequence" section="analysis" text="OLD" >}} → {{< knowl id="subsequence" section="real-analysis" text="NEW (real-analysis)" >}}
+- **subset**: {{< knowl id="subset" section="analysis" text="OLD" >}} → {{< knowl id="subset" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **sufficient-condition-for-differentiability**: {{< knowl id="sufficient-condition-for-differentiability" section="analysis" text="OLD" >}} → {{< knowl id="sufficient-condition-for-differentiability" section="real-analysis" text="NEW (real-analysis)" >}}
+- **supremum**: {{< knowl id="supremum" section="analysis" text="OLD" >}} → {{< knowl id="supremum" section="real-analysis" text="NEW (real-analysis)" >}}
+- **supremum-approximation-lemma**: {{< knowl id="supremum-approximation-lemma" section="analysis" text="OLD" >}} → {{< knowl id="supremum-approximation-lemma" section="real-analysis" text="NEW (real-analysis)" >}}
+- **surjective-function**: {{< knowl id="surjective-function" section="analysis" text="OLD" >}} → {{< knowl id="surjective-function" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **symmetric-difference**: {{< knowl id="symmetric-difference" section="analysis" text="OLD" >}} → {{< knowl id="symmetric-difference" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **tagged-partition**: {{< knowl id="tagged-partition" section="analysis" text="OLD" >}} → {{< knowl id="tagged-partition" section="real-analysis" text="NEW (real-analysis)" >}}
+- **taylor-polynomial**: {{< knowl id="taylor-polynomial" section="analysis" text="OLD" >}} → {{< knowl id="taylor-polynomial" section="real-analysis" text="NEW (real-analysis)" >}}
+- **taylors-theorem-with-remainder**: {{< knowl id="taylors-theorem-with-remainder" section="analysis" text="OLD" >}} → {{< knowl id="taylors-theorem-with-remainder" section="real-analysis" text="NEW (real-analysis)" >}}
+- **totally-bounded-cauchy-subsequence**: {{< knowl id="totally-bounded-cauchy-subsequence" section="analysis" text="OLD" >}} → {{< knowl id="totally-bounded-cauchy-subsequence" section="topology" text="NEW (topology)" >}}
+- **totally-bounded-set**: {{< knowl id="totally-bounded-set" section="analysis" text="OLD" >}} → {{< knowl id="totally-bounded-set" section="topology" text="NEW (topology)" >}}
+- **uniform-convergence-implies-pointwise**: {{< knowl id="uniform-convergence-implies-pointwise" section="analysis" text="OLD" >}} → {{< knowl id="uniform-convergence-implies-pointwise" section="real-analysis" text="NEW (real-analysis)" >}}
+- **uniform-convergence-on-compact-sets**: {{< knowl id="uniform-convergence-on-compact-sets" section="analysis" text="OLD" >}} → {{< knowl id="uniform-convergence-on-compact-sets" section="real-analysis" text="NEW (real-analysis)" >}}
+- **uniform-convergence-preserves-boundedness**: {{< knowl id="uniform-convergence-preserves-boundedness" section="analysis" text="OLD" >}} → {{< knowl id="uniform-convergence-preserves-boundedness" section="real-analysis" text="NEW (real-analysis)" >}}
+- **uniform-limit-of-continuous-is-continuous**: {{< knowl id="uniform-limit-of-continuous-is-continuous" section="analysis" text="OLD" >}} → {{< knowl id="uniform-limit-of-continuous-is-continuous" section="real-analysis" text="NEW (real-analysis)" >}}
+- **uniform-limit-of-integrable-functions**: {{< knowl id="uniform-limit-of-integrable-functions" section="analysis" text="OLD" >}} → {{< knowl id="uniform-limit-of-integrable-functions" section="real-analysis" text="NEW (real-analysis)" >}}
+- **uniformly-bounded-family**: {{< knowl id="uniformly-bounded-family" section="analysis" text="OLD" >}} → {{< knowl id="uniformly-bounded-family" section="real-analysis" text="NEW (real-analysis)" >}}
+- **union**: {{< knowl id="union" section="analysis" text="OLD" >}} → {{< knowl id="union" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **upper-bound**: {{< knowl id="upper-bound" section="analysis" text="OLD" >}} → {{< knowl id="upper-bound" section="shared-foundations" text="NEW (shared-foundations)" >}}
+- **weierstrass-approximation-theorem**: {{< knowl id="weierstrass-approximation-theorem" section="analysis" text="OLD" >}} → {{< knowl id="weierstrass-approximation-theorem" section="real-analysis" text="NEW (real-analysis)" >}}
+- **weierstrass-m-test**: {{< knowl id="weierstrass-m-test" section="analysis" text="OLD" >}} → {{< knowl id="weierstrass-m-test" section="real-analysis" text="NEW (real-analysis)" >}}
+
+### Not Migrated (old only)
+
+- {{< knowl id="absolute-convergence-implies-cauchy-criterion" section="analysis" text="absolute-convergence-implies-cauchy-criterion" >}}
+- {{< knowl id="absolute-value-on-r" section="analysis" text="absolute-value-on-r" >}}
+- {{< knowl id="additivity-linearity-riemann-integral" section="analysis" text="additivity-linearity-riemann-integral" >}}
+- {{< knowl id="algebra-of-limits-for-sequences" section="analysis" text="algebra-of-limits-for-sequences" >}}
+- {{< knowl id="algebra-of-riemann-integrable-functions" section="analysis" text="algebra-of-riemann-integrable-functions" >}}
+- {{< knowl id="algebraic-properties-sup-inf" section="analysis" text="algebraic-properties-sup-inf" >}}
+- {{< knowl id="archimedean-property-of-r" section="analysis" text="archimedean-property-of-r" >}}
+- {{< knowl id="banach-fixed-point-theorem" section="analysis" text="banach-fixed-point-theorem" >}}
+- {{< knowl id="basic-properties-of-lim-sup-and-lim-inf" section="analysis" text="basic-properties-of-lim-sup-and-lim-inf" >}}
+- {{< knowl id="boundary" section="analysis" text="boundary" >}}
+- {{< knowl id="bounded-infinite-set-has-limit-point" section="analysis" text="bounded-infinite-set-has-limit-point" >}}
+- {{< knowl id="bounded-sequence" section="analysis" text="bounded-sequence" >}}
+- {{< knowl id="bounded-sequence-has-convergent-subsequence" section="analysis" text="bounded-sequence-has-convergent-subsequence" >}}
+- {{< knowl id="c2-implies-equal-mixed-partials" section="analysis" text="c2-implies-equal-mixed-partials" >}}
+- {{< knowl id="cauchy-criterion-for-convergence-in-rk" section="analysis" text="cauchy-criterion-for-convergence-in-rk" >}}
+- {{< knowl id="chain-rule-multivariable" section="analysis" text="chain-rule-multivariable" >}}
+- {{< knowl id="change-of-variables-for-multiple-integrals" section="analysis" text="change-of-variables-for-multiple-integrals" >}}
+- {{< knowl id="change-of-variables-formula-for-multiple-integrals" section="analysis" text="change-of-variables-formula-for-multiple-integrals" >}}
+- {{< knowl id="change-of-variables-jacobian-corollary" section="analysis" text="change-of-variables-jacobian-corollary" >}}
+- {{< knowl id="characteristic-function-indicator-function" section="analysis" text="characteristic-function-indicator-function" >}}
+- {{< knowl id="class-ck-function-one-variable" section="analysis" text="class-ck-function-one-variable" >}}
+- {{< knowl id="closed-sets-are-complements-of-open-sets" section="analysis" text="closed-sets-are-complements-of-open-sets" >}}
+- {{< knowl id="compactness-criteria-rk" section="analysis" text="compactness-criteria-rk" >}}
+- {{< knowl id="completeness-axiom-of-r" section="analysis" text="completeness-axiom-of-r" >}}
+- {{< knowl id="completeness-of-ck" section="analysis" text="completeness-of-ck" >}}
+- {{< knowl id="complex-conjugate" section="analysis" text="complex-conjugate" >}}
+- {{< knowl id="complex-numbers-c" section="analysis" text="complex-numbers-c" >}}
+- {{< knowl id="composition-of-functions" section="analysis" text="composition-of-functions" >}}
+- {{< knowl id="continuity-at-a-point" section="analysis" text="continuity-at-a-point" >}}
+- {{< knowl id="continuity-on-a-set" section="analysis" text="continuity-on-a-set" >}}
+- {{< knowl id="continuity-via-open-sets" section="analysis" text="continuity-via-open-sets" >}}
+- {{< knowl id="continuity-via-sequences" section="analysis" text="continuity-via-sequences" >}}
+- {{< knowl id="continuous-bijection-from-compact-homeomorphism-criterion" section="analysis" text="continuous-bijection-from-compact-homeomorphism-criterion" >}}
+- {{< knowl id="continuous-image-compact-closed-bounded" section="analysis" text="continuous-image-compact-closed-bounded" >}}
+- {{< knowl id="continuous-on-compact-bounded-corollary" section="analysis" text="continuous-on-compact-bounded-corollary" >}}
+- {{< knowl id="continuous-on-compact-is-bounded" section="analysis" text="continuous-on-compact-is-bounded" >}}
+- {{< knowl id="contraction-mapping" section="analysis" text="contraction-mapping" >}}
+- {{< knowl id="convergence-in-product-metric-spaces" section="analysis" text="convergence-in-product-metric-spaces" >}}
+- {{< knowl id="convergent-series-terms-go-to-zero" section="analysis" text="convergent-series-terms-go-to-zero" >}}
+- {{< knowl id="dense-subset" section="analysis" text="dense-subset" >}}
+- {{< knowl id="density-of-q-in-r" section="analysis" text="density-of-q-in-r" >}}
+- {{< knowl id="density-of-r-minus-q-in-r" section="analysis" text="density-of-r-minus-q-in-r" >}}
+- {{< knowl id="difference-quotient" section="analysis" text="difference-quotient" >}}
+- {{< knowl id="differentiability-criterion-remainder" section="analysis" text="differentiability-criterion-remainder" >}}
+- {{< knowl id="differentiability-on-an-interval" section="analysis" text="differentiability-on-an-interval" >}}
+- {{< knowl id="differentiability-one-variable" section="analysis" text="differentiability-one-variable" >}}
+- {{< knowl id="differentiation-rules-one-variable" section="analysis" text="differentiation-rules-one-variable" >}}
+- {{< knowl id="equicontinuity-pointwise-bounded-uniform-bounded" section="analysis" text="equicontinuity-pointwise-bounded-uniform-bounded" >}}
+- {{< knowl id="equicontinuity-pointwise-convergence-dense-set-lemma" section="analysis" text="equicontinuity-pointwise-convergence-dense-set-lemma" >}}
+- {{< knowl id="equivalent-definitions-continuity" section="analysis" text="equivalent-definitions-continuity" >}}
+- {{< knowl id="euclidean-space-rk" section="analysis" text="euclidean-space-rk" >}}
+- {{< knowl id="every-cauchy-sequence-is-bounded" section="analysis" text="every-cauchy-sequence-is-bounded" >}}
+- {{< knowl id="existence-of-riemann-integral-for-continuous-functions" section="analysis" text="existence-of-riemann-integral-for-continuous-functions" >}}
+- {{< knowl id="extreme-value-theorem" section="analysis" text="extreme-value-theorem" >}}
+- {{< knowl id="finite-subcover-lemma" section="analysis" text="finite-subcover-lemma" >}}
+- {{< knowl id="fixed-point" section="analysis" text="fixed-point" >}}
+- {{< knowl id="fixed-sign-of-derivative-implies-monotonicity" section="analysis" text="fixed-sign-of-derivative-implies-monotonicity" >}}
+- {{< knowl id="fubini-theorem-for-riemann-integrals" section="analysis" text="fubini-theorem-for-riemann-integrals" >}}
+- {{< knowl id="function-map" section="analysis" text="function-map" >}}
+- {{< knowl id="fundamental-theorem-of-calculus-part-i" section="analysis" text="fundamental-theorem-of-calculus-part-i" >}}
+- {{< knowl id="fundamental-theorem-of-calculus-part-ii" section="analysis" text="fundamental-theorem-of-calculus-part-ii" >}}
+- {{< knowl id="global-maximum-global-minimum" section="analysis" text="global-maximum-global-minimum" >}}
+- {{< knowl id="greatest-lower-bound-theorem" section="analysis" text="greatest-lower-bound-theorem" >}}
+- {{< knowl id="heine-cantor-corollary" section="analysis" text="heine-cantor-corollary" >}}
+- {{< knowl id="heine-cantor-theorem" section="analysis" text="heine-cantor-theorem" >}}
+- {{< knowl id="image-range" section="analysis" text="image-range" >}}
+- {{< knowl id="inner-product-on-rk" section="analysis" text="inner-product-on-rk" >}}
+- {{< knowl id="interchange-limit-integral-uniform" section="analysis" text="interchange-limit-integral-uniform" >}}
+- {{< knowl id="inverse-function-theorem-one-variable" section="analysis" text="inverse-function-theorem-one-variable" >}}
+- {{< knowl id="isolated-point" section="analysis" text="isolated-point" >}}
+- {{< knowl id="ivt-corollary" section="analysis" text="ivt-corollary" >}}
+- {{< knowl id="least-upper-bound-theorem" section="analysis" text="least-upper-bound-theorem" >}}
+- {{< knowl id="lebesgue-number-lemma-auxiliary-refinement" section="analysis" text="lebesgue-number-lemma-auxiliary-refinement" >}}
+- {{< knowl id="limit-inferior-lim-inf" section="analysis" text="limit-inferior-lim-inf" >}}
+- {{< knowl id="limit-of-a-function-at-a-point" section="analysis" text="limit-of-a-function-at-a-point" >}}
+- {{< knowl id="limit-of-a-function-at-infinity" section="analysis" text="limit-of-a-function-at-infinity" >}}
+- {{< knowl id="limit-of-a-sequence" section="analysis" text="limit-of-a-sequence" >}}
+- {{< knowl id="limit-point-accumulation-point-cluster-point" section="analysis" text="limit-point-accumulation-point-cluster-point" >}}
+- {{< knowl id="limit-superior-lim-sup" section="analysis" text="limit-superior-lim-sup" >}}
+- {{< knowl id="linearity-in-integrator-riemann-stieltjes" section="analysis" text="linearity-in-integrator-riemann-stieltjes" >}}
+- {{< knowl id="local-maximum-local-minimum" section="analysis" text="local-maximum-local-minimum" >}}
+- {{< knowl id="lower-sum-riemann" section="analysis" text="lower-sum-riemann" >}}
+- {{< knowl id="m-test-continuity-integration-corollary" section="analysis" text="m-test-continuity-integration-corollary" >}}
+- {{< knowl id="mean-value-inequality-multivariable" section="analysis" text="mean-value-inequality-multivariable" >}}
+- {{< knowl id="mertens-theorem-on-cauchy-products" section="analysis" text="mertens-theorem-on-cauchy-products" >}}
+- {{< knowl id="modulus-on-c" section="analysis" text="modulus-on-c" >}}
+- {{< knowl id="monotone-convergence-theorem" section="analysis" text="monotone-convergence-theorem" >}}
+- {{< knowl id="multiple-riemann-integral-over-a-rectangle" section="analysis" text="multiple-riemann-integral-over-a-rectangle" >}}
+- {{< knowl id="neumann-series-lemma" section="analysis" text="neumann-series-lemma" >}}
+- {{< knowl id="newton-leibniz-formula" section="analysis" text="newton-leibniz-formula" >}}
+- {{< knowl id="open-sets-form-a-topology" section="analysis" text="open-sets-form-a-topology" >}}
+- {{< knowl id="oscillation-criterion-lemma" section="analysis" text="oscillation-criterion-lemma" >}}
+- {{< knowl id="oscillation-of-a-function" section="analysis" text="oscillation-of-a-function" >}}
+- {{< knowl id="positive-derivative-strictly-increasing" section="analysis" text="positive-derivative-strictly-increasing" >}}
+- {{< knowl id="preimage-inverse-image" section="analysis" text="preimage-inverse-image" >}}
+- {{< knowl id="principle-of-mathematical-induction" section="analysis" text="principle-of-mathematical-induction" >}}
+- {{< knowl id="real-numbers-r" section="analysis" text="real-numbers-r" >}}
+- {{< knowl id="rearrangement-of-a-series" section="analysis" text="rearrangement-of-a-series" >}}
+- {{< knowl id="rearrangement-theorem-for-absolutely-convergent-series" section="analysis" text="rearrangement-theorem-for-absolutely-convergent-series" >}}
+- {{< knowl id="regular-point-critical-point-multivariable" section="analysis" text="regular-point-critical-point-multivariable" >}}
+- {{< knowl id="regular-value-critical-value-multivariable" section="analysis" text="regular-value-critical-value-multivariable" >}}
+- {{< knowl id="remainder-term-in-taylors-theorem" section="analysis" text="remainder-term-in-taylors-theorem" >}}
+- {{< knowl id="reverse-triangle-inequality" section="analysis" text="reverse-triangle-inequality" >}}
+- {{< knowl id="riemann-integrability-of-functions-with-finitely-many-discontinuities" section="analysis" text="riemann-integrability-of-functions-with-finitely-many-discontinuities" >}}
+- {{< knowl id="riemann-integrability-of-monotone-functions" section="analysis" text="riemann-integrability-of-monotone-functions" >}}
+- {{< knowl id="right-derivative-left-derivative" section="analysis" text="right-derivative-left-derivative" >}}
+- {{< knowl id="sequential-characterization-of-closed-sets" section="analysis" text="sequential-characterization-of-closed-sets" >}}
+- {{< knowl id="sequential-characterization-of-closure" section="analysis" text="sequential-characterization-of-closure" >}}
+- {{< knowl id="set-of-measure-zero-in-rk" section="analysis" text="set-of-measure-zero-in-rk" >}}
+- {{< knowl id="sphere-metric-sphere" section="analysis" text="sphere-metric-sphere" >}}
+- {{< knowl id="substitution-rule-for-one-variable-riemann-integrals" section="analysis" text="substitution-rule-for-one-variable-riemann-integrals" >}}
+- {{< knowl id="taylors-theorem-in-several-variables" section="analysis" text="taylors-theorem-in-several-variables" >}}
+- {{< knowl id="term-by-term-differentiation-of-power-series" section="analysis" text="term-by-term-differentiation-of-power-series" >}}
+- {{< knowl id="term-by-term-integration-of-power-series" section="analysis" text="term-by-term-integration-of-power-series" >}}
+- {{< knowl id="term-by-term-operations-series" section="analysis" text="term-by-term-operations-series" >}}
+- {{< knowl id="total-boundedness-epsilon-nets" section="analysis" text="total-boundedness-epsilon-nets" >}}
+- {{< knowl id="total-derivative-frechet-derivative" section="analysis" text="total-derivative-frechet-derivative" >}}
+- {{< knowl id="total-order-linear-order" section="analysis" text="total-order-linear-order" >}}
+- {{< knowl id="triangle-inequality" section="analysis" text="triangle-inequality" >}}
+- {{< knowl id="uniform-cauchy-implies-uniform-convergence" section="analysis" text="uniform-cauchy-implies-uniform-convergence" >}}
+- {{< knowl id="uniform-cauchy-sequence-of-functions" section="analysis" text="uniform-cauchy-sequence-of-functions" >}}
+- {{< knowl id="uniform-continuity" section="analysis" text="uniform-continuity" >}}
+- {{< knowl id="uniform-continuity-implies-continuity" section="analysis" text="uniform-continuity-implies-continuity" >}}
+- {{< knowl id="uniform-continuity-preserves-cauchy" section="analysis" text="uniform-continuity-preserves-cauchy" >}}
+- {{< knowl id="uniform-convergence-and-differentiation-theorem" section="analysis" text="uniform-convergence-and-differentiation-theorem" >}}
+- {{< knowl id="uniform-convergence-and-integration-theorem" section="analysis" text="uniform-convergence-and-integration-theorem" >}}
+- {{< knowl id="uniform-convergence-implies-convergence-of-sup-norms" section="analysis" text="uniform-convergence-implies-convergence-of-sup-norms" >}}
+- {{< knowl id="uniform-convergence-implies-uniform-cauchy" section="analysis" text="uniform-convergence-implies-uniform-cauchy" >}}
+- {{< knowl id="uniform-convergence-of-a-sequence-of-functions" section="analysis" text="uniform-convergence-of-a-sequence-of-functions" >}}
+- {{< knowl id="uniform-convergence-of-a-series-of-functions" section="analysis" text="uniform-convergence-of-a-series-of-functions" >}}
+- {{< knowl id="uniform-convergence-of-power-series-on-compact-subsets" section="analysis" text="uniform-convergence-of-power-series-on-compact-subsets" >}}
+- {{< knowl id="uniform-limit-theorem-for-continuity" section="analysis" text="uniform-limit-theorem-for-continuity" >}}
+- {{< knowl id="uniqueness-of-limits" section="analysis" text="uniqueness-of-limits" >}}
+- {{< knowl id="uniqueness-of-supremum-infimum" section="analysis" text="uniqueness-of-supremum-infimum" >}}
+- {{< knowl id="upper-sum-riemann" section="analysis" text="upper-sum-riemann" >}}
+- {{< knowl id="well-ordering-principle-for-n" section="analysis" text="well-ordering-principle-for-n" >}}
+- {{< knowl id="zero-derivative-constant-corollary" section="analysis" text="zero-derivative-constant-corollary" >}}
+
+---
+
+## New Knowls (not in old analysis)
+
+### real-analysis
+
+- {{< knowl id="absolute-convergence-implies-cauchy" section="real-analysis" text="absolute-convergence-implies-cauchy" >}}
+- {{< knowl id="absolute-value" section="real-analysis" text="absolute-value" >}}
+- {{< knowl id="archimedean-property" section="real-analysis" text="archimedean-property" >}}
+- {{< knowl id="bounded-variation-function" section="real-analysis" text="bounded-variation-function" >}}
+- {{< knowl id="cauchy-criterion-in-rk" section="real-analysis" text="cauchy-criterion-in-rk" >}}
+- {{< knowl id="chain-rule" section="real-analysis" text="chain-rule" >}}
+- {{< knowl id="change-of-variables-formula" section="real-analysis" text="change-of-variables-formula" >}}
+- {{< knowl id="class-ck-function" section="real-analysis" text="class-ck-function" >}}
+- {{< knowl id="completeness-axiom" section="real-analysis" text="completeness-axiom" >}}
+- {{< knowl id="critical-value" section="real-analysis" text="critical-value" >}}
+- {{< knowl id="density-of-irrationals" section="real-analysis" text="density-of-irrationals" >}}
+- {{< knowl id="density-of-q" section="real-analysis" text="density-of-q" >}}
+- {{< knowl id="derivative-sign-implies-monotonicity" section="real-analysis" text="derivative-sign-implies-monotonicity" >}}
+- {{< knowl id="differentiability-1d" section="real-analysis" text="differentiability-1d" >}}
+- {{< knowl id="differentiability-criterion" section="real-analysis" text="differentiability-criterion" >}}
+- {{< knowl id="differentiation-rules" section="real-analysis" text="differentiation-rules" >}}
+- {{< knowl id="discontinuity-point" section="real-analysis" text="discontinuity-point" >}}
+- {{< knowl id="equicontinuity-boundedness-criterion" section="real-analysis" text="equicontinuity-boundedness-criterion" >}}
+- {{< knowl id="equicontinuity-dense-set-lemma" section="real-analysis" text="equicontinuity-dense-set-lemma" >}}
+- {{< knowl id="frechet-derivative" section="real-analysis" text="frechet-derivative" >}}
+- {{< knowl id="fubini-theorem-riemann" section="real-analysis" text="fubini-theorem-riemann" >}}
+- {{< knowl id="fundamental-theorem-of-calculus-i" section="real-analysis" text="fundamental-theorem-of-calculus-i" >}}
+- {{< knowl id="fundamental-theorem-of-calculus-ii" section="real-analysis" text="fundamental-theorem-of-calculus-ii" >}}
+- {{< knowl id="global-extrema" section="real-analysis" text="global-extrema" >}}
+- {{< knowl id="interchange-limit-integral" section="real-analysis" text="interchange-limit-integral" >}}
+- {{< knowl id="inverse-function-theorem-1d" section="real-analysis" text="inverse-function-theorem-1d" >}}
+- {{< knowl id="limit-algebra-for-sequences" section="real-analysis" text="limit-algebra-for-sequences" >}}
+- {{< knowl id="limit-at-a-point" section="real-analysis" text="limit-at-a-point" >}}
+- {{< knowl id="limit-at-infinity" section="real-analysis" text="limit-at-infinity" >}}
+- {{< knowl id="limit-inferior" section="real-analysis" text="limit-inferior" >}}
+- {{< knowl id="limit-superior" section="real-analysis" text="limit-superior" >}}
+- {{< knowl id="limsup-liminf-properties" section="real-analysis" text="limsup-liminf-properties" >}}
+- {{< knowl id="local-extremum" section="real-analysis" text="local-extremum" >}}
+- {{< knowl id="lower-sum" section="real-analysis" text="lower-sum" >}}
+- {{< knowl id="m-test-corollary" section="real-analysis" text="m-test-corollary" >}}
+- {{< knowl id="mean-value-inequality" section="real-analysis" text="mean-value-inequality" >}}
+- {{< knowl id="mertens-theorem" section="real-analysis" text="mertens-theorem" >}}
+- {{< knowl id="monotone-function" section="real-analysis" text="monotone-function" >}}
+- {{< knowl id="monotone-sequence-convergence-theorem" section="real-analysis" text="monotone-sequence-convergence-theorem" >}}
+- {{< knowl id="monotone-sequence-of-functions" section="real-analysis" text="monotone-sequence-of-functions" >}}
+- {{< knowl id="multiple-riemann-integral" section="real-analysis" text="multiple-riemann-integral" >}}
+- {{< knowl id="oscillation" section="real-analysis" text="oscillation" >}}
+- {{< knowl id="oscillation-criterion" section="real-analysis" text="oscillation-criterion" >}}
+- {{< knowl id="polynomial" section="real-analysis" text="polynomial" >}}
+- {{< knowl id="positive-derivative-implies-increasing" section="real-analysis" text="positive-derivative-implies-increasing" >}}
+- {{< knowl id="power-series" section="real-analysis" text="power-series" >}}
+- {{< knowl id="power-series-uniform-convergence-on-compacts" section="real-analysis" text="power-series-uniform-convergence-on-compacts" >}}
+- {{< knowl id="rearrangement-of-series" section="real-analysis" text="rearrangement-of-series" >}}
+- {{< knowl id="rearrangement-theorem-absolute" section="real-analysis" text="rearrangement-theorem-absolute" >}}
+- {{< knowl id="regular-point" section="real-analysis" text="regular-point" >}}
+- {{< knowl id="regular-value" section="real-analysis" text="regular-value" >}}
+- {{< knowl id="riemann-algebra" section="real-analysis" text="riemann-algebra" >}}
+- {{< knowl id="riemann-integrability-finite-discontinuities" section="real-analysis" text="riemann-integrability-finite-discontinuities" >}}
+- {{< knowl id="riemann-integrability-monotone" section="real-analysis" text="riemann-integrability-monotone" >}}
+- {{< knowl id="riemann-integral-continuous-exists" section="real-analysis" text="riemann-integral-continuous-exists" >}}
+- {{< knowl id="riemann-linearity" section="real-analysis" text="riemann-linearity" >}}
+- {{< knowl id="riemann-stieltjes-linearity" section="real-analysis" text="riemann-stieltjes-linearity" >}}
+- {{< knowl id="separates-points" section="real-analysis" text="separates-points" >}}
+- {{< knowl id="set-of-discontinuities" section="real-analysis" text="set-of-discontinuities" >}}
+- {{< knowl id="space-of-continuous-functions" section="real-analysis" text="space-of-continuous-functions" >}}
+- {{< knowl id="subalgebra-of-continuous-functions" section="real-analysis" text="subalgebra-of-continuous-functions" >}}
+- {{< knowl id="substitution-rule" section="real-analysis" text="substitution-rule" >}}
+- {{< knowl id="sup-inf-algebra" section="real-analysis" text="sup-inf-algebra" >}}
+- {{< knowl id="supremum-norm" section="real-analysis" text="supremum-norm" >}}
+- {{< knowl id="term-by-term-differentiation" section="real-analysis" text="term-by-term-differentiation" >}}
+- {{< knowl id="term-by-term-integration" section="real-analysis" text="term-by-term-integration" >}}
+- {{< knowl id="term-by-term-operations" section="real-analysis" text="term-by-term-operations" >}}
+- {{< knowl id="terms-go-to-zero" section="real-analysis" text="terms-go-to-zero" >}}
+- {{< knowl id="total-variation" section="real-analysis" text="total-variation" >}}
+- {{< knowl id="uniform-cauchy" section="real-analysis" text="uniform-cauchy" >}}
+- {{< knowl id="uniform-cauchy-iff-uniform-convergence" section="real-analysis" text="uniform-cauchy-iff-uniform-convergence" >}}
+- {{< knowl id="uniform-convergence" section="real-analysis" text="uniform-convergence" >}}
+- {{< knowl id="uniform-convergence-differentiation" section="real-analysis" text="uniform-convergence-differentiation" >}}
+- {{< knowl id="uniform-convergence-integration" section="real-analysis" text="uniform-convergence-integration" >}}
+- {{< knowl id="uniform-convergence-supnorm" section="real-analysis" text="uniform-convergence-supnorm" >}}
+- {{< knowl id="uniform-metric" section="real-analysis" text="uniform-metric" >}}
+- {{< knowl id="uniqueness-of-sup-inf" section="real-analysis" text="uniqueness-of-sup-inf" >}}
+- {{< knowl id="upper-sum" section="real-analysis" text="upper-sum" >}}
+
+### topology
+
+- {{< knowl id="basis-of-topology" section="topology" text="basis-of-topology" >}}
+- {{< knowl id="category-argument-template" section="topology" text="category-argument-template" >}}
+- {{< knowl id="cauchy-sequence-is-bounded" section="topology" text="cauchy-sequence-is-bounded" >}}
+- {{< knowl id="compact-subset-of-hausdorff-is-closed" section="topology" text="compact-subset-of-hausdorff-is-closed" >}}
+- {{< knowl id="compact-to-hausdorff-homeomorphism-criterion" section="topology" text="compact-to-hausdorff-homeomorphism-criterion" >}}
+- {{< knowl id="complete-metric-space-is-baire" section="topology" text="complete-metric-space-is-baire" >}}
+- {{< knowl id="continuous-map" section="topology" text="continuous-map" >}}
+- {{< knowl id="cover" section="topology" text="cover" >}}
+- {{< knowl id="epsilon-net" section="topology" text="epsilon-net" >}}
+- {{< knowl id="equivalent-metrics" section="topology" text="equivalent-metrics" >}}
+- {{< knowl id="finite-intersection-property" section="topology" text="finite-intersection-property" >}}
+- {{< knowl id="hausdorff-space" section="topology" text="hausdorff-space" >}}
+- {{< knowl id="intersection-of-dense-open-is-dense" section="topology" text="intersection-of-dense-open-is-dense" >}}
+- {{< knowl id="limit-point" section="topology" text="limit-point" >}}
+- {{< knowl id="metric-induced-topology" section="topology" text="metric-induced-topology" >}}
+- {{< knowl id="metric-sphere" section="topology" text="metric-sphere" >}}
+- {{< knowl id="open-cover" section="topology" text="open-cover" >}}
+- {{< knowl id="product-topology" section="topology" text="product-topology" >}}
+- {{< knowl id="quotient-topology" section="topology" text="quotient-topology" >}}
+- {{< knowl id="refinement-of-open-cover" section="topology" text="refinement-of-open-cover" >}}
+- {{< knowl id="sequential-characterization-closed" section="topology" text="sequential-characterization-closed" >}}
+- {{< knowl id="sequential-characterization-closure" section="topology" text="sequential-characterization-closure" >}}
+- {{< knowl id="subbasis-of-topology" section="topology" text="subbasis-of-topology" >}}
+- {{< knowl id="subspace-topology" section="topology" text="subspace-topology" >}}
+- {{< knowl id="t0-space" section="topology" text="t0-space" >}}
+- {{< knowl id="t1-space" section="topology" text="t1-space" >}}
+- {{< knowl id="topological-space" section="topology" text="topological-space" >}}
+- {{< knowl id="topology" section="topology" text="topology" >}}
+- {{< knowl id="uniformly-continuous-map" section="topology" text="uniformly-continuous-map" >}}
+- {{< knowl id="uniqueness-of-limits-hausdorff" section="topology" text="uniqueness-of-limits-hausdorff" >}}
+
+### measure-theory
+
+- {{< knowl id="almost-everywhere" section="measure-theory" text="almost-everywhere" >}}
+- {{< knowl id="borel-sigma-algebra" section="measure-theory" text="borel-sigma-algebra" >}}
+- {{< knowl id="caratheodory-construction" section="measure-theory" text="caratheodory-construction" >}}
+- {{< knowl id="caratheodory-measurable-set" section="measure-theory" text="caratheodory-measurable-set" >}}
+- {{< knowl id="continuity-from-above-measure" section="measure-theory" text="continuity-from-above-measure" >}}
+- {{< knowl id="continuity-from-below-measure" section="measure-theory" text="continuity-from-below-measure" >}}
+- {{< knowl id="indicator-function" section="measure-theory" text="indicator-function" >}}
+- {{< knowl id="lebesgue-measure" section="measure-theory" text="lebesgue-measure" >}}
+- {{< knowl id="measurable-function" section="measure-theory" text="measurable-function" >}}
+- {{< knowl id="measurable-rectangle" section="measure-theory" text="measurable-rectangle" >}}
+- {{< knowl id="measurable-set" section="measure-theory" text="measurable-set" >}}
+- {{< knowl id="measurable-space" section="measure-theory" text="measurable-space" >}}
+- {{< knowl id="measure" section="measure-theory" text="measure" >}}
+- {{< knowl id="measure-space" section="measure-theory" text="measure-space" >}}
+- {{< knowl id="null-set" section="measure-theory" text="null-set" >}}
+- {{< knowl id="outer-measure" section="measure-theory" text="outer-measure" >}}
+- {{< knowl id="premeasure" section="measure-theory" text="premeasure" >}}
+- {{< knowl id="set-algebra" section="measure-theory" text="set-algebra" >}}
+- {{< knowl id="sigma-algebra" section="measure-theory" text="sigma-algebra" >}}
+- {{< knowl id="simple-function" section="measure-theory" text="simple-function" >}}

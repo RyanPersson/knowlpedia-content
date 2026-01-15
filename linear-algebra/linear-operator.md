@@ -1,13 +1,13 @@
 ---
-title: "Linear Operator"
-description: "A linear map from a vector space to itself"
+title: "Linear operator"
+description: "A linear map from a vector space to itself."
 ---
 
-A **linear operator** on a {{< knowl id="vector-space" text="vector space" >}} $V$ is a {{< knowl id="linear-map" text="linear map" >}} $T:V\to V$.
+A **linear operator** is a {{< knowl id="linear-map" text="linear map" >}} $T:V\to V$ on a {{< knowl id="vector-space" text="vector space" >}} $V$.
 
-Linear operators are the basic input for spectral notions such as {{< knowl id="eigenvalue" text="eigenvalues" >}} and eigenvectors, and for polynomial invariants like characteristic and minimal polynomials.
+Because the domain and codomain agree, one can form iterates $T^k$ using {{< knowl id="composition" section="shared-foundations" text="composition" >}}. Linear operators are the objects to which {{< knowl id="eigenvalue" text="eigenvalues" >}}, {{< knowl id="eigenspace" text="eigenspaces" >}}, and the {{< knowl id="characteristic-polynomial" text="characteristic polynomial" >}} are attached.
 
 **Examples:**
-- The identity operator $I:V\to V$ given by $I(v)=v$ is linear.
-- The zero operator $0:V\to V$ given by $0(v)=0$ is linear.
-- On $\mathbb{R}^2$, the map $T(x,y)=(x,0)$ is a linear operator (projection onto the $x$-axis).
+- The identity map $I:V\to V$ given by $I(v)=v$ is a linear operator.
+- On $\mathbb{R}^2$, rotation by a fixed angle is a linear operator.
+- On $\mathbb{R}[x]$, the differentiation map $p\mapsto p'$ is a linear operator.

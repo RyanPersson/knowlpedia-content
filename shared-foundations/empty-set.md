@@ -1,16 +1,15 @@
 ---
 title: "Empty set"
-description: "The unique set with no elements, denoted ∅"
+description: "The unique set that contains no elements."
 ---
 
-The **empty set**, denoted $\emptyset$, is the {{< knowl id="set" text="set" >}} with no elements:
+An **empty set** is a set $\varnothing$ with no elements, meaning
 $$
-\forall x\,(x \notin \emptyset).
+\forall x\,(x\notin \varnothing).
 $$
 
-In {{< knowl id="zfc-axioms" text="ZFC" >}}, existence of $\emptyset$ is ensured by an axiom; uniqueness follows from extensionality (a set is determined by its elements). The empty set is a {{< knowl id="subset" text="subset" >}} of every set.
+By extensionality (see {{< knowl id="set" text="set" >}}), there is only one such set: if $E$ and $F$ have no elements, then $E=F$. The empty set is the identity for {{< knowl id="union" text="union" >}} and an absorbing element for {{< knowl id="intersection" text="intersection" >}} when working with subsets of a fixed ambient set.
 
 **Examples:**
-- The solution set to $x^2 + 1 = 0$ in $\mathbb{R}$ is $\emptyset$.
-- For any set $A$, $A \cap \emptyset = \emptyset$.
-- For any set $A$, $A \cup \emptyset = A$.
+- The solution set $\{x\in\mathbb{R} : x^2+1=0\}$ is $\varnothing$.
+- If $A$ and $B$ are disjoint subsets of a set, then $A\cap B=\varnothing$.

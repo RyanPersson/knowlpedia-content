@@ -1,27 +1,21 @@
 ---
-title: "Vector Space"
-description: "A set with addition and scalar multiplication over a field satisfying the vector space axioms"
+title: "Vector space"
+description: "A set with addition and scalar multiplication satisfying the vector space axioms."
 ---
 
-A **vector space** over a {{< knowl id="field" section="algebra-rings" text="field" >}} $F$ is a set $V$ equipped with
+A **vector space** over a {{< knowl id="field-axioms" section="real-analysis" text="field" >}} $\mathbb{F}$ is a {{< knowl id="set" section="shared-foundations" text="set" >}} $V$ equipped with two operations ({{< knowl id="function" section="shared-foundations" text="functions" >}}) $+:V\times V\to V$ and $\cdot:\mathbb{F}\times V\to V$ such that for all $u,v,w\in V$ and $a,b\in\mathbb{F}$:
+\[
+\begin{aligned}
+&u+v=v+u,\qquad (u+v)+w=u+(v+w),\\
+&\exists\,0\in V:\ v+0=v,\qquad \forall v\in V\ \exists\,(-v)\in V:\ v+(-v)=0,\\
+&a\cdot(u+v)=a\cdot u+a\cdot v,\qquad (a+b)\cdot v=a\cdot v+b\cdot v,\\
+&(ab)\cdot v=a\cdot(b\cdot v),\qquad 1\cdot v=v.
+\end{aligned}
+\]
 
-- an **addition** operation $+:V\times V\to V$, and
-- a **scalar multiplication** operation $\cdot:F\times V\to V$,
-
-such that for all $u,v,w\in V$ and all $a,b\in F$:
-
-1. $u+(v+w)=(u+v)+w$ (associativity of $+$),
-2. $u+v=v+u$ (commutativity of $+$),
-3. there exists an element $0\in V$ with $v+0=v$ (additive identity),
-4. for every $v\in V$ there exists an element $-v\in V$ with $v+(-v)=0$ (additive inverse),
-5. $a\cdot(u+v)=a\cdot u+a\cdot v$ (distributivity over vector addition),
-6. $(a+b)\cdot v=a\cdot v+b\cdot v$ (distributivity over scalar addition),
-7. $(ab)\cdot v=a\cdot(b\cdot v)$ (compatibility with scalar multiplication),
-8. $1\cdot v=v$, where $1$ is the multiplicative identity in $F$.
-
-Vector spaces are the basic objects of linear algebra; {{< knowl id="linear-map" text="linear maps" >}} are the structure-preserving functions between them. A prototypical family of examples is {{< knowl id="euclidean-space" text="Euclidean space" >}}, where vectors are tuples of numbers.
+Vector spaces are the basic objects studied via {{< knowl id="linear-map" text="linear maps" >}} and invariants such as the {{< knowl id="determinant" text="determinant" >}} and {{< knowl id="eigenvalue" text="eigenvalues" >}} of operators.
 
 **Examples:**
-- For any $k\in\mathbb{N}$, the set $\mathbb{R}^k$ of $k$-tuples of {{< knowl id="real-numbers" text="real numbers" >}} is a vector space over $\mathbb{R}$ with coordinatewise addition and scalar multiplication.
-- The {{< knowl id="polynomial-ring" section="algebra-rings" text="polynomial ring" >}} $F[t]$ (viewed only with its addition and scalar multiplication by $F$) is a vector space over $F$.
-- If $X$ is any set, then the set of all functions $X\to F$ is a vector space over $F$ under pointwise operations.
+- $\mathbb{R}^n$ with componentwise addition and scalar multiplication is a vector space over $\mathbb{R}$.
+- The set of polynomials $\mathbb{F}[x]$ with the usual addition and scalar multiplication is a vector space over $\mathbb{F}$.
+- The set of $m\times n$ matrices over $\mathbb{F}$ is a vector space over $\mathbb{F}$.

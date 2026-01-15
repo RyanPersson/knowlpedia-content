@@ -1,13 +1,12 @@
 ---
-title: "Euclidean Space"
-description: "The vector space of k-tuples of real numbers with its standard inner product and norm"
+title: "Euclidean space"
+description: "A finite-dimensional real inner product space."
 ---
 
-For $k\in\mathbb{N}$, **Euclidean space** $\mathbb{R}^k$ is the set of all $k$-tuples $(x_1,\dots,x_k)$ with $x_i\in\mathbb{R}$, where $\mathbb{R}$ denotes the {{< knowl id="real-numbers-r" section="analysis" text="real numbers" >}}. Equivalently, $\mathbb{R}^k$ is the $k$-fold {{< knowl id="cartesian-product" section="shared-foundations" text="Cartesian product" >}} of $\mathbb{R}$ with itself.
+A **Euclidean space** is a real inner product space $(V,\langle\cdot,\cdot\rangle)$ with $\dim V<\infty$.
 
-With coordinatewise addition and scalar multiplication by $\mathbb{R}$, $\mathbb{R}^k$ is a {{< knowl id="vector-space" text="vector space" >}}. It carries a standard {{< knowl id="inner-product" text="inner product" >}} and the associated {{< knowl id="euclidean-norm" text="Euclidean norm" >}}.
+Equivalently, it is a finite-dimensional {{< knowl id="inner-product-space" text="inner product space" >}} (hence a finite-dimensional {{< knowl id="vector-space" text="vector space" >}}) over $\mathbb{R}$. The inner product determines lengths via the {{< knowl id="euclidean-norm" text="Euclidean norm" >}} and the notion of perpendicularity via {{< knowl id="orthogonality" text="orthogonality" >}}.
 
 **Examples:**
-- $\mathbb{R}^1$ is (canonically) identified with the real line.
-- $\mathbb{R}^2$ models the Euclidean plane; points and vectors can both be represented as ordered pairs.
-- $\mathbb{R}^3$ models ordinary 3-dimensional space with coordinates $(x,y,z)$.
+- $\mathbb{R}^n$ with the dot product $\langle x,y\rangle=\sum_{i=1}^n x_i y_i$.
+- Any linear subspace $W\subseteq \mathbb{R}^n$ with the dot product restricted to $W$.

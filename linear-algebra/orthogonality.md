@@ -1,17 +1,16 @@
 ---
 title: "Orthogonality"
-description: "The relation <u,v> = 0 in an inner product space"
+description: "Condition that two vectors have inner product equal to zero."
 ---
 
-In a vector space equipped with an {{< knowl id="inner-product" text="inner product" >}} $\langle\cdot,\cdot\rangle$, two vectors $u$ and $v$ are **orthogonal** if
-$$
-\langle u,v\rangle=0.
-$$
-A set $\{v_i\}_{i\in I}$ is **orthogonal** if $\langle v_i,v_j\rangle=0$ for all $i\neq j$, and it is **orthonormal** if it is orthogonal and additionally $\|v_i\|=1$ for all $i$, where $\|v\|=\sqrt{\langle v,v\rangle}$ (compare the {{< knowl id="euclidean-norm" text="Euclidean norm" >}} in $\mathbb{R}^k$).
+**Orthogonality** is the relation in an {{< knowl id="inner-product-space" text="inner product space" >}} $(V,\langle\cdot,\cdot\rangle)$ defined by
+\[
+u\perp v \quad\Longleftrightarrow\quad \langle u,v\rangle=0.
+\]
 
-Orthogonality depends on the chosen inner product; changing the inner product can change which vectors are orthogonal.
+Orthogonality provides a geometric notion of “perpendicularity” that is compatible with the {{< knowl id="norm" text="norm" >}} coming from the {{< knowl id="inner-product" text="inner product" >}}. Fundamental inequalities such as the {{< knowl id="cauchy-schwarz-inequality" text="Cauchy–Schwarz inequality" >}} control how orthogonality interacts with lengths.
 
 **Examples:**
-- In {{< knowl id="euclidean-space" text="Euclidean space" >}} $\mathbb{R}^k$ with the standard inner product, the standard basis vectors $e_1,\dots,e_k$ form an orthonormal set.
-- In $\mathbb{R}^2$, the vectors $(1,1)$ and $(1,-1)$ are orthogonal for the standard dot product.
-- In $\mathbb{C}^2$ with the standard Hermitian inner product, $(1,0)$ is orthogonal to $(0,1)$.
+- In $\mathbb{R}^2$ with the standard inner product, $(1,1)$ is orthogonal to $(1,-1)$.
+- In $\mathbb{R}^n$, distinct standard basis vectors $e_i$ and $e_j$ are orthogonal when $i\ne j$.
+- For periodic functions on $[0,2\pi]$ with $\langle f,g\rangle=\int_0^{2\pi} f(t)g(t)\,dt$, the functions $\sin t$ and $\cos t$ are orthogonal.

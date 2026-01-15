@@ -1,16 +1,12 @@
 ---
-title: "Total order (linear order)"
-description: "A partial order in which any two elements are comparable"
+title: "Total order"
+description: "A partial order in which any two elements are comparable."
 ---
 
-A **total order** (or **linear order**) on a {{< knowl id="set" text="set" >}} $P$ is a {{< knowl id="partial-order" text="partial order" >}} $\le$ such that
-$$
-\forall x,y\in P,\; (x\le y)\ \text{or}\ (y\le x).
-$$
+A **total order** on a {{< knowl id="set" text="set" >}} $X$ is a {{< knowl id="partial-order" text="partial order" >}} $\le$ on $X$ such that for all $a,b\in X$, either $a\le b$ or $b\le a$.
 
-Total orders allow "linear" comparison of elements and are the starting point for the notion of a {{< knowl id="well-ordered-set" text="well-ordered set" >}}.
+Total orders are also called linear orders. A {{< knowl id="well-ordered-set" text="well-ordered set" >}} is a totally ordered set with the additional property that every nonempty subset has a least element.
 
 **Examples:**
-- The usual $\le$ on $\mathbb{Z}$ or $\mathbb{R}$ is a total order.
-- Lexicographic order on $\mathbb{R}^2$ is a total order.
-- The divisibility order on $\mathbb{N}$ is not total: neither $2$ divides $3$ nor $3$ divides $2$.
+- The usual order $\le$ on $\mathbb{Z}$ (the {{< knowl id="integers" text="integers" >}}) is a total order.
+- (Lexicographic order) If $X$ and $Y$ are totally ordered, define an order on $X\times Y$ by $(x,y)\le_{\mathrm{lex}}(x',y')$ if either $x<x'$, or $x=x'$ and $y\le y'$ (where $x<x'$ means $x\le x'$ and $x\ne x'$). This gives a total order on the {{< knowl id="cartesian-product" text="Cartesian product" >}} $X\times Y$.

@@ -1,17 +1,17 @@
 ---
 title: "Eigenvector"
-description: "A nonzero vector scaled by a linear operator"
+description: "A nonzero vector that is scaled by a linear operator."
 ---
 
-Let $T$ be a {{< knowl id="linear-operator" text="linear operator" >}} $T:V\to V$ over a field $F$. A nonzero vector $v\in V$ is an **eigenvector** of $T$ if there exists a scalar $\lambda\in F$ such that
-$$
-T(v)=\lambda v;
-$$
-the corresponding scalar $\lambda$ is an {{< knowl id="eigenvalue" text="eigenvalue" >}} of $T$.
+An **eigenvector** of a {{< knowl id="linear-operator" text="linear operator" >}} $T:V\to V$ is a nonzero vector $v\in V$ for which there exists a scalar $\lambda\in\mathbb{F}$ such that
+\[
+T(v)=\lambda v.
+\]
+The corresponding scalar $\lambda$ is an {{< knowl id="eigenvalue" text="eigenvalue" >}} of $T$.
 
-For a fixed $\lambda$, the collection of all eigenvectors with eigenvalue $\lambda$, together with the zero vector, forms the {{< knowl id="eigenspace" text="eigenspace" >}} for $\lambda$.
+Eigenvectors for a fixed eigenvalue $\lambda$ form the {{< knowl id="eigenspace" text="eigenspace" >}} of $\lambda$, which is a {{< knowl id="vector-space" text="vector space" >}} inside $V$. In an {{< knowl id="inner-product-space" text="inner product space" >}}, geometric conditions like {{< knowl id="orthogonality" text="orthogonality" >}} often organize eigenvectors of important classes of operators.
 
 **Examples:**
-- For $T=\lambda I$ on $F^n$, every nonzero vector is an eigenvector with eigenvalue $\lambda$.
-- For $T(x,y)=(x,0)$ on $\mathbb{R}^2$, the vectors $(1,0)$ and $(2,0)$ are eigenvectors with eigenvalue $1$, while $(0,1)$ is an eigenvector with eigenvalue $0$.
-- For $A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$ on $F^2$, the vector $(1,0)$ is an eigenvector with eigenvalue $1$, but $(0,1)$ is not an eigenvector.
+- For $A=\operatorname{diag}(2,3)$ on $\mathbb{R}^2$, the vector $(1,0)$ is an eigenvector with eigenvalue $2$.
+- For the projection $P(x,y)=(x,0)$, the vector $(1,0)$ is an eigenvector with eigenvalue $1$ and $(0,1)$ is an eigenvector with eigenvalue $0$.
+- For the scaling map $T(v)=c\,v$, every nonzero vector is an eigenvector with eigenvalue $c$.

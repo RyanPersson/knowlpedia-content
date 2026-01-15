@@ -1,12 +1,12 @@
 ---
 title: "Codomain"
-description: "The specified target set B of a function f:A→B"
+description: "The target set in the definition of a function"
 ---
 
-If $f\colon A\to B$ is a {{< knowl id="function" text="function" >}}, then the **codomain** of $f$ is the target set $B$ appearing in the declaration $f\colon A\to B$.
+A **codomain** is the target set of a function: if $f:A\to B$ is a {{< knowl id="function" text="function" >}}, then its codomain is the set $B$.
 
-The codomain is part of the data of a function and should be distinguished from the {{< knowl id="image" text="image" >}} $f(A)\subseteq B$, which is determined by $f$.
+The {{< knowl id="image" text="image" >}} of $f$ is always a {{< knowl id="subset" text="subset" >}} of the codomain. The function $f$ is {{< knowl id="surjective-function" text="surjective" >}} exactly when its image equals its codomain.
 
 **Examples:**
-- If $f\colon\mathbb{R}\to\mathbb{R}$ is $f(x)=x^2$, then the codomain is $\mathbb{R}$ but the image is $[0,\infty)$.
-- The same rule $x\mapsto x^2$ can be viewed as a function $g\colon\mathbb{R}\to[0,\infty)$ with codomain $[0,\infty)$, in which case $g$ is {{< knowl id="surjective-function" text="surjective" >}}.
+- For $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x)=x^2$, the codomain is $\mathbb{R}$ even though not every real number occurs as a value of $f$.
+- Define $p:\mathbb{Z}\to\{0,1\}$ by $p(n)=0$ if $n$ is even and $p(n)=1$ if $n$ is odd; the codomain is the set $\{0,1\}$.

@@ -1,17 +1,17 @@
 ---
-title: "Operator Norm"
-description: "The supremum of ||Tv|| over unit vectors, measuring the size of a linear map"
+title: "Operator norm"
+description: "Norm of a linear map defined by its maximal expansion of unit vectors."
 ---
 
-Let $T:V\to W$ be a {{< knowl id="linear-map" text="linear map" >}} between normed vector spaces. The **operator norm** of $T$ is
-$$
-\|T\|=\sup_{v\neq 0}\frac{\|T(v)\|}{\|v\|}=\sup_{\|v\|=1}\|T(v)\|.
-$$
-When $V$ is finite-dimensional (for example $V=\mathbb{R}^k$ with the {{< knowl id="euclidean-norm" text="Euclidean norm" >}}), this supremum is finite and is attained by some unit vector.
+An **operator norm** of a {{< knowl id="linear-map" text="linear map" >}} $T:V\to W$ between {{< knowl id="normed-vector-space" text="normed vector spaces" >}} $(V,\|\cdot\|_V)$ and $(W,\|\cdot\|_W)$ is the quantity
+\[
+\|T\|=\sup_{v\ne 0}\frac{\|T(v)\|_W}{\|v\|_V}=\sup_{\|v\|_V=1}\|T(v)\|_W,
+\]
+with the understanding that the supremum may be $+\infty$ in general. When $\|T\|<\infty$, one says $T$ is bounded.
 
-The operator norm is submultiplicative: $\|S\circ T\|\le \|S\|\,\|T\|$ whenever the composition makes sense.
+For linear maps between normed spaces, finiteness of the operator norm is equivalent to being {{< knowl id="continuous-map" section="topology" text="continuous" >}}. The operator norm makes the collection of bounded linear maps into a normed vector space and specializes to a norm on {{< knowl id="linear-operator" text="linear operators" >}} when $V=W$.
 
 **Examples:**
-- If $T:\mathbb{R}^k\to\mathbb{R}^k$ is scalar multiplication by $c\in\mathbb{R}$, then $\|T\|=|c|$.
-- The orthogonal projection $P:\mathbb{R}^2\to\mathbb{R}^2$, $P(x,y)=(x,0)$, has $\|P\|=1$.
-- Any rotation of $\mathbb{R}^2$ has operator norm $1$ (it preserves Euclidean lengths).
+- If $T(v)=c\,v$ on a normed space, then $\|T\|=|c|$.
+- For the projection $P(x,y)=(x,0)$ on $\mathbb{R}^2$ with the Euclidean norm, $\|P\|=1$.
+- For a diagonal matrix $A=\operatorname{diag}(d_1,\dots,d_n)$ acting on $\mathbb{R}^n$ with the max norm, the induced operator norm is $\|A\|=\max_i |d_i|$.

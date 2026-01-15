@@ -1,16 +1,12 @@
 ---
 title: "Domain"
-description: "The input set of a function, or the set of first components appearing in a relation"
+description: "The set of allowed inputs of a function"
 ---
 
-If $f\colon A\to B$ is a {{< knowl id="function" text="function" >}}, then the **domain** of $f$ is the input set $A$.
+A **domain** is the set of inputs of a function: if $f:A\to B$ is a {{< knowl id="function" text="function" >}}, then its domain is the set $A$.
 
-More generally, if $R\subseteq A\times B$ is a {{< knowl id="relation" text="relation" >}}, its domain is the {{< knowl id="subset" text="subset" >}}
-$$
-\mathrm{dom}(R)=\{a\in A:\exists b\in B\text{ with }(a,b)\in R\},
-$$
-where $A\times B$ is the {{< knowl id="cartesian-product" text="Cartesian product" >}}.
+Changing the domain (for example by taking a {{< knowl id="restriction-of-a-function" text="restriction" >}}) produces a new function, even if the output rule looks the same. The elements of the domain appear as the first components of {{< knowl id="ordered-pair" text="ordered pairs" >}} in the {{< knowl id="graph-of-function" text="graph" >}} of $f$.
 
 **Examples:**
-- For $f\colon\mathbb{R}\to\mathbb{R}$ defined by $f(x)=x^2$, the domain is $\mathbb{R}$.
-- If $R=\{(1,a),(2,a)\}\subseteq\{1,2,3\}\times\{a,b\}$, then $\mathrm{dom}(R)=\{1,2\}$.
+- For $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x)=x^2$, the domain is $\mathbb{R}$ (the {{< knowl id="real-numbers" text="real numbers" >}}).
+- For the inclusion map $i:S\to A$ with $S\subseteq A$, the domain is $S$.

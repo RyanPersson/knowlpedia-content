@@ -1,17 +1,16 @@
 ---
 title: "Cartesian product"
-description: "The set A×B of ordered pairs (a,b) with a∈A and b∈B"
+description: "The set of all ordered pairs from two sets."
 ---
 
-Let $A$ and $B$ be {{< knowl id="set" text="sets" >}}. Their **Cartesian product** is
+A **Cartesian product** of sets $A$ and $B$ is the set
 $$
-A \times B = \{(a,b) : a \in A,\; b \in B\},
+A\times B=\{(a,b) : a\in A \text{ and } b\in B\},
 $$
-where $(a,b)$ denotes an {{< knowl id="ordered-pair" text="ordered pair" >}}.
+where $(a,b)$ is an {{< knowl id="ordered-pair" text="ordered pair" >}}.
 
-Cartesian products provide a uniform language for describing {{< knowl id="relation" text="relations" >}} (subsets of $A\times B$) and {{< knowl id="function" text="functions" >}} (special relations).
+Cartesian products provide the ambient sets in which {{< knowl id="relation" text="relations" >}} live: a relation from $A$ to $B$ is a {{< knowl id="subset" text="subset" >}} of $A\times B$.
 
 **Examples:**
-- If $A=\{0,1\}$ and $B=\{a,b\}$ then $A\times B=\{(0,a),(0,b),(1,a),(1,b)\}$.
-- $\mathbb{R}\times\mathbb{R}$ can be identified with the Euclidean plane $\mathbb{R}^2$.
-- If $B=\emptyset$ (see {{< knowl id="empty-set" text="empty set" >}}) then $A\times B=\emptyset$.
+- If $A=\{0,1\}$ and $B=\{a,b\}$, then $A\times B=\{(0,a),(0,b),(1,a),(1,b)\}$.
+- $\mathbb{N}\times\mathbb{N}$ is the set of all ordered pairs of natural numbers.

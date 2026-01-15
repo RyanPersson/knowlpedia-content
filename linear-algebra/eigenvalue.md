@@ -1,17 +1,16 @@
 ---
 title: "Eigenvalue"
-description: "A scalar for which a linear operator has a nonzero fixed direction"
+description: "A scalar for which a linear operator has a nonzero vector it only scales."
 ---
 
-Let $T$ be a {{< knowl id="linear-operator" text="linear operator" >}} $T:V\to V$ over a field $F$. A scalar $\lambda\in F$ is an **eigenvalue** of $T$ if there exists a nonzero vector $v\in V$ such that
-$$
+An **eigenvalue** of a {{< knowl id="linear-operator" text="linear operator" >}} $T:V\to V$ is a scalar $\lambda\in\mathbb{F}$ such that there exists a nonzero vector $v\in V$ with
+\[
 T(v)=\lambda v.
-$$
-Any such $v\neq 0$ is an {{< knowl id="eigenvector" text="eigenvector" >}} of $T$ with eigenvalue $\lambda$.
+\]
 
-Eigenvalues can be detected via the {{< knowl id="characteristic-polynomial" text="characteristic polynomial" >}} (over a field where that polynomial splits). The set of eigenvalues can depend on the base field; passing from $\mathbb{R}$ to the {{< knowl id="complex-numbers" text="complex numbers" >}} can create eigenvalues that were not previously available.
+A vector $v\neq 0$ satisfying this equation is an {{< knowl id="eigenvector" text="eigenvector" >}}, and all such vectors (together with $0$) form the {{< knowl id="eigenspace" text="eigenspace" >}} for $\lambda$. Eigenvalues are precisely the roots of the {{< knowl id="characteristic-polynomial" text="characteristic polynomial" >}}.
 
 **Examples:**
-- If $T=\lambda I$ (scalar multiplication) on $F^n$, then $\lambda$ is an eigenvalue and every nonzero vector is an eigenvector.
-- The rotation of $\mathbb{R}^2$ by $90^\circ$ has no real eigenvalues; viewed over $\mathbb{C}^2$ it has eigenvalues $i$ and $-i$.
-- The matrix $\begin{pmatrix}1&1\\0&1\end{pmatrix}$ (acting on $F^2$) has eigenvalue $1$.
+- For a diagonal matrix $\operatorname{diag}(d_1,\dots,d_n)$, the eigenvalues are $d_1,\dots,d_n$.
+- For the projection $P(x,y)=(x,0)$ on $\mathbb{R}^2$, the eigenvalues are $1$ and $0$.
+- For the identity operator $I$, the only eigenvalue is $1$.

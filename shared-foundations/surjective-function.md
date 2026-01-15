@@ -1,16 +1,12 @@
 ---
 title: "Surjective function"
-description: "A function f:A→B is surjective if every b∈B equals f(a) for some a∈A"
+description: "A function whose outputs cover the entire codomain"
 ---
 
-Let $f\colon A\to B$ be a {{< knowl id="function" text="function" >}}. Then $f$ is **surjective** (or **onto**) if
-$$
-\forall b\in B,\;\exists a\in A\text{ such that }f(a)=b.
-$$
+A **surjective function** is a {{< knowl id="function" text="function" >}} $f:A\to B$ such that for every $b\in B$ there exists at least one $a\in A$ with $f(a)=b$.
 
-Surjectivity is the statement that the {{< knowl id="image" text="image" >}} of the whole {{< knowl id="domain" text="domain" >}} equals the {{< knowl id="codomain" text="codomain" >}}: $f(A)=B$.
+Surjectivity can be expressed using the {{< knowl id="image" text="image" >}}: $f$ is surjective exactly when $f(A)$ equals its {{< knowl id="codomain" text="codomain" >}} $B$. Surjectivity is one of the two conditions (along with injectivity) needed for a {{< knowl id="bijective-function" text="bijection" >}}.
 
 **Examples:**
-- $f\colon\mathbb{R}\to[0,\infty)$ given by $f(x)=x^2$ is surjective.
-- The projection $\pi\colon\mathbb{R}^2\to\mathbb{R}$, $\pi(x,y)=x$, is surjective.
-- The exponential map $\exp\colon\mathbb{R}\to\mathbb{R}$ is not surjective (no negative values occur).
+- The function $f:\mathbb{R}\to\mathbb{R}$ given by $f(x)=x^3$ is surjective, since every real number has a real cube root.
+- The parity map $p:\mathbb{Z}\to\{0,1\}$ (even $\mapsto 0$, odd $\mapsto 1$) is surjective.

@@ -1,16 +1,12 @@
 ---
 title: "Lower bound"
-description: "An element l with l≤s for every s in a subset S of a poset"
+description: "An element that is less than or equal to every element of a subset in an ordered set."
 ---
 
-Let $(P,\le)$ be a {{< knowl id="partial-order" text="partially ordered set" >}} and let $S\subseteq P$ be a {{< knowl id="subset" text="subset" >}}. An element $l\in P$ is a **lower bound** of $S$ if
-$$
-\forall s\in S,\; l\le s.
-$$
+A **lower bound** of a subset $A$ of a {{< knowl id="partial-order" text="partially ordered set" >}} $(P,\le)$ is an element $\ell\in P$ such that $\ell\le a$ for all $a\in A$. The subset $A$ is **bounded below** if it has at least one lower bound in $P$.
 
-Lower bounds are dual to upper bounds. In ordered settings, one often asks whether a *greatest* lower bound exists (the {{< knowl id="infimum" text="infimum" >}}).
+Lower bounds complement {{< knowl id="upper-bound" text="upper bounds" >}} and lead to greatest lower bounds (the {{< knowl id="infimum" section="real-analysis" text="infimum" >}} in real analysis).
 
 **Examples:**
-- In $(\mathbb{R},\le)$, the number $0$ is a lower bound of $(0,1)$ but is not an element of $(0,1)$.
-- In $(\mathcal{P}(X),\subseteq)$, the intersection of a family of subsets is a lower bound of that family.
-- In $(\mathbb{Z},\le)$, the set $\{n\in\mathbb{Z}: n\ge 0\}$ has no lower bound.
+- In $(\mathbb{Z},\le)$, the integer $-5$ is a lower bound for the subset $\{-2,0,3\}$.
+- In the poset $(\mathcal P(X),\subseteq)$, the set $A\cap B$ is a lower bound for $\{A,B\}$, where $A\cap B$ is the {{< knowl id="intersection" text="intersection" >}} of $A$ and $B$.

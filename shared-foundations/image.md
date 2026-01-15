@@ -1,16 +1,16 @@
 ---
-title: "Image of a function"
-description: "The set of outputs f(S) for a subset S of the domain"
+title: "Image"
+description: "The set of outputs a function attains on a given subset of inputs"
 ---
 
-Let $f\colon A\to B$ be a {{< knowl id="function" text="function" >}} and let $S\subseteq A$ be a {{< knowl id="subset" text="subset" >}}. The **image** of $S$ under $f$ is
+An **image** is the set of values a function takes on a subset of its domain: if $f:A\to B$ is a {{< knowl id="function" text="function" >}} and $S\subseteq A$, then
 $$
 f(S)=\{f(s): s\in S\}\subseteq B.
 $$
-In particular, the image (range) of $f$ is $f(A)\subseteq B$, a subset of the {{< knowl id="codomain" text="codomain" >}}.
+The image (often called the range) of $f$ is $f(A)$.
 
-Images interact well with {{< knowl id="union" text="unions" >}} and containments, and they are paired with {{< knowl id="preimage" text="preimages" >}} via inverse image operations.
+Images are built from {{< knowl id="subset" text="subsets" >}} of the domain and are paired conceptually with {{< knowl id="preimage" text="preimages" >}} of subsets of the codomain. A function is {{< knowl id="surjective-function" text="surjective" >}} precisely when $f(A)$ equals its {{< knowl id="codomain" text="codomain" >}}.
 
 **Examples:**
-- If $f\colon\mathbb{Z}\to\mathbb{Z}$ is $f(n)=2n$, then $f(\mathbb{Z})$ is the set of even integers.
-- If $f(x)=x^2$ on $\mathbb{R}$ and $S=[-2,1]$, then $f(S)=[0,4]$.
+- For $f:\mathbb{Z}\to\mathbb{Z}$ given by $f(n)=2n$, the image $f(\mathbb{Z})$ is the set $\{2k: k\in\mathbb{Z}\}$ of even integers.
+- For $f:\mathbb{R}\to\mathbb{R}$ given by $f(x)=x^2$ and $S=\{x\in\mathbb{R}:-1\le x\le 2\}$, the image is $f(S)=\{y\in\mathbb{R}:0\le y\le 4\}$.

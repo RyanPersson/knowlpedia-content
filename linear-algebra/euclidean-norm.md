@@ -1,17 +1,15 @@
 ---
-title: "Euclidean Norm"
-description: "The length function ||x|| = sqrt(x1^2 + ... + xk^2) on R^k"
+title: "Euclidean norm"
+description: "The norm induced by an inner product on a Euclidean space."
 ---
 
-The **Euclidean norm** on {{< knowl id="euclidean-space" text="Euclidean space" >}} $\mathbb{R}^k$ is the function $\|\cdot\|:\mathbb{R}^k\to\mathbb{R}_{\ge 0}$ defined by
-$$
-\|x\|=\sqrt{x_1^2+\cdots+x_k^2}\quad\text{for }x=(x_1,\dots,x_k).
-$$
-It can also be expressed in terms of the standard {{< knowl id="inner-product" text="inner product" >}} by $\|x\|=\sqrt{\langle x,x\rangle}$.
+A **Euclidean norm** on a {{< knowl id="euclidean-space" text="Euclidean space" >}} $(V,\langle\cdot,\cdot\rangle)$ is the {{< knowl id="norm" text="norm" >}} defined by
+\[
+\|x\|=\sqrt{\langle x,x\rangle}\quad\text{for }x\in V.
+\]
 
-The Euclidean norm is compatible with the {{< knowl id="absolute-value" text="absolute value" >}} on $\mathbb{R}$ in the sense that for $k=1$, $\|x\|=|x|$.
+It is the norm induced by an {{< knowl id="inner-product" text="inner product" >}}, and it is the standard notion of length in finite-dimensional inner product geometry. On $\mathbb{R}^n$ this is the usual “$\ell^2$-length.”
 
 **Examples:**
-- In $\mathbb{R}^2$, $\|(3,4)\|=5$.
-- For the standard basis vector $e_i\in\mathbb{R}^k$ (with a $1$ in the $i$th coordinate and $0$ elsewhere), one has $\|e_i\|=1$.
-- The distance between $x,y\in\mathbb{R}^k$ is $\|x-y\|$.
+- If $x=(3,4)\in\mathbb{R}^2$, then $\|x\|=\sqrt{3^2+4^2}=5$.
+- If $x=(1,1,1)\in\mathbb{R}^3$, then $\|x\|=\sqrt{1^2+1^2+1^2}=\sqrt{3}$.

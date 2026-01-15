@@ -1,15 +1,15 @@
 ---
 title: "Composition of functions"
-description: "Given f:A→B and g:B→C, the composite g∘f:A→C is defined by (g∘f)(a)=g(f(a))"
+description: "Forming a new function by applying one function after another"
 ---
 
-Let $f\colon A\to B$ and $g\colon B\to C$ be {{< knowl id="function" text="functions" >}} with matching {{< knowl id="codomain" text="codomain" >}}/$\,${{< knowl id="domain" text="domain" >}}. Their **composition** is the function
+A **composition of functions** is the function obtained by applying one function after another: if $f:A\to B$ and $g:B\to C$ are {{< knowl id="function" text="functions" >}} (so the codomain of $f$ matches the domain of $g$), then the composition $g\circ f:A\to C$ is defined by
 $$
-g\circ f \colon A \to C,\qquad (g\circ f)(a)=g(f(a)).
+(g\circ f)(a)=g(f(a))\quad\text{for all }a\in A.
 $$
 
-Composition is associative, and the {{< knowl id="identity-function" text="identity function" >}} acts as a two-sided identity for composition.
+Composition is associative when defined, and {{< knowl id="identity-function" text="identity functions" >}} act as identities for composition. If $f$ is {{< knowl id="bijective-function" text="bijective" >}}, then composing with its {{< knowl id="inverse-function" text="inverse function" >}} recovers the appropriate identity functions.
 
 **Examples:**
-- If $f(x)=x^2$ and $g(x)=x+1$ on $\mathbb{R}$, then $(g\circ f)(x)=x^2+1$ while $(f\circ g)(x)=(x+1)^2$.
-- If $\iota\colon A\to B$ is an inclusion and $h\colon B\to C$, then $h\circ\iota$ is the restriction of $h$ to $A$.
+- Let $f:\mathbb{Z}\to\mathbb{Z}$ be $f(n)=n+1$ and let $g:\mathbb{Z}\to\mathbb{Z}$ be $g(n)=2n$; then $(g\circ f)(n)=2(n+1)=2n+2$.
+- If $i:S\to A$ is the inclusion of a {{< knowl id="subset" text="subset" >}} and $f:A\to B$ is any function, then $f\circ i:S\to B$ is the restriction of $f$ to $S$.
