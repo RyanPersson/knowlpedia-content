@@ -10,6 +10,7 @@ $$
 \mathrm{BCH}(X,Y)
 = X+Y+\frac12[X,Y]+\frac1{12}[X,[X,Y]]-\frac1{12}[Y,[X,Y]]+\cdots,
 $$
+
 where the omitted terms are (universal) Lie polynomials in iterated {{< knowl id="lie-bracket" text="brackets" >}} of total degree $\ge 4$.
 
 Moreover, if $\mathfrak{g}$ is {{< knowl id="nilpotent-lie-algebra" text="nilpotent" >}}, then all sufficiently deep iterated brackets vanish and the BCH series truncates to a finite sum.

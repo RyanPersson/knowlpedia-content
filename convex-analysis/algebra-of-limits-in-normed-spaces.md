@@ -21,4 +21,5 @@ $$
 \|\alpha_n x_n-\alpha x\|\le \|\alpha_n(x_n-x)\|+\|(\alpha_n-\alpha)x\|
 =|\alpha_n|\,\|x_n-x\|+|\alpha_n-\alpha|\,\|x\|.
 $$
+
 Use that $(\alpha_n)$ is bounded and both factors tend to $0$.

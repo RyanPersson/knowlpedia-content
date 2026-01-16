@@ -8,6 +8,7 @@ Let $(X,\|\cdot\|)$ be a {{< knowl id="norm-normed-vector-space" text="normed ve
 $$
 d(x,y):=\|x-y\| \quad \text{for } x,y\in X.
 $$
+
 Then $d$ is a {{< knowl id="metric-metric-space" text="metric" >}} on $X$ (hence $(X,d)$ is a metric space).
 
 Conversely, let $X$ be a vector space equipped with a metric $d$ satisfying:

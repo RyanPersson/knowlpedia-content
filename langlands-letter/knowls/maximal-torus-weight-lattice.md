@@ -1,6 +1,6 @@
 ---
 title: "Maximal Torus and Weight Lattice"
-description: "A maximal torus $T\\subset G$ and its character lattice $X^*(T)$"
+description: "A maximal torus and its character lattice"
 ---
 
 A **torus** over $k$ is a $k$-group that becomes isomorphic to $(\mathbb{G}_m)^r$ over $\bar k$; it is **split** if it is already $(\mathbb{G}_m)^r$ over $k$.

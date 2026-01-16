@@ -1,6 +1,6 @@
 ---
 title: "Effective action"
-description: "A Lie group action with trivial kernel; equivalently, the only element acting as the identity on the space is $e$."
+description: "A Lie group action with trivial kernel; equivalently, the only element acting as the identity on the space is ."
 ---
 
 Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a manifold $M$, i.e. a {{< knowl id="smooth-action-lie-group" text="smooth action of a Lie group" >}}.

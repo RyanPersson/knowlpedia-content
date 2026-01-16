@@ -13,6 +13,7 @@ The **Lorentz group** in dimension $n$ is the subgroup
 $$
 O(1,n-1)=\{A\in \mathrm{GL}(n,\Bbb R)\mid A^{T}\eta A=\eta\}.
 $$
+
 It is an instance of the {{< knowl id="orthogonal-group" text="orthogonal group in an indefinite signature" >}}. The case $n=4$ is the classical Lorentz group of special relativity.
 
 Two commonly used subgroups are:

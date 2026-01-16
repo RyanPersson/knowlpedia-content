@@ -4,7 +4,7 @@ description: "Under the M-test, a function series converges uniformly, giving co
 ---
 
 Let $X$ be a set and let $f_n:X\to\mathbb{R}$ (or $\mathbb{C}$). Suppose:
-- each $f_n$ is {{< knowl id="continuity-on-a-set" text="continuous" >}} on $X$ (when $X$ is a {{< knowl id="metric-space" text="metric space" >}}), and
+- each $f_n$ is {{< knowl id="continuity-on-a-set" text="continuous" >}} on $X$ (when $X$ is a {{< knowl id="metric-space" section="topology" text="metric space" >}}), and
 - there exist $M_n\ge 0$ with $|f_n(x)|\le M_n$ for all $x\in X$, and $\sum M_n$ {{< knowl id="convergent-series" text="converges" >}}.
 
 **Corollary**:

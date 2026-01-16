@@ -8,6 +8,7 @@ Let
 $$
 1 \longrightarrow N \xrightarrow{\ \iota\ } G \xrightarrow{\ \pi\ } Q \longrightarrow 1
 $$
+
 be an {{< knowl id="exact-sequence-groups" text="exact sequence of groups" >}}. Suppose the sequence **splits**, meaning there exists a homomorphism $s:Q\to G$ (a section) such that $\pi\circ s=\mathrm{id}_Q$; equivalently, $G$ is a {{< knowl id="split-extension" text="split extension" >}} of $Q$ by $N$.
 
 Then:
@@ -16,6 +17,7 @@ Then:
    $$
    \varphi(q)(n) := s(q)\,n\,s(q)^{-1}\qquad (q\in Q,\ n\in N).
    $$
+
    Then $G$ is isomorphic to the {{< knowl id="semidirect-product" text="semidirect product" >}} $N\rtimes_{\varphi} Q$.
 3. Under this isomorphism, every $g\in G$ can be written uniquely as $g = n\,s(q)$ with $n\in N$ and $q\in Q$.
 

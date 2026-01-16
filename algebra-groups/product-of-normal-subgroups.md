@@ -8,6 +8,7 @@ Let $G$ be a {{< knowl id="group" text="group" >}} and let $N,M \lhd G$ be {{< k
 $$
 NM \;=\; \{nm : n\in N,\ m\in M\}\subseteq G.
 $$
+
 Then $NM$ is a normal subgroup of $G$. Moreover, $NM=MN$.
 
 **Context.**

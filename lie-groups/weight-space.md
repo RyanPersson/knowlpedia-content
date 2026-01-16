@@ -8,6 +8,7 @@ Let $\mathfrak g$ be a complex Lie algebra, $\mathfrak h\subseteq\mathfrak g$ an
 $$
 V_\lambda=\{v\in V\mid \rho(H)v=\lambda(H)v\ \text{for all }H\in\mathfrak h\}.
 $$
+
 If $V_\lambda\neq 0$, then $\lambda$ is a {{< knowl id="weight-of-a-representation" text="weight of the representation" >}}.
 
 ### Interaction with roots (semisimple context)

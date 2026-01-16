@@ -11,6 +11,7 @@ Let $T:X\to Y$ be a linear operator between vector spaces.
    $$
    T^{-1}(N):=\{x\in X\mid T(x)\in N\}
    $$
+
    is a linear subspace of $X$.
 
 In particular, $\ker T$ and $\operatorname{im}T$ from {{< knowl id="image-and-kernel-linear-isomorphism" text="image/kernel" >}} are subspaces.

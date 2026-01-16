@@ -11,6 +11,7 @@ Let $X$ be a {{< knowl id="vector-space" section="linear-algebra" section="linea
   $$
   x\in \alpha M \quad\text{whenever }\alpha\in K\text{ and }|\alpha|\ge \lambda.
   $$
+
   (In particular, taking $\alpha=\lambda$ shows: for each $x$ there exists some scalar $t>0$ with $x\in tM$.)
 
 Balanced and absorbing sets are the natural hypotheses for defining the {{< knowl id="minkowski-function-gauge-of-a-set" text="Minkowski gauge" >}} and relating it to algebraic interior notions.

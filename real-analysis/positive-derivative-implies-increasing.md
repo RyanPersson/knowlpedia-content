@@ -7,6 +7,7 @@ description: "If a differentiable function has positive derivative everywhere on
 $$
 f'(x)>0 \quad \text{for all } x\in I,
 $$
+
 then $f$ is strictly increasing on $I$.
 
 This follows from the {{< knowl id="mean-value-theorem" text="mean value theorem" >}} applied to pairs $x<y$ in $I$. The non-strict version is {{< knowl id="derivative-sign-implies-monotonicity" text="derivative sign implies monotonicity" >}}.

@@ -20,6 +20,7 @@ Let $\mathfrak g$ be a finite-dimensional Lie algebra over a field of characteri
    $$
    \mathfrak g=\mathfrak g^{(0)}\supset \mathfrak g^{(1)}\supset \cdots \supset \mathfrak g^{(N)}=0
    $$
+
    such that $[\mathfrak g,\mathfrak g^{(i)}]\subseteq \mathfrak g^{(i+1)}$ for all $i$.
 
 ### Context

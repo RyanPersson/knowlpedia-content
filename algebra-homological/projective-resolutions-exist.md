@@ -3,14 +3,14 @@ title: "Existence of projective resolutions"
 description: "Every module admits a projective (in fact free) resolution."
 ---
 
-Let \(R\) be a ring and \(M\) a left \(R\)-{{< knowl id="module" section="algebra-rings" text="module" >}}.
+Let \(R\) be a ring and \(M\) a left \(R\)-{{< knowl id="module" section="algebra-modules" text="module" >}}.
 
 ## Statement
 A **{{< knowl id="projective-resolution" text="projective resolution" >}}** of \(M\) is an exact augmented {{< knowl id="chain-complex" text="chain complex" >}}
 \[
 \cdots \xrightarrow{d_2} P_1 \xrightarrow{d_1} P_0 \xrightarrow{\varepsilon} M \to 0
 \]
-such that each \(P_i\) is a {{< knowl id="projective-module" section="algebra-rings" text="projective module" >}} and the complex
+such that each \(P_i\) is a {{< knowl id="projective-module" section="algebra-modules" text="projective module" >}} and the complex
 \[
 \cdots \to P_2 \to P_1 \to P_0 \to 0
 \]

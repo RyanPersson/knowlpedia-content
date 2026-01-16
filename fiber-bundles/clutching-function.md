@@ -10,6 +10,7 @@ Let $M$ be covered by two open sets $U,V\subset M$ such that a bundle is trivial
 $$
 (x,h)_U \sim (x, g(x)\,h)_V \qquad (x\in U\cap V,\; h\in G),
 $$
+
 where $g:U\cap V\to G$ is smooth. The map $g$ is the **clutching function**; it is exactly the {{< knowl id="transition-function" text="transition function" >}} (more precisely, a {{< knowl id="principal-bundle-transition-function" text="principal bundle transition function" >}}) for the cover $\{U,V\}$.
 
 For a vector bundle with fiber $F$ and structure group $G\subset \mathrm{GL}(F)$, one instead glues $U\times F$ to $V\times F$ by
@@ -33,6 +34,7 @@ and many classification results reduce to the homotopy class of this map.
    $$
    g_k(e^{i\theta}) = e^{ik\theta}
    $$
+
    yields the complex line bundles with first {{< knowl id="chern-class" text="Chern class" >}} equal to $k$.
 
 3. **The tangent bundle of $S^2$.** The nontriviality of $TS^2$ can be exhibited by a clutching description with structure group $SO(2)$, where the overlap map $S^1\to SO(2)$ has degree $2$.

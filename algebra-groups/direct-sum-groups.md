@@ -7,6 +7,7 @@ Let $(G_i)_{i\in I}$ be a family of {{< knowl id="group" text="groups" >}} with 
 $$
 \bigoplus_{i\in I} G_i
 $$
+
 is the subgroup of the {{< knowl id="direct-product-groups" text="direct product" >}} $\prod_{i\in I} G_i$ consisting of all tuples $(g_i)_{i\in I}$ such that $g_i=e_i$ for all but finitely many indices $i$ (this "all but finitely many" condition is called **finite support**).
 
 For finite index sets $I$, the direct sum coincides with the direct product. In practice the term "direct sum" is most common for {{< knowl id="abelian-group" text="abelian groups" >}} and infinite families, where the finite-support condition matters.

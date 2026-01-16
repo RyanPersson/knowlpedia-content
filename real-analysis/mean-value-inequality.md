@@ -7,6 +7,7 @@ description: "A bound on the change of a differentiable map using a bound on its
 $$
 \|Df(z)\|\le M \quad \text{for all } z \text{ on the segment from } x \text{ to } y,
 $$
+
 where $\|Df(z)\|$ is the {{< knowl id="operator-norm" section="linear-algebra" text="operator norm" >}} of the derivative, then
 $$
 \|f(y)-f(x)\|\le M\|y-x\|.

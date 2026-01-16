@@ -3,7 +3,7 @@ title: "Local maximum and local minimum"
 description: "A point where a function attains a maximum/minimum relative to nearby points."
 ---
 
-Let $f:E\to\mathbb{R}$ with $E\subseteq X$ where $(X,d)$ is a {{< knowl id="metric-space" text="metric space" >}}, and let $a\in E$.
+Let $f:E\to\mathbb{R}$ with $E\subseteq X$ where $(X,d)$ is a {{< knowl id="metric-space" section="topology" text="metric space" >}}, and let $a\in E$.
 
 - The point $a$ is a **local maximum** of $f$ if there exists $r>0$ such that for all $x\in E\cap B(a,r)$,
   $$f(x)\le f(a).$$

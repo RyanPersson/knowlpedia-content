@@ -7,6 +7,7 @@ An **intersection** is the set of elements common to every set in a given collec
 $$
 A\cap B=\{x : x\in A \text{ and } x\in B\}.
 $$
+
 More generally, for an {{< knowl id="indexed-family-of-sets" text="indexed family of sets" >}} $(A_i)_{i\in I}$,
 $$
 \bigcap_{i\in I} A_i=\{x : \forall i\in I,\; x\in A_i\}.

@@ -7,12 +7,14 @@ Let $X,Y$ be vector spaces. A **set-valued mapping** (or **multifunction**) is a
 $$
 F:X\rightrightarrows Y
 $$
+
 that assigns to each $x\in X$ a (possibly empty) subset $F(x)\subset Y$.
 
 - The **domain** of $F$ is
 $$
 \mathrm{dom}(F):=\{x\in X: F(x)\neq\emptyset\}.
 $$
+
 - The **graph** of $F$ is the subset of the {{< knowl id="product-space-cartesian-product" text="product space" >}} $X\times Y$ given by
 $$
 \mathrm{gph}(F):=\{(x,y)\in X\times Y: y\in F(x)\}.

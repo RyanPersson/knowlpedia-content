@@ -9,6 +9,7 @@ If $f:Y\to\mathbb{R}$ is a {{< knowl id="linear-operator-linear-transformation" 
 $$
 f(y)\le p(y)\quad\text{for all }y\in Y,
 $$
+
 then there exists a linear functional $F:X\to\mathbb{R}$ such that
 - $F(y)=f(y)$ for all $y\in Y$, and
 - $F(x)\le p(x)$ for all $x\in X$.

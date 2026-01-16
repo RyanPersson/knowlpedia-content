@@ -3,7 +3,7 @@ title: "Algebraic properties of sup and inf"
 description: "Supremum and infimum behave predictably under inclusion, translation, scaling, and unions"
 ---
 
-Let $E,F\subseteq\mathbb{R}$ be nonempty and {{< knowl id="bounded-set" text="bounded" >}} above/below where needed, and let $c\in\mathbb{R}$.
+Let $E,F\subseteq\mathbb{R}$ be nonempty and {{< knowl id="bounded-set" section="topology" text="bounded" >}} above/below where needed, and let $c\in\mathbb{R}$.
 
 **Order properties**:
 - If $E\subseteq F$ and both are bounded above, then ${{< knowl id="supremum" text="sup" >}} E\le \sup F$.

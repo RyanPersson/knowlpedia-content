@@ -1,6 +1,6 @@
 ---
 title: "Coroots and the Weight–Coroot Pairing"
-description: "The integers $\\langle\\lambda,\\alpha^\\vee\\rangle=\\lambda(H_\\alpha)$ that control dominance and duality"
+description: "The integers that control dominance and duality"
 ---
 
 For a root $\alpha\in \Phi\subset X^*(T)$, the **coroot** is a cocharacter $\alpha^\vee\in X_*(T)$.

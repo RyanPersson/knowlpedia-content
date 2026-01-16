@@ -14,6 +14,7 @@ Equivalently, $T$ is linear if and only if
 $$
 T(\alpha x+\beta u)=\alpha T(x)+\beta T(u)\quad\text{for all }\alpha,\beta\in K,\ x,u\in X.
 $$
+
 One often writes $Tx$ instead of $T(x)$.
 
 Linear operators are the morphisms of {{< knowl id="vector-space" section="linear-algebra" section="linear-algebra" text="vector spaces" >}}. Their {{< knowl id="image-and-kernel-linear-isomorphism" text="kernels and images" >}} give canonical subspaces, and the associated quotient describes the operator up to isomorphism.

@@ -7,6 +7,7 @@ description: "Under convexity of the objective and the set-valued map, the value
 $$
 \mu(x)=\inf\{\varphi(x,y)\mid y\in F(x)\}.
 $$
+
 Then $\mu$ is convex on $X$.
 
 **Context:** This result explains why optimal value functions in convex optimization are convex in parameters: convexity of $\varphi$ and convexity of the feasible graph propagate through the infimum operation.

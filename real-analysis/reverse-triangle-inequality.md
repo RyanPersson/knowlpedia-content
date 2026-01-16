@@ -12,7 +12,7 @@ $
 \|u\|\le \|v\|+\|u-v\|\quad\text{and}\quad \|v\|\le \|u\|+\|u-v\|.
 $
 
-This inequality is frequently used to show {{< knowl id="continuity-on-a-set" text="continuity" >}} of the norm map and to transfer {{< knowl id="convergent-sequence" text="convergence" >}} of vectors to convergence of their norms.
+This inequality is frequently used to show {{< knowl id="continuity-on-a-set" text="continuity" >}} of the norm map and to transfer {{< knowl id="convergent-sequence" section="topology" text="convergence" >}} of vectors to convergence of their norms.
 
 **Examples:**
 - In $\mathbb{R}$, the inequality becomes $\bigl||a|-|b|\bigr|\le |a-b|$.

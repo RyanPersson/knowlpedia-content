@@ -8,6 +8,7 @@ Let $X$ be a {{< knowl id="norm-normed-vector-space" text="normed vector space" 
 $$
 [a,b)\subset \mathrm{int}(\Omega),
 $$
+
 where $[a,b)$ is the half-open {{< knowl id="line-segments-in-a-vector-space" text="segment" >}} from $a$ to $b$.
 
 **Context.** This is a key geometric fact for convex sets: interior points "see" the whole set through interior segments. It underlies closure/interior relations for convex sets.

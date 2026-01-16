@@ -3,5 +3,5 @@ title: "Posts"
 description: "Blog posts"
 ---
 
-- [Group Axioms](/posts/group-axioms/)
+- [Semigroup–Quasigroup Structure](/posts/semigroup-quasigroup-structure/)
 - [Research Advice Analysis](/posts/research-advice-analysis/)

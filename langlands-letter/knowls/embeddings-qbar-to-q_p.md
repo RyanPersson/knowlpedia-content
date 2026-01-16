@@ -1,6 +1,6 @@
 ---
 title: "Choosing Embeddings $\\overline{\\mathbb{Q}}\\hookrightarrow \\overline{\\mathbb{Q}}_p$"
-description: "How a choice of $p$-adic embedding fixes a decomposition group and conjugates Frobenius/Satake data"
+description: "How a choice of -adic embedding fixes a decomposition group and conjugates Frobenius/Satake data"
 ---
 
 Choosing an embedding $\iota_p:\overline{\mathbb{Q}}\hookrightarrow \overline{\mathbb{Q}}_p$ is equivalent to choosing a prime of $\overline{\mathbb{Q}}$ above $p$.

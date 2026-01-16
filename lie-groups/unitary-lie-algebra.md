@@ -1,6 +1,6 @@
 ---
 title: "Unitary Lie algebra"
-description: "The Lie algebra of $U(n)$: skew-Hermitian matrices with the commutator bracket."
+description: "The Lie algebra of : skew-Hermitian matrices with the commutator bracket."
 ---
 
 ### Definition
@@ -8,6 +8,7 @@ The **unitary Lie algebra** $\mathfrak{u}(n)$ is the Lie algebra of the {{< know
 $$
 \mathfrak{u}(n)=\{X\in M_n(\mathbb C)\mid X^\ast+X=0\},
 $$
+
 with Lie bracket $[X,Y]=XY-YX$.
 
 It is a real Lie algebra of dimension $\dim_\mathbb{R}\mathfrak{u}(n)=n^2$.
@@ -21,6 +22,7 @@ since scalar matrices commute with everything, and skew-Hermitian forces the sca
 $$
 [\mathfrak{u}(n),\mathfrak{u}(n)]=\mathfrak{su}(n),
 $$
+
 where $\mathfrak{su}(n)$ is the {{< knowl id="special-unitary-lie-algebra" text="special unitary Lie algebra" >}}.
 
 ### Context

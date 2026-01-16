@@ -10,6 +10,7 @@ $$
 G \cong \mathbb{R}^n \times \mathbb{T}^m
 \quad\text{as Lie groups},
 $$
+
 where $\mathbb{T}^m$ is an $m$-torus (isomorphic to $(S^1)^m$). In particular, $G$ is determined up to isomorphism by the pair $(n,m)$ with $\dim G = n+m$.
 
 **Idea of proof (covering + lattice).**

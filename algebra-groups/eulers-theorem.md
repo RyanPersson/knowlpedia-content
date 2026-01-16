@@ -5,6 +5,7 @@ description: "If gcd(a,n)=1 then a^{φ(n)} ≡ 1 (mod n)."
 
 **Euler's Theorem**: Let $n\ge 1$ and let $a\in\mathbb{Z}$. If the {{< knowl id="gcd" section="algebra-rings" text="greatest common divisor" >}} of $a$ and $n$ is $1$ (written $\gcd(a,n)=1$), then
 $$a^{\varphi(n)} \equiv 1 \pmod n,$$
+
 where $\varphi(n)$ is Euler's totient function, defined by
 $$\varphi(n)=\bigl|\{\,k\in\{1,2,\dots,n\}: \gcd(k,n)=1\,\}\bigr|.$$
 

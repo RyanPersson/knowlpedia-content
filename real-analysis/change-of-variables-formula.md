@@ -7,6 +7,7 @@ description: "A multivariable substitution rule involving the Jacobian determina
 $$
 \int_V f(x)\,dx = \int_U f(\Phi(u))\,\bigl|\det D\Phi(u)\bigr|\,du,
 $$
+
 where $\det D\Phi(u)$ is the {{< knowl id="jacobian-determinant" text="Jacobian determinant" >}} of $\Phi$ at $u$.
 
 This is the multivariable generalization of the one-dimensional {{< knowl id="substitution-rule" text="substitution rule" >}}, and it is fundamental for computing {{< knowl id="multiple-riemann-integral" text="multiple Riemann integrals" >}} under smooth coordinate changes.

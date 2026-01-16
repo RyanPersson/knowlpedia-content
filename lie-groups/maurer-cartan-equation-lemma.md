@@ -23,6 +23,7 @@ If $X=X^L$ and $Y=Y^L$ are left-invariant with $X,Y\in \mathfrak g$, then $\thet
 $$
 (d\theta)(X^L,Y^L) = X^L(\theta(Y^L)) - Y^L(\theta(X^L)) - \theta([X^L,Y^L]).
 $$
+
 The first two terms vanish since $\theta(Y^L)$ and $\theta(X^L)$ are constant, and the last term becomes $-\theta([X^L,Y^L])$. By {{< knowl id="left-invariant-fields-lie-algebra-lemma" text="the identification of brackets of left-invariant fields with the Lie bracket" >}}, $\theta([X^L,Y^L])=[X,Y]$. Hence $(d\theta)(X^L,Y^L)=-[X,Y]$, giving the desired formula.
 
 ## Context

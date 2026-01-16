@@ -10,10 +10,12 @@ A **logarithm map** on $G$ is a smooth map
 $$
 \log:U\to \mathfrak g
 $$
+
 defined on an open neighborhood $U$ of the identity element $e\in G$ such that
 $$
 \exp(\log(g))=g \quad \text{for all } g\in U,
 $$
+
 where $\exp:\mathfrak g\to G$ is the {{< knowl id="exponential-map-lie-group" text="exponential map" >}}.
 
 Equivalently, $\log$ is a (chosen) smooth local inverse to $\exp$ near $0\in\mathfrak g$. Existence follows from {{< knowl id="exponential-local-diffeomorphism" text="the fact that $\exp$ is a local diffeomorphism at $0$" >}}.
@@ -28,10 +30,12 @@ $$
 \log(I+X)=\sum_{k=1}^\infty \frac{(-1)^{k+1}}{k}X^k
 \quad\text{for }\|X\|\text{ small},
 $$
+
 so for $A$ near $I$,
 $$
 \log(A)=\log\bigl(I+(A-I)\bigr)=\sum_{k=1}^\infty \frac{(-1)^{k+1}}{k}(A-I)^k.
 $$
+
 In particular, for $X\in \mathfrak g$ and $t$ small, $\log(\exp(tX))=tX$.
 
 ## Context

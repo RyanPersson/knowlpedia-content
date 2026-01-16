@@ -7,6 +7,7 @@ description: "The pointwise supremum of any family of convex functions is convex
 $$
 f(x):=\sup_{i\in I} f_i(x).
 $$
+
 Then $f$ is convex on $X$.
 
 This extends the "finite maximum" case in {{< knowl id="basic-operations-preserving-convexity" text="operations preserving convexity" >}} and is used heavily to construct convex envelopes and support functions.

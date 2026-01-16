@@ -10,6 +10,7 @@ description: "A differentiable function with nonzero derivative has a differenti
    $$
    g'(y)=\frac{1}{f'(g(y))}.
    $$
+
    In particular, $g'(f(x_0))=1/f'(x_0)$.
 
 This result combines {{< knowl id="derivative-sign-implies-monotonicity" text="local monotonicity from the derivative" >}} with the {{< knowl id="chain-rule" text="chain rule" >}} applied to $f\circ g=\mathrm{id}$. It is the one-dimensional case of the {{< knowl id="inverse-function-theorem-rk" text="inverse function theorem in higher dimensions" >}}.

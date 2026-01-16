@@ -7,6 +7,7 @@ A **critical point** of a differentiable function $f:U\to \mathbb{R}$ (with $U\s
 $$
 \nabla f(a)=0,
 $$
+
 equivalently, the {{< knowl id="frechet-derivative" text="Fréchet derivative" >}} $Df(a)$ is the zero linear map.
 
 Critical points are candidates for {{< knowl id="local-extremum" text="local extrema" >}} but need not be extrema. Higher-order information, such as the {{< knowl id="hessian-matrix" text="Hessian matrix" >}}, is used to refine classification (see {{< knowl id="second-derivative-tests" text="second derivative tests" >}}).

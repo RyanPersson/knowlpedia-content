@@ -7,6 +7,7 @@ For a {{< knowl id="group" text="group" >}} $G$, the **automorphism group** of $
 $$
 (\varphi\psi)(x) := \varphi(\psi(x)).
 $$
+
 The identity element is $\mathrm{id}_G$, and inverses are given by inverse maps.
 
 Automorphisms are "symmetries" of $G$ that preserve the group structure. Many constructions (e.g. {{< knowl id="semidirect-product" text="semidirect products" >}}) are parametrized by homomorphisms into $\operatorname{Aut}(G)$.

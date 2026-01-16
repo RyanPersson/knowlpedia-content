@@ -10,6 +10,7 @@ A **Lie subalgebra** of $\mathfrak g$ is a $\Bbbk$-linear subspace $\mathfrak h\
 $$
 [\mathfrak h,\mathfrak h]\subseteq \mathfrak h,
 $$
+
 i.e. $[X,Y]\in \mathfrak h$ for all $X,Y\in \mathfrak h$.
 
 With the restricted bracket, $\mathfrak h$ is itself a Lie algebra, and the inclusion $\mathfrak h\hookrightarrow \mathfrak g$ is a {{< knowl id="lie-algebra-homomorphism" text="Lie algebra homomorphism" >}}.

@@ -8,6 +8,7 @@ Let $G$ be a {{< knowl id="group" text="group" >}} that admits a {{< knowl id="c
 $$
 G = G_0 \triangleright G_1 \triangleright \cdots \triangleright G_n = \{e\}
 $$
+
 such that each $G_{i+1}\trianglelefteq G_i$ and each factor $G_i/G_{i+1}$ is a {{< knowl id="simple-group" text="simple group" >}}. Then for any two composition series of $G$,
 - the lengths are equal, and
 - the multisets of factor groups $\{G_i/G_{i+1}\}$ agree up to {{< knowl id="group-isomorphism" text="isomorphism" >}} and permutation.

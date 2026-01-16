@@ -7,6 +7,7 @@ A **differentiable map** at a point $a$ is a map $f:U\to \mathbb{R}^m$ (with $U\
 $$
 \lim_{h\to 0}\frac{\|f(a+h)-f(a)-Lh\|}{\|h\|}=0,
 $$
+
 where $\|\cdot\|$ is the {{< knowl id="euclidean-norm" section="linear-algebra" text="Euclidean norm" >}}.
 
 In this case $L$ is the {{< knowl id="frechet-derivative" text="Fréchet derivative" >}} of $f$ at $a$, and (when it exists) it is represented in coordinates by the {{< knowl id="jacobian-matrix" text="Jacobian matrix" >}}. Maps that are differentiable at every point of their domain are the basic objects of multivariable {{< knowl id="differentiability-1d" text="differentiability" >}} in higher dimensions, and higher smoothness is recorded by {{< knowl id="class-ck-map" text="C^k maps" >}}.

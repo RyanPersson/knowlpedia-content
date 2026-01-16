@@ -15,6 +15,7 @@ The **norm** (operator norm) of $f$ is
 $$
 \|f\|:=\sup_{\|x\|\le 1}|f(x)|.
 $$
+
 Equivalently, $\|f\|=\inf\{M>0: |f(x)|\le M\|x\|\ \forall x\}$.
 
 This notion is used in {{< knowl id="hahn-banach-theorem-in-normed-spaces" text="Hahn–Banach in normed spaces" >}} and in separation results such as {{< knowl id="separation-of-a-point-and-a-subspace" text="separating a point and a subspace" >}}.

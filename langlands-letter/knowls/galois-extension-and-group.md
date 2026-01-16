@@ -1,6 +1,6 @@
 ---
 title: "Galois Extension and Galois Group"
-description: "A finite extension $K/k$ that is normal and separable, with group $\\mathrm{Gal}(K/k)$"
+description: "A finite extension that is normal and separable, with group"
 ---
 
 A finite field extension $K/k$ is **separable** if every element of $K$ has a separable minimal polynomial over $k$.

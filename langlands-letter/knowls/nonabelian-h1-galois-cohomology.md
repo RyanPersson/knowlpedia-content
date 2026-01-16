@@ -1,6 +1,6 @@
 ---
 title: "Nonabelian $H^1(\\Gamma,G)$ and 1-Cocycles"
-description: "Cocycles $a_\\sigma$ with $a_{\\sigma\\tau}=a_\\sigma\\,{}^\\sigma a_\\tau$ classify inner forms"
+description: "Cocycles with classify inner forms"
 ---
 
 Let $\Gamma=\mathrm{Gal}(K/k)$ act on $G(K)$ by field automorphisms.

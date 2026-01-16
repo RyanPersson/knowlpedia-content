@@ -20,7 +20,7 @@ A {{< knowl id="chain-complex" text="chain complex" >}} \((C_\bullet,d)\) is **e
 In an {{< knowl id="abelian-category" section="algebra-category-theory" text="abelian category" >}}, the same definition makes sense using categorical kernels and images.
 
 ## Cross-links
-- Exactness for short sequences: {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequence" >}}.
+- Exactness for short sequences: {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequence" >}}.
 - A strong way to prove exactness is via a contracting homotopy: {{< knowl id="chain-homotopy" text="chain homotopy" >}}.
 - Exact complexes appear as resolutions: {{< knowl id="projective-resolution" text="projective resolution" >}} and {{< knowl id="injective-resolution" text="injective resolution" >}}.
 

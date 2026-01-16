@@ -7,6 +7,7 @@ An **implicitly defined function** is a function whose values are determined (lo
 $$
 F(x,y)=0,
 $$
+
 where $F$ is a function on a subset of $\mathbb{R}^{n+m}$, $x\in\mathbb{R}^n$ is viewed as the input, and $y\in\mathbb{R}^m$ is viewed as the output.
 
 Typically, one seeks a function $\varphi$ such that $y=\varphi(x)$ and $F(x,\varphi(x))=0$ holds for $x$ near a point. The existence and differentiability of such a $\varphi$ are ensured under standard hypotheses by the {{< knowl id="implicit-function-theorem" text="implicit function theorem" >}}, often stated using the notion of a {{< knowl id="regular-point" text="regular point" >}} of $F$ (or, equivalently, invertibility of an appropriate Jacobian block).

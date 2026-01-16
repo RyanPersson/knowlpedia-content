@@ -7,6 +7,7 @@ Let $X$ be a {{< knowl id="vector-space" section="linear-algebra" section="linea
 $$
 \operatorname{codim}(L):=\dim(X/L),
 $$
+
 where $X/L$ is the {{< knowl id="quotient-vector-space-codimension" text="quotient space" >}} of $X$ by $L$.
 
 Codimension measures "how many independent linear constraints" define $L$. Codimension one subspaces play a special role in the geometry of {{< knowl id="hyperplane" text="hyperplanes" >}}.

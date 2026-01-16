@@ -3,7 +3,7 @@ title: "Finite subcover lemma"
 description: "A compact set has a finite subcover for every open cover"
 ---
 
-**Finite subcover lemma**: Let $(X,d)$ be a {{< knowl id="metric-space" text="metric space" >}} and let $K\subseteq X$ be {{< knowl id="compact-set" text="compact" >}}. If $\{U_\alpha\}_{\alpha\in A}$ is an {{< knowl id="open-set" text="open" >}} cover of $K$, meaning
+**Finite subcover lemma**: Let $(X,d)$ be a {{< knowl id="metric-space" section="topology" text="metric space" >}} and let $K\subseteq X$ be {{< knowl id="compact-set" section="topology" text="compact" >}}. If $\{U_\alpha\}_{\alpha\in A}$ is an {{< knowl id="open-set" section="topology" text="open" >}} cover of $K$, meaning
 $
 K\subseteq \bigcup_{\alpha\in A} U_\alpha,
 $

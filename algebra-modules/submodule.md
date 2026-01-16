@@ -3,7 +3,7 @@ title: "Submodule"
 description: "An additive subgroup closed under the scalar action of a module."
 ---
 
-Let $M$ be a left $R$-{{< knowl id="module" text="module" >}}. A **submodule** of $M$ is a {{< knowl id="subset" section="analysis" text="subset" >}} $N\subseteq M$ such that:
+Let $M$ be a left $R$-{{< knowl id="module" text="module" >}}. A **submodule** of $M$ is a {{< knowl id="subset" section="shared-foundations" text="subset" >}} $N\subseteq M$ such that:
 1. $0\in N$,
 2. $n_1,n_2\in N \Rightarrow n_1-n_2\in N$,
 3. $r\in R$ and $n\in N \Rightarrow rn\in N$.

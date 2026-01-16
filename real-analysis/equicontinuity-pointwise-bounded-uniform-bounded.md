@@ -3,7 +3,7 @@ title: "Equicontinuity + pointwise boundedness implies uniform boundedness on co
 description: "On a compact domain, equicontinuity upgrades pointwise bounds to a global bound"
 ---
 
-Let $(K,d)$ be a {{< knowl id="compact-set" text="compact" >}} {{< knowl id="metric-space" text="metric space" >}} and let $\mathcal{F}\subseteq C(K,\mathbb{R})$ be a family of {{< knowl id="continuous-function" text="continuous functions" >}}. Assume:
+Let $(K,d)$ be a {{< knowl id="compact-set" section="topology" text="compact" >}} {{< knowl id="metric-space" section="topology" text="metric space" >}} and let $\mathcal{F}\subseteq C(K,\mathbb{R})$ be a family of {{< knowl id="continuous-function" text="continuous functions" >}}. Assume:
 - $\mathcal{F}$ is {{< knowl id="equicontinuous-family" text="equicontinuous" >}} on $K$, and
 - $\mathcal{F}$ is {{< knowl id="pointwise-bounded-family" text="pointwise bounded" >}} on $K$ (for each $x\in K$, $\sup_{f\in\mathcal{F}}|f(x)|<\infty$).
 

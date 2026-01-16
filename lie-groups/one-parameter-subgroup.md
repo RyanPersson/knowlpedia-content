@@ -10,6 +10,7 @@ A **one-parameter subgroup** of $G$ is a smooth {{< knowl id="lie-group-homomorp
 $$
 \gamma:(\Bbb R,+)\to G.
 $$
+
 Equivalently, $\gamma$ is a smooth curve satisfying $\gamma(t+s)=\gamma(t)\gamma(s)$ and $\gamma(0)=e$.
 
 ## Theorem (classification by the Lie algebra)
@@ -23,6 +24,7 @@ Conversely, if $\gamma$ is any one-parameter subgroup, then the derivative
 $$
 X=\gamma'(0)\in T_eG\cong \mathfrak g
 $$
+
 determines $\gamma$ uniquely by $\gamma(t)=\exp(tX)$ for all $t$.
 
 Thus, one-parameter subgroups are in bijection with elements of $\mathfrak g$.

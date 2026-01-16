@@ -7,6 +7,7 @@ Let $G$ be a {{< knowl id="group" text="group" >}} and let $S\subseteq G$. One s
 $$
 \langle S\rangle = G,
 $$
+
 where $\langle S\rangle$ denotes the {{< knowl id="generated-subgroup" text="subgroup generated" >}} by $S$. Equivalently, every element of $G$ can be written as a finite product of elements of $S$ and their inverses.
 
 Generating sets are the input data for {{< knowl id="group-presentation" text="presentations" >}}, and finiteness of generating sets is a basic measure of complexity.

@@ -7,6 +7,7 @@ Given a {{< knowl id="set-valued-mapping-multifunction-domain-and-graph-convex-s
 $$
 \mu(x):=\inf\{\varphi(x,y)\mid y\in F(x)\}, \qquad x\in X.
 $$
+
 We use the convention $\inf(\emptyset):=\infty$, and in the notes it is assumed that $\mu(x)>-\infty$ for all $x\in X$.
 
 The marginal function captures "minimize over $y$ given $x$" and is central in parametric optimization and convex analysis; its convexity is addressed in {{< knowl id="convexity-of-the-marginal-optimal-value-function" text="the convexity theorem for marginal functions" >}}.

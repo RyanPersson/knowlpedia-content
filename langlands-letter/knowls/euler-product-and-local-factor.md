@@ -1,6 +1,6 @@
 ---
 title: "Euler Product and Determinant Local $L$-Factor"
-description: "An $L$-function defined as $\\prod_p \\det(1-\\pi(\\alpha_p)p^{-s})^{-1}$ at unramified primes"
+description: "An -function defined as at unramified primes"
 ---
 
 An **Euler product** is a product over primes (or places) of local factors, typically convergent for $\mathrm{Re}(s)\gg 0$.

@@ -9,6 +9,7 @@ A sequence $(x_n)$ in $X$ **converges** to $x\in X$ (in norm) if
 $$
 \|x_n-x\|\to 0 \quad \text{as } n\to\infty.
 $$
+
 Equivalently: for every $\varepsilon>0$ there exists $N$ such that $\|x_n-x\|<\varepsilon$ for all $n\ge N$.
 
 **Context.** By {{< knowl id="norm-induces-a-metric-and-conversely" text="the metric induced by a norm" >}}, this is exactly {{< knowl id="convergence-of-a-sequence" text="convergence in the associated metric space" >}}.

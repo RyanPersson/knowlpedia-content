@@ -9,6 +9,7 @@ Let $X$ be a {{< knowl id="vector-space" section="linear-algebra" section="linea
 $$
 X = L \oplus \operatorname{span}\{x_0\},
 $$
+
 where $\oplus$ denotes the {{< knowl id="direct-sum-of-subspaces" text="direct sum" >}}.
 
 **Context:**

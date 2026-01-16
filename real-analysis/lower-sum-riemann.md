@@ -5,6 +5,7 @@ description: "A weighted sum of infima of f over subintervals of a partition."
 
 Let $f:[a,b]\to\mathbb{R}$ be bounded and let $P:a=x_0<\cdots<x_n=b$ be a partition. For each subinterval, define
 $$m_i := \inf\{f(x): x\in[x_{i-1},x_i]\}.$$
+
 The **lower sum** of $f$ with respect to $P$ is
 $$L(f,P) := \sum_{i=1}^n m_i\, (x_i-x_{i-1}).$$
 

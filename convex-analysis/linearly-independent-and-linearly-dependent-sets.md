@@ -9,6 +9,7 @@ The set $M$ is **linearly independent** if for every finite subset $\{x_1,\dots,
 $$
 \sum_{i=1}^m \alpha_i x_i = 0 \quad\Longrightarrow\quad \alpha_1=\cdots=\alpha_m=0.
 $$
+
 If $M$ is not linearly independent, it is **linearly dependent**, i.e., there exists a finite subset and scalars, not all zero, giving a zero {{< knowl id="linear-combination" text="linear combination" >}}.
 
 Linear independence is one of the two defining properties of a {{< knowl id="basis-hamel-basis-and-dimension" text="basis" >}}.

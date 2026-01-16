@@ -7,6 +7,7 @@ Let $G$ be a {{< knowl id="group" text="group" >}} and let $A\subseteq G$. The *
 $$
 \langle\!\langle A\rangle\!\rangle \;=\; \bigcap\{N\trianglelefteq G : A\subseteq N\},
 $$
+
 the intersection of all normal subgroups containing $A$.
 
 A concrete description is: $\langle\!\langle A\rangle\!\rangle$ is the {{< knowl id="generated-subgroup" text="subgroup generated" >}} by all conjugates $gag^{-1}$ with $g\in G$ and $a\in A$ (so it is the smallest normal subgroup closed under conjugation containing $A$), which ties it to the {{< knowl id="conjugation-action" text="conjugation action" >}}

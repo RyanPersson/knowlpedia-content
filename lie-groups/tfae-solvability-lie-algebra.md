@@ -14,6 +14,7 @@ Let $\mathfrak g$ be a finite-dimensional Lie algebra over an algebraically clos
    $$
    0=V_0\subset V_1\subset \cdots \subset V_{\dim V}=V
    $$
+
    with $\dim V_i=i$. Equivalently, all operators in $\rho(\mathfrak g)$ can be simultaneously upper-triangularized. (This is the content of Lie’s theorem applied to solvable Lie algebras.)
 
 4. **Cartan’s trace criterion:** $\mathfrak g$ satisfies the trace-vanishing condition equivalent to solvability given by {{< knowl id="cartans-criterion-solvability" text="Cartan’s criterion for solvability" >}}.

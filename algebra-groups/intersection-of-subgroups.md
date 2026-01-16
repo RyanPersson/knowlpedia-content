@@ -8,6 +8,7 @@ Let $G$ be a {{< knowl id="group" text="group" >}} and let $\{H_i\}_{i\in I}$ be
 $$
 H \;=\; \bigcap_{i\in I} H_i
 $$
+
 is a subgroup of $G$.
 
 **Context.**

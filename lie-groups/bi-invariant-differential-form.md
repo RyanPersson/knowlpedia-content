@@ -9,6 +9,7 @@ Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}. For $g\in G$, write 
 $$
 L_g^*\omega=\omega \quad\text{and}\quad R_g^*\omega=\omega \qquad \text{for all } g\in G.
 $$
+
 Equivalently, $\omega$ is both {{< knowl id="left-invariant-differential-form" text="left-invariant" >}} and {{< knowl id="right-invariant-differential-form" text="right-invariant" >}}.
 
 **Characterization (connected case).** If $G$ is connected, a left-invariant form is determined by its value at the identity $e$, i.e. by an alternating multilinear map $\omega_e:\wedge^k\mathfrak{g}\to \Bbbk$. Such a form is bi-invariant if and only if $\omega_e$ is invariant under the {{< knowl id="adjoint-action-of-a-lie-group" text="adjoint action" >}}:

@@ -1,6 +1,6 @@
 ---
 title: "Pinning and Pinned Automorphisms"
-description: "A choice of $(B,T,\\{X_\\alpha\\})$ rigidifying $G$ and its outer automorphisms"
+description: "A choice of rigidifying and its outer automorphisms"
 ---
 
 A **pinning** of a split connected reductive $G$ is a triple $(B,T,\{X_\alpha\}_{\alpha\in\Delta})$ where $T\subset B$ is a maximal torus in a Borel, $\Delta$ are the simple roots, and each $X_\alpha$ is a nonzero root vector for $\alpha$.

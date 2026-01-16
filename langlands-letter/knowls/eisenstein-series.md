@@ -1,6 +1,6 @@
 ---
 title: "Eisenstein Series on a Reductive Group"
-description: "A series induced from a parabolic whose analytic continuation produces $L$-functions"
+description: "A series induced from a parabolic whose analytic continuation produces -functions"
 ---
 
 Let $G/F$ be reductive and $P=MN$ a parabolic subgroup with Levi $M$.

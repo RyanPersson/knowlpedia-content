@@ -7,6 +7,7 @@ An **image** is the set of values a function takes on a subset of its domain: if
 $$
 f(S)=\{f(s): s\in S\}\subseteq B.
 $$
+
 The image (often called the range) of $f$ is $f(A)$.
 
 Images are built from {{< knowl id="subset" text="subsets" >}} of the domain and are paired conceptually with {{< knowl id="preimage" text="preimages" >}} of subsets of the codomain. A function is {{< knowl id="surjective-function" text="surjective" >}} precisely when $f(A)$ equals its {{< knowl id="codomain" text="codomain" >}}.

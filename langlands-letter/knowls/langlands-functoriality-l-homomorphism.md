@@ -1,6 +1,6 @@
 ---
 title: "Langlands Functoriality and $L$-Homomorphisms"
-description: "Maps $\\omega:{}^LG'\\to{}^LG$ that push forward Satake parameters"
+description: "Maps that push forward Satake parameters"
 ---
 
 An **$L$-homomorphism** is a group homomorphism $\omega:{}^LG'\to {}^LG$ such that:

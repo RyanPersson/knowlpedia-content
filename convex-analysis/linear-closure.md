@@ -9,6 +9,7 @@ The **linear closure** of $\Omega$ is
 $$
 \operatorname{lin}(\Omega):=\Big\{x\in X\ \Big|\ \exists w\in\Omega \text{ with } [w,x)\subset \Omega\Big\},
 $$
+
 where $[w,x)$ denotes the half-open {{< knowl id="line-segments-in-a-vector-space" text="line segment" >}}
 $$
 [w,x):=\{\lambda w+(1-\lambda)x\mid \lambda\in(0,1]\}.
@@ -20,6 +21,7 @@ When $X$ is a {{< knowl id="norm-normed-vector-space" text="normed vector space"
 $$
 \Omega \subset \operatorname{lin}(\Omega)\subset \overline{\Omega},
 $$
+
 where $\overline{\Omega}$ is the usual {{< knowl id="closure-of-a-set" text="closure" >}}. See also {{< knowl id="algebraic-interior-core" text="algebraic interior (core)" >}} for the dual notion.
 
 **Examples:**

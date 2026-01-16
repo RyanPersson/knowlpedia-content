@@ -4,7 +4,7 @@ description: "A graded sequence of modules with differentials d raising degree a
 ---
 
 ## Definition
-Let \(R\) be a ring and let \(\{C^n\}_{n\in\mathbb Z}\) be {{< knowl id="module" section="algebra-rings" text="R-modules" >}}.
+Let \(R\) be a ring and let \(\{C^n\}_{n\in\mathbb Z}\) be {{< knowl id="module" section="algebra-modules" text="R-modules" >}}.
 A **cochain complex** \( (C^\bullet, d)\) is a collection of \(R\)-linear maps
 \[
 d^n : C^n \longrightarrow C^{n+1}\qquad (n\in\mathbb Z)

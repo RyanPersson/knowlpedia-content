@@ -11,7 +11,7 @@ Let
 \[
 0 \longrightarrow A' \xrightarrow{u} A \xrightarrow{v} A'' \longrightarrow 0
 \]
-be a {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequence" >}} of **right** \(R\)-modules, and let \(B\) be a **left** \(R\)-module. Then there are natural connecting homomorphisms
+be a {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequence" >}} of **right** \(R\)-modules, and let \(B\) be a **left** \(R\)-module. Then there are natural connecting homomorphisms
 \[
 \delta_n:\operatorname{Tor}_n^R(A'',B)\longrightarrow \operatorname{Tor}_{n-1}^R(A',B)
 \quad (n\ge 1),

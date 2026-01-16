@@ -7,12 +7,14 @@ Let $M$ be a {{< knowl id="smooth-manifold" text="smooth manifold" >}} and let $
 $$
 \mathcal{L}_X\omega = \left.\frac{d}{dt}\right|_{t=0}\Phi_t^*\omega,
 $$
+
 where $\Phi_t^*$ denotes pullback by the diffeomorphism $\Phi_t$.
 
 The Lie derivative is characterized by **Cartan's formula**:
 $$
 \mathcal{L}_X\omega = d(\iota_X\omega) + \iota_X(d\omega),
 $$
+
 where $\iota_X$ is the {{< knowl id="interior-product" text="interior product" >}} and $d$ is the {{< knowl id="exterior-derivative" text="exterior derivative" >}}.
 
 ## Examples

@@ -4,7 +4,7 @@ description: "A graded sequence of modules with differentials d lowering degree 
 ---
 
 ## Definition
-Let \(R\) be a ring and let \(\{C_n\}_{n\in\mathbb Z}\) be a family of {{< knowl id="module" section="algebra-rings" text="(left) R-modules" >}}.
+Let \(R\) be a ring and let \(\{C_n\}_{n\in\mathbb Z}\) be a family of {{< knowl id="module" section="algebra-modules" text="(left) R-modules" >}}.
 A **chain complex** \( (C_\bullet, d)\) is a collection of \(R\)-linear maps (called **differentials**)
 \[
 d_n : C_n \longrightarrow C_{n-1}\qquad (n\in\mathbb Z)

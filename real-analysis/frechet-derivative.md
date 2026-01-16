@@ -7,6 +7,7 @@ A **Fréchet derivative** of a {{< knowl id="function" section="shared-foundatio
 $$
 \lim_{h\to 0}\frac{\|f(a+h)-f(a)-Df(a)h\|}{\|h\|}=0,
 $$
+
 where $\|\cdot\|$ is the {{< knowl id="euclidean-norm" section="linear-algebra" text="Euclidean norm" >}}.
 
 If such a map exists, it is unique; it is the linear part of the first-order approximation $f(a+h)=f(a)+Df(a)h+o(\|h\|)$. When $f$ has partial derivatives, $Df(a)$ is represented by the {{< knowl id="jacobian-matrix" text="Jacobian matrix" >}} at $a$, and existence of $Df(a)$ is the defining condition for a {{< knowl id="differentiable-map" text="differentiable map" >}} at $a$.

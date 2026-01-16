@@ -1,6 +1,6 @@
 ---
 title: "Adeles and Restricted Products"
-description: "The adele ring $\\mathbb{A}_F=\\prod_v' F_v$ used for automorphic forms"
+description: "The adele ring used for automorphic forms"
 ---
 
 Let $F$ be a number field with completions $F_v$.

@@ -8,6 +8,7 @@ Let $G$ be a {{< knowl id="group" text="group" >}}. Let $\operatorname{Sym}(G)$ 
 $$
 \lambda: G \to \operatorname{Sym}(G), \qquad \lambda(g)=L_g,
 $$
+
 is an injective {{< knowl id="group-homomorphism" text="homomorphism" >}} (i.e. a {{< knowl id="group-monomorphism" text="monomorphism" >}}). Equivalently, $G$ is isomorphic to a subgroup of $\operatorname{Sym}(G)$.
 
 Cayley's theorem says every abstract group can be realized concretely as a group of permutations. The construction comes from the {{< knowl id="left-multiplication-action" text="left multiplication action" >}} of $G$ on itself, which is {{< knowl id="faithful-action" text="faithful" >}} and hence yields a {{< knowl id="permutation-representation" text="permutation representation" >}}.

@@ -1,6 +1,6 @@
 ---
 title: "Contragredient (Dual) Representation"
-description: "The representation on $V^*$ given by $\\pi^\\vee(g)=\\pi(g^{-1})^*$"
+description: "The representation on given by"
 ---
 
 Let $\pi:G\to \mathrm{GL}(V)$ be a representation on a finite-dimensional complex vector space $V$.

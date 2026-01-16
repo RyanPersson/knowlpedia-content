@@ -12,6 +12,7 @@ and let the {{< knowl id="centralizer" text="centralizer" >}} be
 $$
 C_G(g)=\{x\in G : xg=gx\}.
 $$
+
 Then $|\operatorname{Cl}(g)| = [G:C_G(g)]$. If $Z(G)$ denotes the {{< knowl id="center-of-group" text="center" >}} of $G$ and $g_1,\dots,g_r$ are representatives of the distinct {{< knowl id="conjugacy-class" text="conjugacy classes" >}} contained in $G \setminus Z(G)$, then
 $$
 |G| = |Z(G)| + \sum_{i=1}^r [G:C_G(g_i)].

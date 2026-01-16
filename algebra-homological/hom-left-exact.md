@@ -3,7 +3,7 @@ title: "Hom is left exact"
 description: "Hom preserves kernels: Hom_R(M,-) is left exact (covariant) and Hom_R(-,N) is left exact (contravariant); Ext measures the failure of exactness beyond that."
 ---
 
-Let $R$ be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and write {{< knowl id="hom-module" section="algebra-rings" text="$\mathrm{Hom}_R(-,-)$" >}} for the Hom functor.
+Let $R$ be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and write {{< knowl id="hom-module" section="algebra-modules" text="$\mathrm{Hom}_R(-,-)$" >}} for the Hom functor.
 
 ## Statement (covariant in the second variable)
 Fix a left $R$-module $M$. If
@@ -29,9 +29,9 @@ is exact, then applying $\mathrm{Hom}_R(-,N)$ yields an exact sequence
 \]
 
 ## Failure of right exactness and Ext
-The failure of $\mathrm{Hom}$ to be exact is measured by {{< knowl id="ext" text="Ext" >}}: $\mathrm{Ext}^1_R(-,N)$ (and higher $\mathrm{Ext}^n$) are the {{< knowl id="derived-functor" text="right derived functors" >}} of $\mathrm{Hom}_R(-,N)$, and every {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequence" >}} gives a {{< knowl id="long-exact-sequence-ext" text="long exact sequence in Ext" >}} (a special case of {{< knowl id="long-exact-sequence-derived" text="the long exact sequence for derived functors" >}}).
+The failure of $\mathrm{Hom}$ to be exact is measured by {{< knowl id="ext" text="Ext" >}}: $\mathrm{Ext}^1_R(-,N)$ (and higher $\mathrm{Ext}^n$) are the {{< knowl id="derived-functor" text="right derived functors" >}} of $\mathrm{Hom}_R(-,N)$, and every {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequence" >}} gives a {{< knowl id="long-exact-sequence-ext" text="long exact sequence in Ext" >}} (a special case of {{< knowl id="long-exact-sequence-derived" text="the long exact sequence for derived functors" >}}).
 
-If $M$ is {{< knowl id="projective-module" section="algebra-rings" text="projective" >}}, then $\mathrm{Hom}_R(M,-)$ is exact. If $N$ is {{< knowl id="injective-module" section="algebra-rings" text="injective" >}}, then $\mathrm{Hom}_R(-,N)$ is exact.
+If $M$ is {{< knowl id="projective-module" section="algebra-modules" text="projective" >}}, then $\mathrm{Hom}_R(M,-)$ is exact. If $N$ is {{< knowl id="injective-module" section="algebra-modules" text="injective" >}}, then $\mathrm{Hom}_R(-,N)$ is exact.
 
 ## Examples
 

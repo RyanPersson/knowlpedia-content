@@ -7,6 +7,7 @@ Let $N$ be a {{< knowl id="normal-subgroup" text="normal subgroup" >}} of a {{< 
 $$
 (gN)(hN) := (gh)N.
 $$
+
 Normality of $N$ is exactly what makes this operation **well-defined**, meaning it does not depend on the choice of representatives $g,h$ of the cosets.
 
 There is a canonical {{< knowl id="group-homomorphism" text="group homomorphism" >}} (the projection) $\pi:G\to G/N$, $\pi(g)=gN$, whose {{< knowl id="kernel-group" text="kernel" >}} is $N$. Quotient groups are the objects that appear in {{< knowl id="exact-sequence-groups" text="exact sequences" >}} and in the {{< knowl id="first-isomorphism-theorem-groups" text="first isomorphism theorem" >}}, which identifies $G/\ker(\varphi)$ with $\operatorname{im}(\varphi)$ for any homomorphism $\varphi$.

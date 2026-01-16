@@ -19,7 +19,7 @@ This is an immediate corollary of the {{< knowl id="five-lemma" text="five lemma
 0 \to A' \to A \to A'' \to 0,\qquad 0 \to B' \to B \to B'' \to 0.
 \]
 
-Cross-links: {{< knowl id="five-lemma" text="five lemma" >}}, {{< knowl id="exact-sequence-modules" section="algebra-modules" text="exact sequences" >}}, {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequences" >}}.
+Cross-links: {{< knowl id="five-lemma" text="five lemma" >}}, {{< knowl id="exact-sequence-modules" section="algebra-modules" text="exact sequences" >}}, {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequences" >}}.
 
 ## Examples
 

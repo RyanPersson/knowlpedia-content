@@ -7,7 +7,7 @@ Let \(R\) be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and l
 \[
 \cdots \xrightarrow{d^{n-1}} C^n \xrightarrow{d^{n}} C^{n+1} \xrightarrow{d^{n+1}} \cdots
 \]
-be a {{< knowl id="cochain-complex" text="cochain complex" >}} of {{< knowl id="module" section="algebra-rings" text="R-modules" >}}, i.e. \(d^{n+1}\circ d^{n}=0\) for all \(n\).
+be a {{< knowl id="cochain-complex" text="cochain complex" >}} of {{< knowl id="module" section="algebra-modules" text="R-modules" >}}, i.e. \(d^{n+1}\circ d^{n}=0\) for all \(n\).
 
 ## Definition
 The **\(n\)th cocycles** and **\(n\)th coboundaries** are
@@ -37,7 +37,7 @@ Let \(R=\mathbb Z\). A {{< knowl id="projective-resolution" text="projective res
 \[
 0\to \mathbb Z \xrightarrow{\times n} \mathbb Z \to \mathbb Z/n\mathbb Z \to 0.
 \]
-Apply {{< knowl id="hom-module" section="algebra-rings" text="Hom" >}}\((-,\mathbb Z)\) to get a cochain complex
+Apply {{< knowl id="hom-module" section="algebra-modules" text="Hom" >}}\((-,\mathbb Z)\) to get a cochain complex
 \[
 0 \to \operatorname{Hom}(\mathbb Z,\mathbb Z)
 \xrightarrow{\times n}
@@ -57,7 +57,7 @@ H^1(\operatorname{Hom}(P_\bullet,\mathbb Z))
 \]
 
 ### Example 3: Vanishing over a field
-If \(k\) is a field and \(V,W\) are \(k\)-vector spaces, then every \(k\)-module is {{< knowl id="projective-module" section="algebra-rings" text="projective" >}} and {{< knowl id="injective-module" section="algebra-rings" text="injective" >}}. Hence
+If \(k\) is a field and \(V,W\) are \(k\)-vector spaces, then every \(k\)-module is {{< knowl id="projective-module" section="algebra-modules" text="projective" >}} and {{< knowl id="injective-module" section="algebra-modules" text="injective" >}}. Hence
 \[
 {{< knowl id="ext" text="Ext^n" >}}_k(V,W)=0\quad \text{for all }n>0,
 \]

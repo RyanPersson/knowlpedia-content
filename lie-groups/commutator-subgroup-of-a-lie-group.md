@@ -9,6 +9,7 @@ Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}.
 $$
 [g,h]=ghg^{-1}h^{-1}\quad (g,h\in G).
 $$
+
 It is the smallest normal subgroup $N\triangleleft G$ such that $G/N$ is abelian; equivalently, $G/[G,G]$ is the abelianization of $G$.
 
 **Lie-theoretic relation.** If $\mathfrak{g}=\mathrm{Lie}(G)$, then the Lie algebra of the identity component of $[G,G]$ is the {{< knowl id="derived-subalgebra" text="derived subalgebra" >}} $[\mathfrak{g},\mathfrak{g}]$. This makes $[G,G]$ the global counterpart of “taking brackets” in $\mathfrak{g}$.

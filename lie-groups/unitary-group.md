@@ -8,6 +8,7 @@ The **unitary group** is
 $$
 U(n)=\{U\in GL(n,\mathbb C)\mid U^\ast U=I\},
 $$
+
 where $U^\ast=\overline{U}^{\,T}$. Equivalently, $U(n)$ is the group of complex-linear automorphisms of $\mathbb C^n$ preserving the standard Hermitian inner product $\langle v,w\rangle = v^\ast w$.
 
 Since the defining equation $U^\ast U=I$ is closed, $U(n)$ is a closed subgroup of the {{< knowl id="general-linear-group" text="general linear group" >}}; thus it is a Lie subgroup by the {{< knowl id="closed-subgroup-theorem" text="closed subgroup theorem" >}}. It is also {{< knowl id="compact-lie-group" text="compact" >}}.

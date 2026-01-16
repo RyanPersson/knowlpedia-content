@@ -8,6 +8,7 @@ Let $G$ be a {{< knowl id="group" text="group" >}} acting on a set $X$ via a {{<
 $$
 G/\operatorname{Stab}(x) \to \operatorname{Orb}(x), \qquad g\,\operatorname{Stab}(x) \mapsto g\cdot x,
 $$
+
 is a bijection. In particular, if $G$ is finite then
 $$
 |\operatorname{Orb}(x)| = [G:\operatorname{Stab}(x)] \quad \text{and} \quad |G| = |\operatorname{Orb}(x)|\cdot |\operatorname{Stab}(x)|.

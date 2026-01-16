@@ -7,6 +7,7 @@ description: "The integral defines an antiderivative at points where the integra
 $$
 F(x)=\int_a^x f(t)\,dt \quad (x\in[a,b]).
 $$
+
 Then $F$ is continuous on $[a,b]$. Moreover, if $f$ is continuous at a point $c\in(a,b)$, then $F$ is {{< knowl id="differentiability-1d" text="differentiable" >}} at $c$ and
 $$
 F'(c)=f(c).

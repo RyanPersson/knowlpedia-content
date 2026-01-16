@@ -9,6 +9,7 @@ The set $A$ is **bounded** if there exist $a\in X$ and $r>0$ such that
 $$
 A\subset B(a;r),
 $$
+
 i.e., $A$ is contained in some {{< knowl id="open-and-closed-balls-in-a-metric-space" text="ball" >}}.
 
 A sequence $(x_n)$ in $X$ is **bounded** if the set $\{x_n\mid n\in\mathbb{N}\}$ is bounded.

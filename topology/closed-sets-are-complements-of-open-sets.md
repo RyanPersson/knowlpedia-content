@@ -9,4 +9,4 @@ Consequently:
 - arbitrary intersections of closed sets are closed, and
 - finite unions of closed sets are closed.
 
-This duality between open and closed sets is a basic tool in topology and analysis, especially for {{< knowl id="closure" text="closure" >}}, {{< knowl id="limit-point-accumulation-point-cluster-point" text="limit points" >}}, and compactness arguments.
+This duality between open and closed sets is a basic tool in topology and analysis, especially for {{< knowl id="closure" text="closure" >}}, {{< knowl id="limit-point" text="limit points" >}}, and compactness arguments.

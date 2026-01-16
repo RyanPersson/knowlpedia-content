@@ -9,6 +9,7 @@ Let $X$ be a real {{< knowl id="norm-normed-vector-space" text="normed space" >}
 $$
 A:=\{x\in X\mid f(x)=\alpha\}
 $$
+
 is a {{< knowl id="closed-subset" text="closed subset" >}} of $X$.
 
 **Context:**

@@ -7,6 +7,7 @@ A **union** is the set obtained by collecting all elements that lie in at least 
 $$
 A\cup B=\{x : x\in A \text{ or } x\in B\}.
 $$
+
 More generally, for an {{< knowl id="indexed-family-of-sets" text="indexed family of sets" >}} $(A_i)_{i\in I}$,
 $$
 \bigcup_{i\in I} A_i=\{x : \exists i\in I\text{ with }x\in A_i\}.

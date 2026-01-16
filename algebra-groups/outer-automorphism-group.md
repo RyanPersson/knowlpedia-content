@@ -7,6 +7,7 @@ For a group $G$, the **outer automorphism group** is the quotient
 $$
 \operatorname{Out}(G) := \operatorname{Aut}(G)\big/\operatorname{Inn}(G),
 $$
+
 where $\operatorname{Aut}(G)$ is the {{< knowl id="automorphism-group" text="automorphism group" >}} and $\operatorname{Inn}(G)$ is the subgroup of {{< knowl id="inner-automorphism" text="inner automorphisms" >}}. This is a {{< knowl id="quotient-group" text="quotient group" >}}, and it measures the "new" automorphisms not coming from conjugation.
 
 Saying $\operatorname{Out}(G)$ is trivial means every automorphism of $G$ is inner.

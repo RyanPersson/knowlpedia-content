@@ -8,6 +8,7 @@ The **orthogonal Lie algebra** $\mathfrak{so}(n)$ is the Lie algebra of the {{< 
 $$
 \mathfrak{so}(n)=\{X\in \mathfrak{gl}(n,\Bbb R)\mid X^T+X=0\},
 $$
+
 with Lie bracket given by the commutator $[X,Y]=XY-YX$ (the {{< knowl id="lie-bracket" text="standard bracket" >}} on matrix Lie algebras). Here $\mathfrak{gl}(n,\Bbb R)$ is the {{< knowl id="general-linear-lie-algebra" text="general linear Lie algebra" >}}.
 
 A standard basis is given by $E_{ij}-E_{ji}$ for $1\le i<j\le n$, so
@@ -21,6 +22,7 @@ $$
 \mathfrak{so}(p,q)=\{X\in \mathfrak{gl}(n,\Bbb R)\mid X^T\eta+\eta X=0\},
 \quad n=p+q.
 $$
+
 This is the Lie algebra of $O(p,q)$. In particular, the Lie algebra of the {{< knowl id="lorentz-group" text="Lorentz group" >}} $O(1,n-1)$ is $\mathfrak{so}(1,n-1)$.
 
 ## Context

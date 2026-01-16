@@ -7,6 +7,7 @@ description: "Constrained extrema give critical points of a Lagrangian under a r
 $$
 L(x,\lambda)=f(x)-\sum_{i=1}^m \lambda_i g_i(x).
 $$
+
 Then there exists $\lambda^\ast\in\mathbb R^m$ such that
 $$
 D_xL(x^\ast,\lambda^\ast)=0

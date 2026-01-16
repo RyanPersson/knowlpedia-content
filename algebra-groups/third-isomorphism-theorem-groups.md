@@ -8,6 +8,7 @@ Let $G$ be a {{< knowl id="group" text="group" >}} and let $N \trianglelefteq G$
 $$
 (G/N)/(K/N) \cong G/K,
 $$
+
 induced by the map $gN \mapsto gK$.
 
 This theorem formalizes the idea that "quotienting by $N$ and then by $K/N$" is the same as quotienting directly by $K$. It can be viewed as a special case of {{< knowl id="correspondence-theorem-groups" text="the correspondence theorem" >}}, or proved directly using {{< knowl id="first-isomorphism-theorem-groups" text="the first isomorphism theorem" >}}.

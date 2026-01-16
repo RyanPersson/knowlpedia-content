@@ -1,6 +1,6 @@
 ---
 title: "$L$-Group and Satake Parameter"
-description: "The semidirect product ${}^LG$ and the conjugacy class $\\alpha_p$ encoding unramified local data"
+description: "The semidirect product and the conjugacy class encoding unramified local data"
 ---
 
 For a split reductive $G$ over a field with Galois/Weil group $\Gamma$, the **$L$-group** is a semidirect product ${}^LG:=\Gamma\ltimes \widehat G$, where $\Gamma$ acts on $\widehat G$ via pinned automorphisms (see {{< knowl id="pinned-automorphisms" section="langlands-letter/knowls" text="pinning" >}}).

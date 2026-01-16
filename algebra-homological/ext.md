@@ -3,14 +3,14 @@ title: "Ext"
 description: "The right derived functors of Hom; measures extension classes and failure of exactness of Hom."
 ---
 
-Let $R$ be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and let $M,N$ be (left) {{< knowl id="module" section="algebra-rings" text="$R$-modules" >}}.
+Let $R$ be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and let $M,N$ be (left) {{< knowl id="module" section="algebra-modules" text="$R$-modules" >}}.
 
 ## Definition (via a projective resolution)
 Choose a {{< knowl id="projective-resolution" text="projective resolution" >}} $P_\bullet \to M$, i.e.
 \[
 \cdots \to P_2 \xrightarrow{d_2} P_1 \xrightarrow{d_1} P_0 \to M \to 0
 \]
-with each $P_i$ projective. Apply the functor {{< knowl id="hom-module" section="algebra-rings" text="$\mathrm{Hom}_R(-,N)$" >}} to obtain a {{< knowl id="cochain-complex" text="cochain complex" >}}
+with each $P_i$ projective. Apply the functor {{< knowl id="hom-module" section="algebra-modules" text="$\mathrm{Hom}_R(-,N)$" >}} to obtain a {{< knowl id="cochain-complex" text="cochain complex" >}}
 \[
 0 \to \mathrm{Hom}_R(P_0,N) \xrightarrow{d_1^*} \mathrm{Hom}_R(P_1,N) \xrightarrow{d_2^*} \mathrm{Hom}_R(P_2,N) \to \cdots.
 \]
@@ -37,7 +37,7 @@ In either approach, $\mathrm{Ext}^0_R(M,N)\cong \mathrm{Hom}_R(M,N)$.
   \]
   up to the usual equivalence relation; see {{< knowl id="ext1-classifies-extensions" text="Ext^1 classifies extensions" >}}.
 - Higher $\mathrm{Ext}^n$ can be viewed as higher obstructions and are the values of the {{< knowl id="derived-functor" text="right derived functors" >}} of {{< knowl id="hom-left-exact" text="$\mathrm{Hom}$ is left exact" >}}.
-- A {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequence" >}} in either variable yields a {{< knowl id="long-exact-sequence-ext" text="long exact sequence in Ext" >}}, which is a special case of {{< knowl id="long-exact-sequence-derived" text="the long exact sequence for derived functors" >}}.
+- A {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequence" >}} in either variable yields a {{< knowl id="long-exact-sequence-ext" text="long exact sequence in Ext" >}}, which is a special case of {{< knowl id="long-exact-sequence-derived" text="the long exact sequence for derived functors" >}}.
 
 ## Examples
 

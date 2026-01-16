@@ -10,4 +10,5 @@ In any {{< knowl id="metric-metric-space" text="metric space" >}}, every open ba
 $$
 d(x,x_0)\le d(x,a)+d(a,x_0)<\delta+d(a,x_0)=r,
 $$
+
 so $x\in B(x_0;r)$. Hence $B(a;\delta)\subset B(x_0;r)$, which is exactly openness.

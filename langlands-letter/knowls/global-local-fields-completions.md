@@ -1,6 +1,6 @@
 ---
 title: "Global and Local Fields; Completions"
-description: "Number fields and their completions at places (e.g. $\\mathbb{Q}_p$, $\\mathbb{R}$)"
+description: "Number fields and their completions at places (e.g. , )"
 ---
 
 A **global field** (in this letter) is a number field, i.e. a finite extension $F/\mathbb{Q}$.

@@ -11,8 +11,9 @@ $$
 
 **Context.** This expresses continuity of the norm map $x\mapsto\|x\|$.
 
-**Proof sketch.** By the {{< knowl id="reverse-triangle-inequality" section="analysis" text="reverse triangle inequality" >}},
+**Proof sketch.** By the {{< knowl id="reverse-triangle-inequality" section="real-analysis" text="reverse triangle inequality" >}},
 $$
 \big|\|x_n\|-\|x\|\big|\le \|x_n-x\|\to 0,
 $$
+
 hence $\|x_n\|\to \|x\|$.

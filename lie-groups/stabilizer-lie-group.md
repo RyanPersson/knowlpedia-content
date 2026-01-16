@@ -8,6 +8,7 @@ Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a 
 $$
 G_x=\{g\in G\mid g\cdot x=x\}.
 $$
+
 It is a subgroup of $G$. Since it is the preimage of the closed set $\{x\}$ under the continuous map $g\mapsto g\cdot x$, it is closed in $G; $ hence $G_x$ is a {{< knowl id="closed-subgroup-lie-group" text="closed subgroup" >}}, and by the {{< knowl id="closed-subgroup-theorem" text="closed subgroup theorem" >}} it is automatically an embedded Lie subgroup.
 
 ### Lie algebra of the stabilizer
@@ -21,4 +22,5 @@ The orbit $G\cdot x$ is an immersed submanifold (see {{< knowl id="orbit-lie-gro
 $$
 G/G_x \to G\cdot x,\quad gG_x\mapsto g\cdot x
 $$
+
 is a smooth bijection; under mild hypotheses (e.g. proper actions), it is a diffeomorphism. In the transitive case (see {{< knowl id="transitive-action-lie" text="transitive actions" >}}) this identifies $M$ with a {{< knowl id="homogeneous-space" text="homogeneous space" >}} of the form $G/G_x$ (compare {{< knowl id="coset-space" text="coset spaces" >}}).

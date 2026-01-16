@@ -13,6 +13,7 @@ and
 $$
 \overline{\Omega}=\{x\in X\mid p_\Omega(x)\le 1\}.
 $$
+
 Here $\overline{\Omega}$ denotes the {{< knowl id="closure-of-a-set" text="closure" >}} of $\Omega$.
 
 **Context:**

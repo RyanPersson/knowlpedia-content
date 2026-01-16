@@ -20,4 +20,5 @@ When $f$ is {{< knowl id="differentiable-map" text="differentiable" >}} at $a$, 
   \cos(x-y) & -\cos(x-y)
   \end{pmatrix}.
   $$
+
 - If $f(x,y,z)=x+y+z$, then $Jf(x,y,z)=\begin{pmatrix}1&1&1\end{pmatrix}$.

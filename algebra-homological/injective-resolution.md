@@ -3,7 +3,7 @@ title: "Injective resolution"
 description: "An exact cochain complex starting at M and continuing with injective modules, used to compute Ext and right derived functors."
 ---
 
-Let \(R\) be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and \(M\) an {{< knowl id="module" section="algebra-rings" text="R-module" >}}.
+Let \(R\) be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and \(M\) an {{< knowl id="module" section="algebra-modules" text="R-module" >}}.
 
 ## Definition
 An **injective resolution** of \(M\) is an augmented {{< knowl id="cochain-complex" text="cochain complex" >}}
@@ -11,7 +11,7 @@ An **injective resolution** of \(M\) is an augmented {{< knowl id="cochain-compl
 0 \to M \xrightarrow{\eta} I^0 \xrightarrow{d^0} I^1 \xrightarrow{d^1} I^2 \xrightarrow{d^2} \cdots
 \]
 such that:
-1. Each \(I^j\) is an {{< knowl id="injective-module" section="algebra-rings" text="injective R-module" >}}.
+1. Each \(I^j\) is an {{< knowl id="injective-module" section="algebra-modules" text="injective R-module" >}}.
 2. The sequence is exact (i.e. an {{< knowl id="exact-complex" text="exact complex" >}}).
 
 Existence in module categories is guaranteed by {{< knowl id="injective-resolutions-exist" text="injective resolutions exist" >}}.

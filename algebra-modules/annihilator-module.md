@@ -7,7 +7,7 @@ Let $M$ be a left $R$-{{< knowl id="module" text="module" >}}. The **annihilator
 \[
 \operatorname{ann}_R(M)=\{r\in R: rM=0\}.
 \]
-It equals the {{< knowl id="intersection" section="analysis" text="intersection" >}} of the elementwise annihilators:
+It equals the {{< knowl id="intersection" section="shared-foundations" text="intersection" >}} of the elementwise annihilators:
 \[
 \operatorname{ann}_R(M)=\bigcap_{m\in M}\operatorname{ann}_R(m),
 \]

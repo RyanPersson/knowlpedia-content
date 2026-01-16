@@ -7,6 +7,7 @@ A **Jacobian determinant** of a differentiable map $f:U\to \mathbb{R}^n$ (with $
 $$
 \det Jf(a),
 $$
+
 the {{< knowl id="determinant" section="linear-algebra" text="determinant" >}} of the {{< knowl id="jacobian-matrix" text="Jacobian matrix" >}} at $a$.
 
 The Jacobian determinant controls local invertibility and local volume scaling: nonvanishing of $\det Jf(a)$ is the hypothesis of the {{< knowl id="inverse-function-theorem-rk" text="inverse function theorem" >}}, and it appears in the {{< knowl id="change-of-variables-formula" text="change of variables formula" >}} for integrals.

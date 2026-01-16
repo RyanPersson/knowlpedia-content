@@ -10,6 +10,7 @@ A {{< knowl id="lie-subgroup" text="Lie subgroup" >}} $N\subseteq G$ is **normal
 $$
 gNg^{-1}=N \quad \text{for all } g\in G,
 $$
+
 i.e. $N$ is invariant under the {{< knowl id="conjugation-action-of-a-lie-group" text="conjugation action" >}} of $G$ on itself.
 
 ## Infinitesimal characterization

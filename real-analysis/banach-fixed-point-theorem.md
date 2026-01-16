@@ -3,14 +3,14 @@ title: "Banach Fixed Point Theorem"
 description: "A contraction on a complete metric space has a unique fixed point, found by iteration"
 ---
 
-**Banach Fixed Point Theorem (contraction mapping principle)**: Let $(X,d)$ be a {{< knowl id="complete-metric-space" text="complete metric space" >}} and let $T:X\to X$ be a {{< knowl id="contraction-mapping" text="contraction" >}} with contraction constant $c\in[0,1)$. Then:
+**Banach Fixed Point Theorem (contraction mapping principle)**: Let $(X,d)$ be a {{< knowl id="complete-metric-space" section="topology" text="complete metric space" >}} and let $T:X\to X$ be a {{< knowl id="contraction-mapping" section="shared-foundations" text="contraction" >}} with contraction constant $c\in[0,1)$. Then:
 
 - There exists a unique {{< knowl id="fixed-point" text="fixed point" >}} $x^\ast\in X$ such that $T(x^\ast)=x^\ast$.
 - For any starting point $x_0\in X$, the iterates defined by
   $
   x_{n+1}=T(x_n)\quad(n\ge 0)
   $
-  {{< knowl id="convergent-sequence" text="converge" >}} to $x^\ast$.
+  {{< knowl id="convergent-sequence" section="topology" text="converge" >}} to $x^\ast$.
 - Quantitative error bounds hold: for all $n\ge 0$,
   $
   d(x_{n},x^\ast)\le \frac{c^{n}}{1-c}\,d(x_1,x_0),

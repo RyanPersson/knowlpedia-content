@@ -9,6 +9,7 @@ Let $X$ be a {{< knowl id="vector-space" section="linear-algebra" section="linea
 $$
 [a,b)\subset \operatorname{core}(\Omega),
 $$
+
 where $[a,b)$ is the half-open {{< knowl id="line-segments-in-a-vector-space" text="line segment" >}} from $a$ to $b$.
 
 **Context:**

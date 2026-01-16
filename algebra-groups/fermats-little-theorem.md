@@ -5,6 +5,7 @@ description: "For prime p, a^{p-1} ≡ 1 (mod p) when p ∤ a."
 
 **Fermat's Little Theorem**: Let $p$ be a prime and let $a \in \mathbb{Z}$. Then
 $$a^p \equiv a \pmod p.$$
+
 Equivalently, if $p \nmid a$ (i.e., $a \not\equiv 0 \pmod p$), then
 $$a^{p-1} \equiv 1 \pmod p.$$
 

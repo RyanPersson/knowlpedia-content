@@ -9,6 +9,7 @@ Let $\mathfrak{g}$ be a finite-dimensional {{< knowl id="lie-algebra" text="Lie 
 $$
 \rho:\mathfrak{g}\hookrightarrow \mathfrak{gl}(V),
 $$
+
 so $\mathfrak{g}$ is isomorphic to a {{< knowl id="lie-subalgebra" text="Lie subalgebra" >}} of the {{< knowl id="general-linear-lie-algebra" text="general linear Lie algebra" >}}.
 
 Equivalently, every finite-dimensional Lie algebra is a “matrix Lie algebra” up to isomorphism.

@@ -7,9 +7,10 @@ Let $(X,d)$ be a {{< knowl id="metric-metric-space" text="metric space" >}}. A s
 $$
 (\forall \varepsilon>0)(\exists N\in\mathbb{N})(\forall n\ge N):\ d(x_n,a)<\varepsilon.
 $$
+
 We write $\lim_{n\to\infty}x_n=a$ or $x_n\to a$.
 
-Convergence in metric spaces is the foundation for defining {{< knowl id="closure-characterized-by-convergent-sequences" text="closure via sequences" >}} and for studying {{< knowl id="cauchy-sequence" section="analysis" text="Cauchy sequences" >}}.
+Convergence in metric spaces is the foundation for defining {{< knowl id="closure-characterized-by-convergent-sequences" text="closure via sequences" >}} and for studying {{< knowl id="cauchy-sequence" section="topology" text="Cauchy sequences" >}}.
 
 **Examples:**
 - In $\mathbb{R}$, $x_n=1/n$ converges to $0$.

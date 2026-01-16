@@ -18,6 +18,7 @@ On Lie algebras, one has a canonical decomposition
 $$
 \mathfrak{g} \cong \mathfrak{z}\oplus [\mathfrak{g},\mathfrak{g}],
 $$
+
 where $\mathfrak{z}$ is the {{< knowl id="center-of-a-lie-algebra" text="center" >}} of $\mathfrak{g}$ and $[\mathfrak{g},\mathfrak{g}]$ is semisimple (compare {{< knowl id="cartans-criterion-semisimplicity" text="Cartan’s semisimplicity criterion" >}}).
 
 **Context.** The torus factor encodes the abelian part of $G$ (see {{< knowl id="connected-abelian-lie-group-structure" text="connected abelian structure" >}}), while $K$ encodes the “noncommutative core.” The finite quotient reflects the possibility of nontrivial {{< knowl id="center-of-a-lie-group" text="center" >}}; passing to the {{< knowl id="universal-covering-group" text="universal covering group" >}} eliminates this finite ambiguity.

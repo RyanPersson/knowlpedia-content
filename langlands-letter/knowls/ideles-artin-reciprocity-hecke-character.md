@@ -1,6 +1,6 @@
 ---
 title: "Ideles, Hecke Characters, and Artin Reciprocity"
-description: "The idele class group and its link to abelian Galois groups; source of abelian $L$-series"
+description: "The idele class group and its link to abelian Galois groups; source of abelian -series"
 ---
 
 For a number field $K$, the **idele group** is $\mathbb I_K:=\prod_v' K_v^\times$ (restricted product with respect to $\mathcal O_v^\times$ at finite $v$), and the **idele class group** is $C_K:=K^\times\backslash \mathbb I_K$.

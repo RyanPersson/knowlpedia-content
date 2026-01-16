@@ -7,6 +7,7 @@ description: "If the derivative of a differentiable function is zero everywhere 
 $$
 f'(x)=0 \quad \text{for all } x\in I,
 $$
+
 then $f$ is constant on $I$.
 
 This is a direct application of the {{< knowl id="mean-value-theorem" text="mean value theorem" >}}: the derivative controls differences $f(y)-f(x)$ on intervals. It can be viewed as a special case of {{< knowl id="derivative-sign-implies-monotonicity" text="derivative sign implies monotonicity" >}} applied in both directions.

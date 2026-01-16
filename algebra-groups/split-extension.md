@@ -7,6 +7,7 @@ An extension
 $$
 1 \to N \xrightarrow{\iota} E \xrightarrow{\pi} Q \to 1
 $$
+
 is **split** if there exists a {{< knowl id="group-homomorphism" text="group homomorphism" >}} $s:Q\to E$ (a section) such that $\pi\circ s=\mathrm{id}_Q$. Equivalently, $E$ contains a subgroup isomorphic to $Q$ that maps isomorphically onto $Q$ under $\pi$.
 
 Split extensions are precisely those coming from {{< knowl id="semidirect-product" text="semidirect products" >}}: if the extension splits, then $E\cong N\rtimes Q$ for a suitable action of $Q$ on $N$. In particular, a direct product corresponds to the split case with trivial action.

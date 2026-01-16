@@ -1,6 +1,6 @@
 ---
 title: "Langlands Dual Group"
-description: "The complex reductive group with dual root datum, denoted $\\widehat G$ (called $cG$ in the letter)"
+description: "The complex reductive group with dual root datum, denoted (called in the letter)"
 ---
 
 For split $G$ with maximal torus $T$, its **root datum** is $(X^*(T),\Phi,X_*(T),\Phi^\vee)$, where $X_*(T):=\mathrm{Hom}_k(\mathbb{G}_m,T)$ and $\Phi^\vee$ are coroots.

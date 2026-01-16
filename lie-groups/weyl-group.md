@@ -1,6 +1,6 @@
 ---
 title: "Weyl group"
-description: "A finite reflection group defined as $N_G(T)/T$ (or via root reflections) acting on the Cartan and its dual."
+description: "A finite reflection group defined as (or via root reflections) acting on the Cartan and its dual."
 ---
 
 ### Definition (Lie group version)
@@ -8,6 +8,7 @@ Let $G$ be a compact connected Lie group and let $T\subset G$ be a maximal torus
 $$
 W(G,T)=N_G(T)/T,
 $$
+
 where $N_G(T)=\{g\in G\mid gTg^{-1}=T\}$ is the normalizer. It is a finite group, and it acts on $\mathfrak t=\mathrm{Lie}(T)$ by the adjoint action and hence on $\mathfrak t^\ast$ by duality.
 
 ### Definition (root system version)
@@ -15,6 +16,7 @@ For a complex semisimple Lie algebra $\mathfrak g$ with {{< knowl id="cartan-sub
 $$
 s_\alpha(\lambda)=\lambda-\lambda(H_\alpha)\,\alpha
 $$
+
 for $\alpha\in\Delta$, where $H_\alpha$ is the coroot. This realizes $W$ as a finite reflection group attached to the {{< knowl id="root-system" text="root system" >}}.
 
 ### Why it matters

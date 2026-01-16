@@ -3,7 +3,7 @@ title: "Projective resolution"
 description: "An exact chain complex of projective modules ending in a given module M, used to compute Tor and Ext."
 ---
 
-Let \(R\) be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and \(M\) an {{< knowl id="module" section="algebra-rings" text="R-module" >}}.
+Let \(R\) be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and \(M\) an {{< knowl id="module" section="algebra-modules" text="R-module" >}}.
 
 ## Definition
 A **projective resolution** of \(M\) is an augmented {{< knowl id="chain-complex" text="chain complex" >}}
@@ -11,7 +11,7 @@ A **projective resolution** of \(M\) is an augmented {{< knowl id="chain-complex
 \cdots \xrightarrow{d_2} P_1 \xrightarrow{d_1} P_0 \xrightarrow{\varepsilon} M \to 0
 \]
 such that:
-1. Each \(P_i\) is a {{< knowl id="projective-module" section="algebra-rings" text="projective R-module" >}}.
+1. Each \(P_i\) is a {{< knowl id="projective-module" section="algebra-modules" text="projective R-module" >}}.
 2. The sequence is exact (equivalently, the augmented complex is an {{< knowl id="exact-complex" text="exact complex" >}}).
 
 Equivalently, if \(P_\bullet\) denotes the chain complex \(\cdots\to P_1\to P_0\to 0\) (forgetting the augmentation), then

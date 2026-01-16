@@ -7,6 +7,7 @@ An extension
 $$
 1 \to A \xrightarrow{\iota} E \xrightarrow{\pi} Q \to 1
 $$
+
 is a **central extension** if $\iota(A)$ is contained in the {{< knowl id="center-of-group" text="center" >}} $Z(E)$. Equivalently, the kernel $A$ commutes with every element of $E$.
 
 Central extensions are a special case of {{< knowl id="group-extension" text="group extensions" >}} in which the "added part" sits centrally. In particular, $A$ is necessarily {{< knowl id="abelian-group" text="abelian" >}}, since every subgroup of the center is abelian.

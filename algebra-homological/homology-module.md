@@ -7,7 +7,7 @@ Let \(R\) be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and l
 \[
 \cdots \xrightarrow{d_{n+1}} C_n \xrightarrow{d_n} C_{n-1} \xrightarrow{d_{n-1}} \cdots
 \]
-be a {{< knowl id="chain-complex" text="chain complex" >}} of {{< knowl id="module" section="algebra-rings" text="R-modules" >}}, i.e. \(d_n\circ d_{n+1}=0\) for all \(n\).
+be a {{< knowl id="chain-complex" text="chain complex" >}} of {{< knowl id="module" section="algebra-modules" text="R-modules" >}}, i.e. \(d_n\circ d_{n+1}=0\) for all \(n\).
 
 ## Definition
 The **\(n\)th cycles** and **\(n\)th boundaries** of \(C_\bullet\) are the submodules
@@ -38,7 +38,7 @@ H_0(C_\bullet)=\operatorname{coker}(\times n)\cong \mathbb Z/n\mathbb Z.
 \]
 
 ### Example 2: Detecting exactness
-Let \(0\to A\xrightarrow{u} B\xrightarrow{v} C\to 0\) be a {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequence" >}} of \(R\)-modules, viewed as a chain complex
+Let \(0\to A\xrightarrow{u} B\xrightarrow{v} C\to 0\) be a {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequence" >}} of \(R\)-modules, viewed as a chain complex
 \[
 0\to A \xrightarrow{u} B \xrightarrow{v} C \to 0
 \]

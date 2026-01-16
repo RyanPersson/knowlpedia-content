@@ -9,6 +9,7 @@ Let $T:X\to Y$ be a {{< knowl id="linear-operator-linear-transformation" text="l
   $$
   \operatorname{im}T:=T(X)=\{T(x)\mid x\in X\}\subset Y.
   $$
+
 - The **kernel** of $T$ is
   $$
   \ker T:=T^{-1}(\{0\})=\{x\in X\mid T(x)=0\}\subset X.

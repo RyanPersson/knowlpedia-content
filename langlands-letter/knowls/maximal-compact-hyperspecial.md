@@ -1,6 +1,6 @@
 ---
 title: "Maximal Compact and Hyperspecial Subgroup"
-description: "Compact open subgroups $K\\subset G(k)$; hyperspecial $K=G(\\mathcal O_k)$ at good places"
+description: "Compact open subgroups ; hyperspecial at good places"
 ---
 
 Let $k$ be a nonarchimedean local field with ring of integers $\mathcal O_k$.

@@ -7,6 +7,7 @@ Let $(X,d)$ be a {{< knowl id="metric-space" text="metric space" >}} and let $A\
 $$\partial A := \overline{A}\setminus \operatorname{int}(A).$$
 Equivalently,
 $$\partial A = \overline{A}\cap \overline{X\setminus A}$$
+
 (see {{< knowl id="closure" text="closure" >}} and {{< knowl id="interior" text="interior" >}}). Equivalently again, $x\in\partial A$ iff every {{< knowl id="open-ball" text="open ball" >}} $B(x,r)$ meets both $A$ and $X\setminus A$.
 
 Boundaries isolate the "edge" of a set and play a key role in topology and analysis (e.g., in describing discontinuity sets and in integration theory).

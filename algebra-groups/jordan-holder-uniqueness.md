@@ -7,6 +7,7 @@ description: "Any two composition series of a group have the same simple composi
 $$(1)=G_0 \triangleleft G_1 \triangleleft \cdots \triangleleft G_n = G$$
 and
 $$(1)=H_0 \triangleleft H_1 \triangleleft \cdots \triangleleft H_m = G$$
+
 are composition series (so each successive {{< knowl id="quotient-group" text="quotient group" >}} $G_i/G_{i-1}$ and $H_j/H_{j-1}$ is a {{< knowl id="simple-group" text="simple group" >}}). Then:
 - $n=m$ (the lengths coincide), and
 - there exists a permutation $\sigma$ of $\{1,\dots,n\}$ such that

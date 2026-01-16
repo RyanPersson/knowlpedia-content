@@ -9,6 +9,7 @@ Let $G$ be a {{< knowl id="connected-lie-group" text="connected Lie group" >}} w
 $$
 \ker(\mathrm{Ad}) = Z(G),
 $$
+
 where $Z(G)$ is the {{< knowl id="center-of-a-lie-group" text="center of $G$" >}}. In particular, $\mathrm{Ad}$ has **discrete kernel** if and only if $Z(G)$ is discrete.
 
 This is often packaged as: the adjoint action is “almost effective” precisely when the center is discrete; compare {{< knowl id="effective-action" text="effective actions" >}} (which correspond to trivial kernel).

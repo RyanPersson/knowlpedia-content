@@ -20,13 +20,13 @@ with the usual graded antisymmetrization convention.
 
 **Theorem (Chern–Weil).**
 1. The form $P(\Omega)$ is **closed**, i.e. $d\,P(\Omega)=0$.
-2. The form $P(\Omega)$ is **basic** (see {{< knowl id="lemma-chernweil-forms-are-basic" text="Chern–Weil forms are basic" >}}), hence by the {{< knowl id="basic-forms-theorem-α-is-basic-on-p-iff-α-πβ-for-a-unique-β-on-m" text="basic forms theorem" >}} there is a unique closed form $\operatorname{cw}_P(\omega)\in\Omega^{2k}(M)$ with
+2. The form $P(\Omega)$ is **basic** (see {{< knowl id="lemma-chernweil-forms-are-basic" text="Chern–Weil forms are basic" >}}), hence by the {{< knowl id="basic-forms-theorem" text="basic forms theorem" >}} there is a unique closed form $\operatorname{cw}_P(\omega)\in\Omega^{2k}(M)$ with
    \[
    \pi^*\operatorname{cw}_P(\omega)=P(\Omega).
    \]
 3. The de Rham cohomology class $[\operatorname{cw}_P(\omega)]\in H^{2k}_{\mathrm{dR}}(M)$ is independent of the choice of connection $\omega$; equivalently, changing $\omega$ changes $\operatorname{cw}_P(\omega)$ by an exact form (see the {{< knowl id="transgression-theorem-p-p-is-exact" text="transgression theorem" >}}).
 
-A standard route to (1) is to combine the {{< knowl id="bianchi-identity-d-ωω-0" text="Bianchi identity" >}} with Ad-invariance of $P$.
+A standard route to (1) is to combine the {{< knowl id="bianchi-identity" text="Bianchi identity" >}} with Ad-invariance of $P$.
 
 ## Examples
 1. **First Chern form for U(1).** For $G=U(1)$ and $P(X)=\frac{i}{2\pi}X$ (viewing $\mathfrak u(1)\cong i\mathbb R$), $\operatorname{cw}_P(\omega)=\frac{i}{2\pi}F$ is the usual curvature representative of the first Chern class.

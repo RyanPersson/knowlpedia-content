@@ -13,6 +13,7 @@ Let $X$ be a {{< knowl id="vector-space" section="linear-algebra" section="linea
    $$
    \operatorname{aff}(\Omega)=\left\{\sum_{i=1}^m \lambda_i\omega_i \ \middle|\ \sum_{i=1}^m\lambda_i=1,\ \omega_i\in\Omega,\ m\in\mathbb{N}\right\}.
    $$
+
 5. A set $\Omega$ is a {{< knowl id="linear-subspace" text="linear subspace" >}} iff it is affine and contains $0$.
 
 **Context:**

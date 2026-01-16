@@ -51,6 +51,52 @@ Click any term to expand its definition inline.
 - {{< knowl id="jordan-content" text="Jordan content" >}}
 - {{< knowl id="lebesgue-measure" text="Lebesgue measure" >}}
 - {{< knowl id="lebesgue-criterion-for-riemann-integrability" text="Lebesgue criterion for Riemann integrability" >}}
+
+---
+
+## Lebesgue Integration
+
+### Basic Definitions
+- {{< knowl id="ae-equality" text="Almost-everywhere equality" >}}
+- {{< knowl id="lebesgue-integral-nonnegative" text="Lebesgue integral (nonnegative functions)" >}}
+- {{< knowl id="lebesgue-integral" text="Lebesgue integral" >}}
+- {{< knowl id="lebesgue-integrable-function" text="Lebesgue integrable function" >}}
+
+### L^p Spaces
+- {{< knowl id="essential-supremum" text="Essential supremum" >}}
+- {{< knowl id="lp-norm" text="L^p norm" >}}
+- {{< knowl id="lp-space" text="L^p space" >}}
+- {{< knowl id="l1-function" text="L¹ function" >}}
+- {{< knowl id="l-infinity-function" text="L^∞ function" >}}
+
+### Convergence
+- {{< knowl id="convergence-almost-everywhere" text="Convergence almost everywhere" >}}
+- {{< knowl id="convergence-in-measure" text="Convergence in measure" >}}
+- {{< knowl id="convergence-in-lp" text="Convergence in L^p" >}}
+- {{< knowl id="uniform-integrability" text="Uniform integrability" >}}
+
+### Product Measures
+- {{< knowl id="product-measure" text="Product measure" >}}
+- {{< knowl id="pushforward-measure" text="Pushforward measure" >}}
+- {{< knowl id="change-of-variables-pushforward" text="Change of variables (pushforward)" >}}
+
+---
+
+## Convergence Theorems
+
+- {{< knowl id="monotone-convergence-theorem" text="Monotone Convergence Theorem" >}}
+- {{< knowl id="fatous-lemma" text="Fatou's Lemma" >}}
+- {{< knowl id="dominated-convergence-theorem" text="Dominated Convergence Theorem" >}}
+- {{< knowl id="tonellis-theorem" text="Tonelli's Theorem" >}}
+- {{< knowl id="fubinis-theorem" text="Fubini's Theorem" >}}
+
+---
+
+## Inequalities
+
+- {{< knowl id="jensen-inequality-integral" text="Jensen's Inequality (integral form)" >}}
+- {{< knowl id="minkowski-inequality-lp" text="Minkowski Inequality (L^p)" >}}
+
 ---
 
 ## Uncategorized

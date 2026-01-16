@@ -1,6 +1,6 @@
 ---
 title: "Unramified Extension of a $p$-Adic Field"
-description: "A finite extension with ramification index $e=1$, controlled by residue fields"
+description: "A finite extension with ramification index , controlled by residue fields"
 ---
 
 Let $K/k$ be a finite extension of nonarchimedean local fields (e.g. $p$-adic fields).

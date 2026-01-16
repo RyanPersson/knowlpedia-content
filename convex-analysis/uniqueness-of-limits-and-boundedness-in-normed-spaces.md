@@ -16,5 +16,6 @@ Let $(X,\|\cdot\|)$ be a normed space.
 $$
 \|x-y\|\le \|x-x_n\|+\|x_n-y\|\to 0,
 $$
+
 so $\|x-y\|=0$ and hence $x=y$.
 2. If $x_n\to x$, then for $n$ large we have $\|x_n-x\|\le 1$. Then $\|x_n\|\le \|x\|+1$ for all large $n$; finitely many remaining terms are bounded as well.

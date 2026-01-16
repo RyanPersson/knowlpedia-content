@@ -9,7 +9,7 @@ Fix a left $R$-module $N$. Then the functor
 \[
 (-)\otimes_R N : (\mathrm{Mod}\text{-}R) \to \mathrm{Ab}
 \]
-from right $R$-modules to abelian groups is the tensor product functor (see {{< knowl id="tensor-product" section="algebra-rings" text="tensor product" >}}).
+from right $R$-modules to abelian groups is the tensor product functor (see {{< knowl id="tensor-product" section="algebra-modules" text="tensor product" >}}).
 
 (Equivalently, if $M$ is a fixed right $R$-module, then $M\otimes_R(-): R\text{-}\mathrm{Mod}\to\mathrm{Ab}$ is also right exact.)
 
@@ -27,7 +27,7 @@ is exact.
 Equivalently: tensoring preserves cokernels and epimorphisms.
 
 ## Failure of left exactness and Tor
-Tensor need not preserve kernels (i.e. it need not preserve injections). For a {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequence" >}}
+Tensor need not preserve kernels (i.e. it need not preserve injections). For a {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequence" >}}
 \[
 0 \to A' \to A \to A'' \to 0,
 \]
@@ -37,7 +37,7 @@ there is a natural exact sequence
 \]
 where $\mathrm{Tor}^R_1$ is defined in {{< knowl id="tor" text="Tor" >}} and arises from {{< knowl id="long-exact-sequence-tor" text="the long exact sequence in Tor" >}}.
 
-In particular, $N$ is {{< knowl id="flat-module" section="algebra-rings" text="flat" >}} iff $(-)\otimes_R N$ is exact (iff $\mathrm{Tor}^R_1(-,N)=0$).
+In particular, $N$ is {{< knowl id="flat-module" section="algebra-modules" text="flat" >}} iff $(-)\otimes_R N$ is exact (iff $\mathrm{Tor}^R_1(-,N)=0$).
 
 ## Examples
 

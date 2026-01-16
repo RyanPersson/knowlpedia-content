@@ -1,6 +1,6 @@
 ---
 title: "$p$-Adic Field"
-description: "A finite extension of $\\mathbb{Q}_p$ with ring of integers and residue field"
+description: "A finite extension of with ring of integers and residue field"
 ---
 
 A **$p$-adic field** is a finite extension $k/\mathbb{Q}_p$ (hence a nonarchimedean local field).

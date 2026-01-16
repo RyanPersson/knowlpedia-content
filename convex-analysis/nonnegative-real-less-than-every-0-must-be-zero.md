@@ -8,6 +8,7 @@ Let $\ell\ge 0$ be a real number. If
 $$
 \ell<\varepsilon \quad\text{for every }\varepsilon>0,
 $$
+
 then $\ell=0$.
 
 **Proof.** If $\ell>0$, choose $\varepsilon:=\ell/2>0$. Then $\varepsilon<\ell$, contradicting the assumption that $\ell<\varepsilon$ for every $\varepsilon>0$. Hence $\ell=0$.

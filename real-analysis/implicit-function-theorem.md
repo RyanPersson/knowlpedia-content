@@ -7,6 +7,7 @@ description: "Solves an equation F(x,y)=0 locally for y as a function of x under
 $$
 F(x,g(x))=0 \quad \text{for all } x\in A.
 $$
+
 Moreover, for each $x\in A$,
 $$
 Dg(x)=-(D_yF(x,g(x)))^{-1}D_xF(x,g(x)).

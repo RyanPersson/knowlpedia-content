@@ -11,6 +11,7 @@ Fix a set of {{< knowl id="simple-root" text="simple roots" >}} and correspondin
 $$
 P=\{\lambda\in\mathfrak h^\ast\mid \lambda(H_\alpha)\in\mathbb Z\ \text{for all simple roots }\alpha\}.
 $$
+
 A weight is **dominant** if $\lambda(H_\alpha)\ge 0$ for all simple roots. Highest-weight classification says finite-dimensional irreducibles are parametrized by dominant integral weights (compare {{< knowl id="highest-weight-theorem" text="highest-weight classification" >}}).
 
 ### Link with compact groups and maximal tori

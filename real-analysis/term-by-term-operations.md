@@ -15,6 +15,7 @@ be {{< knowl id="power-series" text="power series" >}} with radii of convergence
   $$
   \sum_{n=0}^\infty (a_n+b_n)(x-x_0)^n = \sum_{n=0}^\infty a_n(x-x_0)^n + \sum_{n=0}^\infty b_n(x-x_0)^n.
   $$
+
 - (Multiplication) If $c_n=\sum_{k=0}^n a_k b_{n-k}$ (the coefficient {{< knowl id="cauchy-product" text="Cauchy product" >}}), then $\sum_{n=0}^\infty c_n (x-x_0)^n$ converges and equals the product of the two sums:
   $$
   \left(\sum_{n=0}^\infty a_n(x-x_0)^n\right)\left(\sum_{n=0}^\infty b_n(x-x_0)^n\right) = \sum_{n=0}^\infty c_n(x-x_0)^n.

@@ -7,6 +7,7 @@ Let $\mathfrak{g}$ be a finite-dimensional {{< knowl id="lie-algebra" text="Lie 
 $$
 B(X,Y)=\mathrm{tr}(\mathrm{ad}_X\circ \mathrm{ad}_Y).
 $$
+
 Write $\mathfrak{g}'=[\mathfrak{g},\mathfrak{g}]$ for the {{< knowl id="derived-subalgebra" text="derived subalgebra" >}}.
 
 **Theorem (Cartan’s criterion for solvability).** $\mathfrak{g}$ is {{< knowl id="solvable-lie-algebra" text="solvable" >}} if and only if

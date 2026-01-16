@@ -8,6 +8,7 @@ Let $M$ and $N$ be linear subspaces of a vector space $X$, and let $Y\subset X$.
 $$
 Y=M\oplus N
 $$
+
 if and only if every $y\in Y$ admits a **unique** representation
 $$
 y=a+b \quad\text{with } a\in M,\ b\in N.

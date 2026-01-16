@@ -8,6 +8,7 @@ Let $G$ be a finite {{< knowl id="group" text="group" >}} acting on a finite set
 $$
 \operatorname{Fix}(g)=\{x\in X : g\cdot x = x\}
 $$
+
 be the {{< knowl id="fixed-point-set" text="fixed-point set" >}} of $g$. Then the number of {{< knowl id="orbit" text="orbits" >}} of the action is
 $$
 |X/G| = \frac{1}{|G|}\sum_{g\in G} |\operatorname{Fix}(g)|.

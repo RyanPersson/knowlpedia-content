@@ -18,7 +18,7 @@ from a short exact sequence \(0\to A\to B\to C\to 0\) one gets an exact sequence
 \]
 but surjectivity of \(\operatorname{Hom}_R(M,B)\to \operatorname{Hom}_R(M,C)\) can fail in general.
 
-**Projectivity criterion.** \(\operatorname{Hom}_R(M,-)\) is exact (i.e. also right exact) iff \(M\) is {{< knowl id="projective-module" section="algebra-rings" text="projective" >}}.
+**Projectivity criterion.** \(\operatorname{Hom}_R(M,-)\) is exact (i.e. also right exact) iff \(M\) is {{< knowl id="projective-module" section="algebra-modules" text="projective" >}}.
 
 ### Tensor is right exact
 For any fixed \(N\), the functor \(-\otimes_R N\) is {{< knowl id="tensor-right-exact" text="right exact" >}}:
@@ -38,7 +38,7 @@ For fixed \(N\), the functor \(\operatorname{Hom}_R(-,N)\) sends short exact seq
 \]
 again with possible failure of surjectivity on the right.
 
-**Injectivity criterion.** \(\operatorname{Hom}_R(-,N)\) is exact (i.e. also right exact in this contravariant direction) iff \(N\) is {{< knowl id="injective-module" section="algebra-rings" text="injective" >}}.
+**Injectivity criterion.** \(\operatorname{Hom}_R(-,N)\) is exact (i.e. also right exact in this contravariant direction) iff \(N\) is {{< knowl id="injective-module" section="algebra-modules" text="injective" >}}.
 
 ## Link to Ext and Tor
 Because Hom and tensor are only one-sided exact in general, their derived functors measure the obstruction:

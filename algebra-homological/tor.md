@@ -9,7 +9,7 @@ To form a tensor product over $R$ in full generality, one typically takes a righ
 \[
 M \otimes_R N,
 \]
-see {{< knowl id="tensor-product" section="algebra-rings" text="tensor product" >}}. (If $R$ is commutative, one may treat both as left $R$-modules.)
+see {{< knowl id="tensor-product" section="algebra-modules" text="tensor product" >}}. (If $R$ is commutative, one may treat both as left $R$-modules.)
 
 ## Definition (via a projective resolution)
 Choose a {{< knowl id="projective-resolution" text="projective resolution" >}} $P_\bullet \to M$ by projective right $R$-modules:
@@ -26,8 +26,8 @@ This is well-defined up to canonical isomorphism and is functorial in both varia
 
 ## Basic properties
 - $\mathrm{Tor}^R_0(M,N)\cong M\otimes_R N$.
-- Because {{< knowl id="tensor-right-exact" text="tensor is right exact" >}}, the derived functors $\mathrm{Tor}^R_n$ measure precisely the *failure* of tensor to be left exact. In particular, a module $N$ is {{< knowl id="flat-module" section="algebra-rings" text="flat" >}} iff $\mathrm{Tor}^R_1(-,N)=0$ (equivalently, iff tensoring with $N$ preserves injections).
-- Any {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequence" >}} gives rise to a {{< knowl id="long-exact-sequence-tor" text="long exact sequence in Tor" >}}, a special case of {{< knowl id="long-exact-sequence-derived" text="the long exact sequence for derived functors" >}}.
+- Because {{< knowl id="tensor-right-exact" text="tensor is right exact" >}}, the derived functors $\mathrm{Tor}^R_n$ measure precisely the *failure* of tensor to be left exact. In particular, a module $N$ is {{< knowl id="flat-module" section="algebra-modules" text="flat" >}} iff $\mathrm{Tor}^R_1(-,N)=0$ (equivalently, iff tensoring with $N$ preserves injections).
+- Any {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequence" >}} gives rise to a {{< knowl id="long-exact-sequence-tor" text="long exact sequence in Tor" >}}, a special case of {{< knowl id="long-exact-sequence-derived" text="the long exact sequence for derived functors" >}}.
 
 ## Examples
 

@@ -11,6 +11,7 @@ Let $f:X\to\mathbb{R}$ be an extended-real-valued function on a vector space $X$
 $$
 f(\lambda x+(1-\lambda)y)\le \lambda f(x)+(1-\lambda)f(y).
 $$
+
 3. (**Extended Jensen inequality**) For all $m\in\mathbb{N}$, all $x_1,\dots,x_m\in X$, and all $\lambda_i\ge 0$ with $\sum_{i=1}^m\lambda_i=1$,
 $$
 f\!\left(\sum_{i=1}^m \lambda_i x_i\right)\le \sum_{i=1}^m \lambda_i f(x_i).

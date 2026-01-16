@@ -8,6 +8,7 @@ Let $G$ be a Lie group and let $\pi_V:G\to GL(V)$ and $\pi_W:G\to GL(W)$ be {{< 
 $$
 \pi_{V\otimes W}(g)=\pi_V(g)\otimes \pi_W(g)\in GL(V\otimes W),
 $$
+
 defined by $(\pi_V(g)\otimes \pi_W(g))(v\otimes w)=\pi_V(g)v\otimes \pi_W(g)w$ and extended linearly.
 
 ### Definition (Lie algebras)
@@ -19,6 +20,7 @@ i.e.
 $$
 X\cdot (v\otimes w)=(X\cdot v)\otimes w + v\otimes (X\cdot w).
 $$
+
 A direct computation using the commutator bracket on $\mathfrak{gl}(V\otimes W)$ shows $\rho_{V\otimes W}$ is a {{< knowl id="lie-algebra-homomorphism" text="Lie algebra homomorphism" >}}.
 
 ### Weight behavior (motivation)
@@ -26,4 +28,5 @@ If $\mathfrak g$ is semisimple and $\mathfrak h$ is a {{< knowl id="cartan-subal
 $$
 v\otimes w \in (V\otimes W)_{\lambda+\mu}.
 $$
+
 Thus the set of {{< knowl id="weight-of-a-representation" text="weights" >}} of $V\otimes W$ is contained in the Minkowski sum of the weight sets of $V$ and $W$. This is one of the basic mechanisms behind Clebsch–Gordan type decompositions and highest-weight calculations (compare {{< knowl id="highest-weight-representation" text="highest-weight representations" >}}).

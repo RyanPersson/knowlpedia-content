@@ -7,6 +7,7 @@ Let $N$ and $Q$ be groups. An **extension of $Q$ by $N$** is a group $E$ togethe
 $$
 1 \longrightarrow N \xrightarrow{\;\iota\;} E \xrightarrow{\;\pi\;} Q \longrightarrow 1.
 $$
+
 Exactness means $\iota$ is injective, $\pi$ is surjective, and $\iota(N)=\ker(\pi)$.
 
 In particular, $N$ identifies with a {{< knowl id="normal-subgroup" text="normal subgroup" >}} of $E$, and $Q$ is (canonically) isomorphic to the {{< knowl id="quotient-group" text="quotient group" >}} $E/N$. Extensions organize the ways a group can be built from a normal subgroup and a quotient.

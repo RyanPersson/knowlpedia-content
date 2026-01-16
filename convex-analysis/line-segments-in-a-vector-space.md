@@ -13,6 +13,7 @@ $$
 $$
 (a,b):=\{\lambda a+(1-\lambda)b:\lambda\in(0,1)\}.
 $$
+
 - The **half-open segments** are $[a,b):=\{\lambda a+(1-\lambda)b:\lambda\in(0,1]\}$ and $(a,b]:=\{\lambda a+(1-\lambda)b:\lambda\in[0,1)\}$.
 
 **Context.** A set is {{< knowl id="convex-set" text="convex" >}} exactly when it contains $[a,b]$ for every $a,b$ in the set.

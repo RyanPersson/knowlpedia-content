@@ -15,6 +15,7 @@ $$
 $$
 -\ln(\theta a+(1-\theta)b)\le -\theta\ln(a)-(1-\theta)\ln(b).
 $$
+
 Exponentiating yields $\theta a+(1-\theta)b\ge a^\theta b^{1-\theta}$. The cases $a=0$ or $b=0$ follow by continuity or direct inspection.
 
 **Example.** With $\theta=\tfrac12$, this becomes $\sqrt{ab}\le \tfrac{a+b}{2}$.

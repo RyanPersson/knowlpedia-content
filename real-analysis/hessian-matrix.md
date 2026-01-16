@@ -16,4 +16,5 @@ The off-diagonal entries are {{< knowl id="mixed-partial-derivative" text="mixed
   $$
   Hf(x,y)=\begin{pmatrix}2&1\\[2pt]1&2\end{pmatrix}.
   $$
+
 - For $f(x,y,z)=x^2+y^2+z^2$, one has $Hf(x,y,z)=2I_3$.

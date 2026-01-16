@@ -12,7 +12,7 @@ F:\mathcal A \to \mathcal B
 \]
 be an additive functor that is right exact. Assume $\mathcal A$ has enough projectives, so the left derived functors $L_nF$ exist.
 
-Then for every {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequence" >}}
+Then for every {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequence" >}}
 \[
 0 \to A' \xrightarrow{u} A \xrightarrow{v} A'' \to 0
 \]

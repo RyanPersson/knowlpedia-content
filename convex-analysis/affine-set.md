@@ -7,6 +7,7 @@ Let $X$ be a {{< knowl id="vector-space" section="linear-algebra" section="linea
 $$
 L[a,b]\subset \Omega,
 $$
+
 where $L[a,b]$ is the {{< knowl id="line-connecting-two-points" text="line connecting a and b" >}}.
 
 Equivalently, $\Omega$ is affine if it is a translate of a {{< knowl id="linear-subspace" text="linear subspace" >}} (see {{< knowl id="affine-sets-are-translates-of-subspaces" text="the translate characterization" >}}).

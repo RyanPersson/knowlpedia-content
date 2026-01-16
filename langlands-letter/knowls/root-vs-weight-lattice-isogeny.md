@@ -1,6 +1,6 @@
 ---
 title: "Root Lattice, Weight Lattice, and Isogeny Forms"
-description: "How lattices between $\\mathbb{Z}\\Phi$ and $X^*(T)$ parametrize central isogenies"
+description: "How lattices between and parametrize central isogenies"
 ---
 
 For a split reductive $G$ with split maximal torus $T$ (see {{< knowl id="maximal-torus-weight-lattice" section="langlands-letter/knowls" text="$X^*(T)$" >}}), the **root system** is $\Phi\subset X^*(T)$.

@@ -1,6 +1,6 @@
 ---
 title: "Galois Descent, Twisted Forms, and Inner Forms"
-description: "Constructing $k$-groups from $K$-groups using a Galois action and a 1-cocycle"
+description: "Constructing -groups from -groups using a Galois action and a 1-cocycle"
 ---
 
 Let $K/k$ be a finite Galois extension with group $\Gamma=\mathrm{Gal}(K/k)$ and let $G$ be a split $k$-group.

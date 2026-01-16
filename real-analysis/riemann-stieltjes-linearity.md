@@ -8,6 +8,7 @@ description: "The Riemann–Stieltjes integral is linear in both the integrand a
   $$
   \int_a^b (\alpha f+\beta h)\,dg = \alpha\int_a^b f\,dg+\beta\int_a^b h\,dg.
   $$
+
 - If $\int_a^b f\,dg_1$ and $\int_a^b f\,dg_2$ exist, then $\int_a^b f\,d(\alpha g_1+\beta g_2)$ exists and
   $$
   \int_a^b f\,d(\alpha g_1+\beta g_2) = \alpha\int_a^b f\,dg_1+\beta\int_a^b f\,dg_2.

@@ -9,6 +9,7 @@ Let $X$ be a {{< knowl id="vector-space" section="linear-algebra" section="linea
 $$
 \Omega-\omega:=\{x-\omega\mid x\in\Omega\}
 $$
+
 is a {{< knowl id="linear-subspace" text="linear subspace" >}} of $X$.
 
 Equivalently, $\Omega$ is affine iff there exist $\omega\in X$ and a subspace $L\subset X$ such that $\Omega=\omega+L$.

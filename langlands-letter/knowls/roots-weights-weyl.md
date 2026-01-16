@@ -1,6 +1,6 @@
 ---
 title: "Roots, Weyl Group, and Dominant Weights"
-description: "Roots $\\Phi\\subset X^*(T)$, Weyl group $W$, and the dominant chamber"
+description: "Roots , Weyl group , and the dominant chamber"
 ---
 
 Fix a split reductive $G/k$ and a split maximal torus $T$ (see {{< knowl id="maximal-torus-weight-lattice" section="langlands-letter/knowls" text="maximal torus and $X^*(T)$" >}}).

@@ -14,6 +14,7 @@ Consider the left-regular representation of $G$ on $L^2(G)$ (with respect to Haa
 $$
 L^2(G)\ \cong\ \widehat{\bigoplus}_{\pi\in \widehat G}\ (\dim \pi)\, \pi,
 $$
+
 a Hilbert direct sum over the set $\widehat G$ of isomorphism classes of {{< knowl id="irreducible-representation-lie-group" text="irreducible representations" >}}, where each irreducible $\pi$ occurs with multiplicity $\dim \pi$.
 
 3. (**Orthogonality**) Matrix coefficients of inequivalent irreducibles are orthogonal in $L^2(G)$, refining the {{< knowl id="schur-orthogonality-lie-groups" text="Schur orthogonality relations" >}}.

@@ -10,6 +10,7 @@ The **Poincaré group** is the group of affine isometries of Minkowski space. Co
 $$
 \mathrm{ISO}(1,3)=\Bbb R^{1,3}\rtimes O(1,3),
 $$
+
 where $O(1,3)$ is the {{< knowl id="lorentz-group" text="Lorentz group" >}} acting linearly on $\Bbb R^{1,3}$.
 
 An element is a pair $(a,\Lambda)$ with $a\in \Bbb R^{1,3}$ (a translation) and $\Lambda\in O(1,3)$, with group law
@@ -32,6 +33,7 @@ Its Lie algebra is a semidirect sum
 $$
 \mathfrak{iso}(1,3)=\Bbb R^{1,3}\rtimes \mathfrak{so}(1,3),
 $$
+
 where $\mathfrak{so}(1,3)$ is the Lorentz Lie algebra (an instance of {{< knowl id="orthogonal-lie-algebra" text="orthogonal Lie algebras" >}}). Writing elements as pairs $(v,X)$ with $v\in \Bbb R^{1,3}$ and $X\in \mathfrak{so}(1,3)$, the bracket is
 $$
 [(v,X),(w,Y)] = (Xw-Yv,\ [X,Y]).

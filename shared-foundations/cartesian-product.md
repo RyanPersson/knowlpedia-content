@@ -7,6 +7,7 @@ A **Cartesian product** of sets $A$ and $B$ is the set
 $$
 A\times B=\{(a,b) : a\in A \text{ and } b\in B\},
 $$
+
 where $(a,b)$ is an {{< knowl id="ordered-pair" text="ordered pair" >}}.
 
 Cartesian products provide the ambient sets in which {{< knowl id="relation" text="relations" >}} live: a relation from $A$ to $B$ is a {{< knowl id="subset" text="subset" >}} of $A\times B$.

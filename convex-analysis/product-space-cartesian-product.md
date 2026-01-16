@@ -7,10 +7,12 @@ Let $X_1,\dots,X_m$ be vector spaces over the same field $K$. Their **Cartesian 
 $$
 X:=X_1\times\cdots\times X_m
 $$
+
 becomes a {{< knowl id="vector-space" section="linear-algebra" section="linear-algebra" text="vector space" >}} over $K$ by defining, for $x=(x_1,\dots,x_m)$ and $y=(y_1,\dots,y_m)$ in $X$ and $\alpha\in K$,
 $$
 x+y:=(x_1+y_1,\dots,x_m+y_m),\qquad \alpha x:=(\alpha x_1,\dots,\alpha x_m).
 $$
+
 This vector space is called the **product space** (or **direct product**) of $X_1,\dots,X_m$.
 
 **Examples:**

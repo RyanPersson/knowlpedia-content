@@ -7,6 +7,7 @@ description: "A continuous real function on a compact set attains its maximum an
 $$
 f(x_{\min})\le f(x)\le f(x_{\max}) \quad \text{for all } x\in K.
 $$
+
 In particular, $f$ has a {{< knowl id="minimum" text="minimum" >}} and a {{< knowl id="maximum" text="maximum" >}} on $K$.
 
 On a closed {{< knowl id="interval" text="interval" >}} $[a,b]$, this theorem ensures the existence of global maximizers and minimizers needed in many basic arguments in differential and integral calculus.

@@ -15,4 +15,5 @@ Let $B:X\to Y$ be an {{< knowl id="affine-mapping" text="affine mapping" >}}.
 $$
 \lambda u+(1-\lambda)v = B(\lambda x+(1-\lambda)y)\in B(\Omega).
 $$
+
 For (2), if $x,y\in B^{-1}(\Theta)$ then $B(x),B(y)\in\Theta$, and convexity of $\Theta$ plus the same identity gives $B(\lambda x+(1-\lambda)y)\in\Theta$.

@@ -9,4 +9,4 @@ x_{n_j}\to x.
 $
 
 **Connection to parent theorem**:
-This is exactly the {{< knowl id="bolzano-weierstrass-theorem" text="Bolzano–Weierstrass theorem" >}}, often recorded as a corollary once {{< knowl id="compact-set" text="compactness" >}}/{{< knowl id="sequentially-compact-set" text="sequential compactness" >}} is being developed.
+This is exactly the {{< knowl id="bolzano-weierstrass-theorem" section="topology" text="Bolzano–Weierstrass theorem" >}}, often recorded as a corollary once {{< knowl id="compact-set" section="topology" text="compactness" >}}/{{< knowl id="sequentially-compact-set" section="topology" text="sequential compactness" >}} is being developed.

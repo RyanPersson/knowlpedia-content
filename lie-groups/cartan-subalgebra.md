@@ -15,6 +15,7 @@ Here $N_{\mathfrak{g}}(\mathfrak{h})=\{X\in\mathfrak{g}:[X,\mathfrak{h}]\subset 
 $$
 \mathfrak{g}=\mathfrak{h}\oplus \bigoplus_{\alpha\in \Phi}\mathfrak{g}_\alpha,
 $$
+
 where $\Phi\subset \mathfrak{h}^*$ is the {{< knowl id="root-lie-algebra" text="root set" >}} and $\mathfrak{g}_\alpha$ are the {{< knowl id="root-space" text="root spaces" >}}.
 
 **Motivation.** Cartan subalgebras are the “coordinate axes” for semisimple structure: weights of representations live in $\mathfrak{h}^*$ (see {{< knowl id="weights-in-dual-cartan" text="weights in the dual Cartan" >}}), and the choice of $\mathfrak{h}$ underlies Dynkin-diagram data such as the {{< knowl id="cartan-matrix" text="Cartan matrix" >}}.

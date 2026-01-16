@@ -10,6 +10,7 @@ A **derivation** of $\mathfrak g$ is a linear map $D:\mathfrak g\to\mathfrak g$ 
 $$
 D([X,Y])=[D(X),Y]+[X,D(Y)] \quad \text{for all }X,Y\in\mathfrak g,
 $$
+
 as in {{< knowl id="derivation-lie-algebra" text="derivations of a Lie algebra" >}}. The space of all derivations is a Lie algebra $\mathrm{Der}(\mathfrak g)$ under the commutator bracket.
 
 An **inner derivation** is one of the form $\mathrm{ad}_X$ for some $X\in\mathfrak g$, where $\mathrm{ad}_X(Y)=[X,Y]$ (see {{< knowl id="inner-derivation" text="inner derivations" >}} and the {{< knowl id="adjoint-representation-of-a-lie-algebra" text="adjoint representation" >}}). The set of inner derivations is an ideal $\mathrm{Inn}(\mathfrak g)=\mathrm{ad}(\mathfrak g)\subseteq \mathrm{Der}(\mathfrak g)$.

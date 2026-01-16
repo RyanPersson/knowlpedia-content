@@ -10,6 +10,7 @@ The **orthogonal group** is
 $$
 O(V)=\{A\in \mathrm{GL}(V)\mid \langle Av,Aw\rangle=\langle v,w\rangle\ \text{for all }v,w\in V\}.
 $$
+
 After choosing an orthonormal basis of $V\cong \Bbb R^n$, this becomes
 $$
 O(n)=\{A\in \mathrm{GL}(n,\Bbb R)\mid A^TA=I\}.

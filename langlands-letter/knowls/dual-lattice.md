@@ -1,6 +1,6 @@
 ---
 title: "Dual Lattice"
-description: "The $\\mathbb{Z}$-dual $L^\\vee=\\mathrm{Hom}(L,\\mathbb{Z})$ and its role in dual root data"
+description: "The -dual and its role in dual root data"
 ---
 
 A **lattice** is a free abelian group $L\cong \mathbb{Z}^r$.

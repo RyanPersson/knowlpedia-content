@@ -1,6 +1,6 @@
 ---
 title: "Chevalley Lattice and Integral Model"
-description: "A $\\mathbb{Z}$-lattice stable under a Chevalley $\\mathbb{Z}$-form, giving $G(\\mathbb{Z}_p)$ at good primes"
+description: "A -lattice stable under a Chevalley -form, giving at good primes"
 ---
 
 For split semisimple $G$, a Chevalley basis yields a **Chevalley $\mathbb{Z}$-form** $\mathfrak g_\mathbb{Z}\subset \mathfrak g$.

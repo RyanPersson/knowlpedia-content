@@ -20,6 +20,7 @@ Using the definition {{< knowl id="lie-algebra-of-a-lie-group" text="$\operatorn
 $$
 T_{(e_G,e_H)}(G\times H)\cong T_{e_G}G \oplus T_{e_H}H.
 $$
+
 Under this identification, the Lie bracket on $\operatorname{Lie}(G\times H)$ (defined via brackets of left-invariant vector fields) becomes the componentwise bracket above.
 
 ## Example

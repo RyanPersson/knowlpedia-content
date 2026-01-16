@@ -18,4 +18,5 @@ $$
 $$
 |x_i y_i|\le \frac{|x_i|^p}{p}+\frac{|y_i|^q}{q}.
 $$
+
 Sum over $i$ and undo the normalization.

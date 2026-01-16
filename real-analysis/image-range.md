@@ -6,6 +6,7 @@ description: "The set of values a function actually attains."
 Let $f:X\to Y$ be a function.
 - The **image** (or **range**) of $f$ is
 $$f(X):=\{f(x):x\in X\}\subseteq Y.$$
+
 - More generally, for a subset $A\subseteq X$, the image of $A$ under $f$ is
 $$f(A):=\{f(a):a\in A\}\subseteq Y.$$
 

@@ -16,6 +16,7 @@ When $X$ is a {{< knowl id="norm-normed-vector-space" text="normed vector space"
 $$
 \operatorname{int}(\Omega)\subset \operatorname{core}(\Omega)\subset \Omega,
 $$
+
 where $\operatorname{int}(\Omega)$ is the usual {{< knowl id="interior-of-a-set" text="interior" >}}. See also {{< knowl id="linear-closure" text="linear closure" >}} for the dual notion.
 
 **Examples:**

@@ -9,6 +9,7 @@ Let $X$ be a complex {{< knowl id="vector-space" section="linear-algebra" sectio
 $$
 |f(y)|\le p(y)\quad\text{for all }y\in Y,
 $$
+
 then there exists a complex-linear functional $F:X\to\mathbb{C}$ such that
 - $F|_Y=f$, and
 - $|F(x)|\le p(x)$ for all $x\in X$.

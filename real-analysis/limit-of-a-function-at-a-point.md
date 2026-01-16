@@ -3,7 +3,7 @@ title: "Limit of a function at a point"
 description: "The value L that f(x) approaches as x approaches x0, defined by an ε–δ condition."
 ---
 
-Let $(X,d_X)$ and $(Y,d_Y)$ be {{< knowl id="metric-space" text="metric spaces" >}}, let $E\subseteq X$, let $x_0\in X$ be a {{< knowl id="limit-point-accumulation-point-cluster-point" text="limit point" >}} of $E$ (meaning every {{< knowl id="neighborhood" text="neighborhood" >}} of $x_0$ meets $E\setminus\{x_0\}$), and let $f:E\to Y$. We say that **$f(x)$ tends to $L\in Y$ as $x\to x_0$**, written
+Let $(X,d_X)$ and $(Y,d_Y)$ be {{< knowl id="metric-space" section="topology" text="metric spaces" >}}, let $E\subseteq X$, let $x_0\in X$ be a {{< knowl id="limit-point" section="topology" text="limit point" >}} of $E$ (meaning every {{< knowl id="neighborhood" section="topology" text="neighborhood" >}} of $x_0$ meets $E\setminus\{x_0\}$), and let $f:E\to Y$. We say that **$f(x)$ tends to $L\in Y$ as $x\to x_0$**, written
 $$\lim_{x\to x_0} f(x)=L,$$
 if
 $$\forall \varepsilon>0,\ \exists \delta>0\ \text{such that}\ \forall x\in E,\ \bigl(0<d_X(x,x_0)<\delta \Rightarrow d_Y(f(x),L)<\varepsilon\bigr).$$

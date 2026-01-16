@@ -9,6 +9,7 @@ Let $X$ be a {{< knowl id="norm-normed-vector-space" text="normed vector space" 
 $$
 \operatorname{lin}(\Omega)=\overline{\Omega},
 $$
+
 where $\overline{\Omega}$ denotes the {{< knowl id="closure-of-a-set" text="closure" >}} of $\Omega$ in the norm-induced topology.
 
 **Context:**

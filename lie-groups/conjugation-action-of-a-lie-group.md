@@ -9,6 +9,7 @@ Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}.
 $$
 G\times G \to G,\quad (g,h)\mapsto ghg^{-1}.
 $$
+
 This is a {{< knowl id="smooth-action-lie-group" text="smooth action" >}} of $G$ on the manifold $G$.
 
 **Orbits and stabilizers.**

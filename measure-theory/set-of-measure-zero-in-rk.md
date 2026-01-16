@@ -7,6 +7,7 @@ A set $N\subseteq\mathbb{R}^k$ has **(Lebesgue) measure zero** (or is a **null s
 $$N \subseteq \bigcup_{n=1}^\infty R_n
 \quad\text{and}\quad
 \sum_{n=1}^\infty \operatorname{vol}(R_n) < \varepsilon,$$
+
 where for a rectangle $R=\prod_{j=1}^k [a_j,b_j]$ its volume is
 $$\operatorname{vol}(R)=\prod_{j=1}^k (b_j-a_j).$$
 (One may equivalently use open balls in place of rectangles; the definition is unchanged up to standard comparison arguments.)

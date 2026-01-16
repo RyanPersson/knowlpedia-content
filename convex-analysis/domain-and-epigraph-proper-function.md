@@ -9,6 +9,7 @@ Let $X$ be a vector space and let $f:X\to \mathbb{R}$ be an extended-real-valued
 $$
 \mathrm{dom}(f):=\{x\in X: f(x)<\infty\}.
 $$
+
 - The **epigraph** of $f$ is
 $$
 \mathrm{epi}(f):=\{(x,\alpha)\in X\times\mathbb{R}: f(x)\le \alpha\}.

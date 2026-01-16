@@ -69,6 +69,6 @@ Since \(\operatorname{Hom}(\mathbb Z,\mathbb Z/m)\cong \mathbb Z/m\), we get
 and \(\operatorname{Ext}^i=0\) for \(i\ge 2\).
 
 ### Example 3 (a quick vanishing test: projective/flat inputs)
-If \(M\) is {{< knowl id="projective-module" section="algebra-rings" text="projective" >}}, then \(\operatorname{Ext}^n_R(M,N)=0\) for all \(n\ge 1\) and all \(N\).
+If \(M\) is {{< knowl id="projective-module" section="algebra-modules" text="projective" >}}, then \(\operatorname{Ext}^n_R(M,N)=0\) for all \(n\ge 1\) and all \(N\).
 If \(N\) is {{< knowl id="flat-module" section="algebra-modules" text="flat" >}}, then \(\operatorname{Tor}^R_n(M,N)=0\) for all \(n\ge 1\) and all \(M\).
 Both statements follow because you can take a resolution of length \(0\) (exactness of the relevant functor), reflecting the general principle that derived functors measure failure of exactness (see {{< knowl id="hom-tensor-exactness" text="Hom/tensor exactness" >}}).

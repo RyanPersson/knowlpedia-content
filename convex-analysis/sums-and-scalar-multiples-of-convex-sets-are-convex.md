@@ -9,6 +9,7 @@ $$
 \Omega_1+\Omega_2:=\{x_1+x_2:x_1\in\Omega_1,\ x_2\in\Omega_2\},\qquad
 \lambda\Omega_1:=\{\lambda x:x\in\Omega_1\}.
 $$
+
 Then $\Omega_1+\Omega_2$ and $\lambda\Omega_1$ are convex.
 
 **Context.** This is a key stability property: adding convex "uncertainty sets" or scaling constraints preserves convexity.

@@ -12,7 +12,7 @@ Let
 \[
 0 \longrightarrow A' \xrightarrow{u} A \xrightarrow{v} A'' \longrightarrow 0
 \]
-be a {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequence" >}} of left \(R\)-modules, and let \(B\) be a left \(R\)-module. Then there are natural connecting maps
+be a {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequence" >}} of left \(R\)-modules, and let \(B\) be a left \(R\)-module. Then there are natural connecting maps
 \[
 \delta^n:\operatorname{Ext}_R^{n}(A',B)\longrightarrow \operatorname{Ext}_R^{n+1}(A'',B)
 \quad (n\ge 0),

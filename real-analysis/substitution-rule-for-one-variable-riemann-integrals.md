@@ -9,4 +9,4 @@ $
 $
 (If $\varphi$ is decreasing, the right-hand side automatically changes sign because $\varphi(\alpha)>\varphi(\beta)$.)
 
-This formula is the rigorous justification for substitution in calculus and is the one-dimensional prototype for higher-dimensional {{< knowl id="change-of-variables-formula-for-multiple-integrals" text="change of variables" >}}.
+This formula is the rigorous justification for substitution in calculus and is the one-dimensional prototype for higher-dimensional {{< knowl id="change-of-variables-formula" text="change of variables" >}}.

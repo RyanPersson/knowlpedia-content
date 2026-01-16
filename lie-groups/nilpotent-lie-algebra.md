@@ -13,6 +13,7 @@ The Lie algebra $\mathfrak g$ is **nilpotent** if there exists $s\ge 1$ such tha
 $$
 \gamma_{s+1}(\mathfrak g)=0.
 $$
+
 The smallest such $s$ is the **nilpotency class** (or step).
 
 ## Immediate consequences

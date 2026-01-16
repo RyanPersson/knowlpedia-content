@@ -16,6 +16,7 @@ $$
   $$
   Z(\mathfrak{g})=\ker(\operatorname{ad}).
   $$
+
 - $\mathfrak{g}$ is {{< knowl id="abelian-lie-algebra" text="abelian" >}} exactly when $Z(\mathfrak{g})=\mathfrak{g}$.
 
 **Context.** The center measures how far $\mathfrak{g}$ is from being faithful under its own adjoint action. It is also the natural coefficient space for central extensions: a quotient by a central ideal is a {{< knowl id="quotient-lie-algebra" text="quotient Lie algebra" >}} where “extra commuting directions” have been collapsed.

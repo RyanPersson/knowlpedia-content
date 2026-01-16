@@ -7,6 +7,7 @@ A **left coset** of a {{< knowl id="subgroup" text="subgroup" >}} $H$ in a {{< k
 $$
 gH := \{gh : h\in H\}
 $$
+
 for some $g\in G$. A **right coset** is a subset of the form
 $$
 Hg := \{hg : h\in H\}.

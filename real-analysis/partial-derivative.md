@@ -8,6 +8,7 @@ $$
 \frac{\partial f}{\partial x_j}(a)
 =\lim_{t\to 0}\frac{f(a_1,\dots,a_j+t,\dots,a_n)-f(a_1,\dots,a_n)}{t},
 $$
+
 when it exists (for vector-valued $f$, this limit is taken in $\mathbb{R}^m$).
 
 Partial derivatives are one-coordinate versions of the {{< knowl id="limit-at-a-point" text="limit at a point" >}} and are the entries used to build the {{< knowl id="jacobian-matrix" text="Jacobian matrix" >}}. Existence of all partial derivatives at $a$ does not by itself guarantee that $f$ is a {{< knowl id="differentiable-map" text="differentiable map" >}} at $a$.

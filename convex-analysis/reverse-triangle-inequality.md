@@ -15,4 +15,5 @@ $$
 $$
 \|x\|=\|(x-y)+y\|\le \|x-y\|+\|y\|\quad\Rightarrow\quad \|x\|-\|y\|\le \|x-y\|.
 $$
+
 Swap $x$ and $y$ to get $\|y\|-\|x\|\le \|x-y\|$, and combine both.

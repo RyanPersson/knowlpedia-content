@@ -9,6 +9,7 @@ Let $(X,d)$ be a {{< knowl id="metric-metric-space" text="metric space" >}}, let
   $$
   B(x_0;r):=\{x\in X\mid d(x,x_0)<r\}.
   $$
+
 - The **closed ball** of center $x_0$ and radius $r$ is
   $$
   B'(x_0;r):=\{x\in X\mid d(x,x_0)\le r\}.

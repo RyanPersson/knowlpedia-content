@@ -1,6 +1,6 @@
 ---
 title: "Unramified Prime and Frobenius Element"
-description: "The conjugacy class $\\mathrm{Frob}_p$ in a Galois group controlling unramified local factors"
+description: "The conjugacy class in a Galois group controlling unramified local factors"
 ---
 
 Let $K/k$ be a finite Galois extension of number fields and let $\mathfrak p$ be a prime of $k$ that is **unramified** in $K$ (ramification index $e=1$ in $K$).

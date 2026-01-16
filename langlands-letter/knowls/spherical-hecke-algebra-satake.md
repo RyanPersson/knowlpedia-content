@@ -1,6 +1,6 @@
 ---
 title: "Spherical Hecke Algebra and Satake Isomorphism"
-description: "The convolution algebra $\\mathcal H(G(k),K)$ and its identification with functions on the dual torus"
+description: "The convolution algebra and its identification with functions on the dual torus"
 ---
 
 Let $k$ be a nonarchimedean local field (e.g. $\mathbb{Q}_p$), $G/k$ reductive, and $K\subset G(k)$ a hyperspecial maximal compact (see {{< knowl id="maximal-compact-hyperspecial" section="langlands-letter/knowls" text="hyperspecial $K$" >}}).

@@ -7,7 +7,7 @@ Let \(R\) be a ring and
 \[
 0 \longrightarrow A \xrightarrow{i} B \xrightarrow{p} C \longrightarrow 0
 \]
-a short exact sequence of \(R\)-modules (see {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequence" >}}).
+a short exact sequence of \(R\)-modules (see {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequence" >}}).
 
 ## Statement (projective version)
 Suppose we are given projective resolutions
@@ -16,7 +16,7 @@ Suppose we are given projective resolutions
 \qquad
 \cdots \to P_1^C \to P_0^C \to C \to 0
 \]
-with each \(P_n^A, P_n^C\) {{< knowl id="projective-module" section="algebra-rings" text="projective" >}}. Then there exists a projective resolution of \(B\),
+with each \(P_n^A, P_n^C\) {{< knowl id="projective-module" section="algebra-modules" text="projective" >}}. Then there exists a projective resolution of \(B\),
 \[
 \cdots \to P_1^B \to P_0^B \to B \to 0,
 \]
@@ -33,7 +33,7 @@ Dually, given injective resolutions of \(A\) and \(C\), one constructs an inject
 \[
 0 \to I^\bullet_A \to I^\bullet_B \to I^\bullet_C \to 0.
 \]
-(See {{< knowl id="injective-resolution" text="injective resolution" >}} and {{< knowl id="injective-module" section="algebra-rings" text="injective modules" >}}.)
+(See {{< knowl id="injective-resolution" text="injective resolution" >}} and {{< knowl id="injective-module" section="algebra-modules" text="injective modules" >}}.)
 
 ## Why it matters
 The horseshoe lemma underlies functorial constructions of the long exact sequences in {{< knowl id="tor" text="Tor" >}} and {{< knowl id="ext" text="Ext" >}} (see {{< knowl id="long-exact-sequence-tor" text="long exact sequence for Tor" >}} and {{< knowl id="long-exact-sequence-ext" text="long exact sequence for Ext" >}}), and is a standard way to build resolutions needed to compute derived functors (see {{< knowl id="derived-functor" text="derived functor" >}}).

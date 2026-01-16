@@ -10,6 +10,7 @@ The differential at the identity
 $$
 (d\iota)_e : \operatorname{Lie}(H)\to \operatorname{Lie}(G)
 $$
+
 is injective, and its image identifies $\operatorname{Lie}(H)$ with the subspace $T_eH\subseteq T_eG$. Under this identification, $\operatorname{Lie}(H)$ is a {{< knowl id="lie-subalgebra" text="Lie subalgebra" >}} of $\operatorname{Lie}(G)$.
 
 Equivalently: the Lie algebra of a Lie subgroup is its tangent space at the identity, with the bracket inherited from $\operatorname{Lie}(G)$.

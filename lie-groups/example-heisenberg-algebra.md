@@ -1,6 +1,6 @@
 ---
 title: "Example: the Heisenberg Lie algebra"
-description: "A 3D nilpotent Lie algebra with basis $X,Y,Z$ and bracket $[X,Y]=Z$."
+description: "A 3D nilpotent Lie algebra with basis and bracket ."
 ---
 
 Let $\mathfrak h_3$ be the 3-dimensional real Lie algebra with basis $\{X,Y,Z\}$ and brackets

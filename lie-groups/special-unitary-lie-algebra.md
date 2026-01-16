@@ -1,6 +1,6 @@
 ---
 title: "Special unitary Lie algebra"
-description: "The Lie algebra of $SU(n)$: traceless skew-Hermitian matrices with the commutator bracket."
+description: "The Lie algebra of : traceless skew-Hermitian matrices with the commutator bracket."
 ---
 
 ### Definition
@@ -8,10 +8,12 @@ The **special unitary Lie algebra** $\mathfrak{su}(n)$ is the real Lie algebra o
 $$
 \mathfrak{su}(n)=\{X\in M_n(\mathbb C)\mid X^\ast+X=0,\ \mathrm{tr}(X)=0\},
 $$
+
 where $X^\ast=\overline{X}^{\,T}$ is the Hermitian adjoint. The Lie bracket is the matrix commutator
 $$
 [X,Y]=XY-YX.
 $$
+
 Equivalently, $\mathfrak{su}(n)$ is the codimension-one ideal inside the {{< knowl id="unitary-lie-algebra" text="unitary Lie algebra $\\mathfrak{u}(n)$" >}} given by the trace-zero condition.
 
 ### Basic structure and context

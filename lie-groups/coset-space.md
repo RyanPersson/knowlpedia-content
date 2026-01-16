@@ -1,6 +1,6 @@
 ---
 title: "Coset space"
-description: "The quotient space $G/H$ of left cosets, a smooth manifold when $H$ is a closed Lie subgroup."
+description: "The quotient space of left cosets, a smooth manifold when is a closed Lie subgroup."
 ---
 
 Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} and let $H\le G$ be a subgroup.

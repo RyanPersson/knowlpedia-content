@@ -8,10 +8,12 @@ Let $G$ be a {{< knowl id="group" text="group" >}}, let $H \le G$ be a {{< knowl
 $$
 HK = \{hk : h \in H,\ k \in K\}.
 $$
+
 Then $HK \le G$, $K \trianglelefteq HK$, and $H \cap K \trianglelefteq H$. Moreover, the map
 $$
 \phi: H \to HK/K, \qquad \phi(h) = hK,
 $$
+
 is a {{< knowl id="group-homomorphism" text="homomorphism" >}} with kernel $H \cap K$, hence induces an isomorphism of {{< knowl id="quotient-group" text="quotient groups" >}}
 $$
 H/(H \cap K) \cong HK/K.

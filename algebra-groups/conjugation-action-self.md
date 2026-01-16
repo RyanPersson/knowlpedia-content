@@ -8,6 +8,7 @@ Let $G$ be a {{< knowl id="group" text="group" >}}. Define a map $G\times G\to G
 $$
 g\cdot x := gxg^{-1}.
 $$
+
 Then this defines a {{< knowl id="group-action" text="group action" >}} of $G$ on itself, called the {{< knowl id="conjugation-action" text="conjugation action" >}}.
 
 **Context.**

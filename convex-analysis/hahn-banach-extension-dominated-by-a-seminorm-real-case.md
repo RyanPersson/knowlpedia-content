@@ -9,6 +9,7 @@ Let $X$ be a real {{< knowl id="vector-space" section="linear-algebra" section="
 $$
 |f(y)|\le p(y)\quad\text{for all }y\in Y,
 $$
+
 then there exists a linear functional $F:X\to\mathbb{R}$ such that
 - $F|_Y=f$, and
 - $|F(x)|\le p(x)$ for all $x\in X$.

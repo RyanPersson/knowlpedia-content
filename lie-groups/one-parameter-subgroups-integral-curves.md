@@ -12,6 +12,7 @@ Fix $X\in\mathfrak g$, and let $X^L$ be the corresponding {{< knowl id="left-inv
    $$
    t\longmapsto \exp(tX),
    $$
+
    where $\exp$ is the {{< knowl id="exponential-map-lie-group" text="exponential map" >}}. In particular, $\exp(tX)$ solves the ODE $g'(t)=(X^L)_{g(t)}$ with $g(0)=e$.
 
 2. More generally, the integral curve of $X^L$ starting at $g_0\in G$ is

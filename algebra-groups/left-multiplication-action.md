@@ -8,6 +8,7 @@ Let $G$ be a {{< knowl id="group" text="group" >}}. Define a map $G\times G\to G
 $$
 g\cdot x := gx.
 $$
+
 Then this defines a {{< knowl id="group-action" text="group action" >}} of $G$ on the underlying set of $G$.
 
 Moreover, this action is:

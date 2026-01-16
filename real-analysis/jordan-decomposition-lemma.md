@@ -7,6 +7,7 @@ description: "A bounded variation function can be written as a difference of two
 $$
 g = g_1 - g_2.
 $$
+
 Moreover, one can choose $g_1,g_2$ so that the {{< knowl id="total-variation" text="total variation" >}} satisfies
 $$
 V_a^b(g) = \bigl(g_1(b)-g_1(a)\bigr) + \bigl(g_2(b)-g_2(a)\bigr).

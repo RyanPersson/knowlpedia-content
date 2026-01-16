@@ -11,6 +11,7 @@ In the notes, for convex analysis it is convenient to work mostly with the one-s
 $$
 \mathbb{R}:=(-\infty,\infty]=\mathbb{R}\cup\{\infty\},
 $$
+
 so that expressions like $-\infty+\infty$ never arise.
 
 **Infimum/supremum conventions (in $\overline{\mathbb{R}}$).**

@@ -1,6 +1,6 @@
 ---
 title: "Semidirect Product"
-description: "A group $\\Gamma\\ltimes H$ built from an action of $\\Gamma$ on $H$"
+description: "A group built from an action of on"
 ---
 
 Let $\Gamma$ and $H$ be groups and let $\Gamma$ act on $H$ by automorphisms ($\gamma:h\mapsto {}^\gamma h$).

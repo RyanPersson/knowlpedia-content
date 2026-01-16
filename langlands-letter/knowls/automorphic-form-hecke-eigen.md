@@ -1,6 +1,6 @@
 ---
 title: "Automorphic Form and Hecke Eigenvalues"
-description: "A function on $G(F)\\backslash G(\\mathbb{A}_F)$ whose unramified Hecke action yields Satake parameters"
+description: "A function on whose unramified Hecke action yields Satake parameters"
 ---
 
 Let $F$ be a number field and $\mathbb{A}_F$ its adele ring; write $G(\mathbb{A}_F)$ for adelic points of $G$.

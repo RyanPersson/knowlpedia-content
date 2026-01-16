@@ -8,6 +8,7 @@ Let $\mathfrak g$ be a Lie algebra and let $\rho:\mathfrak g\to \mathfrak{gl}(V)
 $$
 \rho(X)(W)\subseteq W \quad \text{for all } X\in\mathfrak g.
 $$
+
 In this case, restricting $\rho(X)$ to $W$ defines a representation $\rho|_W:\mathfrak g\to \mathfrak{gl}(W)$.
 
 ### Quotients and irreducibility
@@ -15,6 +16,7 @@ If $W\subseteq V$ is a subrepresentation, then the quotient space $V/W$ inherits
 $$
 X\cdot (v+W) = (X\cdot v)+W,
 $$
+
 well-defined precisely because $W$ is invariant. A representation is **irreducible** (see {{< knowl id="irreducible-representation-lie-algebra" text="irreducible representations" >}}) if its only subrepresentations are $\{0\}$ and $V$.
 
 ### Why this matters

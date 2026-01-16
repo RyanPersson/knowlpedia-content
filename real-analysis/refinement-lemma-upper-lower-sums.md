@@ -9,6 +9,7 @@ U(f,P')\le U(f,P)
 \quad\text{and}\quad
 L(f,P')\ge L(f,P),
 $$
+
 where $U(f,P)$ and $L(f,P)$ denote the {{< knowl id="upper-sum" text="upper sum" >}} and {{< knowl id="lower-sum" text="lower sum" >}} of $f$ with respect to $P$.
 
 This monotonicity under refinement underlies the definition of the {{< knowl id="riemann-integral" text="Riemann integral" >}} as the common value of the infimum of upper sums and the supremum of lower sums.

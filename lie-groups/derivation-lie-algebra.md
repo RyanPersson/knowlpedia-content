@@ -1,6 +1,6 @@
 ---
 title: "Derivation of a Lie algebra"
-description: "A linear map $D$ with $D([x,y])=[Dx,y]+[x,Dy]$; derivations form a Lie algebra containing the inner derivations."
+description: "A linear map with ; derivations form a Lie algebra containing the inner derivations."
 ---
 
 Let $\mathfrak g$ be a {{< knowl id="lie-algebra" text="Lie algebra" >}} over a field of characteristic $0$ (typically $\mathbb R$ or $\mathbb C$).

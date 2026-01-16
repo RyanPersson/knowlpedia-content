@@ -7,6 +7,7 @@ Let $X$ be a {{< knowl id="vector-space" section="linear-algebra" section="linea
 $$
 \Omega=\omega+L
 $$
+
 for some $\omega\in\Omega$.
 
 By {{< knowl id="affine-sets-are-translates-of-subspaces" text="the translate characterization" >}}, every nonempty affine set is parallel to at least one subspace. The parallel subspace is unique and can be written explicitly as $\Omega-\Omega$; see {{< knowl id="parallel-subspace-to-an-affine-set-is" text="the Ω−Ω proposition" >}}.

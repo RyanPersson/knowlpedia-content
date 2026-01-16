@@ -1,6 +1,6 @@
 ---
 title: "Group Algebra of a Lattice and Multiplicative Basis"
-description: "The algebra $\\mathbb{C}[L]$ with basis elements $\\xi_\\lambda$ and $\\xi_\\lambda\\xi_\\mu=\\xi_{\\lambda+\\mu}$"
+description: "The algebra with basis elements and"
 ---
 
 Let $L$ be a free abelian group (a **lattice**), e.g. $L=X^*(T)$ (see {{< knowl id="maximal-torus-weight-lattice" section="langlands-letter/knowls" text="$X^*(T)$" >}}).

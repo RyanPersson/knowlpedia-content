@@ -11,6 +11,7 @@ Let $G$ be a {{< knowl id="compact-lie-group" text="compact Lie group" >}} with 
 $$
 \langle X,Y\rangle := \int_G \langle \mathrm{Ad}_g X,\, \mathrm{Ad}_g Y\rangle_0 \, dg.
 $$
+
 This averaged form is $\mathrm{Ad}(G)$-invariant by construction, and it induces a bi-invariant metric on $G$ via left translation.
 
 **Consequences.** With a bi-invariant metric, geodesics through the identity are exactly {{< knowl id="one-parameter-subgroup" text="one-parameter subgroups" >}}, making the {{< knowl id="exponential-map-lie-group" text="exponential map" >}} geometrically canonical. This also provides natural bi-invariant volume forms and simplifies curvature computations.

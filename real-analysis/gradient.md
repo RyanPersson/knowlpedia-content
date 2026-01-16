@@ -7,6 +7,7 @@ A **gradient** of a differentiable function $f:U\to \mathbb{R}$ (with $U\subsete
 $$
 \nabla f(a)=\left(\frac{\partial f}{\partial x_1}(a),\dots,\frac{\partial f}{\partial x_n}(a)\right),
 $$
+
 formed from the {{< knowl id="partial-derivative" text="partial derivatives" >}} of $f$.
 
 With respect to the standard {{< knowl id="inner-product" section="linear-algebra" text="inner product" >}} on $\mathbb{R}^n$, the gradient encodes {{< knowl id="directional-derivative" text="directional derivatives" >}} via $D_v f(a)=\nabla f(a)\cdot v$ whenever $f$ is {{< knowl id="differentiable-map" text="differentiable" >}} at $a$. Points where $\nabla f(a)=0$ are {{< knowl id="critical-point" text="critical points" >}}.

@@ -3,7 +3,7 @@ title: "Existence of injective resolutions"
 description: "Every module embeds into an injective module, hence admits an injective resolution."
 ---
 
-Let \(R\) be a ring and \(M\) a left \(R\)-{{< knowl id="module" section="algebra-rings" text="module" >}}.
+Let \(R\) be a ring and \(M\) a left \(R\)-{{< knowl id="module" section="algebra-modules" text="module" >}}.
 
 ## Statement
 An **{{< knowl id="injective-resolution" text="injective resolution" >}}** of \(M\) is an exact augmented {{< knowl id="cochain-complex" text="cochain complex" >}}

@@ -9,6 +9,7 @@ The **interior** of $E$, denoted $\operatorname{int}(E)$ or $E^\circ$, is define
 $$
 \operatorname{int}(E):=\bigcup\{\,G\subset E \mid G \text{ is open}\,\}.
 $$
+
 Equivalently, $\operatorname{int}(E)$ is the **largest** {{< knowl id="open-subset" text="open set" >}} contained in $E$.
 
 A pointwise characterization is given by {{< knowl id="interior-characterized-by-existence-of-a-ball" text="balls inside the set" >}}.

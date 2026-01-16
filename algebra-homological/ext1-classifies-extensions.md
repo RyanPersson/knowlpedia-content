@@ -6,7 +6,7 @@ description: "Ext¹_R(C,A) is naturally identified with equivalence classes of s
 Let \(R\) be a ring and \(A,C\) left \(R\)-modules.
 
 ## Statement
-An **extension of \(C\) by \(A\)** is a {{< knowl id="short-exact-sequence" section="algebra-rings" text="short exact sequence" >}}
+An **extension of \(C\) by \(A\)** is a {{< knowl id="short-exact-sequence" section="algebra-modules" text="short exact sequence" >}}
 \[
 0 \longrightarrow A \xrightarrow{i} E \xrightarrow{p} C \longrightarrow 0.
 \]

@@ -8,6 +8,7 @@ Let $G$ be a finitely generated {{< knowl id="abelian-group" text="abelian group
 $$
 G \cong \mathbb{Z}^r \oplus \mathbb{Z}/n_1\mathbb{Z} \oplus \cdots \oplus \mathbb{Z}/n_k\mathbb{Z},
 $$
+
 where $\oplus$ denotes the {{< knowl id="direct-sum-groups" text="direct sum" >}} of groups. The integer $r$ (the free rank) and the invariant factors $n_1,\dots,n_k$ are uniquely determined by $G$.
 
 Equivalently, $G$ decomposes as a direct sum of {{< knowl id="cyclic-subgroup" text="cyclic" >}} groups of prime-power order (the "elementary divisor" form). This theorem is the group-theoretic specialization of {{< knowl id="structure-theorem-pid" section="algebra-modules" text="the structure theorem for finitely generated modules over a PID" >}} with the PID $\mathbb{Z}$.

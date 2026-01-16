@@ -8,6 +8,7 @@ Let $J$ be the standard symplectic matrix
 $$
 J=\begin{pmatrix}0&I_n\\-I_n&0\end{pmatrix},
 $$
+
 so the bilinear form $\omega(u,v)=u^T J v$ on $\mathbb R^{2n}$ is nondegenerate and skew-symmetric. The **real symplectic group** is
 $$
 \mathrm{Sp}(2n,\mathbb R)=\{A\in GL(2n,\mathbb R)\mid A^T J A = J\}.
