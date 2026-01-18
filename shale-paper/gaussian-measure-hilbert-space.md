@@ -9,6 +9,6 @@ given by the finite-dimensional Gaussian integral on \(\mathrm{ran}(P)\).
 
 **Key properties (paper use):**
 - Defines \(L_p(M,n)\) spaces used throughout §3.
-- Quasi-invariance under \(T\) holds exactly for \(T\in {{< knowl id="restricted-general-linear-group-rgl" text="rGL(M)" >}}\).
+- Quasi-invariance under $T$ holds exactly for $T\in \mathrm{rGL}(M)$ (see {{< knowl id="restricted-general-linear-group-rgl" text="restricted general linear group" >}}).
 
 **Example:** In finite dimensions, this is the standard density \(\propto e^{-\|x\|^2/2c}\,dx\).

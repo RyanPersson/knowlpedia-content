@@ -1,23 +1,13 @@
 ---
 title: "Manually Created Knowls - Review"
-description: "Index of knowls manually created for review and potential deletion"
+description: "Index of knowls manually created for review"
 ---
 
-## Manually Created (27 knowls)
+## Manually Created Knowls (20 remaining after deduplication)
 
-### Duplicates (7) - Should Delete
+**Duplicates deleted:** continuous-function, differentiable-function, trace-matrix, linear-independence, dimension, fundamental-theorem-of-calculus, completeness-axiom-of-r
 
-| Created | Pre-existing Duplicate |
-|---------|----------------------|
-| {{< knowl id="continuous-function" section="real-analysis" text="continuous-function" >}} | {{< knowl id="continuous-map" section="topology" text="continuous-map" >}} |
-| {{< knowl id="differentiable-function" section="real-analysis" text="differentiable-function" >}} | {{< knowl id="differentiable-map" section="real-analysis" text="differentiable-map" >}} |
-| {{< knowl id="trace-matrix" section="linear-algebra" text="trace-matrix" >}} | {{< knowl id="trace" section="linear-algebra" text="trace" >}} |
-| {{< knowl id="linear-independence" section="algebra-modules" text="linear-independence" >}} | {{< knowl id="linearly-independent-and-linearly-dependent-sets" section="convex-analysis" text="linearly-independent-and-linearly-dependent-sets" >}} |
-| {{< knowl id="dimension" section="algebra-modules" text="dimension" >}} | {{< knowl id="basis-hamel-basis-and-dimension" section="convex-analysis" text="basis-hamel-basis-and-dimension" >}} |
-| {{< knowl id="fundamental-theorem-of-calculus" section="real-analysis" text="fundamental-theorem-of-calculus" >}} | {{< knowl id="fundamental-theorem-of-calculus-i" section="real-analysis" text="fundamental-theorem-of-calculus-i" >}} |
-| {{< knowl id="completeness-axiom-of-r" section="real-analysis" text="completeness-axiom-of-r" >}} | {{< knowl id="completeness-axiom" section="real-analysis" text="completeness-axiom" >}} |
-
-### Likely Unique (20)
+### Remaining Manually Created (20)
 
 **Differential Geometry:**
 - {{< knowl id="smooth-manifold" section="differential-geometry" text="smooth-manifold" >}}

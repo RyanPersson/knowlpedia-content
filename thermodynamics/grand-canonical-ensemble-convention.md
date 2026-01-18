@@ -17,8 +17,4 @@ where:
 - $H_N$ is the {{< knowl id="hamiltonian-function-classical" section="stat-mech" text="Hamiltonian" >}} for $N$ particles
 - $\Xi$ is the {{< knowl id="grand-partition-function" section="stat-mech" text="grand partition function" >}}
 
-## Related concepts
-
-- {{< knowl id="grand-canonical-ensemble" section="stat-mech" text="Grand canonical ensemble" >}} (detailed definition)
-- {{< knowl id="grand-potential" text="Grand potential" >}}: the thermodynamic potential natural to this ensemble
-- {{< knowl id="particle-reservoir" section="stat-mech" text="Particle reservoir" >}}
+The natural thermodynamic potential for this ensemble is the {{< knowl id="grand-potential" text="grand potential" >}}. The bath is modeled as a {{< knowl id="particle-reservoir" section="stat-mech" text="particle reservoir" >}}. For the full formal definition, see {{< knowl id="grand-canonical-ensemble" section="stat-mech" text="grand canonical ensemble" >}}.

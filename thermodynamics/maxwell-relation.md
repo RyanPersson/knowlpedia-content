@@ -5,7 +5,7 @@ description: "Equalities between mixed partial derivatives of thermodynamic pote
 
 ## Definition and physical interpretation
 
-A **Maxwell relation** is an identity obtained by equating mixed {{< knowl id="partial-derivative" section="real-analysis" text="partial derivatives" >}} of a thermodynamic potential. The key input is that a thermodynamic potential is a {{< knowl id="state-function" text="state function" >}} with an exact differential, and (assuming sufficient smoothness, e.g. twice continuously {{< knowl id="differentiable-function" section="real-analysis" text="differentiable" >}}) mixed derivatives commute.
+A **Maxwell relation** is an identity obtained by equating mixed {{< knowl id="partial-derivative" section="real-analysis" text="partial derivatives" >}} of a thermodynamic potential. The key input is that a thermodynamic potential is a {{< knowl id="state-function" text="state function" >}} with an exact differential, and (assuming sufficient smoothness, e.g. twice continuously {{< knowl id="differentiable-map" section="real-analysis" text="differentiable" >}}) mixed derivatives commute.
 
 Physically, Maxwell relations let you replace derivatives involving hard-to-measure quantities such as the {{< knowl id="thermodynamic-entropy" text="entropy" >}} by derivatives of more directly accessible observables such as {{< knowl id="pressure-thermo" text="pressure" >}}, {{< knowl id="volume-thermo" text="volume" >}}, and {{< knowl id="temperature-thermo" text="temperature" >}}.
 

@@ -27,12 +27,12 @@ Existence in module categories is guaranteed by {{< knowl id="projective-resolut
 ## What resolutions are for
 - For any \(R\)-module \(N\), the homology of \(P_\bullet\otimes_R N\) computes {{< knowl id="tor" text="Tor" >}}:
   \[
-  H_i(P_\bullet\otimes_R N)\cong {{< knowl id="tor" text="Tor_i^R" >}}(M,N).
+  H_i(P_\bullet\otimes_R N)\cong \mathrm{Tor}_i^R(M,N).
   \]
   (Tensor is {{< knowl id="tensor-right-exact" text="right exact" >}}, so one needs derived functors.)
 - Applying \(\operatorname{Hom}_R(P_\bullet,N)\) produces a {{< knowl id="cochain-complex" text="cochain complex" >}} whose cohomology computes {{< knowl id="ext" text="Ext" >}}:
   \[
-  H^i(\operatorname{Hom}_R(P_\bullet,N))\cong {{< knowl id="ext" text="Ext_R^i" >}}(M,N).
+  H^i(\operatorname{Hom}_R(P_\bullet,N))\cong \mathrm{Ext}_R^i(M,N).
   \]
 
 ## Examples
@@ -51,11 +51,12 @@ Tensor the resolution in Example 1 with \(\mathbb Z/m\mathbb Z\):
 \]
 Then
 \[
-{{< knowl id="tor" text="Tor_1" >}}_1^{\mathbb Z}(\mathbb Z/n,\mathbb Z/m)
+\mathrm{Tor}_1^{\mathbb Z}(\mathbb Z/n,\mathbb Z/m)
 \cong H_1
 \cong \ker(\times n:\mathbb Z/m\to\mathbb Z/m)
 \cong \mathbb Z/\gcd(m,n)\mathbb Z.
 \]
+(See {{< knowl id="tor" text="Tor" >}}.)
 
 ### Example 3: A resolution of \(k\) as a \(k[x]\)-module
 Let \(R=k[x]\) and \(M=R/(x)\cong k\). Then
@@ -64,7 +65,8 @@ Let \(R=k[x]\) and \(M=R/(x)\cong k\). Then
 \]
 is a free (hence projective) resolution of \(k\) of length \(1\). For instance,
 \[
-{{< knowl id="tor" text="Tor_1" >}}_1^{k[x]}(k,k)
+\mathrm{Tor}_1^{k[x]}(k,k)
 \cong H_1\bigl((0\to R\xrightarrow{x}R\to 0)\otimes_{k[x]}k\bigr)
 \cong H_1(0\to k\xrightarrow{0}k\to 0)\cong k.
 \]
+(See {{< knowl id="tor" text="Tor" >}}.)

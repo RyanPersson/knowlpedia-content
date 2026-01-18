@@ -21,7 +21,7 @@ $$
 where $F=-(1/\beta)\log Z$ is the true free energy.
 
 ## Derivation idea (Jensen / convexity)
-Write the partition function using a {{< knowl id="trace-matrix" section="linear-algebra" text="trace" >}} (for classical systems, this trace is the sum/integral over microstates):
+Write the partition function using a {{< knowl id="trace" section="linear-algebra" text="trace" >}} (for classical systems, this trace is the sum/integral over microstates):
 $$
 Z = \mathrm{Tr}\,\exp(-\beta H)
      = \mathrm{Tr}\,\exp(-\beta H_0)\,\exp\!\big(-\beta(H-H_0)\big)

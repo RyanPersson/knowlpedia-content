@@ -60,6 +60,6 @@ H_1 \cong \ker(\times n:\mathbb Z/m\to \mathbb Z/m)\cong \mathbb Z/\gcd(m,n)\mat
 \]
 so
 \[
-{{< knowl id="tor" text="Tor_1" >}}_1^{\mathbb Z}(\mathbb Z/n,\mathbb Z/m)\cong \mathbb Z/\gcd(m,n)\mathbb Z.
+\mathrm{Tor}_1^{\mathbb Z}(\mathbb Z/n,\mathbb Z/m)\cong \mathbb Z/\gcd(m,n)\mathbb Z.
 \]
-(Here we are using the identification \(H_1(P_\bullet\otimes -)\cong {{< knowl id="tor" text="Tor_1" >}}\).)
+(Here we are using the identification $H_1(P_\bullet\otimes -)\cong \mathrm{Tor}_1$; see {{< knowl id="tor" text="Tor" >}}.)

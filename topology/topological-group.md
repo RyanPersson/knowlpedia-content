@@ -5,7 +5,7 @@ description: "A group with a topology making multiplication and inversion contin
 
 A **topological group** is a {{< knowl id="group" section="algebra-groups" text="group" >}} \(G\) equipped with a {{< knowl id="topological-space" text="topology" >}} such that:
 
-1. The multiplication map \(\mu: G \times G \to G\), \((g, h) \mapsto gh\), is {{< knowl id="continuous-function" section="real-analysis" text="continuous" >}}.
+1. The multiplication map \(\mu: G \times G \to G\), \((g, h) \mapsto gh\), is {{< knowl id="continuous-map" text="continuous" >}}.
 2. The inversion map \(\iota: G \to G\), \(g \mapsto g^{-1}\), is continuous.
 
 Equivalently, the single map \((g, h) \mapsto gh^{-1}\) is continuous.

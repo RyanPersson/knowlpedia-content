@@ -3,7 +3,7 @@ title: "Heine-Cantor theorem"
 description: "A continuous function on a compact metric space is uniformly continuous."
 ---
 
-The **Heine-Cantor theorem** states: if \(f: K \to Y\) is a {{< knowl id="continuous-function" section="real-analysis" text="continuous function" >}} from a {{< knowl id="compact-set" text="compact" >}} {{< knowl id="metric-space" text="metric space" >}} \(K\) to a metric space \(Y\), then \(f\) is {{< knowl id="uniform-continuity" section="real-analysis" text="uniformly continuous" >}}.
+The **Heine-Cantor theorem** states: if \(f: K \to Y\) is a {{< knowl id="continuous-map" text="continuous function" >}} from a {{< knowl id="compact-set" text="compact" >}} {{< knowl id="metric-space" text="metric space" >}} \(K\) to a metric space \(Y\), then \(f\) is {{< knowl id="uniform-continuity" section="real-analysis" text="uniformly continuous" >}}.
 
 ## Statement
 For every \(\varepsilon > 0\), there exists \(\delta > 0\) such that for all \(x, y \in K\):

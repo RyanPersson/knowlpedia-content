@@ -49,16 +49,18 @@ which identifies with
 \]
 Thus
 \[
-{{< knowl id="ext" text="Ext^1" >}}_{\mathbb Z}(\mathbb Z/n\mathbb Z,\mathbb Z)
+\mathrm{Ext}^1_{\mathbb Z}(\mathbb Z/n\mathbb Z,\mathbb Z)
 \;\cong\;
 H^1(\operatorname{Hom}(P_\bullet,\mathbb Z))
 \;\cong\;
 \mathbb Z/n\mathbb Z.
 \]
+(See {{< knowl id="ext" text="Ext" >}}.)
 
 ### Example 3: Vanishing over a field
 If \(k\) is a field and \(V,W\) are \(k\)-vector spaces, then every \(k\)-module is {{< knowl id="projective-module" section="algebra-modules" text="projective" >}} and {{< knowl id="injective-module" section="algebra-modules" text="injective" >}}. Hence
 \[
-{{< knowl id="ext" text="Ext^n" >}}_k(V,W)=0\quad \text{for all }n>0,
+\mathrm{Ext}^n_k(V,W)=0\quad \text{for all }n>0
 \]
+(see {{< knowl id="ext" text="Ext" >}}),
 because one may take a length-0 projective (or injective) resolution and the resulting cochain complex has zero cohomology in positive degrees.

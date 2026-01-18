@@ -11,7 +11,7 @@ Let the system Hilbert space factorize as
 $\mathcal H=\mathcal H_A\otimes \mathcal H_B$,
 where $A$ is the subsystem of interest and $B$ is its complement (environment).
 
-A (mixed) quantum state is represented by a density operator $\rho$ on $\mathcal H$, which in finite dimensions is a positive semidefinite {{< knowl id="matrix" section="linear-algebra" text="matrix" >}} with {{< knowl id="trace-matrix" section="linear-algebra" text="trace" >}} equal to $1$:
+A (mixed) quantum state is represented by a density operator $\rho$ on $\mathcal H$, which in finite dimensions is a positive semidefinite {{< knowl id="matrix" section="linear-algebra" text="matrix" >}} with {{< knowl id="trace" section="linear-algebra" text="trace" >}} equal to $1$:
 $$
 \rho \ge 0,
 \qquad

@@ -5,8 +5,9 @@ description: "The implementable symplectic transformations in Shale's Fock repre
 
 The **restricted symplectic group** is
 \[
-rSp(K)=Sp(K)\cap {{< knowl id="restricted-general-linear-group-rgl" text="rGL(K)" >}}.
+\mathrm{rSp}(K)=\mathrm{Sp}(K)\cap \mathrm{rGL}(K),
 \]
+where $\mathrm{rGL}(K)$ is the {{< knowl id="restricted-general-linear-group-rgl" text="restricted general linear group" >}}.
 
 In Shale's Theorem 4.1 (Fock–Cook quantization), \(T\) is unitarily implementable iff \(T\in rSp(K)\),
 equivalently \((T^*T)^{1/2}-I\) is {{< knowl id="hilbert-schmidt-operator" text="Hilbert–Schmidt" >}}.

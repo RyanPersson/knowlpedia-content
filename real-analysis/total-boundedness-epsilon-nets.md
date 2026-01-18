@@ -7,8 +7,9 @@ Let $(X,d)$ be a {{< knowl id="metric-space" section="topology" text="metric spa
 
 An **$\varepsilon$-net** for $E$ is a finite set $\{x_1,\dots,x_N\}\subseteq X$ such that
 $
-E\subseteq \bigcup_{j=1}^N {{< knowl id="open-ball" section="topology" text="B" >}}(x_j,\varepsilon).
+E\subseteq \bigcup_{j=1}^N B(x_j,\varepsilon),
 $
+where $B(x,\varepsilon)$ denotes the {{< knowl id="open-ball" section="topology" text="open ball" >}} of radius $\varepsilon$ centered at $x$.
 
 **Proposition**: The following are equivalent:
 - $E$ is **{{< knowl id="totally-bounded-set" section="topology" text="totally bounded" >}}**, meaning: for every $\varepsilon>0$ there exist $x_1,\dots,x_N\in X$ such that $E\subseteq \bigcup_{j=1}^N B(x_j,\varepsilon)$.

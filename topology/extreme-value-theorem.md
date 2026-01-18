@@ -3,7 +3,7 @@ title: "Extreme value theorem"
 description: "A continuous function on a compact set attains its maximum and minimum."
 ---
 
-The **extreme value theorem** states: if \(f: K \to \mathbb{R}\) is a {{< knowl id="continuous-function" section="real-analysis" text="continuous function" >}} on a {{< knowl id="compact-set" text="compact set" >}} \(K\), then \(f\) attains its maximum and minimum values.
+The **extreme value theorem** states: if \(f: K \to \mathbb{R}\) is a {{< knowl id="continuous-map" text="continuous function" >}} on a {{< knowl id="compact-set" text="compact set" >}} \(K\), then \(f\) attains its maximum and minimum values.
 
 That is, there exist \(x_{\max}, x_{\min} \in K\) such that
 $$
@@ -13,7 +13,7 @@ $$
 ## Proof outline
 1. The image \(f(K)\) is compact (continuous images of compact sets are compact).
 2. In \(\mathbb{R}\), compact sets are closed and {{< knowl id="bounded-set" text="bounded" >}}.
-3. By the {{< knowl id="completeness-axiom-of-r" section="real-analysis" text="completeness of" >}} \(\mathbb{R}\), \(f(K)\) has a supremum \(M\) and infimum \(m\).
+3. By the {{< knowl id="completeness-axiom" section="real-analysis" text="completeness of" >}} \(\mathbb{R}\), \(f(K)\) has a supremum \(M\) and infimum \(m\).
 4. Since \(f(K)\) is closed, \(M, m \in f(K)\), so they are attained.
 
 ## Classical version

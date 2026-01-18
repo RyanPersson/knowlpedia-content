@@ -26,9 +26,9 @@ such that the following axioms hold:
   \]
   where \(\circ\) denotes {{< knowl id="composition-category" text="composition" >}} in the relevant category.
 
-## Related notions
-- A {{< knowl id="contravariant-functor" text="contravariant functor" >}} \(\mathcal C\to\mathcal D\) is the same thing as a covariant functor \(\mathcal C^{\mathrm{op}}\to\mathcal D\), where \(\mathcal C^{\mathrm{op}}\) is the {{< knowl id="opposite-category" text="opposite category" >}}.
-- Functors can be compared by {{< knowl id="natural-transformation" text="natural transformations" >}}.
+## Variants
+
+A {{< knowl id="contravariant-functor" text="contravariant functor" >}} \(\mathcal C\to\mathcal D\) is the same thing as a covariant functor \(\mathcal C^{\mathrm{op}}\to\mathcal D\), where \(\mathcal C^{\mathrm{op}}\) is the {{< knowl id="opposite-category" text="opposite category" >}}. Functors can be compared by {{< knowl id="natural-transformation" text="natural transformations" >}}.
 
 ## Examples
 1. **Forgetful functor \(\mathbf{Grp}\to\mathbf{Set}\):**  

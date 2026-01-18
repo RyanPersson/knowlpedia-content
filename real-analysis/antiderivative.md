@@ -3,7 +3,7 @@ title: "Antiderivative"
 description: "A function whose derivative equals a given function."
 ---
 
-An **antiderivative** (or **primitive**) of a function \(f: I \to \mathbb{R}\) on an interval \(I\) is a {{< knowl id="differentiable-function" text="differentiable function" >}} \(F: I \to \mathbb{R}\) such that
+An **antiderivative** (or **primitive**) of a function \(f: I \to \mathbb{R}\) on an interval \(I\) is a {{< knowl id="differentiable-map" text="differentiable function" >}} \(F: I \to \mathbb{R}\) such that
 $$
 F'(x) = f(x) \quad \text{for all } x \in I.
 $$
@@ -17,7 +17,7 @@ $$
 $$
 
 ## Connection to definite integrals
-The {{< knowl id="fundamental-theorem-of-calculus" text="Fundamental Theorem of Calculus" >}} states that if \(f\) is continuous, then
+The {{< knowl id="fundamental-theorem-of-calculus-i" text="Fundamental Theorem of Calculus" >}} states that if \(f\) is continuous, then
 $$
 F(x) = \int_a^x f(t)\, dt
 $$

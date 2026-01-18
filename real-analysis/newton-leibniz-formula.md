@@ -13,4 +13,4 @@ $
 This is the standard evaluation rule for definite integrals using {{< knowl id="antiderivative" text="antiderivatives" >}}.
 
 **Connection to parent theorem**:
-This is the {{< knowl id="fundamental-theorem-of-calculus" text="fundamental theorem of calculus" >}} (Part II).
+This is the {{< knowl id="fundamental-theorem-of-calculus-i" text="fundamental theorem of calculus" >}} (Part II).

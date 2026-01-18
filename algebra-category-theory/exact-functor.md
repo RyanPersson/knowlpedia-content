@@ -17,10 +17,7 @@ is exact in \(\mathcal A\), then
 \]
 is exact in \(\mathcal B\).
 
-Equivalently,
-\[
-F \text{ is exact } \;\Longleftrightarrow\; F \text{ is {{< knowl id="left-exact-functor" text="left exact" >}} and {{< knowl id="right-exact-functor" text="right exact" >}}.}
-\]
+Equivalently, $F$ is exact if and only if $F$ is both {{< knowl id="left-exact-functor" text="left exact" >}} and {{< knowl id="right-exact-functor" text="right exact" >}}.
 
 In abelian categories, exactness can also be characterized as preservation of both {{< knowl id="kernel-categorical" text="kernels" >}} and {{< knowl id="cokernel-categorical" text="cokernels" >}} (hence images and coimages).
 

@@ -7,7 +7,7 @@ Let $F$ be a {{< knowl id="free-module" text="free" >}} $R$-{{< knowl id="module
 \[
 x=\sum_{b\in B} r_b\, b
 \]
-with coefficients $r_b\in R$, where all but finitely many $r_b$ are zero. Uniqueness is equivalent to the familiar notions of {{< knowl id="linear-independence" text="linear independence" >}} and spanning (compare {{< knowl id="linear-combination" section="convex-analysis" text="linear combinations" >}} in linear algebra).
+with coefficients $r_b\in R$, where all but finitely many $r_b$ are zero. Uniqueness is equivalent to the familiar notions of {{< knowl id="linearly-independent-and-linearly-dependent-sets" section="convex-analysis" text="linear independence" >}} and spanning (compare {{< knowl id="linear-combination" section="convex-analysis" text="linear combinations" >}} in linear algebra).
 
 Bases generalize the concept of a basis in a {{< knowl id="vector-space" section="linear-algebra" text="vector space" >}}, but over rings bases can fail to exist even for finitely generated modules.
 

@@ -17,8 +17,4 @@ where:
 - $H$ is the {{< knowl id="hamiltonian-function-classical" section="stat-mech" text="Hamiltonian" >}}
 - $Z$ is the {{< knowl id="partition-function-canonical" section="stat-mech" text="canonical partition function" >}}
 
-## Related concepts
-
-- {{< knowl id="canonical-ensemble" section="stat-mech" text="Canonical ensemble" >}} (detailed definition)
-- {{< knowl id="helmholtz-free-energy" text="Helmholtz free energy" >}}: the thermodynamic potential natural to this ensemble
-- {{< knowl id="thermal-reservoir" text="Thermal reservoir" >}}
+The natural thermodynamic potential for this ensemble is the {{< knowl id="helmholtz-free-energy" text="Helmholtz free energy" >}}. The bath is modeled as a {{< knowl id="thermal-reservoir" text="thermal reservoir" >}}. For the full formal definition, see {{< knowl id="canonical-ensemble" section="stat-mech" text="canonical ensemble" >}}.

@@ -3,7 +3,7 @@ title: "Symplectic Group Sp(K)"
 description: "Bounded invertible real-linear maps preserving the symplectic form B"
 ---
 
-For a symplectic Hilbert space \((K,{{< knowl id="symplectic-form" text="B" >}})\),
+For a {{< knowl id="symplectic-hilbert-space" text="symplectic Hilbert space" >}} $(K,B)$,
 the **symplectic group** is
 \[
 Sp(K)=\{T\in GL(K): B(Tx,Ty)=B(x,y)\ \forall x,y\in K\}.

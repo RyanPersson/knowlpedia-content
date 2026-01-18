@@ -28,7 +28,7 @@ Z_N=\sum_{\sigma_1,\dots,\sigma_N}\exp\!\big(-\beta H(\sigma_1,\dots,\sigma_N)\b
 =\mathrm{Tr}\big(T^N\big),
 $$
 
-where $\mathrm{Tr}$ is the {{< knowl id="trace-matrix" section="linear-algebra" text="trace" >}}. (For open boundary conditions, one obtains a bilinear form $Z_N=\langle \ell, T^{N-1} r\rangle$ with boundary vectors encoding the end weights.)
+where $\mathrm{Tr}$ is the {{< knowl id="trace" section="linear-algebra" text="trace" >}}. (For open boundary conditions, one obtains a bilinear form $Z_N=\langle \ell, T^{N-1} r\rangle$ with boundary vectors encoding the end weights.)
 
 This representation is a concrete instance of “compute thermodynamics from $\log Z$,” as in {{< knowl id="construction-observables-from-log-z" text="extracting observables from $\log Z$" >}}.
 

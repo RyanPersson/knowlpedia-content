@@ -19,12 +19,12 @@ Existence in module categories is guaranteed by {{< knowl id="injective-resoluti
 ## What resolutions are for
 If \(F\) is a {{< knowl id="hom-left-exact" text="left exact" >}} functor, its right derived functors are computed by applying \(F\) to an injective resolution and taking {{< knowl id="cohomology-module" text="cohomology" >}}; see {{< knowl id="derived-functor" text="derived functor" >}}.
 
-In particular,
+In particular, for any \(R\)-module \(N\),
 \[
-{{< knowl id="ext" text="Ext_R^n" >}}(N,M)
-\cong H^n\bigl(\operatorname{Hom}_R(N, I^\bullet)\bigr)
+\mathrm{Ext}_R^n(N,M)
+\cong H^n\bigl(\operatorname{Hom}_R(N, I^\bullet)\bigr),
 \]
-for any \(R\)-module \(N\), where \(\operatorname{Hom}_R(N,I^\bullet)\) is a cochain complex.
+where \(\operatorname{Hom}_R(N,I^\bullet)\) is a cochain complex (see {{< knowl id="ext" text="Ext" >}}).
 
 ## Examples
 
@@ -33,7 +33,7 @@ If \(R=k\) is a field, every \(k\)-vector space is injective. Thus an injective 
 \[
 0\to V \xrightarrow{=} V \to 0 \to 0 \to \cdots,
 \]
-and therefore \( {{< knowl id="ext" text="Ext_k^n" >}}(W,V)=0\) for all \(n>0\).
+and therefore $\mathrm{Ext}_k^n(W,V)=0$ for all $n>0$ (see {{< knowl id="ext" text="Ext" >}}).
 
 ### Example 2: An injective resolution of \(\mathbb Z\)
 In the category of abelian groups (\(R=\mathbb Z\)), both \(\mathbb Q\) and \(\mathbb Q/\mathbb Z\) are injective (they are divisible groups). The sequence
@@ -44,13 +44,14 @@ is exact, hence yields an injective resolution of \(\mathbb Z\) of length \(1\).
 
 Using it, one computes
 \[
-{{< knowl id="ext" text="Ext^1" >}}_{\mathbb Z}(\mathbb Z/n\mathbb Z,\mathbb Z)
+\mathrm{Ext}^1_{\mathbb Z}(\mathbb Z/n\mathbb Z,\mathbb Z)
 \cong H^1\bigl(\operatorname{Hom}(\mathbb Z/n,\, [0\to \mathbb Q\to \mathbb Q/\mathbb Z\to 0])\bigr).
 \]
 Since \(\operatorname{Hom}(\mathbb Z/n,\mathbb Q)=0\) and \(\operatorname{Hom}(\mathbb Z/n,\mathbb Q/\mathbb Z)\cong (\mathbb Q/\mathbb Z)[n]\cong \mathbb Z/n\mathbb Z\), this gives
 \[
-{{< knowl id="ext" text="Ext^1" >}}_{\mathbb Z}(\mathbb Z/n,\mathbb Z)\cong \mathbb Z/n\mathbb Z.
+\mathrm{Ext}^1_{\mathbb Z}(\mathbb Z/n,\mathbb Z)\cong \mathbb Z/n\mathbb Z.
 \]
+(See {{< knowl id="ext" text="Ext" >}}.)
 
 ### Example 3: An injective resolution of \(\mathbb Z/n\mathbb Z\) and \(\mathrm{Ext}^1\) between cyclic groups
 Embed \(\mathbb Z/n\mathbb Z\) into \(\mathbb Q/\mathbb Z\) as the \(n\)-torsion subgroup \((\mathbb Q/\mathbb Z)[n]\). Multiplication by \(n\) on \(\mathbb Q/\mathbb Z\) has kernel \((\mathbb Q/\mathbb Z)[n]\), so
@@ -66,7 +67,8 @@ Applying \(\operatorname{Hom}(\mathbb Z/m,-)\) yields
 \]
 and \(\operatorname{Hom}(\mathbb Z/m,\mathbb Q/\mathbb Z)\cong (\mathbb Q/\mathbb Z)[m]\cong \mathbb Z/m\mathbb Z\). Therefore
 \[
-{{< knowl id="ext" text="Ext^1" >}}_{\mathbb Z}(\mathbb Z/m,\mathbb Z/n)
+\mathrm{Ext}^1_{\mathbb Z}(\mathbb Z/m,\mathbb Z/n)
 \cong \operatorname{coker}(\times n:\mathbb Z/m\to\mathbb Z/m)
 \cong \mathbb Z/\gcd(m,n)\mathbb Z.
 \]
+(See {{< knowl id="ext" text="Ext" >}}.)

@@ -37,14 +37,8 @@ Again:
 
 ## Fundamental examples: Ext and Tor
 In \(\mathcal A = R\text{-Mod}\):
-- The functor \(\operatorname{Hom}_R(M,-)\) is {{< knowl id="hom-left-exact" text="left exact" >}}, and its right derived functors are
-  \[
-  R^n\operatorname{Hom}_R(M,-)\;\cong\; {{< knowl id="ext" text="Ext_R^n(M,-)" >}}.
-  \]
-- The functor \(-\otimes_R N\) is {{< knowl id="tensor-right-exact" text="right exact" >}}, and its left derived functors are
-  \[
-  L_n(-\otimes_R N)\;\cong\; {{< knowl id="tor" text="Tor_n^R(-,N)" >}}.
-  \]
+- The functor \(\operatorname{Hom}_R(M,-)\) is {{< knowl id="hom-left-exact" text="left exact" >}}, and its right derived functors are $R^n\operatorname{Hom}_R(M,-)\cong \mathrm{Ext}_R^n(M,-)$ (see {{< knowl id="ext" text="Ext" >}}).
+- The functor \(-\otimes_R N\) is {{< knowl id="tensor-right-exact" text="right exact" >}}, and its left derived functors are $L_n(-\otimes_R N)\cong \mathrm{Tor}_n^R(-,N)$ (see {{< knowl id="tor" text="Tor" >}}).
 See also {{< knowl id="ext-tor-derived-functors" text="Ext and Tor as derived functors" >}}.
 
 ## Examples (explicit computations)
@@ -62,7 +56,7 @@ so
 \[
 L_1F(\mathbb Z/n)\cong H_1\cong \ker(\times n:\mathbb Z/m\to\mathbb Z/m)\cong \mathbb Z/\gcd(m,n)\mathbb Z.
 \]
-Thus \( {{< knowl id="tor" text="Tor_1" >}}_1^{\mathbb Z}(\mathbb Z/n,\mathbb Z/m)\cong \mathbb Z/\gcd(m,n)\mathbb Z\).
+Thus $\mathrm{Tor}_1^{\mathbb Z}(\mathbb Z/n,\mathbb Z/m)\cong \mathbb Z/\gcd(m,n)\mathbb Z$ (see {{< knowl id="tor" text="Tor" >}}).
 
 ### Example 2: Computing \(\mathrm{Ext}^1_{\mathbb Z}(\mathbb Z/n,\mathbb Z)\) as a right derived functor
 Let \(F(-)=\operatorname{Hom}_{\mathbb Z}(\mathbb Z/n,-)\), which is left exact. Use the injective resolution
@@ -77,7 +71,7 @@ with \(\operatorname{Hom}(\mathbb Z/n,\mathbb Q)=0\) and \(\operatorname{Hom}(\m
 \[
 R^1F(\mathbb Z)\cong H^1 \cong \mathbb Z/n\mathbb Z,
 \]
-i.e. \( {{< knowl id="ext" text="Ext^1" >}}_{\mathbb Z}(\mathbb Z/n,\mathbb Z)\cong \mathbb Z/n\mathbb Z\).
+i.e. $\mathrm{Ext}^1_{\mathbb Z}(\mathbb Z/n,\mathbb Z)\cong \mathbb Z/n\mathbb Z$ (see {{< knowl id="ext" text="Ext" >}}).
 
 ### Example 3: Exact functors have no higher derived functors
 If \(F\) is an {{< knowl id="exact-functor" section="algebra-category-theory" text="exact functor" >}} (e.g. in module categories, localization is exact on suitable classes of modules), then applying \(F\) to any resolution preserves exactness. Consequently,
