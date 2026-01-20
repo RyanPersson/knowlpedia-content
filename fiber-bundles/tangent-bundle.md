@@ -5,7 +5,6 @@ description: "The smooth vector bundle whose fiber at p is the tangent space T_p
 
 Let \(M\) be a {{< knowl id="smooth-manifold" text="smooth manifold" >}} of dimension \(n\).
 
-## Definition
 The **tangent bundle** of \(M\) is the set
 \[
 TM = \bigsqcup_{p\in M} T_pM,

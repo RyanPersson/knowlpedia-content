@@ -3,7 +3,6 @@ title: "Thermal equilibrium"
 description: "A condition of no net heat flow: systems in diathermal contact exchange no heat in steady state, which is captured by equality of temperature."
 ---
 
-## Definition
 Two systems are in **thermal equilibrium** if, when placed in contact through a {{< knowl id="diathermal-wall" text="diathermal wall" >}} (allowing energy transfer as heat) while otherwise isolated from external influences, there is no net energy transfer as {{< knowl id="heat-inexact-differential" text="heat" >}} and no macroscopic change of state occurs.
 
 In equilibrium thermodynamics this condition is summarized by equality of the {{< knowl id="temperature-thermo" text="temperature" >}}:

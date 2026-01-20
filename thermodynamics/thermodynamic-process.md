@@ -3,7 +3,6 @@ title: "Thermodynamic process"
 description: "A transformation that carries a thermodynamic system between states along a specified path of interactions with its surroundings."
 ---
 
-## Definition
 A **thermodynamic process** is a time-ordered transformation of a {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} driven by interactions with the {{< knowl id="surroundings-environment" text="surroundings" >}} across a {{< knowl id="system-boundary" text="system boundary" >}}. Depending on whether the system is {{< knowl id="isolated-system" text="isolated" >}}, {{< knowl id="closed-system" text="closed" >}}, or {{< knowl id="open-system" text="open" >}}, the process may involve exchange of energy (as heat and/or work) and possibly matter.
 
 When the system is (at least approximately) in {{< knowl id="thermodynamic-equilibrium" text="thermodynamic equilibrium" >}} throughout, the process can be represented as a continuous path through {{< knowl id="thermodynamic-state" text="thermodynamic states" >}} parameterized by {{< knowl id="state-variable" text="state variables" >}} (e.g., temperature, pressure, volume, particle number). In general, a process may pass through nonequilibrium configurations, in which case only the endpoints may be equilibrium states with well-defined macroscopic state variables.

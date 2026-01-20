@@ -5,7 +5,6 @@ description: "The Lie subalgebra spanned by commutators; it measures how far is 
 
 Let $\mathfrak g$ be a {{< knowl id="lie-algebra" text="Lie algebra" >}}.
 
-## Definition
 The **derived subalgebra** (or commutator subalgebra) of $\mathfrak g$ is
 \[
 [\mathfrak g,\mathfrak g] := \mathrm{span}\{[x,y] : x,y\in \mathfrak g\}\subseteq \mathfrak g.

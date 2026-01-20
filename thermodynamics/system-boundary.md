@@ -3,7 +3,6 @@ title: "System boundary"
 description: "The (real or imaginary) surface that separates a thermodynamic system from its surroundings and controls what can be exchanged."
 ---
 
-## Definition
 A **system boundary** is the surface (or more generally, the interface region) that separates a {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} from its {{< knowl id="surroundings-environment" text="surroundings" >}}. It may be a physical wall (container, membrane, piston) or an imaginary surface drawn through a continuum (as in control-volume descriptions).
 
 The boundary specification determines which exchanges are allowed:

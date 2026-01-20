@@ -3,7 +3,6 @@ title: "Colimit"
 description: "A universal cocone from a diagram, generalizing coproducts, pushouts, and coequalizers."
 ---
 
-## Definition
 Let \(\mathcal{C}\) be a {{< knowl id="category" text="category" >}} and let \(J\) be an indexing category. A **diagram of shape \(J\)** in \(\mathcal{C}\) is a {{< knowl id="functor" text="functor" >}}
 \[
 D:J\to \mathcal{C}.

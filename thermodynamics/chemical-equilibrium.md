@@ -3,7 +3,6 @@ title: "Chemical equilibrium"
 description: "Equilibrium with respect to matter exchange and reactions: no net particle flow and chemical potentials satisfy the appropriate equalities."
 ---
 
-## Definition
 A {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} is in **chemical equilibrium** when there is no spontaneous tendency for its composition to change through matter transfer or chemical reaction, given the allowed exchanges with its {{< knowl id="surroundings-environment" text="environment" >}} and its constraints.
 
 Two common cases are:

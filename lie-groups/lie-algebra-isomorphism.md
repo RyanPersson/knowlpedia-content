@@ -5,7 +5,6 @@ description: "A bijective Lie algebra homomorphism (equivalently, a bracket-pres
 
 Let $\mathfrak g,\mathfrak h$ be {{< knowl id="lie-algebra" text="Lie algebras" >}}.
 
-## Definition
 A **Lie algebra isomorphism** is a map $\varphi:\mathfrak g\to\mathfrak h$ that is
 1. a {{< knowl id="lie-algebra-homomorphism" text="Lie algebra homomorphism" >}}, and
 2. a bijection (equivalently, a linear isomorphism).

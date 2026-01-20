@@ -3,7 +3,6 @@ title: "Canonical partition function"
 description: "Normalization of the canonical ensemble; generates thermodynamic potentials and equilibrium averages at fixed (β,V,N)."
 ---
 
-## Definition
 
 The **canonical partition function** $Z(\beta,V,N)$ is the normalization constant of the {{< knowl id="canonical-ensemble" text="canonical ensemble" >}} describing equilibrium at fixed inverse temperature $\beta$ (see {{< knowl id="inverse-temperature-beta" section="thermodynamics" text="inverse temperature" >}}), fixed volume $V$, and fixed particle number $N$.
 

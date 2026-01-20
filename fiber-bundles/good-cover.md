@@ -5,7 +5,6 @@ description: "An open cover whose nonempty finite intersections are contractible
 
 Let $X$ be a topological space (often a smooth manifold).
 
-## Definition
 An open cover $\{U_i\}_{i\in I}$ of $X$ is a **good cover** if every nonempty finite intersection
 \[
 U_{i_0}\cap \cdots \cap U_{i_k}

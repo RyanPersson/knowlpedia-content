@@ -5,7 +5,6 @@ description: "A subcategory that contains every morphism of the ambient category
 
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}} and \(\mathcal D\) a {{< knowl id="subcategory" text="subcategory" >}} of \(\mathcal C\).
 
-## Definition
 The subcategory \(\mathcal D\) is **full** if for every pair of objects \(A,B\in \mathrm{Ob}(\mathcal D)\),
 \[
 \mathrm{Hom}_{\mathcal D}(A,B) \;=\; \mathrm{Hom}_{\mathcal C}(A,B).

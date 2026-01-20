@@ -3,7 +3,6 @@ title: "Character of a representation"
 description: "The class function χ(g)=tr(ρ(g)) attached to a finite-dimensional representation ρ of a finite group."
 ---
 
-## Definition
 
 Let \(G\) be a finite group and let \(\rho:G\to \mathrm{GL}(V)\) be a finite-dimensional complex {{< knowl id="group-representation" text="representation" >}}. The **character** of \(\rho\) is the function
 \[

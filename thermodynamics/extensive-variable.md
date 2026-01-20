@@ -5,7 +5,6 @@ description: "A state variable that scales proportionally with system size and i
 
 An **extensive variable** is a {{< knowl id="state-variable" text="state variable" >}} $X$ of a {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} that measures “how much” of the system is present: if you combine two weakly interacting subsystems, the total is (approximately) the sum, and if you scale the system up by a factor, $X$ scales by the same factor.
 
-## Definition
 Let $X$ be a {{< knowl id="state-variable" text="state variable" >}} defined on the {{< knowl id="thermodynamic-state" text="thermodynamic state" >}}. We call $X$ **extensive** if it satisfies (to thermodynamic accuracy) the following two equivalent size-scaling properties:
 
 1. **Additivity (composition):** for two macroscopic subsystems $A$ and $B$ that are non-overlapping and interact only weakly across the {{< knowl id="system-boundary" text="boundary" >}},  

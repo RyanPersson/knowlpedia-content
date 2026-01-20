@@ -9,7 +9,6 @@ Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle
 
 Let $P$ (unfortunately the same letter is standard) also denote an $\mathrm{Ad}$-invariant symmetric multilinear polynomial of degree $k$ on the Lie algebra $\mathfrak{g}$, i.e. an element of $(\mathrm{Sym}^k\mathfrak{g}^*)^G$.
 
-## Definition
 The **Chern–Weil form** associated to the invariant polynomial $P$ and the connection $\omega$ is the $(2k)$-form on $P$
 \[
 P(\Omega)\;:=\;P(\underbrace{\Omega,\dots,\Omega}_{k\text{ times}})\in\Omega^{2k}(P),

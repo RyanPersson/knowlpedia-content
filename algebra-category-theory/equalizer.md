@@ -5,7 +5,6 @@ description: "A universal solution E → A making two parallel morphisms A ⇉ B
 
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}} and let \(f,g:A\to B\) be parallel {{< knowl id="morphism" text="morphisms" >}} in \(\mathcal C\).
 
-## Definition
 An **equalizer** of \(f\) and \(g\) is a morphism \(e:E\to A\) such that:
 1. (**Equalizing condition**) \(f\circ e = g\circ e\),
 2. (**Universal property**) for any morphism \(h:X\to A\) with \(f\circ h=g\circ h\), there exists a unique morphism \(u:X\to E\) such that

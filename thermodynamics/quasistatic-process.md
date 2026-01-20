@@ -3,7 +3,6 @@ title: "Quasistatic process"
 description: "A thermodynamic process carried out slowly enough that the system stays arbitrarily close to equilibrium at each stage."
 ---
 
-## Definition
 A **quasistatic process** is a {{< knowl id="thermodynamic-process" text="thermodynamic process" >}} executed slowly enough that the system remains arbitrarily close to {{< knowl id="thermodynamic-equilibrium" text="thermodynamic equilibrium" >}} throughout. Equivalently, the system can be described at every instant by a well-defined {{< knowl id="thermodynamic-state" text="thermodynamic state" >}}, so macroscopic {{< knowl id="state-variable" text="state variables" >}} (such as temperature and pressure) exist along the entire path.
 
 ## Physical interpretation

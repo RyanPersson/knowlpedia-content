@@ -3,7 +3,6 @@ title: "Finite-range interaction (lattice)"
 description: "An interaction on a lattice spin system in which only finitely separated sets of sites can contribute nontrivially to the energy."
 ---
 
-## Definition
 Let $\Lambda \subset \mathbb{Z}^d$ be a finite region and let the single-site spin space be $\mathcal S$ (see {{< knowl id="spin-space" text="spin space" >}}). A (finite-volume) interaction is a family
 $$
 \Phi=\{\Phi_A\}_{A \Subset \mathbb{Z}^d},

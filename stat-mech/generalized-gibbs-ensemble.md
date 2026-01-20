@@ -3,7 +3,6 @@ title: "Generalized Gibbs ensemble (GGE)"
 description: "Maximum-entropy equilibrium state constrained by multiple (often extensive) conserved quantities."
 ---
 
-## Definition
 
 A **generalized Gibbs ensemble** (GGE) is an equilibrium distribution obtained by maximizing entropy subject to *several* expectation-value constraints, typically associated with conserved quantities. It generalizes the familiar {{< knowl id="canonical-ensemble" text="canonical ensemble" >}} (energy constraint) and {{< knowl id="grand-canonical-ensemble" text="grand-canonical ensemble" >}} (energy and particle-number constraints).
 

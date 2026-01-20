@@ -5,7 +5,6 @@ description: "Definition of a principal connection 1-form and the horizontal dis
 
 Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} (with the {{< knowl id="convention-principal-bundles-use-a-right-g-action-on-p" text="standard right action convention" >}}), and let $\mathfrak g$ be the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" >}} of $G$.
 
-## Definition
 A **(principal) connection 1-form** on $P$ is a $\mathfrak g$-valued 1-form
 \[
 \omega \in \Omega^1(P;\mathfrak g)

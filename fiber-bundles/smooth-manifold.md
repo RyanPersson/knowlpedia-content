@@ -3,7 +3,6 @@ title: "Smooth manifold"
 description: "A topological manifold equipped with a maximal smooth atlas, enabling calculus in local coordinates."
 ---
 
-## Definition
 Let $n\in\mathbb{N}$. An **$n$-dimensional smooth manifold** is a pair $(M,\mathcal A)$ such that
 
 - $M$ is an $n$-dimensional topological manifold (Hausdorff, second countable, and every $p\in M$ has a neighborhood homeomorphic to an open subset of $\mathbb{R}^n$), and

@@ -3,7 +3,6 @@ title: "Quantum partition function"
 description: "Canonical partition function of a finite quantum system: Z(β)=Tr(e^{-βH})."
 ---
 
-## Definition
 
 Let $\mathcal H$ be a finite-dimensional Hilbert space and let $H$ be the Hamiltonian ({{< knowl id="quantum-hamiltonian" text="quantum Hamiltonian" >}}), a self-adjoint operator on $\mathcal H$.
 

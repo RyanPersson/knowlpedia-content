@@ -3,7 +3,6 @@ title: "Mechanical equilibrium"
 description: "Force balance in a thermodynamic system: no unbalanced stresses or pressure differences that would drive macroscopic motion."
 ---
 
-## Definition
 A {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} is in **mechanical equilibrium** if there is no net macroscopic force producing acceleration of any part of the system. Operationally, this means stresses balance so that there is no spontaneous bulk motion driven by pressure (or more general mechanical) imbalances.
 
 For a simple compressible fluid, mechanical equilibrium typically implies:

@@ -3,7 +3,6 @@ title: "DLR equation"
 description: "Consistency condition defining infinite-volume Gibbs measures: finite-region conditional laws agree with the Gibbs specification almost surely."
 ---
 
-## Definition
 
 Let $\gamma = (\gamma_\Lambda)_{\Lambda\Subset\mathbb{Z}^d}$ be a {{< knowl id="gibbs-specification" text="Gibbs specification" >}} on the {{< knowl id="configuration-space-lattice" text="configuration space" >}} $\Omega$, and let $\mu$ be a {{< knowl id="probability-measure" section="probability" text="probability measure" >}} on $\Omega$.
 

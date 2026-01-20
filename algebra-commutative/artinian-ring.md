@@ -5,7 +5,6 @@ description: "A ring in which descending chains of ideals stabilize."
 
 Let $R$ be a {{< knowl id="commutative-ring" section="algebra-rings" text="commutative ring" >}}.
 
-## Definition
 $R$ is **Artinian** if it satisfies the *descending chain condition* (DCC) on ideals: for every chain
 \[
 I_1 \supseteq I_2 \supseteq I_3 \supseteq \cdots

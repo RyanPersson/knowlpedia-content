@@ -3,7 +3,6 @@ title: "Spin configuration"
 description: "A specification of spin values at each site of a lattice region (finite or infinite)."
 ---
 
-## Definition
 Let $S$ be the {{< knowl id="spin-space" text="spin space" >}} and let $\Lambda$ be a set of lattice sites (often a finite box; see {{< knowl id="finite-box-lattice" section="discrete-structures" text="finite box" >}} in the {{< knowl id="lattice-zd" section="discrete-structures" text="integer lattice" >}}).
 
 A **spin configuration on** $\Lambda$ is a function

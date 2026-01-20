@@ -5,7 +5,6 @@ description: "A Noetherian, integrally closed domain of Krull dimension one; equ
 
 A **Dedekind domain** is a central object in commutative algebra and algebraic number theory.
 
-## Definition
 An integral domain $R$ is a **Dedekind domain** if:
 1. $R$ is a {{< knowl id="noetherian-ring" text="Noetherian ring" >}};
 2. $R$ is an {{< knowl id="integrally-closed-domain" text="integrally closed domain" >}};

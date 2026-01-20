@@ -3,7 +3,6 @@ title: "External-field coupling"
 description: "A term in the lattice Hamiltonian that couples spins to a prescribed field, biasing configurations and breaking symmetries."
 ---
 
-## Definition
 In a lattice spin system with configuration $\sigma$ (see {{< knowl id="spin-configuration" text="spin configuration" >}}), an **external field coupling** is an additive contribution to the {{< knowl id="lattice-hamiltonian" text="lattice Hamiltonian" >}} of the form
 $$
 H_\Lambda^{\text{field}}(\sigma_\Lambda)= -\sum_{x\in\Lambda} h_x \, m(\sigma_x),

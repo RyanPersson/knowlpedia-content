@@ -5,7 +5,6 @@ description: "The quotient of a G-manifold by the equivalence relation of lying 
 
 Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a manifold $M$ (see {{< knowl id="smooth-action-lie-group" text="smooth actions" >}}).
 
-## Definition
 The **orbit space** (or **quotient space**) is the set
 $$
 M/G=\{G\cdot x \mid x\in M\}

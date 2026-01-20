@@ -3,7 +3,6 @@ title: "Configuration space (lattice)"
 description: "The product space of all spin configurations on a lattice, equipped with its natural sigma-algebra (and often a product topology)."
 ---
 
-## Definition
 Fix a {{< knowl id="spin-space" text="spin space" >}} $(S,\mathcal{S})$ and consider the integer lattice (see {{< knowl id="lattice-zd" section="discrete-structures" text="integer lattice" >}}). The **(infinite-volume) configuration space** is
 $$
 \Omega := S^{\mathbb{Z}^d},

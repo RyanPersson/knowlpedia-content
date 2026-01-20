@@ -5,7 +5,6 @@ description: "Entropy per volume, s = S/V, an intensive measure of entropy conte
 
 The **entropy density** is the {{< knowl id="thermodynamic-entropy" text="thermodynamic entropy" >}} per {{< knowl id="volume-thermo" text="volume" >}}. It is the natural “per-volume” entropy used in continuum thermodynamics and statistical mechanics.
 
-## Definition
 For a homogeneous system with entropy $S$ and volume $V$, the **entropy density** is
 $$
 s \equiv \frac{S}{V}.

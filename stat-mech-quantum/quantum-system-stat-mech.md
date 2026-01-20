@@ -3,7 +3,6 @@ title: "Quantum system (statistical mechanics)"
 description: "A quantum system for statistical mechanics: a Hilbert space, an algebra of observables, and a Hamiltonian, with states described by density operators."
 ---
 
-## Definition
 In (finite-dimensional) quantum statistical mechanics, a **quantum system** can be modeled as a triple
 $(\mathcal{H}, \mathcal{A}, H)$ where:
 

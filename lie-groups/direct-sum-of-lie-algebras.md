@@ -5,7 +5,6 @@ description: "The product vector space with componentwise bracket, modeling Lie 
 
 Let $\mathfrak g$ and $\mathfrak h$ be {{< knowl id="lie-algebra" text="Lie algebras" >}} over the same field.
 
-## Definition
 The **direct sum Lie algebra** $\mathfrak g\oplus \mathfrak h$ is the direct sum as vector spaces equipped with the bracket
 \[
 [(X_1,Y_1),(X_2,Y_2)] := \bigl([X_1,X_2]_{\mathfrak g},\; [Y_1,Y_2]_{\mathfrak h}\bigr).

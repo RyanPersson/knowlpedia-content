@@ -3,7 +3,6 @@ title: "Translation-invariant interaction"
 description: "An interaction potential on a lattice whose local energy functions are unchanged under lattice translations."
 ---
 
-## Definition
 Let $\Phi=\{\Phi_A\}_{A \Subset \mathbb{Z}^d}$ be an interaction (see {{< knowl id="interaction-potential-phi" text="interaction potential $\Phi$" >}}). For a lattice translation by $x\in\mathbb{Z}^d$, define $A+x=\{a+x:a\in A\}$. The interaction is **translation-invariant** if for every finite $A$ and every $x$,
 $$
 \Phi_{A+x}(\sigma_{A+x})=\Phi_A(\tau_x\sigma_A),

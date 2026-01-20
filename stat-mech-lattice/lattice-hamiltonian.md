@@ -3,7 +3,6 @@ title: "Lattice Hamiltonian"
 description: "The finite-volume energy function on lattice spin configurations induced by an interaction potential (and possibly an external field and boundary condition)."
 ---
 
-## Definition
 Fix a {{< knowl id="spin-space" text="spin space" >}} $S$ and a finite region $\Lambda$ of the lattice (see {{< knowl id="finite-box-lattice" section="discrete-structures" text="finite box" >}} in {{< knowl id="lattice-zd" section="discrete-structures" text="the integer lattice" >}}). A **lattice Hamiltonian in volume** $\Lambda$ is an energy function that assigns a real number (or $+\infty$ in hard-constraint models) to each {{< knowl id="spin-configuration" text="spin configuration" >}} $\sigma_\Lambda \in S^\Lambda$, typically depending also on an exterior configuration (a {{< knowl id="boundary-condition-lattice" text="boundary condition" >}}) $\eta_{\Lambda^c}$.
 
 Given an {{< knowl id="interaction-potential-phi" text="interaction potential" >}} $\Phi = (\Phi_X)$, the standard finite-volume Hamiltonian with boundary condition $\eta$ is

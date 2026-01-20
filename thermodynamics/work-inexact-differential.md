@@ -3,7 +3,6 @@ title: "Work (inexact differential)"
 description: "The symbol δW denotes path-dependent energy transfer via generalized forces and displacements; it is not a state function."
 ---
 
-## Definition
 For a {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} undergoing a {{< knowl id="thermodynamic-process" text="process" >}}, the *work increment* $\delta W$ is the infinitesimal amount of energy transferred **out of** the system (or into it, depending on sign) through *organized* interactions that can be modeled as generalized forces acting through generalized displacements at the {{< knowl id="system-boundary" text="boundary" >}} or via a {{< knowl id="work-reservoir" text="work reservoir" >}}.
 
 Like {{< knowl id="heat-inexact-differential" text="heat" >}}, work is an **inexact differential**: there is no {{< knowl id="state-function" text="state function" >}} $W$ with $\delta W=dW$. Its integral depends on the path in state space, so $\delta W$ is a {{< knowl id="path-function" text="path function" >}}.

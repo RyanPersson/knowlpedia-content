@@ -5,7 +5,6 @@ description: "Principal O(n) subbundle of the frame bundle determined by a Riema
 
 Let $(M,g)$ be an $n$-dimensional Riemannian manifold. The Riemannian metric gives an inner product $g_x$ on each tangent space $T_xM$.
 
-## Definition
 The **orthonormal frame bundle** $O(TM)\to M$ is the subset of the {{< knowl id="frame-bundle-fr-of-a-manifold-m" text="frame bundle" >}} consisting of frames that are orthonormal with respect to $g$:
 \[
 O(TM)=\{(x,(e_1,\dots,e_n))\in \mathrm{Fr}(TM): g_x(e_i,e_j)=\delta_{ij}\}.

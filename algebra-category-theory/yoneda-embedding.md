@@ -3,7 +3,6 @@ title: "Yoneda embedding"
 description: "The fully faithful functor sending an object to its Hom functor (a representable presheaf)."
 ---
 
-## Definition
 Let \(\mathcal{C}\) be a locally small {{< knowl id="category" text="category" >}}. The **Yoneda embedding** is the {{< knowl id="functor" text="functor" >}}
 \[
 y:\mathcal{C}\longrightarrow \mathbf{Set}^{\mathcal{C}^{op}}

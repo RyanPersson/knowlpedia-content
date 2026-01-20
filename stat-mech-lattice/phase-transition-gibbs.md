@@ -3,7 +3,6 @@ title: "Phase transition (Gibbsian viewpoint)"
 description: "A qualitative change in infinite-volume equilibrium behavior, often detected by non-uniqueness of Gibbs measures and/or non-analyticity of the thermodynamic-limit pressure."
 ---
 
-## Definition
 
 Consider a lattice spin system with fixed interaction (e.g. via an {{< knowl id="interaction-potential-phi" text="interaction potential" >}}) and parameters such as {{< knowl id="inverse-temperature-beta" section="thermodynamics" text="inverse temperature" >}} $\beta$ and external field (see {{< knowl id="external-field-coupling" text="external field coupling" >}}). Let $\mathcal{G}(\gamma)$ be the set of {{< knowl id="infinite-volume-gibbs-measure" text="infinite-volume Gibbs measures" >}} solving the {{< knowl id="dlr-equation" text="DLR equation" >}} for the associated {{< knowl id="gibbs-specification" text="Gibbs specification" >}} $\gamma$.
 

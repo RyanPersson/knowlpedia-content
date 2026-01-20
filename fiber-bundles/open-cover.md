@@ -5,7 +5,6 @@ description: "A collection of open subsets whose union is the entire manifold, u
 
 Let $M$ be a {{< knowl id="smooth-manifold" text="smooth manifold" >}}.
 
-## Definition
 An **open cover** of $M$ is a family of open sets $\{U_i\}_{i\in I}$ with $U_i\subset M$ such that
 \[
 M=\bigcup_{i\in I} U_i.

@@ -5,7 +5,6 @@ description: "An H-invariant submanifold of a principal G-bundle that is itself 
 
 Let $P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group a {{< knowl id="lie-group" text="Lie group" >}} $G$, and let $H\subset G$ be a Lie subgroup.
 
-## Definition
 A **principal H-subbundle** of $P$ is a submanifold $Q\subset P$ such that:
 1. $\pi(Q)=M$ and $\pi|_Q:Q\to M$ is a surjective submersion,
 2. $Q$ is preserved by the restricted {{< knowl id="right-principal-action" text="right action" >}} of $H$, i.e. $q\cdot h\in Q$ for all $q\in Q$, $h\in H$,

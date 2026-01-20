@@ -5,7 +5,6 @@ description: "The quotient space of left cosets, a smooth manifold when is a clo
 
 Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} and let $H\le G$ be a subgroup.
 
-## Definition
 The **left coset space** $G/H$ is the set of left cosets
 \[
 G/H := \{gH : g\in G\},

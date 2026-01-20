@@ -3,7 +3,6 @@ title: "Density-operator state"
 description: "A quantum state represented by a positive operator of unit trace; it encodes statistical mixtures and computes expectations via the trace."
 ---
 
-## Definition
 Let $\mathcal{H}$ be a finite-dimensional Hilbert space. A **density-operator state** (often just “density matrix”) is an operator $\rho$ on $\mathcal{H}$ such that:
 
 1. **Positivity:** $\rho \ge 0$, meaning $\langle\psi|\rho|\psi\rangle \ge 0$ for all $|\psi\rangle \in \mathcal{H}$.

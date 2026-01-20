@@ -9,7 +9,6 @@ Let \(R\) be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and l
 \]
 be a {{< knowl id="chain-complex" text="chain complex" >}} of {{< knowl id="module" section="algebra-modules" text="R-modules" >}}, i.e. \(d_n\circ d_{n+1}=0\) for all \(n\).
 
-## Definition
 The **\(n\)th cycles** and **\(n\)th boundaries** of \(C_\bullet\) are the submodules
 \[
 Z_n(C_\bullet) := \ker(d_n)\subseteq C_n,

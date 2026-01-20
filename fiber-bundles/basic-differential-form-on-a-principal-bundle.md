@@ -5,7 +5,6 @@ description: "A differential form on a principal bundle that is horizontal and i
 
 Let $\pi:P\to M$ be a principal $G$-bundle with right action $R_g$.
 
-## Definition
 A differential form $\omega\in\Omega^k(P)$ is **basic** if it is both:
 
 1. {{< knowl id="horizontal-differential-form-on-a-principal-bundle" text="horizontal" >}}, and

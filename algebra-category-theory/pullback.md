@@ -3,7 +3,6 @@ title: "Pullback"
 description: "A universal object representing compatible pairs over a cospan."
 ---
 
-## Definition
 Let \(\mathcal{C}\) be a {{< knowl id="category" text="category" >}} and let
 \[
 X \xrightarrow{f} Z \xleftarrow{g} Y

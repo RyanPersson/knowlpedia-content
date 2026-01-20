@@ -3,7 +3,6 @@ title: "Observable algebra"
 description: "The algebra of operators used to represent observables of a quantum system; in finite dimensions typically all linear operators on the Hilbert space."
 ---
 
-## Definition
 Let $\mathcal{H}$ be the system Hilbert space (see {{< knowl id="complex-hilbert-space-finite" section="quantum-foundations" text="finite-dimensional complex Hilbert space" >}}). An **observable algebra** is a unital $*$-algebra $\mathcal{A}$ of operators acting on $\mathcal{H}$, meaning:
 
 1. $\mathcal{A}$ is closed under addition and scalar multiplication.

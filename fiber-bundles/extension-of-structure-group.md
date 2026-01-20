@@ -5,7 +5,6 @@ description: "A construction that turns a principal G-bundle into a principal H-
 
 Let $P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group $G$, and let $\varphi:G\to H$ be a smooth homomorphism of {{< knowl id="lie-group" text="Lie groups" >}}.
 
-## Definition
 The **extension of structure group** of $P$ along $\varphi$ is the quotient
 \[
 P\times_\varphi H := (P\times H)/\sim,

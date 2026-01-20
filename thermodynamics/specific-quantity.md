@@ -5,7 +5,6 @@ description: "An intensive quantity formed by dividing an extensive variable by 
 
 A **specific quantity** is a “per-unit-amount” version of an {{< knowl id="extensive-variable" text="extensive variable" >}}. Dividing by an appropriate extensive reference makes the result independent of system size (for homogeneous systems), so specific quantities are typically {{< knowl id="intensive-variable" text="intensive" >}}.
 
-## Definition
 Let $X$ be an {{< knowl id="extensive-variable" text="extensive variable" >}} and let $Y>0$ be an extensive reference measure of system size (commonly mass $m$, {{< knowl id="particle-number" text="particle number" >}} $N$, or {{< knowl id="volume-thermo" text="volume" >}} $V$). The **specific quantity of $X$ per $Y$** is
 $$
 x \equiv \frac{X}{Y}.

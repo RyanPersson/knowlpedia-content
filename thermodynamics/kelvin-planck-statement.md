@@ -3,7 +3,6 @@ title: "Kelvin–Planck statement"
 description: "No cyclic heat engine can convert heat from a single thermal reservoir completely into work."
 ---
 
-## Definition
 
 A heat engine is a device that executes a {{< knowl id="cyclic-process" text="cycle" >}} while exchanging heat with one or more {{< knowl id="thermal-reservoir" text="thermal reservoirs" >}} and exchanging work with a {{< knowl id="work-reservoir" text="work reservoir" >}}. The Kelvin–Planck statement of the {{< knowl id="second-law-thermodynamics" text="second law" >}} says:
 

@@ -5,7 +5,6 @@ description: "A functor that is invertible up to natural isomorphism."
 
 Let \(\mathcal C,\mathcal D\) be {{< knowl id="category" text="categories" >}}.
 
-## Definition
 A {{< knowl id="functor" text="functor" >}} \(F:\mathcal C\to\mathcal D\) is an **equivalence of categories** if there exists a functor \(G:\mathcal D\to\mathcal C\) and {{< knowl id="natural-isomorphism" text="natural isomorphisms" >}}
 \[
 \eta:\mathrm{Id}_{\mathcal C}\Rightarrow G\circ F,

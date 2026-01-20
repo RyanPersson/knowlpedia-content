@@ -5,7 +5,6 @@ description: "An additive category with kernels and cokernels where exactness be
 
 An **abelian category** is a {{< knowl id="category" text="category" >}} \(\mathcal A\) in which one can do “linear algebra + exact sequences” abstractly.
 
-## Definition
 
 A category \(\mathcal A\) is **abelian** if:
 

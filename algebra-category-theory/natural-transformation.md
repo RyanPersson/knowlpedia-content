@@ -5,7 +5,6 @@ description: "A morphism between functors given by components that commute with 
 
 Let \(\mathcal C,\mathcal D\) be {{< knowl id="category" text="categories" >}}, and let \(F,G:\mathcal C\to\mathcal D\) be {{< knowl id="functor" text="functors" >}}.
 
-## Definition
 A **natural transformation** \(\eta:F\Rightarrow G\) assigns to every {{< knowl id="object" text="object" >}} \(X\in\mathcal C\) a {{< knowl id="morphism" text="morphism" >}}
 \[
 \eta_X:F(X)\to G(X)

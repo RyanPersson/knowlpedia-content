@@ -3,7 +3,6 @@ title: "Work sign convention"
 description: "A bookkeeping choice for the sign of work in the first law; here δW>0 means work done by the system on the surroundings."
 ---
 
-## Definition
 A *work sign convention* specifies whether work is counted as positive when it is done **by** the system or **on** the system. Because heat and work appear together in the {{< knowl id="first-law-thermodynamics" text="first law of thermodynamics" >}}, the sign convention must be fixed to interpret equations and plots consistently.
 
 **Convention used in these knowls:**  

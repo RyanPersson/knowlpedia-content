@@ -3,7 +3,6 @@ title: "Thermodynamic system"
 description: "A chosen portion of the universe whose macroscopic behavior is described with thermodynamic variables and laws."
 ---
 
-## Definition
 A **thermodynamic system** is the portion of the physical world selected for study, treated as a well-defined entity that can (in general) exchange energy and/or matter with its {{< knowl id="surroundings-environment" text="surroundings" >}} across a {{< knowl id="system-boundary" text="system boundary" >}}.
 
 The “system” may be a material body (e.g., a gas in a cylinder), a region of space (e.g., a control volume in fluid flow), or a composite object (e.g., two phases plus an interface), provided the boundary and allowed exchanges are specified.

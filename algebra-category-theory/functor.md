@@ -5,7 +5,6 @@ description: "A map between categories that preserves identities and composition
 
 Let \(\mathcal C,\mathcal D\) be {{< knowl id="category" text="categories" >}}.
 
-## Definition
 A (covariant) **functor** \(F:\mathcal C\to\mathcal D\) consists of:
 1. an assignment on {{< knowl id="object" text="objects" >}}: for each \(A\in\mathcal C\), an object \(F(A)\in\mathcal D\);
 2. an assignment on {{< knowl id="morphism" text="morphisms" >}}: for each morphism \(f:A\to B\) in \(\mathcal C\), a morphism

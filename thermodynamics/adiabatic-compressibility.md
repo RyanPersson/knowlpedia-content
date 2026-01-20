@@ -7,7 +7,6 @@ The **adiabatic compressibility** (often called the **isentropic compressibility
 that measures how the {{< knowl id="volume-thermo" text="volume" >}} of a {{< knowl id="thermodynamic-system" text="thermodynamic system" >}}
 responds to changes in {{< knowl id="pressure-thermo" text="pressure" >}} when the {{< knowl id="thermodynamic-entropy" text="entropy" >}} is held fixed.
 
-## Definition
 It is defined by
 $$
 \kappa_S \equiv -\frac{1}{V}\left(\frac{\partial V}{\partial p}\right)_{S,N},

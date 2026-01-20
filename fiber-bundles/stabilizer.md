@@ -5,7 +5,6 @@ description: "The subgroup of a Lie group that fixes a point under a group actio
 
 Let $G$ act on a manifold $M$ via a {{< knowl id="smooth-action-of-a-lie-group-on-a-manifold" text="smooth action" >}}.
 
-## Definition
 For $x\in M$, the **stabilizer** (or **isotropy subgroup**) of $x$ is
 \[
 G_x := \{ g\in G \mid g\cdot x = x\}.

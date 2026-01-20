@@ -3,7 +3,6 @@ title: "Thermodynamic equilibrium"
 description: "A stable state with no spontaneous macroscopic change, characterized by simultaneous mechanical, thermal, and chemical equilibrium."
 ---
 
-## Definition
 A {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} is in **thermodynamic equilibrium** if, with its external constraints and {{< knowl id="system-boundary" text="boundary conditions" >}} held fixed, its {{< knowl id="thermodynamic-state" text="macroscopic state" >}} does not change in time and exhibits no sustained macroscopic currents (of energy, momentum, or matter). Equivalently, there are no internal “driving forces” (such as gradients of intensive variables) that would generate a spontaneous {{< knowl id="irreversible-process" text="irreversible process" >}}.
 
 In thermodynamic equilibrium, macroscopic properties can be described by a set of {{< knowl id="state-variable" text="state variables" >}}, and all {{< knowl id="state-function" text="state functions" >}} are well-defined for that state.

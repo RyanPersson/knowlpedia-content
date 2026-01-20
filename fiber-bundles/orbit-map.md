@@ -5,7 +5,6 @@ description: "The smooth map from a Lie group to a manifold sending a group elem
 
 Let $G$ act on $M$ by a {{< knowl id="smooth-action-of-a-lie-group-on-a-manifold" text="smooth action" >}}.
 
-## Definition
 For $x\in M$, the **orbit map at $x$** is the {{< knowl id="smooth-map" text="smooth map" >}}
 \[
 \Phi^x: G \longrightarrow M,\qquad \Phi^x(g)=g\cdot x.

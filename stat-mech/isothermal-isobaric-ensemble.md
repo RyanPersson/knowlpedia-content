@@ -3,7 +3,6 @@ title: "Isothermal–isobaric (NPT) ensemble"
 description: "Equilibrium ensemble for fixed particle number, temperature, and pressure, with fluctuating volume."
 ---
 
-## Definition
 
 The **isothermal–isobaric ensemble** (often called the **NPT ensemble**) describes a {{< knowl id="thermodynamic-system" section="thermodynamics" text="thermodynamic system" >}} in contact with reservoirs that fix the **temperature** (see {{< knowl id="temperature-thermo" section="thermodynamics" text="temperature" >}}) and the **pressure** (see {{< knowl id="pressure-thermo" section="thermodynamics" text="pressure" >}}), while the **particle number** $N$ is held fixed. In this setting the **volume** $V$ is not fixed; it is a fluctuating quantity determined by mechanical equilibrium with the pressure reservoir.
 

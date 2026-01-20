@@ -5,7 +5,6 @@ description: "A map on an overlap used to glue trivial bundles into a global bun
 
 A **clutching function** is a transition map used to glue together locally trivial pieces of a bundle.
 
-## Definition
 Let $M$ be covered by two open sets $U,V\subset M$ such that a bundle is trivial over each piece. For a principal bundle, take $U\times G$ and $V\times G$ and identify points over the overlap $U\cap V$ by
 $$
 (x,h)_U \sim (x, g(x)\,h)_V \qquad (x\in U\cap V,\; h\in G),

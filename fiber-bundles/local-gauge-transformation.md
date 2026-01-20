@@ -5,7 +5,6 @@ description: "A smooth group-valued function on an open set that represents a ga
 
 Let $\pi:P\to M$ be a principal $G$-bundle, and let $U\subset M$ be an open set (typically from an {{< knowl id="open-cover" text="open cover" >}}) on which we choose an {{< knowl id="equivariant-local-trivialization" text="equivariant local trivialization" >}} $\psi:\pi^{-1}(U)\to U\times G$.
 
-## Definition
 A **local gauge transformation** on $U$ is a smooth map
 \[
 g:U\to G

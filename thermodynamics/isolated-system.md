@@ -3,7 +3,6 @@ title: "Isolated system"
 description: "A thermodynamic system that exchanges neither matter nor energy with its surroundings."
 ---
 
-## Definition
 An **isolated system** is a {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} that exchanges **no matter** and **no energy** with its {{< knowl id="surroundings-environment" text="surroundings" >}} across the {{< knowl id="system-boundary" text="boundary" >}}. Equivalently, there is no heat transfer, no work transfer, and no particle transport through the boundary.
 
 In practice, isolation is an idealization: interactions with the environment are negligible on the timescale of interest.

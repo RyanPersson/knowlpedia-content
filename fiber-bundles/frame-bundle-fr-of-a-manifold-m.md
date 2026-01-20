@@ -5,7 +5,6 @@ description: "Principal GL(n) bundle of ordered tangent frames on a smooth n-man
 
 Let $M$ be an $n$-dimensional {{< knowl id="smooth-manifold" text="smooth manifold" >}} with {{< knowl id="tangent-bundle" text="tangent bundle" >}} $\pi:TM\to M$.
 
-## Definition
 The **frame bundle** of $M$, denoted $\mathrm{Fr}(TM)$, is the set of all ordered bases (frames) of tangent spaces:
 \[
 \mathrm{Fr}(TM)=\{(x,(e_1,\dots,e_n)):\ x\in M,\ (e_1,\dots,e_n)\text{ is a basis of }T_xM\}.

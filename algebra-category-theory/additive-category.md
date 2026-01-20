@@ -5,7 +5,6 @@ description: "A preadditive category with a zero object and finite biproducts (s
 
 An **additive category** is a {{< knowl id="category" text="category" >}} in which morphisms can be added and finite direct sums exist.
 
-## Definition
 A category \(\mathcal A\) is **preadditive** if:
 1. For all objects \(A,B\), the set \(\operatorname{Hom}_{\mathcal A}(A,B)\) is an abelian group (written additively).
 2. {{< knowl id="composition-category" text="Composition" >}} is bilinear: for morphisms \(f,f':A\to B\) and \(g,g':B\to C\),

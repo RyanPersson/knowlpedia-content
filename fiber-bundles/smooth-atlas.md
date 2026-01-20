@@ -3,7 +3,6 @@ title: "Smooth atlas"
 description: "A covering by coordinate charts whose overlap transition maps are smooth."
 ---
 
-## Definition
 Let $M$ be an $n$-dimensional topological manifold. A **smooth atlas** on $M$ is a collection of {{< knowl id="smooth-chart-coordinate-chart" text="charts" >}} $\mathcal A=\{(U_\alpha,\varphi_\alpha)\}_{\alpha\in I}$ such that
 
 1. $\{U_\alpha\}_{\alpha\in I}$ covers $M$, and

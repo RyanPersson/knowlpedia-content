@@ -3,7 +3,6 @@ title: "Monomorphism"
 description: "A morphism that is left-cancellative under composition."
 ---
 
-## Definition
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}}. A morphism \(f : X \to Y\) is a **monomorphism** (or **mono**) if for every object \(Z\) and all morphisms \(g_1,g_2 : Z \to X\),
 \[
 f\circ g_1 = f\circ g_2 \quad \Longrightarrow \quad g_1 = g_2,

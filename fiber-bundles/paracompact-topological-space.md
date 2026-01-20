@@ -5,7 +5,6 @@ description: "A topological space in which every open cover has a locally finite
 
 Let $X$ be a topological space.
 
-## Definition
 An open cover $\{U_i\}_{i\in I}$ of $X$ is **locally finite** if every point $x\in X$ has a neighborhood $V_x$ that meets only finitely many sets $U_i$.
 
 The space $X$ is **paracompact** if every open cover of $X$ admits a locally finite open refinement (i.e., there is a locally finite open cover $\{V_j\}_{j\in J}$ such that each $V_j\subset U_{i(j)}$ for some $i(j)$).

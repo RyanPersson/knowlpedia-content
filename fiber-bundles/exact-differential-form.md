@@ -5,7 +5,6 @@ description: "A differential form that is the exterior derivative of another for
 
 Let \(M\) be a {{< knowl id="smooth-manifold" text="smooth manifold" >}}. Exactness is defined using the {{< knowl id="exterior-derivative" text="exterior derivative" >}} on {{< knowl id="differential-k-form" text="differential forms" >}}.
 
-## Definition
 A form \(\omega\in\Omega^k(M)\) is **exact** if there exists \(\eta\in\Omega^{k-1}(M)\) such that
 \[
 \omega = d\eta.

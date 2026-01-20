@@ -5,7 +5,6 @@ description: "The mixed second central moment ⟨(A−⟨A⟩)(B−⟨B⟩)⟩ m
 
 For two observables $A$ and $B$ in a fixed ensemble (so {{< knowl id="ensemble-average" text="⟨·⟩" >}} is defined), the **covariance** measures how their deviations from their means fluctuate together. It is the ensemble version of {{< knowl id="covariance" section="probability" text="covariance" >}}.
 
-## Definition
 The **ensemble covariance** is
 $$
 \mathrm{Cov}(A,B)

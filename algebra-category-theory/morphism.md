@@ -3,7 +3,6 @@ title: "Morphism"
 description: "An arrow between objects in a category."
 ---
 
-## Definition
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}} and \(X,Y \in \mathrm{Ob}(\mathcal C)\).
 A **morphism** \(f : X \to Y\) is an element of \(\mathrm{Hom}_{\mathcal C}(X,Y)\).
 

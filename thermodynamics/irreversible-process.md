@@ -3,7 +3,6 @@ title: "Irreversible process"
 description: "A real process that cannot be exactly reversed without leaving net changes in the system or surroundings, producing entropy."
 ---
 
-## Definition
 An **irreversible process** is a {{< knowl id="thermodynamic-process" text="thermodynamic process" >}} that **cannot** be reversed so as to restore both the system and the surroundings to their initial conditions. Equivalently, an irreversible process involves dissipation and produces positive entropy in the combined system-plus-environment, in contrast to a {{< knowl id="reversible-process" text="reversible process" >}}.
 
 ## Physical interpretation

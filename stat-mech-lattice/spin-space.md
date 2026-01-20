@@ -3,7 +3,6 @@ title: "Spin space"
 description: "The single-site state space of a lattice spin system, together with its natural measurable structure (and often an a priori measure)."
 ---
 
-## Definition
 A **spin space** is the set $S$ of allowed values for a single spin variable at one lattice site. In a lattice model on the integer lattice (see {{< knowl id="lattice-zd" section="discrete-structures" text="integer lattice" >}}), each site $i$ carries a spin $\sigma_i \in S$.
 
 For probabilistic and Gibbsian formulations, one typically equips $S$ with a $\sigma$-algebra $\mathcal{S}$ (see {{< knowl id="sigma-algebra" section="measure-theory" text="sigma-algebra" >}}) so that local observables are {{< knowl id="measurable-function" section="measure-theory" text="measurable functions" >}} of $\sigma_i$. Often one also fixes an **a priori measure** $\rho$ on $(S,\mathcal{S})$ (see {{< knowl id="measure" section="measure-theory" text="measure" >}}), which is counting measure for discrete spins and a reference (e.g. Haar/surface) measure for continuous spins.

@@ -3,7 +3,6 @@ title: "Subrepresentation"
 description: "An invariant subspace of a representation, closed under the group action."
 ---
 
-## Definition
 Let \((V,\rho)\) be a {{< knowl id="group-representation" text="group representation" >}} of a group \(G\) over a field \(k\). A **subrepresentation** of \(V\) is a \(k\)-subspace \(W\subseteq V\) such that
 \[
 \rho(g)(W)\subseteq W\quad\text{for all } g\in G.

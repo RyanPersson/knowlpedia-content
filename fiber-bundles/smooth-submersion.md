@@ -5,7 +5,6 @@ description: "A smooth map whose differential is surjective at every point."
 
 Let \(M\) and \(N\) be {{< knowl id="smooth-manifold" text="smooth manifolds" >}} of dimensions \(m\) and \(n\), and let \(f : M \to N\) be a {{< knowl id="smooth-map" text="smooth map" >}}.
 
-## Definition
 The map \(f\) is a **smooth submersion** if for every \(p\in M\), the {{< knowl id="differential-pushforward-of-a-smooth-map" text="differential (pushforward)" >}}
 \[
 d f_p : T_p M \longrightarrow T_{f(p)}N

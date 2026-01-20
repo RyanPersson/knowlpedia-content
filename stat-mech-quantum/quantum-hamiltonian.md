@@ -3,7 +3,6 @@ title: "Quantum Hamiltonian"
 description: "A self-adjoint operator representing energy and generating unitary time evolution; it also defines the Gibbs state and quantum partition function."
 ---
 
-## Definition
 A **quantum Hamiltonian** is a {{< knowl id="self-adjoint-operator-observable" section="quantum-foundations" text="self-adjoint operator" >}} $H$ acting on the system Hilbert space $\mathcal{H}$ (or, more generally, a self-adjoint element of the {{< knowl id="observable-algebra" text="observable algebra" >}}).
 
 In finite dimension, self-adjointness means $H=H^\dagger$, so $H$ admits a spectral decomposition

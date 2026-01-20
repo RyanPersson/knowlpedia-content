@@ -5,7 +5,6 @@ description: "The set of points reachable from x under the action; it is an imme
 
 Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a manifold $M$; see {{< knowl id="smooth-action-lie-group" text="smooth Lie group actions" >}}. Fix $x\in M$.
 
-## Definition
 The **orbit** of $x$ is
 $$
 G\cdot x=\{g\cdot x \mid g\in G\}\subseteq M.

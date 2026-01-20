@@ -5,7 +5,6 @@ description: "A graph encoding the angles and relative lengths among simple root
 
 Let $\mathfrak g$ be a complex {{< knowl id="semisimple-lie-algebra" text="semisimple Lie algebra" >}}. Fix a {{< knowl id="cartan-subalgebra" text="Cartan subalgebra" >}} $\mathfrak h$ and a choice of positive roots in its {{< knowl id="root-system" text="root system" >}}. Let $\Delta=\{\alpha_1,\dots,\alpha_\ell\}$ be the corresponding set of {{< knowl id="simple-root" text="simple roots" >}}.
 
-## Definition
 The **Cartan matrix** $A=(a_{ij})$ (see {{< knowl id="cartan-matrix" text="Cartan matrix" >}}) is defined by
 \[
 a_{ij} := \langle \alpha_i^\vee,\alpha_j\rangle,

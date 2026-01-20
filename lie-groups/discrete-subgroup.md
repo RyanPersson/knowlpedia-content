@@ -5,7 +5,6 @@ description: "A subgroup that is discrete in the manifold topology; its Lie alge
 
 Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}.
 
-## Definition
 A subgroup $\Gamma\le G$ is **discrete** if it is a discrete subset in the subspace topology (equivalently, every $\gamma\in\Gamma$ is isolated in $G$).
 
 ## Basic Lie-theoretic consequences

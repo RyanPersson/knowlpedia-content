@@ -5,7 +5,6 @@ description: "A smooth map defining a group action of a Lie group on a smooth ma
 
 Let {{< knowl id="lie-group" text="Lie group" >}} $G$ and {{< knowl id="smooth-manifold" text="smooth manifold" >}} $M$ be given.
 
-## Definition
 A **smooth left action** of $G$ on $M$ is a {{< knowl id="smooth-map" text="smooth map" >}}
 \[
 \Phi: G\times M \longrightarrow M

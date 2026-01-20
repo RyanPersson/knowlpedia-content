@@ -8,7 +8,6 @@ $$
 \eta=\mathrm{diag}(-1,1,\dots,1).
 $$
 
-## Definition
 The **Lorentz group** in dimension $n$ is the subgroup
 $$
 O(1,n-1)=\{A\in \mathrm{GL}(n,\Bbb R)\mid A^{T}\eta A=\eta\}.

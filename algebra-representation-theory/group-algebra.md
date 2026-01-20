@@ -3,7 +3,6 @@ title: "Group algebra"
 description: "The associative algebra k[G] whose basis is a group G and whose multiplication extends the group law bilinearly."
 ---
 
-## Definition
 
 Let \(G\) be a finite group and \(k\) a field. The **group algebra** \(k[G]\) (also written \(kG\)) is the \(k\)-{{< knowl id="vector-space" section="linear-algebra" text="vector space" >}} with basis \(\{\,\delta_g : g\in G\,\}\) and multiplication determined by
 \[

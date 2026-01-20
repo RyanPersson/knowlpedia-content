@@ -3,7 +3,6 @@ title: "Quantum expectation value"
 description: "Expectation of an observable A in state ρ: ⟨A⟩=Tr(ρA); in equilibrium ⟨A⟩β=Tr(ρβA)."
 ---
 
-## Definition
 
 Let $\mathcal H$ be a finite-dimensional Hilbert space and let $A$ be an observable, represented as a self-adjoint element of the observable algebra ({{< knowl id="observable-algebra" text="observable algebra" >}}). Let $\rho$ be a quantum state given by a density operator ({{< knowl id="density-operator-state" text="density-operator state" >}}; compare {{< knowl id="density-operator" section="quantum-foundations" text="density operator" >}}).
 

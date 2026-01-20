@@ -9,7 +9,6 @@ Let \(R\) be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and l
 \]
 be a {{< knowl id="cochain-complex" text="cochain complex" >}} of {{< knowl id="module" section="algebra-modules" text="R-modules" >}}, i.e. \(d^{n+1}\circ d^{n}=0\) for all \(n\).
 
-## Definition
 The **\(n\)th cocycles** and **\(n\)th coboundaries** are
 \[
 Z^n(C^\bullet) := \ker(d^{n})\subseteq C^n,

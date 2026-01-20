@@ -3,7 +3,6 @@ title: "Heat (inexact differential)"
 description: "The symbol δQ denotes path-dependent energy transfer into a system driven by a temperature difference; it is not a state function."
 ---
 
-## Definition
 For a {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} undergoing a {{< knowl id="thermodynamic-process" text="thermodynamic process" >}}, the *heat increment* $\delta Q$ is the infinitesimal amount of energy transferred **into** the system across the {{< knowl id="system-boundary" text="system boundary" >}} *because of a temperature difference* (as opposed to energy transfer classified as {{< knowl id="work-inexact-differential" text="work" >}}).
 
 The notation $\delta Q$ (rather than $dQ$) emphasizes that heat is an **inexact differential**: there is no {{< knowl id="state-function" text="state function" >}} $Q$ with $\delta Q = dQ$. Equivalently, the integral

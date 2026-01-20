@@ -3,7 +3,6 @@ title: "Ising model"
 description: "A lattice spin model with binary spins (±1) and nearest-neighbor pair interactions, used as a paradigmatic model for phase transitions and symmetry breaking."
 ---
 
-## Definition
 The (nearest-neighbor) **Ising model** on $\mathbb{Z}^d$ has:
 - {{< knowl id="spin-space" text="spin space" >}} $\{-1,+1\}$,
 - {{< knowl id="spin-configuration" text="configurations" >}} $\sigma=(\sigma_x)_{x\in\mathbb{Z}^d}$ with $\sigma_x\in\{-1,+1\}$,

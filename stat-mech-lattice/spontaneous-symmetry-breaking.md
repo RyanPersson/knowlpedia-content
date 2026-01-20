@@ -3,7 +3,6 @@ title: "Spontaneous symmetry breaking"
 description: "Failure of the equilibrium (Gibbs) state at zero field to inherit a global symmetry of the Hamiltonian, manifested by multiple symmetry-related pure phases."
 ---
 
-## Definition
 Let a lattice model have a global symmetry group $G$ acting on spins (e.g. spin flip $\sigma\mapsto -\sigma$ for the {{< knowl id="ising-model" text="Ising model" >}} at zero field). This induces an action on {{< knowl id="spin-configuration" text="spin configurations" >}} and hence on {{< knowl id="infinite-volume-gibbs-measure" text="infinite-volume Gibbs measures" >}} by pushforward.
 
 We say the model exhibits **spontaneous symmetry breaking (SSB)** at parameters (e.g. inverse temperature $\beta$) if:

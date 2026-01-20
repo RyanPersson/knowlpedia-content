@@ -5,7 +5,6 @@ description: "The isometry group of Minkowski space: translations semidirect the
 
 Let $\Bbb R^{1,3}$ denote Minkowski space with its standard bilinear form of signature $(1,3)$.
 
-## Definition
 The **Poincaré group** is the group of affine isometries of Minkowski space. Concretely, it is the semidirect product
 $$
 \mathrm{ISO}(1,3)=\Bbb R^{1,3}\rtimes O(1,3),

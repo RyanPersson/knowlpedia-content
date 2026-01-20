@@ -3,7 +3,6 @@ title: "Extremal Gibbs measure"
 description: "An infinite-volume Gibbs measure that is an extreme point of the convex set of Gibbs measures (equivalently, tail-trivial)."
 ---
 
-## Definition
 
 Fix a {{< knowl id="gibbs-specification" text="Gibbs specification" >}} $\gamma$ and let $\mathcal{G}(\gamma)$ denote the set of {{< knowl id="infinite-volume-gibbs-measure" text="infinite-volume Gibbs measures" >}} consistent with $\gamma$.
 

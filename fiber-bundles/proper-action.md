@@ -5,7 +5,6 @@ description: "A Lie group action for which the action graph map is a proper map.
 
 Let {{< knowl id="lie-group" text="Lie group" >}} $G$ act on a {{< knowl id="smooth-manifold" text="smooth manifold" >}} $M$ via a smooth action.
 
-## Definition
 The action is **proper** if the map
 \[
 \Theta: G\times M \longrightarrow M\times M,\qquad \Theta(g,x)=(g\cdot x,\ x)

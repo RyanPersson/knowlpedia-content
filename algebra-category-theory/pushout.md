@@ -3,7 +3,6 @@ title: "Pushout"
 description: "A universal object obtained by gluing two objects along a common source."
 ---
 
-## Definition
 Let \(\mathcal{C}\) be a {{< knowl id="category" text="category" >}} and let
 \[
 X \xleftarrow{f} Z \xrightarrow{g} Y

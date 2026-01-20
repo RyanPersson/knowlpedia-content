@@ -3,7 +3,6 @@ title: "Finite-volume Gibbs measure"
 description: "The equilibrium probability distribution on spin configurations in a finite region, defined from the Hamiltonian and temperature with a chosen boundary condition."
 ---
 
-## Definition
 Let $\Lambda \Subset \mathbb{Z}^d$ be finite, with spin space $\mathcal S$ ({{< knowl id="spin-space" text="spin space" >}}) and configuration space $\mathcal S^\Lambda$ ({{< knowl id="configuration-space-lattice" text="configuration space" >}}). Fix an inverse temperature $\beta$ (see {{< knowl id="inverse-temperature-beta" section="thermodynamics" text="inverse temperature $\beta$" >}}) and a boundary condition $\eta$ ({{< knowl id="boundary-condition-lattice" text="boundary condition" >}}).
 
 Given a finite-volume Hamiltonian $H_\Lambda(\sigma_\Lambda\mid \eta)$ ({{< knowl id="lattice-hamiltonian" text="lattice Hamiltonian" >}}), the **finite-volume Gibbs measure** on $\mathcal S^\Lambda$ is

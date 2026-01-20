@@ -3,7 +3,6 @@ title: "Irreducible character"
 description: "The character of an irreducible complex representation; these form an orthonormal basis of class functions."
 ---
 
-## Definition
 
 Let \(G\) be a finite group. An **irreducible character** of \(G\) is the {{< knowl id="character" text="character" >}} \(\chi_\rho\) of an {{< knowl id="irreducible-representation" text="irreducible (complex) representation" >}} \(\rho:G\to \mathrm{GL}(V)\).
 

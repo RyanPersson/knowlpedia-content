@@ -5,7 +5,6 @@ description: "A linear subspace closed under the Lie bracket."
 
 Let $\mathfrak g$ be a {{< knowl id="lie-algebra" text="Lie algebra" >}} over $\Bbbk$ with bracket $[\ ,\ ]$.
 
-## Definition
 A **Lie subalgebra** of $\mathfrak g$ is a $\Bbbk$-linear subspace $\mathfrak h\subseteq \mathfrak g$ such that
 $$
 [\mathfrak h,\mathfrak h]\subseteq \mathfrak h,

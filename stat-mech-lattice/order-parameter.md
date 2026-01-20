@@ -3,7 +3,6 @@ title: "Order parameter"
 description: "A quantitative diagnostic that distinguishes phases by taking different typical values in different Gibbs states, often vanishing in disordered/symmetric phases and nonzero in ordered phases."
 ---
 
-## Definition
 An **order parameter** is a map from equilibrium states (typically {{< knowl id="infinite-volume-gibbs-measure" text="infinite-volume Gibbs measures" >}}) to a finite-dimensional quantity (often $\mathbb{R}$ or $\mathbb{R}^k$) that separates phases.
 
 In lattice spin systems, a common choice is the expectation of a (quasi-)local observable $O$:

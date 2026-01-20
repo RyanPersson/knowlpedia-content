@@ -5,7 +5,6 @@ description: "An exact chain complex of projective modules ending in a given mod
 
 Let \(R\) be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and \(M\) an {{< knowl id="module" section="algebra-modules" text="R-module" >}}.
 
-## Definition
 A **projective resolution** of \(M\) is an augmented {{< knowl id="chain-complex" text="chain complex" >}}
 \[
 \cdots \xrightarrow{d_2} P_1 \xrightarrow{d_1} P_0 \xrightarrow{\varepsilon} M \to 0

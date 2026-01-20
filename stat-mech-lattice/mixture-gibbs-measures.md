@@ -3,7 +3,6 @@ title: "Mixtures of Gibbs measures"
 description: "Convex combinations (or integrals) of infinite-volume Gibbs measures; these remain Gibbs and encode phase coexistence or random phase selection."
 ---
 
-## Definition
 
 Let $\gamma$ be a {{< knowl id="gibbs-specification" text="Gibbs specification" >}} and let $\mu_1,\mu_2 \in \mathcal{G}(\gamma)$ be {{< knowl id="infinite-volume-gibbs-measure" text="infinite-volume Gibbs measures" >}}.
 

@@ -3,7 +3,6 @@ title: "Smooth embedding"
 description: "A smooth map that is an injective immersion and a homeomorphism onto its image."
 ---
 
-## Definition
 Let $f:M\to N$ be a {{< knowl id="smooth-map" text="smooth map" >}} between {{< knowl id="smooth-manifold" text="smooth manifolds" >}}. The map $f$ is a **smooth embedding** if
 
 1. $f$ is a {{< knowl id="smooth-immersion" text="smooth immersion" >}} (equivalently, $\mathrm{d}f_p:T_pM\to T_{f(p)}N$ is injective for all $p\in M$), and

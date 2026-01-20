@@ -5,7 +5,6 @@ description: "A category obtained by restricting the objects and morphisms of a 
 
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}}.
 
-## Definition
 A **subcategory** \(\mathcal D\) of \(\mathcal C\) consists of:
 - a collection of {{< knowl id="object" text="objects" >}} \(\mathrm{Ob}(\mathcal D)\subseteq \mathrm{Ob}(\mathcal C)\),
 - for every \(A,B\in \mathrm{Ob}(\mathcal D)\), a subset of {{< knowl id="morphism" text="morphisms" >}}

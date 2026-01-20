@@ -5,7 +5,6 @@ description: "A Lie algebra whose lower central series reaches zero after finite
 
 Let $\mathfrak g$ be a finite-dimensional {{< knowl id="lie-algebra" text="Lie algebra" >}}.
 
-## Definition
 The **lower central series** $\gamma_\bullet(\mathfrak g)$ is defined by $\gamma_1(\mathfrak g)=\mathfrak g$ and
 $\gamma_{k+1}(\mathfrak g)=[\mathfrak g,\gamma_k(\mathfrak g)]$ (see {{< knowl id="lower-central-series-lie-algebra" text="lower central series" >}}).
 

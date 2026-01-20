@@ -3,7 +3,6 @@ title: "Grand partition function"
 description: "Normalization of the grand-canonical ensemble; generates the grand potential, mean particle number, and fluctuations."
 ---
 
-## Definition
 
 The **grand partition function** $\Xi(\beta,V,\mu)$ is the normalization constant of the {{< knowl id="grand-canonical-ensemble" text="grand-canonical ensemble" >}}, appropriate when a system can exchange both energy and particles with reservoirs that fix inverse temperature $\beta$ and chemical potential $\mu$ (see {{< knowl id="chemical-potential-thermo" section="thermodynamics" text="chemical potential" >}}).
 

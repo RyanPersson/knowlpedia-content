@@ -3,7 +3,6 @@ title: "Closed system"
 description: "A thermodynamic system that can exchange energy (heat/work) but not matter with its surroundings."
 ---
 
-## Definition
 A **closed system** is a {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} for which **no matter crosses** the {{< knowl id="system-boundary" text="boundary" >}}, while **energy exchange may occur** with the {{< knowl id="surroundings-environment" text="surroundings" >}} as {{< knowl id="heat-inexact-differential" text="heat" >}} and/or {{< knowl id="work-inexact-differential" text="work" >}}.
 
 This is the standard “control mass” setting of classical equilibrium thermodynamics.

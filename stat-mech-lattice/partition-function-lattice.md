@@ -3,7 +3,6 @@ title: "Lattice partition function"
 description: "Finite-volume normalization constant defining the Gibbs distribution of a lattice spin system in a region with a chosen boundary condition."
 ---
 
-## Definition
 
 Fix a finite region $\Lambda$ of the lattice (see {{< knowl id="finite-box-lattice" section="discrete-structures" text="finite boxes in a lattice" >}}) and a {{< knowl id="spin-space" text="single-site spin space" >}} $S$ with a reference (a priori) measure $\lambda$ on $S$. A {{< knowl id="spin-configuration" text="spin configuration" >}} on $\Lambda$ is an element $\sigma_\Lambda \in S^\Lambda$, and a {{< knowl id="boundary-condition-lattice" text="boundary condition" >}} is a configuration $\tau$ on the complement $\Lambda^c$.
 

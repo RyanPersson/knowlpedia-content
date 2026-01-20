@@ -5,7 +5,6 @@ description: "A group action in which only the identity element fixes any point.
 
 Let $G$ act on a manifold $M$.
 
-## Definition
 The action is **free** if for every $x\in M$, the {{< knowl id="stabilizer" text="stabilizer" >}} is trivial:
 \[
 G_x = \{e\}\quad\text{for all }x\in M.

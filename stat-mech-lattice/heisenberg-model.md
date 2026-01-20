@@ -3,7 +3,6 @@ title: "Heisenberg model"
 description: "O(3)-symmetric lattice spin model with vector spins on the sphere, modeling isotropic magnetism and continuous-symmetry ordering in statistical mechanics."
 ---
 
-## Definition
 
 In the context of classical lattice spin systems, the **Heisenberg model** (often called the O(3) model) is a continuous-spin model in which each site carries a three-dimensional unit vector.
 

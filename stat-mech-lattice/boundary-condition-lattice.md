@@ -3,7 +3,6 @@ title: "Boundary condition (lattice spin system)"
 description: "A prescription of spins outside a finite region that determines how the boundary interacts with the interior in finite-volume Gibbs measures."
 ---
 
-## Definition
 Let $\Lambda \Subset \mathbb{Z}^d$ be a finite region and let $\Omega=\mathcal S^{\mathbb{Z}^d}$ be the full {{< knowl id="configuration-space-lattice" text="configuration space" >}}. A **boundary condition** is an exterior configuration
 $$
 \eta \in \Omega,

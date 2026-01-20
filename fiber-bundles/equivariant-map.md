@@ -5,7 +5,6 @@ description: "A smooth map between G-manifolds that intertwines the group action
 
 Let $G$ act on manifolds $M$ and $N$ (on the left, unless stated otherwise).
 
-## Definition
 A {{< knowl id="smooth-map" text="smooth map" >}} $f:M\to N$ is **$G$-equivariant** if
 \[
 f(g\cdot x)=g\cdot f(x)\qquad\text{for all }g\in G,\ x\in M.

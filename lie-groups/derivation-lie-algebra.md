@@ -5,7 +5,6 @@ description: "A linear map with ; derivations form a Lie algebra containing the 
 
 Let $\mathfrak g$ be a {{< knowl id="lie-algebra" text="Lie algebra" >}} over a field of characteristic $0$ (typically $\mathbb R$ or $\mathbb C$).
 
-## Definition
 A **derivation** of $\mathfrak g$ is a linear map $D:\mathfrak g\to\mathfrak g$ such that for all $x,y\in\mathfrak g$,
 \[
 D([x,y]) \;=\; [D x, y] + [x, D y].

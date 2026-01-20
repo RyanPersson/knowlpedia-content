@@ -3,7 +3,6 @@ title: "Clausius inequality"
 description: "Integral inequality for heat exchange that quantifies irreversibility and leads to the definition of entropy."
 ---
 
-## Definition
 
 Consider a {{< knowl id="cyclic-process" text="cyclic process" >}} in which a system exchanges heat $\delta Q$ with its surroundings (see {{< knowl id="heat-inexact-differential" text="heat" >}}). Let $T_{\mathrm{b}}$ denote the {{< knowl id="temperature-thermo" text="boundary temperature" >}} at which each heat element crosses the system boundary (e.g., the temperature of a {{< knowl id="thermal-reservoir" text="thermal reservoir" >}} supplying that heat), understood on the {{< knowl id="absolute-temperature-scale" text="absolute temperature scale" >}}. The Clausius inequality states that
 $$

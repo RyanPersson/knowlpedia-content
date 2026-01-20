@@ -3,7 +3,6 @@ title: "Limit"
 description: "A universal cone to a diagram, generalizing products, pullbacks, and equalizers."
 ---
 
-## Definition
 Let \(\mathcal{C}\) be a {{< knowl id="category" text="category" >}} and let \(J\) be an indexing category. A **diagram of shape \(J\)** in \(\mathcal{C}\) is a {{< knowl id="functor" text="functor" >}}
 \[
 D:J\to \mathcal{C}.

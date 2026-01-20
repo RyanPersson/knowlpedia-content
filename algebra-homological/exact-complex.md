@@ -3,7 +3,6 @@ title: "Exact complex"
 description: "A chain complex whose homology vanishes in every degree (equivalently, im d = ker d)."
 ---
 
-## Definition
 A {{< knowl id="chain-complex" text="chain complex" >}} \((C_\bullet,d)\) is **exact** if any (hence all) of the following equivalent conditions hold:
 
 1. \(H_n(C_\bullet)=0\) for all \(n\), where {{< knowl id="homology-module" text="homology module" >}} is used.

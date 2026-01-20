@@ -5,7 +5,6 @@ description: "A principal bundle isomorphism from a principal bundle to itself, 
 
 Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}}.
 
-## Definition
 A **principal bundle automorphism** is a {{< knowl id="principal-bundle-isomorphism" text="principal bundle isomorphism" >}} $\Phi:P\to P$ (so $\Phi$ is an equivariant diffeomorphism) covering a base {{< knowl id="diffeomorphism" text="diffeomorphism" >}} $f:M\to M$, meaning
 \[
 \pi\circ \Phi = f\circ \pi

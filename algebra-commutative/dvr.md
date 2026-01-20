@@ -5,7 +5,6 @@ description: "A one-dimensional Noetherian local domain with principal maximal i
 
 A **discrete valuation ring (DVR)** is the basic local building block of dimension-one commutative algebra.
 
-## Definition
 A DVR is a local ring $(R,\mathfrak m)$ (see {{< knowl id="local-ring" text="local ring" >}} and {{< knowl id="maximal-ideal-local-ring" text="its maximal ideal" >}}) such that:
 - $R$ is a domain,
 - $R$ is {{< knowl id="noetherian-ring" text="Noetherian" >}},

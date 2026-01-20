@@ -3,7 +3,6 @@ title: "Lattice gas"
 description: "Particle (occupation) model on a lattice with 0–1 variables, equivalent to the Ising model in a field and used to model gas–liquid coexistence and adsorption."
 ---
 
-## Definition
 
 A **lattice gas** is a statistical-mechanical model of particles on a lattice, where each site is either empty or occupied. It can be formulated as a lattice spin system with spin space $\{0,1\}$ and is closely related to the {{< knowl id="ising-model" text="Ising model" >}}.
 

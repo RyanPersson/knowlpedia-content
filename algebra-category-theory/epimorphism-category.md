@@ -5,7 +5,6 @@ description: "A morphism that is right-cancellative; the categorical analogue of
 
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}} and let \(f:A\to B\) be a {{< knowl id="morphism" text="morphism" >}} in \(\mathcal C\).
 
-## Definition
 The morphism \(f\) is an **epimorphism** (or **epi**) if it is *right-cancellative* with respect to {{< knowl id="composition-category" text="composition" >}}: for every object \(C\) of \(\mathcal C\) and all morphisms \(g,h:B\to C\),
 \[
 g\circ f = h\circ f \quad \Longrightarrow \quad g=h.

@@ -5,7 +5,6 @@ description: "An object A ⊔ B with injections, universal among cocones from A 
 
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}} and let \(A,B\) be {{< knowl id="object" text="objects" >}} of \(\mathcal C\).
 
-## Definition
 A **(binary) coproduct** of \(A\) and \(B\) is a triple \((A\sqcup B,\iota_1,\iota_2)\) consisting of an object \(A\sqcup B\) and morphisms
 \[
 \iota_1:A\to A\sqcup B,\qquad \iota_2:B\to A\sqcup B

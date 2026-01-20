@@ -5,7 +5,6 @@ description: "A Lie algebra valued 1-form on an open set obtained by pulling bac
 
 Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with Lie algebra $\mathfrak g$, and let $\omega\in\Omega^1(P;\mathfrak g)$ be a {{< knowl id="connection-1-form-on-a-principal-bundle" text="connection 1-form" >}} representing a {{< knowl id="principal-connection" text="principal connection" >}}.
 
-## Definition
 Given a local section $s:U\to P$ over an open set $U\subseteq M$, the **local connection 1-form** (also called the gauge potential in that trivialization) is the $\mathfrak g$-valued 1-form
 \[
 A:=s^*\omega \in \Omega^1(U;\mathfrak g).

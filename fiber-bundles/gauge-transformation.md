@@ -5,7 +5,6 @@ description: "A principal bundle automorphism that covers the identity map on th
 
 Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}}. A gauge transformation is a special case of a {{< knowl id="principal-bundle-automorphism" text="principal bundle automorphism" >}}.
 
-## Definition
 A **gauge transformation** of $P$ is a smooth map $\Phi:P\to P$ such that:
 1. (Base-preserving) $\pi\circ\Phi=\pi$,
 2. (Equivariance) $\Phi(p\cdot g)=\Phi(p)\cdot g$ for all $p\in P$ and $g\in G$,

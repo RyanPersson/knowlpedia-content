@@ -3,7 +3,6 @@ title: "Isothermal–isobaric partition function"
 description: "Normalization of the NPT ensemble; Laplace transform of the canonical partition function and generator of the Gibbs free energy."
 ---
 
-## Definition
 
 The **isothermal–isobaric partition function** $\Delta(\beta,p,N)$ is the normalization constant of the {{< knowl id="isothermal-isobaric-ensemble" text="isothermal–isobaric (NPT) ensemble" >}}, which describes equilibrium at fixed inverse temperature $\beta$, fixed pressure $p$, and fixed particle number $N$, with fluctuating volume.
 

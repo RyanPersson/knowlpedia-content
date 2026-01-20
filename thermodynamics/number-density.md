@@ -5,7 +5,6 @@ description: "Particle number per volume, n = N/V, an intensive measure of conce
 
 The **number density** $n$ is the {{< knowl id="particle-number" text="particle number" >}} per {{< knowl id="volume-thermo" text="volume" >}}. It is a central intensive descriptor of a material’s concentration.
 
-## Definition
 For a homogeneous system with particle number $N$ and volume $V$, the **number density** is
 $$
 n \equiv \frac{N}{V}.

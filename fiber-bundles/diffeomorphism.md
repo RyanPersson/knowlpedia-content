@@ -3,7 +3,6 @@ title: "Diffeomorphism"
 description: "A bijective smooth map with smooth inverse; an isomorphism of smooth manifolds."
 ---
 
-## Definition
 Let $M$ and $N$ be {{< knowl id="smooth-manifold" text="smooth manifolds" >}}. A map $f:M\to N$ is a **diffeomorphism** if
 
 1. $f$ is bijective,

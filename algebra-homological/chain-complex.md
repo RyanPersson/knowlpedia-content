@@ -3,7 +3,6 @@ title: "Chain complex"
 description: "A graded sequence of modules with differentials d lowering degree and satisfying d∘d=0."
 ---
 
-## Definition
 Let \(R\) be a ring and let \(\{C_n\}_{n\in\mathbb Z}\) be a family of {{< knowl id="module" section="algebra-modules" text="(left) R-modules" >}}.
 A **chain complex** \( (C_\bullet, d)\) is a collection of \(R\)-linear maps (called **differentials**)
 \[

@@ -3,7 +3,6 @@ title: "Irreducible representation"
 description: "A nonzero representation with no proper, nontrivial invariant subspaces."
 ---
 
-## Definition
 Let \((V,\rho)\) be a finite-dimensional {{< knowl id="group-representation" text="group representation" >}} of a group \(G\) over a field \(k\). The representation \(V\neq 0\) is **irreducible** if its only {{< knowl id="subrepresentation" text="subrepresentations" >}} are \(0\) and \(V\) itself.
 
 Equivalently, \(V\) is a **simple** \(k[G]\)-module (compare {{< knowl id="simple-module" section="algebra-modules" text="simple module" >}}).

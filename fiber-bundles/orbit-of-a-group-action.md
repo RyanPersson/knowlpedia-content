@@ -5,7 +5,6 @@ description: "The set of points reachable from a given point under a group actio
 
 Consider a {{< knowl id="smooth-action-of-a-lie-group-on-a-manifold" text="smooth action" >}} of a Lie group $G$ on a manifold $M$.
 
-## Definition
 For $x\in M$, the **orbit** of $x$ (under the action of $G$) is the subset
 \[
 G\cdot x := \{ g\cdot x \mid g\in G\}\subseteq M.

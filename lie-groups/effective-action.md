@@ -5,7 +5,6 @@ description: "A Lie group action with trivial kernel; equivalently, the only ele
 
 Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a manifold $M$, i.e. a {{< knowl id="smooth-action-lie-group" text="smooth action of a Lie group" >}}.
 
-## Definition
 The **kernel** of the action is
 \[
 \ker(G\curvearrowright M) := \{g\in G : g\cdot x = x \text{ for all }x\in M\}.

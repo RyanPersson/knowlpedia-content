@@ -3,7 +3,6 @@ title: "Spontaneous magnetization"
 description: "Nonzero magnetization in zero external field, defined via symmetry-breaking limits of Gibbs states in the thermodynamic limit."
 ---
 
-## Definition
 Consider a lattice spin system with an {{< knowl id="external-field-coupling" text="external field coupling" >}} parameter $h\in\mathbb{R}$ (e.g. coupling to $\sum_x \sigma_x$). Let $\mu_{\beta,h}^{+}$ denote a translation-invariant {{< knowl id="infinite-volume-gibbs-measure" text="infinite-volume Gibbs measure" >}} selected by a *positive* field (or, equivalently in ferromagnets, by $+$ {{< knowl id="boundary-condition-lattice" text="boundary conditions" >}} and then taking volume $\to\infty$).
 
 The **spontaneous magnetization** at inverse temperature $\beta$ is

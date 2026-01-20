@@ -5,7 +5,6 @@ description: "The centered (mean-zero) version of an observable, A − ⟨A⟩, 
 
 In statistical mechanics, an **observable** $A$ assigns a numerical value to each {{< knowl id="microstate-classical" text="microstate" >}} (for a classical system, a point in {{< knowl id="phase-space-classical" text="phase space" >}}). Once an ensemble measure is chosen (e.g. {{< knowl id="canonical-ensemble" text="canonical ensemble" >}} or {{< knowl id="microcanonical-measure" text="microcanonical measure" >}}), $A$ becomes a random variable in the probabilistic sense (compare {{< knowl id="random-variable" section="probability" text="random variable" >}}), and its **ensemble mean** is {{< knowl id="ensemble-average" text="⟨A⟩" >}}.
 
-## Definition
 The **fluctuation** (or **centered observable**) associated with $A$ is
 $$
 \delta A \;:=\; A - \langle A\rangle.

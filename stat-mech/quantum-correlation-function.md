@@ -3,7 +3,6 @@ title: "Quantum correlation function"
 description: "Thermal two-point function GAB(t)=Tr(ρβ A(t)B) and its KMS/imaginary-time properties in finite quantum systems."
 ---
 
-## Definition
 
 Let $H$ be the Hamiltonian ({{< knowl id="quantum-hamiltonian" section="stat-mech-quantum" text="quantum Hamiltonian" >}}) on a finite-dimensional Hilbert space, and let $\tau_t$ denote the Heisenberg time evolution on observables ({{< knowl id="observable-algebra" section="stat-mech-quantum" text="observable algebra" >}}),
 $$

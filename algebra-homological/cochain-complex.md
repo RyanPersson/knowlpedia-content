@@ -3,7 +3,6 @@ title: "Cochain complex"
 description: "A graded sequence of modules with differentials d raising degree and satisfying d∘d=0."
 ---
 
-## Definition
 Let \(R\) be a ring and let \(\{C^n\}_{n\in\mathbb Z}\) be {{< knowl id="module" section="algebra-modules" text="R-modules" >}}.
 A **cochain complex** \( (C^\bullet, d)\) is a collection of \(R\)-linear maps
 \[

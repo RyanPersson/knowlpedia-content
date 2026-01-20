@@ -5,7 +5,6 @@ description: "A fiber bundle built from a principal bundle and a left group acti
 
 Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with right action $p\cdot g$, and let $F$ be a smooth manifold equipped with a smooth left action of the {{< knowl id="lie-group" text="Lie group" >}} $G$.
 
-## Definition
 The **associated bundle** with fiber $F$ is the quotient
 \[
 P\times_G F := (P\times F)/\sim,

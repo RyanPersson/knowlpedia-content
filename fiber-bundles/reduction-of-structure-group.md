@@ -5,7 +5,6 @@ description: "A way to replace the structure group G of a principal bundle by a 
 
 Let $P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} and let $H\subset G$ be a Lie subgroup of the {{< knowl id="lie-group" text="Lie group" >}} $G$.
 
-## Definition
 A **reduction of structure group of $P$ from $G$ to $H$** consists of a principal $H$-bundle $\pi_H:Q\to M$ together with an injective smooth map $i:Q\hookrightarrow P$ such that:
 1. $\pi\circ i=\pi_H$ (so $i$ covers $\mathrm{id}_M$),
 2. $i(q\cdot h)=i(q)\cdot h$ for all $q\in Q$ and $h\in H$,

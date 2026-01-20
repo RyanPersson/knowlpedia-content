@@ -6,7 +6,6 @@ description: "A response function measuring how enthalpy changes with temperatur
 For a simple {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} in {{< knowl id="thermodynamic-equilibrium" text="equilibrium" >}}, the **heat capacity at constant pressure** is a {{< knowl id="response-function-thermo" text="response function" >}}
 that quantifies how much the system’s energy-like content must change to raise the {{< knowl id="temperature-thermo" text="temperature" >}} while keeping the {{< knowl id="pressure-thermo" text="pressure" >}} fixed (and keeping composition fixed, e.g. fixed {{< knowl id="particle-number" text="particle number" >}} $N$).
 
-## Definition
 It is defined by the partial derivative
 $$
 C_P \equiv \left(\frac{\partial H}{\partial T}\right)_{p,N},

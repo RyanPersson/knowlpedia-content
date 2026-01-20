@@ -5,7 +5,6 @@ description: "A functor between abelian categories that preserves all short exac
 
 Let \(\mathcal A,\mathcal B\) be {{< knowl id="abelian-category" text="abelian categories" >}} and let \(F:\mathcal A\to\mathcal B\) be an additive {{< knowl id="functor" text="functor" >}}.
 
-## Definition
 
 The functor \(F\) is **exact** if it preserves short exact sequences: whenever
 \[

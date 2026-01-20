@@ -5,7 +5,6 @@ description: "A differential form with vanishing exterior derivative: =0."
 
 Let \(M\) be a {{< knowl id="smooth-manifold" text="smooth manifold" >}} and let \(\omega\) be a {{< knowl id="differential-k-form" text="differential \\(k\\)-form" >}} on \(M\). The notion of “closedness” is defined using the {{< knowl id="exterior-derivative" text="exterior derivative" >}}.
 
-## Definition
 A form \(\omega\in\Omega^k(M)\) is **closed** if
 \[
 d\omega = 0.

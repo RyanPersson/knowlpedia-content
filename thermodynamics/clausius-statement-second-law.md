@@ -3,7 +3,6 @@ title: "Clausius statement of the second law"
 description: "No cyclic device can transfer heat from a colder body to a hotter body without external work."
 ---
 
-## Definition
 
 The Clausius statement is an operational form of the {{< knowl id="second-law-thermodynamics" text="second law" >}}:
 

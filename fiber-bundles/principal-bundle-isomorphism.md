@@ -5,7 +5,6 @@ description: "An invertible principal bundle morphism, equivalently an equivaria
 
 Let $\pi:P\to M$ and $\pi':P'\to M'$ be {{< knowl id="principal-g-bundle" text="principal G-bundles" >}}.
 
-## Definition
 A **principal bundle isomorphism** is a {{< knowl id="principal-bundle-morphism" text="principal bundle morphism" >}} $\Phi:P\to P'$ such that:
 - $\Phi$ is a {{< knowl id="diffeomorphism" text="diffeomorphism" >}} (so it has a smooth inverse), and hence
 - the induced base map $f:M\to M'$ defined by $\pi'\circ\Phi=f\circ\pi$ is automatically a diffeomorphism.

@@ -3,7 +3,6 @@ title: "Smooth map"
 description: "A map between smooth manifolds that becomes an ordinary smooth function in local coordinates."
 ---
 
-## Definition
 Let $M$ and $N$ be {{< knowl id="smooth-manifold" text="smooth manifolds" >}} of dimensions $m$ and $n$. A function $f:M\to N$ is **smooth** (or $C^\infty$) if for every $p\in M$ there exist {{< knowl id="smooth-chart-coordinate-chart" text="charts" >}} $(U,\varphi)$ on $M$ with $p\in U$ and $(V,\psi)$ on $N$ with $f(U)\subset V$ such that the coordinate expression
 $\psi\circ f\circ \varphi^{-1}:\varphi(U)\to \psi(V)$
 is a smooth map between open subsets of $\mathbb{R}^m$ and $\mathbb{R}^n$ in the usual multivariable sense.

@@ -6,7 +6,6 @@ description: "A response function measuring how internal energy changes with tem
 For a closed, simple {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} in {{< knowl id="thermodynamic-equilibrium" text="thermodynamic equilibrium" >}}, the **heat capacity at constant volume** is the {{< knowl id="response-function-thermo" text="response function" >}}
 that quantifies how the {{< knowl id="internal-energy-thermo" text="internal energy" >}} changes with the {{< knowl id="temperature-thermo" text="temperature" >}} when the {{< knowl id="volume-thermo" text="volume" >}} is fixed (and the composition is fixed, e.g. fixed {{< knowl id="particle-number" text="particle number" >}} $N$ for a single-component system).
 
-## Definition
 The heat capacity at constant volume is
 $$
 C_V \equiv \left(\frac{\partial U}{\partial T}\right)_{V,N}.

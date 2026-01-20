@@ -5,7 +5,6 @@ description: "A smooth equivariant map between principal bundles covering a smoo
 
 Let $\pi:P\to M$ and $\pi':P'\to M'$ be {{< knowl id="principal-g-bundle" text="principal G-bundles" >}} with {{< knowl id="right-principal-action" text="right actions" >}} $(p,g)\mapsto p\cdot g$ and $(p',g)\mapsto p'\cdot g$.
 
-## Definition
 A **principal bundle morphism** from $P$ to $P'$ is a {{< knowl id="smooth-map" text="smooth map" >}} $\Phi:P\to P'$ for which there exists a smooth map $f:M\to M'$ such that:
 1. (Covers $f$) $\pi'\circ \Phi = f\circ \pi$,
 2. (Equivariance) $\Phi(p\cdot g)=\Phi(p)\cdot g$ for all $p\in P$ and $g\in G$.

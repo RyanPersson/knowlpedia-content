@@ -5,7 +5,6 @@ description: "An exact cochain complex starting at M and continuing with injecti
 
 Let \(R\) be a {{< knowl id="ring" section="algebra-rings" text="ring" >}} and \(M\) an {{< knowl id="module" section="algebra-modules" text="R-module" >}}.
 
-## Definition
 An **injective resolution** of \(M\) is an augmented {{< knowl id="cochain-complex" text="cochain complex" >}}
 \[
 0 \to M \xrightarrow{\eta} I^0 \xrightarrow{d^0} I^1 \xrightarrow{d^1} I^2 \xrightarrow{d^2} \cdots

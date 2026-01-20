@@ -7,7 +7,6 @@ The **canonical ensemble** models a system that can exchange energy with a heat 
 
 Let $\Gamma$ be a classical {{< knowl id="phase-space-classical" text="phase space" >}} with Liouville {{< knowl id="phase-space-volume-element" text="volume element" >}} $d\Gamma$, and let $H(x)$ be the {{< knowl id="hamiltonian-function-classical" text="Hamiltonian" >}}. Fix an inverse temperature {{< knowl id="inverse-temperature-beta" section="thermodynamics" text="inverse temperature" >}} $\beta>0$ (equivalently a {{< knowl id="temperature-thermo" section="thermodynamics" text="temperature" >}} $T$ via $\beta = 1/(k_B T)$ with {{< knowl id="boltzmann-constant" section="thermodynamics" text="Boltzmann's constant" >}} $k_B$).
 
-## Definition
 The canonical probability density on $\Gamma$ is
 $$
 \rho_\beta(x)

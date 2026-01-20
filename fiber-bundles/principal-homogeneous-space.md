@@ -5,7 +5,6 @@ description: "A set or manifold equipped with a free and transitive action of a 
 
 Let {{< knowl id="lie-group" text="Lie group" >}} $G$ act on a nonempty set $X$ on the left.
 
-## Definition
 A **principal homogeneous space** for $G$ (also called a **$G$-torsor**) is a set $X$ together with a left action $G \times X \to X$, $(g,x)\mapsto g\cdot x$, such that:
 
 1. (**Free**) If $g\cdot x = x$ for some $x\in X$, then $g=e$.

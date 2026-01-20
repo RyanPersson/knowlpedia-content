@@ -5,7 +5,6 @@ description: "A locally finite family of smooth functions that sum to one and ha
 
 Let $M$ be a smooth manifold and let $\{U_i\}_{i\in I}$ be an open cover of $M$.
 
-## Definition
 A **smooth partition of unity subordinate to** $\{U_i\}$ is a family of smooth functions $\{\varphi_i:M\to[0,1]\}_{i\in I}$ such that:
 
 1. (**Support condition**) For each $i$, the support $\mathrm{supp}(\varphi_i)$ is contained in $U_i$.

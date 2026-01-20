@@ -3,7 +3,6 @@ title: "Thermodynamic temperature"
 description: "An intensive state variable T equalized at thermal equilibrium; formally defined by 1/T = (∂S/∂U)_{V,N} and linking heat to entropy."
 ---
 
-## Definition
 *Thermodynamic temperature* $T$ is an {{< knowl id="intensive-variable" text="intensive variable" >}} that characterizes thermal equilibrium. The {{< knowl id="zeroth-law-thermodynamics" text="zeroth law of thermodynamics" >}} asserts that {{< knowl id="thermal-equilibrium" text="thermal equilibrium" >}} defines an equivalence relation among systems, allowing each equivalence class to be labeled by a single parameter called temperature.
 
 A precise equilibrium definition is obtained from entropy. If equilibrium states admit a {{< knowl id="fundamental-relation-entropy" text="fundamental relation" >}} $S(U,V,N)$, then temperature is defined by

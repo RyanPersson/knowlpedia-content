@@ -3,7 +3,6 @@ title: "Zeroth-law equivalence"
 description: "The equivalence relation on equilibrium states induced by mutual thermal equilibrium, enabling a consistent definition of temperature."
 ---
 
-## Definition
 Define a relation $\sim$ on equilibrium states as follows: for two systems (or two equilibrium states) $A$ and $B$, write $A \sim B$ if placing them in contact through a {{< knowl id="diathermal-wall" text="diathermal contact" >}} produces no net heat flow and no macroscopic change—i.e., they are in {{< knowl id="thermal-equilibrium" text="thermal equilibrium" >}}.
 
 The {{< knowl id="zeroth-law-thermodynamics" text="zeroth law of thermodynamics" >}} asserts the transitivity of this relation: if $A \sim B$ and $B \sim C$, then $A \sim C$. Together with the physically evident symmetry and reflexivity, this makes “being in thermal equilibrium with” an {{< knowl id="equivalence-relation" section="shared-foundations" text="equivalence relation" >}} on the set of equilibrium states.

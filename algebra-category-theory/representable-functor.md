@@ -3,7 +3,6 @@ title: "Representable functor"
 description: "A Set-valued functor naturally isomorphic to a Hom functor."
 ---
 
-## Definition
 Let \(\mathcal{C}\) be a {{< knowl id="category" text="category" >}} such that each hom-class \(\mathrm{Hom}_{\mathcal{C}}(A,B)\) is a {{< knowl id="set" section="shared-foundations" text="set" >}} (i.e. \(\mathcal{C}\) is locally small).
 
 A covariant {{< knowl id="functor" text="functor" >}} \(F:\mathcal{C}\to \mathbf{Set}\) is **representable** if there exists an object \(A\in \mathcal{C}\) and a {{< knowl id="natural-isomorphism" text="natural isomorphism" >}}

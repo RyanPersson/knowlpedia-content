@@ -3,7 +3,6 @@ title: "Thermodynamic limit of the lattice pressure"
 description: "Infinite-volume limit of the log partition function per site, yielding the bulk free-energy density (pressure) of a lattice spin system."
 ---
 
-## Definition
 
 Let $(\Lambda_n)_{n\ge 1}$ be an increasing sequence of finite regions exhausting the lattice (often boxes, as in {{< knowl id="finite-box-lattice" section="discrete-structures" text="finite boxes" >}}), and fix boundary conditions $\tau_n$ (e.g. free, fixed, or periodic; see {{< knowl id="boundary-condition-lattice" section="stat-mech-lattice" text="boundary conditions" >}}).
 

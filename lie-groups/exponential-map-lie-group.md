@@ -5,7 +5,6 @@ description: "The map sending to the time-1 value of the one-parameter subgroup 
 
 Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra $\mathfrak g=\mathrm{Lie}(G)$ (see {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra of a Lie group" >}}).
 
-## Definition
 For each $X\in\mathfrak g$, there is a unique {{< knowl id="one-parameter-subgroup" text="one-parameter subgroup" >}} $\gamma_X:\mathbb R\to G$ whose tangent at $0$ equals $X$ (compare {{< knowl id="exponential-one-parameter-subgroup-lemma" text="exponential/one-parameter subgroup lemma" >}}). The **exponential map** is
 \[
 \exp:\mathfrak g\to G,\qquad \exp(X):=\gamma_X(1).

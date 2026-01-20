@@ -5,7 +5,6 @@ description: "The ensemble expectation ⟨A(x)B(y)⟩ of observables at two poin
 
 Many statistical-mechanical models are built from *local* degrees of freedom (spins, densities, fields) living on a {{< knowl id="lattice-zd" section="discrete-structures" text="lattice" >}} or in continuous space. For local observables $A_x$ and $B_y$ (e.g. “spin at site $x$”), the **two-point correlation function** measures how values at two locations co-vary under a chosen ensemble such as the {{< knowl id="canonical-ensemble" text="canonical ensemble" >}} or a more general {{< knowl id="generalized-gibbs-ensemble" text="generalized Gibbs ensemble" >}}.
 
-## Definition
 The (possibly uncentered) **two-point correlation function** is
 $$
 G_{AB}(x,y) \;:=\; \langle A_x\,B_y\rangle.

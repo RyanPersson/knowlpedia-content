@@ -3,7 +3,6 @@ title: "Group representation"
 description: "A linear action of a group on a vector space, equivalently a homomorphism into a general linear group."
 ---
 
-## Definition
 Let \(G\) be a group and let \(k\) be a field. A **(linear) representation** of \(G\) over \(k\) is a pair \((V,\rho)\) where
 
 - \(V\) is a finite-dimensional {{< knowl id="vector-space" section="linear-algebra" text="vector space" >}} over \(k\), and

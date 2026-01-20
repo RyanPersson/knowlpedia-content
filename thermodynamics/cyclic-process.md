@@ -3,7 +3,6 @@ title: "Cyclic process"
 description: "A process that returns a system to its initial thermodynamic state after a sequence of transformations."
 ---
 
-## Definition
 A **cyclic process** is a {{< knowl id="thermodynamic-process" text="thermodynamic process" >}} in which the system undergoes a sequence of changes and finally returns to its initial {{< knowl id="thermodynamic-state" text="thermodynamic state" >}}. In state space, the path is closed.
 
 ## Physical interpretation

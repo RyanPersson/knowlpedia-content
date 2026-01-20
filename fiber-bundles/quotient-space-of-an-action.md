@@ -5,7 +5,6 @@ description: "The topological space obtained by identifying points lying in the 
 
 Let $G$ act on a manifold $M$.
 
-## Definition
 The **quotient space of the action** (also called the **orbit space**) is the set of {{< knowl id="orbit-of-a-group-action" text="orbits" >}}
 \[
 M/G := \{\, G\cdot x \mid x\in M\,\},

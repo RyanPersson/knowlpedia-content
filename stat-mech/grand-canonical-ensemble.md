@@ -7,7 +7,6 @@ The **grand canonical ensemble** models a system that can exchange both energy a
 
 It is the natural ensemble for open systems, lattice gases, and quantum gases, and it provides a direct route to the thermodynamic {{< knowl id="grand-potential" section="thermodynamics" text="grand potential" >}} and pressure.
 
-## Definition
 Fix an inverse temperature {{< knowl id="inverse-temperature-beta" section="thermodynamics" text="inverse temperature" >}} $\beta>0$ and a {{< knowl id="chemical-potential-thermo" section="thermodynamics" text="chemical potential" >}} $\mu$. For each particle number $N$, let $\Gamma_N$ be the $N$-particle {{< knowl id="phase-space-classical" text="phase space" >}} (or Hilbert space sector), and let $H_N$ be the corresponding {{< knowl id="hamiltonian-function-classical" text="Hamiltonian" >}}.
 
 The grand canonical weight of a microstate $x\in\Gamma_N$ is proportional to $e^{-\beta(H_N(x)-\mu N)}$. The normalized probability density is

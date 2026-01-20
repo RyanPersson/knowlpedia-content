@@ -5,7 +5,6 @@ description: "A point in the target such that the differential is surjective alo
 
 Let \(M\) and \(N\) be {{< knowl id="smooth-manifold" text="smooth manifolds" >}}, and let \(f:M\to N\) be a {{< knowl id="smooth-map" text="smooth map" >}}.
 
-## Definition
 A point \(y\in N\) is called a **regular value** of \(f\) if for every \(x\in f^{-1}(y)\), the {{< knowl id="differential-pushforward-of-a-smooth-map" text="differential" >}}
 \[
 d f_x : T_x M \longrightarrow T_y N

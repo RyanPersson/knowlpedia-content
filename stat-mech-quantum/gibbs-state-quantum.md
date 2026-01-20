@@ -3,7 +3,6 @@ title: "Quantum Gibbs state"
 description: "Thermal equilibrium state of a finite quantum system: ρβ = e^{-βH}/Tr(e^{-βH})."
 ---
 
-## Definition
 
 Let $\mathcal H$ be a finite-dimensional complex Hilbert space (see {{< knowl id="complex-hilbert-space-finite" section="quantum-foundations" text="finite-dimensional complex Hilbert space" >}}) and let $H$ be the system Hamiltonian ({{< knowl id="quantum-hamiltonian" text="quantum Hamiltonian" >}}), a self-adjoint operator on $\mathcal H$.
 

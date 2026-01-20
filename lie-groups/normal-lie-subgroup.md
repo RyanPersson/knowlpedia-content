@@ -5,7 +5,6 @@ description: "A Lie subgroup invariant under conjugation; infinitesimally, it co
 
 Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}.
 
-## Definition
 A {{< knowl id="lie-subgroup" text="Lie subgroup" >}} $N\subseteq G$ is **normal** if
 $$
 gNg^{-1}=N \quad \text{for all } g\in G,

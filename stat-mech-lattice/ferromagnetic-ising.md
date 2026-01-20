@@ -3,7 +3,6 @@ title: "Ferromagnetic Ising model"
 description: "The Ising model with nonnegative couplings favoring alignment, featuring monotonicity and correlation inequalities and (in d≥2) an ordered low-temperature phase."
 ---
 
-## Definition
 The **ferromagnetic Ising model** is the {{< knowl id="ising-model" text="Ising model" >}} with coupling $J>0$ (more generally, nonnegative couplings on edges), so that aligned neighboring spins lower the energy. In the nearest-neighbor translation-invariant case on $\mathbb{Z}^d$, the Hamiltonian in a finite region $\Lambda$ has the form
 $$
 H_{\Lambda}^{\eta}(\sigma)\;=\;-J\sum_{\substack{\{x,y\}\\ x\sim y\\ \{x,y\}\cap \Lambda\neq \emptyset}}\sigma_x\sigma_y\;-\;h\sum_{x\in\Lambda}\sigma_x,

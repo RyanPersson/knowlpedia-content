@@ -3,7 +3,6 @@ title: "Interaction potential (Φ)"
 description: "A specification of local energy contributions indexed by finite subsets of the lattice, from which finite-volume Hamiltonians and Gibbs specifications are built."
 ---
 
-## Definition
 An **interaction potential** (often denoted $\Phi$) for a lattice spin system with {{< knowl id="spin-space" text="spin space" >}} $S$ is a family of functions
 $$
 \Phi = \{\Phi_X\}_{X \subset\subset \mathbb{Z}^d},

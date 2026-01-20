@@ -5,7 +5,6 @@ description: "An isomorphism from an object to itself; an invertible endomorphis
 
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}} and \(A\) an {{< knowl id="object" text="object" >}} of \(\mathcal C\).
 
-## Definition
 An **automorphism** of \(A\) is an {{< knowl id="isomorphism-category" text="isomorphism" >}}
 \[
 f:A\longrightarrow A.

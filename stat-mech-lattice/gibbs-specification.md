@@ -3,7 +3,6 @@ title: "Gibbs specification"
 description: "A consistent family of finite-volume conditional distributions giving the local Gibbs law in every finite region as a function of the outside configuration."
 ---
 
-## Definition
 
 Let $\Omega$ be the {{< knowl id="configuration-space-lattice" text="configuration space" >}} of a lattice spin system (built from a {{< knowl id="spin-space" text="single-site spin space" >}}), equipped with its natural {{< knowl id="sigma-algebra" section="measure-theory" text="sigma-algebra" >}} of cylinder events. A **specification** is a family of probability kernels
 $$

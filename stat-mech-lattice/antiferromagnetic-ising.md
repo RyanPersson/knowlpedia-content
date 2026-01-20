@@ -3,7 +3,6 @@ title: "Antiferromagnetic Ising model"
 description: "Nearest-neighbor Ising spin system with couplings that favor antiparallel alignment, leading to Néel (staggered) order on bipartite lattices."
 ---
 
-## Definition
 
 The **antiferromagnetic Ising model** is a special case of the {{< knowl id="ising-model" text="Ising model" >}} in which the interaction energetically favors *opposite* spins on neighboring sites.
 

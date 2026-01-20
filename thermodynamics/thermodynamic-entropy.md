@@ -3,7 +3,6 @@ title: "Thermodynamic entropy"
 description: "A state function S defined so that dS = δQ_rev/T for reversible processes; it quantifies irreversibility and constrains spontaneous change."
 ---
 
-## Definition
 *Thermodynamic entropy* $S$ is a {{< knowl id="state-function" text="state function" >}} defined on equilibrium {{< knowl id="thermodynamic-state" text="states" >}}. It is introduced by the Clausius definition: for any {{< knowl id="reversible-process" text="reversible process" >}},
 $$
 dS = \frac{\delta Q_{\mathrm{rev}}}{T},

@@ -5,7 +5,6 @@ description: "An object A×B equipped with projections, universal among cones to
 
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}} and let \(A,B\) be {{< knowl id="object" text="objects" >}} of \(\mathcal C\).
 
-## Definition
 A **(binary) categorical product** of \(A\) and \(B\) is a triple \((A\times B,\pi_1,\pi_2)\) consisting of an object \(A\times B\) and morphisms
 \[
 \pi_1:A\times B\to A,\qquad \pi_2:A\times B\to B

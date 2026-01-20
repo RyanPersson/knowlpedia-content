@@ -3,7 +3,6 @@ title: "Pure phase"
 description: "A homogeneous equilibrium phase of an infinite lattice system, typically identified with a translation-ergodic (extremal) infinite-volume Gibbs measure."
 ---
 
-## Definition
 
 Informally, a **pure phase** is a single, homogeneous thermodynamic state (no macroscopic coexistence of distinct phases). In the Gibbs/DLR framework for lattice systems, a standard rigorous identification is:
 

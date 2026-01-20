@@ -3,7 +3,6 @@ title: "Coequalizer"
 description: "A universal morphism that forces two parallel morphisms to become equal."
 ---
 
-## Definition
 Let \(\mathcal{C}\) be a {{< knowl id="category" text="category" >}} and let
 \[
 f,g : A \to B

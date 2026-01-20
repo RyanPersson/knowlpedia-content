@@ -5,7 +5,6 @@ description: "A differential form preserved by pullback under a Lie group action
 
 Let $G$ act on a manifold $M$ by a {{< knowl id="smooth-action-of-a-lie-group-on-a-manifold" text="smooth action" >}}.
 
-## Definition
 A {{< knowl id="differential-k-form" text="differential k-form" >}} $\omega\in \Omega^k(M)$ is **$G$-invariant** if for every $g\in G$,
 \[
 (\Phi_g)^*\omega = \omega,

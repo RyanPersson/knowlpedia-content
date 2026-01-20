@@ -5,7 +5,6 @@ description: "An alternating product that combines a -form and an -form into a (
 
 Let \(M\) be a {{< knowl id="smooth-manifold" text="smooth manifold" >}}. The **wedge product** is the canonical bilinear product on the graded algebra of {{< knowl id="differential-k-form" text="differential forms" >}}.
 
-## Definition
 For \(\alpha \in \Omega^k(M)\) and \(\beta \in \Omega^\ell(M)\), their **wedge product** \(\alpha\wedge\beta \in \Omega^{k+\ell}(M)\) is defined pointwise by the alternating product of multilinear forms on each {{< knowl id="tangent-space-at-a-point" text="tangent space" >}}:
 \[
 (\alpha\wedge\beta)_p(v_1,\dots,v_{k+\ell})

@@ -11,7 +11,6 @@ g\cdot v := \rho(g)\,v.
 \]
 (Compare the convention in {{< knowl id="convention-associated-bundles-use-a-left-g-action-on-the-fiber-f" text="associated bundles use a left G-action on the fiber" >}}.)
 
-## Definition
 The **associated vector bundle** with fiber $V$ is
 \[
 E := P\times_G V := (P\times V)/\sim,

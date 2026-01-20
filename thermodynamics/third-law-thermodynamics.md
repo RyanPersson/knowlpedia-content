@@ -3,7 +3,6 @@ title: "Third law of thermodynamics"
 description: "As temperature approaches absolute zero, equilibrium entropy approaches a constant, fixing the absolute entropy scale and implying unattainability of ."
 ---
 
-## Definition
 
 One common formulation (Nernst heat theorem) is:
 

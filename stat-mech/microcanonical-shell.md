@@ -5,7 +5,6 @@ description: "Thin region of phase space defined by an energy window, representi
 
 Let $\Gamma$ be a classical {{< knowl id="phase-space-classical" text="phase space" >}} with Liouville {{< knowl id="phase-space-volume-element" text="volume element" >}} $d\Gamma$, and let $H(x)$ be the {{< knowl id="hamiltonian-function-classical" text="Hamiltonian" >}}. Fix an energy value $E$ and an energy resolution (window width) $\Delta E>0$.
 
-## Definition
 The **microcanonical shell** at energy $E$ with width $\Delta E$ is the subset
 $$
 \Sigma_{E,\Delta E} \;=\; \big\{x\in\Gamma:\; E \le H(x)\le E+\Delta E\big\}.

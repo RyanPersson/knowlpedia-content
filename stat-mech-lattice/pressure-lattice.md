@@ -3,7 +3,6 @@ title: "Lattice pressure (finite volume)"
 description: "Dimensionless free-energy density: the log partition function per lattice site in a finite region."
 ---
 
-## Definition
 
 Let $\Lambda$ be a finite region (see {{< knowl id="boundary-finite-region" section="discrete-structures" text="boundaries of finite regions" >}}) and let $Z_\Lambda(\beta,\tau)$ be the {{< knowl id="partition-function-lattice" text="finite-volume lattice partition function" >}} at inverse temperature $\beta$ with {{< knowl id="boundary-condition-lattice" text="boundary condition" >}} $\tau$.
 

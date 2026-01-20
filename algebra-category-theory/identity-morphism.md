@@ -3,7 +3,6 @@ title: "Identity morphism"
 description: "A morphism 1_X : X → X acting as a two-sided unit for composition."
 ---
 
-## Definition
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}} and let \(X\) be an {{< knowl id="object" text="object" >}} of \(\mathcal C\).
 An **identity morphism** on \(X\) is a morphism \(1_X : X \to X\) such that:
 

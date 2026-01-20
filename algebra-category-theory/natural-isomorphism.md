@@ -5,7 +5,6 @@ description: "A natural transformation whose components are isomorphisms."
 
 Let \(F,G:\mathcal C\to\mathcal D\) be {{< knowl id="functor" text="functors" >}}.
 
-## Definition
 A **natural isomorphism** \(\eta:F\Rightarrow G\) is a {{< knowl id="natural-transformation" text="natural transformation" >}} such that for every {{< knowl id="object" text="object" >}} \(X\in\mathcal C\), the component
 \[
 \eta_X:F(X)\to G(X)

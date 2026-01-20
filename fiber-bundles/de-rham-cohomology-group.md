@@ -5,7 +5,6 @@ description: "The quotient of closed forms by exact forms, measuring global obst
 
 Let \(M\) be a {{< knowl id="smooth-manifold" text="smooth manifold" >}}. The {{< knowl id="exterior-derivative" text="exterior derivative" >}} makes the graded vector space of {{< knowl id="differential-k-form" text="differential forms" >}} into a cochain complex \((\Omega^\ast(M),d)\). Its cohomology is the **de Rham cohomology**.
 
-## Definition
 Define
 - \(Z^k(M)\) as the space of {{< knowl id="closed-differential-form" text="closed \\(k\\)-forms" >}} (those \(\omega\) with \(d\omega=0\)),
 - \(B^k(M)\) as the space of {{< knowl id="exact-differential-form" text="exact \\(k\\)-forms" >}} (those \(\omega\) with \(\omega=d\eta\)).

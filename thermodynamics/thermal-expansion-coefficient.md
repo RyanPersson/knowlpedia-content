@@ -6,7 +6,6 @@ description: "A response function measuring the fractional change of volume with
 The **thermal expansion coefficient** (more precisely, the **isobaric volumetric expansion coefficient**) is a {{< knowl id="response-function-thermo" text="response function" >}}
 that quantifies how a system’s {{< knowl id="volume-thermo" text="volume" >}} changes with {{< knowl id="temperature-thermo" text="temperature" >}} when the {{< knowl id="pressure-thermo" text="pressure" >}} is held fixed.
 
-## Definition
 For fixed composition (e.g. fixed {{< knowl id="particle-number" text="particle number" >}} $N$),
 $$
 \alpha \equiv \frac{1}{V}\left(\frac{\partial V}{\partial T}\right)_{p,N}.

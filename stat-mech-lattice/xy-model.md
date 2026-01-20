@@ -3,7 +3,6 @@ title: "XY model"
 description: "O(2)-symmetric lattice spin model with planar (angle) spins on the circle, featuring continuous symmetry and (in 2D) a Kosterlitz–Thouless transition."
 ---
 
-## Definition
 
 The **XY model** (also called the planar rotor or O(2) model) is a lattice spin system with **continuous** spins taking values on the unit circle. It is a canonical example of a model with continuous symmetry in the setting of {{< knowl id="configuration-space-lattice" text="lattice configuration spaces" >}}.
 

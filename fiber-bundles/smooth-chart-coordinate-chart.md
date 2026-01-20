@@ -3,7 +3,6 @@ title: "Smooth chart (coordinate chart)"
 description: "A homeomorphism from an open subset of a manifold to an open subset of Euclidean space, providing local coordinates."
 ---
 
-## Definition
 Let $M$ be an $n$-dimensional topological manifold (in particular, any {{< knowl id="smooth-manifold" text="smooth manifold" >}} has such an underlying space). A **chart** (or **coordinate chart**) on $M$ is a pair $(U,\varphi)$ where
 
 - $U\subset M$ is open, and

@@ -5,7 +5,6 @@ description: "A smooth right action of a Lie group on a bundle total space that 
 
 Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} and let $\pi:P\to M$ be a surjective submersion of {{< knowl id="smooth-manifold" text="smooth manifolds" >}}.
 
-## Definition
 A **smooth right action** of $G$ on $P$ is a smooth map
 \[
 R: P\times G \to P,\qquad (p,g)\mapsto p\cdot g

@@ -5,7 +5,6 @@ description: "Internal energy per volume, u = U/V, useful for continuum descript
 
 The **energy density** is the {{< knowl id="internal-energy-thermo" text="internal energy" >}} per {{< knowl id="volume-thermo" text="volume" >}}. It is an intensive “per-volume” form of energy that is especially natural in continuum and local-equilibrium settings.
 
-## Definition
 For a homogeneous system with internal energy $U$ and volume $V$, the **energy density** is
 $$
 u \equiv \frac{U}{V}.

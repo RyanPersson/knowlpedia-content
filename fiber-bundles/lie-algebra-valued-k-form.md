@@ -5,7 +5,6 @@ description: "A differential form whose values lie in a fixed Lie algebra."
 
 Let $M$ be a smooth manifold and let {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak{g}$ be fixed.
 
-## Definition
 A **$\mathfrak{g}$-valued differential k-form** on $M$ is a smooth section of the vector bundle
 \[
 \Lambda^k T^*M \otimes \mathfrak{g} \;\longrightarrow\; M.

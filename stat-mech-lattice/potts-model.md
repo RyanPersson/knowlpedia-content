@@ -3,7 +3,6 @@ title: "Potts model"
 description: "q-state lattice spin model with permutation symmetry, generalizing the Ising model and closely related to the random-cluster model."
 ---
 
-## Definition
 
 The **Potts model** is a lattice spin system in which each site carries one of $q$ discrete states (“colors”). It generalizes the {{< knowl id="ising-model" text="Ising model" >}} from two spin values to $q\ge 2$ values.
 

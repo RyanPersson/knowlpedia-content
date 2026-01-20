@@ -3,7 +3,6 @@ title: "Composition of morphisms"
 description: "The rule that composes morphisms in a category, generalizing function composition."
 ---
 
-## Definition
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}}. If
 \[
 f : X \to Y \quad\text{and}\quad g : Y \to Z

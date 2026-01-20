@@ -5,7 +5,6 @@ description: "A smooth function constant along the orbits of a Lie group action.
 
 Let $G$ act smoothly on a manifold $M$.
 
-## Definition
 A smooth function $f:M\to \mathbb{R}$ is **$G$-invariant** if
 \[
 f(g\cdot x)=f(x)\qquad\text{for all }g\in G,\ x\in M.

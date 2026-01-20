@@ -5,7 +5,6 @@ description: "A ring in which ascending chains of ideals stabilize (equivalently
 
 Let $R$ be a {{< knowl id="commutative-ring" section="algebra-rings" text="commutative ring" >}}.
 
-## Definition
 $R$ is **Noetherian** if it satisfies the *ascending chain condition* (ACC) on ideals: for every chain
 \[
 I_1 \subseteq I_2 \subseteq I_3 \subseteq \cdots

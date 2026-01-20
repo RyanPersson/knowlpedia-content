@@ -5,7 +5,6 @@ description: "A linear map between Lie algebras that preserves the Lie bracket."
 
 Let $\mathfrak g,\mathfrak h$ be {{< knowl id="lie-algebra" text="Lie algebras" >}} over a field $\Bbbk$ (typically $\Bbb R$ or $\Bbb C$), with {{< knowl id="lie-bracket" text="Lie brackets" >}} $[\ ,\ ]_{\mathfrak g}$ and $[\ ,\ ]_{\mathfrak h}$.
 
-## Definition
 A **Lie algebra homomorphism** is a $\Bbbk$-linear map $\varphi:\mathfrak g\to\mathfrak h$ such that for all $X,Y\in\mathfrak g$,
 $$
 \varphi([X,Y]_{\mathfrak g})=[\varphi(X),\varphi(Y)]_{\mathfrak h}.

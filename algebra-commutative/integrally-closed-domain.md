@@ -5,7 +5,6 @@ description: "A domain that already contains every element of its fraction field
 
 Let $R$ be an integral domain with fraction field $K$ (a {{< knowl id="field" section="algebra-rings" text="field" >}}).
 
-## Definition
 The domain $R$ is **integrally closed** if whenever $x\in K$ is integral over $R$ (in the sense of {{< knowl id="integral-element" text="integrality" >}}), then $x\in R$.
 
 Equivalently, if one forms the {{< knowl id="integral-closure" text="integral closure" >}} of $R$ inside $K$, then $R$ is integrally closed exactly when

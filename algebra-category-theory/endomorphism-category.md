@@ -5,7 +5,6 @@ description: "A morphism whose domain and codomain are the same object."
 
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}} and let \(A\) be an {{< knowl id="object" text="object" >}} of \(\mathcal C\).
 
-## Definition
 An **endomorphism** of \(A\) is a {{< knowl id="morphism" text="morphism" >}}
 \[
 f:A\longrightarrow A.

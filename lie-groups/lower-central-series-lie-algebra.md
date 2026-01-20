@@ -5,7 +5,6 @@ description: "A descending sequence defined by iterated commutators, used to def
 
 Let $\mathfrak g$ be a {{< knowl id="lie-algebra" text="Lie algebra" >}}.
 
-## Definition
 The **lower central series** of $\mathfrak g$ is the descending sequence of ideals
 $$
 \gamma_1(\mathfrak g)=\mathfrak g,\qquad

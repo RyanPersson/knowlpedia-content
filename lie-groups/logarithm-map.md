@@ -5,7 +5,6 @@ description: "A local inverse to the exponential map near the identity of a Lie 
 
 Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra $\mathfrak g$.
 
-## Definition
 A **logarithm map** on $G$ is a smooth map
 $$
 \log:U\to \mathfrak g

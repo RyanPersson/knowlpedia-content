@@ -3,7 +3,6 @@ title: "Random-cluster model (Fortuin–Kasteleyn percolation)"
 description: "A probability measure on open/closed edges with parameters p and q, interpolating between bond percolation (q=1) and the q-state Potts/Ising models via the Fortuin–Kasteleyn representation."
 ---
 
-## Definition
 
 The **random-cluster model** (also called **FK percolation**) is a probability measure on bond configurations on a {{< knowl id="finite-graph" section="discrete-structures" text="finite graph" >}} $G=(V,E)$ (typically a finite region of a lattice such as a {{< knowl id="finite-box-lattice" section="discrete-structures" text="finite box in a lattice" >}} with {{< knowl id="nearest-neighbor-zd" section="discrete-structures" text="nearest-neighbor edges" >}}).
 

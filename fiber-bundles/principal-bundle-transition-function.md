@@ -8,7 +8,6 @@ Fix a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} $\pi:P\to 
 \psi_i:\pi^{-1}(U_i)\to U_i\times G.
 \]
 
-## Definition
 On an overlap $U_{ij}=U_i\cap U_j$, the **principal bundle transition function** is the (necessarily unique) {{< knowl id="smooth-map" text="smooth map" >}}
 \[
 g_{ij}:U_{ij}\to G

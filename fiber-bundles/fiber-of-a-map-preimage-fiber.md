@@ -5,7 +5,6 @@ description: "The preimage of a point under a map, viewed as a subset of the dom
 
 Let \(f : X \to Y\) be a map and let \(y \in Y\).
 
-## Definition
 The **fiber of \(f\) over \(y\)** (also called the **preimage fiber**) is the subset
 \[
 f^{-1}(y)=\{x\in X \mid f(x)=y\}\subseteq X.

@@ -3,7 +3,6 @@ title: "Chain map"
 description: "A degreewise module homomorphism between chain complexes commuting with differentials."
 ---
 
-## Definition
 Let \((C_\bullet,d^C)\) and \((D_\bullet,d^D)\) be {{< knowl id="chain-complex" text="chain complexes" >}} of \(R\)-modules.
 A **chain map** \(f:C_\bullet\to D_\bullet\) is a family of \(R\)-linear maps
 \[

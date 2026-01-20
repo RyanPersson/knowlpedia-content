@@ -3,7 +3,6 @@ title: "Category"
 description: "A structure of objects and morphisms with associative composition and identity morphisms."
 ---
 
-## Definition
 A **category** \(\mathcal C\) consists of:
 
 1. A collection \(\mathrm{Ob}(\mathcal C)\) of **{{< knowl id="object" text="objects" >}}**.

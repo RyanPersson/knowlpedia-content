@@ -3,7 +3,6 @@ title: "Quantum microstate"
 description: "A maximally specific state of a quantum system, represented by a pure state (ray) or equivalently a rank-one projector."
 ---
 
-## Definition
 In quantum statistical mechanics, a **quantum microstate** is typically identified with a **pure state** of the system (see {{< knowl id="pure-state-quantum" section="quantum-foundations" text="pure state" >}}).
 
 Concretely, in finite dimensions a microstate can be represented by either of the equivalent data:

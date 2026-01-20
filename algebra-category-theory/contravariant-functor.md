@@ -5,7 +5,6 @@ description: "A functor that reverses the direction of morphisms; equivalently a
 
 Let \(\mathcal C,\mathcal D\) be {{< knowl id="category" text="categories" >}}.
 
-## Definition
 A **contravariant functor** \(F:\mathcal C\to\mathcal D\) consists of:
 - an assignment on {{< knowl id="object" text="objects" >}} \(X\mapsto F(X)\),
 - for every {{< knowl id="morphism" text="morphism" >}} \(f:X\to Y\) in \(\mathcal C\), a morphism

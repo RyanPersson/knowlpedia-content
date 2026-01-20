@@ -3,7 +3,6 @@ title: "Reversible process"
 description: "An idealized process that can be reversed leaving no net change in the system and surroundings, implying zero entropy production."
 ---
 
-## Definition
 A **reversible process** is a {{< knowl id="thermodynamic-process" text="thermodynamic process" >}} that can be reversed by an infinitesimal change in external conditions so that **both** the system and the {{< knowl id="surroundings-environment" text="surroundings" >}} are restored exactly to their initial states. Operationally, a reversible process proceeds through a continuous family of equilibrium states and contains **no dissipative effects** (no friction, viscosity, finite-temperature-difference heat flow, diffusion, etc.).
 
 Every reversible process is {{< knowl id="quasistatic-process" text="quasistatic" >}}, but the converse need not hold.

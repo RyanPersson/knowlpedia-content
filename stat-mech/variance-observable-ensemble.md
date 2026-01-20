@@ -5,7 +5,6 @@ description: "The second central moment ⟨(A−⟨A⟩)²⟩, quantifying the t
 
 Given an observable $A$ and an ensemble (so that {{< knowl id="ensemble-average" text="⟨·⟩" >}} is defined), the **variance** is the basic scalar measure of the size of fluctuations. It is the statistical-mechanics specialization of {{< knowl id="variance" section="probability" text="variance" >}}.
 
-## Definition
 The **ensemble variance** of $A$ is
 $$
 \mathrm{Var}(A)

@@ -3,7 +3,6 @@ title: "Surroundings and environment"
 description: "Everything external to the chosen thermodynamic system, which can exchange energy and/or matter with it through the boundary."
 ---
 
-## Definition
 The **surroundings** (or **environment**) are everything *outside* a {{< knowl id="thermodynamic-system" text="thermodynamic system" >}}. Together, “system + surroundings” form the remainder of the universe relevant to the thermodynamic description, with interactions occurring only through the {{< knowl id="system-boundary" text="system boundary" >}}.
 
 ## Physical interpretation

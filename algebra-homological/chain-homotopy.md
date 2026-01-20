@@ -3,7 +3,6 @@ title: "Chain homotopy"
 description: "A degree +1 family of maps witnessing that two chain maps differ by a boundary operator."
 ---
 
-## Definition
 Let \(f,g:C_\bullet\to D_\bullet\) be {{< knowl id="chain-map" text="chain maps" >}} between {{< knowl id="chain-complex" text="chain complexes" >}} \((C_\bullet,d^C)\) and \((D_\bullet,d^D)\).
 A **chain homotopy** from \(f\) to \(g\) is a family of \(R\)-linear maps
 \[

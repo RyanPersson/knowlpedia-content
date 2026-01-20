@@ -3,7 +3,6 @@ title: "Completely reducible representation"
 description: "A representation that splits as a direct sum of irreducible subrepresentations."
 ---
 
-## Definition
 Let \((V,\rho)\) be a finite-dimensional {{< knowl id="group-representation" text="group representation" >}} of \(G\) over a field \(k\). The representation \(V\) is **completely reducible** if there exist irreducible subrepresentations \(V_1,\dots,V_r\) such that
 \[
 V \cong V_1 \oplus \cdots \oplus V_r

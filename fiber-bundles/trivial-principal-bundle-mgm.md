@@ -12,7 +12,6 @@ equipped with the right action
 (x,g)\cdot h := (x,gh),\qquad h\in G.
 \]
 
-## Definition
 The bundle $M\times G\to M$ is a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}}: the action is free and transitive on each fiber, and local trivializations are global (the identity map).
 
 It has a canonical global section

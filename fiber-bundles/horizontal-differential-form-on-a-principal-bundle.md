@@ -9,7 +9,6 @@ V:=\ker(d\pi)\subset TP,
 \]
 as in {{< knowl id="vertical-subbundle" text="vertical subbundle" >}}.
 
-## Definition
 A differential $k$-form $\alpha\in\Omega^k(P)$ is **horizontal** if, for every $p\in P$,
 \[
 \alpha_p(v_1,\dots,v_k)=0

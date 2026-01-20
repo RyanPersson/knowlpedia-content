@@ -5,7 +5,6 @@ description: "A smooth choice of an element in each fiber of the adjoint bundle,
 
 Let $\mathrm{Ad}(P)\to M$ be the {{< knowl id="adjoint-bundle-p-g-g-with-conjugation-action" text="adjoint bundle" >}} of a principal $G$-bundle $P$.
 
-## Definition
 A **section of $\mathrm{Ad}(P)$** is a smooth map
 \[
 s:M\to \mathrm{Ad}(P)

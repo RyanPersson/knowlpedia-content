@@ -5,7 +5,6 @@ description: "The gauge group of a principal G bundle is the group of principal 
 
 Let $\pi\colon P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with right action of $G$ on $P$.
 
-## Definition
 The **gauge group** of $P$ is
 \[
 \mathcal{G}(P):=\mathrm{Aut}_G(P),

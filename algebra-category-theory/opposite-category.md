@@ -5,7 +5,6 @@ description: "The category obtained by reversing the direction of every morphism
 
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}}.
 
-## Definition
 The **opposite category** \(\mathcal C^{\mathrm{op}}\) is the category defined by:
 - \(\mathrm{Ob}(\mathcal C^{\mathrm{op}})=\mathrm{Ob}(\mathcal C)\);
 - for objects \(A,B\),

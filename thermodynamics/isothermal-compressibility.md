@@ -6,7 +6,6 @@ description: "A response function measuring the fractional change of volume with
 The **isothermal compressibility** is a {{< knowl id="response-function-thermo" text="response function" >}} describing how a {{< knowl id="thermodynamic-system" text="thermodynamic system" >}} in {{< knowl id="thermodynamic-equilibrium" text="equilibrium" >}}
 changes its {{< knowl id="volume-thermo" text="volume" >}} when the {{< knowl id="pressure-thermo" text="pressure" >}} is varied while keeping the {{< knowl id="temperature-thermo" text="temperature" >}} fixed (and keeping composition fixed, e.g. fixed {{< knowl id="particle-number" text="particle number" >}} $N$).
 
-## Definition
 It is defined by
 $$
 \kappa_T \equiv -\frac{1}{V}\left(\frac{\partial V}{\partial p}\right)_{T,N}.

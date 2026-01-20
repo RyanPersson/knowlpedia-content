@@ -3,7 +3,6 @@ title: "Infinite-volume Gibbs measure"
 description: "A probability measure on lattice spin configurations whose finite-volume conditional distributions are given by a Gibbs specification (DLR consistency)."
 ---
 
-## Definition
 
 Fix a lattice spin system with single-spin space given by the {{< knowl id="spin-space" text="spin space" >}} and configuration space $\Omega$ given by the {{< knowl id="configuration-space-lattice" text="lattice configuration space" >}} (elements are {{< knowl id="spin-configuration" text="spin configurations" >}}). Let $\gamma = (\gamma_\Lambda)_{\Lambda \Subset \mathbb{Z}^d}$ be the {{< knowl id="gibbs-specification" text="Gibbs specification" >}} associated with a chosen {{< knowl id="interaction-potential-phi" text="interaction potential" >}}, {{< knowl id="lattice-hamiltonian" text="finite-volume Hamiltonians" >}}, and (possibly) an {{< knowl id="external-field-coupling" text="external field" >}} at {{< knowl id="inverse-temperature-beta" section="thermodynamics" text="inverse temperature" >}} $\beta$.
 

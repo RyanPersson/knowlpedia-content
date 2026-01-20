@@ -5,7 +5,6 @@ description: "The product bundle M times V with constant fiber V and a global fr
 
 Let $M$ be a {{< knowl id="smooth-manifold" text="smooth manifold" >}} and let $V$ be a finite-dimensional real vector space.
 
-## Definition
 The **trivial vector bundle with fiber $V$** is the projection
 \[
 \pi: M\times V \longrightarrow M,\qquad \pi(x,v)=x,

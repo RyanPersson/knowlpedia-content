@@ -3,7 +3,6 @@ title: "Isomorphism"
 description: "A morphism that has a two-sided inverse in a category."
 ---
 
-## Definition
 Let \(\mathcal C\) be a {{< knowl id="category" text="category" >}}. A morphism \(f : X \to Y\) is an **isomorphism** if there exists a morphism \(g : Y \to X\) such that
 \[
 g\circ f = 1_X

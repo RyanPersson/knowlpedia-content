@@ -5,7 +5,6 @@ description: "The quotient of a product P × F by the diagonal action of the str
 
 Let $\pi:P\to M$ be a principal bundle with {{< knowl id="right-principal-action" text="right principal action" >}} of the {{< knowl id="lie-group" text="Lie group" >}} $G$, and let $F$ be a smooth left $G$-space.
 
-## Definition
 The **bundle of orbits** associated to $(P,F)$ is the orbit space
 \[
 (P\times F)/G

@@ -5,7 +5,6 @@ description: "The associated bundle with fiber G where the structure group acts 
 
 Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} for a {{< knowl id="lie-group" text="Lie group" >}} $G$.
 
-## Definition
 The **adjoint bundle** of $P$ is the associated bundle
 \[
 \mathrm{Ad}(P):=P\times_G G,
