@@ -19,7 +19,7 @@ $$
 Then, as $n\to\infty$,
 $$
 I_n
-=
+={}
 e^{n f(x_0)}\, g(x_0)\,
 \sqrt{\frac{2\pi}{n\,|f''(x_0)|}}\,
 \big(1+o(1)\big).

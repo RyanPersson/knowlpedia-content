@@ -9,7 +9,7 @@ The **Potts model** is a lattice spin system in which each site carries one of $
 Let $\Lambda$ be a finite subset of $\mathbb{Z}^d$ (or a finite graph) and fix an integer $q\ge 2$. A {{< knowl id="spin-configuration" text="spin configuration" >}} is a map $\sigma:\Lambda\to\{1,2,\dots,q\}$, i.e. the {{< knowl id="spin-space" text="spin space" >}} is $\{1,\dots,q\}$. With boundary condition $\eta$ on $\Lambda^c$, a standard nearest-neighbor {{< knowl id="lattice-hamiltonian" text="Hamiltonian" >}} is
 $$
 H_\Lambda(\sigma\mid \eta)
-=
+={}
 -J\sum_{\langle x,y\rangle:\, x,y\in\Lambda}\mathbf{1}\{\sigma_x=\sigma_y\}
 -J\sum_{\substack{\langle x,y\rangle:\\ x\in\Lambda,\,y\notin\Lambda}}\mathbf{1}\{\sigma_x=\eta_y\}
 -\sum_{x\in\Lambda} h_{\sigma_x},

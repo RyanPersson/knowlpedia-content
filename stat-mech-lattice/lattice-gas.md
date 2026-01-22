@@ -9,7 +9,7 @@ A **lattice gas** is a statistical-mechanical model of particles on a lattice, w
 Let $\Lambda\subset\mathbb{Z}^d$ be finite. A configuration is $n=(n_x)_{x\in\Lambda}$ with $n_x\in\{0,1\}$, where $n_x=1$ means “occupied.” A common nearest-neighbor attractive lattice gas {{< knowl id="lattice-hamiltonian" text="Hamiltonian" >}} is
 $$
 H_\Lambda(n)
-=
+={}
 -J\sum_{\langle x,y\rangle:\, x,y\in\Lambda} n_x n_y
 -\mu\sum_{x\in\Lambda} n_x,
 \qquad J\ge 0,
@@ -36,7 +36,7 @@ normalized by the {{< knowl id="partition-function-lattice" text="partition func
 - **Equivalence to Ising in a field.** Define Ising spins $\sigma_x\in\{-1,+1\}$ by $\sigma_x=2n_x-1$. For nearest-neighbor interactions on $\mathbb{Z}^d$ (degree $2d$), one obtains (up to an additive constant)
   $$
   H_\Lambda(n)
-  =
+  ={}
   -\frac{J}{4}\sum_{\langle x,y\rangle}\sigma_x\sigma_y
   -\left(\frac{\mu}{2}+\frac{Jd}{2}\right)\sum_{x\in\Lambda}\sigma_x
   +\text{const}.

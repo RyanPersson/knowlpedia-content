@@ -9,14 +9,14 @@ Consider a system with microstate $x$ (classical phase point or configuration) a
 For a single realization with trajectory $t\mapsto x_t$, the (protocol) work done on the system is commonly defined as
 $$
 W[x_{0:\tau}]
-=
+={}
 \int_0^\tau \dot{\lambda}_t\,\partial_\lambda H(x_t,\lambda_t)\,dt.
 $$
 
 For discrete-time driving $\lambda_{0},\lambda_{1},\dots,\lambda_{N}$ with microstates $x_0,\dots,x_N$,
 $$
 W
-=
+={}
 \sum_{k=0}^{N-1}\bigl(H(x_k,\lambda_{k+1})-H(x_k,\lambda_k)\bigr),
 $$
 i.e. the energy change due purely to parameter updates.
@@ -34,7 +34,7 @@ Assume an initial distribution for $x_0$ (often equilibrium, e.g. the {{< knowl 
 The **work distribution** $P(W)$ is the pushforward of the path measure under the map $\omega\mapsto W(\omega)$. Formally,
 $$
 P(W)
-=
+={}
 \int \delta\!\bigl(W - W[\omega]\bigr)\,d\mathbb{P}(\omega),
 $$
 

@@ -26,7 +26,7 @@ $$
 It is characterized by the universal property: for every observable $O_A$ acting only on $A$,
 $$
 \operatorname{Tr}_{\mathcal H_A}(\rho_A\, O_A)
-=
+={}
 \operatorname{Tr}_{\mathcal H}\big(\rho\, (O_A\otimes I_B)\big).
 $$
 
@@ -53,9 +53,9 @@ where $Z(\beta)$ is the {{< knowl id="partition-function-canonical" text="canoni
 Given a region $A$ (e.g. a finite subset of a lattice), the **reduced thermal density matrix** is
 $$
 \rho_{A,\beta}
-=
+={}
 \operatorname{Tr}_{A^c}\!\left(\rho_\beta\right)
-=
+={}
 \frac{\operatorname{Tr}_{A^c}\!\left(e^{-\beta H}\right)}{\operatorname{Tr}\!\left(e^{-\beta H}\right)}.
 $$
 

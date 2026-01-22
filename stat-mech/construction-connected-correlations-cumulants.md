@@ -26,7 +26,7 @@ When $A$ and $B$ are local observables at points $x,y$, this quantity is the {{<
 For three observables $A,B,C$, the connected three-point function (third cumulant) is
 $$
 \langle ABC\rangle_c
-=
+={}
 \langle ABC\rangle
 -\langle AB\rangle\langle C\rangle
 -\langle AC\rangle\langle B\rangle

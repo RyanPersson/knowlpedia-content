@@ -20,7 +20,7 @@ Assume:
 Then the entropy maximization conditions imply
 $$
 \left(\frac{\partial S_1}{\partial V_1}\right)_{U_1,N_1}
-=
+={}
 \left(\frac{\partial S_2}{\partial V_2}\right)_{U_2,N_2}.
 $$
 Using the thermodynamic identity (definition of {{< knowl id="pressure-thermo" section="thermodynamics" text="pressure" >}})

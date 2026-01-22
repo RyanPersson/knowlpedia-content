@@ -36,7 +36,7 @@ $$
   one has
   $$
   \left(\frac{\partial P}{\partial V}\right)_{T,N}
-  =
+  ={}
   -\left(\frac{\partial^2 F}{\partial V^2}\right)_{T,N}
   \le 0,
   $$
@@ -56,7 +56,7 @@ $$
 Differentiate the defining relation $P=-(\partial F/\partial V)_{T,N}$ with respect to $V$ at fixed $T,N$:
 $$
 \left(\frac{\partial P}{\partial V}\right)_{T,N}
-=
+={}
 -\left(\frac{\partial^2 F}{\partial V^2}\right)_{T,N}.
 $$
 

@@ -14,7 +14,7 @@ $$
 The grand partition function is
 $$
 \Xi_\Lambda(z,\beta)
-=
+={}
 \sum_{N\ge 0}\frac{z^N}{N!}\int_{\Lambda^N} \exp\!\big(-\beta\,U_N(x_1,\dots,x_N)\big)\,dx_1\cdots dx_N,
 $$
 where the configuration integral is an ordinary (Lebesgue) multiple integral; the underlying measure-theoretic viewpoint is the {{< knowl id="lebesgue-integral" section="measure-theory" text="Lebesgue integral" >}}.
@@ -36,13 +36,13 @@ expanding the product produces a sum over graphs $G$ on vertex set $\{1,\dots,N\
 The key structural fact is that $\log \Xi_\Lambda$ **is obtained by summing only connected graphs**. One convenient way to write it is
 $$
 \log \Xi_\Lambda(z,\beta)
-=
+={}
 \sum_{n\ge 1}\frac{z^n}{n!}\int_{\Lambda^n} \Phi_n^T(x_1,\dots,x_n)\,dx_1\cdots dx_n,
 $$
 with the connected (truncated) kernel
 $$
 \Phi_n^T(x_1,\dots,x_n)
-=
+={}
 \sum_{\substack{G\ \text{connected}\\\text{on }\{1,\dots,n\}}}
 \ \prod_{(i,j)\in E(G)} f(x_i-x_j).
 $$
@@ -52,9 +52,9 @@ $$
 The pressure is recovered from the grand partition function using {{< knowl id="pressure-from-partition-function" text="pressure from the partition function" >}}. Formally,
 $$
 \beta\,p(z,\beta)
-=
+={}
 \lim_{|\Lambda|\to\infty}\frac{1}{|\Lambda|}\log \Xi_\Lambda(z,\beta)
-=
+={}
 \sum_{n\ge 1} b_n(\beta)\, z^n,
 $$
 

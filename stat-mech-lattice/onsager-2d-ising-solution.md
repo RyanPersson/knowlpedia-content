@@ -30,7 +30,7 @@ $$
 For the 2D square-lattice Ising model at zero field, the infinite-volume free energy density exists and satisfies the exact formula
 $$
 -\beta f(\beta)
-=
+={}
 \ln\!\bigl(2\cosh(2K)\bigr)
 +\frac{1}{2\pi}\int_0^\pi
 \ln\!\left(

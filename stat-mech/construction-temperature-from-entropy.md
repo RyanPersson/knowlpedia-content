@@ -45,7 +45,7 @@ $$
 Equilibrium corresponds to maximizing $S_{\mathrm{tot}}$ with respect to $U_1$. Differentiating and setting the derivative to zero yields
 $$
 \left(\frac{\partial S_1}{\partial U_1}\right)_{V_1,N_1}
-=
+={}
 \left(\frac{\partial S_2}{\partial U_2}\right)_{V_2,N_2}.
 $$
 

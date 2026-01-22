@@ -9,7 +9,7 @@ Let $\Lambda$ be a finite region (see {{< knowl id="boundary-finite-region" sect
 The **finite-volume (dimensionless) pressure** is
 $$
 p_\Lambda(\beta,\tau)
-=
+={}
 \frac{1}{|\Lambda|}\,\log Z_\Lambda(\beta,\tau),
 $$
 

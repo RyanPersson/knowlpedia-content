@@ -15,7 +15,7 @@ $$
 then each coefficient is a partial derivative $a_i = \left(\frac{\partial \Phi}{\partial x_i}\right)_{x_{j\neq i}}$, and symmetry of the Hessian implies the identities
 $$
 \left(\frac{\partial a_i}{\partial x_j}\right)_{x_{k\neq i,j}}
-=
+={}
 \left(\frac{\partial a_j}{\partial x_i}\right)_{x_{k\neq i,j}}
 \quad\text{for all } i\neq j.
 $$
@@ -32,7 +32,7 @@ These are Maxwell relations (see {{< knowl id="maxwell-relation" section="thermo
   so $S= -(\partial F/\partial T)_{V,N}$ and $P= -(\partial F/\partial V)_{T,N}$, hence
   $$
   \left(\frac{\partial S}{\partial V}\right)_{T,N}
-  =
+  ={}
   \left(\frac{\partial P}{\partial T}\right)_{V,N}.
   $$
 
@@ -43,7 +43,7 @@ These are Maxwell relations (see {{< knowl id="maxwell-relation" section="thermo
   giving
   $$
   \left(\frac{\partial S}{\partial P}\right)_{T,N}
-  =
+  ={}
   -\left(\frac{\partial V}{\partial T}\right)_{P,N}.
   $$
 
@@ -54,7 +54,7 @@ These are Maxwell relations (see {{< knowl id="maxwell-relation" section="thermo
   giving, for instance,
   $$
   \left(\frac{\partial S}{\partial V}\right)_{T,\mu}
-  =
+  ={}
   \left(\frac{\partial P}{\partial T}\right)_{V,\mu}.
   $$
 
@@ -81,7 +81,7 @@ These are Maxwell relations (see {{< knowl id="maxwell-relation" section="thermo
 Since $\Phi$ is a state function, $a_i=\partial\Phi/\partial x_i$. If $\Phi$ is $C^2$, then mixed derivatives commute:
 $$
 \frac{\partial}{\partial x_j}\left(\frac{\partial \Phi}{\partial x_i}\right)
-=
+={}
 \frac{\partial}{\partial x_i}\left(\frac{\partial \Phi}{\partial x_j}\right).
 $$
 

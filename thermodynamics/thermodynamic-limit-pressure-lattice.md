@@ -9,9 +9,9 @@ Let $(\Lambda_n)_{n\ge 1}$ be an increasing sequence of finite regions exhaustin
 With $p_{\Lambda_n}(\beta,\tau_n)$ the {{< knowl id="pressure-lattice" section="stat-mech-lattice" text="finite-volume pressure" >}}, the **thermodynamic-limit pressure** (or **bulk pressure**) is the limit
 $$
 p(\beta)
-=
+={}
 \lim_{n\to\infty} p_{\Lambda_n}(\beta,\tau_n)
-=
+={}
 \lim_{n\to\infty} \frac{1}{|\Lambda_n|}\log Z_{\Lambda_n}(\beta,\tau_n),
 $$
 when this limit exists and is independent of the chosen exhausting sequence and boundary conditions.

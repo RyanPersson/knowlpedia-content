@@ -33,9 +33,9 @@ and the phase-space divergence of the Hamiltonian vector field is zero.
 Compute the divergence of the Hamiltonian vector field $(\dot q,\dot p)$:
 $$
 \nabla\cdot(\dot q,\dot p)
-=
+={}
 \sum_i \left(\frac{\partial \dot q_i}{\partial q_i} + \frac{\partial \dot p_i}{\partial p_i}\right)
-=
+={}
 \sum_i \left(\frac{\partial^2 H}{\partial q_i\partial p_i} - \frac{\partial^2 H}{\partial p_i\partial q_i}\right)=0.
 $$
 

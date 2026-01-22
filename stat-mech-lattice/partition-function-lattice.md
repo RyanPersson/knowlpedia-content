@@ -9,7 +9,7 @@ Fix a finite region $\Lambda$ of the lattice (see {{< knowl id="finite-box-latti
 Given an inverse temperature $\beta$ (see {{< knowl id="inverse-temperature-beta" section="thermodynamics" text="inverse temperature" >}}) and a {{< knowl id="lattice-hamiltonian" text="finite-volume lattice Hamiltonian" >}} $H_\Lambda(\sigma_\Lambda \mid \tau)$, the **finite-volume lattice partition function** is
 $$
 Z_\Lambda(\beta,\tau)
-=
+={}
 \int_{S^\Lambda}
 \exp\!\bigl(-\beta\, H_\Lambda(\sigma_\Lambda \mid \tau)\bigr)\,
 \lambda_\Lambda(d\sigma_\Lambda),
@@ -26,7 +26,7 @@ This object is the lattice analogue of the {{< knowl id="partition-function-cano
 - **Normalization for Gibbs weights.** The partition function is the normalizing constant for the {{< knowl id="finite-volume-gibbs-measure" text="finite-volume Gibbs measure" >}}:
   $$
   \mu_\Lambda^{\beta,\tau}(d\sigma_\Lambda)
-  =
+  ={}
   \frac{1}{Z_\Lambda(\beta,\tau)}
   \exp\!\bigl(-\beta\,H_\Lambda(\sigma_\Lambda\mid\tau)\bigr)\,
   \lambda_\Lambda(d\sigma_\Lambda).

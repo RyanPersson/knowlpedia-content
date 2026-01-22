@@ -41,7 +41,7 @@ $$
 At the level of trajectories $\omega$ (paths), Crooks’ theorem is equivalent to a path-space likelihood ratio
 $$
 \ln\frac{\mathbb{P}_F(\omega)}{\mathbb{P}_R(\tilde\omega)}
-=
+={}
 \beta\bigl(W(\omega)-\Delta F\bigr),
 $$
 

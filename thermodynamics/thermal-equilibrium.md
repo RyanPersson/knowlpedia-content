@@ -17,9 +17,9 @@ Thermal equilibrium is the state in which energy exchange has no preferred direc
 Consider two subsystems that can exchange energy but not {{< knowl id="particle-number" text="particles" >}} or volume, with total energy fixed. Writing $U_{\text{tot}} = U_1 + U_2$ and $U_2 = U_{\text{tot}} - U_1$, equilibrium corresponds to an extremum of the total entropy:
 $$
 \frac{dS_{\text{tot}}}{dU_1}
-=
+={}
 \left(\frac{\partial S_1}{\partial U_1}\right)_{V_1,N_1}
--
+-{}
 \left(\frac{\partial S_2}{\partial U_2}\right)_{V_2,N_2}
 =0.
 $$

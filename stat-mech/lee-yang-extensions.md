@@ -18,7 +18,7 @@ Let $\Lambda$ be a finite set of sites and consider Ising spins $\sigma_x\in\{\p
 The finite-volume partition function at inverse temperature $\beta$ and external field $h\in\mathbb{C}$ is
 $$
 Z_\Lambda(\beta,h)
-=
+={}
 \sum_{\sigma\in\{\pm1\}^\Lambda}
 \exp\!\left(
 \beta\sum_{\{x,y\}} J_{xy}\sigma_x\sigma_y

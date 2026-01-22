@@ -52,7 +52,7 @@ $$
 Stability (convexity of $U$ in $S$) gives
 $$
 \left(\frac{\partial T}{\partial S}\right)_{V,N}
-=
+={}
 \left(\frac{\partial^2 U}{\partial S^2}\right)_{V,N}
 \ge 0.
 $$

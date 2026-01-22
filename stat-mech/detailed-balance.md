@@ -33,7 +33,7 @@ The following are equivalent:
 2. **(Time-reversal of paths)** For any finite path $i_0,i_1,\dots,i_n$,
    $$
    \pi_{i_0} P_{i_0 i_1}\cdots P_{i_{n-1} i_n}
-   =
+   ={}
    \pi_{i_n} P_{i_n i_{n-1}}\cdots P_{i_1 i_0},
    $$
    i.e. the probability of a trajectory in stationarity equals that of its reversed trajectory.

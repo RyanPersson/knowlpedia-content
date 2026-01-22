@@ -54,16 +54,16 @@ Equivalently, all correlation functions $\langle \sigma_A\rangle_{J,h}$ are **no
 Differentiate the expectation in the parameter. For example,
 $$
 \frac{\partial}{\partial h_x}\langle \sigma_A\rangle_{J,h}
-=
+={}
 \langle \sigma_A \sigma_x\rangle_{J,h} - \langle \sigma_A\rangle_{J,h}\langle \sigma_x\rangle_{J,h}
-=
+={}
 \operatorname{Cov}_{J,h}(\sigma_A,\sigma_x).
 $$
 Similarly,
 $$
 \frac{\partial}{\partial J_{xy}}\langle \sigma_A\rangle_{J,h}
 
-=
+={}
 \operatorname{Cov}_{J,h}(\sigma_A,\sigma_x\sigma_y).
 $$
 

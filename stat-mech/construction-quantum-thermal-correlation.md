@@ -62,7 +62,7 @@ whenever the analytic continuation is well-defined. This identity encodes equili
 Let $H|n\rangle=E_n|n\rangle$ and define matrix elements $A_{nm}=\langle n|A|m\rangle$. Then
 $$
 C_{AB}(t)
-=
+={}
 \frac{1}{Z(\beta)}\sum_{n,m}
 e^{-\beta E_n}\,
 e^{i(E_n-E_m)t/\hbar}\,

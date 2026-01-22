@@ -53,15 +53,15 @@ Therefore the conjugate variables are recovered by partial differentiation, for 
 Commuting mixed partials yields the standard Maxwell relations, e.g. from $F(T,V,N)$,
 $$
 \left(\frac{\partial S}{\partial V}\right)_{T,N}
-=
+={}
 \left(\frac{\partial P}{\partial T}\right)_{V,N},
 \qquad
 \left(\frac{\partial S}{\partial N}\right)_{T,V}
-=
+={}
 -\left(\frac{\partial \mu}{\partial T}\right)_{V,N},
 \qquad
 \left(\frac{\partial P}{\partial N}\right)_{T,V}
-=
+={}
 -\left(\frac{\partial \mu}{\partial V}\right)_{T,N}.
 $$
 

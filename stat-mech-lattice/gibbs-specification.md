@@ -18,7 +18,7 @@ A **Gibbs specification** associated with inverse temperature $\beta$ and a give
 Concretely, if $\lambda$ is an a priori single-spin measure and $H_\Lambda(\sigma_\Lambda\mid\eta)$ is the finite-volume Hamiltonian, then the conditional law on $\Lambda$ is
 $$
 \gamma_\Lambda(d\sigma_\Lambda \mid \eta)
-=
+={}
 \frac{1}{Z_\Lambda(\beta,\eta)}
 \exp\!\bigl(-\beta\,H_\Lambda(\sigma_\Lambda\mid\eta)\bigr)\,
 \lambda_\Lambda(d\sigma_\Lambda),

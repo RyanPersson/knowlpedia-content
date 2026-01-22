@@ -43,7 +43,7 @@ This monotonicity is the functional core of the {{< knowl id="boltzmann-h-theore
 In the spatially homogeneous case with fixed mass and energy, the minimizers of $H$ are Maxwell–Boltzmann distributions
 $$
 f_{\mathrm{eq}}(v)
-=
+={}
 n\left(\frac{m}{2\pi k_B T}\right)^{d/2}
 \exp\!\left(-\frac{m|v-u|^2}{2k_B T}\right),
 $$

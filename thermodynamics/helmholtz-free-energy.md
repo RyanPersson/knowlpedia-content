@@ -29,7 +29,7 @@ Thus $F$ is naturally a function of $(T,V,N)$, mixing {{< knowl id="intensive-va
 Cross-differentiation yields a {{< knowl id="maxwell-relation" text="Maxwell relation" >}}, for example
 $$
 \left(\frac{\partial S}{\partial V}\right)_{T,N}
-=
+={}
 \left(\frac{\partial p}{\partial T}\right)_{V,N}.
 $$
 

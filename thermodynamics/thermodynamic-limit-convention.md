@@ -15,9 +15,9 @@ where \(\rho\) is the fixed particle density. Intensive parameters such as tempe
 One typically defines bulk quantities as limits of densities, for example the free energy density (or free energy per particle) when the limit exists:
 $$
 f(\beta,\rho)
-=
+={}
 \lim_{N,V\to\infty\atop N/V\to\rho}\frac{F_{N,V}(\beta)}{V}
-=
+={}
 -\frac{1}{\beta}\lim_{N,V\to\infty\atop N/V\to\rho}\frac{1}{V}\ln Z_{N,V}(\beta).
 $$
 By convention, \(\ln\) is the natural logarithm; see {{< knowl id="logarithm-convention-natural" text="natural logarithm convention" >}}.

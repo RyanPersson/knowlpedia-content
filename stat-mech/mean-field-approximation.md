@@ -50,7 +50,7 @@ Nontrivial solutions at $h=0$ correspond to spontaneous magnetization (see {{< k
 A standard mean-field free-energy density as a function of $m$ is
 $$
 f_{\beta,h}^{\text{MF}}(m)
-=
+={}
 -\frac{J z}{2}\,m^2 - h m
 +\beta^{-1}\left[
 \frac{1+m}{2}\log\frac{1+m}{2}

@@ -14,7 +14,7 @@ $$
 A standard nearest-neighbor {{< knowl id="lattice-hamiltonian" text="Hamiltonian" >}} with an {{< knowl id="external-field-coupling" text="external field" >}} $\mathbf{h}\in\mathbb{R}^2$ is
 $$
 H_\Lambda(\theta)
-=
+={}
 -J\sum_{\langle x,y\rangle:\, x,y\in\Lambda}\cos(\theta_x-\theta_y)
 -\sum_{x\in\Lambda}\mathbf{h}\cdot(\cos\theta_x,\sin\theta_x),
 \qquad J\in\mathbb{R}.

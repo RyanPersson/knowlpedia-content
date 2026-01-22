@@ -9,7 +9,7 @@ In the context of classical lattice spin systems, the **Heisenberg model** (ofte
 Let $\Lambda\subset\mathbb{Z}^d$ be finite. A {{< knowl id="spin-configuration" text="spin configuration" >}} is a map $S:\Lambda\to\mathbb{S}^2\subset\mathbb{R}^3$, where the {{< knowl id="spin-space" text="spin space" >}} is the unit sphere $\mathbb{S}^2$. A standard nearest-neighbor {{< knowl id="lattice-hamiltonian" text="Hamiltonian" >}} is
 $$
 H_\Lambda(S)
-=
+={}
 -J\sum_{\langle x,y\rangle:\, x,y\in\Lambda} S_x\cdot S_y
 -\sum_{x\in\Lambda}\mathbf{h}\cdot S_x,
 \qquad J\in\mathbb{R},

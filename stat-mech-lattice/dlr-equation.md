@@ -9,7 +9,7 @@ Let $\gamma = (\gamma_\Lambda)_{\Lambda\Subset\mathbb{Z}^d}$ be a {{< knowl id="
 The **DLR equation** (Dobrushin–Lanford–Ruelle) says that $\mu$ is an **infinite-volume Gibbs measure** for $\gamma$ if, for every finite region $\Lambda$ and every bounded measurable function $f:\Omega\to\mathbb{R}$,
 $$
 \int_\Omega f(\sigma)\,\mu(d\sigma)
-=
+={}
 \int_\Omega
 \left[
 \int_\Omega f(\sigma)\,\gamma_\Lambda(d\sigma\mid\eta)

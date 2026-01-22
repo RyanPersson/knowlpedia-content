@@ -19,7 +19,7 @@ Assume:
 Then entropy maximization implies
 $$
 \left(\frac{\partial S_1}{\partial N_1}\right)_{U_1,V_1}
-=
+={}
 \left(\frac{\partial S_2}{\partial N_2}\right)_{U_2,V_2}.
 $$
 Using the thermodynamic identity (definition of {{< knowl id="chemical-potential-thermo" section="thermodynamics" text="chemical potential" >}})

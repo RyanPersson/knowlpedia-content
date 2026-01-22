@@ -9,7 +9,7 @@ Fix a lattice spin system with single-spin space given by the {{< knowl id="spin
 An **infinite-volume Gibbs measure** for $\gamma$ is a {{< knowl id="probability-measure" section="probability" text="probability measure" >}} $\mu$ on $\Omega$ such that for every finite region $\Lambda$ and every bounded measurable function $f$ depending only on spins in $\Lambda$ (a *local observable*),
 $$
 \int f(\sigma)\,\mu(d\sigma)
-=
+={}
 \int \left[\int f(\sigma_\Lambda \eta_{\Lambda^c})\,\gamma_\Lambda(d\sigma_\Lambda \mid \eta_{\Lambda^c})\right]\mu(d\eta).
 $$
 

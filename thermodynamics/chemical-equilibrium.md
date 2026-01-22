@@ -29,9 +29,10 @@ In practice, chemical equilibrium is what makes composition stable: once reached
 **Entropy maximization with particle exchange.** For two subsystems that can exchange particles (but not volume) with fixed totals, maximizing total entropy implies
 $$
 \left(\frac{\partial S_1}{\partial N_1}\right)_{U_1,V_1}
-=
+={}
 \left(\frac{\partial S_2}{\partial N_2}\right)_{U_2,V_2}.
 $$
+
 Using the identity from equilibrium thermodynamics
 $$
 \left(\frac{\partial S}{\partial N}\right)_{U,V} = -\frac{\mu}{T},

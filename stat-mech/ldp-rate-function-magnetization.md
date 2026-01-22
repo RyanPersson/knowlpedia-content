@@ -22,7 +22,7 @@ In the canonical ensemble with external field $h$ (see {{< knowl id="canonical-e
 Indeed,
 $$
 \mathbb{E}_{\beta,h}\!\left[e^{t\,N m_N}\right]
-=
+={}
 \frac{Z_N(\beta,\,h+t/\beta)}{Z_N(\beta,\,h)}.
 $$
 If the pressure

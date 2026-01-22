@@ -11,7 +11,7 @@ $p(\Phi)$ denote the {{< knowl id="pressure-lattice" section="stat-mech-lattice"
 Then the pressure satisfies the variational formula
 $$
 p(\Phi)
-=
+={}
 \sup_{\mu\in\mathcal{P}_{\mathrm{t.i.}}(\Omega)}
 \Big\{\, s(\mu) - e_\Phi(\mu)\,\Big\},
 $$

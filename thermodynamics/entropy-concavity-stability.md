@@ -37,9 +37,9 @@ Concavity translates into positivity of familiar {{< knowl id="response-function
 - Using the defining relation $1/T = (\partial S/\partial U)_{V,N}$ for the {{< knowl id="temperature-thermo" text="temperature" >}} $T$, one finds
   $$
   \left(\frac{\partial^2 S}{\partial U^2}\right)_{V,N}
-  =
+  ={}
   -\frac{1}{T^2}\left(\frac{\partial T}{\partial U}\right)_{V,N}
-  =
+  ={}
   -\frac{1}{T^2\,C_V},
   $$
 

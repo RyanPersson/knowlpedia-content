@@ -43,7 +43,7 @@ $$
 where the asymptotic variance is given by the integrated covariance formula
 $$
 \sigma_f^2
-=
+={}
 \sum_{x\in\mathbb{Z}^d}
 \mathrm{Cov}_\mu\big(f, f\circ\tau_x\big)
 \;\;\in\;[0,\infty).

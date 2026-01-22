@@ -29,7 +29,7 @@ Multiple local minima encode metastability (see {{< knowl id="metastable-state" 
 To model interfaces and spatial fluctuations, one introduces an order-parameter field $\phi(x)$ and writes (schematically)
 $$
 \mathcal{F}[\phi]
-=
+={}
 \int d^d x\,
 \left(
 \frac{\kappa}{2}|\nabla \phi(x)|^2

@@ -8,7 +8,7 @@ description: "At fixed volume and composition, the Helmholtz free energy has non
 Let $F(T,V,N)$ be the {{< knowl id="helmholtz-free-energy" section="thermodynamics" text="Helmholtz free energy" >}} of a stable equilibrium system. At fixed $V,N$ and for $T>0$,
 $$
 \left(\frac{\partial^2 F}{\partial T^2}\right)_{V,N}
-=
+={}
 -\frac{C_V}{T}
 \le 0,
 $$
@@ -61,7 +61,7 @@ $$
 At fixed $V,N$, this gives $S = -(\partial F/\partial T)_{V,N}$. Differentiate once more in $T$:
 $$
 \left(\frac{\partial^2 F}{\partial T^2}\right)_{V,N}
-=
+={}
 -\left(\frac{\partial S}{\partial T}\right)_{V,N}.
 $$
 

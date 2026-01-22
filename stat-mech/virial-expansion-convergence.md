@@ -17,7 +17,7 @@ Consider a classical continuum gas in a bounded region $\Lambda\subset\mathbb{R}
 The grand-canonical partition function is
 $$
 \Xi_\Lambda(z,\beta)
-=
+={}
 \sum_{N=0}^\infty \frac{z^N}{N!}
 \int_{\Lambda^N}
 \exp\!\Big(

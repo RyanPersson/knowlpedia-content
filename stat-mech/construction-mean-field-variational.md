@@ -17,7 +17,7 @@ $$
 Let $q$ be any trial {{< knowl id="probability-measure" section="probability" text="probability distribution" >}} on microstates. Define its entropy as the {{< knowl id="gibbs-entropy-shannon" text="Gibbs/Shannon entropy" >}} $S(q)$ and denote by $\langle\cdot\rangle_q$ the {{< knowl id="expectation" section="probability" text="expectation" >}} under $q$. Then one has the exact identity
 $$
 F(\beta)
-=
+={}
 \langle H\rangle_q-\frac{1}{\beta}S(q)
 -\frac{1}{\beta}D(q\|p),
 $$
@@ -51,7 +51,7 @@ a translation-invariant product ansatz is characterized by the magnetization
 $m=\langle s_i\rangle_q$. The resulting mean-field free-energy density can be written as a function of $m$:
 $$
 f_{\mathrm{MF}}(m)
-=
+={}
 -\frac{J}{2}m^2-hm
 +\frac{1}{\beta}\left[
 \frac{1+m}{2}\log\frac{1+m}{2}

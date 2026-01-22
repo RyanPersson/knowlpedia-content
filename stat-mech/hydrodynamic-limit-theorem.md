@@ -19,7 +19,7 @@ Let $(\eta_t)_{t\ge 0}$ be a conservative interacting particle system on a discr
 A standard macroscopic observable is the empirical measure (density field)
 $$
 \pi_t^N(du)
-=
+={}
 \frac{1}{N^d}\sum_{x\in\mathbb{T}_N^d}\eta_t(x)\,\delta_{x/N}(du),
 $$
 
@@ -27,7 +27,7 @@ viewed as a random measure on the continuum torus $\mathbb{T}^d$.
 Equivalently, for a smooth test function $G$,
 $$
 \langle \pi_t^N, G\rangle
-=
+={}
 \frac{1}{N^d}\sum_{x\in\mathbb{T}_N^d}\eta_t(x)\,G(x/N).
 $$
 

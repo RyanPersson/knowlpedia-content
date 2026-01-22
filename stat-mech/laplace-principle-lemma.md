@@ -9,7 +9,7 @@ This lemma is a deterministic prototype for {{< knowl id="varadhans-lemma" secti
 Let $K$ be a compact topological space and let $\mu$ be a finite Borel measure on $K$ such that every nonempty open set has positive $\mu$-measure. If $f:K\to\mathbb{R}$ is continuous, then
 $$
 \lim_{n\to\infty}\frac{1}{n}\log\!\int_K e^{n f(x)}\,\mu(dx)
-=
+={}
 \max_{x\in K} f(x).
 $$
 

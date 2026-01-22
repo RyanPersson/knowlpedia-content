@@ -20,7 +20,7 @@ $$
 one obtains
 $$
 \left(\frac{\partial T}{\partial V}\right)_{S}
-=
+={}
 -\left(\frac{\partial P}{\partial S}\right)_{V}.
 $$
 
@@ -31,7 +31,7 @@ $$
 one obtains
 $$
 \left(\frac{\partial S}{\partial V}\right)_{T}
-=
+={}
 \left(\frac{\partial P}{\partial T}\right)_{V}.
 $$
 
@@ -42,7 +42,7 @@ $$
 one obtains
 $$
 \left(\frac{\partial T}{\partial P}\right)_{S}
-=
+={}
 \left(\frac{\partial V}{\partial S}\right)_{P}.
 $$
 
@@ -53,7 +53,7 @@ $$
 one obtains
 $$
 \left(\frac{\partial S}{\partial P}\right)_{T}
-=
+={}
 -\left(\frac{\partial V}{\partial T}\right)_{P}.
 $$
 

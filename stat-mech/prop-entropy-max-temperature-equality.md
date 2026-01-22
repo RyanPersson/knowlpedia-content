@@ -20,7 +20,7 @@ Assume:
 Then at equilibrium,
 $$
 \left(\frac{\partial S_1}{\partial U_1}\right)_{V_1,N_1}
-=
+={}
 \left(\frac{\partial S_2}{\partial U_2}\right)_{V_2,N_2}.
 $$
 Using the definition of {{< knowl id="temperature-thermo" section="thermodynamics" text="temperature" >}},
@@ -60,9 +60,9 @@ $$
 Maximize $S_{\mathrm{tot}}(U_1)$ subject to $U_2=U_{\mathrm{tot}}-U_1$. At an interior maximizer,
 $$
 \frac{dS_{\mathrm{tot}}}{dU_1}
-=
+={}
 \left(\frac{\partial S_1}{\partial U_1}\right)_{V_1,N_1}
--
+-{}
 \left(\frac{\partial S_2}{\partial U_2}\right)_{V_2,N_2}
 =0.
 $$

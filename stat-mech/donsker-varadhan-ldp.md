@@ -32,12 +32,12 @@ a random element of the space of {{< knowl id="probability-measure" section="pro
 Under standard ergodicity and regularity assumptions ensuring a well-posed DV theory, the family $(L_T)_{T\to\infty}$ satisfies a {{< knowl id="large-deviation-principle" section="large-deviations" text="large deviation principle" >}} with speed $T$ and a good {{< knowl id="rate-function" section="large-deviations" text="rate function" >}} $I(\mu)$ characterized by the variational formula
 $$
 I(\mu)
-=
+={}
 \sup_{g>0}
 \left\{
 -\int_E \frac{Lg}{g}\,d\mu
 \right\}
-=
+={}
 -\inf_{g>0}\int_E \frac{Lg}{g}\,d\mu,
 $$
 
@@ -53,7 +53,7 @@ Key structural properties:
 If the process is reversible with respect to $\pi$ (see {{< knowl id="detailed-balance" text="detailed balance" >}}), and $\mu$ is absolutely continuous with respect to $\pi$ with density $f=\frac{d\mu}{d\pi}$, then the DV rate function can be written in terms of the Dirichlet form:
 $$
 I(\mu)
-=
+={}
 -\left\langle \sqrt{f},\, L\sqrt{f}\right\rangle_\pi,
 \qquad
 \langle a,b\rangle_\pi=\int_E a\,b\,d\pi.
@@ -67,7 +67,7 @@ A central application is the asymptotic log-moment generating function of additi
 For a bounded measurable “potential” $V:E\to\mathbb{R}$, define
 $$
 \Lambda(V)
-=
+={}
 \lim_{T\to\infty}\frac{1}{T}\log
 \mathbb{E}_\pi\!\left[
 \exp\!\left(\int_0^T V(X_t)\,dt\right)
@@ -77,7 +77,7 @@ $$
 DV theory identifies $\Lambda(V)$ as the Legendre–Fenchel dual of $I$:
 $$
 \Lambda(V)
-=
+={}
 \sup_{\mu}
 \left\{
 \int_E V\,d\mu - I(\mu)

@@ -9,11 +9,11 @@ The **antiferromagnetic Ising model** is a special case of the {{< knowl id="isi
 Let $\Lambda$ be a finite subset of $\mathbb{Z}^d$ with the usual {{< knowl id="nearest-neighbor-zd" section="discrete-structures" text="nearest-neighbor adjacency" >}} (or more generally a finite graph). A {{< knowl id="spin-configuration" text="spin configuration" >}} is a map $\sigma:\Lambda\to\{-1,+1\}$ (so the {{< knowl id="spin-space" text="spin space" >}} is $\{-1,+1\}$). With a {{< knowl id="boundary-condition-lattice" text="boundary condition" >}} $\eta$ on $\Lambda^c$, the standard nearest-neighbor antiferromagnetic {{< knowl id="lattice-hamiltonian" text="lattice Hamiltonian" >}} is
 $$
 H_\Lambda(\sigma\mid \eta)
-=
+={}
 J\sum_{\langle x,y\rangle:\, x,y\in\Lambda}\sigma_x\sigma_y
 +
 J\sum_{\substack{\langle x,y\rangle:\\ x\in\Lambda,\,y\notin\Lambda}}\sigma_x\eta_y
--
+-{}
 h\sum_{x\in\Lambda}\sigma_x,
 \qquad J>0,
 $$
@@ -23,7 +23,7 @@ where $h$ is an {{< knowl id="external-field-coupling" text="external field" >}}
 At {{< knowl id="inverse-temperature-beta" section="thermodynamics" text="inverse temperature" >}} $\beta$, the corresponding {{< knowl id="finite-volume-gibbs-measure" text="finite-volume Gibbs measure" >}} is
 $$
 \mu_{\Lambda,\beta}^{\eta}(\sigma)
-=
+={}
 \frac{1}{Z_{\Lambda,\beta}(\eta)}\exp\!\big(-\beta H_\Lambda(\sigma\mid\eta)\big),
 $$
 
@@ -49,3 +49,4 @@ where $Z_{\Lambda,\beta}(\eta)$ is the {{< knowl id="partition-function-lattice"
 ## Physical interpretation
 
 The antiferromagnetic Ising model is a minimal model for **antiferromagnets**, where neighboring magnetic moments prefer to point in opposite directions due to exchange interactions. On bipartite lattices this produces **Néel order** (alternating sublattice magnetization). Unlike the ferromagnetic case, the usual uniform {{< knowl id="spontaneous-magnetization" text="spontaneous magnetization" >}} can vanish even in an ordered phase; the physically meaningful “magnetization” is staggered.
+

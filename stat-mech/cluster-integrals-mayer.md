@@ -44,7 +44,7 @@ and expanding the product generates a sum over graphs on $\{1,\dots,N\}$, with a
 The logarithm of the grand partition function selects *connected* contributions. A standard form of Mayer’s identity is
 $$
 \log \Xi(z,V,\beta)
-=
+={}
 \sum_{n\ge 1}\frac{z^n}{n!}
 \int_{V^n}
 \left(
