@@ -38,5 +38,3 @@ $$
 - {{< knowl id="canonical-energy-identity" text="Canonical energy identity" >}}
 - {{< knowl id="heat-capacity-constant-volume" section="thermodynamics" text="Heat capacity at constant volume" >}}
 
-## Proof idea / significance
-Differentiate the identity {{< knowl id="canonical-energy-identity" text="⟨H⟩ = -∂β log Z" >}} once more in $\beta$. The second derivative produces $\langle H^2\rangle_\beta - \langle H\rangle_\beta^2$, i.e. the variance. Translating derivatives from $\beta$ to $T$ yields the fluctuation–response relation linking equilibrium fluctuations to the measurable response coefficient $C_V$.

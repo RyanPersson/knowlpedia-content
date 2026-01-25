@@ -36,5 +36,3 @@ $$
 - Susceptibility is a fluctuation: large magnetization fluctuations imply large response to $h$.
 - This is a concrete instance of the {{< knowl id="prop-fluctuation-response-equivalence" text="fluctuation–response principle" >}}.
 
-## Proof idea / significance
-Differentiate $\log Z_\Lambda(\beta,h)$ with respect to $h$. The first derivative gives $\beta\,\mathbb{E}[M_\Lambda]$, and the second derivative produces the covariance (variance) term. The identity underlies many response formulas and connects critical behavior to diverging fluctuations.

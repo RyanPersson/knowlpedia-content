@@ -65,10 +65,3 @@ under appropriate entropy-solution interpretation.
 - **Local equilibrium principle**: microscopic configurations near a macroscopic point behave approximately like equilibrium Gibbs measures at the local density.
 - **Connection to dynamical large deviations**: hydrodynamic limits are often paired with path-space LDPs; the time-averaged DV theory ({{< knowl id="donsker-varadhan-ldp" text="Donsker–Varadhan" >}}) is one cornerstone in this direction.
 
-## Typical proof inputs (conceptual)
-
-Many rigorous proofs rely on:
-
-- martingale formulations of $\langle \pi_t^N, G\rangle$ derived from the generator,
-- replacement lemmas (local functions replaced by functions of the empirical density),
-- and entropy/relative-entropy methods comparing the law of $\eta_t$ to local equilibrium references.

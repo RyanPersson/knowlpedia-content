@@ -29,5 +29,3 @@ with equality if and only if the adiabatic process is reversible.
 - In equilibrium thermodynamics, **isentropic** is equivalent to **reversible adiabatic**.
 - Any irreversibility in an adiabatic transformation produces entropy: $\Delta S>0$.
 
-## Proof idea / significance
-This follows immediately from the Clausius characterization of entropy (see {{< knowl id="clausius-theorem-entropy" section="thermodynamics" text="Clausius' theorem on entropy" >}}) together with the {{< knowl id="clausius-inequality" section="thermodynamics" text="Clausius inequality" >}}. In applications, “isentropic” provides an ideal benchmark (max work output or min work input) for real nearly-adiabatic devices.

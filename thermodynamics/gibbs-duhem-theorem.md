@@ -31,11 +31,3 @@ $$
 - The intensive variables $T,p,\mu$ (or $T,p,\mu_i$) cannot be chosen independently; they satisfy one linear differential constraint.
 - Along a one-phase equilibrium manifold, specifying two of $(T,p,\mu)$ locally determines the third (subject to regularity).
 
-## Proof idea / significance
-Differentiate the Euler relation:
-$$
-dU = T\,dS + S\,dT - p\,dV - V\,dp + \mu\,dN + N\,d\mu.
-$$
-
-Subtract the first-law identity for $dU$ to eliminate $T\,dS - p\,dV + \mu\,dN$, leaving $S\,dT - V\,dp + N\,d\mu=0$.  
-This relation is central in thermodynamic manipulations (e.g., changing independent variables) and underlies many standard identities involving {{< knowl id="temperature-thermo" section="thermodynamics" text="temperature" >}}, {{< knowl id="pressure-thermo" section="thermodynamics" text="pressure" >}}, and {{< knowl id="chemical-potential-thermo" section="thermodynamics" text="chemical potential" >}}.

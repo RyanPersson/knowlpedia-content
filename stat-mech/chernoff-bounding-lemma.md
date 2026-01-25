@@ -39,14 +39,6 @@ whenever the infimum is over $t$ with finite exponential moment.
 **Conclusions**
 - Tail probabilities are controlled by exponential moments.
 - Optimizing over $t$ yields the tightest Chernoff bound available from the moment generating function (often expressed via a Legendre transform of $\log \mathbb E[e^{tX}]$).
-
-## Proof idea / significance
-
-Apply Markov’s inequality to the nonnegative random variable $e^{tX}$:
-$$
-\mathbb P(X\ge a)=\mathbb P(e^{tX}\ge e^{t a}) \le e^{-t a}\,\mathbb E[e^{tX}].
-$$
-
 The optimized bound connects directly to large deviations: the function $t\mapsto \log \mathbb E[e^{tX}]$ is convex, and its Legendre transform often appears as the candidate {{< knowl id="rate-function" section="large-deviations" text="rate function" >}} in a {{< knowl id="large-deviation-principle" section="large-deviations" text="large deviation principle" >}}.
 
 In statistical mechanics, the same mechanism controls fluctuations of extensive observables via exponential tilting of ensembles.

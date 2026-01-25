@@ -29,6 +29,3 @@ Equivalently, in the energy representation $U=U(S,V,N)$, the internal energy is 
   - {{< knowl id="isothermal-compressibility" section="thermodynamics" text="Isothermal compressibility" >}} satisfies $\kappa_T\ge 0$ (see {{< knowl id="prop-compressibility-positivity" text="compressibility positivity" >}}).
 - Stability restricts curvature of thermodynamic potentials obtained by {{< knowl id="legendre-transform" section="convex-analysis" text="Legendre transforms" >}} (e.g., convexity/concavity properties of {{< knowl id="helmholtz-free-energy" section="thermodynamics" text="Helmholtz free energy" >}} and {{< knowl id="gibbs-free-energy" section="thermodynamics" text="Gibbs free energy" >}}).
 
-## Proof idea / significance
-The core idea is the “mixing” argument: take two macrostates, form a composite system that can redistribute the conserved quantities, and use the entropy-maximum principle (a formulation of the {{< knowl id="second-law-thermodynamics" section="thermodynamics" text="second law" >}}) to show that the entropy of the combined equilibrium state dominates the weighted average of entropies. That inequality is precisely concavity.  
-Concavity/convexity is the mathematical backbone of stability, ensuring uniqueness of equilibrium in single-phase regions and governing fluctuations/response via curvature.

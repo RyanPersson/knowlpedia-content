@@ -61,6 +61,3 @@ $$
 - Internal energy: {{< knowl id="internal-energy-thermo" section="thermodynamics" text="internal energy" >}}.
 - Stability conditions ensuring a maximum: {{< knowl id="thermodynamic-stability" section="thermodynamics" text="thermodynamic stability" >}}.
 
-## Proof idea / significance (sketch)
-
-Treat $S_{\mathrm{tot}}(U_1,V_1)$ as a function to be maximized under $U_2=U_{\mathrm{tot}}-U_1$ and $V_2=V_{\mathrm{tot}}-V_1$. Stationarity in $V_1$ forces equality of the partial derivatives $(\partial S/\partial V)_{U,N}$ across the subsystems. The identity $(\partial S/\partial V)_{U,N}=P/T$ converts this into $P_1/T_1=P_2/T_2$, and combined with temperature equalization yields $P_1=P_2$. This characterizes pressure as the intensive variable that equalizes under mechanical contact.

@@ -39,12 +39,4 @@ $$
 - The entropy viewpoint connects via {{< knowl id="clausius-theorem-entropy" section="thermodynamics" text="Clausius’ theorem (entropy)" >}} and the {{< knowl id="clausius-inequality" section="thermodynamics" text="Clausius inequality" >}}.
 - The induced absolute scale is captured in {{< knowl id="corollary-carnot-absolute-temperature" section="thermodynamics" text="Carnot’s corollary on absolute temperature" >}}.
 
-## Proof idea / significance
-
-**Idea (standard contradiction argument).** Suppose there exists an engine $\mathcal{E}$ between $T_H$ and $T_C$ more efficient than a reversible engine $\mathcal{R}$ between the same reservoirs. Run $\mathcal{R}$ in reverse as a refrigerator/heat pump and couple it to $\mathcal{E}$ so that the net heat exchange with one reservoir cancels. The remaining net effect is either:
-- extraction of heat from a single reservoir and complete conversion to work (violating the Kelvin–Planck statement), or
-- transfer of heat from cold to hot with no net work input (violating the Clausius statement).
-
-By {{< knowl id="kelvin-planck-clausius-equivalence" section="thermodynamics" text="equivalence" >}}, either outcome contradicts the second law, so the assumption was impossible.
-
 **Significance.** Carnot’s theorem isolates a universal performance bound for heat engines, independent of microscopic details, and is the starting point for defining absolute temperature and entropy in macroscopic thermodynamics.

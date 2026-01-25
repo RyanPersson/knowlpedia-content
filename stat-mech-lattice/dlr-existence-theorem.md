@@ -25,8 +25,3 @@ Moreover, for any fixed boundary condition $\eta$ and any increasing sequence of
 - **Compactness mechanism:** the family $\{\mu_{\Lambda}^{\eta}\}_{\Lambda\Subset\mathbb{Z}^d}$ has weakly convergent subnet/subsequence along any exhaustion, and each limit point is in $\mathcal{G}(\gamma^\Phi)$.
 - **Equilibrium exists at all parameters:** for every inverse temperature (absorbed into $\Phi$) and external parameters appearing in $\Phi$, at least one infinite-volume equilibrium state exists.
 
-## Proof idea / significance (sketch)
-
-For finite spin spaces, $\Omega=S^{\mathbb{Z}^d}$ is compact in the product topology (Tychonoff), hence the space of probability measures on $\Omega$ is weak-* compact. Fix a boundary condition $\eta$ and consider $\mu_{\Lambda}^{\eta}$. Any sequence along $\Lambda_n\uparrow\mathbb{Z}^d$ admits weak limit points. Quasilocality/consistency of the specification implies that the DLR consistency relations pass to the limit for local test functions, yielding a measure $\mu$ that satisfies the DLR equations.
-
-Conceptually: this theorem guarantees that the DLR formalism is not empty—there is always at least one infinite-volume Gibbs state to study for standard lattice interactions (e.g. the {{< knowl id="ising-model" section="stat-mech-lattice" text="Ising model" >}}).

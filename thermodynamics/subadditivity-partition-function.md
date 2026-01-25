@@ -43,7 +43,6 @@ $$
 **Conclusions**
 - $\log Z_\Lambda$ is **subadditive up to a boundary correction**.
 - For “regular” shapes (e.g. cubes), $|\partial(\Lambda_1,\Lambda_2)|$ grows like surface area, so the correction is lower order compared to volume.
-
 ## Proof idea / significance
 Using the decomposition $H_{\Lambda_1\cup\Lambda_2}=H_{\Lambda_1}+H_{\Lambda_2}+H_{\mathrm{cross}}$ and the bound
 $e^{-\beta H_{\mathrm{cross}}(\sigma)}\le e^{\beta C|\partial(\Lambda_1,\Lambda_2)|}$,

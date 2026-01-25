@@ -37,14 +37,3 @@ This is the lattice analogue of the {{< knowl id="gibbs-variational-principle" s
 - **Characterization of equilibrium states:** the maximizers are precisely the translation-invariant Gibbs (DLR) states.
 - **Convex-analytic viewpoint:** $p(\Phi)$ functions as a “log-partition” density; the variational formula is a Fenchel–Legendre-type duality with entropy (compare {{< knowl id="legendre-transform" section="convex-analysis" text="Legendre transform" >}} and {{< knowl id="convex-conjugate-fenchel" section="convex-analysis" text="Fenchel conjugate" >}}).
 
-## Proof idea / significance (sketch)
-
-A standard route is via relative entropy and the finite-volume Gibbs inequality (a.k.a. Gibbs variational inequality). For any probability law $\rho_\Lambda$ on configurations in $\Lambda$,
-one compares $\rho_\Lambda$ with the finite-volume Gibbs law and rewrites the inequality in terms of the {{< knowl id="relative-entropy-kl-divergence" section="probability" text="relative entropy" >}} $D(\rho_\Lambda\|\mu_\Lambda^\eta)\ge 0$. This yields a finite-volume bound of the form
-“$(1/|\Lambda|)\log Z_\Lambda$ is at least entropy density minus energy density,”
-and taking van Hove limits produces the lower bound $p(\Phi)\ge \sup(\cdot)$.
-The matching upper bound follows from consistency/subadditivity arguments for entropy and additivity of energy, together with approximation of an infinite-volume $\mu$ by its finite-volume marginals.
-
-The theorem is the main bridge between:
-- the “partition function / pressure” side ({{< knowl id="partition-function-lattice" section="stat-mech-lattice" text="partition function" >}}, {{< knowl id="pressure-lattice" section="stat-mech-lattice" text="pressure" >}}), and
-- the “infinite-volume equilibrium state” side ({{< knowl id="infinite-volume-gibbs-measure" section="stat-mech-lattice" text="Gibbs measures" >}}).

@@ -63,9 +63,6 @@ Structural/mathematical links:
 - {{< knowl id="maxwell-relation" section="thermodynamics" text="Maxwell relation (definition)" >}}.
 - {{< knowl id="legendre-transform" section="convex-analysis" text="Legendre transform" >}} (thermodynamic potentials as Legendre transforms of $U$).
 - {{< knowl id="prop-maxwell-from-mixed-partials" section="stat-mech" text="Maxwell-from-mixed-partials proposition" >}} and {{< knowl id="corollary-maxwell-standard-identities" section="stat-mech" text="standard Maxwell identities corollary" >}}.
-
-## Proof idea / significance
-
 **Idea.** A thermodynamic potential is a state function, so its differential is exact (see {{< knowl id="exact-differential-criterion" section="stat-mech" text="exact differential criterion" >}}). Exactness implies equality of mixed second derivatives (Clairaut/Schwarz theorem), which directly produces the Maxwell relations once the coefficients in $dU,dF,dG,\ldots$ are identified with $T,S,P,V,\mu,N$.
 
 **Significance.** Maxwell relations are consistency conditions for equilibrium thermodynamics and a practical computational tool: they turn “entropy derivatives” into measurable response derivatives and are central in deriving identities for heat capacities, compressibilities, and susceptibilities.

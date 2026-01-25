@@ -36,13 +36,4 @@ $$
 - Entropy formulation: {{< knowl id="thermodynamic-entropy" section="thermodynamics" text="entropy" >}} and {{< knowl id="clausius-theorem-entropy" section="thermodynamics" text="Clausius’ theorem" >}}.
 - Absolute scale consequence: {{< knowl id="corollary-carnot-absolute-temperature" section="thermodynamics" text="Carnot absolute temperature corollary" >}}.
 
-## Proof idea / significance
-
-**Entropy-based derivation.** For a reversible cycle exchanging heats $Q_H$ at $T_H$ and $Q_C$ at $T_C$ (and otherwise adiabatic), Clausius’ theorem implies the cyclic integral of $\delta Q_{\mathrm{rev}}/T$ vanishes. With the sign convention using magnitudes $Q_H,Q_C>0$, this gives
-$$
-\frac{Q_H}{T_H}-\frac{Q_C}{T_C}=0,
-$$
-
-so $Q_C/Q_H=T_C/T_H$. Substituting into $\eta_{\mathrm{rev}}=1-Q_C/Q_H$ yields $\eta_{\mathrm{rev}}=1-T_C/T_H$.
-
 **Significance.** This is the canonical “thermodynamic limit” on efficiency: it quantifies why making $T_C$ small and $T_H$ large is the only way (even ideally) to improve efficiency, and it pins down the operational meaning of the absolute temperature scale.

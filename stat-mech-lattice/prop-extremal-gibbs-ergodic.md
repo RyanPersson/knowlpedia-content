@@ -28,5 +28,3 @@ If, in addition, the interaction/specification is translation-covariant and $\mu
 - Extremal Gibbs measures are “pure phases”: they have no nontrivial decomposition into distinct Gibbs components.
 - Tail-triviality provides a practical criterion for purity, often used in phase-transition analysis (compare {{< knowl id="phase-transition-gibbs" section="stat-mech-lattice" text="phase transition" >}} and coexistence phenomena).
 
-## Proof idea / significance
-If the tail $\sigma$-algebra is nontrivial, one can condition $\mu$ on a tail event $A\in\mathcal{T}$ with $0<\mu(A)<1$ and obtain two distinct conditional measures that are still DLR-consistent; this yields a nontrivial convex decomposition of $\mu$, so $\mu$ is not extremal. Conversely, if $\mu$ admits a nontrivial convex decomposition, the component label can be realized as a tail-measurable random variable, producing a nontrivial tail event. This links convex geometry (extreme points) to probabilistic ergodic/tail behavior.

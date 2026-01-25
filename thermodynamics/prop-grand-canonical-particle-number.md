@@ -26,7 +26,3 @@ $$
 - $\mu$ is conjugate to $N$: changing {{< knowl id="chemical-potential-thermo" section="thermodynamics" text="chemical potential" >}} changes $\langle N\rangle$ via a derivative of $\ln\Xi$.
 - Thermodynamic form: $\langle N\rangle$ is the negative $\mu$-derivative of $\Omega$.
 
-## Proof idea / significance
-Differentiate $\Xi(\beta,\mu)$ with respect to $\mu$:
-$\partial_\mu \Xi = \beta\,\mathrm{Tr}\!\left(N\,e^{-\beta(H-\mu N)}\right)$.
-Divide by $\Xi$ to convert to an expectation, giving $\partial_\mu \ln\Xi=\beta\langle N\rangle$. This is the basic “conjugate variable” identity underpinning particle-number control by $\mu$.

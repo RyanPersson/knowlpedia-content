@@ -42,11 +42,5 @@ $$
 - **Imaginary-time periodicity:** the KMS boundary relation encodes the $\beta$-periodicity in imaginary time (compare {{< knowl id="corollary-kms-imaginary-time-periodicity" text="KMS imaginary-time periodicity" >}}).
 - **Bridge to infinite volume:** in algebraic quantum statistical mechanics, KMS states serve as the definition of thermal equilibrium even when Gibbs density matrices may fail to exist (finite-volume Gibbs $\Rightarrow$ KMS is the finite-system prototype).
 
-## Proof idea / significance
-
-In finite dimension, the proof is a direct computation using cyclicity of the trace and analytic continuation:
-- write $F_{A,B}(t)=\mathrm{Tr}(\rho_\beta A e^{itH}Be^{-itH})$,
-- move factors around using $\mathrm{Tr}(XY)=\mathrm{Tr}(YX)$,
-- observe that inserting $e^{-\beta H}$ corresponds to shifting $t\mapsto t+i\beta$.
-
 This theorem is one half of the “Gibbs $\leftrightarrow$ KMS” correspondence; the converse direction is typically formulated as a separate result (see {{< knowl id="kms-gibbs-converse" text="KMS ⇒ Gibbs (converse)" >}} under appropriate finiteness assumptions).
+

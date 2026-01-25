@@ -33,12 +33,3 @@ In particular, the model exhibits {{< knowl id="phase-transition-gibbs" section=
 - **Spontaneous magnetization:** $\mu^{+}(\sigma_0)>0$ (and similarly $\mu^{-}(\sigma_0)<0$).
 - **Non-uniqueness of Gibbs measures:** there are multiple infinite-volume Gibbs states, typically extremal ones {{< knowl id="extremal-gibbs-measure" section="stat-mech-lattice" text="extremal Gibbs measures" >}} corresponding to $+$ and $-$ phases.
 
-## Proof idea / significance (sketch)
-
-Work in a finite box $\Lambda$ with plus boundary condition. If $\sigma_0=-1$, then the cluster of $-$ spins containing the origin must be surrounded by an interface separating $-$ from $+$ spins. This interface can be encoded as a contour (in $d=2$) or a closed surface (in $d\ge 3$). Flipping all spins inside the contour changes the energy by at least a constant times the contour size, giving a weight ratio bounded by an exponential factor like $e^{-2\beta J|\Gamma|}$.
-
-The remaining ingredient is **counting**: the number of distinct contours of size $n$ grows at most exponentially in $n$. Therefore the total probability that there exists a contour surrounding the origin is bounded by a geometric series
-$\sum_{n\ge n_0} (\text{const})^n e^{-2\beta J n}$,
-which converges for $\beta$ large. This implies $\mu_{\Lambda}^{+}(\sigma_0=-1)$ is small uniformly in $\Lambda$, forcing a positive limiting magnetization and hence coexistence of distinct infinite-volume phases.
-
-Peierls’ argument is the classical mechanism behind low-temperature symmetry breaking in the Ising model.

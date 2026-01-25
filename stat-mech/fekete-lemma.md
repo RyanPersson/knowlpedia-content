@@ -36,16 +36,4 @@ $$
 - The “specific value” $a_n/n$ has a well-defined asymptotic limit under subadditivity, computable as an infimum.
 - The analogous “specific value” $b_n/n$ has a limit under superadditivity, computable as a supremum.
 
-## Proof idea / significance
-Fix $n$ and write $m=qn+r$ with $0\le r<n$. Subadditivity gives
-$$
-a_m \le q\,a_n + a_r,
-$$
-hence
-$$
-\frac{a_m}{m}\le \frac{q\,a_n}{qn+r}+\frac{a_r}{qn+r}.
-$$
-
-Letting $m\to\infty$ (so $q\to\infty$) yields $\limsup_{m\to\infty} a_m/m \le a_n/n$. Since $n$ is arbitrary, $\limsup \le \inf_n a_n/n$, while the reverse inequality $\inf_n a_n/n \le \liminf a_n/n$ is immediate from the definition of infimum, forcing the limit to exist and equal the infimum.
-
 Thermodynamic significance: Fekete’s lemma is the standard mechanism behind existence of thermodynamic limits derived from {{< knowl id="subadditivity-partition-function" section="thermodynamics" text="subadditivity of log partition functions" >}} and {{< knowl id="superadditivity-entropy" section="thermodynamics" text="superadditivity of entropy" >}}. Concretely, it underpins results like {{< knowl id="thermodynamic-limit-pressure-existence" section="thermodynamics" text="existence of the thermodynamic-limit pressure" >}}, where $a_n$ is typically (minus) $\log Z$ for a finite system and the limit defines the intensive {{< knowl id="pressure-lattice" section="stat-mech-lattice" text="pressure" >}} (or free-energy density).

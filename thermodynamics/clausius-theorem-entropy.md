@@ -43,8 +43,3 @@ which is the {{< knowl id="clausius-inequality" section="thermodynamics" text="C
 - Mathematical structure (exactness/integrating factors): {{< knowl id="exact-differential-criterion" section="stat-mech" text="exact differential criterion" >}} and {{< knowl id="integrating-factor-lemma" section="stat-mech" text="integrating factor lemma" >}}.
 - Engine viewpoint connection: {{< knowl id="carnot-theorem" section="stat-mech" text="Carnot theorem" >}}.
 
-## Proof idea / significance
-
-**Idea (from Carnot cycles).** Using {{< knowl id="carnot-theorem" section="stat-mech" text="Carnot’s theorem" >}}, one shows that for reversible processes between fixed endpoint states, the quantity $\int \delta Q_{\mathrm{rev}}/T$ is independent of the chosen reversible path. Path independence implies the existence of a state function whose differential along reversible paths is $\delta Q_{\mathrm{rev}}/T$. Extending to arbitrary cycles yields the inequality form.
-
-**Significance.** Clausius’ theorem is the precise bridge from the operational second law (impossibility statements) to a new state function, entropy, which then organizes equilibrium thermodynamics, stability criteria, and the construction of thermodynamic potentials.

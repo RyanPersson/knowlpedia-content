@@ -37,10 +37,3 @@ $$
 - Convexity pulls outside expectations: $\varphi(\mathbb E[X]) \le \mathbb E[\varphi(X)]$.
 - If $\varphi$ is strictly convex (and mild regularity/“non-degenerate support” assumptions hold), equality forces $X$ to be almost surely constant.
 
-## Proof idea / significance
-
-A standard proof uses supporting hyperplanes: convexity implies that at the point $\mathbb E[X]$ there exists a subgradient $g$ such that
-$\varphi(y) \ge \varphi(\mathbb E[X]) + g\cdot (y-\mathbb E[X])$ for all $y\in I$.
-Substitute $y=X(\omega)$ and take expectations; the linear term vanishes because $\mathbb E[X-\mathbb E[X]]=0$.
-
-In statistical mechanics, Jensen’s inequality is a basic engine behind entropy/variational bounds, including {{< knowl id="gibbs-inequality-lemma" text="Gibbs' inequality" >}} and exponential-moment bounds such as {{< knowl id="chernoff-bounding-lemma" text="Chernoff bounds" >}}.

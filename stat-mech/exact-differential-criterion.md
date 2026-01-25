@@ -33,13 +33,3 @@ $$
   - identification of state functions like {{< knowl id="internal-energy-thermo" section="thermodynamics" text="internal energy" >}} and {{< knowl id="thermodynamic-entropy" section="thermodynamics" text="entropy" >}};
   - derivations of {{< knowl id="maxwell-relation" section="thermodynamics" text="Maxwell relations" >}} (see {{< knowl id="maxwell-relations-theorem" section="thermodynamics" text="Maxwell relations theorem" >}} and {{< knowl id="prop-maxwell-from-mixed-partials" text="Maxwell from mixed partials" >}}).
 
-## Proof idea / significance
-- “Exact $\Rightarrow$ mixed partials equal” follows immediately from Clairaut’s theorem: if $M=\partial_x F$ and $N=\partial_y F$ with $F\in C^2$, then $\partial_y M=\partial_{yx}F=\partial_{xy}F=\partial_x N$.
-- “Mixed partials equal $\Rightarrow$ exact” can be shown by defining
-  $$
-  F(x,y)=\int_{\gamma}\omega,
-  $$
-
-  where $\gamma$ is any path from a fixed base point to $(x,y)$, and using simple connectedness plus the mixed-partial condition to prove path-independence.
-
-Thermodynamic significance: checking exactness (or exactness after an integrating factor; see {{< knowl id="integrating-factor-lemma" text="integrating factor lemma" >}}) is the mathematical core of turning differential heat/work statements into state functions and potentials consistent with the {{< knowl id="first-law-thermodynamics" section="thermodynamics" text="first law" >}} and {{< knowl id="second-law-thermodynamics" section="thermodynamics" text="second law" >}}.

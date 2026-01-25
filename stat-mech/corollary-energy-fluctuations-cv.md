@@ -32,9 +32,3 @@ where $C_V = \left(\frac{\partial \langle H\rangle}{\partial T}\right)_{V,N}$ is
 - {{< knowl id="canonical-energy-fluctuation-identity" text="canonical energy fluctuation identity" >}}
 - {{< knowl id="heat-capacity-constant-volume" section="thermodynamics" text="definition of C_V" >}}
 
-## Proof idea / significance
-Differentiate $\log Z(\beta)$:
-- First derivative gives the mean energy, $\langle H\rangle_\beta = -\partial_\beta \log Z(\beta)$.
-- Second derivative yields $\partial_\beta^2 \log Z(\beta)=\operatorname{Var}_\beta(H)$.
-Convert $\partial/\partial\beta$ to $\partial/\partial T$ using $\beta=1/(k_B T)$ to obtain $\operatorname{Var}_\beta(H)=k_B T^2 C_V$.
-This is the basic “fluctuation–response” relation for energy.

@@ -33,23 +33,4 @@ This is the converse direction to {{< knowl id="gibbs-kms-theorem" text="Gibbs i
 - In particular, for fixed $(H,\beta)$ the $\beta$-KMS state is **unique** on $\mathcal B(\mathcal H)$.
 - Shifting $H\mapsto H+cI$ does not change $\omega$ (the constant cancels in normalization).
 
-## Proof idea / significance
-Write $\omega(A)=\operatorname{Tr}(\rho A)$ for a density matrix $\rho$.
-
-1. Apply the KMS identity with $A=I$ to get $\omega(\alpha_{i\beta}(B))=\omega(B)$ for all $B$ (analyticity is automatic in finite dimensions). In trace form this implies
-   $$
-   e^{\beta H}\rho e^{-\beta H}=\rho,
-   $$
-
-   hence $[\rho,H]=0$.
-
-2. Use the full KMS relation
-   $$
-   \operatorname{Tr}(\rho\,A\,e^{-\beta H}Be^{\beta H})=\operatorname{Tr}(\rho\,BA)
-   $$
-
-   and cyclicity of the trace (together with $[\rho,H]=0$) to show that $\rho e^{\beta H}$ commutes with every matrix, hence $\rho e^{\beta H}=cI$ for some scalar $c$.
-
-3. Therefore $\rho=c\,e^{-\beta H}$, and normalization $\operatorname{Tr}(\rho)=1$ fixes $c=\operatorname{Tr}(e^{-\beta H})^{-1}$.
-
 Significance: in finite volume, “equilibrium = KMS” is equivalent to “equilibrium = Gibbs”. This equivalence motivates using the KMS condition as the *definition* of equilibrium in infinite-volume quantum statistical mechanics, where Gibbs density matrices may not exist.

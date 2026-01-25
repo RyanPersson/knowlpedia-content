@@ -76,15 +76,3 @@ These are Maxwell relations (see {{< knowl id="maxwell-relation" section="thermo
 - {{< knowl id="temperature-thermo" section="thermodynamics" text="temperature" >}}, {{< knowl id="pressure-thermo" section="thermodynamics" text="pressure" >}}, {{< knowl id="chemical-potential-thermo" section="thermodynamics" text="chemical potential" >}}
 - {{< knowl id="exact-differential-criterion" text="exact differential criterion" >}}
 
-## Proof idea / significance
-
-Since $\Phi$ is a state function, $a_i=\partial\Phi/\partial x_i$. If $\Phi$ is $C^2$, then mixed derivatives commute:
-$$
-\frac{\partial}{\partial x_j}\left(\frac{\partial \Phi}{\partial x_i}\right)
-={}
-\frac{\partial}{\partial x_i}\left(\frac{\partial \Phi}{\partial x_j}\right).
-$$
-
-Identifying $a_i$ with (signed) conjugate variables via the differential (e.g. $-S$ is the coefficient of $dT$ in $dF$) yields the standard Maxwell relations.
-
-Significance: Maxwell relations are consistency conditions expressing the integrability of thermodynamics, and they underpin many experimentally useful identities.

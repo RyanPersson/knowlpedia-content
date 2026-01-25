@@ -50,22 +50,4 @@ $$
 $$
 consistent with {{< knowl id="second-law-thermodynamics" section="thermodynamics" text="the second law" >}} and the role of dissipation.
 
-## Proof idea (path probabilities; sketch)
-
-A standard route compares the probability of a **forward trajectory** $\Gamma$ to its time-reversed counterpart $\tilde\Gamma$ under the reverse protocol:
-1. Use microreversibility plus local detailed balance (or Hamiltonian time-reversal symmetry for system+bath) to relate the ratio of path probabilities to entropy flow into the bath.
-2. Identify the bath entropy flow with $\beta Q$ (heat $Q$ absorbed by the bath), and combine with the first-law form $W = \Delta E + Q$.
-3. Use equilibrium initial distributions to produce the boundary term $-\beta\Delta F$, yielding a relation of the form
-   $$
-   \frac{\mathbb P_F(\Gamma)}{\mathbb P_R(\tilde\Gamma)} = e^{\beta(W(\Gamma)-\Delta F)}.
-   $$
-4. Push forward from trajectories to work values to obtain the work-distribution identity above.
-
 Information-theoretic refinements often express average dissipation as a relative entropy between forward and reverse path measures (see {{< knowl id="relative-entropy-kl-divergence" section="probability" text="relative entropy (KL divergence)" >}}).
-
-## Prerequisites (minimal)
-
-- Equilibrium ensembles and free energy: {{< knowl id="canonical-ensemble" section="stat-mech" text="canonical ensemble" >}}, {{< knowl id="helmholtz-free-energy" section="thermodynamics" text="Helmholtz free energy" >}}.
-- Nonequilibrium work notions: {{< knowl id="work-distribution-nonequilibrium" text="work distribution" >}}.
-- Microscopic reversibility / balance conditions: {{< knowl id="detailed-balance" text="detailed balance" >}}.
-- Basic probability language: {{< knowl id="probability-measure" section="probability" text="probability measure" >}}, {{< knowl id="expectation" section="probability" text="expectation" >}}.

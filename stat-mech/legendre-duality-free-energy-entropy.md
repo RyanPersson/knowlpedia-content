@@ -35,7 +35,3 @@ with $s^{**}=s$ whenever $s$ is concave and upper semicontinuous (see {{< knowl 
 - Canonical side: {{< knowl id="canonical-ensemble" section="stat-mech" text="canonical ensemble" >}}, {{< knowl id="partition-function-canonical" section="stat-mech" text="partition function" >}}, {{< knowl id="free-energy-statistical" section="stat-mech" text="statistical free energy" >}}.
 - Convex analysis: {{< knowl id="legendre-transform" section="convex-analysis" text="Legendre transform" >}}, {{< knowl id="convex-conjugate-fenchel" section="convex-analysis" text="Fenchel conjugate" >}}, {{< knowl id="fenchel-moreau-theorem" section="convex-analysis" text="Fenchel–Moreau theorem" >}}.
 
-## Proof idea / significance
-The canonical partition function is a Laplace transform of the microcanonical density of states. In the thermodynamic limit, Laplace-type asymptotics (a “Laplace principle”) turn $\frac{1}{N}\log Z_N(\beta)$ into a supremum of $s(u)-\beta u$, yielding the transform. The inverse transform follows from general biconjugation results (Fenchel–Moreau) once the correct convex/concave conventions are applied.
-
-This duality is the formal backbone behind passing between energy-controlled and temperature-controlled descriptions of equilibrium.

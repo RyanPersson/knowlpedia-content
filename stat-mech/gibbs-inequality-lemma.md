@@ -36,8 +36,4 @@ with equality iff $p_i=q_i$ for all $i$.
 - Nonnegativity: $D(P\|Q)\ge 0$.
 - Rigidity of equality: $D(P\|Q)=0$ iff the two measures coincide.
 
-## Proof idea / significance
-
-A common proof is a one-line application of {{< knowl id="jensen-inequality-lemma" text="Jensen's inequality" >}} to the convex function $x\mapsto x\log x$ (or to $x\mapsto -\log x$ after normalization). Another elementary route uses the pointwise inequality $\log x \le x-1$, applied to $x=\frac{dQ}{dP}$ on the set where $P$ has mass.
-
 In statistical mechanics, Gibbs’ inequality underlies “maximum entropy” and free-energy variational principles; it is a measure-theoretic form of the statement that the Gibbs distribution minimizes free energy (or equivalently maximizes entropy subject to constraints).

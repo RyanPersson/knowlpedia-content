@@ -32,7 +32,3 @@ $$
 - Accurate leading-order and next-order asymptotics for $n!$ and $\log(n!)$.
 - Enables asymptotics for multinomial coefficients; e.g. leading terms produce entropy-like functionals.
 
-## Proof idea / significance
-One proof route uses integral bounds for $\log(n!)=\sum_{k=1}^n \log k$ compared to $\int_1^n \log x\,dx$, plus a refinement (e.g. Euler–Maclaurin) to obtain the $\tfrac12\log n$ correction and the constant $\sqrt{2\pi}$. Another route uses $\Gamma(n+1)=\int_0^\infty t^n e^{-t}\,dt$ and applies a Laplace/saddle-point argument (see {{< knowl id="saddle-point-lemma" text="saddle-point asymptotics" >}}).
-
-In statistical mechanics, Stirling’s formula converts factorial growth in state counting (e.g. indistinguishable particles, multinomial occupations) into extensive terms of order $n$ plus subextensive corrections. This is one mechanism by which entropy densities emerge from microscopic counting.

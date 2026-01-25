@@ -39,8 +39,3 @@ $$
 - {{< knowl id="large-deviation-equilibrium" text="large-deviation characterization of equilibrium" >}}
 - {{< knowl id="large-deviation-principle" section="large-deviations" text="large deviation principle" >}}
 
-## Proof idea / significance
-Combine $\operatorname{Var}(H_N)=k_B T^2 C_V(N)$ (from {{< knowl id="corollary-energy-fluctuations-cv" text="energy–C_V fluctuations" >}}) with extensivity:
-$C_V(N)=\Theta(N)$ and $\langle H_N\rangle=\Theta(N)$ imply
-$\sqrt{\operatorname{Var}(H_N)}=\Theta(\sqrt{N})$ while the mean is $\Theta(N)$, giving a $1/\sqrt{N}$ relative scale.
-This is one of the simplest “thermodynamic limit = law of large numbers” statements in equilibrium statistical mechanics.

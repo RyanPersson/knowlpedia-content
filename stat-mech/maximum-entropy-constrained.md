@@ -35,8 +35,6 @@ Z(\lambda)=\int \exp\!\Big(-\sum_{i=1}^k \lambda_i f_i(x)\Big)\,d\mu.
 - Probability framework: {{< knowl id="probability-measure" section="probability" text="probability measure" >}}, {{< knowl id="expectation" section="probability" text="expectation" >}}.
 - Entropy/divergence: {{< knowl id="shannon-entropy" section="probability" text="Shannon entropy" >}}, {{< knowl id="relative-entropy-kl-divergence" section="probability" text="relative entropy (KL divergence)" >}}.
 - Statistical mechanics: {{< knowl id="canonical-ensemble" section="stat-mech" text="canonical ensemble" >}}, {{< knowl id="partition-function-canonical" section="stat-mech" text="partition function" >}}.
-
-## Proof idea / significance
 Use Lagrange multipliers for the constrained optimization of the strictly concave functional $S(p)$ over an affine slice of densities. Stationarity of
 \[
 S(p) - \alpha\Big(\int p\,d\mu-1\Big)-\sum_i \lambda_i\Big(\int f_i p\,d\mu-c_i\Big)

@@ -28,5 +28,3 @@ $$
 - {{< knowl id="partition-function-canonical" section="stat-mech" text="Canonical partition function" >}}
 - {{< knowl id="free-energy-statistical" section="stat-mech" text="Statistical free energy" >}}
 
-## Proof idea / significance
-Start from $F=-(1/\beta)\log Z$. Differentiating in $V$ gives $-(\partial F/\partial V)_\beta = (1/\beta)\,(\partial_V \log Z)_\beta$. This identity is one of the main “thermodynamic observables from $Z$” formulas, paralleling {{< knowl id="canonical-energy-identity" text="the energy identity" >}} for $\langle H\rangle_\beta$.

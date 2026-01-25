@@ -34,5 +34,3 @@ If $s(u)$ is not concave (e.g. due to phase coexistence or long-range interactio
 - Entropy/free energy: {{< knowl id="boltzmann-entropy-microcanonical" section="stat-mech" text="Boltzmann entropy" >}}, {{< knowl id="free-energy-statistical" section="stat-mech" text="statistical free energy" >}}, {{< knowl id="legendre-duality-free-energy-entropy" text="entropy–free energy duality" >}}.
 - Large deviations: {{< knowl id="large-deviation-principle" section="large-deviations" text="LDP" >}}, {{< knowl id="large-deviation-equilibrium" text="large-deviation characterization of equilibrium" >}}.
 
-## Proof idea / significance
-The canonical ensemble is a mixture over energies; when the energy satisfies a large-deviation principle with strictly concave entropy, the mixture concentrates exponentially near the unique maximizer of $s(u)-\beta u$. This concentration forces expectations of suitably regular observables to match those under the microcanonical ensemble at the corresponding energy. The concavity requirement is exactly what guarantees that the Legendre transform correctly inverts and that no “hidden” nonconcave branches appear.

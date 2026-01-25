@@ -46,13 +46,5 @@ In thermodynamics, this “swap” is the mechanism behind passing from the {{< 
 - {{< knowl id="temperature-thermo" section="thermodynamics" text="temperature" >}}, {{< knowl id="pressure-thermo" section="thermodynamics" text="pressure" >}}, {{< knowl id="chemical-potential-thermo" section="thermodynamics" text="chemical potential" >}}
 - {{< knowl id="helmholtz-free-energy" section="thermodynamics" text="Helmholtz free energy" >}}, {{< knowl id="gibbs-free-energy" section="thermodynamics" text="Gibbs free energy" >}}, {{< knowl id="grand-potential" section="thermodynamics" text="grand potential" >}}
 
-## Proof idea / significance
-
-Differentiate $Y=X-px$:
-$$
-dY = dX - p\,dx - x\,dp.
-$$
-
-Using $p=(\partial X/\partial x)_y$ gives $dX = p\,dx + \sum_i (\partial X/\partial y_i)_x\,dy_i$, so the $p\,dx$ terms cancel and the claimed form of $dY$ follows.
-
 Significance: the Legendre transform produces potentials whose natural variables match common experimental controls (e.g. fixing $T$ rather than $S$), while preserving access to the conjugate extensive quantities through derivatives (e.g. $S=-\partial F/\partial T$ at fixed $V,N$).
+

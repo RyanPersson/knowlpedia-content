@@ -23,7 +23,3 @@ $$
   $\partial_\mu\langle N\rangle = \beta\,\mathrm{Var}(N)$.
 - This is the particle-number analog of canonical fluctuation identities (compare {{< knowl id="prop-fluctuation-response-equivalence" text="fluctuation–response equivalence" >}}).
 
-## Proof idea / significance
-From $\partial_\mu\ln\Xi=\beta\langle N\rangle$ (see {{< knowl id="prop-grand-canonical-particle-number" section="thermodynamics" text="grand-canonical particle number identity" >}}), differentiate once more in $\mu$:
-$\partial_\mu^2\ln\Xi = \beta\,\partial_\mu\langle N\rangle$.
-A direct differentiation of the expectation also gives $\partial_\mu\langle N\rangle=\beta\,\mathrm{Var}(N)$ by the same covariance algebra as in the canonical case. This connects compressibility-like responses to equilibrium density fluctuations.

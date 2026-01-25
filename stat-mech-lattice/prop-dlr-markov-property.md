@@ -27,5 +27,3 @@ Moreover, if the interaction has finite range (e.g. nearest-neighbor), then $\ga
 - Conditionals are local: the law inside $\Lambda$ given outside is the corresponding finite-volume Gibbs law with boundary condition induced by $\sigma_{\Lambda^c}$.
 - For finite-range interactions, conditioning on the entire exterior is equivalent to conditioning on finitely many boundary spins (a Markov-type locality statement).
 
-## Proof idea / significance
-The first identity is exactly the content of the {{< knowl id="dlr-equation" section="stat-mech-lattice" text="DLR equation" >}}: it states that $\mu$ is consistent with the specification $\gamma$ for all finite regions. The “boundary-only” refinement follows because, for finite-range interactions, the energy coupling between $\Lambda$ and $\Lambda^c$ involves only spins near $\partial\Lambda$, so the conditional weights inside $\Lambda$ depend on the outside only through that neighborhood.

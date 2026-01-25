@@ -58,7 +58,7 @@ which is the imaginary-time “$\beta$-periodicity” relation (a shift by $i\be
 - In finite quantum systems, the standard equilibrium state is the {{< knowl id="gibbs-state-quantum" section="stat-mech-quantum" text="quantum Gibbs state" >}} written via a {{< knowl id="density-operator" section="quantum-foundations" text="density operator" >}} and the {{< knowl id="quantum-partition-function" section="stat-mech-quantum" text="quantum partition function" >}}.
 - The identification “Gibbs state $\Rightarrow$ KMS” is commonly packaged as {{< knowl id="gibbs-kms-theorem" text="Gibbs–KMS theorem" >}} (and converses as {{< knowl id="kms-gibbs-converse" text="KMS–Gibbs converse" >}} in settings where it holds).
 
-## Proof idea / significance
+## significance
 
 **Finite-dimensional (Gibbs) case.**  
 Let $H$ be the Hamiltonian and $\tau_t(B)=e^{itH}Be^{-itH}$. Let $\rho_\beta=e^{-\beta H}/Z_\beta$ be the Gibbs density operator ({{< knowl id="gibbs-state-quantum" section="stat-mech-quantum" text="Gibbs state" >}}), and define

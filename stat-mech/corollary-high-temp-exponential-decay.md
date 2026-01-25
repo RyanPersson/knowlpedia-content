@@ -33,6 +33,3 @@ In particular, the {{< knowl id="correlation-function-two-point" section="stat-m
 - {{< knowl id="exponential-decay-correlations-uniqueness" text="exponential decay from uniqueness theorem" >}}
 - {{< knowl id="dobrushin-uniqueness-theorem" text="Dobrushin uniqueness theorem" >}}
 
-## Proof idea / significance
-In Dobrushin’s approach, one shows that conditional distributions form a contraction in an appropriate metric; the influence of boundary conditions at distance $r$ decays like $e^{-mr}$. This converts directly into an exponential bound on covariances of local observables. In cluster expansion regimes, exponential decay follows from exponential summability of connected polymer contributions.
-Exponential decay is a quantitative expression of “high temperature = strong mixing.”

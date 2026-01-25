@@ -61,6 +61,3 @@ $$
 - Internal energy: {{< knowl id="internal-energy-thermo" section="thermodynamics" text="internal energy" >}}.
 - Stability conditions: {{< knowl id="thermodynamic-stability" section="thermodynamics" text="thermodynamic stability" >}}.
 
-## Proof idea / significance (sketch)
-
-Maximize $S_{\mathrm{tot}}$ with respect to $N_1$ subject to $N_2=N_{\mathrm{tot}}-N_1$. Stationarity gives equality of the derivatives $(\partial S/\partial N)_{U,V}$ across subsystems, which equals $-\mu/T$. Hence $\mu_1/T_1=\mu_2/T_2$, and with thermal equilibrium this reduces to $\mu_1=\mu_2$. This is the thermodynamic basis for chemical potential as the intensive variable that equalizes under diffusive contact.

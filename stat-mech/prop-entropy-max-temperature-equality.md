@@ -55,16 +55,3 @@ $$
 - Internal energy: {{< knowl id="internal-energy-thermo" section="thermodynamics" text="internal energy" >}}.
 - Stability/concavity viewpoint: {{< knowl id="thermodynamic-stability" section="thermodynamics" text="thermodynamic stability" >}}.
 
-## Proof idea / significance (sketch)
-
-Maximize $S_{\mathrm{tot}}(U_1)$ subject to $U_2=U_{\mathrm{tot}}-U_1$. At an interior maximizer,
-$$
-\frac{dS_{\mathrm{tot}}}{dU_1}
-={}
-\left(\frac{\partial S_1}{\partial U_1}\right)_{V_1,N_1}
--{}
-\left(\frac{\partial S_2}{\partial U_2}\right)_{V_2,N_2}
-=0.
-$$
-
-Identifying $(\partial S/\partial U)_{V,N}$ with $1/T$ yields $T_1=T_2$. This is the thermodynamic origin of temperature as the intensive parameter that equalizes under thermal contact.

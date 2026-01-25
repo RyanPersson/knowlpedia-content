@@ -19,6 +19,3 @@ Common equivalent operational readings include:
 - $T=0$ is a limit point that cannot be attained by finite operations starting from $T>0$.
 - The approach to $T=0$ is constrained even if entropy decreases are allowed via heat extraction; in particular, the ability to use Carnot-like refrigeration cycles is limited as the cold temperature decreases (compare {{< knowl id="carnot-theorem" text="Carnot theorem" >}} and {{< knowl id="carnot-efficiency-formula" text="Carnot efficiency formula" >}}).
 
-## Proof idea / significance
-A standard route links unattainability to the second law through refrigeration/Carnot-cycle reasoning: extracting heat from an ever-colder reservoir while maintaining consistency with entropy production becomes increasingly “costly,” forcing an infinite limiting procedure as $T\to 0$.  
-Conceptually, unattainability is one of the main operational formulations of the third law; it complements entropy-based formulations (e.g., limits of {{< knowl id="thermodynamic-entropy" section="thermodynamics" text="entropy" >}} as $T\to 0$) by focusing on what can be achieved by physical processes rather than equilibrium state functions alone.

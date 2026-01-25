@@ -42,11 +42,3 @@ Equivalently, all covariances of spin monomials are nonnegative.
 - **Positive correlations:** $\mathrm{Cov}_\Lambda(\sigma_A,\sigma_B)\ge 0$ for all $A,B$.
 - **Monotonicity (useful corollary):** differentiating expectations with respect to fields/couplings yields covariances, so Griffiths II implies monotonicity of $\langle\sigma_A\rangle_\Lambda$ in the parameters (a basic “ferromagnets align more when you increase $J$ or $h$” principle).
 
-## Proof idea / significance
-
-A common route is to express derivatives of the pressure $\log Z_\Lambda$ (see {{< knowl id="pressure-lattice" section="stat-mech-lattice" text="pressure" >}}) in terms of truncated correlations and then prove these derivatives are nonnegative using ferromagnetic structure (e.g. random-current/high-temperature expansions or correlation-inequality arguments). In practice, Griffiths inequalities are often obtained as consequences of the stronger {{< knowl id="gks-inequalities" text="GKS inequalities" >}} (and, for monotone observables, the {{< knowl id="fkg-inequality" text="FKG inequality" >}}).
-
-They are foundational for:
-- comparison/monotonicity arguments in boundary conditions and fields,
-- establishing existence and order properties of infinite-volume limits (see {{< knowl id="infinite-volume-gibbs-measure" section="stat-mech-lattice" text="infinite-volume Gibbs measures" >}}),
-- proving bounds on correlation functions (see {{< knowl id="correlation-function-two-point" section="stat-mech" text="two-point correlations" >}}).

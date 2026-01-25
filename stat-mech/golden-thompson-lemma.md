@@ -28,12 +28,3 @@ If $A$ and $B$ commute, then $e^{A+B}=e^{A}e^{B}$ and equality holds.
 - A fundamental bound for trace exponentials: $\operatorname{Tr}(e^{A+B}) \le \operatorname{Tr}(e^{A}e^{B})$.
 - Equality when $[A,B]=0$.
 
-## Proof idea / significance
-
-One classical approach uses the Lie–Trotter product formula:
-$$
-e^{A+B} = \lim_{n\to\infty}\big(e^{A/n}e^{B/n}\big)^n
-$$
-and combines it with trace inequalities (e.g. Hölder-type bounds for Schatten norms) to pass to the trace and obtain the stated inequality.
-
-In quantum statistical mechanics, the lemma is a workhorse for bounding partition functions of sums of noncommuting terms and for establishing convexity/subadditivity properties of free energy. It is frequently used as an ingredient in the {{< knowl id="peierls-bogoliubov-inequality" text="Peierls–Bogoliubov inequality" >}} and related variational estimates.

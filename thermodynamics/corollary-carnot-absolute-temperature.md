@@ -30,5 +30,3 @@ i.e. the {{< knowl id="carnot-efficiency-formula" section="stat-mech" text="Carn
 - For reversible engines, the heat ratio $Q_H/Q_C$ depends only on the reservoir temperatures.
 - This defines an **absolute temperature** scale (Kelvin scale) up to the choice of units.
 
-## Proof idea / significance
-Compare reversible engines between different pairs of reservoirs and compose cycles (running one engine in reverse as a heat pump). Carnot universality forces a multiplicative functional equation for reversible heat ratios, implying the existence of a function $T$ with $Q_H/Q_C = T_H/T_C$. Choosing temperature units fixes the overall multiplicative constant. This is the thermodynamic origin of “absolute” temperature.

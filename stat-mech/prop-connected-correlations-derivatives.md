@@ -46,5 +46,3 @@ More generally, if one introduces sources $\boldsymbol{\lambda}=(\lambda_1,\dots
   $$
 - This packages many “susceptibility = fluctuation” statements, including {{< knowl id="prop-susceptibility-variance-magnetization" text="susceptibility–variance for magnetization" >}} as a special case.
 
-## Proof idea / significance
-Write $\langle B\rangle_\lambda=\frac{1}{Z(\lambda)}\sum B\,e^{-\beta(H_0-\lambda A)}$ (or the analogous integral). Differentiate using the product/quotient rule: one term differentiates the numerator (producing $\beta\langle AB\rangle_\lambda$) and one term differentiates $\log Z(\lambda)$ (subtracting $\beta\langle A\rangle_\lambda\langle B\rangle_\lambda$). This is the basic mechanism behind fluctuation–response and generating-function methods.

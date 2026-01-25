@@ -34,5 +34,3 @@ then equilibrium macrostates maximize $S(m)-\beta\Phi(m)$ (a “maximum entropy 
 - Large deviations: {{< knowl id="large-deviation-principle" section="large-deviations" text="large deviation principle" >}}, {{< knowl id="rate-function" section="large-deviations" text="rate function" >}}, {{< knowl id="varadhans-lemma" section="large-deviations" text="Varadhan’s lemma" >}}.
 - Statistical mechanics context: {{< knowl id="canonical-ensemble" section="stat-mech" text="canonical ensemble" >}}, {{< knowl id="free-energy-statistical" section="stat-mech" text="free energy (statistical)" >}}.
 
-## Proof idea / significance
-The LDP upper/lower bounds imply that any neighborhood not containing minimizers of $I$ has exponentially small probability, forcing concentration near $\arg\min I$. When a partition function or moment generating object is present, Varadhan’s lemma converts logarithmic asymptotics of integrals into a supremum over $\mathcal M$, yielding the variational characterization of equilibrium.

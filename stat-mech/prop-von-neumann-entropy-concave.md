@@ -21,17 +21,4 @@ $$
 ## Key conclusion
 - The map $\rho \mapsto S(\rho)$ is **concave** on the convex set of density operators. In particular, classical randomization (“forgetting which state was prepared”) cannot decrease entropy.
 
-## Proof idea / significance
-A standard route uses {{< knowl id="prop-quantum-relative-entropy-monotone" text="monotonicity of quantum relative entropy" >}}.
-
-Introduce a classical register $X$ with orthonormal basis $\{|i\rangle\}$ and form the block-diagonal (classical–quantum) state
-$\omega_{XQ} = \sum_i p_i\, |i\rangle\langle i| \otimes \rho_i$,
-whose $Q$-marginal is $\omega_Q = \bar\rho$. One then checks the identity
-$$
-S(\bar\rho) - \sum_i p_i S(\rho_i)
-= D\!\left(\omega_{XQ}\,\|\, \omega_X \otimes \omega_Q\right),
-$$
-
-where $D(\cdot\|\cdot)$ denotes quantum relative entropy. The right-hand side is nonnegative, yielding the concavity inequality.
-
 Thermodynamically, this expresses the idea that coarse-graining or mixing increases uncertainty: entropy is increased by ignoring classical information about the preparation.

@@ -29,7 +29,7 @@ In particular, for single-site observables (e.g. spins), the {{< knowl id="corre
 - **Stability under boundary conditions:** local expectations are exponentially insensitive to far-away boundary perturbations (a strong form of uniqueness).
 - **No phase coexistence in this regime:** exponential decay is incompatible with symmetry-breaking coexistence typical of {{< knowl id="phase-transition-gibbs" section="stat-mech-lattice" text="phase transitions" >}}.
 
-## Proof idea / significance (sketch)
+## significance
 
 Dobrushin’s comparison method bounds how changing a boundary condition at site $j$ influences the conditional distribution at site $i$, and then propagates this bound along paths in the lattice via the interdependence matrix $(C_{ij})$. When $\alpha<1$, influences contract and admit an expansion whose coefficients decay exponentially in graph distance. Converting “influence decay” into a covariance estimate yields the stated exponential bound.
 

@@ -30,5 +30,3 @@ with $\mathrm{Cov}_g(A,B)=\langle AB\rangle_g-\langle A\rangle_g\langle B\rangle
 - Response (a derivative of a mean) equals a fluctuation (variance/covariance).
 - Susceptibilities are variances/covariances; e.g. a linear susceptibility is a special case of {{< knowl id="susceptibility-stat-mech" section="stat-mech" text="susceptibility" >}}.
 
-## Proof idea / significance
-Write $\langle A\rangle_h = Z(h)^{-1}\,\mathrm{Tr}\!\left(Ae^{-\beta H_h}\right)$ (or the corresponding phase-space integral), with $Z(h)$ the partition function. Differentiate numerator and denominator in $h$ and use the product rule. The cancellation produces a covariance. This is the basic bridge between measurable responses and equilibrium fluctuations.

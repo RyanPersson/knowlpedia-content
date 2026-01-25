@@ -42,8 +42,5 @@ where $\mathbb{E}_\mu[\cdot]$ denotes expectation (see {{< knowl id="expectation
 
 For the ferromagnetic {{< knowl id="ising-model" section="stat-mech-lattice" text="Ising model" >}} (and more generally many attractive lattice systems), the {{< knowl id="finite-volume-gibbs-measure" section="stat-mech-lattice" text="finite-volume Gibbs measure" >}} satisfies the FKG lattice condition when the couplings are ferromagnetic ($J_{ij}\ge 0$). In that setting, the FKG inequality yields positivity of correlations for *increasing* observables, and it is a standard tool for proving existence and ordering of infinite-volume Gibbs states (see {{< knowl id="infinite-volume-gibbs-measure" section="stat-mech-lattice" text="infinite-volume Gibbs measures" >}} and {{< knowl id="phase-transition-gibbs" section="stat-mech-lattice" text="phase transitions" >}}).
 
-## Proof idea / significance
-
-The original proof proceeds by induction on $|\Lambda|$, reducing the inequality to a two-point inequality using conditional measures and the lattice condition. Conceptually, log-supermodularity is a discrete analogue of log-convexity that forces “alignment”: raising some coordinates makes increasing observables tend to increase together.
-
 In statistical mechanics, FKG is one of the main correlation-inequality engines, complementary to the more model-specific {{< knowl id="gks-inequalities" text="GKS inequalities" >}} and {{< knowl id="griffiths-inequalities" text="Griffiths inequalities" >}}.
+

@@ -35,9 +35,3 @@ $$
 - **Nonnegativity:** choosing $\Phi$ to be a constant channel gives $0 = D(\Phi(\rho)\|\Phi(\sigma)) \le D(\rho\|\sigma)$, hence $D(\rho\|\sigma)\ge 0$.
 - The inequality implies standard entropy consequences such as {{< knowl id="prop-von-neumann-entropy-concave" text="concavity of the von Neumann entropy" >}}.
 
-## Proof idea / significance
-A common proof strategy is:
-1. **Stinespring dilation:** represent $\Phi(\cdot)=\mathrm{Tr}_E\!\big(U(\cdot\otimes\tau_E)U^\dagger\big)$ for an ancilla state $\tau_E$ and a unitary $U$.
-2. Use **unitary invariance** of $D$ and **monotonicity under partial trace** to reduce to the subsystem-discarding case.
-
-In statistical mechanics and thermodynamics of open quantum systems, data processing formalizes irreversibility: when one loses access to degrees of freedom, the relative entropy to a reference state (e.g. equilibrium) cannot increase, yielding many “second-law type” bounds.

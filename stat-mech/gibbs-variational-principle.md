@@ -46,6 +46,5 @@ $\langle H\rangle_\mu - T S(\mu) \ge F(\beta)$.
 - {{< knowl id="gibbs-entropy-shannon" section="stat-mech" text="Gibbs/Shannon entropy (stat mech)" >}}, {{< knowl id="shannon-entropy" section="probability" text="Shannon entropy (probability)" >}}
 - {{< knowl id="relative-entropy-kl-divergence" section="probability" text="Relative entropy (KL divergence)" >}}
 - {{< knowl id="free-energy-statistical" section="stat-mech" text="Statistical free energy" >}}
-
-## Proof idea / significance
+## significance
 Rewrite the functional at inverse temperature $\beta$ by adding and subtracting $\log Z(\beta)$, then identify the remaining term as a KL divergence using the density $\rho_\beta \propto e^{-\beta H}$. Nonnegativity of KL divergence (a form of {{< knowl id="gibbs-inequality-lemma" text="Gibbs inequality" >}}) yields the lower bound and characterizes the minimizer. This principle is the backbone of maximum-entropy and free-energy methods, and it underlies many convexity/duality results such as {{< knowl id="legendre-duality-free-energy-entropy" text="Legendre duality between free energy and entropy" >}}.

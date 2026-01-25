@@ -32,7 +32,6 @@ Then:
 - {{< knowl id="pressure-lattice" section="stat-mech-lattice" text="lattice pressure" >}}, {{< knowl id="partition-function-lattice" section="stat-mech-lattice" text="lattice partition function" >}}
 - {{< knowl id="thermodynamic-limit-pressure-existence" section="thermodynamics" text="existence of thermodynamic limit of the pressure" >}}
 - {{< knowl id="dobrushin-uniqueness-theorem" text="Dobrushin uniqueness theorem" >}}, {{< knowl id="corollary-high-temp-exponential-decay" text="high-temperature exponential decay" >}}
-
-## Proof idea / significance
+## significance
 Uniqueness plus strong mixing yields uniform control of boundary-condition influence. In regimes covered by a convergent expansion (Dobrushin method or cluster expansion), one obtains absolutely convergent series for $\log Z_\Lambda$ and for expectations of local observables, uniform in $\Lambda$. Passing to the limit gives analyticity of $p(\beta,\mathbf{h})$ and of correlation functions.
 This formalizes the slogan: **nonanalyticity requires nonuniqueness**.

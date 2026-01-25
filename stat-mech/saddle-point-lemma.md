@@ -39,9 +39,4 @@ Under higher smoothness assumptions on $f$ and $g$, one can obtain a full asympt
 - This yields a quantitative refinement of the Laplace principle:
   $\frac1n\log I_n \to f(x_0)$.
 
-## Proof idea / significance
-Expand $f$ near $x_0$:
-$f(x)=f(x_0)+\tfrac12 f''(x_0)(x-x_0)^2 + r(x)$,
-where $r(x)=o((x-x_0)^2)$. The main contribution to $I_n$ comes from a shrinking neighborhood of size $O(n^{-1/2})$ around $x_0$, on which $g(x)\approx g(x_0)$ and $r(x)$ is negligible compared to the quadratic term. After rescaling $y=\sqrt{n}(x-x_0)$, the integral reduces to a Gaussian integral, giving the stated prefactor. Contributions away from $x_0$ are exponentially smaller because $f(x)<f(x_0)$ there.
-
 In statistical mechanics, saddle-point estimates justify mean-field and variational approximations of partition functions (for example, after introducing an order parameter or via Hubbard–Stratonovich transforms) and they often explain the appearance of Gaussian fluctuations around equilibrium points.

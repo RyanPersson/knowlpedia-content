@@ -40,9 +40,10 @@ $$
   $S_{\Lambda_1\cup\Lambda_2}(E,\Delta)\ge \sup_{E_1+E_2=E}\big(S_{\Lambda_1}(E_1,\Delta)+S_{\Lambda_2}(E_2,\Delta)\big)$,
   which is a precursor to concavity of the entropy density.
 
-## Proof idea / significance
+## significance
 If $x_1$ is a microstate of subsystem 1 with energy in $[E_1,E_1+\Delta]$ and $x_2$ is a microstate of subsystem 2 with energy in $[E_2,E_2+\Delta]$, then the product state $(x_1,x_2)$ is a microstate of the composite system with energy in $[E_1+E_2,E_1+E_2+\Delta]$. This injective map from pairs of microstates to composite microstates gives the multiplicative lower bound on $\Omega$, and taking $\log$ yields superadditivity.
 
 For weakly interacting short-range systems, a variant holds **up to boundary corrections** (analogous to {{< knowl id="subadditivity-partition-function" text="subadditivity for the partition function" >}}): interactions across an interface contribute only $O(|\partial|)$ to the energy accounting, which is negligible per unit volume in the thermodynamic limit.
 
 Superadditivity (or approximate superadditivity) is a standard route to existence of an entropy density via the superadditive form of {{< knowl id="fekete-lemma" section="stat-mech" text="Fekete's lemma" >}}, and it underlies the concavity/stability properties expected of equilibrium entropy.
+

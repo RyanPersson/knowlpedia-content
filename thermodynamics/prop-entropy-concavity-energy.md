@@ -25,5 +25,3 @@ $$
 - If differentiable, $1/T = \partial S/\partial U$ with {{< knowl id="temperature-thermo" section="thermodynamics" text="temperature" >}} $T$; concavity implies $T$ is nondecreasing in $U$.
 - In particular, the {{< knowl id="heat-capacity-constant-volume" section="thermodynamics" text="heat capacity at constant volume" >}} satisfies $C_V=(\partial U/\partial T)_{V,N}\ge 0$ (a standard facet of {{< knowl id="thermodynamic-stability" section="thermodynamics" text="thermodynamic stability" >}}).
 
-## Proof idea / significance
-Consider two weakly interacting copies of the same system with total energy $U_{\mathrm{tot}}$ and fixed $(V,N)$ per copy. The second law asserts the equilibrium energy split maximizes total entropy $S(U_1)+S(U_{\mathrm{tot}}-U_1)$. This midpoint-maximization yields midpoint concavity, and hence full concavity by standard interpolation arguments. Concavity encodes stability: small energy exchanges do not decrease total entropy and response coefficients (like $C_V$) have the expected sign.

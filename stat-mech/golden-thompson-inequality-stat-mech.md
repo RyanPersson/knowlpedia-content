@@ -31,8 +31,7 @@ where $Z(\beta)$ is the {{< knowl id="quantum-partition-function" section="stat-
   $$
 
 - For decomposed Hamiltonians $H=H_1+H_2$, this yields an upper bound on $Z(\beta)$ and hence a lower bound on the corresponding free energy (via $F=-(1/\beta)\log Z$ as in {{< knowl id="free-energy-statistical" section="stat-mech" text="statistical free energy" >}}).
-
-## Proof idea / significance
+## significance
 A standard proof uses the Lie–Trotter product formula
 $$
 e^{A+B}=\lim_{n\to\infty}\left(e^{A/n}e^{B/n}\right)^n

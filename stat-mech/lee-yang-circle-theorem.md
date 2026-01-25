@@ -42,7 +42,6 @@ Equivalently, $Z_\Lambda(h)$ has no zeros for $\mathrm{Re}(h)\ne 0$.
 - **Analyticity for real nonzero field:** for real $h\ne 0$, $z$ is positive real and not on the unit circle, hence $Z_\Lambda(h)\ne 0$. Consequently the finite-volume pressure $\frac{1}{|\Lambda|}\log Z_\Lambda(h)$ is analytic in $h$ for real $h\ne 0$.
 - **Constraint on phase transitions:** any nonanalyticity in the thermodynamic limit as a function of real $h$ can only occur at $h=0$ (a key input into uniqueness/analyticity results; compare {{< knowl id="corollary-uniqueness-analyticity" text="uniqueness/analyticity corollary" >}}).
 
-## Proof idea / significance
 
 The theorem is proved by showing that the Ising partition function defines a polynomial with a strong stability property inherited from ferromagnetism. One classical approach uses inductive “contraction” arguments (e.g. Asano-type contractions) that preserve the zero-free region and ultimately force all zeros onto the unit circle.
 

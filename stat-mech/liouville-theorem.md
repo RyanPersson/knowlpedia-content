@@ -28,8 +28,7 @@ and the phase-space divergence of the Hamiltonian vector field is zero.
 ## Conclusions
 - Phase-space volume is conserved under time evolution: Hamiltonian dynamics is incompressible in phase space.
 - The induced invariant reference measure underlies equilibrium ensembles; for example, the {{< knowl id="microcanonical-measure" section="stat-mech" text="microcanonical measure" >}} is stationary under Hamiltonian time evolution (assuming energy is conserved and appropriate regularity/ergodic assumptions are treated separately).
-
-## Proof idea / significance
+## significance/proof
 Compute the divergence of the Hamiltonian vector field $(\dot q,\dot p)$:
 $$
 \nabla\cdot(\dot q,\dot p)

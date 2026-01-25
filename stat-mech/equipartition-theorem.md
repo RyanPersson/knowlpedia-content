@@ -35,5 +35,3 @@ $$
 - {{< knowl id="partition-function-canonical" section="stat-mech" text="canonical partition function" >}}
 - {{< knowl id="temperature-thermo" section="thermodynamics" text="thermodynamic temperature" >}}
 
-## Proof idea / significance
-Write the canonical expectation as a ratio of integrals with weight $e^{-\beta H}$. For a quadratic coordinate $y$, the $y$-dependence is Gaussian; integrating by parts in $y$ (or evaluating the Gaussian moment explicitly) yields the stated identity. The theorem explains why many classical systems have heat capacities close to “number of quadratic modes times $\frac{1}{2}k_B$,” and also highlights where classical predictions fail (e.g., quantum suppression of modes at low temperature).

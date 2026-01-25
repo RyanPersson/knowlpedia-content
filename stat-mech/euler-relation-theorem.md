@@ -34,10 +34,3 @@ $$
 - The internal energy decomposes into intensive–extensive pairings: $U=TS-pV+\mu N$ (or the multicomponent sum).
 - Differentiating the Euler relation and comparing with the {{< knowl id="first-law-thermodynamics" section="thermodynamics" text="first law" >}} yields the {{< knowl id="gibbs-duhem-theorem" section="thermodynamics" text="Gibbs–Duhem theorem" >}}.
 
-## Proof idea / significance
-This is an application of Euler’s theorem for homogeneous functions: if $U$ is differentiable and homogeneous of degree $1$, then
-$$
-U = S\frac{\partial U}{\partial S}+V\frac{\partial U}{\partial V}+N\frac{\partial U}{\partial N}.
-$$
-
-Substituting the thermodynamic identifications of the derivatives gives $U=TS-pV+\mu N$. Conceptually, the theorem encodes extensivity (scaling with system size) and is the starting point for intensive-variable constraints (Gibbs–Duhem) and for {{< knowl id="legendre-transform" section="convex-analysis" text="Legendre duality" >}} between thermodynamic potentials.

@@ -57,6 +57,3 @@ Then:
 - Correlations whose decay is often derived from convergent expansions: {{< knowl id="correlation-function-two-point" section="stat-mech" text="two-point correlation function" >}}.
 - Grand-canonical viewpoint (when polymers arise from activity/fugacity expansions): {{< knowl id="grand-canonical-ensemble" section="stat-mech" text="grand canonical ensemble" >}}.
 
-## Proof idea / significance (sketch)
-
-The cluster expansion is obtained by writing $\log Z$ as a sum of connected contributions (via inclusion–exclusion or a graph expansion). The KP criterion provides a *dominating tree bound*: connected graph sums are controlled by spanning trees, and the KP inequality forces the resulting series to be absolutely summable. Uniform convergence in volume then implies analyticity of the pressure and, when applied to truncated correlation expansions, yields quantitative decay estimates.

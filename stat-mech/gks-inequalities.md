@@ -51,11 +51,3 @@ $$
 - The pair of inequalities above implies the {{< knowl id="griffiths-inequalities" text="Griffiths inequalities" >}} as a special case (many authors use the names interchangeably for the Ising ferromagnet).
 - For increasing observables (not necessarily spin monomials), positivity of correlations can also be obtained from the {{< knowl id="fkg-inequality" text="FKG inequality" >}} when the measure is attractive.
 
-## Proof idea / significance
-
-One strategy is to encode the Ising measure in an expansion with manifestly nonnegative weights (e.g. high-temperature expansion or random-current representations). Truncated correlations can then be expressed as sums of nonnegative terms, yielding GKS II.
-
-GKS inequalities are central for:
-- monotonicity arguments (comparison between fields and couplings),
-- correlation bounds and control of response functions (see {{< knowl id="susceptibility-stat-mech" section="stat-mech" text="susceptibility" >}}),
-- structural results about phases and analyticity (often combined with the {{< knowl id="lee-yang-circle-theorem" text="Lee–Yang circle theorem" >}}).

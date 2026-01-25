@@ -44,11 +44,3 @@ $$
 - $\log Z(\cdot)$ is bounded below by its tangent plane: $\log Z(A+B)\ge \log Z(A)+\langle B\rangle_A$.
 - Free energy admits a variational upper bound in terms of any trial Hamiltonian $H_0$ and its Gibbs expectation.
 
-## Proof idea / significance
-
-Consider the function $\phi(t)=\log \operatorname{Tr}(e^{A+tB})$. Under mild conditions, $\phi$ is convex in $t$. Convexity implies the supporting line inequality
-$\phi(1)\ge \phi(0)+\phi'(0)$, and a direct differentiation yields
-$\phi'(0)=\operatorname{Tr}(e^{A}B)/\operatorname{Tr}(e^{A})=\langle B\rangle_A$.
-
-This inequality is the basis of Bogoliubov’s variational method: choose a tractable $H_0$ (e.g. mean-field) and optimize the upper bound
-$F(H) \le F(H_0)+\langle H-H_0\rangle_{0}$ over parameters in $H_0$.

@@ -28,6 +28,6 @@ For the ferromagnetic Ising model in dimension $d\ge 2$, the {{< knowl id="peier
 - {{< knowl id="phase-transition-gibbs" section="stat-mech-lattice" text="phase transition via Gibbs nonuniqueness" >}}
 - {{< knowl id="corollary-uniqueness-analyticity" text="uniqueness implies no phase transition" >}}
 - {{< knowl id="corollary-multiple-gibbs-symmetry-breaking" text="this corollary" >}}
-
-## Proof idea / significance
+## significance
 In symmetric models, if two distinct infinite-volume Gibbs measures exist and the symmetry maps Gibbs measures to Gibbs measures, then applying the symmetry to one state produces another. In the Ising case at $h=0$, spin flip maps a $+$-magnetized state to a $-$-magnetized state. The {{< knowl id="peierls-argument" text="Peierls argument" >}} constructs low-temperature stability of $+$ (and $-$) boundary conditions, producing distinct limiting Gibbs measures with opposite magnetizations. This is the canonical mechanism for spontaneous symmetry breaking in equilibrium statistical mechanics.
+

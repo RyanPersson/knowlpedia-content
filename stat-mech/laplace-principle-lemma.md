@@ -27,10 +27,5 @@ More generally, if $f$ is upper semicontinuous and bounded above on compact $K$,
 - A discrete analogue: for finitely many numbers $\{a_i\}$,
   $\lim_{n\to\infty}\frac1n\log\sum_i e^{n a_i}=\max_i a_i$.
 
-## Proof idea / significance
-Let $M=\max_K f$. For the upper bound, $\int_K e^{n f}\,d\mu\le e^{nM}\mu(K)$ gives
-$\limsup \le M$. For the lower bound, choose $x_\star\in K$ with $f(x_\star)=M$ and a neighborhood $U$ where $f\ge M-\varepsilon$. Then
-$\int_K e^{n f}\,d\mu\ge \int_U e^{n f}\,d\mu\ge \mu(U)\,e^{n(M-\varepsilon)}$,
-so $\liminf \ge M-\varepsilon$ and let $\varepsilon\downarrow 0$.
-
 In statistical mechanics, this principle explains why a partition function (an integral or sum of exponentials) yields a free energy that can often be expressed as a variational supremum. It is the leading-order version of the more refined {{< knowl id="saddle-point-lemma" text="saddle-point method" >}}, which also provides prefactors.
+

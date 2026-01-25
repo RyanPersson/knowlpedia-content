@@ -27,5 +27,3 @@ $$
   $\partial_\beta\langle N\rangle = -\mathrm{Cov}(N,H)+\mu\,\mathrm{Var}(N)$.
 - Together with {{< knowl id="prop-grand-canonical-number-fluctuation" text="number fluctuation identity" >}}, these yield a closed set of fluctuation/response relations for $(H,N)$.
 
-## Proof idea / significance
-Write $\langle A\rangle = \Xi^{-1}\mathrm{Tr}\!\left(Ae^{-\beta(H-\mu N)}\right)$. Differentiate in $\mu$ or $\beta$ and apply the quotient rule; the difference between differentiating the numerator and correcting for the derivative of $\Xi$ produces a covariance term. The final displayed identity follows by choosing $A=H$ and $A=N$ and eliminating $\mathrm{Cov}(N,H)$ in favor of $\partial_\beta\langle N\rangle$ and $\mathrm{Var}(N)$. This is the mixed (energy–number) analog of fluctuation–dissipation relations.

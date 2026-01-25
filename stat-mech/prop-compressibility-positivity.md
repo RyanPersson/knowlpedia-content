@@ -51,15 +51,3 @@ $$
 - {{< knowl id="pressure-thermo" section="thermodynamics" text="pressure" >}}, {{< knowl id="temperature-thermo" section="thermodynamics" text="temperature" >}}
 - {{< knowl id="thermodynamic-stability" section="thermodynamics" text="thermodynamic stability" >}}
 
-## Proof idea / significance
-
-Differentiate the defining relation $P=-(\partial F/\partial V)_{T,N}$ with respect to $V$ at fixed $T,N$:
-$$
-\left(\frac{\partial P}{\partial V}\right)_{T,N}
-={}
--\left(\frac{\partial^2 F}{\partial V^2}\right)_{T,N}.
-$$
-
-Stability gives $(\partial^2 F/\partial V^2)_{T,N}\ge 0$, hence $(\partial P/\partial V)_{T,N}\le 0$. Inverting the derivative yields $\kappa_T \ge 0$.
-
-Significance: $\kappa_T\ge 0$ is the condition that small compressions raise the pressure (restoring force), preventing runaway mechanical collapse or expansion in equilibrium.

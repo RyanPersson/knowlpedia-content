@@ -49,7 +49,3 @@ In the important special case $A_\Lambda=M_\Lambda$ (magnetization), this connec
 - Coexistence forces a non-single-valued “slope” at $h$ (a nontrivial subgradient), hence nondifferentiability.
 - In convex-analysis language (see {{< knowl id="convex-function-via-epigraph" section="convex-analysis" text="convex functions" >}}), multiple coexisting values of $a(\mu)$ correspond to a nontrivial subdifferential of $p(\beta,\cdot)$ at $h$.
 
-## Proof idea / significance
-In finite volume, differentiate $\log Z_\Lambda(\beta,h)$ with respect to $h$ to obtain identities of the form
-$\partial_h p_\Lambda(\beta,h)=\frac{\beta}{|\Lambda|}\mathbb{E}[A_\Lambda]$; this is a special case of {{< knowl id="prop-connected-correlations-derivatives" text="derivatives as connected correlations" >}} (and yields fluctuation formulas such as {{< knowl id="prop-susceptibility-variance-magnetization" text="susceptibility = variance for magnetization" >}} when differentiating again).
-Passing to the thermodynamic limit, convexity guarantees existence of one-sided derivatives. If distinct Gibbs measures at the same $h$ realize distinct limiting densities $a(\mu)$, then $p(\beta,\cdot)$ must have more than one supporting slope at $h$, i.e. it cannot be differentiable there.

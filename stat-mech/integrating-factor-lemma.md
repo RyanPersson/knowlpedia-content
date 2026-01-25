@@ -44,16 +44,3 @@ is an integrating factor.
 - Under the criterion, $\mu\,\omega$ satisfies the {{< knowl id="exact-differential-criterion" text="exact differential criterion" >}}, hence $\mu\,\omega=dF$ for some state function $F$.
 - The integrating factor is determined (up to an overall multiplicative constant) by a one-dimensional integral.
 
-## Proof idea / significance
-Requiring exactness of $\mu\,\omega$ means
-$$
-\frac{\partial(\mu M)}{\partial y}=\frac{\partial(\mu N)}{\partial x}.
-$$
-
-Expanding gives a first-order linear PDE for $\mu$. Under the stated dependence assumption (e.g. $\Phi(x,y)=f(x)$), the PDE reduces to an ODE in one variable, yielding the exponential formula.
-
-Thermodynamic significance: in equilibrium thermodynamics, the reversible heat form $\delta Q_{\mathrm{rev}}$ typically fails to be exact, but the second law asserts the existence of an integrating factor $1/T$ (where $T$ is {{< knowl id="temperature-thermo" section="thermodynamics" text="temperature" >}}) such that
-$$
-dS=\frac{\delta Q_{\mathrm{rev}}}{T},
-$$
-defining {{< knowl id="thermodynamic-entropy" section="thermodynamics" text="entropy" >}} (cf. {{< knowl id="clausius-theorem-entropy" section="thermodynamics" text="Clausius theorem" >}} and {{< knowl id="clausius-inequality" section="thermodynamics" text="Clausius inequality" >}}).

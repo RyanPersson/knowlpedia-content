@@ -30,5 +30,3 @@ $$
 - {{< knowl id="free-energy-statistical" section="stat-mech" text="Statistical free energy" >}}
 - {{< knowl id="internal-energy-thermo" section="thermodynamics" text="Internal energy (thermodynamics)" >}}
 
-## Proof idea / significance
-Differentiate $\log Z(\beta)$ using $Z(\beta)=\int e^{-\beta H}\,d\lambda$ (with the appropriate reference measure). The derivative brings down a factor of $-H$, and division by $Z(\beta)$ converts the result into a canonical expectation. This identity is the starting point for fluctuation formulas such as {{< knowl id="canonical-energy-fluctuation-identity" text="canonical energy fluctuation identity" >}}.
