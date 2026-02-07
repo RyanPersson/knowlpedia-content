@@ -3,7 +3,7 @@ title: "Conjugation action of a Lie group"
 description: "The smooth action of a Lie group on itself by conjugation."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}.
 
 **Definition.** The **conjugation action** is the map
 $$

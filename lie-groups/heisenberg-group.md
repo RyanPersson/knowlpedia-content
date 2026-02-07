@@ -7,7 +7,7 @@ For $n\ge 1$, the (real) **Heisenberg group** $H_n$ can be realized as $\mathbb 
 \[
 (x,y,z)\cdot(x',y',z')=\Big(x+x',\,y+y',\,z+z' + \tfrac12(x\cdot y' - y\cdot x')\Big).
 \]
-This makes $H_n$ a connected {{< knowl id="lie-group" text="Lie group" >}} of dimension $2n+1$. Its Lie algebra is the Heisenberg Lie algebra (compare {{< knowl id="example-heisenberg-algebra" text="the Heisenberg algebra example" >}}), which is {{< knowl id="nilpotent-lie-algebra" text="nilpotent" >}}.
+This makes $H_n$ a connected {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} of dimension $2n+1$. Its Lie algebra is the Heisenberg Lie algebra (compare {{< knowl id="example-heisenberg-algebra" text="the Heisenberg algebra example" >}}), which is {{< knowl id="nilpotent-lie-algebra" text="nilpotent" >}}.
 
 **Concrete calculation: commutator and center.**  
 Let $p=(x,y,z)$ and $q=(x',y',z')$. Using the group law and the inverse

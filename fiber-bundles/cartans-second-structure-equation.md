@@ -3,7 +3,7 @@ title: "Cartan's second structure equation (curvature) in the frame bundle"
 description: "On the frame bundle, the curvature form is given by d omega plus one half the bracket of omega with itself."
 ---
 
-Let $M$ be an $n$-dimensional {{< knowl id="smooth-manifold" text="smooth manifold" >}} and let $\pi:F(M)\to M$ be its frame bundle, a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group $G=\mathrm{GL}(n,\mathbb{R})$. Fix a {{< knowl id="principal-connection" text="principal connection" >}} $\omega\in\Omega^1(F(M);\mathfrak{gl}(n,\mathbb{R}))$, where $\mathfrak{gl}(n,\mathbb{R})$ is the {{< knowl id="lie-algebra" text="Lie algebra" >}} of $G$.
+Let $M$ be an $n$-dimensional {{< knowl id="smooth-manifold" text="smooth manifold" >}} and let $\pi:F(M)\to M$ be its frame bundle, a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group $G=\mathrm{GL}(n,\mathbb{R})$. Fix a {{< knowl id="principal-connection" text="principal connection" >}} $\omega\in\Omega^1(F(M);\mathfrak{gl}(n,\mathbb{R}))$, where $\mathfrak{gl}(n,\mathbb{R})$ is the {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} of $G$.
 
 ## Statement (frame bundle formulation)
 

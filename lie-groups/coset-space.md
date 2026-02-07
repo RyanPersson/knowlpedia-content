@@ -3,7 +3,7 @@ title: "Coset space"
 description: "The quotient space of left cosets, a smooth manifold when is a closed Lie subgroup."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} and let $H\le G$ be a subgroup.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} and let $H\le G$ be a subgroup.
 
 The **left coset space** $G/H$ is the set of left cosets
 \[

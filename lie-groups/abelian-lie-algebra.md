@@ -3,7 +3,7 @@ title: "Abelian Lie algebra"
 description: "A Lie algebra whose bracket vanishes identically."
 ---
 
-Let $\mathfrak{g}$ be a {{< knowl id="lie-algebra" text="Lie algebra" >}} over a field $\Bbbk$ with {{< knowl id="lie-bracket" text="Lie bracket" >}} $[\cdot,\cdot]$.
+Let $\mathfrak{g}$ be a {{< knowl id="lie-algebra" text="Lie algebra" >}} over a field $\Bbbk$ with {{< knowl id="lie-bracket" text="Lie bracket" section="fiber-bundles">}} $[\cdot,\cdot]$.
 
 **Definition.** $\mathfrak{g}$ is **abelian** if
 $$

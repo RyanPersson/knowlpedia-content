@@ -9,7 +9,7 @@ For $x\in M$ and $p\in P_x$, let $\mathrm{Hol}_p(\omega)\subseteq G$ denote the 
 \[
 \mathfrak{hol}_p(\omega):=\mathrm{Lie}\bigl(\mathrm{Hol}^0_p(\omega)\bigr),
 \]
-the corresponding {{< knowl id="lie-algebra" text="Lie algebra" >}}.
+the corresponding {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}}.
 
 ## Theorem (Ambrose–Singer)
 

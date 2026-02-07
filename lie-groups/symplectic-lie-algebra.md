@@ -14,7 +14,7 @@ $$
 \mathfrak{sp}(2n,\mathbb F)=\{X\in M_{2n}(\mathbb F)\mid X^T J + JX = 0\},
 $$
 
-with Lie bracket given by the commutator $[X,Y]=XY-YX$ (see {{< knowl id="lie-bracket" text="the Lie bracket" >}}). It is the Lie algebra of the {{< knowl id="symplectic-group" text="symplectic group $\\mathrm{Sp}(2n,\\mathbb F)$" >}} in the sense of {{< knowl id="lie-algebra-of-a-lie-group" text="the Lie algebra of a Lie group" >}}.
+with Lie bracket given by the commutator $[X,Y]=XY-YX$ (see {{< knowl id="lie-bracket" text="the Lie bracket" section="fiber-bundles">}}). It is the Lie algebra of the {{< knowl id="symplectic-group" text="symplectic group $\\mathrm{Sp}(2n,\\mathbb F)$" >}} in the sense of {{< knowl id="lie-algebra-of-a-lie-group" text="the Lie algebra of a Lie group" >}}.
 
 ### Useful block description
 Writing a matrix in $n\times n$ blocks

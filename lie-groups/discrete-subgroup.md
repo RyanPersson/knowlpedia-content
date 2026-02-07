@@ -3,7 +3,7 @@ title: "Discrete subgroup"
 description: "A subgroup that is discrete in the manifold topology; its Lie algebra is ."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}.
 
 A subgroup $\Gamma\le G$ is **discrete** if it is a discrete subset in the subspace topology (equivalently, every $\gamma\in\Gamma$ is isolated in $G$).
 

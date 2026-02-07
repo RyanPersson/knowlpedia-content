@@ -3,7 +3,7 @@ title: "Closed subgroup theorem"
 description: "A closed subgroup of a Lie group is an embedded Lie subgroup, and the quotient G/H is a smooth manifold."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} and let $H\le G$ be a {{< knowl id="closed-subgroup-lie-group" text="closed subgroup" >}}.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} and let $H\le G$ be a {{< knowl id="closed-subgroup-lie-group" text="closed subgroup" >}}.
 
 **Theorem (Closed Subgroup Theorem).**
 1. There is a unique smooth manifold structure on $H$ making it a Lie group such that the inclusion $\iota:H\hookrightarrow G$ is a smooth injective immersion and a homeomorphism onto its image. In particular, $H$ is an embedded {{< knowl id="lie-subgroup" text="Lie subgroup" >}} of $G$.

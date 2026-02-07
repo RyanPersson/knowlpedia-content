@@ -3,7 +3,7 @@ title: "Bi-invariant metric"
 description: "A Riemannian metric on a Lie group invariant under left and right translations."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with {{< knowl id="left-translation" text="left translations" >}} $L_g$ and {{< knowl id="right-translation" text="right translations" >}} $R_g$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} with {{< knowl id="left-translation" text="left translations" >}} $L_g$ and {{< knowl id="right-translation" text="right translations" >}} $R_g$.
 
 **Definition.** A Riemannian metric $\langle\cdot,\cdot\rangle$ on $G$ is **bi-invariant** if
 $$

@@ -20,6 +20,6 @@ Key properties:
   \[
   d\theta^R - \tfrac12[\theta^R,\theta^R]=0,
   \]
-  where the bracket is induced from the {{< knowl id="lie-bracket" text="Lie bracket" >}} on $\mathfrak g$ (compare {{< knowl id="maurer-cartan-equation" text="Maurer–Cartan equation" >}} and the {{< knowl id="left-maurer-cartan-form" text="left Maurer–Cartan form" >}}).
+  where the bracket is induced from the {{< knowl id="lie-bracket" text="Lie bracket" section="fiber-bundles">}} on $\mathfrak g$ (compare {{< knowl id="maurer-cartan-equation" text="Maurer–Cartan equation" >}} and the {{< knowl id="left-maurer-cartan-form" text="left Maurer–Cartan form" >}}).
 
 If $X$ is a {{< knowl id="right-invariant-vector-field" text="right-invariant vector field" >}}, then $\theta^R(X)$ is constant in $G$ and recovers the corresponding element of $\mathfrak g$. This is one way to see the tight relationship between invariant vector fields, {{< knowl id="one-parameter-subgroup" text="one-parameter subgroups" >}}, and the {{< knowl id="exponential-map-lie-group" text="exponential map" >}}.

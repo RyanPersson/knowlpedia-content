@@ -3,7 +3,7 @@ title: "Construction: Splitting of the Atiyah sequence from a principal connecti
 description: "How a principal connection produces a canonical splitting of the Atiyah sequence of a principal bundle."
 ---
 
-Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} over a {{< knowl id="smooth-manifold" text="smooth manifold" >}} $M$, where $G$ is a {{< knowl id="lie-group" text="Lie group" >}} with {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak g$.
+Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} over a {{< knowl id="smooth-manifold" text="smooth manifold" >}} $M$, where $G$ is a {{< knowl id="lie-group" text="Lie group" >}} with {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} $\mathfrak g$.
 
 Write $TP$ for the {{< knowl id="tangent-bundle" text="tangent bundle" >}} of $P$. The right action of $G$ on $P$ induces a right action on $TP$, and the quotient bundle
 \[

@@ -3,7 +3,7 @@ title: "Convention: fundamental vector field uses the right action"
 description: "The fundamental vector field X-sharp is defined by differentiating the right action p·exp(tX)."
 ---
 
-Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with the right action $(p,g)\mapsto p\cdot g$ as in {{< knowl id="convention-principal-bundles-use-a-right-g-action-on-p" text="the right-action convention" >}}. Let $\mathfrak g$ be the {{< knowl id="lie-algebra" text="Lie algebra" >}} of $G$.
+Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with the right action $(p,g)\mapsto p\cdot g$ as in {{< knowl id="convention-principal-bundles-use-a-right-g-action-on-p" text="the right-action convention" >}}. Let $\mathfrak g$ be the {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} of $G$.
 
 ## Convention
 For $X\in\mathfrak g$, the **fundamental vector field** (also called the infinitesimal generator) is the {{< knowl id="vector-field" text="vector field" >}} $X^\#\in\Gamma(TP)$ defined by

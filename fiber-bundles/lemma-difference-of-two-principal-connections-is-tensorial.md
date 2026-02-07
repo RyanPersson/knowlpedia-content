@@ -3,7 +3,7 @@ title: "Difference of two principal connections is tensorial"
 description: "The difference of two principal connection 1-forms is a tensorial one-form with values in the Lie algebra."
 ---
 
-Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with Lie group $G$ and Lie algebra $\mathfrak g$ (see {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra of a Lie group" >}}). Let $\omega,\omega'\in \Omega^1(P;\mathfrak g)$ be connection $1$-forms of two {{< knowl id="principal-connection" text="principal connections" >}} (see {{< knowl id="connection-1-form-on-a-principal-bundle" text="connection 1-form on a principal bundle" >}}).
+Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with Lie group $G$ and Lie algebra $\mathfrak g$ (see {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra of a Lie group" section="lie-groups">}}). Let $\omega,\omega'\in \Omega^1(P;\mathfrak g)$ be connection $1$-forms of two {{< knowl id="principal-connection" text="principal connections" >}} (see {{< knowl id="connection-1-form-on-a-principal-bundle" text="connection 1-form on a principal bundle" >}}).
 
 Define their difference
 \[
@@ -13,7 +13,7 @@ a := \omega' - \omega \in \Omega^1(P;\mathfrak g).
 ## Lemma
 The $1$-form $a$ is **tensorial of type $\mathrm{Ad}$**, meaning:
 1. (**Horizontal**) $a_p(v)=0$ for every vertical vector $v\in V_pP$ (equivalently $\iota_{X^\#}a=0$ for all fundamental vertical fields $X^\#$).
-2. (**$\mathrm{Ad}$-equivariant**) $(R_g)^*a = \mathrm{Ad}(g^{-1})\,a$ for all $g\in G$ (see {{< knowl id="adjoint-action-of-a-lie-group" text="adjoint action" >}}).
+2. (**$\mathrm{Ad}$-equivariant**) $(R_g)^*a = \mathrm{Ad}(g^{-1})\,a$ for all $g\in G$ (see {{< knowl id="adjoint-action-of-a-lie-group" text="adjoint action" section="lie-groups">}}).
 
 Consequently, $a$ descends to a well-defined $1$-form on the base with values in the adjoint bundle:
 \[

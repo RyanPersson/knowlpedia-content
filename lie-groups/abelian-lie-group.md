@@ -3,7 +3,7 @@ title: "Abelian Lie group"
 description: "A Lie group with commutative multiplication."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}.
 
 **Definition.** $G$ is **abelian** if its multiplication is commutative:
 $$

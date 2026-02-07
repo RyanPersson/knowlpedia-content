@@ -3,7 +3,7 @@ title: "Connection 1-form on a principal bundle"
 description: "Definition of a principal connection 1-form and the horizontal distribution it determines."
 ---
 
-Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} (with the {{< knowl id="convention-principal-bundles-use-a-right-g-action-on-p" text="standard right action convention" >}}), and let $\mathfrak g$ be the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" >}} of $G$.
+Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} (with the {{< knowl id="convention-principal-bundles-use-a-right-g-action-on-p" text="standard right action convention" >}}), and let $\mathfrak g$ be the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" section="lie-groups">}} of $G$.
 
 A **(principal) connection 1-form** on $P$ is a $\mathfrak g$-valued 1-form
 \[
@@ -21,7 +21,7 @@ such that:
    \[
    (R_g)^*\omega = \mathrm{Ad}_{g^{-1}}\omega,
    \]
-   where $\mathrm{Ad}$ is the {{< knowl id="adjoint-action-of-a-lie-group" text="adjoint action" >}} of $G$ on $\mathfrak g$.
+   where $\mathrm{Ad}$ is the {{< knowl id="adjoint-action-of-a-lie-group" text="adjoint action" section="lie-groups">}} of $G$ on $\mathfrak g$.
 
 These two axioms are equivalent to specifying a {{< knowl id="principal-connection" text="principal connection" >}}: the horizontal space at $p\in P$ is
 \[

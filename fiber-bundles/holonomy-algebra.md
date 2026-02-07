@@ -14,7 +14,7 @@ The **holonomy algebra** at $p$ is the Lie algebra
 \[
 \mathfrak{hol}_p(\omega) := \mathrm{Lie}\bigl(\mathrm{Hol}_p(\omega)\bigr)\subset \mathfrak{g},
 \]
-where $\mathfrak{g}$ is the {{< knowl id="lie-algebra" text="Lie algebra" >}} of $G$.
+where $\mathfrak{g}$ is the {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} of $G$.
 
 If $p$ is replaced by $p\cdot g$ in the same fiber, then $\mathrm{Hol}_{p\cdot g}(\omega)=g^{-1}\mathrm{Hol}_p(\omega)g$, so $\mathfrak{hol}_p(\omega)$ is well-defined up to conjugacy in $\mathfrak{g}$.
 

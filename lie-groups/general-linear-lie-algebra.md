@@ -10,7 +10,7 @@ The **general linear Lie algebra** is the vector space
 \[
 \mathfrak{gl}(V)=\mathrm{End}(V)
 \]
-equipped with the commutator {{< knowl id="lie-bracket" text="Lie bracket" >}}
+equipped with the commutator {{< knowl id="lie-bracket" text="Lie bracket" section="fiber-bundles">}}
 \[
 [X,Y]=XY-YX.
 \]

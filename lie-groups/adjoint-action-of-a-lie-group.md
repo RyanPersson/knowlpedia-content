@@ -3,7 +3,7 @@ title: "Adjoint Action of a Lie Group"
 description: "The conjugation action of a Lie group on itself and the induced linear action on its Lie algebra."
 ---
 
-Let \(G\) be a {{< knowl id="lie-group" text="Lie group" >}}. The **conjugation map** by \(g\in G\) is
+Let \(G\) be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}. The **conjugation map** by \(g\in G\) is
 $$
 c_g:G\to G,\qquad c_g(h)=ghg^{-1}.
 $$

@@ -4,7 +4,7 @@ description: "Every connected Lie group admits a unique (up to isomorphism) simp
 ---
 
 ### Theorem (existence and uniqueness)
-Let $G$ be a connected {{< knowl id="lie-group" text="Lie group" >}}. Then there exists a Lie group $\widetilde G$ and a smooth map $p:\widetilde G\to G$ such that:
+Let $G$ be a connected {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}. Then there exists a Lie group $\widetilde G$ and a smooth map $p:\widetilde G\to G$ such that:
 
 1. $p$ is a covering map of manifolds and a {{< knowl id="lie-group-homomorphism" text="Lie group homomorphism" >}}.
 2. $\widetilde G$ is {{< knowl id="simply-connected-lie-group" text="simply connected" >}}.

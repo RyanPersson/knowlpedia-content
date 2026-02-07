@@ -3,7 +3,7 @@ title: "Lie Subgroup"
 description: "A subgroup of a Lie group that carries a compatible immersed submanifold structure."
 ---
 
-Let \(G\) be a {{< knowl id="lie-group" text="Lie group" >}}. A **Lie subgroup** of \(G\) is a subgroup \(H\le G\) together with the structure of an immersed {{< knowl id="smooth-manifold" section="fiber-bundles" text="submanifold" >}} such that the inclusion map
+Let \(G\) be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}. A **Lie subgroup** of \(G\) is a subgroup \(H\le G\) together with the structure of an immersed {{< knowl id="smooth-manifold" section="fiber-bundles" text="submanifold" >}} such that the inclusion map
 $$
 i:H\hookrightarrow G
 $$

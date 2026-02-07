@@ -16,7 +16,7 @@ Its {{< knowl id="differential-pushforward-of-a-smooth-map" text="differential (
 \[
 (dR_g)_h:T_hG\longrightarrow T_{hg}G,
 \]
-so right translations also transport vectors between {{< knowl id="tangent-space-at-a-point" text="tangent spaces" >}}. They are used to define {{< knowl id="right-invariant-vector-field" text="right-invariant vector fields" >}}.
+so right translations also transport vectors between {{< knowl id="tangent-space-at-a-point" text="tangent spaces" >}}. They are used to define {{< knowl id="right-invariant-vector-field" text="right-invariant vector fields" section="lie-groups">}}.
 
 The family \(\{R_g\}_{g\in G}\) satisfies
 \[

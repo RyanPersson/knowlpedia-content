@@ -2,7 +2,7 @@
 title: "Tangent Space"
 description: "The vector space of tangent vectors at a point, defined intrinsically using derivations or curves."
 ---
-Let \(M\) be a {{< knowl id="smooth-manifold" text="smooth manifold" >}} and \(p\in M\). The **tangent space** at \(p\), denoted \(T_pM\), is a {{< knowl id="vector-space" section="linear-algebra" text="vector space" >}} capturing first-order directions through \(p\).
+Let \(M\) be a {{< knowl id="smooth-manifold" text="smooth manifold" section="fiber-bundles">}} and \(p\in M\). The **tangent space** at \(p\), denoted \(T_pM\), is a {{< knowl id="vector-space" section="linear-algebra" text="vector space" >}} capturing first-order directions through \(p\).
 
 ## Derivation definition
 Let \(C^\infty_p(M)\) denote the germs of smooth real-valued functions near \(p\). A **tangent vector at \(p\)** is a linear map

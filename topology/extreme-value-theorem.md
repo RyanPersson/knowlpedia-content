@@ -10,12 +10,6 @@ $$
 f(x_{\min}) \leq f(x) \leq f(x_{\max}) \quad \text{for all } x \in K.
 $$
 
-## Proof outline
-1. The image \(f(K)\) is compact (continuous images of compact sets are compact).
-2. In \(\mathbb{R}\), compact sets are closed and {{< knowl id="bounded-set" text="bounded" >}}.
-3. By the {{< knowl id="completeness-axiom" section="real-analysis" text="completeness of" >}} \(\mathbb{R}\), \(f(K)\) has a supremum \(M\) and infimum \(m\).
-4. Since \(f(K)\) is closed, \(M, m \in f(K)\), so they are attained.
-
 ## Classical version
 For \(f: [a,b] \to \mathbb{R}\) continuous: \(f\) attains a maximum and minimum on \([a,b]\).
 

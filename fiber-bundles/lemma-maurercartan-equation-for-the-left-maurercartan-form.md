@@ -3,7 +3,7 @@ title: "Maurer–Cartan equation for the left Maurer–Cartan form"
 description: "The left Maurer–Cartan form on a Lie group satisfies the structure equation dθ + 1/2[θ∧θ] = 0."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak g$. The **left Maurer–Cartan form** is the $\mathfrak g$-valued $1$-form $\theta_L\in\Omega^1(G;\mathfrak g)$ defined by
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} $\mathfrak g$. The **left Maurer–Cartan form** is the $\mathfrak g$-valued $1$-form $\theta_L\in\Omega^1(G;\mathfrak g)$ defined by
 \[
 (\theta_L)_g := (dL_{g^{-1}})_g : T_gG \to T_eG\cong \mathfrak g.
 \]

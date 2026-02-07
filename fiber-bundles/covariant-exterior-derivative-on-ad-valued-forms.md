@@ -7,7 +7,7 @@ Let \(\pi:P\to M\) be a {{< knowl id="principal-g-bundle" text="principal G-bund
 \[
 \mathrm{ad}(P)\coloneqq P\times_{\mathrm{Ad}} \mathfrak{g}\;\to\;M,
 \]
-associated to the adjoint action of \(G\) on {{< knowl id="lie-algebra" text="the Lie algebra" >}} \(\mathfrak{g}\).
+associated to the adjoint action of \(G\) on {{< knowl id="lie-algebra" text="the Lie algebra" section="lie-groups">}} \(\mathfrak{g}\).
 
 A principal connection on \(P\) induces a connection \(\nabla\) on \(\mathrm{ad}(P)\) (equivalently, it induces the operator on tensorial forms described by {{< knowl id="exterior-covariant-derivative" text="the exterior covariant derivative" >}}). The **covariant exterior derivative**
 \[

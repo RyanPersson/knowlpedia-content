@@ -3,11 +3,11 @@ title: "Differential of a Lie Group Homomorphism"
 description: "The induced linear map on Lie algebras d_e:g associated to a Lie group homomorphism :G H."
 ---
 
-Let \(G\) and \(H\) be {{< knowl id="lie-group" text="Lie groups" >}} with identity elements \(e_G\) and \(e_H\), and let \(\varphi:G\to H\) be a {{< knowl id="lie-group-homomorphism" text="Lie group homomorphism" >}}. Since \(\varphi\) is a {{< knowl id="smooth-map" text="smooth map" >}}, it has a {{< knowl id="differential-pushforward-of-a-smooth-map" text="differential (pushforward)" >}} at every point; in particular at the identity:
+Let \(G\) and \(H\) be {{< knowl id="lie-group" text="Lie groups" >}} with identity elements \(e_G\) and \(e_H\), and let \(\varphi:G\to H\) be a {{< knowl id="lie-group-homomorphism" text="Lie group homomorphism" section="lie-groups">}}. Since \(\varphi\) is a {{< knowl id="smooth-map" text="smooth map" >}}, it has a {{< knowl id="differential-pushforward-of-a-smooth-map" text="differential (pushforward)" >}} at every point; in particular at the identity:
 \[
 d\varphi_{e_G}:T_{e_G}G\longrightarrow T_{e_H}H.
 \]
-Using the standard identification of the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" >}} of a Lie group with the tangent space at the identity, we view this as a linear map
+Using the standard identification of the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" section="lie-groups">}} of a Lie group with the tangent space at the identity, we view this as a linear map
 \[
 d\varphi_{e_G}:\mathfrak g\to\mathfrak h.
 \]
@@ -30,7 +30,7 @@ d(\psi\circ\varphi)_{e_G}=d\psi_{e_H}\circ d\varphi_{e_G}.
 ### Examples
 
 1. **Inclusion of a Lie subgroup.**  
-   If \(i:H\hookrightarrow G\) is the inclusion of a {{< knowl id="lie-subgroup" text="Lie subgroup" >}}, then \(di_{e_H}:\mathfrak h\to\mathfrak g\) is the natural inclusion of tangent spaces at the identity. Concretely, it identifies \(\mathfrak h\) as a Lie subalgebra of \(\mathfrak g\).
+   If \(i:H\hookrightarrow G\) is the inclusion of a {{< knowl id="lie-subgroup" text="Lie subgroup" section="lie-groups">}}, then \(di_{e_H}:\mathfrak h\to\mathfrak g\) is the natural inclusion of tangent spaces at the identity. Concretely, it identifies \(\mathfrak h\) as a Lie subalgebra of \(\mathfrak g\).
 
 2. **Determinant on \(GL(n,\mathbb R)\).**  
    The determinant is a Lie group homomorphism \(\det:GL(n,\mathbb R)\to \mathbb R^\times\). Identifying \(\mathfrak{gl}(n,\mathbb R)\cong M_n(\mathbb R)\), the induced map on Lie algebras is

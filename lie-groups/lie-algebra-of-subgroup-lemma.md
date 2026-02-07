@@ -3,7 +3,7 @@ title: "Lie algebra of a subgroup lemma"
 description: "A Lie subgroup has Lie algebra equal to its tangent space at the identity, viewed as a Lie subalgebra."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} and let $H\subseteq G$ be a {{< knowl id="lie-subgroup" text="Lie subgroup" >}} with inclusion map $\iota:H\hookrightarrow G$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} and let $H\subseteq G$ be a {{< knowl id="lie-subgroup" text="Lie subgroup" >}} with inclusion map $\iota:H\hookrightarrow G$.
 
 ## Lemma
 The differential at the identity

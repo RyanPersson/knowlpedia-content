@@ -3,7 +3,7 @@ title: "Lie algebra of a product"
 description: "The Lie algebra of a product Lie group is the direct sum of the Lie algebras."
 ---
 
-Let $G,H$ be {{< knowl id="lie-group" text="Lie groups" >}}, and consider their {{< knowl id="product-lie-group" text="product Lie group" >}} $G\times H$.
+Let $G,H$ be {{< knowl id="lie-group" text="Lie groups" section="fiber-bundles">}}, and consider their {{< knowl id="product-lie-group" text="product Lie group" >}} $G\times H$.
 
 ## Theorem
 There is a natural Lie algebra isomorphism

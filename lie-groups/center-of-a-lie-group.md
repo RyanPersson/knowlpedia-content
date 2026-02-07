@@ -3,7 +3,7 @@ title: "Center of a Lie group"
 description: "Elements commuting with all group elements; a closed normal subgroup."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}.
 
 **Definition.** The **center** of $G$ is the subgroup
 $$

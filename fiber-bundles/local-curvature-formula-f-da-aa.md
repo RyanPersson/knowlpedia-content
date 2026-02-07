@@ -3,7 +3,7 @@ title: "Local curvature formula"
 description: "Local expression for the curvature of a principal connection in a chosen gauge."
 ---
 
-Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group a {{< knowl id="lie-group" text="Lie group" >}} $G$ and {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak g$. Let $\omega$ be a {{< knowl id="principal-connection" text="principal connection" >}} on $P$ with {{< knowl id="curvature" text="curvature" >}} $\Omega\in\Omega^2(P;\mathfrak g)$. For an open set $U\subset M$ and a local section $s:U\to P$, define the local connection form and local curvature form by
+Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group a {{< knowl id="lie-group" text="Lie group" >}} $G$ and {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} $\mathfrak g$. Let $\omega$ be a {{< knowl id="principal-connection" text="principal connection" >}} on $P$ with {{< knowl id="curvature" text="curvature" >}} $\Omega\in\Omega^2(P;\mathfrak g)$. For an open set $U\subset M$ and a local section $s:U\to P$, define the local connection form and local curvature form by
 \[
 A := s^*\omega \in \Omega^1(U;\mathfrak g),
 \qquad

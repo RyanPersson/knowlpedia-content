@@ -11,9 +11,9 @@ A **Lie group** is a group $G$ equipped with the structure of a {{< knowl id="sm
 \]
 Equivalently, $G$ is a smooth manifold for which multiplication and inversion are smooth.
 
-For each $g\in G$, the {{< knowl id="left-translation-l-g" text="left translation" >}} $L_g(h)=gh$ and the {{< knowl id="right-translation-r-g" text="right translation" >}} $R_g(h)=hg$ are {{< knowl id="diffeomorphism" text="diffeomorphisms" >}} of $G$, with inverses $L_{g^{-1}}$ and $R_{g^{-1}}$. The tangent space at the identity $T_eG$ carries a canonical Lie algebra structure, called the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra of $G$" >}}, and the {{< knowl id="exponential-map-lie-group-exponential" text="exponential map" >}} relates this infinitesimal structure to local group behavior near $e$.
+For each $g\in G$, the {{< knowl id="left-translation-l-g" text="left translation" >}} $L_g(h)=gh$ and the {{< knowl id="right-translation-r-g" text="right translation" >}} $R_g(h)=hg$ are {{< knowl id="diffeomorphism" text="diffeomorphisms" >}} of $G$, with inverses $L_{g^{-1}}$ and $R_{g^{-1}}$. The tangent space at the identity $T_eG$ carries a canonical Lie algebra structure, called the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra of $G$" section="lie-groups">}}, and the {{< knowl id="exponential-map-lie-group-exponential" text="exponential map" >}} relates this infinitesimal structure to local group behavior near $e$.
 
-Smooth group homomorphisms between Lie groups are {{< knowl id="lie-group-homomorphism" text="Lie group homomorphisms" >}}.
+Smooth group homomorphisms between Lie groups are {{< knowl id="lie-group-homomorphism" text="Lie group homomorphisms" section="lie-groups">}}.
 
 ## Examples
 

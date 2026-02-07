@@ -10,7 +10,7 @@ description: "Index of knowls manually created for review"
 ### Remaining Manually Created (20)
 
 **Differential Geometry:**
-- {{< knowl id="smooth-manifold" section="differential-geometry" text="smooth-manifold" >}}
+- {{< knowl id="smooth-manifold" section="fiber-bundles" text="smooth-manifold" >}}
 
 **Linear Algebra:**
 - {{< knowl id="matrix" section="linear-algebra" text="matrix" >}}

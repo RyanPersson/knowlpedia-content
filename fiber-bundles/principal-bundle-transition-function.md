@@ -3,7 +3,7 @@ title: "Principal bundle transition function"
 description: "The group-valued cocycle on overlaps that relates two equivariant trivializations of a principal bundle."
 ---
 
-Fix a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} $\pi:P\to M$ and an {{< knowl id="open-cover" text="open cover" >}} $\{U_i\}_{i\in I}$ together with {{< knowl id="equivariant-local-trivialization" text="equivariant local trivializations" >}}
+Fix a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} $\pi:P\to M$ and an {{< knowl id="open-cover" text="open cover" section="topology">}} $\{U_i\}_{i\in I}$ together with {{< knowl id="equivariant-local-trivialization" text="equivariant local trivializations" >}}
 \[
 \psi_i:\pi^{-1}(U_i)\to U_i\times G.
 \]

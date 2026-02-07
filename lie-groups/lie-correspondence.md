@@ -3,7 +3,7 @@ title: "Lie correspondence"
 description: "Connected Lie subgroups correspond to Lie subalgebras via the tangent space at the identity."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra $\mathfrak g=\operatorname{Lie}(G)$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} with Lie algebra $\mathfrak g=\operatorname{Lie}(G)$.
 
 ## Theorem (subgroup–subalgebra correspondence)
 1. If $H\subseteq G$ is a connected {{< knowl id="lie-subgroup" text="Lie subgroup" >}}, then $\operatorname{Lie}(H)$ is a {{< knowl id="lie-subalgebra" text="Lie subalgebra" >}} of $\mathfrak g$ (by {{< knowl id="lie-algebra-of-subgroup-lemma" text="the Lie algebra of a subgroup lemma" >}}).

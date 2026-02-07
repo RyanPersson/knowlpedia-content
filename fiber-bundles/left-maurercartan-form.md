@@ -3,13 +3,13 @@ title: "Left Maurer–Cartan form"
 description: "The canonical Lie-algebra-valued 1-form on a Lie group that identifies each tangent space with the Lie algebra by left translation."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak{g}=T_eG$. The **left Maurer–Cartan form** is the $\mathfrak{g}$-valued 1-form $\theta^L$ on $G$ defined at each $g\in G$ by the linear map
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} $\mathfrak{g}=T_eG$. The **left Maurer–Cartan form** is the $\mathfrak{g}$-valued 1-form $\theta^L$ on $G$ defined at each $g\in G$ by the linear map
 \[
 \theta^L_g:T_gG\longrightarrow \mathfrak{g},
 \qquad
 \theta^L_g(v)= (\mathrm{d}L_{g^{-1}})_g(v),
 \]
-where $L_{g^{-1}}$ is {{< knowl id="left-translation" text="left translation" >}} by $g^{-1}$.
+where $L_{g^{-1}}$ is {{< knowl id="left-translation" section="lie-groups" text="left translation" >}} by $g^{-1}$.
 
 Equivalently, $\theta^L$ is the unique $\mathfrak{g}$-valued 1-form such that:
 - for every $g\in G$, $\theta^L_g$ is the inverse of $(\mathrm{d}L_g)_e:\mathfrak{g}\to T_gG$;

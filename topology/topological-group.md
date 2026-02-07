@@ -19,8 +19,8 @@ Equivalently, the single map \((g, h) \mapsto gh^{-1}\) is continuous.
 - \((\mathbb{R}, +)\) and \((\mathbb{R}^n, +)\) with the Euclidean topology.
 - \((\mathbb{R}^*, \cdot)\) (nonzero reals under multiplication).
 - \(GL_n(\mathbb{R})\) and \(GL_n(\mathbb{C})\) with the subspace topology.
-- {{< knowl id="lie-group" section="lie-groups" text="Lie groups" >}} are smooth topological groups.
+- {{< knowl id="lie-group" section="fiber-bundles" text="Lie groups" >}} are smooth topological groups.
 - Any group with the discrete topology.
 
 ## Relation to Lie groups
-A Lie group is a topological group that is also a {{< knowl id="smooth-manifold" section="differential-geometry" text="smooth manifold" >}} with smooth group operations.
+A Lie group is a topological group that is also a {{< knowl id="smooth-manifold" section="fiber-bundles" text="smooth manifold" >}} with smooth group operations.

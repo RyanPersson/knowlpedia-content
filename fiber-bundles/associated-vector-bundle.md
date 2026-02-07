@@ -5,7 +5,7 @@ description: "A vector bundle obtained from a principal bundle and a linear repr
 
 Associated vector bundles are a special case of {{< knowl id="associated-bundle" text="associated bundles" >}} where the fiber is a vector space and the structure group acts linearly.
 
-Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with right action $(p,g)\mapsto p\cdot g$. Let $\rho:G\to GL(V)$ be a {{< knowl id="representation-of-a-lie-group" text="representation of a Lie group" >}}. View this as a left action of $G$ on $V$ via
+Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with right action $(p,g)\mapsto p\cdot g$. Let $\rho:G\to GL(V)$ be a {{< knowl id="representation-of-a-lie-group" text="representation of a Lie group" section="lie-groups">}}. View this as a left action of $G$ on $V$ via
 \[
 g\cdot v := \rho(g)\,v.
 \]

@@ -3,7 +3,7 @@ title: "Left Translation"
 description: "The diffeomorphism of a Lie group given by multiplying on the left by a fixed element."
 ---
 
-Let \(G\) be a {{< knowl id="lie-group" text="Lie group" >}} and fix \(g\in G\). The **left translation** by \(g\) is the map
+Let \(G\) be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} and fix \(g\in G\). The **left translation** by \(g\) is the map
 $$
 L_g:G\to G,\qquad L_g(h)=gh.
 $$

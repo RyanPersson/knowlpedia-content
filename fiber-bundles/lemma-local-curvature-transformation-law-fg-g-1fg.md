@@ -26,7 +26,7 @@ be its curvature. Then
 \[
 F^g = g^{-1}Fg.
 \]
-Equivalently, $F$ transforms by the {{< knowl id="adjoint-action-of-a-lie-group" text="adjoint action" >}} of $G$ on $\mathfrak g$.
+Equivalently, $F$ transforms by the {{< knowl id="adjoint-action-of-a-lie-group" text="adjoint action" section="lie-groups">}} of $G$ on $\mathfrak g$.
 
 ### Proof (calculation)
 Expand $F^g$ using $A^g=g^{-1}Ag+g^{-1}dg$ and the Leibniz rule:
@@ -49,4 +49,4 @@ so invariant polynomials applied to $F_i$ glue to globally defined {{< knowl id=
    On a trivial bundle, if $A=g^{-1}dg$ is {{< knowl id="pure-gauge-connection-ag-1dg-on-a-trivial-bundle" text="pure gauge" >}}, then $F=dA+A\wedge A=0$. The lemma then gives $F^h=h^{-1}0\,h=0$ for any further gauge transformation $h$.
 
 3. **Associated vector bundles (matrix conjugation).**  
-   If $G$ acts on a vector space via a representation (see {{< knowl id="representation-of-a-lie-group" text="representation" >}}), the induced curvature on the associated vector bundle is a matrix-valued 2-form, and this lemma becomes the familiar rule “curvature matrices conjugate under change of frame.”
+   If $G$ acts on a vector space via a representation (see {{< knowl id="representation-of-a-lie-group" text="representation" section="lie-groups">}}), the induced curvature on the associated vector bundle is a matrix-valued 2-form, and this lemma becomes the familiar rule “curvature matrices conjugate under change of frame.”

@@ -3,7 +3,7 @@ title: "Homogeneous space"
 description: "A manifold with a transitive Lie group action; equivalently a quotient G/H by a stabilizer."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a manifold $M$ (see {{< knowl id="smooth-action-lie-group" text="smooth action" >}}).
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} acting smoothly on a manifold $M$ (see {{< knowl id="smooth-action-lie-group" text="smooth action" >}}).
 
 **Definition (Homogeneous space).**  
 $M$ is a **homogeneous space** for $G$ if the action is {{< knowl id="transitive-action-lie" text="transitive" >}}, i.e. for any $p,q\in M$ there exists $g\in G$ with $g\cdot p=q$.

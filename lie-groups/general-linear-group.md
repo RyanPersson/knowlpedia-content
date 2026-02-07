@@ -16,7 +16,7 @@ with group operation given by composition. After choosing a basis, $\mathrm{GL}(
 \]
 
 **Lie group structure.**  
-Viewed as a subset of the affine space $M_n(\mathbb F)$, $\mathrm{GL}_n(\mathbb F)$ is open (since $\det$ is continuous and $\mathbb F^\times$ is open), hence it is a smooth manifold and a {{< knowl id="lie-group" text="Lie group" >}}. Its Lie algebra is the {{< knowl id="general-linear-lie-algebra" text="general linear Lie algebra" >}} $\mathfrak{gl}_n(\mathbb F)$, identified with $T_I\mathrm{GL}_n(\mathbb F)$ (compare {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra of a Lie group" >}}).
+Viewed as a subset of the affine space $M_n(\mathbb F)$, $\mathrm{GL}_n(\mathbb F)$ is open (since $\det$ is continuous and $\mathbb F^\times$ is open), hence it is a smooth manifold and a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}. Its Lie algebra is the {{< knowl id="general-linear-lie-algebra" text="general linear Lie algebra" >}} $\mathfrak{gl}_n(\mathbb F)$, identified with $T_I\mathrm{GL}_n(\mathbb F)$ (compare {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra of a Lie group" >}}).
 
 **Basic structure.**  
 Over $\mathbb C$, $\mathrm{GL}_n(\mathbb C)$ is connected. Over $\mathbb R$, $\mathrm{GL}_n(\mathbb R)$ has two connected components distinguished by the sign of $\det$. The {{< knowl id="exponential-map-lie-group" text="exponential map" >}} is the matrix exponential $\exp:\mathfrak{gl}_n(\mathbb F)\to \mathrm{GL}_n(\mathbb F)$.

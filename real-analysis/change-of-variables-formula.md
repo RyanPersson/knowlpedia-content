@@ -3,7 +3,7 @@ title: "Change of variables formula"
 description: "A multivariable substitution rule involving the Jacobian determinant."
 ---
 
-**Change of variables formula:** Let $U,V\subseteq\mathbb{R}^n$ be {{< knowl id="open-set" section="topology" text="open sets" >}} and let $\Phi:U\to V$ be a $C^1$ {{< knowl id="diffeomorphism" text="diffeomorphism" >}}. If $f:V\to\mathbb{R}$ is such that the multiple Riemann integrals below exist (for example, if $f$ is continuous with compact support in $V$), then
+**Change of variables formula:** Let $U,V\subseteq\mathbb{R}^n$ be {{< knowl id="open-set" section="topology" text="open sets" >}} and let $\Phi:U\to V$ be a $C^1$ {{< knowl id="diffeomorphism" text="diffeomorphism" section="fiber-bundles">}}. If $f:V\to\mathbb{R}$ is such that the multiple Riemann integrals below exist (for example, if $f$ is continuous with compact support in $V$), then
 $$
 \int_V f(x)\,dx = \int_U f(\Phi(u))\,\bigl|\det D\Phi(u)\bigr|\,du,
 $$

@@ -3,7 +3,7 @@ title: "Compact Lie algebra is reductive"
 description: "The Lie algebra of a compact Lie group splits as center ⊕ semisimple part."
 ---
 
-Let $G$ be a compact {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra $\mathfrak g$.
+Let $G$ be a compact {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} with Lie algebra $\mathfrak g$.
 
 **Theorem (Compact implies reductive).**  
 The Lie algebra $\mathfrak g$ is **reductive**: it decomposes as a direct sum of ideals

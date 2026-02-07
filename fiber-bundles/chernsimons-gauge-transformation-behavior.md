@@ -3,7 +3,7 @@ title: "Gauge transformation behavior of Chern–Simons forms"
 description: "Under a gauge transformation, a Chern–Simons form changes by an exact term plus a group term, yielding a functional well-defined modulo integers in integral normalizations."
 ---
 
-Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group a {{< knowl id="lie-group" text="Lie group" >}} $G$, and let $A$ be a {{< knowl id="principal-connection" text="principal connection" >}} on $P$ with {{< knowl id="curvature" text="curvature" >}} $F_A$. Fix an $\mathrm{Ad}$-invariant homogeneous polynomial $P$ of degree $k$ on the {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak{g}$.
+Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group a {{< knowl id="lie-group" text="Lie group" >}} $G$, and let $A$ be a {{< knowl id="principal-connection" text="principal connection" >}} on $P$ with {{< knowl id="curvature" text="curvature" >}} $F_A$. Fix an $\mathrm{Ad}$-invariant homogeneous polynomial $P$ of degree $k$ on the {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} $\mathfrak{g}$.
 
 ## Statement (name-level, with standard formula)
 

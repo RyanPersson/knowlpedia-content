@@ -3,7 +3,7 @@ title: "Normal Lie subgroup"
 description: "A Lie subgroup invariant under conjugation; infinitesimally, it corresponds to an ideal."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}.
 
 A {{< knowl id="lie-subgroup" text="Lie subgroup" >}} $N\subseteq G$ is **normal** if
 $$

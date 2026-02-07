@@ -3,7 +3,7 @@ title: "Exponential map is a local diffeomorphism"
 description: "For any Lie group , is a diffeomorphism from a neighborhood of onto a neighborhood of ."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra $\mathfrak g$ and {{< knowl id="exponential-map-lie-group" text="exponential map" >}} $\exp:\mathfrak g\to G$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} with Lie algebra $\mathfrak g$ and {{< knowl id="exponential-map-lie-group" text="exponential map" >}} $\exp:\mathfrak g\to G$.
 
 ## Theorem
 There exist open neighborhoods $U\subset \mathfrak g$ of $0$ and $V\subset G$ of the identity element $e$ such that

@@ -4,7 +4,7 @@ description: "For a smooth action , the stabilizer fixes a point and is a closed
 ---
 
 ### Definition
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a manifold $M$ via an action map $a:G\times M\to M$ (see {{< knowl id="smooth-action-lie-group" text="smooth actions of Lie groups" >}}). For a point $x\in M$, the **stabilizer** (or **isotropy subgroup**) at $x$ is
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} acting smoothly on a manifold $M$ via an action map $a:G\times M\to M$ (see {{< knowl id="smooth-action-lie-group" text="smooth actions of Lie groups" >}}). For a point $x\in M$, the **stabilizer** (or **isotropy subgroup**) at $x$ is
 $$
 G_x=\{g\in G\mid g\cdot x=x\}.
 $$

@@ -3,7 +3,7 @@ title: "Free action"
 description: "A Lie group action is free if all stabilizers are trivial."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a manifold $M$ via a {{< knowl id="smooth-action-lie-group" text="smooth action" >}} $G\times M\to M$, $(g,p)\mapsto g\cdot p$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} acting smoothly on a manifold $M$ via a {{< knowl id="smooth-action-lie-group" text="smooth action" >}} $G\times M\to M$, $(g,p)\mapsto g\cdot p$.
 
 **Definition (Free action).**  
 The action is **free** if for every $p\in M$, the {{< knowl id="stabilizer-lie-group" text="stabilizer" >}}

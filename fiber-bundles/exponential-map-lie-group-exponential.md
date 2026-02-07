@@ -3,7 +3,7 @@ title: "Exponential Map of a Lie Group"
 description: "The map _G:g G sending X to the time-1 value of the unique one-parameter subgroup with velocity X at the identity."
 ---
 
-Let \(G\) be a {{< knowl id="lie-group" text="Lie group" >}} with identity element \(e\), and let \(\mathfrak g=T_eG\) be its {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" >}}.
+Let \(G\) be a {{< knowl id="lie-group" text="Lie group" >}} with identity element \(e\), and let \(\mathfrak g=T_eG\) be its {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" section="lie-groups">}}.
 
 **Definition (Lie group exponential).**  
 For each \(X\in \mathfrak g\), there exists a unique smooth group homomorphism
@@ -14,13 +14,13 @@ such that \(\gamma_X(0)=e\) and \(\gamma_X'(0)=X\) (viewing \(X\) as a tangent v
 \[
 \exp_G:\mathfrak g\longrightarrow G,\qquad \exp_G(X)=\gamma_X(1).
 \]
-Equivalently, \(\gamma_X(t)=\exp_G(tX)\) is the integral curve through \(e\) of the {{< knowl id="left-invariant-vector-field" text="left-invariant vector field" >}} determined by \(X\), defined using {{< knowl id="left-translation-l-g" text="left translations" >}}.
+Equivalently, \(\gamma_X(t)=\exp_G(tX)\) is the integral curve through \(e\) of the {{< knowl id="left-invariant-vector-field" text="left-invariant vector field" section="lie-groups">}} determined by \(X\), defined using {{< knowl id="left-translation-l-g" text="left translations" >}}.
 
 **Basic properties.**
 - \(\exp_G(0)=e\) and \((d\exp_G)_0=\mathrm{id}_{\mathfrak g}\).
 - The curve \(t\mapsto \exp_G(tX)\) is a one-parameter subgroup: \(\exp_G((s+t)X)=\exp_G(sX)\exp_G(tX)\).
 - If \(X,Y\in\mathfrak g\) commute (i.e. \([X,Y]=0\) for the {{< knowl id="lie-bracket" text="Lie bracket" >}}), then \(\exp_G(X+Y)=\exp_G(X)\exp_G(Y)\).
-- If \(\varphi:G\to H\) is a {{< knowl id="lie-group-homomorphism" text="Lie group homomorphism" >}}, then \(\varphi\) intertwines exponentials via the induced {{< knowl id="differential-of-a-lie-group-homomorphism-lie-algebra-homomorphism" text="Lie algebra homomorphism" >}}:
+- If \(\varphi:G\to H\) is a {{< knowl id="lie-group-homomorphism" text="Lie group homomorphism" section="lie-groups">}}, then \(\varphi\) intertwines exponentials via the induced {{< knowl id="differential-of-a-lie-group-homomorphism-lie-algebra-homomorphism" text="Lie algebra homomorphism" >}}:
   \[
   \varphi(\exp_G(X))=\exp_H(d\varphi_e(X)).
   \]

@@ -3,7 +3,7 @@ title: "Compact Lie group"
 description: "A Lie group that is compact as a manifold (equivalently, as a topological group)."
 ---
 
-**Definition.** A {{< knowl id="lie-group" text="Lie group" >}} $G$ is **compact** if its underlying topological space is compact.
+**Definition.** A {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} $G$ is **compact** if its underlying topological space is compact.
 
 **Core structural features.**
 - Compactness implies the existence of a bi-invariant Haar measure, enabling averaging arguments throughout geometry and representation theory.

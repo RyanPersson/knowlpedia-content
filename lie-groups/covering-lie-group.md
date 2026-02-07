@@ -3,7 +3,7 @@ title: "Covering Lie group"
 description: "A Lie group homomorphism that is a covering map; its kernel is discrete and central and it induces an isomorphism of Lie algebras."
 ---
 
-A **covering Lie group map** is a smooth homomorphism of {{< knowl id="lie-group" text="Lie groups" >}}
+A **covering Lie group map** is a smooth homomorphism of {{< knowl id="lie-group" text="Lie groups" section="fiber-bundles">}}
 \[
 p:\widetilde G \longrightarrow G
 \]

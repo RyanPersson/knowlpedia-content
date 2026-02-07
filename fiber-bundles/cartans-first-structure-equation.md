@@ -47,4 +47,4 @@ d\theta+\omega\wedge\theta=0.
    which is exactly $\Theta=0$ expressed using the first structure equation.
 
 3. **Teleparallel (Weitzenböck) connection on a Lie group.**  
-   Let $M=G$ be a {{< knowl id="lie-group" text="Lie group" >}} with a global left-invariant frame. The connection for which that frame is parallel has $\omega=0$ in that trivialization, but typically $d\theta\neq 0$ for the left-invariant coframe. Then $\Theta=d\theta$ encodes the structure constants of the corresponding {{< knowl id="lie-algebra" text="Lie algebra" >}}.
+   Let $M=G$ be a {{< knowl id="lie-group" text="Lie group" >}} with a global left-invariant frame. The connection for which that frame is parallel has $\omega=0$ in that trivialization, but typically $d\theta\neq 0$ for the left-invariant coframe. Then $\Theta=d\theta$ encodes the structure constants of the corresponding {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}}.

@@ -3,7 +3,7 @@ title: "Orbit of a Lie group action"
 description: "The set of points reachable from x under the action; it is an immersed homogeneous space."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a manifold $M$; see {{< knowl id="smooth-action-lie-group" text="smooth Lie group actions" >}}. Fix $x\in M$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} acting smoothly on a manifold $M$; see {{< knowl id="smooth-action-lie-group" text="smooth Lie group actions" >}}. Fix $x\in M$.
 
 The **orbit** of $x$ is
 $$

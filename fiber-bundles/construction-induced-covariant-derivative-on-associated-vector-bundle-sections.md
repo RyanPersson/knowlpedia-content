@@ -3,7 +3,7 @@ title: "Induced covariant derivative on sections of an associated vector bundle"
 description: "How a principal connection induces a covariant derivative on sections of an associated vector bundle."
 ---
 
-Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group $G$, and let $\rho:G\to \mathrm{GL}(V)$ be a {{< knowl id="representation-of-a-lie-group" text="representation of a Lie group" >}} on a vector space $V$.
+Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group $G$, and let $\rho:G\to \mathrm{GL}(V)$ be a {{< knowl id="representation-of-a-lie-group" text="representation of a Lie group" section="lie-groups">}} on a vector space $V$.
 
 Form the {{< knowl id="associated-vector-bundle" text="associated vector bundle" >}} $E := P\times_G V$ (using the {{< knowl id="convention-associated-bundles-use-a-left-g-action-on-the-fiber-f" text="standard left action convention on the fiber" >}}).
 

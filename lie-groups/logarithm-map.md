@@ -3,7 +3,7 @@ title: "Logarithm map"
 description: "A local inverse to the exponential map near the identity of a Lie group."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra $\mathfrak g$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} with Lie algebra $\mathfrak g$.
 
 A **logarithm map** on $G$ is a smooth map
 $$

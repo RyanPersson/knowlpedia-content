@@ -11,7 +11,7 @@ equipped with the commutator bracket
 \[
 [X,Y]=XY-YX
 \]
-(see {{< knowl id="lie-bracket" text="Lie bracket" >}} and compare {{< knowl id="general-linear-lie-algebra" text="general linear Lie algebra" >}}).
+(see {{< knowl id="lie-bracket" text="Lie bracket" section="fiber-bundles">}} and compare {{< knowl id="general-linear-lie-algebra" text="general linear Lie algebra" >}}).
 
 This Lie algebra is the Lie algebra of the {{< knowl id="special-linear-group" text="special linear group" >}} $SL(n,\mathbb F)$: under the identification $T_I SL(n,\mathbb F)\cong \mathfrak{sl}_n(\mathbb F)$, tangent vectors at the identity are exactly the trace-zero directions. Equivalently, $\mathfrak{sl}_n(\mathbb F)$ is the kernel of the differential of $\det:GL(n,\mathbb F)\to\mathbb F^\times$ at the identity.
 

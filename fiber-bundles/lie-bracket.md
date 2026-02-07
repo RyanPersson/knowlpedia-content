@@ -21,7 +21,7 @@ In differential geometry, there is a canonical Lie bracket on the space of {{< k
 \]
 This produces another vector field and turns the space of vector fields into a Lie algebra.
 
-For a {{< knowl id="lie-group" text="Lie group" >}} $G$, the Lie bracket on the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra of $G$" >}} is obtained by restricting the vector-field bracket to {{< knowl id="left-invariant-vector-field" text="left-invariant vector fields" >}} and evaluating at the identity.
+For a {{< knowl id="lie-group" text="Lie group" >}} $G$, the Lie bracket on the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra of $G$" section="lie-groups">}} is obtained by restricting the vector-field bracket to {{< knowl id="left-invariant-vector-field" text="left-invariant vector fields" section="lie-groups">}} and evaluating at the identity.
 
 ## Examples
 

@@ -8,4 +8,4 @@ $$
 D(f^{-1})(f(a))=(Df(a))^{-1}.
 $$
 
-Thus, near $a$, the map $f$ is a {{< knowl id="diffeomorphism" text="diffeomorphism" >}} onto its image; in particular it is a local {{< knowl id="homeomorphism" section="topology" text="homeomorphism" >}}.
+Thus, near $a$, the map $f$ is a {{< knowl id="diffeomorphism" text="diffeomorphism" section="fiber-bundles">}} onto its image; in particular it is a local {{< knowl id="homeomorphism" section="topology" text="homeomorphism" >}}.

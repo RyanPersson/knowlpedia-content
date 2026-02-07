@@ -3,7 +3,7 @@ title: "Closed subgroup of a Lie group"
 description: "A subgroup that is closed in the topology of the ambient Lie group."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} and let $H\le G$ be a subgroup.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} and let $H\le G$ be a subgroup.
 
 **Definition.** $H$ is a **closed subgroup** if it is closed as a subset of the underlying manifold (equivalently, as a subset of the underlying Hausdorff topological space) of $G$.
 

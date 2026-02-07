@@ -3,7 +3,7 @@ title: "Lie Group Homomorphism"
 description: "A smooth map between Lie groups that is also a group homomorphism."
 ---
 
-A **Lie group homomorphism** is a map \(\varphi:G\to H\) between {{< knowl id="lie-group" text="Lie groups" >}} such that:
+A **Lie group homomorphism** is a map \(\varphi:G\to H\) between {{< knowl id="lie-group" text="Lie groups" section="fiber-bundles">}} such that:
 - \(\varphi(gh)=\varphi(g)\varphi(h)\) for all \(g,h\in G\), and
 - \(\varphi\) is a {{< knowl id="smooth-map" section="fiber-bundles" text="smooth map" >}}.
 

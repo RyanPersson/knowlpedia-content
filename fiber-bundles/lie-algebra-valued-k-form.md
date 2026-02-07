@@ -3,7 +3,7 @@ title: "Lie-algebra-valued k-form"
 description: "A differential form whose values lie in a fixed Lie algebra."
 ---
 
-Let $M$ be a smooth manifold and let {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak{g}$ be fixed.
+Let $M$ be a smooth manifold and let {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} $\mathfrak{g}$ be fixed.
 
 A **$\mathfrak{g}$-valued differential k-form** on $M$ is a smooth section of the vector bundle
 \[

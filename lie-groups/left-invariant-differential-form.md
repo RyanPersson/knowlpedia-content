@@ -3,7 +3,7 @@ title: "Left-invariant differential form"
 description: "A differential form on a Lie group fixed by all left translations."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}, and let $L_g:G\to G$ denote {{< knowl id="left-translation" text="left translation" >}} by $g$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}, and let $L_g:G\to G$ denote {{< knowl id="left-translation" text="left translation" >}} by $g$.
 
 **Definition (Left-invariant form).**  
 A differential $k$-form $\omega\in \Omega^k(G)$ is **left-invariant** if

@@ -4,7 +4,7 @@ description: "The Lie algebra bundle associated to a principal G-bundle via the 
 tags: ["needs-review"]
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak g$. Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}}. The adjoint representation $\mathrm{Ad}:G\to \mathrm{Aut}(\mathfrak g)$ gives a left action of $G$ on $\mathfrak g$ by $g\cdot X := \mathrm{Ad}(g)X$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} $\mathfrak g$. Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}}. The adjoint representation $\mathrm{Ad}:G\to \mathrm{Aut}(\mathfrak g)$ gives a left action of $G$ on $\mathfrak g$ by $g\cdot X := \mathrm{Ad}(g)X$.
 
 **Construction (adjoint Lie algebra bundle).** Define
 \[

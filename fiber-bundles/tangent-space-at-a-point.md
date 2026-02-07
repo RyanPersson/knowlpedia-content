@@ -38,4 +38,4 @@ called the {{< knowl id="differential-pushforward-of-a-smooth-map" text="differe
    \]
    i.e. the plane through the origin orthogonal to \(p\).
 
-3. **Lie groups.** For a {{< knowl id="lie-group" text="Lie group" >}} \(G\) with identity element \(e\), the tangent space \(T_eG\) is the underlying vector space of the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" >}} of \(G\).
+3. **Lie groups.** For a {{< knowl id="lie-group" text="Lie group" >}} \(G\) with identity element \(e\), the tangent space \(T_eG\) is the underlying vector space of the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" section="lie-groups">}} of \(G\).

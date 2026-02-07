@@ -3,7 +3,7 @@ title: "Differential of a Lie group homomorphism"
 description: "If is a Lie group homomorphism, then is a Lie algebra homomorphism."
 ---
 
-Let $\Phi:G\to H$ be a {{< knowl id="lie-group-homomorphism" text="Lie group homomorphism" >}} between {{< knowl id="lie-group" text="Lie groups" >}}, and let $\mathfrak g=\mathrm{Lie}(G)$ and $\mathfrak h=\mathrm{Lie}(H)$ (see {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra of a Lie group" >}}).
+Let $\Phi:G\to H$ be a {{< knowl id="lie-group-homomorphism" text="Lie group homomorphism" >}} between {{< knowl id="lie-group" text="Lie groups" section="fiber-bundles">}}, and let $\mathfrak g=\mathrm{Lie}(G)$ and $\mathfrak h=\mathrm{Lie}(H)$ (see {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra of a Lie group" >}}).
 
 ## Theorem
 The differential at the identity,

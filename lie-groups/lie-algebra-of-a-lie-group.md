@@ -3,7 +3,7 @@ title: "Lie Algebra of a Lie Group"
 description: "The tangent space at the identity of a Lie group, equipped with a canonical bracket from invariant vector fields."
 ---
 
-Let \(G\) be a {{< knowl id="lie-group" text="Lie group" >}} with identity element \(e\).
+Let \(G\) be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} with identity element \(e\).
 The **Lie algebra of \(G\)** is the {{< knowl id="tangent-space" section="differential-geometry" text="tangent space" >}}
 $$
 \mathfrak{g} := T_eG.

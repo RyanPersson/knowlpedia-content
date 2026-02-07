@@ -9,7 +9,7 @@ g_{ij}:U_i\cap U_j \to G
 \]
 be the transition functions determined by the $s_i$, as in {{< knowl id="construction-transition-functions-g-iju-iu-jg-from-local-sections" text="constructing transition functions from local sections" >}}.
 
-Let $H\subset G$ be a {{< knowl id="lie-subgroup" text="Lie subgroup" >}}.
+Let $H\subset G$ be a {{< knowl id="lie-subgroup" text="Lie subgroup" section="lie-groups">}}.
 
 ## Construction (reduction from H-valued transitions)
 Assume that for all $i,j$ and all $x\in U_i\cap U_j$ we have

@@ -5,7 +5,7 @@ description: "A smooth action that is both free and proper."
 
 Let $G$ act smoothly on a manifold $M$.
 
-A **principal action** is an action that is simultaneously a {{< knowl id="free-action" text="free action" >}} and a {{< knowl id="proper-action" text="proper action" >}}.
+A **principal action** is an action that is simultaneously a {{< knowl id="free-action" text="free action" section="algebra-groups">}} and a {{< knowl id="proper-action" text="proper action" >}}.
 
 Equivalently, a principal action is precisely the hypothesis under which the orbit space carries a canonical smooth structure making the projection $M\to M/G$ into a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} (see {{< knowl id="quotient-manifold" text="quotient manifold" >}}).
 

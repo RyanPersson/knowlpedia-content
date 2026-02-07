@@ -3,7 +3,7 @@ title: "Left Maurer–Cartan form"
 description: "The canonical g-valued 1-form θ^L = (dL_{g^{-1}})_g on a Lie group."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra $\mathfrak g=T_eG$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} with Lie algebra $\mathfrak g=T_eG$.
 
 **Definition (Left Maurer–Cartan form).**  
 The **left Maurer–Cartan form** is the $\mathfrak g$-valued $1$-form $\theta^L\in \Omega^1(G;\mathfrak g)$ defined by

@@ -7,7 +7,7 @@ Let $\mathfrak g$ be a Lie algebra. Define its derived series (see {{< knowl id=
 \[
 \mathfrak g^{(0)}=\mathfrak g,\qquad \mathfrak g^{(k+1)}=[\mathfrak g^{(k)},\mathfrak g^{(k)}],
 \]
-where $[\cdot,\cdot]$ denotes the {{< knowl id="lie-bracket" text="Lie bracket" >}} and each derived algebra is an ideal (compare {{< knowl id="derived-subalgebra" text="derived subalgebra" >}} and {{< knowl id="derived-subalgebra-is-ideal-lemma" text="it is an ideal" >}}).
+where $[\cdot,\cdot]$ denotes the {{< knowl id="lie-bracket" text="Lie bracket" section="fiber-bundles">}} and each derived algebra is an ideal (compare {{< knowl id="derived-subalgebra" text="derived subalgebra" >}} and {{< knowl id="derived-subalgebra-is-ideal-lemma" text="it is an ideal" >}}).
 
 The Lie algebra $\mathfrak g$ is **solvable** if there exists $n$ such that
 \[

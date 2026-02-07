@@ -12,7 +12,7 @@ The {{< knowl id="derived-subalgebra" text="derived subalgebra" >}} $[\mathfrak 
 \]
 
 ## Proof
-Take $x\in\mathfrak g$ and an element of $[\mathfrak g,\mathfrak g]$ of the form $[y,z]$. Using the Jacobi identity for the {{< knowl id="lie-bracket" text="Lie bracket" >}},
+Take $x\in\mathfrak g$ and an element of $[\mathfrak g,\mathfrak g]$ of the form $[y,z]$. Using the Jacobi identity for the {{< knowl id="lie-bracket" text="Lie bracket" section="fiber-bundles">}},
 \[
 [x,[y,z]] = [[x,y],z] + [y,[x,z]].
 \]

@@ -3,7 +3,7 @@ title: "Adjoint Representation of a Lie Algebra"
 description: "The representation sending an element to the linear map given by bracketing with it."
 ---
 
-Let \(\mathfrak{g}\) be a {{< knowl id="lie-algebra" text="Lie algebra" >}} with {{< knowl id="lie-bracket" text="Lie bracket" >}} \([\ ,\ ]\).
+Let \(\mathfrak{g}\) be a {{< knowl id="lie-algebra" text="Lie algebra" >}} with {{< knowl id="lie-bracket" text="Lie bracket" section="fiber-bundles">}} \([\ ,\ ]\).
 For \(X\in\mathfrak{g}\), define a linear map
 $$
 \operatorname{ad}_X:\mathfrak{g}\to \mathfrak{g},\qquad \operatorname{ad}_X(Y)=[X,Y].

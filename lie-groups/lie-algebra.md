@@ -7,7 +7,7 @@ A **Lie algebra** is a {{< knowl id="vector-space" section="linear-algebra" text
 $$
 [\ ,\ ]:\mathfrak{g}\times\mathfrak{g}\to\mathfrak{g},
 $$
-called the {{< knowl id="lie-bracket" text="Lie bracket" >}}, such that for all \(X,Y,Z\in\mathfrak{g}\):
+called the {{< knowl id="lie-bracket" text="Lie bracket" section="fiber-bundles">}}, such that for all \(X,Y,Z\in\mathfrak{g}\):
 1. **Alternating / antisymmetry:** \([X,X]=0\) (equivalently \([X,Y]=-[Y,X]\)).
 2. **Jacobi identity:**
 $$

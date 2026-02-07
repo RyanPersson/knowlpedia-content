@@ -11,10 +11,6 @@ There exists at least one {{< knowl id="principal-connection" text="principal co
 
 Equivalently: every principal bundle over a smooth manifold admits a $G$-equivariant horizontal distribution $H\subset TP$ complementary to the vertical subbundle.
 
-## Proof idea (standard gluing argument)
-
-Choose a cover $\{U_i\}$ over which $P$ is trivial and pick arbitrary local connection 1-forms on $U_i$ (for instance, the product connection in each trivialization). On overlaps $U_{ij}$, the difference of two local connection forms is tensorial and can be interpreted as an $\operatorname{ad}(P)$-valued $1$-form on $U_{ij}$. Using a smooth partition of unity subordinate to the cover, one forms a convex combination of local data to obtain a globally defined connection.
-
 ## Examples
 
 1. **Trivial bundle.** On $P=M\times G$, the product distribution $T M\oplus 0$ defines a connection; in connection-form language, this is the “flat” connection.

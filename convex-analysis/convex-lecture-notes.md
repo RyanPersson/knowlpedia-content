@@ -1990,7 +1990,7 @@ $$
 
 #### 3.1.2 Minkowski Gauges
 
-Let $\Omega$ be a nonempty {{< knowl id="balanced-and-absorbing-sets" text="absorbing set" >}} in a vector space $X$. The {{< knowl id="minkowski-function-gauge-of-a-set" text="Minkowski function" >}} $p_\Omega: X \to {{< knowl id="extended-real-number-system-and-conventions" text="$\\overline{\\mathbb{R}}$" >}}$, known also the Minkowski gauge, is defined by
+Let $\Omega$ be a nonempty {{< knowl id="balanced-and-absorbing-sets" text="absorbing set" >}} in a vector space $X$. The {{< knowl id="minkowski-function-gauge-of-a-set" text="Minkowski function" >}} $p_\Omega: X \to \overline{\mathbb{R}}$, known also as the Minkowski gauge, is defined by
 
 $$
 p_\Omega(x) := \inf\{\, t \ge 0 \mid x \in t\Omega \,\}, \qquad x \in X.

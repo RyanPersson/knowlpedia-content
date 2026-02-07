@@ -3,7 +3,7 @@ title: "Representation of a Lie Group"
 description: "A smooth homomorphism from a Lie group to the group of invertible linear maps on a vector space."
 ---
 
-Let \(G\) be a {{< knowl id="lie-group" text="Lie group" >}} and \(V\) a finite-dimensional {{< knowl id="vector-space" section="linear-algebra" text="vector space" >}}.
+Let \(G\) be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} and \(V\) a finite-dimensional {{< knowl id="vector-space" section="linear-algebra" text="vector space" >}}.
 A **(linear) representation of \(G\)** is a {{< knowl id="lie-group-homomorphism" text="Lie group homomorphism" >}}
 $$
 \rho: G \to \operatorname{GL}(V),

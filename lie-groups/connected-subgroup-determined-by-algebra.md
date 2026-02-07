@@ -3,7 +3,7 @@ title: "Connected subgroup determined by its Lie algebra"
 description: "In a Lie group, a connected Lie subgroup is uniquely determined by its Lie algebra."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}. The slogan “Lie algebra determines the connected subgroup” can be made precise as follows.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}. The slogan “Lie algebra determines the connected subgroup” can be made precise as follows.
 
 ## Theorem (uniqueness)
 If $H_1,H_2\subseteq G$ are connected {{< knowl id="lie-subgroup" text="Lie subgroups" >}} and

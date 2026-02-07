@@ -3,7 +3,7 @@ title: "Right Translation"
 description: "The diffeomorphism of a Lie group given by multiplying on the right by a fixed element."
 ---
 
-Let \(G\) be a {{< knowl id="lie-group" text="Lie group" >}} and fix \(g\in G\). The **right translation** by \(g\) is the map
+Let \(G\) be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} and fix \(g\in G\). The **right translation** by \(g\) is the map
 $$
 R_g:G\to G,\qquad R_g(h)=hg.
 $$

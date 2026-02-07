@@ -3,7 +3,7 @@ title: "Equivalent conditions for reduction of structure group"
 description: "Reduction of a principal G bundle to a subgroup H is equivalent to an H subbundle, H valued transition functions, or a section of the G mod H bundle."
 ---
 
-Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group $G$, and let $H\subset G$ be a Lie subgroup (see {{< knowl id="lie-subgroup" text="Lie subgroup" >}}). A **reduction of structure group to $H$** means, informally, that $P$ can be described using $H$ as the structure group instead of $G$ (see {{< knowl id="reduction-of-structure-group" text="reduction of structure group" >}}).
+Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with structure group $G$, and let $H\subset G$ be a Lie subgroup (see {{< knowl id="lie-subgroup" text="Lie subgroup" section="lie-groups">}}). A **reduction of structure group to $H$** means, informally, that $P$ can be described using $H$ as the structure group instead of $G$ (see {{< knowl id="reduction-of-structure-group" text="reduction of structure group" >}}).
 
 ## Theorem (TFAE: reduction to H)
 The following are equivalent:

@@ -16,7 +16,7 @@ Applying the {{< knowl id="differential-pushforward-of-a-smooth-map" text="diffe
 \[
 (dL_g)_h:T_hG\longrightarrow T_{gh}G.
 \]
-This is a fundamental way to move tangent vectors between the {{< knowl id="tangent-space-at-a-point" text="tangent spaces" >}} of \(G\). In particular, left translations are used to define {{< knowl id="left-invariant-vector-field" text="left-invariant vector fields" >}} and to construct the {{< knowl id="exponential-map-lie-group-exponential" text="exponential map" >}} via flows.
+This is a fundamental way to move tangent vectors between the {{< knowl id="tangent-space-at-a-point" text="tangent spaces" >}} of \(G\). In particular, left translations are used to define {{< knowl id="left-invariant-vector-field" text="left-invariant vector fields" section="lie-groups">}} and to construct the {{< knowl id="exponential-map-lie-group-exponential" text="exponential map" >}} via flows.
 
 The family \(\{L_g\}_{g\in G}\) satisfies the representation property
 \[

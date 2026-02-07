@@ -13,5 +13,5 @@ Equivalently, \(X\) is a smooth section of the {{< knowl id="vertical-subbundle"
 
 ## Examples
 1. **Product projection:** on \(M\times F\to M\), any field of the form \(X_{(x,f)}=(0,Y_{(x,f)})\) (no component along \(M\)) is vertical; for instance \(X(x,f)=(0,Y_f)\) for a fixed vector field \(Y\) on \(F\).
-2. **Principal bundles:** on a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} \(P\to M\), each \(\xi\) in the {{< knowl id="lie-algebra" text="Lie algebra" >}} \(\mathfrak g\) defines a vertical fundamental vector field \(\xi_P\) generating the right \(G\)-action.
+2. **Principal bundles:** on a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} \(P\to M\), each \(\xi\) in the {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} \(\mathfrak g\) defines a vertical fundamental vector field \(\xi_P\) generating the right \(G\)-action.
 3. **Vector bundles:** on a {{< knowl id="vector-bundle" text="vector bundle" >}} \(E\to M\), the Euler (radial) vector field that differentiates fiberwise scalar multiplication \(t\cdot e\) is vertical.

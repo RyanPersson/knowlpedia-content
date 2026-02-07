@@ -63,4 +63,4 @@ knowlsOpen: true
 {{< knowl id="prop-free-energy-convexity-temperature" section="thermodynamics" text="prop-free-energy-convexity-temperature" >}},
 {{< knowl id="thermal-equilibrium" section="thermodynamics" text="thermal-equilibrium" >}},
 {{< knowl id="thermodynamic-limit-convention" section="thermodynamics" text="thermodynamic-limit-convention" >}},
-{{< knowl id="thermodynamic-limit-pressure-lattice" section="thermodynamics" text="thermodynamic-limit-pressure-lattice" >}}
+{{< knowl id="thermodynamic-limit-pressure-lattice" section="stat-mech-lattice" text="thermodynamic-limit-pressure-lattice" >}}

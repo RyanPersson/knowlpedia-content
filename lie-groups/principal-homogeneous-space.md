@@ -3,7 +3,7 @@ title: "Principal Homogeneous Space"
 description: "A space with a free and transitive action of a Lie group, also called a torsor."
 ---
 
-Let \(G\) be a {{< knowl id="lie-group" text="Lie group" >}}. A **principal homogeneous space** (or **\(G\)-torsor**) is a {{< knowl id="smooth-manifold" section="fiber-bundles" text="smooth manifold" >}} \(P\) equipped with a smooth action
+Let \(G\) be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}. A **principal homogeneous space** (or **\(G\)-torsor**) is a {{< knowl id="smooth-manifold" section="fiber-bundles" text="smooth manifold" >}} \(P\) equipped with a smooth action
 $$
 G\times P \to P,\qquad (g,p)\mapsto g\cdot p,
 $$

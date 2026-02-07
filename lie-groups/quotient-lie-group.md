@@ -3,7 +3,7 @@ title: "Quotient Lie group"
 description: "If N is a closed normal Lie subgroup of G, then G/N carries a natural Lie group structure."
 ---
 
-Let $G$ be a Lie group (see {{< knowl id="lie-group" text="Lie group" >}}) and let $N\trianglelefteq G$ be a **closed normal Lie subgroup** (see {{< knowl id="normal-lie-subgroup" text="normal Lie subgroup" >}} and {{< knowl id="closed-subgroup-theorem" text="closed subgroup theorem" >}}). The quotient set $G/N$ carries a natural smooth manifold structure such that:
+Let $G$ be a Lie group (see {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}) and let $N\trianglelefteq G$ be a **closed normal Lie subgroup** (see {{< knowl id="normal-lie-subgroup" text="normal Lie subgroup" >}} and {{< knowl id="closed-subgroup-theorem" text="closed subgroup theorem" >}}). The quotient set $G/N$ carries a natural smooth manifold structure such that:
 
 - the quotient map $q:G\to G/N$ is a smooth submersion,
 - the group operation induced from $G$ is smooth,

@@ -3,7 +3,7 @@ title: "Right-Invariant Vector Field"
 description: "A vector field on a Lie group that is unchanged by all right translations."
 ---
 
-Let \(G\) be a {{< knowl id="lie-group" text="Lie group" >}}. A {{< knowl id="vector-field" section="fiber-bundles" text="vector field" >}} \(X\) on \(G\) is **right-invariant** if for every \(g\in G\),
+Let \(G\) be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}. A {{< knowl id="vector-field" section="fiber-bundles" text="vector field" >}} \(X\) on \(G\) is **right-invariant** if for every \(g\in G\),
 $$
 (R_g)_*X = X,
 $$
@@ -26,6 +26,6 @@ Under the identification \(v\mapsto X^R\), the commutator of right-invariant vec
 $$
 [X^R,Y^R] = -([v,w])^R,
 $$
-so the bracket corresponds to the negative of the usual {{< knowl id="lie-bracket" text="Lie bracket" >}} on \(\mathfrak{g}\). (Left-invariant fields match the bracket without the minus sign; see {{< knowl id="left-invariant-vector-field" text="left-invariant vector fields" >}}.)
+so the bracket corresponds to the negative of the usual {{< knowl id="lie-bracket" text="Lie bracket" section="fiber-bundles">}} on \(\mathfrak{g}\). (Left-invariant fields match the bracket without the minus sign; see {{< knowl id="left-invariant-vector-field" text="left-invariant vector fields" >}}.)
 
 Right-invariant fields are often convenient when studying conjugation and the {{< knowl id="adjoint-action-of-a-lie-group" text="adjoint action" >}}.

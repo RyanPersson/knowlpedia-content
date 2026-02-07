@@ -29,10 +29,6 @@ The form $P(\Omega)$ is **basic** on $P$ in the sense of {{< knowl id="basic-dif
 
 Therefore there exists a unique form $\alpha\in\Omega^{2k}(M)$ such that $\pi^*\alpha=P(\Omega)$; this $\alpha$ is the Chern–Weil form on the base.
 
-## Proof idea
-- The curvature $\Omega$ is horizontal: $\iota_{X^\#}\Omega=0$ for all fundamental vertical $X^\#$. Multilinearity of $P$ then implies $\iota_{X^\#}P(\Omega)=0$.
-- The curvature transforms by the adjoint action: $R_g^*\Omega=\mathrm{Ad}_{g^{-1}}\Omega$ (using the {{< knowl id="adjoint-action-of-a-lie-group" text="adjoint action" >}}). Since $P$ is $\mathrm{Ad}$-invariant, applying $P$ yields $R_g^*P(\Omega)=P(\Omega)$.
-
 ## Examples
 1. **Abelian case: $U(1)$**
    For $G=U(1)$, the adjoint action is trivial, and $P$ can be taken to be the identity on $\mathfrak{u}(1)\cong i\mathbb{R}$. Then the Chern–Weil form is simply $P(\Omega)=\Omega$, and the lemma says $\Omega$ is basic, hence descends to a 2-form on $M$. This is exactly what happens in the {{< knowl id="dirac-monopole-connection-on-the-hopf-bundle" text="Dirac monopole" >}} example on the Hopf bundle.

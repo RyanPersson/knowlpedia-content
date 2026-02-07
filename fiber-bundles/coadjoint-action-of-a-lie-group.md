@@ -3,7 +3,7 @@ title: "Coadjoint action of a Lie group"
 description: "The induced action of a Lie group on the dual of its Lie algebra obtained by dualizing the adjoint action."
 ---
 
-Let $G$ be a Lie group with Lie algebra $\mathfrak{g}$. The {{< knowl id="adjoint-action-of-a-lie-group" text="adjoint action" >}} assigns to each $g\in G$ an automorphism $\mathrm{Ad}_g:\mathfrak{g}\to\mathfrak{g}$. The **coadjoint action** is the action of $G$ on the dual vector space $\mathfrak{g}^*$ (canonically analogous to a fiber of a {{< knowl id="cotangent-bundle" text="cotangent bundle" >}}) defined by
+Let $G$ be a Lie group with Lie algebra $\mathfrak{g}$. The {{< knowl id="adjoint-action-of-a-lie-group" text="adjoint action" section="lie-groups">}} assigns to each $g\in G$ an automorphism $\mathrm{Ad}_g:\mathfrak{g}\to\mathfrak{g}$. The **coadjoint action** is the action of $G$ on the dual vector space $\mathfrak{g}^*$ (canonically analogous to a fiber of a {{< knowl id="cotangent-bundle" text="cotangent bundle" >}}) defined by
 \[
 \mathrm{Ad}^*_g:\mathfrak{g}^*\to\mathfrak{g}^*,
 \qquad

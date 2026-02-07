@@ -13,11 +13,6 @@ $$
 
 The key point is that \(\delta\) depends only on \(\varepsilon\), not on the choice of points \(x, y\).
 
-## Proof idea
-1. Cover \(K\) with open balls where \(f\) varies by less than \(\varepsilon\).
-2. By compactness, extract a finite subcover.
-3. Use the {{< knowl id="lebesgue-number-lemma" text="Lebesgue number" >}} of the cover as \(\delta\).
-
 ## Classical version
 A continuous function \(f: [a,b] \to \mathbb{R}\) is uniformly continuous.
 

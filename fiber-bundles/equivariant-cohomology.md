@@ -3,7 +3,7 @@ title: "Equivariant cohomology (Cartan model)"
 description: "A cohomology theory for manifolds with a Lie group action, computed by the Cartan complex of equivariant differential forms."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a manifold $M$. Write $\mathfrak{g}$ for the {{< knowl id="lie-algebra" text="Lie algebra" >}} of $G$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a manifold $M$. Write $\mathfrak{g}$ for the {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} of $G$.
 
 Equivariant cohomology can be defined topologically as the cohomology of the Borel construction $EG\times_G M$, where $EG\to BG$ is the {{< knowl id="universal-principal-bundle-egbg" text="universal principal bundle" >}}. When $G$ is compact, it admits a de Rham model: the Cartan model.
 

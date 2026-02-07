@@ -9,7 +9,7 @@ $$
 \mathfrak{so}(n)=\{X\in \mathfrak{gl}(n,\Bbb R)\mid X^T+X=0\},
 $$
 
-with Lie bracket given by the commutator $[X,Y]=XY-YX$ (the {{< knowl id="lie-bracket" text="standard bracket" >}} on matrix Lie algebras). Here $\mathfrak{gl}(n,\Bbb R)$ is the {{< knowl id="general-linear-lie-algebra" text="general linear Lie algebra" >}}.
+with Lie bracket given by the commutator $[X,Y]=XY-YX$ (the {{< knowl id="lie-bracket" text="standard bracket" section="fiber-bundles">}} on matrix Lie algebras). Here $\mathfrak{gl}(n,\Bbb R)$ is the {{< knowl id="general-linear-lie-algebra" text="general linear Lie algebra" >}}.
 
 A standard basis is given by $E_{ij}-E_{ji}$ for $1\le i<j\le n$, so
 $$

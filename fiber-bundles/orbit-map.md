@@ -11,7 +11,7 @@ For $x\in M$, the **orbit map at $x$** is the {{< knowl id="smooth-map" text="sm
 \]
 Its image is the {{< knowl id="orbit-of-a-group-action" text="orbit" >}} $G\cdot x$.
 
-The kernel of $\Phi^x$ (in the sense of elements acting trivially at $x$) is the {{< knowl id="stabilizer" text="stabilizer subgroup" >}} $G_x$. Consequently, $\Phi^x$ is constant on left cosets of $G_x$ and factors through the quotient $G/G_x$.
+The kernel of $\Phi^x$ (in the sense of elements acting trivially at $x$) is the {{< knowl id="stabilizer" text="stabilizer subgroup" section="algebra-groups">}} $G_x$. Consequently, $\Phi^x$ is constant on left cosets of $G_x$ and factors through the quotient $G/G_x$.
 
 ## Examples
 1. **Left translation on $G$.** For the action of $G$ on itself by left multiplication and a fixed $h\in G$, the orbit map is $g\mapsto gh$.

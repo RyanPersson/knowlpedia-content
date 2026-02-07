@@ -3,7 +3,7 @@ title: "Equivariant local trivialization"
 description: "A local trivialization of a principal bundle that intertwines the right group action with right multiplication on the model fiber."
 ---
 
-Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with {{< knowl id="right-principal-action" text="right principal action" >}} $(p,g)\mapsto p\cdot g$, and let $U\subset M$ be open (often chosen from an {{< knowl id="open-cover" text="open cover" >}} of $M$).
+Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} with {{< knowl id="right-principal-action" text="right principal action" >}} $(p,g)\mapsto p\cdot g$, and let $U\subset M$ be open (often chosen from an {{< knowl id="open-cover" text="open cover" section="topology">}} of $M$).
 
 An **equivariant local trivialization** of $P$ over $U$ is a {{< knowl id="diffeomorphism" text="diffeomorphism" >}}
 \[

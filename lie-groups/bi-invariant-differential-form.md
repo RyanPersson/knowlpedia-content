@@ -3,7 +3,7 @@ title: "Bi-invariant differential form"
 description: "A differential form on a Lie group invariant under both left and right translations."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}}. For $g\in G$, write $L_g$ and $R_g$ for {{< knowl id="left-translation" text="left translation" >}} and {{< knowl id="right-translation" text="right translation" >}}.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}. For $g\in G$, write $L_g$ and $R_g$ for {{< knowl id="left-translation" text="left translation" >}} and {{< knowl id="right-translation" text="right translation" >}}.
 
 **Definition.** A differential $k$-form $\omega\in \Omega^k(G)$ is **bi-invariant** if
 $$

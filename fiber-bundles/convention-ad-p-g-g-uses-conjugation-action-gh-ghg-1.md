@@ -20,7 +20,7 @@ This is compatible with the construction in {{< knowl id="construction-adjoint-b
 \[
 \operatorname{ad}(P):=P\times_G \mathfrak g,
 \]
-which uses the {{< knowl id="adjoint-representation-of-a-lie-algebra" text="adjoint representation on the Lie algebra" >}}; see {{< knowl id="construction-adjoint-lie-algebra-bundle-ad" text="construction of ad(P)" >}}.
+which uses the {{< knowl id="adjoint-representation-of-a-lie-algebra" text="adjoint representation on the Lie algebra" section="lie-groups">}}; see {{< knowl id="construction-adjoint-lie-algebra-bundle-ad" text="construction of ad(P)" >}}.
 
 Because conjugation is by group automorphisms, $\operatorname{Ad}(P)$ is a bundle of Lie groups (fiberwise multiplication is well-defined). In particular, the {{< knowl id="gauge-group" text="gauge group" >}} can be identified with the smooth sections of $\operatorname{Ad}(P)$ once this convention is fixed.
 

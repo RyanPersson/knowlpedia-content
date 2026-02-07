@@ -3,7 +3,7 @@ title: "Exponentials and one-parameter subgroups"
 description: "The curve t ↦ exp(tX) is the unique one-parameter subgroup with initial velocity X."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" >}} $\mathfrak g = T_eG$, and let $\exp:\mathfrak g\to G$ be the {{< knowl id="exponential-map-lie-group" text="exponential map" >}}.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} with {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" >}} $\mathfrak g = T_eG$, and let $\exp:\mathfrak g\to G$ be the {{< knowl id="exponential-map-lie-group" text="exponential map" >}}.
 
 **Lemma (Exponential–one-parameter subgroup).**  
 For each $X\in\mathfrak g$, the map

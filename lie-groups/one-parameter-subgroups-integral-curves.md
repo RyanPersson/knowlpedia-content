@@ -3,7 +3,7 @@ title: "One-parameter subgroups as integral curves"
 description: "Exponentials give flows of invariant vector fields; invariant flows recover one-parameter subgroups."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra $\mathfrak g$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} with Lie algebra $\mathfrak g$.
 
 ## Statement
 Fix $X\in\mathfrak g$, and let $X^L$ be the corresponding {{< knowl id="left-invariant-vector-field" text="left-invariant vector field" >}} on $G$ (obtained by translating $X\in T_eG$ via {{< knowl id="left-translation" text="left translations" >}}).

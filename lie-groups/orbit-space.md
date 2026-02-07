@@ -3,7 +3,7 @@ title: "Orbit space"
 description: "The quotient of a G-manifold by the equivalence relation of lying in the same orbit."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} acting smoothly on a manifold $M$ (see {{< knowl id="smooth-action-lie-group" text="smooth actions" >}}).
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} acting smoothly on a manifold $M$ (see {{< knowl id="smooth-action-lie-group" text="smooth actions" >}}).
 
 The **orbit space** (or **quotient space**) is the set
 $$

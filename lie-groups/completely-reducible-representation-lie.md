@@ -3,7 +3,7 @@ title: "Completely reducible representation"
 description: "A representation that splits as a direct sum of irreducible subrepresentations."
 ---
 
-Let $\rho$ be a finite-dimensional representation, either of a {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak{g}$ (a {{< knowl id="representation-of-a-lie-algebra" text="Lie algebra representation" >}}) or of a {{< knowl id="lie-group" text="Lie group" >}} $G$ (a {{< knowl id="representation-of-a-lie-group" text="Lie group representation" >}}).
+Let $\rho$ be a finite-dimensional representation, either of a {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak{g}$ (a {{< knowl id="representation-of-a-lie-algebra" text="Lie algebra representation" >}}) or of a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} $G$ (a {{< knowl id="representation-of-a-lie-group" text="Lie group representation" >}}).
 
 **Definition.** $\rho$ is **completely reducible** if for every invariant subspace $W\subset V$ (a {{< knowl id="subrepresentation-lie-algebra" text="subrepresentation" >}}), there exists an invariant complement $W'\subset V$ such that
 $$

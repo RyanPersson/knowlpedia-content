@@ -31,7 +31,7 @@ then
 
 $\chi^0(f)=\sum a_\lambda\,\xi_\lambda(g).$
 
-The {{< knowl id="semidirect-product" section="langlands-letter/knowls" text="semidirect product" >}} $G\rtimes_\delta {}^cG$ is a complex group. Let $\pi$ be a complex representation of it. If $\sigma$ is the {{< knowl id="frobenius-unramified" section="langlands-letter/knowls" text="Frobenius" >}} then
+The {{< knowl id="semidirect-product" section="algebra-groups" text="semidirect product" >}} $G\rtimes_\delta {}^cG$ is a complex group. Let $\pi$ be a complex representation of it. If $\sigma$ is the {{< knowl id="frobenius-unramified" section="langlands-letter/knowls" text="Frobenius" >}} then
 
 $\frac{1}{\det(1-x\,\pi(\sigma\rtimes g))}\qquad (x\ \text{an indeterminate})$
 

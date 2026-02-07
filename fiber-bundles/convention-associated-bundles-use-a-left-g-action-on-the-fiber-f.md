@@ -30,7 +30,7 @@ so the same $g_{ij}$ acts on the fiber by the given left action.
 
 ## Examples
 1. **Associated vector bundle from a representation.**  
-   If $\rho:G\to GL(V)$ is a {{< knowl id="representation-of-a-lie-group" text="representation" >}}, then $V$ is a left $G$-space via $g\cdot v:=\rho(g)v$, and $P\times_G V$ is an {{< knowl id="associated-vector-bundle" text="associated vector bundle" >}}.
+   If $\rho:G\to GL(V)$ is a {{< knowl id="representation-of-a-lie-group" text="representation" section="lie-groups">}}, then $V$ is a left $G$-space via $g\cdot v:=\rho(g)v$, and $P\times_G V$ is an {{< knowl id="associated-vector-bundle" text="associated vector bundle" >}}.
 
 2. **Recovering a vector bundle from its frame bundle.**  
    For a rank $n$ vector bundle $E\to M$ with frame bundle $P=\operatorname{Fr}(E)$, take $F=\mathbb R^n$ with the standard left $GL(n)$-action. Then

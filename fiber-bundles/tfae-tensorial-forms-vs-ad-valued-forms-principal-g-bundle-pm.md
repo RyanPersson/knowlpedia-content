@@ -3,7 +3,7 @@ title: "Tensorial forms and ad(P)-valued forms"
 description: "Equivalence between horizontal equivariant Lie-algebra-valued forms on a principal bundle and differential forms on the base with values in the adjoint bundle."
 ---
 
-Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} over a {{< knowl id="smooth-manifold" text="smooth manifold" >}} $M$, where $G$ is a {{< knowl id="lie-group" text="Lie group" >}} with {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak g$.
+Let $\pi:P\to M$ be a {{< knowl id="principal-g-bundle" text="principal G-bundle" >}} over a {{< knowl id="smooth-manifold" text="smooth manifold" >}} $M$, where $G$ is a {{< knowl id="lie-group" text="Lie group" >}} with {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} $\mathfrak g$.
 
 The **adjoint bundle** of $P$ is the associated vector bundle
 \[

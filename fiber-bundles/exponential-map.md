@@ -3,7 +3,7 @@ title: "Exponential map"
 description: "The map from a Lie algebra to its Lie group defined by flowing left-invariant vector fields for unit time."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra {{< knowl id="lie-algebra" text="Lie algebra" >}} $\mathfrak{g}=T_eG$. For each $X\in\mathfrak{g}$, let $X^L$ denote the left-invariant vector field on $G$ determined by $X$ (so $X^L_e=X$). Let $\gamma_X(t)$ be the integral curve of $X^L$ with initial condition $\gamma_X(0)=e$.
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra {{< knowl id="lie-algebra" text="Lie algebra" section="lie-groups">}} $\mathfrak{g}=T_eG$. For each $X\in\mathfrak{g}$, let $X^L$ denote the left-invariant vector field on $G$ determined by $X$ (so $X^L_e=X$). Let $\gamma_X(t)$ be the integral curve of $X^L$ with initial condition $\gamma_X(0)=e$.
 
 The **(Lie group) exponential map** is
 \[

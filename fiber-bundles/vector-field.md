@@ -36,4 +36,4 @@ Given a {{< knowl id="smooth-map" text="smooth map" >}} $F:M\to N$, the {{< know
    \]
    generates counterclockwise rotation (away from the origin it is tangent to circles).
 
-3. **Left-invariant vector fields on a Lie group.** If $G$ is a {{< knowl id="lie-group" text="Lie group" >}}, each element of the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" >}} determines a unique {{< knowl id="left-invariant-vector-field" text="left-invariant vector field" >}} by translating that tangent vector from the identity to every point via {{< knowl id="left-translation-l-g" text="left translation" >}}.
+3. **Left-invariant vector fields on a Lie group.** If $G$ is a {{< knowl id="lie-group" text="Lie group" >}}, each element of the {{< knowl id="lie-algebra-of-a-lie-group" text="Lie algebra" section="lie-groups">}} determines a unique {{< knowl id="left-invariant-vector-field" text="left-invariant vector field" section="lie-groups">}} by translating that tangent vector from the identity to every point via {{< knowl id="left-translation-l-g" text="left translation" >}}.

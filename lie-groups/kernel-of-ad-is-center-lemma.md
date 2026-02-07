@@ -3,7 +3,7 @@ title: "Kernel of Ad and the center"
 description: "For a connected Lie group, ker(Ad) equals the center."
 ---
 
-Let $G$ be a {{< knowl id="lie-group" text="Lie group" >}} with Lie algebra $\mathfrak g$, and let
+Let $G$ be a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} with Lie algebra $\mathfrak g$, and let
 \[
 \mathrm{Ad}:G\to \mathrm{Aut}(\mathfrak g)
 \]

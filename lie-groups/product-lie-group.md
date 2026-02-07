@@ -3,7 +3,7 @@ title: "Product Lie group"
 description: "The Cartesian product of Lie groups, with componentwise multiplication, is again a Lie group."
 ---
 
-Given Lie groups $G$ and $H$ (see {{< knowl id="lie-group" text="Lie group" >}}), their **product Lie group** is the manifold $G\times H$ with group structure
+Given Lie groups $G$ and $H$ (see {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}}), their **product Lie group** is the manifold $G\times H$ with group structure
 \[
 (g,h)\cdot(g',h')=(gg',hh'),\qquad (g,h)^{-1}=(g^{-1},h^{-1}).
 \]

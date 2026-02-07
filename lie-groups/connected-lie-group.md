@@ -3,7 +3,7 @@ title: "Connected Lie group"
 description: "A Lie group whose underlying smooth manifold is connected (equivalently, equal to its identity component)."
 ---
 
-A **connected Lie group** is a {{< knowl id="lie-group" text="Lie group" >}} $G$ whose underlying topological space (hence smooth manifold) is connected.
+A **connected Lie group** is a {{< knowl id="lie-group" text="Lie group" section="fiber-bundles">}} $G$ whose underlying topological space (hence smooth manifold) is connected.
 
 A basic structural fact is that every Lie group has a distinguished connected, normal Lie subgroup: the **identity component**
 \[
