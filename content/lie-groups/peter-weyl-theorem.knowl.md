@@ -28,5 +28,5 @@ a Hilbert direct sum over the set $\widehat G$ of isomorphism classes of [[lie-g
 - Every finite-dimensional continuous representation of a compact Lie group is completely reducible (compare [[lie-groups/completely-reducible-representation-lie|complete reducibility]]).
 - Harmonic analysis on $G$ reduces to the study of its irreducibles; for connected compact $G$, these are classified by highest weights (see [[lie-groups/highest-weight-theorem|the highest weight theorem]]).
 
-## Context
+## Remarks
 Peter–Weyl is the nonabelian analogue of Fourier series on a torus: irreducible representations play the role of characters, and their matrix coefficients play the role of exponentials.

@@ -18,6 +18,8 @@ Let $V$ be a finite-dimensional $\mathfrak g$-module. A nonzero vector $v\in V$ 
 
 The corresponding weight $\lambda$ is called a **highest weight** of $V$.
 
+## Remarks
+
 In the finite-dimensional semisimple setting, the weights of $V$ are partially ordered by the positive root cone; a highest weight is maximal in this order, and (for irreducible $V$) it is unique.
 
 **Context.**  

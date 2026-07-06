@@ -17,4 +17,6 @@ $$
 
 where $U(f,P)$ and $L(f,P)$ denote the [[real-analysis/upper-sum|upper sum]] and [[real-analysis/lower-sum|lower sum]] of $f$ with respect to $P$.
 
+## Remarks
+
 This monotonicity under refinement underlies the definition of the [[real-analysis/riemann-integral|Riemann integral]] as the common value of the infimum of upper sums and the supremum of lower sums.

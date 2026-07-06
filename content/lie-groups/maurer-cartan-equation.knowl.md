@@ -10,7 +10,6 @@ legacy_source_path = "lie-groups/maurer-cartan-equation.md"
 
 Let $G$ be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra $\mathfrak g$.
 
-## Statement
 Let $\theta$ denote the [[lie-groups/left-maurer-cartan-form|left Maurer–Cartan form]] on $G$, i.e. the $\mathfrak g$-valued 1-form characterized by
 - $\theta_e=\mathrm{id}_{\mathfrak g}$ under the identification $T_eG\cong \mathfrak g$, and
 - left-invariance: $(L_g)^*\theta=\theta$ for all $g\in G$.
@@ -33,5 +32,5 @@ $$
 $$
 A clean proof is packaged in [[lie-groups/maurer-cartan-equation-lemma|the Maurer–Cartan equation lemma]].
 
-## Context
+## Remarks
 This equation is the differential-geometric encoding of the Lie algebra structure inside the group: it is the reason that brackets of [[lie-groups/left-invariant-vector-field|left-invariant vector fields]] are controlled by the structure constants of $\mathfrak g$, and it underlies many constructions with [[lie-groups/left-invariant-differential-form|left-invariant differential forms]] and [[lie-groups/bi-invariant-differential-form|bi-invariant forms]].

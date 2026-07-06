@@ -24,7 +24,8 @@ One often writes $Tx$ instead of $T(x)$.
 
 Linear operators are the morphisms of [[linear-algebra/vector-space|vector spaces]]. Their [[convex-analysis/image-and-kernel-linear-isomorphism|kernels and images]] give canonical subspaces, and the associated quotient describes the operator up to isomorphism.
 
-**Examples:**
+## Examples
+
 - Matrix multiplication $T(x)=Ax$ on $K^n$.
 - The derivative $D:C^1[a,b]\to C[a,b]$, $Df=f'$ (linear over $\mathbb{R}$).
 - The evaluation map $\mathrm{ev}_{x_0}:F(\Omega)\to K$, $\mathrm{ev}_{x_0}(f)=f(x_0)$.

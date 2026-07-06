@@ -17,4 +17,6 @@ For operators \(T_n,T\) on a Hilbert space:
 - Continuity of group actions/representations is often stated in WOT.
 - On unitary/orthogonal groups, these topologies are commonly used for "weak continuity".
 
-**Example:** If \(\|T_n-T\|\to0\) (operator norm), then \(T_n\to T\) in both SOT and WOT.
+## Examples
+
+- If \(\|T_n-T\|\to0\) (operator norm), then \(T_n\to T\) in both SOT and WOT.

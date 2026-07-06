@@ -17,4 +17,6 @@ converges, and
 \sum_{n=1}^\infty a_{\pi(n)}=\sum_{n=1}^\infty a_n.
 \]
 
+## Remarks
+
 In contrast, for a [[real-analysis/conditionally-convergent-series|conditionally convergent series]] the value can depend on the rearrangement; this is quantified by the [[real-analysis/riemann-rearrangement-theorem|Riemann rearrangement theorem]].

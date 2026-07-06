@@ -20,13 +20,15 @@ Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **(smooth) com
    - $\mathrm{pr}_1\circ \Phi_\alpha=\pi$ on $\pi^{-1}(U_\alpha)$, and
    - for each $x\in U_\alpha$, the induced map $(\Phi_\alpha)_x:E_x\to \{x\}\times\mathbb C^r\cong \mathbb C^r$ is complex linear.
 
+The integer $r$ is the (complex) rank; it is locally constant and hence constant if $M$ is connected (see [[fiber-bundles/rank-of-a-vector-bundle|rank of a vector bundle]]).
+
+## Equivalent characterizations
+
 Equivalently, on overlaps $U_\alpha\cap U_\beta$ the transition maps
 \[
 \Phi_\alpha\circ \Phi_\beta^{-1}:(U_\alpha\cap U_\beta)\times \mathbb C^r\to (U_\alpha\cap U_\beta)\times \mathbb C^r
 \]
 have the form $(x,v)\mapsto (x,g_{\alpha\beta}(x)v)$ for a smooth map $g_{\alpha\beta}:U_\alpha\cap U_\beta\to \mathrm{GL}(r,\mathbb C)$.
-
-The integer $r$ is the (complex) rank; it is locally constant and hence constant if $M$ is connected (see [[fiber-bundles/rank-of-a-vector-bundle|rank of a vector bundle]]).
 
 ## Examples
 1. **Trivial bundle.** For any $r\ge 1$, the projection $M\times\mathbb C^r\to M$ is a complex vector bundle with the obvious trivializations.

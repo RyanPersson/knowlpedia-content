@@ -24,11 +24,11 @@ $$
 
 This is the quantum analogue of the classical ensemble average ([[stat-mech/ensemble-average|ensemble average]]).
 
-## Physical interpretation
+## Interpretation
 
 $\langle A\rangle_\rho$ is the theoretical prediction for the average outcome of many measurements of the observable $A$ on identically prepared systems in state $\rho$. In equilibrium, $\langle A\rangle_\beta$ is the thermal average at temperature $T=(k_B\beta)^{-1}$ (see [[thermodynamics/temperature-thermo|temperature]] and [[thermodynamics/boltzmann-constant|Boltzmann constant]]).
 
-## Key properties
+## Properties
 
 1. **Linearity.**  
    For scalars $a,b$ and observables $A,B$,

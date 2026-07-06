@@ -21,4 +21,6 @@ equivalently \((T^*T)^{1/2}-I\) is [[shale-paper/hilbert-schmidt-operator|Hilber
 - Closed under [[shale-paper/polar-decomposition|polar decomposition]].
 - Carries a continuous projective unitary representation \(\overline{Y}\).
 
-**Example:** Finite-dimensional case: \(rSp(K)=Sp(K)\).
+## Examples
+
+- Finite-dimensional case: \(rSp(K)=Sp(K)\).

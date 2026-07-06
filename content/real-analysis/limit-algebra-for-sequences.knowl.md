@@ -16,4 +16,6 @@ legacy_source_path = "real-analysis/limit-algebra-for-sequences.md"
 - If $b\ne 0$ and $b_n\ne 0$ for all sufficiently large $n$, then $\frac{a_n}{b_n}\to \frac{a}{b}$.
 - $|a_n|\to |a|$ (see [[real-analysis/absolute-value|absolute value]]).
 
+## Remarks
+
 These rules are used constantly to build new limits from known ones and often pair with the [[real-analysis/squeeze-theorem|squeeze theorem]] for estimates.

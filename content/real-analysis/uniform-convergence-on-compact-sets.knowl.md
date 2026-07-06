@@ -15,6 +15,7 @@ A sequence of functions $(f_n):X\to Y$ (with $Y$ a [[topology/metric-space|metri
 
 This is a localized version of [[real-analysis/uniform-convergence|uniform convergence]] obtained by first passing to a [[shared-foundations/restriction-of-a-function|restriction]] on each compact set. It is the natural convergence notion for families like [[real-analysis/power-series|power series]], as formalized by [[real-analysis/power-series-uniform-convergence-on-compacts|uniform convergence on compacts for power series]].
 
-**Examples:**
+## Examples
+
 - On $(-1,1)$, $f_n(x)=x^n$ converges uniformly on every closed interval $[-a,a]$ with $0<a<1$, hence uniformly on compact sets in $(-1,1)$.
 - If $\sum_{n=0}^\infty a_n (x-x_0)^n$ has radius of convergence $R>0$, then its partial sums converge uniformly on compact subsets of $(x_0-R,x_0+R)$.

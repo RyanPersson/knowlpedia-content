@@ -10,7 +10,6 @@ legacy_source_path = "algebra-commutative/prime-avoidance-lemma.md"
 
 Let $R$ be a [[algebra-rings/commutative-ring|commutative ring]]. The **prime avoidance lemma** is a basic tool for producing elements outside finitely many prime ideals (and is used constantly in arguments about [[algebra-commutative/prime-spectrum|Spec(R)]], localizations, and dimension theory).
 
-## Statement
 
 Let $I,\mathfrak a_1,\dots,\mathfrak a_n$ be ideals of $R$. Assume that $\mathfrak a_2,\dots,\mathfrak a_n$ are prime ideals (no hypothesis on $\mathfrak a_1$). If
 \[

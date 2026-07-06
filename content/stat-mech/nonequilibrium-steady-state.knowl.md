@@ -87,7 +87,7 @@ Near equilibrium (weak driving), transport coefficients can often be expressed t
 
 Far from equilibrium, work and current fluctuations satisfy exact identities and inequalities, including [[stat-mech/fluctuation-theorem-crooks|Crooks fluctuation theorem]] and [[stat-mech/jarzynski-equality|Jarzynski equality]].
 
-## Prerequisites
+## Remarks
 
 - [[probability/probability-measure|Probability measures]]
 - [[stat-mech/markov-chain-discrete|Discrete Markov chains]]

@@ -49,7 +49,7 @@ At the critical point, $\xi$ diverges and the system becomes effectively scale-f
   - At $T=T_c, h=0$: critical point.
 - Via [[stat-mech-lattice/lattice-gas-ising-mapping|lattice gas–Ising mapping]], the same structure describes liquid–vapor criticality in a lattice gas.
 
-## Prerequisites
+## Remarks
 - [[stat-mech-lattice/order-parameter|order parameters]]
 - [[stat-mech-lattice/ising-2d-phase-transition|2D Ising phase transition]]
 - [[stat-mech/scaling-relation-exponents|scaling relations]]

@@ -24,7 +24,7 @@ It is a subring of $A$ containing the image of $R$.
 
 When $R$ is a domain with fraction field $K$, the integral closure of $R$ **in $K$** is often called the *normalization* of $R$. The domain $R$ is [[algebra-commutative/integrally-closed-domain|integrally closed]] precisely when its integral closure in its fraction field equals $R$.
 
-## Basic properties
+## Properties
 - If $R\subseteq A$ is an [[algebra-commutative/integral-extension|integral extension]], then every element of $A$ is integral over $R$, hence $\overline{R}^{\,A}=A$.
 - If $B\subseteq A$ is any subring containing $R$ and consisting of elements integral over $R$, then $B\subseteq \overline{R}^{\,A}$ (maximality of the integral closure).
 

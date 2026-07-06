@@ -16,7 +16,8 @@ with coordinatewise addition and scalar multiplication. It is naturally a submod
 
 The direct sum is characterized by the [[algebra-modules/direct-sum-universal-property|universal property of the direct sum]]: maps out of a direct sum are uniquely determined by maps out of each summand, subject to finite support.
 
-**Examples:**
+## Examples
+
 - For a finite index set, $\bigoplus_{i=1}^n M_i$ is the same as $\prod_{i=1}^n M_i$.
 - $\bigoplus_{n\ge 1}\mathbb Z$ consists of integer sequences with only finitely many nonzero entries.
 - (Edge case) If $I=\varnothing$, then $\bigoplus_{i\in I} M_i$ is the zero module.

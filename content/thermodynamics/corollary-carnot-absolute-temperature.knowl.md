@@ -10,7 +10,6 @@ legacy_source_path = "thermodynamics/corollary-carnot-absolute-temperature.md"
 
 Consider a reversible heat engine operating between two reservoirs, “hot” and “cold,” with reservoir temperatures in the sense of [[thermodynamics/temperature-thermo|thermodynamic temperature]].
 
-## Statement
 Assume [[stat-mech/carnot-theorem|Carnot's theorem]]: all reversible engines between the same two reservoirs have the same efficiency, and no engine can exceed it.
 
 Then there exists a positive temperature function $T$ (unique up to an overall multiplicative constant) such that for every reversible engine between the two reservoirs,
@@ -19,6 +18,8 @@ $$
 $$
 
 where $Q_H$ is the heat absorbed from the hot reservoir and $Q_C$ is the heat rejected to the cold reservoir (both taken as positive magnitudes).
+
+## Equivalent characterizations
 
 Equivalently, the efficiency of a reversible (Carnot) engine is
 $$

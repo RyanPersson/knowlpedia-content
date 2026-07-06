@@ -12,7 +12,7 @@ A [[thermodynamics/thermodynamic-system|thermodynamic system]] is in **thermodyn
 
 In thermodynamic equilibrium, macroscopic properties can be described by a set of [[thermodynamics/state-variable|state variables]], and all [[thermodynamics/state-function|state functions]] are well-defined for that state.
 
-## Physical interpretation
+## Interpretation
 Thermodynamic equilibrium is the endpoint of spontaneous relaxation: the system has “used up” all allowed ways of increasing [[thermodynamics/thermodynamic-entropy|entropy]] (for an [[thermodynamics/isolated-system|isolated system]]) or of lowering the appropriate free-energy-like potential (for a system constrained by its [[thermodynamics/surroundings-environment|environment]]).
 
 A common characterization is variational:

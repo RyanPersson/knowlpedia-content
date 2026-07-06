@@ -23,7 +23,8 @@ A set $E\subseteq \mathbb{R}^n$ is **Lebesgue measurable** if it is a [[measure-
 
 Lebesgue measure is the foundational example of a [[measure-theory/measure-space|measure space]] on Euclidean space and is the standard reference for notions like [[measure-theory/null-set|null set]] and [[measure-theory/almost-everywhere|almost everywhere]].
 
-**Examples:**
+## Examples
+
 - On $\mathbb{R}$, $\lambda^1((a,b))=b-a$ for any open interval $(a,b)$.
 - In $\mathbb{R}^n$, $\lambda^n\!\left(\prod_{i=1}^n (a_i,b_i]\right)=\prod_{i=1}^n (b_i-a_i)$ for any measurable rectangle.
 - Any countable subset of $\mathbb{R}^n$ (for example, $\mathbb{Q}\cap[0,1]$) has Lebesgue measure $0$.

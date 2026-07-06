@@ -10,9 +10,12 @@ legacy_source_path = "algebra-rings/product-of-ideals.md"
 
 Given ideals $I,J$ in a [[algebra-rings/ring|ring]] $R$, their **product** $IJ$ is the [[algebra-rings/ideal-generated|ideal generated]] by the set $\{ij:i\in I,\ j\in J\}$. Equivalently, $IJ$ consists of all finite sums $\sum_{k=1}^n i_k j_k$ with $i_k\in I$ and $j_k\in J$.
 
+## Remarks
+
 One always has $IJ\subseteq I\cap J$ and $IJ\subseteq I$ and $IJ\subseteq J$; equality $IJ=I\cap J$ is a strong condition (e.g. it holds for comaximal ideals by the [[algebra-rings/chinese-remainder-theorem|Chinese remainder theorem]] framework). In commutative algebra, products model multiplicative behavior of vanishing conditions.
 
-**Examples:**
+## Examples
+
 - In $\mathbb Z$, $(m)(n)=(mn)$.
 - In $k[x]$, $(x)(x)=(x^2)$.
 - In $k[x,y]$, $(x)(y)=(xy)\subseteq (x)\cap (y)$ (in fact equality holds here).

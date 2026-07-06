@@ -25,7 +25,7 @@ H_n(C_\bullet)=\ker(d_n)/\operatorname{im}(d_{n+1}),
 \]
 see [[algebra-homological/homology-module|homology module]].
 
-## Cross-links
+## Remarks
 - Morphisms between complexes: [[algebra-homological/chain-map|chain map]].
 - When all homology vanishes: [[algebra-homological/exact-complex|exact complex]].
 - Categorical setting: in an [[algebra-category-theory/abelian-category|abelian category]], a chain complex is defined the same way using kernels and images.

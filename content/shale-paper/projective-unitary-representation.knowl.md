@@ -15,4 +15,6 @@ A **projective unitary representation** assigns each \(g\in G\) a **unitary ray*
 - Shale's implementers \(Y(T)\) are unique only up to phase, so \(\overline{Y}\) is projective.
 - In finite dimensions, \(\overline{Y}\) lifts to a genuine double-valued unitary representation (§5).
 
-**Example:** Spin representations are projective representations of rotation groups.
+## Examples
+
+- Spin representations are projective representations of rotation groups.

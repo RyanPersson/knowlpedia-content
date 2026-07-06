@@ -65,7 +65,7 @@ For example, in the common convention where the coupling is $-\beta(H_0-\sum_i h
 - $\partial_{h_i}\partial_{h_j}\log Z = \beta^2\,\mathrm{Cov}(A_i,A_j)$,
 and higher derivatives give higher cumulants.
 
-## Physical interpretation
+## Interpretation
 
 - $\log Z$ packages equilibrium statistics: means, variances, and all higher connected moments are encoded in its derivatives.
 - The convexity of $\log Z$ in the sources (when it exists) implies nonnegativity of variances and a hierarchy of stability inequalities.

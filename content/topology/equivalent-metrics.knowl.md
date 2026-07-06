@@ -12,6 +12,7 @@ Two **equivalent metrics** $d$ and $d'$ on the same set $X$ are metrics that ind
 
 Equivalently, the identity map $\mathrm{id}\colon (X,d)\to (X,d')$ is a [[topology/homeomorphism|homeomorphism]]. Equivalent metrics have the same open sets and therefore the same convergent sequences, but they may differ in which sequences are [[topology/cauchy-sequence|Cauchy]] and whether the space is [[topology/complete-metric-space|complete]].
 
-**Examples:**
+## Examples
+
 - For any metric $d$ on $X$, the metric $d'(x,y)=\min\{1,d(x,y)\}$ is equivalent to $d$.
 - On $\mathbb{R}^n$, the Euclidean metric and the taxicab metric $d_1(x,y)=\sum_{i=1}^n |x_i-y_i|$ are equivalent.

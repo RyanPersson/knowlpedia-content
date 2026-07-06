@@ -74,7 +74,7 @@ $$
 $$
 This mirrors the way finite-volume marginals are consistent in classical Gibbs measures; compare the role played by a [[stat-mech/construction-dlr-specification|DLR specification]] in the classical setting. In many constructions of infinite systems, one proves existence of an infinite-volume state by controlling these finite-region reduced density matrices and then taking a suitable [[stat-mech/construction-infinite-volume-gibbs-weak-limit|weak limit]].
 
-## Physical interpretation
+## Interpretation
 
 - **Local physics:** $\rho_A$ is the complete description of outcomes of measurements confined to $A$.
 - **Open systems viewpoint:** tracing out $B$ represents ignorance of (or intentional coarse-graining over) the environment.

@@ -17,8 +17,11 @@ $$
 (a,b):=\bigl\{\{a\},\{a,b\}\bigr\}.
 $$
 
+## Remarks
+
 Ordered pairs are used to form the [[shared-foundations/cartesian-product|Cartesian product]] and to encode [[shared-foundations/relation|relations]] as sets of pairs.
 
-**Examples:**
+## Examples
+
 - $(1,2)\neq(2,1)$ because the first coordinates differ.
 - If $a=b$, then $(a,a)$ is still a well-defined ordered pair (with both coordinates equal).

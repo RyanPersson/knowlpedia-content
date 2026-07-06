@@ -12,7 +12,8 @@ A [[algebra-groups/group-action|group action]] of a group $G$ on a set $X$ is **
 
 Faithful actions are exactly those that realize $G$ as a subgroup of a permutation group; this viewpoint underlies [[algebra-groups/cayleys-theorem|Cayley's theorem]].
 
-**Examples:**
+## Examples
+
 - The left translation action of $G$ on itself is faithful (and in fact regular).
 - The conjugation action of $G$ on itself is faithful iff $Z(G)=\{e\}$.
 - If $G$ is abelian and nontrivial, the conjugation action is not faithful (every element acts trivially).

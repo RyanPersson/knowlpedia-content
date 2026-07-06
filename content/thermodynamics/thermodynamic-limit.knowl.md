@@ -19,6 +19,8 @@ and similarly for other extensive quantities so that quantities like [[thermodyn
 
 (For lattice systems one often replaces $V$ by the number of sites $|\Lambda|$ and sends $|\Lambda|\to\infty$, with choices encoded by [[thermodynamics/boundary-condition-convention-lattice|boundary condition conventions]].)
 
+## Remarks
+
 **Physical interpretation.** Real macroscopic matter has an enormous number of degrees of freedom, and bulk measurements are insensitive to microscopic details at the boundary. The thermodynamic limit idealizes this by making surface-to-volume effects vanish, so that equilibrium properties become “bulk” properties. This is the regime in which the [[thermodynamics/extensivity-postulate|extensivity postulate]] and [[thermodynamics/additivity-postulate|additivity postulate]] are operationally accurate.
 
 **Key consequences.**

@@ -21,6 +21,7 @@ where the integral is a special case of the [[measure-theory/lebesgue-integral|L
 
 The log-MGF is a central object in large deviations: it is convex and encodes exponential moment growth, and its convex dual gives the [[large-deviations/cramer-transform|Cramér transform]]. In particular, for sums of an [[probability/iid-sequence|i.i.d. sequence]], the log-MGF is the starting point for [[large-deviations/cramers-theorem|Cramér's theorem]] and the [[large-deviations/gartner-ellis-theorem|Gärtner–Ellis theorem]].
 
-**Examples:**
+## Examples
+
 - If $X\sim \mathcal N(0,\sigma^2)$ on $\mathbb R$, then $\Lambda(\theta)=\frac{\sigma^2\theta^2}{2}$ for all $\theta\in\mathbb R$.
 - If $X\sim \mathrm{Bernoulli}(p)$ on $\{0,1\}$, then $\Lambda(\theta)=\log\big((1-p)+p e^{\theta}\big)$ for all $\theta\in\mathbb R$.

@@ -23,6 +23,7 @@ $$
 
 **Context.** A set is [[convex-analysis/convex-set|convex]] exactly when it contains $[a,b]$ for every $a,b$ in the set.
 
-**Examples:**
+## Examples
+
 - In $X=\mathbb{R}$, $[a,b]$ is the usual interval between $a$ and $b$.
 - In $X=\mathbb{R}^2$, $[a,b]$ is the straight segment in the plane from $a$ to $b$.

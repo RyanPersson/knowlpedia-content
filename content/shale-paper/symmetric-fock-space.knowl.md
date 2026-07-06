@@ -18,4 +18,6 @@ with vacuum vector \(e_0\in \mathrm{Sym}^0(H)\cong \mathbb C\).
 - Carries creation/annihilation operators and the Fock–Cook field operators.
 - The canonical action of \(U(H)\) second-quantizes to a unitary action on \(S(H)\).
 
-**Example:** If \(H=\mathbb C\), then \(S(H)\cong \ell^2(\mathbb N_0)\).
+## Examples
+
+- If \(H=\mathbb C\), then \(S(H)\cong \ell^2(\mathbb N_0)\).

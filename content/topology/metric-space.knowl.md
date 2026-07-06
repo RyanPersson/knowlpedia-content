@@ -12,6 +12,7 @@ A **metric space** is a pair $(X,d)$ where $X$ is a [[shared-foundations/set|set
 
 Every metric space determines a [[topology/topological-space|topological space]] via the [[topology/metric-induced-topology|metric-induced topology]], whose basic neighborhoods are [[topology/open-ball|open balls]].
 
-**Examples:**
+## Examples
+
 - $(\mathbb{R},d)$ with $d(x,y)=|x-y|$.
 - Any set $X$ with the discrete metric $d(x,y)\in\{0,1\}$.

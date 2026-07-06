@@ -19,7 +19,8 @@ $
 
 Each $Z_n(G)$ is a [[algebra-groups/characteristic-subgroup|characteristic subgroup]] of $G$ (hence normal). A group is [[algebra-groups/nilpotent-group|nilpotent]] if and only if $Z_c(G)=G$ for some $c\ge 0$; the least such $c$ is the nilpotency class.
 
-**Examples:**
+## Examples
+
 - If $G$ is abelian, then $Z_1(G)=G$, so the upper central series reaches $G$ immediately.
 - For $S_3$, the center is trivial, so $Z_n(S_3)=\{e\}$ for all $n$; hence $S_3$ is not nilpotent.
 - For $D_8=\langle r,s\mid r^4=s^2=e,\ srs=r^{-1}\rangle$, one has $Z_1(D_8)=\{e,r^2\}$ and $Z_2(D_8)=D_8$, so $D_8$ is nilpotent of class $2$.

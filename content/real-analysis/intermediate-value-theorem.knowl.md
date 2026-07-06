@@ -13,4 +13,6 @@ $$
 f(c)=y.
 $$
 
+## Remarks
+
 This is one of the basic consequences of being a [[topology/continuous-map|continuous map]] on an [[real-analysis/interval|interval]]. A notable application is [[real-analysis/darboux-theorem|Darboux's theorem]], which shows that derivatives also satisfy an intermediate value property.

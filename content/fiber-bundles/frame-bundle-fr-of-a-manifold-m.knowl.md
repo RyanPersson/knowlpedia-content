@@ -14,7 +14,6 @@ The **frame bundle** of $M$, denoted $\mathrm{Fr}(TM)$, is the set of all ordere
 \[
 \mathrm{Fr}(TM)=\{(x,(e_1,\dots,e_n)):\ x\in M,\ (e_1,\dots,e_n)\text{ is a basis of }T_xM\}.
 \]
-Equivalently, a point of $\mathrm{Fr}(TM)$ can be viewed as a linear isomorphism $u:\mathbb R^n\to T_xM$.
 
 The projection $\mathrm{Fr}(TM)\to M$ sends a frame to its basepoint. There is a right action of $\mathrm{GL}(n,\mathbb R)$ by change of basis:
 \[
@@ -23,6 +22,10 @@ The projection $\mathrm{Fr}(TM)\to M$ sends a frame to its basepoint. There is a
 With this structure, $\mathrm{Fr}(TM)\to M$ is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group $\mathrm{GL}(n,\mathbb R)$.
 
 Connections on $TM$ can be equivalently encoded as principal connections on $\mathrm{Fr}(TM)$ (see [[fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em|connections via frame bundles]]).
+
+## Equivalent characterizations
+
+Equivalently, a point of $\mathrm{Fr}(TM)$ can be viewed as a linear isomorphism $u:\mathbb R^n\to T_xM$.
 
 ## Examples
 1. **Euclidean space.**  

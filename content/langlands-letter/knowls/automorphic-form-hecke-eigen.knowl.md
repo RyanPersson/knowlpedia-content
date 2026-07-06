@@ -16,4 +16,6 @@ Being a **Hecke eigenfunction** at $p$ means there is a homomorphism $\chi_p:\ma
 
 Via [[langlands-letter/knowls/spherical-hecke-algebra-satake|Satake]], $\chi_p$ determines the conjugacy class $\alpha_p$ used in the Euler product.
 
-**Example:** Classical modular forms correspond to automorphic forms on $\mathrm{GL}_2$.
+## Examples
+
+- Classical modular forms correspond to automorphic forms on $\mathrm{GL}_2$.

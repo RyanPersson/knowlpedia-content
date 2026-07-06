@@ -17,4 +17,6 @@ For a **projective** representation \(\overline{\pi}\), Shale uses:
 **Key property (paper use):**
 - Theorem 3.1 proves weak continuity of \(\mathfrak U\); Theorem 4.2 lifts this to \(\overline{Y}\).
 
-**Example:** Any strongly continuous unitary representation is weakly continuous.
+## Examples
+
+- Any strongly continuous unitary representation is weakly continuous.

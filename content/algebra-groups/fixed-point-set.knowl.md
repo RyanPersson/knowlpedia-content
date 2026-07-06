@@ -15,7 +15,8 @@ $$
 
 Equivalently, $x\in X^G$ iff its [[algebra-groups/stabilizer|stabilizer]] is all of $G$, i.e. $G_x=G$. Fixed points often detect "invariants" of the action; for example, fixed points of conjugation encode central elements.
 
-**Examples:**
+## Examples
+
 - For the trivial action $g\cdot x=x$ for all $g,x$, one has $X^G=X$.
 - For the conjugation action of $G$ on itself, the fixed-point set is the [[algebra-groups/center-of-group|center]] $Z(G)$.
 - For the action of $C_n$ on the vertices of a regular $n$-gon by rotation, the fixed-point set is empty if $n>1$ (no vertex is fixed by all rotations).

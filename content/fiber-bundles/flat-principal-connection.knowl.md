@@ -14,9 +14,12 @@ The connection is called **flat** if its [[fiber-bundles/curvature-2-form-of-a-p
 \[
 \Omega = 0.
 \]
-Equivalently, in any local trivialization with local connection form \(A\), the local curvature satisfies \(F=dA+\tfrac12[A\wedge A]=0\).
 
 A flat connection has the key consequence that [[fiber-bundles/parallel-transport|parallel transport]] along a curve depends only on the homotopy class of the curve (with endpoints fixed). In particular, parallel transport around loops yields the [[fiber-bundles/holonomy-representation|holonomy representation]] of \(\pi_1(M)\) into \(G\), and the associated [[fiber-bundles/holonomy-group|holonomy group]] is determined by the image of that representation.
+
+## Equivalent characterizations
+
+Equivalently, in any local trivialization with local connection form \(A\), the local curvature satisfies \(F=dA+\tfrac12[A\wedge A]=0\).
 
 ## Examples
 1. **Product connection on a trivial bundle.** On \(P=M\times G\), take the connection defined by \(\omega=g^{-1}dg\) (equivalently \(A=0\) in the canonical trivialization). Then \(\Omega=0\), so the connection is flat and parallel transport leaves the \(G\)-coordinate unchanged.

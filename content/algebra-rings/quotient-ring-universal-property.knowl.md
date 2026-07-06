@@ -13,4 +13,6 @@ legacy_source_path = "algebra-rings/quotient-ring-universal-property.md"
 f=\bar f\circ \pi.
 \]
 
+## Remarks
+
 This property characterizes \(R/I\) up to unique isomorphism and is the categorical mechanism behind “imposing relations” by quotienting.

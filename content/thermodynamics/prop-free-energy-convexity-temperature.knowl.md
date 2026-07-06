@@ -8,8 +8,6 @@ domains = ["thermodynamics"]
 legacy_source_path = "thermodynamics/prop-free-energy-convexity-temperature.md"
 +++
 
-## Statement
-
 Let $F(T,V,N)$ be the [[thermodynamics/helmholtz-free-energy|Helmholtz free energy]] of a stable equilibrium system. At fixed $V,N$ and for $T>0$,
 $$
 \left(\frac{\partial^2 F}{\partial T^2}\right)_{V,N}
@@ -19,6 +17,8 @@ $$
 $$
 
 where $C_V$ is the [[thermodynamics/heat-capacity-constant-volume|constant-volume heat capacity]].
+
+## Equivalent characterizations
 
 Equivalently, $T\mapsto F(T,V,N)$ is concave (and $T\mapsto -F(T,V,N)$ is convex).
 
@@ -49,7 +49,7 @@ Equivalently, $T\mapsto F(T,V,N)$ is concave (and $T\mapsto -F(T,V,N)$ is convex
 
   i.e. $F$ lies below its tangent lines as a function of $T$ (at fixed $V,N$).
 
-## Cross-links to definitions
+## Remarks
 
 - [[thermodynamics/helmholtz-free-energy|Helmholtz free energy $F$]]
 - [[thermodynamics/heat-capacity-constant-volume|heat capacity at constant volume $C_V$]]

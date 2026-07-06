@@ -17,7 +17,8 @@ is the subgroup of the [[algebra-groups/direct-product-groups|direct product]] $
 
 For finite index sets $I$, the direct sum coincides with the direct product. In practice the term "direct sum" is most common for [[algebra-groups/abelian-group|abelian groups]] and infinite families, where the finite-support condition matters.
 
-**Examples:**
+## Examples
+
 - If $I=\{1,\dots,n\}$ is finite, then $\bigoplus_{i=1}^n G_i=\prod_{i=1}^n G_i$ as groups.
 - $\bigoplus_{n\in\mathbb{N}}\mathbb{Z}$ is the free abelian group on countably many generators (elements are integer sequences that are eventually $0$).
 - $\bigoplus_{n\in\mathbb{N}} C_2$ is the group of $\{0,1\}$-sequences with finitely many $1$'s under componentwise addition mod $2$.

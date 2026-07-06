@@ -15,4 +15,6 @@ with the Gaussian \(L_2\) picture.
 - Transports the Fock–Cook operators to \(L_2(M,n)\): \(R(z)=D(C(z)+C^*(z))^{\sim}D^{-1}\).
 - Makes \(Q(x)\) a multiplication operator and \(P(x)\) its Wiener transform conjugate.
 
-**Example:** In 1D, this corresponds to the Hermite-function realization of the oscillator basis.
+## Examples
+
+- In 1D, this corresponds to the Hermite-function realization of the oscillator basis.

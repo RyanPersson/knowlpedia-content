@@ -29,4 +29,6 @@ legacy_source_path = "real-analysis/differentiation-rules.md"
   (f\circ g)'(x)=f'(g(x))\,g'(x).
   $$
 
+## Remarks
+
 These identities are the basic computational tools for the [[real-analysis/derivative|derivative]] and are organized and extended in the [[real-analysis/chain-rule|chain rule]] and related results (for example, rules used in [[real-analysis/inverse-function-theorem-1d|local inversion]]).

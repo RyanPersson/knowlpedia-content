@@ -19,7 +19,8 @@ i.e., $A$ is contained in some [[convex-analysis/open-and-closed-balls-in-a-metr
 
 A sequence $(x_n)$ in $X$ is **bounded** if the set $\{x_n\mid n\in\mathbb{N}\}$ is bounded.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$, any interval $[a,b]$ is bounded; $\mathbb{R}$ itself is not bounded.
 - In a normed space with metric $d(x,y)=\|x-y\|$, boundedness means $\|x_n\|\le M$ for some $M$ and all $n$.
 - In the discrete metric, every subset is bounded (take radius $r=2$ around any point).

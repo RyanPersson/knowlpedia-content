@@ -20,7 +20,7 @@ Equivalently, postcomposition with \(f\) induces an injective map of hom-sets
 \]
 for every object \(C\).
 
-## Basic properties
+## Properties
 - Every [[algebra-category-theory/isomorphism-category|isomorphism]] is an epimorphism.
 - Epimorphisms are stable under composition: if \(f:A\to B\) and \(g:B\to C\) are epis, then \(g\circ f\) is an epi.
 - **Duality:** \(f\) is an epi in \(\mathcal C\) iff \(f\) is a [[algebra-category-theory/monomorphism-category|monomorphism]] in the [[algebra-category-theory/opposite-category|opposite category]] \(\mathcal C^{\mathrm{op}}\).
@@ -33,5 +33,5 @@ for every object \(C\).
 
 3. **\(\mathbf{Top}\):** A continuous map \(f:X\to Y\) is an epimorphism in \(\mathbf{Top}\) iff it is surjective as a map of underlying sets.
 
-## Remark
+## Remarks
 Not every category has the property “epis are surjective on underlying sets” (for instance, in some algebraic categories epimorphisms can fail to be surjective). The definition above is the one that makes sense in an arbitrary [[algebra-category-theory/category|category]].

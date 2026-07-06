@@ -21,4 +21,6 @@ with the conventions $1/0=\infty$ and $1/\infty=0$. Then:
 - The series converges absolutely for $|x-x_0|<R$.
 - The series diverges for $|x-x_0|>R$.
 
+## Remarks
+
 This result is an application of the [[real-analysis/root-test|root test]] to the terms $a_n(x-x_0)^n$ and is the standard way to compute the radius in practice.

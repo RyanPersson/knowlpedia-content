@@ -17,6 +17,8 @@ A linear subspace $\mathfrak i\subseteq \mathfrak g$ is an **ideal** if it is a 
 \]
 Equivalently, $\mathfrak i$ is stable under the [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint action]]: for every $x\in\mathfrak g$, the endomorphism $\mathrm{ad}_x$ maps $\mathfrak i$ into itself.
 
+## Remarks
+
 **Basic consequences.**
 
 - If $\phi:\mathfrak g\to\mathfrak h$ is a [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]], then $\ker\phi$ is an ideal.

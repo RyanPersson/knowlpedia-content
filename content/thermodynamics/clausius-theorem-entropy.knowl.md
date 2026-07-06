@@ -8,8 +8,6 @@ domains = ["thermodynamics"]
 legacy_source_path = "thermodynamics/clausius-theorem-entropy.md"
 +++
 
-## Statement
-
 For a system undergoing a **reversible** cyclic process through equilibrium states, the Clausius integral satisfies
 $$
 \oint \frac{\delta Q_{\mathrm{rev}}}{T} = 0.
@@ -40,7 +38,7 @@ which is the [[thermodynamics/clausius-inequality|Clausius inequality]].
 - Entropy differences are intrinsic to the endpoints (state function property).
 - Irreversibility manifests as strict inequality in the cyclic Clausius integral and, equivalently, nonnegative entropy production.
 
-## Cross-links to definitions
+## Remarks
 
 - Entropy: [[thermodynamics/thermodynamic-entropy|thermodynamic entropy]].
 - Temperature (integrating factor): [[thermodynamics/temperature-thermo|temperature]].

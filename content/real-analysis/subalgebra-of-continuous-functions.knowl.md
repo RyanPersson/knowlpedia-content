@@ -12,6 +12,7 @@ A **subalgebra of continuous functions** on a [[topology/topological-space|topol
 
 With pointwise operations, $C(X)$ is a commutative [[algebra-rings/ring|ring]], and a subalgebra is a subset stable under the same structure. Subalgebras that [[real-analysis/separates-points|separate points]] are central in the [[real-analysis/stone-weierstrass-theorem|Stone–Weierstrass theorem]].
 
-**Examples:**
+## Examples
+
 - On a closed interval $[a,b]$, the set of restrictions of real [[real-analysis/polynomial|polynomials]] to $[a,b]$ is a subalgebra of $C([a,b])$.
 - On $[-1,1]$, the set of even continuous functions $\{f\in C([-1,1]) : f(x)=f(-x)\}$ is a subalgebra of $C([-1,1])$.

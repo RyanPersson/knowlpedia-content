@@ -72,7 +72,7 @@ $$
 
 Here $\langle s_x s_0\rangle_c$ is the [[stat-mech/connected-correlation-function|connected two-point correlation]]. This identity makes the link to the [[stat-mech/correlation-length|correlation length]] transparent: if connected correlations decay slowly in space, the spatial sum is large, and the susceptibility becomes large.
 
-## Physical interpretation
+## Interpretation
 
 - **Large susceptibility** means the system is easily polarized/ordered by a small field; microscopically, this corresponds to large fluctuations (large $\mathrm{Var}(M)$) and/or long-range correlations.
 - Near continuous phase transitions, the susceptibility often grows strongly or diverges in the [[thermodynamics/thermodynamic-limit|thermodynamic limit]], reflecting the growth of correlated domains measured by the correlation length.

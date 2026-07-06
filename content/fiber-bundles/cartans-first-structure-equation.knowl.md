@@ -30,6 +30,8 @@ where the $\mathfrak{gl}(n,\mathbb{R})$-action on $\mathbb{R}^n$ is used to defi
 (\omega\wedge\theta)(V,W)\;=\;\omega(V)\cdot\theta(W)\;-\;\omega(W)\cdot\theta(V).
 \]
 
+## Remarks
+
 The form $\Theta$ is horizontal and $G$-equivariant; it corresponds to the torsion tensor of the induced linear connection $\nabla$ on $TM$, namely
 \[
 T_\nabla(X,Y)=\nabla_XY-\nabla_YX-[X,Y],

@@ -15,4 +15,6 @@ If measures \(\nu\) and \(\mu\) satisfy \(\nu\ll\mu\) (absolute continuity), the
 **Key property (paper use):**
 - Shale writes \(X(T)=\frac{dn(T)}{dn}\) for the Gaussian pushforward (the "Jacobian").
 
-**Example:** For \(\nu=f\mu\) with \(f\ge0\), one has \(d\nu/d\mu=f\).
+## Examples
+
+- For \(\nu=f\mu\) with \(f\ge0\), one has \(d\nu/d\mu=f\).

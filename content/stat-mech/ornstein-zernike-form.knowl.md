@@ -80,7 +80,7 @@ $$
 
 Scaling relations then connect exponents, e.g. $\gamma=(2-\eta)\nu$ (see [[stat-mech/scaling-relation-exponents|scaling relations]]).
 
-## Prerequisites
+## Remarks
 
 - [[stat-mech/correlation-function-two-point|Two-point correlation function]]
 - [[stat-mech/correlation-length|Correlation length]]

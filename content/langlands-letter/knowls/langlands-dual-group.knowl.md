@@ -17,4 +17,6 @@ The **Langlands dual group** $\widehat G$ is the connected complex reductive gro
 **Key property (for Satake):**
 - Unramified Hecke eigencharacters correspond to semisimple conjugacy classes in $\widehat G$ (more precisely in the [[langlands-letter/knowls/l-group-satake-parameter|$L$-group]]).
 
-**Example:** $\widehat{\mathrm{GL}_n}=\mathrm{GL}_n(\mathbb{C})$, and $\widehat{\mathrm{SL}_n}=\mathrm{PGL}_n(\mathbb{C})$.
+## Examples
+
+- $\widehat{\mathrm{GL}_n}=\mathrm{GL}_n(\mathbb{C})$, and $\widehat{\mathrm{SL}_n}=\mathrm{PGL}_n(\mathbb{C})$.

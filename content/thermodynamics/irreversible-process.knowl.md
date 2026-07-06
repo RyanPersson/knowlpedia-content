@@ -10,7 +10,7 @@ legacy_source_path = "thermodynamics/irreversible-process.md"
 
 An **irreversible process** is a [[thermodynamics/thermodynamic-process|thermodynamic process]] that **cannot** be reversed so as to restore both the system and the surroundings to their initial conditions. Equivalently, an irreversible process involves dissipation and produces positive entropy in the combined system-plus-environment, in contrast to a [[thermodynamics/reversible-process|reversible process]].
 
-## Physical interpretation
+## Interpretation
 Irreversibility is the generic case in nature. It arises whenever the process is driven by **finite gradients** (temperature differences, pressure differences, chemical potential differences) or includes dissipative mechanisms such as friction, viscosity, diffusion, mixing, inelastic deformation, or chemical reaction. These mechanisms degrade organized energy transfers into more “disordered” microscopic energy distributions, making exact retracing impossible without additional net changes in the environment.
 
 A process can be [[thermodynamics/quasistatic-process|quasistatic]] and still irreversible—for example, a very slow compression with friction: the system remains near equilibrium (so $P$ and $T$ are well-defined), yet mechanical energy is dissipated as heat.

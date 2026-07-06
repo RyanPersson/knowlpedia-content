@@ -17,7 +17,10 @@ is closed in $E$, and such that $I$ is not identically $+\infty$.
 
 Rate functions quantify the exponential scale of rare-event probabilities in a [[large-deviations/large-deviation-principle|large deviation principle]]: heuristically, $\mu_n(A)\approx \exp(-a_n \inf_{x\in A} I(x))$ for large $n$ and speed $a_n$. A particularly well-behaved class is given by [[large-deviations/good-rate-function|good rate functions]], whose sublevel sets are compact.
 
-**Examples:**
+  is a rate function; it forces mass to concentrate on $C$ at the exponential scale.
+
+## Examples
+
 - On $E=\mathbb R$, the function $I(x)=\frac{x^2}{2}$ is a rate function (it is continuous, hence lower semicontinuous).
 - For a closed set $C\subseteq E$, the indicator-type function
   $$
@@ -26,5 +29,3 @@ Rate functions quantify the exponential scale of rare-event probabilities in a [
   +\infty,& x\notin C,
   \end{cases}
   $$
-
-  is a rate function; it forces mass to concentrate on $C$ at the exponential scale.

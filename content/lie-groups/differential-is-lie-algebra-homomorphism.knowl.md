@@ -10,7 +10,6 @@ legacy_source_path = "lie-groups/differential-is-lie-algebra-homomorphism.md"
 
 Let $\Phi:G\to H$ be a [[lie-groups/lie-group-homomorphism|Lie group homomorphism]] between [[fiber-bundles/lie-group|Lie groups]], and let $\mathfrak g=\mathrm{Lie}(G)$ and $\mathfrak h=\mathrm{Lie}(H)$ (see [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of a Lie group]]).
 
-## Theorem
 The differential at the identity,
 \[
 d\Phi_e:\mathfrak g \longrightarrow \mathfrak h,

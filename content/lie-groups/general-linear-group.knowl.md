@@ -20,6 +20,8 @@ with group operation given by composition. After choosing a basis, $\mathrm{GL}(
 \mathrm{GL}_n(\mathbb F)=\{A\in M_n(\mathbb F):\det(A)\ne 0\}.
 \]
 
+## Remarks
+
 **Lie group structure.**  
 Viewed as a subset of the affine space $M_n(\mathbb F)$, $\mathrm{GL}_n(\mathbb F)$ is open (since $\det$ is continuous and $\mathbb F^\times$ is open), hence it is a smooth manifold and a [[fiber-bundles/lie-group|Lie group]]. Its Lie algebra is the [[lie-groups/general-linear-lie-algebra|general linear Lie algebra]] $\mathfrak{gl}_n(\mathbb F)$, identified with $T_I\mathrm{GL}_n(\mathbb F)$ (compare [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of a Lie group]]).
 

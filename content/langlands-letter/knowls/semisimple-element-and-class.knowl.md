@@ -16,4 +16,6 @@ In a reductive group, semisimple elements are exactly those contained in some ma
 
 A **semisimple conjugacy class** is the conjugacy class of a semisimple element.
 
-**Example:** in $\mathrm{GL}_n(\mathbb{C})$, semisimple means "diagonalizable."
+## Examples
+
+- in $\mathrm{GL}_n(\mathbb{C})$, semisimple means "diagonalizable."

@@ -15,8 +15,11 @@ $$
 
 The image (often called the range) of $f$ is $f(A)$.
 
+## Remarks
+
 Images are built from [[shared-foundations/subset|subsets]] of the domain and are paired conceptually with [[shared-foundations/preimage|preimages]] of subsets of the codomain. A function is [[shared-foundations/surjective-function|surjective]] precisely when $f(A)$ equals its [[shared-foundations/codomain|codomain]].
 
-**Examples:**
+## Examples
+
 - For $f:\mathbb{Z}\to\mathbb{Z}$ given by $f(n)=2n$, the image $f(\mathbb{Z})$ is the set $\{2k: k\in\mathbb{Z}\}$ of even integers.
 - For $f:\mathbb{R}\to\mathbb{R}$ given by $f(x)=x^2$ and $S=\{x\in\mathbb{R}:-1\le x\le 2\}$, the image is $f(S)=\{y\in\mathbb{R}:0\le y\le 4\}$.

@@ -15,4 +15,6 @@ legacy_source_path = "real-analysis/completeness-equivalences.md"
 3. (Monotone convergence) Every [[real-analysis/monotone-sequence|monotone sequence]] in $\mathbb{R}$ that is bounded converges (see [[real-analysis/monotone-sequence-convergence-theorem|monotone sequence convergence theorem]]).
 4. (Nested intervals) If $(I_n)$ is a nested sequence of nonempty closed [[real-analysis/interval|intervals]] with lengths tending to $0$, then $\bigcap_{n=1}^\infty I_n$ consists of exactly one point.
 
+## Remarks
+
 These equivalent formulations let one choose the most convenient “completeness principle” for a given argument, depending on whether the problem is stated in terms of [[real-analysis/supremum|suprema]], sequences, or intervals.

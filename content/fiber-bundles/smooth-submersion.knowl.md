@@ -16,16 +16,8 @@ d f_p : T_p M \longrightarrow T_{f(p)}N
 \]
 is surjective, where \(T_pM\) is the [[fiber-bundles/tangent-space-at-a-point|tangent space]] at \(p\).
 
+## Equivalent characterizations
 Equivalently, \(\operatorname{rank}(d f_p)=n\) for all \(p\in M\). In particular, if a submersion \(M^m \to N^n\) exists then \(m \ge n\).
-
-## Local normal form (Submersion theorem)
-If \(f : M^m \to N^n\) is a smooth submersion and \(p\in M\), then there exist smooth charts \((U,\varphi)\) around \(p\) and \((V,\psi)\) around \(f(p)\) (see [[fiber-bundles/smooth-chart-coordinate-chart|coordinate charts]]) such that, in these coordinates,
-\[
-(\psi\circ f \circ \varphi^{-1})(x^1,\dots,x^m)=(x^1,\dots,x^n)\in \mathbb{R}^n.
-\]
-So a submersion is locally just a projection map.
-
-A useful viewpoint is that if \(f\) is a smooth submersion, then every \(y\in N\) is a [[fiber-bundles/regular-value|regular value]] of \(f\). Consequently, each [[fiber-bundles/fiber-of-a-map-preimage-fiber|fiber]] \(f^{-1}(y)\) is (locally) a smooth submanifold of codimension \(n\).
 
 ## Examples
 1. **Projection from a product.** For smooth manifolds \(M\) and \(F\), the projection
@@ -45,3 +37,14 @@ A useful viewpoint is that if \(f\) is a smooth submersion, then every \(y\in N\
    d(\det)_A(B)=\det(A)\,\mathrm{tr}(A^{-1}B),
    \]
    and since \(\det(A)\neq 0\) we can choose \(B\) so that \(d(\det)_A(B)\) is any prescribed real number, proving surjectivity.
+
+
+## Local normal form (Submersion theorem)
+If \(f : M^m \to N^n\) is a smooth submersion and \(p\in M\), then there exist smooth charts \((U,\varphi)\) around \(p\) and \((V,\psi)\) around \(f(p)\) (see [[fiber-bundles/smooth-chart-coordinate-chart|coordinate charts]]) such that, in these coordinates,
+\[
+(\psi\circ f \circ \varphi^{-1})(x^1,\dots,x^m)=(x^1,\dots,x^n)\in \mathbb{R}^n.
+\]
+So a submersion is locally just a projection map.
+
+A useful viewpoint is that if \(f\) is a smooth submersion, then every \(y\in N\) is a [[fiber-bundles/regular-value|regular value]] of \(f\). Consequently, each [[fiber-bundles/fiber-of-a-map-preimage-fiber|fiber]] \(f^{-1}(y)\) is (locally) a smooth submanifold of codimension \(n\).
+

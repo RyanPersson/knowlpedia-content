@@ -10,7 +10,6 @@ legacy_source_path = "algebra-homological/projective-resolutions-exist.md"
 
 Let \(R\) be a ring and \(M\) a left \(R\)-[[algebra-modules/module|module]].
 
-## Statement
 A **[[algebra-homological/projective-resolution|projective resolution]]** of \(M\) is an exact augmented [[algebra-homological/chain-complex|chain complex]]
 \[
 \cdots \xrightarrow{d_2} P_1 \xrightarrow{d_1} P_0 \xrightarrow{\varepsilon} M \to 0

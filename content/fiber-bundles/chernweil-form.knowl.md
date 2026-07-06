@@ -8,8 +8,6 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/chernweil-form.md"
 +++
 
-Chern–Weil theory associates closed differential forms to a principal connection by applying invariant polynomials to its curvature. These are the differential-form representatives of [[fiber-bundles/characteristic-class|characteristic classes]].
-
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] and let $\omega\in\Omega^1(P;\mathfrak{g})$ be a [[fiber-bundles/principal-connection|principal connection]] with curvature $\Omega\in\Omega^2(P;\mathfrak{g})$ (see [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form of a principal connection]]).
 
 Let $P$ (unfortunately the same letter is standard) also denote an $\mathrm{Ad}$-invariant symmetric multilinear polynomial of degree $k$ on the Lie algebra $\mathfrak{g}$, i.e. an element of $(\mathrm{Sym}^k\mathfrak{g}^*)^G$.
@@ -25,6 +23,10 @@ A fundamental point is that $P(\Omega)$ is a **basic** form on $P$ (see [[fiber-
 \pi^*\,\mathrm{cw}_P(\omega)=P(\Omega).
 \]
 By abuse of language, $\mathrm{cw}_P(\omega)$ is also called the Chern–Weil form on $M$.
+
+## Remarks
+
+Chern–Weil theory associates closed differential forms to a principal connection by applying invariant polynomials to its curvature. These are the differential-form representatives of [[fiber-bundles/characteristic-class|characteristic classes]].
 
 ## What Chern–Weil theory guarantees
 - The form $\mathrm{cw}_P(\omega)$ is closed, and its de Rham cohomology class does not depend on the choice of connection; this is the content of [[fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection|the Chern–Weil theorem]].

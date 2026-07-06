@@ -12,7 +12,7 @@ A **thermodynamic process** is a time-ordered transformation of a [[thermodynami
 
 When the system is (at least approximately) in [[thermodynamics/thermodynamic-equilibrium|thermodynamic equilibrium]] throughout, the process can be represented as a continuous path through [[thermodynamics/thermodynamic-state|thermodynamic states]] parameterized by [[thermodynamics/state-variable|state variables]] (e.g., temperature, pressure, volume, particle number). In general, a process may pass through nonequilibrium configurations, in which case only the endpoints may be equilibrium states with well-defined macroscopic state variables.
 
-## Physical interpretation
+## Interpretation
 A process is “what you do to the system” (or “what happens to it”)—compressing a gas, heating it in contact with a reservoir, letting it expand against an external pressure, mixing components, or allowing chemical change—specified by the constraints and how external controls vary in time. The same initial and final equilibrium states can often be connected by many different processes; the distinction matters because some quantities depend on the path.
 
 ## Key structural distinctions

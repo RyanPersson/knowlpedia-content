@@ -26,7 +26,7 @@ $$
 
 then $\mu(A)\in\{0,1\}$ for every $A\in\mathcal{T}$.
 
-## Key properties
+## Properties
 
 - **Pure-state building blocks:** Extremal Gibbs measures are the “indecomposable” equilibrium states. Every Gibbs measure can be represented as a [[stat-mech-lattice/mixture-gibbs-measures|mixture]] of extremal ones.
 
@@ -36,6 +36,6 @@ then $\mu(A)\in\{0,1\}$ for every $A\in\mathcal{T}$.
 
 - **Characterization of coexistence:** When multiple distinct extremal Gibbs measures exist at the same parameters, they correspond to distinct macroscopic phases (see [[stat-mech-lattice/phase-transition-gibbs|phase transition]] and [[stat-mech-lattice/pure-phase|pure phase]]).
 
-## Physical interpretation
+## Interpretation
 
 An extremal Gibbs measure corresponds to a single homogeneous equilibrium phase of an infinite system, with no macroscopic phase coexistence encoded by random mixing. In models with symmetry breaking (e.g. the [[stat-mech-lattice/ising-model|Ising model]] at low temperature), the “plus” and “minus” magnetized states are paradigmatic examples of distinct extremal Gibbs measures, while a symmetry-invariant state may be their non-extremal mixture.

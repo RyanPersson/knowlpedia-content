@@ -17,4 +17,6 @@ Assume the displayed quantities are finite (for example, by assuming the relevan
 - If $c\le 0$, then $\sup(cA)=c\,\inf(A)$ and $\inf(cA)=c\,\sup(A)$.
 - Writing $-A=\{-a:\ a\in A\}$, one has $\sup(-A)=-\inf(A)$ and $\inf(-A)=-\sup(A)$.
 
+## Remarks
+
 These rules are frequently paired with the [[real-analysis/supremum-approximation-lemma|supremum approximation lemma]] to turn statements about [[real-analysis/supremum|suprema]] and [[real-analysis/infimum|infima]] into $\varepsilon$-estimates.

@@ -17,6 +17,7 @@ We use the convention $\inf(\emptyset):=\infty$, and in the notes it is assumed 
 
 The marginal function captures "minimize over $y$ given $x$" and is central in parametric optimization and convex analysis; its convexity is addressed in [[convex-analysis/convexity-of-the-marginal-optimal-value-function|the convexity theorem for marginal functions]].
 
-**Examples:**
+## Examples
+
 - If $F(x)\equiv C$ is a fixed nonempty set and $\varphi(x,y)=g(x,y)$, then $\mu(x)=\inf_{y\in C} g(x,y)$.
 - If $F(x)$ is the feasible set of a constraint system depending on $x$, then $\mu(x)$ is the optimal value of that parameterized problem.

@@ -31,5 +31,5 @@ These form a [[algebra-modules/basis-module|basis]] of \(T_pM\), so \(\dim T_pM 
 ## Curve viewpoint
 Equivalently, \(T_pM\) can be described using equivalence classes of smooth curves \(\gamma:(-\epsilon,\epsilon)\to M\) with \(\gamma(0)=p\), where \(\gamma_1\sim\gamma_2\) if they have the same first derivative in any (hence every) chart.
 
-## Example
+## Examples
 If \(M=\mathbb{R}^n\), then \(T_p\mathbb{R}^n\cong \mathbb{R}^n\) canonically, and derivations correspond to directional derivatives (see [[real-analysis/derivative|derivative]]).

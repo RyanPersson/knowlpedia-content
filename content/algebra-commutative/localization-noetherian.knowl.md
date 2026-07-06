@@ -10,7 +10,6 @@ legacy_source_path = "algebra-commutative/localization-noetherian.md"
 
 Localization is a “local” operation, but it does not destroy finiteness properties: in particular, Noetherianity survives. This is indispensable when passing from global to local statements, for example by [[algebra-commutative/localization-at-prime|localizing at a prime]].
 
-## Theorem
 
 Let $R$ be a [[algebra-commutative/noetherian-ring|Noetherian ring]] and let $S$ be a [[algebra-commutative/multiplicative-set|multiplicative set]] in $R$. Then the localized ring
 \[

@@ -17,4 +17,6 @@ In Shale's paper, \(K\) comes from a complex \(H\) by realification, with \(B=\I
 - Linear symmetries are elements of [[shale-paper/symplectic-group-spk|Sp(K)]].
 - Implementability in Fock space depends on "restricted" size conditions (Hilbert–Schmidt).
 
-**Example:** \(K=H_{\mathbb R}\) for complex \(H\), \(B(z_1,z_2)=\Im(z_1,z_2)_c\).
+## Examples
+
+- \(K=H_{\mathbb R}\) for complex \(H\), \(B(z_1,z_2)=\Im(z_1,z_2)_c\).

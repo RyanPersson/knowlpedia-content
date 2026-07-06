@@ -12,6 +12,7 @@ A **bounded set** in a metric space $(X,d)$ is a subset $A\subseteq X$ for which
 
 Equivalently, $A$ is bounded if and only if its [[topology/diameter|diameter]] is finite. Boundedness is a basic size condition that appears in notions such as [[topology/totally-bounded-set|total boundedness]].
 
-**Examples:**
+## Examples
+
 - Any (open or closed) ball of finite radius is bounded.
 - In $(\mathbb{R},|\cdot|)$, the interval $(0,1)$ is bounded, while $(0,\infty)$ is not.

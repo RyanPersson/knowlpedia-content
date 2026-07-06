@@ -14,8 +14,11 @@ A **mesh of a partition** $P=\{x_0,\dots,x_n\}$ of $[a,b]$ is the number
 \]
 For a [[real-analysis/tagged-partition|tagged partition]], the mesh depends only on the underlying partition $P$.
 
+## Remarks
+
 The mesh quantifies how “fine” a partition is; limits in the definitions of the [[real-analysis/riemann-integral|Riemann integral]] and the [[real-analysis/riemann-stieltjes-integral|Riemann–Stieltjes integral]] are taken as $\|P\|\to 0$.
 
-**Examples:**
+## Examples
+
 - The uniform partition of $[0,1]$ into $n$ equal pieces has mesh $\|P\|=1/n$.
 - For $P=\{0,0.9,1\}$, the mesh is $\|P\|=0.9$.

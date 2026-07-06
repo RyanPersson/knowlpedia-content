@@ -19,7 +19,8 @@ $$\operatorname{vol}(R)=\prod_{j=1}^k (b_j-a_j).$$
 
 Measure zero is a notion of "smallness" relevant to integration and differentiability. In Rudin-style analysis it is used in the Lebesgue criterion for Riemann integrability: a bounded function is Riemann integrable iff its discontinuity set has measure zero.
 
-**Examples:**
+## Examples
+
 - Any finite or countable subset of $\mathbb{R}^k$ has measure zero.
 - Any $k$-dimensional hyperplane in $\mathbb{R}^{k+1}$ (e.g., $\mathbb{R}^k\times\{0\}$) has measure zero in $\mathbb{R}^{k+1}$.
 - The Cantor set has measure zero in $\mathbb{R}$ (a standard construction result).

@@ -16,6 +16,8 @@ legacy_source_path = "real-analysis/inverse-function-theorem-1d.md"
    g'(y)=\frac{1}{f'(g(y))}.
    $$
 
-   In particular, $g'(f(x_0))=1/f'(x_0)$.
+## Remarks
+
+In particular, $g'(f(x_0))=1/f'(x_0)$.
 
 This result combines [[real-analysis/derivative-sign-implies-monotonicity|local monotonicity from the derivative]] with the [[real-analysis/chain-rule|chain rule]] applied to $f\circ g=\mathrm{id}$. It is the one-dimensional case of the [[real-analysis/inverse-function-theorem-rk|inverse function theorem in higher dimensions]].

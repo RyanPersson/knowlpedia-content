@@ -14,4 +14,6 @@ Q(R):=S^{-1}R.
 \]
 The canonical map \(R\to Q(R)\) sends every \(s\in S\) to a [[algebra-rings/unit|unit]] in \(Q(R)\), and \(Q(R)\) is universal with this property among commutative rings receiving a map from \(R\).
 
+## Remarks
+
 If \(R\) is an integral domain, then \(S=R\setminus\{0\}\) and \(Q(R)\cong\) the [[algebra-rings/fraction-field|fraction field]] of \(R\).

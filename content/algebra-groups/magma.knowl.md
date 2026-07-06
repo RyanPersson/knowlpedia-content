@@ -12,7 +12,8 @@ A **magma** is a set $M$ together with a binary operation $\cdot : M \times M \t
 
 This is the most general algebraic structure with a single binary operation. All [[algebra-groups/semigroup|semigroups]], [[algebra-groups/monoid|monoids]], and [[algebra-groups/group|groups]] are magmas.
 
-**Examples:**
+## Examples
+
 - Any set with any binary operation
 - $(\mathbb{Z}, -)$ — integers under subtraction (not associative)
 - Rock-paper-scissors with the "winner" operation

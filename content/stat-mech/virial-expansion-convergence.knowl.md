@@ -8,7 +8,7 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/virial-expansion-convergence.md"
 +++
 
-## Prerequisites
+## Remarks
 
 - [[stat-mech/pressure-log-partition-density|pressure / log-partition density]]
 - [[stat-mech/cluster-integrals-mayer|cluster integrals (Mayer expansion)]]

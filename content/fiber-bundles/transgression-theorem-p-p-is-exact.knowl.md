@@ -23,8 +23,6 @@ where $d$ is the [[fiber-bundles/exterior-derivative|exterior derivative]]. One 
 \]
 where $P(\eta,\Omega_t,\dots,\Omega_t)$ denotes the $(2k-1)$-form obtained by inserting one $1$-form $\eta$ and $(k-1)$ copies of the $2$-form $\Omega_t$ into the symmetric $k$-linear map $P$ and wedging.
 
-In particular, the de Rham class $[\operatorname{cw}_P(\omega)]$ is independent of $\omega$.
-
 ## Examples
 1. **Degree 1 (abelian case).** For $k=1$ and $P(X)=X$ (e.g. $G=U(1)$), $\operatorname{cw}_P(\omega)$ is just the curvature $2$-form on the base, and the formula becomes $\operatorname{cw}_P(\omega_1)-\operatorname{cw}_P(\omega_0)=d(A_1-A_0)$ in a local gauge.
 2. **Degree 2 (classical 3D Chern–Simons).** For a matrix group and $P(X)=\mathrm{tr}(X^2)$, the transgression gives the usual $3$-form on a trivialization:
@@ -33,3 +31,7 @@ In particular, the de Rham class $[\operatorname{cw}_P(\omega)]$ is independent 
    \]
    whose exterior derivative is $\mathrm{tr}(F\wedge F)$.
 3. **Gauge-equivalent connections.** If $\omega_1$ is obtained from $\omega_0$ by a gauge transformation, then $\operatorname{cw}_P(\omega_1)-\operatorname{cw}_P(\omega_0)$ is exact; the theorem produces an explicit primitive.
+
+
+## Remarks
+In particular, the de Rham class $[\operatorname{cw}_P(\omega)]$ is independent of $\omega$.

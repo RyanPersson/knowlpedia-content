@@ -17,7 +17,11 @@ $$
 
 is a [[convex-analysis/linear-subspace|linear subspace]] of $X$.
 
+## Equivalent characterizations
+
 Equivalently, $\Omega$ is affine iff there exist $\omega\in X$ and a subspace $L\subset X$ such that $\Omega=\omega+L$.
+
+## Remarks
 
 **Context:**
 This lemma explains why affine sets are often called "affine subspaces": they are precisely translates of linear subspaces.

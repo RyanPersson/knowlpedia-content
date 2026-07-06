@@ -22,6 +22,8 @@ Conversely, let $X$ be a vector space equipped with a metric $d$ satisfying:
 
 Then $\|x\|:=d(x,0)$ defines a norm on $X$, and $d(x,y)=\|x-y\|$.
 
+## Remarks
+
 **Context.** This identifies norms as exactly the translation-invariant, homogeneous metrics on vector spaces.
 
 **Proof sketch.** For the forward direction, metric axioms follow from the norm axioms; in particular the triangle inequality for $d$ is $\|x-z\|\le \|x-y\|+\|y-z\|$. For the converse, check the norm axioms directly from the two metric properties and the metric triangle inequality.

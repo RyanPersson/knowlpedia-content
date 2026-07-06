@@ -36,7 +36,7 @@ $$
 
 where $\beta$ is the [[thermodynamics/inverse-temperature-beta|inverse temperature]] and $\Xi$ is constructed by [[stat-mech/construction-grand-canonical-partition-function|the grand-canonical partition-function construction]].
 
-## Physical interpretation
+## Interpretation
 
 - Passing from $F(T,V,N)$ to $\Omega(T,V,\mu)$ exchanges the constraint “fixed particle number” for “fixed chemical potential,” matching the physics of a system in particle exchange with a reservoir.
 - The term $-\mu N$ represents the energetic/entropic bookkeeping associated with exchanging particles with that reservoir.

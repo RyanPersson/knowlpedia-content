@@ -25,7 +25,7 @@ Two common cases are:
 
 Chemical equilibrium is a necessary component of [[thermodynamics/thermodynamic-equilibrium|thermodynamic equilibrium]], alongside [[thermodynamics/mechanical-equilibrium|mechanical]] and [[thermodynamics/thermal-equilibrium|thermal]] equilibrium.
 
-## Physical interpretation
+## Interpretation
 Chemical potential measures the “escaping tendency” of particles (or, more generally, how the system’s free energy changes with composition). If two regions have different chemical potentials for a species, matter transfer or reaction progress can increase total entropy (or decrease the appropriate free-energy potential), so a net change occurs until the chemical potentials satisfy the equilibrium condition.
 
 In practice, chemical equilibrium is what makes composition stable: once reached, the system may still exchange energy as [[thermodynamics/heat-inexact-differential|heat]] or perform [[thermodynamics/work-inexact-differential|work]] (depending on constraints), but it has no net tendency to change its particle content or reaction extent.

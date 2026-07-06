@@ -12,7 +12,8 @@ A **correlation coefficient** is the normalized covariance $\rho(X,Y)=\frac{\ope
 
 It is a dimensionless rescaling of [[probability/covariance|covariance]] and satisfies $-1\le \rho(X,Y)\le 1$, with the sign indicating the direction of linear association. Correlation $\rho(X,Y)=0$ means $X$ and $Y$ are uncorrelated, which is implied by [[probability/independence-random-variables|independence]] but is generally weaker.  
 
-**Examples:**
+## Examples
+
 - If $Y=aX+b$ with $a\neq 0$ and $\operatorname{Var}(X)>0$, then $\rho(X,Y)=1$ when $a>0$ and $\rho(X,Y)=-1$ when $a<0$.
 - If $X\sim N(0,1)$ and $Z\sim N(0,1)$ are independent and $Y=X+Z$, then $\rho(X,Y)=\frac{1}{\sqrt{2}}$.
 - If $X$ and $Y$ are independent with finite, nonzero variances, then $\rho(X,Y)=0$.

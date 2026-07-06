@@ -19,6 +19,7 @@ For a noncommutative ring \(R\), if \(M\) is a right \(R\)-module and \(N\) is a
 
 Balanced bilinear maps are exactly the maps represented by the [[algebra-modules/tensor-product-universal-property|universal property of the tensor product]]: they correspond uniquely to homomorphisms out of \(M\otimes_R N\) in the category of [[algebra-modules/module|modules]]/abelian groups.
 
-**Examples:**
+## Examples
+
 - Multiplication \(\mu\colon R\times R\to R\) is bilinear for any [[algebra-rings/ring|ring]] \(R\).
 - For a commutative ring \(R\) and an \(R\)-module \(M\), the evaluation pairing \(M^\vee\times M\to R\) is bilinear, where \(M^\vee\) is the [[algebra-modules/dual-module|dual module]].

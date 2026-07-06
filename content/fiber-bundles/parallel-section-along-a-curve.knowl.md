@@ -21,6 +21,7 @@ A section \(s\) along \(\gamma\) is called **parallel along \(\gamma\)** if
 \frac{D s}{dt}(t)=0 \quad \text{for all } t\in I.
 \]
 
+## Equivalent characterizations
 Equivalently: given \(t_0\in I\) and \(v_0\in E_{\gamma(t_0)}\), there is a unique parallel section \(s\) along \(\gamma\) with \(s(t_0)=v_0\). The resulting identification of fibers is the [[fiber-bundles/parallel-transport|parallel transport]] determined by \(\nabla\) along \(\gamma\).
 
 ## Examples
@@ -33,3 +34,4 @@ Equivalently: given \(t_0\in I\) and \(v_0\in E_{\gamma(t_0)}\), there is a uniq
    f'(t) + \alpha(\dot\gamma(t))\,f(t)=0,
    \]
    so \(f(t)=f(t_0)\exp\!\left(-\int_{t_0}^t \alpha(\dot\gamma(\tau))\,d\tau\right)\).
+

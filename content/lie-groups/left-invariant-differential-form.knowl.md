@@ -16,6 +16,8 @@ A differential $k$-form $\omega\in \Omega^k(G)$ is **left-invariant** if
 L_g^*\omega=\omega \quad\text{for all } g\in G.
 \]
 
+## Remarks
+
 **Identification with alternating forms on the Lie algebra.**  
 Evaluation at the identity defines an isomorphism
 \[

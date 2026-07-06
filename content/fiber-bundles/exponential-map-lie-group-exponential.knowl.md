@@ -19,7 +19,6 @@ such that \(\gamma_X(0)=e\) and \(\gamma_X'(0)=X\) (viewing \(X\) as a tangent v
 \[
 \exp_G:\mathfrak g\longrightarrow G,\qquad \exp_G(X)=\gamma_X(1).
 \]
-Equivalently, \(\gamma_X(t)=\exp_G(tX)\) is the integral curve through \(e\) of the [[lie-groups/left-invariant-vector-field|left-invariant vector field]] determined by \(X\), defined using [[fiber-bundles/left-translation-l-g|left translations]].
 
 **Basic properties.**
 - \(\exp_G(0)=e\) and \((d\exp_G)_0=\mathrm{id}_{\mathfrak g}\).
@@ -47,3 +46,7 @@ Equivalently, \(\gamma_X(t)=\exp_G(tX)\) is the integral curve through \(e\) of 
    \exp_G(A)=\sum_{k=0}^{\infty}\frac{A^k}{k!}.
    \]
    For example, in \(SO(2)\) this recovers rotations, and in \(GL(n,\mathbb R)\) it produces invertible matrices for all \(A\).
+
+## Equivalent characterizations
+
+Equivalently, \(\gamma_X(t)=\exp_G(tX)\) is the integral curve through \(e\) of the [[lie-groups/left-invariant-vector-field|left-invariant vector field]] determined by \(X\), defined using [[fiber-bundles/left-translation-l-g|left translations]].

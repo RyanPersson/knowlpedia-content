@@ -45,7 +45,7 @@ and it is the connected version of the [[stat-mech/correlation-function-two-poin
 ## Connected correlations as cumulants
 In Gibbs-type ensembles, connected correlations are the natural objects produced by differentiating $\log Z$ rather than $Z$. This is the content of [[stat-mech/construction-connected-correlations-cumulants|connected correlations as cumulants]] and [[stat-mech/construction-cumulant-generating-function|cumulant generating functions]]: derivatives of $\log Z$ with respect to fields coupled to observables generate connected correlation functions.
 
-## Physical interpretation
+## Interpretation
 - **Remove “trivial” correlations:** If $\langle A\rangle$ and $\langle B\rangle$ are nonzero, the unconnected correlator $\langle AB\rangle$ can be dominated by the product $\langle A\rangle\langle B\rangle$. The connected correlator subtracts this, leaving the part due to correlated fluctuations.
 
 - **Clustering and phases:** In many equilibrium phases away from criticality, connected correlations decay with separation, defining a finite [[stat-mech/correlation-length|correlation length]]. Near critical points, connected correlations can become long-ranged, and their spatial integral controls macroscopic responses such as [[stat-mech/susceptibility-stat-mech|susceptibility]].

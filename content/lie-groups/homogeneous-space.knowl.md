@@ -19,6 +19,8 @@ G/H \;\longrightarrow\; M,
 \]
 where $G/H$ is the [[lie-groups/coset-space|coset space]]. If $H$ is a [[lie-groups/closed-subgroup-lie-group|closed]] subgroup, then $G/H$ carries a unique smooth manifold structure making the induced map a $G$-equivariant diffeomorphism (compare the [[lie-groups/closed-subgroup-theorem|closed subgroup theorem]]).
 
+## Remarks
+
 **Special case.**  
 If the action is also [[lie-groups/free-action-lie|free]], then $H$ is trivial and $M$ is (noncanonically) identified with $G$; in the free-and-transitive case, $M$ is a [[lie-groups/principal-homogeneous-space|principal homogeneous space]].
 

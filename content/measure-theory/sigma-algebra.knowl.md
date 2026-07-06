@@ -12,7 +12,8 @@ A **sigma-algebra** on a set $X$ is a nonempty collection $\Sigma \subseteq \mat
 
 Equivalently, $\Sigma$ contains $X$ and is closed under complements and countable [[shared-foundations/union|unions]]; it then automatically contains the [[shared-foundations/empty-set|empty set]] and is closed under countable [[shared-foundations/intersection|intersections]]. Sigma-algebras define [[measure-theory/measurable-space|measurable spaces]] and are the domains of [[measure-theory/measure|measures]].
 
-**Examples:**
+## Examples
+
 - For any $X$, the [[shared-foundations/power-set|power set]] $\mathcal P(X)$ is a sigma-algebra.
 - On $\mathbb R$ with its usual topology, the [[measure-theory/borel-sigma-algebra|Borel sigma-algebra]] is a sigma-algebra.
 - The “trivial” sigma-algebra $\{\varnothing, X\}$ is a sigma-algebra on any set $X$.

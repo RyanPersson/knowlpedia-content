@@ -8,7 +8,7 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/pirogov-sinai-theory.md"
 +++
 
-## Context
+## Remarks
 Many lattice models (see [[stat-mech-lattice/lattice-hamiltonian|lattice Hamiltonians]]) have several distinct ground states at zero temperature. Pirogov–Sinai theory provides a systematic way to analyze the corresponding low-temperature equilibrium structure: existence of multiple [[stat-mech-lattice/infinite-volume-gibbs-measure|Gibbs measures]], stability under perturbations, and precise first-order transition lines.
 
 It builds on contour representations and convergent expansions (see [[stat-mech/cluster-expansion-theorem|cluster expansion]]).

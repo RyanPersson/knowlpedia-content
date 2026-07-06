@@ -8,7 +8,7 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/fubini-theorem-riemann.md"
 +++
 
-**Fubini theorem (Riemann):** 
+**Fubini theorem (Riemann):**
 
 Let $a<b$ and $c<d$, and let $f:[a,b]\times[c,d]\to\mathbb{R}$ be continuous. Then $f$ is [[real-analysis/multiple-riemann-integral|Riemann integrable on the rectangle]], the two [[real-analysis/iterated-integral|iterated integrals]] exist, and
 $$
@@ -17,5 +17,7 @@ $$
 $$
 \iint_{[a,b]\times[c,d]} f(x,y)\,dA.
 $$
+
+## Remarks
 
 This allows one to compute a [[real-analysis/multiple-riemann-integral|double Riemann integral]] by integrating one variable at a time, and it is a key tool for evaluating many [[real-analysis/multiple-riemann-integral|multiple integrals]] in practice.

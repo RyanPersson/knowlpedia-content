@@ -19,4 +19,6 @@ Let $G$ be a [[fiber-bundles/lie-group|Lie group]] and let $H\le G$ be a [[lie-g
    matching the description in [[lie-groups/lie-algebra-of-subgroup-lemma|the Lie algebra of a subgroup lemma]].
 3. The [[lie-groups/coset-space|coset space]] $G/H$ admits a unique smooth manifold structure such that the projection $\pi:G\to G/H$ is a smooth submersion, making $G/H$ into a basic example of a [[lie-groups/homogeneous-space|homogeneous space]].
 
+## Remarks
+
 **Context.** This theorem is the bridge between “topological subgroup” and “geometric submanifold.” It is also what makes quotients by closed normal subgroups into Lie groups (compare [[lie-groups/quotient-lie-group|quotient Lie groups]]).

@@ -36,7 +36,8 @@ $$
 \operatorname{codim}(Y):=\dim(X/Y).
 $$
 
-**Examples:**
+## Examples
+
 - If $Y=\{0\}$, then $X/Y\cong X$ via $x+\{0\}\mapsto x$.
 - If $X=\mathbb{R}^2$ and $Y$ is the $x$-axis, then $X/Y$ is (linearly) isomorphic to $\mathbb{R}$.
 - If $Y=X$, then $X/Y$ is the zero vector space.

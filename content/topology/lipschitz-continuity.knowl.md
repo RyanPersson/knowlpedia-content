@@ -13,8 +13,11 @@ A **Lipschitz continuous map** between metric spaces $(X,d_X)$ and $(Y,d_Y)$ is 
 d_Y\bigl(f(x),f(y)\bigr)\le L\,d_X(x,y).
 \]
 
+## Remarks
+
 Lipschitz continuity is a quantitative strengthening of [[topology/uniformly-continuous-map|uniform continuity]]: every Lipschitz map is uniformly continuous. It also gives direct control of the size of images of sets via [[topology/diameter|diameter]].
 
-**Examples:**
+## Examples
+
 - On $\mathbb{R}$ with the usual metric, $f(x)=ax+b$ is Lipschitz with constant $L=|a|$.
 - On any metric space $(X,d)$, the function $x\mapsto d(x,x_0)$ (distance to a fixed point $x_0$) is Lipschitz with constant $1$.

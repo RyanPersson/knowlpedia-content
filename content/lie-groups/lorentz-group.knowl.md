@@ -31,5 +31,5 @@ $$
 $$
 an instance of [[lie-groups/orthogonal-lie-algebra|orthogonal Lie algebras]].
 
-## Context
+## Remarks
 The Lorentz group acts linearly on Minkowski space, and adjoining translations yields the [[lie-groups/poincare-group|Poincaré group]], the full isometry group of Minkowski spacetime.

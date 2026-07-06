@@ -16,4 +16,6 @@ If \(A\) is compact and selfadjoint on a Hilbert space, there is an orthonormal 
 \(\prod_k (2\lambda_k/(\lambda_k^2+1))^{1/2}\) (Lemma 3.2).
 - Ensures existence of "eigensystems" used in continuity arguments (Lemma 2.4).
 
-**Example:** A diagonal operator on \(\ell^2\) with diagonal entries \(\lambda_k\to0\).
+## Examples
+
+- A diagonal operator on \(\ell^2\) with diagonal entries \(\lambda_k\to0\).

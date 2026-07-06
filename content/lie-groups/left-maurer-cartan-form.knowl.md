@@ -20,6 +20,8 @@ Equivalently, $\theta^L$ is characterized by:
 - (Normalization) $\theta^L_e=\mathrm{id}_{\mathfrak g}$, and
 - (Left invariance) $(L_h)^*\theta^L=\theta^L$ for all $h\in G$.
 
+## Remarks
+
 **Maurer–Cartan equation.**  
 $\theta^L$ satisfies the [[lie-groups/maurer-cartan-equation|Maurer–Cartan equation]]
 \[

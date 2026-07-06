@@ -15,11 +15,13 @@ $$
 s \equiv \frac{S}{V}.
 $$
 
-Equivalently, $S = sV$ in a homogeneous equilibrium state.
-
 In local descriptions (e.g., local equilibrium), one may use a field $s(\mathbf{r})$ whose integral over the system volume gives the total entropy.
 
-## Physical interpretation
+## Equivalent characterizations
+
+Equivalently, $S = sV$ in a homogeneous equilibrium state.
+
+## Interpretation
 Entropy density tells you how much entropy is carried by each unit volume of matter. Like [[thermodynamics/number-density|number density]] and [[thermodynamics/energy-density|energy density]], it is a [[thermodynamics/specific-quantity|specific quantity]] (per volume) and thus typically [[thermodynamics/intensive-variable|intensive]] for homogeneous systems.
 
 It is also the natural quantity for discussing the [[thermodynamics/second-law-thermodynamics|second law]] in spatially extended systems, where entropy can flow and be produced.

@@ -14,7 +14,7 @@ Let \(G\) be a finite group and let \(\rho:G\to \mathrm{GL}(V)\) be a finite-dim
 \]
 where \(\mathrm{tr}\) is the [[linear-algebra/trace|trace]] of a linear operator on \(V\).
 
-## Basic properties
+## Properties
 
 1. **Class function.** For all \(g,h\in G\),
 \[

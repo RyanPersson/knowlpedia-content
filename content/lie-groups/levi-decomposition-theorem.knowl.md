@@ -17,6 +17,8 @@ There exists a largest solvable ideal $\mathfrak r\subseteq \mathfrak g$, called
 \]
 as Lie algebras. Here $\mathfrak s$ is called a **Levi factor** and $\mathfrak r$ is the solvable radical.
 
+## Remarks
+
 Moreover, any two Levi factors are conjugate by an inner automorphism of $\mathfrak g$ (more precisely, by an automorphism arising from the exponential of an [[lie-groups/inner-derivation|inner derivation]] coming from $\mathfrak r$), so the semisimple part is essentially unique.
 
 **Context.**  

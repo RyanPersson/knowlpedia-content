@@ -16,7 +16,8 @@ For a fixed $x\in G$, the map $c_x\colon G\to G$ given by $c_x(g)=xgx^{-1}$ is c
 
 Conjugacy is an equivalence relation on $G$; its equivalence classes are the [[algebra-groups/conjugacy-class|conjugacy classes]]. Equivalently, conjugacy classes are the orbits of the [[algebra-groups/conjugation-action|conjugation action]] of $G$ on itself. Conjugation also controls normality: a [[algebra-groups/normal-subgroup|normal subgroup]] is precisely a subgroup stable under conjugation.
 
-**Examples:**
+## Examples
+
 - If $G$ is abelian, then $xgx^{-1}=g$ for all $x,g\in G$, so every element is conjugate only to itself.
 - In $S_3$, the transpositions are all conjugate: for instance $(123)(12)(123)^{-1}=(23)$.
 - In a matrix group $G\le GL_n(\mathbb{F})$, conjugation $XAX^{-1}$ corresponds to similarity of matrices; conjugate matrices represent the same linear operator in different bases.

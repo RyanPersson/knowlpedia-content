@@ -23,4 +23,6 @@ legacy_source_path = "real-analysis/banach-fixed-point-theorem.md"
   d(x_n,x^\ast)\le c^n\,d(x_0,x^\ast).
   $
 
+## Remarks
+
 This theorem is one of the main uses of completeness: it turns a global "shrinking" hypothesis into existence and uniqueness of solutions of $T(x)=x$.

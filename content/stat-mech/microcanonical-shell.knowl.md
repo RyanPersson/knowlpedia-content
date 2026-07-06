@@ -30,7 +30,7 @@ $$
 \Omega(E,\Delta E) \;\approx\; g(E)\,\Delta E.
 $$
 
-## Physical interpretation
+## Interpretation
 A classical isolated system evolves at constant energy (up to experimental resolution), so its accessible [[stat-mech/microstate-classical|microstates]] lie (approximately) in $\Sigma_{E,\Delta E}$. The microcanonical shell is the geometric object on which the [[stat-mech/microcanonical-measure|microcanonical measure]] places equal a priori weight.
 
 In practice one may further restrict the shell by other conserved quantities (e.g., total momentum), but the defining idea remains: the shell encodes the accessible region in phase space given macroscopic constraints.

@@ -30,7 +30,7 @@ Special cases:
 - $\mathrm{Cov}(A,A)=\mathrm{Var}(A)$, connecting covariance to [[stat-mech/variance-observable-ensemble|variance]].
 - For local observables $A_x,B_y$, the quantity $\mathrm{Cov}(A_x,B_y)$ is precisely the two-point [[stat-mech/connected-correlation-function|connected correlation]].
 
-## Key properties
+## Properties
 For real-valued observables:
 - Symmetry: $\mathrm{Cov}(A,B)=\mathrm{Cov}(B,A)$.
 - Bilinearity in each argument.
@@ -50,7 +50,7 @@ $$
 $$
 This is a basic form of fluctuation–response, and it underlies definitions such as [[stat-mech/susceptibility-stat-mech|susceptibility]].
 
-## Physical interpretation
+## Interpretation
 - $\mathrm{Cov}(A,B)>0$ means that when $A$ fluctuates upward from its mean, $B$ tends to do the same.
 - $\mathrm{Cov}(A,B)<0$ means upward fluctuations of $A$ tend to coincide with downward fluctuations of $B$.
 - Spatially, $\mathrm{Cov}(A_x,B_y)$ diagnoses correlations between fluctuations at different locations and is the building block of the [[stat-mech/correlation-function-two-point|two-point correlation function]] and its connected part.

@@ -24,13 +24,13 @@ $$
 
 The partition function normalizes the [[stat-mech-quantum/gibbs-state-quantum|quantum Gibbs state]] via $\rho_\beta = e^{-\beta H}/Z(\beta)$.
 
-## Physical interpretation
+## Interpretation
 
 $Z(\beta)$ is the **normalization constant** that makes thermal probabilities sum to one, and it is the generator of equilibrium thermodynamics for the canonical ensemble. It is the quantum analog of the classical [[stat-mech/partition-function-canonical|canonical partition function]].
 
 Through $Z(\beta)$ one obtains the equilibrium Helmholtz free energy ([[thermodynamics/helmholtz-free-energy|Helmholtz free energy]]), internal energy, entropy, and response coefficients.
 
-## Key properties
+## Properties
 
 1. **Positivity and finiteness (finite systems).**  
    In finite dimension, $e^{-\beta H}$ is positive and trace-class automatically, so $Z(\beta)\in(0,\infty)$ for every $\beta>0$.

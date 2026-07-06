@@ -13,8 +13,11 @@ A **compact set** is a subset $K\subseteq X$ of a [[topology/topological-space|t
 K \subseteq U_{i_1}\cup\cdots\cup U_{i_n}.
 \]
 
+## Remarks
+
 Compactness can also be expressed in terms of [[topology/finite-intersection-property|the finite intersection property]] for families of [[topology/closed-set|closed sets]], and it interacts well with [[topology/continuous-map|continuous maps]] (for instance, via [[topology/continuous-image-of-compact-set-is-compact|continuous images of compact sets]]).
 
-**Examples:**
+## Examples
+
 - Any finite subset of any topological space is compact.
 - In $\mathbb{R}$ with its usual topology, the closed interval $[0,1]$ is compact, while the open interval $(0,1)$ is not compact.

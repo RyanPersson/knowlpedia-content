@@ -13,8 +13,11 @@ $$
 \Gamma_f=\{(a,f(a)):\ a\in A\}\subseteq A\times B.
 $$
 
+## Remarks
+
 The graph is a [[shared-foundations/subset|subset]] of the [[shared-foundations/cartesian-product|Cartesian product]] and consists of [[shared-foundations/ordered-pair|ordered pairs]]. Viewing a function as a special kind of [[shared-foundations/relation|relation]], the graph is exactly the corresponding relation.
 
-**Examples:**
+## Examples
+
 - If $f:\mathbb{R}\to\mathbb{R}$ is $f(x)=x^2$, then $\Gamma_f=\{(x,x^2):x\in\mathbb{R}\}$.
 - If $A$ is any set, the graph of $\mathrm{id}_A$ is $\{(a,a):a\in A\}$.

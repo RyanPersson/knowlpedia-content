@@ -14,8 +14,11 @@ V_a^b(\alpha)=\sup_P \sum_{i=1}^n |\alpha(x_i)-\alpha(x_{i-1})|,
 \]
 where the supremum is taken over all [[real-analysis/partition-of-an-interval|partitions]] $P=\{x_0,\dots,x_n\}$ of $[a,b]$.
 
+## Remarks
+
 Total variation measures how much $\alpha$ accumulates change along the interval and is the defining quantity for a [[real-analysis/bounded-variation-function|function of bounded variation]]. For [[real-analysis/monotone-function|monotone]] functions it reduces to the net change.
 
-**Examples:**
+## Examples
+
 - If $\alpha$ is increasing on $[a,b]$, then $V_a^b(\alpha)=\alpha(b)-\alpha(a)$.
 - For $\alpha(x)=\sin x$ on $[0,2\pi]$, one has $V_0^{2\pi}(\alpha)=4$.

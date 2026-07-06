@@ -26,7 +26,7 @@ H_n(f)=H_n(g)\quad\text{for all }n,
 \]
 where [[algebra-homological/homology-module|homology module]] is used.
 
-## Cross-links
+## Remarks
 - Special case: a **contracting homotopy** \( \mathrm{id}\simeq 0\) shows a complex is “contractible,” hence [[algebra-homological/exact-complex|exact]].
 - Chain homotopy is the basic equivalence relation behind chain-homotopy categories; compare [[algebra-homological/chain-map|chain map]].
 

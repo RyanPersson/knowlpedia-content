@@ -16,7 +16,8 @@ provided the limit exists.
 
 If both one-sided derivatives exist and are equal, then $f$ is differentiable at $a$ and $f'(a)=f'_+(a)=f'_-(a)$.
 
-**Examples:**
+## Examples
+
 - For $f(x)=|x|$, one has $f'_+(0)=1$ and $f'_-(0)=-1$, so $f'(0)$ does not exist.
 - For $f(x)=x^2$, $f'_+(a)=f'_-(a)=2a$ for all $a$.
 - For the step function $\mathbf{1}_{[0,\infty)}$, the one-sided derivatives at $0$ do not exist (difference quotient blows up).

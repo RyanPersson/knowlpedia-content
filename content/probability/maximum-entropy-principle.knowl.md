@@ -17,6 +17,7 @@ where $H$ is [[probability/shannon-entropy|Shannon entropy]] for discrete laws (
 
 The guiding idea is to choose the least-committal distribution consistent with the stated information. In many common settings, maximum-entropy problems can be reformulated in terms of minimizing [[probability/relative-entropy-kl-divergence|KL divergence]] to a reference distribution, with [[probability/gibbs-inequality-kl|Gibbs' inequality]] guaranteeing nonnegativity of the objective.
 
-**Examples:**
+## Examples
+
 - On a finite set of $n$ outcomes, if the only constraint is that the distribution is supported on those outcomes, the maximizer of Shannon entropy is the uniform distribution.
 - Among all distributions on $\mathbb R$ with fixed mean and variance, the maximizer of differential entropy is the normal distribution with those parameters.

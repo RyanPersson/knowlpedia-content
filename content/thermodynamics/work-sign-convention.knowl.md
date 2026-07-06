@@ -21,7 +21,7 @@ $$
 
 where $U$ is [[thermodynamics/internal-energy-thermo|internal energy]] and $\delta W$ is [[thermodynamics/work-inexact-differential|work]].
 
-## Physical interpretation
+## Interpretation
 Under this convention, $\delta W>0$ corresponds to energy leaving the system in an organized form (pushing a piston, turning a shaft), while $\delta Q>0$ corresponds to energy entering because of a temperature difference. The sign convention is not physics; it is bookkeeping. Physics enters through consistent application and through inequalities such as the [[thermodynamics/clausius-inequality|Clausius inequality]].
 
 ## Key consequences and examples

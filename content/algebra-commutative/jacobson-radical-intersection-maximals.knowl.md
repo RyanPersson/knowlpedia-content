@@ -10,7 +10,6 @@ legacy_source_path = "algebra-commutative/jacobson-radical-intersection-maximals
 
 The Jacobson radical measures how far a ring is from being “seen” by its simple quotients. In commutative algebra it has a concrete description in terms of maximal ideals, and it interacts cleanly with [[algebra-commutative/local-ring|local rings]] and residue fields.
 
-## Statement
 
 Let $R$ be a [[algebra-rings/commutative-ring|commutative ring]]. The **Jacobson radical** of $R$, denoted $J(R)$, satisfies
 \[

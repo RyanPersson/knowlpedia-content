@@ -18,4 +18,6 @@ $$
 Dg(x)=-(D_yF(x,g(x)))^{-1}D_xF(x,g(x)).
 $$
 
+## Remarks
+
 This theorem produces an [[real-analysis/implicitly-defined-function|implicitly defined function]] from an equation, and it is tightly connected to the [[real-analysis/inverse-function-theorem-rk|inverse function theorem]] (which can be recovered as a special case).

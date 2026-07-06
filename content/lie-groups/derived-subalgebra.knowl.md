@@ -21,5 +21,5 @@ It is a Lie subalgebra, and in fact an [[lie-groups/ideal-lie-algebra|ideal]]; t
 - The quotient $\mathfrak g/[\mathfrak g,\mathfrak g]$ is the **abelianization** of $\mathfrak g$ (a special case of [[lie-groups/quotient-lie-algebra|quotient Lie algebra]]).
 - $\mathfrak g$ is called **perfect** if $[\mathfrak g,\mathfrak g]=\mathfrak g$; for example, any [[lie-groups/simple-lie-algebra|simple Lie algebra]] is perfect.
 
-## Context
+## Remarks
 The derived subalgebra is the first step in the [[lie-groups/derived-series-lie-algebra|derived series]], which detects solvability and organizes many structure theorems such as the [[lie-groups/levi-decomposition-theorem|Levi decomposition]].

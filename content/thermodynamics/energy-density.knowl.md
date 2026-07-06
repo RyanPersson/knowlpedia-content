@@ -15,11 +15,13 @@ $$
 u \equiv \frac{U}{V}.
 $$
 
-Equivalently, $U = uV$ in a homogeneous equilibrium state.
-
 When the system is not homogeneous, one often considers a local field $u(\mathbf{r})$ whose volume integral gives the total energy.
 
-## Physical interpretation
+## Equivalent characterizations
+
+Equivalently, $U = uV$ in a homogeneous equilibrium state.
+
+## Interpretation
 Energy density measures how much internal energy is stored in a unit volume of material. It is a [[thermodynamics/specific-quantity|specific quantity]] (per volume), and—like other densities—remains unchanged if you scale the system size at fixed bulk state, consistent with the [[thermodynamics/thermodynamic-limit|thermodynamic limit]].
 
 ## Key relations (one-component simple system)

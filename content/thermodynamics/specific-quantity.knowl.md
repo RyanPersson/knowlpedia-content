@@ -17,7 +17,7 @@ $$
 
 When the system is homogeneous (no macroscopic gradients), scaling the system by a factor $\lambda$ multiplies both $X$ and $Y$ by $\lambda$, so the ratio $x$ is unchanged; this is why $x$ behaves as an [[thermodynamics/intensive-variable|intensive variable]].
 
-## Physical interpretation
+## Interpretation
 Specific quantities encode material properties “per unit amount,” which is often what experiments control or what constitutive laws use. For example, energy per particle compares energetic content to the number of particles present, while energy per volume compares energetic content to occupied space.
 
 ## Common thermodynamic examples

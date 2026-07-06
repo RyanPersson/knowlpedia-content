@@ -20,5 +20,5 @@ is injective, and its image identifies $\operatorname{Lie}(H)$ with the subspace
 
 Equivalently: the Lie algebra of a Lie subgroup is its tangent space at the identity, with the bracket inherited from $\operatorname{Lie}(G)$.
 
-## Context
+## Remarks
 When $H$ is a *closed* subgroup, [[lie-groups/closed-subgroup-theorem|the closed subgroup theorem]] guarantees that $H$ is an embedded Lie subgroup, so $T_eH$ is literally a subspace of $T_eG$ in the usual embedded-submanifold sense. In that case, this lemma is the key step behind the subgroup–subalgebra bridge used in the [[lie-groups/lie-correspondence|Lie correspondence]].

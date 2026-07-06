@@ -13,4 +13,6 @@ legacy_source_path = "real-analysis/derivative-sign-implies-monotonicity.md"
 - If $f'(x)\ge 0$ for all $x\in I$, then $f$ is nondecreasing (monotone increasing) on $I$.
 - If $f'(x)\le 0$ for all $x\in I$, then $f$ is nonincreasing (monotone decreasing) on $I$.
 
+## Remarks
+
 This is proved by applying the [[real-analysis/mean-value-theorem|mean value theorem]] on subintervals and interpreting the sign of the [[real-analysis/derivative|derivative]] as controlling slopes. The strict version is [[real-analysis/positive-derivative-implies-increasing|positive derivative implies increasing]], and the conclusion is a special case of being a [[real-analysis/monotone-function|monotone function]].

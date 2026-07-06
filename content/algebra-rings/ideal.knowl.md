@@ -12,9 +12,12 @@ An **ideal** in a [[algebra-rings/ring|ring]] $R$ is an additive subgroup $I\le 
 - $I$ is a **left ideal** if $rI\subseteq I$ for all $r\in R$,
 - $I$ is a **right ideal** if $Ir\subseteq I$ for all $r\in R$.
 
+## Remarks
+
 Ideals are exactly the kernels of ring homomorphisms, and they are the congruence data needed to form a [[algebra-rings/quotient-ring|quotient ring]]. In commutative rings the left/right distinction disappears, but in noncommutative rings it is essential.
 
-**Examples:**
+## Examples
+
 - In $\mathbb Z$, every ideal has the form $n\mathbb Z$ for some $n\ge 0$.
 - In $k[x,y]$, the set $(x,y)$ of polynomials with zero constant term is an ideal.
 - In $M_2(k)$, the set of matrices whose second column is zero is a left ideal but not a right ideal.

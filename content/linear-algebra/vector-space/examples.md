@@ -1,0 +1,3 @@
+- $\mathbb{R}^n$ with componentwise addition and scalar multiplication is a vector space over $\mathbb{R}$.
+- The set of polynomials $\mathbb{F}[x]$ with the usual addition and scalar multiplication is a vector space over $\mathbb{F}$.
+- The set of $m\times n$ matrices over $\mathbb{F}$ is a vector space over $\mathbb{F}$.

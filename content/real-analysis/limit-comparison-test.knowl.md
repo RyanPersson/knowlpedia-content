@@ -14,4 +14,6 @@ legacy_source_path = "real-analysis/limit-comparison-test.md"
 \]
 exists and satisfies $0<c<\infty$. Then $\sum a_n$ converges if and only if $\sum b_n$ converges.
 
+## Remarks
+
 This is often used when the [[real-analysis/comparison-test|comparison test]] is too rigid, but one can identify the asymptotic size of $a_n$ relative to a known $b_n$ (such as a $p$-series or a geometric series).

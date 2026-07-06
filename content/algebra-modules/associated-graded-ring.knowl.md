@@ -16,6 +16,7 @@ with multiplication induced from \(R\): if \(x\in F_nR\) and \(y\in F_mR\), then
 
 The ring \(\mathrm{gr}_F(R)\) is naturally a [[algebra-modules/graded-ring|graded ring]]; it captures the leading-order behavior of elements of \(R\) and often has simpler algebraic structure.
 
-**Examples:**
+## Examples
+
 - For the \(I\)-adic filtration, \(\mathrm{gr}_I(R)=\bigoplus_{n\ge 0} I^n/I^{n+1}\).
 - If the filtration is already split by degree (as in a graded ring viewed with \(F_n=\bigoplus_{i\le n}R_i\)), then \(\mathrm{gr}_F(R)\cong R\) as graded rings.

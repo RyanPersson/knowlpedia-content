@@ -18,9 +18,12 @@ be the vertical subbundle.
 \[
 T_eE = H_eE \oplus V_eE.
 \]
-Equivalently, $TE=HE\oplus VE$ as vector bundles over $E$.
 
 A choice of horizontal subbundle is exactly the same data as an [[fiber-bundles/ehresmann-connection|Ehresmann connection]]. In particular, the restriction of $d\pi_e$ to $H_eE$ is an isomorphism $H_eE\cong T_{\pi(e)}M$, which is what makes the [[fiber-bundles/horizontal-lift-of-a-tangent-vector|horizontal lift of a tangent vector]] well-defined and unique.
+
+## Equivalent characterizations
+
+Equivalently, $TE=HE\oplus VE$ as vector bundles over $E$.
 
 ## Examples
 1. **Trivial bundle horizontals.** For $E=M\times F$, the choice $H_{(x,f)}E:=T_xM\oplus\{0\}$ is a horizontal subbundle complementary to $V_{(x,f)}E=\{0\}\oplus T_fF$.

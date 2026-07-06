@@ -15,7 +15,8 @@ Equivalently, if $\langle g\rangle$ denotes the [[algebra-groups/cyclic-subgroup
 
 This is an immediate corollary of [[algebra-groups/lagranges-theorem|Lagrange's theorem]] applied to the [[algebra-groups/subgroup|subgroup]] $\langle g\rangle\le G$.
 
-**Examples:**
+## Examples
+
 - In the symmetric group $S_3$ (which has $|S_3|=6$), the 3-cycle $(123)$ has $\operatorname{ord}((123))=3$, and $3\mid 6$.
 - In the additive group $\mathbb{Z}/12\mathbb{Z}$, the element $4$ has order $3$ because $3\cdot 4\equiv 0\pmod{12}$ and no smaller positive multiple is $0$; indeed $3\mid 12$.
 - The identity element always has order $1$, and $1$ divides every integer $|G|$.

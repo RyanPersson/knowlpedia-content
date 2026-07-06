@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/prop-grand-canonical-number-fluctuation.md"
 +++
 
-## Statement
 In the [[stat-mech/grand-canonical-ensemble|grand canonical ensemble]] with grand partition function
 $$
 \Xi(\beta,\mu)=\mathrm{Tr}\,\exp\!\big(-\beta(H-\mu N)\big),

@@ -13,9 +13,12 @@ $$
 B(x)=A(x)+b\quad\text{for all }x\in X.
 $$
 
-**Context.** Affine maps preserve "straightness": they map [[convex-analysis/line-segments-in-a-vector-space|line segments]] to line segments, and therefore preserve convexity properties (see [[convex-analysis/affine-images-and-preimages-of-convex-sets-are-convex|affine images/preimages of convex sets]]).
+## Examples
 
-**Examples:**
 - Any translation $B(x)=x+b$ is affine (take $A=\mathrm{Id}$).
 - Any linear map is affine (take $b=0$).
 - In $\mathbb{R}^n$, $B(x)=Mx+b$ with a fixed matrix $M$ and vector $b$ is affine.
+
+## Remarks
+
+**Context.** Affine maps preserve "straightness": they map [[convex-analysis/line-segments-in-a-vector-space|line segments]] to line segments, and therefore preserve convexity properties (see [[convex-analysis/affine-images-and-preimages-of-convex-sets-are-convex|affine images/preimages of convex sets]]).

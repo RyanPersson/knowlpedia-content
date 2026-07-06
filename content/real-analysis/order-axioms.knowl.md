@@ -17,4 +17,6 @@ legacy_source_path = "real-analysis/order-axioms.md"
 - (Compatibility with addition) if $a\le b$, then $a+c\le b+c$.
 - (Compatibility with multiplication) if $0\le a$ and $0\le b$, then $0\le ab$.
 
+## Remarks
+
 A field equipped with such an order is an ordered field; the real numbers form the standard example. The order interacts with the [[real-analysis/absolute-value|absolute value]] and underlies definitions of [[real-analysis/interval|intervals]], bounds, and $\varepsilon$–$\delta$ limits.

@@ -20,7 +20,7 @@ This notion agrees with the usual matrix trace (see [[linear-algebra/trace|Trace
 - If \(A\) is represented by a matrix \((A_{ij})\) in any basis, then \(\operatorname{Tr}(A)=\sum_i A_{ii}\).
 - \(\operatorname{Tr}(A)\) equals the sum of eigenvalues of \(A\), counted with algebraic multiplicity.
 
-## Key properties
+## Properties
 For operators \(A,B\) on \(H\) and scalars \(\alpha,\beta\):
 
 - **Linearity:** \(\operatorname{Tr}(\alpha A+\beta B)=\alpha\operatorname{Tr}(A)+\beta\operatorname{Tr}(B)\).

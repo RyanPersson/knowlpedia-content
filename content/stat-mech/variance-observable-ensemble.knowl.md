@@ -49,6 +49,6 @@ $$
 
 where $C_V$ is the [[thermodynamics/heat-capacity-constant-volume|heat capacity at constant volume]]; this is emphasized in [[stat-mech/specific-heat-fluctuation|specific heat from fluctuations]].
 
-## Physical interpretation
+## Interpretation
 - $\mathrm{Var}(A)$ sets the *typical fluctuation scale* of $A$: roughly, $A$ wanders around $\langle A\rangle$ by an amount of order $\sqrt{\mathrm{Var}(A)}$.
 - For extensive observables (often scaling like system size), $\mathrm{Var}(A)$ often scales extensively as well, so the *relative* size $\sqrt{\mathrm{Var}(A)}/|\langle A\rangle|$ can shrink with system size, supporting macroscopic reproducibility in the [[thermodynamics/thermodynamic-limit|thermodynamic limit]].

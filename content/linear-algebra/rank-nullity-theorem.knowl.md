@@ -18,4 +18,6 @@ Then
 \]
 In particular, the rank $\operatorname{rank}(T)=\dim(\operatorname{im}T)$ and the nullity $\operatorname{nullity}(T)=\dim(\ker T)$ satisfy $\dim V=\operatorname{rank}(T)+\operatorname{nullity}(T)$.
 
+## Remarks
+
 The set $\operatorname{im}T$ is the [[shared-foundations/image|image]] of the underlying function, and $\ker T$ is the [[shared-foundations/preimage|preimage]] of $\{0\}$. This identity is the basic dimension bookkeeping behind the structure of solution spaces to linear equations.

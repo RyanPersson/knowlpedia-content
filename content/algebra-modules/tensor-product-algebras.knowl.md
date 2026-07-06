@@ -16,6 +16,7 @@ and whose structure map \(R\to A\otimes_R B\) is \(r\mapsto (r\cdot 1_A)\otimes 
 
 This construction is the algebraic version of “base change” and interacts well with presentations, quotients, and localization in commutative algebra.
 
-**Examples:**
+## Examples
+
 - Over a field \(k\), one has \(k[x]\otimes_k k[y]\cong k[x,y]\) as \(k\)-algebras, where \(k[x]\) is a [[algebra-rings/polynomial-ring|polynomial ring]].
 - If \(S\) is an \(R\)-algebra and \(I\subseteq R\) is an [[algebra-rings/ideal|ideal]], then \(S\otimes_R (R/I)\cong S/IS\) as \(R\)-algebras.

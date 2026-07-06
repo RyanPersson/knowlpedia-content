@@ -19,6 +19,7 @@ defined when \(\mathbb E[X^2]<\infty\) (so in particular the [[probability/expec
 
 Variance is the second centered [[probability/moment|moment]] of \(X\). It is also the special case \(\operatorname{Var}(X)=\operatorname{Cov}(X,X)\) of [[probability/covariance|covariance]], and it is used to normalize [[probability/covariance|covariance]] into the [[probability/correlation-coefficient|correlation coefficient]].
 
-**Examples:**
+## Examples
+
 - If \(X\) is Bernoulli\((p)\) (so \(\mathbb P(X=1)=p\), \(\mathbb P(X=0)=1-p\)), then \(\operatorname{Var}(X)=p(1-p)\).
 - If \(X\sim N(\mu,\sigma^2)\), then \(\operatorname{Var}(X)=\sigma^2\).

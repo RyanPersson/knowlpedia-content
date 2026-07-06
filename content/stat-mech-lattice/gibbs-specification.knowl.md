@@ -30,7 +30,7 @@ $$
 
 with $Z_\Lambda(\beta,\eta)$ the [[stat-mech-lattice/partition-function-lattice|lattice partition function]]. This kernel extends to a probability measure on $\Omega$ by combining the sampled $\sigma_\Lambda$ with the fixed exterior configuration $\eta_{\Lambda^c}$.
 
-## Key properties
+## Properties
 
 - **Properness (fixes the exterior).** Under $\gamma_\Lambda(\cdot\mid\eta)$, the configuration on $\Lambda^c$ is almost surely equal to $\eta_{\Lambda^c}$.
 
@@ -41,6 +41,6 @@ with $Z_\Lambda(\beta,\eta)$ the [[stat-mech-lattice/partition-function-lattice|
 
 - **Bridge to infinite volume.** A Gibbs specification is the input for the [[stat-mech-lattice/dlr-equation|DLR equation]], which characterizes [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs measures]] as measures consistent with these local conditionals.
 
-## Physical interpretation
+## Interpretation
 
 A Gibbs specification is a precise encoding of “local equilibrium”: no matter what the global system looks like, the distribution of spins in a finite window $\Lambda$ conditioned on the surrounding environment should be given by the appropriate Boltzmann weights for that window, with the environment acting as the boundary condition.

@@ -10,7 +10,6 @@ legacy_source_path = "algebra-homological/injective-resolutions-exist.md"
 
 Let \(R\) be a ring and \(M\) a left \(R\)-[[algebra-modules/module|module]].
 
-## Statement
 An **[[algebra-homological/injective-resolution|injective resolution]]** of \(M\) is an exact augmented [[algebra-homological/cochain-complex|cochain complex]]
 \[
 0 \to M \xrightarrow{\iota} I^0 \xrightarrow{d^0} I^1 \xrightarrow{d^1} I^2 \xrightarrow{d^2} \cdots

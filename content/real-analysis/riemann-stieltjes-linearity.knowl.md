@@ -19,4 +19,6 @@ legacy_source_path = "real-analysis/riemann-stieltjes-linearity.md"
   \int_a^b f\,d(\alpha g_1+\beta g_2) = \alpha\int_a^b f\,dg_1+\beta\int_a^b f\,dg_2.
   $$
 
+## Remarks
+
 These identities are the Riemann–Stieltjes analog of [[real-analysis/riemann-linearity|linearity of the Riemann integral]] and are used routinely together with [[real-analysis/integration-by-parts-riemann-stieltjes|integration by parts]].

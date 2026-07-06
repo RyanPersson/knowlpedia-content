@@ -18,4 +18,6 @@ $$
 V_a^b(g) = \bigl(g_1(b)-g_1(a)\bigr) + \bigl(g_2(b)-g_2(a)\bigr).
 $$
 
+## Remarks
+
 This decomposition reduces many questions about bounded variation to the monotone case, and it is frequently used in the theory of the [[real-analysis/riemann-stieltjes-integral|Riemann–Stieltjes integral]].

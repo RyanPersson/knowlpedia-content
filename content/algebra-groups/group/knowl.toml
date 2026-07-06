@@ -1,0 +1,78 @@
+id = "algebra-groups/group"
+title = "Group"
+kind = "definition"
+summary = "A monoid in which every element has an inverse"
+aliases = ["group"]
+domains = ["algebra-groups"]
+legacy_source_path = "algebra-groups/group.md"
+
+[core]
+source = "core.md"
+
+[[core.data]]
+id = "carrier"
+text = 'A set $G$.'
+refs = ["shared-foundations/set"]
+
+[[core.data]]
+id = "operation"
+text = 'A binary operation $\cdot : G \times G \to G$.'
+refs = ["shared-foundations/binary-operation"]
+
+[[core.data]]
+id = "identity"
+text = 'An identity element $e \in G$.'
+
+[[core.data]]
+id = "inverse"
+text = 'An inverse operation sending $a \in G$ to $a^{-1} \in G$.'
+
+[[core.axioms]]
+id = "associativity"
+text = 'For all $a,b,c \in G$, $(a\cdot b)\cdot c = a\cdot(b\cdot c)$.'
+
+[[core.axioms]]
+id = "identity"
+text = 'For all $a \in G$, $e\cdot a = a$ and $a\cdot e = a$.'
+
+[[core.axioms]]
+id = "inverse"
+text = 'For every $a \in G$, $a\cdot a^{-1} = e$ and $a^{-1}\cdot a = e$.'
+
+[[sections]]
+id = "examples"
+title = "Examples"
+kind = "examples"
+source = "examples.md"
+default_open = false
+
+[[sections]]
+id = "tfae"
+title = "Equivalent characterizations"
+kind = "tfae"
+source = "tfae.toml"
+default_open = false
+
+[[sections]]
+id = "remarks"
+title = "Remarks"
+kind = "remarks"
+source = "remarks.md"
+default_open = false
+
+[[relations]]
+type = "special_case_of"
+target = "algebra-groups/monoid"
+note = "A group is a monoid in which every element is invertible."
+
+[[relations]]
+type = "generalization_of"
+target = "algebra-groups/abelian-group"
+
+[[relations]]
+type = "uses"
+target = "shared-foundations/set"
+
+[[relations]]
+type = "uses"
+target = "shared-foundations/binary-operation"

@@ -23,6 +23,8 @@ Let $G$ be a [[fiber-bundles/lie-group|Lie group]]. A smooth vector field $X$ on
    X_v(g)=(dL_g)_e(v).
    \]
 
+## Remarks
+
 **Idea of proof.**  
 Left-invariance is preserved by brackets because pushforward by a diffeomorphism commutes with the vector-field bracket. The map $v\mapsto X_v$ is inverse to evaluation at $e$ by construction, and the induced bracket on $T_eG$ matches the Lie algebra bracket (compare [[fiber-bundles/lie-bracket|Lie bracket]]).
 

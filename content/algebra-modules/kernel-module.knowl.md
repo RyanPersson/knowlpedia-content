@@ -16,7 +16,8 @@ It is a [[algebra-modules/submodule|submodule]], as recorded in [[algebra-module
 
 Kernels measure injectivity: $f$ is injective iff $\ker(f)=0$. They also define the notion of exactness (see [[algebra-modules/exact-sequence-modules|exact sequences]], where kernels match images).
 
-**Examples:**
+## Examples
+
 - For $f:\mathbb Z^2\to\mathbb Z$ given by $f(a,b)=a+b$, one has $\ker(f)=\{(t,-t):t\in\mathbb Z\}$.
 - For $f:\mathbb Z\to\mathbb Z$ given by $f(n)=kn$, the kernel is $0$ if $k\ne 0$ and all of $\mathbb Z$ if $k=0$.
 - (Edge case) If $N=0$, then $\ker(f)=M$ for every $f:M\to 0$.

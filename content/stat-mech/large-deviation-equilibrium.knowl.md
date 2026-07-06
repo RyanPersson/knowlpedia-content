@@ -35,6 +35,6 @@ then equilibrium macrostates maximize $S(m)-\beta\Phi(m)$ (a “maximum entropy 
 - **Fluctuation scale:** deviations away from equilibrium have probabilities decaying like $\exp(-N\times\text{cost})$.
 - **Phase transitions (macro):** nonuniqueness or non-smooth changes in minimizers signal phase transitions.
 
-## Cross-links to definitions
+## Remarks
 - Large deviations: [[large-deviations/large-deviation-principle|large deviation principle]], [[large-deviations/rate-function|rate function]], [[large-deviations/varadhans-lemma|Varadhan’s lemma]].
 - Statistical mechanics context: [[stat-mech/canonical-ensemble|canonical ensemble]], [[stat-mech/free-energy-statistical|free energy (statistical)]].

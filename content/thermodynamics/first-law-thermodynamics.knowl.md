@@ -22,6 +22,8 @@ $$
 
 The precise sign of $W$ depends on the chosen [[thermodynamics/work-sign-convention|work sign convention]]; likewise, how pressure–volume contributions are recorded is fixed by the [[thermodynamics/pressure-volume-work-sign-convention|pressure–volume work convention]].
 
+## Remarks
+
 **Physical interpretation.** The system’s microscopic energy content can change only by exchanging energy with the [[thermodynamics/surroundings-environment|surroundings]]. The first law does not say *how* that energy exchange must occur; it only asserts that all exchanges add up consistently into a conserved accounting.
 
 **Heat and work are path-dependent.** While $U$ is a [[thermodynamics/state-function|state function]] (so $\Delta U$ depends only on the endpoints), $Q$ and $W$ are [[thermodynamics/path-function|path functions]]: their values depend on the details of the process. This is why one writes $\delta Q$ and $\delta W$ rather than exact differentials.

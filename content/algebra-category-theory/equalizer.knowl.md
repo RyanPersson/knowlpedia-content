@@ -28,7 +28,7 @@ with \(f\circ e=g\circ e\) and \(f\circ h=g\circ h\).
 
 An equalizer (when it exists) is a special case of a [[algebra-category-theory/limit|limit]].
 
-## Basic properties
+## Properties
 - The equalizer morphism \(e:E\to A\) is always a [[algebra-category-theory/monomorphism-category|monomorphism]]: it is “injective” in the categorical sense.
 - In an [[algebra-category-theory/abelian-category|abelian category]], the equalizer of \(f,g\) can be identified with a [[algebra-category-theory/kernel-categorical|kernel]]:
   \[

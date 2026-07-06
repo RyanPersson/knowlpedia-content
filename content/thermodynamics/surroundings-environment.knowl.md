@@ -10,7 +10,7 @@ legacy_source_path = "thermodynamics/surroundings-environment.md"
 
 The **surroundings** (or **environment**) are everything *outside* a [[thermodynamics/thermodynamic-system|thermodynamic system]]. Together, “system + surroundings” form the remainder of the universe relevant to the thermodynamic description, with interactions occurring only through the [[thermodynamics/system-boundary|system boundary]].
 
-## Physical interpretation
+## Interpretation
 In thermodynamics, the surroundings represent the “rest of the world” that can impose constraints and exchange quantities with the system:
 - If the boundary permits, energy may be transferred as [[thermodynamics/heat-inexact-differential|heat]] (driven by temperature differences) or [[thermodynamics/work-inexact-differential|work]] (via generalized forces and boundary displacements).
 - If the boundary is permeable, matter exchange can occur, changing [[thermodynamics/particle-number|particle number]] or composition inside the system.

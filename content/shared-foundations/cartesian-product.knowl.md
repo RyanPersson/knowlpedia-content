@@ -15,8 +15,11 @@ $$
 
 where $(a,b)$ is an [[shared-foundations/ordered-pair|ordered pair]].
 
+## Remarks
+
 Cartesian products provide the ambient sets in which [[shared-foundations/relation|relations]] live: a relation from $A$ to $B$ is a [[shared-foundations/subset|subset]] of $A\times B$.
 
-**Examples:**
+## Examples
+
 - If $A=\{0,1\}$ and $B=\{a,b\}$, then $A\times B=\{(0,a),(0,b),(1,a),(1,b)\}$.
 - $\mathbb{N}\times\mathbb{N}$ is the set of all ordered pairs of natural numbers.

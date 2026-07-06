@@ -27,7 +27,7 @@ More generally one can include boundary terms via a [[stat-mech-lattice/boundary
 
 At inverse temperature $\beta$, the [[stat-mech-lattice/finite-volume-gibbs-measure|finite-volume Gibbs measure]] has density proportional to $\exp(-\beta H_\Lambda(\theta))$ with respect to the product of uniform measures on $\mathbb{S}^1$, normalized by the [[stat-mech-lattice/partition-function-lattice|partition function]].
 
-## Key properties
+## Properties
 
 - **Continuous O(2) symmetry.** When $\mathbf{h}=0$, the Hamiltonian is invariant under global rotations $\theta_x\mapsto \theta_x+\alpha$. This is a prototypical setting for [[stat-mech-lattice/spontaneous-symmetry-breaking|spontaneous symmetry breaking]] questions.
 
@@ -39,7 +39,7 @@ At inverse temperature $\beta$, the [[stat-mech-lattice/finite-volume-gibbs-meas
 
 - **Order parameter nuances.** The usual vector magnetization is not always the right diagnostic in low dimensions for continuous symmetry. Depending on dimension, one often studies correlation decay, helicity modulus (stiffness), or vortex statistics rather than a nonzero magnetization.
 
-## Physical interpretation
+## Interpretation
 
 The XY model represents **planar spins** or **phases**:
 - planar magnetic moments constrained to rotate in a plane,

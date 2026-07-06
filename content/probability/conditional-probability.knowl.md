@@ -22,7 +22,8 @@ where $\mathbb E[\cdot\mid \mathcal G]$ denotes [[probability/conditional-expect
 
 Conditioning on an event $B$ can be viewed as conditioning on the $\sigma$-algebra $\sigma(B)=\{\varnothing,B,B^c,\Omega\}$; conditional probability is central to [[probability/independence-events|independence of events]] and Bayesian updating.
 
-**Examples:**
+## Examples
+
 - If a fair die is rolled, $A=\{\text{even}\}$ and $B=\{\text{roll}>3\}$, then $\mathbb P(A\mid B)=\frac{2/6}{3/6}=\frac{2}{3}$.
 - If $A$ and $B$ are [[probability/independence-events|independent events]] with $\mathbb P(B)>0$, then $\mathbb P(A\mid B)=\mathbb P(A)$.
 - For a sub-$\sigma$-algebra $\mathcal G$, if $A\in\mathcal G$ then $\mathbb P(A\mid \mathcal G)=\mathbf 1_A$ almost surely, while if $\mathcal G=\{\varnothing,\Omega\}$ then $\mathbb P(A\mid \mathcal G)=\mathbb P(A)$.

@@ -18,4 +18,6 @@ legacy_source_path = "real-analysis/differentiability-criterion.md"
 
 In this case, $A$ is unique and is denoted $Df(a)$.
 
+## Remarks
+
 This formulation says that differentiability is exactly the existence of a first-order linear approximation with an error term that is $o(\|h\|)$. In the one-dimensional case $k=m=1$, it is equivalent to the existence of the usual [[real-analysis/derivative|derivative]] at $a$.

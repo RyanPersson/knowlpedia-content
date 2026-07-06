@@ -16,6 +16,7 @@ If $\mathcal U$ and $\mathcal V$ are [[topology/open-cover|open covers]], then $
 
 Refinements compare “how fine” two covers are and are especially useful when working with a [[topology/basis-of-topology|basis of a topology]], since open covers can often be refined by basic open sets.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$, let $\mathcal U=\{(-1,1),(0,2)\}$, which covers $[0,1]$. Then $\mathcal V=\{(0,1/2),(1/2,1)\}$ is a refinement of $\mathcal U$.
 - If $\mathcal U$ is an open cover of $X$ and $\mathcal B$ is a basis, then taking all $B\in\mathcal B$ with $B\subseteq U$ for some $U\in\mathcal U$ gives an open refinement by basis elements.

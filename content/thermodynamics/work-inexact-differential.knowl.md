@@ -14,10 +14,10 @@ Like [[thermodynamics/heat-inexact-differential|heat]], work is an **inexact dif
 
 This knowl follows the [[thermodynamics/work-sign-convention|work sign convention]] used throughout: $\delta W>0$ means work is done *by the system* on the [[thermodynamics/surroundings-environment|surroundings]].
 
-## Physical interpretation
+## Interpretation
 Work represents energy transfer in a form that is, in principle, fully convertible into mechanical or other “organized” forms (lifting a weight, turning a shaft, charging a capacitor). It contrasts with heat, which is energy transfer driven by a temperature difference and typically associated with microscopic degrees of freedom.
 
-## Key relations
+## Remarks
 - **First law (closed system):** for a [[thermodynamics/closed-system|closed system]],
   $$
   dU = \delta Q - \delta W,

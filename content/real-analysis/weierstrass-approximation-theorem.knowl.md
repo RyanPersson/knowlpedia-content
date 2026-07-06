@@ -14,4 +14,6 @@ legacy_source_path = "real-analysis/weierstrass-approximation-theorem.md"
 \]
 Equivalently, polynomials are dense in the [[real-analysis/space-of-continuous-functions|space of continuous functions]] on $[a,b]$ with respect to the [[real-analysis/supremum-norm|supremum norm]] (so $p_n\to f$ [[real-analysis/uniform-convergence|uniformly]] for some polynomial sequence $p_n$).
 
+## Remarks
+
 A far-reaching generalization is the [[real-analysis/stone-weierstrass-theorem|Stone–Weierstrass theorem]], which replaces polynomials by more general subalgebras of continuous functions on compact spaces.

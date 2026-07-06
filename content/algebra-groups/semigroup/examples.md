@@ -1,0 +1,4 @@
+- $(\mathbb{N},+)$ is a semigroup (addition is associative).
+- $(\mathbb{N}_{\ge 1},\times)$ is a semigroup (multiplication is associative).
+- The set of all $n\times n$ real matrices under matrix multiplication is a semigroup.
+- *(Edge case)* If one allows empty algebraic structures, the empty set has a unique binary operation $\,\emptyset\times\emptyset\to\emptyset\,$ and is a semigroup, but it cannot be a monoid (no identity element exists).

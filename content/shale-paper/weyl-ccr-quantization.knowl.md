@@ -17,4 +17,6 @@ V(z_1)V(z_2)=e^{-iB(z_1,z_2)/2}\,V(z_1+z_2).
 **Key property (paper use):**
 - Shale requires \(V(\cdot)\) to be weakly continuous on each finite-dimensional subspace (regularity).
 
-**Example:** In 1D, \(V(p,q)=e^{i(pP+qQ)}\) with \([P,Q]=i\).
+## Examples
+
+- In 1D, \(V(p,q)=e^{i(pP+qQ)}\) with \([P,Q]=i\).

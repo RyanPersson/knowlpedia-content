@@ -32,7 +32,7 @@ where $\langle\cdot\rangle_\beta$ is the thermal [[stat-mech-quantum/quantum-exp
 
 This is the quantum analogue of the classical [[stat-mech/correlation-function-two-point|two-point correlation function]].
 
-## Physical interpretation
+## Interpretation
 
 Two-point correlation functions quantify:
 
@@ -42,7 +42,7 @@ Two-point correlation functions quantify:
 
 In equilibrium, correlation functions are time-translation invariant and obey characteristic “imaginary-time” relations captured by the [[stat-mech-quantum/kms-condition-finite|KMS condition (finite)]].
 
-## Key properties
+## Properties
 
 1. **Spectral (energy-eigenbasis) representation.**  
    If $H|n\rangle=E_n|n\rangle$ and $A_{nm}=\langle n|A|m\rangle$, then for the Gibbs state,

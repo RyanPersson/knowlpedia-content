@@ -10,7 +10,6 @@ legacy_source_path = "algebra-commutative/jacobson-annihilates-simples.md"
 
 The Jacobson radical can be defined and studied through its action on modules. One of its basic properties is that it kills every simple module, making it invisible in the semisimple world. In the commutative setting, this is closely tied to [[algebra-commutative/jacobson-radical-intersection-maximals|the description of the Jacobson radical as an intersection of maximal ideals]].
 
-## Theorem
 
 Let $R$ be a ring (commutative or not), and let $J(R)$ denote its Jacobson radical. Then for every simple (right) $R$-module $S$,
 \[

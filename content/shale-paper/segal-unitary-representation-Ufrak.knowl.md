@@ -19,4 +19,6 @@ where \(X(T)\) is the [[shale-paper/jacobian-xT|Jacobian]].
 \(M_{\phi(T)g}=\mathfrak U(T)M_g\mathfrak U(T)^{-1}\).
 - Theorem 3.1: \(T\mapsto \mathfrak U(T)\) is weakly continuous.
 
-**Example:** For 1D scaling \(x\mapsto \lambda x\), \(\mathfrak U\) is a Gaussian-weighted dilation.
+## Examples
+
+- For 1D scaling \(x\mapsto \lambda x\), \(\mathfrak U\) is a Gaussian-weighted dilation.

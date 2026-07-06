@@ -1,0 +1,3 @@
+- For any ring $R$, the additive group of $R$ is a left $R$-module via multiplication: $r\cdot x=rx$.
+- For $R=\mathbb Z$, a left $\mathbb Z$-module is exactly an abelian group (with $n\cdot m$ defined as repeated addition).
+- If $I\lhd R$ is an ideal, then $I$ is an $R$-module under the restricted multiplication action.

@@ -15,6 +15,7 @@ $$
 
 Subgradients generalize derivatives: when $f$ is differentiable at $x$ (see [[real-analysis/derivative|derivative]]), the unique subgradient is $\nabla f(x)$. The set of all subgradients at $x$ is the [[convex-analysis/subdifferential|subdifferential]] $\partial f(x)$, and each subgradient induces a [[convex-analysis/supporting-hyperplane-convex-function|supporting hyperplane]] to the epigraph of $f$.
 
-**Examples:**
+## Examples
+
 - For $f(x)=|x|$ on $\mathbb{R}$, $\partial f(0)=[-1,1]$, so any $g\in[-1,1]$ is a subgradient at $0$.
 - For $f(x)=\max\{x,0\}$ on $\mathbb{R}$, $\partial f(0)=[0,1]$, while $\partial f(x)=\{1\}$ for $x>0$ and $\partial f(x)=\{0\}$ for $x<0$.

@@ -20,7 +20,8 @@ In either form, the invariants (prime powers in the first form, or the chain $n_
 
 This is the finite-group specialization of the [[algebra-groups/fundamental-theorem-fg-abelian-groups|fundamental theorem of finitely generated abelian groups]] (since every finite group is finitely generated).
 
-**Examples:**
+## Examples
+
 - Order $8=2^3$: the abelian groups of order $8$ are, up to isomorphism,
   - $C_8$,
   - $C_4\times C_2$,

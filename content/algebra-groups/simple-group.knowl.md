@@ -12,7 +12,8 @@ A **simple group** is a [[algebra-groups/group|group]] $G$ with $G\ne \{e\}$ suc
 
 Simple groups play the role of "building blocks" for general groups via [[algebra-groups/composition-series-group|composition series]] and uniqueness results such as the [[algebra-groups/jordan-holder-theorem-groups|Jordan–Hölder theorem]].
 
-**Examples:**
+## Examples
+
 - Any cyclic group of prime order is simple.
 - The alternating group $A_5$ is a finite nonabelian simple group.
 - *(Non-example)* $\mathbb{Z}$ is not simple: for instance, $2\mathbb{Z}$ is a nontrivial normal subgroup.

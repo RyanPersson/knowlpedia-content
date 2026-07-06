@@ -14,4 +14,6 @@ K\subseteq \bigcup_{x\in F} B(x,\varepsilon),
 \]
 where $B(x,\varepsilon)$ denotes the [[topology/open-ball|open ball]].
 
+## Remarks
+
 This is one half of the standard metric characterization [[topology/compact-iff-complete-totally-bounded|compact iff complete and totally bounded]], complementing [[topology/compactness-implies-completeness|compactness implies completeness]] and closely related to the existence of finite [[topology/epsilon-net|epsilon-nets]].

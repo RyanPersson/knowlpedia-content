@@ -10,7 +10,6 @@ legacy_source_path = "algebra-commutative/simple-artinian-matrix-ring.md"
 
 A central structure theorem in ring theory is that “finite-length” (Artinian) simple rings are precisely matrix rings over division rings. This is the simplest nontrivial case of the [[algebra-rings/artin-wedderburn-theorem|Artin–Wedderburn theorem]].
 
-## Theorem
 
 Let $R$ be a ring (not necessarily commutative). Assume:
 - $R$ is **simple** (it has no nonzero proper two-sided ideals), and

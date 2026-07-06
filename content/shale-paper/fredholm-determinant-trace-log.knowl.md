@@ -16,4 +16,6 @@ extending [[linear-algebra/determinant|determinant]] from finite rank.
 - \(\Delta\) is continuous on \(GL(H)_1=I+\)trace-class.
 - No continuous extension exists on \(GL(H)_2=I+\)Hilbert–Schmidt (Lemma 2.1(b)).
 
-**Example:** If \(A\) is finite rank, \(\Delta(I+A)\) matches the usual finite-dimensional determinant.
+## Examples
+
+- If \(A\) is finite rank, \(\Delta(I+A)\) matches the usual finite-dimensional determinant.

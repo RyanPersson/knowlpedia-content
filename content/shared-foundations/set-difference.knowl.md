@@ -13,8 +13,11 @@ $$
 A\setminus B=\{x : x\in A \text{ and } x\notin B\}.
 $$
 
+## Remarks
+
 Set difference can be expressed using [[shared-foundations/intersection|intersection]] and [[shared-foundations/complement|complement]] once an ambient universe $U$ is chosen: if $B\subseteq U$, then $A\setminus B = A\cap B^{c}$.
 
-**Examples:**
+## Examples
+
 - $\{1,2,3\}\setminus\{2,4\}=\{1,3\}$.
 - If $A\subseteq B$, then $A\setminus B=\varnothing$ (see [[shared-foundations/empty-set|empty set]]).

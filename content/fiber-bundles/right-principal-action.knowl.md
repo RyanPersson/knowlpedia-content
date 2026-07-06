@@ -23,6 +23,7 @@ A smooth right action is called a **right principal action** (relative to $\pi$)
 4. (Free) If $p\cdot g=p$, then $g=e$.
 5. (Fiberwise transitive) If $\pi(p)=\pi(q)$, then there exists a unique $g\in G$ with $q=p\cdot g$.
 
+## Equivalent characterizations
 Equivalently, the map
 \[
 P\times G \longrightarrow P\times_M P,\qquad (p,g)\longmapsto (p,\,p\cdot g)
@@ -33,3 +34,4 @@ is a [[fiber-bundles/diffeomorphism|diffeomorphism]]. When $\pi$ is a surjective
 1. **Trivial principal bundle.** For $P=M\times G$ with $\pi(x,h)=x$, the action $(x,h)\cdot g=(x,hg)$ is right principal.
 2. **Frame bundle.** On the frame bundle $\mathrm{Fr}(M)$ of an $n$-manifold, the right action of $GL(n)$ by change of frame is free and transitive on each fiber.
 3. **Hopf fibration.** The map $S^3\to S^2$ is a principal $S^1$-bundle, with right action given by complex (or quaternionic) multiplication by elements of $S^1$.
+

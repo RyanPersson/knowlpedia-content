@@ -18,4 +18,6 @@ $
 $
 Here $\alpha=(\alpha_1,\dots,\alpha_n)$, $|\alpha|=\alpha_1+\cdots+\alpha_n$, $\alpha!=\alpha_1!\cdots \alpha_n!$, and $h^\alpha=h_1^{\alpha_1}\cdots h_n^{\alpha_n}$.
 
+## Remarks
+
 Taylor's theorem is the basis for local approximation, classification of [[real-analysis/critical-point|critical points]], and higher-order error bounds in multivariable calculus.

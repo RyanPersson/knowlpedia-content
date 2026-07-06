@@ -22,8 +22,11 @@ x=\sum_{i=1}^m \lambda_i\omega_i
 \sum_{i=1}^m \lambda_i=1.
 $$
 
-Affine combinations are the natural building blocks of affine sets, just as [[convex-analysis/convex-combination|convex combinations]] are for convex sets.
+## Examples
 
-**Examples:**
 - If $m=2$ and $\lambda_1=\lambda$, $\lambda_2=1-\lambda$, then $x=\lambda\omega_1+(1-\lambda)\omega_2$ parameterizes the line through $\omega_1,\omega_2$ as $\lambda$ varies over $\mathbb{R}$.
 - In $\mathbb{R}^n$, $\operatorname{aff}(\Omega)$ is the smallest affine subspace containing $\Omega$.
+
+## Remarks
+
+Affine combinations are the natural building blocks of affine sets, just as [[convex-analysis/convex-combination|convex combinations]] are for convex sets.

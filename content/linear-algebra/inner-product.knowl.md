@@ -19,9 +19,12 @@ such that for all $u,v,w\in V$ and $a,b\in\mathbb{F}$:
 \langle v,v\rangle\ge 0\ \text{and }\langle v,v\rangle=0\iff v=0.
 \]
 
+## Remarks
+
 An inner product is closely related to a [[linear-algebra/bilinear-form|bilinear form]] (or sesquilinear form in the complex case). It induces a [[linear-algebra/norm|norm]] via $\|v\|=\sqrt{\langle v,v\rangle}$ and defines [[linear-algebra/orthogonality|orthogonality]] through the condition $\langle u,v\rangle=0$.
 
-**Examples:**
+## Examples
+
 - On $\mathbb{R}^n$, the standard dot product $\langle x,y\rangle=\sum_{i=1}^n x_i y_i$ is an inner product.
 - On $\mathbb{C}^n$, the Hermitian product $\langle x,y\rangle=\sum_{i=1}^n x_i\overline{y_i}$ is an inner product.
 - If $W$ is a symmetric positive-definite matrix, then $\langle x,y\rangle=x^\mathsf{T}Wy$ defines an inner product on $\mathbb{R}^n$.

@@ -14,5 +14,6 @@ More precisely: if $\Omega\neq\emptyset$, it is parallel to a unique subspace $L
 
 In real vector spaces, hyperplanes are exactly level sets of nonzero linear functionals; see [[convex-analysis/hyperplanes-are-level-sets-of-nonzero-linear-functionals|the level-set characterization]].
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}^n$, the set $\{x\mid a^\top x=\alpha\}$ with $a\neq 0$ is a hyperplane.

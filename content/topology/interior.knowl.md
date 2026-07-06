@@ -16,7 +16,8 @@ Equivalently, $\operatorname{int}(A)$ is the largest [[topology/open-set|open se
 
 A point $x$ lies in $\operatorname{int}(A)$ exactly when $A$ is a [[topology/neighborhood|neighborhood]] of $x$. Interior is dual to [[topology/closure|closure]] via complements: $\operatorname{int}(A)=X\setminus \overline{X\setminus A}$.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$ with the usual topology, $\operatorname{int}([0,1])=(0,1)$.
 - In $\mathbb{R}$ with the usual topology, $\operatorname{int}(\mathbb{Q})=\varnothing$.
 - If $U$ is open, then $\operatorname{int}(U)=U$.

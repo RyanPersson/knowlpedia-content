@@ -15,4 +15,6 @@ A bounded operator \(X\) is **trace-class** if its trace norm \(\|X\|_1<\infty\)
 - The trace \(\mathrm{tr}(X)\) is well-defined and basis-independent.
 - The "determinant" \(\Delta(I+X)\) extends to \(I+\)trace-class ([[shale-paper/fredholm-determinant-trace-log|Fredholm determinant]]).
 
-**Example:** On \(\ell^2\), \(\mathrm{diag}(a_n)\) is trace-class iff \(\sum_n |a_n|<\infty\).
+## Examples
+
+- On \(\ell^2\), \(\mathrm{diag}(a_n)\) is trace-class iff \(\sum_n |a_n|<\infty\).

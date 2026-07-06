@@ -17,6 +17,8 @@ $$
 
 This is a [[lie-groups/smooth-action-lie-group|smooth action]] of $G$ on the manifold $G$.
 
+## Remarks
+
 **Orbits and stabilizers.**
 - The orbit of $h\in G$ is its conjugacy class, an example of an [[lie-groups/orbit-lie-group|orbit]] of a Lie group action.
 - The stabilizer of $h$ is its centralizer $C_G(h)=\{g\in G:gh=hg\}$, a closed subgroup; compare [[lie-groups/stabilizer-lie-group|stabilizers]] and the [[lie-groups/closed-subgroup-theorem|closed subgroup theorem]].

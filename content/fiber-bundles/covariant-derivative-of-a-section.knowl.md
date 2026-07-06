@@ -19,6 +19,8 @@ defined by the connection’s bilinear map $\nabla:\mathfrak X(M)\times\Gamma(E)
 - $\mathbb R$-linearity in $s$, and
 - the Leibniz rule in the section slot (see [[fiber-bundles/leibniz-rule-for-a-connection|Leibniz rule for a connection]]).
 
+## Equivalent characterizations
+
 Equivalently, viewing $\nabla s$ as a $T^*M\otimes E$-valued object, one has $(\nabla_X s)(p)=(\nabla s)(p)(X_p)$ by contraction.
 
 ## Examples

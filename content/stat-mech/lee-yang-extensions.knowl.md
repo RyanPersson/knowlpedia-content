@@ -8,7 +8,7 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/lee-yang-extensions.md"
 +++
 
-## Prerequisites
+## Remarks
 
 - [[stat-mech-lattice/ising-model|Ising model]]
 - [[stat-mech-lattice/ferromagnetic-ising|ferromagnetic Ising interactions]]

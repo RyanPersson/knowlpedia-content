@@ -17,7 +17,8 @@ Under this action, two elements lie in the same orbit exactly when they are [[al
 
 More generally, $G$ acts on its subgroups by $g\cdot H := gHg^{-1}$; the stabilizer of a subgroup $H$ in this action is its [[algebra-groups/normalizer|normalizer]]. A subgroup is normal iff it is fixed by every element under this action.
 
-**Examples:**
+## Examples
+
 - In $S_3$, the conjugacy classes are $\{e\}$, the three transpositions, and the two $3$-cycles.
 - If $G$ is abelian, then $gxg^{-1}=x$ for all $g,x$, so every conjugacy class is a singleton.
 - For the subgroup action, $H\le G$ is normal exactly when $gHg^{-1}=H$ for all $g\in G$.

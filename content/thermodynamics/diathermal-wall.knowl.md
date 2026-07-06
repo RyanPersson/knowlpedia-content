@@ -10,6 +10,8 @@ legacy_source_path = "thermodynamics/diathermal-wall.md"
 
 A **diathermal wall** is an idealized [[thermodynamics/system-boundary|system boundary]] that **allows heat transfer** between a [[thermodynamics/thermodynamic-system|system]] and its [[thermodynamics/surroundings-environment|surroundings]]. In other words, energy may cross the boundary *as heat*, described by the [[thermodynamics/heat-inexact-differential|inexact differential of heat]] $\delta Q$.
 
+## Remarks
+
 **Physical interpretation.**  
 A diathermal wall models good thermal contact (e.g., a thin metal interface) so that, when two systems are separated only by such a wall and are otherwise constrained, heat can flow in response to a temperature difference.
 

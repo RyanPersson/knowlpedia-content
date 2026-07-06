@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/prop-cv-positivity-stability.md"
 +++
 
-## Statement
-
 For a stable equilibrium thermodynamic system, the [[thermodynamics/heat-capacity-constant-volume|constant-volume heat capacity]] satisfies
 $$
 C_V \ge 0
@@ -41,7 +39,7 @@ A convenient set of sufficient hypotheses is:
 - If stability is strict (strict convexity/concavity), then $C_V>0$ and $T(S)$ is strictly increasing at fixed $V,N$.
 - Vanishing curvature can lead to $C_V$ diverging (a common signature near criticality), consistent with $C_V\ge 0$.
 
-## Cross-links to definitions
+## Remarks
 
 - [[thermodynamics/heat-capacity-constant-volume|$C_V$ (constant-volume heat capacity)]]
 - [[thermodynamics/thermodynamic-stability|thermodynamic stability]]

@@ -21,13 +21,15 @@ for each $x\in M$ such that:
   \]
   is smooth.
 
+A bundle metric is the same as a reduction of the [[fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle|frame bundle]] from the general linear group to the orthogonal group, yielding the [[fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle|orthonormal frame bundle]].
+
+## Equivalent characterizations
+
 Equivalently, in any local frame $(e_1,\dots,e_r)$ over $U$, the matrix-valued function $G=(G_{ij})$ with
 \[
 G_{ij}(x)=\langle e_i(x),e_j(x)\rangle_x
 \]
 is a smooth map $U\to \mathrm{Sym}^+(r,\mathbb R)$ (positive-definite symmetric matrices), and transforms under changes of frame by the usual congruence rule.
-
-A bundle metric is the same as a reduction of the [[fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle|frame bundle]] from the general linear group to the orthogonal group, yielding the [[fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle|orthonormal frame bundle]].
 
 ## Examples
 1. **Riemannian metric.** A Riemannian metric on $M$ is precisely a bundle metric on the [[fiber-bundles/tangent-bundle|tangent bundle]] $TM$.

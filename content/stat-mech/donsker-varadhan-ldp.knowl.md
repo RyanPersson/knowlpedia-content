@@ -8,7 +8,7 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/donsker-varadhan-ldp.md"
 +++
 
-## Prerequisites
+## Remarks
 
 - [[large-deviations/large-deviation-principle|large deviation principle (LDP)]]
 - [[large-deviations/rate-function|rate functions]]

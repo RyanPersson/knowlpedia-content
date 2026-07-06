@@ -18,7 +18,8 @@ A convenient algebraic criterion is:
 \]
 where \(m'_{\alpha,F}\) is the formal derivative. The link between separability and distinct roots is recorded in [[algebra-fields-galois/separable-distinct-roots|separable polynomials have distinct roots]].
 
-**Examples.**
+## Examples
+
 1. Over \(F=\mathbb{Q}\), \(\alpha=\sqrt2\) is separable: its minimal polynomial \(x^2-2\) has distinct roots \(\pm\sqrt2\).
 2. Over a field of characteristic \(p>0\), separability can fail. In \(K=\mathbb{F}_p(t^{1/p})\) over \(F=\mathbb{F}_p(t)\), the element \(\alpha=t^{1/p}\) has minimal polynomial \(x^p-t\), whose derivative is \(px^{p-1}=0\); the polynomial has a single root of multiplicity \(p\), so \(\alpha\) is not separable over \(F\).
 3. In any extension of a [[algebra-fields-galois/perfect-field|perfect field]] (e.g. \(F=\mathbb{F}_p\) or \(F=\mathbb{Q}\)), every algebraic element is separable; in particular, every \(\alpha\in \mathbb{F}_{p^n}\) is separable over \(\mathbb{F}_p\).

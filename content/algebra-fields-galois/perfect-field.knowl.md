@@ -19,7 +19,8 @@ There are standard equivalent characterizations:
 
 Perfect fields are precisely the base fields over which “separable vs. algebraic” coincide: every algebraic extension automatically has no inseparable phenomena.
 
-**Examples.**
+## Examples
+
 1. \(\mathbb{Q}\), \(\mathbb{R}\), and \(\mathbb{C}\) are perfect because they have characteristic \(0\).
 2. Every [[algebra-fields-galois/finite-field|finite field]] \(\mathbb{F}_{p^n}\) is perfect (in characteristic \(p\), Frobenius is automatically bijective on a finite set).
 3. \(\mathbb{F}_p(t)\) is not perfect: Frobenius is not surjective since \(t\notin (\mathbb{F}_p(t))^p\). Equivalently, the extension \(\mathbb{F}_p(t^{1/p})/\mathbb{F}_p(t)\) is [[algebra-fields-galois/inseparable-extension|inseparable]].

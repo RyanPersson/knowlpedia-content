@@ -13,4 +13,6 @@ legacy_source_path = "real-analysis/interchange-limit-integral.md"
 \lim_{n\to\infty}\int_a^b f_n(x)\,dx \;=\; \int_a^b f(x)\,dx.
 \]
 
+## Remarks
+
 This is a basic continuity property of the [[real-analysis/riemann-integral|Riemann integral]] with respect to uniform convergence, and it is the key step behind [[real-analysis/uniform-convergence-integration|term-by-term integration of uniformly convergent series]].

@@ -16,7 +16,8 @@ the [[shared-foundations/intersection|intersection]] of all [[algebra-groups/sub
 
 Equivalently, $\langle S\rangle$ is the set of all finite products of elements of $S$ and their inverses (i.e. all "words" in $S\cup S^{-1}$). When $S=\{g\}$ is a singleton, $\langle S\rangle$ is a [[algebra-groups/cyclic-subgroup|cyclic subgroup]].
 
-**Examples:**
+## Examples
+
 - In $(\mathbb{Z},+)$, $\langle 6,15\rangle = 3\mathbb{Z}$.
 - In $S_3$, the set $\{(12),(123)\}$ generates all of $S_3$.
 - In $\mathbb{R}^{\times}$, the subset $\{-1\}$ generates $\{1,-1\}$.

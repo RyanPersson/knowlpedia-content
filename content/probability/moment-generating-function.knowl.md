@@ -12,7 +12,8 @@ A **moment generating function** is the [[shared-foundations/function|function]]
 
 If $M_X(t)$ is finite on an open interval around $0$, then $M_X^{(k)}(0)=\mathbb{E}[X^k]$, linking it directly to [[probability/moment|moments]]. The closely related [[probability/cumulant-generating-function|cumulant generating function]] is $\log M_X(t)$ (when defined), and the [[probability/characteristic-function-probability|characteristic function]] can be used when the mgf does not exist.  
 
-**Examples:**
+## Examples
+
 - If $X\sim N(\mu,\sigma^2)$, then $M_X(t)=\exp\!\left(\mu t+\tfrac{1}{2}\sigma^2 t^2\right)$ for all real $t$.
 - If $X\sim\mathrm{Bernoulli}(p)$, then $M_X(t)=(1-p)+p\,e^{t}$ for all real $t$.
 - If $X\sim\mathrm{Exp}(\lambda)$ with $\lambda>0$, then $M_X(t)=\frac{\lambda}{\lambda-t}$ for $t<\lambda$.

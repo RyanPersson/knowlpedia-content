@@ -14,8 +14,6 @@ $$
 g\cdot x = y.
 $$
 
-Equivalently, for some (hence every) $x\in M$, the [[lie-groups/orbit-lie-group|orbit]] $G\cdot x$ equals all of $M$.
-
 ### Homogeneous space description
 Fix $x_0\in M$ and let $H=G_{x_0}$ be the [[lie-groups/stabilizer-lie-group|stabilizer subgroup]]. Then $H$ is a Lie subgroup (by the [[lie-groups/closed-subgroup-theorem|closed subgroup theorem]]), and the orbit map induces a smooth surjection
 $$
@@ -26,3 +24,6 @@ For transitive actions this map is a diffeomorphism under standard hypotheses, s
 
 ### Context
 Transitive actions encode “geometries with a large symmetry group.” Many classical manifolds arise as homogeneous spaces, and questions about invariants on $M$ can often be translated into representation-theoretic questions about $H$.
+
+## Equivalent characterizations
+Equivalently, for some (hence every) $x\in M$, the [[lie-groups/orbit-lie-group|orbit]] $G\cdot x$ equals all of $M$.

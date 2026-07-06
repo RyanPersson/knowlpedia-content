@@ -15,6 +15,7 @@ $$
 
 It is defined using [[probability/expectation|expectation]] and always exists (since $|e^{itX}|=1$). The characteristic function determines the [[probability/distribution-law|distribution law]] of $X$, and it is closely related to the [[probability/moment-generating-function|moment generating function]] (when the latter exists in a neighborhood of $0$).
 
-**Examples:**
+## Examples
+
 - If $X\sim \mathcal{N}(\mu,\sigma^2)$, then $\varphi_X(t)=\exp\!\bigl(i\mu t-\tfrac12\sigma^2 t^2\bigr)$.
 - If $X\sim \mathrm{Bernoulli}(p)$, then $\varphi_X(t)=(1-p)+p\,e^{it}$.

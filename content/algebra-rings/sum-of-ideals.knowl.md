@@ -14,9 +14,12 @@ I+J=\{\,i+j : i\in I,\ j\in J\,\}.
 \]
 It is the smallest [[algebra-rings/ideal|ideal]] of $R$ containing both $I$ and $J$.
 
+## Remarks
+
 The sum interacts with quotients via the [[algebra-rings/second-isomorphism-theorem-rings|second isomorphism theorem]] and measures “comaximality” when $I+J=R$. In $\mathbb Z$, sums of ideals encode the [[algebra-rings/gcd|gcd]].
 
-**Examples:**
+## Examples
+
 - In $\mathbb Z$, $(m)+(n)=(\gcd(m,n))$.
 - In $k[x,y]$, $(x)+(y)=(x,y)$.
 - If $I\subseteq J$, then $I+J=J$.

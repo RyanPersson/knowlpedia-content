@@ -15,4 +15,6 @@ $$
 \langle x^\ast ,x\rangle < \beta \le \langle x^\ast ,y\rangle \quad \text{whenever }x\in G,\ y\in\Omega.
 $$
 
+## Remarks
+
 This follows from [[convex-analysis/separation-by-closed-hyperplane-under-interior-condition|closed hyperplane separation under an interior condition]] together with the openness of $G$, which allows a strict inequality on the $G$ side.

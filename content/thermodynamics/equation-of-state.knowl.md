@@ -12,6 +12,8 @@ An **equation of state (EOS)** is a relation among equilibrium [[thermodynamics/
 $P = P(T,V,N)$ (or equivalently $f(P,T,V,N)=0$),
 where $P$ is [[thermodynamics/pressure-thermo|pressure]], $T$ is [[thermodynamics/temperature-thermo|temperature]], $V$ is [[thermodynamics/volume-thermo|volume]], and $N$ is [[thermodynamics/particle-number|particle number]].
 
+## Remarks
+
 **Physical interpretation.** The EOS encodes the material’s mechanical/thermal response in equilibrium: it tells you what pressure results from specifying temperature and volume (and composition), or conversely how the system’s volume adjusts under changes in pressure and temperature. In practice, an EOS is determined empirically or derived from a microscopic model in the [[thermodynamics/thermodynamic-limit|thermodynamic limit]].
 
 **How it is used.**

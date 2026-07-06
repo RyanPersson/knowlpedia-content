@@ -13,4 +13,6 @@ $$
 |f(b)-f(a)|\le M\,|b-a|.
 $$
 
+## Remarks
+
 This is an immediate quantitative consequence of the [[real-analysis/mean-value-theorem|mean value theorem]] and is a standard step in results like [[real-analysis/bounded-derivative-implies-uniform-continuity|bounded derivative implies uniform continuity]].

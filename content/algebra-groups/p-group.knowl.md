@@ -12,7 +12,8 @@ Fix a prime number $p$. A **$p$-group** is a [[algebra-groups/group|group]] $G$ 
 
 Finite $p$-groups have strong structure properties; for instance, they have nontrivial center (see [[algebra-groups/p-group-nontrivial-center|p-group has nontrivial center]]). Maximal $p$-subgroups of a finite group occur as [[algebra-groups/sylow-subgroup|Sylow p-subgroups]], central in Sylow theory.
 
-**Examples:**
+## Examples
+
 - The additive group $\mathbb{Z}/p^n\mathbb{Z}$ is a finite $p$-group of order $p^n$.
 - The quaternion group $Q_8=\{\pm1,\pm i,\pm j,\pm k\}$ is a $2$-group (every element has order $1$, $2$, or $4$).
 - The trivial group $\{e\}$ is a $p$-group for every prime $p$ (it has order $p^0=1$).

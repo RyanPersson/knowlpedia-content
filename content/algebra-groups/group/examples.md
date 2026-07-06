@@ -1,0 +1,4 @@
+- $(\mathbb{Z},+)$ is a group (identity $0$, inverse of $n$ is $-n$).
+- $(\mathbb{Q}^{\times},\times)$ is a group (nonzero rationals under multiplication).
+- The symmetric group $S_n$ of permutations of $\{1,\dots,n\}$ is a group under composition.
+- The set of invertible $n\times n$ real matrices is a group under multiplication (often denoted $GL_n(\mathbb{R})$).

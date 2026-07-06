@@ -12,7 +12,7 @@ A **closed system** is a [[thermodynamics/thermodynamic-system|thermodynamic sys
 
 This is the standard “control mass” setting of classical equilibrium thermodynamics.
 
-## Physical interpretation
+## Interpretation
 Examples include:
 - A sealed piston–cylinder device, where the boundary can move and mechanical work occurs, but no mass enters or leaves.
 - A rigid sealed container placed in thermal contact with a bath through a [[thermodynamics/diathermal-wall|diathermal wall]], allowing heat flow without mass flow.
@@ -21,7 +21,7 @@ A closed system differs from:
 - an [[thermodynamics/open-system|open system]], which allows matter exchange across a permeable boundary, and
 - an [[thermodynamics/isolated-system|isolated system]], which allows neither matter nor energy exchange.
 
-## Key relations
+## Remarks
 - **Fixed amount of matter:** For a single-component closed system, the [[thermodynamics/particle-number|particle number]] $N$ is constant:
   $$ dN = 0. $$
 

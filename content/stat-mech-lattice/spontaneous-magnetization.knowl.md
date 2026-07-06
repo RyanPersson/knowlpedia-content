@@ -24,7 +24,7 @@ $$
 
 where $p(\beta,h)$ is the [[stat-mech-lattice/pressure-lattice|pressure]] obtained as a [[stat-mech-lattice/thermodynamic-limit-pressure-lattice|thermodynamic limit]] of finite-volume pressures.
 
-## Key properties
+## Properties
 - **Order parameter:** $m_*(\beta)$ is a canonical [[stat-mech-lattice/order-parameter|order parameter]] for $\mathbb{Z}_2$-symmetric models such as the [[stat-mech-lattice/ising-model|Ising model]].
 - **Symmetry selection:** In systems with spin-flip symmetry at $h=0$, one typically has
   $$
@@ -35,5 +35,5 @@ where $p(\beta,h)$ is the [[stat-mech-lattice/pressure-lattice|pressure]] obtain
 - **Phase transition signal:** $m_*(\beta)>0$ is a standard signature of a [[stat-mech-lattice/phase-transition-gibbs|phase transition]] and of [[stat-mech-lattice/spontaneous-symmetry-breaking|spontaneous symmetry breaking]] in $\mathbb{Z}_2$-symmetric systems.
 - **Relation to susceptibility:** Fluctuations of magnetization are measured by the [[stat-mech/susceptibility-stat-mech|susceptibility]], typically involving derivatives of $p(\beta,h)$ at $h=0$ and/or integrated two-point correlations.
 
-## Physical interpretation
+## Interpretation
 $m_*(\beta)$ quantifies *long-range alignment* persisting even when the field is removed. Operationally, the limit $h\downarrow 0$ encodes the idea that an infinitesimal bias selects one of multiple competing macrostates; if the selected state retains nonzero magnetization at $h=0$, the system exhibits stable macroscopic order.

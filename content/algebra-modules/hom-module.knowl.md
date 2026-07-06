@@ -12,6 +12,7 @@ A **Hom module** \(\mathrm{Hom}_R(M,N)\) is the set of all [[algebra-modules/mod
 
 In the noncommutative setting, additional module structures arise from bimodules: if \(M\) is an \((R,S)\)-[[algebra-modules/bimodule|bimodule]] and \(N\) is a left \(R\)-module, then \(\mathrm{Hom}_R(M,N)\) carries a natural left \(S\)-module structure by \((s\cdot f)(m)=f(ms)\).
 
-**Examples:**
+## Examples
+
 - For any left \(R\)-module \(M\), evaluation at \(1\) gives \(\mathrm{Hom}_R(R,M)\cong M\).
 - If \(V,W\) are [[linear-algebra/vector-space|vector spaces]] over a field \(k\), then \(\mathrm{Hom}_k(V,W)\) is a vector space, naturally isomorphic to the space of \(k\)-linear maps \(V\to W\).

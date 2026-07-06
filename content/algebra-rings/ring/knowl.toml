@@ -1,0 +1,68 @@
+id = "algebra-rings/ring"
+title = "Ring"
+kind = "definition"
+summary = "A set with addition forming an abelian group and multiplication that is associative and distributive over addition."
+aliases = ["ring"]
+domains = ["algebra-rings"]
+legacy_source_path = "algebra-rings/ring.md"
+
+[core]
+source = "core.md"
+
+[[core.data]]
+id = "carrier"
+text = 'A set $R$.'
+refs = ["shared-foundations/set"]
+
+[[core.data]]
+id = "addition"
+text = 'An addition $+ : R \times R \to R$.'
+refs = ["shared-foundations/binary-operation"]
+
+[[core.data]]
+id = "multiplication"
+text = 'A multiplication $\cdot : R \times R \to R$.'
+refs = ["shared-foundations/binary-operation"]
+
+[[core.axioms]]
+id = "additive-abelian-group"
+text = '$(R,+)$ is an abelian group (in particular, there is an additive identity $0$ and every element has an additive inverse).'
+refs = ["algebra-groups/abelian-group"]
+
+[[core.axioms]]
+id = "multiplicative-associativity"
+text = 'Multiplication is associative: $(ab)c=a(bc)$ for all $a,b,c\in R$.'
+
+[[core.axioms]]
+id = "distributivity"
+text = 'Multiplication distributes over addition: $a(b+c)=ab+ac$ and $(a+b)c=ac+bc$ for all $a,b,c\in R$.'
+
+[[sections]]
+id = "examples"
+title = "Examples"
+kind = "examples"
+source = "examples.md"
+default_open = false
+
+[[sections]]
+id = "remarks"
+title = "Remarks"
+kind = "remarks"
+source = "remarks.md"
+default_open = false
+
+[[relations]]
+type = "generalization_of"
+target = "algebra-rings/commutative-ring"
+
+[[relations]]
+type = "generalization_of"
+target = "algebra-rings/unital-ring"
+
+[[relations]]
+type = "uses"
+target = "algebra-groups/abelian-group"
+
+[[relations]]
+type = "uses"
+target = "shared-foundations/binary-operation"

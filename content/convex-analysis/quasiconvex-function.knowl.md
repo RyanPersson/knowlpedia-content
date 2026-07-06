@@ -13,9 +13,12 @@ $$
 f(\lambda x+(1-\lambda)y)\le \max\{f(x),f(y)\}.
 $$
 
-**Context.** Quasiconvexity is weaker than convexity: every convex function is quasiconvex, but not conversely. It is important in economic modeling and level-set methods.
+## Examples
 
-**Examples:**
 - Any [[convex-analysis/convex-function-via-epigraph|convex function]] is quasiconvex.
 - The function $f(x)=\sqrt{|x|}$ on $\mathbb{R}$ is quasiconvex but not convex.
 - Any constant function is quasiconvex.
+
+## Remarks
+
+**Context.** Quasiconvexity is weaker than convexity: every convex function is quasiconvex, but not conversely. It is important in economic modeling and level-set methods.

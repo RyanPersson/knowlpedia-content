@@ -1,0 +1,74 @@
+id = "linear-algebra/vector-space"
+title = "Vector space"
+kind = "definition"
+summary = "A set with addition and scalar multiplication satisfying the vector space axioms."
+aliases = ["vector-space", "Vector space"]
+domains = ["linear-algebra"]
+legacy_source_path = "linear-algebra/vector-space.md"
+
+[core]
+source = "core.md"
+
+[[core.data]]
+id = "scalars"
+text = 'A field $\mathbb{F}$ of scalars.'
+refs = ["real-analysis/field-axioms"]
+
+[[core.data]]
+id = "carrier"
+text = 'A set $V$ of vectors.'
+refs = ["shared-foundations/set"]
+
+[[core.data]]
+id = "addition"
+text = 'A vector addition $+ : V \times V \to V$.'
+refs = ["shared-foundations/binary-operation"]
+
+[[core.data]]
+id = "scalar-multiplication"
+text = 'A scalar multiplication $\cdot : \mathbb{F} \times V \to V$.'
+refs = ["shared-foundations/function"]
+
+[[core.axioms]]
+id = "additive-abelian-group"
+text = '$(V,+)$ is an abelian group: addition is commutative and associative, with a zero vector and additive inverses.'
+refs = ["algebra-groups/abelian-group"]
+
+[[core.axioms]]
+id = "distributivity"
+text = 'Scalar multiplication distributes over vector and scalar addition: $a\cdot(u+v)=a\cdot u+a\cdot v$ and $(a+b)\cdot v=a\cdot v+b\cdot v$.'
+
+[[core.axioms]]
+id = "compatibility"
+text = 'Scalar multiplication is compatible with field multiplication and unital: $(ab)\cdot v=a\cdot(b\cdot v)$ and $1\cdot v=v$.'
+
+[[sections]]
+id = "examples"
+title = "Examples"
+kind = "examples"
+source = "examples.md"
+default_open = false
+
+[[sections]]
+id = "remarks"
+title = "Remarks"
+kind = "remarks"
+source = "remarks.md"
+default_open = false
+
+[[relations]]
+type = "special_case_of"
+target = "algebra-modules/module"
+note = "A vector space is a module over a field."
+
+[[relations]]
+type = "uses"
+target = "algebra-groups/abelian-group"
+
+[[relations]]
+type = "uses"
+target = "shared-foundations/set"
+
+[[relations]]
+type = "uses"
+target = "real-analysis/field-axioms"

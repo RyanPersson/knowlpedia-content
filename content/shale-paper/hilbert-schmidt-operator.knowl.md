@@ -15,4 +15,6 @@ A bounded operator \(X\) on a Hilbert space is **Hilbert–Schmidt** if
 - Hilbert–Schmidt operators are [[linear-algebra/compact-operator|compact]].
 - "Restricted" conditions are of the form \(|T|-I\in HS\) (membership in \(GL(H)_2\), \(rGL(H)\), \(rSp(K)\)).
 
-**Example:** On \(\ell^2\), the diagonal operator \(\mathrm{diag}(a_n)\) is HS iff \(\sum_n |a_n|^2<\infty\).
+## Examples
+
+- On \(\ell^2\), the diagonal operator \(\mathrm{diag}(a_n)\) is HS iff \(\sum_n |a_n|^2<\infty\).

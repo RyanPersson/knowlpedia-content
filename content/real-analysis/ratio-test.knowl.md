@@ -16,4 +16,6 @@ L=\limsup_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|.
 - If $L>1$ (including $L=\infty$), then $\sum a_n$ is [[real-analysis/divergent-series|divergent]].
 - If $L=1$, the test is inconclusive.
 
+## Remarks
+
 The ratio test is particularly effective for factorials, exponentials, and power-series-like terms, and it is closely related to the [[real-analysis/root-test|root test]] and the [[real-analysis/cauchy-hadamard-theorem|Cauchy–Hadamard theorem]] for [[real-analysis/power-series|power series]].

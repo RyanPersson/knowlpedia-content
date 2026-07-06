@@ -21,7 +21,8 @@ Let $X$ be a [[linear-algebra/vector-space|vector space]] over $K\in\{\mathbb{R}
 
 Balanced and absorbing sets are the natural hypotheses for defining the [[convex-analysis/minkowski-function-gauge-of-a-set|Minkowski gauge]] and relating it to algebraic interior notions.
 
-**Examples:**
+## Examples
+
 - In a normed space, the closed unit ball $\{x:\|x\|\le 1\}$ is balanced.
 - In $\mathbb{R}^n$, any neighborhood of the origin that contains a ball around $0$ is absorbing.
 - A proper linear subspace $L\subsetneq X$ is balanced, but not absorbing in $X$ (it cannot "reach" vectors outside $L$ by scaling).

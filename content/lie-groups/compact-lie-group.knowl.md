@@ -10,6 +10,8 @@ legacy_source_path = "lie-groups/compact-lie-group.md"
 
 **Definition.** A [[fiber-bundles/lie-group|Lie group]] $G$ is **compact** if its underlying topological space is compact.
 
+## Remarks
+
 **Core structural features.**
 - Compactness implies the existence of a bi-invariant Haar measure, enabling averaging arguments throughout geometry and representation theory.
 - Every compact Lie group admits a [[lie-groups/bi-invariant-metric|bi-invariant Riemannian metric]]; see [[lie-groups/compact-lie-group-bi-invariant-metric|bi-invariant metrics on compact Lie groups]].

@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/peierls-argument.md"
 +++
 
-## Statement
-
 Consider the nearest-neighbor ferromagnetic [[stat-mech-lattice/ising-model|Ising model]] on $\mathbb{Z}^d$ with $d\ge 2$, coupling $J>0$, and zero external field. Let $\mu_{\Lambda}^{+}$ denote the [[stat-mech-lattice/finite-volume-gibbs-measure|finite-volume Gibbs measure]] in a finite region $\Lambda$ with **plus** boundary condition.
 
 Then there exists $\beta_0<\infty$ such that for all inverse temperatures $\beta>\beta_0$:

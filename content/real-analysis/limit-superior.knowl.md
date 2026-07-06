@@ -14,8 +14,12 @@ A **limit superior** of a real sequence $(a_n)_{n\ge 1}$ is the extended real nu
 \]
 provided the right-hand side is interpreted in $[-\infty,\infty]$.
 
-This definition is built from repeated use of [[real-analysis/supremum|supremum]] and [[real-analysis/infimum|infimum]] on the “tails” of the sequence. It packages subsequential behavior: values near $\limsup a_n$ are realized along suitable [[real-analysis/subsequence|subsequences]].
 
-**Examples:**
+## Examples
+
 - If $a_n=(-1)^n$, then $\limsup_{n\to\infty} a_n=1$.
 - If $a_n=\tfrac1n$, then $\limsup_{n\to\infty} a_n=0$.
+
+## Remarks
+
+This definition is built from repeated use of [[real-analysis/supremum|supremum]] and [[real-analysis/infimum|infimum]] on the “tails” of the sequence. It packages subsequential behavior: values near $\limsup a_n$ are realized along suitable [[real-analysis/subsequence|subsequences]].

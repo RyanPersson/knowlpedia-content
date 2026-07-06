@@ -17,7 +17,7 @@ indexed by finite subsets $X$ of the lattice. Each term $\Phi_X$ is a real-value
 
 From $\Phi$ one constructs the finite-volume [[stat-mech-lattice/lattice-hamiltonian|lattice Hamiltonian]] by summing all interaction terms that intersect the volume, and from those Hamiltonians one builds the [[stat-mech-lattice/gibbs-specification|Gibbs specification]] and ultimately [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs measures]] via the [[stat-mech-lattice/dlr-equation|DLR equation]].
 
-## Key properties
+## Properties
 - **Support and range:**
   - $\Phi$ is **finite range** if $\Phi_X = 0$ whenever $\mathrm{diam}(X)$ exceeds some fixed range (see [[stat-mech-lattice/finite-range-interaction-lattice|finite-range interaction]]).
   - Nearest-neighbor models are special cases where only single-site and edge terms appear (see [[discrete-structures/nearest-neighbor-zd|nearest-neighbor structure]]).
@@ -27,7 +27,7 @@ From $\Phi$ one constructs the finite-volume [[stat-mech-lattice/lattice-hamilto
 - **Symmetries and constraints:** Symmetries of $\Phi$ (spin-flip, rotations, permutations of Potts colors) control invariances of the model and are central to [[stat-mech-lattice/spontaneous-symmetry-breaking|spontaneous symmetry breaking]].
 - **Model identification:** Standard models correspond to specific choices of $\Phi$, e.g. [[stat-mech-lattice/ising-model|Ising]], [[stat-mech-lattice/potts-model|Potts]], [[stat-mech-lattice/xy-model|XY]], and [[stat-mech-lattice/heisenberg-model|Heisenberg]] interactions.
 
-## Physical interpretation
+## Interpretation
 The interaction potential specifies **how local patterns contribute to energy**:
 - which alignments are favored (ferromagnetic vs antiferromagnetic tendencies; see [[stat-mech-lattice/ferromagnetic-ising|ferromagnetic Ising]] and [[stat-mech-lattice/antiferromagnetic-ising|antiferromagnetic Ising]]),
 - how strongly and how far spins influence each other (range and decay),

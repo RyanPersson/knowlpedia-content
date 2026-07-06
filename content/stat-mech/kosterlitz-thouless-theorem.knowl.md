@@ -8,7 +8,7 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/kosterlitz-thouless-theorem.md"
 +++
 
-## Context
+## Remarks
 The 2D XY model has a continuous $U(1)$ symmetry (see [[stat-mech/continuous-symmetry-on-spins|continuous symmetry]]), so by the [[stat-mech/mermin-wagner-theorem|Mermin–Wagner theorem]] it cannot have conventional spontaneous magnetization at $T>0$. Nevertheless, it exhibits a genuine phase transition of *topological* character, driven by vortices (see [[stat-mech/topological-defect-vortex|vortices as topological defects]]).
 
 A standard nearest-neighbor XY Hamiltonian on the 2D square lattice is

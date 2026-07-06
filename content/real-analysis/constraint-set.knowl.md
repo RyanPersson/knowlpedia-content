@@ -17,6 +17,7 @@ where $g:U\to \mathbb{R}^m$ is a [[shared-foundations/function|function]] and $g
 
 Constraint sets are central in constrained optimization (see [[real-analysis/lagrange-multipliers-theorem|Lagrange multipliers]]). When $c$ is a [[fiber-bundles/regular-value|regular value]] of $g$, the constraint set typically has good local structure and is a natural domain for an [[real-analysis/implicitly-defined-function|implicitly defined function]].
 
-**Examples:**
+## Examples
+
 - The unit circle is the constraint set $\{(x,y)\in\mathbb{R}^2:\ x^2+y^2=1\}$.
 - The affine plane in $\mathbb{R}^3$ given by $x+2y-z=0$ is the constraint set $\{(x,y,z): x+2y-z=0\}$.

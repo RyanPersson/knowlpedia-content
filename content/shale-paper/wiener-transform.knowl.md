@@ -17,4 +17,6 @@ The **Wiener transform** \(W\) is a unitary on \(L_2(M,n)\) defined (on polynomi
 - Intertwining (Cor. 3.1.1): \(W\,\mathfrak U(T)\,W^{-1}=\mathfrak U(T^{*-1})\).
 - In §4, this yields \(P(x)=WQ(x)W^{-1}\) for the Fock-Cook field operators.
 
-**Example:** In 1D, under an explicit unitary identification, \(W\) becomes the Fourier transform.
+## Examples
+
+- In 1D, under an explicit unitary identification, \(W\) becomes the Fourier transform.

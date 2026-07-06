@@ -8,7 +8,6 @@ domains = ["algebra-homological"]
 legacy_source_path = "algebra-homological/snake-lemma-corollary.md"
 +++
 
-## Statement
 Let
 \[
 0 \longrightarrow A_\bullet \longrightarrow B_\bullet \longrightarrow C_\bullet \longrightarrow 0

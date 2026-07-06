@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/golden-thompson-inequality-stat-mech.md"
 +++
 
-## Statement
 Let $A$ and $B$ be self-adjoint operators on a finite-dimensional Hilbert space (equivalently, Hermitian matrices). Then
 $$
 \operatorname{Tr}\!\left(e^{A+B}\right)\le \operatorname{Tr}\!\left(e^{A}e^{B}\right).
@@ -36,7 +35,7 @@ where $Z(\beta)$ is the [[stat-mech-quantum/quantum-partition-function|quantum p
   $$
 
 - For decomposed Hamiltonians $H=H_1+H_2$, this yields an upper bound on $Z(\beta)$ and hence a lower bound on the corresponding free energy (via $F=-(1/\beta)\log Z$ as in [[stat-mech/free-energy-statistical|statistical free energy]]).
-## significance
+## Remarks
 A standard proof uses the Lie–Trotter product formula
 $$
 e^{A+B}=\lim_{n\to\infty}\left(e^{A/n}e^{B/n}\right)^n

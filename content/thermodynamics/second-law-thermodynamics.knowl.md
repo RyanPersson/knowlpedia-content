@@ -25,7 +25,7 @@ $$
 $$
 so the total entropy cannot decrease.
 
-## Physical interpretation
+## Interpretation
 
 The second law is the thermodynamic expression of an “arrow of time”: macroscopic processes have a preferred direction because irreversibility produces entropy. Energy conservation alone (the [[thermodynamics/first-law-thermodynamics|first law]]) does not forbid processes that run “backwards,” but the second law does.
 

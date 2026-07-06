@@ -16,7 +16,8 @@ The two-sided condition ensures multiplication is well-defined.
 
 The canonical projection $\pi:R\to R/I$ is a surjective ring homomorphism with kernel $I, and $R/I$ satisfies the [[algebra-rings/quotient-ring-universal-property|universal property of quotients]].
 
-**Examples:**
+## Examples
+
 - $\mathbb Z/(n)$ is the familiar ring $\mathbb Z/n\mathbb Z$.
 - For a field $k$, the quotient $k[x]/(x^2)$ is a ring in which the class of $x$ is nilpotent.
 - If $I=R$, then $R/I$ is the zero ring; if $I=\{0\}$, then $R/I\cong R$.

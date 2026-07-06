@@ -20,7 +20,8 @@ $$
 
 This vector space is called the **product space** (or **direct product**) of $X_1,\dots,X_m$.
 
-**Examples:**
+## Examples
+
 - $\mathbb{R}^n$ is the product of $n$ copies of $\mathbb{R}$.
 - If $X=Y\times Z$, then the subsets $Y\times\{0\}$ and $\{0\}\times Z$ are subspaces whose sum is all of $X$.
 - For function spaces, $C[a,b]\times C[a,b]$ is a product space of pairs of continuous functions.

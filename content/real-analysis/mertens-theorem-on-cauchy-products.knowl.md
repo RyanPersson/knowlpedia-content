@@ -13,4 +13,6 @@ $c_n=\sum_{k=0}^n a_k b_{n-k}.$
 If at least one of the series $\sum a_n$ or $\sum b_n$ [[real-analysis/absolutely-convergent-series|converges absolutely]], then the Cauchy product series $\sum c_n$ converges and
 $\sum_{n=0}^\infty c_n = \left(\sum_{n=0}^\infty a_n\right)\left(\sum_{n=0}^\infty b_n\right).$
 
+## Remarks
+
 This result justifies multiplying power series and many other formal series manipulations when absolute convergence is present.

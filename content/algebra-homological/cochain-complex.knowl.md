@@ -23,7 +23,7 @@ H^n(C^\bullet)=\ker(d^n)/\operatorname{im}(d^{n-1}),
 \]
 see [[algebra-homological/cohomology-module|cohomology module]].
 
-## Cross-links
+## Remarks
 - Chain vs. cochain conventions: compare [[algebra-homological/chain-complex|chain complex]].
 - Cochain complexes from \(\mathrm{Hom}\): [[algebra-modules/hom-module|Hom]] and [[algebra-homological/hom-left-exact|left exactness of Hom]].
 - Cohomology as a derived functor: [[algebra-homological/derived-functor|derived functor]] and [[algebra-homological/ext|Ext]].

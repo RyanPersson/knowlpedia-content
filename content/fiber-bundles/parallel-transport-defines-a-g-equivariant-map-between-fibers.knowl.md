@@ -12,7 +12,6 @@ Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] wi
 
 Let $\gamma:[a,b]\to M$ be a smooth curve with $\gamma(a)=x$ and $\gamma(b)=y$.
 
-## Theorem
 
 Define $\tau_\gamma:P_x\to P_y$ by the rule: for $p\in P_x$, let $\widetilde\gamma_p$ be the unique horizontal lift of $\gamma$ with $\widetilde\gamma_p(a)=p$ (existence/uniqueness is in [[fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve|horizontal lift existence/uniqueness]]), and set
 \[

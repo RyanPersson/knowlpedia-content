@@ -70,7 +70,7 @@ When such a condition holds:
 - Connected correlations decay rapidly, implying a finite [[stat-mech/correlation-length|correlation length]] in that regime.
 - One can often construct the infinite-volume Gibbs state by taking a [[stat-mech/construction-infinite-volume-gibbs-weak-limit|weak limit of finite-volume Gibbs measures]].
 
-## Physical interpretation
+## Interpretation
 
 The expansion organizes thermodynamics by *interaction clusters*: a cluster term represents a small group of degrees of freedom whose interactions cannot be factorized into independent pieces. Disconnected collections factorize in $Z_\Lambda$ but cancel in $\log Z_\Lambda$, leaving only genuinely collective contributions.
 

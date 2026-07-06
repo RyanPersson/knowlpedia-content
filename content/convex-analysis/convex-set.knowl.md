@@ -15,10 +15,9 @@ $$
 
 **Context.** Equivalently, $\Omega$ is convex iff it contains every [[convex-analysis/line-segments-in-a-vector-space|line segment]] joining any two of its points. Convexity is the core geometric notion underlying convex analysis and optimization.
 
-**Examples:**
+## Examples
+
 - Any affine subspace of $\mathbb{R}^n$ (e.g., a line or plane) is convex.
 - Any ball $\{x:\|x-x_0\|\le r\}$ in a normed space is convex.
 - A halfspace $\{x\in\mathbb{R}^n:\langle a,x\rangle\le b\}$ is convex.
-
-**Non-example.**
 - The annulus $\{x\in\mathbb{R}^2:1<\|x\|<2\}$ is not convex: a segment between two points may pass through the "hole."

@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/exact-differential-criterion.md"
 +++
 
-## Statement
 Let $D\subset\mathbb R^2$ be an open, simply connected domain and let $M,N\in C^1(D)$. Consider the $1$-form
 $$
 \omega = M(x,y)\,dx + N(x,y)\,dy.

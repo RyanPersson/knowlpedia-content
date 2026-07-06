@@ -19,4 +19,6 @@ It induces an action on states by pullback:
 **Key property (paper use):**
 - \(E\sim \theta^*(T)E\) holds exactly when \(T\) is unitarily implementable in the chosen quantization.
 
-**Example:** In finite dimensions, metaplectic operators implement \(\theta(T)\) projectively.
+## Examples
+
+- In finite dimensions, metaplectic operators implement \(\theta(T)\) projectively.

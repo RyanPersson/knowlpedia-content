@@ -16,4 +16,6 @@ For \(x_1,\dots,x_n\in H\), the **symmetric tensor**
 **Key property (paper use):**
 - These generate the symmetric Fock space [[shale-paper/symmetric-fock-space|S(H)]] used for Fock–Cook quantization.
 
-**Example:** For \(n=2\), \((x\otimes y)_s=\tfrac12(x\otimes y+y\otimes x)\).
+## Examples
+
+- For \(n=2\), \((x\otimes y)_s=\tfrac12(x\otimes y+y\otimes x)\).

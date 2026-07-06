@@ -43,7 +43,7 @@ $$
 
 This statistical-mechanical $\Omega$ corresponds to the thermodynamic [[thermodynamics/grand-potential|grand potential]] and is related to the Helmholtz free energy by the Legendre construction [[stat-mech/construction-legendre-f-to-omega|Legendre transform from $F$ to $\Omega$]].
 
-## Physical interpretation
+## Interpretation
 
 - The factor $e^{\beta\mu N}$ rewards or suppresses sectors with different particle number, depending on $\mu$; it implements exchange with a particle reservoir at chemical potential $\mu$.
 - The sum over $N$ turns fixed-$N$ canonical physics into variable-$N$ grand canonical physics, and $\log \Xi$ acts as the generating function for particle-number statistics (see [[stat-mech/construction-observables-from-log-z|observables from derivatives of log-partition functions]]).

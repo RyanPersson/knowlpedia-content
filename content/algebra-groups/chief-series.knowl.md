@@ -18,7 +18,8 @@ such that:
 
 Equivalently, each factor [[algebra-groups/quotient-group|quotient group]] $N_i/N_{i-1}$ is a **minimal normal subgroup** of $G/N_{i-1}$ (meaning it is nontrivial and contains no proper nontrivial normal subgroup of $G/N_{i-1}$). Chief series are related to refinement theorems such as the [[algebra-groups/schreier-refinement-theorem|Schreier refinement theorem]] and connect to composition factors (though chief factors need not be [[algebra-groups/simple-group|simple]]).
 
-**Examples:**
+## Examples
+
 - In $S_3$, the only nontrivial proper normal subgroup is $A_3$, so $\{e\}\lhd A_3\lhd S_3$ is a chief series.
 - In $A_4$, the Klein four subgroup $V_4$ is normal and there is no nontrivial normal subgroup properly contained in $V_4$, so $\{e\}\lhd V_4\lhd A_4$ is a chief series.
 - If $G$ is simple and nontrivial, then $\{e\}\lhd G$ is a chief series (there are no intermediate normal subgroups).

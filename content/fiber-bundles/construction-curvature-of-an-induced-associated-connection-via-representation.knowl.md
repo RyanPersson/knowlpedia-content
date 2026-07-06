@@ -17,6 +17,8 @@ Let $P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [
   F_V = \rho_*(F)\in \Omega^2(U;\mathrm{End}(V)).
   \]
 
+## Equivalent characterizations
+
 Equivalently, for any section $s$ of $E$,
 \[
 \nabla^2 s = \rho_*(F)\,s

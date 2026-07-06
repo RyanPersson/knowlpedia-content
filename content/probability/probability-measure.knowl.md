@@ -12,6 +12,7 @@ A **probability measure** is a function $\mathbb{P}:\mathcal{F}\to[0,1]$ defined
 
 A probability measure is a special case of a [[measure-theory/measure|measure]] and is the key ingredient in a [[probability/probability-space|probability space]]; it assigns [[probability/event-probability|probabilities to events]] (measurable sets).
 
-**Examples:**
+## Examples
+
 - If $\Omega=\{1,2,\dots,n\}$ and $\mathcal{F}=2^\Omega$, the uniform probability measure is $\mathbb{P}(A)=|A|/n$.
 - If $\Omega=[0,1]$, $\mathcal{F}$ is the Borel $\sigma$-algebra, and $\lambda$ is [[measure-theory/lebesgue-measure|Lebesgue measure]], then $\mathbb{P}(A)=\lambda(A)$ defines the uniform probability measure on $[0,1]$.

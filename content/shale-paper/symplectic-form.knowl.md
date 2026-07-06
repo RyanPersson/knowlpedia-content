@@ -15,4 +15,6 @@ A **symplectic form** on a real vector space \(K\) is a bilinear form \(B:K\time
 - Defines the Weyl phase \(e^{-iB(z_1,z_2)/2}\) in the [[shale-paper/weyl-ccr-quantization|Weyl CCR]].
 - Symplectic operators satisfy \(B(Tx,Ty)=B(x,y)\).
 
-**Example:** On \(\mathbb R^{2n}\), \(B((p,q),(p',q'))=p\cdot q'-q\cdot p'\).
+## Examples
+
+- On \(\mathbb R^{2n}\), \(B((p,q),(p',q'))=p\cdot q'-q\cdot p'\).

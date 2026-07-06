@@ -79,5 +79,5 @@ $$
 - $S$, $P$, $V$, $N$, and $\mu$ are partial derivatives of a single potential in natural variables.
 - Maxwell relations provide measurable identities between derivatives (often turning difficult entropy derivatives into accessible pressure/volume derivatives).
 
-## significance
+## Remarks
 Differentiate the fundamental identity for $U(S,V,N)$ and apply the defining Legendre transforms to obtain $F$, $G$, and $\Omega$. The displayed differential forms follow by direct differentiation. Maxwell relations then come from commuting mixed partial derivatives (see [[stat-mech/prop-maxwell-from-mixed-partials|Maxwell relations from mixed partials]]). These identities are the primary computational bridge between different experimentally accessible response functions.

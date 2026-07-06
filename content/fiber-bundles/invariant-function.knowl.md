@@ -14,6 +14,9 @@ A smooth function $f:M\to \mathbb{R}$ is **$G$-invariant** if
 \[
 f(g\cdot x)=f(x)\qquad\text{for all }g\in G,\ x\in M.
 \]
+
+## Equivalent characterizations
+
 Equivalently, $f$ is constant on each [[fiber-bundles/orbit-of-a-group-action|orbit]]. In that case, $f$ factors uniquely through the quotient map $\pi:M\to $ as a function $\bar f:M/G\to \mathbb{R}$ with $f=\bar f\circ \pi$.
 
 ## Examples

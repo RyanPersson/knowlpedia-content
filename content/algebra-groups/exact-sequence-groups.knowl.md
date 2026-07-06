@@ -29,7 +29,8 @@ which encodes that $\iota$ is injective, $\pi$ is surjective, and $N\cong \ker(\
 
 Exact sequences package common situations in a "coordinate-free" way; for example, the [[algebra-groups/first-isomorphism-theorem-groups|first isomorphism theorem]] can be read as saying every homomorphism fits into a natural short exact sequence.
 
-**Examples:**
+## Examples
+
 - For any homomorphism $\varphi:G\to H$, the sequence $1\to \ker(\varphi)\to G\to \operatorname{im}(\varphi)\to 1$ is short exact.
 - The quotient map $G\to G/N$ fits into $1\to N\to G\to G/N\to 1$ when $N$ is normal.
 - The sequence $\mathbb{Z}\xrightarrow{\times n}\mathbb{Z}\to \mathbb{Z}/n\mathbb{Z}\to 0$ is exact (interpreting $0$ as the trivial group in additive notation).

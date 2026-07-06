@@ -19,15 +19,18 @@ A differential $k$-form $\alpha\in\Omega^k(P)$ is **horizontal** if, for every $
 \alpha_p(v_1,\dots,v_k)=0
 \quad\text{whenever at least one }v_i\in V_p.
 \]
+
+Horizontality is only a condition relative to the vertical distribution; it does not require choosing a [[fiber-bundles/horizontal-distribution|horizontal distribution]]. However, once a connection is chosen, horizontal forms can be evaluated on horizontal lifts of tangent vectors (compare [[fiber-bundles/horizontal-lift-of-a-tangent-vector|horizontal lift]]).
+
+A form on $P$ is [[fiber-bundles/basic-differential-form-on-a-principal-bundle|basic]] exactly when it is horizontal and $G$-invariant (see [[fiber-bundles/invariant-differential-form|invariant differential form]]). Basic forms are precisely pullbacks of forms on $M$.
+
+## Equivalent characterizations
+
 Equivalently, $\alpha$ is horizontal if
 \[
 \iota_{X^\#}\alpha = 0\quad\text{for every }X\in\mathfrak g,
 \]
 where $X^\#$ is the [[fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action|fundamental vector field]] determined by the right principal action.
-
-Horizontality is only a condition relative to the vertical distribution; it does not require choosing a [[fiber-bundles/horizontal-distribution|horizontal distribution]]. However, once a connection is chosen, horizontal forms can be evaluated on horizontal lifts of tangent vectors (compare [[fiber-bundles/horizontal-lift-of-a-tangent-vector|horizontal lift]]).
-
-A form on $P$ is [[fiber-bundles/basic-differential-form-on-a-principal-bundle|basic]] exactly when it is horizontal and $G$-invariant (see [[fiber-bundles/invariant-differential-form|invariant differential form]]). Basic forms are precisely pullbacks of forms on $M$.
 
 ## Examples
 1. **Pullbacks from the base are horizontal.**  

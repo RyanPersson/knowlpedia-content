@@ -18,7 +18,8 @@ There are several standard equivalent characterizations (assuming \(K/F\) is alg
 
 Splitting fields are normal (see [[algebra-fields-galois/normality-splitting-field|normality of splitting fields]]). A normal extension need not be [[algebra-fields-galois/separable-extension|separable]]; when it is both normal and separable, it is [[algebra-fields-galois/galois-extension|Galois]].
 
-**Examples.**
+## Examples
+
 1. \(\mathbb{Q}(\sqrt2)/\mathbb{Q}\) is normal: it is the splitting field of \(x^2-2\).
 2. \(\mathbb{Q}(\sqrt[3]{2})/\mathbb{Q}\) is not normal: the irreducible polynomial \(x^3-2\) has one root \(\sqrt[3]{2}\) in \(\mathbb{Q}(\sqrt[3]{2})\), but its other roots \(\zeta_3\sqrt[3]{2}\) and \(\zeta_3^2\sqrt[3]{2}\) are not in that field.
 3. For finite fields, \(\mathbb{F}_{p^n}/\mathbb{F}_p\) is normal: it is the splitting field of \(x^{p^n}-x\) over \(\mathbb{F}_p\).

@@ -16,6 +16,7 @@ R=\bigoplus_{n\in \mathbb Z} R_n
 
 Graded rings organize algebra by “degree” and are the ambient objects for [[algebra-modules/graded-module|graded modules]]; a fundamental source is the [[algebra-modules/associated-graded-ring|associated graded ring]] of a filtration.
 
-**Examples:**
+## Examples
+
 - The [[algebra-rings/polynomial-ring|polynomial ring]] \(k[x_1,\dots,x_n]\) is \(\mathbb N\)-graded by total degree, with \(R_d\) the homogeneous polynomials of degree \(d\).
 - If \(R\) has an ideal-adic filtration, the associated graded ring \(\bigoplus_{n\ge 0} I^n/I^{n+1}\) is naturally graded.

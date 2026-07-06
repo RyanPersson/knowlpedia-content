@@ -29,6 +29,8 @@ The principal connection $\omega$ induces a unique Ehresmann connection on $E\to
 2. (**Parallel transport description**)  
    The principal connection defines parallel transport in $P$ (see [[fiber-bundles/construction-parallel-transport-map-along-a-curve|parallel transport along a curve]] and [[fiber-bundles/parallel-transport|parallel transport]]). Transporting $(p,f)\in P\times F$ by transporting $p$ horizontally and keeping $f$ fixed produces a well-defined transport in $E$, which is exactly the induced connection.
 
+## Remarks
+
 If $F=V$ is a vector space and the $G$-action comes from a representation $\rho:G\to \mathrm{GL}(V)$, then $E=P\times_\rho V$ is an [[fiber-bundles/associated-vector-bundle|associated vector bundle]], and the induced Ehresmann connection is equivalent to a vector bundle connection $\nabla$ on $E$ (compare [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]]). One concrete formulation is that $\nabla$ acts on sections via the covariant derivative obtained from horizontal lifts, as in [[fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections|the induced covariant derivative on associated sections]].
 
 Moreover, the curvature of the induced connection is obtained by applying the representation to the principal curvature (see [[fiber-bundles/curvature-2-form-of-a-principal-connection|principal curvature]] and [[fiber-bundles/construction-curvature-of-an-induced-associated-connection-via-representation|curvature of induced associated connections]]).

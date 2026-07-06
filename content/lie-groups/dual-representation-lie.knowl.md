@@ -27,5 +27,5 @@ In matrix form, $\pi^*(X) = -\,\pi(X)^{\mathsf T}$.
 
 These definitions are compatible under differentiation: if $\pi=d\rho_e$ (see [[lie-groups/differential-is-lie-algebra-homomorphism|differentiation of a group homomorphism]]), then $d(\rho^*)_e=\pi^*$.
 
-## Context
+## Remarks
 Duals interact naturally with other constructions such as [[lie-groups/tensor-product-of-representations-lie|tensor products]]. In highest-weight theory, dualizing typically negates weights (compare [[lie-groups/weight-of-a-representation|weights]] and [[lie-groups/weights-in-dual-cartan|weights in the dual Cartan]]).

@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/pressure-identity-canonical.md"
 +++
 
-## Statement
 For a system in the [[stat-mech/canonical-ensemble|canonical ensemble]] at inverse temperature $\beta$, with canonical partition function [[stat-mech/partition-function-canonical|Z(β,V)]] depending on the volume parameter $V$, define the Helmholtz free energy
 $F(\beta,V)=-(1/\beta)\log Z(\beta,V)$.
 
@@ -27,7 +26,7 @@ $$
 - Pressure is a logarithmic derivative of the canonical partition function with respect to volume.
 - Equivalently, pressure is the negative volume derivative of the Helmholtz free energy.
 
-## Cross-links to definitions
+## Remarks
 - [[thermodynamics/pressure-thermo|Thermodynamic pressure]]
 - [[thermodynamics/helmholtz-free-energy|Helmholtz free energy]]
 - [[stat-mech/partition-function-canonical|Canonical partition function]]

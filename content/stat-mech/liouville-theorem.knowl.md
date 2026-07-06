@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/liouville-theorem.md"
 +++
 
-## Statement
 Let $\Gamma$ be the classical [[stat-mech/phase-space-classical|phase space]] with canonical coordinates $(q,p)$ and let $H(q,p)$ be a smooth [[stat-mech/hamiltonian-function-classical|Hamiltonian function]] generating Hamilton’s equations:
 $$
 \dot q = \frac{\partial H}{\partial p},\qquad

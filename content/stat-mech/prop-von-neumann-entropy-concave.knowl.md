@@ -11,7 +11,6 @@ legacy_source_path = "stat-mech/prop-von-neumann-entropy-concave.md"
 Let $\rho$ be a [[quantum-foundations/density-operator|density operator]] on a finite-dimensional Hilbert space. Its [[quantum-foundations/von-neumann-entropy|von Neumann entropy]] is
 $S(\rho) = -\mathrm{Tr}(\rho \log \rho)$.
 
-## Statement
 For any density operators $\rho_1,\dots,\rho_n$ and any probabilities $p_1,\dots,p_n$ with $\sum_i p_i = 1$, define the mixture
 $\bar\rho = \sum_{i=1}^n p_i \rho_i$.
 Then

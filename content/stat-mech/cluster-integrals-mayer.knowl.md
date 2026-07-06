@@ -108,7 +108,7 @@ $$
 
 Rigorous results typically prove that the series for $\log \Xi$ converges for sufficiently small $|z|$ under stability and regularity assumptions on the interaction. This is the content of [[stat-mech/cluster-expansion-theorem|cluster expansion theorems]], and it underlies analytic control of [[stat-mech/virial-expansion-convergence|virial expansion convergence]].
 
-## Prerequisites
+## Remarks
 
 - [[stat-mech/canonical-ensemble|Canonical ensemble (background on partition functions)]]
 - [[stat-mech/partition-function-canonical|Canonical partition function]]

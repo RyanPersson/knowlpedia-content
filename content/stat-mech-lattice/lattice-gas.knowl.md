@@ -28,7 +28,7 @@ $$
 
 normalized by the [[stat-mech-lattice/partition-function-lattice|partition function]]. The associated [[stat-mech-lattice/pressure-lattice|pressure]] is typically defined from $\frac{1}{|\Lambda|}\log Z_\Lambda$ (and its infinite-volume limit by [[stat-mech-lattice/thermodynamic-limit-pressure-lattice|thermodynamic limit of the pressure]]).
 
-## Key properties
+## Properties
 
 - **Density as the main observable.** The natural order parameter is the particle density
   $$
@@ -51,7 +51,7 @@ normalized by the [[stat-mech-lattice/partition-function-lattice|partition funct
 
 - **Boundary conditions and phase separation.** Different [[stat-mech-lattice/boundary-condition-lattice|boundary conditions]] can select low-density (“gas”) or high-density (“liquid”) phases in finite volume, and interfaces/domain walls appear in mixed boundary conditions.
 
-## Physical interpretation
+## Interpretation
 
 The lattice gas is a coarse-grained model of a **fluid on discrete sites**, useful for:
 - gas–liquid coexistence and criticality,

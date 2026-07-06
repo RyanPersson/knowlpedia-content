@@ -14,8 +14,11 @@ S(f)=\sum_j f(\xi_j)\,\operatorname{vol}(R_j)
 \]
 satisfies $|S(f)-I|<\varepsilon$. In this case one writes $\int_R f = I$.
 
+## Remarks
+
 This extends the one-variable [[real-analysis/riemann-integral|Riemann integral]] by using partitions built from products of [[real-analysis/partition-of-an-interval|partitions of intervals]] (a product rectangle is a [[shared-foundations/cartesian-product|Cartesian product]] of intervals). The link with [[real-analysis/iterated-integral|iterated integrals]] is made precise by the [[real-analysis/fubini-theorem-riemann|Riemann–Fubini theorem]] under appropriate hypotheses.
 
-**Examples:**
+## Examples
+
 - If $f(x)\equiv c$ on $R$, then $\int_R f = c\,\operatorname{vol}(R)$.
 - On $R=[-1,1]^n$, the function $f(x)=\mathbf{1}_{\{x_1>0\}}$ is Riemann integrable and $\int_R f = 2^{n-1}$ (the discontinuities lie on the hyperplane $x_1=0$).

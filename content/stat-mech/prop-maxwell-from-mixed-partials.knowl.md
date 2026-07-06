@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/prop-maxwell-from-mixed-partials.md"
 +++
 
-## Statement
-
 Let $\Phi(x_1,\dots,x_n)$ be a thermodynamic potential expressed in its natural variables (e.g. $\Phi=F(T,V,N)$, $G(T,P,N)$, or $\Omega(T,V,\mu)$). Assume $\Phi$ is $C^2$ (twice continuously differentiable) in those variables.
 
 If the differential has the form
@@ -74,7 +72,7 @@ These are Maxwell relations (see [[thermodynamics/maxwell-relation|Maxwell relat
 - Each Maxwell relation is an instance of $\partial^2\Phi/\partial x_i\partial x_j = \partial^2\Phi/\partial x_j\partial x_i$ after substituting the derivative definitions of the conjugate variables.
 - Practically, these relations convert difficult-to-measure derivatives (e.g. derivatives of entropy) into derivatives of more accessible quantities (e.g. pressure–temperature slopes).
 
-## Cross-links to definitions
+## Remarks
 
 - [[thermodynamics/maxwell-relation|Maxwell relation]]
 - [[thermodynamics/helmholtz-free-energy|Helmholtz free energy]], [[thermodynamics/gibbs-free-energy|Gibbs free energy]], [[thermodynamics/grand-potential|grand potential]]

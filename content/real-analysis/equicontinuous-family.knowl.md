@@ -15,6 +15,7 @@ d_X(x,x_0)<\delta \implies d_Y\bigl(f(x),f(x_0)\bigr)<\varepsilon.
 
 Equicontinuity provides uniform control of continuity across the family and is a key hypothesis (together with [[real-analysis/pointwise-bounded-family|pointwise boundedness]]) in the [[real-analysis/arzela-ascoli-theorem|Arzelà–Ascoli theorem]] for subsets of [[real-analysis/space-of-continuous-functions|spaces of continuous functions]] equipped with the [[real-analysis/uniform-metric|uniform metric]].
 
-**Examples:**
+## Examples
+
 - Any family of Lipschitz functions with a common Lipschitz constant is equicontinuous; for instance, $f_a(x)=\sin(x+a)$ for $a\in\mathbb{R}$ is equicontinuous on $\mathbb{R}$.
 - On $[0,1]$, the sequence $f_n(x)=x^n$ is not an equicontinuous family (the behavior near $x=1$ prevents a uniform choice of $\delta$).

@@ -28,7 +28,7 @@ $$
 
 In the language of quantum states, $\rho_\beta$ is a thermal [[stat-mech-quantum/density-operator-state|density-operator state]] (compare [[quantum-foundations/density-operator|density operator]]).
 
-## Physical interpretation
+## Interpretation
 
 The Gibbs state describes **thermal equilibrium** ([[thermodynamics/thermodynamic-equilibrium|thermodynamic equilibrium]]) for a system weakly coupled to a heat bath at temperature $T = (k_B\beta)^{-1}$ (see [[thermodynamics/boltzmann-constant|Boltzmann constant]] and [[thermodynamics/temperature-thermo|temperature]]).
 
@@ -39,7 +39,7 @@ $$
 
 so $\rho_\beta$ assigns the familiar Boltzmann probabilities to energy levels.
 
-## Key properties
+## Properties
 
 1. **Positivity and normalization.**  
    $\rho_\beta$ is positive semidefinite and $\operatorname{Tr}(\rho_\beta)=1$, hence it is a valid quantum state ([[stat-mech-quantum/density-operator-state|density operator state]]).

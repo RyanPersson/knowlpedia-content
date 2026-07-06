@@ -17,6 +17,8 @@ The Lie algebra $\mathfrak g$ is **reductive**: it decomposes as a direct sum of
 \]
 where $Z(\mathfrak g)$ is the [[lie-groups/center-of-a-lie-algebra|center]] (an abelian ideal, compare [[lie-groups/abelian-lie-algebra|abelian Lie algebras]]) and $[\mathfrak g,\mathfrak g]$ is semisimple (see [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]]). In particular, $[\mathfrak g,\mathfrak g]$ has nondegenerate Killing form, while the Killing form of $\mathfrak g$ is negative semidefinite with kernel $Z(\mathfrak g)$ (compare [[lie-groups/killing-form|Killing form]] and [[lie-groups/killing-form-nondegenerate-iff-semisimple|nondegeneracy vs semisimplicity]]).
 
+## Remarks
+
 **Idea of proof.**  
 Compactness gives an $\mathrm{Ad}(G)$-invariant inner product on $\mathfrak g$ by averaging any inner product over $G$; equivalently, compact $G$ admits a [[lie-groups/compact-lie-group-bi-invariant-metric|bi-invariant metric]]. With such an inner product, $\mathrm{ad}_x$ is skew-adjoint for all $x$, forcing strong structural constraints that split off the center and make the derived ideal semisimple.
 

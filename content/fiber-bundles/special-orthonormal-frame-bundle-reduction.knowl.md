@@ -15,6 +15,7 @@ Let $\pi:E\to M$ be a real vector bundle of rank $n$ over a [[fiber-bundles/smoo
 
 The right action of the group $\mathrm{O}(n)$ on $\mathrm{O}(E)$ restricts to a free right action of the special orthogonal group $\mathrm{SO}(n)$, which is a [[fiber-bundles/lie-group|Lie group]]. With this action, $\mathrm{SO}(E)\to M$ is a principal bundle with structure group $\mathrm{SO}(n)$.
 
+## Equivalent characterizations
 Equivalently, $\mathrm{SO}(E)$ is the reduction of the full frame bundle to $\mathrm{SO}(n)$ determined jointly by the metric and the orientation.
 
 ## Examples
@@ -23,3 +24,4 @@ Equivalently, $\mathrm{SO}(E)$ is the reduction of the full frame bundle to $\ma
 2. **Trivial oriented bundle.** For $E=M\times\mathbb R^n$ with the standard metric and the standard orientation, $\mathrm{SO}(E)\cong M\times \mathrm{SO}(n)$.
 
 3. **Rank-one case.** If $n=1$, then $\mathrm{SO}(1)=\{1\}$, and $\mathrm{SO}(E)\to M$ is canonically isomorphic to $M$ whenever $E$ is oriented and metrized (there is a unique oriented unit vector in each fiber).
+

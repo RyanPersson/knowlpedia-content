@@ -14,9 +14,12 @@ Let $R$ be a commutative ring with $1$. The **Laurent polynomial ring** $R[x,x^{
 \]
 with the obvious addition and multiplication extending those of [[algebra-rings/polynomial-ring|polynomial rings]].
 
+## Remarks
+
 This is the result of adjoining an inverse to the indeterminate: $x$ becomes a [[algebra-rings/unit|unit]] in $R[x,x^{-1}]$. Laurent polynomial rings are basic examples of localizations and appear naturally in algebraic geometry and representation theory.
 
-**Examples:**
+## Examples
+
 - Over a field $k$, $k[t,t^{-1}]$ is the coordinate ring of the multiplicative group $k^\times$.
 - $\mathbb{Z}[q,q^{-1}]$ is the ring of Laurent polynomials in $q$ with integer coefficients.
 - The series $\sum_{n\ge 0} x^{-n}$ is not a Laurent polynomial (it has infinitely many negative-degree terms).

@@ -10,9 +10,9 @@ legacy_source_path = "fiber-bundles/existence-of-principal-connections-on-smooth
 
 Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group $G$.
 
-## Theorem
-
 There exists at least one [[fiber-bundles/principal-connection|principal connection]] on $P$.
+
+## Equivalent characterizations
 
 Equivalently: every principal bundle over a smooth manifold admits a $G$-equivariant horizontal distribution $H\subset TP$ complementary to the vertical subbundle.
 

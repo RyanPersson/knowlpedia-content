@@ -14,8 +14,11 @@ A \subseteq \bigcup_{k=1}^n B(x_k,\varepsilon),
 \]
 where $B(x_k,\varepsilon)$ is the [[topology/open-ball|open ball]] of radius $\varepsilon$ around $x_k$.
 
+## Remarks
+
 Total boundedness is equivalent to the existence of finite [[topology/epsilon-net|epsilon-nets]] at every scale, and (together with [[topology/complete-metric-space|completeness]]) it characterizes [[topology/compact-set|compactness]] in metric spaces.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$ with the usual metric, the interval $[0,1]$ is totally bounded.
 - The set of integers $\mathbb{Z}\subseteq\mathbb{R}$ (usual metric) is not totally bounded.

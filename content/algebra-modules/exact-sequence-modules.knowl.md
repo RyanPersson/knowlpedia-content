@@ -16,7 +16,8 @@ such that for every $i$ one has $\operatorname{im}(d_{i-1})=\ker(d_i)$, where th
 
 Exact sequences package algebraic information: injectivity, surjectivity, quotients, and splitting phenomena are all phrased as exactness conditions.
 
-**Examples:**
+## Examples
+
 - For a submodule $N\le M$, the sequence $0\to N\to M\to M/N\to 0$ is exact.
 - The sequence $0\to \mathbb Z \xrightarrow{\times n} \mathbb Z \to \mathbb Z/n\mathbb Z \to 0$ is exact for $n\ne 0$.
 - (Edge case) The sequence $M\xrightarrow{\mathrm{id}} M\to 0$ is exact, but $0\to M\xrightarrow{0} M$ is not exact unless $M=0$.

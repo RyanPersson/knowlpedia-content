@@ -16,7 +16,8 @@ $
 
 Equivalently, $G$ is nilpotent iff its [[algebra-groups/upper-central-series|upper central series]] reaches $G$ in finitely many steps; in particular, nilpotent groups have large [[algebra-groups/center-of-group|centers]] and are always [[algebra-groups/solvable-group|solvable]].
 
-**Examples:**
+## Examples
+
 - Every abelian group is nilpotent (of class $1$).
 - Every finite [[algebra-groups/p-group|p-group]] is nilpotent.
 - The dihedral group of order $8$ and the quaternion group $Q_8$ are nilpotent.

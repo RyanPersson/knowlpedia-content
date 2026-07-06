@@ -18,4 +18,6 @@ Sp(K)=\{T\in GL(K): B(Tx,Ty)=B(x,y)\ \forall x,y\in K\}.
 - Acts by *-automorphisms on Weyl operators: \(V(z)\mapsto V(Tz)\).
 - Only a subgroup is unitarily implementable in Fock space ([[shale-paper/restricted-symplectic-group-rspk|rSp(K)]]).
 
-**Example:** \(Sp(\mathbb R^{2n})\) is the classical real symplectic group.
+## Examples
+
+- \(Sp(\mathbb R^{2n})\) is the classical real symplectic group.

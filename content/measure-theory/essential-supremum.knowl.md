@@ -17,6 +17,7 @@ Equivalently, $\operatorname*{ess\,sup} f$ is the [[real-analysis/infimum|infimu
 
 Unlike the pointwise [[real-analysis/supremum|supremum]], the essential supremum is unchanged if $f$ is modified on a null set; in particular it depends only on the [[measure-theory/ae-equality|a.e. equivalence class]] of $f$. This notion is used to define the $p=\infty$ case of the [[measure-theory/lp-norm|$L^p$ norm]].
 
-**Examples:**
+## Examples
+
 - On $([0,1],\mathcal{B},\lambda)$, for $f(x)=x$ one has $\operatorname*{ess\,sup} f=1$.
 - On the same space, if $f(0)=1$ and $f(x)=0$ for $x\in(0,1]$, then $\sup f=1$ but $\operatorname*{ess\,sup} f=0$ since the exceptional point $\{0\}$ is a [[measure-theory/null-set|null set]].

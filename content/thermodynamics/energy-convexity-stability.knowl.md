@@ -18,6 +18,8 @@ $$
 
 Here $\lambda X_1+(1-\lambda)X_2$ denotes the extensive variables obtained by taking weighted totals (the natural operation for composing macroscopic subsystems).
 
+## Remarks
+
 **Physical interpretation.** Energy convexity is a **stability** statement: at fixed total extensive variables, a system cannot lower its energy by splitting into two macroscopic regions (“phase separation”) with different local values of $(S,V,N,\dots)$. If convexity fails, the system can reduce $U$ by separating into distinct macrostates, signaling instability of a homogeneous equilibrium. This criterion is one of the standard formulations of [[thermodynamics/thermodynamic-stability|thermodynamic stability]].
 
 **Equivalent stability formulation.** Energy convexity is equivalent (under mild regularity assumptions) to [[thermodynamics/entropy-concavity-stability|concavity of the entropy representation]] $S=S(U,V,N,\dots)$. These are the same stability content viewed in two Legendre-dual coordinate choices.

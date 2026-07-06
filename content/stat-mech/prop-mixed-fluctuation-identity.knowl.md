@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/prop-mixed-fluctuation-identity.md"
 +++
 
-## Statement
 In the [[stat-mech/grand-canonical-ensemble|grand canonical ensemble]] with density proportional to $\exp(-\beta(H-\mu N))$, the following differentiation identities hold for any observable $A$ (when justified):
 $$
 \frac{\partial}{\partial \mu}\langle A\rangle \;=\; \beta\,\mathrm{Cov}(A,N),

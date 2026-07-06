@@ -14,7 +14,8 @@ For every group $G$ and every [[shared-foundations/function|function]] $f:S\to G
 
 Concretely, elements of $F(S)$ can be represented by reduced words in symbols from $S$ and their formal inverses. Free groups are the starting point for [[algebra-groups/group-presentation|group presentations]]: adding relations corresponds to taking a quotient.
 
-**Examples:**
+## Examples
+
 - The free group on one generator is isomorphic to $\mathbb{Z}$ (send the generator to $1$).
 - The free group on two generators has elements represented by reduced words in $a^{\pm1},b^{\pm1}$ (e.g. $ab^{-1}a^{-1}b$).
 - If $S=\varnothing$, then $F(S)$ is the trivial group.

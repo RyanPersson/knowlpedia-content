@@ -26,7 +26,7 @@ $$
 
 so that $p_\Lambda(\beta,\tau) = -\beta\,\frac{F_\Lambda(\beta,\tau)}{|\Lambda|}$, matching the statistical-mechanics notion of [[stat-mech/free-energy-statistical|free energy]] and the thermodynamic [[thermodynamics/helmholtz-free-energy|Helmholtz free energy]] (up to conventions and units).
 
-## Key properties
+## Properties
 
 - **Intensive quantity.** $p_\Lambda$ is normalized per site and is therefore the natural quantity to send to the [[stat-mech-lattice/thermodynamic-limit-pressure-lattice|thermodynamic limit]].
 
@@ -36,6 +36,6 @@ so that $p_\Lambda(\beta,\tau) = -\beta\,\frac{F_\Lambda(\beta,\tau)}{|\Lambda|}
 
 - **Derivatives give observables.** If the Hamiltonian includes an external field term (see [[stat-mech-lattice/external-field-coupling|external field coupling]]), then derivatives of $p_\Lambda$ with respect to that field give magnetization density and susceptibilities (see [[stat-mech/susceptibility-stat-mech|susceptibility]]).
 
-## Physical interpretation
+## Interpretation
 
 $p_\Lambda$ is the free-energy density in units of $k_B T$ (see [[thermodynamics/boltzmann-constant|Boltzmann constant]] and [[thermodynamics/temperature-thermo|temperature]]): it encodes the competition between energy minimization and entropy maximization in a finite region. Non-smooth behavior of its infinite-volume limit is a key diagnostic of [[stat-mech-lattice/phase-transition-gibbs|phase transitions]].

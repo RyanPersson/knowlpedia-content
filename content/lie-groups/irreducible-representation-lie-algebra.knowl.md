@@ -15,5 +15,7 @@ The representation $(\rho,V)$ is **irreducible** if the only $\mathfrak g$-invar
 
 A subspace $W\subseteq V$ is $\mathfrak g$-invariant precisely when $\rho(x)W\subseteq W$ for all $x\in\mathfrak g$; such a $W$ is a [[lie-groups/subrepresentation-lie-algebra|subrepresentation]].
 
+## Remarks
+
 **Context.**  
 Irreducibles are the building blocks for representation theory. For semisimple $\mathfrak g$, every finite-dimensional representation is completely reducible (see [[lie-groups/weyls-theorem-complete-reducibility|Weyl's theorem]] and [[lie-groups/completely-reducible-representation-lie|complete reducibility]]), and irreducibles are classified by the [[lie-groups/highest-weight-theorem|highest-weight theorem]].

@@ -29,7 +29,8 @@ These operations produce subsets of $X$, and one always has $M+N=N+M$.
 
 These constructions are used throughout linear and convex analysis; for instance, sums of [[convex-analysis/linear-subspace|subspaces]] are defined using $M+N$, and Minkowski sums of sets are central in convexity.
 
-**Examples:**
+## Examples
+
 - In $X=\mathbb{R}$, if $M=[0,1]$ and $N=[2,4]$, then $M+N=[2,5]$.
 - In $X=\mathbb{R}^2$, if $M=\{(0,0)\}$ and $N$ is any set, then $M+N=N$.
 - If $M$ is a linear subspace, then $-M=M$ and $M-M=M$.

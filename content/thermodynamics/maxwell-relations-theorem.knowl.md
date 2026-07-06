@@ -8,8 +8,6 @@ domains = ["thermodynamics"]
 legacy_source_path = "thermodynamics/maxwell-relations-theorem.md"
 +++
 
-## Statement
-
 Let $\Phi=\Phi(x_1,\dots,x_n)$ be a thermodynamic potential expressed in its natural variables, and assume $\Phi$ is twice continuously differentiable. If its differential has the form
 $$
 d\Phi = \sum_{i=1}^n A_i\,dx_i,
@@ -58,7 +56,7 @@ For a simple one-component system (fixed particle number $N$) the standard therm
 - Mixed partial derivatives of potentials coincide, producing Maxwell relations.
 - Maxwell relations provide experimentally useful identities that connect hard-to-measure derivatives (often involving entropy) to easier ones (often involving pressure/volume/temperature).
 
-## Cross-links to definitions
+## Remarks
 
 Thermodynamic objects:
 - [[thermodynamics/internal-energy-thermo|internal energy]], [[thermodynamics/helmholtz-free-energy|Helmholtz free energy]], [[thermodynamics/gibbs-free-energy|Gibbs free energy]], [[thermodynamics/grand-potential|grand potential]].

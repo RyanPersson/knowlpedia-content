@@ -24,6 +24,7 @@ For a nonnegative [[measure-theory/measurable-function|measurable function]] $f:
 
 This is the starting point for the [[measure-theory/lebesgue-integral|Lebesgue integral]] of general real-valued functions, obtained by decomposing a function into its positive and negative parts.
 
-**Examples:**
+## Examples
+
 - If $E$ is a [[measure-theory/measurable-set|measurable set]], then $\int_X \mathbf{1}_E\,d\mu=\mu(E)$.
 - On $\mathbb R$ with [[measure-theory/lebesgue-measure|Lebesgue measure]], if $f(x)=x$ for $x$ in the [[real-analysis/interval|interval]] $[0,1]$ and $f(x)=0$ otherwise, then $\int_{\mathbb R} f\,dx=\tfrac12$.

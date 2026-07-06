@@ -1,0 +1,47 @@
+id = "algebra-groups/monoid"
+title = "Monoid"
+kind = "definition"
+summary = "A semigroup with an identity element"
+aliases = ["monoid"]
+domains = ["algebra-groups"]
+legacy_source_path = "algebra-groups/monoid.md"
+
+[core]
+source = "core.md"
+
+[[core.data]]
+id = "carrier"
+text = 'A semigroup $(M,\cdot)$.'
+refs = ["algebra-groups/semigroup"]
+
+[[core.data]]
+id = "identity"
+text = 'An identity element $e \in M$.'
+
+[[core.axioms]]
+id = "identity"
+text = 'For every $a \in M$, $e\cdot a = a$ and $a\cdot e = a$.'
+
+[[sections]]
+id = "examples"
+title = "Examples"
+kind = "examples"
+source = "examples.md"
+default_open = false
+
+[[sections]]
+id = "remarks"
+title = "Remarks"
+kind = "remarks"
+source = "remarks.md"
+default_open = false
+
+[[relations]]
+type = "special_case_of"
+target = "algebra-groups/semigroup"
+note = "A monoid is a semigroup with an identity element."
+
+[[relations]]
+type = "generalization_of"
+target = "algebra-groups/group"
+note = "A group is a monoid in which every element is invertible."

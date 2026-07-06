@@ -15,12 +15,12 @@ $\int_{\Gamma} \delta Q$ depends on the process path $\Gamma$, so heat is a [[th
 
 Throughout these knowls, the sign of $\delta Q$ is coordinated with the [[thermodynamics/work-sign-convention|work sign convention]]: $\delta Q>0$ means heat flows *into* the system.
 
-## Physical interpretation
+## Interpretation
 Heat is **not a “thing contained in the system”**; it is a bookkeeping label for one channel of energy transfer. Once energy has entered the system as heat, it contributes to changes in state variables such as [[thermodynamics/internal-energy-thermo|internal energy]] and [[thermodynamics/thermodynamic-entropy|entropy]], but the amount “heat contained” is not defined independent of the process.
 
 A [[thermodynamics/diathermal-wall|diathermal wall]] permits $\delta Q\neq 0$ (heat exchange), while an [[thermodynamics/adiabatic-wall|adiabatic wall]] enforces $\delta Q=0$.
 
-## Key relations
+## Remarks
 - **First law (closed system):** for a [[thermodynamics/closed-system|closed system]],
   $$
   dU = \delta Q - \delta W,

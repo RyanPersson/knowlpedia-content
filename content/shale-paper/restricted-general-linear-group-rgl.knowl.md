@@ -20,4 +20,6 @@ This group is exactly where the Gaussian measure in §3 is quasi-invariant.
 - Stable under [[shale-paper/polar-decomposition|polar decomposition]] \(T=u(T)|T|\).
 - Carries the "change-of-variables" unitary rep [[shale-paper/segal-unitary-representation-Ufrak|𝔘(T)]] on \(L_2(M,n)\).
 
-**Example:** In finite dimensions, \(rGL(H)=GL(H)\).
+## Examples
+
+- In finite dimensions, \(rGL(H)=GL(H)\).

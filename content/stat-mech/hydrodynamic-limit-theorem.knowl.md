@@ -8,7 +8,7 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/hydrodynamic-limit-theorem.md"
 +++
 
-## Prerequisites
+## Remarks
 
 - [[stat-mech/master-equation|master equation]]
 - [[stat-mech/markov-semigroup-continuous|continuous-time Markov semigroups]]

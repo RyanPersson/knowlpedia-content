@@ -22,7 +22,8 @@ $$
 
 a quotient [[algebra-groups/quotient-group|group]] measuring how far $G$ is from being abelian.
 
-**Examples:**
+## Examples
+
 - If $G$ is abelian, then $c_g=\mathrm{id}_G$ for all $g$, so $\operatorname{Inn}(G)$ is trivial.
 - In $S_3$, the center is trivial, so $\operatorname{Inn}(S_3)\cong S_3$.
 - Inner automorphisms are exactly the permutations of $G$ arising from the [[algebra-groups/conjugation-action|conjugation action]].

@@ -12,6 +12,7 @@ A **curve** in a [[topology/topological-space|topological space]] $X$ is a [[top
 
 A [[topology/path|path]] is a curve with domain $[0,1]$. Curves allow other parameter intervals, which is convenient for describing parametrizations and restrictions.
 
-**Examples:**
+## Examples
+
 - The map $\gamma(t)=(t,t^2)$ (for $t\in\mathbb{R}$) is a curve in $\mathbb{R}^2$ tracing a parabola.
 - If $\gamma\colon [0,2]\to X$ is continuous, then its restriction to $[0,1]$ is a curve (and in fact a path) in $X$.

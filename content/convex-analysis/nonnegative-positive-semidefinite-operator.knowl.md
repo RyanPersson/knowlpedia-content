@@ -15,6 +15,10 @@ $$
 \langle Ax,x\rangle\ge 0\quad \text{for all }x\in H.
 $$
 
-**Context.** Nonnegative operators correspond to convex quadratic forms. In finite dimensions, this matches the usual matrix notion of positive semidefiniteness.
+## Examples
 
-**Example.** If $A=B^\ast B$ for some linear operator $B$, then $\langle Ax,x\rangle=\langle Bx,Bx\rangle\ge 0$, so $A$ is nonnegative.
+- If $A=B^\ast B$ for some linear operator $B$, then $\langle Ax,x\rangle=\langle Bx,Bx\rangle\ge 0$, so $A$ is nonnegative.
+
+## Remarks
+
+**Context.** Nonnegative operators correspond to convex quadratic forms. In finite dimensions, this matches the usual matrix notion of positive semidefiniteness.

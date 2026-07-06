@@ -14,4 +14,6 @@ legacy_source_path = "algebra-rings/image-is-subring.md"
 \]
 is a subring of $S$. If $\varphi$ is unital, then $\operatorname{im}(\varphi)$ contains $1_S$.
 
+## Remarks
+
 Thus the [[algebra-rings/image-ring|image]] of a [[algebra-rings/ring-homomorphism|ring homomorphism]] naturally inherits the structure of a [[algebra-rings/subring|subring]] of the codomain, and in the [[algebra-rings/unital-ring|unital]] setting it is a unital subring. Combined with [[algebra-rings/kernel-is-ideal|the kernel–ideal property]], this yields [[algebra-rings/first-isomorphism-theorem-rings|the First Isomorphism Theorem]] identifying $R/\ker\varphi$ with $\operatorname{im}\varphi$.

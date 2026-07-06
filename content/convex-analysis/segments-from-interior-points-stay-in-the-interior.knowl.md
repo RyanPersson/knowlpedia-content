@@ -16,6 +16,8 @@ $$
 
 where $[a,b)$ is the half-open [[convex-analysis/line-segments-in-a-vector-space|segment]] from $a$ to $b$.
 
+## Remarks
+
 **Context.** This is a key geometric fact for convex sets: interior points "see" the whole set through interior segments. It underlies closure/interior relations for convex sets.
 
 **Proof idea.** Starting from a ball around $a$ contained in $\Omega$, use convexity and scaling properties of balls to build a ball around each point $\lambda a+(1-\lambda)b$ (with $\lambda\in(0,1]$) that still lies in $\Omega$.

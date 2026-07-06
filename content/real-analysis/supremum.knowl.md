@@ -14,6 +14,7 @@ A **supremum** of a nonempty set $A\subseteq\mathbb R$ that is [[real-analysis/b
 
 The supremum is the “least upper bound” and may exist even when $A$ has no [[real-analysis/maximum|maximum]]. The [[real-analysis/completeness-axiom|completeness axiom]] asserts that every nonempty bounded-above set of real numbers has a supremum.
 
-**Examples:**
+## Examples
+
 - If $A=(0,1)$, then $\sup A=1$.
 - If $A=\{1-\tfrac1n : n\in\mathbb N\}$, then $\sup A=1$ (even though $1\notin A$).

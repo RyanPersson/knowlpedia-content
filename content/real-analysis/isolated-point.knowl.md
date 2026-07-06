@@ -13,7 +13,8 @@ $$B(x,r)\cap A=\{x\}.$$
 
 Isolated points are the opposite of limit points: near an isolated point there are no other points of the set. Sets can have both isolated points and limit points.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$, every integer $n\in\mathbb{Z}$ is an isolated point of $\mathbb{Z}$ (take $r=1/2$).
 - In $\mathbb{R}$, $1$ is an isolated point of $\{1\}\cup\{1/n:n\in\mathbb{N}\}$.
 - In $\mathbb{R}$, no point of $(0,1)$ is isolated in $(0,1)$.

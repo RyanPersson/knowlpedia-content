@@ -58,5 +58,5 @@ $$
 \xi^{-1} = -\log\left|\frac{\lambda_1}{\lambda_0}\right|.
 $$
 
-## Physical interpretation
+## Interpretation
 The transfer matrix is a “propagator” that advances the system by one lattice step. Because $Z_N$ is governed by a largest eigenvalue, thermodynamic quantities in 1D with finite-range interactions are typically analytic in parameters for $T$ with strictly positive entries—one reason phase transitions are absent in many 1D short-range models.

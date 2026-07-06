@@ -21,5 +21,5 @@ d\theta + \frac12[\theta,\theta]=0,
 $$
 which is the [[lie-groups/maurer-cartan-equation|Maurer–Cartan equation]].
 
-## Context
+## Remarks
 This lemma is the workhorse behind computations with invariant forms and is the differential-geometric source of the Lie bracket, complementary to the flow-based viewpoint via [[lie-groups/one-parameter-subgroups-integral-curves|one-parameter subgroups as integral curves]].

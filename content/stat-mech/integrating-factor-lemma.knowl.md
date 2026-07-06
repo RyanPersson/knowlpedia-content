@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/integrating-factor-lemma.md"
 +++
 
-## Statement
 Let $D\subset\mathbb R^2$ be an open domain and let $M,N\in C^1(D)$. Consider the $1$-form
 $$
 \omega = M(x,y)\,dx + N(x,y)\,dy.

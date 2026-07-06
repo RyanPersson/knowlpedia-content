@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/griffiths-inequalities.md"
 +++
 
-## Statement
-
 Let $\Lambda$ be a finite set of sites with Ising spins $\sigma_i\in\{-1,+1\}$, and consider the finite-volume ferromagnetic [[stat-mech-lattice/ising-model|Ising model]] with Hamiltonian
 $$
 H_\Lambda(\sigma)

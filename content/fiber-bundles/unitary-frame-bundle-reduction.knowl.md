@@ -15,6 +15,7 @@ Let $\pi:E\to M$ be a complex vector bundle of rank $n$ over a [[fiber-bundles/s
 
 The right action of $\mathrm{GL}(n,\mathbb C)$ on $\mathrm{Fr}(E)$ restricts to a free right action of the unitary group $\mathrm{U}(n)$ on $\mathrm{U}(E)$. With this action, $\mathrm{U}(E)\to M$ is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group $\mathrm{U}(n)$.
 
+## Equivalent characterizations
 Equivalently, giving a Hermitian metric on $E$ is the same as specifying a reduction of the structure group from $\mathrm{GL}(n,\mathbb C)$ to $\mathrm{U}(n)$.
 
 ## Examples
@@ -23,3 +24,4 @@ Equivalently, giving a Hermitian metric on $E$ is the same as specifying a reduc
 2. **Complexified real bundle with metric.** If $E_\mathbb R$ is a real rank-$n$ bundle with a bundle metric, then its complexification inherits a Hermitian metric, and the corresponding unitary frame bundle can be described as the complexification of the orthonormal frames.
 
 3. **Unitary frames for a complex tangent bundle.** If a manifold carries additional structure making $TM$ into a complex rank-$n$ bundle with a Hermitian metric (e.g. in almost Hermitian geometry), then $\mathrm{U}(TM)$ is the unitary frame bundle used to define canonical connections.
+

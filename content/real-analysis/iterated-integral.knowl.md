@@ -16,6 +16,7 @@ provided that for each $x\in[a,b]$ the inner [[real-analysis/riemann-integral|Ri
 
 Iterated integrals are compared with the [[real-analysis/multiple-riemann-integral|multiple Riemann integral]]; under appropriate hypotheses they agree by [[real-analysis/fubini-theorem-riemann|Fubini's theorem (Riemann)]].
 
-**Examples:**
+## Examples
+
 - For $f(x,y)=xy$ on $[0,1]\times[0,1]$, one gets $\int_0^1\left(\int_0^1 xy\,dy\right)dx=\int_0^1 (x/2)\,dx=1/4$.
 - If $f(x,y)=g(x)h(y)$ where $g$ is Riemann integrable on $[a,b]$ and $h$ is Riemann integrable on $[c,d]$, then the iterated integral (when defined) equals $\left(\int_a^b g(x)\,dx\right)\left(\int_c^d h(y)\,dy\right)$.

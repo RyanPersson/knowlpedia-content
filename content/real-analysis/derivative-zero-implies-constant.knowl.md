@@ -15,4 +15,6 @@ $$
 
 then $f$ is constant on $I$.
 
+## Remarks
+
 This is a direct application of the [[real-analysis/mean-value-theorem|mean value theorem]]: the derivative controls differences $f(y)-f(x)$ on intervals. It can be viewed as a special case of [[real-analysis/derivative-sign-implies-monotonicity|derivative sign implies monotonicity]] applied in both directions.

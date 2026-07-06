@@ -16,6 +16,8 @@ Fix a complex semisimple [[lie-groups/lie-algebra|Lie algebra]] $\mathfrak g$, a
 2. A weight $\lambda$ occurs as the highest weight of a finite-dimensional irreducible module if and only if $\lambda$ is **dominant integral** (i.e. it pairs with all simple coroots to give nonnegative integers).
 3. For each dominant integral $\lambda$, there exists (up to isomorphism) a unique finite-dimensional irreducible $\mathfrak g$-module $V(\lambda)$ with highest weight $\lambda$.
 
+## Remarks
+
 **Group form (compact groups).**  
 If $G$ is a compact connected [[lie-groups/compact-lie-group|Lie group]] with maximal torus $T$ (see [[lie-groups/maximal-torus-theorem|maximal tori]]), then irreducible unitary representations of $G$ are similarly classified by dominant integral weights of $T$; differentiating recovers the Lie-algebra classification (compare [[lie-groups/differential-is-lie-algebra-homomorphism|differentiation of representations]]).
 

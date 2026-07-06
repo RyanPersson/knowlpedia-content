@@ -15,6 +15,7 @@ for all $a \in M$.
 
 This is the weakest structure requiring an identity. All [[algebra-groups/monoid|monoids]], [[algebra-groups/loop|loops]], and [[algebra-groups/group|groups]] are unital magmas.
 
-**Examples:**
+## Examples
+
 - Any monoid, loop, or group
 - A set with a non-associative operation that still has an identity element

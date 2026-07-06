@@ -37,12 +37,12 @@ $$
 \rho_\beta = \frac{e^{-\beta H}}{Z(\beta)}.
 $$
 
-## Physical interpretation
+## Interpretation
 - $H$ is the **energy observable**: measuring energy yields an eigenvalue $E_n$ with Born-rule probabilities determined by the state.
 - $H$ sets the system’s **dynamics** (closed system evolution is unitary and energy-conserving when $H$ is time-independent).
 - Through $e^{-\beta H}$ it governs **thermal weighting**: low-energy states are favored when $\beta>0$.
 
-## Key properties
+## Properties
 - **Real spectrum:** Self-adjointness implies energies $E_n$ are real and eigenprojections resolve the identity.
 - **Energy zero-point irrelevance:** Replacing $H$ by $H+c\,I$ shifts all energies by $c$ but leaves $\rho_\beta$ unchanged, since $e^{-\beta(H+cI)} = e^{-\beta c} e^{-\beta H}$ and the scalar cancels in normalization.
 - **Degeneracy and symmetry:** If distinct microstates share the same $E_n$, the corresponding eigenspace is degenerate; symmetries often explain degeneracies.

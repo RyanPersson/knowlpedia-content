@@ -17,4 +17,6 @@ In §6, \(\mathfrak A\) is the uniform (operator-norm) closure of the algebra ge
 - \(\mathfrak A\) is abstractly independent of the chosen representation (Segal).
 - Symplectic \(T\) act by *-automorphisms \(\theta(T)\) on \(\mathfrak A\).
 
-**Example:** \(B(\mathcal H)\) (all bounded operators) is a \(C^*\)-algebra.
+## Examples
+
+- \(B(\mathcal H)\) (all bounded operators) is a \(C^*\)-algebra.

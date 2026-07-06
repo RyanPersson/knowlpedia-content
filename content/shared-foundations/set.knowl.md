@@ -13,8 +13,11 @@ $$
 A=B \iff \forall x\,\bigl(x\in A \Leftrightarrow x\in B\bigr).
 $$
 
+## Remarks
+
 Many basic constructions in set theory are specified by describing their elements, such as [[shared-foundations/union|union]], [[shared-foundations/intersection|intersection]], and the [[shared-foundations/power-set|power set]].
 
-**Examples:**
+## Examples
+
 - The set of natural numbers $\mathbb{N}$ (see [[shared-foundations/natural-numbers|natural numbers]]).
 - For a real number $a$, the singleton $\{a\}=\{x : x=a\}$ is the set containing exactly the element $a$.

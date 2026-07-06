@@ -17,4 +17,6 @@ $
 |f(x)|\le M\quad \text{for all } f\in\mathcal{F},\ x\in K.
 $
 
+## Remarks
+
 This lemma is a standard step in the proof of the [[real-analysis/arzela-ascoli-theorem|Arzelà–Ascoli theorem]].

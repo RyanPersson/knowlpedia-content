@@ -14,7 +14,7 @@ For a simple compressible fluid, mechanical equilibrium typically implies:
 - the [[thermodynamics/pressure-thermo|pressure]] is uniform within each connected region (in the absence of body forces), and
 - at a movable [[thermodynamics/system-boundary|boundary]] (e.g., a frictionless piston), the internal pressure matches the external mechanical load from the [[thermodynamics/surroundings-environment|surroundings]].
 
-## Physical interpretation
+## Interpretation
 If mechanical equilibrium fails, pressure/stress differences do work on the system’s parts, producing motion (expansion, compression, flow) until force balance is restored. Such motion is a [[thermodynamics/thermodynamic-process|thermodynamic process]] and—when accompanied by friction, viscosity, shocks, or turbulence—typically generates dissipation and thus [[thermodynamics/irreversible-process|irreversibility]].
 
 Mechanical equilibrium is one ingredient of full [[thermodynamics/thermodynamic-equilibrium|thermodynamic equilibrium]]; the latter also requires [[thermodynamics/thermal-equilibrium|thermal]] and [[thermodynamics/chemical-equilibrium|chemical]] equilibration.

@@ -15,7 +15,8 @@ One writes $x=\lim_{n\to\infty}x_n$ or $x_n\to x$.
 
 The limit (when it exists) summarizes the eventual behavior of a sequence. In metric spaces, a sequence has at most one limit (see [[topology/convergent-sequence|convergent sequence]]).
 
-**Examples:**
+## Examples
+
 - $\lim_{n\to\infty} (1/n)=0$ in $\mathbb{R}$.
 - If $x_n=2$ for all $n$, then $\lim_{n\to\infty}x_n=2$.
 - The sequence $(-1)^n$ has no limit in $\mathbb{R}$.

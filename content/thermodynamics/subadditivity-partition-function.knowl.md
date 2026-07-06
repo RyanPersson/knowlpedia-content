@@ -10,7 +10,6 @@ legacy_source_path = "thermodynamics/subadditivity-partition-function.md"
 
 This lemma concerns the finite-volume partition function associated with a [[stat-mech-lattice/lattice-hamiltonian|lattice Hamiltonian]] and the corresponding [[stat-mech-lattice/partition-function-lattice|lattice partition function]].
 
-## Statement
 Let $\Lambda_1,\Lambda_2\subset \mathbb{Z}^d$ be **disjoint** finite regions. Write the finite-volume Hamiltonian on $\Lambda_1\cup\Lambda_2$ as
 $$
 H_{\Lambda_1\cup\Lambda_2}(\sigma)
@@ -31,6 +30,8 @@ $$
 \log Z_{\Lambda_1\cup\Lambda_2}(\beta)
 \le \log Z_{\Lambda_1}(\beta) + \log Z_{\Lambda_2}(\beta) + \beta C\,|\partial(\Lambda_1,\Lambda_2)|.
 $$
+
+## Equivalent characterizations
 
 Equivalently,
 $$

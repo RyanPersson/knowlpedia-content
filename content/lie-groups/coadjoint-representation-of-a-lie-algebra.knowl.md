@@ -21,10 +21,14 @@ $$
 \mathrm{ad}^*_X(\ell) = -\,\ell\circ \mathrm{ad}_X.
 $$
 
+## Equivalent characterizations
+
 Equivalently, using the natural pairing $\langle\ell,Y\rangle=\ell(Y)$,
 $$
 \langle \mathrm{ad}^*_X\ell,\, Y\rangle = -\langle \ell,\,[X,Y]\rangle \quad \text{for all } Y\in \mathfrak{g}.
 $$
+
+## Remarks
 
 **Key point.** The minus sign ensures $\mathrm{ad}^*$ is a [[lie-groups/representation-of-a-lie-algebra|Lie algebra representation]], i.e. $[\mathrm{ad}^*_X,\mathrm{ad}^*_Y]=\mathrm{ad}^*_{[X,Y]}$.
 

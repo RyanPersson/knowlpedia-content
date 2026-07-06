@@ -47,7 +47,7 @@ The use of $\log Z$ (and $\log \Xi$) reflects extensivity and additivity:
 
 Switching which variables are held fixed corresponds to Legendre transforms between potentials. For example, the grand potential is the Legendre transform of $F$ with respect to particle number, as explained in [[stat-mech/construction-legendre-f-to-omega|the construction from $F$ to $\Omega$]]. This mirrors the conjugacy between $N$ and the [[thermodynamics/chemical-potential-thermo|chemical potential]] $\mu$.
 
-## Physical interpretation
+## Interpretation
 
 - $F$ measures the “useful work” available at fixed $(T,V,N)$ once entropic effects are included; minimizing $F$ at fixed $(T,V,N)$ characterizes equilibrium.
 - $\Omega$ is the potential adapted to particle exchange; minimizing $\Omega$ at fixed $(T,V,\mu)$ characterizes equilibrium in the presence of a particle reservoir.

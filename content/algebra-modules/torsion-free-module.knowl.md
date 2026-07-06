@@ -12,7 +12,8 @@ Let $R$ be an [[algebra-rings/integral-domain|integral domain]] and $M$ an $R$-[
 
 Torsion-freeness is weaker than freeness but is a key hypothesis in many classification results over PIDs and in the theory of lattices.
 
-**Examples:**
+## Examples
+
 - $\mathbb Z^n$ is torsion-free as a $\mathbb Z$-module.
 - Any ideal $I$ in an integral domain $R$, viewed as an $R$-module, is torsion-free.
 - (Nonexample) $\mathbb Z/n\mathbb Z$ is not torsion-free for $n>1$.

@@ -16,6 +16,7 @@ where $x\in X$ and $r\ge 0$.
 
 Closed balls are closely related to [[topology/open-ball|open balls]] and are [[topology/closed-set|closed sets]] in the [[topology/metric-induced-topology|metric-induced topology]].
 
-**Examples:**
+## Examples
+
 - In $(\mathbb{R},|\cdot|)$, $\overline{B}(x,r)=[x-r,x+r]$.
 - In the discrete metric on $X$, $\overline{B}(x,0)=\{x\}$ and $\overline{B}(x,1)=X$.

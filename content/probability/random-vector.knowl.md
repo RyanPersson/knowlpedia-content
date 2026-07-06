@@ -12,6 +12,7 @@ A **random vector** is a [[measure-theory/measurable-function|measurable functio
 
 Equivalently, $X=(X_1,\dots,X_d)$ where each coordinate $X_i$ is a [[probability/random-variable|random variable]]; conversely, any $d$-tuple of random variables defines a random vector by bundling them into a single map.
 
-**Examples:**
+## Examples
+
 - Let $\Omega=[0,1]$ with $\mathbb P$ the uniform distribution, and define $X(\omega)=(\omega,\omega^2)\in\mathbb R^2$. Then $X$ is a random vector in $\mathbb R^2$.
 - Roll two fair six-sided dice and let $X=(D_1,D_2)\in\{1,\dots,6\}^2$. This pair-valued map is a random vector (taking values in a finite subset of $\mathbb R^2$).

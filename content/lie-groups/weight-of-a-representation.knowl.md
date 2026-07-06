@@ -15,7 +15,8 @@ V_\lambda=\{v\in V\mid \rho(H)v=\lambda(H)v\ \text{for all }H\in\mathfrak h\}
 $$
 is nonzero.
 
-Equivalently, $\lambda$ is a weight if there exists $0\neq v\in V$ such that every $H\in\mathfrak h$ acts on $v$ by the scalar $\lambda(H)$ (so $v$ is a simultaneous eigenvector for the commuting family $\rho(\mathfrak h)$).
-
 ### Context
 Weights organize the representation theory of semisimple Lie algebras: the set of weights (with multiplicities $\dim V_\lambda$) encodes much of $V$, and irreducible representations are classified by their [[lie-groups/highest-weight|highest weight]] (see [[lie-groups/highest-weight-theorem|the highest-weight theorem]]). The ambient space where weights live is explained in [[lie-groups/weights-in-dual-cartan|weights in the dual Cartan]].
+
+## Equivalent characterizations
+Equivalently, $\lambda$ is a weight if there exists $0\neq v\in V$ such that every $H\in\mathfrak h$ acts on $v$ by the scalar $\lambda(H)$ (so $v$ is a simultaneous eigenvector for the commuting family $\rho(\mathfrak h)$).

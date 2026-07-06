@@ -35,7 +35,7 @@ with $s^{**}=s$ whenever $s$ is concave and upper semicontinuous (see [[convex-a
 - **Inverse transform (when concave):** if $s$ is concave (as expected from thermodynamic stability), then $s(u)=\inf_\beta(\psi(\beta)+\beta u)$.
 - **Thermodynamic identification:** in physical units, the Helmholtz free energy $F(T)$ (see [[thermodynamics/helmholtz-free-energy|Helmholtz free energy]]) is related to $\psi(\beta)$ by scaling, and the duality expresses $F$ as the appropriate Legendre transform of entropy/internal energy.
 
-## Cross-links to definitions
+## Remarks
 - Microcanonical side: [[stat-mech/microcanonical-measure|microcanonical measure]], [[stat-mech/boltzmann-entropy-microcanonical|Boltzmann entropy]].
 - Canonical side: [[stat-mech/canonical-ensemble|canonical ensemble]], [[stat-mech/partition-function-canonical|partition function]], [[stat-mech/free-energy-statistical|statistical free energy]].
 - Convex analysis: [[convex-analysis/legendre-transform|Legendre transform]], [[convex-analysis/convex-conjugate-fenchel|Fenchel conjugate]], [[convex-analysis/fenchel-moreau-theorem|Fenchel–Moreau theorem]].

@@ -27,7 +27,7 @@ H_n(C_\bullet) := Z_n(C_\bullet) / B_n(C_\bullet).
 
 Equivalently, \(H_n(C_\bullet)=0\) for all \(n\) iff \(C_\bullet\) is an [[algebra-homological/exact-complex|exact complex]].
 
-## Basic properties
+## Properties
 - A [[algebra-homological/chain-map|chain map]] \(f:C_\bullet\to D_\bullet\) induces \(R\)-linear maps \(H_n(f):H_n(C_\bullet)\to H_n(D_\bullet)\) for all \(n\).
 - [[algebra-homological/chain-homotopy|chain-homotopic]] chain maps induce the same maps on homology.
 

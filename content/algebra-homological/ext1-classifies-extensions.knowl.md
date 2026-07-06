@@ -10,7 +10,6 @@ legacy_source_path = "algebra-homological/ext1-classifies-extensions.md"
 
 Let \(R\) be a ring and \(A,C\) left \(R\)-modules.
 
-## Statement
 An **extension of \(C\) by \(A\)** is a [[algebra-modules/short-exact-sequence|short exact sequence]]
 \[
 0 \longrightarrow A \xrightarrow{i} E \xrightarrow{p} C \longrightarrow 0.

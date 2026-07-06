@@ -19,22 +19,8 @@ For \(\alpha \in \Omega^k(M)\) and \(\beta \in \Omega^\ell(M)\), their **wedge p
 \]
 for all \(p\in M\) and \(v_1,\dots,v_{k+\ell}\in T_pM\).
 
+## Equivalent characterizations
 Equivalently, \((\alpha\wedge\beta)_p\) is the alternation of the tensor product \(\alpha_p\otimes \beta_p\).
-
-## Key properties
-If \(\alpha\in\Omega^k(M)\), \(\beta\in\Omega^\ell(M)\), and \(\gamma\in\Omega^m(M)\), then:
-
-- **Bilinearity:** \(\wedge\) is \(\mathbb{R}\)-bilinear in each argument.
-- **Associativity:** \((\alpha\wedge\beta)\wedge\gamma=\alpha\wedge(\beta\wedge\gamma)\).
-- **Graded-commutativity:**
-  \[
-  \alpha\wedge\beta = (-1)^{k\ell}\,\beta\wedge\alpha.
-  \]
-  In particular, if \(k\) is odd then \(\alpha\wedge\alpha=0\).
-- **Compatibility with pullback:** for any [[fiber-bundles/smooth-map|smooth map]] \(F:M\to N\),
-  the [[fiber-bundles/pullback-of-differential-forms|pullback of forms]] satisfies
-  \(F^*(\alpha\wedge\beta)=F^*\alpha\wedge F^*\beta\).
-- The wedge product is the product appearing in the graded Leibniz rule for the [[fiber-bundles/exterior-derivative|exterior derivative]].
 
 ## Examples
 1. **Coordinate 1-forms on \(\mathbb{R}^3\).**  
@@ -50,3 +36,20 @@ If \(\alpha\in\Omega^k(M)\), \(\beta\in\Omega^\ell(M)\), and \(\gamma\in\Omega^m
 
 3. **Wedge of a 1-form with itself is zero (odd degree).**  
    On any manifold, \(dx\wedge dx=0\). More generally, if \(\eta\) is any 1-form then \(\eta\wedge\eta=0\) by graded-commutativity with \(k=\ell=1\).
+
+
+## Properties
+If \(\alpha\in\Omega^k(M)\), \(\beta\in\Omega^\ell(M)\), and \(\gamma\in\Omega^m(M)\), then:
+
+- **Bilinearity:** \(\wedge\) is \(\mathbb{R}\)-bilinear in each argument.
+- **Associativity:** \((\alpha\wedge\beta)\wedge\gamma=\alpha\wedge(\beta\wedge\gamma)\).
+- **Graded-commutativity:**
+  \[
+  \alpha\wedge\beta = (-1)^{k\ell}\,\beta\wedge\alpha.
+  \]
+  In particular, if \(k\) is odd then \(\alpha\wedge\alpha=0\).
+- **Compatibility with pullback:** for any [[fiber-bundles/smooth-map|smooth map]] \(F:M\to N\),
+  the [[fiber-bundles/pullback-of-differential-forms|pullback of forms]] satisfies
+  \(F^*(\alpha\wedge\beta)=F^*\alpha\wedge F^*\beta\).
+- The wedge product is the product appearing in the graded Leibniz rule for the [[fiber-bundles/exterior-derivative|exterior derivative]].
+

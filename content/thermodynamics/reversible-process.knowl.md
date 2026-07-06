@@ -12,7 +12,7 @@ A **reversible process** is a [[thermodynamics/thermodynamic-process|thermodynam
 
 Every reversible process is [[thermodynamics/quasistatic-process|quasistatic]], but the converse need not hold.
 
-## Physical interpretation
+## Interpretation
 Reversibility is a limiting idealization: the system is always (and everywhere) arbitrarily close to [[thermodynamics/thermodynamic-equilibrium|equilibrium]], and the driving “forces” are infinitesimal. Intuitively, a reversible process is one that can be run backward without leaving “footprints” in the environment—no wasted work and no net spreading of energy into unavailable forms.
 
 ## Key entropy relation

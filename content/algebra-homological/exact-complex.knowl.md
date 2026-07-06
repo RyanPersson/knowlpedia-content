@@ -23,7 +23,7 @@ A [[algebra-homological/chain-complex|chain complex]] \((C_\bullet,d)\) is **exa
 
 In an [[algebra-category-theory/abelian-category|abelian category]], the same definition makes sense using categorical kernels and images.
 
-## Cross-links
+## Remarks
 - Exactness for short sequences: [[algebra-modules/short-exact-sequence|short exact sequence]].
 - A strong way to prove exactness is via a contracting homotopy: [[algebra-homological/chain-homotopy|chain homotopy]].
 - Exact complexes appear as resolutions: [[algebra-homological/projective-resolution|projective resolution]] and [[algebra-homological/injective-resolution|injective resolution]].

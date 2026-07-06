@@ -22,6 +22,8 @@ is a derivation. A derivation is called **inner** if it equals $\mathrm{ad}_x$ f
 
 The assignment $x\mapsto \mathrm{ad}_x$ is the [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint representation]] $\mathrm{ad}:\mathfrak g\to\mathfrak{gl}(\mathfrak g)$, and the space of inner derivations is $\mathrm{ad}(\mathfrak g)\subseteq \mathrm{Der}(\mathfrak g)$.
 
+## Remarks
+
 **Key relation to the center.**  
 The kernel of $\mathrm{ad}$ is exactly the [[lie-groups/center-of-a-lie-algebra|center]] (see [[lie-groups/kernel-of-ad-small-is-center-lemma|the kernel-of-ad lemma]]), so inner derivations detect noncentral directions.
 

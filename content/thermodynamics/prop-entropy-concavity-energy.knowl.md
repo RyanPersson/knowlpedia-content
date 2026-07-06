@@ -8,7 +8,6 @@ domains = ["thermodynamics"]
 legacy_source_path = "thermodynamics/prop-entropy-concavity-energy.md"
 +++
 
-## Statement
 Let $S(U,V,N)$ denote the [[thermodynamics/thermodynamic-entropy|thermodynamic entropy]] of an equilibrium [[thermodynamics/thermodynamic-system|thermodynamic system]] as a function of [[thermodynamics/internal-energy-thermo|internal energy]] $U$, with $V,N$ held fixed. Under the usual stability/additivity assumptions of equilibrium thermodynamics, $S(\,\cdot\,,V,N)$ is concave:
 for any $U_1,U_2$ and any $\lambda\in[0,1]$,
 $$

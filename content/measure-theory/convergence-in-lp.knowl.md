@@ -22,15 +22,15 @@ $$
 
 shows that convergence in $L^p$ implies [[measure-theory/convergence-in-measure|convergence in measure]].
 
-**Examples:**
+  for all $n$.
+
+## Examples
+
 - On $([0,1],\mathcal{B},\lambda)$, the functions $f_n(x)=x^n$ satisfy $f_n\to 0$ in $L^p$ for every $1\le p<\infty$ since
   $$
   \|f_n\|_p^p=\int_0^1 x^{np}\,dx=\frac{1}{np+1}\to 0.
   $$
-
 - On $([0,1],\mathcal{B},\lambda)$ and for fixed $1\le p<\infty$, the functions $g_n = n^{1/p}\mathbf{1}_{[0,1/n]}$ satisfy $g_n\to 0$ in measure, but not in $L^p$, because
   $$
   \|g_n\|_p^p = \int_0^{1/n} n\,dx = 1
   $$
-
-  for all $n$.

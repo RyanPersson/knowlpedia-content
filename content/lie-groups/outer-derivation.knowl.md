@@ -30,5 +30,5 @@ measures outer derivations “modulo inner ones.”
 - If $X$ lies in the [[lie-groups/center-of-a-lie-algebra|center]] of $\mathfrak g$, then $\mathrm{ad}_X=0$, so the map $\mathrm{ad}:\mathfrak g\to \mathrm{Der}(\mathfrak g)$ factors through $\mathfrak g/Z(\mathfrak g)$.
 - For many rigid Lie algebras (notably [[lie-groups/semisimple-lie-algebra|semisimple]] ones), every derivation is inner, so the outer derivation quotient vanishes. This is one conceptual reason semisimple Lie algebras have very small deformation theory.
 
-## Context
+## Remarks
 Outer derivations appear naturally when studying extensions and deformations of Lie algebras; inner derivations encode changes coming from conjugation, while outer derivations capture genuinely new infinitesimal symmetries.

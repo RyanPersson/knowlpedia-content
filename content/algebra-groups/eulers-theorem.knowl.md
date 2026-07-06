@@ -18,8 +18,8 @@ As usual, $x \equiv y \pmod n$ means $n$ divides $x-y$.
 
 This follows immediately from [[algebra-groups/lagranges-theorem|Lagrange's theorem]] applied to the [[algebra-rings/group-of-units|group of units]] $(\mathbb{Z}/n\mathbb{Z})^\times$, a finite [[algebra-groups/group|group]] with $|(\mathbb{Z}/n\mathbb{Z})^\times|=\varphi(n)$. The special case $n=p$ prime is [[algebra-groups/fermats-little-theorem|Fermat's little theorem]].
 
+## Examples
 
-**Examples:**
 - $n=10$, $a=3$: $\varphi(10)=4$, and $3^4=81\equiv 1 \pmod{10}$.
 - $n=12$, $a=5$: $\varphi(12)=4$, and $5^4=625\equiv 1 \pmod{12}$.
 - The hypothesis $\gcd(a,n)=1$ matters: for $n=8$, $a=2$ we have $\gcd(2,8)\ne 1$, and indeed $2^{\varphi(8)}=2^4=16\equiv 0 \pmod 8\neq 1$.

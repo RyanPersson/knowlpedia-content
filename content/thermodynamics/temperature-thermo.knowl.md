@@ -25,7 +25,7 @@ $$
 \delta Q_{\mathrm{rev}} = T\, dS.
 $$
 
-## Physical interpretation
+## Interpretation
 Temperature controls the *direction of spontaneous heat flow*: when two systems are placed in thermal contact through a [[thermodynamics/diathermal-wall|diathermal wall]], energy tends to flow as heat from the system at higher $T$ to the one at lower $T$ until [[thermodynamics/thermal-equilibrium|thermal equilibrium]] is reached.
 
 A [[thermodynamics/thermal-reservoir|thermal reservoir]] is an idealized large system whose temperature remains approximately constant while exchanging finite heat, making it a practical reference for defining and measuring $T$.

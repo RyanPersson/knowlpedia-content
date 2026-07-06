@@ -20,4 +20,6 @@ legacy_source_path = "real-analysis/field-axioms.md"
 - (Multiplicative inverse) if $a\neq 0$ then there exists $a^{-1}\in F$ such that $aa^{-1}=1$.
 - (Distributivity) $a(b+c)=ab+ac$.
 
+## Remarks
+
 These axioms say exactly that $F$ is a [[algebra-rings/field|field]] (equivalently, a commutative [[algebra-rings/ring|ring]] in which every nonzero element is invertible). Together with the [[real-analysis/order-axioms|order axioms]] and the [[real-analysis/completeness-axiom|completeness axiom]], they characterize the real number system up to isomorphism.

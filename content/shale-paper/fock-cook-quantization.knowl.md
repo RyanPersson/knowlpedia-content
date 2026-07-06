@@ -18,4 +18,6 @@ where \((\cdot)^{\sim}\) denotes closure as an unbounded operator.
 - Produces Weyl unitaries \(V(z)=e^{iR(z)}\) satisfying [[shale-paper/weyl-ccr-quantization|Weyl CCR]].
 - Shale's main result: \(T\in Sp(K)\) is implementable iff \(T\in rSp(K)\).
 
-**Example:** For finite-dimensional \(H\), this is the usual Schrödinger/Fock CCR representation.
+## Examples
+
+- For finite-dimensional \(H\), this is the usual Schrödinger/Fock CCR representation.

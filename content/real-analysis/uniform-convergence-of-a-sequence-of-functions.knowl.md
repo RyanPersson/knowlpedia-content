@@ -17,7 +17,8 @@ where the [[real-analysis/supremum|supremum]] is taken in $[0,\infty]$.
 
 Uniform convergence is strong enough to pass many properties to the limit (e.g., [[real-analysis/continuity-on-a-set|continuity]], under standard hypotheses). Compare with [[real-analysis/pointwise-convergence|pointwise convergence]]. It is a central tool in analysis and approximation theory.
 
-**Examples:**
+## Examples
+
 - $f_n(x)=\frac{1}{n}\sin x$ converges uniformly to $0$ on $\mathbb{R}$.
 - On $[0,1]$, $f_n(x)=x^n$ converges pointwise to $f$ (as above) but not uniformly (since $\sup_{x\in[0,1]}|x^n-f(x)|=1$ for all $n$).
 - If $f_n$ are continuous on a compact set and converge uniformly, then the limit is continuous (uniform limit theorem).

@@ -20,8 +20,6 @@ between [[fiber-bundles/tangent-space-at-a-point|tangent spaces]] defined as fol
 \]
 for every smooth function $g$ defined near $F(p)$.
 
-Equivalently, if $v$ is represented by the velocity of a smooth curve $\gamma:(-\epsilon,\epsilon)\to M$ with $\gamma(0)=p$, then $dF_p(v)$ is represented by the velocity of $F\circ\gamma$ at $0$.
-
 **Bundle map form.** The assignments $p\mapsto dF_p$ assemble into a smooth map between total spaces of tangent bundles,
 \[
 dF: TM \to TN,
@@ -50,3 +48,7 @@ The differential detects local rank properties: $F$ is a [[fiber-bundles/smooth-
    which is surjective for every $(x,y)$. Thus $\pi$ is a [[fiber-bundles/smooth-submersion|smooth submersion]], and its fibers are vertical lines.
 
 3. **Inclusion is an immersion.** Let $i:S^1\hookrightarrow \mathbb{R}^2$ be the standard inclusion. For each $p\in S^1$, the map $di_p:T_pS^1\to T_p\mathbb{R}^2$ is injective, so $i$ is a [[fiber-bundles/smooth-immersion|smooth immersion]] (in fact a [[fiber-bundles/smooth-embedding|smooth embedding]]).
+
+## Equivalent characterizations
+
+Equivalently, if $v$ is represented by the velocity of a smooth curve $\gamma:(-\epsilon,\epsilon)\to M$ with $\gamma(0)=p$, then $dF_p(v)$ is represented by the velocity of $F\circ\gamma$ at $0$.

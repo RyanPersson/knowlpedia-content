@@ -23,6 +23,7 @@ Its [[convex-analysis/domain-and-epigraph-proper-function|domain]] is $\mathrm{d
 
 **Convexity.** $\delta_\Omega$ is [[convex-analysis/convex-function-via-epigraph|convex]] if and only if $\Omega$ is a [[convex-analysis/convex-set|convex set]].
 
-**Examples:**
+## Examples
+
 - If $\Omega$ is a subspace, then $\delta_\Omega$ is convex.
 - If $\Omega$ is a nonconvex set (e.g., two disjoint balls), then $\delta_\Omega$ is not convex.

@@ -13,4 +13,6 @@ $$
 f'(c)=\frac{f(b)-f(a)}{b-a}.
 $$
 
+## Remarks
+
 The [[real-analysis/mean-value-theorem|mean value theorem]] is obtained from [[real-analysis/rolles-theorem|Rolle's theorem]] by applying Rolle to a suitable affine adjustment of $f$. It yields useful corollaries such as the [[real-analysis/mean-value-estimate-lemma|mean value estimate]] and monotonicity criteria from the sign of the [[real-analysis/derivative|derivative]].

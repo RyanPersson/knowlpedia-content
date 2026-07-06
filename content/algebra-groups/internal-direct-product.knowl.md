@@ -15,7 +15,8 @@ Let $G$ be a [[algebra-groups/group|group]] and let $N,H\le G$ be [[algebra-grou
 
 Under these hypotheses, the multiplication map $N\times H\to G$, $(n,h)\mapsto nh$, is a [[algebra-groups/group-isomorphism|group isomorphism]], so $G\cong N\times H$ as a [[algebra-groups/direct-product-groups|direct product]].
 
-**Examples:**
+## Examples
+
 - In any direct product $N\times H$, the subgroups $N\times\{e\}$ and $\{e\}\times H$ are normal, intersect trivially, and generate the whole group; thus $N\times H$ is an internal direct product in itself.
 - In the cyclic group $C_6=\langle a\rangle$, the subgroups $\langle a^3\rangle$ (order $2$) and $\langle a^2\rangle$ (order $3$) satisfy the conditions, so $C_6\cong C_2\times C_3$.
 - Non-example: in $S_3$, the subgroup $A_3$ is normal but a subgroup of order $2$ is not normal, so $S_3$ is not an internal direct product of those two subgroups (it is an [[algebra-groups/internal-semidirect-product|internal semidirect product]] instead).

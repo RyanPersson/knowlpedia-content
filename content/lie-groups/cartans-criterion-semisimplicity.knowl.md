@@ -17,6 +17,8 @@ $$
 1. $\mathfrak{g}$ is [[lie-groups/semisimple-lie-algebra|semisimple]].
 2. The Killing form $B$ is nondegenerate on $\mathfrak{g}$, i.e. $B(X,Y)=0$ for all $Y$ implies $X=0$.
 
+## Remarks
+
 **Context.** This criterion is a practical test for semisimplicity: it converts the intrinsic condition “$\mathfrak{g}$ has no nonzero solvable ideals” into a bilinear-algebra statement. It is complementary to [[lie-groups/cartans-criterion-solvability|Cartan’s criterion for solvability]], which detects when a Lie algebra is solvable via vanishing of certain traces.
 
 **Remark.** Nondegeneracy of $B$ implies strong structure results, including the decomposition of any semisimple Lie algebra into a [[lie-groups/semisimple-direct-sum-simple|direct sum of simple ideals]].

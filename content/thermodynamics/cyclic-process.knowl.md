@@ -10,7 +10,7 @@ legacy_source_path = "thermodynamics/cyclic-process.md"
 
 A **cyclic process** is a [[thermodynamics/thermodynamic-process|thermodynamic process]] in which the system undergoes a sequence of changes and finally returns to its initial [[thermodynamics/thermodynamic-state|thermodynamic state]]. In state space, the path is closed.
 
-## Physical interpretation
+## Interpretation
 Cycles model devices designed for repeated operation—heat engines, refrigerators, and heat pumps—where the working substance returns to its starting state each run while exchanging energy with reservoirs and delivering (or consuming) net work. The logical constraints of the [[thermodynamics/second-law-thermodynamics|second law]] on such devices are often phrased as the [[thermodynamics/kelvin-planck-statement|Kelvin–Planck statement]] and the [[thermodynamics/clausius-statement-second-law|Clausius statement]].
 
 ## Key properties and relations

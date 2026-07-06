@@ -17,6 +17,7 @@ where $\|\cdot\|$ is the [[linear-algebra/euclidean-norm|Euclidean norm]].
 
 In this case $L$ is the [[real-analysis/frechet-derivative|Fréchet derivative]] of $f$ at $a$, and (when it exists) it is represented in coordinates by the [[real-analysis/jacobian-matrix|Jacobian matrix]]. Maps that are differentiable at every point of their domain are the basic objects of multivariable [[real-analysis/differentiability-1d|differentiability]] in higher dimensions, and higher smoothness is recorded by [[real-analysis/class-ck-map|C^k maps]].
 
-**Examples:**
+## Examples
+
 - Any affine map $f(x)=Ax+b$ (with $A$ an $m\times n$ matrix) is differentiable everywhere, with derivative $L(h)=Ah$.
 - The map $f:\mathbb{R}^2\to \mathbb{R}^3$ given by $f(x,y)=(x^2,xy,\sin y)$ is differentiable everywhere.

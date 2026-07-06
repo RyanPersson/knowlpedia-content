@@ -1,0 +1,38 @@
+id = "algebra-groups/abelian-group"
+title = "Abelian Group"
+kind = "definition"
+summary = "A group whose operation is commutative"
+aliases = ["abelian-group", "Abelian Group"]
+domains = ["algebra-groups"]
+legacy_source_path = "algebra-groups/abelian-group.md"
+
+[core]
+source = "core.md"
+
+[[core.data]]
+id = "carrier"
+text = 'A group $(G,\cdot)$.'
+refs = ["algebra-groups/group"]
+
+[[core.axioms]]
+id = "commutativity"
+text = 'For all $a,b \in G$, $a\cdot b = b\cdot a$.'
+
+[[sections]]
+id = "examples"
+title = "Examples"
+kind = "examples"
+source = "examples.md"
+default_open = false
+
+[[sections]]
+id = "remarks"
+title = "Remarks"
+kind = "remarks"
+source = "remarks.md"
+default_open = false
+
+[[relations]]
+type = "special_case_of"
+target = "algebra-groups/group"
+note = "An abelian group is a group whose operation is commutative."

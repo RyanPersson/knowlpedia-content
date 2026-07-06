@@ -16,6 +16,7 @@ Equivalently,
 
 Almost everywhere convergence is a central hypothesis in results such as the [[measure-theory/dominated-convergence-theorem|dominated convergence theorem]] and [[measure-theory/monotone-convergence-theorem|monotone convergence theorem]]. It is one of the standard modes of convergence alongside [[measure-theory/convergence-in-measure|convergence in measure]] and [[measure-theory/convergence-in-lp|convergence in Lp]].
 
-**Examples:**
+## Examples
+
 - On $([0,1],\mathcal{B},\lambda)$, the sequence $f_n(x)=x^n$ converges almost everywhere to $f(x)=0$ (the only exceptional point is $x=1$).
 - On $((0,1),\mathcal{B},\lambda)$, the functions $f_n(x)=n\,\mathbf{1}_{(0,1/n)}(x)$ satisfy $f_n(x)\to 0$ almost everywhere, but $\|f_n\|_1=\int_0^1 f_n\,d\lambda=1$ for all $n$, so the convergence is not convergence in Lp when $p=1$.

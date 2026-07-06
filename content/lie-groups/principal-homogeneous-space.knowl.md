@@ -16,8 +16,6 @@ that is:
 - **Free:** if \(g\cdot p=p\) for some \(p\in P\), then \(g=e\).
 - **Transitive:** for any \(p,q\in P\), there exists \(g\in G\) with \(g\cdot p=q\).
 
-Equivalently, the action is **simply transitive**: for each \(p,q\in P\) there is a unique \(g\in G\) with \(g\cdot p=q\).
-
 ## Choosing a basepoint identifies it with the group
 Fix \(p_0\in P\). The map
 $$
@@ -30,3 +28,6 @@ is a diffeomorphism. This identifies \(P\) with \(G\), but the identification de
 - More generally, a transitive action with stabilizer \(H\) gives a homogeneous space \(G/H\); compare [[lie-groups/quotient-lie-group|quotients]]. A principal homogeneous space is the special case \(H=\{e\}\).
 
 Principal homogeneous spaces are the geometric backdrop for principal bundles and symmetry without a preferred identity element.
+
+## Equivalent characterizations
+Equivalently, the action is **simply transitive**: for each \(p,q\in P\) there is a unique \(g\in G\) with \(g\cdot p=q\).

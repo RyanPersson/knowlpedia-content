@@ -19,6 +19,8 @@ Let $\mathfrak g$ be a [[lie-groups/lie-algebra|Lie algebra]]. The [[lie-groups/
 \]
 where $Z(\mathfrak g)$ is the [[lie-groups/center-of-a-lie-algebra|center of the Lie algebra]].
 
+## Remarks
+
 **Proof.**  
 By definition, $x\in\ker(\mathrm{ad})$ iff $\mathrm{ad}_x(y)=0$ for all $y\in\mathfrak g$, i.e. $[x,y]=0$ for all $y$. This is exactly the defining condition for $x\in Z(\mathfrak g)$.
 

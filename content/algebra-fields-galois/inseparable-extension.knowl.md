@@ -20,7 +20,8 @@ A particularly important special case is:
 \]
 Equivalently, every \(\alpha\in K\) is a root of a polynomial of the form \(x^{p^n}-a\) with \(a\in F\), whose derivative is \(0\), so no such element is [[algebra-fields-galois/separable-element|separable]] unless \(\alpha\in F\).
 
-**Examples.**
+## Examples
+
 1. \(K=\mathbb{F}_p(t^{1/p})\) over \(F=\mathbb{F}_p(t)\) is purely inseparable since \((t^{1/p})^p=t\in F\). The minimal polynomial \(x^p-t\) has a repeated root.
 2. More generally, \(\mathbb{F}_p(t^{1/p^n})/\mathbb{F}_p(t)\) is purely inseparable of degree \(p^n\), with \((t^{1/p^n})^{p^n}=t\).
 3. If \(F\) is an imperfect field of characteristic \(p\) (i.e. not [[algebra-fields-galois/perfect-field|perfect]]), then choosing \(a\in F\setminus F^p\) produces an inseparable extension \(F(a^{1/p})/F\).

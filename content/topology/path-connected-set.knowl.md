@@ -12,6 +12,7 @@ A **path-connected set** is a subset $A\subseteq X$ of a [[topology/topological-
 
 Path-connectedness is stronger than [[topology/connected-set|connectedness]] (every path-connected set is connected), and it leads to a decomposition of spaces into “path components,” analogous to [[topology/connected-component|connected components]].
 
-**Examples:**
+## Examples
+
 - Any [[real-analysis/interval|interval]] in $\mathbb{R}$ is path-connected, and more generally any convex subset of $\mathbb{R}^n$ is path-connected.
 - The set $(-1,0)\cup(0,1)\subseteq\mathbb{R}$ is not path-connected.

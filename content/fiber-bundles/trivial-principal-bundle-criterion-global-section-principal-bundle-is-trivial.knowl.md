@@ -10,7 +10,6 @@ legacy_source_path = "fiber-bundles/trivial-principal-bundle-criterion-global-se
 
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure [[fiber-bundles/lie-group|Lie group]] $G$ over a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$.
 
-## Theorem
 
 If there exists a smooth section $s:M\to P$ (so $\pi\circ s=\mathrm{id}_M$), then $P$ is trivial: the map
 \[

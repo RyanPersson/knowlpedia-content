@@ -22,7 +22,8 @@ a [[algebra-groups/quotient-group|quotient group]]. Intuitively, one starts with
 
 Presentations are ubiquitous: they encode groups by finitely many symbols when possible, and many structural questions reduce to understanding the relations.
 
-**Examples:**
+## Examples
+
 - The cyclic group of order $n$ has presentation $\langle a \mid a^n = e\rangle$.
 - The free abelian group of rank $2$ has presentation $\langle a,b \mid ab=ba\rangle$.
 - The dihedral group $D_{2n}$ has presentation $\langle r,s \mid r^n=e,\ s^2=e,\ srs^{-1}=r^{-1}\rangle$.

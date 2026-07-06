@@ -29,7 +29,7 @@ where $H_n(-)$ denotes [[algebra-homological/homology-module|homology]].
 
 This is well-defined up to canonical isomorphism and is functorial in both variables.
 
-## Basic properties
+## Properties
 - $\mathrm{Tor}^R_0(M,N)\cong M\otimes_R N$.
 - Because [[algebra-homological/tensor-right-exact|tensor is right exact]], the derived functors $\mathrm{Tor}^R_n$ measure precisely the *failure* of tensor to be left exact. In particular, a module $N$ is [[algebra-modules/flat-module|flat]] iff $\mathrm{Tor}^R_1(-,N)=0$ (equivalently, iff tensoring with $N$ preserves injections).
 - Any [[algebra-modules/short-exact-sequence|short exact sequence]] gives rise to a [[algebra-homological/long-exact-sequence-tor|long exact sequence in Tor]], a special case of [[algebra-homological/long-exact-sequence-derived|the long exact sequence for derived functors]].

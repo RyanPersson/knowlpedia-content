@@ -16,7 +16,8 @@ provided these [[real-analysis/partial-derivative|partial derivatives]] exist.
 
 When $f$ is [[real-analysis/differentiable-map|differentiable]] at $a$, the [[real-analysis/frechet-derivative|Fréchet derivative]] $Df(a)$ is a linear map, and $Jf(a)$ is the matrix that represents $Df(a)$ in the standard bases of $\mathbb{R}^n$ and $\mathbb{R}^m$. For scalar-valued $f$, $Jf(a)$ is closely related (up to transpose conventions) to the [[real-analysis/gradient|gradient]].
 
-**Examples:**
+## Examples
+
 - If $f(x,y)=(x^2y,\sin(x-y))$, then
   $$
   Jf(x,y)=
@@ -25,5 +26,4 @@ When $f$ is [[real-analysis/differentiable-map|differentiable]] at $a$, the [[re
   \cos(x-y) & -\cos(x-y)
   \end{pmatrix}.
   $$
-
 - If $f(x,y,z)=x+y+z$, then $Jf(x,y,z)=\begin{pmatrix}1&1&1\end{pmatrix}$.

@@ -17,7 +17,8 @@ The map $A$ is uniquely determined when it exists and is called the **(total) de
 
 This definition captures the best linear approximation of $f$ near $a$. In coordinates, $Df(a)$ is represented by the [[real-analysis/jacobian-matrix|Jacobian matrix]] $J_f(a)$ when $f$ has continuous [[real-analysis/partial-derivative|partial derivatives]].
 
-**Examples:**
+## Examples
+
 - If $f(x)=Ax+b$ is affine (with $A$ an $m\times k$ matrix), then $Df(a)=A$ for all $a$.
 - If $f:\mathbb{R}^2\to\mathbb{R}$, $f(x,y)=x^2+y^2$, then $Df(a)$ is the linear map $h\mapsto 2\langle a,h\rangle$ (equivalently, gradient dot $h$).
 - Existence of all partial derivatives at $a$ does not necessarily imply existence of $Df(a)$ (Fréchet differentiability).

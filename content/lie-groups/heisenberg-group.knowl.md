@@ -14,6 +14,8 @@ For $n\ge 1$, the (real) **Heisenberg group** $H_n$ can be realized as $\mathbb 
 \]
 This makes $H_n$ a connected [[fiber-bundles/lie-group|Lie group]] of dimension $2n+1$. Its Lie algebra is the Heisenberg Lie algebra (compare [[lie-groups/example-heisenberg-algebra|the Heisenberg algebra example]]), which is [[lie-groups/nilpotent-lie-algebra|nilpotent]].
 
+## Remarks
+
 **Concrete calculation: commutator and center.**  
 Let $p=(x,y,z)$ and $q=(x',y',z')$. Using the group law and the inverse
 \[

@@ -16,6 +16,9 @@ Fix $e\in E$ with $x=\pi(e)$. Since $d\pi_e$ restricts to an isomorphism $H_eE\t
 \[
 d\pi_e(v^{\mathrm h})=v.
 \]
+
+## Equivalent characterizations
+
 Equivalently, it is the value at $v$ of the inverse linear map $(d\pi_e|_{H_eE})^{-1}:T_xM\to H_eE\subset T_eE$.
 
 ## Examples

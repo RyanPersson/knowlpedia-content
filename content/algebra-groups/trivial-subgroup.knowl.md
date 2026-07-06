@@ -12,7 +12,8 @@ Let $G$ be a [[algebra-groups/group|group]] with identity element $e$. The **tri
 
 The trivial subgroup is the smallest subgroup of $G$ (by inclusion). It appears as an endpoint in definitions such as that of a [[algebra-groups/simple-group|simple group]].
 
-**Examples:**
+## Examples
+
 - In $(\mathbb{Z},+)$, the trivial subgroup is $\{0\}$.
 - In $(\mathbb{R}^{\times},\times)$, the trivial subgroup is $\{1\}$.
 - In any permutation group, the trivial subgroup consists of the identity permutation only.

@@ -14,9 +14,12 @@ Let $R$ be a commutative ring and let $I\subseteq R$ be an ideal. The **radical 
 \]
 Then $\sqrt{I}$ is an [[algebra-rings/ideal|ideal]] containing $I$.
 
+## Remarks
+
 The radical measures “nilpotence modulo $I$”: $r\in \sqrt{I}$ iff the image of $r$ in $R/I$ is [[algebra-rings/nilpotent-element|nilpotent]]. The [[algebra-rings/nilradical|nilradical]] is the special case $\sqrt{(0)}$, and one has $\sqrt{I}=\bigcap_{\mathfrak p\supseteq I}\mathfrak p$ as an [[algebra-rings/intersection-of-ideals|intersection]] over all [[algebra-rings/prime-ideal|prime ideals]] containing $I$.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{Z}$, $\sqrt{(12)}=(6)$ since an integer has a power divisible by $12$ iff it is divisible by $2$ and $3$.
 - In $k[x]$, $\sqrt{(x^2)}=(x)$.
 - In $k[x,y]$, $\sqrt{(xy)}=(x)\cap (y)$.

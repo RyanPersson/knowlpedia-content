@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/dobrushin-uniqueness-theorem.md"
 +++
 
-## Statement
-
 Let $\gamma$ be a [[stat-mech-lattice/gibbs-specification|Gibbs specification]] on $\Omega=S^{\mathbb{Z}^d}$ with finite single-spin space $S$. For each site $i\in\mathbb{Z}^d$, write $\gamma_i(\cdot\mid\omega)$ for the single-site conditional distribution at $i$ given the external configuration $\omega$.
 
 Define the **Dobrushin influence coefficients**
@@ -42,7 +40,7 @@ In addition, the unique Gibbs state enjoys strong mixing properties; in particul
 - **Uniqueness:** there is exactly one $\mu$ consistent with $\gamma$.
 - **High-temperature regime:** for many concrete models (e.g. [[stat-mech-lattice/ising-model|Ising]] with small $\beta J$), one can bound $C_{ij}$ explicitly and verify $\alpha<1$.
 - **Quantitative mixing:** local expectations are stable under far-away boundary perturbations, with explicit bounds in terms of $(C_{ij})$.
-## significance
+## Remarks
 
 One constructs a “single-site update” operator on the space of probability measures (or on the space of boundary conditions), and shows it is a contraction in an appropriate metric when $\alpha<1$. The coefficients $C_{ij}$ quantify how much flipping the spin at $j$ can change the conditional law at $i$; the condition $\sup_i\sum_j C_{ij}<1$ forces influence to die out under iteration.
 

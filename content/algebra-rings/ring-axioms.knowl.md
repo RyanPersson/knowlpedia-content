@@ -14,4 +14,6 @@ The **ring axioms** specify a set \(R\) equipped with two [[shared-foundations/b
 2. Multiplication is associative: \((ab)c=a(bc)\) for all \(a,b,c\in R\).
 3. Distributive laws hold: \(a(b+c)=ab+ac\) and \((a+b)c=ac+bc\) for all \(a,b,c\in R\).
 
+## Remarks
+
 These axioms define a [[algebra-rings/ring|ring]] (not necessarily [[algebra-rings/unital-ring|unital]], and not necessarily [[algebra-rings/commutative-ring|commutative]]). Most structural notions—such as an [[algebra-rings/ideal|ideal]] and a [[algebra-rings/ring-homomorphism|ring homomorphism]]—are formulated relative to this axiomatic package.

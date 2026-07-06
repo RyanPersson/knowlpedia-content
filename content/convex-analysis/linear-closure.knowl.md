@@ -29,5 +29,6 @@ $$
 
 where $\overline{\Omega}$ is the usual [[convex-analysis/closure-of-a-set|closure]]. See also [[convex-analysis/algebraic-interior-core|algebraic interior (core)]] for the dual notion.
 
-**Examples:**
+## Examples
+
 - If $\Omega$ is a linear subspace $L$, then $\operatorname{lin}(L)=L$.

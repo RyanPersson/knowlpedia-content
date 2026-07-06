@@ -12,7 +12,8 @@ A **measurable function** between measurable spaces $(X,\Sigma)$ and $(Y,\mathca
 
 Measurability depends on the choice of sigma-algebras on domain and codomain; in particular, using the [[measure-theory/borel-sigma-algebra|Borel sigma-algebra]] connects measurability to topology. For example, a [[topology/continuous-map|continuous map]] between topological spaces is Borel measurable.
 
-**Examples:**
+## Examples
+
 - If $f:\mathbb R\to\mathbb R$ is continuous (in the usual topology), then $f$ is measurable as a map $(\mathbb R,\mathcal B(\mathbb R))\to(\mathbb R,\mathcal B(\mathbb R))$.
 - If $A$ is a [[measure-theory/measurable-set|measurable set]] in $(X,\Sigma)$, then its [[measure-theory/indicator-function|indicator function]] $\mathbf 1_A:X\to\{0,1\}$ is measurable (with $\{0,1\}$ carrying its power-set sigma-algebra).
 - Every [[measure-theory/simple-function|simple function]] is measurable by definition.

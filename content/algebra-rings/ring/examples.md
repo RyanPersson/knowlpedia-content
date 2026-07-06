@@ -1,0 +1,3 @@
+- $\mathbb Z$ with usual $+$ and $\cdot$ is a (unital, commutative) ring.
+- $M_n(\mathbb Z)$ is a ring under matrix addition and multiplication, typically noncommutative for $n\ge 2$.
+- The even integers $2\mathbb Z$ form a ring (under inherited operations) but are not unital.

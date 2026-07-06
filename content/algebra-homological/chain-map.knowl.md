@@ -32,7 +32,7 @@ H_n(f): H_n(C_\bullet)\to H_n(D_\bullet),
 \]
 see [[algebra-homological/homology-module|homology module]].
 
-## Cross-links
+## Remarks
 - Two chain maps may be equivalent “up to homotopy”: [[algebra-homological/chain-homotopy|chain homotopy]].
 - Chain maps are morphisms in the category of complexes; more generally in an [[algebra-category-theory/abelian-category|abelian category]].
 - In degree 0, chain maps recover ordinary [[algebra-modules/algebra-homomorphism|module homomorphisms]].

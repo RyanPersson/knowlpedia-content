@@ -10,7 +10,6 @@ legacy_source_path = "algebra-commutative/localization-exact.md"
 
 Localization is not just a way to invert elements in a ring [[algebra-commutative/localization-ring|(localization of rings)]]; it is also a well-behaved operation on modules [[algebra-commutative/localization-module|(localization of modules)]]. One of its most important formal properties is that it preserves exact sequences.
 
-## Theorem
 
 Let $R$ be a [[algebra-rings/commutative-ring|commutative ring]], let $S$ be a [[algebra-commutative/multiplicative-set|multiplicative set]] in $R$, and let
 \[

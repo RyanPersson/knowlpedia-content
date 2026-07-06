@@ -26,9 +26,6 @@ For a discrete ensemble with probabilities $\{p_i\}$, this is $\langle A\rangle=
 - In the [[stat-mech/canonical-ensemble|canonical ensemble]], $\rho_\beta(x)=e^{-\beta H(x)}/Z$ where $H$ is the [[stat-mech/hamiltonian-function-classical|Hamiltonian]] and $Z$ is the [[stat-mech/partition-function-canonical|partition function]]. Then $\langle H\rangle$ is the internal energy predicted at temperature $T$.  
 - In the [[stat-mech/microcanonical-measure|microcanonical ensemble]], $P$ is (approximately) uniform on the [[stat-mech/microcanonical-shell|energy shell]], so $\langle A\rangle$ is the phase-space average of $A$ over that constraint surface.
 
-**Physical interpretation.**  
-$\langle A\rangle$ is the equilibrium prediction for repeated sampling of the system under the macroscopic constraints defining the ensemble. In many-body systems, large-$N$ behavior often makes $\langle A\rangle$ representative of typical outcomes (self-averaging), and different ensembles can give the same limit for suitable observables (equivalence of ensembles).
-
 **Fluctuations around the mean.**  
 Once $\langle A\rangle$ is defined, fluctuations are quantified by the [[stat-mech/variance-observable-ensemble|variance]]
 $$
@@ -41,3 +38,8 @@ $$
 $$
 
 These are organized systematically by [[stat-mech/fluctuation-observable|fluctuation formulas]] and by cumulant identities derived from $\ln Z$ (or $\ln \Xi$) in [[stat-mech/construction-fluctuation-formulas-log-z|fluctuations from log Z]].
+
+
+## Remarks
+**Physical interpretation.**  
+$\langle A\rangle$ is the equilibrium prediction for repeated sampling of the system under the macroscopic constraints defining the ensemble. In many-body systems, large-$N$ behavior often makes $\langle A\rangle$ representative of typical outcomes (self-averaging), and different ensembles can give the same limit for suitable observables (equivalence of ensembles).

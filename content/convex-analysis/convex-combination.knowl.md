@@ -19,6 +19,7 @@ $$
 
 **Context.** Convex combinations describe the points obtained by repeatedly taking "weighted averages." They generate the [[convex-analysis/convex-hull|convex hull]] of a set.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}^n$, the point $\tfrac12x_1+\tfrac12x_2$ is the midpoint of $x_1$ and $x_2$.
 - If $x_1,x_2,x_3\in\mathbb{R}^2$ are vertices of a triangle, then all points in the triangle are convex combinations of $x_1,x_2,x_3$.

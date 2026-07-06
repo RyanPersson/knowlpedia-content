@@ -1,0 +1,4 @@
+- $(\mathbb{N},+,0)$ is a monoid.
+- $(\mathbb{N},\times,1)$ is a monoid.
+- For any set $X$, the set of all [[shared-foundations/function|functions]] $X\to X$ is a monoid under composition, with identity $\mathrm{id}_X$.
+- The set of all $n\times n$ real matrices is a monoid under multiplication, with identity matrix $I_n$; it is not a group because not every matrix is invertible.

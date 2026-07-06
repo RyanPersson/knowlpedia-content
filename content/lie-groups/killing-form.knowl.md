@@ -17,6 +17,8 @@ B:\mathfrak g\times \mathfrak g\to \Bbbk,\qquad B(x,y)=\mathrm{tr}(\mathrm{ad}_x
 \]
 It is [[lie-groups/killing-form-ad-invariant-lemma|ad-invariant]] and depends functorially on $\mathfrak g$.
 
+## Remarks
+
 **Example: $\mathfrak{sl}_2(\mathbb C)$.**  
 With basis
 \[

@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/gibbs-kms-theorem.md"
 +++
 
-## Statement
-
 Let $\mathcal{H}$ be a finite-dimensional Hilbert space and let $H=H^\ast$ be a Hamiltonian. Consider the algebra of observables $\mathcal{A}=B(\mathcal{H})$ and the Heisenberg time evolution
 $$
 \alpha_t(A) := e^{itH}\,A\,e^{-itH}, \qquad t\in\mathbb{R}.

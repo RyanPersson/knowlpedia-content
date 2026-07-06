@@ -20,6 +20,9 @@ D^\omega:\Omega^k(P;V)\longrightarrow \Omega^{k+1}(P;V),
 \qquad
 (D^\omega\alpha)(v_0,\dots,v_k):=d\alpha(\mathrm{hor}\,v_0,\dots,\mathrm{hor}\,v_k).
 \]
+
+## Equivalent characterizations
+
 Equivalently, on tensorial forms one may write the usual local formula
 \[
 D^\omega\alpha = d\alpha + \rho_*(\omega)\wedge \alpha,

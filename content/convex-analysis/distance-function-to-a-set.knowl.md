@@ -21,6 +21,7 @@ $$
 
 **Convexity.** If $\Omega$ is [[convex-analysis/convex-set|convex]], then $d_\Omega$ is convex. Conversely, if $\Omega$ is closed and $d_\Omega$ is convex, then $\Omega$ is convex (standard exercise-level fact).
 
-**Examples:**
+## Examples
+
 - If $\Omega=\{0\}$, then $d_\Omega(x)=\|x\|$.
 - If $\Omega$ is a closed ball, $d_\Omega(x)$ is the excess of $\|x-x_0\|$ over the radius, truncated below by 0.

@@ -8,7 +8,7 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/cluster-expansion-theorem.md"
 +++
 
-## Context
+## Remarks
 Cluster expansions turn a partition function into a controlled series over *connected* objects (polymers/contours), yielding:
 - analyticity of the [[stat-mech/pressure-log-partition-density|pressure (log-partition density)]],
 - uniqueness of the [[stat-mech-lattice/infinite-volume-gibbs-measure|Gibbs state]] in appropriate regimes,

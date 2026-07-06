@@ -14,4 +14,6 @@ J\ \longmapsto\ J/I
 \]
 is an inclusion-preserving bijection between ideals \(J\) of \(R\) with \(I\subseteq J\) and ideals of the [[algebra-rings/quotient-ring|quotient ring]] \(R/I\). The inverse bijection sends an ideal \(K\triangleleft R/I\) to the [[shared-foundations/preimage|preimage]] \(\pi^{-1}(K)\).
 
+## Remarks
+
 Under this correspondence, [[algebra-rings/prime-ideal|prime ideals]] (and likewise [[algebra-rings/maximal-ideal|maximal ideals]] in the commutative case) correspond to prime (respectively maximal) ideals containing \(I\).

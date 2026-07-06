@@ -10,7 +10,6 @@ legacy_source_path = "stat-mech/laplace-principle-lemma.md"
 
 This lemma is a deterministic prototype for [[large-deviations/varadhans-lemma|Varadhan's lemma]] and is closely related to the [[large-deviations/large-deviation-principle|large deviation principle]]. It is frequently used to approximate partition functions and free energies via maximization.
 
-## Statement
 Let $K$ be a compact topological space and let $\mu$ be a finite Borel measure on $K$ such that every nonempty open set has positive $\mu$-measure. If $f:K\to\mathbb{R}$ is continuous, then
 $$
 \lim_{n\to\infty}\frac{1}{n}\log\!\int_K e^{n f(x)}\,\mu(dx)

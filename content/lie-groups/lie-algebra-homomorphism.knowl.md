@@ -26,6 +26,6 @@ Equivalently, $\varphi$ is a morphism in the category of Lie algebras: it intert
   $$
   (an instance of the first isomorphism theorem, formulated using [[lie-groups/quotient-lie-algebra|quotients of Lie algebras]]).
 
-## Context
+## Remarks
 If $f:G\to H$ is a [[lie-groups/lie-group-homomorphism|Lie group homomorphism]], then its differential at the identity,
 $df_e:\operatorname{Lie}(G)\to \operatorname{Lie}(H)$, is a Lie algebra homomorphism (see [[lie-groups/differential-is-lie-algebra-homomorphism|the differential–bracket compatibility]]). This is the bridge between global group structure and infinitesimal algebra structure.

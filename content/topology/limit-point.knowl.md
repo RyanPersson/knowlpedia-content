@@ -15,7 +15,8 @@ A **limit point** (or accumulation point) of a subset $A\subseteq X$ in a [[topo
 
 The set of all limit points of $A$ is the [[topology/derived-set|derived set]] of $A$. Limit points also describe [[topology/closure|closure]] via the identity $\overline{A}=A\cup A'$.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$, $0$ is a limit point of the set $\{1/n : n\in\mathbb{N}\}$.
 - In $\mathbb{R}$, every point of $(0,1)$ is a limit point of $(0,1)$.
 - In a discrete topological space, no subset has a limit point (every point has a singleton neighborhood).

@@ -23,4 +23,6 @@ $$
 
 where $\Phi\subset \mathfrak{h}^*$ is the [[lie-groups/root-lie-algebra|root set]] and $\mathfrak{g}_\alpha$ are the [[lie-groups/root-space|root spaces]].
 
+## Remarks
+
 **Motivation.** Cartan subalgebras are the “coordinate axes” for semisimple structure: weights of representations live in $\mathfrak{h}^*$ (see [[lie-groups/weights-in-dual-cartan|weights in the dual Cartan]]), and the choice of $\mathfrak{h}$ underlies Dynkin-diagram data such as the [[lie-groups/cartan-matrix|Cartan matrix]].

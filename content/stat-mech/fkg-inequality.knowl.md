@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/fkg-inequality.md"
 +++
 
-## Statement
-
 Let $\Omega=\{-1,+1\}^\Lambda$ with $\Lambda$ finite, equipped with the product partial order $\sigma\le \eta$ iff $\sigma_i\le \eta_i$ for all $i\in\Lambda$.
 
 A function $f:\Omega\to\mathbb{R}$ is **increasing** if $\sigma\le \eta$ implies $f(\sigma)\le f(\eta)$.

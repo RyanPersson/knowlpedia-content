@@ -16,7 +16,8 @@ such that $i$ is injective and $p$ is surjective, and $\operatorname{im}(i)=\ker
 
 Short exact sequences classify extensions: they encode how $B$ is built from a submodule isomorphic to $A$ and a quotient isomorphic to $C$.
 
-**Examples:**
+## Examples
+
 - For any module $M$ and submodule $N\le M$, the canonical sequence $0\to N\to M\to M/N\to 0$ is short exact.
 - For $n\ne 0$, the sequence $0\to \mathbb Z \xrightarrow{\times n} \mathbb Z \to \mathbb Z/n\mathbb Z \to 0$ is short exact.
 - (Edge case) If $A=0$, a short exact sequence is just $0\to B\xrightarrow{\sim} C\to 0$, so $B\cong C$.

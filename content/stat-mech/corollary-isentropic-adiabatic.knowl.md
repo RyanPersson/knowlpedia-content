@@ -10,7 +10,6 @@ legacy_source_path = "stat-mech/corollary-isentropic-adiabatic.md"
 
 Let $S$ be [[thermodynamics/thermodynamic-entropy|thermodynamic entropy]] and $T$ the [[thermodynamics/temperature-thermo|temperature]].
 
-## Statement
 For any reversible process between equilibrium states,
 $$
 dS = \frac{\delta Q_{\mathrm{rev}}}{T}.

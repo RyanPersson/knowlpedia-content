@@ -32,9 +32,6 @@ $$
 
 then for small $\Delta E$ one has $\Omega(E,\Delta E)\approx \omega(E)\,\Delta E$, so $S_B(E)$ is (up to an additive constant $k_B\ln\Delta E$) the logarithm of $\omega(E)$.
 
-**Physical interpretation.**  
-$S_B$ measures “how many” microstates are compatible with a given [[stat-mech/macrostate|macrostate]] constraint (here, fixed energy). The associated [[stat-mech/microcanonical-measure|microcanonical measure]] is uniform over the energy shell/window, so $\Omega$ is literally the volume being sampled.
-
 **Thermodynamic structure.**  
 In the [[thermodynamics/thermodynamic-limit|thermodynamic limit]], $S_B$ becomes extensive and agrees with [[thermodynamics/thermodynamic-entropy|thermodynamic entropy]] (for equilibrium states), while the dependence on the particular choice of $\Delta E$ drops out at the level of entropy density.
 
@@ -44,3 +41,8 @@ $$
 $$
 
 equivalently $\,\beta = (\partial S_B/\partial E)/k_B$, where $\beta$ is [[thermodynamics/inverse-temperature-beta|inverse temperature]] and the construction is summarized in [[stat-mech/construction-temperature-from-entropy|temperature from entropy]].
+
+
+## Remarks
+**Physical interpretation.**  
+$S_B$ measures “how many” microstates are compatible with a given [[stat-mech/macrostate|macrostate]] constraint (here, fixed energy). The associated [[stat-mech/microcanonical-measure|microcanonical measure]] is uniform over the energy shell/window, so $\Omega$ is literally the volume being sampled.

@@ -16,6 +16,7 @@ where $m_i=\inf\{f(x):x\in[x_{i-1},x_i]\}$ is the [[real-analysis/infimum|infimu
 
 Lower sums are paired with [[real-analysis/upper-sum|upper sums]] to define [[real-analysis/riemann-integrable-function|Riemann integrability]] via the gap $U(f,P)-L(f,P)$.
 
-**Examples:**
+## Examples
+
 - For $f(x)=x$ on $[0,1]$ and $P=\{0,\tfrac12,1\}$, one gets $L(f,P)=0\cdot\tfrac12+\tfrac12\cdot\tfrac12=\tfrac14$.
 - If $f(x)=c$ is constant on $[a,b]$, then $L(f,P)=c(b-a)$ for every partition $P$.

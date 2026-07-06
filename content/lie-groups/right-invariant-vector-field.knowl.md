@@ -14,11 +14,6 @@ $$
 $$
 where \(R_g\) is [[lie-groups/right-translation|right translation]].
 
-Equivalently, for all \(g,h\in G\),
-$$
-X_{hg} = (dR_g)_h(X_h).
-$$
-
 ## Determined by the value at the identity
 As with left-invariance, a right-invariant vector field is determined by \(X_e\in T_eG\), and any \(v\in T_eG\) defines a unique right-invariant vector field
 $$
@@ -34,3 +29,9 @@ $$
 so the bracket corresponds to the negative of the usual [[fiber-bundles/lie-bracket|Lie bracket]] on \(\mathfrak{g}\). (Left-invariant fields match the bracket without the minus sign; see [[lie-groups/left-invariant-vector-field|left-invariant vector fields]].)
 
 Right-invariant fields are often convenient when studying conjugation and the [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]].
+
+## Equivalent characterizations
+Equivalently, for all \(g,h\in G\),
+$$
+X_{hg} = (dR_g)_h(X_h).
+$$

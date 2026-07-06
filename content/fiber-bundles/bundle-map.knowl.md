@@ -14,6 +14,8 @@ Let \(\pi:E\to M\) and \(\pi':E'\to M'\) be [[fiber-bundles/fibered-manifold|fib
 \]
 Equivalently, \(F\) is a [[fiber-bundles/fiber-preserving-map|fiber-preserving map]] for which both projections are surjective submersions; when \(f\) is understood one says “\(F\) is a bundle map over \(f\)”.
 
+## Remarks
+
 Differentiating the commutative square gives, for each \(e\in E\),
 \[
 d\pi'_{F(e)}\circ dF_e \;=\; df_{\pi(e)}\circ d\pi_e.

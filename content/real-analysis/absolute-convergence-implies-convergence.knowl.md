@@ -14,4 +14,6 @@ legacy_source_path = "real-analysis/absolute-convergence-implies-convergence.md"
 \]
 converges, then the original series $\sum_{n=1}^\infty a_n$ [[real-analysis/convergent-series|converges]].
 
+## Remarks
+
 This principle is a cornerstone of series theory: it justifies treating absolutely convergent series much like finite sums and underlies results such as invariance under [[real-analysis/rearrangement-theorem-absolute|rearrangement]].

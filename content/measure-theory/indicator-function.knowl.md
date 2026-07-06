@@ -12,6 +12,7 @@ An **indicator function** of a subset $A\subseteq X$ is the function $\mathbf 1_
 
 Indicator functions translate set operations into algebraic ones and are the basic building blocks of [[measure-theory/simple-function|simple functions]]. In a [[measure-theory/measurable-space|measurable space]] $(X,\Sigma)$, $\mathbf 1_A$ is [[measure-theory/measurable-function|measurable]] exactly when $A$ is a [[measure-theory/measurable-set|measurable set]] (with $\{0,1\}$ carrying its power-set sigma-algebra).
 
-**Examples:**
+## Examples
+
 - On $(\mathbb R,\mathcal B(\mathbb R))$, the indicator function $\mathbf 1_{(0,1)}$ of the open [[real-analysis/interval|interval]] $(0,1)$ is measurable.
 - If $N$ is a [[measure-theory/null-set|null set]] in a measure space, then $\mathbf 1_N$ equals $0$ [[measure-theory/almost-everywhere|almost everywhere]].

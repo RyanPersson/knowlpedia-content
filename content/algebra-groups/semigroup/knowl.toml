@@ -1,0 +1,51 @@
+id = "algebra-groups/semigroup"
+title = "Semigroup"
+kind = "definition"
+summary = "A set equipped with an associative binary operation"
+aliases = ["semigroup"]
+domains = ["algebra-groups"]
+legacy_source_path = "algebra-groups/semigroup.md"
+
+[core]
+source = "core.md"
+
+[[core.data]]
+id = "carrier"
+text = 'A set $S$.'
+refs = ["shared-foundations/set"]
+
+[[core.data]]
+id = "operation"
+text = 'A binary operation $\cdot : S \times S \to S$.'
+refs = ["shared-foundations/binary-operation"]
+
+[[core.axioms]]
+id = "associativity"
+text = 'For all $a,b,c \in S$, $(a\cdot b)\cdot c = a\cdot(b\cdot c)$.'
+
+[[sections]]
+id = "examples"
+title = "Examples"
+kind = "examples"
+source = "examples.md"
+default_open = false
+
+[[sections]]
+id = "remarks"
+title = "Remarks"
+kind = "remarks"
+source = "remarks.md"
+default_open = false
+
+[[relations]]
+type = "generalization_of"
+target = "algebra-groups/monoid"
+note = "A monoid is a semigroup with an identity element."
+
+[[relations]]
+type = "uses"
+target = "shared-foundations/set"
+
+[[relations]]
+type = "uses"
+target = "shared-foundations/binary-operation"

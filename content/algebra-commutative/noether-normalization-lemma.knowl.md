@@ -10,7 +10,6 @@ legacy_source_path = "algebra-commutative/noether-normalization-lemma.md"
 
 Noether normalization is the foundational structural theorem for finitely generated algebras over a field: after choosing suitable “coordinates,” the algebra becomes an [[algebra-commutative/integral-extension|integral extension]] of a polynomial ring. It is one of the key inputs behind dimension theory (via [[algebra-commutative/krull-dimension|Krull dimension]]) and the algebra–geometry dictionary (via the [[algebra-commutative/nullstellensatz-variety-correspondence|Nullstellensatz correspondence]]).
 
-## Statement
 
 Let $k$ be a [[algebra-rings/field|field]], and let $A$ be a finitely generated $k$-algebra. Then there exist elements
 \[

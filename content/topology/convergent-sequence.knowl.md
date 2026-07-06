@@ -12,6 +12,7 @@ A **convergent sequence** $(x_n)$ in a [[topology/topological-space|topological 
 
 In a [[topology/metric-space|metric space]] $(X,d)$, this is equivalent to $d(x_n,x)\to 0$. In a [[topology/hausdorff-space|Hausdorff space]], limits of convergent sequences are unique (see [[topology/uniqueness-of-limits-hausdorff|uniqueness of limits]]).
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$ with the usual metric, the sequence $x_n=1/n$ converges to $0$.
 - In a space with the discrete metric, a sequence converges if and only if it is eventually constant.

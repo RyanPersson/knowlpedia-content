@@ -12,7 +12,7 @@ An **isolated system** is a [[thermodynamics/thermodynamic-system|thermodynamic 
 
 In practice, isolation is an idealization: interactions with the environment are negligible on the timescale of interest.
 
-## Physical interpretation
+## Interpretation
 A typical mental model is a rigid, sealed container with perfectly insulating walls in an otherwise empty environment. The system may still undergo internal changes (chemical reactions, phase changes, mixing, relaxation), but these occur without any net exchange with the surroundings.
 
 Isolation is stronger than simply being [[thermodynamics/closed-system|closed]]: a closed system forbids matter exchange, whereas an isolated system forbids both matter and energy exchange.

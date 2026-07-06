@@ -17,8 +17,11 @@ where $U(f,P)$ is the [[real-analysis/upper-sum|upper sum]] and $L(f,P)$ is the 
 \sup_P L(f,P)=\inf_P U(f,P).
 \]
 
+## Remarks
+
 When $f$ is Riemann integrable, the common value is the [[real-analysis/riemann-integral|Riemann integral]] of $f$. Integrability is closely tied to the [[real-analysis/set-of-discontinuities|set of discontinuities]] (see the [[measure-theory/lebesgue-criterion-for-riemann-integrability|Lebesgue criterion for Riemann integrability]]).
 
-**Examples:**
+## Examples
+
 - Any function that is continuous on $[a,b]$ is Riemann integrable.
 - The indicator function of $\mathbb Q\cap[a,b]$ is not Riemann integrable on $[a,b]$.

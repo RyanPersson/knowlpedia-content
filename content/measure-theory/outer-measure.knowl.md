@@ -15,6 +15,7 @@ An **outer measure** on a set $X$ is a function $\mu^*:\mathcal P(X)\to[0,\infty
 
 Outer measures live on the full [[shared-foundations/power-set|power set]] and are used to define [[measure-theory/caratheodory-measurable-set|Carathéodory measurable sets]]. The [[measure-theory/caratheodory-construction|Carathéodory construction]] turns an outer measure into a genuine [[measure-theory/measure|measure]] on a sigma-algebra.
 
-**Examples:**
+## Examples
+
 - If $(X,\Sigma,\mu)$ is a [[measure-theory/measure-space|measure space]], then $\mu^*(A)=\inf\{\mu(B): B\in\Sigma,\ A\subseteq B\}$ defines an outer measure on $X$.
 - Lebesgue outer measure on $\mathbb R^n$ is an outer measure built from coverings by rectangles and is the starting point for [[measure-theory/lebesgue-measure|Lebesgue measure]].

@@ -14,4 +14,6 @@ A **pinned automorphism** is an automorphism of $G$ (equivalently of $\mathfrak 
 
 In the letter, $\Omega$ is a group of such "pinning-preserving" automorphisms (with lattice conditions), and its contragredient action gives an action on the [[langlands-letter/knowls/langlands-dual-group|dual group]].
 
-**Example:** For many types, pinned automorphisms correspond to Dynkin diagram automorphisms.
+## Examples
+
+- For many types, pinned automorphisms correspond to Dynkin diagram automorphisms.

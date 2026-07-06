@@ -1,0 +1,66 @@
+id = "algebra-category-theory/category"
+title = "Category"
+kind = "definition"
+summary = "A structure of objects and morphisms with associative composition and identity morphisms."
+aliases = ["category"]
+domains = ["algebra-category-theory"]
+legacy_source_path = "algebra-category-theory/category.md"
+
+[core]
+source = "core.md"
+
+[[core.data]]
+id = "objects"
+text = 'A collection $\mathrm{Ob}(\mathcal C)$ of objects.'
+refs = ["algebra-category-theory/object"]
+
+[[core.data]]
+id = "morphisms"
+text = 'For each pair $X,Y$, a collection $\mathrm{Hom}_{\mathcal C}(X,Y)$ of morphisms $X \to Y$.'
+refs = ["algebra-category-theory/morphism"]
+
+[[core.data]]
+id = "composition"
+text = 'For each triple $X,Y,Z$, a composition $\circ : \mathrm{Hom}(Y,Z)\times \mathrm{Hom}(X,Y)\to \mathrm{Hom}(X,Z)$.'
+refs = ["algebra-category-theory/composition-category"]
+
+[[core.data]]
+id = "identities"
+text = 'For each object $X$, an identity morphism $1_X \in \mathrm{Hom}(X,X)$.'
+refs = ["algebra-category-theory/identity-morphism"]
+
+[[core.axioms]]
+id = "associativity"
+text = 'Composition is associative: $h\circ(g\circ f) = (h\circ g)\circ f$ whenever the composites are defined.'
+refs = ["algebra-category-theory/category-axioms"]
+
+[[core.axioms]]
+id = "identity"
+text = 'Identity morphisms are units: $1_Y\circ f = f = f\circ 1_X$ for every $f : X \to Y$.'
+refs = ["algebra-category-theory/category-axioms"]
+
+[[sections]]
+id = "examples"
+title = "Examples"
+kind = "examples"
+source = "examples.md"
+default_open = false
+
+[[sections]]
+id = "remarks"
+title = "Remarks"
+kind = "remarks"
+source = "remarks.md"
+default_open = false
+
+[[relations]]
+type = "uses"
+target = "algebra-category-theory/object"
+
+[[relations]]
+type = "uses"
+target = "algebra-category-theory/morphism"
+
+[[relations]]
+type = "uses"
+target = "algebra-category-theory/category-axioms"

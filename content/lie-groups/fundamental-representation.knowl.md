@@ -17,6 +17,8 @@ where $\alpha_j^\vee$ are the simple coroots.
 **Definition (Fundamental representation).**  
 A **fundamental representation** of $\mathfrak g$ is a finite-dimensional irreducible [[lie-groups/highest-weight-representation|highest-weight representation]] whose [[lie-groups/highest-weight|highest weight]] is one of the fundamental weights $\omega_i$.
 
+## Remarks
+
 **Example (type $A_{n-1}$).**  
 For $\mathfrak{sl}_n(\mathbb C)$ (see [[lie-groups/special-linear-lie-algebra|special linear Lie algebra]]), the fundamental representations are the exterior powers of the defining representation:
 \[

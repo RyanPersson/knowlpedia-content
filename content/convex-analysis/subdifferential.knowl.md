@@ -19,6 +19,7 @@ Any $g\in\partial f(x)$ is called a [[convex-analysis/subgradient|subgradient]] 
 
 Geometrically, $g\in\partial f(x)$ encodes a [[convex-analysis/supporting-hyperplane-convex-function|supporting hyperplane]] to the epigraph of $f$ at $(x,f(x))$, with normal determined by $g$ (compare [[convex-analysis/hyperplane|hyperplane]]). If $f$ is differentiable at $x$ (in the sense of the [[real-analysis/derivative|derivative]] / [[real-analysis/differentiable-map|differentiable map]]), then $\partial f(x)=\{\nabla f(x)\}$.
 
-**Examples:**
+## Examples
+
 - For $f(x)=|x|$ on $\mathbb{R}$, one has $\partial f(0)=[-1,1]$ and $\partial f(x)=\{\mathrm{sign}(x)\}$ for $x\ne 0$.
 - If $f=\delta_C$ is the indicator of a closed convex set $C$, then $\partial f(x)$ consists of outward normal vectors to $C$ at $x$ (and is empty if $x\notin C$).

@@ -14,4 +14,6 @@ legacy_source_path = "algebra-rings/content-formula.md"
 \]
 i.e., $\operatorname{cont}(fg)$ is associate to $\operatorname{cont}(f)\operatorname{cont}(g)$. In particular, the product of primitive polynomials is primitive.
 
+## Remarks
+
 Here [[algebra-rings/content-polynomial|content]] is computed in the [[algebra-rings/polynomial-ring|polynomial ring]] over a [[algebra-rings/ufd|UFD]]. The formula implies that the product of two [[algebra-rings/primitive-polynomial|primitive polynomials]] is primitive and is a standard ingredient in [[algebra-rings/gauss-content-lemma|Gauss's content lemma]].

@@ -15,8 +15,8 @@ so in particular $|Z(G)|\ge p$.
 
 This is a direct consequence of the [[algebra-groups/class-equation|class equation]], which decomposes $|G|$ into $|Z(G)|$ plus sizes of non-central [[algebra-groups/conjugacy-class|conjugacy classes]], each of which has cardinality divisible by $p$ in a $p$-group.
 
+## Examples
 
-**Examples:**
 - If $G$ is abelian, then $Z(G)=G$, so the conclusion holds trivially (and $|Z(G)|=|G|=p^n$).
 - In the dihedral group of order $8$, $D_8=\langle r,s \mid r^4=e,\ s^2=e,\ srs=r^{-1}\rangle$, the center is $Z(D_8)=\{e,r^2\}$, which has size $2$ (and $2\mid 8$).
 - If $|G|=p$ then $G$ is cyclic (hence abelian), so again $Z(G)=G\neq \{e\}$.

@@ -14,7 +14,8 @@ A **solvable group** is a [[algebra-groups/group|group]] $G$ whose [[algebra-gro
 
 Equivalently, $G$ is solvable iff it has a finite [[algebra-groups/subnormal-series|subnormal series]] whose successive quotients are [[algebra-groups/abelian-group|abelian]].
 
-**Examples:**
+## Examples
+
 - Every abelian group is solvable (the derived series hits $\{e\}$ in at most two steps).
 - $S_3$ is solvable.
 - *(Non-example)* $A_5$ is not solvable.

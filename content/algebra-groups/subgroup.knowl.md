@@ -16,7 +16,8 @@ Let $G$ be a [[algebra-groups/group|group]] with operation $\cdot$. A **subgroup
 
 Equivalently, $H$ is a subgroup iff it is nonempty and closed under the one-step test $ab^{-1}\in H$; see the [[algebra-groups/subgroup-test-one-step|subgroup test]]. Subgroups are the basic inputs for [[algebra-groups/coset|cosets]] and for size constraints in finite groups via [[algebra-groups/lagranges-theorem|Lagrange's theorem]].
 
-**Examples:**
+## Examples
+
 - For $n\in\mathbb{Z}$, the set $n\mathbb{Z}=\{nk:k\in\mathbb{Z}\}$ is a subgroup of $(\mathbb{Z},+)$.
 - The alternating group $A_n$ is a subgroup of $S_n$.
 - The set of diagonal invertible matrices is a subgroup of the group of invertible matrices under multiplication.

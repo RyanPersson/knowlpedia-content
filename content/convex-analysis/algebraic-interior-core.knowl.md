@@ -24,6 +24,7 @@ $$
 
 where $\operatorname{int}(\Omega)$ is the usual [[convex-analysis/interior-of-a-set|interior]]. See also [[convex-analysis/linear-closure|linear closure]] for the dual notion.
 
-**Examples:**
+## Examples
+
 - If $\Omega$ is an open ball in a normed space, then $\operatorname{core}(\Omega)=\Omega$.
 - If $\Omega$ is a linear subspace $L$, then $\operatorname{core}(L)=L$.

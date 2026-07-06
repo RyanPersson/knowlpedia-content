@@ -18,6 +18,8 @@ $$
 
 where $\mathbb{T}^m$ is an $m$-torus (isomorphic to $(S^1)^m$). In particular, $G$ is determined up to isomorphism by the pair $(n,m)$ with $\dim G = n+m$.
 
+## Remarks
+
 **Idea of proof (covering + lattice).**
 - Since $G$ is connected and abelian, its universal cover $\widetilde{G}$ is a connected simply connected abelian Lie group. Such a group is isomorphic to the additive group of its Lie algebra, so $\widetilde{G}\cong (\mathfrak{g},+) \cong \mathbb{R}^{n+m}$; compare [[lie-groups/universal-covering-group|universal covering groups]].
 - The covering map $\widetilde{G}\to G$ has kernel a [[lie-groups/discrete-subgroup|discrete subgroup]] of $\widetilde{G}$, hence a lattice in $\mathbb{R}^{n+m}$ up to linear change of coordinates.

@@ -33,7 +33,7 @@ $$
 
 where $Z_{\Lambda,\beta}(\eta)$ is the [[stat-mech-lattice/partition-function-lattice|partition function]].
 
-## Key properties
+## Properties
 
 - **Local energetic preference (antialignment).** Since $J>0$ multiplies $\sigma_x\sigma_y$, an edge contributes lower energy when $\sigma_x\sigma_y=-1$, i.e. neighboring spins are opposite.
 
@@ -50,6 +50,6 @@ where $Z_{\Lambda,\beta}(\eta)$ is the [[stat-mech-lattice/partition-function-la
 
 - **Phase transitions and symmetry breaking.** In dimensions $d\ge 2$ (and for sufficiently short-range interactions), the antiferromagnetic model on a bipartite lattice typically exhibits a low-temperature ordered phase characterized by nonzero staggered magnetization and [[stat-mech-lattice/spontaneous-symmetry-breaking|spontaneous symmetry breaking]] in the infinite-volume limit, formulated via [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs measures]] and [[stat-mech-lattice/phase-transition-gibbs|phase transitions]].
 
-## Physical interpretation
+## Interpretation
 
 The antiferromagnetic Ising model is a minimal model for **antiferromagnets**, where neighboring magnetic moments prefer to point in opposite directions due to exchange interactions. On bipartite lattices this produces **Néel order** (alternating sublattice magnetization). Unlike the ferromagnetic case, the usual uniform [[stat-mech-lattice/spontaneous-magnetization|spontaneous magnetization]] can vanish even in an ordered phase; the physically meaningful “magnetization” is staggered.

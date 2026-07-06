@@ -15,7 +15,8 @@ A point $a\in U$ is a **critical point** of $f$ if $\operatorname{rank} Df(a) < 
 
 Regular points are where $f$ behaves locally like a projection (after smooth changes of coordinates). Critical points are where local geometry can "pinch" or change dimension; they govern where the implicit function theorem can fail.
 
-**Examples:**
+## Examples
+
 - If $f:\mathbb{R}^2\to\mathbb{R}$ is given by $f(x,y)=x^2+y^2$, then $(0,0)$ is a critical point since $\nabla f(0,0)=(0,0)$, while any $(x,y)\neq (0,0)$ is regular.
 - If $f:\mathbb{R}^2\to\mathbb{R}^2$ is $f(x,y)=(x,y)$, then every point is regular since $Df(a)=I$ has rank $2$.
 - For $f:\mathbb{R}\to\mathbb{R}$, a point $a$ is critical exactly when $f'(a)=0$.

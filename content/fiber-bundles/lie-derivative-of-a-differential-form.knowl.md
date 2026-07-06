@@ -24,7 +24,7 @@ The Lie derivative can be computed without explicitly using the flow, via **Cart
 \]
 Here \(\iota_X\) is the [[fiber-bundles/interior-product-contraction-x|interior product (contraction)]] with \(X\), and \(d\) is the [[fiber-bundles/exterior-derivative|exterior derivative]].
 
-## Key properties
+## Properties
 For \(\alpha\in\Omega^k(M)\) and \(\beta\in\Omega^\ell(M)\):
 
 - **Degree 0 derivation with respect to the** [[fiber-bundles/wedge-product-of-differential-forms|wedge product]]:

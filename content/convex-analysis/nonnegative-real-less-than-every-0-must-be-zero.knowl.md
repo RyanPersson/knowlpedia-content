@@ -18,4 +18,6 @@ then $\ell=0$.
 
 **Proof.** If $\ell>0$, choose $\varepsilon:=\ell/2>0$. Then $\varepsilon<\ell$, contradicting the assumption that $\ell<\varepsilon$ for every $\varepsilon>0$. Hence $\ell=0$.
 
+## Remarks
+
 This lemma is commonly used to conclude equality from estimates that hold for all $\varepsilon>0$, e.g. in [[convex-analysis/uniqueness-of-limits-in-metric-spaces|uniqueness of limits]].

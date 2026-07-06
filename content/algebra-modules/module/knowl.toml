@@ -1,0 +1,71 @@
+id = "algebra-modules/module"
+title = "Module"
+kind = "definition"
+summary = "An abelian group equipped with a compatible scalar action by a ring (left or right)."
+aliases = ["module"]
+domains = ["algebra-modules"]
+legacy_source_path = "algebra-modules/module.md"
+
+[core]
+source = "core.md"
+
+[[core.data]]
+id = "scalars"
+text = 'A ring $R$ (often assumed unital).'
+refs = ["algebra-rings/ring"]
+
+[[core.data]]
+id = "carrier"
+text = 'An abelian group $(M,+)$.'
+refs = ["algebra-groups/abelian-group"]
+
+[[core.data]]
+id = "action"
+text = 'A scalar multiplication $R\times M\to M$, $(r,m)\mapsto rm$.'
+
+[[core.axioms]]
+id = "distributes-over-module-addition"
+text = '$r(m+n)=rm+rn$ for all $r\in R$ and $m,n\in M$.'
+refs = ["algebra-modules/module-axioms"]
+
+[[core.axioms]]
+id = "distributes-over-ring-addition"
+text = '$(r+s)m=rm+sm$ for all $r,s\in R$ and $m\in M$.'
+refs = ["algebra-modules/module-axioms"]
+
+[[core.axioms]]
+id = "associativity"
+text = '$(rs)m=r(sm)$ for all $r,s\in R$ and $m\in M$.'
+refs = ["algebra-modules/module-axioms"]
+
+[[core.axioms]]
+id = "unital"
+text = 'If $R$ is unital, then $1_R m=m$ for all $m\in M$.'
+refs = ["algebra-rings/unital-ring"]
+
+[[sections]]
+id = "examples"
+title = "Examples"
+kind = "examples"
+source = "examples.md"
+default_open = false
+
+[[sections]]
+id = "remarks"
+title = "Remarks"
+kind = "remarks"
+source = "remarks.md"
+default_open = false
+
+[[relations]]
+type = "generalization_of"
+target = "linear-algebra/vector-space"
+note = "A vector space is a module over a field."
+
+[[relations]]
+type = "uses"
+target = "algebra-rings/ring"
+
+[[relations]]
+type = "uses"
+target = "algebra-groups/abelian-group"

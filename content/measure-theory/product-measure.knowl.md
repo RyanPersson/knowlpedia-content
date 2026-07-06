@@ -16,6 +16,7 @@ $$
 
 When $\mu$ and $\nu$ are $\sigma$-finite, such a measure exists and is uniquely determined by its values on rectangles; it is the measure used in [[measure-theory/tonellis-theorem|Tonelli's theorem]] and [[measure-theory/fubinis-theorem|Fubini's theorem]] for iterated integration.
 
-**Examples:**
+## Examples
+
 - If $\lambda$ is [[measure-theory/lebesgue-measure|Lebesgue measure]] on $\mathbb{R}$, then $\lambda\otimes\lambda$ is the standard Lebesgue measure on $\mathbb{R}^2$ (and more generally $\lambda^{\otimes n}$ gives Lebesgue measure on $\mathbb{R}^n$).
 - If $\mu$ and $\nu$ are counting measures on $\mathbb{N}$, then $\mu\otimes\nu$ is counting measure on $\mathbb{N}\times\mathbb{N}$: for any finite set $E\subset \mathbb{N}\times\mathbb{N}$ one has $(\mu\otimes\nu)(E)=|E|$.

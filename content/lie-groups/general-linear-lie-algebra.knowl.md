@@ -21,6 +21,8 @@ equipped with the commutator [[fiber-bundles/lie-bracket|Lie bracket]]
 \]
 After choosing a basis, $\mathfrak{gl}(V)\cong \mathfrak{gl}_n(\mathbb F)=M_n(\mathbb F)$ with the same bracket.
 
+## Remarks
+
 **Relation to the group $\mathrm{GL}(V)$.**  
 If $G=\mathrm{GL}(V)$ is the [[lie-groups/general-linear-group|general linear group]], then $\mathfrak{gl}(V)$ is naturally the [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of G]], identified with $T_I G$; under this identification, the Lie bracket on $\mathfrak g$ agrees with the commutator bracket.
 

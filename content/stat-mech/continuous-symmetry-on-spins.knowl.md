@@ -46,7 +46,7 @@ For short-range, sufficiently regular interactions and continuous symmetries, th
 ### Quasi-long-range order and topological defects
 In the 2D XY model, one can have power-law decay of correlations (no true long-range order) and a transition driven by unbinding of vortices; see [[stat-mech/kosterlitz-thouless-transition|Kosterlitz–Thouless transition]] and [[stat-mech/topological-defect-vortex|vortices]].
 
-## Prerequisites
+## Remarks
 - [[stat-mech-lattice/lattice-hamiltonian|lattice Hamiltonians]]
 - [[stat-mech-lattice/finite-volume-gibbs-measure|finite-volume Gibbs measures]] and [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs measures]]
 - [[stat-mech/correlation-length|correlation length]]

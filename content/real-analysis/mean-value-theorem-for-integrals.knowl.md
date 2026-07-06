@@ -13,4 +13,6 @@ $$
 \int_a^b f(x)\,dx = f(c)\,(b-a).
 $$
 
+## Equivalent characterizations
+
 Equivalently, the average value $\frac{1}{b-a}\int_a^b f(x)\,dx$ is achieved by $f$ at some point; this relies on the [[real-analysis/intermediate-value-theorem|intermediate value theorem]] together with existence of the [[real-analysis/riemann-integral|Riemann integral]] for continuous functions.

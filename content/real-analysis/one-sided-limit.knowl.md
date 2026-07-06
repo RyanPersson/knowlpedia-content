@@ -14,6 +14,7 @@ A **one-sided limit** for a [[shared-foundations/function|function]] $f:D\to\mat
 
 One-sided limits refine the [[real-analysis/limit-at-a-point|limit at a point]] by tracking behavior on half-neighborhoods, and they are especially natural for functions defined on [[real-analysis/interval|intervals]] with endpoints. They are used to describe jump behavior at a [[real-analysis/discontinuity-point|discontinuity point]].
 
-**Examples:**
+## Examples
+
 - For $f(x)=|x|$, both $\lim_{x\to 0^-} f(x)$ and $\lim_{x\to 0^+} f(x)$ equal $0$.
 - For $g(x)=\begin{cases}1,&x>0\\-1,&x<0\end{cases}$, one has $\lim_{x\to 0^+} g(x)=1$ and $\lim_{x\to 0^-} g(x)=-1$.

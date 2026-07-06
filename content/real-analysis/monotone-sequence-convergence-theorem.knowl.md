@@ -19,4 +19,6 @@ legacy_source_path = "real-analysis/monotone-sequence-convergence-theorem.md"
 \lim_{n\to\infty} a_n=\inf\{a_n:\ n\in\mathbb{N}\}.
 \]
 
+## Remarks
+
 This theorem is a primary working form of the [[real-analysis/completeness-axiom|completeness axiom]] and is used throughout real analysis to produce limits from order and boundedness information.

@@ -31,6 +31,8 @@ with the usual graded antisymmetrization convention.
    \]
 3. The de Rham cohomology class $[\operatorname{cw}_P(\omega)]\in H^{2k}_{\mathrm{dR}}(M)$ is independent of the choice of connection $\omega$; equivalently, changing $\omega$ changes $\operatorname{cw}_P(\omega)$ by an exact form (see the [[fiber-bundles/transgression-theorem-p-p-is-exact|transgression theorem]]).
 
+## Remarks
+
 A standard route to (1) is to combine the [[fiber-bundles/bianchi-identity|Bianchi identity]] with Ad-invariance of $P$.
 
 ## Examples

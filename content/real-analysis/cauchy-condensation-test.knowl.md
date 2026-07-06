@@ -14,4 +14,6 @@ legacy_source_path = "real-analysis/cauchy-condensation-test.md"
 \]
 converges.
 
+## Remarks
+
 This test is especially effective for borderline cases where comparison with $\sum 1/n^p$ is delicate; it is often used alongside the [[real-analysis/integral-test|integral test]] and the [[real-analysis/comparison-test|comparison test]].

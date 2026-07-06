@@ -14,7 +14,8 @@ The function $f$ is **convex** if its epigraph (see [[convex-analysis/domain-and
 
 **Context.** This geometric definition is equivalent to analytic inequalities such as Jensen's inequality; see [[convex-analysis/equivalent-characterizations-of-convex-functions|equivalent characterizations of convexity]].
 
-**Examples:**
+## Examples
+
 - On a normed space, $x\mapsto \|x\|$ is convex (uses the triangle inequality; see [[convex-analysis/norm-normed-vector-space|norm]]).
 - The [[convex-analysis/indicator-function-of-a-set|indicator function]] of a set $\Omega$ is convex iff $\Omega$ is convex.
 - The [[convex-analysis/distance-function-to-a-set|distance function]] to a convex set is convex (in normed spaces).

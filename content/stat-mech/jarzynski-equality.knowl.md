@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/jarzynski-equality.md"
 +++
 
-## Statement
 Let a system at inverse temperature $\beta=1/(k_B T)$ (with $T$ the [[thermodynamics/temperature-thermo|temperature]]) start in equilibrium at control parameter $\lambda_0$, typically the [[stat-mech/canonical-ensemble|canonical ensemble]].
 
 Drive the system with an arbitrary (possibly fast) protocol $\lambda_t$ over $t\in[0,\tau]$. For each realization, measure the work $W$ performed on the system (see [[stat-mech/work-distribution-nonequilibrium|work distribution]]). Let

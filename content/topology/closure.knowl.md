@@ -12,11 +12,16 @@ The **closure** of a subset $A\subseteq X$ in a [[topology/topological-space|top
 \[
 \overline{A}=\bigcap\{F\subseteq X : F \text{ is a closed set and } A\subseteq F\}.
 \]
+## Equivalent characterizations
+
 Equivalently, a point $x\in X$ lies in $\overline{A}$ if and only if every [[topology/neighborhood|neighborhood]] of $x$ intersects $A$.
+
+## Remarks
 
 A set $F$ is [[topology/closed-set|closed]] exactly when $F=\overline{F}$. Closure is closely tied to [[topology/limit-point|limit points]] and the [[topology/derived-set|derived set]].
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$ with the usual topology, $\overline{(0,1)}=[0,1]$.
 - In $\mathbb{R}$ with the usual topology, $\overline{\mathbb{Q}}=\mathbb{R}$.
 - $\overline{\varnothing}=\varnothing$ in any topological space.

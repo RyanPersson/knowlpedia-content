@@ -17,6 +17,7 @@ where $X/L$ is the [[convex-analysis/quotient-vector-space-codimension|quotient 
 
 Codimension measures "how many independent linear constraints" define $L$. Codimension one subspaces play a special role in the geometry of [[convex-analysis/hyperplane|hyperplanes]].
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}^n$, a hyperplane through the origin has codimension $1$.
 - If $L=\{0\}$ and $\dim X=n<\infty$, then $\operatorname{codim}(L)=n$.
