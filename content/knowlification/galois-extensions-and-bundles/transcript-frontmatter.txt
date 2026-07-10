@@ -1,0 +1,8 @@
++++
+id = "knowlification/galois-extensions-and-bundles-transcript"
+title = "Galois Extensions and Bundles — knowlified transcript"
+kind = "document"
+summary = "A full conversation transcript with expandable definitions for its mathematical terminology."
+aliases = ["Galois Extensions and Bundles transcript", "knowlified Galois conversation"]
+domains = ["knowlification"]
++++
