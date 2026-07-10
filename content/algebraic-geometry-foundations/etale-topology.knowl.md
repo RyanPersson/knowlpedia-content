@@ -1,7 +1,7 @@
 +++
 id = "algebraic-geometry-foundations/etale-topology"
 title = "Étale topology"
-kind = "knowl"
+kind = "definition"
 summary = "The Grothendieck topology in which jointly surjective families of étale morphisms are covers."
 aliases = ["etale-topology", "Etale topology", "Étale topology"]
 domains = ["algebraic-geometry-foundations"]
@@ -18,4 +18,14 @@ is a [[algebraic-geometry-foundations/covering-family|covering family]] exactly 
 
 Unlike the [[algebra-commutative/zariski-topology|Zariski topology]], this is not merely a point-set topology on one scheme. It permits étale morphisms as local charts. Restricting it to [[algebraic-geometry-foundations/scheme-over-a-base|schemes over a fixed scheme \(X\)]] that are étale gives the [[algebraic-geometry-foundations/small-etale-site|small étale site]] of \(X\).
 
+## Intuition
+
+An [[algebraic-geometry-foundations/etale-morphism|étale morphism]] is the algebraic-geometric analogue of a [[algebraic-geometry-foundations/local-diffeomorphism|local diffeomorphism]]. Allowing such maps as local charts lets algebraic geometry see covers that the Zariski topology cannot detect.
+
+The word “topology” here refers to a rule for covering objects in a category. It does not put a new collection of open subsets on the point set of a single scheme.
+
+## Basic example
+
 For a finite separable field extension \(K/F\), \(\operatorname{Spec}K\to\operatorname{Spec}F\) is a one-map étale cover.
+
+This is already nontrivial: \(\operatorname{Spec}F\) has only one Zariski point, so ordinary Zariski open covers cannot reveal the extension. Étale localization can.
