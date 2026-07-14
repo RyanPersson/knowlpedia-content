@@ -18,4 +18,4 @@ $$
 
 ## Remarks
 
-This estimate is often used when transferring "eventually" statements from a sequence to a [[analysis/subsequence|subsequence]] (e.g., to compare thresholds $N$ and $K$).
+This estimate is often used when transferring "eventually" statements from a sequence to a [[real-analysis/subsequence|subsequence]] (e.g., to compare thresholds $N$ and $K$).

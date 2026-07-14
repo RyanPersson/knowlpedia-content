@@ -567,7 +567,7 @@ $$
 n_1<n_2<n_3<\cdots.
 $$
 
-Then $(x_{n_k})_{k}$ is a sequence in $X$ and it is called a [[analysis/subsequence|subsequence]] of $(x_n)$.
+Then $(x_{n_k})_{k}$ is a sequence in $X$ and it is called a [[real-analysis/subsequence|subsequence]] of $(x_n)$.
 
 **Example 1.59.** Consider the sequence $x_n=(-1)^n$. Then $(x_{2k})$ is a subsequence of $(x_n)$ and $x_{2k}=1$ for all $k$. Similarly, $(x_{2k+1})$ is also a subsequence of $(x_n)$ and $x_{2k+1}=-1$ for all $k$.
 

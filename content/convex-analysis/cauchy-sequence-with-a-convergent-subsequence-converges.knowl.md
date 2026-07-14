@@ -9,7 +9,7 @@ legacy_source_path = "convex-analysis/cauchy-sequence-with-a-convergent-subseque
 +++
 
 **Proposition.**
-Let $(X,d)$ be a [[convex-analysis/metric-metric-space|metric space]]. If $(x_n)$ is a [[topology/cauchy-sequence|Cauchy sequence]] and has a [[analysis/subsequence|subsequence]] $(x_{n_k})$ that [[convex-analysis/convergence-of-a-sequence|converges]] to some $a\in X$, then the entire sequence converges to $a$.
+Let $(X,d)$ be a [[convex-analysis/metric-metric-space|metric space]]. If $(x_n)$ is a [[topology/cauchy-sequence|Cauchy sequence]] and has a [[real-analysis/subsequence|subsequence]] $(x_{n_k})$ that [[convex-analysis/convergence-of-a-sequence|converges]] to some $a\in X$, then the entire sequence converges to $a$.
 
 ## Remarks
 
