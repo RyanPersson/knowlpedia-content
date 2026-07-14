@@ -156,7 +156,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/frechet-derivative|Fréchet derivative]]
 - [[real-analysis/differentiable-map|Differentiable map]]
 - [[real-analysis/class-ck-map|Class Cᵏ map]]
-- [[real-analysis/diffeomorphism|Diffeomorphism]]
+- [[fiber-bundles/diffeomorphism|Diffeomorphism]]
 
 ### Implicit/Inverse Functions
 - [[real-analysis/implicitly-defined-function|Implicitly defined function]]
@@ -167,7 +167,7 @@ Click any term to expand its definition inline.
 
 ### Critical Points
 - [[real-analysis/regular-point|Regular point]]
-- [[real-analysis/regular-value|Regular value]]
+- [[fiber-bundles/regular-value|Regular value]]
 - [[real-analysis/critical-value|Critical value]]
 - [[real-analysis/constraint-set|Constraint set]]
 - [[real-analysis/lagrange-multiplier-condition|Lagrange multiplier condition]]

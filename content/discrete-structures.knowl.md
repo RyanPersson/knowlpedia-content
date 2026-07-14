@@ -22,5 +22,5 @@ legacy_source_path = "discrete-structures/_index.md"
 
 ## Interactions
 
-- [[discrete-structures/finite-range-interaction-lattice|Finite-range interaction]]
-- [[discrete-structures/translation-invariant-interaction|Translation-invariant interaction]]
+- [[stat-mech-lattice/finite-range-interaction-lattice|Finite-range interaction]]
+- [[stat-mech-lattice/translation-invariant-interaction|Translation-invariant interaction]]

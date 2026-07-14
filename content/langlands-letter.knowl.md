@@ -66,4 +66,4 @@ Click any term to expand its definition inline.
 
 - [[langlands-letter/knowls/galois-descent-forms|Galois descent, twisted forms, and inner forms]]
 - [[langlands-letter/knowls/nonabelian-h1-galois-cohomology|Nonabelian H¹(Γ,G) and 1-cocycles]]
-- [[langlands-letter/knowls/semidirect-product|Semidirect product]]
+- [[algebra-groups/semidirect-product|Semidirect product]]

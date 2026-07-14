@@ -108,5 +108,5 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/complex-numbers-c|Complex numbers]]
 - [[shared-foundations/composition-of-functions|Composition of functions]]
 - [[shared-foundations/contraction-mapping|Contraction mapping]]
-- [[shared-foundations/morphism|Morphism]]
+- [[algebra-category-theory/morphism|Morphism]]
 - [[shared-foundations/total-order-linear-order|Total order (linear order)]]

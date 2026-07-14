@@ -22,7 +22,7 @@ Click any term to expand its definition inline.
 - [[convex-analysis/interior-of-a-set|Interior]]
 - [[convex-analysis/closure-of-a-set|Closure]]
 - [[convex-analysis/convergence-of-a-sequence|Convergence of a sequence]]
-- [[convex-analysis/cauchy-sequence|Cauchy sequence]]
+- [[topology/cauchy-sequence|Cauchy sequence]]
 - [[convex-analysis/complete-metric-space-complete-subset|Complete metric space]]
 - [[convex-analysis/distance-function-to-a-set|Distance function to a set]]
 - [[convex-analysis/product-space-cartesian-product|Product space]]
@@ -48,7 +48,7 @@ Click any term to expand its definition inline.
 - [[convex-analysis/subsequence-index-bound-n_k-k|Subsequence index bound]]
 - [[convex-analysis/completeness-implies-closedness-closed-subsets-of-complete-spaces-are-complete|Completeness and closedness]]
 - [[convex-analysis/completeness-of-rk|Completeness of R^k]]
-- [[convex-analysis/reverse-triangle-inequality|Reverse triangle inequality]]
+- [[real-analysis/reverse-triangle-inequality|Reverse triangle inequality]]
 
 ---
 

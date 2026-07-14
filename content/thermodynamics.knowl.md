@@ -55,7 +55,7 @@ legacy_source_path = "thermodynamics/_index.md"
 - [[thermodynamics/intensive-variable|Intensive variable]]
 - [[thermodynamics/internal-energy-thermo|Internal energy]]
 - [[thermodynamics/isothermal-compressibility|Isothermal compressibility]]
-- [[thermodynamics/microcanonical-entropy-density|Microcanonical entropy density]]
+- [[stat-mech/microcanonical-entropy-density|Microcanonical entropy density]]
 - [[thermodynamics/construction-microcanonical-entropy-density-of-states|Microcanonical entropy from the density of states]]
 - [[thermodynamics/number-density|Number density]]
 - [[thermodynamics/particle-number|Particle number]]
@@ -89,7 +89,7 @@ legacy_source_path = "thermodynamics/_index.md"
 - [[thermodynamics/tfae-thermodynamic-stability|TFAE: Thermodynamic Stability Criteria]]
 - [[thermodynamics/thermodynamic-stability|Thermodynamic Stability]]
 - [[thermodynamics/thermodynamic-limit|Thermodynamic limit]]
-- [[thermodynamics/thermodynamic-limit-pressure-lattice|Thermodynamic limit of the lattice pressure]]
+- [[stat-mech-lattice/thermodynamic-limit-pressure-lattice|Thermodynamic limit of the lattice pressure]]
 
 ## Laws and Axioms
 
