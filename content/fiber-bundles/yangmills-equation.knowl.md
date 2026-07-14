@@ -15,7 +15,7 @@ The Euler–Lagrange equation for the [[fiber-bundles/yangmills-functional|Yang�
 \[
 d_A(*F_A)=0.
 \]
-Here $d_A$ is the covariant exterior derivative on $\mathrm{Ad}(P)$-valued forms, which extends the [[fiber-bundles/exterior-derivative|exterior derivative]] on ordinary forms and satisfies the Bianchi identity $d_A F_A=0.
+Here $d_A$ is the covariant exterior derivative on $\mathrm{Ad}(P)$-valued forms, which extends the [[fiber-bundles/exterior-derivative|exterior derivative]] on ordinary forms and satisfies the Bianchi identity $d_A F_A=0$.
 
 A connection $A$ satisfying $d_A(*F_A)=0$ is called a Yang–Mills connection.
 

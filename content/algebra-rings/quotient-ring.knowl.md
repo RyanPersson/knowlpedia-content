@@ -14,7 +14,7 @@ Let $R$ be a ring and let $I$ be a [[algebra-rings/two-sided-ideal|two-sided ide
 \]
 The two-sided condition ensures multiplication is well-defined.
 
-The canonical projection $\pi:R\to R/I$ is a surjective ring homomorphism with kernel $I, and $R/I$ satisfies the [[algebra-rings/quotient-ring-universal-property|universal property of quotients]].
+The canonical projection $\pi:R\to R/I$ is a surjective ring homomorphism with kernel $I$, and $R/I$ satisfies the [[algebra-rings/quotient-ring-universal-property|universal property of quotients]].
 
 ## Examples
 

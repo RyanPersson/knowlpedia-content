@@ -41,4 +41,4 @@ This makes explicit that $T$ is the variable thermodynamically conjugate to [[th
 
 - **Absolute zero:** The scale has a natural lower bound at $T=0$ (“absolute zero”), tied to unattainability statements of the [[thermodynamics/third-law-thermodynamics|third law]]. The operational meaning is subtle: $T=0$ is a limiting concept rather than an ordinary equilibrium point.
 
-- **Natural units:** In some conventions (see [[thermodynamics/natural-units-convention|natural units]]), one sets $k_B=1$, so temperature has the same units as energy and $\beta=1/T`.
+- **Natural units:** In some conventions (see [[thermodynamics/natural-units-convention|natural units]]), one sets $k_B=1$, so temperature has the same units as energy and $\beta=1/T$.

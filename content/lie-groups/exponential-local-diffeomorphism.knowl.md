@@ -26,4 +26,4 @@ Equivalently, $\exp$ is a local diffeomorphism at $0$.
 - By the inverse function theorem, this implies local invertibility; the local inverse is the [[lie-groups/logarithm-map|logarithm map]] $\log:V\to U$.
 
 ## Remarks
-This result supplies canonical local coordinates near the identity and underlies the [[lie-groups/baker-campbell-hausdorff-formula|Baker–Campbell–Hausdorff formula]], which describes the group law on $V$ in terms of the Lie bracket on $\mathfrak g$ after transporting multiplication through $\log$ and $\exp`.
+This result supplies canonical local coordinates near the identity and underlies the [[lie-groups/baker-campbell-hausdorff-formula|Baker–Campbell–Hausdorff formula]], which describes the group law on $V$ in terms of the Lie bracket on $\mathfrak g$ after transporting multiplication through $\log$ and $\exp$.
