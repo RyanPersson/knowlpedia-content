@@ -12,7 +12,12 @@ Let \(\pi:E\to M\) and \(\pi':E'\to M'\) be [[fiber-bundles/fibered-manifold|fib
 \[
 \pi'\circ F \;=\; f\circ \pi.
 \]
+
+## Equivalent characterizations
+
 Equivalently, \(F\) is a [[fiber-bundles/fiber-preserving-map|fiber-preserving map]] for which both projections are surjective submersions; when \(f\) is understood one says “\(F\) is a bundle map over \(f\)”.
+
+## Remarks
 
 Differentiating the commutative square gives, for each \(e\in E\),
 \[

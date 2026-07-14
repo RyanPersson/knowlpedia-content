@@ -20,6 +20,8 @@ T_eE_x=\ker(d\pi_e).
 \]
 This kernel is the [[fiber-bundles/vertical-tangent-space|vertical tangent space]] at \(e\).
 
+## Equivalent characterizations
+
 Equivalently, \(\pi\) induces a fiberwise surjective bundle map \(d\pi:TE\to TM\) between the [[fiber-bundles/tangent-bundle|tangent bundles]]. A [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] is a fibered manifold equipped with local product charts; [[fiber-bundles/vector-bundle|vector bundles]] and [[fiber-bundles/principal-g-bundle|principal G-bundles]] are standard examples.
 
 ## Examples

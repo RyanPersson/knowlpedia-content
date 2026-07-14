@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/equipartition-theorem.md"
 +++
 
-## Statement
 Consider a classical system with phase space [[stat-mech/phase-space-classical|phase space]] and Hamiltonian [[stat-mech/hamiltonian-function-classical|Hamiltonian]] $H(x)$, distributed according to the [[stat-mech/canonical-ensemble|canonical ensemble]] at inverse temperature $\beta = 1/(k_B T)$, i.e. with density proportional to $e^{-\beta H(x)}$.
 
 If $H$ contains a term that is quadratic in some coordinate $y$ (a position or momentum component), of the form
@@ -18,6 +17,8 @@ then the canonical expectation satisfies
 $$
 \left\langle \frac{a}{2}y^2 \right\rangle_\beta = \frac{1}{2}k_B T.
 $$
+
+## Equivalent characterizations
 
 Equivalently, each independent quadratic term contributes $\frac{1}{2}k_B T$ to the mean energy.
 
@@ -35,7 +36,7 @@ $$
 - For each quadratic degree of freedom, the mean energy contribution is $\frac{1}{2}k_B T$.
 - Summing over $m$ independent quadratic terms gives a contribution $\frac{m}{2}k_B T$ to the average internal energy (compare [[thermodynamics/internal-energy-thermo|internal energy]] and [[thermodynamics/temperature-thermo|temperature]]).
 
-## Cross-links to definitions
+## Remarks
 - [[stat-mech/canonical-ensemble|Canonical ensemble]], [[stat-mech/ensemble-average|ensemble average]]
 - [[stat-mech/partition-function-canonical|canonical partition function]]
 - [[thermodynamics/temperature-thermo|thermodynamic temperature]]

@@ -19,6 +19,8 @@ Let $G$ be a [[lie-groups/compact-lie-group|compact Lie group]]. Fix the normali
 0, & \text{if }\pi\not\simeq \sigma.
 \end{cases}
 \]
-Equivalently, the matrix coefficients of irreducible unitary representations form an orthogonal family in $L^2(G)$, and within a fixed irreducible representation they are orthogonal with the explicit scale factor $1/\dim V$.
 
 This is the analytic avatar of Schur’s lemma and is one of the key inputs in the [[lie-groups/peter-weyl-theorem|Peter–Weyl theorem]], which decomposes $L^2(G)$ into finite-dimensional isotypic pieces. In practice, Schur orthogonality is the tool that turns representation theory into concrete integral identities on compact groups (compare also [[lie-groups/completely-reducible-representation-lie|complete reducibility]]).
+
+## Equivalent characterizations
+Equivalently, the matrix coefficients of irreducible unitary representations form an orthogonal family in $L^2(G)$, and within a fixed irreducible representation they are orthogonal with the explicit scale factor $1/\dim V$.

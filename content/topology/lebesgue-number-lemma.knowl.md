@@ -12,6 +12,12 @@ legacy_source_path = "topology/lebesgue-number-lemma.md"
 \[
 B(x,\delta)\subseteq U,
 \]
-where $B(x,\delta)$ is the [[topology/open-ball|open ball]]. Equivalently, every subset of $X$ with [[topology/diameter|diameter]] less than $\delta$ is contained in some member of the cover.
+where $B(x,\delta)$ is the [[topology/open-ball|open ball]].
+
+## Equivalent characterizations
+
+Equivalently, every subset of $X$ with [[topology/diameter|diameter]] less than $\delta$ is contained in some member of the cover.
+
+## Remarks
 
 This lemma turns qualitative compactness (existence of finite subcovers) into a quantitative uniform scale, and it is a key tool in results about [[topology/uniformly-continuous-map|uniform continuity]] and [[topology/refinement-of-open-cover|refinements of open covers]].

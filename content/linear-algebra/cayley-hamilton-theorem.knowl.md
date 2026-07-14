@@ -14,4 +14,10 @@ p_T(T)=0,
 \]
 meaning that substituting $T$ into its own characteristic polynomial yields the zero operator on $V$.
 
-Equivalently, if $A$ is an $n\times n$ matrix and $p_A(t)=\det(tI-A)$ (defined using the [[linear-algebra/determinant|determinant]]), then $p_A(A)=0$. One consequence is that the [[linear-algebra/minimal-polynomial|minimal polynomial]] divides the characteristic polynomial, linking algebraic identities of $T$ to its [[linear-algebra/eigenvalue|eigenvalues]].
+## Equivalent characterizations
+
+Equivalently, if $A$ is an $n\times n$ matrix and $p_A(t)=\det(tI-A)$ (defined using the [[linear-algebra/determinant|determinant]]), then $p_A(A)=0$.
+
+## Remarks
+
+One consequence is that the [[linear-algebra/minimal-polynomial|minimal polynomial]] divides the characteristic polynomial, linking algebraic identities of $T$ to its [[linear-algebra/eigenvalue|eigenvalues]].

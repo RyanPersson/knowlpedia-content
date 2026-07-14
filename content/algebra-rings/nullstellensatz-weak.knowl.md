@@ -14,4 +14,6 @@ V(I)=\{a\in k^n : f(a)=0\text{ for all }f\in I\}
 \]
 is nonempty.
 
+## Equivalent characterizations
+
 Equivalently, every [[algebra-rings/maximal-ideal|maximal ideal]] of \(k[x_1,\dots,x_n]\) has the form \((x_1-a_1,\dots,x_n-a_n)\) for some \(a=(a_1,\dots,a_n)\in k^n\).

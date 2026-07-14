@@ -17,7 +17,11 @@ $$
 
 so $\mathfrak{g}$ is isomorphic to a [[lie-groups/lie-subalgebra|Lie subalgebra]] of the [[lie-groups/general-linear-lie-algebra|general linear Lie algebra]].
 
+## Equivalent characterizations
+
 Equivalently, every finite-dimensional Lie algebra is a “matrix Lie algebra” up to isomorphism.
+
+## Remarks
 
 **Motivation.** Ado’s theorem guarantees that Lie algebra theory can be studied inside $\mathfrak{gl}_n$ using linear algebra. It complements [[lie-groups/lies-third-theorem|Lie’s third theorem]], which integrates Lie algebras to (simply connected) Lie groups, by ensuring that the infinitesimal data can always be realized concretely as endomorphisms.
 

@@ -13,9 +13,13 @@ $$
 \mathbb{P}\bigl(|X-\mu|\ge t\bigr)\le \frac{\sigma^2}{t^2}.
 $$
 
+## Equivalent characterizations
+
 Equivalently, for every $k>0$,
 $$
 \mathbb{P}\bigl(|X-\mu|\ge k\sigma\bigr)\le \frac{1}{k^2}.
 $$
+
+## Remarks
 
 Here $\mathbb{P}$ denotes the [[probability/probability-measure|probability measure]] on the underlying [[probability/probability-space|probability space]]. Chebyshev's inequality is a direct consequence of [[probability/markov-inequality|Markov's inequality]] applied to $(X-\mu)^2$, and it is a standard tool for proving the [[probability/weak-law-large-numbers|weak law of large numbers]].

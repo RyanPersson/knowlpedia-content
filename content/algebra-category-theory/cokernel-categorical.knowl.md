@@ -24,7 +24,11 @@ such that:
    v\circ q = s.
    \]
 
+## Equivalent characterizations
+
 Equivalently, \(q:B\to Q\) is a [[algebra-category-theory/coequalizer|coequalizer]] of the parallel pair \(f,0_{A,B}:A\rightrightarrows B\).
+
+## Remarks
 
 A cokernel, if it exists, is unique up to unique [[algebra-category-theory/isomorphism-category|isomorphism]]. Cokernels are [[algebra-category-theory/epimorphism-category|epimorphisms]] (because coequalizers are epic).
 

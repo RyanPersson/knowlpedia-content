@@ -20,4 +20,6 @@ D_xL(x^\ast,\lambda^\ast)=0
 g(x^\ast)=0.
 $$
 
+## Equivalent characterizations
+
 Equivalently, $x^\ast$ must satisfy the [[real-analysis/lagrange-multiplier-condition|Lagrange multiplier condition]]. Solving these equations produces candidate points for constrained extrema on the given [[real-analysis/constraint-set|constraint set]].

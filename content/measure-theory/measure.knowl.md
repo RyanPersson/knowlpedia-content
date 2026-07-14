@@ -15,7 +15,8 @@ A **measure** on a measurable space $(X,\Sigma)$ is a function $\mu:\Sigma\to[0,
 
 A measure assigns “sizes” to [[measure-theory/measurable-set|measurable sets]] and turns $(X,\Sigma)$ into a [[measure-theory/measure-space|measure space]]. Sets of measure zero are [[measure-theory/null-set|null sets]], and they control notions like [[measure-theory/almost-everywhere|almost everywhere]].
 
-**Examples:**
+## Examples
+
 - The counting measure on $(X,\mathcal P(X))$ is given by $\mu(A)=|A|$ (possibly $+\infty$) for any subset $A\subseteq X$.
 - [[measure-theory/lebesgue-measure|Lebesgue measure]] on $\mathbb R^n$ is the standard measure extending ordinary length/area/volume.
 - For a point $x_0\in X$, the Dirac measure $\delta_{x_0}$ is defined by $\delta_{x_0}(A)=1$ if $x_0\in A$ and $0$ otherwise.

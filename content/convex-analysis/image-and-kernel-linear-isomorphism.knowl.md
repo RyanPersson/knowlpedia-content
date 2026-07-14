@@ -22,8 +22,11 @@ Let $T:X\to Y$ be a [[convex-analysis/linear-operator-linear-transformation|line
 
 If $T$ is bijective (one-to-one and onto), then $T$ is a **linear isomorphism**, and we say that $X$ and $Y$ are **isomorphic**, written $X\cong Y$.
 
+## Remarks
+
 Both $\ker T$ and $\operatorname{im}T$ are [[convex-analysis/linear-subspace|linear subspaces]] (see [[convex-analysis/images-and-preimages-of-subspaces-under-linear-operators|images and preimages of subspaces]]). The quotient $X/\ker T$ is canonically isomorphic to $\operatorname{im}T$ (see [[convex-analysis/isomorphism-theorem-and-dimension-formula-for-linear-operators|the isomorphism theorem]]).
 
-**Examples:**
+## Examples
+
 - If $T:\mathbb{R}^2\to\mathbb{R}$ is $T(x,y)=x+y$, then $\ker T=\{(t,-t):t\in\mathbb{R}\}$ and $\operatorname{im}T=\mathbb{R}$.
 - If $T=\mathrm{id}_X$, then $\ker T=\{0\}$ and $\operatorname{im}T=X$; $T$ is an isomorphism.

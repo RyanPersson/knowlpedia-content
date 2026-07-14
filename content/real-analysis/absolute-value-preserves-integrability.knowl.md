@@ -13,4 +13,6 @@ $$
 \left|\int_a^b f\right|\le \int_a^b |f|.
 $$
 
+## Remarks
+
 This is often used together with [[real-analysis/riemann-linearity|linearity]] to control integrals by comparing them to integrals of nonnegative functions.

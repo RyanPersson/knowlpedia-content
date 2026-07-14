@@ -15,6 +15,7 @@ If $X$ is a vector space with $X\neq\{0\}$, then $X$ has a [[convex-analysis/bas
 
 **Remark.** If $X=\{0\}$ is the trivial vector space, it is standard to declare the empty set to be a basis of $X$ (so that "every vector space has a basis" holds uniformly).
 
-**Examples:**
+## Examples
+
 - $\mathbb{R}^n$ has the standard basis.
 - Infinite-dimensional examples (like all sequences) have a Hamel basis, but it typically cannot be written down explicitly.

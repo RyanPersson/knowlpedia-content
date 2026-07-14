@@ -13,9 +13,12 @@ $
 \varphi(H)=H.
 $
 
+## Equivalent characterizations
+
 Equivalently, $H$ is invariant under the action of the [[algebra-groups/automorphism-group|automorphism group]] $\mathrm{Aut}(G)$ on the underlying set of $G$. Every characteristic subgroup is [[algebra-groups/normal-subgroup|normal]], since conjugations are [[algebra-groups/inner-automorphism|inner automorphisms]].
 
-**Examples:**
+## Examples
+
 - The [[algebra-groups/center-of-group|center]] $Z(G)$ is characteristic in $G$.
 - The [[algebra-groups/commutator-subgroup|commutator subgroup]] $[G,G]$ is characteristic in $G$.
 - In a cyclic group of order $n$, the unique subgroup of each divisor $d\mid n$ is characteristic.

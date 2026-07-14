@@ -16,5 +16,7 @@ $$
 
 Then this defines a [[algebra-groups/group-action|group action]] of $G$ on itself, called the [[algebra-groups/conjugation-action|conjugation action]].
 
+## Remarks
+
 **Context.**
 The orbits of this action are the [[algebra-groups/conjugacy-class|conjugacy classes]] in $G$, and stabilizers are centralizers. This action is the mechanism behind the class equation and many counting arguments.

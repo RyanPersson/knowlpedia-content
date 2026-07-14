@@ -15,6 +15,7 @@ $$
 
 This is the smallest [[convex-analysis/affine-set|affine set]] containing $\{a,b\}$ and is the affine analogue of the [[convex-analysis/line-segments-in-a-vector-space|line segment]] $[a,b]$ (where $\lambda\in[0,1]$).
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}^2$, $L[a,b]$ is the usual straight line through $a$ and $b$.
 - If $a=b$, then $L[a,a]=\{a\}$.

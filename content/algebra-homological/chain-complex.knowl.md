@@ -17,7 +17,6 @@ such that
 \[
 d_{n-1}\circ d_n = 0\quad\text{for all }n.
 \]
-Equivalently, \(\operatorname{im}(d_n)\subseteq \ker(d_{n-1})\) for all \(n\).
 
 The associated **homology modules** are
 \[
@@ -25,20 +24,24 @@ H_n(C_\bullet)=\ker(d_n)/\operatorname{im}(d_{n+1}),
 \]
 see [[algebra-homological/homology-module|homology module]].
 
-## Cross-links
+## Equivalent characterizations
+
+Equivalently, \(\operatorname{im}(d_n)\subseteq \ker(d_{n-1})\) for all \(n\).
+
+## Remarks
 - Morphisms between complexes: [[algebra-homological/chain-map|chain map]].
 - When all homology vanishes: [[algebra-homological/exact-complex|exact complex]].
 - Categorical setting: in an [[algebra-category-theory/abelian-category|abelian category]], a chain complex is defined the same way using kernels and images.
 
 ## Examples
-1. **Complex concentrated in degree 0.**  
+1. **Complex concentrated in degree 0.**
    For an \(R\)-module \(M\), the diagram
    \[
    \cdots \to 0 \to M \to 0 \to \cdots
    \]
    with \(M\) in degree \(0\) and all differentials \(0\), is a chain complex. Its homology is \(H_0\cong M\) and \(H_n=0\) for \(n\neq 0\).
 
-2. **A map as a 2-term complex.**  
+2. **A map as a 2-term complex.**
    Any \(R\)-linear map \(f:M\to N\) gives a chain complex
    \[
    0 \longrightarrow M \xrightarrow{\,f\,} N \longrightarrow 0
@@ -49,7 +52,7 @@ see [[algebra-homological/homology-module|homology module]].
    \]
    using [[algebra-rings/kernel-ring|kernel]] / [[algebra-modules/cokernel-module|cokernel]].
 
-3. **“Multiplication by \(x\)” complex.**  
+3. **“Multiplication by \(x\)” complex.**
    For \(x\in R\), the 2-term complex
    \[
    0 \to R \xrightarrow{\,\cdot x\,} R \to 0

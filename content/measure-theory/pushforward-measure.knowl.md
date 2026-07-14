@@ -15,11 +15,12 @@ $$
 
 Pushforward measures encode how $\mu$ “looks” after applying $T$ and are the natural language for the [[measure-theory/change-of-variables-pushforward|change-of-variables formula via pushforward]]. The definition measures subsets of $Y$ by pulling them back to $X$ and then measuring in $X$.
 
-**Examples:**
+  whenever $\nu(Y)<\infty$; in particular, if $\nu$ is a probability measure then $(\pi_X)_\#(\mu\otimes\nu)=\mu$.
+
+## Examples
+
 - Let $\lambda$ be Lebesgue measure on $[0,1]$ and let $T(x)=x^2$. Then $\nu=T_\#\lambda$ satisfies $\nu([0,t])=\lambda([0,\sqrt{t}])=\sqrt{t}$ for $0\le t\le 1$, so $\nu$ has density $\frac{1}{2\sqrt{y}}$ with respect to Lebesgue measure on $(0,1]$.
 - If $\pi_X:X\times Y\to X$ is the projection map and $\mu\otimes\nu$ is a [[measure-theory/product-measure|product measure]], then for $A\in\mathcal{A}$ one has
   $$
   (\pi_X)_\#(\mu\otimes\nu)(A)=(\mu\otimes\nu)(A\times Y)=\mu(A)\nu(Y)
   $$
-
-  whenever $\nu(Y)<\infty$; in particular, if $\nu$ is a probability measure then $(\pi_X)_\#(\mu\otimes\nu)=\mu$.

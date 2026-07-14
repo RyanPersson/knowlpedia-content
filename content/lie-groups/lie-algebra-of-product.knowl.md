@@ -10,7 +10,6 @@ legacy_source_path = "lie-groups/lie-algebra-of-product.md"
 
 Let $G,H$ be [[fiber-bundles/lie-group|Lie groups]], and consider their [[lie-groups/product-lie-group|product Lie group]] $G\times H$.
 
-## Theorem
 There is a natural Lie algebra isomorphism
 $$
 \operatorname{Lie}(G\times H)\;\cong\; \operatorname{Lie}(G)\oplus \operatorname{Lie}(H),
@@ -28,7 +27,7 @@ $$
 
 Under this identification, the Lie bracket on $\operatorname{Lie}(G\times H)$ (defined via brackets of left-invariant vector fields) becomes the componentwise bracket above.
 
-## Example
+## Examples
 For matrix groups, this is visible directly: if $G\subset \mathrm{GL}(n,\Bbb R)$ and $H\subset \mathrm{GL}(m,\Bbb R)$, then one model of $G\times H$ sits inside $\mathrm{GL}(n+m,\Bbb R)$ as block-diagonal matrices
 $\mathrm{diag}(A,B)$. Differentiating at the identity shows
 $$

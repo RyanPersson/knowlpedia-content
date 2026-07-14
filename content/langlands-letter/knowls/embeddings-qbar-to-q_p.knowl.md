@@ -14,4 +14,6 @@ This identifies a **decomposition group** in $\mathrm{Gal}(\overline{\mathbb{Q}}
 
 Changing $\iota_p$ conjugates the resulting Frobenius and therefore conjugates the Satake parameter $\alpha_p$ in the [[langlands-letter/knowls/l-group-satake-parameter|$L$-group]].
 
+## Remarks
+
 **Consequence used in the letter:** the Euler product [[langlands-letter/knowls/euler-product-and-local-factor|$L(s)=\\prod_p L_p(s)$]] changes only by finitely many local factors (the "bad primes").

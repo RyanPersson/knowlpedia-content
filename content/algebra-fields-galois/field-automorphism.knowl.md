@@ -12,6 +12,8 @@ Let \(L\) be a [[algebra-rings/field|field]]. A **field automorphism** of \(L\) 
 
 If \(L/K\) is a [[algebra-fields-galois/field-extension|field extension]], a **\(K\)-automorphism** of \(L\) is a field automorphism \(\sigma\in\mathrm{Aut}(L)\) such that \(\sigma|_K=\mathrm{id}_K\). The group of all \(K\)-automorphisms is denoted \(\mathrm{Aut}_K(L)\), and when \(L/K\) is [[algebra-fields-galois/galois-extension|Galois]] it is the [[algebra-fields-galois/galois-group|Galois group]] \(\mathrm{Gal}(L/K)\).
 
+## Remarks
+
 Automorphisms are the “symmetries” that permute conjugates, and they control invariants such as [[algebra-fields-galois/fixed-field|fixed fields]], [[algebra-fields-galois/trace-field|trace]], and [[algebra-fields-galois/norm-field|norm]].
 
 ### Examples

@@ -18,7 +18,8 @@ The pair $(X,d)$ is called a **metric space**.
 
 Metrics allow one to define [[convex-analysis/open-and-closed-balls-in-a-metric-space|balls]], [[convex-analysis/open-subset|open sets]], and notions of [[convex-analysis/convergence-of-a-sequence|convergence]] and completeness.
 
-**Examples:**
+## Examples
+
 - On $\mathbb{R}^n$, the Euclidean metric $d(x,y)=\|x-y\|_2$.
 - The discrete metric: $d(x,y)=0$ if $x=y$ and $d(x,y)=1$ otherwise.
 - On a normed vector space $(X,\|\cdot\|)$, $d(x,y)=\|x-y\|$ is a metric.

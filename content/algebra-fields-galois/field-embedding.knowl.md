@@ -12,6 +12,8 @@ Let \(K\) and \(L\) be [[algebra-rings/field|fields]]. A **field embedding** \(\
 
 More generally, given a [[algebra-fields-galois/field-extension|field extension]] \(L/K\) and a field \(\Omega\) containing \(K\), a **\(K\)-embedding** of \(L\) into \(\Omega\) is a field embedding \(\sigma:L\hookrightarrow \Omega\) whose restriction to \(K\) is the identity map. In this setting, \(\sigma\) is also called a **\(K\)-homomorphism**. If \(\sigma\) is bijective, it is a [[algebra-fields-galois/field-automorphism|field automorphism]] of \(L\) (and if it fixes \(K\), a \(K\)-automorphism).
 
+## Remarks
+
 Field embeddings are the basic inputs for expressing the [[algebra-fields-galois/trace-field|trace]] and [[algebra-fields-galois/norm-field|norm]] as sums/products of conjugates when the extension is finite and separable.
 
 ### Examples

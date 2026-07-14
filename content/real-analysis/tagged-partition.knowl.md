@@ -12,6 +12,7 @@ A **tagged partition** of $[a,b]$ is a [[real-analysis/partition-of-an-interval|
 
 Tagged partitions are the input data for a [[real-analysis/riemann-sum|Riemann sum]] and, more generally, for a [[real-analysis/riemann-stieltjes-integral|Riemann–Stieltjes sum]].
 
-**Examples:**
+## Examples
+
 - (Midpoint tags) For each $i$, take $t_i=\tfrac12(x_{i-1}+x_i)$.
 - (Right-endpoint tags) For each $i$, take $t_i=x_i$.

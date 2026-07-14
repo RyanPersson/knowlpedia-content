@@ -8,8 +8,7 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/euler-relation-theorem.md"
 +++
 
-## Statement
-Let a [[thermodynamics/thermodynamic-system|thermodynamic system]] be in [[thermodynamics/thermodynamic-equilibrium|thermodynamic equilibrium]] and admit a differentiable fundamental relation for the [[thermodynamics/internal-energy-thermo|internal energy]] of the form $U=U(S,V,N)$, where $S,V,N$ are extensive variables.  
+Let a [[thermodynamics/thermodynamic-system|thermodynamic system]] be in [[thermodynamics/thermodynamic-equilibrium|thermodynamic equilibrium]] and admit a differentiable fundamental relation for the [[thermodynamics/internal-energy-thermo|internal energy]] of the form $U=U(S,V,N)$, where $S,V,N$ are extensive variables.
 Assume $U$ is **extensive**, i.e. homogeneous of degree $1$:
 $$
 U(\lambda S,\lambda V,\lambda N)=\lambda\,U(S,V,N)\qquad(\lambda>0).

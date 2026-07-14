@@ -20,5 +20,7 @@ $$
 |G| \;=\; |Z(G)| \;+\; \sum_i [G:C_G(x_i)].
 $$
 
+## Remarks
+
 **Context.**
 This is the structural content behind the [[algebra-groups/class-equation|class equation]]: it turns the conjugation action into a counting identity, a key tool for $p$-groups and Sylow theory.

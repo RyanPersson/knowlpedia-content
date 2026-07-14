@@ -17,6 +17,8 @@ $$
 \left(\int_a^b |g(x)|^q\,dx\right)^{1/q}.
 $$
 
+## Remarks
+
 **Context.** This is the continuous analogue of [[convex-analysis/holder-inequality-finite-sums|Hölder's inequality for sums]] and is foundational for $L^p$ estimates and duality.
 
 **Proof sketch.** Assume the right-hand side is finite and normalize so the $L^p$ and $L^q$ norms are 1. Apply the pointwise inequality from [[convex-analysis/weighted-arithmeticgeometric-mean-inequality|weighted AM–GM]] (equivalently Young's inequality) to obtain $|f(x)g(x)|\le |f(x)|^p/p+|g(x)|^q/q$ almost everywhere, then integrate and rescale.

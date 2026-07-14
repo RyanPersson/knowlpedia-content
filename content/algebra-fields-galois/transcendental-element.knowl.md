@@ -10,11 +10,15 @@ legacy_source_path = "algebra-fields-galois/transcendental-element.md"
 
 Let \(E/F\) be a [[algebra-fields-galois/field-extension|field extension]] and let \(\alpha\in E\). The element \(\alpha\) is **transcendental over \(F\)** if there is no nonzero polynomial \(f(x)\in F[x]\) such that \(f(\alpha)=0\). Equivalently, \(\alpha\) is transcendental over \(F\) iff \(\alpha\) is not [[algebra-fields-galois/algebraic-element|algebraic over F]].
 
+## Equivalent characterizations
+
 A useful equivalent condition is: \(\alpha\) is transcendental over \(F\) iff the evaluation map
 \[
 \operatorname{ev}_\alpha:F[x]\to E,\quad f\mapsto f(\alpha),
 \]
 is injective. When \(\alpha\) is transcendental, the simple extension \(F(\alpha)/F\) is a [[algebra-fields-galois/transcendental-extension|transcendental extension]] and has infinite [[algebra-fields-galois/degree-of-extension|degree]].
+
+## Remarks
 
 Transcendence depends on the base field: an element may be transcendental over \(F\) but algebraic over a larger intermediate field \(K\) with \(F\subseteq K\subseteq E\) (see [[algebra-fields-galois/intermediate-field|intermediate field]]).
 

@@ -40,5 +40,5 @@ If $A_x$ is a *local* observable (e.g. a spin or density at site/position $x$), 
   $$
   which is the two-point case of [[stat-mech/connected-correlation-function|connected correlations]] and relates to the [[stat-mech/correlation-function-two-point|two-point correlation function]].
 
-## Physical interpretation
+## Interpretation
 $\delta A$ measures how much $A$ typically deviates from its thermodynamic “typical value” $\langle A\rangle$ under the chosen ensemble. In a finite system these deviations are unavoidable (thermal noise). In many systems and for many *self-averaging* observables, relative fluctuations shrink as system size grows toward the [[thermodynamics/thermodynamic-limit|thermodynamic limit]], which is why macroscopic [[stat-mech/macrostate|macrostates]] can be stable even though underlying microstates fluctuate.

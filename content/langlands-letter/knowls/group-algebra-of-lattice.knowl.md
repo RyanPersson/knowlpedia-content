@@ -17,4 +17,6 @@ $
 
 If $t\in T(\mathbb{C})$, then $\lambda(t)\in\mathbb{C}^\times$ and one "evaluates" by $\xi_\lambda(t):=\lambda(t)$.
 
+## Remarks
+
 **In the letter:** Satake identifies the spherical Hecke algebra with invariants in such a group algebra on a dual lattice.

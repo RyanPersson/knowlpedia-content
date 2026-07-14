@@ -45,4 +45,6 @@ $
 $
 Here [[real-analysis/maximum|max]] and [[real-analysis/minimum|min]] denote the maximum and minimum of a finite set.
 
+## Remarks
+
 These rules are used constantly to manipulate bounds and to compare limiting processes.

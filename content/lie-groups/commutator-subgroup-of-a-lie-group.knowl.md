@@ -17,6 +17,8 @@ $$
 
 It is the smallest normal subgroup $N\triangleleft G$ such that $G/N$ is abelian; equivalently, $G/[G,G]$ is the abelianization of $G$.
 
+## Remarks
+
 **Lie-theoretic relation.** If $\mathfrak{g}=\mathrm{Lie}(G)$, then the Lie algebra of the identity component of $[G,G]$ is the [[lie-groups/derived-subalgebra|derived subalgebra]] $[\mathfrak{g},\mathfrak{g}]$. This makes $[G,G]$ the global counterpart of “taking brackets” in $\mathfrak{g}$.
 
 **Topological subtlety.** In general, $[G,G]$ need not be closed. When forming a smooth quotient, one often replaces it by its closure $\overline{[G,G]}$, which is a [[lie-groups/closed-subgroup-lie-group|closed subgroup]] and hence a Lie subgroup by the [[lie-groups/closed-subgroup-theorem|closed subgroup theorem]].

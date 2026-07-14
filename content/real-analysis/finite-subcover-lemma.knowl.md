@@ -17,8 +17,12 @@ $
 K\subseteq U_{\alpha_1}\cup\cdots\cup U_{\alpha_N}.
 $
 
-This is the defining operational feature of compactness and is used as a "black box" step in many arguments: convert infinitely many local pieces into finitely many.
 
-**Examples:**
+## Examples
+
 - The [[real-analysis/interval|interval]] $[0,1]$ is compact, so any open cover of $[0,1]$ contains a finite subcover.
 - The open interval $(0,1)$ is not compact: the cover $\{(1/n,1):n\in\mathbb{N}\}$ has no finite subcover.
+
+## Remarks
+
+This is the defining operational feature of compactness and is used as a "black box" step in many arguments: convert infinitely many local pieces into finitely many.

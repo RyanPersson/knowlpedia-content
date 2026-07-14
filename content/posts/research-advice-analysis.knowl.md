@@ -283,7 +283,7 @@ This suggests the advice should be taken as data points, not rules.
 
 ---
 
-## Sources
+## Literature
 
 
 | # | Source | Author |

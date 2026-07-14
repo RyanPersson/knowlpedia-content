@@ -16,7 +16,8 @@ These operations are well-defined precisely because $N$ is closed under subtract
 
 The construction is characterized by the [[algebra-modules/quotient-module-universal-property|universal property of the quotient module]]: maps out of $M$ that kill $N$ factor uniquely through $M/N$.
 
-**Examples:**
+## Examples
+
 - For $M=\mathbb Z^2$ and $N=2\mathbb Z^2$, the quotient $M/N$ has four elements and is isomorphic (as a $\mathbb Z$-module) to $(\mathbb Z/2\mathbb Z)^2$.
 - For a ring $R$ and ideal $I\lhd R$, the quotient $R/I$ is a quotient module of the left $R$-module $R$.
 - (Edge case) If $N=M$, then $M/N$ is the zero module; if $N=0$, then $M/N\cong M$.

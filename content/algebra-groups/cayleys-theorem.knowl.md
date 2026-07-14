@@ -16,4 +16,6 @@ $$
 
 is an injective [[algebra-groups/group-homomorphism|homomorphism]] (i.e. a [[algebra-groups/group-monomorphism|monomorphism]]). Equivalently, $G$ is isomorphic to a subgroup of $\operatorname{Sym}(G)$.
 
+## Remarks
+
 Cayley's theorem says every abstract group can be realized concretely as a group of permutations. The construction comes from the [[algebra-groups/left-multiplication-action|left multiplication action]] of $G$ on itself, which is [[algebra-groups/faithful-action|faithful]] and hence yields a [[algebra-groups/permutation-representation|permutation representation]].

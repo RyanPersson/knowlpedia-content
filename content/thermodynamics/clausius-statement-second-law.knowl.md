@@ -14,11 +14,11 @@ The Clausius statement is an operational form of the [[thermodynamics/second-law
 
 In other words, a refrigerator or heat pump cannot move heat “uphill in [[thermodynamics/temperature-thermo|temperature]]” without consuming work from a [[thermodynamics/work-reservoir|work source]].
 
-## Physical interpretation
+## Interpretation
 
 When two bodies are placed in thermal contact through a [[thermodynamics/diathermal-wall|diathermal wall]], heat flows spontaneously from higher temperature to lower temperature until [[thermodynamics/thermal-equilibrium|thermal equilibrium]] is reached. The Clausius statement asserts that reversing this natural direction requires compensating changes elsewhere—most simply, an input of work.
 
-## Key relations
+## Remarks
 
 - **Refrigerator energy balance.** In a cyclic refrigerator exchanging heats with a cold reservoir ($Q_c$ extracted) and a hot reservoir ($Q_h$ delivered), the [[thermodynamics/first-law-thermodynamics|first law]] gives
   $$

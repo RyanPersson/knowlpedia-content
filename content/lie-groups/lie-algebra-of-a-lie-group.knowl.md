@@ -25,7 +25,7 @@ $$
 $$
 where \([\widetilde X,\widetilde Y]\) is the commutator of [[fiber-bundles/vector-field|vector fields]].
 
-## Key properties
+## Properties
 - This makes \(\mathfrak{g}\) a [[lie-groups/lie-algebra|Lie algebra]].
 - If \(\varphi:G\to H\) is a [[lie-groups/lie-group-homomorphism|Lie group homomorphism]], then \((d\varphi)_e:\mathfrak{g}\to\mathfrak{h}\) is a [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]].
 

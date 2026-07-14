@@ -29,4 +29,6 @@ The entry in row \(i\) and column \(j\) is denoted \(a_{ij}\) or \(A_{ij}\).
 - **Diagonal matrix**: Non-zero entries only on the main diagonal.
 - **Symmetric matrix**: \(A = A^T\) (equals its transpose).
 
+## Remarks
+
 Matrices represent [[linear-algebra/linear-map|linear maps]] between finite-dimensional [[linear-algebra/vector-space|vector spaces]] once bases are chosen.

@@ -11,5 +11,7 @@ legacy_source_path = "algebra-groups/prime-order-cyclic.md"
 **Proposition (Prime order implies cyclic).**
 Let $G$ be a finite [[algebra-groups/group|group]] with $|G|=p$ where $p$ is prime. Then $G$ is cyclic; more precisely, for every $g\in G$ with $g\neq e$, one has $G=\langle g\rangle$.
 
+## Remarks
+
 **Context.**
 This is one of the first applications of [[algebra-groups/lagranges-theorem|Lagrange's theorem]]: subgroup orders must divide the group order.

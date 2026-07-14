@@ -16,6 +16,8 @@ Let $(X,d)$ be a metric space and let $A,B\subset X$. Then:
 3. $\overline{\overline{A}}=\overline{A}$ (idempotence).
 4. $\overline{A\cup B}=\overline{A}\cup \overline{B}$.
 
+## Remarks
+
 **Proof sketch.**
 1. Any closed set containing $B$ also contains $A$, so the intersection defining $\overline{A}$ is contained in the intersection defining $\overline{B}$.
 2. By definition $\overline{A}$ is closed and contains $A$; equality holds exactly when $A$ is closed.

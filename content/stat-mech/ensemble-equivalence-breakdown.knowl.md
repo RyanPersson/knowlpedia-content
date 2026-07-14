@@ -83,7 +83,7 @@ Negative microcanonical heat capacity is incompatible with canonical equilibrium
 - Long-range interactions (mean-field-type spin systems, gravitational models) often generate nonconcave $s(e)$; see [[stat-mech/ensemble-inequivalence-long-range|ensemble inequivalence for long-range interactions]].
 - Even for short-range models, finite-size systems can show apparent nonequivalence, but in many stable short-range systems equivalence is recovered as $V\to\infty$.
 
-## Prerequisites
+## Remarks
 
 - [[stat-mech/microcanonical-entropy-density|Microcanonical entropy density]]
 - [[stat-mech/canonical-ensemble|Canonical ensemble]]

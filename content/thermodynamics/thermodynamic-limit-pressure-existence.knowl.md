@@ -35,6 +35,6 @@ exists and is independent of the chosen sequence. The limit $p(\beta)$ is the th
 - **Shape independence:** the limit does not depend on the particular exhausting sequence of volumes (under vanishing boundary/volume ratio).
 - **Foundation for infinite-volume theory:** existence of $p(\beta)$ underlies compactness arguments for infinite-volume Gibbs measures (see [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs measure]]).
 
-## Cross-links to definitions
+## Remarks
 - Finite-volume objects: [[stat-mech-lattice/lattice-hamiltonian|lattice Hamiltonian]], [[stat-mech-lattice/finite-volume-gibbs-measure|finite-volume Gibbs measure]], [[stat-mech-lattice/partition-function-lattice|partition function]], [[stat-mech-lattice/pressure-lattice|pressure]].
 - Core tools: [[thermodynamics/subadditivity-partition-function|subadditivity of log partition functions]], [[stat-mech/fekete-lemma|Fekete’s lemma]].

@@ -13,4 +13,6 @@ $
 f = \bar f \circ \pi.
 $
 
+## Equivalent characterizations
+
 Equivalently: giving a homomorphism $G/N\to K$ is the same as giving a homomorphism $G\to K$ that sends every element of $N$ to the identity of $K$.

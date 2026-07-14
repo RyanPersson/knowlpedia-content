@@ -10,6 +10,8 @@ legacy_source_path = "shale-paper/complex-structure-lambda.md"
 
 A **complex structure** on a real Hilbert space \(K\) is a bounded operator \(\Lambda\) with \(\Lambda^2=-I\).
 
+## Remarks
+
 In the paper, \(\Lambda z = i z\) on \(K=H\) viewed as real, and it relates symplectic and adjoint operations:
 a regular \(T\) is symplectic iff \(\Lambda T\Lambda^{-1}=T^{*-1}\).
 
@@ -17,4 +19,6 @@ a regular \(T\) is symplectic iff \(\Lambda T\Lambda^{-1}=T^{*-1}\).
 - Lets one write \(K=M\oplus M\) with \(\Lambda(x\oplus y)=-y\oplus x\).
 - Identifies \(U(H)=O(K)\cap Sp(K)\).
 
-**Example:** On \(\mathbb R^{2n}\), \(\Lambda(p,q)=(-q,p)\).
+## Examples
+
+- On \(\mathbb R^{2n}\), \(\Lambda(p,q)=(-q,p)\).

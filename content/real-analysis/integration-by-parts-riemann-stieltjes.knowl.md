@@ -13,4 +13,6 @@ $$
 \int_a^b f\,dg \;+\; \int_a^b g\,df \;=\; f(b)g(b)-f(a)g(a).
 $$
 
+## Remarks
+
 This generalizes the usual [[real-analysis/integration-by-parts|integration by parts]] (obtained by taking $g(x)=x$ and interpreting $df=f'(x)\,dx$), and existence is ensured by the [[real-analysis/riemann-stieltjes-integrability-theorem|Riemann–Stieltjes integrability theorem]].

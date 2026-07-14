@@ -15,8 +15,11 @@ $$
 
 where $\mathrm{id}_A$ and $\mathrm{id}_B$ are [[shared-foundations/identity-function|identity functions]].
 
+## Remarks
+
 The notation $f^{-1}$ is also used for the [[shared-foundations/preimage|preimage]] of a subset under a function, but that operation is defined even when $f$ is not bijective. Inverse functions are best understood via [[shared-foundations/composition|composition]] and the identity functions they produce.
 
-**Examples:**
+## Examples
+
 - For $f:\mathbb{R}\to\mathbb{R}$ given by $f(x)=x^3$, the inverse function is $f^{-1}(y)=\sqrt[3]{y}$.
 - For $f:\mathbb{Z}\to\mathbb{Z}$ given by $f(n)=n+1$, the inverse function is $f^{-1}(m)=m-1$.

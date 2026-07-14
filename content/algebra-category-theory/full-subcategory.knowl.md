@@ -16,6 +16,8 @@ The subcategory \(\mathcal D\) is **full** if for every pair of objects \(A,B\in
 \]
 In words: once you decide which objects to keep, you keep **all** [[algebra-category-theory/morphism|morphisms]] between them.
 
+## Equivalent characterizations
+
 Equivalently, the inclusion \(\mathcal D\hookrightarrow \mathcal C\) is a [[algebra-category-theory/functor|functor]] that is “full on hom-sets” (it induces surjections on each hom-set).
 
 ## Examples

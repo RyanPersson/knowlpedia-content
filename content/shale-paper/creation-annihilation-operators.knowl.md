@@ -14,7 +14,11 @@ adds a particle:
 
 Its adjoint \(C^*(z)\) is the **annihilation operator**.
 
+## Remarks
+
 **Key property (paper use):**
 - The (unbounded) field operator is \(R(z)=\tfrac1{\sqrt2}(C(z)+C^*(z))^{\sim}\).
 
-**Example:** \(C(z)e_0=z\in \mathrm{Sym}^1(H)\).
+## Examples
+
+- \(C(z)e_0=z\in \mathrm{Sym}^1(H)\).

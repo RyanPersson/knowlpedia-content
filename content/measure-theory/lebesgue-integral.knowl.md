@@ -20,6 +20,7 @@ where the integrals on the right are understood via [[measure-theory/lebesgue-in
 
 When $f$ is [[measure-theory/lebesgue-integrable-function|Lebesgue integrable]], the integral is a finite real number. Moreover, if $f$ and $g$ satisfy [[measure-theory/ae-equality|a.e. equality]], then (whenever defined) their Lebesgue integrals agree.
 
-**Examples:**
+## Examples
+
 - On $\mathbb R$ with [[measure-theory/lebesgue-measure|Lebesgue measure]], the function $f(x)=x$ for $x\in[-1,1]$ and $f(x)=0$ otherwise satisfies $\int_{\mathbb R} f\,dx=0$.
 - If $E$ is a [[measure-theory/measurable-set|measurable set]] with $\mu(E)<\infty$ and $c\in\mathbb R$, then $\int_X c\,\mathbf{1}_E\,d\mu=c\,\mu(E)$.

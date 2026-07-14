@@ -16,7 +16,11 @@ Fix a left $R$-module $N$. Then the functor
 \]
 from right $R$-modules to abelian groups is the tensor product functor (see [[algebra-modules/tensor-product|tensor product]]).
 
+## Equivalent characterizations
+
 (Equivalently, if $M$ is a fixed right $R$-module, then $M\otimes_R(-): R\text{-}\mathrm{Mod}\to\mathrm{Ab}$ is also right exact.)
+
+Equivalently: tensoring preserves cokernels and epimorphisms.
 
 ## Statement (right exactness)
 If
@@ -28,8 +32,6 @@ is an exact sequence of right $R$-modules, then
 A'\otimes_R N \xrightarrow{u\otimes 1} A\otimes_R N \xrightarrow{v\otimes 1} A''\otimes_R N \to 0
 \]
 is exact.
-
-Equivalently: tensoring preserves cokernels and epimorphisms.
 
 ## Failure of left exactness and Tor
 Tensor need not preserve kernels (i.e. it need not preserve injections). For a [[algebra-modules/short-exact-sequence|short exact sequence]]

@@ -12,6 +12,10 @@ Let $K/k$ be a finite extension of nonarchimedean local fields (e.g. $p$-adic fi
 
 The extension is **unramified** if its **ramification index** $e(K/k)=1$ (equivalently, $\mathfrak p_k\mathcal O_K=\mathfrak p_K$).
 
+## Equivalent characterizations
+
 Equivalently, $\mathcal O_K/\mathfrak p_K$ is a finite extension of $\mathcal O_k/\mathfrak p_k$ of degree $[K:k]$.
+
+## Remarks
 
 **Key fact:** in the Galois unramified case, there is a canonical [[langlands-letter/knowls/frobenius-unramified|Frobenius element]] generating $\mathrm{Gal}(K/k)$.

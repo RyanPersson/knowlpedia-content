@@ -8,7 +8,6 @@ domains = ["thermodynamics"]
 legacy_source_path = "thermodynamics/gibbs-duhem-theorem.md"
 +++
 
-## Statement
 For an equilibrium [[thermodynamics/thermodynamic-system|thermodynamic system]] with extensive fundamental relation $U=U(S,V,N)$, assume the hypotheses of the [[stat-mech/euler-relation-theorem|Euler relation theorem]] so that
 $$
 U = TS - pV + \mu N.

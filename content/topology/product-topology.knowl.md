@@ -14,9 +14,16 @@ The **product topology** on a product of [[topology/topological-space|topologica
 \]
 where $\pi_i:\prod_{j\in I}X_j\to X_i$ is the $i$th projection map.
 
-Equivalently, it is the coarsest topology on $\prod_{i\in I}X_i$ making each projection $\pi_i$ a [[topology/continuous-map|continuous map]]. In the common case of two spaces $X\times Y$, a [[topology/basis-of-topology|basis]] is given by sets of the form $U\times V$ with $U$ open in $X$ and $V$ open in $Y$.
+## Equivalent characterizations
 
-**Examples:**
+Equivalently, it is the coarsest topology on $\prod_{i\in I}X_i$ making each projection $\pi_i$ a [[topology/continuous-map|continuous map]].
+
+## Remarks
+
+In the common case of two spaces $X\times Y$, a [[topology/basis-of-topology|basis]] is given by sets of the form $U\times V$ with $U$ open in $X$ and $V$ open in $Y$.
+
+## Examples
+
 - $\mathbb{R}^n$ with its usual topology can be viewed as the product of $n$ copies of $\mathbb{R}$ with the usual topology.
 - If $X$ is discrete and $Y$ is any space, then basic open sets in $X\times Y$ are unions of sets $\{x\}\times V$ with $V$ open in $Y$.
 - In an infinite product $\prod_{i\in I}X_i$, subbasic open sets are “cylinders” that constrain only one coordinate.

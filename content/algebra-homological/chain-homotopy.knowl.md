@@ -26,16 +26,16 @@ H_n(f)=H_n(g)\quad\text{for all }n,
 \]
 where [[algebra-homological/homology-module|homology module]] is used.
 
-## Cross-links
+## Remarks
 - Special case: a **contracting homotopy** \( \mathrm{id}\simeq 0\) shows a complex is “contractible,” hence [[algebra-homological/exact-complex|exact]].
 - Chain homotopy is the basic equivalence relation behind chain-homotopy categories; compare [[algebra-homological/chain-map|chain map]].
 
 ## Examples
-1. **Degree-0 complexes: homotopy forces equality.**  
+1. **Degree-0 complexes: homotopy forces equality.**
    If \(C_\bullet\) and \(D_\bullet\) are concentrated in degree \(0\), then any \(s_n\) must be \(0\) (there is no \(D_{1}\)), so the homotopy identity becomes \(f_0-g_0=0\). Thus \(f\simeq g\) implies \(f=g\) in this case.
 
-2. **A contractible 2-term complex.**  
-   Consider the complex \(C_\bullet\) with \(C_1=R\), \(C_0=R\), and \(d_1=\mathrm{id}_R\) (all other \(C_n=0\)). This is a chain complex since \(d_0=0\).  
+2. **A contractible 2-term complex.**
+   Consider the complex \(C_\bullet\) with \(C_1=R\), \(C_0=R\), and \(d_1=\mathrm{id}_R\) (all other \(C_n=0\)). This is a chain complex since \(d_0=0\).
    Define \(s_0:C_0\to C_1\) to be \(\mathrm{id}_R\) and all other \(s_n=0\). Then for \(n=0\),
    \[
    (\mathrm{id}-0)_{0} = d_1 s_0 + s_{-1} d_0 = \mathrm{id}\circ \mathrm{id} + 0,
@@ -46,7 +46,7 @@ where [[algebra-homological/homology-module|homology module]] is used.
    \]
    Hence \(\mathrm{id}_{C_\bullet}\simeq 0\). In particular \(H_n(C_\bullet)=0\) for all \(n\), so \(C_\bullet\) is [[algebra-homological/exact-complex|exact]].
 
-3. **Split exact complexes admit contracting homotopies.**  
+3. **Split exact complexes admit contracting homotopies.**
    If each short exact sequence
    \[
    0\to \operatorname{im}(d_{n+1}) \to C_n \to \operatorname{im}(d_n)\to 0

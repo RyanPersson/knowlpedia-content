@@ -16,7 +16,8 @@ where powers are defined by $g^0=e$, $g^{n+1}=g^n g$ for $n\ge 0$, and $g^{-n}=(
 
 A group is called *cyclic* if it equals $\langle g\rangle$ for some element $g$.
 
-**Examples:**
+## Examples
+
 - In $(\mathbb{Z},+)$, $\langle 3\rangle = 3\mathbb{Z}$.
 - In $\mathbb{C}^{\times}$, $\langle i\rangle = \{1,i,-1,-i\}$.
 - In $S_3$, $\langle (123)\rangle=\{e,(123),(132)\}$.

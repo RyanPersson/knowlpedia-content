@@ -16,7 +16,8 @@ i.e. the [[shared-foundations/image|image]] of $R$ under $\varphi$.
 
 The image is a [[algebra-rings/subring|subring]] of $S$ (and a unital subring if $\varphi$ is unital and $S$ is unital). Together with the kernel, the image governs the structure of $\varphi$ via isomorphism theorems.
 
-**Examples:**
+## Examples
+
 - For the inclusion $\mathbb Z\hookrightarrow \mathbb Q$, the image is $\mathbb Z\subseteq \mathbb Q$.
 - For the reduction map $\mathbb Z\to \mathbb Z/n\mathbb Z$, the image is all of $\mathbb Z/n\mathbb Z$.
 - For evaluation $k[x,y]\to k[x]$ at $y=0$, the image is $k[x]$.

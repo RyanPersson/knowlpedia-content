@@ -19,7 +19,8 @@ G \cong N \rtimes H,
 $$
 so internal semidirect products are precisely the internal realizations of [[algebra-groups/semidirect-product|semidirect products]].
 
-**Examples:**
+## Examples
+
 - $S_3$ is an internal semidirect product of $A_3$ (normal, order $3$) and $\langle(12)\rangle$ (order $2$), hence $S_3\cong C_3\rtimes C_2$.
 - $D_{2n}$ is an internal semidirect product of its rotation subgroup $C_n$ and a reflection subgroup $C_2$.
 - If, in addition, $H$ is normal, then $G$ is an [[algebra-groups/internal-direct-product|internal direct product]].

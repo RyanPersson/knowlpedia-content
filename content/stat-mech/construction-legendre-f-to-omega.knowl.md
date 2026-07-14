@@ -12,7 +12,7 @@ In equilibrium thermodynamics, different constraints lead naturally to different
 
 ## Definition (thermodynamic Legendre transform)
 
-Let $F(T,V,N)$ be the Helmholtz free energy, i.e. the potential adapted to fixed $(T,V,N)$ (see [[thermodynamics/helmholtz-free-energy|Helmholtz free energy]] and [[thermodynamics/thermodynamic-system|thermodynamic system]]).  
+Let $F(T,V,N)$ be the Helmholtz free energy, i.e. the potential adapted to fixed $(T,V,N)$ (see [[thermodynamics/helmholtz-free-energy|Helmholtz free energy]] and [[thermodynamics/thermodynamic-system|thermodynamic system]]).
 The **grand potential** $\Omega(T,V,\mu)$ is defined as the Legendre transform of $F$ with respect to the particle number $N$:
 $$
 \Omega(T,V,\mu) \;=\; \inf_{N\in\mathbb{N}} \bigl(F(T,V,N) - \mu N\bigr).
@@ -36,7 +36,7 @@ $$
 
 where $\beta$ is the [[thermodynamics/inverse-temperature-beta|inverse temperature]] and $\Xi$ is constructed by [[stat-mech/construction-grand-canonical-partition-function|the grand-canonical partition-function construction]].
 
-## Physical interpretation
+## Interpretation
 
 - Passing from $F(T,V,N)$ to $\Omega(T,V,\mu)$ exchanges the constraint “fixed particle number” for “fixed chemical potential,” matching the physics of a system in particle exchange with a reservoir.
 - The term $-\mu N$ represents the energetic/entropic bookkeeping associated with exchanging particles with that reservoir.

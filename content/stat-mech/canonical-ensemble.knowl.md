@@ -25,6 +25,8 @@ $$
 
 where $Z(\beta)$ is the [[stat-mech/partition-function-canonical|canonical partition function]].
 
+## Remarks
+
 (Quantum version: replace the phase-space integral by a trace, $Z(\beta)=\mathrm{Tr}\,e^{-\beta \hat H}$, and $\rho_\beta$ by the Gibbs density matrix.)
 
 ## Ensemble averages

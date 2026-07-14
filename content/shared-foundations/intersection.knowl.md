@@ -18,8 +18,11 @@ $$
 \bigcap_{i\in I} A_i=\{x : \forall i\in I,\; x\in A_i\}.
 $$
 
+## Remarks
+
 Intersection is dual to [[shared-foundations/union|union]] and is closely related to [[shared-foundations/subset|containment]]: one has $A\subseteq B$ exactly when $A\cap B=A$.
 
-**Examples:**
+## Examples
+
 - $\{1,2\}\cap\{2,3\}=\{2\}$.
 - If $A=\{x\in\mathbb{R}: x<0\}$ and $B=\{x\in\mathbb{R}: x\ge 0\}$, then $A\cap B=\varnothing$ (see [[shared-foundations/empty-set|empty set]]).

@@ -14,4 +14,6 @@ The **spherical Hecke algebra** is $\mathcal H(G(k),K):=C_c(K\backslash G(k)/K)$
 
 The **Satake isomorphism** identifies $\mathcal H(G(k),K)$ with a commutative algebra built from the dual torus of [[langlands-letter/knowls/langlands-dual-group|$\\widehat G$]] (e.g. $\mathbb{C}[X_*(\widehat T)]^{W}$); in the letter this is described as invariants in a group algebra of a dual lattice $cL$.
 
+## Remarks
+
 **Key use:** a Hecke eigencharacter $\chi:\mathcal H\to\mathbb{C}$ corresponds to a semisimple conjugacy class (a Satake parameter).

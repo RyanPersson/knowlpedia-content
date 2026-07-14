@@ -29,4 +29,6 @@ These are the vertices inside \(\Lambda\) that have at least one neighbor outsid
 \delta \Lambda := \{\{x,y\} : x\in \Lambda,\ y\notin \Lambda,\ x\sim y\}.
 \]
 
+## Remarks
+
 Different authors may use different boundary conventions (vertex vs. edge boundary, inner vs. outer), so it is good practice to check which version is intended in a given argument.

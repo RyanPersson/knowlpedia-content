@@ -10,6 +10,8 @@ legacy_source_path = "algebra-representation-theory/irreducible-character.md"
 
 Let \(G\) be a finite group. An **irreducible character** of \(G\) is the [[algebra-representation-theory/character|character]] \(\chi_\rho\) of an [[algebra-representation-theory/irreducible-representation|irreducible (complex) representation]] \(\rho:G\to \mathrm{GL}(V)\).
 
+## Equivalent characterizations
+
 Equivalently, irreducible characters are the characters of the [[algebra-modules/simple-module|simple]] \(\mathbb{C}[G]\)-modules (via the [[algebra-representation-theory/group-algebra|group algebra]] correspondence).
 
 ## Orthogonality and completeness (key facts)

@@ -10,8 +10,8 @@ legacy_source_path = "thermodynamics/work-sign-convention.md"
 
 A *work sign convention* specifies whether work is counted as positive when it is done **by** the system or **on** the system. Because heat and work appear together in the [[thermodynamics/first-law-thermodynamics|first law of thermodynamics]], the sign convention must be fixed to interpret equations and plots consistently.
 
-**Convention used in these knowls:**  
-- $\delta W>0$ means work is done **by the system** on the [[thermodynamics/surroundings-environment|surroundings]].  
+**Convention used in these knowls:**
+- $\delta W>0$ means work is done **by the system** on the [[thermodynamics/surroundings-environment|surroundings]].
 - $\delta Q>0$ means [[thermodynamics/heat-inexact-differential|heat]] flows **into** the system.
 
 With this choice, the first law for a [[thermodynamics/closed-system|closed system]] is
@@ -21,7 +21,7 @@ $$
 
 where $U$ is [[thermodynamics/internal-energy-thermo|internal energy]] and $\delta W$ is [[thermodynamics/work-inexact-differential|work]].
 
-## Physical interpretation
+## Interpretation
 Under this convention, $\delta W>0$ corresponds to energy leaving the system in an organized form (pushing a piston, turning a shaft), while $\delta Q>0$ corresponds to energy entering because of a temperature difference. The sign convention is not physics; it is bookkeeping. Physics enters through consistent application and through inequalities such as the [[thermodynamics/clausius-inequality|Clausius inequality]].
 
 ## Key consequences and examples

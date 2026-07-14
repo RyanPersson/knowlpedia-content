@@ -11,5 +11,7 @@ legacy_source_path = "algebra-groups/p-group-subgroups-all-orders.md"
 **Proposition (Subgroups of all orders in a finite p-group).**
 Let $p$ be a prime and let $G$ be a finite [[algebra-groups/p-group|p-group]] with $|G|=p^n$. Then for every integer $k$ with $0\le k\le n$ there exists a [[algebra-groups/subgroup|subgroup]] $H\le G$ such that $|H|=p^k$.
 
+## Remarks
+
 **Context.**
 This is a structural strengthening of Lagrange's theorem for $p$-groups: not only do subgroup orders divide $|G|$, all intermediate $p$-powers actually occur. It is proved by induction using the existence of nontrivial center.

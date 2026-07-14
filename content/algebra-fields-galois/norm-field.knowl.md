@@ -13,6 +13,8 @@ Let \(L/K\) be a finite [[algebra-fields-galois/field-extension|field extension]
 \mathrm{N}_{L/K}(\alpha) := \det(m_\alpha)\in K.
 \]
 
+## Remarks
+
 If \(L/K\) is separable (see [[algebra-fields-galois/separable-extension|separable extension]]) and \(\Omega\) contains \(L\), then
 \[
 \mathrm{N}_{L/K}(\alpha)=\prod_{\sigma} \sigma(\alpha),

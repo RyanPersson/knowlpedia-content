@@ -14,4 +14,6 @@ A **Chevalley lattice** in a representation $V$ is a $\mathbb{Z}$-lattice $V_\ma
 
 For a prime $p$, base change gives a group scheme $G_{\mathbb{Z}_p}$ and a canonical compact subgroup $G(\mathbb{Z}_p)$ (hyperspecial when $p$ is good; see [[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial]]).
 
+## Remarks
+
 **In the letter:** this is the "lattice-stabilizer" definition of $G_{\mathbb{Z}_p}$ used to define the spherical Hecke algebra.

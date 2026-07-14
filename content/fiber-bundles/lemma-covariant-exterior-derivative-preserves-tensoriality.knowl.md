@@ -20,6 +20,9 @@ D^\omega:\Omega^k(P;V)\longrightarrow \Omega^{k+1}(P;V),
 \qquad
 (D^\omega\alpha)(v_0,\dots,v_k):=d\alpha(\mathrm{hor}\,v_0,\dots,\mathrm{hor}\,v_k).
 \]
+
+## Equivalent characterizations
+
 Equivalently, on tensorial forms one may write the usual local formula
 \[
 D^\omega\alpha = d\alpha + \rho_*(\omega)\wedge \alpha,
@@ -36,11 +39,11 @@ D^\omega:\Omega^k_{\mathrm{tens}}(P;V)\longrightarrow \Omega^{k+1}_{\mathrm{tens
 where $\Omega^k_{\mathrm{tens}}(P;V)$ denotes $V$-valued tensorial $k$-forms. This is the basic mechanism behind induced connections on [[fiber-bundles/associated-bundle|associated bundles]] and, in the vector bundle case, on [[fiber-bundles/associated-vector-bundle|associated vector bundles]].
 
 ## Examples
-1. **From equivariant functions to covariant derivatives.**  
+1. **From equivariant functions to covariant derivatives.**
    A tensorial $0$-form of type $\rho$ is just a $\rho$-equivariant function $f:P\to V$. Under the identification of such functions with sections of the associated bundle $E=P\times_\rho V$ (see [[fiber-bundles/equivariant-map-pf-associated-to-a-section-of-p-g-f|equivariant maps and sections]]), the tensorial $1$-form $D^\omega f$ corresponds to the covariant derivative $\nabla s$ of the associated section $s\in \Gamma(E)$ (see [[fiber-bundles/covariant-derivative-of-a-section|covariant derivative of a section]]).
 
-2. **Adjoint-valued forms and the Bianchi identity setting.**  
+2. **Adjoint-valued forms and the Bianchi identity setting.**
    Taking $V=\mathfrak g$ with the adjoint representation (see [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]]), tensorial $\mathfrak g$-valued forms are the same objects that appear in [[fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms|covariant exterior derivatives on adjoint-valued forms]]. In particular, the curvature form $F^\omega\in\Omega^2(P;\mathfrak g)$ (see [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]]) is tensorial, hence $D^\omega F^\omega$ is a well-defined tensorial $3$-form.
 
-3. **Frame bundle viewpoint.**  
+3. **Frame bundle viewpoint.**
    On the frame bundle of a vector bundle (see [[fiber-bundles/construction-frame-bundle-fr-of-a-vector-bundle-e|frame bundle construction]]), tensorial forms of the defining representation encode tensor fields on the base. The lemma guarantees that applying $D^\omega$ to such a tensorial form produces another tensorial form, which is exactly what is needed for defining covariant derivatives of tensor fields via the frame bundle picture (compare [[fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em|connections via frame bundles]]).

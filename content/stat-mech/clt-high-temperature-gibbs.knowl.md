@@ -8,7 +8,7 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/clt-high-temperature-gibbs.md"
 +++
 
-## Prerequisites
+## Remarks
 
 - [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs measures]]
 - [[stat-mech-lattice/dlr-equation|DLR equation]]

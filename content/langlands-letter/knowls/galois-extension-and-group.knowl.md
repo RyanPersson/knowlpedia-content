@@ -17,4 +17,6 @@ $
 \mathrm{Gal}(K/k):=\mathrm{Aut}_k(K).
 $
 
+## Remarks
+
 **In the letter:** $\Gamma=\mathrm{Gal}(K/k)$ acts on split data and is used in [[langlands-letter/knowls/galois-descent-forms|descent/twisting]] and in the [[langlands-letter/knowls/l-group-satake-parameter|$L$-group]].

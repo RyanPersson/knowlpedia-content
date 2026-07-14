@@ -26,6 +26,8 @@ where $d$ is the [[fiber-bundles/exterior-derivative|exterior derivative]] on $U
 \big[\alpha(v_{\sigma_1},\dots,v_{\sigma_p}),\beta(v_{\sigma_{p+1}},\dots,v_{\sigma_{p+q}})\big].
 \]
 
+## Equivalent characterizations
+
 Equivalently, this is the pullback along $s$ of the global structure equation $\Omega=d\omega+\tfrac12[\omega\wedge\omega]$ on $P$.
 
 ## Examples

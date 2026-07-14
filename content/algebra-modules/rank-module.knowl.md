@@ -12,7 +12,8 @@ Let $F$ be a [[algebra-modules/free-module|free module]]. The **rank** of $F$ is
 
 When the rank is finite, it plays the role of [[convex-analysis/basis-hamel-basis-and-dimension|dimension]], but over a general ring one typically speaks of rank only for free (or locally free) modules.
 
-**Examples:**
+## Examples
+
 - $\operatorname{rank}(R^n)=n$.
 - The zero module has rank $0$ (its basis is the empty set).
 - If $F\cong \bigoplus_{i\in I} R$, then $\operatorname{rank}(F)=|I|$.

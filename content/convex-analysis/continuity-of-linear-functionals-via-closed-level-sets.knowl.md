@@ -17,5 +17,7 @@ $$
 
 is a [[convex-analysis/closed-subset|closed subset]] of $X$.
 
+## Remarks
+
 **Context:**
 This links geometric closedness of a [[convex-analysis/hyperplane|hyperplane]] level set to analytic boundedness of $f$ (compare [[convex-analysis/bounded-linear-functional-norm-of-a-functional|bounded linear functionals]]). It is used to upgrade algebraic separation in vector spaces to separation by **closed** hyperplanes in normed spaces; see [[convex-analysis/separation-by-closed-hyperplane-under-interior-condition|closed hyperplane separation]].

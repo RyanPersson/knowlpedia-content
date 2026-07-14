@@ -16,4 +16,6 @@ $$
 
 In particular, any two Sylow $p$-subgroups of $G$ are conjugate (they lie in the same orbit under the [[algebra-groups/conjugation-action|conjugation action]]).
 
+## Remarks
+
 Sylow's second theorem implies Sylow $p$-subgroups are "unique up to conjugacy," and it is the key input for the normality test [[algebra-groups/sylow-normal-criterion|n_p=1 implies the Sylow p-subgroup is normal]]. It is typically proved using [[algebra-groups/sylows-first-theorem|Sylow's first theorem]] plus an action on cosets.

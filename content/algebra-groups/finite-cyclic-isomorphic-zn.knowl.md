@@ -15,5 +15,7 @@ $$
 $$
 is a well-defined isomorphism.
 
+## Remarks
+
 **Context.**
 This identifies finite cyclic groups up to unique isomorphism by their order. Many computations about cyclic groups can therefore be reduced to modular arithmetic in $\mathbb Z/n\mathbb Z$.

@@ -22,6 +22,8 @@ y = x \pm e_i \text{ for some } i\in\{1,\dots,d\},
 \]
 where \(e_i\) is the \(i\)-th standard basis vector.
 
+## Remarks
+
 **Degree.** Each site in \(\mathbb{Z}^d\) has exactly \(2d\) nearest neighbors.
 
 This adjacency relation turns \(\mathbb{Z}^d\) into an infinite graph, sometimes called the **nearest-neighbor lattice graph**.

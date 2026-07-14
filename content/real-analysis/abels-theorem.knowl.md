@@ -17,4 +17,6 @@ Then $f(x)$ is well-defined for every $0\le x<1$, and
 \lim_{x\to 1^-} f(x)=s.
 \]
 
+## Remarks
+
 This connects ordinary [[real-analysis/convergent-series|convergence of series]] with boundary behavior of [[real-analysis/power-series|power series]] and complements radius-of-convergence results such as the [[real-analysis/cauchy-hadamard-theorem|Cauchy–Hadamard theorem]].

@@ -18,4 +18,6 @@ $$
 F'(c)=f(c).
 $$
 
+## Remarks
+
 This links the [[real-analysis/riemann-integral|Riemann integral]] to the [[real-analysis/derivative|derivative]] by showing the integral produces an antiderivative wherever the integrand has no [[real-analysis/discontinuity-point|discontinuity]].

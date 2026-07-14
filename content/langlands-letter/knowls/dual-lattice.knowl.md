@@ -17,4 +17,6 @@ $
 
 A pairing $\langle\cdot,\cdot\rangle: L\times L^\vee\to \mathbb{Z}$ is given by evaluation: $\langle \lambda,\mu\rangle=\mu(\lambda)$.
 
+## Remarks
+
 **In the letter:** "conjugate lattice" $cL$ is a dual lattice used to build the [[langlands-letter/knowls/langlands-dual-group|dual root datum]] and the Satake parameter space.

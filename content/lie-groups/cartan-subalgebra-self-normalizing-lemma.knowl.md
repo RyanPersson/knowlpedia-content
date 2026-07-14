@@ -15,6 +15,10 @@ $$
 N_{\mathfrak{g}}(\mathfrak{h})=\{X\in\mathfrak{g}:[X,\mathfrak{h}]\subset \mathfrak{h}\}=\mathfrak{h}.
 $$
 
+## Equivalent characterizations
+
 Equivalently, if $X\in\mathfrak{g}$ satisfies $[X,H]\in \mathfrak{h}$ for every $H\in\mathfrak{h}$, then $X\in \mathfrak{h}$.
+
+## Remarks
 
 **Context.** This property ensures that $\mathfrak{h}$ is as large as possible among nilpotent subalgebras compatible with its own adjoint action: anything that stabilizes $\mathfrak{h}$ by commutators is already inside $\mathfrak{h}$. In semisimple Lie theory, self-normalizing is what makes the [[lie-groups/root-space-decomposition|root decomposition]] relative to $\mathfrak{h}$ behave rigidly, and it underlies the definition of the [[lie-groups/weyl-group|Weyl group]] as a quotient of a group normalizer by a centralizer.

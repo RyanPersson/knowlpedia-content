@@ -19,4 +19,6 @@ $$
 |X/G| = \frac{1}{|G|}\sum_{g\in G} |\operatorname{Fix}(g)|.
 $$
 
+## Remarks
+
 Burnside's lemma is a standard counting tool: instead of counting orbits directly, it averages easily computed fixed-point counts. It is frequently used in enumeration problems involving symmetries.

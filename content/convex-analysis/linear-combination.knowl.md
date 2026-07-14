@@ -16,7 +16,8 @@ Only **finite** sums are allowed in this definition.
 
 Linear combinations are the basic algebraic operation behind the [[convex-analysis/subspace-generated-by-a-set-span|span]], and a [[convex-analysis/basis-hamel-basis-and-dimension|basis]] is precisely a set that generates every vector via a unique linear combination.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}^2$, the vector $(3,1)$ is a linear combination of $(1,0)$ and $(0,1)$ via $(3,1)=3(1,0)+1(0,1)$.
 - In the polynomial space $P$, the polynomial $2+5t-t^3$ is a linear combination of $1,t,t^3$ with coefficients $2,5,-1$.
 - If $f,g\in F(\Omega)$, then $\alpha f+\beta g$ is the function $x\mapsto \alpha f(x)+\beta g(x)$.

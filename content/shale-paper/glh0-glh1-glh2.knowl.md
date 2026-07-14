@@ -15,4 +15,6 @@ For a Hilbert space \(H\), Shale defines subgroups of \(GL(H)\) by
 - \(i=1\): \(X\) [[shale-paper/trace-class-operator|trace-class]].
 - \(i=2\): \(X\) [[shale-paper/hilbert-schmidt-operator|Hilbert–Schmidt]].
 
+## Remarks
+
 **Key property:** \(GL(H)_0\) is dense in \(GL(H)_1\), dense in \(GL(H)_2\) (in the corresponding norms).

@@ -10,7 +10,6 @@ legacy_source_path = "algebra-commutative/simple-artinian-matrix-ring.md"
 
 A central structure theorem in ring theory is that “finite-length” (Artinian) simple rings are precisely matrix rings over division rings. This is the simplest nontrivial case of the [[algebra-rings/artin-wedderburn-theorem|Artin–Wedderburn theorem]].
 
-## Theorem
 
 Let $R$ be a ring (not necessarily commutative). Assume:
 - $R$ is **simple** (it has no nonzero proper two-sided ideals), and
@@ -28,13 +27,13 @@ In the commutative setting, this theorem collapses strongly: if $R$ is commutati
 
 ## Examples
 
-1. **Matrix rings over a field.**  
+1. **Matrix rings over a field.**
    For any field $k$ and any $n\ge 1$, the ring $M_n(k)$ is simple Artinian. Here $D=k$.
 
-2. **Division rings (the case $n=1$).**  
+2. **Division rings (the case $n=1$).**
    Any division ring $D$ is simple Artinian, and the theorem recovers it as $M_1(D)\cong D$. For instance, the real quaternions $\mathbb H$ form a (noncommutative) division ring, hence are simple Artinian.
 
-3. **Why “simple” matters.**  
+3. **Why “simple” matters.**
    The ring $k\times k$ is Artinian and semisimple, but not simple: it has nontrivial two-sided ideals $k\times 0$ and $0\times k$. Accordingly, it is not a single matrix ring, but it fits the product form described by [[algebra-commutative/semisimple-artinian-product|semisimple Artinian product decomposition]].
 
 This theorem is frequently used alongside Jacobson radical facts such as [[algebra-commutative/jacobson-annihilates-simples|the Jacobson radical annihilates simple modules]], since in the semisimple Artinian setting the Jacobson radical is zero.

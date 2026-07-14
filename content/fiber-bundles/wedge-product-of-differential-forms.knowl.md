@@ -19,9 +19,26 @@ For \(\alpha \in \Omega^k(M)\) and \(\beta \in \Omega^\ell(M)\), their **wedge p
 \]
 for all \(p\in M\) and \(v_1,\dots,v_{k+\ell}\in T_pM\).
 
+## Equivalent characterizations
 Equivalently, \((\alpha\wedge\beta)_p\) is the alternation of the tensor product \(\alpha_p\otimes \beta_p\).
 
-## Key properties
+## Examples
+1. **Coordinate 1-forms on \(\mathbb{R}^3\).**
+   With standard coordinates \((x,y,z)\), the 2-form \(dx\wedge dy\) satisfies
+   \((dx\wedge dy)(\partial_x,\partial_y)=1\) and changes sign when the vectors are swapped:
+   \((dx\wedge dy)(\partial_y,\partial_x)=-1\).
+
+2. **A wedge computation with functions.**
+   Let \(\alpha = f\,dx + g\,dy\) and \(\beta = h\,dz\) on \(\mathbb{R}^3\), where \(f,g,h\) are smooth functions. Then
+   \[
+   \alpha\wedge\beta = fh\,dx\wedge dz + gh\,dy\wedge dz.
+   \]
+
+3. **Wedge of a 1-form with itself is zero (odd degree).**
+   On any manifold, \(dx\wedge dx=0\). More generally, if \(\eta\) is any 1-form then \(\eta\wedge\eta=0\) by graded-commutativity with \(k=\ell=1\).
+
+
+## Properties
 If \(\alpha\in\Omega^k(M)\), \(\beta\in\Omega^\ell(M)\), and \(\gamma\in\Omega^m(M)\), then:
 
 - **Bilinearity:** \(\wedge\) is \(\mathbb{R}\)-bilinear in each argument.
@@ -35,18 +52,3 @@ If \(\alpha\in\Omega^k(M)\), \(\beta\in\Omega^\ell(M)\), and \(\gamma\in\Omega^m
   the [[fiber-bundles/pullback-of-differential-forms|pullback of forms]] satisfies
   \(F^*(\alpha\wedge\beta)=F^*\alpha\wedge F^*\beta\).
 - The wedge product is the product appearing in the graded Leibniz rule for the [[fiber-bundles/exterior-derivative|exterior derivative]].
-
-## Examples
-1. **Coordinate 1-forms on \(\mathbb{R}^3\).**  
-   With standard coordinates \((x,y,z)\), the 2-form \(dx\wedge dy\) satisfies
-   \((dx\wedge dy)(\partial_x,\partial_y)=1\) and changes sign when the vectors are swapped:
-   \((dx\wedge dy)(\partial_y,\partial_x)=-1\).
-
-2. **A wedge computation with functions.**  
-   Let \(\alpha = f\,dx + g\,dy\) and \(\beta = h\,dz\) on \(\mathbb{R}^3\), where \(f,g,h\) are smooth functions. Then
-   \[
-   \alpha\wedge\beta = fh\,dx\wedge dz + gh\,dy\wedge dz.
-   \]
-
-3. **Wedge of a 1-form with itself is zero (odd degree).**  
-   On any manifold, \(dx\wedge dx=0\). More generally, if \(\eta\) is any 1-form then \(\eta\wedge\eta=0\) by graded-commutativity with \(k=\ell=1\).

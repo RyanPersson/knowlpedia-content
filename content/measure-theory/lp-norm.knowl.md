@@ -20,6 +20,7 @@ using the [[measure-theory/essential-supremum|essential supremum]].
 
 If $f$ and $g$ are [[measure-theory/ae-equality|equal almost everywhere]], then $\|f\|_p=\|g\|_p$, so the $L^p$ norm is naturally a norm on the corresponding [[measure-theory/lp-space|$L^p$ space]].
 
-**Examples:**
+## Examples
+
 - On $([0,1],\mathcal{B},\lambda)$, the constant function $f(x)=1$ satisfies $\|f\|_p=1$ for every $1\le p\le\infty$.
 - On $([0,1],\mathcal{B},\lambda)$, for $f(x)=x$ one has $\|f\|_p=(1/(p+1))^{1/p}$ for $1\le p<\infty$, and $\|f\|_\infty=1$.

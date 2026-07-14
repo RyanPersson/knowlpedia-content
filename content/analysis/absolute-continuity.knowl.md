@@ -13,9 +13,12 @@ A function $f:[a,b]\to\mathbb{R}$ is **absolutely continuous** if for every $\va
 \sum_k |f(b_k)-f(a_k)|<\varepsilon.
 \]
 
+## Remarks
+
 Absolute continuity is stronger than [[real-analysis/uniform-continuity|uniform continuity]] and implies [[real-analysis/bounded-variation-function|bounded variation]]. A key characterization is that $f$ is absolutely continuous if and only if there exists a [[measure-theory/lebesgue-integrable-function|Lebesgue integrable function]] $g$ on $[a,b]$ such that $f(x)=f(a)+\int_a^x g(t)\,dt$ for all $x\in[a,b]$ (with the integral taken as the [[measure-theory/lebesgue-integral|Lebesgue integral]]); in that case the [[real-analysis/derivative|derivative]] satisfies $f'(x)=g(x)$ [[measure-theory/almost-everywhere|almost everywhere]].
 
-**Examples:**
+## Examples
+
 - If $g$ is Lebesgue integrable on $[a,b]$ and $f(x)=\int_a^x g(t)\,dt$, then $f$ is absolutely continuous.
 - Every [[topology/lipschitz-continuity|Lipschitz continuous]] function on $[a,b]$ is absolutely continuous.
 - The Cantor function is continuous and of bounded variation but not absolutely continuous; it increases on a [[measure-theory/set-of-measure-zero-in-rk|set of measure zero]].

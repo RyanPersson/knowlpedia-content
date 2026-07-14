@@ -10,7 +10,6 @@ legacy_source_path = "algebra-commutative/localization-exact.md"
 
 Localization is not just a way to invert elements in a ring [[algebra-commutative/localization-ring|(localization of rings)]]; it is also a well-behaved operation on modules [[algebra-commutative/localization-module|(localization of modules)]]. One of its most important formal properties is that it preserves exact sequences.
 
-## Theorem
 
 Let $R$ be a [[algebra-rings/commutative-ring|commutative ring]], let $S$ be a [[algebra-commutative/multiplicative-set|multiplicative set]] in $R$, and let
 \[
@@ -22,10 +21,14 @@ be an [[algebra-modules/exact-sequence-modules|exact sequence of $R$-modules]]. 
 \]
 is exact as a sequence of $S^{-1}R$-modules.
 
+## Equivalent characterizations
+
 Equivalently, for any $R$-linear map $h\colon M\to N$,
 - $S^{-1}(\ker h)=\ker(S^{-1}h)$,
 - $S^{-1}(\operatorname{im} h)=\operatorname{im}(S^{-1}h)$,
 so localization commutes with kernels and images.
+
+## Remarks
 
 One convenient conceptual reformulation is that localization is [[algebra-commutative/extension-of-scalars|extension of scalars]] along the ring map $R\to S^{-1}R$:
 \[
@@ -33,9 +36,11 @@ S^{-1}M \cong M\otimes_R S^{-1}R,
 \]
 and this tensor description is what makes the exactness behave so cleanly.
 
+Exactness is also a key input to the prime correspondence under localization; see [[algebra-commutative/localization-prime-correspondence|prime correspondence under localization]].
+
 ## Examples
 
-1. **Localizing a short exact sequence over $\mathbb Z$.**  
+1. **Localizing a short exact sequence over $\mathbb Z$.**
    Consider
    \[
    0\to \mathbb Z \xrightarrow{\times n} \mathbb Z \to \mathbb Z/n\mathbb Z \to 0.
@@ -48,7 +53,7 @@ and this tensor description is what makes the exactness behave so cleanly.
    - if $p\nmid n$, then multiplication by $n$ becomes an isomorphism on $\mathbb Z_{(p)}$, so $(\mathbb Z/n\mathbb Z)_{(p)}=0$;
    - if $n=p^k m$ with $p\nmid m$, then $m$ becomes invertible in $\mathbb Z_{(p)}$, and the cokernel is “the $p$-primary part,” isomorphic to $\mathbb Z/p^k\mathbb Z$ as a $\mathbb Z_{(p)}$-module.
 
-2. **Localization can kill torsion.**  
+2. **Localization can kill torsion.**
    Let $R=k[x]$ and consider the exact sequence
    \[
    0\to R \xrightarrow{\times x} R \to R/(x)\to 0.
@@ -59,7 +64,5 @@ and this tensor description is what makes the exactness behave so cleanly.
    \]
    which reflects that $R/(x)$ is “$x$-torsion.”
 
-3. **Exactness on kernels and images.**  
+3. **Exactness on kernels and images.**
    Let $R=\mathbb Z$, $h\colon \mathbb Z\to\mathbb Z$ be multiplication by $6$, and localize at $S=\{1,2,2^2,\dots\}$. Then $\ker h=0$ and exactness implies $\ker(S^{-1}h)=0$ as well. Meanwhile $\operatorname{im} h=6\mathbb Z$ localizes to $6\mathbb Z[1/2]$, which equals the image of the localized map $\mathbb Z[1/2]\xrightarrow{\times 6}\mathbb Z[1/2]$.
-
-Exactness is also a key input to the prime correspondence under localization; see [[algebra-commutative/localization-prime-correspondence|prime correspondence under localization]].

@@ -21,4 +21,6 @@ $$
 
 **Relation to adjoint/conjugation.** The [[lie-groups/conjugation-action-of-a-lie-group|conjugation action]] is trivial on $Z(G)$. For connected $G$, the kernel of the [[lie-groups/adjoint-action-of-a-lie-group|adjoint representation]] is exactly $Z(G)$, so discreteness of $Z(G)$ is equivalent to discreteness of $\ker(\mathrm{Ad})$; see [[lie-groups/adjoint-faithful-iff-discrete-center|Ad has discrete kernel iff the center is discrete]].
 
+## Remarks
+
 **Context.** The quotient $G/Z(G)$ is called the adjoint form in semisimple settings; modding out by the center removes precisely the elements invisible to conjugation.

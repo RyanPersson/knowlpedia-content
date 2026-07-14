@@ -16,6 +16,7 @@ A **filtered ring** is a [[algebra-rings/ring|ring]] \(R\) together with an incr
 
 Filtrations measure “order” or “size” of elements and produce graded approximations via the [[algebra-modules/associated-graded-ring|associated graded ring]]; many structural arguments pass from \(R\) to its graded shadow.
 
-**Examples:**
+## Examples
+
 - For an [[algebra-rings/ideal|ideal]] \(I\subseteq R\), the \(I\)-adic filtration \(F_nR=I^n\) (for \(n\ge 0\)) is multiplicative.
 - The degree filtration on \(k[x_1,\dots,x_n]\) given by \(F_d=\{\text{polynomials of degree}\le d\}\) is multiplicative.

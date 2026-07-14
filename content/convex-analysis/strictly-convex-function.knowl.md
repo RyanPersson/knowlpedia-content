@@ -13,9 +13,12 @@ $$
 f(\lambda x+(1-\lambda)y)<\lambda f(x)+(1-\lambda)f(y).
 $$
 
-**Context.** Strict convexity strengthens [[convex-analysis/convex-function-via-epigraph|convexity]] and typically yields uniqueness of minimizers in optimization problems.
+## Examples
 
-**Examples:**
 - On $\mathbb{R}$, $f(x)=x^2$ is strictly convex.
 - On a normed space, $f(x)=\|x\|^2$ is strictly convex in many settings (e.g., Hilbert spaces).
 - $f(x)=|x|$ on $\mathbb{R}$ is convex but not strictly convex (equality holds on rays with the same sign).
+
+## Remarks
+
+**Context.** Strict convexity strengthens [[convex-analysis/convex-function-via-epigraph|convexity]] and typically yields uniqueness of minimizers in optimization problems.

@@ -15,6 +15,7 @@ $$
 
 Exponential tightness is a strengthened form of ordinary tightness for [[probability/probability-measure|probability measures]]: it not only forces most mass into compacts, but does so with exponentially small tails at the LDP speed. It is frequently paired with a [[large-deviations/rate-function|rate function]] to obtain or upgrade a [[large-deviations/large-deviation-principle|large deviation principle]], and it is a standard hypothesis in results like the [[large-deviations/gartner-ellis-theorem|Gärtner–Ellis theorem]].
 
-**Examples:**
+## Examples
+
 - If $X$ has a finite [[probability/moment-generating-function|moment generating function]] in a neighborhood of $0$, then the laws of $\bar X_n=\frac1n\sum_{i=1}^n X_i$ are typically exponentially tight at speed $n$ on $\mathbb R$ (exponential moment bounds imply exponentially small tails).
 - If $E$ itself is compact, then any sequence $(\mu_n)$ is exponentially tight at any speed, since one can take $K_M=E$ for all $M$.

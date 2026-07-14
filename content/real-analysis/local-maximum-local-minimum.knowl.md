@@ -16,9 +16,12 @@ Let $f:E\to\mathbb{R}$ with $E\subseteq X$ where $(X,d)$ is a [[topology/metric-
 - The point $a$ is a **local minimum** of $f$ if there exists $r>0$ such that for all $x\in E\cap B(a,r)$,
   $$f(a)\le f(x).$$
 
+## Remarks
+
 Local extrema are "nearby" maxima/minima. In one-variable calculus, local extrema in the interior of an [[real-analysis/interval|interval]] are closely tied to [[real-analysis/critical-point|critical points]] and [[real-analysis/derivative|derivative]] tests.
 
-**Examples:**
+## Examples
+
 - For $f(x)=x^2$ on $\mathbb{R}$, $0$ is a local minimum.
 - For $f(x)=-x^2$ on $\mathbb{R}$, $0$ is a local maximum.
 - For $f(x)=x^3$ on $\mathbb{R}$, there are no local maxima or minima (even though $f'(0)=0$).

@@ -29,11 +29,11 @@ $$
 
 with sigma-algebra $\mathcal{F}_\Lambda := \bigotimes_{i\in\Lambda}\mathcal{S}$.
 
-## Key properties
+## Properties
 - **Cylinder sigma-algebra and locality:** Any local observable depending on finitely many spins is measurable with respect to $\mathcal{F}_\Lambda$ for some finite $\Lambda$. This matches the locality of typical [[stat-mech-lattice/interaction-potential-phi|interactions]] and [[stat-mech-lattice/lattice-hamiltonian|Hamiltonians]].
 - **Product measures and a priori structure:** If a single-site a priori measure $\rho$ is chosen on $S$, one obtains a product measure on $\Omega$ (see [[measure-theory/product-measure|product measure]]). Finite-volume Gibbs measures are often absolutely continuous with respect to the corresponding product measure on $\Omega_\Lambda$.
 - **Shifts (translations):** Translations of the lattice act on $\Omega$ by shifting coordinates. Translation invariance of interactions (see [[stat-mech-lattice/translation-invariant-interaction|translation-invariant interaction]]) often leads to translation-invariant Gibbs measures.
 - **Topology (when used):** If $S$ is finite or compact and metrizable, $\Omega$ can be given the product topology, and then $\Omega$ is compact by Tychonoff’s theorem. This is convenient for existence/compactness arguments in equilibrium theory.
 
-## Physical interpretation
+## Interpretation
 $\Omega$ is the **phase space** (more precisely, the configuration or sample space) of a lattice spin system: each $\sigma\in\Omega$ is a full microscopic state. Equilibrium statistical mechanics selects probability measures on $\Omega$—finite-volume (see [[stat-mech-lattice/finite-volume-gibbs-measure|finite-volume Gibbs measures]]) and infinite-volume (see [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs measures]])—that encode typical configurations and fluctuations, as formalized by the [[stat-mech-lattice/gibbs-specification|Gibbs specification]] and [[stat-mech-lattice/dlr-equation|DLR equation]].

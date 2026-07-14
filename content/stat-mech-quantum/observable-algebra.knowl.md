@@ -27,12 +27,12 @@ $$
 $$
 using the [[quantum-foundations/trace-operator|trace]].
 
-## Physical interpretation
+## Interpretation
 - $\mathcal{A}$ is the mathematical container for “what you can measure” and “how measurements combine.”
 - Noncommutativity ($AB\neq BA$) encodes **incompatible observables** and the impossibility of assigning sharp values to all observables simultaneously.
 - Commutative subalgebras behave like classical algebras of random variables, describing compatible families of measurements.
 
-## Key properties
+## Properties
 - **$*$-structure and reality:** Self-adjoint elements correspond to real-valued measurement outcomes.
 - **Positivity:** Operators of the form $A^\dagger A$ are positive; states must assign them nonnegative expectation values.
 - **Expectation values:** The operational content of the algebra is summarized by the [[stat-mech-quantum/quantum-expectation-value|expectation functional]] $A\mapsto \omega(A)$.

@@ -23,20 +23,20 @@ H^n(C^\bullet)=\ker(d^n)/\operatorname{im}(d^{n-1}),
 \]
 see [[algebra-homological/cohomology-module|cohomology module]].
 
-## Cross-links
+## Remarks
 - Chain vs. cochain conventions: compare [[algebra-homological/chain-complex|chain complex]].
 - Cochain complexes from \(\mathrm{Hom}\): [[algebra-modules/hom-module|Hom]] and [[algebra-homological/hom-left-exact|left exactness of Hom]].
 - Cohomology as a derived functor: [[algebra-homological/derived-functor|derived functor]] and [[algebra-homological/ext|Ext]].
 
 ## Examples
-1. **Cochain complex concentrated in degree 0.**  
+1. **Cochain complex concentrated in degree 0.**
    For an \(R\)-module \(M\), the diagram
    \[
    \cdots \to 0 \to M \to 0 \to \cdots
    \]
    with \(M\) in degree \(0\) is a cochain complex. Then \(H^0\cong M\) and \(H^n=0\) for \(n\neq 0\).
 
-2. **Hom of a chain complex is a cochain complex.**  
+2. **Hom of a chain complex is a cochain complex.**
    If \((C_\bullet,d)\) is a [[algebra-homological/chain-complex|chain complex]] and \(M\) is an \(R\)-module, define
    \[
    \operatorname{Hom}_R(C_\bullet,M)^n := \operatorname{Hom}_R(C_n,M),
@@ -47,7 +47,7 @@ see [[algebra-homological/cohomology-module|cohomology module]].
    \]
    Then \(\delta^{n+1}\circ \delta^n=0\) because \(d\circ d=0\), so this is a cochain complex. This construction underlies the computation of [[algebra-homological/ext|Ext]] from a [[algebra-homological/projective-resolution|projective resolution]].
 
-3. **“Multiplication by \(x\)” as a cochain complex.**  
+3. **“Multiplication by \(x\)” as a cochain complex.**
    For \(x\in R\), the 2-term cochain complex
    \[
    0 \to R \xrightarrow{\,\cdot x\,} R \to 0

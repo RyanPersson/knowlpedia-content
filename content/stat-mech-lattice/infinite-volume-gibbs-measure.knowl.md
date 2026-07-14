@@ -19,7 +19,7 @@ $$
 
 Equivalently, $\mu$ satisfies the [[stat-mech-lattice/dlr-equation|DLR equation]]: for each finite $\Lambda$, the conditional law of $\sigma_\Lambda$ given the outside configuration $\sigma_{\Lambda^c}$ is $\gamma_\Lambda(\cdot \mid \sigma_{\Lambda^c})$, where $\gamma_\Lambda$ is the same kernel that defines the [[stat-mech-lattice/finite-volume-gibbs-measure|finite-volume Gibbs measure]] with [[stat-mech-lattice/boundary-condition-lattice|boundary condition]] $\sigma_{\Lambda^c}$.
 
-## Key properties
+## Properties
 
 - **Local equilibrium / consistency:** The defining feature is *local*: every finite window sees the outside world only through the specification kernel. This is the infinite-system analogue of sampling from a finite-volume Gibbs law with an induced boundary condition.
 
@@ -31,6 +31,6 @@ Equivalently, $\mu$ satisfies the [[stat-mech-lattice/dlr-equation|DLR equation]
 
 - **Symmetries:** If the interaction is [[stat-mech-lattice/translation-invariant-interaction|translation-invariant]] (and similarly for other symmetries), then there exist Gibbs measures that inherit these symmetries, though symmetry-invariant measures need not be [[stat-mech-lattice/extremal-gibbs-measure|extremal]].
 
-## Physical interpretation
+## Interpretation
 
 An infinite-volume Gibbs measure represents an equilibrium state of an *infinite* lattice system: any finite subsystem is in thermal equilibrium with the remainder of the lattice acting as a “heat bath,” encoded by the specification. Measurable predictions (magnetization, energy density, etc.) are computed as [[stat-mech/ensemble-average|ensemble averages]] under $\mu$, and the presence of multiple such measures corresponds to the coexistence of distinct macroscopic phases.

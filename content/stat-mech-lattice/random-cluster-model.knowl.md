@@ -51,7 +51,7 @@ In this correspondence, the random-cluster partition function matches the Potts 
 
 A useful consequence (often phrased via the Edwards–Sokal coupling) is that **connectivity events encode Potts correlations**: the event “$x$ is connected to $y$ by open edges” controls the probability that Potts spins at $x$ and $y$ are equal under the corresponding Potts measure.
 
-## Key properties
+## Properties
 
 ### Special cases
 - **$q=1$**: the factor $q^{k(\omega)}$ is constant, so $\phi_{G,p,1}$ is **independent bond percolation** with edge-open probability $p$.
@@ -78,7 +78,7 @@ leading to the [[stat-mech-lattice/pressure-lattice|lattice pressure]] and its [
 
 Non-analytic behavior of this limit as a function of $(p,q)$ corresponds to a [[stat-mech-lattice/phase-transition-gibbs|phase transition]].
 
-## Physical interpretation
+## Interpretation
 
 - The configuration $\omega$ describes which bonds are “active.” For Potts/Ising systems, open edges represent bonds that are compatible with (or reinforce) local alignment.
 - **Clusters** in $(V,\omega)$ represent **domains** of aligned spins in the coupled Potts picture.

@@ -14,6 +14,8 @@ F \subseteq K \subseteq E,
 \]
 where both inclusions are inclusions of fields. Equivalently, \(K\) is a subfield of \(E\) that contains \(F\).
 
+## Remarks
+
 Any intermediate field \(K\) determines a [[algebra-fields-galois/tower-of-fields|tower]]
 \[
 F \subseteq K \subseteq E.

@@ -21,6 +21,7 @@ d_{\mathrm{TV}}(P,Q)=\frac12\int_\Omega |p-q|\,d\mu.
 $$
 Total variation is a strong notion of closeness of [[probability/distribution-law|laws]], and it can be controlled by [[probability/relative-entropy-kl-divergence|KL divergence]] through [[probability/pinsker-inequality|Pinsker's inequality]].
 
-**Examples:**
+## Examples
+
 - If $P=\mathrm{Bernoulli}(p)$ and $Q=\mathrm{Bernoulli}(q)$ on $\{0,1\}$, then $d_{\mathrm{TV}}(P,Q)=|p-q|$.
 - If $P$ and $Q$ have probability mass functions $(p_i)$ and $(q_i)$ on a finite set, then $d_{\mathrm{TV}}(P,Q)=\frac12\sum_i |p_i-q_i|$.

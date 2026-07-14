@@ -16,7 +16,7 @@ $$
 \alpha \equiv \frac{1}{V}\left(\frac{\partial V}{\partial T}\right)_{p,N}.
 $$
 
-## Physical interpretation
+## Interpretation
 For a small quasistatic change at fixed pressure, the definition implies
 $$
 \frac{dV}{V} = \alpha\,dT.

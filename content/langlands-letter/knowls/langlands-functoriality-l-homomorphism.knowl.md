@@ -19,4 +19,6 @@ $
 $
 as conjugacy classes in ${}^LG$.
 
+## Remarks
+
 This is exactly the letter's "second question," stated in terms of pushing forward $\alpha'_p$.

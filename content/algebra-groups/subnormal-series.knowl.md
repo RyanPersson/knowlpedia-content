@@ -14,9 +14,12 @@ $
 $
 such that each $G_{i-1}$ is a [[algebra-groups/normal-subgroup|normal subgroup]] of $G_i$.
 
-Subnormal series are used to organize inductive arguments on group structure. Important special cases include the [[algebra-groups/derived-series|derived series]] and the [[algebra-groups/lower-central-series|lower central series]]. A subnormal series whose factors satisfy additional properties can be a [[algebra-groups/composition-series-group|composition series]].
+## Examples
 
-**Examples:**
 - The two-step chain $\{e\}\lhd G$ is a subnormal series for every group $G$.
 - In $S_4$, the chain $\{e\}\lhd V_4\lhd A_4\lhd S_4$ is a subnormal series (here $V_4$ is the Klein four subgroup).
 - In $S_3$, the chain $\{e\}<\langle (12)\rangle<S_3$ is *not* a subnormal series because $\langle(12)\rangle$ is not normal in $S_3$.
+
+## Remarks
+
+Subnormal series are used to organize inductive arguments on group structure. Important special cases include the [[algebra-groups/derived-series|derived series]] and the [[algebra-groups/lower-central-series|lower central series]]. A subnormal series whose factors satisfy additional properties can be a [[algebra-groups/composition-series-group|composition series]].

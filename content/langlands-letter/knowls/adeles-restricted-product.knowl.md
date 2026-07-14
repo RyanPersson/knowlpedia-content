@@ -17,4 +17,6 @@ $
 
 The **adele ring** is $\mathbb{A}_F:=\prod_v' F_v$ (with $\mathcal O_v$ the local integer rings at finite $v$).
 
+## Remarks
+
 **Key property:** $F$ embeds diagonally into $\mathbb{A}_F$, and automorphic forms live on $G(F)\backslash G(\mathbb{A}_F)$ (see [[langlands-letter/knowls/automorphic-form-hecke-eigen|automorphic forms]]).

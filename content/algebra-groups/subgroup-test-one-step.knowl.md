@@ -10,4 +10,6 @@ legacy_source_path = "algebra-groups/subgroup-test-one-step.md"
 
 **Subgroup Test (one-step)**: Let $G$ be a [[algebra-groups/group|group]] and let $H$ be a nonempty [[shared-foundations/subset|subset]] of $G$. Then $H$ is a [[algebra-groups/subgroup|subgroup]] of $G$ if and only if for all $x,y\in H$ one has $xy^{-1}\in H$.
 
+## Remarks
+
 This is often the fastest criterion to check the subgroup property because it packages "closed under products" and "closed under inverses" into a single closure condition.

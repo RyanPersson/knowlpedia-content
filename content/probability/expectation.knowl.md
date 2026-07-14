@@ -15,8 +15,11 @@ $$
 
 provided $X$ is integrable, i.e. $\int_\Omega |X|\,d\mathbb P<\infty$ (so $X$ is an $L^1$ random variable; see [[measure-theory/l1-function|L1 function]]).
 
+## Remarks
+
 This definition uses the [[measure-theory/lebesgue-integral|Lebesgue integral]] on the underlying [[probability/probability-space|probability space]]; expectation is the basic averaging operation underlying [[probability/variance|variance]], [[probability/covariance|covariance]], and many limit theorems.
 
-**Examples:**
+## Examples
+
 - If $X$ takes values $x_k$ with probabilities $p_k$ (countably many), then $\mathbb E[X]=\sum_k x_k p_k$ whenever $\sum_k |x_k|p_k<\infty$.
 - If $X$ is uniform on $[0,1]$, then $\mathbb E[X]=\int_0^1 x\,dx=\tfrac12$.

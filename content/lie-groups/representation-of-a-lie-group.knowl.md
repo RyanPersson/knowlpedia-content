@@ -15,8 +15,6 @@ $$
 $$
 where \(\operatorname{GL}(V)\) is the group of invertible [[linear-algebra/linear-operator|linear operators]] on \(V\).
 
-Equivalently, \(\rho\) is a smooth action of \(G\) on \(V\) by linear isomorphisms, written \(g\cdot v := \rho(g)v\).
-
 ## Differentiating a representation
 The differential at the identity gives a Lie algebra representation
 $$
@@ -31,3 +29,6 @@ which is a [[lie-groups/representation-of-a-lie-algebra|representation of the Li
 - The [[lie-groups/adjoint-action-of-a-lie-group|adjoint representation]] \(G\to \operatorname{Aut}(\mathfrak{g})\).
 
 Many structural notions for representations can be studied via the induced Lie algebra representation and tools such as the [[lie-groups/killing-form|Killing form]] in the semisimple case.
+
+## Equivalent characterizations
+Equivalently, \(\rho\) is a smooth action of \(G\) on \(V\) by linear isomorphisms, written \(g\cdot v := \rho(g)v\).

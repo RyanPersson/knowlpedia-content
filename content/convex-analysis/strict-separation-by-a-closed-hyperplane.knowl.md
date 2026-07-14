@@ -21,4 +21,6 @@ $$
 \sup_{x\in\Omega_1}\langle x^\ast ,x\rangle < \inf_{y\in\Omega_2}\langle x^\ast ,y\rangle.
 $$
 
+## Remarks
+
 This notion strengthens [[convex-analysis/separation-by-a-closed-hyperplane|separation by a closed hyperplane]] by requiring a strict gap.

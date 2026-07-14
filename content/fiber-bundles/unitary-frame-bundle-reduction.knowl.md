@@ -15,6 +15,7 @@ Let $\pi:E\to M$ be a complex vector bundle of rank $n$ over a [[fiber-bundles/s
 
 The right action of $\mathrm{GL}(n,\mathbb C)$ on $\mathrm{Fr}(E)$ restricts to a free right action of the unitary group $\mathrm{U}(n)$ on $\mathrm{U}(E)$. With this action, $\mathrm{U}(E)\to M$ is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group $\mathrm{U}(n)$.
 
+## Equivalent characterizations
 Equivalently, giving a Hermitian metric on $E$ is the same as specifying a reduction of the structure group from $\mathrm{GL}(n,\mathbb C)$ to $\mathrm{U}(n)$.
 
 ## Examples

@@ -19,7 +19,8 @@ The derived set records the accumulation behavior of $A$, and it satisfies the b
 \overline{A}=A\cup A'.
 \]
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$, if $A=\{1/n : n\in\mathbb{N}\}$ then $A'=\{0\}$.
 - In $\mathbb{R}$, if $A=\mathbb{Z}$ then $A'=\varnothing$.
 - In $\mathbb{R}$, if $A=(0,1)$ then $A'=[0,1]$.

@@ -17,5 +17,7 @@ $$
 
 where $\overline{\Omega}$ denotes the [[convex-analysis/closure-of-a-set|closure]] of $\Omega$ in the norm-induced topology.
 
+## Remarks
+
 **Context:**
 This result says that, for "solid" convex sets, the algebraic construction [[convex-analysis/linear-closure|lin(Ω)]] (built from segments) recovers the usual topological closure. Compare with [[convex-analysis/core-equals-interior-for-convex-sets-in-normed-spaces|core equals interior]] for the analogous result on the interior side.

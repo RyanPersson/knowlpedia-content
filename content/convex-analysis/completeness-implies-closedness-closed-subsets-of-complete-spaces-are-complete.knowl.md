@@ -14,6 +14,8 @@ Let $(X,d)$ be a [[convex-analysis/metric-metric-space|metric space]].
 1. If $E\subset X$ is [[convex-analysis/complete-metric-space-complete-subset|complete]], then $E$ is [[convex-analysis/closed-subset|closed]] in $X$.
 2. If $X$ is complete and $E\subset X$ is closed, then $E$ is complete (with the restricted metric).
 
+## Remarks
+
 **Context.** This gives a practical way to recognize complete sets: inside a complete ambient space, "closed" and "complete" coincide.
 
 **Proof sketch.**

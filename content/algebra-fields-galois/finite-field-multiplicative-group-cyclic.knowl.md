@@ -20,6 +20,8 @@ which is an [[algebra-groups/abelian-group|abelian group]].
 \]
 and there exists an element \(g\in\mathbb{F}_q^\times\) such that every nonzero element equals \(g^k\) for some integer \(k\). Such a \(g\) is often called a *primitive element* of \(\mathbb{F}_q\).
 
+## Remarks
+
 This cyclicity is frequently paired with the [[algebra-fields-galois/primitive-element-theorem|primitive element theorem]]: it provides explicit generators for many finite [[algebra-fields-galois/field-extension|field extensions]], especially in the finite-field setting.
 
 ### Examples
@@ -28,8 +30,8 @@ This cyclicity is frequently paired with the [[algebra-fields-galois/primitive-e
    2^1=2,\quad 2^2=4,\quad 2^3=3,\quad 2^4=1 \pmod 5.
    \]
 
-2. \(\mathbb{F}_4^\times\) has order \(3\), hence is cyclic of order \(3\).  
+2. \(\mathbb{F}_4^\times\) has order \(3\), hence is cyclic of order \(3\).
    If \(\alpha\) is a root of \(x^2+x+1\) in \(\mathbb{F}_4\cong \mathbb{F}_2[x]/(x^2+x+1)\), then \(\mathbb{F}_4^\times=\{1,\alpha,\alpha+1\}\) and \(\alpha\) generates it.
 
-3. \(\mathbb{F}_8^\times\) has order \(7\), so it is cyclic of prime order \(7\).  
+3. \(\mathbb{F}_8^\times\) has order \(7\), so it is cyclic of prime order \(7\).
    Thus every nonzero element other than \(1\) is automatically a generator of \(\mathbb{F}_8^\times\).

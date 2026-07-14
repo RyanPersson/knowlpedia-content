@@ -14,4 +14,6 @@ R\Big/\bigcap_{i=1}^n I_i \;\cong\; \prod_{i=1}^n R/I_i.
 \]
 In particular, if $I$ and $J$ are comaximal, then $R/(I\cap J)\cong R/I\times R/J$.
 
+## Remarks
+
 This is the standard [[algebra-rings/chinese-remainder-theorem|Chinese Remainder Theorem]] formulated as an explicit isomorphism of [[algebra-rings/quotient-ring|quotient rings]] when ideals are comaximal (i.e., their [[algebra-rings/sum-of-ideals|sum]] is the whole ring). It relates the [[algebra-rings/intersection-of-ideals|intersection]] of comaximal [[algebra-rings/ideal|ideals]] to a [[shared-foundations/cartesian-product|product]] ring and produces idempotents yielding the splitting in [[algebra-rings/idempotent-product-decomposition|idempotent decompositions]].

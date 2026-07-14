@@ -16,6 +16,8 @@ Let $X$ be a [[fiber-bundles/vector-field|vector field]] on $M$. Since $d\pi_e:H
 1. $X^{\mathrm h}(e)\in H_eE$ for every $e\in E$, and
 2. $d\pi_e(X^{\mathrm h}(e)) = X(\pi(e))$ for every $e\in E$.
 
+## Equivalent characterizations
+
 Equivalently, $X^{\mathrm h}(e)$ is the [[fiber-bundles/horizontal-lift-of-a-tangent-vector|horizontal lift of the tangent vector]] $X_{\pi(e)}$ at $e$, for each $e$.
 
 ## Examples

@@ -21,4 +21,10 @@ $$
 
 is another such decomposition with directly indecomposable normal factors, then $n=m$ and, after permuting indices, there are [[algebra-groups/group-isomorphism|isomorphisms]] $G_i \cong H_i$ for all $i$.
 
-Equivalently: the multiset of isomorphism types of directly indecomposable factors in an [[algebra-groups/internal-direct-product|internal direct product]] decomposition is an invariant of $G$ (under the stated chain hypotheses). This is the group analogue of [[algebra-modules/krull-schmidt-azumaya-theorem|Krull–Schmidt–Azumaya for modules]].
+## Equivalent characterizations
+
+Equivalently: the multiset of isomorphism types of directly indecomposable factors in an [[algebra-groups/internal-direct-product|internal direct product]] decomposition is an invariant of $G$ (under the stated chain hypotheses).
+
+## Remarks
+
+This is the group analogue of [[algebra-modules/krull-schmidt-azumaya-theorem|Krull–Schmidt–Azumaya for modules]].

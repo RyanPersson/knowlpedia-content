@@ -19,4 +19,6 @@ Moreover, for each integer $N\ge 1$ one has the remainder bounds
 \int_{N+1}^\infty f(x)\,dx \;\le\; \sum_{n=N+1}^\infty a_n \;\le\; \int_N^\infty f(x)\,dx.
 \]
 
+## Remarks
+
 This test complements the [[real-analysis/comparison-test|comparison test]] for nonnegative series and is often paired with the [[real-analysis/cauchy-condensation-test|Cauchy condensation test]] for slowly varying terms.

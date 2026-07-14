@@ -17,5 +17,7 @@ $$
 
 where $\oplus$ denotes the [[convex-analysis/direct-sum-of-subspaces|direct sum]].
 
+## Remarks
+
 **Context:**
 This shows that a codimension-one subspace is "one linear dimension short" of the whole space. It is the structural fact behind representing hyperplanes as kernels (or level sets) of nonzero linear functionals.

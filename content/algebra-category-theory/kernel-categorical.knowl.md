@@ -24,7 +24,11 @@ such that:
    k\circ u = t.
    \]
 
+## Equivalent characterizations
+
 Equivalently, \(k:K\to A\) is an [[algebra-category-theory/equalizer|equalizer]] of the parallel pair \(f,0_{A,B}:A\rightrightarrows B\).
+
+## Remarks
 
 A kernel, if it exists, is unique up to unique [[algebra-category-theory/isomorphism-category|isomorphism]]. In any category, kernels are [[algebra-category-theory/monomorphism-category|monomorphisms]] (because equalizers are monic).
 

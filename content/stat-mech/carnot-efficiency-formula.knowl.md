@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/carnot-efficiency-formula.md"
 +++
 
-## Statement
-
 Let a **reversible** cyclic heat engine operate between a hot reservoir at temperature $T_H$ and a cold reservoir at temperature $T_C$, with $T_H>T_C>0$. If $Q_H>0$ is the heat absorbed from the hot reservoir per cycle and $Q_C>0$ is the heat rejected to the cold reservoir per cycle, then the efficiency is
 $$
 \eta_{\mathrm{rev}} = 1-\frac{Q_C}{Q_H}.
@@ -33,7 +31,7 @@ $$
 - The reversible efficiency depends only on the temperature ratio $T_C/T_H$.
 - By [[stat-mech/carnot-theorem|Carnot’s theorem]], every engine between the same reservoirs satisfies $\eta\le 1-T_C/T_H$.
 
-## Cross-links to definitions
+## Remarks
 
 - Reservoir temperatures: [[thermodynamics/temperature-thermo|temperature]].
 - Second-law input: [[thermodynamics/second-law-thermodynamics|second law of thermodynamics]].

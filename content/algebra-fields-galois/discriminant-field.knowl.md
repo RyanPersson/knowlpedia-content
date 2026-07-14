@@ -13,6 +13,8 @@ Let \(L/K\) be a finite [[algebra-fields-galois/field-extension|field extension]
 \mathrm{disc}_{L/K}(\mathbf{b}) \;:=\; \det\!\big(\mathrm{Tr}_{L/K}(b_i b_j)\big)_{1\le i,j\le n}\in K.
 \]
 
+## Remarks
+
 If \(L/K\) is separable (see [[algebra-fields-galois/separable-extension|separable extension]]), then \(\mathrm{disc}_{L/K}(\mathbf{b})\neq 0\), and one can also express it using \(K\)-[[algebra-fields-galois/field-embedding|embeddings]] \(\sigma_1,\dots,\sigma_n:L\hookrightarrow \Omega\) into a common overfield \(\Omega\):
 \[
 \mathrm{disc}_{L/K}(\mathbf{b}) \;=\; \det(\sigma_i(b_j))_{i,j}^2.

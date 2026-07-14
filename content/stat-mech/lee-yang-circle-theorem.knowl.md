@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/lee-yang-circle-theorem.md"
 +++
 
-## Statement
-
 Let $\Lambda$ be finite and consider the ferromagnetic [[stat-mech-lattice/ising-model|Ising model]] with couplings $J_{ij}\ge 0$ and a **uniform** external magnetic field $h\in\mathbb{C}$:
 $$
 H_\Lambda(\sigma)
@@ -25,7 +23,7 @@ $$
 
 Up to a nonvanishing prefactor, $Z_\Lambda(h)$ becomes a polynomial in $z$ (of degree $|\Lambda|$).
 
-**Lee–Yang circle theorem.**  
+**Lee–Yang circle theorem.**
 All zeros of this polynomial lie on the unit circle:
 $$
 Z_\Lambda(h)=0 \quad\Longrightarrow\quad |z|=1.

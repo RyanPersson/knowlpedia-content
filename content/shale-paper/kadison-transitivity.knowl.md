@@ -11,7 +11,11 @@ legacy_source_path = "shale-paper/kadison-transitivity.md"
 A form of **Kadison's theorem** used in §6: if \(\mathfrak A\) acts irreducibly on \(\mathcal H\) and \(x,y\in\mathcal H\),
 then there exists \(A\in\mathfrak A\) with \(Ax=y\).
 
+## Remarks
+
 **Key property (paper use):**
 - Lets Shale characterize "relative normalizability" of states via \(F(X)=E(A^*XA)\).
 
-**Example:** In \(B(\mathcal H)\), take \(A\) to be a rank-one operator sending \(x\) to \(y\).
+## Examples
+
+- In \(B(\mathcal H)\), take \(A\) to be a rank-one operator sending \(x\) to \(y\).

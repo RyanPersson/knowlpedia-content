@@ -16,6 +16,7 @@ where the supremum is taken over all [[real-analysis/partition-of-an-interval|pa
 
 Functions of bounded variation are important because they provide a broad class of [[real-analysis/integrator-function|integrator functions]] for the [[real-analysis/riemann-stieltjes-integral|Riemann–Stieltjes integral]] and admit structural decompositions such as the [[real-analysis/jordan-decomposition-lemma|Jordan decomposition]].
 
-**Examples:**
+## Examples
+
 - Any [[real-analysis/monotone-function|monotone function]] on $[a,b]$ has bounded variation.
 - The function $\alpha(x)=\sin x$ has bounded variation on $[0,2\pi]$.

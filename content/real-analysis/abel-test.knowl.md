@@ -15,4 +15,6 @@ legacy_source_path = "real-analysis/abel-test.md"
 
 Then the series $\sum_{n=1}^\infty a_n b_n$ converges.
 
+## Remarks
+
 Abel’s test can be viewed as complementary to the [[real-analysis/dirichlet-test|Dirichlet test]]: Dirichlet assumes bounded [[real-analysis/partial-sums|partial sums]] of $(a_n)$ and $b_n\to 0$, while Abel assumes convergence of $\sum a_n$ and only boundedness of $(b_n)$.

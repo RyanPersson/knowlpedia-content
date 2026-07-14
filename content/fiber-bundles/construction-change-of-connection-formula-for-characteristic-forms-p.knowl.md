@@ -42,22 +42,24 @@ p(\Omega_1) - p(\Omega_0) \;=\; d\,T_p(\omega_0,\omega_1),
 \]
 so the two forms differ by an exact form on $M$. In particular, the de Rham class of $p(\Omega)$ does not depend on the chosen connection, which is the mechanism behind [[fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle|Chern Weil characteristic classes being invariants of the principal bundle]].
 
+## Remarks
+
 This construction is the standard transgression mechanism (see [[fiber-bundles/transgression-form|transgression forms]] and [[fiber-bundles/transgression-theorem-p-p-is-exact|the transgression theorem]]), and in low degrees it produces the usual [[fiber-bundles/chernsimons-form|Chern Simons forms]].
 
 ## Examples
-1. **Degree 1 (abelian-style) case.**  
+1. **Degree 1 (abelian-style) case.**
    If $k=1$ and $p:\mathfrak g\to\mathbb R$ is an $\operatorname{Ad}$-invariant linear functional, then
    \[
    T_p(\omega_0,\omega_1)=p(\eta),\qquad p(\Omega_1)-p(\Omega_0)=d\,p(\eta).
    \]
    For $G=U(1)$ this recovers the familiar fact that changing a connection 1-form changes the curvature 2-form by an exact 2-form (compare the local picture in [[fiber-bundles/local-connection-1-form|local connection 1-forms]]).
 
-2. **Degree 2 and the Chern Simons 3-form.**  
+2. **Degree 2 and the Chern Simons 3-form.**
    For $k=2$ and an invariant quadratic polynomial $p$ (for instance a suitably normalized trace form on a matrix Lie algebra), the transgression is a 3-form
    \[
    T_p(\omega_0,\omega_1) = 2\int_0^1 p(\eta\wedge \Omega_t)\,dt,
    \]
    and the formula says $p(\Omega_1)-p(\Omega_0)$ is exact with this primitive. On a trivial bundle, taking $\omega_0=0$ and $\omega_1=A$ yields the usual Chern Simons expression in terms of $A$ and $dA$, matching the standard [[fiber-bundles/chernsimons-form|Chern Simons form]] on a chart.
 
-3. **Pontryagin forms from different connections.**  
+3. **Pontryagin forms from different connections.**
    Let $E\to M$ be a real vector bundle with two [[fiber-bundles/connection-on-a-vector-bundle|vector bundle connections]] $\nabla^0,\nabla^1$. Using the induced connections on the [[fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle|frame bundle]] (via [[fiber-bundles/construction-connection-on-fr-induced-by-a-vector-bundle-connection|the induced principal connection construction]]), the change-of-connection formula implies that the associated Pontryagin forms differ by an exact form. Hence the resulting [[fiber-bundles/pontryagin-class|Pontryagin classes]] are independent of the chosen connection.

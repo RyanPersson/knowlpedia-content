@@ -20,17 +20,21 @@ are **distinct** [[algebra-fields-galois/field-embedding|field embeddings]] that
 > \]
 > then \(a_1=\cdots=a_n=0\).
 
+## Equivalent characterizations
+
 Equivalently, the \(\Omega\)-vector space \(\Omega^L\) of all functions \(L\to\Omega\) contains \(\{\sigma_1,\dots,\sigma_n\}\) as a linearly independent set.
+
+## Remarks
 
 This lemma is frequently applied with \(\Omega=L\) and \(\sigma_i\) ranging over a subgroup of the [[algebra-fields-galois/galois-group|Galois group]] (or more generally the [[algebra-fields-galois/field-automorphism|field automorphism]] group) of \(L\).
 
 ### Examples
 
-1. **Two embeddings of a quadratic extension.**  
+1. **Two embeddings of a quadratic extension.**
    In \(L=\mathbb{Q}(\sqrt2)\subset \mathbb{C}\), there are two \(\mathbb{Q}\)-embeddings into \(\mathbb{C}\): the identity \(\mathrm{id}\) and conjugation \(\tau(\sqrt2)=-\sqrt2\). If \(a\,\mathrm{id}+b\,\tau=0\) as functions, then evaluating at \(1\) gives \(a+b=0\), and at \(\sqrt2\) gives \(a\sqrt2-b\sqrt2=0\), hence \(a=b=0\).
 
-2. **Cyclotomic embeddings.**  
+2. **Cyclotomic embeddings.**
    For \(L=\mathbb{Q}(\zeta_n)\) with \(\zeta_n\) a [[algebra-fields-galois/primitive-root-of-unity|primitive root of unity]], the distinct embeddings \(\sigma_k(\zeta_n)=\zeta_n^k\) (for \(\gcd(k,n)=1\)) are linearly independent as \(\mathbb{C}\)-valued functions on \(L\).
 
-3. **Finite-field Frobenius powers.**  
+3. **Finite-field Frobenius powers.**
    In a finite field \(L=\mathbb{F}_{p^m}\), the maps \(x\mapsto x^{p^i}\) are distinct [[algebra-fields-galois/field-automorphism|automorphisms]] for \(0\le i<m\) (see [[algebra-fields-galois/finite-field-galois-group-cyclic|cyclic Galois group of a finite field]]). Dedekind independence implies no nontrivial \(\mathbb{F}_{p^m}\)-linear combination of these maps vanishes identically.

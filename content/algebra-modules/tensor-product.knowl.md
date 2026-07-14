@@ -12,7 +12,8 @@ The **tensor product of modules** of a right \(R\)-module \(M\) and a left \(R\)
 
 This construction is functorial in both variables and is central for “extension of scalars” and for measuring non-exactness via derived functors. Over commutative rings it specializes to the tensor product of left [[algebra-modules/module|modules]].
 
-**Examples:**
+## Examples
+
 - For abelian groups (i.e. \(\mathbb Z\)-modules), \(\mathbb Z/n\mathbb Z\otimes_{\mathbb Z}\mathbb Z/m\mathbb Z \cong \mathbb Z/\gcd(n,m)\mathbb Z\).
 - For a [[algebra-rings/field|field]] \(k\) and finite-dimensional [[linear-algebra/vector-space|vector spaces]] \(V,W\), one has \(\dim_k(V\otimes_k W)=\dim_k(V)\dim_k(W)\).
 - If \(R\) is commutative, \(I\) is an [[algebra-rings/ideal|ideal]] of \(R\), and \(M\) is an \(R\)-module, then \((R/I)\otimes_R M \cong M/IM\) as a [[algebra-modules/quotient-module|quotient module]].

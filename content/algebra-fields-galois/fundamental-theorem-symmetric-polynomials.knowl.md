@@ -26,10 +26,15 @@ e_k(x_1,\dots,x_n)=\sum_{1\le i_1<\cdots<i_k\le n} x_{i_1}\cdots x_{i_k}
 \[
 f(x_1,\dots,x_n)=F\big(e_1(x_1,\dots,x_n),\dots,e_n(x_1,\dots,x_n)\big).
 \]
+
+## Equivalent characterizations
+
 Equivalently, the subring of symmetric polynomials is a polynomial ring:
 \[
 R[x_1,\dots,x_n]^{\text{sym}} \cong R[e_1,\dots,e_n].
 \]
+
+## Remarks
 
 This theorem is a key bridge to [[algebra-fields-galois/galois-group|Galois groups]]: if \(f\in K[x]\) splits over a [[algebra-fields-galois/splitting-field|splitting field]] as \(\prod_{i=1}^n (x-\alpha_i)\), then the coefficients of \(f\) are (up to signs) exactly the elementary symmetric polynomials in the roots \(\alpha_i\).
 

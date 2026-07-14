@@ -10,7 +10,6 @@ legacy_source_path = "algebra-homological/ext1-classifies-extensions.md"
 
 Let \(R\) be a ring and \(A,C\) left \(R\)-modules.
 
-## Statement
 An **extension of \(C\) by \(A\)** is a [[algebra-modules/short-exact-sequence|short exact sequence]]
 \[
 0 \longrightarrow A \xrightarrow{i} E \xrightarrow{p} C \longrightarrow 0.
@@ -31,6 +30,8 @@ Let \(\mathrm{Ext}(C,A)\) denote the set of equivalence classes of extensions of
 \mathrm{Ext}^1_R(C,A)\ \cong\ \mathrm{Ext}(C,A),
 \]
 where \(\mathrm{Ext}^1_R(C,A)\) is the degree-1 [[algebra-homological/ext|Ext]] group (the first right derived functor of [[algebra-modules/hom-module|Hom]]; see [[algebra-homological/derived-functor|derived functor]]).
+
+## Remarks
 
 Moreover:
 - The zero element of \(\mathrm{Ext}^1_R(C,A)\) corresponds to the **split** extension \(E\cong A\oplus C\).

@@ -16,4 +16,6 @@ $$
 \operatorname{rank}(H) = 1 + [F:H]\,(n-1).
 $$
 
+## Remarks
+
 This theorem is proved by constructing an explicit free generating set for $H$ from a transversal of cosets; [[algebra-groups/schreiers-lemma|Schreier's lemma]] provides the standard generating set used in the proof. It is a foundational result in combinatorial group theory.

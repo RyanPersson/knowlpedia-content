@@ -18,10 +18,6 @@ viewed as acting on the local product $U\times G$ by
 \[
 (x,h)\longmapsto (x,\,g(x)\,h).
 \]
-Equivalently, it acts on the associated local section $s(x)=\psi^{-1}(x,e)$ by
-\[
-s(x)\longmapsto s(x)\cdot g(x).
-\]
 
 If $\Phi$ is a global [[fiber-bundles/gauge-transformation|gauge transformation]] of $P$, then in any chosen trivialization over $U$ it is represented by a unique local gauge transformation $g:U\to G$ via
 \[
@@ -33,6 +29,13 @@ When a [[fiber-bundles/principal-connection|principal connection]] is present, l
 A \mapsto g^{-1}Ag + g^{-1}dg,
 \]
 where $dg$ is computed using the [[fiber-bundles/exterior-derivative|exterior derivative]].
+
+## Equivalent characterizations
+
+Equivalently, it acts on the associated local section $s(x)=\psi^{-1}(x,e)$ by
+\[
+s(x)\longmapsto s(x)\cdot g(x).
+\]
 
 ## Examples
 1. **Electromagnetism.** For $G=U(1)$, a local gauge transformation is $g=e^{i\chi}$ with $\chi:U\to\mathbb{R}$, and the local potential transforms by $A\mapsto A+d\chi$.

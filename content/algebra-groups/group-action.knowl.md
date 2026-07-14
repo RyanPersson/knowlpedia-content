@@ -12,9 +12,16 @@ Let $G$ be a [[algebra-groups/group|group]] and let $X$ be a [[shared-foundation
 1. $e\cdot x = x$ for all $x\in X$, where $e$ is the identity of $G$;
 2. $(gh)\cdot x = g\cdot(h\cdot x)$ for all $g,h\in G$ and all $x\in X$.
 
-Equivalently, an action is the same data as a [[algebra-groups/group-homomorphism|group homomorphism]] from $G$ into the group of [[shared-foundations/bijective-function|bijective]] self-maps of $X$ (permutations), i.e. a [[algebra-groups/permutation-representation|permutation representation]]. Actions organize many constructions (e.g. actions on cosets) and lead to the notions of [[algebra-groups/orbit|orbits]] and [[algebra-groups/stabilizer|stabilizers]]
+## Equivalent characterizations
 
-**Examples:**
+Equivalently, an action is the same data as a [[algebra-groups/group-homomorphism|group homomorphism]] from $G$ into the group of [[shared-foundations/bijective-function|bijective]] self-maps of $X$ (permutations), i.e. a [[algebra-groups/permutation-representation|permutation representation]].
+
+## Remarks
+
+Actions organize many constructions (e.g. actions on cosets) and lead to the notions of [[algebra-groups/orbit|orbits]] and [[algebra-groups/stabilizer|stabilizers]]
+
+## Examples
+
 - (Left translation) $G$ acts on itself by $g\cdot x := gx$.
 - (Action on cosets) If $H\le G$, then $G$ acts on the set of left cosets $G/H$ by $g\cdot (xH):=(gx)H$.
 - (Conjugation) $G$ acts on itself by $g\cdot x := gxg^{-1}$.

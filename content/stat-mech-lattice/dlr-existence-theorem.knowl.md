@@ -8,8 +8,6 @@ domains = ["stat-mech-lattice"]
 legacy_source_path = "stat-mech-lattice/dlr-existence-theorem.md"
 +++
 
-## Statement
-
 Let $\Phi$ be a translation-invariant interaction (potential) on $\mathbb{Z}^d$ with finite single-spin space $S$ (e.g. $S=\{\pm 1\}$) and assume $\Phi$ is **uniformly absolutely summable** (in particular, any finite-range interaction qualifies). Let $\gamma^\Phi$ be the associated [[stat-mech-lattice/gibbs-specification|Gibbs specification]] constructed from the [[stat-mech-lattice/lattice-hamiltonian|lattice Hamiltonian]].
 
 Then the set of [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs measures]] consistent with $\gamma^\Phi$ is nonempty. Equivalently, there exists at least one probability measure $\mu$ on $\Omega=S^{\mathbb{Z}^d}$ such that $\mu$ satisfies the [[stat-mech-lattice/dlr-equation|DLR equation]] for every finite $\Lambda\Subset\mathbb{Z}^d$.

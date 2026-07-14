@@ -14,4 +14,6 @@ legacy_source_path = "algebra-modules/tensor-hom-adjunction-lemma.md"
 \]
 functorial in $N$ and $P$.
 
+## Remarks
+
 This is the concrete form of the [[algebra-modules/tensor-hom-adjunction|Tensor–Hom adjunction]] for a [[algebra-modules/bimodule|bimodule]], relating [[algebra-modules/tensor-product|tensor products]] and [[algebra-modules/hom-module|Hom-modules]].

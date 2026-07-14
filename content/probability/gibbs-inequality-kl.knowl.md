@@ -15,11 +15,15 @@ $$
 
 with equality if and only if $P=Q$ (as measures on $(\Omega,\mathcal F)$).
 
+## Equivalent characterizations
+
 Equivalently, in the case $P\ll Q$, writing $f=\frac{dP}{dQ}$ for the Radon–Nikodym derivative (see [[probability/radon-nikodym-theorem|Radon–Nikodym theorem]]), one has
 $$
 D(P\|Q)=\int_\Omega f\log f\,dQ \ge 0,
 $$
 
 and equality holds if and only if $f=1$ $Q$-almost everywhere.
+
+## Remarks
 
 This is the basic reason relative entropy is a divergence: it is minimized uniquely at the matching law, even though it is not a metric. It is also a key input for inequalities relating KL to [[probability/total-variation-distance|total variation distance]], such as [[probability/pinsker-inequality|Pinsker's inequality]].

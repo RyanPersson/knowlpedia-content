@@ -14,18 +14,22 @@ V \cong V_1 \oplus \cdots \oplus V_r
 \]
 as \(G\)-representations (i.e. as \(k[G]\)-modules). Here \(\oplus\) is the [[algebra-modules/direct-sum-modules|direct sum]] in the module/representation sense.
 
+## Equivalent characterizations
+
 Equivalently, \(V\) is completely reducible iff **every** [[algebra-representation-theory/subrepresentation|subrepresentation]] \(W\subseteq V\) has a \(G\)-stable complement: there exists a subrepresentation \(U\subseteq V\) such that
 \[
 V = W \oplus U.
 \]
 In module language, this is exactly: \(V\) is a [[algebra-modules/semisimple-module|semisimple module]] over the [[algebra-representation-theory/group-algebra|group algebra]] \(k[G]\).
 
+## Remarks
+
 ### Maschke’s criterion
 If \(G\) is finite and \(\mathrm{char}(k)\nmid |G|\), then **every** finite-dimensional \(k\)-representation of \(G\) is completely reducible: this is [[algebra-representation-theory/maschkes-theorem|Maschke’s theorem]].
 In particular, over \(k=\mathbb{C}\), all finite-group representations are completely reducible (see [[algebra-representation-theory/complete-reducibility-complex|complete reducibility over \u211d/\u2102]]).
 
 ## Examples
-1. **A completely reducible permutation representation of \(S_3\) over \(\mathbb{C}\).**  
+1. **A completely reducible permutation representation of \(S_3\) over \(\mathbb{C}\).**
    Let \(V=\mathbb{C}^3\) with \(S_3\) permuting coordinates. Then the subspaces
    \[
    W_{\mathrm{triv}}=\mathrm{span}\{(1,1,1)\},\qquad
@@ -37,7 +41,7 @@ In particular, over \(k=\mathbb{C}\), all finite-group representations are compl
    \]
    Here \(W_{\mathrm{triv}}\) is trivial and \(W_{\mathrm{std}}\) is [[algebra-representation-theory/irreducible-representation|irreducible]].
 
-2. **Regular representations over \(\mathbb{C}\) split into irreducibles with multiplicities.**  
+2. **Regular representations over \(\mathbb{C}\) split into irreducibles with multiplicities.**
    For a finite group \(G\), the [[algebra-representation-theory/regular-representation|regular representation]] \(\mathbb{C}[G]\) is completely reducible and decomposes as
    \[
    \mathbb{C}[G]\ \cong\ \bigoplus_{i} (\dim V_i)\, V_i,
@@ -48,7 +52,7 @@ In particular, over \(k=\mathbb{C}\), all finite-group representations are compl
    \]
    i.e. [[algebra-representation-theory/sum-squares-degrees|the sum of squares of degrees]] identity.
 
-3. **A non-example in characteristic \(p\mid |G|\): no invariant complement.**  
+3. **A non-example in characteristic \(p\mid |G|\): no invariant complement.**
    Let \(G=C_p=\langle g\rangle\) and \(k=\mathbb{F}_p\). On \(V=k^2\), define
    \[
    \rho(g)=\begin{pmatrix}1&1\\0&1\end{pmatrix}.

@@ -26,6 +26,8 @@ such that:
    \]
    (see [[algebra-category-theory/composition-category|composition]]).
 
+## Equivalent characterizations
+
 Equivalently, a contravariant functor \(F:\mathcal C\to\mathcal D\) is the same thing as an ordinary (covariant) [[algebra-category-theory/functor|functor]]
 \[
 \mathcal C^{\mathrm{op}}\longrightarrow \mathcal D,
@@ -33,14 +35,14 @@ Equivalently, a contravariant functor \(F:\mathcal C\to\mathcal D\) is the same 
 where \(\mathcal C^{\mathrm{op}}\) is the [[algebra-category-theory/opposite-category|opposite category]] of \(\mathcal C\).
 
 ## Examples
-1. **Inverse-image on power sets (Set)**.  
-   Let \(\mathbf{Set}\) be the category of [[shared-foundations/set|sets]] and [[shared-foundations/function|functions]].  
+1. **Inverse-image on power sets (Set)**.
+   Let \(\mathbf{Set}\) be the category of [[shared-foundations/set|sets]] and [[shared-foundations/function|functions]].
    Define \(F:\mathbf{Set}^{\mathrm{op}}\to \mathbf{Set}\) by
    - \(F(X)=\mathcal P(X)\) (the set of subsets of \(X\)),
-   - for \(f:X\to Y\), \(F(f)=f^{-1}:\mathcal P(Y)\to\mathcal P(X)\), the [[shared-foundations/preimage|preimage]] map.  
+   - for \(f:X\to Y\), \(F(f)=f^{-1}:\mathcal P(Y)\to\mathcal P(X)\), the [[shared-foundations/preimage|preimage]] map.
    Then \(f^{-1}(\mathrm{id})=\mathrm{id}\) and \((g\circ f)^{-1}=f^{-1}\circ g^{-1}\), so this is contravariant.
 
-2. **Representable hom-functor** \(\mathrm{Hom}_{\mathcal C}(-,A)\).  
+2. **Representable hom-functor** \(\mathrm{Hom}_{\mathcal C}(-,A)\).
    Fix an object \(A\in\mathcal C\). The assignment
    \[
    X\longmapsto \mathrm{Hom}_{\mathcal C}(X,A)
@@ -51,10 +53,10 @@ where \(\mathcal C^{\mathrm{op}}\) is the [[algebra-category-theory/opposite-cat
    \]
    This is a basic instance of a [[algebra-category-theory/representable-functor|representable functor]].
 
-3. **Linear dual (Vect\(_k\) or \(R\)-Mod)**.  
+3. **Linear dual (Vect\(_k\) or \(R\)-Mod)**.
    In the category of vector spaces over a field \(k\) (or modules over a ring), define
    \[
    V\mapsto V^\ast=\mathrm{Hom}_k(V,k).
    \]
-   A linear map \(f:V\to W\) induces \(f^\ast:W^\ast\to V^\ast\) by \(f^\ast(\varphi)=\varphi\circ f\).  
+   A linear map \(f:V\to W\) induces \(f^\ast:W^\ast\to V^\ast\) by \(f^\ast(\varphi)=\varphi\circ f\).
    The direction reverses, and \((g\circ f)^\ast=f^\ast\circ g^\ast\), so \((-)^\ast\) is contravariant.

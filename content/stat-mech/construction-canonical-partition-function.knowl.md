@@ -46,7 +46,7 @@ $$
 
 i.e. $Z_N$ is the Laplace transform of the density of states. This ties the canonical construction to microcanonical objects such as the [[stat-mech/microcanonical-shell|microcanonical shell]] and [[stat-mech/microcanonical-measure|microcanonical measure]].
 
-## Physical interpretation
+## Interpretation
 
 - $e^{-\beta H(x)}$ penalizes high-energy microstates at low temperature: larger $\beta$ concentrates the measure on lower-energy regions of phase space.
 - $Z_N(\beta,V)$ encodes “how many” energetically accessible microstates exist once weighted by temperature; it is the central object from which the [[stat-mech/construction-free-energy-from-partition|free energy is constructed]].

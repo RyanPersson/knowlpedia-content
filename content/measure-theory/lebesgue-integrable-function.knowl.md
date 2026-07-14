@@ -16,6 +16,7 @@ where $|f|$ denotes the [[real-analysis/absolute-value|absolute value]] applied 
 
 Lebesgue integrability ensures that the [[measure-theory/lebesgue-integral|Lebesgue integral]] of $f$ is a finite real number and depends only on the [[measure-theory/ae-equality|a.e. equality]] class of $f$. The collection of such functions (modulo a.e. equality) is the space of [[measure-theory/l1-function|L1 functions]].
 
-**Examples:**
+## Examples
+
 - On $\mathbb R$ with [[measure-theory/lebesgue-measure|Lebesgue measure]], the function $f(x)=\frac{1}{1+x^2}$ is Lebesgue integrable.
 - If $E$ is a [[measure-theory/measurable-set|measurable set]] with $\mu(E)<\infty$, then the [[measure-theory/indicator-function|indicator function]] $\mathbf{1}_E$ is Lebesgue integrable.

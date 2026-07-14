@@ -13,11 +13,16 @@ $$
 \operatorname{Out}(G) := \operatorname{Aut}(G)\big/\operatorname{Inn}(G),
 $$
 
-where $\operatorname{Aut}(G)$ is the [[algebra-groups/automorphism-group|automorphism group]] and $\operatorname{Inn}(G)$ is the subgroup of [[algebra-groups/inner-automorphism|inner automorphisms]]. This is a [[algebra-groups/quotient-group|quotient group]], and it measures the "new" automorphisms not coming from conjugation.
+where $\operatorname{Aut}(G)$ is the [[algebra-groups/automorphism-group|automorphism group]] and $\operatorname{Inn}(G)$ is the subgroup of [[algebra-groups/inner-automorphism|inner automorphisms]].
 
-Saying $\operatorname{Out}(G)$ is trivial means every automorphism of $G$ is inner.
+## Examples
 
-**Examples:**
 - If $G$ is abelian, then $\operatorname{Inn}(G)$ is trivial, so $\operatorname{Out}(G)=\operatorname{Aut}(G)$.
 - If $\operatorname{Aut}(G)=\operatorname{Inn}(G)$, then $\operatorname{Out}(G)$ is the trivial group.
 - For many groups, $\operatorname{Out}(G)$ is small even when $\operatorname{Aut}(G)$ is large, reflecting that "most" automorphisms are induced by conjugation.
+
+## Remarks
+
+This is a [[algebra-groups/quotient-group|quotient group]], and it measures the "new" automorphisms not coming from conjugation.
+
+Saying $\operatorname{Out}(G)$ is trivial means every automorphism of $G$ is inner.

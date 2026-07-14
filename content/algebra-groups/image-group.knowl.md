@@ -14,9 +14,12 @@ $
 $
 The image is always a [[algebra-groups/subgroup|subgroup]] of $H$.
 
+## Remarks
+
 The map $\varphi$ is a [[algebra-groups/group-epimorphism|group epimorphism]] if and only if $\mathrm{im}(\varphi)=H$. Together with the kernel, the image appears in the [[algebra-groups/first-isomorphism-theorem-groups|first isomorphism theorem]], which identifies $G/\ker(\varphi)$ with $\mathrm{im}(\varphi)$ as groups.
 
-**Examples:**
+## Examples
+
 - For $\varphi\colon\mathbb{Z}\to\mathbb{Z}$ defined by $\varphi(n)=2n$, one has $\mathrm{im}(\varphi)=2\mathbb{Z}$.
 - For $\mathrm{sgn}\colon S_n\to\{\pm1\}$, the image is all of $\{\pm1\}$ (for $n\ge 2$).
 - If $\iota\colon H\hookrightarrow G$ is the inclusion of a subgroup, then $\mathrm{im}(\iota)=H$.

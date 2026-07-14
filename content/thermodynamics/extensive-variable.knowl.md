@@ -12,13 +12,13 @@ An **extensive variable** is a [[thermodynamics/state-variable|state variable]] 
 
 Let $X$ be a [[thermodynamics/state-variable|state variable]] defined on the [[thermodynamics/thermodynamic-state|thermodynamic state]]. We call $X$ **extensive** if it satisfies (to thermodynamic accuracy) the following two equivalent size-scaling properties:
 
-1. **Additivity (composition):** for two macroscopic subsystems $A$ and $B$ that are non-overlapping and interact only weakly across the [[thermodynamics/system-boundary|boundary]],  
+1. **Additivity (composition):** for two macroscopic subsystems $A$ and $B$ that are non-overlapping and interact only weakly across the [[thermodynamics/system-boundary|boundary]],
    $$
    X(A \cup B) \approx X(A) + X(B).
    $$
    This formalizes the [[thermodynamics/additivity-postulate|additivity postulate]].
 
-2. **Homogeneity of degree one (scaling):** if you replicate the system by a factor $\lambda>0$ while keeping intensive control parameters fixed, then  
+2. **Homogeneity of degree one (scaling):** if you replicate the system by a factor $\lambda>0$ while keeping intensive control parameters fixed, then
    $$
    X(\lambda S,\lambda V,\lambda N,\dots) = \lambda\, X(S,V,N,\dots),
    $$
@@ -27,7 +27,7 @@ Let $X$ be a [[thermodynamics/state-variable|state variable]] defined on the [[t
 
 Typical extensive variables include [[thermodynamics/internal-energy-thermo|internal energy]] $U$, [[thermodynamics/volume-thermo|volume]] $V$, [[thermodynamics/thermodynamic-entropy|entropy]] $S$, and [[thermodynamics/particle-number|particle number]] $N$.
 
-## Physical interpretation
+## Interpretation
 Extensive variables quantify the size or amount of “stuff” in the system: doubling the amount of substance (at the same macroscopic conditions) doubles $U$, $S$, $V$, and $N$ up to small boundary/interface corrections. This scaling viewpoint is most precise in the [[thermodynamics/thermodynamic-limit|thermodynamic limit]] assumed by the [[thermodynamics/extensivity-postulate|extensivity postulate]].
 
 ## Key relations and consequences

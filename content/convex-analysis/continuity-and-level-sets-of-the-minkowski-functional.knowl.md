@@ -21,5 +21,7 @@ $$
 
 Here $\overline{\Omega}$ denotes the [[convex-analysis/closure-of-a-set|closure]] of $\Omega$.
 
+## Remarks
+
 **Context:**
 Continuity comes from the inclusion of a norm ball into $\Omega$ (since $0\in\operatorname{int}(\Omega)$), yielding a Lipschitz bound for $p_\Omega$. The set identities combine [[convex-analysis/properties-of-the-minkowski-functional-of-a-convex-set|the gauge level-set theorem]] with [[convex-analysis/linear-closure-equals-closure-for-solid-convex-sets|lin(Ω)=cl(Ω) for solid convex sets]].

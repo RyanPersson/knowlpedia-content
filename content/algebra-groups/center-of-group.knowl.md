@@ -14,9 +14,12 @@ Z(G) \;=\; \{\,z\in G : zx=xz \text{ for all } x\in G\,\}.
 $
 It is a subgroup of $G$.
 
+## Remarks
+
 The center measures how far $G$ is from being abelian: $G$ is abelian iff $Z(G)=G$. Moreover, $Z(G)$ is always a [[algebra-groups/characteristic-subgroup|characteristic subgroup]] (hence normal), and it can be described as the intersection of all [[algebra-groups/centralizer|centralizers]] of elements of $G$.
 
-**Examples:**
+## Examples
+
 - If $G$ is abelian, then $Z(G)=G$.
 - In $S_3$, $Z(S_3)=\{e\}$.
 - In the quaternion group $Q_8$, the center is $\{\pm 1\}$.

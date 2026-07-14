@@ -17,8 +17,11 @@ $
 \|u\|\le \|v\|+\|u-v\|\quad\text{and}\quad \|v\|\le \|u\|+\|u-v\|.
 $
 
+## Remarks
+
 This inequality is frequently used to show [[real-analysis/continuity-on-a-set|continuity]] of the norm map and to transfer [[topology/convergent-sequence|convergence]] of vectors to convergence of their norms.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$, the inequality becomes $\bigl||a|-|b|\bigr|\le |a-b|$.
 - If $u_n\to u$ in a normed space, then $\|u_n\|\to \|u\|$ by the reverse [[real-analysis/triangle-inequality|triangle inequality]].

@@ -18,8 +18,11 @@ $$
 \bigcup_{i\in I} A_i=\{x : \exists i\in I\text{ with }x\in A_i\}.
 $$
 
+## Remarks
+
 Union is dual to [[shared-foundations/intersection|intersection]] and interacts with [[shared-foundations/complement|complement]] via De Morgan’s laws in an ambient universe.
 
-**Examples:**
+## Examples
+
 - $\{1,2\}\cup\{2,3\}=\{1,2,3\}$.
 - If $A_n=\{n\}$ for $n\in\mathbb{N}$, then $\bigcup_{n\in\mathbb{N}} A_n=\mathbb{N}$.

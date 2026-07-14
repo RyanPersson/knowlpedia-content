@@ -15,6 +15,8 @@ $$
 
 Then $f$ is convex on $X$.
 
+## Remarks
+
 This extends the "finite maximum" case in [[convex-analysis/basic-operations-preserving-convexity|operations preserving convexity]] and is used heavily to construct convex envelopes and support functions.
 
 **Proof sketch (idea):** For each $i$, Jensen gives

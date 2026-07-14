@@ -24,7 +24,7 @@ The Lie derivative can be computed without explicitly using the flow, via **Cart
 \]
 Here \(\iota_X\) is the [[fiber-bundles/interior-product-contraction-x|interior product (contraction)]] with \(X\), and \(d\) is the [[fiber-bundles/exterior-derivative|exterior derivative]].
 
-## Key properties
+## Properties
 For \(\alpha\in\Omega^k(M)\) and \(\beta\in\Omega^\ell(M)\):
 
 - **Degree 0 derivation with respect to the** [[fiber-bundles/wedge-product-of-differential-forms|wedge product]]:
@@ -38,21 +38,21 @@ For \(\alpha\in\Omega^k(M)\) and \(\beta\in\Omega^\ell(M)\):
 - **On functions:** for \(f\in C^\infty(M)\), \(\mathcal{L}_X f = X(f)\).
 
 ## Examples
-1. **Translation on \(\mathbb{R}^n\).**  
+1. **Translation on \(\mathbb{R}^n\).**
    On \(\mathbb{R}^n\), let \(X=\partial/\partial x^1\). For the 1-form \(\omega=f(x)\,dx^2\),
    \[
    \mathcal{L}_X\omega = \frac{\partial f}{\partial x^1}\,dx^2,
    \]
    and in particular \(\mathcal{L}_X(dx^2)=0\).
 
-2. **Radial vector field scales the area form on \(\mathbb{R}^2\).**  
+2. **Radial vector field scales the area form on \(\mathbb{R}^2\).**
    On \(\mathbb{R}^2\) with coordinates \((x,y)\), let \(X=x\,\partial_x+y\,\partial_y\). For the standard 2-form \(\mu=dx\wedge dy\), one computes
    \[
    \mathcal{L}_X\mu = 2\,\mu,
    \]
    reflecting that the flow of \(X\) is dilation by \(e^t\), which scales area by \(e^{2t}\).
 
-3. **Rotations preserve the standard area form on \(\mathbb{R}^2\).**  
+3. **Rotations preserve the standard area form on \(\mathbb{R}^2\).**
    Let \(X=-y\,\partial_x + x\,\partial_y\), whose flow is rotation. Then
    \[
    \mathcal{L}_X(dx\wedge dy)=0,

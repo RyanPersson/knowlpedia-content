@@ -18,7 +18,7 @@ $$
 
 The minus sign is conventional: for ordinary stable matter, increasing $p$ decreases $V$, so $(\partial V/\partial p)_{T,N}<0$ and $\kappa_T>0$.
 
-## Physical interpretation
+## Interpretation
 For a small, quasistatic isothermal change (the system is kept at fixed $T$, e.g. by contact with a [[thermodynamics/thermal-reservoir|thermal reservoir]]), the definition implies
 $$
 \frac{dV}{V} = -\kappa_T\,dp.

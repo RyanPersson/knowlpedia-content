@@ -14,6 +14,7 @@ An **infimum** of a nonempty set $A\subseteq\mathbb R$ that is [[real-analysis/b
 
 The infimum is the “greatest lower bound” and may exist even when $A$ has no [[real-analysis/minimum|minimum]]. Using the [[real-analysis/completeness-axiom|completeness axiom]], every nonempty bounded-below set of real numbers has an infimum.
 
-**Examples:**
+## Examples
+
 - If $A=(0,1)$, then $\inf A=0$.
 - If $A=\{\tfrac1n : n\in\mathbb N\}$, then $\inf A=0$ (even though $0\notin A$).

@@ -10,6 +10,8 @@ legacy_source_path = "thermodynamics/chemical-equilibrium.md"
 
 A [[thermodynamics/thermodynamic-system|thermodynamic system]] is in **chemical equilibrium** when there is no spontaneous tendency for its composition to change through matter transfer or chemical reaction, given the allowed exchanges with its [[thermodynamics/surroundings-environment|environment]] and its constraints.
 
+## Remarks
+
 Two common cases are:
 
 1. **Particle exchange (diffusive equilibrium).** If two systems can exchange [[thermodynamics/particle-number|particles]] through a permeable boundary, chemical equilibrium requires equality of the [[thermodynamics/chemical-potential-thermo|chemical potential]] for each exchanged species:
@@ -25,7 +27,7 @@ Two common cases are:
 
 Chemical equilibrium is a necessary component of [[thermodynamics/thermodynamic-equilibrium|thermodynamic equilibrium]], alongside [[thermodynamics/mechanical-equilibrium|mechanical]] and [[thermodynamics/thermal-equilibrium|thermal]] equilibrium.
 
-## Physical interpretation
+## Interpretation
 Chemical potential measures the “escaping tendency” of particles (or, more generally, how the system’s free energy changes with composition). If two regions have different chemical potentials for a species, matter transfer or reaction progress can increase total entropy (or decrease the appropriate free-energy potential), so a net change occurs until the chemical potentials satisfy the equilibrium condition.
 
 In practice, chemical equilibrium is what makes composition stable: once reached, the system may still exchange energy as [[thermodynamics/heat-inexact-differential|heat]] or perform [[thermodynamics/work-inexact-differential|work]] (depending on constraints), but it has no net tendency to change its particle content or reaction extent.

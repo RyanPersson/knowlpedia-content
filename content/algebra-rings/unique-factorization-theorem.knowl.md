@@ -14,4 +14,6 @@ r = u\,p_1\cdots p_m = v\,q_1\cdots q_n
 \]
 with \(u,v\) units and \(p_i,q_j\) irreducible, then \(m=n\) and after reordering, each \(p_i\) is [[algebra-rings/associated-elements|associated]] to \(q_i\). In particular, irreducibles are [[algebra-rings/prime-element|prime]] in a UFD.
 
+## Remarks
+
 This theorem is the foundational reason gcd/lcm notions behave well in UFDs and underlies factorization results in polynomial rings via Gauss-type arguments.

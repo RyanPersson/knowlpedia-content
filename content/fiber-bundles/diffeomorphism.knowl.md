@@ -14,9 +14,11 @@ Let $M$ and $N$ be [[fiber-bundles/smooth-manifold|smooth manifolds]]. A map $f:
 2. $f$ is a [[fiber-bundles/smooth-map|smooth map]], and
 3. the inverse function $f^{-1}:N\to M$ is also smooth.
 
-Equivalently, $f$ is a smooth bijection whose inverse is smooth. Any diffeomorphism is, in particular, a homeomorphism of the underlying topological spaces, and it identifies the smooth structures on $M$ and $N$.
-
 If $f$ is a diffeomorphism, then for each $p\in M$ its [[fiber-bundles/differential-pushforward-of-a-smooth-map|differential]] $\mathrm{d}f_p$ is a linear isomorphism $T_pM\to T_{f(p)}N$, where $T_pM$ denotes the [[fiber-bundles/tangent-space-at-a-point|tangent space]].
+
+## Equivalent characterizations
+
+Equivalently, $f$ is a smooth bijection whose inverse is smooth. Any diffeomorphism is, in particular, a homeomorphism of the underlying topological spaces, and it identifies the smooth structures on $M$ and $N$.
 
 ## Examples
 1. On $\mathbb{R}^n$, any translation $x\mapsto x+a$ and any invertible linear map $x\mapsto Ax$ (with $A\in \mathrm{GL}(n,\mathbb{R})$) is a diffeomorphism.

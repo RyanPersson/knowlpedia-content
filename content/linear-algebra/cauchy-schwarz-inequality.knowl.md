@@ -14,4 +14,6 @@ legacy_source_path = "linear-algebra/cauchy-schwarz-inequality.md"
 \]
 where $\|x\|=\sqrt{\langle x,x\rangle}$ is the induced [[linear-algebra/norm|norm]]. Equality holds if and only if $x$ and $y$ are linearly dependent.
 
+## Remarks
+
 In a [[linear-algebra/euclidean-space|Euclidean space]], this bounds the dot product by the product of Euclidean lengths. It is central for understanding [[linear-algebra/orthogonality|orthogonality]] and for many norm inequalities in inner product geometry.

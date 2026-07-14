@@ -21,7 +21,11 @@ is exact in \(\mathcal A\), then
 \]
 is exact in \(\mathcal B\).
 
+## Equivalent characterizations
+
 Equivalently, $F$ is exact if and only if $F$ is both [[algebra-category-theory/left-exact-functor|left exact]] and [[algebra-category-theory/right-exact-functor|right exact]].
+
+## Remarks
 
 In abelian categories, exactness can also be characterized as preservation of both [[algebra-category-theory/kernel-categorical|kernels]] and [[algebra-category-theory/cokernel-categorical|cokernels]] (hence images and coimages).
 

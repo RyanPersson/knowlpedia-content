@@ -12,9 +12,12 @@ A [[convex-analysis/metric-metric-space|metric space]] $(X,d)$ is **complete** i
 
 A subset $E\subset X$ is called **complete** if the restricted metric space $(E,d|_{E\times E})$ is complete; equivalently, every Cauchy sequence in $E$ converges to a point of $E$.
 
+## Remarks
+
 **Context.** Completeness is the property that "no limit points are missing." It is central in analysis (e.g., for existence theorems based on Cauchy sequences).
 
-**Examples:**
+## Examples
+
 - $(\mathbb{R}^k,d)$ with the usual Euclidean distance is complete (see [[convex-analysis/completeness-of-rk|Completeness of R^k]]).
 - The open interval $(0,1)\subset\mathbb{R}$ with the usual distance is *not* complete: the Cauchy sequence $x_n=1/n$ converges to $0\notin(0,1)$.
 - If $X$ is complete and $E\subset X$ is [[convex-analysis/closed-subset|closed]], then $E$ is complete (see [[convex-analysis/completeness-implies-closedness-closed-subsets-of-complete-spaces-are-complete|closed subsets of complete spaces are complete]]).

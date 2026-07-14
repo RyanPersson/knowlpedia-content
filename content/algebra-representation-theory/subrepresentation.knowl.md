@@ -12,18 +12,23 @@ Let \((V,\rho)\) be a [[algebra-representation-theory/group-representation|group
 \[
 \rho(g)(W)\subseteq W\quad\text{for all } g\in G.
 \]
+
+## Equivalent characterizations
+
 Equivalently, \(W\) is a **\(G\)-invariant subspace** of \(V\). In that case, restricting \(\rho\) gives a representation \((W,\rho|_W)\).
 
+## Remarks
+
 In the [[algebra-representation-theory/group-algebra|group algebra]] viewpoint, subrepresentations are exactly \(k[G]\)-submodules.
+
+Subrepresentations are the objects whose absence (except \(0\) and \(V\)) defines [[algebra-representation-theory/irreducible-representation|irreducibility]].
 
 ### Basic properties
 - The inclusion \(i:W\hookrightarrow V\) is a homomorphism of representations (a \(G\)-equivariant [[linear-algebra/linear-map|linear map]]).
 - If \(W\) is a subrepresentation, one can form the quotient vector space \(V/W\), which carries an induced \(G\)-action by \(\overline{v}\mapsto \overline{\rho(g)v}\) (well-defined precisely because \(W\) is \(G\)-stable).
 
-Subrepresentations are the objects whose absence (except \(0\) and \(V\)) defines [[algebra-representation-theory/irreducible-representation|irreducibility]].
-
 ## Examples
-1. **Permutation representation of \(S_3\) on \(k^3\).**  
+1. **Permutation representation of \(S_3\) on \(k^3\).**
    Let \(V=k^3\) with \(S_3\) acting by permuting coordinates:
    \[
    \rho(\sigma)(e_i)=e_{\sigma(i)}.
@@ -43,7 +48,7 @@ Subrepresentations are the objects whose absence (except \(0\) and \(V\)) define
    \]
    exhibiting complete reducibility in this case (see [[algebra-representation-theory/completely-reducible-representation|completely reducible representation]]).
 
-2. **A canonical 1-dimensional subrepresentation inside the regular representation.**  
+2. **A canonical 1-dimensional subrepresentation inside the regular representation.**
    In the [[algebra-representation-theory/regular-representation|regular representation]] of \(G\) on \(k[G]\), the vector
    \[
    \Omega=\sum_{g\in G} g \in k[G]
@@ -54,7 +59,7 @@ Subrepresentations are the objects whose absence (except \(0\) and \(V\)) define
    \]
    Thus \(k\Omega\) is a subrepresentation isomorphic to the trivial representation.
 
-3. **An invariant line without an invariant complement (modular phenomenon).**  
+3. **An invariant line without an invariant complement (modular phenomenon).**
    Let \(G=C_p=\langle g\rangle\) and \(k=\mathbb{F}_p\). Define a 2-dimensional representation on \(V=k^2\) by
    \[
    \rho(g)=\begin{pmatrix}1&1\\0&1\end{pmatrix}.

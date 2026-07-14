@@ -14,4 +14,6 @@ A homomorphism $\delta:\Gamma\to \mathrm{Aut}(G)$ (often landing in a pinned aut
 
 An **inner twist** is specified by a (non-abelian) **1-cocycle** $a:\Gamma\to G(K)$ satisfying $a_{\sigma\tau}=a_\sigma\cdot {}^\sigma a_\tau$; cocycles up to coboundary form $H^1(\Gamma,G)$.
 
+## Remarks
+
 **In the letter:** $G$ is built as a $\delta$-twist followed by an inner twist; at almost all primes this inner cocycle "splits" locally.

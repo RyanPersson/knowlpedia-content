@@ -19,7 +19,8 @@ If $M$ is not linearly independent, it is **linearly dependent**, i.e., there ex
 
 Linear independence is one of the two defining properties of a [[convex-analysis/basis-hamel-basis-and-dimension|basis]].
 
-**Examples:**
+## Examples
+
 - The standard unit vectors $e_1,\dots,e_n$ in $\mathbb{R}^n$ are linearly independent.
 - The set $\{(1,0),(2,0)\}\subset\mathbb{R}^2$ is linearly dependent since $2(1,0)-(2,0)=0$.
 - Any set containing the zero vector is linearly dependent: if $0\in M$, then $1\cdot 0=0$ is a nontrivial dependence.

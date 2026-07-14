@@ -10,7 +10,7 @@ legacy_source_path = "thermodynamics/quasistatic-process.md"
 
 A **quasistatic process** is a [[thermodynamics/thermodynamic-process|thermodynamic process]] executed slowly enough that the system remains arbitrarily close to [[thermodynamics/thermodynamic-equilibrium|thermodynamic equilibrium]] throughout. Equivalently, the system can be described at every instant by a well-defined [[thermodynamics/thermodynamic-state|thermodynamic state]], so macroscopic [[thermodynamics/state-variable|state variables]] (such as temperature and pressure) exist along the entire path.
 
-## Physical interpretation
+## Interpretation
 “Quasistatic” is a controlled idealization based on **separation of time scales**: external driving is slow compared with the system’s internal relaxation times, so spatial gradients (in temperature, pressure, chemical potential, etc.) are negligible within the system at each moment. In practice, a process is quasistatic to the extent that the system remains near equilibrium and its state variables can be treated as meaningful functions of time.
 
 ## Key properties and useful relations

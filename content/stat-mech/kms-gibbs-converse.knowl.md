@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/kms-gibbs-converse.md"
 +++
 
-## Statement
 Let $\mathcal H$ be a finite-dimensional Hilbert space and let $H=H^\ast$ be a (bounded) Hamiltonian. Consider the Heisenberg time evolution
 $$
 \alpha_t(A)=e^{itH}Ae^{-itH},\qquad A\in\mathcal B(\mathcal H).

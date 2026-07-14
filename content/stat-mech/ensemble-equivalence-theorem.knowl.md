@@ -34,7 +34,7 @@ If $s(u)$ is not concave (e.g. due to phase coexistence or long-range interactio
 - **Same typical macrostates:** both ensembles concentrate on the same equilibrium set when matched by $u(\beta)$.
 - **Inequivalence criterion:** nonconcavity of $s(u)$ signals potential ensemble inequivalence and can correspond to phase transitions.
 
-## Cross-links to definitions
+## Remarks
 - Ensembles and observables: [[stat-mech/microcanonical-measure|microcanonical measure]], [[stat-mech/canonical-ensemble|canonical ensemble]], [[stat-mech/ensemble-average|ensemble average]].
 - Entropy/free energy: [[stat-mech/boltzmann-entropy-microcanonical|Boltzmann entropy]], [[stat-mech/free-energy-statistical|statistical free energy]], [[stat-mech/legendre-duality-free-energy-entropy|entropy–free energy duality]].
 - Large deviations: [[large-deviations/large-deviation-principle|LDP]], [[stat-mech/large-deviation-equilibrium|large-deviation characterization of equilibrium]].

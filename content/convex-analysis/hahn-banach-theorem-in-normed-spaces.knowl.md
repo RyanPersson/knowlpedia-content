@@ -14,5 +14,7 @@ Let $X$ be a [[convex-analysis/norm-normed-vector-space|normed space]], let $Y\s
 - $F|_Y=f$, and
 - $\|F\|=\|f\|$.
 
+## Remarks
+
 **Context:**
 This is obtained by applying [[convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case|the seminorm version of Hahn–Banach]] with the [[convex-analysis/seminorm|seminorm]] $p(x)=\|f\|\|x\|$. It is one of the main tools for constructing supporting functionals and proving geometric separation theorems in normed spaces.

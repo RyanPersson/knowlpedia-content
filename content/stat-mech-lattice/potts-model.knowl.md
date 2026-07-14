@@ -23,7 +23,7 @@ where $J\in\mathbb{R}$ controls the interaction and $(h_1,\dots,h_q)$ is an [[st
 
 At inverse temperature $\beta$, the associated [[stat-mech-lattice/finite-volume-gibbs-measure|finite-volume Gibbs measure]] is proportional to $\exp(-\beta H_\Lambda(\sigma\mid\eta))$, normalized by the [[stat-mech-lattice/partition-function-lattice|partition function]].
 
-## Key properties
+## Properties
 
 - **Ferromagnetic vs antiferromagnetic.**
   - If $J>0$, equal neighboring spins are favored (ferromagnetic Potts).
@@ -37,7 +37,7 @@ At inverse temperature $\beta$, the associated [[stat-mech-lattice/finite-volume
 
 - **Correlations and criticality.** Two-point correlations (see [[stat-mech/correlation-function-two-point|two-point correlation functions]]) can exhibit long-range order or critical decay depending on dimension, $q$, and the sign of $J$. In two dimensions, the ferromagnetic model has especially rich and well-understood critical behavior.
 
-## Physical interpretation
+## Interpretation
 
 The Potts model describes systems with **multiple equivalent local states**, such as:
 - multi-orientational “spins” in magnetic or structural phase transitions,

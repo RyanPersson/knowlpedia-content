@@ -14,6 +14,8 @@ Let $(X,\|\cdot\|)$ be a normed space.
 1. If $x_n\to x$ and $y_n\to y$, then $x_n+y_n\to x+y$.
 2. If $x_n\to x$ and $\alpha_n\to \alpha$ (in $\mathbb{R}$ or $\mathbb{C}$), then $\alpha_n x_n\to \alpha x$.
 
+## Remarks
+
 **Context.** These are the basic "limit laws" for sequences in normed linear settings.
 
 **Proof sketch.**

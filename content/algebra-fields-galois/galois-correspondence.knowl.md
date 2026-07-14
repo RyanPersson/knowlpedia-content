@@ -21,7 +21,7 @@ and for a subgroup $H\le G$ define its [[algebra-fields-galois/fixed-field|fixed
 \Psi(H)=L^H=\{x\in L:\sigma(x)=x\ \text{for all }\sigma\in H\}.
 \]
 
-**Theorem (Galois correspondence).**  
+**Theorem (Galois correspondence).**
 The assignments $\Phi$ and $\Psi$ are inverse bijections
 \[
 \mathcal{I}(L/K)\ \longleftrightarrow\ \mathrm{Sub}(G),
@@ -38,15 +38,17 @@ Finally, for $E\in\mathcal{I}(L/K)$ with corresponding subgroup $H=\mathrm{Gal}(
 \[
 \mathrm{Gal}(E/K)\ \cong\ G/H.
 \]
+## Remarks
+
 This correspondence is one standard formulation of the [[algebra-fields-galois/fundamental-theorem-galois-theory|Fundamental Theorem of Galois Theory]].
 
 ### Examples
-1. **A biquadratic extension with Klein four group.**  
+1. **A biquadratic extension with Klein four group.**
    Let $L=\mathbb{Q}(\sqrt2,\sqrt3)$ and $K=\mathbb{Q}$. This is the [[algebra-fields-galois/splitting-field|splitting field]] of $(x^2-2)(x^2-3)$, hence a finite Galois extension. The group $G=\mathrm{Gal}(L/\mathbb{Q})$ has four elements, determined by independent sign changes of $\sqrt2$ and $\sqrt3$:
    - $\tau_2(\sqrt2)=-\sqrt2,\ \tau_2(\sqrt3)=\sqrt3$,
    - $\tau_3(\sqrt2)=\sqrt2,\ \tau_3(\sqrt3)=-\sqrt3$,
    - $\tau_6=\tau_2\tau_3$.
-   
+
    The three subgroups of order $2$ correspond to the three quadratic intermediate fields:
    \[
    L^{\langle\tau_2\rangle}=\mathbb{Q}(\sqrt3),\quad
@@ -55,13 +57,13 @@ This correspondence is one standard formulation of the [[algebra-fields-galois/f
    \]
    The full group fixes $\mathbb{Q}$, and the trivial subgroup fixes $L$.
 
-2. **A cyclotomic example.**  
+2. **A cyclotomic example.**
    Let $L=\mathbb{Q}(\zeta_5)$ (a [[algebra-fields-galois/cyclotomic-extension|cyclotomic extension]]) and $K=\mathbb{Q}$. Then $G\cong(\mathbb{Z}/5\mathbb{Z})^\times$ is cyclic of order $4$. There is exactly one subgroup of order $2$, hence exactly one intermediate field $E$ with $[E:\mathbb{Q}]=2$, namely the maximal real subfield
    \[
    E=\mathbb{Q}(\zeta_5+\zeta_5^{-1})=\mathbb{Q}(\sqrt5).
    \]
 
-3. **Finite fields.**  
+3. **Finite fields.**
    For $L=\mathbb{F}_{p^n}$ and $K=\mathbb{F}_p$, the extension is Galois with cyclic group (see [[algebra-fields-galois/finite-field-galois-cyclic|finite-field Galois cyclicity]]). Subgroups of a cyclic group correspond to divisors of $n$, so the intermediate fields are exactly
    \[
    \mathbb{F}_{p^d}\quad (d\mid n),

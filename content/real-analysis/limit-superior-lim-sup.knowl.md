@@ -27,5 +27,5 @@ For a [[real-analysis/bounded-sequence|bounded sequence]] \((x_n)\), the lim sup
 ## Extended values
 For unbounded sequences: \(\limsup x_n = +\infty\) if \((x_n)\) is unbounded above, and \(\limsup x_n = -\infty\) if \(x_n \to -\infty\).
 
-## Example
+## Examples
 For \(x_n = (-1)^n(1 + 1/n)\): \(\limsup x_n = 1\), \(\liminf x_n = -1\).

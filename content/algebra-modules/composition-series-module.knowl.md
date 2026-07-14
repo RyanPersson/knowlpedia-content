@@ -16,7 +16,8 @@ such that each factor $M_i/M_{i-1}$ is a [[algebra-modules/simple-module|simple 
 
 Composition series exist exactly for modules of finite length and provide a canonical way to “factor” modules into simple pieces.
 
-**Examples:**
+## Examples
+
 - For the $\mathbb Z$-module $\mathbb Z/p^k\mathbb Z$, the chain
   $0\subset p^{k-1}\mathbb Z/p^k\mathbb Z \subset \cdots \subset p\mathbb Z/p^k\mathbb Z \subset \mathbb Z/p^k\mathbb Z$
   is a composition series.

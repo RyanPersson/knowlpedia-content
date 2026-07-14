@@ -16,7 +16,8 @@ then the **length** of $M$, denoted $\ell(M)$, is the integer $n$. By the Jordan
 
 Finite length is tightly linked to chain conditions: modules that are both [[algebra-modules/noetherian-module|Noetherian]] and [[algebra-modules/artinian-module|Artinian]] have finite length; see [[algebra-modules/artinian-noetherian-finite-length|Artinian + Noetherian ⇒ finite length]].
 
-**Examples:**
+## Examples
+
 - As a $\mathbb Z$-module, $\ell(\mathbb Z/p^k\mathbb Z)=k$.
 - If $V$ is an $n$-dimensional vector space over a field, then $\ell(V)=n$.
 - (Nonexample) $\mathbb Z$ has infinite length (no finite composition series).

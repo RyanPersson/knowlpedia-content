@@ -10,7 +10,11 @@ legacy_source_path = "algebra-representation-theory/irreducible-representation.m
 
 Let \((V,\rho)\) be a finite-dimensional [[algebra-representation-theory/group-representation|group representation]] of a group \(G\) over a field \(k\). The representation \(V\neq 0\) is **irreducible** if its only [[algebra-representation-theory/subrepresentation|subrepresentations]] are \(0\) and \(V\) itself.
 
+## Equivalent characterizations
+
 Equivalently, \(V\) is a **simple** \(k[G]\)-module (compare [[algebra-modules/simple-module|simple module]]).
+
+## Remarks
 
 Irreducible representations are the building blocks of [[algebra-representation-theory/completely-reducible-representation|completely reducible]] ones, and their characters are the [[algebra-representation-theory/irreducible-character|irreducible characters]].
 
@@ -18,14 +22,14 @@ Irreducible representations are the building blocks of [[algebra-representation-
 A key fact is [[algebra-representation-theory/schurs-lemma|Schur's lemma]]: for irreducible \(V\), \(G\)-equivariant endomorphisms of \(V\) are very restricted (over an algebraically closed field, they are just scalars).
 
 ## Examples
-1. **Cyclic groups over \(\mathbb{C}\): all irreducibles are 1-dimensional.**  
+1. **Cyclic groups over \(\mathbb{C}\): all irreducibles are 1-dimensional.**
    For \(C_n=\langle g\mid g^n=1\rangle\) and \(k=\mathbb{C}\), every irreducible representation is
    \[
    \rho_j(g)=\zeta_n^j\in \mathbb{C}^\times,\quad j\in\{0,1,\dots,n-1\},
    \]
    hence \(\dim=1\). (These are precisely the complex characters of \(C_n\).)
 
-2. **Irreducibles of \(S_3\) over \(\mathbb{C}\).**  
+2. **Irreducibles of \(S_3\) over \(\mathbb{C}\).**
    Over \(\mathbb{C}\), the group \(S_3\) has exactly three irreducible representations up to isomorphism:
    - the trivial 1-dimensional representation,
    - the sign 1-dimensional representation \(\mathrm{sgn}\),
@@ -35,7 +39,7 @@ A key fact is [[algebra-representation-theory/schurs-lemma|Schur's lemma]]: for 
      \]
      where \(S_3\) permutes coordinates of \(\mathbb{C}^3\).
 
-3. **Dependence on the field: a representation irreducible over \(\mathbb{R}\) but reducible over \(\mathbb{C}\).**  
+3. **Dependence on the field: a representation irreducible over \(\mathbb{R}\) but reducible over \(\mathbb{C}\).**
    Let \(G=C_3=\langle g\rangle\). Consider \(V=\mathbb{R}^2\) with
    \[
    \rho(g)=\begin{pmatrix}

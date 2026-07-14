@@ -17,4 +17,6 @@ Then the series $\sum_{n=0}^\infty c_n$ converges, and its sum satisfies
 \sum_{n=0}^\infty c_n=\left(\sum_{n=0}^\infty a_n\right)\left(\sum_{n=0}^\infty b_n\right).
 \]
 
+## Remarks
+
 This theorem explains when multiplication of sums is compatible with multiplication of series via Cauchy products, a key fact in manipulating [[real-analysis/power-series|power series]] and in results about [[real-analysis/term-by-term-operations|term-by-term operations]].

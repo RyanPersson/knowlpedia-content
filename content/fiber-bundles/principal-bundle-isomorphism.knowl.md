@@ -14,6 +14,7 @@ A **principal bundle isomorphism** is a [[fiber-bundles/principal-bundle-morphis
 - $\Phi$ is a [[fiber-bundles/diffeomorphism|diffeomorphism]] (so it has a smooth inverse), and hence
 - the induced base map $f:M\to M'$ defined by $\pi'\circ\Phi=f\circ\pi$ is automatically a diffeomorphism.
 
+## Equivalent characterizations
 Equivalently, $\Phi$ is a morphism admitting an inverse morphism $\Psi:P'\to P$ with $\Psi\circ\Phi=\mathrm{id}_P$ and $\Phi\circ\Psi=\mathrm{id}_{P'}$.
 
 ## Examples

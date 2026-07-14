@@ -19,6 +19,8 @@ k[G]\;\cong\;\bigoplus_{i=1}^r d_i\,V_i.
 \]
 In particular, each irreducible $V_i$ occurs inside $k[G]$ with multiplicity exactly $\dim(V_i)$.
 
+## Remarks
+
 A closely related (often packaged together) semisimple-algebra statement is that the [[algebra-representation-theory/group-algebra|group algebra]] admits a Wedderburn decomposition
 \[
 k[G]\;\cong\;\bigoplus_{i=1}^r \operatorname{End}_k(V_i)\;\cong\;\bigoplus_{i=1}^r \mathrm{Mat}_{d_i}(k),
@@ -32,7 +34,7 @@ Taking dimensions in the module decomposition gives the formula [[algebra-repres
 
 ## Examples
 
-1. **$S_3$ (order $6$).**  
+1. **$S_3$ (order $6$).**
    Over $\mathbb C$, the irreducibles are $\mathbf{1}$ (trivial), $\mathrm{sgn}$ (sign), and the $2$-dimensional standard $V$.
    The corollary gives
    \[
@@ -40,13 +42,13 @@ Taking dimensions in the module decomposition gives the formula [[algebra-repres
    \]
    Dimension check: $1+1+2\cdot 2=6$.
 
-2. **$C_n$ (order $n$).**  
+2. **$C_n$ (order $n$).**
    All irreducibles are $1$-dimensional characters $\chi_0,\dots,\chi_{n-1}$, hence
    \[
    \mathbb C[C_n]\;\cong\;\chi_0\oplus\chi_1\oplus\cdots\oplus\chi_{n-1}.
    \]
 
-3. **$D_8$ (order $8$).**  
+3. **$D_8$ (order $8$).**
    $D_8$ has four $1$-dimensional irreducibles $\chi_1,\dots,\chi_4$ and one $2$-dimensional irreducible $V$, so
    \[
    \mathbb C[D_8]\;\cong\;\chi_1\oplus\chi_2\oplus\chi_3\oplus\chi_4\oplus 2\cdot V,

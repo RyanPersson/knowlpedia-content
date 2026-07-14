@@ -16,5 +16,7 @@ $$
 
 Then $NM$ is a normal subgroup of $G$. Moreover, $NM=MN$.
 
+## Remarks
+
 **Context.**
 Products like $NM$ appear in building larger normal subgroups from smaller ones (e.g. in series and extensions). The equality $NM=MN$ is a typical "normality makes products commute setwise" phenomenon.

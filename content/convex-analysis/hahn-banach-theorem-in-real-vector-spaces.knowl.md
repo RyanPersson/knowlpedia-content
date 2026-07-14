@@ -19,5 +19,7 @@ then there exists a linear functional $F:X\to\mathbb{R}$ such that
 - $F(y)=f(y)$ for all $y\in Y$, and
 - $F(x)\le p(x)$ for all $x\in X$.
 
+## Remarks
+
 **Context:**
 This extension theorem is the analytic backbone of convex separation results (e.g., [[convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core|geometric Hahn–Banach separation]]). In the notes, the proof uses Zorn's lemma to extend $f$ maximally and then shows the domain must be all of $X$.

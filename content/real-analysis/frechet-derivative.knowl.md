@@ -17,7 +17,8 @@ where $\|\cdot\|$ is the [[linear-algebra/euclidean-norm|Euclidean norm]].
 
 If such a map exists, it is unique; it is the linear part of the first-order approximation $f(a+h)=f(a)+Df(a)h+o(\|h\|)$. When $f$ has partial derivatives, $Df(a)$ is represented by the [[real-analysis/jacobian-matrix|Jacobian matrix]] at $a$, and existence of $Df(a)$ is the defining condition for a [[real-analysis/differentiable-map|differentiable map]] at $a$.
 
-**Examples:**
+## Examples
+
 - If $f(x)=Ax$ for a fixed matrix $A$, then $Df(a)h=Ah$ for every $a$.
 - For $f:\mathbb{R}^2\to \mathbb{R}^2$ given by $f(x,y)=(x^2y,\,x+y)$, the derivative at $(a,b)$ is the linear map represented by the matrix
   $$

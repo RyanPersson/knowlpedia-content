@@ -12,8 +12,12 @@ A **(connected) reductive algebraic group** over a field $k$ is a smooth connect
 
 $G$ is **split over $k$** if it contains a **split maximal torus** $T \simeq \mathbb{G}_m^r$ defined over $k$.
 
+## Remarks
+
 **Key properties (used in the letter):**
 - Splitness lets one define roots and weights inside $X^*(T)$ and build the [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]].
 - "Almost all primes $p$" are "good" places where $G$ is unramified and has a canonical hyperspecial compact.
 
-**Example:** $G=\mathrm{GL}_n$ over $k$ is split reductive.
+## Examples
+
+- $G=\mathrm{GL}_n$ over $k$ is split reductive.

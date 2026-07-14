@@ -13,14 +13,17 @@ $$
 D_v f(a)=\lim_{t\to 0^+}\frac{f(a+tv)-f(a)}{t},
 $$
 
-when it exists (the limit uses a [[real-analysis/one-sided-limit|one-sided limit]] along the line through $a$ in direction $v$).
-
 If $f$ is [[real-analysis/differentiable-map|differentiable]] at $a$ (as a map into $\mathbb{R}$), then $D_v f(a)$ exists for every $v$ and equals $Df(a)v$, where $Df(a)$ is the [[real-analysis/frechet-derivative|Fréchet derivative]]. For scalar functions, directional derivatives are encoded by the [[real-analysis/gradient|gradient]].
 
-**Examples:**
+
+## Examples
+
 - If $f(x,y)=x^2+y^2$, then at $a=(1,0)$ and $v=(1,1)$,
   $$
   D_v f(a)=\lim_{t\to 0^+}\frac{(1+t)^2+t^2-1}{t}=2.
   $$
-
 - For $f(x,y)=|x|$, one has $D_{(0,1)}f(0,0)=0$, while $D_{(1,0)}f(0,0)=1$ (one-sided).
+
+## Remarks
+
+when it exists (the limit uses a [[real-analysis/one-sided-limit|one-sided limit]] along the line through $a$ in direction $v$).

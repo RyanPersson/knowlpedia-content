@@ -12,6 +12,7 @@ A **local extremum** of a function $f:I\to\mathbb{R}$ at a point $a\in I$ means 
 
 Local extrema are closely connected to [[real-analysis/critical-point|critical points]] and the [[real-analysis/derivative|derivative]] (when it exists). Criteria such as the [[real-analysis/second-derivative-tests|second derivative tests]] help distinguish maxima from minima.
 
-**Examples:**
+## Examples
+
 - For $f(x)=x^2$, the point $a=0$ is a local minimum.
 - For $f(x)=-x^2$, the point $a=0$ is a local maximum.

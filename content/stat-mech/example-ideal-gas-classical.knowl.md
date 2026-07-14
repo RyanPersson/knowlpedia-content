@@ -44,4 +44,6 @@ Key thermodynamic results:
   $$\mathrm{Var}(U)=k_B T^2 C_V,$$
   relating [[probability/variance|variance]] to thermodynamic response.
 
+## Remarks
+
 Prerequisites: [[stat-mech/canonical-ensemble|canonical ensemble]], [[stat-mech/partition-function-canonical|canonical partition function]], [[thermodynamics/helmholtz-free-energy|Helmholtz free energy]], [[thermodynamics/thermodynamic-entropy|thermodynamic entropy]].

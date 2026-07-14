@@ -15,6 +15,8 @@ $
 \int_a^b f(x)\,dx = F(b)-F(a).
 $
 
+## Remarks
+
 This is the standard evaluation rule for definite integrals using [[real-analysis/antiderivative|antiderivatives]].
 
 **Connection to parent theorem**:

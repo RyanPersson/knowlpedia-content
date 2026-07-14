@@ -15,6 +15,8 @@ $
 \chi_\rho(h)=\chi_\rho(h') \quad \text{for all irreducible }\rho.
 $
 
+## Remarks
+
 Reason (used implicitly): semisimple elements are conjugate into a torus, and characters restrict to Weyl-invariant regular functions on the torus that separate Weyl orbits.
 
 **In the letter:** this justifies recovering the semisimple class of $\alpha_p$ from its values in all representations.

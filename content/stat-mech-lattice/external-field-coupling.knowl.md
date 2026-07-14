@@ -23,16 +23,16 @@ $$
 
 where $H_\Lambda^{\Phi}$ comes from an [[stat-mech-lattice/interaction-potential-phi|interaction potential $\Phi$]] and may depend on a [[stat-mech-lattice/boundary-condition-lattice|boundary condition]] $\eta$.
 
-## Cross-links
+## Remarks
 - The field enters the [[stat-mech-lattice/finite-volume-gibbs-measure|finite-volume Gibbs measure]] through the Boltzmann weight and affects the [[stat-mech-lattice/partition-function-lattice|partition function]].
 - Derivatives of the [[stat-mech-lattice/pressure-lattice|pressure]] with respect to a uniform field yield magnetization and susceptibilities (compare [[stat-mech/susceptibility-stat-mech|susceptibility]]).
 - In the [[stat-mech-lattice/ising-model|Ising model]], a uniform field breaks the $\mathbb{Z}_2$ spin-flip symmetry and selects a phase.
 
-## Key properties
+## Properties
 1. **Bias and symmetry breaking.** A nonzero field typically breaks any global symmetry under which $m(\sigma_x)$ changes sign (e.g. spin-flip in the Ising model).
 2. **Conjugate variable.** The field is thermodynamically conjugate to the order parameter: for a uniform field $h$, the derivative of the infinite-volume pressure with respect to $h$ (when it exists) gives the bulk magnetization.
 3. **Uniqueness-enhancing effect.** In many models, a nonzero uniform field eliminates phase coexistence and yields a unique infinite-volume Gibbs measure (model-dependent but common in ferromagnets).
 4. **Spatially varying fields.** If $h_x$ varies with $x$, translation invariance is explicitly broken and one can model inhomogeneities or pinning.
 
-## Physical interpretation
+## Interpretation
 The external field represents an imposed environment (e.g. a magnetic field) that energetically favors spins aligned with it. It is the standard control knob for probing response: by varying $h$ one measures how the system’s macroscopic magnetization changes, and one can distinguish spontaneous ordering (nonzero magnetization as $h\to 0$) from field-induced ordering (magnetization only when $h\neq 0$), connecting to [[stat-mech-lattice/spontaneous-magnetization|spontaneous magnetization]].

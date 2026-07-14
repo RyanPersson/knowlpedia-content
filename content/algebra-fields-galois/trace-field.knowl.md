@@ -17,6 +17,8 @@ viewed as a \(K\)-linear endomorphism of the \(K\)-vector space \(L\). The **(fi
 \mathrm{Tr}_{L/K}(\alpha) := \mathrm{trace}(m_\alpha)\in K.
 \]
 
+## Equivalent characterizations
+
 Equivalently, if \(\Omega\) is a field containing \(L\) and the extension is separable (see [[algebra-fields-galois/separable-extension|separable extension]]), then
 \[
 \mathrm{Tr}_{L/K}(\alpha)=\sum_{\sigma} \sigma(\alpha),

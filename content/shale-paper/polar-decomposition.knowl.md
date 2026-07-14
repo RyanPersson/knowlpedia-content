@@ -14,8 +14,12 @@ T=u(T)\,|T|,\quad |T|=(T^*T)^{1/2}\ge 0,
 \]
 where \(u(T)\) is unitary (complex case) or orthogonal (real case).
 
+## Remarks
+
 **Key properties (paper use):**
 - Used to define [[shale-paper/restricted-general-linear-group-rgl|rGL(H)]] via \(|T|\in GL(H)_2\).
 - Lets one reduce many proofs to the positive cone (e.g. \(Sp(K)^+\)).
 
-**Example:** If \(T\) is positive selfadjoint, then \(u(T)=I\) and \(|T|=T\).
+## Examples
+
+- If \(T\) is positive selfadjoint, then \(u(T)=I\) and \(|T|=T\).

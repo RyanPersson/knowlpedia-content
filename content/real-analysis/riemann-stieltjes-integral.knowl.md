@@ -18,8 +18,11 @@ such that for every $\varepsilon>0$ there exists $\delta>0$ with the property th
 \]
 (The sum is called a Riemann–Stieltjes sum.)
 
+## Remarks
+
 This generalizes the [[real-analysis/riemann-integral|Riemann integral]] (take $\alpha(x)=x$) and is especially well-behaved when $\alpha$ is a [[real-analysis/bounded-variation-function|function of bounded variation]]; see [[real-analysis/riemann-stieltjes-integrability-theorem|Riemann–Stieltjes integrability]] and [[real-analysis/integration-by-parts-riemann-stieltjes|integration by parts]].
 
-**Examples:**
+## Examples
+
 - If $\alpha(x)=x$, then $\int_a^b f\,d\alpha=\int_a^b f(x)\,dx$.
 - If $\alpha$ is constant on $[a,b]$, then $\int_a^b f\,d\alpha=0$ (whenever the integral is defined).

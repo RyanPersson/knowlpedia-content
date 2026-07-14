@@ -17,4 +17,6 @@ $
 (\pi^\vee(g)\ell)(v):=\ell(\pi(g^{-1})v)\quad (\ell\in V^*,\,v\in V).
 $
 
+## Remarks
+
 **In the letter:** this is the representation denoted $\pi^e$, appearing in the functional-equation-style question.

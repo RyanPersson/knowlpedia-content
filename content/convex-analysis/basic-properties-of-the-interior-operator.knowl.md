@@ -16,6 +16,8 @@ Let $(X,d)$ be a metric space and let $A,B\subset X$. Then:
 3. $(A^\circ)^\circ=A^\circ$ (idempotence).
 4. $(A\cap B)^\circ=A^\circ\cap B^\circ$.
 
+## Remarks
+
 **Proof sketch.**
 1. Any open set contained in $A$ is contained in $B$, so its union is contained in $B^\circ$.
 2. By definition, $A^\circ\subset A$ always; equality holds exactly when $A$ is already open.

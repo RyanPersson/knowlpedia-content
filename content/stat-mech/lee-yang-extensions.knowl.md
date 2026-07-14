@@ -8,7 +8,7 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/lee-yang-extensions.md"
 +++
 
-## Prerequisites
+## Remarks
 
 - [[stat-mech-lattice/ising-model|Ising model]]
 - [[stat-mech-lattice/ferromagnetic-ising|ferromagnetic Ising interactions]]
@@ -43,7 +43,7 @@ $$
 
 where $P_\Lambda$ is a polynomial of degree $|\Lambda|$ with strictly positive real coefficients.
 
-**Lee–Yang circle theorem (one standard form).**  
+**Lee–Yang circle theorem (one standard form).**
 For ferromagnetic couplings $J_{xy}\ge 0$, every zero of the polynomial $P_\Lambda(z)$ lies on the unit circle:
 $$
 P_\Lambda(z)=0 \quad\Longrightarrow\quad |z|=1.
@@ -63,18 +63,18 @@ Equivalently, every zero of $Z_\Lambda(\beta,h)$ as a function of $h$ satisfies 
 
 Many generalizations are most cleanly phrased via a **Lee–Yang property**.
 
-**Definition (Lee–Yang property, informal but standard).**  
+**Definition (Lee–Yang property, informal but standard).**
 A spin system with ferromagnetic interactions is said to have the Lee–Yang property if, for every finite volume $\Lambda$, the partition function as a function of complex external field $h$ has no zeros off the imaginary axis (equivalently, after exponentiation, the corresponding polynomial zeros lie on the unit circle in the Lee–Yang variable).
 
 This property is robust under several constructions (often proved by correlation inequalities and contraction arguments), leading to extensions such as:
 
-1. **General graphs and inhomogeneous fields.**  
+1. **General graphs and inhomogeneous fields.**
    The circle theorem holds for Ising ferromagnets on arbitrary finite graphs, not just boxes in $\mathbb{Z}^d$, and with site-dependent complex fields (after an appropriate multivariate formulation).
 
-2. **Lattice-gas formulation.**  
+2. **Lattice-gas formulation.**
    Under the standard mapping between the Ising model and a lattice gas (see [[stat-mech-lattice/lattice-gas-ising-mapping|lattice gas–Ising mapping]]), Lee–Yang zeros can be interpreted as zeros in a fugacity-like variable, tying the theorem directly to analyticity properties of the grand potential.
 
-3. **Continuous-spin ferromagnets and other single-site measures.**  
+3. **Continuous-spin ferromagnets and other single-site measures.**
    For certain continuous-spin ferromagnets (and more general single-site distributions), one can prove an analogous zero-location statement provided the single-site measure satisfies an appropriate “Lee–Yang admissibility” condition (typically formulated via properties of its Laplace transform).
 
 ## How Lee–Yang theory is used in practice

@@ -33,5 +33,5 @@ determines $\gamma$ uniquely by $\gamma(t)=\exp(tX)$ for all $t$.
 
 Thus, one-parameter subgroups are in bijection with elements of $\mathfrak g$.
 
-## Context
+## Remarks
 One-parameter subgroups are the group-theoretic shadows of constant-coefficient ODE flows on $G$; the precise relationship is expressed by [[lie-groups/one-parameter-subgroups-integral-curves|their interpretation as integral curves of invariant vector fields]].

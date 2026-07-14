@@ -10,4 +10,6 @@ legacy_source_path = "topology/complete-metric-space-is-baire.md"
 
 **Complete metric space is Baire:** Every [[topology/complete-metric-space|complete metric space]] is a [[topology/baire-space|Baire space]]; equivalently, in a complete metric space, every countable intersection of [[topology/dense-set|dense]] [[topology/open-set|open sets]] is dense.
 
+## Remarks
+
 This is the standard formulation of the [[topology/baire-category-theorem|Baire category theorem]] in the language of Baire spaces, and it underlies many arguments involving [[topology/meager-set|meager sets]] and [[topology/nowhere-dense-set|nowhere dense sets]].

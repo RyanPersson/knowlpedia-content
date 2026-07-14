@@ -14,9 +14,12 @@ A **ring homomorphism** is a [[shared-foundations/function|function]] $\varphi:R
 \]
 If $R,S$ are unital, one often additionally requires $\varphi(1_R)=1_S$ (a *unital* homomorphism).
 
+## Remarks
+
 Homomorphisms organize rings into a category; they compose via [[shared-foundations/composition|composition]]. Two fundamental invariants are the [[algebra-rings/kernel-ring|kernel]] and image, which control quotients and embeddings.
 
-**Examples:**
+## Examples
+
 - The reduction map $\mathbb Z\to \mathbb Z/n\mathbb Z$, $a\mapsto \overline a$, is a ring homomorphism.
 - The inclusion $\mathbb Z\hookrightarrow \mathbb Q$ is a ring homomorphism.
 - Evaluation at $c\in k$ gives a homomorphism $k[x]\to k$, $f\mapsto f(c)$.

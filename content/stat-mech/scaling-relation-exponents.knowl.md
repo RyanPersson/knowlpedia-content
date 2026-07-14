@@ -58,7 +58,7 @@ $$
 $$
 under the same set of assumptions.
 
-## Prerequisites
+## Remarks
 - [[stat-mech/critical-exponent|definitions of critical exponents]]
 - [[stat-mech/critical-point-phase-diagram|critical points]]
 - [[stat-mech/rg-fixed-point|RG fixed points]]

@@ -14,4 +14,6 @@ legacy_source_path = "algebra-rings/gauss-content-lemma.md"
 \]
 where \(\sim\) denotes equality up to [[algebra-rings/associated-elements|associates]]. Equivalently, the product of two [[algebra-rings/primitive-polynomial|primitive polynomials]] is primitive.
 
+## Remarks
+
 This lemma is the technical engine behind Gauss-type transfer results between \(R[x]\) and \(\mathrm{Frac}(R)[x]\).

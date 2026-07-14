@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/prop-fluctuation-response-equivalence.md"
 +++
 
-## Statement
 Let $\langle \cdot \rangle$ denote [[stat-mech/ensemble-average|ensemble averages]] in the [[stat-mech/canonical-ensemble|canonical ensemble]] at inverse temperature $\beta$. Suppose the Hamiltonian is perturbed by a coupling $h$ to an observable $A$:
 $$
 H_h = H_0 - h\,A.

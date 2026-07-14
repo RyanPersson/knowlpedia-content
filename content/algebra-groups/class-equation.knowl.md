@@ -23,4 +23,6 @@ $$
 |G| = |Z(G)| + \sum_{i=1}^r [G:C_G(g_i)].
 $$
 
+## Remarks
+
 The class equation is the orbit decomposition of the [[algebra-groups/conjugation-action|conjugation action]] of $G$ on itself, combined with the [[algebra-groups/orbit-stabilizer-theorem|orbit–stabilizer theorem]]. It is a standard tool for proving existence of normal subgroups, for example [[algebra-groups/p-group-nontrivial-center|a finite p-group has nontrivial center]].

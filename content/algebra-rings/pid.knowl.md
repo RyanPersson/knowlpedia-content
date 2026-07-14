@@ -12,7 +12,8 @@ A **principal ideal domain (PID)** is an [[algebra-rings/integral-domain|integra
 
 PIDs provide strong control of divisibility and modules, and they sit between Euclidean domains and unique factorization: every [[algebra-rings/euclidean-domain|Euclidean domain]] is a PID, and every PID is a [[algebra-rings/ufd|UFD]] (see [[algebra-rings/pid-implies-ufd|PID implies UFD]]).
 
-**Examples:**
+## Examples
+
 - $\mathbb{Z}$ is a PID.
 - If $k$ is a field, then $k[x]$ is a PID (indeed Euclidean).
 - $k[x,y]$ is not a PID since $(x,y)$ is not principal.

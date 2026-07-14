@@ -15,8 +15,12 @@ legacy_source_path = "lie-groups/classification-simple-lie-algebras.md"
 - Type $D_n$ ($n\ge 4$): $\mathfrak{so}_{2n}(\mathbb{C})$,
 - Exceptional types: $E_6,E_7,E_8,F_4,G_2$.
 
+## Equivalent characterizations
+
 Equivalently, complex simple Lie algebras are classified by connected [[lie-groups/dynkin-diagram|Dynkin diagrams]], or by indecomposable [[lie-groups/cartan-matrix|Cartan matrices]] satisfying the Cartan axioms.
 
 **Semisimple corollary.** Every complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] is a [[lie-groups/semisimple-direct-sum-simple|direct sum of simple ideals]], so its isomorphism type is determined by a (finite) multiset of Dynkin diagram types.
+
+## Remarks
 
 **Context.** The classification proceeds by choosing a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] $\mathfrak{h}$, analyzing the associated [[lie-groups/root-system|root system]] in $\mathfrak{h}^*$, and encoding the relative geometry of [[lie-groups/simple-root|simple roots]] in the Dynkin diagram. The root-system combinatorics precisely controls the Lie bracket via the [[lie-groups/root-space-decomposition|root space decomposition]].

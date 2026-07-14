@@ -16,7 +16,8 @@ with coefficients $r_b\in R$, where all but finitely many $r_b$ are zero. Unique
 
 Bases generalize the concept of a basis in a [[linear-algebra/vector-space|vector space]], but over rings bases can fail to exist even for finitely generated modules.
 
-**Examples:**
+## Examples
+
 - The standard vectors $e_1,\dots,e_n$ form a basis of $R^n$.
 - $\{1\}$ is a basis of the free $R$-module $R$.
 - (Nonexample) The $\mathbb Z$-module $\mathbb Z/2\mathbb Z$ has no basis, so it is not free.

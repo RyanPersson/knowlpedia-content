@@ -22,5 +22,7 @@ Moreover, this action is:
 
 hence it is a [[algebra-groups/regular-action|regular action]], often called the **left regular action**.
 
+## Remarks
+
 **Context.**
 This action is the input for [[algebra-groups/cayleys-theorem|Cayley's theorem]]: it produces an injective homomorphism from $G$ into a symmetric group by viewing elements as permutations of $G$.

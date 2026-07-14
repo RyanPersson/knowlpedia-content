@@ -24,4 +24,6 @@ $$
 H/(H \cap K) \cong HK/K.
 $$
 
+## Remarks
+
 This theorem compares a subgroup with its image in a quotient and is frequently used to compute or identify quotients inside a larger group. It is most efficiently proved by applying [[algebra-groups/first-isomorphism-theorem-groups|the first isomorphism theorem]] to the restriction of the quotient map $HK \to HK/K$.

@@ -15,11 +15,16 @@ $$
 \operatorname{int}(E):=\bigcup\{\,G\subset E \mid G \text{ is open}\,\}.
 $$
 
+## Equivalent characterizations
+
 Equivalently, $\operatorname{int}(E)$ is the **largest** [[convex-analysis/open-subset|open set]] contained in $E$.
+
+## Remarks
 
 A pointwise characterization is given by [[convex-analysis/interior-characterized-by-existence-of-a-ball|balls inside the set]].
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$, $\operatorname{int}([0,1])=(0,1)$.
 - If $E$ is open, then $\operatorname{int}(E)=E$.
 - If $E$ has empty interior (e.g., the rationals in $\mathbb{R}$), then $\operatorname{int}(E)=\emptyset$.

@@ -30,4 +30,6 @@ $
 V\subseteq Y \text{ open} \implies f^{-1}(V)\subseteq X \text{ open}.
 $
 
+## Remarks
+
 These equivalences let you choose the most convenient continuity definition for a given proof.

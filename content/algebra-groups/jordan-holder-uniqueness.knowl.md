@@ -20,6 +20,7 @@ are composition series (so each successive [[algebra-groups/quotient-group|quoti
 
 This is precisely the "uniqueness" conclusion extracted from the [[algebra-groups/jordan-holder-theorem-groups|Jordan-Hölder theorem]]; a standard proof proceeds via [[algebra-groups/schreier-refinement-theorem|Schreier refinement]], showing that any two subnormal series have equivalent refinements.
 
-**Examples:**
+## Examples
+
 - In $S_3$, the chain $(1)\triangleleft A_3 \triangleleft S_3$ is a composition series; the factors are $A_3/(1)\cong C_3$ and $S_3/A_3\cong C_2$. Any other composition series of $S_3$ yields the same multiset $\{C_2,C_3\}$.
 - In the cyclic group $C_{12}$, one composition series is $(1)\triangleleft C_2 \triangleleft C_4 \triangleleft C_{12}$ with factors $C_2, C_2, C_3$. Another is $(1)\triangleleft C_3 \triangleleft C_6 \triangleleft C_{12}$ with factors $C_3, C_2, C_2$. The factors match up to reordering, as the theorem predicts.

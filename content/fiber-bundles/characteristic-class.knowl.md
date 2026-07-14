@@ -15,7 +15,11 @@ Choose any principal connection on \(P\), form its Chern–Weil form \(\mathrm{C
 c_P(P) \;\coloneqq\; [\,\mathrm{CW}_P(\omega)\,]\in H^{2k}_{\mathrm{dR}}(M).
 \]
 
-This cohomology class is called the **characteristic class** associated to the invariant polynomial \(P\) (and the bundle \(P\)). It is well-defined because:
+This cohomology class is called the **characteristic class** associated to the invariant polynomial \(P\) (and the bundle \(P\)).
+
+## Remarks
+
+It is well-defined because:
 - \(\mathrm{CW}_P(\omega)\) is closed, and
 - the cohomology class \([\,\mathrm{CW}_P(\omega)\,]\) is independent of the choice of connection \(\omega\).
 

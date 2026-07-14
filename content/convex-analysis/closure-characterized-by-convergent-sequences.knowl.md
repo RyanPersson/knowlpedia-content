@@ -14,6 +14,8 @@ $$
 a\in \overline{A}\quad\Longleftrightarrow\quad \exists\ (a_n)\subset A \text{ with } a_n\to a.
 $$
 
+## Remarks
+
 **Context.** This is a specifically metric phenomenon (first-countability): the topological notion of [[convex-analysis/closure-of-a-set|closure]] can be detected by sequences.
 
 **Proof sketch.**

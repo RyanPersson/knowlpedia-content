@@ -21,7 +21,7 @@ where $S$ is the [[thermodynamics/thermodynamic-entropy|thermodynamic entropy]] 
 
 A complementary formulation is the **unattainability principle**: no finite sequence of [[thermodynamics/thermodynamic-process|thermodynamic processes]] can reach $T=0$.
 
-## Physical interpretation
+## Interpretation
 
 At very low temperatures, accessible microscopic configurations collapse toward the ground-state set, so there is (typically) no extensive configurational disorder left to contribute to entropy. When the ground state has a degeneracy $g$, the third-law limit allows a “residual entropy”
 $$
@@ -29,7 +29,7 @@ S_0 = k_B \ln g,
 $$
 linking macroscopic entropy to microscopic state counting via the [[thermodynamics/boltzmann-constant|Boltzmann constant]].
 
-## Key relations
+## Remarks
 
 - **Computing absolute entropies from heat capacities.** If the third law fixes $S_0$, then along a path at fixed volume,
   $$

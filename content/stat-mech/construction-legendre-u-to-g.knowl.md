@@ -10,7 +10,7 @@ legacy_source_path = "stat-mech/construction-legendre-u-to-g.md"
 
 Let the internal energy be written in the energy representation $U=U(S,V,N)$ (see [[thermodynamics/internal-energy-thermo|internal energy]]). The conjugate variables are temperature $T=(\partial U/\partial S)_{V,N}$ and pressure $p=-(\partial U/\partial V)_{S,N}$.
 
-**Definition (Gibbs free energy as a double Legendre transform).**  
+**Definition (Gibbs free energy as a double Legendre transform).**
 The Gibbs free energy $G(T,p,N)$ is obtained by trading $(S,V)$ for $(T,p)$ via a two-variable [[convex-analysis/legendre-transform|Legendre transform]]:
 $$
 G(T,p,N)=\min_{S,V}\Bigl\{\,U(S,V,N)-T\,S+p\,V\Bigr\}.
@@ -23,9 +23,13 @@ T=\left(\frac{\partial U}{\partial S}\right)_{V,N}\Bigg|_{(S^\star,V^\star)},
 p=-\left(\frac{\partial U}{\partial V}\right)_{S,N}\Bigg|_{(S^\star,V^\star)}.
 $$
 
+## Equivalent characterizations
+
 Equivalently, one can perform the transform sequentially: first form [[stat-mech/construction-legendre-u-to-h|the enthalpy]] $H(S,p,N)$ by transforming in $V$, then transform in $S$ to get $G=H-T S$; or start from [[stat-mech/construction-legendre-s-to-f|the Helmholtz free energy]] and transform in $V$ to get $G=F+pV$ at the volume where $p=-(\partial F/\partial V)_{T,N}$.
 
-**Differential and physical meaning.**  
+## Remarks
+
+**Differential and physical meaning.**
 The Gibbs free energy obeys
 $$
 dG=-S\,dT+V\,dp+\mu\,dN,
@@ -33,7 +37,7 @@ $$
 
 so at fixed $(T,p,N)$ the equilibrium macrostate minimizes $G$. This is why $G$ (the [[thermodynamics/gibbs-free-energy|Gibbs free energy]]) governs phase coexistence and chemical equilibrium under laboratory conditions where $T$ and $p$ are controlled.
 
-**Statistical-mechanical representation.**  
+**Statistical-mechanical representation.**
 In the [[stat-mech/isothermal-isobaric-ensemble|isothermal–isobaric ensemble]], $G$ is obtained from the [[stat-mech/isothermal-isobaric-partition-function|NpT partition function]] $\Delta(T,p,N)$ by the same rule as other equilibrium potentials:
 $$
 G(T,p,N)=-k_B T\log \Delta(T,p,N).

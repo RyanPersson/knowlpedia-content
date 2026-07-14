@@ -13,4 +13,6 @@ legacy_source_path = "real-analysis/comparison-test.md"
 - If $0 \le a_n \le b_n$ for all sufficiently large $n$ and $\sum b_n$ is a [[real-analysis/convergent-series|convergent series]], then $\sum a_n$ is convergent.
 - If $0 \le a_n \le b_n$ for all sufficiently large $n$ and $\sum a_n$ is a [[real-analysis/divergent-series|divergent series]], then $\sum b_n$ diverges.
 
+## Remarks
+
 This test reduces many convergence questions to comparisons with standard benchmark series, and it is complemented by the [[real-analysis/limit-comparison-test|limit comparison test]] when direct inequalities are hard to establish.

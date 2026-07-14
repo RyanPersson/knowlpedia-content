@@ -12,7 +12,8 @@ A **measurable set** in a measurable space $(X,\Sigma)$ is a subset $A\subseteq 
 
 Measurable sets are precisely the subsets to which a [[measure-theory/measure|measure]] assigns a value, and they determine [[measure-theory/measurable-function|measurable functions]] via preimages. The [[measure-theory/indicator-function|indicator function]] of a measurable set is a basic example of a measurable function.
 
-**Examples:**
+## Examples
+
 - In $(\mathbb R,\mathcal B(\mathbb R))$ with the [[measure-theory/borel-sigma-algebra|Borel sigma-algebra]], every open [[real-analysis/interval|interval]] such as $(a,b)$ is measurable.
 - If $A$ is measurable in $(X,\Sigma)$, then its [[shared-foundations/complement|complement]] $X\setminus A$ is also measurable.
 - If $(A_n)_{n\ge 1}$ are measurable, then the countable [[shared-foundations/union|union]] $\bigcup_{n=1}^\infty A_n$ is measurable.

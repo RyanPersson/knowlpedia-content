@@ -20,15 +20,17 @@ Under these conditions, the extension degree equals the order of the [[algebra-f
 \]
 (cf. [[algebra-fields-galois/galois-degree-equals-group-order|degree equals group order]]).
 
+## Remarks
+
 Over a [[algebra-fields-galois/perfect-field|perfect field]], separability is automatic for finite extensions (see [[algebra-fields-galois/finite-extension-perfect-separable|perfect implies separable]]), so “finite Galois” is equivalent to “finite normal.”
 
 ### Examples
 
-1. **Quadratic extensions over \(\mathbb{Q}\).**  
+1. **Quadratic extensions over \(\mathbb{Q}\).**
    \(L=\mathbb{Q}(\sqrt2)\) is the splitting field of \(x^2-2\), hence normal (see [[algebra-fields-galois/normality-splitting-field|normality via splitting fields]]); characteristic \(0\) gives separability. Thus \(L/\mathbb{Q}\) is Galois with \(|\mathrm{Gal}(L/\mathbb{Q})|=2\).
 
-2. **A separable but non-normal extension.**  
+2. **A separable but non-normal extension.**
    \(L=\mathbb{Q}(\sqrt[3]{2})\) is separable (char \(0\)) but not normal, so it is not Galois. Its normal closure is the splitting field \(\mathbb{Q}(\sqrt[3]{2},\zeta_3)\).
 
-3. **A normal but inseparable extension (characteristic \(p\)).**  
+3. **A normal but inseparable extension (characteristic \(p\)).**
    Let \(K=\mathbb{F}_p(t)\) and \(L=K(t^{1/p})\). Then \(L/K\) is inseparable (its defining polynomial has zero derivative), hence not Galois even though purely inseparable extensions satisfy a strong form of “no new embeddings.” This illustrates why the separability hypothesis is essential.

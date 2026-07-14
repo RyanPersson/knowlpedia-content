@@ -27,7 +27,7 @@ $$
 
 where $S$ is the [[thermodynamics/thermodynamic-entropy|thermodynamic entropy]].
 
-## Physical interpretation
+## Interpretation
 Along a [[thermodynamics/quasistatic-process|quasistatic]], [[thermodynamics/reversible-process|reversible]] process in which $V$ and $N$ are held fixed, the heat increment satisfies
 $$
 \delta Q_{\rm rev} = C_V\,dT.

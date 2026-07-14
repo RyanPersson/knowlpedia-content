@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/canonical-energy-fluctuation-identity.md"
 +++
 
-## Statement
 In the [[stat-mech/canonical-ensemble|canonical ensemble]] with partition function [[stat-mech/partition-function-canonical|Z(β)]], the variance of the energy satisfies
 $$
 \operatorname{Var}_\beta(H)
@@ -37,7 +36,7 @@ $$
 - Energy fluctuations are controlled by curvature of $\log Z(\beta)$ in $\beta$.
 - Positivity $\operatorname{Var}_\beta(H)\ge 0$ implies $C_V\ge 0$ under the usual identification (compare [[thermodynamics/thermodynamic-stability|stability]]).
 
-## Cross-links to definitions
+## Remarks
 - [[stat-mech/variance-observable-ensemble|Variance in an ensemble]]
 - [[stat-mech/partition-function-canonical|Canonical partition function]]
 - [[stat-mech/canonical-energy-identity|Canonical energy identity]]

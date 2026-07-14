@@ -30,7 +30,7 @@ C_P
 $$
 in terms of the [[thermodynamics/thermodynamic-entropy|entropy]].
 
-## Physical interpretation
+## Interpretation
 Along a [[thermodynamics/quasistatic-process|quasistatic]], [[thermodynamics/reversible-process|reversible]] process at fixed pressure,
 $$
 \delta Q_{\rm rev} = C_P\,dT.

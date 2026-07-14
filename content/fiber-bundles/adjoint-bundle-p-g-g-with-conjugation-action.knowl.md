@@ -20,6 +20,8 @@ g\cdot h := g h g^{-1}.
 \]
 Each fiber $\mathrm{Ad}(P)_x$ is (noncanonically) isomorphic to $G$, and the group multiplication on $G$ descends to give $\mathrm{Ad}(P)$ the structure of a smooth bundle of groups over $M$.
 
+## Remarks
+
 The group of smooth sections $\Gamma(\mathrm{Ad}(P))$ is naturally identified with the [[fiber-bundles/gauge-group|gauge group]] of $P$, and a section can be interpreted as a “gauge function” acting fiberwise (equivalently, as data defining a [[fiber-bundles/gauge-transformation|gauge transformation]]).
 
 ## Examples

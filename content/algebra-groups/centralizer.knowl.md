@@ -14,9 +14,12 @@ C_G(S) \;=\; \{\,g\in G : gs=sg \text{ for all } s\in S\,\}.
 $
 This is a [[algebra-groups/subgroup|subgroup]] of $G$. For a single element $x\in G$, one writes $C_G(x)$ for $C_G(\{x\})$.
 
+## Remarks
+
 Centralizers organize commutation in a group and control [[algebra-groups/conjugacy-class|conjugacy classes]] (e.g. via orbit–stabilizer for the conjugation action). The center satisfies $Z(G)=C_G(G)$.
 
-**Examples:**
+## Examples
+
 - If $G$ is abelian, then $C_G(S)=G$ for every subset $S$.
 - In $S_3$, $C_{S_3}((12))=\{e,(12)\}$.
 - In $S_3$, $C_{S_3}((123))=\{e,(123),(132)\}$.

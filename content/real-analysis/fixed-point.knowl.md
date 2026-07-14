@@ -17,7 +17,8 @@ $
 
 Fixed points are solutions of the equation $T(x)=x$. Many existence and uniqueness problems can be reformulated as fixed point problems.
 
-**Examples:**
+## Examples
+
 - On $\mathbb{R}$, the map $T(x)=\cos x$ has a fixed point (indeed exactly one).
 - On $\mathbb{R}$, $T(x)=x+1$ has no fixed point.
 - On any set $X$, the identity map $T(x)=x$ has every point as a fixed point.

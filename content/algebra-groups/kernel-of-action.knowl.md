@@ -15,7 +15,8 @@ $$
 
 This is a [[algebra-groups/normal-subgroup|normal subgroup]] of $G$; it is the [[algebra-groups/kernel-group|kernel]] of the associated permutation homomorphism $G\to \mathrm{Sym}(X)$. The action is [[algebra-groups/faithful-action|faithful]] precisely when this kernel is trivial.
 
-**Examples:**
+## Examples
+
 - For the trivial action, the kernel is all of $G$.
 - For the left translation action of $G$ on itself, the kernel is the identity element alone.
 - For conjugation of $G$ on itself, the kernel is the center $Z(G)$ (elements that commute with everything).

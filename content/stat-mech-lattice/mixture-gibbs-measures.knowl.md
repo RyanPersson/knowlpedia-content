@@ -24,7 +24,7 @@ where $\rho$ is a [[probability/probability-measure|probability measure]] on the
 
 Because the [[stat-mech-lattice/dlr-equation|DLR consistency]] is linear in $\mu$, any such mixture is again a Gibbs measure in $\mathcal{G}(\gamma)$.
 
-## Key properties
+## Properties
 
 - **Convexity of the Gibbs set:** The set $\mathcal{G}(\gamma)$ is convex, so mixing preserves the Gibbs property.
 
@@ -34,6 +34,6 @@ Because the [[stat-mech-lattice/dlr-equation|DLR consistency]] is linear in $\mu
 
 - **Symmetry-invariant but non-extremal states:** In symmetric models, there are translation-invariant Gibbs measures that are mixtures of symmetry-broken pure states (see [[stat-mech-lattice/pure-phase|pure phase]]). These measures can be invariant under a symmetry even when no extremal Gibbs measure has that symmetry.
 
-## Physical interpretation
+## Interpretation
 
 A mixture Gibbs measure describes an ensemble that *randomly selects* among competing equilibrium phases. For example, in a low-temperature ferromagnet, a symmetry-preserving infinite-volume state can arise as a 50–50 mixture of the two magnetized phases. Such a mixture is a valid equilibrium state mathematically, but it represents phase coexistence (or uncertainty about which pure phase is realized) rather than a single homogeneous macroscopic phase in a typical large sample.

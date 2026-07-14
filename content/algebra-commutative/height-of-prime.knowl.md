@@ -16,6 +16,8 @@ The **height** of $\mathfrak p$, denoted $\operatorname{ht}(\mathfrak p)$, is th
 \]
 in $R$.
 
+## Equivalent characterizations
+
 Equivalently,
 \[
 \operatorname{ht}(\mathfrak p)=\dim(R_{\mathfrak p}),
@@ -24,19 +26,19 @@ where $R_{\mathfrak p}$ is the [[algebra-commutative/localization-at-prime|local
 
 ### Examples
 
-1. **The ring of integers.**  
+1. **The ring of integers.**
    In $R=\mathbb{Z}$, one has $\operatorname{ht}((0))=0$, and for any prime number $p$,
    \[
    (0)\subsetneq (p)
    \]
    is a maximal chain, so $\operatorname{ht}((p))=1$.
 
-2. **A polynomial ring in two variables.**  
+2. **A polynomial ring in two variables.**
    In $k[x,y]$ (for a field $k$), the prime ideals satisfy
    \[
    (0)\subsetneq (x)\subsetneq (x,y),
    \]
    so $\operatorname{ht}((0))=0$, $\operatorname{ht}((x))=1$, and $\operatorname{ht}((x,y))=2$.
 
-3. **Dedekind domains.**  
+3. **Dedekind domains.**
    If $R$ is a [[algebra-commutative/dedekind-domain|Dedekind domain]] (for instance, the ring of integers in a number field), then every nonzero prime ideal has height $1$. In a [[algebra-commutative/dvr|DVR]], the unique nonzero prime ideal also has height $1$, reflecting that these rings are “one-dimensional.”

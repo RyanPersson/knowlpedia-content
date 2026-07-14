@@ -12,6 +12,7 @@ A **sequentially compact set** is a subset $K\subseteq X$ of a [[topology/topolo
 
 Sequential compactness is phrased purely in terms of sequences, and in many important settings (notably [[topology/metric-space|metric spaces]]) it closely tracks [[topology/compact-set|compactness]].
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$ with the usual topology, $[0,1]$ is sequentially compact.
 - An infinite set with the discrete topology is not sequentially compact (a sequence of distinct points has no convergent subsequence).

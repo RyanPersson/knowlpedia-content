@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/gks-inequalities.md"
 +++
 
-## Statement
-
 Consider the finite-volume [[stat-mech-lattice/ising-model|Ising model]] on a finite $\Lambda$ with spins $\sigma_i\in\{-1,+1\}$ and Hamiltonian
 $$
 H_\Lambda(\sigma)

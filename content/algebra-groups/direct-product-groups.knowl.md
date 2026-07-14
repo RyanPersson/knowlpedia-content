@@ -15,9 +15,12 @@ $$
 
 With this operation, $G\times H$ is a group, with identity $(e_G,e_H)$ and inverse $(g,h)^{-1}=(g^{-1},h^{-1})$.
 
+## Remarks
+
 The maps $\pi_G:G\times H\to G$ and $\pi_H:G\times H\to H$ given by projection onto components are [[algebra-groups/group-homomorphism|group homomorphisms]]. Conversely, to give a homomorphism $K\to G\times H$ is equivalent to giving a pair of homomorphisms $K\to G$ and $K\to H$.
 
-**Examples:**
+## Examples
+
 - $\mathbb{Z}\times\mathbb{Z}$ is the free abelian group of rank $2$ under addition.
 - $C_2\times C_2$ is the Klein four-group (an abelian group of order $4$).
 - If $G$ and $H$ are finite, then $|G\times H| = |G|\cdot |H|$.

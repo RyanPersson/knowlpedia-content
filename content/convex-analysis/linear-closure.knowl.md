@@ -20,7 +20,11 @@ $$
 [w,x):=\{\lambda w+(1-\lambda)x\mid \lambda\in(0,1]\}.
 $$
 
+## Equivalent characterizations
+
 Equivalently, $x\in\operatorname{lin}(\Omega)$ iff there exists a point $w\in\Omega$ such that the entire segment from $w$ to $x$ (excluding $x$) lies in $\Omega$.
+
+## Remarks
 
 When $X$ is a [[convex-analysis/norm-normed-vector-space|normed vector space]] and $\Omega$ is [[convex-analysis/convex-set|convex]], we have
 $$
@@ -29,5 +33,6 @@ $$
 
 where $\overline{\Omega}$ is the usual [[convex-analysis/closure-of-a-set|closure]]. See also [[convex-analysis/algebraic-interior-core|algebraic interior (core)]] for the dual notion.
 
-**Examples:**
+## Examples
+
 - If $\Omega$ is a linear subspace $L$, then $\operatorname{lin}(L)=L$.

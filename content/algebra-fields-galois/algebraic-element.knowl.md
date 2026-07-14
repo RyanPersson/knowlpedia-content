@@ -14,6 +14,8 @@ f(\alpha)=0 \quad \text{in } E.
 \]
 If no such nonzero polynomial exists, then \(\alpha\) is [[algebra-fields-galois/transcendental-element|transcendental over F]].
 
+## Equivalent characterizations
+
 Equivalently, \(\alpha\) is algebraic over \(F\) iff the evaluation homomorphism
 \[
 \operatorname{ev}_\alpha: F[x]\to E,\quad f\mapsto f(\alpha),

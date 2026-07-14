@@ -15,7 +15,8 @@ A **topology** on a [[shared-foundations/set|set]] $X$ is a collection $\mathcal
 
 The elements of $\mathcal{T}$ are the [[topology/open-set|open sets]], and they determine notions such as [[topology/closed-set|closed sets]], [[topology/neighborhood|neighborhoods]], [[topology/interior|interior]], [[topology/closure|closure]], and [[topology/continuous-map|continuity]]. A [[topology/topological-space|topological space]] is a set together with a chosen topology.
 
-**Examples:**
+## Examples
+
 - The discrete topology on $X$, given by $\mathcal{T}=\mathcal{P}(X)$.
 - The indiscrete topology on $X$, given by $\mathcal{T}=\{\varnothing,X\}$.
 - The [[topology/metric-induced-topology|topology induced by a metric]] on a [[topology/metric-space|metric space]].

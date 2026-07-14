@@ -12,6 +12,7 @@ A **meager set** in a [[topology/topological-space|topological space]] $X$ is a 
 
 Meager sets are also called “sets of first category.” Their [[shared-foundations/complement|complements]] are the [[topology/residual-set|residual sets]]; in a [[topology/baire-space|Baire space]], meager sets are topologically “small.”
 
-**Examples:**
+## Examples
+
 - Any countable subset of $\mathbb{R}$ (with the usual topology), such as the rationals $\mathbb{Q}$, is meager (a countable union of singleton sets, each nowhere dense).
 - Any [[topology/nowhere-dense-set|nowhere dense set]] is meager (as a countable union of itself).

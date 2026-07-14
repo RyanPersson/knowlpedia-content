@@ -14,6 +14,8 @@ Fix an integer \(n\ge 1\). In an [[algebra-fields-galois/algebraic-closure|algeb
 \]
 where \(\zeta_n\) is any fixed primitive \(n\)-th root of unity. This definition is independent of the choice of \(\zeta_n\), and \(\Phi_n(x)\in\mathbb{Z}[x]\) is monic.
 
+## Remarks
+
 A key structural identity is the factorization
 \[
 x^n-1 \;=\; \prod_{d\mid n}\Phi_d(x),

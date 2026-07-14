@@ -12,7 +12,7 @@ A **thermodynamic system** is the portion of the physical world selected for stu
 
 The “system” may be a material body (e.g., a gas in a cylinder), a region of space (e.g., a control volume in fluid flow), or a composite object (e.g., two phases plus an interface), provided the boundary and allowed exchanges are specified.
 
-## Physical interpretation
+## Interpretation
 Choosing the system is a modeling step: it decides what you call “inside” and “outside,” and therefore what counts as energy transfer *into* the system as [[thermodynamics/heat-inexact-differential|heat]] or [[thermodynamics/work-inexact-differential|work]]. Once the system is fixed, its macroscopic condition at equilibrium is summarized by a [[thermodynamics/thermodynamic-state|thermodynamic state]] described by [[thermodynamics/state-variable|state variables]] (e.g., $T$, $p$, $V$, $N$), and its changes are described as a [[thermodynamics/thermodynamic-process|thermodynamic process]].
 
 ## Key classifications (set by exchanges across the boundary)

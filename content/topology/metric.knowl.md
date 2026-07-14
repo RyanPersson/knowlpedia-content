@@ -16,6 +16,7 @@ A **metric** on a [[shared-foundations/set|set]] $X$ is a [[shared-foundations/f
 
 A metric is the basic structure underlying a [[topology/metric-space|metric space]]; it determines [[topology/open-ball|open balls]] and hence the [[topology/metric-induced-topology|metric-induced topology]].
 
-**Examples:**
+## Examples
+
 - On $\mathbb{R}^n$, the Euclidean metric $d(x,y)=\|x-y\|_2$.
 - On any set $X$, the discrete metric $d(x,y)=0$ if $x=y$ and $d(x,y)=1$ otherwise.

@@ -19,7 +19,8 @@ where $B(a;\delta)$ is the open ball in $X$.
 
 Open sets are stable under arbitrary unions and finite intersections (see [[convex-analysis/basic-properties-of-open-sets|basic properties of open sets]]). Complements of open sets are [[convex-analysis/closed-subset|closed]].
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$, every open interval $(a,b)$ is open.
 - In any metric space, $\emptyset$ and $X$ are open.
 - In a discrete metric space, every subset of $X$ is open.

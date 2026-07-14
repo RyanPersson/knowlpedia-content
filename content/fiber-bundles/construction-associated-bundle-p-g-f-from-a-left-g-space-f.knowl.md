@@ -24,6 +24,8 @@ and write $[p,f]$ for the equivalence class of $(p,f)$. The projection
 \]
 is well-defined and makes $P\times_G F$ into a smooth fiber bundle with typical fiber $F$.
 
+## Remarks
+
 If $s:U\to P$ is a local section, then
 \[
 \Phi_s:U\times F\to \pi_F^{-1}(U),\qquad (x,f)\mapsto [s(x),f],

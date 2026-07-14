@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/carnot-theorem.md"
 +++
 
-## Statement
-
 Consider a cyclic heat engine that exchanges heat only with two thermal reservoirs, a hot reservoir and a cold reservoir, at fixed temperatures $T_H>T_C$. Let $Q_H>0$ be the heat absorbed from the hot reservoir per cycle, $Q_C>0$ the heat rejected to the cold reservoir per cycle, and $W=Q_H-Q_C$ the work output per cycle. The efficiency is
 $$
 \eta := \frac{W}{Q_H} = 1-\frac{Q_C}{Q_H}.
@@ -37,7 +35,7 @@ $$
 - No engine between $(T_H,T_C)$ can exceed the efficiency of a reversible one.
 - Reversible efficiency is a function only of $(T_H,T_C)$; this underlies the absolute temperature scale and leads to the explicit [[stat-mech/carnot-efficiency-formula|Carnot efficiency formula]].
 
-## Cross-links to definitions
+## Remarks
 
 - Reservoir temperatures use the thermodynamic notion of [[thermodynamics/temperature-thermo|temperature]].
 - The directionality constraint is encoded by the [[thermodynamics/second-law-thermodynamics|second law]], and the equivalence of standard formulations is summarized in [[thermodynamics/kelvin-planck-clausius-equivalence|Kelvin–Planck–Clausius equivalence]].

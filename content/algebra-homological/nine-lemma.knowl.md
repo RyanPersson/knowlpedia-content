@@ -26,6 +26,8 @@ whose columns and first two rows are [[algebra-category-theory/exact-sequence-ca
 \]
 is exact as well. Dually, if the three rows and the first two columns are exact, then the third column is exact.
 
+## Remarks
+
 This lemma is often proved by diagram chase using the [[algebra-homological/snake-lemma|snake lemma]] (or via a systematic kernel/cokernel argument in an abelian category). It is a basic tool for proving exactness statements about constructions built from short exact sequences.
 
 ## Examples

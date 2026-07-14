@@ -15,7 +15,8 @@ A **loop** is a [[algebra-groups/quasigroup|quasigroup]] with an identity elemen
 
 A loop that is also associative is a [[algebra-groups/group|group]]. The smallest non-associative loop has 5 elements.
 
-**Examples:**
+## Examples
+
 - Unit octonions under multiplication (non-associative!)
 - Moufang loops
 - All groups are loops

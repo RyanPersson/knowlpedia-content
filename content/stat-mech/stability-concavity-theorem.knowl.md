@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/stability-concavity-theorem.md"
 +++
 
-## Statement
 Consider an equilibrium [[thermodynamics/thermodynamic-system|thermodynamic system]] with a differentiable entropy representation
 $S=S(U,V,N)$ for the [[thermodynamics/thermodynamic-entropy|entropy]].
 Assume standard **thermodynamic stability** in the entropy-maximum sense: for fixed additive constraints, the equilibrium state maximizes total entropy under allowed exchanges (see [[thermodynamics/thermodynamic-stability|thermodynamic stability]]).

@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/third-law-unattainability.md"
 +++
 
-## Statement
 (**Unattainability principle.**) For a [[thermodynamics/thermodynamic-system|thermodynamic system]] governed by the [[thermodynamics/second-law-thermodynamics|second law of thermodynamics]], it is impossible to reach the state $T=0$ (absolute zero [[thermodynamics/temperature-thermo|temperature]]) from any initial state with $T>0$ by a **finite** sequence of thermodynamic operations.
 
 Common equivalent operational readings include:

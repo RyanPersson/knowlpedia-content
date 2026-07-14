@@ -14,6 +14,9 @@ An **automorphism** of \(A\) is an [[algebra-category-theory/isomorphism-categor
 \[
 f:A\longrightarrow A.
 \]
+
+## Equivalent characterizations
+
 Equivalently, it is an [[algebra-category-theory/endomorphism-category|endomorphism]] \(f:A\to A\) for which there exists \(g:A\to A\) such that
 \[
 g\circ f = \mathrm{id}_A,\qquad f\circ g = \mathrm{id}_A,
@@ -28,11 +31,11 @@ With [[algebra-category-theory/composition-category|composition]] as the operati
 - inverse: \(f^{-1}\) (the inverse isomorphism).
 
 ## Examples
-1. **\(\mathbf{Set}\):** Automorphisms of a set \(X\) are exactly the [[shared-foundations/bijective-function|bijections]] \(X\to X\).  
+1. **\(\mathbf{Set}\):** Automorphisms of a set \(X\) are exactly the [[shared-foundations/bijective-function|bijections]] \(X\to X\).
    Thus \(\mathrm{Aut}_{\mathbf{Set}}(X)\) is the permutation group of \(X\).
 
-2. **\(\mathbf{Grp}\):** Automorphisms of a group \(G\) are group isomorphisms \(G\to G\).  
+2. **\(\mathbf{Grp}\):** Automorphisms of a group \(G\) are group isomorphisms \(G\to G\).
    Example: \(\mathrm{Aut}_{\mathbf{Grp}}(\mathbb Z)\cong\{\pm 1\}\), since any automorphism is determined by where it sends \(1\).
 
-3. **\(R\mathbf{-Mod}\):** Automorphisms of an \(R\)-module \(M\) are the invertible \(R\)-linear maps \(M\to M\).  
+3. **\(R\mathbf{-Mod}\):** Automorphisms of an \(R\)-module \(M\) are the invertible \(R\)-linear maps \(M\to M\).
    For \(M=R^n\), \(\mathrm{Aut}_R(R^n)\) identifies with the group \(\mathrm{GL}_n(R)\) of invertible \(n\times n\) matrices over \(R\).

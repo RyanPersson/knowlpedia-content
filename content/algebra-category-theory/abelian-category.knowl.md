@@ -17,6 +17,8 @@ A category \(\mathcal A\) is **abelian** if:
 2. every morphism has a [[algebra-category-theory/kernel-categorical|kernel]] and a [[algebra-category-theory/cokernel-categorical|cokernel]];
 3. every [[algebra-category-theory/monomorphism-category|monomorphism]] is a kernel of its cokernel, and every [[algebra-category-theory/epimorphism-category|epimorphism]] is a cokernel of its kernel.
 
+## Equivalent characterizations
+
 Equivalently, \(\mathcal A\) satisfies the standard **[[algebra-category-theory/abelian-category-axioms|abelian category axioms]]**.
 
 ## Consequences (often used as “working facts”)

@@ -13,8 +13,11 @@ $$
 \mathcal{P}(A)=\{B : B\subseteq A\}.
 $$
 
+## Remarks
+
 Thus $\mathcal{P}(A)$ collects all [[shared-foundations/subset|subsets]] of $A$ into a single [[shared-foundations/set|set]]. Power sets are central when forming collections of sets, such as families indexed by an index set.
 
-**Examples:**
+## Examples
+
 - If $A=\varnothing$, then $\mathcal{P}(A)=\{\varnothing\}$.
 - If $A=\{1,2\}$, then $\mathcal{P}(A)=\{\varnothing,\{1\},\{2\},\{1,2\}\}$.

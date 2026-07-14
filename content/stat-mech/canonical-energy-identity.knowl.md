@@ -8,12 +8,13 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/canonical-energy-identity.md"
 +++
 
-## Statement
 Let a classical system be distributed according to the [[stat-mech/canonical-ensemble|canonical ensemble]] with inverse temperature $\beta$ and [[stat-mech/partition-function-canonical|partition function]] $Z(\beta)$.
 Then the canonical mean energy (internal energy) satisfies
 $$
 \langle H\rangle_\beta \;=\; -\frac{\partial}{\partial \beta}\log Z(\beta).
 $$
+
+## Equivalent characterizations
 
 Equivalently, for the canonical free energy [[stat-mech/free-energy-statistical|free energy]] $F(\beta)=-(1/\beta)\log Z(\beta)$,
 $$
@@ -28,7 +29,7 @@ $$
 - The mean energy is obtained by differentiating $\log Z(\beta)$ with respect to $\beta$.
 - This provides an efficient route from [[stat-mech/partition-function-canonical|partition function]] to thermodynamic energy.
 
-## Cross-links to definitions
+## Remarks
 - [[stat-mech/canonical-ensemble|Canonical ensemble]]
 - [[stat-mech/partition-function-canonical|Canonical partition function]]
 - [[stat-mech/ensemble-average|Ensemble average]]

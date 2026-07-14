@@ -10,7 +10,6 @@ legacy_source_path = "algebra-homological/projective-resolutions-exist.md"
 
 Let \(R\) be a ring and \(M\) a left \(R\)-[[algebra-modules/module|module]].
 
-## Statement
 A **[[algebra-homological/projective-resolution|projective resolution]]** of \(M\) is an exact augmented [[algebra-homological/chain-complex|chain complex]]
 \[
 \cdots \xrightarrow{d_2} P_1 \xrightarrow{d_1} P_0 \xrightarrow{\varepsilon} M \to 0
@@ -22,6 +21,8 @@ such that each \(P_i\) is a [[algebra-modules/projective-module|projective modul
 is [[algebra-homological/exact-complex|exact]] in all positive degrees and has \(H_0 \cong M\) via the augmentation.
 
 **Theorem (existence).** Every \(R\)-module \(M\) admits a projective resolution. In fact, one can choose each \(P_i\) to be a [[algebra-modules/free-module|free module]] (a *free resolution*).
+
+## Equivalent characterizations
 
 Equivalently, the category of \(R\)-modules has **enough projectives**: every module is a quotient of a projective module.
 
@@ -35,6 +36,8 @@ Then choose a surjection \(F_1 \twoheadrightarrow K_1\) with \(F_1\) free, set \
 \cdots \to F_2 \to F_1 \to F_0 \to M \to 0
 \]
 with all \(F_i\) free, hence projective.
+
+## Remarks
 
 Cross-links: [[algebra-modules/exact-sequence-modules|exact sequences]], [[algebra-homological/chain-complex|chain complexes]], [[algebra-homological/projective-resolution|projective resolutions]].
 

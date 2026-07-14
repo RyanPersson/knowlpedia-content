@@ -24,4 +24,6 @@ $
 $
 In particular, if $\|B-A\|\le \frac{1}{2\|A^{-1}\|}$ then $B$ is invertible and $\|B^{-1}\|\le 2\|A^{-1}\|$.
 
+## Remarks
+
 This lemma is a key linear-algebraic ingredient in the [[real-analysis/inverse-function-theorem-rk|inverse function theorem]]: once $Df(a)$ is invertible, $Df(x)$ remains invertible for all $x$ sufficiently close to $a$ (because $Df$ is [[real-analysis/continuity-on-a-set|continuous]]).

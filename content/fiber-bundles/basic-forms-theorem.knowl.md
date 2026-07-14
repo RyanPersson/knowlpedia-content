@@ -26,9 +26,13 @@ $$
 $$
 In other words, basic forms are exactly those that "descend" from \(P\) to the base \(M\).
 
+## Remarks
+
 ### Why the conditions are exactly right (proof idea)
 - If \(\alpha=\pi^*\beta\), then \(\alpha\) is automatically \(G\)-invariant because \(\pi\circ R_g=\pi\), and \(\alpha\) is horizontal because \(\pi_*(X^\#)=0\) for vertical vectors.
 - Conversely, if \(\alpha\) is horizontal and invariant, choose a local section \(s:U\to P\) and define \(\beta_U := s^*\alpha\). On overlaps \(U\cap V\), two sections differ by a gauge transformation \(s_V = s_U \cdot g\) for a map \(g:U\cap V\to G\). Invariance and horizontality imply \(s_U^*\alpha = s_V^*\alpha\), so the \(\beta_U\) glue to a global \(\beta\) with \(\pi^*\beta=\alpha\).
+
+## Examples
 
 ### Example: characteristic forms
 If \(\omega\) is a connection on \(P\) with curvature \(\Omega\), then applying an \(\mathrm{Ad}\)-invariant polynomial \(P\) on \(\mathfrak{g}\) produces a real-valued form \(P(\Omega)\) that is horizontal and \(G\)-invariant, hence basic, so it descends to \(M\). Its closedness is proved using the [[fiber-bundles/bianchi-identity|Bianchi identity]].

@@ -25,6 +25,8 @@ $$
 D_\omega \Omega = 0.
 $$
 
+## Remarks
+
 ### Interpretation and consequences
 - \(D_\omega \Omega=0\) is the bundle/form version of the "second Bianchi identity." In tensor notation for a covariant derivative \(\nabla\) on the base, it corresponds to the cyclic identity
   $$

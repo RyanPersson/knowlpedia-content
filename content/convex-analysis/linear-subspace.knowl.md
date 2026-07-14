@@ -18,7 +18,8 @@ The set $Y$ is a **linear subspace** of $X$ if:
 
 With the inherited operations, $Y$ is itself a [[linear-algebra/vector-space|vector space]], and many constructions in analysis arise as subspaces (kernels, images, function spaces, etc.). Subspaces are also the building blocks for [[convex-analysis/quotient-vector-space-codimension|quotient spaces]] and [[convex-analysis/direct-sum-of-subspaces|direct sums]].
 
-**Examples:**
+## Examples
+
 - $\{0\}$ and $X$ are subspaces of $X$.
 - In the space of all sequences $s$, the set $\ell^1=\{x=(x_n):\sum_{n=1}^\infty |x_n|<\infty\}$ is a subspace.
 - In $F([a,b])$, the set $C[a,b]$ of continuous functions is a subspace.

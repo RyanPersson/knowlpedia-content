@@ -18,9 +18,12 @@ $$G \cong C_{n_1}\times C_{n_2}\times \cdots \times C_{n_r}.$$
 
 In either form, the invariants (prime powers in the first form, or the chain $n_1\mid\cdots\mid n_r$ in the second form) are uniquely determined by $G$ up to reordering of isomorphic factors.
 
+## Remarks
+
 This is the finite-group specialization of the [[algebra-groups/fundamental-theorem-fg-abelian-groups|fundamental theorem of finitely generated abelian groups]] (since every finite group is finitely generated).
 
-**Examples:**
+## Examples
+
 - Order $8=2^3$: the abelian groups of order $8$ are, up to isomorphism,
   - $C_8$,
   - $C_4\times C_2$,

@@ -13,8 +13,11 @@ $$
 A\subseteq B \;\;:\!\iff\;\; \forall x\,(x\in A \Rightarrow x\in B).
 $$
 
+## Remarks
+
 The subset relation is a basic way to compare [[shared-foundations/set|sets]] and is used to define operations like [[shared-foundations/power-set|power set]] and [[shared-foundations/set-difference|set difference]]. Note that $A=B$ holds exactly when both $A\subseteq B$ and $B\subseteq A$.
 
-**Examples:**
+## Examples
+
 - $\{1,2\}\subseteq \{1,2,3\}$.
 - For any set $A$, $\varnothing\subseteq A$ (see [[shared-foundations/empty-set|empty set]]).

@@ -31,6 +31,8 @@ A preadditive category \(\mathcal A\) is **additive** if, in addition:
    i_A p_A + i_B p_B = \mathrm{id}_{A\oplus B}.
    \]
 
+## Equivalent characterizations
+
 Equivalently: an additive category is a preadditive category with all finite biproducts (including the empty biproduct, i.e. a zero object). In an additive category, finite products and coproducts agree (up to canonical isomorphism).
 
 ## Examples

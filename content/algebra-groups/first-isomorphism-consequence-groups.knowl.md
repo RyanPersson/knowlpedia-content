@@ -21,5 +21,7 @@ $$
 
 as groups, where $G/\ker(f)$ is the [[algebra-groups/quotient-group|quotient group]] and $\mathrm{im}(f)$ is a subgroup of $H$.
 
+## Remarks
+
 **Context.**
 This is the standard "hands-on" form of the [[algebra-groups/first-isomorphism-theorem-groups|first isomorphism theorem]]. It identifies precisely what information about $G$ is "lost" under $f$: exactly the [[algebra-groups/kernel-group|kernel]].

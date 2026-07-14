@@ -14,4 +14,6 @@ In a connected complex reductive group, every semisimple element is conjugate in
 
 In the letter one works in a (typically disconnected) group like $\Gamma\ltimes \widehat G$; a Borel–Mostow result is invoked to ensure a semisimple conjugacy class with a fixed $\Gamma$-component has a representative in the **normalizer** $N_{\Gamma\ltimes \widehat G}(\widehat T)$, and can be chosen to preserve a chosen set of positive roots (a "dominant" representative).
 
+## Remarks
+
 **Use:** this supports the bijection "Hecke eigencharacters $\leftrightarrow$ semisimple conjugacy classes with Frobenius projection."

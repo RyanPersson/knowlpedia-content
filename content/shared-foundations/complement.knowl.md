@@ -13,8 +13,11 @@ $$
 A^{c}=\{x\in U : x\notin A\}.
 $$
 
+## Equivalent characterizations
+
 Equivalently, $A^{c}$ is the [[shared-foundations/set-difference|set difference]] $U\setminus A$. Complements interact with [[shared-foundations/union|union]] and [[shared-foundations/intersection|intersection]] through De Morgan’s laws.
 
-**Examples:**
+## Examples
+
 - If $U=\{1,2,3,4\}$ and $A=\{1,4\}$, then $A^{c}=\{2,3\}$.
 - If $U=\mathbb{R}$ and $A=\{x\in\mathbb{R}: x\ge 0\}$, then $A^{c}=\{x\in\mathbb{R}: x<0\}$.

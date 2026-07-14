@@ -18,6 +18,7 @@ Strict convexity ensures that for each $p\in\nabla f(U)$ there is a unique $x\in
 
 The Legendre transform is the “attained” version of the [[convex-analysis/convex-conjugate-fenchel|Fenchel conjugate]] when $f$ is smooth enough that the supremum defining $f^*$ is achieved at the unique point with $p=\nabla f(x)$. It connects convex analysis with the [[real-analysis/derivative|derivative]] and [[real-analysis/differentiable-map|differentiable map]] through the gradient map $x\mapsto\nabla f(x)$.
 
-**Examples:**
+## Examples
+
 - If $f(x)=\tfrac12\|x\|_2^2$ on $\mathbb{R}^n$, then $\nabla f(x)=x$ and $f^{\mathcal L}(p)=\tfrac12\|p\|_2^2$.
 - If $f(x)=e^x$ on $\mathbb{R}$, then $\nabla f(x)=e^x$ so $p>0$ and $f^{\mathcal L}(p)=p\log p - p$ on $(0,\infty)$.

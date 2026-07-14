@@ -21,6 +21,8 @@ A **symplectic manifold** is a pair \((M,\omega)\) where \(M\) is a smooth manif
    d\omega = 0.
    $$
 
+## Remarks
+
 These conditions force \(\dim M\) to be even, say \(\dim M = 2n\), and \(\omega^n\) is nowhere vanishing. In particular, \(\omega^n/n!\) is a canonical volume form and orients \(M\):
 $$
 \frac{1}{n!}\,\omega^{\wedge n} \neq 0 \quad \text{everywhere on } M.

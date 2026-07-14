@@ -14,7 +14,7 @@ The boundary specification determines which exchanges are allowed:
 - **Energy exchange** as [[thermodynamics/heat-inexact-differential|heat]] and/or [[thermodynamics/work-inexact-differential|work]].
 - **Matter exchange** (permeable vs impermeable).
 
-## Physical interpretation
+## Interpretation
 The boundary is where “interaction with the outside world” happens. In thermodynamic bookkeeping, changes of [[thermodynamics/internal-energy-thermo|internal energy]] are attributed either to transfers across this boundary or to changes within the system’s state.
 
 Two especially important boundary idealizations are:

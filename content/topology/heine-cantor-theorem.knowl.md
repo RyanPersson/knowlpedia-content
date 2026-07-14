@@ -10,7 +10,6 @@ legacy_source_path = "topology/heine-cantor-theorem.md"
 
 The **Heine-Cantor theorem** states: if \(f: K \to Y\) is a [[topology/continuous-map|continuous function]] from a [[topology/compact-set|compact]] [[topology/metric-space|metric space]] \(K\) to a metric space \(Y\), then \(f\) is [[real-analysis/uniform-continuity|uniformly continuous]].
 
-## Statement
 For every \(\varepsilon > 0\), there exists \(\delta > 0\) such that for all \(x, y \in K\):
 $$
 d_K(x, y) < \delta \implies d_Y(f(x), f(y)) < \varepsilon.

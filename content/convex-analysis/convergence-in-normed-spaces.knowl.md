@@ -19,7 +19,8 @@ Equivalently: for every $\varepsilon>0$ there exists $N$ such that $\|x_n-x\|<\v
 
 **Context.** By [[convex-analysis/norm-induces-a-metric-and-conversely|the metric induced by a norm]], this is exactly [[convex-analysis/convergence-of-a-sequence|convergence in the associated metric space]].
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}^2$ with $\|\cdot\|_2$, the sequence $x_n=(1/n,0)$ converges to $(0,0)$.
 - In $C([0,1])$ with $\|\cdot\|_\infty$, the functions $f_n(t)=t/n$ satisfy $\|f_n-0\|_\infty=1/n\to 0$, so $f_n\to 0$.
 - A sequence may converge under one norm and not under another in infinite-dimensional spaces (choice of norm matters).

@@ -13,8 +13,11 @@ $$
 (g\circ f)(a)=g(f(a))\quad\text{for all }a\in A.
 $$
 
+## Remarks
+
 Composition is associative when defined, and [[shared-foundations/identity-function|identity functions]] act as identities for composition. If $f$ is [[shared-foundations/bijective-function|bijective]], then composing with its [[shared-foundations/inverse-function|inverse function]] recovers the appropriate identity functions.
 
-**Examples:**
+## Examples
+
 - Let $f:\mathbb{Z}\to\mathbb{Z}$ be $f(n)=n+1$ and let $g:\mathbb{Z}\to\mathbb{Z}$ be $g(n)=2n$; then $(g\circ f)(n)=2(n+1)=2n+2$.
 - If $i:S\to A$ is the inclusion of a [[shared-foundations/subset|subset]] and $f:A\to B$ is any function, then $f\circ i:S\to B$ is the restriction of $f$ to $S$.

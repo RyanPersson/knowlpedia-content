@@ -10,7 +10,6 @@ legacy_source_path = "lie-groups/one-parameter-subgroups-integral-curves.md"
 
 Let $G$ be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra $\mathfrak g$.
 
-## Statement
 Fix $X\in\mathfrak g$, and let $X^L$ be the corresponding [[lie-groups/left-invariant-vector-field|left-invariant vector field]] on $G$ (obtained by translating $X\in T_eG$ via [[lie-groups/left-translation|left translations]]).
 
 1. The integral curve of $X^L$ starting at the identity is the one-parameter subgroup
@@ -27,5 +26,5 @@ Fix $X\in\mathfrak g$, and let $X^L$ be the corresponding [[lie-groups/left-inva
 
 There is an analogous statement for the [[lie-groups/right-invariant-vector-field|right-invariant vector field]] $X^R$, whose integral curves are $t\mapsto \exp(tX)\,g_0$.
 
-## Context
+## Remarks
 This viewpoint explains why the bracket on $\mathfrak g$ can be recovered from commutators of flows: the Lie bracket is the infinitesimal failure of invariant flows to commute (compare [[lie-groups/left-invariant-fields-lie-algebra-lemma|the bracket lemma for left-invariant fields]] and the structure encoded by the [[lie-groups/maurer-cartan-equation|Maurer–Cartan equation]]).

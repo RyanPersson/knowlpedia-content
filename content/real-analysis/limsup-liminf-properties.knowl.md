@@ -16,4 +16,6 @@ legacy_source_path = "real-analysis/limsup-liminf-properties.md"
 4. If $(a_n)$ converges to $L$ (as a [[topology/convergent-sequence|convergent sequence]]), then $\limsup a_n=\liminf a_n=L$.
 5. If $\limsup a_n < \alpha$, then there exists $N$ such that $a_n < \alpha$ for all $n\ge N$; if $\liminf a_n > \beta$, then there exists $N$ such that $a_n > \beta$ for all $n\ge N$.
 
+## Remarks
+
 These properties allow one to convert eventual bounds into statements about $\limsup$ and $\liminf$, and conversely, which is useful in comparison and convergence arguments.

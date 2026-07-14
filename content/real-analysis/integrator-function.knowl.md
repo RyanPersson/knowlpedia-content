@@ -12,6 +12,7 @@ An **integrator function** on $[a,b]$ is a function $\alpha:[a,b]\to\mathbb R$ u
 
 In most standard existence theorems, $\alpha$ is assumed to be [[real-analysis/monotone-function|monotone]] or, more generally, a [[real-analysis/bounded-variation-function|function of bounded variation]], which guarantees good control of these increments.
 
-**Examples:**
+## Examples
+
 - $\alpha(x)=x$ recovers the usual [[real-analysis/riemann-integral|Riemann integral]] from the Riemann–Stieltjes integral.
 - Any [[real-analysis/step-function|step function]] $\alpha$ on $[a,b]$ (for instance, one with a single jump) is an integrator function commonly used to model point-mass contributions.

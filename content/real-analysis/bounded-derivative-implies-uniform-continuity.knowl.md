@@ -15,4 +15,6 @@ $$
 
 Consequently, $f$ is Lipschitz and in particular uniformly continuous on $I$.
 
+## Remarks
+
 This estimate is a direct application of the [[real-analysis/mean-value-theorem|mean value theorem]]. It is the one-dimensional special case of the [[real-analysis/mean-value-inequality|mean value inequality]] for differentiable maps.

@@ -20,4 +20,6 @@ where the omitted terms are (universal) Lie polynomials in iterated [[fiber-bund
 
 Moreover, if $\mathfrak{g}$ is [[lie-groups/nilpotent-lie-algebra|nilpotent]], then all sufficiently deep iterated brackets vanish and the BCH series truncates to a finite sum.
 
+## Remarks
+
 **Context.** BCH is the mechanism by which $\mathfrak{g}$ determines the local group law: via the [[lie-groups/logarithm-map|logarithm map]] (local inverse to $\exp$), it turns multiplication in $G$ into an explicit Lie series on $\mathfrak{g}$. This is central to the [[lie-groups/lie-correspondence|Lie correspondence]] and to computations in exponential coordinates, especially for nilpotent and solvable groups.

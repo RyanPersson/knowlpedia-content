@@ -14,4 +14,6 @@ legacy_source_path = "probability/central-limit-theorem.md"
 \]
 where $\Rightarrow$ denotes convergence in distribution.
 
+## Remarks
+
 The theorem connects [[probability/expectation|expectation]] and [[probability/variance|variance]] to the asymptotic [[probability/distribution-law|distribution (law)]] of sums, and it underlies normal approximations used throughout probability and statistics.

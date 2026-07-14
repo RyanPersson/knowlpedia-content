@@ -16,11 +16,13 @@ Let $G$ be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra [[lie-groups
 \]
 where $L_{g^{-1}}$ is [[lie-groups/left-translation|left translation]] by $g^{-1}$.
 
+Thus $\theta^L$ provides a canonical “left trivialization” of the tangent bundle $TG\cong G\times\mathfrak{g}$.
+
+## Equivalent characterizations
+
 Equivalently, $\theta^L$ is the unique $\mathfrak{g}$-valued 1-form such that:
 - for every $g\in G$, $\theta^L_g$ is the inverse of $(\mathrm{d}L_g)_e:\mathfrak{g}\to T_gG$;
 - $\theta^L$ is left-invariant: $(L_g)^*\theta^L=\theta^L$ for all $g\in G$.
-
-Thus $\theta^L$ provides a canonical “left trivialization” of the tangent bundle $TG\cong G\times\mathfrak{g}$.
 
 ## Examples
 1. **Matrix Lie groups.** For $G\subset \mathrm{GL}(n,\mathbb{R})$, the left Maurer–Cartan form is $\theta^L=g^{-1}\mathrm{d}g$ (interpreted as a matrix of 1-forms with values in $\mathfrak{g}$).

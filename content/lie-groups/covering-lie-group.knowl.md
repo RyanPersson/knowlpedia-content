@@ -14,7 +14,7 @@ p:\widetilde G \longrightarrow G
 \]
 such that, as a map of topological spaces, $p$ is a covering map.
 
-## Basic properties
+## Properties
 Assume $\widetilde G$ is connected.
 
 1. The differential at the identity,

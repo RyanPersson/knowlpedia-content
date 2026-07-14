@@ -24,7 +24,11 @@ is the unique morphism corresponding to the identity \(\mathrm{id}_{F c}\in\oper
 \operatorname{Hom}_{\mathcal D}(F c,\, d)\cong \operatorname{Hom}_{\mathcal C}(c,\, G d)
 \quad\text{(natural in \(c,d\)).}
 \]
+## Equivalent characterizations
+
 Equivalently, \(\eta\) is the transpose of \(\mathrm{id}_F\) under the natural isomorphism of hom-bifunctors.
+
+## Remarks
 
 The unit \(\eta\) and the [[algebra-category-theory/counit-adjunction|counit]] \(\varepsilon\) satisfy the triangle identities (see [[algebra-category-theory/adjoint-functors|adjoint functors]]):
 \[

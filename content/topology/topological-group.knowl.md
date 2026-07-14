@@ -13,6 +13,8 @@ A **topological group** is a [[algebra-groups/group|group]] \(G\) equipped with 
 1. The multiplication map \(\mu: G \times G \to G\), \((g, h) \mapsto gh\), is [[topology/continuous-map|continuous]].
 2. The inversion map \(\iota: G \to G\), \(g \mapsto g^{-1}\), is continuous.
 
+## Equivalent characterizations
+
 Equivalently, the single map \((g, h) \mapsto gh^{-1}\) is continuous.
 
 ## Properties

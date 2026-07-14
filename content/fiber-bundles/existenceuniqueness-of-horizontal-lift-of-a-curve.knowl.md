@@ -12,7 +12,6 @@ Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] wi
 
 Let $\gamma:[a,b]\to M$ be a smooth curve, and choose a point $p_0\in P$ with $\pi(p_0)=\gamma(a)$.
 
-## Theorem
 
 There exists a unique smooth curve $\widetilde\gamma:[a,b]\to P$ such that:
 

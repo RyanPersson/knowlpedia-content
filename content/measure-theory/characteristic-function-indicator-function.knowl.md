@@ -19,7 +19,8 @@ $$
 
 Indicator functions convert set membership questions into algebraic statements and are a standard device in integration and measure theory (e.g., simple functions are finite linear combinations of indicators).
 
-**Examples:**
+## Examples
+
 - If $X=\mathbb{R}$ and $A=[0,1]$, then $\mathbf{1}_A(x)=1$ for $x\in[0,1]$ and $0$ otherwise.
 - If $A=\varnothing$, then $\mathbf{1}_A$ is the constant-$0$ function on $X$.
 - If $A=\mathbb{Q}\subseteq\mathbb{R}$, then $\mathbf{1}_{\mathbb{Q}}$ is $1$ on rationals and $0$ on irrationals (a classical highly discontinuous function).

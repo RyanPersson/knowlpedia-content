@@ -20,6 +20,8 @@ formed using the conjugation action. Each fiber $\mathrm{Ad}(P)_x$ is canonicall
 \]
 which is well-defined because conjugation is by group automorphisms.
 
+## Remarks
+
 A choice of local section $s:U\to P$ identifies $\mathrm{Ad}(P)|_U$ with $U\times G$, and changes of section act by conjugation.
 
 ## Examples

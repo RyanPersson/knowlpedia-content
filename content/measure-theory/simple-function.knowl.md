@@ -12,6 +12,7 @@ A **simple function** on a measurable space $(X,\Sigma)$ is a [[measure-theory/m
 
 Simple functions are the standard starting point for defining integration (they are finite linear combinations of [[measure-theory/indicator-function|indicator functions]]). More complicated measurable functions are often approximated by increasing sequences of simple functions.
 
-**Examples:**
+## Examples
+
 - A step function on $\mathbb R$ that is constant on finitely many [[real-analysis/interval|intervals]] and zero elsewhere is a simple function (with respect to the Borel sigma-algebra).
 - If $A,B$ are measurable sets in $(X,\Sigma)$, then $2\,\mathbf 1_A - 3\,\mathbf 1_B$ is a simple function.

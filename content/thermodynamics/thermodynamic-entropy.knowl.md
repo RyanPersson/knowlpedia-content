@@ -22,7 +22,7 @@ $$
 
 so the integral between two equilibrium states is path-independent when taken over reversible paths. This path-independence is what makes $S$ a state function even though $\delta Q$ itself is an inexact differential.
 
-## Physical interpretation
+## Interpretation
 Entropy measures the *directionality* of macroscopic change: it increases when constraints are relaxed and when processes are irreversible. In many contexts, it is useful to think of entropy as quantifying “energy dispersal” among microscopic degrees of freedom, and of *entropy production* as a measure of irreversibility.
 
 ## Key properties and relations

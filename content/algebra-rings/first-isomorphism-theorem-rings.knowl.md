@@ -14,4 +14,6 @@ legacy_source_path = "algebra-rings/first-isomorphism-theorem-rings.md"
 \]
 is a [[algebra-rings/ring-isomorphism|ring isomorphism]], where \(\ker(\varphi)\) is the [[algebra-rings/kernel-ring|kernel]] and \(\operatorname{im}(\varphi)\) is the [[algebra-rings/image-ring|image]].
 
+## Remarks
+
 This identifies the universal quotient [[algebra-rings/quotient-ring|quotient ring]] determined by \(\varphi\) with the concrete subring realized as its image, and is the basic tool behind “modding out by relations” in ring constructions.

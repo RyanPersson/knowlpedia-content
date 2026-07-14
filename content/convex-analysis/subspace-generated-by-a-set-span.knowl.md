@@ -17,9 +17,12 @@ $$
 
 Equivalently, it is the intersection of all [[convex-analysis/linear-subspace|subspaces]] containing $A$, hence the **smallest** subspace that contains $A$.
 
-A central theorem (see [[convex-analysis/span-equals-the-set-of-all-finite-linear-combinations|span as linear combinations]]) identifies $\operatorname{span}(A)$ with all finite [[convex-analysis/linear-combination|linear combinations]] of elements of $A$.
+## Examples
 
-**Examples:**
 - In $\mathbb{R}^2$, $\operatorname{span}\{(1,0)\}$ is the $x$-axis.
 - In $\mathbb{R}^3$, $\operatorname{span}\{(1,0,0),(0,1,0)\}$ is the $xy$-plane.
 - If $A=\emptyset$, then $\operatorname{span}(A)=\{0\}$ (intersection of all subspaces).
+
+## Remarks
+
+A central theorem (see [[convex-analysis/span-equals-the-set-of-all-finite-linear-combinations|span as linear combinations]]) identifies $\operatorname{span}(A)$ with all finite [[convex-analysis/linear-combination|linear combinations]] of elements of $A$.

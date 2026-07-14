@@ -20,4 +20,6 @@ and these operations make \(\mathrm{Frac}(R)\) a [[algebra-rings/field|field]]. 
 
 **Universal property.** If \(K\) is a field and \(\iota:R\to K\) is a [[algebra-rings/ring-monomorphism|ring monomorphism]], then there exists a unique field homomorphism \(\tilde\iota:\mathrm{Frac}(R)\to K\) with \(\tilde\iota(a/1)=\iota(a)\) for all \(a\in R\).
 
+## Remarks
+
 For domains, \(\mathrm{Frac}(R)\) agrees with the [[algebra-rings/total-ring-of-fractions|total ring of fractions]] (since every nonzero element is a non-zero-divisor).

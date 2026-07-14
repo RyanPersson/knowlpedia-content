@@ -14,18 +14,21 @@ A **$\mathfrak{g}$-valued differential k-form** on $M$ is a smooth section of th
 \[
 \Lambda^k T^*M \otimes \mathfrak{g} \;\longrightarrow\; M.
 \]
-Equivalently, it is a smoothly varying alternating multilinear map
-\[
-\alpha_x : (T_xM)^k \to \mathfrak{g}
-\quad\text{for each }x\in M.
-\]
-The space of such forms is commonly denoted $\Omega^k(M;\mathfrak{g})$.
 
 Concretely, choosing a basis $\{e_a\}$ of $\mathfrak{g}$, any $\alpha\in\Omega^k(M;\mathfrak{g})$ can be written uniquely as
 \[
 \alpha = \sum_a \alpha^a \, e_a,
 \]
 with ordinary $k$-forms $\alpha^a\in\Omega^k(M)$.
+
+## Equivalent characterizations
+
+Equivalently, it is a smoothly varying alternating multilinear map
+\[
+\alpha_x : (T_xM)^k \to \mathfrak{g}
+\quad\text{for each }x\in M.
+\]
+The space of such forms is commonly denoted $\Omega^k(M;\mathfrak{g})$.
 
 ## Examples
 1. **Maurer–Cartan form.** On a Lie group $G$, the left Maurer–Cartan form is a $\mathfrak{g}$-valued 1-form on $G$.

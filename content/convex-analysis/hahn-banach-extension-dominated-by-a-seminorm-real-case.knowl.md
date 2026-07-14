@@ -19,5 +19,7 @@ then there exists a linear functional $F:X\to\mathbb{R}$ such that
 - $F|_Y=f$, and
 - $|F(x)|\le p(x)$ for all $x\in X$.
 
+## Remarks
+
 **Context:**
 This is obtained from [[convex-analysis/hahn-banach-theorem-in-real-vector-spaces|the sublinear Hahn–Banach theorem]] by applying it to both $f$ and $-f$ (or, equivalently, to the sublinear function $x\mapsto p(x)$ with symmetric domination).

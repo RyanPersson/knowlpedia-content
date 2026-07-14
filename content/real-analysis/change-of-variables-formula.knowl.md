@@ -15,4 +15,6 @@ $$
 
 where $\det D\Phi(u)$ is the [[real-analysis/jacobian-determinant|Jacobian determinant]] of $\Phi$ at $u$.
 
+## Remarks
+
 This is the multivariable generalization of the one-dimensional [[real-analysis/substitution-rule|substitution rule]], and it is fundamental for computing [[real-analysis/multiple-riemann-integral|multiple Riemann integrals]] under smooth coordinate changes.

@@ -14,4 +14,6 @@ R \ \cong\ \prod_{i=1}^t M_{n_i}(D_i),
 \]
 where \(M_{n_i}(D_i)\) is the [[algebra-rings/matrix-ring|matrix ring]] of size \(n_i\) over \(D_i\). In particular, \(R\) is [[algebra-rings/simple-ring|simple]] Artinian if and only if \(R\cong M_n(D)\) for some division ring \(D\).
 
+## Remarks
+
 This is the structural classification underpinning [[algebra-rings/semisimple-ring|semisimple rings]] and explains why representation-theoretic decompositions are controlled by matrix blocks.

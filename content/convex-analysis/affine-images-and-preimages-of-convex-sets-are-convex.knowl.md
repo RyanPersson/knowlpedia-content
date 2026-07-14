@@ -14,6 +14,8 @@ Let $B:X\to Y$ be an [[convex-analysis/affine-mapping|affine mapping]].
 1. If $\Omega\subset X$ is [[convex-analysis/convex-set|convex]], then $B(\Omega)\subset Y$ is convex.
 2. If $\Theta\subset Y$ is convex, then the preimage $B^{-1}(\Theta)=\{x\in X:B(x)\in\Theta\}$ is convex in $X$.
 
+## Remarks
+
 **Context.** This is the main mechanism for generating new convex sets from old ones: apply an affine change of coordinates, or pull back convex constraints.
 
 **Proof sketch.** For (1), take $u=B(x)$ and $v=B(y)$ with $x,y\in\Omega$ and use the defining identity for affine maps:

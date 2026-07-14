@@ -22,8 +22,11 @@ where $B(x,\varepsilon)$ denotes the [[topology/open-ball|open ball]] of radius 
 
 (These are the same statement in slightly different language; "$\varepsilon$-net" is the packaging.)
 
+## Remarks
+
 Total boundedness is stronger than [[topology/bounded-set|boundedness]] and is one of the two metric ingredients (the other is [[topology/complete-metric-space|completeness]]) that together characterize [[topology/compact-set|compactness]] in metric spaces.
 
-**Examples:**
+## Examples
+
 - The interval $[0,1]\subset\mathbb{R}$ is totally bounded: cover it by finitely many intervals of length $\varepsilon$.
 - The set $\mathbb{Z}\subset\mathbb{R}$ is not totally bounded: for $\varepsilon<1/2$ the balls $B(n,\varepsilon)$ are disjoint, so no finite subcover exists.

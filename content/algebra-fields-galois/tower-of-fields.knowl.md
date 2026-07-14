@@ -14,6 +14,8 @@ F \subseteq K \subseteq E.
 \]
 Equivalently, it is a [[algebra-fields-galois/field-extension|field extension]] \(E/F\) together with an [[algebra-fields-galois/intermediate-field|intermediate field]] \(K\) between them. One often abbreviates this situation by writing \(E/K/F\).
 
+## Remarks
+
 If the degrees are finite, towers are governed by the [[algebra-fields-galois/tower-law|tower law]]:
 \[
 [E:F]=[E:K]\,[K:F].

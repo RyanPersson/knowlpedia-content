@@ -14,6 +14,8 @@ $$
 \frac{f(x)-f(a)}{x-a}\;\le\;\frac{f(b)-f(a)}{b-a}\;\le\;\frac{f(b)-f(x)}{b-x}.
 $$
 
+## Remarks
+
 **Context.** Convexity forces secant slopes to increase as you move to the right. This lemma is the key step in relating convexity to monotonicity of derivatives.
 
 **Proof sketch.** Write $x=tb+(1-t)a$ with $t=(x-a)/(b-a)\in(0,1)$ and apply Jensen's inequality to compare $f(x)$ with the linear interpolation between $f(a)$ and $f(b)$; rearranging yields the slope bounds.

@@ -18,4 +18,6 @@ $$
 \|f(y)-f(x)\|\le M\|y-x\|.
 $$
 
+## Remarks
+
 For $k=m=1$ this recovers the familiar estimate $|f(y)-f(x)|\le \sup |f'|\cdot |y-x|$ derived from the [[real-analysis/mean-value-theorem|mean value theorem]].

@@ -15,4 +15,6 @@ $$
 
 If $f$ is convex, equality holds if and only if $y\in\partial f(x)$ (equivalently, $x\in\partial f^*(y)$), where $\partial f$ denotes the [[convex-analysis/subdifferential|subdifferential]].
 
+## Remarks
+
 This inequality is the basic mechanism behind weak duality in [[convex-analysis/convex-duality-primal-dual|convex primal-dual pairs]]: conjugate-based dual objectives arise by repeatedly applying Fenchel-Young.

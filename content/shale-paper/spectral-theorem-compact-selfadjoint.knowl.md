@@ -11,9 +11,13 @@ legacy_source_path = "shale-paper/spectral-theorem-compact-selfadjoint.md"
 If \(A\) is compact and selfadjoint on a Hilbert space, there is an orthonormal basis of eigenvectors
 \(\{e_k\}\) with \(Ae_k=\lambda_k e_k\), \(\lambda_k\in\mathbb R\), and \(\lambda_k\to0\).
 
+## Remarks
+
 **Key properties (paper use):**
 - Applied to positive [[shale-paper/hilbert-schmidt-operator|Hilbert–Schmidt]] operators to compute products like
 \(\prod_k (2\lambda_k/(\lambda_k^2+1))^{1/2}\) (Lemma 3.2).
 - Ensures existence of "eigensystems" used in continuity arguments (Lemma 2.4).
 
-**Example:** A diagonal operator on \(\ell^2\) with diagonal entries \(\lambda_k\to0\).
+## Examples
+
+- A diagonal operator on \(\ell^2\) with diagonal entries \(\lambda_k\to0\).

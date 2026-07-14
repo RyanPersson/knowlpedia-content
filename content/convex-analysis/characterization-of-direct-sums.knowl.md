@@ -19,6 +19,8 @@ $$
 y=a+b \quad\text{with } a\in M,\ b\in N.
 $$
 
+## Remarks
+
 **Context.** This result explains why [[convex-analysis/direct-sum-of-subspaces|direct sums]] behave like "coordinate decompositions" with respect to the two subspaces.
 
 **Proof sketch.**

@@ -19,4 +19,6 @@ legacy_source_path = "shared-foundations/zfc-axioms.md"
 - **Replacement schema:** images of sets under definable functions are sets.
 - **Foundation (regularity):** every nonempty set has an $\in$-minimal element.
 
+## Remarks
+
 Within ZFC one can develop most standard mathematics, and ZFC proves statements equivalent in strength to choice such as [[shared-foundations/zorns-lemma|Zorn's lemma]] and the [[shared-foundations/well-ordering-theorem|well-ordering theorem]].

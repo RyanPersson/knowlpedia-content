@@ -14,6 +14,8 @@ S(\rho) := -\operatorname{Tr}(\rho \log \rho).
 \]
 Here \(\log \rho\) is defined by functional calculus via the spectral decomposition of \(\rho\) (see [[quantum-foundations/spectrum-self-adjoint-finite|spectrum-self-adjoint-finite]]). By convention, eigenvalues equal to \(0\) contribute \(0\log 0 := 0\).
 
+## Equivalent characterizations
+
 ### Eigenvalue formula
 If \(\rho\) has eigenvalues \(p_1,\dots,p_d\) (with \(p_i\ge 0\) and \(\sum_i p_i=1\)), then
 \[

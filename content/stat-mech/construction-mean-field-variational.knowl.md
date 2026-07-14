@@ -70,5 +70,5 @@ $$
 m=\tanh\!\big(\beta(Jm+h)\big).
 $$
 
-## Physical interpretation
+## Interpretation
 Mean-field theory replaces the fluctuating influence of neighbors by an average “molecular field,” while still accounting for thermal disorder through the entropy term. Minimizers of the variational functional approximate equilibrium macrostates; differentiating the resulting approximate free energy yields approximate response functions such as the [[stat-mech/susceptibility-stat-mech|susceptibility]].

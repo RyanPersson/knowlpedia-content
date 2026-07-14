@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/prop-legendre-swaps-variables.md"
 +++
 
-## Statement
-
 Let $X(x,y)$ be a thermodynamic potential (a state function) with $x$ one of its natural variables and $y$ collecting the remaining variables. Assume $X$ is differentiable and define the conjugate variable
 $ p := \left(\frac{\partial X}{\partial x}\right)_y $
 and the (partial) Legendre transform in $x$ by
@@ -44,7 +42,7 @@ In thermodynamics, this “swap” is the mechanism behind passing from the [[th
   - $x = -(\partial Y/\partial p)_y$ in the transformed potential.
 - In thermodynamic examples, the transform replaces an extensive variable (e.g. $S$) by its conjugate intensive variable (e.g. [[thermodynamics/temperature-thermo|temperature]] $T$), or replaces $V$ by [[thermodynamics/pressure-thermo|pressure]] $P$, or $N$ by [[thermodynamics/chemical-potential-thermo|chemical potential]] $\mu$, with the corresponding sign conventions.
 
-## Cross-links to definitions
+## Remarks
 
 - [[convex-analysis/legendre-transform|Legendre transform]]
 - [[thermodynamics/internal-energy-thermo|internal energy]], [[thermodynamics/thermodynamic-entropy|thermodynamic entropy]]

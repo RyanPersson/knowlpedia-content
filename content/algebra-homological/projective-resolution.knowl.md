@@ -18,11 +18,15 @@ such that:
 1. Each \(P_i\) is a [[algebra-modules/projective-module|projective R-module]].
 2. The sequence is exact (equivalently, the augmented complex is an [[algebra-homological/exact-complex|exact complex]]).
 
+## Equivalent characterizations
+
 Equivalently, if \(P_\bullet\) denotes the chain complex \(\cdots\to P_1\to P_0\to 0\) (forgetting the augmentation), then
 \[
 H_0(P_\bullet)\cong M,\qquad H_i(P_\bullet)=0 \text{ for all } i>0,
 \]
 where \(H_i\) is the [[algebra-homological/homology-module|homology]] of the underlying chain complex.
+
+## Remarks
 
 A projective resolution is **free** if each \(P_i\) is [[algebra-modules/free-module|free]].
 

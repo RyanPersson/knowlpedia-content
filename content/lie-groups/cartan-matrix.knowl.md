@@ -22,4 +22,6 @@ $$
 - For $i\ne j$, one has $a_{ij}\in \mathbb{Z}_{\le 0}$, and $a_{ij}=0$ iff $\alpha_i$ is orthogonal to $\alpha_j$.
 - The matrix $A$ determines the [[lie-groups/dynkin-diagram|Dynkin diagram]] (and conversely): the off-diagonal entries record the angles and relative lengths between simple roots.
 
+## Remarks
+
 **Context.** The Cartan matrix is the combinatorial input for the [[lie-groups/classification-simple-lie-algebras|classification of complex simple Lie algebras]]: connected Dynkin diagrams (or indecomposable Cartan matrices) correspond to simple Lie algebras, while disjoint unions correspond to direct sums.

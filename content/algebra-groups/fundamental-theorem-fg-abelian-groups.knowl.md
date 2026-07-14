@@ -16,4 +16,10 @@ $$
 
 where $\oplus$ denotes the [[algebra-groups/direct-sum-groups|direct sum]] of groups. The integer $r$ (the free rank) and the invariant factors $n_1,\dots,n_k$ are uniquely determined by $G$.
 
-Equivalently, $G$ decomposes as a direct sum of [[algebra-groups/cyclic-subgroup|cyclic]] groups of prime-power order (the "elementary divisor" form). This theorem is the group-theoretic specialization of [[algebra-modules/structure-theorem-pid|the structure theorem for finitely generated modules over a PID]] with the PID $\mathbb{Z}$.
+## Equivalent characterizations
+
+Equivalently, $G$ decomposes as a direct sum of [[algebra-groups/cyclic-subgroup|cyclic]] groups of prime-power order (the "elementary divisor" form).
+
+## Remarks
+
+This theorem is the group-theoretic specialization of [[algebra-modules/structure-theorem-pid|the structure theorem for finitely generated modules over a PID]] with the PID $\mathbb{Z}$.

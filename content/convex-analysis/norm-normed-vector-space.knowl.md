@@ -16,9 +16,12 @@ Let $X$ be a [[linear-algebra/vector-space|vector space]] over $\mathbb{R}$ (or 
 
 A pair $(X,\|\cdot\|)$ is called a **normed vector space**.
 
-**Context.** Norms provide a quantitative notion of size. Via [[convex-analysis/norm-induces-a-metric-and-conversely|the induced metric]], normed spaces are a fundamental class of metric spaces used to define convergence, continuity, and completeness.
+## Examples
 
-**Examples:**
 - On $\mathbb{R}^n$, $\|x\|_2=\big(\sum_{i=1}^n x_i^2\big)^{1/2}$ is a norm (Euclidean norm).
 - On $\mathbb{R}^n$, $\|x\|_1=\sum_{i=1}^n |x_i|$ and $\|x\|_\infty=\max_i |x_i|$ are norms.
 - On the space $C([0,1])$ of continuous functions, $\|f\|_\infty=\max_{t\in[0,1]}|f(t)|$ defines a norm.
+
+## Remarks
+
+**Context.** Norms provide a quantitative notion of size. Via [[convex-analysis/norm-induces-a-metric-and-conversely|the induced metric]], normed spaces are a fundamental class of metric spaces used to define convergence, continuity, and completeness.

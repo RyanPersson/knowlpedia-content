@@ -20,6 +20,8 @@ This is a smooth vector bundle over $M$. Moreover, each fiber $\mathrm{ad}(P)_x$
 \]
 This is well-defined because $\mathrm{Ad}(g)$ is a Lie algebra automorphism.
 
+## Remarks
+
 Local sections $s:U\to P$ identify $\mathrm{ad}(P)|_U$ with $U\times \mathfrak g$; changes of section act by $\mathrm{Ad}$.
 
 ## Examples

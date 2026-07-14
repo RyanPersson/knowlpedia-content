@@ -15,8 +15,11 @@ A **partial order** on a [[shared-foundations/set|set]] $P$ is a [[shared-founda
 
 The pair $(P,\le)$ is called a partially ordered set (poset). Here $P\times P$ is the [[shared-foundations/cartesian-product|Cartesian product]] of $P$ with itself.
 
+## Remarks
+
 A partial order does not require that every pair of elements be comparable; when comparability holds for all pairs, one has a [[shared-foundations/total-order|total order]]. Many notions in order theory, such as [[shared-foundations/upper-bound|upper bounds]] and [[shared-foundations/lower-bound|lower bounds]], are defined relative to a partial order.
 
-**Examples:**
+## Examples
+
 - On the [[shared-foundations/power-set|power set]] $\mathcal P(X)$ of a set $X$, define $A\le B$ iff $A\subseteq B$ (the [[shared-foundations/subset|subset]] relation).
 - On $\mathbb{N}$ (the [[shared-foundations/natural-numbers|natural numbers]]), define $a\preceq b$ iff $a\mid b$ (divisibility). This is a partial order but not a total order.

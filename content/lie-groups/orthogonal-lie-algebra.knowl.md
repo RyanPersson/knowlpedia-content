@@ -30,5 +30,5 @@ $$
 
 This is the Lie algebra of $O(p,q)$. In particular, the Lie algebra of the [[lie-groups/lorentz-group|Lorentz group]] $O(1,n-1)$ is $\mathfrak{so}(1,n-1)$.
 
-## Context
+## Remarks
 Orthogonal Lie algebras are basic examples of classical semisimple Lie algebras and play a central role in the classification via [[lie-groups/dynkin-diagram|Dynkin diagrams]] and root data.

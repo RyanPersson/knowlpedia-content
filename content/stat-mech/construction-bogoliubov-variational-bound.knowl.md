@@ -8,9 +8,8 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/construction-bogoliubov-variational-bound.md"
 +++
 
-The **Bogoliubov variational bound** is a widely used inequality that turns free-energy estimation into an optimization problem over tractable reference models. It underlies many “mean-field-like” approximations and provides controlled upper bounds on the [[stat-mech/free-energy-statistical|canonical free energy]].
+The **Bogoliubov variational bound** is a widely used inequality that turns free-energy estimation into an optimization problem over tractable reference models.
 
-## Statement
 Let $H$ be the true Hamiltonian and fix [[thermodynamics/inverse-temperature-beta|inverse temperature $\beta$]]. Choose a reference Hamiltonian $H_0$ with partition function $Z_0$ and free energy
 $$
 F_0 = -\frac{1}{\beta}\log Z_0.
@@ -24,6 +23,10 @@ F \le F_0 + \langle H - H_0\rangle_0,
 $$
 
 where $F=-(1/\beta)\log Z$ is the true free energy.
+
+## Remarks
+
+It underlies many "mean-field-like" approximations and provides controlled upper bounds on the [[stat-mech/free-energy-statistical|canonical free energy]].
 
 ## Derivation idea (Jensen / convexity)
 Write the partition function using a [[linear-algebra/trace|trace]] (for classical systems, this trace is the sum/integral over microstates):
@@ -52,5 +55,5 @@ Optimizing the right-hand side yields the tightest bound within the chosen class
 
 A standard choice is to take $H_0$ to be a sum of independent one-site terms; optimizing then produces self-consistency equations that coincide with the [[stat-mech/construction-mean-field-variational|mean-field variational construction]].
 
-## Physical interpretation
+## Interpretation
 The bound says: “an interacting system is no less stable (no lower free energy) than a solvable trial system plus the average interaction correction measured in the trial ensemble.” Practically, it converts difficult interacting thermodynamics into an optimization problem, while guaranteeing that the resulting approximate free energy is an upper bound on the exact one.

@@ -14,7 +14,7 @@ Let \(G\) be a finite group and let \(\rho:G\to \mathrm{GL}(V)\) be a finite-dim
 \]
 where \(\mathrm{tr}\) is the [[linear-algebra/trace|trace]] of a linear operator on \(V\).
 
-## Basic properties
+## Properties
 
 1. **Class function.** For all \(g,h\in G\),
 \[
@@ -50,7 +50,7 @@ for all \(g\in G\).
 ### Example 2: Regular representation
 Let \(\mathbb{C}[G]\) be the [[algebra-representation-theory/group-algebra|group algebra]] and let \(G\) act by left multiplication (the [[algebra-representation-theory/regular-representation|regular representation]]). Its character satisfies
 \[
-\chi_{\mathrm{reg}}(e)=|G|,\qquad 
+\chi_{\mathrm{reg}}(e)=|G|,\qquad
 \chi_{\mathrm{reg}}(g)=0\ \text{for }g\neq e.
 \]
 (For \(g\neq e\), left multiplication by \(g\) permutes the basis \(\{\delta_h\}\) without fixed points, so the corresponding permutation matrix has trace \(0\).)

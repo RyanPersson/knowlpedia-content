@@ -16,6 +16,8 @@ where \(\mathbb{Z}\) denotes the [[shared-foundations/integers|integers]].
 
 Elements \(x\in\mathbb{Z}^d\) are often called **lattice sites** or **lattice points**.
 
+## Remarks
+
 **Algebraic structure.** Addition and subtraction are defined componentwise:
 \[
 x+y=(x_1+y_1,\dots,x_d+y_d),\qquad x-y=(x_1-y_1,\dots,x_d-y_d).

@@ -19,6 +19,8 @@ This is the cube centered at the origin with side length \(2L+1\) (in lattice un
 |\Lambda_L|=(2L+1)^d.
 \]
 
+## Remarks
+
 **Translations and other conventions.**
 - Any translate \(\Lambda_L+a:=\{x+a:x\in\Lambda_L\}\) is also a finite box.
 - Some authors use \(\{0,1,\dots,L-1\}^d\) as the “box of side length \(L\)”; this differs from \(\Lambda_L\) by translation and a minor change of parameter.

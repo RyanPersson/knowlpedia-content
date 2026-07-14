@@ -15,6 +15,7 @@ Let $\pi:E\to M$ be a real vector bundle of rank $n$ over a [[fiber-bundles/smoo
 
 The right action of the group $\mathrm{O}(n)$ on $\mathrm{O}(E)$ restricts to a free right action of the special orthogonal group $\mathrm{SO}(n)$, which is a [[fiber-bundles/lie-group|Lie group]]. With this action, $\mathrm{SO}(E)\to M$ is a principal bundle with structure group $\mathrm{SO}(n)$.
 
+## Equivalent characterizations
 Equivalently, $\mathrm{SO}(E)$ is the reduction of the full frame bundle to $\mathrm{SO}(n)$ determined jointly by the metric and the orientation.
 
 ## Examples

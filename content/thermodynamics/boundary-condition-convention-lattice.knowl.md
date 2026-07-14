@@ -20,6 +20,8 @@ Z_{\Lambda}^{\mathrm{bc}}=\sum_{\sigma}\exp\!\bigl(-\beta H_{\Lambda}^{\mathrm{b
 $$
 where \(\sigma\) ranges over configurations on \(\Lambda\) (for example \(\sigma:\Lambda\to\{\pm 1\}\) in the Ising model).
 
+## Remarks
+
 ### Common conventions
 1. **Periodic boundary conditions (PBC).**
    Identify opposite faces of the finite box so that \(\Lambda\) becomes a discrete torus, e.g. \((\mathbb{Z}/L\mathbb{Z})^d\). Nearest-neighbor interactions "wrap around." This reduces boundary effects and preserves translation invariance.

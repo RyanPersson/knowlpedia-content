@@ -12,6 +12,11 @@ legacy_source_path = "topology/image-compact-connected-is-interval.md"
 \[
 f(X)=[m,M].
 \]
+
+## Equivalent characterizations
+
 Equivalently, $f(X)$ is an [[real-analysis/interval|interval]] that is also compact in $\mathbb{R}$.
+
+## Remarks
 
 This follows by combining [[topology/continuous-image-of-compact-set-is-compact|continuous images of compact sets are compact]], [[topology/continuous-image-of-connected-set-is-connected|continuous images of connected sets are connected]], and the classification [[topology/connected-subsets-of-r-are-intervals|connected subsets of R are intervals]]; the endpoints $m$ and $M$ align with [[topology/continuous-attains-max-min-compact|attainment of maxima and minima on compact sets]].

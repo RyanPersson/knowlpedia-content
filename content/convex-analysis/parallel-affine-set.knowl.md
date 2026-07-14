@@ -15,7 +15,10 @@ $$
 
 for some $\omega\in\Omega$.
 
-By [[convex-analysis/affine-sets-are-translates-of-subspaces|the translate characterization]], every nonempty affine set is parallel to at least one subspace. The parallel subspace is unique and can be written explicitly as $\Omega-\Omega$; see [[convex-analysis/parallel-subspace-to-an-affine-set-is|the Ω−Ω proposition]].
+## Examples
 
-**Examples:**
 - In $\mathbb{R}^n$, any affine subspace is parallel to its direction subspace (the translation of the affine set through the origin).
+
+## Remarks
+
+By [[convex-analysis/affine-sets-are-translates-of-subspaces|the translate characterization]], every nonempty affine set is parallel to at least one subspace. The parallel subspace is unique and can be written explicitly as $\Omega-\Omega$; see [[convex-analysis/parallel-subspace-to-an-affine-set-is|the Ω−Ω proposition]].

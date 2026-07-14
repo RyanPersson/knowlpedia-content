@@ -22,6 +22,7 @@ Let $(X,d)$ be a [[convex-analysis/metric-metric-space|metric space]], let $x_0\
 
 Open balls generate the topology of the metric space: a set is [[convex-analysis/open-subset|open]] iff it contains an open ball around each of its points.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$ with $d(x,y)=|x-y|$, $B(x_0;r)=(x_0-r,x_0+r)$ and $B'(x_0;r)=[x_0-r,x_0+r]$.
 - In the discrete metric, $B(x_0;r)=\{x_0\}$ whenever $0<r\le 1$.

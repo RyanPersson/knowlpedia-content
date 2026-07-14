@@ -13,6 +13,7 @@ A **smooth real vector bundle** of rank \(k\) over a smooth manifold \(M\) is a 
 - the typical fiber is \(\mathbb{R}^k\), and
 - there exists an open cover \(\{U_i\}\) of \(M\) with [[fiber-bundles/local-trivialization|local trivializations]] \(\Phi_i:\pi^{-1}(U_i)\to U_i\times\mathbb{R}^k\) whose restrictions \(\Phi_i|_{E_x}:E_x\to \mathbb{R}^k\) are linear isomorphisms for each \(x\in U_i\).
 
+## Equivalent characterizations
 Equivalently, the [[fiber-bundles/transition-function|transition functions]] of such a bundle take values in \(\mathrm{GL}(k,\mathbb{R})\subset \mathrm{Diff}(\mathbb{R}^k)\). The [[fiber-bundles/tangent-bundle|tangent bundle]] and [[fiber-bundles/cotangent-bundle|cotangent bundle]] are the fundamental examples; many constructions in differential geometry (e.g. a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]]) are formulated for vector bundles.
 
 ## Examples

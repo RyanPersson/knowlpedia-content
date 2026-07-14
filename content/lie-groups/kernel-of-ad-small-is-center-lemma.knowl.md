@@ -13,14 +13,16 @@ Let $\mathfrak g$ be a [[lie-groups/lie-algebra|Lie algebra]]. The [[lie-groups/
 \mathrm{ad}:\mathfrak g\to \mathfrak{gl}(\mathfrak g),\qquad \mathrm{ad}_x(y)=[x,y].
 \]
 
-**Lemma.**  
+**Lemma.**
 \[
 \ker(\mathrm{ad}) \;=\; Z(\mathfrak g),
 \]
 where $Z(\mathfrak g)$ is the [[lie-groups/center-of-a-lie-algebra|center of the Lie algebra]].
 
-**Proof.**  
+## Remarks
+
+**Proof.**
 By definition, $x\in\ker(\mathrm{ad})$ iff $\mathrm{ad}_x(y)=0$ for all $y\in\mathfrak g$, i.e. $[x,y]=0$ for all $y$. This is exactly the defining condition for $x\in Z(\mathfrak g)$.
 
-**Context.**  
+**Context.**
 This identifies the failure of $\mathrm{ad}$ to be injective with central directions and clarifies the meaning of [[lie-groups/inner-derivation|inner derivations]]: $\mathrm{ad}_x$ depends only on the class of $x$ modulo the center. At the group level, a related statement is [[lie-groups/kernel-of-ad-is-center-lemma|ker(Ad) equals the group center (connected case)]].

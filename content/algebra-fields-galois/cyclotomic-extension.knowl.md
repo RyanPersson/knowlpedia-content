@@ -15,6 +15,8 @@ K(\zeta_n)/K.
 
 Assume \(\mathrm{char}(K)\nmid n\). Then \(x^n-1\) has distinct roots, so \(K(\zeta_n)/K\) is [[algebra-fields-galois/separable-extension|separable]]. Moreover, \(K(\zeta_n)\) contains all \(n\)-th roots of unity (since every root is \(\zeta_n^k\)), so it is the [[algebra-fields-galois/splitting-field|splitting field]] of \(x^n-1\) over \(K\). Hence \(K(\zeta_n)/K\) is [[algebra-fields-galois/normal-extension|normal]] and therefore [[algebra-fields-galois/galois-extension|Galois]] (see [[algebra-fields-galois/separable-normal-galois|separable + normal ⇔ Galois]]).
 
+## Remarks
+
 In the classical case \(K=\mathbb{Q}\), the minimal polynomial of \(\zeta_n\) is the [[algebra-fields-galois/cyclotomic-polynomial|cyclotomic polynomial]] \(\Phi_n(x)\), so
 \[
 [\mathbb{Q}(\zeta_n):\mathbb{Q}] = \deg(\Phi_n)=\varphi(n).

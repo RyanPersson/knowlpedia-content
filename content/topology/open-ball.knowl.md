@@ -16,6 +16,7 @@ where $x\in X$ and $r>0$.
 
 Open balls are [[topology/open-set|open sets]] in the [[topology/metric-induced-topology|metric-induced topology]] and they form a [[topology/basis-of-topology|basis]] for that topology; in particular, they are the basic [[topology/neighborhood|neighborhoods]] in metric spaces.
 
-**Examples:**
+## Examples
+
 - In $(\mathbb{R},|\cdot|)$, $B(x,r)=(x-r,x+r)$.
 - In the discrete metric on $X$, $B(x,1)=\{x\}$, while $B(x,r)=X$ for any $r>1$.

@@ -15,6 +15,8 @@ Let \(K\) be a [[algebra-rings/field|field]] and let \(f(x)\in K[x]\) be a separ
 [L:K] \le n!.
 \]
 
+## Remarks
+
 One conceptual proof: separability gives \(n\) distinct roots in \(L\), and the [[algebra-fields-galois/galois-group|Galois group]] \(\mathrm{Gal}(L/K)\) acts faithfully on this set of roots, yielding an injective homomorphism \(\mathrm{Gal}(L/K)\hookrightarrow S_n\). Using [[algebra-fields-galois/galois-degree-equals-group-order|degree = group order]] for finite Galois extensions gives \([L:K]=|\mathrm{Gal}(L/K)|\le |S_n|=n!\).
 
 A useful refinement: if \(f=\prod_i f_i\) with \(f_i\) separable and \(\deg(f_i)=d_i\), then writing \(L_i\) for the splitting field of \(f_i\), one has
@@ -25,11 +27,11 @@ since \(L\) is contained in the compositum of the \(L_i\).
 
 ### Examples
 
-1. **Sharp bound for a cubic.**  
+1. **Sharp bound for a cubic.**
    Over \(\mathbb{Q}\), \(f=x^3-2\) is separable of degree \(3\). Its splitting field is \(\mathbb{Q}(\sqrt[3]{2},\zeta_3)\), and \([L:\mathbb{Q}]=6=3!\).
 
-2. **A quartic with smaller degree than \(4!\).**  
+2. **A quartic with smaller degree than \(4!\).**
    For \(f=x^4-2\in \mathbb{Q}[x]\), the splitting field is \(\mathbb{Q}(2^{1/4}, i)\), which has degree \(8\), far below \(24\).
 
-3. **Product of quadratics.**  
+3. **Product of quadratics.**
    For \(f=(x^2-2)(x^2-3)\in \mathbb{Q}[x]\), the splitting field is \(\mathbb{Q}(\sqrt2,\sqrt3)\) and \([L:\mathbb{Q}]=4\), matching the refined bound \((2!)(2!)=4\).

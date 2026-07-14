@@ -11,9 +11,13 @@ legacy_source_path = "shale-paper/fredholm-determinant-trace-log.md"
 For trace-class \(A\), one defines a determinant-like map \(\Delta(I+A)\) ("Fredholm determinant")
 extending [[linear-algebra/determinant|determinant]] from finite rank.
 
+## Remarks
+
 **Key properties (paper use):**
 - Near \(I\): \(\Delta(T)=\exp(\mathrm{tr}(\log T))\) (Lemma 2.1(a)).
 - \(\Delta\) is continuous on \(GL(H)_1=I+\)trace-class.
 - No continuous extension exists on \(GL(H)_2=I+\)Hilbert–Schmidt (Lemma 2.1(b)).
 
-**Example:** If \(A\) is finite rank, \(\Delta(I+A)\) matches the usual finite-dimensional determinant.
+## Examples
+
+- If \(A\) is finite rank, \(\Delta(I+A)\) matches the usual finite-dimensional determinant.

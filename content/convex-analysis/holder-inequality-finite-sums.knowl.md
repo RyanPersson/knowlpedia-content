@@ -17,6 +17,8 @@ $$
 \left(\sum_{i=1}^m |y_i|^q\right)^{1/q}.
 $$
 
+## Remarks
+
 **Context.** This is the fundamental inequality behind duality of $\ell^p$ spaces and many estimates in analysis. It can be proved using the [[convex-analysis/weighted-arithmeticgeometric-mean-inequality|weighted AM–GM inequality]] (or Young's inequality).
 
 **Proof sketch.** Normalize so that $\sum |x_i|^p=1$ and $\sum |y_i|^q=1$ (otherwise scale). Apply weighted AM–GM with $\theta=1/p$ to $a=|x_i|^p$ and $b=|y_i|^q$ to get

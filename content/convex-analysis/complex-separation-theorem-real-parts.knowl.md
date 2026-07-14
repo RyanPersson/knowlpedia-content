@@ -15,5 +15,7 @@ $$
 \operatorname{Re}F(x)\le \operatorname{Re}F(y)\quad\text{whenever }x\in\Omega_1,\ y\in\Omega_2.
 $$
 
+## Remarks
+
 **Context:**
 View $X$ as a real vector space and apply [[convex-analysis/separation-of-two-convex-sets-via-the-core-condition|the real separation theorem]] to obtain a real linear functional $f$. Then form a complex functional $F$ whose real part is $f$.

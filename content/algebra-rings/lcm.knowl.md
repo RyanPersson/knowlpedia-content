@@ -12,9 +12,12 @@ Let $R$ be an [[algebra-rings/integral-domain|integral domain]] and let $a,b\in 
 1. $a\mid m$ and $b\mid m$, and
 2. if $a\mid n$ and $b\mid n$, then $m\mid n$.
 
+## Remarks
+
 An lcm is unique up to [[algebra-rings/associated-elements|associates]]. In settings where [[algebra-rings/gcd|gcds]] exist, one often has the relation $m\cdot d$ is associate to $ab$, where $d$ is a gcd of $a$ and $b$.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{Z}$, $\mathrm{lcm}(12,18)=36$.
 - In $k[x]$, $\mathrm{lcm}(x,x^2)=x^2$ (up to multiplication by a nonzero scalar).
 - For any $a\in R$, a least common multiple of $a$ and $0$ is $0$.

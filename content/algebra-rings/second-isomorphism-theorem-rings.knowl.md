@@ -14,4 +14,6 @@ A/(A\cap I)\ \cong\ (A+I)/I
 \]
 of [[algebra-rings/quotient-ring|quotient rings]].
 
+## Remarks
+
 This is most efficiently proved by restricting the quotient map \(R\to R/I\) to \(A\) and applying the [[algebra-rings/first-isomorphism-theorem-rings|first isomorphism theorem]].

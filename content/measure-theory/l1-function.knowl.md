@@ -16,6 +16,7 @@ where two functions are identified if they satisfy [[measure-theory/ae-equality|
 
 Choosing any representative $f$ of the class, the quantity $\|f\|_1:=\int_X |f|\,d\mu$ is its [[measure-theory/lp-norm|Lp norm]] with $p=1$, and the set of all such classes is the [[measure-theory/lp-space|Lp space]] with $p=1$. An $L^1$ function is equivalently a [[measure-theory/lebesgue-integrable-function|Lebesgue integrable function]] once a representative is fixed.
 
-**Examples:**
+## Examples
+
 - On $\mathbb R$ with [[measure-theory/lebesgue-measure|Lebesgue measure]], the function $f(x)=\frac{1}{1+x^2}$ represents an $L^1$ function.
 - On the [[real-analysis/interval|interval]] $[0,1]$ with Lebesgue measure, the function $f(x)=x^{-1/2}$ represents an $L^1$ function.

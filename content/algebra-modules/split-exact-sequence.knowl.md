@@ -16,7 +16,8 @@ A short exact sequence
 
 Split exactness is the precise condition that the extension carries no “twisting”: $B$ is just a direct sum of the ends.
 
-**Examples:**
+## Examples
+
 - The sequence $0\to A \to A\oplus C \to C\to 0$ splits (take $s(c)=(0,c)$).
 - For an $R$-linear projection $p:B\to C$ with a right-inverse $s$, the sequence $0\to \ker(p)\to B\to C\to 0$ splits.
 - (Nonexample) For $n>1$, the sequence $0\to \mathbb Z \xrightarrow{\times n} \mathbb Z \to \mathbb Z/n\mathbb Z \to 0$ does not split.

@@ -78,7 +78,7 @@ $$
 
 The virial series is an *asymptotic/analytic* expansion in $\rho$ whose convergence depends on temperature and the interaction potential. Rigorous convergence criteria are typically proved using cluster expansion methods (see [[stat-mech/cluster-expansion-theorem|cluster expansion theorems]] and [[stat-mech/virial-expansion-convergence|virial expansion convergence]]).
 
-## Prerequisites
+## Remarks
 
 - [[thermodynamics/pressure-thermo|Pressure]]
 - [[thermodynamics/temperature-thermo|Temperature]]

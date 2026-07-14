@@ -13,8 +13,11 @@ $$
 A\triangle B=(A\setminus B)\cup(B\setminus A).
 $$
 
+## Remarks
+
 This operation is built from [[shared-foundations/set-difference|set difference]] and [[shared-foundations/union|union]]. It is symmetric in $A$ and $B$ and measures “disagreement” between sets: $A\triangle B=\varnothing$ exactly when $A=B$.
 
-**Examples:**
+## Examples
+
 - $\{1,2,3\}\triangle\{2,3,4\}=\{1,4\}$.
 - If $A$ and $B$ are disjoint, then $A\triangle B=A\cup B$.

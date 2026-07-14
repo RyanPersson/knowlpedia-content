@@ -30,6 +30,8 @@ where the $\mathfrak{gl}(n,\mathbb{R})$-action on $\mathbb{R}^n$ is used to defi
 (\omega\wedge\theta)(V,W)\;=\;\omega(V)\cdot\theta(W)\;-\;\omega(W)\cdot\theta(V).
 \]
 
+## Remarks
+
 The form $\Theta$ is horizontal and $G$-equivariant; it corresponds to the torsion tensor of the induced linear connection $\nabla$ on $TM$, namely
 \[
 T_\nabla(X,Y)=\nabla_XY-\nabla_YX-[X,Y],
@@ -41,15 +43,15 @@ d\theta+\omega\wedge\theta=0.
 
 ## Examples
 
-1. **Euclidean space with the standard flat connection.**  
+1. **Euclidean space with the standard flat connection.**
    On $M=\mathbb{R}^n$ with its global coordinate frame, the induced connection has $\omega=0$ in that frame and $\theta$ pulls back to the standard coframe. Hence $d\theta=0$ and $\Theta=0$.
 
-2. **Levi-Civita connection (torsion-free case).**  
+2. **Levi-Civita connection (torsion-free case).**
    For a Riemannian manifold, the Levi-Civita connection is torsion-free, so in any local orthonormal coframe $\{\theta^i\}$ with connection $1$-forms $\{\omega^i{}_j\}$ one has the classical component form
    \[
    d\theta^i+\omega^i{}_j\wedge\theta^j=0,
    \]
    which is exactly $\Theta=0$ expressed using the first structure equation.
 
-3. **Teleparallel (Weitzenböck) connection on a Lie group.**  
+3. **Teleparallel (Weitzenböck) connection on a Lie group.**
    Let $M=G$ be a [[fiber-bundles/lie-group|Lie group]] with a global left-invariant frame. The connection for which that frame is parallel has $\omega=0$ in that trivialization, but typically $d\theta\neq 0$ for the left-invariant coframe. Then $\Theta=d\theta$ encodes the structure constants of the corresponding [[lie-groups/lie-algebra|Lie algebra]].

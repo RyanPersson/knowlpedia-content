@@ -14,4 +14,6 @@ legacy_source_path = "algebra-modules/first-isomorphism-consequence-modules.md"
 \]
 is a well-defined isomorphism of $R$-modules.
 
+## Remarks
+
 This is the usual “image–kernel” form of the [[algebra-modules/first-isomorphism-theorem-modules|first isomorphism theorem for modules]], relating [[algebra-modules/quotient-module|quotient modules]] to [[algebra-modules/kernel-module|kernels]] and [[algebra-modules/image-module|images]].

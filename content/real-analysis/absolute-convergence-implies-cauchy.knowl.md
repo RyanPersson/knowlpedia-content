@@ -17,4 +17,6 @@ converges, then $(s_n)$ is a Cauchy sequence; equivalently, for every $\varepsil
 \left|\sum_{k=n+1}^m a_k\right|<\varepsilon.
 \]
 
+## Remarks
+
 This is the series form of the [[real-analysis/cauchy-criterion-in-rk|Cauchy criterion]] and is a standard route to [[real-analysis/absolute-convergence-implies-convergence|absolute convergence implies convergence]].

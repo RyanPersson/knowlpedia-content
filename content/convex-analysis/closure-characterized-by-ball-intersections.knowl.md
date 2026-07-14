@@ -14,6 +14,8 @@ Let $(X,d)$ be a metric space, let $E\subset X$, and let $a\in X$. The following
 1. $a\in \overline{E}$.
 2. For every $r>0$, one has $B(a;r)\cap E\neq\emptyset$.
 
+## Remarks
+
 **Context.** This gives a local/topological interpretation of the [[convex-analysis/closure-of-a-set|closure]] in terms of neighborhoods (open balls).
 
 **Proof sketch.**

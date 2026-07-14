@@ -16,6 +16,7 @@ $$
 
 This definition treats two functions as close whenever they differ by more than $\varepsilon$ only on a set of small measure. If $\mu(X)<\infty$, then [[measure-theory/convergence-almost-everywhere|convergence almost everywhere]] implies convergence in measure, but the converse can fail.
 
-**Examples:**
+## Examples
+
 - On $([0,1],\mathcal{B},\lambda)$ with [[measure-theory/lebesgue-measure|Lebesgue measure]] $\lambda$, the functions $f_n=\mathbf{1}_{[0,1/n]}$ satisfy $f_n\to 0$ in measure because $\lambda(\{|f_n|>1/2\})=\lambda([0,1/n])=1/n\to 0$.
 - On $(\mathbb{R},\mathcal{B},\lambda)$, the functions $f_n=\mathbf{1}_{[n,n+1]}$ do **not** converge in measure to $0$ because for $\varepsilon=\tfrac12$ one has $\lambda(\{|f_n|>\varepsilon\})=\lambda([n,n+1])=1$ for all $n$.

@@ -12,6 +12,7 @@ A family $\mathcal{F}$ of functions on a set $X$ **separates points** if for eve
 
 This property is often imposed on a [[real-analysis/subalgebra-of-continuous-functions|subalgebra of continuous functions]] in approximation theorems, notably the [[real-analysis/stone-weierstrass-theorem|Stone–Weierstrass theorem]]. Intuitively, separating points means the family contains enough [[shared-foundations/function|functions]] to distinguish elements of $X$ by their images.
 
-**Examples:**
+## Examples
+
 - The set of real [[real-analysis/polynomial|polynomials]] restricted to $[a,b]$ separates points of $[a,b]$ (if $x\ne y$, the polynomial $p(t)=t$ already satisfies $p(x)\ne p(y)$).
 - The family of constant functions on $X$ does not separate points (all constants take the same value at every point).

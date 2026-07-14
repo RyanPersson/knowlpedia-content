@@ -13,8 +13,11 @@ A **Cauchy sequence** $(x_n)$ in a metric space $(X,d)$ is a sequence such that 
 d(x_m,x_n)<\varepsilon \quad\text{for all } m,n\ge N.
 \]
 
+## Remarks
+
 Every [[topology/convergent-sequence|convergent sequence]] in a metric space is Cauchy (see [[topology/convergent-sequence-is-cauchy|convergent implies Cauchy]]). The converse holds precisely in a [[topology/complete-metric-space|complete metric space]].
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$, the sequence $x_n=1/n$ is Cauchy.
 - In $\mathbb{Q}$ with the usual metric, a sequence of rational approximations to $\sqrt{2}$ is Cauchy in $\mathbb{Q}$ but does not converge in $\mathbb{Q}$.

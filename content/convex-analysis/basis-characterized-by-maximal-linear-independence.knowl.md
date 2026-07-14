@@ -14,6 +14,8 @@ Let $X$ be a vector space and let $B\subset X$ be nonempty. Then $B$ is a [[conv
 1. $B$ is [[convex-analysis/linearly-independent-and-linearly-dependent-sets|linearly independent]], and
 2. every strict superset $M\supsetneq B$ is linearly dependent.
 
+## Remarks
+
 **Context.** This proposition identifies bases with "maximal independent sets": you cannot add any new vector to $B$ without creating a nontrivial linear dependence.
 
 **Proof sketch.**

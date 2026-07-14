@@ -15,7 +15,11 @@ $$
 gh=hg \quad \text{for all } g,h\in G.
 $$
 
+## Equivalent characterizations
+
 Equivalently, the [[lie-groups/commutator-subgroup-of-a-lie-group|commutator subgroup]] $[G,G]$ is trivial, or (for connected $G$) its Lie algebra [[lie-groups/lie-algebra-of-a-lie-group|$\mathfrak{g}=\mathrm{Lie}(G)$]] is an [[lie-groups/abelian-lie-algebra|abelian Lie algebra]].
+
+## Remarks
 
 **Motivation.** For abelian $G$, the [[lie-groups/baker-campbell-hausdorff-formula|Baker–Campbell–Hausdorff formula]] collapses to ordinary addition in the Lie algebra: in exponential coordinates, local multiplication is just $X+Y$. This is one reason connected abelian Lie groups admit an explicit classification (see [[lie-groups/connected-abelian-lie-group-structure|structure of connected abelian Lie groups]]).
 

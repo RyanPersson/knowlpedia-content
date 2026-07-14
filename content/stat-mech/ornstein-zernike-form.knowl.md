@@ -21,7 +21,7 @@ as in [[stat-mech/correlation-function-two-point|two-point correlation functions
 Its Fourier transform (often called the structure factor) is
 $$
 S(k) \;=\; \sum_{r} e^{i k\cdot r}\, G(r)
-\quad \text{(lattice)}, 
+\quad \text{(lattice)},
 \qquad
 S(k) \;=\; \int_{\mathbb{R}^d} e^{i k\cdot r}\, G(r)\, d^dr
 \quad \text{(continuum)},
@@ -80,7 +80,7 @@ $$
 
 Scaling relations then connect exponents, e.g. $\gamma=(2-\eta)\nu$ (see [[stat-mech/scaling-relation-exponents|scaling relations]]).
 
-## Prerequisites
+## Remarks
 
 - [[stat-mech/correlation-function-two-point|Two-point correlation function]]
 - [[stat-mech/correlation-length|Correlation length]]

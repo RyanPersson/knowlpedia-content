@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/gibbs-kms-theorem.md"
 +++
 
-## Statement
-
 Let $\mathcal{H}$ be a finite-dimensional Hilbert space and let $H=H^\ast$ be a Hamiltonian. Consider the algebra of observables $\mathcal{A}=B(\mathcal{H})$ and the Heisenberg time evolution
 $$
 \alpha_t(A) := e^{itH}\,A\,e^{-itH}, \qquad t\in\mathbb{R}.
@@ -24,7 +22,7 @@ $$
 
 with partition function $\mathrm{Tr}(e^{-\beta H})$ (see [[stat-mech-quantum/quantum-partition-function|quantum partition function]] and [[stat-mech-quantum/gibbs-state-quantum|quantum Gibbs state]]).
 
-**Gibbs–KMS theorem.**  
+**Gibbs–KMS theorem.**
 The state $\omega_\beta$ satisfies the $\beta$-KMS condition with respect to $\alpha_t$ (see [[stat-mech-quantum/kms-condition-finite|KMS condition (finite systems)]]). Concretely: for all $A,B\in\mathcal{A}$, the function
 $$
 F_{A,B}(t):=\omega_\beta\!\big(A\,\alpha_t(B)\big)
@@ -46,5 +44,7 @@ $$
 - **Equilibrium characterization:** the Gibbs state is an equilibrium state in the KMS sense for the given dynamics.
 - **Imaginary-time periodicity:** the KMS boundary relation encodes the $\beta$-periodicity in imaginary time (compare [[stat-mech/corollary-kms-imaginary-time-periodicity|KMS imaginary-time periodicity]]).
 - **Bridge to infinite volume:** in algebraic quantum statistical mechanics, KMS states serve as the definition of thermal equilibrium even when Gibbs density matrices may fail to exist (finite-volume Gibbs $\Rightarrow$ KMS is the finite-system prototype).
+
+## Remarks
 
 This theorem is one half of the “Gibbs $\leftrightarrow$ KMS” correspondence; the converse direction is typically formulated as a separate result (see [[stat-mech/kms-gibbs-converse|KMS ⇒ Gibbs (converse)]] under appropriate finiteness assumptions).

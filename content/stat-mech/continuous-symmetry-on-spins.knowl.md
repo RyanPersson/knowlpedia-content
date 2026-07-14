@@ -21,7 +21,7 @@ $$
 H(g\sigma) = H(\sigma)\quad\text{for all }g\in O(n),
 $$
 
-where $(g\sigma)_i = g\,\sigma_i$.  
+where $(g\sigma)_i = g\,\sigma_i$.
 Special cases:
 - **XY model**: $n=2$, symmetry group includes $SO(2)\cong U(1)$ (continuous rotations in the plane).
 - **Heisenberg model**: $n=3$, symmetry group includes $SO(3)$.
@@ -46,7 +46,7 @@ For short-range, sufficiently regular interactions and continuous symmetries, th
 ### Quasi-long-range order and topological defects
 In the 2D XY model, one can have power-law decay of correlations (no true long-range order) and a transition driven by unbinding of vortices; see [[stat-mech/kosterlitz-thouless-transition|Kosterlitz–Thouless transition]] and [[stat-mech/topological-defect-vortex|vortices]].
 
-## Prerequisites
+## Remarks
 - [[stat-mech-lattice/lattice-hamiltonian|lattice Hamiltonians]]
 - [[stat-mech-lattice/finite-volume-gibbs-measure|finite-volume Gibbs measures]] and [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs measures]]
 - [[stat-mech/correlation-length|correlation length]]

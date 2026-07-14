@@ -12,8 +12,12 @@ Segal's **normal distribution over \(M\)** is a probability space \((N,\mathfrak
 each [[shale-paper/tame-function|tame function]] \(f(x)=\bar f(Px)\) has expectation
 given by the finite-dimensional Gaussian integral on \(\mathrm{ran}(P)\).
 
+## Remarks
+
 **Key properties (paper use):**
 - Defines \(L_p(M,n)\) spaces used throughout §3.
 - Quasi-invariance under $T$ holds exactly for $T\in \mathrm{rGL}(M)$ (see [[shale-paper/restricted-general-linear-group-rgl|restricted general linear group]]).
 
-**Example:** In finite dimensions, this is the standard density \(\propto e^{-\|x\|^2/2c}\,dx\).
+## Examples
+
+- In finite dimensions, this is the standard density \(\propto e^{-\|x\|^2/2c}\,dx\).

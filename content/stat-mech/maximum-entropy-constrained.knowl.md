@@ -36,7 +36,7 @@ Z(\lambda)=\int \exp\!\Big(-\sum_{i=1}^k \lambda_i f_i(x)\Big)\,d\mu.
 - **Uniqueness (typical):** since $S(p)$ is strictly concave on densities, the maximizer is unique when the feasible set is convex and contains an interior point.
 - **Thermodynamic interpretation:** with a single constraint $f_1=H$ (energy), the maximizer is the [[stat-mech/canonical-ensemble|canonical ensemble]] with partition function [[stat-mech/partition-function-canonical|canonical partition function]]; the multiplier is the inverse temperature (see [[thermodynamics/temperature-thermo|temperature]]).
 
-## Cross-links to definitions
+## Remarks
 - Probability framework: [[probability/probability-measure|probability measure]], [[probability/expectation|expectation]].
 - Entropy/divergence: [[probability/shannon-entropy|Shannon entropy]], [[probability/relative-entropy-kl-divergence|relative entropy (KL divergence)]].
 - Statistical mechanics: [[stat-mech/canonical-ensemble|canonical ensemble]], [[stat-mech/partition-function-canonical|partition function]].

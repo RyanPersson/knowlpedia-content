@@ -42,5 +42,5 @@ $$
 
 Equivalently: the conditional distribution of $\omega_\Lambda$ given $\omega_{\Lambda^c}$ under $\mu$ is exactly $\gamma_\Lambda(\,\cdot\,|\omega)$, for $\mu$-almost every outside configuration $\omega$.
 
-## Physical interpretation
+## Interpretation
 The DLR equations formalize *local equilibrium*: any finite region $\Lambda$ behaves as if it were in contact with a heat bath at $\beta$, with the exterior configuration acting as a boundary field. Multiple Gibbs measures solving the same DLR equations correspond to distinct thermodynamic phases (different boundary conditions can select different solutions), and they can be constructed concretely using the [[stat-mech/construction-infinite-volume-gibbs-weak-limit|weak-limit construction of infinite-volume Gibbs measures]].

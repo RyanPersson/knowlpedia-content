@@ -10,7 +10,6 @@ legacy_source_path = "fiber-bundles/reduction-by-cocycle-structure-group-reduces
 
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure [[fiber-bundles/lie-group|Lie group]] $G$, and let $H\subseteq G$ be a Lie subgroup.
 
-## Theorem
 
 The following are equivalent:
 

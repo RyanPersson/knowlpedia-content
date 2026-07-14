@@ -14,6 +14,8 @@ Let $X$ be a [[convex-analysis/norm-normed-vector-space|normed vector space]] an
 - the [[convex-analysis/interior-of-a-set|interior]] $\mathrm{int}(\Omega)$ is convex (possibly empty),
 - the [[convex-analysis/closure-of-a-set|closure]] $\overline{\Omega}$ is convex.
 
+## Remarks
+
 **Context.** Convexity is stable under two basic topological operations in normed spaces, which is essential for analyzing convex feasible regions.
 
 **Proof sketch.** For $\overline{\Omega}$, approximate points by sequences in $\Omega$ and use convexity plus limit arguments. For $\mathrm{int}(\Omega)$, if $x,y\in\mathrm{int}(\Omega)$ then small balls around $x$ and $y$ lie in $\Omega$; convex combinations of these balls give a neighborhood of $\lambda x+(1-\lambda)y$ contained in $\Omega$, so the combination lies in $\mathrm{int}(\Omega)$.

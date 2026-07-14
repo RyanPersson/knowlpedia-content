@@ -14,8 +14,6 @@ Let $(X,\|\cdot\|)$ be a normed space.
 1. If a sequence $(x_n)$ [[convex-analysis/convergence-in-normed-spaces|converges]] to both $x$ and $y$, then $x=y$.
 2. Every convergent sequence is [[convex-analysis/bounded-set-and-bounded-sequence|bounded]].
 
-**Context.** These are basic structural properties of norm convergence, paralleling the corresponding facts in metric spaces.
-
 **Proof sketch.**
 1. Using the triangle inequality,
 $$
@@ -24,3 +22,7 @@ $$
 
 so $\|x-y\|=0$ and hence $x=y$.
 2. If $x_n\to x$, then for $n$ large we have $\|x_n-x\|\le 1$. Then $\|x_n\|\le \|x\|+1$ for all large $n$; finitely many remaining terms are bounded as well.
+
+## Remarks
+
+**Context.** These are basic structural properties of norm convergence, paralleling the corresponding facts in metric spaces.

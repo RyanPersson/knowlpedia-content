@@ -8,7 +8,7 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/mermin-wagner-theorem.md"
 +++
 
-## Context
+## Remarks
 In lattice statistical mechanics, a [[stat-mech-lattice/spontaneous-symmetry-breaking-group|spontaneous symmetry breaking]] phase is detected by a nonzero [[stat-mech-lattice/order-parameter|order parameter]] (e.g. magnetization) or by multiple [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs states]].
 
 For models with a *continuous* symmetry (see [[stat-mech/continuous-symmetry-on-spins|continuous symmetry on spins]]), low-dimensional fluctuations can destroy long-range order even when interactions are ferromagnetic and short-range.

@@ -24,17 +24,17 @@ Z_{\Lambda,\beta}^{\eta}
 $$
 is the [[stat-mech-lattice/partition-function-lattice|lattice partition function]] (for discrete spins; replace the sum by an integral for continuous spins).
 
-## Cross-links
+## Remarks
 - Built from an [[stat-mech-lattice/interaction-potential-phi|interaction potential $\Phi$]] and a [[stat-mech-lattice/boundary-condition-lattice|boundary condition]] via the [[stat-mech-lattice/lattice-hamiltonian|Hamiltonian]].
 - The collection $\{\mu_{\Lambda,\beta}^{\eta}\}$ (varying $\Lambda$) forms a [[stat-mech-lattice/gibbs-specification|Gibbs specification]]; its infinite-volume consistency is expressed by the [[stat-mech-lattice/dlr-equation|DLR equation]].
 - Thermodynamic quantities are derived from $Z_{\Lambda,\beta}^{\eta}$, including the [[stat-mech-lattice/pressure-lattice|pressure]] and its [[stat-mech-lattice/thermodynamic-limit-pressure-lattice|thermodynamic limit]].
 - Model examples: [[stat-mech-lattice/ising-model|Ising model]], [[stat-mech-lattice/potts-model|Potts model]], [[stat-mech-lattice/xy-model|XY model]].
 
-## Key properties
+## Properties
 1. **Boltzmann form and normalization.** $\mu_{\Lambda,\beta}^{\eta}$ is a probability measure: $\sum_{\sigma_\Lambda}\mu_{\Lambda,\beta}^{\eta}(\sigma_\Lambda)=1$ by definition of $Z_{\Lambda,\beta}^{\eta}$.
 2. **Dependence on boundary conditions.** For finite $\Lambda$, changing $\eta$ changes $\mu_{\Lambda,\beta}^{\eta}$ through boundary interaction terms; this dependence typically decays into the bulk away from $\partial\Lambda$ when correlations are short-ranged.
 3. **Domain Markov / consistency property.** If $\Delta \subset \Lambda$, then conditioning $\mu_{\Lambda,\beta}^{\eta}$ on the spins in $\Lambda\setminus\Delta$ yields a Gibbs measure in $\Delta$ with boundary condition given by the conditioned exterior configuration. This is the finite-volume precursor of the [[stat-mech-lattice/dlr-equation|DLR]] consistency.
 4. **Thermodynamic limit and phases.** Along an increasing sequence of volumes $\Lambda_n \uparrow \mathbb{Z}^d$, subsequential weak limits of $\mu_{\Lambda_n,\beta}^{\eta}$ (if they exist) are candidates for [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs measures]]. Different $\eta$ can lead to different limits in the presence of a [[stat-mech-lattice/phase-transition-gibbs|phase transition]].
 
-## Physical interpretation
+## Interpretation
 $\mu_{\Lambda,\beta}^{\eta}$ is the equilibrium distribution of a finite sample in contact with a heat bath at temperature $T=1/\beta$ (up to constants), with the outside world modeled by the boundary condition $\eta$. Observables are computed as ensemble averages under this measure (compare [[stat-mech/ensemble-average|ensemble average]]), and the sensitivity of bulk behavior to $\eta$ distinguishes single-phase regimes from coexistence of multiple phases.

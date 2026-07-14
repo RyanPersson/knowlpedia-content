@@ -16,9 +16,12 @@ A smooth curve $\widetilde\gamma:I\to P$ is **horizontal** if $\omega(\dot{\wide
 \[
 \pi\circ \widetilde\gamma = \gamma,\qquad \widetilde\gamma(t_0)=p_0.
 \]
-Equivalently, $\widetilde\gamma$ is the unique solution to the first-order ODE requiring that $d\pi(\dot{\widetilde\gamma})=\dot\gamma$ and $\dot{\widetilde\gamma}$ lies in the horizontal subspace.
 
 This construction is the input for defining [[fiber-bundles/parallel-transport|parallel transport]] on principal and associated bundles.
+
+## Equivalent characterizations
+
+Equivalently, $\widetilde\gamma$ is the unique solution to the first-order ODE requiring that $d\pi(\dot{\widetilde\gamma})=\dot\gamma$ and $\dot{\widetilde\gamma}$ lies in the horizontal subspace.
 
 ## Examples
 1. If $P=M\times G$ is trivial and $\omega$ is given by a local gauge potential $A$ on $M$, then the horizontal lift equation becomes an ODE for a curve in $G$ driven by $A(\dot\gamma)$.

@@ -8,7 +8,7 @@ domains = ["stat-mech-lattice"]
 legacy_source_path = "stat-mech-lattice/onsager-2d-ising-solution.md"
 +++
 
-## Context
+## Remarks
 The [[stat-mech-lattice/ising-model|Ising model]] on the 2D square lattice is the canonical exactly solvable interacting lattice system exhibiting a genuine [[stat-mech-lattice/phase-transition-gibbs|phase transition]] at positive temperature.
 
 Consider the nearest-neighbor ferromagnet (see [[stat-mech-lattice/ferromagnetic-ising|ferromagnetic Ising]]) with Hamiltonian

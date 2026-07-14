@@ -14,6 +14,8 @@ legacy_source_path = "convex-analysis/basic-operations-preserving-convexity.md"
 2. (**Finite sums**) The function $\sum_{i=1}^m f_i$ is convex.
 3. (**Finite maxima**) The function $\max_{1\le i\le m} f_i$ is convex.
 
+## Remarks
+
 These closure properties are foundational for building new convex functions from old ones and are frequently combined with [[convex-analysis/convexity-preserved-under-monotone-convex-composition|composition rules]] and [[convex-analysis/supremum-of-convex-functions-is-convex|supremum constructions]].
 
 **Proof sketch (idea):** Use the Jensen inequality characterization from [[convex-analysis/equivalent-characterizations-of-convex-functions|equivalent characterizations of convex functions]] and check it termwise for each operation.

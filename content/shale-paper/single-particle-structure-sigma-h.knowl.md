@@ -12,8 +12,12 @@ Given a complex [[linear-algebra/hilbert-space|Hilbert space]] \(H\), its **sing
 \(\Sigma(H)=(K,B)\), where \(K\) is \(H\) viewed as a *real* Hilbert space with inner product \(\Re(\cdot,\cdot)_c\),
 and \(B(z_1,z_2)=\Im(z_1,z_2)_c\).
 
+## Remarks
+
 **Key properties:**
 - \(B\) is a [[shale-paper/symplectic-form|symplectic form]] on \(K\) (skew + nondegenerate).
 - Symmetries of the free boson field act as \(B\)-preserving maps on \(K\).
 
-**Example:** \(H=L^2(\mathbb R^d)\) gives a real phase space \(K\) with \(B=\Im(\cdot,\cdot)\).
+## Examples
+
+- \(H=L^2(\mathbb R^d)\) gives a real phase space \(K\) with \(B=\Im(\cdot,\cdot)\).

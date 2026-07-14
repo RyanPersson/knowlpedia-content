@@ -19,10 +19,13 @@ $$
 
 Its [[convex-analysis/domain-and-epigraph-proper-function|domain]] is $\mathrm{dom}(\delta_\Omega)=\Omega$, and its epigraph is $\mathrm{epi}(\delta_\Omega)=\Omega\times[0,\infty)$.
 
+## Remarks
+
 **Context.** Indicator functions encode constraints as penalties: minimizing $f+\delta_\Omega$ is equivalent to minimizing $f$ subject to $x\in\Omega$.
 
 **Convexity.** $\delta_\Omega$ is [[convex-analysis/convex-function-via-epigraph|convex]] if and only if $\Omega$ is a [[convex-analysis/convex-set|convex set]].
 
-**Examples:**
+## Examples
+
 - If $\Omega$ is a subspace, then $\delta_\Omega$ is convex.
 - If $\Omega$ is a nonconvex set (e.g., two disjoint balls), then $\delta_\Omega$ is not convex.

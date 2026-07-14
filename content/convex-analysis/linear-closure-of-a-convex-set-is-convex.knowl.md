@@ -12,5 +12,7 @@ Let $X$ be a [[linear-algebra/vector-space|vector space]] and let $\Omega\subset
 
 **Proposition**: The [[convex-analysis/linear-closure|linear closure]] $\operatorname{lin}(\Omega)$ is convex.
 
+## Remarks
+
 **Context:**
 The definition of $\operatorname{lin}(\Omega)$ is built from [[convex-analysis/line-segments-in-a-vector-space|line segments]]. Convexity of $\Omega$ ensures that "segments staying in $\Omega$" is stable under [[convex-analysis/convex-combination|convex combinations]], which yields convexity of $\operatorname{lin}(\Omega)$.

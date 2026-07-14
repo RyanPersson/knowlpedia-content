@@ -14,6 +14,8 @@ The **zeroth law** formalizes the idea that “being in thermal equilibrium” i
 
 This is often summarized as: thermal equilibrium is **transitive**.
 
+## Remarks
+
 **Physical interpretation.** The zeroth law justifies thermometry: if a thermometer (system $B$) reaches thermal equilibrium with a system of interest ($A$), and the same thermometer reading is obtained when it equilibrates with another system ($C$), then $A$ and $C$ are mutually in thermal equilibrium. Operationally, this means a single scalar label—temperature—can characterize the “thermal state” shared by systems in mutual thermal equilibrium.
 
 **Equivalence-class viewpoint.** Define a relation “$\sim$” on equilibrium states by declaring $A\sim B$ if they are in thermal equilibrium. The zeroth law asserts that, on equilibrium states, this relation behaves like an [[shared-foundations/equivalence-relation|equivalence relation]] (in particular, it is transitive). The corresponding classes are sometimes emphasized explicitly as [[thermodynamics/zeroth-law-equivalence|zeroth-law equivalence classes]].

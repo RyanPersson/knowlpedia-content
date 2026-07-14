@@ -16,13 +16,14 @@ s:M\to \mathrm{Ad}(P)
 \]
 such that $\pi_{\mathrm{Ad}}\circ s=\mathrm{id}_M$, where $\pi_{\mathrm{Ad}}:\mathrm{Ad}(P)\to M$ is the bundle projection.
 
+Under pointwise multiplication in the fibers, the set of sections $\Gamma(\mathrm{Ad}(P))$ is a group, canonically isomorphic to the [[fiber-bundles/gauge-group|gauge group]] of $P$.
+
+## Equivalent characterizations
 Equivalently, choose an [[topology/open-cover|open cover]] $\{U_i\}$ and local trivializations of $P$ with [[fiber-bundles/principal-bundle-transition-function|transition functions]] $g_{ij}:U_i\cap U_j\to G$. Then a section $s$ is represented by smooth maps $a_i:U_i\to G$ such that on overlaps
 \[
 a_j(x)=g_{ij}(x)^{-1}\,a_i(x)\,g_{ij}(x).
 \]
 This is the “gauge function” gluing law: local representatives differ by conjugation with the bundle cocycle.
-
-Under pointwise multiplication in the fibers, the set of sections $\Gamma(\mathrm{Ad}(P))$ is a group, canonically isomorphic to the [[fiber-bundles/gauge-group|gauge group]] of $P$.
 
 ## Examples
 1. **Trivial or trivialized case.** If $\mathrm{Ad}(P)\cong M\times G$, then sections are exactly smooth maps $a:M\to G$.

@@ -14,4 +14,6 @@ For a prime $\mathfrak P|\mathfrak p$ of $K$, the **decomposition group** $D(\ma
 
 The **Frobenius element** $\mathrm{Frob}_{\mathfrak P}$ is the unique element acting on the residue field by $x\mapsto x^{|\kappa(\mathfrak p)|}$; its conjugacy class $\mathrm{Frob}_{\mathfrak p}$ is independent of $\mathfrak P$.
 
+## Remarks
+
 **In the letter:** $\sigma$ denotes such a Frobenius and is the Galois component of $\alpha_p$.

@@ -14,9 +14,12 @@ c(f)=(a_0,a_1,\dots,a_n),
 \]
 i.e. the [[algebra-rings/ideal-generated|ideal generated]] by the coefficients of $f$.
 
+## Remarks
+
 When $R$ is a gcd domain (e.g. a [[algebra-rings/ufd|UFD]]), the content corresponds (up to [[algebra-rings/associated-elements|associates]]) to the [[algebra-rings/gcd|gcd]] of the coefficients. The notion is central to Gauss-type results about how factorization in $R[x]$ relates to factorization in $\mathrm{Frac}(R)[x]$.
 
-**Examples:**
+## Examples
+
 - In $\mathbb{Z}[x]$, for $f=6x^2+15x$ one has $c(f)=(3)$.
 - In $\mathbb{Z}[x]$, for $g=x^2+2$ one has $c(g)=(1)$.
 - For the zero polynomial $0\in R[x]$, $c(0)=(0)$.

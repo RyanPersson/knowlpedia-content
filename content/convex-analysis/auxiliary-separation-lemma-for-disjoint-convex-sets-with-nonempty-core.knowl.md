@@ -12,5 +12,7 @@ Let $X$ be a real [[linear-algebra/vector-space|vector space]] and let $\Omega_1
 
 **Lemma**: The sets $\Omega_1$ and $\Omega_2$ can be [[convex-analysis/separation-by-a-hyperplane|separated by a hyperplane]].
 
+## Remarks
+
 **Context:**
 The proof reduces separation of two sets to separation of a point from a convex set by applying [[convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core|point-vs-set separation]] to the Minkowski difference $\Omega_1-\Omega_2$.

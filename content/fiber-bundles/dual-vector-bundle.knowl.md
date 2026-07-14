@@ -22,9 +22,11 @@ E^*|_U \cong U\times (\mathbb F^r)^*
 \]
 via fiberwise duality.
 
-Equivalently, if $(e_1,\dots,e_r)$ is a local frame on $U$, then there is a uniquely determined dual local frame $(e^1,\dots,e^r)$ of $E^*|_U$ such that $e^i(e_j)=\delta^i_j$ pointwise; changes of frame are governed by inverse transpose (real case) or inverse conjugate transpose (Hermitian case).
-
 A [[fiber-bundles/vector-bundle-morphism|vector bundle morphism]] $\Phi:E\to F$ over $\mathrm{id}_M$ induces a dual morphism $\Phi^*:F^*\to E^*$ over $\mathrm{id}_M$ by precomposition on each fiber.
+
+## Equivalent characterizations
+
+Equivalently, if $(e_1,\dots,e_r)$ is a local frame on $U$, then there is a uniquely determined dual local frame $(e^1,\dots,e^r)$ of $E^*|_U$ such that $e^i(e_j)=\delta^i_j$ pointwise; changes of frame are governed by inverse transpose (real case) or inverse conjugate transpose (Hermitian case).
 
 ## Examples
 1. **Cotangent bundle.** The [[fiber-bundles/cotangent-bundle|cotangent bundle]] $T^*M$ is the dual vector bundle of the [[fiber-bundles/tangent-bundle|tangent bundle]] $TM$.

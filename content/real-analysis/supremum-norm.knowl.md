@@ -14,8 +14,11 @@ The **supremum norm** of a bounded function $f:X\to\mathbb{R}$ is
 \]
 Here $\sup$ denotes the [[real-analysis/supremum|supremum]] and $|\cdot|$ is the [[real-analysis/absolute-value|absolute value]].
 
+## Remarks
+
 The supremum norm is the standard way to measure uniform size of functions and underlies the [[real-analysis/uniform-metric|uniform metric]]. On many domains of interest (for example, a closed interval), continuous functions lie in the [[real-analysis/space-of-continuous-functions|space of continuous functions]] and are bounded, so $\|\cdot\|_\infty$ is finite.
 
-**Examples:**
+## Examples
+
 - For $f(x)=\sin x$ on $\mathbb{R}$, $\|f\|_\infty=1$.
 - For $f(x)=x^2$ on $[-1,1]$, $\|f\|_\infty=1$ (the maximum is attained at $x=\pm 1$).

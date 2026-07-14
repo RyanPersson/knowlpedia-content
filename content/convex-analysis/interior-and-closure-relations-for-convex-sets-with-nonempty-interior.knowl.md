@@ -14,6 +14,8 @@ Let $X$ be a normed vector space and let $\Omega\subset X$ be [[convex-analysis/
 1. $\overline{\mathrm{int}(\Omega)}=\overline{\Omega}$.
 2. $\mathrm{int}(\overline{\Omega})=\mathrm{int}(\Omega)$.
 
+## Remarks
+
 **Context.** For convex sets with nonempty interior, "taking closure" and "taking interior" are tightly compatible. This is special to convexity and can fail for arbitrary sets.
 
 **Proof sketch.**

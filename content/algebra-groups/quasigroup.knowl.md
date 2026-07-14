@@ -13,11 +13,14 @@ $$ax = b \quad \text{and} \quad ya = b$$
 
 each have unique solutions $x, y \in Q$.
 
-Equivalently, a quasigroup is a [[algebra-groups/magma|magma]] whose Cayley table forms a Latin square—each element appears exactly once in each row and column.
-
 A quasigroup with an identity element is called a [[algebra-groups/loop|loop]].
 
-**Examples:**
+## Equivalent characterizations
+
+Equivalently, a quasigroup is a [[algebra-groups/magma|magma]] whose Cayley table forms a Latin square—each element appears exactly once in each row and column.
+
+## Examples
+
 - $(\mathbb{Z}, -)$ — integers under subtraction
 - $(\mathbb{R}^+, \div)$ — positive reals under division
 - Any Latin square defines a quasigroup

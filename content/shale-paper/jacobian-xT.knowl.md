@@ -15,8 +15,12 @@ X(T)=\frac{dn(T)}{dn},
 \]
 the [[shale-paper/radon-nikodym-derivative|Radon–Nikodym derivative]].
 
+## Remarks
+
 **Key properties (paper use):**
 - \(X(T)^{1/2}\in L_2(M,n)\) and appears in the unitary implementer \(\mathfrak U(T)\).
 - When \(|T|\in GL(M)_1\), \(X(T)\) has an explicit "Gaussian quadratic form" formula.
 
-**Example:** In finite dimensions, \(X(T)\) reduces to \(|\det T|\) times an exponential factor.
+## Examples
+
+- In finite dimensions, \(X(T)\) reduces to \(|\det T|\) times an exponential factor.

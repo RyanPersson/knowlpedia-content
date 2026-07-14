@@ -19,7 +19,7 @@ $$
 
 with composition fixed (e.g. fixed [[thermodynamics/particle-number|particle number]] $N$ for a single-component system).
 
-## Physical interpretation
+## Interpretation
 An entropy constraint is appropriate for a [[thermodynamics/reversible-process|reversible]] process with no heat exchange (an idealized “adiabatic” change, e.g. via an [[thermodynamics/adiabatic-wall|adiabatic wall]]).
 For a small quasistatic isentropic compression,
 $$

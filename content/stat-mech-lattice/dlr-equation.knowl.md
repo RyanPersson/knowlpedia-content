@@ -25,7 +25,7 @@ Equivalently, in terms of conditional expectations (see [[probability/conditiona
 
 A measure $\mu$ satisfying the DLR equation is precisely a [[stat-mech-lattice/infinite-volume-gibbs-measure|infinite-volume Gibbs measure]].
 
-## Key properties
+## Properties
 
 - **Convex set of solutions.** The collection of all DLR solutions for a fixed specification is convex: mixtures of solutions are solutions. This leads to the [[stat-mech-lattice/mixture-gibbs-measures|mixture decomposition]] viewpoint.
 
@@ -35,6 +35,6 @@ A measure $\mu$ satisfying the DLR equation is precisely a [[stat-mech-lattice/i
 
 - **Local equilibrium principle.** The DLR equation enforces that every finite window of the infinite system, conditioned on its exterior, is distributed as the corresponding [[stat-mech-lattice/finite-volume-gibbs-measure|finite-volume Gibbs law]] prescribed by the specification.
 
-## Physical interpretation
+## Interpretation
 
 The DLR equation is the rigorous form of the Gibbs postulate for infinite systems: even without a global finite-volume normalization, the system is in equilibrium if every finite region looks like a Gibbs-distributed subsystem when conditioned on its surroundings. Non-uniqueness of DLR solutions captures coexistence of macroscopic phases.

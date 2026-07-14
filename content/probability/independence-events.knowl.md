@@ -20,6 +20,7 @@ $$
 
 Independence can be expressed in terms of [[probability/conditional-probability|conditional probability]]: if $\mathbb P(B)>0$, then $A$ and $B$ are independent exactly when $\mathbb P(A\mid B)=\mathbb P(A)$.  This notion extends from events to [[probability/independence-sigma-algebras|independence of sigma-algebras]] and to [[probability/independence-random-variables|independence of random variables]].
 
-**Examples:**
+## Examples
+
 - In two independent coin flips, let $A=\{\text{first flip is H}\}$ and $B=\{\text{second flip is H}\}$. Then $\mathbb P(A)=\mathbb P(B)=1/2$ and $\mathbb P(A\cap B)=1/4$, so $A$ and $B$ are independent.
 - For one fair die roll, let $A=\{\text{even}\}$ and $B=\{\text{roll}\le 3\}$. Then $\mathbb P(A)=1/2$, $\mathbb P(B)=1/2$, but $\mathbb P(A\cap B)=\mathbb P(\{2\})=1/6\ne 1/4$, so $A$ and $B$ are not independent.

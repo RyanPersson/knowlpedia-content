@@ -12,6 +12,7 @@ The **universal property of the tensor product** says that for a right \(R\)-mod
 
 When such \((T,\tau)\) exists, it is unique up to unique isomorphism; one writes \(T=M\otimes_R N\) and \(\tau(m,n)=m\otimes n\), producing the [[algebra-modules/tensor-product|tensor product]]. The universal property is the mechanism that turns bilinear constructions into linear ones (i.e. [[algebra-modules/module-homomorphism|module homomorphisms]], when the target has compatible structure).
 
-**Examples:**
+## Examples
+
 - The canonical pairing \(M\times R\to M\), \((m,r)\mapsto mr\), induces a natural isomorphism \(M\otimes_R R\cong M\).
 - Any balanced bilinear pairing \(M\times N\to P\) factors uniquely as \(M\times N\to M\otimes_R N\to P\).

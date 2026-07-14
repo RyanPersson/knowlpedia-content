@@ -13,4 +13,6 @@ Let $G$ be a finite [[algebra-groups/group|group]] with $|G| = p^{a}m$ where $p$
 1. $n_p \mid m$, and
 2. $n_p \equiv 1 \pmod p$.
 
+## Remarks
+
 This theorem is a counting consequence of [[algebra-groups/sylows-second-theorem|Sylow's second theorem]] together with the [[algebra-groups/normalizer|normalizer]] and the [[algebra-groups/conjugation-action|conjugation action]] on the set of Sylow $p$-subgroups.

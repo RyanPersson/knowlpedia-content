@@ -12,6 +12,7 @@ A **class $C^k$ map** is a [[shared-foundations/function|function]] $F:U\to\math
 
 When $k=1$, this is the standard “continuously differentiable” hypothesis in multivariable calculus: the derivative is encoded by the [[real-analysis/jacobian-matrix|Jacobian matrix]], and $C^1$ regularity is closely aligned with having a continuous [[real-analysis/frechet-derivative|Fréchet derivative]]. Higher regularity interacts with mixed derivatives via results like the [[real-analysis/schwarz-clairaut-theorem|Schwarz–Clairaut theorem]].
 
-**Examples:**
+## Examples
+
 - The map $F(x,y)=(x^2+y,\;xy)$ is class $C^\infty$ on $\mathbb{R}^2$.
 - The map $F(x,y)=(|x|,\;y)$ is class $C^0$ on $\mathbb{R}^2$ but not class $C^1$ along the line $x=0$.

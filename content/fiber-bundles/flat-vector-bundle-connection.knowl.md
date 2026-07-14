@@ -14,13 +14,16 @@ Let $E\to M$ be a vector bundle with connection $\nabla$.
 \[
 R^\nabla = 0.
 \]
-Equivalently, in any local frame the curvature 2-form matrix is zero.
 
 Flatness has two standard geometric consequences:
 - On sufficiently small contractible open sets, there exist local frames of $\nabla$-parallel sections (frames $(e_i)$ with $\nabla e_i=0$), so locally the connection looks like the trivial connection in a suitable gauge.
 - The associated [[fiber-bundles/parallel-transport|parallel transport]] along curves depends only on the homotopy class of the curve with fixed endpoints; loops therefore determine a representation of the fundamental group into the structure group, and the image is captured by the [[fiber-bundles/holonomy-group|holonomy group]].
 
 Viewed on the frame bundle, flatness corresponds to integrability of the induced horizontal distribution (compare [[fiber-bundles/integrable-horizontal-distribution|integrable horizontal distributions]]).
+
+## Equivalent characterizations
+
+Equivalently, in any local frame the curvature 2-form matrix is zero.
 
 ## Examples
 1. **Trivial bundle with the trivial connection.** On $M\times\mathbb R^r$, the connection $\nabla=d$ has $R^\nabla=0$, so it is flat.

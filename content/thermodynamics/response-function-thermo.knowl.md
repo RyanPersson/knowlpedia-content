@@ -10,6 +10,8 @@ legacy_source_path = "thermodynamics/response-function-thermo.md"
 
 A **thermodynamic response function** is a (typically equilibrium) partial derivative that measures how a state variable responds to an infinitesimal change in a control parameter, holding other specified variables fixed. Concretely, it is a derivative of the form $(\partial X/\partial Y)_{Z,\dots}$, evaluated along the equilibrium manifold described by an [[thermodynamics/equation-of-state|equation of state]].
 
+## Remarks
+
 **Physical interpretation.** Response functions quantify *susceptibility* and *stiffness*: large magnitude means the system changes a lot for a small applied change (high susceptibility), while small magnitude means the system is hard to change (stiff). In macroscopic thermodynamics they are measurable via small, quasi-static perturbations around [[thermodynamics/thermodynamic-equilibrium|thermodynamic equilibrium]].
 
 Common examples include:

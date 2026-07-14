@@ -19,14 +19,16 @@ Let \(K\) be a [[algebra-rings/field|field]] and let \(f(x)\in K[x]\) be a nonco
 
 2. (**Uniqueness up to \(K\)-isomorphism**) If \(L\) and \(L'\) are splitting fields of \(f\) over \(K\), then there is a \(K\)-isomorphism \(L \cong_K L'\). Equivalently: given a splitting field \(L\) of \(f\), any \(K\)-embedding of \(L\) into an algebraic closure of \(K\) is determined by the images of the roots and must send \(L\) onto another splitting field of \(f\).
 
+## Remarks
+
 A common construction of \(L\) adjoins roots one at a time using [[algebra-fields-galois/simple-extension|simple extensions]] and then uses the [[algebra-fields-galois/tower-law|tower law]] to control degrees.
 
 ### Examples
-1. Over \(\mathbb{Q}\), \(f(x)=x^2-2\) has roots \(\pm\sqrt2\).  
+1. Over \(\mathbb{Q}\), \(f(x)=x^2-2\) has roots \(\pm\sqrt2\).
    A splitting field is \(L=\mathbb{Q}(\sqrt2)\), and \([L:\mathbb{Q}]=2\).
 
-2. Over \(\mathbb{Q}\), \(f(x)=x^3-2\) has one real root \(\sqrt[3]{2}\) and two complex roots \(\zeta_3\sqrt[3]{2}\), \(\zeta_3^2\sqrt[3]{2}\), where \(\zeta_3\) is a primitive cube root of unity.  
+2. Over \(\mathbb{Q}\), \(f(x)=x^3-2\) has one real root \(\sqrt[3]{2}\) and two complex roots \(\zeta_3\sqrt[3]{2}\), \(\zeta_3^2\sqrt[3]{2}\), where \(\zeta_3\) is a primitive cube root of unity.
    A splitting field is \(L=\mathbb{Q}(\sqrt[3]{2},\zeta_3)\). (This is also a basic example of a [[algebra-fields-galois/galois-extension|Galois extension]] once one checks normality and separability.)
 
-3. Over \(\mathbb{F}_p\), the polynomial \(x^{p^n}-x\) has as its roots exactly the elements of \(\mathbb{F}_{p^n}\).  
+3. Over \(\mathbb{F}_p\), the polynomial \(x^{p^n}-x\) has as its roots exactly the elements of \(\mathbb{F}_{p^n}\).
    Its splitting field over \(\mathbb{F}_p\) is \(\mathbb{F}_{p^n}\), illustrating how [[algebra-fields-galois/finite-field|finite fields]] arise as splitting fields.

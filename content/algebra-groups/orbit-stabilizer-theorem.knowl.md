@@ -19,4 +19,6 @@ $$
 |\operatorname{Orb}(x)| = [G:\operatorname{Stab}(x)] \quad \text{and} \quad |G| = |\operatorname{Orb}(x)|\cdot |\operatorname{Stab}(x)|.
 $$
 
+## Remarks
+
 This theorem converts problems about orbits into problems about [[algebra-groups/coset|cosets]] and [[algebra-groups/index-of-subgroup|index]]. It is the main input for the [[algebra-groups/class-equation|class equation]] and many counting arguments.

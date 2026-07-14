@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/corollary-kms-imaginary-time-periodicity.md"
 +++
 
-## Statement
-
 Let $(\mathcal A,\tau_t)$ be a quantum dynamical system (a $C^*$-algebra $\mathcal A$ with a strongly continuous one-parameter group of $*$-automorphisms $t\mapsto \tau_t$). Let $\omega$ be a $\beta$-KMS state at inverse temperature $\beta>0$ (see [[stat-mech-quantum/kms-condition-finite|KMS condition]]).
 
 For any $\tau$-analytic observables $A,B\in\mathcal A$, the real-time two-point function
@@ -63,9 +61,9 @@ which is the imaginary-time “$\beta$-periodicity” relation (a shift by $i\be
 - In finite quantum systems, the standard equilibrium state is the [[stat-mech-quantum/gibbs-state-quantum|quantum Gibbs state]] written via a [[quantum-foundations/density-operator|density operator]] and the [[stat-mech-quantum/quantum-partition-function|quantum partition function]].
 - The identification “Gibbs state $\Rightarrow$ KMS” is commonly packaged as [[stat-mech/gibbs-kms-theorem|Gibbs–KMS theorem]] (and converses as [[stat-mech/kms-gibbs-converse|KMS–Gibbs converse]] in settings where it holds).
 
-## significance
+## Remarks
 
-**Finite-dimensional (Gibbs) case.**  
+**Finite-dimensional (Gibbs) case.**
 Let $H$ be the Hamiltonian and $\tau_t(B)=e^{itH}Be^{-itH}$. Let $\rho_\beta=e^{-\beta H}/Z_\beta$ be the Gibbs density operator ([[stat-mech-quantum/gibbs-state-quantum|Gibbs state]]), and define
 $$
 F_{A,B}(z)=\operatorname{Tr}\!\big(\rho_\beta\,A\,e^{izH}Be^{-izH}\big).
@@ -77,5 +75,5 @@ F_{A,B}(t+i\beta)=\operatorname{Tr}\!\big(\rho_\beta\,e^{itH}Be^{-itH}\,A\big)=\
 $$
 which is exactly the KMS imaginary-time periodicity.
 
-**Why it matters.**  
+**Why it matters.**
 This boundary relation is the conceptual basis of the *imaginary-time (Matsubara) formalism*: equilibrium correlation functions can be studied as analytic functions on a strip and, after Wick rotation, as functions on an imaginary-time circle of circumference $\beta$ (with the KMS cyclic permutation at the “cut”).

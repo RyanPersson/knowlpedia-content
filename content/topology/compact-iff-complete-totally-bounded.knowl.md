@@ -13,6 +13,10 @@ legacy_source_path = "topology/compact-iff-complete-totally-bounded.md"
 1. $X$ is a [[topology/compact-set|compact set]].
 2. $X$ is a [[topology/complete-metric-space|complete metric space]] and [[topology/totally-bounded-set|totally bounded]].
 
+## Equivalent characterizations
+
 Equivalently, a subset $K\subseteq X$ is compact in the [[topology/subspace-topology|subspace topology]] if and only if $(K,d|_{K\times K})$ is complete and totally bounded.
+
+## Remarks
 
 This characterization packages [[topology/compactness-implies-completeness|compactness implies completeness]] and [[topology/compactness-implies-total-boundedness|compactness implies total boundedness]] into a single criterion that is often easier to verify than the [[topology/open-cover|open cover]] definition.

@@ -17,6 +17,8 @@ An **equalizer** of \(f\) and \(g\) is a morphism \(e:E\to A\) such that:
    e\circ u = h.
    \]
 
+## Equivalent characterizations
+
 Equivalently, \(e:E\to A\) is universal among arrows into \(A\) on which \(f\) and \(g\) agree:
 
 ```tikz-cd
@@ -26,9 +28,11 @@ X \arrow[r, dashed, "u"] \arrow[dr, "h"'] & E \arrow[d, "e"] \\
 
 with \(f\circ e=g\circ e\) and \(f\circ h=g\circ h\).
 
+## Remarks
+
 An equalizer (when it exists) is a special case of a [[algebra-category-theory/limit|limit]].
 
-## Basic properties
+## Properties
 - The equalizer morphism \(e:E\to A\) is always a [[algebra-category-theory/monomorphism-category|monomorphism]]: it is “injective” in the categorical sense.
 - In an [[algebra-category-theory/abelian-category|abelian category]], the equalizer of \(f,g\) can be identified with a [[algebra-category-theory/kernel-categorical|kernel]]:
   \[
@@ -36,21 +40,21 @@ An equalizer (when it exists) is a special case of a [[algebra-category-theory/l
   \]
 
 ## Examples
-1. **\(\mathbf{Set}\)**.  
+1. **\(\mathbf{Set}\)**.
    If \(f,g:A\to B\) are functions, the equalizer is the subset
    \[
    E=\{a\in A \mid f(a)=g(a)\}\subseteq A,
    \]
    with \(e:E\hookrightarrow A\) the inclusion.
 
-2. **\(\mathbf{Grp}\)**.  
+2. **\(\mathbf{Grp}\)**.
    For homomorphisms \(f,g:G\to H\), the equalizer is the subgroup
    \[
    E=\{x\in G \mid f(x)=g(x)\}\le G,
    \]
    included into \(G\).
 
-3. **\(\mathbf{Ab}\) (or \(R\)-Mod)**.  
+3. **\(\mathbf{Ab}\) (or \(R\)-Mod)**.
    For module homomorphisms \(f,g:M\to N\), the equalizer is the submodule
    \[
    E=\ker(f-g)\subseteq M,

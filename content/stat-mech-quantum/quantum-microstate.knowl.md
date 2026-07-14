@@ -10,6 +10,8 @@ legacy_source_path = "stat-mech-quantum/quantum-microstate.md"
 
 In quantum statistical mechanics, a **quantum microstate** is typically identified with a **pure state** of the system (see [[quantum-foundations/pure-state-quantum|pure state]]).
 
+## Equivalent characterizations
+
 Concretely, in finite dimensions a microstate can be represented by either of the equivalent data:
 
 1. A normalized vector $|\psi\rangle \in \mathcal{H}$ with $\langle\psi|\psi\rangle = 1$, where vectors differing by a global phase represent the same physical state: $|\psi\rangle \sim e^{i\theta}|\psi\rangle$.
@@ -27,11 +29,11 @@ This matches the general [[stat-mech-quantum/density-operator-state|density-oper
 
 A particularly important class of microstates in statistical mechanics are **energy eigenstates**: if $H$ is the [[stat-mech-quantum/quantum-hamiltonian|Hamiltonian]] and $H|\phi_n\rangle = E_n|\phi_n\rangle$, then $|\phi_n\rangle$ is a microstate with definite energy $E_n$ (see [[linear-algebra/eigenvector|eigenvector]]).
 
-## Physical interpretation
+## Interpretation
 - A microstate is the most refined description allowed by quantum theory for an isolated system: it specifies all measurement statistics but generally not sharp values for all observables.
 - Superpositions of energy eigenstates are also microstates; “being in a microstate” does not mean having definite classical phase-space coordinates.
 
-## Key properties
+## Properties
 - **Extremality:** Microstates are extreme points of the convex set of [[stat-mech-quantum/density-operator-state|density-operator states]]; they cannot be expressed as nontrivial convex mixtures of other states.
 - **Zero von Neumann entropy:** For $\rho_\psi = |\psi\rangle\langle\psi|$, the [[quantum-foundations/von-neumann-entropy|von Neumann entropy]] satisfies $S(\rho_\psi)=0$.
 - **Projector condition:** $\rho_\psi$ is pure iff $\rho_\psi^2=\rho_\psi$ (equivalently, $\operatorname{Tr}(\rho_\psi^2)=1$).

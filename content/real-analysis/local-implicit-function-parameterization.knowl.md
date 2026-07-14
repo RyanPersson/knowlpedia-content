@@ -13,4 +13,6 @@ $$
 \{x\in W: F(x)=0\}=\{(u,\varphi(u)): u\in V\}.
 $$
 
+## Equivalent characterizations
+
 Equivalently, near a regular point, the constraint set $F^{-1}(0)$ is locally a graph, as guaranteed by the [[real-analysis/implicit-function-theorem|implicit function theorem]].

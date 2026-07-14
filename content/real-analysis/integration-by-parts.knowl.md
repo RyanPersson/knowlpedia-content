@@ -13,4 +13,6 @@ $$
 \int_a^b u(x)\,v'(x)\,dx = u(b)v(b)-u(a)v(a) - \int_a^b u'(x)\,v(x)\,dx.
 $$
 
+## Remarks
+
 This is the integral form of the product rule from [[real-analysis/differentiation-rules|differentiation rules]], typically justified using [[real-analysis/fundamental-theorem-of-calculus-ii|fundamental theorem of calculus II]].

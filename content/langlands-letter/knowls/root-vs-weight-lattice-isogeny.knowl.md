@@ -20,4 +20,6 @@ Q \subset X^*(T) \subset P
 $
 (or dually for cocharacters).
 
+## Remarks
+
 **In the letter:** the choice of an intermediate lattice $L$ "between roots and weights" controls the form of $G$ and of its [[langlands-letter/knowls/langlands-dual-group|dual group]].

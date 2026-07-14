@@ -47,7 +47,7 @@ $$
 
 This is a special case of the general machinery summarized in [[stat-mech/construction-fluctuation-formulas-log-z|fluctuation formulas from $\log Z$]] and [[stat-mech/construction-observables-from-log-z|observables from $\log Z$]].
 
-## Physical interpretation
+## Interpretation
 
 - $C_V$ measures how strongly the mean energy reacts to a change in [[thermodynamics/temperature-thermo|temperature]].
 - The identity above says: **large energy fluctuations imply large heat capacity**, and vice versa.

@@ -10,7 +10,11 @@ legacy_source_path = "algebra-fields-galois/algebraic-extension.md"
 
 A [[algebra-fields-galois/field-extension|field extension]] \(E/F\) is called an **algebraic extension** if every element \(\alpha\in E\) is an [[algebra-fields-galois/algebraic-element|algebraic element]] over \(F\); that is, for each \(\alpha\in E\) there exists a nonzero polynomial \(f(x)\in F[x]\) with \(f(\alpha)=0\).
 
+## Equivalent characterizations
+
 Equivalently, \(E/F\) is algebraic iff for every \(\alpha\in E\), the simple subextension \(F(\alpha)/F\) (see [[algebra-fields-galois/simple-extension|simple extension]]) has finite [[algebra-fields-galois/degree-of-extension|degree]]. In particular, every finite extension \([E:F]<\infty\) is algebraic.
+
+## Remarks
 
 Algebraic extensions are the setting for splitting fields and Galois theory: for example, a [[algebra-fields-galois/galois-extension|Galois extension]] is an algebraic extension satisfying additional normality and separability conditions.
 

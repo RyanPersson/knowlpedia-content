@@ -22,6 +22,9 @@ A useful description is: \(F(\alpha)\) consists of all rational expressions in \
 \[
 F(\alpha)=\left\{\frac{f(\alpha)}{g(\alpha)} : f,g\in F[x],\ g(\alpha)\neq 0\right\}.
 \]
+
+## Remarks
+
 If \(\alpha\) is an [[algebra-fields-galois/algebraic-element|algebraic element]] over \(F\), then \(F(\alpha)/F\) is an [[algebra-fields-galois/algebraic-extension|algebraic extension]] and has finite [[algebra-fields-galois/degree-of-extension|degree]]. If \(\alpha\) is [[algebra-fields-galois/transcendental-element|transcendental]] over \(F\), then \(F(\alpha)/F\) is a [[algebra-fields-galois/transcendental-extension|transcendental extension]].
 
 Simple extensions are the building blocks of [[algebra-fields-galois/fg-field-extension|finitely generated field extensions]]: by definition, \(F(\alpha)\) is the finitely generated case with one generator.

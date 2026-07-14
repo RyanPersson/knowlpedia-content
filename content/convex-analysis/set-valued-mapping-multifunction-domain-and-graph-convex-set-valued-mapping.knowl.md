@@ -27,9 +27,12 @@ $$
 
 The multifunction $F$ is called **convex** if its graph $\mathrm{gph}(F)$ is a [[convex-analysis/convex-set|convex set]] in $X\times Y$.
 
-**Context.** Convex multifunctions generalize convex sets (as graphs) and appear in variational analysis and optimization (e.g., feasible-set and solution mappings).
+## Examples
 
-**Examples:**
 - Single-valued affine maps are convex multifunctions: if $F(x)=\{Ax+b\}$, then $\mathrm{gph}(F)$ is an affine subset of $X\times Y$.
 - In $X=Y=\mathbb{R}$, the map $F(x)=[x,\infty)$ has a convex graph.
 - The constant map $F(x)=C$ has $\mathrm{gph}(F)=X\times C$, convex iff $C$ is convex.
+
+## Remarks
+
+**Context.** Convex multifunctions generalize convex sets (as graphs) and appear in variational analysis and optimization (e.g., feasible-set and solution mappings).

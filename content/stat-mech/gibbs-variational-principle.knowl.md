@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/gibbs-variational-principle.md"
 +++
 
-## Statement
 Fix inverse temperature $\beta=1/(k_B T)$ and a Hamiltonian [[stat-mech/hamiltonian-function-classical|H]] on a classical [[stat-mech/phase-space-classical|phase space]] with reference measure $\lambda$.
 Let $\mu$ range over probability measures absolutely continuous with respect to $\lambda$, with density $\rho = d\mu/d\lambda$.
 
@@ -46,10 +45,10 @@ $\langle H\rangle_\mu - T S(\mu) \ge F(\beta)$.
 - The canonical Gibbs measure is characterized as the unique minimizer of the free-energy functional $\mu \mapsto \langle H\rangle_\mu - T S(\mu)$.
 - The “suboptimality gap” to equilibrium is exactly $k_B T$ times the KL divergence to the canonical state.
 
-## Cross-links to definitions
+## Remarks
 - [[stat-mech/canonical-ensemble|Canonical ensemble]], [[stat-mech/partition-function-canonical|canonical partition function]]
 - [[stat-mech/gibbs-entropy-shannon|Gibbs/Shannon entropy (stat mech)]], [[probability/shannon-entropy|Shannon entropy (probability)]]
 - [[probability/relative-entropy-kl-divergence|Relative entropy (KL divergence)]]
 - [[stat-mech/free-energy-statistical|Statistical free energy]]
-## significance
+
 Rewrite the functional at inverse temperature $\beta$ by adding and subtracting $\log Z(\beta)$, then identify the remaining term as a KL divergence using the density $\rho_\beta \propto e^{-\beta H}$. Nonnegativity of KL divergence (a form of [[stat-mech/gibbs-inequality-lemma|Gibbs inequality]]) yields the lower bound and characterizes the minimizer. This principle is the backbone of maximum-entropy and free-energy methods, and it underlies many convexity/duality results such as [[stat-mech/legendre-duality-free-energy-entropy|Legendre duality between free energy and entropy]].

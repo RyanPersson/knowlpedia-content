@@ -57,7 +57,7 @@ for an appropriate local field $\phi$ (e.g., spin component).
 ## Where these come from (organizing principle)
 Many exponents can be read from the singular part of the free energy density (see [[stat-mech/free-energy-statistical|statistical free energy]]) and from how coarse-graining changes effective couplings under a [[stat-mech/renormalization-group-transformation|renormalization-group transformation]].
 
-## Prerequisites
+## Remarks
 - [[stat-mech/critical-point-phase-diagram|critical points in phase diagrams]]
 - [[stat-mech/scaling-relation-exponents|scaling relations among exponents]]
 - [[stat-mech-lattice/phase-transition-gibbs|phase transitions and Gibbs measures]]

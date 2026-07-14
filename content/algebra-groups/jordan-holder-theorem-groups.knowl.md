@@ -18,4 +18,6 @@ such that each $G_{i+1}\trianglelefteq G_i$ and each factor $G_i/G_{i+1}$ is a [
 - the lengths are equal, and
 - the multisets of factor groups $\{G_i/G_{i+1}\}$ agree up to [[algebra-groups/group-isomorphism|isomorphism]] and permutation.
 
+## Remarks
+
 Jordan–Hölder gives a well-defined notion of the "composition factors" of a group (up to order and isomorphism). The standard proof combines [[algebra-groups/schreier-refinement-theorem|the Schreier refinement theorem]] with the fact that a simple factor admits no nontrivial refinement.

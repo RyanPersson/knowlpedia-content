@@ -16,4 +16,6 @@ $$
 
 induced by the map $gN \mapsto gK$.
 
+## Remarks
+
 This theorem formalizes the idea that "quotienting by $N$ and then by $K/N$" is the same as quotienting directly by $K$. It can be viewed as a special case of [[algebra-groups/correspondence-theorem-groups|the correspondence theorem]], or proved directly using [[algebra-groups/first-isomorphism-theorem-groups|the first isomorphism theorem]].

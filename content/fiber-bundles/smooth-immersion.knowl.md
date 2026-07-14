@@ -16,14 +16,8 @@ d f_p : T_p M \longrightarrow T_{f(p)}N
 \]
 is injective, where \(T_p M\) denotes the [[fiber-bundles/tangent-space-at-a-point|tangent space at \(p\)]].
 
+## Equivalent characterizations
 Equivalently, \(\operatorname{rank}(d f_p)=m\) for all \(p\in M\). In particular, if an immersion \(M^m \to N^n\) exists then \(m \le n\).
-
-## Local normal form (Immersion theorem)
-If \(f : M^m \to N^n\) is a smooth immersion and \(p\in M\), then there exist smooth charts \((U,\varphi)\) about \(p\) and \((V,\psi)\) about \(f(p)\) (see [[fiber-bundles/smooth-chart-coordinate-chart|coordinate charts]]) such that, in coordinates, \(f\) becomes the standard inclusion:
-\[
-(\psi\circ f \circ \varphi^{-1})(x^1,\dots,x^m)=(x^1,\dots,x^m,0,\dots,0)\in \mathbb{R}^n.
-\]
-Thus an immersion is locally an embedding into \(N\), but globally it need not be injective. When an immersion is also a homeomorphism onto its image (with the subspace topology), it is a [[fiber-bundles/smooth-embedding|smooth embedding]]. A [[fiber-bundles/diffeomorphism|diffeomorphism]] is in particular both a smooth immersion and a [[fiber-bundles/smooth-submersion|smooth submersion]].
 
 ## Examples
 1. **Linear inclusion.** The map \(i:\mathbb{R}^m \to \mathbb{R}^n\) for \(m\le n\) defined by
@@ -43,3 +37,11 @@ Thus an immersion is locally an embedding into \(N\), but globally it need not b
    g(t)=(\sin t,\sin 2t)
    \]
    is a smooth immersion: \(g'(t)=(\cos t,2\cos 2t)\) never vanishes. However, \(g(0)=g(\pi)=(0,0)\), so it is not a [[fiber-bundles/smooth-embedding|smooth embedding]].
+
+
+## Local normal form (Immersion theorem)
+If \(f : M^m \to N^n\) is a smooth immersion and \(p\in M\), then there exist smooth charts \((U,\varphi)\) about \(p\) and \((V,\psi)\) about \(f(p)\) (see [[fiber-bundles/smooth-chart-coordinate-chart|coordinate charts]]) such that, in coordinates, \(f\) becomes the standard inclusion:
+\[
+(\psi\circ f \circ \varphi^{-1})(x^1,\dots,x^m)=(x^1,\dots,x^m,0,\dots,0)\in \mathbb{R}^n.
+\]
+Thus an immersion is locally an embedding into \(N\), but globally it need not be injective. When an immersion is also a homeomorphism onto its image (with the subspace topology), it is a [[fiber-bundles/smooth-embedding|smooth embedding]]. A [[fiber-bundles/diffeomorphism|diffeomorphism]] is in particular both a smooth immersion and a [[fiber-bundles/smooth-submersion|smooth submersion]].

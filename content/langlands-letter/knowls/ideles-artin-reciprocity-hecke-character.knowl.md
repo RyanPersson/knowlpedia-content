@@ -14,4 +14,6 @@ A **Hecke character** (Grössencharakter) is a continuous homomorphism $\chi:C_K
 
 **Artin reciprocity** identifies (canonically, up to the standard class field theory normalizations) the abelianized Galois group $\mathrm{Gal}(K^{\mathrm{ab}}/K)$ with a profinite quotient of $C_K$, sending uniformizers to Frobenius elements.
 
+## Remarks
+
 **In the letter:** this realizes abelian Artin $L$-series as $L$-series of Hecke characters (example (iii)).

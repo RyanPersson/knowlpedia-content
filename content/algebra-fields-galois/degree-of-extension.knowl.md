@@ -16,6 +16,8 @@ x=\sum_{b\in B} c_b\, b \quad \text{with } c_b\in F \text{ and all but finitely 
 \]
 The cardinality of a basis is independent of the choice of basis; this cardinal is \([E:F]\). The extension is called **finite** if \([E:F]<\infty\).
 
+## Remarks
+
 If \(F\subseteq K\subseteq E\) is a [[algebra-fields-galois/tower-of-fields|tower of fields]] and the degrees are finite, then the [[algebra-fields-galois/tower-law|tower law]] states
 \[
 [E:F]=[E:K]\,[K:F].

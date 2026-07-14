@@ -19,11 +19,11 @@ $$
 \sum_i \frac{Q_i}{T_i}\le 0.
 $$
 
-## Physical interpretation
+## Interpretation
 
 The inequality expresses the content of the [[thermodynamics/second-law-thermodynamics|second law]] in a form that directly compares heat transfers at different temperatures: heat exchanged at lower temperature carries a larger “entropy weight” $\delta Q/T$. The strictness of the inequality measures how much irreversibility is present in the cycle.
 
-## Key relations
+## Remarks
 
 - **Entropy as a state function.** For a reversible process between equilibrium states $A$ and $B$, the integral of $\delta Q/T_{\mathrm{b}}$ is path-independent. This motivates defining the [[thermodynamics/thermodynamic-entropy|entropy]] change by
   $$

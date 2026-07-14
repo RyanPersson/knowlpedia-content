@@ -13,8 +13,11 @@ $$
 f|_S(s)=f(s)\quad\text{for all }s\in S.
 $$
 
+## Remarks
+
 A restriction changes the [[shared-foundations/domain|domain]] while keeping the same [[shared-foundations/codomain|codomain]]. The [[shared-foundations/graph-of-function|graph]] of $f|_S$ is obtained by intersecting the graph of $f$ with the subset $S\times B$ of the [[shared-foundations/cartesian-product|Cartesian product]] $A\times B$.
 
-**Examples:**
+## Examples
+
 - If $f:\mathbb{R}\to\mathbb{R}$ is $f(x)=x^2$ and $S=\mathbb{Z}\subseteq\mathbb{R}$, then $f|_S:\mathbb{Z}\to\mathbb{R}$ is the squaring function on integers.
 - If $A$ is a set and $S\subseteq A$, then $\mathrm{id}_A|_S:S\to A$ is the inclusion map $s\mapsto s$.

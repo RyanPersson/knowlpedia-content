@@ -17,4 +17,6 @@ $
 
 Two cocycles are **cohomologous** if $a'_\sigma=g^{-1}a_\sigma\,{}^\sigma g$ for some $g\in G(K)$; the set of classes is **nonabelian cohomology** $H^1(\Gamma,G)$ (a pointed set).
 
+## Remarks
+
 **In the letter:** an "inner twisting" is specified by such a cocycle $\{a_\tau\}$, and "splitting locally at almost all $p$" means the restriction class becomes trivial for local decomposition groups.

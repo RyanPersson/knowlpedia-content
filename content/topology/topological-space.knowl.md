@@ -15,7 +15,8 @@ A **topological space** is an [[shared-foundations/ordered-pair|ordered pair]] $
 
 Here $\mathcal{P}(X)$ denotes the [[shared-foundations/power-set|power set]] of $X$, and the members of $\mathcal{T}$ are the [[topology/open-set|open sets]] (whose complements are the [[topology/closed-set|closed sets]]). Many standard constructions—such as the [[topology/subspace-topology|subspace topology]], [[topology/product-topology|product topology]], and [[topology/quotient-topology|quotient topology]]—produce new topological spaces from existing ones.
 
-**Examples:**
+## Examples
+
 - $\mathbb{R}$ with its usual topology (open sets are unions of open intervals).
 - Any set $X$ with the discrete topology $\mathcal{T}=\mathcal{P}(X)$.
 - Any [[topology/metric-space|metric space]] $(X,d)$, using the [[topology/metric-induced-topology|topology induced by the metric]].

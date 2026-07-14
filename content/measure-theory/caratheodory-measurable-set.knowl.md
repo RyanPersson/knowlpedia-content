@@ -15,6 +15,7 @@ A **Carathéodory measurable set** (with respect to an outer measure $\mu^*$ on 
 
 This condition says $E$ “splits” every set $S$ without loss of outer measure, using [[shared-foundations/intersection|intersection]] and [[shared-foundations/set-difference|set difference]]. In the [[measure-theory/caratheodory-construction|Carathéodory construction]], the collection of Carathéodory measurable sets forms a [[measure-theory/sigma-algebra|sigma-algebra]], and restricting $\mu^*$ to it gives a [[measure-theory/measure|measure]].
 
-**Examples:**
+## Examples
+
 - If $\mu^*$ is induced from a measure $\mu$ on a sigma-algebra $\Sigma$ (via the usual infimum over measurable supersets), then every $A\in\Sigma$ is Carathéodory measurable.
 - For Lebesgue outer measure on $\mathbb R$, every [[measure-theory/borel-sigma-algebra|Borel set]] is Carathéodory measurable (and in fact many more sets are as well).

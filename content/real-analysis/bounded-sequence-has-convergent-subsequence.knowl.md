@@ -13,5 +13,7 @@ $
 x_{n_j}\to x.
 $
 
+## Remarks
+
 **Connection to parent theorem**:
 This is exactly the [[topology/bolzano-weierstrass-theorem|Bolzano–Weierstrass theorem]], often recorded as a corollary once [[topology/compact-set|compactness]]/[[topology/sequentially-compact-set|sequential compactness]] is being developed.

@@ -13,8 +13,6 @@ Let $\mathcal{H}$ be a finite-dimensional Hilbert space. A **density-operator st
 1. **Positivity:** $\rho \ge 0$, meaning $\langle\psi|\rho|\psi\rangle \ge 0$ for all $|\psi\rangle \in \mathcal{H}$.
 2. **Normalization:** $\operatorname{Tr}(\rho)=1$, where $\operatorname{Tr}$ is the [[quantum-foundations/trace-operator|trace]].
 
-This is the concrete operator version of a quantum [[quantum-foundations/density-operator|density operator]].
-
 Given an observable $A$ (a self-adjoint element of the [[stat-mech-quantum/observable-algebra|observable algebra]]), the expectation value in the state $\rho$ is
 $$
 \langle A\rangle_\rho = \operatorname{Tr}(\rho A),
@@ -32,12 +30,16 @@ $$
 \rho \text{ mixed } \Longleftrightarrow \operatorname{Tr}(\rho^2)<1.
 $$
 
-## Physical interpretation
+## Remarks
+
+This is the concrete operator version of a quantum [[quantum-foundations/density-operator|density operator]].
+
+## Interpretation
 - $\rho$ encodes **all measurement statistics** for the system.
 - Mixed states represent **classical uncertainty** about which microstate was prepared and/or **entanglement with an environment**.
 - For a subsystem of a larger system, the appropriate state is the reduced density operator obtained by the [[quantum-foundations/partial-trace|partial trace]].
 
-## Key properties
+## Properties
 - **Convexity:** If $\rho_1,\rho_2$ are density operators and $0\le \lambda\le 1$, then $\rho=\lambda\rho_1+(1-\lambda)\rho_2$ is also a density operator. This formalizes “statistical mixing.”
 - **Spectral form:** Since $\rho$ is positive and trace one, it diagonalizes as
   $$

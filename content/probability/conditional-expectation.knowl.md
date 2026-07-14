@@ -15,9 +15,12 @@ $$
 
 Any two versions of $Y$ that satisfy this are equal almost surely, and one writes $Y=\mathbb E[X\mid \mathcal G]$.
 
+## Remarks
+
 Conditional expectation refines [[probability/expectation|expectation]] by restricting to information contained in $\mathcal G$; the special case $X=\mathbf 1_A$ yields [[probability/conditional-probability|conditional probability]] of an event $A$ given $\mathcal G$.
 
-**Examples:**
+## Examples
+
 - If $\mathcal G=\{\varnothing,\Omega\}$ is the trivial $\sigma$-algebra, then $\mathbb E[X\mid\mathcal G]=\mathbb E[X]$ (a constant random variable).
 - If $X$ is $\mathcal G$-measurable (in particular if $\mathcal G=\mathcal F$), then $\mathbb E[X\mid\mathcal G]=X$ almost surely.
 - If $B\in\mathcal F$ with $\mathbb P(B)\in(0,1)$ and $\mathcal G=\sigma(B)=\{\varnothing,B,B^c,\Omega\}$, then

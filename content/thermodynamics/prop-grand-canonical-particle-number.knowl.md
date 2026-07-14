@@ -8,7 +8,6 @@ domains = ["thermodynamics"]
 legacy_source_path = "thermodynamics/prop-grand-canonical-particle-number.md"
 +++
 
-## Statement
 In the [[stat-mech/grand-canonical-ensemble|grand canonical ensemble]] at inverse temperature $\beta$ and chemical potential $\mu$, let the grand partition function be
 $$
 \Xi(\beta,\mu)=\mathrm{Tr}\,\exp\!\big(-\beta(H-\mu N)\big)
@@ -17,6 +16,8 @@ $$
 $$
 \langle N\rangle \;=\; \frac{1}{\beta}\,\frac{\partial}{\partial \mu}\ln \Xi(\beta,\mu).
 $$
+
+## Equivalent characterizations
 
 Equivalently, with the [[thermodynamics/grand-potential|grand potential]] defined by $\Omega(\beta,\mu)=-(1/\beta)\ln \Xi(\beta,\mu)$,
 $$

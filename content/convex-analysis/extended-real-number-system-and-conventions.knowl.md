@@ -27,4 +27,6 @@ so that expressions like $-\infty+\infty$ never arise.
 - If a nonempty set is not bounded above, its supremum is $\infty$.
 - By convention, $\sup\emptyset=-\infty$.
 
+## Remarks
+
 **Context.** Allowing the value $\infty$ lets one encode constraints by penalties (e.g., the [[convex-analysis/indicator-function-of-a-set|indicator function]]) and avoid repeatedly restricting domains by hand.

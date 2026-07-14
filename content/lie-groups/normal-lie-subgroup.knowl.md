@@ -28,5 +28,5 @@ $$
 \operatorname{Lie}(G/N)\cong \mathfrak g/\mathfrak n.
 $$
 
-## Context
+## Remarks
 Normal Lie subgroups are the geometric mechanism for building new Lie groups from old ones by quotienting, while ideals play the parallel role on the Lie algebra side.

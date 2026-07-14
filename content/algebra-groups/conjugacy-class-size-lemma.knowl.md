@@ -14,4 +14,6 @@ $
 $
 where $[G:C_G(g)]$ is the [[algebra-groups/index-of-subgroup|index]] of $C_G(g)$ in $G$.
 
+## Remarks
+
 This is an instance of the [[algebra-groups/orbit-stabilizer-theorem|orbit–stabilizer theorem]] applied to the [[algebra-groups/conjugation-action|conjugation action]] of $G$ on itself.

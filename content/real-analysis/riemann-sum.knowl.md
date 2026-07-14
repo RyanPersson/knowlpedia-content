@@ -15,6 +15,7 @@ S(f;P,\{t_i\})=\sum_{i=1}^n f(t_i)\,(x_i-x_{i-1}).
 
 Riemann sums approximate the [[real-analysis/riemann-integral|Riemann integral]]; the approximation is controlled by the [[real-analysis/mesh-of-a-partition|mesh]] $\|P\|$ becoming small.
 
-**Examples:**
+## Examples
+
 - If $f(x)=1$ on $[a,b]$, then every Riemann sum equals $b-a$.
 - For $f(x)=x$ on $[0,1]$, take $P=\{0,\tfrac12,1\}$ and midpoint tags $t_1=\tfrac14$, $t_2=\tfrac34$. Then $S(f;P,\{t_i\})=\tfrac14\cdot\tfrac12+\tfrac34\cdot\tfrac12=\tfrac12$.

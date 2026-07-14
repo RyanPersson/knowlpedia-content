@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/fkg-inequality.md"
 +++
 
-## Statement
-
 Let $\Omega=\{-1,+1\}^\Lambda$ with $\Lambda$ finite, equipped with the product partial order $\sigma\le \eta$ iff $\sigma_i\le \eta_i$ for all $i\in\Lambda$.
 
 A function $f:\Omega\to\mathbb{R}$ is **increasing** if $\sigma\le \eta$ implies $f(\sigma)\le f(\eta)$.
@@ -21,7 +19,7 @@ $$
 
 where $(\sigma\wedge\eta)_i=\min\{\sigma_i,\eta_i\}$ and $(\sigma\vee\eta)_i=\max\{\sigma_i,\eta_i\}$.
 
-**FKG inequality (positive association).**  
+**FKG inequality (positive association).**
 If $\mu$ satisfies the FKG lattice condition, then for all bounded increasing functions $f,g$,
 $$
 \mathbb{E}_\mu[f\,g]\;\ge\;\mathbb{E}_\mu[f]\;\mathbb{E}_\mu[g],

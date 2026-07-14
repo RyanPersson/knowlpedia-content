@@ -10,6 +10,8 @@ legacy_source_path = "algebra-fields-galois/finite-field.md"
 
 A **finite field** is a [[algebra-rings/field|field]] \(F\) with finite cardinality \(|F|<\infty\). Its [[algebra-rings/characteristic|characteristic]] is a prime \(p\), so \(F\) contains a copy of \(\mathbb{F}_p\), and \(F\) is a finite-dimensional [[algebra-fields-galois/field-extension|field extension]] of \(\mathbb{F}_p\). Consequently \(|F|=p^n\) where \(n=[F:\mathbb{F}_p]\) (see [[algebra-fields-galois/degree-of-extension|degree of an extension]]).
 
+## Remarks
+
 A fundamental classification statement is: for every prime power \(q=p^n\) there exists a finite field of order \(q\), and it is unique up to (noncanonical) isomorphism (see [[algebra-fields-galois/finite-field-existence-uniqueness|existence and uniqueness of finite fields]]). Moreover, the multiplicative group \(F^\times\) is cyclic (see [[algebra-fields-galois/finite-field-multiplicative-group-cyclic|finite-field multiplicative groups are cyclic]]), and the [[algebra-fields-galois/frobenius-endomorphism|Frobenius]] controls the Galois theory of \(F/\mathbb{F}_p\) (see [[algebra-fields-galois/finite-field-galois-group-cyclic|finite-field Galois groups are cyclic]]).
 
 ### Examples

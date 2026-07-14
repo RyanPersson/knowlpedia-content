@@ -14,6 +14,8 @@ Let \(F\) be a [[algebra-rings/field|field]] of [[algebra-rings/characteristic|c
 \]
 It is a ring endomorphism because in characteristic \(p\) one has \((x+y)^p=x^p+y^p\) (all intermediate binomial coefficients are divisible by \(p\)), and \((xy)^p=x^p y^p\).
 
+## Remarks
+
 If \(F\) is a [[algebra-fields-galois/finite-field|finite field]], then \(\mathrm{Fr}_F\) is bijective (hence a [[algebra-fields-galois/field-automorphism|field automorphism]]); indeed, any injective map \(F\to F\) is automatically surjective because \(F\) is finite. More generally, in characteristic \(p\) the Frobenius is an automorphism precisely when \(F\) is [[algebra-fields-galois/perfect-field|perfect]].
 
 For \(F=\mathbb{F}_{q^n}\) over \(\mathbb{F}_q\), the \(q\)-power Frobenius \(x\mapsto x^q\) generates the [[algebra-fields-galois/galois-group|Galois group]] of the extension (see [[algebra-fields-galois/finite-field-galois-group-cyclic|finite-field Galois group is cyclic]]), and the fixed field of \(x\mapsto x^q\) is \(\mathbb{F}_q\) (compare [[algebra-fields-galois/fixed-field|fixed field]]).

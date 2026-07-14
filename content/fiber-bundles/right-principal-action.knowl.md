@@ -23,6 +23,7 @@ A smooth right action is called a **right principal action** (relative to $\pi$)
 4. (Free) If $p\cdot g=p$, then $g=e$.
 5. (Fiberwise transitive) If $\pi(p)=\pi(q)$, then there exists a unique $g\in G$ with $q=p\cdot g$.
 
+## Equivalent characterizations
 Equivalently, the map
 \[
 P\times G \longrightarrow P\times_M P,\qquad (p,g)\longmapsto (p,\,p\cdot g)

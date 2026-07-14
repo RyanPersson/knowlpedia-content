@@ -16,6 +16,8 @@ I_1 \supseteq I_2 \supseteq I_3 \supseteq \cdots
 \]
 there exists $N$ such that $I_n=I_N$ for all $n\ge N$.
 
+## Equivalent characterizations
+
 Equivalently, every nonempty set of ideals of $R$ has a minimal element under inclusion.
 
 ## Key consequences in the commutative case
@@ -24,13 +26,13 @@ Equivalently, every nonempty set of ideals of $R$ has a minimal element under in
 - The Jacobson radical (the [[algebra-commutative/jacobson-radical-intersection-maximals|intersection of maximal ideals]]) is nilpotent, and $R$ decomposes as a finite product of Artinian local rings; this is closely related to the [[algebra-rings/chinese-remainder-theorem|Chinese remainder theorem]].
 
 ## Examples
-1. **Fields.**  
+1. **Fields.**
    Any [[algebra-rings/field|field]] is Artinian: its only ideals are $(0)$ and $(1)$.
 
-2. **Finite quotients of $\mathbb{Z}$.**  
+2. **Finite quotients of $\mathbb{Z}$.**
    $\mathbb{Z}/n\mathbb{Z}$ is Artinian (it is finite, so it has only finitely many ideals). For instance, $\mathbb{Z}/12\mathbb{Z}$ is Artinian.
 
-3. **Truncated polynomial rings.**  
+3. **Truncated polynomial rings.**
    If $k$ is a field, then $k[x]/(x^n)$ is Artinian: the ideals are $(0)\subset (x^{n-1})\subset \cdots \subset (x)\subset (1)$, so every descending chain stabilizes.
 
 (As a contrast, $k[x]$ is Noetherian but not Artinian: the descending chain $(x)\supset (x^2)\supset (x^3)\supset \cdots$ never stabilizes.)

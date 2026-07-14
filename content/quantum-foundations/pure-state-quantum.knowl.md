@@ -34,4 +34,6 @@ If \(A\) is an observable (a self-adjoint operator; see [[quantum-foundations/se
 \langle A\rangle_\psi = \operatorname{Tr}(\rho_\psi A).
 \]
 
+## Remarks
+
 Pure states are the extreme points of the convex set of all density operators; mixtures of distinct pure states produce [[quantum-foundations/mixed-state-quantum|mixed-state-quantum]].

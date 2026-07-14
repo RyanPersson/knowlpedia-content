@@ -17,8 +17,12 @@ where $\mathrm{rGL}(K)$ is the [[shale-paper/restricted-general-linear-group-rgl
 In Shale's Theorem 4.1 (Fock–Cook quantization), \(T\) is unitarily implementable iff \(T\in rSp(K)\),
 equivalently \((T^*T)^{1/2}-I\) is [[shale-paper/hilbert-schmidt-operator|Hilbert–Schmidt]].
 
+## Remarks
+
 **Key properties:**
 - Closed under [[shale-paper/polar-decomposition|polar decomposition]].
 - Carries a continuous projective unitary representation \(\overline{Y}\).
 
-**Example:** Finite-dimensional case: \(rSp(K)=Sp(K)\).
+## Examples
+
+- Finite-dimensional case: \(rSp(K)=Sp(K)\).

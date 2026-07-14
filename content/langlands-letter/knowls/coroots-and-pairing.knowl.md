@@ -10,10 +10,14 @@ legacy_source_path = "langlands-letter/knowls/coroots-and-pairing.md"
 
 For a root $\alpha\in \Phi\subset X^*(T)$, the **coroot** is a cocharacter $\alpha^\vee\in X_*(T)$.
 
+## Equivalent characterizations
+
 Equivalently, one chooses an element $H_\alpha$ in the (split) Cartan Lie algebra such that $\alpha(H_\alpha)=2$; then for a weight $\lambda\in X^*(T)$,
 $
 \langle \lambda,\alpha^\vee\rangle := \lambda(H_\alpha)\in \mathbb{Z}.
 $
+
+## Remarks
 
 **Key uses:**
 - Dominance: $\lambda$ is dominant iff $\langle \lambda,\alpha^\vee\rangle\ge 0$ for all simple $\alpha$ (see [[langlands-letter/knowls/roots-weights-weyl|dominant weights]]).

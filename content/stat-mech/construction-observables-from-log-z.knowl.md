@@ -78,7 +78,7 @@ where $\mathrm{Cov}$ is the [[probability/covariance|covariance]] of the joint f
 
 A useful viewpoint is that $\log Z$ and $\log \Xi$ are **cumulant generating objects** for the observables conjugate to the parameters. This is formalized in constructions like [[stat-mech/construction-cumulant-generating-function|cumulant generating functions]] and [[stat-mech/construction-connected-correlations-cumulants|connected correlations as cumulants]].
 
-## Physical interpretation
+## Interpretation
 
 - First derivatives of $\log Z$ or $\log \Xi$ give equilibrium “equations of state” (mean values of conserved or conjugate quantities).
 - Second derivatives quantify equilibrium fluctuations and linear response (susceptibilities), linking to [[stat-mech/susceptibility-stat-mech|susceptibility]] and related response coefficients.

@@ -19,7 +19,8 @@ M \xrightarrow{\,f\,} N \to \operatorname{coker}(f) \to 0.
 
 Cokernels are the natural “targets” that make maps surjective by force, dual to how kernels make maps injective by force.
 
-**Examples:**
+## Examples
+
 - For $f:\mathbb Z\to\mathbb Z$ given by $f(n)=kn$ with $k\ne 0$, one has $\operatorname{coker}(f)\cong \mathbb Z/k\mathbb Z$.
 - If $i:N\hookrightarrow M$ is the inclusion of a submodule, then $\operatorname{coker}(i)\cong M/N$.
 - (Edge case) If $f$ is surjective, then $\operatorname{coker}(f)=0$.

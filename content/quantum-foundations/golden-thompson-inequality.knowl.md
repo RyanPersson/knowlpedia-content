@@ -14,6 +14,8 @@ Let \(A\) and \(B\) be Hermitian (self-adjoint) matrices (equivalently, finite-d
 \]
 where \(e^{X}\) denotes the matrix exponential and \(\operatorname{Tr}\) is the trace (see [[quantum-foundations/trace-operator|trace-operator]]).
 
+## Equivalent characterizations
+
 Using cyclicity of the trace, the right-hand side can also be written as
 \[
 \operatorname{Tr}\!\big(e^{A}e^{B}\big)=\operatorname{Tr}\!\big(e^{A/2}e^{B}e^{A/2}\big).

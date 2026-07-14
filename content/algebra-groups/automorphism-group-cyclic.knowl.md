@@ -16,7 +16,11 @@ $$
 
 where $(\mathbb Z/n\mathbb Z)^\times$ denotes the [[algebra-rings/group-of-units|group of units]] of the ring $\mathbb Z/n\mathbb Z$.
 
+## Equivalent characterizations
+
 Equivalently: if $G=\langle g\rangle$, then every automorphism $\alpha\in \mathrm{Aut}(G)$ is uniquely determined by $\alpha(g)=g^k$ with $\gcd(k,n)=1$, and composition corresponds to multiplication of $k$ modulo $n$.
+
+## Remarks
 
 **Context.**
 This makes automorphisms of cyclic groups completely explicit: an automorphism is exactly the choice of a generator-image. The group $\mathrm{Aut}(G)$ itself is a central object in extension theory and semidirect products.

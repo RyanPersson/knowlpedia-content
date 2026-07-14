@@ -15,11 +15,16 @@ $$
 \overline{E}:=\bigcap\{\,F\subset X \mid F \text{ is closed and } E\subset F\,\}.
 $$
 
+## Equivalent characterizations
+
 Equivalently, $\overline{E}$ is the **smallest** [[convex-analysis/closed-subset|closed set]] containing $E$.
+
+## Remarks
 
 A useful pointwise characterization is given by [[convex-analysis/closure-characterized-by-ball-intersections|ball intersections]], and in metric spaces there is also a sequence characterization (see [[convex-analysis/closure-characterized-by-convergent-sequences|closure via sequences]]).
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$, $\overline{(0,1)}=[0,1]$.
 - If $E$ is closed, then $\overline{E}=E$.
 - If $E$ is dense in $X$ (e.g., $\mathbb{Q}$ in $\mathbb{R}$), then $\overline{E}=X$.

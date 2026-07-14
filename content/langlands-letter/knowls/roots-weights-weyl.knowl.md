@@ -18,4 +18,6 @@ The **Weyl group** is $W:=N_G(T)/T$; it acts on $X^*(T)$, and a **Weyl chamber**
 
 A weight $\lambda\in X^*(T)$ is **dominant** if $\langle \lambda,\alpha^\vee\rangle\ge 0$ for all $\alpha\in\Delta$; irreducible algebraic representations of $G$ are classified by their highest dominant weight.
 
-**Example:** For $G=\mathrm{GL}_n$, $\Phi=\{e_i-e_j\}$ and $W\cong S_n$ permutes the $e_i$.
+## Examples
+
+- For $G=\mathrm{GL}_n$, $\Phi=\{e_i-e_j\}$ and $W\cong S_n$ permutes the $e_i$.

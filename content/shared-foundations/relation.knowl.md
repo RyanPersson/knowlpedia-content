@@ -15,8 +15,11 @@ $$
 
 where $A\times B$ is the [[shared-foundations/cartesian-product|Cartesian product]]. If $(a,b)\in R$, one often writes $a\,R\,b$.
 
+## Remarks
+
 A relation **on** a set $A$ means a relation from $A$ to itself, i.e. a subset of $A\times A$. Special kinds of relations include [[shared-foundations/equivalence-relation|equivalence relations]], which encode “having the same type” in a precise sense.
 
-**Examples:**
+## Examples
+
 - The “less than or equal to” relation on $\mathbb{Z}$ is $R=\{(m,n)\in\mathbb{Z}\times\mathbb{Z}: m\le n\}$.
 - For any set $A$, the equality relation on $A$ is $\{(a,a): a\in A\}\subseteq A\times A$.

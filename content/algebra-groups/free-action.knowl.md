@@ -12,9 +12,12 @@ A [[algebra-groups/group-action|group action]] of a group $G$ on a set $X$ is **
 "$g\cdot x = x$ for some $x$"
 forces $g=e$.
 
+## Remarks
+
 Free actions are one half of the definition of a [[algebra-groups/regular-action|regular action]] (free + transitive).
 
-**Examples:**
+## Examples
+
 - The left translation action of $G$ on itself is free.
 - The action of $G$ on the coset space $G/H$ by left multiplication is free iff $H=\{e\}$.
 - The action of $C_n$ on the vertices of a regular $n$-gon by rotation is free when restricted to the vertex set (no nontrivial rotation fixes a vertex).

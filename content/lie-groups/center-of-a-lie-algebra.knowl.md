@@ -24,4 +24,6 @@ $$
 
 - $\mathfrak{g}$ is [[lie-groups/abelian-lie-algebra|abelian]] exactly when $Z(\mathfrak{g})=\mathfrak{g}$.
 
+## Remarks
+
 **Context.** The center measures how far $\mathfrak{g}$ is from being faithful under its own adjoint action. It is also the natural coefficient space for central extensions: a quotient by a central ideal is a [[lie-groups/quotient-lie-algebra|quotient Lie algebra]] where “extra commuting directions” have been collapsed.

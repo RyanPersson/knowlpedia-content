@@ -10,7 +10,6 @@ legacy_source_path = "algebra-homological/injective-resolutions-exist.md"
 
 Let \(R\) be a ring and \(M\) a left \(R\)-[[algebra-modules/module|module]].
 
-## Statement
 An **[[algebra-homological/injective-resolution|injective resolution]]** of \(M\) is an exact augmented [[algebra-homological/cochain-complex|cochain complex]]
 \[
 0 \to M \xrightarrow{\iota} I^0 \xrightarrow{d^0} I^1 \xrightarrow{d^1} I^2 \xrightarrow{d^2} \cdots
@@ -19,9 +18,15 @@ such that each \(I^n\) is an [[algebra-modules/injective-module|injective module
 
 **Theorem (existence).** Every \(R\)-module \(M\) admits an injective resolution.
 
+## Equivalent characterizations
+
 Equivalently, the category of \(R\)-modules has **enough injectives**: every module embeds into an injective module.
 
+## Remarks
+
 A standard route to this theorem uses either injective envelopes or explicit “large” injective modules constructed via character modules; [[algebra-modules/baers-criterion|Baer’s criterion]] is a key tool in many proofs and examples.
+
+Cross-links: [[algebra-homological/injective-resolution|injective resolutions]], [[algebra-homological/hom-left-exact|left exactness of Hom]], [[algebra-homological/derived-functor|derived functors]].
 
 ## Construction (iterating embeddings)
 1. Choose a monomorphism \(M \hookrightarrow I^0\) with \(I^0\) injective.
@@ -33,8 +38,6 @@ Splicing the resulting short exact sequences yields an exact cochain complex
 0 \to M \to I^0 \to I^1 \to I^2 \to \cdots
 \]
 as required.
-
-Cross-links: [[algebra-homological/injective-resolution|injective resolutions]], [[algebra-homological/hom-left-exact|left exactness of Hom]], [[algebra-homological/derived-functor|derived functors]].
 
 ## Examples
 

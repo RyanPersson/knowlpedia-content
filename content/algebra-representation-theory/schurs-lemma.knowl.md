@@ -12,12 +12,15 @@ Let \(G\) be a group and let \(k\) be a field. A (finite-dimensional) \(k\)-[[al
 \[
 f(\rho_V(g)v) \;=\; \rho_W(g)f(v)\quad \text{for all } g\in G,\ v\in V.
 \]
+
+## Equivalent characterizations
+
 Equivalently, \(f\) is a [[algebra-modules/module-homomorphism|module homomorphism]] for \(kG\)-modules, where \(kG\) is the [[algebra-representation-theory/group-algebra|group algebra]].
 
 ## Theorem (Schur's Lemma)
 Let \(V,W\) be [[algebra-representation-theory/irreducible-representation|irreducible representations]] of \(G\) over \(k\). Then:
 
-1. Every nonzero \(G\)-intertwiner \(f:V\to W\) is an isomorphism.  
+1. Every nonzero \(G\)-intertwiner \(f:V\to W\) is an isomorphism.
    In particular, if \(V\not\cong W\), then \(\mathrm{Hom}_G(V,W)=0\).
 
 2. The endomorphism ring \(\mathrm{End}_G(V)=\mathrm{Hom}_G(V,V)\) is a **division ring** (every nonzero element is invertible).
@@ -27,6 +30,8 @@ Let \(V,W\) be [[algebra-representation-theory/irreducible-representation|irredu
 \mathrm{End}_G(V) \;=\; k\cdot \mathrm{id}_V,
 \]
 i.e. every \(G\)-equivariant endomorphism is scalar multiplication.
+
+## Remarks
 
 This result is frequently paired with character theory and the corollary that central elements act by scalars on irreducibles (see [[algebra-representation-theory/schur-corollary|Schur's corollary]]).
 
@@ -40,7 +45,7 @@ f(\chi(g)v)=\psi(g)f(v)
 for all \(g\), and choosing \(g\) with \(\chi(g)\neq \psi(g)\) implies \(f(v)=0\). If \(\chi=\psi\), then \(\mathrm{End}_{C_n}(\mathbb{C}_\chi)=\mathbb{C}\).
 
 ### Example 2: The standard 2D irreducible of \(S_3\)
-Let \(V\) be the standard 2-dimensional [[algebra-representation-theory/irreducible-representation|irreducible representation]] of \(S_3\) (e.g. the reflection representation on the plane of an equilateral triangle). Schur’s lemma over \(\mathbb{C}\) says any \(S_3\)-equivariant \(T:V\to V\) must be of the form \(T=\lambda I\).  
+Let \(V\) be the standard 2-dimensional [[algebra-representation-theory/irreducible-representation|irreducible representation]] of \(S_3\) (e.g. the reflection representation on the plane of an equilateral triangle). Schur’s lemma over \(\mathbb{C}\) says any \(S_3\)-equivariant \(T:V\to V\) must be of the form \(T=\lambda I\).
 So the commutant \(\{T\in \mathrm{End}(V): T\rho(g)=\rho(g)T \ \forall g\}\) is exactly \(\mathbb{C}\cdot I\).
 
 ### Example 3: A real irreducible where \(\mathrm{End}_G(V)\neq \mathbb{R}\)

@@ -14,9 +14,12 @@ $
 $
 the [[algebra-groups/generated-subgroup|subgroup generated]] by all [[algebra-groups/commutator|commutators]] of elements of $G$.
 
+## Remarks
+
 The commutator subgroup is a [[algebra-groups/normal-subgroup|normal subgroup]] of $G$. The quotient [[algebra-groups/quotient-group|quotient group]] $G/[G,G]$ is abelian, and $[G,G]$ is the smallest normal subgroup $N\lhd G$ for which $G/N$ is abelian (equivalently: $G/[G,G]$ is the "largest" abelian quotient of $G$). Iterating commutator subgroups yields the [[algebra-groups/derived-series|derived series]], central to solvability.
 
-**Examples:**
+## Examples
+
 - If $G$ is abelian, then $[G,G]=\{e\}$.
 - In $S_3$, one has $[S_3,S_3]=A_3$ (the alternating subgroup of order $3$).
 - In the dihedral group $D_8=\langle r,s\mid r^4=s^2=e,\ srs=r^{-1}\rangle$, the commutator subgroup is $\{e,r^2\}$.

@@ -13,10 +13,14 @@ For \(T\in Sp(K)\), \(\theta(T)\) is the unique *-automorphism of the CCR \(C^*\
 \theta(T)\,e^{iR(z)} = e^{iR(Tz)}.
 \]
 
+## Remarks
+
 It induces an action on states by pullback:
 \(\theta^*(T)E(X)=E(\theta(T)^{-1}X)\).
 
 **Key property (paper use):**
 - \(E\sim \theta^*(T)E\) holds exactly when \(T\) is unitarily implementable in the chosen quantization.
 
-**Example:** In finite dimensions, metaplectic operators implement \(\theta(T)\) projectively.
+## Examples
+
+- In finite dimensions, metaplectic operators implement \(\theta(T)\) projectively.

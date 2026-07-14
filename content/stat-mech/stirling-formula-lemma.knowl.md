@@ -10,7 +10,6 @@ legacy_source_path = "stat-mech/stirling-formula-lemma.md"
 
 Stirling’s formula is a basic asymptotic tool for combinatorial and phase-space counting, and it is frequently used when connecting microscopic counting to [[stat-mech/boltzmann-entropy-microcanonical|Boltzmann entropy]] and to information-theoretic quantities like [[probability/shannon-entropy|Shannon entropy]].
 
-## Statement
 As $n\to\infty$,
 $$
 n! \sim \sqrt{2\pi n}\,\Big(\frac{n}{e}\Big)^n.

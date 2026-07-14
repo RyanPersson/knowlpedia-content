@@ -12,6 +12,7 @@ A **limit at a point** for a [[shared-foundations/function|function]] $f:D\to\ma
 
 The inequalities use the [[real-analysis/absolute-value|absolute value]] to measure distance on the real line. One-sided variants are captured by the [[real-analysis/one-sided-limit|one-sided limit]].
 
-**Examples:**
+## Examples
+
 - If $f(x)=x^2$, then $\lim_{x\to 2} f(x)=4$.
 - If $g(x)=\begin{cases}1,&x>0\\-1,&x<0\end{cases}$ on $D=\mathbb R\setminus\{0\}$, then $\lim_{x\to 0} g(x)$ does not exist.

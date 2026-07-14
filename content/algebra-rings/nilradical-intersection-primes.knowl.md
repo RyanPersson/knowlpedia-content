@@ -14,4 +14,6 @@ legacy_source_path = "algebra-rings/nilradical-intersection-primes.md"
 \]
 i.e., an element is nilpotent if and only if it lies in every prime ideal. Equivalently, $\mathrm{Nil}(R)=\sqrt{(0)}$.
 
+## Remarks
+
 The [[algebra-rings/nilradical|nilradical]] is the ideal of all [[algebra-rings/nilpotent-element|nilpotent elements]]; this proposition expresses it as an intersection of [[algebra-rings/prime-ideal|prime ideals]]. Equivalently, it is the [[algebra-rings/radical-of-ideal|radical]] of $(0)$, so $R/\mathrm{Nil}(R)$ is [[algebra-rings/reduced-ring|reduced]].

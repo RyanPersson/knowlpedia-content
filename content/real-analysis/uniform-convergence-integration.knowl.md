@@ -14,4 +14,6 @@ legacy_source_path = "real-analysis/uniform-convergence-integration.md"
 \]
 where the series of real numbers on the right converges.
 
+## Remarks
+
 In applications, uniform convergence of $(s_N)$ is often established using the [[real-analysis/weierstrass-m-test|Weierstrass M-test]].

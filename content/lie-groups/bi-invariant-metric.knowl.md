@@ -24,6 +24,8 @@ $$
 \quad\text{for all } g\in G,\; X,Y\in \mathfrak{g}.
 $$
 
+## Remarks
+
 **Consequences.** For a bi-invariant metric, geodesics through the identity are precisely [[lie-groups/one-parameter-subgroup|one-parameter subgroups]] $t\mapsto \exp(tX)$ (compare [[lie-groups/exponential-one-parameter-subgroup-lemma|the exponential/one-parameter subgroup lemma]]). Existence is special: every [[lie-groups/compact-lie-group|compact Lie group]] admits one (see [[lie-groups/compact-lie-group-bi-invariant-metric|bi-invariant metrics on compact Lie groups]]), while many non-compact groups do not.
 
 **Example of a canonical source.** On a semisimple Lie algebra, the [[lie-groups/killing-form|Killing form]] provides an $\mathrm{Ad}$-invariant bilinear form; for compact semisimple groups, its negative is positive definite and yields a bi-invariant metric.

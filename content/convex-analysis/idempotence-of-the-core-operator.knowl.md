@@ -15,4 +15,8 @@ $$
 \operatorname{core}(\operatorname{core}(\Omega))=\operatorname{core}(\Omega).
 $$
 
-Here [[convex-analysis/algebraic-interior-core|core]] denotes the algebraic interior. This follows from [[convex-analysis/segments-from-core-points-stay-in-the-core|segments from core points stay in the core]]: once a point is in $\operatorname{core}(\Omega)$, small segment perturbations remain inside, so taking the core again does not remove any points.
+Here [[convex-analysis/algebraic-interior-core|core]] denotes the algebraic interior.
+
+## Remarks
+
+This follows from [[convex-analysis/segments-from-core-points-stay-in-the-core|segments from core points stay in the core]]: once a point is in $\operatorname{core}(\Omega)$, small segment perturbations remain inside, so taking the core again does not remove any points.

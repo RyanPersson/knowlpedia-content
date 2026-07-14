@@ -14,4 +14,6 @@ legacy_source_path = "real-analysis/uniform-convergence-supnorm.md"
 \]
 where $\|g\|_\infty=\sup_{x\in E}|g(x)|$ is the [[real-analysis/supremum-norm|supremum norm]].
 
+## Remarks
+
 In particular, uniform convergence is exactly convergence in the metric induced by the supremum norm, which underlies the [[real-analysis/space-of-continuous-functions|space of continuous functions]] equipped with $\|\cdot\|_\infty$.

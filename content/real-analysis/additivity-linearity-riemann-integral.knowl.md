@@ -19,4 +19,6 @@ $\int_a^b (\alpha f+\beta g)\,d\gamma = \alpha\int_a^b f\,d\gamma+\beta\int_a^b 
 Moreover, for any $c\in[a,b]$,
 $\int_a^b f\,d\gamma=\int_a^c f\,d\gamma+\int_c^b f\,d\gamma.$
 
+## Remarks
+
 These are the basic algebraic rules that make integration behave like a linear functional and allow [[real-analysis/interval|interval]] decomposition.

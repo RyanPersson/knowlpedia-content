@@ -20,6 +20,8 @@ $$
 G_{AB}(r) := \langle A_0\,B_r\rangle.
 $$
 
+## Remarks
+
 This object is distinct from, but closely related to, the [[stat-mech/connected-correlation-function|connected correlation function]], which removes the part coming from the separate one-point means.
 
 ## Connected vs. unconnected

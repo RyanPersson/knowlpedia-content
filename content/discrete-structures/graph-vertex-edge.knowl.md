@@ -19,6 +19,8 @@ If \(\{u,v\}\in E\), then:
 - \(u\) and \(v\) are **adjacent** (neighbors), and
 - the edge is **incident** to each of its endpoints.
 
+## Remarks
+
 **Common notation.** In a simple undirected graph, the edge \(\{u,v\}\) is often written as \(uv\).
 
 **Degree.** The **degree** of a vertex \(u\) is

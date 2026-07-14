@@ -16,15 +16,17 @@ Let \(K\) be a [[algebra-rings/field|field]] and \(f(x)\in K[x]\) be nonzero. In
 
 When these conditions hold, \(f\) is called **separable**. In particular, an [[algebra-fields-galois/algebraic-element|algebraic element]] \(\alpha\) is [[algebra-fields-galois/separable-element|separable]] over \(K\) precisely when its minimal polynomial (over \(K\)) has distinct roots in \(\overline K\).
 
+## Remarks
+
 A useful characteristic-\(p\) test: if \(\mathrm{char}(K)=p>0\), then \(f'=0\) iff \(f(x)=g(x^p)\) for some \(g\in K[x]\); in that case \(f\) cannot be separable unless \(\deg(f)=1\).
 
 ### Examples
 
-1. **Characteristic \(0\): always distinct for irreducibles.**  
+1. **Characteristic \(0\): always distinct for irreducibles.**
    Over \(\mathbb{Q}\), \(f(x)=x^3-2\) has derivative \(f'(x)=3x^2\), and \(\gcd(f,f')=1\), so its three complex roots are distinct in its [[algebra-fields-galois/splitting-field|splitting field]].
 
-2. **A purely inseparable example.**  
+2. **A purely inseparable example.**
    Over \(K=\mathbb{F}_p(t)\), the polynomial \(f(x)=x^p-t\) satisfies \(f'(x)=px^{p-1}=0\). In \(\overline K\), it has a single root \(\alpha=t^{1/p}\) with multiplicity \(p\), so \(f\) is not separable and \(\alpha\) is not a [[algebra-fields-galois/separable-element|separable element]] over \(K\).
 
-3. **A separable polynomial in characteristic \(p\).**  
+3. **A separable polynomial in characteristic \(p\).**
    Over \(K=\mathbb{F}_p\), \(f(x)=x^p-x\) has derivative \(f'(x)=-1\neq 0\), hence \(\gcd(f,f')=1\). It splits as \(\prod_{a\in \mathbb{F}_p}(x-a)\) with distinct roots (indeed it cuts out the prime field).

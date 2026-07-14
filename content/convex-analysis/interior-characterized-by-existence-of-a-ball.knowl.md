@@ -14,6 +14,8 @@ $$
 a\in \operatorname{int}(E)\quad\Longleftrightarrow\quad \exists\,\delta>0 \text{ such that } B(a;\delta)\subset E.
 $$
 
+## Remarks
+
 **Context.** This equivalence connects the "union of all open subsets" definition of [[convex-analysis/interior-of-a-set|interior]] to the ball-based definition of openness in metric spaces.
 
 **Proof sketch.**

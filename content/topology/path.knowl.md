@@ -12,6 +12,7 @@ A **path** in a [[topology/topological-space|topological space]] $X$ is a [[topo
 
 Paths are the basic objects used to define [[topology/path-connected-set|path-connectedness]] and are a special case of a [[topology/curve|curve]].
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}^2$, for points $a,b\in\mathbb{R}^2$, the map $\gamma(t)=(1-t)a+tb$ is a path from $a$ to $b$.
 - The map $\gamma(t)=(\cos(2\pi t),\sin(2\pi t))$ is a path in the unit circle with $\gamma(0)=\gamma(1)$ (a loop).

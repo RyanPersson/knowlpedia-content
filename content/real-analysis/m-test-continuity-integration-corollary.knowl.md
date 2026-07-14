@@ -21,5 +21,7 @@ Let $X$ be a set and let $f_n:X\to\mathbb{R}$ (or $\mathbb{C}$). Suppose:
   $
   (term-by-term integration).
 
+## Remarks
+
 **Connection to parent theorems**:
 Combine the Weierstrass M-test with the uniform limit theorem for continuity and the [[real-analysis/uniform-limit-of-integrable-functions|uniform convergence-and-integration theorem]].

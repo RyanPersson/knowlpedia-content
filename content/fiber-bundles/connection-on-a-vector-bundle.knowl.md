@@ -18,7 +18,13 @@ such that for all $X,Y\in\mathfrak X(M)$, $s\in\Gamma(E)$, and $f\in C^\infty(M)
 1. $\nabla_{X+Y}s=\nabla_X s+\nabla_Y s$ and $\nabla_{fX}s=f\,\nabla_X s$ (so it is $C^\infty(M)$-linear in the vector field), and
 2. $\nabla_X(fs)=X(f)\,s+f\,\nabla_X s$ (the [[fiber-bundles/leibniz-rule-for-a-connection|Leibniz rule]] in the section slot).
 
-The expression $\nabla_X s$ is called the [[fiber-bundles/covariant-derivative-of-a-section|covariant derivative of the section]] $s$ along $X$. Equivalently, a connection is an $\mathbb R$-linear operator $\nabla:\Gamma(E)\to\Gamma(T^*M\otimes E)$ such that $\nabla(fs)=df\otimes s+f\,\nabla s$, where $df$ is the 1-form obtained by differentiating $f$.
+The expression $\nabla_X s$ is called the [[fiber-bundles/covariant-derivative-of-a-section|covariant derivative of the section]] $s$ along $X$.
+
+## Equivalent characterizations
+
+Equivalently, a connection is an $\mathbb R$-linear operator $\nabla:\Gamma(E)\to\Gamma(T^*M\otimes E)$ such that $\nabla(fs)=df\otimes s+f\,\nabla s$, where $df$ is the 1-form obtained by differentiating $f$.
+
+## Remarks
 
 Connections on associated vector bundles are often constructed from a [[fiber-bundles/principal-connection|principal connection]] on a principal bundle.
 

@@ -13,8 +13,11 @@ The **real numbers** are a [[shared-foundations/set|set]] $\mathbb{R}$ containin
 2. The order is compatible with the operations: if $a\le b$ then $a+c\le b+c$, and if $0\le a$ and $0\le b$ then $0\le ab$.
 3. (Completeness) Every nonempty subset $A\subseteq\mathbb{R}$ that has an [[shared-foundations/upper-bound|upper bound]] in $\mathbb{R}$ has a least upper bound in $\mathbb{R}$; that is, there exists $u\in\mathbb{R}$ such that $u$ is an upper bound of $A$, and for every upper bound $v$ of $A$ one has $u\le v$.
 
+## Remarks
+
 The completeness property is what distinguishes $\mathbb{R}$ from $\mathbb{Q}$ and underlies much of analysis. The usual inclusion $\mathbb{Q}\subseteq\mathbb{R}$ identifies each rational number with a real number.
 
-**Examples:**
+## Examples
+
 - The number $\sqrt{2}$ is a real number but not a rational number.
 - Every rational number, such as $5/7$, is also a real number.

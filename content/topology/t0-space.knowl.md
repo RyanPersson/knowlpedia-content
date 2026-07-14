@@ -12,6 +12,7 @@ A **T0 space** is a [[topology/topological-space|topological space]] $X$ such th
 
 This is the weakest of the common separation axioms; it is implied by being [[topology/t1-space|T1]], and hence by being [[topology/hausdorff-space|Hausdorff]].
 
-**Examples:**
+## Examples
+
 - The Sierpiński space on $\{0,1\}$ with open sets $\varnothing$, $\{1\}$, and $\{0,1\}$ is T0 but not T1.
 - Any [[topology/metric-space|metric space]] is T0 (in fact, it is Hausdorff).

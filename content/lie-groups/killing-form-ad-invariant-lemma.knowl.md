@@ -13,13 +13,14 @@ Let $\mathfrak g$ be a finite-dimensional [[lie-groups/lie-algebra|Lie algebra]]
 B(x,y)=\mathrm{tr}(\mathrm{ad}_x\mathrm{ad}_y).
 \]
 
-**Lemma (ad-invariance).**  
+**Lemma (ad-invariance).**
 For all $x,y,z\in\mathfrak g$,
 \[
 B([x,y],z)=B(x,[y,z]).
 \]
 Equivalently, $B(\mathrm{ad}_y x,z)+B(x,\mathrm{ad}_y z)=0$, i.e. each $\mathrm{ad}_y$ is skew-adjoint with respect to $B$.
 
+## Remarks
 
-**Context.**  
+**Context.**
 Ad-invariance is the structural feature that makes the Killing form useful in studying ideals and decompositions; it is crucial in the proof that [[lie-groups/killing-form-nondegenerate-iff-semisimple|nondegeneracy of B is equivalent to semisimplicity]].

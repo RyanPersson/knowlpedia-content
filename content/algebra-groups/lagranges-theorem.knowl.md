@@ -16,4 +16,6 @@ $$
 
 where $[G:H]$ is the [[algebra-groups/index-of-subgroup|index]] of $H$ in $G$. In particular, $|H|$ divides $|G|$.
 
+## Remarks
+
 This is the basic divisibility theorem for finite groups and is the starting point for many counting arguments. A standard consequence is [[algebra-groups/order-divides-group-order|the fact that the order of an element divides the order of the group]].

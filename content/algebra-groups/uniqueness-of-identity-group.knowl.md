@@ -12,5 +12,7 @@ legacy_source_path = "algebra-groups/uniqueness-of-identity-group.md"
 Let $G$ be a [[algebra-groups/group|group]] with binary operation written multiplicatively. An element $e\in G$ is called an **identity element** if for every $g\in G$ one has $eg=g$ and $ge=g$.
 If $e,e'\in G$ are both identity elements, then $e=e'$.
 
+## Remarks
+
 **Context.**
 This shows that "the" identity element of a group is well-defined (not dependent on choices).

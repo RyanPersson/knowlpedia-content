@@ -15,7 +15,7 @@ if systems 1 and 2 are in thermal equilibrium, then $T_1 = T_2$.
 
 For a single extended system, “internal” thermal equilibrium means there are no sustained temperature gradients driving heat currents (a prerequisite for [[thermodynamics/thermodynamic-equilibrium|thermodynamic equilibrium]]).
 
-## Physical interpretation
+## Interpretation
 Thermal equilibrium is the state in which energy exchange has no preferred direction: neither system can increase total [[thermodynamics/thermodynamic-entropy|entropy]] by sending a small amount of energy to the other purely as heat. A [[thermodynamics/thermal-reservoir|thermal reservoir]] is an idealized system that remains at effectively fixed temperature despite exchanging finite heat; bringing a system into contact with a reservoir drives it toward the reservoir’s temperature.
 
 ## Key relation: entropy maximization and equality of temperature

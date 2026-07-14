@@ -21,4 +21,6 @@ Moreover:
 - $A \trianglelefteq G$ if and only if $A/N \trianglelefteq G/N$, and
 - if $[G:A]$ is finite, then $[G:A] = [G/N : A/N]$.
 
+## Remarks
+
 This theorem explains how the subgroup lattice of a [[algebra-groups/quotient-group|quotient group]] $G/N$ is "the same as" the lattice of subgroups of $G$ containing $N$. It is a standard tool for building and comparing chains of subgroups, especially in the study of normal series.

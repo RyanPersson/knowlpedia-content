@@ -14,6 +14,7 @@ A \subseteq \bigcup_{i\in I} U_i.
 \]
 Covers are often presented as an [[shared-foundations/indexed-family-of-sets|indexed family of sets]], and the condition above says that the [[shared-foundations/union|union]] of the family contains $A$. In topology, one frequently restricts to an [[topology/open-cover|open cover]].
 
-**Examples:**
+## Examples
+
 - In $\mathbb{R}$, the family $\{(n-1,n+1)\}_{n\in\mathbb{Z}}$ covers $\mathbb{R}$.
 - For $A=[0,1]\subseteq \mathbb{R}$, the sets $U_1=(-1,1/2)$ and $U_2=(0,2)$ form a cover of $A$.

@@ -18,4 +18,6 @@ where $|a_n|$ denotes the [[real-analysis/absolute-value|absolute value]] of the
 - If $L>1$ (including $L=\infty$), then $\sum_{n=1}^\infty a_n$ is [[real-analysis/divergent-series|divergent]].
 - If $L=1$, the test is inconclusive.
 
+## Remarks
+
 The root test is especially natural for [[real-analysis/power-series|power series]] and is closely related to the [[real-analysis/cauchy-hadamard-theorem|Cauchy–Hadamard theorem]]; compare also the [[real-analysis/ratio-test|ratio test]].

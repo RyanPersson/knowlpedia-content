@@ -32,7 +32,7 @@ where $\langle\cdot\rangle_\beta$ is the thermal [[stat-mech-quantum/quantum-exp
 
 This is the quantum analogue of the classical [[stat-mech/correlation-function-two-point|two-point correlation function]].
 
-## Physical interpretation
+## Interpretation
 
 Two-point correlation functions quantify:
 
@@ -42,9 +42,9 @@ Two-point correlation functions quantify:
 
 In equilibrium, correlation functions are time-translation invariant and obey characteristic “imaginary-time” relations captured by the [[stat-mech-quantum/kms-condition-finite|KMS condition (finite)]].
 
-## Key properties
+## Properties
 
-1. **Spectral (energy-eigenbasis) representation.**  
+1. **Spectral (energy-eigenbasis) representation.**
    If $H|n\rangle=E_n|n\rangle$ and $A_{nm}=\langle n|A|m\rangle$, then for the Gibbs state,
    $$
    G_{A,B}(t)\;=\;\frac{1}{Z(\beta)}\sum_{n,m} e^{-\beta E_n}\,e^{it(E_n-E_m)}\,A_{nm}\,B_{mn},
@@ -52,10 +52,10 @@ In equilibrium, correlation functions are time-translation invariant and obey ch
 
    where $Z(\beta)$ is the [[stat-mech-quantum/quantum-partition-function|quantum partition function]].
 
-2. **Equilibrium (stationarity).**  
+2. **Equilibrium (stationarity).**
    In the Gibbs state, $G_{A,B}(t)$ depends only on the time difference because the state is invariant under $\tau_t$. In particular, $\langle \tau_t(A)\rangle_\beta=\langle A\rangle_\beta$.
 
-3. **KMS (imaginary-time shift) relation.**  
+3. **KMS (imaginary-time shift) relation.**
    The Gibbs state is a $\beta$-KMS state ([[stat-mech-quantum/kms-condition-finite|KMS condition (finite)]]). One consequence is that the function
    $$
    F_{A,B}(t)\;=\;\langle A\,\tau_t(B)\rangle_\beta
@@ -66,7 +66,7 @@ In equilibrium, correlation functions are time-translation invariant and obey ch
    $$
    This is the precise statement of thermal “imaginary-time periodicity” (up to exchanging operator order).
 
-4. **Imaginary-time (Matsubara) correlators.**  
+4. **Imaginary-time (Matsubara) correlators.**
    For $\tau\in[0,\beta]$, define the imaginary-time correlator
    $$
    G_{A,B}(\tau)\;=\;\operatorname{Tr}\!\big(\rho_\beta\,\tau_{-i\tau}(A)\,B\big).
@@ -74,7 +74,7 @@ In equilibrium, correlation functions are time-translation invariant and obey ch
 
    The KMS condition determines how $G_{A,B}(\tau)$ behaves at the endpoints $\tau=0$ and $\tau=\beta$ via the order-exchange relation above.
 
-5. **Fourier-domain detailed-balance form (finite systems).**  
+5. **Fourier-domain detailed-balance form (finite systems).**
    If one defines a frequency-space correlation spectrum by Fourier transforming the real-time correlator, the KMS condition implies a thermal detailed-balance relation of the schematic form
    $$
    S_{A,B}(-\omega)\;=\;e^{-\beta\omega}\,S_{B,A}(\omega),
@@ -86,5 +86,5 @@ In equilibrium, correlation functions are time-translation invariant and obey ch
    - If $A$ commutes with $H$, then $\tau_t(A)=A$ and $G_{A,B}(t)$ is constant in time.
    - If $A=B$ is self-adjoint, then $G^{\mathrm c}_{A,A}(0)$ is the thermal variance of $A$, a static fluctuation measure.
 
-7. **Connection to thermodynamics.**  
+7. **Connection to thermodynamics.**
    Static (equal-time) correlations and susceptibilities often control derivatives of thermodynamic potentials such as the Helmholtz free energy ([[thermodynamics/helmholtz-free-energy|Helmholtz free energy]]) with respect to parameters that couple to observables.

@@ -28,5 +28,5 @@ For a [[real-analysis/bounded-sequence|bounded sequence]] \((x_n)\), the lim inf
 ## Extended values
 For unbounded sequences: \(\liminf x_n = -\infty\) if \((x_n)\) is unbounded below, and \(\liminf x_n = +\infty\) if \(x_n \to +\infty\).
 
-## Example
+## Examples
 For \(x_n = (-1)^n + 1/n\): \(\liminf x_n = -1\), \(\limsup x_n = 1\).

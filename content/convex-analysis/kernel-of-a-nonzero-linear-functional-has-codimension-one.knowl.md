@@ -15,5 +15,7 @@ $$
 \operatorname{codim}(\ker f)=1.
 $$
 
+## Remarks
+
 **Context:**
 The kernel of a nonzero functional is a codimension-one subspace, and translates of such kernels are precisely [[convex-analysis/hyperplane|hyperplanes]] in real vector spaces; see [[convex-analysis/hyperplanes-are-level-sets-of-nonzero-linear-functionals|hyperplanes as level sets]].

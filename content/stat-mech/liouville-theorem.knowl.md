@@ -8,7 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/liouville-theorem.md"
 +++
 
-## Statement
 Let $\Gamma$ be the classical [[stat-mech/phase-space-classical|phase space]] with canonical coordinates $(q,p)$ and let $H(q,p)$ be a smooth [[stat-mech/hamiltonian-function-classical|Hamiltonian function]] generating Hamilton’s equations:
 $$
 \dot q = \frac{\partial H}{\partial p},\qquad
@@ -43,5 +42,5 @@ $$
 \sum_i \left(\frac{\partial^2 H}{\partial q_i\partial p_i} - \frac{\partial^2 H}{\partial p_i\partial q_i}\right)=0.
 $$
 
-Zero divergence implies the Jacobian determinant of the flow is constant in time, and at $t=0$ it equals $1$, hence it is $1$ for all $t$.  
+Zero divergence implies the Jacobian determinant of the flow is constant in time, and at $t=0$ it equals $1$, hence it is $1$ for all $t$.
 In statistical mechanics, this invariance justifies using uniform phase-space weighting (subject to constraints like fixed energy) and supports conservation of ensemble densities under the Liouville equation, connecting microscopic reversibility to macroscopic equilibrium descriptions.

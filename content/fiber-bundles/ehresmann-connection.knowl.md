@@ -19,13 +19,16 @@ VE:=\ker(d\pi)\subset TE.
 \[
 TE = HE \oplus VE.
 \]
+
+An Ehresmann connection determines horizontal lifts and hence [[fiber-bundles/parallel-transport|parallel transport]] along curves. On a [[fiber-bundles/principal-g-bundle|principal G-bundle]], every [[fiber-bundles/principal-connection|principal connection]] induces an Ehresmann connection whose horizontal spaces are $G$-equivariant.
+
+## Equivalent characterizations
+
 Equivalently, it is a smooth splitting of the short exact sequence
 \[
 0 \longrightarrow VE \longrightarrow TE \xrightarrow{d\pi} \pi^*TM \longrightarrow 0,
 \]
 or, equivalently again, a smooth projection $K:TE\to VE$ with $K|_{VE}=\mathrm{id}$ (so that $HE=\ker K$).
-
-An Ehresmann connection determines horizontal lifts and hence [[fiber-bundles/parallel-transport|parallel transport]] along curves. On a [[fiber-bundles/principal-g-bundle|principal G-bundle]], every [[fiber-bundles/principal-connection|principal connection]] induces an Ehresmann connection whose horizontal spaces are $G$-equivariant.
 
 ## Examples
 1. **Product bundle.** For $E=M\times F$ with $\pi(x,f)=x$, the vertical bundle is $0\oplus TF$, and the choice $HE:=TM\oplus 0$ defines an Ehresmann connection (the “product connection”).

@@ -14,7 +14,9 @@ For $n\ge 1$, the (real) **Heisenberg group** $H_n$ can be realized as $\mathbb 
 \]
 This makes $H_n$ a connected [[fiber-bundles/lie-group|Lie group]] of dimension $2n+1$. Its Lie algebra is the Heisenberg Lie algebra (compare [[lie-groups/example-heisenberg-algebra|the Heisenberg algebra example]]), which is [[lie-groups/nilpotent-lie-algebra|nilpotent]].
 
-**Concrete calculation: commutator and center.**  
+## Remarks
+
+**Concrete calculation: commutator and center.**
 Let $p=(x,y,z)$ and $q=(x',y',z')$. Using the group law and the inverse
 \[
 (x,y,z)^{-1}=(-x,-y,-z),
@@ -29,5 +31,5 @@ Z(H_n)=\{(0,0,z): z\in\mathbb R\}.
 \]
 Thus $H_n/Z(H_n)\cong \mathbb R^{2n}$ is abelian, and $H_n$ is 2-step nilpotent (compare [[lie-groups/lower-central-series-lie-algebra|lower central series]] for the analogous Lie-algebra notion).
 
-**Exponential/BCH viewpoint.**  
+**Exponential/BCH viewpoint.**
 Because $H_n$ is nilpotent, the [[lie-groups/exponential-map-lie-group|exponential map]] is a global diffeomorphism and the multiplication law is governed by a truncated [[lie-groups/baker-campbell-hausdorff-formula|BCH formula]], reflecting that iterated brackets vanish after length 2.

@@ -20,7 +20,13 @@ The following are equivalent:
 1. $R$ is a [[algebra-commutative/local-ring|local ring]].
 2. The set $\mathfrak m$ of nonunits is an ideal of $R$.
 
-When these conditions hold, $\mathfrak m$ is the **unique maximal ideal** of $R$. Equivalently, an element $x\in R$ is a unit if and only if $x\notin\mathfrak m$.
+When these conditions hold, $\mathfrak m$ is the **unique maximal ideal** of $R$.
+
+## Equivalent characterizations
+
+Equivalently, an element $x\in R$ is a unit if and only if $x\notin\mathfrak m$.
+
+## Remarks
 
 In the important special case $R_{\mathfrak p}$ from [[algebra-commutative/localization-at-prime|localization at a prime]], the unique maximal ideal is $\mathfrak pR_{\mathfrak p}$, and the associated [[algebra-commutative/residue-field|residue field]] is $R_{\mathfrak p}/\mathfrak pR_{\mathfrak p}$.
 

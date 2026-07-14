@@ -15,8 +15,11 @@ $$
 $$
 provided the relevant partial derivatives exist.
 
+## Remarks
+
 Mixed partial derivatives form the off-diagonal entries of the [[real-analysis/hessian-matrix|Hessian matrix]]. Under appropriate regularity hypotheses (for example, continuity of the second partials near $a$), the [[real-analysis/schwarz-clairaut-theorem|Schwarz–Clairaut theorem]] guarantees equality of the two orders of differentiation.
 
-**Examples:**
+## Examples
+
 - For $f(x,y)=x^2y$, one has $\frac{\partial^2 f}{\partial x\,\partial y}(x,y)=2x$ and $\frac{\partial^2 f}{\partial y\,\partial x}(x,y)=2x$.
 - For $f(x,y)=e^{x+y}$, every mixed partial derivative exists and equals $e^{x+y}$.

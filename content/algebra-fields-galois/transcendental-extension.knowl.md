@@ -10,6 +10,8 @@ legacy_source_path = "algebra-fields-galois/transcendental-extension.md"
 
 A [[algebra-fields-galois/field-extension|field extension]] \(E/F\) is called a **transcendental extension** if it is not an [[algebra-fields-galois/algebraic-extension|algebraic extension]]. Equivalently, \(E/F\) is transcendental iff there exists some \(\alpha\in E\) that is a [[algebra-fields-galois/transcendental-element|transcendental element]] over \(F\).
 
+## Remarks
+
 Thus “transcendental” is an existence condition: it is enough for \(E\) to contain *one* transcendental element over \(F\). (Stronger notions such as “purely transcendental” impose additional structure, but are not part of the basic definition.)
 
 ### Examples

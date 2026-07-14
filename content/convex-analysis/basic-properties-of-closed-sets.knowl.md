@@ -16,4 +16,6 @@ Let $(X,d)$ be a metric space. Then:
 3. The intersection of any collection of [[convex-analysis/closed-subset|closed sets]] is closed.
 4. The union of finitely many closed sets is closed.
 
+## Remarks
+
 **Proof sketch.** Use complements and the corresponding results for open sets: complements turn arbitrary intersections into arbitrary unions and finite unions into finite intersections.

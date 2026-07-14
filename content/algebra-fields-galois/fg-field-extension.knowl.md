@@ -14,6 +14,8 @@ E = F(\alpha_1,\dots,\alpha_n),
 \]
 where \(F(\alpha_1,\dots,\alpha_n)\) denotes the smallest subfield of \(E\) containing \(F\) and all \(\alpha_i\). Equivalently, \(E\) is generated as a field by a finite subset of \(E\) over \(F\).
 
+## Remarks
+
 The special case \(n=1\) is exactly a [[algebra-fields-galois/simple-extension|simple extension]]. Finitely generated extensions include both finite extensions (finite [[algebra-fields-galois/degree-of-extension|degree]]) and many transcendental extensions; for instance, adjoining one transcendental element already gives a finitely generated but typically infinite-degree extension.
 
 When \([E:F]<\infty\), the extension is automatically finitely generated, and in many important cases it is even simple by the [[algebra-fields-galois/primitive-element-theorem|primitive element theorem]].

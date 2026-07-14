@@ -21,4 +21,6 @@ $$
 
 is a well-defined [[algebra-groups/group-isomorphism|isomorphism]]. In particular, if $f$ is surjective then $G/K \cong H$.
 
+## Remarks
+
 This result is the basic "quotient = image" principle and is the prototype for the [[algebra-groups/second-isomorphism-theorem-groups|second]] and [[algebra-groups/third-isomorphism-theorem-groups|third isomorphism theorems]]. It is often packaged as an [[algebra-groups/exact-sequence-groups|exact sequence]] $1 \to K \to G \to I \to 1$.

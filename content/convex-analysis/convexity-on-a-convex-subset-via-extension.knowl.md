@@ -28,4 +28,6 @@ $$
 
 **Context.** This convention packages "convexity + domain restriction" into a single extended-real function, aligning convexity on subsets with epigraph-based convexity.
 
-**Example.** If $\Omega$ is the unit ball in a normed space and $f(x)=\|x\|$ on $\Omega$, then $\tilde f$ encodes the constraint $x\in\Omega$ by assigning $\infty$ outside.
+## Examples
+
+- If $\Omega$ is the unit ball in a normed space and $f(x)=\|x\|$ on $\Omega$, then $\tilde f$ encodes the constraint $x\in\Omega$ by assigning $\infty$ outside.

@@ -27,4 +27,6 @@ $$
 
 also exists and equals $L$.
 
+## Remarks
+
 Analogous statements hold for left-hand limits and for the $\infty/\infty$ indeterminate form, and there are versions for [[real-analysis/limit-at-infinity|limits at infinity]]. The proof is based on the [[real-analysis/cauchy-mean-value-theorem|Cauchy mean value theorem]] and is formulated in terms of [[real-analysis/one-sided-limit|one-sided limits]].

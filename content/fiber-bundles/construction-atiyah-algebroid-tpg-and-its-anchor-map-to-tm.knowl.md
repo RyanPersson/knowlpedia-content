@@ -24,6 +24,8 @@ called the anchor.
 
 **Lie algebroid structure.** Sections of $\mathrm{At}(P)$ identify with $G$-invariant vector fields on $P$. The usual [[fiber-bundles/lie-bracket|Lie bracket]] of $G$-invariant vector fields is again $G$-invariant, so it defines a bracket on sections of $\mathrm{At}(P)$, making $\mathrm{At}(P)$ a Lie algebroid with anchor $a$.
 
+## Remarks
+
 There is a natural short exact sequence of vector bundles
 \[
 0\to \mathrm{ad}(P)\to \mathrm{At}(P)\xrightarrow{a} TM\to 0,

@@ -19,5 +19,5 @@ In this case the inverse map $\varphi^{-1}:\mathfrak h\to\mathfrak g$ is automat
 ## Automorphisms
 An isomorphism $\varphi:\mathfrak g\to\mathfrak g$ is a [[lie-groups/lie-algebra-automorphism|Lie algebra automorphism]]; the set of all such maps forms the group $\operatorname{Aut}(\mathfrak g)$ under composition.
 
-## Context
+## Remarks
 Lie algebra isomorphism is the correct equivalence relation for “infinitesimal symmetry.” In particular, by [[lie-groups/lies-third-theorem|Lie’s third theorem]], isomorphism classes of finite-dimensional Lie algebras correspond to connected, simply connected Lie groups up to isomorphism (see also [[lie-groups/simply-connected-determined-by-algebra|simply connected groups are determined by their Lie algebra]]).

@@ -22,27 +22,29 @@ $$
 \langle A\rangle_\beta \;=\; \operatorname{Tr}(\rho_\beta A).
 $$
 
+## Remarks
+
 This is the quantum analogue of the classical ensemble average ([[stat-mech/ensemble-average|ensemble average]]).
 
-## Physical interpretation
+## Interpretation
 
 $\langle A\rangle_\rho$ is the theoretical prediction for the average outcome of many measurements of the observable $A$ on identically prepared systems in state $\rho$. In equilibrium, $\langle A\rangle_\beta$ is the thermal average at temperature $T=(k_B\beta)^{-1}$ (see [[thermodynamics/temperature-thermo|temperature]] and [[thermodynamics/boltzmann-constant|Boltzmann constant]]).
 
-## Key properties
+## Properties
 
-1. **Linearity.**  
+1. **Linearity.**
    For scalars $a,b$ and observables $A,B$,
    $$
    \langle aA+bB\rangle_\rho \;=\; a\langle A\rangle_\rho + b\langle B\rangle_\rho.
    $$
 
-2. **Normalization and reality.**  
+2. **Normalization and reality.**
    $\langle I\rangle_\rho = 1$. If $A$ is self-adjoint, then $\langle A\rangle_\rho$ is real.
 
-3. **Positivity.**  
+3. **Positivity.**
    If $A$ is positive semidefinite, then $\langle A\rangle_\rho \ge 0$. In particular, for a projector $P$, $\langle P\rangle_\rho$ is the probability that the corresponding yes/no measurement yields “yes”.
 
-4. **Bounds by operator norm.**  
+4. **Bounds by operator norm.**
    In finite dimension,
    $$
    |\langle A\rangle_\rho|\;\le\;\|A\|,
@@ -50,13 +52,13 @@ $\langle A\rangle_\rho$ is the theoretical prediction for the average outcome of
 
    where $\|A\|$ is the operator norm (see [[quantum-foundations/bounded-operator-hilbert|bounded operator]] for context).
 
-5. **Pure-state specialization.**  
+5. **Pure-state specialization.**
    If $\rho=|\psi\rangle\langle\psi|$ is a pure state ([[quantum-foundations/pure-state-quantum|pure state]]), then
    $$
    \langle A\rangle_\rho \;=\;\langle\psi|A|\psi\rangle.
    $$
 
-6. **Parameter derivatives in Gibbs equilibrium.**  
+6. **Parameter derivatives in Gibbs equilibrium.**
    If the Hamiltonian depends on a parameter $\lambda$ via $H(\lambda)=H_0+\lambda V$, then the quantum partition function ([[stat-mech-quantum/quantum-partition-function|quantum partition function]]) satisfies
    $$
    \frac{\partial}{\partial\lambda}\log Z(\beta,\lambda)\;=\;-\beta\,\langle V\rangle_{\beta,\lambda}.
@@ -66,5 +68,5 @@ $\langle A\rangle_\rho$ is the theoretical prediction for the average outcome of
    \frac{\partial}{\partial\lambda}F(\beta,\lambda)\;=\;\langle V\rangle_{\beta,\lambda}.
    $$
 
-7. **Gateway to correlations.**  
+7. **Gateway to correlations.**
    Expectations of products and time-evolved observables define correlation functions ([[stat-mech/quantum-correlation-function|quantum correlation function]]), which quantify fluctuations and response beyond mean values.

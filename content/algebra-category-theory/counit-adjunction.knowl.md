@@ -23,7 +23,11 @@ is the unique morphism corresponding to the identity \(\mathrm{id}_{G d}\in\oper
 \[
 \operatorname{Hom}_{\mathcal D}(F c,\, d)\cong \operatorname{Hom}_{\mathcal C}(c,\, G d).
 \]
+## Equivalent characterizations
+
 Equivalently, \(\varepsilon\) is the transpose of \(\mathrm{id}_G\).
+
+## Remarks
 
 The counit \(\varepsilon\) and the [[algebra-category-theory/unit-adjunction|unit]] \(\eta\) satisfy the triangle identities:
 \[

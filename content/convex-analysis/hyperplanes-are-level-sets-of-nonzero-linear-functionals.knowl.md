@@ -15,5 +15,7 @@ $$
 \Omega=\{x\in X\mid f(x)=\alpha\}.
 $$
 
+## Remarks
+
 **Context:**
 One direction uses the decomposition of codimension-one subspaces (see [[convex-analysis/codimension-one-subspaces-yield-direct-sum-decompositions|codimension-one decomposition]]). The other direction uses that $\ker f$ has codimension one (see [[convex-analysis/kernel-of-a-nonzero-linear-functional-has-codimension-one|codimension of kernels]]).

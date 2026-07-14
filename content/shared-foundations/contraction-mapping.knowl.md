@@ -16,11 +16,14 @@ d\bigl(T(x),T(y)\bigr)\le c\,d(x,y).
 $
 The constant $c$ is called a **contraction constant**.
 
+## Remarks
+
 A contraction is a special case of a [[topology/lipschitz-continuity|Lipschitz]] map: $T$ is Lipschitz with constant $L$ if $d(Tx,Ty)\le L d(x,y)$ for all $x,y$. Contractions are exactly Lipschitz maps with $L<1$.
 
 Contractions are important because on [[topology/complete-metric-space|complete metric spaces]] they have unique [[real-analysis/fixed-point|fixed points]] and the fixed point can be found by iteration ([[real-analysis/banach-fixed-point-theorem|Banach fixed point theorem]]).
 
-**Examples:**
+## Examples
+
 - On $\mathbb{R}$ with $d(x,y)=|x-y|$, the affine map $T(x)=ax+b$ is a contraction iff $|a|<1$, with contraction constant $c=|a|$.
 - On $\mathbb{R}^k$, $T(x)=\tfrac12 x$ is a contraction with $c=\tfrac12$.
 - The map $T(x)=x+1$ is Lipschitz with constant $1$ but is not a contraction (and it has no fixed point).

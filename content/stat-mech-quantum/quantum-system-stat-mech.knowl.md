@@ -30,12 +30,12 @@ U_t = e^{- \frac{i}{\hbar} t H},
 A(t) = U_t^\dagger A(0) U_t.
 $$
 
-## Physical interpretation
+## Interpretation
 - $\mathcal{H}$ encodes the system’s kinematic degrees of freedom (what pure states can exist).
 - $\mathcal{A}$ encodes which quantities are regarded as measurable observables and how they compose.
 - $H$ specifies the energy observable and the dynamics, and it determines equilibrium states such as the [[stat-mech-quantum/gibbs-state-quantum|quantum Gibbs state]].
 
-## Key properties
+## Properties
 - **Noncommutativity:** Typically $\mathcal{A}$ is noncommutative; this expresses incompatibility of observables (order matters for products).
 - **States form a convex set:** If $\rho_1,\rho_2$ are states and $0\le \lambda \le 1$, then $\rho=\lambda\rho_1+(1-\lambda)\rho_2$ is also a state. Extreme points correspond to [[stat-mech-quantum/quantum-microstate|quantum microstates]] (pure states).
 - **Subsystems and reduction:** If the system is part of a larger one, reduced states are obtained by the [[quantum-foundations/partial-trace|partial trace]].

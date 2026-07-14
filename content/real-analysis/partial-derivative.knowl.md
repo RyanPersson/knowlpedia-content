@@ -18,6 +18,7 @@ when it exists (for vector-valued $f$, this limit is taken in $\mathbb{R}^m$).
 
 Partial derivatives are one-coordinate versions of the [[real-analysis/limit-at-a-point|limit at a point]] and are the entries used to build the [[real-analysis/jacobian-matrix|Jacobian matrix]]. Existence of all partial derivatives at $a$ does not by itself guarantee that $f$ is a [[real-analysis/differentiable-map|differentiable map]] at $a$.
 
-**Examples:**
+## Examples
+
 - For $f(x,y)=x^2y$, one has $\frac{\partial f}{\partial x}(x,y)=2xy$ and $\frac{\partial f}{\partial y}(x,y)=x^2$.
 - For $f(x,y)=|x|$, the partial derivative $\frac{\partial f}{\partial x}(0,y)$ does not exist (for any $y$), since the corresponding one-variable derivative at $0$ fails to exist.

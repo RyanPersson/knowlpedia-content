@@ -14,4 +14,6 @@ legacy_source_path = "algebra-rings/third-isomorphism-theorem-rings.md"
 \]
 of [[algebra-rings/quotient-ring|quotient rings]].
 
+## Remarks
+
 This formalizes the idea that “modding out in stages” is equivalent to modding out by the total relation.

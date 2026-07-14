@@ -19,6 +19,8 @@ characterized by the identity
 \]
 where \(\operatorname{Tr}\) is the usual trace (see [[quantum-foundations/trace-operator|trace-operator]]).
 
+## Equivalent characterizations
+
 ### Basis formula
 If \(\{\,|j\rangle\,\}\) is any orthonormal basis of \(H_B\), then
 \[

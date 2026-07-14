@@ -14,13 +14,15 @@ Let \(\pi:E\to M\) and \(\pi':E'\to M'\) be [[fiber-bundles/smooth-fiber-bundle|
 \]
 Thus \(\Phi\) is a [[fiber-bundles/fiber-preserving-map|fiber-preserving map]] whose domain and codomain carry fiber-bundle structures.
 
+A bundle morphism is an isomorphism precisely when it is a bundle morphism whose total-space map is a diffeomorphism and whose base map is a diffeomorphism.
+
+## Equivalent characterizations
+
 Equivalently, for every point \(x\in M\) the map \(\Phi\) restricts to a smooth map of fibers
 \[
 \Phi_x:E_x\to E'_{f(x)},
 \]
 and this fiberwise map depends smoothly on \(x\) (a fact that can be made explicit using [[fiber-bundles/local-trivialization|local trivializations]]).
-
-A bundle morphism is an isomorphism precisely when it is a bundle morphism whose total-space map is a diffeomorphism and whose base map is a diffeomorphism.
 
 ## Examples
 1. **Maps between products:** a map \((x,u)\mapsto(f(x),g(x,u))\) from \(M\times F\) to \(M'\times F'\) is a bundle morphism covering \(f\).

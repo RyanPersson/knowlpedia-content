@@ -14,4 +14,6 @@ The **field axioms** say that a set \(F\) with operations \(+\) and \(\cdot\) sa
 2. \(F\) satisfies the [[algebra-rings/unital-ring|unital ring]] axiom with identity \(1\neq 0\).
 3. Every \(a\in F\) with \(a\neq 0\) is a [[algebra-rings/unit|unit]].
 
+## Remarks
+
 Equivalently, the [[algebra-rings/group-of-units|group of units]] is \(F\setminus\{0\}\). A structure satisfying these axioms is precisely a [[algebra-rings/field|field]].

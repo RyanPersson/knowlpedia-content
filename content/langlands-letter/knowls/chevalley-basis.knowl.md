@@ -15,4 +15,6 @@ A **Chevalley basis** is a basis of the form $\{H_i\}\cup\{X_\alpha\}_{\alpha\in
 - the brackets satisfy $[X_\alpha,X_{-\alpha}]=H_\alpha$,
 - all structure constants are integers.
 
+## Remarks
+
 **In the letter:** choosing root vectors $X_\alpha$ "satisfying Chevalley conditions" rigidifies automorphisms (the group $\Omega$) and supports integral forms.

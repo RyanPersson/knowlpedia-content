@@ -25,7 +25,7 @@ At inverse temperature $\beta$, the [[stat-mech-lattice/finite-volume-gibbs-meas
 
 *(Remark: “Heisenberg model” is also used for a quantum spin system; this knowl refers to the classical O(3) lattice model.)*
 
-## Key properties
+## Properties
 
 - **Continuous O(3) symmetry.** For $\mathbf{h}=0$, the model is invariant under global rotations $S_x\mapsto R S_x$ with $R\in\mathrm{O}(3)$. This makes it a central example for studying [[stat-mech-lattice/spontaneous-symmetry-breaking|spontaneous symmetry breaking]] and Goldstone-mode fluctuations.
 
@@ -39,7 +39,7 @@ At inverse temperature $\beta$, the [[stat-mech-lattice/finite-volume-gibbs-meas
 
 - **Relation to other O(n) models.** The [[stat-mech-lattice/xy-model|XY model]] is the O(2) analogue with spins on $\mathbb{S}^1$, and many structural arguments (symmetries, spin waves, low-dimensional constraints) parallel between O(2) and O(3).
 
-## Physical interpretation
+## Interpretation
 
 The Heisenberg model is a basic model for **isotropic classical magnetism**, where local magnetic moments can point in any direction in $\mathbb{R}^3$ and energetically prefer to align (ferromagnet) or anti-align (antiferromagnet). Its continuous symmetry makes it a standard laboratory for:
 - how long-range order depends on dimension,

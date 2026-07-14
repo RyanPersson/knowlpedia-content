@@ -17,7 +17,7 @@ Equivalently (in many standard settings), different [[stat-mech-lattice/boundary
 
 A complementary thermodynamic signature is **non-analyticity** of the [[stat-mech-lattice/pressure-lattice|lattice pressure]] in the [[stat-mech-lattice/thermodynamic-limit-pressure-lattice|thermodynamic limit]] as a function of parameters. Both viewpoints are widely used; non-uniqueness corresponds most directly to phase coexistence, while non-analyticity captures both first-order and continuous critical phenomena.
 
-## Key properties
+## Properties
 
 - **Coexistence of pure phases:** When non-uniqueness holds, $\mathcal{G}(\gamma)$ contains multiple [[stat-mech-lattice/pure-phase|pure phases]], i.e. multiple [[stat-mech-lattice/extremal-gibbs-measure|extremal Gibbs measures]] distinguished by macroscopic observables (magnetization, density, etc.).
 
@@ -27,6 +27,6 @@ A complementary thermodynamic signature is **non-analyticity** of the [[stat-mec
 
 - **Mixtures vs pure states:** In the coexistence region, symmetry-invariant equilibrium states can appear as [[stat-mech-lattice/mixture-gibbs-measures|mixtures of pure phases]], which are Gibbs but not extremal.
 
-## Physical interpretation
+## Interpretation
 
 A phase transition marks a change in the set and nature of equilibrium infinite-volume states: the system can support qualitatively different macroscopic behaviors under the same microscopic rules. In lattice spin systems, this includes transitions between disordered and ordered phases (e.g. paramagnet to ferromagnet), the onset of symmetry breaking, and critical points characterized by scale-free fluctuations and long-range correlations.

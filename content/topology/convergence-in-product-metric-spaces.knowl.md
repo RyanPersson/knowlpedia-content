@@ -20,4 +20,6 @@ x_n\to x \text{ in } X \quad\text{and}\quad y_n\to y \text{ in } Y.
 $
 Likewise, $((x_n,y_n))$ is [[topology/cauchy-sequence|Cauchy]] in $X\times Y$ iff $(x_n)$ is Cauchy in $X$ and $(y_n)$ is Cauchy in $Y$.
 
+## Remarks
+
 This proposition justifies treating product convergence as "simultaneous convergence of components."

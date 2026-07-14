@@ -26,5 +26,7 @@ Then:
    Then $G$ is isomorphic to the [[algebra-groups/semidirect-product|semidirect product]] $N\rtimes_{\varphi} Q$.
 3. Under this isomorphism, every $g\in G$ can be written uniquely as $g = n\,s(q)$ with $n\in N$ and $q\in Q$.
 
+## Remarks
+
 **Context.**
 This proposition is the standard bridge between abstract extensions and concrete constructions: split exact sequences are exactly semidirect products. The "internal" version is phrased via the [[algebra-groups/internal-semidirect-product|internal semidirect product]] inside $G$.

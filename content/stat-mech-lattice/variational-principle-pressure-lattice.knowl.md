@@ -8,8 +8,6 @@ domains = ["stat-mech-lattice"]
 legacy_source_path = "stat-mech-lattice/variational-principle-pressure-lattice.md"
 +++
 
-## Statement
-
 Let $\Phi$ be a translation-invariant, uniformly absolutely summable interaction on $\mathbb{Z}^d$ with finite spin space $S$, and let
 $p(\Phi)$ denote the [[stat-mech-lattice/pressure-lattice|lattice pressure]], defined via the thermodynamic limit of the [[stat-mech-lattice/partition-function-lattice|lattice partition function]] (e.g. along a van Hove sequence).
 

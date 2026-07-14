@@ -19,4 +19,6 @@ f'(x)=\sum_{n=1}^\infty n\,a_n (x-x_0)^{n-1}.
 \]
 The differentiated power series has the same radius of convergence $R$.
 
+## Remarks
+
 This theorem underlies the fact that power series define very smooth functions (see [[real-analysis/power-series-analytic-on-disk|power series is analytic on its disk of convergence]]) and is part of the broader toolkit of [[real-analysis/term-by-term-operations|term-by-term operations]] for power series.

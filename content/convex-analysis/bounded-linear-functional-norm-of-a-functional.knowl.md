@@ -14,17 +14,23 @@ The functional $f$ is **bounded** if there exists $M>0$ such that
 $$
 |f(x)|\le M\|x\|\quad\text{for all }x\in X.
 $$
-In normed spaces, boundedness is equivalent to continuity.
 
 The **norm** (operator norm) of $f$ is
 $$
 \|f\|:=\sup_{\|x\|\le 1}|f(x)|.
 $$
 
+## Equivalent characterizations
+
 Equivalently, $\|f\|=\inf\{M>0: |f(x)|\le M\|x\|\ \forall x\}$.
+
+## Remarks
+
+In normed spaces, boundedness is equivalent to continuity.
 
 This notion is used in [[convex-analysis/hahn-banach-theorem-in-normed-spaces|Hahn–Banach in normed spaces]] and in separation results such as [[convex-analysis/separation-of-a-point-and-a-subspace|separating a point and a subspace]].
 
-**Examples:**
+## Examples
+
 - On $X=\mathbb{R}^n$ with the Euclidean norm, $f(x)=\langle a,x\rangle$ is bounded and $\|f\|=\|a\|_2$.
 - If $X=C[0,1]$ with $\|\cdot\|_\infty$, then $f(x)=x(t_0)$ is bounded with $\|f\|=1$.

@@ -8,7 +8,10 @@ domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/diagonalizable.md"
 +++
 
+
 A [[linear-algebra/linear-map|linear operator]] \(T: V \to V\) on a finite-dimensional [[linear-algebra/vector-space|vector space]] is **diagonalizable** if there exists a [[algebra-modules/basis-module|basis]] of \(V\) consisting entirely of [[linear-algebra/eigenvector|eigenvectors]] of \(T\).
+
+## Equivalent characterizations
 
 Equivalently, \(T\) is diagonalizable iff its [[algebra-modules/matrix-representation|matrix representation]] in some basis is diagonal.
 

@@ -14,7 +14,11 @@ f\circ g_1 = f\circ g_2 \quad \Longrightarrow \quad g_1 = g_2,
 \]
 where \(\circ\) denotes [[algebra-category-theory/composition-category|composition]].
 
+## Equivalent characterizations
+
 Equivalently: \(f\) is mono iff it is **left-cancellative** with respect to composition.
+
+## Remarks
 
 Notes:
 - Every [[algebra-category-theory/isomorphism-category|isomorphism]] is a monomorphism.

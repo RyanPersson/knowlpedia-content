@@ -8,8 +8,6 @@ domains = ["thermodynamics"]
 legacy_source_path = "thermodynamics/kelvin-planck-clausius-equivalence.md"
 +++
 
-## Statement
-
 Two standard formulations of the [[thermodynamics/second-law-thermodynamics|second law of thermodynamics]] are:
 
 - **Kelvin–Planck statement.** No cyclic device can extract heat from a single thermal reservoir and convert it entirely into work (i.e., no 100% efficient single-reservoir heat engine).
@@ -31,7 +29,7 @@ Two standard formulations of the [[thermodynamics/second-law-thermodynamics|seco
   - [[thermodynamics/clausius-theorem-entropy|Clausius theorem (entropy)]]
   - [[thermodynamics/clausius-inequality|Clausius inequality]]
 
-## Cross-links to definitions
+## Remarks
 
 - Second law: [[thermodynamics/second-law-thermodynamics|second law of thermodynamics]].
 - Energy conservation over cycles: [[thermodynamics/first-law-thermodynamics|first law]].

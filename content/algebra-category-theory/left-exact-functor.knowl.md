@@ -25,6 +25,8 @@ A standard “exact sequence” formulation is:
 > \]
 > is exact in \(\mathcal B\).
 
+## Equivalent characterizations
+
 Equivalently, \(F\) preserves monomorphisms and kernels, but need not preserve cokernels or epimorphisms.
 
 ## Relation to other exactness notions

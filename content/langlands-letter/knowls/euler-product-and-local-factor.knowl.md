@@ -17,4 +17,6 @@ $
 
 The global $L$-function is $L(s)=\prod_p L_p(s)$, with finitely many "bad primes" omitted or modified.
 
+## Remarks
+
 **Key point:** changing auxiliary choices typically changes only finitely many local factors.

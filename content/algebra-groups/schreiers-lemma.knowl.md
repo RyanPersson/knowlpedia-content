@@ -15,4 +15,6 @@ $
 t\,s\,(\overline{ts})^{-1}\in H \qquad (t\in T,\ s\in S).
 $
 
+## Remarks
+
 This is a core tool for proving results about generators of subgroups, including the [[algebra-groups/nielsen-schreier-theorem|Nielsen–Schreier theorem]].

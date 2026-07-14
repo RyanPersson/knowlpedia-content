@@ -24,7 +24,7 @@ where $\exp:\mathfrak g\to G$ is the [[lie-groups/exponential-map-lie-group|expo
 
 Equivalently, $\log$ is a (chosen) smooth local inverse to $\exp$ near $0\in\mathfrak g$. Existence follows from [[lie-groups/exponential-local-diffeomorphism|the fact that $\exp$ is a local diffeomorphism at $0$]].
 
-## Basic properties
+## Properties
 - $\log(e)=0$ and $d(\log)_e$ is the inverse of $d(\exp)_0=\mathrm{id}_{\mathfrak g}$.
 - $\log$ is generally **not** globally defined or single-valued on all of $G$ (even for compact groups).
 
@@ -42,5 +42,5 @@ $$
 
 In particular, for $X\in \mathfrak g$ and $t$ small, $\log(\exp(tX))=tX$.
 
-## Context
+## Remarks
 The logarithm is useful for “linearizing” group multiplication near the identity. For example, the product of two near-identity elements can be expressed in $\mathfrak g$ using the [[lie-groups/baker-campbell-hausdorff-formula|Baker–Campbell–Hausdorff formula]], which compares $\log(gh)$ to $\log(g)+\log(h)$ with Lie bracket corrections.

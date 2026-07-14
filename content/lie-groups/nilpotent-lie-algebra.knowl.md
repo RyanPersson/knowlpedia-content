@@ -29,5 +29,5 @@ The smallest such $s$ is the **nilpotency class** (or step).
 - The Heisenberg Lie algebra is nilpotent of step $2$; see [[lie-groups/example-heisenberg-algebra|the Heisenberg algebra]].
 - Strictly upper triangular matrices form a nilpotent Lie algebra under commutator; see [[lie-groups/example-strictly-upper-triangular|strictly upper triangular matrices]].
 
-## Context
+## Remarks
 Nilpotent Lie algebras are the infinitesimal counterparts of simply connected nilpotent Lie groups, where the [[lie-groups/exponential-map-lie-group|exponential map]] has especially strong global behavior and the [[lie-groups/baker-campbell-hausdorff-formula|BCH formula]] truncates after finitely many terms.

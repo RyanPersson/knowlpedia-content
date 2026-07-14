@@ -52,7 +52,7 @@ A standard identification is $\nu=1/y_t$, where $y_t$ is the eigenvalue exponent
 ## Concrete example: block-spin RG (Ising-type intuition)
 For the [[stat-mech-lattice/ising-model|Ising model]] on $\mathbb{Z}^d$, a block-spin map partitions the lattice into $b^d$-site blocks and defines a coarse spin (e.g., majority rule). Integrating out microscopic spins inside blocks produces effective couplings between block spins, generating the flow $K\mapsto K'$.
 
-## Prerequisites
+## Remarks
 - [[stat-mech-lattice/lattice-hamiltonian|lattice Hamiltonians]]
 - [[stat-mech-lattice/phase-transition-gibbs|phase transitions (Gibbs perspective)]]
 - [[stat-mech/critical-point-phase-diagram|critical points in phase diagrams]]

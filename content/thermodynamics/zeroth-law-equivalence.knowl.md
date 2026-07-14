@@ -12,12 +12,12 @@ Define a relation $\sim$ on equilibrium states as follows: for two systems (or t
 
 The [[thermodynamics/zeroth-law-thermodynamics|zeroth law of thermodynamics]] asserts the transitivity of this relation: if $A \sim B$ and $B \sim C$, then $A \sim C$. Together with the physically evident symmetry and reflexivity, this makes “being in thermal equilibrium with” an [[shared-foundations/equivalence-relation|equivalence relation]] on the set of equilibrium states.
 
-## Physical interpretation
+## Interpretation
 Zeroth-law equivalence partitions equilibrium states into equivalence classes: all states in the same class are mutually in thermal equilibrium. The [[thermodynamics/temperature-thermo|temperature]] is then understood as a scalar label for these classes: states have the same temperature exactly when they are equivalent under $\sim$.
 
 This is the conceptual basis of thermometry. A thermometer is a system whose equilibrium state changes monotonically across equivalence classes; the zeroth law guarantees that when the thermometer equilibrates with a system, its reading depends only on the system’s temperature class, not on what other systems were involved. With an agreed calibration, this yields a consistent temperature scale, and with additional conventions one can define an [[thermodynamics/absolute-temperature-scale|absolute temperature scale]].
 
-## Key properties
+## Properties
 Interpreting $\sim$ as “is in thermal equilibrium with,” the zeroth-law structure can be summarized as:
 
 - **Reflexive:** $A \sim A$ (a system is in thermal equilibrium with itself).

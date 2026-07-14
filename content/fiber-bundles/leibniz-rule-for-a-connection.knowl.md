@@ -14,13 +14,16 @@ Let $E\to M$ be a vector bundle with a [[fiber-bundles/connection-on-a-vector-bu
 \[
 \nabla_X (f s) \;=\; X(f)\,s \;+\; f\,\nabla_X s.
 \]
+
+This rule encodes that $\nabla$ differentiates sections “like a derivation” in the section slot, while remaining $C^\infty(M)$-linear in the vector field slot.
+
+## Equivalent characterizations
+
 Equivalently, using the 1-form $df$ defined by the [[fiber-bundles/exterior-derivative|exterior derivative]] of $f$, one can write
 \[
 \nabla(fs)=df\otimes s + f\,\nabla s
 \]
 as an identity in $\Gamma(T^*M\otimes E)$.
-
-This rule encodes that $\nabla$ differentiates sections “like a derivation” in the section slot, while remaining $C^\infty(M)$-linear in the vector field slot.
 
 ## Examples
 1. **Trivial connection.** On $E=M\times\mathbb R^r$ with $\nabla_X s=X(s)$, the formula reduces to the usual product rule for differentiating a product of a scalar function and a vector-valued function.

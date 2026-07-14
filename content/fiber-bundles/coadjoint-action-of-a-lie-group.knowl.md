@@ -14,6 +14,9 @@ Let $G$ be a Lie group with Lie algebra $\mathfrak{g}$. The [[lie-groups/adjoint
 \qquad
 \mathrm{Ad}^*_g(\lambda) := \lambda\circ \mathrm{Ad}_{g^{-1}}.
 \]
+
+## Equivalent characterizations
+
 Equivalently, $\mathrm{Ad}^*_g$ is characterized by the pairing identity
 \[
 \langle \mathrm{Ad}^*_g\lambda,\, X\rangle = \langle \lambda,\, \mathrm{Ad}_{g^{-1}}X\rangle \quad (\lambda\in\mathfrak{g}^*,\, X\in\mathfrak{g}).

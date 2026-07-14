@@ -13,4 +13,6 @@ $
 G = N\,N_G(P).
 $
 
+## Equivalent characterizations
+
 Equivalently, every $g\in G$ can be written as $g=nn'$ with $n\in N$ and $n'\in N_G(P)$.

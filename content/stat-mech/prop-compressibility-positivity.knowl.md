@@ -8,8 +8,6 @@ domains = ["stat-mech"]
 legacy_source_path = "stat-mech/prop-compressibility-positivity.md"
 +++
 
-## Statement
-
 For a thermodynamically stable equilibrium system at fixed temperature and composition, the [[thermodynamics/isothermal-compressibility|isothermal compressibility]]
 $$
 \kappa_T := -\frac{1}{V}\left(\frac{\partial V}{\partial P}\right)_{T,N}
@@ -49,7 +47,7 @@ $$
   and therefore $\kappa_T \ge 0$.
 - At phase coexistence, $\left(\frac{\partial P}{\partial V}\right)_{T,N}$ can approach $0$, leading to very large (formally divergent) $\kappa_T$, consistent with $\kappa_T\ge 0$.
 
-## Cross-links to definitions
+## Remarks
 
 - [[thermodynamics/isothermal-compressibility|isothermal compressibility $\kappa_T$]]
 - [[thermodynamics/helmholtz-free-energy|Helmholtz free energy]]

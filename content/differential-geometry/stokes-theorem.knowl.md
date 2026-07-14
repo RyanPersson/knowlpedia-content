@@ -33,4 +33,6 @@ Stokes' theorem unifies several classical theorems:
   $$
 - If \(\beta\) is a closed \(k\)-form (\(d\beta=0\)), then \(\int_{\partial C} \beta = 0\) for any \((k+1)\)-chain \(C\) for which the integrals make sense, since \(\int_{\partial C}\beta=\int_C d\beta\).
 
+## Remarks
+
 For an important class of closed \(2\)-forms, see [[differential-geometry/symplectic-manifold|symplectic manifolds]].

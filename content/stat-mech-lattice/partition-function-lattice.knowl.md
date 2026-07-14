@@ -25,7 +25,7 @@ If $S$ is finite (e.g. the Ising single-spin set $\{\pm 1\}$), the integral redu
 
 This object is the lattice analogue of the [[stat-mech/partition-function-canonical|canonical partition function]].
 
-## Key properties
+## Properties
 
 - **Normalization for Gibbs weights.** The partition function is the normalizing constant for the [[stat-mech-lattice/finite-volume-gibbs-measure|finite-volume Gibbs measure]]:
   $$
@@ -40,6 +40,6 @@ This object is the lattice analogue of the [[stat-mech/partition-function-canoni
 
 - **Generates thermodynamics.** Derivatives of $\log Z_\Lambda$ with respect to parameters in $H_\Lambda$ (e.g. a [[stat-mech-lattice/external-field-coupling|magnetic field coupling]]) produce finite-volume expectations and fluctuations (see [[stat-mech/ensemble-average|ensemble averages]]).
 
-## Physical interpretation
+## Interpretation
 
 $Z_\Lambda(\beta,\tau)$ is the weighted “count” of microstates in $\Lambda$ compatible with an environment $\tau$, with each configuration weighted by the Boltzmann factor $\exp(-\beta H_\Lambda)$. Its logarithm controls the finite-volume free energy and leads directly to the [[stat-mech-lattice/pressure-lattice|lattice pressure]] and its thermodynamic limit.

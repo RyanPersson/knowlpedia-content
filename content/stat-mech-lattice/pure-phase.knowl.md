@@ -14,7 +14,7 @@ A **pure phase** at fixed interaction and parameters is an [[stat-mech-lattice/i
 
 This definition separates “indecomposable equilibrium states” (extremality) from mixtures (see [[stat-mech-lattice/mixture-gibbs-measures|mixtures of Gibbs measures]]).
 
-## Key properties
+## Properties
 
 - **No decomposition into other phases:** A pure phase cannot be expressed as a nontrivial convex mixture of other Gibbs states.
 
@@ -26,6 +26,6 @@ This definition separates “indecomposable equilibrium states” (extremality) 
 
 - **Symmetry breaking:** In models with global symmetries, distinct pure phases may be related by the symmetry and exhibit [[stat-mech-lattice/spontaneous-symmetry-breaking|spontaneous symmetry breaking]]. A classic diagnostic is nonzero [[stat-mech-lattice/spontaneous-magnetization|spontaneous magnetization]] in a ferromagnet.
 
-## Physical interpretation
+## Interpretation
 
 A pure phase is what one expects to observe in a large, well-equilibrated sample when boundary conditions or preparation select a definite macroscopic state. Different pure phases correspond to different stable macroscopic behaviors (e.g. magnetized “up” vs magnetized “down”), while a mixture Gibbs measure represents an ensemble that does not select a single phase and thus encodes phase coexistence or random phase selection.

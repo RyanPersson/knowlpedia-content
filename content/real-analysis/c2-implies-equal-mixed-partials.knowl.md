@@ -15,5 +15,7 @@ $
 \frac{\partial^2 f}{\partial x_i\partial x_j}(a)=\frac{\partial^2 f}{\partial x_j\partial x_i}(a).
 $
 
+## Remarks
+
 **Connection to parent theorem**:
 Apply [[real-analysis/mixed-partial-derivative|Schwarz's theorem]] at each point $a\in U$. The $C^2$ hypothesis guarantees the [[real-analysis/partial-derivative|mixed partial derivatives]] exist in a [[topology/neighborhood|neighborhood]] and are [[real-analysis/continuity-on-a-set|continuous]], which is exactly the hypothesis of Schwarz's theorem.

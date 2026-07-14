@@ -14,8 +14,11 @@ d_Y\bigl(f(x),f(y)\bigr)\le C\,\bigl(d_X(x,y)\bigr)^{\alpha}
 \quad\text{for all } x,y\in X.
 \]
 
+## Remarks
+
 When $\alpha=1$, Hölder continuity is exactly [[topology/lipschitz-continuity|Lipschitz continuity]]. For any $\alpha\in(0,1]$, Hölder continuity implies [[topology/uniformly-continuous-map|uniform continuity]].
 
-**Examples:**
+## Examples
+
 - The function $f(x)=\sqrt{x}$ on $[0,1]$ is Hölder continuous with exponent $\alpha=\tfrac12$.
 - For $\alpha\in(0,1]$, the function $f(x)=|x|^{\alpha}$ on $\mathbb{R}$ is Hölder continuous with exponent $\alpha$.

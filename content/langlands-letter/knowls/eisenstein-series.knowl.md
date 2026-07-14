@@ -16,6 +16,8 @@ E(g,f,s)=\sum_{\gamma\in P(F)\backslash G(F)} f_s(\gamma g),
 $
 convergent for $\mathrm{Re}(s)\gg 0$.
 
+## Remarks
+
 **Key properties (Langlands):**
 - $E(g,f,s)$ admits meromorphic continuation and satisfies functional equations governed by intertwining operators.
 

@@ -21,12 +21,12 @@ The spin space determines what a [[stat-mech-lattice/spin-configuration|spin con
 - **XY spins:** $S$ is the unit circle (see [[stat-mech-lattice/xy-model|XY model]]).
 - **Heisenberg spins:** $S$ is a unit sphere in $\mathbb{R}^n$ (see [[stat-mech-lattice/heisenberg-model|Heisenberg model]]).
 
-## Key properties
+## Properties
 - **Discrete vs continuous:** If $S$ is finite/countable, sums replace integrals in the [[stat-mech-lattice/partition-function-lattice|partition function]]; if $S$ is continuous, the choice of a priori measure $\rho$ is part of the model.
 - **Compactness/topology (often used):** When $S$ is finite or compact, the product configuration space can inherit useful compactness properties (see [[stat-mech-lattice/configuration-space-lattice|configuration space]]).
 - **Symmetries:** Many models have a symmetry group acting on $S$ (e.g. spin-flip for Ising, rotations for XY/Heisenberg). Symmetries on $S$ induce symmetries of the Hamiltonian and Gibbs measures, relevant for [[stat-mech-lattice/spontaneous-symmetry-breaking|spontaneous symmetry breaking]].
 
-## Physical interpretation
+## Interpretation
 The spin space represents the **local microscopic degrees of freedom**:
 - orientations of a magnetic moment (continuous $S$),
 - discrete “up/down” magnetic moments (Ising),

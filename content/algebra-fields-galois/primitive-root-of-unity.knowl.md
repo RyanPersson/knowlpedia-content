@@ -12,7 +12,12 @@ Let \(F\) be a [[algebra-rings/field|field]] and let \(\overline{F}\) be an [[al
 \[
 \zeta^n=1 \quad\text{and}\quad \zeta^d\ne 1 \text{ for every proper divisor } d\mid n.
 \]
+
+## Equivalent characterizations
+
 Equivalently, \(\zeta\) is primitive of order \(n\) if and only if it is a root of the [[algebra-fields-galois/cyclotomic-polynomial|cyclotomic polynomial]] \(\Phi_n(x)\).
+
+## Remarks
 
 When \(\mathrm{char}(F)\nmid n\), the polynomial \(x^n-1\) has distinct roots in \(\overline{F}\) (a separability phenomenon; compare [[algebra-fields-galois/separable-distinct-roots|distinct-root criterion]]), and the \(n\)-th roots of unity form a cyclic subgroup of \(\overline{F}^\times\). Adjoining a primitive \(n\)-th root produces the [[algebra-fields-galois/cyclotomic-extension|cyclotomic extension]] \(F(\zeta)/F\).
 

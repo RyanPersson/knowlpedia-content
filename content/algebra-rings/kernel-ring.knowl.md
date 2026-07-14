@@ -14,9 +14,12 @@ The **kernel** of a [[algebra-rings/ring-homomorphism|ring homomorphism]] $\varp
 \]
 i.e. the [[shared-foundations/preimage|preimage]] of the additive identity of $S$.
 
+## Remarks
+
 The kernel is always an [[algebra-rings/ideal|ideal]] of $R$ (indeed, a two-sided ideal), and it measures injectivity: $\varphi$ is a monomorphism iff $\ker(\varphi)=\{0\}$. Kernels are the basic input to forming quotient rings and proving isomorphism theorems.
 
-**Examples:**
+## Examples
+
 - For the reduction map $\mathbb Z\to \mathbb Z/n\mathbb Z$, the kernel is $n\mathbb Z$.
 - For evaluation $\mathrm{ev}_c:k[x]\to k$, $\ker(\mathrm{ev}_c)=(x-c)$.
 - The inclusion $\mathbb Z\hookrightarrow \mathbb Q$ has kernel $\{0\}$.

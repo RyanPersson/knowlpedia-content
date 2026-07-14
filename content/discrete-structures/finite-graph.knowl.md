@@ -20,4 +20,6 @@ If \(|V|=n\) and \(|E|=m\), then for a simple undirected graph,
 \sum_{v\in V}\deg(v)=2|E|.
 \]
 
+## Remarks
+
 Finite graphs are the basic setting for many combinatorial arguments and algorithms, and they often arise as finite subgraphs of infinite graphs (for example, finite regions of the lattice [[discrete-structures/lattice-zd|lattice-zd]]).

@@ -20,7 +20,8 @@ D_{\mathrm{KL}}(P\|Q)=\sum_x p(x)\,\log\frac{p(x)}{q(x)},
 \]
 with the convention that terms with $p(x)=0$ contribute $0$, and any $x$ with $p(x)>0$ and $q(x)=0$ forces $D_{\mathrm{KL}}(P\|Q)=+\infty$. Relative entropy is always nonnegative by [[probability/gibbs-inequality-kl|Gibbs' inequality]], equals $0$ iff $P=Q$ (in the appropriate sense), and is not symmetric in general. It is related to other discrepancy notions such as [[probability/total-variation-distance|total variation distance]] (for example via [[probability/pinsker-inequality|Pinsker's inequality]]).
 
-**Examples:**
+## Examples
+
 - If $P=\mathrm{Bernoulli}(p)$ and $Q=\mathrm{Bernoulli}(q)$ with $p,q\in(0,1)$, then
   \[
   D_{\mathrm{KL}}(P\|Q)=p\log\frac{p}{q}+(1-p)\log\frac{1-p}{1-q}.

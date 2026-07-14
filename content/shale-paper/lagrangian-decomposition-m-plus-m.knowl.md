@@ -12,8 +12,12 @@ Shale fixes a real subspace \(M\subset K\) so that \(K=\Lambda^{-1}M\oplus M\), 
 
 Then every \(z\in K\) is \(z=x\oplus y\) with \(x,y\in M\), and \(\Lambda(x\oplus y)=-y\oplus x\).
 
+## Remarks
+
 **Key properties:**
 - Positive symplectic operators can be conjugated to block form \(S^{-1}\oplus S\) on \(M\oplus M\).
 - Field operators split into "\(P(x)\)" and "\(Q(x)\)" parts.
 
-**Example:** For \(K=\mathbb R^{2n}\), take \(M=\mathbb R^n\) as the \(q\)-coordinates.
+## Examples
+
+- For \(K=\mathbb R^{2n}\), take \(M=\mathbb R^n\) as the \(q\)-coordinates.

@@ -19,4 +19,6 @@ denote the [[real-analysis/partial-sums|partial sums]] of $\sum a_n$. If
 
 then $\sum_{n=1}^\infty a_n b_n$ [[real-analysis/convergent-series|converges]].
 
+## Remarks
+
 The [[real-analysis/alternating-series-test|alternating series test]] is a special case (take $a_n=(-1)^{n-1}$), and Dirichlet’s test is closely paired with the [[real-analysis/abel-test|Abel test]].

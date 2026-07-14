@@ -15,7 +15,8 @@ $
 
 Normality says that $H$ is stable under the [[algebra-groups/conjugation-action|conjugation action]] of $G$ on itself. Equivalently, $H$ is normal iff every left [[algebra-groups/coset|coset]] of $H$ equals the corresponding right coset, and this is exactly the hypothesis needed to form the [[algebra-groups/quotient-group|quotient group]] $G/H$.
 
-**Examples:**
+## Examples
+
 - The [[algebra-groups/center-of-group|center]] $Z(G)$ is normal in $G$.
 - $A_n$ is normal in $S_n$ for all $n\ge 2$.
 - Any subgroup of index $2$ is normal (see [[algebra-groups/index-2-normal|subgroup of index 2 is normal]]).
