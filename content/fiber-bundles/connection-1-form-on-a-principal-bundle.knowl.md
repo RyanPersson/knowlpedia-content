@@ -49,7 +49,7 @@ From $\omega$ one defines the [[fiber-bundles/curvature-2-form-of-a-principal-co
 which is horizontal and equivariant, hence descends to local curvature forms on $M$.
 
 ## Examples
-1. **The bundle $G\to \mathrm{pt}$.** View $P=G$ as a principal $G$-bundle over a point with right multiplication. The [[fiber-bundles/left-maurercartan-form|left Maurer–Cartan form]] $\theta_L$ is a connection 1-form: it reproduces generators of the right action and satisfies the required equivariance under right translation.
+1. **The bundle $G\to \mathrm{pt}$.** View $P=G$ as a principal $G$-bundle over a point with right multiplication. The [[lie-groups/left-maurer-cartan-form|left Maurer–Cartan form]] $\theta_L$ is a connection 1-form: it reproduces generators of the right action and satisfies the required equivariance under right translation.
 
 2. **Trivial bundle with a chosen potential.** For $P=M\times G$, choose any $A\in\Omega^1(M;\mathfrak g)$. Writing $(x,g)\in M\times G$, define
    \[

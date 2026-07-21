@@ -8,7 +8,6 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/tfae-solvability-lie-algebra.md"
 +++
 
-### Theorem (TFAE: solvability)
 Let $\mathfrak g$ be a finite-dimensional Lie algebra over an algebraically closed field of characteristic $0$ (e.g. $\mathbb C$). The following are equivalent.
 
 1. **Derived series terminates:** the [[lie-groups/derived-series-lie-algebra|derived series]] $\mathfrak g^{(0)}=\mathfrak g$, $\mathfrak g^{(k+1)}=[\mathfrak g^{(k)},\mathfrak g^{(k)}]$ satisfies $\mathfrak g^{(N)}=0$ for some $N$. Equivalently, $\mathfrak g$ is [[lie-groups/solvable-lie-algebra|solvable]].
@@ -24,5 +23,5 @@ Let $\mathfrak g$ be a finite-dimensional Lie algebra over an algebraically clos
 
 4. **Cartan’s trace criterion:** $\mathfrak g$ satisfies the trace-vanishing condition equivalent to solvability given by [[lie-groups/cartans-criterion-solvability|Cartan’s criterion for solvability]].
 
-### Context
+## Context
 Condition (1) is the intrinsic definition; (2) and (3) explain why solvable Lie algebras behave like “triangular” objects in linear algebra, while (4) is useful when $\mathfrak g$ is given abstractly but $\mathrm{ad}$ is accessible. Solvability is weaker than nilpotency, and [[lie-groups/nilpotent-implies-solvable-lemma|nilpotent Lie algebras are always solvable]].

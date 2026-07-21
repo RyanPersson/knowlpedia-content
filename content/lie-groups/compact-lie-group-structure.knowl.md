@@ -28,6 +28,6 @@ where $\mathfrak{z}$ is the [[lie-groups/center-of-a-lie-algebra|center]] of $\m
 
 ## Remarks
 
-**Context.** The torus factor encodes the abelian part of $G$ (see [[lie-groups/connected-abelian-lie-group-structure|connected abelian structure]]), while $K$ encodes the “noncommutative core.” The finite quotient reflects the possibility of nontrivial [[lie-groups/center-of-a-lie-group|center]]; passing to the [[lie-groups/universal-covering-group|universal covering group]] eliminates this finite ambiguity.
+**Context.** The torus factor encodes the abelian part of $G$ (see [[lie-groups/connected-abelian-lie-group-structure|connected abelian structure]]), while $K$ encodes the semisimple part. The finite quotient records an overlap between their centers. The universal cover has the form $\mathbb R^{\dim T}\times K$; its kernel over $G$ need not be finite because the torus contributes a lattice.
 
 This decomposition is one conceptual reason compact Lie groups have especially rigid representation theory, via [[lie-groups/peter-weyl-theorem|Peter–Weyl]] and highest-weight methods (see [[lie-groups/highest-weight-theorem|the highest weight theorem]]).

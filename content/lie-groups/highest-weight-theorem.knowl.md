@@ -19,7 +19,7 @@ Fix a complex semisimple [[lie-groups/lie-algebra|Lie algebra]] $\mathfrak g$, a
 ## Remarks
 
 **Group form (compact groups).**
-If $G$ is a compact connected [[lie-groups/compact-lie-group|Lie group]] with maximal torus $T$ (see [[lie-groups/maximal-torus-theorem|maximal tori]]), then irreducible unitary representations of $G$ are similarly classified by dominant integral weights of $T$; differentiating recovers the Lie-algebra classification (compare [[lie-groups/differential-is-lie-algebra-homomorphism|differentiation of representations]]).
+If $G$ is a compact connected [[lie-groups/compact-lie-group|Lie group]] with maximal torus $T$ (see [[lie-groups/maximal-torus-theorem|maximal tori]]), then irreducible unitary representations of $G$ are classified by the dominant weights that lie in the character lattice $X^*(T)$. This lattice depends on the global form of $G$; not every dominant integral weight of the complexified Lie algebra integrates to every group with that Lie algebra.
 
 **Context.**
 This theorem is the conceptual reason that objects like [[lie-groups/fundamental-representation|fundamental representations]] (highest weights equal to fundamental weights) play a foundational role: they correspond to the vertices of the [[lie-groups/dynkin-diagram|Dynkin diagram]] and generate the dominant cone.

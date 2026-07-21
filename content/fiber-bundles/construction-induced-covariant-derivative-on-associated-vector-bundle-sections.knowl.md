@@ -35,7 +35,7 @@ Choose a local section $s_0:U\to P$. Writing a section of $E$ as $s(x)=[s_0(x),v
 \[
 A := s_0^*\omega \in \Omega^1(U;\mathfrak g)
 \]
-be the [[fiber-bundles/local-connection-1-form|local connection 1-form]]. Let $\rho_*:\mathfrak g\to \mathrm{End}(V)$ be the induced Lie algebra representation (obtained by differentiating $\rho$, as in [[fiber-bundles/differential-of-a-lie-group-homomorphism-lie-algebra-homomorphism|differentiating a Lie group map]]). Then locally,
+be the [[fiber-bundles/local-connection-1-form|local connection 1-form]]. Let $\rho_*:\mathfrak g\to \mathrm{End}(V)$ be the induced Lie algebra representation (obtained by differentiating $\rho$, as in [[lie-groups/differential-is-lie-algebra-homomorphism|differentiating a Lie group map]]). Then locally,
 \[
 \nabla v = dv + \rho_*(A)\,v.
 \]

@@ -1,9 +1,9 @@
 +++
 id = "lie-groups/kernel-of-ad-small-is-center-lemma"
-title = "Kernel of ad and the center"
+title = "Kernel of the Lie-algebra adjoint representation"
 kind = "knowl"
 summary = "The kernel of the adjoint representation ad is the center of the Lie algebra."
-aliases = ["kernel-of-ad-small-is-center-lemma", "Kernel of ad and the center"]
+aliases = ["kernel-of-ad-small-is-center-lemma", "Kernel of the Lie-algebra adjoint representation"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/kernel-of-ad-small-is-center-lemma.md"
 +++

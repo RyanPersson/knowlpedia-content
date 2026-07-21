@@ -1,9 +1,9 @@
 +++
 id = "lie-groups/lower-central-series-lie-algebra"
-title = "Lower central series"
+title = "Lower central series of a Lie algebra"
 kind = "knowl"
 summary = "A descending sequence defined by iterated commutators, used to define nilpotent Lie algebras."
-aliases = ["lower-central-series-lie-algebra", "Lower central series"]
+aliases = ["lower-central-series-lie-algebra", "Lower central series of a Lie algebra"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/lower-central-series-lie-algebra.md"
 +++

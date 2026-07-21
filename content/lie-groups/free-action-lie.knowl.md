@@ -1,9 +1,9 @@
 +++
 id = "lie-groups/free-action-lie"
-title = "Free action"
+title = "Free smooth Lie group action"
 kind = "knowl"
 summary = "A Lie group action is free if all stabilizers are trivial."
-aliases = ["free-action-lie", "Free action"]
+aliases = ["free-action-lie", "Free smooth Lie group action"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/free-action-lie.md"
 +++
@@ -19,7 +19,7 @@ is trivial, i.e. $G_p=\{e\}$.
 
 ## Equivalent characterizations
 
-Equivalently, for each $p\in M$, the orbit map $G\to M$, $g\mapsto g\cdot p$ is injective, so each [[lie-groups/orbit-lie-group|orbit]] is diffeomorphic to $G$ as a set. (For finer geometric conclusions, freeness is often paired with [[lie-groups/proper-action-lie|properness]].)
+Equivalently, for each $p\in M$, the orbit map $G\to M$, $g\mapsto g\cdot p$, is injective. It is then an injective immersion onto the [[lie-groups/orbit-lie-group|orbit]]; it is an embedding, and hence identifies the orbit diffeomorphically with $G$, when the action is also proper.
 
 ## Remarks
 

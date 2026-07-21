@@ -8,7 +8,6 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/orthogonal-lie-algebra.md"
 +++
 
-## Definition (Euclidean signature)
 The **orthogonal Lie algebra** $\mathfrak{so}(n)$ is the Lie algebra of the [[lie-groups/orthogonal-group|orthogonal group]] $O(n)$. Concretely,
 $$
 \mathfrak{so}(n)=\{X\in \mathfrak{gl}(n,\Bbb R)\mid X^T+X=0\},

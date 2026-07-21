@@ -21,7 +21,7 @@ Applying the [[fiber-bundles/differential-pushforward-of-a-smooth-map|differenti
 \[
 (dL_g)_h:T_hG\longrightarrow T_{gh}G.
 \]
-This is a fundamental way to move tangent vectors between the [[fiber-bundles/tangent-space-at-a-point|tangent spaces]] of \(G\). In particular, left translations are used to define [[lie-groups/left-invariant-vector-field|left-invariant vector fields]] and to construct the [[fiber-bundles/exponential-map-lie-group-exponential|exponential map]] via flows.
+This is a fundamental way to move tangent vectors between the [[fiber-bundles/tangent-space-at-a-point|tangent spaces]] of \(G\). In particular, left translations are used to define [[lie-groups/left-invariant-vector-field|left-invariant vector fields]] and to construct the [[lie-groups/exponential-map-lie-group|exponential map]] via flows.
 
 The family \(\{L_g\}_{g\in G}\) satisfies the representation property
 \[

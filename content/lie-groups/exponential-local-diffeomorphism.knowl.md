@@ -2,7 +2,7 @@
 id = "lie-groups/exponential-local-diffeomorphism"
 title = "Exponential map is a local diffeomorphism"
 kind = "knowl"
-summary = "For any Lie group , is a diffeomorphism from a neighborhood of onto a neighborhood of ."
+summary = "For any Lie group G, exp is a diffeomorphism from a neighborhood of 0 in its Lie algebra onto a neighborhood of the identity in G."
 aliases = ["exponential-local-diffeomorphism", "Exponential map is a local diffeomorphism"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/exponential-local-diffeomorphism.md"

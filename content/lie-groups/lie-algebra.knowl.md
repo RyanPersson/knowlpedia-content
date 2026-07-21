@@ -27,7 +27,7 @@ $$
 ## Maps and structure
 A structure-preserving map is a [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]]; bijective ones are [[lie-groups/lie-algebra-isomorphism|isomorphisms]].
 
-Important substructures include [[lie-groups/lie-subalgebra|Lie subalgebras]], [[lie-groups/ideal-of-lie-algebra|ideals]], and the [[lie-groups/center-of-a-lie-algebra|center]].
+Important substructures include [[lie-groups/lie-subalgebra|Lie subalgebras]], [[lie-groups/ideal-lie-algebra|ideals]], and the [[lie-groups/center-of-a-lie-algebra|center]].
 
 Many classification notions are defined in terms of the bracket, such as
 [[lie-groups/solvable-lie-algebra|solvable]],

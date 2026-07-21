@@ -30,7 +30,7 @@ For any vector fields $X,Y$ on $G$,
 $$
 (d\theta)(X,Y) = -[\theta(X),\theta(Y)].
 $$
-A clean proof is packaged in [[lie-groups/maurer-cartan-equation-lemma|the Maurer–Cartan equation lemma]].
+A clean proof is packaged in [[lie-groups/maurer-cartan-equation|the Maurer–Cartan equation lemma]].
 
 ## Remarks
 This equation is the differential-geometric encoding of the Lie algebra structure inside the group: it is the reason that brackets of [[lie-groups/left-invariant-vector-field|left-invariant vector fields]] are controlled by the structure constants of $\mathfrak g$, and it underlies many constructions with [[lie-groups/left-invariant-differential-form|left-invariant differential forms]] and [[lie-groups/bi-invariant-differential-form|bi-invariant forms]].

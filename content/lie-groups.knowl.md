@@ -188,7 +188,7 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/lie-algebra-of-subgroup-lemma|Lie algebra of a subgroup lemma]]
 - [[lie-groups/lorentz-group|Lorentz group]]
 - [[lie-groups/lower-central-series-lie-algebra|Lower central series]]
-- [[lie-groups/maurer-cartan-equation-lemma|Maurer–Cartan equation lemma]]
+- [[lie-groups/maurer-cartan-equation|Maurer–Cartan equation lemma]]
 - [[lie-groups/nilpotent-implies-solvable-lemma|Nilpotent implies solvable]]
 - [[lie-groups/one-parameter-subgroups-integral-curves|One-parameter subgroups as integral curves]]
 - [[lie-groups/orbit-space|Orbit space]]

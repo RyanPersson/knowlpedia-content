@@ -31,4 +31,4 @@ $$
 - The [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint representation]] \(\operatorname{ad}:\mathfrak{g}\to\mathfrak{gl}(\mathfrak{g})\).
 - Any [[lie-groups/representation-of-a-lie-group|Lie group representation]] \(\rho:G\to \operatorname{GL}(V)\) differentiates to one of \(\mathfrak{g}=T_eG\).
 
-The kernel of a representation is always an [[lie-groups/ideal-of-lie-algebra|ideal]] of \(\mathfrak{g}\).
+The kernel of a representation is always an [[lie-groups/ideal-lie-algebra|ideal]] of \(\mathfrak{g}\).

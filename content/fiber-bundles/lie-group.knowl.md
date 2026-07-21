@@ -15,7 +15,7 @@ A **Lie group** is a group $G$ equipped with the structure of a [[fiber-bundles/
 \iota:G\to G,\quad \iota(g)=g^{-1}.
 \]
 
-For each $g\in G$, the [[fiber-bundles/left-translation-l-g|left translation]] $L_g(h)=gh$ and the [[fiber-bundles/right-translation-r-g|right translation]] $R_g(h)=hg$ are [[fiber-bundles/diffeomorphism|diffeomorphisms]] of $G$, with inverses $L_{g^{-1}}$ and $R_{g^{-1}}$. The tangent space at the identity $T_eG$ carries a canonical Lie algebra structure, called the [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of $G$]], and the [[fiber-bundles/exponential-map-lie-group-exponential|exponential map]] relates this infinitesimal structure to local group behavior near $e$.
+For each $g\in G$, the [[fiber-bundles/left-translation-l-g|left translation]] $L_g(h)=gh$ and the [[fiber-bundles/right-translation-r-g|right translation]] $R_g(h)=hg$ are [[fiber-bundles/diffeomorphism|diffeomorphisms]] of $G$, with inverses $L_{g^{-1}}$ and $R_{g^{-1}}$. The tangent space at the identity $T_eG$ carries a canonical Lie algebra structure, called the [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of $G$]], and the [[lie-groups/exponential-map-lie-group|exponential map]] relates this infinitesimal structure to local group behavior near $e$.
 
 Smooth group homomorphisms between Lie groups are [[lie-groups/lie-group-homomorphism|Lie group homomorphisms]].
 

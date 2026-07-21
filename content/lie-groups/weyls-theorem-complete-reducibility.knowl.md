@@ -8,13 +8,12 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/weyls-theorem-complete-reducibility.md"
 +++
 
-### Theorem (Weyl complete reducibility)
 Let $\mathfrak g$ be a finite-dimensional semisimple Lie algebra over a field of characteristic $0$ (in particular over $\mathbb C$). Then every finite-dimensional representation of $\mathfrak g$ is [[lie-groups/completely-reducible-representation-lie|completely reducible]]: if $W\subseteq V$ is a [[lie-groups/subrepresentation-lie-algebra|subrepresentation]], there exists a $\mathfrak g$-invariant subspace $W'\subseteq V$ such that
 $$
 V = W \oplus W'.
 $$
 
-### Compact Lie group analogue
+## Compact Lie group analogue
 If $G$ is a [[lie-groups/compact-lie-group|compact Lie group]], then every finite-dimensional continuous representation of $G$ on a real or complex vector space admits a $G$-invariant inner product (obtained by averaging), hence is completely reducible. This is a key input to results like the [[lie-groups/peter-weyl-theorem|Peter–Weyl theorem]].
 
 ### Context and consequences

@@ -10,11 +10,9 @@ legacy_source_path = "stat-mech-quantum/_index.md"
 
 ## Quantum Systems
 
-- [[stat-mech-quantum/density-operator-state|Density-operator state]]
 - [[stat-mech-quantum/observable-algebra|Observable algebra]]
 - [[stat-mech-quantum/quantum-hamiltonian|Quantum Hamiltonian]]
-- [[stat-mech-quantum/quantum-microstate|Quantum microstate]]
-- [[stat-mech-quantum/quantum-system-stat-mech|Quantum system (statistical mechanics)]]
+- [[stat-mech-quantum/quantum-system-stat-mech|Finite quantum statistical system]]
 
 ## Quantum Ensembles
 

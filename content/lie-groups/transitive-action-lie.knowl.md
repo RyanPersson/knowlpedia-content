@@ -8,13 +8,12 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/transitive-action-lie.md"
 +++
 
-### Definition
 Let $G$ be a Lie group acting smoothly on a manifold $M$ (see [[lie-groups/smooth-action-lie-group|smooth Lie group actions]]). The action is **transitive** if for all $x,y\in M$ there exists $g\in G$ such that
 $$
 g\cdot x = y.
 $$
 
-### Homogeneous space description
+## Homogeneous space description
 Fix $x_0\in M$ and let $H=G_{x_0}$ be the [[lie-groups/stabilizer-lie-group|stabilizer subgroup]]. Then $H$ is a Lie subgroup (by the [[lie-groups/closed-subgroup-theorem|closed subgroup theorem]]), and the orbit map induces a smooth surjection
 $$
 G/H \to M,\quad gH\mapsto g\cdot x_0.

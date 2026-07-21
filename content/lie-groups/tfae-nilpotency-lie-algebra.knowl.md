@@ -8,7 +8,6 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/tfae-nilpotency-lie-algebra.md"
 +++
 
-### Theorem (TFAE: nilpotency)
 Let $\mathfrak g$ be a finite-dimensional Lie algebra over a field of characteristic $0$. The following are equivalent.
 
 1. **Lower central series terminates:** the [[lie-groups/lower-central-series-lie-algebra|lower central series]] $\mathfrak g_1=\mathfrak g$, $\mathfrak g_{k+1}=[\mathfrak g,\mathfrak g_k]$ satisfies $\mathfrak g_N=0$ for some $N$. Equivalently, $\mathfrak g$ is [[lie-groups/nilpotent-lie-algebra|nilpotent]].
@@ -28,5 +27,5 @@ Let $\mathfrak g$ be a finite-dimensional Lie algebra over a field of characteri
 
    such that $[\mathfrak g,\mathfrak g^{(i)}]\subseteq \mathfrak g^{(i+1)}$ for all $i$.
 
-### Context
+## Context
 Condition (2) is the Lie-algebraic form of “all infinitesimal conjugations are nilpotent,” while (3) connects nilpotent Lie algebras to concrete matrix models such as [[lie-groups/example-strictly-upper-triangular|strictly upper-triangular examples]]. Nilpotency is stronger than solvability; in fact [[lie-groups/nilpotent-implies-solvable-lemma|nilpotent implies solvable]].

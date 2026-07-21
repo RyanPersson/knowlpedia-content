@@ -1,9 +1,9 @@
 +++
 id = "lie-groups/completely-reducible-representation-lie"
-title = "Completely reducible representation"
+title = "Completely reducible Lie representation"
 kind = "knowl"
 summary = "A representation that splits as a direct sum of irreducible subrepresentations."
-aliases = ["completely-reducible-representation-lie", "Completely reducible representation"]
+aliases = ["completely-reducible-representation-lie", "Completely reducible Lie representation"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/completely-reducible-representation-lie.md"
 +++

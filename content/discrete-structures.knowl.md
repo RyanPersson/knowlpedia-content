@@ -19,8 +19,3 @@ legacy_source_path = "discrete-structures/_index.md"
 - [[discrete-structures/finite-box-lattice|Finite box in a lattice]]
 - [[discrete-structures/boundary-finite-region|Boundary of a finite region]]
 - [[discrete-structures/nearest-neighbor-zd|Nearest-neighbor relation]]
-
-## Interactions
-
-- [[stat-mech-lattice/finite-range-interaction-lattice|Finite-range interaction]]
-- [[stat-mech-lattice/translation-invariant-interaction|Translation-invariant interaction]]
