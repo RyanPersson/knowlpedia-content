@@ -99,7 +99,3 @@ This section covers the foundations of category theory, providing a unified lang
 ## Lemmas
 
 - [[algebra-category-theory/yoneda-lemma|Yoneda lemma]]
-
-## Diagram Practice
-
-- [[algebra-category-theory/tikz-diagram-lab|TikZ diagram lab: category theory lecture notes]]

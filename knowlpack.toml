@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Ryan Persson"]
 license = "unknown-imported"
 content_dir = "content"
+development_content_dirs = ["testing"]
 
 [outputs]
 static_site = true
