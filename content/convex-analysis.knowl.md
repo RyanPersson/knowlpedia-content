@@ -247,3 +247,10 @@ Click any term to expand its definition inline.
 ## Uncategorized
 
 - [[convex-analysis/convex-lecture-notes|Modern Analysis: Lecture Notes and Further Reading Materials]]
+
+---
+
+## Real algebraic and piecewise-polynomial geometry
+
+- [[convex-analysis/semialgebraic-set|Semialgebraic set]]
+- [[convex-analysis/piecewise-polynomial-function|Piecewise-polynomial function]]

@@ -228,3 +228,9 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-groups/loop|Loop]]
 - [[algebra-groups/magma|Magma]]
 - [[algebra-groups/quasigroup|Quasigroup]]
+
+---
+
+## Torsion
+
+- [[algebra-groups/torsion-free-group|Torsion-free group]]

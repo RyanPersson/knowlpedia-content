@@ -163,3 +163,16 @@ Click any term to expand its definition inline.
 - [[topology/heine-cantor-corollary|Continuous function on a compact set is uniformly continuous]]
 - [[topology/nested-interval-theorem|Nested interval theorem]]
 - [[topology/open-sets-form-a-topology|Open sets form a topology]]
+
+---
+
+## Manifolds, groups, and homotopy
+
+- [[topology/topological-manifold|Topological manifold]]
+- [[topology/closed-manifold|Closed manifold]]
+- [[topology/locally-compact-space|Locally compact space]]
+- [[topology/locally-compact-group|Locally compact group]]
+- [[topology/continuous-group-action|Continuous group action]]
+- [[topology/separable-space|Separable space]]
+- [[topology/homotopy-equivalence|Homotopy equivalence]]
+- [[topology/homotopy-sphere|Homotopy sphere]]

@@ -70,3 +70,15 @@ Click any term to expand its definition inline.
 - [[linear-algebra/rank-nullity-theorem|Rank-nullity theorem]]
 - [[linear-algebra/cayley-hamilton-theorem|Cayley–Hamilton theorem]]
 - [[linear-algebra/cauchy-schwarz-inequality|Cauchy–Schwarz inequality]]
+
+---
+
+## Conjecture dependencies
+
+- [[linear-algebra/unit-sphere|Unit sphere of a normed space]]
+- [[linear-algebra/surjective-linear-isometry|Surjective linear isometry]]
+- [[linear-algebra/orthonormal-basis|Orthonormal basis]]
+- [[linear-algebra/closed-linear-subspace|Closed linear subspace]]
+- [[linear-algebra/orthogonal-complement|Orthogonal complement]]
+- [[linear-algebra/orthogonal-projection|Orthogonal projection]]
+- [[linear-algebra/operator-invariant-subspace|Invariant subspace of an operator]]

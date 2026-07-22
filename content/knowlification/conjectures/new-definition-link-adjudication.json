@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "scope": "new conjecture dependency knowls; score at least 60",
+  "reviewed_at": "2026-07-21T00:30:00-07:00",
+  "decided_by": "Codex",
+  "policy": "Accept high-confidence, correctly scoped prerequisites and structural examples; lower-scoring candidates remain subject to the explicit semantic-link review rather than automatic insertion.",
+  "decisions": {
+    "7e81c44e75bb3470b81e":{"disposition":"accept","reason_code":"definition_domain"},
+    "9de07c6977e0e8acd876":{"disposition":"accept","reason_code":"ambient_space"},
+    "1f3e884aba2da1b9f520":{"disposition":"accept","reason_code":"definition_domain"},
+    "32b50dfb602f4e65be73":{"disposition":"accept","reason_code":"completion_context"},
+    "3af98babe282e39c2718":{"disposition":"accept","reason_code":"topology_dependency"},
+    "9085c58090be96a3f561":{"disposition":"accept","reason_code":"core_example"},
+    "9789adaf9eab98d1b725":{"disposition":"accept","reason_code":"specialization_domain"},
+    "a86e804afb1dd61c76f7":{"disposition":"accept","reason_code":"dimension_scope"},
+    "aacde9365a073056b12f":{"disposition":"accept","reason_code":"axiom_domain"},
+    "b37f5a342de95ba6b7bc":{"disposition":"accept","reason_code":"construction_input"},
+    "bb076f8a3d3427fdef38":{"disposition":"accept","reason_code":"ambient_space"},
+    "c6a58c79630e1ca76de1":{"disposition":"accept","reason_code":"geometric_contrast"},
+    "c7dbeba4de3c4d2aa7ea":{"disposition":"accept","reason_code":"application_domain"},
+    "c8d7c543cdc55a6f087f":{"disposition":"accept","reason_code":"structural_analogy"},
+    "d66be2da4c2459fafda1":{"disposition":"accept","reason_code":"bundle_fiber"},
+    "def7a938d9f5e5343eb1":{"disposition":"accept","reason_code":"ambient_space"},
+    "e00d27a8620865021f8c":{"disposition":"accept","reason_code":"definition_hypothesis"},
+    "6a79f1f66dfd400ca1cd":{"disposition":"accept","reason_code":"application_domain"},
+    "be7a7d6453ae46132cdf":{"disposition":"accept","reason_code":"definition_structure"},
+    "1550d5f42daedbb993a2":{"disposition":"accept","reason_code":"inverse_limit_input"},
+    "23f5947d45df17ab627f":{"disposition":"accept","reason_code":"definition_domain"},
+    "78d97172cc58adfda025":{"disposition":"accept","reason_code":"inverse_limit_data"}
+  }
+}

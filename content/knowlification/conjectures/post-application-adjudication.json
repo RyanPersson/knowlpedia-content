@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "scope": "post-application residual candidates",
+  "reviewed_at": "2026-07-21T00:15:00-07:00",
+  "decided_by": "Codex",
+  "policy": "Reject repeated targets exposed after accepted first-occurrence links, plus previously identified generic and wrong-sense matches.",
+  "decisions": {
+    "2319c47246e6c32ab7df":{"disposition":"reject","reason_code":"duplicate_target"},
+    "e46ff13debf1b2bfb30c":{"disposition":"reject","reason_code":"generic_incidental_term"},
+    "7d10547eb5c0dfa81a56":{"disposition":"reject","reason_code":"duplicate_target"},
+    "e6807dea33e29910c8eb":{"disposition":"reject","reason_code":"wrong_sense"},
+    "547ab86e4d6a98b7a213":{"disposition":"reject","reason_code":"ambiguous_target"},
+    "9c26eba9d29e51c1cf7a":{"disposition":"reject","reason_code":"duplicate_target"},
+    "4af9a843c43249b24f82":{"disposition":"reject","reason_code":"duplicate_target"},
+    "6bf3846977403881ea44":{"disposition":"reject","reason_code":"wrong_sense"},
+    "2e28bf20d59f321d8c1b":{"disposition":"reject","reason_code":"duplicate_target"},
+    "61cefb2eb3af28cb6c18":{"disposition":"reject","reason_code":"duplicate_target"},
+    "ad76aa7b26e0f7e72233":{"disposition":"reject","reason_code":"partial_compound"},
+    "a480f4ba48239db2e512":{"disposition":"reject","reason_code":"duplicate_target"},
+    "adc2c92bf9ca052343d6":{"disposition":"reject","reason_code":"incidental_late_mention"},
+    "91a138d299deaa3de988":{"disposition":"reject","reason_code":"duplicate_target"},
+    "be2701860bb172b96c0e":{"disposition":"reject","reason_code":"generic_single_word"},
+    "07a296f9c221bf89fa5d":{"disposition":"reject","reason_code":"duplicate_target"},
+    "a23cd09a7a9812861161":{"disposition":"reject","reason_code":"duplicate_target"},
+    "1b720507efe2eb19d3cd":{"disposition":"reject","reason_code":"duplicate_target"}
+  }
+}

@@ -31,3 +31,11 @@ legacy_source_path = "quantum-foundations/_index.md"
 ## Inequalities
 
 - [[quantum-foundations/golden-thompson-inequality|Golden–Thompson inequality]]
+
+## Measurements and supporting operators
+
+- [[quantum-foundations/normalized-state-vector|Normalized state vector]]
+- [[quantum-foundations/rank-one-projector|Rank-one projector]]
+- [[quantum-foundations/positive-operator-valued-measure|Positive operator-valued measure]]
+- [[quantum-foundations/positive-semidefinite-operator|Positive semidefinite operator]]
+- [[quantum-foundations/normal-operator|Normal operator]]

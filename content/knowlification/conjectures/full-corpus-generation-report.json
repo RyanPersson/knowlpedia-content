@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "formal_conjectures_commit": "39875db85782f5c4cc1adc7c405e329d450e57e5",
+  "catalog_records": 1170,
+  "open_source_files": 629,
+  "generated_pages": 1158,
+  "curated_overrides": 12,
+  "finished_pages": 1170,
+  "failures": 0,
+  "structural_audit": {
+    "malformed_frontmatter": 0,
+    "duplicate_ids": 0,
+    "duplicate_titles": 0,
+    "raw_dollar_pages": 0,
+    "missing_semantic_links": 0,
+    "manifest_ids_missing_from_index": 0,
+    "trailing_top_level_commands": 0
+  },
+  "knowlpack_compilation": {
+    "compiled_knowls": 3354,
+    "errors": 0,
+    "warnings": 27,
+    "new_warnings": 0,
+    "manifest_ids_missing_from_registry": 0,
+    "index_missing_knowl_markers": 0
+  },
+  "lexical_link_audit": {
+    "files_scanned": 1158,
+    "candidates": 1204,
+    "pending_high_confidence": 0
+  }
+}

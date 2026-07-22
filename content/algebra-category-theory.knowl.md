@@ -99,3 +99,17 @@ This section covers the foundations of category theory, providing a unified lang
 ## Lemmas
 
 - [[algebra-category-theory/yoneda-lemma|Yoneda lemma]]
+
+---
+
+## Triangles and shifts
+
+- [[algebra-category-theory/preadditive-category|Preadditive category]]
+- [[algebra-category-theory/initial-object|Initial object]]
+- [[algebra-category-theory/zero-object|Zero object]]
+- [[algebra-category-theory/shift-functor|Shift functor]]
+- [[algebra-category-theory/triangle|Triangle in a shifted category]]
+- [[algebra-category-theory/distinguished-triangle|Distinguished triangle]]
+- [[algebra-category-theory/pretriangulated-category|Pretriangulated category]]
+- [[algebra-category-theory/octahedral-axiom|Octahedral axiom]]
+- [[algebra-category-theory/triangulated-category|Triangulated category]]
