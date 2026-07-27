@@ -19,7 +19,7 @@ t\longmapsto\alpha_t(a)
 extends to an entire \(A\)-valued function on \(\mathbb C\). The extension is
 unique and its value at \(z\in\mathbb C\) is denoted \(\alpha_z(a)\). Thus an
 expression such as \(\alpha_{-i}(a)\) is defined only for analytic \(a\), not
-by extending the automorphism group to all complex times.
+by extending the [[algebra-groups/automorphism-group|automorphism group]] to all complex times.
 
 ## Algebraic properties
 
@@ -49,7 +49,7 @@ There is a parallel \(W^*\)-algebra convention. If
 \(\sigma:\mathbb R\to\operatorname{Aut}(M)\) is only point-ultraweakly
 continuous, an element \(a\in M\) is entire analytic when its orbit has an
 entire extension \(z\mapsto\sigma_z(a)\) in the ultraweak sense: for every
-normal functional \(\omega\in M_*\), the scalar function
+[[operator-algebras/normal-functional|normal functional]] \(\omega\in M_*\), the scalar function
 \(z\mapsto\omega(\sigma_z(a))\) is entire. This is not a norm-entire
 extension on all of \(M\).
 

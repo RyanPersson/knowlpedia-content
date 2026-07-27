@@ -19,8 +19,8 @@ equipped most often with the
 [[functional-analysis/weak-star-topology|weak-star topology]]. If \(A\) is
 unital, the norm condition is equivalent to \(\varphi(1_A)=1\), and \(S(A)\)
 is weak-star compact. For nonunital \(A\), \(S(A)\) need not be weak-star
-compact, although the positive functionals of norm at most one form a
-weak-star compact set.
+compact, although the [[operator-algebras/positive-linear-functional|positive functionals]] of norm at most one form a
+weak-star [[topology/compact-set|compact set]].
 
 ## Convex structure
 

@@ -8,7 +8,7 @@ domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(P\to M\) be a principal bundle with compact structure group over an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], equipped with an invariant inner product on the Lie algebra. The **Yang–Mills moduli space** of \(P\) is the quotient
+Let \(P\to M\) be a principal bundle with compact structure group over an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], equipped with an invariant [[linear-algebra/inner-product|inner product]] on the [[lie-groups/lie-algebra|Lie algebra]]. The **Yang–Mills moduli space** of \(P\) is the quotient
 \[
 \mathcal M_{\mathrm{YM}}(P)
 =
@@ -24,9 +24,9 @@ The linearized [[fiber-bundles/yangmills-equation|Yang–Mills equation]] togeth
 
 ## Important subspaces
 
-On an oriented four-manifold, [[fiber-bundles/self-dual-and-anti-self-dual-connection|self-dual and anti-self-dual connections]] define instanton moduli spaces inside \(\mathcal M_{\mathrm{YM}}(P)\). They are absolute minima of the [[fiber-bundles/yangmills-functional|Yang–Mills functional]] in the appropriate topological sector by the [[fiber-bundles/yang-mills-energy-identity|Yang–Mills energy identity]]. General Yang–Mills critical points need not be self-dual or anti-self-dual, so the full Yang–Mills moduli space is usually larger.
+On an oriented four-manifold, [[fiber-bundles/self-dual-and-anti-self-dual-connection|self-dual and anti-self-dual connections]] define [[fiber-bundles/anti-self-dual-moduli-space|instanton moduli spaces]] inside \(\mathcal M_{\mathrm{YM}}(P)\). They are absolute minima of the [[fiber-bundles/yangmills-functional|Yang–Mills functional]] in the appropriate topological sector by the [[fiber-bundles/yang-mills-energy-identity|Yang–Mills energy identity]]. General Yang–Mills critical points need not be self-dual or anti-self-dual, so the full Yang–Mills moduli space is usually larger.
 
-Over a closed Riemann surface, the Yang–Mills functional and its gauge symmetry organize the space into Morse-theoretic strata; Atiyah and Bott use this structure to relate [[fiber-bundles/gauge-theory|gauge theory]] to moduli of holomorphic bundles [Atiyah–Bott, §§3–9](https://doi.org/10.1098/rsta.1983.0017).
+Over a closed [[differential-geometry/riemann-surface|Riemann surface]], the Yang–Mills functional and its gauge symmetry organize the space into Morse-theoretic strata; Atiyah and Bott use this structure to relate [[fiber-bundles/gauge-theory|gauge theory]] to moduli of holomorphic bundles [Atiyah–Bott, §§3–9](https://doi.org/10.1098/rsta.1983.0017).
 
 ## Compactification and conventions
 

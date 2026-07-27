@@ -41,7 +41,7 @@ common domain rather than a separately chosen intersection
 
 ## Equivariance and filtration
 
-The group action and enveloping-algebra action obey
+The [[algebra-groups/group-action|group action]] and enveloping-algebra action obey
 \[
 \pi(g)d\pi(u)\pi(g)^{-1}=d\pi(\operatorname{Ad}(g)u),
 \qquad u\in U(\mathfrak g_{\mathbb C}).

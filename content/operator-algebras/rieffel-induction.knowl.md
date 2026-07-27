@@ -24,7 +24,7 @@ product]] \(E\otimes_\pi H_\pi\) defined by
 \]
 Here \(E\otimes_\pi H_\pi\) is obtained by balancing
 \(\xi b\otimes h=\xi\otimes\pi(b)h\), quotienting the null space of its
-induced inner product, and completing. Adjointability of \(\varphi(a)\)
+induced [[linear-algebra/inner-product|inner product]], and completing. Adjointability of \(\varphi(a)\)
 makes the formula well defined and bounded.
 
 ## Action on intertwiners
@@ -33,8 +33,8 @@ If \(T:H_\pi\to H_\rho\) intertwines two representations of \(B\), then
 \[
 1_E\otimes T:E\otimes_\pi H_\pi\longrightarrow E\otimes_\rho H_\rho
 \]
-intertwines their induced representations. Induction therefore acts
-functorially on nondegenerate representation categories and preserves
+intertwines their [[algebra-representation-theory/induced-representation|induced representations]]. Induction therefore acts
+functorially on [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] categories and preserves
 unitary equivalence. Tensor-product associativity identifies induction
 through a composite correspondence with successive induction.
 
@@ -46,7 +46,7 @@ bimodule]], Rieffel induction is an equivalence between the categories of
 nondegenerate representations of \(B\) and \(A\). Induction through the
 conjugate bimodule \(\widetilde E\) is a quasi-inverse. Consequently, strong
 Morita equivalence preserves the representation-theoretic structure encoded
-by ideals and irreducible representations
+by ideals and [[algebra-representation-theory/irreducible-representation|irreducible representations]]
 [Rieffel, §§5–6](https://doi.org/10.1016/0001-8708%2874%2990068-1).
 
 ## Examples and scope

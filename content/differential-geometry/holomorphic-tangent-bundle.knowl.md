@@ -16,7 +16,7 @@ Holomorphic coordinates \(z^1,\ldots,z^n\) give a local holomorphic frame
 \[
 \frac{\partial}{\partial z^1},\ldots,\frac{\partial}{\partial z^n}.
 \]
-A [[differential-geometry/holomorphic-section|holomorphic section]] of \(T^{1,0}X\) is a holomorphic vector field, locally \(\sum_j a^j(z)\partial/\partial z^j\) with holomorphic coefficients. These sections form the holomorphic tangent sheaf.
+A [[differential-geometry/holomorphic-section|holomorphic section]] of \(T^{1,0}X\) is a holomorphic [[fiber-bundles/vector-field|vector field]], locally \(\sum_j a^j(z)\partial/\partial z^j\) with holomorphic coefficients. These sections form the holomorphic tangent sheaf.
 
 ## Duality and functoriality
 

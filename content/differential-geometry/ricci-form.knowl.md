@@ -32,7 +32,7 @@ Thus changing the Kähler metric changes \(\rho_g\) by an exact real \((1,1)\)-f
 
 ## Examples and conventions
 
-The Euclidean Kähler metric on \(\mathbb C^n\) has constant coefficient matrix and hence zero Ricci form. The [[differential-geometry/fubini-study-metric|Fubini–Study metric]] on complex projective space has positive Ricci form proportional to its Kähler form. Authors who define \(\omega(U,V)=g(U,JV)\), reverse the sign of the curvature tensor, or normalize \(d^c\) differently may display the opposite local sign.
+The Euclidean Kähler metric on \(\mathbb C^n\) has constant coefficient matrix and hence zero Ricci form. The [[differential-geometry/fubini-study-metric|Fubini–Study metric]] on complex [[algebraic-geometry-foundations/projective-space|projective space]] has positive Ricci form proportional to its Kähler form. Authors who define \(\omega(U,V)=g(U,JV)\), reverse the sign of the curvature tensor, or normalize \(d^c\) differently may display the opposite local sign.
 
 ## References
 

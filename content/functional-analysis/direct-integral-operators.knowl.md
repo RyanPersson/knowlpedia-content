@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(\{H_x\}_{x\in X}\) be a
 [[functional-analysis/measurable-field-hilbert-spaces|measurable field of Hilbert spaces]] over \((X,\mu)\), and let \(A_x\) be a measurable family of
-closed densely defined operators on the fibers. The **direct integral**
+closed [[functional-analysis/densely-defined-operator|densely defined operators]] on the fibers. The **direct integral**
 \[
 A=\int_X^\oplus A_x\,d\mu(x)
 \]

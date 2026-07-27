@@ -26,7 +26,7 @@ Every connected orientable manifold of positive dimension has exactly two orient
 
 ## Examples and obstruction
 
-Euclidean space and every sphere are orientable. Every [[differential-geometry/complex-manifold|complex manifold]] is canonically orientable after forgetting its complex structure. The Möbius band is nonorientable, and real projective \(n\)-space is orientable exactly when \(n\) is odd. The [[fiber-bundles/stiefel-whitney-class|first Stiefel–Whitney class]] of \(TM\) is the standard cohomological obstruction to orientability [Milnor and Stasheff, §§4 and 9](https://doi.org/10.1515/9781400881826).
+[[linear-algebra/euclidean-space|Euclidean space]] and every sphere are orientable. Every [[differential-geometry/complex-manifold|complex manifold]] is canonically orientable after forgetting its complex structure. The Möbius band is nonorientable, and real projective \(n\)-space is orientable exactly when \(n\) is odd. The [[fiber-bundles/stiefel-whitney-class|first Stiefel–Whitney class]] of \(TM\) is the standard cohomological obstruction to orientability [Milnor and Stasheff, §§4 and 9](https://doi.org/10.1515/9781400881826).
 
 ## References
 

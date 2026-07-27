@@ -8,7 +8,7 @@ domains = ["differential-geometry", "fiber-bundles"]
 section_mode = "progressive"
 +++
 
-Let \(M\) be a smooth manifold and \(\pi:T^*M\to M\) its [[fiber-bundles/cotangent-bundle|cotangent bundle]]. The **tautological one-form** \(\theta\) is the [[fiber-bundles/differential-k-form|differential one-form]] on \(T^*M\) defined at a covector \(\alpha_x\in T_x^*M\) by
+Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and \(\pi:T^*M\to M\) its [[fiber-bundles/cotangent-bundle|cotangent bundle]]. The **tautological one-form** \(\theta\) is the [[fiber-bundles/differential-k-form|differential one-form]] on \(T^*M\) defined at a covector \(\alpha_x\in T_x^*M\) by
 \[
 \theta_{\alpha_x}(v)=\alpha_x\!\left(d\pi_{\alpha_x}(v)\right),
 \qquad v\in T_{\alpha_x}(T^*M).

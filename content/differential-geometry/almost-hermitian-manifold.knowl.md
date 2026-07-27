@@ -32,7 +32,7 @@ If \(d\omega=0\), then \((M,\omega)\) is a [[differential-geometry/symplectic-ma
 
 ## Examples and conventions
 
-Euclidean space \(\mathbb R^{2n}\), with its standard complex structure and Euclidean metric, is almost Hermitian. More generally, a Hermitian metric on a [[differential-geometry/complex-manifold|complex manifold]] gives an almost-Hermitian structure on its underlying smooth manifold. Some authors define the [[differential-geometry/fundamental-form-almost-hermitian|fundamental form]] as \(g(X,JY)\), which is the negative of the convention used here.
+[[linear-algebra/euclidean-space|Euclidean space]] \(\mathbb R^{2n}\), with its standard complex structure and Euclidean metric, is almost Hermitian. More generally, a Hermitian metric on a [[differential-geometry/complex-manifold|complex manifold]] gives an almost-Hermitian structure on its underlying smooth manifold. Some authors define the [[differential-geometry/fundamental-form-almost-hermitian|fundamental form]] as \(g(X,JY)\), which is the negative of the convention used here.
 
 ## References
 

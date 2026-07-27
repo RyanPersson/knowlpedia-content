@@ -32,12 +32,12 @@ The operator \(T\) is \(\tau\)-measurable exactly when
 \(d_T(s)\to0\) as \(s\to\infty\). Indeed, the low-spectrum projections
 \(E^{|T|}([0,s])\) provide bounded restrictions of \(T\), while their
 complements have trace \(d_T(s)\). This criterion is the operator-algebraic
-analogue of a measurable function being finite almost everywhere
+analogue of a [[measure-theory/measurable-function|measurable function]] being finite [[measure-theory/almost-everywhere|almost everywhere]]
 [Nelson, pp. 103–106](https://doi.org/10.1016/0022-1236%2874%2990014-7).
 
 ## Measure topology and algebra
 
-The \(\tau\)-measurable operators form an involutive algebra
+The \(\tau\)-measurable operators form an [[operator-algebras/involutive-algebra|involutive algebra]]
 \(S(M,\tau)\) under closed sums and products. Its measure topology has basic
 zero-neighborhoods consisting of operators \(T\) for which there is a
 projection \(e\in M\) with
@@ -47,7 +47,7 @@ projection \(e\in M\) with
 \tau(1-e)\leq\delta.
 \]
 This algebra is complete for the measure topology. Generalized singular
-numbers turn convergence in measure into scalar estimates
+numbers turn [[measure-theory/convergence-in-measure|convergence in measure]] into scalar estimates
 [Fack–Kosaki, §§1–3](https://doi.org/10.2140/pjm.1986.123.269).
 
 ## Examples and distinctions

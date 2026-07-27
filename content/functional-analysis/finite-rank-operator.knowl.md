@@ -21,7 +21,7 @@ Thus the zero operator has rank \(0\), and \(T\) has rank \(n\) precisely
 when its range has a
 [[convex-analysis/basis-hamel-basis-and-dimension|Hamel basis]] of \(n\)
 vectors. Boundedness is part of the operator-theoretic convention used here;
-an algebraic linear map can have finite-dimensional range without being
+an algebraic [[linear-algebra/linear-map|linear map]] can have finite-dimensional range without being
 continuous.
 
 ## Rank-one decompositions
@@ -38,7 +38,7 @@ blocks [Conway, Chapter II](https://doi.org/10.1007/978-1-4757-4383-8).
 
 ## Approximation and examples
 
-Finite-rank operators form a linear subspace of \(B(X,Y)\), are compact, and
+Finite-rank operators form a [[convex-analysis/linear-subspace|linear subspace]] of \(B(X,Y)\), are compact, and
 are stable under composition with bounded operators. Their operator-norm
 closure is the class of approximable operators; it need not contain every
 [[linear-algebra/compact-operator|compact operator]] for arbitrary

@@ -12,7 +12,7 @@ Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifol
 \[
 \varphi(U\cap S)=\varphi(U)\cap(\mathbb R^k\times\{0\}) .
 \]
-The set \(S\) is given the [[topology/subspace-topology|subspace topology]] and the smooth structure induced by these slice charts. With this structure the inclusion \(S\hookrightarrow M\) is a [[fiber-bundles/smooth-embedding|smooth embedding]], and the codimension of \(S\) is \(n-k\).
+The set \(S\) is given the [[topology/subspace-topology|subspace topology]] and the smooth structure induced by these [[differential-geometry/submanifold-chart|slice charts]]. With this structure the inclusion \(S\hookrightarrow M\) is a [[fiber-bundles/smooth-embedding|smooth embedding]], and the codimension of \(S\) is \(n-k\).
 
 ## Equivalent intrinsic formulation
 

@@ -19,7 +19,7 @@ Both constructions use the same scalar field as \(E\) and require \(k\geq0\).
 
 ## Parallel transport and curvature
 
-If \(T_\gamma:E_{\gamma(0)}\to E_{\gamma(1)}\) is parallel transport for \(\nabla\), the induced transports are \(\Lambda^kT_\gamma\) and \(\operatorname{Sym}^kT_\gamma\). This characterization immediately shows that a connection preserving a bundle metric induces metric connections on the corresponding power bundles.
+If \(T_\gamma:E_{\gamma(0)}\to E_{\gamma(1)}\) is parallel transport for \(\nabla\), the induced transports are \(\Lambda^kT_\gamma\) and \(\operatorname{Sym}^kT_\gamma\). This characterization immediately shows that a connection preserving a [[fiber-bundles/bundle-metric|bundle metric]] induces metric connections on the corresponding power bundles.
 
 Curvature acts by the derived exterior- or symmetric-power representation. For decomposable exterior tensors,
 \[

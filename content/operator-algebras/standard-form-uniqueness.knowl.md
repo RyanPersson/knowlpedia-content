@@ -28,13 +28,13 @@ of the distinguished cones are part of the theorem
 ## Canonical consequences
 
 Taking \(M=N\) shows that every normal automorphism of \(M\) acts canonically
-on the standard Hilbert space. If \(U_\alpha\) and \(U_\beta\) implement
+on the standard [[linear-algebra/hilbert-space|Hilbert space]]. If \(U_\alpha\) and \(U_\beta\) implement
 normal automorphisms \(\alpha\) and \(\beta\), uniqueness gives
 \[
 U_{\alpha\circ\beta}=U_\alpha U_\beta.
 \]
 The identity automorphism is implemented by the identity unitary. Hence the
-normal automorphism group of \(M\) acquires an honest unitary
+normal [[algebra-groups/automorphism-group|automorphism group]] of \(M\) acquires an honest unitary
 representation, not merely a projective one.
 
 The same uniqueness makes standard form functorial: composing normal

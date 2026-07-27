@@ -33,19 +33,19 @@ A basic neighborhood of \(0\) specifies finitely many vectors
 \text{ for }1\leq j\leq m\}.
 \]
 Thus weak-star convergence tests one vector at a time; it does not require
-uniform convergence on the unit ball or on bounded subsets of \(E\).
+[[real-analysis/uniform-convergence|uniform convergence]] on the unit ball or on bounded subsets of \(E\).
 
 ## Dependence on the predual
 
 The notation \(\sigma(E',E)\) records both sides of the dual pairing. If a
-Banach space \(M\) can be represented as the dual of different preduals, the
+[[linear-algebra/banach-space|Banach space]] \(M\) can be represented as the dual of different preduals, the
 resulting weak-star topologies on \(M\) can differ. By contrast, the weak
 topology on a Banach dual \(E'\) is \(\sigma(E',E'')\), using all elements of
 the bidual, and is generally finer than \(\sigma(E',E)\).
 
 ## Compactness role
 
-For a normed space \(E\), the Banach–Alaoglu theorem says that the closed unit
+For a normed space \(E\), the [[functional-analysis/banach-alaoglu-theorem|Banach–Alaoglu theorem]] says that the closed unit
 ball of \(E'\) is compact in \(\sigma(E',E)\). This conclusion is weak-star
 compactness, not generally norm compactness or weak compactness. The topology
 is therefore central to state spaces and dual Banach spaces

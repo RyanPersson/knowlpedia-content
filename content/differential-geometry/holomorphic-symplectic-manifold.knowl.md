@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 A **holomorphic symplectic manifold** is a pair \((X,\sigma)\) consisting of a [[differential-geometry/complex-manifold|complex manifold]] \(X\) and a [[differential-geometry/holomorphic-symplectic-form|holomorphic symplectic form]] \(\sigma\) on it. Thus \(\sigma\) is a closed holomorphic \(2\)-form whose contraction map \(T^{1,0}X\to T^{*1,0}X\) is an isomorphism at every point. Isomorphisms of such pairs are [[differential-geometry/biholomorphism|biholomorphisms]] \(f:X\to Y\) satisfying \(f^*\sigma_Y=\sigma_X\). Saying merely that \(X\) “is holomorphic symplectic” usually asserts the existence of some such form without selecting one.
-The complex structure and form are both part of the equipped object; neither is determined solely by the underlying smooth manifold.
+The complex structure and form are both part of the equipped object; neither is determined solely by the underlying [[fiber-bundles/smooth-manifold|smooth manifold]].
 
 ## Structural consequences
 
@@ -19,7 +19,7 @@ If \(X\) is compact and Kähler, these facts place it inside Ricci-flat Kähler 
 
 ## Standard examples
 
-The total space of the [[differential-geometry/holomorphic-cotangent-bundle|holomorphic cotangent bundle]] of any complex manifold carries its canonical holomorphic symplectic form. Complex tori of even dimension also admit translation-invariant examples whenever their tangent vector space is equipped with a nondegenerate alternating complex form.
+The total space of the [[differential-geometry/holomorphic-cotangent-bundle|holomorphic cotangent bundle]] of any complex manifold carries its canonical holomorphic symplectic form. Complex tori of even dimension also admit translation-invariant examples whenever their tangent [[linear-algebra/vector-space|vector space]] is equipped with a nondegenerate alternating complex form.
 
 A K3 surface carries a nowhere-vanishing holomorphic \(2\)-form and is the basic compact simply connected example. Products of K3 surfaces are holomorphic symplectic but fail the irreducibility condition described below.
 
@@ -27,7 +27,7 @@ A K3 surface carries a nowhere-vanishing holomorphic \(2\)-form and is the basic
 
 An **[[differential-geometry/irreducible-holomorphic-symplectic-manifold|irreducible holomorphic symplectic manifold]]** is usually required to be compact, Kähler, and simply connected, with \(H^0(X,\Omega_X^2)\) spanned by its symplectic form. Under these hypotheses it corresponds to the compact irreducible hyperkähler setting [Huybrechts, §1](https://doi.org/10.1007/s002220050280).
 
-**Warning.** Some authors use “holomorphic symplectic” or “hyperkähler” only for this compact irreducible class. The definition in this knowl is broader and includes noncompact cotangent bundles, complex tori, and products.
+**Warning.** Some authors use “holomorphic symplectic” or “hyperkähler” only for this compact irreducible class. The definition in this knowl is broader and includes noncompact [[fiber-bundles/cotangent-bundle|cotangent bundles]], complex tori, and products.
 
 ## References
 

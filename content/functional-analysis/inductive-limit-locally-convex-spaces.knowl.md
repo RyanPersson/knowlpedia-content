@@ -8,13 +8,13 @@ domains = ["functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \((E_i,\phi_{ji})\) be a directed system of [[functional-analysis/locally-convex-space|locally convex spaces]] and [[functional-analysis/continuous-linear-map|continuous linear maps]], and let \(E=\varinjlim E_i\) be its algebraic direct limit with canonical linear maps \(\iota_i:E_i\to E\). The **locally convex inductive-limit topology** on \(E\) is the finest locally convex vector topology for which every \(\iota_i\) is continuous. The resulting locally convex space is denoted
+Let \((E_i,\phi_{ji})\) be a directed system of [[functional-analysis/locally-convex-space|locally convex spaces]] and [[functional-analysis/continuous-linear-map|continuous linear maps]], and let \(E=\varinjlim E_i\) be its algebraic direct limit with canonical [[linear-algebra/linear-map|linear maps]] \(\iota_i:E_i\to E\). The **locally convex inductive-limit topology** on \(E\) is the finest locally convex vector topology for which every \(\iota_i\) is continuous. The resulting locally convex space is denoted
 \[
 \varinjlim E_i
 \quad\text{or}\quad
 \operatorname{ind\,lim}_i E_i.
 \]
-This is a categorical final construction within locally convex spaces. It need not equal the ordinary final topology in topological spaces, because that topology need not make \(E\) a locally convex topological vector space.
+This is a categorical final construction within locally convex spaces. It need not equal the ordinary final topology in [[topology/topological-space|topological spaces]], because that topology need not make \(E\) a locally convex [[functional-analysis/topological-vector-space|topological vector space]].
 
 ## Universal property
 
@@ -30,11 +30,11 @@ A common case is an increasing sequence
 \[
 E_1\subseteq E_2\subseteq\cdots,\qquad E=\bigcup_{n\geq1}E_n,
 \]
-with continuous inclusions. If every \(E_n\) is Fréchet, the inductive limit is called an **LF-space**. Compactly supported smooth functions are obtained in this way by taking smooth functions supported in a fixed compact set and then enlarging the compact set.
+with continuous inclusions. If every \(E_n\) is Fréchet, the inductive limit is called an **LF-space**. [[functional-analysis/test-function-space|Compactly supported smooth functions]] are obtained in this way by taking smooth functions supported in a fixed [[topology/compact-set|compact set]] and then enlarging the compact set.
 
 ## Hausdorffness and regularity
 
-Some authors require locally convex spaces to be Hausdorff. In that convention, a non-Hausdorff locally convex inductive limit must be divided by the closure of \(\{0\}\) to obtain the categorical Hausdorff limit. Completeness, bounded-set behavior, and the compatibility of subspace topologies do not follow formally from the definition; adjectives such as **strict**, **regular**, and **complete** record extra hypotheses.
+Some authors require locally convex spaces to be Hausdorff. In that convention, a non-Hausdorff locally convex inductive limit must be divided by the closure of \(\{0\}\) to obtain the categorical Hausdorff limit. Completeness, bounded-set behavior, and the compatibility of [[topology/subspace-topology|subspace topologies]] do not follow formally from the definition; adjectives such as **strict**, **regular**, and **complete** record extra hypotheses.
 
 ## References
 

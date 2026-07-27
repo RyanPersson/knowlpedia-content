@@ -21,9 +21,9 @@ Here \(\varphi\) ranges over the
 [[functional-analysis/schwartz-space|Schwartz space]], and local integrability
 means that \(f\) is
 [[measure-theory/lebesgue-integrable-function|Lebesgue integrable]] on every
-compact set. In addition, the displayed integral must be absolutely
+[[topology/compact-set|compact set]]. In addition, the displayed integral must be absolutely
 convergent for every Schwartz function and must depend continuously on
-\(\varphi\) in the Schwartz topology. Functions equal almost everywhere
+\(\varphi\) in the Schwartz topology. Functions equal [[measure-theory/almost-everywhere|almost everywhere]]
 determine the same regular tempered distribution.
 
 ## Sufficient growth conditions
@@ -45,7 +45,7 @@ Every function in
 \(1\leq p\leq\infty\) defines a regular tempered distribution by
 [[convex-analysis/holder-inequality-integrals|Hölder's inequality]], since
 Schwartz functions belong to the conjugate \(L^q\) space. Polynomials and
-bounded measurable functions give further examples. A function such as
+bounded [[measure-theory/measurable-function|measurable functions]] give further examples. A function such as
 \(e^{|x|}\) generally fails because multiplication by a Schwartz function
 need not be integrable.
 
@@ -54,7 +54,7 @@ need not be integrable.
 The adjective **regular** refers to representation by a function, not to
 smoothness of that function. The Dirac delta and its derivatives are
 tempered but not regular, since no locally integrable function represents
-point evaluation on all test functions. Regular distributions are therefore
+point evaluation on all [[functional-analysis/test-function-space|test functions]]. Regular distributions are therefore
 a proper subclass of tempered distributions.
 
 ## References

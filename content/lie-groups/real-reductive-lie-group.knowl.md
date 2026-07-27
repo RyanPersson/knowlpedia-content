@@ -11,8 +11,8 @@ section_mode = "progressive"
 A **real reductive Lie group in the Harish–Chandra class** is a
 [[fiber-bundles/lie-group|real Lie group]] \(G\) such that its [[lie-groups/lie-algebra|Lie algebra]]
 \(\mathfrak g\) is [[lie-groups/reductive-lie-algebra|reductive]],
-\(\operatorname{Ad}(G)\) lies in the group of inner automorphisms of
-\(\mathfrak g_{\mathbb C}\), \(G\) has finitely many connected components, and
+\(\operatorname{Ad}(G)\) lies in the group of [[algebra-groups/inner-automorphism|inner automorphisms]] of
+\(\mathfrak g_{\mathbb C}\), \(G\) has finitely many [[topology/connected-component|connected components]], and
 the connected analytic subgroup with Lie algebra
 \([\mathfrak g,\mathfrak g]\) has finite center. These global conditions are
 part of the definition: reductivity of \(\mathfrak g\) alone does not control

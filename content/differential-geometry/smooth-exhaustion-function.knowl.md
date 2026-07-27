@@ -22,7 +22,7 @@ Moreover, one can arrange additional properties, such as agreement with a prescr
 
 ## Examples and non-examples
 
-On \(\mathbb R^n\), the function \(\rho(x)=\|x\|^2\) is a smooth exhaustion because its sublevel sets are closed balls. The height function \(x\mapsto x_1\) is smooth and unbounded, but it is not an exhaustion: the inverse image of a compact interval is an unbounded slab and hence not compact.
+On \(\mathbb R^n\), the function \(\rho(x)=\|x\|^2\) is a smooth exhaustion because its sublevel sets are [[topology/closed-ball|closed balls]]. The height function \(x\mapsto x_1\) is smooth and unbounded, but it is not an exhaustion: the inverse image of a compact interval is an unbounded slab and hence not compact.
 
 On a compact manifold, every smooth map to \([0,\infty)\) is proper, so even a constant function is an exhaustion under the definition in the core.
 

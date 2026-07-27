@@ -58,7 +58,7 @@ finite-dimensional sampling constructions.
 
 Since each composite \(\psi_\lambda\phi_\lambda\) is a finite-rank
 contraction, CPAP implies the metric approximation property of the underlying
-Banach space. The converse fails: complete positivity and the
+[[linear-algebra/banach-space|Banach space]]. The converse fails: complete positivity and the
 matrix-factorization structure contain information absent from ordinary
 finite-rank approximation
 [Choi–Effros, pp. 61–79](https://doi.org/10.2307/2373876).
@@ -68,11 +68,11 @@ finite-rank approximation
 **Warning.** Replacing point-norm convergence by point-ultraweak convergence
 produces a von Neumann-algebraic approximation notion related to
 semidiscreteness, not CPAP as defined here. Likewise, the completely bounded
-approximation property allows finite-rank completely bounded maps with a
+approximation property allows finite-rank [[operator-algebras/completely-bounded-map|completely bounded maps]] with a
 uniform norm bound; it does not require positive factorizations through
 matrix algebras.
 
-Some sources formulate CPAP using finite-rank completely positive contractions
+Some sources formulate CPAP using finite-rank [[operator-algebras/completely-positive-contraction|completely positive contractions]]
 on \(A\) rather than writing the two maps. For nuclearity, the factorized form
 above is the standard robust formulation and makes the finite-dimensional
 intermediate algebra explicit.

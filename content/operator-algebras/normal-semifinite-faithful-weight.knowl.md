@@ -37,7 +37,7 @@ the standard one used in modular theory
 
 The ordinary [[operator-algebras/operator-trace|trace]] on \(B(H)\), allowed
 to take the value \(\infty\), is normal, semifinite, and faithful. On a
-commutative von Neumann algebra \(L^\infty(X,\mu)\), integration against a
+[[operator-algebras/commutative-von-neumann-algebra|commutative von Neumann algebra]] \(L^\infty(X,\mu)\), integration against a
 faithful semifinite measure gives an n.s.f. weight. A faithful
 [[operator-algebras/normal-state|normal state]] is an n.s.f. weight whose value
 at the identity is one, hence is finite everywhere; the general weight notion

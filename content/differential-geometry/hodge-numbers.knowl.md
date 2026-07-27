@@ -36,7 +36,7 @@ For \(\mathbb{CP}^n\), one has \(h^{p,p}=1\) for \(0\leq p\leq n\) and all off-d
 
 ## Conventions and scope
 
-For an arbitrary compact complex manifold, authors still define \(h^{p,q}=\dim H_{\bar\partial}^{p,q}\), but the diagonal-sum formula and the second symmetry need not hold. In algebraic geometry, “Hodge numbers” may also refer to dimensions of graded pieces of a mixed Hodge structure; those require a weight index in addition to \((p,q)\).
+For an arbitrary compact [[differential-geometry/complex-manifold|complex manifold]], authors still define \(h^{p,q}=\dim H_{\bar\partial}^{p,q}\), but the diagonal-sum formula and the second symmetry need not hold. In algebraic geometry, “Hodge numbers” may also refer to dimensions of graded pieces of a mixed Hodge structure; those require a weight index in addition to \((p,q)\).
 
 ## References
 

@@ -21,7 +21,7 @@ C_r^*(G)=\overline{\lambda(L^1(G))}^{\,\|\cdot\|}
 Equivalently, it is the completion of \(L^1(G)\) after quotienting by the
 kernel of \(\lambda\) and using the reduced norm
 \(\|f\|_r=\|\lambda(f)\|\). The construction therefore records exactly the
-part of the group convolution algebra visible in the regular representation.
+part of the group convolution algebra visible in the [[algebra-representation-theory/regular-representation|regular representation]].
 
 ## Discrete groups
 
@@ -37,7 +37,7 @@ nonunital; in fact it is unital exactly when \(G\) is discrete.
 
 ## Relation to the full completion
 
-The reduced norm is bounded above by the universal group \(C^*\)-norm, so
+The reduced norm is [[real-analysis/bounded-above|bounded above]] by the universal group \(C^*\)-norm, so
 there is a canonical surjective \(*\)-homomorphism from
 [[operator-algebras/full-group-cstar-algebra|\(C^*(G)\)]] onto the reduced
 completion:
@@ -51,14 +51,14 @@ unitary-representation data.
 
 ## Abelian and geometric perspectives
 
-For a locally compact abelian group, the Fourier transform identifies
+For a locally compact [[algebra-groups/abelian-group|abelian group]], the Fourier transform identifies
 \(C_r^*(G)\) with \(C_0(\widehat G)\), where \(\widehat G\) is the
 [[harmonic-analysis/pontryagin-dual|Pontryagin dual]], and the full and
 reduced completions coincide. For general groups, properties of
 \(C_r^*(G)\)—such as simplicity, exactness, and the existence of
 traces—encode rigidity, approximation, and dynamical features of \(G\).
-These properties are not determined merely by the abstract vector space
-\(L^1(G)\); the reduced operator norm is essential.
+These properties are not determined merely by the abstract [[linear-algebra/vector-space|vector space]]
+\(L^1(G)\); the reduced [[linear-algebra/operator-norm|operator norm]] is essential.
 
 ## References
 

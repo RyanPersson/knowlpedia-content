@@ -42,7 +42,7 @@ H_{\mathrm{ess}}=\overline{\operatorname{span}\pi(A)H}
 \]
 reduces \(\pi\). The restriction to \(H_{\mathrm{ess}}\) is nondegenerate,
 while the restriction to \(H_{\mathrm{ess}}^\perp\) is zero. Hence every
-representation decomposes canonically as a nondegenerate representation plus
+representation decomposes canonically as a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] plus
 a zero representation.
 
 ## Extension to multipliers

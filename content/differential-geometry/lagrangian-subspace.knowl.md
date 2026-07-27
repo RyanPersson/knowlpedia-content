@@ -13,7 +13,7 @@ Let \((V,\omega)\) be a finite-dimensional [[differential-geometry/symplectic-ve
 L=L^\omega,
 \]
 where \(L^\omega\) is its [[differential-geometry/symplectic-orthogonal-complement|symplectic orthogonal complement]]. Equivalently, if \(\dim V=2n\), then \(L\) is an [[differential-geometry/isotropic-subspace|isotropic subspace]] of dimension \(n\). Thus \(\omega\) vanishes on \(L\times L\), and \(L\) has the largest dimension permitted by that condition. A Lagrangian subspace is simultaneously isotropic and [[differential-geometry/coisotropic-subspace|coisotropic]].
-No complementary subspace, basis, or inner product is included in the data.
+No complementary subspace, basis, or [[linear-algebra/inner-product|inner product]] is included in the data.
 
 ## Equivalent characterizations
 

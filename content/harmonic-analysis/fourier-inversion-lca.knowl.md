@@ -30,7 +30,7 @@ in additive notation under the convention \(\widehat f(\gamma)=\int_Gf(x)\overli
 
 For \(G=\mathbb R^n\), the theorem is Euclidean Fourier inversion with the constants determined by the exponential convention. For \(G=\mathbb Z\), it reconstructs an absolutely summable sequence from its Fourier transform on the circle. On a compact abelian group, the dual is discrete and the inverse integral becomes a sum over characters.
 
-**Warning.** An \(L^1\)-function is an equivalence class, so the theorem canonically reconstructs a continuous representative, not arbitrary values assigned on a null set.
+**Warning.** An \(L^1\)-function is an [[shared-foundations/equivalence-class|equivalence class]], so the theorem canonically reconstructs a continuous representative, not arbitrary values assigned on a [[measure-theory/null-set|null set]].
 
 ## References
 

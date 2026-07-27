@@ -8,7 +8,7 @@ domains = ["lie-groups", "linear-algebra"]
 section_mode = "progressive"
 +++
 
-For \(n\geq 1\), regard \(\mathbb H^n\) as a right vector space over the
+For \(n\geq 1\), regard \(\mathbb H^n\) as a right [[linear-algebra/vector-space|vector space]] over the
 [[linear-algebra/quaternion-division-algebra|quaternion division algebra]]
 with Hermitian form
 \[
@@ -34,13 +34,13 @@ identifies
 \]
 Here [[lie-groups/unitary-group|\(\operatorname{U}(2n)\)]] preserves the
 standard Hermitian form, while the complex symplectic factor preserves the
-standard nondegenerate alternating complex bilinear form. This equivalence is
+standard nondegenerate alternating complex [[linear-algebra/bilinear-form|bilinear form]]. This equivalence is
 [Knapp, Proposition 1.139](https://www.math.stonybrook.edu/~aknapp/download/Beyond2.pdf).
 
 ## Structure and low-rank example
 
 The group \(\operatorname{Sp}(n)\) is connected and simply connected. Its real
-Lie algebra consists of quaternionic matrices \(X\) satisfying
+[[lie-groups/lie-algebra|Lie algebra]] consists of quaternionic matrices \(X\) satisfying
 \(X^*+X=0\), and has dimension \(n(2n+1)\)
 [Knapp, §I.17 and Proposition 1.136](https://www.math.stonybrook.edu/~aknapp/download/Beyond2.pdf).
 For \(n=1\), it is the group of unit quaternions; hence

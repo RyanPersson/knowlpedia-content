@@ -36,11 +36,11 @@ where self-adjointness gives \(D^-=(D^+)^*\), with the corresponding domains und
 
 ## Geometric example
 
-On a closed even-dimensional Riemannian spin manifold, the complex spinor bundle splits as
+On a closed even-dimensional Riemannian spin manifold, the complex [[differential-geometry/spinor-bundle|spinor bundle]] splits as
 \[
 S=S^+\oplus S^-.
 \]
-The chirality operator supplies \(\Gamma\), functions preserve the splitting, and the spin Dirac operator exchanges positive and negative spinors. The canonical spectral triple is therefore even.
+The chirality operator supplies \(\Gamma\), functions preserve the splitting, and the spin [[noncommutative-geometry/dirac-operator|Dirac operator]] exchanges positive and negative spinors. The canonical spectral triple is therefore even.
 
 ## Index pairing
 

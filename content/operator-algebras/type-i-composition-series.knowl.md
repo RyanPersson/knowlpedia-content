@@ -31,7 +31,7 @@ admits such an ascending series
 The construction repeatedly passes to a quotient and selects a nonzero
 continuous-trace ideal, then takes closures at limit stages. The process ends
 because a strictly increasing chain of closed ideals cannot contain more
-members than the power set of the underlying algebra.
+members than the [[shared-foundations/power-set|power set]] of the underlying algebra.
 
 ## How the filtration is used
 

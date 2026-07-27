@@ -31,7 +31,7 @@ x_1\cdots x_n\longmapsto
 \frac{1}{n!}\sum_{\sigma\in S_n}
 x_{\sigma(1)}\cdots x_{\sigma(n)}
 \]
-is a canonical vector-space isomorphism \(\operatorname{Sym}(\mathfrak g)\to U(\mathfrak g)\). It is generally not an algebra homomorphism: PBW identifies the associated graded multiplication, not the original noncommutative multiplication in \(U(\mathfrak g)\).
+is a canonical vector-space isomorphism \(\operatorname{Sym}(\mathfrak g)\to U(\mathfrak g)\). It is generally not an [[algebra-modules/algebra-homomorphism|algebra homomorphism]]: PBW identifies the associated graded multiplication, not the original noncommutative multiplication in \(U(\mathfrak g)\).
 
 ## Structural consequences
 

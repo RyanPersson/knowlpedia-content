@@ -20,11 +20,11 @@ This is well-defined, closed, and nondegenerate. The Poisson integrability theor
 
 ## Why the leaf form is canonical
 
-If \(\pi^\sharp\alpha=0\), then \(\pi(\alpha,\beta)=0\) for every \(\beta\), so the displayed formula is independent of the covectors representing tangent vectors. It is nondegenerate because the tangent space is exactly the image of \(\pi^\sharp\). Closedness and integrability ultimately follow from the Jacobi identity for the Poisson bracket. These facts are developed in [Vaisman, “The Symplectic Foliation of a Poisson Manifold”](https://doi.org/10.1007/978-3-0348-8495-2).
+If \(\pi^\sharp\alpha=0\), then \(\pi(\alpha,\beta)=0\) for every \(\beta\), so the displayed formula is independent of the covectors representing tangent vectors. It is nondegenerate because the [[differential-geometry/tangent-space|tangent space]] is exactly the image of \(\pi^\sharp\). Closedness and integrability ultimately follow from the Jacobi identity for the Poisson bracket. These facts are developed in [Vaisman, “The Symplectic Foliation of a Poisson Manifold”](https://doi.org/10.1007/978-3-0348-8495-2).
 
 ## Structure and consequences
 
-The leaf dimension equals the rank of \(\pi\) along the leaf and is therefore even and locally constant on that leaf. Different leaves may have different dimensions, so the decomposition is generally a singular foliation rather than a regular fiber bundle.
+The leaf dimension equals the rank of \(\pi\) along the leaf and is therefore even and locally constant on that leaf. Different leaves may have different dimensions, so the decomposition is generally a singular foliation rather than a [[differential-geometry/regular-level-set|regular fiber]] bundle.
 
 [[differential-geometry/hamiltonian-vector-field|Hamiltonian vector fields]] are tangent to every leaf. Conversely, their values span the characteristic distribution, so a leaf is the region reachable by piecewise [[differential-geometry/hamiltonian-flow|Hamiltonian flows]]. The inclusion \(L\hookrightarrow M\) is a Poisson immersion when \(L\) is equipped with the bracket induced by \(\omega_L\).
 

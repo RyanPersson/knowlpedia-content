@@ -37,8 +37,8 @@ are developed in
 ## Basic properties
 
 The functor \(K_0\) is invariant under homotopy, matrix stabilization, and
-strong Morita equivalence. For the compact operators \(\mathcal K(H)\) on an
-infinite-dimensional separable Hilbert space, finite-rank projections give
+strong Morita equivalence. For the [[linear-algebra/compact-operator|compact operators]] \(\mathcal K(H)\) on an
+infinite-dimensional separable [[linear-algebra/hilbert-space|Hilbert space]], finite-rank projections give
 \[
 K_0(\mathcal K(H))\cong\mathbb Z.
 \]

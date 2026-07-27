@@ -20,18 +20,18 @@ integral representation**
 \pi=\int_X^\oplus\pi_x\,d\mu(x)
 \]
 acts on the
-[[functional-analysis/direct-integral-hilbert-spaces|direct-integral Hilbert space]] by \((\pi(g)\xi)_x=\pi_x(g)\xi_x\) almost everywhere. Equalities and
+[[functional-analysis/direct-integral-hilbert-spaces|direct-integral Hilbert space]] by \((\pi(g)\xi)_x=\pi_x(g)\xi_x\) [[measure-theory/almost-everywhere|almost everywhere]]. Equalities and
 changes of fibers are understood modulo \(\mu\)-null sets.
 
 ## Fiberwise integrated form
 
-For \(f\in C_c(G)\), the integrated operator is decomposable:
+For \(f\in C_c(G)\), the [[harmonic-analysis/integrated-operator-continuous-representation|integrated operator]] is decomposable:
 \[
 \pi(f)=\int_X^\oplus\pi_x(f)\,d\mu(x).
 \]
 Thus operator-algebraic questions about \(\pi(f)\) can often be reduced to
 almost-everywhere questions about the fibers. This relation also transports
-direct-integral decompositions between group representations and
+direct-integral decompositions between [[algebra-representation-theory/group-representation|group representations]] and
 representations of the
 [[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]]
 [Folland, §7.4](https://doi.org/10.1201/B19172).

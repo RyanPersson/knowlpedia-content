@@ -28,7 +28,7 @@ The quotient is characterized without choosing a basis. If \(A\) is any unital a
 \[
 f(v)^2=-q(v)1_A,
 \]
-then there is a unique unital algebra homomorphism
+then there is a unique unital [[algebra-modules/algebra-homomorphism|algebra homomorphism]]
 \[
 \widetilde f:\operatorname{Cl}(V,q)\to A
 \]
@@ -60,7 +60,7 @@ v^2=-q(v)1
 \qquad\text{or}\qquad
 v^2=q(v)1.
 \]
-They interchange some signature labels and change the displayed Clifford relation. A formula for spinors or Dirac operators is therefore meaningful only after its sign convention has been fixed.
+They interchange some signature labels and change the displayed Clifford relation. A formula for spinors or [[noncommutative-geometry/dirac-operator|Dirac operators]] is therefore meaningful only after its sign convention has been fixed.
 
 ## References
 

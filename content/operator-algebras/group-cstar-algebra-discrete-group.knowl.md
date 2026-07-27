@@ -12,7 +12,7 @@ Let \(\Gamma\) be a discrete group and
 \(\mathbb C[\Gamma]\) its
 [[algebra-representation-theory/group-algebra|complex group algebra]], with
 \(\delta_g^*=\delta_{g^{-1}}\). Its **full group \(C^*\)-algebra**
-\(C^*(\Gamma)\) is the completion in the supremum norm over all unitary
+\(C^*(\Gamma)\) is the completion in the [[real-analysis/supremum-norm|supremum norm]] over all unitary
 representations of \(\Gamma\). Its **reduced group \(C^*\)-algebra**
 \(C_r^*(\Gamma)\) is the completion in the norm induced by the left regular
 representation on \(\ell^2(\Gamma)\). The phrase “group
@@ -22,11 +22,11 @@ completion is specified.
 ## Concrete construction
 
 For a finitely supported function \(f:\Gamma\to\mathbb C\), write
-\(f=\sum_g f(g)\delta_g\). The left regular representation acts by
+\(f=\sum_g f(g)\delta_g\). The left [[algebra-representation-theory/regular-representation|regular representation]] acts by
 \[
 \lambda(f)\xi(s)=\sum_{g\in\Gamma}f(g)\xi(g^{-1}s).
 \]
-Completing \(\lambda(\mathbb C[\Gamma])\) in operator norm gives
+Completing \(\lambda(\mathbb C[\Gamma])\) in [[linear-algebra/operator-norm|operator norm]] gives
 [[operator-algebras/reduced-group-cstar-algebra|\(C_r^*(\Gamma)\)]]. Taking
 the supremum over the integrated forms of all unitary representations gives
 [[operator-algebras/full-group-cstar-algebra|\(C^*(\Gamma)\)]]
@@ -43,14 +43,14 @@ C^*(\Gamma)\longrightarrow C_r^*(\Gamma).
 It is an isomorphism exactly when \(\Gamma\) is
 [[harmonic-analysis/amenable-locally-compact-group|amenable]]. Hence the two
 constructions agree for finite, abelian, and more generally amenable discrete
-groups, but not for free groups on at least two generators.
+groups, but not for [[algebra-groups/free-group|free groups]] on at least two generators.
 
 ## Examples and conventions
 
 For \(\Gamma=\mathbb Z\), Fourier transform identifies both completions with
 \(C(\mathbb T)\). For a finite group, the group \(C^*\)-algebra is a
 finite-dimensional direct sum of matrix algebras determined by the
-irreducible representations. Both completions are unital for every discrete
+[[algebra-representation-theory/irreducible-representation|irreducible representations]]. Both completions are unital for every discrete
 group, with unit \(\delta_e\). The notation \(C^*(\Gamma)\) conventionally
 means the full completion, whereas \(C_r^*(\Gamma)\) always means the reduced
 one.

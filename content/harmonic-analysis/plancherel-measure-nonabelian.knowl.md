@@ -22,7 +22,7 @@ for which
 d\mu_{\mathrm{Pl}}(\pi).
 \]
 The transform extends to a unitary map from \(L^2(G)\) onto the direct
-integral of the Hilbert–Schmidt operator spaces.
+integral of the [[functional-analysis/hilbert-schmidt-operator|Hilbert–Schmidt operator]] spaces.
 
 ## Regular-representation decomposition
 
@@ -37,10 +37,10 @@ irreducible decomposition and its essential uniqueness
 
 ## Examples and support
 
-For an abelian \(G\), every irreducible representation is a character and
+For an abelian \(G\), every [[algebra-representation-theory/irreducible-representation|irreducible representation]] is a character and
 \(\mu_{\mathrm{Pl}}\) is the Haar measure on the
 [[harmonic-analysis/pontryagin-dual|Pontryagin dual]] normalized dually to
-\(dg\). For compact \(G\) with Haar probability measure, it is discrete and
+\(dg\). For compact \(G\) with Haar [[probability/probability-measure|probability measure]], it is discrete and
 assigns mass \(\dim\pi\) to each irreducible class. In general, its support in
 the [[harmonic-analysis/fell-topology|Fell topology]] is the tempered part of
 \(\widehat G\), which may be smaller than the full unitary dual.
@@ -48,7 +48,7 @@ the [[harmonic-analysis/fell-topology|Fell topology]] is the tempered part of
 ## Conventions and nonunimodular groups
 
 Rescaling \(dg\) rescales the representative Plancherel measure, although its
-null sets and hence its measure class are unchanged. For a nonunimodular
+[[measure-theory/null-set|null sets]] and hence its measure class are unchanged. For a nonunimodular
 group, the displayed Hilbert–Schmidt formula must be modified by a measurable
 field of positive, generally unbounded Duflo–Moore operators; the bare
 formula in the core is therefore not valid unchanged

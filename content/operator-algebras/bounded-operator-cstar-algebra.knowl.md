@@ -13,7 +13,7 @@ Let \(H\) be a complex [[linear-algebra/hilbert-space|Hilbert space]]. The
 [[functional-analysis/bounded-linear-operator|bounded linear operators]]
 \(T:H\to H\). Addition and scalar multiplication are pointwise, multiplication
 is composition, and the involution is the Hilbert-space adjoint
-\(T\mapsto T^*\). With the operator norm
+\(T\mapsto T^*\). With the [[linear-algebra/operator-norm|operator norm]]
 \[
 \lVert T\rVert=\sup_{\lVert\xi\rVert\leq1}\lVert T\xi\rVert,
 \]
@@ -30,14 +30,14 @@ The defining identity
 follows from Hilbert-space geometry, and completeness follows from completeness
 of the operator norm. Every bounded operator has a bounded adjoint, so \(B(H)\)
 is closed under its involution. If \(H\) is finite-dimensional, choosing an
-orthonormal basis identifies \(B(H)\) with a full matrix algebra. If \(H\) is
+[[linear-algebra/orthonormal-basis|orthonormal basis]] identifies \(B(H)\) with a [[operator-algebras/matrix-cstar-algebra|full matrix algebra]]. If \(H\) is
 infinite-dimensional, \(B(H)\) is nonseparable in operator norm even when \(H\)
 is separable [Murphy, §2.1](https://doi.org/10.1016/C2009-0-22289-6).
 
 ## Operator topologies and commutants
 
 Besides its norm topology, \(B(H)\) carries the strong, weak, ultraweak, and
-ultrastrong operator topologies. These topologies are generally distinct on
+[[operator-algebras/ultrastrong-topology|ultrastrong operator topologies]]. These topologies are generally distinct on
 infinite-dimensional \(H\), and none changes the underlying \(C^*\)-algebra
 operations. The [[operator-algebras/commutant|commutant]] of a set of
 operators is computed inside \(B(H)\); von Neumann algebras are exactly the
@@ -46,7 +46,7 @@ topology, equivalently equal to their bicommutant.
 
 ## Conventions and nearby spaces
 
-\(B(H,K)\) denotes the Banach space of bounded operators from \(H\) to another
+\(B(H,K)\) denotes the [[linear-algebra/banach-space|Banach space]] of bounded operators from \(H\) to another
 Hilbert space \(K\). Unless \(H=K\), composition does not make \(B(H,K)\) an
 algebra, so it should not be called a bounded-operator \(C^*\)-algebra. Some
 authors write \(\mathcal B(H)\) or \(\mathscr L(H)\). When \(H=\{0\}\),

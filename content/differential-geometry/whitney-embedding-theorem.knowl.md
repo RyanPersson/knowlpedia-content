@@ -12,7 +12,7 @@ Let \(M\) be a Hausdorff, second-countable [[fiber-bundles/smooth-manifold|smoot
 \[
 M\hookrightarrow\mathbb R^{2n}.
 \]
-Consequently every abstract smooth manifold can be realized as an [[differential-geometry/embedded-submanifold|embedded submanifold]] of a finite-dimensional Euclidean space, with its original topology and smooth structure. The dimension bound depends only on \(n\), not on compactness or on auxiliary geometric choices. Separate versions handle zero-dimensional manifolds and manifolds with boundary.
+Consequently every abstract smooth manifold can be realized as an [[differential-geometry/embedded-submanifold|embedded submanifold]] of a finite-dimensional [[linear-algebra/euclidean-space|Euclidean space]], with its original topology and smooth structure. The dimension bound depends only on \(n\), not on compactness or on auxiliary geometric choices. Separate versions handle zero-dimensional manifolds and manifolds with boundary.
 
 ## Significance
 
@@ -24,7 +24,7 @@ A weak form first constructs an embedding into a sufficiently large Euclidean sp
 
 ## Dimension and variants
 
-The bound \(2n\) is a universal upper bound, not the least embedding dimension of each manifold. Many manifolds embed in smaller spaces, while topology obstructs such embeddings for others. A related Whitney immersion theorem gives an immersion into \(\mathbb R^{2n-1}\) for \(n>1\); an immersion does not by itself identify \(M\) homeomorphically with its image.
+The bound \(2n\) is a universal [[shared-foundations/upper-bound|upper bound]], not the least embedding dimension of each manifold. Many manifolds embed in smaller spaces, while topology obstructs such embeddings for others. A related Whitney immersion theorem gives an immersion into \(\mathbb R^{2n-1}\) for \(n>1\); an immersion does not by itself identify \(M\) homeomorphically with its image.
 
 ## References
 

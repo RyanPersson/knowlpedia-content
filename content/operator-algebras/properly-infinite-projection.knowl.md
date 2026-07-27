@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(p\) be a projection in a
 [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(A\). The projection
 \(p\) is
-**properly infinite** if there are orthogonal projections \(p_1,p_2\leq p\)
+**properly infinite** if there are [[linear-algebra/orthogonal-projection|orthogonal projections]] \(p_1,p_2\leq p\)
 such that
 \[
 p_1\sim p\sim p_2,
@@ -31,12 +31,12 @@ The identity of \(B(H)\) is properly infinite when \(H\) is
 infinite-dimensional: split \(H\) into two orthogonal infinite-dimensional
 subspaces, each unitarily isomorphic to \(H\). More generally, every
 infinite-rank projection in \(B(H)\) is properly infinite. By contrast, no
-nonzero projection in a finite von Neumann algebra is properly infinite.
+nonzero projection in a [[operator-algebras/finite-von-neumann-algebra|finite von Neumann algebra]] is properly infinite.
 
 ## Relation to factors
 
-In a von Neumann factor, every infinite projection is properly infinite.
-For von Neumann algebras with nontrivial center, an infinite projection can
+In a [[operator-algebras/von-neumann-factor|von Neumann factor]], every infinite projection is properly infinite.
+For [[operator-algebras/von-neumann-algebra|von Neumann algebras]] with nontrivial center, an infinite projection can
 have finite behavior on some central summands, so infiniteness need not imply
 proper infiniteness. Projection comparison and central support isolate the
 summands on which the doubling condition holds.

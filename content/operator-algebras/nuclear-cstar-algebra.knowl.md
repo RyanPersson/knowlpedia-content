@@ -32,7 +32,7 @@ A\xrightarrow{\ \phi_\lambda\ }M_{n(\lambda)}(\mathbb C)
 \xrightarrow{\ \psi_\lambda\ }A
 \]
 through [[operator-algebras/matrix-cstar-algebra|matrix algebras]], where both
-maps are completely positive contractions
+maps are [[operator-algebras/completely-positive-contraction|completely positive contractions]]
 [Brown–Ozawa, Theorem 2.3.8](https://doi.org/10.1090/gsm/088). This converts a
 global tensor-norm condition into finite-dimensional local approximations.
 
@@ -47,7 +47,7 @@ ideals, quotients, inductive limits, and extensions, but not to arbitrary
 
 For a discrete group \(\Gamma\), the
 [[operator-algebras/nuclearity-reduced-group-cstar-algebra-discrete-amenability|
-Lance theorem]] states that \(C_r^*(\Gamma)\) is nuclear exactly when
+[[operator-algebras/nuclearity-reduced-group-cstar-algebra-discrete-amenability|Lance theorem]]]] states that \(C_r^*(\Gamma)\) is nuclear exactly when
 \(\Gamma\) is amenable. Hence the reduced \(C^*\)-algebra of the free group on
 two generators, a [[algebra-groups/free-group|free group]], is a standard
 non-example.
@@ -71,7 +71,7 @@ constructions
 
 **Warning.** Nuclearity here is a property of a \(C^*\)-algebra and its
 \(C^*\)-tensor products. It should not be conflated with nuclearity of locally
-convex spaces or nuclear operators between Banach spaces. “Amenable
+convex spaces or nuclear operators between [[linear-algebra/banach-space|Banach spaces]]. “Amenable
 \(C^*\)-algebra” is sometimes used for an equivalent Banach-algebraic
 property, but “amenable group” is a separate notion connected to nuclearity
 only through specific theorems.

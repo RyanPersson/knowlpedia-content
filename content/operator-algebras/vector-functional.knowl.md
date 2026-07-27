@@ -27,7 +27,7 @@ the representation is unital, it is a
 
 Every vector functional belongs to the
 [[operator-algebras/predual|predual]] \(M_*\). Conversely, every
-\(\omega\in M_*\) can be written as an absolutely convergent series
+\(\omega\in M_*\) can be written as an [[real-analysis/absolutely-convergent-series|absolutely convergent series]]
 \[
 \omega=\sum_{n=1}^{\infty}\omega_{\xi_n,\eta_n},
 \qquad

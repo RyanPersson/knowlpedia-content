@@ -17,9 +17,9 @@ extends meromorphically to \(\mathbb C\) with all poles contained in \(\Sigma\),
 ## Geometric meaning
 
 Pole locations encode the exponents in high-energy or small-time asymptotic
-expansions. For the canonical Dirac spectral triple on a closed
+expansions. For the canonical Dirac [[noncommutative-geometry/spectral-triple|spectral triple]] on a closed
 \(d\)-dimensional manifold, the dimension spectrum is contained in an
-arithmetic sequence of integers bounded above by \(d\); parity and vanishing
+arithmetic sequence of integers [[real-analysis/bounded-above|bounded above]] by \(d\); parity and vanishing
 of heat coefficients can remove some candidate poles. The largest actual pole
 often recovers the metric dimension, but the full set contains finer
 information.

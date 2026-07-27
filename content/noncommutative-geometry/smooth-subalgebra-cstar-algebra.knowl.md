@@ -22,7 +22,7 @@ Holomorphic closure keeps spectral constructions inside the regular algebra. In 
 
 ## Standard constructions
 
-If a finite-dimensional Lie group acts strongly continuously on \(A\) by \(*\)-automorphisms, the elements whose orbit maps are smooth form a dense Fréchet \(*\)-subalgebra \(A^\infty\); it is spectrally invariant. Classical examples include \(C^\infty(M)\subset C(M)\) for a compact smooth manifold and smooth noncommutative tori inside their \(C^*\)-completions. Schwartz-type convolution algebras provide further examples only when the relevant decay and spectral-invariance theorems are verified.
+If a finite-dimensional [[fiber-bundles/lie-group|Lie group]] acts strongly continuously on \(A\) by \(*\)-automorphisms, the elements whose orbit maps are smooth form a dense Fréchet \(*\)-subalgebra \(A^\infty\); it is spectrally invariant. Classical examples include \(C^\infty(M)\subset C(M)\) for a compact [[fiber-bundles/smooth-manifold|smooth manifold]] and smooth noncommutative tori inside their \(C^*\)-completions. Schwartz-type convolution algebras provide further examples only when the relevant decay and spectral-invariance theorems are verified.
 
 ## Conventions and scope
 

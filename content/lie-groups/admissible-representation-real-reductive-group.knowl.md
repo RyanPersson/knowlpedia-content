@@ -42,7 +42,7 @@ For real reductive groups in the standard Harish–Chandra class, [[lie-groups/i
 
 ## Conventions and scope
 
-Some sources define admissibility for continuous representations on complete locally convex spaces rather than only Hilbert spaces. The invariant content is finite \(K\)-multiplicity, together with enough regularity for the restriction to \(K\) to decompose. Since maximal compact subgroups are conjugate, admissibility does not depend on the chosen \(K\), up to the corresponding transported types.
+Some sources define admissibility for continuous representations on complete [[functional-analysis/locally-convex-space|locally convex spaces]] rather than only [[linear-algebra/hilbert-space|Hilbert spaces]]. The invariant content is finite \(K\)-multiplicity, together with enough regularity for the restriction to \(K\) to decompose. Since [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroups]] are conjugate, admissibility does not depend on the chosen \(K\), up to the corresponding transported types.
 
 ## References
 

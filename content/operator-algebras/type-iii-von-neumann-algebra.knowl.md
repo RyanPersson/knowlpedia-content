@@ -23,15 +23,15 @@ factor.
 
 A nonzero type III von Neumann algebra admits no nonzero normal semifinite
 trace, because any positive finite-trace spectral cut would yield a nonzero
-finite projection. In particular, it has no tracial state. This does not mean
-that it has no normal states or no faithful normal semifinite weights:
+finite projection. In particular, it has no [[operator-algebras/tracial-state|tracial state]]. This does not mean
+that it has no [[operator-algebras/normal-state|normal states]] or no faithful normal [[operator-algebras/semifinite-weight|semifinite weights]]:
 normality, semifiniteness of a weight, and the tracial identity are separate
 conditions. The absence of finite projections is the defining type III
 feature.
 
 ## Factor subtypes
 
-The modular-spectrum refinement divides type III factors into
+The modular-spectrum refinement divides [[operator-algebras/type-iii-factor|type III factors]] into
 \(\mathrm{III}_0\), \(\mathrm{III}_\lambda\) for \(0<\lambda<1\), and
 \(\mathrm{III}_1\), using modular-theoretic invariants. These labels refine
 type III; they do not arise by assigning a “dimension” to projections as in

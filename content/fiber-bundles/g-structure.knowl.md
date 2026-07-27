@@ -18,7 +18,7 @@ An orientation is a \(\mathrm{GL}^+(n,\mathbb R)\)-structure, and a Riemannian m
 
 A \(G\)-structure is pointwise reduction data; it need not be locally equivalent to the flat model. Integrability imposes additional differential conditions that depend on \(G\). Likewise, a connection on \(\mathrm{Fr}(TM)\) need not preserve \(Q\); preservation is the separate condition of being a [[fiber-bundles/connection-compatible-with-a-reduction|connection compatible with the reduction]].
 
-For example, an \(\mathrm{Sp}(2m,\mathbb R)\)-structure supplies a nondegenerate two-form, but it defines a symplectic manifold only when that form is also closed.
+For example, an \(\mathrm{Sp}(2m,\mathbb R)\)-structure supplies a nondegenerate two-form, but it defines a [[differential-geometry/symplectic-manifold|symplectic manifold]] only when that form is also closed.
 
 ## Conventions and scope
 

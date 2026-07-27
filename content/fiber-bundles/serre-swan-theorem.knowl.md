@@ -12,13 +12,13 @@ Let \(M\) be a compact [[fiber-bundles/smooth-manifold|smooth manifold]] and \(\
 \[
 E\longmapsto\Gamma^\infty(M,E)
 \]
-from finite-rank smooth [[fiber-bundles/vector-bundle|\(\mathbb F\)-vector bundles]] with [[fiber-bundles/vector-bundle-morphism|bundle morphisms covering \(\operatorname{id}_M\)]] to finitely generated projective \(C^\infty(M,\mathbb F)\)-modules with module homomorphisms is an [[algebra-category-theory/equivalence-of-categories|equivalence of categories]]. Thus every [[fiber-bundles/section-module-is-finitely-generated-projective|section module is finitely generated projective]], every such module is the [[fiber-bundles/module-of-smooth-sections|module of smooth sections]] of a vector bundle, and module homomorphisms arise uniquely from vector-bundle maps over \(M\). The compactness hypothesis is part of this formulation.
+from finite-rank smooth [[fiber-bundles/vector-bundle|\(\mathbb F\)-vector bundles]] with [[fiber-bundles/vector-bundle-morphism|bundle morphisms covering \(\operatorname{id}_M\)]] to finitely generated projective \(C^\infty(M,\mathbb F)\)-modules with [[algebra-modules/module-homomorphism|module homomorphisms]] is an [[algebra-category-theory/equivalence-of-categories|equivalence of categories]]. Thus every [[fiber-bundles/section-module-is-finitely-generated-projective|section module is finitely generated projective]], every such module is the [[fiber-bundles/module-of-smooth-sections|module of smooth sections]] of a vector bundle, and module homomorphisms arise uniquely from vector-bundle maps over \(M\). The compactness hypothesis is part of this formulation.
 
 ## The two constructions
 
-A vector bundle \(E\) embeds as a direct summand of a trivial bundle. Taking sections then expresses \(\Gamma^\infty(M,E)\) as a direct summand of a finite-rank free \(C^\infty(M)\)-module, hence as a finitely generated projective module.
+A vector bundle \(E\) embeds as a direct summand of a trivial bundle. Taking sections then expresses \(\Gamma^\infty(M,E)\) as a direct summand of a finite-rank free \(C^\infty(M)\)-module, hence as a finitely generated [[algebra-modules/projective-module|projective module]].
 
-Conversely, a finitely generated projective module is represented by an idempotent matrix \(p\in M_N(C^\infty(M))\). Evaluating \(p\) pointwise gives a smoothly varying family of projections, whose images form a [[fiber-bundles/vector-subbundle|vector subbundle]] of \(M\times\mathbb F^N\). This [[fiber-bundles/projective-module-bundle-reconstruction|idempotent reconstruction]] is inverse to taking sections up to natural isomorphism [Swan, §§1–3](https://doi.org/10.1090/S0002-9947-1962-0143225-6).
+Conversely, a finitely generated projective module is represented by an idempotent matrix \(p\in M_N(C^\infty(M))\). Evaluating \(p\) pointwise gives a smoothly varying family of projections, whose images form a [[fiber-bundles/vector-subbundle|vector subbundle]] of \(M\times\mathbb F^N\). This [[fiber-bundles/projective-module-bundle-reconstruction|idempotent reconstruction]] is inverse to taking sections up to [[algebra-category-theory/natural-isomorphism|natural isomorphism]] [Swan, §§1–3](https://doi.org/10.1090/S0002-9947-1962-0143225-6).
 
 ## Categorical content
 
@@ -32,7 +32,7 @@ This equivalence explains why vector bundles define classes in topological \(K\)
 
 ## Variants and scope
 
-**Warning.** Several results are called the Serre–Swan theorem. For compact Hausdorff \(X\), complex vector bundles correspond to finitely generated projective modules over \(C(X)\). The displayed theorem is its smooth compact-manifold version over \(C^\infty(M)\). For noncompact manifolds, one must modify the finiteness conditions or the function algebra; the unqualified compact statement cannot simply be copied.
+**Warning.** Several results are called the Serre–Swan theorem. For compact Hausdorff \(X\), [[fiber-bundles/complex-vector-bundle|complex vector bundles]] correspond to finitely generated projective modules over \(C(X)\). The displayed theorem is its smooth compact-manifold version over \(C^\infty(M)\). For noncompact manifolds, one must modify the finiteness conditions or the function algebra; the unqualified compact statement cannot simply be copied.
 
 “Serre–Swan duality” is common terminology, but the result is a covariant equivalence produced by the section functor, not a contravariant duality.
 

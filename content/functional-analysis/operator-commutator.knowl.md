@@ -8,7 +8,7 @@ domains = ["functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(A\) and \(B\) be linear operators on a Hilbert space \(H\), with possibly
+Let \(A\) and \(B\) be linear operators on a [[linear-algebra/hilbert-space|Hilbert space]] \(H\), with possibly
 proper domains. Their **operator commutator** is the operator
 \[
 [A,B]\xi=AB\xi-BA\xi

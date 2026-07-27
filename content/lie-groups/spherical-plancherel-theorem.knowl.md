@@ -8,7 +8,7 @@ domains = ["lie-groups", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected noncompact semisimple Lie group with finite center,
+Let \(G\) be a connected noncompact semisimple [[fiber-bundles/lie-group|Lie group]] with finite center,
 \(K\) a
 [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]], and \(X=G/K\). For a \(K\)-invariant \(f\in L^1(X)\cap L^2(X)\),
 define
@@ -17,7 +17,7 @@ define
 \]
 where \(\varphi_\lambda\) is the normalized
 [[harmonic-analysis/spherical-function|spherical function]]. Choose
-compatible Haar and Lebesgue measures, and let \(d\bar\lambda\) denote the
+compatible Haar and [[measure-theory/lebesgue-measure|Lebesgue measures]], and let \(d\bar\lambda\) denote the
 pushforward to \(\mathfrak a^*/W\) of
 \(|W|^{-1}d\lambda\), for the chosen Lebesgue measure on \(\mathfrak a^*\).
 The **spherical Plancherel theorem** says that this transform extends to a
@@ -29,7 +29,7 @@ L^2\!\left(\mathfrak a^*/W,\,
 \]
 where \(c\) is the
 [[lie-groups/harish-chandra-c-function|Harish–Chandra c-function]].
-Equivalently, the transform preserves inner products and admits spherical
+Equivalently, the transform preserves [[linear-algebra/inner-product|inner products]] and admits spherical
 Fourier inversion in the \(L^2\)-sense.
 
 ## Inversion formula
@@ -58,7 +58,7 @@ density forced by the asymptotics of those joint eigenfunctions. Passing to
 
 ## Examples and scope
 
-For Euclidean space, viewed through its motion-group
+For [[linear-algebra/euclidean-space|Euclidean space]], viewed through its motion-group
 [[lie-groups/gelfand-pair|Gelfand pair]], the
 [[harmonic-analysis/spherical-transform|spherical transform]] of radial
 functions becomes the Fourier–Bessel transform. On a real-rank-one

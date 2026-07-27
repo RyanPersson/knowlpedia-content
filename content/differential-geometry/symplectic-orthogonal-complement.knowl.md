@@ -18,7 +18,7 @@ It is a linear subspace determined by both \(W\) and the symplectic form. Becaus
 \qquad\text{and}\qquad
 (W^\omega)^\omega=W.
 \]
-Unlike the orthogonal complement for an [[linear-algebra/inner-product|inner product]], \(W\) and \(W^\omega\) need not meet trivially and need not form a direct sum.
+Unlike the [[linear-algebra/orthogonal-complement|orthogonal complement]] for an [[linear-algebra/inner-product|inner product]], \(W\) and \(W^\omega\) need not meet trivially and need not form a direct sum.
 
 ## Algebraic properties
 

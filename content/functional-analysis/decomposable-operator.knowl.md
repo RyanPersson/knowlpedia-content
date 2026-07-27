@@ -12,7 +12,7 @@ Let
 \(\mathcal H=\int_X^\oplus H_x\,d\mu(x)\) and
 \(\mathcal K=\int_X^\oplus K_x\,d\mu(x)\) be
 [[functional-analysis/direct-integral-hilbert-spaces|direct integrals of
-Hilbert spaces]]. A bounded operator \(T:\mathcal H\to\mathcal K\) is
+[[linear-algebra/hilbert-space|Hilbert spaces]]]]. A bounded operator \(T:\mathcal H\to\mathcal K\) is
 **decomposable** if there is a measurable field of bounded operators
 \(x\mapsto T_x:H_x\to K_x\), with
 \(\operatorname*{ess\,sup}_x\lVert T_x\rVert<\infty\), such that
@@ -36,7 +36,7 @@ almost everywhere. Consequently, decomposable operators on a fixed direct
 integral form a [[operator-algebras/von-neumann-algebra|von Neumann algebra]].
 Fiberwise properties such as
 self-adjointness, positivity, or unitarity pass to the global operator and
-back, modulo null sets.
+back, modulo [[measure-theory/null-set|null sets]].
 
 ## Characterization by diagonal operators
 

@@ -50,7 +50,7 @@ across completion, and
 \leq \lVert x-x'\rVert\lVert y\rVert
    +\lVert x'\rVert\lVert y-y'\rVert.
 \]
-The theorem also proves the triangle inequality for the module norm by
+The theorem also proves the [[real-analysis/triangle-inequality|triangle inequality]] for the module norm by
 expanding \(\langle x+y,x+y\rangle_A\).
 
 ## Conventions and scope

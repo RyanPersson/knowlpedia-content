@@ -8,7 +8,7 @@ domains = ["operator-algebras", "functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(M\subseteq B(H)\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]] and let \(T\) be a closed densely defined operator on \(H\), with polar decomposition \(T=v|T|\). Then \(T\) is [[operator-algebras/affiliated-operator|affiliated with \(M\)]] if and only if the [[functional-analysis/partial-isometry|partial isometry]] \(v\) belongs to \(M\) and every [[functional-analysis/spectral-projection|spectral projection]]
+Let \(M\subseteq B(H)\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]] and let \(T\) be a closed [[functional-analysis/densely-defined-operator|densely defined operator]] on \(H\), with polar decomposition \(T=v|T|\). Then \(T\) is [[operator-algebras/affiliated-operator|affiliated with \(M\)]] if and only if the [[functional-analysis/partial-isometry|partial isometry]] \(v\) belongs to \(M\) and every [[functional-analysis/spectral-projection|spectral projection]]
 \[
 E^{|T|}(\Delta)=\mathbf 1_\Delta(|T|)
 \]

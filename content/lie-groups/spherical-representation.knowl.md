@@ -20,7 +20,7 @@ H^K=\{v\in H:\pi(k)v=v\text{ for every }k\in K\}
 is nonzero. A nonzero member of \(H^K\) is a spherical vector. Because
 \((G,K)\) is a [[lie-groups/gelfand-pair|Gelfand pair]] in the standard reductive setting,
 \(\dim H^K=1\), so a unit spherical vector is unique up to a scalar of
-absolute value one
+[[real-analysis/absolute-value|absolute value]] one
 [Helgason, Chapter IV, §2](https://doi.org/10.1090/surv/039).
 
 ## Spherical matrix coefficient

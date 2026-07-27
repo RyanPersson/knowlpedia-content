@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let a discrete group \(G\) act by automorphisms \(\alpha\) on a
 [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(A\). The **canonical
-conditional expectation on the reduced crossed product** is the map
+conditional expectation on the [[operator-algebras/reduced-crossed-product|reduced crossed product]]** is the map
 \[
 E_A:A\rtimes_{\alpha,r}G\longrightarrow A,\qquad
 E_A\!\left(\sum_{s\in F}a_su_s\right)=a_e
@@ -56,7 +56,7 @@ algebra need not commute with the implementing unitaries. It remains an
 identity is not a bounded coefficient-extraction map on the reduced crossed
 product. The coefficient algebra also sits naturally in the multiplier
 algebra rather than necessarily inside the crossed product. The appropriate
-general constructions use operator-valued weights or special additional
+general constructions use [[operator-algebras/operator-valued-weight|operator-valued weights]] or special additional
 hypotheses; they should not be called the conditional expectation defined
 above without qualification.
 

@@ -26,7 +26,7 @@ They encode the same pointwise compatibility as the metric, but they need not be
 
 ## Examples and scope
 
-Quaternionic Euclidean space \(\mathbb H^n\), with its flat metric and complex structures given by multiplication by \(i,j,k\), is hyper-Hermitian and in fact hyperkähler. More generally, every [[differential-geometry/hyperkahler-manifold|hyperkähler manifold]] is hyper-Hermitian after forgetting the closedness of its three [[differential-geometry/kahler-form|Kähler forms]].
+Quaternionic [[linear-algebra/euclidean-space|Euclidean space]] \(\mathbb H^n\), with its flat metric and complex structures given by multiplication by \(i,j,k\), is hyper-Hermitian and in fact hyperkähler. More generally, every [[differential-geometry/hyperkahler-manifold|hyperkähler manifold]] is hyper-Hermitian after forgetting the closedness of its three [[differential-geometry/kahler-form|Kähler forms]].
 
 A hypercomplex manifold equipped with a Riemannian metric that is Hermitian only for \(I\) is a near miss: invariance under \(J\) and \(K\) is part of the definition and does not follow from invariance under one complex structure.
 

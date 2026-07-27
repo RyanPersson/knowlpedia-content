@@ -29,15 +29,15 @@ The invariant polynomials form a graded subalgebra
 
 ## Examples
 
-For \(\mathfrak g=\mathfrak{gl}_n\), the functions \(X\mapsto\operatorname{tr}(X^r)\) and the coefficients of the characteristic polynomial are invariant under conjugation.
+For \(\mathfrak g=\mathfrak{gl}_n\), the functions \(X\mapsto\operatorname{tr}(X^r)\) and the coefficients of the [[linear-algebra/characteristic-polynomial|characteristic polynomial]] are invariant under conjugation.
 
-An invariant symmetric bilinear form \(B\) gives the quadratic polynomial \(X\mapsto B(X,X)\). The Killing form supplies a standard example when it is nonzero.
+An invariant symmetric [[linear-algebra/bilinear-form|bilinear form]] \(B\) gives the quadratic polynomial \(X\mapsto B(X,X)\). The [[lie-groups/killing-form|Killing form]] supplies a standard example when it is nonzero.
 
 On \(\mathfrak{so}(2m)\), the Pfaffian is invariant under the adjoint action of \(SO(2m)\). It is the polynomial used to construct the Euler form.
 
 ## Role in characteristic classes
 
-Applying a degree-\(k\) invariant polynomial to the curvature of a principal connection produces a [[fiber-bundles/chernweil-form|Chern–Weil form]] of degree \(2k\). Adjoint invariance is exactly what permits this curvature expression to descend from the principal bundle to the base; the Bianchi identity then gives closedness [Bott and Tu, chapter 11](https://doi.org/10.1007/978-1-4757-3951-0).
+Applying a degree-\(k\) invariant polynomial to the curvature of a [[fiber-bundles/principal-connection|principal connection]] produces a [[fiber-bundles/chernweil-form|Chern–Weil form]] of degree \(2k\). Adjoint invariance is exactly what permits this curvature expression to descend from the principal bundle to the base; the [[fiber-bundles/bianchi-identity|Bianchi identity]] then gives closedness [Bott and Tu, chapter 11](https://doi.org/10.1007/978-1-4757-3951-0).
 
 ## Conventions and scope
 

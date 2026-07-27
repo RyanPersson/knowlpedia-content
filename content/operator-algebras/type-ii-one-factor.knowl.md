@@ -37,7 +37,7 @@ theory of finite factors
 
 The hyperfinite type \(\mathrm{II}_1\) factor is obtained as the weak closure,
 in its tracial representation, of an increasing union of matrix algebras.
-Group von Neumann algebras of many infinite conjugacy class discrete groups
+[[operator-algebras/group-von-neumann-algebra|Group von Neumann algebras]] of many infinite [[algebra-groups/conjugacy-class|conjugacy class]] discrete groups
 give further examples.
 
 The [[operator-algebras/type-i-n-factor|matrix factor]]

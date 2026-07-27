@@ -8,15 +8,15 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(M\) and \(N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]]. A [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\) is **proper** if \(f^{-1}(K)\) is a [[topology/compact-set|compact set]] in \(M\) for every compact subset \(K\subseteq N\). Properness is a global topological condition on the underlying continuous map; it does not impose a rank condition on its differential. In particular, every fiber \(f^{-1}(y)\) is compact because a singleton in a manifold is compact.
+Let \(M\) and \(N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]]. A [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\) is **proper** if \(f^{-1}(K)\) is a [[topology/compact-set|compact set]] in \(M\) for every compact subset \(K\subseteq N\). Properness is a global topological condition on the underlying [[topology/continuous-map|continuous map]]; it does not impose a rank condition on its differential. In particular, every fiber \(f^{-1}(y)\) is compact because a singleton in a manifold is compact.
 
 ## Equivalent characterizations
 
-For manifolds, properness is equivalent to the sequence criterion: whenever a sequence \((x_j)\) in \(M\) has \(f(x_j)\) converging in \(N\), the sequence \((x_j)\) has a convergent subsequence in \(M\). It is also equivalent to \(f\) being a closed map with compact fibers. These equivalences use the Hausdorff, [[topology/locally-compact-space|locally compact]], second-countable properties built into the manifold convention; they need not hold in arbitrary topological spaces. See [Lee, Appendix A and Chapter 4](https://doi.org/10.1007/978-1-4419-9982-5).
+For manifolds, properness is equivalent to the sequence criterion: whenever a sequence \((x_j)\) in \(M\) has \(f(x_j)\) converging in \(N\), the sequence \((x_j)\) has a convergent subsequence in \(M\). It is also equivalent to \(f\) being a closed map with compact fibers. These equivalences use the Hausdorff, [[topology/locally-compact-space|locally compact]], second-countable properties built into the manifold convention; they need not hold in arbitrary [[topology/topological-space|topological spaces]]. See [Lee, Appendix A and Chapter 4](https://doi.org/10.1007/978-1-4419-9982-5).
 
 ## Stability and geometric consequences
 
-Composites of proper maps are proper, and the base change of a proper smooth map along any smooth map is proper whenever the fiber product is formed in the usual manifold setting. A proper injective immersion is a [[fiber-bundles/smooth-embedding|smooth embedding]]. Properness also prevents points from escaping to infinity while their images remain bounded, which is why it appears in global inverse results, degree theory, and compactness arguments.
+Composites of proper maps are proper, and the [[algebraic-geometry-foundations/base-change|base change]] of a proper smooth map along any smooth map is proper whenever the fiber product is formed in the usual manifold setting. A proper injective immersion is a [[fiber-bundles/smooth-embedding|smooth embedding]]. Properness also prevents points from escaping to infinity while their images remain bounded, which is why it appears in global inverse results, degree theory, and compactness arguments.
 
 ## Examples and non-examples
 

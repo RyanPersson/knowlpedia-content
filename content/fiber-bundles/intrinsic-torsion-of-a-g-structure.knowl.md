@@ -8,7 +8,7 @@ domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(V=\mathbb R^n\), let \(G\subseteq\operatorname{GL}(V)\) have Lie algebra \(\mathfrak g\), and let \(Q\) be a [[fiber-bundles/g-structure|\(G\)-structure]] on an \(n\)-manifold. A [[fiber-bundles/connection-compatible-with-a-reduction|compatible connection]] has torsion in \(\Lambda^2V^*\otimes V\). Changing the connection by \(A\in V^*\otimes\mathfrak g\) changes its torsion by
+Let \(V=\mathbb R^n\), let \(G\subseteq\operatorname{GL}(V)\) have [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\), and let \(Q\) be a [[fiber-bundles/g-structure|\(G\)-structure]] on an \(n\)-manifold. A [[fiber-bundles/connection-compatible-with-a-reduction|compatible connection]] has torsion in \(\Lambda^2V^*\otimes V\). Changing the connection by \(A\in V^*\otimes\mathfrak g\) changes its torsion by
 \[
 \delta A(u,v)=A(u)v-A(v)u.
 \]
@@ -31,7 +31,7 @@ measures how two torsion-free compatible connections may differ.
 
 ## Decomposition into torsion classes
 
-When \(G\) is compact, invariant inner products allow the quotient to be represented by a \(G\)-invariant complement to \(\delta(V^*\otimes\mathfrak g)\). Decomposing that complement into irreducible \(G\)-modules yields the named torsion classes used for almost Hermitian, \(G_2\), and \(\operatorname{Spin}(7)\) structures. The quotient definition remains canonical even when no preferred complement is chosen.
+When \(G\) is compact, invariant [[linear-algebra/inner-product|inner products]] allow the quotient to be represented by a \(G\)-invariant complement to \(\delta(V^*\otimes\mathfrak g)\). Decomposing that complement into irreducible \(G\)-modules yields the named torsion classes used for almost Hermitian, \(G_2\), and \(\operatorname{Spin}(7)\) structures. The quotient definition remains canonical even when no preferred complement is chosen.
 
 For an \(\operatorname O(n)\)-structure, the Levi–Civita connection is torsion-free and compatible, so intrinsic torsion vanishes. For an almost Hermitian \(U(n)\)-structure, nonzero components measure failures of the associated almost complex and fundamental-form data to satisfy stronger integrability conditions.
 

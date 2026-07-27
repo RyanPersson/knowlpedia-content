@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(T:\operatorname{Dom}(T)\subseteq H\to K\) be a linear operator between
-Hilbert spaces; its domain need not be all of \(H\). The operator \(T\) is
+[[linear-algebra/hilbert-space|Hilbert spaces]]; its domain need not be all of \(H\). The operator \(T\) is
 **closable** if the closure of its
 [[functional-analysis/graph-of-operator|graph]] in \(H\oplus K\) is the graph
 of an operator. That operator is denoted \(\overline T\), called the
@@ -45,7 +45,7 @@ The derivative \(d/dx\) on \(C_c^\infty(0,1)\subset L^2(0,1)\) is closable;
 its closure has domain \(H_0^1(0,1)\). By contrast, let \(T:c_{00}\subset
 \ell^2\to\ell^2\) satisfy \(Te_n=n e_1\). Then
 \(x_n=e_n/n\to0\) but \(Tx_n=e_1\), so \(T\) is not closable. This example
-shows that a densely defined linear operator need not be closable.
+shows that a [[functional-analysis/densely-defined-operator|densely defined linear operator]] need not be closable.
 
 ## References
 

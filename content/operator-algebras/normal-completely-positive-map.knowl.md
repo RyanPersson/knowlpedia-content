@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(M\) and \(N\) be [[operator-algebras/von-neumann-algebra|von Neumann
-algebras]]. A linear map \(\Phi:M\to N\) is a **normal completely positive
+algebras]]. A [[linear-algebra/linear-map|linear map]] \(\Phi:M\to N\) is a **normal completely positive
 map** if it is both [[operator-algebras/completely-positive-map|completely
 positive]] and [[operator-algebras/normal-linear-map|normal]]. Equivalently,
 every matrix amplification of \(\Phi\) is positive and \(\Phi\) is ultraweakly
@@ -38,19 +38,19 @@ developed in [Takesaki, Chapter III, §§2–3](https://doi.org/10.1007/978-1-46
 Every normal [[operator-algebras/star-homomorphism|\(*\)-homomorphism]] is
 normal and completely positive. For a bounded operator \(V:K\to H\), the map
 \(B(H)\to B(K)\), \(x\mapsto V^*xV\), is normal CP. Compositions and finite
-sums of normal CP maps remain normal CP. Normal conditional expectations are
+sums of normal CP maps remain normal CP. [[operator-algebras/normal-conditional-expectation|Normal conditional expectations]] are
 important idempotent examples.
 
 ## Distinctions
 
 **Warning.** Complete positivity alone does not imply normality: a CP map
-between von Neumann algebras can fail to be ultraweakly continuous. Likewise,
+between [[operator-algebras/von-neumann-algebra|von Neumann algebras]] can fail to be ultraweakly continuous. Likewise,
 normality does not imply complete positivity. A
 [[operator-algebras/positive-linear-map|positive map]] need not be completely
 positive. A normal CP map need not preserve the identity; imposing
 \(\Phi(1_M)=1_N\) gives a
 [[operator-algebras/normal-unital-completely-positive-map|normal unital
-completely positive map]].
+[[operator-algebras/completely-positive-map|completely positive map]]]].
 
 ## References
 

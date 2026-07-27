@@ -20,7 +20,7 @@ For the triangular decomposition \(\mathfrak g=\mathfrak n^-\oplus\mathfrak h\op
 
 ## Consequences for central characters
 
-Algebra homomorphisms \(Z(U(\mathfrak g))\to\mathbb C\) are thereby parameterized by \(W\)-orbits in \(\mathfrak h^*\). If a highest-weight module has [[lie-groups/highest-weight|highest weight]] \(\lambda\), then its central character is obtained by evaluating \(\gamma(z)\) at \(\lambda+\rho\). Thus highest weights in the same shifted Weyl orbit have the same [[lie-groups/infinitesimal-character|infinitesimal character]].
+[[algebra-modules/algebra-homomorphism|Algebra homomorphisms]] \(Z(U(\mathfrak g))\to\mathbb C\) are thereby parameterized by \(W\)-orbits in \(\mathfrak h^*\). If a highest-weight module has [[lie-groups/highest-weight|highest weight]] \(\lambda\), then its central character is obtained by evaluating \(\gamma(z)\) at \(\lambda+\rho\). Thus highest weights in the same shifted Weyl orbit have the same [[lie-groups/infinitesimal-character|infinitesimal character]].
 
 ## Conventions
 

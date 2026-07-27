@@ -29,7 +29,7 @@ needed for this implication. The proof is purely definitional.
 
 The containment may be proper. If \(H\) is infinite-dimensional, the
 unitization \(K(H)+\mathbb C I_H\) is type I but not liminal: its defining
-irreducible representation contains \(K(H)\), yet its image also contains the
+[[algebra-representation-theory/irreducible-representation|irreducible representation]] contains \(K(H)\), yet its image also contains the
 identity. Thus type I is strictly weaker than liminal
 [Dixmier, §4.2](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/15/suppl/C).
 
@@ -37,7 +37,7 @@ identity. Thus type I is strictly weaker than liminal
 
 The implication places liminal algebras inside the type I class while keeping
 their stronger kernel rigidity. For a liminal algebra, every irreducible
-quotient is represented exactly by compact operators. A general type I
+quotient is represented exactly by [[linear-algebra/compact-operator|compact operators]]. A general type I
 algebra may instead be assembled from liminal or continuous-trace
 subquotients through an ordinal ideal series.
 

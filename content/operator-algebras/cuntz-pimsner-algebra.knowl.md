@@ -55,7 +55,7 @@ motivated Pimsner’s construction
 ## Conventions and scope
 
 **Warning.** Older “Cuntz–Pimsner algebra” conventions may assume that
-\(\varphi_X\) is injective, acts by compact operators, or impose covariance
+\(\varphi_X\) is injective, acts by [[linear-algebra/compact-operator|compact operators]], or impose covariance
 on a different ideal. Under those extra hypotheses the formulas agree in
 their common range, but for a general correspondence the covariance ideal
 must be stated. A relative Cuntz–Pimsner algebra imposes the relation only on

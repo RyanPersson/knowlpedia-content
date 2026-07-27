@@ -21,7 +21,7 @@ unitary equivalence
 Here every induction is the
 [[harmonic-analysis/unitary-induced-representation|unitary induction]]
 constructed from the canonical quasi-invariant measure class on the relevant
-homogeneous space. The equivalence is canonical up to the harmless choices
+[[lie-groups/homogeneous-space|homogeneous space]]. The equivalence is canonical up to the harmless choices
 used to realize those measure classes and intertwines the \(G\)-actions.
 
 ## Geometric mechanism

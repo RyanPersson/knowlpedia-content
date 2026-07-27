@@ -32,7 +32,7 @@ For example, the roots of the dual bundle are \(-x_1,\ldots,-x_r\). If \(F\) has
 
 For a complex line bundle \(L\), there is one root, namely \(x=c_1(L)\), and \(c(L)=1+x\). For a trivial rank-\(r\) bundle all roots may be taken to be zero.
 
-The [[fiber-bundles/tangent-bundle|tangent bundle]] of complex projective space illustrates the formal nature of the language: the Euler sequence gives \(c(T\mathbb{CP}^n)=(1+h)^{n+1}\) after truncation to \(H^*(\mathbb{CP}^n)\), even though \(T\mathbb{CP}^n\) is not thereby asserted to split into \(n+1\) line bundles.
+The [[fiber-bundles/tangent-bundle|tangent bundle]] of complex [[algebraic-geometry-foundations/projective-space|projective space]] illustrates the formal nature of the language: the Euler sequence gives \(c(T\mathbb{CP}^n)=(1+h)^{n+1}\) after truncation to \(H^*(\mathbb{CP}^n)\), even though \(T\mathbb{CP}^n\) is not thereby asserted to split into \(n+1\) line bundles.
 
 ## Conventions and scope
 

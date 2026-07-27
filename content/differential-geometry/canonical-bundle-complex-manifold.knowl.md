@@ -22,7 +22,7 @@ dw^1\wedge\cdots\wedge dw^n
 =\det\left(\frac{\partial w}{\partial z}\right)
 dz^1\wedge\cdots\wedge dz^n.
 \]
-The Jacobian determinant is nowhere zero on a coordinate overlap, so these factors are precisely the transition functions of \(K_X\). This also explains why top forms, rather than their coefficient functions alone, are coordinate-independent objects.
+The [[real-analysis/jacobian-determinant|Jacobian determinant]] is nowhere zero on a coordinate overlap, so these factors are precisely the [[fiber-bundles/transition-function|transition functions]] of \(K_X\). This also explains why top forms, rather than their coefficient functions alone, are coordinate-independent objects.
 
 ## Sections and triviality
 

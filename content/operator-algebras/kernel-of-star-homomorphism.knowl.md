@@ -15,7 +15,7 @@ For a [[operator-algebras/star-homomorphism|\(*\)-homomorphism]]
 \ker\phi=\{a\in A:\phi(a)=0\}.
 \]
 It is a [[operator-algebras/closed-two-sided-ideal|closed two-sided ideal]]:
-linearity gives a closed linear subspace, multiplicativity gives absorption
+linearity gives a [[linear-algebra/closed-linear-subspace|closed linear subspace]], multiplicativity gives absorption
 from both sides, and preservation of the involution gives self-adjointness.
 The homomorphism is injective exactly when \(\ker\phi=\{0\}\). Thus the
 kernel records precisely which elements of the domain become
@@ -42,7 +42,7 @@ as \(C^*\)-algebras. In particular, the range of every
 
 ## Universal property
 
-More generally, if \(I\) is a closed two-sided ideal of \(A\), then a
+More generally, if \(I\) is a closed [[algebra-rings/two-sided-ideal|two-sided ideal]] of \(A\), then a
 \(*\)-homomorphism \(\psi:A\to C\) factors uniquely through the
 [[operator-algebras/quotient-cstar-algebra|quotient \(C^*\)-algebra]] \(A/I\)
 exactly when \(I\subseteq\ker\psi\). This is the universal property of the

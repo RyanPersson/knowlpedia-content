@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 A **compact spectral triple** \((\mathcal A,H,D)\) consists of a unital
-[[operator-algebras/involutive-algebra|involutive algebra]] \(\mathcal A\), a Hilbert space \(H\) carrying a
+[[operator-algebras/involutive-algebra|involutive algebra]] \(\mathcal A\), a [[linear-algebra/hilbert-space|Hilbert space]] \(H\) carrying a
 [[operator-algebras/bounded-star-representation|bounded star-representation]]
 of \(\mathcal A\), and a densely defined
 [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint operator]]
@@ -34,7 +34,7 @@ The adjective “spectral” does not mean that the spectrum alone determines ev
 
 ## Canonical commutative example
 
-Let \(M\) be a closed Riemannian spin manifold, let \(\mathcal A=C^\infty(M)\), let \(H=L^2(M,S)\) be the square-integrable sections of its spinor bundle, and let \(D\) be the spin Dirac operator. Functions act by multiplication. Ellipticity and compactness of \(M\) give compact resolvent, while
+Let \(M\) be a closed Riemannian spin manifold, let \(\mathcal A=C^\infty(M)\), let \(H=L^2(M,S)\) be the square-integrable sections of its [[differential-geometry/spinor-bundle|spinor bundle]], and let \(D\) be the spin [[noncommutative-geometry/dirac-operator|Dirac operator]]. Functions act by multiplication. Ellipticity and compactness of \(M\) give compact resolvent, while
 \[
 [D,f]=c(df)
 \]

@@ -8,13 +8,13 @@ domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(P\to X\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over a closed oriented Riemannian four-manifold, and choose an invariant inner product on its Lie algebra. For any connection \(A\), write \(F_A=F_A^++F_A^-\) for the Hodge decomposition of its [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] and set \(\operatorname{YM}(A)=\tfrac12\|F_A\|_{L^2}^2\). Then
+Let \(P\to X\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over a closed oriented Riemannian four-manifold, and choose an invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. For any connection \(A\), write \(F_A=F_A^++F_A^-\) for the Hodge decomposition of its [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] and set \(\operatorname{YM}(A)=\tfrac12\|F_A\|_{L^2}^2\). Then
 \[
 \operatorname{YM}(A)
 =\frac12\int_X\langle F_A\wedge F_A\rangle+\|F_A^-\|_{L^2}^2
 =-\frac12\int_X\langle F_A\wedge F_A\rangle+\|F_A^+\|_{L^2}^2.
 \]
-The curvature integral is topological after an integral normalization of the inner product. These identities hold for every smooth connection and immediately imply a sharp lower bound.
+The curvature integral is topological after an integral normalization of the inner product. These identities hold for every smooth connection and immediately imply a sharp [[shared-foundations/lower-bound|lower bound]].
 
 ## Derivation
 

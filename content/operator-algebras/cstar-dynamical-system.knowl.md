@@ -20,11 +20,11 @@ Point-norm continuity ensures that \(s\mapsto f(s)\alpha_s(a)\) has the continui
 
 ## Standard examples
 
-The trivial action \(\alpha_s=\operatorname{id}_A\) gives a \(C^*\)-dynamical system for every \(A\) and \(G\). If \(G\) acts continuously on a locally compact Hausdorff space \(X\), then
+The trivial action \(\alpha_s=\operatorname{id}_A\) gives a \(C^*\)-dynamical system for every \(A\) and \(G\). If \(G\) acts continuously on a locally compact [[topology/hausdorff-space|Hausdorff space]] \(X\), then
 \[
 (\alpha_s f)(x)=f(s^{-1}x)
 \]
-defines a point-norm continuous action on \(C_0(X)\). For a non-example, a homomorphism \(G\to\operatorname{Aut}(A)\) whose orbit map is discontinuous for some \(a\) is an algebraic group action but not a \(C^*\)-dynamical system in this sense.
+defines a point-norm continuous action on \(C_0(X)\). For a non-example, a homomorphism \(G\to\operatorname{Aut}(A)\) whose orbit map is discontinuous for some \(a\) is an algebraic [[algebra-groups/group-action|group action]] but not a \(C^*\)-dynamical system in this sense.
 
 ## Conventions and scope
 

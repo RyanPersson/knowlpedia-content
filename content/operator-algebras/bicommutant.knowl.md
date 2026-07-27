@@ -8,7 +8,7 @@ domains = ["operator-algebras"]
 section_mode = "progressive"
 +++
 
-Let \(H\) be a Hilbert space and let \(S\subseteq B(H)\) be a family of bounded operators. If \(S'\) denotes the [[operator-algebras/commutant|commutant]] of \(S\), then the **bicommutant** or **double commutant** of \(S\) is
+Let \(H\) be a [[linear-algebra/hilbert-space|Hilbert space]] and let \(S\subseteq B(H)\) be a family of bounded operators. If \(S'\) denotes the [[operator-algebras/commutant|commutant]] of \(S\), then the **bicommutant** or **double commutant** of \(S\) is
 \[
 S''=(S')'=\{T\in B(H):TR=RT\text{ for every }R\in S'\}.
 \]

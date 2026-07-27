@@ -19,7 +19,7 @@ that is skew-symmetric, satisfies the Jacobi identity, and obeys the Leibniz rul
 
 ## Hamiltonian vector fields and leaves
 
-For \(f\in C^\infty(M)\), the derivation \(g\mapsto\{f,g\}\) is represented by a [[fiber-bundles/vector-field|vector field]] \(X_f\), called the Hamiltonian vector field of \(f\). At each point, the map \(\pi^\sharp:T^*M\to TM\) defined by
+For \(f\in C^\infty(M)\), the derivation \(g\mapsto\{f,g\}\) is represented by a [[fiber-bundles/vector-field|vector field]] \(X_f\), called the [[differential-geometry/hamiltonian-vector-field|Hamiltonian vector field]] of \(f\). At each point, the map \(\pi^\sharp:T^*M\to TM\) defined by
 \[
 \beta(\pi^\sharp\alpha)=\pi(\alpha,\beta)
 \]

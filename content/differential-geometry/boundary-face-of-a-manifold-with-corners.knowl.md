@@ -8,7 +8,7 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a [[differential-geometry/manifold-with-corners|manifold with corners]]. At \(x\in X\), a **local boundary component** is the germ at \(x\) of one of the coordinate hypersurfaces \(u_i=0\) in a corner chart for which \(u_i(x)=0\). The abstract boundary \(\partial X\) consists of pairs \((x,\beta)\), where \(\beta\) is such a local component. A **boundary face** is a connected component of \(\partial X\); its image in \(X\) is the closure of the corresponding connected depth-one piece. This definition retains which hypersurface is chosen when several meet at a corner.
+Let \(X\) be a [[differential-geometry/manifold-with-corners|manifold with corners]]. At \(x\in X\), a **local boundary component** is the germ at \(x\) of one of the coordinate hypersurfaces \(u_i=0\) in a corner chart for which \(u_i(x)=0\). The abstract boundary \(\partial X\) consists of pairs \((x,\beta)\), where \(\beta\) is such a local component. A **boundary face** is a [[topology/connected-component|connected component]] of \(\partial X\); its image in \(X\) is the closure of the corresponding connected depth-one piece. This definition retains which hypersurface is chosen when several meet at a corner.
 
 ## Incidence at corners
 

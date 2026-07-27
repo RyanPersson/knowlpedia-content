@@ -39,13 +39,13 @@ Thus powers of one elliptic operator encode simultaneous differentiability
 under every derived operator. More generally, the topology on \(H^\infty\)
 defined by the [[lie-groups/derived-representation-on-smooth-vectors|derived
 action]] of the [[lie-groups/universal-enveloping-algebra|universal
-enveloping algebra]] is equivalent to the graph topology defined by the
+[[lie-groups/universal-enveloping-algebra|enveloping algebra]]]] is equivalent to the graph topology defined by the
 powers of \(1+\overline{\Delta_\pi}\).
 
 ## Dependence on choices
 
 The displayed operator depends on the chosen basis, or equivalently on a
-choice of inner product on the Lie algebra. Different choices yield
+choice of [[linear-algebra/inner-product|inner product]] on the Lie algebra. Different choices yield
 equivalent regularity scales and the same space \(H^\infty\), but they need
 not yield the same operator. Unless the inner product is
 \(\operatorname{Ad}(G)\)-invariant, the quadratic element
@@ -54,8 +54,8 @@ not yield the same operator. Unless the inner product is
 
 ## Analytic vectors and Nelson's theorem
 
-Vectors analytic for \(\overline{\Delta_\pi}\) are analytic vectors for the
-group representation: their orbit maps \(g\mapsto\pi(g)v\) are real analytic
+Vectors analytic for \(\overline{\Delta_\pi}\) are [[lie-groups/analytic-vector-unitary-representation|analytic vectors]] for the
+[[algebra-representation-theory/group-representation|group representation]]: their [[fiber-bundles/orbit-map|orbit maps]] \(g\mapsto\pi(g)v\) are real analytic
 near the identity. Nelson's heat-kernel argument produces a dense supply of
 such vectors. This converts an infinite family of infinitesimal generators
 into a single elliptic regularity problem and is a key ingredient in criteria

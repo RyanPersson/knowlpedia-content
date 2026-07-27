@@ -52,7 +52,7 @@ implies [[noncommutative-geometry/theta-summable-spectral-triple|theta summabili
 because exponential decay
 dominates every negative power. It also makes sufficiently long products of
 Dirac or bounded-transform commutators trace class, enabling finite-degree
-cyclic Chern characters.
+[[noncommutative-geometry/chern-character-fredholm-module|cyclic Chern characters]].
 
 ## Conventions and scope
 

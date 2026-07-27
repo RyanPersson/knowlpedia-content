@@ -17,7 +17,7 @@ and let
 \[
 \varphi(x)=\sup_i\varphi(x_i).
 \]
-This is order continuity from below and includes nets, not only sequences.
+This is order [[measure-theory/continuity-from-below-measure|continuity from below]] and includes nets, not only sequences.
 When \(\varphi\) is finite everywhere, its linear extension is normal exactly
 when it is a [[operator-algebras/normal-functional|normal functional]].
 Normality imposes no faithfulness or semifiniteness, and it does not mean norm
@@ -41,7 +41,7 @@ cone [Takesaki, vol. I, Chapter VII, §1](https://doi.org/10.1007/978-1-4612-618
 ## Tests and consequences
 
 Normality implies complete additivity on arbitrary orthogonal families of
-positive elements, with sums interpreted as suprema of finite partial sums.
+positive elements, with sums interpreted as suprema of finite [[real-analysis/partial-sums|partial sums]].
 Testing only increasing sequences is insufficient on a general von Neumann
 algebra; sequential tests become adequate only under additional countability
 or \(\sigma\)-finiteness hypotheses. The net formulation in the core avoids

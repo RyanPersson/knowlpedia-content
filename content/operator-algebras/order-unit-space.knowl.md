@@ -8,7 +8,7 @@ domains = ["operator-algebras", "functional-analysis", "convex-analysis"]
 section_mode = "progressive"
 +++
 
-An **Archimedean order-unit space** is a real vector space \(A\) with a
+An **Archimedean order-unit space** is a real [[linear-algebra/vector-space|vector space]] \(A\) with a
 proper convex cone \(A_+\) and an element \(e\in A_+\) such that:
 
 1. for every \(a\in A\), some \(r>0\) satisfies
@@ -32,7 +32,7 @@ order-unit norm and detect its order:
 a\in A_+\quad\Longleftrightarrow\quad
 \mu(a)\geq0\ \text{for every state }\mu.
 \]
-The state space is convex and carries the weak-star topology inherited from
+The state space is convex and carries the [[functional-analysis/weak-star-topology|weak-star topology]] inherited from
 the dual of the normed space \(A\).
 
 ## C*-algebra example

@@ -13,7 +13,7 @@ A **symplectic vector space** is a pair \((V,\omega)\) consisting of a finite-di
 1. \(\omega(v,v)=0\) for every \(v\in V\), so \(\omega\) is alternating; and
 2. if \(\omega(v,w)=0\) for every \(w\in V\), then \(v=0\), so \(\omega\) is nondegenerate.
 
-Equivalently, the linear map \(V\to V^*\), \(v\mapsto\omega(v,\mathord{-})\), is an isomorphism. No inner product, complex structure, or preferred basis is part of the data.
+Equivalently, the [[linear-algebra/linear-map|linear map]] \(V\to V^*\), \(v\mapsto\omega(v,\mathord{-})\), is an isomorphism. No [[linear-algebra/inner-product|inner product]], complex structure, or preferred basis is part of the data.
 
 ## Normal form and dimension
 
@@ -33,7 +33,7 @@ The relations \(W\subseteq W^\omega\), \(W^\omega\subseteq W\), and \(W=W^\omega
 
 ## Conventions and scope
 
-**Warning.** This knowl adopts the finite-dimensional real convention used in symplectic geometry. Algebraic treatments may work over any field of characteristic different from two. Infinite-dimensional symplectic topological vector spaces require additional continuity and nondegeneracy choices and are not covered by this definition.
+**Warning.** This knowl adopts the finite-dimensional real convention used in symplectic geometry. Algebraic treatments may work over any field of characteristic different from two. Infinite-dimensional symplectic [[functional-analysis/topological-vector-space|topological vector spaces]] require additional continuity and nondegeneracy choices and are not covered by this definition.
 
 ## References
 

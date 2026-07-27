@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(H\) and \(K\) be complex [[linear-algebra/hilbert-space|Hilbert
-spaces]] whose inner products are linear in the first variable, and let
+spaces]] whose [[linear-algebra/inner-product|inner products]] are linear in the first variable, and let
 \(T:H\to K\) be a
 [[functional-analysis/bounded-linear-operator|bounded linear operator]]. The
 **adjoint** of \(T\) is the unique bounded operator \(T^*:K\to H\) satisfying
@@ -49,7 +49,7 @@ The orthogonality relations
 \ker T=(\operatorname{Ran}T^*)^\perp
 \]
 connect algebraic failure of injectivity with density of the opposite range.
-For finite-dimensional Hilbert spaces with
+For finite-dimensional [[linear-algebra/hilbert-space|Hilbert spaces]] with
 [[linear-algebra/orthonormal-basis|orthonormal bases]], \(T^*\) is
 represented by the conjugate-transpose matrix. For the unilateral shift on
 \(\ell^2(\mathbb N)\), the adjoint is the backward shift

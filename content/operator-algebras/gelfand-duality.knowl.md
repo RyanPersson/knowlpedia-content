@@ -20,13 +20,13 @@ is an isometric \(*\)-isomorphism
 evaluation gives a homeomorphism \(X\cong\Delta(C_0(X))\) for every
 [[topology/locally-compact-space|locally compact]]
 [[topology/hausdorff-space|Hausdorff space]] \(X\). Moreover, a proper
-continuous map \(f:X\to Y\) corresponds contravariantly to the
+[[topology/continuous-map|continuous map]] \(f:X\to Y\) corresponds contravariantly to the
 [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate \(*\)-homomorphism]] \(f^*:C_0(Y)\to C_0(X)\), \(h\mapsto h\circ f\).
 
 ## Categorical content
 
 The assignments \(X\mapsto C_0(X)\) and \(A\mapsto\Delta(A)\) define
-contravariant functors. The two displayed canonical maps are natural
+[[algebra-category-theory/contravariant-functor|contravariant functors]]. The two displayed canonical maps are natural
 isomorphisms, so the result is an
 [[algebra-category-theory/equivalence-of-categories|equivalence of categories]], not merely a classification of objects. Every nondegenerate
 \(*\)-homomorphism between commutative \(C^*\)-algebras arises uniquely as
@@ -49,7 +49,7 @@ requires multiplier-algebra-valued morphisms instead; the proper-map
 convention in the core keeps pullbacks inside \(C_0(X)\). Gelfand duality is
 also distinct from the general Gelfand–Naimark representation theorem:
 the latter represents an arbitrary, possibly noncommutative,
-\(C^*\)-algebra by operators on a Hilbert space rather than by scalar-valued
+\(C^*\)-algebra by operators on a [[linear-algebra/hilbert-space|Hilbert space]] rather than by scalar-valued
 functions on a character space.
 
 ## References

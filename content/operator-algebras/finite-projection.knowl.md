@@ -26,7 +26,7 @@ projection's range in a particular representation.
 
 Finiteness is invariant under Murray–von Neumann equivalence and passes to
 subprojections. The projection \(p\) is finite exactly when the corner
-\(pMp\), whose identity is \(p\), is a finite von Neumann algebra. A von
+\(pMp\), whose identity is \(p\), is a [[operator-algebras/finite-von-neumann-algebra|finite von Neumann algebra]]. A von
 Neumann algebra is called finite when its identity projection is finite.
 
 ## Examples

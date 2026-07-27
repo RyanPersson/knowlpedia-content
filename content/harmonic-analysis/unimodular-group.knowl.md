@@ -16,9 +16,9 @@ is identically one:
 \]
 Equivalently, any left [[harmonic-analysis/haar-measure|Haar measure]] on
 \(G\) is also right invariant. The property is independent of the scaling of
-the Haar measure. Thus, for a unimodular group, left and right translation
+the Haar measure. Thus, for a unimodular group, left and [[lie-groups/right-translation|right translation]]
 have the same measure-theoretic behavior, and group inversion preserves Haar
-measure. Unimodularity is a property of the topological group, not an extra
+measure. Unimodularity is a property of the [[topology/topological-group|topological group]], not an extra
 choice of measure.
 
 ## Equivalent characterizations
@@ -36,7 +36,7 @@ change-of-variables formulas for Haar measure; see
 ## Examples and non-examples
 
 Every abelian, compact, or discrete locally compact group is unimodular.
-Connected semisimple Lie groups are also unimodular. The affine group of the
+Connected semisimple [[fiber-bundles/lie-group|Lie groups]] are also unimodular. The affine group of the
 real line, consisting of transformations \(x\mapsto ax+b\) with \(a>0\), is a
 standard nonunimodular example.
 

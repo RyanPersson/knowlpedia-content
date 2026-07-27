@@ -20,7 +20,7 @@ The **shifting trick** replaces reduction at \(\alpha\) by zero-level reduction 
 \[
 \mu^{-1}(\alpha)/G_\alpha\cong\widetilde\mu^{-1}(0)/G.
 \]
-This construction keeps the original group action while moving the chosen momentum level to zero.
+This construction keeps the original [[algebra-groups/group-action|group action]] while moving the chosen momentum level to zero.
 
 ## Construction of the identification
 

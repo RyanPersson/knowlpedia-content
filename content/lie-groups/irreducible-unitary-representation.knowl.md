@@ -40,7 +40,7 @@ commutant recover a nontrivial invariant subspace
 Every one-dimensional unitary representation is irreducible. The trivial
 representation on \(\mathbb C\) is the simplest example. A nontrivial
 orthogonal direct sum \(\pi_1\oplus\pi_2\) is reducible because each summand is
-a proper closed invariant subspace. An irreducible representation cannot have
+a proper closed invariant subspace. An [[algebra-representation-theory/irreducible-representation|irreducible representation]] cannot have
 two orthogonal nonzero invariant summands.
 
 ## Conventions and scope

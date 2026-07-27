@@ -12,11 +12,11 @@ The **tangent functor** is the covariant [[algebra-category-theory/functor|funct
 \[
 T:\mathbf{Man}\longrightarrow\mathbf{Man}
 \]
-on the [[differential-geometry/category-of-smooth-manifolds|category of smooth manifolds]]. It sends a manifold \(M\) to its [[fiber-bundles/tangent-bundle|tangent bundle]] \(TM\), regarded as a smooth manifold, and a [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\) to the smooth map
+on the [[differential-geometry/category-of-smooth-manifolds|category of smooth manifolds]]. It sends a manifold \(M\) to its [[fiber-bundles/tangent-bundle|tangent bundle]] \(TM\), regarded as a [[fiber-bundles/smooth-manifold|smooth manifold]], and a [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\) to the smooth map
 \[
 Tf:TM\longrightarrow TN,\qquad v_p\longmapsto df_p(v_p),
 \]
-induced by the [[fiber-bundles/differential-of-a-smooth-map|differential of \(f\)]]. The chain rule gives \(T(g\circ f)=Tg\circ Tf\), while \(T(\operatorname{id}_M)=\operatorname{id}_{TM}\); these are precisely the identity and composition axioms required of a functor.
+induced by the [[fiber-bundles/differential-of-a-smooth-map|differential of \(f\)]]. The [[real-analysis/chain-rule|chain rule]] gives \(T(g\circ f)=Tg\circ Tf\), while \(T(\operatorname{id}_M)=\operatorname{id}_{TM}\); these are precisely the identity and composition axioms required of a functor.
 
 ## Bundle structure and natural maps
 
@@ -28,7 +28,7 @@ Consequently, the bundle projections \(\pi_M:TM\to M\) assemble into a [[algebra
 
 ## Products and isomorphisms
 
-There is a canonical diffeomorphism \(T(M\times N)\cong TM\times TN\), under which \(T(f\times g)=Tf\times Tg\). If \(f\) is a [[fiber-bundles/diffeomorphism|diffeomorphism]], then \(Tf\) is a diffeomorphism with inverse \(T(f^{-1})\). Thus tangent spaces and differentials form one coherent construction, rather than unrelated pointwise assignments.
+There is a canonical diffeomorphism \(T(M\times N)\cong TM\times TN\), under which \(T(f\times g)=Tf\times Tg\). If \(f\) is a [[fiber-bundles/diffeomorphism|diffeomorphism]], then \(Tf\) is a diffeomorphism with inverse \(T(f^{-1})\). Thus [[differential-geometry/tangent-space|tangent spaces]] and differentials form one coherent construction, rather than unrelated pointwise assignments.
 
 ## Conventions and scope
 

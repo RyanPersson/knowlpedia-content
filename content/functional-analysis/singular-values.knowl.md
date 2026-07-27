@@ -9,8 +9,8 @@ section_mode = "progressive"
 +++
 
 Let \(T:H\to K\) be a
-[[linear-algebra/compact-operator|compact operator]] between Hilbert spaces.
-Its absolute value is the positive compact operator
+[[linear-algebra/compact-operator|compact operator]] between [[linear-algebra/hilbert-space|Hilbert spaces]].
+Its [[real-analysis/absolute-value|absolute value]] is the positive compact operator
 \[
 |T|=(T^*T)^{1/2}\quad\text{on }H.
 \]
@@ -26,7 +26,7 @@ unambiguous when \(H\) or \(K\) is not separable.
 
 ## Fundamental properties
 
-The first singular value is the operator norm:
+The first singular value is the [[linear-algebra/operator-norm|operator norm]]:
 \(s_1(T)=\|T\|\). Compactness is equivalent to
 \(s_n(T)\to0\) when the zero tail is included, and
 \(s_n(T)=s_n(T^*)\) for every \(n\). Unitary changes of coordinates on the
@@ -44,7 +44,7 @@ s_n(ATB)\leq\|A\|\,s_n(T)\,\|B\|.
 \]
 Hence decay conditions on the sequence define two-sided operator ideals.
 Summability of \((s_n(T))\) gives the trace-class and Schatten conditions,
-while weaker rates lead to weak Schatten ideals.
+while weaker rates lead to [[operator-algebras/weak-schatten-ideal|weak Schatten ideals]].
 
 ## Examples and boundary cases
 

@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(u\) be a [[functional-analysis/tempered-distribution|tempered
 distribution]] on \(\mathbb R^n\). Its **Fourier transform**
-\(\widehat u\) is the tempered distribution defined by
+\(\widehat u\) is the [[functional-analysis/tempered-distribution|tempered distribution]] defined by
 \[
 \langle\widehat u,\varphi\rangle
 =\langle u,\widehat\varphi\rangle
@@ -19,14 +19,14 @@ distribution]] on \(\mathbb R^n\). Its **Fourier transform**
 \]
 where \(\varphi\mapsto\widehat\varphi\) is the
 [[functional-analysis/fourier-transform-schwartz-space|Fourier transform on
-Schwartz space]] with kernel \(e^{-2\pi i x\cdot\xi}\). Because that transform
+[[functional-analysis/schwartz-space|Schwartz space]]]] with kernel \(e^{-2\pi i x\cdot\xi}\). Because that transform
 is a continuous automorphism of \(\mathcal S(\mathbb R^n)\), this transpose
 operation is well-defined and is itself a linear automorphism of
 \(\mathcal S'(\mathbb R^n)\).
 
 ## Compatibility with functions
 
-If \(u\) is induced by an integrable function \(f\), Fubini's theorem gives
+If \(u\) is induced by an integrable function \(f\), [[measure-theory/fubinis-theorem|Fubini's theorem]] gives
 \[
 \langle\widehat u,\varphi\rangle
 =\int_{\mathbb R^n}\widehat f(\xi)\varphi(\xi)\,d\xi.

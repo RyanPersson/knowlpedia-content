@@ -37,7 +37,7 @@ interval, on either side of the unitary axis and before the first reducibility
 point, on which the intertwining form is positive. Its irreducible
 globalizations form the spherical complementary series. At the central
 imaginary parameter one instead has unitary principal series; beyond the
-positivity interval the same induced representations are not unitarizable.
+positivity interval the same [[algebra-representation-theory/induced-representation|induced representations]] are not unitarizable.
 
 ## Conventions and scope
 

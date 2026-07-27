@@ -48,7 +48,7 @@ E=\bigoplus_j E_j
 \]
 with the \(E_j\) stable of common slope; the direct sum of their
 Hermitian–Einstein connections solves the equation on \(E\). Equal slope is
-essential, because the central constant in the Hermitian Yang–Mills equation
+essential, because the central constant in the Hermitian [[fiber-bundles/yangmills-equation|Yang–Mills equation]]
 is determined by the slope.
 
 ## Scope and conventions

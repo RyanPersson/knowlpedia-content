@@ -41,7 +41,7 @@ A path of self-adjoint operators that reaches an operator with \(0\) in its esse
 
 For paths of [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint unbounded Fredholm operators]], continuity must be specified. Gap-continuous paths admit a spectral-flow theory through graph projections or the Cayley transform; Riesz-continuous paths can be treated through bounded transforms. These topologies are not interchangeable without hypotheses. [Booss-Bavnbek, Lesch, and Phillips](https://arxiv.org/abs/math/0108014) give equivalent rigorous constructions for the unbounded setting.
 
-In a [[operator-algebras/semifinite-von-neumann-algebra|semifinite von Neumann algebra]], self-adjoint Breuer-Fredholm paths have a trace-valued analogue. In type \(\mathrm{II}_\infty\), it can be real-valued rather than integer-valued and is expressed using the trace dimension of spectral projections. [Carey and Phillips](https://arxiv.org/abs/math/0308161) develop this version and relate it to odd unbounded Fredholm modules and the K-theory/K-homology pairing.
+In a [[operator-algebras/semifinite-von-neumann-algebra|semifinite von Neumann algebra]], self-adjoint Breuer-Fredholm paths have a trace-valued analogue. In type \(\mathrm{II}_\infty\), it can be real-valued rather than integer-valued and is expressed using the trace dimension of spectral projections. [Carey and Phillips](https://arxiv.org/abs/math/0308161) develop this version and relate it to odd unbounded [[noncommutative-geometry/fredholm-module|Fredholm modules]] and the K-theory/K-homology pairing.
 
 ## References
 

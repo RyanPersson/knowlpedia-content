@@ -34,7 +34,7 @@ The sum \(\pi\oplus\sigma\) is the basic two-summand example. Repeating one repr
 
 ## Conventions and scope
 
-The Hilbert direct sum is a discrete construction. It should not be confused with a direct integral of representations, where summands vary over a measure space and vectors are square-integrable measurable fields. No countability assumption on \(I\) is required for the definition, although separability of the sum imposes restrictions on the nonzero summands.
+The Hilbert direct sum is a discrete construction. It should not be confused with a direct integral of representations, where summands vary over a [[measure-theory/measure-space|measure space]] and vectors are square-integrable measurable fields. No countability assumption on \(I\) is required for the definition, although separability of the sum imposes restrictions on the nonzero summands.
 
 ## References
 

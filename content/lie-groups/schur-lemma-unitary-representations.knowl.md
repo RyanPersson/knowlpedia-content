@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(\pi\) be a unitary representation of a group \(G\) on a nonzero complex
-Hilbert space \(\mathcal H\). **Schur's lemma for unitary representations**
+[[linear-algebra/hilbert-space|Hilbert space]] \(\mathcal H\). **Schur's lemma for unitary representations**
 states that \(\pi\) is
 [[lie-groups/irreducible-unitary-representation|irreducible]] if and only if
 every bounded operator \(T\) satisfying
@@ -25,7 +25,7 @@ is required.
 ## Proof mechanism
 
 If a closed subspace is invariant under a unitary representation, its
-orthogonal complement is invariant, so the corresponding orthogonal
+[[linear-algebra/orthogonal-complement|orthogonal complement]] is invariant, so the corresponding orthogonal
 projection lies in the commutant. Conversely, for a self-adjoint operator in
 the commutant, every spectral projection also commutes with \(\pi(G)\).
 Irreducibility forces all these projections to be \(0\) or \(I\), hence the

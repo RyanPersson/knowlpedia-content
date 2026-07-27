@@ -40,7 +40,7 @@ The compact group \(\operatorname{SO}(n)\) has real rank \(0\).
 trace-zero diagonal matrices in \(\mathfrak p\).
 \(\operatorname{SO}_0(p,q)\), with \(p\leq q\), has real rank \(p\).
 Thus real rank distinguishes compact groups, rank-one groups, and
-higher-rank groups even when their complexified Lie algebras have comparable
+higher-rank groups even when their complexified [[lie-groups/lie-algebra|Lie algebras]] have comparable
 root data.
 
 ## Conventions and consequences

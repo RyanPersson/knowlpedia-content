@@ -8,7 +8,7 @@ domains = ["harmonic-analysis", "operator-algebras"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a locally compact group with a fixed
+Let \(G\) be a [[topology/locally-compact-group|locally compact group]] with a fixed
 [[harmonic-analysis/haar-measure|left Haar measure]]. The
 **\(L^1\) group algebra** is the
 [[measure-theory/lp-space|\(L^1\) space]] \(L^1(G)\), equipped with
@@ -23,7 +23,7 @@ f^*(x)=\Delta(x^{-1})\overline{f(x^{-1})},
 where \(\Delta\) is the modular function. With the \(L^1\)-norm these
 operations make \(L^1(G)\) a Banach \(*\)-algebra, and
 \(\|f*g\|_1\leq\|f\|_1\|g\|_1\). Its multiplication therefore records the
-group law, not merely the underlying measure space.
+group law, not merely the underlying [[measure-theory/measure-space|measure space]].
 
 ## Haar-measure conventions
 
@@ -42,8 +42,8 @@ integrated form
 U(f)=\int_G f(x)U_x\,dx,
 \]
 which is a nondegenerate contractive \(*\)-representation of \(L^1(G)\).
-The supremum of the resulting operator norms produces the full group
-\(C^*\)-norm, while the left regular representation produces the reduced
+The supremum of the resulting [[linear-algebra/operator-norm|operator norms]] produces the full group
+\(C^*\)-norm, while the left [[algebra-representation-theory/regular-representation|regular representation]] produces the reduced
 group \(C^*\)-norm. Thus the two group \(C^*\)-algebras are completions of
 the same convolution algebra [Folland, Chapters 2–3 and 7](https://doi.org/10.1201/b19172).
 

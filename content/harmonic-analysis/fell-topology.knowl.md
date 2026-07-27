@@ -20,7 +20,7 @@ Fell's coefficient-function description gives the same topology: neighborhoods c
 
 ## Separation and type I groups
 
-The kernel map sends \(\widehat G\) onto the [[operator-algebras/primitive-ideal-space|primitive ideal space]] of \(C^*(G)\). For a [[operator-algebras/type-i-cstar-algebra|type I \(C^*\)-algebra]] it is a bijection, but outside the type I setting inequivalent irreducible representations can have the same kernel and hence cannot be separated by this topology. Even for type I groups, the Fell topology need not be Hausdorff.
+The kernel map sends \(\widehat G\) onto the [[operator-algebras/primitive-ideal-space|primitive ideal space]] of \(C^*(G)\). For a [[operator-algebras/type-i-cstar-algebra|type I \(C^*\)-algebra]] it is a bijection, but outside the type I setting inequivalent [[algebra-representation-theory/irreducible-representation|irreducible representations]] can have the same kernel and hence cannot be separated by this topology. Even for type I groups, the Fell topology need not be Hausdorff.
 
 ## References
 

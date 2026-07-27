@@ -12,7 +12,7 @@ Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic m
 \[
 \iota_{X_H}\omega=dH,
 \]
-the nondegeneracy of \(\omega\) determines a unique vector field \(X_H\), called the [[differential-geometry/hamiltonian-vector-field|Hamiltonian vector field]] of \(H\). The corresponding [[differential-geometry/hamiltonian-system|Hamiltonian system]] is the differential equation \(\dot{\gamma}(t)=X_H(\gamma(t))\). Thus \(H\) is the scalar function, not the vector field or its flow. Two Hamiltonians differing by a locally constant function generate the same vector field; the converse also holds.
+the nondegeneracy of \(\omega\) determines a unique [[fiber-bundles/vector-field|vector field]] \(X_H\), called the [[differential-geometry/hamiltonian-vector-field|Hamiltonian vector field]] of \(H\). The corresponding [[differential-geometry/hamiltonian-system|Hamiltonian system]] is the differential equation \(\dot{\gamma}(t)=X_H(\gamma(t))\). Thus \(H\) is the scalar function, not the vector field or its flow. Two Hamiltonians differing by a locally constant function generate the same vector field; the converse also holds.
 
 ## Generated dynamics
 

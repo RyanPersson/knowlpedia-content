@@ -14,7 +14,7 @@ Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]
 \]
 and a regular measure \(d\dot g\) on the
 [[harmonic-analysis/locally-compact-homogeneous-space|locally compact
-homogeneous space]] \(G/H\) such that every \(f\in C_c(G)\) satisfies
+[[lie-groups/homogeneous-space|homogeneous space]]]] \(G/H\) such that every \(f\in C_c(G)\) satisfies
 \[
 \int_G f(g)\rho(g)\,dg
 =\int_{G/H}\int_H f(gh)\,dh\,d\dot g.

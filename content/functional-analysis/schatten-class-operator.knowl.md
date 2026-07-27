@@ -21,7 +21,7 @@ The space of all such operators is denoted \(\mathcal S^p(H,K)\), or
 \lVert T\rVert_p=\left(\sum_{n\geq1}s_n(T)^p\right)^{1/p}.
 \]
 It is a norm when \(p\geq1\) and a quasinorm when \(0<p<1\). When \(H=K\),
-\(\mathcal S^p(H)\) is a two-sided ideal in the bounded operators on \(H\).
+\(\mathcal S^p(H)\) is a [[algebra-rings/two-sided-ideal|two-sided ideal]] in the bounded operators on \(H\).
 Thus Schatten membership is a quantitative compactness condition.
 
 ## Ideal and inclusion properties
@@ -43,14 +43,14 @@ is desired [Simon, Chapters 1–2](https://doi.org/10.1090/surv/120).
 The class \(\mathcal S^1\) is the trace class, and \(\mathcal S^2\) is the
 Hilbert--Schmidt class. For a diagonal compact operator on \(\ell^2\) with
 diagonal \((\lambda_n)\), membership in \(\mathcal S^p\) is exactly the
-condition \((\lambda_n)\in\ell^p\). Finite-rank operators belong to every
+condition \((\lambda_n)\in\ell^p\). [[functional-analysis/finite-rank-operator|Finite-rank operators]] belong to every
 \(\mathcal S^p\) and are dense there in the \(p\)-norm.
 
 ## Conventions and scope
 
 For \(0<p<1\), “Schatten class” is sometimes replaced by “quasi-Schatten
 ideal” to emphasize the lack of a norm. Some authors extend the notation by setting
-\(\mathcal S^\infty(H)=\mathcal K(H)\) with the operator norm. Others reserve
+\(\mathcal S^\infty(H)=\mathcal K(H)\) with the [[linear-algebra/operator-norm|operator norm]]. Others reserve
 “Schatten class” for finite \(p\), as in the core definition. These
 conventions should be stated when endpoints or subunit exponents matter.
 

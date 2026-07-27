@@ -24,7 +24,7 @@ The Dirac distribution \(\delta_a(\varphi)=\varphi(a)\) for \(a\in\Omega\) is si
 
 ## Differentiation and support
 
-For a multi-index \(\alpha\), the distributional derivative is defined by
+For a multi-index \(\alpha\), the [[functional-analysis/distributional-derivative|distributional derivative]] is defined by
 \[
 \langle \partial^\alpha T,\varphi\rangle=(-1)^{|\alpha|}\langle T,\partial^\alpha\varphi\rangle.
 \]

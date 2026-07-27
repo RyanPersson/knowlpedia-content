@@ -16,7 +16,7 @@ linear functional on \(A\); the \(C^*\)-structure then forces continuity and
 \(\chi(a^*)=\overline{\chi(a)}\). Every character is positive and has norm
 one, so it is a [[operator-algebras/state-cstar-algebra|state]]. When \(A\) is
 unital, a character automatically satisfies \(\chi(1)=1\). Its kernel is a
-maximal closed two-sided ideal, and \(A/\ker\chi\cong\mathbb C\).
+maximal closed [[algebra-rings/two-sided-ideal|two-sided ideal]], and \(A/\ker\chi\cong\mathbb C\).
 The zero homomorphism is excluded.
 
 ## Existence and examples
@@ -32,7 +32,7 @@ exist precisely when \(A\) has a quotient isomorphic to \(\mathbb C\).
 Every character is a
 [[operator-algebras/pure-state-cstar-algebra|pure state]]. Conversely, a pure
 state need not be a
-character: vector states on \(M_n(\mathbb C)\) are pure, but no nonzero state
+character: [[operator-algebras/vector-state|vector states]] on \(M_n(\mathbb C)\) are pure, but no nonzero state
 there is multiplicative when \(n>1\). On a
 [[operator-algebras/commutative-cstar-algebra|commutative \(C^*\)-algebra]],
 however, the pure states are exactly the characters. These facts underlie the
@@ -42,7 +42,7 @@ construction of the character space
 ## Terminology
 
 **Warning.** This notion is not a group-representation character or a Lie
-algebra weight. It is a scalar-valued algebra homomorphism. Some Banach-algebra
+algebra weight. It is a scalar-valued [[algebra-modules/algebra-homomorphism|algebra homomorphism]]. Some Banach-algebra
 texts define “character” first as a nonzero multiplicative functional; for a
 \(C^*\)-algebra that convention yields the same objects.
 

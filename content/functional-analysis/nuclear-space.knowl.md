@@ -19,7 +19,7 @@ E_q\longrightarrow E_p
 \]
 is a nuclear operator: it has an absolutely summable rank-one
 decomposition. This is a property of the locally convex topology, not merely
-of the underlying vector space or its
+of the underlying [[linear-algebra/vector-space|vector space]] or its
 [[functional-analysis/topological-dual|topological dual]] as a set.
 
 ## Why the definition is strong
@@ -28,7 +28,7 @@ The transition map condition forces finite-dimensional-like summability
 between successively stronger seminorms. It implies that the projective and
 injective locally convex tensor-product constructions with \(E\) agree after
 the appropriate Hausdorff completion. This removes a major ambiguity in
-kernel theorems and makes continuous multilinear maps unusually tractable
+[[functional-analysis/schwartz-kernel-theorem|kernel theorems]] and makes continuous multilinear maps unusually tractable
 [Trèves, Chapters 50–51](https://shop.elsevier.com/books/topological-vector-spaces-distributions-and-kernels/treves/978-1-4831-9859-0).
 
 ## Examples and nonexamples
@@ -39,7 +39,7 @@ Finite-dimensional locally convex spaces are nuclear. The
 [[functional-analysis/test-function-space|test-function space]]
 \(C_c^\infty(\Omega)\), and the space \(C^\infty(M)\) on a compact smooth
 manifold are fundamental infinite-dimensional examples with their standard
-locally convex topologies. By contrast, a Banach space is nuclear as a
+locally convex topologies. By contrast, a [[linear-algebra/banach-space|Banach space]] is nuclear as a
 locally convex space only when it is finite-dimensional: applying the
 definition to a norm would make an identity-type transition map nuclear,
 hence compact.

@@ -15,8 +15,8 @@ Let \(G\) be a second-countable [[topology/locally-compact-group|locally compact
 \((x,v)\sim(xh,\sigma(h)^{-1}v)\). Given a
 [[harmonic-analysis/quasi-invariant-measure|quasi-invariant measure]]
 \(\mu\) on \(G/H\), the **induced unitary representation**
-\(\operatorname{Ind}_H^G\sigma\) acts on the Hilbert space of
-square-integrable measurable sections. Its action is left translation of
+\(\operatorname{Ind}_H^G\sigma\) acts on the [[linear-algebra/hilbert-space|Hilbert space]] of
+square-integrable measurable sections. Its action is [[lie-groups/left-translation|left translation]] of
 sections, multiplied by the square root of the appropriate Radon–Nikodym
 derivative so that every operator is unitary.
 
@@ -38,7 +38,7 @@ of the chosen measure within the canonical measure class
 ## Equivariant-function model
 
 After choosing measurable trivializations, vectors can instead be represented
-by measurable functions \(F:G\to V\) satisfying
+by [[measure-theory/measurable-function|measurable functions]] \(F:G\to V\) satisfying
 \[
 F(xh)=\sigma(h)^{-1}F(x).
 \]

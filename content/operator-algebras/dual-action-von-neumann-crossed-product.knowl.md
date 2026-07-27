@@ -32,7 +32,7 @@ group unitary of \(t\) by its Fourier character.
 
 The displayed assignments preserve the covariance relation and therefore
 extend from integrated covariant operators to normal automorphisms of the
-generated von Neumann algebra. Character multiplication gives an action, and
+[[operator-algebras/von-neumann-algebra-generated-by-representation|generated von Neumann algebra]]. Character multiplication gives an action, and
 ultraweak density of the integrated core gives uniqueness. When
 \(G=\mathbb R\) and \(\chi_s(t)=e^{ist}\), the convention above reads
 \(\widehat\alpha_s(\lambda(t))=e^{-ist}\lambda(t)\).

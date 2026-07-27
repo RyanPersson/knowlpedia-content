@@ -52,7 +52,7 @@ subspace containing \(\xi_\varphi\) is needed to realize the functional.
 If \(M\) is a unital self-adjoint operator algebra, then \(\xi\) is cyclic
 for \(M\) exactly when it is
 [[operator-algebras/separating-vector|separating]] for the commutant \(M'\).
-Indeed, an operator in \(M'\) that kills \(\xi\) kills the dense set
+Indeed, an operator in \(M'\) that kills \(\xi\) kills the [[topology/dense-set|dense set]]
 \(M\xi\); the converse uses the projection onto \(\overline{M\xi}\), which
 belongs to \(M'\)
 [Kadison–Ringrose, §5.5](https://doi.org/10.1090/gsm/015).

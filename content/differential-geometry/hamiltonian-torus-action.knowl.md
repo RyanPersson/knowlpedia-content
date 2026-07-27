@@ -8,7 +8,7 @@ domains = ["differential-geometry", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(T\) be a compact torus with Lie algebra \(\mathfrak t\), acting on a [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\). A **Hamiltonian torus action** is a [[differential-geometry/hamiltonian-lie-group-action|Hamiltonian Lie group action]] with a map \(\mu:M\to\mathfrak t^*\) satisfying
+Let \(T\) be a compact torus with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak t\), acting on a [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\). A **Hamiltonian torus action** is a [[differential-geometry/hamiltonian-lie-group-action|Hamiltonian Lie group action]] with a map \(\mu:M\to\mathfrak t^*\) satisfying
 \[
 d\langle\mu,\xi\rangle=\iota_{\xi_M}\omega
 \]
@@ -20,13 +20,13 @@ Each \(\xi\in\mathfrak t\) determines a [[differential-geometry/hamiltonian-func
 \[
 \mu^\xi=\langle\mu,\xi\rangle
 \]
-whose [[differential-geometry/hamiltonian-vector-field|Hamiltonian vector field]] is the infinitesimal generator \(\xi_M\). The moment map is determined only up to addition of a constant element of \(\mathfrak t^*\). Translating \(\mu\) changes neither the action nor its component vector fields.
+whose [[differential-geometry/hamiltonian-vector-field|Hamiltonian vector field]] is the infinitesimal generator \(\xi_M\). The [[fiber-bundles/moment-map|moment map]] is determined only up to addition of a constant element of \(\mathfrak t^*\). Translating \(\mu\) changes neither the action nor its component [[fiber-bundles/vector-field|vector fields]].
 
 Lattice conventions vary: some authors define \(T=\mathfrak t/\Lambda\), while others take the exponential kernel to be \(2\pi\Lambda\). Statements involving integral weights or polytope labels must retain the chosen convention.
 
 ## Convexity and toric actions
 
-If \(M\) is compact and connected, the [[differential-geometry/atiyah-guillemin-sternberg-convexity-theorem|Atiyah–Guillemin–Sternberg convexity theorem]] says that \(\mu(M)\) is the convex hull of the images of the \(T\)-fixed-point components; in particular it is a convex polytope [Guillemin, chapter 1](https://doi.org/10.1007/978-1-4612-0269-1). This special convexity is one reason torus actions are more rigid than general Hamiltonian group actions.
+If \(M\) is compact and connected, the [[differential-geometry/atiyah-guillemin-sternberg-convexity-theorem|Atiyah–Guillemin–Sternberg convexity theorem]] says that \(\mu(M)\) is the [[convex-analysis/convex-hull|convex hull]] of the images of the \(T\)-fixed-point components; in particular it is a convex polytope [Guillemin, chapter 1](https://doi.org/10.1007/978-1-4612-0269-1). This special convexity is one reason torus actions are more rigid than general Hamiltonian [[algebra-groups/group-action|group actions]].
 
 When the action is effective and \(\dim T=\frac12\dim M\), the Hamiltonian \(T\)-space is called symplectic toric. Compact connected symplectic toric manifolds are classified, up to the appropriate equivariant [[differential-geometry/symplectomorphism|symplectomorphism]], by Delzant polytopes.
 

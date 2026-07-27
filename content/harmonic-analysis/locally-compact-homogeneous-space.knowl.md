@@ -16,10 +16,10 @@ space** \(G/H\) is the set of left cosets \(gH\), equipped with the
 \[
 x\cdot(gH)=(xg)H.
 \]
-It is a locally compact Hausdorff space, and the action is transitive. More
+It is a locally compact [[topology/hausdorff-space|Hausdorff space]], and the action is transitive. More
 generally, a locally compact homogeneous \(G\)-space means a \(G\)-space
 equivariantly homeomorphic to some \(G/H\) with \(H\) closed. This
-topological notion does not require \(G\) to be a Lie group or \(G/H\) to be
+topological notion does not require \(G\) to be a [[fiber-bundles/lie-group|Lie group]] or \(G/H\) to be
 a manifold.
 
 ## Quotient topology
@@ -36,7 +36,7 @@ neighborhoods in \(G\) yield relatively compact neighborhoods in \(G/H\).
 ## Stabilizers and recognition
 
 If \(G\) acts continuously and transitively on a Hausdorff space \(X\), the
-stabilizer \(G_x\) is closed and the orbit map induces a continuous
+stabilizer \(G_x\) is closed and the [[fiber-bundles/orbit-map|orbit map]] induces a continuous
 \(G\)-equivariant bijection
 \[
 G/G_x\longrightarrow X,\qquad gG_x\longmapsto g\cdot x.
@@ -62,7 +62,7 @@ does not exist.
 
 ## Lie-group specialization
 
-When \(G\) is a Lie group, every closed subgroup \(H\) is a Lie subgroup and
+When \(G\) is a Lie group, every closed subgroup \(H\) is a [[lie-groups/lie-subgroup|Lie subgroup]] and
 \(G/H\) has a canonical smooth structure. It is then the
 [[lie-groups/homogeneous-space|smooth homogeneous space]] associated with the
 transitive Lie-group action. The locally compact definition is broader: it

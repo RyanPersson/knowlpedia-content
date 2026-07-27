@@ -22,7 +22,7 @@ Thus a class is represented by a closed compactly supported \(k\)-form, and two 
 
 ## Functoriality and support
 
-If \(f:M\to N\) is a [[differential-geometry/proper-smooth-map|proper smooth map]], pullback preserves compact support and induces \(f^*:H_{c,\mathrm{dR}}^k(N)\to H_{c,\mathrm{dR}}^k(M)\). Arbitrary smooth maps need not do so. If \(j:U\hookrightarrow M\) is an open inclusion, extension by zero sends compactly supported forms on \(U\) to compactly supported forms on \(M\); smoothness holds because each support is closed away from the boundary of \(U\).
+If \(f:M\to N\) is a [[differential-geometry/proper-smooth-map|proper smooth map]], pullback preserves compact support and induces \(f^*:H_{c,\mathrm{dR}}^k(N)\to H_{c,\mathrm{dR}}^k(M)\). Arbitrary [[fiber-bundles/smooth-map|smooth maps]] need not do so. If \(j:U\hookrightarrow M\) is an open inclusion, extension by zero sends compactly supported forms on \(U\) to compactly supported forms on \(M\); smoothness holds because each support is closed away from the boundary of \(U\).
 
 ## Duality and examples
 

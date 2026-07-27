@@ -25,7 +25,7 @@ On a compact manifold without boundary,
 \]
 Consequently, a smooth form lies in \(\ker\Delta_A\) exactly when it is both \(d_A\)-closed and \(d_A^*\)-closed. This conclusion uses compactness or boundary conditions that eliminate boundary terms.
 
-If \(A\) is flat, then \(d_A^2=0\), so \((\Omega^\bullet(M;E),d_A)\) is a complex and the kernel represents cohomology through the corresponding Hodge theorem. For a curved connection, \(\ker\Delta_A\) remains analytically meaningful, but it is not generally a cohomological model.
+If \(A\) is flat, then \(d_A^2=0\), so \((\Omega^\bullet(M;E),d_A)\) is a complex and the kernel represents cohomology through the corresponding [[differential-geometry/hodge-theorem|Hodge theorem]]. For a curved connection, \(\ker\Delta_A\) remains analytically meaningful, but it is not generally a cohomological model.
 
 ## Weitzenböck form
 

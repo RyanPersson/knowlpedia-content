@@ -8,7 +8,7 @@ domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] over a closed oriented surface, with compact structure group \(G\) and an \(\operatorname{Ad}\)-invariant inner product on its Lie algebra. Give \(\mathcal A(P)\) the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott symplectic form]]. Identify the dual of the gauge Lie algebra \(\Omega^0(\Sigma;\operatorname{ad}P)\) with \(\Omega^2(\Sigma;\operatorname{ad}P)\) by integration. Then **curvature is a moment map** for the [[fiber-bundles/gauge-group|gauge-group]] action:
+Let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] over a closed oriented surface, with compact structure group \(G\) and an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. Give \(\mathcal A(P)\) the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott symplectic form]]. Identify the dual of the gauge Lie algebra \(\Omega^0(\Sigma;\operatorname{ad}P)\) with \(\Omega^2(\Sigma;\operatorname{ad}P)\) by integration. Then **curvature is a moment map** for the [[fiber-bundles/gauge-group|gauge-group]] action:
 \[
 \mu\colon\mathcal A(P)\longrightarrow
 \Omega^2(\Sigma;\operatorname{ad}P),\qquad
@@ -22,13 +22,13 @@ For \(\xi\in\Omega^0(\Sigma;\operatorname{ad}P)\), define
 \[
 \mu^\xi(A)=\int_\Sigma\langle F_A,\xi\rangle.
 \]
-The curvature variation in the direction \(a\in\Omega^1(\Sigma;\operatorname{ad}P)\) is \(d_Aa\). Integration by parts on the closed surface gives
+The curvature variation in the direction \(a\in\Omega^1(\Sigma;\operatorname{ad}P)\) is \(d_Aa\). [[real-analysis/integration-by-parts|Integration by parts]] on the closed surface gives
 \[
 d\mu^\xi_A(a)
 =\int_\Sigma\langle d_Aa,\xi\rangle
 =\int_\Sigma\langle a\wedge d_A\xi\rangle,
 \]
-with the displayed sign corresponding to one standard convention. Since the infinitesimal gauge action is \(d_A\xi\) or \(-d_A\xi\), depending on whether the action and fundamental vector fields are defined on the left or right, this is precisely the Hamiltonian identity. The calculation appears in [Atiyah–Bott, §9](https://doi.org/10.1098/rsta.1983.0017).
+with the displayed sign corresponding to one standard convention. Since the infinitesimal gauge action is \(d_A\xi\) or \(-d_A\xi\), depending on whether the action and fundamental [[fiber-bundles/vector-field|vector fields]] are defined on the left or right, this is precisely the Hamiltonian identity. The calculation appears in [Atiyah–Bott, §9](https://doi.org/10.1098/rsta.1983.0017).
 
 ## Symplectic reduction and Yang–Mills
 

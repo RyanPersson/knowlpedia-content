@@ -16,7 +16,7 @@ for every \(g\in G\) and every Borel set \(E\subseteq X\). The equation is the c
 
 ## Function-algebra formulation
 
-Integrating bounded measurable functions against \(P\) gives a representation \(M_P\) by operators on \(\mathcal H\). Covariance becomes
+Integrating bounded [[measure-theory/measurable-function|measurable functions]] against \(P\) gives a representation \(M_P\) by operators on \(\mathcal H\). Covariance becomes
 \[
 U(g)M_P(f)U(g)^{-1}=M_P(f\circ g^{-1}).
 \]
@@ -26,7 +26,7 @@ Thus a system of imprimitivity can equivalently be viewed as a covariant represe
 
 When \(X=G/H\) is a
 [[harmonic-analysis/locally-compact-homogeneous-space|locally compact
-homogeneous space]] for a closed subgroup \(H\), Mackey's [[harmonic-analysis/mackey-imprimitivity-theorem|imprimitivity
+[[lie-groups/homogeneous-space|homogeneous space]]]] for a closed subgroup \(H\), Mackey's [[harmonic-analysis/mackey-imprimitivity-theorem|imprimitivity
 theorem]] classifies systems based on \(G/H\) by unitary representations of
 \(H\). The associated representation of \(G\) is induced from \(H\), and
 \(P(E)\) acts by multiplication by the indicator of \(E\). This equivalence

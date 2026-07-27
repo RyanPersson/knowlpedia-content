@@ -8,7 +8,7 @@ domains = ["noncommutative-geometry", "operator-algebras"]
 section_mode = "progressive"
 +++
 
-Let \((\mathcal A,H,D)\) be a finitely summable [[noncommutative-geometry/regular-spectral-triple|regular spectral triple]] with discrete [[noncommutative-geometry/dimension-spectrum|dimension spectrum]] and the meromorphic-continuation hypotheses of Connes and Moscovici. The **local index formula** states that the periodic cyclic Chern character of the bounded transform of \(D\) is represented by a finite \((b,B)\)-cocycle whose components are linear combinations of residues at specified poles of
+Let \((\mathcal A,H,D)\) be a finitely summable [[noncommutative-geometry/regular-spectral-triple|regular spectral triple]] with discrete [[noncommutative-geometry/dimension-spectrum|dimension spectrum]] and the meromorphic-continuation hypotheses of Connes and Moscovici. The **local index formula** states that the periodic cyclic Chern character of the bounded transform of \(D\) is represented by a finite \((b,B)\)-cocycle whose components are [[convex-analysis/linear-combination|linear combinations]] of residues at specified poles of
 \[
 \operatorname{Tr}_{s}\!\left(
 a_0[D,a_1]^{(k_1)}\cdots[D,a_n]^{(k_n)}

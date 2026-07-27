@@ -12,11 +12,11 @@ Let \((\pi,\mathcal H_\pi)\) and \((\sigma,\mathcal H_\sigma)\) be [[lie-groups/
 \[
 T\pi(g)=\sigma(g)T\qquad\text{for every }g\in G.
 \]
-The vector space of all such operators is denoted \(\operatorname{Hom}_G(\pi,\sigma)\). Boundedness is part of the Hilbert-representation definition; an everywhere-defined algebraic operator satisfying the displayed identity need not be continuous.
+The [[linear-algebra/vector-space|vector space]] of all such operators is denoted \(\operatorname{Hom}_G(\pi,\sigma)\). Boundedness is part of the Hilbert-representation definition; an everywhere-defined algebraic operator satisfying the displayed identity need not be continuous.
 
 ## Basic properties
 
-Intertwiners compose, identity operators intertwine a representation with itself, and the adjoint \(T^*\) intertwines \(\sigma\) with \(\pi\). The kernel of \(T\) and the closure of its range are invariant closed subspaces. Consequently, intertwiners are the morphisms in the category of unitary representations with bounded equivariant maps.
+Intertwiners compose, identity operators intertwine a representation with itself, and the adjoint \(T^*\) intertwines \(\sigma\) with \(\pi\). The kernel of \(T\) and the closure of its range are invariant closed subspaces. Consequently, intertwiners are the morphisms in the category of unitary representations with bounded [[fiber-bundles/equivariant-map|equivariant maps]].
 
 ## Equivalence and irreducibility
 
@@ -24,7 +24,7 @@ A unitary intertwiner that is onto exhibits **unitary equivalence** of the two r
 
 ## Conventions and scope
 
-In smooth or distribution representation theory, “intertwining operator” may mean a continuous map for a locally convex topology, or a densely defined unbounded operator with an invariant domain. Those notions require the topology or domain to be stated and are not covered by this bounded Hilbert-space definition.
+In smooth or distribution representation theory, “intertwining operator” may mean a [[topology/continuous-map|continuous map]] for a locally convex topology, or a densely defined unbounded operator with an invariant domain. Those notions require the topology or domain to be stated and are not covered by this bounded Hilbert-space definition.
 
 ## References
 

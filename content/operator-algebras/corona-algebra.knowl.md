@@ -32,7 +32,7 @@ Q(\mathcal K(H))\cong\mathcal B(H)/\mathcal K(H),
 the Calkin algebra, because
 \(M(\mathcal K(H))\cong\mathcal B(H)\), with
 [[operator-algebras/compact-operator-cstar-algebra|\(\mathcal K(H)\)]] the
-compact operators and
+[[linear-algebra/compact-operator|compact operators]] and
 [[operator-algebras/bounded-operator-cstar-algebra|\(\mathcal B(H)\)]] the
 bounded operators. In the commutative case \(A=C_0(X)\), where \(X\) is
 [[topology/locally-compact-space|locally compact]] Hausdorff,

@@ -26,7 +26,7 @@ Equivalently, on the dense convolution algebra \(C_c(G,A)\),
 \]
 It records the group variable by multiplying each Fourier mode by its
 character. The action fixes the coefficient algebra pointwise and changes
-only the canonical group unitaries. The complex conjugate reflects the
+only the canonical group unitaries. The [[shared-foundations/complex-conjugate|complex conjugate]] reflects the
 Fourier-transform convention chosen here.
 
 ## Why the formula defines an action
@@ -43,7 +43,7 @@ automorphism. Character multiplication gives
 density of \(C_c(G,A)\) gives strong continuity
 [Williams, Chapter 7](https://doi.org/10.1090/surv/134).
 
-The same formula descends through the regular representation and defines a
+The same formula descends through the [[algebra-representation-theory/regular-representation|regular representation]] and defines a
 dual action on the [[operator-algebras/reduced-crossed-product|reduced crossed product]].
 
 ## Standard cases and conventions

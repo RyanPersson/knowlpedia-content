@@ -16,11 +16,11 @@ for [[fiber-bundles/tangent-space-at-a-point|tangent vectors]] \(X,Y\) at the sa
 
 ## Recovering the compatible data
 
-The form and almost-complex structure recover the metric by
+The form and [[differential-geometry/almost-complex-structure|almost-complex structure]] recover the metric by
 \[
 g(X,Y)=\omega(X,JY).
 \]
-Conversely, compatible pairs among \(J\), \(g\), and \(\omega\), together with the appropriate positivity condition, determine the third object. This is pointwise Hermitian linear algebra applied smoothly to the tangent bundle.
+Conversely, compatible pairs among \(J\), \(g\), and \(\omega\), together with the appropriate positivity condition, determine the third object. This is pointwise Hermitian linear algebra applied smoothly to the [[fiber-bundles/tangent-bundle|tangent bundle]].
 
 ## Closedness and integrability
 

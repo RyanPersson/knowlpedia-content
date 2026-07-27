@@ -20,7 +20,7 @@ decomposition
 x=\frac{x+x^*}{2}+i\,\frac{x-x^*}{2i},
 \]
 whose two summands before and after the factor \(i\) are self-adjoint. In a
-concrete \(C^*\)-algebra of operators on a Hilbert space, this definition is
+concrete \(C^*\)-algebra of operators on a [[linear-algebra/hilbert-space|Hilbert space]], this definition is
 exactly the usual condition that an operator equal its Hilbert-space adjoint.
 
 ## Spectral characterizations
@@ -29,7 +29,7 @@ An element of a \(C^*\)-algebra is self-adjoint exactly when its spectrum is
 contained in \(\mathbb R\). Equivalently, \(\|\exp(ita)\|=1\) for every real
 \(t\), with the exponential computed in the unitization when the algebra is
 nonunital. These equivalences use the \(C^*\)-identity and functional
-calculus; they fail as stated in a general involutive Banach algebra
+calculus; they fail as stated in a general involutive [[functional-analysis/banach-algebra|Banach algebra]]
 [Murphy, §2.2](https://doi.org/10.1016/C2009-0-22289-6).
 
 ## Order and functional calculus
@@ -39,7 +39,7 @@ A self-adjoint element is **positive** when its spectrum lies in
 \(A_{\mathrm{sa}}\) is defined by \(a\leq b\) when \(b-a\) is positive.
 Continuous real-valued functions on the spectrum of \(a\) produce
 self-adjoint elements by functional calculus, while nonnegative functions
-produce positive elements. In particular, the positive and negative parts
+produce positive elements. In particular, the positive and [[operator-algebras/positive-negative-parts|negative parts]]
 recover \(a=a_+-a_-\) with \(a_+a_-=0\).
 
 ## Examples and boundary cases

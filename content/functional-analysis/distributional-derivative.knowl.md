@@ -18,7 +18,7 @@ defined by
 \]
 for every \(\varphi\) in the
 [[functional-analysis/test-function-space|test-function space]]. The sign is
-the one forced by repeated integration by parts. Continuity of
+the one forced by repeated [[real-analysis/integration-by-parts|integration by parts]]. Continuity of
 \(\varphi\mapsto\partial^\alpha\varphi\) on the test-function space ensures
 that \(\partial^\alpha T\) is again a distribution. For \(|\alpha|=1\), this
 extends the classical [[real-analysis/partial-derivative|partial derivative]].

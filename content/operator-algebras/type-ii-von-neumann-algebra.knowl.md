@@ -16,7 +16,7 @@ A type II factor is of type \(\mathrm{II}_1\) when its identity is finite; it th
 
 ## Distinguishing nearby conditions
 
-Having no nonzero [[operator-algebras/minimal-projection|minimal projections]] does not by itself imply type II: a diffuse abelian von Neumann algebra also has no minimal projections, but it has nonzero abelian projections and is type I. The no-abelian-projection condition is what excludes this case. [[operator-algebras/type-iii-von-neumann-algebra|Type III algebras]] are also non-type-I, but, unlike type II algebras, they have no nonzero finite projections.
+Having no nonzero [[operator-algebras/minimal-projection|minimal projections]] does not by itself imply type II: a diffuse [[operator-algebras/commutative-von-neumann-algebra|abelian von Neumann algebra]] also has no minimal projections, but it has nonzero abelian projections and is type I. The no-abelian-projection condition is what excludes this case. [[operator-algebras/type-iii-von-neumann-algebra|Type III algebras]] are also non-type-I, but, unlike type II algebras, they have no nonzero finite projections.
 
 ## References
 

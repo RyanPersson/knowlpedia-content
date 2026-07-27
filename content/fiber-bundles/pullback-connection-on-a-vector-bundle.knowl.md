@@ -12,7 +12,7 @@ Let \(f:N\to M\) be a [[fiber-bundles/smooth-map|smooth map]], let \(E\to M\) be
 \[
 (f^*\nabla)(f^*s)=f^*(\nabla s)
 \]
-for every local smooth section \(s\) of \(E\). Here the right side is the pullback of the \(E\)-valued \(1\)-form \(\nabla s\), so it is a [[fiber-bundles/vector-bundle-valued-differential-form|\(f^*E\)-valued \(1\)-form]] on \(N\).
+for every local [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] \(s\) of \(E\). Here the right side is the pullback of the \(E\)-valued \(1\)-form \(\nabla s\), so it is a [[fiber-bundles/vector-bundle-valued-differential-form|\(f^*E\)-valued \(1\)-form]] on \(N\).
 
 ## Local construction
 
@@ -37,7 +37,7 @@ If \(i:S\hookrightarrow M\) is an [[differential-geometry/embedded-submanifold|e
 
 ## Examples and scope
 
-For a constant map \(f:N\to\{x\}\subset M\), the pullback bundle is canonically \(N\times E_x\), and \(f^*\nabla\) is the trivial connection in this identification. Pulling back the Levi–Civita connection along a curve gives the covariant derivative used to define parallel vector fields along that curve.
+For a constant map \(f:N\to\{x\}\subset M\), the pullback bundle is canonically \(N\times E_x\), and \(f^*\nabla\) is the trivial connection in this identification. Pulling back the Levi–Civita connection along a curve gives the covariant derivative used to define parallel [[fiber-bundles/vector-field|vector fields]] along that curve.
 
 **Warning.** The pullback connection differentiates sections of \(f^*E\), not sections of \(E\) along arbitrary vector fields on \(M\). No immersion or submersion hypothesis on \(f\) is required.
 

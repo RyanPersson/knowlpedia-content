@@ -46,11 +46,11 @@ If \(S\) and \(T\) are homogeneous, then \(ST\) has degree \(|S|+|T|\) modulo \(
 [S,T]_{\mathrm{gr}}
 =ST-(-1)^{|S||T|}TS.
 \]
-Thus it is the ordinary commutator unless both operators are odd, in which case it is the anticommutator \(ST+TS\). This sign rule is the one used for graded representations, Fredholm modules, and Kasparov cycles.
+Thus it is the ordinary commutator unless both operators are odd, in which case it is the anticommutator \(ST+TS\). This sign rule is the one used for graded representations, [[noncommutative-geometry/fredholm-module|Fredholm modules]], and Kasparov cycles.
 
 ## Unbounded operators
 
-Parity for an unbounded operator requires a domain condition. A densely defined operator \(D\) is even or odd only when \(\Gamma\operatorname{Dom}(D)=\operatorname{Dom}(D)\) and
+Parity for an unbounded operator requires a domain condition. A [[functional-analysis/densely-defined-operator|densely defined operator]] \(D\) is even or odd only when \(\Gamma\operatorname{Dom}(D)=\operatorname{Dom}(D)\) and
 \[
 D\Gamma=\Gamma D
 \quad\text{or}\quad

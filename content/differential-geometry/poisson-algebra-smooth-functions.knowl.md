@@ -12,7 +12,7 @@ Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic m
 \[
 \{f,gh\}=\{f,g\}h+g\{f,h\}.
 \]
-Thus it is simultaneously a [[lie-groups/lie-algebra|Lie algebra]] and a commutative associative algebra, with the Lie bracket acting as a derivation in either argument.
+Thus it is simultaneously a [[lie-groups/lie-algebra|Lie algebra]] and a commutative associative algebra, with the [[fiber-bundles/lie-bracket|Lie bracket]] acting as a derivation in either argument.
 
 ## Geometric meaning
 
@@ -24,13 +24,13 @@ under the convention \(\iota_{X_g}\omega=dg\). Therefore \(\{f,H\}\) is the rate
 
 ## Maps and examples
 
-The canonical bracket on \(\mathbb R^{2n}\) satisfies \(\{q^i,p_j\}=\delta^i_j\). A [[differential-geometry/symplectomorphism|symplectomorphism]] induces an isomorphism of Poisson algebras by pullback. More generally, a [[differential-geometry/poisson-map|Poisson map]] is precisely a smooth map whose pullback preserves brackets.
+The canonical bracket on \(\mathbb R^{2n}\) satisfies \(\{q^i,p_j\}=\delta^i_j\). A [[differential-geometry/symplectomorphism|symplectomorphism]] induces an isomorphism of Poisson algebras by pullback. More generally, a [[differential-geometry/poisson-map|Poisson map]] is precisely a [[fiber-bundles/smooth-map|smooth map]] whose pullback preserves brackets.
 
 For a general [[differential-geometry/poisson-manifold|Poisson manifold]], the same axioms define a Poisson algebra on smooth functions, but its Poisson center may contain nonconstant Casimir functions [Vaisman, Chapter 1](https://doi.org/10.1007/978-3-0348-8495-2).
 
 ## Conventions and scope
 
-The real-valued algebra is used here. One may instead complexify to \(C^\infty(M,\mathbb C)\) and extend the bracket complex-bilinearly. The phrase “classical observable algebra” often refers to a chosen subalgebra of admissible observables rather than all smooth functions, especially in systems with constraints or analytic restrictions.
+The real-valued algebra is used here. One may instead complexify to \(C^\infty(M,\mathbb C)\) and extend the bracket complex-bilinearly. The phrase “classical [[stat-mech-quantum/observable-algebra|observable algebra]]” often refers to a chosen subalgebra of admissible observables rather than all smooth functions, especially in systems with constraints or analytic restrictions.
 
 ## References
 

@@ -17,7 +17,7 @@ is an isomorphism. The same holds with complex coefficients. Equivalently, \(L^r
 
 ## Proof mechanism
 
-The [[differential-geometry/kahler-identities|Kähler identities]] show that the [[differential-geometry/lefschetz-operator|Lefschetz operator]] \(L\), its adjoint \(\Lambda\), and the degree operator act as an \(\mathfrak{sl}_2\)-triple on harmonic forms. Finite-dimensional \(\mathfrak{sl}_2\)-representation theory then makes the displayed powers of \(L\) bijective. Harmonic representatives transfer these linear-algebraic isomorphisms to de Rham cohomology.
+The [[differential-geometry/kahler-identities|Kähler identities]] show that the [[differential-geometry/lefschetz-operator|Lefschetz operator]] \(L\), its adjoint \(\Lambda\), and the degree operator act as an \(\mathfrak{sl}_2\)-triple on [[differential-geometry/harmonic-differential-form|harmonic forms]]. Finite-dimensional \(\mathfrak{sl}_2\)-representation theory then makes the displayed powers of \(L\) bijective. Harmonic representatives transfer these linear-algebraic isomorphisms to de Rham cohomology.
 
 ## Primitive decomposition
 
@@ -33,7 +33,7 @@ with only terms of nonnegative degree included. This decomposition organizes the
 
 ## Scope and consequences
 
-The theorem implies, among other things, that multiplication by \([\omega]\) is injective below the middle degree and surjective at or above it. It is a statement over \(\mathbb R\) or \(\mathbb C\); an integral isomorphism is not asserted, and an arbitrary Kähler class need not be integral. Closed symplectic manifolds need not satisfy Hard Lefschetz, so symplecticity alone is a decisive near-miss.
+The theorem implies, among other things, that multiplication by \([\omega]\) is injective below the middle degree and surjective at or above it. It is a statement over \(\mathbb R\) or \(\mathbb C\); an integral isomorphism is not asserted, and an arbitrary Kähler class need not be integral. Closed [[differential-geometry/symplectic-manifold|symplectic manifolds]] need not satisfy Hard Lefschetz, so symplecticity alone is a decisive near-miss.
 
 ## References
 

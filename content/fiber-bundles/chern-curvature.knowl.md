@@ -30,15 +30,15 @@ Changing the curvature or Hermitian-linearity convention may insert a minus sign
 
 ## Geometric consequences
 
-Invariant polynomials applied to \(F_\nabla\) produce closed differential forms representing the Chern classes of \(E\). In particular, under the displayed convention,
+Invariant polynomials applied to \(F_\nabla\) produce [[fiber-bundles/closed-differential-form|closed differential forms]] representing the Chern classes of \(E\). In particular, under the displayed convention,
 \[
 \frac{\sqrt{-1}}{2\pi}\operatorname{tr}(F_\nabla)
 \]
-represents the first Chern class in de Rham cohomology. Contraction of \(F_\nabla\) with a Hermitian form on the base gives the mean-curvature endomorphism used in the Hermitian Yang–Mills equation.
+represents the first Chern class in de Rham cohomology. Contraction of \(F_\nabla\) with a Hermitian form on the base gives the mean-curvature endomorphism used in the Hermitian [[fiber-bundles/yangmills-equation|Yang–Mills equation]].
 
 ## Examples and non-examples
 
-The trivial holomorphic bundle with its constant standard metric has \(H=I\), hence \(F_\nabla=0\). A nonconstant Hermitian metric on the same holomorphic line bundle can have nonzero Chern curvature. The curvature of an arbitrary connection on a complex vector bundle is not Chern curvature unless that connection is the Chern connection for specified holomorphic and Hermitian structures; in particular, it need not have type \((1,1)\).
+The trivial holomorphic bundle with its constant standard metric has \(H=I\), hence \(F_\nabla=0\). A nonconstant Hermitian metric on the same holomorphic line bundle can have nonzero Chern curvature. The curvature of an arbitrary connection on a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] is not Chern curvature unless that connection is the Chern connection for specified holomorphic and Hermitian structures; in particular, it need not have type \((1,1)\).
 
 ## References
 

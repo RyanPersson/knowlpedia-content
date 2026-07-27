@@ -36,7 +36,7 @@ More explicitly, \(d\Phi(X_{f\circ\Phi}^M)=X_f^N\circ\Phi\) for every \(f\in C^\
 
 The projection \(M\times N\to M\) is Poisson for the product Poisson structure. A constant map with value \(q\in N\) is Poisson exactly when \(\pi_N(q)=0\).
 
-A constant map into a positive-dimensional symplectic manifold is therefore not Poisson: its differential pushes every bivector to zero, whereas the target Poisson bivector is nonzero. This failure shows that not every smooth map between Poisson manifolds is a Poisson map.
+A constant map into a positive-dimensional [[differential-geometry/symplectic-manifold|symplectic manifold]] is therefore not Poisson: its differential pushes every bivector to zero, whereas the target Poisson bivector is nonzero. This failure shows that not every smooth map between Poisson manifolds is a Poisson map.
 
 ## Conventions and scope
 

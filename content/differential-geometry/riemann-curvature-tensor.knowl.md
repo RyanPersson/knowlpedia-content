@@ -12,7 +12,7 @@ Let \((M,g)\) be a [[differential-geometry/riemannian-manifold|Riemannian manifo
 \[
 R(X,Y)Z=\nabla_X\nabla_YZ-\nabla_Y\nabla_XZ-\nabla_{[X,Y]}Z
 \]
-for smooth vector fields \(X,Y,Z\). The metric-lowered version is the \((0,4)\)-tensor
+for smooth [[fiber-bundles/vector-field|vector fields]] \(X,Y,Z\). The metric-lowered version is the \((0,4)\)-tensor
 \[
 \operatorname{Rm}(X,Y,Z,W)=g(R(X,Y)Z,W).
 \]
@@ -44,7 +44,7 @@ Parallel transport around a small loop differs from the identity to first order 
 
 ## Examples and non-examples
 
-Euclidean space with its standard metric has \(R=0\). The unit round sphere has constant positive sectional curvature, whereas hyperbolic space has constant negative sectional curvature.
+[[linear-algebra/euclidean-space|Euclidean space]] with its standard metric has \(R=0\). The unit round sphere has constant positive sectional curvature, whereas hyperbolic space has constant negative sectional curvature.
 
 A connection on an arbitrary [[fiber-bundles/vector-bundle|vector bundle]] also has [[fiber-bundles/curvature-of-a-vector-bundle-connection|curvature]], but that endomorphism-valued \(2\)-form is called the Riemann curvature tensor only when the connection is the Levi–Civita connection on \(TM\). A nonzero Christoffel symbol is not by itself curvature; such symbols can be nonzero in curvilinear coordinates on flat Euclidean space.
 

@@ -8,7 +8,7 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(M\) be a [[differential-geometry/complex-manifold|complex manifold]] with its canonical complex structure \(J\) on the real tangent bundle. A **Hermitian manifold** is \(M\) together with a smooth Riemannian metric \(g\) satisfying
+Let \(M\) be a [[differential-geometry/complex-manifold|complex manifold]] with its canonical complex structure \(J\) on the real [[fiber-bundles/tangent-bundle|tangent bundle]]. A **Hermitian manifold** is \(M\) together with a smooth Riemannian metric \(g\) satisfying
 \[
 g(JX,JY)=g(X,Y)
 \]
@@ -16,7 +16,7 @@ for all real tangent vectors \(X,Y\) at the same point. Thus \((M,J,g)\) is an [
 
 ## Associated form and local data
 
-The [[differential-geometry/fundamental-form-almost-hermitian|fundamental \(2\)-form]] is nondegenerate and of complex type \((1,1)\). In holomorphic coordinates, the metric is represented by a smoothly varying positive-definite Hermitian matrix. These descriptions carry the same data as the \(J\)-invariant real Riemannian metric; they do not identify that real bilinear form with a sesquilinear form.
+The [[differential-geometry/fundamental-form-almost-hermitian|fundamental \(2\)-form]] is nondegenerate and of complex type \((1,1)\). In holomorphic coordinates, the metric is represented by a smoothly varying positive-definite Hermitian matrix. These descriptions carry the same data as the \(J\)-invariant real Riemannian metric; they do not identify that real [[linear-algebra/bilinear-form|bilinear form]] with a sesquilinear form.
 
 Every complex manifold under the usual second-countable convention admits a Hermitian metric: local standard metrics can be combined with a smooth partition of unity.
 
@@ -26,7 +26,7 @@ Hermitian compatibility does not require \(d\omega=0\). A Hermitian manifold is 
 
 ## Examples and non-examples
 
-Complex Euclidean space with its standard Euclidean metric is Hermitian, as is [[algebraic-geometry-foundations/projective-space|complex projective space]] with the [[differential-geometry/fubini-study-metric|Fubini–Study metric]]. On \(\mathbb C^n\), a generic Riemannian metric is not Hermitian: if it assigns different lengths to \(X\) and \(JX\), it fails \(J\)-invariance.
+Complex [[linear-algebra/euclidean-space|Euclidean space]] with its standard Euclidean metric is Hermitian, as is [[algebraic-geometry-foundations/projective-space|complex projective space]] with the [[differential-geometry/fubini-study-metric|Fubini–Study metric]]. On \(\mathbb C^n\), a generic Riemannian metric is not Hermitian: if it assigns different lengths to \(X\) and \(JX\), it fails \(J\)-invariance.
 
 ## References
 

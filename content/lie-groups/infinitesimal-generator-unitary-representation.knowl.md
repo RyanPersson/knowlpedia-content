@@ -8,7 +8,7 @@ domains = ["lie-groups", "functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(\pi\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] of a Lie group
+Let \(\pi\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] of a [[fiber-bundles/lie-group|Lie group]]
 \(G\) on \(\mathcal H\), and let \(X\) lie in the [[lie-groups/lie-algebra|Lie algebra]] of \(G\). The
 **infinitesimal generator in the direction \(X\)** is the unique self-adjoint
 operator \(A_X\) supplied by
@@ -46,7 +46,7 @@ Unitary conjugation transports generators according to
 A_{\operatorname{Ad}(g)X}=\pi(g)A_X\pi(g)^{-1}.
 \]
 On the common domain \(\mathcal H^\infty\), the assignment
-\(X\mapsto d\pi(X)\) is linear and preserves Lie brackets. Statements such as
+\(X\mapsto d\pi(X)\) is linear and preserves [[fiber-bundles/lie-bracket|Lie brackets]]. Statements such as
 \(A_{X+Y}=A_X+A_Y\) require care at the level of unbounded operators: the
 algebraic equality holds on smooth vectors, while the domains and closures of
 the maximal operators must still be controlled.

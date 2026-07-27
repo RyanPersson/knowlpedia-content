@@ -28,7 +28,7 @@ Weak ideals express borderline spectral dimension: an inverse or resolvent whose
 
 ## Conventions and scope
 
-**Warning.** Notation is not uniform. “Weak trace ideal” normally refers only to the case \(p=1\). Some noncommutative-geometry sources use \(\mathcal L^{(1,\infty)}\) for the larger Marcinkiewicz ideal defined by logarithmic bounds on partial sums of singular values. That ideal must not be silently identified with the weak-\(\ell^1\) condition \(\sup_n n\mu_n(T)<\infty\) used here.
+**Warning.** Notation is not uniform. “Weak trace ideal” normally refers only to the case \(p=1\). Some noncommutative-geometry sources use \(\mathcal L^{(1,\infty)}\) for the larger Marcinkiewicz ideal defined by logarithmic bounds on [[real-analysis/partial-sums|partial sums]] of singular values. That ideal must not be silently identified with the weak-\(\ell^1\) condition \(\sup_n n\mu_n(T)<\infty\) used here.
 
 ## References
 

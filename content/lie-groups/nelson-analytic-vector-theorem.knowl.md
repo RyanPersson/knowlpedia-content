@@ -8,7 +8,7 @@ domains = ["lie-groups", "functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(A\) be a [[functional-analysis/symmetric-operator|symmetric operator]] on a complex [[linear-algebra/hilbert-space|Hilbert space]]. Suppose the domain of \(A\) contains a dense set \(D\) such that every \(v\in D\) is analytic for \(A\):
+Let \(A\) be a [[functional-analysis/symmetric-operator|symmetric operator]] on a complex [[linear-algebra/hilbert-space|Hilbert space]]. Suppose the domain of \(A\) contains a [[topology/dense-set|dense set]] \(D\) such that every \(v\in D\) is analytic for \(A\):
 \[
 v\in\bigcap_{n\geq 0}\mathcal D(A^n)
 \quad\text{and}\quad
@@ -18,7 +18,7 @@ for some \(t_v>0\). **Nelson's analytic vector theorem** states that \(A\) is [[
 
 ## Lie-algebra form
 
-For a representation of a finite-dimensional real [[lie-groups/lie-algebra|Lie algebra]] by skew-symmetric operators \(d\pi(X_j)\) on a common dense invariant domain, form the [[lie-groups/nelson-laplacian|Nelson Laplacian]] \(\Delta=-\sum_j d\pi(X_j)^2\). Essential self-adjointness of \(\Delta\), obtainable from a dense set of analytic vectors for \(\Delta\), supplies analytic vectors for the Lie-algebra action and integrates it to a unitary representation of the [[lie-groups/simply-connected-lie-group|simply connected Lie group]]. It also yields the [[lie-groups/essentially-skew-adjoint-derived-operators|essential skew-adjointness]] of the infinitesimal generators [Nelson, §§8–10](https://doi.org/10.2307/1970331).
+For a representation of a finite-dimensional real [[lie-groups/lie-algebra|Lie algebra]] by skew-symmetric operators \(d\pi(X_j)\) on a common dense invariant domain, form the [[lie-groups/nelson-laplacian|Nelson Laplacian]] \(\Delta=-\sum_j d\pi(X_j)^2\). Essential self-adjointness of \(\Delta\), obtainable from a dense set of [[lie-groups/analytic-vector-unitary-representation|analytic vectors]] for \(\Delta\), supplies analytic vectors for the Lie-algebra action and integrates it to a unitary representation of the [[lie-groups/simply-connected-lie-group|simply connected Lie group]]. It also yields the [[lie-groups/essentially-skew-adjoint-derived-operators|essential skew-adjointness]] of the infinitesimal generators [Nelson, §§8–10](https://doi.org/10.2307/1970331).
 
 ## Why analyticity matters
 

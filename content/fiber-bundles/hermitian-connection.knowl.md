@@ -12,22 +12,22 @@ Let \(E\to M\) carry a [[fiber-bundles/hermitian-metric|Hermitian metric]] \(h\)
 \[
 X\bigl(h(s,t)\bigr)=h(\nabla_Xs,t)+h(s,\nabla_Xt)
 \]
-for every smooth [[fiber-bundles/vector-field|vector field]] \(X\) and smooth local sections \(s,t\). Thus covariant differentiation is compatible with the fiberwise inner products. A Hermitian connection is also called a unitary connection once \(h\) is fixed. The condition is intrinsic and does not depend on a local frame.
+for every smooth [[fiber-bundles/vector-field|vector field]] \(X\) and smooth local sections \(s,t\). Thus covariant differentiation is compatible with the fiberwise [[linear-algebra/inner-product|inner products]]. A Hermitian connection is also called a unitary connection once \(h\) is fixed. The condition is intrinsic and does not depend on a local frame.
 
 ## Equivalent characterizations
 
 The following conditions are equivalent:
 
 1. \(\nabla h=0\), meaning the displayed compatibility identity holds.
-2. Parallel transport by \(\nabla\) along every smooth curve is a unitary linear map between the endpoint fibers.
-3. The connection on the full frame bundle restricts to a principal connection on the [[fiber-bundles/unitary-frame-bundle-reduction|unitary frame bundle]].
-4. In every local unitary frame, the connection one-form takes values in the skew-Hermitian Lie algebra \(\mathfrak u(n)\).
+2. Parallel transport by \(\nabla\) along every smooth curve is a unitary [[linear-algebra/linear-map|linear map]] between the endpoint fibers.
+3. The connection on the full frame bundle restricts to a [[fiber-bundles/principal-connection|principal connection]] on the [[fiber-bundles/unitary-frame-bundle-reduction|unitary frame bundle]].
+4. In every local unitary frame, the connection one-form takes values in the skew-Hermitian [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak u(n)\).
 
-These equivalences are the complex Hermitian analogues of metric compatibility for real vector bundles [Kobayashi, chapter I](https://doi.org/10.1515/9781400858682).
+These equivalences are the complex Hermitian analogues of metric compatibility for real [[fiber-bundles/vector-bundle|vector bundles]] [Kobayashi, chapter I](https://doi.org/10.1515/9781400858682).
 
 ## Standard constructions
 
-Every Hermitian vector bundle over a smooth paracompact manifold admits a Hermitian connection. Starting with any connection, one may correct its failure to preserve \(h\), or equivalently patch local unitary connections using a partition of unity.
+Every Hermitian vector bundle over a smooth [[fiber-bundles/paracompact-manifold|paracompact manifold]] admits a Hermitian connection. Starting with any connection, one may correct its failure to preserve \(h\), or equivalently patch local unitary connections using a partition of unity.
 
 On a [[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundle]] with Hermitian metric there is a unique Hermitian connection whose \((0,1)\)-part equals the bundle's holomorphic structure. This is the [[fiber-bundles/chern-connection|Chern connection]]; its uniqueness uses both the metric and the holomorphic structure [Kobayashi, chapter I, §4](https://doi.org/10.1515/9781400858682).
 

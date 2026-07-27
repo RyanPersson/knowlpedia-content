@@ -24,7 +24,7 @@ For \(f:\mathbb R\to\mathbb R\), \(f(x)=x^2\), the only critical point is \(0\),
 
 ## Sard's theorem
 
-Sard's theorem says that the set of critical values of a smooth map between finite-dimensional smooth manifolds has measure zero in the target, in the coordinate-invariant sense. It may nevertheless be topologically complicated or dense for maps of lower differentiability. The smooth theorem and its differentiability thresholds are presented in [Lee, chapter on Sard's theorem](https://doi.org/10.1007/978-1-4419-9982-5).
+[[differential-geometry/sards-theorem|Sard's theorem]] says that the set of critical values of a smooth map between finite-dimensional [[fiber-bundles/smooth-manifold|smooth manifolds]] has measure zero in the target, in the coordinate-invariant sense. It may nevertheless be topologically complicated or dense for maps of lower differentiability. The smooth theorem and its differentiability thresholds are presented in [Lee, chapter on Sard's theorem](https://doi.org/10.1007/978-1-4419-9982-5).
 
 ## References
 

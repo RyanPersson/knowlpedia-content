@@ -15,7 +15,7 @@ A [[operator-algebras/star-homomorphism|\(*\)-homomorphism]]
 \ker\phi=\{0\}.
 \]
 Equivalently, \(\phi(a)=0\) implies \(a=0\). Faithfulness says that no
-nonzero algebra element, and hence no nonzero closed two-sided ideal, is lost
+nonzero algebra element, and hence no nonzero closed [[algebra-rings/two-sided-ideal|two-sided ideal]], is lost
 under \(\phi\). It does not require \(\phi\) to be surjective, unital, or
 nondegenerate. When \(B=\mathcal B(H)\), this is the usual faithfulness
 condition for a [[operator-algebras/cstar-representation|representation]] of

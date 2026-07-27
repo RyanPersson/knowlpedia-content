@@ -8,7 +8,7 @@ domains = ["harmonic-analysis", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(\pi:G\to U(\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] on a complex [[linear-algebra/hilbert-space|Hilbert space]], whose inner product is linear in the first variable. For \(\xi,\eta\in\mathcal H\), the **matrix coefficient** determined by \(\xi\) and \(\eta\) is
+Let \(\pi:G\to U(\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] on a complex [[linear-algebra/hilbert-space|Hilbert space]], whose [[linear-algebra/inner-product|inner product]] is linear in the first variable. For \(\xi,\eta\in\mathcal H\), the **matrix coefficient** determined by \(\xi\) and \(\eta\) is
 \[
 c_{\xi,\eta}(g)=\langle \pi(g)\xi,\eta\rangle,\qquad g\in G.
 \]
@@ -22,7 +22,7 @@ c_{\xi,\eta}(xg)=c_{\xi,\pi(x^{-1})\eta}(g),
 \qquad
 c_{\xi,\eta}(gx)=c_{\pi(x)\xi,\eta}(g).
 \]
-Thus the coefficient space attached to a representation is stable under left and right translation. The estimate in the core is the Cauchy–Schwarz inequality together with unitarity.
+Thus the coefficient space attached to a representation is stable under left and [[lie-groups/right-translation|right translation]]. The estimate in the core is the [[linear-algebra/cauchy-schwarz-inequality|Cauchy–Schwarz inequality]] together with unitarity.
 
 ## Structural role
 

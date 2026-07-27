@@ -25,7 +25,7 @@ For a compact Kähler surface, the degree-two relation implies the Hodge index t
 
 ## Conventions and boundary cases
 
-The power \(\omega^{n-k}\) is essential: without it the integrand does not have top degree unless \(k=n\). The positivity statement is made on primitive classes; a nonprimitive class can have a different sign after Lefschetz decomposition. Authors who build \((-1)^{k(k-1)/2}\) into the definition of the bilinear form state the same theorem without displaying that factor.
+The power \(\omega^{n-k}\) is essential: without it the integrand does not have top degree unless \(k=n\). The positivity statement is made on primitive classes; a nonprimitive class can have a different sign after Lefschetz decomposition. Authors who build \((-1)^{k(k-1)/2}\) into the definition of the [[linear-algebra/bilinear-form|bilinear form]] state the same theorem without displaying that factor.
 
 ## References
 

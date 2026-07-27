@@ -14,7 +14,7 @@ Explicitly, if \(A\) is nuclear and
 \[
 0\longrightarrow I\longrightarrow B\longrightarrow B/I\longrightarrow 0
 \]
-is a [[operator-algebras/cstar-exact-sequence|short exact sequence of
+is a [[operator-algebras/cstar-exact-sequence|[[algebra-modules/short-exact-sequence|short exact sequence]] of
 \(C^*\)-algebras]], then
 \[
 0\longrightarrow I\otimes_{\min}A\longrightarrow
@@ -22,7 +22,7 @@ B\otimes_{\min}A\longrightarrow (B/I)\otimes_{\min}A
 \longrightarrow 0
 \]
 is exact. Nuclearity is strictly stronger: exactness alone neither forces the
-minimal and maximal tensor products with \(A\) to agree nor supplies
+minimal and [[operator-algebras/maximal-cstar-tensor-product|maximal tensor products]] with \(A\) to agree nor supplies
 completely positive finite-dimensional approximations
 [Brown–Ozawa, Proposition 2.3.8](https://doi.org/10.1090/gsm/088).
 
@@ -31,7 +31,7 @@ completely positive finite-dimensional approximations
 Nuclearity identifies the minimal tensor product with a tensor product whose
 quotient behavior is controlled by completely positive approximations.
 Equivalently, approximate the identity map on \(A\) pointwise in norm by
-completely positive contractions through matrix algebras. Tensoring those
+[[operator-algebras/completely-positive-contraction|completely positive contractions]] through matrix algebras. Tensoring those
 factorizations with the given extension reduces the kernel calculation to
 matrix amplifications, which preserve exactness. Passing to the point-norm
 limit proves that the kernel in \(B\otimes_{\min}A\) is exactly

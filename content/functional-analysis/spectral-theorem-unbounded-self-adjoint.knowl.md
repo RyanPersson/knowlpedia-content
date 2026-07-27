@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(A\) be a [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint
-operator]] on a complex Hilbert space \(H\). There is a unique
+operator]] on a complex [[linear-algebra/hilbert-space|Hilbert space]] \(H\). There is a unique
 [[functional-analysis/projection-valued-measure|projection-valued measure]]
 \(E_A\) on the Borel subsets of \(\mathbb R\) such that
 \[
@@ -34,7 +34,7 @@ f(A)=\int_{\mathbb R}f(\lambda)\,dE_A(\lambda)
 on the vectors \(\xi\) satisfying
 \(\int |f(\lambda)|^2\,d\langle E_A(\lambda)\xi,\xi\rangle<\infty\).
 Bounded \(f\) give bounded operators on all of \(H\); real-valued \(f\) give
-self-adjoint operators. Indicator functions yield
+self-adjoint operators. [[measure-theory/indicator-function|Indicator functions]] yield
 [[functional-analysis/spectral-projection|spectral projections]], and this
 construction extends the continuous calculus to the
 [[functional-analysis/borel-functional-calculus|Borel functional calculus]].
@@ -57,7 +57,7 @@ spectral theory
 ## Self-adjointness convention
 
 **Warning.** The theorem requires self-adjointness
-\(A=A^*\), including equality of domains. A densely defined symmetric operator
+\(A=A^*\), including equality of domains. A densely defined [[functional-analysis/symmetric-operator|symmetric operator]]
 need not have a real spectrum or a spectral resolution of this form. An
 essentially self-adjoint symmetric operator acquires the resolution only after
 passing to its self-adjoint closure. For skew-adjoint generators, the theorem

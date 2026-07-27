@@ -31,7 +31,7 @@ The algebra \(A\) is a Hilbert \(A\)-module over itself with
 \]
 A [[linear-algebra/hilbert-space|Hilbert space]] is exactly a Hilbert module
 over \(\mathbb C\). Unlike a Hilbert space, a Hilbert \(A\)-module need not have
-an orthonormal basis, and a closed submodule need not possess an orthogonal
+an [[linear-algebra/orthonormal-basis|orthonormal basis]], and a closed submodule need not possess an orthogonal
 complement.
 
 ## Adjointable and compact operators
@@ -40,7 +40,7 @@ An \(A\)-linear map \(T:E\to F\) is **adjointable** if there is an
 \(A\)-linear map \(T^*:F\to E\) satisfying
 \(\langle Tx,y\rangle_A=\langle x,T^*y\rangle_A\). Adjointable maps are
 automatically bounded, but bounded \(A\)-linear maps need not be adjointable.
-The compact operators on \(E\) are the norm closure of the span of
+The [[linear-algebra/compact-operator|compact operators]] on \(E\) are the norm closure of the span of
 \(\theta_{x,y}(z)=x\langle y,z\rangle_A\); “compact” here is a module-theoretic
 notion and need not mean compact as a Banach-space operator
 [Lance, Chapter 1](https://doi.org/10.1017/CBO9780511526206).

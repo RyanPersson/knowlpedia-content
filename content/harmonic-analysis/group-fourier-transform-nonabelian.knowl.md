@@ -33,7 +33,7 @@ organized as a measurable operator field.
 
 The transform is the
 [[harmonic-analysis/integrated-form-unitary-representation|integrated form]]
-evaluated at every irreducible representation. Consequently,
+evaluated at every [[algebra-representation-theory/irreducible-representation|irreducible representation]]. Consequently,
 \[
 \widehat{f*h}(\pi)=\widehat f(\pi)\widehat h(\pi).
 \]

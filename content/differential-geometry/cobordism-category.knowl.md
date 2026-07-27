@@ -12,7 +12,7 @@ For \(d\geq1\), the **\(d\)-dimensional cobordism category** \(\mathbf{Cob}_d\) 
 
 ## Why collars enter
 
-A [[differential-geometry/collar-neighborhood-theorem|collar]] identifies a neighborhood of each boundary component with a product. Product coordinates make two cobordisms glue to a smooth manifold and show that different compatible collar choices produce diffeomorphic composites. Passing to diffeomorphism classes removes the remaining choices and makes composition associative. Keeping embeddings and collars instead leads naturally to a topological category.
+A [[differential-geometry/collar-neighborhood-theorem|collar]] identifies a neighborhood of each boundary component with a product. Product coordinates make two cobordisms glue to a [[fiber-bundles/smooth-manifold|smooth manifold]] and show that different compatible collar choices produce diffeomorphic composites. Passing to diffeomorphism classes removes the remaining choices and makes composition associative. Keeping embeddings and collars instead leads naturally to a topological category.
 
 ## Structured variants
 
@@ -24,7 +24,7 @@ The category used in homotopy theory often retains spaces of embedded manifolds 
 
 ## Relation to field theory
 
-A \(d\)-dimensional topological quantum field theory in the Atiyah–Segal sense is a symmetric monoidal functor from an appropriately structured cobordism category to a category such as vector spaces. Gluing cobordisms becomes composition of linear maps, while disjoint union becomes tensor product. The categorical formulation makes locality under cutting and gluing an algebraic axiom [Baez–Dolan, §1](https://doi.org/10.1090/conm/230/03340).
+A \(d\)-dimensional topological quantum field theory in the Atiyah–Segal sense is a symmetric monoidal functor from an appropriately structured cobordism category to a category such as [[linear-algebra/vector-space|vector spaces]]. Gluing cobordisms becomes composition of [[linear-algebra/linear-map|linear maps]], while disjoint union becomes tensor product. The categorical formulation makes locality under cutting and gluing an algebraic axiom [Baez–Dolan, §1](https://doi.org/10.1090/conm/230/03340).
 
 ## References
 

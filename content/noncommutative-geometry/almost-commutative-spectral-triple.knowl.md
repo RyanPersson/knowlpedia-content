@@ -31,7 +31,7 @@ For a trivial finite factor, the algebra is the smooth section algebra of the
 trivial bundle \(M\times\mathcal A_F\). More general globally
 almost-commutative geometries replace it by smooth sections of a locally
 trivial bundle of finite-dimensional star-algebras and replace the product
-Dirac operator by a compatible twisted
+[[noncommutative-geometry/dirac-operator|Dirac operator]] by a compatible twisted
 [[noncommutative-geometry/dirac-type-operator|Dirac-type operator]]. This
 extension allows nontrivial internal algebra bundles while retaining a
 classical manifold as the base.
@@ -39,7 +39,7 @@ classical manifold as the base.
 ## Examples and gauge-theoretic role
 
 Taking \(\mathcal A_F=\mathbb C\), \(H_F=\mathbb C\), and \(D_F=0\) recovers
-the canonical spin spectral triple. Taking a noncommutative finite algebra,
+the canonical spin [[noncommutative-geometry/spectral-triple|spectral triple]]. Taking a noncommutative finite algebra,
 such as a sum of complex matrix algebras, gives matrix-valued functions over
 \(M\). Inner fluctuations of the product Dirac operator then split into
 ordinary gauge fields along \(M\) and finite-direction scalar fields; this is

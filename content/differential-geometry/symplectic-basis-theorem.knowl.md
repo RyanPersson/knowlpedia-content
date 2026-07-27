@@ -18,7 +18,7 @@ with
 \qquad \omega(e_i,f_j)=\delta_{ij}.
 \]
 Consequently every nondegenerate alternating form of dimension \(2n\) has the same matrix after a change of basis.
-In particular, no odd-dimensional real vector space admits a symplectic form.
+In particular, no odd-dimensional real [[linear-algebra/vector-space|vector space]] admits a symplectic form.
 
 ## Proof idea
 
@@ -30,7 +30,7 @@ The restriction of \(\omega\) to \(H_1^\omega\) is again nondegenerate. Inductio
 
 ## Consequences
 
-The decomposition into symplectic planes proves that the dimension is even. It also shows that two symplectic vector spaces over the same field are [[differential-geometry/linear-symplectomorphism|linearly symplectomorphic]] exactly when they have the same dimension. In particular, finite-dimensional symplectic linear algebra has no signature invariant analogous to that of a real symmetric bilinear form.
+The decomposition into symplectic planes proves that the dimension is even. It also shows that two symplectic vector spaces over the same field are [[differential-geometry/linear-symplectomorphism|linearly symplectomorphic]] exactly when they have the same dimension. In particular, finite-dimensional symplectic linear algebra has no signature invariant analogous to that of a real symmetric [[linear-algebra/bilinear-form|bilinear form]].
 
 ## Hypotheses and terminology
 

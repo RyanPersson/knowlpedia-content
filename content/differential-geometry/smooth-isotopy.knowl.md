@@ -12,11 +12,11 @@ Let \(f_0,f_1:M\to N\) be [[fiber-bundles/smooth-embedding|smooth embeddings]] b
 
 ## Relation to homotopy
 
-Every isotopy is a [[differential-geometry/smooth-homotopy|smooth homotopy]], but the converse need not hold: intermediate maps in a homotopy may develop self-intersections, lose rank, or cease to be invertible. Isotopy therefore records deformation within a geometrically constrained class rather than merely deformation through arbitrary continuous or smooth maps.
+Every isotopy is a [[differential-geometry/smooth-homotopy|smooth homotopy]], but the converse need not hold: intermediate maps in a homotopy may develop self-intersections, lose rank, or cease to be invertible. Isotopy therefore records deformation within a geometrically constrained class rather than merely deformation through arbitrary continuous or [[fiber-bundles/smooth-map|smooth maps]].
 
 ## Ambient isotopy
 
-An ambient isotopy of \(N\) is a smooth family of diffeomorphisms \(\Phi_t:N\to N\) with \(\Phi_0=\operatorname{id}_N\). It carries an embedding \(f_0\) to \(f_t=\Phi_t\circ f_0\). The [[differential-geometry/isotopy-extension-theorem|isotopy extension theorem]] gives hypotheses under which an isotopy of embeddings extends to an ambient isotopy; see [Hirsch, Chapter 8](https://doi.org/10.1007/978-1-4684-9449-5).
+An [[differential-geometry/ambient-isotopy|ambient isotopy]] of \(N\) is a smooth family of diffeomorphisms \(\Phi_t:N\to N\) with \(\Phi_0=\operatorname{id}_N\). It carries an embedding \(f_0\) to \(f_t=\Phi_t\circ f_0\). The [[differential-geometry/isotopy-extension-theorem|isotopy extension theorem]] gives hypotheses under which an isotopy of embeddings extends to an ambient isotopy; see [Hirsch, Chapter 8](https://doi.org/10.1007/978-1-4684-9449-5).
 
 ## Conventions and examples
 

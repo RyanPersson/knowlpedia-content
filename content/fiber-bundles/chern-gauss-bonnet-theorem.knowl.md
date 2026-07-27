@@ -24,7 +24,7 @@ orientation.
 
 ## Why the equality is topological
 
-The Pfaffian is an invariant polynomial on the even-dimensional orthogonal Lie algebra. Chern–Weil theory therefore makes the displayed Euler form closed and identifies its de Rham class with the [[fiber-bundles/euler-class|Euler class]] of \(TM\). Evaluation on the [[topology/fundamental-class|fundamental class]] is independent of the metric and connection. The remaining equality with \(\chi(M)\) is the topological characterization of the Euler number.
+The Pfaffian is an invariant polynomial on the even-dimensional [[lie-groups/orthogonal-lie-algebra|orthogonal Lie algebra]]. Chern–Weil theory therefore makes the displayed Euler form closed and identifies its de Rham class with the [[fiber-bundles/euler-class|Euler class]] of \(TM\). Evaluation on the [[topology/fundamental-class|fundamental class]] is independent of the metric and connection. The remaining equality with \(\chi(M)\) is the topological characterization of the Euler number.
 
 Chern’s intrinsic proof transgresses the Euler form to the unit tangent
 [[fiber-bundles/sphere-bundle|sphere bundle]] and applies Stokes’s theorem

@@ -39,7 +39,7 @@ conventions encoded by an
 
 An [[noncommutative-geometry/even-spectral-triple|even spectral triple]]
 \((\mathcal A,H,D,\Gamma)\) requires the represented algebra to act evenly,
-\([\Gamma,\pi(a)]=0\), and the Dirac operator to act oddly,
+\([\Gamma,\pi(a)]=0\), and the [[noncommutative-geometry/dirac-operator|Dirac operator]] to act oddly,
 \(\Gamma D=-D\Gamma\) on \(\operatorname{Dom}(D)\). The latter statement
 includes invariance of the domain under \(\Gamma\). By contrast, an
 [[noncommutative-geometry/odd-spectral-triple|odd spectral triple]] normally

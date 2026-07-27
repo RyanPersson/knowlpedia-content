@@ -18,8 +18,8 @@ U\pi(a)=\rho(a)U\qquad(a\in A).
 \]
 Equivalently, \(\rho(a)=U\pi(a)U^*\) for every \(a\). The unitary \(U\) is an
 intertwiner, and it identifies the representations together with their
-Hilbert-space inner products. Similarity by a merely bounded invertible
-operator is not the equivalence relation defined here.
+Hilbert-space [[linear-algebra/inner-product|inner products]]. Similarity by a merely bounded invertible
+operator is not the [[shared-foundations/equivalence-relation|equivalence relation]] defined here.
 
 ## Equivalence relation
 
@@ -39,7 +39,7 @@ decompositions. Moreover, their
 U\pi(A)'U^*=\rho(A)',
 \]
 so they are spatially isomorphic. These basic invariances are part of the
-standard representation theory developed in
+[[operator-algebras/standard-form|standard representation]] theory developed in
 [Pedersen, Chapter 3](https://doi.org/10.1016/C2016-0-03431-9).
 
 ## Pointed cyclic representations

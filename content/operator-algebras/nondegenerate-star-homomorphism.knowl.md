@@ -50,7 +50,7 @@ correspondences, and covariant representations
 
 If \(A\) is unital, nondegeneracy is equivalent to
 \(\varphi(1_A)=1_{M(B)}\). A representation is degenerate precisely when the
-orthogonal complement of \(\overline{\pi(A)H}\) is nonzero; restricting to the
+[[linear-algebra/orthogonal-complement|orthogonal complement]] of \(\overline{\pi(A)H}\) is nonzero; restricting to the
 essential subspace \(\overline{\pi(A)H}\) produces a nondegenerate
 representation. A zero map into a nonzero target is degenerate, while a map
 into the zero algebra is sensitive to the convention adopted for its identity.

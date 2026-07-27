@@ -25,7 +25,7 @@ For \(\mathbb Z^d\), the boxes \(F_n=\{-n,\ldots,n\}^d\) form a Følner sequence
 
 ## Conventions and scope
 
-Some formulations use \(\mu(CF_i\mathbin{\triangle}F_i)\), others demand uniformity over \(g\in C\), and still others use the equivalent Leptin growth condition. Nets are the natural general form; the existence of a sequence can require countability assumptions. Right Følner conditions must account for the modular function when right translation does not preserve left Haar measure.
+Some formulations use \(\mu(CF_i\mathbin{\triangle}F_i)\), others demand uniformity over \(g\in C\), and still others use the equivalent Leptin growth condition. Nets are the natural general form; the existence of a sequence can require countability assumptions. Right Følner conditions must account for the modular function when [[lie-groups/right-translation|right translation]] does not preserve left Haar measure.
 
 ## References
 

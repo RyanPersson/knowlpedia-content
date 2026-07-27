@@ -16,7 +16,7 @@ where \(V\) is a \(g\)-dimensional complex [[linear-algebra/vector-space|vector 
 
 ## Geometry and topology
 
-As a real smooth manifold, every \(g\)-dimensional complex torus is diffeomorphic to \((S^1)^{2g}\). A translation-invariant Hermitian [[linear-algebra/inner-product|inner product]] on \(V\) descends to a flat [[differential-geometry/kahler-metric|Kähler metric]] on \(X\). Translation-invariant holomorphic one-forms also descend and trivialize the [[differential-geometry/holomorphic-cotangent-bundle|holomorphic cotangent bundle]].
+As a real [[fiber-bundles/smooth-manifold|smooth manifold]], every \(g\)-dimensional complex torus is diffeomorphic to \((S^1)^{2g}\). A translation-invariant Hermitian [[linear-algebra/inner-product|inner product]] on \(V\) descends to a flat [[differential-geometry/kahler-metric|Kähler metric]] on \(X\). Translation-invariant holomorphic one-forms also descend and trivialize the [[differential-geometry/holomorphic-cotangent-bundle|holomorphic cotangent bundle]].
 
 These properties follow directly from the quotient presentation and are summarized in [Birkenhake–Lange, Chapter 1](https://doi.org/10.1007/978-1-4612-1566-0).
 

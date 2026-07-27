@@ -22,7 +22,7 @@ where \(G\) acts on the [[fiber-bundles/representation-variety|representation va
 
 ## Closed-orbit interpretation
 
-The quotient map is constant on conjugacy orbits, but it need not distinguish all of them. Each [[algebraic-geometry-foundations/closed-point|closed point]] of \(X_G(\Gamma)\) corresponds to a unique closed orbit contained in an orbit closure. For \(G=\operatorname{GL}_n\), the closed orbits are the completely reducible representations. This geometric-invariant-theory interpretation is established in [Sikora, §§7 and 11](https://doi.org/10.1090/S0002-9947-2012-05448-1).
+The quotient map is constant on conjugacy orbits, but it need not distinguish all of them. Each [[algebraic-geometry-foundations/closed-point|closed point]] of \(X_G(\Gamma)\) corresponds to a unique closed orbit contained in an orbit closure. For \(G=\operatorname{GL}_n\), the closed orbits are the [[algebra-representation-theory/completely-reducible-representation|completely reducible representations]]. This geometric-invariant-theory interpretation is established in [Sikora, §§7 and 11](https://doi.org/10.1090/S0002-9947-2012-05448-1).
 
 ## Relation to flat connections
 
@@ -30,9 +30,9 @@ When \(\Gamma=\pi_1(M,x)\), conjugation records the change of a framing in the f
 
 ## Examples and scope
 
-For \(\Gamma=\mathbb Z\), the [[fiber-bundles/representation-variety|representation variety]] is \(G\), and the character variety is the affine quotient \(G\mathbin{/\mkern-6mu/}G\) by conjugation. For \(G=\operatorname{GL}_n\), invariant functions include traces of words in the images of generators.
+For \(\Gamma=\mathbb Z\), the [[fiber-bundles/representation-variety|representation variety]] is \(G\), and the character variety is the affine quotient \(G\mathbin{/\mkern-6mu/}G\) by conjugation. For \(G=\operatorname{GL}_n\), [[fiber-bundles/invariant-function|invariant functions]] include traces of words in the images of generators.
 
-**Warning.** The character variety is not generally the set-theoretic [[fiber-bundles/quotient-space-of-an-action|orbit space]] \(\operatorname{Hom}(\Gamma,G)/G\). In compact-group topology that orbit space may be the intended moduli space, but it is a different construction unless an explicit comparison theorem applies.
+**Warning.** The character variety is not generally the set-theoretic [[fiber-bundles/quotient-space-of-an-action|orbit space]] \(\operatorname{Hom}(\Gamma,G)/G\). In compact-group topology that [[lie-groups/orbit-space|orbit space]] may be the intended moduli space, but it is a different construction unless an explicit comparison theorem applies.
 
 ## References
 

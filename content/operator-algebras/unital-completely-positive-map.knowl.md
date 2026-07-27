@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(A\) and \(B\) be
 [[operator-algebras/unital-cstar-algebra|unital \(C^*\)-algebras]]. A
 **unital completely positive map**, or **UCP map**, is a
-[[operator-algebras/completely-positive-map|completely positive]] linear map
+[[operator-algebras/completely-positive-map|completely positive]] [[linear-algebra/linear-map|linear map]]
 \(\Phi:A\to B\) satisfying
 \[
 \Phi(1_A)=1_B.
@@ -25,13 +25,13 @@ used for operator systems and for Heisenberg-picture quantum operations.
 ## Contractivity and the Schwarz inequality
 
 Every UCP map has norm one and is contractive. It also satisfies the
-Kadison–Schwarz inequality
+[[operator-algebras/kadison-schwarz-inequality|Kadison–Schwarz inequality]]
 \[
 \Phi(a)^*\Phi(a)\leq\Phi(a^*a)\qquad(a\in A).
 \]
 Complete positivity is stronger than needed for this inequality—unital
 \(2\)-positivity suffices—but it supplies stable matrix-level control.
-Compositions and convex combinations of UCP maps are again UCP
+Compositions and [[convex-analysis/convex-combination|convex combinations]] of UCP maps are again UCP
 [Paulsen, Chapters 2–3](https://doi.org/10.1017/CBO9780511546631).
 
 The elements \(a\) for which equality holds both for \(a^*a\) and \(aa^*\)

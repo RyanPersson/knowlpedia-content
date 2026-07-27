@@ -19,7 +19,7 @@ equipped with the **[[operator-algebras/hull-kernel-topology|hull–kernel topol
 \operatorname{hull}(S)=\{P\in\operatorname{Prim}(A):S\subseteq P\}.
 \]
 The closed subsets are exactly the sets \(\operatorname{hull}(I)\), where
-\(I\) ranges over closed two-sided ideals of \(A\). Equivalently, for
+\(I\) ranges over closed [[algebra-rings/two-sided-ideal|two-sided ideals]] of \(A\). Equivalently, for
 \(Y\subseteq\operatorname{Prim}(A)\),
 \[
 \overline Y=\operatorname{hull}\left(\bigcap_{P\in Y}P\right).
@@ -51,7 +51,7 @@ representations]] of \(A\). The kernel map
 \]
 is always surjective, but it need not be injective. For
 [[operator-algebras/type-i-cstar-algebra|type I \(C^*\)-algebras]], an
-irreducible representation is determined up to unitary equivalence by its
+[[algebra-representation-theory/irreducible-representation|irreducible representation]] is determined up to unitary equivalence by its
 kernel, so the distinction disappears at the level of sets
 [Pedersen, chapter on type I algebras](https://doi.org/10.1016/C2016-0-03431-9).
 

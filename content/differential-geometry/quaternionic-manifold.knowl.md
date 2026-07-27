@@ -12,7 +12,7 @@ Let \(M\) have real dimension \(4n\) with \(n\geq2\). A **quaternionic manifold*
 \[
 \nabla_XA\in\Gamma(Q)
 \]
-for every vector field \(X\) and every local section \(A\in\Gamma(Q)\). Such a \(\nabla\) is called a quaternionic connection. Preservation of \(Q\) does not require a chosen local admissible triple \((I,J,K)\) to be individually parallel; the connection may rotate that triple within \(Q\). The existence of \(\nabla\), not its choice, is part of the definition.
+for every [[fiber-bundles/vector-field|vector field]] \(X\) and every local section \(A\in\Gamma(Q)\). Such a \(\nabla\) is called a quaternionic connection. Preservation of \(Q\) does not require a chosen local admissible triple \((I,J,K)\) to be individually parallel; the connection may rotate that triple within \(Q\). The existence of \(\nabla\), not its choice, is part of the definition.
 
 ## Integrability and intrinsic torsion
 

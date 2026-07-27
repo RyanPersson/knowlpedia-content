@@ -16,7 +16,7 @@ The submanifold \(C\) is **coisotropic** if
 \[
 (T_pC)^\omega\subseteq T_pC
 \]
-at every \(p\in C\); equivalently, every \(T_pC\) is a [[differential-geometry/coisotropic-subspace|coisotropic subspace]] of \(T_pM\). The kernel of the restricted form \(\omega|_{T_pC}\) is exactly \((T_pC)^\omega\). Thus coisotropy says that all null directions of the restricted form are tangent to \(C\). It depends on the ambient form, not only on the smooth embedding.
+at every \(p\in C\); equivalently, every \(T_pC\) is a [[differential-geometry/coisotropic-subspace|coisotropic subspace]] of \(T_pM\). The kernel of the restricted form \(\omega|_{T_pC}\) is exactly \((T_pC)^\omega\). Thus coisotropy says that all null directions of the restricted form are tangent to \(C\). It depends on the ambient form, not only on the [[fiber-bundles/smooth-embedding|smooth embedding]].
 
 ## Dimension and local structure
 
@@ -32,7 +32,7 @@ A proper [[differential-geometry/symplectic-submanifold|symplectic submanifold]]
 
 ## Role in reduction
 
-The leaf space of the characteristic foliation is the candidate [[differential-geometry/classical-phase-space|reduced phase space]]. When that leaf space is a smooth manifold and the quotient map is a submersion, there is a unique symplectic form downstairs whose pullback is \(\omega|_C\). Without these regularity hypotheses, the quotient may be singular or non-Hausdorff, even though \(C\) is a perfectly smooth coisotropic submanifold.
+The leaf space of the characteristic foliation is the candidate [[differential-geometry/classical-phase-space|reduced phase space]]. When that leaf space is a [[fiber-bundles/smooth-manifold|smooth manifold]] and the quotient map is a submersion, there is a unique symplectic form downstairs whose pullback is \(\omega|_C\). Without these regularity hypotheses, the quotient may be singular or non-Hausdorff, even though \(C\) is a perfectly smooth coisotropic submanifold.
 
 ## References
 

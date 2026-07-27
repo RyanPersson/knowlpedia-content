@@ -8,7 +8,7 @@ domains = ["harmonic-analysis", "operator-algebras"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a locally compact group and let \(\lambda\) be its left
+Let \(G\) be a [[topology/locally-compact-group|locally compact group]] and let \(\lambda\) be its left
 [[harmonic-analysis/regular-representations-locally-compact-group|regular
 representation]] on \(L^2(G)\). The **Fourier algebra** \(A(G)\) consists of
 the [[harmonic-analysis/coefficient-function|coefficient functions]]
@@ -58,7 +58,7 @@ with \(L^1(G)\) itself.
 The [[harmonic-analysis/fourier-stieltjes-algebra|Fourier–Stieltjes algebra]]
 \(B(G)\) uses coefficient functions of all
 continuous unitary representations of \(G\), whereas \(A(G)\) uses only the
-left regular representation. Hence \(A(G)\subseteq B(G)\). The smaller
+left [[algebra-representation-theory/regular-representation|regular representation]]. Hence \(A(G)\subseteq B(G)\). The smaller
 algebra is a closed ideal in \(B(G)\) and is tailored to the regular
 representation and the [[operator-algebras/group-von-neumann-algebra|group von Neumann algebra]], rather than to the full
 group \(C^*\)-algebra.
@@ -70,7 +70,7 @@ For a discrete group, functions in \(A(G)\) still vanish at infinity, but
 theory describes \(A(G)\) through matrix coefficients of irreducible
 representations with a weighted trace-class norm. These examples show that
 the \(A(G)\)-norm is representation-theoretic rather than a pointwise or
-supremum norm.
+[[real-analysis/supremum-norm|supremum norm]].
 
 ## References
 

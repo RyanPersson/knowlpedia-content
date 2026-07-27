@@ -32,7 +32,7 @@ f^*:H^k(Y;A)\to H^k(X;A),
 \]
 so singular cohomology is contravariant in the space. Homotopic maps induce the same pullback. Consequently, [[topology/homotopy-equivalence|homotopy-equivalent spaces]] have isomorphic singular cohomology groups.
 
-For a fixed \(X\), a homomorphism of coefficient groups \(A\to B\) induces \(H^k(X;A)\to H^k(X;B)\). When \(A=R\) is a [[algebra-rings/commutative-ring|commutative ring]], cup products make
+For a fixed \(X\), a homomorphism of coefficient groups \(A\to B\) induces \(H^k(X;A)\to H^k(X;B)\). When \(A=R\) is a [[algebra-rings/commutative-ring|commutative ring]], [[topology/cup-product-and-cohomology-ring|cup products]] make
 \[
 H^*(X;R)=\bigoplus_{k\ge0}H^k(X;R)
 \]
@@ -57,7 +57,7 @@ for \(n>0\).
 
 The notation \(H^k(X)\) often means \(H^k(X;\mathbb Z)\), but coefficients should be stated when ambiguity matters. Integral, rational, real, and finite-field coefficients can reveal different information. Reduced cohomology modifies degree zero so that a point has zero cohomology in every degree. Relative cohomology \(H^k(X,B;A)\) records the topology of a pair \(B\subseteq X\) and participates in a long exact sequence.
 
-For a [[fiber-bundles/smooth-manifold|smooth manifold]], integration of differential forms gives the de Rham comparison isomorphism
+For a [[fiber-bundles/smooth-manifold|smooth manifold]], [[differential-geometry/integration-of-differential-forms|integration of differential forms]] gives the de Rham comparison isomorphism
 \[
 H^k_{\mathrm{dR}}(M)\cong H^k(M;\mathbb R).
 \]

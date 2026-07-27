@@ -31,7 +31,7 @@ Therefore \(C^\infty(M)\), with pointwise multiplication and this bracket, is a 
 
 ## Vector fields and dynamics
 
-With the plus-sign Hamiltonian convention, the correspondence from functions to vector fields is a Lie algebra anti-homomorphism:
+With the plus-sign Hamiltonian convention, the correspondence from functions to [[fiber-bundles/vector-field|vector fields]] is a [[lie-groups/lie-algebra|Lie algebra]] anti-homomorphism:
 \[
 X_{\{f,g\}}=-[X_f,X_g].
 \]

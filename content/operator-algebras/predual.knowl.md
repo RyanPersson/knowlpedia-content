@@ -40,8 +40,8 @@ of the trace class.
 
 ## Positive and normal functionals
 
-Positive elements of \(M_*\) are exactly the normal positive functionals on
-\(M\). Every element of \(M_*\) is a linear combination of normal positive
+Positive elements of \(M_*\) are exactly the normal [[operator-algebras/positive-linear-functional|positive functionals]] on
+\(M\). Every element of \(M_*\) is a [[convex-analysis/linear-combination|linear combination]] of normal positive
 functionals, and [[operator-algebras/normal-state|normal states]] are the
 positive elements of norm one. This order structure makes monotone
 convergence inside \(M\) visible to its predual.
@@ -50,7 +50,7 @@ convergence inside \(M\) visible to its predual.
 
 The full Banach dual \(M^*\) usually contains singular functionals that are
 not ultraweakly continuous. Thus \(M_*\) must not be confused with \(M^*\).
-Weak-star compactness, normal representations, and integration theory for
+Weak-star compactness, [[operator-algebras/normal-representation|normal representations]], and integration theory for
 von Neumann algebras use the dual pair \((M,M_*)\), not the larger pairing
 \((M,M^*)\).
 

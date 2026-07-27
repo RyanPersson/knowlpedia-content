@@ -20,13 +20,13 @@ is maximal compact, and its [[lie-groups/lie-algebra|Lie algebra]] is the \(+1\)
 [[lie-groups/cartan-decomposition-real-reductive-lie-algebra|Cartan
 decomposition]] \(\mathfrak g=\mathfrak k\oplus\mathfrak p\). Conversely,
 after conjugacy, maximal compact subgroups arise this way. Hence \(K\) is not
-canonical as a subgroup, but its conjugacy class is canonical.
+canonical as a subgroup, but its [[algebra-groups/conjugacy-class|conjugacy class]] is canonical.
 
 ## Conjugacy and topology
 
 Every compact subgroup of \(G\) is contained in a maximal compact subgroup,
 and any two maximal compact subgroups are conjugate in \(G\). Moreover, the
-inclusion \(K\hookrightarrow G\) is a homotopy equivalence in the standard
+inclusion \(K\hookrightarrow G\) is a [[topology/homotopy-equivalence|homotopy equivalence]] in the standard
 Cartan setting because \(G\) is diffeomorphic to \(K\times\mathfrak p\).
 Thus many topological invariants of \(G\) can be computed from \(K\)
 [Knapp, Chapter VI, §4](https://link.springer.com/book/9780817642594).

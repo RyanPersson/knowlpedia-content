@@ -28,7 +28,7 @@ Over a trivializing open set \(U\), a local frame identifies
 \]
 Thus the section module is locally free of rank \(r=\operatorname{rank}E\). Globally it need not possess a basis: a global module basis would be a global frame and would trivialize \(E\).
 
-Evaluation at \(x\) gives a surjective linear map \(\Gamma^\infty(M,E)\to E_x\). Its kernel consists of sections vanishing at \(x\), and the fiber can be recovered algebraically as
+Evaluation at \(x\) gives a surjective [[linear-algebra/linear-map|linear map]] \(\Gamma^\infty(M,E)\to E_x\). Its kernel consists of sections vanishing at \(x\), and the fiber can be recovered algebraically as
 \[
 E_x\cong \Gamma^\infty(M,E)/\mathfrak m_x\Gamma^\infty(M,E),
 \]
@@ -41,7 +41,7 @@ A smooth [[fiber-bundles/vector-bundle-morphism|vector bundle morphism]] \(\Phi:
 \Gamma(\Phi):\Gamma^\infty(M,E)\to\Gamma^\infty(M,F),
 \qquad s\mapsto\Phi\circ s.
 \]
-Conversely, \(C^\infty(M)\)-linear maps between section modules arise from unique smooth bundle morphisms under the standard finite-rank hypotheses. This correspondence is one part of the smooth Serre–Swan viewpoint.
+Conversely, \(C^\infty(M)\)-linear maps between section modules arise from unique smooth [[fiber-bundles/bundle-morphism|bundle morphisms]] under the standard finite-rank hypotheses. This correspondence is one part of the smooth Serre–Swan viewpoint.
 
 ## Relation to Serre–Swan
 

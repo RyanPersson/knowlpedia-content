@@ -28,7 +28,7 @@ The disk \(D^{n+1}\) is a cobordism from the empty manifold to \(S^n\), so a sph
 
 ## Conventions and scope
 
-Some authors use **bordism** for the geometric manifold \(W\) and **cobordism** for the induced equivalence relation; others use the words interchangeably. This knowl follows the common differential-topology usage in which \(W\) is a cobordism. Boundary components may be empty, permitting cobordisms to or from the empty manifold.
+Some authors use **bordism** for the geometric manifold \(W\) and **cobordism** for the induced [[shared-foundations/equivalence-relation|equivalence relation]]; others use the words interchangeably. This knowl follows the common differential-topology usage in which \(W\) is a cobordism. Boundary components may be empty, permitting cobordisms to or from the empty manifold.
 
 ## References
 

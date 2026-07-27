@@ -8,12 +8,12 @@ domains = ["differential-geometry", "topology"]
 section_mode = "progressive"
 +++
 
-Let \(V\) be an \(n\)-dimensional real vector space and \(1\leq k\leq n\). The **oriented Grassmannian**
+Let \(V\) be an \(n\)-dimensional real [[linear-algebra/vector-space|vector space]] and \(1\leq k\leq n\). The **oriented Grassmannian**
 \[
 \widetilde{\operatorname{Gr}}_k(V)
 =\{(W,o):W\in\operatorname{Gr}_k(V),\ o\text{ is an orientation of }W\}
 \]
-is the smooth manifold of oriented \(k\)-dimensional subspaces of \(V\). Forgetting \(o\) defines a smooth two-sheeted covering
+is the [[fiber-bundles/smooth-manifold|smooth manifold]] of oriented \(k\)-dimensional subspaces of \(V\). Forgetting \(o\) defines a smooth two-sheeted covering
 \[
 \widetilde{\operatorname{Gr}}_k(V)\longrightarrow
 \operatorname{Gr}_k(V).
@@ -22,7 +22,7 @@ The target is the [[differential-geometry/grassmannian|ordinary real Grassmannia
 
 ## Homogeneous-space model
 
-Choose an orientation and inner product on \(V\cong\mathbb R^n\). For \(0<k<n\), the special orthogonal group acts transitively, and the stabilizer of a reference oriented plane is \(SO(k)\times SO(n-k)\). Hence
+Choose an orientation and [[linear-algebra/inner-product|inner product]] on \(V\cong\mathbb R^n\). For \(0<k<n\), the [[lie-groups/special-orthogonal-group|special orthogonal group]] acts transitively, and the stabilizer of a reference oriented plane is \(SO(k)\times SO(n-k)\). Hence
 \[
 \widetilde{\operatorname{Gr}}_k(\mathbb R^n)
 \cong SO(n)/(SO(k)\times SO(n-k)).
@@ -31,7 +31,7 @@ The corresponding quotient for the ordinary Grassmannian uses \(S(O(k)\times O(n
 
 ## Tautological orientation and universal role
 
-The pullback of the [[differential-geometry/tautological-bundle-grassmannian|tautological rank-\(k\) bundle]] from \(\operatorname{Gr}_k(V)\) has fiber \(W\) over \((W,o)\), equipped with the orientation \(o\). It is therefore canonically an [[fiber-bundles/orientation-of-a-real-vector-bundle|oriented vector bundle]]. In the stable limit, oriented Grassmannians serve as classifying spaces for oriented real vector bundles, and the tautological orientation supports the [[fiber-bundles/euler-class|Euler class]] and oriented characteristic constructions; see [Milnor–Stasheff, §§5 and 9](https://doi.org/10.1515/9781400881826).
+The pullback of the [[differential-geometry/tautological-bundle-grassmannian|tautological rank-\(k\) bundle]] from \(\operatorname{Gr}_k(V)\) has fiber \(W\) over \((W,o)\), equipped with the orientation \(o\). It is therefore canonically an [[fiber-bundles/orientation-of-a-real-vector-bundle|oriented vector bundle]]. In the stable limit, oriented Grassmannians serve as classifying spaces for oriented real [[fiber-bundles/vector-bundle|vector bundles]], and the tautological orientation supports the [[fiber-bundles/euler-class|Euler class]] and oriented characteristic constructions; see [Milnor–Stasheff, §§5 and 9](https://doi.org/10.1515/9781400881826).
 
 ## Examples and boundary cases
 

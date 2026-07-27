@@ -12,7 +12,7 @@ Let \(G\) be a [[topology/topological-group|topological group]] and \(\mathcal H
 \[
 \pi:G\longrightarrow \mathcal U(\mathcal H)
 \]
-such that, for every \(\xi\in\mathcal H\), the orbit map \(g\mapsto\pi(g)\xi\) is continuous in the norm of \(\mathcal H\). Thus “strongly” refers to pointwise norm continuity of the operators, not norm continuity of \(g\mapsto\pi(g)\) in the [[linear-algebra/operator-norm|operator norm]]. The representation is unitary because every \(\pi(g)\) preserves the Hilbert-space inner product.
+such that, for every \(\xi\in\mathcal H\), the [[fiber-bundles/orbit-map|orbit map]] \(g\mapsto\pi(g)\xi\) is continuous in the norm of \(\mathcal H\). Thus “strongly” refers to pointwise norm continuity of the operators, not norm continuity of \(g\mapsto\pi(g)\) in the [[linear-algebra/operator-norm|operator norm]]. The representation is unitary because every \(\pi(g)\) preserves the Hilbert-space [[linear-algebra/inner-product|inner product]].
 
 ## Equivalent continuity tests
 
@@ -20,11 +20,11 @@ Strong continuity is equivalent to continuity of the action map \(G\times\mathca
 
 ## Examples and consequences
 
-Every norm-continuous homomorphism \(G\to\mathcal U(\mathcal H)\) is strongly continuous, but the converse can fail in infinite dimension. For a [[topology/locally-compact-group|locally compact group]], the left regular representation on \(L^2(G)\), given by \((\lambda(g)f)(x)=f(g^{-1}x)\), is strongly continuous. Strong continuity is precisely the regularity needed to obtain [[lie-groups/infinitesimal-generator-unitary-representation|infinitesimal generators]] from [[lie-groups/one-parameter-subgroup|one-parameter subgroups]].
+Every norm-continuous homomorphism \(G\to\mathcal U(\mathcal H)\) is strongly continuous, but the converse can fail in infinite dimension. For a [[topology/locally-compact-group|locally compact group]], the left [[algebra-representation-theory/regular-representation|regular representation]] on \(L^2(G)\), given by \((\lambda(g)f)(x)=f(g^{-1}x)\), is strongly continuous. Strong continuity is precisely the regularity needed to obtain [[lie-groups/infinitesimal-generator-unitary-representation|infinitesimal generators]] from [[lie-groups/one-parameter-subgroup|one-parameter subgroups]].
 
 ## Conventions and scope
 
-Some authors say simply “unitary representation” and include strong continuity in the term. For a discrete group the condition is automatic. A finite-dimensional representation of a Lie group is often formulated using smoothness; the present notion is designed to include infinite-dimensional Hilbert spaces and does not assert operator-norm continuity.
+Some authors say simply “unitary representation” and include strong continuity in the term. For a discrete group the condition is automatic. A finite-dimensional [[lie-groups/representation-of-a-lie-group|representation of a Lie group]] is often formulated using smoothness; the present notion is designed to include infinite-dimensional Hilbert spaces and does not assert operator-norm continuity.
 
 ## References
 

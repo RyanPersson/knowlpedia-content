@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]].
 The **unique predual theorem** states that its
-[[operator-algebras/predual|predual]] \(M_*\) is the unique Banach space
+[[operator-algebras/predual|predual]] \(M_*\) is the unique [[linear-algebra/banach-space|Banach space]]
 predual of \(M\), up to the canonical isometric isomorphism compatible with
 the dual pairing. More explicitly, if a Banach space \(E\) and a linear
 isometry \(\Phi:M\to E^*\) exhibit \(M\) as a dual Banach space, then \(E\)
@@ -34,9 +34,9 @@ Because the weak-star topology is unique, weak-star continuous functionals
 on \(M\) are exactly the
 [[operator-algebras/normal-functional|normal functionals]], independently of
 which dual presentation is initially chosen. Weak-star continuous
-\(*\)-homomorphisms, normal states, and weak-star compactness are therefore
+\(*\)-homomorphisms, [[operator-algebras/normal-state|normal states]], and weak-star compactness are therefore
 intrinsic notions rather than artifacts of a concrete representation on a
-Hilbert space.
+[[linear-algebra/hilbert-space|Hilbert space]].
 
 ## Context and caution
 

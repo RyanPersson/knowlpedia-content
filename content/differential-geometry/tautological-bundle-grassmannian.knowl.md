@@ -25,7 +25,7 @@ Conversely, every pullback of \(\mathcal S\) is such a subbundle. This finite-di
 
 ## Exact sequence and characteristic classes
 
-The inclusion and quotient fit into the canonical short exact sequence
+The inclusion and quotient fit into the canonical [[algebra-modules/short-exact-sequence|short exact sequence]]
 \[
 0\longrightarrow\mathcal S\longrightarrow
 \operatorname{Gr}_k(V)\times V\longrightarrow\mathcal Q\longrightarrow0.

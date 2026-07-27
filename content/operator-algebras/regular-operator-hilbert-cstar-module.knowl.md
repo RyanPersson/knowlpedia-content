@@ -21,7 +21,7 @@ is dense in \(E\). The adjoint is defined by requiring
 \(\langle Tx,y\rangle=\langle x,T^*y\rangle\) for every
 \(x\in\operatorname{Dom}(T)\). A regular operator is **self-adjoint** when
 \(T=T^*\), including equality of domains. Regularity is additional structure
-in Hilbert-module theory; closed densely defined operators need not be
+in Hilbert-module theory; closed [[functional-analysis/densely-defined-operator|densely defined operators]] need not be
 regular.
 
 ## Graph and bounded transform
@@ -44,9 +44,9 @@ functional calculus used in unbounded \(KK\)-theory
 For a self-adjoint regular \(T\), the operators \(T\pm i\) have bounded
 adjointable inverses \(E\to\operatorname{Dom}(T)\subset E\), and continuous
 functional calculus is available for functions on \(\mathbb R\). Conversely,
-a closed symmetric operator whose \(T+i\) and \(T-i\) have dense range is
+a closed [[functional-analysis/symmetric-operator|symmetric operator]] whose \(T+i\) and \(T-i\) have dense range is
 self-adjoint and regular. These range conditions replace Hilbert-space
-arguments that would otherwise rely on automatic orthogonal complements.
+arguments that would otherwise rely on automatic [[linear-algebra/orthogonal-complement|orthogonal complements]].
 
 ## Comparison with Hilbert spaces
 

@@ -8,7 +8,7 @@ domains = ["harmonic-analysis", "operator-algebras"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a locally compact group, let \(1_G\) denote its one-dimensional trivial unitary representation, and let \(\lambda_G\) be its left [[harmonic-analysis/regular-representations-locally-compact-group|regular representation]] on \(L^2(G)\). The **Hulanicki–Reiter criterion** states that
+Let \(G\) be a [[topology/locally-compact-group|locally compact group]], let \(1_G\) denote its one-dimensional trivial unitary representation, and let \(\lambda_G\) be its left [[harmonic-analysis/regular-representations-locally-compact-group|regular representation]] on \(L^2(G)\). The **Hulanicki–Reiter criterion** states that
 \[
 G\text{ is amenable}\quad\Longleftrightarrow\quad
 1_G\prec\lambda_G,
@@ -17,11 +17,11 @@ where \(\prec\) denotes [[harmonic-analysis/weak-containment-unitary-representat
 \[
 \sup_{g\in C}\lVert\lambda_G(g)\xi_i-\xi_i\rVert_2\longrightarrow0
 \]
-for every compact \(C\subseteq G\). Thus amenability is detected by almost invariant vectors in the regular representation.
+for every compact \(C\subseteq G\). Thus amenability is detected by almost invariant vectors in the [[algebra-representation-theory/regular-representation|regular representation]].
 
 ## Why the formulations agree
 
-The almost-invariant-vector condition says that the constant coefficient \(1\) of \(1_G\) is uniformly approximated on compact sets by positive-definite coefficients of \(\lambda_G\), which is precisely weak containment for the trivial representation. Squaring absolute values, \(\lvert\xi_i\rvert^2\), turns such vectors into approximately invariant \(L^1\)-probability densities; conversely, taking square roots of Reiter \(P_1\) densities yields almost invariant \(L^2\)-vectors. This is the Hulanicki–Reiter bridge between representation theory and [[harmonic-analysis/amenable-locally-compact-group|invariant-mean amenability]] [Bekka–de la Harpe–Valette, §G.3](https://doi.org/10.1017/CBO9780511542749.015).
+The almost-invariant-vector condition says that the constant coefficient \(1\) of \(1_G\) is uniformly approximated on [[topology/compact-set|compact sets]] by positive-definite coefficients of \(\lambda_G\), which is precisely weak containment for the trivial representation. Squaring [[real-analysis/absolute-value|absolute values]], \(\lvert\xi_i\rvert^2\), turns such vectors into approximately invariant \(L^1\)-probability densities; conversely, taking square roots of Reiter \(P_1\) densities yields almost invariant \(L^2\)-vectors. This is the Hulanicki–Reiter bridge between representation theory and [[harmonic-analysis/amenable-locally-compact-group|invariant-mean amenability]] [Bekka–de la Harpe–Valette, §G.3](https://doi.org/10.1017/CBO9780511542749.015).
 
 ## Operator-algebraic consequence
 

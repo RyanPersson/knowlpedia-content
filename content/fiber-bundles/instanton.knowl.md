@@ -8,7 +8,7 @@ domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over an oriented Riemannian four-manifold, and choose an invariant inner product on its Lie algebra. A **Yang–Mills instanton** is a [[fiber-bundles/principal-connection|connection]] \(A\) whose [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] has finite action
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over an oriented Riemannian four-manifold, and choose an invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. A **Yang–Mills instanton** is a [[fiber-bundles/principal-connection|connection]] \(A\) whose [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] has finite action
 \[
 \int_M |F_A|^2\,d\operatorname{vol}<\infty
 \]
@@ -30,7 +30,7 @@ On a compact four-manifold, the orthogonal decomposition \(F_A=F_A^++F_A^-\) rew
 
 The BPST connection on the charge-one \(SU(2)\)-bundle over \(S^4\) is the basic nonflat instanton. Removing one point and using stereographic coordinates gives a finite-action instanton on \(\mathbb R^4\); its curvature decay makes the noncompact action finite. Its self-dual versus anti-self-dual label changes when the orientation is reversed.
 
-A general finite-action Yang–Mills connection with neither \(F_A^+=0\) nor \(F_A^-=0\) is a near miss: finite action and the second-order Yang–Mills equation do not imply the instanton equation.
+A general finite-action Yang–Mills connection with neither \(F_A^+=0\) nor \(F_A^-=0\) is a near miss: finite action and the second-order [[fiber-bundles/yangmills-equation|Yang–Mills equation]] do not imply the instanton equation.
 
 ## Conventions and scope
 

@@ -32,7 +32,7 @@ This definition includes nonunitary admissible globalizations; it uses no
 
 ## Invariance and additivity
 
-The distribution \(\Theta_\pi\) is invariant under conjugation: translating a test function by \(g\mapsto xgx^{-1}\) does not change its value. Characters are additive in short exact sequences of finite-length admissible representations and therefore depend only on the corresponding class in the Grothendieck group. For a finite-dimensional representation, the definition recovers integration against the ordinary trace function \(g\mapsto\operatorname{Tr}\pi(g)\).
+The distribution \(\Theta_\pi\) is invariant under conjugation: translating a test function by \(g\mapsto xgx^{-1}\) does not change its value. Characters are additive in [[algebra-modules/short-exact-sequence|short exact sequences]] of finite-length [[lie-groups/admissible-representation-real-reductive-group|admissible representations]] and therefore depend only on the corresponding class in the Grothendieck group. For a finite-dimensional representation, the definition recovers integration against the ordinary trace function \(g\mapsto\operatorname{Tr}\pi(g)\).
 
 ## Infinitesimal eigencharacter
 

@@ -8,11 +8,11 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let a \(k\)-dimensional Lie group \(G\) act freely and properly on a \(2n\)-dimensional [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\) by a [[differential-geometry/hamiltonian-lie-group-action|Hamiltonian action]] with equivariant [[fiber-bundles/moment-map|moment map]] \(\mu:M\to\mathfrak g^*\). If \(0\) is a [[fiber-bundles/regular-value|regular value]], then
+Let a \(k\)-dimensional [[fiber-bundles/lie-group|Lie group]] \(G\) act freely and properly on a \(2n\)-dimensional [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\) by a [[differential-geometry/hamiltonian-lie-group-action|Hamiltonian action]] with equivariant [[fiber-bundles/moment-map|moment map]] \(\mu:M\to\mathfrak g^*\). If \(0\) is a [[fiber-bundles/regular-value|regular value]], then
 \[
 M_{\mathrm{red}}=\mu^{-1}(0)/G
 \]
-is a smooth manifold of dimension \(2n-2k\). Writing \(i:\mu^{-1}(0)\hookrightarrow M\) and \(\pi:\mu^{-1}(0)\to M_{\mathrm{red}}\), there is a unique symplectic form \(\omega_{\mathrm{red}}\) such that
+is a [[fiber-bundles/smooth-manifold|smooth manifold]] of dimension \(2n-2k\). Writing \(i:\mu^{-1}(0)\hookrightarrow M\) and \(\pi:\mu^{-1}(0)\to M_{\mathrm{red}}\), there is a unique symplectic form \(\omega_{\mathrm{red}}\) such that
 \[
 \pi^*\omega_{\mathrm{red}}=i^*\omega.
 \]
@@ -20,9 +20,9 @@ This symplectic manifold is the regular zero-level reduction, or Marsden–Weins
 
 ## Roles of the hypotheses
 
-Regularity makes \(\mu^{-1}(0)\) an [[differential-geometry/embedded-submanifold|embedded submanifold]] of codimension \(k\). Properness and freeness make its orbit space a smooth manifold and \(\pi\) a principal \(G\)-bundle. Equivariance ensures that the zero level is \(G\)-invariant.
+Regularity makes \(\mu^{-1}(0)\) an [[differential-geometry/embedded-submanifold|embedded submanifold]] of codimension \(k\). Properness and freeness make its [[lie-groups/orbit-space|orbit space]] a smooth manifold and \(\pi\) a principal \(G\)-bundle. Equivariance ensures that the zero level is \(G\)-invariant.
 
-At each \(m\in\mu^{-1}(0)\), the tangent space to the \(G\)-orbit equals the kernel of \(i^*\omega_m\). Hence \(i^*\omega\) is horizontal; its \(G\)-invariance makes it basic. It therefore descends uniquely through \(\pi\), and quotienting precisely by its kernel makes the descended form nondegenerate. Closedness follows from
+At each \(m\in\mu^{-1}(0)\), the [[differential-geometry/tangent-space|tangent space]] to the \(G\)-orbit equals the kernel of \(i^*\omega_m\). Hence \(i^*\omega\) is horizontal; its \(G\)-invariance makes it basic. It therefore descends uniquely through \(\pi\), and quotienting precisely by its kernel makes the descended form nondegenerate. Closedness follows from
 \[
 \pi^*(d\omega_{\mathrm{red}})=d(i^*\omega)=0
 \]
@@ -32,7 +32,7 @@ and injectivity of pullback by a surjective submersion [Marsden–Weinstein, red
 
 The regular level has dimension \(2n-k\), and every free orbit has dimension \(k\); the quotient therefore has dimension \(2n-2k\). The evenness is also forced by the existence of \(\omega_{\mathrm{red}}\).
 
-For the scalar \(S^1\)-action on \(\mathbb C^n\), choosing a positive regular level of a shifted moment map gives a sphere. Dividing by \(S^1\) yields complex projective space with a multiple of the Fubini–Study form. This illustrates both stages of the dimension loss: one equation cuts out the level and one orbit direction is removed.
+For the scalar \(S^1\)-action on \(\mathbb C^n\), choosing a positive regular level of a shifted moment map gives a sphere. Dividing by \(S^1\) yields complex [[algebraic-geometry-foundations/projective-space|projective space]] with a multiple of the Fubini–Study form. This illustrates both stages of the dimension loss: one equation cuts out the level and one orbit direction is removed.
 
 ## Variants and failure modes
 

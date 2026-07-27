@@ -18,7 +18,7 @@ K(\mathcal H)=\overline{\{T\in B(\mathcal H):
 \operatorname{rank}T<\infty\}}^{\lVert\cdot\rVert}.
 \]
 It is a [[operator-algebras/closed-two-sided-ideal|norm-closed,
-adjoint-closed two-sided ideal]] in the
+adjoint-closed [[algebra-rings/two-sided-ideal|two-sided ideal]]]] in the
 [[operator-algebras/bounded-operator-cstar-algebra|bounded-operator algebra]]
 \(B(\mathcal H)\), and therefore a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]].
 It is unital exactly when \(\mathcal H\) is finite-dimensional.
@@ -28,7 +28,7 @@ It is unital exactly when \(\mathcal H\) is finite-dimensional.
 For \(\xi,\eta\in\mathcal H\), the rank-one operator
 \(\theta_{\xi,\eta}\) is given by
 \(\theta_{\xi,\eta}\zeta=\xi\langle\eta,\zeta\rangle\). Finite linear
-combinations of these operators are the finite-rank operators and are norm
+combinations of these operators are the [[functional-analysis/finite-rank-operator|finite-rank operators]] and are norm
 dense in \(K(\mathcal H)\). If \((P_\lambda)\) is the net of orthogonal
 projections onto finite-dimensional subspaces, directed by inclusion, then
 \((P_\lambda)\) is a positive contractive

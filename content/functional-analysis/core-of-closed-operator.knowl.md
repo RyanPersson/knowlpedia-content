@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(T:\operatorname{Dom}(T)\subseteq X\to X\) be a
 [[functional-analysis/closed-linear-operator|closed linear operator]] on a
-Banach space. A linear subspace \(D\subseteq\operatorname{Dom}(T)\) is a
+[[linear-algebra/banach-space|Banach space]]. A [[convex-analysis/linear-subspace|linear subspace]] \(D\subseteq\operatorname{Dom}(T)\) is a
 **core for \(T\)** if the closure of the restricted operator \(T|_D\) is
 \(T\). Equivalently, \(D\) is dense in \(\operatorname{Dom}(T)\) for the
 [[functional-analysis/graph-norm|graph norm]]

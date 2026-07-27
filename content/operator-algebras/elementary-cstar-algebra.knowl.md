@@ -16,7 +16,7 @@ Thus \(A\) is \(*\)-isomorphic to the [[operator-algebras/compact-operator-cstar
 
 ## Structure
 
-Every elementary \(C^*\)-algebra is simple and liminal. Its nonzero irreducible representations are all unitarily equivalent to the defining action of \(K(H)\) on \(H\). [[operator-algebras/minimal-projection|Minimal projections]] correspond to rank-one projections, and any one of them generates the whole algebra as a [[operator-algebras/closed-two-sided-ideal|closed two-sided ideal]].
+Every elementary \(C^*\)-algebra is simple and liminal. Its nonzero [[algebra-representation-theory/irreducible-representation|irreducible representations]] are all unitarily equivalent to the defining action of \(K(H)\) on \(H\). [[operator-algebras/minimal-projection|Minimal projections]] correspond to rank-one projections, and any one of them generates the whole algebra as a [[operator-algebras/closed-two-sided-ideal|closed two-sided ideal]].
 
 The [[operator-algebras/multiplier-algebra|multiplier algebra]] of \(K(H)\) is \(B(H)\). Consequently an infinite-dimensional elementary algebra is nonunital even though its multiplier algebra is unital.
 

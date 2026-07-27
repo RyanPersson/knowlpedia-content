@@ -23,7 +23,7 @@ chosen as extra structure.
 
 ## Square roots and decomposition
 
-Every \(a\in A_+\) has a unique positive square root \(a^{1/2}\in A_+\), obtained from continuous functional calculus, and this proves \(a=(a^{1/2})^*a^{1/2}\). Every self-adjoint element has positive and negative parts
+Every \(a\in A_+\) has a unique positive square root \(a^{1/2}\in A_+\), obtained from [[operator-algebras/continuous-functional-calculus|continuous functional calculus]], and this proves \(a=(a^{1/2})^*a^{1/2}\). Every self-adjoint element has positive and [[operator-algebras/positive-negative-parts|negative parts]]
 \[
 a_+=\frac{|a|+a}{2},\qquad a_-=\frac{|a|-a}{2},
 \]

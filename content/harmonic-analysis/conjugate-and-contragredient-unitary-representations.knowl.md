@@ -8,7 +8,7 @@ domains = ["harmonic-analysis", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \((\pi,\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] of a group \(G\). Its **conjugate representation** acts on the conjugate Hilbert space \(\overline{\mathcal H}\) by
+Let \((\pi,\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] of a group \(G\). Its **conjugate representation** acts on the conjugate [[linear-algebra/hilbert-space|Hilbert space]] \(\overline{\mathcal H}\) by
 \[
 \overline{\pi}(g)\overline{\xi}=\overline{\pi(g)\xi}.
 \]
@@ -16,7 +16,7 @@ Its **contragredient representation** acts on the continuous linear dual \(\math
 \[
 \pi^\vee(g)\lambda=\lambda\circ\pi(g)^{-1}.
 \]
-Both actions are strongly continuous and unitary for their natural Hilbert structures. They are canonically unitarily equivalent through the Riesz map \(\overline{\xi}\mapsto\langle\,\cdot\,,\xi\rangle\), with the inner product taken linear in the first variable.
+Both actions are strongly continuous and unitary for their natural Hilbert structures. They are canonically unitarily equivalent through the Riesz map \(\overline{\xi}\mapsto\langle\,\cdot\,,\xi\rangle\), with the [[linear-algebra/inner-product|inner product]] taken linear in the first variable.
 
 ## Coefficients
 

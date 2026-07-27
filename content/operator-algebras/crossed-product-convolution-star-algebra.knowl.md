@@ -8,7 +8,7 @@ domains = ["operator-algebras", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system|\(C^*\)-dynamical system]], fix a left [[harmonic-analysis/haar-measure|Haar measure]] \(ds\), and let \(\Delta\) be the [[harmonic-analysis/modular-function|modular function]] of \(G\). The **crossed-product convolution \(*\)-algebra** is the vector space \(C_c(G,A)\) of continuous compactly supported functions \(G\to A\), with
+Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system|\(C^*\)-dynamical system]], fix a left [[harmonic-analysis/haar-measure|Haar measure]] \(ds\), and let \(\Delta\) be the [[harmonic-analysis/modular-function|modular function]] of \(G\). The **crossed-product convolution \(*\)-algebra** is the [[linear-algebra/vector-space|vector space]] \(C_c(G,A)\) of continuous compactly supported functions \(G\to A\), with
 \[
 (f*g)(s)=\int_G f(t)\alpha_t\!\left(g(t^{-1}s)\right)\,dt
 \]

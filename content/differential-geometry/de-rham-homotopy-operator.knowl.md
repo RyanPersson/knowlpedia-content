@@ -8,7 +8,7 @@ domains = ["differential-geometry", "topology"]
 section_mode = "progressive"
 +++
 
-Let \(F:M\times[0,1]\to N\) be a [[differential-geometry/smooth-homotopy|smooth homotopy]], with \(F_t(x)=F(x,t)\). The **de Rham homotopy operator** associated to \(F\) is the degree-\(-1\) linear map
+Let \(F:M\times[0,1]\to N\) be a [[differential-geometry/smooth-homotopy|smooth homotopy]], with \(F_t(x)=F(x,t)\). The **de Rham homotopy operator** associated to \(F\) is the degree-\(-1\) [[linear-algebra/linear-map|linear map]]
 \[
 K_F:\Omega^k(N)\longrightarrow\Omega^{k-1}(M),\qquad
 K_F\omega=\int_0^1\iota_{\partial_t}(F^*\omega)\,dt.
@@ -17,13 +17,13 @@ Here contraction extracts the component of the [[fiber-bundles/pullback-of-diffe
 \[
 dK_F+K_Fd=F_1^*-F_0^*.
 \]
-It is therefore a concrete chain homotopy between the two endpoint pullback maps.
+It is therefore a concrete [[algebra-homological/chain-homotopy|chain homotopy]] between the two endpoint pullback maps.
 
 ## Chain-homotopy interpretation
 
 The endpoint pullbacks \(F_0^*\) and \(F_1^*\) are cochain maps between [[differential-geometry/de-rham-complex|de Rham complexes]]. The displayed identity says precisely that \(K_F\) is a cochain homotopy between them. It follows that smoothly homotopic maps induce the same homomorphism on de Rham cohomology [Tu, Chapter 17](https://doi.org/10.1007/978-1-4419-7400-6).
 
-The formula follows from Cartan's identity for the Lie derivative and the fundamental theorem of calculus applied in the interval direction. Reversing the orientation of \([0,1]\) or defining contraction with the opposite product order changes the overall sign.
+The formula follows from Cartan's identity for the [[fiber-bundles/lie-derivative|Lie derivative]] and the fundamental theorem of calculus applied in the interval direction. Reversing the orientation of \([0,1]\) or defining contraction with the opposite product order changes the overall sign.
 
 ## Canonical contraction example
 

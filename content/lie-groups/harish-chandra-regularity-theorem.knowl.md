@@ -12,7 +12,7 @@ Let \(G\) be a connected real reductive [[fiber-bundles/lie-group|Lie group]]. S
 
 ## Application to characters
 
-An admissible representation with [[lie-groups/infinitesimal-character|infinitesimal character]] has a [[lie-groups/global-character-of-an-admissible-representation|global character]] satisfying the theorem's hypotheses. Its distribution character can therefore be studied through an analytic class function on \(G_{\mathrm{reg}}\), even though the operators \(\pi(g)\) are generally not trace class. This is the rigorous meaning of the Harish–Chandra character function.
+An [[lie-groups/admissible-representation-real-reductive-group|admissible representation]] with [[lie-groups/infinitesimal-character|infinitesimal character]] has a [[lie-groups/global-character-of-an-admissible-representation|global character]] satisfying the theorem's hypotheses. Its distribution character can therefore be studied through an analytic [[algebra-groups/class-function|class function]] on \(G_{\mathrm{reg}}\), even though the operators \(\pi(g)\) are generally not trace class. This is the rigorous meaning of the Harish–Chandra character function.
 
 ## Strength and limitations
 
@@ -20,7 +20,7 @@ Local integrability across the singular set is an essential part of the theorem;
 
 ## Proof architecture
 
-The proof reduces invariant differential equations to Cartan subgroups and controls their singularities near root hyperplanes. Elliptic regularity supplies analyticity on regular elements, while delicate descent and estimates establish local integrability across the singular locus. These steps are substantially stronger than the formal observation that a character is an eigendistribution.
+The proof reduces invariant differential equations to Cartan subgroups and controls their singularities near root hyperplanes. Elliptic regularity supplies analyticity on [[algebra-rings/regular-element|regular elements]], while delicate descent and estimates establish local integrability across the singular locus. These steps are substantially stronger than the formal observation that a character is an eigendistribution.
 
 ## References
 

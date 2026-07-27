@@ -29,7 +29,7 @@ isomorphism this action corresponds to
 \[
 s\longmapsto \alpha_s\otimes\operatorname{Ad}\rho_s,
 \]
-where \(\rho\) is a regular representation of \(G\) on \(L^2(G)\).
+where \(\rho\) is a [[algebra-representation-theory/regular-representation|regular representation]] of \(G\) on \(L^2(G)\).
 Left-versus-right regular-representation and character conventions can
 change the displayed implementation by inversion or unitary conjugacy, but
 not the stabilized isomorphism class
@@ -53,7 +53,7 @@ those of the coefficient algebra.
 For abelian \(G\), the group is amenable. Hence full and reduced crossed
 products agree at both stages, so the theorem may be written with either
 completion. For nonabelian groups, crossed-product duality is formulated
-using coactions rather than a Pontryagin-dual group action.
+using coactions rather than a Pontryagin-dual [[algebra-groups/group-action|group action]].
 
 ## References
 

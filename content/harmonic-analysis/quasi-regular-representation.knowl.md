@@ -29,13 +29,13 @@ The quasi-regular representation is the
 [[harmonic-analysis/unitary-induced-representation|unitary representation
 induced]] from the trivial one-dimensional representation of \(H\). This
 interpretation explains why it is central to harmonic analysis on quotients:
-its matrix coefficients and invariant vectors record how \(G\) acts on
+its [[harmonic-analysis/coefficient-function|matrix coefficients]] and invariant vectors record how \(G\) acts on
 \(G/H\), while induction connects those data to representations of the
 subgroup [Folland, Chapter 6](https://doi.org/10.1201/B19172).
 
 ## Examples and measure-class independence
 
-For \(H=\{e\}\), the construction is the left [[harmonic-analysis/regular-representations-locally-compact-group|regular representation]] on \(L^2(G)\). For \(H=G\), it is the trivial representation on a one-dimensional Hilbert space. Replacing \(\mu\) by an equivalent quasi-invariant measure changes the displayed realization but yields a unitarily equivalent representation through multiplication by the square root of the density.
+For \(H=\{e\}\), the construction is the left [[harmonic-analysis/regular-representations-locally-compact-group|regular representation]] on \(L^2(G)\). For \(H=G\), it is the trivial representation on a one-dimensional [[linear-algebra/hilbert-space|Hilbert space]]. Replacing \(\mu\) by an equivalent quasi-invariant measure changes the displayed realization but yields a unitarily equivalent representation through multiplication by the square root of the density.
 
 **Warning.** Omitting the Radon–Nikodym factor is valid only for an invariant quotient measure; with a merely quasi-invariant measure, plain translation need not preserve the \(L^2\) norm.
 

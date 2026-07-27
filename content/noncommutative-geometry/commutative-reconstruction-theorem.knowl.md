@@ -8,7 +8,7 @@ domains = ["noncommutative-geometry", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \((\mathcal A,H,D)\) be a unital commutative [[noncommutative-geometry/spectral-triple|spectral triple]] of integer metric dimension satisfying the reconstruction hypotheses: regularity, first order, [[noncommutative-geometry/hochschild-orientability-axiom|orientability]], [[noncommutative-geometry/finiteness-absolute-continuity-axiom|finiteness and absolute continuity]], and the additional multiplicity and closedness conditions in the chosen formulation. The **commutative reconstruction theorem** produces a unique compact oriented smooth manifold \(X\) and an isomorphism
+Let \((\mathcal A,H,D)\) be a unital commutative [[noncommutative-geometry/spectral-triple|spectral triple]] of integer metric dimension satisfying the reconstruction hypotheses: regularity, first order, [[noncommutative-geometry/hochschild-orientability-axiom|orientability]], [[noncommutative-geometry/finiteness-absolute-continuity-axiom|finiteness and absolute continuity]], and the additional multiplicity and closedness conditions in the chosen formulation. The **commutative reconstruction theorem** produces a unique compact oriented [[fiber-bundles/smooth-manifold|smooth manifold]] \(X\) and an isomorphism
 \[
 \mathcal A\cong C^\infty(X).
 \]
@@ -16,7 +16,7 @@ Moreover, \(H\) is the \(L^2\)-space of sections of a finite-rank Hermitian bund
 
 ## What is reconstructed
 
-The \(C^*\)-closure of \(\mathcal A\) first determines a compact Hausdorff space by commutative Gelfand duality. Bounded commutators with \(D\), regularity, and the orienting Hochschild cycle then supply smooth coordinates and show that the algebra is all of \(C^\infty(X)\), rather than merely a dense subalgebra of continuous functions. Finiteness reconstructs the bundle of smooth sections, while absolute continuity reconstructs its \(L^2\)-measure class.
+The \(C^*\)-closure of \(\mathcal A\) first determines a compact [[topology/hausdorff-space|Hausdorff space]] by commutative [[operator-algebras/gelfand-duality|Gelfand duality]]. [[functional-analysis/bounded-commutator|Bounded commutators]] with \(D\), regularity, and the orienting [[noncommutative-geometry/hochschild-cycle|Hochschild cycle]] then supply smooth coordinates and show that the algebra is all of \(C^\infty(X)\), rather than merely a dense [[real-analysis/subalgebra-of-continuous-functions|subalgebra of continuous functions]]. Finiteness reconstructs the bundle of smooth sections, while [[analysis/absolute-continuity|absolute continuity]] reconstructs its \(L^2\)-measure class.
 
 Connes proves the manifold statement and uniqueness in [Theorem 11.3](https://doi.org/10.4171/JNCG/108). The associated distance formula recovers the geodesic metric once the operator has the canonical Clifford-symbol normalization.
 
@@ -33,7 +33,7 @@ oriented-manifold conclusion.
 
 ## Canonical example and scope
 
-For a closed Riemannian manifold \(X\) with a
+For a closed [[differential-geometry/riemannian-manifold|Riemannian manifold]] \(X\) with a
 [[fiber-bundles/spin-structure|spin structure]], the canonical triple
 \[
 \bigl(C^\infty(X),L^2(X,S),\not D\bigr)

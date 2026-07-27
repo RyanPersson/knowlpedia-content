@@ -12,7 +12,7 @@ Let \(\pi:E\to M\) be a real or complex [[fiber-bundles/vector-bundle|vector bun
 \[
 s(x)\neq 0_x
 \]
-for every \(x\in M\), where \(0_x\) is the value of the [[fiber-bundles/zero-section|zero section]] in \(E_x\). Equivalently, the image \(s(M)\) is disjoint from the image of the zero section. In the smooth category, \(s\) is required to be smooth; in the topological category, it is required to be continuous. No choice of norm is needed because nonzeroness is intrinsic to each vector space \(E_x\).
+for every \(x\in M\), where \(0_x\) is the value of the [[fiber-bundles/zero-section|zero section]] in \(E_x\). Equivalently, the image \(s(M)\) is disjoint from the image of the zero section. In the smooth category, \(s\) is required to be smooth; in the topological category, it is required to be continuous. No choice of norm is needed because nonzeroness is intrinsic to each [[linear-algebra/vector-space|vector space]] \(E_x\).
 
 ## Trivial line summand
 
@@ -20,7 +20,7 @@ A nowhere-vanishing section spans a rank-one subbundle
 \[
 L_s=\{(x,\lambda s(x))\mid x\in M,\ \lambda\in\mathbb F\}\subseteq E,
 \]
-canonically trivialized by \(s\). After choosing a [[fiber-bundles/bundle-metric|bundle metric]], the orthogonal complement gives a splitting
+canonically trivialized by \(s\). After choosing a [[fiber-bundles/bundle-metric|bundle metric]], the [[linear-algebra/orthogonal-complement|orthogonal complement]] gives a splitting
 \[
 E\cong \underline{\mathbb F}\oplus L_s^\perp.
 \]

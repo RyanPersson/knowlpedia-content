@@ -8,25 +8,25 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. An **orientation of \(M\)** is an [[fiber-bundles/orientation-of-a-real-vector-bundle|orientation]] of its [[fiber-bundles/tangent-bundle|tangent bundle]] \(TM\): at each \(p\in M\), one chooses one of the two orientation classes of ordered bases of \(T_pM\), and the choice must vary continuously. Equivalently, an orientation is a maximal smooth atlas whose coordinate changes have positive Jacobian determinant. A manifold together with such a choice is **oriented**; a manifold admitting a choice is **orientable**. On each connected component of a positive-dimensional [[differential-geometry/orientability-of-a-smooth-manifold|orientable manifold]], exactly two orientations exist.
+Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. An **orientation of \(M\)** is an [[fiber-bundles/orientation-of-a-real-vector-bundle|orientation]] of its [[fiber-bundles/tangent-bundle|tangent bundle]] \(TM\): at each \(p\in M\), one chooses one of the two orientation classes of ordered bases of \(T_pM\), and the choice must vary continuously. Equivalently, an orientation is a maximal [[fiber-bundles/smooth-atlas|smooth atlas]] whose coordinate changes have positive [[real-analysis/jacobian-determinant|Jacobian determinant]]. A manifold together with such a choice is **oriented**; a manifold admitting a choice is **orientable**. On each [[topology/connected-component|connected component]] of a positive-dimensional [[differential-geometry/orientability-of-a-smooth-manifold|orientable manifold]], exactly two orientations exist.
 
 ## Equivalent descriptions
 
 For a smooth manifold, the following data determine the same orientation:
 
 1. an orientation of \(TM\);
-2. an equivalence class of positively oriented atlases; or
+2. an [[shared-foundations/equivalence-class|equivalence class]] of positively oriented atlases; or
 3. a nowhere-vanishing smooth \(n\)-form, where two such forms are equivalent when one is a positive smooth multiple of the other.
 
 The equivalence uses smooth partitions of unity to construct a global positive top-degree form from compatible local choices; see [Lee, Chapter 15](https://doi.org/10.1007/978-1-4419-9982-5).
 
 ## Maps and boundaries
 
-A local diffeomorphism between oriented \(n\)-manifolds is orientation-preserving when its differential sends positive bases to positive bases, equivalently when its Jacobian in oriented charts is positive. If \(M\) has boundary, the [[differential-geometry/boundary-orientation|outward-normal-first convention]] orients \(\partial M\): a boundary basis \((v_1,\ldots,v_{n-1})\) is positive when \((\nu,v_1,\ldots,v_{n-1})\) is positive for an outward-pointing \(\nu\).
+A [[algebraic-geometry-foundations/local-diffeomorphism|local diffeomorphism]] between oriented \(n\)-manifolds is orientation-preserving when its differential sends positive bases to positive bases, equivalently when its Jacobian in oriented charts is positive. If \(M\) has boundary, the [[differential-geometry/boundary-orientation|outward-normal-first convention]] orients \(\partial M\): a boundary basis \((v_1,\ldots,v_{n-1})\) is positive when \((\nu,v_1,\ldots,v_{n-1})\) is positive for an outward-pointing \(\nu\).
 
 ## Examples and scope
 
-The standard ordered coordinates orient \(\mathbb{R}^n\). Every complex manifold has a canonical orientation because a complex basis gives a real basis \((v_1,iv_1,\ldots,v_m,iv_m)\). The Möbius band is not orientable. Orientability is a property; an orientation is one of the possible choices, so an orientable manifold is not automatically an oriented manifold.
+The standard ordered coordinates orient \(\mathbb{R}^n\). Every [[differential-geometry/complex-manifold|complex manifold]] has a canonical orientation because a complex basis gives a real basis \((v_1,iv_1,\ldots,v_m,iv_m)\). The Möbius band is not orientable. Orientability is a property; an orientation is one of the possible choices, so an orientable manifold is not automatically an oriented manifold.
 
 ## References
 

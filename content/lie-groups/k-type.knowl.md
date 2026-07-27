@@ -8,7 +8,7 @@ domains = ["lie-groups", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(K\) be a compact group and \(V\) a complex \(K\)-representation that is a direct sum of finite-dimensional irreducibles, as happens for the [[lie-groups/k-finite-vector|\(K\)-finite part]] of a [[lie-groups/strongly-continuous-unitary-representation|continuous unitary representation]]. A **\(K\)-type** of \(V\) is an equivalence class \(\tau\) of [[lie-groups/irreducible-representation-lie-group|irreducible finite-dimensional \(K\)-representations]] for which
+Let \(K\) be a compact group and \(V\) a complex \(K\)-representation that is a direct sum of finite-dimensional irreducibles, as happens for the [[lie-groups/k-finite-vector|\(K\)-finite part]] of a [[lie-groups/strongly-continuous-unitary-representation|continuous unitary representation]]. A **\(K\)-type** of \(V\) is an [[shared-foundations/equivalence-class|equivalence class]] \(\tau\) of [[lie-groups/irreducible-representation-lie-group|irreducible finite-dimensional \(K\)-representations]] for which
 \[
 \operatorname{Hom}_K(E_\tau,V)\neq 0,
 \]
@@ -20,11 +20,11 @@ For a unitary representation of \(K\), the [[lie-groups/peter-weyl-theorem|Peter
 \[
 V_K=\bigoplus_{\tau\in\widehat K}V(\tau).
 \]
-Thus each \(K\)-finite vector involves only finitely many \(K\)-types, although the representation may contain infinitely many types overall. These decompositions underlie the treatment of admissible representations in [Knapp, Chapter VIII](https://doi.org/10.1515/9781400883974).
+Thus each \(K\)-finite vector involves only finitely many \(K\)-types, although the representation may contain infinitely many types overall. These decompositions underlie the treatment of [[lie-groups/admissible-representation-real-reductive-group|admissible representations]] in [Knapp, Chapter VIII](https://doi.org/10.1515/9781400883974).
 
 ## Example
 
-For \(K=S^1\), every irreducible representation is a character \(z\mapsto z^m\), \(m\in\mathbb Z\). Under rotations on \(L^2(S^1)\), the \(m\)-th \(K\)-type is the one-dimensional span of the Fourier mode \(z^m\), and its multiplicity is one. A general compact group can have higher-dimensional irreducible \(K\)-types and multiplicities larger than one.
+For \(K=S^1\), every [[algebra-representation-theory/irreducible-representation|irreducible representation]] is a character \(z\mapsto z^m\), \(m\in\mathbb Z\). Under rotations on \(L^2(S^1)\), the \(m\)-th \(K\)-type is the one-dimensional span of the Fourier mode \(z^m\), and its multiplicity is one. A general compact group can have higher-dimensional irreducible \(K\)-types and multiplicities larger than one.
 
 ## Conventions and scope
 

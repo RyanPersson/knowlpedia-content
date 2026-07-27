@@ -42,7 +42,7 @@ Orbits are isomorphism classes of representations with a chosen target \(G\). Th
 
 For the [[algebra-groups/free-group|free group]] \(F_r\), there are no relations, so \(\operatorname{Hom}(F_r,G)\cong G^r\). If \(\Gamma=\pi_1(M,x)\), its points include the [[fiber-bundles/holonomy-representation|holonomy representations]] of flat principal \(G\)-connections.
 
-**Warning.** For a merely topological or Lie group \(G\), \(\operatorname{Hom}(\Gamma,G)\) can be given a topology or analytic structure, but it is not automatically an algebraic variety.
+**Warning.** For a merely topological or [[fiber-bundles/lie-group|Lie group]] \(G\), \(\operatorname{Hom}(\Gamma,G)\) can be given a topology or analytic structure, but it is not automatically an algebraic variety.
 
 ## References
 

@@ -13,13 +13,13 @@ Let \(\pi:E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]]. A 
 \pi\circ s=\operatorname{id}_M,
 \qquad s(x)\in E_x
 \]
-for every \(x\in M\). A local section over an open subset \(U\subseteq M\) is defined similarly as a [[fiber-bundles/smooth-map|smooth map]] \(s:U\to E\) with values \(s(x)\in E_x\). Because each fiber is a vector space, sections can be added and multiplied by smooth scalar functions pointwise. The resulting space of global smooth sections is denoted \(\Gamma^\infty(M,E)\), or simply \(\Gamma(E)\).
+for every \(x\in M\). A local section over an open subset \(U\subseteq M\) is defined similarly as a [[fiber-bundles/smooth-map|smooth map]] \(s:U\to E\) with values \(s(x)\in E_x\). Because each fiber is a [[linear-algebra/vector-space|vector space]], sections can be added and multiplied by smooth scalar functions pointwise. The resulting space of global smooth sections is denoted \(\Gamma^\infty(M,E)\), or simply \(\Gamma(E)\).
 
 ## Local description
 
 In a [[fiber-bundles/local-trivialization|local trivialization]] \(E|_U\cong U\times\mathbb F^r\), a section is uniquely represented by a smooth map \(U\to\mathbb F^r\), hence by \(r\) smooth component functions. On an overlap, these component functions transform by the bundle [[fiber-bundles/transition-function|transition function]]. This compatibility is what distinguishes a section from an arbitrary collection of fiber vectors.
 
-A section is determined by its restrictions to an open cover. Conversely, local sections that agree on overlaps glue to a unique global section. These facts make sections naturally sheaf-like, although this knowl concerns sections of a bundle rather than the abstract notion of a sheaf section.
+A section is determined by its restrictions to an [[topology/open-cover|open cover]]. Conversely, local sections that agree on overlaps glue to a unique global section. These facts make sections naturally sheaf-like, although this knowl concerns sections of a bundle rather than the abstract notion of a sheaf section.
 
 ## Algebraic structure
 
@@ -29,11 +29,11 @@ If \(s,t\in\Gamma^\infty(M,E)\) and \(f\in C^\infty(M)\), then
 \qquad
 (fs)(x)=f(x)s(x).
 \]
-Thus \(\Gamma^\infty(M,E)\) is a module over the [[differential-geometry/algebra-of-smooth-functions|algebra of smooth functions]]. Bundle morphisms over \(M\) induce module homomorphisms on sections by pointwise composition.
+Thus \(\Gamma^\infty(M,E)\) is a module over the [[differential-geometry/algebra-of-smooth-functions|algebra of smooth functions]]. [[fiber-bundles/bundle-morphism|Bundle morphisms]] over \(M\) induce [[algebra-modules/module-homomorphism|module homomorphisms]] on sections by pointwise composition.
 
 ## Examples
 
-Sections of the [[fiber-bundles/tangent-bundle|tangent bundle]] are smooth vector fields, while sections of the [[fiber-bundles/cotangent-bundle|cotangent bundle]] are smooth one-forms. Every vector bundle has the [[fiber-bundles/zero-section|zero section]], so—unlike a general fiber bundle—the existence of a global section does not imply triviality. A rank-\(r\) vector bundle is trivial precisely when it admits \(r\) global sections that form a basis in every fiber.
+Sections of the [[fiber-bundles/tangent-bundle|tangent bundle]] are smooth [[fiber-bundles/vector-field|vector fields]], while sections of the [[fiber-bundles/cotangent-bundle|cotangent bundle]] are smooth one-forms. Every vector bundle has the [[fiber-bundles/zero-section|zero section]], so—unlike a general fiber bundle—the existence of a global section does not imply triviality. A rank-\(r\) vector bundle is trivial precisely when it admits \(r\) global sections that form a basis in every fiber.
 
 ## References
 

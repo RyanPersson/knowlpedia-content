@@ -8,7 +8,7 @@ domains = ["harmonic-analysis", "lie-groups", "operator-algebras"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a topological group and let
+Let \(G\) be a [[topology/topological-group|topological group]] and let
 \(\varphi:G\to\mathbb C\) be a continuous
 [[harmonic-analysis/positive-definite-function|positive-definite function]].
 The **GNS construction for \(\varphi\)** produces a
@@ -26,15 +26,15 @@ vector exactly when \(\varphi\) is normalized.
 
 ## Construction
 
-Let \(V_0\) be the vector space spanned by formal symbols
-\(\{\delta_x:x\in G\}\). With the inner product linear in the first variable,
+Let \(V_0\) be the [[linear-algebra/vector-space|vector space]] spanned by formal symbols
+\(\{\delta_x:x\in G\}\). With the [[linear-algebra/inner-product|inner product]] linear in the first variable,
 set
 \[
 \left\langle\sum_i c_i\delta_{x_i},\sum_jd_j\delta_{y_j}\right\rangle_\varphi
 =\sum_{i,j}c_i\overline{d_j}\,\varphi(y_j^{-1}x_i).
 \]
 Positive definiteness makes this form positive semidefinite. Quotient \(V_0\)
-by its null space and complete. Left translation
+by its null space and complete. [[lie-groups/left-translation|Left translation]]
 \(\pi_\varphi(g)\delta_x=\delta_{gx}\) preserves the form, and
 \(\xi_\varphi=[\delta_e]\). Continuity of \(\varphi\), followed by density of
 the symbol span, gives strong continuity.
@@ -57,7 +57,7 @@ construction [Folland, Theorem 3.20](https://doi.org/10.1201/B19172).
 If \(\varphi(e)=0\), positive definiteness forces \(\varphi=0\), and the
 construction yields the zero Hilbert space. Otherwise one may normalize by
 \(\varphi(e)\). The GNS representation is irreducible precisely when the
-normalized function is an extreme point of the convex set of normalized
+normalized function is an extreme point of the [[convex-analysis/convex-set|convex set]] of normalized
 continuous positive-definite functions; cyclicity alone does not imply
 irreducibility.
 

@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]]
 and choose a
 [[operator-algebras/normal-semifinite-faithful-weight|normal semifinite
-faithful weight]] \(\varphi\). The **continuous core** of \(M\), relative to
+[[operator-algebras/faithful-weight|faithful weight]]]] \(\varphi\). The **continuous core** of \(M\), relative to
 \(\varphi\), is the [[operator-algebras/von-neumann-crossed-product|von
 Neumann crossed product]]
 \[
@@ -27,7 +27,7 @@ Fourier convention used here.
 
 ## Independence of the weight
 
-Another n.s.f. weight \(\psi\) gives a crossed product
+Another [[operator-algebras/normal-semifinite-faithful-weight|n.s.f. weight]] \(\psi\) gives a crossed product
 \(c_\psi(M)\) canonically isomorphic to \(c_\varphi(M)\) after incorporating
 the [[operator-algebras/connes-cocycle-derivative|Connes cocycle derivative]].
 The isomorphism fixes the embedded copy of \(M\) and intertwines the dual

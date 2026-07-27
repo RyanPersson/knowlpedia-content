@@ -16,7 +16,7 @@ A [[noncommutative-geometry/spectral-triple|spectral triple]] \((\mathcal A,H,D)
 \delta(T)=[|D|,T].
 \]
 Here \(\mathcal A+[D,\mathcal A]\) denotes the linear span of represented
-operators \(a\) and bounded commutators \([D,b]\), and
+operators \(a\) and [[functional-analysis/bounded-commutator|bounded commutators]] \([D,b]\), and
 \(\operatorname{Dom}\delta^\infty\) is the
 [[noncommutative-geometry/smooth-domain-delta|smooth domain of the Dirac derivation]].
 Equivalently, for every \(a\in\mathcal A\), all iterated commutators
@@ -37,10 +37,10 @@ leads to residues of zeta functions and the local index formula
 ## Standard example
 
 For the canonical spin spectral triple of a closed Riemannian spin manifold,
-smooth functions and their commutators with the Dirac operator remain bounded
+smooth functions and their commutators with the [[noncommutative-geometry/dirac-operator|Dirac operator]] remain bounded
 under all iterated commutators with \(|D|\). This follows from the classical
 pseudodifferential calculus. By contrast, merely completing the smooth
-function algebra in the operator norm generally introduces nonsmooth
+function algebra in the [[linear-algebra/operator-norm|operator norm]] generally introduces nonsmooth
 functions and destroys this all-orders condition.
 
 ## Conventions and scope

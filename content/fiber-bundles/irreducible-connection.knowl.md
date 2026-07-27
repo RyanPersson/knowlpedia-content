@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 section_mode = "progressive"
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] over a connected manifold, with compact structure group \(G\), and let \(A\) be a [[fiber-bundles/principal-connection|connection]]. Relative to the full [[fiber-bundles/gauge-group|gauge group]], \(A\) is **irreducible** if its [[fiber-bundles/stabilizer-of-a-connection|stabilizer]] consists exactly of the constant gauge transformations induced by the center:
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] over a connected manifold, with compact structure group \(G\), and let \(A\) be a [[fiber-bundles/principal-connection|connection]]. Relative to the full [[fiber-bundles/gauge-group|gauge group]], \(A\) is **irreducible** if its [[fiber-bundles/stabilizer-of-a-connection|stabilizer]] consists exactly of the constant [[fiber-bundles/gauge-transformation|gauge transformations]] induced by the center:
 \[
 \operatorname{Stab}(A)=Z(G).
 \]
@@ -22,7 +22,7 @@ A\text{ is irreducible}
 \quad\Longleftrightarrow\quad
 C_G(\operatorname{Hol}(A))=Z(G).
 \]
-For a [[fiber-bundles/hermitian-connection|unitary connection]] on a Hermitian vector bundle, a nontrivial parallel orthogonal splitting produces noncentral stabilizing endomorphisms and hence reducibility. Under the standard compactness hypotheses, absence of such a parallel splitting is the corresponding irreducibility criterion.
+For a [[fiber-bundles/hermitian-connection|unitary connection]] on a Hermitian [[fiber-bundles/vector-bundle|vector bundle]], a nontrivial parallel orthogonal splitting produces noncentral stabilizing endomorphisms and hence reducibility. Under the standard compactness hypotheses, absence of such a parallel splitting is the corresponding irreducibility criterion.
 
 ## Role in moduli spaces
 

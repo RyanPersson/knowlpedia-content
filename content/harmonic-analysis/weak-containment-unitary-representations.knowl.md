@@ -32,7 +32,7 @@ of \(H_\pi\) into \(H_\rho\).
 
 ## Equivalent operator-norm criterion
 
-For the integrated representations of \(L^1(G)\), weak containment is
+For the [[harmonic-analysis/integrated-form-unitary-representation|integrated representations]] of \(L^1(G)\), weak containment is
 equivalent to
 \[
 \lVert\pi(f)\rVert\leq\lVert\rho(f)\rVert

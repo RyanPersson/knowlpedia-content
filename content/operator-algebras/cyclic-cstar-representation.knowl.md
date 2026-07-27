@@ -12,7 +12,7 @@ Let \(\pi:A\to B(H)\) be a [[operator-algebras/cstar-representation|representati
 \[
 \overline{\operatorname{span}}\{\pi(a)\xi:a\in A\}=H.
 \]
-The representation is **cyclic** if it has at least one [[operator-algebras/cyclic-vector|cyclic vector]]. For a nonunital algebra the closure in this formula is essential. The existence of a cyclic vector forces \(\pi\) to be nondegenerate: the closed span of \(\pi(A)H\) is then all of \(H\). Cyclicity is a property of the represented action together with its Hilbert space, not merely of \(A\).
+The representation is **cyclic** if it has at least one [[operator-algebras/cyclic-vector|cyclic vector]]. For a nonunital algebra the closure in this formula is essential. The existence of a cyclic vector forces \(\pi\) to be nondegenerate: the closed span of \(\pi(A)H\) is then all of \(H\). Cyclicity is a property of the represented action together with its [[linear-algebra/hilbert-space|Hilbert space]], not merely of \(A\).
 
 ## Equivalent viewpoint
 

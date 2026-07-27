@@ -47,10 +47,10 @@ theorem]].
 
 ## Examples and scope
 
-For \(M=B(K)\) acting by left multiplication on the Hilbert–Schmidt operators
+For \(M=B(K)\) acting by left multiplication on the [[functional-analysis/hilbert-schmidt-operator|Hilbert–Schmidt operators]]
 \(\operatorname{HS}(K)\), the identity Hilbert–Schmidt vector is available
 only when \(K\) is finite-dimensional; then \(S(x)=x^*\). More generally a
-faithful density operator supplies a cyclic separating vector in the standard
+faithful [[quantum-foundations/density-operator|density operator]] supplies a cyclic separating vector in the standard
 Hilbert–Schmidt realization.
 
 **Warning.** If \(\Omega\) is not separating, \(x\Omega=0\) need not imply

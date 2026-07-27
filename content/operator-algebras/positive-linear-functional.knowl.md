@@ -24,11 +24,11 @@ Positivity of the quadratic form \(a\mapsto\varphi(a^*a)\) yields
 \[
 |\varphi(b^*a)|^2\leq\varphi(a^*a)\varphi(b^*b).
 \]
-This inequality controls continuity and identifies the null space used in the GNS construction. In the unital case, a bounded functional \(\varphi\) is positive exactly when \(\lVert\varphi\rVert=\varphi(1)\); the equality includes the assertion that \(\varphi(1)\) is real and nonnegative.
+This inequality controls continuity and identifies the null space used in the [[operator-algebras/gns-construction|GNS construction]]. In the unital case, a bounded functional \(\varphi\) is positive exactly when \(\lVert\varphi\rVert=\varphi(1)\); the equality includes the assertion that \(\varphi(1)\) is real and nonnegative.
 
 ## GNS construction
 
-The form \(\langle a,b\rangle_\varphi=\varphi(b^*a)\) is positive semidefinite. Quotienting \(A\) by its null left ideal and completing gives a Hilbert space \(H_\varphi\). Left multiplication descends to a \(*\)-representation \(\pi_\varphi:A\to B(H_\varphi)\), with a cyclic vector when \(A\) is unital, such that
+The form \(\langle a,b\rangle_\varphi=\varphi(b^*a)\) is positive semidefinite. Quotienting \(A\) by its null left ideal and completing gives a Hilbert space \(H_\varphi\). Left multiplication descends to a \(*\)-representation \(\pi_\varphi:A\to B(H_\varphi)\), with a [[operator-algebras/cyclic-vector|cyclic vector]] when \(A\) is unital, such that
 \[
 \varphi(a)=\langle\pi_\varphi(a)\xi_\varphi,\xi_\varphi\rangle.
 \]

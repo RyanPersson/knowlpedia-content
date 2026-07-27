@@ -8,7 +8,7 @@ domains = ["operator-algebras", "topology"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a locally compact Hausdorff space and let \(A\) be a [[operator-algebras/c0-x-algebra|\(C_0(X)\)-algebra]]. For \(x\in X\), write \(A_x\) for its [[operator-algebras/fiber-c0-x-algebra|quotient fiber]] and \(a(x)\) for the image of \(a\in A\). The algebra \(A\) is a **continuous \(C_0(X)\)-algebra** when
+Let \(X\) be a locally compact [[topology/hausdorff-space|Hausdorff space]] and let \(A\) be a [[operator-algebras/c0-x-algebra|\(C_0(X)\)-algebra]]. For \(x\in X\), write \(A_x\) for its [[operator-algebras/fiber-c0-x-algebra|quotient fiber]] and \(a(x)\) for the image of \(a\in A\). The algebra \(A\) is a **continuous \(C_0(X)\)-algebra** when
 \[
 x\longmapsto\lVert a(x)\rVert
 \]

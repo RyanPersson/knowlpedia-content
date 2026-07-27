@@ -43,7 +43,7 @@ admissible values of \(c\) give equivalent form norms and the same extension
 ## Canonical but not generally unique
 
 The Friedrichs construction depends only on the semibounded symmetric
-operator and selects an extension with the same lower bound. It does not say
+operator and selects an extension with the same [[shared-foundations/lower-bound|lower bound]]. It does not say
 that \(A\) has only one self-adjoint extension. Other boundary conditions may
 produce other semibounded extensions. Among nonnegative self-adjoint
 extensions, the Friedrichs and Kreĭn–von Neumann extensions occupy opposite

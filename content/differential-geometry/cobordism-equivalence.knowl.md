@@ -17,7 +17,7 @@ Reflexivity is represented by the cylinder \(M\times[0,1]\). Symmetry follows by
 
 ## Classes and null-cobordism
 
-A manifold is **null-cobordant** if it is cobordism equivalent to the empty manifold, equivalently if it is the entire boundary of a compact manifold with the relevant structure. Disjoint union descends to cobordism classes. In oriented and many structured theories, these classes form abelian groups because orientation reversal or the corresponding inverse structure supplies additive inverses.
+A manifold is **null-cobordant** if it is cobordism equivalent to the empty manifold, equivalently if it is the entire boundary of a compact manifold with the relevant structure. Disjoint union descends to cobordism classes. In oriented and many structured theories, these classes form [[algebra-groups/abelian-group|abelian groups]] because orientation reversal or the corresponding inverse structure supplies additive inverses.
 
 ## Dependence on structure
 

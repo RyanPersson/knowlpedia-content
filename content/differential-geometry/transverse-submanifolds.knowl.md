@@ -12,7 +12,7 @@ Let \(S\) and \(T\) be [[differential-geometry/embedded-submanifold|embedded sub
 \[
 T_pS+T_pT=T_pM.
 \]
-They are **transverse**, written \(S\pitchfork T\), if this condition holds at every point of \(S\cap T\). Equivalently, the linear map \(T_pS\oplus T_pT\to T_pM\), \((v,w)\mapsto v-w\), is surjective for each intersection point. Disjoint submanifolds are transverse by convention because there are no intersection points at which the condition can fail.
+They are **transverse**, written \(S\pitchfork T\), if this condition holds at every point of \(S\cap T\). Equivalently, the [[linear-algebra/linear-map|linear map]] \(T_pS\oplus T_pT\to T_pM\), \((v,w)\mapsto v-w\), is surjective for each intersection point. Disjoint submanifolds are transverse by convention because there are no intersection points at which the condition can fail.
 
 ## Transverse intersection theorem
 

@@ -8,7 +8,7 @@ domains = ["noncommutative-geometry", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(M\) be an oriented Riemannian manifold without boundary equipped with a
+Let \(M\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]] without boundary equipped with a
 [[fiber-bundles/spin-structure|spin structure]], \(S\to M\) its
 [[differential-geometry/spinor-bundle|spinor bundle]], and \(\nabla^S\) its
 [[fiber-bundles/spin-connection|spin connection]]. The **spin Dirac operator**
@@ -21,7 +21,7 @@ where \((e_j)\) is any local orthonormal frame. The expression is independent of
 
 ## Analytic realization
 
-With the Riemannian measure and Hermitian spinor metric, \(\not D\) is an unbounded symmetric operator on \(L^2(M,S)\). If \(M\) is complete, \(\not D\) is [[functional-analysis/essentially-self-adjoint-operator|essentially self-adjoint]], so its closure is self-adjoint. If \(M\) is closed, this realization has compact resolvent and discrete real spectrum of finite multiplicity; see [Roe, chapter 5](https://doi.org/10.1201/b16418).
+With the Riemannian measure and Hermitian spinor metric, \(\not D\) is an unbounded [[functional-analysis/symmetric-operator|symmetric operator]] on \(L^2(M,S)\). If \(M\) is complete, \(\not D\) is [[functional-analysis/essentially-self-adjoint-operator|essentially self-adjoint]], so its closure is self-adjoint. If \(M\) is closed, this realization has compact resolvent and discrete real spectrum of finite multiplicity; see [Roe, chapter 5](https://doi.org/10.1201/b16418).
 
 ## Geometric identities and variants
 

@@ -18,11 +18,11 @@ them. Every admissible realization of \((\mathcal G,\mathcal R)\) in a
 \(C^*(\mathcal G\mid\mathcal R)\to B\) carrying universal generators to the
 chosen elements. Admissibility includes the unital or nonunital convention
 and enough uniform norm control that every \(*\)-polynomial in the generators
-has finite supremum norm over all realizations.
+has finite [[real-analysis/supremum-norm|supremum norm]] over all realizations.
 
 ## Construction and existence
 
-Form the algebraic involutive algebra on \(\mathcal G\), impose
+Form the algebraic [[operator-algebras/involutive-algebra|involutive algebra]] on \(\mathcal G\), impose
 \(\mathcal R\), and define the norm of a class \(x\) as the supremum of
 \(\|\pi(x)\|\) over all admissible realizations \(\pi\). One then quotients by
 the zero-norm elements and completes. This produces the universal algebra

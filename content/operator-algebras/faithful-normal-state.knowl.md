@@ -48,7 +48,7 @@ A [[operator-algebras/faithful-state-cstar-algebra|faithful state]] on the
 underlying \(C^*\)-algebra need not be normal. Likewise, a normal state can
 fail to be faithful when its support is a proper projection. Faithful normal
 states are bounded normalized functionals, not the possibly unbounded
-faithful normal semifinite weights used in modular theory.
+faithful normal [[operator-algebras/semifinite-weight|semifinite weights]] used in modular theory.
 
 ## References
 

@@ -20,7 +20,7 @@ Many geometric operations are [[algebra-category-theory/functor|functorial]]. Th
 
 ## Conventions and categorical limits
 
-The category depends on whether manifolds may have boundary, whether dimensions may vary by connected component, and whether the empty manifold is allowed. Even after fixing conventions, arbitrary set-theoretic fiber products need not be smooth manifolds; transverse fiber products are the standard well-behaved case. The basic categorical language is as in [Mac Lane, Chapter I](https://doi.org/10.1007/978-1-4757-4721-8), while the smooth setting follows [Lee, chapters on smooth manifolds and maps](https://doi.org/10.1007/978-1-4419-9982-5).
+The category depends on whether manifolds may have boundary, whether dimensions may vary by [[topology/connected-component|connected component]], and whether the empty manifold is allowed. Even after fixing conventions, arbitrary set-theoretic fiber products need not be smooth manifolds; transverse fiber products are the standard well-behaved case. The basic categorical language is as in [Mac Lane, Chapter I](https://doi.org/10.1007/978-1-4757-4721-8), while the smooth setting follows [Lee, chapters on smooth manifolds and maps](https://doi.org/10.1007/978-1-4419-9982-5).
 
 ## References
 

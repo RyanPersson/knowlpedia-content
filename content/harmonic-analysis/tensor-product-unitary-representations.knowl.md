@@ -18,7 +18,7 @@ specified on elementary tensors by
 (\pi\otimes\sigma)(g)(\xi\otimes\eta)
 =\pi(g)\xi\otimes\sigma(g)\eta.
 \]
-Here \(\mathcal H\widehat\otimes_2\mathcal K\) is the completed Hilbert tensor product. The formula preserves inner products, extends uniquely to a [[functional-analysis/unitary-operator|unitary operator]] for each \(g\), and defines a strongly continuous representation.
+Here \(\mathcal H\widehat\otimes_2\mathcal K\) is the completed Hilbert tensor product. The formula preserves [[linear-algebra/inner-product|inner products]], extends uniquely to a [[functional-analysis/unitary-operator|unitary operator]] for each \(g\), and defines a strongly continuous representation.
 
 ## Continuity and coefficients
 
@@ -29,7 +29,7 @@ Strong continuity is immediate on finite sums of elementary tensors and extends 
 =\langle\pi(g)\xi,\xi'\rangle
 \langle\sigma(g)\eta,\eta'\rangle.
 \]
-This identity makes tensor products fundamental in studying positive-definite functions, weak containment, and representations possessing invariant vectors.
+This identity makes tensor products fundamental in studying positive-definite functions, [[harmonic-analysis/weak-containment-unitary-representations|weak containment]], and representations possessing invariant vectors.
 
 ## Exterior tensor products
 

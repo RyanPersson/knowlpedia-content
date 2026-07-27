@@ -16,9 +16,9 @@ Equivalently, there is a [[fiber-bundles/gauge-transformation|gauge transformati
 
 ## Holonomy and preserved reductions
 
-Evaluation at a point identifies the stabilizer with the [[algebra-groups/centralizer|centralizer]] of the [[fiber-bundles/holonomy-group|holonomy group]]. Thus \(A\) is reducible exactly when the holonomy has centralizer larger than \(Z(G)\); see [Freed and Uhlenbeck, Chapter 3](https://doi.org/10.1007/978-1-4613-9703-8). For matrix groups this often means that the [[fiber-bundles/holonomy-representation|holonomy representation]] preserves a proper decomposition, so \(A\) is [[fiber-bundles/connection-compatible-with-a-reduction|compatible with a reduction]] to the corresponding proper subgroup.
+Evaluation at a point identifies the stabilizer with the [[algebra-groups/centralizer|centralizer]] of the [[fiber-bundles/holonomy-group|holonomy group]]. Thus \(A\) is reducible exactly when the holonomy has centralizer larger than \(Z(G)\); see [Freed and Uhlenbeck, Chapter 3](https://doi.org/10.1007/978-1-4613-9703-8). For matrix groups this often means that the [[fiber-bundles/holonomy-representation|holonomy representation]] preserves a proper decomposition, so \(A\) is [[fiber-bundles/connection-compatible-with-a-reduction|compatible with a reduction]] to the corresponding [[algebra-groups/proper-subgroup|proper subgroup]].
 
-For a [[fiber-bundles/hermitian-connection|unitary connection]] on a Hermitian vector bundle, a parallel orthogonal splitting into nonzero subbundles makes the connection reducible. The converse takes this form when the stabilizing element has suitable eigenspace decomposition.
+For a [[fiber-bundles/hermitian-connection|unitary connection]] on a Hermitian [[fiber-bundles/vector-bundle|vector bundle]], a parallel orthogonal splitting into nonzero subbundles makes the connection reducible. The converse takes this form when the stabilizing element has suitable eigenspace decomposition.
 
 ## Role in gauge quotients
 

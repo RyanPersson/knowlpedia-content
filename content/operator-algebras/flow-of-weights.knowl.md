@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]]
 with separable predual and choose a
-[[operator-algebras/normal-semifinite-faithful-weight|normal semifinite faithful weight]] \(\varphi\). Form the continuous core
+[[operator-algebras/normal-semifinite-faithful-weight|normal semifinite faithful weight]] \(\varphi\). Form the [[operator-algebras/continuous-core-von-neumann-algebra|continuous core]]
 \[
 c_\varphi(M)=M\rtimes_{\sigma^\varphi}\mathbb R
 \]

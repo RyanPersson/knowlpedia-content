@@ -17,7 +17,7 @@ subgroup]] \(K\), and let \(\sigma:G\to[0,\infty)\) be a standard proper
 \(\mathcal C(G)\) is the space of smooth functions \(f:G\to\mathbb C\) such
 that, for every \(D_1,D_2\) in the
 [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]] of
-the complexified Lie algebra and every integer \(N\geq0\),
+the complexified [[lie-groups/lie-algebra|Lie algebra]] and every integer \(N\geq0\),
 \[
 \sup_{g\in G}(1+\sigma(g))^N\Xi(g)^{-1}
 \lvert (L_{D_1}R_{D_2}f)(g)\rvert<\infty.
@@ -30,11 +30,11 @@ The displayed seminorms make \(\mathcal C(G)\) a [[functional-analysis/frechet-s
 
 ## Comparison with ordinary rapid decay
 
-On an abelian vector group, ordinary Schwartz seminorms use polynomial weights and constant-coefficient derivatives. On a noncompact reductive group, Haar volume grows exponentially. The factor \(\Xi(g)^{-1}\) compensates for the characteristic decay of spherical matrix coefficients, while \((1+\sigma(g))^N\) enforces additional rapid polynomial decay. Omitting \(\Xi^{-1}\) therefore gives the wrong scale for harmonic analysis on \(G\).
+On an abelian vector group, ordinary Schwartz seminorms use polynomial weights and constant-coefficient derivatives. On a noncompact reductive group, Haar volume grows exponentially. The factor \(\Xi(g)^{-1}\) compensates for the characteristic decay of spherical [[harmonic-analysis/coefficient-function|matrix coefficients]], while \((1+\sigma(g))^N\) enforces additional rapid polynomial decay. Omitting \(\Xi^{-1}\) therefore gives the wrong scale for harmonic analysis on \(G\).
 
 ## Conventions and scope
 
-Some sources define \(L_{D_1}R_{D_2}\) with an antipode or reverse-order convention; these choices yield the same space. The notation \(\mathcal C(G)\) is conventional but can be confused with continuous functions. This definition concerns smooth scalar-valued functions on a real reductive group, not the [[harmonic-analysis/schwartz-bruhat-space-lca|Schwartz–Bruhat space]] of an arbitrary locally compact abelian group.
+Some sources define \(L_{D_1}R_{D_2}\) with an antipode or reverse-order convention; these choices yield the same space. The notation \(\mathcal C(G)\) is conventional but can be confused with continuous functions. This definition concerns smooth scalar-valued functions on a real reductive group, not the [[harmonic-analysis/schwartz-bruhat-space-lca|Schwartz–Bruhat space]] of an arbitrary locally compact [[algebra-groups/abelian-group|abelian group]].
 
 ## References
 

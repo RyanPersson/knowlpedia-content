@@ -12,11 +12,11 @@ Let \((\pi,\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-represent
 \[
 \mathcal H_\xi=\overline{\operatorname{span}}\{\pi(g)\xi:g\in G\}.
 \]
-The vector \(\xi\) is **cyclic** if \(\mathcal H_\xi=\mathcal H\). The representation is **cyclic** if it has at least one cyclic vector. Cyclicity is a density condition: it does not require the orbit itself to equal \(\mathcal H\), nor does it select a unique cyclic vector.
+The vector \(\xi\) is **cyclic** if \(\mathcal H_\xi=\mathcal H\). The representation is **cyclic** if it has at least one [[operator-algebras/cyclic-vector|cyclic vector]]. Cyclicity is a density condition: it does not require the orbit itself to equal \(\mathcal H\), nor does it select a unique cyclic vector.
 
 ## Basic properties
 
-The subspace \(\mathcal H_\xi\) is closed and invariant under every \(\pi(g)\), because multiplication by \(g\) permutes the orbit. The restriction of \(\pi\) to \(\mathcal H_\xi\) is therefore a cyclic representation with cyclic vector \(\xi\). A nonzero vector in a one-dimensional representation is cyclic, while the zero vector is cyclic only for the zero Hilbert space.
+The subspace \(\mathcal H_\xi\) is closed and invariant under every \(\pi(g)\), because multiplication by \(g\) permutes the orbit. The restriction of \(\pi\) to \(\mathcal H_\xi\) is therefore a cyclic representation with cyclic vector \(\xi\). A nonzero vector in a one-dimensional representation is cyclic, while the zero vector is cyclic only for the zero [[linear-algebra/hilbert-space|Hilbert space]].
 
 ## Coefficients and reconstruction
 

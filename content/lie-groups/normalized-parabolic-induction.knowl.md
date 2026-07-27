@@ -34,7 +34,7 @@ unnormalized parabolic induction.
 Choose a [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]] \(K\) with \(G=KP\). Restriction to \(K\)
 realizes the induced space using functions on \(K\) with their \(K\cap M\)
 equivariance; the Hilbert norm is then independent of the continuous
-induction parameter. If \(\tau\) is unitary, left translation gives a unitary
+induction parameter. If \(\tau\) is unitary, [[lie-groups/left-translation|left translation]] gives a unitary
 representation. Equivalently, the half-modular factor in the equivariant
 function model packages the Radon–Nikodym correction in
 [[harmonic-analysis/unitary-induced-representation|unitary induction]]
@@ -54,7 +54,7 @@ Thus, with the corpus convention
 \(\Delta_P(a)=e^{-2\rho_P(\log a)}\) and
 \(\delta_P(a)=\Delta_P(a)^{-1}\).
 Thus the half-modular normalization is often written as a shift by
-\(\rho_P\). This shift makes standard intertwining operators and induction in
+\(\rho_P\). This shift makes [[lie-groups/knapp-stein-intertwining-operator|standard intertwining operators]] and induction in
 stages take their customary symmetric forms.
 
 ## Relationship to principal series

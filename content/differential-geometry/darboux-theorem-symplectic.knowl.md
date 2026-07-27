@@ -28,7 +28,7 @@ Every symplectic manifold is locally indistinguishable from [[differential-geome
 
 ## Conventions and scope
 
-The theorem concerns closed, nondegenerate \(2\)-forms. Nondegeneracy alone does not give this normal form on a neighborhood, because the Moser argument uses closedness. This result is unrelated to Darboux's theorem about derivatives from real analysis.
+The theorem concerns closed, nondegenerate \(2\)-forms. Nondegeneracy alone does not give this normal form on a neighborhood, because the Moser argument uses closedness. This result is unrelated to [[real-analysis/darboux-theorem|Darboux's theorem]] about derivatives from real analysis.
 
 ## References
 

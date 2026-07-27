@@ -51,7 +51,7 @@ This is the extension theorem in
 If \(\psi:B\to M(C)\) is nondegenerate, the composite used in the
 nonunital category is \(\overline{\psi}\circ\varphi:A\to M(C)\), and its
 multiplier extension is
-\(\overline{\psi}\circ\overline{\varphi}\). A nondegenerate representation
+\(\overline{\psi}\circ\overline{\varphi}\). A [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]]
 \(\pi:A\to B(H)=M(\mathcal K(H))\) therefore extends uniquely to \(M(A)\).
 These formulas are fundamental in covariant representations and crossed
 products [Williams, Appendix A](https://doi.org/10.1090/surv/134).

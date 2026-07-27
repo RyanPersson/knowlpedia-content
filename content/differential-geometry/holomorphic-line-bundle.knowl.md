@@ -8,11 +8,11 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]]. A **holomorphic line bundle** on \(X\) is a [[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundle]] \(L\to X\) of complex rank one. Equivalently, \(X\) has an open cover \(\{U_i\}\) and holomorphic trivializations \(L|_{U_i}\cong U_i\times\mathbb C\) whose [[fiber-bundles/transition-function|transition functions]] \(g_{ij}:U_i\cap U_j\to\mathbb C^\times\) are nowhere-vanishing holomorphic functions satisfying \(g_{ij}g_{jk}=g_{ik}\) on triple overlaps. Isomorphisms are invertible [[differential-geometry/holomorphic-vector-bundle-morphism|holomorphic vector-bundle morphisms]] over \(X\). Its fibers are one-dimensional complex vector spaces varying holomorphically over the base.
+Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]]. A **holomorphic line bundle** on \(X\) is a [[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundle]] \(L\to X\) of complex rank one. Equivalently, \(X\) has an [[topology/open-cover|open cover]] \(\{U_i\}\) and holomorphic trivializations \(L|_{U_i}\cong U_i\times\mathbb C\) whose [[fiber-bundles/transition-function|transition functions]] \(g_{ij}:U_i\cap U_j\to\mathbb C^\times\) are nowhere-vanishing holomorphic functions satisfying \(g_{ij}g_{jk}=g_{ik}\) on triple overlaps. Isomorphisms are invertible [[differential-geometry/holomorphic-vector-bundle-morphism|holomorphic vector-bundle morphisms]] over \(X\). Its fibers are one-dimensional complex [[linear-algebra/vector-space|vector spaces]] varying holomorphically over the base.
 
 ## Tensor operations
 
-The tensor product \(L\otimes L'\), dual \(L^\vee\), and pullback \(f^*L\) along a [[differential-geometry/holomorphic-map|holomorphic map]] are holomorphic line bundles. Their transition functions are respectively \(g_{ij}g'_{ij}\), \(g_{ij}^{-1}\), and \(g_{ij}\circ f\). Isomorphism classes form an abelian group under tensor product, with the trivial bundle as identity and the dual as inverse.
+The tensor product \(L\otimes L'\), dual \(L^\vee\), and pullback \(f^*L\) along a [[differential-geometry/holomorphic-map|holomorphic map]] are holomorphic line bundles. Their transition functions are respectively \(g_{ij}g'_{ij}\), \(g_{ij}^{-1}\), and \(g_{ij}\circ f\). Isomorphism classes form an [[algebra-groups/abelian-group|abelian group]] under tensor product, with the trivial bundle as identity and the dual as inverse.
 
 ## Sections and local data
 

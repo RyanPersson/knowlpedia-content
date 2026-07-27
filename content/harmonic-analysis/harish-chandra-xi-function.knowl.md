@@ -30,7 +30,7 @@ Equivalently, for the
 \[
 \Xi(g)=\int_K e^{-\rho(H(gk))}\,dk,
 \]
-with Haar probability measure on \(K\).
+with Haar [[probability/probability-measure|probability measure]] on \(K\).
 
 ## Basic properties
 
@@ -38,11 +38,11 @@ The function \(\Xi\) is continuous, real-valued, positive, [[harmonic-analysis/p
 
 ## Example
 
-For a compact semisimple group one may take \(K=G\). The relevant induced representation has only the constant normalized \(K\)-fixed vector, and \(\Xi(g)=1\) for every \(g\). For a noncompact semisimple group, \(\Xi\) instead decays at infinity and records the large-scale behavior of spherical matrix coefficients.
+For a compact semisimple group one may take \(K=G\). The relevant [[algebra-representation-theory/induced-representation|induced representation]] has only the constant normalized \(K\)-fixed vector, and \(\Xi(g)=1\) for every \(g\). For a noncompact semisimple group, \(\Xi\) instead decays at infinity and records the large-scale behavior of spherical [[harmonic-analysis/coefficient-function|matrix coefficients]].
 
 ## Conventions and scope
 
-The letter \(\Xi\) is also used for variants on reductive groups and for estimates comparable to the normalized spherical coefficient. The definition above fixes the standard connected semisimple, finite-center setting. Signs in the integral formula vary with the convention for the Iwasawa projection and positive roots; the matrix-coefficient definition is invariant under that bookkeeping.
+The letter \(\Xi\) is also used for variants on reductive groups and for estimates comparable to the normalized spherical coefficient. The definition above fixes the standard connected semisimple, finite-center setting. Signs in the integral formula vary with the convention for the Iwasawa projection and [[lie-groups/positive-root|positive roots]]; the matrix-coefficient definition is invariant under that bookkeeping.
 
 ## References
 

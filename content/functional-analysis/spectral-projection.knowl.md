@@ -8,11 +8,11 @@ domains = ["functional-analysis", "operator-algebras"]
 section_mode = "progressive"
 +++
 
-Let \(T\) be a self-adjoint or normal operator with spectral measure \(E_T\), and let \(B\) be a Borel subset of \(\mathbb R\) in the self-adjoint case or \(\mathbb C\) in the normal case. The **spectral projection of \(T\) for \(B\)** is
+Let \(T\) be a self-adjoint or [[quantum-foundations/normal-operator|normal operator]] with spectral measure \(E_T\), and let \(B\) be a Borel subset of \(\mathbb R\) in the self-adjoint case or \(\mathbb C\) in the normal case. The **spectral projection of \(T\) for \(B\)** is
 \[
 E_T(B)=1_B(T),
 \]
-where \(1_B(T)\) is defined by the [[functional-analysis/borel-functional-calculus|Borel functional calculus]]. It is an orthogonal projection. Its range is the spectral subspace on which \(T\) has spectrum concentrated in the closure of \(B\), and it reduces \(T\), including the domain when \(T\) is unbounded.
+where \(1_B(T)\) is defined by the [[functional-analysis/borel-functional-calculus|Borel functional calculus]]. It is an [[linear-algebra/orthogonal-projection|orthogonal projection]]. Its range is the spectral subspace on which \(T\) has spectrum concentrated in the closure of \(B\), and it reduces \(T\), including the domain when \(T\) is unbounded.
 
 ## Projection-valued measure laws
 

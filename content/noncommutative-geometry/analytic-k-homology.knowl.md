@@ -8,7 +8,7 @@ domains = ["noncommutative-geometry", "operator-algebras"]
 section_mode = "progressive"
 +++
 
-For a separable complex \(C^*\)-algebra \(A\), **analytic K-homology** is the \(\mathbb Z/2\)-graded abelian group
+For a separable complex \(C^*\)-algebra \(A\), **analytic K-homology** is the \(\mathbb Z/2\)-graded [[algebra-groups/abelian-group|abelian group]]
 \[
 K^j(A)=KK^j(A,\mathbb C),\qquad j\in\{0,1\}.
 \]
@@ -16,7 +16,7 @@ Its degree-zero cycles are [[noncommutative-geometry/even-fredholm-module|even F
 
 ## Cycle picture and group structure
 
-In the bounded picture, a cycle consists of a representation and an operator that is self-adjoint, involutive, and central modulo compact operators, with a grading in even degree. A degenerate cycle has all compact-defect expressions equal to zero and represents the zero class. Stabilization permits harmless degenerate summands, while operator homotopy records continuous deformation of the Fredholm data. Connes identifies \(K_*(A)=KK(A,\mathbb C)\) with stable homotopy classes of Fredholm modules in [Chapter IV, Section 1](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+In the bounded picture, a cycle consists of a representation and an operator that is self-adjoint, involutive, and central modulo [[linear-algebra/compact-operator|compact operators]], with a grading in even degree. A degenerate cycle has all compact-defect expressions equal to zero and represents the zero class. Stabilization permits harmless degenerate summands, while operator homotopy records continuous deformation of the Fredholm data. Connes identifies \(K_*(A)=KK(A,\mathbb C)\) with stable homotopy classes of Fredholm modules in [Chapter IV, Section 1](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
 
 Bott periodicity supplies the two-periodic grading, so no further independent degrees are needed. The \(KK\)-notation also places K-homology inside Kasparov's bivariant theory.
 
@@ -32,7 +32,7 @@ implemented by Fredholm indices of compressed operators.
 
 ## Spectral triples and examples
 
-A [[noncommutative-geometry/spectral-triple|spectral triple]] is unbounded geometric data rather than, by itself, an equivalence class in the bounded cycle model. Its [[noncommutative-geometry/bounded-transform-spectral-triple|bounded transform]] produces a [[noncommutative-geometry/fredholm-module|Fredholm module]] and hence an analytic K-homology class.
+A [[noncommutative-geometry/spectral-triple|spectral triple]] is unbounded geometric data rather than, by itself, an [[shared-foundations/equivalence-class|equivalence class]] in the bounded cycle model. Its [[noncommutative-geometry/bounded-transform-spectral-triple|bounded transform]] produces a [[noncommutative-geometry/fredholm-module|Fredholm module]] and hence an analytic K-homology class.
 
 For \(A=\mathbb C\),
 \[

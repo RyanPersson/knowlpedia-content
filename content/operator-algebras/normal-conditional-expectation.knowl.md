@@ -54,7 +54,7 @@ because the domain and range are von Neumann algebras.
 ## Structure and consequences
 
 The range of a normal expectation is automatically ultraweakly closed, and
-normal positive functionals on \(N\) pull back to normal positive functionals
+normal [[operator-algebras/positive-linear-functional|positive functionals]] on \(N\) pull back to normal positive functionals
 on \(M\). If \(E\) is faithful, then \(E(x^*x)=0\) implies \(x=0\); this
 extra condition is often required in modular theory.
 

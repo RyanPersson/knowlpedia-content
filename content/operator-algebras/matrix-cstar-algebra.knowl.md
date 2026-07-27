@@ -16,7 +16,7 @@ involution
 (a_{ij})^*=(a_{ji}^*).
 \]
 Its canonical norm can be obtained by representing \(A\) faithfully on a
-Hilbert space \(H\) and taking the operator norm of the induced action on
+[[linear-algebra/hilbert-space|Hilbert space]] \(H\) and taking the [[linear-algebra/operator-norm|operator norm]] of the induced action on
 \(H^n\); this norm is independent of the faithful representation. With this
 norm, \(M_n(A)\) is a \(C^*\)-algebra. For \(A=\mathbb C\), it is the full
 matrix algebra \(M_n(\mathbb C)\).
@@ -40,12 +40,12 @@ nonunital \(A\), the adjointable algebra is generally larger. If \(A\) is
 unital, the unit of \(M_n(A)\) is
 \(\operatorname{diag}(1_A,\ldots,1_A)\); if \(A\) is nonunital, then
 \(M_n(A)\) is nonunital. Matrix formation also preserves ideals and quotients:
-for a closed two-sided ideal \(I\), the kernel of \(M_n(A)\to M_n(A/I)\) is
+for a closed [[algebra-rings/two-sided-ideal|two-sided ideal]] \(I\), the kernel of \(M_n(A)\to M_n(A/I)\) is
 \(M_n(I)\).
 
 ## Amplification and convention
 
-A linear map \(\phi:A\to B\) has an entrywise amplification
+A [[linear-algebra/linear-map|linear map]] \(\phi:A\to B\) has an entrywise amplification
 \(\phi_n:M_n(A)\to M_n(B)\). Positivity of all these amplifications defines
 complete positivity, so the canonical matrix norms carry information not
 visible at level \(n=1\). The phrase “matrix algebra” sometimes means only

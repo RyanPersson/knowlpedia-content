@@ -20,7 +20,7 @@ Fix a reference Lagrangian plane \(L_0\subset V\). For a generic immersion and l
 
 ## Examples
 
-An affine Lagrangian plane has constant Gauss map, hence zero Maslov class. The [[fiber-bundles/zero-section|zero section]] in a cotangent bundle likewise has zero class in its canonical local model. For a Lagrangian curve in \(\mathbb R^2\), the class records the winding of the unoriented tangent line: one positive half-turn of the tangent line evaluates to \(1\) under the normalization used here.
+An affine Lagrangian plane has constant Gauss map, hence zero Maslov class. The [[fiber-bundles/zero-section|zero section]] in a [[fiber-bundles/cotangent-bundle|cotangent bundle]] likewise has zero class in its canonical local model. For a Lagrangian curve in \(\mathbb R^2\), the class records the winding of the unoriented tangent line: one positive half-turn of the tangent line evaluates to \(1\) under the normalization used here.
 
 ## Ambient-manifold caveat
 

@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. The
 **standard Hilbert \(A\)-module**, denoted \(H_A\) or \(\ell^2(A)\), is the
-space of sequences \(a=(a_n)_{n\geq1}\) in \(A\) for which the partial sums
+space of sequences \(a=(a_n)_{n\geq1}\) in \(A\) for which the [[real-analysis/partial-sums|partial sums]]
 \(\sum_{n=1}^N a_n^*a_n\) converge in norm. It is a right \(A\)-module by
 componentwise multiplication, and
 \[
@@ -28,7 +28,7 @@ elsewhere form the canonical coordinate vectors. For nonunital \(A\), those
 vectors need not belong to \(H_A\), although finitely supported
 \(A\)-valued sequences remain dense. Accordingly, “standard” or “free”
 describes the module's universal role and should not be read as asserting the
-existence of a Hilbert-space orthonormal basis in every case.
+existence of a Hilbert-space [[linear-algebra/orthonormal-basis|orthonormal basis]] in every case.
 
 ## Finite and countable standard modules
 

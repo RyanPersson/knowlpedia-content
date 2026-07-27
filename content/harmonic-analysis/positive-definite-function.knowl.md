@@ -43,7 +43,7 @@ Positivity gives
 \(\varphi(e)\geq0\),
 \(\varphi(g^{-1})=\overline{\varphi(g)}\), and
 \(\lvert\varphi(g)\rvert\leq\varphi(e)\). If \(\varphi(e)=1\), the associated
-cyclic vector can be chosen to have norm one. Products and nonnegative linear
+[[operator-algebras/cyclic-vector|cyclic vector]] can be chosen to have norm one. Products and nonnegative linear
 combinations of positive-definite functions are again positive-definite.
 
 ## Conventions and scope

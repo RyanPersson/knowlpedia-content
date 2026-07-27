@@ -46,11 +46,11 @@ orthonormal-basis argument unavailable for general Hilbert \(C^*\)-modules.
 
 ## Consequences
 
-Stabilization lets one represent countably generated Hilbert modules by
+Stabilization lets one represent [[operator-algebras/countably-generated-hilbert-cstar-module|countably generated Hilbert modules]] by
 adjointable projections on a single standard module. It is therefore a basic
 tool for [[operator-algebras/compact-operator-hilbert-module|compact module
 operators]], Morita equivalence, and Kasparov's \(KK\)-theory. The theorem
-does not extend to arbitrary, possibly uncountably generated Hilbert modules
+does not extend to arbitrary, possibly uncountably generated [[operator-algebras/hilbert-cstar-module|Hilbert modules]]
 without additional hypotheses.
 
 ## References

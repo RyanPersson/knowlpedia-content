@@ -47,7 +47,7 @@ a finite normal trace on the
 operator trace is normal, semifinite, and faithful but not finite because
 \(\operatorname{Tr}(1)=+\infty\).
 
-A von Neumann algebra admitting a faithful finite normal trace is finite, but
+A [[operator-algebras/von-neumann-algebra|von Neumann algebra]] admitting a faithful finite normal trace is finite, but
 the zero functional is a finite normal trace on every von Neumann algebra.
 Faithfulness is therefore essential in any trace-based characterization of
 finite algebras

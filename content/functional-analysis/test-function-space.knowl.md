@@ -13,7 +13,7 @@ is
 \[
 \mathcal D(\Omega)=C_c^\infty(\Omega),
 \]
-the vector space of smooth functions whose supports are
+the [[linear-algebra/vector-space|vector space]] of smooth functions whose supports are
 [[topology/compact-set|compact]] subsets of \(\Omega\), equipped with its
 canonical [[functional-analysis/lf-space|LF topology]]. Choose compact sets
 \(K_j\subseteq\operatorname{int}K_{j+1}\) exhausting \(\Omega\), and let

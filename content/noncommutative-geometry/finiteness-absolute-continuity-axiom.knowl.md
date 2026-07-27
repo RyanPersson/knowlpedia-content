@@ -18,19 +18,19 @@ for all \(a\in\mathcal A\) and \(\xi,\eta\in H^\infty\). Here \(\int_D\) is the 
 
 ## Geometric meaning
 
-For the canonical spin spectral triple of a closed \(p\)-dimensional Riemannian spin manifold, \(H^\infty\) is the module of smooth spinor sections. The Serre–Swan theorem makes this module finitely generated projective over \(C^\infty(M)\). Its pointwise Hermitian product is \(C^\infty(M)\)-valued, and integration against Riemannian volume recovers the \(L^2\)-inner product. The axiom abstracts precisely these two facts.
+For the canonical spin [[noncommutative-geometry/spectral-triple|spectral triple]] of a closed \(p\)-dimensional Riemannian spin manifold, \(H^\infty\) is the module of smooth spinor sections. The [[fiber-bundles/serre-swan-theorem|Serre–Swan theorem]] makes this module finitely generated projective over \(C^\infty(M)\). Its pointwise Hermitian product is \(C^\infty(M)\)-valued, and integration against Riemannian volume recovers the \(L^2\)-inner product. The axiom abstracts precisely these two facts.
 
-Finiteness prevents the smooth domain from behaving like an arbitrary infinite-rank module. Absolute continuity ties its Hilbert-space completion to the same volume functional that the spectrum of \(D\) determines.
+Finiteness prevents the smooth domain from behaving like an arbitrary infinite-rank module. [[analysis/absolute-continuity|Absolute continuity]] ties its Hilbert-space completion to the same volume functional that the spectrum of \(D\) determines.
 
 ## Normalization and sidedness
 
-The displayed identity uses a left module and the convention that the Hilbert-space inner product is linear in its second variable. With a right-module convention, the order of \(a\) and the module pairing changes. Sources may also multiply the noncommutative integral by a dimension-dependent constant. These are convention changes, not extra geometric axioms.
+The displayed identity uses a left module and the convention that the Hilbert-space [[linear-algebra/inner-product|inner product]] is linear in its second variable. With a right-module convention, the order of \(a\) and the module pairing changes. Sources may also multiply the noncommutative integral by a dimension-dependent constant. These are convention changes, not extra geometric axioms.
 
 The formula requires more than the statement that \(H^\infty\) is a [[algebra-modules/finitely-generated-module|finitely generated]] [[algebra-modules/projective-module|projective module]]. One must specify a positive Hermitian module structure and verify that its integrated pairing equals the given Hilbert-space product.
 
 ## Role in reconstruction
 
-Finiteness and absolute continuity are independent of regularity, [[noncommutative-geometry/hochschild-orientability-axiom|Hochschild orientability]], and the first-order condition. In reconstruction proofs, finite projectivity produces a smooth vector bundle once the algebra has been identified with \(C^\infty(X)\), while absolute continuity identifies \(H\) with its \(L^2\)-space of sections [Rennie–Várilly, §§3.1 and 7](https://arxiv.org/abs/math/0610418).
+Finiteness and absolute continuity are independent of regularity, [[noncommutative-geometry/hochschild-orientability-axiom|Hochschild orientability]], and the first-order condition. In reconstruction proofs, finite projectivity produces a smooth [[fiber-bundles/vector-bundle|vector bundle]] once the algebra has been identified with \(C^\infty(X)\), while absolute continuity identifies \(H\) with its \(L^2\)-space of sections [Rennie–Várilly, §§3.1 and 7](https://arxiv.org/abs/math/0610418).
 
 ## References
 

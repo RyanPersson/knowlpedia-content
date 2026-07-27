@@ -8,7 +8,7 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **diffeomorphism group** of \(M\), denoted \(\operatorname{Diff}(M)\), is the set of all [[fiber-bundles/diffeomorphism|diffeomorphisms]] \(f:M\to M\), with composition as multiplication, the identity map as identity element, and functional inverse as group inverse. It is the automorphism group of \(M\) in the [[differential-geometry/category-of-smooth-manifolds|category of smooth manifolds]]. This algebraic definition does not by itself specify a topology or an infinite-dimensional smooth structure on \(\operatorname{Diff}(M)\); those require additional choices and hypotheses.
+Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **diffeomorphism group** of \(M\), denoted \(\operatorname{Diff}(M)\), is the set of all [[fiber-bundles/diffeomorphism|diffeomorphisms]] \(f:M\to M\), with composition as multiplication, the identity map as identity element, and functional inverse as group inverse. It is the [[algebra-groups/automorphism-group|automorphism group]] of \(M\) in the [[differential-geometry/category-of-smooth-manifolds|category of smooth manifolds]]. This algebraic definition does not by itself specify a topology or an infinite-dimensional smooth structure on \(\operatorname{Diff}(M)\); those require additional choices and hypotheses.
 
 ## Actions and important subgroups
 
@@ -16,11 +16,11 @@ The group acts on points, tensor fields, [[fiber-bundles/differential-k-form|dif
 
 ## Topological and smooth structures
 
-For compact \(M\), the \(C^\infty\) topology gives \(\operatorname{Diff}(M)\) the structure of an infinite-dimensional Lie group modeled on smooth [[fiber-bundles/vector-field|vector fields]]. Noncompact manifolds require more care: compact-open and strong Whitney topologies behave differently, and support conditions may be imposed. These analytic structures are not part of the underlying group definition.
+For compact \(M\), the \(C^\infty\) topology gives \(\operatorname{Diff}(M)\) the structure of an infinite-dimensional [[fiber-bundles/lie-group|Lie group]] modeled on smooth [[fiber-bundles/vector-field|vector fields]]. Noncompact manifolds require more care: compact-open and strong [[differential-geometry/whitney-c-infinity-topology|Whitney topologies]] behave differently, and support conditions may be imposed. These analytic structures are not part of the underlying group definition.
 
 ## Examples
 
-\(\operatorname{Diff}(\{\ast\})\) is trivial. Every invertible linear map of \(\mathbb R^n\) is a diffeomorphism, so \(\mathrm{GL}(n,\mathbb R)\) is a subgroup of \(\operatorname{Diff}(\mathbb R^n)\). For the circle, rotations form a subgroup, but the full diffeomorphism group also contains nonlinear reparametrizations.
+\(\operatorname{Diff}(\{\ast\})\) is trivial. Every invertible [[linear-algebra/linear-map|linear map]] of \(\mathbb R^n\) is a diffeomorphism, so \(\mathrm{GL}(n,\mathbb R)\) is a subgroup of \(\operatorname{Diff}(\mathbb R^n)\). For the circle, rotations form a subgroup, but the full diffeomorphism group also contains nonlinear reparametrizations.
 
 ## References
 

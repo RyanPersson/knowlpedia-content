@@ -12,7 +12,7 @@ Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] acting by a [[differential-
 \[
 d\langle\mu,\xi\rangle=\iota_{\xi_M}\omega
 \]
-for every \(\xi\in\mathfrak g\), and \(\mu(gx)=\operatorname{Ad}_g^*\mu(x)\) for every \(g\in G\). The triple \((M,\omega,\mu)\), together with the \(G\)-action, is a Hamiltonian \(G\)-space. Thus Hamiltonianity requires compatible global Hamiltonians for all infinitesimal generators, not merely preservation of \(\omega\). Equivariance couples those Hamiltonians to the full group action.
+for every \(\xi\in\mathfrak g\), and \(\mu(gx)=\operatorname{Ad}_g^*\mu(x)\) for every \(g\in G\). The triple \((M,\omega,\mu)\), together with the \(G\)-action, is a Hamiltonian \(G\)-space. Thus Hamiltonianity requires compatible global Hamiltonians for all infinitesimal generators, not merely preservation of \(\omega\). Equivariance couples those Hamiltonians to the full [[algebra-groups/group-action|group action]].
 
 ## Infinitesimal characterization
 

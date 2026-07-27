@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(G\) be a second-countable
 [[topology/locally-compact-group|locally compact Hausdorff group]], let \(H\)
 be a closed subgroup, and let \(X=G/H\). The **Mackey imprimitivity theorem**
-states that every [[harmonic-analysis/system-of-imprimitivity|system of imprimitivity]] \((U,P)\) for the transitive action of \(G\) on \(X\) is
+states that every [[harmonic-analysis/system-of-imprimitivity|system of imprimitivity]] \((U,P)\) for the [[algebra-groups/transitive-action|transitive action]] of \(G\) on \(X\) is
 unitarily equivalent to one obtained from a
 [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] \(\sigma\) of \(H\): the representation \(U\) is
 \(\operatorname{Ind}_H^G\sigma\), and \(P(E)\) acts on its section model by

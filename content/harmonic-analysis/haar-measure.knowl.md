@@ -20,7 +20,7 @@ Existence and uniqueness up to scale are the substantive content of Haar’s the
 
 ## Left, right, and the modular function
 
-If \(\mu\) is left Haar, then \(E\mapsto\mu(E^{-1})\) is right Haar. Right translation of \(\mu\) is measured by the continuous homomorphism [[harmonic-analysis/modular-function|\(\Delta:G\to\mathbb R_{>0}\)]]. With the convention used here,
+If \(\mu\) is left Haar, then \(E\mapsto\mu(E^{-1})\) is right Haar. [[lie-groups/right-translation|Right translation]] of \(\mu\) is measured by the continuous homomorphism [[harmonic-analysis/modular-function|\(\Delta:G\to\mathbb R_{>0}\)]]. With the convention used here,
 \[
 \mu(Eg)=\Delta(g)\mu(E),
 \qquad

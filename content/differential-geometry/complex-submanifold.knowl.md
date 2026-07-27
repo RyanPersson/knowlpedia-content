@@ -24,7 +24,7 @@ For \(p\in Y\), the inclusion identifies the [[differential-geometry/tangent-spa
 
 ## Examples and non-examples
 
-A complex linear subspace of \(\mathbb C^n\) and the graph of a holomorphic map are complex submanifolds. The real line \(\mathbb R\subset\mathbb C\) is a smooth embedded submanifold but not a complex submanifold: its real tangent line is not preserved by multiplication by \(i\).
+A complex [[convex-analysis/linear-subspace|linear subspace]] of \(\mathbb C^n\) and the graph of a holomorphic map are complex submanifolds. The real line \(\mathbb R\subset\mathbb C\) is a smooth embedded submanifold but not a complex submanifold: its real tangent line is not preserved by multiplication by \(i\).
 
 ## Conventions and scope
 

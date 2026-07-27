@@ -40,7 +40,7 @@ a nonzero ideal disjoint from \(I\)
 
 ## Examples
 
-Every \(C^*\)-algebra is an essential ideal in itself. The compact operators
+Every \(C^*\)-algebra is an essential ideal in itself. The [[linear-algebra/compact-operator|compact operators]]
 \(K(\mathcal H)\) form an essential ideal in \(B(\mathcal H)\) when
 \(\mathcal H\ne0\). More generally, if \(X\) is locally compact Hausdorff and
 \(U\subseteq X\) is open, the ideal \(C_0(U)\subseteq C_0(X)\) is essential
@@ -50,7 +50,7 @@ has zero intersection with the other summand.
 
 ## Role in multiplier algebras
 
-The multiplier algebra \(M(I)\) is the largest unital \(C^*\)-algebra in
+The [[operator-algebras/multiplier-algebra|multiplier algebra]] \(M(I)\) is the largest unital \(C^*\)-algebra in
 which \(I\) sits as an essential ideal, in the sense that every
 \(C^*\)-algebra containing \(I\) essentially acts faithfully on \(I\) by
 multipliers. The essentiality hypothesis is exactly what prevents ambient

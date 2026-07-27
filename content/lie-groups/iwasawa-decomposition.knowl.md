@@ -30,12 +30,12 @@ The algebraic statement behind the theorem is
 \(\mathfrak g=\mathfrak k\oplus\mathfrak a\oplus\mathfrak n\) as real vector
 spaces. Here \(\mathfrak n\) is nilpotent because brackets add positive
 restricted roots. Exponentiation is a diffeomorphism from \(\mathfrak n\) to
-the simply connected nilpotent group \(N\)
+the simply connected [[algebra-groups/nilpotent-group|nilpotent group]] \(N\)
 [Knapp, Chapter VI, §5](https://link.springer.com/book/9780817642594).
 
 ## Minimal parabolic subgroup
 
-Let \(M=Z_K(A)\). Then \(P=MAN\) is a minimal parabolic subgroup, with \(M\)
+Let \(M=Z_K(A)\). Then \(P=MAN\) is a [[lie-groups/minimal-parabolic-subgroup|minimal parabolic subgroup]], with \(M\)
 compact modulo a possible finite central feature in the usual conventions.
 Characters and representations of \(MAN\), extended trivially across \(N\)
 and induced to \(G\), produce principal-series representations. Thus \(KAN\)
@@ -49,7 +49,7 @@ positive diagonal determinant-one matrices, and \(N\) the upper unitriangular
 matrices. The decomposition becomes the QR factorization with a normalized
 diagonal. Unlike the
 [[lie-groups/global-cartan-decomposition|\(KAK\) decomposition]], \(KAN\)
-is uniquely ordered and asymmetric, reflecting the choice of positive roots.
+is uniquely ordered and asymmetric, reflecting the choice of [[lie-groups/positive-root|positive roots]].
 
 ## References
 

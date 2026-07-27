@@ -39,7 +39,7 @@ The resolvent detects approach to the spectrum through
 \lVert R(\lambda,a)\rVert\geq
 \frac{1}{\operatorname{dist}(\lambda,\sigma_A(a))}.
 \]
-For a complex matrix \(A\), \(\rho(A)\) is the complement of its eigenvalues and \(R(\lambda,A)=(\lambda I-A)^{-1}\). Near a nonnormal matrix’s spectrum, the norm of this inverse can be much larger than the reciprocal-distance lower bound; the resolvent therefore records more than the spectral set alone.
+For a complex matrix \(A\), \(\rho(A)\) is the complement of its eigenvalues and \(R(\lambda,A)=(\lambda I-A)^{-1}\). Near a nonnormal matrix’s spectrum, the norm of this inverse can be much larger than the reciprocal-distance [[shared-foundations/lower-bound|lower bound]]; the resolvent therefore records more than the spectral set alone.
 
 ## Conventions and scope
 

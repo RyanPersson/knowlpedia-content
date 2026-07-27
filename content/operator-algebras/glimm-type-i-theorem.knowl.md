@@ -20,7 +20,7 @@ theorem says that the following are equivalent:
 4. every nonempty closed subset of \(\widehat A\) contains a dense relatively
 open Hausdorff subset.
 
-Thus type I is exactly the regime in which irreducible representations are
+Thus type I is exactly the regime in which [[algebra-representation-theory/irreducible-representation|irreducible representations]] are
 topologically separated well enough to admit a tractable classification
 [Glimm, main theorem](https://doi.org/10.2307/1970319).
 

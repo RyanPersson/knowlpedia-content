@@ -43,7 +43,7 @@ After identifying \(X\) with \(\Delta(A)\), the transform sends a function
 \(f\) to the same function:
 \(\widehat f(\chi_x)=f(x)\). This model explains why multiplication,
 involution, and norm become pointwise multiplication, complex conjugation,
-and the supremum norm.
+and the [[real-analysis/supremum-norm|supremum norm]].
 
 ## Scope
 

@@ -50,17 +50,17 @@ in \(L^1(G)\)]], then \(\pi(u_i)\xi\to\xi\) for every \(\xi\in H\). Thus the
 integrated form is nondegenerate. Conversely, a nondegenerate
 \(*\)-representation of \(L^1(G)\) determines a unique strongly continuous
 unitary representation of \(G\). This is why integrated forms are the bridge
-between group representations and representations of group
+between [[algebra-representation-theory/group-representation|group representations]] and representations of group
 \(C^*\)-algebras.
 
 ## Smoothing and examples
 
-When \(G\) is a Lie group and \(f\) is smooth and compactly supported,
+When \(G\) is a [[fiber-bundles/lie-group|Lie group]] and \(f\) is smooth and compactly supported,
 \(\pi(f)\) often maps arbitrary vectors into
 [[lie-groups/smooth-vector-unitary-representation|smooth vectors]]. For the
-left regular representation, \(\pi(f)\) is left convolution by \(f\) on
+left [[algebra-representation-theory/regular-representation|regular representation]], \(\pi(f)\) is left convolution by \(f\) on
 \(L^2(G)\). For a discrete group, Haar integration becomes summation and
-\(\pi(f)=\sum_{x\in G}f(x)\pi(x)\), with convergence in operator norm for
+\(\pi(f)=\sum_{x\in G}f(x)\pi(x)\), with convergence in [[linear-algebra/operator-norm|operator norm]] for
 \(f\in\ell^1(G)\).
 
 ## References

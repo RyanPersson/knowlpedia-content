@@ -13,11 +13,11 @@ A **real variation of Hodge structure of weight \(n\)** on a [[differential-geom
 \nabla(F^p\mathcal V)\subseteq
 \Omega_S^1\otimes F^{p-1}\mathcal V.
 \]
-A polarized variation additionally has a flat bilinear form that polarizes every fiber.
+A polarized variation additionally has a flat [[linear-algebra/bilinear-form|bilinear form]] that polarizes every fiber.
 
 ## Period-map interpretation
 
-After locally trivializing the flat bundle, \(F^\bullet\) determines a holomorphic map from \(S\) to a flag variety. Fiberwise Hodge opposedness restricts its image to a period domain, and Griffiths transversality says that its differential lies in the horizontal subbundle. This is the infinitesimal period relation established in [Griffiths, §1, Theorems 1.27 and 1.34](https://doi.org/10.2307/2373485).
+After locally trivializing the flat bundle, \(F^\bullet\) determines a [[differential-geometry/holomorphic-map|holomorphic map]] from \(S\) to a flag variety. Fiberwise Hodge opposedness restricts its image to a period domain, and Griffiths transversality says that its differential lies in the [[fiber-bundles/horizontal-subbundle|horizontal subbundle]]. This is the infinitesimal period relation established in [Griffiths, §1, Theorems 1.27 and 1.34](https://doi.org/10.2307/2373485).
 
 ## Geometric construction
 
@@ -25,7 +25,7 @@ For a smooth proper holomorphic family \(f:\mathcal X\to S\) of compact [[differ
 
 ## Conventions and near-misses
 
-A holomorphic family of filtrations with pure Hodge fibers is not a variation unless it is tied to a flat local system and obeys transversality. “VHS” may mean real, rational, integral, or complex variation, and polarization is sometimes included by default; both choices must be stated. Variations are usually assumed to have locally constant Hodge numbers so that the \(F^p\) are subbundles.
+A holomorphic family of filtrations with pure Hodge fibers is not a variation unless it is tied to a flat local system and obeys transversality. “VHS” may mean real, rational, integral, or complex variation, and polarization is sometimes included by default; both choices must be stated. Variations are usually assumed to have locally constant [[differential-geometry/hodge-numbers|Hodge numbers]] so that the \(F^p\) are subbundles.
 
 ## References
 

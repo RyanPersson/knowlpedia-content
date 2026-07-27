@@ -19,7 +19,7 @@ injective \((\mathfrak g,K)\)-homomorphism
 V\hookrightarrow
 \operatorname{Ind}_{P}^{G}(\sigma\otimes e^\nu\otimes 1_N)_{K\text{-finite}}
 \]
-for some finite-dimensional irreducible representation \(\sigma\) of \(M\)
+for some finite-dimensional [[algebra-representation-theory/irreducible-representation|irreducible representation]] \(\sigma\) of \(M\)
 and some \(\nu\in\mathfrak a_{\mathbb C}^{*}\). Thus every irreducible
 admissible module occurs as a submodule of a generally nonunitary
 [[lie-groups/principal-series-representation|principal series]]. The embedding

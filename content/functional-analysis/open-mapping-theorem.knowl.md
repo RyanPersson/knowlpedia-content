@@ -18,7 +18,7 @@ Let \(X\) and \(Y\) be
 B_Y(0,c)\subseteq T(B_X(0,1)).
 \]
 By scaling and translation, this quantitative inclusion gives openness at
-every point. Surjectivity is essential: a proper linear subspace need not be
+every point. Surjectivity is essential: a proper [[convex-analysis/linear-subspace|linear subspace]] need not be
 open [Conway, Chapter VI](https://doi.org/10.1007/978-1-4757-4383-8).
 
 ## Proof mechanism
@@ -40,7 +40,7 @@ quotient projection \(X\to X/M\) is open; this identifies the quotient norm
 topology with the topology forced by the projection.
 
 Completeness cannot simply be omitted. The identity from \(\ell^1\) with its
-\(\ell^1\)-norm onto the same vector space equipped with the \(\ell^2\)-norm
+\(\ell^1\)-norm onto the same [[linear-algebra/vector-space|vector space]] equipped with the \(\ell^2\)-norm
 is a bounded bijection, but its target is incomplete and the inverse is
 unbounded. This does not conflict with the theorem because the target is not
 Banach.

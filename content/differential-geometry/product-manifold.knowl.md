@@ -28,7 +28,7 @@ Under this identification, the differential of the first projection is the proje
 
 ## Examples and scope
 
-Euclidean space satisfies \(\mathbb R^m\times\mathbb R^n\cong\mathbb R^{m+n}\) with its standard smooth structure. A finite product of smooth manifolds is again a smooth manifold, by iteration. Infinite Cartesian products generally are not finite-dimensional manifolds and are outside this definition. If manifolds with boundary are allowed, a product of two such manifolds naturally has corners rather than merely boundary, so it belongs to a larger category unless one factor has empty boundary.
+[[linear-algebra/euclidean-space|Euclidean space]] satisfies \(\mathbb R^m\times\mathbb R^n\cong\mathbb R^{m+n}\) with its standard smooth structure. A finite product of smooth manifolds is again a smooth manifold, by iteration. Infinite Cartesian products generally are not finite-dimensional manifolds and are outside this definition. If manifolds with boundary are allowed, a product of two such manifolds naturally has corners rather than merely boundary, so it belongs to a larger category unless one factor has empty boundary.
 
 ## References
 

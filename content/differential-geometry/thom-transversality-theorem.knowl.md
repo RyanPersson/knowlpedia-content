@@ -8,7 +8,7 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(M,N\) be smooth manifolds, let \(r\geq0\), and let \(W\) be a [[differential-geometry/embedded-submanifold|smooth submanifold]] of the \(r\)-jet bundle \(J^r(M,N)\). The **Thom transversality theorem** states that
+Let \(M,N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]], let \(r\geq0\), and let \(W\) be a [[differential-geometry/embedded-submanifold|smooth submanifold]] of the \(r\)-jet bundle \(J^r(M,N)\). The **Thom transversality theorem** states that
 \[
 \{f\in C^\infty(M,N):j^rf\pitchfork W\}
 \]
@@ -16,7 +16,7 @@ is residual, hence dense, in the [[differential-geometry/whitney-c-infinity-topo
 
 ## Meaning of genericity
 
-A [[topology/residual-set|residual set]] is a countable intersection of open dense sets. Since the Whitney mapping space is a [[topology/baire-space|Baire space]], residual conditions are dense, so every smooth map can be approximated by maps whose \(r\)-jets are transverse to \(W\). The theorem packages many general-position arguments into a single statement about jet extensions.
+A [[topology/residual-set|residual set]] is a countable intersection of open [[topology/dense-set|dense sets]]. Since the Whitney mapping space is a [[topology/baire-space|Baire space]], residual conditions are dense, so every [[fiber-bundles/smooth-map|smooth map]] can be approximated by maps whose \(r\)-jets are transverse to \(W\). The theorem packages many general-position arguments into a single statement about jet extensions.
 
 ## Important special cases
 

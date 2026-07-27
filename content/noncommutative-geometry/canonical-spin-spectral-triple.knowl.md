@@ -8,7 +8,7 @@ domains = ["noncommutative-geometry", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(M\) be a closed Riemannian manifold with a
+Let \(M\) be a closed [[differential-geometry/riemannian-manifold|Riemannian manifold]] with a
 [[fiber-bundles/spin-structure|spin structure]] and complex
 [[differential-geometry/spinor-bundle|spinor bundle]] \(S\). Its **canonical
 spin spectral triple** is
@@ -23,11 +23,11 @@ extends to a bounded operator. These facts make the displayed data a [[noncommut
 
 ## Why the spectral-triple axioms hold
 
-Ellipticity on the compact manifold implies that the resolvent of \(\not D\) is compact. The first-order Leibniz rule identifies its commutator with multiplication by the Clifford field \(c(df)\), which is bounded because \(M\) is compact. Smooth functions are used rather than all of \(C(M)\): a merely continuous function need not preserve the domain of \(\not D\) or have a bounded commutator.
+Ellipticity on the compact manifold implies that the resolvent of \(\not D\) is compact. The first-order Leibniz rule identifies its commutator with multiplication by the Clifford field \(c(df)\), which is bounded because \(M\) is compact. Smooth functions are used rather than all of \(C(M)\): a merely continuous function need not preserve the domain of \(\not D\) or have a [[functional-analysis/bounded-commutator|bounded commutator]].
 
 ## Parity and additional structures
 
-If \(\dim M\) is even, chirality grades \(L^2(M,S)\), commutes with functions, and anticommutes with \(\not D\), producing an [[noncommutative-geometry/even-spectral-triple|even spectral triple]]. In odd dimension the canonical triple is ungraded. Charge conjugation can supply a real structure, but that operator and its dimension-dependent signs are additional data, not part of the three-component spectral triple defined in the core.
+If \(\dim M\) is even, chirality grades \(L^2(M,S)\), commutes with functions, and anticommutes with \(\not D\), producing an [[noncommutative-geometry/even-spectral-triple|even spectral triple]]. In odd dimension the canonical triple is ungraded. [[noncommutative-geometry/real-structure-spectral-triple|Charge conjugation]] can supply a real structure, but that operator and its dimension-dependent signs are additional data, not part of the three-component spectral triple defined in the core.
 
 ## Geometry recovered from the triple
 

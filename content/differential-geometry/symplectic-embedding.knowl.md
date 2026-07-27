@@ -12,7 +12,7 @@ Let \((M,\omega_M)\) and \((N,\omega_N)\) be [[differential-geometry/symplectic-
 \[
 \iota^*\omega_N=\omega_M.
 \]
-Equivalently, it is a [[differential-geometry/symplectic-map|symplectic map]] that is an embedding. Thus the differential \(d\iota_x\) identifies each [[fiber-bundles/tangent-space-at-a-point|tangent space]] \(T_xM\) with a symplectic linear subspace of \(T_{\iota(x)}N\), while the embedding condition also controls the topology of the image. The definition permits positive codimension but forces \(\dim M\leq\dim N\).
+Equivalently, it is a [[differential-geometry/symplectic-map|symplectic map]] that is an embedding. Thus the differential \(d\iota_x\) identifies each [[fiber-bundles/tangent-space-at-a-point|tangent space]] \(T_xM\) with a symplectic [[convex-analysis/linear-subspace|linear subspace]] of \(T_{\iota(x)}N\), while the embedding condition also controls the topology of the image. The definition permits positive codimension but forces \(\dim M\leq\dim N\).
 
 ## Basic properties
 

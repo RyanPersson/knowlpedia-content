@@ -16,7 +16,7 @@ As a set, it is the morphism set \(\operatorname{Hom}_{\mathbf{Man}}(M,N)\) in t
 
 ## Local model and tangent space
 
-Choose a local addition on \(N\), such as one obtained from a Riemannian exponential map. It identifies maps near \(f\) with sections near the [[fiber-bundles/zero-section|zero section]] of the pullback [[fiber-bundles/tangent-bundle|tangent bundle]] \(f^*TN\). For compact \(M\), the tangent space at \(f\) is therefore
+Choose a local addition on \(N\), such as one obtained from a Riemannian [[fiber-bundles/exponential-map|exponential map]]. It identifies maps near \(f\) with sections near the [[fiber-bundles/zero-section|zero section]] of the pullback [[fiber-bundles/tangent-bundle|tangent bundle]] \(f^*TN\). For compact \(M\), the [[differential-geometry/tangent-space|tangent space]] at \(f\) is therefore
 \[
 T_fC^\infty(M,N)\cong\Gamma(M,f^*TN).
 \]

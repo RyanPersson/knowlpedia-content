@@ -16,7 +16,7 @@ is not surjective. Equivalently, \(p\) is critical when the [[differential-geome
 
 ## Scalar-valued maps
 
-For \(f:M\to\mathbb R\), the target is one-dimensional, so \(p\) is critical exactly when \(df_p=0\). In local coordinates this means that all first partial derivatives vanish. After choosing a Riemannian metric, the same condition can be written \(\operatorname{grad}f(p)=0\), but the metric and gradient are not needed for the definition.
+For \(f:M\to\mathbb R\), the target is one-dimensional, so \(p\) is critical exactly when \(df_p=0\). In local coordinates this means that all first [[real-analysis/partial-derivative|partial derivatives]] vanish. After choosing a Riemannian metric, the same condition can be written \(\operatorname{grad}f(p)=0\), but the metric and gradient are not needed for the definition.
 
 ## Dimension and examples
 

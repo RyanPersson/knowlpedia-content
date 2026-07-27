@@ -33,11 +33,11 @@ F_D=D(1+D^2)^{-1/2}\in\mathcal L_B(E).
 \]
 The Baaj–Julg bounded-transform theorem shows that \((E,\pi,F_D)\) is a bounded Kasparov module and hence determines a class in \(KK(A,B)\) [Baaj–Julg, pp. 875–878](https://zbmath.org/0551.46041). Local compactness gives compactness of \(\pi(a)(1-F_D^2)\); the bounded-commutator condition is what controls \([F_D,\pi(a)]\).
 
-The construction generalizes the [[noncommutative-geometry/bounded-transform-spectral-triple|bounded transform of a spectral triple]]. Taking \(B=\mathbb C\) turns a Hilbert \(B\)-module into a Hilbert space and recovers an unbounded Fredholm-module cycle.
+The construction generalizes the [[noncommutative-geometry/bounded-transform-spectral-triple|bounded transform of a spectral triple]]. Taking \(B=\mathbb C\) turns a Hilbert \(B\)-module into a [[linear-algebra/hilbert-space|Hilbert space]] and recovers an unbounded Fredholm-module cycle.
 
 ## Examples and variants
 
-The Dirac operator on a complete Riemannian manifold, acting on an appropriate graded \(L^2\)-module with \(C_0(M)\) represented by multiplication, is the model example: commutators with compactly supported smooth functions are bounded, and multiplication by such functions makes the resolvent locally compact.
+The [[noncommutative-geometry/dirac-operator|Dirac operator]] on a complete [[differential-geometry/riemannian-manifold|Riemannian manifold]], acting on an appropriate graded \(L^2\)-module with \(C_0(M)\) represented by multiplication, is the model example: commutators with compactly supported smooth functions are bounded, and multiplication by such functions makes the resolvent locally compact.
 
 In the unital compact-resolvent case, it is enough to test local compactness at \(a=1\). For nonunital \(A\), requiring the bare resolvent to be compact is generally too strong; the factors \(\pi(a)\) are essential.
 
@@ -45,7 +45,7 @@ In the unital compact-resolvent case, it is enough to test local compactness at 
 
 Some authors put \(\mathcal A\), rather than its \(C^*\)-completion \(A\), into the notation for a cycle. Equivalent definitions may use \(\pi(a)(1+D^2)^{-1/2}\in\mathcal K_B(E)\); this stronger-looking formulation follows from the standard hypotheses in the usual Baaj–Julg framework. In the trivially graded case, an odd cycle is commonly expressed by adjoining the appropriate grading rather than deleting the parity condition.
 
-Regular self-adjointness is the Hilbert-module condition that \(D\pm i\) have dense range. It is stronger than being a closed self-adjoint operator on an underlying Banach space and is needed for continuous functional calculus.
+Regular self-adjointness is the Hilbert-module condition that \(D\pm i\) have dense range. It is stronger than being a closed self-adjoint operator on an underlying [[linear-algebra/banach-space|Banach space]] and is needed for [[operator-algebras/continuous-functional-calculus|continuous functional calculus]].
 
 ## References
 

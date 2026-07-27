@@ -16,7 +16,7 @@ Because \(U(\mathfrak g)\) is generated as an algebra by \(\mathfrak g\), it is 
 
 ## Action on modules
 
-Every \(z\in Z(U(\mathfrak g))\) acts on a \(U(\mathfrak g)\)-module by a module endomorphism. A module has a **central character** when this action is scalar through an algebra homomorphism \(Z(U(\mathfrak g))\to k\); in real-reductive representation theory this scalar action is called an [[lie-groups/infinitesimal-character|infinitesimal character]]. Scalar action is automatic only under appropriate irreducibility and endomorphism hypotheses, not for an arbitrary module.
+Every \(z\in Z(U(\mathfrak g))\) acts on a \(U(\mathfrak g)\)-module by a module endomorphism. A module has a **central character** when this action is scalar through an [[algebra-modules/algebra-homomorphism|algebra homomorphism]] \(Z(U(\mathfrak g))\to k\); in real-reductive representation theory this scalar action is called an [[lie-groups/infinitesimal-character|infinitesimal character]]. Scalar action is automatic only under appropriate irreducibility and endomorphism hypotheses, not for an arbitrary module.
 
 ## Semisimple structure
 

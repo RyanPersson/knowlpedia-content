@@ -30,7 +30,7 @@ The class \([\pi]\) lies in \(\widehat G_{\mathrm{temp}}\) exactly when the
 [[harmonic-analysis/integrated-form-unitary-representation|integrated form]]
 of \(\pi\) factors through the
 [[operator-algebras/reduced-group-cstar-algebra|reduced group \(C^*\)-algebra]] \(C_r^*(G)\). Thus the tempered dual is also called the
-**reduced dual**: it is the irreducible representation spectrum seen by
+**reduced dual**: it is the [[algebra-representation-theory/irreducible-representation|irreducible representation]] spectrum seen by
 \(C_r^*(G)\), rather than by the full group \(C^*\)-algebra
 [Dixmier, §18.8](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/15/suppl/C).
 
@@ -40,8 +40,8 @@ For a second-countable unimodular
 [[lie-groups/type-i-locally-compact-group|type I group]], the
 [[harmonic-analysis/plancherel-measure-nonabelian|Plancherel measure]] is
 supported on the tempered dual. The direct-integral decomposition of the
-regular representation therefore detects only tempered irreducibles, even
-when \(\widehat G_{\mathrm{temp}}\) is a proper subset of \(\widehat G\).
+[[algebra-representation-theory/regular-representation|regular representation]] therefore detects only tempered irreducibles, even
+when \(\widehat G_{\mathrm{temp}}\) is a [[shared-foundations/proper-subset|proper subset]] of \(\widehat G\).
 For real reductive groups, this subset includes the discrete series and the
 [[lie-groups/principal-series-representation|tempered principal series]]
 [Knapp, Chapter XIV](https://www.math.stonybrook.edu/~aknapp/books/repthy1.html).

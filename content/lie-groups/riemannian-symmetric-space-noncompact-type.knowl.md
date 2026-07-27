@@ -16,7 +16,7 @@ no nontrivial Euclidean de Rham factor. Equivalently,
 \[
 X\cong G/K,
 \]
-where \(G\) is a connected noncompact semisimple Lie group with finite center
+where \(G\) is a connected noncompact semisimple [[fiber-bundles/lie-group|Lie group]] with finite center
 and no compact factors, and \(K\) is a
 [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact
 subgroup]]. The quotient is a
@@ -25,11 +25,11 @@ isometries.
 
 ## Infinitesimal model
 
-At the base point \(o=eK\), the tangent space identifies with
+At the base point \(o=eK\), the [[differential-geometry/tangent-space|tangent space]] identifies with
 \(\mathfrak p\) in the
 [[lie-groups/cartan-decomposition-real-reductive-lie-algebra|Cartan
 decomposition]] \(\mathfrak g=\mathfrak k\oplus\mathfrak p\). A suitably
-normalized invariant bilinear form gives the \(G\)-invariant metric. The
+normalized invariant [[linear-algebra/bilinear-form|bilinear form]] gives the \(G\)-invariant metric. The
 relation \([\mathfrak p,\mathfrak p]\subseteq\mathfrak k\) expresses the
 symmetry, and curvature is determined by
 \[
@@ -52,7 +52,7 @@ functions.
 Real hyperbolic space is
 \(\mathrm{SO}_0(n,1)/\mathrm{SO}(n)\), and the space of positive-definite
 determinant-one matrices is
-\(\mathrm{SL}_n(\mathbb R)/\mathrm{SO}(n)\). Euclidean space is symmetric and
+\(\mathrm{SL}_n(\mathbb R)/\mathrm{SO}(n)\). [[linear-algebra/euclidean-space|Euclidean space]] is symmetric and
 nonpositively curved but is excluded by the no-Euclidean-factor clause.
 Compact symmetric spaces, such as round spheres, belong to the compact dual
 theory rather than the noncompact type.

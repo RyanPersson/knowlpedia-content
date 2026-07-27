@@ -38,7 +38,7 @@ G/K\) by a closed chamber. See
 The restricted roots are the nonzero restrictions to \(\mathfrak a\) of
 complex roots, and distinct complex roots may have the same restriction.
 Accordingly, \(W(G,\mathfrak a)\) need not be the full
-[[lie-groups/weyl-group|Weyl group]] of the complexified Lie algebra. It is
+[[lie-groups/weyl-group|Weyl group]] of the complexified [[lie-groups/lie-algebra|Lie algebra]]. It is
 the symmetry group adapted to the real form
 and is often called the **little Weyl group**.
 

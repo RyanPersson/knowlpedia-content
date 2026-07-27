@@ -27,7 +27,7 @@ For a [[operator-algebras/unitary-element|unitary]] \(u\) in a unital
 \operatorname{Ad}_u(a)=uau^*
 \]
 is a \(*\)-automorphism. Such automorphisms are inner; automorphisms not of this
-form are outer. For a nonunital algebra, inner automorphisms are naturally
+form are outer. For a nonunital algebra, [[algebra-groups/inner-automorphism|inner automorphisms]] are naturally
 implemented by unitaries in the
 [[operator-algebras/multiplier-algebra|multiplier algebra]]. The quotient by
 inner automorphisms records genuinely external symmetries
@@ -36,7 +36,7 @@ inner automorphisms records genuinely external symmetries
 ## Preserved structure
 
 Every \(*\)-automorphism is isometric and preserves spectra, positivity,
-ideals, approximate identities, and functional calculus. It therefore acts on
+ideals, [[operator-algebras/approximate-identity|approximate identities]], and functional calculus. It therefore acts on
 the state space by pullback and transports representations by composition.
 For commutative \(A=C_0(X)\), \(*\)-automorphisms correspond contravariantly to
 homeomorphisms of \(X\), giving the basic geometric model

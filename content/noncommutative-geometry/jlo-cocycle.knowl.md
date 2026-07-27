@@ -39,12 +39,12 @@ termwise finiteness
 The JLO class is invariant under suitable differentiable deformations of the
 unbounded cycle. Under stronger summability hypotheses, it represents the
 same periodic cyclic-cohomology class as the Chern character of the associated
-bounded Fredholm module. The heat-kernel formula is especially useful when no
+bounded [[noncommutative-geometry/fredholm-module|Fredholm module]]. The heat-kernel formula is especially useful when no
 finite degree alone captures the character.
 
 ## Odd case and conventions
 
-For an odd spectral triple there is no grading operator \(\gamma\); the odd
+For an [[noncommutative-geometry/odd-spectral-triple|odd spectral triple]] there is no grading operator \(\gamma\); the odd
 JLO character is expressed by odd-degree cochains, equivalently through a
 standard suspension construction. Normalizing constants and rescaling \(D\)
 vary across sources, but they do not change the underlying cohomology class

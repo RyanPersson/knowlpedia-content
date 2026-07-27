@@ -24,19 +24,19 @@ definition.
 ## Projection and corner structure
 
 Every nonzero corner \(pMp\) of a type III factor is again a type III factor.
-Indeed, its center remains scalar and any finite projection in the corner
+Indeed, its center remains scalar and any [[operator-algebras/finite-projection|finite projection]] in the corner
 would be finite in \(M\). Nonzero projections have central support \(1\), and
 the absence of finite projections makes them properly infinite. These
 projection properties distinguish type III factors from both finite factors
-and semifinite infinite factors.
+and [[operator-algebras/type-ii-infinity-factor|semifinite infinite factors]].
 
 ## Traces and modular structure
 
 A type III factor admits no nonzero normal semifinite trace: semifiniteness
 would produce nonzero finite projections.
 [[operator-algebras/normal-state|Normal states]] can nevertheless exist, and
-faithful normal states exist under standard countable decomposability
-hypotheses. Their modular automorphism groups carry structure that cannot
+[[operator-algebras/faithful-normal-state|faithful normal states]] exist under standard countable decomposability
+hypotheses. Their [[operator-algebras/modular-automorphism-group|modular automorphism groups]] carry structure that cannot
 generally be removed by choosing a trace. The resulting modular invariants
 underlie Connes's finer classification; see
 [Takesaki, Chapter XII](https://doi.org/10.1007/978-3-662-10453-8).
@@ -49,7 +49,7 @@ infinite-dimensional is not enough: \(B(\ell^2)\) is an infinite-dimensional
 [[operator-algebras/type-i-factor|type I factor]], and the hyperfinite
 \(\mathrm{II}_1\) factor is infinite-dimensional but finite.
 
-**Warning.** “Type III” for a general von Neumann algebra does not imply
+**Warning.** “Type III” for a general [[operator-algebras/von-neumann-algebra|von Neumann algebra]] does not imply
 factoriality. A type III algebra may have nontrivial center and decompose into
 type III factors only after an appropriate central decomposition.
 

@@ -44,7 +44,7 @@ Positive semidefinite matrices form a closed convex cone: if
 \[
 A\preceq B\quad\Longleftrightarrow\quad B-A\succeq0.
 \]
-This is a partial order, but it is not a total order when \(n>1\). Congruence
+This is a [[shared-foundations/partial-order|partial order]], but it is not a total order when \(n>1\). Congruence
 preserves positivity: \(A\succeq0\) implies \(C^*AC\succeq0\) for every
 compatible matrix \(C\).
 

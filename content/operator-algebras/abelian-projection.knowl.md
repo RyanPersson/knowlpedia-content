@@ -40,7 +40,7 @@ the existence of one nonzero abelian projection, leading to the form
 
 ## Examples and nonexamples
 
-Every projection in an abelian von Neumann algebra is abelian. In \(B(H)\),
+Every projection in an [[operator-algebras/commutative-von-neumann-algebra|abelian von Neumann algebra]] is abelian. In \(B(H)\),
 the abelian projections are exactly the projections of rank at most one.
 By contrast, a type II factor has no nonzero abelian projections, even though
 it has many nonzero [[operator-algebras/finite-projection|finite projections]].

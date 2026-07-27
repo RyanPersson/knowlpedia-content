@@ -40,7 +40,7 @@ Choose local frames in which \(\nabla^E=d+A^E\) and \(\nabla^F=d+A^F\). A homomo
 =
 dT+A^F T-TA^E.
 \]
-Consequently \(T\) is parallel exactly when it intertwines the two covariant derivatives. A parallel bundle isomorphism identifies both connections and conjugates their curvatures. If \(F\) is the trivial [[fiber-bundles/line-bundle|line bundle]] with its trivial connection, the construction recovers the dual connection on \(E^*\).
+Consequently \(T\) is parallel exactly when it intertwines the two covariant derivatives. A parallel [[fiber-bundles/bundle-isomorphism|bundle isomorphism]] identifies both connections and conjugates their curvatures. If \(F\) is the trivial [[fiber-bundles/line-bundle|line bundle]] with its trivial connection, the construction recovers the dual connection on \(E^*\).
 
 ## Conventions and scope
 

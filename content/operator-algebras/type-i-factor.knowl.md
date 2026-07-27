@@ -37,10 +37,10 @@ denoted type \(\mathrm{I}_\infty\).
 
 The algebra \(\mathbb C=B(\mathbb C)\) is the type \(\mathrm{I}_1\) factor.
 Every [[operator-algebras/matrix-cstar-algebra|full matrix algebra]] is a type
-I factor. The algebra \(B(\ell^2)\) is an infinite type I factor: it contains
+I factor. The algebra \(B(\ell^2)\) is an [[operator-algebras/type-i-infinity-factor|infinite type I factor]]: it contains
 rank-one abelian projections, although its identity is infinite.
 
-An abelian von Neumann algebra with more than one point in its spectrum is type
+An abelian [[operator-algebras/von-neumann-algebra|von Neumann algebra]] with more than one point in its spectrum is type
 I but is not a factor, because its center is larger than the scalars. A type
 \(\mathrm{II}\) or type \(\mathrm{III}\) factor has no nonzero abelian
 projection and hence is not type I.

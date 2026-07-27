@@ -8,7 +8,7 @@ domains = ["differential-geometry", "complex-analysis"]
 section_mode = "progressive"
 +++
 
-A **Riemann surface** is a connected [[differential-geometry/complex-manifold|complex manifold]] of complex dimension \(1\). Explicitly, it is a connected Hausdorff, second-countable space \(X\) with an atlas of homeomorphisms \(z_\alpha:U_\alpha\to V_\alpha\subseteq\mathbb C\) whose transition maps \(z_\beta\circ z_\alpha^{-1}\) are [[differential-geometry/holomorphic-map|holomorphic]] wherever defined. Thus \(X\) is an underlying real [[fiber-bundles/smooth-manifold|smooth manifold]] of dimension \(2\), while its complex charts specify which local complex-valued functions and maps are holomorphic.
+A **Riemann surface** is a connected [[differential-geometry/complex-manifold|complex manifold]] of complex dimension \(1\). Explicitly, it is a connected Hausdorff, second-countable space \(X\) with an atlas of homeomorphisms \(z_\alpha:U_\alpha\to V_\alpha\subseteq\mathbb C\) whose transition maps \(z_\beta\circ z_\alpha^{-1}\) are [[differential-geometry/holomorphic-map|holomorphic]] wherever defined. Thus \(X\) is an underlying real [[fiber-bundles/smooth-manifold|smooth manifold]] of dimension \(2\), while its [[differential-geometry/complex-coordinate-chart|complex charts]] specify which local complex-valued functions and maps are holomorphic.
 
 ## Holomorphic structure
 
@@ -16,7 +16,7 @@ A function \(f:X\to\mathbb C\) is holomorphic precisely when \(f\circ z_\alpha^{
 
 ## Underlying orientation
 
-Every Riemann surface has a canonical orientation as a real surface. Indeed, a holomorphic transition map with nonzero complex derivative has positive real Jacobian determinant \(\lvert f'(z)\rvert^2\), so its complex charts are orientation-compatible. This orientation is part of the structure induced by the [[differential-geometry/complex-atlas|complex atlas]], not extra data chosen afterward. The basic manifold and mapping conventions are presented in [Forster, §§1–2](https://doi.org/10.1007/978-1-4612-5961-9).
+Every Riemann surface has a canonical orientation as a real surface. Indeed, a holomorphic transition map with nonzero complex derivative has positive real [[real-analysis/jacobian-determinant|Jacobian determinant]] \(\lvert f'(z)\rvert^2\), so its complex charts are orientation-compatible. This orientation is part of the structure induced by the [[differential-geometry/complex-atlas|complex atlas]], not extra data chosen afterward. The basic manifold and mapping conventions are presented in [Forster, §§1–2](https://doi.org/10.1007/978-1-4612-5961-9).
 
 ## Examples and conventions
 

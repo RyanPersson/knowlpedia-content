@@ -8,7 +8,7 @@ domains = ["noncommutative-geometry", "operator-algebras", "algebra-homological"
 section_mode = "progressive"
 +++
 
-Let \(A\) be a unital Banach algebra, and let \(C^n_{\mathrm{cont}}(A)\) be its continuous \((n+1)\)-linear cochains. An even cochain sequence \(\phi=(\phi_{2k})_{k\geq0}\) is **entire** when
+Let \(A\) be a unital [[functional-analysis/banach-algebra|Banach algebra]], and let \(C^n_{\mathrm{cont}}(A)\) be its continuous \((n+1)\)-linear cochains. An even cochain sequence \(\phi=(\phi_{2k})_{k\geq0}\) is **entire** when
 \[
 \sum_{k\geq0}\frac{\|\phi_{2k}\|}{k!}z^k
 \]
@@ -30,7 +30,7 @@ The resulting class pairs with suitable \(K\)-theory classes and is stable under
 
 For a locally convex algebra, the norm condition is replaced by uniform estimates on every bounded subset. A complete bornological formulation packages precisely which multilinear maps and completions are admissible. These extensions are important for smooth function algebras and for bivariant analytic cyclic theory.
 
-**Warning.** “Entire,” “analytic,” and “local” cyclic cohomology are related but distinct theories. Their completions have different functorial and excision properties. One must also distinguish the cohomological complex of multilinear functionals from the dual homological complex of completed chains.
+**Warning.** “Entire,” “analytic,” and “local” [[noncommutative-geometry/cyclic-cohomology|cyclic cohomology]] are related but distinct theories. Their completions have different functorial and excision properties. One must also distinguish the cohomological complex of multilinear functionals from the dual homological complex of completed chains.
 
 ## References
 

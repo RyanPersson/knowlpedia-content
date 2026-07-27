@@ -8,7 +8,7 @@ domains = ["operator-algebras"]
 section_mode = "progressive"
 +++
 
-Let \(\pi:A\to B(H)\) be a nonzero [[operator-algebras/cstar-representation|representation of a \(C^*\)-algebra]]. It is **irreducible** when the only closed subspaces \(K\subseteq H\) satisfying \(\pi(a)K\subseteq K\) for every \(a\in A\) are \(K=\{0\}\) and \(K=H\). Because \(A\) is closed under involution, every invariant closed subspace is automatically reducing: its orthogonal complement is invariant as well. The word “closed” is essential; irreducibility is a topological condition on the Hilbert-space representation, not algebraic simplicity of the underlying module.
+Let \(\pi:A\to B(H)\) be a nonzero [[operator-algebras/cstar-representation|representation of a \(C^*\)-algebra]]. It is **irreducible** when the only closed subspaces \(K\subseteq H\) satisfying \(\pi(a)K\subseteq K\) for every \(a\in A\) are \(K=\{0\}\) and \(K=H\). Because \(A\) is closed under involution, every invariant closed subspace is automatically reducing: its [[linear-algebra/orthogonal-complement|orthogonal complement]] is invariant as well. The word “closed” is essential; irreducibility is a topological condition on the Hilbert-space representation, not algebraic simplicity of the underlying module.
 
 ## Equivalent characterizations
 
@@ -20,11 +20,11 @@ It is also equivalent to every nonzero vector of \(H\) being cyclic, since the c
 
 ## Kernels and states
 
-The kernel of an irreducible representation is a primitive ideal. Through the [[operator-algebras/gns-construction|GNS construction]], [[operator-algebras/pure-state-cstar-algebra|pure states]] yield irreducible representations, and every irreducible representation is equivalent to one obtained from a pure state after choosing a unit vector. Thus irreducibles connect state-space geometry with ideal structure.
+The [[operator-algebras/primitive-ideal|kernel of an irreducible representation]] is a primitive ideal. Through the [[operator-algebras/gns-construction|GNS construction]], [[operator-algebras/pure-state-cstar-algebra|pure states]] yield irreducible representations, and every irreducible representation is equivalent to one obtained from a pure state after choosing a unit vector. Thus irreducibles connect state-space geometry with ideal structure.
 
 ## Examples and non-examples
 
-The defining representation of the [[operator-algebras/compact-operator-cstar-algebra|compact-operator \(C^*\)-algebra]] \(K(H)\) on a nonzero Hilbert space \(H\) is irreducible. A direct sum \(\pi_1\oplus\pi_2\) with both summands nonzero is reducible because each summand is a proper closed invariant subspace. An irreducible representation may have a nonzero kernel, so it need not be faithful.
+The defining representation of the [[operator-algebras/compact-operator-cstar-algebra|compact-operator \(C^*\)-algebra]] \(K(H)\) on a nonzero [[linear-algebra/hilbert-space|Hilbert space]] \(H\) is irreducible. A direct sum \(\pi_1\oplus\pi_2\) with both summands nonzero is reducible because each summand is a proper closed invariant subspace. An irreducible representation may have a nonzero kernel, so it need not be faithful.
 
 ## References
 

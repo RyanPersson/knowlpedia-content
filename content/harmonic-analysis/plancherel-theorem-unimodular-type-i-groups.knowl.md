@@ -21,9 +21,9 @@ Let \(G\) be a second-countable
 d\mu_{\mathrm{Pl}}(\pi).
 \]
 The [[harmonic-analysis/group-fourier-transform-nonabelian|nonabelian Fourier transform]] extends uniquely to a unitary map from \(L^2(G)\) onto the direct
-integral of the Hilbert spaces of
+integral of the [[linear-algebra/hilbert-space|Hilbert spaces]] of
 [[functional-analysis/hilbert-schmidt-operator|Hilbert–Schmidt operators]] on the
-representation spaces \(\mathcal H_\pi\). The target inner product is
+representation spaces \(\mathcal H_\pi\). The target [[linear-algebra/inner-product|inner product]] is
 obtained by integrating the Hilbert–Schmidt inner products against
 \(\mu_{\mathrm{Pl}}\).
 

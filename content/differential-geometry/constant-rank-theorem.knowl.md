@@ -25,7 +25,7 @@ throughout the constant-rank neighborhood. These conclusions are immediate from 
 
 ## Full-rank special cases
 
-When \(r=m\), the normal form is a coordinate inclusion, giving the local model for a [[fiber-bundles/smooth-immersion|smooth immersion]]. When \(r=n\), it is a coordinate projection, giving the local model for a [[fiber-bundles/smooth-submersion|smooth submersion]]. If \(m=n=r\), it reduces to the inverse function theorem and \(f\) is a [[algebraic-geometry-foundations/local-diffeomorphism|local diffeomorphism]].
+When \(r=m\), the normal form is a coordinate inclusion, giving the local model for a [[fiber-bundles/smooth-immersion|smooth immersion]]. When \(r=n\), it is a coordinate projection, giving the local model for a [[fiber-bundles/smooth-submersion|smooth submersion]]. If \(m=n=r\), it reduces to the [[shared-foundations/inverse-function|inverse function]] theorem and \(f\) is a [[algebraic-geometry-foundations/local-diffeomorphism|local diffeomorphism]].
 
 ## Conventions and scope
 

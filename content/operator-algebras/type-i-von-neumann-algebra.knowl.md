@@ -22,7 +22,7 @@ confused with the separate notion of a type I \(C^*\)-algebra.
 ## Factor case and homogeneous pieces
 
 A [[operator-algebras/von-neumann-factor|von Neumann factor]] is type I exactly
-when it is isomorphic to \(B(H)\) for some Hilbert space \(H\). It is called
+when it is isomorphic to \(B(H)\) for some [[linear-algebra/hilbert-space|Hilbert space]] \(H\). It is called
 type \(\mathrm{I}_n\) when \(\dim H=n<\infty\), and type
 \(\mathrm{I}_\infty\) when \(H\) is infinite-dimensional. A general type I
 von Neumann algebra is assembled over its center from such homogeneous type I
@@ -30,10 +30,10 @@ pieces; the dimensions of the factor fibers need not be constant.
 
 ## Abelian and concrete examples
 
-Every abelian von Neumann algebra is type I because each projection \(p\)
+Every [[operator-algebras/commutative-von-neumann-algebra|abelian von Neumann algebra]] is type I because each projection \(p\)
 has an abelian corner \(pMp\). Matrix algebras \(M_n(\mathbb C)\) and full
-operator algebras \(B(H)\) are type I factors. By contrast, a type II factor
-has no nonzero abelian projection, and a type III factor has no nonzero finite
+operator algebras \(B(H)\) are [[operator-algebras/type-i-factor|type I factors]]. By contrast, a type II factor
+has no nonzero abelian projection, and a [[operator-algebras/type-iii-factor|type III factor]] has no nonzero finite
 projection. These contrasts concern factor types; a general von Neumann
 algebra may have nonzero central summands of several types.
 

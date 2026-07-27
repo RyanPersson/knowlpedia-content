@@ -21,7 +21,7 @@ where \(L_D\) is the [[noncommutative-geometry/lipschitz-seminorm-spectral-tripl
 
 ## Why it is a distance
 
-Symmetry and the triangle inequality follow from the absolute value and
+Symmetry and the [[real-analysis/triangle-inequality|triangle inequality]] follow from the [[real-analysis/absolute-value|absolute value]] and
 linearity of states. If \(L_D(a)=0\), every scalar multiple of \(a\) remains
 admissible. Hence two states differing on such an element are at infinite
 distance. If all zero-seminorm self-adjoint elements are scalar, equality
@@ -38,7 +38,7 @@ for the Lipschitz unit ball modulo scalars to be suitably totally bounded
 
 For the canonical spin spectral triple of a connected closed Riemannian spin
 manifold \(M\), evaluation at \(x\in M\) defines a pure state
-\(\delta_x\). Because \(\lVert[\not D,f]\rVert\) is the supremum norm of
+\(\delta_x\). Because \(\lVert[\not D,f]\rVert\) is the [[real-analysis/supremum-norm|supremum norm]] of
 \(df\), the dual formula for geodesic distance gives
 \[
 d_{\not D}(\delta_x,\delta_y)=d_{\mathrm{geo}}(x,y).

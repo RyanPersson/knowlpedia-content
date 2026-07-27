@@ -31,11 +31,11 @@ where \(p_1,\ldots,p_n\in\mathcal P\) and \(\varepsilon>0\). Conversely, the Min
 
 ## Separation
 
-The seminorm topology is Hausdorff exactly when the defining family separates points: for each nonzero \(x\in E\), some \(p\in\mathcal P\) satisfies \(p(x)>0\). Under this separation hypothesis, the Hahn–Banach theorem gives a rich [[functional-analysis/topological-dual|topological dual]] and makes continuous linear functionals effective probes of the space.
+The seminorm topology is Hausdorff exactly when the defining family [[real-analysis/separates-points|separates points]]: for each nonzero \(x\in E\), some \(p\in\mathcal P\) satisfies \(p(x)>0\). Under this separation hypothesis, the Hahn–Banach theorem gives a rich [[functional-analysis/topological-dual|topological dual]] and makes continuous linear functionals effective probes of the space.
 
 ## Examples and nonexamples
 
-Every [[linear-algebra/normed-vector-space|normed vector space]] is locally convex, using its norm as one seminorm. Product spaces, spaces of smooth functions, and Schwartz spaces naturally require families of seminorms. By contrast, many \(L^p\)-spaces with \(0<p<1\), equipped with their usual complete translation-invariant metrics, are topological vector spaces whose topologies are not locally convex.
+Every [[linear-algebra/normed-vector-space|normed vector space]] is locally convex, using its norm as one seminorm. [[convex-analysis/product-space-cartesian-product|Product spaces]], spaces of smooth functions, and [[functional-analysis/schwartz-space|Schwartz spaces]] naturally require families of seminorms. By contrast, many \(L^p\)-spaces with \(0<p<1\), equipped with their usual complete translation-invariant metrics, are topological vector spaces whose topologies are not locally convex.
 
 The seminorm formulation and its use in distribution theory are developed in [Trèves, Chapter 7](https://shop.elsevier.com/books/topological-vector-spaces-distributions-and-kernels/treves/978-1-4831-9859-0).
 

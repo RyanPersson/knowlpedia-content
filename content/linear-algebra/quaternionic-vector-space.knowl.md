@@ -11,7 +11,7 @@ section_mode = "progressive"
 A **quaternionic vector space** is a vector space over the
 [[linear-algebra/quaternion-division-algebra|quaternion division algebra]]
 \(\mathbb H\), meaning a unital left or right \(\mathbb H\)-module. In this
-knowl the default is a **right** quaternionic vector space: an abelian group
+knowl the default is a **right** quaternionic vector space: an [[algebra-groups/abelian-group|abelian group]]
 \(V\) with products \(vq\) satisfying
 \[
 (v+w)q=vq+wq,\qquad v(q+r)=vq+vr,\qquad (vq)r=v(qr),\qquad v1=v.

@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 A [[operator-algebras/von-neumann-algebra|von Neumann algebra]] \(M\) is
 **properly infinite** when its identity \(1_M\) is a properly infinite
-projection: there are orthogonal projections \(p_1,p_2\leq1_M\) and partial
+projection: there are [[linear-algebra/orthogonal-projection|orthogonal projections]] \(p_1,p_2\leq1_M\) and partial
 isometries \(v_1,v_2\in M\) such that
 \[
 v_i^*v_i=1_M,\qquad v_iv_i^*=p_i\quad(i=1,2).
@@ -34,17 +34,17 @@ occur. This characterization is part of the comparison theory of projections
 
 ## Isometries and amplification
 
-The partial isometries in the core are isometries with orthogonal range
+The [[functional-analysis/partial-isometry|partial isometries]] in the core are isometries with orthogonal range
 projections. By iterating the construction, one obtains countably many
 orthogonal subprojections equivalent to the identity when the relevant
 decomposition is countable. Proper infiniteness is consequently stable under
-matrix amplification, and \(M\) absorbs finite matrix factors up to von
+matrix amplification, and \(M\) absorbs finite [[operator-algebras/type-i-n-factor|matrix factors]] up to von
 Neumann algebra isomorphism under the usual spatial identifications.
 
 ## Examples and non-examples
 
-For every infinite-dimensional Hilbert space \(H\), \(B(H)\) is properly
-infinite: split an orthonormal basis into two subsets of the same cardinality
+For every infinite-dimensional [[linear-algebra/hilbert-space|Hilbert space]] \(H\), \(B(H)\) is properly
+infinite: split an [[linear-algebra/orthonormal-basis|orthonormal basis]] into two subsets of the same cardinality
 and use the resulting isometries.
 [[operator-algebras/type-ii-infinity-factor|Type
 \(\mathrm{II}_\infty\)]] and
@@ -60,7 +60,7 @@ and type
 **Warning.** “Properly infinite algebra” here refers to a unital von Neumann
 algebra through its identity projection. For nonunital \(C^*\)-algebras,
 proper infiniteness is formulated in several nonequivalent ways, often using
-positive elements, multiplier algebras, or stabilization; those conventions
+positive elements, [[operator-algebras/multiplier-algebra|multiplier algebras]], or stabilization; those conventions
 should not be imported without qualification.
 
 ## References

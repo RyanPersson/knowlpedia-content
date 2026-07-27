@@ -8,7 +8,7 @@ domains = ["noncommutative-geometry", "algebra-homological"]
 section_mode = "progressive"
 +++
 
-Let \(A\) be a unital algebra over a commutative ring \(k\), let \(M\) be an \(A\)-bimodule, and let
+Let \(A\) be a unital [[algebra-modules/algebra-over-ring|algebra over a commutative ring]] \(k\), let \(M\) be an \(A\)-bimodule, and let
 \[
 \bigl(C_\bullet(A,M),b\bigr)
 \]
@@ -34,8 +34,8 @@ one-chains can be cycles even when their individual summands are not.
 
 ## Orientation in spectral geometry
 
-The orientation axiom for a spectral triple uses a Hochschild cycle with
-coefficients in a bimodule involving the opposite algebra. Its represented
+The orientation axiom for a [[noncommutative-geometry/spectral-triple|spectral triple]] uses a Hochschild cycle with
+coefficients in a bimodule involving the [[operator-algebras/opposite-algebra|opposite algebra]]. Its represented
 image under
 \[
 a_0\otimes\cdots\otimes a_n

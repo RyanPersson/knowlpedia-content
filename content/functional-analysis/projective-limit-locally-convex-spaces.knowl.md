@@ -13,7 +13,7 @@ Let \((E_i,\pi_{ij})\) be a projective system of [[functional-analysis/locally-c
 \varprojlim_i E_i
 =\{(x_i)\in\prod_iE_i:\pi_{ij}(x_j)=x_i\text{ whenever }i\le j\},
 \]
-equipped with the [[topology/subspace-topology|subspace topology]] inherited from the product's [[topology/product-topology|product topology]]. The coordinate projections are continuous linear maps and jointly determine this topology.
+equipped with the [[topology/subspace-topology|subspace topology]] inherited from the product's [[topology/product-topology|product topology]]. The coordinate projections are continuous [[linear-algebra/linear-map|linear maps]] and jointly determine this topology.
 In particular, the resulting space is locally convex.
 
 ## Universal property

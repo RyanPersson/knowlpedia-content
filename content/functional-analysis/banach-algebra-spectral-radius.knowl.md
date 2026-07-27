@@ -52,7 +52,7 @@ spectral radius can be strictly smaller than the norm for nonnormal ones.
 For a matrix, the spectral radius is the maximum modulus of its eigenvalues.
 The matrix
 \(\begin{pmatrix}0&1\\0&0\end{pmatrix}\) has spectral radius zero but
-positive operator norm. For multiplication by a continuous function \(f\)
+positive [[linear-algebra/operator-norm|operator norm]]. For multiplication by a continuous function \(f\)
 on \(C(X)\), the spectral radius is \(\max_{x\in X}|f(x)|\).
 
 ## References

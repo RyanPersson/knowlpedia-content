@@ -43,7 +43,7 @@ spectral perturbation theory
 
 ## Comparison of two operators
 
-Suppose \(A\) and \(B\) are closed operators and \(A-B\) acts on the range
+Suppose \(A\) and \(B\) are [[functional-analysis/closed-linear-operator|closed operators]] and \(A-B\) acts on the range
 needed below, as happens when they have a common domain and \(A-B\) extends to
 a bounded operator. At a common resolvent point \(\lambda\),
 \[

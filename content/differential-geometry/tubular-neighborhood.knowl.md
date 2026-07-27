@@ -16,7 +16,7 @@ After choosing a Riemannian metric on \(M\), the normal bundle may be represente
 
 ## Geometric uses
 
-Fiberwise scalar multiplication in \(\nu\) transports through \(\Phi\) to a smooth deformation retraction of \(\Phi(U)\) onto \(S\), after shrinking to a fiberwise star-shaped neighborhood if necessary. Tubular neighborhoods also make extension of sections, construction of [[fiber-bundles/thom-class|Thom classes]], and comparison of nearby submanifolds local problems on a vector bundle.
+Fiberwise scalar multiplication in \(\nu\) transports through \(\Phi\) to a smooth deformation retraction of \(\Phi(U)\) onto \(S\), after shrinking to a fiberwise star-shaped neighborhood if necessary. Tubular neighborhoods also make extension of sections, construction of [[fiber-bundles/thom-class|Thom classes]], and comparison of nearby submanifolds local problems on a [[fiber-bundles/vector-bundle|vector bundle]].
 
 ## Examples and scope
 

@@ -14,7 +14,7 @@ Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]] of co
 \Omega^{p,1}(X)\xrightarrow{\bar\partial}\cdots
 \xrightarrow{\bar\partial}\Omega^{p,n}(X)\longrightarrow0,
 \]
-where \(\Omega^{p,q}(X)\) is the complex vector space of smooth \((p,q)\)-forms and \(\bar\partial\) is the \((0,1)\) [[differential-geometry/dolbeault-operators|Dolbeault operator]]. The identity \(\bar\partial^2=0\) makes consecutive arrows compose to zero. Unless \(p\) is specified, “the Dolbeault complex” may also mean the resulting family over all \(p\).
+where \(\Omega^{p,q}(X)\) is the complex [[linear-algebra/vector-space|vector space]] of smooth \((p,q)\)-forms and \(\bar\partial\) is the \((0,1)\) [[differential-geometry/dolbeault-operators|Dolbeault operator]]. The identity \(\bar\partial^2=0\) makes consecutive arrows compose to zero. Unless \(p\) is specified, “the Dolbeault complex” may also mean the resulting family over all \(p\).
 Each vector space and arrow is complex-linear, and the cochain grading is the antiholomorphic form degree \(q\).
 
 ## Local exactness and sheaves

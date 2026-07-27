@@ -8,15 +8,15 @@ domains = ["lie-groups", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a finite-dimensional [[fiber-bundles/lie-group|Lie group]] and let \((\pi,\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]]. A vector \(\xi\in\mathcal H\) is a **smooth vector** if its orbit map
+Let \(G\) be a finite-dimensional [[fiber-bundles/lie-group|Lie group]] and let \((\pi,\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]]. A vector \(\xi\in\mathcal H\) is a **smooth vector** if its [[fiber-bundles/orbit-map|orbit map]]
 \[
 G\longrightarrow\mathcal H,\qquad g\longmapsto\pi(g)\xi,
 \]
-is \(C^\infty\) as a map from the smooth manifold \(G\) to the Hilbert space \(\mathcal H\), with differentiability taken in the norm topology. The space of all smooth vectors is denoted \(\mathcal H^\infty\). It is a \(\pi(G)\)-invariant linear subspace and is dense in \(\mathcal H\).
+is \(C^\infty\) as a map from the [[fiber-bundles/smooth-manifold|smooth manifold]] \(G\) to the [[linear-algebra/hilbert-space|Hilbert space]] \(\mathcal H\), with differentiability taken in the norm topology. The space of all smooth vectors is denoted \(\mathcal H^\infty\). It is a \(\pi(G)\)-invariant [[convex-analysis/linear-subspace|linear subspace]] and is dense in \(\mathcal H\).
 
 ## Differentiation
 
-For \(X\) in the Lie algebra \(\mathfrak g\) and \(\xi\in\mathcal H^\infty\), the norm derivative
+For \(X\) in the [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\) and \(\xi\in\mathcal H^\infty\), the norm derivative
 \[
 d\pi(X)\xi=\left.\frac{d}{dt}\right|_{t=0}\pi(\exp(tX))\xi
 \]

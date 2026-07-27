@@ -20,12 +20,12 @@ for every \(\varphi\in C_c^\infty(\Omega)\). Equivalently, the
 [[functional-analysis/distributional-derivative|distributional derivative]]
 of the regular distribution defined by \(f\) is the regular distribution
 defined by \(g\). A weak derivative, when it exists, is unique up to equality
-almost everywhere.
+[[measure-theory/almost-everywhere|almost everywhere]].
 
 ## Agreement with classical derivatives
 
-If \(f\in C^1(\Omega)\), integration by parts shows that its classical
-partial derivative is also its weak derivative. More generally, a locally
+If \(f\in C^1(\Omega)\), [[real-analysis/integration-by-parts|integration by parts]] shows that its classical
+[[real-analysis/partial-derivative|partial derivative]] is also its weak derivative. More generally, a locally
 [[analysis/absolute-continuity|absolutely continuous]] function on an interval
 has a weak derivative equal almost everywhere to its ordinary derivative.
 Weak differentiation therefore extends rather than replaces classical

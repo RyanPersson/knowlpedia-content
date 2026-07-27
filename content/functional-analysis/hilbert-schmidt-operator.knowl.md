@@ -68,7 +68,7 @@ On \(\ell^2\), the diagonal operator
 \(T(x_n)=(a_nx_n)\) is Hilbert–Schmidt exactly when
 \((a_n)\in\ell^2\), and then
 \(\lVert T\rVert_{\mathrm{HS}}=\lVert(a_n)\rVert_{\ell^2}\). Every
-finite-rank operator is Hilbert–Schmidt.
+[[functional-analysis/finite-rank-operator|finite-rank operator]] is Hilbert–Schmidt.
 
 The diagonal operator with \(a_n=n^{-1/2}\) is compact but not
 Hilbert–Schmidt. Thus convergence of singular values to zero is insufficient;

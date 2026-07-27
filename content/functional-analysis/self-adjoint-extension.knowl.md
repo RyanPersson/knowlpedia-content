@@ -50,7 +50,7 @@ f(1)=e^{i\theta}f(0),\qquad \theta\in[0,2\pi).
 The minimal Laplacian on an interval likewise has many extensions, including
 Dirichlet, Neumann, and periodic realizations. These choices can have different
 spectra even though they agree with the same differential expression on
-compactly supported smooth functions.
+[[functional-analysis/test-function-space|compactly supported smooth functions]].
 
 ## Uniqueness and nonexistence
 

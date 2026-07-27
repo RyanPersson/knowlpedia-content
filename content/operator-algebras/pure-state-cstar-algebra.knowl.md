@@ -34,7 +34,7 @@ convention for the definition
 ## Standard examples
 
 For \(A=C_0(X)\), pure states are evaluations \(f\mapsto f(x)\) at points
-\(x\in X\); equivalently, they are the multiplicative states. On
+\(x\in X\); equivalently, they are the [[operator-algebras/character-cstar-algebra|multiplicative states]]. On
 \(M_n(\mathbb C)\), pure states are
 [[operator-algebras/vector-state|vector states]]
 \(\varphi(a)=\langle a\xi,\xi\rangle\) for unit vectors \(\xi\), or

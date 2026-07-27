@@ -27,7 +27,7 @@ the KMS condition at inverse temperature \(1\).
 
 The state is invariant under its modular group:
 \(\varphi\circ\sigma_t^\varphi=\varphi\). More strongly, among suitably
-continuous one-parameter automorphism groups, the KMS boundary relation
+continuous one-parameter [[algebra-groups/automorphism-group|automorphism groups]], the KMS boundary relation
 determines the modular group of a faithful normal state. This is why modular
 flow can be described intrinsically, without choosing a particular GNS
 realization [Takesaki, vol. II, Chapter VIII, §1](https://doi.org/10.1007/978-3-662-10451-4).

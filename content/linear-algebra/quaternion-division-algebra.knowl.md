@@ -61,7 +61,7 @@ The elements of norm one form a group isomorphic to \(\operatorname{Sp}(1)\) and
 
 ## Remarks
 
-The algebra \(\mathbb H\) is not the quaternion group \(Q_8\). The latter is the finite multiplicative subgroup \(\{\pm1,\pm i,\pm j,\pm k\}\) inside \(\mathbb H^\times\). Quaternionic vector spaces also require a choice of left or right scalar multiplication because \(\mathbb H\) is noncommutative.
+The algebra \(\mathbb H\) is not the quaternion group \(Q_8\). The latter is the finite multiplicative subgroup \(\{\pm1,\pm i,\pm j,\pm k\}\) inside \(\mathbb H^\times\). [[linear-algebra/quaternionic-vector-space|Quaternionic vector spaces]] also require a choice of left or right scalar multiplication because \(\mathbb H\) is noncommutative.
 
 ## References
 

@@ -32,7 +32,7 @@ Every cohomology class is therefore uniquely assembled from primitive classes an
 
 ## Examples and scope
 
-On projective space \(\mathbb{CP}^n\), the only primitive cohomology is \(P^0\): every positive even-degree generator is a positive power of the Kähler class. By contrast, the middle cohomology of a projective hypersurface can contain a substantial primitive summand.
+On [[algebraic-geometry-foundations/projective-space|projective space]] \(\mathbb{CP}^n\), the only primitive cohomology is \(P^0\): every positive even-degree generator is a positive power of the Kähler class. By contrast, the middle cohomology of a projective hypersurface can contain a substantial primitive summand.
 
 **Warning.** Some authors call a differential form primitive whenever \(\Lambda\alpha=0\), without requiring harmonicity. Such forms need not define primitive cohomology classes unless they are closed and their harmonic representatives remain primitive.
 

@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(A\) and \(B\) be [[operator-algebras/cstar-algebra|\(C^*\)-algebras]]. A
-bounded linear map \(\Phi:A\to B\) is **completely positive** if it is
+bounded [[linear-algebra/linear-map|linear map]] \(\Phi:A\to B\) is **completely positive** if it is
 [[operator-algebras/n-positive-map|\(n\)-positive]] for every integer
 \(n\geq1\). Explicitly, for each \(n\), the entrywise amplification
 \[
@@ -39,7 +39,7 @@ unitary equivalence
 ## Closure properties and examples
 
 Every [[operator-algebras/star-homomorphism|\(*\)-homomorphism]] is completely
-positive. Compositions and nonnegative linear combinations of completely
+positive. Compositions and nonnegative [[convex-analysis/linear-combination|linear combinations]] of completely
 positive maps are completely positive, as are maps
 \(a\mapsto V^*\pi(a)V\). A
 [[operator-algebras/positive-linear-functional|positive linear functional]]

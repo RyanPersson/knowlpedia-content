@@ -8,7 +8,7 @@ domains = ["harmonic-analysis", "measure-theory", "topology"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a Hausdorff [[topology/locally-compact-group|locally compact group]], and let \(C_c(G)\) denote the complex-valued continuous functions on \(G\) with compact support. A **left Haar integral** is a nonzero positive linear functional
+Let \(G\) be a Hausdorff [[topology/locally-compact-group|locally compact group]], and let \(C_c(G)\) denote the complex-valued continuous functions on \(G\) with compact support. A **left Haar integral** is a nonzero [[operator-algebras/positive-linear-functional|positive linear functional]]
 \[
 I:C_c(G)\longrightarrow\mathbb C
 \]
@@ -30,7 +30,7 @@ for finitely supported \(f\). On \(\mathbb R^n\) under addition, Lebesgue integr
 
 ## Left and right invariance
 
-Replacing left translations by \(R_gf(x)=f(xg)\) defines a right Haar integral. Every locally compact group has both kinds. They coincide up to scale exactly in the [[harmonic-analysis/unimodular-group|unimodular]] case; in general, the [[harmonic-analysis/modular-function|modular function]] records how a left Haar integral changes under right translation.
+Replacing [[lie-groups/left-translation|left translations]] by \(R_gf(x)=f(xg)\) defines a right Haar integral. Every locally compact group has both kinds. They coincide up to scale exactly in the [[harmonic-analysis/unimodular-group|unimodular]] case; in general, the [[harmonic-analysis/modular-function|modular function]] records how a left Haar integral changes under [[lie-groups/right-translation|right translation]].
 
 The functional construction, representation by invariant measures, and uniqueness theorem are presented in [Hewitt and Ross, “Invariant Functionals”](https://doi.org/10.1007/978-3-662-40409-6).
 

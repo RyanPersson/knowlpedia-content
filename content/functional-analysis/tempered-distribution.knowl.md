@@ -25,7 +25,7 @@ integer \(N\) such that
 \sup_{x\in\mathbb R^n}|x^\alpha\partial^\beta\varphi(x)|
 \]
 for every \(\varphi\in\mathcal S(\mathbb R^n)\). Restriction to compactly
-supported test functions makes every tempered distribution a
+supported [[functional-analysis/test-function-space|test functions]] makes every tempered distribution a
 [[functional-analysis/distribution|distribution]], but not every
 distribution is tempered.
 
@@ -53,9 +53,9 @@ The
 is an automorphism of \(\mathcal S(\mathbb R^n)\), so it extends to
 \(\mathcal S'(\mathbb R^n)\) by duality. This extension includes objects such
 as plane waves and delta distributions that are not integrable functions.
-The notation \(\mathcal S'\) specifies the continuous dual as a vector space;
+The notation \(\mathcal S'\) specifies the continuous dual as a [[linear-algebra/vector-space|vector space]];
 when convergence of tempered distributions is discussed, one must
-additionally specify the weak-star or strong dual topology.
+additionally specify the weak-star or [[functional-analysis/strong-dual|strong dual topology]].
 
 ## References
 

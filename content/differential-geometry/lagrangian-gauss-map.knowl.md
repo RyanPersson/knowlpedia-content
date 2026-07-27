@@ -25,7 +25,7 @@ Given a symplectic trivialization
 \[
 \tau:f^*TM\overset{\sim}{\longrightarrow}L\times(V,\omega_0),
 \]
-the Gauss map becomes \(\gamma_{f,\tau}(x)=\tau_x(df_x(T_xL))\in\Lambda(V)\). Replacing \(\tau\) by a varying symplectic transformation acts pointwise on \(\Lambda(V)\). Therefore constructions that pull back a class from one fixed Lagrangian Grassmannian must record the trivialization or an equivalent Maslov datum when the ambient tangent bundle is not canonically trivialized.
+the Gauss map becomes \(\gamma_{f,\tau}(x)=\tau_x(df_x(T_xL))\in\Lambda(V)\). Replacing \(\tau\) by a varying symplectic transformation acts pointwise on \(\Lambda(V)\). Therefore constructions that pull back a class from one fixed Lagrangian Grassmannian must record the trivialization or an equivalent Maslov datum when the ambient [[fiber-bundles/tangent-bundle|tangent bundle]] is not canonically trivialized.
 
 ## Examples
 

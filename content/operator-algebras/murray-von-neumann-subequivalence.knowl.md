@@ -27,14 +27,14 @@ subequivalences.
 
 Subequivalence is reflexive and transitive. Murray–von Neumann equivalence
 implies subequivalence in both directions, and for projections in a von
-Neumann algebra the converse also holds. Passing to equivalence classes
-therefore turns \(\precsim\) into a partial order. Orthogonal sums respect the
+Neumann algebra the converse also holds. Passing to [[shared-foundations/equivalence-class|equivalence classes]]
+therefore turns \(\precsim\) into a [[shared-foundations/partial-order|partial order]]. Orthogonal sums respect the
 relation: if \(p_i\precsim q_i\) with mutually orthogonal families, then the
 corresponding sums are subequivalent whenever they exist.
 
 ## Central obstruction
 
-In a von Neumann algebra, \(p\precsim q\) implies
+In a [[operator-algebras/von-neumann-algebra|von Neumann algebra]], \(p\precsim q\) implies
 \(c_M(p)\leq c_M(q)\), where \(c_M\) denotes
 [[operator-algebras/central-support|central support]]. This condition alone
 does not compare the sizes of \(p\) and \(q\) inside each central summand.
@@ -46,7 +46,7 @@ the other subequivalence holds.
 For finite-dimensional matrix algebras, \(p\precsim q\) exactly when
 \(\operatorname{rank}(p)\leq\operatorname{rank}(q)\). In general von Neumann
 algebras, subequivalence replaces rank comparison. It is used to define
-finite, infinite, and properly infinite projections and underlies the
+finite, infinite, and [[operator-algebras/properly-infinite-projection|properly infinite projections]] and underlies the
 Murray–von Neumann classification of factors.
 
 ## References

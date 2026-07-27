@@ -16,7 +16,7 @@ JMJ=M',\qquad J\xi=\xi\quad(\xi\in P),
 xJxJ(P)\subseteq P\quad(x\in M),
 \qquad JzJ=z^*\quad(z\in Z(M)).
 \]
-The cone \(P\) is the [[operator-algebras/natural-positive-cone|natural positive cone]], and \(J\) plays the role of [[operator-algebras/modular-conjugation|modular conjugation]]. All four compatibility conditions belong to the standard-form package; merely realizing \(M\) faithfully on a Hilbert space does not give a standard form.
+The cone \(P\) is the [[operator-algebras/natural-positive-cone|natural positive cone]], and \(J\) plays the role of [[operator-algebras/modular-conjugation|modular conjugation]]. All four compatibility conditions belong to the standard-form package; merely realizing \(M\) faithfully on a [[linear-algebra/hilbert-space|Hilbert space]] does not give a standard form.
 
 ## Existence and uniqueness
 
@@ -33,7 +33,7 @@ For every [[operator-algebras/normal-functional|normal positive functional]] \(\
 \varphi(x)=\langle x\xi_\varphi,\xi_\varphi\rangle
 \qquad(x\in M).
 \]
-Thus the cone removes the nonuniqueness that normally occurs when a positive functional is represented by a vector in an arbitrary representation.
+Thus the cone removes the nonuniqueness that normally occurs when a [[operator-algebras/positive-linear-functional|positive functional]] is represented by a vector in an arbitrary representation.
 
 ## Conventions and scope
 

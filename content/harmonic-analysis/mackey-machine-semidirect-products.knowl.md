@@ -20,7 +20,7 @@ Restricting a representation of \(G\) to the abelian [[algebra-groups/normal-sub
 
 ## Example: Euclidean motion groups
 
-For \(G=\mathbb R^n\rtimes SO(n)\), the dual of the translation subgroup is \(\widehat{\mathbb R^n}\cong\mathbb R^n\). Nonzero orbits are spheres. The stabilizer of a nonzero covector is isomorphic to \(SO(n-1)\), so a radius together with an irreducible representation of \(SO(n-1)\) determines an induced irreducible representation. The zero orbit has little group \(SO(n)\) and gives representations trivial on translations.
+For \(G=\mathbb R^n\rtimes SO(n)\), the dual of the translation subgroup is \(\widehat{\mathbb R^n}\cong\mathbb R^n\). Nonzero orbits are spheres. The stabilizer of a nonzero covector is isomorphic to \(SO(n-1)\), so a radius together with an [[algebra-representation-theory/irreducible-representation|irreducible representation]] of \(SO(n-1)\) determines an induced irreducible representation. The zero orbit has little group \(SO(n)\) and gives representations trivial on translations.
 
 ## Hypotheses and scope
 

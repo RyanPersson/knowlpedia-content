@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(T:\operatorname{Dom}(T)\subseteq X\to X\) be a
 [[functional-analysis/closed-linear-operator|closed linear operator]] on a
-complex Banach space. Its **resolvent set** is
+complex [[linear-algebra/banach-space|Banach space]]. Its **resolvent set** is
 \[
 \rho(T)=\{\lambda\in\mathbb C:\lambda I-T\text{ is bijective and }
 (\lambda I-T)^{-1}:X\to X\text{ is bounded}\}.
@@ -34,7 +34,7 @@ The resolvent set is open in \(\mathbb C\), and
 R(\lambda,T)-R(\mu,T)
   =(\mu-\lambda)R(\lambda,T)R(\mu,T).
 \]
-This resolvent identity gives a local Neumann-series expansion and explains
+This [[functional-analysis/resolvent-identity|resolvent identity]] gives a local Neumann-series expansion and explains
 both openness and holomorphy. The
 [[functional-analysis/spectrum-closed-operator|spectrum of \(T\)]] is the complement
 \(\mathbb C\setminus\rho(T)\); for an unbounded operator that complement need
@@ -55,7 +55,7 @@ turns an algebraic inverse defined on all of \(X\) into a bounded one
 For the multiplication operator \((Tf)(x)=x f(x)\) on \(L^2(\mathbb R)\),
 with maximal domain \(\{f:xf\in L^2(\mathbb R)\}\), every
 \(\lambda\notin\mathbb R\) lies in \(\rho(T)\). The resolvent multiplies by
-\((\lambda-x)^{-1}\), whose essential supremum is at most
+\((\lambda-x)^{-1}\), whose [[measure-theory/essential-supremum|essential supremum]] is at most
 \(|\operatorname{Im}\lambda|^{-1}\). No real \(\lambda\) is in the resolvent
 set.
 

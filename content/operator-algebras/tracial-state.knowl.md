@@ -48,7 +48,7 @@ equal twice itself.
 
 ## Bounded and unbounded notions
 
-**Warning.** An extended-valued tracial weight on \(A_+\) is often also called
+**Warning.** An extended-valued [[operator-algebras/tracial-weight|tracial weight]] on \(A_+\) is often also called
 a trace. Such a weight may be unbounded and may require lower
 semicontinuity, density, semifiniteness, or normality hypotheses. A tracial
 state is always a bounded everywhere-defined functional, so those extended

@@ -36,7 +36,7 @@ The basic \(SU(2)\) BPST instanton on \(\mathbb R^4\) gives a nonflat solution o
 
 ## Conventions and scope
 
-The four-dimensional hypothesis is essential to this formulation: only in dimension four does the Hodge star carry two-forms to two-forms and square to \(+1\) in Riemannian signature. The equations themselves do not require compactness of \(M\), but finite-action moduli theory normally imposes compactness or decay conditions and uses an \(\operatorname{Ad}\)-invariant inner product on the Lie algebra.
+The four-dimensional hypothesis is essential to this formulation: only in dimension four does the Hodge star carry two-forms to two-forms and square to \(+1\) in Riemannian signature. The equations themselves do not require compactness of \(M\), but finite-action moduli theory normally imposes compactness or decay conditions and uses an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] on the [[lie-groups/lie-algebra|Lie algebra]].
 
 ## References
 

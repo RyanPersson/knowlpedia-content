@@ -19,7 +19,7 @@ T\pi_1(a)=\pi_2(a)T\qquad(a\in A)
 \]
 is \(T=0\). Nondegeneracy removes irrelevant zero summands on which every
 operator would intertwine. Disjointness is a relation between the represented
-copies of \(A\), not merely a statement that the Hilbert spaces or the
+copies of \(A\), not merely a statement that the [[linear-algebra/hilbert-space|Hilbert spaces]] or the
 norm-closed image algebras are nonisomorphic.
 
 ## Equivalent characterizations
@@ -44,7 +44,7 @@ Unitary equivalence is the opposite extreme: it gives a unitary intertwiner,
 so two nonzero unitarily equivalent representations are never disjoint.
 [[operator-algebras/quasi-equivalent-representations|Quasi-equivalence]] also
 precludes disjointness for nonzero representations, but it permits different
-Hilbert-space multiplicities. Factor representations exhibit the basic
+Hilbert-space multiplicities. [[operator-algebras/factorial-representation|Factor representations]] exhibit the basic
 dichotomy: two factor representations are either quasi-equivalent or disjoint
 [Takesaki, Chapter III, §2](https://doi.org/10.1007/978-1-4612-6188-9).
 

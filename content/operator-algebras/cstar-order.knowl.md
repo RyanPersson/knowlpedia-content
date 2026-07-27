@@ -18,7 +18,7 @@ a\leq b\quad\Longleftrightarrow\quad b-a\in A_+.
 Here \(A_+\) is the [[operator-algebras/positive-cone|positive cone]] of
 \(A\).
 Equivalently, \(a\leq b\) when \(b-a=c^*c\) for some \(c\in A\). This is a
-partial order compatible with addition and multiplication by nonnegative real
+[[shared-foundations/partial-order|partial order]] compatible with addition and multiplication by nonnegative real
 scalars. Positivity therefore supplies the order intrinsically; no external
 cone is chosen. The order is defined on self-adjoint elements; arbitrary
 elements of \(A\) are not compared unless a separate convention is supplied.
@@ -48,7 +48,7 @@ eigenvalue. Thus this order is usually not total.
 Multiplication need not preserve order. Even if \(0\leq a\leq b\), the product
 \(xa\) need not be self-adjoint and hence need not be comparable with \(xb\).
 The conjugated inequality \(x^*ax\leq x^*bx\) is the valid replacement. The
-order should also not be confused with an ordering of the complex vector space
+order should also not be confused with an ordering of the complex [[linear-algebra/vector-space|vector space]]
 \(A\); it lives on the real vector space \(A_{\mathrm{sa}}\).
 
 ## References

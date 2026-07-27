@@ -48,7 +48,7 @@ group [Takesaki, vol. II, Chapter VIII, §3](https://doi.org/10.1007/978-3-662-1
 ## Chain and inversion rules
 
 For a third normal semifinite faithful weight \(\theta\), cocycle derivatives
-obey the chain rule
+obey the [[real-analysis/chain-rule|chain rule]]
 \[
 (D\psi:D\varphi)_t
 =(D\psi:D\theta)_t(D\theta:D\varphi)_t.

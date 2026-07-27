@@ -14,15 +14,15 @@ A **classical geometric gauge theory** on a manifold \(M\) specifies a [[fiber-b
 
 A connection is the gauge potential, while its [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] is the corresponding field strength. Matter fields are commonly sections of bundles associated to \(P\), and a connection on \(P\) induces covariant derivatives on those bundles. Gauge transformations act simultaneously on the connection and matter fields, preserving the theory's geometric constructions.
 
-The quotient of the solution set by \(\mathcal G(P)\) is a moduli space. It need not be a smooth manifold: reducible configurations have nontrivial stabilizers, and nonlinear equations can produce singularities.
+The quotient of the solution set by \(\mathcal G(P)\) is a moduli space. It need not be a [[fiber-bundles/smooth-manifold|smooth manifold]]: reducible configurations have nontrivial stabilizers, and nonlinear equations can produce singularities.
 
 ## Yang–Mills example
 
-Given a Riemannian metric on \(M\) and an invariant inner product on the Lie algebra of a compact structure group, the Yang–Mills functional is
+Given a Riemannian metric on \(M\) and an invariant [[linear-algebra/inner-product|inner product]] on the [[lie-groups/lie-algebra|Lie algebra]] of a compact structure group, the [[fiber-bundles/yangmills-functional|Yang–Mills functional]] is
 \[
 \operatorname{YM}(A)=\frac12\int_M \langle F_A,F_A\rangle\,\mathrm{vol}_M.
 \]
-Its critical points are [[fiber-bundles/yangmills-connection|Yang–Mills connections]]. The functional is gauge invariant because curvature transforms by the adjoint action and the inner product is invariant. Coupling sections of associated bundles to \(A\) produces standard gauge–matter systems.
+Its critical points are [[fiber-bundles/yangmills-connection|Yang–Mills connections]]. The functional is gauge invariant because curvature transforms by the adjoint action and the inner product is invariant. Coupling sections of [[fiber-bundles/associated-bundle|associated bundles]] to \(A\) produces standard gauge–matter systems.
 
 ## Conventions and scope
 

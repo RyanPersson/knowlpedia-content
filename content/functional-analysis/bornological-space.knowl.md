@@ -16,11 +16,11 @@ The defining condition is equivalent to a useful test: for every locally convex 
 
 ## Examples and permanence
 
-Every metrizable locally convex space, hence every normed or [[functional-analysis/frechet-space|Fréchet space]], is bornological. Locally convex inductive limits of bornological spaces are bornological, so [[functional-analysis/lf-space|LF-spaces]] provide important nonmetrizable examples. Quotients and locally convex direct sums preserve bornologicality. Arbitrary subspaces need not: the bounded subsets inherited by a subspace may fail to determine its [[topology/subspace-topology|subspace topology]].
+Every metrizable locally convex space, hence every normed or [[functional-analysis/frechet-space|Fréchet space]], is bornological. [[functional-analysis/inductive-limit-locally-convex-spaces|Locally convex inductive limits]] of bornological spaces are bornological, so [[functional-analysis/lf-space|LF-spaces]] provide important nonmetrizable examples. Quotients and locally convex direct sums preserve bornologicality. Arbitrary subspaces need not: the bounded subsets inherited by a subspace may fail to determine its [[topology/subspace-topology|subspace topology]].
 
 ## Conventions and contrasts
 
-“Bornological” here is a property of a locally convex topology, not merely the data of an abstract bornology. It differs from [[functional-analysis/barreled-space|barreledness]]: bornologicality detects continuity of bounded linear maps, whereas barreledness supports uniform-boundedness principles for pointwise bounded families. Neither property implies the other without additional hypotheses. Some sources say **bornologic**, but **bornological** is the usual English form.
+“Bornological” here is a property of a locally convex topology, not merely the data of an abstract bornology. It differs from [[functional-analysis/barreled-space|barreledness]]: bornologicality detects continuity of bounded linear maps, whereas barreledness supports uniform-boundedness principles for [[real-analysis/pointwise-bounded-family|pointwise bounded families]]. Neither property implies the other without additional hypotheses. Some sources say **bornologic**, but **bornological** is the usual English form.
 
 ## References
 

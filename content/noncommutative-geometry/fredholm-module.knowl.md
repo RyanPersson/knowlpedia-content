@@ -28,7 +28,7 @@ Direct sums of modules are formed componentwise. Unitary equivalence, norm-conti
 
 ## Examples and non-examples
 
-For a compact smooth manifold \(M\), an order-zero elliptic pseudodifferential operator between Hermitian bundles gives, after adjoining a parametrix in the opposite direction, an even Fredholm module over \(C(M)\). Compactness of the commutators with multiplication operators is the analytic shadow of pseudolocality. [Connes, Chapter IV, Section 1, example following Definition 1](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf) gives this construction.
+For a compact [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), an order-zero elliptic pseudodifferential operator between Hermitian bundles gives, after adjoining a parametrix in the opposite direction, an [[noncommutative-geometry/even-fredholm-module|even Fredholm module]] over \(C(M)\). Compactness of the commutators with multiplication operators is the analytic shadow of pseudolocality. [Connes, Chapter IV, Section 1, example following Definition 1](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf) gives this construction.
 
 By contrast, a self-adjoint involution \(F\) and a representation \(\pi\) do not form a Fredholm module when some \([F,\pi(a)]\) is noncompact. The failed axiom is compatibility of the operator with the algebra action modulo compact operators.
 

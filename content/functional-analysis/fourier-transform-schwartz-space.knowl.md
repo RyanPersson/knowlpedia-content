@@ -23,7 +23,7 @@ is the **Fourier transform on Schwartz space**.
 
 ## Why Schwartz space is preserved
 
-Differentiation under the integral and integration by parts exchange
+Differentiation under the integral and [[real-analysis/integration-by-parts|integration by parts]] exchange
 derivatives with polynomial factors:
 \[
 \partial_\xi^\alpha\widehat f(\xi)
@@ -45,7 +45,7 @@ automorphism property therefore makes \(\mathcal S(\mathbb R^n)\) a common
 invariant domain for both operations. Taking the transpose of this
 automorphism defines the
 [[functional-analysis/fourier-transform-tempered-distributions|Fourier
-transform of tempered distributions]].
+transform of [[functional-analysis/tempered-distribution|tempered distributions]]]].
 
 ## Conventions and scope
 

@@ -8,11 +8,11 @@ domains = ["functional-analysis"]
 section_mode = "progressive"
 +++
 
-A **Montel space** is a Hausdorff [[functional-analysis/barreled-space|barreled locally convex space]] \(E\) in which every closed [[functional-analysis/bounded-subset-tvs|bounded subset]] is compact. Equivalently, every bounded subset of \(E\) has compact closure. Both clauses matter: relative compactness of bounded sets is the compactness condition, while barreledness supplies the uniform-boundedness behavior expected of the space. Compactness and boundedness refer to the given locally convex topology; changing that topology can therefore change whether the same underlying vector space is Montel.
+A **Montel space** is a Hausdorff [[functional-analysis/barreled-space|barreled locally convex space]] \(E\) in which every closed [[functional-analysis/bounded-subset-tvs|bounded subset]] is compact. Equivalently, every bounded subset of \(E\) has compact closure. Both clauses matter: relative compactness of bounded sets is the compactness condition, while barreledness supplies the uniform-boundedness behavior expected of the space. Compactness and boundedness refer to the given locally convex topology; changing that topology can therefore change whether the same underlying [[linear-algebra/vector-space|vector space]] is Montel.
 
 ## Structural consequences
 
-Every Montel space is complete and reflexive as a locally convex space: the canonical map into the strong bidual is a topological isomorphism. Bounded sets have strong compactness properties, so bounded nets possess convergent subnets after taking closure. These results combine the semi-Montel compactness condition with barreledness [Schaefer–Wolff, Chapter IV, §6](https://doi.org/10.1007/978-1-4612-1468-7).
+Every Montel space is complete and reflexive as a [[functional-analysis/locally-convex-space|locally convex space]]: the canonical map into the strong bidual is a topological isomorphism. Bounded sets have strong compactness properties, so bounded nets possess convergent subnets after taking closure. These results combine the semi-Montel compactness condition with barreledness [Schaefer–Wolff, Chapter IV, §6](https://doi.org/10.1007/978-1-4612-1468-7).
 
 ## Examples and non-examples
 

@@ -24,7 +24,7 @@ setting, \(P=N_G(\mathfrak p)\). Those parabolics containing the chosen
 ## Classification by simple restricted roots
 
 Fix a positive [[lie-groups/restricted-root-system|restricted-root system]]
-with simple roots \(\Delta\). Subsets \(F\subseteq\Delta\) parametrize standard
+with [[lie-groups/simple-root|simple roots]] \(\Delta\). Subsets \(F\subseteq\Delta\) parametrize standard
 parabolic subgroups \(P_F\);
 inclusion of subsets gives inclusion of the corresponding parabolics. Every
 parabolic subgroup is conjugate to a standard one. These statements, including
@@ -37,7 +37,7 @@ usual real reductive class in
 Every parabolic has a
 [[lie-groups/langlands-decomposition-of-a-parabolic|Langlands decomposition]]
 \(P=MAN\). Its nilpotent factor \(N\) is assembled from positive restricted
-root spaces not belonging to the Levi part, while \(MA\) is reductive. This
+[[lie-groups/root-space|root spaces]] not belonging to the Levi part, while \(MA\) is reductive. This
 decomposition is the structural input for parabolic induction: a
 representation of \(MA\), extended trivially across \(N\), can be induced to
 \(G\).

@@ -20,13 +20,13 @@ By the [[probability/radon-nikodym-theorem|Radon–Nikodym theorem]], quasi-inva
 \[
 j(g,x)=\frac{d(g_*\mu)}{d\mu}(x)
 \]
-defined almost everywhere. With consistent representatives they satisfy a cocycle identity, with the order depending on whether the action and pushforward conventions are written on the left or right. These square-root derivatives correct pullback operators so that actions on \(L^2(X,\mu)\) become unitary [Folland, §2.6](https://doi.org/10.1201/B19172).
+defined [[measure-theory/almost-everywhere|almost everywhere]]. With consistent representatives they satisfy a cocycle identity, with the order depending on whether the action and pushforward conventions are written on the left or right. These square-root derivatives correct pullback operators so that actions on \(L^2(X,\mu)\) become unitary [Folland, §2.6](https://doi.org/10.1201/B19172).
 
 ## Homogeneous spaces
 
 For a closed subgroup \(H\leq G\), the
 [[harmonic-analysis/locally-compact-homogeneous-space|locally compact
-homogeneous space]] \(G/H\) always carries a natural quasi-invariant measure
+[[lie-groups/homogeneous-space|homogeneous space]]]] \(G/H\) always carries a natural quasi-invariant measure
 class under standard locally compact hypotheses, even when it has no
 \(G\)-invariant measure. This measure class is sufficient for quasi-regular
 and induced-representation constructions
@@ -36,7 +36,7 @@ and induced-representation constructions
 
 **Warning.** A relatively invariant measure is stronger: it satisfies \(g_*\mu=c(g)\mu\) for a scalar depending only on \(g\). Every relatively invariant measure is quasi-invariant, but a general Radon–Nikodym derivative may depend on both \(g\) and \(x\).
 
-A measure for which \(g_*\mu\ll\mu\) but \(\mu\not\ll g_*\mu\) is not quasi-invariant; one-sided absolute continuity does not preserve the null-set class.
+A measure for which \(g_*\mu\ll\mu\) but \(\mu\not\ll g_*\mu\) is not quasi-invariant; one-sided [[analysis/absolute-continuity|absolute continuity]] does not preserve the null-set class.
 
 ## References
 

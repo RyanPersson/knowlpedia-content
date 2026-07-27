@@ -47,10 +47,10 @@ infinite, its eigenvalues can accumulate only at infinity.
 
 For a
 [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint operator]]
-\(D\) on a Hilbert space, compact resolvent is equivalent to compactness of
-\((1+D^2)^{-1/2}\). The spectral theorem then provides an orthonormal basis of
-eigenvectors, with eigenvalues of finite multiplicity whose absolute values
-tend to infinity. Elliptic differential operators on compact manifolds,
+\(D\) on a [[linear-algebra/hilbert-space|Hilbert space]], compact resolvent is equivalent to compactness of
+\((1+D^2)^{-1/2}\). The spectral theorem then provides an [[linear-algebra/orthonormal-basis|orthonormal basis]] of
+eigenvectors, with eigenvalues of finite multiplicity whose [[real-analysis/absolute-value|absolute values]]
+tend to infinity. [[differential-geometry/elliptic-differential-operator|Elliptic differential operators]] on compact manifolds,
 subject to suitable elliptic boundary conditions when a boundary is present,
 are standard examples.
 

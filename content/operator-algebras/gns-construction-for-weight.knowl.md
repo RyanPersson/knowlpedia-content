@@ -48,7 +48,7 @@ representation may be degenerate or nonfaithful.
 
 When \(\varphi\) is a state, \(\mathfrak n_\varphi=M\), and the construction
 reduces to the usual [[operator-algebras/gns-construction|GNS construction]].
-For the canonical trace on \(\mathcal B(H)\), the resulting Hilbert space is
+For the canonical trace on \(\mathcal B(H)\), the resulting [[linear-algebra/hilbert-space|Hilbert space]] is
 the Hilbert–Schmidt class and \(\pi_\varphi\) acts by left multiplication.
 The weight construction therefore retains the familiar state case while
 allowing genuinely unbounded noncommutative integrals.

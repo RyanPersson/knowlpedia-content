@@ -16,7 +16,7 @@ multiplicative, and involution-preserving, so it is again a
 \(*\)-homomorphism. The algebras are then called **\(*\)-isomorphic** or
 **\(C^*\)-isomorphic**. This is the isomorphism notion in the category of
 \(C^*\)-algebras: it preserves the full algebraic and involutive structure,
-not merely the underlying normed vector spaces.
+not merely the underlying [[linear-algebra/normed-vector-space|normed vector spaces]].
 
 ## Automatic norm preservation
 
@@ -44,7 +44,7 @@ sends \(1_A\) to \(1_B\). Thus a \(*\)-isomorphism between unital
 \(C^*\)-algebras is automatically unital even when the ambient convention
 does not require all morphisms to preserve units.
 
-A \(*\)-isomorphism sends closed two-sided ideals of \(A\) bijectively to
+A \(*\)-isomorphism sends closed [[algebra-rings/two-sided-ideal|two-sided ideals]] of \(A\) bijectively to
 closed two-sided ideals of \(B\), preserves inclusion, and induces
 \(*\)-isomorphisms on the corresponding quotients. It also transports states
 and representations by composition with \(\phi\) or \(\phi^{-1}\).

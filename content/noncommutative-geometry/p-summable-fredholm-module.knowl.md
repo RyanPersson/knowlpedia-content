@@ -8,7 +8,7 @@ domains = ["noncommutative-geometry", "operator-algebras"]
 section_mode = "progressive"
 +++
 
-Let \(p>0\), and let \((H,\pi,F)\) be a normalized [[noncommutative-geometry/fredholm-module|Fredholm module]] over a complex involutive algebra \(\mathcal A\), so \(F=F^*\), \(F^2=I\), and \([F,\pi(a)]\) is compact for every \(a\in\mathcal A\). The module is **\(p\)-summable** when
+Let \(p>0\), and let \((H,\pi,F)\) be a normalized [[noncommutative-geometry/fredholm-module|Fredholm module]] over a complex [[operator-algebras/involutive-algebra|involutive algebra]] \(\mathcal A\), so \(F=F^*\), \(F^2=I\), and \([F,\pi(a)]\) is compact for every \(a\in\mathcal A\). The module is **\(p\)-summable** when
 \[
 [F,\pi(a)]\in\mathcal L^p(H)
 \qquad\text{for every }a\in\mathcal A,
@@ -30,7 +30,7 @@ case, \(\lambda_n\) is the chosen standard normalization constant, and
 \operatorname{Tr}_0(T)
 =\tfrac12\operatorname{Tr}\!\bigl(F(FT+TF)\bigr).
 \]
-This cocycle represents the [[noncommutative-geometry/chern-character-fredholm-module|Chern character of the Fredholm module]]. By contrast, ordinary Schatten Hölder makes the displayed product itself trace class only when \(n\geq p\). The resulting class lies in periodic cyclic cohomology and pairs with \(K\)-theory to recover the Fredholm index.
+This cocycle represents the [[noncommutative-geometry/chern-character-fredholm-module|Chern character of the Fredholm module]]. By contrast, ordinary Schatten Hölder makes the displayed product itself trace class only when \(n\geq p\). The resulting class lies in [[noncommutative-geometry/periodic-cyclic-cohomology|periodic cyclic cohomology]] and pairs with \(K\)-theory to recover the Fredholm index.
 
 ## Algebra and topology matter
 

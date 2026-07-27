@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]]
 and let \(\varphi\) be a
 [[operator-algebras/normal-semifinite-faithful-weight|normal semifinite
-faithful weight]]. The **modular automorphism group** of \(\varphi\) is the
+[[operator-algebras/faithful-weight|faithful weight]]]]. The **modular automorphism group** of \(\varphi\) is the
 unique ultraweakly continuous one-parameter group
 \[
 \sigma^\varphi:\mathbb R\longrightarrow\operatorname{Aut}(M)
@@ -55,13 +55,13 @@ density matrix \(\rho\),
 \]
 so the modular group is inner and is trivial exactly when \(\rho\) is scalar.
 In general, the outer class of modular flow carries essential information
-about type III von Neumann algebras.
+about [[operator-algebras/type-iii-von-neumann-algebra|type III von Neumann algebras]].
 
 ## Dependence on the weight
 
-Different n.s.f. weights generally produce different automorphism groups.
+Different [[operator-algebras/normal-semifinite-faithful-weight|n.s.f. weights]] generally produce different [[algebra-groups/automorphism-group|automorphism groups]].
 Connes's Radon–Nikodym cocycle relates them by a time-dependent inner
-perturbation, so their images in the outer automorphism group agree in the
+perturbation, so their images in the [[algebra-groups/outer-automorphism-group|outer automorphism group]] agree in the
 appropriate sense. This weight-independent outer flow underlies the flow of
 weights and type III classification
 [Takesaki, vol. II, Chapter VIII](https://doi.org/10.1007/978-3-662-10451-4).

@@ -32,7 +32,7 @@ Every one-dimensional subspace is isotropic because an alternating form vanishes
 
 ## Quotients and geometry
 
-The restriction of \(\omega\) to \(W^\omega\) has kernel \(W\) when \(W\) is isotropic. Hence it descends to a nondegenerate alternating form on \(W^\omega/W\). Pointwise isotropic tangent spaces similarly define [[differential-geometry/isotropic-submanifold|isotropic submanifolds]]; the present knowl concerns the underlying linear notion.
+The restriction of \(\omega\) to \(W^\omega\) has kernel \(W\) when \(W\) is isotropic. Hence it descends to a nondegenerate alternating form on \(W^\omega/W\). Pointwise isotropic [[differential-geometry/tangent-space|tangent spaces]] similarly define [[differential-geometry/isotropic-submanifold|isotropic submanifolds]]; the present knowl concerns the underlying linear notion.
 
 ## References
 

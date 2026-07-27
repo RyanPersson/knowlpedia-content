@@ -8,7 +8,7 @@ domains = ["functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(X\) and \(Y\) be normed vector spaces, and let \(T:D(T)\subseteq X\to Y\) be linear on the linear subspace \(D(T)\). The operator \(T\) is **closed** if its [[functional-analysis/graph-of-operator|graph]]
+Let \(X\) and \(Y\) be [[linear-algebra/normed-vector-space|normed vector spaces]], and let \(T:D(T)\subseteq X\to Y\) be linear on the [[convex-analysis/linear-subspace|linear subspace]] \(D(T)\). The operator \(T\) is **closed** if its [[functional-analysis/graph-of-operator|graph]]
 \[
 \Gamma(T)=\{(x,Tx):x\in D(T)\}
 \]
@@ -16,7 +16,7 @@ is a [[topology/closed-set|closed set]] in \(X\times Y\). Equivalently, whenever
 
 ## Closed versus bounded
 
-The closed graph theorem says that a closed linear operator \(T:X\to Y\) defined on all of a Banach space \(X\), with \(Y\) Banach, is bounded. Properly defined closed operators can be unbounded. Differential operators on \(L^p\)- or Hilbert spaces are principal examples: their domains encode the regularity and boundary conditions needed for the graph to be closed.
+The [[functional-analysis/closed-graph-theorem|closed graph theorem]] says that a closed linear operator \(T:X\to Y\) defined on all of a [[linear-algebra/banach-space|Banach space]] \(X\), with \(Y\) Banach, is bounded. Properly defined closed operators can be unbounded. Differential operators on \(L^p\)- or [[linear-algebra/hilbert-space|Hilbert spaces]] are principal examples: their domains encode the regularity and boundary conditions needed for the graph to be closed.
 
 ## Closure and closability
 

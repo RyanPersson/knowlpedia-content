@@ -21,13 +21,13 @@ Conversely, a Hausdorff locally convex space is metrizable exactly when its topo
 
 ## Examples
 
-Every Banach space is Fréchet. The space \(C^\infty(M)\) on a compact smooth manifold is Fréchet for seminorms controlling derivatives of increasing order. The Schwartz space \(\mathcal S(\mathbb R^n)\) is another basic example. These spaces are usually not normable because convergence must simultaneously control infinitely many derivatives or weighted derivatives.
+Every [[linear-algebra/banach-space|Banach space]] is Fréchet. The space \(C^\infty(M)\) on a compact [[fiber-bundles/smooth-manifold|smooth manifold]] is Fréchet for seminorms controlling derivatives of increasing order. The [[functional-analysis/schwartz-space|Schwartz space]] \(\mathcal S(\mathbb R^n)\) is another basic example. These spaces are usually not normable because convergence must simultaneously control infinitely many derivatives or weighted derivatives.
 
 ## Mapping theorems and terminology
 
-The Baire property of complete metric spaces gives Fréchet spaces versions of the open mapping, closed graph, and uniform boundedness theorems. These results make the category much more rigid than arbitrary locally convex spaces.
+The Baire property of [[topology/complete-metric-space|complete metric spaces]] gives Fréchet spaces versions of the open mapping, closed graph, and [[functional-analysis/uniform-boundedness-principle|uniform boundedness theorems]]. These results make the category much more rigid than arbitrary locally convex spaces.
 
-**Terminology warning.** Some authors use **F-space** for any complete metrizable topological vector space, without local convexity. Under that convention, every Fréchet space is an F-space but not conversely.
+**Terminology warning.** Some authors use **F-space** for any complete metrizable [[functional-analysis/topological-vector-space|topological vector space]], without local convexity. Under that convention, every Fréchet space is an F-space but not conversely.
 
 ## References
 

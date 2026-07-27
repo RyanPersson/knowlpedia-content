@@ -18,11 +18,11 @@ where \(PuP:P(H^n)\to P(H^n)\) is Breuer-Fredholm. In even parity, a projection 
 
 For the odd pairing, the Breuer index can equivalently be computed as the semifinite [[noncommutative-geometry/spectral-flow|spectral flow]] from \(D\) to \(uDu^*\), with the sign determined by the orientation of the chosen path. This equality is the analytic bridge between K-theory and the trace-valued crossing count [Carey and Phillips, Theorems 1.9 and 2.17](https://doi.org/10.4153/CJM-1998-038-X).
 
-The pairing depends only on the K-theory class and the homotopy class of the semifinite Fredholm module, provided the usual matrix amplification and unitization conventions are used.
+The pairing depends only on the K-theory class and the homotopy class of the semifinite [[noncommutative-geometry/fredholm-module|Fredholm module]], provided the usual matrix amplification and unitization conventions are used.
 
 ## Examples and scope
 
-When \(\mathcal N=B(H)\) and \(\tau\) is the ordinary operator trace, the Breuer index is the integer Fredholm index, so the construction reduces to the usual spectral-triple pairing. In a type \(\mathrm{II}_\infty\) factor, finite projections can have arbitrary nonnegative real trace, and the pairing can therefore take nonintegral real values.
+When \(\mathcal N=B(H)\) and \(\tau\) is the ordinary operator trace, the Breuer index is the integer Fredholm index, so the construction reduces to the usual spectral-triple pairing. In a type \(\mathrm{II}_\infty\) factor, [[operator-algebras/finite-projection|finite projections]] can have arbitrary nonnegative real trace, and the pairing can therefore take nonintegral real values.
 
 **Warning.** The numerical pairing requires a specified trace. A [[operator-algebras/semifinite-von-neumann-algebra|semifinite von Neumann algebra]] without a chosen [[operator-algebras/faithful-normal-semifinite-trace|faithful normal semifinite trace]] does not determine these values by itself.
 

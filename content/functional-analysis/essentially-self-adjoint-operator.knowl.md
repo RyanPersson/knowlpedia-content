@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(T\) be a densely defined
 [[functional-analysis/symmetric-operator|symmetric operator]] on a complex
-Hilbert space. It is **essentially self-adjoint** if its
+[[linear-algebra/hilbert-space|Hilbert space]]. It is **essentially self-adjoint** if its
 [[functional-analysis/closure-of-operator|closure]] \(\overline T\) is a
 [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint operator]].
 Equivalently, \(T\) has exactly one [[functional-analysis/self-adjoint-extension|self-adjoint extension]], namely
@@ -37,7 +37,7 @@ from the self-adjoint extension theory in
 ## Cores and closure
 
 If \(A\) is self-adjoint and \(D\subseteq\mathcal D(A)\) is dense in
-\(\mathcal D(A)\) for the graph norm, then \(D\) is a
+\(\mathcal D(A)\) for the [[functional-analysis/graph-norm|graph norm]], then \(D\) is a
 [[functional-analysis/core-of-closed-operator|core]] for \(A\), and the
 restriction \(A|_D\) is essentially self-adjoint with closure \(A\).
 This is the standard way differential and geometric operators initially

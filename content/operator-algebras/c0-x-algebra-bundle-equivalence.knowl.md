@@ -12,7 +12,7 @@ Let \(X\) be a [[topology/locally-compact-space|locally compact Hausdorff space]
 \[
 \Gamma_0(X,\mathcal A)
 \]
-of an [[operator-algebras/upper-semicontinuous-cstar-bundle|upper-semicontinuous \(C^*\)-bundle]] \(p\colon\mathcal A\to X\). Its fiber at \(x\) is canonically the [[operator-algebras/fiber-c0-x-algebra|quotient \(A_x\)]]. Conversely, the section algebra of every such bundle is a \(C_0(X)\)-algebra, and reconstructing its bundle recovers \(\mathcal A\) up to bundle isomorphism.
+of an [[operator-algebras/upper-semicontinuous-cstar-bundle|upper-semicontinuous \(C^*\)-bundle]] \(p\colon\mathcal A\to X\). Its fiber at \(x\) is canonically the [[operator-algebras/fiber-c0-x-algebra|quotient \(A_x\)]]. Conversely, the section algebra of every such bundle is a \(C_0(X)\)-algebra, and reconstructing its bundle recovers \(\mathcal A\) up to [[fiber-bundles/bundle-isomorphism|bundle isomorphism]].
 
 ## Construction from an algebra
 

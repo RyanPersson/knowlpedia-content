@@ -33,7 +33,7 @@ A unital [[noncommutative-geometry/spectral-triple|spectral triple]] can supply 
 
 ## Classical example and a near miss
 
-For a compact metric space \(X\), take \(A=C(X,\mathbb R)\) and let \(L\) be the ordinary Lipschitz seminorm. The resulting metric on states is the Kantorovich metric on [[probability/probability-measure|probability measures]] and induces their weak-star topology. Thus compact metric spaces embed contravariantly into this framework.
+For a compact [[topology/metric-space|metric space]] \(X\), take \(A=C(X,\mathbb R)\) and let \(L\) be the ordinary Lipschitz seminorm. The resulting metric on states is the Kantorovich metric on [[probability/probability-measure|probability measures]] and induces their weak-star topology. Thus compact metric spaces embed contravariantly into this framework.
 
 If \(L\) vanishes on a nonconstant function, it is not a Lip-norm: states that distinguish that function are infinitely far apart after rescaling it. The failed axiom is the scalar-kernel condition.
 

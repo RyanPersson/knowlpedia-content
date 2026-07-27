@@ -23,7 +23,7 @@ over a standard [[measure-theory/measure-space|measure space]], such that
 [[measure-theory/almost-everywhere|almost every \(x\)]], and
 the [[operator-algebras/center-of-von-neumann-algebra|center]] \(Z(M)\)
 corresponds to the diagonal scalar algebra \(L^\infty(X,\mu)\). Equalities
-and fiber properties are understood modulo null sets; individual fibers are
+and fiber properties are understood modulo [[measure-theory/null-set|null sets]]; individual fibers are
 not pointwise canonical.
 
 ## Existence and uniqueness

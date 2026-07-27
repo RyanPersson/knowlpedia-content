@@ -19,7 +19,7 @@ representation]]
 \]
 with \(P=\ker\pi\). Equivalently, \(A/P\) has a faithful irreducible
 representation. The representation \(\pi\) need not itself be faithful unless
-\(P=\{0\}\), and distinct irreducible representations may have the same
+\(P=\{0\}\), and distinct [[algebra-representation-theory/irreducible-representation|irreducible representations]] may have the same
 primitive kernel. The set of all primitive ideals is denoted
 \(\operatorname{Prim}(A)\).
 
@@ -33,16 +33,16 @@ an irreducible GNS representation associated with a suitable pure state after
 the standard treatment of nonunital algebras
 [Dixmier, §2.5](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/15/suppl/C).
 
-Every maximal proper closed two-sided ideal is primitive: its simple quotient
+Every maximal proper closed [[algebra-rings/two-sided-ideal|two-sided ideal]] is primitive: its simple quotient
 has a faithful irreducible representation. The converse fails in general; a
 primitive ideal need not be maximal. Primitive ideals therefore remember
-irreducible representation theory more finely than maximal ideals alone.
+irreducible representation theory more finely than [[algebra-rings/maximal-ideal|maximal ideals]] alone.
 
 ## Prime versus primitive
 
 Every primitive ideal of a \(C^*\)-algebra is prime: if closed two-sided
 ideals \(I,J\) satisfy \(IJ\subseteq P\), then \(I\subseteq P\) or
-\(J\subseteq P\). For separable \(C^*\)-algebras, every prime ideal is
+\(J\subseteq P\). For separable \(C^*\)-algebras, every [[algebra-rings/prime-ideal|prime ideal]] is
 primitive, but without separability the converse can fail
 [Pedersen, chapter on primitive ideals](https://doi.org/10.1016/C2016-0-03431-9).
 This is a theorem with a hypothesis, not an alternative unconditional
@@ -63,7 +63,7 @@ the zero ideal of a direct sum \(A_1\oplus A_2\), with both summands nonzero,
 is not primitive: every irreducible representation annihilates one summand.
 
 This point-like role motivates equipping the primitive ideals with the
-hull–kernel topology to form the
+[[operator-algebras/hull-kernel-topology|hull–kernel topology]] to form the
 [[operator-algebras/primitive-ideal-space|primitive ideal space]].
 
 ## References

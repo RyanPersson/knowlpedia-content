@@ -17,7 +17,7 @@ The definition does not require \(A\) to have an identity element. In every nonz
 
 ## Abstract and concrete forms
 
-A concrete \(C^*\)-algebra is a norm-closed self-adjoint subalgebra of \(B(H)\) for a complex Hilbert space \(H\). The Gelfand–Naimark representation theorem says that every abstract \(C^*\)-algebra admits an isometric *-representation of this form [Murphy, Theorem 3.4.1](https://doi.org/10.1016/C2009-0-22289-6). Thus the abstract axioms capture exactly the operator-norm structure of closed operator algebras, without choosing a preferred Hilbert space representation.
+A concrete \(C^*\)-algebra is a norm-closed self-adjoint subalgebra of \(B(H)\) for a complex Hilbert space \(H\). The Gelfand–Naimark representation theorem says that every abstract \(C^*\)-algebra admits an isometric *-representation of this form [Murphy, Theorem 3.4.1](https://doi.org/10.1016/C2009-0-22289-6). Thus the abstract axioms capture exactly the operator-norm structure of closed operator algebras, without choosing a preferred [[linear-algebra/hilbert-space|Hilbert space]] representation.
 
 ## Consequences of the identity
 
@@ -29,7 +29,7 @@ It also ties the norm to spectral theory; for example, \(\lVert a\rVert^2\) is t
 
 ## Examples and conventions
 
-The scalar field \(\mathbb C\), matrix algebras \(M_n(\mathbb C)\), \(B(H)\), and \(C_0(X)\) for a locally compact Hausdorff space \(X\) are \(C^*\)-algebras. The algebra \(C_0(X)\) is unital exactly when \(X\) is compact. Real \(C^*\)-algebras also form a useful theory, but “\(C^*\)-algebra” without a qualifier normally means a complex one.
+The scalar field \(\mathbb C\), matrix algebras \(M_n(\mathbb C)\), \(B(H)\), and \(C_0(X)\) for a locally compact [[topology/hausdorff-space|Hausdorff space]] \(X\) are \(C^*\)-algebras. The algebra \(C_0(X)\) is unital exactly when \(X\) is compact. Real \(C^*\)-algebras also form a useful theory, but “\(C^*\)-algebra” without a qualifier normally means a complex one.
 
 ## References
 

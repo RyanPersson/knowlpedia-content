@@ -26,11 +26,11 @@ c(g^*P)=g^*c(P),
 \]
 so a universal class determines a natural [[fiber-bundles/characteristic-class|characteristic class]] of principal \(G\)-bundles. Conversely, in the standard homotopy-theoretic setting, every such cohomological natural assignment is obtained by evaluating it on the universal bundle \(EG\to BG\). This representability principle is developed for characteristic classes in [Milnor and Stasheff, Chapter 4](https://doi.org/10.1515/9781400881826).
 
-Changing the model of \(BG\) transports \(c\) through a homotopy equivalence and therefore does not change the resulting assignment.
+Changing the model of \(BG\) transports \(c\) through a [[topology/homotopy-equivalence|homotopy equivalence]] and therefore does not change the resulting assignment.
 
 ## Standard examples
 
-The universal [[fiber-bundles/stiefel-whitney-class|Stiefel–Whitney classes]] lie in \(H^i(BO(n);\mathbb Z/2)\), the universal Chern classes in \(H^{2i}(BU(n);\mathbb Z)\), and the universal Pontryagin classes in \(H^{4i}(BO(n);\mathbb Z)\). Pulling them back along classifying maps gives the corresponding classes of real or complex vector bundles through their frame bundles.
+The universal [[fiber-bundles/stiefel-whitney-class|Stiefel–Whitney classes]] lie in \(H^i(BO(n);\mathbb Z/2)\), the universal Chern classes in \(H^{2i}(BU(n);\mathbb Z)\), and the universal Pontryagin classes in \(H^{4i}(BO(n);\mathbb Z)\). Pulling them back along classifying maps gives the corresponding classes of real or [[fiber-bundles/complex-vector-bundle|complex vector bundles]] through their frame bundles.
 
 The phrase “universal Chern class” names one of these specific universal classes; it is an example, not a synonym for an arbitrary class in \(H^*(BG;R)\).
 
@@ -38,7 +38,7 @@ The phrase “universal Chern class” names one of these specific universal cla
 
 The definition depends on a cohomology theory and coefficients. This knowl uses ordinary singular cohomology, but generalized cohomology theories give analogous universal classes in \(h^n(BG)\). A class for \(G\)-bundles can also be transported along a homomorphism \(H\to G\) by the induced map \(BH\to BG\).
 
-**Warning.** Not every element of \(H^*(B;\!R)\) is a characteristic class of a bundle on \(B\); it must arise by pullback from the fixed universal class. Likewise, Chern–Weil forms represent certain real universal classes but do not by themselves encode all torsion characteristic classes.
+**Warning.** Not every element of \(H^*(B;\!R)\) is a characteristic class of a bundle on \(B\); it must arise by pullback from the fixed universal class. Likewise, [[fiber-bundles/chernweil-form|Chern–Weil forms]] represent certain real universal classes but do not by themselves encode all torsion characteristic classes.
 
 ## References
 

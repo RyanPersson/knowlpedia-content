@@ -24,7 +24,7 @@ satisfying
 \lVert\widehat f\rVert_q\leq\lVert f\rVert_p.
 \]
 At \(p=1\), interpret \(q=\infty\). At \(p=2\), the extension is the unitary
-Plancherel transform. The statement concerns equivalence classes in the
+Plancherel transform. The statement concerns [[shared-foundations/equivalence-class|equivalence classes]] in the
 corresponding [[measure-theory/lp-space|\(L^p\) spaces]]. On the dense
 intersection \(L^1(G)\cap L^p(G)\), the extension agrees with the defining
 Fourier integral.

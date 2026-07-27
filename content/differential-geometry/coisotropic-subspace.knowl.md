@@ -20,7 +20,7 @@ The following conditions are equivalent: \(W\) is coisotropic; \(W^\omega\subset
 
 ## Examples and boundary cases
 
-The whole space \(V\) is coisotropic because \(V^\omega=\{0\}\). Every [[convex-analysis/hyperplane|hyperplane]] in a finite-dimensional symplectic vector space is coisotropic. A [[differential-geometry/lagrangian-subspace|Lagrangian subspace]] is both isotropic and coisotropic, since \(W=W^\omega\). By contrast, a proper symplectic subspace is not coisotropic: nondegeneracy gives \(W\cap W^\omega=\{0\}\), so \(W^\omega\subseteq W\) would force \(W=V\).
+The whole space \(V\) is coisotropic because \(V^\omega=\{0\}\). Every [[convex-analysis/hyperplane|hyperplane]] in a finite-dimensional symplectic vector space is coisotropic. A [[differential-geometry/lagrangian-subspace|Lagrangian subspace]] is both isotropic and coisotropic, since \(W=W^\omega\). By contrast, a proper [[differential-geometry/symplectic-subspace|symplectic subspace]] is not coisotropic: nondegeneracy gives \(W\cap W^\omega=\{0\}\), so \(W^\omega\subseteq W\) would force \(W=V\).
 
 ## Reduction
 

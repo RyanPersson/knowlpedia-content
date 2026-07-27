@@ -8,7 +8,7 @@ domains = ["fiber-bundles", "differential-geometry", "functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \((M,g)\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]] and let \(E\to M\) be a real Euclidean or complex Hermitian [[fiber-bundles/vector-bundle|vector bundle]] with [[fiber-bundles/bundle-metric|bundle metric]] \(h\). The metrics induce a pointwise inner product on [[fiber-bundles/vector-bundle-valued-differential-form|\(E\)-valued \(k\)-forms]]. For compactly supported forms \(\alpha,\beta\), their **\(L^2\) inner product** is
+Let \((M,g)\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]] and let \(E\to M\) be a real Euclidean or complex Hermitian [[fiber-bundles/vector-bundle|vector bundle]] with [[fiber-bundles/bundle-metric|bundle metric]] \(h\). The metrics induce a pointwise [[linear-algebra/inner-product|inner product]] on [[fiber-bundles/vector-bundle-valued-differential-form|\(E\)-valued \(k\)-forms]]. For compactly supported forms \(\alpha,\beta\), their **\(L^2\) inner product** is
 \[
 \langle\alpha,\beta\rangle_{L^2}
 =\int_M\langle\alpha(x),\beta(x)\rangle_{g,h}\,d\operatorname{vol}_g(x).
@@ -28,9 +28,9 @@ This formulation explains why orientation enters the displayed integral. An equi
 
 ## Completion and formal adjoints
 
-Completing compactly supported smooth \(E\)-valued forms in this norm gives the Hilbert space \(L^2\Omega^k(M;E)\). On a compact manifold every smooth form has finite \(L^2\)-norm; on a noncompact manifold finite norm is an additional condition.
+Completing compactly supported smooth \(E\)-valued forms in this norm gives the [[linear-algebra/hilbert-space|Hilbert space]] \(L^2\Omega^k(M;E)\). On a compact manifold every smooth form has finite \(L^2\)-norm; on a noncompact manifold finite norm is an additional condition.
 
-The pairing defines formal adjoints of covariant differential operators by integration by parts. In [[fiber-bundles/gauge-theory|gauge theory]], applying it to \(\operatorname{ad}P\)-valued curvature gives the Yang–Mills energy, and applying it to infinitesimal changes of a connection gives the standard weak Riemannian metric on the space of connections [Freed–Uhlenbeck, Chapter 2](https://doi.org/10.1007/978-1-4613-9703-8).
+The pairing defines formal adjoints of covariant differential operators by [[real-analysis/integration-by-parts|integration by parts]]. In [[fiber-bundles/gauge-theory|gauge theory]], applying it to \(\operatorname{ad}P\)-valued curvature gives the Yang–Mills energy, and applying it to infinitesimal changes of a connection gives the standard weak Riemannian metric on the space of connections [Freed–Uhlenbeck, Chapter 2](https://doi.org/10.1007/978-1-4613-9703-8).
 
 ## Examples and scope
 

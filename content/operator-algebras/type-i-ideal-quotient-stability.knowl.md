@@ -25,7 +25,7 @@ unitality assumptions [Pedersen, Proposition 6.2.6](https://doi.org/10.1016/C201
 
 An
 [[operator-algebras/irreducible-cstar-representation|irreducible representation]]
-of \(A/I\) lifts along the quotient map to an irreducible representation of
+of \(A/I\) lifts along the quotient map to an [[algebra-representation-theory/irreducible-representation|irreducible representation]] of
 \(A\), so its image contains the
 [[operator-algebras/compact-operator-cstar-algebra|compact operators]]. For an
 irreducible representation of \(I\), the standard extension to \(A\)
@@ -36,7 +36,7 @@ natural.
 ## Three-space form
 
 Type I is also an extension-stable property: if \(I\) and \(A/I\) are type I,
-then \(A\) is type I. Consequently, in a short exact sequence, knowing any
+then \(A\) is type I. Consequently, in a [[algebra-modules/short-exact-sequence|short exact sequence]], knowing any
 appropriate ideal–quotient decomposition permits induction through a
 [[operator-algebras/type-i-composition-series|composition series]]
 [Pedersen, Proposition 6.2.6](https://doi.org/10.1016/C2016-0-03431-9).
@@ -44,7 +44,7 @@ This converse is not automatic for an arbitrary class of \(C^*\)-algebras.
 
 ## Example
 
-The compact operators \(K(H)\) form an ideal in
+The [[linear-algebra/compact-operator|compact operators]] \(K(H)\) form an ideal in
 \(K(H)+\mathbb C I_H\), and the quotient is \(\mathbb C\). Both are type I, so
 extension stability recovers that the unitized algebra is type I. The example
 also shows that the theorem does not preserve the stronger liminal property

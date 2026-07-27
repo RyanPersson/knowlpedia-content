@@ -36,7 +36,7 @@ Harmonic forms are closed and coclosed, so they are orthogonal to both
 summands. These identities show uniqueness once existence is known.
 Existence is the analytic part: elliptic theory for the
 [[differential-geometry/hodge-laplacian|Hodge Laplacian]] gives a Green
-operator on the orthogonal complement of its finite-dimensional kernel
+operator on the [[linear-algebra/orthogonal-complement|orthogonal complement]] of its finite-dimensional kernel
 [Wells, Chapter IV, §2](https://doi.org/10.1007/978-0-387-73892-5).
 
 Equivalently,
@@ -58,7 +58,7 @@ representative of \([\omega]\). This recovers the
 \(\mathcal H^k(M,g)\) with de Rham cohomology.
 
 The decomposition is sometimes compared with the Helmholtz decomposition of
-vector fields: the exact and coexact pieces generalize gradient and
+[[fiber-bundles/vector-field|vector fields]]: the exact and coexact pieces generalize gradient and
 curl-type contributions. The analogy concerns orthogonal splitting; the
 actual objects here are differential forms in every degree.
 

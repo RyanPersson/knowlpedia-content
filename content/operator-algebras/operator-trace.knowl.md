@@ -13,8 +13,8 @@ a positive bounded operator on \(H\). Its **canonical operator trace** is
 \[
 \operatorname{Tr}(T)=\sum_{e\in\mathcal E}\langle Te,e\rangle\in[0,\infty],
 \]
-where \(\mathcal E\) is any orthonormal basis and an arbitrary nonnegative sum
-means the supremum of its finite partial sums. The value is independent of
+where \(\mathcal E\) is any [[linear-algebra/orthonormal-basis|orthonormal basis]] and an arbitrary nonnegative sum
+means the supremum of its finite [[real-analysis/partial-sums|partial sums]]. The value is independent of
 \(\mathcal E\). If it is finite, \(T\) is trace class. For a general
 trace-class operator \(S\), the series
 \(\operatorname{Tr}(S)=\sum_{e\in\mathcal E}\langle Se,e\rangle\) converges
@@ -23,7 +23,7 @@ take \(+\infty\), while the linear trace is defined on the trace-class ideal.
 
 ## Relation to singular values
 
-A compact operator \(S\) is trace class exactly when
+A [[linear-algebra/compact-operator|compact operator]] \(S\) is trace class exactly when
 \[
 \sum_{n=1}^{\infty}s_n(S)<\infty,
 \]
@@ -50,8 +50,8 @@ identity valid.
 ## Scope and normalizations
 
 On \(B(H)\), this trace assigns value one to every rank-one projection and is
-the canonical faithful normal semifinite trace. Other operator algebras may
-carry no trace, one trace, or many traces, and a normalized tracial state is a
+the canonical [[operator-algebras/faithful-normal-semifinite-trace|faithful normal semifinite trace]]. Other operator algebras may
+carry no trace, one trace, or many traces, and a normalized [[operator-algebras/tracial-state|tracial state]] is a
 different notion. In finite dimension, the definition reduces to the ordinary
 matrix trace. In infinite dimension, \(\operatorname{Tr}(I)=+\infty\), so the
 canonical trace is not a state.

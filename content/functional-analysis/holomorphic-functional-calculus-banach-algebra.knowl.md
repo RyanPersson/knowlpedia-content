@@ -25,9 +25,9 @@ spectrum.
 ## Algebraic and spectral properties
 
 For a fixed neighborhood of \(\sigma_A(a)\), the assignment \(f\mapsto f(a)\)
-is a continuous unital algebra homomorphism. It agrees with polynomial
+is a continuous unital [[algebra-modules/algebra-homomorphism|algebra homomorphism]]. It agrees with polynomial
 evaluation and with rational evaluation when the poles avoid the spectrum. It
-also satisfies the spectral mapping theorem
+also satisfies the [[operator-algebras/spectral-mapping-theorem|spectral mapping theorem]]
 \[
 \sigma_A(f(a))=f(\sigma_A(a)).
 \]

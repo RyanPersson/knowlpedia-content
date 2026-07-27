@@ -16,7 +16,7 @@ Equivalently, \(s(x)\in E_x=\pi^{-1}(x)\) for every \(x\), and this choice varie
 
 ## Local description and constructions
 
-Under a local trivialization \(\Phi:\pi^{-1}(U)\to U\times F\), every local section has the form
+Under a [[fiber-bundles/local-trivialization|local trivialization]] \(\Phi:\pi^{-1}(U)\to U\times F\), every local section has the form
 \[
 \Phi(s(x))=(x,f(x))
 \]
@@ -28,7 +28,7 @@ Sections pull back along smooth maps: if \(f:N\to M\), then \(x\mapsto(x,s(f(x))
 
 For the product bundle \(M\times F\to M\), every smooth map \(f:M\to F\) gives the section \(x\mapsto(x,f(x))\).
 
-For a vector bundle, the zero vector in each fiber defines a canonical global section. Sections of the [[fiber-bundles/tangent-bundle|tangent bundle]] are vector fields.
+For a [[fiber-bundles/vector-bundle|vector bundle]], the zero vector in each fiber defines a canonical global section. Sections of the [[fiber-bundles/tangent-bundle|tangent bundle]] are [[fiber-bundles/vector-field|vector fields]].
 
 A principal bundle admits a global section exactly when it is trivial, as expressed by the [[fiber-bundles/trivial-principal-bundle-criterion-global-section-principal-bundle-is-trivial|global-section triviality theorem]] and its converse. The Hopf principal circle bundle is a standard bundle with no global section.
 

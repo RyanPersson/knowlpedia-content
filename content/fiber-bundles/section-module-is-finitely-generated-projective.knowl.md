@@ -26,7 +26,7 @@ Compactness guarantees the finite global construction used below.
 ## Proof by a complementary bundle
 
 A finite trivializing cover and a subordinate smooth partition of unity
-produce finitely many global sections that span every fiber. They define a
+produce finitely many [[fiber-bundles/section-of-a-fiber-bundle|global sections]] that span every fiber. They define a
 surjective
 [[fiber-bundles/vector-bundle-morphism|vector bundle morphism]]
 \[
@@ -34,7 +34,7 @@ M\times\mathbb F^N\longrightarrow E.
 \]
 After choosing a [[fiber-bundles/bundle-metric|bundle metric]], its kernel is
 a smooth [[fiber-bundles/vector-subbundle|vector subbundle]] and the
-orthogonal complement maps isomorphically onto \(E\). Thus there is a vector
+[[linear-algebra/orthogonal-complement|orthogonal complement]] maps isomorphically onto \(E\). Thus there is a vector
 bundle \(F\) with
 \[
 E\oplus F\cong M\times\mathbb F^N.

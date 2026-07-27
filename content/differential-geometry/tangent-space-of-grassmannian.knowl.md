@@ -24,7 +24,7 @@ If \(F:V\to V'\) is a linear isomorphism, its action on Grassmannians sends \(W\
 \[
 F_{\mathrm{quot}}\circ\phi\circ(F|_W)^{-1},
 \]
-where \(F_{\mathrm{quot}}:V/W\to V'/F(W)\) is the induced quotient map. Thus the identification respects changes of coordinates and group actions.
+where \(F_{\mathrm{quot}}:V/W\to V'/F(W)\) is the induced quotient map. Thus the identification respects changes of coordinates and [[algebra-groups/group-action|group actions]].
 
 ## Consequences and examples
 
@@ -32,7 +32,7 @@ The dimension follows immediately:
 \[
 \dim_{\mathbb F}T_W\operatorname{Gr}_k(V)=k(\dim_{\mathbb F}V-k).
 \]
-Using the [[convex-analysis/dual-space-and-duality-pairing|dual space]], the same result can be written \(T_W\operatorname{Gr}_k(V)\cong W^*\otimes(V/W)\). For \(k=1\), it gives \(T_L\mathbb P(V)\cong\operatorname{Hom}(L,V/L)\). If an inner product identifies \(V/W\) with the orthogonal complement \(W^\perp\), one obtains the convenient but noncanonical model \(\operatorname{Hom}(W,W^\perp)\). The quotient model remains valid without an inner product.
+Using the [[convex-analysis/dual-space-and-duality-pairing|dual space]], the same result can be written \(T_W\operatorname{Gr}_k(V)\cong W^*\otimes(V/W)\). For \(k=1\), it gives \(T_L\mathbb P(V)\cong\operatorname{Hom}(L,V/L)\). If an [[linear-algebra/inner-product|inner product]] identifies \(V/W\) with the [[linear-algebra/orthogonal-complement|orthogonal complement]] \(W^\perp\), one obtains the convenient but noncanonical model \(\operatorname{Hom}(W,W^\perp)\). The quotient model remains valid without an inner product.
 
 ## References
 

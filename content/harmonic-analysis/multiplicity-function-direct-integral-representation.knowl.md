@@ -27,13 +27,13 @@ the chosen measure; normally \(m(\pi)\geq1\) on the chosen carrier of
 
 ## What it classifies
 
-Under the stated type I and separability hypotheses, the measure class of \(\mu\) and the almost-everywhere equivalence class of \(m\) determine \(U\) up to unitary equivalence. Conversely, equivalent representations have the same spectral measure class and multiplicity function after identifying null sets. This uniqueness is the central classification feature of type I disintegration [Folland, §7.4](https://doi.org/10.1201/B19172).
+Under the stated type I and separability hypotheses, the measure class of \(\mu\) and the almost-everywhere [[shared-foundations/equivalence-class|equivalence class]] of \(m\) determine \(U\) up to unitary equivalence. Conversely, equivalent representations have the same spectral measure class and multiplicity function after identifying [[measure-theory/null-set|null sets]]. This uniqueness is the central classification feature of type I disintegration [Folland, §7.4](https://doi.org/10.1201/B19172).
 
 The value \(m(\pi)=n\) means that the fiber contains \(n\) copies of \(\pi\); \(m(\pi)=\infty\) means countably infinite multiplicity in the separable setting. Multiplicity is therefore fiberwise, rather than the measure of the set on which \(\pi\) occurs.
 
 ## Examples
 
-For a finite Hilbert direct sum \(U=\pi_1\oplus\pi_1\oplus\pi_2\) of pairwise inequivalent irreducibles, take counting measure on \(\{\pi_1,\pi_2\}\); then \(m(\pi_1)=2\) and \(m(\pi_2)=1\). For a multiplicity-free representation, \(m=1\) almost everywhere. An irreducible representation has spectral measure concentrated at one point with multiplicity one.
+For a finite Hilbert direct sum \(U=\pi_1\oplus\pi_1\oplus\pi_2\) of pairwise inequivalent irreducibles, take counting measure on \(\{\pi_1,\pi_2\}\); then \(m(\pi_1)=2\) and \(m(\pi_2)=1\). For a multiplicity-free representation, \(m=1\) almost everywhere. An [[algebra-representation-theory/irreducible-representation|irreducible representation]] has spectral measure concentrated at one point with multiplicity one.
 
 ## Conventions and scope
 

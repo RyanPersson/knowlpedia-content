@@ -16,7 +16,7 @@ such that \(dc(\xi)=\iota_{\xi_M}\omega\) and
 \[
 c([\xi,\eta])=\{c(\xi),c(\eta)\}
 \]
-for all \(\xi,\eta\in\mathfrak g\). Thus \(c\) is a [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]] into the [[differential-geometry/poisson-algebra-smooth-functions|Poisson algebra of smooth functions]], and each \(c(\xi)\) generates the [[differential-geometry/infinitesimal-generator-lie-action|infinitesimal action]] associated with \(\xi\). The differential axiom identifies the generating vector fields; the bracket axiom requires the chosen Hamiltonians to respect the Lie algebra exactly, rather than only up to constants.
+for all \(\xi,\eta\in\mathfrak g\). Thus \(c\) is a [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]] into the [[differential-geometry/poisson-algebra-smooth-functions|Poisson algebra of smooth functions]], and each \(c(\xi)\) generates the [[differential-geometry/infinitesimal-generator-lie-action|infinitesimal action]] associated with \(\xi\). The differential axiom identifies the generating [[fiber-bundles/vector-field|vector fields]]; the bracket axiom requires the chosen Hamiltonians to respect the Lie algebra exactly, rather than only up to constants.
 
 ## Relationship to moment maps
 

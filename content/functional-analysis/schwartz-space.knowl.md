@@ -32,7 +32,7 @@ p_{\alpha,\beta}(f_j-f)\longrightarrow0
 \]
 for every \(\alpha,\beta\). Thus convergence controls every derivative,
 uniformly after multiplication by every monomial. This is stronger than
-uniform convergence of all derivatives and far stronger than pointwise or
+[[real-analysis/uniform-convergence|uniform convergence]] of all derivatives and far stronger than pointwise or
 \(L^p\) convergence. The seminorm formulation records both smoothness and
 rapid decay without choosing a single rate.
 
@@ -49,10 +49,10 @@ Fourier analysis and differential operators
 
 A [[functional-analysis/tempered-distribution|tempered distribution]] is a
 continuous linear functional on the
-**topological** vector space \(\mathcal S(\mathbb R^n)\). It is not a
+**topological** [[linear-algebra/vector-space|vector space]] \(\mathcal S(\mathbb R^n)\). It is not a
 Schwartz function, and not every algebraic linear functional on the
 underlying vector space is tempered. Ordinary distributions are instead
-continuous on compactly supported test functions; tempered distributions
+continuous on compactly supported [[functional-analysis/test-function-space|test functions]]; tempered distributions
 form the subclass that also acts continuously under the polynomial
 growth-and-decay control encoded by the Schwartz topology.
 

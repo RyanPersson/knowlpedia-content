@@ -43,7 +43,7 @@ operator-norm bound.
 
 If a sequence \(T_nx\) converges for every \(x\in X\), then
 \((T_nx)\) is bounded for each \(x\), so \(\sup_n\lVert T_n\rVert<\infty\).
-This is a standard route from pointwise convergence to continuous dependence.
+This is a standard route from [[real-analysis/pointwise-convergence|pointwise convergence]] to continuous dependence.
 
 Completeness of the domain is essential. Let \(c_{00}\) carry the supremum
 norm and define \(T_nx=nx_n\). Every \(x\in c_{00}\) has only finitely many

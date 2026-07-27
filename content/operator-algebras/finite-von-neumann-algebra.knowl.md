@@ -38,7 +38,7 @@ have both sorts of central summands.
 ## Examples and non-examples
 
 Every matrix algebra \(M_n(\mathbb C)\) is finite. An infinite-dimensional
-commutative von Neumann algebra is also finite: a partial isometry in an
+[[operator-algebras/commutative-von-neumann-algebra|commutative von Neumann algebra]] is also finite: a [[functional-analysis/partial-isometry|partial isometry]] in an
 abelian algebra has equal initial and final projections.
 
 By contrast, \(B(H)\) for an infinite-dimensional Hilbert space \(H\) is not
@@ -48,7 +48,7 @@ smaller than the identity.
 ## Conventions and scope
 
 **Warning.** A finite von Neumann algebra need not admit a faithful normal
-tracial state when its center is not suitably countably decomposable. The
+[[operator-algebras/tracial-state|tracial state]] when its center is not suitably countably decomposable. The
 center-valued trace is the representation-free general statement. “Finite”
 also differs from “semifinite”: every finite algebra is semifinite, but
 infinite type \(\mathrm{II}_\infty\) algebras are semifinite without being

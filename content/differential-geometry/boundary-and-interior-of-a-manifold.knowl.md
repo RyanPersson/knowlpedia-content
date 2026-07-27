@@ -24,7 +24,7 @@ Every diffeomorphism of manifolds with boundary preserves the two strata: it sen
 
 ## Examples and contrasts
 
-For the closed ball \(B^n\), the intrinsic boundary is \(S^{n-1}\) and the interior is the open ball. For the interval \([0,1]\), the boundary is \(\{0,1\}\), a \(0\)-manifold. A manifold without boundary is allowed: then \(\partial M=\varnothing\) and \(\operatorname{Int}M=M\).
+For the [[topology/closed-ball|closed ball]] \(B^n\), the intrinsic boundary is \(S^{n-1}\) and the interior is the [[topology/open-ball|open ball]]. For the interval \([0,1]\), the boundary is \(\{0,1\}\), a \(0\)-manifold. A manifold without boundary is allowed: then \(\partial M=\varnothing\) and \(\operatorname{Int}M=M\).
 
 Intrinsic boundary need not agree with an ambient topological boundary. The embedded circle \(S^1\subset\mathbb R^2\) has ambient boundary \(S^1\) as a subset of \(\mathbb R^2\), but as a \(1\)-manifold it has empty intrinsic boundary.
 

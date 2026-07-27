@@ -38,7 +38,7 @@ under standard separability hypotheses
 ## Examples
 
 For \(M=B(H)\) with \(H\ne\{0\}\), the center is
-\(\mathbb C I_H\), so \(B(H)\) is a type I factor. If
+\(\mathbb C I_H\), so \(B(H)\) is a [[operator-algebras/type-i-factor|type I factor]]. If
 \(M=L^\infty(X,\mu)\) acts by multiplication on \(L^2(X,\mu)\), then \(M\) is
 commutative and \(Z(M)=M\). For a direct sum \(M_1\oplus M_2\), its center is
 \(Z(M_1)\oplus Z(M_2)\); even when both summands are factors, their direct sum

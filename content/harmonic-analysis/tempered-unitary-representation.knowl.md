@@ -18,14 +18,14 @@ Let \(G\) be a [[topology/locally-compact-group|locally compact group]] and
 \]
 Equivalently, the integrated form of \(\pi\) factors through the
 [[operator-algebras/reduced-group-cstar-algebra|reduced group \(C^*\)-algebra]] \(C_r^*(G)\). Some authors reserve “tempered” for
-irreducible representations; under that convention, \(\pi\) is additionally
+[[algebra-representation-theory/irreducible-representation|irreducible representations]]; under that convention, \(\pi\) is additionally
 assumed irreducible. Temperedness depends only on the unitary-equivalence
 class of \(\pi\), not on a chosen realization of its
 [[linear-algebra/hilbert-space|Hilbert space]].
 
 ## Almost-square-integrable coefficients
 
-For a connected semisimple Lie group with finite center, an irreducible
+For a connected semisimple [[fiber-bundles/lie-group|Lie group]] with finite center, an irreducible
 unitary representation is tempered exactly when all its \(K\)-finite matrix
 coefficients lie in \(L^{2+\varepsilon}(G)\) for every
 \(\varepsilon>0\). This “almost \(L^2\)” criterion is a major practical test
@@ -34,7 +34,7 @@ for temperedness
 
 ## Examples and boundary cases
 
-The regular representation is tempered, as are its subrepresentations and
+The [[algebra-representation-theory/regular-representation|regular representation]] is tempered, as are its subrepresentations and
 weakly contained representations. Discrete-series representations of a semisimple
 group are tempered. The trivial representation is tempered exactly when
 \(G\) is

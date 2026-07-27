@@ -35,7 +35,7 @@ Conversely, such a full system of matrix units identifies the algebra with
 
 ## Trace and examples
 
-There is a unique normalized tracial state,
+There is a unique normalized [[operator-algebras/tracial-state|tracial state]],
 \[
 \tau(x)=\frac{1}{n}\operatorname{Tr}(x).
 \]
@@ -43,7 +43,7 @@ For projections, \(\tau(p)=\operatorname{rank}(p)/n\), so the possible trace
 values form the finite set \(\{0,1/n,\ldots,1\}\).
 
 The case \(n=1\) is \(\mathbb C\). The case \(n=2\) is the algebra of
-\(2\times2\) complex matrices. An infinite type I factor \(B(H)\) is not type
+\(2\times2\) complex matrices. An [[operator-algebras/type-i-infinity-factor|infinite type I factor]] \(B(H)\) is not type
 \(\mathrm{I}_n\) for any finite \(n\), even though it contains many corners
 isomorphic to finite matrix algebras.
 

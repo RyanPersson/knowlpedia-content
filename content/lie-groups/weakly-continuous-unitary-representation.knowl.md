@@ -8,7 +8,7 @@ domains = ["lie-groups", "functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a [[topology/topological-group|topological group]] and \(H\) a complex [[linear-algebra/hilbert-space|Hilbert space]]. A group homomorphism
+Let \(G\) be a [[topology/topological-group|topological group]] and \(H\) a complex [[linear-algebra/hilbert-space|Hilbert space]]. A [[algebra-groups/group-homomorphism|group homomorphism]]
 \[
 \pi:G\longrightarrow U(H)
 \]
@@ -25,11 +25,11 @@ Fix \(g_0\in G\) and \(\xi\in H\). Unitarity gives
 \|\pi(g)\xi-\pi(g_0)\xi\|^2
 =2\|\xi\|^2-2\operatorname{Re}\langle\pi(g)\xi,\pi(g_0)\xi\rangle.
 \]
-Weak continuity makes the right-hand side tend to zero as \(g\to g_0\). Hence every orbit map \(g\mapsto\pi(g)\xi\) is norm-continuous. Strong continuity plainly implies weak continuity by continuity of the inner product [Folland, §3.1](https://doi.org/10.1201/B19172).
+Weak continuity makes the right-hand side tend to zero as \(g\to g_0\). Hence every [[fiber-bundles/orbit-map|orbit map]] \(g\mapsto\pi(g)\xi\) is norm-continuous. Strong continuity plainly implies weak continuity by continuity of the [[linear-algebra/inner-product|inner product]] [Folland, §3.1](https://doi.org/10.1201/B19172).
 
 ## Scope of the equivalence
 
-The equivalence relies on the fixed norm of unitary operators. For general bounded-operator-valued representations, weak-operator continuity need not imply strong-operator continuity without additional assumptions. “Weakly continuous” here refers to weak operator topology, not to the Banach-space weak topology on \(B(H)\) or the ultraweak topology.
+The equivalence relies on the fixed norm of [[functional-analysis/unitary-operator|unitary operators]]. For general bounded-operator-valued representations, weak-operator continuity need not imply strong-operator continuity without additional assumptions. “Weakly continuous” here refers to weak operator topology, not to the Banach-space weak topology on \(B(H)\) or the ultraweak topology.
 
 ## Matrix coefficients
 

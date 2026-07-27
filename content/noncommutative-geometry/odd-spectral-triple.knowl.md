@@ -8,7 +8,7 @@ domains = ["noncommutative-geometry", "operator-algebras"]
 section_mode = "progressive"
 +++
 
-An **odd spectral triple** is a [[noncommutative-geometry/spectral-triple|spectral triple]] \((\mathcal A,H,D)\) regarded without a compatible \(\mathbb Z/2\)-grading: the data are the represented [[operator-algebras/involutive-algebra|involutive algebra]] \(\mathcal A\), Hilbert space \(H\), and self-adjoint operator \(D\), subject to the compactness and bounded-commutator axioms of a spectral triple. “Odd” names its parity in [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]; it does not mean that \(D\) has odd degree on an unstated grading. If a grading \(\Gamma\) commuting with \(\mathcal A\) and anticommuting with \(D\) is included, the resulting object is instead an [[noncommutative-geometry/even-spectral-triple|even spectral triple]].
+An **odd spectral triple** is a [[noncommutative-geometry/spectral-triple|spectral triple]] \((\mathcal A,H,D)\) regarded without a compatible \(\mathbb Z/2\)-grading: the data are the represented [[operator-algebras/involutive-algebra|involutive algebra]] \(\mathcal A\), [[linear-algebra/hilbert-space|Hilbert space]] \(H\), and self-adjoint operator \(D\), subject to the compactness and bounded-commutator axioms of a spectral triple. “Odd” names its parity in [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]; it does not mean that \(D\) has odd degree on an unstated grading. If a grading \(\Gamma\) commuting with \(\mathcal A\) and anticommuting with \(D\) is included, the resulting object is instead an [[noncommutative-geometry/even-spectral-triple|even spectral triple]].
 
 ## Example: the circle
 
@@ -30,7 +30,7 @@ The bounded transform
 \[
 F=D(1+D^2)^{-1/2}
 \]
-is self-adjoint and bounded. Under the spectral-triple hypotheses, it satisfies the compactness relations used in an odd bounded Fredholm module. This construction connects the unbounded geometric cycle with an odd K-homology class. It does not say that \(D\) itself is bounded or Fredholm in the bounded-operator sense.
+is self-adjoint and bounded. Under the spectral-triple hypotheses, it satisfies the compactness relations used in an odd bounded [[noncommutative-geometry/fredholm-module|Fredholm module]]. This construction connects the unbounded geometric cycle with an odd K-homology class. It does not say that \(D\) itself is bounded or Fredholm in the bounded-operator sense.
 
 ## Parity convention
 

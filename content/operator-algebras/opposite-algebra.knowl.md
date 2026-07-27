@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(A\) be a complex
 [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. Its **opposite algebra**
-\(A^{\mathrm{op}}\) has the same complex vector space, norm, and involution as
+\(A^{\mathrm{op}}\) has the same complex [[linear-algebra/vector-space|vector space]], norm, and involution as
 \(A\), but multiplication
 \[
 a^{\mathrm{op}}b^{\mathrm{op}}=(ba)^{\mathrm{op}}.
@@ -21,7 +21,7 @@ Thus \((a^{\mathrm{op}})^*=(a^*)^{\mathrm{op}}\) and
 the normed involutive refinement of the
 [[algebra-rings/opposite-ring|opposite ring]] construction. The canonical map
 \(a\mapsto a^{\mathrm{op}}\) reverses products; it is not generally an
-algebra homomorphism \(A\to A^{\mathrm{op}}\).
+[[algebra-modules/algebra-homomorphism|algebra homomorphism]] \(A\to A^{\mathrm{op}}\).
 
 ## Modules and representations
 
@@ -35,7 +35,7 @@ map is an isomorphism because reversing multiplication changes nothing.
 
 ## Real spectral-triple convention
 
-For a real spectral triple with representation \(\pi\) and antiunitary real
+For a [[noncommutative-geometry/real-spectral-triple|real spectral triple]] with representation \(\pi\) and antiunitary real
 structure \(J\), the standard right representation is
 \[
 \pi^{\mathrm{op}}(b^{\mathrm{op}})=J\pi(b^*)J^{-1}.

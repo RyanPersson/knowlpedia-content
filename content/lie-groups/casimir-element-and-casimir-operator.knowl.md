@@ -28,7 +28,7 @@ Because the Casimir operator commutes with the \(\mathfrak g\)-action, it is a m
 
 ## Conventions and scope
 
-For a real semisimple Lie algebra, one often forms the element after complexifying \(\mathfrak g\). More generally, any nondegenerate invariant symmetric bilinear form produces a quadratic Casimir element by the same construction. “Casimir invariant” may also refer to the scalar eigenvalue or to higher-degree central elements, so it is not always synonymous with this quadratic element.
+For a real semisimple Lie algebra, one often forms the element after complexifying \(\mathfrak g\). More generally, any nondegenerate invariant symmetric [[linear-algebra/bilinear-form|bilinear form]] produces a quadratic Casimir element by the same construction. “Casimir invariant” may also refer to the scalar eigenvalue or to higher-degree central elements, so it is not always synonymous with this quadratic element.
 
 ## References
 

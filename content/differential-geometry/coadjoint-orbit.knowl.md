@@ -34,7 +34,7 @@ This is well defined, closed, and nondegenerate, so \(\mathcal O_\lambda\) is a 
 
 ## Examples and sign conventions
 
-For an [[lie-groups/abelian-lie-group|abelian Lie group]] every coadjoint orbit is a single point. After identifying \(\mathfrak{so}(3)^*\cong\mathbb R^3\), the nonzero coadjoint orbits of \(\mathrm{SO}(3)\) are spheres. Authors who define fundamental vector fields or [[fiber-bundles/moment-map|moment maps]] with the opposite sign write the negative of the displayed symplectic form; the underlying orbit is unchanged.
+For an [[lie-groups/abelian-lie-group|abelian Lie group]] every coadjoint orbit is a single point. After identifying \(\mathfrak{so}(3)^*\cong\mathbb R^3\), the nonzero coadjoint orbits of \(\mathrm{SO}(3)\) are spheres. Authors who define [[differential-geometry/infinitesimal-generator-lie-action|fundamental vector fields]] or [[fiber-bundles/moment-map|moment maps]] with the opposite sign write the negative of the displayed symplectic form; the underlying orbit is unchanged.
 
 ## References
 

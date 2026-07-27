@@ -20,7 +20,7 @@ where \(A(x)\) is a matrix of holomorphic functions. Conversely, compatible matr
 
 ## Composition and induced maps
 
-Holomorphic vector bundles and their morphisms form a category under composition. A morphism \(E\to F\) over \(X\) sends local holomorphic sections of \(E\) to local holomorphic sections of \(F\). Duals, tensor products, direct sums, and exterior powers produce new holomorphic morphisms in the expected covariant or contravariant direction.
+Holomorphic vector bundles and their morphisms form a category under composition. A morphism \(E\to F\) over \(X\) sends local [[differential-geometry/holomorphic-section|holomorphic sections]] of \(E\) to local holomorphic sections of \(F\). Duals, tensor products, direct sums, and exterior powers produce new holomorphic morphisms in the expected covariant or contravariant direction.
 
 ## Rank and subbundles
 

@@ -15,7 +15,7 @@ spaces]]. Put \(F_\infty=\prod_{v\mid\infty}F_v\), and let
 \(\mathcal S(F_\infty)\) be the completed nuclear tensor product of the
 archimedean local Schwartz spaces. For each finite place set
 \(e_v=1_{\mathcal O_v}\). The **restricted tensor product of the local
-test-function spaces** is
+[[functional-analysis/test-function-space|test-function spaces]]** is
 \[
 \mathcal S(F_\infty)\,\widehat\otimes\!
 \bigotimes_{v\nmid\infty}'\mathcal S(F_v)

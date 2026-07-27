@@ -8,7 +8,7 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(C\) be a [[differential-geometry/coisotropic-submanifold|coisotropic submanifold]] of \((M,\omega)\), with inclusion \(i:C\hookrightarrow M\). Suppose the leaf space \(C/\mathcal K\) of its [[differential-geometry/characteristic-foliation|characteristic foliation]] is a smooth manifold \(B\), and the quotient map \(\pi:C\to B\) is a surjective submersion whose fibers are the characteristic leaves. Then there is a unique two-form \(\omega_B\) satisfying
+Let \(C\) be a [[differential-geometry/coisotropic-submanifold|coisotropic submanifold]] of \((M,\omega)\), with inclusion \(i:C\hookrightarrow M\). Suppose the leaf space \(C/\mathcal K\) of its [[differential-geometry/characteristic-foliation|characteristic foliation]] is a [[fiber-bundles/smooth-manifold|smooth manifold]] \(B\), and the quotient map \(\pi:C\to B\) is a surjective submersion whose fibers are the characteristic leaves. Then there is a unique two-form \(\omega_B\) satisfying
 \[
 \pi^*\omega_B=i^*\omega.
 \]
@@ -16,7 +16,7 @@ This form is closed and nondegenerate, so \((B,\omega_B)\) is a [[differential-g
 
 ## Descent and nondegeneracy
 
-The kernel of \(i^*\omega\) is exactly \(\mathcal K\). The form is horizontal because it annihilates every vector tangent to a leaf. It is also invariant along leafwise vector fields: if \(X\) is tangent to \(\mathcal K\), then Cartan's formula gives
+The kernel of \(i^*\omega\) is exactly \(\mathcal K\). The form is horizontal because it annihilates every vector tangent to a leaf. It is also invariant along leafwise [[fiber-bundles/vector-field|vector fields]]: if \(X\) is tangent to \(\mathcal K\), then Cartan's formula gives
 \[
 \mathcal L_X(i^*\omega)=d\iota_X(i^*\omega)+\iota_Xd(i^*\omega)=0.
 \]

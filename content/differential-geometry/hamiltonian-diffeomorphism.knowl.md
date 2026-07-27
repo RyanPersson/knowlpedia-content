@@ -12,7 +12,7 @@ Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic m
 
 ## Group structure
 
-Hamiltonian diffeomorphisms form a normal subgroup
+Hamiltonian diffeomorphisms form a [[algebra-groups/normal-subgroup|normal subgroup]]
 \[
 \operatorname{Ham}(M,\omega)\trianglelefteq\operatorname{Symp}_0(M,\omega)
 \]
@@ -24,11 +24,11 @@ Every Hamiltonian isotopy is symplectic, but a symplectic isotopy need not be Ha
 
 ## Examples and non-examples
 
-The time-one map of any complete autonomous [[differential-geometry/hamiltonian-flow|Hamiltonian flow]] is Hamiltonian. On the standard symplectic torus, translation by a nonzero vector is symplectically isotopic to the identity, but the translation isotopy generally has nonzero flux and is not Hamiltonian. On a closed connected manifold, adding an arbitrary function of time to \(H_t\) changes neither its vector field nor its endpoint.
+The time-one map of any complete autonomous [[differential-geometry/hamiltonian-flow|Hamiltonian flow]] is Hamiltonian. On the standard symplectic torus, translation by a nonzero vector is symplectically isotopic to the identity, but the translation isotopy generally has nonzero flux and is not Hamiltonian. On a closed connected manifold, adding an arbitrary function of time to \(H_t\) changes neither its [[fiber-bundles/vector-field|vector field]] nor its endpoint.
 
 ## Conventions and scope
 
-Some authors define Hamiltonian diffeomorphisms only on closed manifolds and introduce \(\operatorname{Ham}_c(M,\omega)\) for compactly supported maps on an open manifold. Others build compact support into the notation \(\operatorname{Ham}(M,\omega)\). The support condition should therefore be checked whenever \(M\) is noncompact [Banyaga, Chapter 7](https://doi.org/10.1007/978-1-4757-0185-3).
+Some authors define Hamiltonian diffeomorphisms only on [[topology/closed-manifold|closed manifolds]] and introduce \(\operatorname{Ham}_c(M,\omega)\) for compactly supported maps on an open manifold. Others build compact support into the notation \(\operatorname{Ham}(M,\omega)\). The support condition should therefore be checked whenever \(M\) is noncompact [Banyaga, Chapter 7](https://doi.org/10.1007/978-1-4757-0185-3).
 
 ## References
 

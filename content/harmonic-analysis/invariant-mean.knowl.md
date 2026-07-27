@@ -34,7 +34,7 @@ A standard definition calls \(G\) **amenable** when such a mean exists on
 \(\operatorname{RUC}_b(G)\); for locally compact \(G\), this is equivalent
 to existence on \(L^\infty(G)\). For a compact group, integration against
 normalized [[harmonic-analysis/haar-measure|Haar measure]] gives an invariant
-mean. Locally compact abelian groups and solvable locally compact groups are
+mean. Locally compact [[algebra-groups/abelian-group|abelian groups]] and solvable locally compact groups are
 amenable, whereas the discrete [[algebra-groups/free-group|free group]] on
 two generators is not. These examples and the equivalence with other locally
 compact formulations are treated in
@@ -42,7 +42,7 @@ compact formulations are treated in
 
 ## Conventions and function spaces
 
-For a discrete group, \(\operatorname{RUC}_b(G)=\ell^\infty(G)\). For a [[topology/locally-compact-group|locally compact group]], amenability is also equivalent to the existence of an invariant mean on \(L^\infty(G)\), with translations understood modulo [[measure-theory/null-set|null sets]]. Authors may instead use left-uniformly continuous functions and right translations.
+For a discrete group, \(\operatorname{RUC}_b(G)=\ell^\infty(G)\). For a [[topology/locally-compact-group|locally compact group]], amenability is also equivalent to the existence of an invariant mean on \(L^\infty(G)\), with translations understood modulo [[measure-theory/null-set|null sets]]. Authors may instead use left-uniformly continuous functions and [[lie-groups/right-translation|right translations]].
 
 **Warning.** The spaces \(C_b(G)\), \(\operatorname{RUC}_b(G)\), and \(L^\infty(G)\) are not interchangeable in arbitrary topological-group settings. A statement about an invariant mean must specify both its function space and the side of translation.
 

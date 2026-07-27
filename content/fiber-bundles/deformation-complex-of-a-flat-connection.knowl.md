@@ -27,7 +27,7 @@ H_A^1
 \frac{\ker(d_A:\Omega^1\to\Omega^2)}
 {\operatorname{im}(d_A:\Omega^0\to\Omega^1)}
 \]
-is the formal tangent space to the [[fiber-bundles/moduli-space-of-flat-connections|flat moduli space]]. Similarly, \(H_A^0\) is the Lie algebra of the stabilizer, and \(H_A^2\) is the primary obstruction space.
+is the formal [[differential-geometry/tangent-space|tangent space]] to the [[fiber-bundles/moduli-space-of-flat-connections|flat moduli space]]. Similarly, \(H_A^0\) is the [[lie-groups/lie-algebra|Lie algebra]] of the stabilizer, and \(H_A^2\) is the primary obstruction space.
 
 ## Nonlinear deformation equation
 

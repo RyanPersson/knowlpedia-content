@@ -16,7 +16,7 @@ be its [[differential-geometry/fundamental-form-almost-hermitian|fundamental \(2
 \[
 d\omega=0.
 \]
-Thus a Kähler manifold is a [[differential-geometry/complex-manifold|complex manifold]] with a \(J\)-invariant real Riemannian metric whose associated real \(2\)-form is closed. The metric \(g\) determines a sesquilinear Hermitian metric on the [[differential-geometry/holomorphic-tangent-bundle|complex tangent bundle]], but \(g\) itself remains a real bilinear form. The sign used for \(\omega\) does not affect the closedness condition.
+Thus a Kähler manifold is a [[differential-geometry/complex-manifold|complex manifold]] with a \(J\)-invariant real Riemannian metric whose associated real \(2\)-form is closed. The metric \(g\) determines a sesquilinear [[fiber-bundles/hermitian-metric|Hermitian metric]] on the [[differential-geometry/holomorphic-tangent-bundle|complex tangent bundle]], but \(g\) itself remains a real [[linear-algebra/bilinear-form|bilinear form]]. The sign used for \(\omega\) does not affect the closedness condition.
 
 ## Equivalent characterizations
 
@@ -28,7 +28,7 @@ The closed, nondegenerate form \(\omega\) makes \(M\) a [[differential-geometry/
 
 ## Examples and non-examples
 
-Complex Euclidean space, complex tori with flat Hermitian metrics, and [[algebraic-geometry-foundations/projective-space|complex projective space]] with the [[differential-geometry/fubini-study-metric|Fubini–Study metric]] are Kähler. In complex dimension greater than one, conformally replacing a [[differential-geometry/kahler-metric|Kähler metric]] by \(g'=e^f g\) for a nonconstant real function gives \(\omega'=e^f\omega\) and
+Complex [[linear-algebra/euclidean-space|Euclidean space]], complex tori with flat Hermitian metrics, and [[algebraic-geometry-foundations/projective-space|complex projective space]] with the [[differential-geometry/fubini-study-metric|Fubini–Study metric]] are Kähler. In complex dimension greater than one, conformally replacing a [[differential-geometry/kahler-metric|Kähler metric]] by \(g'=e^f g\) for a nonconstant real function gives \(\omega'=e^f\omega\) and
 \[
 d\omega'=e^f\,df\wedge\omega,
 \]

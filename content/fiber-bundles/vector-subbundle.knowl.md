@@ -19,7 +19,7 @@ that carries \(F|_U\) onto \(U\times\mathbb F^k\) for a fixed coordinate subspac
 The following conditions are equivalent for a family of \(k\)-dimensional subspaces \(F_x\subseteq E_x\):
 
 - \(F=\bigcup_xF_x\) is a rank-\(k\) vector subbundle;
-- near every point there are smooth sections \(s_1,\ldots,s_k\) of \(E\) whose values form a basis of \(F_x\);
+- near every point there are [[fiber-bundles/section-of-a-fiber-bundle|smooth sections]] \(s_1,\ldots,s_k\) of \(E\) whose values form a basis of \(F_x\);
 - locally, \(F\) is the image of a smooth field of projections of constant rank \(k\).
 
 The constant-dimension requirement is essential. A family of linear subspaces whose dimension jumps is generally not a vector bundle.

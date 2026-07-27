@@ -39,7 +39,7 @@ adjointable maps.
 ## The algebra \(\mathcal K_A(E)\)
 
 When \(E=F\), one writes \(\mathcal K_A(E)\). It is a \(C^*\)-algebra and a
-closed two-sided ideal of \(\mathcal L_A(E)\). For distinct modules,
+closed [[algebra-rings/two-sided-ideal|two-sided ideal]] of \(\mathcal L_A(E)\). For distinct modules,
 \(\mathcal K_A(E,F)\) is generally only a closed linear space of operators,
 not an algebra. It appears as an off-diagonal corner in the compact operators
 on \(E\oplus F\).
@@ -50,7 +50,7 @@ For \(A=\mathbb C\), Hilbert \(A\)-modules are
 [[linear-algebra/hilbert-space|Hilbert spaces]] and this definition recovers
 the usual compact operators. Over a general
 \(C^*\)-algebra, a rank-one operator may have infinite-dimensional range as a
-complex vector space. Finite-rank approximation therefore refers to module
+complex [[linear-algebra/vector-space|vector space]]. Finite-rank approximation therefore refers to module
 rank-one operators, not to finite-dimensional linear ranges.
 
 ## References

@@ -12,7 +12,7 @@ Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]]. A **
 \[
 \sigma\in H^0\left(X,\bigwedge\nolimits^2T^{*1,0}X\right)
 \]
-of the second exterior power of the [[differential-geometry/holomorphic-cotangent-bundle|holomorphic cotangent bundle]] such that \(d\sigma=0\) and \(\sigma\) is pointwise nondegenerate. Nondegeneracy means that the bundle map \(T^{1,0}X\to T^{*1,0}X\), \(v\mapsto\sigma(v,\mathord{-})\), is an isomorphism. Thus closedness is a differential condition and nondegeneracy is a fiberwise linear-algebra condition; both are part of the definition adopted here.
+of the second exterior power of the [[differential-geometry/holomorphic-cotangent-bundle|holomorphic cotangent bundle]] such that \(d\sigma=0\) and \(\sigma\) is pointwise nondegenerate. Nondegeneracy means that the [[fiber-bundles/bundle-map|bundle map]] \(T^{1,0}X\to T^{*1,0}X\), \(v\mapsto\sigma(v,\mathord{-})\), is an isomorphism. Thus closedness is a differential condition and nondegeneracy is a fiberwise linear-algebra condition; both are part of the definition adopted here.
 
 ## Immediate consequences
 
@@ -22,7 +22,7 @@ The complex dimension of \(X\) must be even, say \(2m\), and
 \]
 is a nowhere-vanishing holomorphic section of the canonical bundle. Hence a holomorphic symplectic form canonically trivializes that bundle. The inverse bivector \(\sigma^{-1}\) is holomorphic, and the equation \(d\sigma=0\) is equivalent to its Poisson bracket satisfying the Jacobi identity.
 
-Writing \(\sigma=\alpha+i\beta\) as real forms on the underlying smooth manifold produces two closed, nondegenerate real \(2\)-forms. Therefore both \(\alpha\) and \(\beta\) are symplectic forms, although neither alone records the full holomorphic structure.
+Writing \(\sigma=\alpha+i\beta\) as real forms on the underlying [[fiber-bundles/smooth-manifold|smooth manifold]] produces two closed, nondegenerate real \(2\)-forms. Therefore both \(\alpha\) and \(\beta\) are symplectic forms, although neither alone records the full holomorphic structure.
 
 ## Canonical example
 

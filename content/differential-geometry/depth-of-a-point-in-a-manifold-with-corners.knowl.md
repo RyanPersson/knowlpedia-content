@@ -30,11 +30,11 @@ The decomposition
 \[
 M=\coprod_{r=0}^n S^r(M)
 \]
-is a stratification by smooth manifolds without boundary, with \(\dim S^r(M)=n-r\). The depth-zero stratum is the interior. The closure of \(S^r(M)\) is the union of strata of depth at least \(r\). These properties are formulated for ordinary corners in [Joyce, Definition 2.6](https://doi.org/10.1016/j.aim.2016.06.004).
+is a stratification by [[fiber-bundles/smooth-manifold|smooth manifolds]] without boundary, with \(\dim S^r(M)=n-r\). The depth-zero stratum is the interior. The closure of \(S^r(M)\) is the union of strata of depth at least \(r\). These properties are formulated for ordinary corners in [Joyce, Definition 2.6](https://doi.org/10.1016/j.aim.2016.06.004).
 
 ## Examples and products
 
-For the square \([0,1]^2\), interior points have depth zero, points in open edges have depth one, and vertices have depth two. On a [[differential-geometry/manifold-with-boundary|manifold with boundary]], only depths zero and one occur. In a product,
+For the square \([0,1]^2\), [[differential-geometry/boundary-and-interior-of-a-manifold|interior points]] have depth zero, points in open edges have depth one, and vertices have depth two. On a [[differential-geometry/manifold-with-boundary|manifold with boundary]], only depths zero and one occur. In a product,
 \[
 \operatorname{depth}_{M\times N}(x,y)
 =\operatorname{depth}_M(x)+\operatorname{depth}_N(y),

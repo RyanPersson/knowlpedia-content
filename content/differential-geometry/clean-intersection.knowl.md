@@ -16,7 +16,7 @@ The first condition controls the set-theoretic intersection, while the second re
 
 ## Relation to transversality
 
-Every pair of [[differential-geometry/transverse-submanifolds|transverse submanifolds]] intersects cleanly by the [[differential-geometry/transverse-intersection-theorem|transverse intersection theorem]]. Clean intersection is weaker: along a connected component of \(C\), the integer
+Every pair of [[differential-geometry/transverse-submanifolds|transverse submanifolds]] intersects cleanly by the [[differential-geometry/transverse-intersection-theorem|transverse intersection theorem]]. Clean intersection is weaker: along a [[topology/connected-component|connected component]] of \(C\), the integer
 \[
 e=\operatorname{codim}_M S+\operatorname{codim}_M T-\operatorname{codim}_M C
 \]

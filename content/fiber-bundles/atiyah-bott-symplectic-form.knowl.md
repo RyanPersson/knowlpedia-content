@@ -8,7 +8,7 @@ domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(\Sigma\) be a closed oriented surface, let \(G\) be a [[lie-groups/compact-lie-group|compact Lie group]] whose Lie algebra has an \(\operatorname{Ad}\)-invariant inner product \(\langle-,-\rangle\), and let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]]. The [[fiber-bundles/bundle-of-connections|space of connections]] \(\mathcal A(P)\) is affine with tangent space \(\Omega^1(\Sigma;\operatorname{ad}P)\). Its **Atiyah–Bott symplectic form** is the constant two-form
+Let \(\Sigma\) be a closed oriented surface, let \(G\) be a [[lie-groups/compact-lie-group|compact Lie group]] whose [[lie-groups/lie-algebra|Lie algebra]] has an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] \(\langle-,-\rangle\), and let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]]. The [[fiber-bundles/bundle-of-connections|space of connections]] \(\mathcal A(P)\) is affine with [[differential-geometry/tangent-space|tangent space]] \(\Omega^1(\Sigma;\operatorname{ad}P)\). Its **Atiyah–Bott symplectic form** is the constant two-form
 \[
 \omega_A(a,b)=\int_\Sigma\langle a\wedge b\rangle ,
 \qquad
@@ -32,7 +32,7 @@ For a surface, curvature is an \(\operatorname{ad}P\)-valued top-degree form. Us
 
 ## Conventions and scope
 
-Multiplying the invariant inner product by a positive constant rescales \(\omega\). A sign may also be inserted, especially when authors choose the opposite convention for fundamental vector fields or moment maps. The construction extends to noncompact surfaces only after imposing support or decay conditions that make the integral and functional-analytic setting meaningful.
+Multiplying the invariant inner product by a positive constant rescales \(\omega\). A sign may also be inserted, especially when authors choose the opposite convention for fundamental [[fiber-bundles/vector-field|vector fields]] or [[fiber-bundles/moment-map|moment maps]]. The construction extends to noncompact surfaces only after imposing support or decay conditions that make the integral and functional-analytic setting meaningful.
 
 ## References
 

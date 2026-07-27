@@ -32,7 +32,7 @@ If \(K=\operatorname{supp}f\) and
 \lVert\pi(f)v\rVert
 \leq M_K\lVert f\rVert_{L^1(G)}\lVert v\rVert .
 \]
-Strong continuity and the uniform boundedness principle make \(M_K\) finite.
+Strong continuity and the [[functional-analysis/uniform-boundedness-principle|uniform boundedness principle]] make \(M_K\) finite.
 This estimate is local in \(G\): a continuous representation need not be
 uniformly bounded on the whole group, so its integrated action need not
 extend continuously from \(C_c(G)\) to all of \(L^1(G)\).
@@ -41,8 +41,8 @@ extend continuously from \(C_c(G)\) to all of \(L^1(G)\).
 
 Suppose \(E\) is Fréchet and the action \(G\times E\to E\) is continuous.
 For each compact \(K\subseteq G\), the operators \(\pi(g)\), \(g\in K\), form
-an equicontinuous family. Completeness permits integration of the
-compactly-supported continuous map \(g\mapsto f(g)\pi(g)v\). For every
+an [[real-analysis/equicontinuous-family|equicontinuous family]]. Completeness permits integration of the
+compactly-supported [[topology/continuous-map|continuous map]] \(g\mapsto f(g)\pi(g)v\). For every
 continuous seminorm \(p\) on \(E\), equicontinuity supplies a continuous
 seminorm \(q\) and \(C_K>0\) such that
 \[
@@ -52,12 +52,12 @@ Hence \(\pi(f)\) is a continuous linear endomorphism of \(E\).
 
 ## Convolution and smoothing
 
-For \(f,h\in C_c(G)\), Fubini's theorem and
+For \(f,h\in C_c(G)\), [[measure-theory/fubinis-theorem|Fubini's theorem]] and
 \(\pi(xy)=\pi(x)\pi(y)\) give
 \[
 \pi(f*h)=\pi(f)\pi(h).
 \]
-When \(G\) is a Lie group and \(f\in C_c^\infty(G)\), these operators are the
+When \(G\) is a [[fiber-bundles/lie-group|Lie group]] and \(f\in C_c^\infty(G)\), these operators are the
 basic smoothing operators used to form the
 [[lie-groups/garding-subspace|Gårding subspace]]. Approximate identities
 supported near the identity recover vectors in the original topology under
@@ -65,10 +65,10 @@ the usual continuity hypotheses.
 
 ## Unitary specialization and warning
 
-If \(E\) is a Hilbert space and \(\pi\) is unitary, the construction becomes
+If \(E\) is a [[linear-algebra/hilbert-space|Hilbert space]] and \(\pi\) is unitary, the construction becomes
 the [[harmonic-analysis/integrated-form-unitary-representation|integrated
 form of a unitary representation]]. It then extends to \(L^1(G)\), is
-contractive, and respects the group-algebra involution.
+contractive, and respects the [[harmonic-analysis/convolution-involution|group-algebra involution]].
 
 For a general nonunitary representation, convolution multiplicativity still
 holds on \(C_c(G)\), but

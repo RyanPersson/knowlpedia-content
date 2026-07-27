@@ -20,7 +20,7 @@ for every \(p\in M\) and \(u,v\in T_pM\). Thus a symplectomorphism preserves the
 
 ## Group and local structure
 
-The identity is a symplectomorphism, composites of symplectomorphisms are symplectomorphisms, and the inverse of a symplectomorphism is symplectic. Hence the symplectomorphisms of \((M,\omega)\) form a group, commonly written \(\operatorname{Symp}(M,\omega)\). Darboux's theorem says every two symplectic manifolds of the same dimension are locally symplectomorphic, although global symplectomorphism can be obstructed [McDuff–Salamon, Chapter 3](https://doi.org/10.1093/oso/9780198794899.001.0001).
+The identity is a symplectomorphism, composites of symplectomorphisms are symplectomorphisms, and the inverse of a symplectomorphism is symplectic. Hence the symplectomorphisms of \((M,\omega)\) form a group, commonly written \(\operatorname{Symp}(M,\omega)\). [[real-analysis/darboux-theorem|Darboux's theorem]] says every two symplectic manifolds of the same dimension are locally symplectomorphic, although global symplectomorphism can be obstructed [McDuff–Salamon, Chapter 3](https://doi.org/10.1093/oso/9780198794899.001.0001).
 
 ## Dynamics
 

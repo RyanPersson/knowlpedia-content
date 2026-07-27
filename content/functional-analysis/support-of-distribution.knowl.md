@@ -34,7 +34,7 @@ the union.
 
 For a locally integrable function \(f\), the support of its regular
 distribution is the complement of the largest open set on which \(f=0\)
-almost everywhere; it can be smaller than the pointwise closure of
+[[measure-theory/almost-everywhere|almost everywhere]]; it can be smaller than the pointwise closure of
 \(\{x:f(x)\ne0\}\) for a particular representative. The support of
 \(\delta_a\) and of each derivative of \(\delta_a\) is the singleton
 \(\{a\}\).
@@ -47,7 +47,7 @@ Distributional differentiation cannot enlarge support:
 \]
 Multiplication by a smooth function \(a\) gives
 \(\operatorname{supp}(aT)\subseteq\operatorname{supp}a\cap
-\operatorname{supp}T\). Compactly supported distributions are precisely
+\operatorname{supp}T\). [[functional-analysis/compactly-supported-distribution|Compactly supported distributions]] are precisely
 those whose distributional support is
 [[topology/compact-set|compact]]
 [Hörmander, §2.3](https://doi.org/10.1007/978-3-642-61497-2).

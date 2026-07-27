@@ -8,7 +8,7 @@ domains = ["functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(E\) be a dense subspace of a Hilbert space \(H\), and suppose the
+Let \(E\) be a dense subspace of a [[linear-algebra/hilbert-space|Hilbert space]] \(H\), and suppose the
 [[functional-analysis/operator-commutator|operator commutator]] \([A,B]\) is
 defined on \(E\). It is a **bounded commutator** if there is a constant
 \(C\geq 0\) such that

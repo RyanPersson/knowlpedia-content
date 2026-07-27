@@ -26,7 +26,7 @@ Consequently \(L^1(G)\) becomes a [[functional-analysis/banach-algebra|Banach al
 
 ## Translation interpretation
 
-Writing \(L_y g(x)=g(y^{-1}x)\), the value \((f*g)(x)\) averages the left translates \(L_y g\), weighted by \(f(y)\). This viewpoint explains why convolution converts group representations into operators: a representation can integrate the operators assigned to group elements against \(f\).
+Writing \(L_y g(x)=g(y^{-1}x)\), the value \((f*g)(x)\) averages the left translates \(L_y g\), weighted by \(f(y)\). This viewpoint explains why convolution converts [[algebra-representation-theory/group-representation|group representations]] into operators: a representation can integrate the operators assigned to group elements against \(f\).
 
 ## Involution and modular correction
 

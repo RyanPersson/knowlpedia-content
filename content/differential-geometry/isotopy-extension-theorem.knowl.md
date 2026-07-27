@@ -16,7 +16,7 @@ for every \(t\). Moreover, \(\Phi_t\) can be chosen to have compact support in a
 
 ## Construction idea
 
-Differentiating \(F_t\) in \(t\) gives a vector field along the moving submanifold \(F_t(N)\). A [[differential-geometry/tubular-neighborhood|tubular neighborhood]], extension in the normal directions, and a cutoff function extend it to a compactly supported time-dependent vector field on \(M\). The flow of this ambient field is the required \(\Phi_t\). Compact support ensures that the flow exists for the whole parameter interval.
+Differentiating \(F_t\) in \(t\) gives a [[fiber-bundles/vector-field|vector field]] along the moving submanifold \(F_t(N)\). A [[differential-geometry/tubular-neighborhood|tubular neighborhood]], extension in the normal directions, and a cutoff function extend it to a compactly supported time-dependent vector field on \(M\). The flow of this ambient field is the required \(\Phi_t\). Compact support ensures that the flow exists for the whole parameter interval.
 
 ## Relative and boundary forms
 

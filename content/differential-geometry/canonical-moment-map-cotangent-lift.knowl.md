@@ -33,7 +33,7 @@ Every cotangent lift preserves \(\theta\). Cartan's formula therefore gives
 \iota_{\xi_{T^*Q}}(-d\theta)
 =d\bigl(\theta(\xi_{T^*Q})\bigr)=dJ^\xi,
 \]
-which proves the moment-map identity without coordinates. Naturality of the infinitesimal generators under the group action proves coadjoint equivariance. The construction is developed in [Marsden and Ratiu, §12.1](https://doi.org/10.1007/978-0-387-21792-5).
+which proves the moment-map identity without coordinates. Naturality of the infinitesimal generators under the [[algebra-groups/group-action|group action]] proves coadjoint equivariance. The construction is developed in [Marsden and Ratiu, §12.1](https://doi.org/10.1007/978-0-387-21792-5).
 
 ## Coordinate example
 
@@ -45,7 +45,7 @@ Thus \(J(q,p)=p\): linear momentum is the [[fiber-bundles/moment-map|moment map]
 
 ## Conventions and scope
 
-**Warning.** If the canonical symplectic form is defined as \(d\theta\), or if fundamental vector fields use \(\exp(-t\xi)\), the formula for \(J\) acquires a minus sign. The theorem concerns the genuine cotangent lift; an arbitrary [[differential-geometry/symplectic-lie-group-action|symplectic action]] on a [[fiber-bundles/cotangent-bundle|cotangent bundle]] need not have this particular moment map.
+**Warning.** If the canonical symplectic form is defined as \(d\theta\), or if [[differential-geometry/infinitesimal-generator-lie-action|fundamental vector fields]] use \(\exp(-t\xi)\), the formula for \(J\) acquires a minus sign. The theorem concerns the genuine cotangent lift; an arbitrary [[differential-geometry/symplectic-lie-group-action|symplectic action]] on a [[fiber-bundles/cotangent-bundle|cotangent bundle]] need not have this particular moment map.
 
 ## References
 

@@ -22,14 +22,14 @@ into its adjointable operators. Writing \(a\cdot\xi=\varphi(a)\xi\) makes
 Nondegeneracy means that the closed span of \(\varphi(A)E\) is \(E\). Some
 authors allow degenerate left actions, so that convention must be stated when
 comparing sources.
-The left action is by bounded adjointable module maps, not arbitrary linear
+The left action is by bounded [[operator-algebras/adjointable-operator-hilbert-module|adjointable module maps]], not arbitrary linear
 endomorphisms.
 
 ## Morphisms and composition
 
 The direction “from \(A\) to \(B\)” records the left \(A\)-action and right
 \(B\)-valued inner product. A correspondence from \(A\) to \(B\) and one from
-\(B\) to \(C\) compose by the interior tensor product over \(B\). The identity
+\(B\) to \(C\) compose by the [[operator-algebras/internal-tensor-product-correspondences|interior tensor product]] over \(B\). The identity
 correspondence on \(A\) is \(A\) itself, with multiplication actions and
 inner product \(\langle a,b\rangle_A=a^*b\).
 

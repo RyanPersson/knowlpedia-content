@@ -16,7 +16,7 @@ The compatible Clifford action on \(\Delta_n\) makes \(S\) a [[differential-geom
 
 ## Construction from frames
 
-The spin structure is a principal \(\mathrm{Spin}(n)\)-bundle together with a two-to-one equivariant map to the oriented orthonormal frame bundle. Passing from a spin frame \(p\) and a spinor \(\psi\in\Delta_n\) to the equivalence class
+The spin structure is a principal \(\mathrm{Spin}(n)\)-bundle together with a two-to-one [[fiber-bundles/equivariant-map|equivariant map]] to the oriented orthonormal frame bundle. Passing from a spin frame \(p\) and a spinor \(\psi\in\Delta_n\) to the [[shared-foundations/equivalence-class|equivalence class]]
 \[
 [p,\psi]=[pg,\rho(g)^{-1}\psi]
 \]
@@ -40,13 +40,13 @@ The Levi-Civita connection lifts through the spin structure to a covariant deriv
 \[
 \nabla^S:\Gamma^\infty(S)\to\Gamma^\infty(T^*M\otimes S).
 \]
-Composing it with Clifford multiplication gives the spin Dirac operator
+Composing it with Clifford multiplication gives the spin [[noncommutative-geometry/dirac-operator|Dirac operator]]
 \[
 D=c\circ\nabla^S.
 \]
-On a closed manifold, \(D\) with initial domain
+On a [[topology/closed-manifold|closed manifold]], \(D\) with initial domain
 \(C^\infty(S)\subset L^2(S)\) is symmetric and essentially self-adjoint. Its
-closure is self-adjoint, with domain the first Sobolev space \(H^1(S)\), and
+closure is self-adjoint, with domain the first [[functional-analysis/sobolev-space|Sobolev space]] \(H^1(S)\), and
 is the operator in the canonical commutative [[noncommutative-geometry/spectral-triple|spectral triple]].
 
 ## Variants

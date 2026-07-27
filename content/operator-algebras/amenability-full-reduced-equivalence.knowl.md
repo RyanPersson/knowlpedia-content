@@ -22,7 +22,7 @@ Here \(q_G\) is the [[operator-algebras/full-to-reduced-group-cstar-quotient|ful
 
 ## Representation-theoretic form
 
-Injectivity of \(q_G\) is equivalent to every unitary representation of \(G\) being weakly contained in the left regular representation. Amenability is also equivalent to weak containment of the trivial representation in the regular representation. Fell absorption then supplies the bridge from the latter condition to all representations. This formulation is often called Hulanicki's criterion; see [Paterson, Chapter 4](https://doi.org/10.1090/surv/029).
+Injectivity of \(q_G\) is equivalent to every unitary representation of \(G\) being weakly contained in the left [[algebra-representation-theory/regular-representation|regular representation]]. Amenability is also equivalent to weak containment of the trivial representation in the regular representation. Fell absorption then supplies the bridge from the latter condition to all representations. This formulation is often called Hulanicki's criterion; see [Paterson, Chapter 4](https://doi.org/10.1090/surv/029).
 
 ## Consequences and examples
 
@@ -30,7 +30,7 @@ Every abelian, compact, or solvable locally compact group is amenable, so its fu
 
 ## Hypotheses and scope
 
-The theorem holds for locally compact groups, with a choice of Haar measure used to present \(C_c(G)\); the resulting completions and quotient are canonical up to the usual isomorphisms. For discrete groups the convolution algebra is the finitely supported group algebra. Analogous full-versus-reduced questions for groupoids, crossed products, and Fell bundles require their own amenability hypotheses and are not automatic consequences of this theorem.
+The theorem holds for locally compact groups, with a choice of [[harmonic-analysis/haar-measure|Haar measure]] used to present \(C_c(G)\); the resulting completions and quotient are canonical up to the usual isomorphisms. For discrete groups the convolution algebra is the finitely supported group algebra. Analogous full-versus-reduced questions for groupoids, crossed products, and [[operator-algebras/fell-bundle|Fell bundles]] require their own amenability hypotheses and are not automatic consequences of this theorem.
 
 ## References
 

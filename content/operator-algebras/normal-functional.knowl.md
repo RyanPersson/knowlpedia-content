@@ -34,7 +34,7 @@ are imposed. This order-continuity criterion is developed in
 
 ## Positive decomposition and states
 
-Every normal functional is a linear combination of four positive normal
+Every normal functional is a [[convex-analysis/linear-combination|linear combination]] of four positive normal
 functionals. Its adjoint \(\varphi^*(x)=\overline{\varphi(x^*)}\), real and
 imaginary parts, and polar decomposition all remain within \(M_*\). A positive
 normal functional of norm one is a

@@ -22,7 +22,7 @@ neighborhood of
 T(f):=T(\chi f),\qquad f\in C^\infty(\Omega),
 \]
 is independent of the choice of \(\chi\). Hence \(T\) extends canonically
-from test functions to all smooth functions.
+from [[functional-analysis/test-function-space|test functions]] to all smooth functions.
 
 ## Dual characterization
 

@@ -29,7 +29,7 @@ A global frame \(I,J,K\) of \(Q\) satisfying the quaternion relations is an almo
 
 ## Examples and near-misses
 
-Quaternionic Euclidean space \(\mathbb H^n\) has the trivial bundle \(Q\) spanned globally by right multiplication by \(i,j,k\). Quaternionic projective space \(\mathbb H P^n\) carries a canonical \(Q\) but, in general, no preferred global triple. An [[differential-geometry/almost-complex-structure|almost-complex structure]] \(I\) alone is a near-miss: it supplies one complex direction but not a rank-three bundle containing local \(J,K\) with \(IJ=K=-JI\).
+Quaternionic [[linear-algebra/euclidean-space|Euclidean space]] \(\mathbb H^n\) has the trivial bundle \(Q\) spanned globally by right multiplication by \(i,j,k\). Quaternionic projective space \(\mathbb H P^n\) carries a canonical \(Q\) but, in general, no preferred global triple. An [[differential-geometry/almost-complex-structure|almost-complex structure]] \(I\) alone is a near-miss: it supplies one complex direction but not a rank-three bundle containing local \(J,K\) with \(IJ=K=-JI\).
 
 ## Dimension four and terminology
 

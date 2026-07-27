@@ -8,7 +8,7 @@ domains = ["differential-geometry", "topology"]
 section_mode = "progressive"
 +++
 
-Let \((X,\omega)\) be a \(2n\)-dimensional [[differential-geometry/symplectic-manifold|symplectic manifold]]. The **Lefschetz operator** on differential forms is the degree-two linear map
+Let \((X,\omega)\) be a \(2n\)-dimensional [[differential-geometry/symplectic-manifold|symplectic manifold]]. The **Lefschetz operator** on differential forms is the degree-two [[linear-algebra/linear-map|linear map]]
 \[
 L:\Omega^k(X)\longrightarrow\Omega^{k+2}(X),\qquad L(\alpha)=\omega\wedge\alpha.
 \]

@@ -12,7 +12,7 @@ Let \(A\) and \(B\) be \(\sigma\)-unital \(C^*\)-algebras, equivalently \(C^*\)-
 \[
 A\otimes_{\min}\mathcal K\cong B\otimes_{\min}\mathcal K
 \]
-as \(C^*\)-algebras. Thus, under the countability hypothesis, Morita equivalence becomes ordinary \(*\)-isomorphism after stabilization by compact operators.
+as \(C^*\)-algebras. Thus, under the countability hypothesis, Morita equivalence becomes ordinary \(*\)-isomorphism after stabilization by [[linear-algebra/compact-operator|compact operators]].
 
 ## Mechanism of the theorem
 
@@ -37,7 +37,7 @@ separable infinite-dimensional \(H\), since
 
 ## Hypotheses and limitations
 
-**Warning.** The theorem requires countable approximate identities for both
+**Warning.** The theorem requires [[operator-algebras/sigma-unital-cstar-algebra|countable approximate identities]] for both
 algebras. Brown, Green, and Rieffel exhibit failure without this hypothesis,
 so stable isomorphism and strong Morita equivalence are not unconditionally
 interchangeable. The tensor product here is the

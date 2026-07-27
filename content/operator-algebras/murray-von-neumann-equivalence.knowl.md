@@ -48,7 +48,7 @@ be equivalent.
 ## Role in classification
 
 Murray–von Neumann equivalence is the comparison relation behind the
-dimension theory of von Neumann algebras. Passing to equivalence classes and
+dimension theory of von Neumann algebras. Passing to [[shared-foundations/equivalence-class|equivalence classes]] and
 using orthogonal sums of projections records how pieces of the identity can
 be decomposed. The distinction between finite, semifinite, and properly
 infinite behavior—and ultimately the type I, II, and III classification—is

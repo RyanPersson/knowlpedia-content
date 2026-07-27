@@ -25,13 +25,13 @@ Thus \(x\mapsto\delta_x\) embeds the group law into the invertible elements of \
 
 ## Relation to the group algebra
 
-After fixing a left [[harmonic-analysis/haar-measure|Haar measure]] \(m\), each \(f\in L^1(G,m)\) determines the measure \(f\,dm\). This identifies the [[harmonic-analysis/l1-group-algebra|\(L^1\) group algebra]] isometrically with a closed two-sided ideal in \(M(G)\). Point masses at nondiscrete points are singular with respect to Haar measure, so \(M(G)\) is generally strictly larger than \(L^1(G)\) [Hewitt and Ross, §19](https://doi.org/10.1007/978-3-662-40409-6).
+After fixing a left [[harmonic-analysis/haar-measure|Haar measure]] \(m\), each \(f\in L^1(G,m)\) determines the measure \(f\,dm\). This identifies the [[harmonic-analysis/l1-group-algebra|\(L^1\) group algebra]] isometrically with a closed [[algebra-rings/two-sided-ideal|two-sided ideal]] in \(M(G)\). Point masses at nondiscrete points are singular with respect to Haar measure, so \(M(G)\) is generally strictly larger than \(L^1(G)\) [Hewitt and Ross, §19](https://doi.org/10.1007/978-3-662-40409-6).
 
 ## Examples and scope
 
 If \(G\) is discrete, every bounded measure is an absolutely summable family and \(M(G)\cong\ell^1(G)\). For nondiscrete \(G\), \(M(G)\) simultaneously contains integrable densities and atomic measures. On an [[algebra-groups/abelian-group|abelian group]] it is commutative; on a nonabelian group the point-mass calculation shows immediately that it need not be commutative.
 
-**Warning.** Here “bounded” means finite total variation, not compact support and not bounded density with respect to Haar measure.
+**Warning.** Here “bounded” means finite [[real-analysis/total-variation|total variation]], not compact support and not bounded density with respect to Haar measure.
 
 ## References
 

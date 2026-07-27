@@ -8,7 +8,7 @@ domains = ["lie-groups", "functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a Lie group and let \((\pi,\mathcal H)\) be a strongly continuous
+Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and let \((\pi,\mathcal H)\) be a strongly continuous
 unitary representation. Write \(\mathcal H^\infty\) for its
 [[lie-groups/smooth-vector-unitary-representation|space of smooth vectors]],
 with the usual Fréchet topology. The space of **distribution vectors** is
@@ -26,14 +26,14 @@ smooth test vectors, not necessarily an element of \(\mathcal H\).
 
 ## The smooth-vector topology
 
-Choose a finite basis of the complexified Lie algebra and take all ordered
+Choose a finite basis of the complexified [[lie-groups/lie-algebra|Lie algebra]] and take all ordered
 monomials in that basis. Equivalently, let \(D\) range over a vector-space
 basis of the universal [[lie-groups/universal-enveloping-algebra|enveloping algebra]]. Seminorms of the form
 \[
 v\longmapsto\lVert d\pi(D)v\rVert,\qquad D\in U(\mathfrak g_{\mathbb C}),
 \]
 define the Fréchet topology on \(\mathcal H^\infty\). Different finite bases
-or generating sets of \(\mathfrak g_{\mathbb C}\), together with all
+or [[algebra-groups/generating-set|generating sets]] of \(\mathfrak g_{\mathbb C}\), together with all
 monomials in them, give equivalent countable seminorm families. No single
 finite collection of these seminorms generally suffices. Continuity with
 respect to the full family distinguishes distribution vectors from arbitrary
@@ -56,7 +56,7 @@ These formulas are well-defined because the original action preserves
 
 ## Use in representation theory
 
-Distribution vectors allow equivariant maps to be encoded by generalized
+Distribution vectors allow [[fiber-bundles/equivariant-map|equivariant maps]] to be encoded by generalized
 matrix coefficients and invariant functionals. Delta distributions in
 geometric realizations and automorphic distribution vectors are typical
 examples. In the representation theory of real reductive groups, the passage

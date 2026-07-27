@@ -19,9 +19,9 @@ Equivalently, the map
 \mathcal H^k(M,g)\longrightarrow H^k_{\mathrm{dR}}(M;\mathbb R),
 \qquad \alpha\longmapsto[\alpha],
 \]
-is an isomorphism of finite-dimensional real vector spaces. The harmonic
+is an isomorphism of finite-dimensional real [[linear-algebra/vector-space|vector spaces]]. The harmonic
 representative and the displayed isomorphism depend on \(g\), whereas de
-Rham cohomology itself depends only on the smooth manifold
+Rham cohomology itself depends only on the [[fiber-bundles/smooth-manifold|smooth manifold]]
 [de Cataldo, Corollary 2.3.7](https://www.math.stonybrook.edu/~mde/papers/MyHodgeTheoryBook.pdf).
 
 ## Why existence and uniqueness hold

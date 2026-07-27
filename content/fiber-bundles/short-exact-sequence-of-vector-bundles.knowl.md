@@ -36,17 +36,17 @@ The morphism \(\iota\) has constant rank and realizes \(E'\) as a [[fiber-bundle
 0\longrightarrow E'\longrightarrow E\longrightarrow E/E'\longrightarrow0.
 \]
 
-Bundle pullback preserves short exact sequences, because taking each pulled-back fiber reproduces the original exact vector-space sequence.
+Bundle pullback preserves [[algebra-modules/short-exact-sequence|short exact sequences]], because taking each pulled-back fiber reproduces the original exact vector-space sequence.
 
 ## Splittings
 
-A **splitting** is a bundle morphism \(\sigma:E''\to E\) with \(q\circ\sigma=\operatorname{id}_{E''}\). Such a choice gives an isomorphism
+A **splitting** is a [[fiber-bundles/bundle-morphism|bundle morphism]] \(\sigma:E''\to E\) with \(q\circ\sigma=\operatorname{id}_{E''}\). Such a choice gives an isomorphism
 \[
 E'\oplus E''\longrightarrow E,
 \qquad
 (u,v)\longmapsto\iota(u)+\sigma(v).
 \]
-On a paracompact [[fiber-bundles/smooth-manifold|smooth manifold]], every short exact sequence of finite-rank smooth vector bundles splits: choose a [[fiber-bundles/bundle-metric|bundle metric]] on \(E\) and take the orthogonal complement of \(\iota(E')\). The splitting is generally noncanonical. This differs from exact sequences of holomorphic vector bundles, which need not split holomorphically.
+On a paracompact [[fiber-bundles/smooth-manifold|smooth manifold]], every short exact sequence of finite-rank smooth vector bundles splits: choose a [[fiber-bundles/bundle-metric|bundle metric]] on \(E\) and take the [[linear-algebra/orthogonal-complement|orthogonal complement]] of \(\iota(E')\). The splitting is generally noncanonical. This differs from exact sequences of [[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundles]], which need not split holomorphically.
 
 ## Standard examples
 

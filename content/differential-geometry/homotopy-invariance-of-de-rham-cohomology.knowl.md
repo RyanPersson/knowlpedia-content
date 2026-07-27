@@ -8,7 +8,7 @@ domains = ["differential-geometry", "topology"]
 section_mode = "progressive"
 +++
 
-Let \(f_0,f_1:M\to N\) be smooth maps between smooth manifolds. If \(f_0\) and \(f_1\) are joined by a [[differential-geometry/smooth-homotopy|smooth homotopy]], then their pullbacks induce the same homomorphism on every [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology group]]:
+Let \(f_0,f_1:M\to N\) be [[fiber-bundles/smooth-map|smooth maps]] between [[fiber-bundles/smooth-manifold|smooth manifolds]]. If \(f_0\) and \(f_1\) are joined by a [[differential-geometry/smooth-homotopy|smooth homotopy]], then their pullbacks induce the same homomorphism on every [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology group]]:
 \[
 f_0^*=f_1^*:H_{\mathrm{dR}}^k(N)\longrightarrow H_{\mathrm{dR}}^k(M).
 \]
@@ -21,7 +21,7 @@ The conclusion holds in every degree and is natural with respect to composition 
 
 ## Consequences
 
-A smooth [[topology/homotopy-equivalence|homotopy equivalence]] induces an isomorphism on de Rham cohomology. In particular, a smooth deformation retract has the same de Rham cohomology as the retract. This makes \(H_{\mathrm{dR}}^*\) a contravariant functor on the smooth homotopy category, not merely on the [[differential-geometry/category-of-smooth-manifolds|category of smooth manifolds]] [Bott–Tu, Chapter I, §4](https://doi.org/10.1007/978-1-4757-3951-0).
+A smooth [[topology/homotopy-equivalence|homotopy equivalence]] induces an isomorphism on de Rham cohomology. In particular, a smooth deformation retract has the same de Rham cohomology as the retract. This makes \(H_{\mathrm{dR}}^*\) a [[algebra-category-theory/contravariant-functor|contravariant functor]] on the smooth homotopy category, not merely on the [[differential-geometry/category-of-smooth-manifolds|category of smooth manifolds]] [Bott–Tu, Chapter I, §4](https://doi.org/10.1007/978-1-4757-3951-0).
 
 ## Canonical example
 

@@ -16,9 +16,9 @@ is injective. Consequently, identities among [[fiber-bundles/characteristic-clas
 
 ## Construction and justification
 
-One constructs \(\operatorname{Fl}(E)\) by iteratively projectivizing the remaining quotient bundle. The resulting tautological filtration has line-bundle subquotients. Hermitian orthogonal complements split the filtration in the smooth category.
+One constructs \(\operatorname{Fl}(E)\) by iteratively projectivizing the remaining quotient bundle. The resulting tautological filtration has line-bundle subquotients. Hermitian [[linear-algebra/orthogonal-complement|orthogonal complements]] split the filtration in the smooth category.
 
-The projective bundle theorem, applied at each stage, makes cohomology of the new base a free module over the preceding cohomology ring with a basis containing \(1\). The pullback at each stage is therefore injective, and so is their composite [Milnor and Stasheff, chapter 14](https://doi.org/10.1515/9781400881826).
+The projective bundle theorem, applied at each stage, makes cohomology of the new base a [[algebra-modules/free-module|free module]] over the preceding cohomology ring with a basis containing \(1\). The pullback at each stage is therefore injective, and so is their composite [Milnor and Stasheff, chapter 14](https://doi.org/10.1515/9781400881826).
 
 ## Use with Chern classes
 
@@ -34,7 +34,7 @@ The same method applies to identities involving duals, tensor products, exterior
 
 One may formulate the principle using a full flag bundle, a tower of projective bundles, or an unspecified auxiliary space over which the bundle splits and cohomology pullback is injective. Conventions that projectivize lines versus hyperplanes change the signs used for tautological first Chern classes.
 
-**Warning.** The theorem does not say that \(E\) splits over \(X\). Nor does it say that \(p\) is injective as a map of spaces or is a homotopy equivalence; injectivity refers to the stated map on cohomology.
+**Warning.** The theorem does not say that \(E\) splits over \(X\). Nor does it say that \(p\) is injective as a map of spaces or is a [[topology/homotopy-equivalence|homotopy equivalence]]; injectivity refers to the stated map on cohomology.
 
 ## References
 

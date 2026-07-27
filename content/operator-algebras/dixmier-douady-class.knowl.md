@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(A\) be a separable
 [[operator-algebras/continuous-trace-cstar-algebra|continuous-trace \(C^*\)-algebra]] with spectrum \(X=\widehat A\), and assume \(X\) is
-paracompact. For a fixed separable infinite-dimensional Hilbert space \(H\),
+paracompact. For a fixed separable infinite-dimensional [[linear-algebra/hilbert-space|Hilbert space]] \(H\),
 the stabilization of \(A\) is locally a field of compact-operator algebras.
 Its transition automorphisms define a principal \(PU(H)\)-bundle over
 \(X\), whose obstruction class
@@ -20,14 +20,14 @@ Its transition automorphisms define a principal \(PU(H)\)-bundle over
 is the **Dixmier–Douady class** of \(A\). Equivalently, it is the image in
 [[topology/singular-cohomology-group|degree-three integral cohomology]] of
 the Čech cocycle obtained by lifting the projective-unitary transition
-functions locally to unitary operators.
+functions locally to [[functional-analysis/unitary-operator|unitary operators]].
 The class depends on the identification of the spectrum with \(X\)
 [Raeburn–Williams, Chapter 5](https://doi.org/10.1090/surv/060).
 
 ## Classification and vanishing
 
 Over a fixed second-countable
-[[topology/locally-compact-space|locally compact]] Hausdorff space \(X\),
+[[topology/locally-compact-space|locally compact]] [[topology/hausdorff-space|Hausdorff space]] \(X\),
 the assignment
 \(A\mapsto\delta(A)\) classifies continuous-trace \(C^*\)-algebras up to
 [[operator-algebras/strong-morita-equivalence|strong Morita equivalence]]:
@@ -43,7 +43,7 @@ local fiber type, which is already fixed.
 
 ## Cocycles and examples
 
-Choose local trivializations with transition maps
+Choose [[fiber-bundles/local-trivialization|local trivializations]] with transition maps
 \(g_{ij}:U_i\cap U_j\to PU(H)\), and choose local unitary lifts
 \(\widetilde g_{ij}\). On triple overlaps,
 \[

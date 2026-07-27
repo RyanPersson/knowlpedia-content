@@ -8,7 +8,7 @@ domains = ["harmonic-analysis", "operator-algebras"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a [[topology/locally-compact-group|locally compact group]], let \(A=C^*(G)\) be its [[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]], and identify its irreducible representations with the [[harmonic-analysis/unitary-dual|unitary dual]] \(\widehat G\). The [[harmonic-analysis/fell-topology|Fell topology]] has the following **kernel description**:
+Let \(G\) be a [[topology/locally-compact-group|locally compact group]], let \(A=C^*(G)\) be its [[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]], and identify its [[algebra-representation-theory/irreducible-representation|irreducible representations]] with the [[harmonic-analysis/unitary-dual|unitary dual]] \(\widehat G\). The [[harmonic-analysis/fell-topology|Fell topology]] has the following **kernel description**:
 \[
 [\pi]\in\overline S
 \quad\Longleftrightarrow\quad

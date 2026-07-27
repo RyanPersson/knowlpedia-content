@@ -24,7 +24,7 @@ is [[differential-geometry/holomorphic-map|holomorphic]]. Its inverse is then ho
 
 ## Coordinate expressions
 
-A map between complex manifolds is holomorphic precisely when its coordinate representative is holomorphic for charts about each source point and its image. Because transition maps are biholomorphic, this test is independent of the selected compatible charts. Coordinate vector fields and differentials transform by complex-linear [[real-analysis/jacobian-matrix|Jacobian matrices]].
+A map between complex manifolds is holomorphic precisely when its coordinate representative is holomorphic for charts about each source point and its image. Because transition maps are biholomorphic, this test is independent of the selected compatible charts. Coordinate [[fiber-bundles/vector-field|vector fields]] and differentials transform by complex-linear [[real-analysis/jacobian-matrix|Jacobian matrices]].
 
 ## Conventions and scope
 

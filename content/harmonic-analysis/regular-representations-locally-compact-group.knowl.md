@@ -23,7 +23,7 @@ Both maps are
 continuous unitary representations]],
 and their images commute:
 \(\lambda(g)\rho(h)=\rho(h)\lambda(g)\).
-The modular factor is precisely what makes right translation unitary for a
+The modular factor is precisely what makes [[lie-groups/right-translation|right translation]] unitary for a
 left Haar measure; it equals \(1\) when \(G\) is unimodular. With the displayed
 conventions, both \(g\mapsto\lambda(g)\) and \(g\mapsto\rho(g)\) are group
 homomorphisms.
@@ -40,7 +40,7 @@ continuous functions and then for all of \(L^2(G)\) by density, as in
 
 ## Relation to convolution
 
-For suitable \(f\), the integrated operator
+For suitable \(f\), the [[harmonic-analysis/integrated-operator-continuous-representation|integrated operator]]
 \(\lambda(f)=\int_G f(g)\lambda(g)\,d\mu(g)\) acts by left
 [[harmonic-analysis/convolution-on-locally-compact-group|convolution]]. Its
 adjoint is \(\lambda(f^*)\), where \(f^*\) is the

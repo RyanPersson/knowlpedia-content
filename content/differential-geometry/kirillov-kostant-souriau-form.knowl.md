@@ -25,11 +25,11 @@ If \(X^\#_\mu=0\), then \(X\) lies in the stabilizer Lie algebra \(\mathfrak g_\
 
 ## Closedness and invariance
 
-Equivariance of the coadjoint action and invariance of the [[fiber-bundles/lie-bracket|Lie bracket]] imply \(G\)-invariance of \(\omega_{\mathrm{KKS}}\). Evaluating the [[fiber-bundles/exterior-derivative|exterior derivative]] on fundamental vector fields reduces \(d\omega_{\mathrm{KKS}}=0\) to the Jacobi identity. These properties are part of the canonical orbit construction described in [Kostant, pp. 87–208](https://doi.org/10.1007/BFb0079063).
+Equivariance of the coadjoint action and invariance of the [[fiber-bundles/lie-bracket|Lie bracket]] imply \(G\)-invariance of \(\omega_{\mathrm{KKS}}\). Evaluating the [[fiber-bundles/exterior-derivative|exterior derivative]] on [[differential-geometry/infinitesimal-generator-lie-action|fundamental vector fields]] reduces \(d\omega_{\mathrm{KKS}}=0\) to the Jacobi identity. These properties are part of the canonical orbit construction described in [Kostant, pp. 87–208](https://doi.org/10.1007/BFb0079063).
 
 ## Moment map and sign convention
 
-With the convention displayed in the core and \(d\mu^\xi=\iota_{\xi_{\mathcal O}}\omega\), the inclusion \(\mathcal O\hookrightarrow\mathfrak g^*\) is an equivariant [[fiber-bundles/moment-map|moment map]]. Reversing the definition of fundamental vector fields or using \(\iota_{X_H}\omega=-dH\) reverses the KKS sign in many texts. The convention must therefore be checked before comparing formulas.
+With the convention displayed in the core and \(d\mu^\xi=\iota_{\xi_{\mathcal O}}\omega\), the inclusion \(\mathcal O\hookrightarrow\mathfrak g^*\) is an equivariant [[fiber-bundles/moment-map|moment map]]. Reversing the definition of fundamental [[fiber-bundles/vector-field|vector fields]] or using \(\iota_{X_H}\omega=-dH\) reverses the KKS sign in many texts. The convention must therefore be checked before comparing formulas.
 
 ## References
 

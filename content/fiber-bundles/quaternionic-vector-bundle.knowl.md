@@ -27,7 +27,7 @@ rank \(4n\). [[fiber-bundles/bundle-morphism|Bundle morphisms]] in this category
 
 Restricting scalars along \(\mathbb C\subset\mathbb H\) turns \(E\) into a
 [[fiber-bundles/complex-vector-bundle|complex vector bundle]] of rank \(2n\).
-Right multiplication by \(j\) defines an antilinear bundle map \(J:E\to E\)
+Right multiplication by \(j\) defines an antilinear [[fiber-bundles/bundle-map|bundle map]] \(J:E\to E\)
 satisfying \(J^2=-I\). Conversely, such a pair \((E,J)\) recovers the right
 quaternionic action. This is the standard complex description of a quaternion
 bundle
@@ -35,7 +35,7 @@ bundle
 
 ## Metrics and examples
 
-A fiberwise quaternionic Hermitian metric reduces the transition functions
+A fiberwise quaternionic [[fiber-bundles/hermitian-metric|Hermitian metric]] reduces the transition functions
 from \(\operatorname{GL}(n,\mathbb H)\) to the
 [[lie-groups/compact-symplectic-group|compact symplectic group]]
 \(\operatorname{Sp}(n)\). Such a metric can be assembled from local standard

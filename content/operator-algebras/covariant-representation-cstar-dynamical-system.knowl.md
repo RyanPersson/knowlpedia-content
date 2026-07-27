@@ -12,7 +12,7 @@ Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system|\(C^*\)-dyn
 \[
 \pi(\alpha_s(a))=U_s\pi(a)U_s^*
 \]
-for every \(s\in G\) and \(a\in A\). The displayed covariance identity is the compatibility axiom relating the algebra representation to the group action.
+for every \(s\in G\) and \(a\in A\). The displayed covariance identity is the compatibility axiom relating the algebra representation to the [[algebra-groups/group-action|group action]].
 
 ## Integrated compatibility
 
@@ -24,7 +24,7 @@ a \(*\)-representation of the [[operator-algebras/crossed-product-convolution-st
 
 ## Examples and non-examples
 
-For the trivial action of \(G\) on \(A\), covariance says that every \(U_s\) commutes with \(\pi(A)\). The one-dimensional pair \((\operatorname{id}_{\mathbb C},U)\) is covariant for the trivial action on \(\mathbb C\) for any continuous unitary character \(U\).
+For the trivial action of \(G\) on \(A\), covariance says that every \(U_s\) commutes with \(\pi(A)\). The one-dimensional pair \((\operatorname{id}_{\mathbb C},U)\) is covariant for the trivial action on \(\mathbb C\) for any [[harmonic-analysis/unitary-character|continuous unitary character]] \(U\).
 
 A representation \(\pi\) and a unitary representation \(U\) on the same Hilbert space do not form a covariant pair merely by coexisting: if conjugation by \(U_s\) fails to implement \(\alpha_s\) through \(\pi\), the covariance axiom fails.
 

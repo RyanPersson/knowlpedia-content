@@ -35,7 +35,7 @@ irreducibles need not give a workable measurable classification
 Abelian and compact locally compact groups are type I. Connected nilpotent Lie
 groups and the standard classes of
 [[lie-groups/real-reductive-lie-group|real reductive Lie groups]] are major
-noncompact examples. In contrast, the free group on two generators, with the
+noncompact examples. In contrast, the [[algebra-groups/free-group|free group]] on two generators, with the
 discrete topology, is not type I; more generally, a countable discrete group
 is type I exactly when it is virtually abelian
 [Bekka–de la Harpe, §8.B and Theorem 8.F.3](https://bookstore.ams.org/SURV/250).

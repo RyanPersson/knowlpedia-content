@@ -15,7 +15,7 @@ Let \(F\) be a number field and \(\mathbb A_F\) its ring of adeles. The **Schwar
 \bigotimes_{v\nmid\infty}'\mathcal S(F_v),
 \]
 where \(\mathcal S(F_\infty)\) is the Schwartz space of the
-finite-dimensional real vector space
+finite-dimensional real [[linear-algebra/vector-space|vector space]]
 \(F_\infty=\prod_{v\mid\infty}F_v\). The finite-place factor is the
 [[harmonic-analysis/restricted-tensor-product-test-functions|restricted
 tensor product]] of the local

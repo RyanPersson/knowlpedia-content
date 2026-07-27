@@ -37,7 +37,7 @@ invertibility is stable under sufficiently small norm perturbations.
 ## One-sided inverses
 
 In a general Banach algebra, a left inverse need not be a right inverse. For
-example, the unilateral shift on a Hilbert space has a left inverse but no
+example, the unilateral shift on a [[linear-algebra/hilbert-space|Hilbert space]] has a left inverse but no
 right inverse. The definition therefore requires both equations. In a
 commutative algebra the distinction disappears, but existence still depends
 on the ambient unital algebra.
@@ -49,7 +49,7 @@ The spectrum of \(a\in A\) is
 \sigma_A(a)=\{\lambda\in\mathbb C:
 \lambda 1_A-a\notin A^\times\},
 \]
-and its complement is the resolvent set. For nonunital \(A\), the same
+and its complement is the [[functional-analysis/banach-algebra-resolvent|resolvent set]]. For nonunital \(A\), the same
 formula is evaluated in \(\widetilde A\); consequently \(0\) belongs to the
 spectrum of every \(a\in A\). This convention makes spectra compatible with
 representations and functional calculus.

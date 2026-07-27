@@ -14,11 +14,11 @@ df_p:T_pM\longrightarrow T_{f(p)}N;
 \qquad
 \operatorname{rank}_p(f)=\dim(\operatorname{im}df_p).
 \]
-Thus \(0\leq \operatorname{rank}_p(f)\leq\min(\dim M,\dim N)\). The map \(f\) has **constant rank \(r\)** on a subset if \(\operatorname{rank}_p(f)=r\) at every point of that subset. The definition is independent of coordinates because changing charts composes the coordinate Jacobian with invertible linear maps.
+Thus \(0\leq \operatorname{rank}_p(f)\leq\min(\dim M,\dim N)\). The map \(f\) has **constant rank \(r\)** on a subset if \(\operatorname{rank}_p(f)=r\) at every point of that subset. The definition is independent of coordinates because changing charts composes the coordinate Jacobian with invertible [[linear-algebra/linear-map|linear maps]].
 
 ## Full-rank cases
 
-If \(\operatorname{rank}_p(f)=\dim M\), then \(df_p\) is injective; \(f\) is an [[fiber-bundles/smooth-immersion|immersion]] at \(p\). If \(\operatorname{rank}_p(f)=\dim N\), then \(df_p\) is surjective; \(f\) is a [[fiber-bundles/smooth-submersion|submersion]] at \(p\). When the dimensions agree, either condition says that \(df_p\) is an isomorphism, and the inverse function theorem makes \(f\) a local diffeomorphism near \(p\).
+If \(\operatorname{rank}_p(f)=\dim M\), then \(df_p\) is injective; \(f\) is an [[fiber-bundles/smooth-immersion|immersion]] at \(p\). If \(\operatorname{rank}_p(f)=\dim N\), then \(df_p\) is surjective; \(f\) is a [[fiber-bundles/smooth-submersion|submersion]] at \(p\). When the dimensions agree, either condition says that \(df_p\) is an isomorphism, and the [[shared-foundations/inverse-function|inverse function]] theorem makes \(f\) a [[algebraic-geometry-foundations/local-diffeomorphism|local diffeomorphism]] near \(p\).
 
 ## Constant-rank normal form
 

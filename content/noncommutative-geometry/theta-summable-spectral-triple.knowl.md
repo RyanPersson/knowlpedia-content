@@ -37,7 +37,7 @@ entire cyclic cochain. This is the original analytic setting of
 **Warning.** Requiring the heat operator to be trace class for one specified
 time gives convergence automatically only for larger times. Theta summability
 requires every \(t>0\). In semifinite spectral geometry, the ordinary operator
-trace is replaced by a chosen faithful normal semifinite trace; that is a
+trace is replaced by a chosen [[operator-algebras/faithful-normal-semifinite-trace|faithful normal semifinite trace]]; that is a
 different ambient definition.
 
 ## References

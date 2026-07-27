@@ -30,7 +30,7 @@ The closed-form and local-coordinate conditions are given in [Demailly, Chapter 
 
 ## Structure and consequences
 
-The fundamental form of a Kähler metric is nondegenerate, so it also makes \(X\) a [[differential-geometry/symplectic-manifold|symplectic manifold]]. The Levi–Civita connection preserves \(g\), \(J\), and \(\omega\), and its holonomy is contained in \(U(n)\). Locally, the metric coefficients are complex Hessians of real Kähler potentials. These compatibilities are special: an arbitrary Hermitian metric need not have closed fundamental form.
+The fundamental form of a Kähler metric is nondegenerate, so it also makes \(X\) a [[differential-geometry/symplectic-manifold|symplectic manifold]]. The Levi–Civita connection preserves \(g\), \(J\), and \(\omega\), and its holonomy is contained in \(U(n)\). Locally, the metric coefficients are complex Hessians of real [[differential-geometry/local-kahler-potential|Kähler potentials]]. These compatibilities are special: an arbitrary Hermitian metric need not have closed [[differential-geometry/fundamental-form-almost-hermitian|fundamental form]].
 
 ## Examples and non-examples
 

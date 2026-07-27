@@ -34,7 +34,7 @@ For the standard spaces \(\mathbb R^{2m}\to\mathbb R^{2n}\), this criterion show
 
 ## Examples and scope
 
-The inclusion of a [[differential-geometry/symplectic-subspace|symplectic subspace]] with its restricted form is symplectic linear. A scalar multiple \(cI\) on a nonzero real symplectic vector space is symplectic precisely when \(c^2=1\). This linear notion is the tangent-space model for a [[differential-geometry/symplectic-map|symplectic map]] between symplectic manifolds.
+The inclusion of a [[differential-geometry/symplectic-subspace|symplectic subspace]] with its restricted form is symplectic linear. A scalar multiple \(cI\) on a nonzero real symplectic vector space is symplectic precisely when \(c^2=1\). This linear notion is the tangent-space model for a [[differential-geometry/symplectic-map|symplectic map]] between [[differential-geometry/symplectic-manifold|symplectic manifolds]].
 
 ## References
 

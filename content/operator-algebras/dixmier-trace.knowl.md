@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(H\) be a separable [[linear-algebra/hilbert-space|Hilbert space]] and let
-\(\omega\) be a dilation-invariant generalized limit on bounded sequences. For
+\(\omega\) be a dilation-invariant generalized limit on [[real-analysis/bounded-sequence|bounded sequences]]. For
 a positive operator \(T\) in the
 [[operator-algebras/marcinkiewicz-macaev-ideal|Marcinkiewicz–Macaev ideal]]
 \(\mathcal M_{1,\infty}(H)\), its **Dixmier trace** is
@@ -26,7 +26,7 @@ but its value can depend on \(\omega\).
 
 ## Why the logarithmic mean appears
 
-For \(T\in\mathcal M_{1,\infty}\), the partial sums of singular values grow at
+For \(T\in\mathcal M_{1,\infty}\), the [[real-analysis/partial-sums|partial sums]] of singular values grow at
 most logarithmically, so the sequence supplied to \(\omega\) is bounded. The
 generalized limit extracts an asymptotic coefficient even when the ordinary
 limit does not exist. Dilation invariance is the ingredient that makes the
@@ -56,7 +56,7 @@ this role in [Noncommutative Geometry, Chapter IV](https://alainconnes.org/wp-co
 ## Conventions and scope
 
 **Warning.** The notation \(\mathcal L^{1,\infty}\) is not uniform across the
-literature: it may denote the weak Schatten ideal or the logarithmic
+literature: it may denote the [[operator-algebras/weak-schatten-ideal|weak Schatten ideal]] or the logarithmic
 Marcinkiewicz ideal. The former is strictly contained in the latter under the
 conventions used here. Also, not every singular trace is a Dixmier trace, and
 a Dixmier trace is not normal on \(B(H)\).

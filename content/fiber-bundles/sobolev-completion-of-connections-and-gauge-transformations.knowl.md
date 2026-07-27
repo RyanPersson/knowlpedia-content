@@ -25,7 +25,7 @@ derivative makes the usual gauge action
 
 ## Why the indices are offset
 
-In a local trivialization the action of a
+In a [[fiber-bundles/local-trivialization|local trivialization]] the action of a
 [[fiber-bundles/gauge-transformation|gauge transformation]] contains a
 derivative:
 \[
@@ -37,7 +37,7 @@ The analytic construction, including the manifold of connections and Sobolev gau
 
 ## Geometry of the completion
 
-Smooth connections and smooth gauge transformations are dense in their respective completions. On compact \(M\), different choices of reference connection, bundle metric, and finite atlas give equivalent Sobolev norms, so they do not change the resulting topology.
+Smooth connections and smooth gauge transformations are dense in their respective completions. On compact \(M\), different choices of reference connection, [[fiber-bundles/bundle-metric|bundle metric]], and finite atlas give equivalent Sobolev norms, so they do not change the resulting topology.
 
 At an [[fiber-bundles/irreducible-connection|irreducible connection]], a
 Coulomb condition such as \(d_{A_0}^*(A-A_0)=0\) provides a local slice under

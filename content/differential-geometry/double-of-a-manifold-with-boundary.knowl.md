@@ -13,7 +13,7 @@ Let \(M\) be a smooth [[differential-geometry/manifold-with-boundary|manifold wi
 DM=(M\times\{+,-\})/{\sim},
 \qquad (x,+)\sim(x,-)\ \text{for }x\in\partial M,
 \]
-equipped with the smooth structure obtained from a [[differential-geometry/collar-neighborhood-theorem|collar]] of \(\partial M\). In collar coordinates, the two inward parameters \(t\geq0\) are joined as the signed coordinate \(t\in\mathbb R\). The result is a smooth manifold without boundary containing two copies of \(M\), whose intersection is their common embedded hypersurface \(\partial M\).
+equipped with the smooth structure obtained from a [[differential-geometry/collar-neighborhood-theorem|collar]] of \(\partial M\). In collar coordinates, the two inward parameters \(t\geq0\) are joined as the signed coordinate \(t\in\mathbb R\). The result is a [[fiber-bundles/smooth-manifold|smooth manifold]] without boundary containing two copies of \(M\), whose intersection is their common embedded hypersurface \(\partial M\).
 Reflection exchanges the two copies and fixes this hypersurface pointwise.
 
 ## Smooth construction

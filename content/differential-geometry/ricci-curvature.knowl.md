@@ -29,7 +29,7 @@ given tangent direction.
 
 ## Geometric meaning
 
-For a unit tangent vector \(X\), extend \(X\) to an orthonormal basis
+For a unit tangent vector \(X\), extend \(X\) to an [[linear-algebra/orthonormal-basis|orthonormal basis]]
 \(X,e_2,\ldots,e_n\). Then
 \[
 \operatorname{Ric}(X,X)=\sum_{i=2}^n K(X,e_i),
@@ -46,7 +46,7 @@ Taking the metric trace of \(\operatorname{Ric}\) gives the scalar curvature
 \(\operatorname{Scal}\). A metric is Einstein when
 \(\operatorname{Ric}=\lambda g\) for a function \(\lambda\); in dimension at
 least three, the contracted Bianchi identity forces \(\lambda\) to be constant
-on each connected component. This is the contracted form of the
+on each [[topology/connected-component|connected component]]. This is the contracted form of the
 [[fiber-bundles/bianchi-identity|Bianchi identity]]. A metric is Ricci-flat when
 \(\operatorname{Ric}=0\). Ricci-flatness does not imply that the full Riemann
 tensor vanishes in dimensions four and higher.
@@ -57,7 +57,7 @@ On an \(n\)-manifold of constant sectional curvature \(k\),
 \[
 \operatorname{Ric}=(n-1)k\,g.
 \]
-Thus the unit round sphere has positive Ricci curvature and Euclidean space has
+Thus the unit round sphere has positive Ricci curvature and [[linear-algebra/euclidean-space|Euclidean space]] has
 zero Ricci curvature. In dimension two,
 \(\operatorname{Ric}=K g\), so Ricci curvature and Gaussian curvature contain
 the same information.

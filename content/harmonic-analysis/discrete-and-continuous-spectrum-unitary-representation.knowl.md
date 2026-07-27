@@ -16,7 +16,7 @@ Both subspaces are invariant, and \(U=U_{\mathrm d}\oplus U_{\mathrm c}\). This 
 
 ## Direct sums and direct integrals
 
-The discrete part can be organized as a [[harmonic-analysis/hilbert-direct-sum-unitary-representations|Hilbert direct sum]] of irreducible representations, with repetitions recording discrete multiplicity. By construction, the continuous part contains no nonzero irreducible subrepresentation. In type I harmonic analysis it may nevertheless decompose into irreducibles through a [[harmonic-analysis/direct-integral-unitary-representations|direct integral]] over a nonatomic measure. This is why “continuous” does not mean “indecomposable.”
+The discrete part can be organized as a [[harmonic-analysis/hilbert-direct-sum-unitary-representations|Hilbert direct sum]] of [[algebra-representation-theory/irreducible-representation|irreducible representations]], with repetitions recording discrete multiplicity. By construction, the continuous part contains no nonzero irreducible subrepresentation. In type I harmonic analysis it may nevertheless decompose into irreducibles through a [[harmonic-analysis/direct-integral-unitary-representations|direct integral]] over a nonatomic measure. This is why “continuous” does not mean “indecomposable.”
 
 ## Standard examples
 
@@ -24,7 +24,7 @@ The [[harmonic-analysis/regular-representations-locally-compact-group|regular re
 
 ## Conventions and scope
 
-**Warning.** This terminology concerns decomposition of a group representation. It is not the point, continuous, or residual spectrum of a single operator, although the notions agree in some one-parameter examples after applying the spectral theorem. Some authors reserve “discrete series” for irreducible representations occurring discretely in a regular representation, which is a narrower use.
+**Warning.** This terminology concerns decomposition of a [[algebra-representation-theory/group-representation|group representation]]. It is not the point, continuous, or residual spectrum of a single operator, although the notions agree in some one-parameter examples after applying the spectral theorem. Some authors reserve “discrete series” for irreducible representations occurring discretely in a [[algebra-representation-theory/regular-representation|regular representation]], which is a narrower use.
 
 For separable representations of type I groups, the direct-integral formulation and the distinction between atomic and nonatomic spectral measure are treated in [Folland, §7.4](https://doi.org/10.1201/B19172).
 

@@ -8,7 +8,7 @@ domains = ["lie-groups", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected semisimple real Lie group with finite center, and let
+Let \(G\) be a connected semisimple real [[fiber-bundles/lie-group|Lie group]] with finite center, and let
 \(K\) be a
 [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]]. **Harish–Chandra's discrete-series criterion** states that the
 following are equivalent:
@@ -25,7 +25,7 @@ subgroup of \(G\).
 ## Meaning of the rank condition
 
 Every maximal torus \(T\subseteq K\) is compact. Equality of the two ranks
-means that its complexified Lie algebra is already a
+means that its complexified [[lie-groups/lie-algebra|Lie algebra]] is already a
 [[lie-groups/cartan-subalgebra|Cartan subalgebra]] of
 \(\mathfrak g_{\mathbb C}\); equivalently, \(T\) is a compact Cartan subgroup
 of \(G\). The criterion converts an analytic question about square-integrable

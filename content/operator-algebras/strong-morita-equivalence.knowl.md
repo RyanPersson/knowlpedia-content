@@ -20,15 +20,15 @@ The existence of such an \(X\), not a chosen algebra isomorphism, is the definin
 
 ## Equivalence relation and representations
 
-Strong Morita equivalence is reflexive, symmetric, and transitive. The conjugate bimodule reverses an equivalence, while the [[operator-algebras/internal-tensor-product-correspondences|interior tensor product]] composes two of them. [[operator-algebras/rieffel-induction|Rieffel induction]] through \(X\) gives an equivalence between the nondegenerate representation categories of \(A\) and \(B\) [Rieffel, induced representations](https://doi.org/10.1016/0001-8708%2874%2990068-1).
+Strong Morita equivalence is reflexive, symmetric, and transitive. The conjugate bimodule reverses an equivalence, while the [[operator-algebras/internal-tensor-product-correspondences|interior tensor product]] composes two of them. [[operator-algebras/rieffel-induction|Rieffel induction]] through \(X\) gives an equivalence between the [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] categories of \(A\) and \(B\) [Rieffel, induced representations](https://doi.org/10.1016/0001-8708%2874%2990068-1).
 
 Ideals, primitive spectra, and many structural properties correspond under this equivalence. In particular, type I and continuous-trace behavior are Morita invariant.
 
 ## Examples and non-examples
 
-For any Hilbert space \(H\), the module \(H\) is a \(\mathcal K(H)\)-\(\mathbb C\) imprimitivity bimodule, so \(\mathcal K(H)\) is strongly Morita equivalent to \(\mathbb C\). More generally, \(M_n(A)\) is strongly Morita equivalent to \(A\).
+For any [[linear-algebra/hilbert-space|Hilbert space]] \(H\), the module \(H\) is a \(\mathcal K(H)\)-\(\mathbb C\) imprimitivity bimodule, so \(\mathcal K(H)\) is strongly Morita equivalent to \(\mathbb C\). More generally, \(M_n(A)\) is strongly Morita equivalent to \(A\).
 
-Morita equivalence is weaker than \(*\)-isomorphism: \(\mathcal K(H)\) and \(\mathbb C\) are not isomorphic when \(H\) is infinite-dimensional. A general \(C^*\)-correspondence is a near miss; without fullness and the identification of the left action with compact operators, it need not implement an equivalence.
+Morita equivalence is weaker than \(*\)-isomorphism: \(\mathcal K(H)\) and \(\mathbb C\) are not isomorphic when \(H\) is infinite-dimensional. A general \(C^*\)-correspondence is a near miss; without fullness and the identification of the left action with [[linear-algebra/compact-operator|compact operators]], it need not implement an equivalence.
 
 ## References
 

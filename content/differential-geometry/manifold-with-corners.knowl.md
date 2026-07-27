@@ -12,7 +12,7 @@ An \(n\)-dimensional **smooth manifold with corners** is a Hausdorff, second-cou
 \[
 \mathbb R_k^n=[0,\infty)^k\times\mathbb R^{n-k},\qquad 0\leq k\leq n.
 \]
-Two corner charts are compatible when each transition map and its inverse locally extend to smooth maps between open subsets of \(\mathbb R^n\). The integer \(k\) may vary between charts; at a particular point, only the number of vanishing boundary coordinates is intrinsic. Ordinary smooth manifolds use \(k=0\), while [[differential-geometry/manifold-with-boundary|manifolds with boundary]] require at most one vanishing boundary coordinate locally.
+Two corner charts are compatible when each transition map and its inverse locally extend to [[fiber-bundles/smooth-map|smooth maps]] between open subsets of \(\mathbb R^n\). The integer \(k\) may vary between charts; at a particular point, only the number of vanishing boundary coordinates is intrinsic. Ordinary [[fiber-bundles/smooth-manifold|smooth manifolds]] use \(k=0\), while [[differential-geometry/manifold-with-boundary|manifolds with boundary]] require at most one vanishing boundary coordinate locally.
 
 ## Depth strata
 
@@ -25,7 +25,7 @@ Products of manifolds with corners inherit product corner charts, and depths add
 \operatorname{depth}_{M\times N}(x,y)
 =\operatorname{depth}_M(x)+\operatorname{depth}_N(y).
 \]
-The cube \([0,1]^n\), a product of compact intervals, is the basic example. A closed disk is a manifold with boundary and hence also a manifold with corners, but its boundary points all have depth one and it has no higher-depth points.
+The cube \([0,1]^n\), a product of compact intervals, is the basic example. A closed disk is a manifold with boundary and hence also a manifold with corners, but its [[differential-geometry/boundary-and-interior-of-a-manifold|boundary points]] all have depth one and it has no higher-depth points.
 
 ## Conventions and scope
 

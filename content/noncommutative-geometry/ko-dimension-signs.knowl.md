@@ -38,7 +38,7 @@ This is [Connes and Marcolli, Definition 1.124](https://doi.org/10.1090/coll/055
 
 The table packages the real Clifford-algebra periodicity behind KO-homology. In particular, KO-dimension \(2\) gives \(J^2=-1\), \(JD=DJ\), and \(J\Gamma=-\Gamma J\), while KO-dimension \(6\) changes only \(J^2\) among these three relations.
 
-**Warning.** Alternative definitions of the Dirac operator or charge-conjugation operator can shift the displayed signs, especially the \(JD\) relation. A source using a different convention must not be combined entrywise with this table.
+**Warning.** Alternative definitions of the [[noncommutative-geometry/dirac-operator|Dirac operator]] or charge-conjugation operator can shift the displayed signs, especially the \(JD\) relation. A source using a different convention must not be combined entrywise with this table.
 
 ## References
 

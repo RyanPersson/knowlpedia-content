@@ -24,15 +24,15 @@ Taking all dimensions together gives a graded abelian group
 \[
 \Omega_*^O=\bigoplus_{n\geq0}\Omega_n^O
 \]
-and similarly in the oriented or other structured theories. Cartesian product defines a graded multiplication \([M][N]=[M\times N]\), producing a bordism ring when the structures are closed under products. This multiplication is additional structure; it is not the group operation, which remains disjoint union.
+and similarly in the oriented or other structured theories. [[shared-foundations/cartesian-product|Cartesian product]] defines a graded multiplication \([M][N]=[M\times N]\), producing a bordism ring when the structures are closed under products. This multiplication is additional structure; it is not the group operation, which remains disjoint union.
 
 ## Dependence on tangential structure
 
-Changing the allowed structure changes both the equivalence relation and the group. Forgetting orientation induces a homomorphism \(\Omega_n^{SO}\to\Omega_n^O\), but oriented null-bordism is stronger than unoriented null-bordism. Framed, spin, complex, and other bordism groups require the relevant structure to extend over every bordism. The notation \(\Omega_n\) is therefore incomplete unless the underlying theory is understood.
+Changing the allowed structure changes both the [[shared-foundations/equivalence-relation|equivalence relation]] and the group. Forgetting orientation induces a homomorphism \(\Omega_n^{SO}\to\Omega_n^O\), but oriented null-bordism is stronger than unoriented null-bordism. Framed, spin, complex, and other bordism groups require the relevant structure to extend over every bordism. The notation \(\Omega_n\) is therefore incomplete unless the underlying theory is understood.
 
 ## Examples
 
-The class of any boundary is zero by definition. In unoriented dimension zero, a closed manifold is a finite set of points, and a compact one-manifold has an even number of boundary points; therefore \(\Omega_0^O\cong\mathbb Z/2\). With orientations, signed point counts give \(\Omega_0^{SO}\cong\mathbb Z\). These examples also exhibit the different inverse conventions.
+The class of any boundary is zero by definition. In unoriented dimension zero, a closed manifold is a finite set of points, and a compact one-manifold has an even number of [[differential-geometry/boundary-and-interior-of-a-manifold|boundary points]]; therefore \(\Omega_0^O\cong\mathbb Z/2\). With orientations, signed point counts give \(\Omega_0^{SO}\cong\mathbb Z\). These examples also exhibit the different inverse conventions.
 
 ## References
 

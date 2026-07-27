@@ -14,7 +14,7 @@ Let \(\Phi:E\to F\) be a smooth [[fiber-bundles/vector-bundle-morphism|vector bu
 \qquad
 \operatorname{im}\Phi=\coprod_{x\in M}\operatorname{im}\Phi_x\subseteq F.
 \]
-The constant-rank bundle-map theorem gives these sets unique smooth [[fiber-bundles/vector-subbundle|vector subbundle]] structures. If \(E\) and \(F\) have ranks \(e\) and \(f\), and \(\Phi\) has rank \(r\) on a connected component, then their ranks are \(e-r\) and \(r\), respectively.
+The constant-rank bundle-map theorem gives these sets unique smooth [[fiber-bundles/vector-subbundle|vector subbundle]] structures. If \(E\) and \(F\) have ranks \(e\) and \(f\), and \(\Phi\) has rank \(r\) on a [[topology/connected-component|connected component]], then their ranks are \(e-r\) and \(r\), respectively.
 
 ## Why constant rank is sufficient
 
@@ -34,7 +34,7 @@ and
 \[
 0\longrightarrow\operatorname{im}\Phi\longrightarrow F\longrightarrow F/\operatorname{im}\Phi\longrightarrow0.
 \]
-Fiberwise, the first isomorphism theorem induces \(E/\ker\Phi\cong\operatorname{im}\Phi\); the local block form shows that this is an isomorphism of smooth vector bundles, not merely a collection of vector-space isomorphisms.
+Fiberwise, the first isomorphism theorem induces \(E/\ker\Phi\cong\operatorname{im}\Phi\); the local block form shows that this is an isomorphism of smooth [[fiber-bundles/vector-bundle|vector bundles]], not merely a collection of vector-space isomorphisms.
 
 ## Failure when rank jumps
 

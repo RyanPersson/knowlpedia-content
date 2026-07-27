@@ -12,7 +12,7 @@ Let \(E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] and \(s
 \[
 \operatorname{supp}(s)=\overline{\{x\in M\mid s(x)\neq 0_x\}}
 \]
-is a [[topology/compact-set|compact subset]] of \(M\). The vector space of compactly supported smooth sections is denoted
+is a [[topology/compact-set|compact subset]] of \(M\). The [[linear-algebra/vector-space|vector space]] of compactly supported smooth sections is denoted
 \[
 \Gamma_c^\infty(M,E)
 =\{s\in\Gamma^\infty(M,E)\mid \operatorname{supp}(s)\text{ is compact}\}.
@@ -29,7 +29,7 @@ If \(s,t\in\Gamma_c^\infty(M,E)\) and \(f\in C^\infty(M)\), then \(s+t\) and \(f
 \]
 Thus \(\Gamma_c^\infty(M,E)\) is a module over \(C^\infty(M)\). It is also preserved by vector-bundle morphisms over \(M\).
 
-When \(M\) is compact, every [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] is compactly supported. On a noncompact base, compact support is a genuine restriction and is the natural condition for integration by parts without boundary terms at infinity.
+When \(M\) is compact, every [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] is compactly supported. On a noncompact base, compact support is a genuine restriction and is the natural condition for [[real-analysis/integration-by-parts|integration by parts]] without boundary terms at infinity.
 
 ## Local construction
 

@@ -20,11 +20,11 @@ A holomorphic map is locally biholomorphic near a point exactly when its complex
 
 ## Examples and invariants
 
-Every invertible complex-affine map \(z\mapsto Az+b\) on \(\mathbb C^n\) is a biholomorphism. The exponential map \(\exp:\mathbb C\to\mathbb C^\times\) is locally biholomorphic but not globally biholomorphic because it is not injective. Biholomorphic manifolds have isomorphic algebras of global holomorphic functions, though the converse need not hold without additional hypotheses.
+Every invertible complex-affine map \(z\mapsto Az+b\) on \(\mathbb C^n\) is a biholomorphism. The [[fiber-bundles/exponential-map|exponential map]] \(\exp:\mathbb C\to\mathbb C^\times\) is locally biholomorphic but not globally biholomorphic because it is not injective. Biholomorphic manifolds have isomorphic algebras of global holomorphic functions, though the converse need not hold without additional hypotheses.
 
 ## Conventions and contrasts
 
-A biholomorphism is stronger than a [[fiber-bundles/diffeomorphism|diffeomorphism]] of the underlying smooth manifolds because its differential must be complex linear in holomorphic coordinates. An antiholomorphic diffeomorphism is not a biholomorphism under this convention. The standard coordinate definition and its invariance are treated in [Huybrechts, chapters “Local Theory” and “Complex Manifolds”](https://doi.org/10.1007/b137952).
+A biholomorphism is stronger than a [[fiber-bundles/diffeomorphism|diffeomorphism]] of the underlying [[fiber-bundles/smooth-manifold|smooth manifolds]] because its differential must be complex linear in holomorphic coordinates. An antiholomorphic diffeomorphism is not a biholomorphism under this convention. The standard coordinate definition and its invariance are treated in [Huybrechts, chapters “Local Theory” and “Complex Manifolds”](https://doi.org/10.1007/b137952).
 
 ## References
 

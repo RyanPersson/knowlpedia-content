@@ -12,7 +12,7 @@ Let \(M\) be a compact [[fiber-bundles/smooth-manifold|smooth manifold]], let \(
 \[
 E_Q=\coprod_{x\in M}\operatorname{im}p(x)\longrightarrow M.
 \]
-Its fibers have locally constant dimension, and its smooth sections satisfy \(\Gamma(E_Q)\cong pA^N\cong Q\). Different choices of the finite free summand and idempotent produce canonically isomorphic bundles up to the module isomorphism chosen.
+Its fibers have locally constant dimension, and its [[fiber-bundles/section-of-a-fiber-bundle|smooth sections]] satisfy \(\Gamma(E_Q)\cong pA^N\cong Q\). Different choices of the finite free summand and idempotent produce canonically isomorphic bundles up to the module isomorphism chosen.
 
 ## Intrinsic fiberwise description
 
@@ -23,7 +23,7 @@ For \(x\in M\), let \(I_x=\{f\in A:f(x)=0\}\). Evaluation identifies the reconst
 This formula does not mention a chosen embedding into a
 [[algebra-modules/free-module|free module]]. Projectivity ensures that these
 quotient spaces have locally constant dimension and fit together smoothly; the
-idempotent presentation supplies explicit local trivializations.
+idempotent presentation supplies explicit [[fiber-bundles/local-trivialization|local trivializations]].
 
 The natural map to the [[fiber-bundles/module-of-smooth-sections|module of smooth sections]]
 \[
@@ -35,7 +35,7 @@ is an \(A\)-module isomorphism. Swan’s construction proves this reconstruction
 
 ## Functoriality and equivalence
 
-An \(A\)-linear map \(Q\to Q'\) induces fiber maps \(Q/I_xQ\to Q'/I_xQ'\) varying smoothly with \(x\). Consequently, reconstruction is functorial and is inverse, up to natural isomorphism, to taking smooth sections. On compact \(M\), this gives the Serre–Swan equivalence between finite-rank smooth vector bundles and finitely generated projective \(C^\infty(M)\)-modules.
+An \(A\)-linear map \(Q\to Q'\) induces fiber maps \(Q/I_xQ\to Q'/I_xQ'\) varying smoothly with \(x\). Consequently, reconstruction is functorial and is inverse, up to [[algebra-category-theory/natural-isomorphism|natural isomorphism]], to taking smooth sections. On compact \(M\), this gives the Serre–Swan equivalence between finite-rank smooth vector bundles and finitely generated projective \(C^\infty(M)\)-modules.
 
 For \(Q=eA^N\), the construction is exactly the [[fiber-bundles/serre-swan-idempotent-construction|image bundle of the idempotent]] \(e\). If \(Q=A^r\), it yields the trivial rank-\(r\) bundle.
 

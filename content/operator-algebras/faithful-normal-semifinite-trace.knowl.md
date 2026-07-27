@@ -16,7 +16,7 @@ faithful: it preserves suprema of increasing positive nets; every positive
 element is the supremum of positive subelements having finite trace; and
 \(\tau(x)=0\) for \(x\in M_+\) implies \(x=0\). Equivalently, it is a
 [[operator-algebras/normal-semifinite-faithful-weight|normal semifinite
-faithful weight]] satisfying \(\tau(x^*x)=\tau(xx^*)\) for every \(x\in M\).
+[[operator-algebras/faithful-weight|faithful weight]]]] satisfying \(\tau(x^*x)=\tau(xx^*)\) for every \(x\in M\).
 
 ## Finite-trace approximation
 
@@ -41,7 +41,7 @@ scalar multiplication.
 
 A von Neumann algebra is
 [[operator-algebras/semifinite-von-neumann-algebra|semifinite]] exactly when it
-admits an f.n.s. trace. Type III algebras admit n.s.f. weights but no f.n.s.
+admits an f.n.s. trace. Type III algebras admit [[operator-algebras/normal-semifinite-faithful-weight|n.s.f. weights]] but no f.n.s.
 trace; traciality is the decisive extra property
 [Takesaki, Chapter V](https://doi.org/10.1007/978-1-4612-6188-9).
 

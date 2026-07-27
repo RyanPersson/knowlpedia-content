@@ -28,7 +28,7 @@ with the grading operator inserted in the even case. Summability makes this prod
 
 The trace property and \(F^2=1\) imply the cyclic symmetry and cocycle
 identity for the displayed cochain. If one starts with an unnormalized
-Fredholm module, compact perturbation and normalization produce the same
+[[noncommutative-geometry/fredholm-module|Fredholm module]], compact perturbation and normalization produce the same
 periodic class. Operator homotopies, unitary equivalence, and addition of
 degenerate modules also leave the class unchanged. Consequently the
 construction factors through [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]

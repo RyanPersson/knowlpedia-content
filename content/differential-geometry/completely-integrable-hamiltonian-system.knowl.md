@@ -16,7 +16,7 @@ and are functionally independent on an open dense subset of \(M\), meaning \(dF_
 
 ## Liouville–Arnold theorem
 
-If \(c\) is a [[fiber-bundles/regular-value|regular value]] of \(F\) and a connected component \(L\) of \(F^{-1}(c)\) is compact, then \(L\) is an \(n\)-torus. A neighborhood of \(L\) admits [[differential-geometry/action-angle-coordinates|action-angle coordinates]] \((I_1,\ldots,I_n,\theta_1,\ldots,\theta_n)\) in which
+If \(c\) is a [[fiber-bundles/regular-value|regular value]] of \(F\) and a [[topology/connected-component|connected component]] \(L\) of \(F^{-1}(c)\) is compact, then \(L\) is an \(n\)-torus. A neighborhood of \(L\) admits [[differential-geometry/action-angle-coordinates|action-angle coordinates]] \((I_1,\ldots,I_n,\theta_1,\ldots,\theta_n)\) in which
 \[
 \omega=\sum_i dI_i\wedge d\theta_i
 \]

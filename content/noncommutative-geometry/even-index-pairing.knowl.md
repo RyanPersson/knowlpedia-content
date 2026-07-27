@@ -20,7 +20,7 @@ It extends additively to differences of projections, giving a bilinear pairing \
 
 ## Why the compression is Fredholm
 
-Because \([F,\pi(a)]\) is compact, \(p^-F_n^+p^+\) has \(p^+F_n^-p^-\) as an inverse modulo compact operators. The compressed operator is therefore Fredholm by Atkinson's characterization. Its index is unchanged under stabilization of \(p\), homotopy of the projection, compact perturbation of \(F\), and stable homotopy of the Fredholm module. These facts make the formula descend to [[operator-algebras/k0-cstar-algebra|\(K_0(A)\)]] and [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]. [Connes, Chapter IV, Section 1, Proposition 2(a)](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+Because \([F,\pi(a)]\) is compact, \(p^-F_n^+p^+\) has \(p^+F_n^-p^-\) as an inverse modulo [[linear-algebra/compact-operator|compact operators]]. The compressed operator is therefore Fredholm by Atkinson's characterization. Its index is unchanged under stabilization of \(p\), homotopy of the projection, compact perturbation of \(F\), and stable homotopy of the [[noncommutative-geometry/fredholm-module|Fredholm module]]. These facts make the formula descend to [[operator-algebras/k0-cstar-algebra|\(K_0(A)\)]] and [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]. [Connes, Chapter IV, Section 1, Proposition 2(a)](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
 
 For a class \([p]-[q]\), the value is
 \[

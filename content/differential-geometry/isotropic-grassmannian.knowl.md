@@ -30,7 +30,7 @@ For \(k=1\), every line is isotropic, so \(\operatorname{IGr}_1(V,\omega)=\opera
 
 ## Conventions and scope
 
-“Isotropic Grassmannian” is also used for quadratic spaces, where isotropy is defined by a symmetric quadratic form and the resulting orthogonal Grassmannian has different geometry. The notation \(\operatorname{IGr}\) here always refers to a nondegenerate alternating form. The real smooth manifold and complex projective variety are two scalar-field realizations of the same incidence condition.
+“Isotropic Grassmannian” is also used for quadratic spaces, where isotropy is defined by a symmetric quadratic form and the resulting orthogonal Grassmannian has different geometry. The notation \(\operatorname{IGr}\) here always refers to a nondegenerate alternating form. The real [[fiber-bundles/smooth-manifold|smooth manifold]] and complex projective variety are two scalar-field realizations of the same incidence condition.
 
 ## References
 

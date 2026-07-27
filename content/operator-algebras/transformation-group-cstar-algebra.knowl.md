@@ -27,7 +27,7 @@ part of the defining data.
 A [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate
 representation]] of \(C_0(X)\rtimes_\alpha G\) is determined by a
 [[operator-algebras/covariant-representation-cstar-dynamical-system|covariant
-pair]] \((\pi,U)\): a nondegenerate representation \(\pi\) of \(C_0(X)\), a
+pair]] \((\pi,U)\): a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] \(\pi\) of \(C_0(X)\), a
 [[lie-groups/strongly-continuous-unitary-representation|strongly continuous
 unitary representation]] \(U\) of \(G\), and the covariance equations
 \[
@@ -44,11 +44,11 @@ reduced one
 
 If \(X\) is a one-point space with the trivial action, the full and reduced
 transformation-group algebras are respectively the full and reduced group
-\(C^*\)-algebras of \(G\). If \(G\) acts on itself by left translation, then
+\(C^*\)-algebras of \(G\). If \(G\) acts on itself by [[lie-groups/left-translation|left translation]], then
 \(C_0(G)\rtimes_r G\) is naturally isomorphic to the
 [[operator-algebras/compact-operator-cstar-algebra|compact operators]] on
 \(L^2(G)\). More generally, transformation-group algebras are the operator
-algebras attached to dynamical quotients even when the orbit space \(X/G\)
+algebras attached to dynamical quotients even when the [[lie-groups/orbit-space|orbit space]] \(X/G\)
 has poor separation properties.
 
 ## Conventions and scope

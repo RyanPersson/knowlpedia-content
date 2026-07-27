@@ -8,7 +8,7 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]] and let \(H:M\to\mathbb R\) be a [[differential-geometry/hamiltonian-function|Hamiltonian function]]. The **Hamiltonian vector field** of \(H\) is the unique smooth vector field \(X_H\) satisfying
+Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]] and let \(H:M\to\mathbb R\) be a [[differential-geometry/hamiltonian-function|Hamiltonian function]]. The **Hamiltonian vector field** of \(H\) is the unique smooth [[fiber-bundles/vector-field|vector field]] \(X_H\) satisfying
 \[
 \iota_{X_H}\omega=dH.
 \]

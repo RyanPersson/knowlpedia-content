@@ -30,15 +30,15 @@ definition independent of a chosen approximating sequence
 
 ## Algebra and examples
 
-The measurable operators form a unital involutive algebra \(S(M)\) when sums,
+The measurable operators form a unital [[operator-algebras/involutive-algebra|involutive algebra]] \(S(M)\) when sums,
 products, and adjoints are taken with their natural closed extensions. This is
 the noncommutative analogue of the algebra of almost-everywhere finite
-measurable functions
+[[measure-theory/measurable-function|measurable functions]]
 [Segal, pp. 401–457](https://doi.org/10.2307/1969729).
 
 If \(M\) is finite, every closed densely defined affiliated operator is
 measurable. At the other extreme, for \(M=B(H)\) on an infinite-dimensional
-Hilbert space, finite projections have finite-dimensional range and
+[[linear-algebra/hilbert-space|Hilbert space]], finite projections have finite-dimensional range and
 \(S(M)=B(H)\); the definition admits no genuinely unbounded operators there
 [Nelson, pp. 103–106](https://doi.org/10.1016/0022-1236%2874%2990014-7).
 
@@ -48,7 +48,7 @@ Hilbert space, finite projections have finite-dimensional range and
 [[operator-algebras/tau-measurable-operator|\(\tau\)-measurable operator]], and
 a locally measurable operator are different notions. The first uses finite
 projections intrinsic to \(M\); the second uses the numerical size assigned by
-a specified faithful normal semifinite trace. Some authors reserve
+a specified [[operator-algebras/faithful-normal-semifinite-trace|faithful normal semifinite trace]]. Some authors reserve
 “measurable operator” for the trace-relative notion, so the ambient convention
 must be stated.
 

@@ -8,7 +8,7 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(\mathcal F\) be a [[algebraic-geometry-foundations/sheaf|sheaf]] of [[algebra-groups/abelian-group|abelian groups]] on a [[topology/topological-space|topological space]] \(X\). It is **fine** if, for every locally finite open cover \((U_i)_{i\in I}\), there are sheaf endomorphisms \(h_i:\mathcal F\to\mathcal F\) such that the family \((h_i)\) is locally finite,
+Let \(\mathcal F\) be a [[algebraic-geometry-foundations/sheaf|sheaf]] of [[algebra-groups/abelian-group|abelian groups]] on a [[topology/topological-space|topological space]] \(X\). It is **fine** if, for every locally finite [[topology/open-cover|open cover]] \((U_i)_{i\in I}\), there are sheaf endomorphisms \(h_i:\mathcal F\to\mathcal F\) such that the family \((h_i)\) is locally finite,
 \[
 \sum_{i\in I}h_i=\operatorname{id}_{\mathcal F},
 \]

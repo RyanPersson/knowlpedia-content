@@ -21,7 +21,7 @@ The representation is irreducible; changing \(\ell\) within its coadjoint orbit 
 
 ## Geometry encoded by an orbit
 
-Each orbit carries the [[differential-geometry/kirillov-kostant-souriau-form|Kirillov–Kostant–Souriau symplectic form]]. Orbit dimension predicts the number of variables in an induced model, stabilizers control the inducing subgroup, and invariant functions on \(\mathfrak g^*\) reflect central or infinitesimal-character data. For nilpotent groups, the orbit method also yields character and Plancherel formulas. These are not merely analogies: they are compatible parts of the classification developed in [Corwin–Greenleaf, Chapters 1–4](https://assets.cambridge.org/97805216/04956/frontmatter/9780521604956_frontmatter.pdf).
+Each orbit carries the [[differential-geometry/kirillov-kostant-souriau-form|Kirillov–Kostant–Souriau symplectic form]]. Orbit dimension predicts the number of variables in an induced model, stabilizers control the inducing subgroup, and [[fiber-bundles/invariant-function|invariant functions]] on \(\mathfrak g^*\) reflect central or infinitesimal-character data. For [[algebra-groups/nilpotent-group|nilpotent groups]], the orbit method also yields character and Plancherel formulas. These are not merely analogies: they are compatible parts of the classification developed in [Corwin–Greenleaf, Chapters 1–4](https://assets.cambridge.org/97805216/04956/frontmatter/9780521604956_frontmatter.pdf).
 
 ## Examples and limitations
 

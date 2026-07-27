@@ -26,7 +26,7 @@ cardinal.
 Every type I factor is \(B(H)\) for a Hilbert space \(H\), unique up to
 dimension. Minimal projections in \(B(H)\) are precisely rank-one
 projections, and a maximal orthogonal family of them corresponds to an
-orthonormal basis. Thus the cardinality of such a family recovers
+[[linear-algebra/orthonormal-basis|orthonormal basis]]. Thus the cardinality of such a family recovers
 \(\dim H\), and the infinite cardinals distinguish the nonseparable
 isomorphism classes
 [Takesaki, Chapter V, §1](https://doi.org/10.1007/978-1-4612-6188-9).
@@ -37,7 +37,7 @@ An infinite-dimensional \(H\) decomposes as \(H\cong H\oplus H\). The two
 coordinate embeddings give isometries in \(B(H)\) with orthogonal ranges, so
 every type \(\mathrm I_\infty\) factor is a
 [[operator-algebras/properly-infinite-von-neumann-algebra|properly infinite
-von Neumann algebra]]. The usual
+[[operator-algebras/von-neumann-algebra|von Neumann algebra]]]]. The usual
 [[operator-algebras/operator-trace|operator trace]] is faithful, normal, and
 semifinite but takes value \(\infty\) at the identity. Hence the algebra is
 semifinite without being finite.

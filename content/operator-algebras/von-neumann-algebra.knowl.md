@@ -19,7 +19,7 @@ M=M'',
 \]
 where \(M''\) is its [[operator-algebras/bicommutant|bicommutant]]. An abstract
 **\(W^*\)-algebra** is a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]
-that is the dual Banach space of a Banach-space predual. Every abstract
+that is the dual [[linear-algebra/banach-space|Banach space]] of a Banach-space predual. Every abstract
 \(W^*\)-algebra has a faithful representation as a concrete von Neumann
 algebra.
 
@@ -37,9 +37,9 @@ algebra is not a von Neumann algebra. Norm closure alone produces only a
 
 The predual \(M_*\) of a von Neumann algebra is unique up to isometric
 isomorphism. Its elements are the normal bounded linear functionals, and the
-weak-star topology \(\sigma(M,M_*)\) agrees with the ultraweak topology in a
+[[functional-analysis/weak-star-topology|weak-star topology]] \(\sigma(M,M_*)\) agrees with the ultraweak topology in a
 concrete faithful representation. This predual is extra analytic structure
-not carried by an arbitrary \(C^*\)-algebra; it supports normal states,
+not carried by an arbitrary \(C^*\)-algebra; it supports [[operator-algebras/normal-state|normal states]],
 normal maps, and monotone convergence.
 
 ## Examples and scope

@@ -28,20 +28,20 @@ can also be equipped with a faithful normal semifinite center-valued trace
 
 ## Examples and boundary cases
 
-Every finite von Neumann algebra is semifinite. The algebra \(B(H)\) is
+Every [[operator-algebras/finite-von-neumann-algebra|finite von Neumann algebra]] is semifinite. The algebra \(B(H)\) is
 semifinite even when \(H\) is infinite-dimensional: finite-rank projections
-provide finite subprojections, and the canonical operator trace is faithful,
+provide finite subprojections, and the [[operator-algebras/operator-trace|canonical operator trace]] is faithful,
 normal, and semifinite although it sends \(1\) to \(+\infty\). Type
 \(\mathrm{II}_\infty\) factors are semifinite but not finite. A nonzero type
 III algebra is not semifinite because it has no nonzero finite projection.
 
 ## Classification convention
 
-**Warning.** “Semifinite von Neumann algebra” and “semifinite weight” are
+**Warning.** “Semifinite von Neumann algebra” and “[[operator-algebras/semifinite-weight|semifinite weight]]” are
 different predicates: the first classifies an algebra, while the second states
 an approximation property of a particular
 [[operator-algebras/weight-on-von-neumann-algebra|weight]]. Every von Neumann
-algebra admits faithful normal semifinite weights, including type III
+algebra admits [[operator-algebras/normal-semifinite-faithful-weight|faithful normal semifinite weights]], including type III
 algebras; requiring the weight to be tracial is what characterizes a
 semifinite algebra.
 

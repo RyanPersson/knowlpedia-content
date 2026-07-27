@@ -58,10 +58,10 @@ with \(M=B(K)\) acting in standard form, spatial derivatives are represented
 by the familiar left-right density-operator expression for relative modular
 operators.
 
-**Warning.** The spatial derivative is not the Connes cocycle derivative
+**Warning.** The spatial derivative is not the [[operator-algebras/connes-cocycle-derivative|Connes cocycle derivative]]
 \((D\phi:D\omega)_t\). The former is a positive self-adjoint operator formed
 relative to a weight on \(M'\); the latter is a one-parameter family of
-partial isometries or unitaries in \(M\).
+[[functional-analysis/partial-isometry|partial isometries]] or unitaries in \(M\).
 
 ## References
 

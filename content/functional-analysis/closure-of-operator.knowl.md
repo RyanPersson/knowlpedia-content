@@ -40,7 +40,7 @@ closable.
 ## Relation to adjoints
 
 For a [[functional-analysis/densely-defined-operator|densely defined
-operator]] between Hilbert spaces, \(T\) is closable exactly when the domain
+operator]] between [[linear-algebra/hilbert-space|Hilbert spaces]], \(T\) is closable exactly when the domain
 of its
 [[functional-analysis/adjoint-unbounded-operator|adjoint]] \(T^*\) is dense.
 In that case,
@@ -53,7 +53,7 @@ actions. The adjoint \(T^*\) itself is always closed.
 ## Example and warning
 
 On \(L^2(\mathbb R)\), restrict multiplication by the coordinate \(x\) to
-compactly supported smooth functions. Its closure is the maximal
+[[functional-analysis/test-function-space|compactly supported smooth functions]]. Its closure is the maximal
 multiplication operator
 \[
 (\overline Tf)(x)=xf(x),\qquad
@@ -61,7 +61,7 @@ multiplication operator
 \]
 Other closed extensions can exist, especially for differential operators
 with boundary conditions. The closure is the smallest closed extension, not
-an arbitrarily chosen self-adjoint extension.
+an arbitrarily chosen [[functional-analysis/self-adjoint-extension|self-adjoint extension]].
 
 ## References
 

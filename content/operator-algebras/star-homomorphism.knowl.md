@@ -41,10 +41,10 @@ Composition of \(*\)-homomorphisms is again a \(*\)-homomorphism.
 
 ## Representations and conventions
 
-A representation of \(A\) on a Hilbert space \(H\) is a
+A representation of \(A\) on a [[linear-algebra/hilbert-space|Hilbert space]] \(H\) is a
 \(*\)-homomorphism \(A\to B(H)\). For nonunital \(A\), nondegeneracy means
 that the closed span of \(\phi(A)H\) is \(H\). For unital \(A\), a
-nondegenerate representation is automatically unital, but an arbitrary
+[[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] is automatically unital, but an arbitrary
 representation need not be. Authors who define morphisms in the unital
 category to preserve identity are imposing a category convention and should
 state it explicitly.

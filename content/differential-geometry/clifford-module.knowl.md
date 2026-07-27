@@ -8,11 +8,11 @@ domains = ["differential-geometry", "algebra-modules"]
 section_mode = "progressive"
 +++
 
-Let \(\operatorname{Cl}(V,q)\) be a [[differential-geometry/clifford-algebra|Clifford algebra]]. A **Clifford module** is a [[algebra-modules/module|module]] \(E\) together with a unital algebra homomorphism
+Let \(\operatorname{Cl}(V,q)\) be a [[differential-geometry/clifford-algebra|Clifford algebra]]. A **Clifford module** is a [[algebra-modules/module|module]] \(E\) together with a unital [[algebra-modules/algebra-homomorphism|algebra homomorphism]]
 \[
 c:\operatorname{Cl}(V,q)\longrightarrow \operatorname{End}(E).
 \]
-Equivalently, it is a linear map \(c:V\to\operatorname{End}(E)\), called **Clifford multiplication**, satisfying
+Equivalently, it is a [[linear-algebra/linear-map|linear map]] \(c:V\to\operatorname{End}(E)\), called **Clifford multiplication**, satisfying
 \[
 c(v)^2=-q(v)\operatorname{id}_E
 \]
@@ -32,7 +32,7 @@ Equivalently, the algebra representation preserves total degree: the even part o
 
 ## Clifford module bundles
 
-Let \((M,g)\) be a [[differential-geometry/riemannian-manifold|Riemannian manifold]]. A Clifford module bundle is a vector bundle \(E\to M\) with a smooth bundle-algebra action
+Let \((M,g)\) be a [[differential-geometry/riemannian-manifold|Riemannian manifold]]. A Clifford module bundle is a [[fiber-bundles/vector-bundle|vector bundle]] \(E\to M\) with a smooth bundle-algebra action
 \[
 c:\operatorname{Cl}(T^*M,g)\longrightarrow \operatorname{End}(E).
 \]

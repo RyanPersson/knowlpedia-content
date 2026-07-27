@@ -26,17 +26,17 @@ The corner \(pMp\) is itself a von Neumann algebra with identity \(p\).
 Spectral projections show that it has no projections other than \(0\) and
 \(p\) exactly when every self-adjoint element of the corner is scalar,
 yielding \(pMp=\mathbb Cp\). In a concrete algebra on \(H\), a rank-one
-orthogonal projection is minimal in \(B(H)\). Higher-rank projections are not,
+[[linear-algebra/orthogonal-projection|orthogonal projection]] is minimal in \(B(H)\). Higher-rank projections are not,
 because a one-dimensional subspace of their range gives a proper nonzero
 subprojection.
 
 ## Relation to factor type
 
-Every type I factor contains minimal projections: under an isomorphism with
+Every [[operator-algebras/type-i-factor|type I factor]] contains minimal projections: under an isomorphism with
 \(B(K)\), they correspond to rank-one projections. Type II and type III
 factors contain no minimal projections
 [Takesaki, Chapter V, §1](https://doi.org/10.1007/978-1-4612-6188-9).
-For a general type I von Neumann algebra, a diffuse center can prevent the
+For a general [[operator-algebras/type-i-von-neumann-algebra|type I von Neumann algebra]], a diffuse center can prevent the
 existence of minimal projections, so the factor statement must not be promoted
 to all type I algebras.
 

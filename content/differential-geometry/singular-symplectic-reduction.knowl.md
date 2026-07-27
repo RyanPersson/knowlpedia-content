@@ -8,11 +8,11 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let a [[lie-groups/compact-lie-group|compact Lie group]] \(G\) have a [[differential-geometry/hamiltonian-lie-group-action|Hamiltonian action]] on a [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\) with equivariant [[fiber-bundles/moment-map|moment map]] \(\mu:M\to\mathfrak g^*\). The **singular symplectic reduction at zero** is the orbit space
+Let a [[lie-groups/compact-lie-group|compact Lie group]] \(G\) have a [[differential-geometry/hamiltonian-lie-group-action|Hamiltonian action]] on a [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\) with equivariant [[fiber-bundles/moment-map|moment map]] \(\mu:M\to\mathfrak g^*\). The **singular symplectic reduction at zero** is the [[lie-groups/orbit-space|orbit space]]
 \[
 M/\!/G=\mu^{-1}(0)/G
 \]
-when \(0\) need not be a regular value and the action on \(\mu^{-1}(0)\) need not be free. It is generally not a manifold. Its decomposition by connected components of orbit-type sets gives it the structure of a stratified space whose strata are smooth symplectic manifolds. Reduction at a nonzero value is handled similarly using its coadjoint stabilizer, or by the [[differential-geometry/shifting-trick|shifting trick]].
+when \(0\) need not be a [[fiber-bundles/regular-value|regular value]] and the action on \(\mu^{-1}(0)\) need not be free. It is generally not a manifold. Its decomposition by [[topology/connected-component|connected components]] of orbit-type sets gives it the structure of a stratified space whose strata are smooth symplectic manifolds. Reduction at a nonzero value is handled similarly using its coadjoint stabilizer, or by the [[differential-geometry/shifting-trick|shifting trick]].
 
 ## Orbit-type strata
 
@@ -26,13 +26,13 @@ Sjamaar and Lerman prove that, in this compact-group setting, the orbit-type pie
 
 ## Relation to regular reduction
 
-If \(0\) is regular and the action on \(\mu^{-1}(0)\) is free, there is only the principal orbit type on the level set, and the singular construction reduces to the [[differential-geometry/marsden-weinstein-meyer-reduction-theorem|Marsden–Weinstein–Meyer reduced manifold]]. With locally free rather than free action, the quotient is typically a symplectic orbifold. Stabilizers of different dimensions are what force genuinely stratified behavior.
+If \(0\) is regular and the action on \(\mu^{-1}(0)\) is free, there is only the principal orbit type on the level set, and the singular construction reduces to the [[differential-geometry/marsden-weinstein-meyer-reduction-theorem|Marsden–Weinstein–Meyer reduced manifold]]. With locally free rather than [[algebra-groups/free-action|free action]], the quotient is typically a symplectic orbifold. Stabilizers of different dimensions are what force genuinely stratified behavior.
 
 As a basic model, a circle acting on a [[differential-geometry/symplectic-vector-space|symplectic vector space]] with weights of both signs can have a zero level containing the fixed origin and free or locally free points away from it. Their images lie in strata of different dimensions, so no single manifold chart can describe the quotient near the image of the origin.
 
 ## Conventions and scope
 
-**Warning.** “Singular” refers to the quotient's failure to be a smooth manifold, not to a degenerate two-form on each stratum: every stratum carries a nondegenerate symplectic form.
+**Warning.** “Singular” refers to the quotient's failure to be a [[fiber-bundles/smooth-manifold|smooth manifold]], not to a degenerate two-form on each stratum: every stratum carries a nondegenerate symplectic form.
 
 For noncompact groups, proper Hamiltonian actions admit broader singular-reduction theorems, but the precise hypotheses and stratification category require care. The compact-group formulation in the core is the classical Sjamaar–Lerman setting. Authors also use “singular reduction” for Poisson, presymplectic, and infinite-dimensional quotients; those are not included automatically here.
 

@@ -12,7 +12,7 @@ Let \(D:\Gamma^\infty(E)\to\Gamma^\infty(F)\) be a differential operator of orde
 \[
 \sigma_m(D)(x,\xi):E_x\longrightarrow F_x
 \]
-is a [[convex-analysis/image-and-kernel-linear-isomorphism|linear isomorphism]]. Ellipticity is therefore a condition on the highest-order part alone. It implies that \(E\) and \(F\) have equal rank on each connected component, but it does not by itself impose self-adjointness or compactness of the base manifold.
+is a [[convex-analysis/image-and-kernel-linear-isomorphism|linear isomorphism]]. Ellipticity is therefore a condition on the highest-order part alone. It implies that \(E\) and \(F\) have equal rank on each [[topology/connected-component|connected component]], but it does not by itself impose self-adjointness or compactness of the base manifold.
 
 ## Analytic consequences
 

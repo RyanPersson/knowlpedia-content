@@ -17,7 +17,7 @@ such that \(E(X)=I\), \(E(A\cap B)=E(A)E(B)\), and, for every pairwise disjoint 
 E\left(\bigcup_{n=1}^{\infty}A_n\right)\xi
 =\sum_{n=1}^{\infty}E(A_n)\xi
 \]
-with convergence in \(H\). Thus \(E\) is countably additive in the strong operator topology. For \(\xi,\eta\in H\), the scalar function \(A\mapsto\langle E(A)\xi,\eta\rangle\) is a countably additive complex [[measure-theory/measure|measure]].
+with convergence in \(H\). Thus \(E\) is countably additive in the [[operator-algebras/strong-operator-topology|strong operator topology]]. For \(\xi,\eta\in H\), the scalar function \(A\mapsto\langle E(A)\xi,\eta\rangle\) is a countably additive complex [[measure-theory/measure|measure]].
 
 ## Spectral integration
 

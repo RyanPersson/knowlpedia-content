@@ -28,7 +28,7 @@ The Hamiltonian \(H\) itself is a first integral because \(\{H,H\}=0\). If a Lie
 
 ## Conventions and scope
 
-For a general vector field \(X\), the same term means a function satisfying \(dF(X)=0\). For a time-dependent Hamiltonian \(H_t\), a time-dependent conserved quantity \(F_t\) instead satisfies \(\partial_tF_t+\{F_t,H_t\}=0\). “First integral” does not mean an antiderivative, despite that usage of “integral” in elementary calculus.
+For a general [[fiber-bundles/vector-field|vector field]] \(X\), the same term means a function satisfying \(dF(X)=0\). For a time-dependent Hamiltonian \(H_t\), a time-dependent conserved quantity \(F_t\) instead satisfies \(\partial_tF_t+\{F_t,H_t\}=0\). “First integral” does not mean an antiderivative, despite that usage of “integral” in elementary calculus.
 
 ## References
 

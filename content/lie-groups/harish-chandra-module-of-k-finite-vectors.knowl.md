@@ -23,7 +23,7 @@ The restricted \(K\)-action and the differentiated action of
 \(\mathfrak g_{\mathbb C}\) make \(V_K\) a
 [[lie-groups/harish-chandra-module|Harish–Chandra module]]: it is admissible
 and finitely generated over \(U(\mathfrak g_{\mathbb C})\). The construction
-retains the algebraic infinitesimal representation while discarding the
+retains the algebraic [[lie-groups/derived-representation-on-smooth-vectors|infinitesimal representation]] while discarding the
 ambient Banach, Hilbert, or Fréchet topology.
 
 ## Construction of the actions

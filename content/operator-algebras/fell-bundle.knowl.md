@@ -35,14 +35,14 @@ f^*(s)=\Delta(s^{-1})f(s^{-1})^*,
 \]
 where \(\Delta\) is the modular function. Completing this algebra in the
 universal norm gives the full cross-sectional algebra \(C^*(\mathcal B)\);
-the regular representation gives \(C_r^*(\mathcal B)\). These constructions
-extend full and reduced crossed products
+the [[algebra-representation-theory/regular-representation|regular representation]] gives \(C_r^*(\mathcal B)\). These constructions
+extend full and [[operator-algebras/reduced-crossed-product|reduced crossed products]]
 [Exel, Chapters 16–17](https://bookstore.ams.org/surv-224/).
 
 ## Examples and saturation
 
 For a [[operator-algebras/cstar-dynamical-system|\(C^*\)-dynamical system]]
-\((A,G,\alpha)\), take \(B_s=A\) as Banach spaces and define
+\((A,G,\alpha)\), take \(B_s=A\) as [[linear-algebra/banach-space|Banach spaces]] and define
 \[
 (a,s)(b,t)=(a\alpha_s(b),st),\qquad
 (a,s)^*=(\alpha_{s^{-1}}(a^*),s^{-1}).

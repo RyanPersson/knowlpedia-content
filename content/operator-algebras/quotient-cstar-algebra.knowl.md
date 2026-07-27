@@ -36,7 +36,7 @@ isomorphism of the codomain. The sequence
 0\longrightarrow I\longrightarrow A\overset{q}{\longrightarrow}A/I
 \longrightarrow 0
 \]
-is the basic short exact sequence associated with \(I\)
+is the basic [[algebra-modules/short-exact-sequence|short exact sequence]] associated with \(I\)
 [Murphy, §3.1](https://doi.org/10.1016/C2009-0-22289-6).
 
 ## Units and representative examples
@@ -45,7 +45,7 @@ When \(A\) is unital and \(I\) is proper, \(A/I\) is unital with identity
 \(1_A+I\). A quotient of a nonunital algebra can nevertheless be unital. For
 \(A=C(X)\) and a closed subset \(F\subseteq X\), the ideal of functions
 vanishing on \(F\) has quotient canonically isomorphic to \(C(F)\). For bounded
-operators on a Hilbert space, the quotient by the compact operators is the
+operators on a [[linear-algebra/hilbert-space|Hilbert space]], the quotient by the [[linear-algebra/compact-operator|compact operators]] is the
 Calkin algebra.
 
 ## Conventions and boundary cases
@@ -53,7 +53,7 @@ Calkin algebra.
 Some authors allow the zero \(C^*\)-algebra to be unital and others require
 \(0\ne1\). This affects only the description of \(A/A\), not its quotient
 operations. The closedness hypothesis belongs to the definition in the
-\(C^*\)-setting even when “ideal” elsewhere means an algebraic two-sided ideal.
+\(C^*\)-setting even when “ideal” elsewhere means an algebraic [[algebra-rings/two-sided-ideal|two-sided ideal]].
 The quotient norm is determined by the ideal; it is not an independently
 chosen completion norm.
 

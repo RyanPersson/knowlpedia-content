@@ -24,11 +24,11 @@ After suitable Sobolev completions and under standard regularity hypotheses, thi
 
 On a trivial bundle over a coordinate ball, with the product connection as reference, the condition becomes \(d^*a=0\). Uhlenbeck's gauge theorem says, roughly, that a connection with sufficiently small scale-invariant curvature norm can be gauge transformed into such a Coulomb gauge with quantitative Sobolev control [Uhlenbeck, theorem 1.3](https://doi.org/10.1007/BF01947069).
 
-Boundary versions normally add a condition on the normal component of \(a\). Without that extra condition, integration by parts does not identify \(\ker d^*\) as the full orthogonal complement of exact gauge directions.
+Boundary versions normally add a condition on the normal component of \(a\). Without that extra condition, [[real-analysis/integration-by-parts|integration by parts]] does not identify \(\ker d^*\) as the full [[linear-algebra/orthogonal-complement|orthogonal complement]] of exact gauge directions.
 
 ## Residual symmetry
 
-If \(A_0\) has a nontrivial stabilizer, its stabilizing gauge transformations preserve the slice condition. Even for an [[fiber-bundles/irreducible-connection|irreducible connection]], a Coulomb representative is generally unique only in a sufficiently small neighborhood and after controlling constant or based gauge transformations.
+If \(A_0\) has a nontrivial stabilizer, its stabilizing [[fiber-bundles/gauge-transformation|gauge transformations]] preserve the slice condition. Even for an [[fiber-bundles/irreducible-connection|irreducible connection]], a Coulomb representative is generally unique only in a sufficiently small neighborhood and after controlling constant or based gauge transformations.
 
 **Warning.** The relative condition \(d_{A_0}^*(A-A_0)=0\), the nonlinear condition \(d_A^*(A-A_0)=0\), and the local-coordinate expression \(d^*a=0\) are different equations. A source's convention should be checked before transferring estimates between them.
 

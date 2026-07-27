@@ -8,11 +8,11 @@ domains = ["harmonic-analysis", "functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be an [[algebra-groups/abelian-group|abelian]] [[topology/locally-compact-group|locally compact group]] with [[harmonic-analysis/haar-measure|Haar measure]] \(\mu\), and equip its [[harmonic-analysis/pontryagin-dual|Pontryagin dual]] \(\widehat G\) with the [[harmonic-analysis/dual-haar-measure|dual Haar measure]] \(\widehat\mu\). The **Plancherel theorem** states that the [[harmonic-analysis/fourier-transform-lca|Fourier transform]], initially defined on \(L^1(G,\mu)\cap L^2(G,\mu)\), extends uniquely to a [[functional-analysis/unitary-operator|unitary operator]] between complex Hilbert spaces,
+Let \(G\) be an [[algebra-groups/abelian-group|abelian]] [[topology/locally-compact-group|locally compact group]] with [[harmonic-analysis/haar-measure|Haar measure]] \(\mu\), and equip its [[harmonic-analysis/pontryagin-dual|Pontryagin dual]] \(\widehat G\) with the [[harmonic-analysis/dual-haar-measure|dual Haar measure]] \(\widehat\mu\). The **Plancherel theorem** states that the [[harmonic-analysis/fourier-transform-lca|Fourier transform]], initially defined on \(L^1(G,\mu)\cap L^2(G,\mu)\), extends uniquely to a [[functional-analysis/unitary-operator|unitary operator]] between complex [[linear-algebra/hilbert-space|Hilbert spaces]],
 \[
 \mathcal F_2:L^2(G,\mu)\longrightarrow L^2(\widehat G,\widehat\mu).
 \]
-Thus \(\|\mathcal F_2f\|_2=\|f\|_2\), and the inverse unitary is the \(L^2\)-extension of inverse Fourier transformation. In particular, the extension preserves Hilbert-space inner products as well as norms.
+Thus \(\|\mathcal F_2f\|_2=\|f\|_2\), and the inverse unitary is the \(L^2\)-extension of inverse Fourier transformation. In particular, the extension preserves Hilbert-space [[linear-algebra/inner-product|inner products]] as well as norms.
 
 ## Meaning of the extension
 

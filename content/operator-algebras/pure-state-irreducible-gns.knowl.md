@@ -30,7 +30,7 @@ combination. Conversely, a
 [[operator-algebras/positive-linear-functional|positive functional]] dominated
 by \(\varphi\) is represented by a positive contraction in that commutant; a
 nontrivial convex decomposition therefore produces a nonscalar commutant.
-Schur's lemma,
+[[algebra-representation-theory/schurs-lemma|Schur's lemma]],
 \(\pi_\varphi(A)'=\mathbb C I\), completes the equivalence
 [Murphy, Theorem 3.3.8](https://doi.org/10.1016/C2009-0-22289-6).
 
@@ -40,7 +40,7 @@ Let \(\pi:A\to\mathcal B(H)\) be irreducible and let \(\xi\neq0\). Then \(\xi\)
 is cyclic, and after normalization its
 [[operator-algebras/vector-state|vector state]] is pure. The pointed GNS
 representation of that state is unitarily equivalent to
-\((\pi,H,\xi/\|\xi\|)\). Hence every irreducible representation is obtained,
+\((\pi,H,\xi/\|\xi\|)\). Hence every [[algebra-representation-theory/irreducible-representation|irreducible representation]] is obtained,
 up to unitary equivalence, from a pure state and a choice of nonzero vector.
 
 ## Distinctions

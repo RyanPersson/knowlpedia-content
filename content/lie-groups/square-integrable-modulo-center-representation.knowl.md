@@ -12,7 +12,7 @@ Let \(G\) be a second-countable [[harmonic-analysis/unimodular-group|unimodular 
 \[
 \int_{G/Z}\left|\langle \pi(g)u,v\rangle\right|^2\,d(gZ)<\infty.
 \]
-[[algebra-representation-theory/schurs-lemma|Schur's lemma]] gives a unitary central character \(\chi_\pi\) with \(\pi(z)=\chi_\pi(z)I\), so the absolute value of the coefficient is constant on central cosets and the integrand is well defined. Such representations are also called the **relative discrete series**.
+[[algebra-representation-theory/schurs-lemma|Schur's lemma]] gives a unitary central character \(\chi_\pi\) with \(\pi(z)=\chi_\pi(z)I\), so the [[real-analysis/absolute-value|absolute value]] of the coefficient is constant on central cosets and the integrand is well defined. Such representations are also called the **relative discrete series**.
 
 ## Equivalent formulations and orthogonality
 
@@ -20,7 +20,7 @@ For an irreducible unitary representation in this setting, existence of one nonz
 
 ## Why the quotient is necessary
 
-If \(Z\) is noncompact, every coefficient of an irreducible representation has constant modulus along \(Z\). A nonzero coefficient therefore cannot usually belong to \(L^2(G)\), even when it is square-integrable on \(G/Z\). For a real reductive group with noncompact center, relative discrete series is consequently the useful replacement for ordinary discrete series.
+If \(Z\) is noncompact, every coefficient of an [[algebra-representation-theory/irreducible-representation|irreducible representation]] has constant modulus along \(Z\). A nonzero coefficient therefore cannot usually belong to \(L^2(G)\), even when it is square-integrable on \(G/Z\). For a real reductive group with noncompact center, relative discrete series is consequently the useful replacement for ordinary discrete series.
 
 ## Conventions and scope
 

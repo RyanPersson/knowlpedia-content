@@ -28,7 +28,7 @@ The sheaf records the smooth structure algebraically: [[fiber-bundles/vector-fie
 
 ## Conventions and scope
 
-**Warning.** Here the coefficient field is \(\mathbb R\). Complex-valued smooth functions form the complexification \(C^\infty_M\otimes_{\mathbb R}\mathbb C\), not the [[differential-geometry/sheaf-of-holomorphic-functions|sheaf of holomorphic functions]]. The notation \(C^\infty(M)\) denotes global sections, while \(C^\infty_M\) denotes the entire sheaf. “Smooth structure sheaf” should not be confused with a single algebra of functions unless the open set is specified.
+**Warning.** Here the coefficient field is \(\mathbb R\). Complex-valued smooth functions form the complexification \(C^\infty_M\otimes_{\mathbb R}\mathbb C\), not the [[differential-geometry/sheaf-of-holomorphic-functions|sheaf of holomorphic functions]]. The notation \(C^\infty(M)\) denotes global sections, while \(C^\infty_M\) denotes the entire sheaf. “Smooth [[algebraic-geometry-foundations/structure-sheaf|structure sheaf]]” should not be confused with a single algebra of functions unless the open set is specified.
 
 ## References
 

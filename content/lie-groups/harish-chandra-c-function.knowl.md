@@ -8,7 +8,7 @@ domains = ["lie-groups", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected noncompact semisimple Lie group with finite center,
+Let \(G\) be a connected noncompact semisimple [[fiber-bundles/lie-group|Lie group]] with finite center,
 \(G=KAN\) an [[lie-groups/iwasawa-decomposition|Iwasawa decomposition]], and
 \(\overline N\) the opposite nilpotent subgroup. Write
 \(H(g)\in\mathfrak a\) for the Iwasawa projection and let \(\rho\) be half

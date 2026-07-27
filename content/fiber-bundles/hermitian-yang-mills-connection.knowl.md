@@ -18,9 +18,9 @@ for a real constant \(\lambda\), where \(\Lambda_\omega\) is contraction with \(
 
 ## Meaning of the equations
 
-Integrability \(F_A^{0,2}=0\) is a separate requirement: constant central contraction alone does not define a Hermitian Yang–Mills connection. When the holomorphic structure and Hermitian metric are fixed from the outset, authors often omit the first equation because it is automatic for the Chern connection.
+Integrability \(F_A^{0,2}=0\) is a separate requirement: constant central contraction alone does not define a Hermitian Yang–Mills connection. When the holomorphic structure and [[fiber-bundles/hermitian-metric|Hermitian metric]] are fixed from the outset, authors often omit the first equation because it is automatic for the Chern connection.
 
-On a compact [[differential-geometry/kahler-manifold|Kähler manifold]], the constant \(\lambda\) is determined by the degree, rank, and volume of \(E\), with its numerical factor depending on the convention for \(\Lambda_\omega\) and volume. The [[differential-geometry/kahler-identities|Kähler identities]] imply that a Hermitian Yang–Mills connection satisfies the ordinary Yang–Mills equation [Kobayashi, Chapter IV, §1](https://doi.org/10.1515/9781400858682).
+On a compact [[differential-geometry/kahler-manifold|Kähler manifold]], the constant \(\lambda\) is determined by the degree, rank, and volume of \(E\), with its numerical factor depending on the convention for \(\Lambda_\omega\) and volume. The [[differential-geometry/kahler-identities|Kähler identities]] imply that a Hermitian Yang–Mills connection satisfies the ordinary [[fiber-bundles/yangmills-equation|Yang–Mills equation]] [Kobayashi, Chapter IV, §1](https://doi.org/10.1515/9781400858682).
 
 ## Examples and consequences
 

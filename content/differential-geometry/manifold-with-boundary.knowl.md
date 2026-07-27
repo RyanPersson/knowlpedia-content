@@ -20,11 +20,11 @@ The invariance of the boundary under coordinate changes is a theorem, not an add
 
 ## Smooth maps
 
-A map \(F:M\to N\) is smooth when its coordinate representatives extend smoothly to maps on open subsets of Euclidean space. This definition permits a smooth map to send interior points to boundary points. A smooth vector field at a [[differential-geometry/boundary-and-interior-of-a-manifold|boundary point]] is a vector in the full \(n\)-dimensional tangent space; it need not be tangent to \(\partial M\).
+A map \(F:M\to N\) is smooth when its coordinate representatives extend smoothly to maps on open subsets of [[linear-algebra/euclidean-space|Euclidean space]]. This definition permits a [[fiber-bundles/smooth-map|smooth map]] to send interior points to boundary points. A smooth [[fiber-bundles/vector-field|vector field]] at a [[differential-geometry/boundary-and-interior-of-a-manifold|boundary point]] is a vector in the full \(n\)-dimensional [[differential-geometry/tangent-space|tangent space]]; it need not be tangent to \(\partial M\).
 
 ## Examples and scope
 
-The closed ball, the closed upper half-space, and a compact interval are manifolds with boundary. Their boundaries are respectively a sphere, a Euclidean hyperplane, and two points. A product of two manifolds with nonempty boundary naturally has corner points, so its product atlas belongs to the broader theory of manifolds with corners rather than to this half-space definition.
+The [[topology/closed-ball|closed ball]], the closed upper half-space, and a compact interval are manifolds with boundary. Their boundaries are respectively a sphere, a Euclidean hyperplane, and two points. A product of two manifolds with nonempty boundary naturally has corner points, so its product atlas belongs to the broader theory of manifolds with corners rather than to this half-space definition.
 
 ## References
 

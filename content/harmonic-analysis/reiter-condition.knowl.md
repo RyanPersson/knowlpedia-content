@@ -20,7 +20,7 @@ compact subset \(C\subseteq G\),
 The \(L^1\) space is formed using a left
 [[harmonic-analysis/haar-measure|Haar measure]]. The condition is independent
 of its normalization and requires uniform almost invariance on each compact
-set, not merely pointwise convergence for each fixed group element. Such a
+set, not merely [[real-analysis/pointwise-convergence|pointwise convergence]] for each fixed group element. Such a
 net is called a **Reiter net**.
 
 ## Equivalence with amenability
@@ -37,7 +37,7 @@ normalized functions through a convexity and approximation argument.
 
 If \(G\) is compact, the constant density obtained from normalized Haar
 measure is exactly invariant, so a constant net verifies \(P_1\). For a
-discrete group, compact sets are finite and the condition becomes the
+discrete group, [[topology/compact-set|compact sets]] are finite and the condition becomes the
 existence of probability masses in \(\ell^1(G)\) that are asymptotically
 invariant under translation on every finite set. Normalized indicators of a
 [[harmonic-analysis/folner-condition|Følner net]] give the basic example
@@ -46,7 +46,7 @@ invariant under translation on every finite set. Normalized indicators of a
 ## Variants and conventions
 
 Equivalent formulations allow signed functions of norm one after taking
-absolute values, or require convergence separately for each \(x\) together
+[[real-analysis/absolute-value|absolute values]], or require convergence separately for each \(x\) together
 with standard uniformization on compact sets. Conditions \(P_p\) for
 \(1\leq p<\infty\) use almost invariant unit vectors in \(L^p(G)\); they are
 also equivalent to amenability under the usual locally compact hypotheses

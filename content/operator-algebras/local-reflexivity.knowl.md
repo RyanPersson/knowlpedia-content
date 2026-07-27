@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 A [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(A\) is **locally
 reflexive** if, whenever \(E\subseteq A^{**}\) and \(F\subseteq A^*\) are
-finite-dimensional and \(\varepsilon>0\), there is a linear map
+finite-dimensional and \(\varepsilon>0\), there is a [[linear-algebra/linear-map|linear map]]
 \(\phi:E\to A\) such that
 \[
 \|\phi\|_{\mathrm{cb}}\leq 1+\varepsilon,\qquad
@@ -32,7 +32,7 @@ inclusion \(E\hookrightarrow A^{**}\) is a point weak-star limit of maps
 fixing \(E\cap A\). Passing between this net formulation and the finite set
 \(F\subseteq A^*\) formulation is a finite-dimensional separation argument.
 The matrix norm is essential: ordinary Banach-space local reflexivity holds
-for every Banach space, while operator-space local reflexivity is a genuine
+for every [[linear-algebra/banach-space|Banach space]], while operator-space local reflexivity is a genuine
 restriction.
 
 ## Relation to exactness
@@ -41,7 +41,7 @@ Every [[operator-algebras/exact-cstar-algebra|exact \(C^*\)-algebra]] is
 locally reflexive. In particular, nuclear \(C^*\)-algebras are locally
 reflexive. Local reflexivity is nevertheless weaker than exactness; it
 controls finite-dimensional approximation from the bidual rather than the
-behavior of all short exact sequences under minimal tensor product
+behavior of all [[algebra-modules/short-exact-sequence|short exact sequences]] under minimal tensor product
 [Brown–Ozawa, §9.2](https://doi.org/10.1090/gsm/088).
 
 One tensorial formulation says that the natural comparison maps involving

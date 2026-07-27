@@ -8,7 +8,7 @@ domains = ["lie-groups", "functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(\pi\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] of a Lie group
+Let \(\pi\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] of a [[fiber-bundles/lie-group|Lie group]]
 \(G\) on \(\mathcal H\), and let \(X\) lie in its [[lie-groups/lie-algebra|Lie algebra]]. On the dense
 invariant domain \(\mathcal H^\infty\), the
 [[lie-groups/derived-representation-on-smooth-vectors|derived operator]]
@@ -28,7 +28,7 @@ Equivalently, \(-i\,d\pi(X)\) is essentially self-adjoint on
 
 [[lie-groups/stone-theorem-one-parameter-unitary-groups|Stone's theorem]]
 first identifies the maximal skew-adjoint generator \(iA_X\) of the
-one-parameter subgroup. Smooth vectors lie in its domain and the derivative
+[[lie-groups/one-parameter-subgroup|one-parameter subgroup]]. Smooth vectors lie in its domain and the derivative
 there agrees with \(d\pi(X)\). Smoothing arbitrary vectors by convolution
 against compactly supported smooth functions on \(G\) produces a dense
 invariant subspace of smooth vectors that is a core for \(A_X\). Agreement on

@@ -42,7 +42,7 @@ invariant. One has \(K_1(\mathbb C)=0\), while the winding number gives
 K_1(C(S^1))\cong\mathbb Z.
 \]
 Continuous \(*\)-homomorphisms carry unitary representatives to unitary
-representatives and therefore induce group homomorphisms on \(K_1\).
+representatives and therefore induce [[algebra-groups/group-homomorphism|group homomorphisms]] on \(K_1\).
 
 ## Conventions and scope
 

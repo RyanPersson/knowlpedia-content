@@ -34,7 +34,7 @@ domain
 =\operatorname{span}\{y^*x:x,y\in\mathfrak n_\varphi\}.
 \]
 The weight has a linear extension to this \(*\)-algebra. The
-Cauchy–Schwarz inequality for weights ensures that
+[[linear-algebra/cauchy-schwarz-inequality|Cauchy–Schwarz inequality]] for weights ensures that
 \(\varphi(y^*x)\) is finite on such products
 [Takesaki, Chapter VII, §1](https://doi.org/10.1007/978-3-662-10451-4).
 
@@ -58,7 +58,7 @@ The formula
 \[
 \langle x,y\rangle_\varphi=\varphi(y^*x)
 \]
-defines a positive semidefinite inner product on
+defines a positive semidefinite [[linear-algebra/inner-product|inner product]] on
 \(\mathfrak n_\varphi\). After quotienting by its null space and completing,
 left multiplication by \(M\) gives the GNS representation of the weight.
 Thus the left-ideal property is precisely what makes the representation

@@ -8,7 +8,7 @@ domains = ["functional-analysis", "operator-algebras"]
 section_mode = "progressive"
 +++
 
-Let \(H_0,H_1\) be Hilbert spaces. A
+Let \(H_0,H_1\) be [[linear-algebra/hilbert-space|Hilbert spaces]]. A
 [[functional-analysis/bounded-linear-operator|bounded operator]]
 \(T:H_0\to H_1\) is **Fredholm** if its range is closed and both \(\ker T\)
 and the cokernel \(H_1/\operatorname{ran}T\) are finite-dimensional.
@@ -31,7 +31,7 @@ are compact. Such an \(S\) is called a parametrix modulo compact operators. When
 
 ## Stability and index
 
-Fredholmness is open in the operator norm, and the index is locally constant on the set of Fredholm operators. If \(K:H_0\to H_1\) is compact, then
+Fredholmness is open in the [[linear-algebra/operator-norm|operator norm]], and the index is locally constant on the set of Fredholm operators. If \(K:H_0\to H_1\) is compact, then
 \[
 T+K\ \text{is Fredholm}
 \qquad\text{and}\qquad
@@ -53,7 +53,7 @@ has zero-dimensional kernel and a one-dimensional cokernel. Hence \(U\) is Fredh
 
 ## Unbounded convention
 
-A closed densely defined operator is also sometimes called Fredholm when it has closed range and finite-dimensional kernel and cokernel. That is a distinct unbounded notion: boundedness, domains, and adjoints must be handled explicitly. Under suitable regularity, an unbounded Fredholm operator can be represented by a bounded transform, but the two definitions should not be silently identified.
+A closed [[functional-analysis/densely-defined-operator|densely defined operator]] is also sometimes called Fredholm when it has closed range and finite-dimensional kernel and cokernel. That is a distinct unbounded notion: boundedness, domains, and adjoints must be handled explicitly. Under suitable regularity, an unbounded Fredholm operator can be represented by a bounded transform, but the two definitions should not be silently identified.
 
 ## References
 

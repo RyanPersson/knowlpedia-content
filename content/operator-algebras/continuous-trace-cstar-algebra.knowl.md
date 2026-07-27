@@ -20,14 +20,14 @@ continuous on \(\widehat A\). The algebra \(A\) is a **continuous-trace
 \(C^*\)-algebra** when its continuous-trace positive elements are dense in
 \(A_+\). Continuity uses the
 [[operator-algebras/operator-trace|canonical operator trace]] in each
-irreducible representation, while density makes such elements detect the
+[[algebra-representation-theory/irreducible-representation|irreducible representation]], while density makes such elements detect the
 whole algebra. This is a property of \(A\), not one representation.
 
 ## Local compact-operator structure
 
 Continuous-trace algebras are [[operator-algebras/type-i-cstar-algebra|type I]] and, locally over their spectrum, are strongly Morita equivalent to commutative algebras \(C_0(U)\). Under the usual separability and paracompactness hypotheses, their stabilizations are section algebras of locally trivial bundles of [[operator-algebras/compact-operator-cstar-algebra|compact-operator algebras]]. This is the geometric form developed in [Raeburn–Williams, Chapters 4–5](https://doi.org/10.1090/surv/060).
 
-Consequently a continuous-trace algebra is a particularly regular [[operator-algebras/continuous-field-cstar-algebra|continuous field of \(C^*\)-algebras]]. Its fibers in irreducible representations are compact operators rather than arbitrary type I algebras.
+Consequently a continuous-trace algebra is a particularly regular [[operator-algebras/continuous-field-cstar-algebra|continuous field of \(C^*\)-algebras]]. Its fibers in irreducible representations are [[linear-algebra/compact-operator|compact operators]] rather than arbitrary type I algebras.
 
 ## Morita invariance
 
@@ -35,7 +35,7 @@ The continuous-trace property is preserved by [[operator-algebras/strong-morita-
 
 ## Examples and non-examples
 
-For a locally compact Hausdorff space \(X\), both \(C_0(X)\) and \(C_0(X,\mathcal K(H))\) have continuous trace. The latter has spectrum \(X\), and positive finite-rank sections supply a dense family of continuous-trace elements.
+For a locally compact [[topology/hausdorff-space|Hausdorff space]] \(X\), both \(C_0(X)\) and \(C_0(X,\mathcal K(H))\) have continuous trace. The latter has spectrum \(X\), and positive finite-rank sections supply a dense family of continuous-trace elements.
 
 If \(H\) is infinite-dimensional, \(B(H)\) does not have continuous trace. Its positive trace-class operators are not norm-dense in \(B(H)_+\); equivalently, its identity has infinite trace and cannot be approximated in norm by compact finite-trace elements.
 

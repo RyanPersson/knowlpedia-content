@@ -38,7 +38,7 @@ representation is unitarily equivalent to the GNS representation of
 ## Concrete operator algebras
 
 For \(A=\mathcal B(H)\) with its identity representation, every unit vector
-defines a vector state. This state is normal, and its density operator is the
+defines a vector state. This state is normal, and its [[quantum-foundations/density-operator|density operator]] is the
 rank-one projection onto \(\mathbb C\xi\). A general
 [[operator-algebras/normal-state|normal state]] on \(\mathcal B(H)\) is instead
 represented by a positive trace-class operator of trace one, and need not be a

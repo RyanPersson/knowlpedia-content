@@ -12,7 +12,7 @@ Let \(B\subseteq A\) be a nonzero
 [[operator-algebras/cstar-subalgebra|\(C^*\)-subalgebra]]. A **conditional
 expectation** from \(A\) onto \(B\) is a
 [[operator-algebras/completely-positive-map|completely positive]] contractive
-linear map \(E:A\to B\) such that
+[[linear-algebra/linear-map|linear map]] \(E:A\to B\) such that
 \[
 E(b)=b,\qquad
 E(b_1ab_2)=b_1E(a)b_2
@@ -48,7 +48,7 @@ or complete positivity.
 Conditional expectations let
 [[operator-algebras/positive-linear-functional|positive functionals]] on
 \(B\) produce positive functionals on \(A\) by composition. They also provide
-canonical \(B\)-valued inner products in operator-algebra and
+canonical \(B\)-valued [[linear-algebra/inner-product|inner products]] in operator-algebra and
 [[operator-algebras/hilbert-cstar-module|Hilbert-module]] constructions.
 
 ## Examples and non-examples

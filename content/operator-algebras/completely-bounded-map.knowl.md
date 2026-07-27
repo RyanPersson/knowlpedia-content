@@ -32,7 +32,7 @@ Every [[operator-algebras/star-homomorphism|\(*\)-homomorphism]] is completely
 contractive. Every bounded scalar-valued functional is completely bounded with
 the same norm. A [[operator-algebras/completely-positive-map|completely positive map]] is completely bounded; when its domain is unital,
 \(\lVert\phi\rVert_{\mathrm{cb}}=\lVert\phi(1)\rVert\). These examples explain
-why the matrix norm, rather than only the ordinary operator norm, is natural
+why the matrix norm, rather than only the ordinary [[linear-algebra/operator-norm|operator norm]], is natural
 for maps between operator algebras
 [Paulsen, Chapters 3 and 8](https://doi.org/10.1017/CBO9780511546631).
 
@@ -45,7 +45,7 @@ Compositions satisfy
 \]
 so completely bounded maps form the morphisms of the operator-space category.
 For maps into \(B(H)\), Wittstock's decomposition theorem expresses every
-completely bounded map as a linear combination of completely positive maps;
+completely bounded map as a [[convex-analysis/linear-combination|linear combination]] of completely positive maps;
 equivalently, it admits a Stinespring-type factorization with bounded
 coefficients [Paulsen, Chapter 8](https://doi.org/10.1017/CBO9780511546631).
 

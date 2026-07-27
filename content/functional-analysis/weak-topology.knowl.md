@@ -30,7 +30,7 @@ A basic weak neighborhood of \(x\) restricts only finitely many functionals:
 \[
 \{y\in E:|\varphi_j(y-x)|<\varepsilon_j,\ 1\leq j\leq m\}.
 \]
-The weak topology is Hausdorff exactly when \(E'\) separates points of \(E\).
+The weak topology is Hausdorff exactly when \(E'\) [[real-analysis/separates-points|separates points]] of \(E\).
 This separation holds for Hausdorff
 [[functional-analysis/locally-convex-space|locally convex spaces]], but can fail for
 general topological vector spaces whose continuous dual is too small
@@ -41,7 +41,7 @@ general topological vector spaces whose continuous dual is too small
 Original-topology convergence implies weak convergence. The converse is
 usually false in infinite dimensions: weak convergence records every scalar
 observation \(\varphi(x_i)\), but not uniform control over all observations.
-For example, the standard orthonormal basis in \(\ell^2\) converges weakly to
+For example, the standard [[linear-algebra/orthonormal-basis|orthonormal basis]] in \(\ell^2\) converges weakly to
 \(0\) while every term has norm \(1\).
 
 ## Weak versus weak-star
@@ -51,7 +51,7 @@ On a Banach dual space \(E'\), the weak topology is
 [[functional-analysis/weak-star-topology|weak-star topology]] is
 \(\sigma(E',E)\), using only evaluations by elements of the specified
 predual. They coincide when the canonical image of \(E\) exhausts \(E''\),
-as for reflexive Banach spaces, but not in general. Keeping the two entries
+as for [[functional-analysis/reflexive-banach-space|reflexive Banach spaces]], but not in general. Keeping the two entries
 in \(\sigma(\,\cdot\,,\,\cdot\,)\) visible prevents this common ambiguity.
 
 ## References

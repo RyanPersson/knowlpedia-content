@@ -8,13 +8,13 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-A **pure real Hodge structure of weight \(n\)** is a finite-dimensional real vector space \(V_{\mathbb R}\) together with a direct-sum decomposition of its [[linear-algebra/complexification|complexification]]
+A **pure real Hodge structure of weight \(n\)** is a finite-dimensional real [[linear-algebra/vector-space|vector space]] \(V_{\mathbb R}\) together with a direct-sum decomposition of its [[linear-algebra/complexification|complexification]]
 \[
 V_{\mathbb C}=V_{\mathbb R}\otimes_{\mathbb R}\mathbb C
 =\bigoplus_{p+q=n}V^{p,q}
 \]
 such that complex conjugation relative to \(V_{\mathbb R}\) satisfies
-\(\overline{V^{p,q}}=V^{q,p}\). The integers \(p\) and \(q\) may be negative unless an effectiveness condition is imposed. A pure rational Hodge structure is defined in the same way from a finite-dimensional \(\mathbb Q\)-vector space, and an integral Hodge structure starts with a finite-rank free abelian group.
+\(\overline{V^{p,q}}=V^{q,p}\). The integers \(p\) and \(q\) may be negative unless an effectiveness condition is imposed. A pure rational Hodge structure is defined in the same way from a finite-dimensional \(\mathbb Q\)-vector space, and an integral Hodge structure starts with a finite-rank free [[algebra-groups/abelian-group|abelian group]].
 
 ## Filtration formulation
 

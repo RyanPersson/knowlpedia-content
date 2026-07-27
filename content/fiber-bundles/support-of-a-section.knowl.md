@@ -28,7 +28,7 @@ Hence support is independent of the chosen frame. The closure in the definition 
 
 ## Basic operations
 
-For smooth sections \(s,t\) and a smooth function \(f\),
+For [[fiber-bundles/section-of-a-fiber-bundle|smooth sections]] \(s,t\) and a smooth function \(f\),
 \[
 \operatorname{supp}(s+t)\subseteq
 \operatorname{supp}(s)\cup\operatorname{supp}(t),

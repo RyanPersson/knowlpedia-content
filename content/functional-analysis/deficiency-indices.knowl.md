@@ -48,11 +48,11 @@ precisely what permits those data to be paired to form a self-adjoint domain.
 ## Examples and sign convention
 
 The minimal momentum operator \(-i\,d/dx\) on a bounded interval, obtained by
-closing the operator on compactly supported smooth functions, has deficiency
+closing the operator on [[functional-analysis/test-function-space|compactly supported smooth functions]], has deficiency
 indices \((1,1)\) and admits a circle of self-adjoint boundary conditions. On
 the whole real line the corresponding minimal operator has indices \((0,0)\)
 and is essentially self-adjoint. Interchanging \(i\) and \(-i\), or changing
-the sign of the operator, swaps the ordered pair; a source’s convention should
+the sign of the operator, swaps the [[shared-foundations/ordered-pair|ordered pair]]; a source’s convention should
 therefore be checked before comparing formulas.
 
 ## References

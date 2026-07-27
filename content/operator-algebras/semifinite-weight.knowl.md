@@ -53,11 +53,11 @@ conditions.
 For a
 [[operator-algebras/normal-semifinite-faithful-weight|faithful normal semifinite weight]],
 the finite left ideal \(\mathfrak n_\varphi\) is large enough to build the
-weight-GNS Hilbert space, normality controls limits, and faithfulness removes
+weight-GNS [[linear-algebra/hilbert-space|Hilbert space]], normality controls limits, and faithfulness removes
 its null ideal. These three independent hypotheses are the standard starting
 point for modular theory. A
 [[operator-algebras/semifinite-von-neumann-algebra|semifinite von Neumann algebra]]
-is instead an algebra admitting a faithful normal semifinite trace; it should
+is instead an algebra admitting a [[operator-algebras/faithful-normal-semifinite-trace|faithful normal semifinite trace]]; it should
 not be confused with a particular semifinite weight on an arbitrary algebra.
 
 ## References

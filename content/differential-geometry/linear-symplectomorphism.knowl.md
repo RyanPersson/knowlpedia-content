@@ -14,7 +14,7 @@ Let \((V,\omega_V)\) and \((W,\omega_W)\) be finite-dimensional [[differential-g
 \quad\text{for all }v,v'\in V.
 \]
 Its inverse is automatically symplectic. When \(V=W\) and \(\omega_V=\omega_W=\omega\), linear symplectomorphisms are the automorphisms of the pair \((V,\omega)\).
-Equivalently, \(T\) is an isomorphism of vector spaces carrying the target form exactly to the source form, with no choice of basis involved.
+Equivalently, \(T\) is an isomorphism of [[linear-algebra/vector-space|vector spaces]] carrying the target form exactly to the source form, with no choice of basis involved.
 
 ## Automorphism group
 

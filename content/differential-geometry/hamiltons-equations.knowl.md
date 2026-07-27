@@ -42,7 +42,7 @@ For \(H(q,p)=p^2/(2m)+m\Omega^2q^2/2\), Hamilton's equations are
 \]
 and hence \(\ddot q+\Omega^2q=0\).
 
-For a [[differential-geometry/time-dependent-hamiltonian-system|time-dependent Hamiltonian]] \(H(t,q,p)\), the same formulas hold with the partial derivatives evaluated at time \(t\). The resulting evolution is nonautonomous, and \(H\) need not be conserved [Arnol'd, Chapter 9](https://doi.org/10.1007/978-1-4757-1693-1).
+For a [[differential-geometry/time-dependent-hamiltonian-system|time-dependent Hamiltonian]] \(H(t,q,p)\), the same formulas hold with the [[real-analysis/partial-derivative|partial derivatives]] evaluated at time \(t\). The resulting evolution is nonautonomous, and \(H\) need not be conserved [Arnol'd, Chapter 9](https://doi.org/10.1007/978-1-4757-1693-1).
 
 ## Conventions and scope
 

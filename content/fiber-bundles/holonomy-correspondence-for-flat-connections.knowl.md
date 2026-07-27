@@ -20,7 +20,7 @@ Let \(M\) be a connected [[fiber-bundles/smooth-manifold|smooth manifold]] with 
 \operatorname{Hom}(\pi_1(M,x),G)/G .
 \]
 Here a flat principal bundle means a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with a flat connection. The correspondence sends it to its [[fiber-bundles/holonomy-representation|holonomy representation]] after choosing a point over \(x\); changing that point conjugates the representation. Conversely, a homomorphism \(\rho\) produces the quotient \(\widetilde M\times_\rho G\) with the flat connection descended from the product connection.
-The right-hand quotient is by the conjugation action of \(G\).
+The right-hand quotient is by the [[algebra-groups/conjugation-action|conjugation action]] of \(G\).
 
 ## Construction from monodromy
 
@@ -34,11 +34,11 @@ This action commutes with the principal right \(G\)-action, so
 \[
 P_\rho=(\widetilde M\times G)/\pi_1(M,x)
 \]
-is a principal \(G\)-bundle. The horizontal distribution tangent to \(\widetilde M\) descends and is flat. Its holonomy is \(\rho\), up to the inverse or conjugation dictated by path-lifting conventions. This construction and its converse are the classification content behind the standard equivalences for [[fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm|flat principal bundles]].
+is a principal \(G\)-bundle. The [[fiber-bundles/horizontal-distribution|horizontal distribution]] tangent to \(\widetilde M\) descends and is flat. Its holonomy is \(\rho\), up to the inverse or conjugation dictated by path-lifting conventions. This construction and its converse are the classification content behind the standard equivalences for [[fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm|flat principal bundles]].
 
 ## Passage to moduli
 
-The correspondence is a bijection of isomorphism classes. With suitable topologies and hypotheses, it refines to a comparison between the [[fiber-bundles/moduli-space-of-flat-connections|moduli space of flat connections]] and a topological representation quotient. For compact \(G\) over a closed surface, every conjugacy orbit is closed and the quotient behaves well topologically; for noncompact or complex reductive groups, one often replaces the naive orbit space by a closed-orbit or geometric-invariant-theory quotient.
+The correspondence is a bijection of isomorphism classes. With suitable topologies and hypotheses, it refines to a comparison between the [[fiber-bundles/moduli-space-of-flat-connections|moduli space of flat connections]] and a topological representation quotient. For compact \(G\) over a closed surface, every conjugacy orbit is closed and the quotient behaves well topologically; for noncompact or complex reductive groups, one often replaces the naive [[lie-groups/orbit-space|orbit space]] by a closed-orbit or geometric-invariant-theory quotient.
 
 On a fixed principal bundle \(P\), only the representations for which \(P_\rho\) is isomorphic to \(P\) occur. Thus the correspondence does not say that every representation lies in the flat moduli of one preselected bundle.
 
@@ -48,7 +48,7 @@ For \(M=S^1\), a representation is determined by one element \(g\in G\). Two res
 
 ## Conventions and scope
 
-For complex vector bundles, the same construction is often called the smooth Riemann–Hilbert or monodromy correspondence. It should not be confused with the analytic Riemann–Hilbert correspondence involving regular singular differential equations or perverse sheaves.
+For [[fiber-bundles/complex-vector-bundle|complex vector bundles]], the same construction is often called the smooth Riemann–Hilbert or monodromy correspondence. It should not be confused with the analytic Riemann–Hilbert correspondence involving regular singular differential equations or perverse sheaves.
 
 ## References
 

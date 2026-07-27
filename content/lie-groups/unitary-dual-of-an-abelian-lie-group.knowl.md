@@ -28,8 +28,8 @@ and the discrete topology on the second.
 
 ## Why irreducibles are characters
 
-All operators in a unitary representation of an abelian group commute. For an
-irreducible representation, the commutant consists only of scalars, so every
+All operators in a unitary representation of an [[algebra-groups/abelian-group|abelian group]] commute. For an
+[[algebra-representation-theory/irreducible-representation|irreducible representation]], the commutant consists only of scalars, so every
 group element acts by a scalar of modulus one. Strong continuity makes the
 resulting scalar map \(G\to\mathbb T\) continuous. Thus the unitary dual agrees
 with the [[harmonic-analysis/pontryagin-dual|Pontryagin dual]], not merely as

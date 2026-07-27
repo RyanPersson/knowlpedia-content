@@ -21,9 +21,9 @@ The four-form
 \[
 -\frac{1}{8\pi^2}\operatorname{tr}(F_A\wedge F_A)
 \]
-represents \(c_2(E)\) because \(c_1(E)=0\) for an \(SU(r)\)-bundle. Replacing \(A\) by another connection changes this form by an exact transgression form, whose integral over closed \(M\) vanishes. Thus the number depends on the bundle and orientation, not on the chosen representative connection.
+represents \(c_2(E)\) because \(c_1(E)=0\) for an \(SU(r)\)-bundle. Replacing \(A\) by another connection changes this form by an exact [[fiber-bundles/transgression-form|transgression form]], whose integral over closed \(M\) vanishes. Thus the number depends on the bundle and orientation, not on the chosen representative connection.
 
-For a general compact structure group, an “instanton number” requires choosing an invariant quadratic form normalized to represent an integral characteristic class. The resulting charge need not use the displayed trace normalization.
+For a general compact structure group, an “instanton number” requires choosing an invariant quadratic form normalized to represent an integral [[fiber-bundles/characteristic-class|characteristic class]]. The resulting charge need not use the displayed trace normalization.
 
 ## Energy and self-duality
 
@@ -31,9 +31,9 @@ In four dimensions, decompose \(F_A=F_A^++F_A^-\) using the Hodge star. The Cher
 \[
 \|F_A^-\|_{L^2}^2-\|F_A^+\|_{L^2}^2
 \]
-with the present orientation and trace conventions. The Yang–Mills energy is the corresponding sum. Hence self-dual or anti-self-dual connections saturate a topological lower bound proportional to \(|k(E)|\) [Donaldson–Kronheimer, §2.1](https://doi.org/10.1093/oso/9780198535539.001.0001).
+with the present orientation and trace conventions. The Yang–Mills energy is the corresponding sum. Hence self-dual or [[fiber-bundles/self-dual-and-anti-self-dual-connection|anti-self-dual connections]] saturate a topological [[shared-foundations/lower-bound|lower bound]] proportional to \(|k(E)|\) [Donaldson–Kronheimer, §2.1](https://doi.org/10.1093/oso/9780198535539.001.0001).
 
-Reversing the orientation interchanges self-duality and anti-self-duality and changes the sign of the integral, while leaving its absolute value unchanged.
+Reversing the orientation interchanges self-duality and anti-self-duality and changes the sign of the integral, while leaving its [[real-analysis/absolute-value|absolute value]] unchanged.
 
 ## Related characteristic numbers
 
@@ -43,7 +43,7 @@ p_1(\operatorname{ad}P)=-4c_2(E)
 \]
 under standard conventions. Thus “Pontryagin charge” may encode the same sector but with a sign or factor of four. It is not included as an alias because the normalization is not identical to the instanton number displayed here.
 
-**Warning.** Authors vary the sign in the definition of \(k\), the choice of Hermitian versus skew-Hermitian curvature, and the normalization of the Yang–Mills functional. Any numerical energy identity must be read together with those conventions.
+**Warning.** Authors vary the sign in the definition of \(k\), the choice of Hermitian versus skew-Hermitian curvature, and the normalization of the [[fiber-bundles/yangmills-functional|Yang–Mills functional]]. Any numerical energy identity must be read together with those conventions.
 
 ## References
 

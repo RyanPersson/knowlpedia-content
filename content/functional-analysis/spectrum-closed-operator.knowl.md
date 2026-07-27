@@ -33,7 +33,7 @@ The resolvent set is open, the resolvent depends analytically on
 operator, the spectrum of a closed unbounded operator need not be bounded,
 compact, or even nonempty. For a
 [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint operator]]
-on a Hilbert space, however, the spectrum is a nonempty closed subset of
+on a [[linear-algebra/hilbert-space|Hilbert space]], however, the spectrum is a nonempty closed subset of
 \(\mathbb R\), and every nonreal number lies in the resolvent set.
 
 ## Spectral parts

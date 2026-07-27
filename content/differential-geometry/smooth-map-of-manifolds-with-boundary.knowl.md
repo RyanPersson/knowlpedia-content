@@ -22,7 +22,7 @@ For real-valued functions on \(M\), no target boundary is involved: a function i
 
 ## Structure and consequences
 
-Identity maps are smooth, and composites of smooth maps between manifolds with boundary are smooth. Consequently these objects and maps form a category. The differential \(dF_p:T_pM\to T_{F(p)}N\) is defined using an extension and is independent of that extension. At a [[differential-geometry/boundary-and-interior-of-a-manifold|boundary point]], \(T_pM\) is still an \(m\)-dimensional vector space rather than a half-space.
+Identity maps are smooth, and composites of smooth maps between manifolds with boundary are smooth. Consequently these objects and maps form a category. The differential \(dF_p:T_pM\to T_{F(p)}N\) is defined using an extension and is independent of that extension. At a [[differential-geometry/boundary-and-interior-of-a-manifold|boundary point]], \(T_pM\) is still an \(m\)-dimensional [[linear-algebra/vector-space|vector space]] rather than a half-space.
 
 Smoothness alone imposes no boundary-preservation condition. A smooth map may send an interior point to the boundary or a boundary point to the interior.
 

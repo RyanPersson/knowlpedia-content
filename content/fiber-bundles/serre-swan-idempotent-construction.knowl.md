@@ -35,7 +35,7 @@ This module is a direct summand of the [[algebra-modules/free-module|free module
 
 ## Geometry of the construction
 
-The kernel of \(p(x)\) equals the image of \(1-p(x)\), giving a smooth complement even when \(p\) is not self-adjoint. If \(p\) is self-adjoint for the standard inner product, then \(p(x)\) is the orthogonal projection onto \(E_{p,x}\).
+The kernel of \(p(x)\) equals the image of \(1-p(x)\), giving a smooth complement even when \(p\) is not self-adjoint. If \(p\) is self-adjoint for the standard [[linear-algebra/inner-product|inner product]], then \(p(x)\) is the [[linear-algebra/orthogonal-projection|orthogonal projection]] onto \(E_{p,x}\).
 
 For \(M=S^m\subset\mathbb R^{m+1}\), the matrix
 \[

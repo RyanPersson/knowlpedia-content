@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(\Omega\subseteq\mathbb R^n\) be open, let \(k\) be a nonnegative
 integer, and let \(1\leq p\leq\infty\). The **Sobolev space**
-\(W^{k,p}(\Omega)\) consists of equivalence classes of functions
+\(W^{k,p}(\Omega)\) consists of [[shared-foundations/equivalence-class|equivalence classes]] of functions
 \(u\in L^p(\Omega)\) whose [[functional-analysis/weak-derivative|weak
 derivatives]] \(D^\alpha u\) belong to \(L^p(\Omega)\) for every multi-index
 \(\alpha\) with \(|\alpha|\leq k\). For \(p<\infty\), its standard norm is

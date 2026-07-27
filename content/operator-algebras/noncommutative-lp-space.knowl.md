@@ -33,9 +33,9 @@ computed in the crossed product \(N\).
 
 The crossed product and trace depend on the auxiliary weight, but the
 homogeneous subspaces do not, up to their canonical identifications. For
-\(1\leq p\leq\infty\), \(L^p(M)\) is a Banach space; \(L^1(M)\) identifies
+\(1\leq p\leq\infty\), \(L^p(M)\) is a [[linear-algebra/banach-space|Banach space]]; \(L^1(M)\) identifies
 isometrically with the predual \(M_*\), and \(L^2(M)\) gives the standard-form
-Hilbert space of \(M\). Multiplication of affiliated operators yields Hölder
+[[linear-algebra/hilbert-space|Hilbert space]] of \(M\). Multiplication of affiliated operators yields Hölder
 maps \(L^p(M)L^q(M)\subseteq L^r(M)\) when
 \(1/r=1/p+1/q\)
 [Haagerup, pp. 175–184](https://math.berkeley.edu/~pavlov/scans/haagerup.pdf).

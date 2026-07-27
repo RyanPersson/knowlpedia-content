@@ -60,7 +60,7 @@ semifiniteness.
 
 An ordinary spectral triple is the basic example via
 \(\mathcal M=B(\mathcal H)\). Geometric operators on a regular covering can
-instead be placed in the von Neumann algebra of equivariant operators and
+instead be placed in the [[operator-algebras/von-neumann-algebra|von Neumann algebra]] of equivariant operators and
 measured using its canonical semifinite trace, producing \(L^2\)-type indices.
 
 For nonunital \(\mathcal A\), global tau-compact resolvent is usually replaced

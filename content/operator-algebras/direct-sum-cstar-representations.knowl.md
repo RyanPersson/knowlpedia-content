@@ -24,7 +24,7 @@ defined by
 It is well defined because \(\|\pi_i(a)\|\leq\|a\|\) uniformly in \(i\).
 The representation space is the Hilbert direct sum, so its vectors satisfy
 \(\sum_i\|\xi_i\|^2<\infty\), even when \(I\) is uncountable.
-Products, adjoints, and linear combinations are preserved coordinatewise,
+Products, adjoints, and [[convex-analysis/linear-combination|linear combinations]] are preserved coordinatewise,
 so this bounded operator-valued map is again a \(C^*\)-representation.
 
 ## Kernels and faithfulness
@@ -34,7 +34,7 @@ The kernel satisfies
 \ker\left(\bigoplus_i\pi_i\right)=\bigcap_i\ker(\pi_i).
 \]
 Consequently, the direct sum is faithful exactly when the family
-\((\pi_i)\) separates points of \(A\). This observation constructs faithful
+\((\pi_i)\) [[real-analysis/separates-points|separates points]] of \(A\). This observation constructs faithful
 representations from sufficiently large families and underlies the
 [[operator-algebras/universal-representation|universal representation]].
 
@@ -53,7 +53,7 @@ For characters \(\chi_1,\ldots,\chi_n\) of a commutative \(C^*\)-algebra,
 representation. The construction is not a direct integral: a direct sum
 uses counting measure and square-summable coordinate families, whereas a
 [[harmonic-analysis/direct-integral-unitary-representations|direct integral of representations]] requires measurable fields and ignores changes on
-null sets.
+[[measure-theory/null-set|null sets]].
 
 ## References
 

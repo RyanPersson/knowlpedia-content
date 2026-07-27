@@ -8,7 +8,7 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(M\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]] without boundary, let \(E,F\to M\) be real or complex vector bundles with bundle metrics, and let
+Let \(M\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]] without boundary, let \(E,F\to M\) be real or [[fiber-bundles/complex-vector-bundle|complex vector bundles]] with [[fiber-bundles/bundle-metric|bundle metrics]], and let
 \[
 P:\Gamma(E)\longrightarrow\Gamma(F)
 \]
@@ -40,11 +40,11 @@ d^\dagger=(-1)^{n(k+1)+1}*d*
 \]
 on \(k\)-forms under the [[differential-geometry/hodge-star-operator|Hodge-star]] convention of an oriented \(n\)-dimensional Riemannian manifold. The [[differential-geometry/hodge-laplacian|Hodge Laplacian]] \(dd^\dagger+d^\dagger d\) is therefore formally self-adjoint.
 
-For functions of compact support on Euclidean space, the formal adjoint of \(\partial/\partial x^j\) is \(-\partial/\partial x^j\). Multiplication by a real-valued function is formally self-adjoint.
+For functions of compact support on [[linear-algebra/euclidean-space|Euclidean space]], the formal adjoint of \(\partial/\partial x^j\) is \(-\partial/\partial x^j\). Multiplication by a real-valued function is formally self-adjoint.
 
 ## Boundary terms and analytic adjoints
 
-**Warning.** On a [[differential-geometry/manifold-with-boundary|manifold with boundary]], integration by parts produces a boundary term unless supports avoid the boundary or boundary conditions make it vanish. The same differential expression can consequently have different operator adjoints for Dirichlet, Neumann, or other domains.
+**Warning.** On a [[differential-geometry/manifold-with-boundary|manifold with boundary]], [[real-analysis/integration-by-parts|integration by parts]] produces a boundary term unless supports avoid the boundary or boundary conditions make it vanish. The same differential expression can consequently have different operator adjoints for Dirichlet, Neumann, or other domains.
 
 The formal adjoint is not automatically the adjoint of an unbounded operator on an \(L^2\) [[linear-algebra/hilbert-space|Hilbert space]]. The latter depends on a specified dense domain and on completeness or boundary conditions. Formal self-adjointness is therefore necessary but not sufficient for self-adjointness of an analytic realization.
 

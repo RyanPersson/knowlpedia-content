@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(M\subseteq\mathcal B(H)\) be a
 [[operator-algebras/von-neumann-algebra|von Neumann algebra]], let \(G\) be a
-locally compact group, and let \(\alpha:G\to\operatorname{Aut}(M)\) be a
+[[topology/locally-compact-group|locally compact group]], and let \(\alpha:G\to\operatorname{Aut}(M)\) be a
 point-ultraweakly continuous action. On \(L^2(G,H)\), set
 \[
 (\pi_\alpha(x)\xi)(s)=\alpha_{s^{-1}}(x)\xi(s),\qquad
@@ -41,7 +41,7 @@ general locally compact group, integrated operators
 
 For the trivial action on \(\mathbb C\), the crossed product is the
 [[operator-algebras/group-von-neumann-algebra|group von Neumann algebra]]
-\(L(G)\). For a measure-preserving action on a standard measure space, the
+\(L(G)\). For a measure-preserving action on a standard [[measure-theory/measure-space|measure space]], the
 crossed product \(L^\infty(X,\mu)\rtimes G\) is the group-measure-space von
 Neumann algebra. Inner actions often yield tensor-product models, whereas
 outer actions can change the factor type.
@@ -54,7 +54,7 @@ with either the [[operator-algebras/full-crossed-product|full]] or
 [[operator-algebras/reduced-crossed-product|reduced \(C^*\)-crossed product]],
 which are defined for point-norm-continuous \(C^*\)-dynamical systems. When
 the action on \(M\), regarded as a \(C^*\)-algebra, is also point-norm
-continuous, its regular covariant representation gives a represented reduced
+continuous, its [[operator-algebras/regular-covariant-representation|regular covariant representation]] gives a represented reduced
 \(C^*\)-crossed product; the ultraweak closure of that represented algebra is
 the von Neumann crossed product above. For a merely point-ultraweakly
 continuous action, this comparison does not assert the existence of a reduced

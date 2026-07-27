@@ -12,7 +12,7 @@ Let \(S\subseteq M\) be an [[differential-geometry/embedded-submanifold|embedded
 
 ## Construction idea
 
-Choose a Riemannian metric on \(M\), identify the normal bundle with the [[linear-algebra/orthogonal-complement|orthogonal complement]] of \(TS\) in \(TM|_S\), and apply the [[fiber-bundles/exponential-map|exponential map]] to normal vectors. The inverse function theorem gives the required model near each zero vector. A locally finite shrinking argument produces a single open neighborhood on which this map is injective [Hirsch, Chapter 4](https://doi.org/10.1007/978-1-4684-9449-5).
+Choose a Riemannian metric on \(M\), identify the normal bundle with the [[linear-algebra/orthogonal-complement|orthogonal complement]] of \(TS\) in \(TM|_S\), and apply the [[fiber-bundles/exponential-map|exponential map]] to normal vectors. The [[shared-foundations/inverse-function|inverse function]] theorem gives the required model near each zero vector. A locally finite shrinking argument produces a single open neighborhood on which this map is injective [Hirsch, Chapter 4](https://doi.org/10.1007/978-1-4684-9449-5).
 
 ## Consequences
 
@@ -20,7 +20,7 @@ After choosing a fiberwise star-shaped domain, the tubular model deformation ret
 
 ## Scope and refinements
 
-The theorem guarantees existence but not a canonical neighborhood: different metrics and shrinkings give different embeddings. Relative and equivariant versions require compatibility with extra subsets or group actions. For manifolds with boundary, neatness or other boundary conditions are normally imposed so that the tubular model respects the boundary.
+The theorem guarantees existence but not a canonical neighborhood: different metrics and shrinkings give different embeddings. Relative and equivariant versions require compatibility with extra subsets or [[algebra-groups/group-action|group actions]]. For manifolds with boundary, neatness or other boundary conditions are normally imposed so that the tubular model respects the boundary.
 
 ## References
 

@@ -13,7 +13,7 @@ Let \(E\) and \(F\) be [[functional-analysis/topological-vector-space|topologica
 T(U)\subseteq V
 \qquad\text{for every }T\in\mathcal T.
 \]
-The same source neighborhood must therefore control all operators in the family. For linear maps, this condition at \(0\) is equivalent to equicontinuity at every point.
+The same source neighborhood must therefore control all operators in the family. For [[linear-algebra/linear-map|linear maps]], this condition at \(0\) is equivalent to equicontinuity at every point.
 
 ## Seminorm criterion
 
@@ -25,11 +25,11 @@ for all \(T\in\mathcal T\) and \(x\in E\). This is the locally convex analogue o
 
 ## Duality and uniform boundedness
 
-For a family \(\mathcal T\) in the [[functional-analysis/topological-dual|topological dual]] \(E'\), equicontinuity means that some zero-neighborhood \(U\subseteq E\) satisfies \(\lvert\varphi(x)\rvert\le1\) for every \(\varphi\in\mathcal T\) and \(x\in U\); equivalently, \(\mathcal T\) lies in the polar of \(U\). If \(E\) is [[functional-analysis/barreled-space|barreled]], pointwise bounded families of continuous linear maps from \(E\) into a locally convex space are equicontinuous [Trèves, Chapter 32](https://store.doverpublications.com/products/9780486453521).
+For a family \(\mathcal T\) in the [[functional-analysis/topological-dual|topological dual]] \(E'\), equicontinuity means that some zero-neighborhood \(U\subseteq E\) satisfies \(\lvert\varphi(x)\rvert\le1\) for every \(\varphi\in\mathcal T\) and \(x\in U\); equivalently, \(\mathcal T\) lies in the polar of \(U\). If \(E\) is [[functional-analysis/barreled-space|barreled]], [[real-analysis/pointwise-bounded-family|pointwise bounded families]] of continuous linear maps from \(E\) into a locally convex space are equicontinuous [Trèves, Chapter 32](https://store.doverpublications.com/products/9780486453521).
 
 ## Stability and cautions
 
-Subfamilies, finite unions, and the balanced convex hull of an equicontinuous family remain equicontinuous. Composing on either side with a fixed continuous linear map also preserves equicontinuity. Equicontinuity is stronger than requiring each member to be continuous. It is also distinct from equicontinuity of arbitrary maps between metric spaces, although the two definitions agree for linear maps when translated into zero-neighborhood language.
+Subfamilies, finite unions, and the balanced [[convex-analysis/convex-hull|convex hull]] of an [[real-analysis/equicontinuous-family|equicontinuous family]] remain equicontinuous. Composing on either side with a fixed continuous linear map also preserves equicontinuity. Equicontinuity is stronger than requiring each member to be continuous. It is also distinct from equicontinuity of arbitrary maps between [[topology/metric-space|metric spaces]], although the two definitions agree for linear maps when translated into zero-neighborhood language.
 
 ## References
 

@@ -27,7 +27,7 @@ For a discrete group the integral becomes the finite sum
 \[
 (\pi\rtimes U)(f)=\sum_{s\in G}\pi(f(s))U_s.
 \]
-Omitting the unitary factors would generally lose the group action and would not represent the crossed-product convolution.
+Omitting the unitary factors would generally lose the [[algebra-groups/group-action|group action]] and would not represent the crossed-product convolution.
 
 ## Conventions and scope
 

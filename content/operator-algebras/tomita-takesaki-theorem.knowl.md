@@ -37,7 +37,7 @@ Cyclicity makes \(M\Omega\) dense, while separatingness makes
 \(S_0(x\Omega)=x^*\Omega\) well-defined and ensures that \(M'\Omega\) is
 dense. These are exactly the vector hypotheses used to construct the two
 closed antilinear operators whose polar factors appear in the theorem.
-General von Neumann algebras are treated by faithful normal semifinite weights,
+General von Neumann algebras are treated by faithful normal [[operator-algebras/semifinite-weight|semifinite weights]],
 standard forms, or reduction to supports rather than by assuming that a cyclic
 separating vector exists in an arbitrary representation.
 
@@ -62,14 +62,14 @@ anti-isomorphism between \(M\) and its commutant in standard position. The
 weight form of the theorem yields the
 [[operator-algebras/modular-automorphism-group|modular automorphism group]] of
 every [[operator-algebras/normal-semifinite-faithful-weight|normal semifinite
-faithful weight]], a central tool in the structure theory of type III
+[[operator-algebras/faithful-weight|faithful weight]]]], a central tool in the structure theory of type III
 algebras.
 
 ## Conventions and scope
 
 **Warning.** Replacing \(\Delta^{it}x\Delta^{-it}\) by
 \(\Delta^{-it}x\Delta^{it}\) reverses the time parameter. Both conventions
-occur when modular operators or inner products are normalized differently;
+occur when modular operators or [[linear-algebra/inner-product|inner products]] are normalized differently;
 formulas involving KMS boundary values must use one convention consistently.
 
 ## References

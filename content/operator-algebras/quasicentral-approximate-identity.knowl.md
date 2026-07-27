@@ -23,7 +23,7 @@ relative to one containing algebra and not another.
 
 ## Existence theorem
 
-Every closed two-sided ideal \(I\triangleleft A\) has a quasicentral
+Every closed [[algebra-rings/two-sided-ideal|two-sided ideal]] \(I\triangleleft A\) has a quasicentral
 approximate identity in \(A\). Starting from an ordinary approximate identity
 for \(I\), one uses
 [[convex-analysis/convex-combination|convex combinations]] to make finitely
@@ -34,7 +34,7 @@ required net
 
 The theorem guarantees a net, not necessarily a sequence. Countability
 hypotheses can allow sequential forms, but the definition itself should not
-replace the indexing net by natural numbers.
+replace the indexing net by [[shared-foundations/natural-numbers|natural numbers]].
 
 ## Examples and a near-miss
 

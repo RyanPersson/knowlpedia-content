@@ -18,13 +18,13 @@ where \(F_A\) is the [[fiber-bundles/curvature-2-form-of-a-principal-connection|
 
 ## Local structure
 
-At a flat connection \(A\), the [[fiber-bundles/deformation-complex-of-a-flat-connection|twisted de Rham complex]] describes the infinitesimal quotient. Its zeroth cohomology is the Lie algebra of the stabilizer, its first cohomology gives infinitesimal deformations modulo infinitesimal gauge, and its second cohomology contains obstruction classes. Consequently, the quotient is generally singular at connections with extra stabilizer or obstructed deformations; it should not be assumed to be a manifold.
+At a flat connection \(A\), the [[fiber-bundles/deformation-complex-of-a-flat-connection|twisted de Rham complex]] describes the infinitesimal quotient. Its zeroth cohomology is the [[lie-groups/lie-algebra|Lie algebra]] of the stabilizer, its first cohomology gives infinitesimal deformations modulo infinitesimal gauge, and its second cohomology contains obstruction classes. Consequently, the quotient is generally singular at connections with extra stabilizer or obstructed deformations; it should not be assumed to be a manifold.
 
 Analytic constructions normally complete connections and gauge transformations in compatible Sobolev norms and use a slice for the gauge action. On compact bases the resulting finite-dimensional local models recover the same smooth flat connections after elliptic regularity.
 
 ## Relation to representations
 
-If \(M\) is connected, choosing a basepoint and a point of the fiber assigns to \(A\) its [[fiber-bundles/holonomy-representation|holonomy representation]] \(\pi_1(M)\to G\). Changing the chosen fiber point conjugates the representation. The [[fiber-bundles/holonomy-correspondence-for-flat-connections|holonomy correspondence]] therefore identifies isomorphism classes of flat bundles with conjugacy classes of representations. Restricting to a fixed \(P\) selects only those representations whose associated flat bundle has the topological type of \(P\).
+If \(M\) is connected, choosing a basepoint and a point of the fiber assigns to \(A\) its [[fiber-bundles/holonomy-representation|holonomy representation]] \(\pi_1(M)\to G\). Changing the chosen fiber point conjugates the representation. The [[fiber-bundles/holonomy-correspondence-for-flat-connections|holonomy correspondence]] therefore identifies isomorphism classes of flat bundles with [[algebra-groups/conjugacy-class|conjugacy classes]] of representations. Restricting to a fixed \(P\) selects only those representations whose associated flat bundle has the topological type of \(P\).
 
 For a closed oriented surface, the smooth irreducible locus inherits a symplectic form from the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott form]]; this surface-moduli geometry is treated in [Atiyah–Bott, §§6 and 9](https://doi.org/10.1098/rsta.1983.0017) and [Goldman, §§1–2](https://doi.org/10.1016/0001-8708%2884%2990040-9).
 

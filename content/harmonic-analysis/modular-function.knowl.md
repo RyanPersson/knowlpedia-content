@@ -18,7 +18,7 @@ satisfying
 =
 \Delta_G(g)^{-1}\int_G f(x)\,d\mu(x)
 \]
-for every \(g\in G\) and every compactly supported continuous \(f\). It is a continuous [[algebra-groups/group-homomorphism|group homomorphism]] and does not depend on rescaling \(\mu\). Thus \(\Delta_G\) measures precisely the failure of a left Haar measure to be invariant under right translations. The inverse in the displayed convention is important; some references define the reciprocal modular function.
+for every \(g\in G\) and every compactly supported continuous \(f\). It is a continuous [[algebra-groups/group-homomorphism|group homomorphism]] and does not depend on rescaling \(\mu\). Thus \(\Delta_G\) measures precisely the failure of a left Haar measure to be invariant under [[lie-groups/right-translation|right translations]]. The inverse in the displayed convention is important; some references define the reciprocal modular function.
 
 ## Measure-theoretic meaning
 
@@ -34,7 +34,7 @@ The group \(G\) is [[harmonic-analysis/unimodular-group|unimodular]] exactly whe
 
 ## Role in harmonic analysis
 
-The modular factor is required in the [[harmonic-analysis/convolution-involution|involution on a group convolution algebra]] and in unitary formulas involving right translation. It also enters induced representations and [[lie-groups/normalized-parabolic-induction|normalized parabolic induction]]. Ignoring it silently imports the unimodular case into formulas that are otherwise false.
+The modular factor is required in the [[harmonic-analysis/convolution-involution|involution on a group convolution algebra]] and in unitary formulas involving right translation. It also enters [[algebra-representation-theory/induced-representation|induced representations]] and [[lie-groups/normalized-parabolic-induction|normalized parabolic induction]]. Ignoring it silently imports the unimodular case into formulas that are otherwise false.
 
 This convention and its consequences for integration and convolution are treated in [Folland, §2.4](https://www.routledge.com/A-Course-in-Abstract-Harmonic-Analysis/Folland/p/book/9781032922218).
 

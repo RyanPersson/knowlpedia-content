@@ -20,7 +20,7 @@ where \(S(M,\tau)\) is the algebra of
 affiliated with \(M\). Its \(p\)-size is
 \(\lVert x\rVert_p=\tau(|x|^p)^{1/p}\). For \(p\geq1\) this is a complete
 norm; for \(0<p<1\) it is a complete quasinorm. By convention
-\(L^\infty(M,\tau)=M\) with the operator norm.
+\(L^\infty(M,\tau)=M\) with the [[linear-algebra/operator-norm|operator norm]].
 
 ## Products, duality, and interpolation
 
@@ -41,7 +41,7 @@ the expected complex interpolation scale. These results extend classical
 
 For \(M=L^\infty(X,\mu)\) and \(\tau(f)=\int_X f\,d\mu\), the construction is
 the classical \(L^p(X,\mu)\). For \(M=B(H)\) with its usual trace, it is the
-Schatten class: compact operators whose singular values form an
+Schatten class: [[linear-algebra/compact-operator|compact operators]] whose singular values form an
 \(\ell^p\)-sequence. In a
 [[operator-algebras/finite-von-neumann-algebra|finite von Neumann algebra]]
 with normalized trace, every bounded element belongs to every finite \(L^p\),
@@ -55,7 +55,7 @@ and completing the bounded finite-trace ideal in
 norm and realization depend on it. This semifinite construction should not be
 identified by definition with the
 [[operator-algebras/noncommutative-lp-space|Haagerup \(L^p(M)\) space]] of an
-arbitrary von Neumann algebra. When \(M\) is semifinite, however, the Haagerup
+arbitrary [[operator-algebras/von-neumann-algebra|von Neumann algebra]]. When \(M\) is semifinite, however, the Haagerup
 space is canonically isometric to the appropriate tracial construction. Also,
 \(\lVert\cdot\rVert_p\) is not a norm when \(0<p<1\).
 

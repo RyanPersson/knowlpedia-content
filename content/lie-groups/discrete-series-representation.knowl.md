@@ -8,7 +8,7 @@ domains = ["lie-groups", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a second-countable [[topology/locally-compact-group|locally compact group]] with left [[harmonic-analysis/haar-measure|Haar measure]]. A **discrete series representation** of \(G\) is an [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]] whose equivalence class occurs as a [[lie-groups/invariant-closed-subspace-unitary-representation|closed \(G\)-invariant subspace]] of the [[harmonic-analysis/regular-representations-locally-compact-group|left regular representation]] on \(L^2(G)\). Equivalently, it is an irreducible summand in the discrete part of that regular representation. The word “discrete” describes its occurrence as a Hilbert direct summand, not discreteness of the group, the representation space, or its parameter set.
+Let \(G\) be a second-countable [[topology/locally-compact-group|locally compact group]] with left [[harmonic-analysis/haar-measure|Haar measure]]. A **discrete series representation** of \(G\) is an [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]] whose [[shared-foundations/equivalence-class|equivalence class]] occurs as a [[lie-groups/invariant-closed-subspace-unitary-representation|closed \(G\)-invariant subspace]] of the [[harmonic-analysis/regular-representations-locally-compact-group|left regular representation]] on \(L^2(G)\). Equivalently, it is an irreducible summand in the discrete part of that [[algebra-representation-theory/regular-representation|regular representation]]. The word “discrete” describes its occurrence as a Hilbert direct summand, not discreteness of the group, the representation space, or its parameter set.
 
 ## Coefficient criterion
 

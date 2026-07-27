@@ -12,7 +12,7 @@ Let \((\mathcal A,H,D)\) be a [[noncommutative-geometry/spectral-triple|spectral
 \[
 L_D(a)=\lVert[D,a]\rVert,\qquad a\in\mathcal A,
 \]
-where \([D,a]\) denotes its [[functional-analysis/bounded-commutator|bounded extension]]. On a larger ambient \(C^*\)-algebra one may set \(L_D(a)=+\infty\) when no bounded extension exists. The triangle inequality and Leibniz estimate
+where \([D,a]\) denotes its [[functional-analysis/bounded-commutator|bounded extension]]. On a larger ambient \(C^*\)-algebra one may set \(L_D(a)=+\infty\) when no bounded extension exists. The [[real-analysis/triangle-inequality|triangle inequality]] and Leibniz estimate
 \[
 L_D(ab)\leq L_D(a)\lVert b\rVert+\lVert a\rVert L_D(b)
 \]
@@ -54,7 +54,7 @@ obtaining a genuine metric on all states.
 ## Conventions and scope
 
 Some authors define \(L_D\) only on the self-adjoint part of a dense
-order-unit space; others define it on the complex algebra and restrict only
+[[operator-algebras/order-unit-space|order-unit space]]; others define it on the complex algebra and restrict only
 when constructing a metric. “Lipschitz ball” may mean the unit ball itself,
 its image modulo scalars, or a norm-bounded slice. These sets have different
 compactness properties.

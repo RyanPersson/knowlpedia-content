@@ -28,7 +28,7 @@ Consequently \(\delta^2=0\). A form is called coclosed when \(\delta\beta=0\). O
 
 ## Relationship to the Hodge Laplacian
 
-The Hodge Laplacian is
+The [[differential-geometry/hodge-laplacian|Hodge Laplacian]] is
 \[
 \Delta=d\delta+\delta d.
 \]

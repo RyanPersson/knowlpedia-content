@@ -43,7 +43,7 @@ Conversely, every such [[quantum-foundations/density-operator|density
 operator]] defines a normal state.
 [[operator-algebras/vector-state|Vector states]]
 \(x\mapsto\langle x\xi,\xi\rangle\), with \(\|\xi\|=1\), correspond to
-rank-one density operators and are normal
+rank-one [[quantum-foundations/density-operator|density operators]] and are normal
 [Kadison–Ringrose, vol. II, §7.1](https://doi.org/10.1090/gsm/016).
 
 ## Distinctions

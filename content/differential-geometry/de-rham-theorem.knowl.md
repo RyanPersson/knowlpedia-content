@@ -22,7 +22,7 @@ is an isomorphism for every \(k\). Thus the cohomology of the [[differential-geo
 
 ## Naturality and products
 
-For a [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\), [[fiber-bundles/pullback-of-differential-forms|pullback of forms]] and pullback of singular cochains commute with the de Rham isomorphism. On cohomology, the isomorphism also identifies [[fiber-bundles/wedge-product-of-differential-forms|wedge products of forms]] with cup products, so it is an isomorphism of graded real algebras, not merely of graded vector spaces [Bott and Tu, Chapter I](https://doi.org/10.1007/978-1-4757-3951-0).
+For a [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\), [[fiber-bundles/pullback-of-differential-forms|pullback of forms]] and pullback of singular cochains commute with the de Rham isomorphism. On cohomology, the isomorphism also identifies [[fiber-bundles/wedge-product-of-differential-forms|wedge products of forms]] with cup products, so it is an isomorphism of graded real algebras, not merely of graded [[linear-algebra/vector-space|vector spaces]] [Bott and Tu, Chapter I](https://doi.org/10.1007/978-1-4757-3951-0).
 
 ## Proof architecture
 

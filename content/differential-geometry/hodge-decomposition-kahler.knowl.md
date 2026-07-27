@@ -33,7 +33,7 @@ and conjugation gives \(h^{p,q}=h^{q,p}\). In particular, every odd Betti number
 
 ## Scope and near-misses
 
-A compact complex manifold need not admit this decomposition. The [[differential-geometry/frolicher-spectral-sequence|Frölicher spectral sequence]] may have nonzero higher differentials, and even its degeneration does not by itself provide the harmonic splitting above. For noncompact Kähler manifolds, ordinary de Rham cohomology need not be represented by harmonic forms without additional analytic conditions.
+A compact [[differential-geometry/complex-manifold|complex manifold]] need not admit this decomposition. The [[differential-geometry/frolicher-spectral-sequence|Frölicher spectral sequence]] may have nonzero higher differentials, and even its degeneration does not by itself provide the harmonic splitting above. For noncompact Kähler manifolds, ordinary de Rham cohomology need not be represented by harmonic forms without additional analytic conditions.
 
 ## References
 

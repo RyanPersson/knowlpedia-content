@@ -52,7 +52,7 @@ sits inside larger operator algebras
 Every [[operator-algebras/nuclear-cstar-algebra|nuclear \(C^*\)-algebra]]
 has WEP. Also \(B(H)\) has WEP, witnessed by the identity map. These examples
 do not collapse the notions: WEP only asks for a bidual-valued retraction,
-whereas nuclearity requires agreement of minimal and maximal tensor products
+whereas nuclearity requires agreement of minimal and [[operator-algebras/maximal-cstar-tensor-product|maximal tensor products]]
 against every \(C^*\)-algebra.
 
 ## Conventions and scope

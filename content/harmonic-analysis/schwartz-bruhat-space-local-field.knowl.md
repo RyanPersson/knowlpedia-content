@@ -12,7 +12,7 @@ Let \(K\) be a locally compact nondiscrete field. The **Schwartz–Bruhat space*
 \[
 \mathcal S(K)=C_c^\infty(K),
 \]
-the complex-valued, locally constant, compactly supported functions on the additive group of \(K\). Equivalently, each such function is constant on cosets of some open fractional ideal and vanishes outside a compact set. This is the local-field specialization of the [[harmonic-analysis/schwartz-bruhat-space-lca|Schwartz–Bruhat space on a locally compact abelian group]].
+the complex-valued, locally constant, compactly supported functions on the additive group of \(K\). Equivalently, each such function is constant on cosets of some open fractional ideal and vanishes outside a [[topology/compact-set|compact set]]. This is the local-field specialization of the [[harmonic-analysis/schwartz-bruhat-space-lca|Schwartz–Bruhat space on a locally compact abelian group]].
 
 ## Fourier stability
 
@@ -28,7 +28,7 @@ If \(\mathcal O_K\) is the valuation ring, then its indicator \(1_{\mathcal O_K}
 
 ## Conventions and scope
 
-The notation \(C_c^\infty(K)\) in the nonarchimedean case does not refer to derivatives. “Smooth” there means locally constant, equivalently smooth for the action of the totally disconnected additive group. For \(K=\mathbb C\), rapid decay is measured on the underlying real vector space \(\mathbb R^2\).
+The notation \(C_c^\infty(K)\) in the nonarchimedean case does not refer to derivatives. “Smooth” there means locally constant, equivalently smooth for the action of the totally disconnected additive group. For \(K=\mathbb C\), rapid decay is measured on the underlying real [[linear-algebra/vector-space|vector space]] \(\mathbb R^2\).
 
 ## References
 

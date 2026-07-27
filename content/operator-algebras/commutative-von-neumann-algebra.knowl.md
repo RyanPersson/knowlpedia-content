@@ -25,12 +25,12 @@ associated measure algebra, not by a preferred point-set presentation of
 
 ## Projections and measure
 
-The projections in \(L^\infty(X,\mu)\) are the equivalence classes of
+The projections in \(L^\infty(X,\mu)\) are the [[shared-foundations/equivalence-class|equivalence classes]] of
 [[measure-theory/indicator-function|indicator functions]] \(1_E\) of
-measurable sets, where sets differing by a [[measure-theory/null-set|null
+[[measure-theory/measurable-set|measurable sets]], where sets differing by a [[measure-theory/null-set|null
 set]] define the same projection. Joins, meets, and complements of
 projections correspond to the Boolean operations on measurable sets modulo
-null sets. This complete projection lattice is the measure-theoretic skeleton
+[[measure-theory/null-set|null sets]]. This complete projection lattice is the measure-theoretic skeleton
 of the algebra.
 
 ## Atomic and diffuse parts
@@ -39,14 +39,14 @@ A commutative von Neumann algebra is atomic when every nonzero projection
 dominates a [[operator-algebras/minimal-projection|minimal projection]];
 typical examples are \(\ell^\infty(I)\).
 It is diffuse when it has no nonzero minimal projections, as for
-\(L^\infty([0,1])\) with Lebesgue measure. In general the algebra decomposes
+\(L^\infty([0,1])\) with [[measure-theory/lebesgue-measure|Lebesgue measure]]. In general the algebra decomposes
 canonically into central atomic and diffuse summands.
 
 ## Contrast with commutative C*-algebras
 
 A commutative \(C^*\)-algebra is described by continuous functions on a
-locally compact space, whereas a commutative von Neumann algebra is governed
-by essentially bounded measurable functions and is monotone complete. Its
+[[topology/locally-compact-space|locally compact space]], whereas a commutative von Neumann algebra is governed
+by essentially bounded [[measure-theory/measurable-function|measurable functions]] and is monotone complete. Its
 natural topology is the weak-star topology coming from its predual, not the
 uniform topology alone. This
 [[functional-analysis/weak-star-topology|weak-star topology]] and the extra

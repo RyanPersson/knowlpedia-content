@@ -28,7 +28,7 @@ the assertion that minimal tensoring introduces no additional kernel.
 ## Equivalent formulations
 
 It is enough to test canonical ideal–quotient sequences. For every closed
-two-sided ideal \(I\triangleleft B\), there is a canonical surjection
+[[algebra-rings/two-sided-ideal|two-sided ideal]] \(I\triangleleft B\), there is a canonical surjection
 \[
 (B\otimes_{\min}A)/(I\otimes_{\min}A)
 \longrightarrow (B/I)\otimes_{\min}A.

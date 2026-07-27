@@ -16,7 +16,7 @@ for all \(g\in G\) and \(v\in E\), where \(\lVert\cdot\rVert\) is any fixed alge
 
 ## The role of the three conditions
 
-Smoothness requires every orbit map \(g\mapsto\pi(g)v\) to be smooth. Admissibility is algebraic: \(E_K\) has finite \(K\)-multiplicities and is finitely generated over \(U(\mathfrak g)\). Moderate growth controls every defining seminorm uniformly by a polynomial scale on \(G\). Replacing the algebraic scale by an equivalent one does not change the condition. Bernstein and Krötz formulate these objects as smooth admissible moderate-growth Fréchet representations, the objects of their category \(\mathcal{SAF}\) [Bernstein–Krötz, Introduction and §1.3](https://doi.org/10.1007/s11856-013-0056-1).
+Smoothness requires every [[fiber-bundles/orbit-map|orbit map]] \(g\mapsto\pi(g)v\) to be smooth. Admissibility is algebraic: \(E_K\) has finite \(K\)-multiplicities and is finitely generated over \(U(\mathfrak g)\). Moderate growth controls every defining seminorm uniformly by a polynomial scale on \(G\). Replacing the algebraic scale by an equivalent one does not change the condition. Bernstein and Krötz formulate these objects as smooth admissible moderate-growth Fréchet representations, the objects of their category \(\mathcal{SAF}\) [Bernstein–Krötz, Introduction and §1.3](https://doi.org/10.1007/s11856-013-0056-1).
 
 ## Structure and consequences
 

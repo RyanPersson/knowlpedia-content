@@ -8,7 +8,7 @@ domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(H\subseteq G\) be a Lie subgroup, let \(i:Q\hookrightarrow P\) be a [[fiber-bundles/reduction-of-structure-group|reduction of structure group]] of a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\). The connection \(A\) is **compatible with the reduction** \(Q\) when its horizontal subspace at every \(q\in Q\) lies in \(T_qQ\). Equivalently, the restricted connection form \(i^*A\) takes values in the Lie algebra \(\mathfrak h\subseteq\mathfrak g\); then \(i^*A\), regarded as an \(\mathfrak h\)-valued form, is a principal \(H\)-connection on \(Q\).
+Let \(H\subseteq G\) be a [[lie-groups/lie-subgroup|Lie subgroup]], let \(i:Q\hookrightarrow P\) be a [[fiber-bundles/reduction-of-structure-group|reduction of structure group]] of a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\). The connection \(A\) is **compatible with the reduction** \(Q\) when its horizontal subspace at every \(q\in Q\) lies in \(T_qQ\). Equivalently, the restricted connection form \(i^*A\) takes values in the Lie algebra \(\mathfrak h\subseteq\mathfrak g\); then \(i^*A\), regarded as an \(\mathfrak h\)-valued form, is a principal \(H\)-connection on \(Q\).
 
 ## Restriction and extension
 

@@ -48,7 +48,7 @@ compact-group action available without discarding the full \(G\)-action.
 of \(G\) inside a fixed compactification. It denotes a canonical compact
 \(G\)-space with strong dynamical properties. This knowl uses the
 Lie-theoretic quotient \(G/P\) for the semisimple class in the core and does
-not define the broader dynamical boundary notion for locally compact groups.
+not define the broader dynamical boundary notion for [[topology/locally-compact-group|locally compact groups]].
 
 ## References
 

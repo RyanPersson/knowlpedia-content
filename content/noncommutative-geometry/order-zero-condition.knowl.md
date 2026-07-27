@@ -29,7 +29,7 @@ holds precisely because \(a\) commutes with \(b^\circ\). Thus the order-zero axi
 
 ## Example and near miss
 
-For the spin spectral triple of a compact manifold, both \(a\) and \(b^\circ\) act by multiplication by functions, so the condition holds.
+For the spin [[noncommutative-geometry/spectral-triple|spectral triple]] of a compact manifold, both \(a\) and \(b^\circ\) act by multiplication by functions, so the condition holds.
 
 By contrast, if \(J\) is chosen so that \(J\mathcal AJ^{-1}\) does not lie in the [[operator-algebras/commutant|commutant]] of \(\mathcal A\), then the displayed commutator can be nonzero. The data may still satisfy all spectral-triple axioms, but they do not define the required bimodule action and hence fail order zero.
 

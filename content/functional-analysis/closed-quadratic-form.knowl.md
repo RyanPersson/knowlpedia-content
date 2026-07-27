@@ -18,7 +18,7 @@ quadratic form is \(q[u]=\mathfrak a[u,u]\). It is **closed** if
 \|u\|_{\mathfrak a}=
 \bigl(\mathfrak a[u,u]+(1-m)\|u\|^2\bigr)^{1/2}.
 \]
-Replacing \(m\) by another lower bound gives an equivalent norm. Unlike a
+Replacing \(m\) by another [[shared-foundations/lower-bound|lower bound]] gives an equivalent norm. Unlike a
 [[functional-analysis/closed-linear-operator|closed operator]], a closed form
 is not defined by closure of the graph of the scalar-valued function \(q\).
 

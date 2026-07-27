@@ -16,12 +16,12 @@ product** is the surjective [[operator-algebras/star-homomorphism|
 \Lambda_A:A\rtimes_\alpha G\longrightarrow A\rtimes_{\alpha,r}G
 \]
 induced by the identity on the common dense convolution algebra
-\(C_c(G,A)\). It exists because the reduced norm is bounded above by the
+\(C_c(G,A)\). It exists because the reduced norm is [[real-analysis/bounded-above|bounded above]] by the
 universal crossed-product norm. Equivalently, \(\Lambda_A\) is the quotient
 associated with a faithful
 [[operator-algebras/regular-covariant-representation|regular covariant
 representation]] of \(A\); its kernel consists precisely of elements
-annihilated by that regular representation.
+annihilated by that [[algebra-representation-theory/regular-representation|regular representation]].
 
 ## Equality of the two completions
 
@@ -38,7 +38,7 @@ and it is injective exactly when \(G\) is amenable
 ## Functorial role
 
 The quotient compares two universal procedures applied to the same algebraic
-data. Every regular covariant representation factors through
+data. Every [[operator-algebras/regular-covariant-representation|regular covariant representation]] factors through
 \(A\rtimes_{\alpha,r}G\), whereas every covariant representation factors
 through the [[operator-algebras/full-crossed-product|full crossed product]].
 Consequently, any property that passes to quotients passes from the full

@@ -36,7 +36,7 @@ is given in
 
 If the target is nonempty, regular values are dense because a measure-zero
 subset cannot contain a coordinate-open set. Combined with the regular-level
-set theorem, Sard's theorem produces regular fibers and is the measure-theoretic
+set theorem, Sard's theorem produces [[differential-geometry/regular-level-set|regular fibers]] and is the measure-theoretic
 engine behind generic transversality arguments.
 
 For a constant map \(M\to N\) with \(\dim N>0\), its single image point is a
@@ -46,7 +46,7 @@ critical points in \(M\) is small.
 ## Conventions and scope
 
 **Warning.** “Almost every” here is a chartwise null-set statement, not a
-claim relative to a chosen probability measure. Manifolds with boundary can
+claim relative to a chosen [[probability/probability-measure|probability measure]]. Manifolds with boundary can
 be treated by extension or by applying the theorem separately to boundary
 strata, but the core states the boundaryless form. Infinite-dimensional
 manifolds require different regular-value theorems and are not covered.

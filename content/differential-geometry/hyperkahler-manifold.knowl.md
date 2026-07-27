@@ -12,7 +12,7 @@ A **hyperkähler manifold** is a [[differential-geometry/riemannian-manifold|Rie
 \[
 \nabla I=\nabla J=\nabla K=0
 \]
-for the [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]] \(\nabla\) of \(g\). Thus \((M,I,J,K,g)\) is [[differential-geometry/hyperhermitian-manifold|hyper-Hermitian]], and each pair \((g,I)\), \((g,J)\), and \((g,K)\) is Kähler. The ordered triple and metric are part of the structure. Equivalently, one may require the three fundamental forms \(\omega_I,\omega_J,\omega_K\) to be closed. No compactness, simple connectedness, or irreducibility hypothesis is included.
+for the [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]] \(\nabla\) of \(g\). Thus \((M,I,J,K,g)\) is [[differential-geometry/hyperhermitian-manifold|hyper-Hermitian]], and each pair \((g,I)\), \((g,J)\), and \((g,K)\) is Kähler. The ordered triple and metric are part of the structure. Equivalently, one may require the three [[differential-geometry/fundamental-form-almost-hermitian|fundamental forms]] \(\omega_I,\omega_J,\omega_K\) to be closed. No compactness, simple connectedness, or irreducibility hypothesis is included.
 
 ## Holonomy and complex-symplectic structure
 

@@ -31,7 +31,7 @@ is a positive-definite Hermitian form. The orthogonality and positivity conditio
 
 ## Cohomological construction
 
-For a compact [[differential-geometry/kahler-manifold|Kähler manifold]] with a rational [[differential-geometry/kahler-class|Kähler class]], each primitive cohomology group becomes polarized after the signed intersection pairing is normalized by the factor \((-1)^{n(n-1)/2}\) appropriate to its weight. Lefschetz decomposition then expresses the full cohomology as a sum of polarized primitive pieces.
+For a compact [[differential-geometry/kahler-manifold|Kähler manifold]] with a rational [[differential-geometry/kahler-class|Kähler class]], each [[differential-geometry/primitive-cohomology|primitive cohomology]] group becomes polarized after the signed intersection pairing is normalized by the factor \((-1)^{n(n-1)/2}\) appropriate to its weight. Lefschetz decomposition then expresses the full cohomology as a sum of polarized primitive pieces.
 
 ## Conventions and near-misses
 

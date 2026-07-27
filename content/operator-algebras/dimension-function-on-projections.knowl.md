@@ -15,7 +15,7 @@ on projections** is a map
 d:\mathcal P(M)\longrightarrow[0,\infty]
 \]
 that is invariant under
-[[operator-algebras/murray-von-neumann-equivalence|Murray–von Neumann equivalence]], additive on orthogonal projections, faithful
+[[operator-algebras/murray-von-neumann-equivalence|Murray–von Neumann equivalence]], additive on [[linear-algebra/orthogonal-projection|orthogonal projections]], faithful
 \((d(p)=0\Rightarrow p=0)\), and normal:
 \[
 p_i\uparrow p\quad\Longrightarrow\quad d(p_i)\uparrow d(p).

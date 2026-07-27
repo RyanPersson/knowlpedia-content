@@ -34,11 +34,11 @@ If \(f:B'\to B\) is a map from another paracompact Hausdorff base, the pullback 
 \[
 u_{f^*E}=\widetilde f^{\,*}u_E,
 \]
-where \(\widetilde f:f^*E\to E\) is the canonical bundle map. These statements are the Thom isomorphism theorem in [Milnor and Stasheff, Chapters 9–10](https://doi.org/10.1515/9781400881826).
+where \(\widetilde f:f^*E\to E\) is the canonical [[fiber-bundles/bundle-map|bundle map]]. These statements are the [[fiber-bundles/thom-isomorphism-theorem|Thom isomorphism theorem]] in [Milnor and Stasheff, Chapters 9–10](https://doi.org/10.1515/9781400881826).
 
 ## Models and examples
 
-After choosing a bundle metric, excision identifies the defining group with \(H^r(D(E),S(E);\mathbb Z)\), where \(D(E)\) and \(S(E)\) are the disk and [[fiber-bundles/sphere-bundle|sphere bundles]]. For the trivial oriented bundle \(B\times\mathbb R^r\), the Thom class is the exterior product of \(1\in H^0(B;\mathbb Z)\) with the preferred generator of \(H^r(\mathbb R^r,\mathbb R^r\setminus\{0\};\mathbb Z)\).
+After choosing a [[fiber-bundles/bundle-metric|bundle metric]], excision identifies the defining group with \(H^r(D(E),S(E);\mathbb Z)\), where \(D(E)\) and \(S(E)\) are the disk and [[fiber-bundles/sphere-bundle|sphere bundles]]. For the trivial oriented bundle \(B\times\mathbb R^r\), the Thom class is the exterior product of \(1\in H^0(B;\mathbb Z)\) with the preferred generator of \(H^r(\mathbb R^r,\mathbb R^r\setminus\{0\};\mathbb Z)\).
 
 Pulling \(u_E\) back along the zero section produces the Euler class. More generally, transverse sections represent this class geometrically through their zero loci.
 

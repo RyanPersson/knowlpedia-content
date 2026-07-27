@@ -35,7 +35,7 @@ for a \(*\)-representation \(\pi\) are completely positive. This distinction is 
 
 ## Order and norm behavior
 
-A positive map is order preserving on self-adjoint elements: \(a\leq b\) implies \(\Phi(a)\leq\Phi(b)\). A unital positive map sends every self-adjoint contraction to a self-adjoint contraction. Stronger Schwarz inequalities require stronger hypotheses: the Kadison inequality for a unital positive map applies to self-adjoint elements, while the full inequality \(\Phi(a)^*\Phi(a)\leq\Phi(a^*a)\) follows from unital \(2\)-positivity.
+A positive map is order preserving on self-adjoint elements: \(a\leq b\) implies \(\Phi(a)\leq\Phi(b)\). A unital positive map sends every self-adjoint contraction to a self-adjoint contraction. Stronger Schwarz inequalities require stronger hypotheses: the [[operator-algebras/kadison-schwarz-inequality|Kadison inequality]] for a unital positive map applies to self-adjoint elements, while the full inequality \(\Phi(a)^*\Phi(a)\leq\Phi(a^*a)\) follows from unital \(2\)-positivity.
 
 ## References
 

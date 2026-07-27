@@ -12,8 +12,8 @@ A [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(A\) is **liminal**, or *
 \[
 \pi(A)=K(H_\pi),
 \]
-the [[operator-algebras/compact-operator-cstar-algebra|compact operators]] on its representation space. Irreducible representations are understood to be nonzero and nondegenerate. Thus every irreducible quotient of \(A\), viewed through its faithful irreducible representation, is an [[operator-algebras/elementary-cstar-algebra|elementary \(C^*\)-algebra]].
-The defining equality is stronger than requiring the irreducible image merely to contain the compact operators.
+the [[operator-algebras/compact-operator-cstar-algebra|compact operators]] on its representation space. [[algebra-representation-theory/irreducible-representation|Irreducible representations]] are understood to be nonzero and nondegenerate. Thus every irreducible quotient of \(A\), viewed through its faithful irreducible representation, is an [[operator-algebras/elementary-cstar-algebra|elementary \(C^*\)-algebra]].
+The defining equality is stronger than requiring the irreducible image merely to contain the [[linear-algebra/compact-operator|compact operators]].
 
 ## Relation to type I
 
@@ -25,7 +25,7 @@ For example, \(K(H)+\mathbb C1\) on an infinite-dimensional \(H\) is type I but 
 
 Every commutative \(C^*\)-algebra is liminal: its irreducible representations are one-dimensional, and \(K(\mathbb C)=\mathbb C\). Every elementary algebra is liminal as well.
 
-Closed two-sided ideals and quotients of a liminal algebra are liminal. Extensions of liminal algebras, however, require care; the class is not characterized merely by having liminal ideal and quotient without additional hypotheses.
+Closed [[algebra-rings/two-sided-ideal|two-sided ideals]] and quotients of a liminal algebra are liminal. Extensions of liminal algebras, however, require care; the class is not characterized merely by having liminal ideal and quotient without additional hypotheses.
 
 ## Representation-theoretic meaning
 

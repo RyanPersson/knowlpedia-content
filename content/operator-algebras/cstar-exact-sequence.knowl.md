@@ -25,7 +25,7 @@ ideal and \(B\) is the quotient.
 
 ## Canonical ideal–quotient sequence
 
-Every closed two-sided ideal \(I\triangleleft A\) gives the exact sequence
+Every closed [[algebra-rings/two-sided-ideal|two-sided ideal]] \(I\triangleleft A\) gives the exact sequence
 \[
 0\longrightarrow I\longrightarrow A\longrightarrow A/I
 \longrightarrow 0.
@@ -62,7 +62,7 @@ For any \(C^*\)-algebra \(I\), its embedding as an essential ideal in
 0\longrightarrow I\longrightarrow M(I)
 \longrightarrow M(I)/I\longrightarrow 0.
 \]
-The quotient \(M(I)/I\) is the corona algebra. Extensions with ideal \(I\)
+The quotient \(M(I)/I\) is the [[operator-algebras/corona-algebra|corona algebra]]. Extensions with ideal \(I\)
 can often be encoded by homomorphisms from the quotient algebra into this
 corona algebra.
 

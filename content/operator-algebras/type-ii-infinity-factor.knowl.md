@@ -18,7 +18,7 @@ The defining distinction from a [[operator-algebras/type-iii-factor|type III fac
 
 ## Examples and non-examples
 
-If \(N\) is a type \(\mathrm{II}_1\) factor and \(H\) is an infinite-dimensional Hilbert space, then
+If \(N\) is a type \(\mathrm{II}_1\) factor and \(H\) is an infinite-dimensional [[linear-algebra/hilbert-space|Hilbert space]], then
 \[
 N\mathbin{\overline{\otimes}}B(H)
 \]

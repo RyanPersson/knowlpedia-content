@@ -16,7 +16,7 @@ The metric assigns each tangent vector a length \(\lVert v\rVert_g=\sqrt{g(v,v)}
 \[
 L_g(\gamma)=\int \sqrt{g_{\gamma(t)}(\dot\gamma(t),\dot\gamma(t))}\,dt.
 \]
-Taking the infimum of curve lengths gives the Riemannian distance on each connected component. The metric also identifies \(TM\) with the [[fiber-bundles/cotangent-bundle|cotangent bundle]] and determines a canonical volume density; an orientation turns this density into a volume form.
+Taking the infimum of curve lengths gives the Riemannian distance on each [[topology/connected-component|connected component]]. The metric also identifies \(TM\) with the [[fiber-bundles/cotangent-bundle|cotangent bundle]] and determines a canonical volume density; an orientation turns this density into a volume form.
 
 ## Canonical connection and curvature
 
@@ -24,7 +24,7 @@ Every Riemannian metric has a unique torsion-free, metric-compatible connection,
 
 ## Examples and scope
 
-The Euclidean metric \(\sum_i dx^i\otimes dx^i\) is the standard example on \(\mathbb R^n\). An immersion into Euclidean space pulls this metric back to a Riemannian metric when its differential is injective. Positive definiteness distinguishes Riemannian metrics from pseudo-Riemannian metrics, whose nondegenerate symmetric forms may have mixed signature. Smoothness is essential: an arbitrary choice of an inner product on each [[differential-geometry/tangent-space|tangent space]] does not necessarily define a Riemannian metric.
+The Euclidean metric \(\sum_i dx^i\otimes dx^i\) is the standard example on \(\mathbb R^n\). An immersion into [[linear-algebra/euclidean-space|Euclidean space]] pulls this metric back to a Riemannian metric when its differential is injective. Positive definiteness distinguishes Riemannian metrics from pseudo-Riemannian metrics, whose nondegenerate symmetric forms may have mixed signature. Smoothness is essential: an arbitrary choice of an inner product on each [[differential-geometry/tangent-space|tangent space]] does not necessarily define a Riemannian metric.
 
 ## References
 

@@ -12,7 +12,7 @@ Let \((\mathcal A,\mathcal N,D,\tau)\) be a regular, finitely [[noncommutative-g
 
 ## Residue structure
 
-The formula replaces ordinary traces in the [[noncommutative-geometry/local-index-formula|Connes–Moscovici local index formula]] by the chosen [[operator-algebras/faithful-normal-semifinite-trace|faithful normal semifinite trace]] \(\tau\). Its cochains are finite linear combinations of residues of zeta functions having the schematic form
+The formula replaces ordinary traces in the [[noncommutative-geometry/local-index-formula|Connes–Moscovici local index formula]] by the chosen [[operator-algebras/faithful-normal-semifinite-trace|faithful normal semifinite trace]] \(\tau\). Its cochains are finite [[convex-analysis/linear-combination|linear combinations]] of residues of zeta functions having the schematic form
 \[
 z\longmapsto
 \tau\!\left(
@@ -34,7 +34,7 @@ When \(\mathcal N=B(H)\) and \(\tau\) is the ordinary trace, the formula special
 
 **Warning.** Regularity and tau-summability alone do not guarantee the meromorphic continuation needed to take residues. An isolated or discrete dimension-spectrum condition is an additional hypothesis. Multiple poles require higher residue functionals, and nonunital triples require local hypotheses and often a unitization.
 
-The theorem identifies cyclic-cohomology classes or their pairings; differently normalized residue representatives may differ by coboundaries. Sign conventions for spectral flow and the odd index pairing must be coordinated.
+The theorem identifies cyclic-cohomology classes or their pairings; differently normalized residue representatives may differ by coboundaries. Sign conventions for spectral flow and the [[noncommutative-geometry/odd-index-pairing|odd index pairing]] must be coordinated.
 
 ## References
 

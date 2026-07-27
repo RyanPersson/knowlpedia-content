@@ -30,7 +30,7 @@ R)\) but has noncompact support.
 ## Spectrum and unitization
 
 The characters of \(C_0(X)\) are precisely the evaluation maps
-\(f\mapsto f(x)\) for \(x\in X\). Thus locally compact Gelfand duality
+\(f\mapsto f(x)\) for \(x\in X\). Thus locally compact [[operator-algebras/gelfand-duality|Gelfand duality]]
 recovers \(X\) as the character space of \(C_0(X)\). When \(X\) is
 noncompact, the [[operator-algebras/unitization|minimal unitization]] of
 \(C_0(X)\) is naturally isomorphic to the continuous functions on the
@@ -38,7 +38,7 @@ one-point compactification of \(X\).
 
 ## Why it is canonical
 
-The passage \(X\mapsto C_0(X)\) converts proper continuous maps contravariantly
+The passage \(X\mapsto C_0(X)\) converts proper [[topology/continuous-map|continuous maps]] contravariantly
 into nondegenerate \(*\)-homomorphisms. It is the locally compact,
 generally nonunital counterpart of the compact-space algebra \(C(X)\), and
 is the basic commutative model for ideals, spectra, and

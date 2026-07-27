@@ -8,7 +8,7 @@ domains = ["operator-algebras", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a [[topology/locally-compact-group|locally compact group]] and let \(\lambda\) be its left regular representation. Since the universal norm on \(C_c(G)\) dominates the norm \(f\mapsto\|\lambda(f)\|\), the assignment \(f\mapsto\lambda(f)\) extends uniquely from the [[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]] to the [[operator-algebras/reduced-group-cstar-algebra|reduced group \(C^*\)-algebra]] as a surjective \(*\)-homomorphism
+Let \(G\) be a [[topology/locally-compact-group|locally compact group]] and let \(\lambda\) be its left [[algebra-representation-theory/regular-representation|regular representation]]. Since the universal norm on \(C_c(G)\) dominates the norm \(f\mapsto\|\lambda(f)\|\), the assignment \(f\mapsto\lambda(f)\) extends uniquely from the [[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]] to the [[operator-algebras/reduced-group-cstar-algebra|reduced group \(C^*\)-algebra]] as a surjective \(*\)-homomorphism
 \[
 q_G\colon C^*(G)\longrightarrow C_r^*(G).
 \]
@@ -20,7 +20,7 @@ A [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representati
 
 ## When the quotient is an isomorphism
 
-The map \(q_G\) is an isomorphism exactly when \(G\) is [[harmonic-analysis/amenable-locally-compact-group|amenable]]. Without that hypothesis, its kernel can be nonzero; consequently, the notation “the group \(C^*\)-algebra” should not be used to identify the full and reduced completions. For example, nonabelian free groups give standard cases in which the quotient is not injective [Brown–Ozawa, Chapter 2](https://doi.org/10.1090/gsm/088).
+The map \(q_G\) is an isomorphism exactly when \(G\) is [[harmonic-analysis/amenable-locally-compact-group|amenable]]. Without that hypothesis, its kernel can be nonzero; consequently, the notation “the group \(C^*\)-algebra” should not be used to identify the full and reduced completions. For example, nonabelian [[algebra-groups/free-group|free groups]] give standard cases in which the quotient is not injective [Brown–Ozawa, Chapter 2](https://doi.org/10.1090/gsm/088).
 
 ## References
 

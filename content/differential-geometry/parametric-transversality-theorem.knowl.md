@@ -35,7 +35,7 @@ This reduction is presented in
 If \(S=\{y\}\), the theorem says that almost every member of a family is
 transverse to the point \(y\), hence has \(y\) as a
 [[fiber-bundles/regular-value|regular value]]. Translation
-families in Euclidean space give a standard application: once the total
+families in [[linear-algebra/euclidean-space|Euclidean space]] give a standard application: once the total
 evaluation map is a submersion, almost every translate meets a fixed
 submanifold transversely.
 

@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(A\) be an [[operator-algebras/involutive-algebra|involutive algebra]]
 and \(H\) a [[linear-algebra/hilbert-space|Hilbert space]]. A **bounded
-\(*\)-representation** of \(A\) on \(H\) is an algebra homomorphism into the
+\(*\)-representation** of \(A\) on \(H\) is an [[algebra-modules/algebra-homomorphism|algebra homomorphism]] into the
 [[operator-algebras/bounded-operator-cstar-algebra|bounded-operator algebra]]
 \(\mathcal B(H)\):
 \[
@@ -37,9 +37,9 @@ be continuous as a map from \(A\); continuity must be imposed if the phrase
 The essential subspace \(H_{\mathrm{ess}}=\overline{\pi(A)H}\) is reducing
 for \(\pi\). Restriction to it is nondegenerate, while \(\pi\) vanishes on
 \(H_{\mathrm{ess}}^\perp\). If \(A\) is unital, a unital representation is
-nondegenerate. Conversely, a nondegenerate representation satisfies
+nondegenerate. Conversely, a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] satisfies
 \(\pi(1_A)=I_H\), so the two conditions agree in the unital case. A
-degenerate representation may send \(1_A\) to a proper orthogonal projection.
+degenerate representation may send \(1_A\) to a proper [[linear-algebra/orthogonal-projection|orthogonal projection]].
 
 ## Distinction from unbounded representations
 

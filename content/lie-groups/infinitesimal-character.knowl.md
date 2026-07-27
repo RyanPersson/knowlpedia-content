@@ -8,7 +8,7 @@ domains = ["lie-groups", "algebra-representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(\mathfrak g\) be a complex [[lie-groups/lie-algebra|Lie algebra]] and let \(V\) be a module over its [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]]. An **infinitesimal character** of \(V\) is a unital algebra homomorphism from [[lie-groups/center-of-universal-enveloping-algebra|the center of \(U(\mathfrak g)\)]] to \(\mathbb C\),
+Let \(\mathfrak g\) be a complex [[lie-groups/lie-algebra|Lie algebra]] and let \(V\) be a module over its [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]]. An **infinitesimal character** of \(V\) is a unital [[algebra-modules/algebra-homomorphism|algebra homomorphism]] from [[lie-groups/center-of-universal-enveloping-algebra|the center of \(U(\mathfrak g)\)]] to \(\mathbb C\),
 \[
 \chi:Z(U(\mathfrak g))\longrightarrow\mathbb C,
 \]
@@ -28,7 +28,7 @@ An arbitrary module need not have an infinitesimal character: central elements m
 
 ## Relation to global characters
 
-If an admissible representation has infinitesimal character \(\chi\), its [[lie-groups/global-character-of-an-admissible-representation|global character]] is a joint eigendistribution for the invariant differential operators corresponding to the center, with eigenvalues prescribed by \(\chi\). Infinitesimal and global characters are therefore related but are not the same kind of object.
+If an [[lie-groups/admissible-representation-real-reductive-group|admissible representation]] has infinitesimal character \(\chi\), its [[lie-groups/global-character-of-an-admissible-representation|global character]] is a joint eigendistribution for the invariant differential operators corresponding to the center, with eigenvalues prescribed by \(\chi\). Infinitesimal and global characters are therefore related but are not the same kind of object.
 
 ## References
 

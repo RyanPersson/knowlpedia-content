@@ -21,11 +21,11 @@ through an isomorphism that identifies \(\iota\) with inclusion of the first sum
 
 ## Proof idea
 
-Paracompactness provides a [[fiber-bundles/bundle-metric|bundle metric]] on \(E\). The image \(\iota(E')\) is a subbundle, and its fiberwise orthogonal complement \(\iota(E')^\perp\) is another subbundle. The restriction
+Paracompactness provides a [[fiber-bundles/bundle-metric|bundle metric]] on \(E\). The image \(\iota(E')\) is a subbundle, and its fiberwise [[linear-algebra/orthogonal-complement|orthogonal complement]] \(\iota(E')^\perp\) is another subbundle. The restriction
 \[
 q|_{\iota(E')^\perp}:\iota(E')^\perp\longrightarrow E''
 \]
-is a fiberwise isomorphism and hence a bundle isomorphism. Its inverse, followed by the inclusion into \(E\), is the required right inverse \(s\) [Husemoller, chapter 3](https://doi.org/10.1007/978-1-4757-2261-1).
+is a fiberwise isomorphism and hence a [[fiber-bundles/bundle-isomorphism|bundle isomorphism]]. Its inverse, followed by the inclusion into \(E\), is the required right inverse \(s\) [Husemoller, chapter 3](https://doi.org/10.1007/978-1-4757-2261-1).
 
 Different bundle metrics generally produce different complements. The resulting direct-sum decompositions are therefore auxiliary choices rather than additional structure carried by the original exact sequence.
 
@@ -33,7 +33,7 @@ Different bundle metrics generally produce different complements. The resulting 
 
 Every [[fiber-bundles/vector-subbundle|vector subbundle]] \(F\subseteq E\) over a paracompact base has a complementary subbundle \(F^\perp\) with \(E\cong F\oplus F^\perp\). On sections, a chosen splitting decomposes each section of \(E\) into components in the two summands.
 
-**Warning.** This is a theorem in the topological or smooth vector-bundle category. A short exact sequence of holomorphic vector bundles need not split holomorphically, because a smooth orthogonal complement need not be a holomorphic subbundle. Paracompactness is also doing real work: it is what guarantees the global metric used in the proof.
+**Warning.** This is a theorem in the topological or smooth vector-bundle category. A [[algebra-modules/short-exact-sequence|short exact sequence]] of [[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundles]] need not split holomorphically, because a smooth orthogonal complement need not be a holomorphic subbundle. Paracompactness is also doing real work: it is what guarantees the global metric used in the proof.
 
 ## References
 

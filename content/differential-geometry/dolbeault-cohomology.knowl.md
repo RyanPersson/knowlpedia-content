@@ -14,12 +14,12 @@ H_{\bar\partial}^{p,q}(X)
 =\frac{\ker\bigl(\bar\partial:\Omega^{p,q}(X)\to\Omega^{p,q+1}(X)\bigr)}
 {\operatorname{im}\bigl(\bar\partial:\Omega^{p,q-1}(X)\to\Omega^{p,q}(X)\bigr)}
 \]
-of the [[differential-geometry/dolbeault-complex|Dolbeault complex]] in degree \(q\). Its elements are classes of smooth \(\bar\partial\)-closed \((p,q)\)-forms, with two representatives equivalent when their difference is \(\bar\partial\)-exact. This is a complex vector space depending only on the complex structure of \(X\), not on a chosen Hermitian metric.
+of the [[differential-geometry/dolbeault-complex|Dolbeault complex]] in degree \(q\). Its elements are classes of smooth \(\bar\partial\)-closed \((p,q)\)-forms, with two representatives equivalent when their difference is \(\bar\partial\)-exact. This is a complex [[linear-algebra/vector-space|vector space]] depending only on the complex structure of \(X\), not on a chosen [[fiber-bundles/hermitian-metric|Hermitian metric]].
 Both bidegrees are part of the invariant and must be specified.
 
 ## Sheaf-cohomological interpretation
 
-The Dolbeault theorem gives a natural isomorphism
+The Dolbeault theorem gives a [[algebra-category-theory/natural-isomorphism|natural isomorphism]]
 \[
 H_{\bar\partial}^{p,q}(X)\cong H^q(X,\Omega_X^p),
 \]

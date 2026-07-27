@@ -16,7 +16,7 @@ is well defined. The **Maslov class of the Lagrangian Grassmannian** is
 \[
 \mu_\Lambda=(\det^2)^*\eta\in H^1(\Lambda(n);\mathbb Z),
 \]
-where \(\eta\) is the positively oriented generator of \(H^1(S^1;\mathbb Z)\). The map \(\det^2\) induces an isomorphism on fundamental groups, so \(\mu_\Lambda\) is a generator of \(H^1(\Lambda(n);\mathbb Z)\) [Arnol'd, 1967](https://doi.org/10.1007/BF01079201). The sign is fixed by declaring counterclockwise rotation of a Lagrangian line through a half-turn to have value \(+1\).
+where \(\eta\) is the positively oriented generator of \(H^1(S^1;\mathbb Z)\). The map \(\det^2\) induces an isomorphism on [[topology/fundamental-group|fundamental groups]], so \(\mu_\Lambda\) is a generator of \(H^1(\Lambda(n);\mathbb Z)\) [Arnol'd, 1967](https://doi.org/10.1007/BF01079201). The sign is fixed by declaring counterclockwise rotation of a Lagrangian line through a half-turn to have value \(+1\).
 
 ## Evaluation on loops
 

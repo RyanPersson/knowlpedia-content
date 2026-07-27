@@ -37,7 +37,7 @@ example.
 ## Sequential and strictly positive cases
 
 An approximate identity need not be a sequence. A \(C^*\)-algebra admits a
-countable approximate identity precisely when it is \(\sigma\)-unital. If
+[[operator-algebras/sigma-unital-cstar-algebra|countable approximate identity]] precisely when it is \(\sigma\)-unital. If
 \(h\in A\) is strictly positive, suitable continuous functions of \(h\), such
 as \(h(h+1/n)^{-1}\) in the
 [[operator-algebras/unitization|unitization]], form a sequential approximate

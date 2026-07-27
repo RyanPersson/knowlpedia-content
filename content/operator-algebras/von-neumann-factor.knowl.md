@@ -19,11 +19,11 @@ This condition means that \(M\) cannot be decomposed as a nontrivial direct
 sum along central projections. It does not mean that \(M\) has no proper
 norm-closed ideals as a \(C^*\)-algebra; for example, \(B(H)\) on an
 infinite-dimensional [[linear-algebra/hilbert-space|Hilbert space]] is a
-factor but contains the compact operators as a proper norm-closed ideal.
+factor but contains the [[linear-algebra/compact-operator|compact operators]] as a proper norm-closed ideal.
 
 ## Closed ideals and central decomposition
 
-Ultraweakly closed two-sided ideals in a von Neumann algebra have the form
+Ultraweakly closed [[algebra-rings/two-sided-ideal|two-sided ideals]] in a von Neumann algebra have the form
 \(Mz\) for central projections \(z\). Hence a factor has no nonzero proper
 ultraweakly closed two-sided ideals. General von Neumann algebras can often be
 analyzed as direct integrals of factors, with their centers supplying the

@@ -17,7 +17,7 @@ order. The **Marcinkiewicz–Macaev ideal** is
 =\left\{T:\sup_{N\geq 1}\frac{1}{\log(1+N)}
 \sum_{n=1}^{N}\mu_n(T)<\infty\right\}.
 \]
-The displayed supremum defines an equivalent standard ideal norm. This logarithmic Marcinkiewicz ideal, often denoted \(\mathcal L^{(1,\infty)}\), is a two-sided symmetric operator ideal. Its condition controls Cesàro-type partial sums rather than each individual singular value.
+The displayed supremum defines an equivalent standard ideal norm. This logarithmic Marcinkiewicz ideal, often denoted \(\mathcal L^{(1,\infty)}\), is a two-sided symmetric operator ideal. Its condition controls Cesàro-type [[real-analysis/partial-sums|partial sums]] rather than each individual singular value.
 
 ## Comparison with the weak Schatten endpoint
 
@@ -37,7 +37,7 @@ For \(T\geq0\) in \(\mathcal M_{1,\infty}\), the logarithmic means
 \[
 \frac{1}{\log(1+N)}\sum_{n=1}^{N}\mu_n(T)
 \]
-form a bounded sequence. Applying a suitably invariant generalized limit gives a [[operator-algebras/dixmier-trace|Dixmier trace]]. This trace vanishes on trace-class operators and can detect the coefficient of critical logarithmic divergence. Membership in the ideal does not by itself make the value independent of the chosen generalized limit; that independence is an additional measurability property.
+form a [[real-analysis/bounded-sequence|bounded sequence]]. Applying a suitably invariant generalized limit gives a [[operator-algebras/dixmier-trace|Dixmier trace]]. This trace vanishes on trace-class operators and can detect the coefficient of critical logarithmic divergence. Membership in the ideal does not by itself make the value independent of the chosen generalized limit; that independence is an additional measurability property.
 
 ## Conventions and scope
 

@@ -28,7 +28,7 @@ The evaluation pairing sends a top-degree cohomology class \(a\) to
 \[
 \langle a,[M]\rangle\in R.
 \]
-Cap product with \([M]\) is the map underlying Poincaré duality. Products of characteristic classes evaluated in this way produce [[fiber-bundles/characteristic-number|characteristic numbers]], while the Euler class of \(TM\) evaluates to the Euler characteristic under the usual hypotheses.
+Cap product with \([M]\) is the map underlying Poincaré duality. Products of [[fiber-bundles/characteristic-class|characteristic classes]] evaluated in this way produce [[fiber-bundles/characteristic-number|characteristic numbers]], while the Euler class of \(TM\) evaluates to the Euler characteristic under the usual hypotheses.
 
 ## Examples and orientation dependence
 

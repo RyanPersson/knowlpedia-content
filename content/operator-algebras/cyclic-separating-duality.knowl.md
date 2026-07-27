@@ -37,7 +37,7 @@ so \(\xi\) is separating for \(M'\).
 
 Conversely, let \(p\) be the
 [[linear-algebra/orthogonal-projection|orthogonal projection]] onto
-\(\overline{M\xi}\). This subspace and its orthogonal complement are
+\(\overline{M\xi}\). This subspace and its [[linear-algebra/orthogonal-complement|orthogonal complement]] are
 invariant under every unitary in \(M\), hence \(p\in M'\). If \(\xi\) is
 separating for \(M'\), then \((1-p)\xi=0\) implies \(p=1\), so
 \(\overline{M\xi}=H\). Interchanging \(M\) and \(M'\), and using

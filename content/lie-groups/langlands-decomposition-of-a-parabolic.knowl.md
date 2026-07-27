@@ -26,7 +26,7 @@ diffeomorphism under the standard normalization of the factors.
 
 ## Construction from restricted roots
 
-Choose the subset of simple restricted roots defining \(P\). The Lie algebra
+Choose the subset of simple restricted roots defining \(P\). The [[lie-groups/lie-algebra|Lie algebra]]
 \(\mathfrak a_P\) is the common kernel in \(\mathfrak a\) of those roots,
 \(A=\exp(\mathfrak a_P)\), and \(\mathfrak n\) is the sum of the positive
 restricted-root spaces not belonging to the Levi subsystem. The remaining

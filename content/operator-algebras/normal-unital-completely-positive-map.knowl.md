@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(M\) and \(N\) be unital [[operator-algebras/von-neumann-algebra|von
-Neumann algebras]]. A linear map \(\Phi:M\to N\) is a **normal unital
+Neumann algebras]]. A [[linear-algebra/linear-map|linear map]] \(\Phi:M\to N\) is a **normal unital
 completely positive map**, or **normal UCP map**, if it is a
 [[operator-algebras/normal-completely-positive-map|normal completely positive
 map]] and is also a
@@ -25,7 +25,7 @@ normal UCP map is not required to be multiplicative or invertible.
 
 ## Basic properties
 
-A normal UCP map is contractive and satisfies the Kadison–Schwarz inequality
+A normal UCP map is contractive and satisfies the [[operator-algebras/kadison-schwarz-inequality|Kadison–Schwarz inequality]]
 \[
 \Phi(x)^*\Phi(x)\leq\Phi(x^*x).
 \]
@@ -37,7 +37,7 @@ increasing limits and preduals
 ## Examples
 
 Normal unital [[operator-algebras/star-homomorphism|\(*\)-homomorphisms]] and
-normal conditional expectations are normal UCP. On \(M_n(\mathbb C)\), the map
+[[operator-algebras/normal-conditional-expectation|normal conditional expectations]] are normal UCP. On \(M_n(\mathbb C)\), the map
 \[
 \Phi(x)=t x+(1-t)\operatorname{tr}_n(x)1
 \qquad(0\leq t\leq1)

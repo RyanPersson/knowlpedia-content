@@ -16,16 +16,16 @@ Equivalently, it is the norm transported from the [[functional-analysis/graph-of
 
 ## Completeness and closedness
 
-If \(X\) and \(Y\) are Banach spaces, then \(T\) is closed exactly when \((D(T),\lVert\cdot\rVert_T)\) is a Banach space. Indeed, the graph map identifies the operator domain isometrically with \(\Gamma(T)\subseteq X\times Y\), and a linear subspace of a Banach space is complete precisely when it is closed.
+If \(X\) and \(Y\) are [[linear-algebra/banach-space|Banach spaces]], then \(T\) is closed exactly when \((D(T),\lVert\cdot\rVert_T)\) is a Banach space. Indeed, the graph map identifies the operator domain isometrically with \(\Gamma(T)\subseteq X\times Y\), and a [[convex-analysis/linear-subspace|linear subspace]] of a Banach space is complete precisely when it is closed.
 
 ## Equivalent choices
 
-When \(X\) and \(Y\) are Hilbert spaces, one often uses
+When \(X\) and \(Y\) are [[linear-algebra/hilbert-space|Hilbert spaces]], one often uses
 \[
 \lVert x\rVert_{T,2}
 =\bigl(\lVert x\rVert_X^2+\lVert Tx\rVert_Y^2\bigr)^{1/2}.
 \]
-This norm is equivalent to the sum graph norm and comes from the graph inner product
+This norm is equivalent to the sum graph norm and comes from the graph [[linear-algebra/inner-product|inner product]]
 \[
 \langle x,z\rangle_T=\langle x,z\rangle_X+\langle Tx,Tz\rangle_Y.
 \]
@@ -33,7 +33,7 @@ The two formulas define the same topology on \(D(T)\), though only the second is
 
 ## Cores
 
-For a closed operator \(T\), a subspace \(D_0\subseteq D(T)\) is a **core** when it is dense in \(D(T)\) for the graph norm. Equivalently, the restriction \(T|_{D_0}\) is closable and its closure is \(T\). Ordinary density of \(D_0\) in \(X\) is not enough, because it does not control convergence of the images \(Tx\).
+For a [[functional-analysis/closed-linear-operator|closed operator]] \(T\), a subspace \(D_0\subseteq D(T)\) is a **core** when it is dense in \(D(T)\) for the graph norm. Equivalently, the restriction \(T|_{D_0}\) is closable and its closure is \(T\). Ordinary density of \(D_0\) in \(X\) is not enough, because it does not control convergence of the images \(Tx\).
 
 ## References
 

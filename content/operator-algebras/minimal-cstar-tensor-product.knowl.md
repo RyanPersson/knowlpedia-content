@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(A\) and \(B\) be [[operator-algebras/cstar-algebra|\(C^*\)-algebras]].
-Choose faithful nondegenerate representations
+Choose faithful [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representations]]
 \(\pi:A\to B(H)\) and \(\rho:B\to B(K)\). The **minimal \(C^*\)-tensor norm**
 is
 \[
@@ -47,7 +47,7 @@ C\otimes_{\min}D.
 If both maps are injective, so is their minimal tensor product. This
 injectivity property is one reason for the notation \(\otimes_{\min}\) and
 the occasional name “injective tensor product.” It does not assert that
-minimal tensoring preserves arbitrary short exact sequences; that stronger
+minimal tensoring preserves arbitrary [[algebra-modules/short-exact-sequence|short exact sequences]]; that stronger
 property is exactness of a \(C^*\)-algebra.
 
 ## Standard models

@@ -10,10 +10,10 @@ section_mode = "progressive"
 
 A unital [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(A\) has the
 **local lifting property** (**LLP**) if the following holds. For every unital
-\(C^*\)-algebra \(B\), closed two-sided ideal \(J\triangleleft B\), unital
+\(C^*\)-algebra \(B\), closed [[algebra-rings/two-sided-ideal|two-sided ideal]] \(J\triangleleft B\), unital
 [[operator-algebras/completely-positive-map|completely positive map]]
 \(\phi:A\to B/J\), and finite-dimensional operator system \(E\subseteq A\)
-(that is, a unital self-adjoint linear subspace), there is a unital
+(that is, a unital self-adjoint [[convex-analysis/linear-subspace|linear subspace]]), there is a unital
 completely positive map
 \[
 \widetilde\phi_E:E\longrightarrow B
@@ -38,7 +38,7 @@ is not a form of nuclearity.
 ## Tensor-product characterization
 
 Kirchberg's characterization says that \(A\) has LLP exactly when, for an
-infinite-dimensional Hilbert space \(H\), the canonical map identifies
+infinite-dimensional [[linear-algebra/hilbert-space|Hilbert space]] \(H\), the canonical map identifies
 \[
 A\otimes_{\max}B(H)=A\otimes_{\min}B(H)
 \]

@@ -16,7 +16,7 @@ A Hausdorff locally convex space \(E\) is barreled exactly when every lower-semi
 
 ## Uniform boundedness and examples
 
-If \(E\) is barreled and \(F\) is locally convex, every pointwise bounded family of [[functional-analysis/continuous-linear-map|continuous linear maps]] from \(E\) to \(F\) is equicontinuous. This is the locally convex Banach–Steinhaus principle. Every [[linear-algebra/banach-space|Banach space]] and every [[functional-analysis/frechet-space|Fréchet space]] is barreled by the [[topology/baire-category-theorem|Baire category theorem]]. Locally convex inductive limits of barreled spaces, including [[functional-analysis/lf-space|LF-spaces]], are also barreled.
+If \(E\) is barreled and \(F\) is locally convex, every [[real-analysis/pointwise-bounded-family|pointwise bounded family]] of [[functional-analysis/continuous-linear-map|continuous linear maps]] from \(E\) to \(F\) is equicontinuous. This is the locally convex Banach–Steinhaus principle. Every [[linear-algebra/banach-space|Banach space]] and every [[functional-analysis/frechet-space|Fréchet space]] is barreled by the [[topology/baire-category-theorem|Baire category theorem]]. [[functional-analysis/inductive-limit-locally-convex-spaces|Locally convex inductive limits]] of barreled spaces, including [[functional-analysis/lf-space|LF-spaces]], are also barreled.
 
 ## Conventions and nearby notions
 

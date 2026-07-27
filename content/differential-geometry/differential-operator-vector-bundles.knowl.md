@@ -8,7 +8,7 @@ domains = ["differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(E\) and \(F\) be smooth [[fiber-bundles/vector-bundle|vector bundles]] over the same [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). A **linear differential operator of order at most \(m\)** is a linear map
+Let \(E\) and \(F\) be smooth [[fiber-bundles/vector-bundle|vector bundles]] over the same [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). A **linear differential operator of order at most \(m\)** is a [[linear-algebra/linear-map|linear map]]
 \[
 D:\Gamma^\infty(E)\longrightarrow\Gamma^\infty(F)
 \]

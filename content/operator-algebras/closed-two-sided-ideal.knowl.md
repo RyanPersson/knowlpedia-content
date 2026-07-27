@@ -16,7 +16,7 @@ satisfying
 a x\in I\quad\text{and}\quad x a\in I
 \qquad(a\in A,\ x\in I).
 \]
-Every norm-closed two-sided ideal in a \(C^*\)-algebra is automatically
+Every norm-closed [[algebra-rings/two-sided-ideal|two-sided ideal]] in a \(C^*\)-algebra is automatically
 self-adjoint: \(x\in I\) implies \(x^*\in I\). Consequently \(I\), with the
 operations and norm inherited from \(A\), is itself a \(C^*\)-algebra. The
 terms **\(C^*\)-ideal** and **closed ideal** normally refer to this notion.

@@ -24,7 +24,7 @@ For bounded measurable functions, spectral integration is a unital \(*\)-homomor
 \[
 \left\|\int_X f\,dE\right\|=\operatorname*{ess\,sup}_{E}|f|.
 \]
-For unbounded \(f\), the spectral integral is a closed densely defined normal operator, and domain conditions are required before manipulating sums or products.
+For unbounded \(f\), the spectral integral is a closed densely defined [[quantum-foundations/normal-operator|normal operator]], and domain conditions are required before manipulating sums or products.
 
 ## Functional calculus
 
@@ -32,7 +32,7 @@ If \(A\) is self-adjoint with spectral measure \(E_A\), then its [[functional-an
 \[
 f(A)=\int_{\mathbb R}f(\lambda)\,dE_A(\lambda).
 \]
-In particular, \(A=\int_{\mathbb R}\lambda\,dE_A(\lambda)\), where the unbounded coordinate function determines the domain. Characteristic functions recover spectral projections: \(1_B(A)=E_A(B)\).
+In particular, \(A=\int_{\mathbb R}\lambda\,dE_A(\lambda)\), where the unbounded coordinate function determines the domain. [[probability/characteristic-function-probability|Characteristic functions]] recover spectral projections: \(1_B(A)=E_A(B)\).
 
 ## Conventions and scope
 

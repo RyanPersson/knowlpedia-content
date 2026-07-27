@@ -14,9 +14,9 @@ Let \(G\) be a [[topology/locally-compact-group|locally compact group]]. Its
 \[
 u(x)=\langle \pi(x)\xi,\eta\rangle
 \]
-arising from strongly continuous unitary representations \(\pi\) of \(G\) on
-complex Hilbert spaces and vectors \(\xi,\eta\). Direct sums show that these
-coefficients form a vector space, while tensor products show that they are
+arising from [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representations]] \(\pi\) of \(G\) on
+complex [[linear-algebra/hilbert-space|Hilbert spaces]] and vectors \(\xi,\eta\). Direct sums show that these
+coefficients form a [[linear-algebra/vector-space|vector space]], while tensor products show that they are
 closed under pointwise multiplication. With the norm transported from the
 dual of the full group \(C^*\)-algebra, \(B(G)\) is a commutative unital Banach
 algebra.
@@ -47,9 +47,9 @@ noncommutative.
 
 ## Relation to the Fourier algebra
 
-The Fourier algebra \(A(G)\) consists of coefficients of the left regular
+The [[harmonic-analysis/fourier-algebra|Fourier algebra]] \(A(G)\) consists of coefficients of the left regular
 representation and is a closed ideal in \(B(G)\). Thus \(B(G)\) uses all
-unitary representations, whereas \(A(G)\) records the regular representation.
+unitary representations, whereas \(A(G)\) records the [[algebra-representation-theory/regular-representation|regular representation]].
 The distinction can be substantial for noncompact groups and should not be
 suppressed by calling both spaces simply “Fourier transforms.”
 

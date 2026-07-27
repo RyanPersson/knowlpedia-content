@@ -29,7 +29,7 @@ The inclusion \(\partial M\hookrightarrow c(\partial M\times[0,1))\) is a deform
 
 ## Examples and nonuniqueness
 
-For \(M=N\times[0,1)\), the identity map is the standard collar. A closed interval has a collar consisting of two disjoint short half-intervals, one at each endpoint. On the closed ball, radial motion inward gives a collar of the sphere.
+For \(M=N\times[0,1)\), the identity map is the standard collar. A closed interval has a collar consisting of two disjoint short half-intervals, one at each endpoint. On the [[topology/closed-ball|closed ball]], radial motion inward gives a collar of the sphere.
 
 Collars are not canonical: different inward vector fields give different embeddings. The map \(c(x,t)=c_0(x,t^2)\) built from a collar \(c_0\) is not another collar, because its differential loses the normal direction at \(t=0\).
 

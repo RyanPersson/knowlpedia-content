@@ -40,7 +40,7 @@ satisfy a global estimate by \(\lVert x\rVert\).
 
 ## Operator spaces
 
-The bounded operators from \(X\) to \(Y\) form a normed vector space
+The bounded operators from \(X\) to \(Y\) form a [[linear-algebra/normed-vector-space|normed vector space]]
 \(B(X,Y)\) under the operator norm. If \(Y\) is a
 [[linear-algebra/banach-space|Banach space]], then \(B(X,Y)\) is Banach,
 whether or not \(X\) is complete. When \(X=Y\), composition satisfies

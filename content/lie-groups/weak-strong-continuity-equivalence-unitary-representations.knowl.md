@@ -36,7 +36,7 @@ recovers all coefficients from diagonal ones. Conversely, unitarity gives
 2\operatorname{Re}\langle\pi(g)\xi,\xi\rangle,
 \]
 so continuity of the diagonal coefficient at the identity forces continuity
-of the orbit map there. Translation then gives continuity at every group
+of the [[fiber-bundles/orbit-map|orbit map]] there. Translation then gives continuity at every group
 element. This is the argument in
 [Folland, opening of §3.1](https://doi.org/10.1201/B19172).
 

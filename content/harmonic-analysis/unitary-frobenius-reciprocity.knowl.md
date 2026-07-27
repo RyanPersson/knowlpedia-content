@@ -46,7 +46,7 @@ reducibility turns the isomorphism into
 \operatorname{mult}\!\left(\sigma,\pi|_H\right).
 \]
 For \(H=\{e\}\), this recovers that an irreducible \(\pi\) occurs in the
-regular representation of \(G\) with multiplicity \(\dim\pi\).
+[[algebra-representation-theory/regular-representation|regular representation]] of \(G\) with multiplicity \(\dim\pi\).
 
 ## Noncompact warning
 

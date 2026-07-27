@@ -17,12 +17,12 @@ and \(Y\subseteq\operatorname{Prim}(A)\), define
 \ker(Y)=\bigcap_{P\in Y}P.
 \]
 The **hull–kernel topology**, or **Jacobson topology**, is the topology whose
-closed sets are the hulls of closed two-sided ideals. Equivalently,
+closed sets are the hulls of closed [[algebra-rings/two-sided-ideal|two-sided ideals]]. Equivalently,
 \[
 \overline{Y}=\operatorname{hull}(\ker(Y)).
 \]
 With the convention \(\ker(\varnothing)=A\), this formula also gives the
-closure of the empty set. The two operations reverse inclusions, and their
+closure of the [[shared-foundations/empty-set|empty set]]. The two operations reverse inclusions, and their
 composite on subsets of \(\operatorname{Prim}(A)\) is precisely the
 topological closure operator.
 
@@ -47,7 +47,7 @@ The space is always \(T_0\), but it need not be \(T_1\) or Hausdorff. Indeed,
 \overline{\{P\}}=\{Q\in\operatorname{Prim}(A):P\subseteq Q\}.
 \]
 Thus the specialization relation remembers inclusions among primitive
-ideals. When \(A=C_0(X)\) for a locally compact Hausdorff space \(X\), the map
+ideals. When \(A=C_0(X)\) for a locally compact [[topology/hausdorff-space|Hausdorff space]] \(X\), the map
 \[
 x\longmapsto\{f\in C_0(X):f(x)=0\}
 \]
@@ -57,7 +57,7 @@ hull–kernel topology recovers the original topology.
 
 ## Why “kernel”
 
-Primitive ideals are kernels of irreducible representations. Intersecting
+Primitive ideals are kernels of [[algebra-representation-theory/irreducible-representation|irreducible representations]]. Intersecting
 the members of \(Y\) extracts the algebraic information common to those
 representations, and taking the hull returns every primitive ideal that
 contains it. The topology is therefore controlled by the ideal lattice

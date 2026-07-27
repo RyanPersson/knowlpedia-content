@@ -18,7 +18,7 @@ Equivalently, \(\omega\) assigns to [[fiber-bundles/vector-field|vector fields]]
 
 ## Algebraic structure
 
-A scalar form \(\alpha\in\Omega^p(M)\) and an \(E\)-valued form \(\omega\in\Omega^q(M;E)\) have a wedge product \(\alpha\wedge\omega\in\Omega^{p+q}(M;E)\), obtained by alternating the tensor product. Thus \(\Omega^\bullet(M;E)\) is a graded module over the algebra \(\Omega^\bullet(M)\).
+A scalar form \(\alpha\in\Omega^p(M)\) and an \(E\)-valued form \(\omega\in\Omega^q(M;E)\) have a wedge product \(\alpha\wedge\omega\in\Omega^{p+q}(M;E)\), obtained by alternating the tensor product. Thus \(\Omega^\bullet(M;E)\) is a [[algebra-modules/graded-module|graded module]] over the algebra \(\Omega^\bullet(M)\).
 
 A [[fiber-bundles/connection-on-a-vector-bundle|connection on \(E\)]] extends the [[fiber-bundles/exterior-derivative|exterior derivative]] to a covariant exterior derivative
 \[

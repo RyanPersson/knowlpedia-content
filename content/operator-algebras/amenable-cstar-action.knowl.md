@@ -14,7 +14,7 @@ admits a \(G\)-equivariant conditional mean
 \[
 E:L^\infty(G)\,\bar\otimes\,A^{**}\longrightarrow A^{**}
 \]
-with \(E(1\otimes x)=x\). Here \(G\) acts diagonally: by left translation on
+with \(E(1\otimes x)=x\). Here \(G\) acts diagonally: by [[lie-groups/left-translation|left translation]] on
 \(L^\infty(G)\) and by \(\alpha^{**}\) on \(A^{**}\). The map \(E\) is
 required to be unital, completely positive, and contractive. This is
 amenability of the action, not merely amenability of the acting group; the
@@ -22,7 +22,7 @@ coefficient algebra participates essentially in the averaging process.
 
 ## Crossed-product consequence
 
-Amenability makes the regular representation faithful: the canonical
+Amenability makes the [[algebra-representation-theory/regular-representation|regular representation]] faithful: the canonical
 surjection
 \[
 A\rtimes_\alpha G\longrightarrow A\rtimes_{\alpha,r}G
@@ -39,7 +39,7 @@ amenable.
 
 ## Commutative and discrete pictures
 
-For a countable discrete \(G\) acting on a locally compact Hausdorff space
+For a countable discrete \(G\) acting on a locally compact [[topology/hausdorff-space|Hausdorff space]]
 \(X\), the definition for \(A=C_0(X)\) agrees with topological amenability of
 the action, equivalently amenability of the transformation groupoid
 \(G\ltimes X\). In the discrete case it can also be expressed by

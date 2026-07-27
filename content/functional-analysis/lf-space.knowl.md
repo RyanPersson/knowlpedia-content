@@ -12,7 +12,7 @@ An **LF-space** is a Hausdorff [[functional-analysis/locally-convex-space|locall
 \[
 E=\varinjlim_{n}E_n,
 \]
-where every \(E_n\) is a [[functional-analysis/frechet-space|Fréchet space]] and the bonding maps \(E_n\to E_{n+1}\) are continuous linear maps. When the bonding maps are injective, one usually identifies the stages with an increasing union \(E=\bigcup_n E_n\). The presentation is **strict** if each inclusion gives \(E_n\) the topology induced from \(E_{n+1}\) and has closed image.
+where every \(E_n\) is a [[functional-analysis/frechet-space|Fréchet space]] and the bonding maps \(E_n\to E_{n+1}\) are continuous [[linear-algebra/linear-map|linear maps]]. When the bonding maps are injective, one usually identifies the stages with an increasing union \(E=\bigcup_n E_n\). The presentation is **strict** if each inclusion gives \(E_n\) the topology induced from \(E_{n+1}\) and has closed image.
 
 ## Universal mapping property
 

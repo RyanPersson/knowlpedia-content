@@ -13,7 +13,7 @@ Let \(\pi:A\to\mathcal B(H)\) be a
 \(C^*\)-algebra]]. It is a **factorial representation**, or **factor
 representation**, if its
 [[operator-algebras/von-neumann-algebra-generated-by-representation|generated
-von Neumann algebra]]
+[[operator-algebras/von-neumann-algebra|von Neumann algebra]]]]
 \[
 \pi(A)''
 \]
@@ -44,7 +44,7 @@ of all invariant subspaces
 
 A central projection \(z\in Z(\pi(A)'')\) splits \(H\) into the reducing
 subspaces \(zH\) and \((1-z)H\). Factoriality says that no such nontrivial
-split is available inside the generated von Neumann algebra. General
+split is available inside the [[operator-algebras/von-neumann-algebra-generated-by-representation|generated von Neumann algebra]]. General
 representations can often be decomposed, in a measure-theoretic sense, into
 factorial representations; this is the factor analogue of decomposing a
 finite-dimensional representation into primary pieces.

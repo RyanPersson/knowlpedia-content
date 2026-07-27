@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(A\) and \(B\) be [[operator-algebras/cstar-algebra|\(C^*\)-algebras]]
-and let \(n\geq1\) be an integer. A bounded linear map \(\Phi:A\to B\) is
+and let \(n\geq1\) be an integer. A bounded [[linear-algebra/linear-map|linear map]] \(\Phi:A\to B\) is
 **\(n\)-positive** if its amplification
 \[
 \Phi^{(n)}=\operatorname{id}_{M_n}\otimes\Phi:
@@ -37,7 +37,7 @@ finite-dimensional cutoff depends on the size of the domain
 ## Schwarz inequality
 
 If \(\Phi\) is unital and \(2\)-positive, positivity of a suitable
-\(2\times2\) operator matrix gives the Kadison–Schwarz inequality
+\(2\times2\) operator matrix gives the [[operator-algebras/kadison-schwarz-inequality|Kadison–Schwarz inequality]]
 \[
 \Phi(a)^*\Phi(a)\leq\Phi(a^*a)\qquad(a\in A).
 \]

@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(H\) be a real or complex [[linear-algebra/hilbert-space|Hilbert space]].
-Adopt the convention that its inner product is linear in the first variable.
+Adopt the convention that its [[linear-algebra/inner-product|inner product]] is linear in the first variable.
 For every \(\varphi\) in the [[functional-analysis/topological-dual|continuous
 dual]] \(H^*\), there is a unique \(y\in H\) such that
 \[

@@ -46,7 +46,7 @@ functional
 \mathcal B(H)\longrightarrow\mathbb C,\qquad
 x\longmapsto\langle x\xi,\xi\rangle
 \]
-is normal and positive. Normal conditional expectations provide
+is normal and positive. [[operator-algebras/normal-conditional-expectation|Normal conditional expectations]] provide
 operator-valued examples. By contrast, a free-ultrafilter state on
 \(\ell^\infty(\mathbb N)\) is positive and unital but not normal, because it
 sends every finite-coordinate projection to \(0\) although those projections

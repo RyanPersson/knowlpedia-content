@@ -8,11 +8,11 @@ domains = ["functional-analysis", "linear-algebra"]
 section_mode = "progressive"
 +++
 
-Let \(T:D(T)\subseteq X\to Y\) be a linear operator between [[linear-algebra/vector-space|vector spaces]]. Its **graph** is the linear subspace
+Let \(T:D(T)\subseteq X\to Y\) be a linear operator between [[linear-algebra/vector-space|vector spaces]]. Its **graph** is the [[convex-analysis/linear-subspace|linear subspace]]
 \[
 \mathcal G(T)=\{(x,Tx):x\in D(T)\}\subseteq X\times Y.
 \]
-The graph records both the action of \(T\) and its domain: the first-coordinate projection maps \(\mathcal G(T)\) bijectively onto \(D(T)\), and \(T\) is recovered by following its inverse with the second-coordinate projection. For a [[functional-analysis/densely-defined-operator|densely defined operator]], density concerns \(D(T)\), while closedness and closability concern \(\mathcal G(T)\) inside the product topology.
+The graph records both the action of \(T\) and its domain: the first-coordinate projection maps \(\mathcal G(T)\) bijectively onto \(D(T)\), and \(T\) is recovered by following its inverse with the second-coordinate projection. For a [[functional-analysis/densely-defined-operator|densely defined operator]], density concerns \(D(T)\), while closedness and closability concern \(\mathcal G(T)\) inside the [[topology/product-topology|product topology]].
 
 ## Closedness and closability
 

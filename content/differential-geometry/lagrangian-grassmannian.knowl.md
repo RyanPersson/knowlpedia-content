@@ -16,7 +16,7 @@ is the set of all [[differential-geometry/lagrangian-subspace|Lagrangian subspac
 
 ## Local model and dimension
 
-Fix complementary Lagrangian subspaces \(V=L\oplus L'\). Every Lagrangian plane transverse to \(L'\) is the graph of a linear map \(A:L\to L'\). Identifying \(L'\cong L^*\) using \(\omega\), the graph is Lagrangian exactly when the associated bilinear form is symmetric. Thus this chart is modeled on \(\operatorname{Sym}^2(L^*)\), and
+Fix complementary Lagrangian subspaces \(V=L\oplus L'\). Every Lagrangian plane transverse to \(L'\) is the graph of a [[linear-algebra/linear-map|linear map]] \(A:L\to L'\). Identifying \(L'\cong L^*\) using \(\omega\), the graph is Lagrangian exactly when the associated bilinear form is symmetric. Thus this chart is modeled on \(\operatorname{Sym}^2(L^*)\), and
 \[
 \dim_{\mathbb R}\Lambda(V)=\frac{n(n+1)}2.
 \]

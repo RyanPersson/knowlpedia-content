@@ -13,7 +13,7 @@ For a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), the **de Rham com
 0\longrightarrow\Omega^0(M)\xrightarrow{d}\Omega^1(M)\xrightarrow{d}\Omega^2(M)
 \xrightarrow{d}\cdots,
 \]
-where \(\Omega^k(M)\) is the vector space of smooth [[fiber-bundles/differential-k-form|differential \(k\)-forms]] and each differential is the [[fiber-bundles/exterior-derivative|exterior derivative]]. The identity \(d\circ d=0\) makes this a cochain complex. Its degree-\(k\) cocycles are closed forms, its coboundaries are exact forms, and its cohomology is the de Rham cohomology of \(M\).
+where \(\Omega^k(M)\) is the [[linear-algebra/vector-space|vector space]] of smooth [[fiber-bundles/differential-k-form|differential \(k\)-forms]] and each differential is the [[fiber-bundles/exterior-derivative|exterior derivative]]. The identity \(d\circ d=0\) makes this a cochain complex. Its degree-\(k\) cocycles are closed forms, its coboundaries are exact forms, and its cohomology is the de Rham cohomology of \(M\).
 
 ## Differential graded algebra structure
 
@@ -21,7 +21,7 @@ The [[fiber-bundles/wedge-product-of-differential-forms|wedge product]] makes \(
 \[
 d(\alpha\wedge\beta)=d\alpha\wedge\beta+(-1)^{\deg\alpha}\alpha\wedge d\beta.
 \]
-Thus the de Rham complex is more specifically a commutative differential graded algebra, not merely a sequence of vector spaces and linear maps.
+Thus the de Rham complex is more specifically a commutative differential graded algebra, not merely a sequence of vector spaces and [[linear-algebra/linear-map|linear maps]].
 
 ## Cohomology and topology
 

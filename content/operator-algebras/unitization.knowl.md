@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(A\) be a nonunital
 [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. Its **unitization**
-\(\widetilde A\) is the vector space \(A\oplus\mathbb C\) with
+\(\widetilde A\) is the [[linear-algebra/vector-space|vector space]] \(A\oplus\mathbb C\) with
 \[
 (a,\lambda)(b,\mu)=(ab+\lambda b+\mu a,\lambda\mu),
 \qquad
@@ -45,8 +45,8 @@ For \(a\in A\), the spectrum used in nonunital \(C^*\)-algebra theory is
 computed from \((a,0)\) in \(\widetilde A\); zero necessarily belongs to this
 spectrum. The scalar quotient is a character
 \(\epsilon:\widetilde A\to\mathbb C\). The unitization embeds canonically in
-the multiplier algebra \(M(A)\), but it can be strictly smaller: for example,
-the unitization of the compact operators is
+the [[operator-algebras/multiplier-algebra|multiplier algebra]] \(M(A)\), but it can be strictly smaller: for example,
+the unitization of the [[linear-algebra/compact-operator|compact operators]] is
 \(\mathcal K(H)+\mathbb C I_H\), whereas their multiplier algebra is \(B(H)\).
 
 ## Conventions for already unital algebras

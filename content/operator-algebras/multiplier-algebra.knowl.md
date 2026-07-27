@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. Its
 **multiplier algebra** \(M(A)\) is the unital \(C^*\)-algebra of
 [[operator-algebras/double-centralizer|double centralizers]] of \(A\). An
-element is a compatible pair \((L,R)\) of bounded linear maps \(A\to A\)
+element is a compatible pair \((L,R)\) of bounded [[linear-algebra/linear-map|linear maps]] \(A\to A\)
 satisfying
 \[
 aL(b)=R(a)b\qquad(a,b\in A).

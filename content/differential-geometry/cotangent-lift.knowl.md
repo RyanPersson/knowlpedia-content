@@ -24,7 +24,7 @@ T^*(g\circ f)=T^*g\circ T^*f,
 \qquad
 T^*(\operatorname{id}_M)=\operatorname{id}_{T^*M}.
 \]
-These identities follow from the chain rule and the reversal built into covector pullback. They make the cotangent construction covariant on the groupoid whose morphisms are diffeomorphisms.
+These identities follow from the [[real-analysis/chain-rule|chain rule]] and the reversal built into covector pullback. They make the cotangent construction covariant on the groupoid whose morphisms are diffeomorphisms.
 
 ## Preservation of canonical forms
 
@@ -36,7 +36,7 @@ Consequently it preserves the [[differential-geometry/canonical-symplectic-form-
 
 ## Scope
 
-**Warning.** A general smooth map \(f:M\to N\) gives a pullback bundle map \(f^*T^*N\to T^*M\), not a canonical map \(T^*M\to T^*N\). The cotangent lift in the displayed direction therefore uses invertibility essentially.
+**Warning.** A general [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\) gives a [[fiber-bundles/pullback-bundle|pullback bundle]] map \(f^*T^*N\to T^*M\), not a canonical map \(T^*M\to T^*N\). The cotangent lift in the displayed direction therefore uses invertibility essentially.
 
 ## References
 

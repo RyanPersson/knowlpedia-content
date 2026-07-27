@@ -12,7 +12,7 @@ Let \(M\) be a Hausdorff, second-countable [[topology/topological-manifold|topol
 \[
 \varphi_\beta\circ\varphi_\alpha^{-1}
 \]
-is [[differential-geometry/holomorphic-map|holomorphic]] on \(\varphi_\alpha(U_\alpha\cap U_\beta)\). Two complex atlases are equivalent when their union is again a complex atlas. A complex-manifold structure is equivalently an equivalence class of complex atlases, or the unique maximal atlas containing any representative.
+is [[differential-geometry/holomorphic-map|holomorphic]] on \(\varphi_\alpha(U_\alpha\cap U_\beta)\). Two complex atlases are equivalent when their union is again a complex atlas. A complex-manifold structure is equivalently an [[shared-foundations/equivalence-class|equivalence class]] of complex atlases, or the unique maximal atlas containing any representative.
 
 ## Maximal atlases and equivalence
 
@@ -20,7 +20,7 @@ Every complex atlas is contained in a unique maximal one: add every complex coor
 
 ## Examples and non-examples
 
-The single identity chart on an open subset of \(\mathbb C^n\) is a complex atlas. The standard affine charts on complex projective space form another. By contrast, a covering by complex coordinate charts is not a complex atlas if even one overlap map is merely smooth but not holomorphic.
+The single identity chart on an open subset of \(\mathbb C^n\) is a complex atlas. The standard affine charts on complex [[algebraic-geometry-foundations/projective-space|projective space]] form another. By contrast, a covering by complex coordinate charts is not a complex atlas if even one overlap map is merely smooth but not holomorphic.
 
 ## Conventions and scope
 

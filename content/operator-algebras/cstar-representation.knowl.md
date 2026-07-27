@@ -69,7 +69,7 @@ and states.
 
 A \(C^*\)-representation acts linearly on algebra elements and preserves
 products, sums, scalar multiplication, and involution. A unitary group
-representation instead assigns a unitary operator to each group element.
+representation instead assigns a [[functional-analysis/unitary-operator|unitary operator]] to each group element.
 For a [[topology/locally-compact-group|locally compact group]] the two
 settings are connected by the
 [[harmonic-analysis/integrated-form-unitary-representation|integrated form]],

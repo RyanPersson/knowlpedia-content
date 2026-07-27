@@ -42,7 +42,7 @@ Every \(C^*\)-algebra \(A\) is an \(A\)-\(A\) imprimitivity bimodule with
 \({}_A\langle x,y\rangle=xy^*\) and
 \(\langle x,y\rangle_A=x^*y\). More generally, any full right Hilbert
 \(B\)-module \(E\) is a
-\(\mathcal K_B(E)\)-\(B\) imprimitivity bimodule. Hilbert spaces give the
+\(\mathcal K_B(E)\)-\(B\) imprimitivity bimodule. [[linear-algebra/hilbert-space|Hilbert spaces]] give the
 special case \(\mathcal K(H)\sim_M\mathbb C\).
 
 ## Distinction from a correspondence
