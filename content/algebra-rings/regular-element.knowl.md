@@ -8,7 +8,7 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/regular-element.md"
 +++
 
-Let $R$ be a ring. An element $a\in R$ is **left regular** if $ax=ay$ implies $x=y$ for all $x,y\in R$, and **right regular** if $xa=ya$ implies $x=y$ for all $x,y\in R$. It is **regular** if it is both left and right regular. In a commutative ring, this is equivalent to saying $a$ is not a [[algebra-rings/zero-divisor|zero divisor]], i.e. $ax=0$ implies $x=0$.
+Let \(R\) be a ring. An element \(a\in R\) is **left regular** if \(ax=ay\) implies \(x=y\) for all \(x,y\in R\), and **right regular** if \(xa=ya\) implies \(x=y\) for all \(x,y\in R\). It is **regular** if it is both left and right regular. In a commutative ring, this is equivalent to saying \(a\) is not a [[algebra-rings/zero-divisor|zero divisor]], i.e. \(ax=0\) implies \(x=0\).
 
 ## Remarks
 
@@ -16,6 +16,6 @@ Regular elements are precisely those with trivial [[algebra-rings/annihilator-id
 
 ## Examples
 
-- In $\mathbb Z$, every nonzero integer is regular.
-- In $\mathbb Z/6\mathbb Z$, the class of $5$ is regular, while the class of $2$ is not.
-- In $k[x,y]/(xy)$, the class of $x$ is not regular.
+- In \(\mathbb Z\), every nonzero integer is regular.
+- In \(\mathbb Z/6\mathbb Z\), the class of \(5\) is regular, while the class of \(2\) is not.
+- In \(k[x,y]/(xy)\), the class of \(x\) is not regular.

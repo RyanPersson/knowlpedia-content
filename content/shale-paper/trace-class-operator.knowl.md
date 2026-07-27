@@ -8,19 +8,19 @@ domains = ["shale-paper"]
 legacy_source_path = "shale-paper/trace-class-operator.md"
 +++
 
-Let $H$ be a Hilbert space and $X:H\to H$ a bounded operator. The operator $X$ is **trace-class** if
-$$
+Let \(H\) be a Hilbert space and \(X:H\to H\) a bounded operator. The operator \(X\) is **trace-class** if
+\[
 \lVert X\rVert_1:=\operatorname{tr}(|X|)<\infty,
-$$
-equivalently, if the singular values of $X$ are summable.
+\]
+equivalently, if the singular values of \(X\) are summable.
 
 ## Remarks
 
 The principal properties used in Shale's paper are:
 
-- The trace $\mathrm{tr}(X)$ is well-defined and basis-independent.
-- The [[shale-paper/fredholm-determinant-trace-log|Fredholm determinant]] is defined for operators of the form $I+X$ with $X$ trace-class.
+- The trace \(\mathrm{tr}(X)\) is well-defined and basis-independent.
+- The [[shale-paper/fredholm-determinant-trace-log|Fredholm determinant]] is defined for operators of the form \(I+X\) with \(X\) trace-class.
 
 ## Examples
 
-- On $\ell^2$, $\mathrm{diag}(a_n)$ is trace-class iff $\sum_n |a_n|<\infty$.
+- On \(\ell^2\), \(\mathrm{diag}(a_n)\) is trace-class iff \(\sum_n |a_n|<\infty\).

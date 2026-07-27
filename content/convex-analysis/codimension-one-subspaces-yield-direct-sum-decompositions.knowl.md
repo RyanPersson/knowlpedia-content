@@ -8,14 +8,14 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/codimension-one-subspaces-yield-direct-sum-decompositions.md"
 +++
 
-Let $X$ be a [[linear-algebra/vector-space|vector space]] and let $L\subset X$ be a [[convex-analysis/linear-subspace|subspace]] with [[convex-analysis/codimension|codim(L)]] $=1$. If $x_0\notin L$, then:
+Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(L\subset X\) be a [[convex-analysis/linear-subspace|subspace]] with [[convex-analysis/codimension|codim(L)]] \(=1\). If \(x_0\notin L\), then:
 
 **Proposition**:
-$$
+\[
 X = L \oplus \operatorname{span}\{x_0\},
-$$
+\]
 
-where $\oplus$ denotes the [[convex-analysis/direct-sum-of-subspaces|direct sum]].
+where \(\oplus\) denotes the [[convex-analysis/direct-sum-of-subspaces|direct sum]].
 
 ## Remarks
 

@@ -8,11 +8,11 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/newton-leibniz-formula.md"
 +++
 
-Let $f:[a,b]\to\mathbb{R}$ be [[real-analysis/continuity-on-a-set|continuous]]. If $F:[a,b]\to\mathbb{R}$ is continuous on $[a,b]$, differentiable on $(a,b)$, and satisfies $F'(x)=f(x)$ for every $x\in(a,b)$, then
+Let \(f:[a,b]\to\mathbb{R}\) be [[real-analysis/continuity-on-a-set|continuous]]. If \(F:[a,b]\to\mathbb{R}\) is continuous on \([a,b]\), differentiable on \((a,b)\), and satisfies \(F'(x)=f(x)\) for every \(x\in(a,b)\), then
 
-$$
+\[
 \int_a^b f(x)\,dx = F(b)-F(a).
-$$
+\]
 
 ## Remarks
 

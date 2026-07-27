@@ -7,23 +7,23 @@ aliases = ["base change", "change of base", "pullback along the base"]
 domains = ["algebraic-geometry-foundations"]
 +++
 
-For morphisms $X\to S$ and $S'\to S$, the **base change of $X$ along $S'\to S$** is the morphism
+For morphisms \(X\to S\) and \(S'\to S\), the **base change of \(X\) along \(S'\to S\)** is the morphism
 
-$$
+\[
 X_{S'}:=X\times_S S'\longrightarrow S'.
-$$
+\]
 
-It is formed using the [[algebraic-geometry-foundations/fiber-product-of-schemes|fiber product]]. A morphism $f:X\to Y$ over $S$ similarly pulls back to
+It is formed using the [[algebraic-geometry-foundations/fiber-product-of-schemes|fiber product]]. A morphism \(f:X\to Y\) over \(S\) similarly pulls back to
 
-$$
+\[
 f_{S'}:X\times_S S'\longrightarrow Y\times_S S'.
-$$
+\]
 
-On [[algebraic-geometry-foundations/affine-scheme|affine schemes]], if $R\to R'$ changes the base and $X=\operatorname{Spec}A$, then
+On [[algebraic-geometry-foundations/affine-scheme|affine schemes]], if \(R\to R'\) changes the base and \(X=\operatorname{Spec}A\), then
 
-$$
+\[
 X_{R'}\cong\operatorname{Spec}(A\otimes_R R').
-$$
+\]
 
 ## Remarks
 

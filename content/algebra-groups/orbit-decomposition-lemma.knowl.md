@@ -8,8 +8,8 @@ domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/orbit-decomposition-lemma.md"
 +++
 
-**Orbit decomposition lemma.** Let $G$ be a [[algebra-groups/group|group]] acting on a [[shared-foundations/set|set]] $X$. Then the distinct [[algebra-groups/orbit|orbits]] $G\cdot x$ form a [[shared-foundations/partition|partition]] of $X$.
+**Orbit decomposition lemma.** Let \(G\) be a [[algebra-groups/group|group]] acting on a [[shared-foundations/set|set]] \(X\). Then the distinct [[algebra-groups/orbit|orbits]] \(G\cdot x\) form a [[shared-foundations/partition|partition]] of \(X\).
 
 ## Equivalent characterizations
 
-Define $x\sim y$ when $g\cdot x=y$ for some $g\in G$. This is an [[shared-foundations/equivalence-relation|equivalence relation]], and its [[shared-foundations/equivalence-class|equivalence classes]] are exactly the orbits.
+Define \(x\sim y\) when \(g\cdot x=y\) for some \(g\in G\). This is an [[shared-foundations/equivalence-relation|equivalence relation]], and its [[shared-foundations/equivalence-class|equivalence classes]] are exactly the orbits.

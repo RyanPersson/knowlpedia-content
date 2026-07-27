@@ -8,7 +8,7 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/unital-ring.md"
 +++
 
-A **unital ring** is a [[algebra-rings/ring|ring]] $R$ together with an element $1\in R$ such that $1a=a1=a$ for all $a\in R$.
+A **unital ring** is a [[algebra-rings/ring|ring]] \(R\) together with an element \(1\in R\) such that \(1a=a1=a\) for all \(a\in R\).
 
 ## Remarks
 
@@ -16,6 +16,6 @@ In a unital ring, elements that admit multiplicative inverses are [[algebra-ring
 
 ## Examples
 
-- $\mathbb Z$ is unital with identity $1$.
-- $M_n(R)$ is unital for any unital ring $R$, with identity matrix $I_n$.
-- $2\mathbb Z$ is a ring but not unital (its inherited multiplication has no identity element).
+- \(\mathbb Z\) is unital with identity \(1\).
+- \(M_n(R)\) is unital for any unital ring \(R\), with identity matrix \(I_n\).
+- \(2\mathbb Z\) is a ring but not unital (its inherited multiplication has no identity element).

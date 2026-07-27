@@ -7,17 +7,17 @@ aliases = ["local diffeomorphism", "locally diffeomorphic map"]
 domains = ["algebraic-geometry-foundations"]
 +++
 
-A **local diffeomorphism** is a smooth map $f:M\to N$ between smooth manifolds such that every $x\in M$ has an open neighborhood $U$ for which $f(U)$ is open in $N$ and
+A **local diffeomorphism** is a smooth map \(f:M\to N\) between smooth manifolds such that every \(x\in M\) has an open neighborhood \(U\) for which \(f(U)\) is open in \(N\) and
 
-$$
+\[
 f|_U:U\longrightarrow f(U)
-$$
+\]
 
-is a diffeomorphism. Equivalently, $f$ has a smooth local inverse around every point of its source.
+is a diffeomorphism. Equivalently, \(f\) has a smooth local inverse around every point of its source.
 
 ## Examples
 
-The map $\mathbb R\to S^1$, $t\mapsto e^{it}$, is a local diffeomorphism even though it is not globally one-to-one.
+The map \(\mathbb R\to S^1\), \(t\mapsto e^{it}\), is a local diffeomorphism even though it is not globally one-to-one.
 
 ## Characterization
 

@@ -8,15 +8,15 @@ domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/monomorphism-category.md"
 +++
 
-Let $\mathcal C$ be a [[algebra-category-theory/category|category]]. A morphism $f : X \to Y$ is a **monomorphism** (or **mono**) if for every object $Z$ and all morphisms $g_1,g_2 : Z \to X$,
-$$
+Let \(\mathcal C\) be a [[algebra-category-theory/category|category]]. A morphism \(f : X \to Y\) is a **monomorphism** (or **mono**) if for every object \(Z\) and all morphisms \(g_1,g_2 : Z \to X\),
+\[
 f\circ g_1 = f\circ g_2 \quad \Longrightarrow \quad g_1 = g_2,
-$$
-where $\circ$ denotes [[algebra-category-theory/composition-category|composition]].
+\]
+where \(\circ\) denotes [[algebra-category-theory/composition-category|composition]].
 
 ## Equivalent characterizations
 
-Equivalently: $f$ is mono iff it is **left-cancellative** with respect to composition.
+Equivalently: \(f\) is mono iff it is **left-cancellative** with respect to composition.
 
 ## Remarks
 
@@ -25,6 +25,6 @@ Equivalently: $f$ is mono iff it is **left-cancellative** with respect to compos
 
 ## Examples
 
-1. In $\mathbf{Set}$, monomorphisms are exactly [[shared-foundations/injective-function|injective functions]].
-2. In $\mathbf{Grp}$, monomorphisms are exactly injective group homomorphisms.
-3. In $R\text{-}\mathbf{Mod}$ (and in $\mathbf{Ab}$), monomorphisms are exactly injective module homomorphisms.
+1. In \(\mathbf{Set}\), monomorphisms are exactly [[shared-foundations/injective-function|injective functions]].
+2. In \(\mathbf{Grp}\), monomorphisms are exactly injective group homomorphisms.
+3. In \(R\text{-}\mathbf{Mod}\) (and in \(\mathbf{Ab}\)), monomorphisms are exactly injective module homomorphisms.

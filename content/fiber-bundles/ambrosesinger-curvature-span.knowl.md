@@ -8,17 +8,17 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/ambrosesinger-curvature-span.md"
 +++
 
-Let $\pi\colon P\to M$ be a principal $G$-bundle with [[fiber-bundles/principal-connection|principal connection]] $\omega$ and [[fiber-bundles/curvature|curvature]] $\Omega\in\Omega^2(P;\mathfrak g)$. Fix $p\in P$. The Ambrose–Singer theorem states that the [[fiber-bundles/holonomy-algebra|holonomy algebra]] $\mathfrak{hol}_p(\omega)\subseteq\mathfrak g$ is the Lie subalgebra spanned by
-$$
+Let \(\pi\colon P\to M\) be a principal \(G\)-bundle with [[fiber-bundles/principal-connection|principal connection]] \(\omega\) and [[fiber-bundles/curvature|curvature]] \(\Omega\in\Omega^2(P;\mathfrak g)\). Fix \(p\in P\). The Ambrose–Singer theorem states that the [[fiber-bundles/holonomy-algebra|holonomy algebra]] \(\mathfrak{hol}_p(\omega)\subseteq\mathfrak g\) is the Lie subalgebra spanned by
+\[
 \Omega_q(X,Y),
-$$
-where $q\in P$ ranges over points reachable from $p$ by horizontal lifts of piecewise smooth paths in $M$, and $X,Y\in T_qP$ are horizontal tangent vectors.
+\]
+where \(q\in P\) ranges over points reachable from \(p\) by horizontal lifts of piecewise smooth paths in \(M\), and \(X,Y\in T_qP\) are horizontal tangent vectors.
 
 ## Remarks
 
-Curvature values at horizontally reachable points already use the frames obtained from $p$ by [[fiber-bundles/parallel-transport|parallel transport]]. An equivalent formulation computes curvature in arbitrary frames and transports the resulting elements of $\mathfrak g$ back by the adjoint action.
+Curvature values at horizontally reachable points already use the frames obtained from \(p\) by [[fiber-bundles/parallel-transport|parallel transport]]. An equivalent formulation computes curvature in arbitrary frames and transports the resulting elements of \(\mathfrak g\) back by the adjoint action.
 
 ## Examples
-1. **Curvature zero implies trivial holonomy algebra.** If $\Omega\equiv 0$, then every generator above is zero, hence $\mathfrak{hol}_p(\omega)=0$.
-2. **Constant-curvature Riemannian metrics.** For the Levi–Civita connection of a round sphere, the curvature endomorphisms span $\mathfrak{so}(n)$, so the holonomy algebra is all of $\mathfrak{so}(n)$.
-3. **Reduced structure group.** If a connection reduces to a subgroup $H\subset G$ (so its connection form takes values in $\mathfrak{h}$), then every curvature value lies in $\mathfrak{h}$ and the holonomy algebra is contained in $\mathfrak{h}$.
+1. **Curvature zero implies trivial holonomy algebra.** If \(\Omega\equiv 0\), then every generator above is zero, hence \(\mathfrak{hol}_p(\omega)=0\).
+2. **Constant-curvature Riemannian metrics.** For the Levi–Civita connection of a round sphere, the curvature endomorphisms span \(\mathfrak{so}(n)\), so the holonomy algebra is all of \(\mathfrak{so}(n)\).
+3. **Reduced structure group.** If a connection reduces to a subgroup \(H\subset G\) (so its connection form takes values in \(\mathfrak{h}\)), then every curvature value lies in \(\mathfrak{h}\) and the holonomy algebra is contained in \(\mathfrak{h}\).

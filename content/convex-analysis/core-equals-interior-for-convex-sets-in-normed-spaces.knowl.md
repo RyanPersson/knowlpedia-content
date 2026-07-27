@@ -8,11 +8,11 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/core-equals-interior-for-convex-sets-in-normed-spaces.md"
 +++
 
-Let $X$ be a [[convex-analysis/norm-normed-vector-space|normed vector space]] and let $\Omega\subseteq X$ be [[convex-analysis/convex-set|convex]] with nonempty [[convex-analysis/interior-of-a-set|interior]]. Then its [[convex-analysis/algebraic-interior-core|algebraic interior]] equals its topological interior:
-$$
+Let \(X\) be a [[convex-analysis/norm-normed-vector-space|normed vector space]] and let \(\Omega\subseteq X\) be [[convex-analysis/convex-set|convex]] with nonempty [[convex-analysis/interior-of-a-set|interior]]. Then its [[convex-analysis/algebraic-interior-core|algebraic interior]] equals its topological interior:
+\[
 \operatorname{core}(\Omega)=\operatorname{int}(\Omega).
-$$
+\]
 
 ## Proof idea
 
-The inclusion $\operatorname{int}(\Omega)\subseteq\operatorname{core}(\Omega)$ is direct. For the reverse inclusion, translate so that $0\in\operatorname{int}(\Omega)$ and use convexity together with [[convex-analysis/segments-from-interior-points-stay-in-the-interior|the interior-segment lemma]].
+The inclusion \(\operatorname{int}(\Omega)\subseteq\operatorname{core}(\Omega)\) is direct. For the reverse inclusion, translate so that \(0\in\operatorname{int}(\Omega)\) and use convexity together with [[convex-analysis/segments-from-interior-points-stay-in-the-interior|the interior-segment lemma]].

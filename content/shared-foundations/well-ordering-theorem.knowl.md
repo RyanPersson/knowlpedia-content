@@ -8,7 +8,7 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/well-ordering-theorem.md"
 +++
 
-**Well-ordering theorem:** For every [[shared-foundations/set|set]] $X$, there exists a [[shared-foundations/relation|relation]] $\le\,\subseteq X\times X$ such that $(X,\le)$ is a [[shared-foundations/well-ordered-set|well-ordered set]].
+**Well-ordering theorem:** For every [[shared-foundations/set|set]] \(X\), there exists a [[shared-foundations/relation|relation]] \(\le\,\subseteq X\times X\) such that \((X,\le)\) is a [[shared-foundations/well-ordered-set|well-ordered set]].
 
 ## Remarks
 

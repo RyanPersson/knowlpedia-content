@@ -8,23 +8,23 @@ domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/simple-artinian-matrix-ring.md"
 +++
 
-Let $R$ be a nonzero ring, not necessarily commutative. If $R$ is **simple**, meaning that it has no nonzero proper two-sided ideals, and [[algebra-commutative/artinian-ring|Artinian]], then there are an integer $n\ge 1$ and a [[algebra-rings/division-ring|division ring]] $D$ such that
-$$
+Let \(R\) be a nonzero ring, not necessarily commutative. If \(R\) is **simple**, meaning that it has no nonzero proper two-sided ideals, and [[algebra-commutative/artinian-ring|Artinian]], then there are an integer \(n\ge 1\) and a [[algebra-rings/division-ring|division ring]] \(D\) such that
+\[
 R\cong M_n(D)
-$$
-as rings. Conversely, every full matrix ring $M_n(D)$ over a division ring is simple Artinian. This is the simple case of the [[algebra-rings/artin-wedderburn-theorem|Artin–Wedderburn theorem]].
+\]
+as rings. Conversely, every full matrix ring \(M_n(D)\) over a division ring is simple Artinian. This is the simple case of the [[algebra-rings/artin-wedderburn-theorem|Artin–Wedderburn theorem]].
 
-A useful refinement is that $D$ may be taken, up to passing to the opposite ring according to module conventions, from the endomorphism ring of a simple $R$-module. The general semisimple case is the [[algebra-commutative/semisimple-artinian-product|finite product decomposition]] into such matrix rings.
+A useful refinement is that \(D\) may be taken, up to passing to the opposite ring according to module conventions, from the endomorphism ring of a simple \(R\)-module. The general semisimple case is the [[algebra-commutative/semisimple-artinian-product|finite product decomposition]] into such matrix rings.
 
-In the commutative setting, necessarily $n=1$ and $D$ is commutative, so $R$ is a [[algebra-rings/field|field]].
+In the commutative setting, necessarily \(n=1\) and \(D\) is commutative, so \(R\) is a [[algebra-rings/field|field]].
 
 ## Examples
 
 1. **Matrix rings over a field.**
-   For any field $k$ and any $n\ge 1$, the ring $M_n(k)$ is simple Artinian.
+   For any field \(k\) and any \(n\ge 1\), the ring \(M_n(k)\) is simple Artinian.
 
-2. **Division rings (the case $n=1$).**
-   Any division ring $D$ is simple Artinian, and $M_1(D)\cong D$. For instance, the real quaternions $\mathbb H$ form a noncommutative division ring.
+2. **Division rings (the case \(n=1\)).**
+   Any division ring \(D\) is simple Artinian, and \(M_1(D)\cong D\). For instance, the real quaternions \(\mathbb H\) form a noncommutative division ring.
 
 3. **Why “simple” matters.**
-   The ring $k\times k$ is Artinian and semisimple, but not simple: it has the nontrivial ideals $k\times0$ and $0\times k$. It therefore appears as a product rather than as one matrix-ring factor.
+   The ring \(k\times k\) is Artinian and semisimple, but not simple: it has the nontrivial ideals \(k\times0\) and \(0\times k\). It therefore appears as a product rather than as one matrix-ring factor.

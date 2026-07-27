@@ -8,12 +8,12 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/change-of-variables-formula.md"
 +++
 
-Let $U,V\subseteq\mathbb R^n$ be [[topology/open-set|open sets]], let $\Phi:U\to V$ be a $C^1$ [[fiber-bundles/diffeomorphism|diffeomorphism]], and let $f:V\to\mathbb R$ be continuous with compact support. The **change of variables formula** is
-$$
+Let \(U,V\subseteq\mathbb R^n\) be [[topology/open-set|open sets]], let \(\Phi:U\to V\) be a \(C^1\) [[fiber-bundles/diffeomorphism|diffeomorphism]], and let \(f:V\to\mathbb R\) be continuous with compact support. The **change of variables formula** is
+\[
 \int_V f(x)\,dx = \int_U f(\Phi(u))\,\bigl|\det D\Phi(u)\bigr|\,du,
-$$
+\]
 
-where $\det D\Phi(u)$ is the [[real-analysis/jacobian-determinant|Jacobian determinant]] of $\Phi$ at $u$.
+where \(\det D\Phi(u)\) is the [[real-analysis/jacobian-determinant|Jacobian determinant]] of \(\Phi\) at \(u\).
 
 ## Remarks
 

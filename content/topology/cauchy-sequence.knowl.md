@@ -8,10 +8,10 @@ domains = ["topology"]
 legacy_source_path = "topology/cauchy-sequence.md"
 +++
 
-A **Cauchy sequence** $(x_n)$ in a metric space $(X,d)$ is a sequence such that for every $\varepsilon>0$ there exists $N$ with
-$$
+A **Cauchy sequence** \((x_n)\) in a metric space \((X,d)\) is a sequence such that for every \(\varepsilon>0\) there exists \(N\) with
+\[
 d(x_m,x_n)<\varepsilon \quad\text{for all } m,n\ge N.
-$$
+\]
 
 ## Remarks
 
@@ -19,5 +19,5 @@ Every [[topology/convergent-sequence|convergent sequence]] in a metric space is 
 
 ## Examples
 
-- In $\mathbb{R}$, the sequence $x_n=1/n$ is Cauchy.
-- In $\mathbb{Q}$ with the usual metric, a sequence of rational approximations to $\sqrt{2}$ is Cauchy in $\mathbb{Q}$ but does not converge in $\mathbb{Q}$.
+- In \(\mathbb{R}\), the sequence \(x_n=1/n\) is Cauchy.
+- In \(\mathbb{Q}\) with the usual metric, a sequence of rational approximations to \(\sqrt{2}\) is Cauchy in \(\mathbb{Q}\) but does not converge in \(\mathbb{Q}\).

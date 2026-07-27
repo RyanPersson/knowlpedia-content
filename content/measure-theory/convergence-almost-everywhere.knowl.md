@@ -8,14 +8,14 @@ domains = ["measure-theory"]
 legacy_source_path = "measure-theory/convergence-almost-everywhere.md"
 +++
 
-**Almost everywhere convergence** of a [[shared-foundations/sequence|sequence]] of measurable functions means the following: a sequence $(f_n)$ of [[measure-theory/measurable-function|measurable functions]] on a [[measure-theory/measure-space|measure space]] $(X,\Sigma,\mu)$ **converges almost everywhere** to a function $f$ if there exists a [[measure-theory/null-set|null set]] $N\subseteq X$ such that for every $x\in X\setminus N$ the [[real-analysis/limit-of-a-sequence|limit of a sequence]] $f_n(x)\to f(x)$ holds as $n\to\infty$.
+**Almost everywhere convergence** of a [[shared-foundations/sequence|sequence]] of measurable functions means the following: a sequence \((f_n)\) of [[measure-theory/measurable-function|measurable functions]] on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) **converges almost everywhere** to a function \(f\) if there exists a [[measure-theory/null-set|null set]] \(N\subseteq X\) such that for every \(x\in X\setminus N\) the [[real-analysis/limit-of-a-sequence|limit of a sequence]] \(f_n(x)\to f(x)\) holds as \(n\to\infty\).
 
 ## Equivalent characterizations
 
 Equivalently,
-$$
+\[
 \mu\bigl(\{x\in X : f_n(x)\not\to f(x)\}\bigr)=0.
-$$
+\]
 
 ## Remarks
 
@@ -23,5 +23,5 @@ Almost everywhere convergence is a central hypothesis in results such as the [[m
 
 ## Examples
 
-- On $([0,1],\mathcal{B},\lambda)$, the sequence $f_n(x)=x^n$ converges almost everywhere to $f(x)=0$ (the only exceptional point is $x=1$).
-- On $((0,1),\mathcal{B},\lambda)$, the functions $f_n(x)=n\,\mathbf{1}_{(0,1/n)}(x)$ satisfy $f_n(x)\to 0$ almost everywhere, but $\|f_n\|_1=\int_0^1 f_n\,d\lambda=1$ for all $n$, so the convergence is not convergence in Lp when $p=1$.
+- On \(([0,1],\mathcal{B},\lambda)\), the sequence \(f_n(x)=x^n\) converges almost everywhere to \(f(x)=0\) (the only exceptional point is \(x=1\)).
+- On \(((0,1),\mathcal{B},\lambda)\), the functions \(f_n(x)=n\,\mathbf{1}_{(0,1/n)}(x)\) satisfy \(f_n(x)\to 0\) almost everywhere, but \(\|f_n\|_1=\int_0^1 f_n\,d\lambda=1\) for all \(n\), so the convergence is not convergence in Lp when \(p=1\).

@@ -14,11 +14,11 @@ A **group decomposition** describes a group in terms of simpler groups and the m
 
 - An [[algebra-groups/internal-direct-product|internal direct product]] expresses a group as a product of commuting normal subgroups with trivial intersection.
 - An [[algebra-groups/internal-semidirect-product|internal semidirect product]] relaxes the commutativity requirement and records an action of one factor on the other.
-- A [[algebra-groups/group-extension|group extension]] describes a group $G$ through an exact sequence
-  $$
+- A [[algebra-groups/group-extension|group extension]] describes a group \(G\) through an exact sequence
+  \[
   1\longrightarrow N\longrightarrow G\longrightarrow Q\longrightarrow 1.
-  $$
-  When the extension splits, $G$ is a [[algebra-groups/semidirect-product|semidirect product]] of $N$ by $Q$.
+  \]
+  When the extension splits, \(G\) is a [[algebra-groups/semidirect-product|semidirect product]] of \(N\) by \(Q\).
 
 ## Structural results
 

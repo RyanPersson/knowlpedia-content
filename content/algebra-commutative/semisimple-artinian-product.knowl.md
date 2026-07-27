@@ -8,30 +8,30 @@ domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/semisimple-artinian-product.md"
 +++
 
-Let $R$ be a [[algebra-rings/artinian-semisimple-ring|semisimple Artinian ring]], not necessarily commutative. Then there exist simple Artinian rings $R_1,\dots,R_t$ such that
-$$
+Let \(R\) be a [[algebra-rings/artinian-semisimple-ring|semisimple Artinian ring]], not necessarily commutative. Then there exist simple Artinian rings \(R_1,\dots,R_t\) such that
+\[
 R \cong R_1 \times \cdots \times R_t .
-$$
-Moreover, each $R_i$ is a matrix ring over a division ring: $R_i \cong M_{n_i}(D_i)$. This refinement is exactly the content of the [[algebra-rings/artin-wedderburn-theorem|Artin–Wedderburn theorem]], and the simple-factor description is packaged in [[algebra-commutative/simple-artinian-matrix-ring|simple Artinian matrix rings]].
+\]
+Moreover, each \(R_i\) is a matrix ring over a division ring: \(R_i \cong M_{n_i}(D_i)\). This refinement is exactly the content of the [[algebra-rings/artin-wedderburn-theorem|Artin–Wedderburn theorem]], and the simple-factor description is packaged in [[algebra-commutative/simple-artinian-matrix-ring|simple Artinian matrix rings]].
 
-If $R$ is also [[algebra-rings/commutative-ring|commutative]], then every simple Artinian factor must be a [[algebra-rings/field|field]] (since a commutative division ring is a field, and commutativity forces $n_i=1$). Hence in the commutative case,
-$$
+If \(R\) is also [[algebra-rings/commutative-ring|commutative]], then every simple Artinian factor must be a [[algebra-rings/field|field]] (since a commutative division ring is a field, and commutativity forces \(n_i=1\)). Hence in the commutative case,
+\[
 R \cong K_1 \times \cdots \times K_t
-$$
-for fields $K_i$.
+\]
+for fields \(K_i\).
 
 ## Interpretation
 
-The theorem expresses $R$ as a finite product of rings with no nontrivial two-sided ideals. In the commutative case, those simple factors are exactly fields.
+The theorem expresses \(R\) as a finite product of rings with no nontrivial two-sided ideals. In the commutative case, those simple factors are exactly fields.
 
 ## Examples
 1. **Squarefree integers (commutative case).**
    By the [[algebra-rings/chinese-remainder-theorem|Chinese remainder theorem]],
-   $\mathbb Z/6\mathbb Z \cong \mathbb Z/2\mathbb Z \times \mathbb Z/3\mathbb Z$.
-   Both factors are fields, so $\mathbb Z/6\mathbb Z$ is a commutative semisimple Artinian ring.
+   \(\mathbb Z/6\mathbb Z \cong \mathbb Z/2\mathbb Z \times \mathbb Z/3\mathbb Z\).
+   Both factors are fields, so \(\mathbb Z/6\mathbb Z\) is a commutative semisimple Artinian ring.
 
 2. **Finite products of fields.**
-   For any field $k$, the ring $k \times k \times k$ is semisimple Artinian (each factor is simple Artinian), and it is already presented in the product form of the theorem.
+   For any field \(k\), the ring \(k \times k \times k\) is semisimple Artinian (each factor is simple Artinian), and it is already presented in the product form of the theorem.
 
 3. **An Artinian ring that is not semisimple.**
-   The ring $\mathbb Z/4\mathbb Z$ is Artinian, but it is not semisimple: the class of $2$ is nonzero and nilpotent since $2^2=0$ mod $4$. Equivalently, its [[algebra-commutative/jacobson-radical-intersection-maximals|Jacobson radical]] is nonzero, so it cannot be semisimple.
+   The ring \(\mathbb Z/4\mathbb Z\) is Artinian, but it is not semisimple: the class of \(2\) is nonzero and nilpotent since \(2^2=0\) mod \(4\). Equivalently, its [[algebra-commutative/jacobson-radical-intersection-maximals|Jacobson radical]] is nonzero, so it cannot be semisimple.

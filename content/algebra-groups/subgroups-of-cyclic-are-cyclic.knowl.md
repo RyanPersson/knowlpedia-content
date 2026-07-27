@@ -9,10 +9,10 @@ legacy_source_path = "algebra-groups/subgroups-of-cyclic-are-cyclic.md"
 +++
 
 **Proposition (Subgroups of cyclic groups are cyclic).**
-Let $G$ be a [[algebra-groups/group|group]] that is cyclic, meaning $G=\langle g\rangle$ for some $g\in G$ (so $G$ is a [[algebra-groups/cyclic-subgroup|cyclic group]]). Let $H\le G$ be a [[algebra-groups/subgroup|subgroup]].
+Let \(G\) be a [[algebra-groups/group|group]] that is cyclic, meaning \(G=\langle g\rangle\) for some \(g\in G\) (so \(G\) is a [[algebra-groups/cyclic-subgroup|cyclic group]]). Let \(H\le G\) be a [[algebra-groups/subgroup|subgroup]].
 
-1. If $G$ is infinite cyclic (isomorphic to $\mathbb Z$), then either $H=\{e\}$ or there exists a unique integer $m\ge 1$ such that $H=\langle g^m\rangle$.
-2. If $|G|=n<\infty$, then there exists a divisor $d\mid n$ such that $|H|=d$, and moreover $H=\langle g^{n/d}\rangle$.
+1. If \(G\) is infinite cyclic (isomorphic to \(\mathbb Z\)), then either \(H=\{e\}\) or there exists a unique integer \(m\ge 1\) such that \(H=\langle g^m\rangle\).
+2. If \(|G|=n<\infty\), then there exists a divisor \(d\mid n\) such that \(|H|=d\), and moreover \(H=\langle g^{n/d}\rangle\).
 
 ## Remarks
 

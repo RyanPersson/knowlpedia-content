@@ -8,8 +8,8 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/convexity-preserved-under-monotone-convex-composition.md"
 +++
 
-**Convexity Under Monotone Convex Composition**: Let $X$ be a [[linear-algebra/vector-space|vector space]]. Suppose $f:X\to\overline{\mathbb{R}}$ is [[convex-analysis/convex-function-via-epigraph|convex]] and $\phi:\mathbb{R}\to\overline{\mathbb{R}}$ is convex and nondecreasing on a convex set containing the range of $f$. Then the composition $\phi\circ f$ is convex on $X$.
+**Convexity Under Monotone Convex Composition**: Let \(X\) be a [[linear-algebra/vector-space|vector space]]. Suppose \(f:X\to\overline{\mathbb{R}}\) is [[convex-analysis/convex-function-via-epigraph|convex]] and \(\phi:\mathbb{R}\to\overline{\mathbb{R}}\) is convex and nondecreasing on a convex set containing the range of \(f\). Then the composition \(\phi\circ f\) is convex on \(X\).
 
-This rule is a standard way to build convex penalties (e.g., $\phi(t)=e^t$ or $\phi(t)=t_+ := \max\{t,0\}$) from an existing convex function $f$.
+This rule is a standard way to build convex penalties (e.g., \(\phi(t)=e^t\) or \(\phi(t)=t_+ := \max\{t,0\}\)) from an existing convex function \(f\).
 
-**Proof sketch (idea):** Apply Jensen to $f$ to get $f(\lambda x+(1-\lambda)y)\le \lambda f(x)+(1-\lambda)f(y)$. Then use monotonicity of $\phi$ followed by Jensen for $\phi$.
+**Proof sketch (idea):** Apply Jensen to \(f\) to get \(f(\lambda x+(1-\lambda)y)\le \lambda f(x)+(1-\lambda)f(y)\). Then use monotonicity of \(\phi\) followed by Jensen for \(\phi\).

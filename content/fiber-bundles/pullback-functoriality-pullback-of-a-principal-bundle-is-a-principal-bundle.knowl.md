@@ -8,26 +8,26 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/pullback-functoriality-pullback-of-a-principal-bundle-is-a-principal-bundle.md"
 +++
 
-Let $f:N\to M$ be a [[fiber-bundles/smooth-map|smooth map]] between smooth manifolds, and let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure [[fiber-bundles/lie-group|Lie group]] $G$.
+Let \(f:N\to M\) be a [[fiber-bundles/smooth-map|smooth map]] between smooth manifolds, and let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure [[fiber-bundles/lie-group|Lie group]] \(G\).
 
 ## Theorem (pullback principal bundle)
 
 Define the pullback total space
-$$
+\[
 f^*P := \{(n,p)\in N\times P \mid f(n)=\pi(p)\},
-$$
-with projection $\pi_N:f^*P\to N$ given by $\pi_N(n,p)=n$. Equip $f^*P$ with the right $G$-action
-$$
+\]
+with projection \(\pi_N:f^*P\to N\) given by \(\pi_N(n,p)=n\). Equip \(f^*P\) with the right \(G\)-action
+\[
 (n,p)\cdot g := (n,p\cdot g).
-$$
-Then $\pi_N:f^*P\to N$ is a principal $G$-bundle, called the **pullback bundle** of $P$ along $f$.
+\]
+Then \(\pi_N:f^*P\to N\) is a principal \(G\)-bundle, called the **pullback bundle** of \(P\) along \(f\).
 
-Moreover, this construction is functorial: if $g:L\to N$ is another smooth map, then $(f\circ g)^*P$ is canonically isomorphic to $g^*(f^*P)$ as principal bundles.
+Moreover, this construction is functorial: if \(g:L\to N\) is another smooth map, then \((f\circ g)^*P\) is canonically isomorphic to \(g^*(f^*P)\) as principal bundles.
 
 ## Examples
 
-1. **Pullback of a trivial bundle.** If $P\cong M\times G$, then $f^*P\cong N\times G$ by the evident identification.
+1. **Pullback of a trivial bundle.** If \(P\cong M\times G\), then \(f^*P\cong N\times G\) by the evident identification.
 
-2. **Restriction to a submanifold.** If $i:Z\hookrightarrow M$ is an embedding, then $i^*P$ is the restriction of $P$ to $Z$; its total space is $\pi^{-1}(Z)\subset P$.
+2. **Restriction to a submanifold.** If \(i:Z\hookrightarrow M\) is an embedding, then \(i^*P\) is the restriction of \(P\) to \(Z\); its total space is \(\pi^{-1}(Z)\subset P\).
 
-3. **Pullback along a covering map.** If $f:N\to M$ is a covering and $P\to M$ is nontrivial, $f^*P\to N$ may become trivial; for circle bundles this reflects the effect of the degree of $f$ on the corresponding cohomology class.
+3. **Pullback along a covering map.** If \(f:N\to M\) is a covering and \(P\to M\) is nontrivial, \(f^*P\to N\) may become trivial; for circle bundles this reflects the effect of the degree of \(f\) on the corresponding cohomology class.

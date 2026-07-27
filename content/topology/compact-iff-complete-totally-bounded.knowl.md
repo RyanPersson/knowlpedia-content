@@ -8,14 +8,14 @@ domains = ["topology"]
 legacy_source_path = "topology/compact-iff-complete-totally-bounded.md"
 +++
 
-**Compact iff complete and totally bounded:** Let $(X,d)$ be a [[topology/metric-space|metric space]]. Then the following are equivalent:
+**Compact iff complete and totally bounded:** Let \((X,d)\) be a [[topology/metric-space|metric space]]. Then the following are equivalent:
 
-1. $X$ is a [[topology/compact-set|compact set]].
-2. $X$ is a [[topology/complete-metric-space|complete metric space]] and [[topology/totally-bounded-set|totally bounded]].
+1. \(X\) is a [[topology/compact-set|compact set]].
+2. \(X\) is a [[topology/complete-metric-space|complete metric space]] and [[topology/totally-bounded-set|totally bounded]].
 
 ## Equivalent characterizations
 
-Equivalently, a subset $K\subseteq X$ is compact in the [[topology/subspace-topology|subspace topology]] if and only if $(K,d|_{K\times K})$ is complete and totally bounded.
+Equivalently, a subset \(K\subseteq X\) is compact in the [[topology/subspace-topology|subspace topology]] if and only if \((K,d|_{K\times K})\) is complete and totally bounded.
 
 ## Remarks
 

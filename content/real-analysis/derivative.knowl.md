@@ -8,11 +8,11 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/derivative.md"
 +++
 
-A [[shared-foundations/function|function]] $f:I\to\mathbb R$, defined on an open interval $I$, is **differentiable at** $a\in I$ if the finite limit
-$$
+A [[shared-foundations/function|function]] \(f:I\to\mathbb R\), defined on an open interval \(I\), is **differentiable at** \(a\in I\) if the finite limit
+\[
 f'(a)=\lim_{h\to0}\frac{f(a+h)-f(a)}{h}
-$$
-exists. The number $f'(a)$ is the **derivative of $f$ at $a$**.
+\]
+exists. The number \(f'(a)\) is the **derivative of \(f\) at \(a\)**.
 
 ## Remarks
 

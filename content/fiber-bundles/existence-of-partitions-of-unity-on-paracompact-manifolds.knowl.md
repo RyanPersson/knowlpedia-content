@@ -8,11 +8,11 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/existence-of-partitions-of-unity-on-paracompact-manifolds.md"
 +++
 
-Let $M$ be a paracompact [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\{U_i\}_{i\in I}$ be an open cover of $M$. Then there is a family of smooth functions $\{\rho_i:M\to[0,1]\}_{i\in I}$ such that:
+Let \(M\) be a paracompact [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\{U_i\}_{i\in I}\) be an open cover of \(M\). Then there is a family of smooth functions \(\{\rho_i:M\to[0,1]\}_{i\in I}\) such that:
 
-1. the supports $\operatorname{supp}(\rho_i)$ form a locally finite family;
-2. $\operatorname{supp}(\rho_i)\subseteq U_i$ for every $i$; and
-3. $\sum_{i\in I}\rho_i(x)=1$ for every $x\in M$.
+1. the supports \(\operatorname{supp}(\rho_i)\) form a locally finite family;
+2. \(\operatorname{supp}(\rho_i)\subseteq U_i\) for every \(i\); and
+3. \(\sum_{i\in I}\rho_i(x)=1\) for every \(x\in M\).
 
 Such a family is a smooth partition of unity subordinate to the cover.
 

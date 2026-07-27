@@ -9,14 +9,14 @@ legacy_source_path = "algebra-groups/orbit-stabilizer-theorem.md"
 +++
 
 **Orbit–Stabilizer Theorem.**
-Let $G$ be a [[algebra-groups/group|group]] acting on a set $X$. For $x\in X$, let $\operatorname{Orb}(x)$ be its [[algebra-groups/orbit|orbit]] and $\operatorname{Stab}(x)$ its [[algebra-groups/stabilizer|stabilizer]]. Then the map
-$$
+Let \(G\) be a [[algebra-groups/group|group]] acting on a set \(X\). For \(x\in X\), let \(\operatorname{Orb}(x)\) be its [[algebra-groups/orbit|orbit]] and \(\operatorname{Stab}(x)\) its [[algebra-groups/stabilizer|stabilizer]]. Then the map
+\[
 G/\operatorname{Stab}(x) \to \operatorname{Orb}(x), \qquad g\,\operatorname{Stab}(x) \mapsto g\cdot x,
-$$
-is a bijection. In particular, if $G$ is finite then
-$$
+\]
+is a bijection. In particular, if \(G\) is finite then
+\[
 |\operatorname{Orb}(x)| = [G:\operatorname{Stab}(x)] \quad \text{and} \quad |G| = |\operatorname{Orb}(x)|\cdot |\operatorname{Stab}(x)|.
-$$
+\]
 
 ## Remarks
 

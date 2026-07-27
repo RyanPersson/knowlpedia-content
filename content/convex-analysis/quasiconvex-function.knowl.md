@@ -8,17 +8,17 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/quasiconvex-function.md"
 +++
 
-Let $X$ be a real vector space and let $f:X\to(-\infty,\infty]$ be an extended-real-valued function. The function $f$ is **quasiconvex** if, for all $x,y\in X$ and $\lambda\in[0,1]$,
-$$
+Let \(X\) be a real vector space and let \(f:X\to(-\infty,\infty]\) be an extended-real-valued function. The function \(f\) is **quasiconvex** if, for all \(x,y\in X\) and \(\lambda\in[0,1]\),
+\[
 f(\lambda x+(1-\lambda)y)\le \max\{f(x),f(y)\}.
-$$
+\]
 
-Equivalently, every sublevel set $\{x\in X:f(x)\le \alpha\}$ is convex.
+Equivalently, every sublevel set \(\{x\in X:f(x)\le \alpha\}\) is convex.
 
 ## Examples
 
 - Any [[convex-analysis/convex-function-via-epigraph|convex function]] is quasiconvex.
-- The function $f(x)=\sqrt{|x|}$ on $\mathbb R$ is quasiconvex but not convex.
+- The function \(f(x)=\sqrt{|x|}\) on \(\mathbb R\) is quasiconvex but not convex.
 - Any constant function is quasiconvex.
 
 ## Remarks

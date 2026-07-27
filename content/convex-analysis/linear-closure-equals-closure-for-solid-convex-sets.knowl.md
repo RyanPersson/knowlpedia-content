@@ -8,14 +8,14 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/linear-closure-equals-closure-for-solid-convex-sets.md"
 +++
 
-Let $X$ be a [[convex-analysis/norm-normed-vector-space|normed vector space]] and let $\Omega\subset X$ be [[convex-analysis/convex-set|convex]], with [[convex-analysis/interior-of-a-set|int(Ω)]]$\neq\emptyset$.
+Let \(X\) be a [[convex-analysis/norm-normed-vector-space|normed vector space]] and let \(\Omega\subset X\) be [[convex-analysis/convex-set|convex]], with [[convex-analysis/interior-of-a-set|int(Ω)]]\(\neq\emptyset\).
 
 **Proposition**:
-$$
+\[
 \operatorname{lin}(\Omega)=\overline{\Omega},
-$$
+\]
 
-where $\overline{\Omega}$ denotes the [[convex-analysis/closure-of-a-set|closure]] of $\Omega$ in the norm-induced topology.
+where \(\overline{\Omega}\) denotes the [[convex-analysis/closure-of-a-set|closure]] of \(\Omega\) in the norm-induced topology.
 
 ## Remarks
 

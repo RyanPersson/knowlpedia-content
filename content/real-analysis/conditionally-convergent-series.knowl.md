@@ -8,13 +8,13 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/conditionally-convergent-series.md"
 +++
 
-A **conditionally convergent series** is a series $\sum_{n=1}^\infty a_n$ that is [[real-analysis/convergent-series|convergent]] but not [[real-analysis/absolutely-convergent-series|absolutely convergent]], meaning that $\sum_{n=1}^\infty a_n$ converges while $\sum_{n=1}^\infty |a_n|$ diverges.
+A **conditionally convergent series** is a series \(\sum_{n=1}^\infty a_n\) that is [[real-analysis/convergent-series|convergent]] but not [[real-analysis/absolutely-convergent-series|absolutely convergent]], meaning that \(\sum_{n=1}^\infty a_n\) converges while \(\sum_{n=1}^\infty |a_n|\) diverges.
 
 
 ## Examples
 
-- The alternating harmonic series $\sum_{n=1}^\infty \frac{(-1)^{n-1}}{n}$ converges conditionally.
-- The alternating series $\sum_{n=1}^\infty \frac{(-1)^{n-1}}{\sqrt{n}}$ converges conditionally.
+- The alternating harmonic series \(\sum_{n=1}^\infty \frac{(-1)^{n-1}}{n}\) converges conditionally.
+- The alternating series \(\sum_{n=1}^\infty \frac{(-1)^{n-1}}{\sqrt{n}}\) converges conditionally.
 
 ## Remarks
 

@@ -9,19 +9,19 @@ legacy_source_path = "algebra-homological/four-lemma.md"
 +++
 
 Let
-$$
+\[
 \begin{array}{ccccccccc}
 A_1 &\to& A_2 &\to& A_3 &\to& A_4 &\to& A_5\\
 \downarrow f_1 && \downarrow f_2 && \downarrow f_3 && \downarrow f_4 && \downarrow f_5\\
 B_1 &\to& B_2 &\to& B_3 &\to& B_4 &\to& B_5
 \end{array}
-$$
-be a commutative diagram of $R$-modules with exact rows.
+\]
+be a commutative diagram of \(R\)-modules with exact rows.
 
 The **four lemma** has two forms:
 
-1. If $f_1$ is surjective and $f_2,f_4$ are injective, then $f_3$ is injective.
-2. If $f_2,f_4$ are surjective and $f_5$ is injective, then $f_3$ is surjective.
+1. If \(f_1\) is surjective and \(f_2,f_4\) are injective, then \(f_3\) is injective.
+2. If \(f_2,f_4\) are surjective and \(f_5\) is injective, then \(f_3\) is surjective.
 
 ## Remarks
 

@@ -8,24 +8,24 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/horizontal-subbundle.md"
 +++
 
-Let $\pi:E\to M$ be a surjective submersion, and let
-$$
+Let \(\pi:E\to M\) be a surjective submersion, and let
+\[
 VE:=\ker(d\pi)\subset TE
-$$
+\]
 be the vertical subbundle.
 
-**Definition.** A horizontal subbundle is a smooth subbundle $HE\subset \,TE$ such that for every $e\in E$,
-$$
+**Definition.** A horizontal subbundle is a smooth subbundle \(HE\subset \,TE\) such that for every \(e\in E\),
+\[
 T_eE = H_eE \oplus V_eE.
-$$
+\]
 
-A choice of horizontal subbundle is exactly the same data as an [[fiber-bundles/ehresmann-connection|Ehresmann connection]]. In particular, the restriction of $d\pi_e$ to $H_eE$ is an isomorphism $H_eE\cong T_{\pi(e)}M$, which is what makes the [[fiber-bundles/horizontal-lift-of-a-tangent-vector|horizontal lift of a tangent vector]] well-defined and unique.
+A choice of horizontal subbundle is exactly the same data as an [[fiber-bundles/ehresmann-connection|Ehresmann connection]]. In particular, the restriction of \(d\pi_e\) to \(H_eE\) is an isomorphism \(H_eE\cong T_{\pi(e)}M\), which is what makes the [[fiber-bundles/horizontal-lift-of-a-tangent-vector|horizontal lift of a tangent vector]] well-defined and unique.
 
 ## Equivalent characterizations
 
-Equivalently, $TE=HE\oplus VE$ as vector bundles over $E$.
+Equivalently, \(TE=HE\oplus VE\) as vector bundles over \(E\).
 
 ## Examples
-1. **Trivial bundle horizontals.** For $E=M\times F$, the choice $H_{(x,f)}E:=T_xM\oplus\{0\}$ is a horizontal subbundle complementary to $V_{(x,f)}E=\{0\}\oplus T_fF$.
-2. **Horizontal subbundle on a principal bundle.** If $P\to M$ carries a principal connection, the horizontal subbundle is the kernel of the connection 1-form inside $TP$.
-3. **Horizontal directions in a vector bundle.** Given a linear connection on a vector bundle $E\to M$, there is a canonical splitting of $TE$ into “vertical directions” (changing the vector in the fiber) and “horizontal directions” (moving in the base while keeping the vector parallel).
+1. **Trivial bundle horizontals.** For \(E=M\times F\), the choice \(H_{(x,f)}E:=T_xM\oplus\{0\}\) is a horizontal subbundle complementary to \(V_{(x,f)}E=\{0\}\oplus T_fF\).
+2. **Horizontal subbundle on a principal bundle.** If \(P\to M\) carries a principal connection, the horizontal subbundle is the kernel of the connection 1-form inside \(TP\).
+3. **Horizontal directions in a vector bundle.** Given a linear connection on a vector bundle \(E\to M\), there is a canonical splitting of \(TE\) into “vertical directions” (changing the vector in the fiber) and “horizontal directions” (moving in the base while keeping the vector parallel).

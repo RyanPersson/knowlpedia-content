@@ -9,22 +9,22 @@ legacy_source_path = "algebra-groups/split-extension.md"
 +++
 
 An extension
-$$
+\[
 1 \to N \xrightarrow{\iota} E \xrightarrow{\pi} Q \to 1
-$$
+\]
 
-is **split** if there exists a [[algebra-groups/group-homomorphism|group homomorphism]] $s:Q\to E$ (a section) such that $\pi\circ s=\mathrm{id}_Q$.
+is **split** if there exists a [[algebra-groups/group-homomorphism|group homomorphism]] \(s:Q\to E\) (a section) such that \(\pi\circ s=\mathrm{id}_Q\).
 
 ## Examples
 
-- $1\to C_n\to D_{2n}\to C_2\to 1$ is split: a reflection subgroup maps isomorphically onto $C_2$.
-- $1\to N\to N\times Q\to Q\to 1$ is split via the section $q\mapsto (e,q)$.
-- More generally, any internal semidirect product yields a split extension $1\to N\to G\to G/N\to 1$.
+- \(1\to C_n\to D_{2n}\to C_2\to 1\) is split: a reflection subgroup maps isomorphically onto \(C_2\).
+- \(1\to N\to N\times Q\to Q\to 1\) is split via the section \(q\mapsto (e,q)\).
+- More generally, any internal semidirect product yields a split extension \(1\to N\to G\to G/N\to 1\).
 
 ## Equivalent characterizations
 
-Equivalently, $E$ contains a subgroup isomorphic to $Q$ that maps isomorphically onto $Q$ under $\pi$.
+Equivalently, \(E\) contains a subgroup isomorphic to \(Q\) that maps isomorphically onto \(Q\) under \(\pi\).
 
 ## Remarks
 
-Split extensions are precisely those coming from [[algebra-groups/semidirect-product|semidirect products]]: if the extension splits, then $E\cong N\rtimes Q$ for a suitable action of $Q$ on $N$. In particular, a direct product corresponds to the split case with trivial action.
+Split extensions are precisely those coming from [[algebra-groups/semidirect-product|semidirect products]]: if the extension splits, then \(E\cong N\rtimes Q\) for a suitable action of \(Q\) on \(N\). In particular, a direct product corresponds to the split case with trivial action.

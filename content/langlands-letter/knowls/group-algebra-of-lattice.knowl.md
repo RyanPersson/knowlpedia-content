@@ -8,17 +8,17 @@ domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/group-algebra-of-lattice.md"
 +++
 
-Let $L$ be a free abelian group, called a **lattice**; for example, $L=X^*(T)$.
+Let \(L\) be a free abelian group, called a **lattice**; for example, \(L=X^*(T)\).
 
-The **group algebra** $\mathbb C[L]$ is the $\mathbb C$-vector space with basis $\{\xi_\lambda\}_{\lambda\in L}$ and multiplication
-$$
+The **group algebra** \(\mathbb C[L]\) is the \(\mathbb C\)-vector space with basis \(\{\xi_\lambda\}_{\lambda\in L}\) and multiplication
+\[
 \xi_\lambda\cdot \xi_\mu=\xi_{\lambda+\mu}.
-$$
+\]
 
-When $L=X^*(T)$ is the [[langlands-letter/knowls/maximal-torus-weight-lattice|character lattice]] of a torus, each $t\in T(\mathbb C)$ defines an algebra homomorphism
-$$
+When \(L=X^*(T)\) is the [[langlands-letter/knowls/maximal-torus-weight-lattice|character lattice]] of a torus, each \(t\in T(\mathbb C)\) defines an algebra homomorphism
+\[
 \mathbb C[L]\longrightarrow\mathbb C,\qquad \xi_\lambda\longmapsto\lambda(t).
-$$
+\]
 
 ## Remarks
 

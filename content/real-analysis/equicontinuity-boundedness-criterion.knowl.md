@@ -8,7 +8,7 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/equicontinuity-boundedness-criterion.md"
 +++
 
-**Equicontinuity–boundedness criterion:** Let $K$ be a compact [[topology/metric-space|metric space]] and let $\mathcal{F}$ be a family of functions $f:K\to\mathbb{R}$. Assume $\mathcal{F}$ is an [[real-analysis/equicontinuous-family|equicontinuous family]] and is [[real-analysis/pointwise-bounded-family|pointwise bounded]] on $K$. Then $\mathcal{F}$ is [[real-analysis/uniformly-bounded-family|uniformly bounded]] on $K$.
+**Equicontinuity–boundedness criterion:** Let \(K\) be a compact [[topology/metric-space|metric space]] and let \(\mathcal{F}\) be a family of functions \(f:K\to\mathbb{R}\). Assume \(\mathcal{F}\) is an [[real-analysis/equicontinuous-family|equicontinuous family]] and is [[real-analysis/pointwise-bounded-family|pointwise bounded]] on \(K\). Then \(\mathcal{F}\) is [[real-analysis/uniformly-bounded-family|uniformly bounded]] on \(K\).
 
 ## Remarks
 

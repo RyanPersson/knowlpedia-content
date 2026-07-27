@@ -9,10 +9,10 @@ legacy_source_path = "convex-analysis/basic-properties-of-closed-sets.md"
 +++
 
 **Proposition.**
-Let $(X,d)$ be a metric space. Then:
+Let \((X,d)\) be a metric space. Then:
 
-1. $\emptyset$ is closed.
-2. $X$ is closed.
+1. \(\emptyset\) is closed.
+2. \(X\) is closed.
 3. The intersection of any collection of [[convex-analysis/closed-subset|closed sets]] is closed.
 4. The union of finitely many closed sets is closed.
 

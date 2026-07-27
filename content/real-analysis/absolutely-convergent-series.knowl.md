@@ -8,13 +8,13 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/absolutely-convergent-series.md"
 +++
 
-An **absolutely convergent series** is a series $\sum_{n=1}^\infty a_n$ such that the series of absolute values $\sum_{n=1}^\infty |a_n|$ is a [[real-analysis/convergent-series|convergent series]].
+An **absolutely convergent series** is a series \(\sum_{n=1}^\infty a_n\) such that the series of absolute values \(\sum_{n=1}^\infty |a_n|\) is a [[real-analysis/convergent-series|convergent series]].
 
 
 ## Examples
 
-- $\sum_{n=1}^\infty \frac{1}{n^2}$ is absolutely convergent.
-- $\sum_{n=1}^\infty \frac{(-1)^n}{n^2}$ is absolutely convergent, since $\sum_{n=1}^\infty \left|\frac{(-1)^n}{n^2}\right|=\sum_{n=1}^\infty \frac{1}{n^2}$ converges.
+- \(\sum_{n=1}^\infty \frac{1}{n^2}\) is absolutely convergent.
+- \(\sum_{n=1}^\infty \frac{(-1)^n}{n^2}\) is absolutely convergent, since \(\sum_{n=1}^\infty \left|\frac{(-1)^n}{n^2}\right|=\sum_{n=1}^\infty \frac{1}{n^2}\) converges.
 
 ## Remarks
 

@@ -8,11 +8,11 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/principal-ideal.md"
 +++
 
-A **principal ideal** in a [[algebra-rings/commutative-ring|commutative ring]] $R$ is an [[algebra-rings/ideal|ideal]] of the form
-$$
+A **principal ideal** in a [[algebra-rings/commutative-ring|commutative ring]] \(R\) is an [[algebra-rings/ideal|ideal]] of the form
+\[
 (a)=\{ra:r\in R\}
-$$
-for some $a\in R$, i.e. an instance of an [[algebra-rings/ideal-generated|ideal generated]] by one element.
+\]
+for some \(a\in R\), i.e. an instance of an [[algebra-rings/ideal-generated|ideal generated]] by one element.
 
 ## Remarks
 
@@ -20,6 +20,6 @@ Principal ideals control divisibility and factorization in commutative algebra; 
 
 ## Examples
 
-- In $\mathbb Z$, $(6)=6\mathbb Z$ is principal.
-- In $k[x,y]$, $(x)$ is a principal ideal.
-- In $k[x,y]$, the ideal $(x,y)$ is not principal.
+- In \(\mathbb Z\), \((6)=6\mathbb Z\) is principal.
+- In \(k[x,y]\), \((x)\) is a principal ideal.
+- In \(k[x,y]\), the ideal \((x,y)\) is not principal.

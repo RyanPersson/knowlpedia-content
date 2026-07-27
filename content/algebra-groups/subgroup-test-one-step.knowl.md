@@ -8,11 +8,11 @@ domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/subgroup-test-one-step.md"
 +++
 
-**One-step subgroup test.** Let $G$ be a [[algebra-groups/group|group]] and let $H$ be a nonempty [[shared-foundations/subset|subset]] of $G$. Then $H$ is a [[algebra-groups/subgroup|subgroup]] of $G$ if and only if
-$$
+**One-step subgroup test.** Let \(G\) be a [[algebra-groups/group|group]] and let \(H\) be a nonempty [[shared-foundations/subset|subset]] of \(G\). Then \(H\) is a [[algebra-groups/subgroup|subgroup]] of \(G\) if and only if
+\[
 x,y\in H\quad\Longrightarrow\quad xy^{-1}\in H.
-$$
+\]
 
 ## Remarks
 
-Taking $x=y$ gives the identity, taking $x=e$ gives inverses, and the displayed condition then gives closure under products.
+Taking \(x=y\) gives the identity, taking \(x=e\) gives inverses, and the displayed condition then gives closure under products.

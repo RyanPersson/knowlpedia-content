@@ -7,22 +7,22 @@ aliases = ["connected scheme", "scheme connectedness"]
 domains = ["algebraic-geometry-foundations"]
 +++
 
-A [[algebraic-geometry-foundations/scheme|scheme]] $X$ is **connected** if its underlying [[topology/topological-space|topological space]] in the [[algebra-commutative/zariski-topology|Zariski topology]] is connected: there do not exist disjoint nonempty open subsets $U,V\subseteq X$ with $X=U\cup V$. Equivalently, the only subsets that are both open and closed are $\varnothing$ and $X$.
+A [[algebraic-geometry-foundations/scheme|scheme]] \(X\) is **connected** if its underlying [[topology/topological-space|topological space]] in the [[algebra-commutative/zariski-topology|Zariski topology]] is connected: there do not exist disjoint nonempty open subsets \(U,V\subseteq X\) with \(X=U\cup V\). Equivalently, the only subsets that are both open and closed are \(\varnothing\) and \(X\).
 
-For an [[algebraic-geometry-foundations/affine-scheme|affine scheme]] $X=\operatorname{Spec}A$, this is equivalent to $A$ having no idempotents other than $0$ and $1$:
+For an [[algebraic-geometry-foundations/affine-scheme|affine scheme]] \(X=\operatorname{Spec}A\), this is equivalent to \(A\) having no idempotents other than \(0\) and \(1\):
 
-$$
+\[
 e^2=e\quad\Longrightarrow\quad e\in\{0,1\}.
-$$
+\]
 
 ## Example
 
 The decomposition
-$$
+\[
 \operatorname{Spec}(K_1\times K_2)
 \cong
 \operatorname{Spec}K_1\amalg\operatorname{Spec}K_2
-$$
+\]
 shows that the spectrum of a product of two fields is disconnected, whereas the one-point spectrum of a field is connected.
 
 ## Warning

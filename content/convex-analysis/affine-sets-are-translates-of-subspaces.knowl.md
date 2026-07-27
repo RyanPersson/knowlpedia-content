@@ -8,10 +8,10 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/affine-sets-are-translates-of-subspaces.md"
 +++
 
-Let $X$ be a [[linear-algebra/vector-space|vector space]] and let $\Omega\subseteq X$ be nonempty. Then $\Omega$ is [[convex-analysis/affine-set|affine]] if and only if, for any $\omega\in\Omega$,
-$$
+Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(\Omega\subseteq X\) be nonempty. Then \(\Omega\) is [[convex-analysis/affine-set|affine]] if and only if, for any \(\omega\in\Omega\),
+\[
 \Omega-\omega:=\{x-\omega:x\in\Omega\}
-$$
-is a [[convex-analysis/linear-subspace|linear subspace]] of $X$.
+\]
+is a [[convex-analysis/linear-subspace|linear subspace]] of \(X\).
 
-Equivalently, $\Omega$ is affine if and only if $\Omega=\omega+L$ for some $\omega\in X$ and linear subspace $L\subseteq X$.
+Equivalently, \(\Omega\) is affine if and only if \(\Omega=\omega+L\) for some \(\omega\in X\) and linear subspace \(L\subseteq X\).

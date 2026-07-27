@@ -8,11 +8,11 @@ domains = ["topology"]
 legacy_source_path = "topology/t0-space.md"
 +++
 
-A **$T_0$ space** is a [[topology/topological-space|topological space]] $X$ such that for any distinct points $x,y\in X$, there is an [[topology/open-set|open set]] containing exactly one of them.
+A **\(T_0\) space** is a [[topology/topological-space|topological space]] \(X\) such that for any distinct points \(x,y\in X\), there is an [[topology/open-set|open set]] containing exactly one of them.
 
-This is the weakest of the common separation axioms. Every [[topology/t1-space|$T_1$ space]], and hence every [[topology/hausdorff-space|Hausdorff space]], is $T_0$.
+This is the weakest of the common separation axioms. Every [[topology/t1-space|\(T_1\) space]], and hence every [[topology/hausdorff-space|Hausdorff space]], is \(T_0\).
 
 ## Examples
 
-- The Sierpiński space on $\{0,1\}$, with open sets $\varnothing$, $\{1\}$, and $\{0,1\}$, is $T_0$ but not $T_1$.
-- Every [[topology/metric-space|metric space]] is $T_0$, since it is Hausdorff.
+- The Sierpiński space on \(\{0,1\}\), with open sets \(\varnothing\), \(\{1\}\), and \(\{0,1\}\), is \(T_0\) but not \(T_1\).
+- Every [[topology/metric-space|metric space]] is \(T_0\), since it is Hausdorff.

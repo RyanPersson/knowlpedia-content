@@ -14,5 +14,5 @@ Divergence may happen because partial sums grow without bound or because they os
 
 ## Examples
 
-- The harmonic series $\sum_{n=1}^\infty \frac{1}{n}$ diverges.
-- The series $\sum_{n=0}^\infty (-1)^n$ diverges, since its partial sums alternate between $1$ and $0$.
+- The harmonic series \(\sum_{n=1}^\infty \frac{1}{n}\) diverges.
+- The series \(\sum_{n=0}^\infty (-1)^n\) diverges, since its partial sums alternate between \(1\) and \(0\).

@@ -8,11 +8,11 @@ domains = ["topology"]
 legacy_source_path = "topology/diameter.md"
 +++
 
-The **diameter** of a subset $A$ of a metric space $(X,d)$ is
-$$
+The **diameter** of a subset \(A\) of a metric space \((X,d)\) is
+\[
 \operatorname{diam}(A)=\sup\{d(x,y): x\in A,\ y\in A\}\in[0,\infty],
-$$
-where $\sup$ denotes the [[real-analysis/supremum|supremum]] (and the value may be $+\infty$). By convention, $\operatorname{diam}(\varnothing)=0$.
+\]
+where \(\sup\) denotes the [[real-analysis/supremum|supremum]] (and the value may be \(+\infty\)). By convention, \(\operatorname{diam}(\varnothing)=0\).
 
 ## Remarks
 
@@ -20,5 +20,5 @@ Diameter measures the “size” of a set in a way that is tailored to the [[top
 
 ## Examples
 
-- In $(\mathbb{R},|\cdot|)$, $\operatorname{diam}([a,b])=b-a$ for $a\le b$.
-- In $\mathbb{R}^2$ with the Euclidean metric, the unit circle has diameter $2$.
+- In \((\mathbb{R},|\cdot|)\), \(\operatorname{diam}([a,b])=b-a\) for \(a\le b\).
+- In \(\mathbb{R}^2\) with the Euclidean metric, the unit circle has diameter \(2\).

@@ -9,9 +9,9 @@ legacy_source_path = "convex-analysis/convexity-via-nonnegative-second-derivativ
 +++
 
 **Corollary.**
-Let $f:I\to\mathbb{R}$ be twice differentiable on a nonempty open interval $I\subset\mathbb{R}$. Then $f$ is convex on $I$ if and only if
-$$
+Let \(f:I\to\mathbb{R}\) be twice differentiable on a nonempty open interval \(I\subset\mathbb{R}\). Then \(f\) is convex on \(I\) if and only if
+\[
 f''(x)\ge 0 \quad \text{for all }x\in I.
-$$
+\]
 
-**Connection.** This follows from [[convex-analysis/convexity-characterized-by-monotonicity-of-derivative|convexity ⇔ monotone derivative]], since $f''\ge 0$ is equivalent to $f'$ being nondecreasing.
+**Connection.** This follows from [[convex-analysis/convexity-characterized-by-monotonicity-of-derivative|convexity ⇔ monotone derivative]], since \(f''\ge 0\) is equivalent to \(f'\) being nondecreasing.

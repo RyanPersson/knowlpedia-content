@@ -8,7 +8,7 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/zero-divisor.md"
 +++
 
-Let $R$ be a ring. A nonzero element $a\in R$ is a **left zero divisor** if there exists $b\ne 0$ with $ab=0$, and a **right zero divisor** if there exists $c\ne 0$ with $ca=0$. In a [[algebra-rings/commutative-ring|commutative ring]], these notions coincide and one simply says *zero divisor*.
+Let \(R\) be a ring. A nonzero element \(a\in R\) is a **left zero divisor** if there exists \(b\ne 0\) with \(ab=0\), and a **right zero divisor** if there exists \(c\ne 0\) with \(ca=0\). In a [[algebra-rings/commutative-ring|commutative ring]], these notions coincide and one simply says *zero divisor*.
 
 ## Remarks
 
@@ -16,6 +16,6 @@ A ring has no nonzero zero divisors precisely when it is an [[algebra-rings/inte
 
 ## Examples
 
-- In $\mathbb Z/6\mathbb Z$, the class of $2$ is a zero divisor since $2\cdot 3=0$.
-- In $k[x,y]/(xy)$, the classes of $x$ and $y$ are nonzero zero divisors.
-- In $\mathbb Z$, no nonzero element is a zero divisor.
+- In \(\mathbb Z/6\mathbb Z\), the class of \(2\) is a zero divisor since \(2\cdot 3=0\).
+- In \(k[x,y]/(xy)\), the classes of \(x\) and \(y\) are nonzero zero divisors.
+- In \(\mathbb Z\), no nonzero element is a zero divisor.

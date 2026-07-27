@@ -8,7 +8,7 @@ domains = ["topology"]
 legacy_source_path = "topology/sequentially-compact-set.md"
 +++
 
-A subset $K$ of a [[topology/topological-space|topological space]] $X$ is **sequentially compact** if every sequence $(x_n)$ in $K$ has a [[real-analysis/subsequence|subsequence]] $(x_{n_k})$ that [[topology/convergent-sequence|converges]] in $X$ to a point of $K$.
+A subset \(K\) of a [[topology/topological-space|topological space]] \(X\) is **sequentially compact** if every sequence \((x_n)\) in \(K\) has a [[real-analysis/subsequence|subsequence]] \((x_{n_k})\) that [[topology/convergent-sequence|converges]] in \(X\) to a point of \(K\).
 
 ## Relation to compactness
 

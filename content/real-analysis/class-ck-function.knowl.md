@@ -8,13 +8,13 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/class-ck-function.md"
 +++
 
-A **class $C^k$ function** on an interval $I$ is a [[shared-foundations/function|function]] $f:I\to\mathbb{R}$ such that $f^{(j)}$ exists on $I$ and is continuous for every integer $0\le j\le k$ (with $f^{(0)}=f$); it is class $C^\infty$ if this holds for all $k$.
+A **class \(C^k\) function** on an interval \(I\) is a [[shared-foundations/function|function]] \(f:I\to\mathbb{R}\) such that \(f^{(j)}\) exists on \(I\) and is continuous for every integer \(0\le j\le k\) (with \(f^{(0)}=f\)); it is class \(C^\infty\) if this holds for all \(k\).
 
 
 ## Examples
 
-- Every [[real-analysis/polynomial|polynomial]] function is class $C^\infty$ on $\mathbb{R}$.
-- The function $f(x)=|x|$ is class $C^0$ on $\mathbb{R}$ but not class $C^1$.
+- Every [[real-analysis/polynomial|polynomial]] function is class \(C^\infty\) on \(\mathbb{R}\).
+- The function \(f(x)=|x|\) is class \(C^0\) on \(\mathbb{R}\) but not class \(C^1\).
 
 ## Remarks
 

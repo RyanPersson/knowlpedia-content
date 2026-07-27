@@ -8,7 +8,7 @@ domains = ["topology"]
 legacy_source_path = "topology/compactness-implies-boundedness.md"
 +++
 
-**Compactness implies boundedness:** Let $(X,d)$ be a [[topology/metric-space|metric space]] and let $K\subseteq X$ be a [[topology/compact-set|compact set]]. Then $K$ is a [[topology/bounded-set|bounded set]]; equivalently, $\operatorname{diam}(K)<\infty$, where $\operatorname{diam}$ is the [[topology/diameter|diameter]] induced by $d$.
+**Compactness implies boundedness:** Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(K\subseteq X\) be a [[topology/compact-set|compact set]]. Then \(K\) is a [[topology/bounded-set|bounded set]]; equivalently, \(\operatorname{diam}(K)<\infty\), where \(\operatorname{diam}\) is the [[topology/diameter|diameter]] induced by \(d\).
 
 ## Remarks
 

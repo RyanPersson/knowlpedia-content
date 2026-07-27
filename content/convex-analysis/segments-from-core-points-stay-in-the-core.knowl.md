@@ -8,14 +8,14 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/segments-from-core-points-stay-in-the-core.md"
 +++
 
-Let $X$ be a [[linear-algebra/vector-space|vector space]] and let $\Omega\subset X$ be [[convex-analysis/convex-set|convex]].
+Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(\Omega\subset X\) be [[convex-analysis/convex-set|convex]].
 
-**Proposition**: If $a\in\operatorname{core}(\Omega)$ (see [[convex-analysis/algebraic-interior-core|core]]) and $b\in\Omega$, then
-$$
+**Proposition**: If \(a\in\operatorname{core}(\Omega)\) (see [[convex-analysis/algebraic-interior-core|core]]) and \(b\in\Omega\), then
+\[
 [a,b)\subset \operatorname{core}(\Omega),
-$$
+\]
 
-where $[a,b)$ is the half-open [[convex-analysis/line-segments-in-a-vector-space|line segment]] from $a$ to $b$.
+where \([a,b)\) is the half-open [[convex-analysis/line-segments-in-a-vector-space|line segment]] from \(a\) to \(b\).
 
 **Context:**
-This is the "core" analogue of [[convex-analysis/segments-from-interior-points-stay-in-the-interior|the interior segment lemma]] for normed spaces. It is used to prove structural properties of $\operatorname{core}(\Omega)$ such as idempotence.
+This is the "core" analogue of [[convex-analysis/segments-from-interior-points-stay-in-the-interior|the interior segment lemma]] for normed spaces. It is used to prove structural properties of \(\operatorname{core}(\Omega)\) such as idempotence.

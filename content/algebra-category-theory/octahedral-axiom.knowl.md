@@ -7,14 +7,14 @@ aliases = ["octahedral axiom", "octahedron axiom", "TR4"]
 domains = ["algebra-category-theory", "algebra-homological"]
 +++
 
-Let $\mathcal T$ be a [[algebra-category-theory/pretriangulated-category|pretriangulated category]], and let $X\xrightarrow{f}Y\xrightarrow{g}Z$ be composable morphisms. Complete $f$, $g$, and $gf$ to distinguished triangles, with third objects $C_f$, $C_g$, and $C_{gf}$. The **octahedral axiom** asserts that these triangles can be connected by morphisms
-$$
+Let \(\mathcal T\) be a [[algebra-category-theory/pretriangulated-category|pretriangulated category]], and let \(X\xrightarrow{f}Y\xrightarrow{g}Z\) be composable morphisms. Complete \(f\), \(g\), and \(gf\) to distinguished triangles, with third objects \(C_f\), \(C_g\), and \(C_{gf}\). The **octahedral axiom** asserts that these triangles can be connected by morphisms
+\[
 C_f\longrightarrow C_{gf}\longrightarrow C_g
-$$
+\]
 so that the standard octahedral diagram commutes and
-$$
+\[
 C_f\longrightarrow C_{gf}\longrightarrow C_g\longrightarrow \Sigma C_f
-$$
+\]
 is a [[algebra-category-theory/distinguished-triangle|distinguished triangle]].
 
 ## Interpretation

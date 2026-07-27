@@ -8,12 +8,12 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/local-diffeomorphism-corollary.md"
 +++
 
-Let $U\subseteq\mathbb R^k$ be an [[topology/open-set|open set]], and let $f:U\to\mathbb R^k$ be continuously differentiable. If
-$$
+Let \(U\subseteq\mathbb R^k\) be an [[topology/open-set|open set]], and let \(f:U\to\mathbb R^k\) be continuously differentiable. If
+\[
 \det Df(x)\neq 0\qquad\text{for every }x\in U,
-$$
-then for each $x_0\in U$ there are neighborhoods $A$ of $x_0$ and $B$ of $f(x_0)$ such that $f|_A:A\to B$ is a [[fiber-bundles/diffeomorphism|diffeomorphism]].
+\]
+then for each \(x_0\in U\) there are neighborhoods \(A\) of \(x_0\) and \(B\) of \(f(x_0)\) such that \(f|_A:A\to B\) is a [[fiber-bundles/diffeomorphism|diffeomorphism]].
 
 ## Remarks
 
-This is the [[real-analysis/inverse-function-theorem-rk|inverse function theorem]] applied at each point. In this situation, $f$ is called a local diffeomorphism.
+This is the [[real-analysis/inverse-function-theorem-rk|inverse function theorem]] applied at each point. In this situation, \(f\) is called a local diffeomorphism.

@@ -9,12 +9,12 @@ legacy_source_path = "algebraic-geometry-foundations/affine-scheme.md"
 +++
 
 An **affine scheme** is a [[algebraic-geometry-foundations/locally-ringed-space|locally ringed space]] isomorphic to
-$$
+\[
 (\operatorname{Spec}A,\mathcal O_{\operatorname{Spec}A})
-$$
-for some [[algebra-rings/commutative-ring|commutative ring]] $A$. Here $\operatorname{Spec}A$ is the [[algebra-commutative/prime-spectrum|prime spectrum]] with its [[algebra-commutative/zariski-topology|Zariski topology]], and $\mathcal O_{\operatorname{Spec}A}$ is its [[algebraic-geometry-foundations/structure-sheaf|structure sheaf]]. The ring is recovered from global sections:
-$$
+\]
+for some [[algebra-rings/commutative-ring|commutative ring]] \(A\). Here \(\operatorname{Spec}A\) is the [[algebra-commutative/prime-spectrum|prime spectrum]] with its [[algebra-commutative/zariski-topology|Zariski topology]], and \(\mathcal O_{\operatorname{Spec}A}\) is its [[algebraic-geometry-foundations/structure-sheaf|structure sheaf]]. The ring is recovered from global sections:
+\[
 \Gamma(\operatorname{Spec}A,\mathcal O_{\operatorname{Spec}A})\cong A.
-$$
+\]
 
-For example, if $k$ is a field, $\operatorname{Spec}k$ is a one-point affine scheme whose local ring is $k$. The [[algebraic-geometry-foundations/affine-line|affine line]] $\operatorname{Spec}k[x]$ is another affine scheme, but it contains more than the familiar $k$-valued points: it also has points corresponding to other prime ideals, including a [[algebraic-geometry-foundations/generic-point|generic point]]. General [[algebraic-geometry-foundations/scheme|schemes]] are assembled by gluing affine schemes along open subsets.
+For example, if \(k\) is a field, \(\operatorname{Spec}k\) is a one-point affine scheme whose local ring is \(k\). The [[algebraic-geometry-foundations/affine-line|affine line]] \(\operatorname{Spec}k[x]\) is another affine scheme, but it contains more than the familiar \(k\)-valued points: it also has points corresponding to other prime ideals, including a [[algebraic-geometry-foundations/generic-point|generic point]]. General [[algebraic-geometry-foundations/scheme|schemes]] are assembled by gluing affine schemes along open subsets.

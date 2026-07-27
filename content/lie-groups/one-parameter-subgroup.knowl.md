@@ -8,30 +8,30 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/one-parameter-subgroup.md"
 +++
 
-Let $G$ be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra $\mathfrak g$.
+Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra \(\mathfrak g\).
 
-A **one-parameter subgroup** of $G$ is a smooth [[lie-groups/lie-group-homomorphism|group homomorphism]]
-$$
+A **one-parameter subgroup** of \(G\) is a smooth [[lie-groups/lie-group-homomorphism|group homomorphism]]
+\[
 \gamma:(\Bbb R,+)\to G.
-$$
+\]
 
-Equivalently, $\gamma$ is a smooth curve satisfying $\gamma(t+s)=\gamma(t)\gamma(s)$ and $\gamma(0)=e$.
+Equivalently, \(\gamma\) is a smooth curve satisfying \(\gamma(t+s)=\gamma(t)\gamma(s)\) and \(\gamma(0)=e\).
 
 ## Theorem (classification by the Lie algebra)
-For each $X\in\mathfrak g$, the curve
-$$
+For each \(X\in\mathfrak g\), the curve
+\[
 \gamma_X(t)=\exp(tX)
-$$
+\]
 is a one-parameter subgroup (see [[lie-groups/exponential-one-parameter-subgroup-lemma|the exponential–one-parameter subgroup lemma]]).
 
-Conversely, if $\gamma$ is any one-parameter subgroup, then the derivative
-$$
+Conversely, if \(\gamma\) is any one-parameter subgroup, then the derivative
+\[
 X=\gamma'(0)\in T_eG\cong \mathfrak g
-$$
+\]
 
-determines $\gamma$ uniquely by $\gamma(t)=\exp(tX)$ for all $t$.
+determines \(\gamma\) uniquely by \(\gamma(t)=\exp(tX)\) for all \(t\).
 
-Thus, one-parameter subgroups are in bijection with elements of $\mathfrak g$.
+Thus, one-parameter subgroups are in bijection with elements of \(\mathfrak g\).
 
 ## Remarks
-One-parameter subgroups are the group-theoretic shadows of constant-coefficient ODE flows on $G$; the precise relationship is expressed by [[lie-groups/one-parameter-subgroups-integral-curves|their interpretation as integral curves of invariant vector fields]].
+One-parameter subgroups are the group-theoretic shadows of constant-coefficient ODE flows on \(G\); the precise relationship is expressed by [[lie-groups/one-parameter-subgroups-integral-curves|their interpretation as integral curves of invariant vector fields]].

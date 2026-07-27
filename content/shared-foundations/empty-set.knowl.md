@@ -8,16 +8,16 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/empty-set.md"
 +++
 
-The **empty set**, denoted $\varnothing$, is the set with no elements:
-$$
+The **empty set**, denoted \(\varnothing\), is the set with no elements:
+\[
 \forall x\,(x\notin \varnothing).
-$$
+\]
 
 ## Remarks
 
-By extensionality (see [[shared-foundations/set|set]]), there is only one such set: if $E$ and $F$ have no elements, then $E=F$. The empty set is the identity for [[shared-foundations/union|union]] and an absorbing element for [[shared-foundations/intersection|intersection]] when working with subsets of a fixed ambient set.
+By extensionality (see [[shared-foundations/set|set]]), there is only one such set: if \(E\) and \(F\) have no elements, then \(E=F\). The empty set is the identity for [[shared-foundations/union|union]] and an absorbing element for [[shared-foundations/intersection|intersection]] when working with subsets of a fixed ambient set.
 
 ## Examples
 
-- The solution set $\{x\in\mathbb{R} : x^2+1=0\}$ is $\varnothing$.
-- If $A$ and $B$ are disjoint subsets of a set, then $A\cap B=\varnothing$.
+- The solution set \(\{x\in\mathbb{R} : x^2+1=0\}\) is \(\varnothing\).
+- If \(A\) and \(B\) are disjoint subsets of a set, then \(A\cap B=\varnothing\).

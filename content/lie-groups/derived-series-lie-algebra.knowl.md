@@ -8,17 +8,17 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/derived-series-lie-algebra.md"
 +++
 
-Let $\mathfrak g$ be a [[lie-groups/lie-algebra|Lie algebra]]. Its **derived series** is the descending sequence
-$$
+Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]]. Its **derived series** is the descending sequence
+\[
 \mathfrak g^{(0)} := \mathfrak g,\qquad
 \mathfrak g^{(k+1)} := [\mathfrak g^{(k)},\,\mathfrak g^{(k)}]
-$$
-for $k\ge 0$, where the bracket denotes the [[lie-groups/derived-subalgebra|derived subalgebra]] of $\mathfrak g^{(k)}$.
+\]
+for \(k\ge 0\), where the bracket denotes the [[lie-groups/derived-subalgebra|derived subalgebra]] of \(\mathfrak g^{(k)}\).
 
-Each $\mathfrak g^{(k)}$ is a characteristic [[lie-groups/ideal-lie-algebra|ideal]] of $\mathfrak g$.
+Each \(\mathfrak g^{(k)}\) is a characteristic [[lie-groups/ideal-lie-algebra|ideal]] of \(\mathfrak g\).
 
 ## Solvability
-A Lie algebra is **solvable** if $\mathfrak g^{(r)}=0$ for some $r\ge 0$; the least such $r$ is its **derived length**. See [[lie-groups/solvable-lie-algebra|solvable Lie algebra]].
+A Lie algebra is **solvable** if \(\mathfrak g^{(r)}=0\) for some \(r\ge 0\); the least such \(r\) is its **derived length**. See [[lie-groups/solvable-lie-algebra|solvable Lie algebra]].
 
 ## Relation to groups
-For a connected Lie group $G$ with Lie algebra $\mathfrak g$, this is the infinitesimal analogue of repeatedly taking the [[lie-groups/commutator-subgroup-of-a-lie-group|commutator subgroup]].
+For a connected Lie group \(G\) with Lie algebra \(\mathfrak g\), this is the infinitesimal analogue of repeatedly taking the [[lie-groups/commutator-subgroup-of-a-lie-group|commutator subgroup]].

@@ -8,4 +8,4 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/euclidean-implies-pid.md"
 +++
 
-**Euclidean domain ⇒ PID**: If $R$ is a [[algebra-rings/euclidean-domain|Euclidean domain]], then $R$ is a [[algebra-rings/pid|principal ideal domain]]: every [[algebra-rings/ideal|ideal]] of $R$ is a [[algebra-rings/principal-ideal|principal ideal]].
+**Euclidean domain ⇒ PID**: If \(R\) is a [[algebra-rings/euclidean-domain|Euclidean domain]], then \(R\) is a [[algebra-rings/pid|principal ideal domain]]: every [[algebra-rings/ideal|ideal]] of \(R\) is a [[algebra-rings/principal-ideal|principal ideal]].

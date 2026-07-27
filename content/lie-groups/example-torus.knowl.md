@@ -1,9 +1,9 @@
 +++
 id = "lie-groups/example-torus"
-title = "Example: the torus $T^n$"
+title = "Example: the torus \\(T^n\\)"
 kind = "knowl"
 summary = "The n-torus is a compact connected abelian Lie group with Lie algebra R^n and quotient exponential map."
-aliases = ["example-torus", "Example: the torus $T^n$"]
+aliases = ["example-torus", "Example: the torus \\(T^n\\)"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/example-torus.md"
 +++

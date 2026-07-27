@@ -8,10 +8,10 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/kernel-of-a-nonzero-linear-functional-has-codimension-one.md"
 +++
 
-Let $X$ be a [[linear-algebra/vector-space|vector space]] over $\mathbb K=\mathbb R$ or $\mathbb C$, and let $f:X\to\mathbb K$ be a nonzero linear functional. Then its [[convex-analysis/image-and-kernel-linear-isomorphism|kernel]] has codimension one:
-$$
+Let \(X\) be a [[linear-algebra/vector-space|vector space]] over \(\mathbb K=\mathbb R\) or \(\mathbb C\), and let \(f:X\to\mathbb K\) be a nonzero linear functional. Then its [[convex-analysis/image-and-kernel-linear-isomorphism|kernel]] has codimension one:
+\[
 \operatorname{codim}(\ker f)=1.
-$$
+\]
 
 ## Remarks
 

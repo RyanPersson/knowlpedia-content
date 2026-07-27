@@ -1,9 +1,9 @@
 +++
 id = "langlands-letter/knowls/embeddings-qbar-to-q_p"
-title = "Choosing Embeddings $\\\\overline{\\\\mathbb{Q}}\\\\hookrightarrow \\\\overline{\\\\mathbb{Q}}_p$"
+title = "Choosing Embeddings \\(\\\\overline{\\\\mathbb{Q}}\\\\hookrightarrow \\\\overline{\\\\mathbb{Q}}_p\\)"
 kind = "knowl"
 summary = "How a choice of -adic embedding fixes a decomposition group and conjugates Frobenius/Satake data"
-aliases = ["embeddings-qbar-to-q_p", "Choosing Embeddings $\\\\overline{\\\\mathbb{Q}}\\\\hookrightarrow \\\\overline{\\\\mathbb{Q}}_p$"]
+aliases = ["embeddings-qbar-to-q_p", "Choosing Embeddings \\(\\\\overline{\\\\mathbb{Q}}\\\\hookrightarrow \\\\overline{\\\\mathbb{Q}}_p\\)"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/embeddings-qbar-to-q_p.md"
 +++

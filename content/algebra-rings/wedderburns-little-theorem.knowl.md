@@ -12,4 +12,4 @@ legacy_source_path = "algebra-rings/wedderburns-little-theorem.md"
 
 ## Remarks
 
-A standard approach studies the finite group $D^\times$ of units, i.e. the [[algebra-rings/group-of-units|group of units]], and compares its conjugacy structure with the [[algebra-rings/center-of-ring|center]] of the ring using the [[algebra-groups/class-equation|class equation]].
+A standard approach studies the finite group \(D^\times\) of units, i.e. the [[algebra-rings/group-of-units|group of units]], and compares its conjugacy structure with the [[algebra-rings/center-of-ring|center]] of the ring using the [[algebra-groups/class-equation|class equation]].

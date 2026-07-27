@@ -8,26 +8,26 @@ domains = ["measure-theory"]
 legacy_source_path = "measure-theory/uniform-integrability.md"
 +++
 
-A family $\mathcal F\subset L^1(X,\mu)$ on a [[measure-theory/measure-space|measure space]] $(X,\mathcal A,\mu)$ is **uniformly integrable** if
-$$
+A family \(\mathcal F\subset L^1(X,\mu)\) on a [[measure-theory/measure-space|measure space]] \((X,\mathcal A,\mu)\) is **uniformly integrable** if
+\[
 \sup_{f\in\mathcal F}\|f\|_1<\infty
 \qquad\text{and}\qquad
 \lim_{M\to\infty}\ \sup_{f\in\mathcal{F}} \int_{\{|f|>M\}} |f|\,d\mu = 0.
-$$
+\]
 
-When $\mu(X)<\infty$, the tail condition alone implies the uniform $L^1$ bound.
+When \(\mu(X)<\infty\), the tail condition alone implies the uniform \(L^1\) bound.
 
-A [[shared-foundations/sequence|sequence]] $(f_n)$ is uniformly integrable if the family $\{f_n:n\ge 1\}$ is uniformly integrable.
+A [[shared-foundations/sequence|sequence]] \((f_n)\) is uniformly integrable if the family \(\{f_n:n\ge 1\}\) is uniformly integrable.
 
 ## Interpretation
 
-The condition rules out increasingly tall tails that retain substantial $L^1$-mass. Together with suitable convergence hypotheses, it permits passage to limits in the [[measure-theory/lebesgue-integral|Lebesgue integral]].
+The condition rules out increasingly tall tails that retain substantial \(L^1\)-mass. Together with suitable convergence hypotheses, it permits passage to limits in the [[measure-theory/lebesgue-integral|Lebesgue integral]].
 
 ## Examples
 
-- If $|f|\le g$ almost everywhere for every $f\in\mathcal F$, where $g\in L^1(X,\mu)$, then $\mathcal F$ is uniformly integrable.
-- On $([0,1],\mathcal B,\lambda)$, the functions $f_n=n\mathbf 1_{[0,1/n]}$ are not uniformly integrable: for any $M>0$, choose $n>M$. Then
-  $$
+- If \(|f|\le g\) almost everywhere for every \(f\in\mathcal F\), where \(g\in L^1(X,\mu)\), then \(\mathcal F\) is uniformly integrable.
+- On \(([0,1],\mathcal B,\lambda)\), the functions \(f_n=n\mathbf 1_{[0,1/n]}\) are not uniformly integrable: for any \(M>0\), choose \(n>M\). Then
+  \[
   \int_{\{|f_n|>M\}} |f_n|\,d\lambda = \int_0^{1/n} n\,dx = 1,
-  $$
-  so the supremum of the tail integrals does not tend to $0$.
+  \]
+  so the supremum of the tail integrals does not tend to \(0\).

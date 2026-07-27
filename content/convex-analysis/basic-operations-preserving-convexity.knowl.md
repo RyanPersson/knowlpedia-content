@@ -8,11 +8,11 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/basic-operations-preserving-convexity.md"
 +++
 
-**Operations Preserving Convexity**: Let $X$ be a [[linear-algebra/vector-space|vector space]] and let $f,f_i:X\to\overline{\mathbb{R}}$ be [[convex-analysis/convex-function-via-epigraph|convex functions]] for $i=1,\dots,m$. Then:
+**Operations Preserving Convexity**: Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(f,f_i:X\to\overline{\mathbb{R}}\) be [[convex-analysis/convex-function-via-epigraph|convex functions]] for \(i=1,\dots,m\). Then:
 
-1. (**Nonnegative scaling**) For any $\lambda\ge 0$, the function $\lambda f$ is convex.
-2. (**Finite sums**) The function $\sum_{i=1}^m f_i$ is convex.
-3. (**Finite maxima**) The function $\max_{1\le i\le m} f_i$ is convex.
+1. (**Nonnegative scaling**) For any \(\lambda\ge 0\), the function \(\lambda f\) is convex.
+2. (**Finite sums**) The function \(\sum_{i=1}^m f_i\) is convex.
+3. (**Finite maxima**) The function \(\max_{1\le i\le m} f_i\) is convex.
 
 ## Remarks
 

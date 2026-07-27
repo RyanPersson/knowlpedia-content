@@ -9,19 +9,19 @@ legacy_source_path = "convex-analysis/uniqueness-of-limits-and-boundedness-in-no
 +++
 
 **Proposition.**
-Let $(X,\|\cdot\|)$ be a normed space.
+Let \((X,\|\cdot\|)\) be a normed space.
 
-1. If a sequence $(x_n)$ [[convex-analysis/convergence-in-normed-spaces|converges]] to both $x$ and $y$, then $x=y$.
+1. If a sequence \((x_n)\) [[convex-analysis/convergence-in-normed-spaces|converges]] to both \(x\) and \(y\), then \(x=y\).
 2. Every convergent sequence is [[convex-analysis/bounded-set-and-bounded-sequence|bounded]].
 
 **Proof sketch.**
 1. Using the triangle inequality,
-$$
+\[
 \|x-y\|\le \|x-x_n\|+\|x_n-y\|\to 0,
-$$
+\]
 
-so $\|x-y\|=0$ and hence $x=y$.
-2. If $x_n\to x$, then for $n$ large we have $\|x_n-x\|\le 1$. Then $\|x_n\|\le \|x\|+1$ for all large $n$; finitely many remaining terms are bounded as well.
+so \(\|x-y\|=0\) and hence \(x=y\).
+2. If \(x_n\to x\), then for \(n\) large we have \(\|x_n-x\|\le 1\). Then \(\|x_n\|\le \|x\|+1\) for all large \(n\); finitely many remaining terms are bounded as well.
 
 ## Remarks
 

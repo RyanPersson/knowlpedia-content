@@ -8,10 +8,10 @@ domains = ["topology"]
 legacy_source_path = "topology/category-argument-template.md"
 +++
 
-**Category argument template.** Let $X$ be a [[topology/baire-space|Baire space]] and let $U_1,U_2,\dots\subseteq X$ be [[topology/open-set|open]] and [[topology/dense-set|dense]]. Then
-$$
+**Category argument template.** Let \(X\) be a [[topology/baire-space|Baire space]] and let \(U_1,U_2,\dots\subseteq X\) be [[topology/open-set|open]] and [[topology/dense-set|dense]]. Then
+\[
 \bigcap_{n=1}^{\infty}U_n
-$$
-is dense in $X$, and it is a [[topology/residual-set|residual set]] because its complement is a countable union of [[topology/nowhere-dense-set|nowhere dense sets]]. If $X\ne\varnothing$, the intersection is therefore nonempty.
+\]
+is dense in \(X\), and it is a [[topology/residual-set|residual set]] because its complement is a countable union of [[topology/nowhere-dense-set|nowhere dense sets]]. If \(X\ne\varnothing\), the intersection is therefore nonempty.
 
-Conceptually, this packages the [[topology/baire-category-theorem|Baire category theorem]] into a reusable method: encode the $n$th requirement of a property as membership in a dense open set $U_n$, and then conclude that there are points satisfying all requirements at once (finite versions rely only on [[topology/intersection-of-dense-open-is-dense|intersection of dense open sets being dense]]).
+Conceptually, this packages the [[topology/baire-category-theorem|Baire category theorem]] into a reusable method: encode the \(n\)th requirement of a property as membership in a dense open set \(U_n\), and then conclude that there are points satisfying all requirements at once (finite versions rely only on [[topology/intersection-of-dense-open-is-dense|intersection of dense open sets being dense]]).

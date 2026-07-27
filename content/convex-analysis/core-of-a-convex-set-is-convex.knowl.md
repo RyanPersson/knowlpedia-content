@@ -8,10 +8,10 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/core-of-a-convex-set-is-convex.md"
 +++
 
-Let $X$ be a [[linear-algebra/vector-space|vector space]] and let $\Omega\subseteq X$ be [[convex-analysis/convex-set|convex]]. Then its [[convex-analysis/algebraic-interior-core|algebraic interior]]
-$$
+Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(\Omega\subseteq X\) be [[convex-analysis/convex-set|convex]]. Then its [[convex-analysis/algebraic-interior-core|algebraic interior]]
+\[
 \operatorname{core}(\Omega)
-$$
+\]
 is convex. This includes the case in which the core is empty.
 
 ## Context

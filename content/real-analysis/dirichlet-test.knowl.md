@@ -8,17 +8,17 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/dirichlet-test.md"
 +++
 
-**Dirichlet test:** Consider a series $\sum_{n=1}^\infty a_n b_n$ of real or complex numbers. Let
-$$
+**Dirichlet test:** Consider a series \(\sum_{n=1}^\infty a_n b_n\) of real or complex numbers. Let
+\[
 A_n=\sum_{k=1}^n a_k
-$$
-denote the [[real-analysis/partial-sums|partial sums]] of $\sum a_n$. If
+\]
+denote the [[real-analysis/partial-sums|partial sums]] of \(\sum a_n\). If
 
-1. the sequence $(A_n)$ is bounded, and
-2. $(b_n)$ is monotone and $b_n\to 0$,
+1. the sequence \((A_n)\) is bounded, and
+2. \((b_n)\) is monotone and \(b_n\to 0\),
 
-then $\sum_{n=1}^\infty a_n b_n$ [[real-analysis/convergent-series|converges]].
+then \(\sum_{n=1}^\infty a_n b_n\) [[real-analysis/convergent-series|converges]].
 
 ## Remarks
 
-The [[real-analysis/alternating-series-test|alternating series test]] is a special case (take $a_n=(-1)^{n-1}$), and Dirichlet’s test is closely paired with the [[real-analysis/abel-test|Abel test]].
+The [[real-analysis/alternating-series-test|alternating series test]] is a special case (take \(a_n=(-1)^{n-1}\)), and Dirichlet’s test is closely paired with the [[real-analysis/abel-test|Abel test]].

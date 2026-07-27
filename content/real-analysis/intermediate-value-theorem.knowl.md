@@ -8,10 +8,10 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/intermediate-value-theorem.md"
 +++
 
-**Intermediate value theorem:** Let $f:[a,b]\to\mathbb{R}$ be continuous on $[a,b]$. If $y$ is any number between $f(a)$ and $f(b)$ (that is, $\min\{f(a),f(b)\}\le y\le \max\{f(a),f(b)\}$), then there exists $c\in[a,b]$ such that
-$$
+**Intermediate value theorem:** Let \(f:[a,b]\to\mathbb{R}\) be continuous on \([a,b]\). If \(y\) is any number between \(f(a)\) and \(f(b)\) (that is, \(\min\{f(a),f(b)\}\le y\le \max\{f(a),f(b)\}\)), then there exists \(c\in[a,b]\) such that
+\[
 f(c)=y.
-$$
+\]
 
 ## Remarks
 

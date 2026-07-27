@@ -8,16 +8,16 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/affine-mapping.md"
 +++
 
-Let $X,Y$ be real vector spaces. A mapping $B:X\to Y$ is **affine** if there exist a [[convex-analysis/linear-operator-linear-transformation|linear mapping]] $A:X\to Y$ and a vector $b\in Y$ such that
-$$
+Let \(X,Y\) be real vector spaces. A mapping \(B:X\to Y\) is **affine** if there exist a [[convex-analysis/linear-operator-linear-transformation|linear mapping]] \(A:X\to Y\) and a vector \(b\in Y\) such that
+\[
 B(x)=A(x)+b\quad\text{for all }x\in X.
-$$
+\]
 
 ## Examples
 
-- Any translation $B(x)=x+b$ is affine (take $A=\mathrm{Id}$).
-- Any linear map is affine (take $b=0$).
-- In $\mathbb{R}^n$, $B(x)=Mx+b$ with a fixed matrix $M$ and vector $b$ is affine.
+- Any translation \(B(x)=x+b\) is affine (take \(A=\mathrm{Id}\)).
+- Any linear map is affine (take \(b=0\)).
+- In \(\mathbb{R}^n\), \(B(x)=Mx+b\) with a fixed matrix \(M\) and vector \(b\) is affine.
 
 ## Remarks
 

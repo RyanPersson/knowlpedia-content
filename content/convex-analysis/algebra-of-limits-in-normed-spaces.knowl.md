@@ -9,10 +9,10 @@ legacy_source_path = "convex-analysis/algebra-of-limits-in-normed-spaces.md"
 +++
 
 **Proposition.**
-Let $(X,\|\cdot\|)$ be a normed space.
+Let \((X,\|\cdot\|)\) be a normed space.
 
-1. If $x_n\to x$ and $y_n\to y$, then $x_n+y_n\to x+y$.
-2. If $x_n\to x$ and $\alpha_n\to \alpha$ (in $\mathbb{R}$ or $\mathbb{C}$), then $\alpha_n x_n\to \alpha x$.
+1. If \(x_n\to x\) and \(y_n\to y\), then \(x_n+y_n\to x+y\).
+2. If \(x_n\to x\) and \(\alpha_n\to \alpha\) (in \(\mathbb{R}\) or \(\mathbb{C}\)), then \(\alpha_n x_n\to \alpha x\).
 
 ## Remarks
 
@@ -20,13 +20,13 @@ Let $(X,\|\cdot\|)$ be a normed space.
 
 **Proof sketch.**
 1. By the triangle inequality,
-$$
+\[
 \|(x_n+y_n)-(x+y)\|\le \|x_n-x\|+\|y_n-y\|\to 0.
-$$
+\]
 2. Write
-$$
+\[
 \|\alpha_n x_n-\alpha x\|\le \|\alpha_n(x_n-x)\|+\|(\alpha_n-\alpha)x\|
 =|\alpha_n|\,\|x_n-x\|+|\alpha_n-\alpha|\,\|x\|.
-$$
+\]
 
-Use that $(\alpha_n)$ is bounded and both factors tend to $0$.
+Use that \((\alpha_n)\) is bounded and both factors tend to \(0\).

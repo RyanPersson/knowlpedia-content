@@ -8,16 +8,16 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/closure-of-a-set.md"
 +++
 
-Let $(X,d)$ be a metric space and let $E\subset X$.
+Let \((X,d)\) be a metric space and let \(E\subset X\).
 
-The **closure** of $E$, denoted $\overline{E}$, is defined as
-$$
+The **closure** of \(E\), denoted \(\overline{E}\), is defined as
+\[
 \overline{E}:=\bigcap\{\,F\subset X \mid F \text{ is closed and } E\subset F\,\}.
-$$
+\]
 
 ## Equivalent characterizations
 
-Equivalently, $\overline{E}$ is the **smallest** [[convex-analysis/closed-subset|closed set]] containing $E$.
+Equivalently, \(\overline{E}\) is the **smallest** [[convex-analysis/closed-subset|closed set]] containing \(E\).
 
 ## Remarks
 
@@ -25,6 +25,6 @@ A useful pointwise characterization is given by [[convex-analysis/closure-charac
 
 ## Examples
 
-- In $\mathbb{R}$, $\overline{(0,1)}=[0,1]$.
-- If $E$ is closed, then $\overline{E}=E$.
-- If $E$ is dense in $X$ (e.g., $\mathbb{Q}$ in $\mathbb{R}$), then $\overline{E}=X$.
+- In \(\mathbb{R}\), \(\overline{(0,1)}=[0,1]\).
+- If \(E\) is closed, then \(\overline{E}=E\).
+- If \(E\) is dense in \(X\) (e.g., \(\mathbb{Q}\) in \(\mathbb{R}\)), then \(\overline{E}=X\).

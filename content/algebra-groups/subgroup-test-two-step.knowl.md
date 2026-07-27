@@ -8,10 +8,10 @@ domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/subgroup-test-two-step.md"
 +++
 
-**Subgroup Test (two-step)**: Let $G$ be a [[algebra-groups/group|group]] and let $H$ be a nonempty [[shared-foundations/subset|subset]] of $G$. Then $H$ is a [[algebra-groups/subgroup|subgroup]] of $G$ if and only if:
+**Subgroup Test (two-step)**: Let \(G\) be a [[algebra-groups/group|group]] and let \(H\) be a nonempty [[shared-foundations/subset|subset]] of \(G\). Then \(H\) is a [[algebra-groups/subgroup|subgroup]] of \(G\) if and only if:
 
-1. for all $x,y\in H$ one has $xy\in H$ (closure under the group operation), and
-2. for all $x\in H$ one has $x^{-1}\in H$ (closure under inverses).
+1. for all \(x,y\in H\) one has \(xy\in H\) (closure under the group operation), and
+2. for all \(x\in H\) one has \(x^{-1}\in H\) (closure under inverses).
 
 ## Remarks
 

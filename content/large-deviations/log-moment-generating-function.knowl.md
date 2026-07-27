@@ -8,19 +8,19 @@ domains = ["large-deviations"]
 legacy_source_path = "large-deviations/log-moment-generating-function.md"
 +++
 
-A **log moment generating function** (log-MGF) of an $\mathbb R^d$-valued [[probability/random-variable|random variable]] $X$ is the function $\Lambda:\mathbb R^d\to(-\infty,\infty]$ defined by
-$$
+A **log moment generating function** (log-MGF) of an \(\mathbb R^d\)-valued [[probability/random-variable|random variable]] \(X\) is the function \(\Lambda:\mathbb R^d\to(-\infty,\infty]\) defined by
+\[
 \Lambda(\theta)=\log \mathbb E\big[e^{\langle \theta, X\rangle}\big],
-$$
+\]
 
-where $\langle\theta,X\rangle$ is the Euclidean inner product and the expectation is taken in the sense of [[probability/expectation|expectation]].
+where \(\langle\theta,X\rangle\) is the Euclidean inner product and the expectation is taken in the sense of [[probability/expectation|expectation]].
 
 ## Equivalent characterizations
 
-Equivalently, if $\mu$ is the [[probability/distribution-law|law]] of $X$, then
-$$
+Equivalently, if \(\mu\) is the [[probability/distribution-law|law]] of \(X\), then
+\[
 \Lambda(\theta)=\log\int_{\mathbb R^d} e^{\langle\theta,x\rangle}\,\mu(dx),
-$$
+\]
 where the integral is a special case of the [[measure-theory/lebesgue-integral|Lebesgue integral]].
 
 ## Remarks
@@ -29,5 +29,5 @@ The log-MGF is a central object in large deviations: it is convex and encodes ex
 
 ## Examples
 
-- If $X\sim \mathcal N(0,\sigma^2)$ on $\mathbb R$, then $\Lambda(\theta)=\frac{\sigma^2\theta^2}{2}$ for all $\theta\in\mathbb R$.
-- If $X\sim \mathrm{Bernoulli}(p)$ on $\{0,1\}$, then $\Lambda(\theta)=\log\big((1-p)+p e^{\theta}\big)$ for all $\theta\in\mathbb R$.
+- If \(X\sim \mathcal N(0,\sigma^2)\) on \(\mathbb R\), then \(\Lambda(\theta)=\frac{\sigma^2\theta^2}{2}\) for all \(\theta\in\mathbb R\).
+- If \(X\sim \mathrm{Bernoulli}(p)\) on \(\{0,1\}\), then \(\Lambda(\theta)=\log\big((1-p)+p e^{\theta}\big)\) for all \(\theta\in\mathbb R\).

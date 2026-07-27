@@ -9,16 +9,16 @@ legacy_source_path = "convex-analysis/convergence-implies-convergence-of-norms.m
 +++
 
 **Proposition.**
-If $(x_n)$ [[convex-analysis/convergence-in-normed-spaces|converges in norm]] to $x$ in a normed space, then
-$$
+If \((x_n)\) [[convex-analysis/convergence-in-normed-spaces|converges in norm]] to \(x\) in a normed space, then
+\[
 \|x_n\|\to \|x\|.
-$$
+\]
 
-**Context.** This expresses continuity of the norm map $x\mapsto\|x\|$.
+**Context.** This expresses continuity of the norm map \(x\mapsto\|x\|\).
 
 **Proof sketch.** By the [[real-analysis/reverse-triangle-inequality|reverse triangle inequality]],
-$$
+\[
 \big|\|x_n\|-\|x\|\big|\le \|x_n-x\|\to 0,
-$$
+\]
 
-hence $\|x_n\|\to \|x\|$.
+hence \(\|x_n\|\to \|x\|\).

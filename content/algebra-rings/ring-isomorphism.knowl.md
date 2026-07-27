@@ -8,7 +8,7 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/ring-isomorphism.md"
 +++
 
-A **ring isomorphism** is a bijective [[algebra-rings/ring-homomorphism|ring homomorphism]] $\varphi:R\to S$. Its inverse function $\varphi^{-1}:S\to R$ is then automatically a ring homomorphism.
+A **ring isomorphism** is a bijective [[algebra-rings/ring-homomorphism|ring homomorphism]] \(\varphi:R\to S\). Its inverse function \(\varphi^{-1}:S\to R\) is then automatically a ring homomorphism.
 
 ## Remarks
 
@@ -16,6 +16,6 @@ Isomorphic rings have corresponding ideal lattices, unit groups, and ring-theore
 
 ## Examples
 
-- The map $R[x]/(x)\to R$ sending $f(x)+(x)\mapsto f(0)$ is a ring isomorphism.
-- For a commutative ring $R$, $R\times R \cong R[t]/(t(t-1))$.
-- The inclusion $\mathbb Z\hookrightarrow\mathbb Q$ is a ring homomorphism but not an isomorphism because it is not surjective.
+- The map \(R[x]/(x)\to R\) sending \(f(x)+(x)\mapsto f(0)\) is a ring isomorphism.
+- For a commutative ring \(R\), \(R\times R \cong R[t]/(t(t-1))\).
+- The inclusion \(\mathbb Z\hookrightarrow\mathbb Q\) is a ring homomorphism but not an isomorphism because it is not surjective.

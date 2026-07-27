@@ -8,7 +8,7 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/total-order.md"
 +++
 
-A **total order** on a [[shared-foundations/set|set]] $X$ is a [[shared-foundations/partial-order|partial order]] $\le$ on $X$ such that for all $a,b\in X$, either $a\le b$ or $b\le a$.
+A **total order** on a [[shared-foundations/set|set]] \(X\) is a [[shared-foundations/partial-order|partial order]] \(\le\) on \(X\) such that for all \(a,b\in X\), either \(a\le b\) or \(b\le a\).
 
 ## Remarks
 
@@ -16,5 +16,5 @@ Total orders are also called linear orders. A [[shared-foundations/well-ordered-
 
 ## Examples
 
-- The usual order $\le$ on $\mathbb{Z}$ (the [[shared-foundations/integers|integers]]) is a total order.
-- (Lexicographic order) If $X$ and $Y$ are totally ordered, define an order on $X\times Y$ by $(x,y)\le_{\mathrm{lex}}(x',y')$ if either $x<x'$, or $x=x'$ and $y\le y'$ (where $x<x'$ means $x\le x'$ and $x\ne x'$). This gives a total order on the [[shared-foundations/cartesian-product|Cartesian product]] $X\times Y$.
+- The usual order \(\le\) on \(\mathbb{Z}\) (the [[shared-foundations/integers|integers]]) is a total order.
+- (Lexicographic order) If \(X\) and \(Y\) are totally ordered, define an order on \(X\times Y\) by \((x,y)\le_{\mathrm{lex}}(x',y')\) if either \(x<x'\), or \(x=x'\) and \(y\le y'\) (where \(x<x'\) means \(x\le x'\) and \(x\ne x'\)). This gives a total order on the [[shared-foundations/cartesian-product|Cartesian product]] \(X\times Y\).

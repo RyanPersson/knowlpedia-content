@@ -8,11 +8,11 @@ domains = ["probability"]
 legacy_source_path = "probability/central-limit-theorem.md"
 +++
 
-**Central limit theorem (i.i.d. version):** Let $(X_i)_{i\ge 1}$ be an [[probability/iid-sequence|i.i.d. sequence]] of real-valued [[probability/random-variable|random variables]] with $\mathbb{E}[X_1]=\mu$ and $\mathrm{Var}(X_1)=\sigma^2$ where $0<\sigma^2<\infty$. Define $S_n=\sum_{i=1}^n X_i$. Then
-$$
+**Central limit theorem (i.i.d. version):** Let \((X_i)_{i\ge 1}\) be an [[probability/iid-sequence|i.i.d. sequence]] of real-valued [[probability/random-variable|random variables]] with \(\mathbb{E}[X_1]=\mu\) and \(\mathrm{Var}(X_1)=\sigma^2\) where \(0<\sigma^2<\infty\). Define \(S_n=\sum_{i=1}^n X_i\). Then
+\[
 \frac{S_n-n\mu}{\sigma\sqrt{n}} \Rightarrow \mathcal{N}(0,1)\quad\text{as }n\to\infty,
-$$
-where $\Rightarrow$ denotes convergence in distribution.
+\]
+where \(\Rightarrow\) denotes convergence in distribution.
 
 ## Remarks
 

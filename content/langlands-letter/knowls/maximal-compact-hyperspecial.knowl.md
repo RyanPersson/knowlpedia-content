@@ -8,17 +8,17 @@ domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/maximal-compact-hyperspecial.md"
 +++
 
-Let $k$ be a nonarchimedean local field with ring of integers $\mathcal O_k$.
+Let \(k\) be a nonarchimedean local field with ring of integers \(\mathcal O_k\).
 
-A **maximal compact subgroup** of $G(k)$ is a compact open subgroup maximal under inclusion.
+A **maximal compact subgroup** of \(G(k)\) is a compact open subgroup maximal under inclusion.
 
-A subgroup $K$ is **hyperspecial** if $G$ extends to a reductive group scheme $\mathcal G/\mathcal O_k$ and $K=\mathcal G(\mathcal O_k)$.
+A subgroup \(K\) is **hyperspecial** if \(G\) extends to a reductive group scheme \(\mathcal G/\mathcal O_k\) and \(K=\mathcal G(\mathcal O_k)\).
 
 ## Remarks
 
 **Key property (for the letter):**
-- For hyperspecial $K$, the [[langlands-letter/knowls/spherical-hecke-algebra-satake|spherical Hecke algebra]] has the clean Satake description; the letter's $G_{\mathbb Z_p}$ plays this role for almost all $p$.
+- For hyperspecial \(K\), the [[langlands-letter/knowls/spherical-hecke-algebra-satake|spherical Hecke algebra]] has the clean Satake description; the letter's \(G_{\mathbb Z_p}\) plays this role for almost all \(p\).
 
 ## Examples
 
-- $\mathrm{GL}_n(\mathcal O_k)\subset \mathrm{GL}_n(k)$ is hyperspecial.
+- \(\mathrm{GL}_n(\mathcal O_k)\subset \mathrm{GL}_n(k)\) is hyperspecial.

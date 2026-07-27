@@ -8,8 +8,8 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/convexity-preserved-under-affine-composition.md"
 +++
 
-Let $B:X\to Y$ be an [[convex-analysis/affine-mapping|affine mapping]] between real [[linear-algebra/vector-space|vector spaces]], and let $f:Y\to\overline{\mathbb R}$ be a [[convex-analysis/convex-function-via-epigraph|convex function]]. Then $f\circ B$ is convex on $X$.
+Let \(B:X\to Y\) be an [[convex-analysis/affine-mapping|affine mapping]] between real [[linear-algebra/vector-space|vector spaces]], and let \(f:Y\to\overline{\mathbb R}\) be a [[convex-analysis/convex-function-via-epigraph|convex function]]. Then \(f\circ B\) is convex on \(X\).
 
 ## Proof idea
 
-Use $B(\lambda x+(1-\lambda)y)=\lambda B(x)+(1-\lambda)B(y)$ for $0\leq\lambda\leq1$, then apply convexity of $f$.
+Use \(B(\lambda x+(1-\lambda)y)=\lambda B(x)+(1-\lambda)B(y)\) for \(0\leq\lambda\leq1\), then apply convexity of \(f\).

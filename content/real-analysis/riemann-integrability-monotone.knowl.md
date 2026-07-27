@@ -8,6 +8,6 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/riemann-integrability-monotone.md"
 +++
 
-**Monotone functions are Riemann integrable:** Let $a<b$. If $f:[a,b]\to\mathbb{R}$ is [[real-analysis/monotone-function|monotone]], then $f$ is a [[real-analysis/riemann-integrable-function|Riemann integrable function]] on $[a,b]$.
+**Monotone functions are Riemann integrable:** Let \(a<b\). If \(f:[a,b]\to\mathbb{R}\) is [[real-analysis/monotone-function|monotone]], then \(f\) is a [[real-analysis/riemann-integrable-function|Riemann integrable function]] on \([a,b]\).
 
 This theorem is a cornerstone of the Riemann theory, providing integrability for many non-continuous examples; it complements criteria based on [[real-analysis/discontinuity-point|discontinuities]] and the [[real-analysis/oscillation-criterion|oscillation criterion]].

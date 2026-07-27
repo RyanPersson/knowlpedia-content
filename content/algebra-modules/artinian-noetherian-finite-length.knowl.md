@@ -8,10 +8,10 @@ domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/artinian-noetherian-finite-length.md"
 +++
 
-**Artinian and Noetherian implies finite length**: Let $M$ be an $R$-module. If $M$ is both Artinian and Noetherian, then $M$ admits a finite composition series.
+**Artinian and Noetherian implies finite length**: Let \(M\) be an \(R\)-module. If \(M\) is both Artinian and Noetherian, then \(M\) admits a finite composition series.
 
 This combines [[algebra-modules/artinian-module|Artinian]] and [[algebra-modules/noetherian-module|Noetherian]] chain conditions to produce a finite [[algebra-modules/composition-series-module|composition series]], whose size is measured by [[algebra-modules/length-module|module length]].
 
 ## Equivalent characterizations
 
-Equivalently, $M$ has finite length.
+Equivalently, \(M\) has finite length.

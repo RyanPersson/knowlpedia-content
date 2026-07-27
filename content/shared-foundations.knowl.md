@@ -117,5 +117,5 @@ This section contains foundational definitions from set theory and mathematical 
 
 - [[shared-foundations/divisibility|Divisibility]]
 - [[shared-foundations/factorial|Factorial]]
-- [[shared-foundations/p-adic-valuation|$p$-adic valuation]]
-- [[shared-foundations/p-adic-integers|$p$-adic integers]]
+- [[shared-foundations/p-adic-valuation|\(p\)-adic valuation]]
+- [[shared-foundations/p-adic-integers|\(p\)-adic integers]]

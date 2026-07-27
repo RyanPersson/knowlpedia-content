@@ -8,11 +8,11 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/limit-inferior.md"
 +++
 
-The **limit inferior** of a sequence $(a_n)_{n\ge1}$ of extended real numbers is
-$$
+The **limit inferior** of a sequence \((a_n)_{n\ge1}\) of extended real numbers is
+\[
 \liminf_{n\to\infty} a_n \;=\; \sup_{n\ge 1}\,\inf_{k\ge n} a_k,
-$$
-where the supremum and infima are taken in $[-\infty,+\infty]$.
+\]
+where the supremum and infima are taken in \([-\infty,+\infty]\).
 
 ## Remarks
 

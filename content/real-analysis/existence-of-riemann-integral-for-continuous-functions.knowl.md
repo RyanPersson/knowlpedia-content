@@ -8,7 +8,7 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/existence-of-riemann-integral-for-continuous-functions.md"
 +++
 
-**Continuous functions are Riemann integrable**: If $f:[a,b]\to\mathbb{R}$ is [[real-analysis/continuity-on-a-set|continuous]], then $f$ is [[real-analysis/riemann-integrable-function|Riemann integrable]] on $[a,b]$.
+**Continuous functions are Riemann integrable**: If \(f:[a,b]\to\mathbb{R}\) is [[real-analysis/continuity-on-a-set|continuous]], then \(f\) is [[real-analysis/riemann-integrable-function|Riemann integrable]] on \([a,b]\).
 
 ## Remarks
 

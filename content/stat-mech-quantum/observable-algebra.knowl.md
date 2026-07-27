@@ -8,24 +8,24 @@ domains = ["stat-mech-quantum"]
 legacy_source_path = "stat-mech-quantum/observable-algebra.md"
 +++
 
-Let $\mathcal H$ be a finite-dimensional complex Hilbert space. An **observable algebra** is a unital $*$-subalgebra
-$$
+Let \(\mathcal H\) be a finite-dimensional complex Hilbert space. An **observable algebra** is a unital \(*\)-subalgebra
+\[
 \mathcal A\subseteq \mathcal B(\mathcal H),
-$$
-where $\mathcal B(\mathcal H)$ is the algebra of operators on $\mathcal H$. Thus $\mathcal A$ contains the identity and is closed under linear combinations, products, and adjoints. The physical observables are the self-adjoint elements of $\mathcal A$.
+\]
+where \(\mathcal B(\mathcal H)\) is the algebra of operators on \(\mathcal H\). Thus \(\mathcal A\) contains the identity and is closed under linear combinations, products, and adjoints. The physical observables are the self-adjoint elements of \(\mathcal A\).
 
 ## States
 
-A state on $\mathcal A$ is a positive normalized linear functional $\omega:\mathcal A\to\mathbb C$:
-$$
+A state on \(\mathcal A\) is a positive normalized linear functional \(\omega:\mathcal A\to\mathbb C\):
+\[
 \omega(A^*A)\ge 0,
 \qquad
 \omega(I)=1.
-$$
-When $\mathcal A=\mathcal B(\mathcal H)$, there is a unique [[quantum-foundations/density-operator|density operator]] $\rho$ such that
-$$
+\]
+When \(\mathcal A=\mathcal B(\mathcal H)\), there is a unique [[quantum-foundations/density-operator|density operator]] \(\rho\) such that
+\[
 \omega(A)=\operatorname{Tr}(\rho A).
-$$
+\]
 
 ## Remarks
 

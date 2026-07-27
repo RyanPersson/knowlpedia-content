@@ -8,10 +8,10 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/comparison-test.md"
 +++
 
-**Comparison test:** Let $\sum_{n=1}^\infty a_n$ and $\sum_{n=1}^\infty b_n$ be [[real-analysis/series|series]] with $a_n\ge 0$ and $b_n\ge 0$ for all $n$.
+**Comparison test:** Let \(\sum_{n=1}^\infty a_n\) and \(\sum_{n=1}^\infty b_n\) be [[real-analysis/series|series]] with \(a_n\ge 0\) and \(b_n\ge 0\) for all \(n\).
 
-- If $0 \le a_n \le b_n$ for all sufficiently large $n$ and $\sum b_n$ is a [[real-analysis/convergent-series|convergent series]], then $\sum a_n$ is convergent.
-- If $0 \le a_n \le b_n$ for all sufficiently large $n$ and $\sum a_n$ is a [[real-analysis/divergent-series|divergent series]], then $\sum b_n$ diverges.
+- If \(0 \le a_n \le b_n\) for all sufficiently large \(n\) and \(\sum b_n\) is a [[real-analysis/convergent-series|convergent series]], then \(\sum a_n\) is convergent.
+- If \(0 \le a_n \le b_n\) for all sufficiently large \(n\) and \(\sum a_n\) is a [[real-analysis/divergent-series|divergent series]], then \(\sum b_n\) diverges.
 
 ## Remarks
 

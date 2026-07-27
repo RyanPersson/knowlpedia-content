@@ -8,18 +8,18 @@ domains = ["topology"]
 legacy_source_path = "topology/extreme-value-theorem.md"
 +++
 
-The **extreme value theorem** states: if $f: K \to \mathbb{R}$ is a [[topology/continuous-map|continuous function]] on a [[topology/compact-set|compact set]] $K$, then $f$ attains its maximum and minimum values.
+The **extreme value theorem** states: if \(f: K \to \mathbb{R}\) is a [[topology/continuous-map|continuous function]] on a [[topology/compact-set|compact set]] \(K\), then \(f\) attains its maximum and minimum values.
 
-That is, there exist $x_{\max}, x_{\min} \in K$ such that
-$$
+That is, there exist \(x_{\max}, x_{\min} \in K\) such that
+\[
 f(x_{\min}) \leq f(x) \leq f(x_{\max}) \quad \text{for all } x \in K.
-$$
+\]
 
 ## Classical version
 
-Every continuous function $f:[a,b]\to\mathbb R$ attains a maximum and a minimum on $[a,b]$.
+Every continuous function \(f:[a,b]\to\mathbb R\) attains a maximum and a minimum on \([a,b]\).
 
 ## Why compactness matters
 
-- The function $f(x)=x$ on $(0,1)$ has neither a maximum nor a minimum.
-- The function $f(x)=1/x$ on $[1,\infty)$ has no minimum.
+- The function \(f(x)=x\) on \((0,1)\) has neither a maximum nor a minimum.
+- The function \(f(x)=1/x\) on \([1,\infty)\) has no minimum.

@@ -8,16 +8,16 @@ domains = ["shale-paper"]
 legacy_source_path = "shale-paper/symmetric-tensor-product.md"
 +++
 
-Let $H$ be a complex Hilbert space and let $x_1,\dots,x_n\in H$. Their **symmetric tensor** is the symmetrization
-$$
+Let \(H\) be a complex Hilbert space and let \(x_1,\dots,x_n\in H\). Their **symmetric tensor** is the symmetrization
+\[
 (x_1\otimes\cdots\otimes x_n)_s=\frac1{n!}\sum_{\pi\in S_n} x_{\pi(1)}\otimes\cdots\otimes x_{\pi(n)}.
-$$
-It belongs to the subspace of $H^{\otimes n}$ fixed by permutations of the tensor factors.
+\]
+It belongs to the subspace of \(H^{\otimes n}\) fixed by permutations of the tensor factors.
 
 ## Remarks
 
-Symmetric tensors span the $n$-particle symmetric tensor power; these powers form the [[shale-paper/symmetric-fock-space|symmetric Fock space $S(H)$]] used for Fock–Cook quantization.
+Symmetric tensors span the \(n\)-particle symmetric tensor power; these powers form the [[shale-paper/symmetric-fock-space|symmetric Fock space \(S(H)\)]] used for Fock–Cook quantization.
 
 ## Examples
 
-- For $n=2$, $(x\otimes y)_s=\tfrac12(x\otimes y+y\otimes x)$.
+- For \(n=2\), \((x\otimes y)_s=\tfrac12(x\otimes y+y\otimes x)\).

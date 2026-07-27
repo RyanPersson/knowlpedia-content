@@ -8,17 +8,17 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/self-adjoint-linear-operator.md"
 +++
 
-Let $H$ be an inner product space (real or complex), and let $A:H\to H$ be a [[convex-analysis/linear-operator-linear-transformation|linear operator]].
+Let \(H\) be an inner product space (real or complex), and let \(A:H\to H\) be a [[convex-analysis/linear-operator-linear-transformation|linear operator]].
 
-The operator $A$ is **self-adjoint** if
-$$
+The operator \(A\) is **self-adjoint** if
+\[
 \langle Ax,y\rangle=\langle x,Ay\rangle \quad \text{for all }x,y\in H.
-$$
+\]
 
 ## Examples
 
-- In $\mathbb{R}^n$ with the standard inner product, $A(x)=Mx$ is self-adjoint iff $M$ is symmetric.
-- In $\mathbb{C}^n$, $A(x)=Mx$ is self-adjoint iff $M$ is Hermitian.
+- In \(\mathbb{R}^n\) with the standard inner product, \(A(x)=Mx\) is self-adjoint iff \(M\) is symmetric.
+- In \(\mathbb{C}^n\), \(A(x)=Mx\) is self-adjoint iff \(M\) is Hermitian.
 
 ## Remarks
 

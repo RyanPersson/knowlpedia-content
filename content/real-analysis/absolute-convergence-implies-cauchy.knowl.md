@@ -8,14 +8,14 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/absolute-convergence-implies-cauchy.md"
 +++
 
-**Absolute convergence implies Cauchy:** Let $\sum_{n=1}^\infty a_n$ be a series of real or complex numbers, and let $s_n=\sum_{k=1}^n a_k$ be its [[real-analysis/partial-sums|partial sums]]. If
-$$
+**Absolute convergence implies Cauchy:** Let \(\sum_{n=1}^\infty a_n\) be a series of real or complex numbers, and let \(s_n=\sum_{k=1}^n a_k\) be its [[real-analysis/partial-sums|partial sums]]. If
+\[
 \sum_{n=1}^\infty |a_n|
-$$
-converges, then $(s_n)$ is a Cauchy sequence; equivalently, for every $\varepsilon>0$ there exists $N$ such that for all integers $m>n\ge N$,
-$$
+\]
+converges, then \((s_n)\) is a Cauchy sequence; equivalently, for every \(\varepsilon>0\) there exists \(N\) such that for all integers \(m>n\ge N\),
+\[
 \left|\sum_{k=n+1}^m a_k\right|<\varepsilon.
-$$
+\]
 
 ## Remarks
 

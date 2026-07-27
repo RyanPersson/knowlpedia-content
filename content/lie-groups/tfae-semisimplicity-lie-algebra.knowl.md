@@ -8,13 +8,13 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/tfae-semisimplicity-lie-algebra.md"
 +++
 
-Let $\mathfrak g$ be a finite-dimensional Lie algebra over a field of characteristic $0$. The following are equivalent.
+Let \(\mathfrak g\) be a finite-dimensional Lie algebra over a field of characteristic \(0\). The following are equivalent.
 
-1. **No nonzero solvable ideals:** $\mathfrak g$ is [[lie-groups/semisimple-lie-algebra|semisimple]], i.e. it has no nonzero solvable ideal (equivalently, its radical is $0$).
+1. **No nonzero solvable ideals:** \(\mathfrak g\) is [[lie-groups/semisimple-lie-algebra|semisimple]], i.e. it has no nonzero solvable ideal (equivalently, its radical is \(0\)).
 
-2. **Nondegenerate Killing form:** the [[lie-groups/killing-form|Killing form]] $\kappa(X,Y)=\mathrm{tr}(\mathrm{ad}_X\mathrm{ad}_Y)$ is nondegenerate; compare [[lie-groups/killing-form-nondegenerate-iff-semisimple|nondegeneracy of the Killing form]].
+2. **Nondegenerate Killing form:** the [[lie-groups/killing-form|Killing form]] \(\kappa(X,Y)=\mathrm{tr}(\mathrm{ad}_X\mathrm{ad}_Y)\) is nondegenerate; compare [[lie-groups/killing-form-nondegenerate-iff-semisimple|nondegeneracy of the Killing form]].
 
-3. **Direct sum of simple ideals:** $\mathfrak g$ is a (finite) [[lie-groups/direct-sum-of-lie-algebras|direct sum]] of [[lie-groups/simple-lie-algebra|simple Lie algebras]]; see [[lie-groups/semisimple-direct-sum-simple|semisimple equals direct sum of simple ideals]].
+3. **Direct sum of simple ideals:** \(\mathfrak g\) is a (finite) [[lie-groups/direct-sum-of-lie-algebras|direct sum]] of [[lie-groups/simple-lie-algebra|simple Lie algebras]]; see [[lie-groups/semisimple-direct-sum-simple|semisimple equals direct sum of simple ideals]].
 
 ## Remarks
 

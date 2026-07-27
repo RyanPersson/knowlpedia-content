@@ -8,21 +8,21 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/lie-algebra.md"
 +++
 
-A **Lie algebra** is a [[linear-algebra/vector-space|vector space]] $\mathfrak{g}$ (typically over $\mathbb{R}$ or $\mathbb{C}$) equipped with a bilinear map
-$$
+A **Lie algebra** is a [[linear-algebra/vector-space|vector space]] \(\mathfrak{g}\) (typically over \(\mathbb{R}\) or \(\mathbb{C}\)) equipped with a bilinear map
+\[
 [\ ,\ ]:\mathfrak{g}\times\mathfrak{g}\to\mathfrak{g},
-$$
-called the [[fiber-bundles/lie-bracket|Lie bracket]], such that for all $X,Y,Z\in\mathfrak{g}$:
-1. **Alternating / antisymmetry:** $[X,X]=0$ (equivalently $[X,Y]=-[Y,X]$).
+\]
+called the [[fiber-bundles/lie-bracket|Lie bracket]], such that for all \(X,Y,Z\in\mathfrak{g}\):
+1. **Alternating / antisymmetry:** \([X,X]=0\) (equivalently \([X,Y]=-[Y,X]\)).
 2. **Jacobi identity:**
-$$
+\[
 [X,[Y,Z]]+[Y,[Z,X]]+[Z,[X,Y]]=0.
-$$
+\]
 
 ## Examples
-- Any associative algebra becomes a Lie algebra with commutator $[A,B]=AB-BA$, e.g. matrix Lie algebras $\mathfrak{gl}(n,\mathbb{R})$.
+- Any associative algebra becomes a Lie algebra with commutator \([A,B]=AB-BA\), e.g. matrix Lie algebras \(\mathfrak{gl}(n,\mathbb{R})\).
 - The space of [[fiber-bundles/vector-field|vector fields]] on a manifold with the commutator bracket.
-- An [[lie-groups/abelian-lie-algebra|abelian Lie algebra]] is one with $[X,Y]=0$ for all $X,Y$.
+- An [[lie-groups/abelian-lie-algebra|abelian Lie algebra]] is one with \([X,Y]=0\) for all \(X,Y\).
 
 ## Maps and structure
 A structure-preserving map is a [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]]; bijective ones are [[lie-groups/lie-algebra-isomorphism|isomorphisms]].

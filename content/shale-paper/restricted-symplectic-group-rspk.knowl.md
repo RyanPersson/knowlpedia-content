@@ -9,20 +9,20 @@ legacy_source_path = "shale-paper/restricted-symplectic-group-rspk.md"
 +++
 
 The **restricted symplectic group** is
-$$
+\[
 \mathrm{rSp}(K)=\mathrm{Sp}(K)\cap \mathrm{rGL}(K),
-$$
-where $\mathrm{rGL}(K)$ is the [[shale-paper/restricted-general-linear-group-rgl|restricted general linear group]].
+\]
+where \(\mathrm{rGL}(K)\) is the [[shale-paper/restricted-general-linear-group-rgl|restricted general linear group]].
 
-In Shale's Theorem 4.1 (Fock–Cook quantization), $T$ is unitarily implementable iff $T\in rSp(K)$,
-equivalently $(T^*T)^{1/2}-I$ is [[shale-paper/hilbert-schmidt-operator|Hilbert–Schmidt]].
+In Shale's Theorem 4.1 (Fock–Cook quantization), \(T\) is unitarily implementable iff \(T\in rSp(K)\),
+equivalently \((T^*T)^{1/2}-I\) is [[shale-paper/hilbert-schmidt-operator|Hilbert–Schmidt]].
 
 ## Remarks
 
 **Key properties:**
 - Closed under [[shale-paper/polar-decomposition|polar decomposition]].
-- Carries a continuous projective unitary representation $\overline{Y}$.
+- Carries a continuous projective unitary representation \(\overline{Y}\).
 
 ## Examples
 
-- Finite-dimensional case: $rSp(K)=Sp(K)$.
+- Finite-dimensional case: \(rSp(K)=Sp(K)\).

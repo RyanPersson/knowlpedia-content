@@ -8,12 +8,12 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/kernel-is-ideal.md"
 +++
 
-Let $\varphi:R\to S$ be a [[algebra-rings/ring-homomorphism|ring homomorphism]]. Then
-$$
+Let \(\varphi:R\to S\) be a [[algebra-rings/ring-homomorphism|ring homomorphism]]. Then
+\[
 \ker(\varphi)=\{r\in R:\varphi(r)=0_S\}
-$$
-is a two-sided [[algebra-rings/ideal|ideal]] of $R$.
+\]
+is a two-sided [[algebra-rings/ideal|ideal]] of \(R\).
 
 ## Consequence
 
-One can therefore form the [[algebra-rings/quotient-ring|quotient ring]] $R/\ker\varphi$. This is the key input for [[algebra-rings/first-isomorphism-theorem-rings|the first isomorphism theorem for rings]].
+One can therefore form the [[algebra-rings/quotient-ring|quotient ring]] \(R/\ker\varphi\). This is the key input for [[algebra-rings/first-isomorphism-theorem-rings|the first isomorphism theorem for rings]].

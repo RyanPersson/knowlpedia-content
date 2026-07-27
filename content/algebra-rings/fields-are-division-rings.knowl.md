@@ -8,7 +8,7 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/fields-are-division-rings.md"
 +++
 
-**Fields are exactly commutative division rings**: A ring $R$ is a [[algebra-rings/field|field]] if and only if it is a [[algebra-rings/division-ring|division ring]] whose multiplication is commutative (equivalently, $R$ is a [[algebra-rings/commutative-ring|commutative ring]] in which every nonzero element is invertible).
+**Fields are exactly commutative division rings**: A ring \(R\) is a [[algebra-rings/field|field]] if and only if it is a [[algebra-rings/division-ring|division ring]] whose multiplication is commutative (equivalently, \(R\) is a [[algebra-rings/commutative-ring|commutative ring]] in which every nonzero element is invertible).
 
 ## Remarks
 
