@@ -9,9 +9,9 @@ legacy_source_path = "algebra-modules/kernel-module.md"
 +++
 
 Let $f:M\to N$ be a [[algebra-modules/module-homomorphism|module homomorphism]]. The **kernel** of $f$ is
-\[
+$$
 \ker(f)=\{m\in M: f(m)=0\}.
-\]
+$$
 It is a [[algebra-modules/submodule|submodule]], as recorded in [[algebra-modules/kernels-are-submodules|kernels are submodules]].
 
 Kernels measure injectivity: $f$ is injective iff $\ker(f)=0$. They also define the notion of exactness (see [[algebra-modules/exact-sequence-modules|exact sequences]], where kernels match images).

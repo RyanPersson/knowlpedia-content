@@ -8,32 +8,23 @@ domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/simple-artinian-matrix-ring.md"
 +++
 
-A central structure theorem in ring theory is that “finite-length” (Artinian) simple rings are precisely matrix rings over division rings. This is the simplest nontrivial case of the [[algebra-rings/artin-wedderburn-theorem|Artin–Wedderburn theorem]].
+Let $R$ be a nonzero ring, not necessarily commutative. If $R$ is **simple**, meaning that it has no nonzero proper two-sided ideals, and [[algebra-commutative/artinian-ring|Artinian]], then there are an integer $n\ge 1$ and a [[algebra-rings/division-ring|division ring]] $D$ such that
+$$
+R\cong M_n(D)
+$$
+as rings. Conversely, every full matrix ring $M_n(D)$ over a division ring is simple Artinian. This is the simple case of the [[algebra-rings/artin-wedderburn-theorem|Artin–Wedderburn theorem]].
 
+A useful refinement is that $D$ may be taken, up to passing to the opposite ring according to module conventions, from the endomorphism ring of a simple $R$-module. The general semisimple case is the [[algebra-commutative/semisimple-artinian-product|finite product decomposition]] into such matrix rings.
 
-Let $R$ be a ring (not necessarily commutative). Assume:
-- $R$ is **simple** (it has no nonzero proper two-sided ideals), and
-- $R$ is [[algebra-commutative/artinian-ring|Artinian]] (equivalently, it is Artinian as a left or right module over itself).
-
-Then there exist an integer $n\ge 1$ and a [[algebra-rings/division-ring|division ring]] $D$ such that
-\[
-R \cong M_n(D)
-\]
-as rings, where $M_n(D)$ denotes the ring of $n\times n$ matrices over $D$.
-
-A useful refinement is that $D$ may be taken to be the endomorphism ring of a simple right $R$-module (a division ring by Schur’s lemma), and $n$ corresponds to the multiplicity with which that simple module appears in a decomposition of $R$ as a module over itself. The general semisimple case (finite products of such matrix rings) is encoded in [[algebra-commutative/semisimple-artinian-product|the semisimple Artinian product decomposition]].
-
-In the commutative setting, this theorem collapses strongly: if $R$ is commutative and simple Artinian, then necessarily $n=1$ and $D$ is commutative, so $R$ is a [[algebra-rings/field|field]].
+In the commutative setting, necessarily $n=1$ and $D$ is commutative, so $R$ is a [[algebra-rings/field|field]].
 
 ## Examples
 
 1. **Matrix rings over a field.**
-   For any field $k$ and any $n\ge 1$, the ring $M_n(k)$ is simple Artinian. Here $D=k$.
+   For any field $k$ and any $n\ge 1$, the ring $M_n(k)$ is simple Artinian.
 
 2. **Division rings (the case $n=1$).**
-   Any division ring $D$ is simple Artinian, and the theorem recovers it as $M_1(D)\cong D$. For instance, the real quaternions $\mathbb H$ form a (noncommutative) division ring, hence are simple Artinian.
+   Any division ring $D$ is simple Artinian, and $M_1(D)\cong D$. For instance, the real quaternions $\mathbb H$ form a noncommutative division ring.
 
 3. **Why “simple” matters.**
-   The ring $k\times k$ is Artinian and semisimple, but not simple: it has nontrivial two-sided ideals $k\times 0$ and $0\times k$. Accordingly, it is not a single matrix ring, but it fits the product form described by [[algebra-commutative/semisimple-artinian-product|semisimple Artinian product decomposition]].
-
-This theorem is frequently used alongside Jacobson radical facts such as [[algebra-commutative/jacobson-annihilates-simples|the Jacobson radical annihilates simple modules]], since in the semisimple Artinian setting the Jacobson radical is zero.
+   The ring $k\times k$ is Artinian and semisimple, but not simple: it has the nontrivial ideals $k\times0$ and $0\times k$. It therefore appears as a product rather than as one matrix-ring factor.

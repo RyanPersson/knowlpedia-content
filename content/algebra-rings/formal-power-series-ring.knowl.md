@@ -9,9 +9,9 @@ legacy_source_path = "algebra-rings/formal-power-series-ring.md"
 +++
 
 Let $R$ be a commutative ring with $1$. The **formal power series ring** $R[[x]]$ consists of all infinite sums
-\[
+$$
 \sum_{i=0}^{\infty} a_i x^i \quad (a_i\in R),
-\]
+$$
 with addition defined coefficientwise and multiplication defined by the Cauchy product (so the coefficient of $x^n$ is $\sum_{i+j=n} a_i b_j$).
 
 ## Remarks

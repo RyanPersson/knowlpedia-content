@@ -9,9 +9,9 @@ legacy_source_path = "lie-groups/kernel-of-ad-is-center-lemma.md"
 +++
 
 Let $G$ be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra $\mathfrak g$, and let
-\[
+$$
 \mathrm{Ad}:G\to \mathrm{Aut}(\mathfrak g)
-\]
+$$
 be the [[lie-groups/adjoint-action-of-a-lie-group|adjoint representation]], obtained by differentiating conjugation.
 
 **Lemma (Kernel of Ad).**

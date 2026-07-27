@@ -8,10 +8,10 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/mean-value-estimate-lemma.md"
 +++
 
-**Mean value estimate lemma:** Let $f:[a,b]\to\mathbb{R}$ be continuous on $[a,b]$ and [[real-analysis/differentiability-1d|differentiable]] on $(a,b)$. If there exists $M\ge 0$ such that $|f'(x)|\le M$ for all $x\in(a,b)$, then
-$$
+**Mean value estimate lemma:** Let \(f:[a,b]\to\mathbb{R}\) be continuous on \([a,b]\) and [[real-analysis/differentiability-1d|differentiable]] on \((a,b)\). If there exists \(M\ge 0\) such that \(|f'(x)|\le M\) for all \(x\in(a,b)\), then
+\[
 |f(b)-f(a)|\le M\,|b-a|.
-$$
+\]
 
 ## Remarks
 

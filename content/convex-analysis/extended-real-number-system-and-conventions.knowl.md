@@ -2,31 +2,31 @@
 id = "convex-analysis/extended-real-number-system-and-conventions"
 title = "Extended real number system and conventions"
 kind = "knowl"
-summary = "Conventions for inf/sup and extended-real-valued functions used in convex analysis"
+summary = "The ordered real line with positive and negative infinity, together with standard infimum and supremum conventions."
 aliases = ["extended-real-number-system-and-conventions", "Extended real number system and conventions"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/extended-real-number-system-and-conventions.md"
 +++
 
 The **extended real number system** is
-$$
-\overline{\mathbb{R}}:=\mathbb{R}\cup\{-\infty,\infty\}.
-$$
-In the notes, for convex analysis it is convenient to work mostly with the one-sided extension
-$$
-\mathbb{R}:=(-\infty,\infty]=\mathbb{R}\cup\{\infty\},
-$$
+\[
+\overline{\mathbb R}=\mathbb R\cup\{-\infty,+\infty\},
+\]
+ordered by \(-\infty<x<+\infty\) for every \(x\in\mathbb R\). Convex analysis often uses the one-sided extension
+\[
+\mathbb R\cup\{+\infty\}=(-\infty,+\infty]
+\]
+for functions that encode infeasible points by the value \(+\infty\).
 
-so that expressions like $-\infty+\infty$ never arise.
+## Infimum and supremum conventions
 
-**Infimum/supremum conventions (in $\overline{\mathbb{R}}$).**
-- $-\infty$ is a lower bound of every subset; every nonempty set has a greatest lower bound.
-- If a nonempty set is not bounded below, its infimum is $-\infty$.
-- By convention, $\inf\emptyset=\infty$.
-- $\infty$ is an upper bound of every subset; every nonempty set has a least upper bound.
-- If a nonempty set is not bounded above, its supremum is $\infty$.
-- By convention, $\sup\emptyset=-\infty$.
+For \(A\subseteq\overline{\mathbb R}\), an unbounded-below nonempty set has \(\inf A=-\infty\), and an unbounded-above nonempty set has \(\sup A=+\infty\). For the empty set, the conventions are
+\[
+\inf\varnothing=+\infty,
+\qquad
+\sup\varnothing=-\infty.
+\]
 
 ## Remarks
 
-**Context.** Allowing the value $\infty$ lets one encode constraints by penalties (e.g., the [[convex-analysis/indicator-function-of-a-set|indicator function]]) and avoid repeatedly restricting domains by hand.
+Allowing the value \(+\infty\) lets an [[convex-analysis/indicator-function-of-a-set|indicator function]] encode a constraint without repeatedly restricting the domain.

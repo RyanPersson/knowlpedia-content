@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/riemann-sum.md"
 +++
 
 A **Riemann sum** of a bounded function $f:[a,b]\to\mathbb R$ with respect to a [[real-analysis/tagged-partition|tagged partition]] $(P,\{t_i\})$, where $P=\{x_0,\dots,x_n\}$, is the number
-\[
+$$
 S(f;P,\{t_i\})=\sum_{i=1}^n f(t_i)\,(x_i-x_{i-1}).
-\]
+$$
 
 Riemann sums approximate the [[real-analysis/riemann-integral|Riemann integral]]; the approximation is controlled by the [[real-analysis/mesh-of-a-partition|mesh]] $\|P\|$ becoming small.
 

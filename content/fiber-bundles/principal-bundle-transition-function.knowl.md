@@ -9,24 +9,24 @@ legacy_source_path = "fiber-bundles/principal-bundle-transition-function.md"
 +++
 
 Fix a [[fiber-bundles/principal-g-bundle|principal G-bundle]] $\pi:P\to M$ and an [[topology/open-cover|open cover]] $\{U_i\}_{i\in I}$ together with [[fiber-bundles/equivariant-local-trivialization|equivariant local trivializations]]
-\[
+$$
 \psi_i:\pi^{-1}(U_i)\to U_i\times G.
-\]
+$$
 
 On an overlap $U_{ij}=U_i\cap U_j$, the **principal bundle transition function** is the (necessarily unique) [[fiber-bundles/smooth-map|smooth map]]
-\[
+$$
 g_{ij}:U_{ij}\to G
-\]
+$$
 characterized by either of the equivalent conditions:
 
 - (Trivialization comparison) For all $x\in U_{ij}$ and $h\in G$,
-  \[
+  $$
   \psi_i\circ\psi_j^{-1}(x,h)=(x,\,g_{ij}(x)\,h).
-  \]
+  $$
 - (Local section comparison) If $s_i(x)=\psi_i^{-1}(x,e)$ and $s_j(x)=\psi_j^{-1}(x,e)$, then
-  \[
+  $$
   s_j(x)=s_i(x)\cdot g_{ij}(x)\qquad (x\in U_{ij}).
-  \]
+  $$
 
 The functions $g_{ij}$ satisfy the cocycle identities on overlaps:
 1. $g_{ii}(x)=e$ on $U_i$,

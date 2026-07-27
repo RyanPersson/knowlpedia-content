@@ -8,16 +8,15 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/mean-value-inequality.md"
 +++
 
-**Mean value inequality:** Let $U\subseteq\mathbb R^k$ be an [[topology/open-set|open set]], let $f:U\to\mathbb R^m$ be continuously differentiable, and let $x,y\in U$ be such that the line segment $\{(1-t)x+ty:0\le t\le 1\}$ is contained in $U$. If there is $M\ge 0$ with
-$$
+**Mean value inequality.** Let \(U\subseteq\mathbb R^k\) be open, let \(f:U\to\mathbb R^m\) be continuously differentiable, and suppose the line segment \([x,y]\) lies in \(U\). If \(M\ge0\) satisfies
+\[
 \|Df(z)\|\le M \quad \text{for all } z \text{ on the segment from } x \text{ to } y,
-$$
-
-where $\|Df(z)\|$ is the [[linear-algebra/operator-norm|operator norm]] of the derivative, then
-$$
+\]
+where \(\lVert Df(z)\rVert\) is the [[linear-algebra/operator-norm|operator norm]], then
+\[
 \|f(y)-f(x)\|\le M\|y-x\|.
-$$
+\]
 
 ## Remarks
 
-For $k=m=1$ this recovers the familiar estimate $|f(y)-f(x)|\le \sup |f'|\cdot |y-x|$ derived from the [[real-analysis/mean-value-theorem|mean value theorem]].
+For \(k=m=1\), this gives \(|f(y)-f(x)|\le M|y-x|\).

@@ -2,7 +2,7 @@
 id = "algebra-groups/group-extension"
 title = "Group Extension"
 kind = "knowl"
-summary = "A group fitting into a short exact sequence 1→N→E→Q→1"
+summary = "A group fitting into a short exact sequence from a normal subgroup to the group and its quotient."
 aliases = ["group-extension", "Group Extension"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/group-extension.md"

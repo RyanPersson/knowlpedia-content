@@ -24,11 +24,11 @@ c(\nabla)=1+c_1(\nabla)+\cdots+c_n(\nabla),
 Then:
 1. Each $c_k(\nabla)$ is **closed**, i.e. $d\,c_k(\nabla)=0$, where $d$ is the [[fiber-bundles/exterior-derivative|exterior derivative]].
 2. The de Rham cohomology class $[c_k(\nabla)]\in H^{2k}_{\mathrm{dR}}(M)$ is **independent of the choice of** $\nabla$.
-3. The **$k$th Chern class** $c_k(E)\in H^{2k}(M;\mathbb Z)$ is the unique integral cohomology class whose image under the natural map
+3. The **$k$th Chern class** is the canonical integral cohomology class $c_k(E)\in H^{2k}(M;\mathbb Z)$ whose image under the natural map
 \[
 H^{2k}(M;\mathbb Z)\longrightarrow H^{2k}(M;\mathbb R)\cong H^{2k}_{\mathrm{dR}}(M)
 \]
-equals $[c_k(\nabla)]$.
+equals $[c_k(\nabla)]$. The Chern–Weil form determines this real image, but by itself need not detect torsion in integral cohomology.
 
 Equivalently, $c_k(E)$ is the characteristic class obtained by the Chern–Weil construction for the structure group $U(n)$ of a Hermitian bundle (or the corresponding [[fiber-bundles/principal-g-bundle|principal bundle]] of unitary frames) using the invariant polynomial given by the $k$th elementary symmetric function of eigenvalues.
 

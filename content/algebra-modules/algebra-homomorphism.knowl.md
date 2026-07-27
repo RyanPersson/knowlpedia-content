@@ -16,7 +16,7 @@ Algebra homomorphisms are the morphisms in the category of \(R\)-algebras; they 
 
 ## Equivalent characterizations
 
-Equivalently, \(\varphi\) is a unital ring homomorphism that is \(R\)-linear as a [[algebra-modules/module-homomorphism|module homomorphism]] with respect to the induced \(R\)-module structures coming from the [[algebra-modules/algebra-over-ring|algebra structure]]
+When \(R,A,B\) are unital and the structure maps are unital, this is equivalent to requiring \(\varphi\) to be a unital ring homomorphism that is \(R\)-linear for the induced [[algebra-modules/module-homomorphism|module]] structures.
 
 ## Examples
 

@@ -12,7 +12,7 @@ Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]].
 \[
 A(P)\coloneqq TP/G \;\longrightarrow\; M,
 \]
-whose fiber over \(x\in M\) is \((T_pP)/G\) for any \(p\in P_x\).
+whose fiber over \(x\in M\) consists of \(G\)-orbits of tangent vectors \(v_p\in T_pP\) with \(p\in P_x\).
 
 The map \(d\pi:TP\to TM\) is \(G\)-equivariant and descends to a [[fiber-bundles/bundle-map|bundle map]] (the **anchor**)
 \[
@@ -37,4 +37,4 @@ where \(X,Y\) are \(G\)-invariant vector fields representing \(\sigma,\tau\) and
    [\![(X,\phi),(Y,\psi)]\!] = \bigl([X,Y],\, X(\psi)-Y(\phi)+[\phi,\psi]\bigr).
    \]
 
-3. **Principal \(U(1)\)-bundle.** Since \(\mathfrak{u}(1)\cong i\mathbb{R}\) is abelian, the adjoint part is central. Thus \(TP/U(1)\) is (as a Lie algebroid) a central extension of \(TM\) by a trivial [[fiber-bundles/line-bundle|line bundle]], with curvature of a connection measuring the extension class.
+3. **Principal \(U(1)\)-bundle.** Since the adjoint action of \(U(1)\) on \(\mathfrak{u}(1)\cong i\mathbb{R}\) is trivial, the adjoint bundle is the trivial [[fiber-bundles/line-bundle|line bundle]] \(M\times\mathfrak{u}(1)\). Thus the Atiyah sequence is an extension of \(TM\) by this bundle; after choosing a connection, its curvature appears in the resulting bracket formula.

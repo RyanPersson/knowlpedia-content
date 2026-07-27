@@ -8,18 +8,17 @@ domains = ["shale-paper"]
 legacy_source_path = "shale-paper/symplectic-group-spk.md"
 +++
 
-For a [[shale-paper/symplectic-hilbert-space|symplectic Hilbert space]] $(K,B)$,
-the **symplectic group** is
-\[
-Sp(K)=\{T\in GL(K): B(Tx,Ty)=B(x,y)\ \forall x,y\in K\}.
-\]
+For a [[shale-paper/symplectic-hilbert-space|symplectic Hilbert space]] $(K,B)$, let $\operatorname{GL}_{\mathbb R}(K)$ denote the group of bounded invertible real-linear operators on $K$. The **symplectic group** is
+$$
+\operatorname{Sp}(K)
+=\{T\in\operatorname{GL}_{\mathbb R}(K):B(Tx,Ty)=B(x,y)
+\text{ for all }x,y\in K\}.
+$$
 
 ## Remarks
 
-**Key properties (paper use):**
-- Acts by *-automorphisms on Weyl operators: \(V(z)\mapsto V(Tz)\).
-- Only a subgroup is unitarily implementable in Fock space ([[shale-paper/restricted-symplectic-group-rspk|rSp(K)]]).
+Each $T\in\operatorname{Sp}(K)$ preserves the Weyl relations and hence acts on Weyl operators by $V(z)\mapsto V(Tz)$. Only the [[shale-paper/restricted-symplectic-group-rspk|restricted symplectic subgroup]] is unitarily implementable in the associated Fock representation.
 
 ## Examples
 
-- \(Sp(\mathbb R^{2n})\) is the classical real symplectic group.
+- $Sp(\mathbb R^{2n})$ is the classical real symplectic group.

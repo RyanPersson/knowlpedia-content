@@ -8,18 +8,17 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/properties-of-the-minkowski-functional-of-a-convex-set.md"
 +++
 
-Let $X$ be a [[linear-algebra/vector-space|vector space]] and let $\Omega\subset X$ be [[convex-analysis/balanced-and-absorbing-sets|absorbing]] and [[convex-analysis/convex-set|convex]]. Consider the [[convex-analysis/minkowski-function-gauge-of-a-set|Minkowski gauge]] $p_\Omega$.
+Let $X$ be a real [[linear-algebra/vector-space|vector space]] and let $\Omega\subseteq X$ be [[convex-analysis/balanced-and-absorbing-sets|absorbing]] and [[convex-analysis/convex-set|convex]]. Then the [[convex-analysis/minkowski-function-gauge-of-a-set|Minkowski gauge]] $p_\Omega$ is finite-valued and [[convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions|sublinear]]. Moreover,
 
-**Theorem**:
-1. $p_\Omega$ is real-valued and [[convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions|sublinear]].
-2. The strict sublevel set equals the [[convex-analysis/algebraic-interior-core|algebraic interior (core)]]:
+1. the strict sublevel set is the [[convex-analysis/algebraic-interior-core|algebraic interior]]:
    $$
-   \{x\in X\mid p_\Omega(x)<1\}=\operatorname{core}(\Omega).
+   \{x\in X:p_\Omega(x)<1\}=\operatorname{core}(\Omega);
    $$
-3. The non-strict sublevel set equals the [[convex-analysis/linear-closure|linear closure]]:
+2. the non-strict sublevel set is the [[convex-analysis/linear-closure|linear closure]]:
    $$
-   \{x\in X\mid p_\Omega(x)\le 1\}=\operatorname{lin}(\Omega).
+   \{x\in X:p_\Omega(x)\le 1\}=\operatorname{lin}(\Omega).
    $$
 
-**Context:**
-This theorem connects the algebraic geometry of $\Omega$ (core/lin) with a canonical sublinear functional. It is the key bridge to Hahn–Banach separation results such as [[convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core|separating a point from a convex set]].
+## Application
+
+These level-set formulas connect the geometry of $\Omega$ with a canonical sublinear functional and lead to [[convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core|separation via the core]].

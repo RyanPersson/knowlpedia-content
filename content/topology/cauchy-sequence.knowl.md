@@ -9,9 +9,9 @@ legacy_source_path = "topology/cauchy-sequence.md"
 +++
 
 A **Cauchy sequence** $(x_n)$ in a metric space $(X,d)$ is a sequence such that for every $\varepsilon>0$ there exists $N$ with
-\[
+$$
 d(x_m,x_n)<\varepsilon \quad\text{for all } m,n\ge N.
-\]
+$$
 
 ## Remarks
 

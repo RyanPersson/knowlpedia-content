@@ -8,10 +8,12 @@ domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/quasigroup.md"
 +++
 
-A **quasigroup** is a set $Q$ with a binary operation $\cdot$ such that for all $a, b \in Q$, the equations
-$$ax = b \quad \text{and} \quad ya = b$$
+A **quasigroup** is a set \(Q\) with a binary operation \(\cdot\) such that for all \(a,b\in Q\), the equations
+\[
+ax=b\quad\text{and}\quad ya=b
+\]
 
-each have unique solutions $x, y \in Q$.
+each have unique solutions \(x,y\in Q\).
 
 A quasigroup with an identity element is called a [[algebra-groups/loop|loop]].
 
@@ -21,6 +23,6 @@ Equivalently, a quasigroup is a [[algebra-groups/magma|magma]] whose Cayley tabl
 
 ## Examples
 
-- $(\mathbb{Z}, -)$ — integers under subtraction
-- $(\mathbb{R}^+, \div)$ — positive reals under division
+- \((\mathbb{Z},-)\) — integers under subtraction
+- \((\mathbb{R}^+,\div)\) — positive reals under division
 - Any Latin square defines a quasigroup

@@ -11,13 +11,13 @@ legacy_source_path = "fiber-bundles/construction-adjoint-bundle-ad.md"
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] for a [[fiber-bundles/lie-group|Lie group]] $G$. Let $G$ act on itself on the left by conjugation: $g\cdot h := ghg^{-1}$.
 
 **Construction (adjoint bundle).** The adjoint bundle is the associated bundle
-\[
+$$
 \mathrm{Ad}(P) := P\times_G G,
-\]
+$$
 formed using the conjugation action. Each fiber $\mathrm{Ad}(P)_x$ is canonically a group (isomorphic to $G$, but not canonically identified without choosing a point in $P_x$), and the group law is defined fiberwise by
-\[
+$$
 [p,h_1]\cdot [p,h_2] := [p,h_1h_2],
-\]
+$$
 which is well-defined because conjugation is by group automorphisms.
 
 ## Remarks

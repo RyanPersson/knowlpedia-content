@@ -2,15 +2,11 @@
 id = "measure-theory"
 title = "Measure Theory"
 kind = "section"
-summary = "Sigma-algebras, measures, and Lebesgue integration foundations"
+summary = "Sigma-algebras, measures, and foundations of Lebesgue integration."
 aliases = ["measure-theory", "Measure Theory"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/_index.md"
 +++
-
-Click any term to expand its definition inline.
-
----
 
 ## Sigma-Algebras
 
@@ -21,15 +17,11 @@ Click any term to expand its definition inline.
 - [[measure-theory/measurable-set|Measurable set]]
 - [[measure-theory/measurable-rectangle|Measurable rectangle]]
 
----
-
 ## Measurable Functions
 
 - [[measure-theory/measurable-function|Measurable function]]
 - [[measure-theory/indicator-function|Indicator function]]
 - [[measure-theory/simple-function|Simple function]]
-
----
 
 ## Measures
 
@@ -49,15 +41,11 @@ Click any term to expand its definition inline.
 - [[measure-theory/continuity-from-above-measure|Continuity from above]]
 - [[measure-theory/continuity-from-below-measure|Continuity from below]]
 
----
-
 ## Lebesgue Measure
 
 - [[measure-theory/jordan-content|Jordan content]]
 - [[measure-theory/lebesgue-measure|Lebesgue measure]]
 - [[measure-theory/lebesgue-criterion-for-riemann-integrability|Lebesgue criterion for Riemann integrability]]
-
----
 
 ## Lebesgue Integration
 
@@ -85,8 +73,6 @@ Click any term to expand its definition inline.
 - [[measure-theory/pushforward-measure|Pushforward measure]]
 - [[measure-theory/change-of-variables-pushforward|Change of variables (pushforward)]]
 
----
-
 ## Convergence Theorems
 
 - [[measure-theory/monotone-convergence-theorem|Monotone Convergence Theorem]]
@@ -95,14 +81,10 @@ Click any term to expand its definition inline.
 - [[measure-theory/tonellis-theorem|Tonelli's Theorem]]
 - [[measure-theory/fubinis-theorem|Fubini's Theorem]]
 
----
-
 ## Inequalities
 
 - [[measure-theory/jensen-inequality-integral|Jensen's Inequality (integral form)]]
 - [[measure-theory/minkowski-inequality-lp|Minkowski Inequality (L^p)]]
-
----
 
 ## Uncategorized
 

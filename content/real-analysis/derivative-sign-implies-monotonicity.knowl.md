@@ -8,10 +8,10 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/derivative-sign-implies-monotonicity.md"
 +++
 
-**Derivative sign implies monotonicity:** Let $I\subseteq\mathbb{R}$ be an [[real-analysis/interval|interval]], and let $f:I\to\mathbb{R}$ be [[real-analysis/differentiability-1d|differentiable]] on $I$.
+**Derivative sign implies monotonicity:** Let \(I\subseteq\mathbb{R}\) be an [[real-analysis/interval|interval]], and let \(f:I\to\mathbb{R}\) be [[real-analysis/differentiability-1d|differentiable]] on \(I\).
 
-- If $f'(x)\ge 0$ for all $x\in I$, then $f$ is nondecreasing (monotone increasing) on $I$.
-- If $f'(x)\le 0$ for all $x\in I$, then $f$ is nonincreasing (monotone decreasing) on $I$.
+- If \(f'(x)\ge 0\) for all \(x\in I\), then \(f\) is nondecreasing (monotone increasing) on \(I\).
+- If \(f'(x)\le 0\) for all \(x\in I\), then \(f\) is nonincreasing (monotone decreasing) on \(I\).
 
 ## Remarks
 

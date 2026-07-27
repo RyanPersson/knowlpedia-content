@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/dirichlet-test.md"
 +++
 
 **Dirichlet test:** Consider a series $\sum_{n=1}^\infty a_n b_n$ of real or complex numbers. Let
-\[
+$$
 A_n=\sum_{k=1}^n a_k
-\]
+$$
 denote the [[real-analysis/partial-sums|partial sums]] of $\sum a_n$. If
 
 1. the sequence $(A_n)$ is bounded, and

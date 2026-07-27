@@ -31,8 +31,8 @@ An endomorphism is an [[algebra-category-theory/automorphism-category|automorphi
 ## Examples
 1. **\(\mathbf{Set}\):** Endomorphisms of a set \(X\) are just [[shared-foundations/function|functions]] \(X\to X\).
 
-2. **\(\mathbf{Grp}\) / \(\mathbf{Ab}\):** Endomorphisms of a group (or abelian group) \(G\) are group homomorphisms \(G\to G\).  
+2. **\(\mathbf{Grp}\) / \(\mathbf{Ab}\):** Endomorphisms of a group (or abelian group) \(G\) are group homomorphisms \(G\to G\).
    For example, \(n\mapsto kn\) defines an endomorphism of \(\mathbb Z\) for each integer \(k\).
 
-3. **\(R\mathbf{-Mod}\):** Endomorphisms of an \(R\)-module \(M\) are \(R\)-linear maps \(M\to M\).  
+3. **\(R\mathbf{-Mod}\):** Endomorphisms of an \(R\)-module \(M\) are \(R\)-linear maps \(M\to M\).
    For a free module \(R^n\), \(\mathrm{End}_R(R^n)\) can be identified with the ring of \(n\times n\) matrices over \(R\) (via the action on the standard basis).

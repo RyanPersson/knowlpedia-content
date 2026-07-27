@@ -8,11 +8,11 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/chinese-remainder-decomposition.md"
 +++
 
-**Chinese remainder decomposition**: Let $R$ be a commutative ring and let $I_1,\dots,I_n$ be ideals that are pairwise comaximal. Then the natural homomorphism $R\to \prod_{i=1}^n R/I_i$ induces an isomorphism
+**Chinese remainder decomposition**: Let \(R\) be a commutative ring and let \(I_1,\dots,I_n\) be ideals that are pairwise comaximal. Then the natural homomorphism \(R\to \prod_{i=1}^n R/I_i\) induces an isomorphism
 \[
 R\Big/\bigcap_{i=1}^n I_i \;\cong\; \prod_{i=1}^n R/I_i.
 \]
-In particular, if $I$ and $J$ are comaximal, then $R/(I\cap J)\cong R/I\times R/J$.
+In particular, if \(I\) and \(J\) are comaximal, then \(R/(I\cap J)\cong R/I\times R/J\).
 
 ## Remarks
 

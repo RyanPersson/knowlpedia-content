@@ -8,15 +8,15 @@ domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/compact-operator.md"
 +++
 
-A **compact operator** is a [[linear-algebra/linear-operator|linear operator]] $T:X\to Y$ between [[linear-algebra/normed-vector-space|normed vector spaces]] such that the image of the closed unit ball
+A **compact operator** is a [[linear-algebra/linear-operator|linear operator]] \(T:X\to Y\) between [[linear-algebra/normed-vector-space|normed vector spaces]] such that the image of the closed unit ball
 \[
 B_X=\{x\in X:\|x\|\le 1\}
 \]
-has compact closure in $Y$.
+has compact closure in \(Y\).
 
 ## Equivalent characterizations
 
-Equivalently, for every bounded sequence $(x_n)$ in $X$, the sequence $(Tx_n)$ has a [[real-analysis/subsequence|subsequence]] that is a [[topology/convergent-sequence|convergent sequence]] in $Y$.
+Equivalently, for every bounded sequence \((x_n)\) in \(X\), the sequence \((Tx_n)\) has a [[real-analysis/subsequence|subsequence]] that is a [[topology/convergent-sequence|convergent sequence]] in \(Y\).
 
 ## Remarks
 

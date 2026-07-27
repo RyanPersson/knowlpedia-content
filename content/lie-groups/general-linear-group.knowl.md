@@ -12,13 +12,13 @@ Let $V$ be a finite-dimensional real or complex vector space.
 
 **Definition (General linear group).**
 The **general linear group** of $V$ is
-\[
+$$
 \mathrm{GL}(V)=\{A:V\to V \text{ linear and invertible}\},
-\]
+$$
 with group operation given by composition. After choosing a basis, $\mathrm{GL}(V)\cong \mathrm{GL}_n(\mathbb F)$ where $\mathbb F=\mathbb R$ or $\mathbb C$ and
-\[
+$$
 \mathrm{GL}_n(\mathbb F)=\{A\in M_n(\mathbb F):\det(A)\ne 0\}.
-\]
+$$
 
 ## Remarks
 

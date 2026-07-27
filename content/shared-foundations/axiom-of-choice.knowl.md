@@ -8,7 +8,7 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/axiom-of-choice.md"
 +++
 
-**Axiom of Choice:** For every indexed family $(A_i)_{i\in I}$ of nonempty sets, there exists a [[shared-foundations/function|function]] $f:I\to \bigcup_{i\in I} A_i$ such that $f(i)\in A_i$ for all $i\in I$.
+**Axiom of Choice:** For every indexed family \((A_i)_{i\in I}\) of nonempty sets, there exists a [[shared-foundations/function|function]] \(f:I\to \bigcup_{i\in I} A_i\) such that \(f(i)\in A_i\) for all \(i\in I\).
 
 ## Equivalent characterizations
 

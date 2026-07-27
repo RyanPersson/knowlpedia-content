@@ -9,22 +9,22 @@ legacy_source_path = "fiber-bundles/local-curvature-formula-f-da-aa.md"
 +++
 
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] $G$ and [[lie-groups/lie-algebra|Lie algebra]] $\mathfrak g$. Let $\omega$ be a [[fiber-bundles/principal-connection|principal connection]] on $P$ with [[fiber-bundles/curvature|curvature]] $\Omega\in\Omega^2(P;\mathfrak g)$. For an open set $U\subset M$ and a local section $s:U\to P$, define the local connection form and local curvature form by
-\[
+$$
 A := s^*\omega \in \Omega^1(U;\mathfrak g),
 \qquad
 F := s^*\Omega \in \Omega^2(U;\mathfrak g).
-\]
+$$
 
 **Theorem (Local curvature formula).** With the notation above,
-\[
+$$
 F \;=\; dA \;+\; \tfrac12[A\wedge A],
-\]
+$$
 where $d$ is the [[fiber-bundles/exterior-derivative|exterior derivative]] on $U$. The bracket-wedge uses the [[fiber-bundles/lie-bracket|Lie bracket]] on $\mathfrak g$: for $\alpha\in\Omega^p(U;\mathfrak g)$ and $\beta\in\Omega^q(U;\mathfrak g)$,
-\[
+$$
 [\alpha\wedge\beta](v_1,\dots,v_{p+q})
 =\frac{1}{p!\,q!}\sum_{\sigma\in S_{p+q}}\mathrm{sgn}(\sigma)\,
 \big[\alpha(v_{\sigma_1},\dots,v_{\sigma_p}),\beta(v_{\sigma_{p+1}},\dots,v_{\sigma_{p+q}})\big].
-\]
+$$
 
 ## Equivalent characterizations
 

@@ -8,21 +8,17 @@ domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/outer-automorphism-group.md"
 +++
 
-For a group $G$, the **outer automorphism group** is the quotient
+For a [[algebra-groups/group|group]] $G$, the subgroup $\operatorname{Inn}(G)$ of [[algebra-groups/inner-automorphism|inner automorphisms]] is normal in the [[algebra-groups/automorphism-group|automorphism group]] $\operatorname{Aut}(G)$. The **outer automorphism group** is the [[algebra-groups/quotient-group|quotient group]]
 $$
 \operatorname{Out}(G) := \operatorname{Aut}(G)\big/\operatorname{Inn}(G),
 $$
-
-where $\operatorname{Aut}(G)$ is the [[algebra-groups/automorphism-group|automorphism group]] and $\operatorname{Inn}(G)$ is the subgroup of [[algebra-groups/inner-automorphism|inner automorphisms]].
+which measures automorphisms not arising from conjugation.
 
 ## Examples
 
 - If $G$ is abelian, then $\operatorname{Inn}(G)$ is trivial, so $\operatorname{Out}(G)=\operatorname{Aut}(G)$.
-- If $\operatorname{Aut}(G)=\operatorname{Inn}(G)$, then $\operatorname{Out}(G)$ is the trivial group.
-- For many groups, $\operatorname{Out}(G)$ is small even when $\operatorname{Aut}(G)$ is large, reflecting that "most" automorphisms are induced by conjugation.
+- If $\operatorname{Aut}(G)=\operatorname{Inn}(G)$, then $\operatorname{Out}(G)$ is trivial.
 
 ## Remarks
 
-This is a [[algebra-groups/quotient-group|quotient group]], and it measures the "new" automorphisms not coming from conjugation.
-
-Saying $\operatorname{Out}(G)$ is trivial means every automorphism of $G$ is inner.
+The group $\operatorname{Out}(G)$ is trivial exactly when every automorphism of $G$ is inner.

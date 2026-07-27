@@ -7,6 +7,12 @@ aliases = ["shift functor", "shift autoequivalence", "translation functor"]
 domains = ["algebra-category-theory", "algebra-homological"]
 +++
 
-A **shift functor** on a category \(\mathcal C\) is an [[algebra-category-theory/equivalence-of-categories|autoequivalence]] usually written \([1]:\mathcal C\to\mathcal C\), together with coherent iterates \([n]\) for integers \(n\). Its inverse is the shift \([-1]\).
+A **shift functor** on a category \(\mathcal C\) is an [[algebra-category-theory/equivalence-of-categories|autoequivalence]]
+\[
+[1]:\mathcal C\longrightarrow\mathcal C.
+\]
+Its inverse is denoted \([-1]\), and for \(n\in\mathbb Z\), the notation \([n]\) denotes the corresponding iterate, with \([0]=\operatorname{id}_{\mathcal C}\).
 
-For cochain complexes, \(X[1]\) moves the grading and changes a differential sign according to convention. In a [[algebra-category-theory/preadditive-category|preadditive category]], an additive shift preserves addition and zero in every morphism group. Shifted objects supply the fourth vertex of a [[algebra-category-theory/triangle|triangle]].
+## Common settings
+
+For cochain complexes, \(X[1]\) shifts the grading and changes the sign of the differential according to the chosen convention. In a [[algebra-category-theory/preadditive-category|preadditive category]], one usually requires the shift to be additive. Shifted objects supply the fourth vertex of a [[algebra-category-theory/triangle|triangle]].

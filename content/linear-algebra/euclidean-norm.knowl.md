@@ -8,16 +8,16 @@ domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/euclidean-norm.md"
 +++
 
-A **Euclidean norm** on a [[linear-algebra/euclidean-space|Euclidean space]] $(V,\langle\cdot,\cdot\rangle)$ is the [[linear-algebra/norm|norm]] defined by
+A **Euclidean norm** on a [[linear-algebra/euclidean-space|Euclidean space]] \((V,\langle\cdot,\cdot\rangle)\) is the [[linear-algebra/norm|norm]] defined by
 \[
 \|x\|=\sqrt{\langle x,x\rangle}\quad\text{for }x\in V.
 \]
 
 ## Remarks
 
-It is the norm induced by an [[linear-algebra/inner-product|inner product]], and it is the standard notion of length in finite-dimensional inner product geometry. On $\mathbb{R}^n$ this is the usual “$\ell^2$-length.”
+It is the norm induced by an [[linear-algebra/inner-product|inner product]], and it is the standard notion of length in finite-dimensional inner product geometry. On \(\mathbb{R}^n\) this is the usual “\(\ell^2\)-length.”
 
 ## Examples
 
-- If $x=(3,4)\in\mathbb{R}^2$, then $\|x\|=\sqrt{3^2+4^2}=5$.
-- If $x=(1,1,1)\in\mathbb{R}^3$, then $\|x\|=\sqrt{1^2+1^2+1^2}=\sqrt{3}$.
+- If \(x=(3,4)\in\mathbb{R}^2\), then \(\|x\|=\sqrt{3^2+4^2}=5\).
+- If \(x=(1,1,1)\in\mathbb{R}^3\), then \(\|x\|=\sqrt{1^2+1^2+1^2}=\sqrt{3}\).

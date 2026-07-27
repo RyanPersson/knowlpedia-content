@@ -13,13 +13,13 @@ Let $f:N\to M$ be a [[fiber-bundles/smooth-map|smooth map]] between smooth manif
 ## Theorem (pullback principal bundle)
 
 Define the pullback total space
-\[
+$$
 f^*P := \{(n,p)\in N\times P \mid f(n)=\pi(p)\},
-\]
+$$
 with projection $\pi_N:f^*P\to N$ given by $\pi_N(n,p)=n$. Equip $f^*P$ with the right $G$-action
-\[
+$$
 (n,p)\cdot g := (n,p\cdot g).
-\]
+$$
 Then $\pi_N:f^*P\to N$ is a principal $G$-bundle, called the **pullback bundle** of $P$ along $f$.
 
 Moreover, this construction is functorial: if $g:L\to N$ is another smooth map, then $(f\circ g)^*P$ is canonically isomorphic to $g^*(f^*P)$ as principal bundles.

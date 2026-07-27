@@ -25,7 +25,7 @@ A' \;=\; \mathrm{Ad}(g^{-1})A \;+\; g^{-1}dg,
 \]
 where \(g^{-1}dg\in \Omega^1(U;\mathfrak{g})\) is the pullback of the left Maurer–Cartan form on \(G\) along \(g\), and \(\mathrm{Ad}(g^{-1})\) acts pointwise on \(\mathfrak{g}\).
 
-This formula is the local manifestation of the global equivariance condition \(R_h^*\omega=\mathrm{Ad}(h^{-1})\omega.
+This formula is the local manifestation of the global equivariance condition \(R_h^*\omega=\mathrm{Ad}(h^{-1})\omega\).
 
 ## Examples
 1. **Abelian case \(U(1)\).** For \(G=U(1)\), \(\mathrm{Ad}\) is trivial, so \(A'=A+g^{-1}dg\). Writing \(g=e^{if}\) locally gives \(g^{-1}dg=i\,df\), hence \(A'=A+i\,df\).

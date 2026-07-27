@@ -8,33 +8,33 @@ domains = ["algebra-fields-galois"]
 legacy_source_path = "algebra-fields-galois/trace-field.md"
 +++
 
-Let \(L/K\) be a finite [[algebra-fields-galois/field-extension|field extension]] of degree \(n=[L:K]\) (see [[algebra-fields-galois/degree-of-extension|degree of an extension]]). For \(\alpha\in L\), let
-\[
+Let $L/K$ be a finite [[algebra-fields-galois/field-extension|field extension]] of degree $n=[L:K]$ (see [[algebra-fields-galois/degree-of-extension|degree of an extension]]). For $\alpha\in L$, let
+$$
 m_\alpha: L\to L,\qquad x\mapsto \alpha x,
-\]
-viewed as a \(K\)-linear endomorphism of the \(K\)-vector space \(L\). The **(field) trace** of \(\alpha\) from \(L\) to \(K\) is
-\[
+$$
+viewed as a $K$-linear endomorphism of the $K$-vector space $L$. The **(field) trace** of $\alpha$ from $L$ to $K$ is
+$$
 \mathrm{Tr}_{L/K}(\alpha) := \mathrm{trace}(m_\alpha)\in K.
-\]
+$$
 
 ## Equivalent characterizations
 
-Equivalently, if \(\Omega\) is a field containing \(L\) and the extension is separable (see [[algebra-fields-galois/separable-extension|separable extension]]), then
-\[
+Equivalently, if $L/K$ is separable and $\Omega$ is an algebraically closed extension of $K$, then
+$$
 \mathrm{Tr}_{L/K}(\alpha)=\sum_{\sigma} \sigma(\alpha),
-\]
-where the sum runs over all \(K\)-[[algebra-fields-galois/field-embedding|embeddings]] \(\sigma:L\hookrightarrow \Omega\) (counted without repetition). In particular, \(\mathrm{Tr}_{L/K}\) is \(K\)-linear and satisfies the tower property in [[algebra-fields-galois/trace-norm-towers|trace/norm in towers]] for a [[algebra-fields-galois/tower-of-fields|tower of fields]] \(K\subseteq M\subseteq L\).
+$$
+where the sum runs over all $K$-[[algebra-fields-galois/field-embedding|embeddings]] $\sigma:L\hookrightarrow \Omega$ (counted without repetition). In particular, $\mathrm{Tr}_{L/K}$ is $K$-linear and satisfies the tower property in [[algebra-fields-galois/trace-norm-towers|trace/norm in towers]] for a [[algebra-fields-galois/tower-of-fields|tower of fields]] $K\subseteq M\subseteq L$.
 
 ### Examples
-1. **Quadratic extension.** Let \(L=K(\sqrt{d})\) with \(\mathrm{char}(K)\neq 2\). For \(\alpha=a+b\sqrt{d}\),
-\[
+1. **Quadratic extension.** Let $L=K(\sqrt{d})$ with $\mathrm{char}(K)\neq 2$. For $\alpha=a+b\sqrt{d}$,
+$$
 \mathrm{Tr}_{L/K}(\alpha)=(a+b\sqrt{d})+(a-b\sqrt{d})=2a.
-\]
+$$
 
-2. **Purely inseparable behavior (contrast).** If \(\mathrm{char}(K)=p\) and \(L=K(t)\) with \(t^p\in K\) (an [[algebra-fields-galois/inseparable-extension|inseparable extension]] of degree \(p\)), then \(\mathrm{Tr}_{L/K}(t)=0\); many traces vanish in purely inseparable situations.
+2. **Purely inseparable behavior (contrast).** If $\mathrm{char}(K)=p$, $L=K(t)$, and $t^p\in K$ with $[L:K]=p$, then $L/K$ is [[algebra-fields-galois/inseparable-extension|purely inseparable]] and $\mathrm{Tr}_{L/K}(t)=0$.
 
-3. **Finite fields.** For \(L=\mathbb{F}_{q^n}\) over \(K=\mathbb{F}_q\) (a [[algebra-fields-galois/finite-field|finite field]] extension), one has
-\[
+3. **Finite fields.** For $L=\mathbb{F}_{q^n}$ over $K=\mathbb{F}_q$ (a [[algebra-fields-galois/finite-field|finite field]] extension), one has
+$$
 \mathrm{Tr}_{L/K}(\alpha)=\alpha+\alpha^{q}+\alpha^{q^2}+\cdots+\alpha^{q^{n-1}},
-\]
-where \(x\mapsto x^q\) is a power of the [[algebra-fields-galois/frobenius-endomorphism|Frobenius]].
+$$
+where $x\mapsto x^q$ is a power of the [[algebra-fields-galois/frobenius-endomorphism|Frobenius]].

@@ -9,14 +9,14 @@ legacy_source_path = "algebra-groups/schreier-refinement-theorem.md"
 +++
 
 **Schreier Refinement Theorem.**
-Let $G$ be a [[algebra-groups/group|group]]. Consider two finite [[algebra-groups/subnormal-series|subnormal series]] (normal series)
-$$
-G = G_0 \triangleright G_1 \triangleright \cdots \triangleright G_n,
+Let \(G\) be a [[algebra-groups/group|group]]. Consider two finite [[algebra-groups/subnormal-series|subnormal series]]
+\[
+G = G_0 \triangleright G_1 \triangleright \cdots \triangleright G_n=\{e\},
 \qquad
-G = H_0 \triangleright H_1 \triangleright \cdots \triangleright H_m,
-$$
+G = H_0 \triangleright H_1 \triangleright \cdots \triangleright H_m=\{e\}.
+\]
 
-where each inclusion is normal in the previous term. Then there exist refinements of these series (obtained by inserting additional intermediate subgroups) such that the refined series have the same length and their successive factor groups are pairwise [[algebra-groups/group-isomorphism|isomorphic]] up to a permutation. Each factor group is a [[algebra-groups/quotient-group|quotient group]] of the form $A/B$ with $B \trianglelefteq A$.
+Then the two series have refinements, obtained by inserting intermediate subgroups, whose successive [[algebra-groups/quotient-group|factor groups]] are pairwise [[algebra-groups/group-isomorphism|isomorphic]] after a permutation. In particular, the refined series have the same length.
 
 ## Remarks
 

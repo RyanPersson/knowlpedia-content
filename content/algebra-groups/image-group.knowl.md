@@ -9,9 +9,9 @@ legacy_source_path = "algebra-groups/image-group.md"
 +++
 
 Let $\varphi\colon G\to H$ be a [[algebra-groups/group-homomorphism|group homomorphism]]. The **image** of $\varphi$ is the subset
-$
+$$
 \mathrm{im}(\varphi)=\varphi(G)=\{\varphi(g): g\in G\}\subseteq H.
-$
+$$
 The image is always a [[algebra-groups/subgroup|subgroup]] of $H$.
 
 ## Remarks

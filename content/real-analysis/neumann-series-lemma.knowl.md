@@ -8,21 +8,21 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/neumann-series-lemma.md"
 +++
 
-Let $A:\mathbb{R}^n\to\mathbb{R}^n$ be a [[linear-algebra/linear-map|linear map]]. Saying $\det A\neq 0$ is equivalent to saying $A$ is invertible.
+Let $A:\mathbb{R}^n\to\mathbb{R}^n$ be an invertible [[linear-algebra/linear-map|linear map]], and equip the space of linear maps with an operator norm.
 
-**Stability of invertibility (Neumann series lemma)**: If $A$ is invertible and $B$ is another linear map such that
-$
+**Neumann series lemma.** If $B:\mathbb R^n\to\mathbb R^n$ satisfies
+$$
 \|A^{-1}(B-A)\|<1,
-$
+$$
 then $B$ is invertible and
-$
+$$
 B^{-1}=\sum_{k=0}^\infty \bigl(-A^{-1}(B-A)\bigr)^k\,A^{-1}.
-$
+$$
 Moreover,
-$
+$$
 \|B^{-1}\|\le \frac{\|A^{-1}\|}{1-\|A^{-1}(B-A)\|}.
-$
-In particular, if $\|B-A\|\le \frac{1}{2\|A^{-1}\|}$ then $B$ is invertible and $\|B^{-1}\|\le 2\|A^{-1}\|$.
+$$
+In particular, if $\|B-A\|\le 1/(2\|A^{-1}\|)$, then $B$ is invertible and $\|B^{-1}\|\le 2\|A^{-1}\|$.
 
 ## Remarks
 

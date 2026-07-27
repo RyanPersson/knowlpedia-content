@@ -2,13 +2,13 @@
 id = "algebra-groups/simple-group"
 title = "Simple Group"
 kind = "knowl"
-summary = "A nontrivial group with no nontrivial normal subgroups"
+summary = "A nontrivial group with no nontrivial proper normal subgroups."
 aliases = ["simple-group", "Simple Group"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/simple-group.md"
 +++
 
-A **simple group** is a [[algebra-groups/group|group]] $G$ with $G\ne \{e\}$ such that the only [[algebra-groups/normal-subgroup|normal subgroups]] of $G$ are the [[algebra-groups/trivial-subgroup|trivial subgroup]] $\{e\}$ and $G$ itself.
+A **simple group** is a [[algebra-groups/group|group]] $G\neq\{e\}$ whose only [[algebra-groups/normal-subgroup|normal subgroups]] are the [[algebra-groups/trivial-subgroup|trivial subgroup]] $\{e\}$ and $G$ itself.
 
 ## Examples
 

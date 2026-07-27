@@ -8,12 +8,15 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/uniform-limit-theorem.md"
 +++
 
-The **uniform limit theorem** states: if \((f_n)\) is a sequence of [[topology/continuous-map|continuous functions]] \(f_n: X \to \mathbb{R}\) on a [[topology/metric-space|metric space]] \(X\), and \(f_n \to f\) [[real-analysis/uniform-convergence|uniformly]], then \(f\) is continuous.
-
-For metric spaces \(X\) and \(Y\): if \(f_n: X \to Y\) are continuous and \(f_n \rightrightarrows f\) uniformly (meaning \(\sup_{x \in X} d(f_n(x), f(x)) \to 0\)), then \(f\) is continuous.
+**Uniform limit theorem.** Let $X$ be a topological space and $Y$ a [[topology/metric-space|metric space]]. If $f_n:X\to Y$ are [[topology/continuous-map|continuous functions]] and $f_n\to f$ [[real-analysis/uniform-convergence|uniformly]], then $f:X\to Y$ is continuous. Uniform convergence means that for every $\varepsilon>0$ there exists $N$ such that
+$$
+n\ge N\quad\Longrightarrow\quad
+d_Y\bigl(f_n(x),f(x)\bigr)<\varepsilon
+\quad\text{for every }x\in X.
+$$
 
 ## Counterexample for pointwise convergence
-\(f_n(x) = x^n\) on \([0, 1]\) converges pointwise to a discontinuous limit:
+$f_n(x) = x^n$ on $[0, 1]$ converges pointwise to a discontinuous limit:
 $$
 f(x) = \begin{cases} 0 & x \in [0,1) \\ 1 & x = 1 \end{cases}.
 $$

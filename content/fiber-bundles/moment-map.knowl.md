@@ -8,12 +8,12 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/moment-map.md"
 +++
 
-Let $G$ be a [[fiber-bundles/lie-group|Lie group]] acting smoothly on a manifold $M$, and let $\mathfrak{g}$ be its Lie algebra. Suppose $M$ is equipped with a symplectic form $\omega$ (a closed, nondegenerate 2-form).
+Let $G$ be a [[fiber-bundles/lie-group|Lie group]] acting by symplectomorphisms on a manifold $M$ equipped with a symplectic form $\omega$ (a closed, nondegenerate 2-form), and let $\mathfrak{g}$ be its Lie algebra.
 
-For $\xi\in\mathfrak{g}$, write $\xi_M$ for the fundamental vector field on $M$.
+For $\xi\in\mathfrak{g}$, write $\xi_M$ for the fundamental vector field on $M$, using a fixed sign convention.
 
 ## Definition (Moment map)
-The action is **Hamiltonian** if there exists a smooth map
+A **moment map** for the action is a smooth map
 \[
 \mu\colon M \to \mathfrak{g}^*
 \]
@@ -23,7 +23,9 @@ d\langle \mu,\xi\rangle \;=\; \iota_{\xi_M}\omega,
 \]
 where $d$ is the [[fiber-bundles/exterior-derivative|exterior derivative]] and $\iota_{\xi_M}$ denotes contraction by the vector field $\xi_M$.
 
-Such a map $\mu$ is called a **moment map**. Often one additionally requires $G$-equivariance with respect to the coadjoint action (in particular when $G$ is connected), which makes $\mu$ essentially unique up to addition of a central constant.
+The action is **Hamiltonian** if it admits a moment map. Some conventions instead use a minus sign in the displayed identity, and many definitions additionally require $\mu$ to be $G$-equivariant with respect to the coadjoint action.
+
+If $M$ is connected, any two moment maps satisfying the displayed identity differ by a constant in $\mathfrak{g}^*$. If both are equivariant, that constant is fixed by the coadjoint action.
 
 A useful reformulation is that in [[fiber-bundles/equivariant-cohomology|equivariant cohomology]] (Cartan model), the pair $(\omega,\mu)$ combines into an equivariantly closed degree-2 element.
 

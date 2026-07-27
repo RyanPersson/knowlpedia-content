@@ -15,10 +15,12 @@ Let $G$ be a [[lie-groups/compact-lie-group|compact Lie group]]. Fix the normali
 \int_G \pi_{ij}(g)\,\overline{\sigma_{kl}(g)}\,dg
 \;=\;
 \begin{cases}
-\frac{1}{\dim V}\,\delta_{ik}\delta_{jl}, & \text{if }\pi\simeq \sigma,\\[6pt]
+\frac{1}{\dim V}\,\delta_{ik}\delta_{jl}, & \text{if }\pi=\sigma\text{ and the same basis is used},\\[6pt]
 0, & \text{if }\pi\not\simeq \sigma.
 \end{cases}
 \]
+
+If $\pi$ and $\sigma$ are equivalent but not identical, the first formula holds after identifying $V$ and $W$ by a unitary intertwiner and transporting the chosen basis.
 
 This is the analytic avatar of Schur’s lemma and is one of the key inputs in the [[lie-groups/peter-weyl-theorem|Peter–Weyl theorem]], which decomposes $L^2(G)$ into finite-dimensional isotypic pieces. In practice, Schur orthogonality is the tool that turns representation theory into concrete integral identities on compact groups (compare also [[lie-groups/completely-reducible-representation-lie|complete reducibility]]).
 

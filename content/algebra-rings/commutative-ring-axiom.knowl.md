@@ -13,4 +13,4 @@ The **commutative ring axiom** asserts that multiplication satisfies
 ab=ba\qquad\text{for all }a,b\in R.
 \]
 
-A [[algebra-rings/commutative-ring|commutative ring]] is a [[algebra-rings/ring|ring]] satisfying this axiom (and usually also the [[algebra-rings/unital-ring|unital]] axiom). Commutativity is essential for the theory of [[algebra-rings/prime-ideal|prime ideals]] and for geometric results such as the Nullstellensatz.
+A [[algebra-rings/commutative-ring|commutative ring]] is a [[algebra-rings/ring|ring]] satisfying this axiom. Whether rings are required to have a multiplicative identity is a separate convention.

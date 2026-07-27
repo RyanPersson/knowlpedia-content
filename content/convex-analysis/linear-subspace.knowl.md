@@ -2,24 +2,22 @@
 id = "convex-analysis/linear-subspace"
 title = "Linear subspace"
 kind = "knowl"
-summary = "A subset closed under addition and scalar multiplication, forming a vector space in its own right"
+summary = "A subset containing zero and closed under addition and scalar multiplication."
 aliases = ["linear-subspace", "Linear subspace"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/linear-subspace.md"
 +++
 
-Let $(X,+,\cdot)$ be a vector space over $K$, and let $Y\subset X$.
+Let \(X\) be a vector space over a field \(K\), and let \(Y\subseteq X\). The set \(Y\) is a **linear subspace** of \(X\) if
 
-The set $Y$ is a **linear subspace** of $X$ if:
+1. \(0\in Y\),
+2. \(a+b\in Y\) for all \(a,b\in Y\), and
+3. \(\lambda a\in Y\) for all \(\lambda\in K\) and \(a\in Y\).
 
-1. $0\in Y$,
-2. $a+b\in Y$ for all $a,b\in Y$,
-3. $\lambda a\in Y$ for all $\lambda\in K$ and $a\in Y$.
-
-With the inherited operations, $Y$ is itself a [[linear-algebra/vector-space|vector space]], and many constructions in analysis arise as subspaces (kernels, images, function spaces, etc.). Subspaces are also the building blocks for [[convex-analysis/quotient-vector-space-codimension|quotient spaces]] and [[convex-analysis/direct-sum-of-subspaces|direct sums]].
+With the inherited operations, \(Y\) is itself a [[linear-algebra/vector-space|vector space]].
 
 ## Examples
 
-- $\{0\}$ and $X$ are subspaces of $X$.
-- In the space of all sequences $s$, the set $\ell^1=\{x=(x_n):\sum_{n=1}^\infty |x_n|<\infty\}$ is a subspace.
-- In $F([a,b])$, the set $C[a,b]$ of continuous functions is a subspace.
+- \(\{0\}\) and \(X\) are subspaces of \(X\).
+- In the vector space of all scalar sequences, \(\ell^1=\{x=(x_n):\sum_{n=1}^\infty|x_n|<\infty\}\) is a subspace.
+- The continuous functions \(C([a,b])\) form a subspace of all functions \([a,b]\to K\).

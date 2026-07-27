@@ -9,9 +9,9 @@ legacy_source_path = "topology/lipschitz-continuity.md"
 +++
 
 A **Lipschitz continuous map** between metric spaces $(X,d_X)$ and $(Y,d_Y)$ is a map $f\colon X\to Y$ for which there exists a constant $L\ge 0$ such that for all $x,y\in X$,
-\[
+$$
 d_Y\bigl(f(x),f(y)\bigr)\le L\,d_X(x,y).
-\]
+$$
 
 ## Remarks
 

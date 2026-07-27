@@ -9,9 +9,9 @@ legacy_source_path = "algebra-groups/normalizer.md"
 +++
 
 Let $G$ be a [[algebra-groups/group|group]] and let $H\le G$ be a [[algebra-groups/subgroup|subgroup]]. The **normalizer of $H$ in $G$** is
-$
+$$
 N_G(H) \;=\; \{\,g\in G : gHg^{-1}=H\,\}.
-$
+$$
 It is a subgroup of $G$ containing $H$.
 
 ## Examples

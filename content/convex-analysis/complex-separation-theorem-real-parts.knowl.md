@@ -8,7 +8,7 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/complex-separation-theorem-real-parts.md"
 +++
 
-Let $X$ be a complex [[linear-algebra/vector-space|vector space]] and let $\Omega_1,\Omega_2\subset X$ be nonempty [[convex-analysis/convex-set|convex sets]]. Assume [[convex-analysis/algebraic-interior-core|core(Ω₁)]]$\neq\emptyset$ and $\operatorname{core}(\Omega_1)\cap\Omega_2=\emptyset$.
+Let $X$ be a complex [[linear-algebra/vector-space|vector space]] and let $\Omega_1,\Omega_2\subset X$ be nonempty [[convex-analysis/convex-set|convex sets]]. Assume [[convex-analysis/algebraic-interior-core|core(Ω₁)]] $\neq\emptyset$ and $\operatorname{core}(\Omega_1)\cap\Omega_2=\emptyset$.
 
 **Theorem**: There exists a nonzero complex-linear functional $F$ on $X$ such that
 $$

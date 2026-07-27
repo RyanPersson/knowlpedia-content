@@ -11,13 +11,13 @@ legacy_source_path = "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad.m
 Let $G$ be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra [[lie-groups/lie-algebra|Lie algebra]] $\mathfrak g$. Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]]. The adjoint representation $\mathrm{Ad}:G\to \mathrm{Aut}(\mathfrak g)$ gives a left action of $G$ on $\mathfrak g$ by $g\cdot X := \mathrm{Ad}(g)X$.
 
 **Construction (adjoint Lie algebra bundle).** Define
-\[
+$$
 \mathrm{ad}(P) := P\times_G \mathfrak g.
-\]
+$$
 This is a smooth vector bundle over $M$. Moreover, each fiber $\mathrm{ad}(P)_x$ carries a Lie bracket induced from the [[fiber-bundles/lie-bracket|Lie bracket]] on $\mathfrak g$:
-\[
+$$
 [p,X]\ \text{ and }\ [p,Y] \ \mapsto\ [p,[X,Y]].
-\]
+$$
 This is well-defined because $\mathrm{Ad}(g)$ is a Lie algebra automorphism.
 
 ## Remarks

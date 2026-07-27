@@ -8,10 +8,10 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/substitution-rule-for-one-variable-riemann-integrals.md"
 +++
 
-**Substitution rule**: Let $f:[a,b]\to\mathbb{R}$ be [[real-analysis/continuity-on-a-set|continuous]], and let $\varphi:[\alpha,\beta]\to[a,b]$ be continuously [[real-analysis/differentiability-one-variable|differentiable]] and [[real-analysis/monotone-sequence|monotone]] on $[\alpha,\beta]$. Then
-$
+**Substitution rule.** Let \(f:[a,b]\to\mathbb R\) be [[real-analysis/continuity-on-a-set|continuous]], and let \(\varphi:[\alpha,\beta]\to[a,b]\) be continuously [[real-analysis/differentiability-one-variable|differentiable]]. Then
+\[
 \int_\alpha^\beta f(\varphi(t))\,\varphi'(t)\,dt=\int_{\varphi(\alpha)}^{\varphi(\beta)} f(u)\,du.
-$
-(If $\varphi$ is decreasing, the right-hand side automatically changes sign because $\varphi(\alpha)>\varphi(\beta)$.)
+\]
+No injectivity or monotonicity hypothesis on \(\varphi\) is needed. If \(\varphi(\alpha)>\varphi(\beta)\), the orientation convention for the right-hand integral supplies the sign.
 
 This formula is the rigorous justification for substitution in calculus and is the one-dimensional prototype for higher-dimensional [[real-analysis/change-of-variables-formula|change of variables]].

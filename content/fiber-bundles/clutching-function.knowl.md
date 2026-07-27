@@ -8,18 +8,16 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/clutching-function.md"
 +++
 
-A **clutching function** is a transition map used to glue together locally trivial pieces of a bundle.
-
-## Remarks
-
-Let $M$ be covered by two open sets $U,V\subset M$ such that a bundle is trivial over each piece. For a principal bundle, take $U\times G$ and $V\times G$ and identify points over the overlap $U\cap V$ by
+Let $M=U\cup V$ be an open cover, and let $G$ be a Lie group. A **clutching function** is a smooth map $g:U\cap V\to G$ used to construct a principal $G$-bundle by identifying the two trivial bundles $U\times G$ and $V\times G$ according to
 $$
-(x,h)_U \sim (x, g(x)\,h)_V \qquad (x\in U\cap V,\; h\in G),
+(x,h)_U\sim(x,g(x)h)_V
+\qquad (x\in U\cap V,\ h\in G).
 $$
+It is the [[fiber-bundles/principal-bundle-transition-function|transition function]] for this two-set trivializing cover.
 
-where $g:U\cap V\to G$ is smooth. The map $g$ is the **clutching function**; it is exactly the [[fiber-bundles/transition-function|transition function]] (more precisely, a [[fiber-bundles/principal-bundle-transition-function|principal bundle transition function]]) for the cover $\{U,V\}$.
+## Variants
 
-For a vector bundle with fiber $F$ and structure group $G\subset \mathrm{GL}(F)$, one instead glues $U\times F$ to $V\times F$ by
+For a vector bundle with fiber $F$ and structure group $G\subseteq\operatorname{GL}(F)$, one instead glues $U\times F$ to $V\times F$ by
 $$
 (x,v)_U \sim (x, g(x)\cdot v)_V .
 $$

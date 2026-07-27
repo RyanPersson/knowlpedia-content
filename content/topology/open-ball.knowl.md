@@ -8,15 +8,15 @@ domains = ["topology"]
 legacy_source_path = "topology/open-ball.md"
 +++
 
-An **open ball** in a metric space $(X,d)$ is a set of the form
+An **open ball** in a metric space \((X,d)\) is a set of the form
 \[
 B_d(x,r)=\{y\in X : d(x,y)<r\},
 \]
-where $x\in X$ and $r>0$.
+where \(x\in X\) is its center and \(r>0\) is its radius.
 
 Open balls are [[topology/open-set|open sets]] in the [[topology/metric-induced-topology|metric-induced topology]] and they form a [[topology/basis-of-topology|basis]] for that topology; in particular, they are the basic [[topology/neighborhood|neighborhoods]] in metric spaces.
 
 ## Examples
 
-- In $(\mathbb{R},|\cdot|)$, $B(x,r)=(x-r,x+r)$.
-- In the discrete metric on $X$, $B(x,1)=\{x\}$, while $B(x,r)=X$ for any $r>1$.
+- In \((\mathbb R,|\cdot|)\), \(B(x,r)=(x-r,x+r)\).
+- In the discrete metric on \(X\), \(B(x,1)=\{x\}\), while \(B(x,r)=X\) for \(r>1\).

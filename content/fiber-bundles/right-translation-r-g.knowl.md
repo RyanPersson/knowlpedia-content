@@ -10,7 +10,7 @@ legacy_source_path = "fiber-bundles/right-translation-r-g.md"
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and fix an element \(g\in G\).
 
-**Definition (right translation).**  
+**Definition (right translation).**
 The **right translation by \(g\)** is the map
 \[
 R_g:G\longrightarrow G,\qquad R_g(h)=hg.
@@ -31,14 +31,14 @@ so the assignment \(g\mapsto R_g\) is an antihomomorphism into the [[differentia
 
 ### Examples
 
-1. **\((\mathbb R^n,+)\).**  
+1. **\((\mathbb R^n,+)\).**
    For the additive Lie group, \(R_a(x)=x+a\). As with left translation, \((dR_a)_x\) is the identity on \(\mathbb R^n\).
 
-2. **Matrix groups.**  
+2. **Matrix groups.**
    If \(G\subseteq GL(n,\mathbb R)\), then \(R_A(B)=BA\). On tangent vectors represented by matrices \(V\), the differential acts by right multiplication:
    \[
    (dR_A)_B(V)=VA.
    \]
 
-3. **Circle group \(S^1\).**  
+3. **Circle group \(S^1\).**
    Writing elements as complex numbers, \(R_{e^{i\theta}}(e^{it})=e^{i(t+\theta)}\). For the abelian group \(S^1\), left and right translations agree.

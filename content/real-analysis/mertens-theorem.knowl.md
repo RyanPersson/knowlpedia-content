@@ -8,11 +8,11 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/mertens-theorem.md"
 +++
 
-**Mertens' theorem:** Let $\sum_{n=0}^\infty a_n$ and $\sum_{n=0}^\infty b_n$ be series. Assume that $\sum_{n=0}^\infty a_n$ converges and that $\sum_{n=0}^\infty |b_n|$ converges. Define the [[real-analysis/cauchy-product|Cauchy product]] coefficients
+**Mertens' theorem:** Let \(\sum_{n=0}^\infty a_n\) and \(\sum_{n=0}^\infty b_n\) be series. Assume that \(\sum_{n=0}^\infty a_n\) converges and that \(\sum_{n=0}^\infty |b_n|\) converges. Define the [[real-analysis/cauchy-product|Cauchy product]] coefficients
 \[
 c_n=\sum_{k=0}^n a_k\,b_{n-k}.
 \]
-Then the series $\sum_{n=0}^\infty c_n$ converges, and its sum satisfies
+Then the series \(\sum_{n=0}^\infty c_n\) converges, and its sum satisfies
 \[
 \sum_{n=0}^\infty c_n=\left(\sum_{n=0}^\infty a_n\right)\left(\sum_{n=0}^\infty b_n\right).
 \]

@@ -8,16 +8,16 @@ domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/unital-magma.md"
 +++
 
-A **unital magma** is a [[algebra-groups/magma|magma]] $(M, \cdot)$ equipped with an **identity element** $e \in M$ satisfying
-$$e \cdot a = a \cdot e = a$$
-
-for all $a \in M$.
+A **unital magma** is a [[algebra-groups/magma|magma]] \((M,\cdot)\) equipped with an **identity element** \(e\in M\) satisfying
+\[
+e\cdot a=a\cdot e=a
+\qquad\text{for every }a\in M.
+\]
 
 ## Examples
 
-- Any monoid, loop, or group
-- A set with a non-associative operation that still has an identity element
+- Every monoid, loop, and group is a unital magma.
 
 ## Remarks
 
-This is the weakest structure requiring an identity. All [[algebra-groups/monoid|monoids]], [[algebra-groups/loop|loops]], and [[algebra-groups/group|groups]] are unital magmas.
+Unlike a [[algebra-groups/monoid|monoid]], a unital magma need not have an associative operation.

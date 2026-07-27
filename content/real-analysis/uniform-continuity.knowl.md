@@ -22,5 +22,3 @@ Useful properties:
 Examples in \(\mathbb{R}\):
 - \(f(x)=x^2\) is not uniformly continuous on \(\mathbb{R}\), but it is uniformly continuous on \([0,1]\).
 - \(f(x)=1/x\) is continuous on \((0,1)\) but not uniformly continuous there.
-
-14m45s · gpt-5.2-pro[browser] · ↑547 ↓3.41k ↻0 Δ3.95k

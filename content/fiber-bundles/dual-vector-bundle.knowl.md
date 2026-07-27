@@ -26,7 +26,7 @@ A [[fiber-bundles/vector-bundle-morphism|vector bundle morphism]] $\Phi:E\to F$ 
 
 ## Equivalent characterizations
 
-Equivalently, if $(e_1,\dots,e_r)$ is a local frame on $U$, then there is a uniquely determined dual local frame $(e^1,\dots,e^r)$ of $E^*|_U$ such that $e^i(e_j)=\delta^i_j$ pointwise; changes of frame are governed by inverse transpose (real case) or inverse conjugate transpose (Hermitian case).
+Equivalently, if $(e_1,\dots,e_r)$ is a local frame on $U$, then there is a uniquely determined dual local frame $(e^1,\dots,e^r)$ of $E^*|_U$ such that $e^i(e_j)=\delta^i_j$ pointwise. If the original frame changes by a matrix $A$, then the dual frame changes by $A^{-T}$ over both $\mathbb R$ and $\mathbb C$. An inverse conjugate transpose belongs instead to Hermitian duality, which uses conjugate-linear functionals.
 
 ## Examples
 1. **Cotangent bundle.** The [[fiber-bundles/cotangent-bundle|cotangent bundle]] $T^*M$ is the dual vector bundle of the [[fiber-bundles/tangent-bundle|tangent bundle]] $TM$.

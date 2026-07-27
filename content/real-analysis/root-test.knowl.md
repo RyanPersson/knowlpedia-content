@@ -8,15 +8,15 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/root-test.md"
 +++
 
-**Root test:** For a [[real-analysis/series|series]] $\sum_{n=1}^\infty a_n$, define
+**Root test.** For a [[real-analysis/series|series]] \(\sum_{n=1}^\infty a_n\), define
 \[
 L=\limsup_{n\to\infty}\sqrt[n]{|a_n|},
 \]
-where $|a_n|$ denotes the [[real-analysis/absolute-value|absolute value]] of the term.
+where the limit superior is allowed to take the value \(+\infty\).
 
-- If $L<1$, then $\sum_{n=1}^\infty a_n$ is [[real-analysis/absolutely-convergent-series|absolutely convergent]] (hence [[real-analysis/convergent-series|convergent]]).
-- If $L>1$ (including $L=\infty$), then $\sum_{n=1}^\infty a_n$ is [[real-analysis/divergent-series|divergent]].
-- If $L=1$, the test is inconclusive.
+- If \(L<1\), the series is [[real-analysis/absolutely-convergent-series|absolutely convergent]].
+- If \(L>1\), including \(L=+\infty\), the series [[real-analysis/divergent-series|diverges]].
+- If \(L=1\), the test is inconclusive.
 
 ## Remarks
 

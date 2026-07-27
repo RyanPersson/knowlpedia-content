@@ -8,11 +8,11 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/group-of-units.md"
 +++
 
-For a unital ring $R$, the **group of units** is
+For a unital ring \(R\), the **group of units** is
 \[
 R^\times=\{u\in R: u \text{ is a unit}\}
 \]
-with operation given by multiplication in $R$. This is a [[algebra-groups/group|group]], and it consists exactly of the [[algebra-rings/unit|units]] of $R$.
+with operation given by multiplication in \(R\). This is a [[algebra-groups/group|group]], and it consists exactly of the [[algebra-rings/unit|units]] of \(R\).
 
 ## Remarks
 
@@ -20,6 +20,6 @@ The unit group is functorial: a unital ring homomorphism sends units to units. I
 
 ## Examples
 
-- $\mathbb Z^\times=\{\pm 1\}$.
-- $(\mathbb Z/n\mathbb Z)^\times$ is the group of residue classes coprime to $n$.
-- $M_n(k)^\times$ is the group $\mathrm{GL}_n(k)$ of invertible matrices.
+- \(\mathbb Z^\times=\{\pm 1\}\).
+- \((\mathbb Z/n\mathbb Z)^\times\) is the group of residue classes coprime to \(n\).
+- \(M_n(k)^\times\) is the group \(\mathrm{GL}_n(k)\) of invertible matrices.

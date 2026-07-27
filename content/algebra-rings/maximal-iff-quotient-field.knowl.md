@@ -8,7 +8,7 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/maximal-iff-quotient-field.md"
 +++
 
-**Maximal ideal iff quotient is field**: Let \(R\) be a commutative ring with \(1\), and let \(I\triangleleft R\) be an [[algebra-rings/ideal|ideal]]. Then \(I\) is a [[algebra-rings/maximal-ideal|maximal ideal]] if and only if the [[algebra-rings/quotient-ring|quotient ring]] \(R/I\) is a [[algebra-rings/field|field]].
+**Maximal ideal iff quotient is field**: Let $R$ be a commutative ring with $1$, and let $I\triangleleft R$ be an [[algebra-rings/ideal|ideal]]. Then $I$ is a [[algebra-rings/maximal-ideal|maximal ideal]] if and only if the [[algebra-rings/quotient-ring|quotient ring]] $R/I$ is a [[algebra-rings/field|field]].
 
 ## Remarks
 

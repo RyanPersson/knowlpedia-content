@@ -2,13 +2,13 @@
 id = "fiber-bundles/holonomy-reduction-principle"
 title = "Holonomy reduction principle"
 kind = "knowl"
-summary = "If the holonomy of a connection lies in a subgroup H, the principal bundle admits an H-reduction preserved by the connection."
+summary = "If the holonomy of a connection lies in a closed Lie subgroup H, the principal bundle admits an H-reduction preserved by the connection."
 aliases = ["holonomy-reduction-principle", "Holonomy reduction principle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/holonomy-reduction-principle.md"
 +++
 
-Let $M$ be a connected [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] $G$. Fix a [[fiber-bundles/principal-connection|principal connection]] $\omega$ on $P$. Let $H\subseteq G$ be a Lie subgroup.
+Let $M$ be a connected [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] $G$. Fix a [[fiber-bundles/principal-connection|principal connection]] $\omega$ on $P$. Let $H\subseteq G$ be a closed Lie subgroup.
 
 ## Principle (holonomy containment implies reduction)
 

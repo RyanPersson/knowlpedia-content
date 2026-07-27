@@ -12,9 +12,9 @@ Let $\mathfrak g$ be a [[lie-groups/lie-algebra|Lie algebra]].
 
 **Definition (Ideal).**
 A linear subspace $\mathfrak i\subseteq \mathfrak g$ is an **ideal** if it is a [[lie-groups/lie-subalgebra|Lie subalgebra]] and
-\[
+$$
 [\mathfrak g,\mathfrak i]\subseteq \mathfrak i.
-\]
+$$
 Equivalently, $\mathfrak i$ is stable under the [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint action]]: for every $x\in\mathfrak g$, the endomorphism $\mathrm{ad}_x$ maps $\mathfrak i$ into itself.
 
 ## Remarks

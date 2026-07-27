@@ -8,11 +8,11 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/separates-points.md"
 +++
 
-A family $\mathcal{F}$ of functions on a set $X$ **separates points** if for every pair of distinct points $x,y\in X$ there exists $f\in\mathcal{F}$ such that $f(x)\ne f(y)$.
+A family \(\mathcal F\) of functions on a set \(X\) **separates points** if, for every distinct \(x,y\in X\), there exists \(f\in\mathcal F\) such that \(f(x)\ne f(y)\).
 
-This property is often imposed on a [[real-analysis/subalgebra-of-continuous-functions|subalgebra of continuous functions]] in approximation theorems, notably the [[real-analysis/stone-weierstrass-theorem|Stone–Weierstrass theorem]]. Intuitively, separating points means the family contains enough [[shared-foundations/function|functions]] to distinguish elements of $X$ by their images.
+This condition appears in the [[real-analysis/stone-weierstrass-theorem|Stone–Weierstrass theorem]] for subalgebras of continuous functions.
 
 ## Examples
 
-- The set of real [[real-analysis/polynomial|polynomials]] restricted to $[a,b]$ separates points of $[a,b]$ (if $x\ne y$, the polynomial $p(t)=t$ already satisfies $p(x)\ne p(y)$).
-- The family of constant functions on $X$ does not separate points (all constants take the same value at every point).
+- Real polynomials restricted to \([a,b]\) separate points because \(p(t)=t\) does.
+- Constant functions do not separate two distinct points.

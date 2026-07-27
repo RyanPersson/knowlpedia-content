@@ -9,15 +9,15 @@ legacy_source_path = "fiber-bundles/horizontal-subbundle.md"
 +++
 
 Let $\pi:E\to M$ be a surjective submersion, and let
-\[
+$$
 VE:=\ker(d\pi)\subset TE
-\]
+$$
 be the vertical subbundle.
 
 **Definition.** A horizontal subbundle is a smooth subbundle $HE\subset \,TE$ such that for every $e\in E$,
-\[
+$$
 T_eE = H_eE \oplus V_eE.
-\]
+$$
 
 A choice of horizontal subbundle is exactly the same data as an [[fiber-bundles/ehresmann-connection|Ehresmann connection]]. In particular, the restriction of $d\pi_e$ to $H_eE$ is an isomorphism $H_eE\cong T_{\pi(e)}M$, which is what makes the [[fiber-bundles/horizontal-lift-of-a-tangent-vector|horizontal lift of a tangent vector]] well-defined and unique.
 

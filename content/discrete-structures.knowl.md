@@ -2,7 +2,7 @@
 id = "discrete-structures"
 title = "Discrete Structures"
 kind = "section"
-summary = "Graphs and lattice structures for statistical mechanics"
+summary = "Graphs and lattice structures for statistical mechanics."
 aliases = ["discrete-structures", "Discrete Structures"]
 domains = ["discrete-structures"]
 legacy_source_path = "discrete-structures/_index.md"

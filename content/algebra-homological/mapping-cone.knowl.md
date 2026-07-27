@@ -11,7 +11,12 @@ For a [[algebra-homological/chain-map|chain map]] \(f:X^\bullet\to Y^\bullet\), 
 \[
 \operatorname{Cone}(f)^n=Y^n\oplus X^{n+1}
 \]
-and differential built from the differentials of \(X\) and \(Y\) together with \(f\), with signs determined by the grading convention. It fits into a canonical triangle
+and differential
+\[
+d_{\operatorname{Cone}(f)}^n(y,x)
+=\bigl(d_Y^n y+f^{n+1}x,\,-d_X^{n+1}x\bigr).
+\]
+This formula uses cochain complexes; other grading conventions change the displayed signs. The cone fits into a canonical triangle
 \[
 X\xrightarrow{f}Y\to\operatorname{Cone}(f)\to X[1].
 \]

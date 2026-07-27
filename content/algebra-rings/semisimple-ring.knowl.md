@@ -8,7 +8,7 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/semisimple-ring.md"
 +++
 
-A **semisimple ring** is a unital ring $R$ such that every left $R$-module is semisimple (i.e. a direct sum of simple modules). Equivalently, the left regular module ${}_RR$ is a direct sum of minimal left ideals.
+A **semisimple ring** is a unital ring \(R\) such that every left \(R\)-module is semisimple (i.e. a direct sum of simple modules). Equivalently, the left regular module \({}_RR\) is a direct sum of minimal left ideals.
 
 ## Remarks
 
@@ -16,6 +16,6 @@ In structural terms, semisimple rings are exactly those described by the [[algeb
 
 ## Examples
 
-- $M_n(k)$ is semisimple for any field $k$ and integer $n\ge 1$.
-- $M_2(\mathbb{Q})\times \mathbb{Q}$ is semisimple.
-- The ring $k[x]/(x^2)$ is not semisimple: the class of $x$ is nonzero but nilpotent, forcing a nontrivial Jacobson radical.
+- \(M_n(k)\) is semisimple for any field \(k\) and integer \(n\ge 1\).
+- \(M_2(\mathbb{Q})\times \mathbb{Q}\) is semisimple.
+- The ring \(k[x]/(x^2)\) is not semisimple: the class of \(x\) is nonzero but nilpotent, forcing a nontrivial Jacobson radical.

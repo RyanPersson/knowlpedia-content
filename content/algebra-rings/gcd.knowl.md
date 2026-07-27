@@ -8,9 +8,9 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/gcd.md"
 +++
 
-Let $R$ be an [[algebra-rings/integral-domain|integral domain]] and let $a,b\in R$. A **greatest common divisor** of $a$ and $b$ is an element $d\in R$ such that:
-1. $d\mid a$ and $d\mid b$, and
-2. if $c\mid a$ and $c\mid b$, then $c\mid d$.
+Let \(R\) be an [[algebra-rings/integral-domain|integral domain]] and let \(a,b\in R\). A **greatest common divisor** of \(a\) and \(b\) is an element \(d\in R\) such that:
+1. \(d\mid a\) and \(d\mid b\), and
+2. if \(c\mid a\) and \(c\mid b\), then \(c\mid d\).
 
 ## Remarks
 
@@ -18,6 +18,6 @@ A gcd is unique up to [[algebra-rings/associated-elements|associates]] (so one o
 
 ## Examples
 
-- In $\mathbb{Z}$, $\gcd(12,18)=6$.
-- In $\mathbb{Q}[x]$, a gcd of $x^2-1$ and $x^2-3x+2$ is $x-1$ (up to nonzero rational scalars).
-- For any $a\in R$, a gcd of $a$ and $0$ is $a$ (up to associates).
+- In \(\mathbb{Z}\), \(\gcd(12,18)=6\).
+- In \(\mathbb{Q}[x]\), a gcd of \(x^2-1\) and \(x^2-3x+2\) is \(x-1\) (up to nonzero rational scalars).
+- For any \(a\in R\), a gcd of \(a\) and \(0\) is \(a\) (up to associates).

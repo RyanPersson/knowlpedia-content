@@ -9,9 +9,9 @@ legacy_source_path = "fiber-bundles/conjugation-action-of-a-lie-group-on-itself.
 +++
 
 Let $G$ be a [[fiber-bundles/lie-group|Lie group]]. The **conjugation action** of $G$ on itself is the map
-\[
+$$
 C:G\times G\to G,\qquad C(g,h)=ghg^{-1}.
-\]
+$$
 This is a smooth left action: one has $C(e,h)=h$ and $C(g_1,C(g_2,h))=C(g_1g_2,h)$ for all $g_1,g_2,h\in G$. For each fixed $g$, the map $h\mapsto ghg^{-1}$ is a [[fiber-bundles/diffeomorphism|diffeomorphism]] of $G$, with inverse given by conjugation by $g^{-1}$.
 
 Differentiating the conjugation map at the identity in the second variable yields the [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]] on the Lie algebra: $\mathrm{Ad}_g=(\mathrm{d}C_g)_e$ where $C_g(h)=ghg^{-1}$.

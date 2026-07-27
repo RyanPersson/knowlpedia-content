@@ -9,13 +9,13 @@ legacy_source_path = "real-analysis/riemann-stieltjes-integral.md"
 +++
 
 A **Riemann–Stieltjes integral** of a bounded function $f:[a,b]\to\mathbb R$ with respect to an [[real-analysis/integrator-function|integrator function]] $\alpha:[a,b]\to\mathbb R$ is a number
-\[
+$$
 \int_a^b f\,d\alpha
-\]
+$$
 such that for every $\varepsilon>0$ there exists $\delta>0$ with the property that, for every [[real-analysis/tagged-partition|tagged partition]] $(P,\{t_i\})$ with mesh $\|P\|<\delta$,
-\[
+$$
 \left|\sum_{i=1}^n f(t_i)\bigl(\alpha(x_i)-\alpha(x_{i-1})\bigr)-\int_a^b f\,d\alpha\right|<\varepsilon.
-\]
+$$
 (The sum is called a Riemann–Stieltjes sum.)
 
 ## Remarks

@@ -2,14 +2,13 @@
 id = "convex-analysis/closure-characterized-by-convergent-sequences"
 title = "Closure via sequences"
 kind = "knowl"
-summary = "In metric spaces, a point is in the closure iff it is a limit of a sequence from the set"
+summary = "In a metric space, a point lies in a set's closure exactly when a sequence from the set converges to it."
 aliases = ["closure-characterized-by-convergent-sequences", "Closure via sequences"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/closure-characterized-by-convergent-sequences.md"
 +++
 
-**Proposition.**
-Let $(X,d)$ be a metric space and let $A\subset X$. Then for $a\in X$,
+Let $(X,d)$ be a metric space and $A\subseteq X$. For $a\in X$,
 $$
 a\in \overline{A}\quad\Longleftrightarrow\quad \exists\ (a_n)\subset A \text{ with } a_n\to a.
 $$

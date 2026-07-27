@@ -12,13 +12,13 @@ Let $V$ be a finite-dimensional real or complex vector space.
 
 **Definition (General linear Lie algebra).**
 The **general linear Lie algebra** is the vector space
-\[
+$$
 \mathfrak{gl}(V)=\mathrm{End}(V)
-\]
+$$
 equipped with the commutator [[fiber-bundles/lie-bracket|Lie bracket]]
-\[
+$$
 [X,Y]=XY-YX.
-\]
+$$
 After choosing a basis, $\mathfrak{gl}(V)\cong \mathfrak{gl}_n(\mathbb F)=M_n(\mathbb F)$ with the same bracket.
 
 ## Remarks

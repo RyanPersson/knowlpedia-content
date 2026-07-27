@@ -8,6 +8,6 @@ domains = ["topology"]
 legacy_source_path = "topology/continuous-bijection-from-compact-homeomorphism-criterion.md"
 +++
 
-**Homeomorphism criterion (compact to metric)**: Let $(X,d_X)$ and $(Y,d_Y)$ be [[topology/metric-space|metric spaces]]. If $X$ is [[topology/compact-set|compact]] and $f:X\to Y$ is a continuous [[shared-foundations/bijective-function|bijection]], then $f^{-1}:f(X)\to X$ is continuous. In particular, $f$ is a [[topology/homeomorphism|homeomorphism]] from $X$ onto $f(X)$.
+**Compact-to-Hausdorff homeomorphism criterion.** Let \(X\) be a compact topological space and \(Y\) a Hausdorff space. Every continuous [[shared-foundations/bijective-function|bijection]] \(f:X\to Y\) is a [[topology/homeomorphism|homeomorphism]]; equivalently, \(f^{-1}:Y\to X\) is continuous.
 
-This result says that on compact domains, a continuous bijection automatically has a continuous inverse (when the target is Hausdorff, which metric spaces are).
+In particular, this applies when \(X\) and \(Y\) are [[topology/metric-space|metric spaces]] and \(X\) is compact.

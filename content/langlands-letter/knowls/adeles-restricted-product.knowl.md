@@ -8,15 +8,15 @@ domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/adeles-restricted-product.md"
 +++
 
-Let $F$ be a number field with completions $F_v$.
+Let \(F\) be a number field with completions \(F_v\).
 
-Given compact open subrings $\mathcal O_v\subset F_v$ at almost all finite $v$, the **restricted product**
-$
+Given compact open subrings \(\mathcal O_v\subset F_v\) at almost all finite \(v\), the **restricted product**
+\[
 \prod_v' F_v=\{(x_v): x_v\in \mathcal O_v \text{ for almost all finite }v\}.
-$
+\]
 
-The **adele ring** is $\mathbb{A}_F:=\prod_v' F_v$ (with $\mathcal O_v$ the local integer rings at finite $v$).
+The **adele ring** is \(\mathbb{A}_F:=\prod_v'F_v\) (with \(\mathcal O_v\) the local integer rings at finite \(v\)).
 
 ## Remarks
 
-**Key property:** $F$ embeds diagonally into $\mathbb{A}_F$, and automorphic forms live on $G(F)\backslash G(\mathbb{A}_F)$ (see [[langlands-letter/knowls/automorphic-form-hecke-eigen|automorphic forms]]).
+**Key property:** \(F\) embeds diagonally into \(\mathbb{A}_F\), and automorphic forms live on \(G(F)\backslash G(\mathbb{A}_F)\) (see [[langlands-letter/knowls/automorphic-form-hecke-eigen|automorphic forms]]).

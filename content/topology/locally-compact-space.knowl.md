@@ -7,6 +7,6 @@ aliases = ["locally compact", "locally compact space", "local compactness"]
 domains = ["topology"]
 +++
 
-A [[topology/topological-space|topological space]] \(X\) is **locally compact** if every point \(x\in X\) has a neighborhood whose closure is [[topology/compact-set|compact]]. For a [[topology/hausdorff-space|Hausdorff space]], this is equivalent to requiring each point to have a base of relatively compact neighborhoods.
+A [[topology/topological-space|topological space]] $X$ is **locally compact** if every point $x\in X$ has a neighborhood whose closure is [[topology/compact-set|compact]]. For a [[topology/hausdorff-space|Hausdorff space]], this is equivalent to requiring each point to have a base of relatively compact neighborhoods.
 
-Local compactness is weaker than compactness: Euclidean space \(\mathbb R^n\) is locally compact but is not compact. The hypothesis is especially important in [[topology/topological-group|topological group]] theory because translations carry a compact neighborhood of the identity to compact neighborhoods of every point.
+Local compactness is weaker than compactness: Euclidean space $\mathbb R^n$ is locally compact but is not compact. The hypothesis is especially important in [[topology/topological-group|topological group]] theory because translations carry a compact neighborhood of the identity to compact neighborhoods of every point.

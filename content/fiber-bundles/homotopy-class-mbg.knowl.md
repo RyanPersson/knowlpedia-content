@@ -23,9 +23,9 @@ If $\phi\colon M'\to M$ is a [[fiber-bundles/diffeomorphism|diffeomorphism]], th
 [M,BG] \xrightarrow{\;\cong\;} [M',BG], \quad [f]\mapsto [f\circ \phi].
 \]
 
-This set is the target of the classification map sending a [[fiber-bundles/principal-g-bundle|principal G-bundle]] $P\to M$ to the homotopy class of its [[fiber-bundles/classifying-map-of-a-principal-bundle|classifying map]].
+Under the usual hypotheses of the classifying-space theorem, this set is the target of the classification map sending a [[fiber-bundles/principal-g-bundle|principal G-bundle]] $P\to M$ to the homotopy class of its [[fiber-bundles/classifying-map-of-a-principal-bundle|classifying map]].
 
 ## Examples
-1. **Spheres.** For $M=S^n$, there is a canonical identification [S^n,BG] $\cong \pi_n(BG)$.
-2. **Contractible bases.** If $M$ is contractible, then [M,BG] has exactly one element (every map is homotopic to a constant map).
+1. **Spheres.** The based homotopy set satisfies $[S^n,BG]_*=\pi_n(BG)$. Passing to unbased classes may further identify elements through the action of the [[topology/fundamental-group|fundamental group]], so the basepoint should not be suppressed without an additional hypothesis.
+2. **Contractible bases.** If $M$ is nonempty and contractible and $BG$ is path-connected, then [M,BG] has exactly one element (every map is homotopic to a constant map).
 3. **[[fiber-bundles/line-bundle|Line bundles]].** For $G=U(1)$ one has $BG\simeq \mathbb{C}P^\infty$, and [M,BG] corresponds to isomorphism classes of principal $U(1)$-bundles (equivalently complex line bundles) over $M$.

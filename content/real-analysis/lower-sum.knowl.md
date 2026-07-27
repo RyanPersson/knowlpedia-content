@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/lower-sum.md"
 +++
 
 A **lower sum** of a bounded function $f:[a,b]\to\mathbb R$ with respect to a [[real-analysis/partition-of-an-interval|partition]] $P=\{x_0,\dots,x_n\}$ is the number
-\[
+$$
 L(f,P)=\sum_{i=1}^n m_i\,(x_i-x_{i-1}),
-\]
+$$
 where $m_i=\inf\{f(x):x\in[x_{i-1},x_i]\}$ is the [[real-analysis/infimum|infimum]] of $f$ on the $i$th subinterval.
 
 Lower sums are paired with [[real-analysis/upper-sum|upper sums]] to define [[real-analysis/riemann-integrable-function|Riemann integrability]] via the gap $U(f,P)-L(f,P)$.

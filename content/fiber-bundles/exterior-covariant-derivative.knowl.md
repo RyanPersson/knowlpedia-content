@@ -24,11 +24,11 @@ defined by
 \]
 where \(d\) is the [[fiber-bundles/exterior-derivative|exterior derivative]] and \(X_i^H\) denotes the horizontal projection of \(X_i\in T_pP\) using the connection (equivalently, the horizontal lift determined by \(\ker\omega\)).
 
-This definition is independent of choices and produces another tensorial form. In local trivializations it becomes the familiar “\(d\) plus connection term” formula, and its square is governed by the curvature: for tensorial \(\alpha\),
+This definition produces another tensorial form. In a local trivialization it becomes the “\(d\) plus connection term” formula. Its square is governed by the curvature:
 \[
-d_\omega^2\alpha \;\text{is the action of}\; \Omega \;\text{on}\; \alpha,
+d_\omega^2\alpha=\rho_*(\Omega)\wedge\alpha,
 \]
-where \(\Omega\) is the [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]].
+where \(\Omega\) is the [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature form]] and \(\rho_*:\mathfrak g\to\operatorname{End}(V)\) is the derived representation.
 
 ## Examples
 1. **Equivariant functions (degree 0).** If \(f:P\to V\) is equivariant, then \(d_\omega f\) is the horizontal part of \(df\). Under the associated bundle viewpoint, this corresponds to the covariant derivative of the section defined by \(f\).

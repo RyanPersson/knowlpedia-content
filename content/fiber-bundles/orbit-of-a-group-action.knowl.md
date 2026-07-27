@@ -11,9 +11,9 @@ legacy_source_path = "fiber-bundles/orbit-of-a-group-action.md"
 Consider a [[fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold|smooth action]] of a Lie group $G$ on a manifold $M$.
 
 For $x\in M$, the **orbit** of $x$ (under the action of $G$) is the subset
-\[
+$$
 G\cdot x := \{ g\cdot x \mid g\in G\}\subseteq M.
-\]
+$$
 Equivalently, $G\cdot x$ is the image of the [[fiber-bundles/orbit-map|orbit map]] $\Phi^x:G\to M$, $g\mapsto g\cdot x$.
 
 Two points $x,y\in M$ lie in the same orbit if and only if there exists $g\in G$ with $y=g\cdot x$; this is an equivalence relation whose equivalence classes are precisely the orbits, and the corresponding quotient is the [[fiber-bundles/quotient-space-of-an-action|orbit space]] $M/G$.

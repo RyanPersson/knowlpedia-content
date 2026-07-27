@@ -8,7 +8,11 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/natural-numbers.md"
 +++
 
-The **natural numbers** are the [[shared-foundations/set|set]] $\mathbb{N}=\{0,1,2,\dots\}$. (Some authors use $\{1,2,3,\dots\}$ instead; when needed, the chosen convention should be stated.)
+In this work, the **natural numbers** are the [[shared-foundations/set|set]]
+\[
+\mathbb N=\{0,1,2,\ldots\}.
+\]
+Some authors instead use \(\{1,2,3,\ldots\}\), so the convention should be stated when ambiguity matters.
 
 ## Remarks
 
@@ -16,5 +20,5 @@ Natural numbers are used to index a [[shared-foundations/sequence|sequence]] and
 
 ## Examples
 
-- The numbers $0,1,2,3$ are elements of $\mathbb{N}$.
-- The subset $\{n\in\mathbb{N} : n \text{ is even}\}$ is an infinite subset of $\mathbb{N}$.
+- The numbers \(0,1,2,3\) belong to \(\mathbb N\).
+- The set \(\{n\in\mathbb N:n\text{ is even}\}\) is an infinite subset of \(\mathbb N\).

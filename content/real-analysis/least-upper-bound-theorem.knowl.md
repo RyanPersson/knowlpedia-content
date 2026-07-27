@@ -8,7 +8,7 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/least-upper-bound-theorem.md"
 +++
 
-**Least Upper Bound Theorem**: If $E\subseteq \mathbb{R}$ is nonempty and [[real-analysis/bounded-above|bounded above]], then $\sup E$ exists in $\mathbb{R}$.
+**Least Upper Bound Theorem**: If \(E\subseteq \mathbb{R}\) is nonempty and [[real-analysis/bounded-above|bounded above]], then \(\sup E\) exists in \(\mathbb{R}\).
 
 ## Remarks
 

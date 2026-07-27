@@ -2,7 +2,7 @@
 id = "langlands-letter/knowls/borel-mostow-semisimple-normalizer"
 title = "Borel–Mostow Normalizer Representative (Semisimple Class)"
 kind = "knowl"
-summary = "Choosing representatives of semisimple classes in a torus normalizer, as used to parametrize Hecke characters"
+summary = "Semisimple conjugacy classes admit representatives in a suitable torus normalizer."
 aliases = ["borel-mostow-semisimple-normalizer", "Borel–Mostow Normalizer Representative (Semisimple Class)"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/borel-mostow-semisimple-normalizer.md"
@@ -10,10 +10,10 @@ legacy_source_path = "langlands-letter/knowls/borel-mostow-semisimple-normalizer
 
 An element of a complex reductive group is **semisimple** if it is diagonalizable in every finite-dimensional complex representation (equivalently, it lies in some complex torus).
 
-In a connected complex reductive group, every semisimple element is conjugate into a fixed maximal torus $T$.
+In a connected complex reductive group, every semisimple element is conjugate into a fixed maximal torus \(T\).
 
-In the letter one works in a (typically disconnected) group like $\Gamma\ltimes \widehat G$; a Borel–Mostow result is invoked to ensure a semisimple conjugacy class with a fixed $\Gamma$-component has a representative in the **normalizer** $N_{\Gamma\ltimes \widehat G}(\widehat T)$, and can be chosen to preserve a chosen set of positive roots (a "dominant" representative).
+In the letter one works in a (typically disconnected) group like \(\Gamma\ltimes \widehat G\); a Borel–Mostow result is invoked to ensure a semisimple conjugacy class with a fixed \(\Gamma\)-component has a representative in the **normalizer** \(N_{\Gamma\ltimes \widehat G}(\widehat T)\), and can be chosen to preserve a chosen set of positive roots (a "dominant" representative).
 
 ## Remarks
 
-**Use:** this supports the bijection "Hecke eigencharacters $\leftrightarrow$ semisimple conjugacy classes with Frobenius projection."
+**Use:** this supports the bijection "Hecke eigencharacters \(\leftrightarrow\) semisimple conjugacy classes with Frobenius projection."

@@ -1,8 +1,8 @@
 +++
 id = "fiber-bundles/left-translation-l-g"
-title = "Left Translation on a Lie Group"
+title = "Left translation on a Lie group"
 kind = "knowl"
-summary = "For g G, the diffeomorphism L_g:G G, L_g(h)=gh, used to transport geometric data by left multiplication."
+summary = "The diffeomorphism of a Lie group given by multiplication by a fixed element on the left."
 aliases = ["left-translation-l-g", "Left Translation on a Lie Group"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/left-translation-l-g.md"
@@ -10,7 +10,6 @@ legacy_source_path = "fiber-bundles/left-translation-l-g.md"
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and fix an element \(g\in G\).
 
-**Definition (left translation).**  
 The **left translation by \(g\)** is the map
 \[
 L_g:G\longrightarrow G,\qquad L_g(h)=gh.
@@ -29,16 +28,16 @@ L_g\circ L_h=L_{gh},\qquad L_e=\mathrm{id}_G.
 \]
 For comparison, one can also transport data via [[fiber-bundles/right-translation-r-g|right translations]].
 
-### Examples
+## Examples
 
-1. **\((\mathbb R^n,+)\).**  
+1. **\((\mathbb R^n,+)\).**
    For the additive Lie group, \(L_a(x)=a+x\). The differential \((dL_a)_x\) is the identity map on \(\mathbb R^n\) for every \(x\).
 
-2. **Matrix groups.**  
+2. **Matrix groups.**
    If \(G\subseteq GL(n,\mathbb R)\), then \(L_A(B)=AB\). Identifying \(T_BG\) with an appropriate subspace of matrices, \((dL_A)_B\) acts by left multiplication:
    \[
    (dL_A)_B(V)=AV.
    \]
 
-3. **Circle group \(S^1\).**  
+3. **Circle group \(S^1\).**
    Writing elements as complex numbers of unit modulus, \(L_{e^{i\theta}}(e^{it})=e^{i(\theta+t)}\). Geometrically, left translation rotates the circle by angle \(\theta\).

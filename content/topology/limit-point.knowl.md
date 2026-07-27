@@ -9,9 +9,9 @@ legacy_source_path = "topology/limit-point.md"
 +++
 
 A **limit point** (or accumulation point) of a subset $A\subseteq X$ in a [[topology/topological-space|topological space]] is a point $x\in X$ such that every [[topology/neighborhood|neighborhood]] $N$ of $x$ satisfies
-\[
+$$
 (N\cap (A\setminus\{x\}))\neq\varnothing.
-\]
+$$
 
 The set of all limit points of $A$ is the [[topology/derived-set|derived set]] of $A$. Limit points also describe [[topology/closure|closure]] via the identity $\overline{A}=A\cup A'$.
 

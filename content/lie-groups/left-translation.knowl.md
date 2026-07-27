@@ -9,18 +9,18 @@ legacy_source_path = "lie-groups/left-translation.md"
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and fix \(g\in G\). The **left translation** by \(g\) is the map
-$$
+\[
 L_g:G\to G,\qquad L_g(h)=gh.
-$$
+\]
 
 ## Smoothness and inverse
 Because group multiplication is [[fiber-bundles/smooth-map|smooth]], \(L_g\) is a diffeomorphism with inverse \(L_{g^{-1}}\).
 
 ## Differential
 For each \(h\in G\), the differential
-$$
+\[
 (dL_g)_h : T_hG \to T_{gh}G
-$$
+\]
 is a linear isomorphism of [[differential-geometry/tangent-space|tangent spaces]]; see [[fiber-bundles/differential-of-a-smooth-map|differential]].
 
 ## Why it matters

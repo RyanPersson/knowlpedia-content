@@ -26,7 +26,7 @@ which can be taken as an equivalent recursive definition of \(\Phi_n\) in \(\mat
 \]
 linking cyclotomic polynomials to the [[algebra-fields-galois/cyclotomic-extension|cyclotomic extension]] \(\mathbb{Q}(\zeta_n)\) and the [[algebra-fields-galois/splitting-field|splitting field]] of \(x^n-1\).
 
-### Examples
+## Examples
 1. \(\Phi_1(x)=x-1\), \(\Phi_2(x)=x+1\), \(\Phi_3(x)=x^2+x+1\), \(\Phi_4(x)=x^2+1\).
 
 2. For an odd prime \(p\),

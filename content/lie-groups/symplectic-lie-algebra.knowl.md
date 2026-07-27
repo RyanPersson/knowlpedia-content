@@ -2,7 +2,7 @@
 id = "lie-groups/symplectic-lie-algebra"
 title = "Symplectic Lie algebra"
 kind = "knowl"
-summary = "The Lie algebra of the symplectic group: matrices satisfying with commutator bracket."
+summary = "The Lie algebra of the symplectic group, consisting of matrices satisfying XᵀJ + JX = 0."
 aliases = ["symplectic-lie-algebra", "Symplectic Lie algebra"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/symplectic-lie-algebra.md"
@@ -17,15 +17,13 @@ The **symplectic Lie algebra** over a field $\mathbb F$ of characteristic $\neq 
 $$
 \mathfrak{sp}(2n,\mathbb F)=\{X\in M_{2n}(\mathbb F)\mid X^T J + JX = 0\},
 $$
-
-with Lie bracket given by the commutator $[X,Y]=XY-YX$ (see [[fiber-bundles/lie-bracket|the Lie bracket]]). It is the Lie algebra of the [[lie-groups/symplectic-group|symplectic group $\\mathrm{Sp}(2n,\\mathbb F)$]] in the sense of [[lie-groups/lie-algebra-of-a-lie-group|the Lie algebra of a Lie group]].
+with Lie bracket given by the commutator $[X,Y]=XY-YX$ (see [[fiber-bundles/lie-bracket|the Lie bracket]]). It is the Lie algebra of the [[lie-groups/symplectic-group|symplectic group $\mathrm{Sp}(2n,\mathbb F)$]].
 
 ## Useful block description
 Writing a matrix in $n\times n$ blocks
 $$
 X=\begin{pmatrix}A&B\\C&D\end{pmatrix},
 $$
-
 the condition $X^T J + JX=0$ is equivalent to
 $$
 D=-A^T,\qquad B=B^T,\qquad C=C^T.

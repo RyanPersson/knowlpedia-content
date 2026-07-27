@@ -2,16 +2,15 @@
 id = "convex-analysis/interior-and-closure-of-a-convex-set-are-convex"
 title = "Interior and closure of a convex set are convex"
 kind = "knowl"
-summary = "In a normed space, convexity is preserved under interior and closure"
+summary = "In a normed space, the interior and closure of a convex set are convex."
 aliases = ["interior-and-closure-of-a-convex-set-are-convex", "Interior and closure of a convex set are convex"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/interior-and-closure-of-a-convex-set-are-convex.md"
 +++
 
-**Proposition.**
-Let $X$ be a [[convex-analysis/norm-normed-vector-space|normed vector space]] and let $\Omega\subset X$ be [[convex-analysis/convex-set|convex]]. Then:
+Let $X$ be a [[convex-analysis/norm-normed-vector-space|normed vector space]] and $\Omega\subseteq X$ a [[convex-analysis/convex-set|convex set]]. Then:
 
-- the [[convex-analysis/interior-of-a-set|interior]] $\mathrm{int}(\Omega)$ is convex (possibly empty),
+- the [[convex-analysis/interior-of-a-set|interior]] $\operatorname{int}(\Omega)$ is convex, possibly empty;
 - the [[convex-analysis/closure-of-a-set|closure]] $\overline{\Omega}$ is convex.
 
 ## Remarks

@@ -8,8 +8,8 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/ufd-implies-gcd-exists.md"
 +++
 
-**UFD implies GCDs exist**: Let $R$ be a UFD and let $a,b\in R$ be not both zero. Then there exists $d\in R$ such that (i) $d\mid a$ and $d\mid b$, and (ii) if $c\mid a$ and $c\mid b$ then $c\mid d$. Any two such $d$ differ by multiplication by a unit; one writes $d=\gcd(a,b)$.
+**UFD implies GCDs exist**: Let \(R\) be a UFD and let \(a,b\in R\) be not both zero. Then there exists \(d\in R\) such that (i) \(d\mid a\) and \(d\mid b\), and (ii) if \(c\mid a\) and \(c\mid b\) then \(c\mid d\). Any two such \(d\) differ by multiplication by a unit; one writes \(d=\gcd(a,b)\).
 
 ## Remarks
 
-In a [[algebra-rings/ufd|unique factorization domain]], write $a$ and $b$ as products of [[algebra-rings/prime-element|prime elements]] and take the product of the common primes with minimal exponents to obtain a [[algebra-rings/gcd|greatest common divisor]]. Uniqueness is up to [[algebra-rings/associated-elements|associates]], and in a UFD prime elements coincide with [[algebra-rings/irreducible-element|irreducible elements]].
+In a [[algebra-rings/ufd|unique factorization domain]], write \(a\) and \(b\) as products of [[algebra-rings/prime-element|prime elements]] and take the product of the common primes with minimal exponents to obtain a [[algebra-rings/gcd|greatest common divisor]]. Uniqueness is up to [[algebra-rings/associated-elements|associates]], and in a UFD prime elements coincide with [[algebra-rings/irreducible-element|irreducible elements]].

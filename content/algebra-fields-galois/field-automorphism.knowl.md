@@ -19,6 +19,10 @@ Automorphisms are the “symmetries” that permute conjugates, and they control
 ### Examples
 1. **Complex conjugation.** The map \(\sigma:\mathbb{C}\to\mathbb{C}\), \(\sigma(a+bi)=a-bi\), is a field automorphism. It is a \(\mathbb{R}\)-automorphism of \(\mathbb{C}/\mathbb{R}\).
 
-2. **Quadratic extension.** For \(L=\mathbb{Q}(\sqrt{d})\), the map \(\sigma(a+b\sqrt{d})=a-b\sqrt{d}\) is a nontrivial \(\mathbb{Q}\)-automorphism. Thus \(\mathrm{Aut}_\mathbb{Q}(L)\cong C_2\).
+2. **Quadratic extension.** If \(d\in\mathbb{Q}\) is not a square and \(L=\mathbb{Q}(\sqrt{d})\), then
+   \[
+   \sigma(a+b\sqrt{d})=a-b\sqrt{d}
+   \]
+   is the nonidentity \(\mathbb{Q}\)-automorphism of \(L\). Thus \(\mathrm{Aut}_{\mathbb{Q}}(L)\cong C_2\).
 
 3. **Finite fields and Frobenius.** If \(L=\mathbb{F}_{p^n}\) is a [[algebra-fields-galois/finite-field|finite field]], then the [[algebra-fields-galois/frobenius-endomorphism|Frobenius map]] \(x\mapsto x^p\) is an automorphism of \(L\), and its powers generate \(\mathrm{Gal}(L/\mathbb{F}_p)\) (see [[algebra-fields-galois/finite-field-galois-group-cyclic|finite-field Galois groups are cyclic]]).

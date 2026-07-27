@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/uniform-metric.md"
 +++
 
 The **uniform metric** on a set of bounded real-valued functions on $X$ is defined by
-\[
+$$
 d_\infty(f,g)=\sup_{x\in X} |f(x)-g(x)|.
-\]
+$$
 Equivalently, $d_\infty(f,g)=\|f-g\|_\infty$ where $\|\cdot\|_\infty$ is the [[real-analysis/supremum-norm|supremum norm]].
 
 ## Remarks

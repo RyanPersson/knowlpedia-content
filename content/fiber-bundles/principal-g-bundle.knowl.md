@@ -9,17 +9,17 @@ legacy_source_path = "fiber-bundles/principal-g-bundle.md"
 +++
 
 Let $G$ be a [[fiber-bundles/lie-group|Lie group]] and let $M$ be a smooth manifold. A **principal $G$-bundle** over $M$ is a quadruple $(P,\pi,M,G)$ consisting of a [[fiber-bundles/smooth-manifold|smooth manifold]] $P$, a surjective submersion $\pi:P\to M$, and a smooth right action
-\[
+$$
 P\times G\to P,\quad (p,g)\mapsto p\cdot g,
-\]
+$$
 such that:
 
 1. **Free and transitive on fibers.** For each $x\in M$, the action restricts to a free and transitive action of $G$ on the fiber $P_x:=\pi^{-1}(x)$. Equivalently, each fiber is a $G$-torsor.
 
 2. **Local triviality (equivariant).** There exists an open cover $\{U_\alpha\}$ of $M$ and [[fiber-bundles/diffeomorphism|diffeomorphisms]]
-   \[
+   $$
    \Phi_\alpha:\pi^{-1}(U_\alpha)\to U_\alpha\times G
-   \]
+   $$
    such that:
    - $\mathrm{pr}_1\circ \Phi_\alpha=\pi$,
    - $\Phi_\alpha(p\cdot g) = \Phi_\alpha(p)\cdot g$, where $U_\alpha\times G$ has the right action $(x,h)\cdot g := (x,hg)$.

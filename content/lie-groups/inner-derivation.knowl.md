@@ -9,15 +9,15 @@ legacy_source_path = "lie-groups/inner-derivation.md"
 +++
 
 Let $\mathfrak g$ be a [[lie-groups/lie-algebra|Lie algebra]]. Recall that a [[lie-groups/derivation-lie-algebra|derivation]] is a linear map $D:\mathfrak g\to\mathfrak g$ satisfying the Leibniz rule
-\[
+$$
 D([x,y])=[D(x),y]+[x,D(y)].
-\]
+$$
 
 **Definition (Inner derivation).**
 For each $x\in\mathfrak g$, the map
-\[
+$$
 \mathrm{ad}_x:\mathfrak g\to\mathfrak g,\qquad \mathrm{ad}_x(y)=[x,y]
-\]
+$$
 is a derivation. A derivation is called **inner** if it equals $\mathrm{ad}_x$ for some $x\in\mathfrak g$.
 
 The assignment $x\mapsto \mathrm{ad}_x$ is the [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint representation]] $\mathrm{ad}:\mathfrak g\to\mathfrak{gl}(\mathfrak g)$, and the space of inner derivations is $\mathrm{ad}(\mathfrak g)\subseteq \mathrm{Der}(\mathfrak g)$.

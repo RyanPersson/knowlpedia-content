@@ -9,9 +9,9 @@ legacy_source_path = "algebra-groups/sylow-subgroup.md"
 +++
 
 Let $G$ be a finite [[algebra-groups/group|group]] and let $p$ be a prime. Write
-$
+$$
 |G|=p^n m
-$
+$$
 with $n\ge 0$ and $p\nmid m$ (so $p^n$ is the largest power of $p$ dividing $|G|$). A **Sylow $p$-subgroup** of $G$ is a [[algebra-groups/subgroup|subgroup]] $P\le G$ such that $|P|=p^n$. In particular, every Sylow $p$-subgroup is a [[algebra-groups/p-group|$p$-group]].
 
 ## Examples

@@ -9,9 +9,9 @@ legacy_source_path = "algebra-groups/hall-subgroup.md"
 +++
 
 Let $G$ be a finite [[algebra-groups/group|group]]. A [[algebra-groups/subgroup|subgroup]] $H\le G$ is called a **Hall subgroup** if the order of $H$ is relatively prime to its [[algebra-groups/index-of-subgroup|index]] in $G$, i.e.
-$
+$$
 \gcd(|H|,[G:H])=1,
-$
+$$
 where $\gcd$ denotes the greatest common divisor.
 
 Hall subgroups generalize [[algebra-groups/sylow-subgroup|Sylow subgroups]]: if $|G|=p^n m$ with $p\nmid m$ and $P$ is a Sylow $p$-subgroup, then $[G:P]=m$ is coprime to $|P|=p^n$, so $P$ is a Hall subgroup. In finite [[algebra-groups/solvable-group|solvable]] groups, Hall subgroups for prescribed sets of primes exist and enjoy conjugacy properties (Hall's theorem).

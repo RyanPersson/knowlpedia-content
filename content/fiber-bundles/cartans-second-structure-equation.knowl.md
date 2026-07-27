@@ -17,9 +17,11 @@ The [[fiber-bundles/curvature|curvature]] of $\omega$ is the $\mathfrak{gl}(n,\m
 \Omega \;:=\; d\omega \;+\;\tfrac12[\omega\wedge\omega].
 \]
 
-This identity is **Cartan’s second structure equation**, where $d$ is the [[fiber-bundles/exterior-derivative|exterior derivative]] and the bracket wedge is defined by
+This identity is **Cartan’s second structure equation**, where $d$ is the [[fiber-bundles/exterior-derivative|exterior derivative]] and the bracket wedge is defined on vector fields by
 \[
-[\omega\wedge\omega](V,W)\;=\;[\omega(V),\omega(W)],
+[\omega\wedge\omega](V,W)
+\;=\;[\omega(V),\omega(W)]-[\omega(W),\omega(V)]
+\;=\;2[\omega(V),\omega(W)],
 \]
 using the [[fiber-bundles/lie-bracket|Lie bracket]] on $\mathfrak{gl}(n,\mathbb{R})$.
 

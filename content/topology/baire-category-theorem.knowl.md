@@ -8,8 +8,8 @@ domains = ["topology"]
 legacy_source_path = "topology/baire-category-theorem.md"
 +++
 
-**Baire category theorem:** Let $(X,d)$ be a [[topology/complete-metric-space|complete metric space]]. If $(U_n)_{n\in\mathbb{N}}$ is a sequence of [[topology/dense-set|dense]] [[topology/open-set|open sets]] in $X$, then the intersection $\bigcap_{n\in\mathbb{N}} U_n$ is dense in $X$.
+**Baire category theorem.** Let \((X,d)\) be a nonempty [[topology/complete-metric-space|complete metric space]]. If \((U_n)_{n\in\mathbb{N}}\) is a sequence of [[topology/dense-set|dense]] [[topology/open-set|open sets]] in \(X\), then \(\bigcap_{n\in\mathbb{N}}U_n\) is dense in \(X\).
 
 ## Equivalent characterizations
 
-Equivalently, $X$ is not a countable union of [[topology/nowhere-dense-set|nowhere dense sets]]; in particular, no nonempty open set is [[topology/meager-set|meager]], and every [[topology/residual-set|residual set]] is dense. This theorem is commonly summarized by saying that complete metric spaces are [[topology/baire-space|Baire spaces]].
+The dense-intersection conclusion is equivalent to saying that no nonempty open subset of \(X\) is [[topology/meager-set|meager]] in \(X\). Consequently, \(X\) is not a countable union of [[topology/nowhere-dense-set|nowhere dense sets]], and every [[topology/residual-set|residual set]] is dense. Thus every complete metric space is a [[topology/baire-space|Baire space]].

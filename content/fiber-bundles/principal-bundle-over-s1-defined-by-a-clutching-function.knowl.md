@@ -30,8 +30,9 @@ Then $\pi:P_g\to S^1$ is a [[fiber-bundles/principal-g-bundle|principal G-bundle
 One can describe this equivalently in transition-function language: choose an open cover of $S^1$ by two arcs $U_0,U_1$ so that $U_0\cap U_1$ has two connected components, and take transition functions that are constant on each component, with one of them equal to $g$. This viewpoint ties the construction to [[fiber-bundles/principal-bundle-transition-function|principal bundle transition functions]] and the [[fiber-bundles/cocycle-condition-for-transition-functions|cocycle condition]].
 
 ## Isomorphism remarks
-- If $G$ is connected, then every principal $G$-bundle over $S^1$ is trivial (since $[S^1,BG]\cong \pi_1(BG)\cong \pi_0(G)$). In that case, each $P_g$ is isomorphic to the [[fiber-bundles/trivial-principal-bundle-mgm|trivial principal bundle]] even when $g\neq e$.
-- If $G$ is discrete (or more generally not connected), different clutching data can produce non-isomorphic bundles. Over $S^1$, the classification reduces to homomorphisms $\pi_1(S^1)\cong \mathbb Z\to G$ up to conjugation, i.e. conjugacy classes of elements of $G$, matching the intuition that $g$ records a “monodromy.”
+- In general, the isomorphism class of $P_g$ depends only on the conjugacy class of the component of $g$ in $\pi_0(G)$, and every principal $G$-bundle over $S^1$ arises from this construction.
+- If $G$ is connected, then $\pi_0(G)$ is trivial, so every principal $G$-bundle over $S^1$ is trivial. In that case, each $P_g$ is isomorphic to the [[fiber-bundles/trivial-principal-bundle-mgm|trivial principal bundle]] even when $g\neq e$.
+- If $G$ is discrete, then $\pi_0(G)=G$, and the classification reduces to homomorphisms $\pi_1(S^1)\cong \mathbb Z\to G$ up to conjugation, i.e. conjugacy classes of elements of $G$, matching the intuition that $g$ records a “monodromy.” For a general disconnected Lie group, it is the component of $g$ in $\pi_0(G)$ that carries this information.
 
 ## Examples
 1. **Discrete group G = Z2: trivial vs nontrivial double cover.**

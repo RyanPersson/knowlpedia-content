@@ -12,9 +12,9 @@ Let $K$ be a [[algebra-rings/field|field]]. An [[algebra-fields-galois/algebraic
 
 **Theorem (uniqueness up to $K$-isomorphism).**
 If $\Omega$ and $\Omega'$ are algebraic closures of $K$, then there exists a field isomorphism
-\[
+$$
 \varphi:\Omega \xrightarrow{\ \sim\ } \Omega'
-\]
+$$
 such that $\varphi|_K=\mathrm{id}_K$. Equivalently, the algebraic closure of $K$ is *unique up to (non-canonical) isomorphism over $K$*.
 
 ## Remarks

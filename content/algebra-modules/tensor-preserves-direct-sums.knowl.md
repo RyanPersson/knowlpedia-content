@@ -8,11 +8,11 @@ domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/tensor-preserves-direct-sums.md"
 +++
 
-**Tensor product preserves direct sums**: Let $M$ be a right $R$-module and $\{N_i\}_{i\in I}$ a family of left $R$-modules. The canonical map
+**Tensor product preserves direct sums.** Let \(M\) be a right \(R\)-module and \(\{N_i\}_{i\in I}\) a family of left \(R\)-modules. There is a canonical isomorphism
 \[
 M\otimes_R\Bigl(\bigoplus_{i\in I}N_i\Bigr)\longrightarrow \bigoplus_{i\in I}(M\otimes_R N_i)
 \]
-induced by the inclusions $N_i\to\bigoplus_{i\in I}N_i$ is an isomorphism. Likewise, for a family of right $R$-modules $\{M_i\}_{i\in I}$ and a left $R$-module $N$ there is a canonical isomorphism
+that sends \(m\otimes(n_i)_{i\in I}\) to \((m\otimes n_i)_{i\in I}\). Likewise, for a family of right \(R\)-modules \(\{M_i\}_{i\in I}\) and a left \(R\)-module \(N\),
 \[
 \Bigl(\bigoplus_{i\in I} M_i\Bigr)\otimes_R N \cong \bigoplus_{i\in I}(M_i\otimes_R N).
 \]

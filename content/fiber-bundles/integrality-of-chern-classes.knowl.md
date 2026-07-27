@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/integrality-of-chern-classes.md"
 +++
 
-Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $E\to M$ be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] of rank $r$, equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] $\nabla$ with [[fiber-bundles/curvature|curvature]] $F_\nabla$.
+Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $E\to M$ be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] of rank $r$, equipped with a Hermitian [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] $\nabla$ with [[fiber-bundles/curvature|curvature]] $F_\nabla$.
 
 ## Theorem (integrality)
 
@@ -22,22 +22,21 @@ where each $c_k(E,\nabla)$ is a closed [[fiber-bundles/differential-k-form|diffe
 Then:
 
 1. The de Rham cohomology class $[c_k(E,\nabla)]\in H^{2k}_{\mathrm{dR}}(M)$ is independent of the choice of $\nabla$, and
-2. There exists a unique class $c_k(E)\in H^{2k}(M;\mathbb{Z})$ whose image under the change-of-coefficients map
+2. The canonical integral Chern class $c_k(E)\in H^{2k}(M;\mathbb{Z})$ maps to $[c_k(E,\nabla)]$ under the change-of-coefficients map
    \[
    H^{2k}(M;\mathbb{Z})\to H^{2k}(M;\mathbb{R})\cong H^{2k}_{\mathrm{dR}}(M)
    \]
-   equals $[c_k(E,\nabla)]$.
 
 Equivalently: for every smooth singular $2k$-cycle $\Sigma$ in $M$,
 \[
 \int_\Sigma c_k(E,\nabla)\in\mathbb{Z}.
 \]
-This integrality is the precise sense in which Chern classes are “integral” characteristic classes, even though the Chern–Weil representatives are differential forms.
+This integrality is the precise sense in which Chern classes are “integral” characteristic classes, even though the Chern–Weil representatives are differential forms. The de Rham class or its periods do not, however, determine an integral lift uniquely: torsion classes vanish under the change-of-coefficients map to $\mathbb R$.
 
 ## Examples
 
 1. **Complex [[fiber-bundles/line-bundle|line bundles]] over the 2-sphere.**
-   For a complex line bundle $L\to S^2$ with any connection, the $2$-form $c_1(L,\nabla)=\frac{i}{2\pi}F_\nabla$ satisfies
+   For a complex line bundle $L\to S^2$ with any Hermitian connection, the $2$-form $c_1(L,\nabla)=\frac{i}{2\pi}F_\nabla$ satisfies
    \[
    \int_{S^2} \frac{i}{2\pi}F_\nabla \in \mathbb{Z},
    \]

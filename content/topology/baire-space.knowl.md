@@ -8,7 +8,7 @@ domains = ["topology"]
 legacy_source_path = "topology/baire-space.md"
 +++
 
-A **Baire space** is a [[topology/topological-space|topological space]] $X$ such that for every sequence $(U_n)_{n\in\mathbb{N}}$ of [[topology/open-set|open sets]] that are [[topology/dense-set|dense]], the intersection $\bigcap_{n\in\mathbb{N}} U_n$ is dense in $X$.
+A **Baire space** is a [[topology/topological-space|topological space]] \(X\) such that for every sequence \((U_n)_{n\in\mathbb{N}}\) of [[topology/open-set|open sets]] that are [[topology/dense-set|dense]], the intersection \(\bigcap_{n\in\mathbb{N}} U_n\) is dense in \(X\).
 
 ## Remarks
 

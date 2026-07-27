@@ -8,21 +8,15 @@ domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/exact-sequence-categorical.md"
 +++
 
-Exactness is a condition on a composable string of morphisms measuring “no loss, no redundancy” at each stage.
-
-Because “image” behaves best in an [[algebra-category-theory/abelian-category|abelian category]], the standard categorical definition of exact sequences is given in that setting.
-
-## Definition (Exact at an object)
 Let \(\mathcal A\) be an [[algebra-category-theory/abelian-category|abelian category]] and consider a composable pair
 \[
 A \xrightarrow{f} B \xrightarrow{g} C.
 \]
-The sequence is **exact at \(B\)** if:
-1. \(g\circ f = 0\), and
-2. the **image** of \(f\) equals the **kernel** of \(g\) as subobjects of \(B\):
-   \[
-   \operatorname{im}(f) \;=\; \ker(g).
-   \]
+The sequence is **exact at \(B\)** if the image of \(f\) equals the kernel of \(g\) as subobjects of \(B\):
+\[
+\operatorname{im}(f)=\ker(g).
+\]
+This condition implies \(g\circ f=0\).
 
 In an abelian category one can define the image via kernels and cokernels:
 \[
@@ -46,7 +40,7 @@ is **short exact** if it is exact at \(A\), \(B\), and \(C\). In an abelian cate
 - \(g\) is a [[algebra-category-theory/epimorphism-category|epimorphism]],
 - \(\operatorname{im}(f)=\ker(g)\).
 
-(Here \(0\) denotes a zero object; compare [[algebra-category-theory/additive-category|additive category]].)
+Here \(0\) denotes a [[algebra-category-theory/zero-object|zero object]].
 
 ## Examples
 1. **In \(\mathbf{Ab}\): multiplication by \(2\).**

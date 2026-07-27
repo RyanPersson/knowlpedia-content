@@ -9,7 +9,7 @@ legacy_source_path = "real-analysis/continuity-on-a-set.md"
 +++
 
 Let \(f:(X,d_X)\to(Y,d_Y)\) be a function between metric spaces, and let \(A\subseteq X\).
-We say \(f\) is **continuous on \(A\)** if \(f\) is [[real-analysis/continuity-at-a-point|continuous at every point]] \(a\in A\) (equivalently, the restriction \(f|_A:A\to Y\) is continuous).
+We say \(f\) is **continuous on \(A\)** if the restriction \(f|_A:A\to Y\), with \(A\) carrying the subspace metric, is continuous. Equivalently, \(f|_A\) is [[real-analysis/continuity-at-a-point|continuous at every point]] \(a\in A\).
 
 Spelled out: for every \(a\in A\) and every \(\varepsilon>0\), there exists \(\delta>0\) such that for all \(x\in A\),
 \[
@@ -24,10 +24,9 @@ Equivalent viewpoints (metric spaces):
 
 ## Examples
 
-Examples:
 - Any polynomial \(p:\mathbb{R}\to\mathbb{R}\) is continuous on every \(A\subseteq\mathbb{R}\).
-- \(f(x)=1/x\) is continuous on \((0,\infty)\) but not continuous on a set containing \(0\).
+- The function \(f:\mathbb R\setminus\{0\}\to\mathbb R\), \(f(x)=1/x\), is continuous on every subset of its domain.
 
 ## Remarks
 
-Connection: if \(f\) is differentiable (see [[real-analysis/derivative|derivative]]), then \(f\) is continuous on its domain.
+If \(f\) is differentiable (see [[real-analysis/derivative|derivative]]) on an open set, then it is continuous there.

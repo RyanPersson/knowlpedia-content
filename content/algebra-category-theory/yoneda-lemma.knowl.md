@@ -16,15 +16,13 @@ h^A := \mathrm{Hom}_{\mathcal C}(A,-):\mathcal C\to \mathbf{Set},
 \]
 which is a [[algebra-category-theory/representable-functor|representable functor]].
 
-## Statement (covariant Yoneda)
-
 There is a natural bijection
 \[
 \mathrm{Nat}(h^A,\,F)\;\cong\;F(A),
 \]
 natural in both \(A\) and \(F\), where \(\mathrm{Nat}(-,-)\) denotes the set of [[algebra-category-theory/natural-transformation|natural transformations]].
 
-### Explicit correspondence
+## Explicit correspondence
 
 - Given \(\eta\in \mathrm{Nat}(h^A,F)\), the corresponding element of \(F(A)\) is
   \[

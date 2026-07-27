@@ -8,13 +8,18 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/discontinuity-point.md"
 +++
 
-A **discontinuity point** of a function $f:U\to \mathbb{R}^m$ at a point $a\in U$ is a point where $f$ is not [[topology/continuous-map|continuous]] at $a$; equivalently, $a$ is a discontinuity point if there exists $\varepsilon>0$ such that for every $\delta>0$ there is $x\in U$ with $\|x-a\|<\delta$ and $\|f(x)-f(a)\|\ge \varepsilon$.
+Let $U\subseteq\mathbb R^n$, let $f:U\to\mathbb R^m$, and let $a\in U$. The point $a$ is a **discontinuity point** of $f$ if $f$ is not [[topology/continuous-map|continuous]] at $a$. Equivalently, there exists $\varepsilon>0$ such that for every $\delta>0$ there is $x\in U$ with
+$$
+\lVert x-a\rVert<\delta
+\quad\text{and}\quad
+\lVert f(x)-f(a)\rVert\ge\varepsilon.
+$$
 
 ## Remarks
 
-In many common situations, discontinuity at $a$ can be detected by limits: if $\lim_{x\to a} f(x)$ exists (in the sense of [[real-analysis/limit-at-a-point|limit at a point]]) and is not equal to $f(a)$, then $a$ is a discontinuity point. The collection of all such points is the [[real-analysis/set-of-discontinuities|set of discontinuities]].
+In many common situations, discontinuity at $a$ can be detected by limits: if $\lim_{x\to a}f(x)$ exists in the sense of a [[real-analysis/limit-at-a-point|limit at a point]] and is not equal to $f(a)$, then $a$ is a discontinuity point. The collection of all such points is the [[real-analysis/set-of-discontinuities|set of discontinuities]].
 
 ## Examples
 
 - The sign function defined by $f(x)=1$ for $x>0$, $f(x)=-1$ for $x<0$, and $f(0)=0$ is discontinuous at $0$.
-- The function $f:\mathbb{R}\to\mathbb{R}$ defined by $f(x)=1$ for rational $x$ and $f(x)=0$ for irrational $x$ is discontinuous at every real number.
+- The function $f:\mathbb R\to\mathbb R$ defined by $f(x)=1$ for rational $x$ and $f(x)=0$ for irrational $x$ is discontinuous at every real number.

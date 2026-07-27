@@ -8,18 +8,18 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/critical-point.md"
 +++
 
-A **critical point** of a differentiable function $f:U\to \mathbb{R}$ (with $U\subseteq \mathbb{R}^n$) is a point $a\in U$ such that
-$$
+A **critical point** of a differentiable function \(f:U\to \mathbb{R}\) (with \(U\subseteq \mathbb{R}^n\)) is a point \(a\in U\) such that
+\[
 \nabla f(a)=0,
-$$
+\]
 
-equivalently, the [[real-analysis/frechet-derivative|Fréchet derivative]] $Df(a)$ is the zero linear map.
+equivalently, the [[real-analysis/frechet-derivative|Fréchet derivative]] \(Df(a)\) is the zero linear map.
 
 
 ## Examples
 
-- For $f(x)=x^3$, the point $a=0$ is a critical point, but $0$ is not a local maximum or minimum.
-- For $f(x,y)=x^2+y^2$, the point $(0,0)$ is a critical point and is a (global) minimum.
+- For \(f(x)=x^3\), the point \(a=0\) is a critical point, but \(0\) is not a local maximum or minimum.
+- For \(f(x,y)=x^2+y^2\), the point \((0,0)\) is a critical point and is a (global) minimum.
 
 ## Remarks
 

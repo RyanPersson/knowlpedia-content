@@ -8,7 +8,7 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/absolute-value.md"
 +++
 
-An **absolute value** is the function $|\cdot|:\mathbb R\to[0,\infty)$ defined by
+The **absolute value** on \(\mathbb R\) is the function \(|\cdot|:\mathbb R\to[0,\infty)\) defined by
 \[
 |x|=\begin{cases}
 x,& x\ge 0,\\
@@ -19,9 +19,9 @@ x,& x\ge 0,\\
 
 ## Examples
 
-- $|-3|=3$ and $|3|=3$.
-- The distance between $2$ and $5$ in $\mathbb R$ is $|2-5|=3$.
+- \(|-3|=|3|=3\).
+- The distance between \(2\) and \(5\) in \(\mathbb R\) is \(|2-5|=3\).
 
 ## Remarks
 
-It is defined using the [[real-analysis/order-axioms|order axioms]] on $\mathbb R$ and measures distance via $d(x,y)=|x-y|$, a basic example of a [[topology/metric|metric]]. Absolute value is built into $\varepsilon$–$\delta$ definitions such as the [[real-analysis/limit-at-a-point|limit at a point]].
+The formula \(d(x,y)=|x-y|\) defines the usual [[topology/metric|metric]] on \(\mathbb R\). Absolute value also appears in \(\varepsilon\)-\(\delta\) definitions such as the [[real-analysis/limit-at-a-point|limit at a point]].

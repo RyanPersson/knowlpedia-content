@@ -8,7 +8,7 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/change-of-variables-formula.md"
 +++
 
-**Change of variables formula:** Let $U,V\subseteq\mathbb{R}^n$ be [[topology/open-set|open sets]] and let $\Phi:U\to V$ be a $C^1$ [[fiber-bundles/diffeomorphism|diffeomorphism]]. If $f:V\to\mathbb{R}$ is such that the multiple Riemann integrals below exist (for example, if $f$ is continuous with compact support in $V$), then
+Let $U,V\subseteq\mathbb R^n$ be [[topology/open-set|open sets]], let $\Phi:U\to V$ be a $C^1$ [[fiber-bundles/diffeomorphism|diffeomorphism]], and let $f:V\to\mathbb R$ be continuous with compact support. The **change of variables formula** is
 $$
 \int_V f(x)\,dx = \int_U f(\Phi(u))\,\bigl|\det D\Phi(u)\bigr|\,du,
 $$

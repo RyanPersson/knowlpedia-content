@@ -8,8 +8,8 @@ domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/basis-existence-theorem.md"
 +++
 
-**Basis existence theorem:** Every [[linear-algebra/vector-space|vector space]] $V$ has a [[shared-foundations/subset|subset]] $B\subseteq V$ such that every $v\in V$ can be written uniquely as a finite linear combination of elements of $B$.
+**Basis existence theorem.** Assuming the axiom of choice, every [[linear-algebra/vector-space|vector space]] \(V\) has a subset \(B\subseteq V\) such that every \(v\in V\) has a unique expression as a finite linear combination of distinct elements of \(B\).
 
 ## Remarks
 
-This theorem guarantees that vector spaces admit coordinate descriptions once a basis is chosen, even when $V$ is infinite-dimensional. Standard proofs use Zorn's lemma (equivalently, the axiom of choice), and the result underlies many structural statements about [[linear-algebra/linear-map|linear maps]].
+The standard proof applies Zorn's lemma to the partially ordered set of linearly independent subsets of \(V\). In set theory without choice, the assertion that every vector space has a basis is not provable.

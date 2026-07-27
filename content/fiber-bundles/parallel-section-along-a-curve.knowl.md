@@ -10,13 +10,9 @@ legacy_source_path = "fiber-bundles/parallel-section-along-a-curve.md"
 
 Let \( \pi:E\to M \) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\).
 
-Let \(I\subset \mathbb{R}\) be an interval and \(\gamma:I\to M\) a smooth curve. A **section of \(E\) along \(\gamma\)** is a [[fiber-bundles/smooth-map|smooth map]] \(s:I\to E\) such that \(\pi\circ s=\gamma\). Using \(\nabla\), one defines the covariant derivative of \(s\) along \(\gamma\) by
-\[
-\frac{D s}{dt}(t) \coloneqq \nabla_{\dot\gamma(t)} \tilde s \big|_{\gamma(t)},
-\]
-where \(\tilde s\) is any smooth extension of \(s\) to a neighborhood of \(\gamma(t)\) in \(M\). This is well-defined (independent of the choice of extension) by the locality and \(C^\infty(M)\)-linearity properties of a connection.
+Let \(I\subset \mathbb{R}\) be an interval and \(\gamma:I\to M\) a smooth curve. A **section of \(E\) along \(\gamma\)** is a smooth section of the pullback bundle \(\gamma^*E\), equivalently a [[fiber-bundles/smooth-map|smooth map]] \(s:I\to E\) such that \(\pi\circ s=\gamma\). The connection \(\nabla\) induces a pullback connection on \(\gamma^*E\), and hence a covariant derivative \(Ds/dt\) along the curve.
 
-A section \(s\) along \(\gamma\) is called **parallel along \(\gamma\)** if
+A section \(s\) along \(\gamma\) is called **parallel along \(\gamma\)** if its covariant derivative for the pullback connection vanishes:
 \[
 \frac{D s}{dt}(t)=0 \quad \text{for all } t\in I.
 \]

@@ -9,9 +9,9 @@ legacy_source_path = "linear-algebra/orthogonality.md"
 +++
 
 **Orthogonality** is the relation in an [[linear-algebra/inner-product-space|inner product space]] $(V,\langle\cdot,\cdot\rangle)$ defined by
-\[
+$$
 u\perp v \quad\Longleftrightarrow\quad \langle u,v\rangle=0.
-\]
+$$
 
 ## Remarks
 

@@ -8,7 +8,7 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/uniform-cauchy-iff-uniform-convergence.md"
 +++
 
-**Uniform Cauchy criterion:** Let $E$ be a set and let $(Y,\rho)$ be a [[topology/complete-metric-space|complete metric space]]. A sequence of functions $f_n:E\to Y$ converges [[real-analysis/uniform-convergence|uniformly]] on $E$ if and only if it is [[real-analysis/uniform-cauchy|uniformly Cauchy]], meaning: for every $\varepsilon>0$ there exists $N$ such that for all $m,n\ge N$ and all $x\in E$,
+**Uniform Cauchy criterion:** Let \(E\) be a set and let \((Y,\rho)\) be a [[topology/complete-metric-space|complete metric space]]. A sequence of functions \(f_n:E\to Y\) converges [[real-analysis/uniform-convergence|uniformly]] on \(E\) if and only if it is [[real-analysis/uniform-cauchy|uniformly Cauchy]], meaning: for every \(\varepsilon>0\) there exists \(N\) such that for all \(m,n\ge N\) and all \(x\in E\),
 \[
 \rho\bigl(f_n(x),f_m(x)\bigr)<\varepsilon.
 \]

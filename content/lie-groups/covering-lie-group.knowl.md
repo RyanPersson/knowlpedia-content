@@ -9,18 +9,18 @@ legacy_source_path = "lie-groups/covering-lie-group.md"
 +++
 
 A **covering Lie group map** is a smooth homomorphism of [[fiber-bundles/lie-group|Lie groups]]
-\[
+$$
 p:\widetilde G \longrightarrow G
-\]
+$$
 such that, as a map of topological spaces, $p$ is a covering map.
 
 ## Properties
 Assume $\widetilde G$ is connected.
 
 1. The differential at the identity,
-   \[
+   $$
    dp_e:\mathrm{Lie}(\widetilde G)\to \mathrm{Lie}(G),
-   \]
+   $$
    is a linear isomorphism (so $p$ identifies the two [[lie-groups/lie-algebra-of-a-lie-group|Lie algebras]]).
 
 2. The kernel $\ker(p)$ is a [[lie-groups/discrete-subgroup|discrete subgroup]] of $\widetilde G$.

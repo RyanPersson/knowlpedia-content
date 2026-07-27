@@ -9,13 +9,13 @@ legacy_source_path = "real-analysis/abels-theorem.md"
 +++
 
 **Abel's theorem:** Let $\sum_{n=0}^\infty a_n$ be a convergent series of real or complex numbers, with sum $s$. For $0\le x<1$, define
-\[
+$$
 f(x)=\sum_{n=0}^\infty a_n x^n.
-\]
+$$
 Then $f(x)$ is well-defined for every $0\le x<1$, and
-\[
+$$
 \lim_{x\to 1^-} f(x)=s.
-\]
+$$
 
 ## Remarks
 

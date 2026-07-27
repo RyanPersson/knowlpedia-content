@@ -8,10 +8,10 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/bounded-sequence-has-convergent-subsequence.md"
 +++
 
-**Corollary (Bolzano–Weierstrass, sequence form)**: If $(x_n)$ is a [[real-analysis/bounded-sequence|bounded sequence]] in $\mathbb{R}^k$, then there exists a [[real-analysis/subsequence|subsequence]] $(x_{n_j})$ and a point $x\in\mathbb{R}^k$ such that
-$
+**Corollary (Bolzano–Weierstrass, sequence form)**: If \((x_n)\) is a [[real-analysis/bounded-sequence|bounded sequence]] in \(\mathbb{R}^k\), then there exists a [[real-analysis/subsequence|subsequence]] \((x_{n_j})\) and a point \(x\in\mathbb{R}^k\) such that
+\[
 x_{n_j}\to x.
-$
+\]
 
 ## Remarks
 

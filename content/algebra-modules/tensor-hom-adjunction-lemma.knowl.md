@@ -8,10 +8,15 @@ domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/tensor-hom-adjunction-lemma.md"
 +++
 
-**Tensor–Hom adjunction lemma**: Let $R,S$ be [[algebra-rings/unital-ring|unital rings]], let ${}_S M_R$ be an $(S,R)$-[[algebra-modules/bimodule|bimodule]], let ${}_R N$ be a left $R$-[[algebra-modules/module|module]], and let ${}_S P$ be a left $S$-module. Then there is a natural isomorphism of abelian groups
-\[
+Let $R,S$ be [[algebra-rings/unital-ring|unital rings]], let
+${}_S M_R$ be an $(S,R)$-[[algebra-modules/bimodule|bimodule]], let
+${}_R N$ be a left $R$-[[algebra-modules/module|module]], and let
+${}_S P$ be a left $S$-module. Give $\operatorname{Hom}_S(M,P)$ the
+left $R$-module structure $(r\varphi)(m)=\varphi(mr)$. Then the
+**Tensor–Hom adjunction** is the natural isomorphism of abelian groups
+$$
 \operatorname{Hom}_S(M\otimes_R N,\,P)\;\cong\;\operatorname{Hom}_R\!\bigl(N,\,\operatorname{Hom}_S(M,P)\bigr),
-\]
+$$
 functorial in $N$ and $P$.
 
 ## Remarks

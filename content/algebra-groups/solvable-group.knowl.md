@@ -8,13 +8,17 @@ domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/solvable-group.md"
 +++
 
-A **solvable group** is a [[algebra-groups/group|group]] $G$ whose [[algebra-groups/derived-series|derived series]] reaches the [[algebra-groups/trivial-subgroup|trivial subgroup]] after finitely many steps; explicitly, there exists $n\ge 0$ such that $G^{(n)}=\{e\}$, where
-- $G^{(0)}=G$, and
-- $G^{(k+1)}=[G^{(k)},G^{(k)}]$ is the [[algebra-groups/commutator-subgroup|commutator subgroup]] of $G^{(k)}$.
+A **solvable group** is a [[algebra-groups/group|group]] $G$ whose [[algebra-groups/derived-series|derived series]] reaches the [[algebra-groups/trivial-subgroup|trivial subgroup]] after finitely many steps. Explicitly, there is an integer $n\ge 0$ such that $G^{(n)}=\{e\}$, where
+$$
+G^{(0)}=G,
+\qquad
+G^{(k+1)}=[G^{(k)},G^{(k)}].
+$$
+Here $[G^{(k)},G^{(k)}]$ is the [[algebra-groups/commutator-subgroup|commutator subgroup]] of $G^{(k)}$.
 
 ## Examples
 
-- Every abelian group is solvable (the derived series hits $\{e\}$ in at most two steps).
+- Every abelian group is solvable: $G^{(1)}=\{e\}$.
 - $S_3$ is solvable.
 - *(Non-example)* $A_5$ is not solvable.
 

@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/pointwise-bounded-family.md"
 +++
 
 A family $\mathcal{F}$ of functions $f:X\to\mathbb{R}$ is **pointwise bounded** if for every $x\in X$ the set of values $\{f(x): f\in\mathcal{F}\}$ is bounded in $\mathbb{R}$, equivalently
-\[
+$$
 \forall x\in X,\quad \sup_{f\in\mathcal{F}} |f(x)| < \infty.
-\]
+$$
 
 ## Remarks
 

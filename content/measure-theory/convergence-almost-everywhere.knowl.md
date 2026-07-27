@@ -13,9 +13,9 @@ legacy_source_path = "measure-theory/convergence-almost-everywhere.md"
 ## Equivalent characterizations
 
 Equivalently,
-\[
+$$
 \mu\bigl(\{x\in X : f_n(x)\not\to f(x)\}\bigr)=0.
-\]
+$$
 
 ## Remarks
 

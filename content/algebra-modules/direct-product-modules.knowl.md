@@ -8,18 +8,18 @@ domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/direct-product-modules.md"
 +++
 
-Given a family of $R$-[[algebra-modules/module|modules]] $(M_i)_{i\in I}$, their **direct product** is
+Given a family of \(R\)-[[algebra-modules/module|modules]] \((M_i)_{i\in I}\), their **direct product** is
 \[
 \prod_{i\in I} M_i=\{(m_i)_{i\in I}: m_i\in M_i\},
 \]
-with coordinatewise addition and scalar multiplication. As a set it is the [[shared-foundations/cartesian-product|Cartesian product]], and it satisfies the categorical product universal property: giving a homomorphism $X\to \prod_i M_i$ is equivalent to giving compatible homomorphisms $X\to M_i$ for all $i$.
+with coordinatewise addition and scalar multiplication. As a set it is the [[shared-foundations/cartesian-product|Cartesian product]], and it satisfies the categorical product universal property: for every \(R\)-module \(X\), giving a homomorphism \(X\to \prod_i M_i\) is equivalent to giving a homomorphism \(X\to M_i\) for each \(i\).
 
 ## Remarks
 
-For infinite $I$, the product is strictly larger than the [[algebra-modules/direct-sum-modules|direct sum]] because it allows infinitely many nonzero coordinates.
+For infinite \(I\), the product contains the [[algebra-modules/direct-sum-modules|direct sum]] and may also contain tuples with infinitely many nonzero coordinates. For example, \(\bigoplus_{n\ge1}\mathbb Z\) is strictly contained in \(\prod_{n\ge1}\mathbb Z\).
 
 ## Examples
 
-- $\prod_{n\ge 1}\mathbb Z$ is the set of all integer sequences (no finiteness restriction).
-- For modules $M,N$, the product $M\times N$ is the usual binary product with projections.
-- (Edge case) If each $M_i=0$, then the product is $0$ even if $I$ is infinite.
+- \(\prod_{n\ge 1}\mathbb Z\) is the set of all integer sequences, with no finiteness restriction.
+- For modules \(M,N\), the product \(M\times N\) is the usual binary product with projections.
+- If each \(M_i=0\), then the product is \(0\), even if \(I\) is infinite.

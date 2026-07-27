@@ -9,9 +9,9 @@ legacy_source_path = "algebra-rings/radical-of-ideal.md"
 +++
 
 Let $R$ be a commutative ring and let $I\subseteq R$ be an ideal. The **radical of $I$** is
-\[
+$$
 \sqrt{I}=\{\,r\in R:\exists n\ge 1\text{ with }r^n\in I\,\}.
-\]
+$$
 Then $\sqrt{I}$ is an [[algebra-rings/ideal|ideal]] containing $I$.
 
 ## Remarks

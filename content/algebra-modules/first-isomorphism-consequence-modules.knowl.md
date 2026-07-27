@@ -8,11 +8,11 @@ domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/first-isomorphism-consequence-modules.md"
 +++
 
-**Quotient by kernel is isomorphic to image**: Let $f:M\to N$ be an $R$-module homomorphism. Then the induced map
+**First isomorphism consequence.** Let \(f:M\to N\) be an \(R\)-module homomorphism. Then the induced map
 \[
 \bar f: M/\ker(f)\longrightarrow \operatorname{im}(f),\qquad \bar f(m+\ker(f))=f(m),
 \]
-is a well-defined isomorphism of $R$-modules.
+is a well-defined isomorphism of \(R\)-modules.
 
 ## Remarks
 

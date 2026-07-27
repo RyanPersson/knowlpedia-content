@@ -19,8 +19,6 @@ There exists a unique smooth curve $\widetilde\gamma:[a,b]\to P$ such that:
 2. $\widetilde\gamma(a)=p_0$,
 3. $\dot{\widetilde\gamma}(t)\in H_{\widetilde\gamma(t)}$ for all $t$ (i.e. $\widetilde\gamma$ is horizontal).
 
-Moreover, the lift depends smoothly on $(\gamma,p_0)$ under smooth variations.
-
 ## Remarks
 
 - In a local trivialization $P|_U\cong U\times G$, the horizontality condition becomes an ODE in $G$ driven by the local connection $1$-form, so existence and uniqueness follow from standard ODE theory.
@@ -29,9 +27,9 @@ Moreover, the lift depends smoothly on $(\gamma,p_0)$ under smooth variations.
 ## Examples
 
 1. **Trivial bundle with connection form.** For $P=M\times G$ and a connection given by a $\mathfrak g$-valued $1$-form $A$ on $M$, writing $\widetilde\gamma(t)=(\gamma(t),g(t))$, horizontality is
-   \[
+   $$
    g(t)^{-1}\dot g(t) = -A_{\gamma(t)}(\dot\gamma(t)),
-   \]
+   $$
    an ODE with unique solution given $g(a)$.
 
 2. **Product (flat) connection.** If $A=0$, then the equation is $\dot g(t)=0$, so the horizontal lift is simply $(\gamma(t),g_0)$: constant group component.

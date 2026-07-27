@@ -12,16 +12,14 @@ Let $f:N\to M$ be a [[fiber-bundles/smooth-map|smooth map]] and let $\pi:P\to M$
 
 Let $\mathrm{pr}_P:f^*P\to P$ denote the projection from the pullback bundle $f^*P\subset N\times P$ onto the second factor.
 
-## Theorem (pullback connection)
-
 There is a unique principal connection $f^*\omega$ on $f^*P\to N$ characterized by either of the equivalent descriptions:
 
 1. **By connection 1-forms:** the connection form on $f^*P$ is $(\mathrm{pr}_P)^*\omega\in\Omega^1(f^*P;\mathfrak g)$.
 
 2. **By horizontal subspaces:** for $(n,p)\in f^*P$, the horizontal subspace is
-   \[
+   $$
    H_{(n,p)} := \{\,v\in T_{(n,p)}(f^*P)\mid d(\mathrm{pr}_P)(v)\in H_p\,\},
-   \]
+   $$
    where $H_p\subset T_pP$ is the horizontal subspace of $\omega$ at $p$.
 
 In either description, $f^*\omega$ is $G$-equivariant and reproduces fundamental vector fields, hence is a principal connection.

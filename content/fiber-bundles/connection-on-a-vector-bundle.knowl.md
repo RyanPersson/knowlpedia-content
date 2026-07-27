@@ -11,9 +11,9 @@ legacy_source_path = "fiber-bundles/connection-on-a-vector-bundle.md"
 Let $E\to M$ be a smooth [[fiber-bundles/vector-bundle|vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$. Write $\Gamma(E)$ for the [[fiber-bundles/module-of-smooth-sections|space of smooth sections]] of $E$, and $\mathfrak X(M)$ for the space of smooth [[fiber-bundles/vector-field|vector fields]] on $M$.
 
 **Definition.** A (Koszul) connection on $E$ is a map
-\[
+$$
 \nabla:\mathfrak X(M)\times \Gamma(E)\to \Gamma(E),\quad (X,s)\mapsto \nabla_X s,
-\]
+$$
 such that for all $X,Y\in\mathfrak X(M)$, $s\in\Gamma(E)$, and $f\in C^\infty(M)$:
 1. $\nabla_{X+Y}s=\nabla_X s+\nabla_Y s$ and $\nabla_{fX}s=f\,\nabla_X s$ (so it is $C^\infty(M)$-linear in the vector field), and
 2. $\nabla_X(fs)=X(f)\,s+f\,\nabla_X s$ (the [[fiber-bundles/leibniz-rule-for-a-connection|Leibniz rule]] in the section slot).

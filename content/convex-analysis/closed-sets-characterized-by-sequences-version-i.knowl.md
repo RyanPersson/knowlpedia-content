@@ -9,10 +9,10 @@ legacy_source_path = "convex-analysis/closed-sets-characterized-by-sequences-ver
 +++
 
 **Proposition (Sequential characterization of closed sets, proof I).**
-Let $(X,d)$ be a metric space and let $A\subset X$. Then $A$ is [[convex-analysis/closed-subset|closed]] if and only if whenever $(a_n)$ is a sequence in $A$ and $a_n\to a$, we have $a\in A$.
+Let \((X,d)\) be a metric space and let \(A\subset X\). Then \(A\) is [[convex-analysis/closed-subset|closed]] if and only if whenever \((a_n)\) is a sequence in \(A\) and \(a_n\to a\), we have \(a\in A\).
 
 ## Remarks
 
 **Proof sketch (using closure).**
-- If $A$ is closed, then $\overline{A}=A$. If $a_n\in A$ and $a_n\to a$, then by [[convex-analysis/closure-characterized-by-convergent-sequences|closure via sequences]] we have $a\in\overline{A}=A$.
-- Conversely, assume the "contains limits" property. Take any $x\in\overline{A}$. By the same closure-via-sequences proposition, there exists $a_n\in A$ with $a_n\to x$. By hypothesis $x\in A$. Hence $\overline{A}\subset A$, so $\overline{A}=A$ and $A$ is closed.
+- If \(A\) is closed, then \(\overline{A}=A\). If \(a_n\in A\) and \(a_n\to a\), then by [[convex-analysis/closure-characterized-by-convergent-sequences|closure via sequences]] we have \(a\in\overline{A}=A\).
+- Conversely, assume the "contains limits" property. Take any \(x\in\overline{A}\). By the same closure-via-sequences proposition, there exists \(a_n\in A\) with \(a_n\to x\). By hypothesis \(x\in A\). Hence \(\overline{A}\subset A\), so \(\overline{A}=A\) and \(A\) is closed.

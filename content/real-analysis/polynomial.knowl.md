@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/polynomial.md"
 +++
 
 A **polynomial** (in one real variable) is a function $p:\mathbb{R}\to\mathbb{R}$ of the form
-\[
+$$
 p(x)=a_0+a_1x+a_2x^2+\cdots+a_n x^n
-\]
+$$
 for some integer $n\ge 0$ and coefficients $a_0,\dots,a_n\in\mathbb{R}$. If $a_n\ne 0$, the integer $n$ is the degree of $p$.
 
 ## Remarks

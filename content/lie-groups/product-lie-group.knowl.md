@@ -8,11 +8,11 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/product-lie-group.md"
 +++
 
-Given Lie groups $G$ and $H$ (see [[fiber-bundles/lie-group|Lie group]]), their **product Lie group** is the manifold $G\times H$ with group structure
+Given Lie groups \(G\) and \(H\) (see [[fiber-bundles/lie-group|Lie group]]), their **product Lie group** is the manifold \(G\times H\) with group structure
 \[
 (g,h)\cdot(g',h')=(gg',hh'),\qquad (g,h)^{-1}=(g^{-1},h^{-1}).
 \]
-With the product smooth structure, the multiplication and inversion maps are smooth, so $G\times H$ is a Lie group. The coordinate projections
+With the product smooth structure, the multiplication and inversion maps are smooth, so \(G\times H\) is a Lie group. The coordinate projections
 \[
 \mathrm{pr}_G:G\times H\to G,\qquad \mathrm{pr}_H:G\times H\to H
 \]

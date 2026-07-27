@@ -8,16 +8,17 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/ufd.md"
 +++
 
-A **unique factorization domain (UFD)** is an [[algebra-rings/integral-domain|integral domain]] $R$ such that:
-1. Every nonzero nonunit element can be written as a finite product of [[algebra-rings/irreducible-element|irreducible elements]], and
-2. This factorization is unique up to reordering and replacing factors by [[algebra-rings/associated-elements|associates]].
+A **unique factorization domain (UFD)** is an [[algebra-rings/integral-domain|integral domain]] \(R\) such that:
+
+1. every nonzero nonunit is a finite product of [[algebra-rings/irreducible-element|irreducible elements]]; and
+2. any two such factorizations differ only by reordering the factors and replacing factors by [[algebra-rings/associated-elements|associates]].
 
 ## Remarks
 
-In a UFD, irreducible and [[algebra-rings/prime-element|prime]] elements coincide, which makes divisibility behave like the integers. Many polynomial rings over UFDs are again UFDs, enabling “induction on variables” arguments in commutative algebra.
+In a UFD, every irreducible element is [[algebra-rings/prime-element|prime]]. If \(R\) is a UFD, then \(R[x]\) is a UFD; by iteration, so is \(R[x_1,\dots,x_n]\).
 
 ## Examples
 
-- $\mathbb{Z}$ is a UFD.
-- If $k$ is a field, then $k[x,y]$ is a UFD.
-- $\mathbb{Z}[\sqrt{-5}]$ is not a UFD (e.g. $6$ has essentially different factorizations).
+- \(\mathbb{Z}\) is a UFD.
+- If \(k\) is a field, then \(k[x,y]\) is a UFD.
+- \(\mathbb{Z}[\sqrt{-5}]\) is not a UFD (e.g. \(6\) has essentially different factorizations).

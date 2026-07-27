@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/limit-superior.md"
 +++
 
 A **limit superior** of a real sequence $(a_n)_{n\ge 1}$ is the extended real number
-\[
+$$
 \limsup_{n\to\infty} a_n \;=\; \inf_{n\ge 1}\,\sup_{k\ge n} a_k,
-\]
+$$
 provided the right-hand side is interpreted in $[-\infty,\infty]$.
 
 

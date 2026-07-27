@@ -8,11 +8,15 @@ domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/frobenius-unramified.md"
 +++
 
-Let $K/k$ be a finite Galois extension of number fields and let $\mathfrak p$ be a prime of $k$ that is **unramified** in $K$ (ramification index $e=1$ in $K$).
+Let $K/k$ be a finite Galois extension of number fields and let $\mathfrak p$ be a nonzero prime of $k$ unramified in $K$. For a prime $\mathfrak P\mid\mathfrak p$, reduction induces an isomorphism
+$$
+D(\mathfrak P\mid\mathfrak p)
+\xrightarrow{\sim}
+\operatorname{Gal}\bigl(\kappa(\mathfrak P)/\kappa(\mathfrak p)\bigr).
+$$
 
-For a prime $\mathfrak P|\mathfrak p$ of $K$, the **decomposition group** $D(\mathfrak P|\mathfrak p)\subset \mathrm{Gal}(K/k)$ maps onto $\mathrm{Gal}(\kappa(\mathfrak P)/\kappa(\mathfrak p))$.
-
-The **Frobenius element** $\mathrm{Frob}_{\mathfrak P}$ is the unique element acting on the residue field by $x\mapsto x^{|\kappa(\mathfrak p)|}$; its conjugacy class $\mathrm{Frob}_{\mathfrak p}$ is independent of $\mathfrak P$.
+The **arithmetic Frobenius element** $\operatorname{Frob}_{\mathfrak P}$ is the unique element whose residue-field action is
+$x\mapsto x^{|\kappa(\mathfrak p)|}$. As $\mathfrak P$ varies over primes above $\mathfrak p$, these elements are conjugate in $\operatorname{Gal}(K/k)$; their conjugacy class $\operatorname{Frob}_{\mathfrak p}$ is therefore independent of the choice. Some sources use the inverse element, called geometric Frobenius.
 
 ## Remarks
 

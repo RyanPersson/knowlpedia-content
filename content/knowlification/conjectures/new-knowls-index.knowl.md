@@ -7,7 +7,7 @@ aliases = ["conjectures new knowls", "formal conjectures glossary"]
 domains = ["knowlification", "conjectures"]
 +++
 
-This temporary review index lists every supporting knowl added for the conjecture collection. The open-problem pages themselves live in the separately mounted local `conjectures-catalog` content source.
+This index collects supporting definitions for a collection of formal conjectures and open problems.
 
 ## Topology, actions, and homotopy
 

@@ -9,9 +9,9 @@ legacy_source_path = "topology/totally-bounded-set.md"
 +++
 
 A **totally bounded set** is a subset $A\subseteq X$ of a [[topology/metric-space|metric space]] $(X,d)$ such that for every $\varepsilon>0$ there exist points $x_1,\dots,x_n\in X$ with
-\[
+$$
 A \subseteq \bigcup_{k=1}^n B(x_k,\varepsilon),
-\]
+$$
 where $B(x_k,\varepsilon)$ is the [[topology/open-ball|open ball]] of radius $\varepsilon$ around $x_k$.
 
 ## Remarks

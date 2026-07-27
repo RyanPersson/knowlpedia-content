@@ -9,9 +9,9 @@ legacy_source_path = "linear-algebra/operator-norm.md"
 +++
 
 An **operator norm** of a [[linear-algebra/linear-map|linear map]] $T:V\to W$ between [[linear-algebra/normed-vector-space|normed vector spaces]] $(V,\|\cdot\|_V)$ and $(W,\|\cdot\|_W)$ is the quantity
-\[
+$$
 \|T\|=\sup_{v\ne 0}\frac{\|T(v)\|_W}{\|v\|_V}=\sup_{\|v\|_V=1}\|T(v)\|_W,
-\]
+$$
 with the understanding that the supremum may be $+\infty$ in general. When $\|T\|<\infty$, one says $T$ is bounded.
 
 ## Remarks

@@ -9,9 +9,9 @@ legacy_source_path = "topology/metric-sphere.md"
 +++
 
 A **metric sphere** in a metric space $(X,d)$ is a set of the form
-\[
+$$
 S_d(x,r)=\{y\in X : d(x,y)=r\},
-\]
+$$
 where $x\in X$ and $r\ge 0$.
 
 ## Remarks

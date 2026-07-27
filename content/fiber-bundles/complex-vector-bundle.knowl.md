@@ -8,26 +8,26 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/complex-vector-bundle.md"
 +++
 
-Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **(smooth) complex vector bundle** over $M$ is a smooth surjective map $\pi:E\to M$ together with the following data and properties:
+Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **smooth complex vector bundle of rank $r$** over $M$ is a smooth surjective map $\pi:E\to M$ with the following properties:
 
 1. For each $x\in M$, the fiber $E_x:=\pi^{-1}(x)$ is a finite-dimensional complex vector space.
 
 2. There is an open cover $\{U_\alpha\}$ of $M$ and smooth maps (local trivializations)
-   \[
+   $$
    \Phi_\alpha:\pi^{-1}(U_\alpha)\to U_\alpha\times \mathbb C^r
-   \]
+   $$
    such that:
    - $\mathrm{pr}_1\circ \Phi_\alpha=\pi$ on $\pi^{-1}(U_\alpha)$, and
    - for each $x\in U_\alpha$, the induced map $(\Phi_\alpha)_x:E_x\to \{x\}\times\mathbb C^r\cong \mathbb C^r$ is complex linear.
 
-The integer $r$ is the (complex) rank; it is locally constant and hence constant if $M$ is connected (see [[fiber-bundles/rank-of-a-vector-bundle|rank of a vector bundle]]).
+The integer $r$ is the complex rank. More generally, allowing different ranks on different connected components gives a locally constant rank function (see [[fiber-bundles/rank-of-a-vector-bundle|rank of a vector bundle]]).
 
 ## Equivalent characterizations
 
 Equivalently, on overlaps $U_\alpha\cap U_\beta$ the transition maps
-\[
+$$
 \Phi_\alpha\circ \Phi_\beta^{-1}:(U_\alpha\cap U_\beta)\times \mathbb C^r\to (U_\alpha\cap U_\beta)\times \mathbb C^r
-\]
+$$
 have the form $(x,v)\mapsto (x,g_{\alpha\beta}(x)v)$ for a smooth map $g_{\alpha\beta}:U_\alpha\cap U_\beta\to \mathrm{GL}(r,\mathbb C)$.
 
 ## Examples

@@ -27,4 +27,4 @@ $$
 G/G_x \to G\cdot x,\quad gG_x\mapsto g\cdot x
 $$
 
-is a smooth bijection; under mild hypotheses (e.g. proper actions), it is a diffeomorphism. In the transitive case (see [[lie-groups/transitive-action-lie|transitive actions]]) this identifies $M$ with a [[lie-groups/homogeneous-space|homogeneous space]] of the form $G/G_x$ (compare [[lie-groups/coset-space|coset spaces]]).
+is a diffeomorphism for the orbit's canonical immersed-submanifold structure. If the action is proper, the orbit is embedded and this structure agrees with its subspace topology. In the transitive case (see [[lie-groups/transitive-action-lie|transitive actions]]) this identifies $M$ with a [[lie-groups/homogeneous-space|homogeneous space]] of the form $G/G_x$ (compare [[lie-groups/coset-space|coset spaces]]).

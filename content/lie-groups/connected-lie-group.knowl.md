@@ -11,9 +11,9 @@ legacy_source_path = "lie-groups/connected-lie-group.md"
 A **connected Lie group** is a [[fiber-bundles/lie-group|Lie group]] $G$ whose underlying topological space (hence smooth manifold) is connected.
 
 A basic structural fact is that every Lie group has a distinguished connected, normal Lie subgroup: the **identity component**
-\[
+$$
 G^\circ := \text{the connected component of } e \in G.
-\]
+$$
 Then:
 
 - $G^\circ$ is an open-and-closed embedded [[lie-groups/lie-subgroup|Lie subgroup]] and a [[lie-groups/normal-lie-subgroup|normal Lie subgroup]] of $G$.

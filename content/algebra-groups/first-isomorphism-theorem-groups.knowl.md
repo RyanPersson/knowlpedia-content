@@ -2,25 +2,21 @@
 id = "algebra-groups/first-isomorphism-theorem-groups"
 title = "First Isomorphism Theorem (Groups)"
 kind = "knowl"
-summary = "A homomorphism factors through the quotient by its kernel, giving G/ker(f) ≅ im(f)"
+summary = "A group homomorphism induces an isomorphism from the quotient by its kernel to its image."
 aliases = ["first-isomorphism-theorem-groups", "First Isomorphism Theorem (Groups)"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/first-isomorphism-theorem-groups.md"
 +++
 
-**First Isomorphism Theorem (Groups).**
-Let $G$ and $H$ be [[algebra-groups/group|groups]], and let $f: G \to H$ be a [[algebra-groups/group-homomorphism|group homomorphism]]. Let $K = \ker(f)$ be the [[algebra-groups/kernel-group|kernel]] of $f$ and let $I = \operatorname{im}(f)$ be the [[algebra-groups/image-group|image]] of $f$, i.e.
-$$
-K = \{g \in G : f(g) = e_H\}, \qquad I = \{f(g) : g \in G\}.
-$$
-
-Then $K$ is a [[algebra-groups/normal-subgroup|normal subgroup]] of $G$ (see [[algebra-groups/kernels-are-normal|kernels are normal subgroups]]), and the induced map
-$$
-\bar f: G/K \to I, \qquad \bar f(gK) = f(g),
-$$
-
-is a well-defined [[algebra-groups/group-isomorphism|isomorphism]]. In particular, if $f$ is surjective then $G/K \cong H$.
+Let \(f:G\to H\) be a [[algebra-groups/group-homomorphism|group homomorphism]]. Its [[algebra-groups/kernel-group|kernel]] \(K=\ker(f)\) is a [[algebra-groups/normal-subgroup|normal subgroup]] of \(G\), and \(f\) induces a [[algebra-groups/group-isomorphism|group isomorphism]]
+\[
+\bar f:G/K\longrightarrow \operatorname{im}(f),\qquad \bar f(gK)=f(g).
+\]
+In particular, if \(f\) is surjective, then \(G/\ker(f)\cong H\).
 
 ## Remarks
 
-This result is the basic "quotient = image" principle and is the prototype for the [[algebra-groups/second-isomorphism-theorem-groups|second]] and [[algebra-groups/third-isomorphism-theorem-groups|third isomorphism theorems]]. It is often packaged as an [[algebra-groups/exact-sequence-groups|exact sequence]] $1 \to K \to G \to I \to 1$.
+This is the basic “quotient equals image” principle. With \(I=\operatorname{im}(f)\), it can be expressed by the [[algebra-groups/exact-sequence-groups|short exact sequence]]
+\[
+1\longrightarrow K\longrightarrow G\longrightarrow I\longrightarrow 1.
+\]

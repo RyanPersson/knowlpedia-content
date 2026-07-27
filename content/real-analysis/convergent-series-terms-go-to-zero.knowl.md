@@ -8,17 +8,17 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/convergent-series-terms-go-to-zero.md"
 +++
 
-**Corollary**: If $\sum_{n=1}^\infty a_n$ [[real-analysis/convergent-series|converges]] in $\mathbb{R}$ or $\mathbb{C}$, then
-$
+**Corollary**: If \(\sum_{n=1}^\infty a_n\) [[real-analysis/convergent-series|converges]] in \(\mathbb{R}\) or \(\mathbb{C}\), then
+\[
 a_n\to 0 \quad\text{as } n\to\infty.
-$
+\]
 
 ## Remarks
 
 **Connection to parent theorem**:
-Let $s_N=\sum_{n=1}^N a_n$ be the [[real-analysis/partial-sums|partial sums]]. If $s_N\to s$, then
-$
+Let \(s_N=\sum_{n=1}^N a_n\) be the [[real-analysis/partial-sums|partial sums]]. If \(s_N\to s\), then
+\[
 a_N = s_N - s_{N-1}\to s-s=0.
-$
+\]
 
 This is a necessary condition for convergence of a series (but far from sufficient).

@@ -8,23 +8,23 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/right-translation.md"
 +++
 
-Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and fix \(g\in G\). The **right translation** by \(g\) is the map
+Let $G$ be a [[fiber-bundles/lie-group|Lie group]] and fix $g\in G$. The **right translation** by $g$ is the map
 $$
 R_g:G\to G,\qquad R_g(h)=hg.
 $$
 
 ## Smoothness and inverse
-Since multiplication is [[fiber-bundles/smooth-map|smooth]], \(R_g\) is a diffeomorphism with inverse \(R_{g^{-1}}\).
+Since multiplication is [[fiber-bundles/smooth-map|smooth]], $R_g$ is a diffeomorphism with inverse $R_{g^{-1}}$.
 
 ## Differential
-For each \(h\in G\), the differential
+For each $h\in G$, the differential
 $$
 (dR_g)_h : T_hG \to T_{hg}G
 $$
 is a linear isomorphism between [[differential-geometry/tangent-space|tangent spaces]].
 
 ## Relation to conjugation
-Conjugation by \(g\) can be written as a composition of translations:
+Conjugation by $g$ can be written as a composition of translations:
 $$
 c_g = L_g \circ R_{g^{-1}},
 $$

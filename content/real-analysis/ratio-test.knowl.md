@@ -8,13 +8,17 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/ratio-test.md"
 +++
 
-**Ratio test:** Let $\sum_{n=1}^\infty a_n$ be a [[real-analysis/series|series]] with $a_n\ne 0$ for all sufficiently large $n$, and define
+**Ratio test:** Let \(\sum_{n=1}^\infty a_n\) be a [[real-analysis/series|series]] with \(a_n\ne0\) for all sufficiently large \(n\), and define
 \[
-L=\limsup_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|.
+L^+=\limsup_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|,
+\qquad
+L^-=\liminf_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|.
 \]
-- If $L<1$, then $\sum a_n$ is [[real-analysis/absolutely-convergent-series|absolutely convergent]] (hence convergent).
-- If $L>1$ (including $L=\infty$), then $\sum a_n$ is [[real-analysis/divergent-series|divergent]].
-- If $L=1$, the test is inconclusive.
+- If \(L^+<1\), then \(\sum a_n\) is [[real-analysis/absolutely-convergent-series|absolutely convergent]].
+- If \(L^->1\), then \(a_n\not\to0\), so \(\sum a_n\) [[real-analysis/divergent-series|diverges]].
+- In all other cases, these bounds alone are inconclusive.
+
+In particular, if the ratio has a limit \(L\), the series converges absolutely for \(L<1\), diverges for \(L>1\), and the test is inconclusive for \(L=1\).
 
 ## Remarks
 

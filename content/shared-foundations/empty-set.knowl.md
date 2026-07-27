@@ -8,7 +8,7 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/empty-set.md"
 +++
 
-An **empty set** is a set $\varnothing$ with no elements, meaning
+The **empty set**, denoted $\varnothing$, is the set with no elements:
 $$
 \forall x\,(x\notin \varnothing).
 $$

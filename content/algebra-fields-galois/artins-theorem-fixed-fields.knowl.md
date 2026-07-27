@@ -24,11 +24,11 @@ L^G=\{x\in L:\sigma(x)=x\ \text{for all}\ \sigma\in G\}.
    [L:K]=|G|.
    \]
 
-## Remarks
+## Significance
 
 This is a foundational input to the [[algebra-fields-galois/fundamental-theorem-galois-theory|fundamental theorem of Galois theory]] and explains why fixed fields and automorphism groups match so tightly.
 
-### Examples
+## Examples
 1. \(L=\mathbb{C}\), \(G=\{1,\mathrm{conj}\}\) where \(\mathrm{conj}(z)=\overline{z}\).
    Then \(L^G=\mathbb{R}\), so \(\mathbb{C}/\mathbb{R}\) is Galois with \([\mathbb{C}:\mathbb{R}]=2=|G|\).
 

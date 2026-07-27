@@ -22,7 +22,7 @@ This is especially useful combined with the [[algebra-fields-galois/separable-no
    Every field of characteristic \(0\) is perfect, so any finite extension of \(\mathbb{Q}\) (e.g. \(\mathbb{Q}(\sqrt2,\sqrt3)/\mathbb{Q}\)) is automatically separable.
 
 2. **Finite fields.**
-   Any finite field \(\mathbb{F}_{p^n}\) is perfect (see [[algebra-fields-galois/finite-fields-perfect|finite fields are perfect]]), hence any finite extension \(\mathbb{F}_{p^m}/\mathbb{F}_{p^n}\) is separable.
+   Any finite field \(\mathbb{F}_{p^n}\) is perfect (see [[algebra-fields-galois/finite-fields-perfect|finite fields are perfect]]), hence any finite extension \(\mathbb{F}_{p^m}/\mathbb{F}_{p^n}\), where \(n\mid m\), is separable.
 
 3. **A non-perfect base gives inseparability.**
    Let \(K=\mathbb{F}_p(t)\). Then \(K\) is not perfect, and \(L=K(t^{1/p})\) is a finite (degree \(p\)) [[algebra-fields-galois/field-extension|extension]] that is [[algebra-fields-galois/inseparable-extension|inseparable]] (its defining polynomial \(x^p-t\) has zero derivative; see [[algebra-fields-galois/separable-distinct-roots|separable iff distinct roots]]).

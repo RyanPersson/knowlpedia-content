@@ -9,9 +9,9 @@ legacy_source_path = "topology/isometry.md"
 +++
 
 An **isometry** between metric spaces $(X,d_X)$ and $(Y,d_Y)$ is a map $f\colon X\to Y$ such that for all $x,x'\in X$,
-\[
+$$
 d_Y\bigl(f(x),f(x')\bigr)=d_X(x,x').
-\]
+$$
 
 ## Remarks
 

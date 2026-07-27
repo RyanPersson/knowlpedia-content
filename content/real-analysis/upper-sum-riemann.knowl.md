@@ -9,10 +9,14 @@ legacy_source_path = "real-analysis/upper-sum-riemann.md"
 +++
 
 Let $f:[a,b]\to\mathbb{R}$ be bounded and let $P:a=x_0<\cdots<x_n=b$ be a partition. For each subinterval, define
-$$M_i := \sup\{f(x): x\in[x_{i-1},x_i]\}.$$
+$$
+M_i := \sup\{f(x): x\in[x_{i-1},x_i]\}.
+$$
 
 The **upper sum** of $f$ with respect to $P$ is
-$$U(f,P) := \sum_{i=1}^n M_i\, (x_i-x_{i-1}).$$
+$$
+U(f,P) := \sum_{i=1}^n M_i\, (x_i-x_{i-1}).
+$$
 
 Upper sums approximate the integral from above. As the partition is refined, upper sums decrease (or stay the same).
 

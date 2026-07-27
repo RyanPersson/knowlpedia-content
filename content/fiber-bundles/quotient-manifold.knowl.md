@@ -8,20 +8,12 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/quotient-manifold.md"
 +++
 
-Let [[fiber-bundles/lie-group|Lie group]] $G$ act smoothly on a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$.
+Let a [[fiber-bundles/lie-group|Lie group]] $G$ act smoothly, freely, and properly on a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$. Then the orbit space $M/G$ admits a unique smooth manifold structure for which the quotient map $\pi:M\to M/G$ is a smooth submersion. Moreover:
 
-## Theorem (quotient manifold theorem)
-Assume the action is a [[fiber-bundles/principal-action|principal action]] (equivalently, smooth, free, and proper). Then:
+1. The fibers of $\pi$ are the orbits, and $\dim(M/G)=\dim(M)-\dim(G)$.
+2. With this structure, $\pi:M\to M/G$ is a [[fiber-bundles/principal-g-bundle|principal $G$-bundle]], after converting a given left action to the corresponding right action if necessary.
 
-1. The orbit space $M/G$ admits a unique smooth manifold structure such that the quotient map
-   \[
-   \pi:M\to M/G
-   \]
-   is a [[fiber-bundles/smooth-map|smooth map]] and a submersion.
-2. The fibers of $\pi$ are the orbits, and $\dim(M/G)=\dim(M)-\dim(G)$.
-3. With this structure, $\pi:M\to M/G$ is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] whose right action is the given action (up to the usual left/right convention).
-
-In particular, local differential geometry on $M/G$ can be studied via $G$-invariant data upstairs on $M$.
+In particular, local differential geometry on $M/G$ can be studied through $G$-invariant data on $M$.
 
 ## Examples
 1. **Hopf fibration.** The free proper $S^1$-action on $S^{2n+1}$ by scalar multiplication yields the quotient manifold $S^{2n+1}/S^1 \cong \mathbb{CP}^n$.

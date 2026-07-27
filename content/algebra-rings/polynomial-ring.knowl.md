@@ -8,7 +8,7 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/polynomial-ring.md"
 +++
 
-Let $R$ be a [[algebra-rings/commutative-ring|commutative ring]] with $1$. The **polynomial ring** $R[x]$ consists of finite sums $\sum_{i=0}^n a_i x^i$ with coefficients $a_i\in R$, with addition termwise and multiplication determined by distributivity and $x^i x^j=x^{i+j}$.
+Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] with \(1\). The **polynomial ring** \(R[x]\) consists of finite sums \(\sum_{i=0}^n a_i x^i\) with coefficients \(a_i\in R\), with addition termwise and multiplication determined by distributivity and \(x^i x^j=x^{i+j}\).
 
 ## Remarks
 
@@ -16,6 +16,6 @@ Polynomial rings provide the basic algebraic enlargement of a [[algebra-rings/ri
 
 ## Examples
 
-- $\mathbb{Z}[x]$ is the ring of integer-coefficient polynomials.
-- If $k$ is a field, then $k[x,y]$ can be viewed as $(k[x])[y]$, polynomials in $y$ with coefficients in $k[x]$.
-- The polynomial $f(x)=2x^2-3x+1\in \mathbb{Z}[x]$ has degree $2$ and leading coefficient $2$.
+- \(\mathbb{Z}[x]\) is the ring of integer-coefficient polynomials.
+- If \(k\) is a field, then \(k[x,y]\) can be viewed as \((k[x])[y]\), polynomials in \(y\) with coefficients in \(k[x]\).
+- The polynomial \(f(x)=2x^2-3x+1\in \mathbb{Z}[x]\) has degree \(2\) and leading coefficient \(2\).

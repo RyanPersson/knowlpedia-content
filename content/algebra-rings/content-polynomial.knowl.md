@@ -9,9 +9,9 @@ legacy_source_path = "algebra-rings/content-polynomial.md"
 +++
 
 Let $R$ be a commutative ring with $1$, and let $f(x)=\sum_{i=0}^n a_i x^i\in R[x]$. The **content** of $f$ is the [[algebra-rings/ideal|ideal]]
-\[
+$$
 c(f)=(a_0,a_1,\dots,a_n),
-\]
+$$
 i.e. the [[algebra-rings/ideal-generated|ideal generated]] by the coefficients of $f$.
 
 ## Remarks

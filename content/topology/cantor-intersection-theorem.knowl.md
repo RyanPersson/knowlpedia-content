@@ -9,7 +9,7 @@ legacy_source_path = "topology/cantor-intersection-theorem.md"
 +++
 
 **Cantor intersection theorem:** Let $(X,d)$ be a [[topology/complete-metric-space|complete metric space]] and let $(F_n)_{n\in\mathbb{N}}$ be a sequence of nonempty [[topology/closed-set|closed sets]] with
-1) $F_{n+1}\subseteq F_n$ for all $n$, and  
+1) $F_{n+1}\subseteq F_n$ for all $n$, and
 2) $\operatorname{diam}(F_n)\to 0$, where $\operatorname{diam}$ is the [[topology/diameter|diameter]] in the metric $d$.
 
 Then the intersection $\bigcap_{n\in\mathbb{N}} F_n$ consists of exactly one point.

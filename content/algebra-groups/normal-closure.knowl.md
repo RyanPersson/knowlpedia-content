@@ -2,20 +2,19 @@
 id = "algebra-groups/normal-closure"
 title = "Normal Closure"
 kind = "knowl"
-summary = "The smallest normal subgroup containing a given subset"
+summary = "The smallest normal subgroup containing a given subset."
 aliases = ["normal-closure", "Normal Closure"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/normal-closure.md"
 +++
 
-Let $G$ be a [[algebra-groups/group|group]] and let $A\subseteq G$. The **normal closure** of $A$ in $G$, denoted $\langle\!\langle A\rangle\!\rangle$, is the smallest [[algebra-groups/normal-subgroup|normal subgroup]] of $G$ containing $A$. Equivalently,
+Let $G$ be a [[algebra-groups/group|group]] and $A\subseteq G$. The **normal closure** of $A$ in $G$, denoted $\langle\!\langle A\rangle\!\rangle$, is the smallest [[algebra-groups/normal-subgroup|normal subgroup]] of $G$ containing $A$. Equivalently,
 $$
 \langle\!\langle A\rangle\!\rangle \;=\; \bigcap\{N\trianglelefteq G : A\subseteq N\},
 $$
-
 the intersection of all normal subgroups containing $A$.
 
-A concrete description is: $\langle\!\langle A\rangle\!\rangle$ is the [[algebra-groups/generated-subgroup|subgroup generated]] by all conjugates $gag^{-1}$ with $g\in G$ and $a\in A$ (so it is the smallest normal subgroup closed under conjugation containing $A$), which ties it to the [[algebra-groups/conjugation-action|conjugation action]]
+It is also the [[algebra-groups/generated-subgroup|subgroup generated]] by the conjugates $gag^{-1}$ with $g\in G$ and $a\in A$.
 
 ## Examples
 

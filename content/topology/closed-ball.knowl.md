@@ -9,9 +9,9 @@ legacy_source_path = "topology/closed-ball.md"
 +++
 
 A **closed ball** in a metric space $(X,d)$ is a set of the form
-\[
+$$
 \overline{B}_d(x,r)=\{y\in X : d(x,y)\le r\},
-\]
+$$
 where $x\in X$ and $r\ge 0$.
 
 Closed balls are closely related to [[topology/open-ball|open balls]] and are [[topology/closed-set|closed sets]] in the [[topology/metric-induced-topology|metric-induced topology]].

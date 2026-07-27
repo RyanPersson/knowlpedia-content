@@ -8,11 +8,14 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/power-series.md"
 +++
 
-A **power series** is a series of the form $\sum_{n=0}^\infty c_n (x-a)^n$ with real coefficients $c_n$ and a real center $a$.
+A **power series** with real coefficients and center \(a\in\mathbb R\) is a series
+\[
+\sum_{n=0}^\infty c_n(x-a)^n.
+\]
 
-There exists a number $R\in[0,\infty]$, called the radius of convergence, such that the series converges for $|x-a|<R$ and diverges for $|x-a|>R$ (the endpoint behavior at $|x-a|=R$ is decided separately). The radius can often be computed using the [[real-analysis/cauchy-hadamard-theorem|Cauchy–Hadamard theorem]].
+There is a radius \(R\in[0,\infty]\) such that the series converges absolutely for \(|x-a|<R\) and diverges for \(|x-a|>R\). When \(R<\infty\), convergence at the endpoints must be checked separately.
 
 ## Examples
 
-- The geometric power series $\sum_{n=0}^\infty x^n$ converges for $|x|<1$ and represents the function $\frac{1}{1-x}$ on that interval.
-- The exponential series $\sum_{n=0}^\infty \frac{x^n}{n!}$ converges for every real $x$.
+- The geometric series \(\sum_{n=0}^\infty x^n\) has radius \(1\) and equals \(1/(1-x)\) for \(|x|<1\).
+- The exponential series \(\sum_{n=0}^\infty x^n/n!\) has infinite radius of convergence.

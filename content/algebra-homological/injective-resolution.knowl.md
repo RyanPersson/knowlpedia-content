@@ -37,7 +37,7 @@ If \(R=k\) is a field, every \(k\)-vector space is injective. Thus an injective 
 \[
 0\to V \xrightarrow{=} V \to 0 \to 0 \to \cdots,
 \]
-and therefore $\mathrm{Ext}_k^n(W,V)=0$ for all $n>0$ (see [[algebra-homological/ext|Ext]]).
+and therefore \(\mathrm{Ext}_k^n(W,V)=0\) for all \(n>0\) (see [[algebra-homological/ext|Ext]]).
 
 ### Example 2: An injective resolution of \(\mathbb Z\)
 In the category of abelian groups (\(R=\mathbb Z\)), both \(\mathbb Q\) and \(\mathbb Q/\mathbb Z\) are injective (they are divisible groups). The sequence

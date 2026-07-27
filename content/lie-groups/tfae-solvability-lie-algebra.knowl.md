@@ -21,7 +21,11 @@ Let $\mathfrak g$ be a finite-dimensional Lie algebra over an algebraically clos
 
    with $\dim V_i=i$. Equivalently, all operators in $\rho(\mathfrak g)$ can be simultaneously upper-triangularized. (This is the content of Lie’s theorem applied to solvable Lie algebras.)
 
-4. **Cartan’s trace criterion:** $\mathfrak g$ satisfies the trace-vanishing condition equivalent to solvability given by [[lie-groups/cartans-criterion-solvability|Cartan’s criterion for solvability]].
+4. **Cartan’s trace criterion:** for every $x\in[\mathfrak g,\mathfrak g]$ and $y\in\mathfrak g$,
+   $$
+   \operatorname{tr}(\operatorname{ad}x\circ\operatorname{ad}y)=0.
+   $$
+   This is [[lie-groups/cartans-criterion-solvability|Cartan’s criterion for solvability]].
 
 ## Context
 Condition (1) is the intrinsic definition; (2) and (3) explain why solvable Lie algebras behave like “triangular” objects in linear algebra, while (4) is useful when $\mathfrak g$ is given abstractly but $\mathrm{ad}$ is accessible. Solvability is weaker than nilpotency, and [[lie-groups/nilpotent-implies-solvable-lemma|nilpotent Lie algebras are always solvable]].

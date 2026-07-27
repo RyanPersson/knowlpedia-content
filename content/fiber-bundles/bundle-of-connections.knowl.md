@@ -8,27 +8,23 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/bundle-of-connections.md"
 +++
 
-Let $\pi\colon P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]]. The set of [[fiber-bundles/principal-connection|principal connections]] on $P$ is an affine space; the “bundle of connections” packages this affineness pointwise over $M$.
-
-## Definition (Connection bundle; principal case)
-The **bundle of connections** of $P$ is the affine bundle
-\[
+Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal $G$-bundle]]. The **bundle of connections** of $P$ is the affine bundle
+$$
 \mathcal{C}(P) \to M
-\]
+$$
 defined as the quotient
-\[
+$$
 \mathcal{C}(P) := J^1P / G,
-\]
-where $J^1P$ is the [[fiber-bundles/jet-bundle|1-jet bundle]] of $P$ and $G$ acts by prolongation of the principal right action.
+$$
+where $J^1P$ is the [[fiber-bundles/jet-bundle|1-jet bundle]] of $P$ and $G$ acts by prolongation of the principal right action. Its smooth sections are naturally in bijection with principal connections on $P$.
 
-It has the property that:
-- Sections of $\mathcal{C}(P)\to M$ are in natural bijection with principal connections on $P$.
+## Affine structure
 
-Moreover, $\mathcal{C}(P)\to M$ is an affine bundle modeled on the vector bundle
-\[
+The bundle $\mathcal{C}(P)\to M$ is modeled on the vector bundle
+$$
 T^*M \otimes \mathrm{Ad}(P),
-\]
-so the difference of two connections is an $\mathrm{Ad}(P)$-valued 1-form (a section of $T^*M\otimes \mathrm{Ad}(P)$). Here $T^*M$ is the [[fiber-bundles/cotangent-bundle|cotangent bundle]] and $\mathrm{Ad}(P)$ is the adjoint bundle associated to $P$.
+$$
+so the difference of two connections is an $\mathrm{Ad}(P)$-valued $1$-form. Here $T^*M$ is the [[fiber-bundles/cotangent-bundle|cotangent bundle]] and $\mathrm{Ad}(P)$ is the adjoint bundle associated to $P$.
 
 ## Vector bundle variant
 If $E\to M$ is a vector bundle, the set of [[fiber-bundles/connection-on-a-vector-bundle|connections on E]] is an affine space modeled on $\Omega^1(M;\mathrm{End}(E))$, and there is an analogous affine bundle over $M$ whose sections correspond to connections on $E$.

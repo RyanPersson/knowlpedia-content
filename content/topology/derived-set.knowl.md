@@ -9,15 +9,15 @@ legacy_source_path = "topology/derived-set.md"
 +++
 
 The **derived set** of a subset $A\subseteq X$ in a [[topology/topological-space|topological space]] is the set
-\[
+$$
 A'=\{x\in X : x \text{ is a limit point of } A\},
-\]
+$$
 where “limit point” is as in [[topology/limit-point|limit point]].
 
 The derived set records the accumulation behavior of $A$, and it satisfies the basic relationship with [[topology/closure|closure]]:
-\[
+$$
 \overline{A}=A\cup A'.
-\]
+$$
 
 ## Examples
 

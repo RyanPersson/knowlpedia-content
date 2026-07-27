@@ -9,9 +9,9 @@ legacy_source_path = "topology/epsilon-net.md"
 +++
 
 An **epsilon-net** for a subset $A\subseteq X$ in a [[topology/metric-space|metric space]] $(X,d)$ is a subset $F\subseteq X$ such that for every $a\in A$ there exists $f\in F$ with
-\[
+$$
 d(a,f) < \varepsilon.
-\]
+$$
 
 ## Equivalent characterizations
 

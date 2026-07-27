@@ -8,8 +8,10 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/uniform-continuity-preserves-cauchy.md"
 +++
 
-Let $(X,d_X)$ and $(Y,d_Y)$ be [[topology/metric-space|metric spaces]] and let $f:X\to Y$ be [[real-analysis/uniform-continuity|uniformly continuous]].
+Let \((X,d_X)\) and \((Y,d_Y)\) be [[topology/metric-space|metric spaces]] and let \(f:X\to Y\) be [[real-analysis/uniform-continuity|uniformly continuous]].
 
-**Proposition**: If $(x_n)$ is a [[topology/cauchy-sequence|Cauchy sequence]] in $X$, then $(f(x_n))$ is a Cauchy sequence in $Y$.
+**Proposition.** If \((x_n)\) is a [[topology/cauchy-sequence|Cauchy sequence]] in \(X\), then \((f(x_n))\) is a Cauchy sequence in \(Y\).
 
-This is an important structural feature: uniform continuity is exactly the hypothesis needed to transport [[topology/complete-metric-space|completeness]] properties through a map.
+Indeed, given \(\varepsilon>0\), choose \(\delta>0\) from uniform continuity. For all sufficiently large \(m,n\), the Cauchy property gives \(d_X(x_m,x_n)<\delta\), hence \(d_Y(f(x_m),f(x_n))<\varepsilon\).
+
+Continuity alone does not suffice: \(f(x)=1/x\) on \((0,1)\) sends the Cauchy sequence \(x_n=1/n\) to the non-Cauchy sequence \(n\).
