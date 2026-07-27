@@ -9,9 +9,9 @@ legacy_source_path = "algebra-modules/short-exact-sequence.md"
 +++
 
 A **short exact sequence** is an exact sequence (see [[algebra-modules/exact-sequence-modules|exact sequence of modules]])
-\[
+$$
 0 \to A \xrightarrow{i} B \xrightarrow{p} C \to 0
-\]
+$$
 such that $i$ is injective and $p$ is surjective, and $\operatorname{im}(i)=\ker(p)$. In elementary terms, $i$ is an [[shared-foundations/injective-function|injective]] map identifying $A$ with a submodule of $B$, and $p$ is a [[shared-foundations/surjective-function|surjective]] map with $C\cong B/i(A)$.
 
 Short exact sequences classify extensions: they encode how $B$ is built from a submodule isomorphic to $A$ and a quotient isomorphic to $C$.

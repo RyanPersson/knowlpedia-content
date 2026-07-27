@@ -8,7 +8,7 @@ domains = ["topology"]
 legacy_source_path = "topology/closed-sets-are-complements-of-open-sets.md"
 +++
 
-**Closed sets are complements of open sets**: In a [[topology/metric-space|metric space]] $(X,d)$, a set $F\subseteq X$ is [[topology/closed-set|closed]] if and only if $X\setminus F$ is [[topology/open-set|open]].
+In a [[topology/topological-space|topological space]] $X$, a subset $F\subseteq X$ is [[topology/closed-set|closed]] if and only if its complement $X\setminus F$ is [[topology/open-set|open]].
 
 Consequently:
 - arbitrary intersections of closed sets are closed, and

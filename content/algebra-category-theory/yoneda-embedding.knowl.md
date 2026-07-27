@@ -47,7 +47,7 @@ X \longmapsto \mathrm{Hom}_{\mathbf{Set}}(X,A),
 the set of functions \(X\to A\). A map \(A\to B\) induces a natural transformation by postcomposition.
 
 ### Example (Posets)
-Let \((P,\le)\) be a [[shared-foundations/partial-order|partial order]] regarded as a category (one morphism \(x\to y\) iff \(x\le y\)).  
+Let \((P,\le)\) be a [[shared-foundations/partial-order|partial order]] regarded as a category (one morphism \(x\to y\) iff \(x\le y\)).
 Then for \(a\in P\), the presheaf \(y(a)\) sends \(x\) to a singleton set if \(x\le a\), and to the empty set otherwise. Thus \(y(a)\) encodes the principal down-set \(\{x\mid x\le a\}\).
 
 ### Example (Grp)

@@ -8,7 +8,7 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/artinian-semisimple-ring.md"
 +++
 
-An **Artinian semisimple ring** is a ring $R$ that is [[algebra-rings/semisimple-ring|semisimple]] and Artinian (i.e. it satisfies the descending chain condition on ideals, equivalently on left ideals).
+An **Artinian semisimple ring** is a ring \(R\) that is [[algebra-rings/semisimple-ring|semisimple]] and left Artinian, meaning that every descending chain of left ideals stabilizes.
 
 ## Remarks
 
@@ -16,6 +16,6 @@ By the [[algebra-rings/artin-wedderburn-theorem|Artin–Wedderburn theorem]], su
 
 ## Examples
 
-- $M_n(k)$ is Artinian semisimple for any field $k$.
-- A finite product of fields, e.g. $\mathbb{Q}\times \mathbb{Q}\times \mathbb{F}_5$, is Artinian semisimple.
-- An infinite product $\prod_{i\in \mathbb{N}} k$ (with $k$ a field) is not Artinian, hence not Artinian semisimple.
+- \(M_n(k)\) is Artinian semisimple for any field \(k\).
+- A finite product of fields, e.g. \(\mathbb{Q}\times \mathbb{Q}\times \mathbb{F}_5\), is Artinian semisimple.
+- An infinite product \(\prod_{i\in \mathbb{N}}k\) (with \(k\) a field) is not Artinian, hence not Artinian semisimple.

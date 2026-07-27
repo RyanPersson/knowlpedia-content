@@ -2,23 +2,21 @@
 id = "shale-paper/operator-topologies-sot-wot"
 title = "Strong vs Weak Operator Topology"
 kind = "knowl"
-summary = "Two common convergence notions for bounded operators on a Hilbert space"
+summary = "The strong and weak operator topologies on the bounded operators of a Hilbert space."
 aliases = ["operator-topologies-sot-wot", "Strong vs Weak Operator Topology"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/operator-topologies-sot-wot.md"
 +++
 
-For operators \(T_n,T\) on a Hilbert space:
+Let \(H\) be a Hilbert space and \(B(H)\) its bounded linear operators. A net \((T_i)\) in \(B(H)\) converges to \(T\in B(H)\):
 
-- **SOT (strong):** \(T_n\to T\) if \(T_nx\to Tx\) for every vector \(x\).
-- **WOT (weak):** \(T_n\to T\) if \((T_nx,y)\to (Tx,y)\) for all vectors \(x,y\).
+- in the **strong operator topology (SOT)** if \(\lVert T_i x-Tx\rVert\to0\) for every \(x\in H\);
+- in the **weak operator topology (WOT)** if \(\langle T_i x,y\rangle\to\langle Tx,y\rangle\) for every \(x,y\in H\).
 
 ## Remarks
 
-**Key properties (paper use):**
-- Continuity of group actions/representations is often stated in WOT.
-- On unitary/orthogonal groups, these topologies are commonly used for "weak continuity".
+SOT convergence implies WOT convergence. Neither implication reverses to operator-norm convergence in general.
 
 ## Examples
 
-- If \(\|T_n-T\|\to0\) (operator norm), then \(T_n\to T\) in both SOT and WOT.
+- If \(\lVert T_i-T\rVert\to0\) in operator norm, then \(T_i\to T\) in both SOT and WOT.

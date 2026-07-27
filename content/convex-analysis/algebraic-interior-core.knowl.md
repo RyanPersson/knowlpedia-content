@@ -2,33 +2,29 @@
 id = "convex-analysis/algebraic-interior-core"
 title = "Algebraic Interior (Core)"
 kind = "knowl"
-summary = "The algebraic analogue of interior for subsets of vector spaces"
+summary = "Points from which every vector-space direction remains in the set for a sufficiently short segment."
 aliases = ["algebraic-interior-core", "Algebraic Interior (Core)"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/algebraic-interior-core.md"
 +++
 
-Let $X$ be a real [[linear-algebra/vector-space|vector space]] and let $\Omega\subset X$.
+Let $X$ be a real [[linear-algebra/vector-space|vector space]] and let $\Omega\subseteq X$.
 
 The **algebraic interior** (or **core**) of $\Omega$ is
 $$
 \operatorname{core}(\Omega):=\Big\{x\in\Omega \ \Big|\ \forall v\in X,\ \exists \delta>0\ \text{s.t.}\ x+tv\in\Omega\ \text{for all }|t|<\delta\Big\}.
 $$
 
-## Equivalent characterizations
-
-Equivalently, $x\in\operatorname{core}(\Omega)$ iff for every direction $v\in X$, one can move a small amount from $x$ in the direction $v$ and remain in $\Omega$.
-
 ## Remarks
 
-When $X$ is a [[convex-analysis/norm-normed-vector-space|normed vector space]] and $\Omega$ is [[convex-analysis/convex-set|convex]], we have
+When $X$ is a [[convex-analysis/norm-normed-vector-space|normed vector space]],
 $$
-\operatorname{int}(\Omega)\subset \operatorname{core}(\Omega)\subset \Omega,
+\operatorname{int}(\Omega)\subseteq \operatorname{core}(\Omega)\subseteq \Omega,
 $$
 
-where $\operatorname{int}(\Omega)$ is the usual [[convex-analysis/interior-of-a-set|interior]]. See also [[convex-analysis/linear-closure|linear closure]] for the dual notion.
+where $\operatorname{int}(\Omega)$ is the usual [[convex-analysis/interior-of-a-set|interior]]. Convexity is not needed for these inclusions.
 
 ## Examples
 
 - If $\Omega$ is an open ball in a normed space, then $\operatorname{core}(\Omega)=\Omega$.
-- If $\Omega$ is a linear subspace $L$, then $\operatorname{core}(L)=L$.
+- If $L$ is a proper linear subspace of $X$, then $\operatorname{core}(L)=\varnothing$: a direction outside $L$ immediately leaves $L$.

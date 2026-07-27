@@ -8,8 +8,8 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/adjoint-representation-of-a-lie-algebra.md"
 +++
 
-Let \(\mathfrak{g}\) be a [[lie-groups/lie-algebra|Lie algebra]] with [[fiber-bundles/lie-bracket|Lie bracket]] \([\ ,\ ]\).
-For \(X\in\mathfrak{g}\), define a linear map
+Let $\mathfrak{g}$ be a [[lie-groups/lie-algebra|Lie algebra]] with [[fiber-bundles/lie-bracket|Lie bracket]] $[\ ,\ ]$.
+For $X\in\mathfrak{g}$, define a linear map
 $$
 \operatorname{ad}_X:\mathfrak{g}\to \mathfrak{g},\qquad \operatorname{ad}_X(Y)=[X,Y].
 $$
@@ -17,18 +17,18 @@ This gives a map
 $$
 \operatorname{ad}:\mathfrak{g}\to \mathfrak{gl}(\mathfrak{g}),\qquad X\mapsto \operatorname{ad}_X,
 $$
-called the **adjoint representation** of \(\mathfrak{g}\).
+called the **adjoint representation** of $\mathfrak{g}$.
 
 ## Key property
-The map \(\operatorname{ad}\) is a [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]]:
+The map $\operatorname{ad}$ is a [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]]:
 $$
 [\operatorname{ad}_X,\operatorname{ad}_Y]=\operatorname{ad}_{[X,Y]}
 \quad\text{in}\quad \mathfrak{gl}(\mathfrak{g}).
 $$
-Thus \(\operatorname{ad}\) is a [[lie-groups/representation-of-a-lie-algebra|representation of a Lie algebra]] on the vector space \(\mathfrak{g}\).
+Thus $\operatorname{ad}$ is a [[lie-groups/representation-of-a-lie-algebra|representation of a Lie algebra]] on the vector space $\mathfrak{g}$.
 
 ## Kernel and center
-\(\ker(\operatorname{ad})\) consists of elements commuting with everything, i.e. the [[lie-groups/center-of-a-lie-algebra|center]] \(Z(\mathfrak{g})\).
+$\ker(\operatorname{ad})$ consists of elements commuting with everything, i.e. the [[lie-groups/center-of-a-lie-algebra|center]] $Z(\mathfrak{g})$.
 
 ## Killing form
 The [[lie-groups/killing-form|Killing form]] is defined by

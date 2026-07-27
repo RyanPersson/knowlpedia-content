@@ -8,12 +8,12 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/bounded-derivative-implies-uniform-continuity.md"
 +++
 
-**Bounded derivative implies uniform continuity:** Let $I\subseteq\mathbb R$ be an [[real-analysis/interval|interval]] and let $f:I\to\mathbb R$ be [[real-analysis/differentiability-1d|differentiable]] on $I$. If there is a constant $M$ such that $|f'(t)|\le M$ for all $t\in I$, then for all $x,y\in I$,
-$$
+**Bounded derivative implies uniform continuity:** Let \(I\subseteq\mathbb R\) be an [[real-analysis/interval|interval]] and let \(f:I\to\mathbb R\) be [[real-analysis/differentiability-1d|differentiable]] on \(I\). If there is a constant \(M\) such that \(|f'(t)|\le M\) for all \(t\in I\), then for all \(x,y\in I\),
+\[
 |f(x)-f(y)|\le M|x-y|.
-$$
+\]
 
-Consequently, $f$ is Lipschitz and in particular uniformly continuous on $I$.
+Consequently, \(f\) is Lipschitz and in particular uniformly continuous on \(I\).
 
 ## Remarks
 

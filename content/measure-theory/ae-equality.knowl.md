@@ -8,14 +8,14 @@ domains = ["measure-theory"]
 legacy_source_path = "measure-theory/ae-equality.md"
 +++
 
-An **almost-everywhere equality** (or **a.e. equality**) on a [[measure-theory/measure-space|measure space]] $(X,\Sigma,\mu)$ is the relation on functions $f,g:X\to \overline{\mathbb R}$ defined by
+An **almost-everywhere equality** (or **a.e. equality**) on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) is the relation on functions \(f,g:X\to \overline{\mathbb R}\) defined by
 \[
 f=g \text{ a.e.} \quad \Longleftrightarrow \quad \mu(\{x\in X: f(x)\neq g(x)\})=0.
 \]
 
 ## Equivalent characterizations
 
-Equivalently, the set where $f$ and $g$ disagree is a [[measure-theory/null-set|null set]].
+Equivalently, the set where \(f\) and \(g\) disagree is a [[measure-theory/null-set|null set]].
 
 ## Remarks
 
@@ -23,5 +23,5 @@ This formalizes equality [[measure-theory/almost-everywhere|almost everywhere]] 
 
 ## Examples
 
-- On $\mathbb R$ equipped with the [[measure-theory/borel-sigma-algebra|Borel sigma-algebra]] and [[measure-theory/lebesgue-measure|Lebesgue measure]], the functions $f=0$ and $g=\mathbf{1}_{\{0\}}$ are a.e. equal.
-- If $E\subseteq X$ is a null set and $f$ is measurable, then $f$ and the function obtained by redefining $f$ arbitrarily on $E$ are a.e. equal.
+- On \(\mathbb R\) equipped with the [[measure-theory/borel-sigma-algebra|Borel sigma-algebra]] and [[measure-theory/lebesgue-measure|Lebesgue measure]], the functions \(f=0\) and \(g=\mathbf{1}_{\{0\}}\) are a.e. equal.
+- If \(E\subseteq X\) is a null set and \(f\) is measurable, then \(f\) and the function obtained by redefining \(f\) arbitrarily on \(E\) are a.e. equal.

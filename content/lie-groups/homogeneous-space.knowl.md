@@ -14,9 +14,9 @@ Let $G$ be a [[fiber-bundles/lie-group|Lie group]] acting smoothly on a manifold
 $M$ is a **homogeneous space** for $G$ if the action is [[lie-groups/transitive-action-lie|transitive]], i.e. for any $p,q\in M$ there exists $g\in G$ with $g\cdot p=q$.
 
 Fix $p\in M$ and let $H=G_p$ be its [[lie-groups/stabilizer-lie-group|stabilizer]]. Then the orbit map $G\to M$, $g\mapsto g\cdot p$, induces a bijection
-\[
+$$
 G/H \;\longrightarrow\; M,
-\]
+$$
 where $G/H$ is the [[lie-groups/coset-space|coset space]]. If $H$ is a [[lie-groups/closed-subgroup-lie-group|closed]] subgroup, then $G/H$ carries a unique smooth manifold structure making the induced map a $G$-equivariant diffeomorphism (compare the [[lie-groups/closed-subgroup-theorem|closed subgroup theorem]]).
 
 ## Remarks

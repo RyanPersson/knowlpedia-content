@@ -8,15 +8,12 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/simply-connected-determined-by-algebra.md"
 +++
 
-A central “uniqueness” principle in Lie theory is:
-
-**Theorem (uniqueness for simply connected groups).**  
-Let $G$ and $H$ be connected [[lie-groups/simply-connected-lie-group|simply connected Lie groups]]. If their Lie algebras are isomorphic,
+**Integration theorem.** Let \(G\) be a connected [[lie-groups/simply-connected-lie-group|simply connected Lie group]], let \(H\) be a Lie group, and let
 \[
-\mathrm{Lie}(G)\cong \mathrm{Lie}(H)
+\varphi:\operatorname{Lie}(G)\to\operatorname{Lie}(H)
 \]
-(as Lie algebras; see [[lie-groups/lie-algebra-isomorphism|Lie algebra isomorphism]]), then $G$ and $H$ are isomorphic as Lie groups.
+be a Lie algebra homomorphism. Then there is a unique Lie group homomorphism \(\Phi:G\to H\) such that \(d\Phi_e=\varphi\).
 
-More precisely, if $\varphi:\mathfrak g\to\mathfrak h$ is a Lie algebra homomorphism between $\mathfrak g=\mathrm{Lie}(G)$ and $\mathfrak h=\mathrm{Lie}(H)$, then there exists a **unique** Lie group homomorphism $\Phi:G\to H$ such that $d\Phi_e=\varphi$ (see [[lie-groups/differential-is-lie-algebra-homomorphism|differential is a Lie algebra homomorphism]]). When $\varphi$ is an isomorphism, $\Phi$ is an isomorphism.
+Consequently, if \(G\) and \(H\) are connected and simply connected and their Lie algebras are [[lie-groups/lie-algebra-isomorphism|isomorphic]], then \(G\) and \(H\) are isomorphic as Lie groups.
 
-Existence of a simply connected Lie group integrating a given finite-dimensional Lie algebra is guaranteed by [[lie-groups/lies-third-theorem|Lie’s third theorem]]. The uniqueness above explains why, in practice, one often works “purely algebraically” at the level of Lie algebras and then passes to a canonical global group by taking the [[lie-groups/universal-covering-group|simply connected (universal cover) Lie group]] (see [[lie-groups/universal-covering-group-existence|existence of universal covering groups]]).
+Existence of a simply connected Lie group integrating a finite-dimensional real Lie algebra is guaranteed by [[lie-groups/lies-third-theorem|Lie’s third theorem]].

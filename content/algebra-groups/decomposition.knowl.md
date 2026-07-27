@@ -1,34 +1,25 @@
 +++
 id = "algebra-groups/decomposition"
-title = "Missing Knowls"
+title = "Group decomposition"
 kind = "knowl"
-summary = "List of referenced knowls that need to be created"
-aliases = ["decomposition", "Missing Knowls"]
+summary = "Ways to describe a group in terms of simpler subgroups, factors, or extensions."
+aliases = ["decomposition", "Group decomposition"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/decomposition.md"
 +++
 
-# Missing Knowls in algebra-groups
+A **group decomposition** describes a group in terms of simpler groups and the maps that assemble them. The precise form depends on how the constituent subgroups interact.
 
-The following knowl IDs are referenced in files within `content/algebra-groups/` but do not yet exist. They should be created to complete the linking.
+## Common forms
 
-## Ring/Module Theory (needed for number theory connections)
+- An [[algebra-groups/internal-direct-product|internal direct product]] expresses a group as a product of commuting normal subgroups with trivial intersection.
+- An [[algebra-groups/internal-semidirect-product|internal semidirect product]] relaxes the commutativity requirement and records an action of one factor on the other.
+- A [[algebra-groups/group-extension|group extension]] describes a group $G$ through an exact sequence
+  $$
+  1\longrightarrow N\longrightarrow G\longrightarrow Q\longrightarrow 1.
+  $$
+  When the extension splits, $G$ is a [[algebra-groups/semidirect-product|semidirect product]] of $N$ by $Q$.
 
-- **group-of-units** - Referenced in:
-  - `fermats-little-theorem.md` - $(\mathbb{Z}/p\mathbb{Z})^\times$
-  - `automorphism-group-cyclic.md` - $(\mathbb{Z}/n\mathbb{Z})^\times$
-  - `eulers-theorem.md` - $(\mathbb{Z}/n\mathbb{Z})^\times$
+## Structural results
 
-## Representation Theory
-
-- **character** - Referenced in:
-  - `class-function.md` - character of a finite-dimensional complex representation
-  - `burnsides-pq-theorem.md` - characters of finite groups
-
-- **group-representation** - Referenced in:
-  - `burnsides-pq-theorem.md` - representation theory
-
-## Module Theory
-
-- **krull-schmidt-azumaya-theorem** - Referenced in:
-  - `krull-remak-schmidt-theorem-groups.md` - Krull-Schmidt-Azumaya for modules
+The available decomposition and its uniqueness depend on the class of groups under consideration. For example, the [[algebra-groups/classification-finite-abelian-groups|classification of finite abelian groups]] gives a direct-product decomposition into cyclic prime-power groups, while the [[algebra-groups/krull-remak-schmidt-theorem-groups|Krull–Remak–Schmidt theorem]] gives uniqueness results for certain decompositions into directly indecomposable factors.

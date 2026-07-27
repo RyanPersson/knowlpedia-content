@@ -13,33 +13,33 @@ Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]], a
 Let $p\in \operatorname{Sym}^k(\mathfrak g^*)^G$ be an $\operatorname{Ad}$-invariant homogeneous polynomial of degree $k$, so that the associated [[fiber-bundles/chernweil-form|Chern Weil form]] $p(\Omega)$ is a closed $2k$-form on $M$ (via basicness on $P$), as in [[fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection|the Chern Weil theorem]].
 
 Define the difference
-\[
+$$
 \eta := \omega_1-\omega_0 \in \Omega^1(P;\mathfrak g).
-\]
+$$
 By [[fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial|tensoriality of differences of principal connections]], $\eta$ is horizontal and equivariant (hence “tensorial”), so it corresponds to an $\operatorname{ad}(P)$-valued 1-form on $M$.
 
 Consider the straight-line path of connections
-\[
+$$
 \omega_t := \omega_0 + t\,\eta,\qquad t\in[0,1],
-\]
+$$
 with curvature
-\[
+$$
 \Omega_t := d\omega_t + \tfrac12[\omega_t\wedge \omega_t]
-\]
+$$
 (compare [[fiber-bundles/cartans-second-structure-equation|Cartan's second structure equation]]).
 
 ### Change-of-connection (transgression) formula
 Define the transgression form
-\[
+$$
 T_p(\omega_0,\omega_1)
 := k \int_0^1 p\bigl(\eta \wedge \Omega_t^{k-1}\bigr)\,dt,
-\]
+$$
 a $(2k-1)$-form on $P$ which is basic and therefore descends to a $(2k-1)$-form on $M$ (often also denoted $T_p(\omega_0,\omega_1)$).
 
 Then the characteristic forms satisfy
-\[
+$$
 p(\Omega_1) - p(\Omega_0) \;=\; d\,T_p(\omega_0,\omega_1),
-\]
+$$
 so the two forms differ by an exact form on $M$. In particular, the de Rham class of $p(\Omega)$ does not depend on the chosen connection, which is the mechanism behind [[fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle|Chern Weil characteristic classes being invariants of the principal bundle]].
 
 ## Remarks
@@ -49,16 +49,16 @@ This construction is the standard transgression mechanism (see [[fiber-bundles/t
 ## Examples
 1. **Degree 1 (abelian-style) case.**
    If $k=1$ and $p:\mathfrak g\to\mathbb R$ is an $\operatorname{Ad}$-invariant linear functional, then
-   \[
+   $$
    T_p(\omega_0,\omega_1)=p(\eta),\qquad p(\Omega_1)-p(\Omega_0)=d\,p(\eta).
-   \]
+   $$
    For $G=U(1)$ this recovers the familiar fact that changing a connection 1-form changes the curvature 2-form by an exact 2-form (compare the local picture in [[fiber-bundles/local-connection-1-form|local connection 1-forms]]).
 
 2. **Degree 2 and the Chern Simons 3-form.**
    For $k=2$ and an invariant quadratic polynomial $p$ (for instance a suitably normalized trace form on a matrix Lie algebra), the transgression is a 3-form
-   \[
+   $$
    T_p(\omega_0,\omega_1) = 2\int_0^1 p(\eta\wedge \Omega_t)\,dt,
-   \]
+   $$
    and the formula says $p(\Omega_1)-p(\Omega_0)$ is exact with this primitive. On a trivial bundle, taking $\omega_0=0$ and $\omega_1=A$ yields the usual Chern Simons expression in terms of $A$ and $dA$, matching the standard [[fiber-bundles/chernsimons-form|Chern Simons form]] on a chart.
 
 3. **Pontryagin forms from different connections.**

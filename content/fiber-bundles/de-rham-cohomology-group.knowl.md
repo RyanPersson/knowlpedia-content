@@ -2,7 +2,7 @@
 id = "fiber-bundles/de-rham-cohomology-group"
 title = "de Rham cohomology group"
 kind = "knowl"
-summary = "The quotient of closed forms by exact forms, measuring global obstructions to solving =."
+summary = "The quotient of closed differential forms by exact forms."
 aliases = ["de-rham-cohomology-group", "de Rham cohomology group"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/de-rham-cohomology-group.md"
@@ -27,11 +27,11 @@ F^*:H^k_{\mathrm{dR}}(N)\to H^k_{\mathrm{dR}}(M),\qquad [\omega]\mapsto [F^*\ome
 \]
 
 ## Examples
-1. **Euclidean space.**  
+1. **Euclidean space.**
    For \(M=\mathbb{R}^n\), one has \(H^0_{\mathrm{dR}}(\mathbb{R}^n)\cong \mathbb{R}\) and \(H^k_{\mathrm{dR}}(\mathbb{R}^n)=0\) for all \(k>0\).
 
-2. **The circle.**  
+2. **The circle.**
    For \(M=S^1\), one has \(H^0_{\mathrm{dR}}(S^1)\cong \mathbb{R}\) and \(H^1_{\mathrm{dR}}(S^1)\cong \mathbb{R}\). A generator of \(H^1_{\mathrm{dR}}(S^1)\) can be represented by a closed 1-form whose integral around the circle is nonzero.
 
-3. **The sphere \(S^n\).**  
+3. **The sphere \(S^n\).**
    For \(M=S^n\) with \(n\ge 1\), one has \(H^0_{\mathrm{dR}}(S^n)\cong \mathbb{R}\), \(H^n_{\mathrm{dR}}(S^n)\cong \mathbb{R}\), and \(H^k_{\mathrm{dR}}(S^n)=0\) for \(0<k<n\).

@@ -2,20 +2,21 @@
 id = "shale-paper/radon-nikodym-derivative"
 title = "Radon–Nikodym Derivative"
 kind = "knowl"
-summary = "The density dν/dμ of one measure with respect to another"
+summary = "The almost-everywhere unique density dν/dμ representing an absolutely continuous measure ν relative to μ."
 aliases = ["radon-nikodym-derivative", "Radon–Nikodym Derivative"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/radon-nikodym-derivative.md"
 +++
 
-If measures \(\nu\) and \(\mu\) satisfy \(\nu\ll\mu\) (absolute continuity), the **Radon–Nikodym derivative**
-\(\frac{d\nu}{d\mu}\) is the (a.e. unique) function \(X\) with
-\(\nu(S)=\int_S X\,d\mu\) for all measurable \(S\).
+Let \(\mu\) and \(\nu\) be \(\sigma\)-finite positive measures on the same measurable space. If \(\nu\ll\mu\), the **Radon–Nikodym derivative** \(d\nu/d\mu\) is the \(\mu\)-almost-everywhere unique measurable function \(X\geq 0\) such that
+\[
+\nu(S)=\int_S X\,d\mu
+\]
+for every measurable set \(S\).
 
 ## Remarks
 
-**Key property (paper use):**
-- Shale writes \(X(T)=\frac{dn(T)}{dn}\) for the Gaussian pushforward (the "Jacobian").
+In Shale's notation for a Gaussian pushforward, \(X(T)=dn(T)/dn\) plays the role of a measure-theoretic Jacobian.
 
 ## Examples
 

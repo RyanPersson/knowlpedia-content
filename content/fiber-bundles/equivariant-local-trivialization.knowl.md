@@ -11,21 +11,21 @@ legacy_source_path = "fiber-bundles/equivariant-local-trivialization.md"
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/right-principal-action|right principal action]] $(p,g)\mapsto p\cdot g$, and let $U\subset M$ be open (often chosen from an [[topology/open-cover|open cover]] of $M$).
 
 An **equivariant local trivialization** of $P$ over $U$ is a [[fiber-bundles/diffeomorphism|diffeomorphism]]
-\[
+$$
 \psi:\pi^{-1}(U)\to U\times G
-\]
+$$
 such that:
 1. (Covers the identity on $U$) $\mathrm{pr}_1\circ\psi=\pi$ on $\pi^{-1}(U)$.
 2. (Equivariance) For all $p\in\pi^{-1}(U)$ and $g\in G$,
-   \[
+   $$
    \psi(p\cdot g)=\psi(p)\cdot g,
-   \]
+   $$
    where the right action on $U\times G$ is $(x,h)\cdot g=(x,hg)$.
 
 Given such a $\psi$, the map
-\[
+$$
 s:U\to P,\qquad s(x)=\psi^{-1}(x,e)
-\]
+$$
 is a smooth local section, and every $p\in\pi^{-1}(U)$ can be written uniquely as $p=s(\pi(p))\cdot g$.
 
 ## Examples

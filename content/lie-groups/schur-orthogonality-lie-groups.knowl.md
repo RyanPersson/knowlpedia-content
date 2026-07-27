@@ -8,19 +8,21 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/schur-orthogonality-lie-groups.md"
 +++
 
-Let $G$ be a [[lie-groups/compact-lie-group|compact Lie group]]. Fix the normalized Haar measure $dg$ on $G$ (so $\int_G 1\,dg=1$). Let $(\pi,V)$ and $(\sigma,W)$ be finite-dimensional continuous unitary representations of $G$ (see [[lie-groups/representation-of-a-lie-group|representation of a Lie group]]), with $\pi,\sigma$ irreducible (see [[lie-groups/irreducible-representation-lie-group|irreducible representation]]). Choose orthonormal bases so that $\pi(g)$ and $\sigma(g)$ have matrix entries $\pi_{ij}(g)$ and $\sigma_{kl}(g)$.
+Let $G$ be a [[lie-groups/compact-lie-group|compact Lie group]] with normalized Haar measure $dg$. Let $(\pi,V)$ and $(\sigma,W)$ be finite-dimensional continuous irreducible unitary [[lie-groups/representation-of-a-lie-group|representations]] of $G$. Choose orthonormal bases, and denote the resulting matrix coefficients by $\pi_{ij}$ and $\sigma_{kl}$.
 
 **Schur orthogonality** asserts:
-\[
+$$
 \int_G \pi_{ij}(g)\,\overline{\sigma_{kl}(g)}\,dg
 \;=\;
 \begin{cases}
-\frac{1}{\dim V}\,\delta_{ik}\delta_{jl}, & \text{if }\pi\simeq \sigma,\\[6pt]
+\frac{1}{\dim V}\,\delta_{ik}\delta_{jl},
+  & \text{if }\pi=\sigma\text{ and the same basis is used},\\[6pt]
 0, & \text{if }\pi\not\simeq \sigma.
 \end{cases}
-\]
+$$
+In the equivalent-but-not-identical case, the first formula holds after identifying $V$ and $W$ by a unitary intertwiner and transporting the chosen basis.
 
-This is the analytic avatar of Schur’s lemma and is one of the key inputs in the [[lie-groups/peter-weyl-theorem|Peter–Weyl theorem]], which decomposes $L^2(G)$ into finite-dimensional isotypic pieces. In practice, Schur orthogonality is the tool that turns representation theory into concrete integral identities on compact groups (compare also [[lie-groups/completely-reducible-representation-lie|complete reducibility]]).
+This is the analytic form of Schur’s lemma and a key input in the [[lie-groups/peter-weyl-theorem|Peter–Weyl theorem]], which decomposes $L^2(G)$ into finite-dimensional isotypic pieces.
 
 ## Equivalent characterizations
-Equivalently, the matrix coefficients of irreducible unitary representations form an orthogonal family in $L^2(G)$, and within a fixed irreducible representation they are orthogonal with the explicit scale factor $1/\dim V$.
+Equivalently, the matrix coefficients of irreducible unitary representations form an orthogonal family in $L^2(G)$; within one irreducible representation, their squared norm is $1/\dim V$.

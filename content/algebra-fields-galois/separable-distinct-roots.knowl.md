@@ -18,9 +18,9 @@ When these conditions hold, \(f\) is called **separable**. In particular, an [[a
 
 ## Remarks
 
-A useful characteristic-\(p\) test: if \(\mathrm{char}(K)=p>0\), then \(f'=0\) iff \(f(x)=g(x^p)\) for some \(g\in K[x]\); in that case \(f\) cannot be separable unless \(\deg(f)=1\).
+If \(\operatorname{char}(K)=p>0\), then \(f'=0\) if and only if \(f(x)=g(x^p)\) for some \(g\in K[x]\). Consequently, a nonconstant polynomial with zero derivative is not separable.
 
-### Examples
+## Examples
 
 1. **Characteristic \(0\): always distinct for irreducibles.**
    Over \(\mathbb{Q}\), \(f(x)=x^3-2\) has derivative \(f'(x)=3x^2\), and \(\gcd(f,f')=1\), so its three complex roots are distinct in its [[algebra-fields-galois/splitting-field|splitting field]].

@@ -8,7 +8,7 @@ domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/vector-space.md"
 +++
 
-A **vector space** over a [[real-analysis/field-axioms|field]] $\mathbb{F}$ is a [[shared-foundations/set|set]] $V$ equipped with two operations ([[shared-foundations/function|functions]]) $+:V\times V\to V$ and $\cdot:\mathbb{F}\times V\to V$ such that for all $u,v,w\in V$ and $a,b\in\mathbb{F}$:
+A **vector space** over a [[real-analysis/field-axioms|field]] \(\mathbb{F}\) is a [[shared-foundations/set|set]] \(V\) equipped with two operations ([[shared-foundations/function|functions]]) \(+:V\times V\to V\) and \(\cdot:\mathbb{F}\times V\to V\) such that for all \(u,v,w\in V\) and \(a,b\in\mathbb{F}\):
 \[
 \begin{aligned}
 &u+v=v+u,\qquad (u+v)+w=u+(v+w),\\
@@ -21,6 +21,6 @@ A **vector space** over a [[real-analysis/field-axioms|field]] $\mathbb{F}$ is a
 Vector spaces are the basic objects studied via [[linear-algebra/linear-map|linear maps]] and invariants such as the [[linear-algebra/determinant|determinant]] and [[linear-algebra/eigenvalue|eigenvalues]] of operators.
 
 **Examples:**
-- $\mathbb{R}^n$ with componentwise addition and scalar multiplication is a vector space over $\mathbb{R}$.
-- The set of polynomials $\mathbb{F}[x]$ with the usual addition and scalar multiplication is a vector space over $\mathbb{F}$.
-- The set of $m\times n$ matrices over $\mathbb{F}$ is a vector space over $\mathbb{F}$.
+- \(\mathbb{R}^n\) with componentwise addition and scalar multiplication is a vector space over \(\mathbb{R}\).
+- The set of polynomials \(\mathbb{F}[x]\) with the usual addition and scalar multiplication is a vector space over \(\mathbb{F}\).
+- The set of \(m\times n\) matrices over \(\mathbb{F}\) is a vector space over \(\mathbb{F}\).

@@ -9,13 +9,13 @@ legacy_source_path = "measure-theory/jordan-content.md"
 +++
 
 A **Jordan content** of a bounded set $A\subseteq \mathbb R^n$ is the common value $c(A)=c^*(A)=c_*(A)$ (when it exists), where for rectangles $R=\prod_{i=1}^n [a_i,b_i]$ one sets $\operatorname{vol}(R)=\prod_{i=1}^n (b_i-a_i)$, the outer content is
-\[
+$$
 c^*(A)=\inf\left\{\sum_{k=1}^m \operatorname{vol}(R_k)\,:\, A\subseteq \bigcup_{k=1}^m R_k\right\},
-\]
+$$
 and the inner content is
-\[
+$$
 c_*(A)=\sup\left\{\sum_{k=1}^m \operatorname{vol}(R_k)\,:\, \bigcup_{k=1}^m R_k\subseteq A,\ \text{the }R_k\text{ are pairwise disjoint}\right\}.
-\]
+$$
 
 Jordan content is an older notion of “volume” based on finite coverings by axis-aligned products of [[real-analysis/interval|intervals]]. It is closely connected to Riemann integration and is more restrictive than [[measure-theory/lebesgue-measure|Lebesgue measure]], which can assign sizes to far more sets.
 

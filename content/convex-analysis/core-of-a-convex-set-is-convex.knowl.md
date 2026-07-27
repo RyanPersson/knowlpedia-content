@@ -8,8 +8,12 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/core-of-a-convex-set-is-convex.md"
 +++
 
-Let $X$ be a [[linear-algebra/vector-space|vector space]] and let $\Omega\subset X$ be [[convex-analysis/convex-set|convex]], with $\operatorname{core}(\Omega)\neq\emptyset$.
+Let $X$ be a [[linear-algebra/vector-space|vector space]] and let $\Omega\subseteq X$ be [[convex-analysis/convex-set|convex]]. Then its [[convex-analysis/algebraic-interior-core|algebraic interior]]
+$$
+\operatorname{core}(\Omega)
+$$
+is convex. This includes the case in which the core is empty.
 
-**Proposition**: The set [[convex-analysis/algebraic-interior-core|core(Ω)]] is convex.
+## Context
 
-**Context:** This is the algebraic analogue of the fact that the [[convex-analysis/interior-of-a-set|interior]] of a convex set (in a normed space) is convex; compare [[convex-analysis/interior-and-closure-of-a-convex-set-are-convex|interior/closure of convex sets]].
+This is the algebraic analogue of the fact that the [[convex-analysis/interior-of-a-set|interior]] of a convex set in a normed space is convex; compare [[convex-analysis/interior-and-closure-of-a-convex-set-are-convex|convexity of interiors and closures]].

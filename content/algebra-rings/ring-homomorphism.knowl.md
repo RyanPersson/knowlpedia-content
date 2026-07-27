@@ -9,9 +9,9 @@ legacy_source_path = "algebra-rings/ring-homomorphism.md"
 +++
 
 A **ring homomorphism** is a [[shared-foundations/function|function]] $\varphi:R\to S$ between [[algebra-rings/ring|rings]] such that for all $a,b\in R$,
-\[
+$$
 \varphi(a+b)=\varphi(a)+\varphi(b),\qquad \varphi(ab)=\varphi(a)\varphi(b).
-\]
+$$
 If $R,S$ are unital, one often additionally requires $\varphi(1_R)=1_S$ (a *unital* homomorphism).
 
 ## Remarks

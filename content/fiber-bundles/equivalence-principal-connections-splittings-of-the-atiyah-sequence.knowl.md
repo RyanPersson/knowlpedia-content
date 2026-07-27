@@ -8,20 +8,20 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/equivalence-principal-connections-splittings-of-the-atiyah-sequence.md"
 +++
 
-Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure [[fiber-bundles/lie-group|Lie group]] $G$ and Lie algebra $\mathfrak g$.
+Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal $G$-bundle]] with structure [[fiber-bundles/lie-group|Lie group]] $G$ and Lie algebra $\mathfrak g$.
 
 The Atiyah sequence is the short exact sequence of vector bundles over $M$
-\[
+$$
 0\longrightarrow \operatorname{ad}(P)\longrightarrow TP/G \xrightarrow{\,a\,} TM \longrightarrow 0,
-\]
-where $a$ is induced by $d\pi$.
+$$
+where $a$ is induced by $d\pi$. There is a natural bijection between:
 
-## Theorem
+- [[fiber-bundles/principal-connection|principal connections]] on $P$, and
+- vector bundle maps $s:TM\to TP/G$ satisfying $a\circ s=\mathrm{id}_{TM}$.
 
-There is a natural bijection between:
+Thus a principal connection is equivalently a vector-bundle splitting of the Atiyah sequence.
 
-- [[fiber-bundles/principal-connection|principal connections]] on $P$, and  
-- vector bundle maps $s:TM\to TP/G$ such that $a\circ s=\mathrm{id}_{TM}$ (i.e. splittings of the Atiyah sequence).
+## Correspondence
 
 Under this bijection:
 

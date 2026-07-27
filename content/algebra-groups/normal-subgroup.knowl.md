@@ -8,10 +8,10 @@ domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/normal-subgroup.md"
 +++
 
-Let $G$ be a [[algebra-groups/group|group]] and let $H\le G$ be a [[algebra-groups/subgroup|subgroup]]. The subgroup $H$ is **normal** in $G$ (written $H\trianglelefteq G$) if for every $g\in G$,
-$
+Let $G$ be a [[algebra-groups/group|group]] and let $H\le G$ be a [[algebra-groups/subgroup|subgroup]]. The subgroup $H$ is **normal** in $G$, written $H\trianglelefteq G$, if for every $g\in G$,
+$$
 gHg^{-1} = H.
-$
+$$
 
 Normality says that $H$ is stable under the [[algebra-groups/conjugation-action|conjugation action]] of $G$ on itself. Equivalently, $H$ is normal iff every left [[algebra-groups/coset|coset]] of $H$ equals the corresponding right coset, and this is exactly the hypothesis needed to form the [[algebra-groups/quotient-group|quotient group]] $G/H$.
 

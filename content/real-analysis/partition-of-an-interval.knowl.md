@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/partition-of-an-interval.md"
 +++
 
 A **partition of an interval** $[a,b]$ is a finite sequence of real numbers
-\[
+$$
 P=\{x_0,x_1,\dots,x_n\}\quad\text{with}\quad a=x_0<x_1<\cdots<x_n=b.
-\]
+$$
 The associated subintervals are $[x_{i-1},x_i]$ for $i=1,\dots,n$.
 
 ## Remarks

@@ -8,19 +8,19 @@ domains = ["shale-paper"]
 legacy_source_path = "shale-paper/segal-unitary-representation-Ufrak.md"
 +++
 
-For \(T\in rGL(M)\), the unitary operator \(\mathfrak U(T)\) on \(L_2(M,n)\) is
-\[
+For $T\in rGL(M)$, the unitary operator $\mathfrak U(T)$ on $L_2(M,n)$ is
+$$
 (\mathfrak U(T)f)(x)=X(T)^{1/2}\,f(T^*x),
-\]
-where \(X(T)\) is the [[shale-paper/jacobian-xT|Jacobian]].
+$$
+where $X(T)$ is the [[shale-paper/jacobian-xT|Jacobian]].
 
 ## Remarks
 
 **Key properties (paper use):**
 - Implements pullback automorphisms on multiplication operators:
-\(M_{\phi(T)g}=\mathfrak U(T)M_g\mathfrak U(T)^{-1}\).
-- Theorem 3.1: \(T\mapsto \mathfrak U(T)\) is weakly continuous.
+$M_{\phi(T)g}=\mathfrak U(T)M_g\mathfrak U(T)^{-1}$.
+- Theorem 3.1: $T\mapsto \mathfrak U(T)$ is weakly continuous.
 
 ## Examples
 
-- For 1D scaling \(x\mapsto \lambda x\), \(\mathfrak U\) is a Gaussian-weighted dilation.
+- For 1D scaling $x\mapsto \lambda x$, $\mathfrak U$ is a Gaussian-weighted dilation.

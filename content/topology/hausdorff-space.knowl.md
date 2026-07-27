@@ -8,11 +8,11 @@ domains = ["topology"]
 legacy_source_path = "topology/hausdorff-space.md"
 +++
 
-A **Hausdorff space** (or **T2 space**) is a [[topology/topological-space|topological space]] $X$ such that for any distinct points $x\neq y$ there exist [[topology/neighborhood|neighborhoods]] $U$ of $x$ and $V$ of $y$ with $U\cap V=\varnothing$.
+A **Hausdorff space** (or **T2 space**) is a [[topology/topological-space|topological space]] \(X\) such that for any distinct points \(x\neq y\) there exist [[topology/neighborhood|neighborhoods]] \(U\) of \(x\) and \(V\) of \(y\) with \(U\cap V=\varnothing\).
 
 ## Equivalent characterizations
 
-Equivalently, one can require $U$ and $V$ to be disjoint [[topology/open-set|open sets]].
+Equivalently, one can require \(U\) and \(V\) to be disjoint [[topology/open-set|open sets]].
 
 ## Remarks
 

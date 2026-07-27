@@ -12,9 +12,9 @@ Let $G$ be a [[fiber-bundles/lie-group|Lie group]] acting smoothly on a manifold
 
 **Definition (Free action).**
 The action is **free** if for every $p\in M$, the [[lie-groups/stabilizer-lie-group|stabilizer]]
-\[
+$$
 G_p=\{g\in G: g\cdot p=p\}
-\]
+$$
 is trivial, i.e. $G_p=\{e\}$.
 
 ## Equivalent characterizations

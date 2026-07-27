@@ -8,17 +8,22 @@ domains = ["shale-paper"]
 legacy_source_path = "shale-paper/wiener-transform.md"
 +++
 
-The **Wiener transform** \(W\) is a unitary on \(L_2(M,n)\) defined (on polynomials) by
+The **Wiener transform** \(W\) is the unitary operator on the Gaussian space \(L_2(M,n)\) whose action on the polynomial subspace is
 \[
 (Wf)(x)=\int f(\sqrt2\,y+i x)\,dn(y).
 \]
 
-## Remarks
+and whose action on all of \(L_2(M,n)\) is obtained by continuous extension.
 
-**Key property (paper use):**
-- Intertwining (Cor. 3.1.1): \(W\,\mathfrak U(T)\,W^{-1}=\mathfrak U(T^{*-1})\).
-- In §4, this yields \(P(x)=WQ(x)W^{-1}\) for the Fock-Cook field operators.
+## Intertwining properties
 
-## Examples
+For \(T\) in the [[shale-paper/restricted-general-linear-group-rgl|restricted general linear group]], the [[shale-paper/segal-unitary-representation-Ufrak|Segal–Shale representation]] satisfies
+\[
+W\mathfrak U(T)W^{-1}=\mathfrak U(T^{*-1}).
+\]
+For the Fock–Cook field operators used in the paper,
+\[
+P(x)=WQ(x)W^{-1}.
+\]
 
-- In 1D, under an explicit unitary identification, \(W\) becomes the Fourier transform.
+In one dimension, under the standard unitary identification, \(W\) becomes the Fourier transform.

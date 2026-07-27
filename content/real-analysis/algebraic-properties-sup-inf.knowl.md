@@ -8,43 +8,41 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/algebraic-properties-sup-inf.md"
 +++
 
-Let $E,F\subseteq\mathbb{R}$ be nonempty and [[topology/bounded-set|bounded]] above/below where needed, and let $c\in\mathbb{R}$.
+Let \(E,F\subseteq\mathbb R\) be nonempty and bounded above or below as required, and let \(c\in\mathbb R\).
 
-**Order properties**:
-- If $E\subseteq F$ and both are bounded above, then $\sup E\le \sup F$ (see [[real-analysis/supremum|supremum]]).
-- If $E\subseteq F$ and both are bounded below, then $\inf E\ge \inf F$ (see [[real-analysis/infimum|infimum]]).
+## Order and translation
 
-**Translation**:
-- If $E+c=\{x+c:x\in E\}$, then
-  $
-  \sup(E+c)=\sup E + c,\qquad \inf(E+c)=\inf E + c.
-  $
+- If \(E\subseteq F\), then \(\sup E\le\sup F\) when both sets are bounded above, and \(\inf E\ge\inf F\) when both are bounded below.
+- For \(E+c=\{x+c:x\in E\}\),
+  \[
+  \sup(E+c)=\sup E+c,\qquad\inf(E+c)=\inf E+c.
+  \]
 
-**Scaling**:
-- If $\lambda\ge 0$ and $\lambda E=\{\lambda x:x\in E\}$, then
-  $
+## Scaling
+
+For \(\lambda E=\{\lambda x:x\in E\}\):
+
+- If \(\lambda\ge0\), then
+  \[
   \sup(\lambda E)=\lambda\,\sup E,\qquad \inf(\lambda E)=\lambda\,\inf E.
-  $
-- If $\lambda<0$, then
-  $
+  \]
+- If \(\lambda<0\), then
+  \[
   \sup(\lambda E)=\lambda\,\inf E,\qquad \inf(\lambda E)=\lambda\,\sup E.
-  $
+  \]
+
 In particular,
-$
+\[
 \sup(-E)=-\inf E,\qquad \inf(-E)=-\sup E.
-$
+\]
 
-**Finite unions**:
-- If $E$ and $F$ are bounded above, then $E\cup F$ is bounded above and
-  $
+## Finite unions
+
+If \(E\) and \(F\) are bounded above, then
+\[
   \sup(E\cup F)=\max\{\sup E,\sup F\}.
-  $
-Similarly, if bounded below then
-$
+\]
+If they are bounded below, then
+\[
 \inf(E\cup F)=\min\{\inf E,\inf F\}.
-$
-Here [[real-analysis/maximum|max]] and [[real-analysis/minimum|min]] denote the maximum and minimum of a finite set.
-
-## Remarks
-
-These rules are used constantly to manipulate bounds and to compare limiting processes.
+\]

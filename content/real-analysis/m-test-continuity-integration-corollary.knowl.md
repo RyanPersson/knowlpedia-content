@@ -16,9 +16,9 @@ Let $X$ be a set and let $f_n:X\to\mathbb{R}$ (or $\mathbb{C}$). Suppose:
 - The series $\sum f_n$ [[real-analysis/uniform-convergence-of-a-sequence-of-functions|converges uniformly]] on $X$ ([[real-analysis/weierstrass-m-test|Weierstrass M-test]]).
 - Hence its sum $f=\sum f_n$ is continuous ([[real-analysis/uniform-limit-theorem|uniform limit of continuous functions]]).
 - If $X=[a,b]$ and each $f_n$ is [[real-analysis/riemann-integrable-function|Riemann integrable]], then
-  $
+  $$
   \int_a^b \sum_{n=1}^\infty f_n(x)\,dx=\sum_{n=1}^\infty \int_a^b f_n(x)\,dx
-  $
+  $$
   (term-by-term integration).
 
 ## Remarks

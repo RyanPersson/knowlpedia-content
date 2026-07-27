@@ -2,17 +2,19 @@
 id = "algebra-groups/conjugation-preserves-order"
 title = "Conjugation preserves order"
 kind = "knowl"
-summary = "Conjugate elements have the same order in a group"
+summary = "Conjugate elements in a group have the same order."
 aliases = ["conjugation-preserves-order", "Conjugation preserves order"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/conjugation-preserves-order.md"
 +++
 
 **Proposition (Conjugation preserves order).**
-Let $G$ be a [[algebra-groups/group|group]]. For $x\in G$, the **order** of $x$, denoted $\mathrm{ord}(x)$, is the least positive integer $n$ such that $x^n=e$ (if such an $n$ exists), and $\mathrm{ord}(x)=\infty$ otherwise.
-If $x,y\in G$ are [[algebra-groups/conjugate-element|conjugate]], i.e. $y=gxg^{-1}$ for some $g\in G$, then $\mathrm{ord}(y)=\mathrm{ord}(x)$.
+Let $G$ be a [[algebra-groups/group|group]]. If $x,y\in G$ are [[algebra-groups/conjugate-element|conjugate]], so that $y=gxg^{-1}$ for some $g\in G$, then
+$$
+\operatorname{ord}(y)=\operatorname{ord}(x),
+$$
+where an element has order $\infty$ if no positive power of it is the identity.
 
-## Remarks
+## Why this holds
 
-**Context.**
-Many group-theoretic invariants are constant on conjugacy classes. Order is the first basic example and is used, for instance, in the class equation and Sylow theory.
+For every integer $n$, one has $y^n=gx^ng^{-1}$. Hence $y^n=e$ exactly when $x^n=e$, so the two elements have the same finite order or both have infinite order.

@@ -8,7 +8,7 @@ domains = ["topology"]
 legacy_source_path = "topology/complete-metric-space.md"
 +++
 
-A **complete metric space** is a metric space $(X,d)$ in which every [[topology/cauchy-sequence|Cauchy sequence]] converges (as a [[topology/convergent-sequence|convergent sequence]]) to a point of $X$.
+A **complete metric space** is a metric space \((X,d)\) in which every [[topology/cauchy-sequence|Cauchy sequence]] converges (as a [[topology/convergent-sequence|convergent sequence]]) to a point of \(X\).
 
 ## Remarks
 
@@ -16,5 +16,5 @@ Completeness is central in analysis and topology; for example it interacts stron
 
 ## Examples
 
-- $(\mathbb{R}^n,\|\cdot\|_2)$ is complete.
-- $(\mathbb{Q},|\cdot|)$ is not complete.
+- \((\mathbb{R}^n,\|\cdot\|_2)\) is complete.
+- \((\mathbb{Q},|\cdot|)\) is not complete.

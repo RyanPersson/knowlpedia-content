@@ -9,13 +9,13 @@ legacy_source_path = "real-analysis/riemann-integrable-function.md"
 +++
 
 A **Riemann integrable function** on $[a,b]$ is a bounded function $f:[a,b]\to\mathbb R$ such that for every $\varepsilon>0$ there exists a [[real-analysis/partition-of-an-interval|partition]] $P$ with
-\[
+$$
 U(f,P)-L(f,P)<\varepsilon,
-\]
+$$
 where $U(f,P)$ is the [[real-analysis/upper-sum|upper sum]] and $L(f,P)$ is the [[real-analysis/lower-sum|lower sum]]. Equivalently,
-\[
+$$
 \sup_P L(f,P)=\inf_P U(f,P).
-\]
+$$
 
 ## Remarks
 

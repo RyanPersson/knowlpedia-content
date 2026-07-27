@@ -9,9 +9,9 @@ legacy_source_path = "fiber-bundles/hermitian-metric.md"
 +++
 
 Let $\pi:E\to M$ be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] over a smooth manifold $M$. A **Hermitian metric** on $E$ is an assignment, for each $x\in M$, of a Hermitian inner product
-\[
+$$
 h_x:E_x\times E_x\to \mathbb C
-\]
+$$
 such that:
 
 1. $h_x$ is complex linear in the second variable and conjugate-linear in the first variable.

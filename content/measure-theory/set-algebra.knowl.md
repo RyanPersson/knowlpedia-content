@@ -15,5 +15,5 @@ Here $\mathcal P(X)$ is the [[shared-foundations/power-set|power set]] of the [[
 ## Examples
 
 - For any $X$, the full collection $\mathcal P(X)$ is a set algebra.
-- The family of subsets of $\mathbb R$ that are finite unions of half-open [[real-analysis/interval|intervals]] of the form $[a,b)$ is a set algebra.
+- The finite unions of half-open [[real-analysis/interval|intervals]] $[a,b)$, where $a,b\in\mathbb R\cup\{-\infty,+\infty\}$, form a set algebra on $\mathbb R$.
 - On an infinite set $X$, the collection of all finite subsets of $X$ together with all cofinite subsets of $X$ (those whose complement is finite) is a set algebra.

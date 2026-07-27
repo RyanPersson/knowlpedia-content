@@ -8,24 +8,24 @@ domains = ["large-deviations"]
 legacy_source_path = "large-deviations/rate-function.md"
 +++
 
-A **rate function** on a topological space $E$ is a function $I:E\to[0,\infty]$ that is **lower semicontinuous**, meaning that for every $\alpha\in\mathbb R$ the sublevel set
+A **rate function** on a topological space $E$ is a lower semicontinuous function $I:E\to[0,\infty]$ that is not identically $+\infty$. Equivalently, for every $\alpha\in\mathbb R$, its sublevel set
 $$
-\{x\in E:\ I(x)\le \alpha\}
+\{x\in E:I(x)\le \alpha\}
 $$
+is closed in $E$.
 
-is closed in $E$, and such that $I$ is not identically $+\infty$.
+## Interpretation
 
-Rate functions quantify the exponential scale of rare-event probabilities in a [[large-deviations/large-deviation-principle|large deviation principle]]: heuristically, $\mu_n(A)\approx \exp(-a_n \inf_{x\in A} I(x))$ for large $n$ and speed $a_n$. A particularly well-behaved class is given by [[large-deviations/good-rate-function|good rate functions]], whose sublevel sets are compact.
-
-  is a rate function; it forces mass to concentrate on $C$ at the exponential scale.
+In a [[large-deviations/large-deviation-principle|large deviation principle]], $I$ governs exponential decay: values of $I$ closer to zero correspond to less strongly suppressed outcomes. A [[large-deviations/good-rate-function|good rate function]] additionally has compact sublevel sets.
 
 ## Examples
 
-- On $E=\mathbb R$, the function $I(x)=\frac{x^2}{2}$ is a rate function (it is continuous, hence lower semicontinuous).
-- For a closed set $C\subseteq E$, the indicator-type function
+- On $E=\mathbb R$, the function $I(x)=x^2/2$ is a rate function.
+- For a nonempty closed set $C\subseteq E$, the function
   $$
   I(x)=\begin{cases}
-  0,& x\in C,\\
-  +\infty,& x\notin C,
+  0,&x\in C,\\
+  +\infty,&x\notin C
   \end{cases}
   $$
+  is a rate function.

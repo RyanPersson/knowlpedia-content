@@ -17,9 +17,9 @@ A differential form $\omega\in\Omega^k(P)$ is **basic** if it is both:
 
 ## Theorem (descent to the base)
 A form $\omega\in\Omega^k(P)$ is basic if and only if there exists a unique $\eta\in\Omega^k(M)$ such that
-\[
+$$
 \pi^*\eta = \omega.
-\]
+$$
 In particular, the pullback map $\pi^*:\Omega^k(M)\to \Omega^k(P)$ identifies $\Omega^k(M)$ with the subspace of basic forms on $P$, and [[fiber-bundles/exterior-derivative|d]] preserves basic forms.
 
 ## Examples

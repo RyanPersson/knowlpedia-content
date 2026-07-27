@@ -8,7 +8,7 @@ domains = ["discrete-structures"]
 legacy_source_path = "discrete-structures/nearest-neighbor-zd.md"
 +++
 
-On the lattice [[discrete-structures/lattice-zd|lattice-zd]], two sites \(x,y\in\mathbb{Z}^d\) are **nearest neighbors** (written \(x\sim y\)) if they differ by \(1\) in exactly one coordinate and agree in all others.
+On the [[discrete-structures/lattice-zd|integer lattice]] \(\mathbb Z^d\), two sites \(x,y\) are **nearest neighbors**, written \(x\sim y\), if they differ by \(1\) in exactly one coordinate and agree in all others.
 
 Equivalently, using the \(\ell^1\) norm,
 \[

@@ -11,19 +11,18 @@ legacy_source_path = "fiber-bundles/associated-connection-theorem-a-principal-co
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group $G$, and let $\omega$ be a [[fiber-bundles/principal-connection|principal connection]] on $P$ (equivalently a horizontal distribution; see [[fiber-bundles/horizontal-distribution|horizontal distribution]] and [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]]).
 
 Let $F$ be a smooth left $G$-space (see [[fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold|smooth G-action]]) and form the [[fiber-bundles/associated-bundle|associated bundle]]
-\[
+$$
 E := P\times_G F,
-\]
+$$
 as in [[fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f|the standard associated bundle construction]].
 
-## Theorem (Induced connection on an associated bundle)
-The principal connection $\omega$ induces a unique Ehresmann connection on $E\to M$ characterized by either of the following equivalent descriptions:
+**Associated connection theorem.** The principal connection $\omega$ induces a unique Ehresmann connection on $E\to M$, characterized by either of the following equivalent descriptions:
 
 1. (**Horizontal lift description**)
    For each $p\in P$ and $X\in T_{\pi(p)}M$, let $\widetilde X\in T_pP$ be the $\omega$-horizontal lift (see [[fiber-bundles/horizontal-lift-of-a-tangent-vector|horizontal lift of a tangent vector]]). For $[p,f]\in E$, define the horizontal subspace
-   \[
+   $$
    H_{[p,f]}E := (d q)_{(p,f)}\big(H_pP \times \{0\}\big),
-   \]
+   $$
    where $q:P\times F\to P\times_G F$ is the quotient map. This gives a smooth horizontal distribution complementary to the vertical bundle of $E$.
 
 2. (**Parallel transport description**)

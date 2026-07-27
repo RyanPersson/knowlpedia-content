@@ -8,26 +8,24 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/construction-frame-bundle-fr-of-a-vector-bundle-e.md"
 +++
 
-Let $\pi:E\to M$ be a smooth real vector bundle of rank $n$ over a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$.
-
-## Construction (frame bundle)
-
-The **frame bundle** of $E$ is
-\[
+Let $\pi:E\to M$ be a smooth real vector bundle of rank $n$ over a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$. The **frame bundle** of $E$ is
+$$
 \mathrm{Fr}(E):=\bigsqcup_{x\in M}\mathrm{Iso}(\mathbb R^n,E_x),
-\]
-the set of linear isomorphisms $u:\mathbb R^n\to E_x$ for varying $x$. An element of $\mathrm{Fr}(E)$ is called a **frame** (or ordered basis) of the fiber $E_x$.
+$$
+the set of linear isomorphisms $u:\mathbb R^n\to E_x$ over all $x\in M$. Such an isomorphism is a **frame**, or ordered basis, of $E_x$.
+
+## Principal-bundle structure
 
 There is a smooth projection $\mathrm{Fr}(E)\to M$ sending $u$ to its basepoint $x$. The general linear group $\mathrm{GL}(n,\mathbb R)$ acts on the right by
-\[
+$$
 u\cdot A := u\circ A,\qquad A\in \mathrm{GL}(n,\mathbb R),
-\]
-making $\mathrm{Fr}(E)\to M$ into a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with $G=\mathrm{GL}(n,\mathbb R)$.
+$$
+making $\mathrm{Fr}(E)\to M$ into a [[fiber-bundles/principal-g-bundle|principal $G$-bundle]] with $G=\mathrm{GL}(n,\mathbb R)$.
 
 Local trivializations of $E$ give local trivializations of $\mathrm{Fr}(E)$: if $E|_{U}\cong U\times\mathbb R^n$, then
-\[
+$$
 \mathrm{Fr}(E)|_U \cong U\times \mathrm{GL}(n,\mathbb R).
-\]
+$$
 
 ## Examples
 

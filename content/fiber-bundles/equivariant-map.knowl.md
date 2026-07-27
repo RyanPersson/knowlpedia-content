@@ -11,9 +11,9 @@ legacy_source_path = "fiber-bundles/equivariant-map.md"
 Let $G$ act on manifolds $M$ and $N$ (on the left, unless stated otherwise).
 
 A [[fiber-bundles/smooth-map|smooth map]] $f:M\to N$ is **$G$-equivariant** if
-\[
+$$
 f(g\cdot x)=g\cdot f(x)\qquad\text{for all }g\in G,\ x\in M.
-\]
+$$
 If instead $M$ and $N$ carry right actions, equivariance means $f(x\cdot g)=f(x)\cdot g$ for all $g$.
 
 Equivariant maps are precisely morphisms in the category of manifolds with a [[fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold|smooth action]] of $G$. They preserve orbits and stabilizers (up to inclusion): $f(G\cdot x)\subseteq G\cdot f(x)$ and $G_x\subseteq G_{f(x)}$.

@@ -8,13 +8,13 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/monotone-sequence-convergence-theorem.md"
 +++
 
-**Monotone sequence convergence theorem:** Let $(a_n)$ be a [[real-analysis/monotone-sequence|monotone sequence]] of real numbers.
+**Monotone sequence convergence theorem:** Let \((a_n)\) be a [[real-analysis/monotone-sequence|monotone sequence]] of real numbers.
 
-- If $(a_n)$ is increasing and [[real-analysis/bounded-above|bounded above]], then $(a_n)$ converges and
+- If \((a_n)\) is increasing and [[real-analysis/bounded-above|bounded above]], then \((a_n)\) converges and
 \[
 \lim_{n\to\infty} a_n=\sup\{a_n:\ n\in\mathbb{N}\}.
 \]
-- If $(a_n)$ is decreasing and [[real-analysis/bounded-below|bounded below]], then $(a_n)$ converges and
+- If \((a_n)\) is decreasing and [[real-analysis/bounded-below|bounded below]], then \((a_n)\) converges and
 \[
 \lim_{n\to\infty} a_n=\inf\{a_n:\ n\in\mathbb{N}\}.
 \]

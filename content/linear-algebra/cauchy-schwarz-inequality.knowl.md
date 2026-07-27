@@ -8,11 +8,11 @@ domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/cauchy-schwarz-inequality.md"
 +++
 
-**Cauchy–Schwarz inequality:** In an [[linear-algebra/inner-product-space|inner product space]] $(V,\langle\cdot,\cdot\rangle)$, for all $x,y\in V$,
+**Cauchy–Schwarz inequality:** In an [[linear-algebra/inner-product-space|inner product space]] \((V,\langle\cdot,\cdot\rangle)\), for all \(x,y\in V\),
 \[
 |\langle x,y\rangle|\le \|x\|\,\|y\|,
 \]
-where $\|x\|=\sqrt{\langle x,x\rangle}$ is the induced [[linear-algebra/norm|norm]]. Equality holds if and only if $x$ and $y$ are linearly dependent.
+where \(\|x\|=\sqrt{\langle x,x\rangle}\) is the induced [[linear-algebra/norm|norm]]. Equality holds if and only if \(x\) and \(y\) are linearly dependent.
 
 ## Remarks
 

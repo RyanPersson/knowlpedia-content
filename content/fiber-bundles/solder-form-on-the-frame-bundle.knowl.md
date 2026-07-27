@@ -2,7 +2,7 @@
 id = "fiber-bundles/solder-form-on-the-frame-bundle"
 title = "Solder form on the frame bundle"
 kind = "knowl"
-summary = "The canonical R^n-valued 1-form on the frame bundle that identifies horizontal directions with tangent vectors on the base."
+summary = "The canonical R^n-valued 1-form expressing projected tangent vectors in their moving frame."
 aliases = ["solder-form-on-the-frame-bundle", "Solder form on the frame bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/solder-form-on-the-frame-bundle.md"
@@ -10,15 +10,14 @@ legacy_source_path = "fiber-bundles/solder-form-on-the-frame-bundle.md"
 
 Let $M$ be an $n$-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. Its (linear) frame bundle $FM$ is the set of pairs $(x,u)$ where $x\in M$ and $u\colon \mathbb{R}^n\to T_xM$ is a linear isomorphism. The projection $\pi\colon FM\to M$ makes $FM$ a [[fiber-bundles/principal-g-bundle|principal bundle]] with structure group $GL(n,\mathbb{R})$ acting by right composition on frames.
 
-## Definition (Solder form / tautological 1-form)
 The **solder form** on $FM$ is the $\mathbb{R}^n$-valued [[fiber-bundles/differential-k-form|1-form]]
-\[
+$$
 \theta \in \Omega^1(FM;\mathbb{R}^n)
-\]
+$$
 defined by
-\[
+$$
 \theta_u(v) := u^{-1}\bigl(d\pi_u(v)\bigr), \qquad u\in FM,\; v\in T_uFM.
-\]
+$$
 
 Equivalently: $\theta$ “measures” the base component of a tangent vector to $FM$ and expresses it in the moving frame $u$.
 
@@ -26,9 +25,9 @@ The solder form satisfies two fundamental properties:
 
 1. **Semibasic:** $\theta$ vanishes on vertical tangent vectors (those in $\ker(d\pi)$).
 2. **Equivariance:** for $A\in GL(n,\mathbb{R})$ and the right action $R_A\colon FM\to FM$, one has
-   \[
+   $$
    (R_A)^*\theta = A^{-1}\theta.
-   \]
+   $$
 
 A local section $s\colon U\to FM$ (a local frame) pulls back $\theta$ to a coframing on $U$, i.e. an identification $TU\cong U\times \mathbb{R}^n$ compatible with the [[fiber-bundles/tangent-bundle|tangent bundle]].
 

@@ -8,7 +8,7 @@ domains = ["topology"]
 legacy_source_path = "topology/compactness-implies-completeness.md"
 +++
 
-**Compactness implies completeness:** Let $(X,d)$ be a [[topology/metric-space|metric space]] and let $K\subseteq X$ be [[topology/compact-set|compact]] (with the induced metric). Then $K$ is a [[topology/complete-metric-space|complete metric space]]: every [[topology/cauchy-sequence|Cauchy sequence]] in $K$ is a [[topology/convergent-sequence|convergent sequence]] with limit in $K$.
+**Compactness implies completeness.** Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(K\subseteq X\) be [[topology/compact-set|compact]]. Then \(K\), with the induced metric, is [[topology/complete-metric-space|complete]]: every [[topology/cauchy-sequence|Cauchy sequence]] in \(K\) converges to a point of \(K\).
 
 ## Remarks
 

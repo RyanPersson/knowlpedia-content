@@ -10,14 +10,14 @@ legacy_source_path = "algebra-representation-theory/character-orthogonality.md"
 
 Let \(G\) be a finite group. A (complex) [[algebra-representation-theory/character|character]] \(\chi:G\to\mathbb C\) is a [[algebra-groups/class-function|class function]]: it is constant on each [[algebra-groups/conjugacy-class|conjugacy class]].
 
-## Inner product on class functions
+**Inner product on class functions.**
 On the space \(\mathrm{Cl}(G)\) of complex class functions, define
 \[
 \langle f, g\rangle \;=\; \frac{1}{|G|}\sum_{x\in G} f(x)\,\overline{g(x)}.
 \]
 This is a Hermitian inner product (compare [[linear-algebra/inner-product|inner product]] and [[linear-algebra/orthogonality|orthogonality]]).
 
-## Theorem (orthogonality of irreducible characters)
+**Theorem (orthogonality of irreducible characters).**
 Let \(\chi_1,\dots,\chi_r\) be the distinct [[algebra-representation-theory/irreducible-character|irreducible characters]] of \(G\) over \(\mathbb C\). Then:
 
 1. **Row orthogonality (orthonormality):**
@@ -48,7 +48,7 @@ Let \(\chi_1,\dots,\chi_r\) be the distinct [[algebra-representation-theory/irre
 These identities are proved using complete reducibility (via [[algebra-representation-theory/maschkes-theorem|Maschke's theorem]]), the decomposition of tensor products, and [[algebra-representation-theory/schurs-lemma|Schur's lemma]].
 
 ## Examples
-1. **Cyclic group \(C_n\): discrete Fourier orthogonality.**  
+1. **Cyclic group \(C_n\): discrete Fourier orthogonality.**
    Let \(C_n=\langle t\rangle\). Its irreducible characters are \(\chi_j(t^m)=\zeta_n^{jm}\) for \(j=0,\dots,n-1\). Then
    \[
    \langle \chi_j,\chi_\ell\rangle
@@ -57,7 +57,7 @@ These identities are proved using complete reducibility (via [[algebra-represent
    = \delta_{j\ell}.
    \]
 
-2. **\(S_3\): checking row orthogonality from the character table.**  
+2. **\(S_3\): checking row orthogonality from the character table.**
    \(S_3\) has three conjugacy classes: \(()\), transpositions, and 3-cycles. Let \(\chi_{\mathrm{triv}},\chi_{\mathrm{sgn}},\chi_{\mathrm{std}}\) be the irreducible characters (degrees \(1,1,2\)). Using the class sizes \(1,3,2\) and values
    \[
    \chi_{\mathrm{triv}}=(1,1,1),\quad
@@ -76,7 +76,7 @@ These identities are proved using complete reducibility (via [[algebra-represent
    \]
    confirming orthogonality and irreducibility.
 
-3. **Column orthogonality in \(S_3\): centralizer sizes.**  
+3. **Column orthogonality in \(S_3\): centralizer sizes.**
    In \(S_3\), a transposition \(\tau\) has centralizer size \(|C_{S_3}(\tau)|=2\). Column orthogonality predicts
    \[
    |\chi_{\mathrm{triv}}(\tau)|^2 + |\chi_{\mathrm{sgn}}(\tau)|^2 + |\chi_{\mathrm{std}}(\tau)|^2

@@ -10,7 +10,6 @@ legacy_source_path = "lie-groups/maximal-torus-theorem.md"
 
 Let $G$ be a [[lie-groups/compact-lie-group|compact Lie group]] that is also [[lie-groups/connected-lie-group|connected]]. A **torus** means a Lie group isomorphic to $(S^1)^r$; see [[lie-groups/example-torus|the torus example]] and [[lie-groups/connected-abelian-lie-group-structure|the structure of connected abelian Lie groups]].
 
-## Theorem (maximal tori)
 1. (**Existence**) $G$ contains a maximal torus $T\subseteq G$, i.e. a connected, compact, abelian Lie subgroup not properly contained in any larger connected, compact, abelian subgroup.
 
 2. (**Conjugacy**) Any two maximal tori $T_1,T_2\subseteq G$ are conjugate: there exists $g\in G$ such that

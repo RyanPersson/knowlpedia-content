@@ -29,11 +29,11 @@ Coproducts are unique up to unique [[algebra-category-theory/isomorphism-categor
 Coproduct is the dual notion to [[algebra-category-theory/categorical-product|product]]: a coproduct in \(\mathcal C\) is a product in the [[algebra-category-theory/opposite-category|opposite category]] \(\mathcal C^{\mathrm{op}}\). It is a special case of a [[algebra-category-theory/colimit|colimit]].
 
 ## Examples
-1. **\(\mathbf{Set}\)**.  
+1. **\(\mathbf{Set}\)**.
    The coproduct is the disjoint union \(A\sqcup B\), with injections \(A\hookrightarrow A\sqcup B\) and \(B\hookrightarrow A\sqcup B\).
 
-2. **\(\mathbf{Grp}\)**.  
+2. **\(\mathbf{Grp}\)**.
    The coproduct of groups \(G,H\) is the free product \(G\ast H\). A homomorphism \(G\ast H\to X\) is uniquely determined by its restrictions \(G\to X\) and \(H\to X\).
 
-3. **\(\mathbf{Ab}\) and \(R\)-Mod**.  
+3. **\(\mathbf{Ab}\) and \(R\)-Mod**.
    The coproduct is the direct sum \(A\oplus B\). In these additive settings, finite coproducts and finite products coincide (biproducts), a key feature of an [[algebra-category-theory/additive-category|additive category]].

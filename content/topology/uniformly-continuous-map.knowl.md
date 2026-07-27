@@ -9,10 +9,10 @@ legacy_source_path = "topology/uniformly-continuous-map.md"
 +++
 
 A **uniformly continuous map** between metric spaces $(X,d_X)$ and $(Y,d_Y)$ is a map $f\colon X\to Y$ such that for every $\varepsilon>0$ there exists $\delta>0$ with
-\[
+$$
 d_X(x,y)<\delta \implies d_Y\bigl(f(x),f(y)\bigr)<\varepsilon
 \quad\text{for all } x,y\in X.
-\]
+$$
 
 ## Remarks
 

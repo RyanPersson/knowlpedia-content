@@ -7,6 +7,6 @@ aliases = ["locally compact group", "locally compact topological group"]
 domains = ["topology", "algebra-groups"]
 +++
 
-A **locally compact group** is a [[topology/topological-group|topological group]] \(G\) whose underlying space is [[topology/locally-compact-space|locally compact]]. Thus multiplication \(G\times G\to G\) and inversion \(G\to G\) are continuous, and every point has a neighborhood with compact closure.
+A **locally compact group** is a [[topology/topological-group|topological group]] $G$ whose underlying space is [[topology/locally-compact-space|locally compact]]. Thus multiplication $G\times G\to G$ and inversion $G\to G$ are continuous, and every point has a neighborhood with compact closure.
 
-Because left and right translations are [[topology/homeomorphism|homeomorphisms]], it is enough to check local compactness at the identity element. Lie groups, finite groups with the discrete topology, and the additive groups of \(\mathbb R^n\) and of the [[shared-foundations/p-adic-integers|\(p\)-adic integers]] are standard examples.
+Because left and right translations are [[topology/homeomorphism|homeomorphisms]], it is enough to check local compactness at the identity element. Lie groups, finite groups with the discrete topology, and the additive groups of $\mathbb R^n$ and of the [[shared-foundations/p-adic-integers|$p$-adic integers]] are standard examples.

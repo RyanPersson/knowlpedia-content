@@ -8,14 +8,11 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/universal-principal-bundle-egbg.md"
 +++
 
-Let $G$ be a [[fiber-bundles/lie-group|Lie group]]. A **universal principal bundle** for $G$ consists of a free $G$-space $EG$ that is contractible, together with the quotient space
-\[
+Let $G$ be a [[fiber-bundles/lie-group|Lie group]]. A **universal principal $G$-bundle** is a principal $G$-bundle $\pi:EG\to BG$ whose total space $EG$ is contractible and that has the classification property below. Its base is the quotient
+$$
 BG := EG/G,
-\]
-and the quotient map $\pi\colon EG \to BG$.
-
-## Definition (Universal principal G-bundle)
-The map $\pi\colon EG\to BG$ is called a **universal principal $G$-bundle** if:
+$$
+and $\pi$ is the quotient map. More explicitly:
 
 1. The right $G$-action on $EG$ is free and $\pi$ exhibits $EG$ as a [[fiber-bundles/principal-g-bundle|principal G-bundle]] over $BG$.
 2. The total space $EG$ is contractible.

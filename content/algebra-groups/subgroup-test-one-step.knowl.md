@@ -2,14 +2,17 @@
 id = "algebra-groups/subgroup-test-one-step"
 title = "Subgroup Test (one-step)"
 kind = "knowl"
-summary = "A nonempty subset of a group is a subgroup iff it is closed under xy^{-1}"
+summary = "A nonempty subset H of a group is a subgroup exactly when xy⁻¹ belongs to H for all x,y in H."
 aliases = ["subgroup-test-one-step", "Subgroup Test (one-step)"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/subgroup-test-one-step.md"
 +++
 
-**Subgroup Test (one-step)**: Let $G$ be a [[algebra-groups/group|group]] and let $H$ be a nonempty [[shared-foundations/subset|subset]] of $G$. Then $H$ is a [[algebra-groups/subgroup|subgroup]] of $G$ if and only if for all $x,y\in H$ one has $xy^{-1}\in H$.
+**One-step subgroup test.** Let $G$ be a [[algebra-groups/group|group]] and let $H$ be a nonempty [[shared-foundations/subset|subset]] of $G$. Then $H$ is a [[algebra-groups/subgroup|subgroup]] of $G$ if and only if
+$$
+x,y\in H\quad\Longrightarrow\quad xy^{-1}\in H.
+$$
 
 ## Remarks
 
-This is often the fastest criterion to check the subgroup property because it packages "closed under products" and "closed under inverses" into a single closure condition.
+Taking $x=y$ gives the identity, taking $x=e$ gives inverses, and the displayed condition then gives closure under products.

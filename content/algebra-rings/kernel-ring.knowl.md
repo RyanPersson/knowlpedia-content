@@ -9,9 +9,9 @@ legacy_source_path = "algebra-rings/kernel-ring.md"
 +++
 
 The **kernel** of a [[algebra-rings/ring-homomorphism|ring homomorphism]] $\varphi:R\to S$ is
-\[
+$$
 \ker(\varphi)=\{\,r\in R:\varphi(r)=0\,\}=\varphi^{-1}(\{0\}),
-\]
+$$
 i.e. the [[shared-foundations/preimage|preimage]] of the additive identity of $S$.
 
 ## Remarks

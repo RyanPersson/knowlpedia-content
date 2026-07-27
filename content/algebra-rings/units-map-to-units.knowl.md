@@ -9,9 +9,9 @@ legacy_source_path = "algebra-rings/units-map-to-units.md"
 +++
 
 **Units map to units**: Let $\varphi:R\to S$ be a unital ring homomorphism. If $u\in R$ is a unit, then $\varphi(u)\in S$ is a unit and
-\[
+$$
 \varphi(u^{-1})=\varphi(u)^{-1}.
-\]
+$$
 Equivalently, $\varphi$ restricts to a group homomorphism $R^\times\to S^\times$ on unit groups.
 
 ## Remarks

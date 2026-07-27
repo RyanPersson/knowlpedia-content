@@ -8,7 +8,7 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/cardinality.md"
 +++
 
-A **cardinality** is the size of a set, understood up to bijection: two [[shared-foundations/set|sets]] $A$ and $B$ have the same cardinality if there exists a [[shared-foundations/bijective-function|bijective function]] $f:A\to B$. The cardinality of $A$ is often denoted $|A|$.
+A **cardinality** is the size of a set, understood up to bijection: two [[shared-foundations/set|sets]] \(A\) and \(B\) have the same cardinality if there exists a [[shared-foundations/bijective-function|bijective function]] \(f:A\to B\). The cardinality of \(A\) is often denoted \(|A|\).
 
 ## Remarks
 
@@ -16,5 +16,5 @@ Cardinality comparisons can be expressed using [[shared-foundations/injective-fu
 
 ## Examples
 
-- The [[shared-foundations/empty-set|empty set]] has cardinality $|\varnothing|=0$.
-- If $A=\{1,2,3\}$, then $|A|=3$, and the [[shared-foundations/power-set|power set]] $\mathcal{P}(A)$ has $|\mathcal{P}(A)|=8$.
+- The [[shared-foundations/empty-set|empty set]] has cardinality \(|\varnothing|=0\).
+- If \(A=\{1,2,3\}\), then \(|A|=3\), and the [[shared-foundations/power-set|power set]] \(\mathcal{P}(A)\) has \(|\mathcal{P}(A)|=8\).

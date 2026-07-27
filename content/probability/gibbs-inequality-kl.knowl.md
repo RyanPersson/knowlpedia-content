@@ -8,21 +8,21 @@ domains = ["probability"]
 legacy_source_path = "probability/gibbs-inequality-kl.md"
 +++
 
-**Gibbs' inequality:** Let $P$ and $Q$ be [[probability/probability-measure|probability measures]] on a [[shared-foundations/set|set]] $\Omega$ equipped with a [[measure-theory/sigma-algebra|sigma-algebra]] $\mathcal F$, and let $D(P\|Q)$ denote their [[probability/relative-entropy-kl-divergence|Kullback–Leibler divergence]] (allowing the value $+\infty$). Then
-$$
+**Gibbs' inequality:** Let \(P\) and \(Q\) be [[probability/probability-measure|probability measures]] on a [[shared-foundations/set|set]] \(\Omega\) equipped with a [[measure-theory/sigma-algebra|sigma-algebra]] \(\mathcal F\), and let \(D(P\|Q)\) denote their [[probability/relative-entropy-kl-divergence|Kullback–Leibler divergence]] (allowing the value \(+\infty\)). Then
+\[
 D(P\|Q)\ge 0,
-$$
+\]
 
-with equality if and only if $P=Q$ (as measures on $(\Omega,\mathcal F)$).
+with equality if and only if \(P=Q\) (as measures on \((\Omega,\mathcal F)\)).
 
 ## Equivalent characterizations
 
-Equivalently, in the case $P\ll Q$, writing $f=\frac{dP}{dQ}$ for the Radon–Nikodym derivative (see [[probability/radon-nikodym-theorem|Radon–Nikodym theorem]]), one has
-$$
+Equivalently, in the case \(P\ll Q\), writing \(f=\frac{dP}{dQ}\) for the Radon–Nikodym derivative (see [[probability/radon-nikodym-theorem|Radon–Nikodym theorem]]), one has
+\[
 D(P\|Q)=\int_\Omega f\log f\,dQ \ge 0,
-$$
+\]
 
-and equality holds if and only if $f=1$ $Q$-almost everywhere.
+and equality holds if and only if \(f=1\) \(Q\)-almost everywhere.
 
 ## Remarks
 

@@ -9,13 +9,13 @@ legacy_source_path = "algebra-modules/annihilator-module.md"
 +++
 
 Let $M$ be a left $R$-[[algebra-modules/module|module]]. The **annihilator** of $M$ is
-\[
+$$
 \operatorname{ann}_R(M)=\{r\in R: rM=0\}.
-\]
+$$
 It equals the [[shared-foundations/intersection|intersection]] of the elementwise annihilators:
-\[
+$$
 \operatorname{ann}_R(M)=\bigcap_{m\in M}\operatorname{ann}_R(m),
-\]
+$$
 where $\operatorname{ann}_R(m)$ is the [[algebra-modules/annihilator-element|annihilator of an element]]. For a left module, $\operatorname{ann}_R(M)$ is a [[algebra-rings/two-sided-ideal|two-sided ideal]], since it is stable under multiplication on both sides by arbitrary ring elements.
 
 ## Remarks

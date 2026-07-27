@@ -9,9 +9,9 @@ legacy_source_path = "linear-algebra/minimal-polynomial.md"
 +++
 
 A **minimal polynomial** of a [[linear-algebra/linear-operator|linear operator]] $T:V\to V$ on a finite-dimensional [[linear-algebra/vector-space|vector space]] is the unique monic polynomial $m_T(t)\in\mathbb{F}[t]$ of least degree such that
-\[
+$$
 m_T(T)=0,
-\]
+$$
 meaning that substituting $T$ into the polynomial yields the zero operator.
 
 ## Remarks

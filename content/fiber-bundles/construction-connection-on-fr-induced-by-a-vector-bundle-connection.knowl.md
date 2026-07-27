@@ -15,9 +15,9 @@ Let $\pi:E\to M$ be a rank-$n$ smooth vector bundle over a [[fiber-bundles/smoot
 Let $\nabla$ be a [[fiber-bundles/connection-on-a-vector-bundle|connection on the vector bundle]] $E$. Define horizontality in $P$ by parallel transport of frames:
 
 For a point $u\in P_x$ (a frame $u:\mathbb R^n\to E_x$) and a tangent vector $v_x\in T_xM$, choose a smooth curve $\gamma:(-\varepsilon,\varepsilon)\to M$ with $\gamma(0)=x$ and $\dot\gamma(0)=v_x$. Let $\tau_t:E_x\to E_{\gamma(t)}$ denote parallel transport in $E$ induced by $\nabla$ along $\gamma$. Then define a curve of frames
-\[
+$$
 u(t):=\tau_t\circ u \in P_{\gamma(t)}.
-\]
+$$
 The horizontal lift of $v_x$ at $u$ is $\dot u(0)\in T_uP$, and the span of all such vectors defines a horizontal subspace $H_u\subset T_uP$.
 
 The assignment $u\mapsto H_u$ is $\mathrm{GL}(n,\mathbb R)$-equivariant and complementary to the vertical subspace, hence defines a [[fiber-bundles/principal-connection|principal connection]] on $P$.
@@ -25,9 +25,9 @@ The assignment $u\mapsto H_u$ is $\mathrm{GL}(n,\mathbb R)$-equivariant and comp
 ## From a principal connection to a vector bundle connection
 
 Conversely, suppose $P=\mathrm{Fr}(E)$ carries a principal connection. The associated bundle
-\[
+$$
 P\times_{\mathrm{GL}(n,\mathbb R)}\mathbb R^n
-\]
+$$
 is canonically isomorphic to $E$. A principal connection on $P$ induces a covariant derivative on every associated vector bundle, hence in particular a vector bundle connection $\nabla$ on $E$.
 
 These two constructions are inverse to each other: connections on $E$ are in bijection with principal connections on $\mathrm{Fr}(E)$.

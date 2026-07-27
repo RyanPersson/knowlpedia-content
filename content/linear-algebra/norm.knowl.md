@@ -9,9 +9,9 @@ legacy_source_path = "linear-algebra/norm.md"
 +++
 
 A **norm** on a [[linear-algebra/vector-space|vector space]] $V$ over $\mathbb{F}$ is a function $\|\cdot\|:V\to[0,\infty)$ such that for all $u,v\in V$ and $a\in\mathbb{F}$:
-\[
+$$
 \|v\|=0\iff v=0,\qquad \|a v\|=|a|\,\|v\|,\qquad \|u+v\|\le \|u\|+\|v\|.
-\]
+$$
 Here $|a|$ denotes the [[real-analysis/absolute-value|absolute value]] of the scalar $a$ (for $\mathbb{F}=\mathbb{R}$ or $\mathbb{C}$).
 
 ## Remarks

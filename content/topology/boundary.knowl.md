@@ -8,15 +8,15 @@ domains = ["topology"]
 legacy_source_path = "topology/boundary.md"
 +++
 
-Let $(X,d)$ be a [[topology/metric-space|metric space]] and let $A\subseteq X$. The **boundary** of $A$, denoted $\partial A$, is
-$$\partial A := \overline{A}\setminus \operatorname{int}(A).$$
+Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(A\subseteq X\). The **boundary** of \(A\), denoted \(\partial A\), is
+\[\partial A := \overline{A}\setminus \operatorname{int}(A).\]
 
 ## Equivalent characterizations
 
 Equivalently,
-$$\partial A = \overline{A}\cap \overline{X\setminus A}$$
+\[\partial A = \overline{A}\cap \overline{X\setminus A}\]
 
-(see [[topology/closure|closure]] and [[topology/interior|interior]]). Equivalently again, $x\in\partial A$ iff every [[topology/open-ball|open ball]] $B(x,r)$ meets both $A$ and $X\setminus A$.
+(see [[topology/closure|closure]] and [[topology/interior|interior]]). Equivalently again, \(x\in\partial A\) iff every [[topology/open-ball|open ball]] \(B(x,r)\) meets both \(A\) and \(X\setminus A\).
 
 ## Remarks
 
@@ -24,6 +24,6 @@ Boundaries isolate the "edge" of a set and play a key role in topology and analy
 
 ## Examples
 
-- In $\mathbb{R}$, $\partial(0,1)=\{0,1\}$.
-- In $\mathbb{R}^2$, the boundary of the open unit disk $B(0,1)$ is the unit circle $S(0,1)$.
-- If $A=\mathbb{Q}\subseteq\mathbb{R}$, then $\partial A=\mathbb{R}$ (every interval meets both $\mathbb{Q}$ and $\mathbb{R}\setminus\mathbb{Q}$).
+- In \(\mathbb{R}\), \(\partial(0,1)=\{0,1\}\).
+- In \(\mathbb{R}^2\), the boundary of the open unit disk \(B(0,1)\) is the unit circle \(S(0,1)\).
+- If \(A=\mathbb{Q}\subseteq\mathbb{R}\), then \(\partial A=\mathbb{R}\) (every interval meets both \(\mathbb{Q}\) and \(\mathbb{R}\setminus\mathbb{Q}\)).

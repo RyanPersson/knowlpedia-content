@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/upper-sum.md"
 +++
 
 An **upper sum** of a bounded function $f:[a,b]\to\mathbb R$ with respect to a [[real-analysis/partition-of-an-interval|partition]] $P=\{x_0,\dots,x_n\}$ is the number
-\[
+$$
 U(f,P)=\sum_{i=1}^n M_i\,(x_i-x_{i-1}),
-\]
+$$
 where $M_i=\sup\{f(x):x\in[x_{i-1},x_i]\}$ is the [[real-analysis/supremum|supremum]] of $f$ on the $i$th subinterval.
 
 ## Remarks

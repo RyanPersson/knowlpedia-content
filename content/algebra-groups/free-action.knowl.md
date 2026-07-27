@@ -8,9 +8,11 @@ domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/free-action.md"
 +++
 
-A [[algebra-groups/group-action|group action]] of a group $G$ on a set $X$ is **free** if for every $x\in X$, the [[algebra-groups/stabilizer|stabilizer]] $G_x$ is the [[algebra-groups/trivial-subgroup|trivial subgroup]]. Equivalently, the condition
-"$g\cdot x = x$ for some $x$"
-forces $g=e$.
+A [[algebra-groups/group-action|group action]] of a group \(G\) on a set \(X\) is **free** if every [[algebra-groups/stabilizer|stabilizer]] is trivial:
+\[
+G_x=\{e\}\qquad(x\in X).
+\]
+Equivalently, if \(g\cdot x=x\) for some \(x\in X\), then \(g=e\).
 
 ## Remarks
 
@@ -18,6 +20,6 @@ Free actions are one half of the definition of a [[algebra-groups/regular-action
 
 ## Examples
 
-- The left translation action of $G$ on itself is free.
-- The action of $G$ on the coset space $G/H$ by left multiplication is free iff $H=\{e\}$.
-- The action of $C_n$ on the vertices of a regular $n$-gon by rotation is free when restricted to the vertex set (no nontrivial rotation fixes a vertex).
+- The left translation action of \(G\) on itself is free.
+- The action of \(G\) on the coset space \(G/H\) by left multiplication is free iff \(H=\{e\}\).
+- The action of \(C_n\) on the vertices of a regular \(n\)-gon by rotation is free when restricted to the vertex set (no nontrivial rotation fixes a vertex).

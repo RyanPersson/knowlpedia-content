@@ -2,28 +2,24 @@
 id = "fiber-bundles/characteristic-class"
 title = "Characteristic class"
 kind = "knowl"
-summary = "A de Rham cohomology class of a principal bundle defined from curvature via the Chern–Weil construction."
+summary = "A connection-independent de Rham cohomology class obtained from an invariant polynomial in curvature."
 aliases = ["characteristic-class", "Characteristic class"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/characteristic-class.md"
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] over a smooth manifold \(M\). Fix an Ad-invariant polynomial \(P\) on the Lie algebra \(\mathfrak{g}\) of \(G\).
+Let \(\pi:Q\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] over a smooth manifold \(M\), and let \(\Phi\) be an \(\operatorname{Ad}\)-invariant homogeneous polynomial of degree \(k\) on the Lie algebra \(\mathfrak g\) of \(G\). For any principal connection \(\omega\) on \(Q\), the associated Chern–Weil form is closed and its de Rham class is independent of \(\omega\). The **characteristic class associated with \(\Phi\)** is
 
-Choose any principal connection on \(P\), form its Chern–Weil form \(\mathrm{CW}_P(\omega)\in \Omega^{2k}(M)\) as in [[fiber-bundles/chernweil-form|the Chern–Weil form construction]], and take its de Rham class:
 \[
-c_P(P) \;\coloneqq\; [\,\mathrm{CW}_P(\omega)\,]\in H^{2k}_{\mathrm{dR}}(M).
+c_\Phi(Q):=[\mathrm{CW}_\Phi(\omega)]\in H^{2k}_{\mathrm{dR}}(M).
 \]
-
-This cohomology class is called the **characteristic class** associated to the invariant polynomial \(P\) (and the bundle \(P\)).
 
 ## Remarks
 
-It is well-defined because:
-- \(\mathrm{CW}_P(\omega)\) is closed, and
-- the cohomology class \([\,\mathrm{CW}_P(\omega)\,]\) is independent of the choice of connection \(\omega\).
-
-Characteristic classes are natural under pullback of bundles: if \(f:N\to M\) is smooth and \(f^*P\to N\) is the pulled-back bundle, then the characteristic class of \(f^*P\) is \(f^*c_P(P)\).
+The construction is natural under pullback: if \(f:N\to M\) is smooth, then
+\[
+c_\Phi(f^*Q)=f^*c_\Phi(Q).
+\]
 
 ## Examples
 1. **First Chern class of a circle bundle.** For a principal \(U(1)\)-bundle, the de Rham class of the curvature form (with conventional normalization) gives the first Chern class \(c_1\in H^2_{\mathrm{dR}}(M)\).

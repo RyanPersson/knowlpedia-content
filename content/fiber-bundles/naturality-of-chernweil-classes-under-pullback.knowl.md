@@ -13,17 +13,17 @@ Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] wi
 Fix an Ad-invariant homogeneous polynomial $P$ on $\mathfrak g$ of degree $k$.
 
 **Theorem (Naturality).** The Chern–Weil forms satisfy
-\[
+$$
 f^*\big(\operatorname{cw}_P(\omega)\big)=\operatorname{cw}_P(f^*\omega),
-\]
+$$
 and hence the cohomology classes satisfy
-\[
+$$
 f^*\big([\operatorname{cw}_P(\omega)]\big)=[\operatorname{cw}_P(f^*\omega)]\in H^{2k}_{\mathrm{dR}}(N).
-\]
+$$
 Equivalently, on total spaces,
-\[
+$$
 (f^*\pi)^*\operatorname{cw}_P(f^*\omega)=P(f^*\Omega)=f^*(P(\Omega))=f^*\big(\pi^*\operatorname{cw}_P(\omega)\big),
-\]
+$$
 using the defining property of [[fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection|Chern–Weil forms]].
 
 ## Examples

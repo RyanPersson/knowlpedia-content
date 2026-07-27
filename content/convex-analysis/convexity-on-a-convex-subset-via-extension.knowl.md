@@ -2,32 +2,28 @@
 id = "convex-analysis/convexity-on-a-convex-subset-via-extension"
 title = "Convexity on a convex subset via extension"
 kind = "knowl"
-summary = "Define convexity on Ω by extending f to X with value ∞ outside Ω"
+summary = "A function on a convex set is convex exactly when its extension by positive infinity is convex."
 aliases = ["convexity-on-a-convex-subset-via-extension", "Convexity on a convex subset via extension"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/convexity-on-a-convex-subset-via-extension.md"
 +++
 
-Let $X$ be a vector space, let $\Omega\subset X$ be a nonempty [[convex-analysis/convex-set|convex set]], and let $f:\Omega\to\mathbb{R}$ be a real-valued function.
+Let \(X\) be a real vector space, let \(\Omega\subseteq X\) be a nonempty [[convex-analysis/convex-set|convex set]], and let \(f:\Omega\to\mathbb R\).
 
-Define the **extension** $\tilde f:X\to\mathbb{R}$ by
-$$
-\tilde f(x)=
+Define the extension \(\widetilde f:X\to(-\infty,+\infty]\) by
+\[
+\widetilde f(x)=
 \begin{cases}
 f(x), & x\in\Omega,\\
-\infty, & x\notin\Omega.
++\infty, & x\notin\Omega.
 \end{cases}
-$$
+\]
 
-We say that $f$ is **convex on $\Omega$** if $\tilde f$ is a [[convex-analysis/convex-function-via-epigraph|convex function]] on $X$.
-
-Equivalently: for all $x,y\in\Omega$ and $\lambda\in(0,1)$,
-$$
+The function \(f\) is **convex on \(\Omega\)** if \(\widetilde f\) is a [[convex-analysis/convex-function-via-epigraph|convex function]] on \(X\). Equivalently, for all \(x,y\in\Omega\) and \(\lambda\in[0,1]\),
+\[
 f(\lambda x+(1-\lambda)y)\le \lambda f(x)+(1-\lambda)f(y).
-$$
+\]
 
-**Context.** This convention packages "convexity + domain restriction" into a single extended-real function, aligning convexity on subsets with epigraph-based convexity.
+## Interpretation
 
-## Examples
-
-- If $\Omega$ is the unit ball in a normed space and $f(x)=\|x\|$ on $\Omega$, then $\tilde f$ encodes the constraint $x\in\Omega$ by assigning $\infty$ outside.
+Extending by \(+\infty\) packages the domain constraint into an extended-real function without changing the convexity inequality on \(\Omega\).

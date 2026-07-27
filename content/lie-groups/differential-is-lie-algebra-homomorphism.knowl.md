@@ -11,20 +11,20 @@ legacy_source_path = "lie-groups/differential-is-lie-algebra-homomorphism.md"
 Let $\Phi:G\to H$ be a [[lie-groups/lie-group-homomorphism|Lie group homomorphism]] between [[fiber-bundles/lie-group|Lie groups]], and let $\mathfrak g=\mathrm{Lie}(G)$ and $\mathfrak h=\mathrm{Lie}(H)$ (see [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of a Lie group]]).
 
 The differential at the identity,
-\[
+$$
 d\Phi_e:\mathfrak g \longrightarrow \mathfrak h,
-\]
+$$
 is a [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]]; i.e.
-\[
+$$
 d\Phi_e([X,Y]) = [\,d\Phi_e(X),\, d\Phi_e(Y)\,]
 \qquad\text{for all }X,Y\in\mathfrak g.
-\]
+$$
 
 Moreover, $\Phi$ intertwines exponential maps:
-\[
+$$
 \Phi(\exp_G X) \;=\; \exp_H\!\bigl(d\Phi_e(X)\bigr)
 \quad\text{for all }X\in\mathfrak g,
-\]
+$$
 where $\exp_G$ and $\exp_H$ are the [[lie-groups/exponential-map-lie-group|exponential maps]] of $G$ and $H$.
 
 ## Idea of proof

@@ -8,19 +8,14 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/existence-of-partitions-of-unity-on-paracompact-manifolds.md"
 +++
 
-Partitions of unity are the main technical tool that lets local constructions on charts be assembled into global geometric objects.
+Let $M$ be a paracompact [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\{U_i\}_{i\in I}$ be an open cover of $M$. Then there is a family of smooth functions $\{\rho_i:M\to[0,1]\}_{i\in I}$ such that:
 
-## Theorem (Smooth partitions of unity)
-Let $M$ be a paracompact [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\{U_i\}_{i\in I}$ be an open cover of $M$. Then there exists a family of smooth functions $\{\rho_i\}_{i\in I}$ on $M$ such that:
+1. the supports $\operatorname{supp}(\rho_i)$ form a locally finite family;
+2. $\operatorname{supp}(\rho_i)\subseteq U_i$ for every $i$; and
+3. $\sum_{i\in I}\rho_i(x)=1$ for every $x\in M$.
 
-1. $0\le \rho_i\le 1$ for all $i$,
-2. the family is locally finite (every point has a neighborhood where all but finitely many $\rho_i$ vanish),
-3. $\mathrm{supp}(\rho_i)\subset U_i$ for all $i$ (subordinate to the cover), and
-4. $\sum_{i\in I}\rho_i = 1$ everywhere on $M$.
+Such a family is a smooth partition of unity subordinate to the cover.
 
-In particular, any collection of local data defined over the $U_i$ that is affine or convex (e.g. local connection 1-forms, local metrics, local differential forms) can be glued into a global object by weighting with the $\rho_i$ and summing.
+## Use
 
-## Examples
-1. **Bump functions on Euclidean space.** On $\mathbb{R}^n$, for a cover by balls one can choose smooth bump functions supported in slightly smaller balls and normalize their sum to obtain a partition of unity.
-2. **Gluing differential forms.** If $\alpha_i$ are local differential forms on $U_i$ agreeing on overlaps, then $\sum_i \rho_i \alpha_i$ defines a global form; smoothness follows from local finiteness.
-3. **Building global connections.** Local connection 1-forms on a trivializing cover can be combined using a partition of unity to produce a global [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] (or a principal connection after ensuring the correct transformation behavior).
+Local finiteness makes weighted sums locally finite, allowing compatible local constructions to be assembled globally. This is a standard tool for constructing metrics and [[fiber-bundles/connection-on-a-vector-bundle|connections on vector bundles]].

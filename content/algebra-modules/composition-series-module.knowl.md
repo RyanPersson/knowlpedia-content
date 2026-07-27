@@ -9,9 +9,9 @@ legacy_source_path = "algebra-modules/composition-series-module.md"
 +++
 
 A **composition series** of an $R$-[[algebra-modules/module|module]] $M$ is a finite chain of [[algebra-modules/submodule|submodules]]
-\[
+$$
 0=M_0 \subset M_1 \subset \cdots \subset M_n = M
-\]
+$$
 such that each factor $M_i/M_{i-1}$ is a [[algebra-modules/simple-module|simple module]] (a simple quotient in the sense of [[algebra-modules/quotient-module|quotient modules]]). The integer $n$ is the length of the series and, when a composition series exists, is an invariant of $M$ (Jordan–Hölder), recorded as the module [[algebra-modules/length-module|length]].
 
 Composition series exist exactly for modules of finite length and provide a canonical way to “factor” modules into simple pieces.

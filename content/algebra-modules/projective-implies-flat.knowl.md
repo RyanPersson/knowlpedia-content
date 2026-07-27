@@ -8,14 +8,16 @@ domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/projective-implies-flat.md"
 +++
 
-**Projective implies flat**: Let $P$ be a projective right $R$-module. Then $P$ is flat: for every short exact sequence of left $R$-modules
+Let \(P\) be a [[algebra-modules/projective-module|projective]] right \(R\)-module. Then \(P\) is [[algebra-modules/flat-module|flat]]: for every short exact sequence of left \(R\)-modules
 \[
 0\to A\to B\to C\to 0,
 \]
 the induced sequence
 \[
-0\to A\otimes_R P\to B\otimes_R P\to C\otimes_R P\to 0
+0\to P\otimes_R A\to P\otimes_R B\to P\otimes_R C\to 0
 \]
 is exact.
 
-A standard proof uses that [[algebra-modules/projective-module|projective modules]] are direct summands of [[algebra-modules/free-module|free modules]], and that [[algebra-modules/tensor-product|tensoring]] preserves exactness for free modules and respects direct summands, yielding [[algebra-modules/flat-module|flatness]].
+## Proof idea
+
+Projective modules are direct summands of [[algebra-modules/free-module|free modules]]. The functor \(P\otimes_R-\) is therefore a direct summand of a direct sum of identity functors, so it preserves injections; as every tensor functor is right exact, it is exact.

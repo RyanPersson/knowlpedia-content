@@ -9,9 +9,9 @@ legacy_source_path = "linear-algebra/linear-map.md"
 +++
 
 A **linear map** is a [[shared-foundations/function|function]] $T:V\to W$ between [[linear-algebra/vector-space|vector spaces]] over the same field $\mathbb{F}$ such that for all $u,v\in V$ and $a\in\mathbb{F}$,
-\[
+$$
 T(u+v)=T(u)+T(v),\qquad T(a\cdot v)=a\cdot T(v).
-\]
+$$
 
 ## Remarks
 

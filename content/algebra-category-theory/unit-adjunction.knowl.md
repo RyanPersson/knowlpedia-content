@@ -10,7 +10,6 @@ legacy_source_path = "algebra-category-theory/unit-adjunction.md"
 
 Let \(F:\mathcal C\to\mathcal D\) and \(G:\mathcal D\to\mathcal C\) be [[algebra-category-theory/functor|functors]] with an [[algebra-category-theory/adjoint-functors|adjunction]] \(F\dashv G\).
 
-## Definition (Unit)
 The **unit** of the adjunction is a [[algebra-category-theory/natural-transformation|natural transformation]]
 \[
 \eta:\mathrm{Id}_{\mathcal C}\Rightarrow G F
@@ -33,8 +32,10 @@ Equivalently, \(\eta\) is the transpose of \(\mathrm{id}_F\) under the natural i
 The unit \(\eta\) and the [[algebra-category-theory/counit-adjunction|counit]] \(\varepsilon\) satisfy the triangle identities (see [[algebra-category-theory/adjoint-functors|adjoint functors]]):
 \[
 \varepsilon_{F c}\circ F(\eta_c)=\mathrm{id}_{F c}
-\quad\text{for all }c\in\mathcal C.
+\quad\text{and}\quad
+G(\varepsilon_d)\circ\eta_{Gd}=\mathrm{id}_{Gd}
 \]
+for all \(c\in\mathcal C\) and \(d\in\mathcal D\).
 
 ## Examples
 1. **Free/forgetful (Set–Grp).** For \(F:\mathbf{Set}\to\mathbf{Grp}\) free group and \(U:\mathbf{Grp}\to\mathbf{Set}\) forgetful with \(F\dashv U\), the unit at a set \(X\) is the function

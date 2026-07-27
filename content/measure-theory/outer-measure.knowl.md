@@ -9,9 +9,9 @@ legacy_source_path = "measure-theory/outer-measure.md"
 +++
 
 An **outer measure** on a set $X$ is a function $\mu^*:\mathcal P(X)\to[0,\infty]$ such that $\mu^*(\varnothing)=0$, $\mu^*(A)\le \mu^*(B)$ whenever $A\subseteq B$, and for every sequence $(A_n)_{n\ge 1}$,
-\[
+$$
 \mu^*\!\left(\bigcup_{n=1}^\infty A_n\right)\le \sum_{n=1}^\infty \mu^*(A_n).
-\]
+$$
 
 Outer measures live on the full [[shared-foundations/power-set|power set]] and are used to define [[measure-theory/caratheodory-measurable-set|Carathéodory measurable sets]]. The [[measure-theory/caratheodory-construction|Carathéodory construction]] turns an outer measure into a genuine [[measure-theory/measure|measure]] on a sigma-algebra.
 

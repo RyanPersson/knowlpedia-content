@@ -8,8 +8,11 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/differentiability-1d.md"
 +++
 
-A **differentiable function (one variable)** is a [[shared-foundations/function|function]] $f:I\to\mathbb{R}$ that has a [[real-analysis/derivative|derivative]] at a point $a\in I$ (meaning $f'(a)$ exists), and it is differentiable on $I$ if it is differentiable at every point of $I$.
-
+A [[shared-foundations/function|function]] $f:I\to\mathbb R$ is **differentiable at** $a\in I$ if the finite limit
+$$
+f'(a)=\lim_{\substack{x\to a\\x\in I,\ x\ne a}}\frac{f(x)-f(a)}{x-a}
+$$
+exists. It is **differentiable on $I$** if it is differentiable at every point of $I$, with one-sided limits used at endpoints of an interval.
 
 ## Examples
 

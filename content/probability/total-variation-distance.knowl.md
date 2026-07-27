@@ -8,20 +8,21 @@ domains = ["probability"]
 legacy_source_path = "probability/total-variation-distance.md"
 +++
 
-A **total variation distance** is the quantity
-$$
+A **total variation distance** between probability measures \(P\) and \(Q\) on the same measurable space \((\Omega,\mathcal F)\) is
+\[
 d_{\mathrm{TV}}(P,Q)\;=\;\sup_{A\in\mathcal F}\,\bigl|P(A)-Q(A)\bigr|
-$$
+\]
+where the supremum ranges over [[measure-theory/measurable-set|measurable sets]] \(A\).
 
-for two [[probability/probability-measure|probability measures]] $P,Q$ on the same $(\Omega,\mathcal F)$, where the supremum ranges over all [[measure-theory/measurable-set|measurable sets]] $A$ (events). It measures the worst-case discrepancy in [[probability/event-probability|event probabilities]] between $P$ and $Q$.
-
-If $P$ and $Q$ are both absolutely continuous with respect to a common measure $\mu$ and have densities $p=\frac{dP}{d\mu}$ and $q=\frac{dQ}{d\mu}$ (via the Radon–Nikodym derivative from [[probability/radon-nikodym-theorem|Radon–Nikodym theorem]]), then
-$$
+If \(P,Q\ll\mu\) with densities \(p=dP/d\mu\) and \(q=dQ/d\mu\), then
+\[
 d_{\mathrm{TV}}(P,Q)=\frac12\int_\Omega |p-q|\,d\mu.
-$$
-Total variation is a strong notion of closeness of [[probability/distribution-law|laws]], and it can be controlled by [[probability/relative-entropy-kl-divergence|KL divergence]] through [[probability/pinsker-inequality|Pinsker's inequality]].
+\]
 
 ## Examples
 
-- If $P=\mathrm{Bernoulli}(p)$ and $Q=\mathrm{Bernoulli}(q)$ on $\{0,1\}$, then $d_{\mathrm{TV}}(P,Q)=|p-q|$.
-- If $P$ and $Q$ have probability mass functions $(p_i)$ and $(q_i)$ on a finite set, then $d_{\mathrm{TV}}(P,Q)=\frac12\sum_i |p_i-q_i|$.
+- For Bernoulli laws with parameters \(p\) and \(q\), \(d_{\mathrm{TV}}(P,Q)=|p-q|\).
+- For probability mass functions \((p_i)\) and \((q_i)\) on a finite set,
+  \[
+  d_{\mathrm{TV}}(P,Q)=\frac12\sum_i|p_i-q_i|.
+  \]

@@ -8,15 +8,15 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/fundamental-theorem-of-calculus-i.md"
 +++
 
-**Fundamental theorem of calculus I:** Let $a<b$ and let $f:[a,b]\to\mathbb{R}$ be a [[real-analysis/riemann-integrable-function|Riemann integrable function]]. Define
-$$
+**Fundamental theorem of calculus I:** Let \(a<b\) and let \(f:[a,b]\to\mathbb{R}\) be a [[real-analysis/riemann-integrable-function|Riemann integrable function]]. Define
+\[
 F(x)=\int_a^x f(t)\,dt \quad (x\in[a,b]).
-$$
+\]
 
-Then $F$ is continuous on $[a,b]$. Moreover, if $f$ is continuous at a point $c\in(a,b)$, then $F$ is [[real-analysis/differentiability-1d|differentiable]] at $c$ and
-$$
+Then \(F\) is continuous on \([a,b]\). Moreover, if \(f\) is continuous at a point \(c\in(a,b)\), then \(F\) is [[real-analysis/differentiability-1d|differentiable]] at \(c\) and
+\[
 F'(c)=f(c).
-$$
+\]
 
 ## Remarks
 

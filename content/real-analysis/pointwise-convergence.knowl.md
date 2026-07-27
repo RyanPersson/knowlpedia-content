@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/pointwise-convergence.md"
 +++
 
 **Pointwise convergence** of a sequence of functions $(f_n)$ to a function $f$ on a set $X$ means: for every $x\in X$, the real sequence $(f_n(x))$ converges to $f(x)$, i.e.
-\[
+$$
 \forall x\in X,\quad \lim_{n\to\infty} f_n(x)=f(x).
-\]
+$$
 
 This is a basic mode of convergence for sequences of [[shared-foundations/function|functions]], and it is weaker than [[real-analysis/uniform-convergence|uniform convergence]] (where one $N$ works simultaneously for all $x$). For each fixed $x$, pointwise convergence is just ordinary [[topology/convergent-sequence|convergence of a sequence]] in the codomain.
 

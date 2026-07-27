@@ -8,11 +8,8 @@ domains = ["topology"]
 legacy_source_path = "topology/sequentially-compact-set.md"
 +++
 
-A **sequentially compact set** is a subset $K\subseteq X$ of a [[topology/topological-space|topological space]] $X$ such that every sequence $(x_n)$ in $K$ has a [[real-analysis/subsequence|subsequence]] $(x_{n_k})$ that is a [[topology/convergent-sequence|convergent sequence]] in $X$ with limit $x\in K$.
+A subset $K$ of a [[topology/topological-space|topological space]] $X$ is **sequentially compact** if every sequence $(x_n)$ in $K$ has a [[real-analysis/subsequence|subsequence]] $(x_{n_k})$ that [[topology/convergent-sequence|converges]] in $X$ to a point of $K$.
 
-Sequential compactness is phrased purely in terms of sequences, and in many important settings (notably [[topology/metric-space|metric spaces]]) it closely tracks [[topology/compact-set|compactness]].
+## Relation to compactness
 
-## Examples
-
-- In $\mathbb{R}$ with the usual topology, $[0,1]$ is sequentially compact.
-- An infinite set with the discrete topology is not sequentially compact (a sequence of distinct points has no convergent subsequence).
+In [[topology/metric-space|metric spaces]], sequential compactness is equivalent to [[topology/compact-set|compactness]]. In general topological spaces, neither property implies the other without additional hypotheses.

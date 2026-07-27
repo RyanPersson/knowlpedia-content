@@ -2,7 +2,7 @@
 id = "shared-foundations/restriction-of-a-function"
 title = "Restriction of a function"
 kind = "knowl"
-summary = "A function obtained by limiting the domain to a subset"
+summary = "A function obtained by limiting another function's domain to a subset."
 aliases = ["restriction-of-a-function", "Restriction of a function"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/restriction-of-a-function.md"

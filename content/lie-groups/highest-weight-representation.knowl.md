@@ -9,9 +9,9 @@ legacy_source_path = "lie-groups/highest-weight-representation.md"
 +++
 
 Let $\mathfrak g$ be a complex semisimple [[lie-groups/lie-algebra|Lie algebra]] with a fixed [[lie-groups/cartan-subalgebra|Cartan subalgebra]] $\mathfrak h$ and choice of positive roots, giving a triangular decomposition
-\[
+$$
 \mathfrak g=\mathfrak n^-\oplus \mathfrak h\oplus \mathfrak n^+,
-\]
+$$
 as in the [[lie-groups/root-space-decomposition|root space decomposition]] setup.
 
 **Definition (Highest-weight representation).**

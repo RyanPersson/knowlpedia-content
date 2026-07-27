@@ -8,13 +8,13 @@ domains = ["topology"]
 legacy_source_path = "topology/continuous-attains-max-min-compact.md"
 +++
 
-**Continuous attains max/min on compact set:** Let $K$ be a [[topology/compact-set|compact set]] and let $f:K\to\mathbb{R}$ be a [[topology/continuous-map|continuous map]]. Then there exist points $x_{\min},x_{\max}\in K$ such that
-$f(x_{\min})\le f(x)\le f(x_{\max})$ for all $x\in K$.
+**Extreme-value theorem.** Let \(K\) be a nonempty [[topology/compact-set|compact set]] and let \(f:K\to\mathbb R\) be [[topology/continuous-map|continuous]]. Then there exist \(x_{\min},x_{\max}\in K\) such that
+\(f(x_{\min})\le f(x)\le f(x_{\max})\) for all \(x\in K\).
 
 ## Equivalent characterizations
 
-Equivalently, the subset $f(K)\subseteq\mathbb{R}$ has both a [[real-analysis/minimum|minimum]] and a [[real-analysis/maximum|maximum]].
+Equivalently, the subset \(f(K)\subseteq\mathbb{R}\) has both a [[real-analysis/minimum|minimum]] and a [[real-analysis/maximum|maximum]].
 
 ## Remarks
 
-This can be seen by combining [[topology/continuous-image-of-compact-set-is-compact|compactness of continuous images]] with basic order properties of compact subsets of $\mathbb{R}$.
+This can be seen by combining [[topology/continuous-image-of-compact-set-is-compact|compactness of continuous images]] with basic order properties of compact subsets of \(\mathbb{R}\).

@@ -8,21 +8,21 @@ domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/zariski-topology.md"
 +++
 
-Let $R$ be a [[algebra-rings/commutative-ring|commutative ring]], and consider its [[algebra-commutative/prime-spectrum|prime spectrum \operatorname{Spec}(R)]].
+Let $R$ be a [[algebra-rings/commutative-ring|commutative ring]], and consider its [[algebra-commutative/prime-spectrum|prime spectrum $\operatorname{Spec}(R)$]].
 
 For an ideal $I\subseteq R$, define
-\[
+$$
 V(I) := \{\mathfrak p \in \operatorname{Spec}(R)\mid I\subseteq \mathfrak p\}.
-\]
+$$
 The **Zariski topology** on $\operatorname{Spec}(R)$ is the topology for which the sets $V(I)$ are precisely the closed subsets, i.e. a subset $Z\subseteq \operatorname{Spec}(R)$ is closed if and only if $Z=V(I)$ for some ideal $I$.
 
 ## Equivalent characterizations
 
 Equivalently, the sets
-\[
+$$
 D(f):=\operatorname{Spec}(R)\setminus V((f))=\{\mathfrak p\in\operatorname{Spec}(R)\mid f\notin\mathfrak p\}
 \quad (f\in R)
-\]
+$$
 form a basis of open sets. These basic opens interact tightly with [[algebra-commutative/localization-ring|localization]]: the correspondence of prime ideals under localization yields a natural homeomorphism between $D(f)$ and the spectrum of the localized ring $R_f$ (compare [[algebra-commutative/localization-prime-correspondence|the prime correspondence for localization]] and [[algebra-commutative/localization-inverts-multiplicative-set|the fact that localization inverts a multiplicative set]]).
 
 ## Remarks

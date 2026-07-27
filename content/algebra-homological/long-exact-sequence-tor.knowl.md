@@ -8,11 +8,7 @@ domains = ["algebra-homological"]
 legacy_source_path = "algebra-homological/long-exact-sequence-tor.md"
 +++
 
-Let \(R\) be a ring. Recall that [[algebra-homological/tor|Tor]] is the left-derived functor of the tensor product ([[algebra-homological/tensor-right-exact|right exactness of tensor]]), constructed using a [[algebra-homological/projective-resolution|projective resolution]] (see also [[algebra-homological/derived-functor|derived functor]]).
-
-## Theorem (long exact sequence in Tor)
-
-Let
+Let \(R\) be a ring, let
 \[
 0 \longrightarrow A' \xrightarrow{u} A \xrightarrow{v} A'' \longrightarrow 0
 \]
@@ -37,7 +33,7 @@ This is a special case of the general [[algebra-homological/long-exact-sequence-
 
 ## Examples
 
-1. **Computing \(\operatorname{Tor}_1^{\mathbb Z}(\mathbb Z/n,\mathbb Z/m)\).**  
+1. **Computing \(\operatorname{Tor}_1^{\mathbb Z}(\mathbb Z/n,\mathbb Z/m)\).**
    Use the short exact sequence
    \[
    0\to \mathbb Z \xrightarrow{\cdot n}\mathbb Z \to \mathbb Z/n \to 0.
@@ -52,19 +48,19 @@ This is a special case of the general [[algebra-homological/long-exact-sequence-
    \]
    (Also \(\operatorname{Tor}_i^{\mathbb Z}(\mathbb Z/n,-)=0\) for \(i\ge 2\) because \(\mathbb Z/n\) has a length-1 projective resolution.)
 
-2. **Over a field, higher Tor vanishes.**  
+2. **Over a field, higher Tor vanishes.**
    If \(R=k\) is a field and \(V,W\) are \(k\)-vector spaces, then \(V\) is free (hence projective), so \(\operatorname{Tor}_i^k(V,W)=0\) for all \(i\ge 1\). The long exact sequence above reduces to exactness of
    \[
    0\to V'\otimes_k W \to V\otimes_k W \to V''\otimes_k W \to 0,
    \]
    reflecting that \(-\otimes_k W\) is exact.
 
-3. **Dual numbers: \(\operatorname{Tor}_1^{k[\varepsilon]/(\varepsilon^2)}(k,k)\cong k\).**  
-   Let \(R=k[\varepsilon]/(\varepsilon^2)\) and \(k=R/(\varepsilon)\). The sequence
+3. **Dual numbers.** Let \(R=k[\varepsilon]/(\varepsilon^2)\) and regard \(k=R/(\varepsilon)\) as an \(R\)-module. The periodic free resolution
    \[
-   0\to R\xrightarrow{\cdot \varepsilon}R\to k\to 0
+   \cdots\xrightarrow{\cdot\varepsilon}R\xrightarrow{\cdot\varepsilon}R
+   \xrightarrow{\cdot\varepsilon}R\longrightarrow k\longrightarrow0
    \]
-   is a projective resolution of \(k\) of length \(1\). Tensoring with \(k\) makes \(\cdot\varepsilon\) become \(0\) (since \(\varepsilon\) acts as \(0\) on \(k\)), so
+   becomes a complex with zero differentials after tensoring with \(k\). Hence
    \[
-   \operatorname{Tor}_1^R(k,k)\cong \ker(0:k\to k)\cong k.
+   \operatorname{Tor}_i^R(k,k)\cong k\qquad(i\ge1).
    \]

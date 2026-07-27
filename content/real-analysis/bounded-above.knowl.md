@@ -8,13 +8,13 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/bounded-above.md"
 +++
 
-A **bounded above** set is a [[shared-foundations/subset|subset]] $A\subseteq\mathbb R$ for which there exists $M\in\mathbb R$ such that $x\le M$ for every $x\in A$; such an $M$ is called an upper bound of $A$.
+A **bounded above** set is a [[shared-foundations/subset|subset]] \(A\subseteq\mathbb R\) for which there exists \(M\in\mathbb R\) such that \(x\le M\) for every \(x\in A\); such an \(M\) is called an upper bound of \(A\).
 
 
 ## Examples
 
-- $A=(0,1)$ is bounded above (for example, by $M=1$).
-- $A=\mathbb R$ is not bounded above.
+- \(A=(0,1)\) is bounded above (for example, by \(M=1\)).
+- \(A=\mathbb R\) is not bounded above.
 
 ## Remarks
 

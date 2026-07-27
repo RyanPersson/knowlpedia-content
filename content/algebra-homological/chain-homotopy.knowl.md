@@ -19,7 +19,7 @@ f_n - g_n \;=\; d^D_{n+1}\circ s_n \;+\; s_{n-1}\circ d^C_n.
 \]
 One writes \(f\simeq g\) if such an \(s\) exists.
 
-### Key consequence
+## Consequence
 If \(f\simeq g\), then the induced maps on homology agree:
 \[
 H_n(f)=H_n(g)\quad\text{for all }n,
@@ -27,6 +27,7 @@ H_n(f)=H_n(g)\quad\text{for all }n,
 where [[algebra-homological/homology-module|homology module]] is used.
 
 ## Remarks
+
 - Special case: a **contracting homotopy** \( \mathrm{id}\simeq 0\) shows a complex is “contractible,” hence [[algebra-homological/exact-complex|exact]].
 - Chain homotopy is the basic equivalence relation behind chain-homotopy categories; compare [[algebra-homological/chain-map|chain map]].
 

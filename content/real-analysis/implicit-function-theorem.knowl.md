@@ -8,10 +8,11 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/implicit-function-theorem.md"
 +++
 
-**Implicit function theorem:** Let $U\subseteq\mathbb R^{n+m}$ be an [[topology/open-set|open set]] and let $F:U\to\mathbb R^m$ be continuously differentiable. Write points as $(x,y)$ with $x\in\mathbb R^n$ and $y\in\mathbb R^m$. Suppose $(a,b)\in U$ satisfies $F(a,b)=0$ and the [[real-analysis/jacobian-matrix|Jacobian matrix]] of $F$ with respect to $y$ at $(a,b)$, denoted $D_yF(a,b)$, is invertible (equivalently, its determinant is nonzero). Then there exist neighborhoods $A$ of $a$ and $B$ of $b$ and a unique continuously differentiable map $g:A\to B$ such that $g(a)=b$ and
+**Implicit function theorem.** Let $U\subseteq\mathbb R^{n+m}$ be [[topology/open-set|open]], and let $F:U\to\mathbb R^m$ be continuously differentiable. Write points as $(x,y)$, where $x\in\mathbb R^n$ and $y\in\mathbb R^m$. Suppose $(a,b)\in U$, $F(a,b)=0$, and the [[real-analysis/jacobian-matrix|partial derivative]] $D_yF(a,b)$ is invertible. Then there are neighborhoods $A$ of $a$ and $B$ of $b$, with $A\times B\subseteq U$, and a unique continuously differentiable map $g:A\to B$ such that $g(a)=b$ and
 $$
-F(x,g(x))=0 \quad \text{for all } x\in A.
+F(x,y)=0\quad\Longleftrightarrow\quad y=g(x)
 $$
+for all $(x,y)\in A\times B$.
 
 Moreover, for each $x\in A$,
 $$

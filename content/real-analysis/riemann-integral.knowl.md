@@ -9,13 +9,13 @@ legacy_source_path = "real-analysis/riemann-integral.md"
 +++
 
 A **Riemann integral** of a [[real-analysis/riemann-integrable-function|Riemann integrable function]] $f:[a,b]\to\mathbb R$ is the number
-\[
+$$
 \int_a^b f(x)\,dx
-\]
+$$
 defined by
-\[
+$$
 \int_a^b f(x)\,dx=\sup_P L(f,P)=\inf_P U(f,P),
-\]
+$$
 where $L(f,P)$ and $U(f,P)$ are the [[real-analysis/lower-sum|lower]] and [[real-analysis/upper-sum|upper sums]] over all partitions $P$ of $[a,b]$.
 
 ## Remarks

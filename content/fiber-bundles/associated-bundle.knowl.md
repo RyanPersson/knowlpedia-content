@@ -11,17 +11,17 @@ legacy_source_path = "fiber-bundles/associated-bundle.md"
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with right action $p\cdot g$, and let $F$ be a smooth manifold equipped with a smooth left action of the [[fiber-bundles/lie-group|Lie group]] $G$.
 
 The **associated bundle** with fiber $F$ is the quotient
-\[
+$$
 P\times_G F := (P\times F)/\sim,
-\]
+$$
 where the equivalence relation is
-\[
+$$
 (p\cdot g,\, f)\sim (p,\, g\cdot f)\qquad (p\in P,\; f\in F,\; g\in G).
-\]
+$$
 Write $[p,f]$ for the equivalence class of $(p,f)$. The projection map
-\[
+$$
 \pi_F:P\times_G F \to M,\qquad \pi_F([p,f])=\pi(p)
-\]
+$$
 is well-defined, and $P\times_G F$ is a smooth fiber bundle over $M$ with typical fiber $F$.
 
 Concretely, $P\times_G F$ is a [[fiber-bundles/bundle-of-orbits|bundle of orbits]]: it is obtained from the product $P\times F$ by dividing out the diagonal $G$-action determined by the right action on $P$ and the left action on $F$. When $F$ is a vector space with a linear action, this specializes to an [[fiber-bundles/associated-vector-bundle|associated vector bundle]].

@@ -2,7 +2,7 @@
 id = "real-analysis/bounded-sequence"
 title = "Bounded sequence"
 kind = "knowl"
-summary = "A sequence whose terms all lie within some fixed distance from the origin."
+summary = "A sequence whose range is a bounded subset of its metric space."
 aliases = ["bounded-sequence", "Bounded sequence"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/bounded-sequence.md"
@@ -14,9 +14,9 @@ A sequence \((x_n)\) in a [[topology/metric-space|metric space]] \((X, d)\) is *
 A real sequence \((x_n)\) is bounded if there exists \(M > 0\) such that \(|x_n| \leq M\) for all \(n\).
 
 Equivalently, \((x_n)\) is bounded if it is both bounded above and bounded below:
-$$
+\[
 \inf_n x_n > -\infty \quad \text{and} \quad \sup_n x_n < \infty.
-$$
+\]
 
 ## Key results
 - Every [[topology/convergent-sequence|convergent sequence]] is bounded (but not conversely).

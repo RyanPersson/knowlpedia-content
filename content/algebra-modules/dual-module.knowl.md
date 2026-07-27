@@ -8,11 +8,11 @@ domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/dual-module.md"
 +++
 
-A **dual module** of an \(R\)-module \(M\) (for a commutative ring \(R\)) is
+Let \(R\) be a commutative ring and \(M\) an \(R\)-module. The **dual module** of \(M\) is
 \[
 M^\vee := \mathrm{Hom}_R(M,R),
 \]
-viewed as an \(R\)-module via the standard structure on the [[algebra-modules/hom-module|Hom module]] when \(R\) is a [[algebra-rings/commutative-ring|commutative ring]].
+with scalar multiplication \((r\varphi)(m)=r\varphi(m)\).
 
 Duality is contravariant and interacts tightly with tensors via the [[algebra-modules/tensor-hom-adjunction|tensor–Hom adjunction]]; it packages bilinear pairings \(M\times N\to R\) as linear maps \(M\to N^\vee\). For [[algebra-modules/free-module|free modules]] of finite rank, duality is well-behaved and compatible with the notion of a [[algebra-modules/basis-module|basis]], producing a dual basis.
 

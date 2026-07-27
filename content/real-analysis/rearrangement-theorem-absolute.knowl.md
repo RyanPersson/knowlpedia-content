@@ -8,7 +8,7 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/rearrangement-theorem-absolute.md"
 +++
 
-**Rearrangement theorem (absolute convergence):** Let $\sum_{n=1}^\infty a_n$ be an [[real-analysis/absolutely-convergent-series|absolutely convergent series]] of real or complex numbers, and let $\pi:\mathbb{N}\to\mathbb{N}$ be a bijection. Then the rearranged series
+**Rearrangement theorem (absolute convergence):** Let \(\sum_{n=1}^\infty a_n\) be an [[real-analysis/absolutely-convergent-series|absolutely convergent series]] of real or complex numbers, and let \(\pi:\mathbb{N}\to\mathbb{N}\) be a bijection. Then the rearranged series
 \[
 \sum_{n=1}^\infty a_{\pi(n)}
 \]

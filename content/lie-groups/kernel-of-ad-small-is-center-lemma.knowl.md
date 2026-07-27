@@ -8,7 +8,7 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/kernel-of-ad-small-is-center-lemma.md"
 +++
 
-Let $\mathfrak g$ be a [[lie-groups/lie-algebra|Lie algebra]]. The [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint representation]] is the linear map
+Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]]. Its [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint representation]] is
 \[
 \mathrm{ad}:\mathfrak g\to \mathfrak{gl}(\mathfrak g),\qquad \mathrm{ad}_x(y)=[x,y].
 \]
@@ -17,12 +17,10 @@ Let $\mathfrak g$ be a [[lie-groups/lie-algebra|Lie algebra]]. The [[lie-groups/
 \[
 \ker(\mathrm{ad}) \;=\; Z(\mathfrak g),
 \]
-where $Z(\mathfrak g)$ is the [[lie-groups/center-of-a-lie-algebra|center of the Lie algebra]].
+where \(Z(\mathfrak g)\) is the [[lie-groups/center-of-a-lie-algebra|center]] of \(\mathfrak g\).
 
 ## Remarks
 
-**Proof.**
-By definition, $x\in\ker(\mathrm{ad})$ iff $\mathrm{ad}_x(y)=0$ for all $y\in\mathfrak g$, i.e. $[x,y]=0$ for all $y$. This is exactly the defining condition for $x\in Z(\mathfrak g)$.
+**Proof.** By definition, \(x\in\ker(\operatorname{ad})\) if and only if \([x,y]=0\) for every \(y\in\mathfrak g\), which is precisely the condition \(x\in Z(\mathfrak g)\).
 
-**Context.**
-This identifies the failure of $\mathrm{ad}$ to be injective with central directions and clarifies the meaning of [[lie-groups/inner-derivation|inner derivations]]: $\mathrm{ad}_x$ depends only on the class of $x$ modulo the center. At the group level, a related statement is [[lie-groups/kernel-of-ad-is-center-lemma|ker(Ad) equals the group center (connected case)]].
+Thus \(\operatorname{ad}_x\) depends only on the class of \(x\) modulo the center.

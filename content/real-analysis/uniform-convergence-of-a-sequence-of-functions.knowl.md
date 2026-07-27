@@ -8,17 +8,17 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/uniform-convergence-of-a-sequence-of-functions.md"
 +++
 
-Let $X$ be a [[shared-foundations/set|set]] and let $(Y,d_Y)$ be a [[topology/metric-space|metric space]]. A sequence of functions $f_n:X\to Y$ **converges uniformly** to $f:X\to Y$ if
-$$\forall \varepsilon>0,\ \exists N\in\mathbb{N}\ \text{such that}\ \forall n\ge N,\ \forall x\in X,\ d_Y\bigl(f_n(x),f(x)\bigr)<\varepsilon.$$
+Let \(X\) be a [[shared-foundations/set|set]] and let \((Y,d_Y)\) be a [[topology/metric-space|metric space]]. A sequence of functions \(f_n:X\to Y\) **converges uniformly** to \(f:X\to Y\) if
+\[\forall \varepsilon>0,\ \exists N\in\mathbb{N}\ \text{such that}\ \forall n\ge N,\ \forall x\in X,\ d_Y\bigl(f_n(x),f(x)\bigr)<\varepsilon.\]
 Equivalently,
-$$\sup_{x\in X} d_Y\bigl(f_n(x),f(x)\bigr)\xrightarrow[n\to\infty]{}0,$$
+\[\sup_{x\in X} d_Y\bigl(f_n(x),f(x)\bigr)\xrightarrow[n\to\infty]{}0,\]
 
-where the [[real-analysis/supremum|supremum]] is taken in $[0,\infty]$.
+where the [[real-analysis/supremum|supremum]] is taken in \([0,\infty]\).
 
 Uniform convergence is strong enough to pass many properties to the limit (e.g., [[real-analysis/continuity-on-a-set|continuity]], under standard hypotheses). Compare with [[real-analysis/pointwise-convergence|pointwise convergence]]. It is a central tool in analysis and approximation theory.
 
 ## Examples
 
-- $f_n(x)=\frac{1}{n}\sin x$ converges uniformly to $0$ on $\mathbb{R}$.
-- On $[0,1]$, $f_n(x)=x^n$ converges pointwise to $f$ (as above) but not uniformly (since $\sup_{x\in[0,1]}|x^n-f(x)|=1$ for all $n$).
-- If $f_n$ are continuous on a compact set and converge uniformly, then the limit is continuous (uniform limit theorem).
+- \(f_n(x)=\frac{1}{n}\sin x\) converges uniformly to \(0\) on \(\mathbb{R}\).
+- On \([0,1]\), \(f_n(x)=x^n\) converges pointwise to \(f\) (as above) but not uniformly (since \(\sup_{x\in[0,1]}|x^n-f(x)|=1\) for all \(n\)).
+- If \(f_n\) are continuous on a compact set and converge uniformly, then the limit is continuous (uniform limit theorem).

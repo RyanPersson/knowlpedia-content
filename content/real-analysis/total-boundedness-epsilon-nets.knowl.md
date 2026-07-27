@@ -11,9 +11,9 @@ legacy_source_path = "real-analysis/total-boundedness-epsilon-nets.md"
 Let $(X,d)$ be a [[topology/metric-space|metric space]] and let $E\subseteq X$.
 
 An **$\varepsilon$-net** for $E$ is a finite set $\{x_1,\dots,x_N\}\subseteq X$ such that
-$
+$$
 E\subseteq \bigcup_{j=1}^N B(x_j,\varepsilon),
-$
+$$
 where $B(x,\varepsilon)$ denotes the [[topology/open-ball|open ball]] of radius $\varepsilon$ centered at $x$.
 
 **Proposition**: The following are equivalent:

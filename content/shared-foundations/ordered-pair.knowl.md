@@ -8,14 +8,14 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/ordered-pair.md"
 +++
 
-An **ordered pair** is a two-component object $(a,b)$ whose equality is componentwise:
-$$
+An **ordered pair** is a two-component object \((a,b)\) whose equality is componentwise:
+\[
 (a,b)=(c,d)\iff a=c \text{ and } b=d.
-$$
+\]
 In set theory one standard implementation is the **Kuratowski ordered pair**:
-$$
+\[
 (a,b):=\bigl\{\{a\},\{a,b\}\bigr\}.
-$$
+\]
 
 ## Remarks
 
@@ -23,5 +23,5 @@ Ordered pairs are used to form the [[shared-foundations/cartesian-product|Cartes
 
 ## Examples
 
-- $(1,2)\neq(2,1)$ because the first coordinates differ.
-- If $a=b$, then $(a,a)$ is still a well-defined ordered pair (with both coordinates equal).
+- \((1,2)\neq(2,1)\) because the first coordinates differ.
+- If \(a=b\), then \((a,a)\) is still a well-defined ordered pair (with both coordinates equal).

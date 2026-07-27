@@ -8,11 +8,8 @@ domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/kernel-categorical.md"
 +++
 
-Kernels are a categorical version of “solutions of \(f(x)=0\)”, defined using universal properties.
-
 Throughout, assume \(\mathcal C\) is a [[algebra-category-theory/category|category]] with a zero object (e.g. any [[algebra-category-theory/additive-category|additive category]]), so that for any objects \(A,B\) there is a distinguished **zero morphism** \(0_{A,B}:A\to B\).
 
-## Definition (Kernel)
 Given a morphism \(f:A\to B\) in \(\mathcal C\), a **kernel** of \(f\) is a morphism
 \[
 k:K\to A
@@ -23,6 +20,8 @@ such that:
    \[
    k\circ u = t.
    \]
+
+It is the categorical version of the solution set of \(f(x)=0\), expressed by a universal property rather than by elements.
 
 ## Equivalent characterizations
 

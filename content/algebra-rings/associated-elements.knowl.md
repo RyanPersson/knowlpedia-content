@@ -8,7 +8,7 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/associated-elements.md"
 +++
 
-Let $R$ be an [[algebra-rings/integral-domain|integral domain]]. Elements $a,b\in R$ are **associates** if there exists a [[algebra-rings/unit|unit]] $u\in R^\times$ such that $a=ub$.
+Let \(R\) be an [[algebra-rings/integral-domain|integral domain]]. Elements \(a,b\in R\) are **associates** if there exists a [[algebra-rings/unit|unit]] \(u\in R^\times\) such that \(a=ub\).
 
 ## Remarks
 
@@ -16,6 +16,6 @@ Being associates is an equivalence relation capturing “the same divisor up to 
 
 ## Examples
 
-- In $\mathbb{Z}$, $2$ and $-2$ are associates (multiply by the unit $-1$).
-- In $k[x]$ with $k$ a field, $f$ and $cf$ are associates for any nonzero scalar $c\in k$.
-- In $\mathbb{Z}$, $2$ and $4$ are not associates since the only units are $\pm 1$.
+- In \(\mathbb{Z}\), \(2\) and \(-2\) are associates (multiply by the unit \(-1\)).
+- In \(k[x]\) with \(k\) a field, \(f\) and \(cf\) are associates for any nonzero scalar \(c\in k\).
+- In \(\mathbb{Z}\), \(2\) and \(4\) are not associates since the only units are \(\pm 1\).

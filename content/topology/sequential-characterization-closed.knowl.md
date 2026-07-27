@@ -8,6 +8,6 @@ domains = ["topology"]
 legacy_source_path = "topology/sequential-characterization-closed.md"
 +++
 
-**Sequential characterization of closed sets:** Let $(X,d)$ be a [[topology/metric-space|metric space]] and let $A\subseteq X$. Then $A$ is [[topology/closed-set|closed]] if and only if for every [[topology/convergent-sequence|convergent sequence]] $(a_n)$ in $A$ with $a_n\to x$ in $X$, one has $x\in A$.
+**Sequential characterization of closed sets:** Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(A\subseteq X\). Then \(A\) is [[topology/closed-set|closed]] if and only if for every [[topology/convergent-sequence|convergent sequence]] \((a_n)\) in \(A\) with \(a_n\to x\) in \(X\), one has \(x\in A\).
 
 This is the standard “sequentially closed equals closed” principle for metric spaces, and it pairs naturally with [[topology/sequential-characterization-closure|the sequential characterization of closure]].

@@ -2,27 +2,32 @@
 id = "measure-theory/uniform-integrability"
 title = "Uniform integrability"
 kind = "knowl"
-summary = "A condition preventing L1 functions from concentrating too much mass on large values or small sets."
+summary = "A uniform L1 bound together with uniformly vanishing large-value tails."
 aliases = ["uniform-integrability", "Uniform integrability"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/uniform-integrability.md"
 +++
 
-A **uniformly integrable** family is a collection of integrable functions whose mass cannot escape to arbitrarily large values on sets of small measure. Let $(X,\mathcal{A},\mu)$ be a [[measure-theory/measure-space|measure space]] and let $\mathcal{F}\subset L^1(X)$ (see [[measure-theory/l1-function|L1 function]]). The family $\mathcal{F}$ is **uniformly integrable** if
+A family $\mathcal F\subset L^1(X,\mu)$ on a [[measure-theory/measure-space|measure space]] $(X,\mathcal A,\mu)$ is **uniformly integrable** if
 $$
+\sup_{f\in\mathcal F}\|f\|_1<\infty
+\qquad\text{and}\qquad
 \lim_{M\to\infty}\ \sup_{f\in\mathcal{F}} \int_{\{|f|>M\}} |f|\,d\mu = 0.
 $$
 
-A [[shared-foundations/sequence|sequence]] $(f_n)$ is uniformly integrable if the set $\{f_n:\ n\ge 1\}$ is uniformly integrable.
+When $\mu(X)<\infty$, the tail condition alone implies the uniform $L^1$ bound.
 
-Uniform integrability is used to justify passing limits through the [[measure-theory/lebesgue-integral|Lebesgue integral]] when one only has weaker convergence, such as [[measure-theory/convergence-in-measure|convergence in measure]]; it rules out “spikes” that carry significant integral while living on very small sets.
+A [[shared-foundations/sequence|sequence]] $(f_n)$ is uniformly integrable if the family $\{f_n:n\ge 1\}$ is uniformly integrable.
 
-  so the supremum of the tail integrals does not go to $0$ as $M\to\infty$.
+## Interpretation
+
+The condition rules out increasingly tall tails that retain substantial $L^1$-mass. Together with suitable convergence hypotheses, it permits passage to limits in the [[measure-theory/lebesgue-integral|Lebesgue integral]].
 
 ## Examples
 
-- If $(f_n)$ satisfies $|f_n|\le g$ almost everywhere for some $g\in L^1(X)$, then $\{f_n\}$ is uniformly integrable; the integrable envelope $g$ forces the tail integrals over $\{|f_n|>M\}$ to be small uniformly in $n$.
-- On $([0,1],\mathcal{B},\lambda)$, the functions $f_n = n\,\mathbf{1}_{[0,1/n]}$ are not uniformly integrable: for any $M>0$ choose $n>M$, then
+- If $|f|\le g$ almost everywhere for every $f\in\mathcal F$, where $g\in L^1(X,\mu)$, then $\mathcal F$ is uniformly integrable.
+- On $([0,1],\mathcal B,\lambda)$, the functions $f_n=n\mathbf 1_{[0,1/n]}$ are not uniformly integrable: for any $M>0$, choose $n>M$. Then
   $$
   \int_{\{|f_n|>M\}} |f_n|\,d\lambda = \int_0^{1/n} n\,dx = 1,
   $$
+  so the supremum of the tail integrals does not tend to $0$.

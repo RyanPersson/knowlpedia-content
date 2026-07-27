@@ -8,6 +8,8 @@ domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/jordan-canonical-form-theorem.md"
 +++
 
-**Jordan canonical form theorem**: Let \(T\) be a linear operator on a finite-dimensional vector space \(V\) over an algebraically closed field \(k\) (more generally, assume the characteristic polynomial splits over \(k\)). Then there exists a basis of \(V\) in which the matrix of \(T\) is block diagonal with blocks of the form \(J_{m}(\lambda)\), where \(\lambda\) ranges over the [[linear-algebra/eigenvalue|eigenvalues]] of \(T\). Each Jordan block corresponds to a chain of generalized [[linear-algebra/eigenvector|eigenvectors]], and the multiset of block sizes for each \(\lambda\) is uniquely determined by \(T\) up to permutation.
+Let $T$ be a linear operator on a finite-dimensional vector space $V$ over a field $k$. If the characteristic polynomial of $T$ splits over $k$, then $V$ has a basis in which the matrix of $T$ is block diagonal with Jordan blocks $J_m(\lambda)$. The eigenvalues $\lambda$ and, for each $\lambda$, the multiset of block sizes are uniquely determined by $T$, up to permuting the blocks.
 
-In this form, \(T\) is [[algebra-modules/diagonalizable|diagonalizable]] exactly when all Jordan blocks have size \(1\). The sizes of Jordan blocks are governed by the primary decomposition of the \(k[x]\)-module associated to \(T\), and can be derived from the [[linear-algebra/minimal-polynomial|minimal polynomial]]; one route is through the [[algebra-modules/rational-canonical-form-theorem|rational canonical form theorem]]
+## Consequences
+
+Each block corresponds to a chain of generalized [[linear-algebra/eigenvector|eigenvectors]]. The operator $T$ is [[algebra-modules/diagonalizable|diagonalizable]] exactly when every block has size $1$, and the largest block size for $\lambda$ is the exponent of $x-\lambda$ in the [[linear-algebra/minimal-polynomial|minimal polynomial]].

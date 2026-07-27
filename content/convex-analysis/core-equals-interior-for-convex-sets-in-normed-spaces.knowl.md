@@ -8,15 +8,11 @@ domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/core-equals-interior-for-convex-sets-in-normed-spaces.md"
 +++
 
-Let $X$ be a [[convex-analysis/norm-normed-vector-space|normed vector space]] and let $\Omega\subset X$ be [[convex-analysis/convex-set|convex]] with [[convex-analysis/interior-of-a-set|int(Ω)]]$\neq\emptyset$.
-
-**Theorem**:
+Let $X$ be a [[convex-analysis/norm-normed-vector-space|normed vector space]] and let $\Omega\subseteq X$ be [[convex-analysis/convex-set|convex]] with nonempty [[convex-analysis/interior-of-a-set|interior]]. Then its [[convex-analysis/algebraic-interior-core|algebraic interior]] equals its topological interior:
 $$
 \operatorname{core}(\Omega)=\operatorname{int}(\Omega).
 $$
 
-**Context:**
-The equality identifies the purely algebraic notion [[convex-analysis/algebraic-interior-core|core(Ω)]] with the usual topological interior once the set is convex and has nonempty interior. The proof in the notes uses the geometric lemma [[convex-analysis/segments-from-interior-points-stay-in-the-interior|segments from interior points stay in the interior]].
+## Proof idea
 
-**Proof sketch (idea):**
-The inclusion $\operatorname{int}(\Omega)\subset \operatorname{core}(\Omega)$ is direct. For the reverse direction, translate so that $0\in\operatorname{int}(\Omega)$ and use convexity plus the segment lemma to show any core point must lie in the interior.
+The inclusion $\operatorname{int}(\Omega)\subseteq\operatorname{core}(\Omega)$ is direct. For the reverse inclusion, translate so that $0\in\operatorname{int}(\Omega)$ and use convexity together with [[convex-analysis/segments-from-interior-points-stay-in-the-interior|the interior-segment lemma]].

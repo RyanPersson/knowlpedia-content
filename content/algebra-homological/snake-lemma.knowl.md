@@ -44,7 +44,7 @@ A standard diagram chase shows this is well-defined (independent of choices) and
 
 ## Examples
 
-1. **Induced map on quotients: the “kernel–cokernel” exact sequence.**  
+1. **Induced map on quotients: the “kernel–cokernel” exact sequence.**
    Let \(g:M\to M'\) be an \(R\)-linear map, and let \(N\subseteq M\), \(N'\subseteq M'\) satisfy \(g(N)\subseteq N'\). Consider the commutative diagram with exact rows:
    \[
    \begin{array}{ccccccccc}
@@ -60,7 +60,7 @@ A standard diagram chase shows this is well-defined (independent of choices) and
    \]
    which cleanly measures how kernels/cokernels change when passing to quotients.
 
-2. **Boundary map in homology from a short exact sequence of complexes.**  
+2. **Boundary map in homology from a short exact sequence of complexes.**
    Given a degreewise short exact sequence of [[algebra-homological/chain-complex|chain complexes]]
    \[
    0\to C'_\bullet \to C_\bullet \to C''_\bullet \to 0,
@@ -71,7 +71,7 @@ A standard diagram chase shows this is well-defined (independent of choices) and
    \]
    yielding the usual long exact sequence in [[algebra-homological/homology-module|homology]]. (This is the chain-complex analogue of [[algebra-homological/long-exact-sequence-derived|long exact sequences from derived functors]].)
 
-3. **Computing a boundary map concretely (multiplication on a quotient).**  
+3. **Computing a boundary map concretely (multiplication on a quotient).**
    Fix integers \(m,n\) and consider the diagram
    \[
    \begin{array}{ccccccccc}

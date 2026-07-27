@@ -7,8 +7,6 @@ aliases = ["fiber product of schemes", "scheme fiber product", "pullback of sche
 domains = ["algebraic-geometry-foundations"]
 +++
 
-In the Galois example, \(\operatorname{Spec}K\times_{\operatorname{Spec}F}\operatorname{Spec}K\) records two copies of \(\operatorname{Spec}K\) constrained to lie over the same base. It is the scheme-theoretic version of “pairs in one fiber.”
-
 Given morphisms of [[algebraic-geometry-foundations/scheme|schemes]] \(X\to S\leftarrow Y\), their **fiber product** is a scheme \(X\times_S Y\) with projections to \(X\) and \(Y\) whose composites to \(S\) agree, and which is universal with that property: for every scheme \(T\),
 
 \[
@@ -27,4 +25,6 @@ On [[algebraic-geometry-foundations/affine-scheme|affine schemes]] the construct
 
 where \(A\otimes_R B\) is the [[algebra-modules/tensor-product|tensor product]]. This affine calculation is why \(K\otimes_F K\) appears in the Galois torsor identity.
 
-**Warning.** The underlying topological space of \(X\times_S Y\) is not, in general, the naive point-set fiber product. Scheme points carry residue-field data, so several scheme points can lie over what looks like one compatible pair of topological points.
+## Remarks
+
+The underlying topological space of \(X\times_S Y\) is not, in general, the naive point-set fiber product. Scheme points carry residue-field data, so several scheme points can lie over one compatible pair of topological points.

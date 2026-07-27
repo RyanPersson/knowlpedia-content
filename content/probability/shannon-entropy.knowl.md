@@ -8,11 +8,11 @@ domains = ["probability"]
 legacy_source_path = "probability/shannon-entropy.md"
 +++
 
-A **Shannon entropy** is a number $H(X)$ associated to a discrete [[probability/random-variable|random variable]] $X$ with probability mass function $p(x)=\mathbb{P}(X=x)$, defined by
-\[
+The **Shannon entropy** of a discrete [[probability/random-variable|random variable]] $X$ with probability mass function $p(x)=\mathbb{P}(X=x)$ is
+$$
 H(X) \;=\; -\sum_x p(x)\,\log p(x),
-\]
-with the convention $0\log 0=0$. (Unless stated otherwise, $\log$ denotes the natural logarithm; changing the base rescales $H$ by a constant factor.)
+$$
+with the convention $0\log 0=0$. The value may be $+\infty$. Unless stated otherwise, $\log$ denotes the natural logarithm; changing its base rescales $H$ by a constant factor.
 
 ## Equivalent characterizations
 

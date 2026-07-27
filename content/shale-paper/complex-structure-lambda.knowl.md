@@ -2,23 +2,24 @@
 id = "shale-paper/complex-structure-lambda"
 title = "Complex Structure Λ on K"
 kind = "knowl"
-summary = "An operator Λ with Λ² = −I giving K the structure of a complex Hilbert space"
+summary = "A bounded real-linear operator Λ with Λ² = −I; when orthogonal, it equips a real Hilbert space with a compatible complex Hilbert structure."
 aliases = ["complex-structure-lambda", "Complex Structure Λ on K"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/complex-structure-lambda.md"
 +++
 
-A **complex structure** on a real Hilbert space \(K\) is a bounded operator \(\Lambda\) with \(\Lambda^2=-I\).
+A **complex structure** on a real Hilbert space $K$ is a bounded real-linear operator $\Lambda:K\to K$ satisfying $\Lambda^2=-I$. It defines complex scalar multiplication by
+$$
+(a+ib)z=az+b\Lambda z.
+$$
+When $\Lambda$ is orthogonal, this complex structure is compatible with the real Hilbert-space inner product.
 
 ## Remarks
 
-In the paper, \(\Lambda z = i z\) on \(K=H\) viewed as real, and it relates symplectic and adjoint operations:
-a regular \(T\) is symplectic iff \(\Lambda T\Lambda^{-1}=T^{*-1}\).
+In the paper, $\Lambda z=iz$ on $K=H$ viewed as a real Hilbert space. It relates symplectic and adjoint operations: a regular $T$ is symplectic if and only if $\Lambda T\Lambda^{-1}=T^{*-1}$.
 
-**Key properties:**
-- Lets one write \(K=M\oplus M\) with \(\Lambda(x\oplus y)=-y\oplus x\).
-- Identifies \(U(H)=O(K)\cap Sp(K)\).
+- The compatible unitary group is $U(H)=O(K)\cap Sp(K)$.
 
 ## Examples
 
-- On \(\mathbb R^{2n}\), \(\Lambda(p,q)=(-q,p)\).
+- On $\mathbb R^{2n}$, $\Lambda(p,q)=(-q,p)$.

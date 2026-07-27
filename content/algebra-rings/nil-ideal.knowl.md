@@ -12,7 +12,7 @@ A **nil ideal** in a ring $R$ is an [[algebra-rings/ideal|ideal]] $I\subseteq R$
 
 ## Remarks
 
-Nil ideals measure the “nilpotent part” of a ring and are always contained in the [[algebra-rings/nilradical|nilradical]] in the commutative case. They appear naturally as radicals of Artinian local rings and as Jacobson radical components in finite-dimensional algebras.
+In a commutative ring, every nil ideal is contained in the [[algebra-rings/nilradical|nilradical]]. A nil ideal need not be nilpotent unless additional hypotheses are imposed.
 
 ## Examples
 

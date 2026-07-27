@@ -9,9 +9,9 @@ legacy_source_path = "topology/diameter.md"
 +++
 
 The **diameter** of a subset $A$ of a metric space $(X,d)$ is
-\[
+$$
 \operatorname{diam}(A)=\sup\{d(x,y): x\in A,\ y\in A\}\in[0,\infty],
-\]
+$$
 where $\sup$ denotes the [[real-analysis/supremum|supremum]] (and the value may be $+\infty$). By convention, $\operatorname{diam}(\varnothing)=0$.
 
 ## Remarks

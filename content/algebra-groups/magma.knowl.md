@@ -8,12 +8,12 @@ domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/magma.md"
 +++
 
-A **magma** is a set $M$ together with a binary operation $\cdot : M \times M \to M$. No additional axioms are required—the operation need not be associative, commutative, or have an identity.
+A **magma** is a set \(M\) together with a binary operation \(\cdot : M \times M \to M\). No additional axioms are required—the operation need not be associative, commutative, or have an identity.
 
 ## Examples
 
 - Any set with any binary operation
-- $(\mathbb{Z}, -)$ — integers under subtraction (not associative)
+- \((\mathbb{Z}, -)\) — integers under subtraction (not associative)
 - Rock-paper-scissors with the "winner" operation
 
 ## Remarks

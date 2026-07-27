@@ -16,7 +16,7 @@ If \(E/F\) is a field extension, any subfield \(K\) with \(F\subseteq K\subseteq
 
 A map of extensions is typically expressed via a [[algebra-fields-galois/field-embedding|field embedding]] \(E\hookrightarrow E'\) that restricts to the identity on \(F\); a bijective embedding \(E\to E\) fixing \(F\) is a [[algebra-fields-galois/field-automorphism|field automorphism]] over \(F\).
 
-### Examples
+## Examples
 1. \(\mathbb{R}\subseteq \mathbb{C}\) is a field extension, often written \(\mathbb{C}/\mathbb{R}\).
 2. \(\mathbb{Q}\subseteq \mathbb{Q}(\sqrt{2})\) is a field extension obtained by adjoining \(\sqrt{2}\).
 3. For a prime \(p\) and \(n\ge 1\), \(\mathbb{F}_p \subseteq \mathbb{F}_{p^n}\) is a finite field extension (where \(\mathbb{F}_{p^n}\) is a [[algebra-fields-galois/finite-field|finite field]] of size \(p^n\)).

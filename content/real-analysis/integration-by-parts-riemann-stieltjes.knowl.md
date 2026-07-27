@@ -8,11 +8,11 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/integration-by-parts-riemann-stieltjes.md"
 +++
 
-**Integration by parts (Riemann–Stieltjes):** Let $a<b$. Assume $f,g:[a,b]\to\mathbb{R}$ are [[real-analysis/bounded-variation-function|of bounded variation]] and that at least one of $f$ or $g$ is continuous. Then both Riemann–Stieltjes integrals $\int_a^b f\,dg$ and $\int_a^b g\,df$ exist, and
+Let $a<b$. If $f,g:[a,b]\to\mathbb R$ are [[real-analysis/bounded-variation-function|of bounded variation]] and at least one is continuous, then both Riemann–Stieltjes integrals exist and
 $$
 \int_a^b f\,dg \;+\; \int_a^b g\,df \;=\; f(b)g(b)-f(a)g(a).
 $$
 
 ## Remarks
 
-This generalizes the usual [[real-analysis/integration-by-parts|integration by parts]] (obtained by taking $g(x)=x$ and interpreting $df=f'(x)\,dx$), and existence is ensured by the [[real-analysis/riemann-stieltjes-integrability-theorem|Riemann–Stieltjes integrability theorem]].
+When $f$ and $g$ are continuously differentiable, substituting $df=f'(x)\,dx$ and $dg=g'(x)\,dx$ gives the usual [[real-analysis/integration-by-parts|integration-by-parts formula]]. The stated existence follows from the more general criterion that two bounded-variation functions with no common discontinuity are integrable with respect to one another.

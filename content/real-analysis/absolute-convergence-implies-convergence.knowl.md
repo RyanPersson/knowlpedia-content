@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/absolute-convergence-implies-convergence.md"
 +++
 
 **Absolute convergence implies convergence:** If a [[real-analysis/series|series]] $\sum_{n=1}^\infty a_n$ is [[real-analysis/absolutely-convergent-series|absolutely convergent]], meaning that
-\[
+$$
 \sum_{n=1}^\infty |a_n|
-\]
+$$
 converges, then the original series $\sum_{n=1}^\infty a_n$ [[real-analysis/convergent-series|converges]].
 
 ## Remarks

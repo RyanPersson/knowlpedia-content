@@ -8,7 +8,7 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/unit.md"
 +++
 
-Let $R$ be a [[algebra-rings/unital-ring|unital ring]]. An element $u\in R$ is a **unit** if there exists $v\in R$ such that $uv=vu=1$.
+Let \(R\) be a [[algebra-rings/unital-ring|unital ring]]. An element \(u\in R\) is a **unit** if there exists \(v\in R\) such that \(uv=vu=1\).
 
 ## Remarks
 
@@ -16,6 +16,6 @@ Units control invertibility of scalars in algebraic constructions and determine 
 
 ## Examples
 
-- The units of $\mathbb Z$ are $\pm 1$.
-- In a field $k$, every nonzero element is a unit.
-- In $\mathbb Z$, the element $2$ is not a unit.
+- The units of \(\mathbb Z\) are \(\pm 1\).
+- In a field \(k\), every nonzero element is a unit.
+- In \(\mathbb Z\), the element \(2\) is not a unit.

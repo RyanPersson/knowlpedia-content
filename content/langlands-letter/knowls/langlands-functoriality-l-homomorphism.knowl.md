@@ -14,9 +14,9 @@ An **$L$-homomorphism** is a group homomorphism $\omega:{}^LG'\to {}^LG$ such th
 
 **Functoriality (as used in the letter):**
 If $\phi'$ has Satake parameters $\alpha'_p$ for $G'$, then the predicted transfer $\phi$ for $G$ should satisfy (for almost all $p$)
-$
+$$
 \alpha_p \sim \omega(\alpha'_p)
-$
+$$
 as conjugacy classes in ${}^LG$.
 
 ## Remarks

@@ -9,9 +9,9 @@ legacy_source_path = "algebra-rings/ring-homomorphism-properties.md"
 +++
 
 **Ring homomorphisms preserve structure**: Let $\varphi:R\to S$ be a ring homomorphism. Then for all $a,b\in R$,
-\[
+$$
 \varphi(a+b)=\varphi(a)+\varphi(b),\qquad \varphi(ab)=\varphi(a)\varphi(b),\qquad \varphi(0_R)=0_S.
-\]
+$$
 If $\varphi$ is unital, then $\varphi(1_R)=1_S$. In particular, $\varphi(-a)=-\varphi(a)$ for all $a\in R$.
 
 ## Remarks

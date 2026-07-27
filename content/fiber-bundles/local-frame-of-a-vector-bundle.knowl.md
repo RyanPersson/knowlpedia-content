@@ -9,9 +9,9 @@ legacy_source_path = "fiber-bundles/local-frame-of-a-vector-bundle.md"
 +++
 
 Let $\pi:E\to M$ be a smooth vector bundle of rank $r$ over a [[fiber-bundles/smooth-manifold|smooth manifold]]. Let $U\subseteq M$ be open. A **local frame** of $E$ over $U$ is an ordered $r$-tuple of smooth sections
-\[
+$$
 e_1,\dots,e_r:U\to E
-\]
+$$
 such that for every $x\in U$, the vectors $(e_1(x),\dots,e_r(x))$ form a basis of the fiber $E_x$.
 
 When $E=TM$, a local frame is the same thing as a collection of $r=\dim M$ linearly independent [[fiber-bundles/vector-field|vector fields]] on $U$.

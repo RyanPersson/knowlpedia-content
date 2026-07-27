@@ -2,22 +2,20 @@
 id = "langlands-letter/knowls/semisimple-element-and-class"
 title = "Semisimple Element and Semisimple Conjugacy Class"
 kind = "knowl"
-summary = "Elements diagonalizable in representations; conjugacy classes used for Satake parameters"
+summary = "An element of a complex reductive group whose image in every algebraic representation is diagonalizable."
 aliases = ["semisimple-element-and-class", "Semisimple Element and Semisimple Conjugacy Class"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/semisimple-element-and-class.md"
 +++
 
-Let $H$ be a complex reductive algebraic group.
+Let \(H\) be a complex reductive algebraic group. An element \(h\in H(\mathbb C)\) is **semisimple** if, for every finite-dimensional algebraic representation \(\rho:H\to\mathrm{GL}(V)\), the operator \(\rho(h)\) is diagonalizable over \(\mathbb C\).
 
-An element $h\in H(\mathbb{C})$ is **semisimple** if for every finite-dimensional algebraic representation $\rho:H\to \mathrm{GL}(V)$, the linear map $\rho(h)$ is diagonalizable over $\mathbb{C}$.
-
-A **semisimple conjugacy class** is the conjugacy class of a semisimple element.
+A **semisimple conjugacy class** is a conjugacy class consisting of semisimple elements.
 
 ## Remarks
 
-In a reductive group, semisimple elements are exactly those contained in some maximal torus.
+In a reductive group, semisimple elements are exactly those contained in a maximal torus.
 
 ## Examples
 
-- in $\mathrm{GL}_n(\mathbb{C})$, semisimple means "diagonalizable."
+- In \(\mathrm{GL}_n(\mathbb C)\), semisimple elements are precisely the diagonalizable matrices.

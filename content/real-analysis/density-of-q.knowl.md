@@ -8,7 +8,7 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/density-of-q.md"
 +++
 
-**Density of $\mathbb{Q}$:** If $a<b$ are real numbers, then there exists a rational number $q\in\mathbb{Q}$ such that $a<q<b$. In fact, there are infinitely many such rationals.
+**Density of \(\mathbb{Q}\):** If \(a<b\) are real numbers, then there exists a rational number \(q\in\mathbb{Q}\) such that \(a<q<b\). In fact, there are infinitely many such rationals.
 
 ## Remarks
 

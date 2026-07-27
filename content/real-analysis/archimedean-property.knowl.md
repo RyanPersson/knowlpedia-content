@@ -8,7 +8,7 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/archimedean-property.md"
 +++
 
-**Archimedean property:** For every real number $x$ there exists $n \in \mathbb{N}$ such that $n > x$. Equivalently, for every $\varepsilon>0$ there exists $n \in \mathbb{N}$ such that $0<\frac{1}{n}<\varepsilon$.
+**Archimedean property:** For every real number \(x\) there exists \(n \in \mathbb{N}\) such that \(n > x\). Equivalently, for every \(\varepsilon>0\) there exists \(n \in \mathbb{N}\) such that \(0<\frac{1}{n}<\varepsilon\).
 
 ## Remarks
 

@@ -8,21 +8,21 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/lie-algebra-of-a-lie-group.md"
 +++
 
-Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with identity element \(e\).
-The **Lie algebra of \(G\)** is the [[differential-geometry/tangent-space|tangent space]]
-$$
+Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with identity \(e\). The **Lie algebra of \(G\)** is the [[differential-geometry/tangent-space|tangent space]]
+\[
 \mathfrak{g} := T_eG.
-$$
+\]
+Its bracket is obtained by identifying tangent vectors at \(e\) with left-invariant vector fields and evaluating their vector-field bracket at \(e\).
 
 ## How the bracket is defined
 Using [[lie-groups/left-translation|left translations]] \(L_g(h)=gh\), any \(X\in T_eG\) determines a unique [[lie-groups/left-invariant-vector-field|left-invariant vector field]] \(\widetilde X\) by
-$$
+\[
 \widetilde X_g := (dL_g)_e(X)\in T_gG.
-$$
+\]
 Then the Lie bracket on \(\mathfrak{g}\) is defined by
-$$
+\[
 [X,Y] := \big[\widetilde X,\widetilde Y\big]_e,
-$$
+\]
 where \([\widetilde X,\widetilde Y]\) is the commutator of [[fiber-bundles/vector-field|vector fields]].
 
 ## Properties

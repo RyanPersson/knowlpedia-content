@@ -17,8 +17,6 @@ The smallest such constant is the **operator norm**
 \|A\| := \sup_{\|x\|=1}\|Ax\|.
 \]
 
-Bounded operators are the standard class of operators used to model physical transformations and observables in many finite-dimensional quantum settings.
-
 ## Equivalent characterizations
 For linear maps between normed vector spaces (in particular, Hilbert spaces), the following are equivalent:
 

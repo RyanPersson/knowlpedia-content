@@ -9,9 +9,9 @@ legacy_source_path = "algebra-rings/principal-ideal.md"
 +++
 
 A **principal ideal** in a [[algebra-rings/commutative-ring|commutative ring]] $R$ is an [[algebra-rings/ideal|ideal]] of the form
-\[
+$$
 (a)=\{ra:r\in R\}
-\]
+$$
 for some $a\in R$, i.e. an instance of an [[algebra-rings/ideal-generated|ideal generated]] by one element.
 
 ## Remarks

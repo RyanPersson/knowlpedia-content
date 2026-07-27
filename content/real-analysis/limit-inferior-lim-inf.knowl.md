@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/limit-inferior-lim-inf.md"
 +++
 
 The **limit inferior** (or **lim inf**) of a bounded sequence \((x_n)\) in \(\mathbb{R}\) is
-$$
+\[
 \liminf_{n \to \infty} x_n = \lim_{n \to \infty} \inf_{k \geq n} x_k = \sup_{n \geq 1} \inf_{k \geq n} x_k.
-$$
+\]
 
 ## Characterizations
 For a [[real-analysis/bounded-sequence|bounded sequence]] \((x_n)\), the lim inf equals:

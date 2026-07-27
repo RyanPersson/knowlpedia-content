@@ -48,8 +48,8 @@ Subrepresentations are the objects whose absence (except \(0\) and \(V\)) define
    \]
    exhibiting complete reducibility in this case (see [[algebra-representation-theory/completely-reducible-representation|completely reducible representation]]).
 
-2. **A canonical 1-dimensional subrepresentation inside the regular representation.**
-   In the [[algebra-representation-theory/regular-representation|regular representation]] of \(G\) on \(k[G]\), the vector
+2. **A canonical one-dimensional subrepresentation inside the regular representation.**
+   If \(G\) is finite, then in the [[algebra-representation-theory/regular-representation|regular representation]] of \(G\) on \(k[G]\), the vector
    \[
    \Omega=\sum_{g\in G} g \in k[G]
    \]

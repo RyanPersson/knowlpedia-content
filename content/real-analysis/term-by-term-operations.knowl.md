@@ -9,11 +9,11 @@ legacy_source_path = "real-analysis/term-by-term-operations.md"
 +++
 
 **Term-by-term operations for power series:** Let
-\[
+$$
 \sum_{n=0}^\infty a_n (x-x_0)^n
 \quad\text{and}\quad
 \sum_{n=0}^\infty b_n (x-x_0)^n
-\]
+$$
 be [[real-analysis/power-series|power series]] with radii of convergence $R_a$ and $R_b$. Set $R=\min(R_a,R_b)$. Then for every $|x-x_0|<R$:
 
 - (Addition and scalar multiplication) The series $\sum_{n=0}^\infty (a_n+b_n)(x-x_0)^n$ and $\sum_{n=0}^\infty (\lambda a_n)(x-x_0)^n$ converge, and

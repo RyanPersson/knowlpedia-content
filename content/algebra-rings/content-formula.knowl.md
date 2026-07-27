@@ -8,11 +8,11 @@ domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/content-formula.md"
 +++
 
-**Content formula**: Let $R$ be a UFD and let $f,g\in R[x]$. Then the content satisfies
+**Content formula**: Let \(R\) be a UFD and let \(f,g\in R[x]\). Then the content satisfies
 \[
 \operatorname{cont}(fg)\sim \operatorname{cont}(f)\operatorname{cont}(g),
 \]
-i.e., $\operatorname{cont}(fg)$ is associate to $\operatorname{cont}(f)\operatorname{cont}(g)$. In particular, the product of primitive polynomials is primitive.
+i.e., \(\operatorname{cont}(fg)\) is associate to \(\operatorname{cont}(f)\operatorname{cont}(g)\). In particular, the product of primitive polynomials is primitive.
 
 ## Remarks
 

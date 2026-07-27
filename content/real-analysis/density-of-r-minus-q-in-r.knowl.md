@@ -8,8 +8,8 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/density-of-r-minus-q-in-r.md"
 +++
 
-**Density of $\mathbb{R}\setminus\mathbb{Q}$ in $\mathbb{R}$**: If $a<b$ are real numbers, then there exists an irrational number $x\in\mathbb{R}\setminus\mathbb{Q}$ such that
-$a<x<b.$
+**Density of \(\mathbb{R}\setminus\mathbb{Q}\) in \(\mathbb{R}\)**: If \(a<b\) are real numbers, then there exists an irrational number \(x\in\mathbb{R}\setminus\mathbb{Q}\) such that
+\(a<x<b.\)
 
 ## Remarks
 

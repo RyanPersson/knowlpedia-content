@@ -8,27 +8,27 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/differentiation-rules.md"
 +++
 
-**Differentiation rules:** Let $I\subseteq\mathbb{R}$ be an [[real-analysis/interval|interval]], and let $f,g:I\to\mathbb{R}$ be [[real-analysis/differentiability-1d|differentiable]] at a point $x\in I$. Then:
+Let $I\subseteq\mathbb R$ be an [[real-analysis/interval|interval]], and let $f,g:I\to\mathbb R$ be [[real-analysis/differentiability-1d|differentiable]] at $x\in I$. Then:
 
-- (Linearity) For constants $c\in\mathbb{R}$,
+- **Linearity.** For $c\in\mathbb R$,
   $$
   (f+g)'(x)=f'(x)+g'(x),\qquad (cf)'(x)=c\,f'(x).
   $$
-- (Product rule)
+- **Product rule.**
   $$
   (fg)'(x)=f'(x)g(x)+f(x)g'(x).
   $$
 
-- (Quotient rule) If $g(x)\neq 0$, then
+- **Quotient rule.** If $g(x)\neq 0$, then
   $$
   \left(\frac{f}{g}\right)'(x)=\frac{f'(x)g(x)-f(x)g'(x)}{(g(x))^2}.
   $$
 
-- (Chain rule) If $g$ is differentiable at $x$ and $f$ is differentiable at $g(x)$, then for the [[shared-foundations/composition|composition]] $f\circ g$,
+- **Chain rule.** If $f$ is differentiable at $g(x)$, then
   $$
   (f\circ g)'(x)=f'(g(x))\,g'(x).
   $$
 
 ## Remarks
 
-These identities are the basic computational tools for the [[real-analysis/derivative|derivative]] and are organized and extended in the [[real-analysis/chain-rule|chain rule]] and related results (for example, rules used in [[real-analysis/inverse-function-theorem-1d|local inversion]]).
+The multivariable [[real-analysis/chain-rule|chain rule]] extends the last identity to differentiable maps between Euclidean spaces.

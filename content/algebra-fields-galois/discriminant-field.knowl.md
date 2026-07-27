@@ -2,7 +2,7 @@
 id = "algebra-fields-galois/discriminant-field"
 title = "Discriminant (of a field basis)"
 kind = "knowl"
-summary = "For a finite extension L/K, the discriminant of a K-basis is det(Tr_{L/K}(b_i b_j))."
+summary = "The determinant of the trace-pairing matrix associated with a basis of a finite field extension."
 aliases = ["discriminant-field", "Discriminant (of a field basis)"]
 domains = ["algebra-fields-galois"]
 legacy_source_path = "algebra-fields-galois/discriminant-field.md"
@@ -19,7 +19,7 @@ If \(L/K\) is separable (see [[algebra-fields-galois/separable-extension|separab
 \[
 \mathrm{disc}_{L/K}(\mathbf{b}) \;=\; \det(\sigma_i(b_j))_{i,j}^2.
 \]
-This shows how the discriminant measures “linear independence of conjugates” and links naturally to separability (compare [[algebra-fields-galois/separable-distinct-roots|separable elements have distinct conjugates]]).
+Thus separability is equivalent to nondegeneracy of the trace pairing, and hence to the nonvanishing of the discriminant of every basis.
 
 ### Examples
 1. **Quadratic basis.** Let \(L=K(\sqrt{d})\) with \(\mathrm{char}(K)\neq 2\) and basis \((1,\sqrt{d})\). Using \(\mathrm{Tr}_{L/K}(1)=2\), \(\mathrm{Tr}_{L/K}(\sqrt{d})=0\), \(\mathrm{Tr}_{L/K}(d)=2d\),
@@ -31,10 +31,4 @@ This shows how the discriminant measures “linear independence of conjugates”
 \(\mathrm{disc}_{L/K}(1,\alpha,\dots,\alpha^{n-1})=\det(\mathrm{Tr}_{L/K}(\alpha^{i+j}))_{0\le i,j\le n-1}\),
 which can be computed from the minimal polynomial of \(\alpha\) in concrete cases.
 
-3. **Finite fields: always zero over the prime field when inseparable is absent?** For \(L=\mathbb{F}_{q^n}\) over \(K=\mathbb{F}_q\), the extension is separable because finite fields are [[algebra-fields-galois/finite-fields-perfect|perfect]], so discriminants of \(K\)-bases are nonzero. For example, if \(n=2\) and \(L=K(\alpha)\) with \(\alpha^2-\alpha-\beta=0\) irreducible over \(K\), then for the basis \((1,\alpha)\),
-\[
-\mathrm{disc}_{L/K}(1,\alpha)=\det\begin{pmatrix}
-\mathrm{Tr}(1) & \mathrm{Tr}(\alpha)\\
-\mathrm{Tr}(\alpha) & \mathrm{Tr}(\alpha^2)
-\end{pmatrix}\in K^\times.
-\]
+3. **Finite fields.** For \(L=\mathbb{F}_{q^n}\) over \(K=\mathbb{F}_q\), every \(K\)-basis has nonzero discriminant because finite fields are [[algebra-fields-galois/finite-fields-perfect|perfect]].

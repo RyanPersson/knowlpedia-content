@@ -11,25 +11,25 @@ legacy_source_path = "fiber-bundles/construction-associated-bundle-p-g-f-from-a-
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] and let $F$ be a smooth manifold with a smooth left action of the [[fiber-bundles/lie-group|Lie group]] $G$ (a left $G$-space).
 
 **Construction (associated bundle).** Consider $P\times F$ with the right $G$-action
-\[
+$$
 (p,f)\cdot g := (pg, g^{-1}\cdot f).
-\]
+$$
 Define the associated bundle as the quotient
-\[
+$$
 P\times_G F := (P\times F)/G,
-\]
+$$
 and write $[p,f]$ for the equivalence class of $(p,f)$. The projection
-\[
+$$
 \pi_F: P\times_G F \to M,\qquad \pi_F([p,f])=\pi(p),
-\]
+$$
 is well-defined and makes $P\times_G F$ into a smooth fiber bundle with typical fiber $F$.
 
 ## Remarks
 
 If $s:U\to P$ is a local section, then
-\[
+$$
 \Phi_s:U\times F\to \pi_F^{-1}(U),\qquad (x,f)\mapsto [s(x),f],
-\]
+$$
 is a bundle trivialization; on overlaps, the transition functions are given by the $G$-action on $F$.
 
 ## Examples

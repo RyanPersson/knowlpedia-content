@@ -2,23 +2,25 @@
 id = "convex-analysis/quasiconvex-function"
 title = "Quasiconvex function"
 kind = "knowl"
-summary = "A function with f(λx+(1−λ)y)≤max{f(x),f(y)}"
+summary = "A function whose value on a line segment never exceeds the larger endpoint value."
 aliases = ["quasiconvex-function", "Quasiconvex function"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/quasiconvex-function.md"
 +++
 
-Let $X$ be a vector space and let $f:X\to\mathbb{R}$ be extended-real-valued. The function $f$ is **quasiconvex** if for all $x,y\in X$ and all $\lambda\in(0,1)$,
+Let $X$ be a real vector space and let $f:X\to(-\infty,\infty]$ be an extended-real-valued function. The function $f$ is **quasiconvex** if, for all $x,y\in X$ and $\lambda\in[0,1]$,
 $$
 f(\lambda x+(1-\lambda)y)\le \max\{f(x),f(y)\}.
 $$
 
+Equivalently, every sublevel set $\{x\in X:f(x)\le \alpha\}$ is convex.
+
 ## Examples
 
 - Any [[convex-analysis/convex-function-via-epigraph|convex function]] is quasiconvex.
-- The function $f(x)=\sqrt{|x|}$ on $\mathbb{R}$ is quasiconvex but not convex.
+- The function $f(x)=\sqrt{|x|}$ on $\mathbb R$ is quasiconvex but not convex.
 - Any constant function is quasiconvex.
 
 ## Remarks
 
-**Context.** Quasiconvexity is weaker than convexity: every convex function is quasiconvex, but not conversely. It is important in economic modeling and level-set methods.
+Quasiconvexity is weaker than convexity: it controls sublevel sets but does not require the graph to lie below its chords.

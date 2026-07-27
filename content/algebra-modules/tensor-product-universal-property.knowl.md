@@ -8,7 +8,11 @@ domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/tensor-product-universal-property.md"
 +++
 
-The **universal property of the tensor product** says that for a right \(R\)-module \(M\) and a left \(R\)-module \(N\), a pair \((T,\tau)\) is a tensor product if \(\tau\colon M\times N\to T\) is a [[algebra-modules/bilinear-map|balanced bilinear map]] and for every abelian group \(A\) and every balanced bilinear map \(f\colon M\times N\to A\), there exists a unique group homomorphism \(\overline f\colon T\to A\) such that \(\overline f\circ\tau=f\).
+Let \(R\) be a ring, \(M\) a right \(R\)-module, and \(N\) a left \(R\)-module. A pair \((T,\tau)\) has the **universal property of the tensor product** if \(T\) is an abelian group, \(\tau\colon M\times N\to T\) is biadditive and balanced,
+\[
+\tau(mr,n)=\tau(m,rn),
+\]
+and every biadditive balanced map \(f\colon M\times N\to A\) to an abelian group \(A\) factors uniquely through a homomorphism \(\overline f:T\to A\).
 
 When such \((T,\tau)\) exists, it is unique up to unique isomorphism; one writes \(T=M\otimes_R N\) and \(\tau(m,n)=m\otimes n\), producing the [[algebra-modules/tensor-product|tensor product]]. The universal property is the mechanism that turns bilinear constructions into linear ones (i.e. [[algebra-modules/module-homomorphism|module homomorphisms]], when the target has compatible structure).
 

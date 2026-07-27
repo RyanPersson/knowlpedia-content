@@ -8,25 +8,25 @@ domains = ["stat-mech-quantum"]
 legacy_source_path = "stat-mech-quantum/kms-condition-finite.md"
 +++
 
-Let $\mathcal A=\mathcal B(\mathcal H)$ for a finite-dimensional Hilbert space, let $H=H^*$, and use units with $\hbar=1$. Write
-$$
+Let \(\mathcal A=\mathcal B(\mathcal H)\) for a finite-dimensional Hilbert space, let \(H=H^*\), fix \(\beta>0\), and use units with \(\hbar=1\). Write
+\[
 \tau_t(A)=e^{itH}Ae^{-itH}.
-$$
-A state $\omega$ satisfies the **$\beta$-KMS condition** if, for every $A,B\in\mathcal A$, there is a function $F_{A,B}$ continuous on $0\le\operatorname{Im}z\le\beta$, analytic in its interior, and satisfying
-$$
+\]
+A state \(\omega\) satisfies the **\(\beta\)-KMS condition** if, for every \(A,B\in\mathcal A\), there is a function \(F_{A,B}\) continuous on \(0\le\operatorname{Im}z\le\beta\), analytic in its interior, and satisfying
+\[
 F_{A,B}(t)=\omega(A\tau_t(B)),
 \qquad
 F_{A,B}(t+i\beta)=\omega(\tau_t(B)A)
-$$
-for every $t\in\mathbb R$.
+\]
+for every \(t\in\mathbb R\).
 
 ## Finite-dimensional characterization
 
 The [[stat-mech-quantum/gibbs-state-quantum|quantum Gibbs state]]
-$$
+\[
 \omega_\beta(A)=\frac{\operatorname{Tr}(e^{-\beta H}A)}{\operatorname{Tr}(e^{-\beta H})}
-$$
-satisfies the $\beta$-KMS condition. Conversely, on the full matrix algebra it is the unique $\beta$-KMS state for $\tau$.
+\]
+satisfies the \(\beta\)-KMS condition. Conversely, on the full matrix algebra it is the unique \(\beta\)-KMS state for \(\tau\).
 
 ## Remarks
 

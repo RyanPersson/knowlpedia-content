@@ -2,26 +2,16 @@
 id = "convex-analysis/affine-sets-are-translates-of-subspaces"
 title = "Affine Sets are Translates of Subspaces"
 kind = "knowl"
-summary = "Ω is affine iff Ω−ω is a linear subspace (equivalently, Ω=ω+L)."
+summary = "A nonempty set is affine exactly when it is a translate of a linear subspace."
 aliases = ["affine-sets-are-translates-of-subspaces", "Affine Sets are Translates of Subspaces"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/affine-sets-are-translates-of-subspaces.md"
 +++
 
-Let $X$ be a [[linear-algebra/vector-space|vector space]] and let $\Omega\subset X$ be nonempty.
-
-**Lemma**: The set $\Omega$ is [[convex-analysis/affine-set|affine]] if and only if for every $\omega\in\Omega$, the translate
+Let $X$ be a [[linear-algebra/vector-space|vector space]] and let $\Omega\subseteq X$ be nonempty. Then $\Omega$ is [[convex-analysis/affine-set|affine]] if and only if, for any $\omega\in\Omega$,
 $$
-\Omega-\omega:=\{x-\omega\mid x\in\Omega\}
+\Omega-\omega:=\{x-\omega:x\in\Omega\}
 $$
-
 is a [[convex-analysis/linear-subspace|linear subspace]] of $X$.
 
-## Equivalent characterizations
-
-Equivalently, $\Omega$ is affine iff there exist $\omega\in X$ and a subspace $L\subset X$ such that $\Omega=\omega+L$.
-
-## Remarks
-
-**Context:**
-This lemma explains why affine sets are often called "affine subspaces": they are precisely translates of linear subspaces.
+Equivalently, $\Omega$ is affine if and only if $\Omega=\omega+L$ for some $\omega\in X$ and linear subspace $L\subseteq X$.

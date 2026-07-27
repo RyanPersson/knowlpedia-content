@@ -8,11 +8,11 @@ domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/conjugate-element.md"
 +++
 
-Let $G$ be a [[algebra-groups/group|group]] and let $g,h\in G$. We say that **$h$ is conjugate to $g$ (in $G$)**, and write $h\sim g$, if there exists an element $x\in G$ such that
-$
+Let $G$ be a [[algebra-groups/group|group]] and let $g,h\in G$. We say that **$h$ is conjugate to $g$ in $G$**, and write $h\sim g$, if there exists $x\in G$ such that
+$$
 h = x g x^{-1}.
-$
-For a fixed $x\in G$, the map $c_x\colon G\to G$ given by $c_x(g)=xgx^{-1}$ is called **conjugation by $x$**; it is an [[algebra-groups/inner-automorphism|inner automorphism]] of $G$.
+$$
+For fixed $x\in G$, the map $c_x\colon G\to G$ given by $c_x(g)=xgx^{-1}$ is called **conjugation by $x$**; it is an [[algebra-groups/inner-automorphism|inner automorphism]] of $G$.
 
 ## Remarks
 

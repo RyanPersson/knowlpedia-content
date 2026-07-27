@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/uniformly-bounded-family.md"
 +++
 
 A family $\mathcal{F}$ of functions $f:X\to\mathbb{R}$ is **uniformly bounded** if there exists $M<\infty$ such that
-\[
+$$
 |f(x)|\le M \quad \text{for all } f\in\mathcal{F}\text{ and all } x\in X.
-\]
+$$
 Equivalently, if every $f\in\mathcal{F}$ is bounded, then $\sup_{f\in\mathcal{F}}\|f\|_\infty<\infty$ in terms of the [[real-analysis/supremum-norm|supremum norm]].
 
 ## Remarks

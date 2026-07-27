@@ -8,16 +8,16 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/complement.md"
 +++
 
-A **complement** of a set $A$ is defined relative to a fixed ambient set (universe) $U$ with $A\subseteq U$. The complement of $A$ in $U$ is
-$$
+A **complement** of a set \(A\) is defined relative to a fixed ambient set (universe) \(U\) with \(A\subseteq U\). The complement of \(A\) in \(U\) is
+\[
 A^{c}=\{x\in U : x\notin A\}.
-$$
+\]
 
 ## Equivalent characterizations
 
-Equivalently, $A^{c}$ is the [[shared-foundations/set-difference|set difference]] $U\setminus A$. Complements interact with [[shared-foundations/union|union]] and [[shared-foundations/intersection|intersection]] through De Morgan’s laws.
+Equivalently, \(A^{c}\) is the [[shared-foundations/set-difference|set difference]] \(U\setminus A\). Complements interact with [[shared-foundations/union|union]] and [[shared-foundations/intersection|intersection]] through De Morgan’s laws.
 
 ## Examples
 
-- If $U=\{1,2,3,4\}$ and $A=\{1,4\}$, then $A^{c}=\{2,3\}$.
-- If $U=\mathbb{R}$ and $A=\{x\in\mathbb{R}: x\ge 0\}$, then $A^{c}=\{x\in\mathbb{R}: x<0\}$.
+- If \(U=\{1,2,3,4\}\) and \(A=\{1,4\}\), then \(A^{c}=\{2,3\}\).
+- If \(U=\mathbb{R}\) and \(A=\{x\in\mathbb{R}: x\ge 0\}\), then \(A^{c}=\{x\in\mathbb{R}: x<0\}\).

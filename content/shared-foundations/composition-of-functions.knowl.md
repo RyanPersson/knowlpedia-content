@@ -8,8 +8,8 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/composition-of-functions.md"
 +++
 
-Let $f:X\to Y$ and $g:Y\to Z$ be functions. The **composition** of $g$ with $f$ is the function
-$$g\circ f:X\to Z,\qquad (g\circ f)(x):=g(f(x)).$$
+Let \(f:X\to Y\) and \(g:Y\to Z\) be functions. The **composition** of \(g\) with \(f\) is the function
+\[g\circ f:X\to Z,\qquad (g\circ f)(x):=g(f(x)).\]
 
 ## Remarks
 
@@ -17,6 +17,6 @@ Composition formalizes successive application of maps and is the basic operation
 
 ## Examples
 
-- If $f:\mathbb{R}\to\mathbb{R}$, $f(x)=x^2$ and $g:\mathbb{R}\to\mathbb{R}$, $g(y)=y+1$, then $(g\circ f)(x)=x^2+1$.
-- If $f:\mathbb{R}\to(0,\infty)$ is $f(x)=e^x$ and $g:(0,\infty)\to\mathbb{R}$ is $g(y)=\log y$, then $g\circ f=\mathrm{id}_{\mathbb{R}}$.
-- Composition is only defined when the codomain of $f$ matches the domain of $g$ (or at least $f(X)\subseteq \mathrm{dom}(g)$ if one allows partial maps).
+- If \(f:\mathbb{R}\to\mathbb{R}\), \(f(x)=x^2\) and \(g:\mathbb{R}\to\mathbb{R}\), \(g(y)=y+1\), then \((g\circ f)(x)=x^2+1\).
+- If \(f:\mathbb{R}\to(0,\infty)\) is \(f(x)=e^x\) and \(g:(0,\infty)\to\mathbb{R}\) is \(g(y)=\log y\), then \(g\circ f=\mathrm{id}_{\mathbb{R}}\).
+- Composition is only defined when the codomain of \(f\) matches the domain of \(g\) (or at least \(f(X)\subseteq \mathrm{dom}(g)\) if one allows partial maps).

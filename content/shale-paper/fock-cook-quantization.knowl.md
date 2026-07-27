@@ -2,24 +2,25 @@
 id = "shale-paper/fock-cook-quantization"
 title = "Fock–Cook Quantization"
 kind = "knowl"
-summary = "The standard bosonic CCR representation built from creation/annihilation operators"
+summary = "The bosonic canonical-commutation-relation representation defined by field operators on symmetric Fock space."
 aliases = ["fock-cook-quantization", "Fock–Cook Quantization"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/fock-cook-quantization.md"
 +++
 
-In the Fock–Cook representation on \(S(H)\), the field operator is
+Let \(H\) be a complex Hilbert space, let \(S(H)\) be its [[shale-paper/symmetric-fock-space|symmetric Fock space]], and let \(C(z)\) and \(C^*(z)\) be the [[shale-paper/creation-annihilation-operators|creation and annihilation operators]] associated with \(z\in H\). The **Fock–Cook field operator** is the closure
 \[
 R(z)=\frac1{\sqrt2}\,(C(z)+C^*(z))^{\sim},
 \]
-where \((\cdot)^{\sim}\) denotes closure as an unbounded operator.
+initially defined on the finite-particle subspace. The corresponding Weyl operators are
+\[
+V(z)=e^{iR(z)}.
+\]
 
 ## Remarks
 
-**Key properties (paper use):**
-- Produces Weyl unitaries \(V(z)=e^{iR(z)}\) satisfying [[shale-paper/weyl-ccr-quantization|Weyl CCR]].
-- Shale's main result: \(T\in Sp(K)\) is implementable iff \(T\in rSp(K)\).
+The unitaries \(V(z)\) satisfy the [[shale-paper/weyl-ccr-quantization|Weyl canonical commutation relations]]. In the setting of Shale's theorem, a symplectic transformation \(T\in Sp(K)\) is unitarily implementable in this representation exactly when \(T\in rSp(K)\).
 
 ## Examples
 
-- For finite-dimensional \(H\), this is the usual Schrödinger/Fock CCR representation.
+- For finite-dimensional \(H\), this is the standard bosonic Fock representation of the canonical commutation relations.

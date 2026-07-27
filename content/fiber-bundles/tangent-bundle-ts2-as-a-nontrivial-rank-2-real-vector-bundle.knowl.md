@@ -12,7 +12,7 @@ Let $S^2$ be the 2-sphere. Its [[fiber-bundles/tangent-bundle|tangent bundle]] $
 
 The bundle $TS^2$ is **not** isomorphic (as a rank-2 real vector bundle) to the [[fiber-bundles/trivial-vector-bundle-mvm|trivial rank-2 bundle]] $S^2\times \mathbb R^2$.
 
-A standard proof uses the “hairy ball” phenomenon: every continuous tangent vector field on $S^2$ has a zero. Since a global nowhere-zero section would trivialize a rank-1 subbundle and (together with a second independent section) produce a global frame, this obstructs triviality.
+A standard proof uses the hairy ball theorem: every continuous tangent vector field on $S^2$ has a zero. A trivial rank-$2$ bundle has constant nowhere-zero sections, so this obstructs triviality.
 
 ## Equivalent characterizations
 Equivalently:

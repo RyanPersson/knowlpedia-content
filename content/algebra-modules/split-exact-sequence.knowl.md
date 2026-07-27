@@ -9,9 +9,9 @@ legacy_source_path = "algebra-modules/split-exact-sequence.md"
 +++
 
 A short exact sequence
-\[
+$$
 0 \to A \xrightarrow{i} B \xrightarrow{p} C \to 0
-\]
+$$
 (see [[algebra-modules/short-exact-sequence|short exact sequence]]) **splits** if there exists a homomorphism $s:C\to B$ with $p\circ s=\mathrm{id}_C$ (a section), or equivalently a homomorphism $r:B\to A$ with $r\circ i=\mathrm{id}_A$ (a retraction), where $\mathrm{id}$ is the [[shared-foundations/identity-function|identity]] map. In this case one has an isomorphism $B\cong A\oplus C$ as in [[algebra-modules/direct-sum-modules|direct sums]]; a standard proof is the [[algebra-modules/splitting-lemma|splitting lemma]].
 
 Split exactness is the precise condition that the extension carries no “twisting”: $B$ is just a direct sum of the ends.

@@ -7,10 +7,10 @@ aliases = ["invariant subspace", "operator-invariant subspace"]
 domains = ["linear-algebra", "analysis"]
 +++
 
-Let \(T:E\to E\) be a [[linear-algebra/linear-map|linear operator]]. A linear subspace \(M\subseteq E\) is **invariant under \(T\)** if
-\[
+Let $T:E\to E$ be a [[linear-algebra/linear-map|linear operator]]. A linear subspace $M\subseteq E$ is **invariant under $T$** if
+$$
 T(M)\subseteq M.
-\]
-The invariant subspace is **nontrivial** when \(M\ne\{0\}\) and \(M\ne E\). In functional analysis one usually also requires \(M\) to be a [[linear-algebra/closed-linear-subspace|closed linear subspace]].
+$$
+The invariant subspace is **nontrivial** when $M\ne\{0\}$ and $M\ne E$. In functional analysis one usually also requires $M$ to be a [[linear-algebra/closed-linear-subspace|closed linear subspace]].
 
-If \(v\) is an [[linear-algebra/eigenvector|eigenvector]] of \(T\), then its one-dimensional span is invariant. Invariance also means that \(T\) restricts to a well-defined operator \(T|_M:M\to M\).
+If $v$ is an [[linear-algebra/eigenvector|eigenvector]] of $T$, then its one-dimensional span is invariant. Invariance also means that $T$ restricts to a well-defined operator $T|_M:M\to M$.

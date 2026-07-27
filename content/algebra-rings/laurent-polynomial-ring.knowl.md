@@ -9,9 +9,9 @@ legacy_source_path = "algebra-rings/laurent-polynomial-ring.md"
 +++
 
 Let $R$ be a commutative ring with $1$. The **Laurent polynomial ring** $R[x,x^{-1}]$ consists of all finite sums
-\[
+$$
 \sum_{i=m}^n a_i x^i \quad (a_i\in R,\; m\le n,\; m\in\mathbb{Z}),
-\]
+$$
 with the obvious addition and multiplication extending those of [[algebra-rings/polynomial-ring|polynomial rings]].
 
 ## Remarks

@@ -9,9 +9,9 @@ legacy_source_path = "algebra-modules/basis-module.md"
 +++
 
 Let $F$ be a [[algebra-modules/free-module|free]] $R$-[[algebra-modules/module|module]]. A **basis** of $F$ is a subset $B\subseteq F$ such that every $x\in F$ can be written uniquely as a finite sum
-\[
+$$
 x=\sum_{b\in B} r_b\, b
-\]
+$$
 with coefficients $r_b\in R$, where all but finitely many $r_b$ are zero. Uniqueness is equivalent to the familiar notions of [[convex-analysis/linearly-independent-and-linearly-dependent-sets|linear independence]] and spanning (compare [[convex-analysis/linear-combination|linear combinations]] in linear algebra).
 
 Bases generalize the concept of a basis in a [[linear-algebra/vector-space|vector space]], but over rings bases can fail to exist even for finitely generated modules.

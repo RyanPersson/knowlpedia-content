@@ -13,9 +13,9 @@ Let $\pi:E\to M$ be a surjective submersion equipped with an [[fiber-bundles/ehr
 Fix $e\in E$ with $x=\pi(e)$. Since $d\pi_e$ restricts to an isomorphism $H_eE\to T_xM$, each base tangent vector has a unique horizontal representative.
 
 **Definition.** For $v\in T_xM$, the horizontal lift of $v$ at $e$ is the unique vector $v^{\mathrm h}\in H_eE$ such that
-\[
+$$
 d\pi_e(v^{\mathrm h})=v.
-\]
+$$
 
 ## Equivalent characterizations
 

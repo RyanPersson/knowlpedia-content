@@ -2,20 +2,17 @@
 id = "real-analysis/derivative"
 title = "Derivative"
 kind = "knowl"
-summary = "The limit of the difference quotient, measuring instantaneous rate of change."
+summary = "The limit of a function's difference quotient at an interior point."
 aliases = ["derivative"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/derivative.md"
 +++
 
-A **derivative** is the number $f'(a)$ defined for a [[shared-foundations/function|function]] $f:I\to\mathbb{R}$ at a point $a\in I$ by
-$f'(a)=\lim_{h\to 0}\frac{f(a+h)-f(a)}{h}$, provided this limit exists.
-
-
-## Examples
-
-- For $f(x)=x^2$, the derivative exists everywhere and $f'(x)=2x$.
-- For $f(x)=|x|$, the derivative does not exist at $a=0$.
+A [[shared-foundations/function|function]] $f:I\to\mathbb R$, defined on an open interval $I$, is **differentiable at** $a\in I$ if the finite limit
+$$
+f'(a)=\lim_{h\to0}\frac{f(a+h)-f(a)}{h}
+$$
+exists. The number $f'(a)$ is the **derivative of $f$ at $a$**.
 
 ## Remarks
 

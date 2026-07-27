@@ -9,15 +9,15 @@ legacy_source_path = "linear-algebra/inner-product.md"
 +++
 
 An **inner product** on a [[linear-algebra/vector-space|vector space]] $V$ over $\mathbb{F}=\mathbb{R}$ or $\mathbb{C}$ is a map
-\[
+$$
 \langle\cdot,\cdot\rangle:V\times V\to\mathbb{F}
-\]
+$$
 such that for all $u,v,w\in V$ and $a,b\in\mathbb{F}$:
-\[
+$$
 \langle au+bw,\,v\rangle=a\langle u,v\rangle+b\langle w,v\rangle,\qquad
 \langle u,v\rangle=\overline{\langle v,u\rangle},\qquad
 \langle v,v\rangle\ge 0\ \text{and }\langle v,v\rangle=0\iff v=0.
-\]
+$$
 
 ## Remarks
 

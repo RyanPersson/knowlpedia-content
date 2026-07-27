@@ -9,12 +9,12 @@ legacy_source_path = "algebra-groups/left-multiplication-action.md"
 +++
 
 **Proposition (Left multiplication action).**
-Let $G$ be a [[algebra-groups/group|group]]. Define a map $G\times G\to G$ by
-$$
+Let \(G\) be a [[algebra-groups/group|group]]. The formula
+\[
 g\cdot x := gx.
-$$
+\]
 
-Then this defines a [[algebra-groups/group-action|group action]] of $G$ on the underlying set of $G$.
+defines a [[algebra-groups/group-action|group action]] of \(G\) on its underlying set.
 
 Moreover, this action is:
 - **transitive** (there is one orbit), and
@@ -24,5 +24,4 @@ hence it is a [[algebra-groups/regular-action|regular action]], often called the
 
 ## Remarks
 
-**Context.**
-This action is the input for [[algebra-groups/cayleys-theorem|Cayley's theorem]]: it produces an injective homomorphism from $G$ into a symmetric group by viewing elements as permutations of $G$.
+This action is the input for [[algebra-groups/cayleys-theorem|Cayley's theorem]]: it sends each element of \(G\) to a permutation of \(G\), producing an injective homomorphism into a symmetric group.

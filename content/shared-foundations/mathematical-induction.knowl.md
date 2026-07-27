@@ -8,7 +8,7 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/mathematical-induction.md"
 +++
 
-**Mathematical induction:** Let $P(n)$ be a statement about $n\in\mathbb{N}$. If $P(0)$ is true and for every $n\in\mathbb{N}$ the implication $P(n)\Rightarrow P(n+1)$ holds, then $P(n)$ is true for all $n\in\mathbb{N}$.
+**Mathematical induction:** Let \(P(n)\) be a statement about \(n\in\mathbb{N}\). If \(P(0)\) is true and for every \(n\in\mathbb{N}\) the implication \(P(n)\Rightarrow P(n+1)\) holds, then \(P(n)\) is true for all \(n\in\mathbb{N}\).
 
 ## Remarks
 

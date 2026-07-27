@@ -16,7 +16,7 @@ given by the finite-dimensional Gaussian integral on \(\mathrm{ran}(P)\).
 
 **Key properties (paper use):**
 - Defines \(L_p(M,n)\) spaces used throughout §3.
-- Quasi-invariance under $T$ holds exactly for $T\in \mathrm{rGL}(M)$ (see [[shale-paper/restricted-general-linear-group-rgl|restricted general linear group]]).
+- Quasi-invariance under \(T\) holds exactly for \(T\in \mathrm{rGL}(M)\) (see [[shale-paper/restricted-general-linear-group-rgl|restricted general linear group]]).
 
 ## Examples
 

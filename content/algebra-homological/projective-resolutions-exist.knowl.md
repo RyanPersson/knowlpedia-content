@@ -22,10 +22,6 @@ is [[algebra-homological/exact-complex|exact]] in all positive degrees and has \
 
 **Theorem (existence).** Every \(R\)-module \(M\) admits a projective resolution. In fact, one can choose each \(P_i\) to be a [[algebra-modules/free-module|free module]] (a *free resolution*).
 
-## Equivalent characterizations
-
-Equivalently, the category of \(R\)-modules has **enough projectives**: every module is a quotient of a projective module.
-
 ## Construction (standard free resolution)
 Choose a surjection \(F_0 \twoheadrightarrow M\) with \(F_0\) free (e.g. take \(F_0 = R^{(M)}\), the free module on the underlying set of \(M\)). Let
 \[
@@ -37,10 +33,6 @@ Then choose a surjection \(F_1 \twoheadrightarrow K_1\) with \(F_1\) free, set \
 \]
 with all \(F_i\) free, hence projective.
 
-## Remarks
-
-Cross-links: [[algebra-modules/exact-sequence-modules|exact sequences]], [[algebra-homological/chain-complex|chain complexes]], [[algebra-homological/projective-resolution|projective resolutions]].
-
 ## Examples
 
 ### Example 1: A length-1 resolution of \(\mathbb Z/n\mathbb Z\) over \(\mathbb Z\)
@@ -51,7 +43,7 @@ As a \(\mathbb Z\)-module,
 is exact, and the two copies of \(\mathbb Z\) are free (hence projective). Thus it is a projective resolution of \(\mathbb Z/n\mathbb Z\).
 
 ### Example 2: The principal-ideal case \(R/(f)\)
-For any ring \(R\) and element \(f\in R\), the sequence
+For any ring \(R\) and central element \(f\in R\), the sequence of left \(R\)-modules
 \[
 0 \longrightarrow R \xrightarrow{\;\cdot f\;} R \longrightarrow R/(f) \longrightarrow 0
 \]

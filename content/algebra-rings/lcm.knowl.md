@@ -9,15 +9,16 @@ legacy_source_path = "algebra-rings/lcm.md"
 +++
 
 Let $R$ be an [[algebra-rings/integral-domain|integral domain]] and let $a,b\in R$. A **least common multiple** of $a$ and $b$ is an element $m\in R$ such that:
-1. $a\mid m$ and $b\mid m$, and
+
+1. $a\mid m$ and $b\mid m$;
 2. if $a\mid n$ and $b\mid n$, then $m\mid n$.
 
 ## Remarks
 
-An lcm is unique up to [[algebra-rings/associated-elements|associates]]. In settings where [[algebra-rings/gcd|gcds]] exist, one often has the relation $m\cdot d$ is associate to $ab$, where $d$ is a gcd of $a$ and $b$.
+An lcm is unique up to [[algebra-rings/associated-elements|associates]]. In a principal ideal domain or a unique factorization domain, if $d$ is a [[algebra-rings/gcd|gcd]] of $a,b$ and $m$ is an lcm, then $dm$ is associate to $ab$.
 
 ## Examples
 
-- In $\mathbb{Z}$, $\mathrm{lcm}(12,18)=36$.
-- In $k[x]$, $\mathrm{lcm}(x,x^2)=x^2$ (up to multiplication by a nonzero scalar).
-- For any $a\in R$, a least common multiple of $a$ and $0$ is $0$.
+- In $\mathbb Z$, $\operatorname{lcm}(12,18)=36$.
+- In $k[x]$, an lcm of $x$ and $x^2$ is $x^2$, up to multiplication by a nonzero scalar.
+- For any $a\in R$, an lcm of $a$ and $0$ is $0$.

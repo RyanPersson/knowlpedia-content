@@ -9,9 +9,9 @@ legacy_source_path = "real-analysis/supremum-norm.md"
 +++
 
 The **supremum norm** of a bounded function $f:X\to\mathbb{R}$ is
-\[
+$$
 \|f\|_\infty=\sup_{x\in X} |f(x)|.
-\]
+$$
 Here $\sup$ denotes the [[real-analysis/supremum|supremum]] and $|\cdot|$ is the [[real-analysis/absolute-value|absolute value]].
 
 ## Remarks

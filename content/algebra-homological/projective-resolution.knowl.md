@@ -2,7 +2,7 @@
 id = "algebra-homological/projective-resolution"
 title = "Projective resolution"
 kind = "knowl"
-summary = "An exact chain complex of projective modules ending in a given module M, used to compute Tor and Ext."
+summary = "An exact augmented chain complex of projective modules resolving a given module."
 aliases = ["projective-resolution", "Projective resolution"]
 domains = ["algebra-homological"]
 legacy_source_path = "algebra-homological/projective-resolution.md"
@@ -32,7 +32,7 @@ A projective resolution is **free** if each \(P_i\) is [[algebra-modules/free-mo
 
 Existence in module categories is guaranteed by [[algebra-homological/projective-resolutions-exist|projective resolutions exist]].
 
-## What resolutions are for
+## Applications
 - For any \(R\)-module \(N\), the homology of \(P_\bullet\otimes_R N\) computes [[algebra-homological/tor|Tor]]:
   \[
   H_i(P_\bullet\otimes_R N)\cong \mathrm{Tor}_i^R(M,N).

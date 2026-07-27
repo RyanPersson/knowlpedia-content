@@ -9,9 +9,9 @@ legacy_source_path = "algebra-groups/conjugacy-class.md"
 +++
 
 Let $G$ be a [[algebra-groups/group|group]] and let $g\in G$. The **conjugacy class of $g$ in $G$** is the subset
-$
+$$
 \mathrm{Cl}_G(g)=\{xgx^{-1} : x\in G\}.
-$
+$$
 
 ## Equivalent characterizations
 

@@ -8,17 +8,16 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/partial-derivative.md"
 +++
 
-A **partial derivative** of a map $f:U\to \mathbb{R}^m$ (with $U\subseteq \mathbb{R}^n$) at $a=(a_1,\dots,a_n)\in U$ with respect to the $j$th coordinate is the limit
+Let $U\subseteq\mathbb R^n$ be open, $f:U\to\mathbb R^m$, and $a\in U$. The **partial derivative of $f$ at $a$ with respect to the $j$-th coordinate** is
 $$
 \frac{\partial f}{\partial x_j}(a)
-=\lim_{t\to 0}\frac{f(a_1,\dots,a_j+t,\dots,a_n)-f(a_1,\dots,a_n)}{t},
+=\lim_{t\to0}\frac{f(a+t e_j)-f(a)}{t},
 $$
+when this limit exists in $\mathbb R^m$.
 
-when it exists (for vector-valued $f$, this limit is taken in $\mathbb{R}^m$).
-
-Partial derivatives are one-coordinate versions of the [[real-analysis/limit-at-a-point|limit at a point]] and are the entries used to build the [[real-analysis/jacobian-matrix|Jacobian matrix]]. Existence of all partial derivatives at $a$ does not by itself guarantee that $f$ is a [[real-analysis/differentiable-map|differentiable map]] at $a$.
+Partial derivatives are the entries of the [[real-analysis/jacobian-matrix|Jacobian matrix]]. Existence of every partial derivative at $a$ does not by itself imply that $f$ is [[real-analysis/differentiable-map|differentiable]] at $a$.
 
 ## Examples
 
-- For $f(x,y)=x^2y$, one has $\frac{\partial f}{\partial x}(x,y)=2xy$ and $\frac{\partial f}{\partial y}(x,y)=x^2$.
-- For $f(x,y)=|x|$, the partial derivative $\frac{\partial f}{\partial x}(0,y)$ does not exist (for any $y$), since the corresponding one-variable derivative at $0$ fails to exist.
+- For $f(x,y)=x^2y$, one has $\frac{\partial f}{\partial x}=2xy$ and $\frac{\partial f}{\partial y}=x^2$.
+- For $f(x,y)=|x|$, the partial derivative $\frac{\partial f}{\partial x}(0,y)$ does not exist.

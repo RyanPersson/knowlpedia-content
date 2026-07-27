@@ -7,6 +7,16 @@ aliases = ["octahedral axiom", "octahedron axiom", "TR4"]
 domains = ["algebra-category-theory", "algebra-homological"]
 +++
 
-The **octahedral axiom** concerns composable morphisms \(X\xrightarrow{f}Y\xrightarrow{g}Z\) in a [[algebra-category-theory/pretriangulated-category|pretriangulated category]]. Choose distinguished triangles for \(f\), \(g\), and \(g\circ f\). The axiom requires connecting morphisms between their third objects so that the resulting octahedral diagram commutes and those third objects themselves form a [[algebra-category-theory/distinguished-triangle|distinguished triangle]].
+Let $\mathcal T$ be a [[algebra-category-theory/pretriangulated-category|pretriangulated category]], and let $X\xrightarrow{f}Y\xrightarrow{g}Z$ be composable morphisms. Complete $f$, $g$, and $gf$ to distinguished triangles, with third objects $C_f$, $C_g$, and $C_{gf}$. The **octahedral axiom** asserts that these triangles can be connected by morphisms
+$$
+C_f\longrightarrow C_{gf}\longrightarrow C_g
+$$
+so that the standard octahedral diagram commutes and
+$$
+C_f\longrightarrow C_{gf}\longrightarrow C_g\longrightarrow \Sigma C_f
+$$
+is a [[algebra-category-theory/distinguished-triangle|distinguished triangle]].
 
-Conceptually, it states that forming cones is coherent with composition. It is often labeled TR4. In mathlib, `IsTriangulated` is precisely the assertion that the required octahedron exists for every such composable pair and choices of distinguished triangles.
+## Interpretation
+
+The axiom says that forming cones is coherent with composition. It is often labeled TR4.

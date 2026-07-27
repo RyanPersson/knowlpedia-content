@@ -8,15 +8,19 @@ domains = ["real-analysis"]
 legacy_source_path = "real-analysis/iterated-integral.md"
 +++
 
-An **iterated integral** of a function $f$ on a rectangle $[a,b]\times[c,d]$ is an integral obtained by integrating in one variable first and then integrating the resulting function in the other variable. For example, the $y$-then-$x$ iterated integral is
+An **iterated integral** of \(f:[a,b]\times[c,d]\to\mathbb R\) integrates in one variable and then the other. The \(y\)-then-\(x\) iterated integral is
 \[
 \int_a^b\left(\int_c^d f(x,y)\,dy\right)dx,
 \]
-provided that for each $x\in[a,b]$ the inner [[real-analysis/riemann-integral|Riemann integral]] $\int_c^d f(x,y)\,dy$ exists and the resulting function of $x$ is Riemann integrable on $[a,b]$.
+provided that the inner [[real-analysis/riemann-integral|Riemann integral]] exists for every \(x\in[a,b]\) and the resulting function of \(x\) is Riemann integrable.
 
 Iterated integrals are compared with the [[real-analysis/multiple-riemann-integral|multiple Riemann integral]]; under appropriate hypotheses they agree by [[real-analysis/fubini-theorem-riemann|Fubini's theorem (Riemann)]].
 
 ## Examples
 
-- For $f(x,y)=xy$ on $[0,1]\times[0,1]$, one gets $\int_0^1\left(\int_0^1 xy\,dy\right)dx=\int_0^1 (x/2)\,dx=1/4$.
-- If $f(x,y)=g(x)h(y)$ where $g$ is Riemann integrable on $[a,b]$ and $h$ is Riemann integrable on $[c,d]$, then the iterated integral (when defined) equals $\left(\int_a^b g(x)\,dx\right)\left(\int_c^d h(y)\,dy\right)$.
+- For \(f(x,y)=xy\) on \([0,1]^2\), the iterated integral is \(1/4\).
+- If \(f(x,y)=g(x)h(y)\), then the iterated integral equals
+  \[
+  \left(\int_a^b g(x)\,dx\right)\left(\int_c^d h(y)\,dy\right)
+  \]
+  whenever the one-variable integrals exist.
