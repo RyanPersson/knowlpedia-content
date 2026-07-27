@@ -23,7 +23,7 @@ This identity is **Cartan’s second structure equation**, where $d$ is the [[fi
 \]
 using the [[fiber-bundles/lie-bracket|Lie bracket]] on $\mathfrak{gl}(n,\mathbb{R})$.
 
-The form $\Omega$ is horizontal and $G$-equivariant. Under the usual correspondence between principal connections on $F(M)$ and linear connections on $TM$, $\Omega$ encodes the Riemann curvature tensor of the induced connection on the [[fiber-bundles/tangent-bundle|tangent bundle]].
+The form $\Omega$ is horizontal and $G$-equivariant. Under the usual correspondence between principal connections on $F(M)$ and linear connections on $TM$, $\Omega$ encodes the [[differential-geometry/riemann-curvature-tensor|Riemann curvature tensor]] of the induced connection on the [[fiber-bundles/tangent-bundle|tangent bundle]].
 
 ## Examples
 

@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/integrality-of-chern-classes.md"
 +++
 
-Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $E\to M$ be a complex vector bundle of rank $r$, equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] $\nabla$ with [[fiber-bundles/curvature|curvature]] $F_\nabla$.
+Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $E\to M$ be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] of rank $r$, equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] $\nabla$ with [[fiber-bundles/curvature|curvature]] $F_\nabla$.
 
 ## Theorem (integrality)
 
@@ -36,17 +36,17 @@ This integrality is the precise sense in which Chern classes are “integral” 
 
 ## Examples
 
-1. **Complex line bundles over the 2-sphere.**  
+1. **Complex [[fiber-bundles/line-bundle|line bundles]] over the 2-sphere.**
    For a complex line bundle $L\to S^2$ with any connection, the $2$-form $c_1(L,\nabla)=\frac{i}{2\pi}F_\nabla$ satisfies
    \[
    \int_{S^2} \frac{i}{2\pi}F_\nabla \in \mathbb{Z},
    \]
-   and that integer is the degree (first Chern number) of $L$.
+   and that integer is the degree (first [[fiber-bundles/chern-number|Chern number]]) of $L$.
 
-2. **The tautological line bundle over complex projective space.**  
+2. **The tautological line bundle over complex projective space.**
    For the tautological line bundle $\mathcal{O}(-1)\to \mathbb{CP}^n$, the class $c_1(\mathcal{O}(-1))$ generates $H^2(\mathbb{CP}^n;\mathbb{Z})\cong\mathbb{Z}$. Any Chern–Weil representative integrates to an integer over any embedded $\mathbb{CP}^1\subset\mathbb{CP}^n$.
 
-3. **Direct sums preserve integrality.**  
+3. **Direct sums preserve integrality.**
    If $E=L_1\oplus\cdots\oplus L_r$ is a sum of line bundles, then the total Chern class satisfies
    \[
    c(E)=\prod_{j=1}^r \bigl(1+c_1(L_j)\bigr),

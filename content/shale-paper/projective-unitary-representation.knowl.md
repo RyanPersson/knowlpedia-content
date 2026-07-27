@@ -1,9 +1,9 @@
 +++
 id = "shale-paper/projective-unitary-representation"
-title = "Projective Unitary Representation"
+title = "Projective unitary representation in the Shale paper"
 kind = "knowl"
 summary = "A group action by unitaries defined only up to phase (unitary rays)"
-aliases = ["projective-unitary-representation", "Projective Unitary Representation"]
+aliases = ["Shale-paper projective unitary representation"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/projective-unitary-representation.md"
 +++

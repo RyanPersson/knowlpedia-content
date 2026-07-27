@@ -13,4 +13,4 @@ J:TM\to TM
 \]
 such that \(J^2=-\operatorname{id}_{TM}\). Thus each real [[differential-geometry/tangent-space|tangent space]] becomes a complex vector space by declaring multiplication by \(i\) to be \(J\). In particular, \(M\) must have even real dimension.
 
-Every [[differential-geometry/complex-manifold|complex manifold]] has a canonical almost-complex structure. An arbitrary almost-complex structure need not come from complex coordinate charts; when it does, it is [[differential-geometry/integrable-almost-complex-structure|integrable]].
+Every [[differential-geometry/complex-manifold|complex manifold]] has a canonical almost-complex structure. An arbitrary almost-complex structure need not come from [[differential-geometry/complex-coordinate-chart|complex coordinate charts]]; when it does, it is [[differential-geometry/integrable-almost-complex-structure|integrable]].

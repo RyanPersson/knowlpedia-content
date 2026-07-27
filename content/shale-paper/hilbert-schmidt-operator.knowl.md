@@ -1,9 +1,9 @@
 +++
 id = "shale-paper/hilbert-schmidt-operator"
-title = "Hilbert–Schmidt Operator"
+title = "Hilbert–Schmidt operator in the Shale paper"
 kind = "knowl"
 summary = "An operator with finite ℓ²-norm of matrix coefficients (Schatten class 2)"
-aliases = ["hilbert-schmidt-operator", "Hilbert–Schmidt Operator"]
+aliases = ["Shale-paper Hilbert–Schmidt operator"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/hilbert-schmidt-operator.md"
 +++

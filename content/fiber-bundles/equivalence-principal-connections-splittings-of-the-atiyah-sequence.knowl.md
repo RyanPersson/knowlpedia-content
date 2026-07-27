@@ -10,7 +10,7 @@ legacy_source_path = "fiber-bundles/equivalence-principal-connections-splittings
 
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure [[fiber-bundles/lie-group|Lie group]] $G$ and Lie algebra $\mathfrak g$.
 
-The Atiyah sequence is the short exact sequence of vector bundles over $M$
+The [[fiber-bundles/atiyah-sequence-tpgtm0|Atiyah sequence]] is the [[fiber-bundles/short-exact-sequence-of-vector-bundles|short exact sequence of vector bundles]] over $M$
 \[
 0\longrightarrow \operatorname{ad}(P)\longrightarrow TP/G \xrightarrow{\,a\,} TM \longrightarrow 0,
 \]

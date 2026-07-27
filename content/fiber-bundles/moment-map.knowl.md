@@ -28,6 +28,6 @@ Such a map $\mu$ is called a **moment map**. Often one additionally requires $G$
 A useful reformulation is that in [[fiber-bundles/equivariant-cohomology|equivariant cohomology]] (Cartan model), the pair $(\omega,\mu)$ combines into an equivariantly closed degree-2 element.
 
 ## Examples
-1. **Rotation of the plane.** For the $S^1$-action on $\mathbb{R}^2\cong \mathbb{C}$ by rotations and $\omega=dx\wedge dy$, a moment map is $\mu(z)=\tfrac12|z|^2$ (identifying $(\mathfrak{u}(1))^*\cong \mathbb{R}$).
+1. **Rotation of the plane.** For the standard counterclockwise $S^1$-action on $\mathbb{R}^2\cong \mathbb{C}$, the unsigned left-action generator, and $\omega=dx\wedge dy$, a moment map is $\mu(z)=-\tfrac12|z|^2$ (identifying $(\mathfrak{u}(1))^*\cong \mathbb{R}$).
 2. **Height on the 2-sphere.** For the standard rotation action of $S^1$ on $S^2$ around the vertical axis with the area form, a moment map is the height function (up to an additive constant).
-3. **Cotangent lift.** If $G$ acts on a manifold $Q$, the induced action on $T^*Q$ with its canonical symplectic form is Hamiltonian, with moment map $\mu(q,p)(\xi)=p(\xi_Q(q))$.
+3. **[[differential-geometry/cotangent-lift|Cotangent lift]].** If $G$ acts on a manifold $Q$, the induced action on $T^*Q$ with its canonical symplectic form is Hamiltonian, with moment map $\mu(q,p)(\xi)=p(\xi_Q(q))$.

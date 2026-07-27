@@ -31,7 +31,7 @@ The following are equivalent:
    \[
    P/H \;:=\; P\times_G (G/H),
    \]
-   sometimes called the bundle of cosets (compare [[fiber-bundles/bundle-of-orbits|bundle of orbits]] in the special case of homogeneous fibers). Then $P$ admits a reduction of structure group to $H$ if and only if $P/H\to M$ admits a smooth global section.
+   sometimes called the bundle of cosets (compare [[fiber-bundles/bundle-of-orbits|bundle of orbits]] in the special case of homogeneous fibers). Then $P$ admits a reduction of structure group to $H$ if and only if $P/H\to M$ admits a smooth [[fiber-bundles/section-of-a-fiber-bundle|global section]].
 
 In (4), given a reduction $Q\subset P$, the corresponding section of $P/H$ sends $x\in M$ to the coset represented by any $q\in Q_x$. Conversely, a section selects an $H$-orbit in each fiber of $P$, and its preimage defines the reduced subbundle $Q$.
 

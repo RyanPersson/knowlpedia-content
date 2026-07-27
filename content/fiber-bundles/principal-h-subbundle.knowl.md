@@ -18,6 +18,6 @@ A **principal H-subbundle** of $P$ is a submanifold $Q\subset P$ such that:
 Then $(Q,\pi|_Q,M,H)$ is a principal $H$-bundle, and the inclusion $Q\hookrightarrow P$ is $H$-equivariant. Giving such a subbundle is precisely the concrete form of a [[fiber-bundles/reduction-of-structure-group|reduction of structure group]] from $G$ to $H$.
 
 ## Examples
-1. **Orthonormal frames.** For a Riemannian manifold, the orthonormal frame bundle is a principal $O(n)$-subbundle of the full frame bundle (a $GL(n)$-bundle).
+1. **Orthonormal frames.** For a [[differential-geometry/riemannian-manifold|Riemannian manifold]], the orthonormal frame bundle is a principal $O(n)$-subbundle of the full frame bundle (a $GL(n)$-bundle).
 2. **Trivial bundle subgroups.** If $P=M\times G$, then $Q:=M\times H$ is a principal $H$-subbundle.
-3. **Unit circle subbundle of a line bundle.** For a Hermitian complex line bundle $L\to M$, the unit circle bundle $S(L)$ is a principal $U(1)$-subbundle of the principal $\mathbb{C}^\ast$-bundle of nonzero vectors in $L$.
+3. **Unit circle subbundle of a [[fiber-bundles/line-bundle|line bundle]].** For a Hermitian complex line bundle $L\to M$, the unit circle bundle $S(L)$ is a principal $U(1)$-subbundle of the principal $\mathbb{C}^\ast$-bundle of nonzero vectors in $L$.

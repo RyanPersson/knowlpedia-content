@@ -8,9 +8,9 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/lie-algebra-valued-k-form.md"
 +++
 
-Let $M$ be a smooth manifold and let [[lie-groups/lie-algebra|Lie algebra]] $\mathfrak{g}$ be fixed.
+Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let [[lie-groups/lie-algebra|Lie algebra]] $\mathfrak{g}$ be fixed.
 
-A **$\mathfrak{g}$-valued differential k-form** on $M$ is a smooth section of the vector bundle
+A **$\mathfrak{g}$-valued [[fiber-bundles/differential-k-form|differential k-form]]** on $M$ is a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of the [[fiber-bundles/vector-bundle|vector bundle]]
 \[
 \Lambda^k T^*M \otimes \mathfrak{g} \;\longrightarrow\; M.
 \]

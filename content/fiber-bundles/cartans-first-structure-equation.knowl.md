@@ -47,7 +47,7 @@ d\theta+\omega\wedge\theta=0.
    On $M=\mathbb{R}^n$ with its global coordinate frame, the induced connection has $\omega=0$ in that frame and $\theta$ pulls back to the standard coframe. Hence $d\theta=0$ and $\Theta=0$.
 
 2. **Levi-Civita connection (torsion-free case).**
-   For a Riemannian manifold, the Levi-Civita connection is torsion-free, so in any local orthonormal coframe $\{\theta^i\}$ with connection $1$-forms $\{\omega^i{}_j\}$ one has the classical component form
+   For a [[differential-geometry/riemannian-manifold|Riemannian manifold]], the Levi-Civita connection is torsion-free, so in any local orthonormal coframe $\{\theta^i\}$ with connection $1$-forms $\{\omega^i{}_j\}$ one has the classical component form
    \[
    d\theta^i+\omega^i{}_j\wedge\theta^j=0,
    \]

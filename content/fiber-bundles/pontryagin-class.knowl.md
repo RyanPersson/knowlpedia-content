@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/pontryagin-class.md"
 +++
 
-Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\pi:E\to M$ be a real vector bundle of rank $r$. Choose a bundle metric on $E$ and a compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] $\nabla$ (so the structure group reduces to $O(r)$). Let $F_\nabla\in\Omega^2(M;\mathfrak{so}(E))$ be its [[fiber-bundles/curvature|curvature]].
+Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\pi:E\to M$ be a real [[fiber-bundles/vector-bundle|vector bundle]] of rank $r$. Choose a [[fiber-bundles/bundle-metric|bundle metric]] on $E$ and a compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] $\nabla$ (so the structure group reduces to $O(r)$). Let $F_\nabla\in\Omega^2(M;\mathfrak{so}(E))$ be its [[fiber-bundles/curvature|curvature]].
 
 ## Definition (Pontryagin forms and Pontryagin classes)
 Let $E^{\mathbb C}:=E\otimes_{\mathbb R}\mathbb C$ be the complexification, and let $\nabla^{\mathbb C}$ be the induced complex connection. Define the **Pontryagin forms** by
@@ -32,7 +32,7 @@ p_k(f^*E)=f^*p_k(E).
 ## Examples
 1. **Trivial bundle / flat connection.** If $E\cong M\times\mathbb R^r$ with the flat connection, then $F_\nabla=0$, hence $p_k(\nabla)=0$ for all $k\ge 1$, and thus $p_k(E)=0$.
 
-2. **Underlying real bundle of a complex line bundle.** Let $L\to M$ be a complex line bundle with $c_1(L)=x\in H^2(M;\mathbb Z)$. For the underlying real rank-2 bundle $L_{\mathbb R}$ one has
+2. **Underlying real bundle of a [[fiber-bundles/line-bundle|complex line bundle]].** Let $L\to M$ be a complex line bundle with $c_1(L)=x\in H^2(M;\mathbb Z)$. For the underlying real rank-2 bundle $L_{\mathbb R}$ one has
    \[
    p_1(L_{\mathbb R})=x^2\in H^4(M;\mathbb Z),
    \]

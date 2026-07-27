@@ -39,7 +39,7 @@ Given a smooth function \(H\in C^\infty(M)\) (a Hamiltonian), the **Hamiltonian 
 $$
 \iota_{X_H}\omega = dH.
 $$
-Nondegeneracy guarantees \(X_H\) exists and is unique. The flow of \(X_H\) preserves \(\omega\) (it is a symplectomorphism flow).
+Nondegeneracy guarantees \(X_H\) exists and is unique. The flow of \(X_H\) preserves \(\omega\) (it is a [[differential-geometry/symplectomorphism|symplectomorphism]] flow).
 
 ### Closedness and Stokes
 Because \(d\omega=0\), Stokes' theorem implies that \(\omega\) integrates to zero over boundaries: for any suitable \(3\)-chain \(C\),

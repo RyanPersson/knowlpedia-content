@@ -53,7 +53,7 @@ so the vector bundle transition functions are obtained by composing the principa
    TM \cong Fr(M)\times_{GL(n,\mathbb{R})}\mathbb{R}^n.
    \]
 
-2. **Complex line bundles from principal $U(1)$-bundles**
+2. **Complex [[fiber-bundles/line-bundle|line bundles]] from principal $U(1)$-bundles**
    If $P\to M$ is a principal $U(1)$-bundle and $\rho:U(1)\to GL(1,\mathbb{C})$ is the standard character $\rho(e^{i\theta})=e^{i\theta}$, then
    \[
    L := P\times_{U(1)}\mathbb{C}

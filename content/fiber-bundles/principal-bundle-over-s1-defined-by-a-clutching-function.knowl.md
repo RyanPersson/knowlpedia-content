@@ -10,7 +10,7 @@ legacy_source_path = "fiber-bundles/principal-bundle-over-s1-defined-by-a-clutch
 
 This is the $1$-dimensional case of the general [[fiber-bundles/clutching-function|clutching construction]] for bundles.
 
-Let $G$ be a Lie group, and consider the circle as a quotient $S^1 \cong [0,1]/(0\sim 1)$.
+Let $G$ be a [[fiber-bundles/lie-group|Lie group]], and consider the circle as a quotient $S^1 \cong [0,1]/(0\sim 1)$.
 
 ## Construction (gluing by an element of G)
 Fix an element $g\in G$. Define
@@ -34,11 +34,11 @@ One can describe this equivalently in transition-function language: choose an op
 - If $G$ is discrete (or more generally not connected), different clutching data can produce non-isomorphic bundles. Over $S^1$, the classification reduces to homomorphisms $\pi_1(S^1)\cong \mathbb Z\to G$ up to conjugation, i.e. conjugacy classes of elements of $G$, matching the intuition that $g$ records a “monodromy.”
 
 ## Examples
-1. **Discrete group G = Z2: trivial vs nontrivial double cover.**  
+1. **Discrete group G = Z2: trivial vs nontrivial double cover.**
    For $G=\mathbb Z_2=\{\pm 1\}$, the construction gives two isomorphism classes: $P_{+1}$ (trivial) and $P_{-1}$ (nontrivial). The nontrivial bundle corresponds to the connected double cover $S^1\to S^1$, $z\mapsto z^2$, viewed as a principal $\mathbb Z_2$-bundle.
 
-2. **O(1) bundles and the Möbius line bundle.**  
+2. **O(1) bundles and the Möbius [[fiber-bundles/line-bundle|line bundle]].**
    Since $O(1)\cong \mathbb Z_2$, the two principal $O(1)$-bundles over $S^1$ are exactly the ones above. The nontrivial principal $O(1)$-bundle yields, via the standard action on $\mathbb R$, the Möbius real line bundle as an associated vector bundle (compare [[fiber-bundles/associated-vector-bundle|associated vector bundle]]).
 
-3. **Connected groups: U(1) gives only the trivial principal bundle over S1.**  
-   For $G=U(1)$ (connected), any choice of $g\in U(1)$ produces a bundle $P_g$ that is isomorphic to $S^1\times U(1)$. This is a concrete instance of the equivalence “bundle is trivial iff it admits a global section,” as in [[fiber-bundles/tfae-triviality-of-a-principal-g-bundle-principal-g-bundle-pm|the triviality criteria for principal bundles]].
+3. **Connected groups: U(1) gives only the trivial principal bundle over S1.**
+   For $G=U(1)$ (connected), any choice of $g\in U(1)$ produces a bundle $P_g$ that is isomorphic to $S^1\times U(1)$. This is a concrete instance of the equivalence “bundle is trivial iff it admits a [[fiber-bundles/section-of-a-fiber-bundle|global section]],” as in [[fiber-bundles/tfae-triviality-of-a-principal-g-bundle-principal-g-bundle-pm|the triviality criteria for principal bundles]].

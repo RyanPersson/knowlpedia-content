@@ -12,9 +12,9 @@ Let \(\pi:E\to M\) be a [[fiber-bundles/fibered-manifold|fibered manifold]] and 
 \[
 V_eE \;:=\; \ker(d\pi_e)\subset T_eE.
 \]
-Equivalently, viewing \(d\pi\) as a smooth bundle map \(d\pi:TE\to TM\) between the [[fiber-bundles/tangent-bundle|tangent bundle]]s, \(V_eE\) is the kernel of \(d\pi\) on the fiber over \(e\).
+Equivalently, viewing \(d\pi\) as a smooth [[fiber-bundles/bundle-map|bundle map]] \(d\pi:TE\to TM\) between the [[fiber-bundles/tangent-bundle|tangent bundle]]s, \(V_eE\) is the kernel of \(d\pi\) on the fiber over \(e\).
 
-By the submersion theorem, the fiber \(E_x=\pi^{-1}(x)\) is an embedded submanifold of \(E\), and
+By the submersion theorem, the fiber \(E_x=\pi^{-1}(x)\) is an [[differential-geometry/embedded-submanifold|embedded submanifold]] of \(E\), and
 \[
 T_e(E_x)=V_eE.
 \]

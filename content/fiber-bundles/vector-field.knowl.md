@@ -10,7 +10,7 @@ legacy_source_path = "fiber-bundles/vector-field.md"
 
 Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\pi:TM\to M$ denote its [[fiber-bundles/tangent-bundle|tangent bundle]].
 
-**Definition.** A **(smooth) vector field** on $M$ is a smooth map $X:M\to TM$ such that $\pi\circ X=\mathrm{id}_M$. Equivalently, $X$ is a smooth section of the tangent bundle, assigning to each $p\in M$ a tangent vector
+**Definition.** A **(smooth) vector field** on $M$ is a smooth map $X:M\to TM$ such that $\pi\circ X=\mathrm{id}_M$. Equivalently, $X$ is a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of the tangent bundle, assigning to each $p\in M$ a tangent vector
 \[
 X_p \in T_pM
 \]

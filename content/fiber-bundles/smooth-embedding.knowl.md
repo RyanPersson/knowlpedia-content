@@ -13,7 +13,7 @@ Let $f:M\to N$ be a [[fiber-bundles/smooth-map|smooth map]] between [[fiber-bund
 1. $f$ is a [[fiber-bundles/smooth-immersion|smooth immersion]] (equivalently, $\mathrm{d}f_p:T_pM\to T_{f(p)}N$ is injective for all $p\in M$), and
 2. $f$ is a topological embedding: it is a homeomorphism from $M$ onto the subset $f(M)\subset N$ equipped with the subspace topology.
 
-In this case $f$ identifies $M$ with an embedded submanifold of $N$: there is a unique smooth structure on $f(M)$ for which $f:M\to f(M)$ becomes a [[fiber-bundles/diffeomorphism|diffeomorphism]] and the inclusion $f(M)\hookrightarrow N$ is smooth.
+In this case $f$ identifies $M$ with an [[differential-geometry/embedded-submanifold|embedded submanifold]] of $N$: there is a unique smooth structure on $f(M)$ for which $f:M\to f(M)$ becomes a [[fiber-bundles/diffeomorphism|diffeomorphism]] and the inclusion $f(M)\hookrightarrow N$ is smooth.
 
 A common pitfall is that an injective immersion need not be an embedding: for example, the map $t\mapsto (e^{it},e^{i\alpha t})$ from $\mathbb{R}$ to the torus $S^1\times S^1$ is an injective immersion when $\alpha$ is irrational, but its image is dense and the inverse to $\mathbb{R}$ is not continuous, so it fails condition (2).
 

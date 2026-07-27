@@ -34,4 +34,4 @@ This map is the principal-bundle version of [[fiber-bundles/parallel-transport|p
 
 2. **Flat connection.** If the connection is flat (zero curvature), then $\tau_\gamma$ depends only on the homotopy class of $\gamma$ with fixed endpoints; the resulting representation of $\pi_1(M,x)$ is the holonomy representation.
 
-3. **Circle bundle phases.** For $G=U(1)$, $\tau_\gamma$ is multiplication by a phase factor in $U(1)$; on associated complex line bundles this is the usual phase change of a transported vector.
+3. **Circle bundle phases.** For $G=U(1)$, $\tau_\gamma$ is multiplication by a phase factor in $U(1)$; on associated complex [[fiber-bundles/line-bundle|line bundles]] this is the usual phase change of a transported vector.

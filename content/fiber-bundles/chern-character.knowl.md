@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/chern-character.md"
 +++
 
-Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $E\to M$ be a complex vector bundle equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection]] $\nabla$ with [[fiber-bundles/curvature|curvature]] $F_\nabla\in\Omega^2(M;\mathrm{End}(E))$.
+Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $E\to M$ be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection]] $\nabla$ with [[fiber-bundles/curvature|curvature]] $F_\nabla\in\Omega^2(M;\mathrm{End}(E))$.
 
 ## Definition (Chern character form and Chern character)
 The **Chern character form** of $\nabla$ is the even differential form
@@ -41,7 +41,7 @@ It is also additive under direct sum (already at the level of forms): if $\nabla
    \mathrm{ch}_0(E)=\mathrm{rank}_{\mathbb C}(E)\in H^0(M;\mathbb Q).
    \]
 
-2. **Line bundles.** For a complex line bundle $L\to M$ with first Chern class $c_1(L)\in H^2(M;\mathbb Z)$,
+2. **[[fiber-bundles/line-bundle|Line bundles]].** For a complex line bundle $L\to M$ with first Chern class $c_1(L)\in H^2(M;\mathbb Z)$,
    \[
    \mathrm{ch}(L)=\exp(c_1(L))=1+c_1(L)+\tfrac12 c_1(L)^2+\cdots
    \]

@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/hermitian-metric.md"
 +++
 
-Let $\pi:E\to M$ be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] over a smooth manifold $M$. A **Hermitian metric** on $E$ is an assignment, for each $x\in M$, of a Hermitian inner product
+Let $\pi:E\to M$ be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$. A **Hermitian metric** on $E$ is an assignment, for each $x\in M$, of a Hermitian inner product
 \[
 h_x:E_x\times E_x\to \mathbb C
 \]
@@ -31,4 +31,4 @@ A Hermitian metric is equivalent to a reduction of the structure group to the un
 
 2. **Complexification from a real metric.** If $E_\mathbb R\to M$ is a real bundle with a [[fiber-bundles/bundle-metric|bundle metric]] $g$, then its complexification $E_\mathbb R\otimes_\mathbb R\mathbb C$ carries a canonical Hermitian metric obtained by extending $g$ complex bilinearly and then taking the associated sesquilinear form.
 
-3. **Determinant metric.** A Hermitian metric on $E$ induces a Hermitian metric on the determinant line bundle $\det(E)=\Lambda^rE$ by declaring the wedge of an orthonormal frame to have unit norm.
+3. **Determinant metric.** A Hermitian metric on $E$ induces a Hermitian metric on the determinant [[fiber-bundles/line-bundle|line bundle]] $\det(E)=\Lambda^rE$ by declaring the wedge of an orthonormal frame to have unit norm.

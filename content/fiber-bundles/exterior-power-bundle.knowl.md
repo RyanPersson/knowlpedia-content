@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/exterior-power-bundle.md"
 +++
 
-Let $\pi:E\to M$ be a smooth vector bundle of rank $r$ over a [[fiber-bundles/smooth-manifold|smooth manifold]]. For an integer $k$ with $0\le k\le r$, the **k-th exterior power bundle** of $E$ is the vector bundle
+Let $\pi:E\to M$ be a smooth [[fiber-bundles/vector-bundle|vector bundle]] of rank $r$ over a [[fiber-bundles/smooth-manifold|smooth manifold]]. For an integer $k$ with $0\le k\le r$, the **k-th exterior power bundle** of $E$ is the vector bundle
 \[
 \Lambda^k E \to M
 \]
@@ -30,6 +30,6 @@ This exterior-power construction is compatible with the [[fiber-bundles/tensor-p
 ## Examples
 1. **Forms as sections.** Taking $E=T^*M$, the sections of $\Lambda^k T^*M$ are precisely smooth [[fiber-bundles/differential-k-form|differential k-forms]] on $M$.
 
-2. **Determinant line bundle.** For a rank $r$ bundle $E$, the top exterior power $\Lambda^r E$ is a line bundle, often denoted $\det(E)$. An [[fiber-bundles/orientation-of-a-real-vector-bundle|orientation]] of a real bundle can be encoded as a choice of “positive” component in $\det(E)\setminus\{0\}$.
+2. **Determinant [[fiber-bundles/line-bundle|line bundle]].** For a rank $r$ bundle $E$, the top exterior power $\Lambda^r E$ is a line bundle, often denoted $\det(E)$. An [[fiber-bundles/orientation-of-a-real-vector-bundle|orientation]] of a real bundle can be encoded as a choice of “positive” component in $\det(E)\setminus\{0\}$.
 
 3. **Low-degree cases.** $\Lambda^0E$ is canonically the trivial line bundle $M\times \mathbb F$, and $\Lambda^1E\cong E$ canonically.

@@ -37,5 +37,5 @@ These identities are the compatibility conditions ensuring that the local produc
 
 ## Examples
 1. **Trivial bundle.** If $P=M\times G$ with the standard trivializations on each $U_i$, then all transition functions are $g_{ij}\equiv e$.
-2. **Möbius band as an $O(1)$-bundle.** Over $S^1$ covered by two arcs, the nontrivial real line bundle has transition function $g_{12}\equiv -1\in O(1)$ on the overlap.
+2. **Möbius band as an $O(1)$-bundle.** Over $S^1$ covered by two arcs, the nontrivial [[fiber-bundles/line-bundle|real line bundle]] has transition function $g_{12}\equiv -1\in O(1)$ on the overlap.
 3. **Hopf bundle.** For $S^3\to S^2$ with the usual two-chart cover of $S^2$, the transition function on the overlap (homotopic to the equator) is a nontrivial map $S^1\to S^1$ representing the generator of $\pi_1(S^1)$.

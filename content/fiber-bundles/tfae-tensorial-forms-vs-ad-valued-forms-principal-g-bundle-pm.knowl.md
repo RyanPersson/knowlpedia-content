@@ -10,7 +10,7 @@ legacy_source_path = "fiber-bundles/tfae-tensorial-forms-vs-ad-valued-forms-prin
 
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$, where $G$ is a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] $\mathfrak g$.
 
-The **adjoint bundle** of $P$ is the associated vector bundle
+The **[[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint bundle]]** of $P$ is the [[fiber-bundles/associated-vector-bundle|associated vector bundle]]
 \[
 \operatorname{ad}(P):=P\times_{\operatorname{Ad}}\mathfrak g \;\longrightarrow\; M,
 \]
@@ -57,7 +57,7 @@ A key application is that the [[fiber-bundles/curvature|curvature]] of a [[fiber
    If $\Theta$ is a principal connection on $P$ with curvature $F_\Theta\in\Omega^2(P;\mathfrak g)$, then $F_\Theta$ is horizontal and $\operatorname{Ad}$-equivariant. The theorem identifies $F_\Theta$ with a unique element of $\Omega^2(M;\operatorname{ad}(P))$.
 
 2. **Trivial bundle case.**  
-   On the [[fiber-bundles/trivial-principal-bundle-mgm|trivial principal bundle]] $P=M\times G$, the adjoint bundle is canonically isomorphic to $M\times\mathfrak g$. Under this identification, a tensorial $\omega$ corresponds to an ordinary $\mathfrak g$-valued form on $M$ (written in a chosen global section), and the correspondence is given by pullback along the section and associated-bundle identification.
+   On the [[fiber-bundles/trivial-principal-bundle-mgm|trivial principal bundle]] $P=M\times G$, the adjoint bundle is canonically isomorphic to $M\times\mathfrak g$. Under this identification, a tensorial $\omega$ corresponds to an ordinary $\mathfrak g$-valued form on $M$ (written in a chosen [[fiber-bundles/section-of-a-fiber-bundle|global section]]), and the correspondence is given by pullback along the section and associated-bundle identification.
 
 3. **Scalar “basic” forms as a special case.**  
    If one replaces $\mathfrak g$ by a trivial $G$-representation (so equivariance becomes $G$-invariance), then horizontal $G$-invariant forms on $P$ correspond exactly to ordinary differential forms on $M$ via pullback along $\pi$.

@@ -25,10 +25,10 @@ There is a canonical smooth manifold structure on \(TM\) characterized as follow
 \]
 sending a tangent vector \(v\in T_pM\) to \((\varphi(p), (v^1,\dots,v^n))\) in the coordinate basis \(\left.\frac{\partial}{\partial x^i}\right|_p\) is a diffeomorphism onto an open subset of \(\mathbb{R}^{2n}\). These charts are compatible across a [[fiber-bundles/smooth-atlas|smooth atlas]] and make \(\pi:TM\to M\) into a smooth map.
 
-With this structure, \(TM\) is a rank-\(n\) vector bundle over \(M\): each fiber \(\pi^{-1}(p)=T_pM\) is a vector space, and the local identifications above give smooth local trivializations.
+With this structure, \(TM\) is a rank-\(n\) [[fiber-bundles/vector-bundle|vector bundle]] over \(M\): each fiber \(\pi^{-1}(p)=T_pM\) is a vector space, and the local identifications above give smooth [[fiber-bundles/local-trivialization|local trivializations]].
 
 ## Sections and vector fields
-A smooth section of \(\pi:TM\to M\) is the same thing as a [[fiber-bundles/vector-field|vector field]] on \(M\): it assigns to each \(p\in M\) a tangent vector \(X(p)\in T_pM\) smoothly in \(p\).
+A [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of \(\pi:TM\to M\) is the same thing as a [[fiber-bundles/vector-field|vector field]] on \(M\): it assigns to each \(p\in M\) a tangent vector \(X(p)\in T_pM\) smoothly in \(p\).
 
 ## Functoriality
 Any [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\) induces a map on tangent bundles

@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/equivariant-map-pf-associated-to-a-section-of-p-g-f.md"
 +++
 
-Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]], written using the standard convention that $P$ carries a right $G$-action (see [[fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p|the principal bundle action convention]]). Let $F$ be a smooth manifold with a left $G$-action, as in [[fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f|the associated bundle fiber action convention]].
+Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]], written using the standard convention that $P$ carries a right $G$-action (see [[fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p|the principal bundle action convention]]). Let $F$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] with a left $G$-action, as in [[fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f|the associated bundle fiber action convention]].
 
 Form the [[fiber-bundles/associated-bundle|associated bundle]]
 \[
@@ -17,7 +17,7 @@ E := P\times_G F \;\longrightarrow\; M,
 as in [[fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f|the construction of associated bundles]].
 
 ### Construction: section gives an equivariant map
-Let $s:M\to E$ be a smooth section. Define a map $\Phi_s:P\to F$ by the rule:
+Let $s:M\to E$ be a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]]. Define a map $\Phi_s:P\to F$ by the rule:
 - given $p\in P$ with $\pi(p)=x$, write the point $s(x)\in E_x$ as an equivalence class $[p,f]$, and set $\Phi_s(p):=f$.
 
 This is well-defined and smooth, and it satisfies the equivariance condition
@@ -40,20 +40,20 @@ Together, these constructions give a natural bijection
 \]
 
 ## Examples
-1. **Trivial principal bundle reduces equivariance to an ordinary map.**  
+1. **Trivial principal bundle reduces equivariance to an ordinary map.**
    If $P=M\times G$ is [[fiber-bundles/trivial-principal-bundle-mgm|trivial]], then any section of $E=(M\times G)\times_G F \cong M\times F$ is the same as a smooth map $u:M\to F$. The corresponding equivariant map is
    \[
    \Phi_u(x,g) = g^{-1}\cdot u(x).
    \]
 
-2. **Associated line bundle and equivariant complex-valued functions.**  
+2. **Associated [[fiber-bundles/line-bundle|line bundle]] and equivariant complex-valued functions.**
    Take $G=U(1)$ acting on $F=\mathbb C$ by scalar multiplication, and let $E=P\times_{U(1)}\mathbb C$ be the associated complex line bundle (see [[fiber-bundles/associated-vector-bundle|associated vector bundles]] for the general vector-bundle case). A section of $E$ corresponds to a smooth function $\Phi:P\to\mathbb C$ satisfying
    \[
    \Phi(p\cdot e^{i\theta}) = e^{-i\theta}\,\Phi(p).
    \]
    This is the standard “equivariant function” description of sections of a line bundle.
 
-3. **Adjoint bundle: sections as conjugation-equivariant maps.**  
+3. **Adjoint bundle: sections as conjugation-equivariant maps.**
    Let $F=G$ with the conjugation action, so $E=P\times_G G$ is the [[fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action|adjoint bundle]]. A section then corresponds to a map $\Phi:P\to G$ satisfying
    \[
    \Phi(p\cdot g)=g^{-1}\Phi(p)g.

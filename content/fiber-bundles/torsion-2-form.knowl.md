@@ -32,6 +32,6 @@ for [[fiber-bundles/vector-field|vector fields]] $X,Y$.
 A connection is **torsion-free** if and only if $\Theta=0$ (equivalently, $T\equiv 0$). The Levi–Civita connection is characterized by torsion-free plus metric compatibility (see [[fiber-bundles/levicivita-connection-connection|Levi–Civita connection]]).
 
 ## Examples
-1. **Levi–Civita.** For any Riemannian manifold, the torsion 2-form of the Levi–Civita connection vanishes identically.
+1. **Levi–Civita.** For any [[differential-geometry/riemannian-manifold|Riemannian manifold]], the torsion 2-form of the Levi–Civita connection vanishes identically.
 2. **Left-invariant “zero” connection on a Lie group.** On a Lie group $G$ with a chosen left-invariant framing, declaring the frame to be parallel (so connection coefficients vanish in that frame) produces torsion equal to minus the bracket of left-invariant fields, hence typically nonzero.
 3. **A coordinate connection with asymmetric Christoffel symbols.** On $\mathbb{R}^n$, defining a connection by $\nabla_{\partial_i}\partial_j = \Gamma^k_{ij}\partial_k$ with $\Gamma^k_{ij}\neq \Gamma^k_{ji}$ yields torsion components $T^k_{ij}=\Gamma^k_{ij}-\Gamma^k_{ji}$.

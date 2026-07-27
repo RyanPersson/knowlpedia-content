@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tfae-metric-compatible-connections-on-a-metric-vector-bundle.md"
 +++
 
-Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $(E,\langle\cdot,\cdot\rangle)\to M$ be a real vector bundle of rank $r$ equipped with a smoothly varying inner product on fibers. Let $\nabla$ be a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] on $E$.
+Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $(E,\langle\cdot,\cdot\rangle)\to M$ be a real [[fiber-bundles/vector-bundle|vector bundle]] of rank $r$ equipped with a smoothly varying inner product on fibers. Let $\nabla$ be a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] on $E$.
 
 ## Theorem (TFAE)
 
@@ -44,7 +44,7 @@ The following are equivalent:
 ## Examples
 
 1. **Levi-Civita connection on the tangent bundle.**  
-   On a Riemannian manifold, the Levi-Civita connection on the [[fiber-bundles/tangent-bundle|tangent bundle]] is metric-compatible by definition; its parallel transport preserves the Riemannian inner product on tangent spaces.
+   On a [[differential-geometry/riemannian-manifold|Riemannian manifold]], the Levi-Civita connection on the [[fiber-bundles/tangent-bundle|tangent bundle]] is metric-compatible by definition; its parallel transport preserves the Riemannian inner product on tangent spaces.
 
 2. **Trivial bundle with constant metric and trivial connection.**  
    If $E=M\times\mathbb{R}^r$ carries the standard dot product fiberwise and $\nabla$ is the componentwise derivative in the trivialization, then the connection forms are zero (hence skew), and parallel transport is the identity, so $\nabla$ is metric-compatible.

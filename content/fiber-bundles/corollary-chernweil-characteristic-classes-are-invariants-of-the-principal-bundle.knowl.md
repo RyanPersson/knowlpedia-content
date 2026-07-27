@@ -26,6 +26,6 @@ Equivalently, if \(\omega_0,\omega_1\) are two connections on \(P\), then
 is an exact [[fiber-bundles/differential-k-form|differential form]] on \(M\). Thus Chern–Weil characteristic classes are invariants of the underlying principal bundle.
 
 ## Examples
-1. **First Chern class of a line bundle.** For a principal \(U(1)\)-bundle (complex line bundle), choosing \(p\) to be the identity on \(\mathfrak u(1)\) gives a closed 2-form representing the first Chern class in real cohomology; changing the connection changes the representative by an exact form.
+1. **First Chern class of a [[fiber-bundles/line-bundle|line bundle]].** For a principal \(U(1)\)-bundle (complex line bundle), choosing \(p\) to be the identity on \(\mathfrak u(1)\) gives a closed 2-form representing the first Chern class in real cohomology; changing the connection changes the representative by an exact form.
 2. **Pontryagin classes.** For a principal \(SO(n)\)-bundle, invariant polynomials built from traces of powers of curvature produce the Pontryagin classes. For \(TM\), this shows Pontryagin classes are independent of the chosen Riemannian metric and its Levi–Civita connection.
-3. **Second Chern class for \(SU(2)\).** For a principal \(SU(2)\)-bundle over a 4-manifold, the invariant polynomial \(p(X,Y)=\mathrm{tr}(XY)\) yields a 4-form representing the second Chern class (instanton number), independent of the chosen connection.
+3. **Second Chern class for \(SU(2)\).** For a principal \(SU(2)\)-bundle over a 4-manifold, the invariant polynomial \(p(X,Y)=\mathrm{tr}(XY)\) yields a 4-form representing the second Chern class ([[fiber-bundles/instanton-number|instanton number]]), independent of the chosen connection.

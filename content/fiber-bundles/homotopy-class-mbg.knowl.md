@@ -28,4 +28,4 @@ This set is the target of the classification map sending a [[fiber-bundles/princ
 ## Examples
 1. **Spheres.** For $M=S^n$, there is a canonical identification [S^n,BG] $\cong \pi_n(BG)$.
 2. **Contractible bases.** If $M$ is contractible, then [M,BG] has exactly one element (every map is homotopic to a constant map).
-3. **Line bundles.** For $G=U(1)$ one has $BG\simeq \mathbb{C}P^\infty$, and [M,BG] corresponds to isomorphism classes of principal $U(1)$-bundles (equivalently complex line bundles) over $M$.
+3. **[[fiber-bundles/line-bundle|Line bundles]].** For $G=U(1)$ one has $BG\simeq \mathbb{C}P^\infty$, and [M,BG] corresponds to isomorphism classes of principal $U(1)$-bundles (equivalently complex line bundles) over $M$.

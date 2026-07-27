@@ -11,7 +11,7 @@ legacy_source_path = "lie-groups/peter-weyl-theorem.md"
 Let $G$ be a [[lie-groups/compact-lie-group|compact Lie group]].
 
 ## Theorem (Peter–Weyl)
-Consider the left-regular representation of $G$ on $L^2(G)$ (with respect to Haar measure). Then:
+Consider the left-regular representation of $G$ on $L^2(G)$ (with respect to [[harmonic-analysis/haar-measure|Haar measure]]). Then:
 
 1. (**Density of matrix coefficients**) The complex vector space spanned by matrix coefficients of finite-dimensional continuous unitary [[lie-groups/representation-of-a-lie-group|representations of $G$]] is dense in $C(G)$ in the uniform norm, and dense in $L^2(G)$ in the $L^2$-norm.
 

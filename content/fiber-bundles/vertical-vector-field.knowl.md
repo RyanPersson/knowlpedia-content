@@ -14,7 +14,7 @@ X_e\in V_eE\quad\text{equivalently}\quad d\pi_e(X_e)=0,
 \]
 where \(V_eE\) is the [[fiber-bundles/vertical-tangent-space|vertical tangent space]] at \(e\).
 
-Equivalently, \(X\) is a smooth section of the [[fiber-bundles/vertical-subbundle|vertical subbundle]] \(VE\subset TE\). Any integral curve of a vertical vector field lies entirely inside a single fiber \(E_x\). Consequently, wherever the local flow of \(X\) is defined, it yields fiberwise local [[fiber-bundles/diffeomorphism|diffeomorphisms]] of \(E\) covering \(\mathrm{id}_M\); in particular, each time-\(t\) map is a [[fiber-bundles/fiber-preserving-map|fiber-preserving map]] over \(\mathrm{id}_M\).
+Equivalently, \(X\) is a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of the [[fiber-bundles/vertical-subbundle|vertical subbundle]] \(VE\subset TE\). Any integral curve of a vertical vector field lies entirely inside a single fiber \(E_x\). Consequently, wherever the local flow of \(X\) is defined, it yields fiberwise local [[fiber-bundles/diffeomorphism|diffeomorphisms]] of \(E\) covering \(\mathrm{id}_M\); in particular, each time-\(t\) map is a [[fiber-bundles/fiber-preserving-map|fiber-preserving map]] over \(\mathrm{id}_M\).
 
 ## Examples
 1. **Product projection:** on \(M\times F\to M\), any field of the form \(X_{(x,f)}=(0,Y_{(x,f)})\) (no component along \(M\)) is vertical; for instance \(X(x,f)=(0,Y_f)\) for a fixed vector field \(Y\) on \(F\).

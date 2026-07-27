@@ -28,7 +28,7 @@ Then:
 This construction is functorial: if $g:K\to N$ is another smooth map, then $(f\circ g)^*P$ is canonically isomorphic to $g^*(f^*P)$ as principal bundles.
 
 ## Examples
-1. **Restriction to a submanifold.** If $i:U\hookrightarrow M$ is the inclusion of an open set (or an embedded submanifold), then $i^*P\to U$ is the restriction of $P$ to $U$.
+1. **Restriction to a submanifold.** If $i:U\hookrightarrow M$ is the inclusion of an open set (or an [[differential-geometry/embedded-submanifold|embedded submanifold]]), then $i^*P\to U$ is the restriction of $P$ to $U$.
 
 2. **Pullback of a trivial bundle.** If $P\cong M\times G$, then $f^*P\cong N\times G$ canonically.
 

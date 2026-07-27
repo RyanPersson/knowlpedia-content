@@ -34,7 +34,7 @@ $$
 and many classification results reduce to the homotopy class of this map.
 
 ## Examples
-1. **Möbius line bundle over $S^1$.** The Möbius bundle is obtained by gluing the ends of $[0,1]\times\mathbb R$ via $(0,v)\sim(1,-v)$. Interpreting this as a rank-1 real vector bundle over $S^1$, the clutching data is "$-1$" in $\mathrm{GL}_1(\mathbb R)$, producing a nontrivial bundle.
+1. **Möbius [[fiber-bundles/line-bundle|line bundle]] over $S^1$.** The Möbius bundle is obtained by gluing the ends of $[0,1]\times\mathbb R$ via $(0,v)\sim(1,-v)$. Interpreting this as a rank-1 real vector bundle over $S^1$, the clutching data is "$-1$" in $\mathrm{GL}_1(\mathbb R)$, producing a nontrivial bundle.
 
 2. **Complex line bundles over $S^2$.** Using the hemisphere cover of $S^2$, a clutching function is a map $g:S^1\to U(1)$. The standard family
    $$

@@ -8,9 +8,9 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/parallel-section-along-a-curve.md"
 +++
 
-Let \( \pi:E\to M \) be a smooth vector bundle over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\).
+Let \( \pi:E\to M \) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\).
 
-Let \(I\subset \mathbb{R}\) be an interval and \(\gamma:I\to M\) a smooth curve. A **section of \(E\) along \(\gamma\)** is a smooth map \(s:I\to E\) such that \(\pi\circ s=\gamma\). Using \(\nabla\), one defines the covariant derivative of \(s\) along \(\gamma\) by
+Let \(I\subset \mathbb{R}\) be an interval and \(\gamma:I\to M\) a smooth curve. A **section of \(E\) along \(\gamma\)** is a [[fiber-bundles/smooth-map|smooth map]] \(s:I\to E\) such that \(\pi\circ s=\gamma\). Using \(\nabla\), one defines the covariant derivative of \(s\) along \(\gamma\) by
 \[
 \frac{D s}{dt}(t) \coloneqq \nabla_{\dot\gamma(t)} \tilde s \big|_{\gamma(t)},
 \]
@@ -29,7 +29,7 @@ Equivalently: given \(t_0\in I\) and \(v_0\in E_{\gamma(t_0)}\), there is a uniq
 
 2. **Tangent bundle of Euclidean space.** Take \(E= T\mathbb{R}^m\) with the standard flat connection. Along any smooth curve \(\gamma\), a vector field \(V(t)\in T_{\gamma(t)}\mathbb{R}^m\cong \mathbb{R}^m\) is parallel iff its coordinate vector in \(\mathbb{R}^m\) is constant in \(t\).
 
-3. **A rank-one connection written as an ODE.** On a trivial real line bundle \(E=M\times \mathbb{R}\), any connection can be written locally as \(\nabla=d+\alpha\) for a 1-form \(\alpha\) on \(M\). Along \(\gamma\), a section is a function \(f(t)\), and the parallel condition becomes
+3. **A rank-one connection written as an ODE.** On a trivial [[fiber-bundles/line-bundle|real line bundle]] \(E=M\times \mathbb{R}\), any connection can be written locally as \(\nabla=d+\alpha\) for a 1-form \(\alpha\) on \(M\). Along \(\gamma\), a section is a function \(f(t)\), and the parallel condition becomes
    \[
    f'(t) + \alpha(\dot\gamma(t))\,f(t)=0,
    \]

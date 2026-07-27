@@ -214,3 +214,119 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/unitary-lie-algebra|Unitary Lie algebra]]
 - [[lie-groups/universal-covering-group-existence|Existence of universal covering groups]]
 - [[lie-groups/weights-in-dual-cartan|Weights in the dual Cartan]]
+
+## Noncompact and unitary representation theory
+
+### Continuous and unitary representations
+
+- [[lie-groups/cyclic-vector-and-cyclic-representation|Cyclic vector and cyclic unitary representation]]
+- [[lie-groups/intertwining-operator-unitary-representations|Intertwining operator between unitary representations]]
+- [[lie-groups/invariant-closed-subspace-unitary-representation|Invariant closed subspace of a unitary representation]]
+- [[lie-groups/irreducible-unitary-representation|Irreducible unitary representation]]
+- [[lie-groups/projective-unitary-representation|Projective unitary representation]]
+- [[lie-groups/schur-lemma-unitary-representations|Schur's lemma for unitary representations]]
+- [[lie-groups/strongly-continuous-unitary-representation|Strongly continuous unitary representation]]
+- [[lie-groups/unitary-equivalence-of-representations|Unitary equivalence of representations]]
+- [[lie-groups/weak-strong-continuity-equivalence-unitary-representations|Weak and strong continuity for unitary representations]]
+- [[lie-groups/weakly-continuous-unitary-representation|Weakly continuous unitary representation]]
+
+### Smooth vectors and derived representations
+
+- [[lie-groups/analytic-vector-unitary-representation|Analytic vector of a Lie-group representation]]
+- [[lie-groups/derived-representation-on-smooth-vectors|Derived representation on smooth vectors]]
+- [[lie-groups/distribution-vectors-of-a-representation|Distribution vectors of a Lie-group representation]]
+- [[lie-groups/dixmier-malliavin-factorization-theorem|Dixmier–Malliavin factorization theorem]]
+- [[lie-groups/essentially-skew-adjoint-derived-operators|Essential skew-adjointness of derived representation operators]]
+- [[lie-groups/garding-density-theorem|Gårding density theorem]]
+- [[lie-groups/garding-subspace|Gårding subspace]]
+- [[lie-groups/infinitesimal-generator-unitary-representation|Infinitesimal generator of a unitary representation]]
+- [[lie-groups/nelson-laplacian|Nelson Laplacian]]
+- [[lie-groups/nelson-analytic-vector-theorem|Nelson's analytic vector theorem]]
+- [[lie-groups/pbw-theorem|Poincaré–Birkhoff–Witt theorem]]
+- [[lie-groups/smooth-vector-unitary-representation|Smooth vector of a Lie-group representation]]
+- [[lie-groups/stone-theorem-one-parameter-unitary-groups|Stone's theorem for one-parameter unitary groups]]
+- [[lie-groups/universal-enveloping-algebra-action-on-smooth-vectors|Universal enveloping algebra action on smooth vectors]]
+- [[lie-groups/universal-enveloping-algebra|Universal enveloping algebra of a Lie algebra]]
+
+### Admissibility and Harish-Chandra modules
+
+- [[lie-groups/g-k-module|(g,K)-module]]
+- [[lie-groups/admissible-representation-real-reductive-group|Admissible representation of a real reductive group]]
+- [[lie-groups/casselman-wallach-globalization-theorem|Casselman–Wallach globalization theorem]]
+- [[lie-groups/casselman-wallach-representation|Casselman–Wallach representation]]
+- [[lie-groups/harish-chandra-admissibility-theorem|Harish–Chandra admissibility theorem]]
+- [[lie-groups/harish-chandra-module|Harish–Chandra module]]
+- [[lie-groups/harish-chandra-module-of-k-finite-vectors|Harish–Chandra module of K-finite vectors]]
+- [[lie-groups/infinitesimal-equivalence-of-representations|Infinitesimal equivalence of admissible representations]]
+- [[lie-groups/k-finite-vector|K-finite vector]]
+- [[lie-groups/k-type|K-type]]
+
+### Real reductive structure
+
+- [[lie-groups/cartan-decomposition-real-reductive-lie-algebra|Cartan decomposition of a real reductive Lie algebra]]
+- [[lie-groups/cartan-involution-real-lie-algebra|Cartan involution of a real Lie algebra]]
+- [[lie-groups/furstenberg-boundary|Furstenberg boundary of a semisimple Lie group]]
+- [[lie-groups/global-cartan-decomposition|Global Cartan decomposition of a real reductive group]]
+- [[lie-groups/iwasawa-decomposition|Iwasawa decomposition]]
+- [[lie-groups/langlands-decomposition-of-a-parabolic|Langlands decomposition of a parabolic subgroup]]
+- [[lie-groups/maximal-compact-subgroup-real-reductive-group|Maximal compact subgroup of a real reductive group]]
+- [[lie-groups/minimal-parabolic-subgroup|Minimal parabolic subgroup]]
+- [[lie-groups/parabolic-subgroup-real-reductive-group|Parabolic subgroup of a real reductive group]]
+- [[lie-groups/real-rank-of-a-reductive-group|Real rank of a reductive group]]
+- [[lie-groups/real-reductive-lie-group|Real reductive Lie group]]
+- [[lie-groups/restricted-root-system|Restricted root system]]
+- [[lie-groups/restricted-weyl-group|Restricted Weyl group]]
+- [[lie-groups/riemannian-symmetric-space-noncompact-type|Riemannian symmetric space of noncompact type]]
+
+### Noncompact representation series
+
+- [[lie-groups/casselman-subrepresentation-theorem|Casselman subrepresentation theorem]]
+- [[lie-groups/complementary-series-representation|Complementary series representation]]
+- [[lie-groups/discrete-series-representation|Discrete series representation]]
+- [[lie-groups/harish-chandra-discrete-series-criterion|Harish–Chandra's discrete-series criterion]]
+- [[lie-groups/knapp-stein-intertwining-operator|Knapp–Stein intertwining operator]]
+- [[lie-groups/langlands-classification-real-reductive-groups|Langlands classification for real reductive groups]]
+- [[lie-groups/langlands-quotient|Langlands quotient]]
+- [[lie-groups/limit-of-discrete-series|Limit of discrete series representation]]
+- [[lie-groups/principal-series-representation|Principal series representation]]
+- [[lie-groups/spherical-principal-series|Spherical principal series representation]]
+- [[lie-groups/square-integrable-modulo-center-representation|Square-integrable representation modulo the center]]
+- [[lie-groups/standard-module-real-reductive-group|Standard module of a real reductive group]]
+
+### Infinitesimal characters and distribution characters
+
+- [[lie-groups/casimir-element-and-casimir-operator|Casimir element and Casimir operator]]
+- [[lie-groups/center-of-universal-enveloping-algebra|Center of the universal enveloping algebra]]
+- [[lie-groups/global-character-of-an-admissible-representation|Global character of an admissible representation]]
+- [[lie-groups/harish-chandra-isomorphism|Harish–Chandra isomorphism]]
+- [[lie-groups/harish-chandra-regularity-theorem|Harish–Chandra regularity theorem]]
+- [[lie-groups/infinitesimal-character|Infinitesimal character]]
+
+### Induction, direct integrals, and Plancherel theory
+
+- [[lie-groups/normalized-parabolic-induction|Normalized parabolic induction]]
+- [[lie-groups/type-i-locally-compact-group|Type I locally compact group]]
+
+### Spherical representation theory
+
+- [[lie-groups/gelfand-pair|Gelfand pair]]
+- [[lie-groups/harish-chandra-c-function|Harish–Chandra c-function]]
+- [[lie-groups/spherical-plancherel-theorem|Spherical Plancherel theorem]]
+- [[lie-groups/spherical-representation|Spherical representation]]
+
+### Orbit method
+
+- [[lie-groups/orbit-method-induced-representation|Induced representation attached to a polarization]]
+- [[lie-groups/kirillov-correspondence-nilpotent-lie-groups|Kirillov correspondence for nilpotent Lie groups]]
+- [[lie-groups/orbit-method|Orbit method]]
+- [[lie-groups/polarization-of-a-coadjoint-orbit|Polarization at a coadjoint functional]]
+
+### Examples and model classifications
+
+- [[lie-groups/stone-von-neumann-theorem|Stone–von Neumann theorem]]
+- [[lie-groups/unitary-dual-of-an-abelian-lie-group|Unitary dual of an abelian Lie group]]
+
+### Quaternionic Lie groups
+
+- [[lie-groups/compact-symplectic-group|Compact symplectic group]]
+- [[lie-groups/compact-symplectic-product-group|The group Sp(n)Sp(1)]]

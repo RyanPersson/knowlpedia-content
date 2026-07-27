@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/equivalence-of-cocycles.md"
 +++
 
-Let $M$ be a smooth manifold and let $\{U_i\}$ be an open cover. A $G$-valued cocycle on this cover is a collection of smooth maps $g_{ij}:U_i\cap U_j\to G$ satisfying the [[fiber-bundles/cocycle-condition-for-transition-functions|cocycle condition]]
+Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\{U_i\}$ be an open cover. A $G$-valued cocycle on this cover is a collection of [[fiber-bundles/smooth-map|smooth maps]] $g_{ij}:U_i\cap U_j\to G$ satisfying the [[fiber-bundles/cocycle-condition-for-transition-functions|cocycle condition]]
 \[
 g_{ij}\,g_{jk}=g_{ik}\quad\text{on }U_i\cap U_j\cap U_k,
 \qquad
@@ -35,21 +35,21 @@ changes the transition functions to $g'_{ij}=h_i^{-1}g_{ij}h_j$. Thus, equivalen
 Equivalent cocycles define isomorphic principal bundles; the corresponding isomorphism is a [[fiber-bundles/principal-bundle-isomorphism|principal bundle isomorphism]] and, from the atlas perspective, this is the same relation as [[fiber-bundles/equivalent-bundle-atlases|equivalence of bundle atlases]].
 
 ## Examples
-1. **Trivial cocycle and coboundaries.**  
+1. **Trivial cocycle and coboundaries.**
    The trivial bundle $M\times G$ has cocycle $g_{ij}=e$. A cocycle $\{g_{ij}\}$ is equivalent to the trivial cocycle exactly when there exist $h_i$ with
    \[
    g_{ij}=h_i\,h_j^{-1}.
    \]
    This is the transition-function version of the [[fiber-bundles/trivial-principal-bundle-criterion-global-section-principal-bundle-is-trivial|global section criterion for triviality]].
 
-2. **Changing local sections on a trivial bundle.**  
+2. **Changing local sections on a trivial bundle.**
    On $P=M\times G$, start with the canonical local sections $s_i(x)=(x,e)$ giving $g_{ij}=e$. If you pick arbitrary smooth maps $h_i:U_i\to G$ and set $s'_i(x)=(x,h_i(x))$, then the new transition functions are
    \[
    g'_{ij}=h_i^{-1}h_j,
    \]
    and the cocycles $\{e\}$ and $\{g'_{ij}\}$ are equivalent by construction.
 
-3. **Hopf line bundles of different degree are not equivalent.**  
+3. **Hopf [[fiber-bundles/line-bundle|line bundles]] of different degree are not equivalent.**
    Cover $S^2$ by the standard northern and southern charts $U_N,U_S$ with overlap $U_N\cap U_S\simeq S^1$. For $G=U(1)$, transition functions
    \[
    g_{NS}(\theta)=e^{ik\theta}

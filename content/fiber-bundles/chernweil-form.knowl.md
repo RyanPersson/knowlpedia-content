@@ -37,7 +37,7 @@ Chern–Weil theory associates closed differential forms to a principal connecti
 
 ## Examples
 1. **First Chern form for a unitary bundle**
-   Let $E\to M$ be a complex vector bundle with a Hermitian metric (see [[fiber-bundles/hermitian-metric|Hermitian metric]]) and a unitary connection. The associated principal $U(n)$-bundle of unitary frames yields a curvature matrix $F\in\Omega^2(M;\mathfrak{u}(n))$. Taking the invariant polynomial $P(X)=\frac{i}{2\pi}\mathrm{tr}(X)$ gives the 2-form
+   Let $E\to M$ be a complex vector bundle with a Hermitian metric (see [[fiber-bundles/hermitian-metric|Hermitian metric]]) and a [[fiber-bundles/hermitian-connection|unitary connection]]. The associated principal $U(n)$-bundle of unitary frames yields a curvature matrix $F\in\Omega^2(M;\mathfrak{u}(n))$. Taking the invariant polynomial $P(X)=\frac{i}{2\pi}\mathrm{tr}(X)$ gives the 2-form
    \[
    c_1(\nabla)=\frac{i}{2\pi}\,\mathrm{tr}(F),
    \]

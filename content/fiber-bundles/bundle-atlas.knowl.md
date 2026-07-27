@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/bundle-atlas.md"
 +++
 
-Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] with typical fiber \(F\). A **bundle atlas** is a collection of [[fiber-bundles/local-trivialization|local trivializations]] \(\{(U_i,\Phi_i)\}_{i\in I}\) such that:
+Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] with [[fiber-bundles/typical-fiber|typical fiber]] \(F\). A **bundle atlas** is a collection of [[fiber-bundles/local-trivialization|local trivializations]] \(\{(U_i,\Phi_i)\}_{i\in I}\) such that:
 
 1. \(\{U_i\}_{i\in I}\) is an open cover of \(M\), and
 2. for every overlap \(U_{ij}:=U_i\cap U_j\), the change of trivialization
@@ -21,5 +21,5 @@ The associated maps \(t_{ij}\) are the [[fiber-bundles/transition-function|trans
 
 ## Examples
 1. **From a manifold atlas:** the usual coordinate charts on \(M\) induce a bundle atlas for \(TM\to M\) by identifying \(TM|_{U_i}\cong U_i\times\mathbb{R}^n\).
-2. **Möbius line bundle:** two local trivializations over overlapping arcs of \(S^1\) form a bundle atlas; the overlap map is given by a sign change in the fiber.
+2. **Möbius [[fiber-bundles/line-bundle|line bundle]]:** two local trivializations over overlapping arcs of \(S^1\) form a bundle atlas; the overlap map is given by a sign change in the fiber.
 3. **Principal bundles:** local sections of a principal \(G\)-bundle yield local trivializations and hence a bundle atlas whose transitions take values in \(G\).

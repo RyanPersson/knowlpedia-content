@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em.md"
 +++
 
-Let $E\to M$ be a smooth real rank-$n$ vector bundle over a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$. Denote by $\mathrm{Fr}(E)\to M$ the principal $\mathrm{GL}(n,\mathbb R)$-bundle of frames of $E$ (ordered bases of each fiber).
+Let $E\to M$ be a smooth real rank-$n$ [[fiber-bundles/vector-bundle|vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$. Denote by $\mathrm{Fr}(E)\to M$ the principal $\mathrm{GL}(n,\mathbb R)$-bundle of frames of $E$ (ordered bases of each fiber).
 
 A [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] can be described either by a covariant derivative on sections of $E$ or by a principal connection on $\mathrm{Fr}(E)$.
 
@@ -36,15 +36,15 @@ Moreover, under this correspondence:
 A useful special case is $E=TM$: connections on the tangent bundle correspond to principal connections on the [[fiber-bundles/frame-bundle-fr-of-a-manifold-m|frame bundle]] of $M$.
 
 ## Examples
-1. **Trivial bundle and matrix-valued 1-forms.**  
+1. **Trivial bundle and matrix-valued 1-forms.**
    For the [[fiber-bundles/trivial-vector-bundle-mvm|trivial vector bundle]] $E=M\times\mathbb R^n$, a connection is determined by a matrix of 1-forms $A\in\Omega^1(M;\mathfrak{gl}(n,\mathbb R))$ via
    \[
    \nabla = d + A
    \]
    in the standard frame. The corresponding principal connection on $M\times \mathrm{GL}(n,\mathbb R)$ has connection form obtained from $A$ in that trivialization.
 
-2. **Riemannian geometry.**  
-   On a Riemannian manifold, the Levi–Civita connection on $TM$ corresponds to a principal connection on the [[fiber-bundles/orthonormal-frame-bundle-o-of-a-riemannian-manifold|orthonormal frame bundle]] (a reduction from $\mathrm{GL}(n)$ to $\mathrm{O}(n)$).
+2. **Riemannian geometry.**
+   On a [[differential-geometry/riemannian-manifold|Riemannian manifold]], the Levi–Civita connection on $TM$ corresponds to a principal connection on the [[fiber-bundles/orthonormal-frame-bundle-o-of-a-riemannian-manifold|orthonormal frame bundle]] (a reduction from $\mathrm{GL}(n)$ to $\mathrm{O}(n)$).
 
-3. **Line bundles.**  
+3. **[[fiber-bundles/line-bundle|Line bundles]].**
    For a real line bundle $L\to M$, the frame bundle is a principal $\mathrm{GL}(1,\mathbb R)\cong \mathbb R^\times$-bundle. A connection on $L$ is equivalent to a principal connection on that frame bundle; in a local trivialization, it is described by an ordinary 1-form.

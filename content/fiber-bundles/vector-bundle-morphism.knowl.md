@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/vector-bundle-morphism.md"
 +++
 
-Let $\pi_E:E\to M$ and $\pi_F:F\to N$ be smooth real or complex vector bundles. A **vector bundle morphism** (also called a *fiberwise linear bundle map*) from $E$ to $F$ is a pair $(\Phi,f)$ consisting of a [[fiber-bundles/smooth-map|smooth map]] $\Phi:E\to F$ and a smooth map $f:M\to N$ such that:
+Let $\pi_E:E\to M$ and $\pi_F:F\to N$ be smooth real or [[fiber-bundles/complex-vector-bundle|complex vector bundles]]. A **vector bundle morphism** (also called a *fiberwise linear bundle map*) from $E$ to $F$ is a pair $(\Phi,f)$ consisting of a [[fiber-bundles/smooth-map|smooth map]] $\Phi:E\to F$ and a smooth map $f:M\to N$ such that:
 
 1. **Covers the base map:** $\pi_F\circ \Phi = f\circ \pi_E$.
 
@@ -31,4 +31,4 @@ Composition of vector bundle morphisms is defined by composition of the total-sp
 
 2. **Projection from a direct sum.** For bundles $E,F\to M$, the projection $\mathrm{pr}_E:E\oplus F\to E$ is a bundle morphism over $\mathrm{id}_M$, fiberwise the linear projection $E_x\oplus F_x\to E_x$.
 
-3. **Inclusion of a subbundle.** If $E\subseteq F$ is a smooth vector subbundle over the same base $M$, then the inclusion map $E\hookrightarrow F$ is a vector bundle morphism over $\mathrm{id}_M$.
+3. **Inclusion of a subbundle.** If $E\subseteq F$ is a [[fiber-bundles/vector-subbundle|smooth vector subbundle]] over the same base $M$, then the inclusion map $E\hookrightarrow F$ is a vector bundle morphism over $\mathrm{id}_M$.

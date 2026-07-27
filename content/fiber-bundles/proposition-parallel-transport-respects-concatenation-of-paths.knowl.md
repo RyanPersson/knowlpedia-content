@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/proposition-parallel-transport-respects-concatenation-of-paths.md"
 +++
 
-Let \(E\to M\) be a vector bundle equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\). For a piecewise smooth path \(\gamma:[0,1]\to M\), write
+Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\). For a piecewise smooth path \(\gamma:[0,1]\to M\), write
 \[
 \mathrm{PT}_\gamma : E_{\gamma(0)}\to E_{\gamma(1)}
 \]
@@ -25,5 +25,5 @@ The same statement holds for parallel transport in a principal \(G\)-bundle with
 
 ## Examples
 1. **Trivial connection on \(M\times V\).** If \(\nabla=d\), then \(\mathrm{PT}_\gamma\) is the identity on \(V\) for every \(\gamma\), so the concatenation identity holds tautologically.
-2. **Piecewise geodesic transport.** On a Riemannian manifold with its Levi–Civita connection, transporting a tangent vector along a broken geodesic is the same as transporting along the first segment and then along the second; the proposition encodes this “do it in steps” rule.
+2. **Piecewise geodesic transport.** On a [[differential-geometry/riemannian-manifold|Riemannian manifold]] with its Levi–Civita connection, transporting a tangent vector along a broken geodesic is the same as transporting along the first segment and then along the second; the proposition encodes this “do it in steps” rule.
 3. **Holonomy as a product.** For a loop written as a concatenation of subloops, the resulting holonomy element is the product of the holonomies of the pieces (with the same order as the concatenation).

@@ -22,7 +22,7 @@ With this action, $\pi$ is a [[fiber-bundles/principal-g-bundle|principal G-bund
 
 Concretely, one can take $\pi(z_1,z_2)=[z_1:z_2]\in\mathbb{CP}^1$, and the fiber over a point is exactly the $U(1)$-orbit of any representative.
 
-This bundle is nontrivial; in particular it has no global smooth section (compare [[fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section|the section criterion for triviality]]).
+This bundle is nontrivial; in particular it has no global [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] (compare [[fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section|the section criterion for triviality]]).
 
 ## Examples
 1. **Local trivializations from the standard affine charts.**  

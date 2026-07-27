@@ -10,7 +10,7 @@ legacy_source_path = "fiber-bundles/differential-k-form.md"
 
 Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\pi:T^*M\to M$ be its [[fiber-bundles/cotangent-bundle|cotangent bundle]].
 
-**Definition.** A **differential $k$-form** on $M$ is a smooth section of the vector bundle $\Lambda^k T^*M\to M$. Concretely, it is a rule that assigns to each $p\in M$ an alternating $k$-linear map
+**Definition.** A **differential $k$-form** on $M$ is a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of the [[fiber-bundles/vector-bundle|vector bundle]] $\Lambda^k T^*M\to M$. Concretely, it is a rule that assigns to each $p\in M$ an alternating $k$-linear map
 \[
 \omega_p:(T_pM)^k\to \mathbb{R},
 \]

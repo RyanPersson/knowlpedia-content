@@ -37,10 +37,10 @@ Moreover, the curvature of the induced connection is obtained by applying the re
 
 ## Examples
 1. **Levi-Civita connection induces the usual covariant derivative on tensor bundles.**
-   On a Riemannian manifold, the orthonormal frame bundle $O(M)\to M$ (see [[fiber-bundles/orthonormal-frame-bundle-o-of-a-riemannian-manifold|orthonormal frame bundle]]) carries the [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]]. Any tensor bundle built from the standard representation of $O(n)$ (e.g. $TM$, $T^*M$, $\Lambda^kT^*M$) is an associated vector bundle, and the theorem recovers the usual Levi-Civita covariant derivative on those bundles.
+   On a [[differential-geometry/riemannian-manifold|Riemannian manifold]], the orthonormal frame bundle $O(M)\to M$ (see [[fiber-bundles/orthonormal-frame-bundle-o-of-a-riemannian-manifold|orthonormal frame bundle]]) carries the [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]]. Any tensor bundle built from the standard representation of $O(n)$ (e.g. $TM$, $T^*M$, $\Lambda^kT^*M$) is an associated vector bundle, and the theorem recovers the usual Levi-Civita covariant derivative on those bundles.
 
 2. **Adjoint bundle connection.**
    Taking $F=\mathfrak g$ with the adjoint action, the associated bundle is $\mathrm{ad}(P)=P\times_{\mathrm{Ad}}\mathfrak g$ (see [[fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action|adjoint bundle]]). The induced connection is the standard “adjoint bundle connection,” and the associated covariant exterior derivative on $\mathfrak g$-valued tensorial forms is exactly the operator described in [[fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms|covariant exterior derivative on adjoint-valued forms]].
 
-3. **Dirac monopole as an induced connection on a line bundle.**
+3. **Dirac monopole as an induced connection on a [[fiber-bundles/line-bundle|line bundle]].**
    The Hopf fibration $S^3\to S^2$ is a principal $U(1)$-bundle (see [[fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle|Hopf fibration]]). A principal connection on it (for instance the [[fiber-bundles/dirac-monopole-connection-on-the-hopf-bundle|Dirac monopole connection]]) induces a connection on every associated complex line bundle $S^3\times_{U(1)}\mathbb C$, recovering the usual covariant derivative used in the monopole picture.

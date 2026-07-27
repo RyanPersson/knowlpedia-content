@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial.md"
 +++
 
-Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with Lie group $G$ and Lie algebra $\mathfrak g$ (see [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of a Lie group]]). Let $\omega,\omega'\in \Omega^1(P;\mathfrak g)$ be connection $1$-forms of two [[fiber-bundles/principal-connection|principal connections]] (see [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form on a principal bundle]]).
+Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/lie-group|Lie group]] $G$ and Lie algebra $\mathfrak g$ (see [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of a Lie group]]). Let $\omega,\omega'\in \Omega^1(P;\mathfrak g)$ be connection $1$-forms of two [[fiber-bundles/principal-connection|principal connections]] (see [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form on a principal bundle]]).
 
 Define their difference
 \[
@@ -30,7 +30,7 @@ This tensoriality fact underlies many standard constructions, including transgre
 
 ## Examples
 1. **Trivial bundle: local gauge potentials differ by a basic form.**  
-   On the trivial principal bundle $P=M\times G$ (see [[fiber-bundles/trivial-principal-bundle-mgm|trivial principal bundle]]), a principal connection corresponds to a $\mathfrak g$-valued $1$-form $A\in\Omega^1(M;\mathfrak g)$ via a global section. If $\omega,\omega'$ correspond to $A,A'$, then
+   On the trivial principal bundle $P=M\times G$ (see [[fiber-bundles/trivial-principal-bundle-mgm|trivial principal bundle]]), a principal connection corresponds to a $\mathfrak g$-valued $1$-form $A\in\Omega^1(M;\mathfrak g)$ via a [[fiber-bundles/section-of-a-fiber-bundle|global section]]. If $\omega,\omega'$ correspond to $A,A'$, then
    \[
    a=\omega'-\omega \quad \text{corresponds to} \quad A'-A\in\Omega^1(M;\mathfrak g),
    \]

@@ -176,3 +176,10 @@ Click any term to expand its definition inline.
 - [[topology/separable-space|Separable space]]
 - [[topology/homotopy-equivalence|Homotopy equivalence]]
 - [[topology/homotopy-sphere|Homotopy sphere]]
+
+## Characteristic-class and gauge-moduli foundations
+
+- [[topology/cup-product-and-cohomology-ring|Cup product and cohomology ring]]
+- [[topology/fundamental-class|Fundamental class]]
+- [[topology/fundamental-group|Fundamental group]]
+- [[topology/singular-cohomology-group|Singular cohomology group]]

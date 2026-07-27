@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/curvature-of-a-vector-bundle-connection.md"
 +++
 
-Let $E\to M$ be a vector bundle with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] $\nabla$. Let $X,Y$ be smooth vector fields on $M$, and let $s$ be a smooth section of $E$.
+Let $E\to M$ be a [[fiber-bundles/vector-bundle|vector bundle]] with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] $\nabla$. Let $X,Y$ be smooth [[fiber-bundles/vector-field|vector fields]] on $M$, and let $s$ be a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of $E$.
 
 **Definition.** The curvature of $\nabla$ is the map $R^\nabla$ defined by
 \[
@@ -20,5 +20,5 @@ For each $X,Y$, the operator $R^\nabla(X,Y):\Gamma(E)\to\Gamma(E)$ is $C^\infty(
 
 ## Examples
 1. **Trivial connection is flat.** For the trivial connection on $M\times\mathbb R^r$, mixed derivatives commute and $R^\nabla=0$.
-2. **Levi-Civita curvature.** For the Levi-Civita connection on $TM$, $R^\nabla$ is the Riemann curvature tensor (in $(1,3)$ form), encoding sectional curvature and holonomy phenomena.
+2. **Levi-Civita curvature.** For the Levi-Civita connection on $TM$, $R^\nabla$ is the [[differential-geometry/riemann-curvature-tensor|Riemann curvature tensor]] (in $(1,3)$ form), encoding sectional curvature and holonomy phenomena.
 3. **Constant matrix connection on a trivial bundle.** On $U\subset\mathbb R^n$, take $\nabla = d + \sum_k A_k\,dx^k$ with constant matrices $A_k$. Then $R^\nabla$ corresponds to the commutators $[A_k,A_\ell]$; it vanishes exactly when the matrices $A_k$ pairwise commute.

@@ -8,11 +8,11 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/orientation-of-a-real-vector-bundle.md"
 +++
 
-Let $\pi:E\to M$ be a smooth real vector bundle of rank $r$ over a [[fiber-bundles/smooth-manifold|smooth manifold]].
+Let $\pi:E\to M$ be a smooth real [[fiber-bundles/vector-bundle|vector bundle]] of rank $r$ over a [[fiber-bundles/smooth-manifold|smooth manifold]].
 
 An **orientation** of $E$ can be defined in any of the following equivalent ways:
 
-1. **Atlas definition (transition determinants).** Choose a vector bundle atlas with local trivializations over an open cover $\{U_\alpha\}$ such that the transition functions
+1. **Atlas definition (transition determinants).** Choose a vector bundle atlas with [[fiber-bundles/local-trivialization|local trivializations]] over an open cover $\{U_\alpha\}$ such that the [[fiber-bundles/transition-function|transition functions]]
    \[
    g_{\alpha\beta}:U_\alpha\cap U_\beta\to \mathrm{GL}(r,\mathbb R)
    \]
@@ -20,7 +20,7 @@ An **orientation** of $E$ can be defined in any of the following equivalent ways
 
 2. **Frame definition.** An orientation is a choice, for each $x\in M$, of one of the two connected components of the set of bases of $E_x$, varying locally so that on overlaps it is preserved; equivalently, it is a choice of the “positive” [[fiber-bundles/oriented-frame|oriented frames]] in each fiber.
 
-3. **Determinant line bundle definition.** Let $\det(E):=\Lambda^rE$ be the top [[fiber-bundles/exterior-power-bundle|exterior power bundle]]. Then $\det(E)$ is a real line bundle, and an orientation of $E$ is the choice of a connected component of $\det(E)\setminus\{0\}$ in each fiber; equivalently, it is the choice of a nowhere-vanishing section of $\det(E)$ up to multiplication by a positive function.
+3. **Determinant [[fiber-bundles/line-bundle|line bundle]] definition.** Let $\det(E):=\Lambda^rE$ be the top [[fiber-bundles/exterior-power-bundle|exterior power bundle]]. Then $\det(E)$ is a real line bundle, and an orientation of $E$ is the choice of a connected component of $\det(E)\setminus\{0\}$ in each fiber; equivalently, it is the choice of a [[fiber-bundles/nowhere-vanishing-section|nowhere-vanishing section]] of $\det(E)$ up to multiplication by a positive function.
 
 If $M$ is connected, an orientation (if it exists) is a global structure; if it does not exist, $E$ is called **non-orientable**.
 

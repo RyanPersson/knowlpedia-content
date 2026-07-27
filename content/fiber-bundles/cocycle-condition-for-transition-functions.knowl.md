@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/cocycle-condition-for-transition-functions.md"
 +++
 
-Let \(\{(U_i,\Phi_i)\}\) be a [[fiber-bundles/bundle-atlas|bundle atlas]] for a smooth fiber bundle with typical fiber \(F\), and let \(t_{ij}:U_{ij}\to \mathrm{Diff}(F)\) be the associated [[fiber-bundles/transition-function|transition functions]]. They satisfy the following identities:
+Let \(\{(U_i,\Phi_i)\}\) be a [[fiber-bundles/bundle-atlas|bundle atlas]] for a smooth fiber bundle with [[fiber-bundles/typical-fiber|typical fiber]] \(F\), and let \(t_{ij}:U_{ij}\to \mathrm{Diff}(F)\) be the associated [[fiber-bundles/transition-function|transition functions]]. They satisfy the following identities:
 
 1. **Identity on the diagonal:** \(t_{ii}(x)=\mathrm{id}_F\) for all \(x\in U_i\).
 2. **Inverse on overlaps:** on \(U_{ij}\), one has \(t_{ji}(x)=t_{ij}(x)^{-1}\).
@@ -21,5 +21,5 @@ These conditions are exactly the statement that the changes of trivialization co
 
 ## Examples
 1. **Trivial bundle:** all \(t_{ij}\) are the identity, so the cocycle condition holds tautologically.
-2. **Möbius line bundle:** with \(t_{12}\equiv-1\), the cocycle identity on a triple overlap reduces to \((-1)\cdot(-1)=1\).
+2. **Möbius [[fiber-bundles/line-bundle|line bundle]]:** with \(t_{12}\equiv-1\), the cocycle identity on a triple overlap reduces to \((-1)\cdot(-1)=1\).
 3. **Tangent bundle:** on triple overlaps of coordinate charts, the cocycle condition is the chain rule for Jacobians of coordinate changes.

@@ -12,10 +12,10 @@ Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] wi
 
 Form the [[fiber-bundles/associated-vector-bundle|associated vector bundle]] $E := P\times_G V$ (using the [[fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f|standard left action convention on the fiber]]).
 
-Assume $P$ is equipped with a [[fiber-bundles/principal-connection|principal connection]] (equivalently, a [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]] $\omega$ on $P$). Let $H\subset TP$ denote the associated horizontal subbundle.
+Assume $P$ is equipped with a [[fiber-bundles/principal-connection|principal connection]] (equivalently, a [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]] $\omega$ on $P$). Let $H\subset TP$ denote the associated [[fiber-bundles/horizontal-subbundle|horizontal subbundle]].
 
 ## Construction (horizontal differentiation)
-A smooth section $s\in\Gamma(E)$ can be represented by a smooth **$\rho$-equivariant** map $f:P\to V$ satisfying
+A [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] $s\in\Gamma(E)$ can be represented by a smooth **$\rho$-equivariant** map $f:P\to V$ satisfying
 \[
 f(p\cdot g)=\rho(g^{-1})\,f(p).
 \]

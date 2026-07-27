@@ -44,7 +44,7 @@ This is a nonzero multiple of the standard area form. In particular, $F$ is not 
    Fix $\theta=\theta_0$. Parallel transport around the loop $\varphi\in[0,2\pi]$ produces a phase in $U(1)$ whose argument is the integral of $A_N$ (or $A_S$) along the loop; this equals half the solid angle enclosed, matching the curvature-area interpretation.
 
 2. **Higher charge monopoles.**  
-   Replacing the transition function $e^{i\varphi}$ by $e^{in\varphi}$ yields a family of principal $U(1)$-bundles and connections with curvature $nF$, corresponding to Chern number $n$.
+   Replacing the transition function $e^{i\varphi}$ by $e^{in\varphi}$ yields a family of principal $U(1)$-bundles and connections with curvature $nF$, corresponding to [[fiber-bundles/chern-number|Chern number]] $n$.
 
 3. **Intrinsic description on the total space.**  
    There is a canonical $U(1)$-invariant 1-form on $S^3$ (a contact form) whose kernel defines the horizontal distribution; pushing this connection down recovers the above local potentials on the base.

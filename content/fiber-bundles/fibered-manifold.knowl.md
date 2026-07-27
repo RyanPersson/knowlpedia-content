@@ -14,7 +14,7 @@ d\pi_e:T_eE\longrightarrow T_{\pi(e)}M
 \]
 is surjective.
 
-For each \(x\in M\), the **fiber** over \(x\) is \(E_x:=\pi^{-1}(x)\). By the submersion theorem, each fiber \(E_x\) is an embedded submanifold of \(E\) of dimension \(\dim E-\dim M\), and the inclusion \(E_x\hookrightarrow E\) identifies
+For each \(x\in M\), the **fiber** over \(x\) is \(E_x:=\pi^{-1}(x)\). By the submersion theorem, each fiber \(E_x\) is an [[differential-geometry/embedded-submanifold|embedded submanifold]] of \(E\) of dimension \(\dim E-\dim M\), and the inclusion \(E_x\hookrightarrow E\) identifies
 \[
 T_eE_x=\ker(d\pi_e).
 \]

@@ -26,4 +26,4 @@ This is the precise sense in which a flat connection has “holonomy depending o
 ## Examples
 1. **Trivial flat connection.** On \(P=M\times G\) with the zero connection, every loop has holonomy \(e\in G\), so the induced homomorphism \(\pi_1(M,x)\to G\) is trivial.
 2. **Flat \(U(1)\)-connections on \(S^1\).** For a connection with constant local 1-form \(A=\lambda\,d\theta\) (in a global gauge), curvature is zero and holonomy sends the generator of \(\pi_1(S^1)\cong \mathbb Z\) to \(e^{2\pi i\lambda}\in U(1)\); dependence is only on the winding number.
-3. **Möbius bundle as \(O(1)\)-bundle.** The Möbius line bundle corresponds to a principal \(O(1)\cong\{\pm 1\}\)-bundle with a flat connection whose holonomy representation sends the generator of \(\pi_1(S^1)\) to \(-1\).
+3. **Möbius bundle as \(O(1)\)-bundle.** The Möbius [[fiber-bundles/line-bundle|line bundle]] corresponds to a principal \(O(1)\cong\{\pm 1\}\)-bundle with a flat connection whose holonomy representation sends the generator of \(\pi_1(S^1)\) to \(-1\).

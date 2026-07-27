@@ -32,4 +32,4 @@ Thus a covering homomorphism is a very rigid kind of quotient: it is (up to isom
 ## Universal covers
 For every connected Lie group $G$, there exists a simply connected Lie group $\widetilde G$ and a covering homomorphism $\widetilde G\to G$; this is the [[lie-groups/universal-covering-group-existence|existence of the universal covering group]]. The resulting [[lie-groups/universal-covering-group|universal covering group]] is unique up to unique isomorphism over $G$, and it is characterized by being [[lie-groups/simply-connected-lie-group|simply connected]] with $\mathrm{Lie}(\widetilde G)\cong \mathrm{Lie}(G)$.
 
-**Context.** Many global topological features (fundamental group, discrete central quotients) are invisible to the Lie algebra. Covering maps are the standard way to pass between Lie-algebraic data and different global forms of the “same” local Lie group.
+**Context.** Many global topological features ([[topology/fundamental-group|fundamental group]], discrete central quotients) are invisible to the Lie algebra. Covering maps are the standard way to pass between Lie-algebraic data and different global forms of the “same” local Lie group.

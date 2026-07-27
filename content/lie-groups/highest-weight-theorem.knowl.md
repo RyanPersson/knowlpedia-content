@@ -8,7 +8,7 @@ domains = ["lie-groups"]
 legacy_source_path = "lie-groups/highest-weight-theorem.md"
 +++
 
-Fix a complex semisimple [[lie-groups/lie-algebra|Lie algebra]] $\mathfrak g$, a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] $\mathfrak h$, and a choice of positive roots (hence [[lie-groups/simple-root|simple roots]] and fundamental weights).
+Fix a complex semisimple [[lie-groups/lie-algebra|Lie algebra]] $\mathfrak g$, a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] $\mathfrak h$, and a choice of [[lie-groups/positive-root|positive roots]] (hence [[lie-groups/simple-root|simple roots]] and fundamental weights).
 
 **Theorem (Highest-weight classification, Lie algebra form).**
 
@@ -19,7 +19,7 @@ Fix a complex semisimple [[lie-groups/lie-algebra|Lie algebra]] $\mathfrak g$, a
 ## Remarks
 
 **Group form (compact groups).**
-If $G$ is a compact connected [[lie-groups/compact-lie-group|Lie group]] with maximal torus $T$ (see [[lie-groups/maximal-torus-theorem|maximal tori]]), then irreducible unitary representations of $G$ are classified by the dominant weights that lie in the character lattice $X^*(T)$. This lattice depends on the global form of $G$; not every dominant integral weight of the complexified Lie algebra integrates to every group with that Lie algebra.
+If $G$ is a compact connected [[lie-groups/compact-lie-group|Lie group]] with maximal torus $T$ (see [[lie-groups/maximal-torus-theorem|maximal tori]]), then [[lie-groups/irreducible-unitary-representation|irreducible unitary representations]] of $G$ are classified by the dominant weights that lie in the character lattice $X^*(T)$. This lattice depends on the global form of $G$; not every dominant integral weight of the complexified Lie algebra integrates to every group with that Lie algebra.
 
 **Context.**
 This theorem is the conceptual reason that objects like [[lie-groups/fundamental-representation|fundamental representations]] (highest weights equal to fundamental weights) play a foundational role: they correspond to the vertices of the [[lie-groups/dynkin-diagram|Dynkin diagram]] and generate the dominant cone.

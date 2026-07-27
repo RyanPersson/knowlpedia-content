@@ -55,6 +55,6 @@ which is horizontal and equivariant, hence descends to local curvature forms on 
    \[
    \omega := \mathrm{Ad}_{g^{-1}}(\pi_M^*A) + \theta_L ,
    \]
-   where $\theta_L$ is pulled back from the $G$-factor and $\pi_M:P\to M$ is projection. With respect to the global section $s(x)=(x,e)$, the local form is exactly $s^*\omega=A$. When $A=0$ this gives the [[fiber-bundles/flat-connection-a0-on-a-trivial-bundle|standard flat connection]].
+   where $\theta_L$ is pulled back from the $G$-factor and $\pi_M:P\to M$ is projection. With respect to the [[fiber-bundles/section-of-a-fiber-bundle|global section]] $s(x)=(x,e)$, the local form is exactly $s^*\omega=A$. When $A=0$ this gives the [[fiber-bundles/flat-connection-a0-on-a-trivial-bundle|standard flat connection]].
 
 3. **Hopf fibration (abelian case).** On the [[fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle|Hopf bundle]] $S^3\to S^2$ with structure group $U(1)$, there is a canonical connection 1-form (the [[fiber-bundles/dirac-monopole-connection-on-the-hopf-bundle|Dirac monopole connection]]). Since $U(1)$ is abelian, the equivariance condition simplifies, and one can write an explicit $\mathfrak u(1)$-valued 1-form on $S^3\subset\mathbb C^2$ that annihilates horizontals and evaluates to the generator on the circle fibers.

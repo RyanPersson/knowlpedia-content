@@ -17,9 +17,9 @@ equipped with the right action
 (x,g)\cdot h := (x,gh),\qquad h\in G.
 \]
 
-The bundle $M\times G\to M$ is a [[fiber-bundles/principal-g-bundle|principal G-bundle]]: the action is free and transitive on each fiber, and local trivializations are global (the identity map).
+The bundle $M\times G\to M$ is a [[fiber-bundles/principal-g-bundle|principal G-bundle]]: the action is free and transitive on each fiber, and [[fiber-bundles/local-trivialization|local trivializations]] are global (the identity map).
 
-It has a canonical global section
+It has a canonical [[fiber-bundles/section-of-a-fiber-bundle|global section]]
 \[
 s:M\to M\times G,\qquad s(x)=(x,e),
 \]

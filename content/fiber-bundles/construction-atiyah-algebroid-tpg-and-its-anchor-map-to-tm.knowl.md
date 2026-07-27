@@ -14,7 +14,7 @@ Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] wi
 \[
 \mathrm{At}(P) := TP/G,
 \]
-the bundle whose fiber over $x\in M$ is the set of $G$-orbits in $T_pP$ for any $p\in P_x$. This is a smooth vector bundle over $M$.
+the bundle whose fiber over $x\in M$ is the set of $G$-orbits in $T_pP$ for any $p\in P_x$. This is a smooth [[fiber-bundles/vector-bundle|vector bundle]] over $M$.
 
 **Anchor map.** The differential $d\pi:TP\to TM$ is $G$-invariant (since $\pi\circ R_g=\pi$), hence it descends to a vector bundle map
 \[
@@ -22,11 +22,11 @@ a:\mathrm{At}(P)\to TM,\qquad a([v_p]) := d\pi_p(v_p),
 \]
 called the anchor.
 
-**Lie algebroid structure.** Sections of $\mathrm{At}(P)$ identify with $G$-invariant vector fields on $P$. The usual [[fiber-bundles/lie-bracket|Lie bracket]] of $G$-invariant vector fields is again $G$-invariant, so it defines a bracket on sections of $\mathrm{At}(P)$, making $\mathrm{At}(P)$ a Lie algebroid with anchor $a$.
+**Lie algebroid structure.** Sections of $\mathrm{At}(P)$ identify with $G$-invariant [[fiber-bundles/vector-field|vector fields]] on $P$. The usual [[fiber-bundles/lie-bracket|Lie bracket]] of $G$-invariant vector fields is again $G$-invariant, so it defines a bracket on sections of $\mathrm{At}(P)$, making $\mathrm{At}(P)$ a Lie algebroid with anchor $a$.
 
 ## Remarks
 
-There is a natural short exact sequence of vector bundles
+There is a natural [[fiber-bundles/short-exact-sequence-of-vector-bundles|short exact sequence of vector bundles]]
 \[
 0\to \mathrm{ad}(P)\to \mathrm{At}(P)\xrightarrow{a} TM\to 0,
 \]

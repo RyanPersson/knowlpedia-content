@@ -19,4 +19,4 @@ The representation $(\pi,V)$ is **irreducible** if the only $G$-invariant subspa
 Assume $G$ is connected and let $d\pi:\mathfrak g\to \mathfrak{gl}(V)$ be the differential representation (compare [[lie-groups/differential-is-lie-algebra-homomorphism|differentiation is a Lie algebra homomorphism]]). Then a subspace $W\subset V$ is $G$-invariant if and only if it is invariant under $d\pi(\mathfrak g)$. Consequently, for connected $G$, irreducibility of $\pi$ is equivalent to irreducibility of the induced [[lie-groups/irreducible-representation-lie-algebra|Lie algebra representation]] $(d\pi,V)$.
 
 **Context.**
-For compact connected groups, irreducible unitary representations are classified by highest weights (see [[lie-groups/highest-weight-theorem|highest-weight theorem]] and [[lie-groups/peter-weyl-theorem|Peter–Weyl]]).
+For compact connected groups, [[lie-groups/irreducible-unitary-representation|irreducible unitary representations]] are classified by highest weights (see [[lie-groups/highest-weight-theorem|highest-weight theorem]] and [[lie-groups/peter-weyl-theorem|Peter–Weyl]]).

@@ -36,7 +36,7 @@ Good covers (see [[fiber-bundles/good-cover|good covers]]) are often used to bui
    For $G=U(1)$, one has $BU(1)\simeq \mathbb{CP}^\infty$. The [[fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle|Hopf bundle]] over $S^2$ corresponds to a generator of $[S^2,BU(1)]\cong \mathbb Z$.
 
 2. **The Möbius twist via a discrete group.**  
-   For $G=\mathbb Z/2$, one has $B(\mathbb Z/2)\simeq \mathbb{RP}^\infty$. The nontrivial element of $[S^1,B(\mathbb Z/2)]\cong \mathbb Z/2$ classifies the principal $\mathbb Z/2$-bundle whose associated line bundle is the Möbius bundle.
+   For $G=\mathbb Z/2$, one has $B(\mathbb Z/2)\simeq \mathbb{RP}^\infty$. The nontrivial element of $[S^1,B(\mathbb Z/2)]\cong \mathbb Z/2$ classifies the principal $\mathbb Z/2$-bundle whose associated [[fiber-bundles/line-bundle|line bundle]] is the Möbius bundle.
 
 3. **Bundles over the circle.**  
    Specializing the classification theorem to $B=S^1$ shows that principal $G$-bundles over the circle are classified by $\pi_0(G)$, matching the explicit [[fiber-bundles/principal-bundle-over-s1-defined-by-a-clutching-function|clutching description]] by gluing.

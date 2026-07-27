@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/special-orthonormal-frame-bundle-reduction.md"
 +++
 
-Let $\pi:E\to M$ be a real vector bundle of rank $n$ over a [[fiber-bundles/smooth-manifold|smooth manifold]], equipped with a [[fiber-bundles/bundle-metric|bundle metric]] and an [[fiber-bundles/orientation-of-a-real-vector-bundle|orientation]]. The **special orthonormal frame bundle**, denoted $\mathrm{SO}(E)$, is the subbundle of the [[fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle|orthonormal frame bundle]] consisting of orthonormal frames that are oriented:
+Let $\pi:E\to M$ be a real [[fiber-bundles/vector-bundle|vector bundle]] of rank $n$ over a [[fiber-bundles/smooth-manifold|smooth manifold]], equipped with a [[fiber-bundles/bundle-metric|bundle metric]] and an [[fiber-bundles/orientation-of-a-real-vector-bundle|orientation]]. The **special orthonormal frame bundle**, denoted $\mathrm{SO}(E)$, is the subbundle of the [[fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle|orthonormal frame bundle]] consisting of orthonormal frames that are oriented:
 \[
 \mathrm{SO}(E):=\{(e_1,\dots,e_n)\in \mathrm{O}(E)\ :\ (e_1,\dots,e_n)\ \text{is an oriented frame}\}.
 \]
@@ -19,7 +19,7 @@ The right action of the group $\mathrm{O}(n)$ on $\mathrm{O}(E)$ restricts to a 
 Equivalently, $\mathrm{SO}(E)$ is the reduction of the full frame bundle to $\mathrm{SO}(n)$ determined jointly by the metric and the orientation.
 
 ## Examples
-1. **Oriented Riemannian manifolds.** If $E=TM$ and $M$ is oriented and Riemannian, then $\mathrm{SO}(TM)$ is the usual bundle of oriented orthonormal tangent frames used in defining spin structures and Levi-Civita connections.
+1. **Oriented Riemannian manifolds.** If $E=TM$ and $M$ is oriented and Riemannian, then $\mathrm{SO}(TM)$ is the usual bundle of oriented orthonormal tangent frames used in defining [[fiber-bundles/spin-structure|spin structures]] and Levi-Civita connections.
 
 2. **Trivial oriented bundle.** For $E=M\times\mathbb R^n$ with the standard metric and the standard orientation, $\mathrm{SO}(E)\cong M\times \mathrm{SO}(n)$.
 

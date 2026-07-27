@@ -13,7 +13,7 @@ Let $f:X\to Y$ be a map of sets and let $y\in Y$. The **fiber of $f$ over $y$** 
 f^{-1}(y)=\{x\in X \mid f(x)=y\}\subset X.
 \]
 
-If $f:M\to N$ is a [[fiber-bundles/smooth-map|smooth map]] between [[fiber-bundles/smooth-manifold|smooth manifolds]], the fiber $f^{-1}(y)$ is still defined as a subset of $M$. Additional geometry arises when $y$ is a regular value in the sense of the [[fiber-bundles/differential-of-a-smooth-map|differential of a smooth map]]: in that case, $f^{-1}(y)$ is an embedded submanifold of $M$ of codimension $\dim N$.
+If $f:M\to N$ is a [[fiber-bundles/smooth-map|smooth map]] between [[fiber-bundles/smooth-manifold|smooth manifolds]], the fiber $f^{-1}(y)$ is still defined as a subset of $M$. Additional geometry arises when $y$ is a [[fiber-bundles/regular-value|regular value]] in the sense of the [[fiber-bundles/differential-of-a-smooth-map|differential of a smooth map]]: in that case, $f^{-1}(y)$ is an [[differential-geometry/embedded-submanifold|embedded submanifold]] of $M$ of codimension $\dim N$.
 
 Fibers are especially important when $f$ is a bundle projection; for instance, in a [[fiber-bundles/principal-g-bundle|principal G-bundle]] $\pi:P\to B$, each fiber $\pi^{-1}(b)$ is (noncanonically) diffeomorphic to the structure group $G$.
 

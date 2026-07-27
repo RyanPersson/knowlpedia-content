@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/yangmills-equation.md"
 +++
 
-Let $P\to M$ be a principal $G$-bundle over an oriented Riemannian manifold, and let $A$ be a [[fiber-bundles/principal-connection|principal connection]] with curvature $F_A$.
+Let $P\to M$ be a principal $G$-bundle over an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], and let $A$ be a [[fiber-bundles/principal-connection|principal connection]] with curvature $F_A$.
 
 ## Theorem/Definition (Yang–Mills equation)
 The Euler–Lagrange equation for the [[fiber-bundles/yangmills-functional|Yang–Mills functional]] is

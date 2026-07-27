@@ -37,7 +37,7 @@ where $y\in M$, $u,v\in T_yM$, and $\mathrm{PT}_\gamma$ is parallel transport al
 ## Examples
 
 1. **Flat connections have zero holonomy Lie algebra.**
-   If $\Omega=0$, then the generating set above is empty, so $\mathfrak{hol}_p(\omega)=\{0\}$. Thus the restricted holonomy group is trivial; any remaining holonomy comes from monodromy of the base’s fundamental group.
+   If $\Omega=0$, then the generating set above is empty, so $\mathfrak{hol}_p(\omega)=\{0\}$. Thus the restricted holonomy group is trivial; any remaining holonomy comes from monodromy of the base’s [[topology/fundamental-group|fundamental group]].
 
 2. **Round sphere has full orthogonal holonomy (Levi-Civita).**
    For the Levi-Civita connection on the tangent bundle of the round $n$-sphere ($n\ge2$), curvature at a point spans $\mathfrak{so}(n)$ (in orthonormal frames). By Ambrose–Singer, the restricted holonomy Lie algebra is $\mathfrak{so}(n)$, hence the restricted holonomy group is $\mathrm{SO}(n)$.

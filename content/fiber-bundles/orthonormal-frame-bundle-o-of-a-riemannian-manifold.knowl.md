@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/orthonormal-frame-bundle-o-of-a-riemannian-manifold.md"
 +++
 
-Let $(M,g)$ be an $n$-dimensional Riemannian manifold. The Riemannian metric gives an inner product $g_x$ on each tangent space $T_xM$.
+Let $(M,g)$ be an $n$-dimensional [[differential-geometry/riemannian-manifold|Riemannian manifold]]. The Riemannian metric gives an inner product $g_x$ on each tangent space $T_xM$.
 
 The **orthonormal frame bundle** $O(TM)\to M$ is the subset of the [[fiber-bundles/frame-bundle-fr-of-a-manifold-m|frame bundle]] consisting of frames that are orthonormal with respect to $g$:
 \[

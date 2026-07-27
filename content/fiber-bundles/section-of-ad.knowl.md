@@ -10,7 +10,7 @@ legacy_source_path = "fiber-bundles/section-of-ad.md"
 
 Let $\mathrm{Ad}(P)\to M$ be the [[fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action|adjoint bundle]] of a principal $G$-bundle $P$.
 
-A **section of $\mathrm{Ad}(P)$** is a smooth map
+A **section of $\mathrm{Ad}(P)$** is a [[fiber-bundles/smooth-map|smooth map]]
 \[
 s:M\to \mathrm{Ad}(P)
 \]
@@ -28,4 +28,4 @@ This is the “gauge function” gluing law: local representatives differ by con
 ## Examples
 1. **Trivial or trivialized case.** If $\mathrm{Ad}(P)\cong M\times G$, then sections are exactly smooth maps $a:M\to G$.
 2. **Abelian groups.** If $G$ is abelian, conjugation is trivial, so every section is again just a smooth map $M\to G$, regardless of whether $P$ is trivial.
-3. **Central elements.** If $z\in Z(G)$, then the constant choice “$z$ in every fiber” defines a global section of $\mathrm{Ad}(P)$; it corresponds to the gauge transformation $p\mapsto p\cdot z$.
+3. **Central elements.** If $z\in Z(G)$, then the constant choice “$z$ in every fiber” defines a [[fiber-bundles/section-of-a-fiber-bundle|global section]] of $\mathrm{Ad}(P)$; it corresponds to the gauge transformation $p\mapsto p\cdot z$.

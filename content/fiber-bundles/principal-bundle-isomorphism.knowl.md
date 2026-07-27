@@ -18,6 +18,6 @@ A **principal bundle isomorphism** is a [[fiber-bundles/principal-bundle-morphis
 Equivalently, $\Phi$ is a morphism admitting an inverse morphism $\Psi:P'\to P$ with $\Psi\circ\Phi=\mathrm{id}_P$ and $\Phi\circ\Psi=\mathrm{id}_{P'}$.
 
 ## Examples
-1. **Trivialization from a global section.** If $P\to M$ admits a global smooth section $s:M\to P$, then $P$ is isomorphic to the trivial bundle $M\times G$ via $p=s(\pi(p))\cdot g \mapsto (\pi(p),g)$.
+1. **Trivialization from a [[fiber-bundles/section-of-a-fiber-bundle|global section]].** If $P\to M$ admits a global smooth section $s:M\to P$, then $P$ is isomorphic to the trivial bundle $M\times G$ via $p=s(\pi(p))\cdot g \mapsto (\pi(p),g)$.
 2. **Isomorphism from cohomologous transition data.** If two principal bundles over the same base have transition functions related by a coboundary $g'_{ij}=a_i^{-1}g_{ij}a_j$ for smooth $a_i:U_i\to G$, then they are isomorphic (via maps defined locally using the $a_i$).
 3. **Change of coordinates on a frame bundle.** A diffeomorphism $f:M\to M$ induces an isomorphism of $\mathrm{Fr}(M)$ with itself covering $f$.

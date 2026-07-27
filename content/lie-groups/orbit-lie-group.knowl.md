@@ -31,8 +31,8 @@ $$
 $$
 
 from the [[lie-groups/coset-space|coset space]] $G/G_x$, whose image is $G\cdot x$. Moreover:
-- $\overline{\Phi}_x$ is an immersion, and $G\cdot x$ is an immersed submanifold of $M$.
-- If the action is [[lie-groups/proper-action-lie|proper]], then $\overline{\Phi}_x$ is an embedding, so each orbit is an embedded submanifold.
+- $\overline{\Phi}_x$ is an immersion, and $G\cdot x$ is an [[differential-geometry/immersed-submanifold|immersed submanifold]] of $M$.
+- If the action is [[lie-groups/proper-action-lie|proper]], then $\overline{\Phi}_x$ is an embedding, so each orbit is an [[differential-geometry/embedded-submanifold|embedded submanifold]].
 
 In particular, each orbit carries a canonical structure of a [[lie-groups/homogeneous-space|homogeneous space]] for $G$.
 

@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/construction-parallel-transport-map-along-a-curve.md"
 +++
 
-Let $E\to M$ be a vector bundle with a [[fiber-bundles/connection-on-a-vector-bundle|connection]] $\nabla$.
+Let $E\to M$ be a [[fiber-bundles/vector-bundle|vector bundle]] with a [[fiber-bundles/connection-on-a-vector-bundle|connection]] $\nabla$.
 
 Let $\gamma:[a,b]\to M$ be a smooth curve.
 
@@ -39,7 +39,7 @@ This construction is the vector-bundle version of [[fiber-bundles/parallel-trans
 ## Examples
 1. **Flat transport in a trivial bundle.** On $E=M\times \mathbb R^n$ with the [[fiber-bundles/flat-connection-a0-on-a-trivial-bundle|flat connection]] $\nabla=d$, the parallel equation is $\dot s(t)=0$, so $s(t)$ is constant and $P_\gamma=\mathrm{id}_{\mathbb R^n}$ for every curve.
 
-2. **Line bundle with a 1-form potential.** On the trivial complex line bundle $M\times\mathbb C$, fix a real 1-form $\alpha$ and define $\nabla=d+i\alpha$. Then the parallel equation along $\gamma$ becomes
+2. **[[fiber-bundles/line-bundle|Line bundle]] with a 1-form potential.** On the trivial complex line bundle $M\times\mathbb C$, fix a real 1-form $\alpha$ and define $\nabla=d+i\alpha$. Then the parallel equation along $\gamma$ becomes
    \[
    \dot s(t) + i\,\alpha(\dot\gamma(t))\,s(t)=0,
    \]

@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/flat-vector-bundle-connection.md"
 +++
 
-Let $E\to M$ be a vector bundle with connection $\nabla$.
+Let $E\to M$ be a [[fiber-bundles/vector-bundle|vector bundle]] with connection $\nabla$.
 
 **Definition.** The connection $\nabla$ is flat if its [[fiber-bundles/curvature-of-a-vector-bundle-connection|curvature]] vanishes identically:
 \[
@@ -17,7 +17,7 @@ R^\nabla = 0.
 
 Flatness has two standard geometric consequences:
 - On sufficiently small contractible open sets, there exist local frames of $\nabla$-parallel sections (frames $(e_i)$ with $\nabla e_i=0$), so locally the connection looks like the trivial connection in a suitable gauge.
-- The associated [[fiber-bundles/parallel-transport|parallel transport]] along curves depends only on the homotopy class of the curve with fixed endpoints; loops therefore determine a representation of the fundamental group into the structure group, and the image is captured by the [[fiber-bundles/holonomy-group|holonomy group]].
+- The associated [[fiber-bundles/parallel-transport|parallel transport]] along curves depends only on the homotopy class of the curve with fixed endpoints; loops therefore determine a representation of the [[topology/fundamental-group|fundamental group]] into the structure group, and the image is captured by the [[fiber-bundles/holonomy-group|holonomy group]].
 
 Viewed on the frame bundle, flatness corresponds to integrability of the induced horizontal distribution (compare [[fiber-bundles/integrable-horizontal-distribution|integrable horizontal distributions]]).
 

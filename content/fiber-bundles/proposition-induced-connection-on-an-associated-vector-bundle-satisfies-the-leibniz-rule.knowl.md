@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/proposition-induced-connection-on-an-associated-vector-bundle-satisfies-the-leibniz-rule.md"
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\). Given a representation \(\rho:G\to \mathrm{GL}(V)\), form the associated vector bundle \(E:=P\times_\rho V\to M\). The connection \(\omega\) induces a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] (covariant derivative)
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\). Given a representation \(\rho:G\to \mathrm{GL}(V)\), form the [[fiber-bundles/associated-vector-bundle|associated vector bundle]] \(E:=P\times_\rho V\to M\). The connection \(\omega\) induces a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] (covariant derivative)
 \[
 \nabla:\Gamma(E)\to \Omega^1(M;E),
 \]
@@ -32,5 +32,5 @@ In particular, the induced \(\nabla\) is a bona fide connection on \(E\) in the 
    \nabla(fs)=d(fs)+\rho_*(A)\,fs=(df)s+f(ds+\rho_*(A)s),
    \]
    which is exactly the Leibniz rule.
-2. **Associated line bundle.** For a principal \(U(1)\)-bundle and the standard 1-dimensional representation, \(\nabla\) is the usual connection on a complex line bundle; the Leibniz identity reduces to the familiar product rule for covariant differentiation of functions times sections.
+2. **Associated [[fiber-bundles/line-bundle|line bundle]].** For a principal \(U(1)\)-bundle and the standard 1-dimensional representation, \(\nabla\) is the usual connection on a complex line bundle; the Leibniz identity reduces to the familiar product rule for covariant differentiation of functions times sections.
 3. **Tangent bundle from the frame bundle.** If \(P\) is the frame bundle of \(TM\) and \(\omega\) is a principal connection on \(P\), the associated bundle for the defining representation is \(TM\). The resulting \(\nabla\) on \(TM\) satisfies \(\nabla_X(fY)=X(f)Y+f\nabla_XY\).

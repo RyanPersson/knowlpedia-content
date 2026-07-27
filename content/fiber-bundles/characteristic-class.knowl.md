@@ -8,9 +8,9 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/characteristic-class.md"
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] over a smooth manifold \(M\). Fix an Ad-invariant polynomial \(P\) on the Lie algebra \(\mathfrak{g}\) of \(G\).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). Fix an [[fiber-bundles/invariant-polynomial-on-a-lie-algebra|Ad-invariant polynomial]] \(P\) on the Lie algebra \(\mathfrak{g}\) of \(G\).
 
-Choose any principal connection on \(P\), form its Chern–Weil form \(\mathrm{CW}_P(\omega)\in \Omega^{2k}(M)\) as in [[fiber-bundles/chernweil-form|the Chern–Weil form construction]], and take its de Rham class:
+Choose any [[fiber-bundles/principal-connection|principal connection]] on \(P\), form its Chern–Weil form \(\mathrm{CW}_P(\omega)\in \Omega^{2k}(M)\) as in [[fiber-bundles/chernweil-form|the Chern–Weil form construction]], and take its de Rham class:
 \[
 c_P(P) \;\coloneqq\; [\,\mathrm{CW}_P(\omega)\,]\in H^{2k}_{\mathrm{dR}}(M).
 \]

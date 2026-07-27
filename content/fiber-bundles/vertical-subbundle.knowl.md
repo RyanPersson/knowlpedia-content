@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/vertical-subbundle.md"
 +++
 
-Let \(\pi:E\to M\) be a [[fiber-bundles/fibered-manifold|fibered manifold]]. The differential of \(\pi\) defines a smooth vector bundle map between the [[fiber-bundles/tangent-bundle|tangent bundles]]
+Let \(\pi:E\to M\) be a [[fiber-bundles/fibered-manifold|fibered manifold]]. The differential of \(\pi\) defines a smooth [[fiber-bundles/vector-bundle-morphism|vector bundle map]] between the [[fiber-bundles/tangent-bundle|tangent bundles]]
 \[
 d\pi:TE\longrightarrow TM,\qquad v\in T_eE\mapsto d\pi_e(v)\in T_{\pi(e)}M.
 \]
@@ -18,7 +18,7 @@ VE \;:=\; \ker(d\pi)\;=\;\{v\in TE\mid d\pi(v)=0\}\subset TE.
 \]
 Equivalently, \(VE\) is the smooth subbundle whose fiber at \(e\in E\) is the [[fiber-bundles/vertical-tangent-space|vertical tangent space]] \(V_eE\subset T_eE\).
 
-Since \(\pi\) is a submersion, \(d\pi\) has constant rank, and therefore \(\ker(d\pi)\) has constant rank \(\dim(E)-\dim(M)\); this implies \(VE\) is a smooth vector subbundle of \(TE\). A [[fiber-bundles/vertical-vector-field|vertical vector field]] is exactly a smooth section of \(VE\).
+Since \(\pi\) is a submersion, \(d\pi\) has constant rank, and therefore \(\ker(d\pi)\) has constant rank \(\dim(E)-\dim(M)\); this implies \(VE\) is a [[fiber-bundles/vector-subbundle|smooth vector subbundle]] of \(TE\). A [[fiber-bundles/vertical-vector-field|vertical vector field]] is exactly a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of \(VE\).
 
 ## Examples
 1. **Product projection:** for \(\pi=\mathrm{pr}_1:M\times F\to M\), the vertical subbundle is \(\{0\}\times TF\subset T(M\times F)\cong TM\times TF\).

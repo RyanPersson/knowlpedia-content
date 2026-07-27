@@ -8,11 +8,11 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tangent-bundle-ts2-as-a-nontrivial-rank-2-real-vector-bundle.md"
 +++
 
-Let $S^2$ be the 2-sphere. Its [[fiber-bundles/tangent-bundle|tangent bundle]] $\pi:TS^2\to S^2$ is a smooth real vector bundle of rank $2$.
+Let $S^2$ be the 2-sphere. Its [[fiber-bundles/tangent-bundle|tangent bundle]] $\pi:TS^2\to S^2$ is a smooth real [[fiber-bundles/vector-bundle|vector bundle]] of rank $2$.
 
 The bundle $TS^2$ is **not** isomorphic (as a rank-2 real vector bundle) to the [[fiber-bundles/trivial-vector-bundle-mvm|trivial rank-2 bundle]] $S^2\times \mathbb R^2$.
 
-A standard proof uses the “hairy ball” phenomenon: every continuous tangent vector field on $S^2$ has a zero. Since a global nowhere-zero section would trivialize a rank-1 subbundle and (together with a second independent section) produce a global frame, this obstructs triviality.
+A standard proof uses the “hairy ball” phenomenon: every continuous tangent vector field on $S^2$ has a zero. Since a global [[fiber-bundles/nowhere-vanishing-section|nowhere-zero section]] would trivialize a rank-1 subbundle and (together with a second independent section) produce a global frame, this obstructs triviality.
 
 ## Equivalent characterizations
 Equivalently:

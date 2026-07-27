@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/connection-on-a-vector-bundle.md"
 +++
 
-Let $E\to M$ be a smooth vector bundle over a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$. Write $\Gamma(E)$ for the space of smooth sections of $E$, and $\mathfrak X(M)$ for the space of smooth [[fiber-bundles/vector-field|vector fields]] on $M$.
+Let $E\to M$ be a smooth [[fiber-bundles/vector-bundle|vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] $M$. Write $\Gamma(E)$ for the [[fiber-bundles/module-of-smooth-sections|space of smooth sections]] of $E$, and $\mathfrak X(M)$ for the space of smooth [[fiber-bundles/vector-field|vector fields]] on $M$.
 
 **Definition.** A (Koszul) connection on $E$ is a map
 \[

@@ -29,7 +29,7 @@ A **principal connection** on \(P\) is a smooth assignment of a subspace \(H_p\s
 3. **Hopf fibration.** The Hopf map \(S^3\to S^2\) is a principal \(U(1)\)-bundle. The standard contact 1-form on \(S^3\) defines a horizontal distribution (the orthogonal complement to the \(U(1)\)-orbits) that is invariant under the right \(U(1)\)-action, hence gives a principal connection.
 
 ## Equivalent characterizations
-Equivalently, a principal connection is a \(G\)-equivariant splitting of the short exact sequence of vector bundles over \(P\),
+Equivalently, a principal connection is a \(G\)-equivariant splitting of the [[fiber-bundles/short-exact-sequence-of-vector-bundles|short exact sequence of vector bundles]] over \(P\),
 \[
 0 \longrightarrow VP \longrightarrow TP \xrightarrow{d\pi} \pi^*TM \longrightarrow 0.
 \]

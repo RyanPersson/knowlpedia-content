@@ -35,5 +35,5 @@ If $E\to M$ is a vector bundle, the set of [[fiber-bundles/connection-on-a-vecto
 
 ## Examples
 1. **Trivial principal bundle.** If $P=M\times G$, then choosing the product trivialization identifies connections with $\mathfrak{g}$-valued 1-forms on $M$, so $\mathcal{C}(P)$ is (noncanonically) isomorphic to an affine bundle modeled on $T^*M\otimes (M\times \mathfrak{g})$.
-2. **Line bundles.** For a principal $U(1)$-bundle, the difference of two connections is an ordinary real 1-form on $M$, reflecting that $\mathrm{Ad}(P)$ is a trivial real line bundle.
-3. **Levi–Civita as a section.** The Levi–Civita connection determines a distinguished section of the connection bundle of the orthonormal frame bundle of a Riemannian manifold.
+2. **[[fiber-bundles/line-bundle|Line bundles]].** For a principal $U(1)$-bundle, the difference of two connections is an ordinary real 1-form on $M$, reflecting that $\mathrm{Ad}(P)$ is a trivial real line bundle.
+3. **Levi–Civita as a section.** The Levi–Civita connection determines a distinguished section of the connection bundle of the orthonormal frame bundle of a [[differential-geometry/riemannian-manifold|Riemannian manifold]].

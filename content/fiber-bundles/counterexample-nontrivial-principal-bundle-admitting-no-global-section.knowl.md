@@ -11,7 +11,7 @@ legacy_source_path = "fiber-bundles/counterexample-nontrivial-principal-bundle-a
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]].
 
 ## Triviality criterion via sections
-A smooth global section $s:M\to P$ (so $\pi\circ s=\mathrm{id}_M$) trivializes $P$:
+A smooth [[fiber-bundles/section-of-a-fiber-bundle|global section]] $s:M\to P$ (so $\pi\circ s=\mathrm{id}_M$) trivializes $P$:
 
 - Define
   \[

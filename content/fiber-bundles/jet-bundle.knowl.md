@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/jet-bundle.md"
 +++
 
-Let $\pi\colon E\to M$ be a smooth fiber bundle over a [[fiber-bundles/smooth-manifold|smooth manifold]].
+Let $\pi\colon E\to M$ be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]].
 
 ## Definition (1-jet of a section)
 Let $x\in M$. Two smooth local sections $s,t\colon U\to E$ (with $x\in U$) are **1-jet equivalent at $x$** if:
@@ -30,6 +30,6 @@ The fiber of $J^1E\to M$ at $x$ encodes “value + first derivative” data at $
 A fundamental application is that for a principal bundle $P\to M$, the quotient $J^1P/G$ is the [[fiber-bundles/bundle-of-connections|bundle of connections]].
 
 ## Examples
-1. **Jets of functions.** For the trivial real line bundle $E=M\times \mathbb{R}$, a section is a function $f\colon M\to \mathbb{R}$, and $j_x^1 f$ is determined by $(f(x), df_x)$. Thus $J^1(M\times \mathbb{R})$ identifies with $M\times \mathbb{R}\times T_x^*M$.
+1. **Jets of functions.** For the trivial [[fiber-bundles/line-bundle|real line bundle]] $E=M\times \mathbb{R}$, a section is a function $f\colon M\to \mathbb{R}$, and $j_x^1 f$ is determined by $(f(x), df_x)$. Thus $J^1(M\times \mathbb{R})$ identifies with $M\times \mathbb{R}\times T_x^*M$.
 2. **Trivial bundle with fiber F.** For $E=M\times F$, a section is a map $f\colon M\to F$, and $j_x^1 f$ records $(x, f(x), df_x)$.
 3. **Local coordinate description.** In coordinates $(x^i)$ on $M$ and fiber coordinates $(y^\alpha)$ on $E$, a jet is described by $(x^i, y^\alpha, y^\alpha_i)$, where $y^\alpha_i$ represent the first partial derivatives of the section components.

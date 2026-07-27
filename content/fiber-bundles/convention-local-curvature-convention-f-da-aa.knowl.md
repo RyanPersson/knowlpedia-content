@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/convention-local-curvature-convention-f-da-aa.md"
 +++
 
-A principal connection can be described locally by a Lie algebra–valued 1-form, and its curvature is then expressed by a standard structure equation. Different sign conventions appear in the literature; this knowl fixes the convention used here.
+A [[fiber-bundles/principal-connection|principal connection]] can be described locally by a Lie algebra–valued 1-form, and its curvature is then expressed by a standard structure equation. Different sign conventions appear in the literature; this knowl fixes the convention used here.
 
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] and let $\omega\in\Omega^1(P;\mathfrak{g})$ be a [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]]. Let $\Omega\in\Omega^2(P;\mathfrak{g})$ be its curvature (see [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form of a principal connection]]).
 
@@ -62,4 +62,4 @@ where $\omega\wedge\omega$ uses the same bracketed wedge construction.
    which is the local manifestation of flatness.
 
 3. **Non-abelian contribution from A wedge A**
-   For a non-abelian $G$ (for example $SU(2)$), even if the components of $A$ have constant coefficients in a coordinate chart, the term $A\wedge A$ can be nonzero because it depends on the Lie bracket. This is the origin of genuinely non-linear curvature effects in gauge theory.
+   For a non-abelian $G$ (for example $SU(2)$), even if the components of $A$ have constant coefficients in a coordinate chart, the term $A\wedge A$ can be nonzero because it depends on the Lie bracket. This is the origin of genuinely non-linear curvature effects in [[fiber-bundles/gauge-theory|gauge theory]].

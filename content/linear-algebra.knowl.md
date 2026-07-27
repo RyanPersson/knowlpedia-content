@@ -39,6 +39,7 @@ Click any term to expand its definition inline.
 ## Matrix Invariants
 
 - [[linear-algebra/determinant|Determinant]]
+- [[linear-algebra/positive-semidefinite-matrix|Positive semidefinite matrix]]
 - [[linear-algebra/trace|Trace]]
 
 ---
@@ -82,3 +83,9 @@ Click any term to expand its definition inline.
 - [[linear-algebra/orthogonal-complement|Orthogonal complement]]
 - [[linear-algebra/orthogonal-projection|Orthogonal projection]]
 - [[linear-algebra/operator-invariant-subspace|Invariant subspace of an operator]]
+
+## Quaternionic and Hermitian linear algebra
+
+- [[linear-algebra/complexification|Complexification]]
+- [[linear-algebra/quaternion-division-algebra|Quaternion division algebra]]
+- [[linear-algebra/quaternionic-vector-space|Quaternionic vector space]]

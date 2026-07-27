@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/chern-class.md"
 +++
 
-Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\pi:E\to M$ be a complex vector bundle of rank $n$ equipped with a (linear) [[fiber-bundles/connection-on-a-vector-bundle|connection]] $\nabla$. Write $F_\nabla\in\Omega^2(M;\mathrm{End}(E))$ for its [[fiber-bundles/curvature|curvature]].
+Let $M$ be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let $\pi:E\to M$ be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] of rank $n$ equipped with a (linear) [[fiber-bundles/connection-on-a-vector-bundle|connection]] $\nabla$. Write $F_\nabla\in\Omega^2(M;\mathrm{End}(E))$ for its [[fiber-bundles/curvature|curvature]].
 
 ## Definition (Chern forms and Chern classes)
 The **total Chern form** of $\nabla$ is the even differential form
@@ -40,7 +40,7 @@ c_k(f^*E)=f^*c_k(E)\in H^{2k}(N;\mathbb Z).
 ## Examples
 1. **Trivial bundle.** If $E\cong M\times\mathbb C^n$ admits the flat connection ($F_\nabla=0$), then $c(\nabla)=1$ and hence $c_k(E)=0$ for all $k\ge 1$.
 
-2. **Complex line bundle.** If $\mathrm{rank}_{\mathbb C}E=1$, then
+2. **[[fiber-bundles/line-bundle|Complex line bundle]].** If $\mathrm{rank}_{\mathbb C}E=1$, then
    \[
    c(\nabla)=1+\frac{i}{2\pi}F_\nabla,
    \]

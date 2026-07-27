@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/trivial-fiber-bundle.md"
 +++
 
-A [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] \(\pi:E\to M\) with typical fiber \(F\) is **trivial** (or **globally trivial**) if there exists a [[fiber-bundles/bundle-isomorphism|bundle isomorphism]]
+A [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] \(\pi:E\to M\) with [[fiber-bundles/typical-fiber|typical fiber]] \(F\) is **trivial** (or **globally trivial**) if there exists a [[fiber-bundles/bundle-isomorphism|bundle isomorphism]]
 \[
 \Psi:E\longrightarrow M\times F
 \]
@@ -21,4 +21,4 @@ Equivalently, \(E\) admits a single global trivialization, so that all transitio
 ## Examples
 1. **Product bundles:** \(\mathrm{pr}_1:M\times F\to M\) is trivial by construction.
 2. **Euclidean tangent bundle:** \(T\mathbb{R}^n\to\mathbb{R}^n\) is trivial via the standard identification \(T\mathbb{R}^n\cong \mathbb{R}^n\times\mathbb{R}^n\).
-3. **Nontrivial example:** the Möbius line bundle over \(S^1\) is a smooth fiber bundle with typical fiber \(\mathbb{R}\) but is not trivial.
+3. **Nontrivial example:** the Möbius [[fiber-bundles/line-bundle|line bundle]] over \(S^1\) is a smooth fiber bundle with typical fiber \(\mathbb{R}\) but is not trivial.

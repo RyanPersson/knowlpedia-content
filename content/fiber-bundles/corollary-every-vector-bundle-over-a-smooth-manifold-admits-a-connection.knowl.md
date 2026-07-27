@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/corollary-every-vector-bundle-over-a-smooth-manifold-admits-a-connection.md"
 +++
 
-Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(E\to M\) be a smooth vector bundle.
+Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]].
 
 ## Corollary (existence of vector bundle connections)
 There exists at least one [[fiber-bundles/connection-on-a-vector-bundle|connection on the vector bundle]] \(E\to M\), i.e. a covariant derivative \(\nabla:\Gamma(E)\to \Omega^1(M;E)\) satisfying the Leibniz rule.
@@ -17,5 +17,5 @@ One proof strategy is to pass to the frame bundle \(\mathrm{Fr}(E)\to M\), use t
 
 ## Examples
 1. **Trivial bundle.** On \(E=M\times \mathbb R^k\), the operator \(d\) (componentwise differentiation in a trivialization) is a connection.
-2. **Tangent bundle.** On a Riemannian manifold, the Levi–Civita connection gives a connection on \(TM\) and hence on all tensor bundles built from \(TM\) and \(T^*M\).
-3. **Complex line bundles.** A Hermitian metric on a complex line bundle admits a compatible unitary connection; for holomorphic line bundles this includes the Chern connection.
+2. **Tangent bundle.** On a [[differential-geometry/riemannian-manifold|Riemannian manifold]], the Levi–Civita connection gives a connection on \(TM\) and hence on all tensor bundles built from \(TM\) and \(T^*M\).
+3. **Complex [[fiber-bundles/line-bundle|line bundles]].** A Hermitian metric on a complex line bundle admits a compatible [[fiber-bundles/hermitian-connection|unitary connection]]; for holomorphic line bundles this includes the [[fiber-bundles/chern-connection|Chern connection]].

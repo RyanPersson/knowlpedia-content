@@ -8,12 +8,12 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/typical-fiber.md"
 +++
 
-Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]]. A **typical fiber** (or **model fiber**) is a smooth manifold \(F\) for which there exists an open cover \(\{U_i\}\) of \(M\) and [[fiber-bundles/local-trivialization|local trivializations]] \(\Phi_i:\pi^{-1}(U_i)\to U_i\times F\).
+Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]]. A **typical fiber** (or **model fiber**) is a [[fiber-bundles/smooth-manifold|smooth manifold]] \(F\) for which there exists an open cover \(\{U_i\}\) of \(M\) and [[fiber-bundles/local-trivialization|local trivializations]] \(\Phi_i:\pi^{-1}(U_i)\to U_i\times F\).
 
 ## Examples
 1. **Tangent and cotangent bundles:** for an \(n\)-manifold \(M\), the typical fiber of \(TM\to M\) (and of \(T^*M\to M\)) is \(\mathbb{R}^n\).
 2. **Principal bundles:** the typical fiber of a principal \(G\)-bundle \(P\to M\) is the [[fiber-bundles/lie-group|Lie group]] \(G\) itself.
-3. **Sphere bundles:** the unit sphere bundle \(S(E)\to M\) of a rank-\(k\) vector bundle has typical fiber \(S^{k-1}\).
+3. **[[fiber-bundles/sphere-bundle|Sphere bundles]]:** the unit sphere bundle \(S(E)\to M\) of a rank-\(k\) vector bundle has typical fiber \(S^{k-1}\).
 
 
 ## Remarks

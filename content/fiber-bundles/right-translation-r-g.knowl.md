@@ -27,7 +27,7 @@ The family \(\{R_g\}_{g\in G}\) satisfies
 \[
 R_g\circ R_h=R_{hg},\qquad R_e=\mathrm{id}_G,
 \]
-so the assignment \(g\mapsto R_g\) is an antihomomorphism into the diffeomorphism group. For a left-multiplicative analogue, compare with [[fiber-bundles/left-translation-l-g|left translations]].
+so the assignment \(g\mapsto R_g\) is an antihomomorphism into the [[differential-geometry/diffeomorphism-group|diffeomorphism group]]. For a left-multiplicative analogue, compare with [[fiber-bundles/left-translation-l-g|left translations]].
 
 ### Examples
 

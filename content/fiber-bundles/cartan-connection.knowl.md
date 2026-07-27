@@ -29,5 +29,5 @@ where the bracket uses the [[fiber-bundles/lie-bracket|Lie bracket]] on $\mathfr
 
 ## Examples
 1. **Homogeneous model geometry.** On the principal $H$-bundle $G\to G/H$, the Maurer–Cartan form is a Cartan connection with zero curvature; this is the “flat” Cartan geometry modeled on $G/H$.
-2. **Riemannian geometry as Cartan geometry.** On the orthonormal frame bundle of a Riemannian manifold, combining the Levi–Civita connection 1-form with the solder form produces a Cartan connection modeled on Euclidean space (with model group the Euclidean group and stabilizer $O(n)$).
+2. **Riemannian geometry as Cartan geometry.** On the orthonormal frame bundle of a [[differential-geometry/riemannian-manifold|Riemannian manifold]], combining the Levi–Civita connection 1-form with the solder form produces a Cartan connection modeled on Euclidean space (with model group the Euclidean group and stabilizer $O(n)$).
 3. **Projective and conformal geometries.** Standard projective or conformal structures can be encoded as Cartan geometries modeled on appropriate homogeneous spaces; the Cartan curvature measures deviation from the flat model.

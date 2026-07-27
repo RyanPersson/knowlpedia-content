@@ -8,7 +8,7 @@ domains = ["shale-paper"]
 legacy_source_path = "shale-paper/segal-unitary-representation-Ufrak.md"
 +++
 
-For \(T\in rGL(M)\), the unitary operator \(\mathfrak U(T)\) on \(L_2(M,n)\) is
+For \(T\in rGL(M)\), the [[functional-analysis/unitary-operator|unitary operator]] \(\mathfrak U(T)\) on \(L_2(M,n)\) is
 \[
 (\mathfrak U(T)f)(x)=X(T)^{1/2}\,f(T^*x),
 \]

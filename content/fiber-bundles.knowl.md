@@ -47,6 +47,119 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/vector-field|Vector Field]]
 - [[fiber-bundles/wedge-product-of-differential-forms|Wedge Product Of Differential Forms]]
 ---
+## July 2026 bundle and gauge-theory expansion
+
+### Vector bundles, sections, and bundle operations
+
+- [[fiber-bundles/compactly-supported-section|Compactly supported section]]
+- [[fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism|Kernel and image bundles of a constant-rank morphism]]
+- [[fiber-bundles/line-bundle|Line bundle]]
+- [[fiber-bundles/module-of-smooth-sections|Module of smooth sections]]
+- [[fiber-bundles/nowhere-vanishing-section|Nowhere-vanishing section]]
+- [[fiber-bundles/quotient-vector-bundle|Quotient vector bundle]]
+- [[fiber-bundles/section-of-a-fiber-bundle|Section of a fiber bundle]]
+- [[fiber-bundles/section-of-a-vector-bundle|Section of a vector bundle]]
+- [[fiber-bundles/short-exact-sequence-of-vector-bundles|Short exact sequence of vector bundles]]
+- [[fiber-bundles/sphere-bundle|Sphere bundle]]
+- [[fiber-bundles/splitting-theorem-for-vector-bundles|Splitting theorem for vector bundles]]
+- [[fiber-bundles/support-of-a-section|Support of a section]]
+- [[fiber-bundles/vector-subbundle|Vector subbundle]]
+- [[fiber-bundles/zero-section|Zero section]]
+
+### Connections and curvature
+
+- [[fiber-bundles/chern-connection|Chern connection]]
+- [[fiber-bundles/hom-bundle-connection|Connection on a Hom bundle]]
+- [[fiber-bundles/connection-on-exterior-and-symmetric-powers|Connection on exterior and symmetric powers]]
+- [[fiber-bundles/dual-connection|Dual connection]]
+- [[fiber-bundles/hermitian-connection|Hermitian connection]]
+- [[fiber-bundles/pullback-connection-on-a-vector-bundle|Pullback connection on a vector bundle]]
+- [[fiber-bundles/tensor-product-connection|Tensor product connection]]
+- [[fiber-bundles/vector-bundle-valued-differential-form|Vector-bundle-valued differential form]]
+
+### Reductions and geometric structures
+
+- [[fiber-bundles/connection-compatible-with-a-reduction|Connection compatible with a reduction]]
+- [[fiber-bundles/chern-curvature|Curvature of the Chern connection]]
+- [[fiber-bundles/g-structure|G-structure]]
+- [[fiber-bundles/intrinsic-torsion-of-a-g-structure|Intrinsic torsion of a G-structure]]
+- [[fiber-bundles/quaternionic-vector-bundle|Quaternionic vector bundle]]
+- [[fiber-bundles/spin-connection|Spin connection]]
+- [[fiber-bundles/spin-structure|Spin structure]]
+
+### Characteristic classes
+
+- [[fiber-bundles/characteristic-number|Characteristic number]]
+- [[fiber-bundles/chern-number|Chern number]]
+- [[fiber-bundles/chern-roots|Chern roots]]
+- [[fiber-bundles/chern-gauss-bonnet-theorem|Chern-Gauss-Bonnet theorem]]
+- [[fiber-bundles/chern-weil-homomorphism|Chern-Weil homomorphism]]
+- [[fiber-bundles/euler-class-as-zero-section|Euler class as pullback of the Thom class]]
+- [[fiber-bundles/euler-class-obstruction-to-nonzero-section|Euler class obstruction to a nowhere-zero section]]
+- [[fiber-bundles/invariant-polynomial-on-a-lie-algebra|Invariant polynomial on a Lie algebra]]
+- [[fiber-bundles/pontryagin-number|Pontryagin number]]
+- [[fiber-bundles/splitting-principle|Splitting principle]]
+- [[fiber-bundles/stiefel-whitney-class|Stiefel-Whitney class]]
+- [[fiber-bundles/thom-class|Thom class]]
+- [[fiber-bundles/thom-isomorphism-theorem|Thom isomorphism theorem]]
+- [[fiber-bundles/universal-characteristic-class|Universal characteristic class]]
+- [[fiber-bundles/whitney-sum-formula|Whitney sum formula]]
+
+### Serre-Swan duality
+
+- [[fiber-bundles/projective-module-bundle-reconstruction|Reconstructing a vector bundle from a projective module]]
+- [[fiber-bundles/section-module-is-finitely-generated-projective|Section module is finitely generated projective]]
+- [[fiber-bundles/serre-swan-theorem|Serre–Swan theorem]]
+- [[fiber-bundles/serre-swan-idempotent-construction|Vector bundle from an idempotent matrix]]
+
+### Gauge actions and quotients
+
+- [[fiber-bundles/based-gauge-group|Based gauge group]]
+- [[fiber-bundles/coulomb-gauge|Coulomb gauge]]
+- [[fiber-bundles/gauge-theory|Gauge theory]]
+- [[fiber-bundles/gauge-fixing-condition|Gauge-fixing condition]]
+- [[fiber-bundles/irreducible-connection|Irreducible connection]]
+- [[fiber-bundles/moduli-stack-of-connections|Moduli stack of connections]]
+- [[fiber-bundles/reducible-connection|Reducible connection]]
+- [[fiber-bundles/slice-theorem-for-the-gauge-action|Slice theorem for the gauge action]]
+- [[fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations|Sobolev completion of connections and gauge transformations]]
+- [[fiber-bundles/stabilizer-of-a-connection|Stabilizer of a connection]]
+- [[fiber-bundles/wilson-loop|Wilson loop]]
+
+### Analytic and complex gauge theory
+
+- [[fiber-bundles/covariant-hodge-laplacian|Covariant Hodge Laplacian]]
+- [[fiber-bundles/donaldson-uhlenbeck-yau-theorem|Donaldson-Uhlenbeck-Yau theorem]]
+- [[fiber-bundles/formal-adjoint-of-covariant-exterior-derivative|Formal adjoint of the covariant exterior derivative]]
+- [[fiber-bundles/hermitian-yang-mills-connection|Hermitian Yang-Mills connection]]
+- [[fiber-bundles/l2-inner-product-on-bundle-valued-forms|L2 inner product on bundle-valued forms]]
+
+### Yang-Mills theory and instantons
+
+- [[fiber-bundles/anti-self-dual-moduli-space|Anti-self-dual moduli space]]
+- [[fiber-bundles/asd-deformation-complex|ASD deformation complex]]
+- [[fiber-bundles/bogomolny-monopole-equation|Bogomolny monopole equation]]
+- [[fiber-bundles/instanton-number|Instanton number]]
+- [[fiber-bundles/regular-asd-connection|Regular ASD connection]]
+- [[fiber-bundles/self-dual-and-anti-self-dual-connection|Self-dual and anti-self-dual connection]]
+- [[fiber-bundles/uhlenbeck-compactness-theorem|Uhlenbeck compactness theorem]]
+- [[fiber-bundles/uhlenbeck-removable-singularity-theorem|Uhlenbeck removable singularity theorem]]
+- [[fiber-bundles/yang-mills-energy-identity|Yang-Mills energy identity]]
+- [[fiber-bundles/instanton|Yang-Mills instanton]]
+- [[fiber-bundles/yang-mills-moduli-space|Yang-Mills moduli space]]
+
+### Flat connections and moduli
+
+- [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah-Bott symplectic form]]
+- [[fiber-bundles/character-variety|Character variety]]
+- [[fiber-bundles/curvature-as-a-moment-map|Curvature as a moment map]]
+- [[fiber-bundles/deformation-complex-of-a-flat-connection|Deformation complex of a flat connection]]
+- [[fiber-bundles/holonomy-correspondence-for-flat-connections|Holonomy correspondence for flat connections]]
+- [[fiber-bundles/moduli-space-of-flat-connections|Moduli space of flat connections]]
+- [[fiber-bundles/representation-variety|Representation variety]]
+- [[fiber-bundles/tangent-space-to-flat-connection-moduli|Tangent space to flat-connection moduli]]
+
+---
 
 ## Uncategorized
 

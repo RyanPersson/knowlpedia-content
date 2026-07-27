@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/convention-ad-p-g-g-uses-conjugation-action-gh-ghg-1.md"
 +++
 
-Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]]. In this project we reserve the notation $\operatorname{Ad}(P)$ for the associated bundle with fiber the group $G$ itself, where $G$ acts on $G$ by conjugation.
+Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]]. In this project we reserve the notation $\operatorname{Ad}(P)$ for the [[fiber-bundles/associated-bundle|associated bundle]] with fiber the group $G$ itself, where $G$ acts on $G$ by conjugation.
 
 ## Convention
 We define the **adjoint bundle**
@@ -31,7 +31,7 @@ Because conjugation is by group automorphisms, $\operatorname{Ad}(P)$ is a bundl
 
 ## Examples
 1. **Trivial principal bundle.**  
-   If $P\cong M\times G$, then $\operatorname{Ad}(P)\cong M\times G$ as a bundle of groups (choosing the obvious global section produces the identification).
+   If $P\cong M\times G$, then $\operatorname{Ad}(P)\cong M\times G$ as a bundle of groups (choosing the obvious [[fiber-bundles/section-of-a-fiber-bundle|global section]] produces the identification).
 
 2. **Frame bundle interpretation.**  
    If $E\to M$ is a rank $n$ vector bundle and $P=\operatorname{Fr}(E)$ is its [[fiber-bundles/construction-frame-bundle-fr-of-a-vector-bundle-e|frame bundle]], then

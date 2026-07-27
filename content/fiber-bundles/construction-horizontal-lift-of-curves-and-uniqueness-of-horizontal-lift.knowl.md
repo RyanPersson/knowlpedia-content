@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/construction-horizontal-lift-of-curves-and-uniqueness-of-horizontal-lift.md"
 +++
 
-Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] equipped with a [[fiber-bundles/principal-connection|principal connection]] $\omega$, and let $H:=\ker\omega\subset TP$ be its horizontal distribution.
+Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] equipped with a [[fiber-bundles/principal-connection|principal connection]] $\omega$, and let $H:=\ker\omega\subset TP$ be its [[fiber-bundles/horizontal-distribution|horizontal distribution]].
 
 A smooth curve $\widetilde\gamma:I\to P$ is **horizontal** if $\omega(\dot{\widetilde\gamma}(t))=0$ for all $t\in I$ (equivalently, $\dot{\widetilde\gamma}(t)\in H_{\widetilde\gamma(t)}$).
 
@@ -25,5 +25,5 @@ Equivalently, $\widetilde\gamma$ is the unique solution to the first-order ODE r
 
 ## Examples
 1. If $P=M\times G$ is trivial and $\omega$ is given by a local gauge potential $A$ on $M$, then the horizontal lift equation becomes an ODE for a curve in $G$ driven by $A(\dot\gamma)$.
-2. For the orthonormal frame bundle of a Riemannian manifold with Levi-Civita connection, horizontal lifts are precisely parallel frames along $\gamma$.
+2. For the orthonormal frame bundle of a [[differential-geometry/riemannian-manifold|Riemannian manifold]] with Levi-Civita connection, horizontal lifts are precisely parallel frames along $\gamma$.
 3. If $\gamma$ is constant, the unique horizontal lift with initial value $p_0$ is the constant curve at $p_0$.

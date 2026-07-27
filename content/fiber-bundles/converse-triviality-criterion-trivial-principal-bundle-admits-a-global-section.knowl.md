@@ -10,11 +10,11 @@ legacy_source_path = "fiber-bundles/converse-triviality-criterion-trivial-princi
 
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure [[fiber-bundles/lie-group|Lie group]] $G$.
 
-If $P$ is trivial, i.e. there exists a principal bundle isomorphism
+If $P$ is trivial, i.e. there exists a [[fiber-bundles/principal-bundle-isomorphism|principal bundle isomorphism]]
 \[
 \Psi:P\xrightarrow{\cong} M\times G,
 \]
-then $P$ admits a smooth global section. Concretely, if $e\in G$ is the identity, then
+then $P$ admits a smooth [[fiber-bundles/section-of-a-fiber-bundle|global section]]. Concretely, if $e\in G$ is the identity, then
 \[
 s(x):=\Psi^{-1}(x,e)
 \]

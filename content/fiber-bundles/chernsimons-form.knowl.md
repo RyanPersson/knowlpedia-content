@@ -8,11 +8,11 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/chernsimons-form.md"
 +++
 
-Chern–Simons forms are transgression forms that measure how [[fiber-bundles/chernweil-form|Chern–Weil forms]] change when the connection changes. They are a central tool in geometry and gauge theory, and they are instances of the general [[fiber-bundles/transgression-form|transgression form]] mechanism.
+Chern–Simons forms are transgression forms that measure how [[fiber-bundles/chernweil-form|Chern–Weil forms]] change when the connection changes. They are a central tool in geometry and [[fiber-bundles/gauge-theory|gauge theory]], and they are instances of the general [[fiber-bundles/transgression-form|transgression form]] mechanism.
 
 Let $\pi:P\to M$ be a [[fiber-bundles/principal-g-bundle|principal G-bundle]]. Let $\omega_0$ and $\omega_1$ be two [[fiber-bundles/principal-connection|principal connections]] on $P$, with curvatures $\Omega_0$ and $\Omega_1$.
 
-Fix an $\mathrm{Ad}$-invariant symmetric polynomial $P$ of degree $k$ on $\mathfrak{g}$ (as in the definition of a [[fiber-bundles/chernweil-form|Chern–Weil form]]).
+Fix an $\mathrm{Ad}$-invariant symmetric polynomial $P$ of degree $k$ on $\mathfrak{g}$ (as in the definition of a Chern–Weil form).
 
 ## Definition (relative Chern–Simons form)
 Define a path of connections

@@ -38,5 +38,5 @@ covering $\mathrm{id}_M$.
 
 ## Examples
 1. **From orthonormal frames to all frames.** The inclusion $SO(n)\hookrightarrow GL(n)$ extends the principal $SO(n)$-bundle of oriented orthonormal frames to the full $GL(n)$-frame bundle.
-2. **Nonzero vectors in a line bundle.** Extending a principal $U(1)$-bundle along $U(1)\hookrightarrow \mathbb{C}^\ast$ produces the principal $\mathbb{C}^\ast$-bundle of nonzero vectors in the associated complex line bundle.
+2. **Nonzero vectors in a [[fiber-bundles/line-bundle|line bundle]].** Extending a principal $U(1)$-bundle along $U(1)\hookrightarrow \mathbb{C}^\ast$ produces the principal $\mathbb{C}^\ast$-bundle of nonzero vectors in the associated complex line bundle.
 3. **From SU(n) to U(n).** Extending a principal $SU(n)$-bundle along $SU(n)\hookrightarrow U(n)$ yields a principal $U(n)$-bundle; geometrically this forgets the determinant-one constraint.
