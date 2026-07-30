@@ -26,6 +26,10 @@ For a Hermitian manifold, the Kähler condition is equivalent to \(\nabla J=0\),
 
 The closed, nondegenerate form \(\omega\) makes \(M\) a [[differential-geometry/symplectic-manifold|symplectic manifold]]. In complex dimension \(n\), the form \(\omega^n/n!\) is the Riemannian volume form for the compatible orientation. Kähler geometry therefore ties together complex, Riemannian, and symplectic structures without making those structures identical.
 
+## Morphisms
+
+There is no single convention for a “Kähler morphism.” A holomorphic map preserves only the complex structures, while a [[differential-geometry/holomorphic-isometric-immersion|holomorphic isometric immersion]] also preserves the metrics and Kähler forms. A strict isomorphism is a biholomorphic Riemannian isometry. These choices and the resulting category or groupoid are separated in [[differential-geometry/morphisms-between-kahler-manifolds|morphisms between Kähler manifolds]].
+
 ## Examples and non-examples
 
 Complex [[linear-algebra/euclidean-space|Euclidean space]], complex tori with flat Hermitian metrics, and [[algebraic-geometry-foundations/projective-space|complex projective space]] with the [[differential-geometry/fubini-study-metric|Fubini–Study metric]] are Kähler. In complex dimension greater than one, conformally replacing a [[differential-geometry/kahler-metric|Kähler metric]] by \(g'=e^f g\) for a nonconstant real function gives \(\omega'=e^f\omega\) and

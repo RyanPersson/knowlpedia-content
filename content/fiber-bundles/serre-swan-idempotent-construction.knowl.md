@@ -45,7 +45,13 @@ is a smooth self-adjoint idempotent whose image is \(T_xS^m\). Thus the [[fiber-
 
 ## Scope and near-misses
 
-The construction itself works on any smooth manifold. The familiar equivalence between smooth vector bundles and finitely generated projective \(C^\infty(M)\)-modules is most often stated for compact \(M\); noncompact variants require care about finite generation and the chosen function algebra.
+The construction itself works on any smooth manifold. For a connected
+finite-dimensional Hausdorff second-countable manifold, every finite-rank
+smooth bundle is obtained from such a finite idempotent, with no compactness
+assumption. For a disconnected base, finitely generated projective modules
+correspond to bundles whose ranks across components are globally bounded.
+Changing from \(C^\infty(M,\mathbb F)\) to an algebra of functions with a
+condition at infinity changes the relevant module category.
 
 A smooth matrix with varying rank does not define a vector bundle by taking images. For example, \(q(x)=[x]\) on \(\mathbb R\) has jumping image dimension at \(0\), and it fails the decisive axiom \(q^2=q\). The term “projector” here means idempotent, not necessarily orthogonal.
 

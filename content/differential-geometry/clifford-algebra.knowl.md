@@ -10,13 +10,18 @@ section_mode = "progressive"
 
 Let \(V\) be a [[algebra-modules/module|\(k\)-module]] over a commutative
 [[algebra-rings/ring|ring]] \(k\) in which \(2\) is invertible, and let
-\(q:V\to k\) be a quadratic form. The **Clifford algebra**
+\(q:V\to k\) be a [[linear-algebra/quadratic-form|quadratic form]]. The
+**Clifford algebra**
 \(\operatorname{Cl}(V,q)\) is the unital associative algebra
 \[
 \operatorname{Cl}(V,q)
-=T(V)\big/\langle v\otimes v+q(v)1:v\in V\rangle .
+=T(V)
+\big/\langle v\otimes v+q(v)1:v\in V\rangle .
 \]
-Thus the image of every \(v\in V\) satisfies \(v^2=-q(v)1\). If \(q(v)=g(v,v)\) comes from an [[linear-algebra/inner-product-space|inner product]], polarization gives
+Here \(T(V)\) is the [[algebra-modules/tensor-algebra|tensor algebra]]. Thus
+the image of every \(v\in V\) satisfies \(v^2=-q(v)1\). If
+\(q(v)=g(v,v)\) comes from an [[linear-algebra/inner-product-space|inner
+product]], polarization gives
 \[
 vw+wv=-2g(v,w)1.
 \]
@@ -42,6 +47,33 @@ The tensor-degree parity descends to a \(\mathbb Z/2\)-grading
 =\operatorname{Cl}^0(V,q)\oplus\operatorname{Cl}^1(V,q).
 \]
 Vectors lie in the odd part, while products of an even number of vectors lie in the even part. If \(V\) is free of finite rank \(n\), then the usual ordered monomials in a basis show that \(\operatorname{Cl}(V,q)\) has rank \(2^n\) as a \(k\)-module, without requiring \(q\) to be nondegenerate.
+
+This parity grading makes \(\operatorname{Cl}(V,q)\) a
+[[supergeometry/superalgebra|superalgebra]]. It is generally **not**
+[[supergeometry/supercommutative-algebra|supercommutative]]: an odd vector can
+have the nonzero square \(-q(v)1\), whereas odd elements in a
+supercommutative algebra have square zero when \(2\) is invertible.
+
+## Filtration and exterior algebra
+
+Tensor degree does not descend to a \(\mathbb Z\)-grading because the relation
+identifies a degree-two tensor with a scalar. It does descend to an increasing
+filtration \(F^0\subseteq F^1\subseteq\cdots\). For a finite-dimensional
+quadratic vector space over a field of characteristic different from \(2\),
+the [[differential-geometry/associated-graded-clifford-algebra|associated
+graded Clifford algebra]] is
+\[
+\operatorname{gr}_F\operatorname{Cl}(V,q)\cong
+\Lambda V.
+\]
+Here \(\Lambda V\) is the [[algebra-modules/exterior-algebra|exterior
+algebra]]. Thus the Clifford algebra is a filtered deformation of the
+exterior algebra, not generally an isomorphic algebra.
+
+The quadratic relation also has a Lie-superalgebra interpretation:
+\(\operatorname{Cl}(V,q)\) is a
+[[differential-geometry/clifford-algebra-as-super-enveloping-quotient|central
+quotient of a super universal enveloping algebra]].
 
 ## Real and complex forms
 

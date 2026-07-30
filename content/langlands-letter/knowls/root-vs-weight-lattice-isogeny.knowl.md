@@ -25,3 +25,28 @@ These intermediate lattices encode the central isogeny forms of the semisimple g
 ## Interpretation
 
 The letter's intermediate lattice \(L\) controls the isogeny form of \(G\). Dually, the corresponding cocharacter lattice controls the isogeny form of the [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]].
+
+## Type A1
+
+For type \(A_1\), let \(\omega\) be the fundamental weight and let
+\(\alpha=2\omega\) be the positive root. Then
+\[
+Q=\mathbb Z\alpha=2\mathbb Z\omega
+\subset
+P=\mathbb Z\omega,
+\qquad P/Q\cong\mathbb Z/2\mathbb Z.
+\]
+The simply connected form \(SL_2\) has character lattice \(P\), while the
+adjoint form \(PGL_2\) has character lattice \(Q\). The central isogeny
+\[
+SL_2\longrightarrow PGL_2
+\]
+has kernel \(\mu_2\). Exchanging character and cocharacter lattices under
+Langlands duality gives
+\(\widehat{SL_2}=PGL_2(\mathbb C)\) and
+\(\widehat{PGL_2}=SL_2(\mathbb C)\).
+
+## References
+
+1. Robert Steinberg, *Lectures on Chevalley Groups*, Yale University lecture
+   notes, 1968; revised AMS edition, 2016.

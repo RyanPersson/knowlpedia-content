@@ -330,3 +330,10 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 
 - [[lie-groups/compact-symplectic-group|Compact symplectic group]]
 - [[lie-groups/compact-symplectic-product-group|The group Sp(n)Sp(1)]]
+
+## July 30 extensions
+
+- [[formal-groups|Formal groups and formal Lie theory]]
+- [[supergeometry|Lie supergroups and supergeometry]]
+- [[mathematical-physics|Spacetime symmetry and mathematical physics]]
+- [[langlands|Geometric Langlands]]

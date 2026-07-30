@@ -89,3 +89,12 @@ Click any term to expand its definition inline.
 - [[linear-algebra/complexification|Complexification]]
 - [[linear-algebra/quaternion-division-algebra|Quaternion division algebra]]
 - [[linear-algebra/quaternionic-vector-space|Quaternionic vector space]]
+
+## July 30 extensions
+
+- [[linear-algebra/realification-of-a-complex-vector-space|Realification of a complex vector space]]
+- [[linear-algebra/quadratic-form|Quadratic form]]
+- [[linear-algebra/hermitian-matrix|Hermitian matrix]]
+- [[linear-algebra/minkowski-vector-space|Minkowski vector space]]
+- [[supergeometry|Super linear algebra and supergeometry]]
+- [[mathematical-physics|Mathematical physics]]

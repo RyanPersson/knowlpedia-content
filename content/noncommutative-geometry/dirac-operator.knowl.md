@@ -35,6 +35,8 @@ relates the operator to scalar curvature. Twisting \(S\) by a Hermitian bundle w
 
 **Warning.** This knowl uses “Dirac operator” for the spin-geometric operator. The broader class of Dirac-type operators includes Hodge–de Rham and signature operators. The Dirac monopole connection is instead a connection associated with a magnetic monopole and is not this operator.
 
+This page is specifically Riemannian: its principal symbol is invertible away from the zero section, so \(\not D\) is elliptic, and its analytic realization uses a positive-definite \(L^2\) inner product. On a [[differential-geometry/lorentzian-spinor-bundle|Lorentzian spinor bundle]], Clifford contraction instead gives a nonelliptic operator whose characteristic covectors are null. Its flat model is the [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]], and its evolution equation is the [[mathematical-physics/dirac-equation|Dirac equation]]. These operators share a Clifford-geometric construction but belong to different analytic categories.
+
 ## References
 
 1. H. B. Lawson Jr. and M.-L. Michelsohn, *Spin Geometry*, Princeton University Press, 1989. [Publisher record](https://doi.org/10.1515/9781400883912). Relevant: chapter II, §5, spinor bundles and the Dirac operator.

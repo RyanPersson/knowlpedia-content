@@ -32,6 +32,8 @@ This section covers the foundations of category theory, providing a unified lang
 
 - [[algebra-category-theory/subcategory|Subcategory]]
 - [[algebra-category-theory/full-subcategory|Full subcategory]]
+- [[algebra-category-theory/core-of-a-category|Core of a category]]
+- [[algebra-category-theory/groupoid|Groupoid]]
 - [[algebra-category-theory/opposite-category|Opposite category]]
 
 ## Functors and Natural Transformations
@@ -113,3 +115,16 @@ This section covers the foundations of category theory, providing a unified lang
 - [[algebra-category-theory/pretriangulated-category|Pretriangulated category]]
 - [[algebra-category-theory/octahedral-axiom|Octahedral axiom]]
 - [[algebra-category-theory/triangulated-category|Triangulated category]]
+
+## Monoidal and internal algebraic structures
+
+- [[algebra-category-theory/monoidal-category|Monoidal category]]
+- [[algebra-category-theory/symmetric-monoidal-category|Symmetric monoidal category]]
+- [[algebra-category-theory/algebra-object|Algebra object]]
+- [[algebra-category-theory/group-object|Group object]]
+
+## July 30 categorical applications
+
+- [[formal-groups|Formal groups]]
+- [[supergeometry|Supergeometry]]
+- [[langlands|Geometric Langlands]]

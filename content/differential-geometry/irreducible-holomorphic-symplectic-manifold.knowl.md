@@ -16,7 +16,20 @@ for an everywhere nondegenerate holomorphic \(2\)-form \(\sigma\). Thus \(X\) is
 
 ## Riemannian interpretation
 
-Yau’s theorem gives a Ricci-flat [[differential-geometry/kahler-metric|Kähler metric]] in each [[differential-geometry/kahler-class|Kähler class]], and the defining conditions imply restricted holonomy \(\operatorname{Sp}(n)\) when \(\dim_{\mathbb C}X=2n\). This is why these manifolds are often called compact [[differential-geometry/hyperkahler-manifold|hyperkähler manifolds]] in complex geometry [Huybrechts, §1](https://doi.org/10.1007/s002220050280). The terminology packages a [[differential-geometry/complex-manifold|complex manifold]], whereas a Riemannian hyperkähler structure includes a particular metric and quaternionic triple of complex structures.
+Yau’s theorem gives a Ricci-flat
+[[differential-geometry/kahler-metric|Kähler metric]] in each
+[[differential-geometry/kahler-class|Kähler class]]. If
+\(\dim_{\mathbb C}X=2n\), the IHS conditions imply that the restricted
+holonomy of this metric is \(\operatorname{Sp}(n)\). Because \(X\) is simply
+connected, its full and restricted holonomy groups agree, so the full
+holonomy is also \(\operatorname{Sp}(n)\). This is why these manifolds are
+often called compact
+[[differential-geometry/hyperkahler-manifold|hyperkähler manifolds]] in
+complex geometry [Huybrechts, §1](https://doi.org/10.1007/s002220050280).
+The terminology packages a
+[[differential-geometry/complex-manifold|complex manifold]], whereas a
+Riemannian hyperkähler structure includes a particular metric and
+quaternionic triple of complex structures.
 
 ## Examples and non-examples
 

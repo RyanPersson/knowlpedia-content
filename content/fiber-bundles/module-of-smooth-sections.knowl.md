@@ -26,7 +26,12 @@ Over a trivializing open set \(U\), a local frame identifies
 \[
 \Gamma^\infty(U,E|_U)\cong C^\infty(U)^r.
 \]
-Thus the section module is locally free of rank \(r=\operatorname{rank}E\). Globally it need not possess a basis: a global module basis would be a global frame and would trivialize \(E\).
+More precisely, these modules over varying open sets form the
+[[fiber-bundles/sheaf-of-smooth-sections|sheaf of smooth sections]], which is
+locally free of rank \(r=\operatorname{rank}E\) over \(C^\infty_M\). The
+single global module \(\Gamma^\infty(M,E)\) is not itself what “locally free”
+refers to. Globally it need not possess a basis: a global module basis would
+be a global frame and would trivialize \(E\).
 
 Evaluation at \(x\) gives a surjective [[linear-algebra/linear-map|linear map]] \(\Gamma^\infty(M,E)\to E_x\). Its kernel consists of sections vanishing at \(x\), and the fiber can be recovered algebraically as
 \[
@@ -43,9 +48,31 @@ A smooth [[fiber-bundles/vector-bundle-morphism|vector bundle morphism]] \(\Phi:
 \]
 Conversely, \(C^\infty(M)\)-linear maps between section modules arise from unique smooth [[fiber-bundles/bundle-morphism|bundle morphisms]] under the standard finite-rank hypotheses. This correspondence is one part of the smooth Serre–Swan viewpoint.
 
+The requirement that \(\Phi\) cover \(\operatorname{id}_M\) is essential:
+it places \(E\) and \(F\) in the same
+[[fiber-bundles/category-of-vector-bundles-over-a-manifold|fixed-base
+bundle category]] and makes both section spaces modules over the same ring.
+A morphism covering \(f:M\to N\) does not give the displayed map by
+postcomposition.
+
 ## Relation to Serre–Swan
 
-When \(M\) is compact, \(\Gamma^\infty(M,E)\) is a finitely generated [[algebra-modules/projective-module|projective module]] over \(C^\infty(M)\), and every such module is isomorphic to the module of sections of a smooth vector bundle. This is the smooth form of Serre–Swan duality; see [Nestruev, Chapter 11](https://doi.org/10.1007/b98871). Compactness is important in this finitely generated formulation; variants for noncompact spaces use different module categories or support/vanishing conditions. [Swan, Theorem 1](https://doi.org/10.1090/S0002-9947-1962-0143225-6) is the foundational compact-space theorem.
+If \(M\) is a connected finite-dimensional Hausdorff second-countable
+manifold and \(E\) has finite rank, then
+\(\Gamma^\infty(M,E)\) is a finitely generated
+[[algebra-modules/projective-module|projective module]] over
+\(C^\infty(M,\mathbb F)\), and every such module is the section module of a
+smooth \(\mathbb F\)-vector bundle. This smooth Serre–Swan statement requires
+no compactness hypothesis; finite dimensionality supplies a finite-rank
+complementary bundle. On a disconnected base, one requires the ranks on
+components to be globally bounded. See
+[Nestruev, Chapter 11](https://doi.org/10.1007/b98871). The original compact
+Hausdorff theorem over \(C(X)\) is a distinct continuous formulation
+[Swan, Theorem 1](https://doi.org/10.1090/S0002-9947-1962-0143225-6).
+
+Taking sections over every open set gives the
+[[fiber-bundles/vector-bundles-and-locally-free-sheaves|equivalence between
+vector bundles and finite-rank locally free \(C^\infty_M\)-module sheaves]].
 
 ## References
 

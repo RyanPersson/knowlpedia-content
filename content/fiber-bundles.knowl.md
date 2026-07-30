@@ -52,6 +52,7 @@ legacy_source_path = "fiber-bundles/_index.md"
 ### Vector bundles, sections, and bundle operations
 
 - [[fiber-bundles/compactly-supported-section|Compactly supported section]]
+- [[fiber-bundles/category-of-vector-bundles-over-a-manifold|Category of vector bundles over a manifold]]
 - [[fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism|Kernel and image bundles of a constant-rank morphism]]
 - [[fiber-bundles/line-bundle|Line bundle]]
 - [[fiber-bundles/module-of-smooth-sections|Module of smooth sections]]
@@ -59,11 +60,13 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/quotient-vector-bundle|Quotient vector bundle]]
 - [[fiber-bundles/section-of-a-fiber-bundle|Section of a fiber bundle]]
 - [[fiber-bundles/section-of-a-vector-bundle|Section of a vector bundle]]
+- [[fiber-bundles/sheaf-of-smooth-sections|Sheaf of smooth sections]]
 - [[fiber-bundles/short-exact-sequence-of-vector-bundles|Short exact sequence of vector bundles]]
 - [[fiber-bundles/sphere-bundle|Sphere bundle]]
 - [[fiber-bundles/splitting-theorem-for-vector-bundles|Splitting theorem for vector bundles]]
 - [[fiber-bundles/support-of-a-section|Support of a section]]
 - [[fiber-bundles/vector-subbundle|Vector subbundle]]
+- [[fiber-bundles/vector-bundles-and-locally-free-sheaves|Vector bundles and locally free sheaves]]
 - [[fiber-bundles/zero-section|Zero section]]
 
 ### Connections and curvature
@@ -158,6 +161,12 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/moduli-space-of-flat-connections|Moduli space of flat connections]]
 - [[fiber-bundles/representation-variety|Representation variety]]
 - [[fiber-bundles/tangent-space-to-flat-connection-moduli|Tangent space to flat-connection moduli]]
+
+## July 30 extensions across geometry and physics
+
+- [[fiber-bundles/local-system|Local system]]
+- [[langlands|Bundles, local systems, and geometric Langlands]]
+- [[mathematical-physics|Spacetime fields and mathematical physics]]
 
 ---
 

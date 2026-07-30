@@ -20,11 +20,13 @@ for every \(p\in M\) and \(u,v\in T_pM\). Thus a symplectomorphism preserves the
 
 ## Group and local structure
 
-The identity is a symplectomorphism, composites of symplectomorphisms are symplectomorphisms, and the inverse of a symplectomorphism is symplectic. Hence the symplectomorphisms of \((M,\omega)\) form a group, commonly written \(\operatorname{Symp}(M,\omega)\). [[real-analysis/darboux-theorem|Darboux's theorem]] says every two symplectic manifolds of the same dimension are locally symplectomorphic, although global symplectomorphism can be obstructed [McDuff–Salamon, Chapter 3](https://doi.org/10.1093/oso/9780198794899.001.0001).
+The identity is a symplectomorphism, composites of symplectomorphisms are symplectomorphisms, and the inverse of a symplectomorphism is symplectic. Hence the self-symplectomorphisms of \((M,\omega)\) form the [[differential-geometry/symplectomorphism-group|symplectomorphism group]] \(\operatorname{Symp}(M,\omega)\). They are also the isomorphisms in the [[differential-geometry/category-of-symplectic-manifolds|category of symplectic manifolds]]. The [[differential-geometry/darboux-theorem-symplectic|symplectic Darboux theorem]] says every two symplectic manifolds of the same dimension are locally symplectomorphic, although global symplectomorphism can be obstructed [McDuff–Salamon, Chapter 3](https://doi.org/10.1093/oso/9780198794899.001.0001).
 
 ## Dynamics
 
 Whenever a Hamiltonian [[fiber-bundles/vector-field|vector field]] has a flow defined through time \(t\), its time-\(t\) map is a symplectomorphism. More generally, a vector field \(X\) generates local symplectomorphisms exactly when \(\mathcal L_X\omega=0\). [[differential-geometry/hamiltonian-flow|Hamiltonian flows]] are a distinguished subclass because \(\iota_X\omega\) is exact, not merely closed.
+
+A path of self-symplectomorphisms beginning at the identity is a [[differential-geometry/symplectic-isotopy|symplectic isotopy]]. Its endpoint lies in \(\operatorname{Symp}_0(M,\omega)\); requiring an exact generating contraction form gives a [[differential-geometry/hamiltonian-isotopy|Hamiltonian isotopy]].
 
 ## Examples and non-examples
 

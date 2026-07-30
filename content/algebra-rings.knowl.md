@@ -173,3 +173,8 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-rings/prime-subfield|Every field has prime subfield ≅ ℚ or 𝔽_p]]
 - [[algebra-rings/finite-integral-domain-is-field|Every finite integral domain is a field]]
 - [[algebra-rings/finite-division-ring-commutative|Every finite division ring is commutative (Wedderburn)]]
+
+## July 30 extensions
+
+- [[formal-groups|Formal power series and formal groups]]
+- [[algebra-hyperstructures|Semirings, hyperrings, and blueprints]]
