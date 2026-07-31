@@ -25,7 +25,7 @@ If \(\ell:S^1\to\Lambda(n)\) is a loop and \(A(t)\) is a path of unitary represe
 \langle\mu_\Lambda,[\ell]\rangle
 =\operatorname{wind}\bigl(\det(A(t))^2\bigr).
 \]
-Although \(A(1)\) may differ from \(A(0)\) by an orthogonal matrix, squaring the determinant makes the phase close. Robbin and Salamon give the equivalent formula using a unitary frame and its determinant phase [Robbin–Salamon, Remark 2.6](https://doi.org/10.1016/0040-9383(93)90052-W).
+Although \(A(1)\) may differ from \(A(0)\) by an orthogonal matrix, squaring the determinant makes the phase close. Robbin and Salamon give the equivalent formula using a unitary frame and its determinant phase [Robbin–Salamon, Remark 2.6](https://doi.org/10.1016/0040-9383%2893%2990052-W).
 
 ## Duality with the Maslov cycle
 
@@ -42,4 +42,4 @@ The generator of an infinite cyclic group is determined only up to sign until a 
 ## References
 
 1. V. I. Arnol'd, “On a characteristic class entering into conditions of quantization,” *Functional Analysis and Its Applications* 1 (1967), 1–14. [DOI record](https://doi.org/10.1007/BF01079201). Relevant: construction of the characteristic class and its cycle.
-2. Joel Robbin and Dietmar Salamon, “The Maslov index for paths,” *Topology* 32 (1993), 827–844. [DOI record](https://doi.org/10.1016/0040-9383(93)90052-W). Relevant: Remark 2.6 and §§2–3.
+2. Joel Robbin and Dietmar Salamon, “The Maslov index for paths,” *Topology* 32 (1993), 827–844. [DOI record](https://doi.org/10.1016/0040-9383%2893%2990052-W). Relevant: Remark 2.6 and §§2–3.

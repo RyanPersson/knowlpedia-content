@@ -13,7 +13,7 @@ Let \((M,J)\) be a [[differential-geometry/complex-manifold|complex manifold]]. 
 d\omega=0,\qquad \omega(JX,JY)=\omega(X,Y),\qquad
 \omega(X,JX)>0
 \]
-for every nonzero real tangent vector \(X\). The second condition says that \(\omega\) has complex type \((1,1)\), and the third is positivity. These conditions make \(\omega\) nondegenerate, so it is also a [[differential-geometry/symplectic-manifold|symplectic form]]. The formula
+for every nonzero real tangent vector \(X\). The second condition says that \(\omega\) has complex type \((1,1)\), and the third is positivity. These conditions make \(\omega\) nondegenerate, so it defines a [[differential-geometry/symplectic-manifold|symplectic manifold]] structure on \(M\). The formula
 \[
 g(X,Y)=\omega(X,JY)
 \]

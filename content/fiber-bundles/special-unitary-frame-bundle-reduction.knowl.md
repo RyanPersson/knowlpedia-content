@@ -1,32 +1,47 @@
 +++
 id = "fiber-bundles/special-unitary-frame-bundle-reduction"
 title = "Special unitary frame bundle"
-kind = "knowl"
-summary = "The principal SU(n)-bundle obtained by restricting to unitary frames with determinant one."
+kind = "definition"
+summary = "The principal SU(n)-bundle of unitary frames calibrated by a chosen unit determinant trivialization."
 aliases = ["special-unitary-frame-bundle-reduction", "Special unitary frame bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/special-unitary-frame-bundle-reduction.md"
 +++
 
-Let \(E\to M\) be a complex rank-\(n\) [[fiber-bundles/vector-bundle|vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] equipped with a [[fiber-bundles/hermitian-metric|Hermitian metric]]. Let \(\mathrm{U}(E)\) be its [[fiber-bundles/unitary-frame-bundle-reduction|unitary frame bundle]]. The **special unitary frame bundle** is, informally, the subbundle of \(\mathrm{U}(E)\) consisting of unitary frames whose determinant is \(1\).
+Let \(E\to M\) be a rank-\(n\) complex [[fiber-bundles/vector-bundle|vector bundle]] with a [[fiber-bundles/hermitian-metric|Hermitian metric]], and let
+\[
+\det(E):=\Lambda^nE.
+\]
+Choose a unit-norm [[fiber-bundles/nowhere-vanishing-section|nowhere-vanishing section]]
+\(\Omega\in\Gamma(\det(E))\). The **special unitary frame bundle determined by \(\Omega\)** is
+\[
+\mathrm{SU}(E,\Omega)
+=
+\left\{(e_1,\ldots,e_n)\in\mathrm U(E):
+e_1\wedge\cdots\wedge e_n=\Omega_{\pi(e_1,\ldots,e_n)}
+\right\},
+\]
+where \(\mathrm U(E)\) is the [[fiber-bundles/unitary-frame-bundle-reduction|unitary frame bundle]]. It is a principal \(\mathrm{SU}(n)\)-subbundle of \(\mathrm U(E)\).
 
-1. A principal subbundle \(\mathrm{SU}(E)\subset \mathrm{U}(E)\) with structure group \(\mathrm{SU}(n)\) (a [[fiber-bundles/lie-group|Lie group]]), such that the inclusion is \(\mathrm{SU}(n)\)-equivariant and fiberwise identifies \(\mathrm{SU}(E)_x\) with the set of unitary bases of \(E_x\) having determinant \(1\).
+## Existence and equivalent data
 
-2. A choice of [[fiber-bundles/nowhere-vanishing-section|nowhere-vanishing section]] \(\Omega\) of \(\det(E)\) with unit norm (with respect to the induced metric), i.e. a trivialization of \(\det(E)\) compatible with the metric; in this case, \(\mathrm{SU}(E)\) consists of unitary frames whose wedge \(e_1\wedge\cdots\wedge e_n\) equals \(\Omega\).
+The Hermitian metric on \(E\) induces one on the [[fiber-bundles/exterior-power-bundle|determinant line bundle]] \(\det(E)\). The following data are equivalent:
 
-Thus, an \(\mathrm{SU}(n)\)-reduction exists if and only if \(\det(E)\) is (unitarily) trivial.
+1. a reduction of \(\mathrm U(E)\) from \(\mathrm U(n)\) to \(\mathrm{SU}(n)\);
+2. a unit-norm trivializing section \(\Omega\) of \(\det(E)\);
+3. a trivialization of \(\det(E)\) as a Hermitian line bundle.
+
+Consequently, an \(\mathrm{SU}(n)\)-reduction exists exactly when \(\det(E)\) is trivial as a complex [[fiber-bundles/line-bundle|line bundle]]. The reduction is not determined by \(E\) and its metric alone: different unit determinant sections generally give different reductions.
+
+There is no intrinsic condition that a unitary frame have “determinant \(1\)” until such a section is chosen. Intrinsically, the determinant homomorphism gives the associated principal bundle
+\[
+\mathrm U(E)\times_{\det}\mathrm U(1)\cong \mathrm U(\det E),
+\]
+and \(\Omega\) selects its identity frame in every fiber.
 
 ## Examples
-1. **Trivial bundle.** For \(E=M\times\mathbb C^n\) with the standard Hermitian metric and the constant volume form \(\Omega=\mathbf e_1\wedge\cdots\wedge \mathbf e_n\), one has \(\mathrm{SU}(E)\cong M\times \mathrm{SU}(n)\).
 
-2. **Rank one.** If \(n=1\), then \(\mathrm{SU}(1)=\{1\}\), and any Hermitian [[fiber-bundles/line-bundle|line bundle]] has \(\mathrm{U}(E)\) as a principal \(\mathrm{U}(1)\)-bundle, while the special unitary frame bundle is canonically just the base manifold whenever a unit-norm trivialization of \(E\) is chosen.
-
-3. **Bundles with trivial determinant.** If \(E\) is a complex rank-\(n\) bundle with \(\det(E)\) trivial (as a complex line bundle), then choosing a unit-norm trivializing section of \(\det(E)\) produces an \(\mathrm{SU}(n)\)-reduction as above.
-
-
-## Remarks
-To make this precise intrinsically, note that the top exterior power
-\[
-\det(E):=\Lambda^n E
-\]
-is a complex line bundle (see [[fiber-bundles/exterior-power-bundle|exterior power bundle]]), and the Hermitian metric on \(E\) induces a Hermitian metric on \(\det(E)\). A **special unitary reduction** of \((E,h)\) is any of the following equivalent pieces of data:
+1. **Trivial bundle.** For \(E=M\times\mathbb C^n\) and
+   \(\Omega=\mathbf e_1\wedge\cdots\wedge\mathbf e_n\),
+   \(\mathrm{SU}(E,\Omega)\cong M\times\mathrm{SU}(n)\).
+2. **Rank one.** When \(n=1\), an \(\mathrm{SU}(1)\)-reduction exists exactly when \(E\) is trivial. A chosen unit section \(\Omega\) identifies the reduced bundle with \(M\), but this identification depends on \(\Omega\).

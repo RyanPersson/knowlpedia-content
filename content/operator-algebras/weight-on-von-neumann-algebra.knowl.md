@@ -32,9 +32,12 @@ Three domains organize the part of \(M\) on which a weight behaves finitely:
 \]
 and \(\mathfrak m_\varphi=\operatorname{span}\mathfrak m_\varphi^+\).
 The set \(\mathfrak n_\varphi\) is a left ideal, while
-\(\mathfrak m_\varphi=\mathfrak n_\varphi^*\mathfrak n_\varphi\) is a
-\(*\)-subalgebra on which \(\varphi\) has a linear extension. This extension
-need not be bounded or defined on all of \(M\)
+\[
+\mathfrak m_\varphi
+=\operatorname{span}\{y^*x:x,y\in\mathfrak n_\varphi\}
+\]
+is a \(*\)-subalgebra on which \(\varphi\) has a linear extension. This
+extension need not be bounded or defined on all of \(M\)
 [Takesaki, vol. I, Chapter VII, §1](https://doi.org/10.1007/978-1-4612-6188-9).
 
 ## Regularity properties

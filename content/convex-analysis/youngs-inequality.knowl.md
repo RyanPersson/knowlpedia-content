@@ -20,4 +20,4 @@ legacy_source_path = "convex-analysis/youngs-inequality.md"
 
 ## Remarks
 
-This inequality is a standard tool behind [[convex-analysis/holder-inequality-finite-sums|Hölder's inequality]], [[convex-analysis/holder-inequality-integrals|Hölder's inequality for integrals]], and many estimates in [[convex-analysis/convex-function-via-epigraph|convex analysis]]. In the lecture notes it is obtained from the [[convex-analysis/weighted-arithmeticgeometric-mean-inequality|weighted AM–GM inequality]] applied to \(a=|x|^p\) and \(b=|y|^q\).
+This inequality is a standard tool behind [[convex-analysis/holder-inequality-finite-sums|Hölder's inequality]], [[convex-analysis/holder-inequality-integrals|Hölder's inequality for integrals]], and many estimates in [[convex-analysis|convex analysis]]. In the lecture notes it is obtained from the [[convex-analysis/weighted-arithmeticgeometric-mean-inequality|weighted AM–GM inequality]] applied to \(a=|x|^p\) and \(b=|y|^q\).

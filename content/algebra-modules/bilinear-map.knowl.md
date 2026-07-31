@@ -1,8 +1,8 @@
 +++
 id = "algebra-modules/bilinear-map"
 title = "Bilinear map"
-kind = "knowl"
-summary = "A map that is linear in each variable (and balanced over a ring when needed)."
+kind = "definition"
+summary = "A map of modules that is linear in each variable; over a noncommutative ring, tensor products instead represent biadditive balanced maps."
 aliases = ["bilinear-map", "Bilinear map"]
 domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/bilinear-map.md"
@@ -15,11 +15,32 @@ A **bilinear map** between \(R\)-modules (for a [[algebra-rings/commutative-ring
 \[
 \beta(rm,n)=r\,\beta(m,n),\quad \beta(m,rn)=r\,\beta(m,n).
 \]
-For a noncommutative ring \(R\), if \(M\) is a right \(R\)-module and \(N\) is a left \(R\)-module, one usually requires \(\beta\) to be **\(R\)-balanced**, meaning additionally \(\beta(mr,n)=\beta(m,rn)\).
 
-Balanced bilinear maps are exactly the maps represented by the [[algebra-modules/tensor-product-universal-property|universal property of the tensor product]]: they correspond uniquely to homomorphisms out of \(M\otimes_R N\) in the category of [[algebra-modules/module|modules]]/abelian groups.
+## Balanced maps for tensor products
+
+Let \(R\) be an arbitrary ring, let \(M\) be a right \(R\)-module, let \(N\)
+be a left \(R\)-module, and let \(A\) be an abelian group. A map
+\(\beta:M\times N\to A\) is **\(R\)-balanced** if it is additive in each
+variable and
+\[
+\beta(mr,n)=\beta(m,rn)
+\]
+for every \(m\in M\), \(n\in N\), and \(r\in R\). No \(R\)-module structure
+on \(A\) is required.
+
+These biadditive balanced maps are the maps represented by the
+[[algebra-modules/tensor-product-universal-property|universal property of the tensor product]]:
+they correspond uniquely to homomorphisms of abelian groups
+\[
+M\otimes_RN\longrightarrow A.
+\]
+Thus ordinary \(R\)-bilinearity over a commutative ring and balancedness for
+a right-left module pair are related but distinct notions.
 
 ## Examples
 
-- Multiplication \(\mu\colon R\times R\to R\) is bilinear for any [[algebra-rings/ring|ring]] \(R\).
+- For any [[algebra-rings/ring|ring]] \(R\), multiplication
+  \(\mu:R\times R\to R\) is biadditive and \(R\)-balanced when its codomain is
+  viewed as an abelian group. If \(R\) is commutative, multiplication is also
+  \(R\)-bilinear in the sense of the first definition.
 - For a commutative ring \(R\) and an \(R\)-module \(M\), the evaluation pairing \(M^\vee\times M\to R\) is bilinear, where \(M^\vee\) is the [[algebra-modules/dual-module|dual module]].

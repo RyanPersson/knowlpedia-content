@@ -20,7 +20,7 @@ For a smooth path \(\ell:[a,b]\to\Lambda(V)\), a crossing time satisfies \(\ell(
 \[
 \mu(\ell,L_0)=\sum_{a<t<b}\operatorname{sign}\Gamma(\ell,L_0,t).
 \]
-This formula explains both the sign and the multiplicity of a crossing [Robbin–Salamon, §2](https://doi.org/10.1016/0040-9383(93)90052-W).
+This formula explains both the sign and the multiplicity of a crossing [Robbin–Salamon, §2](https://doi.org/10.1016/0040-9383%2893%2990052-W).
 
 ## Endpoint-inclusive extension
 
@@ -31,7 +31,7 @@ Robbin and Salamon extend the index to paths with arbitrary endpoints. Under the
 +\sum_{a<t<b}\operatorname{sign}\Gamma(t)
 +\tfrac12\operatorname{sign}\Gamma(b).
 \]
-The result can be a half-integer. It is homotopy invariant with fixed endpoints, additive under concatenation, and agrees with the integer crossing count when both endpoints are transverse [Robbin–Salamon, Theorem 2.3](https://doi.org/10.1016/0040-9383(93)90052-W).
+The result can be a half-integer. It is homotopy invariant with fixed endpoints, additive under concatenation, and agrees with the integer crossing count when both endpoints are transverse [Robbin–Salamon, Theorem 2.3](https://doi.org/10.1016/0040-9383%2893%2990052-W).
 
 ## Basic properties
 
@@ -44,4 +44,4 @@ In \(\mathbb R^2\cong\mathbb C\), let \(\ell(t)=e^{\pi it}\mathbb R\) for \(0\le
 ## References
 
 1. V. I. Arnol'd, “On a characteristic class entering into conditions of quantization,” *Functional Analysis and Its Applications* 1 (1967), 1–14. [DOI record](https://doi.org/10.1007/BF01079201). Relevant: the loop index as intersection with the Maslov cycle.
-2. Joel Robbin and Dietmar Salamon, “The Maslov index for paths,” *Topology* 32 (1993), 827–844. [DOI record](https://doi.org/10.1016/0040-9383(93)90052-W). Relevant: §2, especially Theorem 2.3 and Remark 2.6.
+2. Joel Robbin and Dietmar Salamon, “The Maslov index for paths,” *Topology* 32 (1993), 827–844. [DOI record](https://doi.org/10.1016/0040-9383%2893%2990052-W). Relevant: §2, especially Theorem 2.3 and Remark 2.6.

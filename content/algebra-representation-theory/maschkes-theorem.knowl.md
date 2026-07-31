@@ -1,7 +1,7 @@
 +++
 id = "algebra-representation-theory/maschkes-theorem"
 title = "Maschke's theorem"
-kind = "knowl"
+kind = "theorem"
 summary = "If char(k) does not divide |G|, then every finite-dimensional k-representation of a finite group is completely reducible."
 aliases = ["maschkes-theorem", "Maschke's theorem"]
 domains = ["algebra-representation-theory"]
@@ -32,7 +32,7 @@ Then:
 This averaging step is exactly where the condition \(\frac{1}{|G|}\in k\) is used.
 
 ## Remarks and consequences
-- Over \(k=\mathbb C\), Maschke always applies to finite groups, yielding [[algebra-representation-theory/complete-reducibility-complex|complete reducibility over \u211a]].
+- Over \(k=\mathbb C\), Maschke always applies to finite groups, yielding [[algebra-representation-theory/complete-reducibility-complex|complete reducibility over \(\mathbb C\)]].
 - The theorem is equivalent to semisimplicity of the [[algebra-representation-theory/group-algebra|group algebra]] \(k[G]\) (as a ring), and it underlies character theory (e.g. [[algebra-representation-theory/character-orthogonality|orthogonality of irreducible characters]]).
 
 ## Examples

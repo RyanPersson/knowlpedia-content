@@ -25,7 +25,7 @@ k[G]\;\cong\;\bigoplus_{i=1}^r d_i\,V_i,
 \]
 and taking dimensions gives \(\dim_k(k[G])=|G|=\sum_i d_i\dim(V_i)=\sum_i d_i^2\).
 
-This decomposition follows from [[algebra-representation-theory/maschke-corollary|Maschke's theorem]], which makes \(k[G]\) semisimple, together with multiplicity computations using [[algebra-representation-theory/schurs-lemma|Schur's lemma]].
+This decomposition follows from [[algebra-representation-theory/maschkes-theorem|Maschke's theorem]], which makes \(k[G]\) semisimple, together with multiplicity computations using [[algebra-representation-theory/schurs-lemma|Schur's lemma]].
 
 ## Examples
 
