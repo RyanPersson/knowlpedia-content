@@ -32,7 +32,7 @@ A nonunital class can be represented by a unitary
 adjoining identity blocks, and homotopy is taken through unitaries after a
 common stabilization. Although block sum defines the group law,
 \([uv]=[u]+[v]\) for stabilized unitaries. These equivalent models are proved
-in [Blackadar, Chapter IV](https://doi.org/10.1017/9781009701907).
+in [Blackadar, Chapter IV].
 
 ## Basic properties and examples
 

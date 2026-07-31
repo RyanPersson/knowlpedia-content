@@ -25,7 +25,7 @@ Define \(a\xi b=ab^\circ\xi\). The equality
 \[
 (a\xi)b=a(\xi b)
 \]
-holds precisely because \(a\) commutes with \(b^\circ\). Thus the order-zero axiom makes \(H\) an \(\mathcal A\)-bimodule in the represented sense. The involution in \(b^\circ=Jb^*J^{-1}\) is needed for this right action to be complex-linear and multiplicative [Connes, §2](https://doi.org/10.1063/1.531241).
+holds precisely because \(a\) commutes with \(b^\circ\). Thus the order-zero axiom makes \(H\) an \(\mathcal A\)-bimodule in the represented sense. The involution in \(b^\circ=Jb^*J^{-1}\) is needed for this right action to be complex-linear and multiplicative [Connes, §2].
 
 ## Example and near miss
 

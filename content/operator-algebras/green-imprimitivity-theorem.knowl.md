@@ -28,7 +28,7 @@ The Green bimodule implements [[operator-algebras/rieffel-induction|Rieffel indu
 crossed products. Under the crossed-product/covariant-representation
 correspondence, this recovers induction from \(H\)-covariant representations
 to \(G\)-covariant representations. The precise construction and inner
-products are developed in [Williams, Chapter 4](https://doi.org/10.1090/surv/134).
+products are developed in [Williams, Chapter 4].
 
 ## Homogeneous-space form
 

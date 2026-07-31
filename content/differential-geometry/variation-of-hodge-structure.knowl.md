@@ -17,11 +17,11 @@ A polarized variation additionally has a flat [[linear-algebra/bilinear-form|bil
 
 ## Period-map interpretation
 
-After locally trivializing the flat bundle, \(F^\bullet\) determines a [[differential-geometry/holomorphic-map|holomorphic map]] from \(S\) to a flag variety. Fiberwise Hodge opposedness restricts its image to a period domain, and Griffiths transversality says that its differential lies in the [[fiber-bundles/horizontal-subbundle|horizontal subbundle]]. This is the infinitesimal period relation established in [Griffiths, §1, Theorems 1.27 and 1.34](https://doi.org/10.2307/2373485).
+After locally trivializing the flat bundle, \(F^\bullet\) determines a [[differential-geometry/holomorphic-map|holomorphic map]] from \(S\) to a flag variety. Fiberwise Hodge opposedness restricts its image to a period domain, and Griffiths transversality says that its differential lies in the [[fiber-bundles/horizontal-subbundle|horizontal subbundle]]. This is the infinitesimal period relation established in [Griffiths, §1, Theorems 1.27 and 1.34].
 
 ## Geometric construction
 
-For a smooth proper holomorphic family \(f:\mathcal X\to S\) of compact [[differential-geometry/kahler-manifold|Kähler manifolds]], the local system \(R^nf_*\mathbb R\), its Gauss–Manin connection, and the fiberwise [[differential-geometry/hodge-filtration|Hodge filtrations]] form a variation of weight \(n\). The locally constant lattice \(R^nf_*\mathbb Z\) gives an integral structure when torsion is removed. Voisin develops this construction in [Chapter 9 and §10.2](https://doi.org/10.1017/CBO9780511615344).
+For a smooth proper holomorphic family \(f:\mathcal X\to S\) of compact [[differential-geometry/kahler-manifold|Kähler manifolds]], the local system \(R^nf_*\mathbb R\), its Gauss–Manin connection, and the fiberwise [[differential-geometry/hodge-filtration|Hodge filtrations]] form a variation of weight \(n\). The locally constant lattice \(R^nf_*\mathbb Z\) gives an integral structure when torsion is removed. Voisin develops this construction in [Chapter 9 and §10.2].
 
 ## Conventions and near-misses
 

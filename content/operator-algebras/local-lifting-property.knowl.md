@@ -46,7 +46,7 @@ isometrically. In other words, \(A\) and \(B(H)\) form a nuclear pair even
 though neither algebra need be nuclear. This connects a local
 [[operator-algebras/quotient-cstar-algebra|quotient-lifting]] condition to
 the comparison of maximal and minimal \(C^*\)-tensor norms
-[Brown–Ozawa, §13.2](https://doi.org/10.1090/gsm/088/19).
+[Brown–Ozawa, §13.2].
 
 ## Nonunital convention
 

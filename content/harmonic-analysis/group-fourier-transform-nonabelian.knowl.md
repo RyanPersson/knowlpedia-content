@@ -40,7 +40,7 @@ evaluated at every [[algebra-representation-theory/irreducible-representation|ir
 With the standard [[harmonic-analysis/convolution-involution|group-algebra involution]], it also satisfies
 \(\widehat{f^*}(\pi)=\widehat f(\pi)^*\). These identities replace scalar
 diagonalization by simultaneous operator-valued representation of the
-convolution algebra [Folland, §7.4](https://doi.org/10.1201/B19172).
+convolution algebra [Folland, §7.4].
 
 ## Plancherel realization
 

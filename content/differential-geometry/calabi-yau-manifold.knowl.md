@@ -12,7 +12,7 @@ In this knowl, a **Calabi–Yau manifold** is a connected compact [[differential
 
 ## Ricci-flat metrics and holonomy
 
-Triviality of \(K_X\) implies that the real first Chern class vanishes. Yau's [[differential-geometry/calabi-yau-theorem|solution of the Calabi conjecture]] then gives, in each Kähler class, a unique Ricci-flat Kähler metric. A nowhere-vanishing holomorphic volume form is parallel for the corresponding normalized metric, so the restricted holonomy is contained in \(SU(n)\) [Joyce, Chapters 5–6](https://doi.org/10.1093/oso/9780198506010.001.0001).
+Triviality of \(K_X\) implies that the real first Chern class vanishes. Yau's [[differential-geometry/calabi-yau-theorem|solution of the Calabi conjecture]] then gives, in each Kähler class, a unique Ricci-flat Kähler metric. A nowhere-vanishing holomorphic volume form is parallel for the corresponding normalized metric, so the restricted holonomy is contained in \(SU(n)\) [Joyce, Chapters 5–6].
 
 Containment need not be equality. Flat complex tori have smaller holonomy, and holomorphic symplectic examples have holonomy contained in a symplectic subgroup. Extra hypotheses, such as simple connectedness and irreducibility of the Riemannian [[fiber-bundles/holonomy-representation|holonomy representation]], are needed before one concludes full holonomy \(SU(n)\).
 
@@ -24,7 +24,7 @@ A smooth quintic hypersurface in [[algebraic-geometry-foundations/projective-spa
 
 ## Conventions and scope
 
-**Warning.** “Calabi–Yau manifold” has no single universal definition. Some authors require simple connectedness, full holonomy \(SU(n)\), or the vanishings \(H^{p,0}(X)=0\) for \(0<p<n\); others require only \(c_1(X)=0\) in real cohomology. Those variants are not equivalent without additional hypotheses. Joyce uses the holonomy-centered convention in [Chapter 6](https://doi.org/10.1093/oso/9780198506010.001.0001), while the present knowl uses the broad holomorphically trivial canonical-bundle convention.
+**Warning.** “Calabi–Yau manifold” has no single universal definition. Some authors require simple connectedness, full holonomy \(SU(n)\), or the vanishings \(H^{p,0}(X)=0\) for \(0<p<n\); others require only \(c_1(X)=0\) in real cohomology. Those variants are not equivalent without additional hypotheses. Joyce uses the holonomy-centered convention in [Chapter 6], while the present knowl uses the broad holomorphically trivial canonical-bundle convention.
 
 This definition concerns smooth [[differential-geometry/complex-manifold|complex manifolds]]. Singular Calabi–Yau varieties require separate choices concerning normality, singularities, and the meaning of the canonical sheaf.
 

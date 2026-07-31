@@ -48,7 +48,7 @@ A function belongs to the
 \(L^p(\Omega)\); higher-order Sobolev spaces use weak derivatives indexed by
 multi-indices. This makes differentiability compatible with norm completion
 and variational methods
-[Evans, §5.2](https://doi.org/10.1090/gsm/019).
+[Evans, §5.2].
 
 ## References
 

@@ -38,7 +38,7 @@ induction parameter. If \(\tau\) is unitary, [[lie-groups/left-translation|left 
 representation. Equivalently, the half-modular factor in the equivariant
 function model packages the Radon–Nikodym correction in
 [[harmonic-analysis/unitary-induced-representation|unitary induction]]
-[Knapp, Chapter VII](https://www.math.stonybrook.edu/~aknapp/books/repthy1.html).
+[Knapp, Chapter VII].
 
 ## Root-theoretic form
 

@@ -38,7 +38,7 @@ Q\longrightarrow \Gamma(E_Q),
 \qquad
 q\longmapsto \bigl(x\mapsto q\bmod I_xQ\bigr),
 \]
-is an \(A\)-module isomorphism. Swan’s construction proves this reconstruction and the converse passage from bundles to projective section modules [Swan, §§1–3](https://doi.org/10.1090/S0002-9947-1962-0143225-6).
+is an \(A\)-module isomorphism. Swan’s construction proves this reconstruction and the converse passage from bundles to projective section modules [Swan, §§1–3].
 
 ## Functoriality and equivalence
 

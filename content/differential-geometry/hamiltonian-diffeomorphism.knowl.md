@@ -18,7 +18,7 @@ Hamiltonian diffeomorphisms form a [[algebra-groups/normal-subgroup|normal subgr
 \[
 \operatorname{Ham}(M,\omega)\trianglelefteq\operatorname{Symp}_0(M,\omega)
 \]
-of the identity component of the [[differential-geometry/symplectomorphism-group|symplectomorphism group]]. Reversing a Hamiltonian isotopy gives the inverse, and concatenating suitably reparametrized isotopies gives the product. Conjugating by a symplectomorphism transports the generating Hamiltonian and keeps the resulting isotopy Hamiltonian [McDuff–Salamon, §10.2](https://doi.org/10.1093/oso/9780198794899.001.0001).
+of the identity component of the [[differential-geometry/symplectomorphism-group|symplectomorphism group]]. Reversing a Hamiltonian isotopy gives the inverse, and concatenating suitably reparametrized isotopies gives the product. Conjugating by a symplectomorphism transports the generating Hamiltonian and keeps the resulting isotopy Hamiltonian [McDuff–Salamon, §10.2].
 
 ## Relation to symplectic isotopies
 
@@ -36,7 +36,7 @@ The time-one map of any complete autonomous [[differential-geometry/hamiltonian-
 
 ## Conventions and scope
 
-Some authors define Hamiltonian diffeomorphisms only on [[topology/closed-manifold|closed manifolds]] and introduce \(\operatorname{Ham}_c(M,\omega)\) for compactly supported maps on an open manifold. Others build compact support into the notation \(\operatorname{Ham}(M,\omega)\). The support condition should therefore be checked whenever \(M\) is noncompact [Banyaga, Chapter 7](https://doi.org/10.1007/978-1-4757-0185-3).
+Some authors define Hamiltonian diffeomorphisms only on [[topology/closed-manifold|closed manifolds]] and introduce \(\operatorname{Ham}_c(M,\omega)\) for compactly supported maps on an open manifold. Others build compact support into the notation \(\operatorname{Ham}(M,\omega)\). The support condition should therefore be checked whenever \(M\) is noncompact [Banyaga, Chapter 7].
 
 ## References
 

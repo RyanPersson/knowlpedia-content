@@ -25,7 +25,7 @@ the positive semidefinite sesquilinear form
 \]
 No faithfulness, unitality, or normalization of \(\varphi\) is required.
 When either factor on the right vanishes, the mixed term necessarily
-vanishes as well [Murphy, §3.3](https://doi.org/10.1016/C2009-0-22289-6).
+vanishes as well [Murphy, §3.3].
 
 ## Derivation and equality
 

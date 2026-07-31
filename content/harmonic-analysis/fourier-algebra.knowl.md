@@ -38,7 +38,7 @@ on \(VN(G)\), and this identifies \(A(G)\) isometrically with the canonical
 predual \(VN(G)_*\). Under this identification, pointwise multiplication in
 \(A(G)\) is dual to the comultiplication
 \(\lambda(x)\mapsto\lambda(x)\otimes\lambda(x)\)
-[Eymard, §§2–3](https://doi.org/10.24033/bsmf.1607).
+[Eymard, §§2–3].
 
 ## Abelian case
 

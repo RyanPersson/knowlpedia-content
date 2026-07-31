@@ -30,7 +30,7 @@ representation. Taking their
 representation \(\pi_u\). Since [[operator-algebras/states-separate-positive-elements|states separate positive elements]],
 \(\pi_u(a)\neq0\) whenever \(a\neq0\), hence \(\pi_u\) is faithful. The
 \(C^*\)-identity then makes every injective \(*\)-homomorphism isometric
-[Murphy, Theorem 3.4.1](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, Theorem 3.4.1].
 
 ## Consequences and scope
 
@@ -47,7 +47,7 @@ representation theorem.
 Gelfand and Naimark established the representation result in 1943 in the
 language of normed rings with involution. Modern presentations usually prove
 it by combining [[operator-algebras/positive-linear-functional|positive functionals]] with the GNS construction. The original
-article is [Gelfand–Naimark, 1943](https://www.mathnet.ru/eng/sm6155).
+article is [Gelfand–Naimark, 1943].
 
 ## References
 

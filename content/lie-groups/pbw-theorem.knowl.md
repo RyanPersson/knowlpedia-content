@@ -21,7 +21,7 @@ Filter \(U(\mathfrak g)\) by word length. Commuting two adjacent generators chan
 \[
 \operatorname{Sym}(\mathfrak g)\xrightarrow{\;\sim\;}\operatorname{gr}U(\mathfrak g).
 \]
-This formulation is independent of the chosen ordered basis [Dixmier, §2.1](https://doi.org/10.1090/gsm/011).
+This formulation is independent of the chosen ordered basis [Dixmier, §2.1].
 
 ## Symmetrization in characteristic zero
 

@@ -35,7 +35,7 @@ conjugation in the [[operator-algebras/unitization|unitization]].
 
 The extended-trace convention and its use in comparing positive elements are
 described explicitly by
-[Robert, Introduction](https://arxiv.org/abs/0806.1570).
+[Robert, Introduction].
 
 ## Domains and extra adjectives
 

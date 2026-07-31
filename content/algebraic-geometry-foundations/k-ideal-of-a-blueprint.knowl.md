@@ -22,6 +22,5 @@ The third axiom is the subtractive condition. For a blueprint induced by a semir
 
 A proper \(k\)-ideal \(\mathfrak p\) is **prime** if its complement \(B^\bullet\setminus\mathfrak p\) is multiplicatively closed. These prime \(k\)-ideals are the points of the [[algebraic-geometry-foundations/spectrum-of-blueprint|prime spectrum of a blueprint]].
 
-## Reference
-
+## References
 Oliver Lorscheid, [*The geometry of blueprints, Part I: Algebraic background and scheme theory*, §§2.1–2.2](https://arxiv.org/abs/1103.1745).

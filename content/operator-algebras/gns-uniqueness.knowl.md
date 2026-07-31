@@ -48,7 +48,7 @@ products:
 \]
 Hence \(U_0\) is well defined and isometric. Cyclicity makes its range dense,
 so it extends to the asserted unitary. Density also proves uniqueness
-[Murphy, Theorem 3.3.3](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, Theorem 3.3.3].
 
 ## Why the pointing matters
 

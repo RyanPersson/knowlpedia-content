@@ -32,7 +32,7 @@ quotient-and-completion step is essential: the ordinary algebraic tensor
 product is generally neither definite nor complete. Adjointable operators on
 \(E\) induce adjointable operators \(T\otimes 1\) on the completed product,
 which supplies the left \(A\)-action
-[Lance, chapter on tensor products](https://doi.org/10.1017/CBO9780511526206.005).
+[Lance, chapter on tensor products].
 
 ## Composition and unit correspondences
 

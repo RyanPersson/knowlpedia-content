@@ -33,7 +33,7 @@ For the [[fiber-bundles/zero-section|zero section]] \(Q\hookrightarrow T^*Q\), t
 
 ## Relation to Maslov data
 
-In a symplectic vector space, pulling the [[differential-geometry/maslov-class-lagrangian-grassmannian|universal Maslov class]] on \(\Lambda(V)\) back along \(\gamma_f\) gives the Maslov class of the immersion. For a general symplectic manifold, the intrinsic section into \(f^*\operatorname{Lag}(TM)\) is still canonical, while an integral phase or grading can require additional ambient Maslov-covering data [Seidel, §2](https://arxiv.org/abs/math/9903049).
+In a symplectic vector space, pulling the [[differential-geometry/maslov-class-lagrangian-grassmannian|universal Maslov class]] on \(\Lambda(V)\) back along \(\gamma_f\) gives the Maslov class of the immersion. For a general symplectic manifold, the intrinsic section into \(f^*\operatorname{Lag}(TM)\) is still canonical, while an integral phase or grading can require additional ambient Maslov-covering data [Seidel, §2].
 
 ## References
 

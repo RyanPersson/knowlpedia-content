@@ -30,7 +30,7 @@ vector \(z\) orthogonal to \(\ker\varphi\); decomposing each \(x\) into its
 kernel component and its component along \(z\) produces the representing
 vector after a scalar normalization. Cauchy--Schwarz gives continuity and
 the norm identity, while nondegeneracy gives uniqueness
-[Conway, Chapter II, §2](https://doi.org/10.1007/978-1-4757-3828-5).
+[Conway, Chapter II, §2].
 
 ## Consequences
 

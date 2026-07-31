@@ -25,13 +25,13 @@ whole algebra. This is a property of \(A\), not one representation.
 
 ## Local compact-operator structure
 
-Continuous-trace algebras are [[operator-algebras/type-i-cstar-algebra|type I]] and, locally over their spectrum, are strongly Morita equivalent to commutative algebras \(C_0(U)\). Under the usual separability and paracompactness hypotheses, their stabilizations are section algebras of locally trivial bundles of [[operator-algebras/compact-operator-cstar-algebra|compact-operator algebras]]. This is the geometric form developed in [Raeburn–Williams, Chapters 4–5](https://doi.org/10.1090/surv/060).
+Continuous-trace algebras are [[operator-algebras/type-i-cstar-algebra|type I]] and, locally over their spectrum, are strongly Morita equivalent to commutative algebras \(C_0(U)\). Under the usual separability and paracompactness hypotheses, their stabilizations are section algebras of locally trivial bundles of [[operator-algebras/compact-operator-cstar-algebra|compact-operator algebras]]. This is the geometric form developed in [Raeburn–Williams, Chapters 4–5].
 
 Consequently a continuous-trace algebra is a particularly regular [[operator-algebras/continuous-field-cstar-algebra|continuous field of \(C^*\)-algebras]]. Its fibers in irreducible representations are [[linear-algebra/compact-operator|compact operators]] rather than arbitrary type I algebras.
 
 ## Morita invariance
 
-The continuous-trace property is preserved by [[operator-algebras/strong-morita-equivalence|strong Morita equivalence]]. The spectrum is carried along by the Rieffel correspondence, while the local compact-operator models are unchanged up to stabilization [Raeburn–Williams, Chapters 3–5](https://doi.org/10.1090/surv/060). This makes continuous-trace algebras natural noncommutative analogues of spaces equipped with a twisting class.
+The continuous-trace property is preserved by [[operator-algebras/strong-morita-equivalence|strong Morita equivalence]]. The spectrum is carried along by the Rieffel correspondence, while the local compact-operator models are unchanged up to stabilization [Raeburn–Williams, Chapters 3–5]. This makes continuous-trace algebras natural noncommutative analogues of spaces equipped with a twisting class.
 
 ## Examples and non-examples
 

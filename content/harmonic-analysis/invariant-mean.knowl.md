@@ -38,7 +38,7 @@ mean. Locally compact [[algebra-groups/abelian-group|abelian groups]] and solvab
 amenable, whereas the discrete [[algebra-groups/free-group|free group]] on
 two generators is not. These examples and the equivalence with other locally
 compact formulations are treated in
-[Paterson, Chapters 0–1](https://doi.org/10.1090/surv/029).
+[Paterson, Chapters 0–1].
 
 ## Conventions and function spaces
 

@@ -20,7 +20,7 @@ x_n\to x\text{ in }X,\quad Tx_n\to y\text{ in }Y
 \]
 Thus a topological condition on the graph forces continuity, provided both
 spaces are complete and the domain of \(T\) is all of \(X\)
-[Conway, Chapter VI](https://doi.org/10.1007/978-1-4757-4383-8).
+[Conway, Chapter VI].
 
 ## Relation to the open mapping theorem
 

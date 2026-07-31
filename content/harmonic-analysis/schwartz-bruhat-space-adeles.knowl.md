@@ -30,7 +30,7 @@ Choose a nontrivial additive character \(\psi:\mathbb A_F/F\to\mathbb T\) and co
 \[
 \widehat{\bigotimes_v f_v}=\bigotimes_v\widehat f_v.
 \]
-For the standard unramified data, \(\widehat{1_{\mathcal O_v}}=1_{\mathcal O_v}\) at almost every finite place, so the transform preserves the restricted tensor product. With self-dual measures it is an automorphism of \(\mathcal S(\mathbb A_F)\) and satisfies Fourier inversion [Weil, Chapter II](https://doi.org/10.1007/978-3-662-05978-4).
+For the standard unramified data, \(\widehat{1_{\mathcal O_v}}=1_{\mathcal O_v}\) at almost every finite place, so the transform preserves the restricted tensor product. With self-dual measures it is an automorphism of \(\mathcal S(\mathbb A_F)\) and satisfies Fourier inversion [Weil, Chapter II].
 
 ## Basic examples
 

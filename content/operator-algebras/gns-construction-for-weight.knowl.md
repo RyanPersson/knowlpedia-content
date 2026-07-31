@@ -40,7 +40,7 @@ If \(\varphi\) is
 Semifiniteness ensures that the finite domain is sufficiently large,
 faithfulness removes nonzero positive elements from the kernel, and
 normality supplies ultraweak continuity
-[Takesaki, Chapter VII, §1](https://doi.org/10.1007/978-3-662-10451-4).
+[Takesaki, Chapter VII, §1].
 Without these hypotheses the construction still exists, but the
 representation may be degenerate or nonfaithful.
 

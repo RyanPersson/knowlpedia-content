@@ -29,7 +29,7 @@ the zero-norm elements and completes. This produces the universal algebra
 when every supremum is finite. Algebraic consistency alone is insufficient:
 relations can admit representations while failing to bound a generator, so
 no universal \(C^*\)-norm exists
-[Loring, Chapter 3](https://doi.org/10.1090/fim/008).
+[Loring, Chapter 3].
 
 ## Standard examples
 

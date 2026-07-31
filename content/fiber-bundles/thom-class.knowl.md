@@ -34,7 +34,7 @@ If \(f:B'\to B\) is a map from another paracompact Hausdorff base, the pullback 
 \[
 u_{f^*E}=\widetilde f^{\,*}u_E,
 \]
-where \(\widetilde f:f^*E\to E\) is the canonical [[fiber-bundles/bundle-map|bundle map]]. These statements are the [[fiber-bundles/thom-isomorphism-theorem|Thom isomorphism theorem]] in [Milnor and Stasheff, Chapters 9–10](https://doi.org/10.1515/9781400881826).
+where \(\widetilde f:f^*E\to E\) is the canonical [[fiber-bundles/bundle-map|bundle map]]. These statements are the [[fiber-bundles/thom-isomorphism-theorem|Thom isomorphism theorem]] in [Milnor and Stasheff, Chapters 9–10].
 
 ## Models and examples
 

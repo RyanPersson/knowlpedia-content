@@ -31,7 +31,7 @@ The algebraic statement behind the theorem is
 spaces. Here \(\mathfrak n\) is nilpotent because brackets add positive
 restricted roots. Exponentiation is a diffeomorphism from \(\mathfrak n\) to
 the simply connected [[algebra-groups/nilpotent-group|nilpotent group]] \(N\)
-[Knapp, Chapter VI, §5](https://link.springer.com/book/9780817642594).
+[Knapp, Chapter VI, §5].
 
 ## Minimal parabolic subgroup
 

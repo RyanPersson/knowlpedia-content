@@ -20,7 +20,7 @@ The quaternionic algebra gives \(Q\) a canonical Euclidean metric and orientatio
 
 ## Canonical almost-complex structure
 
-A quaternionic connection splits \(TZ\) into horizontal and vertical parts. On a horizontal vector over \((x,A)\), use \(A\); on the [[fiber-bundles/vertical-tangent-space|vertical tangent space]] of \(Z_x\cong\mathbb{CP}^1\), use its standard complex structure. These pieces define an [[differential-geometry/almost-complex-structure|almost-complex structure]] on \(Z\). For \(n\geq2\), it is independent of the chosen torsion-free quaternionic connection and is integrable; this is the central twistor theorem in [Salamon, §§3–4](https://doi.org/10.1007/BF01393378).
+A quaternionic connection splits \(TZ\) into horizontal and vertical parts. On a horizontal vector over \((x,A)\), use \(A\); on the [[fiber-bundles/vertical-tangent-space|vertical tangent space]] of \(Z_x\cong\mathbb{CP}^1\), use its standard complex structure. These pieces define an [[differential-geometry/almost-complex-structure|almost-complex structure]] on \(Z\). For \(n\geq2\), it is independent of the chosen torsion-free quaternionic connection and is integrable; this is the central twistor theorem in [Salamon, §§3–4].
 
 ## Examples and interpretation
 

@@ -28,7 +28,7 @@ In the convenient smooth structure, evaluation
 \[
 \operatorname{ev}:C^\infty(M,N)\times M\to N,\qquad(f,x)\mapsto f(x),
 \]
-is smooth, and composition of [[fiber-bundles/smooth-map|smooth maps]] is smooth as a map between the corresponding mapping spaces. This cartesian-closed behavior is one reason to retain the infinite-dimensional smooth structure rather than only the underlying set [Kriegl and Michor, Chapter IX](https://doi.org/10.1090/surv/053).
+is smooth, and composition of [[fiber-bundles/smooth-map|smooth maps]] is smooth as a map between the corresponding mapping spaces. This cartesian-closed behavior is one reason to retain the infinite-dimensional smooth structure rather than only the underlying set [Kriegl and Michor, Chapter IX].
 
 ## Topology and scope
 

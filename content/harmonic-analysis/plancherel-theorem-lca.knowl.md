@@ -16,7 +16,7 @@ Thus \(\|\mathcal F_2f\|_2=\|f\|_2\), and the inverse unitary is the \(L^2\)-ext
 
 ## Meaning of the extension
 
-An arbitrary \(L^2\)-function need not be integrable, so its Fourier transform need not be given by a pointwise convergent integral. Choose \(f_n\in L^1(G)\cap L^2(G)\) with \(f_n\to f\) in \(L^2(G)\); then \(\widehat f_n\) converges in \(L^2(\widehat G)\), and its limit is \(\mathcal F_2f\). Unitarity makes the limit independent of the approximating sequence. The density and extension argument is part of the standard LCA Plancherel theorem [Folland, Chapter 4](https://doi.org/10.1201/B19172).
+An arbitrary \(L^2\)-function need not be integrable, so its Fourier transform need not be given by a pointwise convergent integral. Choose \(f_n\in L^1(G)\cap L^2(G)\) with \(f_n\to f\) in \(L^2(G)\); then \(\widehat f_n\) converges in \(L^2(\widehat G)\), and its limit is \(\mathcal F_2f\). Unitarity makes the limit independent of the approximating sequence. The density and extension argument is part of the standard LCA Plancherel theorem [Folland, Chapter 4].
 
 ## Parseval identity and normalization
 

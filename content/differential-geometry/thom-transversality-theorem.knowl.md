@@ -12,7 +12,7 @@ Let \(M,N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]], let \(r\geq0\
 \[
 \{f\in C^\infty(M,N):j^rf\pitchfork W\}
 \]
-is residual, hence dense, in the [[differential-geometry/whitney-c-infinity-topology|Whitney \(C^\infty\) topology]]. Here \(j^rf\) is the [[differential-geometry/jet-of-a-smooth-map|\(r\)-jet extension]] of \(f\), and transversality is understood as [[differential-geometry/map-transverse-to-a-submanifold|transversality of a map to a submanifold]]. If \(W\) is closed, this set is also open [Hirsch, Chapter 2, Theorem 2.8](https://doi.org/10.1007/978-1-4684-9449-5).
+is residual, hence dense, in the [[differential-geometry/whitney-c-infinity-topology|Whitney \(C^\infty\) topology]]. Here \(j^rf\) is the [[differential-geometry/jet-of-a-smooth-map|\(r\)-jet extension]] of \(f\), and transversality is understood as [[differential-geometry/map-transverse-to-a-submanifold|transversality of a map to a submanifold]]. If \(W\) is closed, this set is also open [Hirsch, Chapter 2, Theorem 2.8].
 
 ## Meaning of genericity
 
@@ -20,7 +20,7 @@ A [[topology/residual-set|residual set]] is a countable intersection of open [[t
 
 ## Important special cases
 
-For \(r=0\), the jet bundle is \(M\times N\), and choosing \(W=M\times Z\) recovers the ordinary transversality theorem for maps \(M\to N\) transverse to \(Z\subseteq N\). For \(r=1\), choosing rank-defect strata in the first-jet bundle makes the theorem a starting point for the study of generic singularities of smooth maps [Golubitsky–Guillemin, Chapter II, §4](https://doi.org/10.1007/978-1-4615-7904-5).
+For \(r=0\), the jet bundle is \(M\times N\), and choosing \(W=M\times Z\) recovers the ordinary transversality theorem for maps \(M\to N\) transverse to \(Z\subseteq N\). For \(r=1\), choosing rank-defect strata in the first-jet bundle makes the theorem a starting point for the study of generic singularities of smooth maps [Golubitsky–Guillemin, Chapter II, §4].
 
 ## Scope and cautions
 

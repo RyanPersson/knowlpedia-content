@@ -27,7 +27,7 @@ The matrix
 is positive in \(M_2(A)\). Applying \(\Phi^{(2)}\) and taking the Schur
 complement of its lower-right unit gives
 \(\Phi(a^*a)-\Phi(a)^*\Phi(a)\geq0\). Applying the same argument to \(a^*\)
-gives the second inequality [Paulsen, Chapter 3](https://doi.org/10.1017/CBO9780511546631).
+gives the second inequality [Paulsen, Chapter 3].
 
 ## Equality and multiplicativity
 
@@ -49,7 +49,7 @@ self-adjoint:
 \(\Phi(a)^2\leq\Phi(a^2)\). The two inequalities for arbitrary \(a\) follow
 from unital \(2\)-positivity; this stronger form is often called the
 Kadison–Schwarz or Choi–Schwarz inequality
-[Choi, pp. 565–574](https://doi.org/10.1215/ijm/1256051007). Omitting
+[Choi, pp. 565–574]. Omitting
 unitality changes the estimate and generally introduces a factor involving
 \(\Phi(1_A)\).
 

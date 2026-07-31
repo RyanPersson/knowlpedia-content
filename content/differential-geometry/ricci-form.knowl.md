@@ -20,7 +20,7 @@ The signs in both formulas are linked to the curvature convention and must be ch
 
 ## Curvature interpretation
 
-The Ricci form is the trace of the [[fiber-bundles/chern-curvature|Chern curvature]] of the [[differential-geometry/holomorphic-tangent-bundle|holomorphic tangent bundle]], with the conventional factor of \(i\). Equivalently, its negative is the curvature form of the canonical bundle with its metric induced by \(g\). The local determinant formula follows by taking the trace of the Chern-connection curvature [Huybrechts, §4.2](https://doi.org/10.1007/b137952).
+The Ricci form is the trace of the [[fiber-bundles/chern-curvature|Chern curvature]] of the [[differential-geometry/holomorphic-tangent-bundle|holomorphic tangent bundle]], with the conventional factor of \(i\). Equivalently, its negative is the curvature form of the canonical bundle with its metric induced by \(g\). The local determinant formula follows by taking the trace of the Chern-connection curvature [Huybrechts, §4.2].
 
 ## Cohomology and Einstein metrics
 
@@ -28,7 +28,7 @@ The de Rham class of the Ricci form is metric-independent:
 \[
 \left[\frac{\rho_g}{2\pi}\right]=c_1(T^{1,0}X)_{\mathbb R}.
 \]
-Thus changing the Kähler metric changes \(\rho_g\) by an exact real \((1,1)\)-form. A Kähler metric is Kähler–Einstein with Einstein constant \(\lambda\) exactly when \(\rho_g=\lambda\omega\), where \(\omega\) is its [[differential-geometry/kahler-form|Kähler form]]; it is Ricci-flat exactly when \(\rho_g=0\) [Besse, Chapter 2, §G](https://doi.org/10.1007/978-3-540-74311-8).
+Thus changing the Kähler metric changes \(\rho_g\) by an exact real \((1,1)\)-form. A Kähler metric is Kähler–Einstein with Einstein constant \(\lambda\) exactly when \(\rho_g=\lambda\omega\), where \(\omega\) is its [[differential-geometry/kahler-form|Kähler form]]; it is Ricci-flat exactly when \(\rho_g=0\) [Besse, Chapter 2, §G].
 
 ## Examples and conventions
 

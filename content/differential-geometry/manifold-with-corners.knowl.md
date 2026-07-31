@@ -29,7 +29,7 @@ The cube \([0,1]^n\), a product of compact intervals, is the basic example. A cl
 
 ## Conventions and scope
 
-**Warning.** The literature contains inequivalent notions of boundary and of [[differential-geometry/smooth-map-of-manifolds-with-corners|smooth map between manifolds with corners]]. The core specifies the common extension-based smooth structure on each object; a category of cornered manifolds must additionally choose its morphisms. Joyce compares these choices and develops one functorial convention in [Joyce, §§2–3](https://arxiv.org/abs/0910.3518).
+**Warning.** The literature contains inequivalent notions of boundary and of [[differential-geometry/smooth-map-of-manifolds-with-corners|smooth map between manifolds with corners]]. The core specifies the common extension-based smooth structure on each object; a category of cornered manifolds must additionally choose its morphisms. Joyce compares these choices and develops one functorial convention in [Joyce, §§2–3].
 
 ## References
 

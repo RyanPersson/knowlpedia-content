@@ -39,7 +39,7 @@ factor types. They are
 dimension function has values \(0\) and \(\infty\). This is the
 continuous-dimension
 theory underlying the classification of factors
-[Takesaki, Chapter V, §§1–2](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter V, §§1–2].
 
 ## Finite factors and traces
 

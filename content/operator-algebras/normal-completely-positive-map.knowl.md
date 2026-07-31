@@ -31,7 +31,7 @@ Normality is equivalent to the existence of a bounded preadjoint
 \]
 This makes normal CP maps compatible with the intrinsic preduals of von
 Neumann algebras. The order and predual characterizations of normality are
-developed in [Takesaki, Chapter III, §§2–3](https://doi.org/10.1007/978-1-4612-6188-9).
+developed in [Takesaki, Chapter III, §§2–3].
 
 ## Examples and closure properties
 

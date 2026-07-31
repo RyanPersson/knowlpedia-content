@@ -23,7 +23,7 @@ UJ_M=J_NU.
 Thus the self-dual cones remove the freedom ordinarily present in spatial
 implementations. Normality, the full standard-form axioms, and preservation
 of the distinguished cones are part of the theorem
-[Haagerup, Theorem 2.3](https://doi.org/10.7146/math.scand.a-11606).
+[Haagerup, Theorem 2.3].
 
 ## Canonical consequences
 

@@ -27,7 +27,7 @@ and
 Here cyclic means \(\overline{M\xi}=H\), while separating means
 \(x\xi=0\Rightarrow x=0\). The von Neumann hypothesis supplies
 \(M''=M\), which is essential to the converse implications
-[Kadison–Ringrose, Proposition 5.5.11](https://doi.org/10.1090/gsm/015).
+[Kadison–Ringrose, Proposition 5.5.11].
 
 ## Proof mechanism
 

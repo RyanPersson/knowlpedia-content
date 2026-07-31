@@ -22,7 +22,7 @@ If \(W_{01}:M_0\to M_1\) and \(W_{12}:M_1\to M_2\), and similarly \(W'_{01}\) an
 \cong
 (W_{12}\sqcup W'_{12})\circ(W_{01}\sqcup W'_{01}).
 \]
-Thus disjoint union defines a bifunctor and satisfies the interchange law with categorical composition. The empty cobordism components supply the unit compatibility. This is the ordinary categorical shadow of the symmetric monoidal bordism categories used for extended field theories [Lurie, §1.1 and §2.2](https://arxiv.org/abs/0905.0465).
+Thus disjoint union defines a bifunctor and satisfies the interchange law with categorical composition. The empty cobordism components supply the unit compatibility. This is the ordinary categorical shadow of the symmetric monoidal bordism categories used for extended field theories [Lurie, §1.1 and §2.2].
 
 ## Structured variants
 
@@ -30,7 +30,7 @@ The same construction works for oriented, framed, spin, or otherwise tangentiall
 
 ## Role in field theory
 
-A topological quantum field theory is required to be symmetric monoidal so that disjoint geometric systems are sent to tensor products in the target category. Consequently, the empty manifold is sent to the target unit, and a disjoint union \(M\sqcup N\) is sent coherently to \(Z(M)\otimes Z(N)\). This is precisely why disjoint union, rather than a geometric operation involving interaction between components, is the tensor product in the bordism source [Baez–Dolan, §1](https://doi.org/10.1090/conm/230/03340).
+A topological quantum field theory is required to be symmetric monoidal so that disjoint geometric systems are sent to tensor products in the target category. Consequently, the empty manifold is sent to the target unit, and a disjoint union \(M\sqcup N\) is sent coherently to \(Z(M)\otimes Z(N)\). This is precisely why disjoint union, rather than a geometric operation involving interaction between components, is the tensor product in the bordism source [Baez–Dolan, §1].
 
 ## References
 

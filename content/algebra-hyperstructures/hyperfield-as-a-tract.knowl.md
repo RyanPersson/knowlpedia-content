@@ -29,8 +29,7 @@ retains its null relations. Every hyperfield therefore determines a tract,
 but an arbitrary tract need not carry a binary hyperaddition from which its
 null set can be recovered.
 
-## Reference
-
+## References
 Matthew Baker and Nathan Bowler, “Matroids over partial hyperstructures,”
 *Advances in Mathematics* 343 (2019), 821–863.
 [arXiv:1709.09707](https://arxiv.org/abs/1709.09707).

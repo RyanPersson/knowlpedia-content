@@ -21,7 +21,7 @@ For the holomorphic calculus, if \(\mu\notin f(\sigma_A(a))\), then
 g(z)=\frac{1}{f(z)-\mu}
 \]
 is holomorphic near \(\sigma_A(a)\), and the composition rule gives
-\((f(a)-\mu 1_A)g(a)=1_A\). This proves one inclusion. For the reverse inclusion, factor \(f(z)-f(\lambda)\) by \(z-\lambda\) near a chosen \(\lambda\in\sigma_A(a)\); invertibility of \(f(a)-f(\lambda)1_A\) would force invertibility of \(a-\lambda1_A\). See [Murphy, §1.3](https://doi.org/10.1016/C2009-0-22289-6).
+\((f(a)-\mu 1_A)g(a)=1_A\). This proves one inclusion. For the reverse inclusion, factor \(f(z)-f(\lambda)\) by \(z-\lambda\) near a chosen \(\lambda\in\sigma_A(a)\); invertibility of \(f(a)-f(\lambda)1_A\) would force invertibility of \(a-\lambda1_A\). See [Murphy, §1.3].
 
 ## Consequences
 

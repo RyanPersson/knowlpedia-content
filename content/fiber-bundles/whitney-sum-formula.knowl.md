@@ -26,7 +26,7 @@ c_k(E\oplus F)=\sum_{i+j=k}c_i(E)\smile c_j(F),
 \qquad
 w_k(E\oplus F)=\sum_{i+j=k}w_i(E)\smile w_j(F).
 \]
-Thus \(c_1(E\oplus F)=c_1(E)+c_1(F)\), while higher components include mixed products. The formulas are the product axioms in the standard characterization of these classes; see [Milnor–Stasheff, chapter 4 and §14.4](https://doi.org/10.1515/9781400881826).
+Thus \(c_1(E\oplus F)=c_1(E)+c_1(F)\), while higher components include mixed products. The formulas are the product axioms in the standard characterization of these classes; see [Milnor–Stasheff, chapter 4 and §14.4].
 
 ## Related characteristic classes
 

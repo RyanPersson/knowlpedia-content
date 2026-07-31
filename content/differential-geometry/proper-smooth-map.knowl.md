@@ -12,7 +12,7 @@ Let \(M\) and \(N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]]. A [[f
 
 ## Equivalent characterizations
 
-For manifolds, properness is equivalent to the sequence criterion: whenever a sequence \((x_j)\) in \(M\) has \(f(x_j)\) converging in \(N\), the sequence \((x_j)\) has a convergent subsequence in \(M\). It is also equivalent to \(f\) being a closed map with compact fibers. These equivalences use the Hausdorff, [[topology/locally-compact-space|locally compact]], second-countable properties built into the manifold convention; they need not hold in arbitrary [[topology/topological-space|topological spaces]]. See [Lee, Appendix A and Chapter 4](https://doi.org/10.1007/978-1-4419-9982-5).
+For manifolds, properness is equivalent to the sequence criterion: whenever a sequence \((x_j)\) in \(M\) has \(f(x_j)\) converging in \(N\), the sequence \((x_j)\) has a convergent subsequence in \(M\). It is also equivalent to \(f\) being a closed map with compact fibers. These equivalences use the Hausdorff, [[topology/locally-compact-space|locally compact]], second-countable properties built into the manifold convention; they need not hold in arbitrary [[topology/topological-space|topological spaces]]. See [Lee, Appendix A and Chapter 4].
 
 ## Stability and geometric consequences
 

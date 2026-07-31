@@ -33,7 +33,7 @@ The Radon–Nikodym cocycle gives the representation law, and a change to an
 equivalent quasi-invariant measure is implemented by multiplication by the
 square root of its density. Hence the unitary-equivalence class is independent
 of the chosen measure within the canonical measure class
-[Folland, §6.1](https://doi.org/10.1201/B19172).
+[Folland, §6.1].
 
 ## Equivariant-function model
 

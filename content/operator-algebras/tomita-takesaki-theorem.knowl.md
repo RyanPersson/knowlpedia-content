@@ -51,7 +51,7 @@ together with the polar decomposition, gives the inclusions
 \(\Delta^{it}M\Delta^{-it}\subseteq M\). Applying the same argument to the
 commutant and to \(-t\) upgrades both inclusions to equalities. The full
 argument is given in
-[Takesaki, Chapter VI, §1](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter VI, §1].
 
 ## Consequences
 

@@ -37,7 +37,7 @@ is hereditary and invariant under unitary conjugation. When
 bounded tracial
 [[operator-algebras/positive-linear-functional|positive linear functional]]
 on all of \(M\)
-[Takesaki, Chapter V](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter V].
 
 ## Examples and distinctions
 

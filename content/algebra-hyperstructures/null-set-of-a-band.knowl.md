@@ -32,7 +32,6 @@ The band literature uses the single word **nullset** for \(N_B\). This is not
 the same as a null ideal used to form a quotient of a band: the nullset is
 part of the band itself.
 
-## Reference
-
+## References
 Matthew Baker, Tong Jin, and Oliver Lorscheid,
 [*New building blocks for \(\mathbb F_1\)-geometry: bands and band schemes*, Definition 1.1](https://arxiv.org/abs/2402.09612).

@@ -16,11 +16,11 @@ Equivalently, every [[lie-groups/k-type|\(K\)-type]] occurs in \(\pi|_K\) with f
 
 ## Why the conclusion is substantial
 
-Compact-group theory decomposes the restriction \(\pi|_K\) into \(K\)-isotypic Hilbert subspaces, but compactness alone does not force their multiplicities to be finite. For example, an infinite Hilbert direct sum of the trivial representation of \(K\) has infinite trivial-type multiplicity. The theorem uses irreducibility for the noncompact group \(G\), together with the structure of real reductive groups, to rule out this behavior. This is the finiteness theorem stated in [Knapp, Chapter VIII, Theorem 8.1](https://www.math.stonybrook.edu/~aknapp/books/repthy1.html).
+Compact-group theory decomposes the restriction \(\pi|_K\) into \(K\)-isotypic Hilbert subspaces, but compactness alone does not force their multiplicities to be finite. For example, an infinite Hilbert direct sum of the trivial representation of \(K\) has infinite trivial-type multiplicity. The theorem uses irreducibility for the noncompact group \(G\), together with the structure of real reductive groups, to rule out this behavior. This is the finiteness theorem stated in [Knapp, Chapter VIII, Theorem 8.1].
 
 ## Algebraic consequence
 
-The [[lie-groups/k-finite-vector|\(K\)-finite vectors]] \(\mathcal H_K\) are dense in \(\mathcal H\) and carry compatible actions of the complexified [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\) and \(K\). Admissibility supplies finite \(K\)-multiplicities, while irreducibility supplies finite generation over \(U(\mathfrak g)\); consequently \(\mathcal H_K\) is an irreducible [[lie-groups/harish-chandra-module|Harish–Chandra module]]. This passage replaces the Hilbert-space representation by a tractable algebraic core without discarding its infinitesimal and compact-subgroup data [Wallach, Chapter 3, §§3.3–3.5](https://shop.elsevier.com/books/real-reductive-groups-i/wallach/978-0-12-732960-4).
+The [[lie-groups/k-finite-vector|\(K\)-finite vectors]] \(\mathcal H_K\) are dense in \(\mathcal H\) and carry compatible actions of the complexified [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\) and \(K\). Admissibility supplies finite \(K\)-multiplicities, while irreducibility supplies finite generation over \(U(\mathfrak g)\); consequently \(\mathcal H_K\) is an irreducible [[lie-groups/harish-chandra-module|Harish–Chandra module]]. This passage replaces the Hilbert-space representation by a tractable algebraic core without discarding its infinitesimal and compact-subgroup data [Wallach, Chapter 3, §§3.3–3.5].
 
 ## Hypotheses and scope
 

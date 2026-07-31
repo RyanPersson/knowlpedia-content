@@ -31,7 +31,7 @@ dimension of a maximal \(\mathbb R\)-split torus. On the Lie-group side, the
 connected subgroup \(A=\exp(\mathfrak a)\) is the corresponding maximal split
 abelian subgroup. Conjugacy of the possible \(\mathfrak a\)'s and the
 associated Cartan and Iwasawa structure are treated in
-[Knapp, Chapter VI, §§2–5](https://www.math.stonybrook.edu/~aknapp/books/beyond2.html).
+[Knapp, Chapter VI, §§2–5].
 
 ## Examples
 

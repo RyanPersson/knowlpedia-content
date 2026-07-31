@@ -28,7 +28,7 @@ For the restricted projection \(\pi:Z\to P\), a parameter \(p\) is a regular
 value exactly when \(F_p\pitchfork S\). The conclusion therefore follows by
 applying [[differential-geometry/sards-theorem|Sard's theorem]] to \(\pi\).
 This reduction is presented in
-[Guillemin–Pollack, Chapter 2](https://doi.org/10.1090/chel/370).
+[Guillemin–Pollack, Chapter 2].
 
 ## Consequences and examples
 

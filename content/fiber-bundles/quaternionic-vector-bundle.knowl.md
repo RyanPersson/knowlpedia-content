@@ -31,7 +31,7 @@ Right multiplication by \(j\) defines an antilinear [[fiber-bundles/bundle-map|b
 satisfying \(J^2=-I\). Conversely, such a pair \((E,J)\) recovers the right
 quaternionic action. This is the standard complex description of a quaternion
 bundle
-[Atiyah, §1.5](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf).
+[Atiyah, §1.5].
 
 ## Metrics and examples
 

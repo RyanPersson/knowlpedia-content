@@ -33,7 +33,7 @@ Every bounded [[quantum-foundations/normal-operator|normal operator]] \(T\) has 
 \[
 T=\int_{\sigma(T)}z\,dE(z).
 \]
-Conversely, spectral integration of the coordinate function produces a normal operator. For an unbounded self-adjoint operator, define \(\mu_\xi(A)=\langle E(A)\xi,\xi\rangle\); the [[functional-analysis/spectral-integral|spectral integral]] is interpreted on the domain of vectors \(\xi\) satisfying \(\int_{\mathbb R}\lambda^2\,d\mu_\xi(\lambda)<\infty\). These forms of the spectral theorem are developed in [Conway, Chapters IX and X](https://doi.org/10.1007/978-1-4757-4383-8).
+Conversely, spectral integration of the coordinate function produces a normal operator. For an unbounded self-adjoint operator, define \(\mu_\xi(A)=\langle E(A)\xi,\xi\rangle\); the [[functional-analysis/spectral-integral|spectral integral]] is interpreted on the domain of vectors \(\xi\) satisfying \(\int_{\mathbb R}\lambda^2\,d\mu_\xi(\lambda)<\infty\). These forms of the spectral theorem are developed in [Conway, Chapters IX and X].
 
 ## Examples and conventions
 

@@ -28,7 +28,7 @@ normalized [[lie-groups/knapp-stein-intertwining-operator|Knapp–Stein intertwi
 regions where this form is positive definite; degeneracy often marks
 reducibility or an endpoint. The invariant form and the distinction between
 open complementary series and semidefinite endpoint forms are made explicit in
-[Knapp–Stein, §3, pp. 253–257](https://doi.org/10.1515/9781400869312-017).
+[Knapp–Stein, §3, pp. 253–257].
 
 ## Rank-one example
 

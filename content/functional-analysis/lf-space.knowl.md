@@ -16,7 +16,7 @@ where every \(E_n\) is a [[functional-analysis/frechet-space|Fréchet space]] an
 
 ## Universal mapping property
 
-A linear map \(T:E\to F\) into a locally convex space is continuous exactly when every composite \(T|_{E_n}:E_n\to F\) is continuous. This is the defining final-topology property of the locally convex inductive limit. It makes stagewise constructions effective even when \(E\) is not metrizable [Trèves, Chapter 13](https://store.doverpublications.com/products/9780486453521).
+A linear map \(T:E\to F\) into a locally convex space is continuous exactly when every composite \(T|_{E_n}:E_n\to F\) is continuous. This is the defining final-topology property of the locally convex inductive limit. It makes stagewise constructions effective even when \(E\) is not metrizable [Trèves, Chapter 13].
 
 ## Bounded sets and examples
 

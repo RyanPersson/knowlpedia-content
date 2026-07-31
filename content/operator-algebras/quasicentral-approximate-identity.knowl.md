@@ -30,7 +30,7 @@ for \(I\), one uses
 many commutators small while preserving the approximation properties;
 directing the construction by finite subsets and error tolerances yields the
 required net
-[Arveson, §1.7](https://doi.org/10.1007/978-1-4612-6371-5).
+[Arveson, §1.7].
 
 The theorem guarantees a net, not necessarily a sequence. Countability
 hypotheses can allow sequential forms, but the definition itself should not
@@ -56,7 +56,7 @@ ideal and quotient contributions, construct asymptotic splittings, and
 control commutators in extension theory. Quasicentrality does not mean that
 any \(e_\lambda\) is central, nor does it imply norm convergence of
 \((e_\lambda)\) to an element of \(A\)
-[Blackadar, §II.4](https://doi.org/10.1007/3-540-28517-2).
+[Blackadar, §II.4].
 
 ## References
 

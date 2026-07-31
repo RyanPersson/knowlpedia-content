@@ -40,7 +40,6 @@ extensions. The additional
 [[algebra-hyperstructures/doubly-distributive-hyperfield|double-distributivity]]
 condition selects a proper subclass.
 
-## Reference
-
+## References
 Nathan Bowler and Ting Su,
 [*Classification of doubly distributive skew hyperfields and stringent hypergroups*, Theorem 4.10](https://arxiv.org/abs/2003.03751).

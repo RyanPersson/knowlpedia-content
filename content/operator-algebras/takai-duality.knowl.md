@@ -33,7 +33,7 @@ where \(\rho\) is a [[algebra-representation-theory/regular-representation|regul
 Left-versus-right regular-representation and character conventions can
 change the displayed implementation by inversion or unitary conjugacy, but
 not the stabilized isomorphism class
-[Takai, pp. 25–39](https://doi.org/10.1016/0022-1236%2875%2990004-X).
+[Takai, pp. 25–39].
 
 ## How to interpret the theorem
 

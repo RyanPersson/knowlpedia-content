@@ -27,6 +27,5 @@ Affine blue schemes are the local models for [[algebraic-geometry-foundations/bl
 
 Semiring schemes and ordinary affine schemes enter through the [[algebraic-geometry-foundations/semiring-as-a-blueprint|canonical embedding of commutative semirings into blueprints]]. The resulting base-extension functors carry extra hypotheses and should not be read as identifying all blue schemes with classical schemes.
 
-## Reference
-
+## References
 Oliver Lorscheid, [*The geometry of blueprints, Part I*, §3](https://arxiv.org/abs/1103.1745).

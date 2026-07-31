@@ -20,7 +20,7 @@ The covariance identity is precisely what makes
 \[
 f\longmapsto\int_G\pi(f(s))U_s\,ds
 \]
-a \(*\)-representation of the [[operator-algebras/crossed-product-convolution-star-algebra|crossed-product convolution algebra]]. Completion then turns covariant pairs into nondegenerate representations of the [[operator-algebras/full-crossed-product|full crossed product]]. This correspondence is the universal role of covariant representations [Williams, §§2.2–2.4](https://doi.org/10.1090/surv/134).
+a \(*\)-representation of the [[operator-algebras/crossed-product-convolution-star-algebra|crossed-product convolution algebra]]. Completion then turns covariant pairs into nondegenerate representations of the [[operator-algebras/full-crossed-product|full crossed product]]. This correspondence is the universal role of covariant representations [Williams, §§2.2–2.4].
 
 ## Examples and non-examples
 

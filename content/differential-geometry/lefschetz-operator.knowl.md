@@ -21,7 +21,7 @@ When \(X\) is Kähler, \(\omega\) has type \((1,1)\), so \(L\) also maps \((p,q)
 
 ## Linear-algebraic structure
 
-On a [[differential-geometry/symplectic-vector-space|symplectic vector space]], multiplication by \(\omega\) has an adjoint lowering operator \(\Lambda\), defined using contraction with the inverse bivector after conventions are fixed. Together with their grading commutator, \(L\) and \(\Lambda\) form an \(\mathfrak{sl}_2\)-triple. This representation-theoretic structure yields the decomposition of forms into powers of \(L\) applied to primitive forms [Voisin, §6.2](https://doi.org/10.1017/CBO9780511615344).
+On a [[differential-geometry/symplectic-vector-space|symplectic vector space]], multiplication by \(\omega\) has an adjoint lowering operator \(\Lambda\), defined using contraction with the inverse bivector after conventions are fixed. Together with their grading commutator, \(L\) and \(\Lambda\) form an \(\mathfrak{sl}_2\)-triple. This representation-theoretic structure yields the decomposition of forms into powers of \(L\) applied to primitive forms [Voisin, §6.2].
 
 ## Cohomological consequences
 

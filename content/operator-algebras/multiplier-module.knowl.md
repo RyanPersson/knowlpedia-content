@@ -31,7 +31,7 @@ T\longmapsto\lVert T(a)\rVert,\qquad
 T\longmapsto\lVert T^*(x)\rVert
 \]
 for \(a\in A\) and \(x\in E\)
-[Lance, Chapter 2](https://doi.org/10.1017/CBO9780511526206).
+[Lance, Chapter 2].
 
 ## Examples and structure
 

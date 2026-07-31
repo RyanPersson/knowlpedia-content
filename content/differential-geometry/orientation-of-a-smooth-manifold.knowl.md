@@ -18,7 +18,7 @@ For a smooth manifold, the following data determine the same orientation:
 2. an [[shared-foundations/equivalence-class|equivalence class]] of positively oriented atlases; or
 3. a nowhere-vanishing smooth \(n\)-form, where two such forms are equivalent when one is a positive smooth multiple of the other.
 
-The equivalence uses smooth partitions of unity to construct a global positive top-degree form from compatible local choices; see [Lee, Chapter 15](https://doi.org/10.1007/978-1-4419-9982-5).
+The equivalence uses smooth partitions of unity to construct a global positive top-degree form from compatible local choices; see [Lee, Chapter 15].
 
 ## Maps and boundaries
 

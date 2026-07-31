@@ -20,7 +20,7 @@ If \(\Phi\) is additionally a [[operator-algebras/positive-linear-map|positive l
 \[
 \Phi\!\left(\sup_i x_i\right)=\sup_i\Phi(x_i)
 \]
-for every bounded increasing net \((x_i)\) in \(M_+\). Equivalently, this condition may be tested on increasing nets of projections. These order criteria, with positivity explicit, are standard in [Takesaki, chapter III, section 3](https://doi.org/10.1007/978-1-4612-6188-9).
+for every bounded increasing net \((x_i)\) in \(M_+\). Equivalently, this condition may be tested on increasing nets of projections. These order criteria, with positivity explicit, are standard in [Takesaki, chapter III, section 3].
 
 ## Stability and use
 

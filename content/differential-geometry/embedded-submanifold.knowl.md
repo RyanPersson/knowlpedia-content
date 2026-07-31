@@ -16,7 +16,7 @@ The set \(S\) is given the [[topology/subspace-topology|subspace topology]] and 
 
 ## Equivalent intrinsic formulation
 
-Equivalently, \(S\) is a smooth manifold with its subspace topology such that its inclusion into \(M\) is a smooth embedding. The local coordinate-plane condition determines this smooth structure uniquely. A map \(f:N\to S\) from a smooth manifold is smooth exactly when the composite \(N\to S\hookrightarrow M\) is smooth [Lee, Chapter 5](https://doi.org/10.1007/978-1-4419-9982-5).
+Equivalently, \(S\) is a smooth manifold with its subspace topology such that its inclusion into \(M\) is a smooth embedding. The local coordinate-plane condition determines this smooth structure uniquely. A map \(f:N\to S\) from a smooth manifold is smooth exactly when the composite \(N\to S\hookrightarrow M\) is smooth [Lee, Chapter 5].
 
 ## Standard constructions
 

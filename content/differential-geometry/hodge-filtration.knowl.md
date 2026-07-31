@@ -26,7 +26,7 @@ A decreasing filtration on the complexification of a real [[linear-algebra/vecto
 \[
 V_{\mathbb C}=F^p\oplus\overline{F^{\,n-p+1}}
 \]
-for every \(p\). This opposedness condition recovers the Hodge components and the conjugation symmetry, so the filtration and decomposition formulations contain the same information [Voisin, §7.1.1](https://doi.org/10.1017/CBO9780511615344.008).
+for every \(p\). This opposedness condition recovers the Hodge components and the conjugation symmetry, so the filtration and decomposition formulations contain the same information [Voisin, §7.1.1].
 
 ## Geometric role
 

@@ -16,7 +16,7 @@ The induced charts make \(Y\) a complex manifold, and its inclusion into \(X\) i
 
 ## Equivalent formulation
 
-An injective holomorphic immersion \(i:Y\to X\) whose underlying map is a topological embedding identifies \(Y\) biholomorphically with a complex submanifold of \(X\). Conversely, every complex submanifold inclusion has these properties. The local coordinate form follows from the holomorphic constant-rank theorem [Wells, Chapter I, §3](https://doi.org/10.1007/978-0-387-73892-5).
+An injective holomorphic immersion \(i:Y\to X\) whose underlying map is a topological embedding identifies \(Y\) biholomorphically with a complex submanifold of \(X\). Conversely, every complex submanifold inclusion has these properties. The local coordinate form follows from the holomorphic constant-rank theorem [Wells, Chapter I, §3].
 
 ## Tangent spaces and local equations
 

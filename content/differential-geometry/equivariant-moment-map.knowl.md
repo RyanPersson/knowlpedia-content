@@ -20,7 +20,7 @@ Differentiating equivariance at the identity gives
 \[
 d\mu_x\bigl(\xi_M(x)\bigr)=\operatorname{ad}_\xi^*\mu(x).
 \]
-With the coadjoint convention \(\operatorname{Ad}_g^*\lambda=\lambda\circ\operatorname{Ad}_{g^{-1}}\), this formula uses the corresponding infinitesimal coadjoint action. If \(G\) is connected, the infinitesimal identity for every \(\xi\) implies the global equivariance condition [Ortega and Ratiu, §4.2](https://doi.org/10.1007/978-1-4757-3811-7).
+With the coadjoint convention \(\operatorname{Ad}_g^*\lambda=\lambda\circ\operatorname{Ad}_{g^{-1}}\), this formula uses the corresponding infinitesimal coadjoint action. If \(G\) is connected, the infinitesimal identity for every \(\xi\) implies the global equivariance condition [Ortega and Ratiu, §4.2].
 
 ## Equivariance defect
 

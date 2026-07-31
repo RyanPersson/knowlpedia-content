@@ -20,7 +20,7 @@ The kernel of \(i^*\omega\) is exactly \(\mathcal K\). The form is horizontal be
 \[
 \mathcal L_X(i^*\omega)=d\iota_X(i^*\omega)+\iota_Xd(i^*\omega)=0.
 \]
-Thus \(i^*\omega\) is basic and descends uniquely through the surjective submersion \(\pi\). If a tangent vector downstairs pairs to zero with every other tangent vector, any lift lies in \(\ker i^*\omega=\ker d\pi\), so the original vector is zero. This proves nondegeneracy [Cannas da Silva, §1.4](https://doi.org/10.1007/978-3-540-45330-7).
+Thus \(i^*\omega\) is basic and descends uniquely through the surjective submersion \(\pi\). If a tangent vector downstairs pairs to zero with every other tangent vector, any lift lies in \(\ker i^*\omega=\ker d\pi\), so the original vector is zero. This proves nondegeneracy [Cannas da Silva, §1.4].
 
 ## Linear model and Hamiltonian reduction
 

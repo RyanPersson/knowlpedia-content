@@ -42,6 +42,5 @@ Then \((-)^{\mathrm{band}}\) is right adjoint to \((-)^{\mathrm{oblpr}}\), with 
 \]
 Moreover \((B^{\mathrm{oblpr}})^{\mathrm{band}}=B\). Thus bands form a coreflective full subcategory of ordered blueprints over \(\mathbb F_1^\pm\).
 
-## Reference
-
+## References
 Matthew Baker, Tong Jin, and Oliver Lorscheid, [*New building blocks for \(\mathbb F_1\)-geometry: bands and band schemes*, §1.2.8](https://arxiv.org/abs/2402.09612).

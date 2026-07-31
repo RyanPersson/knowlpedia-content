@@ -24,7 +24,7 @@ The formula does not depend on \(A\), so \(\omega\) is closed. If \(a\ne0\), cho
 \]
 Thus the pairing is nondegenerate on smooth tangent vectors. In the Fréchet setting this is commonly called a weak symplectic form: the induced map from the tangent space to its continuous dual need not be onto.
 
-The [[fiber-bundles/gauge-group|gauge group]] preserves \(\omega\), because its action on \(\operatorname{ad}P\) preserves the chosen inner product. These properties are part of the symplectic formulation developed in [Atiyah–Bott, §9](https://doi.org/10.1098/rsta.1983.0017).
+The [[fiber-bundles/gauge-group|gauge group]] preserves \(\omega\), because its action on \(\operatorname{ad}P\) preserves the chosen inner product. These properties are part of the symplectic formulation developed in [Atiyah–Bott, §9].
 
 ## Role in gauge theory
 

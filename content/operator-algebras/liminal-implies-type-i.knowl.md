@@ -31,7 +31,7 @@ The containment may be proper. If \(H\) is infinite-dimensional, the
 unitization \(K(H)+\mathbb C I_H\) is type I but not liminal: its defining
 [[algebra-representation-theory/irreducible-representation|irreducible representation]] contains \(K(H)\), yet its image also contains the
 identity. Thus type I is strictly weaker than liminal
-[Dixmier, §4.2](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/15/suppl/C).
+[Dixmier, §4.2].
 
 ## Position in the hierarchy
 

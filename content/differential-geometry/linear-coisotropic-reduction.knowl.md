@@ -37,7 +37,7 @@ In standard \(\mathbb R^{2n}\) with coordinates \((q_i,p_i)\), let \(W\) be defi
 
 ## Relation to manifold reduction
 
-For a [[differential-geometry/coisotropic-submanifold|coisotropic submanifold]], the corresponding null spaces form the characteristic distribution. When that distribution integrates to a sufficiently regular foliation with a smooth leaf space, the quotient inherits a symplectic form by the same descent argument. The linear construction is the tangent-space model, but it avoids the global regularity and Hausdorffness issues of a manifold quotient [Cannas da Silva, Chapters 23–24](https://doi.org/10.1007/978-3-540-45330-7).
+For a [[differential-geometry/coisotropic-submanifold|coisotropic submanifold]], the corresponding null spaces form the characteristic distribution. When that distribution integrates to a sufficiently regular foliation with a smooth leaf space, the quotient inherits a symplectic form by the same descent argument. The linear construction is the tangent-space model, but it avoids the global regularity and Hausdorffness issues of a manifold quotient [Cannas da Silva, Chapters 23–24].
 
 ## References
 

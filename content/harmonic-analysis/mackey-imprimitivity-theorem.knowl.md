@@ -39,7 +39,7 @@ decomposition over the base isolates a fiber over the identity coset, and the
 stabilizer \(H\) acts unitarily on that fiber. Re-inducing this \(H\)-action
 reconstructs the original pair, including both the representation and its
 projection-valued measure
-[Mackey, pp. 537–545](https://doi.org/10.1073/pnas.35.9.537).
+[Mackey, pp. 537–545].
 
 ## Why the projection data matters
 

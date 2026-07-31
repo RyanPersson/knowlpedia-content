@@ -27,7 +27,7 @@ d(g\mathbin{\cdot})_p\bigl(\xi_M(p)\bigr)=(\operatorname{Ad}_g\xi)_M(g\mathbin{\
 
 ## Left and right action conventions
 
-For a right action, the same unsigned formula \(p\mathbin{\cdot}\exp(t\xi)\) produces a [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]]. For a left action, replacing \(\exp(t\xi)\) by \(\exp(-t\xi)\) also produces a homomorphism. Both conventions occur in geometry, so bracket signs in moment-map and equivariance formulas depend on the chosen definition; see [Marsden and Ratiu, §9.1](https://doi.org/10.1007/978-0-387-21792-5).
+For a right action, the same unsigned formula \(p\mathbin{\cdot}\exp(t\xi)\) produces a [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]]. For a left action, replacing \(\exp(t\xi)\) by \(\exp(-t\xi)\) also produces a homomorphism. Both conventions occur in geometry, so bracket signs in moment-map and equivariance formulas depend on the chosen definition; see [Marsden and Ratiu, §9.1].
 
 ## Examples
 

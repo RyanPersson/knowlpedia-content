@@ -33,7 +33,7 @@ from faithful spatial representations of the factors. The
 supremum over all compatible representations and has a universal property.
 Thus a \(C^*\)-tensor norm amounts to a completion intermediate between the
 spatial and universal completions
-[Takesaki, Chapter IV](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter IV].
 
 ## Why the algebraic tensor product is insufficient
 

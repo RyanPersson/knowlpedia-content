@@ -49,7 +49,7 @@ For a normed space \(E\), the [[functional-analysis/banach-alaoglu-theorem|Banac
 ball of \(E'\) is compact in \(\sigma(E',E)\). This conclusion is weak-star
 compactness, not generally norm compactness or weak compactness. The topology
 is therefore central to state spaces and dual Banach spaces
-[Conway, Chapter V](https://doi.org/10.1007/978-1-4757-4383-8).
+[Conway, Chapter V].
 
 ## References
 

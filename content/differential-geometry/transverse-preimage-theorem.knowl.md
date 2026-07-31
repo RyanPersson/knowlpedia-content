@@ -20,7 +20,7 @@ Thus the inverse image has the codimension predicted by the normal directions to
 
 ## Proof idea
 
-Choose local coordinates on \(N\) in which \(S\) is the zero set of a submersion \(h\) to \(\mathbb R^k\), where \(k=\operatorname{codim}_N S\). Transversality says that \(d(h\circ f)_x\) is surjective along \(f^{-1}(S)\). The regular-level-set theorem applied to \(h\circ f\) gives the claimed smooth structure, codimension, and tangent-space kernel. See [Hirsch, Chapter 3](https://doi.org/10.1007/978-1-4684-9449-5).
+Choose local coordinates on \(N\) in which \(S\) is the zero set of a submersion \(h\) to \(\mathbb R^k\), where \(k=\operatorname{codim}_N S\). Transversality says that \(d(h\circ f)_x\) is surjective along \(f^{-1}(S)\). The regular-level-set theorem applied to \(h\circ f\) gives the claimed smooth structure, codimension, and tangent-space kernel. See [Hirsch, Chapter 3].
 
 ## Special cases and examples
 

@@ -28,7 +28,7 @@ norm one, and \(1-p\) is a projection when \(A\) is unital. In a concrete
 operator algebra, self-adjointness distinguishes [[linear-algebra/orthogonal-projection|orthogonal projections]] from
 general idempotent operators, whose range and kernel need not be orthogonal.
 These facts follow directly from the [[operator-algebras/continuous-functional-calculus|continuous functional calculus]]
-[Murphy, §2.2](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, §2.2].
 
 ## Equivalence and stabilization
 

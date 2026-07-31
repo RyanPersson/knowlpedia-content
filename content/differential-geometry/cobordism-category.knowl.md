@@ -20,11 +20,11 @@ The oriented cobordism category uses oriented objects and [[differential-geometr
 
 ## Topological enrichment
 
-The category used in homotopy theory often retains spaces of embedded manifolds and cobordisms rather than collapsing morphisms to diffeomorphism classes. Galatius–Madsen–Tillmann–Weiss define such a topological category and identify the weak homotopy type of its classifying space with an infinite loop space associated to a Thom spectrum [GMTW, §2 and Main Theorem](https://doi.org/10.1007/s11511-009-0036-9). This enriched category and the ordinary quotient category encode related but different information.
+The category used in homotopy theory often retains spaces of embedded manifolds and cobordisms rather than collapsing morphisms to diffeomorphism classes. Galatius–Madsen–Tillmann–Weiss define such a topological category and identify the weak homotopy type of its classifying space with an infinite loop space associated to a Thom spectrum [GMTW, §2 and Main Theorem]. This enriched category and the ordinary quotient category encode related but different information.
 
 ## Relation to field theory
 
-A \(d\)-dimensional topological quantum field theory in the Atiyah–Segal sense is a symmetric monoidal functor from an appropriately structured cobordism category to a category such as [[linear-algebra/vector-space|vector spaces]]. Gluing cobordisms becomes composition of [[linear-algebra/linear-map|linear maps]], while disjoint union becomes tensor product. The categorical formulation makes locality under cutting and gluing an algebraic axiom [Baez–Dolan, §1](https://doi.org/10.1090/conm/230/03340).
+A \(d\)-dimensional topological quantum field theory in the Atiyah–Segal sense is a symmetric monoidal functor from an appropriately structured cobordism category to a category such as [[linear-algebra/vector-space|vector spaces]]. Gluing cobordisms becomes composition of [[linear-algebra/linear-map|linear maps]], while disjoint union becomes tensor product. The categorical formulation makes locality under cutting and gluing an algebraic axiom [Baez–Dolan, §1].
 
 ## References
 

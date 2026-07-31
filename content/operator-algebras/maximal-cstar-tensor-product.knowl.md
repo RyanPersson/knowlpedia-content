@@ -35,7 +35,7 @@ satisfying
 Conversely, representations of \(A\otimes_{\max}B\) yield commuting
 representations of the factors. This is the precise sense in which the
 maximal tensor product is universal
-[Takesaki, Chapter IV](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter IV].
 
 ## Comparison with the minimal product
 

@@ -20,7 +20,7 @@ Every hypercomplex manifold has a unique torsion-free [[fiber-bundles/connection
 \[
 \nabla^{\mathrm{Ob}}I=\nabla^{\mathrm{Ob}}J=\nabla^{\mathrm{Ob}}K=0.
 \]
-This is the **[[differential-geometry/obata-connection|Obata connection]]**. Its existence and uniqueness convert the three integrability conditions into a useful differential-geometric structure: parallel transport is quaternionic-linear, and the holonomy lies in \(GL(n,\mathbb H)\). This characterization is developed in [Joyce, §6.2](https://doi.org/10.1093/oso/9780198506010.001.0001).
+This is the **[[differential-geometry/obata-connection|Obata connection]]**. Its existence and uniqueness convert the three integrability conditions into a useful differential-geometric structure: parallel transport is quaternionic-linear, and the holonomy lies in \(GL(n,\mathbb H)\). This characterization is developed in [Joyce, §6.2].
 
 ## Relationship to quaternionic geometry
 

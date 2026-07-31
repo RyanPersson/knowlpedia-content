@@ -35,7 +35,7 @@ Through the holonomy correspondence, the same cohomology is group cohomology wit
 \[
 H_A^1\cong H^1\!\left(\pi_1(M);\mathfrak g_{\operatorname{Ad}\rho_A}\right)
 \]
-under the standard comparison hypotheses. It is therefore also the infinitesimal deformation space of the [[fiber-bundles/holonomy-representation|holonomy representation]] \(\rho_A:\pi_1(M)\to G\) modulo infinitesimal conjugation. Goldman and Millson formulate the local germ using the controlling differential graded [[lie-groups/lie-algebra|Lie algebra]] [Goldman–Millson, §§1–3](https://doi.org/10.1007/BF02699127).
+under the standard comparison hypotheses. It is therefore also the infinitesimal deformation space of the [[fiber-bundles/holonomy-representation|holonomy representation]] \(\rho_A:\pi_1(M)\to G\) modulo infinitesimal conjugation. Goldman and Millson formulate the local germ using the controlling differential graded [[lie-groups/lie-algebra|Lie algebra]] [Goldman–Millson, §§1–3].
 
 ## Smooth and singular points
 

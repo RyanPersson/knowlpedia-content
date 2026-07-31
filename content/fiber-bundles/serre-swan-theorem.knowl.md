@@ -46,7 +46,7 @@ finite-rank free \(C^\infty(M,\mathbb F)\)-module
 \(C^\infty(M,\mathbb F)^N\), hence as a finitely generated
 [[algebra-modules/projective-module|projective module]].
 
-Conversely, a finitely generated projective module is represented by an idempotent matrix \(p\in M_N(C^\infty(M))\). Evaluating \(p\) pointwise gives a smoothly varying family of projections, whose images form a [[fiber-bundles/vector-subbundle|vector subbundle]] of \(M\times\mathbb F^N\). This [[fiber-bundles/projective-module-bundle-reconstruction|idempotent reconstruction]] is inverse to taking sections up to [[algebra-category-theory/natural-isomorphism|natural isomorphism]] [Swan, §§1–3](https://doi.org/10.1090/S0002-9947-1962-0143225-6).
+Conversely, a finitely generated projective module is represented by an idempotent matrix \(p\in M_N(C^\infty(M))\). Evaluating \(p\) pointwise gives a smoothly varying family of projections, whose images form a [[fiber-bundles/vector-subbundle|vector subbundle]] of \(M\times\mathbb F^N\). This [[fiber-bundles/projective-module-bundle-reconstruction|idempotent reconstruction]] is inverse to taking sections up to [[algebra-category-theory/natural-isomorphism|natural isomorphism]] [Swan, §§1–3].
 
 ## Categorical content
 

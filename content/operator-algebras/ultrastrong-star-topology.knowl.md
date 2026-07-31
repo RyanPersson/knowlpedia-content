@@ -34,7 +34,7 @@ where \((\xi_n)\) ranges over square-summable sequences in \(H\). The two sums
 separately measure ultrastrong convergence of \(T\) and \(T^*\). A faithful
 [[operator-algebras/normal-representation|normal representation]] gives the
 same intrinsic topology
-[Takesaki, Chapter III, §2](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter III, §2].
 
 ## Comparison with neighboring topologies
 

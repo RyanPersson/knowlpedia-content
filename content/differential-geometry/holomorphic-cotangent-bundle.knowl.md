@@ -28,7 +28,7 @@ is the canonical [[differential-geometry/holomorphic-line-bundle|holomorphic lin
 
 ## Conventions and comparison
 
-The notation \(\Omega_X^1\) may mean either the holomorphic vector bundle or its [[algebraic-geometry-foundations/sheaf|sheaf]] of holomorphic sections; context distinguishes them. The holomorphic cotangent bundle is not the full [[linear-algebra/complexification|complexification]] of the real [[fiber-bundles/cotangent-bundle|cotangent bundle]], which splits into \((1,0)\) and \((0,1)\) summands. It is the holomorphic refinement of the corresponding [[fiber-bundles/dual-vector-bundle|dual vector bundle]] [Huybrechts, §2.2](https://doi.org/10.1007/b137952).
+The notation \(\Omega_X^1\) may mean either the holomorphic vector bundle or its [[algebraic-geometry-foundations/sheaf|sheaf]] of holomorphic sections; context distinguishes them. The holomorphic cotangent bundle is not the full [[linear-algebra/complexification|complexification]] of the real [[fiber-bundles/cotangent-bundle|cotangent bundle]], which splits into \((1,0)\) and \((0,1)\) summands. It is the holomorphic refinement of the corresponding [[fiber-bundles/dual-vector-bundle|dual vector bundle]] [Huybrechts, §2.2].
 
 ## References
 

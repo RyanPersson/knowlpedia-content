@@ -38,7 +38,7 @@ first representation theorem then produces \(A_F\), characterized by
 \]
 for \(x\in\mathcal D(A_F)\) and every \(y\) in the form domain. Different
 admissible values of \(c\) give equivalent form norms and the same extension
-[Kato, Chapter VI, §2](https://doi.org/10.1007/978-3-642-66282-9).
+[Kato, Chapter VI, §2].
 
 ## Canonical but not generally unique
 

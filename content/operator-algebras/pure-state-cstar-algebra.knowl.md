@@ -29,7 +29,7 @@ connects extreme points of \(S(A)\) with
 [[operator-algebras/irreducible-cstar-representation|irreducible
 representations]] of \(A\). The equivalence is a theorem, not an alternative
 convention for the definition
-[Murphy, §3.3](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, §3.3].
 
 ## Standard examples
 

@@ -20,7 +20,7 @@ A [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representati
 
 ## When the quotient is an isomorphism
 
-The map \(q_G\) is an isomorphism exactly when \(G\) is [[harmonic-analysis/amenable-locally-compact-group|amenable]]. Without that hypothesis, its kernel can be nonzero; consequently, the notation “the group \(C^*\)-algebra” should not be used to identify the full and reduced completions. For example, nonabelian [[algebra-groups/free-group|free groups]] give standard cases in which the quotient is not injective [Brown–Ozawa, Chapter 2](https://doi.org/10.1090/gsm/088).
+The map \(q_G\) is an isomorphism exactly when \(G\) is [[harmonic-analysis/amenable-locally-compact-group|amenable]]. Without that hypothesis, its kernel can be nonzero; consequently, the notation “the group \(C^*\)-algebra” should not be used to identify the full and reduced completions. For example, nonabelian [[algebra-groups/free-group|free groups]] give standard cases in which the quotient is not injective [Brown–Ozawa, Chapter 2].
 
 ## References
 

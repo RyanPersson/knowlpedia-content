@@ -21,7 +21,7 @@ For a complex spin representation \(\Delta_n\), the spin connection induces a [[
 \nabla^S_X(Y\mathbin{\cdot}\psi)
 =(\nabla_XY)\mathbin{\cdot}\psi+Y\mathbin{\cdot}\nabla^S_X\psi.
 \]
-This compatibility is the bridge from Riemannian parallel transport to the [[noncommutative-geometry/dirac-operator|Dirac operator]]; see [Lawson–Michelsohn, Chapter II, §§4–5](https://doi.org/10.1515/9781400883912).
+This compatibility is the bridge from Riemannian parallel transport to the [[noncommutative-geometry/dirac-operator|Dirac operator]]; see [Lawson–Michelsohn, Chapter II, §§4–5].
 
 ## Curvature and local form
 
@@ -29,7 +29,7 @@ The curvature of \(\widetilde\omega\) maps under \(d\lambda\) to the pullback of
 \[
 \nabla^S=d+\frac14\sum_{i,j}\omega_{ij}\,e_i\mathbin{\cdot}e_j.
 \]
-The factor depends on summation conventions, but the invariant lifting equation in the core does not [Friedrich, Chapters 2–3](https://doi.org/10.1090/gsm/025).
+The factor depends on summation conventions, but the invariant lifting equation in the core does not [Friedrich, Chapters 2–3].
 
 ## Examples and conventions
 

@@ -34,7 +34,7 @@ under the usual group hypotheses, to a
 subgroup]] \(K\). The space \(\mathfrak p\) models the [[differential-geometry/tangent-space|tangent space]] at the
 base point of the [[lie-groups/homogeneous-space|homogeneous space]] \(G/K\). The bracket inclusions are the
 infinitesimal algebraic signature of its symmetric-space geometry
-[Helgason, Chapter V](https://doi.org/10.1090/gsm/034).
+[Helgason, Chapter V].
 
 ## Example
 

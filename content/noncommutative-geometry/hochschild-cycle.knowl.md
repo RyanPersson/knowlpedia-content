@@ -44,7 +44,7 @@ a_0\otimes\cdots\otimes a_n
 is required to recover the grading in the even case, or the identity in the
 odd case, subject to the selected convention. This is extra geometric data,
 not a property of every Hochschild cycle
-[Connes, chapter VI](https://www.alainconnes.org/docs/book94bigpdf.pdf).
+[Connes, chapter VI].
 
 ## Conventions and scope
 

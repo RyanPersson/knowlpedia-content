@@ -27,7 +27,7 @@ depend on choices.
 
 Every [[operator-algebras/type-i-cstar-algebra|type I \(C^*\)-algebra]]
 admits such an ascending series
-[Dixmier, §10.5](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/15/suppl/C).
+[Dixmier, §10.5].
 The construction repeatedly passes to a quotient and selects a nonzero
 continuous-trace ideal, then takes closures at limit stages. The process ends
 because a strictly increasing chain of closed ideals cannot contain more

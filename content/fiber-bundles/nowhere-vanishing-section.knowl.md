@@ -28,7 +28,7 @@ Conversely, a trivial line subbundle of \(E\) supplies a nowhere-vanishing secti
 
 ## Obstructions
 
-For an oriented real rank-\(n\) vector bundle, the [[fiber-bundles/euler-class|Euler class]] is the primary obstruction to a nowhere-vanishing section. A nowhere-vanishing section forces the Euler class to vanish. The converse requires additional hypotheses and is not true as an unrestricted statement: higher obstruction classes can remain when the base has dimension greater than the rank [Milnor–Stasheff, §12](https://doi.org/10.1515/9781400881826).
+For an oriented real rank-\(n\) vector bundle, the [[fiber-bundles/euler-class|Euler class]] is the primary obstruction to a nowhere-vanishing section. A nowhere-vanishing section forces the Euler class to vanish. The converse requires additional hypotheses and is not true as an unrestricted statement: higher obstruction classes can remain when the base has dimension greater than the rank [Milnor–Stasheff, §12].
 
 ## Examples and non-examples
 

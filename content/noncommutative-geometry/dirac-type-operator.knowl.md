@@ -24,7 +24,7 @@ If \(\nabla^E\) is a metric Clifford connection, then
 \[
 D_{\nabla^E}=c\circ\nabla^E=\sum_j c(e^j)\nabla^E_{e_j}
 \]
-is Dirac type. Adding any smooth bundle endomorphism preserves its principal symbol, so every \(D_{\nabla^E}+\Phi\) is also Dirac type. Conversely, a Dirac-type operator determines a compatible connection plus a zero-order endomorphism after the metric data are fixed; see [Berline, Getzler, and Vergne, chapter 3](https://doi.org/10.1007/978-3-642-58088-8).
+is Dirac type. Adding any smooth bundle endomorphism preserves its principal symbol, so every \(D_{\nabla^E}+\Phi\) is also Dirac type. Conversely, a Dirac-type operator determines a compatible connection plus a zero-order endomorphism after the metric data are fixed; see [Berline, Getzler, and Vergne, chapter 3].
 
 ## Examples and consequences
 

@@ -33,7 +33,7 @@ Under the Plancherel transform, the
 representation in its
 [[functional-analysis/direct-integral-hilbert-spaces|direct-integral decomposition]]. The type I hypothesis supplies the standard measurable
 irreducible decomposition and its essential uniqueness
-[Folland, Chapter 7, “The Plancherel Theorem”](https://doi.org/10.1201/B19172).
+[Folland, Chapter 7, “The Plancherel Theorem”].
 
 ## Examples and support
 
@@ -52,7 +52,7 @@ Rescaling \(dg\) rescales the representative Plancherel measure, although its
 group, the displayed Hilbert–Schmidt formula must be modified by a measurable
 field of positive, generally unbounded Duflo–Moore operators; the bare
 formula in the core is therefore not valid unchanged
-[Duflo--Moore, abstract and main construction](https://doi.org/10.1016/0022-1236%2876%2990079-3).
+[Duflo--Moore, abstract and main construction].
 
 ## References
 

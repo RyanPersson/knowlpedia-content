@@ -27,7 +27,7 @@ The bracket is real-bilinear and antisymmetric, satisfies the Jacobi identity, a
 \[
 \{f,gh\}=\{f,g\}h+g\{f,h\}.
 \]
-Therefore \(C^\infty(M)\), with pointwise multiplication and this bracket, is a Poisson algebra. These facts are stated in [Cannas da Silva, Lecture 18.3, Definition 18.5 and Theorem 18.6](https://doi.org/10.1007/978-3-540-45330-7).
+Therefore \(C^\infty(M)\), with pointwise multiplication and this bracket, is a Poisson algebra. These facts are stated in [Cannas da Silva, Lecture 18.3, Definition 18.5 and Theorem 18.6].
 
 ## Vector fields and dynamics
 
@@ -39,7 +39,7 @@ If \(H\) generates a Hamiltonian trajectory \(\gamma\), then
 \[
 \frac{d}{dt}f(\gamma(t))=\{f,H\}.
 \]
-Thus \(\{f,H\}=0\) precisely when \(f\) is constant along the [[differential-geometry/hamiltonian-flow|Hamiltonian flow]]; this is [Cannas da Silva, Theorem 18.9](https://doi.org/10.1007/978-3-540-45330-7).
+Thus \(\{f,H\}=0\) precisely when \(f\) is constant along the [[differential-geometry/hamiltonian-flow|Hamiltonian flow]]; this is [Cannas da Silva, Theorem 18.9].
 
 ## Conventions
 

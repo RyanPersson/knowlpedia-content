@@ -38,7 +38,7 @@ uses [[operator-algebras/regular-covariant-representation|regular covariant
 representations]]. This distinction is essential when the action is not
 amenable; there is always a canonical quotient from the full algebra to the
 reduced one
-[Williams, Chapters 2–3](https://doi.org/10.1090/surv/134).
+[Williams, Chapters 2–3].
 
 ## Standard examples
 

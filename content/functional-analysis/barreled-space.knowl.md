@@ -12,7 +12,7 @@ Let \(E\) be a Hausdorff [[functional-analysis/locally-convex-space|locally conv
 
 ## Equivalent characterizations
 
-A Hausdorff locally convex space \(E\) is barreled exactly when every lower-semicontinuous [[convex-analysis/seminorm|seminorm]] on \(E\) is continuous. It is also equivalent to the following uniform-boundedness formulation: every pointwise bounded subset of the [[functional-analysis/topological-dual|topological dual]] \(E'\) is [[functional-analysis/equicontinuous-family-linear-maps|equicontinuous]]. These equivalences explain why barrels, rather than arbitrary absorbing sets, occur in the definition [Schaefer–Wolff, Chapter III, §4](https://doi.org/10.1007/978-1-4612-1468-7).
+A Hausdorff locally convex space \(E\) is barreled exactly when every lower-semicontinuous [[convex-analysis/seminorm|seminorm]] on \(E\) is continuous. It is also equivalent to the following uniform-boundedness formulation: every pointwise bounded subset of the [[functional-analysis/topological-dual|topological dual]] \(E'\) is [[functional-analysis/equicontinuous-family-linear-maps|equicontinuous]]. These equivalences explain why barrels, rather than arbitrary absorbing sets, occur in the definition [Schaefer–Wolff, Chapter III, §4].
 
 ## Uniform boundedness and examples
 

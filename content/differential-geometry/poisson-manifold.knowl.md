@@ -23,7 +23,7 @@ For \(f\in C^\infty(M)\), the derivation \(g\mapsto\{f,g\}\) is represented by a
 \[
 \beta(\pi^\sharp\alpha)=\pi(\alpha,\beta)
 \]
-has image tangent to a canonical, generally singular foliation. Each leaf carries a symplectic form, and its dimension is the even [[linear-algebra/rank|rank]] of \(\pi\). The construction and its integrability are developed in [Vaisman, Chapters 1–2](https://doi.org/10.1007/978-3-0348-8495-2).
+has image tangent to a canonical, generally singular foliation. Each leaf carries a symplectic form, and its dimension is the even [[linear-algebra/rank|rank]] of \(\pi\). The construction and its integrability are developed in [Vaisman, Chapters 1–2].
 
 ## Relationship to symplectic and Lie theory
 
@@ -31,7 +31,7 @@ Every [[differential-geometry/symplectic-manifold|symplectic manifold]] determin
 
 ## Conventions and scope
 
-**Warning.** Sign conventions differ. Here \(X_f(g)=\{f,g\}\) and \(\beta(\pi^\sharp\alpha)=\pi(\alpha,\beta)\). Authors who define Hamiltonian vector fields or the inverse of a symplectic form with the opposite sign obtain the opposite displayed Poisson bracket. “Poisson space” may also denote a singular or algebraic object; this knowl defines only the smooth-manifold notion. The equivalent bracket and bivector formulations, including the Schouten-bracket criterion, follow [Laurent-Gengoux, Pichereau, and Vanhaecke, Chapter 1](https://doi.org/10.1007/978-3-642-31090-4).
+**Warning.** Sign conventions differ. Here \(X_f(g)=\{f,g\}\) and \(\beta(\pi^\sharp\alpha)=\pi(\alpha,\beta)\). Authors who define Hamiltonian vector fields or the inverse of a symplectic form with the opposite sign obtain the opposite displayed Poisson bracket. “Poisson space” may also denote a singular or algebraic object; this knowl defines only the smooth-manifold notion. The equivalent bracket and bivector formulations, including the Schouten-bracket criterion, follow [Laurent-Gengoux, Pichereau, and Vanhaecke, Chapter 1].
 
 ## References
 

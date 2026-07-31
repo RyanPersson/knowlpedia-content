@@ -46,7 +46,7 @@ the action, equivalently amenability of the transformation groupoid
 approximately equivariant, positive-type functions with coefficients in the
 center of \(A^{**}\). These formulations explain why an action of a
 nonamenable group may still be amenable
-[Anantharaman-Delaroche–Renault, Chapter 3](https://www.unige.ch/math/EnsMath/en/monographies/monographie-no-36).
+[Anantharaman-Delaroche–Renault, Chapter 3].
 
 ## Conventions and scope
 

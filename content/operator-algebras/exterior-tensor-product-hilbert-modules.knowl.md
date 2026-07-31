@@ -34,7 +34,7 @@ and the quotient norm is
 \]
 Completing produces a Hilbert \(A\otimes_{\min}B\)-module independent of
 concrete faithful representations used to realize the minimal tensor norm
-[Lance, Chapter 4](https://doi.org/10.1017/CBO9780511526206).
+[Lance, Chapter 4].
 
 ## Standard examples
 

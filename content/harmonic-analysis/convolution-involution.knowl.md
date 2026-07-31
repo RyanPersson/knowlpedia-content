@@ -33,7 +33,7 @@ satisfy
 \(\pi(f^*)=\pi(f)^*\), where
 \(\pi(f)=\int_G f(x)\pi(x)\,d\mu(x)\). This convention and its compatibility
 with [[harmonic-analysis/integrated-form-unitary-representation|integrated representations]] are developed in
-[Folland, §§2.4 and 3.1](https://doi.org/10.1201/B19172).
+[Folland, §§2.4 and 3.1].
 
 ## The unimodular case
 

@@ -34,7 +34,7 @@ The weak topology is Hausdorff exactly when \(E'\) [[real-analysis/separates-poi
 This separation holds for Hausdorff
 [[functional-analysis/locally-convex-space|locally convex spaces]], but can fail for
 general topological vector spaces whose continuous dual is too small
-[Schaefer–Wolff, Chapter IV](https://doi.org/10.1007/978-1-4612-1468-7).
+[Schaefer–Wolff, Chapter IV].
 
 ## Weak versus original convergence
 

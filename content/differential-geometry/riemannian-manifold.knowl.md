@@ -20,7 +20,7 @@ Taking the infimum of curve lengths gives the Riemannian distance on each [[topo
 
 ## Canonical connection and curvature
 
-Every Riemannian metric has a unique torsion-free, metric-compatible connection, the [[fiber-bundles/levicivita-connection-connection|Levi–Civita connection]]. It determines geodesics, parallel transport, and [[fiber-bundles/curvature|curvature]]. These structures depend on derivatives of \(g\), whereas lengths and angles are pointwise data. Their construction and uniqueness are treated in [Lee, Chapters 2–5](https://doi.org/10.1007/978-3-319-91755-9).
+Every Riemannian metric has a unique torsion-free, metric-compatible connection, the [[fiber-bundles/levicivita-connection-connection|Levi–Civita connection]]. It determines geodesics, parallel transport, and [[fiber-bundles/curvature|curvature]]. These structures depend on derivatives of \(g\), whereas lengths and angles are pointwise data. Their construction and uniqueness are treated in [Lee, Chapters 2–5].
 
 ## Examples and scope
 

@@ -31,7 +31,7 @@ the commutant, every spectral projection also commutes with \(\pi(G)\).
 Irreducibility forces all these projections to be \(0\) or \(I\), hence the
 operator is scalar. Applying this to the real and imaginary parts of an
 arbitrary commutant element proves the theorem
-[Folland, Theorem 3.5](https://doi.org/10.1201/B19172).
+[Folland, Theorem 3.5].
 
 ## Intertwiners between irreducibles
 

@@ -34,7 +34,7 @@ The product on the right is the [[topology/cup-product-and-cohomology-ring|cohom
 \[
 \operatorname{CW}_{f^*P}(p)=f^*\operatorname{CW}_P(p).
 \]
-These properties are developed in [Bott–Tu, chapter 11](https://doi.org/10.1007/978-1-4757-3951-0).
+These properties are developed in [Bott–Tu, chapter 11].
 
 ## Standard examples
 

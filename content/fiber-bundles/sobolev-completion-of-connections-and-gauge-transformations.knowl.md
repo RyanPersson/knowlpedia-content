@@ -33,7 +33,7 @@ u\!\cdot\!A=uAu^{-1}-(du)u^{-1}.
 \]
 Thus a \(W^{k+1,p}\) gauge transformation acts on a \(W^{k,p}\) connection without losing the target regularity. The hypothesis \(kp>d\) supplies the Sobolev multiplication and continuity properties needed for nonlinear products and inversion. Using \(W^{k,p}\) for both factors is a near-miss: the \(du\) term generally has only \(W^{k-1,p}\) regularity.
 
-The analytic construction, including the manifold of connections and Sobolev gauge transformations, is developed in [Freed–Uhlenbeck, chapter 3 and appendix A](https://doi.org/10.1007/978-1-4613-9703-8).
+The analytic construction, including the manifold of connections and Sobolev gauge transformations, is developed in [Freed–Uhlenbeck, chapter 3 and appendix A].
 
 ## Geometry of the completion
 

@@ -21,7 +21,7 @@ Choose nonnegative functions \(f_j\in C_c^\infty(G)\) with integral \(1\) and su
 \lVert\pi(f_j)v-v\rVert
 \leq\int_G f_j(g)\lVert\pi(g)v-v\rVert\,dg\longrightarrow 0.
 \]
-Each \(\pi(f_j)v\) is smooth because derivatives can be transferred to \(f_j\). This approximate-identity argument is already present in [Gårding, pp. 331–332](https://doi.org/10.1073/pnas.33.11.331).
+Each \(\pi(f_j)v\) is smooth because derivatives can be transferred to \(f_j\). This approximate-identity argument is already present in [Gårding, pp. 331–332].
 
 ## Consequences
 

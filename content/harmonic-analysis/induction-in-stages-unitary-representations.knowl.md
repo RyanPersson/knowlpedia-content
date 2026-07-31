@@ -32,7 +32,7 @@ identifies an \(L^2\)-section over \(G/H\) with an \(L^2\)-section over
 \(G/K\) whose values are themselves \(L^2\)-sections over \(K/H\). The
 Radon–Nikodym and [[harmonic-analysis/modular-function|modular]] factors
 combine exactly to give the direct-induction normalization
-[Folland, Chapter 6, “Pseudomeasures and Induction in Stages”](https://doi.org/10.1201/B19172).
+[Folland, Chapter 6, “Pseudomeasures and Induction in Stages”].
 
 ## Consequences
 

@@ -36,7 +36,7 @@ The group \(G\) is [[harmonic-analysis/unimodular-group|unimodular]] exactly whe
 
 The modular factor is required in the [[harmonic-analysis/convolution-involution|involution on a group convolution algebra]] and in unitary formulas involving right translation. It also enters [[algebra-representation-theory/induced-representation|induced representations]] and [[lie-groups/normalized-parabolic-induction|normalized parabolic induction]]. Ignoring it silently imports the unimodular case into formulas that are otherwise false.
 
-This convention and its consequences for integration and convolution are treated in [Folland, §2.4](https://www.routledge.com/A-Course-in-Abstract-Harmonic-Analysis/Folland/p/book/9781032922218).
+This convention and its consequences for integration and convolution are treated in [Folland, §2.4].
 
 ## References
 

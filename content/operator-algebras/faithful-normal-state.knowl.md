@@ -30,7 +30,7 @@ of \(\varphi\), the [[operator-algebras/cyclic-vector|cyclic vector]] is
 [[operator-algebras/separating-vector|separating]] for the represented von
 Neumann algebra. These
 characterizations connect positivity, support, and representation theory
-[Takesaki, discussion of faithful normal states](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, discussion of faithful normal states].
 
 ## Existence and examples
 

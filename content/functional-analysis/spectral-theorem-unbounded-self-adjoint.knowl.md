@@ -52,7 +52,7 @@ set disjoint from the spectrum has zero spectral projection. Conversely, if
 an open set \(U\) satisfies \(E_A(U)=0\), then \(U\) is disjoint from the
 spectrum. These relations connect the measure-theoretic and resolvent forms of
 spectral theory
-[Schmüdgen, Chapter 5](https://doi.org/10.1007/978-94-007-4753-1).
+[Schmüdgen, Chapter 5].
 
 ## Self-adjointness convention
 

@@ -32,7 +32,7 @@ positive. The
 [[operator-algebras/continuous-functional-calculus|continuous functional calculus]]
 also makes increasing
 operator-monotone functions order preserving on their domains
-[Pedersen, treatment of positivity and order](https://doi.org/10.1016/C2016-0-03431-9).
+[Pedersen, treatment of positivity and order].
 
 ## Examples and incomparability
 

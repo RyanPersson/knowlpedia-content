@@ -34,7 +34,7 @@ when \(n_+(A)=n_-(A)=0\). It has a
 same Hilbert space exactly when \(n_+(A)=n_-(A)\); when these common dimensions
 are nonzero, unitary maps from \(\mathcal N_+\) to \(\mathcal N_-\) parametrize
 the extensions. This is von Neumann’s extension theorem
-[Schmüdgen, Chapter 13](https://doi.org/10.1007/978-94-007-4753-1).
+[Schmüdgen, Chapter 13].
 
 ## Closure and geometric meaning
 

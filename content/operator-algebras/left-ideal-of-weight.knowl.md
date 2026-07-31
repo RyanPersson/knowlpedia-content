@@ -36,7 +36,7 @@ domain
 The weight has a linear extension to this \(*\)-algebra. The
 [[linear-algebra/cauchy-schwarz-inequality|Cauchy–Schwarz inequality]] for weights ensures that
 \(\varphi(y^*x)\) is finite on such products
-[Takesaki, Chapter VII, §1](https://doi.org/10.1007/978-3-662-10451-4).
+[Takesaki, Chapter VII, §1].
 
 ## Examples and non-examples
 

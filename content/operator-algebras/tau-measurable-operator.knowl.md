@@ -33,7 +33,7 @@ The operator \(T\) is \(\tau\)-measurable exactly when
 \(E^{|T|}([0,s])\) provide bounded restrictions of \(T\), while their
 complements have trace \(d_T(s)\). This criterion is the operator-algebraic
 analogue of a [[measure-theory/measurable-function|measurable function]] being finite [[measure-theory/almost-everywhere|almost everywhere]]
-[Nelson, pp. 103–106](https://doi.org/10.1016/0022-1236%2874%2990014-7).
+[Nelson, pp. 103–106].
 
 ## Measure topology and algebra
 
@@ -48,7 +48,7 @@ projection \(e\in M\) with
 \]
 This algebra is complete for the measure topology. Generalized singular
 numbers turn [[measure-theory/convergence-in-measure|convergence in measure]] into scalar estimates
-[Fack–Kosaki, §§1–3](https://doi.org/10.2140/pjm.1986.123.269).
+[Fack–Kosaki, §§1–3].
 
 ## Examples and distinctions
 

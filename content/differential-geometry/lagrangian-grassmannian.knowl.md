@@ -23,7 +23,7 @@ Fix complementary Lagrangian subspaces \(V=L\oplus L'\). Every Lagrangian plane 
 
 ## Topology and the Maslov class
 
-The homogeneous-space description shows that \(\Lambda(V)\) is compact and connected. Its [[topology/fundamental-group|fundamental group]] is infinite cyclic. A preferred generator of \(H^1(\Lambda(V);\mathbb Z)\) is the [[differential-geometry/maslov-class-lagrangian-grassmannian|universal Maslov class]]; pulling it back along a loop or a [[differential-geometry/lagrangian-gauss-map|Lagrangian Gauss map]] produces the corresponding Maslov invariant. Arnol'd relates this class to the cycle of planes meeting a fixed Lagrangian nontrivially [Arnol'd, 1967](https://doi.org/10.1007/BF01079201).
+The homogeneous-space description shows that \(\Lambda(V)\) is compact and connected. Its [[topology/fundamental-group|fundamental group]] is infinite cyclic. A preferred generator of \(H^1(\Lambda(V);\mathbb Z)\) is the [[differential-geometry/maslov-class-lagrangian-grassmannian|universal Maslov class]]; pulling it back along a loop or a [[differential-geometry/lagrangian-gauss-map|Lagrangian Gauss map]] produces the corresponding Maslov invariant. Arnol'd relates this class to the cycle of planes meeting a fixed Lagrangian nontrivially [Arnol'd, 1967].
 
 ## Examples
 

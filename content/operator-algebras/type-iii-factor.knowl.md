@@ -39,7 +39,7 @@ would produce nonzero finite projections.
 hypotheses. Their [[operator-algebras/modular-automorphism-group|modular automorphism groups]] carry structure that cannot
 generally be removed by choosing a trace. The resulting modular invariants
 underlie Connes's finer classification; see
-[Takesaki, Chapter XII](https://doi.org/10.1007/978-3-662-10453-8).
+[Takesaki, Chapter XII].
 
 ## Examples and scope
 

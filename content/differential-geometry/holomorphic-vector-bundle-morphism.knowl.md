@@ -24,7 +24,7 @@ Holomorphic vector bundles and their morphisms form a category under composition
 
 ## Rank and subbundles
 
-If a morphism over \(X\) has locally constant rank, its kernel and image are holomorphic [[fiber-bundles/vector-subbundle|vector subbundles]], and its cokernel is a holomorphic vector bundle. Without constant rank, these objects generally belong to the category of coherent analytic sheaves rather than locally free bundles; fiberwise kernels alone do not guarantee local triviality [Huybrechts, §2.2](https://doi.org/10.1007/b137952).
+If a morphism over \(X\) has locally constant rank, its kernel and image are holomorphic [[fiber-bundles/vector-subbundle|vector subbundles]], and its cokernel is a holomorphic vector bundle. Without constant rank, these objects generally belong to the category of coherent analytic sheaves rather than locally free bundles; fiberwise kernels alone do not guarantee local triviality [Huybrechts, §2.2].
 
 ## References
 

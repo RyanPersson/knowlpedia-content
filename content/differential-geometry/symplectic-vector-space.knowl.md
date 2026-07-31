@@ -21,7 +21,7 @@ Every symplectic vector space has even dimension \(2n\) and admits a basis \(e_1
 \[
 \omega(e_i,e_j)=\omega(f_i,f_j)=0,\qquad \omega(e_i,f_j)=\delta_{ij}.
 \]
-Consequently, all real symplectic vector spaces of a fixed finite dimension are symplectically isomorphic. This standard normal form is proved in [Cannas da Silva, §1.1](https://doi.org/10.1007/978-3-540-45330-7).
+Consequently, all real symplectic vector spaces of a fixed finite dimension are symplectically isomorphic. This standard normal form is proved in [Cannas da Silva, §1.1].
 
 ## Subspaces
 

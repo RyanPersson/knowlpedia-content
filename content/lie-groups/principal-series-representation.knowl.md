@@ -32,7 +32,7 @@ realizes every \(I(\sigma,\lambda)\) on the same space of functions
 Only the \(G\)-action depends on \(\lambda\). This fixed-space realization
 makes the analytic dependence on the parameter visible and is the standard
 compact picture of the principal series
-[Knapp, Chapter VII](https://www.math.stonybrook.edu/~aknapp/books/repthy1.html).
+[Knapp, Chapter VII].
 
 ## Spherical and unitary cases
 

@@ -21,7 +21,7 @@ Let \(E\subseteq X\times V\) be a rank-\(k\) vector subbundle of a trivial bundl
 \[
 E\cong c^*\mathcal S.
 \]
-Conversely, every pullback of \(\mathcal S\) is such a subbundle. This finite-dimensional universal property classifies subbundles equipped with an embedding into a fixed trivial bundle; see [Husemoller, chapters on Grassmannians and universal bundles](https://doi.org/10.1007/978-1-4757-2261-1).
+Conversely, every pullback of \(\mathcal S\) is such a subbundle. This finite-dimensional universal property classifies subbundles equipped with an embedding into a fixed trivial bundle; see [Husemoller, chapters on Grassmannians and universal bundles].
 
 ## Exact sequence and characteristic classes
 
@@ -30,7 +30,7 @@ The inclusion and quotient fit into the canonical [[algebra-modules/short-exact-
 0\longrightarrow\mathcal S\longrightarrow
 \operatorname{Gr}_k(V)\times V\longrightarrow\mathcal Q\longrightarrow0.
 \]
-The [[fiber-bundles/characteristic-class|characteristic classes]] of \(\mathcal S\) and \(\mathcal Q\) generate much of the cohomology used in Grassmannian and Schubert calculus. Their relation follows from the triviality of the middle bundle; see [Milnor–Stasheff, §5](https://doi.org/10.1515/9781400881826).
+The [[fiber-bundles/characteristic-class|characteristic classes]] of \(\mathcal S\) and \(\mathcal Q\) generate much of the cohomology used in Grassmannian and Schubert calculus. Their relation follows from the triviality of the middle bundle; see [Milnor–Stasheff, §5].
 
 ## Standard examples and conventions
 

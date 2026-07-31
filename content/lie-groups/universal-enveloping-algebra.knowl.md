@@ -19,7 +19,7 @@ The universal property determines \(U(\mathfrak g)\) uniquely up to a unique com
 
 ## Filtration and the PBW theorem
 
-Tensor degree induces an increasing filtration on \(U(\mathfrak g)\). The [[lie-groups/pbw-theorem|Poincaré–Birkhoff–Witt theorem]] identifies its associated graded algebra with the symmetric algebra \(S(\mathfrak g)\); in particular, the canonical map \(i:\mathfrak g\to U(\mathfrak g)\) is injective. Over an ordered basis of \(\mathfrak g\), ordered monomials form a vector-space basis of \(U(\mathfrak g)\) [Dixmier, §2.1](https://doi.org/10.1090/gsm/011).
+Tensor degree induces an increasing filtration on \(U(\mathfrak g)\). The [[lie-groups/pbw-theorem|Poincaré–Birkhoff–Witt theorem]] identifies its associated graded algebra with the symmetric algebra \(S(\mathfrak g)\); in particular, the canonical map \(i:\mathfrak g\to U(\mathfrak g)\) is injective. Over an ordered basis of \(\mathfrak g\), ordered monomials form a vector-space basis of \(U(\mathfrak g)\) [Dixmier, §2.1].
 
 ## Examples and conventions
 

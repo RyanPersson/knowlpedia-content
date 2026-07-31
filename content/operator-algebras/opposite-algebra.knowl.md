@@ -48,7 +48,7 @@ additionally requires
 commutator uses its
 [[functional-analysis/bounded-commutator|bounded extension]]. These
 conventions follow
-[Connes, §2](https://doi.org/10.1063/1.531241).
+[Connes, §2].
 
 ## Examples and cautions
 

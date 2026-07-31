@@ -45,7 +45,7 @@ where \(C\) is determined by the chosen normalizations and includes the Weyl
 group convention. Density then gives the unitary extension to all of
 \(L^2(X)^K\). The theorem is the commutative, multiplicity-one part of the
 nonabelian Plancherel decomposition
-[Helgason, Chapter IV, §7](https://doi.org/10.1090/surv/039).
+[Helgason, Chapter IV, §7].
 
 ## Interpretation
 

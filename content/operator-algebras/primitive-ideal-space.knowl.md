@@ -38,7 +38,7 @@ For a closed two-sided ideal \(I\),
 is naturally homeomorphic to \(\operatorname{Prim}(I)\). In fact, closed
 two-sided ideals of \(A\) correspond order-preservingly to open subsets of
 \(\operatorname{Prim}(A)\) through this construction
-[Dixmier, §3.1](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/15/suppl/C).
+[Dixmier, §3.1].
 
 ## Relation to irreducible representations
 
@@ -53,7 +53,7 @@ is always surjective, but it need not be injective. For
 [[operator-algebras/type-i-cstar-algebra|type I \(C^*\)-algebras]], an
 [[algebra-representation-theory/irreducible-representation|irreducible representation]] is determined up to unitary equivalence by its
 kernel, so the distinction disappears at the level of sets
-[Pedersen, chapter on type I algebras](https://doi.org/10.1016/C2016-0-03431-9).
+[Pedersen, chapter on type I algebras].
 
 ## Commutative case and separation
 

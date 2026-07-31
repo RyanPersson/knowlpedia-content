@@ -38,6 +38,5 @@ subcategory related to three-term null relations, and a tract has an
 [[algebra-hyperstructures/tract-as-an-ordered-blueprint|associated ordered
 blueprint]].
 
-## Reference
-
+## References
 Matthew Baker and Nathan Bowler, [*Matroids over partial hyperstructures*, §1](https://arxiv.org/abs/1709.09707).

@@ -23,7 +23,7 @@ Each kernel \(\ker\pi\) is a [[operator-algebras/primitive-ideal|primitive ideal
 \kappa:\widehat G\longrightarrow\operatorname{Prim}(C^*(G)),
 \qquad [\pi]\longmapsto\ker\pi,
 \]
-is a continuous surjection onto the [[operator-algebras/primitive-ideal-space|primitive ideal space]]. The displayed closure rule says precisely that the topology on \(\widehat G\) is read through the hull-kernel topology on primitive ideals. This description is equivalent to Fell's coefficient-function formulation [Fell, Theorem 2.2 and the group application](https://doi.org/10.1090/S0002-9947-1960-0146681-0).
+is a continuous surjection onto the [[operator-algebras/primitive-ideal-space|primitive ideal space]]. The displayed closure rule says precisely that the topology on \(\widehat G\) is read through the hull-kernel topology on primitive ideals. This description is equivalent to Fell's coefficient-function formulation [Fell, Theorem 2.2 and the group application].
 
 ## The type I distinction
 

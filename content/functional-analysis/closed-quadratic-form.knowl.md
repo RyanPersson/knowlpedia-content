@@ -38,7 +38,7 @@ and
 \]
 Thus form domains can be larger than operator domains while still determining
 the operator uniquely
-[Kato, Chapter VI, §2](https://doi.org/10.1007/978-3-642-66282-9).
+[Kato, Chapter VI, §2].
 
 ## Closability and completion
 

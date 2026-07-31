@@ -30,7 +30,7 @@ proof uses the [[linear-algebra/orthogonal-projection|orthogonal projection]] on
 projection belongs to \(M''\), and for a
 [[operator-algebras/von-neumann-algebra|von Neumann algebra]] the identity
 \(M''=M\) turns separation into density
-[Kadison–Ringrose, §5.5](https://doi.org/10.1090/gsm/015).
+[Kadison–Ringrose, §5.5].
 
 ## Examples and failure
 

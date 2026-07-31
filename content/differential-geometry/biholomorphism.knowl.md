@@ -24,7 +24,7 @@ Every invertible complex-affine map \(z\mapsto Az+b\) on \(\mathbb C^n\) is a bi
 
 ## Conventions and contrasts
 
-A biholomorphism is stronger than a [[fiber-bundles/diffeomorphism|diffeomorphism]] of the underlying [[fiber-bundles/smooth-manifold|smooth manifolds]] because its differential must be complex linear in holomorphic coordinates. An antiholomorphic diffeomorphism is not a biholomorphism under this convention. The standard coordinate definition and its invariance are treated in [Huybrechts, chapters “Local Theory” and “Complex Manifolds”](https://doi.org/10.1007/b137952).
+A biholomorphism is stronger than a [[fiber-bundles/diffeomorphism|diffeomorphism]] of the underlying [[fiber-bundles/smooth-manifold|smooth manifolds]] because its differential must be complex linear in holomorphic coordinates. An antiholomorphic diffeomorphism is not a biholomorphism under this convention. The standard coordinate definition and its invariance are treated in [Huybrechts, chapters “Local Theory” and “Complex Manifolds”].
 
 ## References
 

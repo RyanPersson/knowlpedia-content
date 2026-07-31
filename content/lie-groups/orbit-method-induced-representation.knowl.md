@@ -26,7 +26,7 @@ The convention \(e^{2\pi i\ell(X)}\) is also common. It amounts to rescaling the
 
 ## Independence and orbit invariance
 
-Different polarizations at the same \(\ell\) yield unitarily equivalent representations. If \(\ell'=\operatorname{Ad}^*(g)\ell\), conjugation carries a polarization at \(\ell\) to one at \(\ell'\), and the resulting [[algebra-representation-theory/induced-representation|induced representations]] are again equivalent. Conversely, for connected simply connected nilpotent \(G\), equivalence of these representations implies that \(\ell\) and \(\ell'\) lie on the same orbit [Kirillov, §§5–6](https://doi.org/10.1070/RM1962v017n04ABEH004118).
+Different polarizations at the same \(\ell\) yield unitarily equivalent representations. If \(\ell'=\operatorname{Ad}^*(g)\ell\), conjugation carries a polarization at \(\ell\) to one at \(\ell'\), and the resulting [[algebra-representation-theory/induced-representation|induced representations]] are again equivalent. Conversely, for connected simply connected nilpotent \(G\), equivalence of these representations implies that \(\ell\) and \(\ell'\) lie on the same orbit [Kirillov, §§5–6].
 
 ## Heisenberg example
 

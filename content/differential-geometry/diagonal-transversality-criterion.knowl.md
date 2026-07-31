@@ -28,7 +28,7 @@ The quotient of \(T_zP\oplus T_zP\) by this diagonal subspace is identified with
 \[
 (v,w)\longmapsto df_x(v)-dg_y(w),
 \]
-which is exactly the condition \(df_x(T_xM)+dg_y(T_yN)=T_zP\). Compare [Guillemin and Pollack, Chapter 2](https://doi.org/10.1090/chel/370).
+which is exactly the condition \(df_x(T_xM)+dg_y(T_yN)=T_zP\). Compare [Guillemin and Pollack, Chapter 2].
 
 ## Fiber-product consequence
 

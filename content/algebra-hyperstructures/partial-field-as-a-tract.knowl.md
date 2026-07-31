@@ -29,8 +29,7 @@ including relations whose intermediate binary sums leave \(G\cup\{0\}\).
 It does not retain the ambient ring \(R\) as an object; different ambient
 presentations can therefore determine the same tract.
 
-## Reference
-
+## References
 Matthew Baker and Nathan Bowler, “Matroids over partial hyperstructures,”
 *Advances in Mathematics* 343 (2019), 821–863.
 [arXiv:1709.09707](https://arxiv.org/abs/1709.09707).

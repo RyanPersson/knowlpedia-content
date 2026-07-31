@@ -20,7 +20,7 @@ The existence of such an \(X\), not a chosen algebra isomorphism, is the definin
 
 ## Equivalence relation and representations
 
-Strong Morita equivalence is reflexive, symmetric, and transitive. The conjugate bimodule reverses an equivalence, while the [[operator-algebras/internal-tensor-product-correspondences|interior tensor product]] composes two of them. [[operator-algebras/rieffel-induction|Rieffel induction]] through \(X\) gives an equivalence between the [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] categories of \(A\) and \(B\) [Rieffel, induced representations](https://doi.org/10.1016/0001-8708%2874%2990068-1).
+Strong Morita equivalence is reflexive, symmetric, and transitive. The conjugate bimodule reverses an equivalence, while the [[operator-algebras/internal-tensor-product-correspondences|interior tensor product]] composes two of them. [[operator-algebras/rieffel-induction|Rieffel induction]] through \(X\) gives an equivalence between the [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] categories of \(A\) and \(B\) [Rieffel, induced representations].
 
 Ideals, primitive spectra, and many structural properties correspond under this equivalence. In particular, type I and continuous-trace behavior are Morita invariant.
 

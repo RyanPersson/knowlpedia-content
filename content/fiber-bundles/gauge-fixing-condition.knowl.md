@@ -20,7 +20,7 @@ After completing the configuration and gauge spaces in suitable Sobolev norms, a
 \[
 d_{A_0}^{*}(A-A_0)=0.
 \]
-For compact structure group and the regularity hypotheses used in [[fiber-bundles/gauge-theory|gauge theory]], slice theorems identify a neighborhood of an orbit with [[fiber-bundles/gauge-transformation|gauge transformations]] applied to such a slice. Stabilizers must still be retained, so the local quotient can have orbifold-like or more singular behavior [Freed and Uhlenbeck, chapter 3](https://doi.org/10.1007/978-1-4613-9703-8).
+For compact structure group and the regularity hypotheses used in [[fiber-bundles/gauge-theory|gauge theory]], slice theorems identify a neighborhood of an orbit with [[fiber-bundles/gauge-transformation|gauge transformations]] applied to such a slice. Stabilizers must still be retained, so the local quotient can have orbifold-like or more singular behavior [Freed and Uhlenbeck, chapter 3].
 
 Gauge fixing is therefore an analytical device for studying equations and quotients, not an additional physical field equation. It can make an underdetermined gauge-invariant system elliptic or otherwise suitable for local analysis.
 

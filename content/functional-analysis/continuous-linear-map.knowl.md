@@ -35,7 +35,7 @@ Conversely, such estimates for a defining family of seminorms on \(F\) imply con
 
 Identity maps and composites of continuous linear maps are continuous and linear. Topological vector spaces with these maps therefore form a category. A linear bijection need not be an isomorphism in this category: its inverse must also be continuous.
 
-The zero-neighborhood criterion and the theory of spaces of continuous linear mappings are treated in [Bourbaki, Chapters I and III](https://doi.org/10.1007/978-3-642-61715-7).
+The zero-neighborhood criterion and the theory of spaces of continuous linear mappings are treated in [Bourbaki, Chapters I and III].
 
 ## References
 

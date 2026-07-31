@@ -35,7 +35,7 @@ Its norm is \(\|\tau\|=\tau(1)\). Dividing a nonzero finite normal trace by
 [[operator-algebras/tracial-state|tracial state]], but it does not repair a
 failure of faithfulness. The equivalence between the positive-cone weight and bounded
 functional formulations is standard in
-[Kadison–Ringrose, §7.2](https://bookstore.ams.org/GSM-16).
+[Kadison–Ringrose, §7.2].
 
 ## Examples and consequences
 
@@ -51,7 +51,7 @@ A [[operator-algebras/von-neumann-algebra|von Neumann algebra]] admitting a fait
 the zero functional is a finite normal trace on every von Neumann algebra.
 Faithfulness is therefore essential in any trace-based characterization of
 finite algebras
-[Takesaki, Chapter V](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter V].
 
 ## References
 

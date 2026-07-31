@@ -24,7 +24,7 @@ The diagonal [[harmonic-analysis/coefficient-function|matrix coefficient]]
 \[
 \varphi_\xi(g)=\langle\pi(g)\xi,\xi\rangle
 \]
-is positive-definite and determines the pointed cyclic representation \((\pi,\mathcal H,\xi)\) up to a unique unitary equivalence preserving the distinguished vector. Conversely, the [[harmonic-analysis/gns-construction-positive-definite-function|GNS construction]] builds such a pointed cyclic representation from a positive-definite function [Folland, §3.2–3.3](https://doi.org/10.1201/B19172).
+is positive-definite and determines the pointed cyclic representation \((\pi,\mathcal H,\xi)\) up to a unique unitary equivalence preserving the distinguished vector. Conversely, the [[harmonic-analysis/gns-construction-positive-definite-function|GNS construction]] builds such a pointed cyclic representation from a positive-definite function [Folland, §3.2–3.3].
 
 ## Conventions and scope
 

@@ -34,7 +34,7 @@ with Haar [[probability/probability-measure|probability measure]] on \(K\).
 
 ## Basic properties
 
-The function \(\Xi\) is continuous, real-valued, positive, [[harmonic-analysis/positive-definite-function|positive definite]], and bi-\(K\)-invariant, with \(\Xi(e)=1\) and \(\Xi(g^{-1})=\Xi(g)\). It is the [[harmonic-analysis/spherical-function|elementary spherical function]] with spectral parameter zero. Its decay along a positive Weyl chamber is exponential up to a polynomial factor; that estimate supplies the natural weight in the [[harmonic-analysis/harish-chandra-schwartz-space|Harish-Chandra Schwartz space]] [Knapp, Chapter VII](https://www.math.stonybrook.edu/~aknapp/books/repthy1.html).
+The function \(\Xi\) is continuous, real-valued, positive, [[harmonic-analysis/positive-definite-function|positive definite]], and bi-\(K\)-invariant, with \(\Xi(e)=1\) and \(\Xi(g^{-1})=\Xi(g)\). It is the [[harmonic-analysis/spherical-function|elementary spherical function]] with spectral parameter zero. Its decay along a positive Weyl chamber is exponential up to a polynomial factor; that estimate supplies the natural weight in the [[harmonic-analysis/harish-chandra-schwartz-space|Harish-Chandra Schwartz space]] [Knapp, Chapter VII].
 
 ## Example
 

@@ -32,7 +32,7 @@ Choose the subset of simple restricted roots defining \(P\). The [[lie-groups/li
 restricted-root spaces not belonging to the Levi subsystem. The remaining
 centralizer data determine \(\mathfrak m\). This construction and the
 uniqueness properties of the factors are given in
-[Knapp, Chapter VII, §7](https://www.math.stonybrook.edu/~aknapp/books/beyond2.html).
+[Knapp, Chapter VII, §7].
 
 ## Role in normalized induction
 

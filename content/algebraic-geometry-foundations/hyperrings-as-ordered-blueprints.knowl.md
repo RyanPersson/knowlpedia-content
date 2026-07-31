@@ -36,7 +36,6 @@ Thus the embedding does not replace a multivalued sum by an ordinary semiring su
 
 Not every ordered blueprint arises from a hyperring. Hyperring images satisfy additional monomiality and reversibility properties, as well as [[algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses|unique weak inverses]]. Some sources use a slightly different but naturally related encoding; full faithfulness should always be read with the stated hyperring-morphism convention.
 
-## Reference
-
+## References
 Matthew Baker and Oliver Lorscheid, [*The moduli space of matroids*, §2.8.5](https://arxiv.org/abs/1809.03542).
 

@@ -35,7 +35,7 @@ derivatives with polynomial factors:
 Every polynomially weighted derivative of \(f\) remains integrable, so these
 identities bound every Schwartz seminorm of \(\widehat f\). They also show
 continuity of \(\mathcal F\) in the Schwartz topology
-[Hörmander, §7.1](https://doi.org/10.1007/978-3-642-61497-2).
+[Hörmander, §7.1].
 
 ## Structural role
 

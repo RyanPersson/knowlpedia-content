@@ -22,7 +22,7 @@ Continuity of addition implies that for every neighborhood \(U\) of \(0\), there
 
 ## Linear maps and duality
 
-A [[linear-algebra/linear-map|linear map]] between topological vector spaces is continuous everywhere exactly when it is continuous at \(0\). The [[functional-analysis/topological-dual|continuous dual]] \(V'\) consists of all continuous linear maps \(V\to\mathbb F\); it can be much smaller than the algebraic dual and can even fail to separate points without additional hypotheses. [[functional-analysis/locally-convex-space|Locally convex spaces]] impose enough convex neighborhoods to bring separation theorems and rich duality into play [Schaefer–Wolff, Chapters II–IV](https://doi.org/10.1007/978-1-4612-1468-7).
+A [[linear-algebra/linear-map|linear map]] between topological vector spaces is continuous everywhere exactly when it is continuous at \(0\). The [[functional-analysis/topological-dual|continuous dual]] \(V'\) consists of all continuous linear maps \(V\to\mathbb F\); it can be much smaller than the algebraic dual and can even fail to separate points without additional hypotheses. [[functional-analysis/locally-convex-space|Locally convex spaces]] impose enough convex neighborhoods to bring separation theorems and rich duality into play [Schaefer–Wolff, Chapters II–IV].
 
 ## Examples and conventions
 

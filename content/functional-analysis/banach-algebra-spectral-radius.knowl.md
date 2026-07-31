@@ -33,7 +33,7 @@ polynomial spectral mapping gives \(r(p(a))=\max_{\lambda\in\sigma(a)}
 elements have radius zero, and subadditivity can fail in noncommutative
 Banach algebras. The limit formula, including existence of the limit, is a
 central result of Banach-algebra spectral theory
-[Murphy, §1.2](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, §1.2].
 
 ## The C-star-algebra case
 

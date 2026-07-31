@@ -16,7 +16,7 @@ Equivalently, \(\pi\) is [[harmonic-analysis/weak-containment-unitary-representa
 
 ## Coefficients and convergence
 
-Fell's coefficient-function description gives the same topology: neighborhoods control finite collections of [[harmonic-analysis/coefficient-function|coefficient functions]] on compact subsets of \(G\), allowing coefficients of a nearby representation to approximate those of the given one. This formulation is especially useful when representations are constructed concretely, whereas the kernel formulation exposes the topology's relation to ideals. Their equivalence is a theorem, not a separate topology [Fell, Theorem 2.2 and the group corollary](https://doi.org/10.1090/S0002-9947-1960-0146681-0).
+Fell's coefficient-function description gives the same topology: neighborhoods control finite collections of [[harmonic-analysis/coefficient-function|coefficient functions]] on compact subsets of \(G\), allowing coefficients of a nearby representation to approximate those of the given one. This formulation is especially useful when representations are constructed concretely, whereas the kernel formulation exposes the topology's relation to ideals. Their equivalence is a theorem, not a separate topology [Fell, Theorem 2.2 and the group corollary].
 
 ## Separation and type I groups
 

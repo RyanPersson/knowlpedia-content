@@ -29,7 +29,7 @@ The [[operator-algebras/commutant|commutant]] of
 regular representation rather than merely the abstract multiplication law.
 For general locally compact \(G\), its canonical noncommutative integral is
 the Plancherel weight; this need not be a finite trace
-[Takesaki, vol. II, Chapter VII, §3](https://doi.org/10.1007/978-3-662-10451-4).
+[Takesaki, vol. II, Chapter VII, §3].
 
 ## Discrete and abelian cases
 
@@ -40,11 +40,11 @@ normal trace
 \]
 In this case \(L(G)\) is a factor exactly when every nonidentity conjugacy
 class of \(G\) is infinite
-[Takesaki, vol. I, Chapter V, §7](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, vol. I, Chapter V, §7].
 If \(G\) is abelian, Fourier transformation
 identifies \(\operatorname{VN}(G)\) with the multiplication algebra
 \(L^\infty(\widehat G)\); thus the group von Neumann algebra is commutative
-[Takesaki, vol. II, Chapter VII, §3](https://doi.org/10.1007/978-3-662-10451-4).
+[Takesaki, vol. II, Chapter VII, §3].
 
 ## Conventions and scope
 

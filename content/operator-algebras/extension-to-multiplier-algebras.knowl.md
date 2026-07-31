@@ -44,7 +44,7 @@ Equivalently, for any
 \overline{\varphi}(m)=\operatorname*{strict\,lim}_i\varphi(me_i).
 \]
 This is the extension theorem in
-[Lance, Proposition 2.1](https://doi.org/10.1017/CBO9780511526206).
+[Lance, Proposition 2.1].
 
 ## Functorial consequences
 
@@ -54,7 +54,7 @@ multiplier extension is
 \(\overline{\psi}\circ\overline{\varphi}\). A [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]]
 \(\pi:A\to B(H)=M(\mathcal K(H))\) therefore extends uniquely to \(M(A)\).
 These formulas are fundamental in covariant representations and crossed
-products [Williams, Appendix A](https://doi.org/10.1090/surv/134).
+products [Williams, Appendix A].
 
 ## Scope and near-miss
 

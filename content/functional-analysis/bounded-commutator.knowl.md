@@ -45,7 +45,7 @@ estimate above. The same symbol is then used for its unique extension to
 \(H\). Requiring only a bounded form commutator, or defining the expression on
 a smaller core, gives a variant of the axiom and should not be silently
 identified with this convention
-[Connes and Moscovici, opening spectral-triple convention](https://doi.org/10.1007/BF01895667).
+[Connes and Moscovici, opening spectral-triple convention].
 
 ## Examples and scope
 

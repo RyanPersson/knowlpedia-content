@@ -38,7 +38,7 @@ The set \(\mathfrak n_\varphi\) is a left ideal, while
 \]
 is a \(*\)-subalgebra on which \(\varphi\) has a linear extension. This
 extension need not be bounded or defined on all of \(M\)
-[Takesaki, vol. I, Chapter VII, §1](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, vol. I, Chapter VII, §1].
 
 ## Regularity properties
 

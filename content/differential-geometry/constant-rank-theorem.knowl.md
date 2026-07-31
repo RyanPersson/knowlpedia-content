@@ -29,7 +29,7 @@ When \(r=m\), the normal form is a coordinate inclusion, giving the local model 
 
 ## Conventions and scope
 
-Some texts call this result simply the “rank theorem.” A related local form remains available when the rank is only known to be \(r\) at \(p\), provided a suitable \(r\times r\) minor stays nonzero and additional target components are retained; the clean zero-component form above requires constant rank. See [Lee, Theorem 4.12](https://doi.org/10.1007/978-1-4419-9982-5).
+Some texts call this result simply the “rank theorem.” A related local form remains available when the rank is only known to be \(r\) at \(p\), provided a suitable \(r\times r\) minor stays nonzero and additional target components are retained; the clean zero-component form above requires constant rank. See [Lee, Theorem 4.12].
 
 ## References
 

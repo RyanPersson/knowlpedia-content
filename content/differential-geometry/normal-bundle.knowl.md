@@ -24,7 +24,7 @@ maps isomorphically onto \(\nu(S\subset M)\). This realizes normal classes by no
 
 ## Tubular neighborhoods
 
-For an embedded submanifold satisfying the usual closedness hypotheses, a neighborhood of the [[fiber-bundles/zero-section|zero section]] in the normal bundle is diffeomorphic to a neighborhood of \(S\) in \(M\). This tubular-neighborhood theorem turns linear normal data into ambient local geometry [Hirsch, Chapter 4](https://doi.org/10.1007/978-1-4684-9449-5).
+For an embedded submanifold satisfying the usual closedness hypotheses, a neighborhood of the [[fiber-bundles/zero-section|zero section]] in the normal bundle is diffeomorphic to a neighborhood of \(S\) in \(M\). This tubular-neighborhood theorem turns linear normal data into ambient local geometry [Hirsch, Chapter 4].
 
 ## Examples and non-examples
 

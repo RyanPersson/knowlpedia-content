@@ -28,7 +28,7 @@ The diagonal sums recover the Betti numbers:
 \[
 b_k(X)=\sum_{p+q=k}h^{p,q}(X).
 \]
-These identities are consequences of compact Kähler Hodge theory [Huybrechts, Chapter 3, §3.2](https://doi.org/10.1007/b137952).
+These identities are consequences of compact Kähler Hodge theory [Huybrechts, Chapter 3, §3.2].
 
 ## Examples
 

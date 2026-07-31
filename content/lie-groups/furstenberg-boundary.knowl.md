@@ -32,7 +32,7 @@ The space \(G/P\) is also called the minimal real flag manifold. For
 \(\mathbb R^n\). For \(G=\operatorname{SL}(2,\mathbb R)\), it is
 \(\mathbb{RP}^1\), which is a circle. Compactness follows from
 \(G=KP\), while transitivity is built into the quotient construction
-[Helgason, Chapter I](https://bookstore.ams.org/SURV/83).
+[Helgason, Chapter I].
 
 ## Role in representation theory
 

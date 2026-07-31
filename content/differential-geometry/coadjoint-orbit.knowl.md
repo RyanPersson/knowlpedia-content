@@ -30,7 +30,7 @@ Every coadjoint orbit has a canonical invariant symplectic form. With \(X^\#_\mu
 \[
 \omega_\mu(X^\#_\mu,Y^\#_\mu)=\langle\mu,[X,Y]\rangle.
 \]
-This is well defined, closed, and nondegenerate, so \(\mathcal O_\lambda\) is a [[differential-geometry/symplectic-manifold|symplectic manifold]]. This structure underlies the [[lie-groups/orbit-method|orbit method]] described in [Kirillov, “The Method of Orbits”](https://doi.org/10.1007/978-3-642-66243-0).
+This is well defined, closed, and nondegenerate, so \(\mathcal O_\lambda\) is a [[differential-geometry/symplectic-manifold|symplectic manifold]]. This structure underlies the [[lie-groups/orbit-method|orbit method]] described in [Kirillov, “The Method of Orbits”].
 
 ## Examples and sign conventions
 

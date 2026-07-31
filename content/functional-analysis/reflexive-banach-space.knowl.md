@@ -27,7 +27,7 @@ A Banach space is reflexive exactly when its closed unit ball is compact for
 the [[functional-analysis/weak-topology|weak topology]]. By the
 Eberlein–Šmulian theorem, this is also equivalent to weak sequential
 compactness of the unit ball. These are theorem-level characterizations, not
-parts of the definition [Conway, Chapter V](https://doi.org/10.1007/978-1-4757-4383-8).
+parts of the definition [Conway, Chapter V].
 
 ## Examples and permanence
 
@@ -37,7 +37,7 @@ space, \(L^p\) is reflexive when \(1<p<\infty\); in contrast, \(\ell^1\),
 \(c_0\), and infinite-dimensional \(L^1\) spaces are standard nonexamples.
 Closed subspaces and Banach-space quotients of a reflexive space are
 reflexive. Moreover, \(X\) is reflexive exactly when \(X'\) is reflexive
-[Rudin, Chapter 4](https://search.worldcat.org/title/21163277).
+[Rudin, Chapter 4].
 
 ## Conventions and scope
 

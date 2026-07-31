@@ -35,7 +35,7 @@ Strong-\(*\) convergence is equivalent to simultaneous strong convergence of
 continuous. Multiplication is jointly strong-\(*\) continuous on
 norm-bounded subsets: if \(S_i\to S\) and \(T_i\to T\) strong-\(*\), with
 both nets bounded, then \(S_iT_i\to ST\) strong-\(*\)
-[Takesaki, Chapter I, §3](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter I, §3].
 
 ## Comparison with other topologies
 

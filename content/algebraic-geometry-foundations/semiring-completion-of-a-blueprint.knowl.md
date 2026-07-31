@@ -28,6 +28,5 @@ f^+:B^+\longrightarrow C^+.
 \]
 Consequently \(B\mapsto B^+\) is a functor from blueprints to commutative semirings.
 
-## Reference
-
+## References
 Oliver Lorscheid, [*The geometry of blueprints, Part I: Algebraic background and scheme theory*, §1.2](https://arxiv.org/abs/1103.1745).

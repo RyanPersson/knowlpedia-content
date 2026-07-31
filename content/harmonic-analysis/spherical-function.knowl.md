@@ -39,7 +39,7 @@ is a positive-definite spherical function. Conversely, every
 function arises this way, up to unitary equivalence. This identifies the
 positive-definite spherical spectrum with the \(K\)-spherical part of the
 [[harmonic-analysis/unitary-dual|unitary dual]]
-[Helgason, Chapter IV, §§2–3](https://doi.org/10.1090/surv/039).
+[Helgason, Chapter IV, §§2–3].
 
 ## Convolution eigenfunctions
 

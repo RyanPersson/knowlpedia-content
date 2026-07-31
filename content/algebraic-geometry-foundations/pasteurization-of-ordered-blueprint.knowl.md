@@ -33,7 +33,6 @@ where \(a\sim a'\) when some \(b\) satisfies both \(0\leq a+b\) and \(0\leq a'+b
 
 This reflector was historically called **pasteurization**. The canonical ID retains that established name, but the title uses current terminology. The reflection need not embed \(B\): its unit \(\eta_B\) may identify elements. It is also not a passage from a semiring to a ring; weak inverses are order-theoretic.
 
-## Reference
-
+## References
 Oliver Lorscheid, [*Blueprints and tropical scheme theory*, Definition 5.6.30 and Exercise 5.6.31](https://lorscheid.org/notes/2018-Blueprints/versions/lecturenotes180521.pdf).
 

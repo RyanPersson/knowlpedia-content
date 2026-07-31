@@ -38,7 +38,7 @@ one Schrödinger model is
 Translations and modulations therefore fail to commute by exactly the central
 phase encoded by the Heisenberg group law. The uniqueness theorem and this
 model are developed in
-[Folland, §1.5](https://doi.org/10.1515/9781400882427).
+[Folland, §1.5].
 
 ## Why the hypotheses matter
 
@@ -57,7 +57,7 @@ condition. The theorem says that such a finite-dimensional system of canonical
 commutation relations is unitarily equivalent to the standard position and
 momentum model. This exponentiated formulation avoids the domain ambiguities
 of writing commutators of unbounded operators
-[Hall, Chapter 14](https://doi.org/10.1007/978-1-4614-7116-5).
+[Hall, Chapter 14].
 
 ## References
 

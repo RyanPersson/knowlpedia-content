@@ -27,7 +27,7 @@ resolvent expansion
 \]
 converges whenever \(|\lambda|\) exceeds the limiting power-growth rate.
 Hence no spectral point can lie outside the corresponding disk. This
-standard argument is given in [Murphy, Theorem 1.2.3](https://doi.org/10.1016/C2009-0-22289-6).
+standard argument is given in [Murphy, Theorem 1.2.3].
 
 ## Consequences and examples
 

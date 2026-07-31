@@ -32,7 +32,7 @@ belongs to \(M\). More generally, for the polar
 decomposition \(T=v|T|\), affiliation is equivalent to \(v\in M\) together
 with affiliation of \(|T|\). These criteria turn an unbounded commutation
 condition into bounded operator-algebra data
-[Nelson, §§1–2](https://doi.org/10.1016/0022-1236%2874%2990014-7).
+[Nelson, §§1–2].
 
 ## Examples and non-examples
 

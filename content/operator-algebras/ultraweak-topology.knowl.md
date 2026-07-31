@@ -28,7 +28,7 @@ Ultraweak convergence implies [[operator-algebras/weak-operator-topology|weak-op
 
 ## Von Neumann algebras
 
-For a [[operator-algebras/von-neumann-algebra|von Neumann algebra]] \(M\), “ultraweak” means the weak-star topology induced by its canonical predual \(M_*\). On a concrete \(M\subseteq\mathcal B(\mathcal H)\), this agrees with the topology inherited from \(\mathcal B(\mathcal H)\). Ultraweakly continuous linear functionals on \(M\) are precisely the elements of \(M_*\) [Takesaki, Chapter III, §2](https://doi.org/10.1007/978-1-4612-6188-9).
+For a [[operator-algebras/von-neumann-algebra|von Neumann algebra]] \(M\), “ultraweak” means the weak-star topology induced by its canonical predual \(M_*\). On a concrete \(M\subseteq\mathcal B(\mathcal H)\), this agrees with the topology inherited from \(\mathcal B(\mathcal H)\). Ultraweakly continuous linear functionals on \(M\) are precisely the elements of \(M_*\) [Takesaki, Chapter III, §2].
 
 ## References
 

@@ -16,7 +16,7 @@ is a [[topology/compact-set|compact set]]. In localized constructions one usuall
 
 ## Existence on smooth manifolds
 
-If \(A\subseteq U\subseteq M\), with \(A\) closed and \(U\) open, and \(A\) is compact, then such a function exists. The proof first constructs Euclidean cutoff functions and then combines local constructions using a [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|partition of unity]]. This localization theorem is developed in [Lee, chapter on smooth manifolds](https://doi.org/10.1007/978-1-4419-9982-5) and [Nestruev, “Cutoff and Other Special Smooth Functions”](https://doi.org/10.1007/b98871).
+If \(A\subseteq U\subseteq M\), with \(A\) closed and \(U\) open, and \(A\) is compact, then such a function exists. The proof first constructs Euclidean cutoff functions and then combines local constructions using a [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|partition of unity]]. This localization theorem is developed in [Lee, chapter on smooth manifolds] and [Nestruev, “Cutoff and Other Special Smooth Functions”].
 
 ## Uses and constructions
 

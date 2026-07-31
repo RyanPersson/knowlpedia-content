@@ -30,7 +30,7 @@ Equivalently, both sides identify with the orbit-reduction space
 \[
 \mu^{-1}(\mathcal O_\alpha)/G.
 \]
-Under free and proper regularity assumptions, the bijection is a diffeomorphism and the pullback characterizations of the reduced forms show that it is a [[differential-geometry/symplectomorphism|symplectomorphism]] [Ortega and Ratiu, §4.3](https://doi.org/10.1007/978-1-4757-3811-7).
+Under free and proper regularity assumptions, the bijection is a diffeomorphism and the pullback characterizations of the reduced forms show that it is a [[differential-geometry/symplectomorphism|symplectomorphism]] [Ortega and Ratiu, §4.3].
 
 ## Why the sign is negative
 

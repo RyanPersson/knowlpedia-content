@@ -22,7 +22,7 @@ Put the nearby connections \(A+a\) in [[fiber-bundles/coulomb-gauge|Coulomb gaug
 \[
 d_A^+a+(a\wedge a)^+=0.
 \]
-When \(A\) is regular, the derivative of this equation is surjective, so the Banach-space implicit-function theorem makes the gauge-fixed solution set smooth near \(A\). If \(A\) is also irreducible, the gauge quotient is locally a [[fiber-bundles/smooth-manifold|smooth manifold]] near \([A]\), with [[differential-geometry/tangent-space|tangent space]] \(H_A^1\) and the expected dimension [Donaldson–Kronheimer, §§4.2–4.3](https://doi.org/10.1093/oso/9780198535539.001.0001).
+When \(A\) is regular, the derivative of this equation is surjective, so the Banach-space implicit-function theorem makes the gauge-fixed solution set smooth near \(A\). If \(A\) is also irreducible, the gauge quotient is locally a [[fiber-bundles/smooth-manifold|smooth manifold]] near \([A]\), with [[differential-geometry/tangent-space|tangent space]] \(H_A^1\) and the expected dimension [Donaldson–Kronheimer, §§4.2–4.3].
 
 ## Nonregular connections
 

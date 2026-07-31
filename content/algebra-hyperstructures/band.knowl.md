@@ -36,7 +36,6 @@ single-valued or multivalued addition on \(B\). Rings, hyperrings, and partial
 fields give bands by recording which formal sums are null, but not every band
 comes from one of those structures.
 
-## Reference
-
+## References
 Matthew Baker, Tong Jin, and Oliver Lorscheid,
 [*New building blocks for \(\mathbb F_1\)-geometry: bands and band schemes*, Definition 1.1](https://arxiv.org/abs/2402.09612).

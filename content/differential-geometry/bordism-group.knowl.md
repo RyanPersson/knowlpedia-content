@@ -16,7 +16,7 @@ The identity is the class of the empty manifold. In unoriented bordism every cla
 
 ## Why the operation descends
 
-Suppose \(M_0\) is bordant to \(M_1\) through \(W\), and \(N_0\) is bordant to \(N_1\) through \(W'\). Then \(W\sqcup W'\) is a bordism from \(M_0\sqcup N_0\) to \(M_1\sqcup N_1\). Hence addition is independent of representatives. Associativity and commutativity follow from canonical diffeomorphisms of disjoint unions, while the empty manifold acts as a unit. These geometric constructions establish the group laws directly [Stong, Chapter I](https://doi.org/10.1515/9781400879977).
+Suppose \(M_0\) is bordant to \(M_1\) through \(W\), and \(N_0\) is bordant to \(N_1\) through \(W'\). Then \(W\sqcup W'\) is a bordism from \(M_0\sqcup N_0\) to \(M_1\sqcup N_1\). Hence addition is independent of representatives. Associativity and commutativity follow from canonical diffeomorphisms of disjoint unions, while the empty manifold acts as a unit. These geometric constructions establish the group laws directly [Stong, Chapter I].
 
 ## Grading and multiplication
 

@@ -31,7 +31,7 @@ e_{ij}e_{kl}=\delta_{jk}e_{il},\qquad e_{ij}^*=e_{ji},\qquad
 The diagonal projections \(e_{ii}\) are mutually equivalent and minimal.
 Conversely, such a full system of matrix units identifies the algebra with
 \(M_n(\mathbb C)\). The classification follows from the type I factor theorem
-[Takesaki, Chapter V, §1](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter V, §1].
 
 ## Trace and examples
 

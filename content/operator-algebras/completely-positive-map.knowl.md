@@ -34,7 +34,7 @@ where \(\pi\) is a
 [[linear-algebra/hilbert-space|Hilbert space]] \(K\) and \(V:H\to K\) is
 bounded. With the usual minimality condition the factorization is unique up to
 unitary equivalence
-[Paulsen, Chapter 4](https://doi.org/10.1017/CBO9780511546631).
+[Paulsen, Chapter 4].
 
 ## Closure properties and examples
 

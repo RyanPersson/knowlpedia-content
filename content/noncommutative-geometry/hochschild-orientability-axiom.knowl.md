@@ -20,11 +20,11 @@ equals the grading \(\Gamma\) for an [[noncommutative-geometry/even-spectral-tri
 
 ## Geometric model
 
-For the canonical [[noncommutative-geometry/spectral-triple|spectral triple]] of a closed oriented spin manifold, the antisymmetrized Hochschild cycle corresponding to the volume form is sent by \(\pi_D\) to Clifford multiplication by that volume form. After the standard normalization, this is chirality in even dimension and the identity in odd dimension. This is the model for the abstract axiom [Connes, chapter VI](https://www.alainconnes.org/docs/book94bigpdf.pdf).
+For the canonical [[noncommutative-geometry/spectral-triple|spectral triple]] of a closed oriented spin manifold, the antisymmetrized Hochschild cycle corresponding to the volume form is sent by \(\pi_D\) to Clifford multiplication by that volume form. After the standard normalization, this is chirality in even dimension and the identity in odd dimension. This is the model for the abstract axiom [Connes, chapter VI].
 
 ## Role and limitations
 
-Orientability is one of several independent geometric hypotheses in spectral reconstruction. Regularity, finiteness, [[analysis/absolute-continuity|absolute continuity]], first order, and Poincaré duality are not consequences of the existence of \(c\). In the commutative reconstruction theorem, orientability helps produce local coordinate data, but the manifold conclusion uses the full axiom system [Rennie and Várilly, §3.1](https://arxiv.org/abs/math/0610418).
+Orientability is one of several independent geometric hypotheses in spectral reconstruction. Regularity, finiteness, [[analysis/absolute-continuity|absolute continuity]], first order, and Poincaré duality are not consequences of the existence of \(c\). In the commutative reconstruction theorem, orientability helps produce local coordinate data, but the manifold conclusion uses the full axiom system [Rennie and Várilly, §3.1].
 
 **Warning.** Twisted spectral triples, nonunital algebras, and manifolds with boundary may require twisted, local, or relative versions of Hochschild homology. The formula above is the standard unital real convention.
 

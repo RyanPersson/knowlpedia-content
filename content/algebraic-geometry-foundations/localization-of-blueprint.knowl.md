@@ -18,7 +18,6 @@ Elements are represented by fractions \(a/s\). An additive relation between frac
 
 For \(h\in B\), one writes \(B[h^{-1}]\) for localization at \(\{1,h,h^2,\ldots\}\). These principal localizations define the basic open charts used in [[algebraic-geometry-foundations/spectrum-of-blueprint|blueprint spectra]].
 
-## Reference
-
+## References
 Oliver Lorscheid, [*The geometry of blueprints, Part I*, §1.9](https://arxiv.org/abs/1103.1745).
 

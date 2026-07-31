@@ -30,7 +30,7 @@ It is also equivalent to finiteness of the spectral zeta function
 \(\operatorname{Tr}(|D|^{-p})\) after omitting the finite-dimensional kernel,
 provided \(D\) is invertible away from zero. These equivalences follow
 directly from functional calculus and the definition of Schatten ideals
-[Gracia-Bondía–Várilly–Figueroa, §10.1](https://doi.org/10.1007/978-1-4612-0005-5).
+[Gracia-Bondía–Várilly–Figueroa, §10.1].
 
 If the triple is \(p\)-summable, then it is \(q\)-summable for every
 \(q>p\). The converse can fail at the endpoint, so the value \(p\) must not

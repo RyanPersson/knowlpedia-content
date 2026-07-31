@@ -22,7 +22,7 @@ summands.
 
 ## Density and algebraic role
 
-If \(K\) is compact and \(\pi|_K\) is continuous and unitary, then \(V_K\) is dense in the [[linear-algebra/hilbert-space|Hilbert space]]. This follows by applying the [[lie-groups/peter-weyl-theorem|Peter–Weyl theorem]] to the [[algebra-representation-theory/restricted-representation|restricted representation]]. When \(G\) is a [[lie-groups/real-reductive-lie-group|real reductive group]] and \(K\) a [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]], the \(K\)-finite part is the algebraic carrier on which the differentiated Lie-algebra action and the \(K\)-action combine into a \((\mathfrak g,K)\)-module [Wallach, §3.3](https://shop.elsevier.com/books/real-reductive-groups-i/wallach/978-0-12-732960-4).
+If \(K\) is compact and \(\pi|_K\) is continuous and unitary, then \(V_K\) is dense in the [[linear-algebra/hilbert-space|Hilbert space]]. This follows by applying the [[lie-groups/peter-weyl-theorem|Peter–Weyl theorem]] to the [[algebra-representation-theory/restricted-representation|restricted representation]]. When \(G\) is a [[lie-groups/real-reductive-lie-group|real reductive group]] and \(K\) a [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]], the \(K\)-finite part is the algebraic carrier on which the differentiated Lie-algebra action and the \(K\)-action combine into a \((\mathfrak g,K)\)-module [Wallach, §3.3].
 Its decomposition is organized by the
 [[lie-groups/k-type|\(K\)-types]] occurring in the restricted
 representation.

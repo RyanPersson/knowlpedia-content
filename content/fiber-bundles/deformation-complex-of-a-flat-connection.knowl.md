@@ -35,7 +35,7 @@ Writing a nearby connection as \(A+a\), flatness becomes the [[lie-groups/maurer
 \[
 d_Aa+\tfrac12[a\wedge a]=0.
 \]
-The linear term gives the complex, while the quadratic term explains why a class in \(H_A^1\) need not integrate to an actual family. In representation-theoretic settings the associated differential graded Lie algebra controls the local deformation germ; the compact Kähler case and its quadraticity properties are developed in [Goldman–Millson, §§1–3](https://doi.org/10.1007/BF02699127).
+The linear term gives the complex, while the quadratic term explains why a class in \(H_A^1\) need not integrate to an actual family. In representation-theoretic settings the associated differential graded Lie algebra controls the local deformation germ; the compact Kähler case and its quadraticity properties are developed in [Goldman–Millson, §§1–3].
 
 ## Ellipticity and examples
 

@@ -36,7 +36,7 @@ element \(h\) in the center of the
 For unital \(A\), one can take \(h=\phi(1_A)\). This factorization explains
 why order-zero maps retain much of the orthogonality behavior of
 \(*\)-homomorphisms without themselves preserving products
-[Winter–Zacharias, Theorem 2.3](https://arxiv.org/abs/0903.3290).
+[Winter–Zacharias, Theorem 2.3].
 
 ## Cone correspondence
 
@@ -48,7 +48,7 @@ C_0((0,1])\otimes A\longrightarrow B,
 with the coordinate function on \((0,1]\) sent, together with \(a\), to
 \(\phi(a)\). This converts a nonlinear-looking orthogonality condition into
 ordinary multiplicative data
-[Winter–Zacharias, Corollary 3.1](https://arxiv.org/abs/0903.3290).
+[Winter–Zacharias, Corollary 3.1].
 
 ## Examples and near-misses
 

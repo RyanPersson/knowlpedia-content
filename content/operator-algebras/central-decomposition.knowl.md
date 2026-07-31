@@ -33,7 +33,7 @@ theorem produces such a measurable field of factors. Subject to the standard
 measurability hypotheses, the base measure class and factor field are unique
 up to the appropriate almost-everywhere measurable equivalence. This is a
 disintegration theorem, not merely a decomposition by finitely many central
-projections [Kadison–Ringrose, vol. II, §6.5](https://doi.org/10.1090/gsm/016).
+projections [Kadison–Ringrose, vol. II, §6.5].
 
 ## How the center controls the fibers
 
@@ -43,7 +43,7 @@ measurable scalar field gives a central
 [[functional-analysis/decomposable-operator|decomposable operator]]. The
 fiber algebras have trivial centers almost everywhere, so the variation that
 remains in \(Z(M)\) has been transferred to the parameter space
-[Takesaki, Chapter IV, §8](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter IV, §8].
 
 ## Examples and scope
 

@@ -32,7 +32,7 @@ every [[lie-groups/irreducible-unitary-representation|irreducible unitary repres
 equivalences connect
 commutativity of convolution with the one-dimensional spherical eigenspaces
 that underlie spherical functions
-[Folland, §9.5](https://doi.org/10.1201/B19172).
+[Folland, §9.5].
 
 ## Examples and non-examples
 

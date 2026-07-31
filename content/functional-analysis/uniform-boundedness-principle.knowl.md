@@ -25,7 +25,7 @@ then it is uniformly bounded in
 \]
 The conclusion turns individual bounds into one constant valid for the whole
 family. No countability assumption on \(\mathcal F\) is required
-[Rudin, Chapter 2](https://search.worldcat.org/title/21163277).
+[Rudin, Chapter 2].
 
 ## Proof mechanism
 

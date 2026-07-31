@@ -36,7 +36,7 @@ right multiplication on \(I\), is injective.
 The \(C^*\)-identity is important here: it makes the left and right
 annihilator conditions agree and converts a nonzero annihilating element into
 a nonzero ideal disjoint from \(I\)
-[Pedersen, §3.12](https://doi.org/10.1016/C2016-0-03431-9).
+[Pedersen, §3.12].
 
 ## Examples
 
@@ -55,7 +55,7 @@ which \(I\) sits as an essential ideal, in the sense that every
 \(C^*\)-algebra containing \(I\) essentially acts faithfully on \(I\) by
 multipliers. The essentiality hypothesis is exactly what prevents ambient
 elements from disappearing under this action
-[Lance, §2](https://doi.org/10.1017/CBO9780511526206).
+[Lance, §2].
 
 ## References
 

@@ -33,7 +33,7 @@ action on \(A=\mathbb C\), \(\Lambda_{\mathbb C}\) becomes the regular quotient
 C^*(G)\longrightarrow C_r^*(G),
 \]
 and it is injective exactly when \(G\) is amenable
-[Williams, discussion of regular representations and amenability](https://doi.org/10.1090/surv/134).
+[Williams, discussion of regular representations and amenability].
 
 ## Functorial role
 

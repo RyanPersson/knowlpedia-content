@@ -38,7 +38,7 @@ A/\ker\phi\cong\phi(A)
 \]
 as \(C^*\)-algebras. In particular, the range of every
 \(*\)-homomorphism between \(C^*\)-algebras is norm closed
-[Murphy, §3.1](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, §3.1].
 
 ## Universal property
 

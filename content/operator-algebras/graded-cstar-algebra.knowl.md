@@ -44,7 +44,7 @@ product uses
 \]
 with a corresponding sign in the involution. These signs are structural:
 forgetting them produces the ordinary tensor product, not the graded one
-[Blackadar, §14.4](https://doi.org/10.1017/9781009701907).
+[Blackadar, §14.4].
 
 ## Examples and scope
 

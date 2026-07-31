@@ -37,7 +37,7 @@ A spectral triple is regular exactly when its represented algebra and all
 basic commutators \([D,a]\) lie in this smooth domain. This hypothesis permits
 repeated commutator expansions and serves as the order-zero coefficient
 algebra for the local-index pseudodifferential calculus
-[Connes–Moscovici, §II](https://doi.org/10.1007/BF01895667).
+[Connes–Moscovici, §II].
 
 ## Conventions and scope
 

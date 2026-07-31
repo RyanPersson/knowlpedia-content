@@ -22,7 +22,7 @@ Here the product lies in \(H^{2n}(M;\mathbb Z)\) and \([M]\) is the [[topology/f
 
 Chern numbers are the integral [[fiber-bundles/characteristic-number|characteristic numbers]] built from [[fiber-bundles/chern-class|Chern classes]]. Only monomials of total complex degree \(n\) pair with \([M]\). Naturality of Chern classes shows that orientation-preserving bundle equivalences preserve the resulting integers.
 
-For stably almost-complex manifolds, all Chern numbers are bordism invariants. Moreover, equality of all Chern numbers characterizes equality in complex bordism; this is a structure theorem, not part of the definition [Milnor–Stasheff, §16](https://doi.org/10.1515/9781400881826).
+For stably almost-complex manifolds, all Chern numbers are bordism invariants. Moreover, equality of all Chern numbers characterizes equality in complex bordism; this is a structure theorem, not part of the definition [Milnor–Stasheff, §16].
 
 ## Example: complex projective space
 

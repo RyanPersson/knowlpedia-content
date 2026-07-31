@@ -30,7 +30,7 @@ k>\max\{m-n,0\}.
 This threshold is essential in general; lower-regularity maps can have critical
 value sets of positive measure. The precise finite-differentiability statement
 is given in
-[Lee, Chapter 6](https://doi.org/10.1007/978-1-4419-9982-5).
+[Lee, Chapter 6].
 
 ## Consequences and examples
 

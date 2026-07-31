@@ -30,7 +30,7 @@ contained in \(\mathbb R\). Equivalently, \(\|\exp(ita)\|=1\) for every real
 \(t\), with the exponential computed in the unitization when the algebra is
 nonunital. These equivalences use the \(C^*\)-identity and functional
 calculus; they fail as stated in a general involutive [[functional-analysis/banach-algebra|Banach algebra]]
-[Murphy, §2.2](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, §2.2].
 
 ## Order and functional calculus
 

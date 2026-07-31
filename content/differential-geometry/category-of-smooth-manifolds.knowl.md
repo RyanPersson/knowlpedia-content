@@ -62,7 +62,7 @@ The empty manifold may be included as an
 algebraic conventions exclude the zero ring will say so separately.
 Arbitrary set-theoretic fiber products need not be smooth manifolds;
 transverse fiber products are the standard well-behaved case. The basic
-categorical language is as in [Mac Lane, Chapter I](https://doi.org/10.1007/978-1-4757-4721-8), while the smooth setting follows [Lee, chapters on smooth manifolds and maps](https://doi.org/10.1007/978-1-4419-9982-5).
+categorical language is as in [Mac Lane, Chapter I], while the smooth setting follows [Lee, chapters on smooth manifolds and maps].
 
 ## References
 

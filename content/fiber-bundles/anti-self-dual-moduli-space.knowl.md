@@ -17,7 +17,7 @@ where \(F_A^+\) is the self-dual component of the curvature. Thus its points are
 
 ## Local deformation theory
 
-At an [[fiber-bundles/self-dual-and-anti-self-dual-connection|ASD connection]] \(A\), the [[fiber-bundles/asd-deformation-complex|ASD deformation complex]] has cohomology \(H_A^0,H_A^1,H_A^2\). Infinitesimal stabilizers form \(H_A^0\), infinitesimal deformations modulo gauge form \(H_A^1\), and \(H_A^2\) contains the obstructions. If \(A\) is irreducible and regular, a neighborhood of \([A]\) is a [[fiber-bundles/smooth-manifold|smooth manifold]] with [[differential-geometry/tangent-space|tangent space]] \(H_A^1\) and dimension equal to the index of the deformation complex [Donaldson–Kronheimer, §§4.2–4.3](https://doi.org/10.1093/oso/9780198535539.001.0001).
+At an [[fiber-bundles/self-dual-and-anti-self-dual-connection|ASD connection]] \(A\), the [[fiber-bundles/asd-deformation-complex|ASD deformation complex]] has cohomology \(H_A^0,H_A^1,H_A^2\). Infinitesimal stabilizers form \(H_A^0\), infinitesimal deformations modulo gauge form \(H_A^1\), and \(H_A^2\) contains the obstructions. If \(A\) is irreducible and regular, a neighborhood of \([A]\) is a [[fiber-bundles/smooth-manifold|smooth manifold]] with [[differential-geometry/tangent-space|tangent space]] \(H_A^1\) and dimension equal to the index of the deformation complex [Donaldson–Kronheimer, §§4.2–4.3].
 
 ## Singularities and compactification
 

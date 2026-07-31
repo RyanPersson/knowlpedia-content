@@ -38,7 +38,7 @@ acts by left multiplication on \(L^2(M)\), then the generated algebra is a
 factor, but the commuting right action is nontrivial. Factoriality therefore
 captures indecomposability at the level of central summands, not the absence
 of all invariant subspaces
-[Takesaki, Chapter V](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter V].
 
 ## Central projections and decomposition
 

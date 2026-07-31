@@ -37,7 +37,7 @@ Each unitary map \(U:\mathcal N_+\to\mathcal N_-\) determines one by
 A_U(x+u+Uu)=Ax+iu-iUu.
 \]
 Every self-adjoint extension arises uniquely in this way
-[Schmüdgen, Chapter 13](https://doi.org/10.1007/978-94-007-4753-1).
+[Schmüdgen, Chapter 13].
 
 ## Boundary conditions
 

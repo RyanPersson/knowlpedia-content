@@ -34,7 +34,7 @@ almost-everywhere questions about the fibers. This relation also transports
 direct-integral decompositions between [[algebra-representation-theory/group-representation|group representations]] and
 representations of the
 [[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]]
-[Folland, §7.4](https://doi.org/10.1201/B19172).
+[Folland, §7.4].
 
 ## Decomposition and multiplicity
 
@@ -46,7 +46,7 @@ fibers with a measurable multiplicity function. The
 Outside the type I setting, irreducible decompositions can have severe
 nonuniqueness, so direct integrals are often taken instead over factor
 representations
-[Dixmier, §18.7](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/15).
+[Dixmier, §18.7].
 
 ## Conventions and scope
 

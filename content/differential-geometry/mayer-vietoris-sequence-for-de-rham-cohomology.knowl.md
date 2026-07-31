@@ -32,7 +32,7 @@ The last map of complexes sends \((\alpha,\beta)\) to
 
 ## Use in calculations
 
-If \(U\), \(V\), and \(U\cap V\) have known cohomology, exactness often determines the [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology]] of \(M\). This is the differential-form analogue of the Mayer–Vietoris sequence in [[topology/singular-cohomology-group|singular cohomology]] and is a principal gluing step in one proof of the [[differential-geometry/de-rham-theorem|de Rham theorem]] [Bott and Tu, de Rham theory](https://doi.org/10.1007/978-1-4757-3951-0).
+If \(U\), \(V\), and \(U\cap V\) have known cohomology, exactness often determines the [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology]] of \(M\). This is the differential-form analogue of the Mayer–Vietoris sequence in [[topology/singular-cohomology-group|singular cohomology]] and is a principal gluing step in one proof of the [[differential-geometry/de-rham-theorem|de Rham theorem]] [Bott and Tu, de Rham theory].
 
 ## Naturality and sign convention
 

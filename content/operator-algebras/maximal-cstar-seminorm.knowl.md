@@ -24,7 +24,7 @@ The supremum is automatically finite when algebraic relations impose uniform bou
 
 ## Maximality and terminology
 
-Every \(C^*\)-seminorm \(p\) on \(A\) is bounded above by \(\|\cdot\|_{\max}\): represent the \(C^*\)-completion of \(A/\ker p\) faithfully on a [[linear-algebra/hilbert-space|Hilbert space]] and compare norms. Some authors say “universal \(C^*\)-seminorm”; the adjective “maximal” emphasizes the supremum over all representations, not a chosen faithful one [Blackadar, section II.8](https://doi.org/10.1007/3-540-28517-2).
+Every \(C^*\)-seminorm \(p\) on \(A\) is bounded above by \(\|\cdot\|_{\max}\): represent the \(C^*\)-completion of \(A/\ker p\) faithfully on a [[linear-algebra/hilbert-space|Hilbert space]] and compare norms. Some authors say “universal \(C^*\)-seminorm”; the adjective “maximal” emphasizes the supremum over all representations, not a chosen faithful one [Blackadar, section II.8].
 
 ## References
 

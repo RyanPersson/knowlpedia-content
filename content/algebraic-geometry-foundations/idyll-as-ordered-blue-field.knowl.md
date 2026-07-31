@@ -30,8 +30,7 @@ take its pointed multiplicative monoid as \(B\) and declare a formal sum null
 exactly when \(0\leq\sum a_i\). These constructions are inverse on objects
 and morphisms.
 
-## Reference
-
+## References
 Matthew Baker, Tong Jin, and Oliver Lorscheid,
 [*New building blocks for \(\mathbb F_1\)-geometry: bands and band schemes*, §1.2](https://arxiv.org/abs/2402.09612);
 Matthew Baker and Oliver Lorscheid,

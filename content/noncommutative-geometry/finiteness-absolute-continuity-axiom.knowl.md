@@ -30,7 +30,7 @@ The formula requires more than the statement that \(H^\infty\) is a [[algebra-mo
 
 ## Role in reconstruction
 
-Finiteness and absolute continuity are independent of regularity, [[noncommutative-geometry/hochschild-orientability-axiom|Hochschild orientability]], and the first-order condition. In reconstruction proofs, finite projectivity produces a smooth [[fiber-bundles/vector-bundle|vector bundle]] once the algebra has been identified with \(C^\infty(X)\), while absolute continuity identifies \(H\) with its \(L^2\)-space of sections [Rennie–Várilly, §§3.1 and 7](https://arxiv.org/abs/math/0610418).
+Finiteness and absolute continuity are independent of regularity, [[noncommutative-geometry/hochschild-orientability-axiom|Hochschild orientability]], and the first-order condition. In reconstruction proofs, finite projectivity produces a smooth [[fiber-bundles/vector-bundle|vector bundle]] once the algebra has been identified with \(C^\infty(X)\), while absolute continuity identifies \(H\) with its \(L^2\)-space of sections [Rennie–Várilly, §§3.1 and 7].
 
 ## References
 

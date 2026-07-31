@@ -34,7 +34,7 @@ needed for equality. In the unital case the same identity gives
 \(\lVert 1\rVert=1\) unless the algebra is zero. These consequences explain
 why the involution need not be declared continuous as a separate
 \(C^*\)-algebra axiom
-[Murphy, Definition 2.1.1 and following remarks](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, Definition 2.1.1 and following remarks].
 
 ## Spectral rigidity
 

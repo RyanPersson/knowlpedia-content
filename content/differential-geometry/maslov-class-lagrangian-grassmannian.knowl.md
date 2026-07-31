@@ -16,7 +16,7 @@ is well defined. The **Maslov class of the Lagrangian Grassmannian** is
 \[
 \mu_\Lambda=(\det^2)^*\eta\in H^1(\Lambda(n);\mathbb Z),
 \]
-where \(\eta\) is the positively oriented generator of \(H^1(S^1;\mathbb Z)\). The map \(\det^2\) induces an isomorphism on [[topology/fundamental-group|fundamental groups]], so \(\mu_\Lambda\) is a generator of \(H^1(\Lambda(n);\mathbb Z)\) [Arnol'd, 1967](https://doi.org/10.1007/BF01079201). The sign is fixed by declaring counterclockwise rotation of a Lagrangian line through a half-turn to have value \(+1\).
+where \(\eta\) is the positively oriented generator of \(H^1(S^1;\mathbb Z)\). The map \(\det^2\) induces an isomorphism on [[topology/fundamental-group|fundamental groups]], so \(\mu_\Lambda\) is a generator of \(H^1(\Lambda(n);\mathbb Z)\) [Arnol'd, 1967]. The sign is fixed by declaring counterclockwise rotation of a Lagrangian line through a half-turn to have value \(+1\).
 
 ## Evaluation on loops
 
@@ -25,11 +25,11 @@ If \(\ell:S^1\to\Lambda(n)\) is a loop and \(A(t)\) is a path of unitary represe
 \langle\mu_\Lambda,[\ell]\rangle
 =\operatorname{wind}\bigl(\det(A(t))^2\bigr).
 \]
-Although \(A(1)\) may differ from \(A(0)\) by an orthogonal matrix, squaring the determinant makes the phase close. Robbin and Salamon give the equivalent formula using a unitary frame and its determinant phase [Robbin–Salamon, Remark 2.6](https://doi.org/10.1016/0040-9383%2893%2990052-W).
+Although \(A(1)\) may differ from \(A(0)\) by an orthogonal matrix, squaring the determinant makes the phase close. Robbin and Salamon give the equivalent formula using a unitary frame and its determinant phase [Robbin–Salamon, Remark 2.6].
 
 ## Duality with the Maslov cycle
 
-Fix a reference Lagrangian \(L_0\). With its standard coorientation, the [[differential-geometry/maslov-cycle|Maslov cycle]] \(\Sigma(L_0)\) represents the Poincaré dual of \(\mu_\Lambda\) in the intersection-theoretic sense. Therefore a generic loop evaluates on \(\mu_\Lambda\) by its signed number of crossings with \(\Sigma(L_0)\). Changing \(L_0\) changes the representative cycle but not the cohomology class [Arnol'd, 1967](https://doi.org/10.1007/BF01079201).
+Fix a reference Lagrangian \(L_0\). With its standard coorientation, the [[differential-geometry/maslov-cycle|Maslov cycle]] \(\Sigma(L_0)\) represents the Poincaré dual of \(\mu_\Lambda\) in the intersection-theoretic sense. Therefore a generic loop evaluates on \(\mu_\Lambda\) by its signed number of crossings with \(\Sigma(L_0)\). Changing \(L_0\) changes the representative cycle but not the cohomology class [Arnol'd, 1967].
 
 ## Normalization in dimension one
 

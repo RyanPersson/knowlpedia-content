@@ -47,7 +47,7 @@ test-function tensor product, while factors outside \(S\) remain fixed. The
 adelic Schwartz topology is the standard locally convex inductive-limit
 (LF) topology over these finite sets. Completely separated elementary
 tensors are dense in each archimedean completion and hence in the resulting
-adelic space [Weil, Chapter II, “Adeles”](https://doi.org/10.1007/978-3-662-05978-4).
+adelic space [Weil, Chapter II, “Adeles”].
 
 ## Dependence on distinguished vectors
 

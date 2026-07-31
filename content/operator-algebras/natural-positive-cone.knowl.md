@@ -23,7 +23,7 @@ P_\Omega^\natural
 =\{\xi\in H:\langle\xi,\eta\rangle\geq0
 \text{ for every }\eta\in P_\Omega^\natural\}.
 \]
-It is fixed pointwise by \(J\), and \(xJxJ\) maps it into itself for every \(x\in M\). These are structural theorems of modular theory, not extra clauses in the displayed construction [Araki, natural-cone properties](https://doi.org/10.2140/pjm.1974.50.309).
+It is fixed pointwise by \(J\), and \(xJxJ\) maps it into itself for every \(x\in M\). These are structural theorems of modular theory, not extra clauses in the displayed construction [Araki, natural-cone properties].
 
 Every [[operator-algebras/normal-functional|normal positive functional]] on \(M\) is represented by a unique vector \(\xi\in P_\Omega^\natural\) through \(\varphi(x)=\langle x\xi,\xi\rangle\). This uniqueness is one reason the cone is more useful than an arbitrary positive-vector realization.
 

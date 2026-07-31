@@ -23,7 +23,7 @@ Every local section of \(f^*E\) can be written as a finite sum \(\sigma=\sum_i a
 \sum_i da_i\otimes f^*s_i
 +\sum_i a_i f^*(\nabla s_i).
 \]
-This formula is independent of the chosen expression for \(\sigma\). In a local frame with \(\nabla=d+A\), the pullback connection is \(d+f^*A\). The construction and its frame independence are treated in [Tu, chapters on connections and pullbacks](https://doi.org/10.1007/978-3-319-55084-8).
+This formula is independent of the chosen expression for \(\sigma\). In a local frame with \(\nabla=d+A\), the pullback connection is \(d+f^*A\). The construction and its frame independence are treated in [Tu, chapters on connections and pullbacks].
 
 ## Curvature and functoriality
 
@@ -31,7 +31,7 @@ This formula is independent of the chosen expression for \(\sigma\). In a local 
 \[
 R^{f^*\nabla}=f^*R^\nabla.
 \]
-Thus a pullback of a flat connection is flat, although the converse need not hold because \(f\) may miss directions on which the original curvature is nonzero. Pullback is functorial: for \(g:L\to N\), the canonical identification \((f\circ g)^*E\cong g^*f^*E\) carries \((f\circ g)^*\nabla\) to \(g^*(f^*\nabla)\). These naturality statements follow from the local pullback formula; see [Tu, §25](https://doi.org/10.1007/978-3-319-55084-8).
+Thus a pullback of a flat connection is flat, although the converse need not hold because \(f\) may miss directions on which the original curvature is nonzero. Pullback is functorial: for \(g:L\to N\), the canonical identification \((f\circ g)^*E\cong g^*f^*E\) carries \((f\circ g)^*\nabla\) to \(g^*(f^*\nabla)\). These naturality statements follow from the local pullback formula; see [Tu, §25].
 
 If \(i:S\hookrightarrow M\) is an [[differential-geometry/embedded-submanifold|embedded submanifold]], \(i^*\nabla\) is the restriction of \(\nabla\) to directions tangent to \(S\).
 

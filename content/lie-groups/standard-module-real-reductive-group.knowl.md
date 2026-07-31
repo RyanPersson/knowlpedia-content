@@ -31,7 +31,7 @@ distinguishes a standard module from an arbitrary parabolically induced
 representation. The Langlands classification theorem says that a standard
 module has a unique irreducible quotient and that every irreducible admissible
 representation occurs in this way, with its data unique up to the customary
-conjugacies [Langlands, §3, Lemmas 3.13–3.14, and §4, Lemma 4.2](https://publications.ias.edu/sites/default/files/classification-algebraic-groups_rpl_7.pdf).
+conjugacies [Langlands, §3, Lemmas 3.13–3.14, and §4, Lemma 4.2].
 That quotient is the [[lie-groups/langlands-quotient|Langlands quotient]].
 
 ## Example

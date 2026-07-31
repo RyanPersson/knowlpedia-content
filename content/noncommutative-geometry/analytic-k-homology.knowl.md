@@ -16,13 +16,13 @@ Its degree-zero cycles are [[noncommutative-geometry/even-fredholm-module|even F
 
 ## Cycle picture and group structure
 
-In the bounded picture, a cycle consists of a representation and an operator that is self-adjoint, involutive, and central modulo [[linear-algebra/compact-operator|compact operators]], with a grading in even degree. A degenerate cycle has all compact-defect expressions equal to zero and represents the zero class. Stabilization permits harmless degenerate summands, while operator homotopy records continuous deformation of the Fredholm data. Connes identifies \(K_*(A)=KK(A,\mathbb C)\) with stable homotopy classes of Fredholm modules in [Chapter IV, Section 1](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+In the bounded picture, a cycle consists of a representation and an operator that is self-adjoint, involutive, and central modulo [[linear-algebra/compact-operator|compact operators]], with a grading in even degree. A degenerate cycle has all compact-defect expressions equal to zero and represents the zero class. Stabilization permits harmless degenerate summands, while operator homotopy records continuous deformation of the Fredholm data. Connes identifies \(K_*(A)=KK(A,\mathbb C)\) with stable homotopy classes of Fredholm modules in [Chapter IV, Section 1].
 
 Bott periodicity supplies the two-periodic grading, so no further independent degrees are needed. The \(KK\)-notation also places K-homology inside Kasparov's bivariant theory.
 
 ## Relation to spaces and K-theory
 
-If \(X\) is compact Hausdorff, analytic K-homology of \(C(X)\) agrees with the operator-theoretic model of topological K-homology of \(X\). For smooth compact manifolds, elliptic operators provide fundamental examples of its classes. [Connes, Chapter IV, Section 1, discussion following Proposition 2](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+If \(X\) is compact Hausdorff, analytic K-homology of \(C(X)\) agrees with the operator-theoretic model of topological K-homology of \(X\). For smooth compact manifolds, elliptic operators provide fundamental examples of its classes. [Connes, Chapter IV, Section 1, discussion following Proposition 2].
 
 Analytic K-homology is the homological partner of operator K-theory. The [[noncommutative-geometry/even-index-pairing|even index pairing]] and [[noncommutative-geometry/odd-index-pairing|odd index pairing]] give
 \[

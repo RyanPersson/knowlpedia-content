@@ -21,7 +21,7 @@ whose union is
 approximately finite-dimensional. Murray and von Neumann proved that any two
 factors satisfying these conditions are isomorphic, so the definition
 determines a single isomorphism class, conventionally denoted \(R\)
-[Murray–von Neumann, uniqueness theorem for approximately finite factors](https://doi.org/10.2307/1969107).
+[Murray–von Neumann, uniqueness theorem for approximately finite factors].
 Hyperfiniteness is
 an approximation property; \(R\) itself is infinite-dimensional.
 
@@ -45,7 +45,7 @@ For factors with separable predual, hyperfiniteness is equivalent to
 injectivity. Connes proved this implication in the course of classifying
 injective factors; in type \(\mathrm{II}_1\), it identifies every injective
 factor with \(R\)
-[Connes, main classification theorem in the type II₁ case](https://doi.org/10.2307/1971057).
+[Connes, main classification theorem in the type II₁ case].
 This equivalence is a theorem, not part of the defining approximation
 property.
 

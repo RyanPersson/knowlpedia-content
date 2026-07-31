@@ -31,7 +31,7 @@ then \(\varphi\) is nondegenerate exactly when
 \(\varphi(e_i)\to1_{M(B)}\) strictly. For a representation, the corresponding
 criterion is strong convergence \(\pi(e_i)\xi\to\xi\) for every \(\xi\in H\).
 These criteria are independent of the chosen approximate identity
-[Pedersen, §3.12](https://doi.org/10.1016/C2016-0-03431-9).
+[Pedersen, §3.12].
 
 ## Multiplier extension
 
@@ -44,7 +44,7 @@ that agrees with \(\varphi\) on \(A\). Conversely, the restriction of such an
 extension is nondegenerate. This is why nondegenerate homomorphisms, rather
 than arbitrary \(*\)-homomorphisms, are used for multiplier-algebra functoriality,
 correspondences, and covariant representations
-[Lance, §2](https://doi.org/10.1017/CBO9780511526206).
+[Lance, §2].
 
 ## Unital and degenerate cases
 

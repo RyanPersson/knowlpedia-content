@@ -29,7 +29,7 @@ completeness, spectra, positivity, and
 [[operator-algebras/continuous-functional-calculus|continuous functional
 calculus]].
 No boundedness or isometry hypothesis needs to be added to the definition
-[Murphy, §2.1](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, §2.1].
 
 More generally, a
 [[operator-algebras/faithful-star-homomorphism|faithful

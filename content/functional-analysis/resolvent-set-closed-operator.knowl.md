@@ -48,7 +48,7 @@ set \(\rho(T)\). Boundedness here is measured in the ambient norm of \(X\),
 not only in the [[functional-analysis/graph-norm|graph norm]] on
 \(\operatorname{Dom}(T)\). Closedness is what
 turns an algebraic inverse defined on all of \(X\) into a bounded one
-[Kato, Chapter III](https://doi.org/10.1007/978-3-642-66282-9).
+[Kato, Chapter III].
 
 ## Example
 

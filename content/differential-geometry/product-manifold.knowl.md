@@ -24,7 +24,7 @@ There is a canonical vector-space isomorphism between [[differential-geometry/ta
 \[
 T_{(p,q)}(M\times N)\cong T_pM\oplus T_qN.
 \]
-Under this identification, the differential of the first projection is the projection onto \(T_pM\), and similarly for the second. If \(f:P\to M\) and \(g:P\to N\) are smooth, the paired map \((f,g):P\to M\times N\) has differential \(d(f,g)_x=(df_x,dg_x)\). These facts follow directly from product coordinates; see [Lee, Chapter 3](https://doi.org/10.1007/978-1-4419-9982-5).
+Under this identification, the differential of the first projection is the projection onto \(T_pM\), and similarly for the second. If \(f:P\to M\) and \(g:P\to N\) are smooth, the paired map \((f,g):P\to M\times N\) has differential \(d(f,g)_x=(df_x,dg_x)\). These facts follow directly from product coordinates; see [Lee, Chapter 3].
 
 ## Examples and scope
 

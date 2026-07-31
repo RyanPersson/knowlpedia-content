@@ -28,7 +28,7 @@ which is a [[differential-geometry/holomorphic-vector-bundle-morphism|holomorphi
 
 ## Conventions and scope
 
-Some authors write \(T_X\) for the holomorphic bundle or its sheaf of holomorphic sections. It is not the same object as the underlying real tangent bundle \(TX\), whose real rank is \(2n\), nor as the full complexification \(TX\otimes_{\mathbb R}\mathbb C=T^{1,0}X\oplus T^{0,1}X\). The identification with an eigenbundle uses the integrable complex structure [Huybrechts, §2.2](https://doi.org/10.1007/b137952).
+Some authors write \(T_X\) for the holomorphic bundle or its sheaf of holomorphic sections. It is not the same object as the underlying real tangent bundle \(TX\), whose real rank is \(2n\), nor as the full complexification \(TX\otimes_{\mathbb R}\mathbb C=T^{1,0}X\oplus T^{0,1}X\). The identification with an eigenbundle uses the integrable complex structure [Huybrechts, §2.2].
 
 ## References
 

@@ -32,7 +32,7 @@ Changing representatives by \(U_g\mapsto b(g)U_g\) changes \(\sigma\) by a cobou
 
 ## Lifts and central extensions
 
-In a category where the chosen multiplier is continuous or Borel as required, the projective representation lifts to a genuine unitary representation of \(G\) exactly when its multiplier class is trivial. Even when it does not lift on \(G\), it gives a genuine representation of the associated [[algebra-groups/central-extension|central extension]] by \(\mathbb T\). Global lifts and continuous representatives require hypotheses beyond the bare quotient-valued definition [Varadarajan, Chapter VIII](https://doi.org/10.1007/978-0-387-49386-2).
+In a category where the chosen multiplier is continuous or Borel as required, the projective representation lifts to a genuine unitary representation of \(G\) exactly when its multiplier class is trivial. Even when it does not lift on \(G\), it gives a genuine representation of the associated [[algebra-groups/central-extension|central extension]] by \(\mathbb T\). Global lifts and continuous representatives require hypotheses beyond the bare quotient-valued definition [Varadarajan, Chapter VIII].
 
 ## Example
 

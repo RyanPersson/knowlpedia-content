@@ -36,7 +36,7 @@ also implies that Murray–von Neumann
 have equal trace. These statements express that a trace records size without
 depending on a choice of coordinates, while positivity prevents cancellation
 on \(A_+\)
-[Blackadar, §II.6](https://doi.org/10.1007/978-1-4612-0949-3).
+[Blackadar, §II.6].
 
 ## Examples and existence
 

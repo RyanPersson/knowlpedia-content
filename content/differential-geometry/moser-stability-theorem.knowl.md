@@ -30,11 +30,11 @@ If \(\varphi_t\) is its flow, then
 =\varphi_t^*\bigl(\dot\omega_t+\mathcal L_{X_t}\omega_t\bigr)
 =\varphi_t^*\bigl(d\sigma_t-d\sigma_t\bigr)=0.
 \]
-This conversion of a deformation equation into an equation for a flow is the **Moser trick** [Cannas da Silva, “Moser Theorems,” pp. 49–53](https://doi.org/10.1007/978-3-540-45330-7_7).
+This conversion of a deformation equation into an equation for a flow is the **Moser trick** [Cannas da Silva, “Moser Theorems,” pp. 49–53].
 
 ## Relative and local forms
 
-If the family and the chosen primitives satisfy suitable vanishing conditions along a submanifold, \(X_t\) can be arranged to vanish there, and the resulting isotopy fixes that submanifold. Local and relative versions underlie the Darboux theorem and symplectic neighborhood theorems. The exact vanishing order matters when one also requires the derivative of the isotopy to be the identity along the submanifold [McDuff–Salamon, corrected Lemma 3.2.1](https://people.math.ethz.ch/~salamon/PREPRINTS/errINTRO-2018.pdf).
+If the family and the chosen primitives satisfy suitable vanishing conditions along a submanifold, \(X_t\) can be arranged to vanish there, and the resulting isotopy fixes that submanifold. Local and relative versions underlie the Darboux theorem and symplectic neighborhood theorems. The exact vanishing order matters when one also requires the derivative of the isotopy to be the identity along the submanifold [McDuff–Salamon, corrected Lemma 3.2.1].
 
 ## Hypotheses and limitations
 

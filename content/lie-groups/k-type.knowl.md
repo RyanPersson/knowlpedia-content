@@ -20,7 +20,7 @@ For a unitary representation of \(K\), the [[lie-groups/peter-weyl-theorem|Peter
 \[
 V_K=\bigoplus_{\tau\in\widehat K}V(\tau).
 \]
-Thus each \(K\)-finite vector involves only finitely many \(K\)-types, although the representation may contain infinitely many types overall. These decompositions underlie the treatment of [[lie-groups/admissible-representation-real-reductive-group|admissible representations]] in [Knapp, Chapter VIII](https://doi.org/10.1515/9781400883974).
+Thus each \(K\)-finite vector involves only finitely many \(K\)-types, although the representation may contain infinitely many types overall. These decompositions underlie the treatment of [[lie-groups/admissible-representation-real-reductive-group|admissible representations]] in [Knapp, Chapter VIII].
 
 ## Example
 

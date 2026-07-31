@@ -34,8 +34,7 @@ ideals in their ambient semirings. Outside that restricted essential image,
 forming the generated order can add consequences not present in the
 original tract null set.
 
-## Reference
-
+## References
 Matthew Baker and Oliver Lorscheid, “The moduli space of matroids,”
 *Advances in Mathematics* 390 (2021), 107883, Theorem 2.21.
 [arXiv:1809.03542](https://arxiv.org/abs/1809.03542).

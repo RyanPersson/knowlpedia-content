@@ -28,7 +28,7 @@ Conversely, the compatibility of a [[topology/continuous-map|continuous map]] wi
 
 ## Conventions and scope
 
-**Warning.** The phrase “[[algebraic-geometry-foundations/structure-sheaf|structure sheaf]]” depends on the geometric category. For a complex manifold it means holomorphic, not merely smooth or continuous, complex-valued functions. The sections over an open set are actual functions on that set, while elements of a stalk are [[shared-foundations/equivalence-class|equivalence classes]] of functions defined only near one point. The local-ring description and its coordinate model are developed in [Gunning and Rossi, Chapter I](https://doi.org/10.1090/chel/368).
+**Warning.** The phrase “[[algebraic-geometry-foundations/structure-sheaf|structure sheaf]]” depends on the geometric category. For a complex manifold it means holomorphic, not merely smooth or continuous, complex-valued functions. The sections over an open set are actual functions on that set, while elements of a stalk are [[shared-foundations/equivalence-class|equivalence classes]] of functions defined only near one point. The local-ring description and its coordinate model are developed in [Gunning and Rossi, Chapter I].
 
 ## References
 

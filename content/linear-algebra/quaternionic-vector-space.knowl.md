@@ -29,7 +29,7 @@ finite-dimensional space of quaternionic dimension \(n\) is isomorphic to
 \(\mathbb H^n\) and has underlying real dimension \(4n\). Right-linear
 endomorphisms of column vectors in \(\mathbb H^n\) are represented by
 quaternionic matrices acting on the left
-[Givental, Supplement E, pp. 191–193](https://math.berkeley.edu/~giventh/la/la_15_sE.pdf).
+[Givental, Supplement E, pp. 191–193].
 
 ## Passing between right and left conventions
 
@@ -39,7 +39,7 @@ not permission to move scalars through vectors: generally \(vq\) and \(qv\)
 are not two notations for the same product. Many geometric texts choose right
 modules so that matrix groups act from the left; the convention and its use in
 quaternionic geometry are described in
-[Salamon, §1.5](https://search.worldcat.org/title/18522302).
+[Salamon, §1.5].
 
 ## Examples and near-misses
 

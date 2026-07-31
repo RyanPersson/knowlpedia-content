@@ -24,7 +24,7 @@ A [[fiber-bundles/connection-on-a-vector-bundle|connection on \(E\)]] extends th
 \[
 d_\nabla:\Omega^k(M;E)\longrightarrow\Omega^{k+1}(M;E).
 \]
-Unlike the scalar exterior derivative, this operator depends on the chosen connection; see [Kobayashi and Nomizu, Volume I, Chapter II](https://www.wiley-vch.de/en/areas-interest/mathematics-statistics/mathematics-16ma/geometry-topology-16ma6/foundations-of-differential-geometry-volume-1-978-0-471-15733-5).
+Unlike the scalar exterior derivative, this operator depends on the chosen connection; see [Kobayashi and Nomizu, Volume I, Chapter II].
 
 ## Local form and pullback
 

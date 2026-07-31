@@ -33,7 +33,7 @@ the cohomology obtained from Connes's \((b,B)\)-bicomplex, where \(B\) is the
 cyclic operator that shifts degree oppositely to \(b\). The mixed-complex
 viewpoint naturally produces [[noncommutative-geometry/periodic-cyclic-cohomology|periodic cyclic cohomology]] and the long exact
 SBI sequence relating Hochschild and cyclic theories
-[Loday, chapters 2–5](https://doi.org/10.1007/978-3-662-11389-9).
+[Loday, chapters 2–5].
 
 ## Pairings and geometric role
 
@@ -41,7 +41,7 @@ Cyclic cocycles pair with algebraic \(K\)-theory classes: even cocycles pair
 with idempotents and odd cocycles with invertibles. In noncommutative geometry,
 these pairings generalize [[differential-geometry/integration-of-differential-forms|integration of differential forms]] and express index
 pairings. The cyclic [[noncommutative-geometry/chern-character-fredholm-module|Chern character of a Fredholm module]] is a central example
-[Connes, §§II.1–II.3](https://doi.org/10.1007/BF02698807).
+[Connes, §§II.1–II.3].
 
 ## Conventions and scope
 

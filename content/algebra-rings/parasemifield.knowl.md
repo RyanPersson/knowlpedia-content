@@ -18,7 +18,6 @@ multiplication, and only its nonzero elements form a multiplicative group.
 Removing the additive zero from an idempotent semifield produces an
 idempotent parasemifield.
 
-## Reference
-
+## References
 Jonathan S. Golan, *Semirings and their Applications*, Kluwer, 1999.
 [DOI](https://doi.org/10.1007/978-94-015-9333-5).

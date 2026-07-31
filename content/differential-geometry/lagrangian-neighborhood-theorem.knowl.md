@@ -16,7 +16,7 @@ whose restriction to the zero section is the given inclusion \(L\hookrightarrow 
 
 ## Relative formulation
 
-A useful equivalent form compares two symplectic manifolds containing copies of the same Lagrangian \(L\). If a diffeomorphism between those copies is fixed, then it extends, after shrinking neighborhoods, to a symplectomorphism near \(L\). Taking one ambient manifold to be \(T^*L\) and one copy to be its zero section gives the stated form. This is the Lagrangian case of Weinstein's neighborhood results [Weinstein, Theorem 6.1](https://doi.org/10.1016/0001-8708%2871%2990020-X).
+A useful equivalent form compares two symplectic manifolds containing copies of the same Lagrangian \(L\). If a diffeomorphism between those copies is fixed, then it extends, after shrinking neighborhoods, to a symplectomorphism near \(L\). Taking one ambient manifold to be \(T^*L\) and one copy to be its zero section gives the stated form. This is the Lagrangian case of Weinstein's neighborhood results [Weinstein, Theorem 6.1].
 
 ## Proof idea
 

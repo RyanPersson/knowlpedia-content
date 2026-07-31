@@ -33,8 +33,7 @@ x\in\mathcal O_v\quad\text{or}\quad x^{-1}\in\mathcal O_v.
 Conversely, a subring \(R\subseteq K\) with this property is a valuation ring
 of \(K\) for a suitable ordered value group.
 
-## Reference
-
+## References
 Irving Kaplansky, “Maximal fields with valuations,” *Duke Mathematical
 Journal* 9 (1942), 303–321.
 [DOI](https://doi.org/10.1215/S0012-7094-42-00922-0).

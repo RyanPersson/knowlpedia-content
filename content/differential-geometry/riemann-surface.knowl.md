@@ -16,7 +16,7 @@ A function \(f:X\to\mathbb C\) is holomorphic precisely when \(f\circ z_\alpha^{
 
 ## Underlying orientation
 
-Every Riemann surface has a canonical orientation as a real surface. Indeed, a holomorphic transition map with nonzero complex derivative has positive real [[real-analysis/jacobian-determinant|Jacobian determinant]] \(\lvert f'(z)\rvert^2\), so its complex charts are orientation-compatible. This orientation is part of the structure induced by the [[differential-geometry/complex-atlas|complex atlas]], not extra data chosen afterward. The basic manifold and mapping conventions are presented in [Forster, §§1–2](https://doi.org/10.1007/978-1-4612-5961-9).
+Every Riemann surface has a canonical orientation as a real surface. Indeed, a holomorphic transition map with nonzero complex derivative has positive real [[real-analysis/jacobian-determinant|Jacobian determinant]] \(\lvert f'(z)\rvert^2\), so its complex charts are orientation-compatible. This orientation is part of the structure induced by the [[differential-geometry/complex-atlas|complex atlas]], not extra data chosen afterward. The basic manifold and mapping conventions are presented in [Forster, §§1–2].
 
 ## Examples and conventions
 

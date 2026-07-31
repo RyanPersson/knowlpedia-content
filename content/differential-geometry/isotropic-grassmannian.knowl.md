@@ -22,7 +22,7 @@ The [[lie-groups/symplectic-group|symplectic group]] of \((V,\omega)\) acts tran
 \[
 k(2n-k)-\binom{k}{2}.
 \]
-This results from imposing the \(\binom{k}{2}\) independent equations expressing the vanishing of \(\omega\) on the tautological \(k\)-plane [Fulton–Harris, §17.3](https://doi.org/10.1007/978-1-4612-0979-9).
+This results from imposing the \(\binom{k}{2}\) independent equations expressing the vanishing of \(\omega\) on the tautological \(k\)-plane [Fulton–Harris, §17.3].
 
 ## Extremal cases and examples
 

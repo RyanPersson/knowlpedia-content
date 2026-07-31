@@ -31,7 +31,7 @@ If \(\omega\) is a
 its kernel is primitive. Conversely, every primitive ideal is the kernel of
 an irreducible GNS representation associated with a suitable pure state after
 the standard treatment of nonunital algebras
-[Dixmier, §2.5](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/15/suppl/C).
+[Dixmier, §2.5].
 
 Every maximal proper closed [[algebra-rings/two-sided-ideal|two-sided ideal]] is primitive: its simple quotient
 has a faithful irreducible representation. The converse fails in general; a
@@ -44,7 +44,7 @@ Every primitive ideal of a \(C^*\)-algebra is prime: if closed two-sided
 ideals \(I,J\) satisfy \(IJ\subseteq P\), then \(I\subseteq P\) or
 \(J\subseteq P\). For separable \(C^*\)-algebras, every [[algebra-rings/prime-ideal|prime ideal]] is
 primitive, but without separability the converse can fail
-[Pedersen, chapter on primitive ideals](https://doi.org/10.1016/C2016-0-03431-9).
+[Pedersen, chapter on primitive ideals].
 This is a theorem with a hypothesis, not an alternative unconditional
 definition.
 

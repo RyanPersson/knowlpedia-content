@@ -37,7 +37,7 @@ Every vector functional belongs to the
 Thus vector functionals linearly generate the predual, although a given
 [[operator-algebras/normal-functional|normal functional]] need not be a
 single vector functional in the chosen representation
-[Kadison–Ringrose, §5.2](https://doi.org/10.1090/gsm/015).
+[Kadison–Ringrose, §5.2].
 
 ## Concrete examples
 

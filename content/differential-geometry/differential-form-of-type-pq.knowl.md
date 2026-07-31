@@ -38,7 +38,7 @@ Complex conjugation exchanges bidegrees: \(\overline{\Omega^{p,q}}=\Omega^{q,p}\
 
 ## Relation to complex geometry
 
-The [[differential-geometry/dolbeault-operators|Dolbeault operators]] split the [[fiber-bundles/exterior-derivative|exterior derivative]] according to this bidegree. The pointwise decomposition itself only requires an [[differential-geometry/almost-complex-structure|almost-complex structure]], but holomorphic coordinates and the two-term decomposition of the exterior derivative require [[differential-geometry/integrable-almost-complex-structure|integrability]]; see [Voisin, vol. I, §2.1](https://doi.org/10.1017/CBO9780511615344).
+The [[differential-geometry/dolbeault-operators|Dolbeault operators]] split the [[fiber-bundles/exterior-derivative|exterior derivative]] according to this bidegree. The pointwise decomposition itself only requires an [[differential-geometry/almost-complex-structure|almost-complex structure]], but holomorphic coordinates and the two-term decomposition of the exterior derivative require [[differential-geometry/integrable-almost-complex-structure|integrability]]; see [Voisin, vol. I, §2.1].
 
 ## References
 

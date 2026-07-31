@@ -32,7 +32,7 @@ A \(*\)-homomorphism \(f:A\to B\) sends a projection \(p\) to its matrix
 amplification \(f^{(n)}(p)\), inducing a homomorphism
 \(K_0(f):K_0(A)\to K_0(B)\). The construction and its nonunital normalization
 are developed in
-[Blackadar, Chapter III](https://doi.org/10.1017/9781009701907).
+[Blackadar, Chapter III].
 
 ## Basic properties
 

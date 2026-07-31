@@ -30,7 +30,7 @@ An ambient isotopy produces a
 theorem and requires hypotheses, typically including properness or compact
 support conditions. Hirsch proves standard extension results for
 submanifolds in
-[Hirsch, Chapter 8](https://doi.org/10.1007/978-1-4684-9449-5).
+[Hirsch, Chapter 8].
 
 ## Examples and invariants
 

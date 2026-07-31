@@ -50,7 +50,7 @@ dense. If \((\pi,\mathcal H,\xi)\) is another cyclic realization of
 \]
 preserves inner products. It therefore extends to the unique unitary
 intertwiner required above. This is the group form of the Gelfand–Naimark–Segal
-construction [Folland, Theorem 3.20](https://doi.org/10.1201/B19172).
+construction [Folland, Theorem 3.20].
 
 ## Degenerate and normalized cases
 

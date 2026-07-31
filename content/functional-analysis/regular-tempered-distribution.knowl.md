@@ -36,7 +36,7 @@ almost everywhere for some \(C,N\), then \(f\) defines a regular tempered
 distribution. More generally, it suffices that the integral of \(|f|\) over
 balls grow at most polynomially. Pointwise polynomial growth is therefore a
 convenient sufficient condition, not the definition
-[Hörmander, §7.1](https://doi.org/10.1007/978-3-642-61497-2).
+[Hörmander, §7.1].
 
 ## Examples
 

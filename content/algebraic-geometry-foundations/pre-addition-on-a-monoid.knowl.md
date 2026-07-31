@@ -32,6 +32,5 @@ The third condition says that the pre-addition is **proper**: it does not identi
 
 A [[algebraic-geometry-foundations/blueprint|blueprint]] \(A/\!/\mathcal R\) records the multiplication of \(A\) together with the additive relations in \(\mathcal R\). Quotienting all formal sums by \(\mathcal R\) produces its [[algebraic-geometry-foundations/semiring-completion-of-a-blueprint|semiring completion]].
 
-## Reference
-
+## References
 Oliver Lorscheid, [*The geometry of blueprints, Part I: Algebraic background and scheme theory*, §1.1](https://arxiv.org/abs/1103.1745).

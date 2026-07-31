@@ -32,7 +32,7 @@ Equivalently, each of the ranges \(\operatorname{Ran}(T+i)\) and
 a criterion for an already closed self-adjoint operator; density is the
 correct criterion for the unclosed operator \(T\). These equivalences follow
 from the self-adjoint extension theory in
-[Schmüdgen, Chapter 13](https://doi.org/10.1007/978-94-007-4753-1).
+[Schmüdgen, Chapter 13].
 
 ## Cores and closure
 

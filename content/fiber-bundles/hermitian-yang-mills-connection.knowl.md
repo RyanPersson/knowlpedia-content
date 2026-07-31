@@ -20,13 +20,13 @@ for a real constant \(\lambda\), where \(\Lambda_\omega\) is contraction with \(
 
 Integrability \(F_A^{0,2}=0\) is a separate requirement: constant central contraction alone does not define a Hermitian Yang–Mills connection. When the holomorphic structure and [[fiber-bundles/hermitian-metric|Hermitian metric]] are fixed from the outset, authors often omit the first equation because it is automatic for the Chern connection.
 
-On a compact [[differential-geometry/kahler-manifold|Kähler manifold]], the constant \(\lambda\) is determined by the degree, rank, and volume of \(E\), with its numerical factor depending on the convention for \(\Lambda_\omega\) and volume. The [[differential-geometry/kahler-identities|Kähler identities]] imply that a Hermitian Yang–Mills connection satisfies the ordinary [[fiber-bundles/yangmills-equation|Yang–Mills equation]] [Kobayashi, Chapter IV, §1](https://doi.org/10.1515/9781400858682).
+On a compact [[differential-geometry/kahler-manifold|Kähler manifold]], the constant \(\lambda\) is determined by the degree, rank, and volume of \(E\), with its numerical factor depending on the convention for \(\Lambda_\omega\) and volume. The [[differential-geometry/kahler-identities|Kähler identities]] imply that a Hermitian Yang–Mills connection satisfies the ordinary [[fiber-bundles/yangmills-equation|Yang–Mills equation]] [Kobayashi, Chapter IV, §1].
 
 ## Examples and consequences
 
 A flat unitary connection is Hermitian Yang–Mills with \(\lambda=0\) whenever its \((0,1)\)-part defines the chosen holomorphic structure. On a [[differential-geometry/holomorphic-line-bundle|holomorphic line bundle]], the equation asks the scalar contraction of the Chern curvature to be constant.
 
-For compact Kähler manifolds, the Kobayashi–Hitchin correspondence relates Hermitian Yang–Mills metrics to polystability of holomorphic bundles. This is an existence theorem, not part of the definition, and its precise hypotheses vary with the setting [Lübke–Teleman, Chapter 2](https://doi.org/10.1142/9789812811750).
+For compact Kähler manifolds, the Kobayashi–Hitchin correspondence relates Hermitian Yang–Mills metrics to polystability of holomorphic bundles. This is an existence theorem, not part of the definition, and its precise hypotheses vary with the setting [Lübke–Teleman, Chapter 2].
 
 ## Conventions and scope
 

@@ -30,7 +30,7 @@ a \(C^*\)-subalgebra, with \(\lVert P\rVert=1\), is positive,
 expectation in the core definition is such a norm-one projection. Thus many
 sources define a conditional expectation simply as a contractive projection
 onto \(B\); the substantial bimodule and positivity properties then follow
-[Takesaki, vol. I, §IV.2](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, vol. I, §IV.2].
 
 ## Basic properties
 

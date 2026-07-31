@@ -23,6 +23,5 @@ Since \(\mathcal R_{\min}\subseteq\mathcal R_R\), the identity on \(R^\bullet\) 
 \]
 It is the universal morphism from the monoid blueprint that imposes the additive equalities of \(R\). Its source has the free-semiring completion on \(R^\bullet\), whereas its target has [[algebraic-geometry-foundations/semiring-completion-of-a-blueprint|semiring completion]] \(R\); therefore this morphism is generally not an isomorphism.
 
-## Reference
-
+## References
 Oliver Lorscheid, [*The geometry of blueprints, Part I*, §§1.1–1.2](https://arxiv.org/abs/1103.1745).

@@ -16,7 +16,7 @@ A **boundary chart** on \(M\) is a pair \((U,\varphi)\) in its [[fiber-bundles/s
 
 ## Why relative openness matters
 
-A neighborhood of a point on \(\partial\mathbb H^n\) is not open in \(\mathbb R^n\), but it is open in the [[topology/subspace-topology|subspace topology]] of \(\mathbb H^n\). Requiring relative openness therefore gives boundary points genuine manifold neighborhoods while retaining ordinary Euclidean neighborhoods at points with \(x^n>0\). Smoothness is tested by extensions to Euclidean-open sets because ordinary derivatives are not intrinsically defined on a one-sided domain. This is the half-space chart convention used in [Lee, Chapter 1, “Smooth Manifolds”](https://doi.org/10.1007/978-1-4419-9982-5).
+A neighborhood of a point on \(\partial\mathbb H^n\) is not open in \(\mathbb R^n\), but it is open in the [[topology/subspace-topology|subspace topology]] of \(\mathbb H^n\). Requiring relative openness therefore gives boundary points genuine manifold neighborhoods while retaining ordinary Euclidean neighborhoods at points with \(x^n>0\). Smoothness is tested by extensions to Euclidean-open sets because ordinary derivatives are not intrinsically defined on a one-sided domain. This is the half-space chart convention used in [Lee, Chapter 1, “Smooth Manifolds”].
 
 ## Basic consequences
 
@@ -32,4 +32,4 @@ The map from a neighborhood of \(0\) in \([0,\infty)\) onto an interval \((-\var
 
 ## References
 
-1. John M. Lee, *Introduction to Smooth Manifolds*, 2nd ed., Graduate Texts in Mathematics 218, Springer, 2012. [Publisher record](https://doi.org/10.1007/978-1-4419-9982-5). Relevant: Chapter 1, “Smooth Manifolds,” especially smooth manifolds with boundary.
+1. John M. Lee, *Introduction to Smooth Manifolds*, 2nd ed., Graduate Texts in Mathematics 218, Springer, 2012. [Publisher record]. Relevant: Chapter 1, “Smooth Manifolds,” especially smooth manifolds with boundary.

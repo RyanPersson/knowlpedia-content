@@ -34,7 +34,7 @@ with a weight. Faithfulness is exactly the assertion
 \(\mathfrak n_\varphi^0=\{0\}\). For a nonfaithful weight, quotienting by this
 ideal removes directions invisible to \(\varphi\), just as the null space is
 removed in the [[operator-algebras/gns-construction|GNS construction]] for a [[operator-algebras/positive-linear-functional|positive functional]]
-[Takesaki, vol. I, Chapter VII, §1](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, vol. I, Chapter VII, §1].
 
 ## Support
 

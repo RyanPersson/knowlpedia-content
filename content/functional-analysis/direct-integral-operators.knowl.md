@@ -46,7 +46,7 @@ f(A)=\int_X^\oplus f(A_x)\,d\mu(x)
 \]
 for bounded Borel \(f\). These results are part of the direct-integral
 operator theory in
-[Takesaki, Chapter IV, §8](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter IV, §8].
 
 ## Examples and scope
 

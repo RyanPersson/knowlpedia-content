@@ -34,7 +34,7 @@ an \(H\)-intertwiner \(S\) determines
 \]
 Compactness ensures that this function is square-integrable and that the
 construction is bounded. The two operations are inverse
-[Folland, section “The Frobenius Reciprocity Theorem”](https://doi.org/10.1201/B19172).
+[Folland, section “The Frobenius Reciprocity Theorem”].
 
 ## Multiplicity form
 
@@ -59,7 +59,7 @@ General reciprocity results therefore use extra square-integrability or
 admissibility hypotheses, different topological categories, or modified
 intertwiner spaces. Mackey's analytic theory makes these domain and
 boundedness issues explicit
-[Mackey, pp. 193–221](https://doi.org/10.2307/1969786).
+[Mackey, pp. 193–221].
 
 ## References
 

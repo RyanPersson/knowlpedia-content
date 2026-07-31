@@ -26,7 +26,7 @@ At each \(m\in\mu^{-1}(0)\), the [[differential-geometry/tangent-space|tangent s
 \[
 \pi^*(d\omega_{\mathrm{red}})=d(i^*\omega)=0
 \]
-and injectivity of pullback by a surjective submersion [Marsden–Weinstein, reduction theorem](https://doi.org/10.1016/0034-4877%2874%2990021-4).
+and injectivity of pullback by a surjective submersion [Marsden–Weinstein, reduction theorem].
 
 ## Dimension count and examples
 

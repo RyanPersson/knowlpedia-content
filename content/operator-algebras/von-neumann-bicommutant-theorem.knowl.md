@@ -34,7 +34,7 @@ to approximate \(T\xi\) by vectors \(a\xi\), with \(a\in A\), for every
 \(T\in A''\). Applying the same argument to finite direct sums of \(H\)
 simultaneously approximates \(T\) on any finite set of vectors, which is
 exactly strong-operator approximation
-[Kadison–Ringrose, Theorem 5.3.1](https://doi.org/10.1090/gsm/015).
+[Kadison–Ringrose, Theorem 5.3.1].
 
 ## Hypotheses and consequences
 

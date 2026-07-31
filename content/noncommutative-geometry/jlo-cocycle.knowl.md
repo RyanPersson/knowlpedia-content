@@ -32,7 +32,7 @@ Hölder inequalities for trace ideals, together with
 of the simplex. The simplex volume supplies factorial decay in the cochain
 degree. These estimates establish the entire-growth condition, not merely
 termwise finiteness
-[Jaffe–Leśniewski–Osterwalder, §§2–4](https://doi.org/10.1007/BF01218474).
+[Jaffe–Leśniewski–Osterwalder, §§2–4].
 
 ## Cohomological meaning
 

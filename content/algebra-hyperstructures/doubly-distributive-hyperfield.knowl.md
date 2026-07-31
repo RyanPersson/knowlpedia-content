@@ -35,7 +35,6 @@ distributive. Every doubly distributive hyperfield is
 [[algebra-hyperstructures/doubly-distributive-hyperfields-are-stringent|stringent]],
 but the converse fails.
 
-## Reference
-
+## References
 Nathan Bowler and Ting Su,
 [*Classification of doubly distributive skew hyperfields and stringent hypergroups*, Definition 2.8](https://arxiv.org/abs/2003.03751).

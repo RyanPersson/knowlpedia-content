@@ -39,7 +39,7 @@ Breuer index is
 Unlike the classical Fredholm index, this value may be any real number because
 the trace of a projection in a semifinite algebra need not be integral. The
 criterion and index originate in
-[Breuer, §§1–3](https://doi.org/10.1007/BF01350663).
+[Breuer, §§1–3].
 
 ## Stability and examples
 
@@ -49,7 +49,7 @@ index is locally constant. Adding an element of
 For \(\mathcal M=B(H)\) with the ordinary trace, tau-compact operators are the
 usual [[linear-algebra/compact-operator|compact operators]], so the definition
 and index reduce to classical Fredholm theory
-[Breuer, §§1–3](https://doi.org/10.1007/BF01350663).
+[Breuer, §§1–3].
 
 If \(\tau(1)<\infty\), then
 \(\mathcal K(\mathcal M,\tau)=\mathcal M\), the quotient is zero, and the
@@ -70,7 +70,7 @@ tau-compact operators for the resolvent or spectral projections near zero.
 This unbounded form is the one used in
 [[noncommutative-geometry/semifinite-spectral-triple|semifinite spectral
 triples]] and [[noncommutative-geometry/spectral-flow|spectral flow]]
-[Carey–Phillips–Rennie–Sukochev, §2](https://arxiv.org/abs/math/0411019).
+[Carey–Phillips–Rennie–Sukochev, §2].
 
 ## References
 

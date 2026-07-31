@@ -31,8 +31,7 @@ intertwining equation is equivalent to \(f\) being a
 structures it remains meaningful, notably for pseudoholomorphic curves in
 symplectic geometry.
 
-## Reference
-
+## References
 Dusa McDuff and Dietmar Salamon, *J-Holomorphic Curves and Symplectic
 Topology*, 2nd ed., AMS, 2012.
 [DOI record](https://doi.org/10.1090/coll/052). Relevant: Chapter 2.

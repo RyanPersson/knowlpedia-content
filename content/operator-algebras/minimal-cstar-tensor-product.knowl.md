@@ -33,7 +33,7 @@ appropriate tensor-product sense. Faithfulness of \(\pi\) and \(\rho\) makes
 the resulting algebraic representation faithful. The nontrivial independence
 theorem says that changing either faithful representation leaves the induced
 norm unchanged
-[Takesaki, Chapter IV, §4](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter IV, §4].
 
 ## Functoriality and injectivity
 

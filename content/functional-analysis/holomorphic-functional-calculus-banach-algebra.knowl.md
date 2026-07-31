@@ -34,7 +34,7 @@ also satisfies the [[operator-algebras/spectral-mapping-theorem|spectral mapping
 If \(g\) is holomorphic near \(f(\sigma_A(a))\), then
 \((g\mathbin{\circ}f)(a)=g(f(a))\). These properties follow from the resolvent
 identity and the Cauchy integral formula
-[Murphy, §1.3](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, §1.3].
 
 ## Spectral projections and comparison
 
@@ -43,7 +43,7 @@ by open neighborhoods. A locally constant holomorphic function that is one
 near the first subset and zero near the second produces an idempotent
 \(p=f(a)\), called a Riesz spectral projection. Thus the calculus can isolate
 spectral components even when \(a\) is not normal
-[Murphy, §1.3](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, §1.3].
 
 When \(A\) is a \(C^*\)-algebra and \(a\) is normal, this construction agrees
 with the [[operator-algebras/continuous-functional-calculus|continuous functional calculus]] on functions that are holomorphic near the spectrum.
@@ -56,7 +56,7 @@ not determine an admissible function in general. Reversing the convention from
 \((z1_A-a)^{-1}\) to \((a-z1_A)^{-1}\) changes the contour sign. For a
 nonunital algebra, one first passes to its unitization and checks whether the
 result lies in the original algebra when that distinction matters
-[Bonsall–Duncan, Chapter III](https://link.springer.com/book/9783540373865).
+[Bonsall–Duncan, Chapter III].
 
 ## References
 

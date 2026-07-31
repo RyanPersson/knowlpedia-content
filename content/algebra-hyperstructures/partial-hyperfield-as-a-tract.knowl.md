@@ -30,8 +30,7 @@ construction]]. Taking \(G=R^\times\) with \(R\) a hyperfield specializes to
 the [[algebra-hyperstructures/hyperfield-as-a-tract|hyperfield
 construction]].
 
-## Reference
-
+## References
 Matthew Baker and Nathan Bowler, “Matroids over partial hyperstructures,”
 *Advances in Mathematics* 343 (2019), 821–863.
 [arXiv:1709.09707](https://arxiv.org/abs/1709.09707).

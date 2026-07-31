@@ -16,7 +16,7 @@ where \(U\) ranges over all [[lie-groups/strongly-continuous-unitary-representat
 
 ## Universal representation property
 
-Every strongly continuous unitary representation \(U\) of \(G\) integrates uniquely to a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate]] [[operator-algebras/cstar-representation|representation]] of the [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(C^*(G)\). Conversely, every nondegenerate representation of \(C^*(G)\) comes from a unique \(U\). For nondiscrete \(G\), the individual operators \(U_s\) are generally represented by unitaries in the [[operator-algebras/multiplier-algebra|multiplier algebra]], not by elements of \(C^*(G)\) itself [Williams, chapter 2 and appendix A](https://doi.org/10.1090/surv/134).
+Every strongly continuous unitary representation \(U\) of \(G\) integrates uniquely to a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate]] [[operator-algebras/cstar-representation|representation]] of the [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(C^*(G)\). Conversely, every nondegenerate representation of \(C^*(G)\) comes from a unique \(U\). For nondiscrete \(G\), the individual operators \(U_s\) are generally represented by unitaries in the [[operator-algebras/multiplier-algebra|multiplier algebra]], not by elements of \(C^*(G)\) itself [Williams, chapter 2 and appendix A].
 
 ## Full versus reduced
 

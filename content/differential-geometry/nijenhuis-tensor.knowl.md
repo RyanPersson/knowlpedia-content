@@ -27,7 +27,6 @@ The [[differential-geometry/newlander-nirenberg-theorem|Newlander–Nirenberg
 theorem]] identifies the vanishing of \(N_J\) with integrability in the
 smooth category.
 
-## Reference
-
+## References
 Daniel Huybrechts, *Complex Geometry: An Introduction*, Springer, 2005.
 [DOI record](https://doi.org/10.1007/b137952). Relevant: Chapter 1.

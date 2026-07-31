@@ -21,7 +21,7 @@ such that \(\Phi(\pi(a))=\pi(a)\) for every \(a\in A\). Here
 \(\pi(A)\). Equivalently, it suffices to use the universal representation,
 where the [[operator-algebras/bicommutant|double commutant]] is \(A^{**}\). The map \(\Phi\) is called a
 **weak expectation**
-[Brown–Ozawa, §3.3](https://doi.org/10.1090/gsm/088).
+[Brown–Ozawa, §3.3].
 
 ## Interpretation and distinctions
 
@@ -47,7 +47,7 @@ A\otimes_{\max}C\longrightarrow B(H)\otimes_{\max}C
 \]
 is isometric. This makes WEP a regularity condition governing how \(A\)
 sits inside larger operator algebras
-[Lance, pp. 157–176](https://doi.org/10.1016/0022-1236%2873%2990021-9).
+[Lance, pp. 157–176].
 
 Every [[operator-algebras/nuclear-cstar-algebra|nuclear \(C^*\)-algebra]]
 has WEP. Also \(B(H)\) has WEP, witnessed by the identity map. These examples

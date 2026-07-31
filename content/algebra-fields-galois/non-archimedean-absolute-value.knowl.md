@@ -28,7 +28,6 @@ It induces the ultrametric \(d(x,y)=|x-y|\). If
 is a non-Archimedean absolute value. Conversely, taking
 \(-\log|x|\) recovers an additive real-valued valuation.
 
-## Reference
-
+## References
 Oleg Viro, “Hyperfields for Tropical Geometry I: Hyperfields and
 dequantization,” 2010. [arXiv:1006.3034](https://arxiv.org/abs/1006.3034).

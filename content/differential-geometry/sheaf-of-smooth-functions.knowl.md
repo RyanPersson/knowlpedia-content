@@ -35,7 +35,7 @@ C^\infty_{N,F(p)}\longrightarrow C^\infty_{M,p}.
 \]
 These are local \(C^\infty\)-ring homomorphisms, not merely homomorphisms of
 the underlying real algebras.
-The sheaf records the smooth structure algebraically: [[fiber-bundles/vector-field|vector fields]] act as local derivations of it, differential forms can be organized as modules over it, and [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|partitions of unity]] let local smooth constructions be patched globally. This algebraic viewpoint is developed in [Nestruev, Chapters 1–5](https://doi.org/10.1007/978-3-030-45650-4).
+The sheaf records the smooth structure algebraically: [[fiber-bundles/vector-field|vector fields]] act as local derivations of it, differential forms can be organized as modules over it, and [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|partitions of unity]] let local smooth constructions be patched globally. This algebraic viewpoint is developed in [Nestruev, Chapters 1–5].
 
 ## Conventions and scope
 

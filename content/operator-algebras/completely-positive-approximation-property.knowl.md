@@ -42,7 +42,7 @@ retaining positivity at every matrix level.
 
 A \(C^*\)-algebra has CPAP if and only if it is a
 [[operator-algebras/nuclear-cstar-algebra|nuclear \(C^*\)-algebra]]
-[Brown–Ozawa, Theorem 2.3.8](https://doi.org/10.1090/gsm/088). One direction
+[Brown–Ozawa, Theorem 2.3.8]. One direction
 uses completely positive factorizations to compare tensor norms; the other
 extracts finite-dimensional approximations from nuclearity. This equivalence
 is why CPAP is often used as the working definition of nuclearity, although
@@ -61,7 +61,7 @@ contraction, CPAP implies the metric approximation property of the underlying
 [[linear-algebra/banach-space|Banach space]]. The converse fails: complete positivity and the
 matrix-factorization structure contain information absent from ordinary
 finite-rank approximation
-[Choi–Effros, pp. 61–79](https://doi.org/10.2307/2373876).
+[Choi–Effros, pp. 61–79].
 
 ## Conventions and scope
 

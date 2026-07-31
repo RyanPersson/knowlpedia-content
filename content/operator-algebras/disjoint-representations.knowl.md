@@ -29,7 +29,7 @@ nonzero [[functional-analysis/partial-isometry|partial isometry]] intertwining
 the two representations. Its initial and final spaces then carry unitarily
 equivalent subrepresentations. This proves the equivalence between the two
 formulations in the core
-[Dixmier, Chapter 5, §5.2](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/15/suppl/C).
+[Dixmier, Chapter 5, §5.2].
 
 After passing to the universal representation of \(A\), each \(\pi_i\) has a
 normal extension to a central summand of \(A^{**}\). The representations are
@@ -46,7 +46,7 @@ so two nonzero unitarily equivalent representations are never disjoint.
 precludes disjointness for nonzero representations, but it permits different
 Hilbert-space multiplicities. [[operator-algebras/factorial-representation|Factor representations]] exhibit the basic
 dichotomy: two factor representations are either quasi-equivalent or disjoint
-[Takesaki, Chapter III, §2](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter III, §2].
 
 ## Examples and scope
 

@@ -35,7 +35,7 @@ For positive maps, it is enough to test monotone preservation on increasing
 nets of projections. These formulations let one pass between weak-star
 continuity, [[operator-algebras/normal-functional|normal functionals]], and
 order convergence
-[Takesaki, chapters on normal maps and positive maps](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, chapters on normal maps and positive maps].
 
 ## Examples and a non-example
 

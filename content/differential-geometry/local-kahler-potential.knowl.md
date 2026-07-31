@@ -28,7 +28,7 @@ On \(\mathbb C^n\),
 \[
 \varphi(z)=\sum_{j=1}^n|z^j|^2
 \]
-is a potential for the standard form \(i\sum_j dz^j\wedge d\bar z^j\). On the affine chart of [[algebraic-geometry-foundations/projective-space|complex projective space]], \(\log(1+|z|^2)\) is a potential for the Fubini–Study form, up to the normalization chosen for that form; Demailly gives the normalized formula in [Chapter VI, §4, Example 4.4](https://www-fourier.univ-grenoble-alpes.fr/~demailly/manuscripts/agbook.pdf).
+is a potential for the standard form \(i\sum_j dz^j\wedge d\bar z^j\). On the affine chart of [[algebraic-geometry-foundations/projective-space|complex projective space]], \(\log(1+|z|^2)\) is a potential for the Fubini–Study form, up to the normalization chosen for that form; Demailly gives the normalized formula in [Chapter VI, §4, Example 4.4].
 
 ## Local versus global
 

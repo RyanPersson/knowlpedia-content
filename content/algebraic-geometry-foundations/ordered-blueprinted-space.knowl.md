@@ -22,6 +22,5 @@ sends nonunits to nonunits. These objects and morphisms form the category \(\mat
 
 Unlike the definition of a [[algebraic-geometry-foundations/locally-blueprinted-space|locally blueprinted space]], the definition does not require every stalk to have a unique maximal ideal. An [[algebraic-geometry-foundations/ordered-blue-scheme|ordered blue scheme]] is an OBlpr-space that is locally isomorphic to the spectrum of an ordered blueprint.
 
-## Reference
-
+## References
 Matthew Baker and Oliver Lorscheid, [*The moduli space of matroids*, §4.1.3](https://arxiv.org/abs/1809.03542).

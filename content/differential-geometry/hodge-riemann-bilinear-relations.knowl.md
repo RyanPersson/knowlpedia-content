@@ -17,7 +17,7 @@ Moreover, the corresponding bilinear intersection form pairs \(H^{p,q}\) orthogo
 
 ## Relation to hard Lefschetz
 
-The [[differential-geometry/hard-lefschetz-theorem|hard Lefschetz theorem]] supplies the primitive decomposition, while the Hodge–Riemann relations determine the sign of the intersection form on every primitive summand. Together they imply that cohomology carries a [[differential-geometry/polarized-hodge-structure|polarized Hodge structure]] when the Kähler class is rational [Voisin, §6.3, Theorem 6.33](https://doi.org/10.1017/CBO9780511615344).
+The [[differential-geometry/hard-lefschetz-theorem|hard Lefschetz theorem]] supplies the primitive decomposition, while the Hodge–Riemann relations determine the sign of the intersection form on every primitive summand. Together they imply that cohomology carries a [[differential-geometry/polarized-hodge-structure|polarized Hodge structure]] when the Kähler class is rational [Voisin, §6.3, Theorem 6.33].
 
 ## Consequences
 

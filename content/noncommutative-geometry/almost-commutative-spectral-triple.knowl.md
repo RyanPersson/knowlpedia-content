@@ -46,7 +46,7 @@ ordinary gauge fields along \(M\) and finite-direction scalar fields; this is
 the mechanism used in spectral-triple models of
 [[fiber-bundles/gauge-theory|gauge theories]]
 [van Suijlekom, chapter “Almost-Commutative Manifolds and Gauge Theories,”
-pp. 137–158](https://doi.org/10.1007/978-94-017-9162-5).
+pp. 137–158].
 
 ## Additional structures and scope
 

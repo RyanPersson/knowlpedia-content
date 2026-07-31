@@ -34,7 +34,7 @@ that \({}_A\langle\xi,\eta\rangle\) act as the rank-one operator
 The two inner products are full and induce the same norm. Conversely, a full
 left and right Hilbert bimodule satisfying this compatibility identity gives
 the compact-operator formulation above
-[Raeburn–Williams, Chapter 3](https://doi.org/10.1090/surv/060).
+[Raeburn–Williams, Chapter 3].
 
 ## Standard examples
 

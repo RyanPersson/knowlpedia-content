@@ -24,7 +24,7 @@ B\otimes_{\min}A\longrightarrow (B/I)\otimes_{\min}A
 is exact. Nuclearity is strictly stronger: exactness alone neither forces the
 minimal and [[operator-algebras/maximal-cstar-tensor-product|maximal tensor products]] with \(A\) to agree nor supplies
 completely positive finite-dimensional approximations
-[Brown–Ozawa, Proposition 2.3.8](https://doi.org/10.1090/gsm/088).
+[Brown–Ozawa, Proposition 2.3.8].
 
 ## Proof idea
 
@@ -46,7 +46,7 @@ exact. The converse fails: \(C_r^*(\mathbb F_2)\), the
 generators, is exact but not nuclear. In the reduced group setting,
 nuclearity detects amenability,
 whereas exactness holds for a broader class of groups
-[Brown–Ozawa, §§2.3 and 5.1](https://doi.org/10.1090/gsm/088).
+[Brown–Ozawa, §§2.3 and 5.1].
 
 ## Logical role
 

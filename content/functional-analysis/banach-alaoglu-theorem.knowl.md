@@ -21,7 +21,7 @@ is compact in the
 \(\sigma(X',X)\). Completeness of \(X\) is not required. The conclusion is
 weak-star compactness; in an infinite-dimensional setting, the same ball is
 not compact in its norm topology
-[Conway, Chapter V](https://doi.org/10.1007/978-1-4757-4383-8).
+[Conway, Chapter V].
 
 ## Proof mechanism
 
@@ -43,7 +43,7 @@ separability, compactness need not be detectable by sequences. Applying the
 theorem to the bidual, together with the canonical embedding, helps show that
 the closed unit ball of a
 [[functional-analysis/reflexive-banach-space|reflexive Banach space]] is
-weakly compact [Rudin, Chapter 3](https://search.worldcat.org/title/21163277).
+weakly compact [Rudin, Chapter 3].
 
 ## References
 

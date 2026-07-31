@@ -32,7 +32,6 @@ null relations. It is an additional closure axiom: the
 [[algebra-hyperstructures/null-set-of-a-band|nullset]] of an arbitrary band
 need not be a fusion ideal.
 
-## Reference
-
+## References
 Matthew Baker, Tong Jin, and Oliver Lorscheid,
 [*New building blocks for \(\mathbb F_1\)-geometry: bands and band schemes*, Definition 1.6](https://arxiv.org/abs/2402.09612).

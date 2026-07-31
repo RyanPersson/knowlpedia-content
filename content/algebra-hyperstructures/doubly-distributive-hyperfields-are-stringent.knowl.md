@@ -18,7 +18,6 @@ In other words, if \(F\) is doubly distributive and \(a\ne-b\), then
 \]
 The converse is false: stringency alone does not imply double distributivity.
 
-## Reference
-
+## References
 Nathan Bowler and Ting Su,
 [*Classification of doubly distributive skew hyperfields and stringent hypergroups*, Proposition 1.3](https://arxiv.org/abs/2003.03751).

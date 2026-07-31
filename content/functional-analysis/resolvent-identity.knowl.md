@@ -39,7 +39,7 @@ Differentiating with this sign convention gives
 \]
 These conclusions and their higher-derivative versions are standard tools in
 spectral perturbation theory
-[Kato, Chapter III, §6](https://doi.org/10.1007/978-3-642-66282-9).
+[Kato, Chapter III, §6].
 
 ## Comparison of two operators
 

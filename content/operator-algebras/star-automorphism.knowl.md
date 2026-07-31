@@ -31,7 +31,7 @@ form are outer. For a nonunital algebra, [[algebra-groups/inner-automorphism|inn
 implemented by unitaries in the
 [[operator-algebras/multiplier-algebra|multiplier algebra]]. The quotient by
 inner automorphisms records genuinely external symmetries
-[Pedersen, §1.2 and Chapter 8](https://doi.org/10.1016/C2016-0-03431-9).
+[Pedersen, §1.2 and Chapter 8].
 
 ## Preserved structure
 
@@ -40,7 +40,7 @@ ideals, [[operator-algebras/approximate-identity|approximate identities]], and f
 the state space by pullback and transports representations by composition.
 For commutative \(A=C_0(X)\), \(*\)-automorphisms correspond contravariantly to
 homeomorphisms of \(X\), giving the basic geometric model
-[Murphy, §§2.1 and 2.2](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, §§2.1 and 2.2].
 
 ## Dynamical conventions and near-misses
 

@@ -31,7 +31,7 @@ Gaussian Fourier transform. As the regularization parameter tends to zero,
 the Gaussian approximate identity converges to \(f\). Rapid decay controls
 the limiting passage and permits differentiation, yielding convergence in
 every Schwartz seminorm
-[Stein–Shakarchi, Chapters 5–6](https://doi.org/10.1515/9781400831234).
+[Stein–Shakarchi, Chapters 5–6].
 
 ## Consequences
 

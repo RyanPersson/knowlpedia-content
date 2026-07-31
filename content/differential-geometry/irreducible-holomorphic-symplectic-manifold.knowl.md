@@ -25,7 +25,7 @@ connected, its full and restricted holonomy groups agree, so the full
 holonomy is also \(\operatorname{Sp}(n)\). This is why these manifolds are
 often called compact
 [[differential-geometry/hyperkahler-manifold|hyperkähler manifolds]] in
-complex geometry [Huybrechts, §1](https://doi.org/10.1007/s002220050280).
+complex geometry [Huybrechts, §1].
 The terminology packages a
 [[differential-geometry/complex-manifold|complex manifold]], whereas a
 Riemannian hyperkähler structure includes a particular metric and
@@ -33,7 +33,7 @@ quaternionic triple of complex structures.
 
 ## Examples and non-examples
 
-A K3 surface is the basic two-dimensional example. Hilbert schemes of points on a K3 surface and generalized Kummer varieties provide higher-dimensional families [Beauville, §§5–6](https://doi.org/10.4310/jdg/1214438181). A complex symplectic torus is compact and Kähler but not simply connected. A product of two K3 surfaces is simply connected and holomorphic symplectic, but its space of holomorphic \(2\)-forms has dimension two, so it is not irreducible in this sense.
+A K3 surface is the basic two-dimensional example. Hilbert schemes of points on a K3 surface and generalized Kummer varieties provide higher-dimensional families [Beauville, §§5–6]. A complex symplectic torus is compact and Kähler but not simply connected. A product of two K3 surfaces is simply connected and holomorphic symplectic, but its space of holomorphic \(2\)-forms has dimension two, so it is not irreducible in this sense.
 
 ## Conventions and scope
 

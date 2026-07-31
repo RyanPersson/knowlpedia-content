@@ -50,7 +50,7 @@ Multiplication by a smooth function \(a\) gives
 \operatorname{supp}T\). [[functional-analysis/compactly-supported-distribution|Compactly supported distributions]] are precisely
 those whose distributional support is
 [[topology/compact-set|compact]]
-[Hörmander, §2.3](https://doi.org/10.1007/978-3-642-61497-2).
+[Hörmander, §2.3].
 
 ## References
 

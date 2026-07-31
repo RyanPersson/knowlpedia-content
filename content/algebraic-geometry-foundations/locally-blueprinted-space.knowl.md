@@ -26,6 +26,5 @@ is local: it sends the maximal ideal of the source into the maximal ideal of the
 
 The resulting category is commonly denoted \(\mathbf{LocBlprSp}\). [[algebraic-geometry-foundations/blue-scheme|Blue schemes]] form the full subcategory of locally blueprinted spaces that admit affine open covers by blueprint spectra.
 
-## Reference
-
+## References
 Oliver Lorscheid, [*The geometry of blueprints, Part I: Algebraic background and scheme theory*, §3.1](https://arxiv.org/abs/1103.1745).

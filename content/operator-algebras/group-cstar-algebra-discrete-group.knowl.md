@@ -30,7 +30,7 @@ Completing \(\lambda(\mathbb C[\Gamma])\) in [[linear-algebra/operator-norm|oper
 [[operator-algebras/reduced-group-cstar-algebra|\(C_r^*(\Gamma)\)]]. Taking
 the supremum over the integrated forms of all unitary representations gives
 [[operator-algebras/full-group-cstar-algebra|\(C^*(\Gamma)\)]]
-[Brown–Ozawa, §2.5](https://doi.org/10.1090/gsm/088).
+[Brown–Ozawa, §2.5].
 
 ## Comparison of the completions
 

@@ -37,7 +37,7 @@ then becomes the usual compact
 semifinite algebra, tau-compactness can be weaker than Hilbert-space
 compactness, and the trace provides real-valued dimensions of spectral
 projections. This replacement is the basis of the semifinite local index
-formula [Carey–Phillips–Rennie–Sukochev, §2](https://arxiv.org/abs/math/0411019).
+formula [Carey–Phillips–Rennie–Sukochev, §2].
 
 ## Fredholm and summability data
 
@@ -51,7 +51,7 @@ modulo the tau-compact ideal, and its trace index replaces the integer-valued
 Fredholm index. Summability is also measured by \(\tau\): for example,
 \(p\)-summability may require
 \((1+D^2)^{-p/2}\) to be tau-integrable
-[Carey–Phillips–Rennie–Sukochev, §2](https://arxiv.org/abs/math/0411019).
+[Carey–Phillips–Rennie–Sukochev, §2].
 Regularity, dimension spectrum,
 grading, and real structure are additional axioms rather than consequences of
 semifiniteness.

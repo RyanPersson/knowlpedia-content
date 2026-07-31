@@ -16,7 +16,7 @@ is continuous on \(X\) for every \(a\in A\). These functions already vanish at i
 
 ## Bundle characterization
 
-The canonical bundle \(\bigsqcup_x A_x\to X\) associated with any \(C_0(X)\)-algebra is upper semicontinuous. It is a [[operator-algebras/continuous-field-cstar-algebra|continuous field of \(C^*\)-algebras]] exactly when \(A\) is continuous in the sense above. Under this correspondence, \(A\) is recovered as the algebra of continuous sections vanishing at infinity [Nilsen, bundle realization and continuity criteria](https://doi.org/10.1512/iumj.1996.45.1086).
+The canonical bundle \(\bigsqcup_x A_x\to X\) associated with any \(C_0(X)\)-algebra is upper semicontinuous. It is a [[operator-algebras/continuous-field-cstar-algebra|continuous field of \(C^*\)-algebras]] exactly when \(A\) is continuous in the sense above. Under this correspondence, \(A\) is recovered as the algebra of continuous sections vanishing at infinity [Nilsen, bundle realization and continuity criteria].
 
 Continuity is checked element by element. It neither requires local triviality nor forces all fibers to be isomorphic.
 

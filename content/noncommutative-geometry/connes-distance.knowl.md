@@ -32,7 +32,7 @@ Finiteness does not imply that \(d_D\) induces the
 [[functional-analysis/weak-star-topology|weak-star topology]] on the
 state space. In the compact quantum metric setting, one additionally asks
 for the Lipschitz unit ball modulo scalars to be suitably totally bounded
-[Rieffel, §§1–2](https://doi.org/10.4171/DM/68).
+[Rieffel, §§1–2].
 
 ## Recovery of geodesic distance
 
@@ -45,7 +45,7 @@ d_{\not D}(\delta_x,\delta_y)=d_{\mathrm{geo}}(x,y).
 \]
 Thus the operator \(D\) and its commutators recover the original metric on
 points without referring to coordinates
-[Connes, Chapter VI, §1](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+[Connes, Chapter VI, §1].
 
 On the full state space of \(C(M)\), the same supremum gives the
 Kantorovich–Rubinstein distance between

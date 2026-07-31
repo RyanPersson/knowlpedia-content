@@ -20,7 +20,7 @@ The empty manifold is the coproduct of the empty family and is an [[algebra-cate
 
 ## Countability and dimension conventions
 
-Under the usual Hausdorff, second-countable convention, an uncountable disjoint union of nonempty manifolds is not second countable, so arbitrary coproducts need not exist. If an \(n\)-manifold must have one fixed dimension, all nonempty \(M_i\) must have that dimension. A convention allowing dimension to vary by [[topology/connected-component|connected component]] admits mixed-dimensional disjoint unions. These restrictions come from the ambient definition of manifold, not from the componentwise smooth atlas [Lee, chapter on smooth manifolds](https://doi.org/10.1007/978-1-4419-9982-5).
+Under the usual Hausdorff, second-countable convention, an uncountable disjoint union of nonempty manifolds is not second countable, so arbitrary coproducts need not exist. If an \(n\)-manifold must have one fixed dimension, all nonempty \(M_i\) must have that dimension. A convention allowing dimension to vary by [[topology/connected-component|connected component]] admits mixed-dimensional disjoint unions. These restrictions come from the ambient definition of manifold, not from the componentwise smooth atlas [Lee, chapter on smooth manifolds].
 
 ## References
 

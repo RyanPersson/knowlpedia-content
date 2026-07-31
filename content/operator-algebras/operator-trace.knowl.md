@@ -32,7 +32,7 @@ where \(s_n(S)\) are its
 \(\operatorname{Tr}(|S|)=\sum_ns_n(S)\) and
 \(|\operatorname{Tr}(S)|\leq\operatorname{Tr}(|S|)\). For a positive compact
 operator, the trace is the sum of its eigenvalues counted with multiplicity
-[Simon, §1](https://doi.org/10.1090/surv/120).
+[Simon, §1].
 
 ## Tracial and continuity properties
 

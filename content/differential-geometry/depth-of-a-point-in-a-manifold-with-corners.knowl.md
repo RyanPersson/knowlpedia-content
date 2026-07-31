@@ -30,7 +30,7 @@ The decomposition
 \[
 M=\coprod_{r=0}^n S^r(M)
 \]
-is a stratification by [[fiber-bundles/smooth-manifold|smooth manifolds]] without boundary, with \(\dim S^r(M)=n-r\). The depth-zero stratum is the interior. The closure of \(S^r(M)\) is the union of strata of depth at least \(r\). These properties are formulated for ordinary corners in [Joyce, Definition 2.6](https://doi.org/10.1016/j.aim.2016.06.004).
+is a stratification by [[fiber-bundles/smooth-manifold|smooth manifolds]] without boundary, with \(\dim S^r(M)=n-r\). The depth-zero stratum is the interior. The closure of \(S^r(M)\) is the union of strata of depth at least \(r\). These properties are formulated for ordinary corners in [Joyce, Definition 2.6].
 
 ## Examples and products
 

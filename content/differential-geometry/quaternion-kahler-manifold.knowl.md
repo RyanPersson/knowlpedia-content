@@ -12,13 +12,13 @@ For \(n\geq2\), a **quaternion-Kähler manifold** is a [[differential-geometry/r
 
 ## Structure and consequences
 
-The preserved bundle \(Q\) makes every quaternion-Kähler manifold of dimension at least eight a [[differential-geometry/quaternionic-manifold|quaternionic manifold]]. Its Levi-Civita connection induces a connection on \(Q\), and the associated fundamental four-form is parallel. Such metrics are Einstein; this is a holonomy consequence rather than an additional defining axiom under the higher-dimensional convention [Besse, Theorem 14.39](https://doi.org/10.1007/978-3-540-74311-8).
+The preserved bundle \(Q\) makes every quaternion-Kähler manifold of dimension at least eight a [[differential-geometry/quaternionic-manifold|quaternionic manifold]]. Its Levi-Civita connection induces a connection on \(Q\), and the associated fundamental four-form is parallel. Such metrics are Einstein; this is a holonomy consequence rather than an additional defining axiom under the higher-dimensional convention [Besse, Theorem 14.39].
 
 ## Examples and nearby structures
 
 Quaternionic projective space \(\mathbb H P^n\) with its standard metric is the compact positive-curvature model. Quaternionic hyperbolic space is the corresponding negative-curvature model. A [[differential-geometry/hyperkahler-manifold|hyperkähler manifold]] also satisfies the inclusive holonomy condition because \(\operatorname{Sp}(n)\subset\operatorname{Sp}(n)\operatorname{Sp}(1)\), but its Levi-Civita connection preserves a global triple and its [[differential-geometry/ricci-curvature|Ricci curvature]] vanishes.
 
-Some authors reserve “quaternion-Kähler” for the nonzero-scalar-curvature case, thereby excluding hyperkähler manifolds; the core uses the inclusive holonomy convention of [Salamon, pp. 143–145](https://doi.org/10.1007/BF01393378).
+Some authors reserve “quaternion-Kähler” for the nonzero-scalar-curvature case, thereby excluding hyperkähler manifolds; the core uses the inclusive holonomy convention of [Salamon, pp. 143–145].
 
 ## Four-dimensional convention
 

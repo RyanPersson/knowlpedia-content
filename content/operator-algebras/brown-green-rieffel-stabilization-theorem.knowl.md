@@ -24,7 +24,7 @@ An [[operator-algebras/imprimitivity-bimodule|imprimitivity bimodule]] places
 identify these full corners with the stabilized linking algebra. Conversely,
 isomorphic stabilizations are Morita equivalent, and each algebra is Morita
 equivalent to its stabilization. This is the main result of
-[Brown–Green–Rieffel](https://doi.org/10.2140/pjm.1977.71.349).
+[Brown–Green–Rieffel].
 
 ## Consequences and examples
 

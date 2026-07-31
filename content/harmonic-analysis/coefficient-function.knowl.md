@@ -26,7 +26,7 @@ Thus the coefficient space attached to a representation is stable under left and
 
 ## Structural role
 
-Diagonal coefficients record the positive kernel associated with a vector, while polarization recovers every \(c_{\xi,\eta}\) from diagonal coefficients. Conversely, the [[harmonic-analysis/gns-construction-positive-definite-function|GNS construction for positive-definite functions]] realizes every continuous positive-definite function as a diagonal coefficient of a cyclic unitary representation. This makes coefficients the scalar observables used to compare representations without choosing operator coordinates [Folland, §3.1–3.3](https://doi.org/10.1201/B19172).
+Diagonal coefficients record the positive kernel associated with a vector, while polarization recovers every \(c_{\xi,\eta}\) from diagonal coefficients. Conversely, the [[harmonic-analysis/gns-construction-positive-definite-function|GNS construction for positive-definite functions]] realizes every continuous positive-definite function as a diagonal coefficient of a cyclic unitary representation. This makes coefficients the scalar observables used to compare representations without choosing operator coordinates [Folland, §3.1–3.3].
 
 ## Conventions and scope
 

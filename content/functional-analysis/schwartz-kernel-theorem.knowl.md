@@ -35,7 +35,7 @@ this statement to
 \((\psi,\varphi)\mapsto\langle A\varphi,\psi\rangle\). Separate continuity is
 the natural hypothesis here; on test-function spaces it supplies the
 hypocontinuity needed in the tensor-product formulation
-[Trèves, Chapter 51](https://shop.elsevier.com/books/topological-vector-spaces-distributions-and-kernels/treves/978-1-4831-9859-0).
+[Trèves, Chapter 51].
 
 ## Role of nuclearity
 

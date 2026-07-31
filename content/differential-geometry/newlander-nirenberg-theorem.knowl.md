@@ -28,8 +28,7 @@ finite- and low-regularity versions require their own hypotheses. In real
 dimension two, every smooth almost-complex structure satisfies the criterion
 and is therefore integrable.
 
-## Reference
-
+## References
 August Newlander and Louis Nirenberg, “Complex Analytic Coordinates in Almost
 Complex Manifolds,” *Annals of Mathematics* 65 (1957), 391–404.
 [DOI record](https://doi.org/10.2307/1970051).

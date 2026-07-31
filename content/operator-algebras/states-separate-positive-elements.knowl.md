@@ -31,7 +31,7 @@ at the largest point of the spectrum gives a norm-one
 value at \(a\) is \(\|a\|\). Extending that functional to \(A\) without
 increasing its norm produces a state. This is the positive case of Murphy's
 state-attainment theorem
-[Murphy, Theorem 3.3.6](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, Theorem 3.3.6].
 
 To obtain the order criterion, if a self-adjoint \(x\) is not positive, its
 negative spectral part yields a state with \(\varphi(x)<0\). Applying this to

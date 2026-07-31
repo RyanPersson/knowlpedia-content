@@ -20,7 +20,7 @@ The stratum \(\Sigma_1(L_0)\) is a smooth dense hypersurface; strata with \(k\ge
 
 ## Stratification
 
-The stratum \(\Sigma_k(L_0)\) has codimension \(k(k+1)/2\) in \(\Lambda(V)\). This follows from a local chart in which nearby Lagrangians are graphs of symmetric forms: the intersection with \(L_0\) becomes the kernel, and the rank-defect-\(k\) locus has that codimension. In particular, the first singular stratum has codimension three, so a generic one-parameter path meets only the smooth stratum [Robbin–Salamon, §2](https://doi.org/10.1016/0040-9383%2893%2990052-W).
+The stratum \(\Sigma_k(L_0)\) has codimension \(k(k+1)/2\) in \(\Lambda(V)\). This follows from a local chart in which nearby Lagrangians are graphs of symmetric forms: the intersection with \(L_0\) becomes the kernel, and the rank-defect-\(k\) locus has that codimension. In particular, the first singular stratum has codimension three, so a generic one-parameter path meets only the smooth stratum [Robbin–Salamon, §2].
 
 ## Coorientation and crossings
 

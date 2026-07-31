@@ -79,9 +79,9 @@ smooth \(\mathbb F\)-vector bundle. This smooth Serre–Swan statement requires
 no compactness hypothesis; finite dimensionality supplies a finite-rank
 complementary bundle. On a disconnected base, one requires the ranks on
 components to be globally bounded. See
-[Nestruev, Chapter 11](https://doi.org/10.1007/b98871). The original compact
+[Nestruev, Chapter 11]. The original compact
 Hausdorff theorem over \(C(X)\) is a distinct continuous formulation
-[Swan, Theorem 1](https://doi.org/10.1090/S0002-9947-1962-0143225-6).
+[Swan, Theorem 1].
 
 Taking sections over every open set gives the
 [[fiber-bundles/vector-bundles-and-locally-free-sheaves|equivalence between

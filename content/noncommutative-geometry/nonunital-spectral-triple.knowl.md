@@ -20,7 +20,7 @@ When \(\mathcal A\) is unital, substituting \(a=1\) recovers compactness of \((1
 
 ## Standard examples and conventions
 
-For a complete noncompact spin manifold, a suitable dense smooth subalgebra of \(C_0(M)\) acts on \(L^2(M,S)\), and the Dirac operator gives the model example; local compactness follows from local elliptic compactness. Moyal planes provide genuinely noncommutative examples [Gayral et al., Sections 2–4](https://doi.org/10.1007/s00220-004-1057-z).
+For a complete noncompact spin manifold, a suitable dense smooth subalgebra of \(C_0(M)\) acts on \(L^2(M,S)\), and the Dirac operator gives the model example; local compactness follows from local elliptic compactness. Moyal planes provide genuinely noncommutative examples [Gayral et al., Sections 2–4].
 
 **Warning.** Terminology varies: some authors say “nonunital spectral triple” while retaining global compact resolvent. “Locally compact spectral triple” unambiguously signals the localized condition used here. Extra hypotheses such as summability, regularity, grading, or a preferred unitization are additional structure.
 

@@ -34,7 +34,7 @@ group element acts by a scalar of modulus one. Strong continuity makes the
 resulting scalar map \(G\to\mathbb T\) continuous. Thus the unitary dual agrees
 with the [[harmonic-analysis/pontryagin-dual|Pontryagin dual]], not merely as
 a set but with its natural topology
-[Folland, Chapter 4](https://doi.org/10.1201/B19172).
+[Folland, Chapter 4].
 
 ## Basic factors
 

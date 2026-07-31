@@ -22,7 +22,7 @@ Local compactness and the compact-open topology are essential parts of the theor
 \[
 \widehat{\widehat u}\circ\eta_G=\eta_H\circ u.
 \]
-Thus Pontryagin duality is a contravariant equivalence on the category of locally compact abelian groups [Rudin, §1.7](https://doi.org/10.1002/9781118165621).
+Thus Pontryagin duality is a contravariant equivalence on the category of locally compact abelian groups [Rudin, §1.7].
 
 ## Compact-discrete correspondence
 

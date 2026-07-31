@@ -37,7 +37,7 @@ derivatives:
 \]
 These estimates follow directly from the definition of
 [[functional-analysis/distributional-derivative|distributional derivative]]
-[Hörmander, §2.3](https://doi.org/10.1007/978-3-642-61497-2).
+[Hörmander, §2.3].
 
 ## Local and global scope
 
@@ -47,7 +47,7 @@ grow with \(K\). Consequently every distribution has finite order locally,
 while not every distribution has one finite global order on a noncompact
 open set. A
 [[functional-analysis/compactly-supported-distribution|compactly supported distribution]] does have finite order
-[Folland, Chapter 9](https://www.wiley-vch.de/de/fachgebiete/mathematik-und-statistik/real-analysis-978-0-471-31716-6).
+[Folland, Chapter 9].
 
 ## Conventions
 

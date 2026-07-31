@@ -16,7 +16,7 @@ such that, for every \(\xi\in\mathcal H\), the [[fiber-bundles/orbit-map|orbit m
 
 ## Equivalent continuity tests
 
-Strong continuity is equivalent to continuity of the action map \(G\times\mathcal H\to\mathcal H\), \((g,\xi)\mapsto\pi(g)\xi\). The [[lie-groups/weak-strong-continuity-equivalence-unitary-representations|weak–strong continuity theorem]] says it is also equivalent to continuity of every matrix coefficient \(g\mapsto\langle\pi(g)\xi,\eta\rangle\): weak continuity implies strong continuity by applying the coefficient identity to \(\|\pi(g)\xi-\pi(g_0)\xi\|^2\) [Folland, opening of §3.1](https://doi.org/10.1201/B19172). These equivalences require unitarity, which supplies uniform norm control.
+Strong continuity is equivalent to continuity of the action map \(G\times\mathcal H\to\mathcal H\), \((g,\xi)\mapsto\pi(g)\xi\). The [[lie-groups/weak-strong-continuity-equivalence-unitary-representations|weak–strong continuity theorem]] says it is also equivalent to continuity of every matrix coefficient \(g\mapsto\langle\pi(g)\xi,\eta\rangle\): weak continuity implies strong continuity by applying the coefficient identity to \(\|\pi(g)\xi-\pi(g_0)\xi\|^2\) [Folland, opening of §3.1]. These equivalences require unitarity, which supplies uniform norm control.
 
 ## Examples and consequences
 

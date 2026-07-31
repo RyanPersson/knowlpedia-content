@@ -39,7 +39,7 @@ multiplication gives \(\pi_\varphi(a)[b]=[ab]\). If \(A\) is unital, then
 equivalently an
 [[operator-algebras/approximate-identity|approximate identity]], produces the
 canonical [[operator-algebras/cyclic-vector|cyclic vector]]
-[Murphy, §3.3](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, §3.3].
 
 ## Uniqueness and faithfulness
 

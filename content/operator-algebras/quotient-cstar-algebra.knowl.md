@@ -37,7 +37,7 @@ isomorphism of the codomain. The sequence
 \longrightarrow 0
 \]
 is the basic [[algebra-modules/short-exact-sequence|short exact sequence]] associated with \(I\)
-[Murphy, §3.1](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, §3.1].
 
 ## Units and representative examples
 

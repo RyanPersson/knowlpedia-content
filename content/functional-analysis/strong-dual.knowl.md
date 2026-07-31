@@ -20,7 +20,7 @@ The [[functional-analysis/weak-star-topology|weak-star topology]] \(\sigma(E',E)
 
 ## Boundedness governs the topology
 
-Two locally convex topologies on the same [[linear-algebra/vector-space|vector space]] that have the same bounded subsets induce the same strong topology on their common continuous dual. This dependence on bounded sets makes strong duals natural for [[functional-analysis/distribution|distributions]]. In particular, \(\mathcal S'(\mathbb R^n)\) is commonly given the strong dual topology of the [[functional-analysis/schwartz-space|Schwartz space]], which is finer than [[real-analysis/pointwise-convergence|pointwise convergence]] on [[functional-analysis/test-function-space|test functions]] [Trèves, Chapters 19 and 33](https://store.doverpublications.com/products/9780486453521).
+Two locally convex topologies on the same [[linear-algebra/vector-space|vector space]] that have the same bounded subsets induce the same strong topology on their common continuous dual. This dependence on bounded sets makes strong duals natural for [[functional-analysis/distribution|distributions]]. In particular, \(\mathcal S'(\mathbb R^n)\) is commonly given the strong dual topology of the [[functional-analysis/schwartz-space|Schwartz space]], which is finer than [[real-analysis/pointwise-convergence|pointwise convergence]] on [[functional-analysis/test-function-space|test functions]] [Trèves, Chapters 19 and 33].
 
 ## Conventions and cautions
 

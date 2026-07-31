@@ -28,7 +28,7 @@ The condition supplies finite-degree trace cocycles. If the commutators of
 the associated [[noncommutative-geometry/fredholm-module|bounded Fredholm module]]
 lie in \(\mathcal L^p\), then products
 of sufficiently many commutators are trace class and define its cyclic Chern
-character [Connes, Chapter IV, §1](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+character [Connes, Chapter IV, §1].
 
 ## Examples and non-examples
 

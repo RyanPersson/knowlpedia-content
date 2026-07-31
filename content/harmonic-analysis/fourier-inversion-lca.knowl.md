@@ -16,7 +16,7 @@ defines a continuous function vanishing at infinity, and \(f_0=f\) [[measure-the
 
 ## Why the hypotheses matter
 
-The two \(L^1\) assumptions make both transforms ordinary absolutely convergent integrals. Without integrability of \(\widehat f\), inversion may still hold in \(L^2\), by summability, or in the sense of distributions, but the displayed integral need not converge pointwise. The general theorem and its normalization are developed in [Rudin, Chapter 1](https://doi.org/10.1002/9781118165621).
+The two \(L^1\) assumptions make both transforms ordinary absolutely convergent integrals. Without integrability of \(\widehat f\), inversion may still hold in \(L^2\), by summability, or in the sense of distributions, but the displayed integral need not converge pointwise. The general theorem and its normalization are developed in [Rudin, Chapter 1].
 
 ## Relation to duality
 

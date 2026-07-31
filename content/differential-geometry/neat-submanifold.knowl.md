@@ -25,7 +25,7 @@ Around each boundary point, neatness gives boundary-adapted coordinates in which
 M=\{x^n\geq0\},\qquad
 S=\{x^k=\cdots=x^{n-1}=0,\ x^n\geq0\}
 \]
-after a suitable reordering of coordinates, with \(x^n\) serving as the inward boundary coordinate on \(S\). This local normal form is the reason neat submanifolds admit boundary-compatible [[differential-geometry/tubular-neighborhood|tubular neighborhoods]] [Hirsch, Chapter 4](https://doi.org/10.1007/978-1-4684-9449-5).
+after a suitable reordering of coordinates, with \(x^n\) serving as the inward boundary coordinate on \(S\). This local normal form is the reason neat submanifolds admit boundary-compatible [[differential-geometry/tubular-neighborhood|tubular neighborhoods]] [Hirsch, Chapter 4].
 
 ## Examples and non-examples
 

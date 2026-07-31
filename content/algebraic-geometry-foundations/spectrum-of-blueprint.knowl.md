@@ -32,6 +32,5 @@ for basic opens under the standard blueprint-spectrum construction. In particula
 
 “Spectrum of a blueprint” is not a unique phrase across every later variant of blueprint geometry. This knowl records Lorscheid's prime-\(k\)-ideal spectrum underlying blue schemes. [[algebraic-geometry-foundations/ordered-blue-scheme|Ordered blue schemes]] use the corresponding ordered-blueprint theory.
 
-## Reference
-
+## References
 Oliver Lorscheid, [*The geometry of blueprints, Part I*, §§2–3](https://arxiv.org/abs/1103.1745).

@@ -60,7 +60,7 @@ multiplier alone is not a double centralizer until a compatible right
 multiplier is supplied; nor is an arbitrary bounded endomorphism of the
 [[linear-algebra/banach-space|Banach space]] \(A\) a multiplier. Busby's
 construction makes this distinction precise
-[Busby, 1968](https://doi.org/10.1090/S0002-9947-1968-0225175-5).
+[Busby, 1968].
 
 ## References
 

@@ -49,7 +49,7 @@ smooth sections gives
 \Gamma(E)\oplus\Gamma(F)\cong C^\infty(M,\mathbb F)^N,
 \]
 which proves both projectivity and finite generation
-[Nestruev, Chapter 11](https://doi.org/10.1007/b98871).
+[Nestruev, Chapter 11].
 
 ## Idempotent form
 
@@ -75,7 +75,7 @@ C^\infty(M,\mathbb F)^r\), which is free. The Möbius
 [[fiber-bundles/line-bundle|line bundle]] over \(S^1\) gives a projective
 module that is not free: projectivity records the existence of a complementary
 bundle, whereas freeness would give a global frame and trivialize the bundle
-[Nestruev, Chapter 11](https://doi.org/10.1007/b98871).
+[Nestruev, Chapter 11].
 
 For disconnected \(M\), the conclusion remains valid when the ranks of \(E\)
 on its connected components are globally bounded. Without that bounded-rank
@@ -84,7 +84,7 @@ is not finitely generated. If one replaces
 \(C^\infty(M,\mathbb F)\) by functions vanishing at infinity, the
 appropriate section module and projectivity statement must also be changed;
 that is a different Serre–Swan formulation
-[Nestruev, Chapter 11](https://doi.org/10.1007/b98871).
+[Nestruev, Chapter 11].
 
 ## References
 

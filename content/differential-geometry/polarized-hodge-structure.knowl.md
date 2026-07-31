@@ -27,7 +27,7 @@ The Weil operator \(C\) acts on \(V^{p,q}\) by \(i^{p-q}\). The positivity condi
 \[
 h(v,w)=Q(Cv,\overline w)
 \]
-is a positive-definite Hermitian form. The orthogonality and positivity conditions are the abstract form of the [[differential-geometry/hodge-riemann-bilinear-relations|Hodge–Riemann bilinear relations]] [Voisin, §7.1.2](https://doi.org/10.1017/CBO9780511615344.008).
+is a positive-definite Hermitian form. The orthogonality and positivity conditions are the abstract form of the [[differential-geometry/hodge-riemann-bilinear-relations|Hodge–Riemann bilinear relations]] [Voisin, §7.1.2].
 
 ## Cohomological construction
 

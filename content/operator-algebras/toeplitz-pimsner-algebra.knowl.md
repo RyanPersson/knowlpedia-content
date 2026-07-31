@@ -31,7 +31,7 @@ The creation operators on the
 \(\mathcal F(X)\), together with the diagonal left action of \(A\), generate
 a concrete copy of \(\mathcal T_X\). This realization proves existence of the
 universal algebra and makes tensor degree visible
-[Pimsner, Fock-space construction](https://cir.nii.ac.jp/crid/1570572699254124800).
+[Pimsner, Fock-space construction].
 The canonical map \(i_A\) is injective because the degree-zero summand carries
 the faithful left-multiplication representation of \(A\).
 

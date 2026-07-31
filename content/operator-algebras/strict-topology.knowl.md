@@ -38,7 +38,7 @@ strictly for every \(m\in M(A)\). Consequently the canonical copy of \(A\) is
 strictly dense in \(M(A)\), even though it is norm closed there. This is the
 basic mechanism by which the multiplier unit is approximated from the
 nonunital algebra
-[Pedersen, §3.12](https://doi.org/10.1016/C2016-0-03431-9).
+[Pedersen, §3.12].
 
 If \(A\) is unital, choosing \(a=1_A\) among the defining seminorms shows that
 the strict topology equals the norm topology on \(M(A)=A\). The distinction
@@ -55,7 +55,7 @@ that is strictly continuous and agrees with \(\phi\) on \(A\). It can be
 recovered from any approximate identity by strict limits. This extension
 theorem is one reason strict, rather than norm, continuity is built into the
 morphism theory of multiplier algebras
-[Lance, Chapter 2](https://doi.org/10.1017/CBO9780511526206).
+[Lance, Chapter 2].
 
 ## Concrete model and comparison
 

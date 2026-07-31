@@ -31,7 +31,6 @@ chosen.
 For the discrete topology, \(0\) is an ideal of definition. A nonzero
 nilpotent ideal can also define the discrete topology.
 
-## Reference
-
+## References
 The Stacks Project Authors, “Topological rings and modules.”
 [Section 15.36, Tag 07E8](https://stacks.math.columbia.edu/tag/07E8).

@@ -30,7 +30,7 @@ central direct summand. In terms of the type decomposition, precisely the
 [[operator-algebras/type-i-infinity-factor|type \(\mathrm I_\infty\)]],
 type \(\mathrm{II}_\infty\), and type \(\mathrm{III}\) central summands may
 occur. This characterization is part of the comparison theory of projections
-[Kadison–Ringrose, §6.3](https://bookstore.ams.org/GSM/16).
+[Kadison–Ringrose, §6.3].
 
 ## Isometries and amplification
 

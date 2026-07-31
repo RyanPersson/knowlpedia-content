@@ -29,7 +29,7 @@ space]] has an adjoint. For general coefficient algebras, a bounded
 \(A\)-linear map need not be adjointable. Thus boundedness alone is not the
 standard morphism condition for Hilbert \(C^*\)-modules. Adjointability is
 equivalent to the graph of \(T\) being an orthogonally complemented submodule
-of \(E\oplus F\) [Lance, Chapter 1](https://doi.org/10.1017/CBO9780511526206).
+of \(E\oplus F\) [Lance, Chapter 1].
 
 ## Compact operators and composition
 

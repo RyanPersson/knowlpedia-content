@@ -29,7 +29,7 @@ and any two maximal compact subgroups are conjugate in \(G\). Moreover, the
 inclusion \(K\hookrightarrow G\) is a [[topology/homotopy-equivalence|homotopy equivalence]] in the standard
 Cartan setting because \(G\) is diffeomorphic to \(K\times\mathfrak p\).
 Thus many topological invariants of \(G\) can be computed from \(K\)
-[Knapp, Chapter VI, §4](https://link.springer.com/book/9780817642594).
+[Knapp, Chapter VI, §4].
 
 ## Role in representation theory
 

@@ -20,7 +20,7 @@ Thus a Kähler manifold is a [[differential-geometry/complex-manifold|complex ma
 
 ## Equivalent characterizations
 
-For a Hermitian manifold, the Kähler condition is equivalent to \(\nabla J=0\), where \(\nabla\) is the Levi–Civita connection of \(g\). Equivalently, parallel transport preserves both \(g\) and \(J\), so the holonomy acts through \(U(n)\). The connection and holonomy formulation is treated in [Huybrechts, Appendix 4.A](https://doi.org/10.1007/b137952).
+For a Hermitian manifold, the Kähler condition is equivalent to \(\nabla J=0\), where \(\nabla\) is the Levi–Civita connection of \(g\). Equivalently, parallel transport preserves both \(g\) and \(J\), so the holonomy acts through \(U(n)\). The connection and holonomy formulation is treated in [Huybrechts, Appendix 4.A].
 
 ## Structure and consequences
 

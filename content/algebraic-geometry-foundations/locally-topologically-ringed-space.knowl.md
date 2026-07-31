@@ -37,7 +37,6 @@ f^\#:\mathcal O_Y\longrightarrow f_*\mathcal O_X
 whose maps on sections are continuous and whose induced homomorphisms on
 stalks are local. Formal schemes use morphisms of this kind.
 
-## Reference
-
+## References
 The Stacks Project Authors, “Formal schemes à la EGA.”
 [Section 87.2, Tag 0AHY](https://stacks.math.columbia.edu/tag/0AHY).

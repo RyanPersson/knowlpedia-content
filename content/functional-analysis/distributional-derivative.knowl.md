@@ -51,7 +51,7 @@ to every order for every distribution. If \(a\) is smooth, the product rule
 \]
 holds. These properties let differential operators with smooth coefficients
 act on distributions without requiring pointwise differentiability
-[Hörmander, §2.1](https://doi.org/10.1007/978-3-642-61497-2).
+[Hörmander, §2.1].
 
 ## References
 

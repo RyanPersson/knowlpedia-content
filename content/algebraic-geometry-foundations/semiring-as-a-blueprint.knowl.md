@@ -26,6 +26,5 @@ Its [[algebraic-geometry-foundations/semiring-completion-of-a-blueprint|semiring
 \]
 because morphisms between semiring blueprints are exactly homomorphisms of the original commutative semirings.
 
-## Reference
-
+## References
 Oliver Lorscheid, [*The geometry of blueprints, Part I: Algebraic background and scheme theory*, §1.5](https://arxiv.org/abs/1103.1745).

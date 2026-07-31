@@ -43,7 +43,7 @@ invertible affiliated densities, then
 \]
 The formula remains meaningful even when the two densities do not commute:
 the resulting family is generally a cocycle rather than a one-parameter
-group [Takesaki, vol. II, Chapter VIII, §3](https://doi.org/10.1007/978-3-662-10451-4).
+group [Takesaki, vol. II, Chapter VIII, §3].
 
 ## Chain and inversion rules
 
@@ -61,7 +61,7 @@ These identities make changes of reference weight coherent and show that no
 preferred weight is required to compare modular dynamics. Connes used this
 Radon–Nikodym theory in the structure and classification of
 [[operator-algebras/type-iii-factor|type III factors]]
-[Connes, §1](https://doi.org/10.24033/asens.1247).
+[Connes, §1].
 
 ## Examples and scope
 

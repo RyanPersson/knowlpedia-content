@@ -37,7 +37,7 @@ on smooth vectors. The universal property of
 therefore produces the unique extension. Invariance of
 \(\mathcal H^\infty\) under every \(d\pi(X)\) ensures that all words have one
 common domain rather than a separately chosen intersection
-[Warner, §4.4](https://doi.org/10.1007/978-3-642-50275-0).
+[Warner, §4.4].
 
 ## Equivariance and filtration
 

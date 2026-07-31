@@ -32,7 +32,7 @@ pseudodifferential operators. In that calculus, repeated commutators with
 \(\operatorname{Dom}\delta^\infty\) behave like order-zero coefficients. With
 separate summability and meromorphic-continuation hypotheses, this machinery
 leads to residues of zeta functions and the local index formula
-[Connes–Moscovici, §II](https://doi.org/10.1007/BF01895667).
+[Connes–Moscovici, §II].
 
 ## Standard example
 

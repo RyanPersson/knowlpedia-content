@@ -32,7 +32,7 @@ It is order preserving: \(0\leq a\leq b\) implies
 construction, since uniqueness gives
 \(\pi(a^{1/2})=\pi(a)^{1/2}\). The existence, uniqueness, and monotonicity
 properties follow from functional calculus
-[Murphy, chapter on positive elements](https://doi.org/10.1016/C2009-0-22289-6).
+[Murphy, chapter on positive elements].
 
 ## Examples and a near-miss
 

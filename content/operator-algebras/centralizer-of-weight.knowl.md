@@ -31,7 +31,7 @@ whenever \(x\in M_\varphi\) and the products lie in the finite domain on
 which both sides are defined. Conversely, this commutation property
 characterizes the centralizer when formulated on the standard finite ideal of
 \(\varphi\). Thus the restriction of \(\varphi\) to its centralizer is a
-faithful normal semifinite [[operator-algebras/tracial-weight|tracial weight]] [Takesaki, vol. II, Chapter VIII, §2](https://doi.org/10.1007/978-3-662-10451-4).
+faithful normal semifinite [[operator-algebras/tracial-weight|tracial weight]] [Takesaki, vol. II, Chapter VIII, §2].
 
 ## Examples and consequences
 

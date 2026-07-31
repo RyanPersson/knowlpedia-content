@@ -31,7 +31,7 @@ the identities
 \]
 whenever the expressions are defined. These equivalences follow from the
 change-of-variables formulas for Haar measure; see
-[Folland, chapter 2](https://doi.org/10.1201/B19172).
+[Folland, chapter 2].
 
 ## Examples and non-examples
 

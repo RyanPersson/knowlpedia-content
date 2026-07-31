@@ -47,7 +47,7 @@ representation]] is unitarily equivalent to its defining action on
 representation]] is an amplification of that action. These facts make
 compact-operator algebras the elementary pieces in the representation theory
 of type I \(C^*\)-algebras
-[Davidson, §I.4](https://bookstore.ams.org/fim-6).
+[Davidson, §I.4].
 
 ## Multiplier algebra and examples
 

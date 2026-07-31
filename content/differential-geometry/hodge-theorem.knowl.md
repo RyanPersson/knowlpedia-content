@@ -22,7 +22,7 @@ Equivalently, the map
 is an isomorphism of finite-dimensional real [[linear-algebra/vector-space|vector spaces]]. The harmonic
 representative and the displayed isomorphism depend on \(g\), whereas de
 Rham cohomology itself depends only on the [[fiber-bundles/smooth-manifold|smooth manifold]]
-[de Cataldo, Corollary 2.3.7](https://www.math.stonybrook.edu/~mde/papers/MyHodgeTheoryBook.pdf).
+[de Cataldo, Corollary 2.3.7].
 
 ## Why existence and uniqueness hold
 
@@ -41,7 +41,7 @@ analytic input is ellipticity of the
 [[differential-geometry/hodge-laplacian|Hodge Laplacian]] on the compact
 manifold; the cohomological conclusion is not a purely formal property of
 the [[differential-geometry/de-rham-complex|de Rham complex]]
-[Wells, Chapter IV, §2](https://doi.org/10.1007/978-0-387-73892-5).
+[Wells, Chapter IV, §2].
 
 ## Consequences
 

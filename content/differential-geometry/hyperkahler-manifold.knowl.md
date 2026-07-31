@@ -29,7 +29,7 @@ a global ordered triple. The complex two-form
 \[
 \Omega_I=\omega_J+i\omega_K
 \]
-is a parallel [[differential-geometry/holomorphic-symplectic-form|holomorphic symplectic form]] on the [[differential-geometry/complex-manifold|complex manifold]] \((M,I)\). These equivalences are treated in [Joyce, Chapter 7](https://doi.org/10.1093/oso/9780198506010.001.0001).
+is a parallel [[differential-geometry/holomorphic-symplectic-form|holomorphic symplectic form]] on the [[differential-geometry/complex-manifold|complex manifold]] \((M,I)\). These equivalences are treated in [Joyce, Chapter 7].
 
 ## Structure and examples
 
@@ -60,7 +60,7 @@ complex manifold, not a particular metric or quaternionic triple. Yau's
 theorem supplies a compatible hyperkähler metric after a Kähler class is
 chosen. The IHS convention excludes flat complex tori and nontrivial
 products. The core uses the broader Riemannian convention; the relationship
-is discussed in [Huybrechts, §1](https://doi.org/10.1007/s002220050280).
+is discussed in [Huybrechts, §1].
 
 ## References
 

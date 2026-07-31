@@ -26,7 +26,7 @@ The Whitney product formula implies that a [[algebra-modules/short-exact-sequenc
 \]
 satisfies \(w(E)=w(E')\smile w(E'')\), since such a sequence of real vector bundles splits after choosing a [[fiber-bundles/bundle-metric|bundle metric]]. Trivial bundles have total class \(1\).
 
-These axioms uniquely determine the classes and make them insensitive to choices of metrics, connections, or [[fiber-bundles/local-trivialization|local trivializations]]; see [Milnor–Stasheff, §4](https://doi.org/10.1515/9781400881826).
+These axioms uniquely determine the classes and make them insensitive to choices of metrics, connections, or [[fiber-bundles/local-trivialization|local trivializations]]; see [Milnor–Stasheff, §4].
 
 ## Geometric meaning
 

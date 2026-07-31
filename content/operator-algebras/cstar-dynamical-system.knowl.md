@@ -28,7 +28,7 @@ defines a point-norm continuous action on \(C_0(X)\). For a non-example, a homom
 
 ## Conventions and scope
 
-Many sources define a \(C^*\)-dynamical system for an arbitrary [[topology/topological-group|topological group]]. Crossed-product theory typically assumes that \(G\) is locally compact Hausdorff so that [[harmonic-analysis/haar-measure|Haar integration]] is available; that convention is built into this knowl. “Strong continuity” here means point-norm continuity of automorphisms, not continuity in the [[operator-algebras/strong-operator-topology|strong operator topology]] of a particular Hilbert-space representation [Williams, §2.1, Definition 2.6](https://doi.org/10.1090/surv/134).
+Many sources define a \(C^*\)-dynamical system for an arbitrary [[topology/topological-group|topological group]]. Crossed-product theory typically assumes that \(G\) is locally compact Hausdorff so that [[harmonic-analysis/haar-measure|Haar integration]] is available; that convention is built into this knowl. “Strong continuity” here means point-norm continuity of automorphisms, not continuity in the [[operator-algebras/strong-operator-topology|strong operator topology]] of a particular Hilbert-space representation [Williams, §2.1, Definition 2.6].
 
 ## References
 

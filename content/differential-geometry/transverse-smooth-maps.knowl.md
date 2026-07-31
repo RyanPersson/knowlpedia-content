@@ -24,7 +24,7 @@ When \(f\pitchfork g\), the fiber product
 \[
 M\times_PN=\{(x,y)\in M\times N:f(x)=g(y)\}
 \]
-is an [[differential-geometry/embedded-submanifold|embedded submanifold]] of \(M\times N\) of dimension \(\dim M+\dim N-\dim P\). Its [[differential-geometry/tangent-space|tangent space]] consists of pairs \((v,w)\) satisfying \(df_x(v)=dg_y(w)\) [Hirsch, Chapter 3](https://doi.org/10.1007/978-1-4684-9449-5).
+is an [[differential-geometry/embedded-submanifold|embedded submanifold]] of \(M\times N\) of dimension \(\dim M+\dim N-\dim P\). Its [[differential-geometry/tangent-space|tangent space]] consists of pairs \((v,w)\) satisfying \(df_x(v)=dg_y(w)\) [Hirsch, Chapter 3].
 
 ## Examples and non-examples
 

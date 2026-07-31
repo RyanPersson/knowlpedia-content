@@ -30,7 +30,7 @@ extends it meromorphically to the full complex parameter space. Poles, zeros,
 and noninvertibility detect reducibility phenomena in
 [[lie-groups/principal-series-representation|principal series]]. The original
 construction and continuation are established in
-[Knapp–Stein, pp. 489–578](https://doi.org/10.2307/1970887).
+[Knapp–Stein, pp. 489–578].
 
 ## Normalization and consequences
 

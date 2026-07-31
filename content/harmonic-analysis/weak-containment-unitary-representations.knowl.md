@@ -43,7 +43,7 @@ Equivalently, after passing to the
 \(\ker\rho\subseteq\ker\pi\). The direction of this inclusion is important:
 the containing representation detects at least as large a norm. These
 equivalences are part of Fell's theory of weak containment
-[Fell, 1962](https://doi.org/10.4153/CJM-1962-016-6).
+[Fell, 1962].
 
 ## Coefficients and direct sums
 

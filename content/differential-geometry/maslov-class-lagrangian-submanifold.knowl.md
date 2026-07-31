@@ -16,7 +16,7 @@ where \(\gamma_f:L\to\Lambda(V)\) is the [[differential-geometry/lagrangian-gaus
 
 ## Geometric interpretation
 
-Fix a reference Lagrangian plane \(L_0\subset V\). For a generic immersion and loop, the Maslov number counts, with signs, the points where the tangent plane \(\gamma_f(c(t))\) fails to be transverse to \(L_0\). In other words, it is the intersection number of \(\gamma_f\circ c\) with the [[differential-geometry/maslov-cycle|Maslov cycle]]. This is the characteristic-class interpretation introduced by Arnol'd [Arnol'd, 1967](https://doi.org/10.1007/BF01079201).
+Fix a reference Lagrangian plane \(L_0\subset V\). For a generic immersion and loop, the Maslov number counts, with signs, the points where the tangent plane \(\gamma_f(c(t))\) fails to be transverse to \(L_0\). In other words, it is the intersection number of \(\gamma_f\circ c\) with the [[differential-geometry/maslov-cycle|Maslov cycle]]. This is the characteristic-class interpretation introduced by Arnol'd [Arnol'd, 1967].
 
 ## Examples
 
@@ -24,7 +24,7 @@ An affine Lagrangian plane has constant Gauss map, hence zero Maslov class. The 
 
 ## Ambient-manifold caveat
 
-For a general \((M,\omega)\), the canonical Gauss map is a section of the Lagrangian-Grassmannian bundle, not automatically a map to one fixed \(\Lambda(n)\). An integral grading obstruction can therefore depend on an ambient Maslov covering or on a trivialization such as one induced by a chosen squared canonical-volume form. Seidel formulates this dependence in terms of Maslov coverings [Seidel, §2](https://arxiv.org/abs/math/9903049). Omitting this datum can make the phrase “the Maslov class in \(H^1(L;\mathbb Z)\)” ambiguous.
+For a general \((M,\omega)\), the canonical Gauss map is a section of the Lagrangian-Grassmannian bundle, not automatically a map to one fixed \(\Lambda(n)\). An integral grading obstruction can therefore depend on an ambient Maslov covering or on a trivialization such as one induced by a chosen squared canonical-volume form. Seidel formulates this dependence in terms of Maslov coverings [Seidel, §2]. Omitting this datum can make the phrase “the Maslov class in \(H^1(L;\mathbb Z)\)” ambiguous.
 
 ## Distinction from disk indices
 

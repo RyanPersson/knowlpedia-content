@@ -22,13 +22,13 @@ These local formulas agree on chart overlaps and define a smooth positive form. 
 
 ## Global construction and invariance
 
-The [[differential-geometry/local-kahler-potential|local potential]] \(\log(1+\lVert z\rVert^2)\) is the chart expression of \(\log\lVert Z\rVert^2\) in homogeneous coordinates. Changing a homogeneous representative adds the logarithm of the squared modulus of a nowhere-zero holomorphic function, whose \(i\partial\bar\partial\) vanishes. Hence the forms glue globally. The resulting metric is invariant under the projective action of \(U(n+1)\); this construction is presented in [Demailly, Chapter VI, §4, Example 4.4](https://www-fourier.univ-grenoble-alpes.fr/~demailly/manuscripts/agbook.pdf).
+The [[differential-geometry/local-kahler-potential|local potential]] \(\log(1+\lVert z\rVert^2)\) is the chart expression of \(\log\lVert Z\rVert^2\) in homogeneous coordinates. Changing a homogeneous representative adds the logarithm of the squared modulus of a nowhere-zero holomorphic function, whose \(i\partial\bar\partial\) vanishes. Hence the forms glue globally. The resulting metric is invariant under the projective action of \(U(n+1)\); this construction is presented in [Demailly, Chapter VI, §4, Example 4.4].
 
 ## Geometry and normalization
 
 The Fubini–Study metric has positive constant holomorphic sectional curvature, with the numerical value depending on normalization. Its [[differential-geometry/kahler-class|Kähler class]] generates \(H^2(\mathbb{CP}^n;\mathbb Z)\) after the standard integral normalization \([\omega_{\mathrm{FS}}/(2\pi)]\). On \(\mathbb{CP}^1\), it is a constant multiple of the round metric under the identification with the two-sphere.
 
-The metric is also obtained by Kähler reduction of the unit sphere in \(\mathbb C^{n+1}\) by the scalar \(S^1\)-action. Griffiths and Harris treat it as the canonical projective metric in [Chapter 0, §5](https://doi.org/10.1002/9781118032527).
+The metric is also obtained by Kähler reduction of the unit sphere in \(\mathbb C^{n+1}\) by the scalar \(S^1\)-action. Griffiths and Harris treat it as the canonical projective metric in [Chapter 0, §5].
 
 ## References
 

@@ -36,7 +36,7 @@ belongs to the [[operator-algebras/predual|predual]] \(M_*\). Equivalently,
 for every bounded increasing net \((x_i)\) of positive elements,
 \(\pi(\sup_i x_i)=\sup_i\pi(x_i)\). These criteria connect the concrete
 operator representation with the canonical weak-star structure of \(M\)
-[Takesaki, treatment of normal representations](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, treatment of normal representations].
 
 ## Examples and a non-example
 

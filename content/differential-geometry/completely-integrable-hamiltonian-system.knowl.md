@@ -20,11 +20,11 @@ If \(c\) is a [[fiber-bundles/regular-value|regular value]] of \(F\) and a [[top
 \[
 \omega=\sum_i dI_i\wedge d\theta_i
 \]
-and \(H\) depends only on the actions. Consequently, the Hamiltonian motion is linear on each nearby invariant torus [Arnol'd, Chapter 10](https://doi.org/10.1007/978-1-4757-1693-1).
+and \(H\) depends only on the actions. Consequently, the Hamiltonian motion is linear on each nearby invariant torus [Arnol'd, Chapter 10].
 
 ## Regular and singular fibers
 
-At a regular point of \(F\), the commuting [[differential-geometry/hamiltonian-vector-field|Hamiltonian vector fields]] \(X_{F_i}\) are linearly independent and span a Lagrangian distribution tangent to the common level set. Critical points of \(F\) produce singular fibers, to which the regular Liouville–Arnold normal form does not directly apply. Global action-angle coordinates may also fail even when all fibers under consideration are regular; monodromy is one obstruction [Duistermaat, §§1–3](https://doi.org/10.1002/cpa.3160330602).
+At a regular point of \(F\), the commuting [[differential-geometry/hamiltonian-vector-field|Hamiltonian vector fields]] \(X_{F_i}\) are linearly independent and span a Lagrangian distribution tangent to the common level set. Critical points of \(F\) produce singular fibers, to which the regular Liouville–Arnold normal form does not directly apply. Global action-angle coordinates may also fail even when all fibers under consideration are regular; monodromy is one obstruction [Duistermaat, §§1–3].
 
 ## Examples and non-examples
 

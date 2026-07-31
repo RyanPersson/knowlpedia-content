@@ -33,7 +33,7 @@ A\xrightarrow{\ \phi_\lambda\ }M_{n(\lambda)}(\mathbb C)
 \]
 through [[operator-algebras/matrix-cstar-algebra|matrix algebras]], where both
 maps are [[operator-algebras/completely-positive-contraction|completely positive contractions]]
-[Brown–Ozawa, Theorem 2.3.8](https://doi.org/10.1090/gsm/088). This converts a
+[Brown–Ozawa, Theorem 2.3.8]. This converts a
 global tensor-norm condition into finite-dimensional local approximations.
 
 ## Examples and permanence
@@ -65,7 +65,7 @@ The original tensor-norm theory and its completely positive formulation were
 developed through several equivalent characterizations; the approximation
 form is especially useful because it behaves well under limits and
 constructions
-[Choi–Effros, pp. 61–79](https://doi.org/10.2307/2373876).
+[Choi–Effros, pp. 61–79].
 
 ## Conventions and scope
 

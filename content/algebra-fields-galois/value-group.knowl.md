@@ -25,8 +25,7 @@ valuation surjective without changing its valuation ring or residue field.
 Thus the value group is intrinsic to the valued field, whereas a larger
 chosen codomain need not be.
 
-## Reference
-
+## References
 Irving Kaplansky, “Maximal fields with valuations,” *Duke Mathematical
 Journal* 9 (1942), 303–321.
 [DOI](https://doi.org/10.1215/S0012-7094-42-00922-0).

@@ -22,7 +22,7 @@ No metric or orthogonality hypothesis is involved.
 
 ## Proof idea
 
-Near an intersection point, choose defining coordinates for one submanifold. Restricting its normal-coordinate map to the other submanifold gives a submersion because transversality supplies every normal direction. The submersion level-set theorem then makes the common zero set an embedded submanifold. Its [[differential-geometry/tangent-space|tangent space]] is the kernel of the restricted differential, which is exactly \(T_pS\cap T_pT\). This local proof is given in [Lee, Chapter 6](https://doi.org/10.1007/978-1-4419-9982-5).
+Near an intersection point, choose defining coordinates for one submanifold. Restricting its normal-coordinate map to the other submanifold gives a submersion because transversality supplies every normal direction. The submersion level-set theorem then makes the common zero set an embedded submanifold. Its [[differential-geometry/tangent-space|tangent space]] is the kernel of the restricted differential, which is exactly \(T_pS\cap T_pT\). This local proof is given in [Lee, Chapter 6].
 
 ## Consequences and examples
 

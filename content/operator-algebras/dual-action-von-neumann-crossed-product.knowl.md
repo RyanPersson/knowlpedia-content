@@ -44,7 +44,7 @@ Crossing again by \(\widehat G\) recovers \(M\), stabilized by
 double-dual action remembers the original action up to the standard inner
 correction. This makes the dual action structural data rather than an
 arbitrary symmetry of the crossed product
-[Nakagami–Takesaki, Chapters 1–2](https://doi.org/10.1007/BFb0069742).
+[Nakagami–Takesaki, Chapters 1–2].
 
 ## Relation to other dual actions
 

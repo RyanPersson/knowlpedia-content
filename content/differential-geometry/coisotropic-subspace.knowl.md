@@ -28,7 +28,7 @@ For \(u,v\in W\), define \(\bar\omega([u],[v])=\omega(u,v)\) on \(W/W^\omega\). 
 
 ## Conventions and scope
 
-Some sources write “co-isotropic.” The definition here is purely linear and finite-dimensional. For a coisotropic submanifold \(C\) of a [[differential-geometry/symplectic-manifold|symplectic manifold]], the condition is imposed pointwise as \((T_pC)^\omega\subseteq T_pC\), and forming a smooth quotient requires additional global hypotheses. The linear theory is developed in [Cannas da Silva, §1.1](https://doi.org/10.1007/978-3-540-45330-7).
+Some sources write “co-isotropic.” The definition here is purely linear and finite-dimensional. For a coisotropic submanifold \(C\) of a [[differential-geometry/symplectic-manifold|symplectic manifold]], the condition is imposed pointwise as \((T_pC)^\omega\subseteq T_pC\), and forming a smooth quotient requires additional global hypotheses. The linear theory is developed in [Cannas da Silva, §1.1].
 
 ## References
 

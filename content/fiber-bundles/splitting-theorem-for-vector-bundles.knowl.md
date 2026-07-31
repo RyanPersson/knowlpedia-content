@@ -25,7 +25,7 @@ Paracompactness provides a [[fiber-bundles/bundle-metric|bundle metric]] on \(E\
 \[
 q|_{\iota(E')^\perp}:\iota(E')^\perp\longrightarrow E''
 \]
-is a fiberwise isomorphism and hence a [[fiber-bundles/bundle-isomorphism|bundle isomorphism]]. Its inverse, followed by the inclusion into \(E\), is the required right inverse \(s\) [Husemoller, chapter 3](https://doi.org/10.1007/978-1-4757-2261-1).
+is a fiberwise isomorphism and hence a [[fiber-bundles/bundle-isomorphism|bundle isomorphism]]. Its inverse, followed by the inclusion into \(E\), is the required right inverse \(s\) [Husemoller, chapter 3].
 
 Different bundle metrics generally produce different complements. The resulting direct-sum decompositions are therefore auxiliary choices rather than additional structure carried by the original exact sequence.
 

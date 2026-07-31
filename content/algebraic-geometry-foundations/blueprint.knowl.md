@@ -26,6 +26,5 @@ There are fully faithful embeddings of [[algebraic-geometry-foundations/semiring
 
 Blueprints support localization, spectra, and [[algebraic-geometry-foundations/blue-scheme|blue schemes]]. The [[algebraic-geometry-foundations/blueprint-as-an-ordered-blueprint|canonical embedding into ordered blueprints]] regards every additive equality as a pair of opposite inequalities.
 
-## Reference
-
+## References
 Oliver Lorscheid, [*The geometry of blueprints, Part I: Algebraic background and scheme theory*, §1](https://arxiv.org/abs/1103.1745).

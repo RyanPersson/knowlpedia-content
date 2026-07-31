@@ -37,7 +37,7 @@ It is formally self-adjoint and degree-preserving. On a compact manifold without
 \langle\Delta\alpha,\alpha\rangle_{L^2}
 =\lVert d\alpha\rVert_{L^2}^2+\lVert\delta\alpha\rVert_{L^2}^2.
 \]
-The codifferential and this energy identity are developed in [Jost, Chapter 3, “The Laplace Operator and Harmonic Differential Forms”](https://doi.org/10.1007/978-3-319-61860-9).
+The codifferential and this energy identity are developed in [Jost, Chapter 3, “The Laplace Operator and Harmonic Differential Forms”].
 
 ## Conventions and scope
 

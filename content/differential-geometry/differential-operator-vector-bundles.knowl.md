@@ -24,7 +24,7 @@ For \(f\in C^\infty(M)\), let \(M_f\) denote multiplication by \(f\) and set \(\
 \[
 \operatorname{ad}_{M_{f_m}}\cdots\operatorname{ad}_{M_{f_0}}(D)=0.
 \]
-This formulation is independent of coordinates and trivializations. Order-zero operators are precisely smooth bundle homomorphisms acting pointwise. These equivalent descriptions are developed in [Wells, chapter IV](https://doi.org/10.1007/978-0-387-73892-5).
+This formulation is independent of coordinates and trivializations. Order-zero operators are precisely smooth bundle homomorphisms acting pointwise. These equivalent descriptions are developed in [Wells, chapter IV].
 
 ## Structure and examples
 

@@ -42,7 +42,7 @@ The assignment \(L\mapsto L\subset V\) identifies \(\mathbb P(V)\) with the Gras
 
 There are two standard projectivization conventions. This knowl uses
 \(\operatorname{Proj}\operatorname{Sym}(V^\vee)\), whose points are lines in \(V\). Some algebraic-geometry texts instead write
-\(\mathbb P(V)=\operatorname{Proj}\operatorname{Sym}(V)\); that scheme parameterizes one-dimensional quotients of \(V\), equivalently lines in \(V^\vee\). Formulas involving tautological line bundles and duals must be translated when conventions differ [Harris, Lecture 1](https://doi.org/10.1007/978-1-4757-2189-8).
+\(\mathbb P(V)=\operatorname{Proj}\operatorname{Sym}(V)\); that scheme parameterizes one-dimensional quotients of \(V\), equivalently lines in \(V^\vee\). Formulas involving tautological line bundles and duals must be translated when conventions differ [Harris, Lecture 1].
 
 ## Examples and related structures
 

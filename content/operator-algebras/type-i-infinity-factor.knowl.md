@@ -29,7 +29,7 @@ projections, and a maximal orthogonal family of them corresponds to an
 [[linear-algebra/orthonormal-basis|orthonormal basis]]. Thus the cardinality of such a family recovers
 \(\dim H\), and the infinite cardinals distinguish the nonseparable
 isomorphism classes
-[Takesaki, Chapter V, §1](https://doi.org/10.1007/978-1-4612-6188-9).
+[Takesaki, Chapter V, §1].
 
 ## Proper infiniteness and traces
 

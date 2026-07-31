@@ -22,7 +22,7 @@ Write \(\mu^\xi=\ell_\xi\circ\mu\). The moment-map identity says \(X_{\mu^\xi}=\
 \[
 \{\mu^\xi,\mu^\eta\}_M=\mu^{[\xi,\eta]}.
 \]
-This verifies preservation of the Lie–Poisson bracket on linear functions. The Leibniz rule and a local-coordinate argument then extend the equality to arbitrary smooth functions on \(\mathfrak g^*\). Conversely, the Poisson property applied to linear functions gives the displayed infinitesimal identity. See [Marsden and Ratiu, §12.4](https://doi.org/10.1007/978-0-387-21792-5) and [Ortega and Ratiu, §4.2](https://doi.org/10.1007/978-1-4757-3811-7).
+This verifies preservation of the Lie–Poisson bracket on linear functions. The Leibniz rule and a local-coordinate argument then extend the equality to arbitrary smooth functions on \(\mathfrak g^*\). Conversely, the Poisson property applied to linear functions gives the displayed infinitesimal identity. See [Marsden and Ratiu, §12.4] and [Ortega and Ratiu, §4.2].
 
 ## Coadjoint orbits
 

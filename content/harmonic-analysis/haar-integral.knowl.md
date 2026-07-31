@@ -32,7 +32,7 @@ for finitely supported \(f\). On \(\mathbb R^n\) under addition, Lebesgue integr
 
 Replacing [[lie-groups/left-translation|left translations]] by \(R_gf(x)=f(xg)\) defines a right Haar integral. Every locally compact group has both kinds. They coincide up to scale exactly in the [[harmonic-analysis/unimodular-group|unimodular]] case; in general, the [[harmonic-analysis/modular-function|modular function]] records how a left Haar integral changes under [[lie-groups/right-translation|right translation]].
 
-The functional construction, representation by invariant measures, and uniqueness theorem are presented in [Hewitt and Ross, “Invariant Functionals”](https://doi.org/10.1007/978-3-662-40409-6).
+The functional construction, representation by invariant measures, and uniqueness theorem are presented in [Hewitt and Ross, “Invariant Functionals”].
 
 ## References
 

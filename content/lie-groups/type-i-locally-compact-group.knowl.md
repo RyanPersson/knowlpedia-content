@@ -14,7 +14,7 @@ locally compact group** if its [[operator-algebras/full-group-cstar-algebra|full
 every [[operator-algebras/factorial-representation|factor representation]] of
 \(G\) generates a [[operator-algebras/type-i-factor|type I factor]], or every
 factor representation is a Hilbert-space multiple of an irreducible
-representation [Bekka–de la Harpe, §6.D](https://bookstore.ams.org/SURV/250).
+representation [Bekka–de la Harpe, §6.D].
 The definition itself does not require second countability, but separability
 or second-countability hypotheses are normally added when using measurable
 disintegration over the [[harmonic-analysis/unitary-dual|unitary dual]].
@@ -28,7 +28,7 @@ multiplicity data. Without the type I hypothesis, central decomposition into
 factor representations remains available in suitable separable settings, but
 those factors need not be irreducible multiples and decomposition into
 irreducibles need not give a workable measurable classification
-[Folland, §7.4](https://doi.org/10.1201/B19172).
+[Folland, §7.4].
 
 ## Examples and non-examples
 
@@ -38,7 +38,7 @@ groups and the standard classes of
 noncompact examples. In contrast, the [[algebra-groups/free-group|free group]] on two generators, with the
 discrete topology, is not type I; more generally, a countable discrete group
 is type I exactly when it is virtually abelian
-[Bekka–de la Harpe, §8.B and Theorem 8.F.3](https://bookstore.ams.org/SURV/250).
+[Bekka–de la Harpe, §8.B and Theorem 8.F.3].
 These examples show that amenability alone does not characterize the type I
 property.
 

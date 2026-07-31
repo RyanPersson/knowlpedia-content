@@ -24,7 +24,7 @@ The Dolbeault lemma says that every \(\bar\partial\)-closed \((p,q)\)-form with 
 0\longrightarrow\Omega_X^p\longrightarrow\mathcal A_X^{p,0}
 \xrightarrow{\bar\partial}\mathcal A_X^{p,1}\longrightarrow\cdots
 \]
-is a fine resolution of the sheaf \(\Omega_X^p\) of holomorphic \(p\)-forms. This local statement and its resolution interpretation are developed in [Voisin, §2.3.3](https://doi.org/10.1017/CBO9780511615344).
+is a fine resolution of the sheaf \(\Omega_X^p\) of holomorphic \(p\)-forms. This local statement and its resolution interpretation are developed in [Voisin, §2.3.3].
 
 ## Structure and examples
 

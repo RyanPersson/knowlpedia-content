@@ -22,7 +22,7 @@ In local frames, \(\Phi\) is represented by a smooth matrix-valued function. A n
 \[
 \begin{pmatrix}I_r&0\\0&0\end{pmatrix}.
 \]
-The coordinate spans of the zero block and the \(I_r\) block then give smooth local frames for the kernel and image. This is the vector-bundle analogue of the constant-rank normal form; see [Lee, Chapter 10](https://doi.org/10.1007/978-1-4419-9982-5).
+The coordinate spans of the zero block and the \(I_r\) block then give smooth local frames for the kernel and image. This is the vector-bundle analogue of the constant-rank normal form; see [Lee, Chapter 10].
 
 ## Exact sequences and induced isomorphism
 
