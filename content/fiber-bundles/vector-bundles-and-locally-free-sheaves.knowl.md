@@ -14,15 +14,17 @@ an equivalence of categories
 \[
 \mathbf{Vect}_{\mathbb F}(M)
 \;\simeq\;
-\mathbf{LocFree}^{\mathrm{fin}}\bigl(C^\infty_M(\mathbb F)\bigr),
+\mathbf{LocFree}\bigl(C^\infty_M(\mathbb F)\bigr),
 \qquad
 E\longmapsto\Gamma^\infty(-,E).
 \]
 The source is the
 [[fiber-bundles/category-of-vector-bundles-over-a-manifold|fixed-base
 category of finite-rank vector bundles]], and the target consists of
-finite-rank [[algebraic-geometry-foundations/locally-free-sheaf|locally free
-sheaves]] of \(C^\infty_M(\mathbb F)\)-modules. On morphisms, a bundle map over
+[[algebraic-geometry-foundations/locally-free-sheaf|locally free sheaves]]
+of \(C^\infty_M(\mathbb F)\)-modules whose rank is finite and locally
+constant. Neither side requires that rank to be globally bounded across the
+connected components of \(M\). On morphisms, a bundle map over
 \(\operatorname{id}_M\) acts on local sections by postcomposition.
 
 ## Reconstruction from a sheaf
@@ -55,7 +57,7 @@ local freeness.
 The two statements must therefore be separated:
 
 - every finite-rank bundle has a finite-rank locally free **section sheaf**
-  on any smooth manifold;
+  on any smooth manifold, with no global bound on ranks across components;
 - for connected \(M\), its **global section module** is finitely generated
   projective; on disconnected \(M\), the same holds when the componentwise
   ranks are globally bounded.

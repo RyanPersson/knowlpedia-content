@@ -572,7 +572,7 @@ This permanent provenance and review index records the definitions added in the 
 
 ### Regularity, summability, and dimension spectrum
 
-- [[noncommutative-geometry/delta-derivation|Derivation delta(T)=[|D|,T]]]
+- [[noncommutative-geometry/delta-derivation|Derivation \(\delta(T)=[\lvert D\rvert,T]\)]]
 - [[noncommutative-geometry/dimension-spectrum|Dimension spectrum of a spectral triple]]
 - [[noncommutative-geometry/finitely-summable-spectral-triple|Finitely summable spectral triple]]
 - [[noncommutative-geometry/metric-dimension|Metric dimension of a spectral triple]]

@@ -21,6 +21,7 @@ for all \(a,b\in A\). A **commutative monoid with zero** also has an absorbing e
 ## Examples
 
 - The nonnegative integers under addition form a commutative monoid.
-- The nonzero elements of a commutative ring form a commutative monoid under multiplication only when zero divisors are handled by retaining all elements; the full multiplicative monoid of the ring includes \(0\).
+- The underlying multiplicative monoid of a commutative ring consists of all
+  ring elements and has \(0\) as an absorbing element. If the ring has no
+  zero divisors, its nonzero elements are also closed under multiplication.
 - Every abelian group is a commutative monoid, but a commutative monoid need not have inverses.
-

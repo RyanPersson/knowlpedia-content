@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]]
 and let \(\varphi\) be a
 [[operator-algebras/normal-semifinite-faithful-weight|normal semifinite
-[[operator-algebras/faithful-weight|faithful weight]]]]. The **modular automorphism group** of \(\varphi\) is the
+faithful weight]]. The **modular automorphism group** of \(\varphi\) is the
 unique ultraweakly continuous one-parameter group
 \[
 \sigma^\varphi:\mathbb R\longrightarrow\operatorname{Aut}(M)

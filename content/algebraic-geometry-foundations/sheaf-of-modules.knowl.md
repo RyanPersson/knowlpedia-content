@@ -30,8 +30,9 @@ is \(\mathcal O_X(U)\)-linear. It induces an
 \[
 \varphi_x:\mathcal F_x\longrightarrow\mathcal G_x
 \]
-on every stalk. Kernels and cokernels are formed sheafwise, making the
-category of \(\mathcal O_X\)-modules an abelian category.
+on every stalk. Kernels are computed sectionwise, while a cokernel is the
+sheafification of the sectionwise presheaf cokernel. These constructions make
+the category of \(\mathcal O_X\)-modules an abelian category.
 
 ## Examples
 

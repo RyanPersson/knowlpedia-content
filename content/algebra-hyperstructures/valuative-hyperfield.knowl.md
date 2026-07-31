@@ -41,20 +41,15 @@ not only the real-valued example.
 
 ## Valuations as morphisms
 
-A multiplicative non-Archimedean norm
-\[
-\lVert\cdot\rVert:K\longrightarrow\Gamma_{\max}
-\]
-is precisely a weak hyperfield homomorphism when \(K\) is regarded as a
-singleton-valued hyperfield. For an additive valuation \(v\), the house max
-convention instead uses \(-v\). Unequal values give the unique maximum;
-when values tie, the target hyper-sum permits every lower value so that the
-image of a particular sum can record whatever cancellation actually occurs.
+A multiplicative non-Archimedean norm \(K\to\Gamma_{\max}\) is a weak
+hyperfield homomorphism when \(K\) has singleton hyper-sums. In the additive
+valuation and max convention, the corresponding statement is the
+[[algebra-hyperstructures/valuation-as-tropical-hyperfield-morphism|valuation
+as a tropical-hyperfield morphism]] proposition.
 
-This morphism statement does not assert that every valuative hyperfield is
-literally the orbit quotient of every field carrying such a valuation.
-Quotient hyperfields remember the actual subgroup and its realized sums,
-whereas \(\Gamma_{\max}\) is canonically constructed from the ordered group.
+This does not assert that \(\Gamma_{\max}\) is an orbit quotient of every
+field carrying such a valuation. Quotient hyperfields retain the realized
+orbit sums, whereas this construction depends only on the ordered group.
 
 ## References
 

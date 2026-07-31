@@ -2,32 +2,37 @@
 id = "langlands/level-structure-on-g-bundle"
 title = "Level structure on a G-bundle"
 kind = "definition"
-summary = "Additional local data on a G-bundle at marked points, such as a trivialization or reduction to a parahoric subgroup."
-aliases = ["parabolic structure on a G-bundle", "parahoric level structure"]
+summary = "A reduction of the formal-frame torsor of a G-bundle at a marked point to a chosen subgroup of the positive loop group."
+aliases = ["K-level structure on a G-bundle"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(E\) be a principal \(G\)-bundle on a smooth curve \(X\), and let
-\(x\in X\). A **level structure at \(x\)** is additional data restricting or
-trivializing \(E\) on the formal neighborhood of \(x\). Examples include a
-full trivialization, a reduction of the fiber \(E_x\) to a
-[[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]], and a
-reduction over the formal disc to a parahoric subgroup of \(G((t))\).
+Let \(E\) be a principal \(G\)-bundle on a smooth curve \(X\), let \(x\in X\),
+and choose a subgroup \(K\subseteq G(\mathcal O_x)\) of the positive loop
+group. The trivializations of \(E\) on the formal disc at \(x\) form a
+\(G(\mathcal O_x)\)-torsor. A **\(K\)-level structure on \(E\) at \(x\)** is
+a reduction of this torsor to \(K\), equivalently a section of its quotient
+by \(K\).
 
-## Depth
+## Standard choices
 
-Level structures form a hierarchy. A Borel reduction is often called
-Iwahori level. Congruence subgroups impose deeper level. In wild ramification,
-one may also prescribe characters of deeper filtration quotients.
+- \(K=\{1\}\) gives a full formal trivialization.
+- If \(K\) is the inverse image of a
+  [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]] under
+  \(G(\mathcal O_x)\to G\), the datum is
+  [[langlands/iwahori-level-structure|Iwahori level]].
+- Bruhat–Tits parahoric subgroups give
+  [[langlands/parahoric-level-structure|parahoric level]].
+- Congruence subgroups give successively deeper level structures.
 
 ## Automorphic moduli
 
-Replacing \(\operatorname{Bun}_G(X)\) by the stack of bundles with chosen
-level structures changes the automorphic sheaf category. It is the
-automorphic counterpart of allowing
-[[langlands/ramification-of-g-local-system|ramified local systems]] on the
-punctured curve.
+Replacing \(\operatorname{Bun}_G(X)\) by the stack of bundles with a fixed
+\(K\)-level structure changes the automorphic sheaf category. Which
+[[langlands/ramification-of-g-local-system|spectral ramification condition]]
+corresponds to it depends on \(K\), the equivariance imposed on automorphic
+sheaves, and any chosen character of a deeper filtration quotient.
 
 ## References
 

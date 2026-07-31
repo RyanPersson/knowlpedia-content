@@ -27,9 +27,9 @@ acts linearly on \(\mathbb C^2\) and hence projectively on its lines. Multiplyin
 
 Every Möbius transformation is a [[differential-geometry/biholomorphism|biholomorphism]] of the sphere and carries [[complex-analysis/generalized-circle|generalized circles]] to generalized circles. It is conformal and orientation preserving. Reflection or complex conjugation produces [[complex-analysis/anti-mobius-transformation|anti-Möbius transformations]], which are not holomorphic.
 
-## Normal forms
+## Generators
 
-Translations, nonzero complex dilations, and inversion \(z\mapsto1/z\) generate all Möbius transformations. Fixed-point behavior yields elliptic, parabolic, hyperbolic, and loxodromic classifications, with terminology depending slightly on whether one works in complex dynamics or hyperbolic geometry.
+Translations, nonzero complex dilations, and inversion \(z\mapsto1/z\) generate all Möbius transformations.
 
 ## References
 

@@ -37,27 +37,17 @@ the bracket on two odd elements is a symmetric equivariant map
 It is symmetric because graded skew-symmetry gives
 \([x,y]=[y,x]\) when \(x\) and \(y\) are odd.
 
-## Morphisms, representations, and adjoint action
+## Morphisms
 
 A morphism of Lie superalgebras is an even linear map that preserves brackets.
-A **representation** of \(\mathfrak g\) on a super vector space \(V\) is an
-even Lie-superalgebra morphism
-\[
-\rho:\mathfrak g\longrightarrow
-\mathfrak{gl}(V),
-\]
-where \(\mathfrak{gl}(V)=\underline{\operatorname{End}}(V)\) has the
-supercommutator bracket. The adjoint representation is
-\(\operatorname{ad}_x(y)=[x,y]\); the super Jacobi identity says precisely
-that this action is compatible with the bracket.
+A Lie superalgebra can act on a super vector space through a
+[[supergeometry/representation-of-a-lie-superalgebra|representation of a Lie
+superalgebra]].
 
 ## Associative source of examples
 
 Every associative [[supergeometry/superalgebra|superalgebra]] \(A\) becomes a
-Lie superalgebra under
-\[
-[a,b]_{\mathrm s}=ab-(-1)^{|a||b|}ba.
-\]
+Lie superalgebra under its [[supergeometry/supercommutator|supercommutator]].
 In particular, endomorphisms of a super vector space form
 \(\mathfrak{gl}(V)\).
 

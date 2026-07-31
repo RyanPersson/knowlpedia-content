@@ -99,7 +99,7 @@ This section covers field theory and Galois theory: field extensions, algebraic 
 - [[algebra-fields-galois/splitting-field-uniqueness|Uniqueness of splitting fields up to K-isomorphism]]
 - [[algebra-fields-galois/algebraic-closure-uniqueness|Uniqueness of algebraic closures]]
 - [[algebra-fields-galois/galois-correspondence|Galois correspondence (subgroups ↔ intermediate fields)]]
-- [[algebra-fields-galois/galois-degree-equals-group-order||Gal(L/K)| = [L:K] for Galois extensions]]
+- [[algebra-fields-galois/galois-degree-equals-group-order|\(\lvert\operatorname{Gal}(L/K)\rvert=[L:K]\) for Galois extensions]]
 - [[algebra-fields-galois/finite-field-galois-cyclic|Finite field Galois groups are cyclic]]
 - [[algebra-fields-galois/finite-field-existence|Existence and uniqueness of 𝔽_{p^n}]]
 - [[algebra-fields-galois/finite-field-multiplicative-cyclic|Multiplicative group of finite field is cyclic]]

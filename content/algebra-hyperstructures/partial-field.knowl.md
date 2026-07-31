@@ -39,17 +39,11 @@ while \(1+1=2\) is not a coefficient and is therefore undefined.
 
 ## Associated tract
 
-A partial field determines a [[algebra-hyperstructures/tract|tract]] with
-multiplicative group \(G\) by declaring
-\[
-\sum_i g_i\in N_G
-\quad\Longleftrightarrow\quad
-\sum_i g_i=0\text{ in }R.
-\]
-The tract remembers all finite null relations, including ones whose
-intermediate binary sums leave the partial field. Partial fields also have
-associated pastures, but not every tract or pasture comes from a partial
-field.
+The [[algebra-hyperstructures/partial-field-as-a-tract|tract associated with
+\(P\)]] records every formal sum of elements of \(G\) that vanishes in
+\(R\), including relations whose intermediate binary sums leave the partial
+field. Partial fields also have associated pastures, but not every tract or
+pasture comes from a partial field.
 
 ## Convention warning
 

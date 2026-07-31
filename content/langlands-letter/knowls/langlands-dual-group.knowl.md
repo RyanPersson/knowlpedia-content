@@ -41,7 +41,7 @@ Over \(\mathbb C\), \(PGL_2\) is also the automorphism group of the projective
 line. That geometric action does not define Langlands duality: the dual group
 is determined by exchanging the root and coroot data. The same \(PGL_2\)
 therefore appears in two mathematically distinct roles in
-[[langlands/projective-line-in-geometric-langlands|projective-line examples]].
+[[langlands/ramified-geometric-langlands|ramified projective-line examples]].
 
 ## References
 

@@ -26,7 +26,7 @@ If \(X\) is affine over \(S'\), the Weil restriction exists and is affine over \
 
 ## Complex groups viewed over the real numbers
 
-For a complex algebraic group \(G\),
+For a group scheme \(G\) over \(\mathbb C\),
 \[
 \bigl(\operatorname{Res}_{\mathbb C/\mathbb R}G\bigr)(\mathbb R)
 \cong G(\mathbb C).
@@ -38,7 +38,13 @@ After base change back to \(\mathbb C\), one obtains
 \bigl(\operatorname{Res}_{\mathbb C/\mathbb R}G\bigr)_{\mathbb C}
 \cong G\times\overline G,
 \]
-reflecting \(\mathbb C\otimes_{\mathbb R}\mathbb C\cong\mathbb C\times\mathbb C\). Weil restriction is therefore a representable algebraic universal construction, not merely the smooth operation of [[lie-groups/underlying-real-lie-group|forgetting a complex structure]], though the two agree after taking real points and analytifying in this setting.
+where \(\overline G\) is the conjugate group scheme. This reflects
+\(\mathbb C\otimes_{\mathbb R}\mathbb C\cong\mathbb C\times\mathbb C\). Weil
+restriction is therefore a representable algebraic universal construction,
+not merely the smooth operation of
+[[lie-groups/underlying-real-lie-group|forgetting a complex structure]],
+though the two agree after taking real points and analytifying in this
+setting.
 
 ## References
 

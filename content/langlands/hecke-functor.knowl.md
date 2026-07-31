@@ -8,13 +8,27 @@ domains = ["langlands"]
 section_mode = "progressive"
 +++
 
-Let \(V\) be a representation of \(\widehat G\). Via
+Let \(X\) be a smooth complex curve, let \(G\) be a connected reductive
+complex group, and let \(V\) be a representation of \(\widehat G\). Via
 [[langlands/geometric-satake-equivalence|geometric Satake]], \(V\) determines
 a spherical kernel \(\mathcal K_V\) on the
-[[langlands/hecke-correspondence|Hecke correspondence]]. Pulling an
-automorphic \(D\)-module \(\mathcal F\) to the Hecke stack, tensoring with
-\(\mathcal K_V\), and pushing to
-\(\operatorname{Bun}_G\times X\) defines the **Hecke functor**
+[[langlands/hecke-correspondence|Hecke correspondence]]
+\[
+\operatorname{Bun}_G
+\xleftarrow{\ h_{\mathrm{left}}\ }
+\operatorname{Hecke}_G
+\xrightarrow{\ (h_{\mathrm{right}},x)\ }
+\operatorname{Bun}_G\times X.
+\]
+With right \(D\)-modules and the standard Satake normalization, the
+**geometric Hecke functor** is the pull–tensor–push construction
+\[
+H_V(\mathcal F)=
+(h_{\mathrm{right}},x)_*
+\bigl(h_{\mathrm{left}}^!\mathcal F
+\mathbin{\overset{!}{\otimes}}\mathcal K_V\bigr),
+\]
+giving
 \[
 H_V:D\text{-}\operatorname{mod}(\operatorname{Bun}_G)
 \longrightarrow
@@ -29,12 +43,12 @@ This factorization compatibility is what lets an eigenvalue be a
 \(\widehat G\)-local system rather than an unrelated collection of vector
 bundles.
 
-## Conventions
+## Other conventions
 
-The exact formula includes cohomological shifts, left-versus-right
-\(D\)-module conventions, and a choice of which bundle projection is the
-source. Those normalizations do not change the organizing pull-kernel-push
-construction.
+Left \(D\)-modules replace the displayed operations by their corresponding
+left-module conventions. Reversing the two bundle projections gives the
+inverse-modification convention. Cohomological shifts are absorbed into the
+normalized Satake kernel \(\mathcal K_V\).
 
 ## References
 

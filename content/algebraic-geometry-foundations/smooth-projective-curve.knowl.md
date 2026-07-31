@@ -3,7 +3,7 @@ id = "algebraic-geometry-foundations/smooth-projective-curve"
 title = "Smooth projective curve"
 kind = "definition"
 summary = "A smooth one-dimensional projective scheme over a field, the standard global base for geometric Langlands."
-aliases = ["smooth projective algebraic curve", "complete nonsingular curve"]
+aliases = ["smooth projective algebraic curve"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 section_mode = "progressive"
 +++
@@ -11,7 +11,11 @@ section_mode = "progressive"
 A **smooth projective curve** over a field \(k\) is an
 [[algebraic-geometry-foundations/algebraic-curve|algebraic curve]] \(X\) whose
 structure morphism \(X\to\operatorname{Spec}k\) is smooth and which admits a
-closed immersion into some projective space over \(k\).
+closed immersion into some projective space over \(k\). Equivalently, its
+structure morphism is both
+[[algebraic-geometry-foundations/smooth-morphism|smooth]] of relative
+dimension \(1\) and
+[[algebraic-geometry-foundations/projective-morphism|projective]].
 
 In the geometric Langlands setting one commonly assumes that \(k\) is
 algebraically closed of characteristic \(0\) and that \(X\) is connected. The
@@ -22,9 +26,11 @@ curve.
 
 ## Complex-analytic picture
 
-For \(k=\mathbb C\), \(X(\mathbb C)\) is a compact connected Riemann surface.
-The algebraic, analytic, Betti, and de Rham formulations are related but are
-not literally the same categories without comparison theorems.
+For \(k=\mathbb C\), every connected component of \(X(\mathbb C)\) is a
+compact Riemann surface. If \(X\) is connected, then \(X(\mathbb C)\) is a
+compact connected Riemann surface. The algebraic, analytic, Betti, and de
+Rham formulations are related but are not literally the same categories
+without comparison theorems.
 
 ## References
 

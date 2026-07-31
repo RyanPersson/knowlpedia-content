@@ -58,6 +58,23 @@ invertible \(C^\infty(M)\)-linear endomorphisms of the section module.
 
 This equivalence explains why vector bundles define classes in topological \(K\)-theory and why finitely generated projective modules play the role of vector bundles in noncommutative geometry.
 
+## Classical compact smooth formulation
+
+The theorem is often stated first for a **compact** smooth manifold \(M\):
+taking smooth sections gives an equivalence between finite-rank smooth vector
+bundles on \(M\) and finitely generated projective
+\(C^\infty(M,\mathbb F)\)-modules. Compactness makes the elementary proof
+especially direct: choose a finite trivializing cover and a subordinate
+partition of unity to construct finitely many global generators.
+
+This familiar compact statement remains part of the theorem; the opening
+formulation records its finite-dimensional noncompact extension. On a
+noncompact manifold the finite global complement follows from finite covering
+dimension and the smooth vector-bundle embedding theorem, rather than from a
+finite trivializing cover. Changing the coefficient algebra to functions
+vanishing at infinity gives a different version and changes the appropriate
+section module.
+
 ## Variants and scope
 
 **Warning.** Several results are called the Serre–Swan theorem. For a compact
@@ -89,3 +106,4 @@ theorem additionally uses the finite-dimensional global-generator result.
 
 1. Richard G. Swan, “Vector Bundles and Projective Modules,” *Transactions of the American Mathematical Society* 105 (1962), 264–277. [DOI record](https://doi.org/10.1090/S0002-9947-1962-0143225-6). Relevant: §§1–3, finite-type bundles, projective section modules, and reconstruction.
 2. José M. Gracia-Bondía, Joseph C. Várilly, and Héctor Figueroa, *Elements of Noncommutative Geometry*, Birkhäuser, 2001. [DOI record](https://doi.org/10.1007/978-1-4612-0005-5). Relevant: chapter 2, projective modules as noncommutative vector bundles and the Serre–Swan correspondence.
+3. Jet Nestruev, *Smooth Manifolds and Observables*, Springer, 2003. [DOI record](https://doi.org/10.1007/b98871). Relevant: Chapter 11, finite-dimensional manifolds, vector-bundle complements, and projective modules of smooth sections.

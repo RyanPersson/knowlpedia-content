@@ -8,9 +8,9 @@ domains = ["mathematical-physics", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(V\) be a finite-dimensional real vector space with a nondegenerate
-symmetric bilinear form \(\eta\). The **Poincaré algebra** of
-\((V,\eta)\) is the semidirect-product Lie algebra
+Let \((V,\eta)\) be a finite-dimensional real Minkowski vector space, so
+\(\eta\) has Lorentzian signature. Its **Poincaré algebra** is the
+semidirect-product Lie algebra
 \[
 \mathfrak{iso}(V,\eta)
 =\mathfrak{so}(V,\eta)\ltimes V,
@@ -25,9 +25,14 @@ bracket is
 
 For four-dimensional [[linear-algebra/minkowski-vector-space|Minkowski
 space]], this is \(\mathfrak{iso}(1,3)\), with dimension \(6+4=10\). It is
-the Lie algebra of every Lie group having the usual Poincaré group as an open
-subgroup, so passing to the proper, orthochronous identity component does not
-change the Lie algebra.
+the Lie algebra of the [[lie-groups/poincare-group|Poincaré group]] and of its
+identity component. Thus passing to the proper, orthochronous component does
+not change the Lie algebra.
+
+For a nondegenerate form of arbitrary signature, the same semidirect-product
+formula defines the **inhomogeneous orthogonal algebra**
+\(\mathfrak{iso}(p,q)\). The name “Poincaré algebra” is reserved here for
+Lorentzian signature.
 
 ## Structure and extensions
 

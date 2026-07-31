@@ -2,7 +2,7 @@
 id = "differential-geometry/spinor-module"
 title = "Spinor module"
 kind = "definition"
-summary = "A Clifford module whose restriction realizes a spin representation."
+summary = "A chosen Clifford module whose restriction to the spin group is a spin representation."
 aliases = ["spin module", "space of algebraic spinors"]
 domains = ["differential-geometry", "representation-theory"]
 section_mode = "progressive"
@@ -20,38 +20,22 @@ Clifford action restricts to a representation
 \]
 called a **spin representation**.
 
-## Complex spinors by dimension
+## Irreducibility and scalar field
 
-Over \(\mathbb C\), signature does not change the isomorphism class of the
-Clifford algebra, but dimension parity does. In dimension \(2m\), the complex
-Clifford algebra has a unique irreducible module \(\Delta_{2m}\) of dimension
-\(2^m\). Its restriction to the spin group decomposes into the two half-spin
-or Weyl modules
-\[
-\Delta_{2m}=\Delta_{2m}^+\oplus\Delta_{2m}^-.
-\]
-Clifford multiplication by a vector interchanges these two summands.
+The phrase “a spinor module” does not specify a unique module until the scalar
+field, signature, grading convention, and irreducibility condition have been
+fixed. Over \(\mathbb C\), the possibilities are described by the
+[[differential-geometry/complex-clifford-module-classification|classification
+of complex Clifford modules]]. Over \(\mathbb R\), the answer depends on the
+signature modulo \(8\).
 
-In dimension \(2m+1\), the complex Clifford algebra has two inequivalent
-irreducible ungraded modules, but their restrictions give equivalent
-irreducible spin representations of dimension \(2^m\). There is no intrinsic
-chiral splitting of that irreducible odd-dimensional spin representation.
-
-## Dirac, Weyl, Majorana, and Majorana–Weyl terminology
-
-| Term | Algebraic meaning | Existence caution |
-|---|---|---|
-| Dirac spinor | An element of a chosen complex spinor module, often containing both chiralities in even dimension. | Depends on the chosen complex Clifford-module convention. |
-| Weyl spinor | An element of one half-spin module \(\Delta^+\) or \(\Delta^-\). | Requires even dimension and a chiral decomposition. |
-| Majorana spinor | A spinor fixed by a compatible \(\operatorname{Spin}(p,q)\)-equivariant real structure on a complex spin module. | Such a real structure exists only in appropriate signatures. |
-| Majorana–Weyl spinor | A spinor that is simultaneously Majorana and of one chirality. | Requires a compatible real structure that preserves a half-spin module; this is strongly signature-dependent. |
-
-“Majorana” is not a synonym for “real coefficients in a selected gamma-matrix
-basis.” It refers invariantly to a real structure on the representation.
-Whether that structure exists, squares to \(+1\) rather than \(-1\), and
-preserves chirality is governed by the real Clifford algebra and its
-mod-\(8\) classification. Signature order and the convention
-\(v^2=\pm q(v)\) must be fixed before quoting a residue-class table.
+These choices also determine which additional spinor conditions exist. A
+[[differential-geometry/dirac-spinor|Dirac spinor]] is complex, a
+[[differential-geometry/weyl-spinor|Weyl spinor]] has a specified chirality,
+and [[differential-geometry/majorana-spinor|Majorana]] and
+[[differential-geometry/majorana-weyl-spinor|Majorana–Weyl spinors]] use
+compatible real structures. These are distinct definitions rather than
+interchangeable names for elements of \(\Delta\).
 
 ## From modules to bundles
 

@@ -24,7 +24,7 @@ Plane waves \(e^{-i\omega t+i k\cdot x}\) solve the equation precisely when \(\o
 
 ## Initial-value formulation
 
-The wave equation is an initial-value problem rather than an elliptic boundary-value problem. On a [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetime]], prescribing \(\phi\) and its future normal derivative on a spacelike Cauchy hypersurface determines a unique solution, under standard support and regularity hypotheses. Finite propagation speed confines the influence of the data to the causal future and past.
+The wave equation is an initial-value problem rather than an elliptic boundary-value problem. The precise global existence, uniqueness, and finite-propagation statement is the [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|Cauchy theorem for normally hyperbolic operators]].
 
 ## Variants
 

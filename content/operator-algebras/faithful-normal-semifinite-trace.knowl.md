@@ -16,7 +16,7 @@ faithful: it preserves suprema of increasing positive nets; every positive
 element is the supremum of positive subelements having finite trace; and
 \(\tau(x)=0\) for \(x\in M_+\) implies \(x=0\). Equivalently, it is a
 [[operator-algebras/normal-semifinite-faithful-weight|normal semifinite
-[[operator-algebras/faithful-weight|faithful weight]]]] satisfying \(\tau(x^*x)=\tau(xx^*)\) for every \(x\in M\).
+faithful weight]] satisfying \(\tau(x^*x)=\tau(xx^*)\) for every \(x\in M\).
 
 ## Finite-trace approximation
 

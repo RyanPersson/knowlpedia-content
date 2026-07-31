@@ -8,9 +8,10 @@ domains = ["algebraic-geometry-foundations", "langlands"]
 section_mode = "progressive"
 +++
 
-Let \(k\) be a field and let \(B\) be the upper-triangular
-[[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]]. The orbit map
-that sends a matrix to the line spanned by its first column induces
+Let \(k\) be a field and let \(B\) be the split upper-triangular
+[[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]] over \(k\).
+The orbit map that sends a matrix to the line spanned by its first column
+induces
 \[
 SL_2/B_{SL_2}\;\simeq\;\mathbb P^1_k
 \qquad\text{and}\qquad
@@ -30,6 +31,5 @@ different roles of the same algebraic group.
 
 ## References
 
-1. Alexander Grothendieck, “Sur la classification des fibrés holomorphes sur
-   la sphère de Riemann,” *American Journal of Mathematics* 79 (1957),
-   121–138. [DOI](https://doi.org/10.2307/2372388).
+1. T. A. Springer, *Linear Algebraic Groups*, 2nd ed., Birkhäuser, 1998,
+   Chapter 8. [DOI](https://doi.org/10.1007/978-0-8176-4840-4).

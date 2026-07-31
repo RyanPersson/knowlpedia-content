@@ -2,7 +2,7 @@
 id = "formal-groups/formal-affine-space"
 title = "Formal affine space"
 kind = "definition"
-summary = "The formal n-disc Spf(k[[X_1,...,X_n]]) with its origin, coordinates, and n-dimensional tangent space."
+summary = "The formal n-disc with its origin, coordinates, and n-dimensional tangent space."
 aliases = ["formal n-disc", "formal disk", "formal disc", "formal affine n-space"]
 domains = ["formal-groups", "algebraic-geometry-foundations"]
 section_mode = "progressive"

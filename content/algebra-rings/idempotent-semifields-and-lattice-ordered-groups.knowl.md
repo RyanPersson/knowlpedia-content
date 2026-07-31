@@ -63,8 +63,9 @@ semifields whose natural orders are not total.
 
 Here “characteristic one” means additively idempotent. The adjoined
 \(\bot=0_S\) is the semiring's additive identity and is not the identity
-element of the group. Omitting it produces a **parasemifield**, not the
-unital semiring used elsewhere in this corpus.
+element of the group. Omitting it produces a
+[[algebra-rings/parasemifield|parasemifield]], not the unital semiring used
+elsewhere in this corpus.
 
 ## References
 

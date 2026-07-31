@@ -31,6 +31,7 @@ convention.
 - [[formal-groups/formal-group-law-morphism|Morphism of formal group laws]]
 - [[formal-groups/additive-and-multiplicative-formal-group-laws|Additive and multiplicative formal group laws]]
 - [[formal-groups/formal-group-logarithm|Formal group logarithm]]
+- [[formal-groups/height-of-one-dimensional-formal-group-law|Height of a one-dimensional formal group law]]
 
 ## Coordinate-free formal geometry
 
@@ -41,6 +42,7 @@ convention.
 - [[formal-groups/formal-group-laws-as-coordinates|Formal group laws as coordinates on formal groups]]
 - [[formal-groups/formal-completion-at-identity|Formal completion at the identity]]
 - [[formal-groups/coordinate-hopf-algebra|Coordinate Hopf algebra of an affine formal group]]
+- [[formal-groups/affine-formal-groups-and-complete-hopf-algebras|Affine formal groups and complete Hopf algebras]]
 
 ## Formal Lie theory
 
@@ -49,9 +51,10 @@ convention.
 - [[lie-groups/baker-campbell-hausdorff-formula|Baker–Campbell–Hausdorff formula]]
 - [[formal-groups/tangent-lie-algebra|Tangent Lie algebra of a formal group]]
 - [[formal-groups/distribution-algebra|Distribution algebra of a formal group]]
+- [[formal-groups/distribution-algebra-and-universal-enveloping-algebra|Distribution algebra and universal enveloping algebra]]
 - [[formal-groups/lie-algebra-formal-group-equivalence|Equivalence between finite-dimensional Lie algebras and formal groups]]
 - [[formal-groups/complete-filtered-lie-algebra-bch-group|BCH group of a complete filtered Lie algebra]]
-- [[formal-groups/positive-characteristic-warning|Why the equivalence fails in positive characteristic]]
+- [[formal-groups/positive-characteristic-warning|Failure of tangent classification in positive characteristic]]
 
 ## House convention
 

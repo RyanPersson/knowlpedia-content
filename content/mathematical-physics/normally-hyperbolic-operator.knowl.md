@@ -2,7 +2,7 @@
 id = "mathematical-physics/normally-hyperbolic-operator"
 title = "Normally hyperbolic operator"
 kind = "definition"
-summary = "A second-order operator whose principal symbol is the Lorentzian inverse metric times the identity."
+summary = "A second-order operator whose principal symbol is the negative Lorentzian inverse metric times the identity."
 aliases = ["normally hyperbolic differential operator", "wave operator on a vector bundle"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
 section_mode = "progressive"
@@ -18,17 +18,7 @@ is **normally hyperbolic** in the convention used here if its [[differential-geo
 \]
 Equivalently, in local coordinates its second-order part is \(-g^{\mu\nu}\partial_\mu\partial_\nu\) times the identity.
 
-## Connection form
-
-Every normally hyperbolic operator has a unique decomposition
-\[
-P=-\operatorname{tr}_g\!\left(\nabla^E\nabla^E-\nabla^E_{\nabla^{\mathrm{LC}}}\right)+B,
-\]
-where \(\nabla^E\) is a connection on \(E\) and \(B\in\Gamma^\infty(\operatorname{End}E)\). Thus its leading part is a connection wave operator, while all bundle coupling and potential terms occur at lower order.
-
-## Cauchy problem
-
-On a [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetime]], smooth compactly supported Cauchy data and source determine a unique smooth solution. The solution has finite propagation speed, and \(P\) has unique advanced and retarded Green operators. These are global conclusions requiring global hyperbolicity; normal hyperbolicity is only the local symbol condition.
+The principal-symbol condition is local. It implies the [[mathematical-physics/connection-form-of-a-normally-hyperbolic-operator|unique connection form]] of \(P\), but global existence and causal support require additional hypotheses. On a globally hyperbolic spacetime they are supplied by the [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|Cauchy theorem]] and the [[mathematical-physics/existence-of-advanced-and-retarded-green-operators|Green-operator existence theorem]].
 
 ## Examples
 

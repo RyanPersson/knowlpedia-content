@@ -39,7 +39,15 @@ Flat quaternionic space \(\mathbb H^n\) is the basic noncompact example. A Riema
 
 ## Morphisms
 
-A [[differential-geometry/triholomorphic-map|triholomorphic map]] preserves the specified ordered triple but need not preserve the metric. A [[differential-geometry/hyperkahler-isometry|strict hyperkähler isometry]] preserves both the metric and the triple; a rotating convention instead permits one constant \(SO(3)\)-rotation of the triple. The available category and groupoid conventions are compared in [[differential-geometry/morphisms-between-hyperkahler-manifolds|morphisms between hyperkähler manifolds]].
+A [[differential-geometry/triholomorphic-map|triholomorphic map]] preserves
+the specified ordered triple but need not preserve the metric. A
+[[differential-geometry/hyperkahler-isometric-immersion|hyperkähler
+isometric immersion]] preserves both the metric and the ordered triple. If it
+is a diffeomorphism, it is a
+[[differential-geometry/hyperkahler-isometry|hyperkähler isometry]].
+A [[differential-geometry/rotating-hyperkahler-isometry|rotating
+hyperkähler isometry]] instead permits one constant \(SO(3)\)-rotation of the
+triple and is not strict unless that rotation is the identity.
 
 ## Terminology
 

@@ -22,31 +22,14 @@ PSL(2,\mathbb C)\cong PGL_2(\mathbb C).
 \]
 This equality is special to fields for which the required determinant roots exist and must not be transferred to arbitrary fields.
 
-## Three geometric roles
-
-The group acts faithfully by [[complex-analysis/mobius-transformation|Möbius transformations]] on the [[complex-analysis/riemann-sphere|Riemann sphere]]. Its underlying real Lie group is isomorphic to [[lie-groups/proper-orthochronous-lorentz-group|\(SO^+(1,3)\)]], and it is the orientation-preserving isometry group of [[differential-geometry/hyperbolic-three-space|hyperbolic \(3\)-space]]. These are compatible through the common action on the conformal boundary \(S^2\), but they are actions on three different geometric objects.
-
-## Langlands context: three separate roles
-
-The same rank-one objects occur in geometric Langlands, but in logically distinct roles:
-
-1. **Möbius automorphisms.** The complex Lie group
-   \(PSL(2,\mathbb C)\cong PGL_2(\mathbb C)\) is
-   \(\operatorname{Aut}_{\mathrm{hol}}(\mathbb P^1(\mathbb C))\). This is an
-   automorphism-group statement about the analytic Riemann sphere.
-2. **Reductive and dual group.** The algebraic group \(PGL_2\) is the adjoint
-   connected reductive group of type \(A_1\) and the Langlands dual group of
-   \(SL_2\). Its complex points agree with \(PSL(2,\mathbb C)\), but its
-   Langlands-dual role comes from root data, not from the Möbius action.
-3. **Base curve.** The algebraic curve \(\mathbb P^1_{\mathbb C}\) can itself
-   be the base curve of a geometric-Langlands problem; it is not the structure
-   group or dual group. The unmarked and ramified cases behave differently, as
-   explained at [[langlands/projective-line-in-geometric-langlands|the
-   projective line in geometric Langlands]].
-
-Consequently there is no additional conjectural correspondence obtained merely
-by identifying the Riemann sphere with \(\mathbb P^1(\mathbb C)\) and its
-holomorphic automorphism group with \(PSL(2,\mathbb C)\).
+Its principal geometric actions are recorded by focused theorem knowls: the
+[[lie-groups/celestial-sphere-and-mobius-action|Möbius action on the celestial
+sphere]], the [[lie-groups/psl2c-proper-lorentz-isomorphism|proper Lorentz
+isomorphism]], and the [[lie-groups/psl2c-action-on-hyperbolic-three-space|
+action on hyperbolic three-space]]. Its separate role as the complex points
+of the adjoint algebraic group of type \(A_1\) is treated in the
+[[langlands-letter/knowls/langlands-dual-group|Langlands-dual-group]]
+context.
 
 ## References
 

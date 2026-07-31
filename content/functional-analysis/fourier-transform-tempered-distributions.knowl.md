@@ -19,7 +19,7 @@ distribution]] on \(\mathbb R^n\). Its **Fourier transform**
 \]
 where \(\varphi\mapsto\widehat\varphi\) is the
 [[functional-analysis/fourier-transform-schwartz-space|Fourier transform on
-[[functional-analysis/schwartz-space|Schwartz space]]]] with kernel \(e^{-2\pi i x\cdot\xi}\). Because that transform
+Schwartz space]] with kernel \(e^{-2\pi i x\cdot\xi}\). Because that transform
 is a continuous automorphism of \(\mathcal S(\mathbb R^n)\), this transpose
 operation is well-defined and is itself a linear automorphism of
 \(\mathcal S'(\mathbb R^n)\).

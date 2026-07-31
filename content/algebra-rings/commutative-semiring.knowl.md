@@ -16,7 +16,7 @@ absorbing.
 ## Scope
 
 Unless a page says otherwise, semirings in the tropical and hyperstructure
-comparison pages are commutative and unital. This convention makes their
+parts of this corpus are commutative and unital. This convention makes their
 multiplicative monoids compatible with the commutative hyperrings and
 hyperfields used there.
 

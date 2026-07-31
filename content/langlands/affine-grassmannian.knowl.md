@@ -9,23 +9,28 @@ section_mode = "progressive"
 +++
 
 Let \(k\) be an algebraically closed field and \(G\) a connected reductive
-group over \(k\). Its **affine Grassmannian** is the ind-projective ind-scheme
+group over \(k\). Its **affine Grassmannian** is the
+[[langlands/ind-scheme|ind-projective ind-scheme]]
 \[
 \operatorname{Gr}_G=LG/L^+G,
 \qquad
 LG(R)=G(R((t))),\quad L^+G(R)=G(R\lbrack\!\lbrack t\rbrack\!\rbrack)
 \]
-for \(k\)-algebras \(R\).
+for \(k\)-algebras \(R\), where \(LG\) is the
+[[langlands/loop-group|loop group]], \(L^+G\) is the
+[[langlands/positive-loop-group|positive loop group]], and the quotient is
+fpqc-sheafified.
 Functorially, it classifies a principal \(G\)-bundle on the formal disc
 \(\operatorname{Spec}k\lbrack\!\lbrack t\rbrack\!\rbrack\) together with a
 trivialization on the punctured disc \(\operatorname{Spec}k((t))\).
 
 ## Orbits
 
-The \(G\lbrack\!\lbrack t\rbrack\!\rbrack\)-orbits are indexed by dominant
-coweights \(\lambda\). Their
-closures are affine Schubert varieties. The coweight records the relative
-position of a [[langlands/hecke-modification|Hecke modification]].
+The \(G\lbrack\!\lbrack t\rbrack\!\rbrack\)-orbits are indexed by
+[[langlands/dominant-coweight|dominant coweights]] \(\lambda\). Their
+closures are [[langlands/affine-schubert-variety|affine Schubert varieties]].
+The coweight records the relative position of a
+[[langlands/hecke-modification|Hecke modification]].
 
 ## Langlands role
 

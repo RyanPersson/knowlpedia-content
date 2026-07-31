@@ -17,9 +17,9 @@ smooth \(\mathbb F\)-vector bundles over \(M\)**, denoted
 [[fiber-bundles/vector-bundle-morphism|vector-bundle morphism]] whose base
 map is exactly \(\operatorname{id}_M\).
 
-The house convention is that \(M\) has no boundary and that ranks are bounded
-globally when \(M\) is disconnected. This is the bundle category used in the
-smooth Serre–Swan theorem.
+The house convention is that \(M\) has no boundary. If \(M\) is disconnected,
+the rank may be any finite locally constant function on \(M\); it need not be
+bounded across all connected components.
 
 Composition is composition of total-space maps. Fiberwise addition and scalar
 multiplication make each morphism set an \(\mathbb F\)-vector space, and
@@ -46,10 +46,19 @@ fixed ring.
 Taking local sections defines a covariant functor from
 \(\mathbf{Vect}_{\mathbb F}(M)\) to finite-rank locally free
 \(C^\infty_M(\mathbb F)\)-module sheaves. This sheaf-level construction is
-local. The global-section Serre–Swan equivalence also needs no compactness
-for finite-dimensional Hausdorff second-countable \(M\), although on a
-disconnected base the finite-projective side corresponds to bundles of
-globally bounded rank.
+local and includes arbitrary finite locally constant rank on a disconnected
+base.
+
+The global-section Serre–Swan equivalence uses a smaller full subcategory when
+\(M\) is disconnected. Write
+\[
+\mathbf{Vect}^{\mathrm{bd}}_{\mathbb F}(M)
+\subseteq \mathbf{Vect}_{\mathbb F}(M)
+\]
+for bundles whose ranks are globally bounded across the connected
+components. These, and only these, correspond to finitely generated
+projective \(C^\infty(M,\mathbb F)\)-modules. For connected \(M\), the two
+bundle categories agree.
 
 ## References
 

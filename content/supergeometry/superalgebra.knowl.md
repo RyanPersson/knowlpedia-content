@@ -20,16 +20,8 @@ with \(1\in A_{\bar0}\) and
 \(A_{\bar i}A_{\bar j}\subseteq A_{\bar i+\bar j}\). Its multiplication and
 unit are even maps.
 
-## Supercommutator
-
-For homogeneous elements of an associative superalgebra, the
-**supercommutator** is
-\[
-[a,b]_{\mathrm s}=ab-(-1)^{|a||b|}ba.
-\]
-This bracket turns \(A\) into a [[supergeometry/lie-superalgebra|Lie
-superalgebra]]. In particular, two odd elements have supercommutator
-\([a,b]_{\mathrm s}=ab+ba\), an anticommutator.
+The [[supergeometry/supercommutator|supercommutator]] turns every associative
+superalgebra into a [[supergeometry/lie-superalgebra|Lie superalgebra]].
 
 ## Examples and non-examples
 

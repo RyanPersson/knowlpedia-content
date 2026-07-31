@@ -1,18 +1,19 @@
 +++
 id = "differential-geometry/locally-c-infinity-ringed-space"
-title = "Locally C-infinity-ringed space"
+title = "Local C-infinity-ringed space"
 kind = "definition"
 summary = "A space with a sheaf of C-infinity rings whose stalks are local, with morphisms preserving all smooth operations."
-aliases = ["locally C∞-ringed space", "local C-infinity ringed space", "C-infinity locally ringed space"]
+aliases = ["locally C∞-ringed space", "locally C-infinity-ringed space", "local C-infinity ringed space", "C-infinity locally ringed space"]
 domains = ["differential-geometry", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-A **locally \(C^\infty\)-ringed space** is a pair
+A **local \(C^\infty\)-ringed space** is a pair
 \((X,\mathcal O_X)\) in which \(X\) is a topological space and
 \(\mathcal O_X\) is a sheaf of
 [[differential-geometry/c-infinity-ring|\(C^\infty\)-rings]] whose stalks
-are local rings after forgetting the extra smooth operations. A morphism
+are [[algebra-commutative/local-ring|local rings]] after forgetting the extra
+smooth operations. A morphism
 \[
 (f,f^\#):(X,\mathcal O_X)\longrightarrow(Y,\mathcal O_Y)
 \]

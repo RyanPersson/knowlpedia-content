@@ -24,20 +24,12 @@ Thus gamma matrices are the basis-dependent matrices of
 [[differential-geometry/clifford-module|Clifford multiplication]], not
 additional invariant geometric objects.
 
-## Raised indices and slash notation
+## Raised indices
 
 Writing \(g^{ab}\) for the inverse matrix, set
-\(\gamma^a=g^{ab}\gamma_b\). For a covector
-\(\xi=\xi_a e^a\), slash notation abbreviates its Clifford action:
-\[
-\slashed{\xi}=\gamma^a\xi_a.
-\]
-The Clifford relation implies
-\[
-\slashed{\xi}^{\,2}=-g^{-1}(\xi,\xi)I
-\]
-under the convention of the core. This identity is what makes the square of a
-Dirac operator have the metric quadratic form as its principal symbol.
+\(\gamma^a=g^{ab}\gamma_b\). Contracting gamma matrices with the components of
+a vector or covector is the
+[[mathematical-physics/clifford-slash-notation|Clifford slash notation]].
 
 ## Minkowski-signature convention
 
@@ -73,12 +65,12 @@ so the matrices transform compatibly with the orthogonal action on \(V\).
 Different-looking gamma-matrix realizations can therefore describe equivalent
 Clifford representations.
 
-## Chirality matrix
+## Related constructions
 
-In even dimension, an appropriately normalized product of all gamma matrices
-defines the complex volume or chirality operator. Its normalization depends
-on dimension, signature, and the Clifford sign. Its \(+1\) and \(-1\)
-eigenspaces are the two Weyl modules; a vector gamma matrix exchanges them.
+In even dimension, the normalized product of all gamma matrices represents
+the [[differential-geometry/chirality-operator|chirality operator]]. The
+normalization is convention-dependent, whereas the resulting grading of the
+complex spin representation is invariant.
 
 ## References
 

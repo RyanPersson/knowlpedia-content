@@ -29,15 +29,20 @@ Thus even maps preserve parity and odd maps reverse it. Unless stated
 otherwise, morphisms between super vector spaces are even maps; odd maps
 belong to the graded internal Hom rather than the ordinary morphism set.
 
-If both summands are finite-dimensional, the **superdimension** is often
-recorded as
+If both summands are finite-dimensional, the **graded dimension** is
 \[
-\dim V=\dim V_{\bar0}\mid\dim V_{\bar1}.
+\dim_{\mathrm{gr}}V
+=\dim V_{\bar0}\mid\dim V_{\bar1}.
 \]
 The ordered pair, not its difference, determines the dimensions of the two
-summands. The difference
-\(\dim V_{\bar0}-\dim V_{\bar1}\) is instead called the superdimension in some
-representation-theoretic contexts, so the notation must be read locally.
+summands. The **categorical superdimension**, namely the trace of the identity
+computed with the [[supergeometry/koszul-sign-rule|Koszul sign rule]], is
+\[
+\operatorname{sdim}(V)
+=\dim V_{\bar0}-\dim V_{\bar1}.
+\]
+Some authors call either invariant “superdimension,” so specifying “graded”
+or “categorical” avoids an ambiguity.
 
 ## Examples
 

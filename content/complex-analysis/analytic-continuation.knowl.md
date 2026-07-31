@@ -8,7 +8,9 @@ domains = ["complex-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(U\) and \(V\) be [[complex-analysis/complex-domain|complex domains]] with nonempty intersection. A holomorphic function \(g:V\to\mathbb C\) is an **analytic continuation** of a holomorphic function \(f:U\to\mathbb C\) through the overlap if \(f=g\) on a nonempty open subset of \(U\cap V\). The [[complex-analysis/identity-theorem|identity theorem]] then forces equality on every connected component of the overlap reached by that subset.
+Let \(U\) and \(V\) be [[complex-analysis/complex-domain|complex domains]], and let \(C\) be a connected component of \(U\cap V\). A holomorphic function \(g:V\to\mathbb C\) is an **analytic continuation** of a holomorphic function \(f:U\to\mathbb C\) through \(C\) if \(f=g\) on \(C\). By the [[complex-analysis/identity-theorem|identity theorem]], it is enough to require equality on any nonempty open subset of \(C\).
+
+Specifying the component matters when \(U\cap V\) is disconnected: agreement on one component does not force agreement on the others. When the overlap is connected, one simply says that \(g\) is an analytic continuation of \(f\) through \(U\cap V\).
 
 ## Along a path
 

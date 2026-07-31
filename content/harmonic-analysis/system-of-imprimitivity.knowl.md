@@ -26,7 +26,7 @@ Thus a system of imprimitivity can equivalently be viewed as a covariant represe
 
 When \(X=G/H\) is a
 [[harmonic-analysis/locally-compact-homogeneous-space|locally compact
-[[lie-groups/homogeneous-space|homogeneous space]]]] for a closed subgroup \(H\), Mackey's [[harmonic-analysis/mackey-imprimitivity-theorem|imprimitivity
+homogeneous space]] for a closed subgroup \(H\), Mackey's [[harmonic-analysis/mackey-imprimitivity-theorem|imprimitivity
 theorem]] classifies systems based on \(G/H\) by unitary representations of
 \(H\). The associated representation of \(G\) is induced from \(H\), and
 \(P(E)\) acts by multiplication by the indicator of \(E\). This equivalence

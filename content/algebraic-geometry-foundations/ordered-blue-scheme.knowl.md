@@ -8,7 +8,7 @@ domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
 section_mode = "progressive"
 +++
 
-An **ordered blue scheme** is a space with a sheaf of [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprints]] that is locally isomorphic to an affine spectrum \(\operatorname{Spec}B\) of an ordered blueprint \(B\). Morphisms are locally induced, contravariantly, by morphisms of ordered blueprints.
+An **ordered blue scheme** is an [[algebraic-geometry-foundations/ordered-blueprinted-space|ordered blueprinted space]] that is locally isomorphic to an affine spectrum \(\operatorname{Spec}B\) of an [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] \(B\).
 
 ## Why the ordered version is useful
 
@@ -20,7 +20,7 @@ Directed additive relations can encode valuations, hyperaddition, and tropical b
 
 ## Relation to blue schemes
 
-An ordinary [[algebraic-geometry-foundations/blue-scheme|blue scheme]] yields an ordered blue scheme by replacing each additive equality with inequalities in both directions on affine charts. General ordered blue schemes need not come from blue schemes because their orders can contain genuinely one-way relations.
+An ordinary [[algebraic-geometry-foundations/blue-scheme|blue scheme]] yields an ordered blue scheme through the [[algebraic-geometry-foundations/blueprint-as-an-ordered-blueprint|fully faithful embedding of blueprints into ordered blueprints]] on affine charts. General ordered blue schemes need not come from blue schemes because their orders can contain genuinely one-way relations.
 
 The adjective “ordered” modifies the coordinate algebra, not an ordering of the underlying topological space.
 
@@ -28,4 +28,3 @@ The adjective “ordered” modifies the coordinate algebra, not an ordering of 
 
 - Oliver Lorscheid, [*A unifying approach to tropicalization*, §§3 and 7](https://arxiv.org/abs/1508.07949).
 - Matthew Baker and Oliver Lorscheid, [*The moduli space of matroids*, Parts I–II](https://arxiv.org/abs/1809.03542).
-

@@ -2,7 +2,7 @@
 id = "algebra-rings/multivariable-formal-power-series-ring"
 title = "Multivariable formal power series ring"
 kind = "definition"
-summary = "The complete augmentation-adic ring R[[X_1,...,X_n]] of formal series indexed by multi-indices."
+summary = "The complete augmentation-adic ring of formal series in finitely many variables."
 aliases = ["formal power series in several variables", "R[[X_1,...,X_n]]", "multivariate formal power series ring"]
 domains = ["algebra-rings", "formal-groups"]
 section_mode = "progressive"

@@ -28,10 +28,15 @@ The distinguished \(\epsilon\) behaves as a formal \(-1\): one proves \(\epsilon
 Fields, [[algebra-hyperstructures/partial-field|partial fields]],
 [[algebra-hyperstructures/hyperfield|hyperfields]], and
 [[algebra-hyperstructures/partial-hyperfield|partial hyperfields]] determine
-tracts by declaring a formal sum null when its sum contains or equals zero in
-the relevant sense. These constructions do not imply that every tract is a
+tracts through their respective
+[[algebra-hyperstructures/partial-field-as-a-tract|partial-field]],
+[[algebra-hyperstructures/hyperfield-as-a-tract|hyperfield]], and
+[[algebra-hyperstructures/partial-hyperfield-as-a-tract|partial-hyperfield]]
+constructions. These constructions do not imply that every tract is a
 hyperfield. [[algebra-hyperstructures/pasture|Pastures]] form a structured
-subcategory related to three-term null relations.
+subcategory related to three-term null relations, and a tract has an
+[[algebra-hyperstructures/tract-as-an-ordered-blueprint|associated ordered
+blueprint]].
 
 ## Reference
 

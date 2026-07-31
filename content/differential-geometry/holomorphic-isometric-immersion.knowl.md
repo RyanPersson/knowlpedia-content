@@ -3,7 +3,7 @@ id = "differential-geometry/holomorphic-isometric-immersion"
 title = "Holomorphic isometric immersion"
 kind = "definition"
 summary = "A holomorphic map between Hermitian manifolds that pulls the target metric back to the source metric."
-aliases = ["Kähler immersion", "Hermitian isometric immersion", "holomorphic Riemannian immersion"]
+aliases = ["Kähler immersion", "Hermitian isometric immersion"]
 domains = ["differential-geometry", "complex-analysis"]
 section_mode = "progressive"
 +++

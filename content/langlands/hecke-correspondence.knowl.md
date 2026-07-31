@@ -27,7 +27,7 @@ choice consistently.
 
 ## Bounded correspondence
 
-For each dominant coweight \(\lambda\), a closed substack
+For each [[langlands/dominant-coweight|dominant coweight]] \(\lambda\), a closed substack
 \(\operatorname{Hecke}_{G,\leq\lambda}\) bounds the relative position by
 \(\lambda\). More generally, a spherical sheaf on the affine Grassmannian
 provides a kernel on the Hecke stack.

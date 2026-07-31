@@ -10,10 +10,11 @@ section_mode = "progressive"
 
 Let \(G\) be a group scheme over a base \(S\), and let \(X\) be an
 \(S\)-scheme. A **principal \(G\)-bundle on \(X\)** is a
-[[algebraic-geometry-foundations/g-torsor-on-a-site|\(G\)-torsor]] on a
-specified site of \(X\), commonly the fppf or étale site. Equivalently, it is
-an \(X\)-scheme \(P\to X\) with a right \(G\)-action that is locally
-isomorphic to \(G\times_S X\), with \(G\) acting on itself by translation.
+[[algebraic-geometry-foundations/g-torsor-on-a-site|\(G_X\)-torsor]] on a
+specified site of \(X\), commonly the fppf or étale site, whose underlying
+torsor is represented by an \(X\)-scheme \(P\). Thus \(P\to X\) has a right
+action of \(G_X=G\times_SX\) and is locally \(G_X\)-equivariantly isomorphic
+to \(G_X\), with \(G_X\) acting on itself by translation.
 
 The torsor identity is expressed by the isomorphism
 \[
@@ -22,15 +23,18 @@ P\times_S G \longrightarrow P\times_XP,\qquad (p,g)\longmapsto(p,pg).
 
 ## Relation to differential geometry
 
-When \(k=\mathbb C\), analytification produces a holomorphic principal bundle.
-Its underlying smooth bundle is a
+When \(S=\operatorname{Spec}\mathbb C\), \(G\) is a complex algebraic group,
+and \(X\) is a complex algebraic variety, analytification produces a
+holomorphic principal \(G(\mathbb C)\)-bundle. Its underlying smooth bundle is
+a
 [[fiber-bundles/principal-g-bundle|smooth principal bundle]], but passing
 between algebraic, holomorphic, and smooth categories requires comparison
 results and can lose structure.
 
 ## Moduli
 
-Allowing \(P\) to vary in families over test schemes gives the
+When \(X\) is a fixed curve, allowing \(P\) to vary in families over test
+schemes gives the
 [[algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve|moduli
 stack of \(G\)-bundles]].
 

@@ -17,12 +17,17 @@ theories, not automatic synonyms.
 - [[supergeometry/super-vector-space|Super vector space]]
 - [[supergeometry/parity-shift|Parity shift]]
 - [[supergeometry/category-of-super-vector-spaces|Category of super vector spaces]]
+- [[supergeometry/koszul-sign-rule|Koszul sign rule]]
+- [[supergeometry/super-internal-hom|Super internal Hom]]
 - [[supergeometry/superalgebra|Superalgebra]]
+- [[supergeometry/supercommutator|Supercommutator]]
 - [[supergeometry/supercommutative-algebra|Supercommutative algebra]]
 - [[supergeometry/supermodule|Supermodule]]
 - [[supergeometry/symmetric-algebra-of-a-super-vector-space|Symmetric algebra of a super vector space]]
 - [[supergeometry/lie-superalgebra|Lie superalgebra]]
+- [[supergeometry/representation-of-a-lie-superalgebra|Representation of a Lie superalgebra]]
 - [[supergeometry/universal-enveloping-algebra-of-lie-superalgebra|Universal enveloping algebra of a Lie superalgebra]]
+- [[supergeometry/super-pbw-theorem|Super PBW theorem]]
 
 ## Superspaces and supermanifolds
 
@@ -46,6 +51,7 @@ theories, not automatic synonyms.
 - [[mathematical-physics/poincare-algebra|Poincaré algebra]]
 - [[mathematical-physics/super-poincare-algebra|Super-Poincaré algebra]]
 - [[supergeometry/super-minkowski-space|Super-Minkowski space]]
+- [[supergeometry/supertranslation-distribution|Supertranslation distribution]]
 
 ## References
 

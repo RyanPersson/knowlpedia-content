@@ -1,9 +1,9 @@
 +++
 id = "differential-geometry/smooth-maps-from-smooth-function-algebras"
-title = "Smooth maps from smooth-function algebras"
+title = "Full faithfulness of the smooth-function functor"
 kind = "theorem"
 summary = "Pullback identifies smooth maps with C-infinity-ring morphisms in the opposite direction."
-aliases = ["full faithfulness of smooth functions", "reconstruction of smooth maps from C-infinity rings", "C∞ functor is fully faithful"]
+aliases = ["smooth maps from smooth-function algebras", "full faithfulness of smooth functions", "reconstruction of smooth maps from C-infinity rings", "C∞ functor is fully faithful"]
 domains = ["differential-geometry", "category-theory"]
 section_mode = "progressive"
 +++
@@ -48,12 +48,6 @@ The theorem is full faithfulness, not an equivalence with all
 image consists precisely of those \(C^\infty\)-rings isomorphic to
 \(C^\infty(M)\) for manifolds \(M\). Quotients with singular or infinitesimal
 behavior generally lie outside that image.
-
-Arrow reversal here is also different from the
-[[fiber-bundles/serre-swan-theorem|Serre–Swan equivalence]]. Pullback of
-functions reverses a map \(M\to N\); taking sections of vector bundles over
-one fixed base \(M\) sends bundle morphisms over \(\operatorname{id}_M\) in
-the same direction as module homomorphisms.
 
 ## References
 

@@ -36,33 +36,14 @@ extending \(\phi\). Consequently, representations of \(\mathfrak g\) are
 equivalently supermodules over \(U(\mathfrak g)\), with the same parity
 convention on morphisms.
 
-## Super PBW theorem
-
-Filter \(U(\mathfrak g)\) by tensor degree. The super
-Poincaré–Birkhoff–Witt theorem gives a canonical graded-superalgebra
-isomorphism
-\[
-\operatorname{gr}U(\mathfrak g)
-\cong
-\operatorname{Sym}_{\mathrm s}(\mathfrak g).
-\]
-After choosing ordered homogeneous bases, PBW monomials use arbitrary
-nonnegative powers of even basis elements and exponent \(0\) or \(1\) for odd
-basis elements. Thus, as a vector space,
-\[
-U(\mathfrak g)
-\cong U(\mathfrak g_{\bar0})\otimes
-\Lambda(\mathfrak g_{\bar1}),
-\]
-although this displayed vector-space decomposition is not generally an
-algebra decomposition.
+Filtering \(U(\mathfrak g)\) by tensor degree gives the
+[[supergeometry/super-pbw-theorem|super PBW theorem]].
 
 ## Clifford quotient
 
-A [[differential-geometry/clifford-algebra|Clifford algebra]] can be recovered
-from the enveloping algebra of a two-step Lie superalgebra by fixing a central
-even generator. This makes precise the way a quadratic odd bracket deforms an
-exterior algebra.
+The [[differential-geometry/clifford-algebra-as-super-enveloping-quotient|Clifford
+algebra as a super-enveloping quotient]] makes precise how fixing a central
+even generator turns a quadratic odd bracket into a Clifford relation.
 
 ## References
 

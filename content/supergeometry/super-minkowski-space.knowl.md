@@ -3,7 +3,7 @@ id = "supergeometry/super-minkowski-space"
 title = "Super-Minkowski space"
 kind = "definition"
 summary = "The affine superspace of spacetime and spinor coordinates equipped with the Lie supergroup structure integrating supertranslations."
-aliases = ["Minkowski superspace", "super Minkowski spacetime", "flat superspace"]
+aliases = ["Minkowski superspace", "super Minkowski spacetime"]
 domains = ["supergeometry", "mathematical-physics"]
 section_mode = "progressive"
 +++
@@ -20,32 +20,25 @@ integrating the
 [[mathematical-physics/supertranslation-algebra|supertranslation algebra]]
 \(V_{\bar0}\oplus S_{\bar1}\).
 
-In exponential coordinates, the two-step
+More precisely, let \(A\) be a real Grassmann algebra. On \(A\)-points, write
+\(\Gamma_A(\theta,\theta')=[\theta,\theta']\) for the bracket induced from
+\(\Gamma\) on \(A_{\bar1}\otimes S\). In exponential coordinates the exact
+two-step
 [[lie-groups/baker-campbell-hausdorff-formula|Baker–Campbell–Hausdorff
-formula]] has the schematic form
+formula]] is
 \[
 (x,\theta)(x',\theta')
-=\left(x+x'+\tfrac12\Gamma(\theta,\theta'),
+=\left(x+x'+\tfrac12\Gamma_A(\theta,\theta'),
        \theta+\theta'\right),
 \]
-with the precise displayed signs depending on the convention for
-Grassmann-valued points and left versus right actions. The underlying reduced
-Lie group is the additive translation group of \(V\).
+where \(x,x'\in A_{\bar0}\otimes V\) and
+\(\theta,\theta'\in A_{\bar1}\otimes S\). Defining \(\Gamma_A\) as the
+induced bracket fixes the scalar sign convention in the displayed formula.
+The underlying reduced Lie group is the additive translation group of \(V\).
 
-## Geometric structure used in physics
-
-The odd left-invariant directions define a distinguished distribution
-\(\mathcal D\) whose bracket generates translations according to
-\[
-[\mathcal D,\mathcal D]\longrightarrow \operatorname{im}\Gamma\subseteq TV,
-\qquad (s,t)\longmapsto\Gamma(s,t).
-\]
-When \(\Gamma\ne0\), this distribution is nonintegrable; when \(\Gamma\) is
-surjective, it is bracket-generating in all translation directions. Together
-with the super-Poincaré action, this structure is part of what makes the
-affine supermanifold into flat physical superspace. Superfields are functions
-or sections on this space, often constrained by operators built from the
-invariant odd directions.
+Its odd left-invariant directions form the
+[[supergeometry/supertranslation-distribution|supertranslation
+distribution]], whose Levi bracket is induced by \(\Gamma\).
 
 ## Distinctions
 

@@ -1,9 +1,9 @@
 +++
 id = "formal-groups/positive-characteristic-warning"
-title = "Why tangent Lie algebras do not classify formal groups in positive characteristic"
-kind = "comparison"
-summary = "In characteristic p, height, the p-series, Frobenius, and restricted structure contain information invisible to the ordinary tangent bracket."
-aliases = ["positive-characteristic formal group warning", "failure of formal Lie correspondence in characteristic p", "height of a formal group law"]
+title = "Failure of tangent classification in positive characteristic"
+kind = "theorem"
+summary = "In characteristic p, nonisomorphic formal groups can have isomorphic tangent Lie algebras."
+aliases = ["positive-characteristic formal group warning", "failure of formal Lie correspondence in characteristic p"]
 domains = ["formal-groups", "lie-groups"]
 section_mode = "progressive"
 +++
@@ -29,17 +29,10 @@ both tangent Lie algebras are the one-dimensional abelian algebra. Yet
 An isomorphism of formal group laws must intertwine the \(p\)-series, so these
 two laws are not isomorphic.
 
-## Height
-
-For a one-dimensional commutative formal group law over a field of
-characteristic \(p\), either \([p]_F(X)=0\), in which case its height is
-\(\infty\), or the first nonzero term has the form
-\[
-[p]_F(X)=aX^{p^h}+\text{higher terms},\qquad a\neq0.
-\]
-The integer \(h\) is the **height**. The additive law has height \(\infty\)
-and the multiplicative law has height \(1\). Height is invisible in the
-ordinary one-dimensional tangent Lie algebra.
+Equivalently, the two laws have different
+[[formal-groups/height-of-one-dimensional-formal-group-law|heights]]:
+\(F_a\) has height \(\infty\), while \(F_m\) has height \(1\). Height is
+invisible in the ordinary one-dimensional tangent Lie algebra.
 
 ## Additional structure is not a complete repair
 

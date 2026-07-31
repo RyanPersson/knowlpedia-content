@@ -62,7 +62,7 @@ anti-isomorphism between \(M\) and its commutant in standard position. The
 weight form of the theorem yields the
 [[operator-algebras/modular-automorphism-group|modular automorphism group]] of
 every [[operator-algebras/normal-semifinite-faithful-weight|normal semifinite
-[[operator-algebras/faithful-weight|faithful weight]]]], a central tool in the structure theory of type III
+faithful weight]], a central tool in the structure theory of type III
 algebras.
 
 ## Conventions and scope

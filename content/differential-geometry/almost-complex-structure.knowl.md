@@ -20,15 +20,10 @@ Thus each real [[differential-geometry/tangent-space|tangent space]] becomes a c
 
 Every [[differential-geometry/complex-manifold|complex manifold]] has a canonical almost-complex structure. An arbitrary almost-complex structure need not come from [[differential-geometry/complex-coordinate-chart|complex coordinate charts]]; when it does, it is [[differential-geometry/integrable-almost-complex-structure|integrable]].
 
-## Maps preserving the structure
-
-Given almost-complex manifolds \((M,J_M)\) and \((N,J_N)\), a smooth map \(f:M\to N\) is **almost-complex**, **\(J\)-holomorphic**, or **pseudoholomorphic** if
-\[
-df\circ J_M=J_N\circ df.
-\]
-Equivalently, every tangent map \(df_p:T_pM\to T_{f(p)}N\) is complex-linear for the complex structures defined by \(J_M\) and \(J_N\). Identity maps and composites satisfy the same equation, so almost-complex manifolds and structure-preserving maps form a category. Constant maps are allowed. If \(f\) is a diffeomorphism satisfying the equation, its inverse satisfies it as well.
-
-For integrable structures, this differential equation is equivalent to \(f\) being a [[differential-geometry/holomorphic-map|holomorphic map]]. For nonintegrable structures it remains meaningful and is central in symplectic geometry, where compatible almost-complex structures are used to define pseudoholomorphic curves.
+Maps preserving this structure are the
+[[differential-geometry/almost-complex-map|almost-complex, \(J\)-holomorphic,
+or pseudoholomorphic maps]]. Their tangent maps intertwine the two
+almost-complex structures.
 
 ## Examples and constraints
 

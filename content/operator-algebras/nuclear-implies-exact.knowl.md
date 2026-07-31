@@ -14,7 +14,7 @@ Explicitly, if \(A\) is nuclear and
 \[
 0\longrightarrow I\longrightarrow B\longrightarrow B/I\longrightarrow 0
 \]
-is a [[operator-algebras/cstar-exact-sequence|[[algebra-modules/short-exact-sequence|short exact sequence]] of
+is a [[operator-algebras/cstar-exact-sequence|short exact sequence of
 \(C^*\)-algebras]], then
 \[
 0\longrightarrow I\otimes_{\min}A\longrightarrow

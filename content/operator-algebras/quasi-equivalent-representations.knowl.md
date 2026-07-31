@@ -20,7 +20,7 @@ extends to a \(*\)-isomorphism
 \]
 between their
 [[operator-algebras/von-neumann-algebra-generated-by-representation|generated
-[[operator-algebras/von-neumann-algebra|von Neumann algebras]]]], and \(\Phi\) is a
+von Neumann algebras]], and \(\Phi\) is a
 [[operator-algebras/normal-star-homomorphism|normal \(*\)-homomorphism]] with
 normal inverse. In particular, the two representations must have the same
 kernel. Normality is essential: it requires the isomorphism to preserve the

@@ -36,18 +36,12 @@ hyperfield.
 
 ## Associated tract
 
-The associated [[algebra-hyperstructures/tract|tract]] has multiplicative
-group \(G\) and null set
-\[
-N_G=
-\left\{\sum_i g_i\in\mathbb N[G]:
-0\in\mathop{\boxplus}_i g_i\text{ in }R\right\}.
-\]
-This records ambient null hypersums even when intermediate sums do not stay
-inside \(\underline P\). Partial hyperfields therefore form a common source
-of tracts encompassing both partial fields and hyperfields, but tracts are
-strictly more general because a tract need not carry any binary partial
-hyperaddition.
+The [[algebra-hyperstructures/partial-hyperfield-as-a-tract|tract associated
+with \(P\)]] records the ambient null hypersums in \(R\), even when
+intermediate sums do not stay inside \(\underline P\). Partial hyperfields
+therefore encompass the tract constructions for both partial fields and
+hyperfields, but tracts are more general because a tract need not carry any
+binary partial hyperaddition.
 
 ## Ambient-presentation convention
 

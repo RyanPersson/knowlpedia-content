@@ -8,13 +8,13 @@ domains = ["differential-geometry", "mathematical-physics"]
 section_mode = "progressive"
 +++
 
-A **time orientation** on a Lorentzian manifold is a continuous choice, at every point, of one of the two connected components of the timelike cone. Equivalently, it is represented by a continuous timelike vector field; vectors in the chosen component are **future-directed**. A manifold admitting such a choice is **time-orientable**.
+A **time orientation** on a [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] is a continuous choice, at every point, of one of the two connected components of the timelike cone. Equivalently, it is represented by a continuous timelike vector field; timelike vectors in the chosen component are **future-directed**, as are causal vectors in its closure. A manifold admitting such a choice is **time-orientable**.
 
 For [[linear-algebra/minkowski-vector-space|Minkowski space]] with
 \[
 q(t,x,y,z)=-t^2+x^2+y^2+z^2,
 \]
-the standard choice declares a timelike vector future-directed when \(t>0\). Its closure contains the future-directed null cone.
+the standard choice declares a timelike vector future-directed when \(t>0\). Its closure contains the future-directed null cone and determines the direction used by [[differential-geometry/causal-curve|future-directed causal curves]].
 
 ## Transformations
 

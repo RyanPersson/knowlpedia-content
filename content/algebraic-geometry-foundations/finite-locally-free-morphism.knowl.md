@@ -12,7 +12,10 @@ A morphism of schemes \(f:X\to S\) is **finite locally free** if every point of 
 \[
 f^{-1}(U)=\operatorname{Spec}A
 \]
-and \(A\) is a finite free \(R\)-module. Equivalently, \(f\) is [[algebraic-geometry-foundations/finite-morphism|finite]], flat, and locally of finite presentation.
+and \(A\) is a finite free \(R\)-module. Equivalently, \(f\) is
+[[algebraic-geometry-foundations/finite-morphism|finite]],
+[[algebraic-geometry-foundations/flat-morphism|flat]], and locally of finite
+presentation.
 
 ## Rank and base change
 

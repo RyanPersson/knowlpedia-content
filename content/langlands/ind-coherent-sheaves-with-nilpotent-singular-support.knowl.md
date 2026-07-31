@@ -8,15 +8,23 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-For the derived stack
-\(\operatorname{LocSys}_{\widehat G}(X)\), let \(\mathcal N\) denote its
-global nilpotent cone in the scheme of singularities. The category
+Let \(X\) be a smooth projective curve and let \(\widehat G\) be a reductive
+group. For the quasi-smooth derived stack
+\(\operatorname{LocSys}_{\widehat G}(X)\), let
+\(\mathcal N_{\widehat G}\) denote its
+[[langlands/global-nilpotent-cone|global nilpotent cone]] in the scheme of
+singularities. The category
 \[
-\operatorname{IndCoh}_{\mathcal N}
+\operatorname{IndCoh}_{\mathcal N_{\widehat G}}
 \bigl(\operatorname{LocSys}_{\widehat G}(X)\bigr)
 \]
-consists of ind-coherent sheaves whose singular support lies in
-\(\mathcal N\).
+is the full subcategory of [[langlands/ind-coherent-sheaf|ind-coherent
+sheaves]] \(\mathcal F\) satisfying
+\[
+\operatorname{SS}(\mathcal F)\subseteq\mathcal N_{\widehat G},
+\]
+where \(\operatorname{SS}\) is
+[[langlands/singular-support-of-coherent-sheaf|coherent singular support]].
 
 This is the spectral category in the modern de Rham
 [[langlands/geometric-langlands-correspondence|geometric Langlands
@@ -32,9 +40,9 @@ subcategory; allowing the global nilpotent cone is the required enlargement.
 
 ## Scope
 
-Both “ind-coherent” and “singular support” are derived notions here. The
-nilpotent cone is not simply the ordinary nilpotent cone in one Lie algebra:
-it is defined globally over the stack of local systems.
+The support condition is a condition on the derived singularities of the
+entire moduli stack, not ordinary set-theoretic support on
+\(\operatorname{LocSys}_{\widehat G}(X)\).
 
 ## References
 

@@ -21,6 +21,13 @@ A **symplectic manifold** is a pair \((M,\omega)\) where \(M\) is a [[fiber-bund
 
 Nondegeneracy is pointwise linear algebra, while closedness is a differential condition. A nondegenerate two-form that is not closed defines only an [[differential-geometry/almost-symplectic-manifold|almost-symplectic manifold]].
 
+Closedness also gives the basic integral consequence
+\[
+\int_{\partial C}\omega=\int_C d\omega=0
+\]
+for every smooth singular \(3\)-chain \(C\), by
+[[differential-geometry/stokes-theorem|Stokes' theorem]].
+
 ## Dimension, orientation, and local form
 
 The dimension of \(M\) is even, say \(2n\), and

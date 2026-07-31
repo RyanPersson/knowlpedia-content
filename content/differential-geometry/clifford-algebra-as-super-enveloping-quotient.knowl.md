@@ -8,7 +8,7 @@ domains = ["differential-geometry", "supergeometry"]
 section_mode = "progressive"
 +++
 
-Let \(k\) have characteristic different from \(2\), let
+Let \(k\) be a field of characteristic \(0\), let
 \((V,q)\) be a quadratic vector space, and put
 \(b_q(v,w)=q(v+w)-q(v)-q(w)\). Define a
 [[supergeometry/lie-superalgebra|Lie superalgebra]]
@@ -60,6 +60,11 @@ super-enveloping construction.
 If the alternative Clifford convention \(v^2=+q(v)\) is used, define
 \([v,w]=+b_q(v,w)z\) instead. The sign in the Lie-superalgebra bracket and the
 sign in the Clifford relation must be changed together.
+
+The construction also admits versions over fields of characteristic different
+from \(2\), provided Lie superalgebras and their enveloping algebras are defined
+in that broader setting. The statement above uses characteristic \(0\) so that
+its terminology agrees exactly with the linked knowls.
 
 ## References
 

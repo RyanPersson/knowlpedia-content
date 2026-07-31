@@ -14,9 +14,9 @@ Let \(a\) be an essential isolated singularity of a holomorphic function \(f\). 
 
 The [[complex-analysis/casorati-weierstrass-theorem|Casorati–Weierstrass theorem]] says that the image is dense. Great Picard says much more: apart from at most one omitted value, each value is attained, and is attained infinitely often arbitrarily close to the singularity.
 
-## Little Picard theorem
+## Entire-function consequence
 
-If a nonconstant [[complex-analysis/entire-function|entire function]] omitted two complex values, then its essential singularity at \(\infty\) would contradict the great theorem; the polynomial case is handled by the fundamental theorem of algebra. Thus a nonconstant entire function assumes every complex value with at most one exception. This consequence is called the little Picard theorem.
+Applying the theorem at infinity gives the [[complex-analysis/little-picard-theorem|little Picard theorem]] for nonconstant entire functions.
 
 ## Sharpness
 

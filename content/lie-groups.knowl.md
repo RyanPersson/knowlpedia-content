@@ -331,9 +331,28 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/compact-symplectic-group|Compact symplectic group]]
 - [[lie-groups/compact-symplectic-product-group|The group Sp(n)Sp(1)]]
 
-## July 30 extensions
+## Complex, projective, and Lorentz Lie groups
 
-- [[formal-groups|Formal groups and formal Lie theory]]
-- [[supergeometry|Lie supergroups and supergeometry]]
-- [[mathematical-physics|Spacetime symmetry and mathematical physics]]
-- [[langlands|Geometric Langlands]]
+### Complex structures and projective groups
+
+- [[lie-groups/complex-lie-group|Complex Lie group]]
+- [[lie-groups/underlying-real-lie-group|Underlying real Lie group]]
+- [[lie-groups/underlying-real-lie-algebra|Underlying real Lie algebra]]
+- [[lie-groups/complexification-of-a-real-lie-algebra|Complexification of a real Lie algebra]]
+- [[lie-groups/lie-functor-commutes-with-realification|Lie functor commutes with realification]]
+- [[lie-groups/sl2-complex-as-real-and-complex-lie-group|\(SL(2,\mathbb C)\) as a real and complex Lie group]]
+- [[lie-groups/projective-general-linear-lie-group|Projective general linear Lie group]]
+- [[lie-groups/projective-special-linear-lie-group|Projective special linear Lie group]]
+- [[lie-groups/psl2-complex|\(PSL(2,\mathbb C)\)]]
+
+### Indefinite spin and Lorentz groups
+
+- [[lie-groups/proper-orthochronous-lorentz-group|Proper orthochronous Lorentz group]]
+- [[lie-groups/indefinite-pin-group|Indefinite pin group]]
+- [[lie-groups/indefinite-spin-group|Indefinite spin group]]
+- [[lie-groups/restricted-spin-group|Restricted spin group]]
+- [[lie-groups/hermitian-matrix-model-of-minkowski-space|Hermitian matrix model of Minkowski space]]
+- [[lie-groups/sl2c-spin-cover-of-lorentz-group|\(SL(2,\mathbb C)\) spin cover of the Lorentz group]]
+- [[lie-groups/psl2c-proper-lorentz-isomorphism|\(PSL(2,\mathbb C)_{\mathbb R}\cong SO^+(1,3)\)]]
+- [[lie-groups/celestial-sphere-and-mobius-action|Celestial sphere and Möbius action]]
+- [[lie-groups/psl2c-action-on-hyperbolic-three-space|\(PSL(2,\mathbb C)\) action on hyperbolic three-space]]

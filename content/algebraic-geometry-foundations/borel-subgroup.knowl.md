@@ -8,13 +8,14 @@ domains = ["algebraic-geometry-foundations", "langlands"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected linear algebraic group over an algebraically closed
-field. A **Borel subgroup** \(B\subseteq G\) is a maximal connected solvable
-closed subgroup.
+Let \(G\) be a connected [[algebraic-geometry-foundations/algebraic-group|
+linear algebraic group]] over an algebraically closed field. A **Borel
+subgroup** \(B\subseteq G\) is a maximal connected solvable closed subgroup.
 
-For a reductive group, a Borel subgroup contains a maximal torus \(T\), and the
-choice \(T\subseteq B\) determines a set of positive roots. Any two Borel
-subgroups are conjugate over an algebraically closed field.
+For a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
+group]], a Borel subgroup contains a maximal torus \(T\), and the choice
+\(T\subseteq B\) determines a set of positive roots. Any two Borel subgroups
+are conjugate over an algebraically closed field.
 
 ## Examples
 

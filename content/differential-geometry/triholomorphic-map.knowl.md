@@ -26,11 +26,20 @@ using the same coefficients on source and target. Identities and composites are 
 
 ## Metric independence
 
-Triholomorphicity does not require a metric. Between [[differential-geometry/hyperkahler-manifold|hyperkähler manifolds]], a triholomorphic map need not preserve the hyperkähler metrics or two-forms. Adding the pullback equation \(f^*g_N=g_M\) makes it a strict hyperkähler isometric immersion; if it is also a diffeomorphism, it is a [[differential-geometry/hyperkahler-isometry|strict hyperkähler isometry]].
+Triholomorphicity does not require a metric. Between
+[[differential-geometry/hyperkahler-manifold|hyperkähler manifolds]], a
+triholomorphic map need not preserve the hyperkähler metrics or two-forms.
+Adding the pullback equation \(f^*g_N=g_M\) makes it a
+[[differential-geometry/hyperkahler-isometric-immersion|hyperkähler
+isometric immersion]]; if it is also a diffeomorphism, it is a
+[[differential-geometry/hyperkahler-isometry|hyperkähler isometry]].
 
 ## Convention warning
 
-The ordered triples matter. A map that sends the source triple to a nontrivial constant \(SO(3)\)-rotation of the target triple is not triholomorphic under this strict definition, although it may be called a rotating hyperkähler map in other contexts. The strict and rotating conventions are separated in the hyperkähler-isometry knowl.
+The ordered triples matter. A
+[[differential-geometry/rotating-hyperkahler-isometry|rotating hyperkähler
+isometry]] with nontrivial rotation is not triholomorphic under this strict
+definition.
 
 ## References
 

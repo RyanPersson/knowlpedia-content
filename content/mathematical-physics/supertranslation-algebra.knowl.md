@@ -43,7 +43,9 @@ Lorentz algebra produces the
 [[mathematical-physics/super-poincare-algebra|super-Poincaré algebra]], while
 integrating \(\mathfrak t\) produces
 [[supergeometry/super-minkowski-space|super-Minkowski space]] with its
-supertranslation group structure.
+supertranslation group structure and
+[[supergeometry/supertranslation-distribution|supertranslation
+distribution]].
 
 ## References
 

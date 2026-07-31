@@ -13,8 +13,8 @@ whose addition is idempotent:
 \[
 a+a=a\qquad\text{for every }a\in S.
 \]
-In this expansion, idempotent semirings are normally assumed commutative
-unless noncommutative multiplication is explicitly mentioned.
+In the tropical-algebra pages, idempotent semirings are normally assumed
+commutative unless noncommutative multiplication is explicitly mentioned.
 
 ## Order-theoretic meaning
 

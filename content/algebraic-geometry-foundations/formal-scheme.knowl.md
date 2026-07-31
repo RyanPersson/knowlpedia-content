@@ -8,19 +8,23 @@ domains = ["algebraic-geometry-foundations", "formal-groups"]
 section_mode = "progressive"
 +++
 
-An **adic formal scheme** is a locally topologically ringed space locally
-isomorphic to a [[algebraic-geometry-foundations/formal-spectrum|formal
-spectrum]]
+An **adic formal scheme** is a
+[[algebraic-geometry-foundations/locally-topologically-ringed-space|locally
+topologically ringed space]] locally isomorphic to a
+[[algebraic-geometry-foundations/formal-spectrum|formal spectrum]]
 \[
 \operatorname{Spf}(A),
 \]
-where \(A\) is complete and separated for the powers of a finitely generated
-ideal of definition. A morphism of formal schemes is a morphism of locally
-topologically ringed spaces whose maps on local sections are continuous.
+where \(A\) is a complete and separated
+[[algebra-topological/adic-ring|adic ring]]. A morphism of formal schemes is
+a morphism of locally topologically ringed spaces whose maps on local
+sections are continuous.
 
 ## Infinitesimal presentation
 
-Locally, if \(A\) has ideal of definition \(I\), the formal scheme packages
+Locally, if \(A\) has an
+[[algebra-topological/ideal-of-definition|ideal of definition]] \(I\), the
+formal scheme packages
 the compatible tower
 \[
 \operatorname{Spec}(A/I)
@@ -28,8 +32,9 @@ the compatible tower
 \operatorname{Spec}(A/I^2)
 \hookrightarrow\cdots .
 \]
-The first term is the **reduction** or underlying closed scheme, while the
-higher terms retain progressively thicker infinitesimal neighborhoods.
+The first term is a **scheme of definition**, while the higher terms retain
+progressively thicker infinitesimal neighborhoods. It is not generally the
+reduction: \(\operatorname{Spec}(A/I)\) can itself be nonreduced.
 Formal schemes can therefore remember an entire completed neighborhood even
 when their underlying topological spaces are small.
 

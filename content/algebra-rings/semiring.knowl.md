@@ -18,10 +18,11 @@ The house convention includes a multiplicative identity but does not require
 
 ## Relation to rings
 
-Every ring is a semiring after forgetting additive inverses. Conversely, a
-semiring is a ring exactly when its additive monoid is an abelian group. Thus
-semirings weaken the additive part of ring theory while keeping addition
-single-valued.
+Every [[algebra-rings/unital-ring|unital ring]] is a semiring after one
+forgets that additive inverses are part of the specified structure.
+Conversely, a semiring whose additive monoid is an abelian group is a unital
+ring. Thus semirings weaken the additive part of unital ring theory while
+keeping addition single-valued.
 
 ## Examples and conventions
 

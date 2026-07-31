@@ -44,6 +44,20 @@ f(F(X,Y))=G(f(X),f(Y)).
 \]
 Thus both objects and morphisms agree, not only their isomorphism classes.
 
+## Coordinate Hopf-algebra formula
+
+For a group law \(F=(F_1,\ldots,F_n)\), the coordinate ring
+\(A=k[[x_1,\ldots,x_n]]\) has comultiplication
+\[
+\Delta(x_i)=F_i(x_1,\ldots,x_n,y_1,\ldots,y_n)
+\in
+A\widehat\otimes_kA\cong k[[x_1,\ldots,x_n,y_1,\ldots,y_n]].
+\]
+The counit sends \(x_i\) to \(0\), and the antipode sends \(x_i\) to the
+\(i\)-th component of the inverse power series. These maps form the
+[[formal-groups/coordinate-hopf-algebra|coordinate Hopf algebra]] of the
+formal group.
+
 ## Chosen coordinates versus intrinsic objects
 
 For a [[formal-groups/formal-group|formal group]] whose underlying pointed

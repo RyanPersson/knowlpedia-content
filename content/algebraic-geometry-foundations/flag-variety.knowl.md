@@ -8,8 +8,11 @@ domains = ["algebraic-geometry-foundations", "langlands"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected reductive algebraic group and \(P\subseteq G\) a
-parabolic subgroup. The quotient \(G/P\) is a **flag variety**. When
+Let \(G\) be a connected
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive
+algebraic group]] over a field \(k\), and let \(P\subseteq G\) be a
+[[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroup]]. The
+quotient \(G/P\) is a **flag variety**. When
 \(P=B\) is a [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]],
 \(G/B\) is the complete flag variety.
 

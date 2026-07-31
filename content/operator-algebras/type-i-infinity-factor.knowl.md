@@ -37,7 +37,7 @@ An infinite-dimensional \(H\) decomposes as \(H\cong H\oplus H\). The two
 coordinate embeddings give isometries in \(B(H)\) with orthogonal ranges, so
 every type \(\mathrm I_\infty\) factor is a
 [[operator-algebras/properly-infinite-von-neumann-algebra|properly infinite
-[[operator-algebras/von-neumann-algebra|von Neumann algebra]]]]. The usual
+von Neumann algebra]]. The usual
 [[operator-algebras/operator-trace|operator trace]] is faithful, normal, and
 semifinite but takes value \(\infty\) at the identity. Hence the algebra is
 semifinite without being finite.

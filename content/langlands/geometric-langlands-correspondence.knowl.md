@@ -1,8 +1,8 @@
 +++
 id = "langlands/geometric-langlands-correspondence"
-title = "Geometric Langlands correspondence"
-kind = "context"
-summary = "A program relating automorphic sheaves on Bun_G to spectral sheaves on the moduli of dual-group local systems."
+title = "Categorical geometric Langlands theorem"
+kind = "theorem"
+summary = "In characteristic zero, the automorphic category of half-twisted D-modules on Bun_G is equivalent to the spectral category IndCoh_N on dual-group local systems."
 aliases = ["geometric Langlands conjecture", "categorical geometric Langlands"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
@@ -11,11 +11,11 @@ section_mode = "progressive"
 Let \(X\) be a smooth projective curve over a field of characteristic \(0\),
 let \(G\) be a connected reductive group, and let \(\widehat G\) be its
 [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]. The
-**geometric Langlands correspondence** is the program whose modern de Rham
-categorical form relates
+modern de Rham **categorical geometric Langlands theorem** gives an
+equivalence
 \[
 D\text{-}\operatorname{mod}_{1/2}\bigl(\operatorname{Bun}_G(X)\bigr)
-\quad\text{and}\quad
+\simeq
 \operatorname{IndCoh}_{\mathcal N}
 \bigl(\operatorname{LocSys}_{\widehat G}(X)\bigr).
 \]
@@ -26,9 +26,10 @@ of \(G\)-bundles]]. The right side is the category of
 [[langlands/ind-coherent-sheaves-with-nilpotent-singular-support|ind-coherent
 sheaves with nilpotent singular support]] on the
 [[langlands/moduli-stack-of-g-local-systems|stack of \(\widehat G\)-local
-systems]].
+systems]]. Here \(\mathcal N\) is the
+[[langlands/global-nilpotent-cone|global nilpotent cone]].
 
-## Eigensheaf form
+## Pointwise consequence
 
 At a sufficiently regular spectral point \(E\), the correspondence predicts
 an automorphic [[langlands/hecke-eigensheaf|Hecke eigensheaf]]
@@ -38,27 +39,19 @@ H_V(\mathcal F_E)\simeq \mathcal F_E\boxtimes E_V.
 \]
 This is a sheaf-theoretic analogue of simultaneous Hecke eigenfunctions.
 
-## Status
+## Scope and status
 
-“Geometric Langlands” names a family of related de Rham, Betti, étale, and
-ramified statements, not one formulation with a single status.
+A five-paper preprint series by Dennis Gaitsgory and Sam Raskin proves this
+characteristic-zero de Rham theorem and an equivalent Betti form. Earlier
+work established the torus case and numerous special cases and constructed
+important families of eigensheaves.
 
-- For tori, the correspondence reduces to a geometric Fourier transform and
-  is established.
-- Beilinson and Drinfeld constructed important families of eigensheaves,
-  including those arising from opers.
-- Many ramified and low-rank cases are theorems, including the rank-one
-  pair-of-pants case.
-- A five-paper 2024 preprint series led by Gaitsgory and Raskin gives a proof
-  of the characteristic-zero de Rham and Betti categorical conjecture in its
-  modern derived form.
+Étale, positive-characteristic, quantum, and
+[[langlands/ramified-geometric-langlands|ramified]] versions require their
+own hypotheses and are not all consequences of this theorem. Thus
+“geometric Langlands” also continues to name a broader program.
 
-Other coefficient systems, positive-characteristic forms, quantum versions,
-and ramification regimes have their own statements and are not all implied by
-that theorem. It remains accurate to call geometric Langlands a program and
-to label historical or variant formulations as conjectural.
-
-## Why the naive slogan is insufficient
+## Necessary spectral enlargement
 
 Replacing the spectral category by
 \(\operatorname{QCoh}(\operatorname{LocSys}_{\widehat G})\) works in the
@@ -66,7 +59,7 @@ abelian case but is generally too small. Likewise, the correspondence is not
 a bijection between individual bundles and individual local systems: both
 sides are categories on moduli stacks.
 
-## Normalizations hidden by the slogan
+## Half twisting
 
 The subscript \(1/2\) denotes the standard half-density, or square-root of the
 canonical, twisting on the automorphic side. Precise theorem statements also
@@ -87,6 +80,6 @@ choice.
 3. Dennis Gaitsgory and Sam Raskin, “Proof of the geometric Langlands
    conjecture I: construction of the functor,” 2024.
    [arXiv](https://arxiv.org/abs/2405.03599).
-4. Dennis Gaitsgory, Sam Raskin, and collaborators, “Proof of the geometric
+4. Dennis Gaitsgory and Sam Raskin, “Proof of the geometric
    Langlands conjecture V: the multiplicity one theorem,” 2024.
    [arXiv](https://arxiv.org/abs/2409.09856).

@@ -25,7 +25,7 @@ In algebraic topology and much of arithmetic geometry, “one-dimensional
 formal group law” conventionally includes commutativity. This knowl follows
 that convention. The general
 [[formal-groups/formal-group-law|\(n\)-dimensional formal group law]] used
-elsewhere in this expansion does **not** impose commutativity, even when
+elsewhere in this collection does **not** impose commutativity, even when
 \(n=1\).
 
 Dimension counts formal parameters, not the number of variables appearing in
@@ -36,9 +36,11 @@ the multiplication: a one-dimensional law uses the two inputs \(X\) and
 
 For \(m\in\mathbb Z\), define \([m]_F(X)\) by repeated formal addition, using
 the inverse for negative \(m\). The series \([p]_F\) in characteristic \(p\)
-is a central invariant in the height theory of commutative formal groups and
-explains why [[formal-groups/positive-characteristic-warning|tangent Lie
-algebras do not classify them in positive characteristic]].
+determines the
+[[formal-groups/height-of-one-dimensional-formal-group-law|height]] of \(F\),
+a central invariant that helps explain why
+[[formal-groups/positive-characteristic-warning|tangent Lie algebras do not
+classify formal groups in positive characteristic]].
 
 ## Characteristic zero
 

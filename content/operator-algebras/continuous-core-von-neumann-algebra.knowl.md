@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]]
 and choose a
 [[operator-algebras/normal-semifinite-faithful-weight|normal semifinite
-[[operator-algebras/faithful-weight|faithful weight]]]] \(\varphi\). The **continuous core** of \(M\), relative to
+faithful weight]] \(\varphi\). The **continuous core** of \(M\), relative to
 \(\varphi\), is the [[operator-algebras/von-neumann-crossed-product|von
 Neumann crossed product]]
 \[

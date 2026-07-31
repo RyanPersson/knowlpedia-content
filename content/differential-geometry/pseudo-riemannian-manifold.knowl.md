@@ -2,7 +2,7 @@
 id = "differential-geometry/pseudo-riemannian-manifold"
 title = "Pseudo-Riemannian manifold"
 kind = "definition"
-summary = "A smooth manifold equipped with a nondegenerate symmetric metric of constant signature."
+summary = "A smooth manifold equipped with a nondegenerate symmetric metric whose signature is constant on each connected component."
 aliases = ["semi-Riemannian manifold", "indefinite Riemannian manifold", "pseudo-Riemannian metric"]
 domains = ["differential-geometry"]
 section_mode = "progressive"

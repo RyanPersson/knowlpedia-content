@@ -2,13 +2,13 @@
 id = "differential-geometry/laplace-beltrami-operator"
 title = "Laplace–Beltrami operator"
 kind = "definition"
-summary = "The metric trace of the covariant Hessian, with a sign chosen to be nonnegative in Riemannian signature."
+summary = "The negative metric trace of the covariant Hessian, with a sign chosen to be nonnegative in Riemannian signature."
 aliases = ["metric Laplacian", "scalar Laplacian", "Laplace-Beltrami operator"]
 domains = ["differential-geometry", "partial-differential-equations"]
 section_mode = "progressive"
 +++
 
-Let \((M,g)\) be a [[differential-geometry/pseudo-riemannian-manifold|pseudo-Riemannian manifold]] with Levi–Civita connection \(\nabla\). In the convention used here, the **Laplace–Beltrami operator** on a smooth function \(f\) is
+Let \((M,g)\) be a [[differential-geometry/pseudo-riemannian-manifold|pseudo-Riemannian manifold]] with [[fiber-bundles/levicivita-connection-connection|Levi–Civita connection]] \(\nabla\). In the convention used here, the **Laplace–Beltrami operator** on a smooth function \(f\) is
 \[
 \Delta_g f=-\operatorname{tr}_g(\nabla df)
 =-\frac{1}{\sqrt{|\det g|}}\,
@@ -34,7 +34,7 @@ For an indefinite metric, the same coordinate expression is still defined but is
 
 ## Related operators
 
-This scalar operator should not be confused with the [[differential-geometry/hodge-laplacian|Hodge Laplacian]] on differential forms or with a connection Laplacian on sections of a vector bundle. They agree on functions when their sign conventions are aligned, but their domains and lower-order geometry differ.
+This scalar operator should not be confused with the [[differential-geometry/hodge-laplacian|Hodge Laplacian]] on differential forms or with a [[differential-geometry/connection-laplacian|connection Laplacian]] on sections of a vector bundle. They agree on functions when their sign conventions are aligned, but their domains and lower-order geometry differ.
 
 ## References
 

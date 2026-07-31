@@ -17,17 +17,24 @@ It is a [[differential-geometry/clifford-module|Clifford module bundle]] with mu
 c(v)c(w)+c(w)c(v)=-2g(v,w)\operatorname{id}_S.
 \]
 
-## Connection and Dirac operator
+## Associated connection
 
 The Lorentzian Levi–Civita connection lifts to \(P_{\mathrm{Spin}}\) and induces a covariant derivative \(\nabla^S\) on \(S\). Clifford contraction gives
-\[
-D_g=c\circ\nabla^S.
-\]
-Unlike the Dirac operator on a [[differential-geometry/spinor-bundle|Riemannian spinor bundle]], \(D_g\) is not elliptic: its symbol is singular precisely at nonzero null covectors. Its square has normally hyperbolic principal part, which underlies the hyperbolic initial-value theory for spinor fields.
+the [[differential-geometry/lorentzian-dirac-operator|Lorentzian Dirac
+operator]]. Unlike the Dirac operator on a
+[[differential-geometry/spinor-bundle|Riemannian spinor bundle]], this operator
+is not elliptic.
 
 ## Representation choices
 
-The rank and additional structures of \(S\) depend on dimension, signature, scalar field, and the chosen spin representation. Majorana, Weyl, and Majorana–Weyl conditions exist only in appropriate signatures and dimensions. The complex spinor bundle forgets some signature-dependent real structure even though its Clifford action still remembers the Lorentzian metric.
+The rank and additional structures of \(S\) depend on dimension, signature,
+scalar field, and the chosen spin representation.
+[[differential-geometry/majorana-spinor|Majorana]],
+[[differential-geometry/weyl-spinor|Weyl]], and
+[[differential-geometry/majorana-weyl-spinor|Majorana–Weyl]] conditions exist
+only in appropriate signatures and dimensions. The complex spinor bundle
+forgets some signature-dependent real structure even though its Clifford
+action still remembers the Lorentzian metric.
 
 ## Spinor pairing
 

@@ -14,9 +14,9 @@ Let \(D\subseteq\mathbb C\) be a domain. A family \(\mathcal F\) of holomorphic 
 
 View each function as a map into the [[complex-analysis/riemann-sphere|Riemann sphere]] with its spherical metric. Then the two alternatives in the core can be expressed as locally uniform spherical convergence. For families of meromorphic functions, this spherical formulation is the standard definition and permits meromorphic limits.
 
-## Montel's theorem
+## Compactness criterion
 
-A locally uniformly bounded family of holomorphic functions is normal: for every compact \(K\subset D\), a common bound on \(K\) leads through Cauchy estimates and compactness to a locally uniformly convergent subsequence. Montel's theorem is the central compactness principle behind many existence proofs.
+The [[complex-analysis/montel-theorem|Montel theorem]] says that every locally uniformly bounded family of holomorphic functions is normal. It is the central compactness criterion used in many existence proofs.
 
 ## Role in conformal mapping
 

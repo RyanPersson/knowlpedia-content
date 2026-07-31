@@ -8,7 +8,7 @@ domains = ["differential-geometry", "fiber-bundles", "mathematical-physics"]
 section_mode = "progressive"
 +++
 
-Let \((M,g)\) be an oriented and [[differential-geometry/time-orientation|time-oriented]] [[differential-geometry/lorentzian-manifold|Lorentzian \(n\)-manifold]] of signature \((1,n-1)\), with negative directions listed first, and let \(P_{\mathrm{SO}^+(1,n-1)}(M)\) be its bundle of oriented, time-oriented pseudo-orthonormal frames. Write \(\mathrm{Spin}^+(1,n-1)\) for the full preimage of \(\mathrm{SO}^+(1,n-1)\) under the spin covering, as in [[lie-groups/indefinite-spin-group|indefinite spin group]]. A **Lorentzian spin structure** is a principal \(\mathrm{Spin}^+(1,n-1)\)-bundle \(P_{\mathrm{Spin}}\to M\) and an equivariant double covering
+Let \((M,g)\) be an oriented and [[differential-geometry/time-orientation|time-oriented]] [[differential-geometry/lorentzian-manifold|Lorentzian \(n\)-manifold]] of signature \((1,n-1)\), with negative directions listed first, and let \(P_{\mathrm{SO}^+(1,n-1)}(M)\) be its bundle of oriented, time-oriented pseudo-orthonormal frames. Write \(\mathrm{Spin}^+(1,n-1)\) for the full preimage of \(\mathrm{SO}^+(1,n-1)\) under the spin covering, as in the [[lie-groups/restricted-spin-group|restricted spin group]]. A **Lorentzian spin structure** is a principal \(\mathrm{Spin}^+(1,n-1)\)-bundle \(P_{\mathrm{Spin}}\to M\) and an equivariant double covering
 \[
 \Phi:P_{\mathrm{Spin}}\longrightarrow P_{\mathrm{SO}^+(1,n-1)}(M)
 \]

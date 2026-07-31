@@ -47,7 +47,7 @@ ideals, quotients, inductive limits, and extensions, but not to arbitrary
 
 For a discrete group \(\Gamma\), the
 [[operator-algebras/nuclearity-reduced-group-cstar-algebra-discrete-amenability|
-[[operator-algebras/nuclearity-reduced-group-cstar-algebra-discrete-amenability|Lance theorem]]]] states that \(C_r^*(\Gamma)\) is nuclear exactly when
+Lance theorem]] states that \(C_r^*(\Gamma)\) is nuclear exactly when
 \(\Gamma\) is amenable. Hence the reduced \(C^*\)-algebra of the free group on
 two generators, a [[algebra-groups/free-group|free group]], is a standard
 non-example.

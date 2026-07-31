@@ -83,7 +83,7 @@ This section covers commutative algebra: localization of rings and modules, loca
 ## Corollaries
 
 - [[algebra-commutative/noetherian-primary-decomposition|Every ideal in Noetherian ring has primary decomposition]]
-- [[algebra-commutative/hilbert-basis-corollary|Hilbert basis theorem corollary (k[x₁,...,x_n] Noetherian)]]
+- [[algebra-commutative/hilbert-basis-corollary|Hilbert basis theorem corollary \(\bigl(k[x_1,\ldots,x_n]\text{ is Noetherian}\bigr)\)]]
 - [[algebra-commutative/nullstellensatz-corollary|Nullstellensatz corollary (radical ideals ↔ affine algebraic sets)]]
 - [[algebra-commutative/localization-noetherian-corollary|Localization corollary (localizations of Noetherian are Noetherian)]]
 - [[algebra-commutative/nakayama-corollary|Nakayama corollary (M f.g., IM = M, I ⊆ Jac(R) ⇒ M = 0)]]

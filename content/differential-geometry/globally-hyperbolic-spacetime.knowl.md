@@ -2,43 +2,23 @@
 id = "differential-geometry/globally-hyperbolic-spacetime"
 title = "Globally hyperbolic spacetime"
 kind = "definition"
-summary = "A strongly causal Lorentzian spacetime whose causal diamonds are compact, equivalently one admitting Cauchy hypersurfaces."
+summary = "A strongly causal spacetime in which every causal diamond is compact."
 aliases = ["global hyperbolicity", "globally hyperbolic Lorentzian manifold"]
 domains = ["differential-geometry", "mathematical-physics", "partial-differential-equations"]
 section_mode = "progressive"
 +++
 
-A time-oriented [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] \((M,g)\) is **globally hyperbolic** if it is strongly causal and every causal diamond
+A time-oriented [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] \((M,g)\) is **globally hyperbolic** if it is [[differential-geometry/strong-causality|strongly causal]] and every [[differential-geometry/causal-diamond|causal diamond]]
 \[
 J^+(p)\cap J^-(q)
 \]
-is compact. Here \(J^+(p)\) and \(J^-(q)\) are the points reachable from \(p\), or able to reach \(q\), by future-directed causal curves. Strong causality rules out causal curves that return arbitrarily close to their starting event. Together the two conditions exclude closed causal curves and prevent causal influence between two events from escaping to infinity and returning.
+is compact.
 
-## Cauchy hypersurfaces
-
-A **Cauchy hypersurface** is a subset met exactly once by every inextendible timelike curve. A spacetime is globally hyperbolic if and only if it admits a Cauchy hypersurface. Moreover, it admits a smooth spacelike Cauchy hypersurface and a smooth splitting
-\[
-M\cong\mathbb R\times\Sigma,\qquad
-g=-\beta\,dt^2+h_t,
-\]
-where \(\beta>0\) and each \(h_t\) is a Riemannian metric on \(\Sigma\). Each slice \(\{t\}\times\Sigma\) can be chosen to be Cauchy.
-
-## Role in hyperbolic equations
-
-Global hyperbolicity is the standard geometric hypothesis for a global Cauchy
-theory. On such a spacetime, a
-[[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic
-operator]] has unique advanced and retarded Green operators, and smooth
-compactly supported initial data on a Cauchy hypersurface determine a unique
-smooth solution. The analogous Lorentzian
-[[mathematical-physics/dirac-equation|Dirac equation]] also has a well-posed
-Cauchy problem.
-
-These conclusions are not consequences of local Lorentzian signature alone. Removing global hyperbolicity can destroy existence, uniqueness, or causal support properties even though the differential operator has the same local principal symbol.
+The [[differential-geometry/global-hyperbolicity-and-cauchy-hypersurfaces|Cauchy-hypersurface characterization]] and the [[differential-geometry/smooth-splitting-of-globally-hyperbolic-spacetimes|smooth splitting theorem]] are equivalent global descriptions and consequences, not additional clauses in this definition. Global hyperbolicity is also the geometric hypothesis in the [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|global Cauchy theorem]] for normally hyperbolic operators.
 
 ## Examples and non-examples
 
-[[mathematical-physics/minkowski-spacetime|Minkowski spacetime]] is globally hyperbolic; each constant-time hyperplane is Cauchy. The static cylinder \(\mathbb R\times\Sigma\) with metric \(-dt^2+h\), for complete Riemannian \((\Sigma,h)\), is globally hyperbolic. A spacetime with a closed timelike curve is not causal and therefore not globally hyperbolic.
+[[mathematical-physics/minkowski-spacetime|Minkowski spacetime]] is globally hyperbolic; each constant-time hyperplane is a [[differential-geometry/cauchy-hypersurface|Cauchy hypersurface]]. The static cylinder \(\mathbb R\times\Sigma\) with metric \(-dt^2+h\), for complete Riemannian \((\Sigma,h)\), is globally hyperbolic. A spacetime with a closed timelike curve is not strongly causal and therefore is not globally hyperbolic.
 
 ## References
 

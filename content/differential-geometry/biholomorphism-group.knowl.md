@@ -34,7 +34,11 @@ For \(\mathbb C^n\) with \(n>1\), the group includes many nonlinear automorphism
 
 The notation above first denotes an abstract group. One may equip it with a compact-open or finer topology, and under hypotheses such as compactness of \(X\), automorphism theorems give it a finite-dimensional complex Lie-group structure. Such additional structure is not automatic for an arbitrary noncompact complex manifold and is not built into the definition.
 
-If \(X\) carries a Hermitian or Kähler metric, the subgroup of holomorphic automorphisms that also preserve the metric is smaller; its elements are the isomorphisms described in [[differential-geometry/morphisms-between-kahler-manifolds|Kähler morphism conventions]].
+If \(X\) carries a Hermitian or Kähler metric, the subgroup of holomorphic
+automorphisms that also preserve the metric is smaller. Its elements are the
+diffeomorphic instances of
+[[differential-geometry/holomorphic-isometric-immersion|holomorphic
+isometric immersions]].
 
 ## References
 

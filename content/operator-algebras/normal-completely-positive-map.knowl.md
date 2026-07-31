@@ -50,7 +50,7 @@ normality does not imply complete positivity. A
 positive. A normal CP map need not preserve the identity; imposing
 \(\Phi(1_M)=1_N\) gives a
 [[operator-algebras/normal-unital-completely-positive-map|normal unital
-[[operator-algebras/completely-positive-map|completely positive map]]]].
+completely positive map]].
 
 ## References
 

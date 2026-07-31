@@ -3,7 +3,7 @@ id = "lie-groups/underlying-real-lie-group"
 title = "Underlying real Lie group"
 kind = "construction"
 summary = "The real Lie group obtained from a complex Lie group by forgetting its complex structure."
-aliases = ["realification of a complex Lie group", "underlying real form of a complex Lie group"]
+aliases = ["realification of a complex Lie group", "restriction of scalars of a complex Lie group"]
 domains = ["lie-groups"]
 section_mode = "progressive"
 +++

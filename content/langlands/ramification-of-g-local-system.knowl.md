@@ -2,38 +2,37 @@
 id = "langlands/ramification-of-g-local-system"
 title = "Ramification of a G-local system"
 kind = "definition"
-summary = "The prescribed local monodromy or singular behavior of a G-local system near a puncture."
-aliases = ["ramified G-local system", "singular G-connection"]
+summary = "The obstruction to extending a G-local system across a puncture as an unramified object in a fixed Betti, de Rham, or etale category."
+aliases = ["ramified G-local system"]
 domains = ["langlands", "fiber-bundles"]
 section_mode = "progressive"
 +++
 
-Let \(U=X\setminus D\) be a punctured smooth curve. A
+Fix a Betti, de Rham, or étale category of local systems, and let
+\(U=X\setminus D\) be a punctured smooth curve. A
 [[langlands/g-local-system|\(G\)-local system]] on \(U\) is **ramified at a
-marked point** when it fails to extend across that point as an unramified
-object in the chosen category. In the Betti description over \(\mathbb C\),
-this means that the conjugacy class of monodromy around a small loop is
-nontrivial. A moduli problem may allow or prescribe a ramification condition,
-but that permission alone does not make every object in it ramified.
+marked point \(x\in D\)** when it does not extend across \(x\) as an
+unramified object in that category.
 
-For an algebraic flat connection, ramification means that the connection does
-not extend nonsingularly across the marked point. A regular singularity has
-moderate growth and is controlled by monodromy together with extension data.
-An irregular singularity requires finer formal type and Stokes data and can
-therefore be ramified even when ordinary local monodromy is trivial.
+In the Betti category over \(\mathbb C\), extension across \(x\) is
+equivalent to trivial local monodromy. For an algebraic flat connection,
+extension means extension with no pole. A
+[[langlands/regular-singular-connection|regular-singular connection]] may
+still have nontrivial monodromy, while an
+[[langlands/irregular-singular-connection|irregular-singular connection]]
+requires formal type and [[langlands/stokes-data|Stokes data]] in addition to
+ordinary monodromy.
 
-## Tame and wild
-
-In étale settings, tame and wild ramification refer to inertia and its wild
-subgroup. For complex differential equations, “tame” is often used for
-regular singular and “wild” for irregular singular behavior. These analogies
-are useful, but the definitions belong to different categories.
+In the étale category, ramification is the nontrivial action of inertia.
+[[langlands/tame-ramification|Tame ramification]] is trivial on wild inertia;
+[[langlands/wild-ramification|wild ramification]] is not.
 
 ## Automorphic counterpart
 
-Prescribing ramification on the spectral side corresponds to choosing
-[[langlands/level-structure-on-g-bundle|level structure]] and equivariance or
-character conditions on the automorphic side.
+Prescribing a particular ramification condition on the spectral side
+corresponds to choosing
+[[langlands/level-structure-on-g-bundle|level structure]] together with
+equivariance or character conditions on automorphic sheaves.
 
 ## References
 

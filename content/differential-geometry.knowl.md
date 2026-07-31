@@ -13,11 +13,12 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/complex-manifold|Complex manifold]]
 - [[differential-geometry/holomorphic-map|Holomorphic map]]
 - [[differential-geometry/almost-complex-structure|Almost-complex structure]]
+- [[differential-geometry/almost-complex-map|Almost-complex map]]
 - [[differential-geometry/integrable-almost-complex-structure|Integrable almost-complex structure]]
+- [[differential-geometry/nijenhuis-tensor|Nijenhuis tensor of an almost-complex structure]]
+- [[differential-geometry/newlander-nirenberg-theorem|Newlander–Nirenberg theorem]]
 
-## July 2026 geometry expansion
-
-### Smooth manifolds, maps, and calculus
+## Smooth manifolds, maps, and calculus
 
 - [[differential-geometry/algebra-of-smooth-functions|Algebra of smooth functions]]
 - [[differential-geometry/ambient-isotopy|Ambient isotopy]]
@@ -40,13 +41,13 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/smooth-homotopy|Smooth homotopy]]
 - [[differential-geometry/smooth-isotopy|Smooth isotopy]]
 - [[differential-geometry/c-infinity-ring|C-infinity ring]]
-- [[differential-geometry/locally-c-infinity-ringed-space|Locally C-infinity-ringed space]]
-- [[differential-geometry/smooth-maps-from-smooth-function-algebras|Smooth maps from smooth-function algebras]]
+- [[differential-geometry/locally-c-infinity-ringed-space|Local C-infinity-ringed space]]
+- [[differential-geometry/smooth-maps-from-smooth-function-algebras|Full faithfulness of the smooth-function functor]]
 - [[differential-geometry/smooth-mapping-space|Space of smooth maps]]
 - [[differential-geometry/tangent-functor|Tangent functor]]
 - [[differential-geometry/whitney-c-infinity-topology|Whitney C-infinity topology]]
 
-### Submanifolds and transversality
+## Submanifolds and transversality
 
 - [[differential-geometry/clean-intersection|Clean intersection]]
 - [[differential-geometry/diagonal-transversality-criterion|Diagonal transversality criterion]]
@@ -70,7 +71,7 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/tubular-neighborhood-theorem|Tubular neighborhood theorem]]
 - [[differential-geometry/whitney-embedding-theorem|Whitney embedding theorem]]
 
-### Boundaries, corners, and cobordisms
+## Boundaries, corners, and cobordisms
 
 - [[differential-geometry/bordism-group|Bordism group]]
 - [[differential-geometry/boundary-and-interior-of-a-manifold|Boundary and interior of a manifold with boundary]]
@@ -91,7 +92,7 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/smooth-map-of-manifolds-with-corners|Smooth map between manifolds with corners]]
 - [[differential-geometry/symmetric-monoidal-structure-on-the-cobordism-category|Symmetric monoidal structure on the cobordism category]]
 
-### Partitions of unity, sheaves, and differential forms
+## Partitions of unity, sheaves, and differential forms
 
 - [[differential-geometry/boundary-orientation|Boundary orientation]]
 - [[differential-geometry/bump-function|Bump function]]
@@ -112,7 +113,7 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/smooth-exhaustion-function|Smooth exhaustion function]]
 - [[differential-geometry/smooth-urysohn-lemma|Smooth Urysohn lemma]]
 
-### Complex manifolds and holomorphic geometry
+## Complex manifolds and holomorphic geometry
 
 - [[differential-geometry/biholomorphism|Biholomorphism]]
 - [[differential-geometry/biholomorphism-group|Biholomorphism group]]
@@ -135,7 +136,7 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/sheaf-of-holomorphic-functions|Sheaf of holomorphic functions]]
 - [[differential-geometry/complexified-tangent-bundle-splitting|Type decomposition of the complexified tangent bundle]]
 
-### Hermitian and Kähler geometry
+## Hermitian and Kähler geometry
 
 - [[differential-geometry/almost-hermitian-manifold|Almost-Hermitian manifold]]
 - [[differential-geometry/complex-torus|Complex torus]]
@@ -144,15 +145,15 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/hermitian-manifold|Hermitian manifold]]
 - [[differential-geometry/kahler-class|Kähler class]]
 - [[differential-geometry/kahler-form|Kähler form]]
+- [[differential-geometry/holomorphic-isometric-immersion|Holomorphic isometric immersion]]
 - [[differential-geometry/kahler-manifold|Kähler manifold]]
-- [[differential-geometry/morphisms-between-kahler-manifolds|Morphisms between Kähler manifolds]]
 - [[differential-geometry/kahler-metric|Kähler metric]]
 - [[differential-geometry/local-kahler-potential|Local Kähler potential]]
 - [[differential-geometry/ricci-form|Ricci form]]
 - [[differential-geometry/d-c-operator|The d-c operator]]
 - [[differential-geometry/ddbar-lemma|The ∂∂̄-lemma]]
 
-### Hodge theory
+## Hodge theory
 
 - [[differential-geometry/codifferential|Codifferential]]
 - [[differential-geometry/einstein-manifold|Einstein manifold]]
@@ -176,7 +177,7 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/riemann-curvature-tensor|Riemann curvature tensor]]
 - [[differential-geometry/variation-of-hodge-structure|Variation of Hodge structure]]
 
-### Special holonomy, quaternionic, and hyperkähler geometry
+## Special holonomy, quaternionic, and hyperkähler geometry
 
 - [[differential-geometry/almost-quaternionic-manifold|Almost-quaternionic manifold]]
 - [[differential-geometry/calabi-yau-manifold|Calabi–Yau manifold]]
@@ -185,19 +186,20 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/holomorphic-symplectic-manifold|Holomorphic symplectic manifold]]
 - [[differential-geometry/hyperhermitian-manifold|Hyper-Hermitian manifold]]
 - [[differential-geometry/hypercomplex-manifold|Hypercomplex manifold]]
+- [[differential-geometry/hyperkahler-isometric-immersion|Hyperkähler isometric immersion]]
 - [[differential-geometry/hyperkahler-manifold|Hyperkähler manifold]]
 - [[differential-geometry/hyperkahler-isometry|Hyperkähler isometry]]
 - [[differential-geometry/irreducible-holomorphic-symplectic-manifold|Irreducible holomorphic symplectic manifold]]
-- [[differential-geometry/morphisms-between-hyperkahler-manifolds|Morphisms between hyperkähler manifolds]]
 - [[differential-geometry/obata-connection|Obata connection]]
 - [[differential-geometry/quaternion-kahler-manifold|Quaternion-Kähler manifold]]
 - [[differential-geometry/quaternion-kahler-einstein-property|Quaternion-Kähler manifolds are Einstein]]
 - [[differential-geometry/quaternionic-manifold|Quaternionic manifold]]
 - [[differential-geometry/quaternionic-hermitian-manifold|Quaternionic-Hermitian manifold]]
+- [[differential-geometry/rotating-hyperkahler-isometry|Rotating hyperkähler isometry]]
 - [[differential-geometry/twistor-space-quaternionic-manifold|Twistor space of a quaternionic manifold]]
 - [[differential-geometry/triholomorphic-map|Triholomorphic map]]
 
-### Grassmannians and linear symplectic geometry
+## Grassmannians and linear symplectic geometry
 
 - [[differential-geometry/coisotropic-subspace|Coisotropic subspace]]
 - [[differential-geometry/compatible-almost-complex-structure|Compatible almost-complex structure]]
@@ -219,11 +221,11 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/tangent-space-of-grassmannian|Tangent space of a Grassmannian]]
 - [[differential-geometry/tautological-bundle-grassmannian|Tautological bundle on a Grassmannian]]
 
-### Symplectic manifolds and symplectomorphisms
+## Symplectic manifolds and symplectomorphisms
 
 - [[differential-geometry/almost-symplectic-manifold|Almost symplectic manifold]]
 - [[differential-geometry/canonical-symplectic-form-cotangent|Canonical symplectic form on a cotangent bundle]]
-- [[differential-geometry/category-of-symplectic-manifolds|Category of symplectic manifolds]]
+- [[differential-geometry/category-of-symplectic-manifolds|Category of symplectic manifolds and symplectic maps]]
 - [[differential-geometry/characteristic-distribution-coisotropic|Characteristic distribution of a coisotropic submanifold]]
 - [[differential-geometry/characteristic-foliation|Characteristic foliation]]
 - [[differential-geometry/coisotropic-submanifold|Coisotropic submanifold]]
@@ -244,7 +246,7 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/symplectomorphism-group|Symplectomorphism group]]
 - [[differential-geometry/tautological-one-form-cotangent|Tautological one-form on a cotangent bundle]]
 
-### Hamiltonian mechanics
+## Hamiltonian mechanics
 
 - [[differential-geometry/action-angle-coordinates|Action-angle coordinates]]
 - [[differential-geometry/classical-phase-space|Classical phase space]]
@@ -266,7 +268,7 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/symplectic-vector-field|Symplectic vector field]]
 - [[differential-geometry/time-dependent-hamiltonian-system|Time-dependent Hamiltonian system]]
 
-### Hamiltonian actions and reduction
+## Hamiltonian actions and reduction
 
 - [[differential-geometry/atiyah-guillemin-sternberg-convexity-theorem|Atiyah–Guillemin–Sternberg convexity theorem]]
 - [[differential-geometry/canonical-moment-map-cotangent-lift|Canonical moment map for a cotangent-lifted action]]
@@ -289,13 +291,13 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/reduction-at-nonzero-momentum|Symplectic reduction at nonzero momentum]]
 - [[differential-geometry/moment-map-ambiguity|Uniqueness and ambiguity of moment maps]]
 
-### Poisson geometry
+## Poisson geometry
 
 - [[differential-geometry/poisson-manifold|Poisson manifold]]
 - [[differential-geometry/poisson-map|Poisson map]]
 - [[differential-geometry/symplectic-leaf|Symplectic leaf]]
 
-### Maslov theory
+## Maslov theory
 
 - [[differential-geometry/lagrangian-gauss-map|Lagrangian Gauss map]]
 - [[differential-geometry/maslov-class-lagrangian-submanifold|Maslov class of a Lagrangian submanifold]]
@@ -304,7 +306,7 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/maslov-index|Maslov index]]
 - [[differential-geometry/relative-maslov-index|Relative Maslov index]]
 
-### Spectral and gauge-analytic geometry
+## Spectral and gauge-analytic geometry
 
 - [[differential-geometry/clifford-algebra|Clifford algebra]]
 - [[differential-geometry/clifford-module|Clifford module]]
@@ -314,9 +316,3 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/principal-symbol|Principal symbol of a differential operator]]
 - [[differential-geometry/riemannian-manifold|Riemannian manifold]]
 - [[differential-geometry/spinor-bundle|Spinor bundle]]
-
-## July 30 cross-disciplinary guides
-
-- [[complex-analysis|Complex analysis]]
-- [[supergeometry|Supergeometry]]
-- [[mathematical-physics|Mathematical physics]]

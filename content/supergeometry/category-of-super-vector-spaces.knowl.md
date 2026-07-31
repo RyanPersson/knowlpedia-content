@@ -23,31 +23,16 @@ and its symmetry is the **Koszul braiding**
 for homogeneous \(v,w\). With this tensor product, unit \(k\) in even degree,
 and braiding, \(\mathbf{SuperVect}_k\) is a
 [[algebra-category-theory/symmetric-monoidal-category|symmetric monoidal
-category]].
+category]]. The signs forced by this braiding are recorded in the
+[[supergeometry/koszul-sign-rule|Koszul sign rule]].
 
-## The Koszul sign rule
-
-Whenever two homogeneous pieces of parity \(\alpha\) and \(\beta\) cross in a
-tensor expression, the super convention contributes
-\((-1)^{\alpha\beta}\). In particular, for homogeneous linear maps \(f,g\),
-\[
-(f\otimes g)(v\otimes w)
-=(-1)^{|g||v|}f(v)\otimes g(w).
-\]
-This rule is structural: it comes from the braiding, rather than being a
-separate sign attached after a calculation.
-
-## Odd maps and internal Hom
+## Odd maps
 
 Only even maps are ordinary morphisms in \(\mathbf{SuperVect}_k\). The internal
-Hom is nevertheless a super vector space:
-\[
-\underline{\operatorname{Hom}}(V,W)_{\bar\epsilon}
-=\{f:V\to W:f(V_{\bar i})\subseteq W_{\bar i+\bar\epsilon}\}.
-\]
-Its even part is the usual morphism space, while its odd part consists of
-parity-reversing maps. The [[supergeometry/parity-shift|parity shift]] turns an
-odd map into an even map to or from a shifted object.
+mapping object, which includes both even and odd maps, is the
+[[supergeometry/super-internal-hom|super internal Hom]]. The
+[[supergeometry/parity-shift|parity shift]] turns an odd map into an even map
+to or from a shifted object.
 
 ## Why the morphism convention matters
 

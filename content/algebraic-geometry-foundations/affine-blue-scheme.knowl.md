@@ -8,7 +8,7 @@ domains = ["algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-An **affine blue scheme** is a locally blueprinted space isomorphic to
+An **affine blue scheme** is a [[algebraic-geometry-foundations/locally-blueprinted-space|locally blueprinted space]] isomorphic to
 \[
 \operatorname{Spec}B
 \]
@@ -25,9 +25,8 @@ Contravariantly, blueprint morphisms induce morphisms of affine blue schemes:
 
 Affine blue schemes are the local models for [[algebraic-geometry-foundations/blue-scheme|blue schemes]]. Principal opens \(U_h\subseteq\operatorname{Spec}B\) are affine and correspond to blueprint localizations \(B[h^{-1}]\), so the usual scheme-theoretic gluing pattern survives.
 
-Semiring schemes and ordinary affine schemes enter through the canonical embeddings of semirings and rings into blueprints. The resulting base-extension functors carry extra hypotheses and should not be read as identifying all blue schemes with classical schemes.
+Semiring schemes and ordinary affine schemes enter through the [[algebraic-geometry-foundations/semiring-as-a-blueprint|canonical embedding of commutative semirings into blueprints]]. The resulting base-extension functors carry extra hypotheses and should not be read as identifying all blue schemes with classical schemes.
 
 ## Reference
 
 Oliver Lorscheid, [*The geometry of blueprints, Part I*, §3](https://arxiv.org/abs/1103.1745).
-

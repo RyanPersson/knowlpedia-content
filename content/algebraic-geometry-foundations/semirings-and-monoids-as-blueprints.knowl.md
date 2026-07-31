@@ -1,35 +1,28 @@
 +++
 id = "algebraic-geometry-foundations/semirings-and-monoids-as-blueprints"
-title = "Semirings and monoids as blueprints"
+title = "Monoid blueprint to semiring blueprint"
 kind = "construction"
-summary = "The canonical fully faithful embeddings of commutative semirings and monoids into blueprints."
-aliases = ["canonical blueprints of semirings and monoids"]
+summary = "The canonical morphism from the monoid blueprint of a semiring to its semiring blueprint."
+aliases = ["Semirings and monoids as blueprints", "canonical blueprints of semirings and monoids"]
 domains = ["algebraic-geometry-foundations", "algebra-rings", "algebra-groups"]
 section_mode = "progressive"
 +++
 
-There are canonical fully faithful embeddings of commutative semirings and commutative monoids with zero into [[algebraic-geometry-foundations/blueprint|blueprints]].
-
-For a semiring \(R\), take the multiplicative monoid \(R^\bullet\) and impose every formal additive relation that is true in \(R\):
+Let \(R\) be a [[algebra-rings/commutative-semiring|commutative semiring]]. Its multiplicative monoid with zero \(R^\bullet\) determines a [[algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint|monoid blueprint]]
 \[
-R^{\mathrm{blpr}}
-=R^\bullet/\!/\left\langle
-\sum a_i\equiv\sum b_j
-\;\middle|\;
-\sum a_i=\sum b_j\text{ in }R
-\right\rangle.
+(R^\bullet)^{\mathrm{blpr}}=R^\bullet/\!/\mathcal R_{\min},
 \]
-For a commutative monoid with zero \(A\), take \(A/\!/\langle\varnothing\rangle\), with no nontrivial additive relations beyond the blueprint axioms.
+while its addition determines the [[algebraic-geometry-foundations/semiring-as-a-blueprint|semiring blueprint]]
+\[
+R^{\mathrm{blpr}}=R^\bullet/\!/\mathcal R_R.
+\]
 
-## Why the embeddings are fully faithful
-
-A blueprint morphism between semiring blueprints preserves precisely the sums already represented in the semirings, so it is a semiring homomorphism. Between monoid blueprints there are no added relations to check, so it is exactly a multiplicative map preserving \(0\) and \(1\).
-
-## Do not identify the two constructions
-
-The semiring completion of the monoid blueprint \(A/\!/\langle\varnothing\rangle\) is the free semiring \(\mathbb N[A]\), not \(A\) itself. Conversely, a semiring blueprint remembers all additive equalities of \(R\). Thus monoids and semirings occupy distinct full subcategories of blueprints even when they have the same underlying multiplicative set.
+Since \(\mathcal R_{\min}\subseteq\mathcal R_R\), the identity on \(R^\bullet\) induces a canonical blueprint morphism
+\[
+(R^\bullet)^{\mathrm{blpr}}\longrightarrow R^{\mathrm{blpr}}.
+\]
+It is the universal morphism from the monoid blueprint that imposes the additive equalities of \(R\). Its source has the free-semiring completion on \(R^\bullet\), whereas its target has [[algebraic-geometry-foundations/semiring-completion-of-a-blueprint|semiring completion]] \(R\); therefore this morphism is generally not an isomorphism.
 
 ## Reference
 
 Oliver Lorscheid, [*The geometry of blueprints, Part I*, §§1.1–1.2](https://arxiv.org/abs/1103.1745).
-

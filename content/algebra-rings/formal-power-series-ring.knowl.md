@@ -2,7 +2,7 @@
 id = "algebra-rings/formal-power-series-ring"
 title = "Formal power series ring"
 kind = "definition"
-summary = "The complete x-adic ring R[[x]] of coefficient sequences with Cauchy multiplication."
+summary = "The complete x-adic ring of one-variable formal coefficient sequences with Cauchy multiplication."
 aliases = ["formal-power-series-ring", "Formal power series ring"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/formal-power-series-ring.md"
@@ -34,6 +34,7 @@ whose kernel is the principal ideal \((x)\). The powers \((x^N)\) define the \(x
 R[[x]]\cong\varprojlim_N R[x]/(x^N).
 \]
 Thus \(R[[x]]\) is complete and separated for its \(x\)-adic topology. This topology, rather than analytic convergence, is what makes infinite algebraic manipulations meaningful.
+Consequently, formal power series rings are fundamental examples in completion and deformation arguments.
 
 ## Units and local structure
 

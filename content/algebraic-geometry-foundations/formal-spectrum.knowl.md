@@ -8,8 +8,9 @@ domains = ["algebraic-geometry-foundations", "formal-groups"]
 section_mode = "progressive"
 +++
 
-Let \(A\) be a commutative ring complete and separated for the
-\(I\)-adic topology, where \(I\) is a finitely generated ideal. The
+Let \(A\) be a complete and separated
+[[algebra-topological/adic-ring|adic ring]], and choose a finitely generated
+[[algebra-topological/ideal-of-definition|ideal of definition]] \(I\). The
 **formal spectrum** \(\operatorname{Spf}(A)\) is the locally topologically
 ringed space whose underlying topological space is
 \[
@@ -43,11 +44,14 @@ Continuity is essential because the sheaves remember the adic topologies.
 
 ## Relation to ordinary spectra
 
-If \(A\) is discrete, equivalently if the ideal of definition is \(0\), then
+If \(A\) has the discrete topology, so that \(0\) may be chosen as an ideal
+of definition, then
 \(\operatorname{Spf}(A)\) is the ordinary
 [[algebraic-geometry-foundations/affine-scheme|\(\operatorname{Spec}(A)\)]].
-For a nonzero ideal of definition, \(\operatorname{Spf}(A)\) has the topology
-of the closed fiber but retains functions to every infinitesimal order.
+For a general ideal of definition, \(\operatorname{Spf}(A)\) has the
+topological space of the scheme of definition
+\(\operatorname{Spec}(A/I)\), while its structure sheaf retains functions to
+every infinitesimal order. The scheme of definition need not be reduced.
 
 For example,
 \[

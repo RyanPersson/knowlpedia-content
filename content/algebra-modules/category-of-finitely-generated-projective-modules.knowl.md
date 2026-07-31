@@ -8,12 +8,11 @@ domains = ["algebra-modules", "category-theory"]
 section_mode = "progressive"
 +++
 
-Let \(A\) be a unital ring. The **category of finitely generated projective
-left \(A\)-modules**, denoted \(\mathbf{Proj}(A)\), has
+Let \(A\) be a commutative unital ring. The **category of finitely generated
+projective \(A\)-modules**, denoted \(\mathbf{Proj}(A)\), has
 [[algebra-modules/projective-module|finitely generated projective
 \(A\)-modules]] as objects and
 [[algebra-modules/module-homomorphism|\(A\)-linear maps]] as morphisms.
-For a commutative ring there is no left-right ambiguity.
 
 This is a full subcategory of the category of \(A\)-modules. It is additive:
 the zero module is a zero object and finite direct sums are biproducts. Every
@@ -30,6 +29,10 @@ summands remain inside the category.
 The ring \(A\) is fixed. A homomorphism \(A\to B\) leads to extension and
 restriction of scalars between different module categories, but it is not
 itself a morphism in \(\mathbf{Proj}(A)\).
+
+For a noncommutative ring one must instead specify left or right modules and
+use the compatible matrix convention. That handed version is not part of the
+notation on this page.
 
 ## Geometric example
 

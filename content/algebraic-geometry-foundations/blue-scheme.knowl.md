@@ -8,11 +8,11 @@ domains = ["algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-A **blue scheme** is a locally blueprinted space \(X\) that admits an open cover by [[algebraic-geometry-foundations/affine-blue-scheme|affine blue schemes]]
+A **blue scheme** is a [[algebraic-geometry-foundations/locally-blueprinted-space|locally blueprinted space]] \(X\) that admits an open cover by [[algebraic-geometry-foundations/affine-blue-scheme|affine blue schemes]]
 \[
 U_i\simeq\operatorname{Spec}B_i.
 \]
-Morphisms are local morphisms of the corresponding sheaves of blueprints, equivalently morphisms that restrict on affine charts to maps induced contravariantly by blueprint morphisms.
+Morphisms are local morphisms of the corresponding sheaves of blueprints.
 
 ## Construction by gluing
 
@@ -30,4 +30,3 @@ There are also functor-of-points approaches to relative blue schemes. Their comp
 
 - Oliver Lorscheid, [*The geometry of blueprints, Part I*, §3](https://arxiv.org/abs/1103.1745).
 - Oliver Lorscheid, [*Blue schemes, semiring schemes, and relative schemes after Toën and Vaquié*](https://arxiv.org/abs/1212.3261).
-

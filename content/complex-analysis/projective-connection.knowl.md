@@ -16,20 +16,11 @@ where \(S(w)\) is the [[complex-analysis/schwarzian-derivative|Schwarzian deriva
 
 ## Why this transformation law
 
-If \(f\) is a locally univalent projective coordinate, set \(R_z=S(f)(z)\). The [[complex-analysis/schwarzian-chain-rule-and-mobius-characterization|Schwarzian chain rule]] gives exactly the displayed change-of-coordinate formula. Postcomposing \(f\) with a Möbius transformation leaves \(R_z\) unchanged.
+If \(f\) is a locally univalent projective coordinate, set \(R_z=S(f)(z)\). The [[complex-analysis/schwarzian-chain-rule|Schwarzian chain rule]] gives exactly the displayed change-of-coordinate formula. Postcomposing \(f\) with a Möbius transformation leaves \(R_z\) unchanged.
 
 ## Relation to projective structures
 
-A complex projective structure is an atlas of charts into \(\mathbb P^1(\mathbb C)\) whose transition maps are Möbius transformations. Its charts determine a projective connection by taking their Schwarzians in ordinary holomorphic coordinates. Conversely, the local differential equation \(S(f)=R_z\) produces projective charts; global continuation can carry monodromy in \(PGL_2(\mathbb C)\).
-
-## Affine structure
-
-If \(R\) and \(\widetilde R\) are two projective connections, their difference obeys
-\[
-(R_z-\widetilde R_z)
-=(R_w-\widetilde R_w)\circ w\,(w')^2.
-\]
-Thus the difference is a holomorphic quadratic differential. Projective connections on a fixed Riemann surface, when nonempty, form an affine space modeled on holomorphic quadratic differentials.
+A [[complex-analysis/complex-projective-structure|complex projective structure]] determines a projective connection by taking the Schwarzians of its projective charts in ordinary holomorphic coordinates. Conversely, the local equation \(S(f)=R_z\) produces projective charts. The [[complex-analysis/projective-connections-form-an-affine-space|affine-space theorem for projective connections]] describes how any two such connections differ.
 
 ## Convention warning
 

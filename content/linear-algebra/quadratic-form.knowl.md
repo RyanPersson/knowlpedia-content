@@ -26,13 +26,19 @@ q(v)=\frac12B_q(v,v).
 \]
 Thus quadratic forms and symmetric bilinear forms determine one another in this setting. In characteristic \(2\), the quadratic form contains information not recoverable from its polarization.
 
-## Nondegeneracy
+## Polar radical and nondegeneracy
 
-The radical of \(q\) is the radical of \(B_q\):
+The **polar radical** of \(q\) is the radical of \(B_q\):
 \[
-\operatorname{rad}(q)=\{v\in V:B_q(v,w)=0\text{ for every }w\in V\}.
+\operatorname{rad}(B_q)
+=\{v\in V:B_q(v,w)=0\text{ for every }w\in V\}.
 \]
-The form is nondegenerate when this radical is zero.
+When \(2\) is invertible, \(q\) is called **nondegenerate** exactly when this
+radical is zero. In characteristic \(2\), authors use several related
+notions—regular, nonsingular, and nondegenerate—and may also require
+conditions on the restriction of \(q\) to its polar radical. Statements in
+that setting must specify the convention rather than referring to “the
+radical of \(q\)” without qualification.
 
 ## References
 

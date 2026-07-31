@@ -25,6 +25,10 @@ Two commonly used subgroups are:
 - \(SO(1,n-1)=\{A\in O(1,n-1)\mid \det A=1\}\) (the “special” Lorentz group),
 - the identity component \(SO^{+}(1,n-1)\), consisting of matrices preserving both orientation and a chosen [[differential-geometry/time-orientation|time orientation]].
 
+The identity component is also called the
+[[lie-groups/proper-orthochronous-lorentz-group|proper orthochronous Lorentz
+group]] (with the linked page treating the four-dimensional case).
+
 ## Lie algebra
 Its Lie algebra is the indefinite orthogonal Lie algebra
 \[

@@ -45,7 +45,7 @@ automorphism property therefore makes \(\mathcal S(\mathbb R^n)\) a common
 invariant domain for both operations. Taking the transpose of this
 automorphism defines the
 [[functional-analysis/fourier-transform-tempered-distributions|Fourier
-transform of [[functional-analysis/tempered-distribution|tempered distributions]]]].
+transform of tempered distributions]].
 
 ## Conventions and scope
 

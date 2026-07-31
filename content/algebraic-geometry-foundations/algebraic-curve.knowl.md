@@ -2,17 +2,17 @@
 id = "algebraic-geometry-foundations/algebraic-curve"
 title = "Algebraic curve"
 kind = "definition"
-summary = "A one-dimensional algebraic variety or scheme, with hypotheses such as smoothness and properness stated separately."
+summary = "A separated finite-type scheme of pure dimension one over a field."
 aliases = ["algebraic curve"]
 domains = ["algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-An **algebraic curve** over a field \(k\) is a
+In this knowl, an **algebraic curve** over a field \(k\) is a separated
 [[algebraic-geometry-foundations/scheme-over-a-base|scheme over \(k\)]] of
-dimension \(1\), usually assumed to be separated and of finite type. Some
-authors build reducedness, irreducibility, or geometric integrality into the
-term; those hypotheses must therefore be stated when they matter.
+finite type and pure dimension \(1\). Some authors additionally require a
+curve to be reduced, irreducible, or geometrically integral, so those
+hypotheses must be stated when they matter.
 
 ## Common refinements
 

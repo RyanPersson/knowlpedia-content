@@ -18,7 +18,7 @@ K(\mathcal H)=\overline{\{T\in B(\mathcal H):
 \operatorname{rank}T<\infty\}}^{\lVert\cdot\rVert}.
 \]
 It is a [[operator-algebras/closed-two-sided-ideal|norm-closed,
-adjoint-closed [[algebra-rings/two-sided-ideal|two-sided ideal]]]] in the
+adjoint-closed two-sided ideal]] in the
 [[operator-algebras/bounded-operator-cstar-algebra|bounded-operator algebra]]
 \(B(\mathcal H)\), and therefore a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]].
 It is unital exactly when \(\mathcal H\) is finite-dimensional.

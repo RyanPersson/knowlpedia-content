@@ -8,11 +8,17 @@ domains = ["algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-An **algebraic stack** (or **Artin stack**) is a stack in groupoids on a
-Grothendieck site whose diagonal is representable by algebraic spaces and
-which admits a smooth surjective atlas \(U\to\mathcal X\) from a scheme \(U\).
-The precise finiteness and topology conventions vary, so they should be stated
-in applications.
+Let \(S\) be a scheme. An **algebraic stack** (or **Artin stack**) over \(S\)
+is a stack in groupoids on the big fppf site of \(S\) such that:
+
+1. its diagonal is representable by
+   [[algebraic-geometry-foundations/algebraic-space|algebraic spaces]]; and
+2. there is a scheme \(U\) and a representable, smooth, surjective morphism
+   \(U\to\mathcal X\).
+
+The morphism \(U\to\mathcal X\) is a **smooth atlas**. Some conventions impose
+additional separation or finiteness conditions, which must be stated
+separately.
 
 Unlike a coarse moduli space, a stack retains the automorphism group of every
 object. This is essential for
@@ -27,10 +33,10 @@ geometric quotient exists, it generally forgets this information.
 
 ## Derived warning
 
-Modern geometric Langlands uses derived algebraic stacks. Their structure
-sheaves carry homotopical information beyond an ordinary Artin stack. The
-ordinary definition here is an entry point, not a replacement for that
-derived enhancement.
+Modern geometric Langlands often replaces ordinary algebraic stacks by
+[[algebraic-geometry-foundations/derived-algebraic-stack|derived algebraic
+stacks]], whose structure sheaves retain homotopical information. That is an
+additional structure, not part of the definition above.
 
 ## References
 

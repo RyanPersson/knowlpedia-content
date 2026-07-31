@@ -18,7 +18,7 @@ where the second isomorphism uses the existence of square roots in \(\mathbb C\)
 
 ## Action on triples
 
-The action on the Riemann sphere is sharply three-transitive: for any two ordered triples of distinct points, there is exactly one Möbius transformation carrying the first triple to the second. The [[complex-analysis/cross-ratio|cross-ratio]] is the corresponding invariant of ordered quadruples.
+The action on the Riemann sphere is [[complex-analysis/sharp-three-transitivity-of-mobius-group|sharply three-transitive]]: for any two ordered triples of distinct points, there is exactly one Möbius transformation carrying the first triple to the second. The [[complex-analysis/cross-ratio|cross-ratio]] is the corresponding invariant of ordered quadruples.
 
 ## Complex Lie group
 

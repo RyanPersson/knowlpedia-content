@@ -1,9 +1,9 @@
 +++
 id = "differential-geometry/category-of-symplectic-manifolds"
-title = "Category of symplectic manifolds"
+title = "Category of symplectic manifolds and symplectic maps"
 kind = "definition"
 summary = "The category whose objects are symplectic manifolds and whose morphisms preserve the symplectic forms by pullback."
-aliases = ["symplectic category with symplectic maps", "category of symplectic manifolds and symplectic maps"]
+aliases = ["category of symplectic manifolds", "symplectic manifolds and symplectic maps"]
 domains = ["differential-geometry", "category-theory"]
 section_mode = "progressive"
 +++
@@ -39,11 +39,9 @@ Keeping every object but only the isomorphisms gives the maximal subgroupoid of 
 
 This subgroupoid should **not** be called a “symplectic groupoid.” In standard symplectic geometry, a symplectic groupoid is a Lie groupoid whose arrow manifold carries a compatible multiplicative symplectic form, a substantially different structure.
 
-## Convention warning
+## Terminology
 
 Some sources reserve “symplectic map” for a symplectomorphism. Under that convention, their category is already a groupoid. The present corpus uses the broader pullback-preserving convention, under which a symplectic embedding of positive codimension is a morphism.
-
-Other useful organizations also exist. Symplectic manifolds and canonical relations form a relation-like category after suitable transversality or enhancement choices, while Poisson manifolds and Poisson maps form another category. Neither is the category defined above.
 
 ## References
 

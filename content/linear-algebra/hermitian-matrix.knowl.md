@@ -24,17 +24,9 @@ A=UDU^*.
 \]
 Conversely, every matrix of this form is Hermitian.
 
-## The two-by-two space
-
-The Hermitian \(2\times2\) matrices form a four-dimensional real vector space:
-\[
-\begin{pmatrix}
-t+z & x-iy\\
-x+iy & t-z
-\end{pmatrix},
-\qquad t,x,y,z\in\mathbb R.
-\]
-Its determinant is \(t^2-x^2-y^2-z^2\), which realizes the Minkowski quadratic form in a matrix model.
+The special role of \(2\times2\) Hermitian matrices in Lorentz geometry is
+treated by the [[lie-groups/hermitian-matrix-model-of-minkowski-space|Hermitian
+matrix model of Minkowski space]].
 
 ## References
 

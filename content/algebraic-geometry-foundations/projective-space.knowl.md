@@ -9,7 +9,7 @@ section_mode = "progressive"
 legacy_source_path = "algebraic-geometry-foundations/projective-space.md"
 +++
 
-Let \(V\) be a nonzero finite-dimensional [[linear-algebra/vector-space|vector space]] over a field \(k\). Using the convention that points are lines in \(V\), its **projective space** is the [[algebraic-geometry-foundations/scheme|scheme]]
+Let \(V\) be a nonzero finite-dimensional [[linear-algebra/vector-space|vector space]] over a field \(k\). Using the convention that points are lines in \(V\), its **projective space** is the [[algebraic-geometry-foundations/scheme|scheme]] obtained by the [[algebraic-geometry-foundations/proj|Proj construction]]
 \[
 \mathbb P(V):=\operatorname{Proj}\operatorname{Sym}(V^\vee).
 \]

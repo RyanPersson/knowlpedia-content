@@ -2,7 +2,7 @@
 id = "algebraic-geometry-foundations/d-module"
 title = "D-module"
 kind = "definition"
-summary = "A sheaf module over the sheaf of differential operators on a smooth variety or stack."
+summary = "A quasi-coherent sheaf module over the sheaf of differential operators on a smooth algebraic variety."
 aliases = ["D-module", "D module"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 section_mode = "progressive"
@@ -17,17 +17,19 @@ similarly.
 
 ## Flat connections
 
-An \(\mathcal O_X\)-coherent \(D\)-module is equivalently a vector bundle with
-integrable connection. General \(D\)-modules allow singularities and
-distribution-like objects, so they form a substantially larger category.
+An \(\mathcal O_X\)-coherent \(D\)-module is equivalently a finite-rank
+locally free \(\mathcal O_X\)-module with an
+[[algebraic-geometry-foundations/integrable-connection|integrable
+connection]]. General \(D\)-modules need not be coherent over
+\(\mathcal O_X\); they allow singularities and distribution-like objects.
 
 ## Stacks and derived categories
 
-For an algebraic stack such as
-\(\operatorname{Bun}_G\), the category \(D\text{-}\operatorname{mod}(X)\) is
-defined by descent from smooth charts and is treated as a stable derived
-category in modern geometric Langlands. Functorial operations are derived and
-require hypotheses on the maps.
+For a suitable algebraic stack \(\mathcal X\), \(D\)-modules can be defined by
+descent from smooth charts. In geometric Langlands,
+\(D\text{-}\operatorname{mod}(\mathcal X)\) usually denotes a stable derived
+category; its precise descent and functorial conventions must be fixed
+separately from the variety-level definition above.
 
 ## References
 

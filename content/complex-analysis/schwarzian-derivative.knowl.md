@@ -21,11 +21,11 @@ Writing \(u=f''/f'\), one has
 \[
 S(f)=u'-\frac12u^2.
 \]
-This form displays the nonlinear correction that makes the Schwarzian obey its special [[complex-analysis/schwarzian-chain-rule-and-mobius-characterization|composition law]].
+This form displays the nonlinear correction that makes the Schwarzian obey its special [[complex-analysis/schwarzian-chain-rule|composition law]].
 
 ## Geometric role
 
-The Schwarzian measures the failure of a locally univalent map to be projective-linear. Under changes of source coordinate it transforms as a [[complex-analysis/projective-connection|projective connection]] rather than as an ordinary function. It also relates ratios of solutions of second-order linear differential equations to complex projective structures.
+The Schwarzian measures the failure of a locally univalent map to be projective-linear: its vanishing [[complex-analysis/mobius-characterization-by-schwarzian|characterizes Möbius transformations]]. Under changes of source coordinate it transforms as a [[complex-analysis/projective-connection|projective connection]] rather than as an ordinary function. The [[complex-analysis/schwarzian-and-second-order-linear-odes|Schwarzian–ODE correspondence]] relates it to ratios of solutions of second-order linear differential equations.
 
 ## Scope
 

@@ -3,23 +3,28 @@ id = "algebraic-geometry-foundations/pointed-algebraic-curve"
 title = "Pointed algebraic curve"
 kind = "definition"
 summary = "An algebraic curve equipped with an ordered or labeled collection of marked points."
-aliases = ["marked algebraic curve", "punctured algebraic curve"]
+aliases = ["marked algebraic curve"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 section_mode = "progressive"
 +++
 
-A **pointed algebraic curve** is an
-[[algebraic-geometry-foundations/algebraic-curve|algebraic curve]] \(X\)
-together with marked sections \(x_1,\ldots,x_n\). Over a field, one often
-writes the associated reduced divisor as
+A **pointed algebraic curve** over a scheme \(S\) is a family of algebraic
+curves \(\pi:X\to S\) together with specified sections
+\(x_1,\ldots,x_n:S\to X\). Conditions such as pairwise disjointness of the
+sections or their passage through the smooth locus are additional hypotheses.
+
+Over a field, pairwise distinct rational marked points determine the reduced
+effective divisor
 \[
 D=x_1+\cdots+x_n
 \]
-and calls \(U=X\setminus D\) the punctured curve.
+and the complement
+[[algebraic-geometry-foundations/punctured-algebraic-curve|punctured curve]]
+\(U=X\setminus D\).
 
-The points may be ordered, labeled, or merely collected into a divisor; these
-are different moduli problems. Stability of a pointed curve is an additional
-condition, not part of the bare definition.
+The sections may be ordered, labeled, or merely collected into a divisor;
+these are different moduli problems. Stability is not part of the bare
+definition.
 
 ## Langlands role
 

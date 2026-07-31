@@ -12,15 +12,18 @@ Let \(M\) be a smooth manifold and let \(E\to M\) be a real vector bundle of
 rank \(q\). The **split supermanifold** associated to \(E\), often denoted
 \(\Pi E\), is
 \[
-\left(M,\ \Gamma_{\mathrm{loc}}\!\left(\Lambda E^*\right)\right).
+\Pi E=\left(M,\mathcal O_{\Pi E}\right),
+\qquad
+\mathcal O_{\Pi E}(U)
+=\Gamma\!\left(U,\Lambda E^*|_U\right)
 \]
-More explicitly, its structure sheaf sends an open set \(U\subseteq M\) to
-the supercommutative algebra
-\[
-\Gamma\!\left(U,\Lambda E^*|_U\right).
-\]
+for every open set \(U\subseteq M\).
 It has dimension \(\dim M|q\), and its nilpotent ideal \(\mathcal J\)
-satisfies \(\mathcal J/\mathcal J^2\cong\Gamma_{\mathrm{loc}}(E^*)\).
+satisfies the sheaf isomorphism
+\[
+\mathcal J/\mathcal J^2\cong\mathcal E^*,
+\]
+where \(\mathcal E^*\) is the sheaf of smooth sections of \(E^*\).
 
 The notation \(\Pi E\) indicates that fiber-linear functions have odd parity;
 it does not change the underlying topological space, which remains \(M\).

@@ -20,11 +20,11 @@ When \(m>0\), flat-spacetime plane waves satisfy \(\omega^2=|k|^2+m^2\). When \(
 \[
 (\Box_g+m^2+\xi\operatorname{Scal}_g)\phi=0.
 \]
-Minimal coupling means \(\xi=0\); conformal coupling uses a dimension-dependent value of \(\xi\).
+Here \(\operatorname{Scal}_g\) is the [[differential-geometry/scalar-curvature|scalar curvature]]. Minimal coupling means \(\xi=0\); [[mathematical-physics/conformal-coupling-of-a-scalar-field|conformal coupling]] uses the dimension-dependent coefficient that makes the massless equation conformally covariant.
 
 ## Initial data and propagation
 
-Because the Klein–Gordon operator is [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic]], its characteristics are null even when \(m>0\). On a [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetime]], \(\phi\) and its normal derivative on a spacelike Cauchy hypersurface determine a unique solution, with finite propagation speed.
+Because the Klein–Gordon operator is [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic]], its characteristics are null even when \(m>0\). Its global existence, uniqueness, and finite-propagation properties on globally hyperbolic spacetimes follow from the [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|Cauchy theorem for normally hyperbolic operators]].
 
 ## Relation to the Dirac equation
 

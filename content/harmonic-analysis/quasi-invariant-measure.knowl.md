@@ -26,7 +26,7 @@ defined [[measure-theory/almost-everywhere|almost everywhere]]. With consistent 
 
 For a closed subgroup \(H\leq G\), the
 [[harmonic-analysis/locally-compact-homogeneous-space|locally compact
-[[lie-groups/homogeneous-space|homogeneous space]]]] \(G/H\) always carries a natural quasi-invariant measure
+homogeneous space]] \(G/H\) always carries a natural quasi-invariant measure
 class under standard locally compact hypotheses, even when it has no
 \(G\)-invariant measure. This measure class is sufficient for quasi-regular
 and induced-representation constructions

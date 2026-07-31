@@ -13,7 +13,7 @@ Let \(\pi:A\to\mathcal B(H)\) be a
 \(C^*\)-algebra]]. It is a **factorial representation**, or **factor
 representation**, if its
 [[operator-algebras/von-neumann-algebra-generated-by-representation|generated
-[[operator-algebras/von-neumann-algebra|von Neumann algebra]]]]
+von Neumann algebra]]
 \[
 \pi(A)''
 \]

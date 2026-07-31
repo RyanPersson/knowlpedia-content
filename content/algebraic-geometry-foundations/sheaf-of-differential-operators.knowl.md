@@ -11,11 +11,17 @@ section_mode = "progressive"
 Let \(X\) be a smooth algebraic variety over a field of characteristic \(0\).
 The **sheaf of differential operators** \(\mathcal D_X\) is the sheaf of
 associative algebras generated locally by \(\mathcal O_X\) and the tangent
-sheaf \(\mathcal T_X\), subject to
+sheaf [[algebraic-geometry-foundations/tangent-sheaf|\(\mathcal T_X\)]]. Its
+relations include multiplication in \(\mathcal O_X\), the
+\(\mathcal O_X\)-module structure on \(\mathcal T_X\), and
 \[
-\xi f-f\xi=\xi(f)
+\xi f-f\xi=\xi(f),
+\qquad
+\xi\eta-\eta\xi=[\xi,\eta]
 \]
-for local functions \(f\) and vector fields \(\xi\).
+for local functions \(f\) and vector fields \(\xi,\eta\). Equivalently,
+\(\mathcal D_X\) is the universal enveloping algebra of the Lie algebroid
+\(\mathcal T_X\).
 
 It has the order filtration
 \(\mathcal D_X^{\leq0}\subseteq\mathcal D_X^{\leq1}\subseteq\cdots\), and the

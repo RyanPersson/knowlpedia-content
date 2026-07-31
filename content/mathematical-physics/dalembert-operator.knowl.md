@@ -34,7 +34,7 @@ which vanishes exactly on null covectors. Thus \(\Box_g\) is hyperbolic rather t
 
 ## Geometric role
 
-The operator is [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic]]. Its characteristic hypersurfaces are null, reflecting finite propagation speed. On a [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetime]], appropriate initial data on a spacelike Cauchy hypersurface determine a unique solution to the inhomogeneous wave equation, and advanced and retarded Green operators exist.
+The operator is [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic]]. A hypersurface is characteristic for \(\Box_g\) precisely where its conormal covector is null. This local symbol statement is distinct from the global [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|Cauchy theorem]] and the [[mathematical-physics/existence-of-advanced-and-retarded-green-operators|existence of advanced and retarded Green operators]], which require global hyperbolicity.
 
 ## Sign convention
 

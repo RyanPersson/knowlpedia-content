@@ -22,8 +22,8 @@ connected component.
 
 ## Transition matrices
 
-Two local frames over \(U_i\) and \(U_j\) differ on the overlap by an
-invertible matrix
+For a locally free sheaf of constant rank \(r\), two local frames over \(U_i\)
+and \(U_j\) differ on the overlap by an invertible matrix
 \[
 g_{ij}\in GL_r(\mathcal O_X(U_i\cap U_j)).
 \]

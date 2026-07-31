@@ -39,7 +39,7 @@ Thus powers of one elliptic operator encode simultaneous differentiability
 under every derived operator. More generally, the topology on \(H^\infty\)
 defined by the [[lie-groups/derived-representation-on-smooth-vectors|derived
 action]] of the [[lie-groups/universal-enveloping-algebra|universal
-[[lie-groups/universal-enveloping-algebra|enveloping algebra]]]] is equivalent to the graph topology defined by the
+enveloping algebra]] is equivalent to the graph topology defined by the
 powers of \(1+\overline{\Delta_\pi}\).
 
 ## Dependence on choices

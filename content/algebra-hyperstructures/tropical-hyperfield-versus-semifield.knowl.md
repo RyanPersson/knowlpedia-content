@@ -1,21 +1,21 @@
 +++
 id = "algebra-hyperstructures/tropical-hyperfield-versus-semifield"
-title = "Tropical hyperfield versus tropical semifield"
-kind = "comparison"
-summary = "The tropical semifield and hyperfield share max-plus multiplication but differ exactly at tied addition."
+title = "Tropical semifield and hyperfield tied-sum distinction"
+kind = "proposition"
+summary = "The tropical semifield and hyperfield share their carrier and multiplication but differ exactly at tied addition."
 aliases = ["tropical hyperfield and tropical semiring comparison"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
 section_mode = "progressive"
 +++
 
-The [[algebra-rings/tropical-semifield|tropical semifield]]
+On the common carrier \(\mathbb R\cup\{-\infty\}\), the
+[[algebra-rings/tropical-semifield|tropical semifield]]
 \(\mathbb T_{\mathrm{semi}}\) and the
 [[algebra-hyperstructures/tropical-hyperfield|tropical hyperfield]]
-\(\mathbb T_{\mathrm{hyp}}\) can both be presented on
-\(\mathbb R\cup\{-\infty\}\). They have the same multiplicative operation
+\(\mathbb T_{\mathrm{hyp}}\) have the same multiplicative operation
 \(x\odot y=x+y\), the same multiplicative identity \(0\), and the same
 absorbing/additive-zero element \(-\infty\). Their additions agree on unequal
-inputs but differ at a tie:
+inputs and differ precisely at a tie:
 \[
 x\oplus y=\max(x,y),
 \qquad

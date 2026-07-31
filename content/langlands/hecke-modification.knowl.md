@@ -3,12 +3,14 @@ id = "langlands/hecke-modification"
 title = "Hecke modification"
 kind = "definition"
 summary = "A change of a G-bundle at one point, given by an isomorphism away from that point."
-aliases = ["modification of a G-bundle", "elementary Hecke modification"]
+aliases = ["modification of a G-bundle"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a smooth curve, \(x\in X\), and \(E,E'\) principal \(G\)-bundles.
+Let \(X\) be a smooth curve, \(x\in X\), and \(E,E'\)
+[[algebraic-geometry-foundations/principal-g-bundle-on-scheme|principal
+\(G\)-bundles]].
 A **Hecke modification of \(E\) to \(E'\) at \(x\)** is an isomorphism
 \[
 \beta:E|_{X\setminus\{x\}}\xrightarrow{\sim}
@@ -21,10 +23,11 @@ Thus the bundles may differ at \(x\) but agree on its complement.
 After choosing a local coordinate and trivializations near \(x\), the
 modification gives a point of the
 [[langlands/affine-grassmannian|affine Grassmannian]]. Its
-\(G\lbrack\!\lbrack t\rbrack\!\rbrack\)-orbit, indexed by a dominant
-coweight \(\lambda\), is the relative position of the modification. The bound
-“relative position at most
-\(\lambda\)” uses the associated Schubert variety.
+\(G\lbrack\!\lbrack t\rbrack\!\rbrack\)-orbit, indexed by a
+[[langlands/dominant-coweight|dominant coweight]] \(\lambda\), is the
+relative position of the modification. The bound “relative position at most
+\(\lambda\)” uses the associated
+[[langlands/affine-schubert-variety|affine Schubert variety]].
 
 ## Example for GL_n
 

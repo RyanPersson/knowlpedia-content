@@ -15,7 +15,7 @@ c(v)c(w)+c(w)c(v)=-2g(v,w),
 \]
 and
 \[
-\Delta_g=-\operatorname{tr}_g\nabla d.
+\Box_g=-\operatorname{tr}_g\nabla d.
 \]
 Thus on Minkowski spacetime \(\Box=\partial_t^2-\sum_i\partial_i^2\). Every operator formula linked below uses this convention unless it explicitly says otherwise.
 
@@ -24,7 +24,14 @@ Thus on Minkowski spacetime \(\Box=\partial_t^2-\sum_i\partial_i^2\). Every oper
 - [[differential-geometry/pseudo-riemannian-manifold|Pseudo-Riemannian manifold]]
 - [[differential-geometry/lorentzian-manifold|Lorentzian manifold]]
 - [[differential-geometry/time-orientation|Time orientation]]
+- [[differential-geometry/causal-curve|Causal curve]]
+- [[differential-geometry/chronological-and-causal-future|Chronological and causal future]]
+- [[differential-geometry/strong-causality|Strong causality]]
+- [[differential-geometry/causal-diamond|Causal diamond]]
+- [[differential-geometry/cauchy-hypersurface|Cauchy hypersurface]]
 - [[differential-geometry/globally-hyperbolic-spacetime|Globally hyperbolic spacetime]]
+- [[differential-geometry/global-hyperbolicity-and-cauchy-hypersurfaces|Global hyperbolicity and Cauchy hypersurfaces]]
+- [[differential-geometry/smooth-splitting-of-globally-hyperbolic-spacetimes|Smooth splitting of globally hyperbolic spacetimes]]
 - [[linear-algebra/minkowski-vector-space|Minkowski vector space]]
 - [[mathematical-physics/minkowski-spacetime|Minkowski spacetime]]
 - [[lie-groups/lorentz-group|Lorentz group]]
@@ -41,15 +48,30 @@ Thus on Minkowski spacetime \(\Box=\partial_t^2-\sum_i\partial_i^2\). Every oper
 - [[differential-geometry/laplace-beltrami-operator|Laplace–Beltrami operator]]
 - [[mathematical-physics/dalembert-operator|d’Alembert operator]]
 - [[mathematical-physics/normally-hyperbolic-operator|Normally hyperbolic operator]]
+- [[mathematical-physics/connection-form-of-a-normally-hyperbolic-operator|Connection form of a normally hyperbolic operator]]
+- [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|Cauchy problem for normally hyperbolic operators]]
+- [[mathematical-physics/advanced-and-retarded-green-operators|Advanced and retarded Green operators]]
+- [[mathematical-physics/existence-of-advanced-and-retarded-green-operators|Existence of advanced and retarded Green operators]]
 - [[mathematical-physics/wave-equation|Wave equation]]
 - [[mathematical-physics/klein-gordon-operator|Klein–Gordon operator]]
 - [[mathematical-physics/klein-gordon-equation|Klein–Gordon equation]]
+- [[mathematical-physics/conformal-coupling-of-a-scalar-field|Conformal coupling of a scalar field]]
 
 ## Spinors and first-order fields
 
+- [[differential-geometry/spinor-module|Spinor module]]
+- [[differential-geometry/complex-clifford-module-classification|Classification of complex Clifford modules]]
+- [[differential-geometry/dirac-spinor|Dirac spinor]]
+- [[differential-geometry/weyl-spinor|Weyl spinor]]
+- [[differential-geometry/majorana-spinor|Majorana spinor]]
+- [[differential-geometry/majorana-weyl-spinor|Majorana–Weyl spinor]]
 - [[differential-geometry/lorentzian-spin-structure|Lorentzian spin structure]]
 - [[differential-geometry/lorentzian-spinor-bundle|Lorentzian spinor bundle]]
+- [[differential-geometry/chirality-operator|Chirality operator]]
 - [[mathematical-physics/gamma-matrices|Gamma matrices]]
+- [[mathematical-physics/clifford-slash-notation|Clifford slash notation]]
+- [[differential-geometry/lorentzian-dirac-operator|Lorentzian Dirac operator]]
+- [[mathematical-physics/cauchy-problem-for-the-lorentzian-dirac-operator|Cauchy problem for the Lorentzian Dirac operator]]
 - [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]]
 - [[mathematical-physics/dirac-equation|Dirac equation]]
 - [[mathematical-physics/dirac-klein-gordon-factorization|Dirac–Klein–Gordon factorization]]

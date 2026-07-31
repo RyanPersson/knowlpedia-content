@@ -28,7 +28,16 @@ The closed, nondegenerate form \(\omega\) makes \(M\) a [[differential-geometry/
 
 ## Morphisms
 
-There is no single convention for a “Kähler morphism.” A holomorphic map preserves only the complex structures, while a [[differential-geometry/holomorphic-isometric-immersion|holomorphic isometric immersion]] also preserves the metrics and Kähler forms. A strict isomorphism is a biholomorphic Riemannian isometry. These choices and the resulting category or groupoid are separated in [[differential-geometry/morphisms-between-kahler-manifolds|morphisms between Kähler manifolds]].
+There is no single convention for a “Kähler morphism,” so the preserved data
+must be named. A [[differential-geometry/holomorphic-map|holomorphic map]]
+preserves the complex structures but need not preserve the metrics or Kähler
+forms. A
+[[differential-geometry/holomorphic-isometric-immersion|holomorphic
+isometric immersion]], also called a Kähler immersion, additionally satisfies
+\(f^*g_N=g_M\), equivalently \(f^*\omega_N=\omega_M\). If such a map is a
+diffeomorphism, it is simultaneously a
+[[differential-geometry/biholomorphism|biholomorphism]], Riemannian isometry,
+and [[differential-geometry/symplectomorphism|symplectomorphism]].
 
 ## Examples and non-examples
 

@@ -29,6 +29,13 @@ Additive subtraction is different: the solutions of
 therefore not a field with a nondeterministically chosen sum; the whole set
 \(a\boxplus b\) is structural data.
 
+## Associated tract
+
+The [[algebra-hyperstructures/hyperfield-as-a-tract|tract associated with
+\(F\)]] retains precisely the finite hypersums that contain zero. This
+forgets the other values of a hyper-sum and does not identify arbitrary
+tracts with hyperfields.
+
 ## References
 
 1. Matthew Baker and Nathan Bowler, “Matroids over hyperfields,” 2017. [arXiv:1601.01204](https://arxiv.org/abs/1601.01204). Relevant: §2 and the standard examples.

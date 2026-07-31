@@ -122,9 +122,3 @@ This section covers the foundations of category theory, providing a unified lang
 - [[algebra-category-theory/symmetric-monoidal-category|Symmetric monoidal category]]
 - [[algebra-category-theory/algebra-object|Algebra object]]
 - [[algebra-category-theory/group-object|Group object]]
-
-## July 30 categorical applications
-
-- [[formal-groups|Formal groups]]
-- [[supergeometry|Supergeometry]]
-- [[langlands|Geometric Langlands]]

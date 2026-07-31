@@ -2,7 +2,7 @@
 id = "langlands/g-local-system"
 title = "G-local system"
 kind = "definition"
-summary = "A principal G-bundle with flat connection, or equivalently in the Betti setting a G-valued monodromy representation."
+summary = "A principal G-bundle with flat connection; over the complex numbers, Riemann-Hilbert comparison relates it to a G-valued monodromy representation."
 aliases = ["G local system", "principal G-local system"]
 domains = ["langlands", "fiber-bundles"]
 section_mode = "progressive"
@@ -26,14 +26,18 @@ up to conjugation.
 
 Analytic horizontal transport takes a de Rham local system to its monodromy
 representation. If \(X\) is smooth projective, the algebraic
-Riemann–Hilbert correspondence compares the de Rham and Betti moduli problems
-over \(\mathbb C\). More generally, for an open curve
+[[langlands/riemann-hilbert-correspondence|Riemann–Hilbert correspondence]]
+compares the de Rham and Betti moduli problems over
+\(\mathbb C\). More generally, for an open curve
 \(U\subset\overline X\), this comparison with ordinary Betti local systems
-applies to connections that are regular singular along
-\(\overline X\setminus U\). Irregular connections require enhanced Betti data,
-including Stokes data; ordinary monodromy alone does not recover them. Even in
-the regular-singular case, the comparison is analytic and does not identify
-the algebraic structures on the two moduli spaces.
+applies to connections that are
+[[langlands/regular-singular-connection|regular singular]] along
+\(\overline X\setminus U\).
+[[langlands/irregular-singular-connection|Irregular connections]] require
+enhanced Betti data, including [[langlands/stokes-data|Stokes data]];
+ordinary monodromy alone does not recover them. Even in the regular-singular
+case, the comparison is analytic and does not identify the algebraic
+structures on the two moduli spaces.
 
 ## Langlands role
 

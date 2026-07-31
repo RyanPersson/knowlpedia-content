@@ -8,26 +8,33 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a smooth curve and \(G\) a reductive algebraic group. The
-**moduli stack of \(G\)-local systems**, denoted
-\(\operatorname{LocSys}_G(X)\), parametrizes
-[[langlands/g-local-system|\(G\)-local systems]] on \(X\) in families.
+Let \(X\) be a smooth projective curve over a characteristic-zero field and
+let \(G\) be a reductive algebraic group. The de Rham **moduli stack of
+\(G\)-local systems** is the derived mapping stack
+\[
+\operatorname{LocSys}^{\mathrm{dR}}_G(X)
+=\operatorname{Map}(X_{\mathrm{dR}},BG).
+\]
+It parametrizes [[langlands/g-local-system|principal \(G\)-bundles with flat
+connection]] in families.
 
-In the de Rham version, its objects are principal \(G\)-bundles with flat
-connection. In the Betti version over \(\mathbb C\), it is modeled by the
+When \(X\) is a compact Riemann surface, the Betti moduli stack is the
 derived character stack
 \[
-\operatorname{Map}(X_{\mathrm{Betti}},BG),
+\operatorname{LocSys}^{\mathrm{B}}_G(X)
+=\operatorname{Map}(X_{\mathrm{Betti}},BG),
 \]
 whose classical points are representations of \(\pi_1(X)\) in \(G\) modulo
-conjugation.
+conjugation. Riemann–Hilbert comparison relates the analytifications of the
+de Rham and Betti stacks; it does not identify their algebraic structures.
 
 ## Why the derived stack matters
 
 Automorphisms and deformation-obstruction groups are part of the moduli
-problem. The derived enhancement records them and makes
-\(\operatorname{LocSys}_G\) quasi-smooth in the setting used to define
-nilpotent singular support.
+problem. The derived enhancement records them. For a smooth projective curve,
+\(\operatorname{LocSys}^{\mathrm{dR}}_G(X)\) is quasi-smooth, so coherent
+sheaves on it have a
+[[langlands/singular-support-of-coherent-sheaf|singular support]].
 
 ## Spectral role
 
