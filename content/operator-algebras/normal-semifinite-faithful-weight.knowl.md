@@ -30,8 +30,7 @@ Normality requires
 \]
 Faithfulness excludes nonzero positive elements of weight zero. Each
 condition is independent and must be checked separately; the conjunction is
-the standard one used in modular theory
-[Takesaki, vol. II, Chapter VII, §1].
+the standard one used in modular theory.
 
 ## Examples
 

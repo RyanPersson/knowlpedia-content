@@ -23,8 +23,7 @@ An [[operator-algebras/imprimitivity-bimodule|imprimitivity bimodule]] places
 \(\sigma\)-unitality hypothesis supplies enough countable matrix units to
 identify these full corners with the stabilized linking algebra. Conversely,
 isomorphic stabilizations are Morita equivalent, and each algebra is Morita
-equivalent to its stabilization. This is the main result of
-[Brown–Green–Rieffel].
+equivalent to its stabilization. This is the main result of.
 
 ## Consequences and examples
 

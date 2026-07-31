@@ -26,7 +26,7 @@ for all \(a,b\in\mathcal A\). In even parity the grading \(\Gamma\) commutes wit
 
 The order-zero condition makes \(H\) an \(\mathcal A\)-bimodule, with \(a\xi b=ab^\circ\xi\). The first-order condition says that each [[functional-analysis/bounded-commutator|bounded commutator]] \([D,a]\) is right \(\mathcal A\)-linear. Together they abstract the fact that a [[noncommutative-geometry/dirac-operator|Dirac operator]] is first-order.
 
-The parity of the spectral triple and its KO-dimension are distinct: parity records whether a grading is present, whereas KO-dimension records the signs of \(J\) with \(D\) and, when present, \(\Gamma\) [Connes and Marcolli, Definition 1.124].
+The parity of the spectral triple and its KO-dimension are distinct: parity records whether a grading is present, whereas KO-dimension records the signs of \(J\) with \(D\) and, when present, \(\Gamma\).
 
 ## Canonical example and scope
 

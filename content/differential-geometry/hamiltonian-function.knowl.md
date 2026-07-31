@@ -33,7 +33,7 @@ A constant Hamiltonian generates the zero vector field. A vector field preservin
 
 ## Conventions
 
-**Warning.** Some authors define \(X_H\) by \(\iota_{X_H}\omega=-dH\). That choice reverses the displayed coordinate formula and changes related Poisson-bracket signs. The convention must therefore be fixed before comparing formulas. This knowl uses the convention in [Abraham and Marsden, §3.3].
+**Warning.** Some authors define \(X_H\) by \(\iota_{X_H}\omega=-dH\). That choice reverses the displayed coordinate formula and changes related Poisson-bracket signs. The convention must therefore be fixed before comparing formulas.
 
 ## References
 

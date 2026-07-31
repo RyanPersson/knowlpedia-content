@@ -29,8 +29,7 @@ information.
 The local index formula uses residues of the functions \(\zeta_b\) to build
 cyclic cocycles. Regularity alone supplies the algebra \(\mathcal B\), but it
 does not imply the required meromorphic continuation. Discreteness and bounds
-on pole order are separate analytic hypotheses
-[Connes–Moscovici, §§II and III].
+on pole order are separate analytic hypotheses.
 
 ## Conventions and scope
 

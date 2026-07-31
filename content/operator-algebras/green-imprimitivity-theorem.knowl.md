@@ -27,8 +27,7 @@ are [[operator-algebras/strong-morita-equivalence|strongly Morita equivalent]] t
 The Green bimodule implements [[operator-algebras/rieffel-induction|Rieffel induction]] between the [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] categories of the two
 crossed products. Under the crossed-product/covariant-representation
 correspondence, this recovers induction from \(H\)-covariant representations
-to \(G\)-covariant representations. The precise construction and inner
-products are developed in [Williams, Chapter 4].
+to \(G\)-covariant representations.
 
 ## Homogeneous-space form
 

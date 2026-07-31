@@ -30,8 +30,7 @@ Normality is equivalent to the existence of a bounded preadjoint
 \qquad(\omega\in N_*,\ x\in M).
 \]
 This makes normal CP maps compatible with the intrinsic preduals of von
-Neumann algebras. The order and predual characterizations of normality are
-developed in [Takesaki, Chapter III, §§2–3].
+Neumann algebras.
 
 ## Examples and closure properties
 

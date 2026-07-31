@@ -24,7 +24,7 @@ If \(f\pitchfork S\), then \(f^{-1}(S)\) is an embedded submanifold of \(M\), wi
 \[
 T_xf^{-1}(S)=(df_x)^{-1}(T_{f(x)}S)
 \]
-and codimension equal to \(\operatorname{codim}_N S\). This is the transverse-preimage theorem [Hirsch, Chapter 3].
+and codimension equal to \(\operatorname{codim}_N S\). This is the transverse-preimage theorem.
 
 ## Examples and non-examples
 

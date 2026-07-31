@@ -35,7 +35,7 @@ The covariant Hodge Laplacian has a Weitzenböck decomposition
 \]
 where the last two terms are zeroth-order actions of the Riemannian curvature and the curvature of \(A\). Thus the distinction between \(\Delta_A\) and the rough connection Laplacian is precisely a curvature correction. This is why “connection Laplacian” is not used here as an unqualified alias.
 
-In [[fiber-bundles/gauge-theory|gauge theory]], the operator and its gauge-fixed variants control infinitesimal deformations and regularity of connections [Freed–Uhlenbeck, chapter 2].
+In [[fiber-bundles/gauge-theory|gauge theory]], the operator and its gauge-fixed variants control infinitesimal deformations and regularity of connections.
 
 ## References
 

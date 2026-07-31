@@ -33,8 +33,7 @@ under the usual group hypotheses, to a
 [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact
 subgroup]] \(K\). The space \(\mathfrak p\) models the [[differential-geometry/tangent-space|tangent space]] at the
 base point of the [[lie-groups/homogeneous-space|homogeneous space]] \(G/K\). The bracket inclusions are the
-infinitesimal algebraic signature of its symmetric-space geometry
-[Helgason, Chapter V].
+infinitesimal algebraic signature of its symmetric-space geometry.
 
 ## Example
 

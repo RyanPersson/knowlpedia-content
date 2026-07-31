@@ -30,8 +30,7 @@ homogeneous space]] for a closed subgroup \(H\), Mackey's [[harmonic-analysis/ma
 theorem]] classifies systems based on \(G/H\) by unitary representations of
 \(H\). The associated representation of \(G\) is induced from \(H\), and
 \(P(E)\) acts by multiplication by the indicator of \(E\). This equivalence
-is the main bridge between induction and spectral localization
-[Mackey, pp. 537–545].
+is the main bridge between induction and spectral localization.
 
 ## Examples and non-examples
 

@@ -12,7 +12,7 @@ A **Montel space** is a Hausdorff [[functional-analysis/barreled-space|barreled 
 
 ## Structural consequences
 
-Every Montel space is complete and reflexive as a [[functional-analysis/locally-convex-space|locally convex space]]: the canonical map into the strong bidual is a topological isomorphism. Bounded sets have strong compactness properties, so bounded nets possess convergent subnets after taking closure. These results combine the semi-Montel compactness condition with barreledness [Schaefer–Wolff, Chapter IV, §6].
+Every Montel space is complete and reflexive as a [[functional-analysis/locally-convex-space|locally convex space]]: the canonical map into the strong bidual is a topological isomorphism. Bounded sets have strong compactness properties, so bounded nets possess convergent subnets after taking closure. These results combine the semi-Montel compactness condition with barreledness.
 
 ## Examples and non-examples
 

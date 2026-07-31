@@ -40,7 +40,7 @@ Suppose \(S\) is a [[functional-analysis/closable-operator|closable operator]] w
 \(D\). Then \(D\) is a core for \(T\) exactly when \(\overline S=T\). In
 particular, proving that a proposed test domain is a core justifies checking
 identities and approximation arguments there before passing to the full
-domain [Schmüdgen, Chapter 1].
+domain.
 
 ## Warning: ambient density versus graph density
 

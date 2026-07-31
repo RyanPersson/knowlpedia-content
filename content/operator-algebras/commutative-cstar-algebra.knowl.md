@@ -41,7 +41,7 @@ a\longmapsto\widehat a,\qquad \widehat a(\chi)=\chi(a),
 \]
 is an isometric \(*\)-isomorphism \(A\cong C_0(\widehat A)\). Conversely,
 evaluation at points recovers the character space of \(C_0(X)\). This is the
-commutative Gelfand--Naimark theorem [Murphy, Chapter 2].
+commutative Gelfand--Naimark theorem.
 
 ## Subalgebras and generated examples
 

@@ -24,7 +24,7 @@ To obtain the standard real spectral-triple axioms, this right action must satis
 
 ## Meaning of the data
 
-The antiunitary \(J\) abstracts charge conjugation on spinors. The formula for \(b^\circ\) turns the [[linear-algebra/hilbert-space|Hilbert space]] into a candidate \(\mathcal A\)-bimodule: the represented algebra acts from the left and its opposite algebra acts from the right. The KO-sign relations record the real Clifford-module behavior of \(J\), \(D\), and the grading [Connes and Marcolli, Definition 1.124].
+The antiunitary \(J\) abstracts charge conjugation on spinors. The formula for \(b^\circ\) turns the [[linear-algebra/hilbert-space|Hilbert space]] into a candidate \(\mathcal A\)-bimodule: the represented algebra acts from the left and its opposite algebra acts from the right. The KO-sign relations record the real Clifford-module behavior of \(J\), \(D\), and the grading.
 
 Multiplying \(J\) by a complex scalar of modulus one does not change \(J^2\), because \(J\) is antilinear.
 

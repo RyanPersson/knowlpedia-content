@@ -25,7 +25,7 @@ A K3 surface carries a nowhere-vanishing holomorphic \(2\)-form and is the basic
 
 ## Relation to hyperkähler terminology
 
-An **[[differential-geometry/irreducible-holomorphic-symplectic-manifold|irreducible holomorphic symplectic manifold]]** is usually required to be compact, Kähler, and simply connected, with \(H^0(X,\Omega_X^2)\) spanned by its symplectic form. Under these hypotheses it corresponds to the compact irreducible hyperkähler setting [Huybrechts, §1].
+An **[[differential-geometry/irreducible-holomorphic-symplectic-manifold|irreducible holomorphic symplectic manifold]]** is usually required to be compact, Kähler, and simply connected, with \(H^0(X,\Omega_X^2)\) spanned by its symplectic form. Under these hypotheses it corresponds to the compact irreducible hyperkähler setting.
 
 **Warning.** Some authors use “holomorphic symplectic” or “hyperkähler” only for this compact irreducible class. The definition in this knowl is broader and includes noncompact [[fiber-bundles/cotangent-bundle|cotangent bundles]], complex tori, and products.
 

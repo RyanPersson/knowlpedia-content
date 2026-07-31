@@ -39,8 +39,7 @@ boundary relation
 whenever the terms are in the weight's finite domains. This is the
 Kubo–Martin–Schwinger condition at inverse temperature \(1\), and it
 characterizes the modular dynamics under the standard continuity and
-faithfulness hypotheses
-[Takesaki, vol. II, Chapter VIII, §1].
+faithfulness hypotheses.
 
 ## Traces and inner modular flows
 
@@ -63,8 +62,7 @@ Different [[operator-algebras/normal-semifinite-faithful-weight|n.s.f. weights]]
 Connes's Radon–Nikodym cocycle relates them by a time-dependent inner
 perturbation, so their images in the [[algebra-groups/outer-automorphism-group|outer automorphism group]] agree in the
 appropriate sense. This weight-independent outer flow underlies the flow of
-weights and type III classification
-[Takesaki, vol. II, Chapter VIII].
+weights and type III classification.
 
 ## Conventions and scope
 

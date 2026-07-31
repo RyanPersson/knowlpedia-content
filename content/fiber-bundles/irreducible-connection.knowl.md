@@ -26,7 +26,7 @@ For a [[fiber-bundles/hermitian-connection|unitary connection]] on a Hermitian [
 
 ## Role in moduli spaces
 
-Irreducible connections form the locus of minimal isotropy for the gauge action. After dividing out the central subgroup, the action is free there; combined with an analytic gauge slice, this makes gauge quotients locally manifold-like. Reducible connections instead produce singular or stratified points. This role is treated in [Freed–Uhlenbeck, Chapter 3] and [Donaldson–Kronheimer, §4.2].
+Irreducible connections form the locus of minimal isotropy for the gauge action. After dividing out the central subgroup, the action is free there; combined with an analytic gauge slice, this makes gauge quotients locally manifold-like. Reducible connections instead produce singular or stratified points.
 
 ## Examples and conventions
 

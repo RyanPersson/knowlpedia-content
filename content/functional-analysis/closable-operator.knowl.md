@@ -25,8 +25,7 @@ An operator is closable exactly when it has at least one closed extension. If
 \(S\) is any closed extension of \(T\), then
 \(\overline T\subseteq S\), including containment of domains. An operator is
 already closed precisely when \(T=\overline T\). These statements concern
-graph closure, not merely closure of \(\operatorname{Dom}(T)\) in \(H\)
-[Kato, Chapter III, §5].
+graph closure, not merely closure of \(\operatorname{Dom}(T)\) in \(H\).
 
 ## Adjoint criterion
 

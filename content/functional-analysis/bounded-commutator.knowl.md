@@ -44,8 +44,7 @@ In a [[noncommutative-geometry/spectral-triple|spectral triple]]
 estimate above. The same symbol is then used for its unique extension to
 \(H\). Requiring only a bounded form commutator, or defining the expression on
 a smaller core, gives a variant of the axiom and should not be silently
-identified with this convention
-[Connes and Moscovici, opening spectral-triple convention].
+identified with this convention.
 
 ## Examples and scope
 

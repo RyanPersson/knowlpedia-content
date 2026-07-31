@@ -36,7 +36,7 @@ for the [[operator-algebras/ultraweak-topology|ultraweak topology]]: if
 Equivalently, every sublevel set
 \(\{x\in M_+:\varphi(x)\leq c\}\) is ultraweakly closed. This equivalence is
 specific to the von Neumann algebra setting and its order-complete positive
-cone [Takesaki, vol. I, Chapter VII, §1].
+cone.
 
 ## Tests and consequences
 

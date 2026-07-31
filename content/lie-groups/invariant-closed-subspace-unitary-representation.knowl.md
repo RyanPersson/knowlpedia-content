@@ -24,7 +24,7 @@ The restriction \(\pi|_M:G\to U(M)\) is again strongly continuous: each [[fiber-
 
 ## Irreducibility and decomposition
 
-The representation is **irreducible** when its only invariant closed subspaces are \(\{0\}\) and \(\mathcal H\). Closedness matters in infinite dimension: an invariant dense proper [[convex-analysis/linear-subspace|linear subspace]] does not contradict unitary irreducibility. Direct-sum and direct-integral decomposition theory studies representations through families of invariant closed subspaces and their associated projections [Folland, §3.1].
+The representation is **irreducible** when its only invariant closed subspaces are \(\{0\}\) and \(\mathcal H\). Closedness matters in infinite dimension: an invariant dense proper [[convex-analysis/linear-subspace|linear subspace]] does not contradict unitary irreducibility. Direct-sum and direct-integral decomposition theory studies representations through families of invariant closed subspaces and their associated projections.
 
 ## Conventions and scope
 

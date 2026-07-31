@@ -28,7 +28,7 @@ A form is **harmonic** when \(\Delta\alpha=0\). On a compact manifold without bo
 \quad\Longleftrightarrow\quad
 d\alpha=0\ \text{and}\ \delta\alpha=0.
 \]
-The [[differential-geometry/hodge-theorem|Hodge theorem]] then identifies each de Rham cohomology class with a unique harmonic representative [Wells, chapter IV, §2].
+The [[differential-geometry/hodge-theorem|Hodge theorem]] then identifies each de Rham cohomology class with a unique harmonic representative.
 
 On a noncompact manifold or a [[differential-geometry/manifold-with-boundary|manifold with boundary]], the differential expression is unchanged, but kernel, self-adjointness, and cohomological conclusions depend on domains, completeness, and boundary conditions.
 

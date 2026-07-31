@@ -16,7 +16,7 @@ where \(PuP:P(H^n)\to P(H^n)\) is Breuer-Fredholm. In even parity, a projection 
 
 ## Spectral-flow realization
 
-For the odd pairing, the Breuer index can equivalently be computed as the semifinite [[noncommutative-geometry/spectral-flow|spectral flow]] from \(D\) to \(uDu^*\), with the sign determined by the orientation of the chosen path. This equality is the analytic bridge between K-theory and the trace-valued crossing count [Carey and Phillips, Theorems 1.9 and 2.17].
+For the odd pairing, the Breuer index can equivalently be computed as the semifinite [[noncommutative-geometry/spectral-flow|spectral flow]] from \(D\) to \(uDu^*\), with the sign determined by the orientation of the chosen path. This equality is the analytic bridge between K-theory and the trace-valued crossing count.
 
 The pairing depends only on the K-theory class and the homotopy class of the semifinite [[noncommutative-geometry/fredholm-module|Fredholm module]], provided the usual matrix amplification and unitization conventions are used.
 

@@ -30,7 +30,7 @@ This formulation explains why orientation enters the displayed integral. An equi
 
 Completing compactly supported smooth \(E\)-valued forms in this norm gives the [[linear-algebra/hilbert-space|Hilbert space]] \(L^2\Omega^k(M;E)\). On a compact manifold every smooth form has finite \(L^2\)-norm; on a noncompact manifold finite norm is an additional condition.
 
-The pairing defines formal adjoints of covariant differential operators by [[real-analysis/integration-by-parts|integration by parts]]. In [[fiber-bundles/gauge-theory|gauge theory]], applying it to \(\operatorname{ad}P\)-valued curvature gives the Yang–Mills energy, and applying it to infinitesimal changes of a connection gives the standard weak Riemannian metric on the space of connections [Freed–Uhlenbeck, Chapter 2].
+The pairing defines formal adjoints of covariant differential operators by [[real-analysis/integration-by-parts|integration by parts]]. In [[fiber-bundles/gauge-theory|gauge theory]], applying it to \(\operatorname{ad}P\)-valued curvature gives the Yang–Mills energy, and applying it to infinitesimal changes of a connection gives the standard weak Riemannian metric on the space of connections.
 
 ## Examples and scope
 

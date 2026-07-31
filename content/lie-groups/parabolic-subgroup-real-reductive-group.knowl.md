@@ -29,8 +29,6 @@ parabolic subgroups \(P_F\);
 inclusion of subsets gives inclusion of the corresponding parabolics. Every
 parabolic subgroup is conjugate to a standard one. These statements, including
 the passage between parabolic subalgebras and subgroups, are proved for the
-usual real reductive class in
-[Knapp, Chapter VII, §7].
 
 ## Internal structure and representation theory
 

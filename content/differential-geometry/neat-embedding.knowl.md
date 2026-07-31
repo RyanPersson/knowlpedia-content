@@ -20,7 +20,7 @@ Thus interior points map to the interior, boundary points map to the boundary, a
 
 ## Image characterization
 
-The image of a neat embedding is a [[differential-geometry/neat-submanifold|neat submanifold]], and the embedding identifies \(N\) diffeomorphically with that image. Conversely, the inclusion of a neat submanifold is a neat embedding. Boundary-adapted coordinates put the map locally into the standard linear inclusion of one half-space into another [Hirsch, Chapter 4].
+The image of a neat embedding is a [[differential-geometry/neat-submanifold|neat submanifold]], and the embedding identifies \(N\) diffeomorphically with that image. Conversely, the inclusion of a neat submanifold is a neat embedding. Boundary-adapted coordinates put the map locally into the standard linear inclusion of one half-space into another.
 
 ## Examples and non-examples
 
@@ -28,7 +28,7 @@ The inclusion of a diameter \([-1,1]\hookrightarrow D^2\) is neat: its two bound
 
 ## Conventions and scope
 
-Some treatments add properness, closed image, or a prescribed product form in collars to the term “neat embedding.” Those global additions are useful in relative embedding and tubular-neighborhood theorems, but they are stronger than the local boundary compatibility stated here. The convention should therefore be checked when compactness is absent [Lee, Chapter 5].
+Some treatments add properness, closed image, or a prescribed product form in collars to the term “neat embedding.” Those global additions are useful in relative embedding and tubular-neighborhood theorems, but they are stronger than the local boundary compatibility stated here. The convention should therefore be checked when compactness is absent.
 
 ## References
 

@@ -21,7 +21,7 @@ The conclusion holds in every degree and is natural with respect to composition 
 
 ## Consequences
 
-A smooth [[topology/homotopy-equivalence|homotopy equivalence]] induces an isomorphism on de Rham cohomology. In particular, a smooth deformation retract has the same de Rham cohomology as the retract. This makes \(H_{\mathrm{dR}}^*\) a [[algebra-category-theory/contravariant-functor|contravariant functor]] on the smooth homotopy category, not merely on the [[differential-geometry/category-of-smooth-manifolds|category of smooth manifolds]] [Bott–Tu, Chapter I, §4].
+A smooth [[topology/homotopy-equivalence|homotopy equivalence]] induces an isomorphism on de Rham cohomology. In particular, a smooth deformation retract has the same de Rham cohomology as the retract. This makes \(H_{\mathrm{dR}}^*\) a [[algebra-category-theory/contravariant-functor|contravariant functor]] on the smooth homotopy category, not merely on the [[differential-geometry/category-of-smooth-manifolds|category of smooth manifolds]].
 
 ## Canonical example
 
@@ -34,7 +34,7 @@ At the level of forms, the same homotopy operator supplies primitives for closed
 
 ## Scope
 
-The theorem concerns smooth homotopies and ordinary de Rham cohomology. A continuous homotopy between smooth maps can be replaced by a smooth one under the standard smoothing theorem, but that extra step is not part of the chain-homotopy formula. Compact-support, relative, and boundary-condition variants require the homotopy operator to preserve the relevant support or restriction conditions [Tu, Chapter 17].
+The theorem concerns smooth homotopies and ordinary de Rham cohomology. A continuous homotopy between smooth maps can be replaced by a smooth one under the standard smoothing theorem, but that extra step is not part of the chain-homotopy formula. Compact-support, relative, and boundary-condition variants require the homotopy operator to preserve the relevant support or restriction conditions.
 
 ## References
 

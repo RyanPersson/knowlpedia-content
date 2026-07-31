@@ -12,7 +12,7 @@ Let \(M\) and \(N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]], and l
 
 ## Proof mechanism
 
-A proper [[topology/continuous-map|continuous map]] between manifolds is closed. Since \(f\) is also injective, the induced bijection \(M\to f(M)\) is a closed map and hence a homeomorphism. The immersion condition then provides the required local smooth normal form. Thus properness solves the global topology problem, while immersion solves the local differential problem [Lee, Chapter 4].
+A proper [[topology/continuous-map|continuous map]] between manifolds is closed. Since \(f\) is also injective, the induced bijection \(M\to f(M)\) is a closed map and hence a homeomorphism. The immersion condition then provides the required local smooth normal form. Thus properness solves the global topology problem, while immersion solves the local differential problem.
 
 ## Why properness matters
 

@@ -25,7 +25,7 @@ The compact commutator \([P,\pi(a)]\) implies that
 \[
 P_n\pi_n(u^{-1})P_n
 \]
-is a two-sided inverse to \(P_n\pi_n(u)P_n\) modulo [[linear-algebra/compact-operator|compact operators]]. Atkinson's characterization therefore makes the compression Fredholm. Homotopy of \(u\), stabilization, compact perturbation of \(F\), and stable homotopy of the cycle preserve its index. Hence the formula descends to [[operator-algebras/k1-cstar-algebra|\(K_1(A)\)]] and odd [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]. [Connes, Chapter IV, Section 1, Proposition 2(b)].
+is a two-sided inverse to \(P_n\pi_n(u)P_n\) modulo [[linear-algebra/compact-operator|compact operators]]. Atkinson's characterization therefore makes the compression Fredholm. Homotopy of \(u\), stabilization, compact perturbation of \(F\), and stable homotopy of the cycle preserve its index. Hence the formula descends to [[operator-algebras/k1-cstar-algebra|\(K_1(A)\)]] and odd [[noncommutative-geometry/analytic-k-homology|analytic K-homology]].
 
 The same construction works with an invertible representative. For a \(C^*\)-algebra, polar decomposition lets one use unitary representatives without changing the \(K_1\)-class.
 

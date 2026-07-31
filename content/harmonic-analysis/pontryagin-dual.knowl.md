@@ -24,7 +24,7 @@ Each \(x\in G\) defines a character on \(\widehat G\) by evaluation, \(\chi\maps
 \[
 G\longrightarrow\widehat{\widehat G},\qquad x\longmapsto(\chi\mapsto\chi(x)),
 \]
-is an isomorphism of [[topology/topological-group|topological groups]]. The compact-open topology is essential: the statement is stronger than an abstract [[algebra-groups/group-isomorphism|group isomorphism]] [Rudin, Chapter 1].
+is an isomorphism of [[topology/topological-group|topological groups]]. The compact-open topology is essential: the statement is stronger than an abstract [[algebra-groups/group-isomorphism|group isomorphism]].
 
 ## Basic examples
 

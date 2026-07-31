@@ -40,7 +40,7 @@ In \(\mathbb R^{2n}\) with coordinates \((q_1,\ldots,q_n,p_1,\ldots,p_n)\) and s
 
 ## Conventions and scope
 
-The notation \(W^\omega\) records the dependence on the form and is preferable when several [[linear-algebra/bilinear-form|bilinear forms]] are present. Some authors write \(W^\perp\), \(W^{\perp_\omega}\), or “skew orthogonal.” In infinite-dimensional spaces, dimension formulas and the double-complement identity can fail without topological closure or additional nondegeneracy hypotheses. See [Cannas da Silva, §1.1].
+The notation \(W^\omega\) records the dependence on the form and is preferable when several [[linear-algebra/bilinear-form|bilinear forms]] are present. Some authors write \(W^\perp\), \(W^{\perp_\omega}\), or “skew orthogonal.” In infinite-dimensional spaces, dimension formulas and the double-complement identity can fail without topological closure or additional nondegeneracy hypotheses.
 
 ## References
 

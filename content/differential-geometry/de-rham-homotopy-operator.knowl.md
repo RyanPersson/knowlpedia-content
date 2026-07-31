@@ -21,7 +21,7 @@ It is therefore a concrete [[algebra-homological/chain-homotopy|chain homotopy]]
 
 ## Chain-homotopy interpretation
 
-The endpoint pullbacks \(F_0^*\) and \(F_1^*\) are cochain maps between [[differential-geometry/de-rham-complex|de Rham complexes]]. The displayed identity says precisely that \(K_F\) is a cochain homotopy between them. It follows that smoothly homotopic maps induce the same homomorphism on de Rham cohomology [Tu, Chapter 17].
+The endpoint pullbacks \(F_0^*\) and \(F_1^*\) are cochain maps between [[differential-geometry/de-rham-complex|de Rham complexes]]. The displayed identity says precisely that \(K_F\) is a cochain homotopy between them. It follows that smoothly homotopic maps induce the same homomorphism on de Rham cohomology.
 
 The formula follows from Cartan's identity for the [[fiber-bundles/lie-derivative|Lie derivative]] and the fundamental theorem of calculus applied in the interval direction. Reversing the orientation of \([0,1]\) or defining contraction with the opposite product order changes the overall sign.
 
@@ -31,7 +31,7 @@ On a star-shaped open set \(U\subseteq\mathbb R^n\), the radial homotopy \(F(x,t
 \[
 \omega=d(K_F\omega),
 \]
-because pullback by the constant endpoint vanishes in positive degree. This is the standard homotopy-operator proof of the [[differential-geometry/poincare-lemma|Poincaré lemma]] [Bott–Tu, Chapter I].
+because pullback by the constant endpoint vanishes in positive degree. This is the standard homotopy-operator proof of the [[differential-geometry/poincare-lemma|Poincaré lemma]].
 
 ## Scope
 

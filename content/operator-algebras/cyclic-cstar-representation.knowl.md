@@ -20,7 +20,7 @@ A vector is cyclic for \(\pi(A)\) if and only if it is separating for the [[oper
 
 ## Sources of cyclic representations
 
-The [[operator-algebras/gns-construction|GNS construction]] associated with a [[operator-algebras/positive-linear-functional|positive linear functional]] produces a cyclic representation whose distinguished cyclic vector recovers the functional as a vector functional. Conversely, every cyclic representation with a chosen unit cyclic vector yields a state \(a\mapsto\langle\pi(a)\xi,\xi\rangle\). This correspondence is treated in [Murphy, section 3.3].
+The [[operator-algebras/gns-construction|GNS construction]] associated with a [[operator-algebras/positive-linear-functional|positive linear functional]] produces a cyclic representation whose distinguished cyclic vector recovers the functional as a vector functional. Conversely, every cyclic representation with a chosen unit cyclic vector yields a state \(a\mapsto\langle\pi(a)\xi,\xi\rangle\).
 
 ## Examples and limits
 

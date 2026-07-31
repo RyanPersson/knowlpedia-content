@@ -25,8 +25,7 @@ The difficult direction begins with only the \(C^*\)-algebra operations, norm,
 and an isometric identification \(M=E^*\). Sakai's theorem shows that the
 resulting [[functional-analysis/weak-star-topology|weak-star topology]] is compatible with multiplication and
 involution, identifies the [[operator-algebras/normal-functional|normal functionals]], and yields a concrete
-weak-operator-closed realization
-[Sakai, Theorem 1.16.7].
+weak-operator-closed realization.
 Conversely, the canonical predual of any concrete von Neumann algebra makes
 it a Banach dual.
 

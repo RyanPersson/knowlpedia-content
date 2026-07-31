@@ -31,7 +31,7 @@ In four dimensions, decompose \(F_A=F_A^++F_A^-\) using the Hodge star. The Cher
 \[
 \|F_A^-\|_{L^2}^2-\|F_A^+\|_{L^2}^2
 \]
-with the present orientation and trace conventions. The Yang–Mills energy is the corresponding sum. Hence self-dual or [[fiber-bundles/self-dual-and-anti-self-dual-connection|anti-self-dual connections]] saturate a topological [[shared-foundations/lower-bound|lower bound]] proportional to \(|k(E)|\) [Donaldson–Kronheimer, §2.1].
+with the present orientation and trace conventions. The Yang–Mills energy is the corresponding sum. Hence self-dual or [[fiber-bundles/self-dual-and-anti-self-dual-connection|anti-self-dual connections]] saturate a topological [[shared-foundations/lower-bound|lower bound]] proportional to \(|k(E)|\).
 
 Reversing the orientation interchanges self-duality and anti-self-duality and changes the sign of the integral, while leaving its [[real-analysis/absolute-value|absolute value]] unchanged.
 

@@ -28,7 +28,7 @@ For \(f\in C_c^\infty(G)\), the integrated vector
 \[
 \pi(f)\xi=\int_G f(g)\pi(g)\xi\,dg
 \]
-is smooth. Approximate identities of such functions converge strongly to the identity, proving the density of \(\mathcal H^\infty\); this is commonly called Gårding's argument [Warner, §4.4].
+is smooth. Approximate identities of such functions converge strongly to the identity, proving the density of \(\mathcal H^\infty\); this is commonly called Gårding's argument.
 
 ## Relation to generators
 

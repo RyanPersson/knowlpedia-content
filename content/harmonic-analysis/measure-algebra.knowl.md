@@ -25,7 +25,7 @@ Thus \(x\mapsto\delta_x\) embeds the group law into the invertible elements of \
 
 ## Relation to the group algebra
 
-After fixing a left [[harmonic-analysis/haar-measure|Haar measure]] \(m\), each \(f\in L^1(G,m)\) determines the measure \(f\,dm\). This identifies the [[harmonic-analysis/l1-group-algebra|\(L^1\) group algebra]] isometrically with a closed [[algebra-rings/two-sided-ideal|two-sided ideal]] in \(M(G)\). Point masses at nondiscrete points are singular with respect to Haar measure, so \(M(G)\) is generally strictly larger than \(L^1(G)\) [Hewitt and Ross, §19].
+After fixing a left [[harmonic-analysis/haar-measure|Haar measure]] \(m\), each \(f\in L^1(G,m)\) determines the measure \(f\,dm\). This identifies the [[harmonic-analysis/l1-group-algebra|\(L^1\) group algebra]] isometrically with a closed [[algebra-rings/two-sided-ideal|two-sided ideal]] in \(M(G)\). Point masses at nondiscrete points are singular with respect to Haar measure, so \(M(G)\) is generally strictly larger than \(L^1(G)\).
 
 ## Examples and scope
 

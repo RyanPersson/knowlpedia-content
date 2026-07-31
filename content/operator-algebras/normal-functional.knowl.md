@@ -29,8 +29,7 @@ of bounded increasing nets:
 for every bounded increasing net \((x_i)\) in \(M_+\). It is also enough to
 test this condition on increasing nets of projections. Replacing nets by
 sequences is generally insufficient unless suitable countability hypotheses
-are imposed. This order-continuity criterion is developed in
-[Takesaki, Chapter III, §2].
+are imposed.
 
 ## Positive decomposition and states
 

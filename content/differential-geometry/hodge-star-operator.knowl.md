@@ -24,7 +24,7 @@ On real \(k\)-forms in the Riemannian convention,
 \[
 *(*\alpha)=(-1)^{k(n-k)}\alpha.
 \]
-The star is a pointwise isometry, and \(*1=\operatorname{vol}_g\), while \(*\operatorname{vol}_g=1\). These identities follow directly in an oriented orthonormal coframe and characterize the signs used here. The construction and its role in the Laplacian are treated in [Morita, “Laplacian and harmonic forms”].
+The star is a pointwise isometry, and \(*1=\operatorname{vol}_g\), while \(*\operatorname{vol}_g=1\). These identities follow directly in an oriented orthonormal coframe and characterize the signs used here.
 
 The star also converts the [[fiber-bundles/exterior-derivative|exterior derivative]] into its [[differential-geometry/formal-adjoint-differential-operator|formal adjoint]], up to a degree- and dimension-dependent sign. This is the basic mechanism behind the [[differential-geometry/hodge-laplacian|Hodge Laplacian]] and harmonic-form theory.
 

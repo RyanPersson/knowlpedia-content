@@ -37,7 +37,7 @@ or [[algebra-groups/generating-set|generating sets]] of \(\mathfrak g_{\mathbb C
 monomials in them, give equivalent countable seminorm families. No single
 finite collection of these seminorms generally suffices. Continuity with
 respect to the full family distinguishes distribution vectors from arbitrary
-algebraic functionals [Wallach, §4.4].
+algebraic functionals.
 
 ## Extended group and Lie-algebra actions
 

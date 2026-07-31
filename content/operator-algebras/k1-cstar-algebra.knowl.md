@@ -31,8 +31,7 @@ A nonunital class can be represented by a unitary
 \(u\in M_n(\widetilde A)\) whose scalar image is \(1_n\). Stabilization permits
 adjoining identity blocks, and homotopy is taken through unitaries after a
 common stabilization. Although block sum defines the group law,
-\([uv]=[u]+[v]\) for stabilized unitaries. These equivalent models are proved
-in [Blackadar, Chapter IV].
+\([uv]=[u]+[v]\) for stabilized unitaries.
 
 ## Basic properties and examples
 

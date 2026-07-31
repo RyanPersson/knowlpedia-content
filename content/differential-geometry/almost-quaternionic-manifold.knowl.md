@@ -21,7 +21,7 @@ Equivalently, the frame bundle of \(M\) reduces to \(\operatorname{GL}(n,\mathbb
 
 ## Equivalent structure-group description
 
-At each point, \(Q_x\) is the copy of the imaginary quaternions acting on \(T_xM\). The group \(\operatorname{GL}(n,\mathbb H)\) commutes with this action, while \(\operatorname{Sp}(1)\) conjugates and rotates the imaginary units. Their common central element acts trivially, so the effective structure group is the product modulo its diagonal center. This gives the equivalence between the endomorphism-subbundle and \(G\)-structure descriptions [Salamon, pp. 143–145].
+At each point, \(Q_x\) is the copy of the imaginary quaternions acting on \(T_xM\). The group \(\operatorname{GL}(n,\mathbb H)\) commutes with this action, while \(\operatorname{Sp}(1)\) conjugates and rotates the imaginary units. Their common central element acts trivially, so the effective structure group is the product modulo its diagonal center. This gives the equivalence between the endomorphism-subbundle and \(G\)-structure descriptions.
 
 ## Nearby stronger structures
 

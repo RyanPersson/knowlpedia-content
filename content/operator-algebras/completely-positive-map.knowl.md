@@ -33,8 +33,7 @@ where \(\pi\) is a
 [[operator-algebras/cstar-representation|\(*\)-representation]] of \(A\) on a
 [[linear-algebra/hilbert-space|Hilbert space]] \(K\) and \(V:H\to K\) is
 bounded. With the usual minimality condition the factorization is unique up to
-unitary equivalence
-[Paulsen, Chapter 4].
+unitary equivalence.
 
 ## Closure properties and examples
 

@@ -21,7 +21,7 @@ The [[differential-geometry/kahler-identities|Kähler identities]] imply
 \[
 \Delta_d=2\Delta_{\partial}=2\Delta_{\bar\partial}.
 \]
-Consequently the [[differential-geometry/hodge-laplacian|de Rham Laplacian]] preserves bidegree, so each \((p,q)\)-component of a [[differential-geometry/harmonic-differential-form|harmonic form]] is harmonic. This is the step that turns the type decomposition of differential forms into a direct-sum decomposition of cohomology [Voisin, §6.1, Theorem 6.3].
+Consequently the [[differential-geometry/hodge-laplacian|de Rham Laplacian]] preserves bidegree, so each \((p,q)\)-component of a [[differential-geometry/harmonic-differential-form|harmonic form]] is harmonic. This is the step that turns the type decomposition of differential forms into a direct-sum decomposition of cohomology.
 
 ## Consequences
 

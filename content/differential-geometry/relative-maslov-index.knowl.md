@@ -30,7 +30,7 @@ When it is nondegenerate, the crossing is regular. The signature formula is
 +\sum_{a<t<b}\operatorname{sign}\Gamma(t)
 +\tfrac12\operatorname{sign}\Gamma(b).
 \]
-Robbin and Salamon prove that this agrees with the diagonal construction [Robbin–Salamon, Theorem 3.2].
+Robbin and Salamon prove that this agrees with the diagonal construction.
 
 ## Properties
 
@@ -38,7 +38,7 @@ The relative index is natural under a common path of symplectic transformations,
 \[
 \mu(\Lambda_1,\Lambda_0)=-\mu(\Lambda_0,\Lambda_1).
 \]
-If \(\Lambda_1(t)\equiv L_0\) is constant, it reduces to the path index relative to \(L_0\). When both endpoint pairs are transverse, it is integer-valued and invariant under homotopies that preserve endpoint transversality [Robbin–Salamon, Corollary 3.3].
+If \(\Lambda_1(t)\equiv L_0\) is constant, it reduces to the path index relative to \(L_0\). When both endpoint pairs are transverse, it is integer-valued and invariant under homotopies that preserve endpoint transversality.
 
 ## Example and near-miss
 
@@ -46,7 +46,7 @@ In \(\mathbb R^2\), keep \(\Lambda_1=\mathbb R\) fixed and rotate \(\Lambda_0\) 
 
 ## Relation to spectral flow
 
-For suitable paths of self-adjoint first-order operators with Lagrangian boundary data, [[noncommutative-geometry/spectral-flow|spectral flow]] is expressed by a relative Maslov index. Cappell, Lee, and Miller compare several definitions and develop this relation systematically [Cappell–Lee–Miller, 1994]. Analytic applications may reverse the order of the two boundary-data paths, which reverses the sign.
+For suitable paths of self-adjoint first-order operators with Lagrangian boundary data, [[noncommutative-geometry/spectral-flow|spectral flow]] is expressed by a relative Maslov index. Cappell, Lee, and Miller compare several definitions and develop this relation systematically. Analytic applications may reverse the order of the two boundary-data paths, which reverses the sign.
 
 ## References
 

@@ -32,8 +32,7 @@ The images act on separate Hilbert-space factors and therefore commute in the
 appropriate tensor-product sense. Faithfulness of \(\pi\) and \(\rho\) makes
 the resulting algebraic representation faithful. The nontrivial independence
 theorem says that changing either faithful representation leaves the induced
-norm unchanged
-[Takesaki, Chapter IV, §4].
+norm unchanged.
 
 ## Functoriality and injectivity
 

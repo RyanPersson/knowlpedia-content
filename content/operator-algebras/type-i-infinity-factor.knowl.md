@@ -28,8 +28,7 @@ dimension. Minimal projections in \(B(H)\) are precisely rank-one
 projections, and a maximal orthogonal family of them corresponds to an
 [[linear-algebra/orthonormal-basis|orthonormal basis]]. Thus the cardinality of such a family recovers
 \(\dim H\), and the infinite cardinals distinguish the nonseparable
-isomorphism classes
-[Takesaki, Chapter V, §1].
+isomorphism classes.
 
 ## Proper infiniteness and traces
 

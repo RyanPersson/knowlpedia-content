@@ -35,8 +35,7 @@ x\longmapsto\langle\pi(x)\xi,\eta\rangle,\qquad \xi,\eta\in H,
 belongs to the [[operator-algebras/predual|predual]] \(M_*\). Equivalently,
 for every bounded increasing net \((x_i)\) of positive elements,
 \(\pi(\sup_i x_i)=\sup_i\pi(x_i)\). These criteria connect the concrete
-operator representation with the canonical weak-star structure of \(M\)
-[Takesaki, treatment of normal representations].
+operator representation with the canonical weak-star structure of \(M\).
 
 ## Examples and a non-example
 

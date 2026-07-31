@@ -16,7 +16,7 @@ is [[differential-geometry/holomorphic-map|holomorphic]] on \(\varphi_\alpha(U_\
 
 ## Maximal atlases and equivalence
 
-Every complex atlas is contained in a unique maximal one: add every complex coordinate chart compatible with all charts already present. Two atlases generate the same maximal atlas exactly when their union is compatible. Thus changing to a smaller covering atlas does not change the resulting [[differential-geometry/complex-manifold|complex manifold]] [Huybrechts, §2.1].
+Every complex atlas is contained in a unique maximal one: add every complex coordinate chart compatible with all charts already present. Two atlases generate the same maximal atlas exactly when their union is compatible. Thus changing to a smaller covering atlas does not change the resulting [[differential-geometry/complex-manifold|complex manifold]].
 
 ## Examples and non-examples
 
@@ -24,7 +24,7 @@ The single identity chart on an open subset of \(\mathbb C^n\) is a complex atla
 
 ## Conventions and scope
 
-Some authors use “complex atlas” only for a maximal atlas; others, as here, allow any compatible covering family and say “maximal complex atlas” when maximality matters. The equivalence-class formulation removes this terminological difference [Forster, §1].
+Some authors use “complex atlas” only for a maximal atlas; others, as here, allow any compatible covering family and say “maximal complex atlas” when maximality matters. The equivalence-class formulation removes this terminological difference.
 
 ## References
 

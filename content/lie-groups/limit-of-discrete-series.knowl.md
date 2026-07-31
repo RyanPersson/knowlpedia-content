@@ -12,11 +12,11 @@ Let \(G\) be a linear connected semisimple real [[fiber-bundles/lie-group|Lie gr
 
 ## Nonvanishing and temperedness
 
-The continued character \(\pi(\lambda,C)\) is zero exactly when \(\lambda\) is orthogonal to a compact \(C\)-simple root. Every nonzero limit is irreducible and tempered. These criteria, and equivalence under the [[lie-groups/weyl-group|Weyl group]] of the compact roots, are part of the Knapp–Zuckerman classification [Knapp–Zuckerman, Theorem 1.1].
+The continued character \(\pi(\lambda,C)\) is zero exactly when \(\lambda\) is orthogonal to a compact \(C\)-simple root. Every nonzero limit is irreducible and tempered. These criteria, and equivalence under the [[lie-groups/weyl-group|Weyl group]] of the compact roots, are part of the Knapp–Zuckerman classification.
 
 ## Example
 
-For \(SU(1,1)\), the compact Cartan has no compact roots. Moving a regular Harish-Chandra parameter to the singular value \(0\) from either of the two Weyl chambers produces two distinct nonzero limits of discrete series. They are tempered but not square-integrable, and provide the archimedean representations associated with weight-one phenomena [Carayol–Knapp, introduction].
+For \(SU(1,1)\), the compact Cartan has no compact roots. Moving a regular Harish-Chandra parameter to the singular value \(0\) from either of the two Weyl chambers produces two distinct nonzero limits of discrete series. They are tempered but not square-integrable, and provide the archimedean representations associated with weight-one phenomena.
 
 ## Conventions and scope
 

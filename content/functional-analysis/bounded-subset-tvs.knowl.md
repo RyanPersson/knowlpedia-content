@@ -30,8 +30,6 @@ for every continuous [[convex-analysis/seminorm|seminorm]] \(p\) on \(X\). This 
 
 Finite subsets, [[topology/convergent-sequence|convergent sequences]] together with their limits, and compact subsets are bounded. Finite unions, sums, scalar multiples, and subsets of bounded sets remain bounded. Every [[functional-analysis/continuous-linear-map|continuous linear map]] sends bounded sets to bounded sets. The converse implication does not characterize continuity without extra hypotheses on the source space.
 
-The neighborhood and seminorm formulations, together with these permanence properties, are developed systematically in [Schaefer and Wolff, Chapters I–II].
-
 ## References
 
 1. Nicolas Bourbaki, *Topological Vector Spaces: Chapters 1–5*, Springer, 2003. [Springer DOI record](https://doi.org/10.1007/978-3-642-61715-7). Relevant: Chapters I–III.

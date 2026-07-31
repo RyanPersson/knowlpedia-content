@@ -27,7 +27,7 @@ coefficients of \(\rho\) can be approximated on a chosen compact subset of
 \(G\) by finite sums of diagonal coefficients of \(\pi\). This description is
 independent of representatives. The resulting space need not be Hausdorff;
 its separation properties encode substantial representation-theoretic
-information [Fell and Doran, Chapter VII].
+information.
 
 ## Operator-algebraic interpretation
 

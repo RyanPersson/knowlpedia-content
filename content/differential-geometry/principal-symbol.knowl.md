@@ -32,7 +32,7 @@ For operators of orders \(m\) and \(n\),
 \[
 \sigma_{m+n}(D_2D_1)=\sigma_n(D_2)\sigma_m(D_1).
 \]
-Thus leading symbols turn composition of differential operators into pointwise composition of homogeneous bundle maps. An operator is [[differential-geometry/elliptic-differential-operator|elliptic]] precisely when this symbol is invertible at every nonzero covector. See [Lawson and Michelsohn, chapter III, §1] for the symbol calculus used in spin geometry.
+Thus leading symbols turn composition of differential operators into pointwise composition of homogeneous bundle maps. An operator is [[differential-geometry/elliptic-differential-operator|elliptic]] precisely when this symbol is invertible at every nonzero covector.
 
 ## Conventions and scope
 

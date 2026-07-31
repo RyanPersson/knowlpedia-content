@@ -24,7 +24,7 @@ Bi-\(K\)-invariance is preserved by convolution, and associativity follows from 
 
 ## Compact-open and spherical cases
 
-If \(G\) is totally disconnected and \(K\) is compact open, the double cosets \(KgK\) are open and compact. Their [[measure-theory/characteristic-function-indicator-function|characteristic functions]] span \(\mathcal H(G,K)\), and multiplication is encoded by finite double-coset decompositions. For a reductive group over a nonarchimedean local field and a hyperspecial maximal compact subgroup, this is the usual spherical Hecke algebra treated in the Satake theory [Bump, Chapter 4].
+If \(G\) is totally disconnected and \(K\) is compact open, the double cosets \(KgK\) are open and compact. Their [[measure-theory/characteristic-function-indicator-function|characteristic functions]] span \(\mathcal H(G,K)\), and multiplication is encoded by finite double-coset decompositions. For a reductive group over a nonarchimedean local field and a hyperspecial maximal compact subgroup, this is the usual spherical Hecke algebra treated in the Satake theory.
 
 ## Representation-theoretic action
 

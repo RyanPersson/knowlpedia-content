@@ -45,8 +45,7 @@ For \(f\in L^\infty(X,\mu)\), let \(M_f\) act diagonally by
 \(\sigma\)-finiteness hypotheses used in direct-integral theory, the
 decomposable operators are precisely the bounded operators commuting with
 every \(M_f\). Thus decomposability is an intrinsic commutant condition, not
-a claim that the fibers \(T_x\) are diagonalizable
-[Takesaki, Chapter IV, §8].
+a claim that the fibers \(T_x\) are diagonalizable.
 
 ## Examples and scope
 

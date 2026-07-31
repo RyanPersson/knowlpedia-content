@@ -26,8 +26,7 @@ supremum. Only differences of states are evaluated, so adding a scalar to
 \(a\) does not change that distance. If the kernel of \(L_D\) on the
 self-adjoint part consists exactly of scalars, the induced quotient seminorm
 separates states; additional compactness conditions are needed for its metric
-to induce the [[functional-analysis/weak-star-topology|weak-star topology]]
-[Rieffel, §§1–2].
+to induce the [[functional-analysis/weak-star-topology|weak-star topology]].
 
 The seminorm isolates the first-order metric information of a spectral triple.
 Summability, grading, real structure, and regularity may affect other parts
@@ -43,8 +42,7 @@ L_{\not D}(f)=\sup_{x\in M}|df_x|.
 \]
 Thus \(L_{\not D}\) is the classical Lipschitz seminorm on smooth functions,
 and its completion recovers ordinary Lipschitz functions. This identity is
-the analytic input behind the recovery of Riemannian geodesic distance
-[Connes, Chapter VI, §1].
+the analytic input behind the recovery of Riemannian geodesic distance.
 
 A bounded operator commuting with \(D\) has seminorm zero, even when it is not
 scalar. Such a [[operator-algebras/commutant|commutant]] element is therefore

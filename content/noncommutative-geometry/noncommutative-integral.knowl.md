@@ -41,8 +41,7 @@ residue:
 =\frac{1}{p}\operatorname*{Res}_{s=p}
 \operatorname{Tr}(a|D|^{-s}),
 \]
-subject to the normalization conventions of the trace and zeta variable
-[Connes, Chapter IV, §2].
+subject to the normalization conventions of the trace and zeta variable.
 
 ## Classical geometric meaning
 
@@ -57,7 +56,7 @@ Wodzicki residue. Consequently
 \]
 for an explicit constant \(c_p\) determined by dimension, spinor rank, and
 normalization. This is the model for interpreting the functional as
-integration [Connes, Theorem 1].
+integration.
 
 ## Conventions and scope
 

@@ -38,7 +38,7 @@ a [[algebra-homological/cochain-complex|cochain complex]]. Its cohomology is [[d
 
 ## Integrability and scope
 
-On an almost-complex manifold, \(d\) may have additional components of bidegrees \((2,-1)\) and \((-1,2)\). Their disappearance is equivalent to [[differential-geometry/integrable-almost-complex-structure|integrability]], so the two-term formula above uses the complex-manifold hypothesis [Wells, Chapter I, §3].
+On an almost-complex manifold, \(d\) may have additional components of bidegrees \((2,-1)\) and \((-1,2)\). Their disappearance is equivalent to [[differential-geometry/integrable-almost-complex-structure|integrability]], so the two-term formula above uses the complex-manifold hypothesis.
 
 ## References
 

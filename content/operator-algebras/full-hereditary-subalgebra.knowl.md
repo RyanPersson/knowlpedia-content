@@ -37,8 +37,7 @@ A full hereditary \(C^*\)-subalgebra \(B\) is
 [[operator-algebras/strong-morita-equivalence|strongly Morita equivalent]]
 to \(A\), with the completion of \(BA\) providing the equivalence module.
 Under \(\sigma\)-unital hypotheses, the Brown–Green–Rieffel theorem further
-relates this equivalence to stable isomorphism
-[Brown–Green–Rieffel, Theorem 1.2].
+relates this equivalence to stable isomorphism.
 
 ## Examples and non-examples
 

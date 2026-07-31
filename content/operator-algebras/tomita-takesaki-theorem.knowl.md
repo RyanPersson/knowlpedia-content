@@ -49,9 +49,7 @@ The proof first compares the closures of
 together with the polar decomposition, gives the inclusions
 \(JMJ\subseteq M'\) and
 \(\Delta^{it}M\Delta^{-it}\subseteq M\). Applying the same argument to the
-commutant and to \(-t\) upgrades both inclusions to equalities. The full
-argument is given in
-[Takesaki, Chapter VI, §1].
+commutant and to \(-t\) upgrades both inclusions to equalities.
 
 ## Consequences
 

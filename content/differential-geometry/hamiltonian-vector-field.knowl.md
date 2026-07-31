@@ -22,8 +22,6 @@ Cartan's formula and \(d\omega=0\) give
 \]
 so \(X_H\) is a [[differential-geometry/symplectic-vector-field|symplectic vector field]]. Also \(dH(X_H)=\omega(X_H,X_H)=0\), and hence \(H\) is constant along integral curves of \(X_H\). The assignment \(H\mapsto X_H\) is real-linear, and its kernel consists of functions that are locally constant.
 
-These properties and the defining convention appear in [Cannas da Silva, Lecture 18.1].
-
 ## Coordinate form and a near miss
 
 In Darboux coordinates with \(\omega=\sum_i dq_i\wedge dp_i\),
@@ -37,7 +35,7 @@ Every Hamiltonian vector field preserves \(\omega\), but the converse can fail g
 
 ## Conventions
 
-**Warning.** Some authors define \(\iota_{X_H}\omega=-dH\). Changing that sign reverses \(X_H\) and changes the related coordinate and Poisson-bracket formulas. The plus-sign convention here agrees with [Abraham and Marsden, §3.3] and with Cannas da Silva.
+**Warning.** Some authors define \(\iota_{X_H}\omega=-dH\). Changing that sign reverses \(X_H\) and changes the related coordinate and Poisson-bracket formulas. The plus-sign convention here agrees with  and with Cannas da Silva.
 
 ## References
 

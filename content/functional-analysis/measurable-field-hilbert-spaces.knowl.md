@@ -18,7 +18,7 @@ The elements of \(\mathcal M\) are the **measurable sections**.
 
 ## Fundamental sequences and coordinates
 
-A sequence as in the third axiom is called a fundamental sequence. Measurable fiberwise Gram–Schmidt operations turn one into sections that form an [[linear-algebra/orthonormal-basis|orthonormal basis]] after zero vectors are omitted. Relative to such sections, measurability can be checked through scalar coordinate functions. The countability requirement forces every fiber to be separable and is what makes direct-integral constructions manageable [Takesaki, Chapter IV, §8].
+A sequence as in the third axiom is called a fundamental sequence. Measurable fiberwise Gram–Schmidt operations turn one into sections that form an [[linear-algebra/orthonormal-basis|orthonormal basis]] after zero vectors are omitted. Relative to such sections, measurability can be checked through scalar coordinate functions. The countability requirement forces every fiber to be separable and is what makes direct-integral constructions manageable.
 
 ## Direct integrals
 

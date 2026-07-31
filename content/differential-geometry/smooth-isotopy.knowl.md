@@ -16,7 +16,7 @@ Every isotopy is a [[differential-geometry/smooth-homotopy|smooth homotopy]], bu
 
 ## Ambient isotopy
 
-An [[differential-geometry/ambient-isotopy|ambient isotopy]] of \(N\) is a smooth family of diffeomorphisms \(\Phi_t:N\to N\) with \(\Phi_0=\operatorname{id}_N\). It carries an embedding \(f_0\) to \(f_t=\Phi_t\circ f_0\). The [[differential-geometry/isotopy-extension-theorem|isotopy extension theorem]] gives hypotheses under which an isotopy of embeddings extends to an ambient isotopy; see [Hirsch, Chapter 8].
+An [[differential-geometry/ambient-isotopy|ambient isotopy]] of \(N\) is a smooth family of diffeomorphisms \(\Phi_t:N\to N\) with \(\Phi_0=\operatorname{id}_N\). It carries an embedding \(f_0\) to \(f_t=\Phi_t\circ f_0\). The [[differential-geometry/isotopy-extension-theorem|isotopy extension theorem]] gives hypotheses under which an isotopy of embeddings extends to an ambient isotopy.
 
 ## Conventions and examples
 

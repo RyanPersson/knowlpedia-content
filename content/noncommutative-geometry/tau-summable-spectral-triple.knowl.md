@@ -24,7 +24,7 @@ Writing \(\mu_t\) for the generalized singular-value function, tau-\(p\)-summabi
 \[
 \int_0^\infty \mu_t\!\left((1+D^2)^{-1/2}\right)^p\,dt<\infty.
 \]
-Weak tau-\(p\)-summability replaces \(L^p\) by the corresponding weak ideal and permits the borderline decay \(O(t^{-1/p})\). The strong and weak conditions are not interchangeable; the latter is the natural endpoint in many dimension-\(p\) examples [Carey, Phillips, Rennie, and Sukochev, §2].
+Weak tau-\(p\)-summability replaces \(L^p\) by the corresponding weak ideal and permits the borderline decay \(O(t^{-1/p})\). The strong and weak conditions are not interchangeable; the latter is the natural endpoint in many dimension-\(p\) examples.
 
 ## Examples and conventions
 

@@ -20,7 +20,7 @@ operator**.
 
 ## Centrality and normalization
 
-The invariance of \(B\) makes the tensor corresponding to the identity map on \(\mathfrak g\) invariant under the adjoint action; multiplication into \(U(\mathfrak g)\) therefore makes \(\Omega_B\) central. Replacing \(B\) by \(cB\) replaces \(\Omega_B\) by \(c^{-1}\Omega_B\), so numerical Casimir eigenvalues depend on the normalization of the invariant form [Knapp, Chapter V, §5].
+The invariance of \(B\) makes the tensor corresponding to the identity map on \(\mathfrak g\) invariant under the adjoint action; multiplication into \(U(\mathfrak g)\) therefore makes \(\Omega_B\) central. Replacing \(B\) by \(cB\) replaces \(\Omega_B\) by \(c^{-1}\Omega_B\), so numerical Casimir eigenvalues depend on the normalization of the invariant form.
 
 ## Action in representations
 

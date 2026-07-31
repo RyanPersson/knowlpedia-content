@@ -20,7 +20,7 @@ Two complex charts \((U,\varphi)\) and \((V,\psi)\) are compatible when the tran
 \[
 \psi\circ\varphi^{-1}:\varphi(U\cap V)\longrightarrow\psi(U\cap V)
 \]
-is [[differential-geometry/holomorphic-map|holomorphic]]. Its inverse is then holomorphic as well, so compatibility is symmetric. A maximal compatible atlas defines a [[differential-geometry/complex-manifold|complex manifold]]; the atlas, rather than any preferred coordinate system, is the intrinsic structure [Huybrechts, Chapter 2, §2.1].
+is [[differential-geometry/holomorphic-map|holomorphic]]. Its inverse is then holomorphic as well, so compatibility is symmetric. A maximal compatible atlas defines a [[differential-geometry/complex-manifold|complex manifold]]; the atlas, rather than any preferred coordinate system, is the intrinsic structure.
 
 ## Coordinate expressions
 

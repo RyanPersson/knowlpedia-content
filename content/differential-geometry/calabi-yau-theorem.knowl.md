@@ -32,7 +32,7 @@ The conclusion is uniqueness inside a fixed class. Different Kähler classes gen
 
 ## Analytic content
 
-The Ricci-form equation reduces to the nonlinear complex Monge–Ampère equation displayed in the core. Uniqueness follows from a maximum-principle argument. Existence requires a priori \(C^0\), Laplacian, and higher-order estimates along a continuity path; obtaining these estimates is the central achievement of Yau’s proof [Yau, §§2–4].
+The Ricci-form equation reduces to the nonlinear complex Monge–Ampère equation displayed in the core. Uniqueness follows from a maximum-principle argument. Existence requires a priori \(C^0\), Laplacian, and higher-order estimates along a continuity path; obtaining these estimates is the central achievement of Yau’s proof.
 
 The volume constraint is necessary: integrating both sides of the Monge–Ampère equation gives it immediately. Adding a constant to \(\varphi\) changes neither side, which is why a normalization such as \(\int_X\varphi\,\omega_0^n=0\) is imposed for uniqueness.
 

@@ -34,8 +34,6 @@ comparison theory. The tracial identity also implies invariance under unitary
 conjugation in the [[operator-algebras/unitization|unitization]].
 
 The extended-trace convention and its use in comparing positive elements are
-described explicitly by
-[Robert, Introduction].
 
 ## Domains and extra adjectives
 

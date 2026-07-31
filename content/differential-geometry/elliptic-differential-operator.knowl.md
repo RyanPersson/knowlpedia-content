@@ -20,7 +20,7 @@ Elliptic regularity says that distributional solutions gain smoothness wherever 
 \[
 D:H^{s+m}(E)\longrightarrow H^s(F)
 \]
-is [[functional-analysis/fredholm-operator|Fredholm]] for every real \(s\); hence its kernel and cokernel are finite-dimensional. These consequences require analytic theorems beyond the definition and are treated in [Wells, chapter IV].
+is [[functional-analysis/fredholm-operator|Fredholm]] for every real \(s\); hence its kernel and cokernel are finite-dimensional.
 
 ## Examples and non-examples
 

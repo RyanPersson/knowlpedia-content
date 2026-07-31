@@ -32,7 +32,7 @@ of the operator norm. Every bounded operator has a bounded adjoint, so \(B(H)\)
 is closed under its involution. If \(H\) is finite-dimensional, choosing an
 [[linear-algebra/orthonormal-basis|orthonormal basis]] identifies \(B(H)\) with a [[operator-algebras/matrix-cstar-algebra|full matrix algebra]]. If \(H\) is
 infinite-dimensional, \(B(H)\) is nonseparable in operator norm even when \(H\)
-is separable [Murphy, §2.1].
+is separable.
 
 ## Operator topologies and commutants
 

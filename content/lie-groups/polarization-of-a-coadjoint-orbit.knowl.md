@@ -33,8 +33,7 @@ a [[harmonic-analysis/unitary-character|unitary character]] of \(P\). The
 [[harmonic-analysis/unitary-induced-representation|unitarily induced
 representation]] \(\operatorname{Ind}_P^G\chi_\ell\) is irreducible, is
 independent up to unitary equivalence of the chosen polarization, and depends
-only on the coadjoint orbit of \(\ell\)
-[Kirillov, Chapter 3]. These conclusions are
+only on the coadjoint orbit of \(\ell\). These conclusions are
 special to the nilpotent orbit-method setting; the bare definition alone
 does not guarantee them for a general [[fiber-bundles/lie-group|Lie group]].
 

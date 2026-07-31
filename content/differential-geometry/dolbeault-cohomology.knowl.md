@@ -23,7 +23,7 @@ The Dolbeault theorem gives a [[algebra-category-theory/natural-isomorphism|natu
 \[
 H_{\bar\partial}^{p,q}(X)\cong H^q(X,\Omega_X^p),
 \]
-where \(\Omega_X^p\) is the sheaf of holomorphic \(p\)-forms. The proof uses the Dolbeault lemma and the fine resolution by smooth \((p,\bullet)\)-forms [Wells, Chapter II, §3, Theorem 3.17]. This identifies an analytic quotient of differential forms with a sheaf-cohomological invariant.
+where \(\Omega_X^p\) is the sheaf of holomorphic \(p\)-forms. The proof uses the Dolbeault lemma and the fine resolution by smooth \((p,\bullet)\)-forms. This identifies an analytic quotient of differential forms with a sheaf-cohomological invariant.
 
 ## Products and functoriality
 
@@ -43,7 +43,7 @@ Dolbeault cohomology keeps track of bidegree, whereas de Rham cohomology uses th
 H^k_{\mathrm{dR}}(X;\mathbb C)
 \cong\bigoplus_{p+q=k}H_{\bar\partial}^{p,q}(X),
 \]
-but such a direct-sum identification need not hold for a general complex manifold [Voisin, §6.1].
+but such a direct-sum identification need not hold for a general complex manifold.
 
 ## References
 

@@ -24,7 +24,7 @@ The [[differential-geometry/hamiltonian-flow|Hamiltonian flow]] preserves both \
 \[
 \frac{d}{dt}f(\gamma(t))=\{f,H\},
 \]
-using the Poisson-bracket convention associated with \(\iota_{X_H}\omega=dH\). In particular, \(f\) is a [[differential-geometry/first-integral|first integral]] exactly when \(\{f,H\}=0\). See [Cannas da Silva, Lecture 18.4, Definitions 18.8 and 18.10] for Hamiltonian and completely integrable systems.
+using the Poisson-bracket convention associated with \(\iota_{X_H}\omega=dH\). In particular, \(f\) is a [[differential-geometry/first-integral|first integral]] exactly when \(\{f,H\}=0\).
 
 ## Example
 

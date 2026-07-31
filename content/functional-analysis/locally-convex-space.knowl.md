@@ -37,8 +37,6 @@ The seminorm topology is Hausdorff exactly when the defining family [[real-analy
 
 Every [[linear-algebra/normed-vector-space|normed vector space]] is locally convex, using its norm as one seminorm. [[convex-analysis/product-space-cartesian-product|Product spaces]], spaces of smooth functions, and [[functional-analysis/schwartz-space|Schwartz spaces]] naturally require families of seminorms. By contrast, many \(L^p\)-spaces with \(0<p<1\), equipped with their usual complete translation-invariant metrics, are topological vector spaces whose topologies are not locally convex.
 
-The seminorm formulation and its use in distribution theory are developed in [Trèves, Chapter 7].
-
 ## References
 
 1. François Trèves, *Topological Vector Spaces, Distributions and Kernels*, Academic Press, 1967. [Elsevier publisher record](https://shop.elsevier.com/books/topological-vector-spaces-distributions-and-kernels/treves/978-1-4831-9859-0). Relevant: Chapter 7.

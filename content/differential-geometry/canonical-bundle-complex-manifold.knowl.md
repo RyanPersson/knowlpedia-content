@@ -32,7 +32,7 @@ A [[differential-geometry/holomorphic-section|holomorphic section]] of \(K_X\) i
 
 On \(\mathbb C^n\), the form \(dz^1\wedge\cdots\wedge dz^n\) trivializes the canonical bundle. For the Riemann sphere, the coordinate change \(w=1/z\) gives \(dw=-z^{-2}dz\); its canonical bundle is therefore nontrivial and has degree \(-2\).
 
-**Warning.** This analytic canonical bundle should not be conflated with a canonical module of a singular ring or scheme. On a smooth complex algebraic variety, analytification of the algebraic canonical [[fiber-bundles/line-bundle|line bundle]] gives the bundle defined here [Huybrechts, §2.2].
+**Warning.** This analytic canonical bundle should not be conflated with a canonical module of a singular ring or scheme. On a smooth complex algebraic variety, analytification of the algebraic canonical [[fiber-bundles/line-bundle|line bundle]] gives the bundle defined here.
 
 ## References
 

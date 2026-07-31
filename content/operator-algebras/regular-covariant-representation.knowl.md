@@ -34,7 +34,7 @@ The [[linear-algebra/operator-norm|operator norm]] of this representation suppli
 
 ## Dependence on the coefficient representation
 
-If \(\pi\) is faithful and nondegenerate, the resulting reduced norm and [[operator-algebras/reduced-crossed-product|reduced crossed product]] are independent of \(\pi\) up to canonical isomorphism [Williams, §7.2, Definition 7.7]. Faithfulness matters: starting from a representation with nonzero kernel can discard coefficient-algebra information and produce a smaller image.
+If \(\pi\) is faithful and nondegenerate, the resulting reduced norm and [[operator-algebras/reduced-crossed-product|reduced crossed product]] are independent of \(\pi\) up to canonical isomorphism. Faithfulness matters: starting from a representation with nonzero kernel can discard coefficient-algebra information and produce a smaller image.
 
 The construction can also be viewed as inducing \(\pi\) from the identity subgroup. This perspective explains the common notation \(\operatorname{Ind}\pi\) for the integrated [[algebra-representation-theory/regular-representation|regular representation]].
 

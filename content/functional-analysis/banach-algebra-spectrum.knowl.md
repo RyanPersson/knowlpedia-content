@@ -34,8 +34,6 @@ r(a)=\max_{\lambda\in\sigma_A(a)}|\lambda|
 \]
 The nonemptiness assertion uses completeness and complex scalars; it can fail
 for real Banach algebras unless one passes to a complexification. These
-properties and the spectral-radius formula are established in
-[Murphy, §1.2].
 
 ## The \(C^*\)-algebra case
 

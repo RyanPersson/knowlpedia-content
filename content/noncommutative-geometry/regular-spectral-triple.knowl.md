@@ -31,8 +31,7 @@ pseudodifferential operators. In that calculus, repeated commutators with
 \(|D|\) behave like derivatives, while operators in
 \(\operatorname{Dom}\delta^\infty\) behave like order-zero coefficients. With
 separate summability and meromorphic-continuation hypotheses, this machinery
-leads to residues of zeta functions and the local index formula
-[Connes–Moscovici, §II].
+leads to residues of zeta functions and the local index formula.
 
 ## Standard example
 

@@ -34,8 +34,7 @@ Strong-\(*\) convergence is equivalent to simultaneous strong convergence of
 \(T_i\) and \(T_i^*\). Consequently the involution \(T\mapsto T^*\) is
 continuous. Multiplication is jointly strong-\(*\) continuous on
 norm-bounded subsets: if \(S_i\to S\) and \(T_i\to T\) strong-\(*\), with
-both nets bounded, then \(S_iT_i\to ST\) strong-\(*\)
-[Takesaki, Chapter I, §3].
+both nets bounded, then \(S_iT_i\to ST\) strong-\(*\).
 
 ## Comparison with other topologies
 

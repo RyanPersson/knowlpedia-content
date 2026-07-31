@@ -13,7 +13,6 @@ complex tensor product \(E\odot F\), define
 \[
 (x\otimes y)(a\otimes b)=xa\otimes yb
 \]
-and
 \[
 \langle x_1\otimes y_1,x_2\otimes y_2\rangle
 =\langle x_1,x_2\rangle_A\otimes\langle y_1,y_2\rangle_B,
@@ -33,8 +32,7 @@ and the quotient norm is
 \|z\|=\|\langle z,z\rangle\|^{1/2}.
 \]
 Completing produces a Hilbert \(A\otimes_{\min}B\)-module independent of
-concrete faithful representations used to realize the minimal tensor norm
-[Lance, Chapter 4].
+concrete faithful representations used to realize the minimal tensor norm.
 
 ## Standard examples
 

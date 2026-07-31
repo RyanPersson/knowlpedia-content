@@ -35,8 +35,7 @@ symmetry, and curvature is determined by
 \[
 R(X,Y)Z=-\bigl[ [X,Y],Z \bigr]
 \]
-up to the chosen curvature-sign convention
-[Helgason, Chapters IV–V].
+up to the chosen curvature-sign convention.
 
 ## Rank and flats
 

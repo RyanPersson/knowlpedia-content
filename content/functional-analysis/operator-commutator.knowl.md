@@ -34,8 +34,7 @@ Even when \(B\) is a
 \(B\operatorname{Dom}(A)\subseteq\operatorname{Dom}(A)\). Consequently, algebraic
 identities involving commutators must be checked on a domain invariant under
 every operator product that occurs. This is the operator-domain convention used
-in the standard treatment of unbounded operators
-[Reed and Simon, Chapter VIII].
+in the standard treatment of unbounded operators.
 
 ## Spectral-triple convention
 

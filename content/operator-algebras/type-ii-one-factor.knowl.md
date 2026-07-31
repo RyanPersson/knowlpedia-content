@@ -30,8 +30,7 @@ p\sim q\quad\Longleftrightarrow\quad \tau(p)=\tau(q).
 Moreover every value in \([0,1]\) occurs as \(\tau(p)\) for some projection
 \(p\). This continuous range of projection dimensions explains the older name
 “finite continuous factor.” These statements are part of the basic dimension
-theory of finite factors
-[Kadison–Ringrose, §6.5].
+theory of finite factors.
 
 ## Examples and contrasts
 

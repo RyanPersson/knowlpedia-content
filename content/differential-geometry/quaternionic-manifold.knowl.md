@@ -16,7 +16,7 @@ for every [[fiber-bundles/vector-field|vector field]] \(X\) and every local sect
 
 ## Integrability and intrinsic torsion
 
-The almost-quaternionic reduction has an [[fiber-bundles/intrinsic-torsion-of-a-g-structure|intrinsic torsion]]. In dimensions at least eight, its vanishing is equivalent to the existence of a torsion-free connection preserving \(Q\), which explains the synonym “integrable quaternionic manifold.” Unlike the hypercomplex case, a compatible torsion-free connection is generally not unique. The definition and its twistor interpretation originate in [Salamon, “Quaternionic Manifolds”].
+The almost-quaternionic reduction has an [[fiber-bundles/intrinsic-torsion-of-a-g-structure|intrinsic torsion]]. In dimensions at least eight, its vanishing is equivalent to the existence of a torsion-free connection preserving \(Q\), which explains the synonym “integrable quaternionic manifold.” Unlike the hypercomplex case, a compatible torsion-free connection is generally not unique.
 
 ## Relationship to nearby structures
 

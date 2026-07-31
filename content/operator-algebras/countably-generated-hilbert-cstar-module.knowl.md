@@ -28,8 +28,7 @@ The module \(E\) is countably generated precisely when its algebra
 [[operator-algebras/compact-operator-hilbert-module|compact Hilbert-module operators]] has a countable
 [[operator-algebras/approximate-identity|approximate identity]]. This
 converts a module generation condition into the \(\sigma\)-unitality of a
-\(C^*\)-algebra
-[Lance, Chapter 2].
+\(C^*\)-algebra.
 
 ## Stabilization
 

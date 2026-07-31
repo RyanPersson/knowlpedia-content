@@ -47,8 +47,7 @@ A function belongs to the
 \(W^{1,p}(\Omega)\) when it and all its first weak derivatives belong to
 \(L^p(\Omega)\); higher-order Sobolev spaces use weak derivatives indexed by
 multi-indices. This makes differentiability compatible with norm completion
-and variational methods
-[Evans, §5.2].
+and variational methods.
 
 ## References
 

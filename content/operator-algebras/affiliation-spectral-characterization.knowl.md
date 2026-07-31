@@ -21,7 +21,7 @@ as an unbounded operator, with every unitary in \(M'\). Uniqueness of polar
 decomposition then forces both \(v\) and the spectral measure of \(|T|\) to
 commute with \(M'\); the bicommutant theorem places them in \(M\). Conversely,
 these bounded data reconstruct \(T\) by spectral integration and make it
-commute with \(M'\). See [Takesaki, Chapter V, §5].
+commute with \(M'\).
 
 ## Self-adjoint and positive cases
 

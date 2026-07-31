@@ -15,7 +15,7 @@ with
 \[
 (a+I)^*=a^*+I
 \qquad\text{and}\qquad
-\lVert a+I\rVert=\inf_{x\in I}\lVert a+x\rVert .
+\lVert a+I\rVert=\inf_{x\in I}\lVert a+x\rVert.
 \]
 These operations are well defined, the quotient is complete, and the
 \(C^*\)-identity holds. The canonical map \(q:A\to A/I\), \(q(a)=a+I\), is a
@@ -36,8 +36,7 @@ isomorphism of the codomain. The sequence
 0\longrightarrow I\longrightarrow A\overset{q}{\longrightarrow}A/I
 \longrightarrow 0
 \]
-is the basic [[algebra-modules/short-exact-sequence|short exact sequence]] associated with \(I\)
-[Murphy, §3.1].
+is the basic [[algebra-modules/short-exact-sequence|short exact sequence]] associated with \(I\).
 
 ## Units and representative examples
 

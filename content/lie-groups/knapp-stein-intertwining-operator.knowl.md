@@ -28,9 +28,7 @@ In a chamber where the unipotent integral converges absolutely, the operator is
 defined directly on smooth induced functions. Analytic continuation then
 extends it meromorphically to the full complex parameter space. Poles, zeros,
 and noninvertibility detect reducibility phenomena in
-[[lie-groups/principal-series-representation|principal series]]. The original
-construction and continuation are established in
-[Knapp–Stein, pp. 489–578].
+[[lie-groups/principal-series-representation|principal series]].
 
 ## Normalization and consequences
 

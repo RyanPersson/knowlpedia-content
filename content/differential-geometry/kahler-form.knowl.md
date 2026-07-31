@@ -21,7 +21,7 @@ defines a \(J\)-invariant Riemannian metric, called the associated Kähler metri
 
 ## Equivalent metric formulation
 
-Conversely, the [[differential-geometry/fundamental-form-almost-hermitian|fundamental form]] \(\omega(X,Y)=g(JX,Y)\) of a [[fiber-bundles/hermitian-metric|Hermitian metric]] is a Kähler form exactly when it is closed. Thus specifying a Kähler form on \((M,J)\) is equivalent to specifying a [[differential-geometry/kahler-metric|Kähler metric]], and it makes \((M,J,g)\) a [[differential-geometry/kahler-manifold|Kähler manifold]] [Voisin, §3.1].
+Conversely, the [[differential-geometry/fundamental-form-almost-hermitian|fundamental form]] \(\omega(X,Y)=g(JX,Y)\) of a [[fiber-bundles/hermitian-metric|Hermitian metric]] is a Kähler form exactly when it is closed. Thus specifying a Kähler form on \((M,J)\) is equivalent to specifying a [[differential-geometry/kahler-metric|Kähler metric]], and it makes \((M,J,g)\) a [[differential-geometry/kahler-manifold|Kähler manifold]].
 
 ## Local potentials
 

@@ -19,7 +19,7 @@ B_Y(0,c)\subseteq T(B_X(0,1)).
 \]
 By scaling and translation, this quantitative inclusion gives openness at
 every point. Surjectivity is essential: a proper [[convex-analysis/linear-subspace|linear subspace]] need not be
-open [Conway, Chapter VI].
+open.
 
 ## Proof mechanism
 

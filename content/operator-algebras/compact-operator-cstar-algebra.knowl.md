@@ -46,8 +46,7 @@ representation]] is unitarily equivalent to its defining action on
 [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate
 representation]] is an amplification of that action. These facts make
 compact-operator algebras the elementary pieces in the representation theory
-of type I \(C^*\)-algebras
-[Davidson, §I.4].
+of type I \(C^*\)-algebras.
 
 ## Multiplier algebra and examples
 

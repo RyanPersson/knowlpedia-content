@@ -29,8 +29,7 @@ For a finitely supported function \(f:\Gamma\to\mathbb C\), write
 Completing \(\lambda(\mathbb C[\Gamma])\) in [[linear-algebra/operator-norm|operator norm]] gives
 [[operator-algebras/reduced-group-cstar-algebra|\(C_r^*(\Gamma)\)]]. Taking
 the supremum over the integrated forms of all unitary representations gives
-[[operator-algebras/full-group-cstar-algebra|\(C^*(\Gamma)\)]]
-[Brown–Ozawa, §2.5].
+[[operator-algebras/full-group-cstar-algebra|\(C^*(\Gamma)\)]].
 
 ## Comparison of the completions
 

@@ -33,8 +33,7 @@ Thus operator-algebraic questions about \(\pi(f)\) can often be reduced to
 almost-everywhere questions about the fibers. This relation also transports
 direct-integral decompositions between [[algebra-representation-theory/group-representation|group representations]] and
 representations of the
-[[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]]
-[Folland, §7.4].
+[[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]].
 
 ## Decomposition and multiplicity
 
@@ -45,8 +44,7 @@ fibers with a measurable multiplicity function. The
 [[harmonic-analysis/plancherel-measure-nonabelian|Plancherel measure]].
 Outside the type I setting, irreducible decompositions can have severe
 nonuniqueness, so direct integrals are often taken instead over factor
-representations
-[Dixmier, §18.7].
+representations.
 
 ## Conventions and scope
 

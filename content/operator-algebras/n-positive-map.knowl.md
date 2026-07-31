@@ -31,8 +31,7 @@ If \(\Phi\) is \(n\)-positive, then it is \(m\)-positive for every
 \(1\leq m\leq n\), by embedding \(M_m(A)\) as a corner of \(M_n(A)\).
 The converses fail in general. For maps out of \(M_k(\mathbb C)\),
 \(k\)-positivity already implies complete positivity, but this
-finite-dimensional cutoff depends on the size of the domain
-[Paulsen, Chapter 2].
+finite-dimensional cutoff depends on the size of the domain.
 
 ## Schwarz inequality
 

@@ -27,7 +27,7 @@ the chosen measure; normally \(m(\pi)\geq1\) on the chosen carrier of
 
 ## What it classifies
 
-Under the stated type I and separability hypotheses, the measure class of \(\mu\) and the almost-everywhere [[shared-foundations/equivalence-class|equivalence class]] of \(m\) determine \(U\) up to unitary equivalence. Conversely, equivalent representations have the same spectral measure class and multiplicity function after identifying [[measure-theory/null-set|null sets]]. This uniqueness is the central classification feature of type I disintegration [Folland, §7.4].
+Under the stated type I and separability hypotheses, the measure class of \(\mu\) and the almost-everywhere [[shared-foundations/equivalence-class|equivalence class]] of \(m\) determine \(U\) up to unitary equivalence. Conversely, equivalent representations have the same spectral measure class and multiplicity function after identifying [[measure-theory/null-set|null sets]]. This uniqueness is the central classification feature of type I disintegration.
 
 The value \(m(\pi)=n\) means that the fiber contains \(n\) copies of \(\pi\); \(m(\pi)=\infty\) means countably infinite multiplicity in the separable setting. Multiplicity is therefore fiberwise, rather than the measure of the set on which \(\pi\) occurs.
 

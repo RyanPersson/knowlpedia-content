@@ -49,8 +49,6 @@ wavefront directions:
 \]
 More delicate transversality conditions on wavefront sets govern whether
 products and pullbacks of distributions exist. These microlocal criteria, and
-the transformation law under diffeomorphisms, are developed in
-[Hörmander, Chapter 8].
 
 ## Examples and geometric meaning
 

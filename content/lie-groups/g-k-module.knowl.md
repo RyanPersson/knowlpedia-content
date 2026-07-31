@@ -21,7 +21,7 @@ The \(\mathfrak g\)-action extends uniquely to an action of the [[lie-groups/uni
 k\cdot(u\cdot v)=(\operatorname{Ad}(k)u)\cdot(k\cdot v)
 \qquad (u\in U(\mathfrak g)).
 \]
-Thus a \((\mathfrak g,K)\)-module retains both differential operators coming from \(G\) and the discrete decomposition into irreducible compact-group types. Wallach gives this definition and its basic algebraic consequences in [§3.3].
+Thus a \((\mathfrak g,K)\)-module retains both differential operators coming from \(G\) and the discrete decomposition into irreducible compact-group types.
 
 ## Relation to group representations
 

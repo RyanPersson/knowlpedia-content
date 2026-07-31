@@ -26,8 +26,7 @@ Choose a maximal family of mutually orthogonal equivalent
 [[operator-algebras/minimal-projection|minimal projections]]. Matrix units
 constructed between them identify the factor with all bounded operators on a
 Hilbert space. Consequently the isomorphism class of a type I factor is
-determined by the cardinal dimension of that Hilbert space
-[Takesaki, Chapter V, §1].
+determined by the cardinal dimension of that Hilbert space.
 
 When \(\dim K=n<\infty\), the factor is \(M_n(\mathbb C)\) and is called type
 \(\mathrm{I}_n\). When \(K\) is infinite-dimensional, \(B(K)\) is often

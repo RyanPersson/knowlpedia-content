@@ -43,7 +43,7 @@ statements about the cardinality of a set. A von Neumann algebra is type III
 exactly when every nonzero projection is infinite, while semifinite algebras
 have enough nonzero finite subprojections to meet every nonzero projection.
 These projection comparisons underlie the Murray–von Neumann type
-classification [Kadison–Ringrose, §6.3].
+classification.
 
 ## References
 

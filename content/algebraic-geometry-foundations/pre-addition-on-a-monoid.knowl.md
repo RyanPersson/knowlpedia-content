@@ -22,7 +22,6 @@ Explicitly, if \(\sum a_i\equiv\sum b_j\) and \(\sum c_k\equiv\sum d_\ell\), the
 \[
 \sum a_i+\sum c_k\equiv\sum b_j+\sum d_\ell
 \]
-and
 \[
 \sum_{i,k}a_ic_k\equiv\sum_{j,\ell}b_jd_\ell.
 \]

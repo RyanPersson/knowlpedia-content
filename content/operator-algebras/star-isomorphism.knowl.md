@@ -28,8 +28,7 @@ Consequently it is a homeomorphism for the norm topologies and preserves
 completeness, spectra, positivity, and
 [[operator-algebras/continuous-functional-calculus|continuous functional
 calculus]].
-No boundedness or isometry hypothesis needs to be added to the definition
-[Murphy, §2.1].
+No boundedness or isometry hypothesis needs to be added to the definition.
 
 More generally, a
 [[operator-algebras/faithful-star-homomorphism|faithful

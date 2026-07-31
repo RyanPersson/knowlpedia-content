@@ -33,8 +33,7 @@ q_{\boldsymbol{\xi}}(T)=
 where \((\xi_n)\) ranges over square-summable sequences in \(H\). The two sums
 separately measure ultrastrong convergence of \(T\) and \(T^*\). A faithful
 [[operator-algebras/normal-representation|normal representation]] gives the
-same intrinsic topology
-[Takesaki, Chapter III, §2].
+same intrinsic topology.
 
 ## Comparison with neighboring topologies
 

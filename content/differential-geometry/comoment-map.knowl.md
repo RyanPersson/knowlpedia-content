@@ -24,7 +24,7 @@ A [[fiber-bundles/moment-map|moment map]] \(\mu:M\to\mathfrak g^*\) determines t
 \[
 c_\mu(\xi)=\mu^\xi=\langle\mu,\xi\rangle.
 \]
-The differential condition for \(c_\mu\) is exactly the componentwise moment-map identity. Under the conventions in the core, the bracket condition is infinitesimal equivariance of \(\mu\); for connected \(G\), it is equivalent to global coadjoint equivariance [Ortega and Ratiu, §4.2].
+The differential condition for \(c_\mu\) is exactly the componentwise moment-map identity. Under the conventions in the core, the bracket condition is infinitesimal equivariance of \(\mu\); for connected \(G\), it is equivalent to global coadjoint equivariance.
 
 Conversely, a comoment map defines \(\mu\) uniquely by \(\langle\mu(x),\xi\rangle=c(\xi)(x)\), because \(c\) is linear in \(\xi\).
 

@@ -30,8 +30,7 @@ is a \(*\)-automorphism. Such automorphisms are inner; automorphisms not of this
 form are outer. For a nonunital algebra, [[algebra-groups/inner-automorphism|inner automorphisms]] are naturally
 implemented by unitaries in the
 [[operator-algebras/multiplier-algebra|multiplier algebra]]. The quotient by
-inner automorphisms records genuinely external symmetries
-[Pedersen, §1.2 and Chapter 8].
+inner automorphisms records genuinely external symmetries.
 
 ## Preserved structure
 
@@ -39,8 +38,7 @@ Every \(*\)-automorphism is isometric and preserves spectra, positivity,
 ideals, [[operator-algebras/approximate-identity|approximate identities]], and functional calculus. It therefore acts on
 the state space by pullback and transports representations by composition.
 For commutative \(A=C_0(X)\), \(*\)-automorphisms correspond contravariantly to
-homeomorphisms of \(X\), giving the basic geometric model
-[Murphy, §§2.1 and 2.2].
+homeomorphisms of \(X\), giving the basic geometric model.
 
 ## Dynamical conventions and near-misses
 

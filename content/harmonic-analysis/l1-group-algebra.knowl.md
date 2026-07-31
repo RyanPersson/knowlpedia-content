@@ -45,7 +45,7 @@ which is a nondegenerate contractive \(*\)-representation of \(L^1(G)\).
 The supremum of the resulting [[linear-algebra/operator-norm|operator norms]] produces the full group
 \(C^*\)-norm, while the left [[algebra-representation-theory/regular-representation|regular representation]] produces the reduced
 group \(C^*\)-norm. Thus the two group \(C^*\)-algebras are completions of
-the same convolution algebra [Folland, Chapters 2–3 and 7].
+the same convolution algebra.
 
 ## Units and approximate units
 

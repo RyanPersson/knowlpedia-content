@@ -25,7 +25,7 @@ If \(X^\#_\mu=0\), then \(X\) lies in the stabilizer Lie algebra \(\mathfrak g_\
 
 ## Closedness and invariance
 
-Equivariance of the coadjoint action and invariance of the [[fiber-bundles/lie-bracket|Lie bracket]] imply \(G\)-invariance of \(\omega_{\mathrm{KKS}}\). Evaluating the [[fiber-bundles/exterior-derivative|exterior derivative]] on [[differential-geometry/infinitesimal-generator-lie-action|fundamental vector fields]] reduces \(d\omega_{\mathrm{KKS}}=0\) to the Jacobi identity. These properties are part of the canonical orbit construction described in [Kostant, pp. 87–208].
+Equivariance of the coadjoint action and invariance of the [[fiber-bundles/lie-bracket|Lie bracket]] imply \(G\)-invariance of \(\omega_{\mathrm{KKS}}\). Evaluating the [[fiber-bundles/exterior-derivative|exterior derivative]] on [[differential-geometry/infinitesimal-generator-lie-action|fundamental vector fields]] reduces \(d\omega_{\mathrm{KKS}}=0\) to the Jacobi identity.
 
 ## Moment map and sign convention
 

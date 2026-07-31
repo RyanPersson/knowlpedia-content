@@ -25,11 +25,10 @@ For the convention in the core, the lowered tensor satisfies
 \operatorname{Rm}(X,Y,Z,W)=-\operatorname{Rm}(Y,X,Z,W)
 =-\operatorname{Rm}(X,Y,W,Z)
 \]
-and
 \[
 \operatorname{Rm}(X,Y,Z,W)=\operatorname{Rm}(Z,W,X,Y).
 \]
-It also obeys the first [[fiber-bundles/bianchi-identity|Bianchi identity]]: the cyclic sum of \(R(X,Y)Z\) over \(X,Y,Z\) vanishes. These identities depend on both metric compatibility and vanishing torsion of the Levi–Civita connection; see [Lee, Chapter 7, “Curvature”].
+It also obeys the first [[fiber-bundles/bianchi-identity|Bianchi identity]]: the cyclic sum of \(R(X,Y)Z\) over \(X,Y,Z\) vanishes. These identities depend on both metric compatibility and vanishing torsion of the Levi–Civita connection.
 
 ## Geometric information
 

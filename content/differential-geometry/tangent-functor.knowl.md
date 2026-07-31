@@ -32,7 +32,7 @@ There is a canonical diffeomorphism \(T(M\times N)\cong TM\times TN\), under whi
 
 ## Conventions and scope
 
-This knowl concerns the ordinary first tangent functor on finite-dimensional smooth manifolds. [[differential-geometry/iterated-tangent-bundle|Iterated tangent bundles]] \(T^kM\), higher-order tangent functors, tangent functors on manifolds with corners, and tangent constructions in synthetic or infinite-dimensional differential geometry require additional conventions. The functorial formulation and its natural transformations are treated in [Kolář–Michor–Slovák, Chapter VI].
+This knowl concerns the ordinary first tangent functor on finite-dimensional smooth manifolds. [[differential-geometry/iterated-tangent-bundle|Iterated tangent bundles]] \(T^kM\), higher-order tangent functors, tangent functors on manifolds with corners, and tangent constructions in synthetic or infinite-dimensional differential geometry require additional conventions.
 
 ## References
 

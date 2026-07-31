@@ -35,8 +35,7 @@ every [[functional-analysis/bounded-commutator|bounded commutator]] \([D,a]\)
 belongs to \(\operatorname{Dom}\delta^\infty\). Thus regularity means
 boundedness of every iterated commutator with \(|D|\), not merely boundedness
 of \([D,a]\). This condition supplies the operator analogue of smooth
-coefficients needed by the pseudodifferential calculus in the local index formula
-[Connes–Moscovici, §II].
+coefficients needed by the pseudodifferential calculus in the local index formula.
 
 ## Graph norms and smooth operator algebra
 

@@ -16,7 +16,7 @@ An [[lie-groups/admissible-representation-real-reductive-group|admissible repres
 
 ## Strength and limitations
 
-Local integrability across the singular set is an essential part of the theorem; analyticity is asserted only on the regular semisimple set. The result does not say that the representing function extends continuously, smoothly, or analytically across singular elements. Related Lie-algebra and group versions require hypotheses appropriate to the chosen real reductive or semisimple setting [Harish-Chandra, 1965].
+Local integrability across the singular set is an essential part of the theorem; analyticity is asserted only on the regular semisimple set. The result does not say that the representing function extends continuously, smoothly, or analytically across singular elements. Related Lie-algebra and group versions require hypotheses appropriate to the chosen real reductive or semisimple setting.
 
 ## Proof architecture
 

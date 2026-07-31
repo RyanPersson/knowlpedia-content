@@ -24,7 +24,7 @@ The lemma does not say that every closed form on a manifold is globally exact. T
 
 ## Role in de Rham theory
 
-The lemma says that the [[differential-geometry/de-rham-complex|de Rham complex]] is locally exact in positive degrees. Together with [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|smooth partitions of unity]], this local statement is the key analytic input in the [[differential-geometry/de-rham-theorem|de Rham theorem]]; see [Bott and Tu, Chapter I].
+The lemma says that the [[differential-geometry/de-rham-complex|de Rham complex]] is locally exact in positive degrees. Together with [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|smooth partitions of unity]], this local statement is the key analytic input in the [[differential-geometry/de-rham-theorem|de Rham theorem]].
 
 ## References
 

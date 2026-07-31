@@ -25,7 +25,7 @@ Fix \(g_0\in G\) and \(\xi\in H\). Unitarity gives
 \|\pi(g)\xi-\pi(g_0)\xi\|^2
 =2\|\xi\|^2-2\operatorname{Re}\langle\pi(g)\xi,\pi(g_0)\xi\rangle.
 \]
-Weak continuity makes the right-hand side tend to zero as \(g\to g_0\). Hence every [[fiber-bundles/orbit-map|orbit map]] \(g\mapsto\pi(g)\xi\) is norm-continuous. Strong continuity plainly implies weak continuity by continuity of the [[linear-algebra/inner-product|inner product]] [Folland, §3.1].
+Weak continuity makes the right-hand side tend to zero as \(g\to g_0\). Hence every [[fiber-bundles/orbit-map|orbit map]] \(g\mapsto\pi(g)\xi\) is norm-continuous. Strong continuity plainly implies weak continuity by continuity of the [[linear-algebra/inner-product|inner product]].
 
 ## Scope of the equivalence
 

@@ -36,8 +36,7 @@ is hereditary and invariant under unitary conjugation. When
 \(\tau(1)<\infty\), additivity and homogeneity extend \(\tau\) uniquely to a
 bounded tracial
 [[operator-algebras/positive-linear-functional|positive linear functional]]
-on all of \(M\)
-[Takesaki, Chapter V].
+on all of \(M\).
 
 ## Examples and distinctions
 

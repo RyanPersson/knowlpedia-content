@@ -31,8 +31,7 @@ A normal UCP map is contractive and satisfies the [[operator-algebras/kadison-sc
 \]
 Compositions of normal UCP maps are again normal UCP. These properties follow
 from unital complete positivity, while normality ensures compatibility with
-increasing limits and preduals
-[Paulsen, Chapters 2–4].
+increasing limits and preduals.
 
 ## Examples
 

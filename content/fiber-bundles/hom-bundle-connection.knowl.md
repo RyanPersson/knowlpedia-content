@@ -30,7 +30,7 @@ R^{\operatorname{Hom}}(X,Y)T
 =
 R^F(X,Y)\circ T-T\circ R^E(X,Y).
 \]
-In particular, on \(\operatorname{End}(E)\) one has \(R^{\operatorname{End}}(X,Y)T=[R^E(X,Y),T]\). This commutator formula is the reason curvature naturally acts on endomorphism-valued tensors; it follows from the standard induced-connection construction in [Besse, Appendix A].
+In particular, on \(\operatorname{End}(E)\) one has \(R^{\operatorname{End}}(X,Y)T=[R^E(X,Y),T]\). This commutator formula is the reason curvature naturally acts on endomorphism-valued tensors.
 
 ## Local expression and parallel maps
 

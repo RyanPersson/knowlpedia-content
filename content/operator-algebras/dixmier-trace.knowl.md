@@ -31,8 +31,6 @@ most logarithmically, so the sequence supplied to \(\omega\) is bounded. The
 generalized limit extracts an asymptotic coefficient even when the ordinary
 limit does not exist. Dilation invariance is the ingredient that makes the
 result a trace rather than merely a unitarily invariant functional. The
-construction and the precise admissible generalized limits are developed in
-[Lord–Sukochev–Zanin, Chapters 5–6].
 
 ## Measurable operators
 
@@ -51,7 +49,6 @@ instead detects the critical \(1/n\) decay scale and vanishes on that smaller
 ideal. This singular behavior permits the noncommutative integral of a
 critical-order infinitesimal in a
 [[noncommutative-geometry/spectral-triple|spectral triple]]; Connes develops
-this role in [Noncommutative Geometry, Chapter IV].
 
 ## Conventions and scope
 

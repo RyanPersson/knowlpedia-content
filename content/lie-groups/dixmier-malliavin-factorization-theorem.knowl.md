@@ -20,7 +20,7 @@ with \(f_j\in C_c^\infty(G)\) and \(v_j\in E\). Hence the smooth-vector space eq
 
 ## Support control
 
-The function factorization is local in one factor: a neighborhood \(U\) of the identity may be fixed in advance and the factors chosen so that one factor in each convolution has support in \(U\), while the other has support controlled by that of \(f\). This strengthened statement is Theorem 3.1 of the original paper [Dixmier–Malliavin, Theorem 3.1].
+The function factorization is local in one factor: a neighborhood \(U\) of the identity may be fixed in advance and the factors chosen so that one factor in each convolution has support in \(U\), while the other has support controlled by that of \(f\). This strengthened statement is Theorem 3.1 of the original paper.
 
 ## From functions to vectors
 

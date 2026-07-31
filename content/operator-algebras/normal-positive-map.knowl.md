@@ -34,8 +34,7 @@ Normality is equivalent to the existence of a bounded preadjoint
 For positive maps, it is enough to test monotone preservation on increasing
 nets of projections. These formulations let one pass between weak-star
 continuity, [[operator-algebras/normal-functional|normal functionals]], and
-order convergence
-[Takesaki, chapters on normal maps and positive maps].
+order convergence.
 
 ## Examples and a non-example
 

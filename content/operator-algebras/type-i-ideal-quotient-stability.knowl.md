@@ -19,7 +19,7 @@ every [[operator-algebras/cstar-exact-sequence|short exact sequence]]
 with type I middle algebra, the ideal and quotient inherit the type I
 property. Equivalently, the class of GCR algebras is closed under passing to
 closed ideals and quotients. The result applies without separability or
-unitality assumptions [Pedersen, Proposition 6.2.6].
+unitality assumptions.
 
 ## Representation-theoretic mechanism
 
@@ -38,8 +38,7 @@ natural.
 Type I is also an extension-stable property: if \(I\) and \(A/I\) are type I,
 then \(A\) is type I. Consequently, in a [[algebra-modules/short-exact-sequence|short exact sequence]], knowing any
 appropriate ideal–quotient decomposition permits induction through a
-[[operator-algebras/type-i-composition-series|composition series]]
-[Pedersen, Proposition 6.2.6].
+[[operator-algebras/type-i-composition-series|composition series]].
 This converse is not automatic for an arbitrary class of \(C^*\)-algebras.
 
 ## Example

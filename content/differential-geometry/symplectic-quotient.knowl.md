@@ -20,13 +20,13 @@ If \(\alpha\) is a [[fiber-bundles/regular-value|regular value]] and the \(G_\al
 \[
 \pi^*\omega_\alpha=i^*\omega,
 \]
-where \(i:\mu^{-1}(\alpha)\hookrightarrow M\) is inclusion and \(\pi:\mu^{-1}(\alpha)\to M/\!/\!_\alpha G\) is the quotient map. This is the regular Marsden–Weinstein reduction theorem [Ortega and Ratiu, Chapter 6].
+where \(i:\mu^{-1}(\alpha)\hookrightarrow M\) is inclusion and \(\pi:\mu^{-1}(\alpha)\to M/\!/\!_\alpha G\) is the quotient map. This is the regular Marsden–Weinstein reduction theorem.
 
 ## Examples and singular behavior
 
 Let \(S^1\) act on \(\mathbb C^n\) by scalar multiplication, with its standard symplectic form. Under the convention \(d\langle\mu,\xi\rangle=\iota_{\xi_M}\omega\) used here, a moment map is \(\mu(z)=-\tfrac12\lVert z\rVert^2\). For \(\alpha<0\), the level set is a sphere and its quotient is \(\mathbb{CP}^{n-1}\), carrying a scaled Fubini–Study form.
 
-Regularity is not merely cosmetic. For a nonfree action or a [[differential-geometry/critical-value-of-a-smooth-map|critical value]], orbit dimensions can jump, so the quotient need not be a manifold; [[differential-geometry/singular-symplectic-reduction|singular symplectic reduction]] instead organizes it into symplectic strata [Ortega and Ratiu, Chapters 8–9].
+Regularity is not merely cosmetic. For a nonfree action or a [[differential-geometry/critical-value-of-a-smooth-map|critical value]], orbit dimensions can jump, so the quotient need not be a manifold; [[differential-geometry/singular-symplectic-reduction|singular symplectic reduction]] instead organizes it into symplectic strata.
 
 ## Conventions and scope
 

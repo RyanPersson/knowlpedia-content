@@ -17,7 +17,7 @@ The group satisfies the **Følner condition** if it admits such a net. For a dis
 
 ## Relation to amenability
 
-The Følner condition gives almost invariant probability densities by normalizing the indicators \(1_{F_i}\), and hence produces a [[harmonic-analysis/invariant-mean|left-invariant mean]] through a weak-star cluster point. Conversely, standard Følner criteria recover nearly invariant sets from amenability under the usual locally compact hypotheses. This connects geometric boundary smallness with [[harmonic-analysis/amenable-locally-compact-group|amenability]] [Paterson, Chapters 1 and 4].
+The Følner condition gives almost invariant probability densities by normalizing the indicators \(1_{F_i}\), and hence produces a [[harmonic-analysis/invariant-mean|left-invariant mean]] through a weak-star cluster point. Conversely, standard Følner criteria recover nearly invariant sets from amenability under the usual locally compact hypotheses. This connects geometric boundary smallness with [[harmonic-analysis/amenable-locally-compact-group|amenability]].
 
 ## Examples and non-examples
 

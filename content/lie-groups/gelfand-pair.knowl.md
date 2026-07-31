@@ -31,8 +31,7 @@ pair exactly when the
 every [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]] of \(G\) has at most one \(K\)-fixed vector. These
 equivalences connect
 commutativity of convolution with the one-dimensional spherical eigenspaces
-that underlie spherical functions
-[Folland, §9.5].
+that underlie spherical functions.
 
 ## Examples and non-examples
 

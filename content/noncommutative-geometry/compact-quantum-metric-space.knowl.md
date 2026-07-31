@@ -25,11 +25,11 @@ The weak-star metrizability condition is equivalent to total boundedness of the 
 \[
 \{a\in A:L(a)\leq1,\ \varphi_0(a)=0\}
 \]
-is totally bounded in the order-unit norm. This criterion is often more practical than checking the topology directly [Rieffel, §2].
+is totally bounded in the order-unit norm. This criterion is often more practical than checking the topology directly.
 
 ## Spectral triples
 
-A unital [[noncommutative-geometry/spectral-triple|spectral triple]] can supply \(L(a)=\lVert[D,a]\rVert\). Its associated [[noncommutative-geometry/connes-distance|Connes spectral distance]] has the same dual formula as \(\rho_L\). It defines a compact quantum metric space only when the zero-seminorm elements are precisely the scalars and the resulting metric induces the weak-star topology. [[functional-analysis/compact-resolvent|Compact resolvent]] of \(D\) alone does not imply either condition [Rieffel, §§1–2].
+A unital [[noncommutative-geometry/spectral-triple|spectral triple]] can supply \(L(a)=\lVert[D,a]\rVert\). Its associated [[noncommutative-geometry/connes-distance|Connes spectral distance]] has the same dual formula as \(\rho_L\). It defines a compact quantum metric space only when the zero-seminorm elements are precisely the scalars and the resulting metric induces the weak-star topology. [[functional-analysis/compact-resolvent|Compact resolvent]] of \(D\) alone does not imply either condition.
 
 ## Classical example and a near miss
 

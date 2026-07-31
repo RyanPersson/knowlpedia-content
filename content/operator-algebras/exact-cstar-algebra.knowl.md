@@ -36,7 +36,7 @@ It is enough to test canonical ideal–quotient sequences. For every closed
 The algebra \(A\) is exact precisely when this map is injective, hence a
 \(*\)-isomorphism, for every pair \((B,I)\). Exactness can equivalently be
 placed in the first tensor factor because the minimal tensor product is
-symmetric [Brown–Ozawa, §2.3].
+symmetric.
 
 ## Permanence and examples
 
@@ -49,8 +49,7 @@ but the converse fails. For example, the
 [[algebra-groups/free-group|free group]] on two generators is exact and
 nonnuclear. This example separates exactness, which concerns the behavior of
 the minimal tensor product on extensions, from nuclearity, which requires
-agreement of the minimal and maximal tensor norms in every tensor product
-[Brown–Ozawa, Chapter 2].
+agreement of the minimal and maximal tensor norms in every tensor product.
 
 ## Conventions and scope
 

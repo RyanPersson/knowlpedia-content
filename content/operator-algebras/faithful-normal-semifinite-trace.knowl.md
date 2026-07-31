@@ -27,8 +27,7 @@ the identity in the
 they generate the relative
 compact ideal used in semifinite Fredholm theory. Normality ensures that the
 trace of an increasing approximation converges to the trace of its supremum;
-faithfulness ensures that trace zero detects the zero positive element
-[Takesaki, Chapter V].
+faithfulness ensures that trace zero detects the zero positive element.
 
 ## Examples and structural role
 
@@ -42,8 +41,7 @@ scalar multiplication.
 A von Neumann algebra is
 [[operator-algebras/semifinite-von-neumann-algebra|semifinite]] exactly when it
 admits an f.n.s. trace. Type III algebras admit [[operator-algebras/normal-semifinite-faithful-weight|n.s.f. weights]] but no f.n.s.
-trace; traciality is the decisive extra property
-[Takesaki, Chapter V].
+trace; traciality is the decisive extra property.
 
 ## Conventions and scope
 

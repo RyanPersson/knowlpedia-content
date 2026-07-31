@@ -20,7 +20,7 @@ For a normalized odd module,
 \[
 P=\frac{I+F}{2}
 \]
-is an [[linear-algebra/orthogonal-projection|orthogonal projection]]. Compactness of \([F,\pi(a)]\) is equivalent to compactness of \([P,\pi(a)]\). Consequently \(P\pi(a)P\) is multiplicative modulo [[linear-algebra/compact-operator|compact operators]], which is the Toeplitz-type mechanism behind the [[noncommutative-geometry/odd-index-pairing|odd index pairing]]. [Connes, Chapter IV, Section 1, Proposition 2(b)].
+is an [[linear-algebra/orthogonal-projection|orthogonal projection]]. Compactness of \([F,\pi(a)]\) is equivalent to compactness of \([P,\pi(a)]\). Consequently \(P\pi(a)P\) is multiplicative modulo [[linear-algebra/compact-operator|compact operators]], which is the Toeplitz-type mechanism behind the [[noncommutative-geometry/odd-index-pairing|odd index pairing]].
 
 For an unnormalized module over a unital algebra represented unitally, the image of \((I+F)/2\) in the Calkin algebra is a projection. In the nonunital convention the corresponding assertion is only local relative to the represented algebra. One can avoid this distinction by first passing to a normalized representative.
 

@@ -32,8 +32,7 @@ e_n=f_n(h),\qquad f_n(t)=\min\{nt,1\},
 \]
 is an [[operator-algebras/approximate-identity|approximate identity]] for
 \(A\). Consequently, \(A\) contains a strictly positive element exactly when
-it is [[operator-algebras/sigma-unital-cstar-algebra|\(\sigma\)-unital]]
-[Pedersen, §1.4].
+it is [[operator-algebras/sigma-unital-cstar-algebra|\(\sigma\)-unital]].
 
 ## Examples and non-examples
 

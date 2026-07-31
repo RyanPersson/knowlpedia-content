@@ -28,8 +28,7 @@ Form the algebraic [[operator-algebras/involutive-algebra|involutive algebra]] o
 the zero-norm elements and completes. This produces the universal algebra
 when every supremum is finite. Algebraic consistency alone is insufficient:
 relations can admit representations while failing to bound a generator, so
-no universal \(C^*\)-norm exists
-[Loring, Chapter 3].
+no universal \(C^*\)-norm exists.
 
 ## Standard examples
 

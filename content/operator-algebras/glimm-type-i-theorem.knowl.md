@@ -21,8 +21,7 @@ theorem says that the following are equivalent:
 open Hausdorff subset.
 
 Thus type I is exactly the regime in which [[algebra-representation-theory/irreducible-representation|irreducible representations]] are
-topologically separated well enough to admit a tractable classification
-[Glimm, main theorem].
+topologically separated well enough to admit a tractable classification.
 
 ## Meaning of the kernel condition
 
@@ -37,8 +36,7 @@ primitive ideal alone cannot resolve.
 Condition 4 is often summarized by saying that \(\widehat A\) is almost
 Hausdorff. It supplies Hausdorff pieces densely inside every closed
 representation-theoretic stratum and underlies the construction of
-transfinite composition series with continuous-trace layers
-[Dixmier, Chapter 4].
+transfinite composition series with continuous-trace layers.
 
 ## Conventions and scope
 

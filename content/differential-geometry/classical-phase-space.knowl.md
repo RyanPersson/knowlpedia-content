@@ -16,7 +16,7 @@ Thus the symplectic form belongs to the kinematic structure of phase space, wher
 
 ## Cotangent-bundle model
 
-For a configuration manifold \(Q\), the standard phase space is the [[fiber-bundles/cotangent-bundle|cotangent bundle]] \(T^*Q\). Its points \((q,p)\) record position and momentum, and its canonical symplectic form is obtained from the tautological \(1\)-form. This construction is intrinsic and does not require a metric on \(Q\); see [Arnol'd, chapters on Hamiltonian mechanics].
+For a configuration manifold \(Q\), the standard phase space is the [[fiber-bundles/cotangent-bundle|cotangent bundle]] \(T^*Q\). Its points \((q,p)\) record position and momentum, and its canonical symplectic form is obtained from the tautological \(1\)-form. This construction is intrinsic and does not require a metric on \(Q\).
 
 ## Observables and evolution
 

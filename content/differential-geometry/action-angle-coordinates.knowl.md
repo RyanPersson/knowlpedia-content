@@ -16,11 +16,11 @@ such that \(\omega=\sum_{j=1}^n dI_j\wedge d\theta_j\) and the functions of a sp
 
 ## Geometric meaning
 
-The projection \(B\times\mathbb T^n\to B\) describes a local fibration by invariant [[differential-geometry/lagrangian-submanifold|Lagrangian]] tori. Actions may be obtained by integrating a local primitive of the symplectic form around a basis of one-cycles on each torus; changing that integral basis transforms the actions by an integral affine change. Angles then parametrize the commuting flows around the torus. [Arnol'd, Chapter 10] gives the classical construction.
+The projection \(B\times\mathbb T^n\to B\) describes a local fibration by invariant [[differential-geometry/lagrangian-submanifold|Lagrangian]] tori. Actions may be obtained by integrating a local primitive of the symplectic form around a basis of one-cycles on each torus; changing that integral basis transforms the actions by an integral affine change. Angles then parametrize the commuting flows around the torus.
 
 ## Existence and limitations
 
-The [[differential-geometry/liouville-arnold-theorem|Liouville–Arnold theorem]] supplies action-angle coordinates near a compact connected [[differential-geometry/regular-level-set|regular fiber]] of the integral map. It is a local statement around a torus, not a guarantee of one coordinate system over the entire regular locus. Monodromy of the period lattice and the topology of the torus fibration can obstruct global action-angle coordinates [Duistermaat, §§1–3].
+The [[differential-geometry/liouville-arnold-theorem|Liouville–Arnold theorem]] supplies action-angle coordinates near a compact connected [[differential-geometry/regular-level-set|regular fiber]] of the integral map. It is a local statement around a torus, not a guarantee of one coordinate system over the entire regular locus. Monodromy of the period lattice and the topology of the torus fibration can obstruct global action-angle coordinates.
 
 ## Examples and conventions
 

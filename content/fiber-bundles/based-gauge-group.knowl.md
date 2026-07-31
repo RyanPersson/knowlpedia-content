@@ -20,7 +20,7 @@ Replacing \(p_0\) by \(p_0g\) conjugates the evaluation description by \(g\). Th
 
 ## Action on connections
 
-The based group acts by pullback on the space of [[fiber-bundles/principal-connection|principal connections]]. If \(M\) is connected, a gauge transformation preserving a connection is determined by its value at one point through parallel transport. Consequently, its stabilizer inside \(\mathcal G_{p_0}(P)\) is trivial. This is why based gauge groups are used to form free gauge quotients; see [Freed and Uhlenbeck, Chapter 3].
+The based group acts by pullback on the space of [[fiber-bundles/principal-connection|principal connections]]. If \(M\) is connected, a gauge transformation preserving a connection is determined by its value at one point through parallel transport. Consequently, its stabilizer inside \(\mathcal G_{p_0}(P)\) is trivial. This is why based gauge groups are used to form free gauge quotients.
 
 ## Conventions and scope
 

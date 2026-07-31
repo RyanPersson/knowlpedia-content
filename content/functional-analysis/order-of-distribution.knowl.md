@@ -36,8 +36,7 @@ derivatives:
 \leq \operatorname{ord}(T)+|\alpha|.
 \]
 These estimates follow directly from the definition of
-[[functional-analysis/distributional-derivative|distributional derivative]]
-[Hörmander, §2.3].
+[[functional-analysis/distributional-derivative|distributional derivative]].
 
 ## Local and global scope
 
@@ -46,8 +45,7 @@ finite-order estimate on every compact \(K\), but the required integer may
 grow with \(K\). Consequently every distribution has finite order locally,
 while not every distribution has one finite global order on a noncompact
 open set. A
-[[functional-analysis/compactly-supported-distribution|compactly supported distribution]] does have finite order
-[Folland, Chapter 9].
+[[functional-analysis/compactly-supported-distribution|compactly supported distribution]] does have finite order.
 
 ## Conventions
 

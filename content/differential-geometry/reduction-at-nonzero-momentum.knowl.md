@@ -22,7 +22,7 @@ where \(i\) is inclusion and \(\pi\) is the orbit projection. Its dimension is \
 
 Equivariance gives \(\mu(g\cdot m)=\operatorname{Ad}_g^*\mu(m)\). Therefore \(g\) preserves the individual level \(\mu^{-1}(\alpha)\) exactly when \(g\in G_\alpha\); the full group usually moves this level through the family \(\mu^{-1}(\operatorname{Ad}_g^*\alpha)\). This is why quotienting \(\mu^{-1}(\alpha)\) by all of \(G\) is generally undefined.
 
-For \(m\in\mu^{-1}(\alpha)\), the kernel of \(i^*\omega\) equals the [[differential-geometry/tangent-space|tangent space]] to the \(G_\alpha\)-orbit. Thus the restricted form is basic for the free [[lie-groups/proper-action-lie|proper action]] and descends to a nondegenerate two-form. Closedness descends from \(d\omega=0\) [Ortega and Ratiu, §4.3].
+For \(m\in\mu^{-1}(\alpha)\), the kernel of \(i^*\omega\) equals the [[differential-geometry/tangent-space|tangent space]] to the \(G_\alpha\)-orbit. Thus the restricted form is basic for the free [[lie-groups/proper-action-lie|proper action]] and descends to a nondegenerate two-form. Closedness descends from \(d\omega=0\).
 
 ## Dimension and special cases
 

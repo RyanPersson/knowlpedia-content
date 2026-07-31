@@ -18,7 +18,7 @@ smoothly. After choosing identifications of the restricted bundles, these maps m
 
 ## Analytical mechanism
 
-On a ball where \(\|F_A\|_{L^2}\) is sufficiently small, Uhlenbeck’s gauge-fixing theorem places \(A\) in [[fiber-bundles/coulomb-gauge|Coulomb gauge]] and controls its Sobolev norm by the curvature norm [Uhlenbeck, Theorem 1.3]. Weak Sobolev compactness then gives a convergent subsequence on such balls. A uniform total-energy bound permits only finitely many balls where the small-energy threshold fails, producing the bubbling set \(S\).
+On a ball where \(\|F_A\|_{L^2}\) is sufficiently small, Uhlenbeck’s gauge-fixing theorem places \(A\) in [[fiber-bundles/coulomb-gauge|Coulomb gauge]] and controls its Sobolev norm by the curvature norm. Weak Sobolev compactness then gives a convergent subsequence on such balls. A uniform total-energy bound permits only finitely many balls where the small-energy threshold fails, producing the bubbling set \(S\).
 
 Elliptic regularity for the instanton equation upgrades weak local convergence to smooth convergence away from \(S\). The same local gauge theorem also underlies weak compactness results for more general sequences of connections, but the instanton hypothesis supplies the smooth limiting equation stated here.
 

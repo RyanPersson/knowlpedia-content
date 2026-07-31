@@ -29,8 +29,7 @@ then takes the supremum of the operator seminorms arising from all admissible
 Existence requires these seminorms to be finite on every element; in
 generators-and-relations language this is typically ensured by admissibility
 or explicit norm bounds. Arbitrary algebraic relations need not define a
-nonzero, or even existent, universal \(C^*\)-algebra
-[Blackadar, §II.8].
+nonzero, or even existent, universal \(C^*\)-algebra.
 
 ## Standard examples
 

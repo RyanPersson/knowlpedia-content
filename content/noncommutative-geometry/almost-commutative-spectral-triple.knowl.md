@@ -44,9 +44,7 @@ such as a sum of complex matrix algebras, gives matrix-valued functions over
 \(M\). Inner fluctuations of the product Dirac operator then split into
 ordinary gauge fields along \(M\) and finite-direction scalar fields; this is
 the mechanism used in spectral-triple models of
-[[fiber-bundles/gauge-theory|gauge theories]]
-[van Suijlekom, chapter “Almost-Commutative Manifolds and Gauge Theories,”
-pp. 137–158].
+[[fiber-bundles/gauge-theory|gauge theories]].
 
 ## Additional structures and scope
 

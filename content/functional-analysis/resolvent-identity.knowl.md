@@ -38,8 +38,7 @@ Differentiating with this sign convention gives
 \frac{d}{d\lambda}R_T(\lambda)=-R_T(\lambda)^2.
 \]
 These conclusions and their higher-derivative versions are standard tools in
-spectral perturbation theory
-[Kato, Chapter III, §6].
+spectral perturbation theory.
 
 ## Comparison of two operators
 

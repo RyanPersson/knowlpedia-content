@@ -37,8 +37,7 @@ equivariance; the Hilbert norm is then independent of the continuous
 induction parameter. If \(\tau\) is unitary, [[lie-groups/left-translation|left translation]] gives a unitary
 representation. Equivalently, the half-modular factor in the equivariant
 function model packages the Radon–Nikodym correction in
-[[harmonic-analysis/unitary-induced-representation|unitary induction]]
-[Knapp, Chapter VII].
+[[harmonic-analysis/unitary-induced-representation|unitary induction]].
 
 ## Root-theoretic form
 

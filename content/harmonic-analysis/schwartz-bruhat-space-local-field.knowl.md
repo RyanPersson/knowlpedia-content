@@ -20,7 +20,7 @@ Choose a nontrivial continuous additive character \(\psi:K\to\mathbb T\) and a [
 \[
 \widehat f(y)=\int_K f(x)\overline{\psi(xy)}\,dx
 \]
-maps \(\mathcal S(K)\) onto itself. With the self-dual normalization of Haar measure it satisfies the usual Fourier inversion formula. This common formalism lets archimedean and nonarchimedean local factors be treated in parallel [Weil, “Lattices and duality over local fields”].
+maps \(\mathcal S(K)\) onto itself. With the self-dual normalization of Haar measure it satisfies the usual Fourier inversion formula. This common formalism lets archimedean and nonarchimedean local factors be treated in parallel.
 
 ## Basic nonarchimedean examples
 

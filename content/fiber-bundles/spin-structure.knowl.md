@@ -20,7 +20,7 @@ An oriented manifold admits a spin structure exactly when the second [[fiber-bun
 \[
 w_2(TM)=0.
 \]
-When spin structures exist, their isomorphism classes form a torsor for \(H^1(M;\mathbb Z/2)\); there is generally no preferred origin in this torsor. These obstruction and classification statements are proved in [Lawson–Michelsohn, Chapter II, §2].
+When spin structures exist, their isomorphism classes form a torsor for \(H^1(M;\mathbb Z/2)\); there is generally no preferred origin in this torsor.
 
 The Riemannian definition uses orthonormal frames, but existence and equivalence do not depend on the chosen metric: changing the metric canonically transports the lifting problem to another [[fiber-bundles/oriented-frame|oriented frame]] reduction.
 
@@ -30,7 +30,7 @@ A spin structure lifts the Levi-Civita connection to \(P_{\mathrm{Spin}}(M)\). A
 
 ## Examples and non-examples
 
-The standard oriented \(\mathbb R^n\) has a spin structure obtained from its trivial oriented orthonormal frame bundle. Every oriented surface is spin; its spin structures form a torsor for \(H^1(M;\mathbb Z/2)\). Complex [[algebraic-geometry-foundations/projective-space|projective space]] \(\mathbb{CP}^2\) is oriented but not spin because \(w_2(T\mathbb{CP}^2)\neq0\). The latter computation follows from the relation between Chern and Stiefel–Whitney classes [Milnor–Stasheff, Chapter 14].
+The standard oriented \(\mathbb R^n\) has a spin structure obtained from its trivial oriented orthonormal frame bundle. Every oriented surface is spin; its spin structures form a torsor for \(H^1(M;\mathbb Z/2)\). Complex [[algebraic-geometry-foundations/projective-space|projective space]] \(\mathbb{CP}^2\) is oriented but not spin because \(w_2(T\mathbb{CP}^2)\neq0\). The latter computation follows from the relation between Chern and Stiefel–Whitney classes.
 
 ## References
 

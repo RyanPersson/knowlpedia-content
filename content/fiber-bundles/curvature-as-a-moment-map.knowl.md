@@ -28,7 +28,7 @@ d\mu^\xi_A(a)
 =\int_\Sigma\langle d_Aa,\xi\rangle
 =\int_\Sigma\langle a\wedge d_A\xi\rangle,
 \]
-with the displayed sign corresponding to one standard convention. Since the infinitesimal gauge action is \(d_A\xi\) or \(-d_A\xi\), depending on whether the action and fundamental [[fiber-bundles/vector-field|vector fields]] are defined on the left or right, this is precisely the Hamiltonian identity. The calculation appears in [Atiyah–Bott, §9].
+with the displayed sign corresponding to one standard convention. Since the infinitesimal gauge action is \(d_A\xi\) or \(-d_A\xi\), depending on whether the action and fundamental [[fiber-bundles/vector-field|vector fields]] are defined on the left or right, this is precisely the Hamiltonian identity.
 
 ## Symplectic reduction and Yang–Mills
 

@@ -33,7 +33,7 @@ The representation \(\pi\) is **self-conjugate** when it is unitarily equivalent
 
 ## Conventions and scope
 
-For a general Banach-space representation, the dual action naturally lives on the Banach dual and need not share the Hilbert-space properties used above. In finite-dimensional algebra, “contragredient” is often written using inverse transpose matrices. The Riesz identification is conjugate-linear on \(\mathcal H\) but becomes linear when its source is \(\overline{\mathcal H}\) [Folland, §3.1].
+For a general Banach-space representation, the dual action naturally lives on the Banach dual and need not share the Hilbert-space properties used above. In finite-dimensional algebra, “contragredient” is often written using inverse transpose matrices. The Riesz identification is conjugate-linear on \(\mathcal H\) but becomes linear when its source is \(\overline{\mathcal H}\).
 
 ## References
 

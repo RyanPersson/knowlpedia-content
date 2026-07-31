@@ -22,7 +22,7 @@ a_0[D,a_1]^{(k_1)}\cdots[D,a_m]^{(k_m)}
 \]
 where \(T^{(k)}\) denotes the \(k\)-fold commutator with \(D^2\). Universal coefficients and residue points depend on parity, degree, and normalization; the schematic expression is not a substitute for the full formulas.
 
-Part I derives the odd formula through spectral flow [Carey–Phillips–Rennie–Sukochev, Theorem 4.1 and §8]. Part II proves the even formula and a generalized McKean–Singer identity [Carey–Phillips–Rennie–Sukochev, §§4–6].
+Part I derives the odd formula through spectral flow. Part II proves the even formula and a generalized McKean–Singer identity.
 
 ## Meaning and consequences
 

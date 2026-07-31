@@ -24,7 +24,7 @@ For an autonomous Hamiltonian, it also preserves energy:
 \[
 H\circ\Phi_t=H.
 \]
-Consequently, every trajectory lies in a level set of \(H\). These conclusions follow from the defining equation and are recorded in [Cannas da Silva, Lecture 18.1].
+Consequently, every trajectory lies in a level set of \(H\).
 
 ## Examples and completeness
 

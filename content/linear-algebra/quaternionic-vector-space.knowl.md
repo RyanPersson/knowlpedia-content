@@ -28,8 +28,7 @@ right-linear expansion. A
 finite-dimensional space of quaternionic dimension \(n\) is isomorphic to
 \(\mathbb H^n\) and has underlying real dimension \(4n\). Right-linear
 endomorphisms of column vectors in \(\mathbb H^n\) are represented by
-quaternionic matrices acting on the left
-[Givental, Supplement E, pp. 191–193].
+quaternionic matrices acting on the left.
 
 ## Passing between right and left conventions
 
@@ -37,9 +36,7 @@ Quaternionic conjugation converts a right space \(V\) into a left space by
 defining \(q\cdot v=v\overline q\). This is a convention-changing construction,
 not permission to move scalars through vectors: generally \(vq\) and \(qv\)
 are not two notations for the same product. Many geometric texts choose right
-modules so that matrix groups act from the left; the convention and its use in
-quaternionic geometry are described in
-[Salamon, §1.5].
+modules so that matrix groups act from the left.
 
 ## Examples and near-misses
 

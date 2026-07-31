@@ -33,8 +33,7 @@ Indeed, applying the identity to \(a\) and \(a^*\) gives the two inequalities
 needed for equality. In the unital case the same identity gives
 \(\lVert 1\rVert=1\) unless the algebra is zero. These consequences explain
 why the involution need not be declared continuous as a separate
-\(C^*\)-algebra axiom
-[Murphy, Definition 2.1.1 and following remarks].
+\(C^*\)-algebra axiom.
 
 ## Spectral rigidity
 

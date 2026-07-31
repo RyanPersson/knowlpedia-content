@@ -37,8 +37,7 @@ strictly. More generally, \(me_\lambda\to m\) and \(e_\lambda m\to m\)
 strictly for every \(m\in M(A)\). Consequently the canonical copy of \(A\) is
 strictly dense in \(M(A)\), even though it is norm closed there. This is the
 basic mechanism by which the multiplier unit is approximated from the
-nonunital algebra
-[Pedersen, §3.12].
+nonunital algebra.
 
 If \(A\) is unital, choosing \(a=1_A\) among the defining seminorms shows that
 the strict topology equals the norm topology on \(M(A)=A\). The distinction
@@ -54,8 +53,7 @@ A [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate
 that is strictly continuous and agrees with \(\phi\) on \(A\). It can be
 recovered from any approximate identity by strict limits. This extension
 theorem is one reason strict, rather than norm, continuity is built into the
-morphism theory of multiplier algebras
-[Lance, Chapter 2].
+morphism theory of multiplier algebras.
 
 ## Concrete model and comparison
 

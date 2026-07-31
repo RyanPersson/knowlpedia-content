@@ -33,8 +33,7 @@ compactness of the resolvent, and norms of commutators:
 \]
 It therefore preserves summability and the Connes metric after states are
 transported by \(\alpha\). This is the basic sameness relation for changing a
-Hilbert-space realization without changing the represented metric data
-[van Suijlekom, §2.2.1, Definition 2.24].
+Hilbert-space realization without changing the represented metric data.
 
 ## Additional structures
 

@@ -33,8 +33,7 @@ an \(H\)-intertwiner \(S\) determines
 (T_Sv)(x)=S\bigl(\pi(x^{-1})v\bigr).
 \]
 Compactness ensures that this function is square-integrable and that the
-construction is bounded. The two operations are inverse
-[Folland, section “The Frobenius Reciprocity Theorem”].
+construction is bounded. The two operations are inverse.
 
 ## Multiplicity form
 
@@ -58,8 +57,7 @@ noncompact \(G\). If \(H=\{e\}\) and \(G\) is noncompact, the trivial
 General reciprocity results therefore use extra square-integrability or
 admissibility hypotheses, different topological categories, or modified
 intertwiner spaces. Mackey's analytic theory makes these domain and
-boundedness issues explicit
-[Mackey, pp. 193–221].
+boundedness issues explicit.
 
 ## References
 

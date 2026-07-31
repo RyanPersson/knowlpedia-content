@@ -24,7 +24,7 @@ Integration is linear. Reversing the orientation of \(M\) changes the sign of ev
 \[
 \int_M F^*\omega=\int_N\omega.
 \]
-This change-of-variables identity is the coordinate independence built into the definition [Lee, chapter on integration].
+This change-of-variables identity is the coordinate independence built into the definition.
 
 ## Forms of lower degree
 

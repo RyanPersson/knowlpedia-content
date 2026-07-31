@@ -32,8 +32,7 @@ States separate the positive elements of a \(C^*\)-algebra: for every nonzero
 \(a\), some state is nonzero on \(a^*a\). The corresponding GNS summand then
 acts nontrivially on \(a\), so \(\pi_u(a)\neq0\). This also gives a direct GNS
 proof of the faithful-representation part of the
-[[operator-algebras/gelfand-naimark-theorem|Gelfand–Naimark theorem]]
-[Murphy, §§3.3–3.4].
+[[operator-algebras/gelfand-naimark-theorem|Gelfand–Naimark theorem]].
 
 ## Enveloping von Neumann algebra
 
@@ -43,8 +42,7 @@ canonically isomorphic, as a
 \(A^{**}\). Under this identification the canonical map \(A\to A^{**}\)
 agrees with \(\pi_u\), and every bounded functional on \(A\) extends uniquely
 to a [[operator-algebras/normal-functional|normal functional]] on \(A^{**}\).
-This is the universal enveloping von Neumann algebra construction
-[Takesaki, vol. I, Chapter III].
+This is the universal enveloping von Neumann algebra construction.
 
 ## Scope of the sum
 

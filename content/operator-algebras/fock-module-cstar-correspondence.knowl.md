@@ -35,8 +35,7 @@ and the operators satisfy
 \[
 T_\xi^*T_\eta=\varphi_\infty(\langle\xi,\eta\rangle_A).
 \]
-Consequently \((T,\varphi_\infty)\) is the Fock Toeplitz representation
-[Pimsner, Fock-space construction].
+Consequently \((T,\varphi_\infty)\) is the Fock Toeplitz representation.
 
 ## Grading and gauge action
 

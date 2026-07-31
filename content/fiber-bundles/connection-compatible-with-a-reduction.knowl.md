@@ -12,7 +12,7 @@ Let \(H\subseteq G\) be a [[lie-groups/lie-subgroup|Lie subgroup]], let \(i:Q\ho
 
 ## Restriction and extension
 
-A compatible \(G\)-connection restricts uniquely to an \(H\)-connection on \(Q\). Conversely, every principal \(H\)-connection on \(Q\) extends uniquely to a principal \(G\)-connection on the extended bundle \(Q\times_HG\), hence on \(P\) after choosing the reduction isomorphism. This correspondence is the connection-level counterpart of [[fiber-bundles/extension-of-structure-group|extension of structure group]]; see [Kobayashi and Nomizu, Volume I, Chapter II].
+A compatible \(G\)-connection restricts uniquely to an \(H\)-connection on \(Q\). Conversely, every principal \(H\)-connection on \(Q\) extends uniquely to a principal \(G\)-connection on the extended bundle \(Q\times_HG\), hence on \(P\) after choosing the reduction isomorphism. This correspondence is the connection-level counterpart of [[fiber-bundles/extension-of-structure-group|extension of structure group]].
 
 ## Parallel transport and holonomy
 

@@ -30,8 +30,7 @@ restricted Weyl group acts simply transitively on the chambers. A closed
 positive chamber is a fundamental domain for this action. Consequently many
 conjugacy questions in \(G\) reduce to finite symmetry on \(\mathfrak a\);
 for example, the Cartan decomposition parametrizes double cosets \(K\backslash
-G/K\) by a closed chamber. See
-[Knapp, Chapter VI, §§4–5 and Chapter VII, §3].
+G/K\) by a closed chamber.
 
 ## Comparison with the complex Weyl group
 

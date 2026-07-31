@@ -22,11 +22,11 @@ If \(X\) has complex dimension \(n\) and is compact, then
 \[
 \int_X\omega^n>0,
 \]
-so \([\omega]^n\neq0\). More generally, every power \([\omega]^k\) is nonzero for \(0\leq k\leq n\), as shown in [Demailly, Chapter VI, §4, Consequence 4.3].
+so \([\omega]^n\neq0\).
 
 ## Examples and non-examples
 
-On [[algebraic-geometry-foundations/projective-space|complex projective space]], the Fubini–Study form represents a Kähler class; with the standard integral normalization, it generates \(H^2(\mathbb{CP}^n;\mathbb Z)\). By contrast, the zero class on a positive-dimensional compact complex manifold is not Kähler: if \(\omega=d\eta\), then [[differential-geometry/stokes-theorem|Stokes' theorem]] would give \(\int_X\omega^n=0\), contradicting positivity. Demailly records both the Fubini–Study class and its normalization in [Chapter VI, §4, Example 4.4].
+On [[algebraic-geometry-foundations/projective-space|complex projective space]], the Fubini–Study form represents a Kähler class; with the standard integral normalization, it generates \(H^2(\mathbb{CP}^n;\mathbb Z)\). By contrast, the zero class on a positive-dimensional compact complex manifold is not Kähler: if \(\omega=d\eta\), then [[differential-geometry/stokes-theorem|Stokes' theorem]] would give \(\int_X\omega^n=0\), contradicting positivity.
 
 ## References
 

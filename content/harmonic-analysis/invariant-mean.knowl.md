@@ -36,9 +36,7 @@ to existence on \(L^\infty(G)\). For a compact group, integration against
 normalized [[harmonic-analysis/haar-measure|Haar measure]] gives an invariant
 mean. Locally compact [[algebra-groups/abelian-group|abelian groups]] and solvable locally compact groups are
 amenable, whereas the discrete [[algebra-groups/free-group|free group]] on
-two generators is not. These examples and the equivalence with other locally
-compact formulations are treated in
-[Paterson, Chapters 0–1].
+two generators is not.
 
 ## Conventions and function spaces
 

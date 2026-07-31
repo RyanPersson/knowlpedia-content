@@ -33,8 +33,7 @@ when \(n_+(A)=n_-(A)=0\). It has a
 [[functional-analysis/self-adjoint-extension|self-adjoint extension]] on the
 same Hilbert space exactly when \(n_+(A)=n_-(A)\); when these common dimensions
 are nonzero, unitary maps from \(\mathcal N_+\) to \(\mathcal N_-\) parametrize
-the extensions. This is von Neumann’s extension theorem
-[Schmüdgen, Chapter 13].
+the extensions. This is von Neumann’s extension theorem.
 
 ## Closure and geometric meaning
 

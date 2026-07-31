@@ -30,8 +30,7 @@ projection lies in the commutant. Conversely, for a self-adjoint operator in
 the commutant, every spectral projection also commutes with \(\pi(G)\).
 Irreducibility forces all these projections to be \(0\) or \(I\), hence the
 operator is scalar. Applying this to the real and imaginary parts of an
-arbitrary commutant element proves the theorem
-[Folland, Theorem 3.5].
+arbitrary commutant element proves the theorem.
 
 ## Intertwiners between irreducibles
 

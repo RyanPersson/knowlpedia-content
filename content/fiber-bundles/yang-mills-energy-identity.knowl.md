@@ -25,7 +25,7 @@ The [[differential-geometry/hodge-star-operator|Hodge star]] is an orthogonal in
 \int_X\langle F_A\wedge F_A\rangle
 =\|F_A^+\|_{L^2}^2-\|F_A^-\|_{L^2}^2.
 \]
-Adding and subtracting these two equalities gives the identity. [[fiber-bundles/chern-weil-homomorphism|Chern–Weil theory]] makes the second integral independent of \(A\), so the identity compares connections in one topological bundle class [Donaldson–Kronheimer, §2.1].
+Adding and subtracting these two equalities gives the identity. [[fiber-bundles/chern-weil-homomorphism|Chern–Weil theory]] makes the second integral independent of \(A\), so the identity compares connections in one topological bundle class.
 
 ## Equality cases
 

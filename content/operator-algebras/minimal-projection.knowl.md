@@ -34,8 +34,7 @@ subprojection.
 
 Every [[operator-algebras/type-i-factor|type I factor]] contains minimal projections: under an isomorphism with
 \(B(K)\), they correspond to rank-one projections. Type II and type III
-factors contain no minimal projections
-[Takesaki, Chapter V, §1].
+factors contain no minimal projections.
 For a general [[operator-algebras/type-i-von-neumann-algebra|type I von Neumann algebra]], a diffuse center can prevent the
 existence of minimal projections, so the factor statement must not be promoted
 to all type I algebras.

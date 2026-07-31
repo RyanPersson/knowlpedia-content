@@ -35,7 +35,7 @@ commutative \(\mathbb R\)-algebra.
 
 ## Geometric information in the algebra
 
-Evaluation at \(p\in M\), \(f\mapsto f(p)\), is a unital [[algebra-modules/algebra-homomorphism|algebra homomorphism]] \(C^\infty(M)\to\mathbb R\). Smooth functions separate distinct points and supply local coordinates and [[differential-geometry/bump-function|bump functions]]. Under the usual Hausdorff and second-countability hypotheses, this algebra therefore retains substantial information about the manifold; the algebraic viewpoint is developed systematically in [Nestruev, chapters “Algebras and Points” and “Smooth Manifolds”].
+Evaluation at \(p\in M\), \(f\mapsto f(p)\), is a unital [[algebra-modules/algebra-homomorphism|algebra homomorphism]] \(C^\infty(M)\to\mathbb R\). Smooth functions separate distinct points and supply local coordinates and [[differential-geometry/bump-function|bump functions]]. Under the usual Hausdorff and second-countability hypotheses, this algebra therefore retains substantial information about the manifold.
 
 ## Pullback and modules
 

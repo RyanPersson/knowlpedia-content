@@ -20,7 +20,7 @@ For a smooth path \(\ell:[a,b]\to\Lambda(V)\), a crossing time satisfies \(\ell(
 \[
 \mu(\ell,L_0)=\sum_{a<t<b}\operatorname{sign}\Gamma(\ell,L_0,t).
 \]
-This formula explains both the sign and the multiplicity of a crossing [Robbin–Salamon, §2].
+This formula explains both the sign and the multiplicity of a crossing.
 
 ## Endpoint-inclusive extension
 
@@ -31,7 +31,7 @@ Robbin and Salamon extend the index to paths with arbitrary endpoints. Under the
 +\sum_{a<t<b}\operatorname{sign}\Gamma(t)
 +\tfrac12\operatorname{sign}\Gamma(b).
 \]
-The result can be a half-integer. It is homotopy invariant with fixed endpoints, additive under concatenation, and agrees with the integer crossing count when both endpoints are transverse [Robbin–Salamon, Theorem 2.3].
+The result can be a half-integer. It is homotopy invariant with fixed endpoints, additive under concatenation, and agrees with the integer crossing count when both endpoints are transverse.
 
 ## Basic properties
 

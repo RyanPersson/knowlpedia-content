@@ -20,13 +20,13 @@ The bracket records the action of Hamiltonian dynamics on observables:
 \[
 \{f,g\}=X_g(f)
 \]
-under the convention \(\iota_{X_g}\omega=dg\). Therefore \(\{f,H\}\) is the rate of change of \(f\) along the [[differential-geometry/hamiltonian-flow|Hamiltonian flow]] of \(H\). On a connected symplectic manifold, the Poisson center consists exactly of the constant functions. These standard properties are developed in [Marsden and Ratiu, §10.1].
+under the convention \(\iota_{X_g}\omega=dg\). Therefore \(\{f,H\}\) is the rate of change of \(f\) along the [[differential-geometry/hamiltonian-flow|Hamiltonian flow]] of \(H\). On a connected symplectic manifold, the Poisson center consists exactly of the constant functions.
 
 ## Maps and examples
 
 The canonical bracket on \(\mathbb R^{2n}\) satisfies \(\{q^i,p_j\}=\delta^i_j\). A [[differential-geometry/symplectomorphism|symplectomorphism]] induces an isomorphism of Poisson algebras by pullback. More generally, a [[differential-geometry/poisson-map|Poisson map]] is precisely a [[fiber-bundles/smooth-map|smooth map]] whose pullback preserves brackets.
 
-For a general [[differential-geometry/poisson-manifold|Poisson manifold]], the same axioms define a Poisson algebra on smooth functions, but its Poisson center may contain nonconstant Casimir functions [Vaisman, Chapter 1].
+For a general [[differential-geometry/poisson-manifold|Poisson manifold]], the same axioms define a Poisson algebra on smooth functions, but its Poisson center may contain nonconstant Casimir functions.
 
 ## Conventions and scope
 

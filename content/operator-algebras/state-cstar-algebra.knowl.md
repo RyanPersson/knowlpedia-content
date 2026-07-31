@@ -39,8 +39,7 @@ as a vector functional
 \varphi(a)=\langle\pi_\varphi(a)\xi_\varphi,\xi_\varphi\rangle
 \]
 for a cyclic representation with \(\|\xi_\varphi\|=1\). The state is pure
-exactly when its GNS representation is irreducible
-[Murphy, §3.3]. Faithfulness of a
+exactly when its GNS representation is irreducible. Faithfulness of a
 state and irreducibility of its representation are different properties:
 neither implies the other in general.
 

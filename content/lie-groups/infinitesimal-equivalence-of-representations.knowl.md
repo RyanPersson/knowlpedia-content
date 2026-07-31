@@ -16,7 +16,7 @@ that intertwines both the action of \(K\) and the differentiated action of the c
 
 ## Data retained and forgotten
 
-Infinitesimal equivalence retains every \(K\)-type and its multiplicity, the action of the [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]], [[lie-groups/infinitesimal-character|infinitesimal characters]], and the submodule structure of the Harish–Chandra module. It forgets the topology and norm of the global representation. Consequently, topological equivalence implies infinitesimal equivalence, but the converse requires a globalization theorem or additional hypotheses. This distinction is part of the standard passage between admissible [[algebra-representation-theory/group-representation|group representations]] and \((\mathfrak g,K)\)-modules [Wallach, Chapter 4, §4.5].
+Infinitesimal equivalence retains every \(K\)-type and its multiplicity, the action of the [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]], [[lie-groups/infinitesimal-character|infinitesimal characters]], and the submodule structure of the Harish–Chandra module. It forgets the topology and norm of the global representation. Consequently, topological equivalence implies infinitesimal equivalence, but the converse requires a globalization theorem or additional hypotheses. This distinction is part of the standard passage between admissible [[algebra-representation-theory/group-representation|group representations]] and \((\mathfrak g,K)\)-modules.
 
 ## Relation to globalization
 

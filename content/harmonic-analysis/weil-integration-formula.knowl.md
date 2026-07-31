@@ -27,7 +27,7 @@ The quotient \(G/H\) admits a nonzero \(G\)-invariant regular measure exactly wh
 \[
 \Delta_G|_H=\Delta_H.
 \]
-Under this condition one may take \(\rho=1\), so the formula becomes a literal decomposition of Haar integration into integration along the fibers \(gH\) and integration over the quotient. The quotient measure is then unique up to a positive scalar; its normalization changes inversely when the Haar measure on \(H\) is rescaled [Folland, Chapter 2].
+Under this condition one may take \(\rho=1\), so the formula becomes a literal decomposition of Haar integration into integration along the fibers \(gH\) and integration over the quotient. The quotient measure is then unique up to a positive scalar; its normalization changes inversely when the Haar measure on \(H\) is rescaled.
 
 ## Role of the rho-function
 

@@ -12,7 +12,7 @@ Let \(X\) be a [[differential-geometry/manifold-with-corners|manifold with corne
 
 ## Incidence at corners
 
-If \(x\) has depth \(r\), exactly \(r\) local boundary components lie over it. Thus the natural map \(\partial X\to X\) need not be injective: a corner point appears once for each incident face. Iterating the abstract-boundary construction records ordered choices of several incident hypersurfaces and refines the [[differential-geometry/corner-stratification|corner stratification]] [Joyce, §2, Definitions 2.5–2.8].
+If \(x\) has depth \(r\), exactly \(r\) local boundary components lie over it. Thus the natural map \(\partial X\to X\) need not be injective: a corner point appears once for each incident face. Iterating the abstract-boundary construction records ordered choices of several incident hypersurfaces and refines the [[differential-geometry/corner-stratification|corner stratification]].
 
 ## Examples
 
@@ -20,7 +20,7 @@ For a square, the four closed edges are boundary faces, and each vertex has two 
 
 ## Conventions and scope
 
-**Warning.** “Face” is not standardized. Some authors call the image of a component of \(\partial X\) a boundary hypersurface, reserve “face” for intersections of such hypersurfaces, or require each face to be embedded. The abstract-boundary convention used here follows Joyce; statements using Melrose’s manifolds with faces may impose additional global embeddedness conditions [Joyce, Remarks 2.11 and 3.3].
+**Warning.** “Face” is not standardized. Some authors call the image of a component of \(\partial X\) a boundary hypersurface, reserve “face” for intersections of such hypersurfaces, or require each face to be embedded. The abstract-boundary convention used here follows Joyce; statements using Melrose’s manifolds with faces may impose additional global embeddedness conditions.
 
 ## References
 

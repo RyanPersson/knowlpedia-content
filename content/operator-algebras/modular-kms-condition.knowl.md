@@ -30,7 +30,7 @@ The state is invariant under its modular group:
 continuous one-parameter [[algebra-groups/automorphism-group|automorphism groups]], the KMS boundary relation
 determines the modular group of a faithful normal state. This is why modular
 flow can be described intrinsically, without choosing a particular GNS
-realization [Takesaki, vol. II, Chapter VIII, §1].
+realization.
 
 For a
 [[operator-algebras/normal-semifinite-faithful-weight|normal semifinite faithful weight]], the analogous identity is imposed on the analytic elements
@@ -58,8 +58,7 @@ is not scalar.
 formula contains \(\sigma_i(x)\) where the core uses \(\sigma_{-i}(x)\).
 Changing only one sign produces an inconsistent convention. The general KMS
 condition may use an arbitrary inverse temperature \(\beta\); modular theory
-canonically gives \(\beta=1\) after the time parameter is normalized
-[Bratteli–Robinson, §5.3].
+canonically gives \(\beta=1\) after the time parameter is normalized.
 
 ## References
 

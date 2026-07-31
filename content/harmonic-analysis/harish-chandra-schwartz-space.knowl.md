@@ -26,7 +26,7 @@ Here \(\Xi\) is the [[harmonic-analysis/harish-chandra-xi-function|Harish-Chandr
 
 ## Topological algebra structure
 
-The displayed seminorms make \(\mathcal C(G)\) a [[functional-analysis/frechet-space|Fréchet space]], independently of the standard choices up to equivalent seminorms. It is closed under [[harmonic-analysis/convolution-on-locally-compact-group|convolution]] and under the involution \(f^*(g)=\overline{f(g^{-1})}\), because real reductive groups are unimodular. With these operations it is a Fréchet \(*\)-algebra and a basic test algebra for tempered harmonic analysis on \(G\) [Knapp, Chapter VII].
+The displayed seminorms make \(\mathcal C(G)\) a [[functional-analysis/frechet-space|Fréchet space]], independently of the standard choices up to equivalent seminorms. It is closed under [[harmonic-analysis/convolution-on-locally-compact-group|convolution]] and under the involution \(f^*(g)=\overline{f(g^{-1})}\), because real reductive groups are unimodular. With these operations it is a Fréchet \(*\)-algebra and a basic test algebra for tempered harmonic analysis on \(G\).
 
 ## Comparison with ordinary rapid decay
 

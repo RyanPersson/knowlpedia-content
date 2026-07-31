@@ -37,8 +37,7 @@ recovers all coefficients from diagonal ones. Conversely, unitarity gives
 \]
 so continuity of the diagonal coefficient at the identity forces continuity
 of the [[fiber-bundles/orbit-map|orbit map]] there. Translation then gives continuity at every group
-element. This is the argument in
-[Folland, opening of §3.1].
+element.
 
 ## Why unitarity matters
 

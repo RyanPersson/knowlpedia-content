@@ -42,8 +42,7 @@ Differentiation, multiplication by a polynomial, translation, and modulation
 act continuously on \(\mathcal S(\mathbb R^n)\). The Fourier transform is a
 continuous linear bijection of the Schwartz space onto itself with continuous
 inverse. These properties make it a natural common domain for Euclidean
-Fourier analysis and differential operators
-[Hörmander, Chapters 1 and 7].
+Fourier analysis and differential operators.
 
 ## Relation to distributions
 
@@ -63,8 +62,7 @@ topology cannot be defined by a single norm, so it is not a
 [[linear-algebra/banach-space|Banach space]] with that topology. Individual
 weighted derivative bounds look norm-like, but the full topology requires
 the countable family of all \(p_{\alpha,\beta}\). This distinction is
-essential when defining continuity of tempered distributions
-[Trèves, Chapters 10 and 51].
+essential when defining continuity of tempered distributions.
 
 ## Examples
 

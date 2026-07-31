@@ -21,7 +21,7 @@ where \((e_j)\) is any local orthonormal frame. The expression is independent of
 
 ## Analytic realization
 
-With the Riemannian measure and Hermitian spinor metric, \(\not D\) is an unbounded [[functional-analysis/symmetric-operator|symmetric operator]] on \(L^2(M,S)\). If \(M\) is complete, \(\not D\) is [[functional-analysis/essentially-self-adjoint-operator|essentially self-adjoint]], so its closure is self-adjoint. If \(M\) is closed, this realization has compact resolvent and discrete real spectrum of finite multiplicity; see [Roe, chapter 5].
+With the Riemannian measure and Hermitian spinor metric, \(\not D\) is an unbounded [[functional-analysis/symmetric-operator|symmetric operator]] on \(L^2(M,S)\). If \(M\) is complete, \(\not D\) is [[functional-analysis/essentially-self-adjoint-operator|essentially self-adjoint]], so its closure is self-adjoint. If \(M\) is closed, this realization has compact resolvent and discrete real spectrum of finite multiplicity.
 
 ## Geometric identities and variants
 

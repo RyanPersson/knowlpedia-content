@@ -40,8 +40,7 @@ a_n=\sqrt{\frac n\pi}\int_{\mathbb R}e^{-nt^2}\alpha_t(a)\,dt
 \]
 is entire analytic, and \(a_n\to a\) in norm as \(n\to\infty\). This Gaussian
 smoothing proves density and gives the extension by replacing
-\(e^{-nt^2}\) with \(e^{-n(t-z)^2}\)
-[Bratteli–Robinson, §2.5.3].
+\(e^{-nt^2}\) with \(e^{-n(t-z)^2}\).
 
 ## Modular-theory use and conventions
 

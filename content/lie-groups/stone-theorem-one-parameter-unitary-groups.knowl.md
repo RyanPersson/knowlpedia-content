@@ -28,7 +28,7 @@ Strong continuity, the group law, and unitarity force differentiability precisel
 \[
 U(t)=\int_{\mathbb R}e^{it\lambda}\,dE_A(\lambda).
 \]
-In a unitary [[lie-groups/representation-of-a-lie-group|representation of a Lie group]], applying Stone's theorem to \(t\mapsto\pi(\exp(tX))\) produces the self-adjoint generator associated with each Lie-algebra element \(X\) [Reed–Simon, Theorem VIII.8].
+In a unitary [[lie-groups/representation-of-a-lie-group|representation of a Lie group]], applying Stone's theorem to \(t\mapsto\pi(\exp(tX))\) produces the self-adjoint generator associated with each Lie-algebra element \(X\).
 
 ## Sign conventions
 

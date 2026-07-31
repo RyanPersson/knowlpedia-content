@@ -29,8 +29,7 @@ If \(\varphi\neq0\), its kernel is a closed hyperplane. Choose a nonzero
 vector \(z\) orthogonal to \(\ker\varphi\); decomposing each \(x\) into its
 kernel component and its component along \(z\) produces the representing
 vector after a scalar normalization. Cauchy--Schwarz gives continuity and
-the norm identity, while nondegeneracy gives uniqueness
-[Conway, Chapter II, §2].
+the norm identity, while nondegeneracy gives uniqueness.
 
 ## Consequences
 

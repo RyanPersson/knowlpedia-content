@@ -20,7 +20,7 @@ The space \(\Phi\) carries a topology finer than the Hilbert norm topology, enco
 
 ## Operators and spectral analysis
 
-If a [[functional-analysis/densely-defined-operator|densely defined operator]] on \(H\) preserves \(\Phi\) and acts continuously on its locally convex topology, duality extends it to \(\Phi^\times\). Generalized eigenvectors may then live in \(\Phi^\times\) even when the operator has no eigenvectors in \(H\). Nuclearity supplies the compactness and kernel-theorem structure used in generalized spectral expansions [Gel′fand–Vilenkin, Chapter I].
+If a [[functional-analysis/densely-defined-operator|densely defined operator]] on \(H\) preserves \(\Phi\) and acts continuously on its locally convex topology, duality extends it to \(\Phi^\times\). Generalized eigenvectors may then live in \(\Phi^\times\) even when the operator has no eigenvectors in \(H\). Nuclearity supplies the compactness and kernel-theorem structure used in generalized spectral expansions.
 
 ## Example and convention
 

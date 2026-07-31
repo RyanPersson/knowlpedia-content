@@ -30,15 +30,13 @@ with \(A\geq m\). For any \(\lambda<m\),
 \[
 D(\mathfrak a)=D\bigl((A-\lambda)^{1/2}\bigr)
 \]
-and
 \[
 \mathfrak a[u,v]
 =\langle(A-\lambda)^{1/2}u,(A-\lambda)^{1/2}v\rangle
 +\lambda\langle u,v\rangle.
 \]
 Thus form domains can be larger than operator domains while still determining
-the operator uniquely
-[Kato, Chapter VI, §2].
+the operator uniquely.
 
 ## Closability and completion
 

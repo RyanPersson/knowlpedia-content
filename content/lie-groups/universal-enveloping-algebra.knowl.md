@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]] over a [[algebra-rings/field|field]] \(k\). Its **universal enveloping algebra** is a unital associative [[algebra-modules/algebra-over-ring|\(k\)-algebra]] \(U(\mathfrak g)\) with a Lie homomorphism \(i:\mathfrak g\to U(\mathfrak g)^{-}\) such that every Lie homomorphism \(f:\mathfrak g\to A^{-}\), for a unital associative \(k\)-algebra \(A\), factors uniquely as \(f=\widetilde f\circ i\) through a unital [[algebra-modules/algebra-homomorphism|algebra homomorphism]] \(\widetilde f:U(\mathfrak g)\to A\). Here \(A^{-}\) carries the commutator bracket. Concretely,
 \[
-U(\mathfrak g)=T(\mathfrak g)/\langle x\otimes y-y\otimes x-[x,y]\rangle .
+U(\mathfrak g)=T(\mathfrak g)/\langle x\otimes y-y\otimes x-[x,y]\rangle.
 \]
 
 ## Universal property and representations
@@ -19,7 +19,7 @@ The universal property determines \(U(\mathfrak g)\) uniquely up to a unique com
 
 ## Filtration and the PBW theorem
 
-Tensor degree induces an increasing filtration on \(U(\mathfrak g)\). The [[lie-groups/pbw-theorem|Poincaré–Birkhoff–Witt theorem]] identifies its associated graded algebra with the symmetric algebra \(S(\mathfrak g)\); in particular, the canonical map \(i:\mathfrak g\to U(\mathfrak g)\) is injective. Over an ordered basis of \(\mathfrak g\), ordered monomials form a vector-space basis of \(U(\mathfrak g)\) [Dixmier, §2.1].
+Tensor degree induces an increasing filtration on \(U(\mathfrak g)\). The [[lie-groups/pbw-theorem|Poincaré–Birkhoff–Witt theorem]] identifies its associated graded algebra with the symmetric algebra \(S(\mathfrak g)\); in particular, the canonical map \(i:\mathfrak g\to U(\mathfrak g)\) is injective. Over an ordered basis of \(\mathfrak g\), ordered monomials form a vector-space basis of \(U(\mathfrak g)\).
 
 ## Examples and conventions
 

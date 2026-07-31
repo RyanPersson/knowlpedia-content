@@ -35,8 +35,7 @@ also implies that Murray–von Neumann
 [[operator-algebras/murray-von-neumann-equivalence|equivalent projections]]
 have equal trace. These statements express that a trace records size without
 depending on a choice of coordinates, while positivity prevents cancellation
-on \(A_+\)
-[Blackadar, §II.6].
+on \(A_+\).
 
 ## Examples and existence
 

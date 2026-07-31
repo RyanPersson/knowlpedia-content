@@ -27,8 +27,6 @@ Transversality makes \(Z=F^{-1}(S)\) an embedded submanifold of the
 For the restricted projection \(\pi:Z\to P\), a parameter \(p\) is a regular
 value exactly when \(F_p\pitchfork S\). The conclusion therefore follows by
 applying [[differential-geometry/sards-theorem|Sard's theorem]] to \(\pi\).
-This reduction is presented in
-[Guillemin–Pollack, Chapter 2].
 
 ## Consequences and examples
 

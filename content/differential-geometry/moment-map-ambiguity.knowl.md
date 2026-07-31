@@ -25,7 +25,7 @@ Each scalar component \(\langle\delta,\xi\rangle\) is therefore locally constant
 \[
 \delta(gx)=\operatorname{Ad}_g^*\delta(x),
 \]
-which is exactly the stated relation among componentwise constants. This standard uniqueness argument is given in [Ortega and Ratiu, §4.2].
+which is exactly the stated relation among componentwise constants.
 
 ## Structure and consequences
 

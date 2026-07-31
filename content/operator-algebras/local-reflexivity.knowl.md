@@ -41,8 +41,7 @@ Every [[operator-algebras/exact-cstar-algebra|exact \(C^*\)-algebra]] is
 locally reflexive. In particular, nuclear \(C^*\)-algebras are locally
 reflexive. Local reflexivity is nevertheless weaker than exactness; it
 controls finite-dimensional approximation from the bidual rather than the
-behavior of all [[algebra-modules/short-exact-sequence|short exact sequences]] under minimal tensor product
-[Brown–Ozawa, §9.2].
+behavior of all [[algebra-modules/short-exact-sequence|short exact sequences]] under minimal tensor product.
 
 One tensorial formulation says that the natural comparison maps involving
 finite-dimensional operator spaces and \(A^{**}\) preserve the minimal

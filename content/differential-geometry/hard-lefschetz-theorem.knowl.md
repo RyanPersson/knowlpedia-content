@@ -13,7 +13,7 @@ Let \(X\) be a compact [[differential-geometry/kahler-manifold|Kähler manifold]
 L^{\,n-k}:H^k(X;\mathbb R)\longrightarrow H^{2n-k}(X;\mathbb R),
 \qquad [\alpha]\longmapsto[\omega]^{\,n-k}\smile[\alpha],
 \]
-is an isomorphism. The same holds with complex coefficients. Equivalently, \(L^r:H^{n-r}(X)\to H^{n+r}(X)\) is an isomorphism for \(0\leq r\leq n\). Compactness and the Kähler condition are essential hypotheses of this statement [Voisin, Theorem 6.25].
+is an isomorphism. The same holds with complex coefficients. Equivalently, \(L^r:H^{n-r}(X)\to H^{n+r}(X)\) is an isomorphism for \(0\leq r\leq n\). Compactness and the Kähler condition are essential hypotheses of this statement.
 
 ## Proof mechanism
 

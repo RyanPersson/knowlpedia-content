@@ -32,8 +32,7 @@ polynomial spectral mapping gives \(r(p(a))=\max_{\lambda\in\sigma(a)}
 |p(\lambda)|\). The spectral radius need not be a norm: nonzero nilpotent
 elements have radius zero, and subadditivity can fail in noncommutative
 Banach algebras. The limit formula, including existence of the limit, is a
-central result of Banach-algebra spectral theory
-[Murphy, §1.2].
+central result of Banach-algebra spectral theory.
 
 ## The C-star-algebra case
 

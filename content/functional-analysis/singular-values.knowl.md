@@ -32,7 +32,7 @@ The first singular value is the [[linear-algebra/operator-norm|operator norm]]:
 \(s_n(T)=s_n(T^*)\) for every \(n\). Unitary changes of coordinates on the
 source or target do not alter the sequence. These facts make singular values
 the coordinate-free infinite-dimensional analogue of the singular values of
-a matrix [Simon, §§1–2].
+a matrix.
 
 ## Approximation and ideal estimates
 

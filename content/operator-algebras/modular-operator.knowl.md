@@ -39,8 +39,7 @@ states that
 Hence
 \(\sigma_t^\Omega(x)=\Delta^{it}x\Delta^{-it}\) defines a one-parameter group
 of \(*\)-automorphisms of \(M\). The invariance of \(M\) is the deep modular
-theorem; it does not follow from spectral calculus alone
-[Takesaki, Chapter VI, §1].
+theorem; it does not follow from spectral calculus alone.
 
 ## Spectral relations
 

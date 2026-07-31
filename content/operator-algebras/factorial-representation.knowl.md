@@ -37,8 +37,7 @@ representation]] is factorial because
 acts by left multiplication on \(L^2(M)\), then the generated algebra is a
 factor, but the commuting right action is nontrivial. Factoriality therefore
 captures indecomposability at the level of central summands, not the absence
-of all invariant subspaces
-[Takesaki, Chapter V].
+of all invariant subspaces.
 
 ## Central projections and decomposition
 

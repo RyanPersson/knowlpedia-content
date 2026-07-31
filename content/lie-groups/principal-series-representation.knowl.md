@@ -31,8 +31,7 @@ realizes every \(I(\sigma,\lambda)\) on the same space of functions
 \(f:K\to V_\sigma\) satisfying the appropriate \(M\cap K\)-equivariance.
 Only the \(G\)-action depends on \(\lambda\). This fixed-space realization
 makes the analytic dependence on the parameter visible and is the standard
-compact picture of the principal series
-[Knapp, Chapter VII].
+compact picture of the principal series.
 
 ## Spherical and unitary cases
 

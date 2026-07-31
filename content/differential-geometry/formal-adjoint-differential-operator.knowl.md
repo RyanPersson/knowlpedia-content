@@ -30,7 +30,7 @@ In a [[fiber-bundles/local-trivialization|local trivialization]], move each deri
 \qquad
 (P^\dagger)^\dagger=P.
 \]
-The formal adjoint has the same order as \(P\). Its principal symbol is the fiberwise adjoint of the principal symbol of \(P\), with the sign dictated by the chosen symbol convention. Formal adjoints and their role in elliptic theory are treated in [Wells, Chapter IV, “Elliptic Operator Theory”].
+The formal adjoint has the same order as \(P\). Its principal symbol is the fiberwise adjoint of the principal symbol of \(P\), with the sign dictated by the chosen symbol convention.
 
 ## Differential forms
 

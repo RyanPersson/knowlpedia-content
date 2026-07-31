@@ -32,7 +32,7 @@ The convention above gives the following complete lookup:
 - \(n=6\): \((\varepsilon,\varepsilon',\varepsilon'')=(+,+,-)\).
 - \(n=7\): \((\varepsilon,\varepsilon')=(+,+)\).
 
-This is [Connes and Marcolli, Definition 1.124].
+This is.
 
 ## Conventions and use
 

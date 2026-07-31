@@ -18,7 +18,6 @@ Let \(M\subseteq B(H)\) be a
 \quad\Longleftrightarrow\quad
 \xi\text{ is separating for }M',
 \]
-and
 \[
 \xi\text{ is separating for }M
 \quad\Longleftrightarrow\quad
@@ -26,8 +25,7 @@ and
 \]
 Here cyclic means \(\overline{M\xi}=H\), while separating means
 \(x\xi=0\Rightarrow x=0\). The von Neumann hypothesis supplies
-\(M''=M\), which is essential to the converse implications
-[Kadison–Ringrose, Proposition 5.5.11].
+\(M''=M\), which is essential to the converse implications.
 
 ## Proof mechanism
 

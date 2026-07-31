@@ -29,8 +29,7 @@ For a connected semisimple [[fiber-bundles/lie-group|Lie group]] with finite cen
 unitary representation is tempered exactly when all its \(K\)-finite matrix
 coefficients lie in \(L^{2+\varepsilon}(G)\) for every
 \(\varepsilon>0\). This “almost \(L^2\)” criterion is a major practical test
-for temperedness
-[Cowling–Haagerup–Howe, Theorem 1].
+for temperedness.
 
 ## Examples and boundary cases
 
@@ -48,8 +47,7 @@ regular representation decomposes over them, with measure described by
 [[harmonic-analysis/plancherel-measure-nonabelian|nonabelian Plancherel measure]]. They also constitute the part of the
 [[harmonic-analysis/unitary-dual|unitary dual]] detected by \(C_r^*(G)\),
 explaining why temperedness connects representation theory
-with reduced group \(C^*\)-algebras
-[Knapp, Chapter VIII].
+with reduced group \(C^*\)-algebras.
 
 ## References
 

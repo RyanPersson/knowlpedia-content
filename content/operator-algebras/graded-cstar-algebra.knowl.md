@@ -43,8 +43,7 @@ product uses
 =(-1)^{|b||a'|}aa'\widehat\otimes bb',
 \]
 with a corresponding sign in the involution. These signs are structural:
-forgetting them produces the ordinary tensor product, not the graded one
-[Blackadar, §14.4].
+forgetting them produces the ordinary tensor product, not the graded one.
 
 ## Examples and scope
 

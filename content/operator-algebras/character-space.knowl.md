@@ -30,7 +30,7 @@ ball; this compactification agrees with the character space of the
 [[operator-algebras/unitization|unitization]], with the new character as the
 point at infinity. These facts
 explain why local compactness, rather than compactness, is the natural general
-setting [Murphy, chapter on the Gelfand transform].
+setting.
 
 ## Function-algebra model
 

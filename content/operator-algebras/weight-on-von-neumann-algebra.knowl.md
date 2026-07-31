@@ -37,8 +37,7 @@ The set \(\mathfrak n_\varphi\) is a left ideal, while
 =\operatorname{span}\{y^*x:x,y\in\mathfrak n_\varphi\}
 \]
 is a \(*\)-subalgebra on which \(\varphi\) has a linear extension. This
-extension need not be bounded or defined on all of \(M\)
-[Takesaki, vol. I, Chapter VII, §1].
+extension need not be bounded or defined on all of \(M\).
 
 ## Regularity properties
 

@@ -37,8 +37,6 @@ For a unit tangent vector \(X\), extend \(X\) to an [[linear-algebra/orthonormal
 so Ricci curvature averages the sectional curvatures of planes containing
 \(X\). It retains less directional information than the full Riemann tensor
 but controls volume distortion, geodesic focusing, and the Bochner formula.
-These contraction formulas follow the convention in
-[Besse, Chapter 1].
 
 ## Contractions and special metrics
 

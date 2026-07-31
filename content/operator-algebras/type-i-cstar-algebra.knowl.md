@@ -16,7 +16,7 @@ This condition applies to nonunital as well as unital algebras and is independen
 
 ## Equivalent viewpoints
 
-Equivalently, every [[operator-algebras/factorial-representation|factor representation]] \(\pi\) of \(A\) generates a [[operator-algebras/type-i-von-neumann-algebra|type I von Neumann algebra]] \(\pi(A)''\). Another characteristic consequence is that an [[algebra-representation-theory/irreducible-representation|irreducible representation]] is determined up to unitary equivalence by its kernel. Hence the spectrum of \(A\) maps bijectively to its [[operator-algebras/primitive-ideal-space|primitive ideal space]] [Pedersen, Chapter 6].
+Equivalently, every [[operator-algebras/factorial-representation|factor representation]] \(\pi\) of \(A\) generates a [[operator-algebras/type-i-von-neumann-algebra|type I von Neumann algebra]] \(\pi(A)''\). Another characteristic consequence is that an [[algebra-representation-theory/irreducible-representation|irreducible representation]] is determined up to unitary equivalence by its kernel. Hence the spectrum of \(A\) maps bijectively to its [[operator-algebras/primitive-ideal-space|primitive ideal space]].
 
 ## Examples and contrasts
 

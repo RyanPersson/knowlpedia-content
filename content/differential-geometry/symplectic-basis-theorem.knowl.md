@@ -26,7 +26,7 @@ Choose a nonzero vector \(e_1\). Nondegeneracy supplies \(f_1\) with \(\omega(e_
 \[
 V=H_1\oplus H_1^\omega.
 \]
-The restriction of \(\omega\) to \(H_1^\omega\) is again nondegenerate. Induction repeats the construction until the complement is zero. This is the alternating-form analogue of Gram–Schmidt orthogonalization [Cannas da Silva, §1.1].
+The restriction of \(\omega\) to \(H_1^\omega\) is again nondegenerate. Induction repeats the construction until the complement is zero. This is the alternating-form analogue of Gram–Schmidt orthogonalization.
 
 ## Consequences
 

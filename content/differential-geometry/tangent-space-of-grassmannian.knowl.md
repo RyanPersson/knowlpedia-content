@@ -12,7 +12,7 @@ Let \(V\) be a finite-dimensional real or complex [[linear-algebra/vector-space|
 \[
 T_W\operatorname{Gr}_k(V)\cong\operatorname{Hom}(W,V/W).
 \]
-In the complex case this is an isomorphism of complex vector spaces. Explicitly, represent a tangent vector by a smooth curve \(W(t)\) of \(k\)-planes with \(W(0)=W\). For \(w\in W\), choose a smooth curve \(w(t)\in W(t)\) with \(w(0)=w\); the tangent vector sends \(w\) to the class of \(w'(0)\) in \(V/W\). This class is independent of all choices [Harris, Lecture 6].
+In the complex case this is an isomorphism of complex vector spaces. Explicitly, represent a tangent vector by a smooth curve \(W(t)\) of \(k\)-planes with \(W(0)=W\). For \(w\in W\), choose a smooth curve \(w(t)\in W(t)\) with \(w(0)=w\); the tangent vector sends \(w\) to the class of \(w'(0)\) in \(V/W\). This class is independent of all choices.
 
 ## Derivation from graph charts
 

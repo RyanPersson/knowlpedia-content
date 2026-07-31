@@ -16,7 +16,7 @@ Let \(G\) be a second-countable [[harmonic-analysis/unimodular-group|unimodular 
 
 ## Equivalent formulations and orthogonality
 
-For an irreducible unitary representation in this setting, existence of one nonzero square-integrable coefficient modulo \(Z\) implies the corresponding orthogonality relations for all coefficients. After a normalization of measure, these relations involve a positive formal degree. This is the central-quotient analogue of the coefficient criterion for the [[lie-groups/discrete-series-representation|discrete series]]; the general operator-valued orthogonality theory is developed by [Duflo–Moore, §§2–3].
+For an irreducible unitary representation in this setting, existence of one nonzero square-integrable coefficient modulo \(Z\) implies the corresponding orthogonality relations for all coefficients. After a normalization of measure, these relations involve a positive formal degree. This is the central-quotient analogue of the coefficient criterion for the [[lie-groups/discrete-series-representation|discrete series]].
 
 ## Why the quotient is necessary
 

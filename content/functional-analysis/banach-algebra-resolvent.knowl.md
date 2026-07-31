@@ -30,7 +30,7 @@ In particular, \(R'(\lambda,a)=-R(\lambda,a)^2\). If \(|\lambda|>\lVert a\rVert\
 \[
 R(\lambda,a)=\sum_{n=0}^{\infty}\lambda^{-n-1}a^n
 \]
-converges in norm. These facts are established in [Murphy, §1.2].
+converges in norm.
 
 ## Estimates and example
 

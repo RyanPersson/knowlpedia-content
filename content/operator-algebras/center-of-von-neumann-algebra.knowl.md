@@ -32,8 +32,7 @@ M\cong zM\oplus(1-z)M.
 Conversely, direct-sum decompositions of \(M\) arise from central projections.
 More generally, the center supports the central, or factorial, decomposition
 of a von Neumann algebra into factors; this is formulated as a direct integral
-under standard separability hypotheses
-[Kadison–Ringrose, vol. II, §6.5].
+under standard separability hypotheses.
 
 ## Examples
 

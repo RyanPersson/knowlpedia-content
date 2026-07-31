@@ -33,7 +33,7 @@ Every cotangent lift preserves \(\theta\). Cartan's formula therefore gives
 \iota_{\xi_{T^*Q}}(-d\theta)
 =d\bigl(\theta(\xi_{T^*Q})\bigr)=dJ^\xi,
 \]
-which proves the moment-map identity without coordinates. Naturality of the infinitesimal generators under the [[algebra-groups/group-action|group action]] proves coadjoint equivariance. The construction is developed in [Marsden and Ratiu, §12.1].
+which proves the moment-map identity without coordinates. Naturality of the infinitesimal generators under the [[algebra-groups/group-action|group action]] proves coadjoint equivariance.
 
 ## Coordinate example
 

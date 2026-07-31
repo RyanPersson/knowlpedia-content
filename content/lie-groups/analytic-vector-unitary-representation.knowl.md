@@ -24,7 +24,7 @@ for some \(t>0\). For a Lie group, analogous factorial estimates for a basis of 
 
 ## Density and examples
 
-Nelson proved that analytic vectors are dense for continuous representations of finite-dimensional Lie groups, using heat-kernel regularization [Nelson, pp. 589–595]. For translations of \(\mathbb R\) on \(L^2(\mathbb R)\), vectors whose Fourier transforms have a square-integrable exponential weight are analytic. A vector with only polynomial Fourier decay can be smooth while failing the factorial convergence test.
+Nelson proved that analytic vectors are dense for continuous representations of finite-dimensional Lie groups, using heat-kernel regularization. For translations of \(\mathbb R\) on \(L^2(\mathbb R)\), vectors whose Fourier transforms have a square-integrable exponential weight are analytic. A vector with only polynomial Fourier decay can be smooth while failing the factorial convergence test.
 
 ## Conventions and scope
 

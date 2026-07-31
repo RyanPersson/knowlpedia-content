@@ -45,8 +45,7 @@ the action, equivalently amenability of the transformation groupoid
 \(G\ltimes X\). In the discrete case it can also be expressed by
 approximately equivariant, positive-type functions with coefficients in the
 center of \(A^{**}\). These formulations explain why an action of a
-nonamenable group may still be amenable
-[Anantharaman-Delaroche–Renault, Chapter 3].
+nonamenable group may still be amenable.
 
 ## Conventions and scope
 

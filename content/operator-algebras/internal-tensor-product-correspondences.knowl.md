@@ -31,8 +31,7 @@ semidefinite form; its null space must be removed before completion. This
 quotient-and-completion step is essential: the ordinary algebraic tensor
 product is generally neither definite nor complete. Adjointable operators on
 \(E\) induce adjointable operators \(T\otimes 1\) on the completed product,
-which supplies the left \(A\)-action
-[Lance, chapter on tensor products].
+which supplies the left \(A\)-action.
 
 ## Composition and unit correspondences
 

@@ -24,7 +24,7 @@ For each \(x\in S\), the submersion theorem supplies coordinates near \(x\) and 
 \[
 f(u_1,\ldots,u_m)=(u_{m-n+1},\ldots,u_m).
 \]
-In these coordinates the level set is the coordinate slice on which the last \(n=\dim N\) coordinates are constant. This both gives the induced smooth structure and explains the tangent-space formula [Lee, Theorem 5.12].
+In these coordinates the level set is the coordinate slice on which the last \(n=\dim N\) coordinates are constant. This both gives the induced smooth structure and explains the tangent-space formula.
 
 ## Examples and a near miss
 

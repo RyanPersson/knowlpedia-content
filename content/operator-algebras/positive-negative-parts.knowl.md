@@ -35,8 +35,7 @@ a_+=f_+(a),\qquad a_-=f_-(a),
 where \(f_+(t)=\max(t,0)\) and \(f_-(t)=\max(-t,0)\). Hence
 \(a_-\) is the positive part of \(-a\), and both parts commute with every
 element that commutes with \(a\). Their orthogonality follows pointwise from
-\(f_+(t)f_-(t)=0\)
-[Murphy, §2.2].
+\(f_+(t)f_-(t)=0\).
 
 ## Order and norm consequences
 

@@ -29,8 +29,7 @@ means that its complexified [[lie-groups/lie-algebra|Lie algebra]] is already a
 [[lie-groups/cartan-subalgebra|Cartan subalgebra]] of
 \(\mathfrak g_{\mathbb C}\); equivalently, \(T\) is a compact Cartan subgroup
 of \(G\). The criterion converts an analytic question about square-integrable
-matrix coefficients into this finite-dimensional structural condition
-[Knapp, Chapter XII].
+matrix coefficients into this finite-dimensional structural condition.
 
 ## Examples
 
@@ -56,9 +55,7 @@ class conditions.
 Harish–Chandra did more than prove existence: he constructed and classified
 the discrete series and determined their characters. The compact Cartan
 provides the regular integral parameters, while quotienting by the relevant
-Weyl-group action removes equivalent parametrizations
-[Harish–Chandra, part I] and
-[part II].
+Weyl-group action removes equivalent parametrizations.
 
 ## References
 

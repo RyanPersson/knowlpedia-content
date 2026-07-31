@@ -31,8 +31,6 @@ Equivalently, each of the ranges \(\operatorname{Ran}(T+i)\) and
 \(\operatorname{Ran}(T-i)\) is dense in \(H\). Surjectivity of these ranges is
 a criterion for an already closed self-adjoint operator; density is the
 correct criterion for the unclosed operator \(T\). These equivalences follow
-from the self-adjoint extension theory in
-[Schmüdgen, Chapter 13].
 
 ## Cores and closure
 

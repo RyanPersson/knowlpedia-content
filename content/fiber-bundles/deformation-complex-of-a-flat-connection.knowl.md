@@ -13,7 +13,7 @@ Let \(A\) be a [[fiber-bundles/flat-principal-connection|flat connection]] on a 
 0\longrightarrow\Omega^0(M;\operatorname{ad}P)
 \xrightarrow{\,d_A\,}\Omega^1(M;\operatorname{ad}P)
 \xrightarrow{\,d_A\,}\Omega^2(M;\operatorname{ad}P)
-\xrightarrow{\,d_A\,}\cdots ,
+\xrightarrow{\,d_A\,}\cdots,
 \]
 where \(d_A\) is the [[fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms|covariant exterior derivative]]. It is a complex because \(d_A^2\alpha=[F_A\wedge\alpha]\) and flatness gives \(F_A=0\). The first three terms govern deformations of the flatness equation modulo [[fiber-bundles/gauge-transformation|gauge transformations]]; the full complex computes the cohomology of the flat [[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint bundle]].
 Its cohomology groups are denoted \(H_A^j\) or \(H^j(M;\operatorname{ad}P_A)\).
@@ -35,7 +35,7 @@ Writing a nearby connection as \(A+a\), flatness becomes the [[lie-groups/maurer
 \[
 d_Aa+\tfrac12[a\wedge a]=0.
 \]
-The linear term gives the complex, while the quadratic term explains why a class in \(H_A^1\) need not integrate to an actual family. In representation-theoretic settings the associated differential graded Lie algebra controls the local deformation germ; the compact Kähler case and its quadraticity properties are developed in [Goldman–Millson, §§1–3].
+The linear term gives the complex, while the quadratic term explains why a class in \(H_A^1\) need not integrate to an actual family. In representation-theoretic settings the associated differential graded Lie algebra controls the local deformation germ.
 
 ## Ellipticity and examples
 

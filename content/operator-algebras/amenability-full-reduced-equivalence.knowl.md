@@ -22,7 +22,7 @@ Here \(q_G\) is the [[operator-algebras/full-to-reduced-group-cstar-quotient|ful
 
 ## Representation-theoretic form
 
-Injectivity of \(q_G\) is equivalent to every unitary representation of \(G\) being weakly contained in the left [[algebra-representation-theory/regular-representation|regular representation]]. Amenability is also equivalent to weak containment of the trivial representation in the regular representation. Fell absorption then supplies the bridge from the latter condition to all representations. This formulation is often called Hulanicki's criterion; see [Paterson, Chapter 4].
+Injectivity of \(q_G\) is equivalent to every unitary representation of \(G\) being weakly contained in the left [[algebra-representation-theory/regular-representation|regular representation]]. Amenability is also equivalent to weak containment of the trivial representation in the regular representation. Fell absorption then supplies the bridge from the latter condition to all representations. This formulation is often called Hulanicki's criterion.
 
 ## Consequences and examples
 

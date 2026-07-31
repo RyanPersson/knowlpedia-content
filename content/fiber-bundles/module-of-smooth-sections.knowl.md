@@ -78,10 +78,8 @@ manifold and \(E\) has finite rank, then
 smooth \(\mathbb F\)-vector bundle. This smooth Serre–Swan statement requires
 no compactness hypothesis; finite dimensionality supplies a finite-rank
 complementary bundle. On a disconnected base, one requires the ranks on
-components to be globally bounded. See
-[Nestruev, Chapter 11]. The original compact
-Hausdorff theorem over \(C(X)\) is a distinct continuous formulation
-[Swan, Theorem 1].
+components to be globally bounded.The original compact
+Hausdorff theorem over \(C(X)\) is a distinct continuous formulation.
 
 Taking sections over every open set gives the
 [[fiber-bundles/vector-bundles-and-locally-free-sheaves|equivalence between

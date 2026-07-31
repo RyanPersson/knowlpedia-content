@@ -31,8 +31,7 @@ For a projection \(p\in M\), the following conditions are equivalent:
 \(\varphi(x)=\varphi(pxp)\) for every \(x\in M\). Normality is what permits the
 supremum of all \(\varphi\)-null projections to remain null. Consequently,
 \(\varphi\) is faithful exactly when \(s(\varphi)=1\). These support
-properties are part of the standard theory of normal positive forms
-[Takesaki, treatment of normal positive functionals].
+properties are part of the standard theory of normal positive forms.
 
 ## Concrete models
 

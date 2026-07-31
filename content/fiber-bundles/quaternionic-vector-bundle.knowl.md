@@ -30,8 +30,7 @@ Restricting scalars along \(\mathbb C\subset\mathbb H\) turns \(E\) into a
 Right multiplication by \(j\) defines an antilinear [[fiber-bundles/bundle-map|bundle map]] \(J:E\to E\)
 satisfying \(J^2=-I\). Conversely, such a pair \((E,J)\) recovers the right
 quaternionic action. This is the standard complex description of a quaternion
-bundle
-[Atiyah, §1.5].
+bundle.
 
 ## Metrics and examples
 

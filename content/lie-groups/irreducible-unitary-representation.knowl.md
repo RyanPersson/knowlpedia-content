@@ -32,8 +32,7 @@ of the identity. Equivalently, the [[operator-algebras/commutant|commutant]] of
 invariant subspace yields a nonscalar commuting
 [[linear-algebra/orthogonal-projection|orthogonal projection]], while
 the spectral projections of a nonscalar self-adjoint operator in the
-commutant recover a nontrivial invariant subspace
-[Folland, §3.1].
+commutant recover a nontrivial invariant subspace.
 
 ## Examples and reducible cases
 

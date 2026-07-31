@@ -32,7 +32,7 @@ These formulations differ only by the nonzero scalar relating \(dd^c\) and \(\pa
 
 ## Structure and consequences
 
-The lemma identifies several apparently different notions of triviality. In particular, Bott–Chern cohomology maps isomorphically to [[differential-geometry/dolbeault-cohomology|Dolbeault cohomology]] in each bidegree, while the direct sum of its \((p,q)\)-groups with \(p+q=k\) maps isomorphically to degree-\(k\) [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology]]. It also ensures that this Hodge decomposition is independent of the chosen [[differential-geometry/kahler-metric|Kähler metric]]. Demailly proves these consequences in [Chapter VI, §8.2, Lemma 8.6 and Corollary 8.7].
+The lemma identifies several apparently different notions of triviality. In particular, Bott–Chern cohomology maps isomorphically to [[differential-geometry/dolbeault-cohomology|Dolbeault cohomology]] in each bidegree, while the direct sum of its \((p,q)\)-groups with \(p+q=k\) maps isomorphically to degree-\(k\) [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology]]. It also ensures that this Hodge decomposition is independent of the chosen [[differential-geometry/kahler-metric|Kähler metric]].
 
 ## Conventions and scope
 

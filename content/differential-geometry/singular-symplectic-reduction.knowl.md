@@ -22,7 +22,7 @@ For a closed subgroup \(H\subseteq G\), let \(M_{(H)}\) denote the points whose 
 \]
 need not be connected; their connected components are the symplectic strata. On each component, the restricted form descends by the same kernel-removal mechanism as regular reduction. Different strata can have different dimensions and fit together according to stabilizer type.
 
-Sjamaar and Lerman prove that, in this compact-group setting, the orbit-type pieces are symplectic and their decomposition is a stratification; the natural smooth functions carry a compatible Poisson bracket [Sjamaar–Lerman, Theorems 2.1 and 6.11 and §3].
+Sjamaar and Lerman prove that, in this compact-group setting, the orbit-type pieces are symplectic and their decomposition is a stratification; the natural smooth functions carry a compatible Poisson bracket.
 
 ## Relation to regular reduction
 

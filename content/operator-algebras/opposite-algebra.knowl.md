@@ -47,8 +47,6 @@ additionally requires
 \(\bigl[\, [D,\pi(a)],\pi^{\mathrm{op}}(b^{\mathrm{op}})\,\bigr]=0\), where the inner
 commutator uses its
 [[functional-analysis/bounded-commutator|bounded extension]]. These
-conventions follow
-[Connes, §2].
 
 ## Examples and cautions
 

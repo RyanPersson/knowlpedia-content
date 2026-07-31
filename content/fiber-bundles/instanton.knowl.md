@@ -16,7 +16,7 @@ and satisfies one of the first-order equations
 \[
 *F_A=F_A
 \qquad\text{or}\qquad
-*F_A=-F_A .
+*F_A=-F_A.
 \]
 Equivalently, \(A\) is a [[fiber-bundles/self-dual-and-anti-self-dual-connection|self-dual or anti-self-dual connection]] of finite energy. On compact \(M\), finiteness is automatic. A common orientation convention reserves “instanton” for the anti-self-dual equation.
 
@@ -24,7 +24,7 @@ Equivalently, \(A\) is a [[fiber-bundles/self-dual-and-anti-self-dual-connection
 
 The [[fiber-bundles/bianchi-identity|Bianchi identity]] gives \(d_AF_A=0\). If \(*F_A=\pm F_A\), then \(d_A(*F_A)=0\), so every instanton is a [[fiber-bundles/yangmills-connection|Yang–Mills connection]]. The converse fails: a Yang–Mills connection can have both self-dual and anti-self-dual curvature components.
 
-On a compact four-manifold, the orthogonal decomposition \(F_A=F_A^++F_A^-\) rewrites the Yang–Mills action as a topological Chern–Weil term plus a nonnegative multiple of either \(\|F_A^+\|_{L^2}^2\) or \(\|F_A^-\|_{L^2}^2\). Hence instantons attain the absolute energy bound in their fixed topological class [Donaldson–Kronheimer, §2.1].
+On a compact four-manifold, the orthogonal decomposition \(F_A=F_A^++F_A^-\) rewrites the Yang–Mills action as a topological Chern–Weil term plus a nonnegative multiple of either \(\|F_A^+\|_{L^2}^2\) or \(\|F_A^-\|_{L^2}^2\). Hence instantons attain the absolute energy bound in their fixed topological class.
 
 ## Canonical example
 

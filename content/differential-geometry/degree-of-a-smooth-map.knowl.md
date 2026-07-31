@@ -20,7 +20,7 @@ For every compactly supported \(n\)-form \(\omega\) on \(N\),
 \[
 \int_M f^*\omega=\deg(f)\int_N\omega.
 \]
-This identity both recovers the signed-count definition and extends its computational reach. When \(M\) and \(N\) are compact and connected, degree is the scalar by which \(f\) acts on top-dimensional real cohomology [Guillemin and Pollack, Chapter 3].
+This identity both recovers the signed-count definition and extends its computational reach. When \(M\) and \(N\) are compact and connected, degree is the scalar by which \(f\) acts on top-dimensional real cohomology.
 
 ## Homotopy and composition
 

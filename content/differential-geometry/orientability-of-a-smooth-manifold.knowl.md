@@ -18,7 +18,7 @@ For an ordinary second-countable smooth \(n\)-manifold, the following are equiva
 2. \(M\) has an atlas with positive transition determinants; and
 3. \(M\) admits a nowhere-vanishing smooth \(n\)-form.
 
-Equivalently, the top exterior-power [[fiber-bundles/line-bundle|line bundle]] \(\bigwedge^nT^*M\) is trivial. The equivalence between compatible local choices and a global top form uses [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|smooth partitions of unity]] [Lee, chapter on orientations].
+Equivalently, the top exterior-power [[fiber-bundles/line-bundle|line bundle]] \(\bigwedge^nT^*M\) is trivial. The equivalence between compatible local choices and a global top form uses [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|smooth partitions of unity]].
 
 ## Choices on connected components
 
@@ -26,7 +26,7 @@ Every connected orientable manifold of positive dimension has exactly two orient
 
 ## Examples and obstruction
 
-[[linear-algebra/euclidean-space|Euclidean space]] and every sphere are orientable. Every [[differential-geometry/complex-manifold|complex manifold]] is canonically orientable after forgetting its complex structure. The Möbius band is nonorientable, and real projective \(n\)-space is orientable exactly when \(n\) is odd. The [[fiber-bundles/stiefel-whitney-class|first Stiefel–Whitney class]] of \(TM\) is the standard cohomological obstruction to orientability [Milnor and Stasheff, §§4 and 9].
+[[linear-algebra/euclidean-space|Euclidean space]] and every sphere are orientable. Every [[differential-geometry/complex-manifold|complex manifold]] is canonically orientable after forgetting its complex structure. The Möbius band is nonorientable, and real projective \(n\)-space is orientable exactly when \(n\) is odd. The [[fiber-bundles/stiefel-whitney-class|first Stiefel–Whitney class]] of \(TM\) is the standard cohomological obstruction to orientability.
 
 ## References
 

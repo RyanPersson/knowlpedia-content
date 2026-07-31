@@ -31,8 +31,7 @@ where \(s_n(S)\) are its
 [[functional-analysis/singular-values|singular values]]. In that case
 \(\operatorname{Tr}(|S|)=\sum_ns_n(S)\) and
 \(|\operatorname{Tr}(S)|\leq\operatorname{Tr}(|S|)\). For a positive compact
-operator, the trace is the sum of its eigenvalues counted with multiplicity
-[Simon, §1].
+operator, the trace is the sum of its eigenvalues counted with multiplicity.
 
 ## Tracial and continuity properties
 

@@ -47,8 +47,7 @@ products:
 =\langle\rho(a)\eta,\rho(b)\eta\rangle.
 \]
 Hence \(U_0\) is well defined and isometric. Cyclicity makes its range dense,
-so it extends to the asserted unitary. Density also proves uniqueness
-[Murphy, Theorem 3.3.3].
+so it extends to the asserted unitary. Density also proves uniqueness.
 
 ## Why the pointing matters
 

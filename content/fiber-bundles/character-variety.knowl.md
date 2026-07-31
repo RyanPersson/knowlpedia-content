@@ -12,8 +12,7 @@ Let \(k\) be an [[algebraic-geometry-foundations/algebraically-closed-field|alge
 \[
 X_G(\Gamma)
 =
-\operatorname{Hom}(\Gamma,G)\mathbin{/\mkern-6mu/}G
-:=
+\operatorname{Hom}(\Gamma,G)\mathbin{/\mkern-6mu/}G:=
 \operatorname{Spec}\!\left(
 k[\operatorname{Hom}(\Gamma,G)]^G
 \right),
@@ -22,11 +21,11 @@ where \(G\) acts on the [[fiber-bundles/representation-variety|representation va
 
 ## Closed-orbit interpretation
 
-The quotient map is constant on conjugacy orbits, but it need not distinguish all of them. Each [[algebraic-geometry-foundations/closed-point|closed point]] of \(X_G(\Gamma)\) corresponds to a unique closed orbit contained in an orbit closure. For \(G=\operatorname{GL}_n\), the closed orbits are the [[algebra-representation-theory/completely-reducible-representation|completely reducible representations]]. This geometric-invariant-theory interpretation is established in [Sikora, §§7 and 11].
+The quotient map is constant on conjugacy orbits, but it need not distinguish all of them. Each [[algebraic-geometry-foundations/closed-point|closed point]] of \(X_G(\Gamma)\) corresponds to a unique closed orbit contained in an orbit closure. For \(G=\operatorname{GL}_n\), the closed orbits are the [[algebra-representation-theory/completely-reducible-representation|completely reducible representations]].
 
 ## Relation to flat connections
 
-When \(\Gamma=\pi_1(M,x)\), conjugation records the change of a framing in the fiber over \(x\) for a [[fiber-bundles/holonomy-representation|holonomy representation]]. Thus character varieties provide algebraic models for moduli of flat connections. Their smooth loci can carry additional geometry; for surface groups and suitable \(G\), the good-representation locus has Goldman's symplectic structure [Goldman, 1984].
+When \(\Gamma=\pi_1(M,x)\), conjugation records the change of a framing in the fiber over \(x\) for a [[fiber-bundles/holonomy-representation|holonomy representation]]. Thus character varieties provide algebraic models for moduli of flat connections. Their smooth loci can carry additional geometry; for surface groups and suitable \(G\), the good-representation locus has Goldman's symplectic structure.
 
 ## Examples and scope
 

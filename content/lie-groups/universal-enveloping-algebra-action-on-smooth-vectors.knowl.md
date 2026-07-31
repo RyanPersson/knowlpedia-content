@@ -36,8 +36,7 @@ on smooth vectors. The universal property of
 [[lie-groups/universal-enveloping-algebra|the universal enveloping algebra]]
 therefore produces the unique extension. Invariance of
 \(\mathcal H^\infty\) under every \(d\pi(X)\) ensures that all words have one
-common domain rather than a separately chosen intersection
-[Warner, §4.4].
+common domain rather than a separately chosen intersection.
 
 ## Equivariance and filtration
 

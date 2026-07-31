@@ -33,8 +33,7 @@ If \(u\) is induced by an integrable function \(f\), [[measure-theory/fubinis-th
 \]
 Thus the dual definition agrees with the ordinary Fourier transform whenever
 both are available. It also assigns transforms to nonintegrable objects such
-as polynomials, plane waves, and derivatives of the Dirac distribution
-[Hörmander, §7.1].
+as polynomials, plane waves, and derivatives of the Dirac distribution.
 
 ## Differentiation and multiplication
 

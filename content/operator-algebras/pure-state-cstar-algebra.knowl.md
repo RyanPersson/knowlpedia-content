@@ -28,8 +28,7 @@ A state is pure if and only if its
 connects extreme points of \(S(A)\) with
 [[operator-algebras/irreducible-cstar-representation|irreducible
 representations]] of \(A\). The equivalence is a theorem, not an alternative
-convention for the definition
-[Murphy, §3.3].
+convention for the definition.
 
 ## Standard examples
 

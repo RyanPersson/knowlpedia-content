@@ -31,8 +31,7 @@ order-preserving on self-adjoint elements, and every \(*\)-homomorphism is
 positive. The
 [[operator-algebras/continuous-functional-calculus|continuous functional calculus]]
 also makes increasing
-operator-monotone functions order preserving on their domains
-[Pedersen, treatment of positivity and order].
+operator-monotone functions order preserving on their domains.
 
 ## Examples and incomparability
 

@@ -17,7 +17,7 @@ The **GNS construction for \(\varphi\)** produces a
 [[lie-groups/cyclic-vector-and-cyclic-representation|cyclic vector]]
 \(\xi_\varphi\) such that
 \[
-\varphi(g)=\langle\pi_\varphi(g)\xi_\varphi,\xi_\varphi\rangle .
+\varphi(g)=\langle\pi_\varphi(g)\xi_\varphi,\xi_\varphi\rangle.
 \]
 This pointed cyclic representation is unique up to a unique unitary
 intertwiner carrying \(\xi_\varphi\) to the other distinguished vector.
@@ -50,7 +50,7 @@ dense. If \((\pi,\mathcal H,\xi)\) is another cyclic realization of
 \]
 preserves inner products. It therefore extends to the unique unitary
 intertwiner required above. This is the group form of the Gelfand–Naimark–Segal
-construction [Folland, Theorem 3.20].
+construction.
 
 ## Degenerate and normalized cases
 

@@ -34,8 +34,7 @@ Every self-adjoint normal functional has a unique Jordan decomposition
 where \(\omega_\pm\in(M_*)_+\) have orthogonal support projections and
 \(\lVert\omega\rVert=\lVert\omega_+\rVert+\lVert\omega_-\rVert\). Taking real
 and imaginary parts then shows that every element of \(M_*\) is a linear
-combination of four positive normal functionals
-[Takesaki, vol. I, Chapter III, §2].
+combination of four positive normal functionals.
 
 ## Concrete realization
 

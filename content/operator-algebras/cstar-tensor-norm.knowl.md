@@ -32,8 +32,7 @@ from faithful spatial representations of the factors. The
 [[operator-algebras/maximal-cstar-tensor-product|maximal norm]] is the
 supremum over all compatible representations and has a universal property.
 Thus a \(C^*\)-tensor norm amounts to a completion intermediate between the
-spatial and universal completions
-[Takesaki, Chapter IV].
+spatial and universal completions.
 
 ## Why the algebraic tensor product is insufficient
 

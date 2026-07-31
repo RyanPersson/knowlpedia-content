@@ -16,13 +16,13 @@ Equivalently, there is a [[fiber-bundles/gauge-transformation|gauge transformati
 
 ## Holonomy and preserved reductions
 
-Evaluation at a point identifies the stabilizer with the [[algebra-groups/centralizer|centralizer]] of the [[fiber-bundles/holonomy-group|holonomy group]]. Thus \(A\) is reducible exactly when the holonomy has centralizer larger than \(Z(G)\); see [Freed and Uhlenbeck, Chapter 3]. For matrix groups this often means that the [[fiber-bundles/holonomy-representation|holonomy representation]] preserves a proper decomposition, so \(A\) is [[fiber-bundles/connection-compatible-with-a-reduction|compatible with a reduction]] to the corresponding [[algebra-groups/proper-subgroup|proper subgroup]].
+Evaluation at a point identifies the stabilizer with the [[algebra-groups/centralizer|centralizer]] of the [[fiber-bundles/holonomy-group|holonomy group]]. Thus \(A\) is reducible exactly when the holonomy has centralizer larger than \(Z(G)\). For matrix groups this often means that the [[fiber-bundles/holonomy-representation|holonomy representation]] preserves a proper decomposition, so \(A\) is [[fiber-bundles/connection-compatible-with-a-reduction|compatible with a reduction]] to the corresponding [[algebra-groups/proper-subgroup|proper subgroup]].
 
 For a [[fiber-bundles/hermitian-connection|unitary connection]] on a Hermitian [[fiber-bundles/vector-bundle|vector bundle]], a parallel orthogonal splitting into nonzero subbundles makes the connection reducible. The converse takes this form when the stabilizing element has suitable eigenspace decomposition.
 
 ## Role in gauge quotients
 
-Reducible connections are points with nonminimal isotropy for the gauge action. Their orbits therefore produce singular or lower-dimensional strata in the quotient of the space of connections. Gauge-theoretic moduli problems often impose hypotheses excluding reducibles so that a gauge slice has a manifold-like quotient near a solution; this role is developed in [Freed and Uhlenbeck, Chapter 3].
+Reducible connections are points with nonminimal isotropy for the gauge action. Their orbits therefore produce singular or lower-dimensional strata in the quotient of the space of connections. Gauge-theoretic moduli problems often impose hypotheses excluding reducibles so that a gauge slice has a manifold-like quotient near a solution.
 
 For a nonabelian \(G\), the flat product connection with trivial holonomy is reducible because its stabilizer contains all constant \(G\)-valued transformations.
 

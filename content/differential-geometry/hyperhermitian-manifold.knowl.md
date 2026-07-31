@@ -22,7 +22,7 @@ The metric determines three real two-forms
 \omega_J(X,Y)=g(JX,Y),\qquad
 \omega_K(X,Y)=g(KX,Y).
 \]
-They encode the same pointwise compatibility as the metric, but they need not be closed. The structure is hyperkähler precisely when all three forms are closed; equivalently, the [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]] preserves \(I,J,K\). This distinction between algebraic compatibility and differential parallelism is developed in [Joyce, Chapter 7].
+They encode the same pointwise compatibility as the metric, but they need not be closed. The structure is hyperkähler precisely when all three forms are closed; equivalently, the [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]] preserves \(I,J,K\).
 
 ## Examples and scope
 

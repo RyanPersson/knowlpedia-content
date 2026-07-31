@@ -23,7 +23,7 @@ On a compact domain, or under decay conditions making every integral finite, the
 \frac12\int_Y|F_A-*d_A\Phi|^2
 +\int_Y\langle F_A\wedge d_A\Phi\rangle.
 \]
-The final term becomes a boundary or topological charge after the [[fiber-bundles/bianchi-identity|Bianchi identity]] is used. Solutions therefore saturate the associated Bogomolny bound. This completion-of-squares argument is the origin of the first-order equation [Bogomolny, pp. 449–454].
+The final term becomes a boundary or topological charge after the [[fiber-bundles/bianchi-identity|Bianchi identity]] is used. Solutions therefore saturate the associated Bogomolny bound. This completion-of-squares argument is the origin of the first-order equation.
 
 ## Dimensional reduction
 

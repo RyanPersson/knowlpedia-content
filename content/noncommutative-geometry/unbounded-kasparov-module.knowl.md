@@ -31,7 +31,7 @@ Functional calculus for regular self-adjoint operators defines
 \[
 F_D=D(1+D^2)^{-1/2}\in\mathcal L_B(E).
 \]
-The Baaj–Julg bounded-transform theorem shows that \((E,\pi,F_D)\) is a bounded Kasparov module and hence determines a class in \(KK(A,B)\) [Baaj–Julg, pp. 875–878]. Local compactness gives compactness of \(\pi(a)(1-F_D^2)\); the bounded-commutator condition is what controls \([F_D,\pi(a)]\).
+The Baaj–Julg bounded-transform theorem shows that \((E,\pi,F_D)\) is a bounded Kasparov module and hence determines a class in \(KK(A,B)\). Local compactness gives compactness of \(\pi(a)(1-F_D^2)\); the bounded-commutator condition is what controls \([F_D,\pi(a)]\).
 
 The construction generalizes the [[noncommutative-geometry/bounded-transform-spectral-triple|bounded transform of a spectral triple]]. Taking \(B=\mathbb C\) turns a Hilbert \(B\)-module into a [[linear-algebra/hilbert-space|Hilbert space]] and recovers an unbounded Fredholm-module cycle.
 

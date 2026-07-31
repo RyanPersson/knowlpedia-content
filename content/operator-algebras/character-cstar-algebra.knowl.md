@@ -36,8 +36,7 @@ character: [[operator-algebras/vector-state|vector states]] on \(M_n(\mathbb C)\
 there is multiplicative when \(n>1\). On a
 [[operator-algebras/commutative-cstar-algebra|commutative \(C^*\)-algebra]],
 however, the pure states are exactly the characters. These facts underlie the
-construction of the character space
-[Murphy, chapter on commutative \(C^*\)-algebras].
+construction of the character space.
 
 ## Terminology
 

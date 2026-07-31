@@ -30,9 +30,7 @@ Two formal differences represent the same class precisely after adding
 suitable auxiliary projections and passing to Murray–von Neumann equivalence.
 A \(*\)-homomorphism \(f:A\to B\) sends a projection \(p\) to its matrix
 amplification \(f^{(n)}(p)\), inducing a homomorphism
-\(K_0(f):K_0(A)\to K_0(B)\). The construction and its nonunital normalization
-are developed in
-[Blackadar, Chapter III].
+\(K_0(f):K_0(A)\to K_0(B)\).
 
 ## Basic properties
 

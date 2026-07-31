@@ -41,7 +41,7 @@ finite-dimensional \(MA\)-data. Frobenius reciprocity then converts the
 resulting quotient of a Jacquet module into an embedding of \(V\) into induced
 representation data. This connects asymptotic expansions of matrix
 coefficients with principal series and underlies comparison results for
-globalizations [Casselman, pp. 557–563].
+globalizations.
 
 ## Scope and contrast
 

@@ -11,7 +11,7 @@ section_mode = "progressive"
 For \(f\) in the [[functional-analysis/schwartz-space|Schwartz space]]
 \(\mathcal S(\mathbb R^n)\), its **Fourier transform** is
 \[
-\widehat f(\xi)=\int_{\mathbb R^n}e^{-2\pi i x\cdot\xi}f(x)\,dx .
+\widehat f(\xi)=\int_{\mathbb R^n}e^{-2\pi i x\cdot\xi}f(x)\,dx.
 \]
 The integral is a [[measure-theory/lebesgue-integral|Lebesgue integral]];
 rapid decay makes \(f\) [[measure-theory/lebesgue-integrable-function|Lebesgue
@@ -34,8 +34,7 @@ derivatives with polynomial factors:
 \]
 Every polynomially weighted derivative of \(f\) remains integrable, so these
 identities bound every Schwartz seminorm of \(\widehat f\). They also show
-continuity of \(\mathcal F\) in the Schwartz topology
-[Hörmander, §7.1].
+continuity of \(\mathcal F\) in the Schwartz topology.
 
 ## Structural role
 

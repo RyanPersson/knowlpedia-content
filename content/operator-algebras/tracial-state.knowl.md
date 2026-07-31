@@ -32,8 +32,7 @@ under every inner unitary conjugation:
 It then takes equal values on
 [[operator-algebras/murray-von-neumann-equivalence|Murray--von Neumann equivalent projections]].
 The
-set of tracial states is a convex weak-star closed subset of the state space
-[Blackadar, treatment of traces and tracial states].
+set of tracial states is a convex weak-star closed subset of the state space.
 
 ## Examples and non-existence
 

@@ -10,8 +10,7 @@ section_mode = "progressive"
 
 Let \(E\to M\) be a smooth real or complex [[fiber-bundles/vector-bundle|vector bundle]] and let \(k\geq 0\). An **\(E\)-valued differential \(k\)-form** is a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]]
 \[
-\omega\in\Omega^k(M;E)
-:=
+\omega\in\Omega^k(M;E):=
 \Gamma\!\left(\Lambda^kT^*M\otimes E\right).
 \]
 Equivalently, \(\omega\) assigns to [[fiber-bundles/vector-field|vector fields]] \(X_1,\ldots,X_k\) a section \(\omega(X_1,\ldots,X_k)\) of \(E\), alternatingly and \(C^\infty(M)\)-multilinearly. When \(k=0\), this is simply a [[fiber-bundles/section-of-a-vector-bundle|smooth section of \(E\)]]. When \(E=M\times\mathbb R\), the definition reduces to an ordinary [[fiber-bundles/differential-k-form|differential \(k\)-form]].
@@ -24,7 +23,7 @@ A [[fiber-bundles/connection-on-a-vector-bundle|connection on \(E\)]] extends th
 \[
 d_\nabla:\Omega^k(M;E)\longrightarrow\Omega^{k+1}(M;E).
 \]
-Unlike the scalar exterior derivative, this operator depends on the chosen connection; see [Kobayashi and Nomizu, Volume I, Chapter II].
+Unlike the scalar exterior derivative, this operator depends on the chosen connection.
 
 ## Local form and pullback
 

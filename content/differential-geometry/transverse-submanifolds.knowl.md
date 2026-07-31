@@ -20,7 +20,7 @@ If \(S\pitchfork T\), then \(S\cap T\) is an embedded submanifold of \(M\) with
 \[
 T_p(S\cap T)=T_pS\cap T_pT
 \]
-and codimension \(\operatorname{codim}(S\cap T)=\operatorname{codim}S+\operatorname{codim}T\). Equivalently, its dimension is \(\dim S+\dim T-\dim M\) [Lee, Chapter 6].
+and codimension \(\operatorname{codim}(S\cap T)=\operatorname{codim}S+\operatorname{codim}T\). Equivalently, its dimension is \(\dim S+\dim T-\dim M\).
 
 ## Examples and non-examples
 

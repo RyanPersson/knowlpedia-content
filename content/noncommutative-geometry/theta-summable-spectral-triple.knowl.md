@@ -29,8 +29,7 @@ polynomial while remaining subexponential in the sense required for
 Products containing heat factors \(e^{-t_jD^2}\) regularize the unbounded
 commutators that occur in the JLO formula. Integration over a simplex and
 trace-norm estimates then give the factorial growth bounds required of an
-entire cyclic cochain. This is the original analytic setting of
-[Jaffe–Leśniewski–Osterwalder, §§2–4].
+entire cyclic cochain. This is the original analytic setting of.
 
 ## Conventions and scope
 

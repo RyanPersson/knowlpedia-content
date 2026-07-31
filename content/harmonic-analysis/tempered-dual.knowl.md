@@ -31,8 +31,7 @@ The class \([\pi]\) lies in \(\widehat G_{\mathrm{temp}}\) exactly when the
 of \(\pi\) factors through the
 [[operator-algebras/reduced-group-cstar-algebra|reduced group \(C^*\)-algebra]] \(C_r^*(G)\). Thus the tempered dual is also called the
 **reduced dual**: it is the [[algebra-representation-theory/irreducible-representation|irreducible representation]] spectrum seen by
-\(C_r^*(G)\), rather than by the full group \(C^*\)-algebra
-[Dixmier, §18.8].
+\(C_r^*(G)\), rather than by the full group \(C^*\)-algebra.
 
 ## Role in Plancherel theory
 
@@ -43,8 +42,7 @@ supported on the tempered dual. The direct-integral decomposition of the
 [[algebra-representation-theory/regular-representation|regular representation]] therefore detects only tempered irreducibles, even
 when \(\widehat G_{\mathrm{temp}}\) is a [[shared-foundations/proper-subset|proper subset]] of \(\widehat G\).
 For real reductive groups, this subset includes the discrete series and the
-[[lie-groups/principal-series-representation|tempered principal series]]
-[Knapp, Chapter XIV].
+[[lie-groups/principal-series-representation|tempered principal series]].
 
 ## Conventions and scope
 

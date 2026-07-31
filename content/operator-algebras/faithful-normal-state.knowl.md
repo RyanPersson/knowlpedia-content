@@ -29,8 +29,7 @@ A normal state \(\varphi\) is faithful exactly when its
 of \(\varphi\), the [[operator-algebras/cyclic-vector|cyclic vector]] is
 [[operator-algebras/separating-vector|separating]] for the represented von
 Neumann algebra. These
-characterizations connect positivity, support, and representation theory
-[Takesaki, discussion of faithful normal states].
+characterizations connect positivity, support, and representation theory.
 
 ## Existence and examples
 

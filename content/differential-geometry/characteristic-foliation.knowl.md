@@ -20,7 +20,7 @@ For [[fiber-bundles/vector-field|vector fields]] \(X,Y\) tangent to \(\mathcal K
 \[
 \iota_{[X,Y]}\iota^*\omega=0.
 \]
-Thus \(\mathcal K\) is closed under [[fiber-bundles/lie-bracket|Lie brackets]]. Its rank is constant because coisotropy gives \(\dim\mathcal K_p=\operatorname{codim}_M C\). Frobenius therefore applies as a regular-foliation theorem, not merely as a statement about a possibly singular distribution [Cannas da Silva, §1.4].
+Thus \(\mathcal K\) is closed under [[fiber-bundles/lie-bracket|Lie brackets]]. Its rank is constant because coisotropy gives \(\dim\mathcal K_p=\operatorname{codim}_M C\). Frobenius therefore applies as a regular-foliation theorem, not merely as a statement about a possibly singular distribution.
 
 ## Examples and geometry of the leaves
 

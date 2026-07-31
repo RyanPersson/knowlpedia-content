@@ -59,8 +59,7 @@ operators \(T\in B(\mathcal H)\) satisfying \(TA\subseteq A\) and
 multiplier alone is not a double centralizer until a compatible right
 multiplier is supplied; nor is an arbitrary bounded endomorphism of the
 [[linear-algebra/banach-space|Banach space]] \(A\) a multiplier. Busby's
-construction makes this distinction precise
-[Busby, 1968].
+construction makes this distinction precise.
 
 ## References
 

@@ -26,13 +26,13 @@ I-F_D^2=(1+D^2)^{-1}
 \]
 retains the compactness information. The transform preserves the sign of every nonzero spectral value but sends large magnitudes toward \(\pm1\).
 
-The compactness of \([F_D,a]\) follows from the resolvent integral for \((1+D^2)^{-1/2}\) and the boundedness of \([D,a]\). This is the bounded-transform theorem of Baaj and Julg; [Connes, Appendix A, Theorem 15] states the Hilbert-module version and the integral argument.
+The compactness of \([F_D,a]\) follows from the resolvent integral for \((1+D^2)^{-1/2}\) and the boundedness of \([D,a]\). This is the bounded-transform theorem of Baaj and Julg.
 
 ## K-homological role
 
 The bounded transform forgets metric scale but retains the stable Fredholm data needed for [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]. Homotopies satisfying the appropriate uniform unbounded-cycle hypotheses descend to operator homotopies of bounded cycles. The resulting class can then be paired with \(K\)-theory by the even or odd Fredholm index.
 
-For a nonunital unbounded Kasparov cycle, compact resolvent is replaced by local compactness \(a(1+D^2)^{-1}\in K(H)\). The same formula then gives the local compact-defect conditions \(a(F_D^2-I)\in K(H)\). [Connes, Appendix A, Theorem 15].
+For a nonunital unbounded Kasparov cycle, compact resolvent is replaced by local compactness \(a(1+D^2)^{-1}\in K(H)\). The same formula then gives the local compact-defect conditions \(a(F_D^2-I)\in K(H)\).
 
 ## Example and distinction from the phase
 

@@ -34,8 +34,7 @@ distribution on \(X\times Y\). The operator formulation follows by applying
 this statement to
 \((\psi,\varphi)\mapsto\langle A\varphi,\psi\rangle\). Separate continuity is
 the natural hypothesis here; on test-function spaces it supplies the
-hypocontinuity needed in the tensor-product formulation
-[Trèves, Chapter 51].
+hypocontinuity needed in the tensor-product formulation.
 
 ## Role of nuclearity
 

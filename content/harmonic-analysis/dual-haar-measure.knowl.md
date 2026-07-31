@@ -24,7 +24,7 @@ The [[harmonic-analysis/fourier-inversion-lca|Fourier inversion theorem]] says t
 \[
 f(x)=\int_{\widehat G}\widehat f(\gamma)\gamma(x)\,d\widehat\mu(\gamma).
 \]
-More precisely, if \(f\in L^1(G)\) and \(\widehat f\in L^1(\widehat G)\), the right side gives a continuous representative equal to \(f\) [[measure-theory/almost-everywhere|almost everywhere]]. This inversion criterion and the unitary \(L^2\) extension in the [[harmonic-analysis/plancherel-theorem-lca|Plancherel theorem]] determine the same normalization [Rudin, Chapter 1].
+More precisely, if \(f\in L^1(G)\) and \(\widehat f\in L^1(\widehat G)\), the right side gives a continuous representative equal to \(f\) [[measure-theory/almost-everywhere|almost everywhere]]. This inversion criterion and the unitary \(L^2\) extension in the [[harmonic-analysis/plancherel-theorem-lca|Plancherel theorem]] determine the same normalization.
 
 ## Scaling and bidual normalization
 

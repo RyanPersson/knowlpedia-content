@@ -20,7 +20,7 @@ Write \(F_t(x)=F(x,t)\). Integration in the interval direction defines an operat
 \[
 F_1^*-F_0^*=dK+Kd.
 \]
-Thus the two pullbacks of [[differential-geometry/de-rham-complex|de Rham complexes]] are cochain-homotopic and induce the same map on [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology]]. This is the smooth homotopy-invariance mechanism used throughout de Rham theory [Tu, chapter on de Rham theory].
+Thus the two pullbacks of [[differential-geometry/de-rham-complex|de Rham complexes]] are cochain-homotopic and induce the same map on [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology]]. This is the smooth homotopy-invariance mechanism used throughout de Rham theory.
 
 ## Examples and distinctions
 

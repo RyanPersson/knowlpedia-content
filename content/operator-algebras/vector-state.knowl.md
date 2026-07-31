@@ -32,8 +32,7 @@ Nondegeneracy implies that an
 strongly to \(I_H\), which yields
 \(\|\omega_\xi\|=\|\xi\|^2=1\). If \(\xi\) is cyclic, the given pointed
 representation is unitarily equivalent to the GNS representation of
-\(\omega_\xi\)
-[Murphy, §3.3].
+\(\omega_\xi\).
 
 ## Concrete operator algebras
 

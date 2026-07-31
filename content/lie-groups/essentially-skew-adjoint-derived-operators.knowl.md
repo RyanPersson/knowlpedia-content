@@ -32,8 +32,7 @@ first identifies the maximal skew-adjoint generator \(iA_X\) of the
 there agrees with \(d\pi(X)\). Smoothing arbitrary vectors by convolution
 against compactly supported smooth functions on \(G\) produces a dense
 invariant subspace of smooth vectors that is a core for \(A_X\). Agreement on
-this core forces the stated closure
-[Warner, §4.4].
+this core forces the stated closure.
 
 ## Consequences
 

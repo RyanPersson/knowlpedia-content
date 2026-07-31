@@ -40,8 +40,7 @@ factors,
 \]
 This identity underlies mollification and the use of fundamental solutions.
 When both distributions have compact support, convolution is associative and
-commutative and remains compactly supported
-[Hörmander, §4.2].
+commutative and remains compactly supported.
 
 ## Support and standard examples
 

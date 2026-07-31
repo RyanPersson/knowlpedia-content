@@ -31,8 +31,7 @@ If \(T\) is self-adjoint, then \(T\eta M\) exactly when every
 belongs to \(M\). More generally, for the polar
 decomposition \(T=v|T|\), affiliation is equivalent to \(v\in M\) together
 with affiliation of \(|T|\). These criteria turn an unbounded commutation
-condition into bounded operator-algebra data
-[Nelson, §§1–2].
+condition into bounded operator-algebra data.
 
 ## Examples and non-examples
 

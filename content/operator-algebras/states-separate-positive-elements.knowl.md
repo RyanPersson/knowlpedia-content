@@ -30,8 +30,7 @@ at the largest point of the spectrum gives a norm-one
 [[operator-algebras/positive-linear-functional|positive functional]] whose
 value at \(a\) is \(\|a\|\). Extending that functional to \(A\) without
 increasing its norm produces a state. This is the positive case of Murphy's
-state-attainment theorem
-[Murphy, Theorem 3.3.6].
+state-attainment theorem.
 
 To obtain the order criterion, if a self-adjoint \(x\) is not positive, its
 negative spectral part yields a state with \(\varphi(x)<0\). Applying this to

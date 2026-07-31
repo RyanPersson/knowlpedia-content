@@ -40,8 +40,7 @@ The universal property of the crossed product therefore produces a unique
 automorphism. Character multiplication gives
 \(\widehat\alpha_{\chi\psi}=
 \widehat\alpha_\chi\widehat\alpha_\psi\), and the crossed-product norm plus
-density of \(C_c(G,A)\) gives strong continuity
-[Williams, Chapter 7].
+density of \(C_c(G,A)\) gives strong continuity.
 
 The same formula descends through the [[algebra-representation-theory/regular-representation|regular representation]] and defines a
 dual action on the [[operator-algebras/reduced-crossed-product|reduced crossed product]].

@@ -34,8 +34,7 @@ satisfying
 \((\varphi\mathbin{\cdot}\psi)(a\otimes b)=\varphi(a)\psi(b)\).
 Conversely, representations of \(A\otimes_{\max}B\) yield commuting
 representations of the factors. This is the precise sense in which the
-maximal tensor product is universal
-[Takesaki, Chapter IV].
+maximal tensor product is universal.
 
 ## Comparison with the minimal product
 

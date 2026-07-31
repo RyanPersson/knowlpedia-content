@@ -45,8 +45,7 @@ A\otimes_{\max}B(H)=A\otimes_{\min}B(H)
 isometrically. In other words, \(A\) and \(B(H)\) form a nuclear pair even
 though neither algebra need be nuclear. This connects a local
 [[operator-algebras/quotient-cstar-algebra|quotient-lifting]] condition to
-the comparison of maximal and minimal \(C^*\)-tensor norms
-[Brown–Ozawa, §13.2].
+the comparison of maximal and minimal \(C^*\)-tensor norms.
 
 ## Nonunital convention
 

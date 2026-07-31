@@ -32,7 +32,7 @@ in the same convention, and has type \((1,1)\). For a [[differential-geometry/ho
 
 ## Conventions and scope
 
-Changing whether the Hermitian form is linear in its first or second argument, or changing the sign convention for curvature, alters the displayed local formulas but not the invariant characterization. The construction applies to every Hermitian holomorphic vector bundle; no [[differential-geometry/kahler-metric|Kähler metric]] on the base is required [Kobayashi, Chapter I, §4].
+Changing whether the Hermitian form is linear in its first or second argument, or changing the sign convention for curvature, alters the displayed local formulas but not the invariant characterization. The construction applies to every Hermitian holomorphic vector bundle; no [[differential-geometry/kahler-metric|Kähler metric]] on the base is required.
 
 ## References
 

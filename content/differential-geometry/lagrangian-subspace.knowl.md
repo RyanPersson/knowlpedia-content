@@ -24,7 +24,7 @@ For a subspace \(L\subseteq V\), the following are equivalent:
 - \(L\) is maximal among isotropic subspaces under inclusion; and
 - \(L\) is coisotropic and \(\dim L=\frac12\dim V\).
 
-The finite-dimensional hypothesis matters: it supplies \(\dim L+\dim L^\omega=\dim V\), which turns the relevant inclusion and half-dimension condition into equality [Cannas da Silva, Chapter 1, Homework 1].
+The finite-dimensional hypothesis matters: it supplies \(\dim L+\dim L^\omega=\dim V\), which turns the relevant inclusion and half-dimension condition into equality.
 
 ## Normal form and complements
 

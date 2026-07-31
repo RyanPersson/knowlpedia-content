@@ -18,7 +18,7 @@ is injective. Consequently, identities among [[fiber-bundles/characteristic-clas
 
 One constructs \(\operatorname{Fl}(E)\) by iteratively projectivizing the remaining quotient bundle. The resulting tautological filtration has line-bundle subquotients. Hermitian [[linear-algebra/orthogonal-complement|orthogonal complements]] split the filtration in the smooth category.
 
-The projective bundle theorem, applied at each stage, makes cohomology of the new base a [[algebra-modules/free-module|free module]] over the preceding cohomology ring with a basis containing \(1\). The pullback at each stage is therefore injective, and so is their composite [Milnor and Stasheff, chapter 14].
+The projective bundle theorem, applied at each stage, makes cohomology of the new base a [[algebra-modules/free-module|free module]] over the preceding cohomology ring with a basis containing \(1\). The pullback at each stage is therefore injective, and so is their composite.
 
 ## Use with Chern classes
 

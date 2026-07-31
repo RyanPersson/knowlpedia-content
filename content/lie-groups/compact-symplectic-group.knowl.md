@@ -34,15 +34,13 @@ identifies
 \]
 Here [[lie-groups/unitary-group|\(\operatorname{U}(2n)\)]] preserves the
 standard Hermitian form, while the complex symplectic factor preserves the
-standard nondegenerate alternating complex [[linear-algebra/bilinear-form|bilinear form]]. This equivalence is
-[Knapp, Proposition 1.139].
+standard nondegenerate alternating complex [[linear-algebra/bilinear-form|bilinear form]]. This equivalence is.
 
 ## Structure and low-rank example
 
 The group \(\operatorname{Sp}(n)\) is connected and simply connected. Its real
 [[lie-groups/lie-algebra|Lie algebra]] consists of quaternionic matrices \(X\) satisfying
-\(X^*+X=0\), and has dimension \(n(2n+1)\)
-[Knapp, §I.17 and Proposition 1.136].
+\(X^*+X=0\), and has dimension \(n(2n+1)\).
 For \(n=1\), it is the group of unit quaternions; hence
 \(\operatorname{Sp}(1)\) is isomorphic to
 [[lie-groups/special-unitary-group|\(\operatorname{SU}(2)\)]], with

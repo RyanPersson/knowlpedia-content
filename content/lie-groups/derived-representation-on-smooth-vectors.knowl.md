@@ -31,7 +31,7 @@ Fréchet topology, \(\mathcal H^\infty\) is a continuous
 [[algebra-modules/module|module]] over the
 [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]]
 \(U(\mathfrak g_{\mathbb C})\). The density and invariance of this space are
-basic smooth-vector results [Warner, §4.4].
+basic smooth-vector results.
 
 ## Relation to one-parameter generators
 

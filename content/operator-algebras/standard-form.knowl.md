@@ -24,7 +24,7 @@ Every von Neumann algebra has a standard form. Moreover, if \((M,H,J,P)\) and \(
 \[
 UJ=J_NU,\qquad U(P)=P_N.
 \]
-This is Haagerup's standard-form uniqueness theorem [Haagerup, Theorem 2.3].
+This is Haagerup's standard-form uniqueness theorem.
 
 ## Positive functionals as vectors
 

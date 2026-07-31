@@ -28,8 +28,7 @@ The theorem has three parts: a standard module has a unique irreducible
 quotient; every irreducible admissible representation occurs as such a
 quotient; and ordered inducing data determine that quotient uniquely up to
 the standard equivalences. Langlands proves the quotient and uniqueness in
-§3 and exhaustion in §4
-[Langlands, §3, Lemmas 3.13–3.14, and §4, Lemma 4.2].
+§3 and exhaustion in §4.
 
 The result classifies the admissible dual, not just the
 [[harmonic-analysis/unitary-dual|unitary dual]]. A Langlands quotient may
@@ -52,8 +51,7 @@ Changing from normalized to unnormalized induction shifts the parameter by
 formulation into a unique-subrepresentation formulation. Some sources use
 relative discrete-series data on a Levi subgroup rather than the equivalent
 tempered formulation. These are convention changes in the parametrization,
-not different classifications
-[Knapp, Chapter XIV].
+not different classifications.
 
 The theorem does not by itself decide which quotients are unitary, nor does it
 describe their full composition series.

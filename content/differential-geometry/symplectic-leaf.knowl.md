@@ -20,7 +20,7 @@ This is well-defined, closed, and nondegenerate. The Poisson integrability theor
 
 ## Why the leaf form is canonical
 
-If \(\pi^\sharp\alpha=0\), then \(\pi(\alpha,\beta)=0\) for every \(\beta\), so the displayed formula is independent of the covectors representing tangent vectors. It is nondegenerate because the [[differential-geometry/tangent-space|tangent space]] is exactly the image of \(\pi^\sharp\). Closedness and integrability ultimately follow from the Jacobi identity for the Poisson bracket. These facts are developed in [Vaisman, “The Symplectic Foliation of a Poisson Manifold”].
+If \(\pi^\sharp\alpha=0\), then \(\pi(\alpha,\beta)=0\) for every \(\beta\), so the displayed formula is independent of the covectors representing tangent vectors. It is nondegenerate because the [[differential-geometry/tangent-space|tangent space]] is exactly the image of \(\pi^\sharp\). Closedness and integrability ultimately follow from the Jacobi identity for the Poisson bracket.
 
 ## Structure and consequences
 

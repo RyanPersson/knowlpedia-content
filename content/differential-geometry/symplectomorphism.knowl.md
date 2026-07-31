@@ -20,7 +20,7 @@ for every \(p\in M\) and \(u,v\in T_pM\). Thus a symplectomorphism preserves the
 
 ## Group and local structure
 
-The identity is a symplectomorphism, composites of symplectomorphisms are symplectomorphisms, and the inverse of a symplectomorphism is symplectic. Hence the self-symplectomorphisms of \((M,\omega)\) form the [[differential-geometry/symplectomorphism-group|symplectomorphism group]] \(\operatorname{Symp}(M,\omega)\). They are also the isomorphisms in the [[differential-geometry/category-of-symplectic-manifolds|category of symplectic manifolds]]. The [[differential-geometry/darboux-theorem-symplectic|symplectic Darboux theorem]] says every two symplectic manifolds of the same dimension are locally symplectomorphic, although global symplectomorphism can be obstructed [McDuff–Salamon, Chapter 3].
+The identity is a symplectomorphism, composites of symplectomorphisms are symplectomorphisms, and the inverse of a symplectomorphism is symplectic. Hence the self-symplectomorphisms of \((M,\omega)\) form the [[differential-geometry/symplectomorphism-group|symplectomorphism group]] \(\operatorname{Symp}(M,\omega)\). They are also the isomorphisms in the [[differential-geometry/category-of-symplectic-manifolds|category of symplectic manifolds]]. The [[differential-geometry/darboux-theorem-symplectic|symplectic Darboux theorem]] says every two symplectic manifolds of the same dimension are locally symplectomorphic, although global symplectomorphism can be obstructed.
 
 ## Dynamics
 
@@ -34,7 +34,7 @@ Every [[linear-algebra/linear-map|linear map]] \(A:\mathbb R^{2n}\to\mathbb R^{2
 
 ## Conventions and scope
 
-In Hamiltonian mechanics, “canonical transformation” commonly means symplectomorphism, though conventions involving time-dependent or contact transformations may broaden the term. The pullback identity above is the convention used here and in [McDuff–Salamon, §1.1].
+In Hamiltonian mechanics, “canonical transformation” commonly means symplectomorphism, though conventions involving time-dependent or contact transformations may broaden the term.
 
 ## References
 

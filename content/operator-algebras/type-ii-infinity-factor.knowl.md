@@ -12,7 +12,7 @@ A **type \(\mathrm{II}_\infty\) factor** is a [[operator-algebras/von-neumann-fa
 
 ## Projection and trace structure
 
-Every nonzero finite projection \(p\in M\) has a type \(\mathrm{II}_1\) corner \(pMp\) after its trace is normalized. Conversely, the identity can be decomposed into mutually orthogonal finite projections; countable decomposability permits a countable such decomposition. These facts explain how finite corners coexist with a properly infinite ambient algebra [Kadison–Ringrose, §6.5].
+Every nonzero finite projection \(p\in M\) has a type \(\mathrm{II}_1\) corner \(pMp\) after its trace is normalized. Conversely, the identity can be decomposed into mutually orthogonal finite projections; countable decomposability permits a countable such decomposition. These facts explain how finite corners coexist with a properly infinite ambient algebra.
 
 The defining distinction from a [[operator-algebras/type-iii-factor|type III factor]] is precisely this supply of finite projections. Both classes have infinite identity and no [[operator-algebras/minimal-projection|minimal projections]], but a type III factor has no nonzero finite projection at all.
 

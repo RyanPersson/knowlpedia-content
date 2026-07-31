@@ -16,7 +16,7 @@ extending \(\widetilde U(f)=\int_G f(s)U_s\,ds\) for \(f\in C_c(G)\). Conversely
 
 ## Recovering the group representation
 
-The canonical map \(s\mapsto u_s\) takes \(G\) into the [[operator-algebras/unitary-element|unitary multipliers]] of \(C^*(G)\). If \(\pi\) is nondegenerate, its unique extension to the [[operator-algebras/multiplier-algebra|multiplier algebra]] gives \(U_s=\overline\pi(u_s)\). Nondegeneracy is essential here: it is what makes the multiplier extension and the recovered unitary representation canonical [Williams, Proposition 2.39].
+The canonical map \(s\mapsto u_s\) takes \(G\) into the [[operator-algebras/unitary-element|unitary multipliers]] of \(C^*(G)\). If \(\pi\) is nondegenerate, its unique extension to the [[operator-algebras/multiplier-algebra|multiplier algebra]] gives \(U_s=\overline\pi(u_s)\). Nondegeneracy is essential here: it is what makes the multiplier extension and the recovered unitary representation canonical.
 
 ## Full versus reduced
 

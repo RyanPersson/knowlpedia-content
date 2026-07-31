@@ -36,8 +36,7 @@ f^*(s)=\Delta(s^{-1})f(s^{-1})^*,
 where \(\Delta\) is the modular function. Completing this algebra in the
 universal norm gives the full cross-sectional algebra \(C^*(\mathcal B)\);
 the [[algebra-representation-theory/regular-representation|regular representation]] gives \(C_r^*(\mathcal B)\). These constructions
-extend full and [[operator-algebras/reduced-crossed-product|reduced crossed products]]
-[Exel, Chapters 16–17].
+extend full and [[operator-algebras/reduced-crossed-product|reduced crossed products]].
 
 ## Examples and saturation
 

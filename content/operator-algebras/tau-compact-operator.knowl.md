@@ -22,7 +22,7 @@ For \(x\in\mathcal M\), tau-compactness is equivalent to decay of its generalize
 \[
 \mu_t(x)\longrightarrow0\qquad(t\to\infty).
 \]
-Equivalently, \(x\) can be approximated in [[linear-algebra/operator-norm|operator norm]] by elements supported on finite-trace projections. This is the relative compact ideal used in Breuer's Fredholm theory; see [Breuer, §§1–2].
+Equivalently, \(x\) can be approximated in [[linear-algebra/operator-norm|operator norm]] by elements supported on finite-trace projections. This is the relative compact ideal used in Breuer's Fredholm theory.
 
 ## Examples and boundary cases
 

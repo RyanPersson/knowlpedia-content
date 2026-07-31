@@ -26,7 +26,6 @@ For a [[fiber-bundles/hermitian-metric|Hermitian metric]], the Kähler condition
 =
 \frac{\partial g_{\ell\bar k}}{\partial z^j}.
 \]
-The closed-form and local-coordinate conditions are given in [Demailly, Chapter VI, §4, Definition 4.1].
 
 ## Structure and consequences
 

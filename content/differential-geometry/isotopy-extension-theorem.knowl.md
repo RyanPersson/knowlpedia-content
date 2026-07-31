@@ -12,7 +12,7 @@ Let \(N\) be a compact [[fiber-bundles/smooth-manifold|smooth manifold]], let \(
 \[
 \Phi_t\circ i=F_t
 \]
-for every \(t\). Moreover, \(\Phi_t\) can be chosen to have compact support in an arbitrarily prescribed neighborhood of the track \(F(N\times[0,1])\), after that neighborhood is chosen suitably. Thus deforming the embedded copy of \(N\) can be realized by deforming all of \(M\) [Hirsch, Chapter 8, §1].
+for every \(t\). Moreover, \(\Phi_t\) can be chosen to have compact support in an arbitrarily prescribed neighborhood of the track \(F(N\times[0,1])\), after that neighborhood is chosen suitably. Thus deforming the embedded copy of \(N\) can be realized by deforming all of \(M\).
 
 ## Construction idea
 

@@ -41,8 +41,7 @@ For the canonical spin spectral triple of a closed \(d\)-dimensional
 Riemannian spin manifold, Weyl's law gives metric dimension \(d\). The triple
 is strictly \(p\)-summable for every \(p>d\), while \(|\not D|^{-d}\), with
 the kernel removed, is of weak trace class. This analytic dimension agrees
-with manifold dimension and supports the noncommutative integral
-[Connes, Chapter VI, §1].
+with manifold dimension and supports the noncommutative integral.
 
 Rescaling \(D\) by a nonzero constant changes metric lengths but not the
 critical exponent. Taking direct sums can change the dimension to the larger

@@ -30,8 +30,7 @@ eigenspaces gives the
 decomposition]] \(\mathfrak g=\mathfrak k\oplus\mathfrak p\).
 The form \(B_\theta\) makes these eigenspaces orthogonal. At group level,
 \(\theta\) integrates to an involutive automorphism whose fixed subgroup is
-maximal compact under the standard global hypotheses
-[Knapp, Chapter VI, §2].
+maximal compact under the standard global hypotheses.
 
 ## Existence and uniqueness
 

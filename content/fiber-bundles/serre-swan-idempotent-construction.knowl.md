@@ -17,8 +17,7 @@ p^2=p.
 Here \(C^\infty(M,\mathbb F)\) is the [[differential-geometry/algebra-of-smooth-functions|algebra of smooth \(\mathbb F\)-valued functions]].
 The **[[fiber-bundles/vector-bundle|vector bundle]] defined by \(p\)** is
 \[
-E_p
-:=
+E_p:=
 \{(x,v)\in M\times\mathbb F^n:p(x)v=v\}
 =
 \coprod_{x\in M}\operatorname{im}p(x).
@@ -31,7 +30,7 @@ A [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of \(E_p\) is preci
 \[
 \Gamma(E_p)\cong p\,C^\infty(M,\mathbb F)^n.
 \]
-This module is a direct summand of the [[algebra-modules/free-module|free module]] \(C^\infty(M,\mathbb F)^n\), so it is a finitely generated [[algebra-modules/projective-module|projective module]]. Conversely, every finitely generated projective module is the image of an idempotent endomorphism of a finite free module. This is the concrete reconstruction step in the Serre–Swan correspondence; compare [Swan, §§1–3].
+This module is a direct summand of the [[algebra-modules/free-module|free module]] \(C^\infty(M,\mathbb F)^n\), so it is a finitely generated [[algebra-modules/projective-module|projective module]]. Conversely, every finitely generated projective module is the image of an idempotent endomorphism of a finite free module. This is the concrete reconstruction step in the Serre–Swan correspondence.
 
 ## Geometry of the construction
 

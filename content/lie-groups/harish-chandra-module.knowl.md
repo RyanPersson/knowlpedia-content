@@ -12,11 +12,11 @@ Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive group]], \(K
 
 ## From group representations
 
-If \(\pi\) is an irreducible admissible representation of \(G\), its \(K\)-finite vectors carry the differentiated \(\mathfrak g\)-action and form a Harish–Chandra module. For an [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]], admissibility follows from Harish–Chandra’s finiteness theorem, and the resulting module is irreducible. This passage preserves the \(K\)-type multiplicities and infinitesimal action while forgetting the Hilbert topology [Wallach, §§3.3–3.5].
+If \(\pi\) is an irreducible admissible representation of \(G\), its \(K\)-finite vectors carry the differentiated \(\mathfrak g\)-action and form a Harish–Chandra module. For an [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]], admissibility follows from Harish–Chandra’s finiteness theorem, and the resulting module is irreducible. This passage preserves the \(K\)-type multiplicities and infinitesimal action while forgetting the Hilbert topology.
 
 ## Structural consequences
 
-Harish–Chandra modules have finite length. Their irreducible subquotients are again Harish–Chandra modules, and the center of \(U(\mathfrak g)\) acts locally finitely. These finiteness properties make algebraic tools—central characters, [[algebra-modules/composition-series-module|composition series]], homological functors, and induction—available for studying representations of noncompact groups; see [Knapp–Vogan, Chapters I–II].
+Harish–Chandra modules have finite length. Their irreducible subquotients are again Harish–Chandra modules, and the center of \(U(\mathfrak g)\) acts locally finitely. These finiteness properties make algebraic tools—central characters, [[algebra-modules/composition-series-module|composition series]], homological functors, and induction—available for studying representations of noncompact groups.
 
 ## Conventions and scope
 

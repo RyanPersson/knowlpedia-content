@@ -31,8 +31,7 @@ If \((e_i)\) is an
 \]
 Thus \(\pi(e_i)\) converges strongly to \(I_H\), independently of the chosen
 approximate identity. If \(A\) is unital, the condition reduces to
-\(\pi(1_A)=I_H\). These equivalences are proved in
-[Pedersen, the chapter on representations].
+\(\pi(1_A)=I_H\).
 
 ## Essential subspace
 

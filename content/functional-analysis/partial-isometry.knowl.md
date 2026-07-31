@@ -32,8 +32,7 @@ where \(V\) is a partial isometry with initial space
 =\overline{\operatorname{Ran}T^*}\) and final space
 \(\overline{\operatorname{Ran}T}\). Requiring \(\ker V=\ker T\) makes this
 partial isometry unique. Thus partial isometries are the correct polar factors
-even when \(T\) is neither injective nor surjective
-[Conway, Chapter II].
+even when \(T\) is neither injective nor surjective.
 
 ## Operator-algebra formulation
 

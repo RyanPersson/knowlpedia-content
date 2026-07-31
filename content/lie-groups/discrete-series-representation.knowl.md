@@ -12,11 +12,11 @@ Let \(G\) be a second-countable [[topology/locally-compact-group|locally compact
 
 ## Coefficient criterion
 
-When \(G\) is unimodular, \(\pi\) belongs to the discrete series exactly when it has a nonzero [[harmonic-analysis/coefficient-function|matrix coefficient]] in \(L^2(G)\). Irreducibility then yields square integrability and Schur orthogonality for all coefficients, with a positive formal degree depending on the normalization of Haar measure [Duflo–Moore, introduction and §§2–3]. This characterization explains the common alternative name “square-integrable representation.”
+When \(G\) is unimodular, \(\pi\) belongs to the discrete series exactly when it has a nonzero [[harmonic-analysis/coefficient-function|matrix coefficient]] in \(L^2(G)\). Irreducibility then yields square integrability and Schur orthogonality for all coefficients, with a positive formal degree depending on the normalization of Haar measure. This characterization explains the common alternative name “square-integrable representation.”
 
 ## Examples and existence
 
-Every irreducible unitary representation of a compact group is discrete series after Haar measure is normalized. For connected semisimple real [[fiber-bundles/lie-group|Lie groups]] with finite center, Harish-Chandra's criterion says that discrete series exists exactly when the group has a compact Cartan subgroup, equivalently when its rank equals the rank of a [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]] [Knapp, Chapter XII].
+Every irreducible unitary representation of a compact group is discrete series after Haar measure is normalized. For connected semisimple real [[fiber-bundles/lie-group|Lie groups]] with finite center, Harish-Chandra's criterion says that discrete series exists exactly when the group has a compact Cartan subgroup, equivalently when its rank equals the rank of a [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]].
 
 ## Relationship to relative discrete series
 

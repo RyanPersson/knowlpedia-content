@@ -24,8 +24,7 @@ then it is uniformly bounded in
 \sup_{T\in\mathcal F}\lVert T\rVert<\infty.
 \]
 The conclusion turns individual bounds into one constant valid for the whole
-family. No countability assumption on \(\mathcal F\) is required
-[Rudin, Chapter 2].
+family. No countability assumption on \(\mathcal F\) is required.
 
 ## Proof mechanism
 

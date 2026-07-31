@@ -17,15 +17,15 @@ For connected simply connected nilpotent \(G\), the [[lie-groups/exponential-map
 \pi_\ell=\operatorname{Ind}_P^G\chi_\ell,\qquad
 \chi_\ell(\exp X)=e^{i\ell(X)}.
 \]
-The representation is irreducible; changing \(\ell\) within its coadjoint orbit or changing the polarization does not change its unitary-equivalence class; and every irreducible unitary representation arises this way [Kirillov, Chapter 3]. With the [[topology/quotient-topology|quotient topology]] on \(\mathfrak g^*/G\) and the [[harmonic-analysis/fell-topology|Fell topology]] on \(\widehat G\), the correspondence is a homeomorphism.
+The representation is irreducible; changing \(\ell\) within its coadjoint orbit or changing the polarization does not change its unitary-equivalence class; and every irreducible unitary representation arises this way. With the [[topology/quotient-topology|quotient topology]] on \(\mathfrak g^*/G\) and the [[harmonic-analysis/fell-topology|Fell topology]] on \(\widehat G\), the correspondence is a homeomorphism.
 
 ## Geometry encoded by an orbit
 
-Each orbit carries the [[differential-geometry/kirillov-kostant-souriau-form|Kirillov–Kostant–Souriau symplectic form]]. Orbit dimension predicts the number of variables in an induced model, stabilizers control the inducing subgroup, and [[fiber-bundles/invariant-function|invariant functions]] on \(\mathfrak g^*\) reflect central or infinitesimal-character data. For [[algebra-groups/nilpotent-group|nilpotent groups]], the orbit method also yields character and Plancherel formulas. These are not merely analogies: they are compatible parts of the classification developed in [Corwin–Greenleaf, Chapters 1–4].
+Each orbit carries the [[differential-geometry/kirillov-kostant-souriau-form|Kirillov–Kostant–Souriau symplectic form]]. Orbit dimension predicts the number of variables in an induced model, stabilizers control the inducing subgroup, and [[fiber-bundles/invariant-function|invariant functions]] on \(\mathfrak g^*\) reflect central or infinitesimal-character data. For [[algebra-groups/nilpotent-group|nilpotent groups]], the orbit method also yields character and Plancherel formulas.
 
 ## Examples and limitations
 
-For an [[lie-groups/abelian-lie-group|abelian Lie group]], every coadjoint orbit is a point and the method reduces to the classification by unitary characters. For the [[lie-groups/heisenberg-group|Heisenberg group]], nonzero central values give the familiar infinite-dimensional Schrödinger representations. For compact or noncompact semisimple groups, however, raw coadjoint orbits do not stand in a simple bijection with the [[harmonic-analysis/unitary-dual|unitary dual]]: integrality, admissible orbit data, coverings, and choices of quantization intervene. Kirillov’s survey explicitly separates the nilpotent success from these later obstacles [Kirillov, §§2–4].
+For an [[lie-groups/abelian-lie-group|abelian Lie group]], every coadjoint orbit is a point and the method reduces to the classification by unitary characters. For the [[lie-groups/heisenberg-group|Heisenberg group]], nonzero central values give the familiar infinite-dimensional Schrödinger representations. For compact or noncompact semisimple groups, however, raw coadjoint orbits do not stand in a simple bijection with the [[harmonic-analysis/unitary-dual|unitary dual]]: integrality, admissible orbit data, coverings, and choices of quantization intervene. Kirillov’s survey explicitly separates the nilpotent success from these later obstacles.
 
 ## Conventions and scope
 

@@ -49,7 +49,7 @@ function \(1\), whereas \(C_0(X)\) is unital exactly when \(X\) is compact.
 The [[linear-algebra/compact-operator|compact operators]] on an infinite-dimensional [[linear-algebra/hilbert-space|Hilbert space]] are nonunital.
 Some authors regard the zero algebra as unital with \(1=0\), while others
 require \(1\neq0\); statements using \(\|1_A\|=1\) implicitly exclude the zero
-case [Murphy, §2.1].
+case.
 
 ## References
 

@@ -45,7 +45,7 @@ representation theory while retaining the distinguished copy of \(A\). It
 preserves factoriality and the type of the [[operator-algebras/von-neumann-algebra-generated-by-representation|generated von Neumann algebra]].
 For [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representations]] it is also characterized by equality of
 the sets of [[operator-algebras/positive-linear-functional|positive functionals]] on \(A\) that are normal relative to the
-representations [Takesaki, Chapter III, §2].
+representations.
 
 ## Conventions and near misses
 

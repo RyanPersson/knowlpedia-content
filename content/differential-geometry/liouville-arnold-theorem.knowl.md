@@ -8,7 +8,7 @@ domains = ["differential-geometry", "classical-mechanics"]
 section_mode = "progressive"
 +++
 
-Let \((M,\omega)\) be a \(2n\)-dimensional [[differential-geometry/symplectic-manifold|symplectic manifold]], and let \(F=(F_1,\ldots,F_n):M\to\mathbb R^n\) have pairwise commuting components whose differentials are independent along \(F^{-1}(c)\). If \(\Lambda\) is a compact [[topology/connected-component|connected component]] of this [[differential-geometry/regular-level-set|regular fiber]], the **Liouville–Arnold theorem** states that \(\Lambda\) is diffeomorphic to \(\mathbb T^n\) and has a saturated neighborhood carrying [[differential-geometry/action-angle-coordinates|action-angle coordinates]]. In those coordinates the fibers of \(F\) are the tori \(I=\mathrm{constant}\), and every Hamiltonian commuting with all \(F_j\) depends only on the actions. Consequently, its flow is linear on each such torus [Arnol'd, Chapter 10].
+Let \((M,\omega)\) be a \(2n\)-dimensional [[differential-geometry/symplectic-manifold|symplectic manifold]], and let \(F=(F_1,\ldots,F_n):M\to\mathbb R^n\) have pairwise commuting components whose differentials are independent along \(F^{-1}(c)\). If \(\Lambda\) is a compact [[topology/connected-component|connected component]] of this [[differential-geometry/regular-level-set|regular fiber]], the **Liouville–Arnold theorem** states that \(\Lambda\) is diffeomorphic to \(\mathbb T^n\) and has a saturated neighborhood carrying [[differential-geometry/action-angle-coordinates|action-angle coordinates]]. In those coordinates the fibers of \(F\) are the tori \(I=\mathrm{constant}\), and every Hamiltonian commuting with all \(F_j\) depends only on the actions. Consequently, its flow is linear on each such torus.
 
 ## Why a torus appears
 
@@ -24,7 +24,7 @@ so the dynamics is periodic when the frequency vector has rationally related com
 
 ## Hypotheses and global scope
 
-Independence of the differentials and pairwise Poisson commutation are both essential. Compactness cannot simply be omitted: a regular invariant level may instead be a cylinder or another quotient of \(\mathbb R^n\). The resulting coordinates are local around one regular fiber. A family of such local charts need not glue globally; period-lattice monodromy is a standard obstruction [Duistermaat, §§1–3].
+Independence of the differentials and pairwise Poisson commutation are both essential. Compactness cannot simply be omitted: a regular invariant level may instead be a cylinder or another quotient of \(\mathbb R^n\). The resulting coordinates are local around one regular fiber. A family of such local charts need not glue globally; period-lattice monodromy is a standard obstruction.
 
 ## References
 

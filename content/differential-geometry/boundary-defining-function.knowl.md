@@ -30,7 +30,7 @@ Every smooth manifold with boundary admits a global boundary defining function. 
 \[
 \rho'=a\rho
 \]
-for a smooth positive function \(a\). Thus their first-order vanishing agrees up to a positive scale, while their extensions deep in the interior may be unrelated. This comparison is standard in [Melrose, Chapter 1].
+for a smooth positive function \(a\). Thus their first-order vanishing agrees up to a positive scale, while their extensions deep in the interior may be unrelated.
 
 ## Examples and non-examples
 

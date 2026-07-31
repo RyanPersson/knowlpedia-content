@@ -32,7 +32,7 @@ The lift preserves the tautological one-form:
 \[
 (T^*f)^*\theta_N=\theta_M.
 \]
-Consequently it preserves the [[differential-geometry/canonical-symplectic-form-cotangent|canonical symplectic forms]], so every cotangent lift is a [[differential-geometry/symplectomorphism|symplectomorphism]]. This intrinsic preservation property is a central reason cotangent lifts occur in mechanics; see [Abraham and Marsden, Chapter 3].
+Consequently it preserves the [[differential-geometry/canonical-symplectic-form-cotangent|canonical symplectic forms]], so every cotangent lift is a [[differential-geometry/symplectomorphism|symplectomorphism]]. This intrinsic preservation property is a central reason cotangent lifts occur in mechanics.
 
 ## Scope
 

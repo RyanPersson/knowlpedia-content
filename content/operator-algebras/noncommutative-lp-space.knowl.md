@@ -37,8 +37,7 @@ homogeneous subspaces do not, up to their canonical identifications. For
 isometrically with the predual \(M_*\), and \(L^2(M)\) gives the standard-form
 [[linear-algebra/hilbert-space|Hilbert space]] of \(M\). Multiplication of affiliated operators yields Hölder
 maps \(L^p(M)L^q(M)\subseteq L^r(M)\) when
-\(1/r=1/p+1/q\)
-[Haagerup, pp. 175–184].
+\(1/r=1/p+1/q\).
 
 ## Relation to familiar \(L^p\) spaces
 
@@ -50,7 +49,7 @@ isometric to the
 [[operator-algebras/tracial-noncommutative-lp-space|tracial noncommutative \(L^p\) space]]. Thus Haagerup's construction extends the tracial theory rather
 than replacing its formulas in the semifinite case. It remains available for
 type III algebras, where no faithful normal semifinite trace exists on \(M\)
-itself [Terp, Chapters I–II].
+itself.
 
 ## Conventions and scope
 

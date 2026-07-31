@@ -31,7 +31,7 @@ equivalences and their compositions. In particular,
 \]
 the [[fiber-bundles/stabilizer-of-a-connection|stabilizer of the connection]]. This retained isotropy is essential at [[fiber-bundles/reducible-connection|reducible connections]], where the gauge action is not free and a coarse quotient develops singular behavior.
 
-Passing from an action groupoid to its associated smooth stack also imposes descent: compatible families of connections and gauge identifications over an [[topology/open-cover|open cover]] glue. General quotient-stack and smooth-stack constructions are developed in [Metzler, §§2–3].
+Passing from an action groupoid to its associated smooth stack also imposes descent: compatible families of connections and gauge identifications over an [[topology/open-cover|open cover]] glue.
 
 ## Flat and equation-cut substacks
 
@@ -39,7 +39,7 @@ A gauge-invariant equation defines a full substack. For example, restricting the
 \[
 [\mathcal A_{\mathrm{flat}}(P)/\mathcal G(P)].
 \]
-Its set of isomorphism classes is the familiar [[fiber-bundles/moduli-space-of-flat-connections|moduli space of flat connections]], but its isotropy groups still remember covariantly constant gauge transformations. Chern–Simons theory naturally works with this quotient geometry and its [[fiber-bundles/line-bundle|line bundles]] rather than merely with a set of orbits [Freed, §§2–3].
+Its set of isomorphism classes is the familiar [[fiber-bundles/moduli-space-of-flat-connections|moduli space of flat connections]], but its isotropy groups still remember covariantly constant gauge transformations. Chern–Simons theory naturally works with this quotient geometry and its [[fiber-bundles/line-bundle|line bundles]] rather than merely with a set of orbits.
 
 ## Conventions and scope
 

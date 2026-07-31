@@ -32,15 +32,13 @@ map is injective exactly when it is isometric. Consequently,
 \lVert\pi(a)\rVert=\lVert a\rVert\text{ for every }a\in A.
 \]
 Its image is then norm closed, and \(\pi\) is a \(*\)-isomorphism from \(A\)
-onto the concrete \(C^*\)-algebra \(\pi(A)\)
-[Murphy, §2.1].
+onto the concrete \(C^*\)-algebra \(\pi(A)\).
 
 ## Existence and use
 
 The [[operator-algebras/gelfand-naimark-theorem|Gelfand–Naimark theorem]]
 states that every \(C^*\)-algebra has a faithful representation on some
-Hilbert space
-[Murphy, Theorem 3.4.1]. This permits
+Hilbert space. This permits
 abstract \(C^*\)-algebras to be studied as norm-closed self-adjoint operator
 algebras without changing their norms.
 

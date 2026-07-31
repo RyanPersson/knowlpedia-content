@@ -33,8 +33,7 @@ leading exponential terms are indexed by the
 [[lie-groups/restricted-weyl-group|restricted Weyl group]]. The coefficient
 of the term with spectral parameter \(w\lambda\) is
 \(c(w\lambda)\). This asymptotic characterization and the integral definition
-agree with the stated normalizations
-[Helgason, Chapter IV, §§6–7].
+agree with the stated normalizations.
 
 ## Product formula and Plancherel density
 
@@ -48,7 +47,7 @@ normalizing constant,
 \]
 Thus zeros and poles of the meromorphic continuation encode both
 intertwining-operator phenomena and the analytic weight in spherical Fourier
-inversion [Helgason, Chapter IV, §7].
+inversion.
 
 ## Example and scope
 

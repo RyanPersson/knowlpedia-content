@@ -38,8 +38,6 @@ therefore gives
 \[
 \dim(M\times_PN)=\dim M+\dim N-\dim P.
 \]
-This construction and dimension formula are treated in
-[Lee, Chapter 6].
 
 ## Universal property
 
@@ -63,8 +61,7 @@ to \(N\), then \(M\times_PN\) identifies with the inverse-image submanifold
 
 **Warning.** Arbitrary pairs of smooth maps need not have a fiber product in
 the category of manifolds. Manifolds with boundary or corners require
-additional boundary-stratum transversality and depend on the chosen category;
-compare [Joyce, §6].
+additional boundary-stratum transversality and depend on the chosen category.
 
 ## References
 

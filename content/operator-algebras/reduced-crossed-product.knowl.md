@@ -21,7 +21,7 @@ Because the [[operator-algebras/covariant-representation-cstar-dynamical-system|
 \[
 A\rtimes_\alpha G\longrightarrow A\rtimes_{\alpha,r}G.
 \]
-This quotient measures what is lost by retaining only regular covariant representations. It is an isomorphism for every action of an [[harmonic-analysis/amenable-locally-compact-group|amenable locally compact group]] [Williams, §7.2, Theorem 7.13].
+This quotient measures what is lost by retaining only regular covariant representations. It is an isomorphism for every action of an [[harmonic-analysis/amenable-locally-compact-group|amenable locally compact group]].
 
 ## Standard cases
 

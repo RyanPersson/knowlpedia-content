@@ -35,7 +35,7 @@ on the [[operator-algebras/compact-operator-hilbert-module|compact
 Hilbert-module operators]]. The inner-product relation makes this formula
 multiplicative and independent of a chosen rank-one decomposition. This
 induced map is the object compared with \(\pi\) in the Cuntz–Pimsner
-covariance relation [Katsura, opening definitions].
+covariance relation.
 
 ## Fock representation
 

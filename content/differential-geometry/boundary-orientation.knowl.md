@@ -20,7 +20,7 @@ With this convention, [[differential-geometry/stokes-theorem|Stokes' theorem]] h
 \[
 \int_M d\omega=\int_{\partial M}\omega
 \]
-for every compactly supported \((n-1)\)-form \(\omega\). The orientation is therefore not decorative data: reversing it changes the boundary integral and breaks this formula [Lee, Chapter 16].
+for every compactly supported \((n-1)\)-form \(\omega\). The orientation is therefore not decorative data: reversing it changes the boundary integral and breaks this formula.
 
 ## Basic examples
 
