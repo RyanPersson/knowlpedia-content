@@ -32,16 +32,14 @@ point-norm limit of
 [[operator-algebras/completely-positive-map|completely positive]]
 contractions factoring through
 matrix algebras. Applied to \(C_r^*(\Gamma)\), this analytic property detects
-the existence of invariant averaging on \(\Gamma\)
-[Brown–Ozawa, Theorem 2.6.8](https://doi.org/10.1090/gsm/088).
+the existence of invariant averaging on \(\Gamma\).
 
 ## Proof directions and scope
 
 Følner-type approximations for an amenable group yield finite-rank completely
 positive approximations of the regular representation, giving nuclearity.
 The converse extracts invariant averaging from nuclear approximation of the
-reduced algebra; this is the direction associated with Lance's theorem
-[Lance, 1973](https://doi.org/10.1016/0022-1236%2873%2990021-9).
+reduced algebra; this is the direction associated with Lance's theorem.
 The word “discrete” is part of this formulation and should not be silently
 discarded when quoting the result.
 

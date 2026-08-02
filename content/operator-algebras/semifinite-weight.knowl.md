@@ -33,8 +33,7 @@ supremum of finite-weight positive elements below \(x\). Normality then gives
 \]
 The order approximation and the recovery of the value play different roles:
 semifiniteness supplies enough finite elements, while normality makes
-\(\varphi\) preserve their increasing supremum
-[Takesaki, vol. I, Chapter VII, §1](https://doi.org/10.1007/978-1-4612-6188-9).
+\(\varphi\) preserve their increasing supremum.
 
 ## Examples and non-examples
 

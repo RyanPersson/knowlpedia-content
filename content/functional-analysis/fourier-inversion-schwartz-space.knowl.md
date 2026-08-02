@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(f\in\mathcal S(\mathbb R^n)\), and define its
 [[functional-analysis/fourier-transform-schwartz-space|Fourier transform]] by
 \[
-\widehat f(\xi)=\int_{\mathbb R^n}e^{-2\pi i x\cdot\xi}f(x)\,dx .
+\widehat f(\xi)=\int_{\mathbb R^n}e^{-2\pi i x\cdot\xi}f(x)\,dx.
 \]
 The **Fourier inversion theorem on Schwartz space** states that
 \[
@@ -30,8 +30,7 @@ resulting absolutely convergent integrals using
 Gaussian Fourier transform. As the regularization parameter tends to zero,
 the Gaussian approximate identity converges to \(f\). Rapid decay controls
 the limiting passage and permits differentiation, yielding convergence in
-every Schwartz seminorm
-[Stein–Shakarchi, Chapters 5–6](https://doi.org/10.1515/9781400831234).
+every Schwartz seminorm.
 
 ## Consequences
 

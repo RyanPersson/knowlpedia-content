@@ -31,8 +31,7 @@ convergence of every derivative on compact subsets. Its
 [[functional-analysis/topological-dual|continuous dual]] is
 \(\mathcal E'(\Omega)\): continuity on all smooth functions is equivalent to
 being a distribution with compact support. This explains the notation and
-the cutoff construction in the core
-[Trèves, Chapter 27](https://shop.elsevier.com/books/topological-vector-spaces-distributions-and-kernels/treves/978-1-4831-9859-0).
+the cutoff construction in the core.
 
 ## Operations and examples
 
@@ -46,8 +45,7 @@ For distributions on \(\mathbb R^n\), convolution of two arbitrary
 distributions need not be defined, but it is defined when at least one factor
 has compact support; the resulting support is contained in the Minkowski sum
 \(\operatorname{supp}S+\operatorname{supp}T
-=\{x+y:x\in\operatorname{supp}S,\ y\in\operatorname{supp}T\}\)
-[Hörmander, §4.1](https://doi.org/10.1007/978-3-642-61497-2).
+=\{x+y:x\in\operatorname{supp}S,\ y\in\operatorname{supp}T\}\).
 
 ## Conventions and scope
 

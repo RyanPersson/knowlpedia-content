@@ -34,7 +34,7 @@ Thus the spherical transform is the scalar Fourier transform of the
 commutative convolution algebra associated with the
 [[lie-groups/gelfand-pair|Gelfand pair]] \((G,K)\).
 The multiplicative property follows from the product formula for spherical
-functions [Helgason, Chapter IV, §§2–3](https://doi.org/10.1090/surv/039).
+functions.
 
 ## Inversion and Plancherel measure
 
@@ -52,7 +52,7 @@ On the \(K\)-bi-invariant
 [[harmonic-analysis/harish-chandra-schwartz-space|Harish-Chandra Schwartz space]], the transform is a topological algebra isomorphism onto an explicitly
 described Weyl-invariant Schwartz space. The Trombi–Varadarajan theorem gives
 the corresponding \(L^p\)-Schwartz versions and their holomorphic spectral
-domains [Trombi–Varadarajan, main theorem](https://doi.org/10.2307/1970861).
+domains.
 
 ## References
 

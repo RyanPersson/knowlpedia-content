@@ -23,8 +23,7 @@ Semifiniteness is equivalent to the existence of a faithful normal semifinite
 trace on \(M\). Here “semifinite” for the trace means that every nonzero
 positive element majorizes a nonzero positive element of finite trace; it does
 not mean that the identity has finite trace. A semifinite von Neumann algebra
-can also be equipped with a faithful normal semifinite center-valued trace
-[Takesaki, Chapter V](https://doi.org/10.1007/978-1-4612-6188-9).
+can also be equipped with a faithful normal semifinite center-valued trace.
 
 ## Examples and boundary cases
 

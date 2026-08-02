@@ -25,7 +25,7 @@ Finiteness of the identity forces every projection in \(M\) to be finite.
 Conversely, that condition plainly includes the identity. A major structure
 theorem supplies every finite von Neumann algebra with a unique faithful normal
 center-valued trace normalized at \(1_M\); its scalar specializations organize
-the ordinary finite traces. See [Kadison–Ringrose, §6.5](https://doi.org/10.1090/gsm/016)
+the ordinary finite traces. See
 for the projection-comparison and trace formulations.
 
 Finite factors split into two classes. A

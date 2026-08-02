@@ -19,7 +19,7 @@ is a well-defined bijection from [[differential-geometry/coadjoint-orbit|coadjoi
 
 Well-definedness includes independence of the chosen polarization. Injectivity identifies the orbit as the complete invariant of the [[algebra-representation-theory/induced-representation|induced representation]], while surjectivity says that no [[lie-groups/irreducible-unitary-representation|irreducible unitary representations]] are missed. The topological statement is stronger than a set-theoretic classification: convergence in the generally non-Hausdorff [[lie-groups/orbit-space|orbit space]] corresponds to Fell convergence of representations.
 
-Kirillov's original article proves the classification by induction on the dimension of the group [Kirillov, §§5–7](https://doi.org/10.1070/RM1962v017n04ABEH004118).
+Kirillov's original article proves the classification by induction on the dimension of the group.
 
 ## Abelian and Heisenberg cases
 

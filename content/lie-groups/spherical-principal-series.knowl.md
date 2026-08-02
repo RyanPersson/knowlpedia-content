@@ -31,8 +31,7 @@ In the compact picture the spherical vector is represented by the constant
 function on \(K/M\). Its normalized matrix coefficient is an elementary
 spherical function on \(G/K\), so the family connects principal-series
 representation theory with harmonic analysis on the Riemannian symmetric
-space. The normalized induction and compact-picture realization are described
-in [Knapp–Trapa, Lecture 3, pp. 42–43](https://www.math.stonybrook.edu/~aknapp/pdf-files/parkcity.pdf).
+space.
 
 ## Example and near-miss
 

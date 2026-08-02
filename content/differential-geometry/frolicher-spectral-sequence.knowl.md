@@ -17,11 +17,11 @@ and converges to \(H_{\mathrm{dR}}^{p+q}(X;\mathbb C)\) with its induced filtrat
 
 ## Construction and early pages
 
-The identities \(d=\partial+\bar\partial\), \(\partial^2=\bar\partial^2=0\), and \(\partial\bar\partial+\bar\partial\partial=0\) make the spaces of \((p,q)\)-forms a double complex. Taking \(\bar\partial\)-cohomology first gives \(E_1\), and \(d_1\) is induced by \(\partial\). Higher differentials record successive obstructions to correcting a representative by forms of increasing holomorphic degree. Frölicher's original construction relates these pages to topological invariants [Frölicher, pp. 641–644](https://doi.org/10.1073/pnas.41.9.641).
+The identities \(d=\partial+\bar\partial\), \(\partial^2=\bar\partial^2=0\), and \(\partial\bar\partial+\bar\partial\partial=0\) make the spaces of \((p,q)\)-forms a double complex. Taking \(\bar\partial\)-cohomology first gives \(E_1\), and \(d_1\) is induced by \(\partial\). Higher differentials record successive obstructions to correcting a representative by forms of increasing holomorphic degree. Frölicher's original construction relates these pages to topological invariants.
 
 ## Degeneration and the Kähler case
 
-The sequence **degenerates at \(E_r\)** when all differentials from page \(r\) onward vanish, so \(E_r=E_\infty\). If \(X\) is a compact [[differential-geometry/kahler-manifold|Kähler manifold]], Hodge theory gives degeneration already at \(E_1\) and identifies de Rham cohomology with the direct sum of its \((p,q)\)-pieces [Voisin, §8.1](https://doi.org/10.1017/CBO9780511615344). General compact complex manifolds need not have \(E_1\)-degeneration.
+The sequence **degenerates at \(E_r\)** when all differentials from page \(r\) onward vanish, so \(E_r=E_\infty\). If \(X\) is a compact [[differential-geometry/kahler-manifold|Kähler manifold]], Hodge theory gives degeneration already at \(E_1\) and identifies de Rham cohomology with the direct sum of its \((p,q)\)-pieces. General compact complex manifolds need not have \(E_1\)-degeneration.
 
 ## Conventions and scope
 

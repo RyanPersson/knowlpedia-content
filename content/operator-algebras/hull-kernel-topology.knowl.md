@@ -38,7 +38,7 @@ two-sided ideals of \(A\) to open subsets of
 \(\operatorname{Prim}(A)\). Under this correspondence,
 \(\operatorname{hull}(I)\) is naturally the primitive ideal space of the
 quotient \(A/I\), while \(U_I\) is naturally the primitive ideal space of
-\(I\) [Dixmier, §3.1](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/15/suppl/C).
+\(I\).
 
 ## Separation and specialization
 

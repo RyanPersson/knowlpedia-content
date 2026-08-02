@@ -1,24 +1,45 @@
 +++
 id = "probability/differential-entropy"
 title = "Differential entropy"
-kind = "knowl"
-summary = "The entropy of a continuous distribution defined via an integral of the log-density."
+kind = "definition"
+summary = "The negative integral of a probability density times its logarithm, relative to Lebesgue measure."
 aliases = ["differential-entropy", "Differential entropy"]
 domains = ["probability"]
 legacy_source_path = "probability/differential-entropy.md"
 +++
 
-A **differential entropy** is a number \(h(X)\) associated to a real-valued [[probability/random-variable|random variable]] \(X\) that admits a density \(f\) (with respect to [[measure-theory/lebesgue-measure|Lebesgue measure]]), defined by
+Let \(X\) be an \(\mathbb R^d\)-valued [[probability/random-variable|random variable]] whose law has density \(f\) with respect to [[measure-theory/lebesgue-measure|Lebesgue measure]]. If the integral below is well-defined as an extended integral, the **differential entropy** of \(X\) is
 \[
-h(X)\;=\;-\int_{\mathbb{R}} f(x)\,\log f(x)\,dx,
+h(X)=-\int_{\mathbb R^d}f(x)\log f(x)\,dx,
 \]
-where the integral is understood as a [[measure-theory/lebesgue-integral|Lebesgue integral]] (and \(\log\) is typically the natural logarithm).
+with \(0\log0:=0\).
 
-## Remarks
+The value may be \(+\infty\) or \(-\infty\). It is undefined if the positive and negative parts of \(f\log f\) both have infinite integral.
 
-Differential entropy resembles [[probability/shannon-entropy|Shannon entropy]] but behaves differently: it can be negative and it is not invariant under changes of variables (for instance, scaling \(X\) shifts \(h(X)\) by an additive constant). It is used in continuous-information settings and in the [[probability/maximum-entropy-principle|maximum entropy principle]] for continuous distributions.
+## Dependence on coordinates
+
+Differential entropy is entropy relative to a chosen reference measure, here Lebesgue measure. It is therefore not invariant under changes of coordinates. If \(A\in\mathrm{GL}_d(\mathbb R)\), \(b\in\mathbb R^d\), and the entropies are defined, then
+\[
+h(AX+b)=h(X)+\log|\det A|.
+\]
+More generally, for a sufficiently regular diffeomorphism \(g\),
+\[
+h(g(X))
+=
+h(X)+\mathbb E\!\left[\log|\det Dg(X)|\right]
+\]
+whenever both sides are well-defined.
+
+Unlike [[probability/shannon-entropy|Shannon entropy]], differential entropy can be negative. Coordinate-invariant comparisons are usually expressed through [[probability/relative-entropy-kl-divergence|relative entropy]].
 
 ## Examples
 
-- If \(X\sim \mathcal{N}(\mu,\sigma^2)\), then \(h(X)=\tfrac12\log(2\pi e\,\sigma^2)\).
-- If \(X\) is uniform on \([0,1]\), then \(h(X)=0\).
+- If \(X\sim\mathcal N(\mu,\Sigma)\) on \(\mathbb R^d\) with positive-definite covariance \(\Sigma\), then
+  \[
+  h(X)=\frac12\log\!\bigl((2\pi e)^d\det\Sigma\bigr).
+  \]
+- If \(X\) is uniform on a measurable set \(A\subset\mathbb R^d\) with \(0<\lambda(A)<\infty\), then \(h(X)=\log\lambda(A)\).
+
+## References
+
+1. Thomas M. Cover and Joy A. Thomas, *Elements of Information Theory*, 2nd ed., Wiley, 2006, Chapter 8. [Publisher record](https://doi.org/10.1002/047174882X).

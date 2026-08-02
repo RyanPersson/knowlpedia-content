@@ -48,8 +48,7 @@ the bidual, and is generally finer than \(\sigma(E',E)\).
 For a normed space \(E\), the [[functional-analysis/banach-alaoglu-theorem|Banach–Alaoglu theorem]] says that the closed unit
 ball of \(E'\) is compact in \(\sigma(E',E)\). This conclusion is weak-star
 compactness, not generally norm compactness or weak compactness. The topology
-is therefore central to state spaces and dual Banach spaces
-[Conway, Chapter V](https://doi.org/10.1007/978-1-4757-4383-8).
+is therefore central to state spaces and dual Banach spaces.
 
 ## References
 

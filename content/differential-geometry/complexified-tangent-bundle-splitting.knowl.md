@@ -30,7 +30,7 @@ Dualizing gives
 \[
 T_{\mathbb C}^*M=T^{*1,0}M\oplus T^{*0,1}M.
 \]
-Exterior powers then decompose complex-valued differential forms into \((p,q)\)-types. This algebraic decomposition is the starting point for the operators \(\partial\) and \(\bar\partial\) on a [[differential-geometry/complex-manifold|complex manifold]] [Wells, Chapter I, §2](https://doi.org/10.1007/978-0-387-73892-5).
+Exterior powers then decompose complex-valued differential forms into \((p,q)\)-types. This algebraic decomposition is the starting point for the operators \(\partial\) and \(\bar\partial\) on a [[differential-geometry/complex-manifold|complex manifold]].
 
 ## Integrability
 

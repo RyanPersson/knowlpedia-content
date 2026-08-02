@@ -36,8 +36,7 @@ a bounded
 [[operator-algebras/adjointable-operator-hilbert-module|adjointable operator]]
 with \(\|F_T\|\leq1\). Conversely, suitable contractions arise as bounded
 transforms of regular operators. This correspondence supplies the continuous
-functional calculus used in unbounded \(KK\)-theory
-[Lance, Chapters 9–10](https://doi.org/10.1017/CBO9780511526206).
+functional calculus used in unbounded \(KK\)-theory.
 
 ## The self-adjoint case
 

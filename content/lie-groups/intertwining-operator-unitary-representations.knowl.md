@@ -20,7 +20,7 @@ Intertwiners compose, identity operators intertwine a representation with itself
 
 ## Equivalence and irreducibility
 
-A unitary intertwiner that is onto exhibits **unitary equivalence** of the two representations. For irreducible complex unitary representations, a nonzero intertwiner is a scalar multiple of a unitary equivalence; in particular, the commutant \(\operatorname{Hom}_G(\pi,\pi)\) consists of scalars. This is the Hilbert-space form of [[algebra-representation-theory/schurs-lemma|Schur's lemma]], using polar decomposition and closed invariant subspaces [Folland, §3.1](https://doi.org/10.1201/B19172).
+A unitary intertwiner that is onto exhibits **unitary equivalence** of the two representations. For irreducible complex unitary representations, a nonzero intertwiner is a scalar multiple of a unitary equivalence; in particular, the commutant \(\operatorname{Hom}_G(\pi,\pi)\) consists of scalars. This is the Hilbert-space form of [[algebra-representation-theory/schurs-lemma|Schur's lemma]], using polar decomposition and closed invariant subspaces.
 
 ## Conventions and scope
 

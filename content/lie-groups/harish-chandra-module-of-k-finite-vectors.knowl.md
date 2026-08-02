@@ -40,7 +40,7 @@ differentiated action extends to the
 [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]].
 Admissibility gives finite
 \(K\)-multiplicities; finite length supplies the standard finite-generation
-hypothesis [Wallach, Chapter 4](https://shop.elsevier.com/books/real-reductive-groups-i/wallach/978-0-12-732960-4).
+hypothesis.
 
 ## What the construction preserves
 
@@ -50,8 +50,7 @@ infinitesimal submodules, and the action of the
 For irreducible admissible representations, the resulting Harish–Chandra
 module is irreducible. Conversely, globalization theorems recover canonical
 smooth representations from Harish–Chandra modules, but a choice of Hilbert
-globalization is not part of this construction
-[Knapp, Chapter VIII](https://doi.org/10.1515/9781400883974).
+globalization is not part of this construction.
 
 ## Example and scope
 

@@ -29,8 +29,6 @@ The [[operator-algebras/weak-schatten-ideal|weak Schatten ideal]] at \(p=1\) is
 It embeds continuously in \(\mathcal M_{1,\infty}\), since
 \(\sum_{n\leq N}n^{-1}=O(\log N)\). The inclusion is strict: logarithmic control of an accumulated sum does not impose a uniform \(O(1/n)\) bound on every singular value. Consequently, notation such as \(\mathcal L^{1,\infty}\) is unsafe unless the author states whether it means weak-\(\ell^1\) decay or the larger logarithmic Marcinkiewicz ideal.
 
-The distinction is explicit in [Lord, Sedaev, and Sukochev](https://doi.org/10.1016/j.jfa.2005.01.002), who formulate the logarithmic ideal through partial sums of singular values.
-
 ## Singular traces
 
 For \(T\geq0\) in \(\mathcal M_{1,\infty}\), the logarithmic means

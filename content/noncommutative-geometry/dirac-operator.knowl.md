@@ -21,7 +21,7 @@ where \((e_j)\) is any local orthonormal frame. The expression is independent of
 
 ## Analytic realization
 
-With the Riemannian measure and Hermitian spinor metric, \(\not D\) is an unbounded [[functional-analysis/symmetric-operator|symmetric operator]] on \(L^2(M,S)\). If \(M\) is complete, \(\not D\) is [[functional-analysis/essentially-self-adjoint-operator|essentially self-adjoint]], so its closure is self-adjoint. If \(M\) is closed, this realization has compact resolvent and discrete real spectrum of finite multiplicity; see [Roe, chapter 5](https://doi.org/10.1201/b16418).
+With the Riemannian measure and Hermitian spinor metric, \(\not D\) is an unbounded [[functional-analysis/symmetric-operator|symmetric operator]] on \(L^2(M,S)\). If \(M\) is complete, \(\not D\) is [[functional-analysis/essentially-self-adjoint-operator|essentially self-adjoint]], so its closure is self-adjoint. If \(M\) is closed, this realization has compact resolvent and discrete real spectrum of finite multiplicity.
 
 ## Geometric identities and variants
 
@@ -34,6 +34,8 @@ relates the operator to scalar curvature. Twisting \(S\) by a Hermitian bundle w
 ## Conventions and scope
 
 **Warning.** This knowl uses “Dirac operator” for the spin-geometric operator. The broader class of Dirac-type operators includes Hodge–de Rham and signature operators. The Dirac monopole connection is instead a connection associated with a magnetic monopole and is not this operator.
+
+This page is specifically Riemannian: its principal symbol is invertible away from the zero section, so \(\not D\) is elliptic, and its analytic realization uses a positive-definite \(L^2\) inner product. On a [[differential-geometry/lorentzian-spinor-bundle|Lorentzian spinor bundle]], Clifford contraction instead gives a nonelliptic operator whose characteristic covectors are null. Its flat model is the [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]], and its evolution equation is the [[mathematical-physics/dirac-equation|Dirac equation]]. These operators share a Clifford-geometric construction but belong to different analytic categories.
 
 ## References
 

@@ -25,7 +25,7 @@ for all \(T\in\mathcal T\) and \(x\in E\). This is the locally convex analogue o
 
 ## Duality and uniform boundedness
 
-For a family \(\mathcal T\) in the [[functional-analysis/topological-dual|topological dual]] \(E'\), equicontinuity means that some zero-neighborhood \(U\subseteq E\) satisfies \(\lvert\varphi(x)\rvert\le1\) for every \(\varphi\in\mathcal T\) and \(x\in U\); equivalently, \(\mathcal T\) lies in the polar of \(U\). If \(E\) is [[functional-analysis/barreled-space|barreled]], [[real-analysis/pointwise-bounded-family|pointwise bounded families]] of continuous linear maps from \(E\) into a locally convex space are equicontinuous [Trèves, Chapter 32](https://store.doverpublications.com/products/9780486453521).
+For a family \(\mathcal T\) in the [[functional-analysis/topological-dual|topological dual]] \(E'\), equicontinuity means that some zero-neighborhood \(U\subseteq E\) satisfies \(\lvert\varphi(x)\rvert\le1\) for every \(\varphi\in\mathcal T\) and \(x\in U\); equivalently, \(\mathcal T\) lies in the polar of \(U\). If \(E\) is [[functional-analysis/barreled-space|barreled]], [[real-analysis/pointwise-bounded-family|pointwise bounded families]] of continuous linear maps from \(E\) into a locally convex space are equicontinuous.
 
 ## Stability and cautions
 

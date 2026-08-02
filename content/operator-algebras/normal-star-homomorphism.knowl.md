@@ -31,8 +31,7 @@ it preserves suprema of bounded increasing nets of positive elements:
 \]
 It is enough to test the corresponding monotone-continuity condition on
 increasing nets of projections. This criterion is order-theoretic but is
-equivalent to ultraweak continuity only because the map is positive
-[Takesaki, chapter on von Neumann algebra topologies](https://doi.org/10.1007/978-1-4612-6188-9).
+equivalent to ultraweak continuity only because the map is positive.
 
 ## Examples and a non-example
 

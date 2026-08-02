@@ -37,7 +37,7 @@ where \(M'\) is the [[operator-algebras/commutant|commutant]] of \(M\). Thus
 \(x\mapsto JxJ\) is a conjugate-linear multiplicative bijection from \(M\)
 onto \(M'\); equivalently, \(x\mapsto Jx^*J\) is a linear
 \(*\)-anti-isomorphism. This conclusion is a theorem, not merely a consequence
-of antiunitarity [Takesaki, Chapter VI, §1](https://doi.org/10.1007/978-1-4612-6188-9).
+of antiunitarity.
 
 ## Interaction with modular time
 

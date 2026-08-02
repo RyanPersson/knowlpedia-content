@@ -32,7 +32,7 @@ Contracting with the Darboux form gives
 \[
 \iota_{X_H}\omega=\sum_i(a^i\,dp_i-b_i\,dq^i).
 \]
-Comparison with \(dH=\sum_i(H_{q^i}\,dq^i+H_{p_i}\,dp_i)\) yields \(a^i=H_{p_i}\) and \(b_i=-H_{q^i}\). Since trajectories satisfy \(\dot\gamma=X_H\), the coordinate equations follow. See [Abraham and Marsden, §3.3](https://doi.org/10.1090/chel/364).
+Comparison with \(dH=\sum_i(H_{q^i}\,dq^i+H_{p_i}\,dp_i)\) yields \(a^i=H_{p_i}\) and \(b_i=-H_{q^i}\). Since trajectories satisfy \(\dot\gamma=X_H\), the coordinate equations follow.
 
 ## Examples and time dependence
 
@@ -42,7 +42,7 @@ For \(H(q,p)=p^2/(2m)+m\Omega^2q^2/2\), Hamilton's equations are
 \]
 and hence \(\ddot q+\Omega^2q=0\).
 
-For a [[differential-geometry/time-dependent-hamiltonian-system|time-dependent Hamiltonian]] \(H(t,q,p)\), the same formulas hold with the [[real-analysis/partial-derivative|partial derivatives]] evaluated at time \(t\). The resulting evolution is nonautonomous, and \(H\) need not be conserved [Arnol'd, Chapter 9](https://doi.org/10.1007/978-1-4757-1693-1).
+For a [[differential-geometry/time-dependent-hamiltonian-system|time-dependent Hamiltonian]] \(H(t,q,p)\), the same formulas hold with the [[real-analysis/partial-derivative|partial derivatives]] evaluated at time \(t\). The resulting evolution is nonautonomous, and \(H\) need not be conserved.
 
 ## Conventions and scope
 

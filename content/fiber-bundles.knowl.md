@@ -47,11 +47,10 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/vector-field|Vector Field]]
 - [[fiber-bundles/wedge-product-of-differential-forms|Wedge Product Of Differential Forms]]
 ---
-## July 2026 bundle and gauge-theory expansion
-
-### Vector bundles, sections, and bundle operations
+## Vector bundles, sections, and bundle operations
 
 - [[fiber-bundles/compactly-supported-section|Compactly supported section]]
+- [[fiber-bundles/category-of-vector-bundles-over-a-manifold|Category of vector bundles over a manifold]]
 - [[fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism|Kernel and image bundles of a constant-rank morphism]]
 - [[fiber-bundles/line-bundle|Line bundle]]
 - [[fiber-bundles/module-of-smooth-sections|Module of smooth sections]]
@@ -59,14 +58,16 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/quotient-vector-bundle|Quotient vector bundle]]
 - [[fiber-bundles/section-of-a-fiber-bundle|Section of a fiber bundle]]
 - [[fiber-bundles/section-of-a-vector-bundle|Section of a vector bundle]]
+- [[fiber-bundles/sheaf-of-smooth-sections|Sheaf of smooth sections]]
 - [[fiber-bundles/short-exact-sequence-of-vector-bundles|Short exact sequence of vector bundles]]
 - [[fiber-bundles/sphere-bundle|Sphere bundle]]
 - [[fiber-bundles/splitting-theorem-for-vector-bundles|Splitting theorem for vector bundles]]
 - [[fiber-bundles/support-of-a-section|Support of a section]]
 - [[fiber-bundles/vector-subbundle|Vector subbundle]]
+- [[fiber-bundles/vector-bundles-and-locally-free-sheaves|Vector bundles and locally free sheaves]]
 - [[fiber-bundles/zero-section|Zero section]]
 
-### Connections and curvature
+## Connections and curvature
 
 - [[fiber-bundles/chern-connection|Chern connection]]
 - [[fiber-bundles/hom-bundle-connection|Connection on a Hom bundle]]
@@ -77,7 +78,7 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/tensor-product-connection|Tensor product connection]]
 - [[fiber-bundles/vector-bundle-valued-differential-form|Vector-bundle-valued differential form]]
 
-### Reductions and geometric structures
+## Reductions and geometric structures
 
 - [[fiber-bundles/connection-compatible-with-a-reduction|Connection compatible with a reduction]]
 - [[fiber-bundles/chern-curvature|Curvature of the Chern connection]]
@@ -87,7 +88,7 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/spin-connection|Spin connection]]
 - [[fiber-bundles/spin-structure|Spin structure]]
 
-### Characteristic classes
+## Characteristic classes
 
 - [[fiber-bundles/characteristic-number|Characteristic number]]
 - [[fiber-bundles/chern-number|Chern number]]
@@ -105,14 +106,14 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/universal-characteristic-class|Universal characteristic class]]
 - [[fiber-bundles/whitney-sum-formula|Whitney sum formula]]
 
-### Serre-Swan duality
+## Serre-Swan duality
 
 - [[fiber-bundles/projective-module-bundle-reconstruction|Reconstructing a vector bundle from a projective module]]
 - [[fiber-bundles/section-module-is-finitely-generated-projective|Section module is finitely generated projective]]
 - [[fiber-bundles/serre-swan-theorem|Serre–Swan theorem]]
 - [[fiber-bundles/serre-swan-idempotent-construction|Vector bundle from an idempotent matrix]]
 
-### Gauge actions and quotients
+## Gauge actions and quotients
 
 - [[fiber-bundles/based-gauge-group|Based gauge group]]
 - [[fiber-bundles/coulomb-gauge|Coulomb gauge]]
@@ -126,7 +127,7 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/stabilizer-of-a-connection|Stabilizer of a connection]]
 - [[fiber-bundles/wilson-loop|Wilson loop]]
 
-### Analytic and complex gauge theory
+## Analytic and complex gauge theory
 
 - [[fiber-bundles/covariant-hodge-laplacian|Covariant Hodge Laplacian]]
 - [[fiber-bundles/donaldson-uhlenbeck-yau-theorem|Donaldson-Uhlenbeck-Yau theorem]]
@@ -134,7 +135,7 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/hermitian-yang-mills-connection|Hermitian Yang-Mills connection]]
 - [[fiber-bundles/l2-inner-product-on-bundle-valued-forms|L2 inner product on bundle-valued forms]]
 
-### Yang-Mills theory and instantons
+## Yang-Mills theory and instantons
 
 - [[fiber-bundles/anti-self-dual-moduli-space|Anti-self-dual moduli space]]
 - [[fiber-bundles/asd-deformation-complex|ASD deformation complex]]
@@ -148,7 +149,7 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/instanton|Yang-Mills instanton]]
 - [[fiber-bundles/yang-mills-moduli-space|Yang-Mills moduli space]]
 
-### Flat connections and moduli
+## Flat connections and moduli
 
 - [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah-Bott symplectic form]]
 - [[fiber-bundles/character-variety|Character variety]]
@@ -158,6 +159,7 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/moduli-space-of-flat-connections|Moduli space of flat connections]]
 - [[fiber-bundles/representation-variety|Representation variety]]
 - [[fiber-bundles/tangent-space-to-flat-connection-moduli|Tangent space to flat-connection moduli]]
+- [[fiber-bundles/local-system|Local system]]
 
 ---
 
@@ -282,7 +284,7 @@ legacy_source_path = "fiber-bundles/_index.md"
 - [[fiber-bundles/holonomy-group|Holonomy group]]
 - [[fiber-bundles/holonomy-reduction-principle|Holonomy reduction principle]]
 - [[fiber-bundles/holonomy-representation|Holonomy representation]]
-- [[fiber-bundles/homotopy-class-mbg|Homotopy class [M,BG]]]
+- [[fiber-bundles/homotopy-class-mbg|Homotopy class \([M,BG]\)]]
 - [[fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle|Hopf fibration as a principal U(1)-bundle]]
 - [[fiber-bundles/horizontal-differential-form-on-a-principal-bundle|Horizontal differential form on a principal bundle]]
 - [[fiber-bundles/horizontal-distribution|Horizontal distribution]]

@@ -19,7 +19,7 @@ distribution]] on \(\mathbb R^n\). Its **Fourier transform**
 \]
 where \(\varphi\mapsto\widehat\varphi\) is the
 [[functional-analysis/fourier-transform-schwartz-space|Fourier transform on
-[[functional-analysis/schwartz-space|Schwartz space]]]] with kernel \(e^{-2\pi i x\cdot\xi}\). Because that transform
+Schwartz space]] with kernel \(e^{-2\pi i x\cdot\xi}\). Because that transform
 is a continuous automorphism of \(\mathcal S(\mathbb R^n)\), this transpose
 operation is well-defined and is itself a linear automorphism of
 \(\mathcal S'(\mathbb R^n)\).
@@ -33,8 +33,7 @@ If \(u\) is induced by an integrable function \(f\), [[measure-theory/fubinis-th
 \]
 Thus the dual definition agrees with the ordinary Fourier transform whenever
 both are available. It also assigns transforms to nonintegrable objects such
-as polynomials, plane waves, and derivatives of the Dirac distribution
-[Hörmander, §7.1](https://doi.org/10.1007/978-3-642-61497-2).
+as polynomials, plane waves, and derivatives of the Dirac distribution.
 
 ## Differentiation and multiplication
 

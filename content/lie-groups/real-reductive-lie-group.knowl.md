@@ -27,7 +27,7 @@ the finite-center condition on the derived subgroup gives the semisimple part
 the global finiteness needed for admissibility and harmonic analysis. A
 noncompact central vector group is still allowed. Thus groups such as
 \(\mathrm{GL}_n(\mathbb R)\) fit the convention even though their centers need
-not be compact [Knapp, Chapter VII](https://doi.org/10.1515/9781400883974).
+not be compact.
 
 ## Cartan structure
 

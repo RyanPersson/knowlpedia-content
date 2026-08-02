@@ -20,7 +20,7 @@ Consequently every immersion is locally an embedding near each source point. Thi
 
 ## Comparison with embedded submanifolds
 
-An injective immersion is an embedding exactly when it is a homeomorphism onto its image with the [[topology/subspace-topology|subspace topology]]. Hence every [[differential-geometry/embedded-submanifold|embedded submanifold]] is immersed, but not conversely. Proper injective immersions are embeddings, a useful sufficient condition recorded in [Lee, chapters on immersions and submanifolds](https://doi.org/10.1007/978-1-4419-9982-5).
+An injective immersion is an embedding exactly when it is a homeomorphism onto its image with the [[topology/subspace-topology|subspace topology]]. Hence every [[differential-geometry/embedded-submanifold|embedded submanifold]] is immersed, but not conversely. Proper injective immersions are embeddings.
 
 ## Examples and conventions
 

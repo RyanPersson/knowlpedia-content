@@ -21,8 +21,7 @@ is the **Dixmier–Douady class** of \(A\). Equivalently, it is the image in
 [[topology/singular-cohomology-group|degree-three integral cohomology]] of
 the Čech cocycle obtained by lifting the projective-unitary transition
 functions locally to [[functional-analysis/unitary-operator|unitary operators]].
-The class depends on the identification of the spectrum with \(X\)
-[Raeburn–Williams, Chapter 5](https://doi.org/10.1090/surv/060).
+The class depends on the identification of the spectrum with \(X\).
 
 ## Classification and vanishing
 
@@ -32,8 +31,7 @@ the assignment
 \(A\mapsto\delta(A)\) classifies continuous-trace \(C^*\)-algebras up to
 [[operator-algebras/strong-morita-equivalence|strong Morita equivalence]]:
 two such algebras are Morita equivalent over \(X\) exactly when their
-Dixmier–Douady classes agree. Every class in \(H^3(X;\mathbb Z)\) occurs
-[Raeburn–Williams, Chapter 5](https://doi.org/10.1090/surv/060).
+Dixmier–Douady classes agree. Every class in \(H^3(X;\mathbb Z)\) occurs.
 
 The class vanishes exactly when \(A\) is Morita equivalent over \(X\) to
 \(C_0(X)\). In the separable stable setting, vanishing says that the
@@ -60,8 +58,7 @@ principal \(PU(H)\)-bundle with nonzero class produces a section algebra
 that is locally indistinguishable from the trivial compact-operator field
 but is not Morita equivalent to \(C_0(X)\) over \(X\). This global
 obstruction is the phenomenon isolated in the original
-Dixmier–Douady theory
-[Dixmier–Douady, pp. 227–284](https://doi.org/10.24033/bsmf.1596).
+Dixmier–Douady theory.
 
 ## Conventions and scope
 

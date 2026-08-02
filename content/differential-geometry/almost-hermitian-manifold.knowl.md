@@ -24,7 +24,7 @@ Any two of \(J\), \(g\), and \(\omega\) determine the third when they satisfy th
 \[
 g(X,Y)=\omega(X,JY)
 \]
-for the sign convention in the core. The linear-algebra construction can be carried out smoothly, and every almost-complex manifold admits compatible metrics; see [Cannas da Silva, “Compatible Almost Complex Structures”](https://doi.org/10.1007/978-3-540-45330-7).
+for the sign convention in the core. The linear-algebra construction can be carried out smoothly, and every almost-complex manifold admits compatible metrics.
 
 ## Relationship to symplectic and complex geometry
 

@@ -33,8 +33,7 @@ contractive. Every bounded scalar-valued functional is completely bounded with
 the same norm. A [[operator-algebras/completely-positive-map|completely positive map]] is completely bounded; when its domain is unital,
 \(\lVert\phi\rVert_{\mathrm{cb}}=\lVert\phi(1)\rVert\). These examples explain
 why the matrix norm, rather than only the ordinary [[linear-algebra/operator-norm|operator norm]], is natural
-for maps between operator algebras
-[Paulsen, Chapters 3 and 8](https://doi.org/10.1017/CBO9780511546631).
+for maps between operator algebras.
 
 ## Structure and consequences
 
@@ -47,7 +46,7 @@ so completely bounded maps form the morphisms of the operator-space category.
 For maps into \(B(H)\), Wittstock's decomposition theorem expresses every
 completely bounded map as a [[convex-analysis/linear-combination|linear combination]] of completely positive maps;
 equivalently, it admits a Stinespring-type factorization with bounded
-coefficients [Paulsen, Chapter 8](https://doi.org/10.1017/CBO9780511546631).
+coefficients.
 
 ## Bounded versus completely bounded
 
@@ -55,8 +54,8 @@ Ordinary boundedness controls only the level \(n=1\). The transpose map on
 \(M_k(\mathbb C)\) has operator norm \(1\) but completely bounded norm \(k\),
 so amplification can reveal behavior invisible at the first level. On a fixed
 finite-dimensional operator space every bounded map is completely bounded,
-but no dimension-free comparison follows
-[Paulsen, Chapter 8](https://doi.org/10.1017/CBO9780511546631).
+but there is no dimension-free comparison between the bounded and completely
+bounded norms.
 
 **Warning.** Complete boundedness and
 [[operator-algebras/positive-linear-map|positivity]] are independent without

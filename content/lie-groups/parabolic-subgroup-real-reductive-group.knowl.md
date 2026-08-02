@@ -27,10 +27,9 @@ Fix a positive [[lie-groups/restricted-root-system|restricted-root system]]
 with [[lie-groups/simple-root|simple roots]] \(\Delta\). Subsets \(F\subseteq\Delta\) parametrize standard
 parabolic subgroups \(P_F\);
 inclusion of subsets gives inclusion of the corresponding parabolics. Every
-parabolic subgroup is conjugate to a standard one. These statements, including
-the passage between parabolic subalgebras and subgroups, are proved for the
-usual real reductive class in
-[Knapp, Chapter VII, §7](https://www.math.stonybrook.edu/~aknapp/books/beyond2.html).
+parabolic subgroup is conjugate to a standard one. For the stated real
+reductive class, this classification is compatible with the passage between
+parabolic Lie subalgebras and parabolic subgroups.
 
 ## Internal structure and representation theory
 

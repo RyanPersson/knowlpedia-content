@@ -12,7 +12,7 @@ Let \(i:S\hookrightarrow M\) be an [[differential-geometry/embedded-submanifold|
 
 ## Construction from a metric
 
-After choosing a Riemannian metric on \(M\), the normal bundle may be represented by the [[linear-algebra/orthogonal-complement|orthogonal complements]] \(T_pS^\perp\). The Riemannian [[fiber-bundles/exponential-map|exponential map]] sends sufficiently small normal vectors to \(M\) and restricts, with a radius allowed to vary over \(S\), to a tubular-neighborhood embedding [Lee, Chapter 10](https://doi.org/10.1007/978-1-4419-9982-5). The resulting model depends on choices, although its germ has strong uniqueness properties.
+After choosing a Riemannian metric on \(M\), the normal bundle may be represented by the [[linear-algebra/orthogonal-complement|orthogonal complements]] \(T_pS^\perp\). The Riemannian [[fiber-bundles/exponential-map|exponential map]] sends sufficiently small normal vectors to \(M\) and restricts, with a radius allowed to vary over \(S\), to a tubular-neighborhood embedding. The resulting model depends on choices, although its germ has strong uniqueness properties.
 
 ## Geometric uses
 

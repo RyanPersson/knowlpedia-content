@@ -24,7 +24,7 @@ For the coordinate plane \(\mathbb R^k\times\{0\}\subset\mathbb R^n\), the ident
 
 ## Conventions and scope
 
-“Slice chart” also appears in other contexts, notably proper [[algebra-groups/group-action|group actions]]. Here it means only an ambient chart adapted to an embedded submanifold. Some sources permit an arbitrary coordinate \(k\)-plane rather than the first \(k\) axes; coordinate reordering makes the definitions equivalent [Lee, Chapter 5](https://doi.org/10.1007/978-1-4419-9982-5).
+“Slice chart” also appears in other contexts, notably proper [[algebra-groups/group-action|group actions]]. Here it means only an ambient chart adapted to an embedded submanifold. Some sources permit an arbitrary coordinate \(k\)-plane rather than the first \(k\) axes; coordinate reordering makes the definitions equivalent.
 
 ## References
 

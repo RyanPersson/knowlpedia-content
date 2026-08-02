@@ -31,7 +31,7 @@ For \(E\) the trivial [[fiber-bundles/line-bundle|real line bundle]] with its fl
 
 ## Analytical role
 
-The operator \(d_A^*\) enters both [[fiber-bundles/gauge-fixing-condition|gauge fixing]] and the Yang–Mills equation. A perturbation \(a\) is in [[fiber-bundles/coulomb-gauge|Coulomb gauge]] relative to \(A\) when \(d_A^*a=0\), while the [[fiber-bundles/yangmills-equation|Yang–Mills equation]] is \(d_A^*F_A=0\). Together with \(d_A\), it forms the gauge-covariant [[differential-geometry/hodge-laplacian|Hodge Laplacian]] used in elliptic estimates [Freed–Uhlenbeck, chapter 2](https://doi.org/10.1007/978-1-4613-9703-8).
+The operator \(d_A^*\) enters both [[fiber-bundles/gauge-fixing-condition|gauge fixing]] and the Yang–Mills equation. A perturbation \(a\) is in [[fiber-bundles/coulomb-gauge|Coulomb gauge]] relative to \(A\) when \(d_A^*a=0\), while the [[fiber-bundles/yangmills-equation|Yang–Mills equation]] is \(d_A^*F_A=0\). Together with \(d_A\), it forms the gauge-covariant [[differential-geometry/hodge-laplacian|Hodge Laplacian]] used in elliptic estimates.
 
 **Warning.** On a manifold with boundary, integration by parts has a boundary term. An analytic adjoint therefore depends on boundary conditions and on the chosen operator domain even though the displayed formal expression remains local.
 

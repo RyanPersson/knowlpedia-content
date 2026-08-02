@@ -8,7 +8,7 @@ domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/vector-space.md"
 +++
 
-A **vector space** over a [[real-analysis/field-axioms|field]] \(\mathbb{F}\) is a [[shared-foundations/set|set]] \(V\) equipped with two operations ([[shared-foundations/function|functions]]) \(+:V\times V\to V\) and \(\cdot:\mathbb{F}\times V\to V\) such that for all \(u,v,w\in V\) and \(a,b\in\mathbb{F}\):
+A **vector space** over a [[algebra-rings/field|field]] \(\mathbb{F}\) is a [[shared-foundations/set|set]] \(V\) equipped with two operations ([[shared-foundations/function|functions]]) \(+:V\times V\to V\) and \(\cdot:\mathbb{F}\times V\to V\) such that for all \(u,v,w\in V\) and \(a,b\in\mathbb{F}\):
 \[
 \begin{aligned}
 &u+v=v+u,\qquad (u+v)+w=u+(v+w),\\

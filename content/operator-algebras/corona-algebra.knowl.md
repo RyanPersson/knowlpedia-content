@@ -49,8 +49,7 @@ An extension
 whose copy of \(A\) is essential determines a \(*\)-homomorphism
 \(\tau:B\to Q(A)\), called its Busby invariant. Conversely, a suitable
 \(*\)-homomorphism into \(Q(A)\) reconstructs an extension by a pullback.
-This correspondence is the reason corona algebras organize extension theory
-[Busby, §§3–4](https://doi.org/10.1090/S0002-9947-1968-0225175-5).
+This correspondence is the reason corona algebras organize extension theory.
 
 ## Scope and cautions
 

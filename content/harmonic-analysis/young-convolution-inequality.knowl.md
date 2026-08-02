@@ -24,7 +24,7 @@ The case \(p=1\) and \(q=r\) says that averaging left translates of \(g\) agains
 
 ## Proof mechanism and extension
 
-For compactly supported continuous functions, translation invariance of Haar measure, Hölder's inequality, and [[measure-theory/tonellis-theorem|Tonelli's theorem]] give the endpoint bounds. Interpolation and density yield the remaining exponent range. The extension is independent of the approximating functions because the displayed estimate makes convolution jointly continuous in the indicated norms [Folland, Chapter 2](https://doi.org/10.1201/B19172).
+For compactly supported continuous functions, translation invariance of Haar measure, Hölder's inequality, and [[measure-theory/tonellis-theorem|Tonelli's theorem]] give the endpoint bounds. Interpolation and density yield the remaining exponent range. The extension is independent of the approximating functions because the displayed estimate makes convolution jointly continuous in the indicated norms.
 
 ## Scope and nonunimodular groups
 

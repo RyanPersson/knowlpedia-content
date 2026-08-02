@@ -39,8 +39,7 @@ relation collapse coefficient elements. Equivalently,
 \[
 i_A(a)-i_X^{(1)}(\varphi_X(a)),\qquad a\in J_X.
 \]
-This formulation extends the construction to noninjective left actions
-[Katsura, correspondence covariance](https://doi.org/10.1016/j.jfa.2004.03.010).
+This formulation extends the construction to noninjective left actions.
 
 ## Standard examples
 
@@ -49,8 +48,7 @@ adds \(\sum_{j=1}^d S_jS_j^*=1\) to the Toeplitz relations, producing the
 Cuntz algebra \(\mathcal O_d\). A correspondence obtained from an automorphism
 of \(A\) yields a crossed product by \(\mathbb Z\), with the orientation of
 the automorphism determined by the chosen module convention. These examples
-motivated Pimsner’s construction
-[Pimsner, introductory construction](https://cir.nii.ac.jp/crid/1570572699254124800).
+motivated Pimsner’s construction.
 
 ## Conventions and scope
 

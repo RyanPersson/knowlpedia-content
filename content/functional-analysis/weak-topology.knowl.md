@@ -33,8 +33,7 @@ A basic weak neighborhood of \(x\) restricts only finitely many functionals:
 The weak topology is Hausdorff exactly when \(E'\) [[real-analysis/separates-points|separates points]] of \(E\).
 This separation holds for Hausdorff
 [[functional-analysis/locally-convex-space|locally convex spaces]], but can fail for
-general topological vector spaces whose continuous dual is too small
-[Schaefer–Wolff, Chapter IV](https://doi.org/10.1007/978-1-4612-1468-7).
+general topological vector spaces whose continuous dual is too small.
 
 ## Weak versus original convergence
 

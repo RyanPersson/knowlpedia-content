@@ -21,7 +21,7 @@ For the product \(W=M\times[0,1]\) with product orientation, the boundary at \(t
 
 ## Oriented bordism groups
 
-Disjoint union defines addition on oriented cobordism classes, the empty manifold is the zero element, and orientation reversal gives the inverse. In each dimension \(n\), these classes form the [[differential-geometry/bordism-group|oriented bordism group]] \(\Omega_n^{SO}\). [[shared-foundations/cartesian-product|Cartesian product]] supplies a graded multiplication, yielding the oriented bordism ring. [[fiber-bundles/characteristic-number|Characteristic numbers]] provide important invariants of these classes [Milnor–Stasheff, Appendix B](https://doi.org/10.1515/9781400881826).
+Disjoint union defines addition on oriented cobordism classes, the empty manifold is the zero element, and orientation reversal gives the inverse. In each dimension \(n\), these classes form the [[differential-geometry/bordism-group|oriented bordism group]] \(\Omega_n^{SO}\). [[shared-foundations/cartesian-product|Cartesian product]] supplies a graded multiplication, yielding the oriented bordism ring. [[fiber-bundles/characteristic-number|Characteristic numbers]] provide important invariants of these classes.
 
 ## Examples and non-examples
 

@@ -22,7 +22,7 @@ to the source.
 
 ## Equivalent viewpoints
 
-The bracket and bivector tests are equivalent because the differential of a pullback satisfies \(d(f\circ\Phi)_p=d\Phi_p^*(df_{\Phi(p)})\). The equality need only be checked locally on coordinate functions and their smooth combinations. The systematic treatment of Poisson morphisms and coinduced structures appears in [Vaisman, “Poisson Morphisms, Coinduced Structures, Reduction”](https://doi.org/10.1007/978-3-0348-8495-2).
+The bracket and bivector tests are equivalent because the differential of a pullback satisfies \(d(f\circ\Phi)_p=d\Phi_p^*(df_{\Phi(p)})\). The equality need only be checked locally on coordinate functions and their smooth combinations.
 
 When both Poisson structures are nondegenerate and arise from symplectic forms, a diffeomorphism is Poisson exactly when it is a [[differential-geometry/symplectomorphism|symplectomorphism]], with the compatible sign convention relating the forms and bivectors.
 

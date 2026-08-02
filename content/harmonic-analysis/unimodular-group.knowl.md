@@ -30,8 +30,7 @@ the identities
 \int_G f(x^{-1})\,d\mu(x)=\int_G f(x)\,d\mu(x)
 \]
 whenever the expressions are defined. These equivalences follow from the
-change-of-variables formulas for Haar measure; see
-[Folland, chapter 2](https://doi.org/10.1201/B19172).
+change-of-variables formulas for Haar measure.
 
 ## Examples and non-examples
 

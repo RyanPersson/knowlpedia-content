@@ -26,7 +26,7 @@ After choosing a [[fiber-bundles/bundle-metric|bundle metric]], excision identif
 \[
 H^*(E,E^\times;R)\cong H^*(D(E),S(E);R),
 \]
-where \(D(E)\) and \(S(E)\) are the disk and [[fiber-bundles/sphere-bundle|sphere bundles]]. Collapsing \(S(E)\) gives the reduced cohomology of the Thom space. These models express the same isomorphism with different support conventions [Milnor–Stasheff, chapter 10](https://doi.org/10.1515/9781400881826).
+where \(D(E)\) and \(S(E)\) are the disk and [[fiber-bundles/sphere-bundle|sphere bundles]]. Collapsing \(S(E)\) gives the reduced cohomology of the Thom space. These models express the same isomorphism with different support conventions.
 
 ## Consequences
 

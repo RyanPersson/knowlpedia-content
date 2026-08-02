@@ -24,7 +24,7 @@ coordinates.
 
 ## Formal-root calculus
 
-Any symmetric polynomial in the \(x_i\) is a polynomial in the elementary symmetric functions, hence determines a unique polynomial in the [[fiber-bundles/chern-class|Chern classes]] of \(E\). Injectivity of \(p^*\) then lets an identity proved on \(Y\) descend to \(X\). This is the precise meaning of “calculating as if \(E\) were a sum of line bundles” [Milnor–Stasheff, §14](https://doi.org/10.1515/9781400881826).
+Any symmetric polynomial in the \(x_i\) is a polynomial in the elementary symmetric functions, hence determines a unique polynomial in the [[fiber-bundles/chern-class|Chern classes]] of \(E\). Injectivity of \(p^*\) then lets an identity proved on \(Y\) descend to \(X\). This is the precise meaning of “calculating as if \(E\) were a sum of line bundles”.
 
 For example, the roots of the dual bundle are \(-x_1,\ldots,-x_r\). If \(F\) has formal roots \(y_1,\ldots,y_s\), then \(E\otimes F\) has formal roots \(x_i+y_j\), indexed by pairs \((i,j)\). These rules follow after pulling back to a common splitting space.
 
@@ -38,7 +38,7 @@ The [[fiber-bundles/tangent-bundle|tangent bundle]] of complex [[algebraic-geome
 
 **Warning.** Individual roots generally are not classes on \(X\), are defined only after a chosen splitting extension, and are meaningful only up to permutation. Only symmetric expressions in them canonically descend.
 
-In algebraic geometry the same notation is used in an appropriate Chow ring extension. The splitting construction and the conclusion are analogous, but the ambient cohomology theory must be kept fixed [Fulton, §3.2](https://doi.org/10.1007/978-1-4612-1700-8).
+In algebraic geometry the same notation is used in an appropriate Chow ring extension. The splitting construction and the conclusion are analogous, but the ambient cohomology theory must be kept fixed.
 
 ## References
 

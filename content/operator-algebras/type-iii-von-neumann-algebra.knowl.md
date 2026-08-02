@@ -43,9 +43,8 @@ separable predual; such hypotheses must accompany the theorem that uses them.
 
 The Roman numeral III refers to Murray–von Neumann type. An algebra with both
 a semifinite central summand and a type III central summand is not itself type
-III under the convention used here; only its latter central summand is.
-The projection criterion and the central type decomposition are given in
-[Kadison–Ringrose, §6.5](https://bookstore.ams.org/GSM/16).
+III under the convention used here; only its latter central summand is of
+type III.
 
 ## References
 

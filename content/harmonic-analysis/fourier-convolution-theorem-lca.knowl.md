@@ -22,7 +22,7 @@ Expanding the definitions gives
 \widehat{f*g}(\gamma)
 =\int_G\int_G f(y)g(y^{-1}x)\overline{\gamma(x)}\,dy\,dx.
 \]
-Absolute integrability permits [[measure-theory/fubinis-theorem|Fubini's theorem]]. The substitution \(x=yz\), left invariance of Haar measure, and \(\gamma(yz)=\gamma(y)\gamma(z)\) split the double integral into \(\widehat f(\gamma)\widehat g(\gamma)\). This calculation also explains exactly where commutativity enters: it makes scalar characters sufficient to diagonalize convolution [Folland, Chapter 4](https://doi.org/10.1201/B19172).
+Absolute integrability permits [[measure-theory/fubinis-theorem|Fubini's theorem]]. The substitution \(x=yz\), left invariance of Haar measure, and \(\gamma(yz)=\gamma(y)\gamma(z)\) split the double integral into \(\widehat f(\gamma)\widehat g(\gamma)\). This calculation also explains exactly where commutativity enters: it makes scalar characters sufficient to diagonalize convolution.
 
 ## Analytic consequences
 

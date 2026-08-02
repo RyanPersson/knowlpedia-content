@@ -32,7 +32,7 @@ integrable functions by
 The norm is \(\lVert u\rVert_{B(G)}=\lVert\omega_u\rVert\). Equivalently, it is
 the infimum of \(\lVert\xi\rVert\lVert\eta\rVert\) over all coefficient
 realizations of \(u\). This identification is isometric and is central to
-Eymard's treatment [Eymard, §§2.1–2.2](https://doi.org/10.24033/bsmf.1607).
+Eymard's treatment.
 
 ## Positive-definite functions and examples
 

@@ -13,7 +13,7 @@ Let \(G\) be a connected noncompact semisimple [[fiber-bundles/lie-group|Lie gro
 [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]], and \(X=G/K\). For a \(K\)-invariant \(f\in L^1(X)\cap L^2(X)\),
 define
 \[
-\widehat f(\lambda)=\int_X f(x)\varphi_{-\lambda}(x)\,dx ,
+\widehat f(\lambda)=\int_X f(x)\varphi_{-\lambda}(x)\,dx,
 \]
 where \(\varphi_\lambda\) is the normalized
 [[harmonic-analysis/spherical-function|spherical function]]. Choose
@@ -39,13 +39,12 @@ inversion takes the pointwise form
 \[
 f(x)=C\int_{\mathfrak a^*}
  \widehat f(\lambda)\varphi_\lambda(x)
- |c(\lambda)|^{-2}\,d\lambda ,
+ |c(\lambda)|^{-2}\,d\lambda,
 \]
 where \(C\) is determined by the chosen normalizations and includes the Weyl
 group convention. Density then gives the unitary extension to all of
 \(L^2(X)^K\). The theorem is the commutative, multiplicity-one part of the
-nonabelian Plancherel decomposition
-[Helgason, Chapter IV, §7](https://doi.org/10.1090/surv/039).
+nonabelian Plancherel decomposition.
 
 ## Interpretation
 

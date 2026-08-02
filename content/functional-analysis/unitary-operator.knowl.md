@@ -32,8 +32,7 @@ For a bounded linear map \(U:H\to K\), the following are equivalent: \(U\) is
 unitary; \(U\) is a surjective isometry; \(U^*U=I_H\) and \(UU^*=I_K\); and
 \(U\) sends some [[linear-algebra/orthonormal-basis|orthonormal basis]] of
 \(H\) onto an orthonormal basis of \(K\). The single identity \(U^*U=I_H\)
-asserts only that \(U\) is an isometry, while \(UU^*=I_K\) supplies surjectivity
-[Conway, Chapter II](https://doi.org/10.1007/978-1-4757-3828-5).
+asserts only that \(U\) is an isometry, while \(UU^*=I_K\) supplies surjectivity.
 
 ## Spectral and geometric properties
 

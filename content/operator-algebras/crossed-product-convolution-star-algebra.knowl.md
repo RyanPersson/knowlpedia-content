@@ -12,7 +12,6 @@ Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system|\(C^*\)-dyn
 \[
 (f*g)(s)=\int_G f(t)\alpha_t\!\left(g(t^{-1}s)\right)\,dt
 \]
-and
 \[
 f^*(s)=\Delta(s^{-1})\alpha_s\!\left(f(s^{-1})^*\right).
 \]
@@ -20,7 +19,7 @@ The integrals are \(A\)-valued Bochner integrals. These operations make \(C_c(G,
 
 ## Algebraic role
 
-The twisting by \(\alpha_t\) in convolution records the interaction between the group and the coefficient algebra. The modular factor in the involution compensates for inversion under a left Haar measure. With these choices, every [[operator-algebras/covariant-representation-cstar-dynamical-system|covariant pair]] has an integrated form that respects both multiplication and involution [Williams, §2.3, equations (2.16)–(2.19)](https://doi.org/10.1090/surv/134).
+The twisting by \(\alpha_t\) in convolution records the interaction between the group and the coefficient algebra. The modular factor in the involution compensates for inversion under a left Haar measure. With these choices, every [[operator-algebras/covariant-representation-cstar-dynamical-system|covariant pair]] has an integrated form that respects both multiplication and involution.
 
 The [[operator-algebras/full-crossed-product|full crossed product]] and [[operator-algebras/reduced-crossed-product|reduced crossed product]] are different \(C^*\)-completions of this same dense algebraic core. Consequently, the notation \(C_c(G,A)\) alone does not select a \(C^*\)-norm.
 

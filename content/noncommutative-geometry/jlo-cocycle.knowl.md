@@ -31,8 +31,7 @@ Hölder inequalities for trace ideals, together with
 \(\operatorname{Tr}(e^{-tD^2})<\infty\), control the integrand near the faces
 of the simplex. The simplex volume supplies factorial decay in the cochain
 degree. These estimates establish the entire-growth condition, not merely
-termwise finiteness
-[Jaffe–Leśniewski–Osterwalder, §§2–4](https://doi.org/10.1007/BF01218474).
+termwise finiteness.
 
 ## Cohomological meaning
 

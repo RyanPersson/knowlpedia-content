@@ -33,7 +33,7 @@ The identity
 =
 \delta\alpha\smile\beta+(-1)^p\alpha\smile\delta\beta
 \]
-shows that the product descends to cohomology. Different standard cochain models induce the same product on cohomology; see [Hatcher, §3.2](https://pi.math.cornell.edu/~hatcher/AT/ATchapters.html).
+shows that the product descends to cohomology. Different standard cochain models induce the same product on cohomology.
 
 ## Algebraic properties
 

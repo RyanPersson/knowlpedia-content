@@ -33,7 +33,7 @@ For \(M=A\), one writes \(C_n(A)=A^{\otimes(n+1)}\) and \(HH_n(A)=HH_n(A,A)\). T
 
 ## Normalization and cyclic theory
 
-For a unital algebra, quotienting by chains having some \(a_i=1\) produces the normalized Hochschild complex, which has the same homology. The Hochschild boundary is also one of the two operators in Connes's cyclic bicomplex; the additional operator \(B\) supplies the cyclic direction. These constructions and sign checks appear in [Loday, §1.1](https://doi.org/10.1007/978-3-662-11389-9).
+For a unital algebra, quotienting by chains having some \(a_i=1\) produces the normalized Hochschild complex, which has the same homology. The Hochschild boundary is also one of the two operators in Connes's cyclic bicomplex; the additional operator \(B\) supplies the cyclic direction.
 
 ## Conventions and scope
 

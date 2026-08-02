@@ -26,7 +26,7 @@ Conversely, a filtration defines a pure real Hodge structure of weight \(n\) exa
 \[
 V_{\mathbb C}=F^pV_{\mathbb C}\oplus\overline{F^{\,n-p+1}V_{\mathbb C}}
 \]
-for every \(p\). Then \(V^{p,q}=F^p\cap\overline{F^q}\) [Voisin, §7.1.1](https://doi.org/10.1017/CBO9780511615344.008).
+for every \(p\). Then \(V^{p,q}=F^p\cap\overline{F^q}\).
 
 ## Geometric example
 

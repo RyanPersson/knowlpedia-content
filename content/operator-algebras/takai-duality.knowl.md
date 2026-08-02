@@ -32,8 +32,7 @@ s\longmapsto \alpha_s\otimes\operatorname{Ad}\rho_s,
 where \(\rho\) is a [[algebra-representation-theory/regular-representation|regular representation]] of \(G\) on \(L^2(G)\).
 Left-versus-right regular-representation and character conventions can
 change the displayed implementation by inversion or unitary conjugacy, but
-not the stabilized isomorphism class
-[Takai, pp. 25–39](https://doi.org/10.1016/0022-1236%2875%2990004-X).
+not the stabilized isomorphism class.
 
 ## How to interpret the theorem
 

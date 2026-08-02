@@ -42,8 +42,7 @@ Equivalently, after passing to the
 [[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]],
 \(\ker\rho\subseteq\ker\pi\). The direction of this inclusion is important:
 the containing representation detects at least as large a norm. These
-equivalences are part of Fell's theory of weak containment
-[Fell, 1962](https://doi.org/10.4153/CJM-1962-016-6).
+equivalences are part of Fell's theory of weak containment.
 
 ## Coefficients and direct sums
 

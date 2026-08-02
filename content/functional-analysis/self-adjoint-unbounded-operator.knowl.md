@@ -20,7 +20,7 @@ A densely defined [[functional-analysis/symmetric-operator|symmetric operator]] 
 \[
 \operatorname{Ran}(A+iI)=H=\operatorname{Ran}(A-iI).
 \]
-Equivalently, its deficiency subspaces \(\ker(A^*-iI)\) and \(\ker(A^*+iI)\) both vanish. These criteria are developed in [Schmüdgen, chapter 1](https://doi.org/10.1007/978-94-007-4753-1).
+Equivalently, its deficiency subspaces \(\ker(A^*-iI)\) and \(\ker(A^*+iI)\) both vanish.
 
 ## Spectral consequences
 

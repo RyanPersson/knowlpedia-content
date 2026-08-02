@@ -28,8 +28,7 @@ extended positive element by \(m_x(\omega)=\omega(x)\), but elements of
 Extended positive elements admit a spectral realization by positive
 self-adjoint [[operator-algebras/affiliated-operator|operators affiliated with \(M\)]], together with an allowed infinite part supported on a projection.
 This realizes \(\widehat M_+\) as a completion of \(M_+\) that is closed under
-increasing suprema
-[Haagerup, §1](https://doi.org/10.1016/0022-1236%2879%2990053-3).
+increasing suprema.
 The functional description is intrinsic and does not require choosing a
 particular representation of \(M\).
 

@@ -27,3 +27,25 @@ Here \(X^*(T)\) and \(X_*(T)\) exchange roles, as do roots and coroots. The sour
 ## Examples
 
 - \(\widehat{\operatorname{GL}_n}=\operatorname{GL}_n(\mathbb C)\), and \(\widehat{\operatorname{SL}_n}=\operatorname{PGL}_n(\mathbb C)\).
+- In type \(A_1\),
+  \[
+  \widehat{SL_2}=PGL_2(\mathbb C),
+  \qquad
+  \widehat{PGL_2}=SL_2(\mathbb C).
+  \]
+  Duality exchanges the simply connected and adjoint isogeny forms.
+
+## Rank-one scope warning
+
+Over \(\mathbb C\), \(PGL_2\) is also the automorphism group of the projective
+line. That geometric action does not define Langlands duality: the dual group
+is determined by exchanging the root and coroot data. The same \(PGL_2\)
+therefore appears in two mathematically distinct roles in
+[[langlands/ramified-geometric-langlands|ramified projective-line examples]].
+
+## References
+
+1. Robert P. Langlands, “Problems in the theory of automorphic forms,” in
+   *Lectures in Modern Analysis and Applications III*, Lecture Notes in
+   Mathematics 170, Springer, 1970, 18–61.
+   [DOI](https://doi.org/10.1007/BFb0079065).

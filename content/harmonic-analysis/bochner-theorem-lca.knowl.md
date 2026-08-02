@@ -23,7 +23,7 @@ If \(\nu\) is positive, then for \(x_1,\ldots,x_n\in G\) and \(c_1,\ldots,c_n\in
 =
 \int_{\widehat G}\left|\sum_i c_i\gamma(x_i)\right|^2\,d\nu(\gamma)\geq0.
 \]
-The converse is deeper: positive definiteness produces a cyclic unitary representation, and abelian spectral theory represents its cyclic coefficient by a measure. The equivalence and uniqueness are proved in [Folland, Chapter 4](https://doi.org/10.1201/B19172).
+The converse is deeper: positive definiteness produces a cyclic unitary representation, and abelian spectral theory represents its cyclic coefficient by a measure.
 
 ## Standard examples
 

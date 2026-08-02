@@ -45,8 +45,6 @@ Rescaling \(\mu\) rescales \(\widehat f\), so the [[harmonic-analysis/dual-haar-
 
 For \(G=\mathbb R^n\) and characters \(\gamma_\xi(x)=e^{2\pi i x\cdot\xi}\), the definition is the classical Euclidean Fourier transform with exponent \(-2\pi i x\cdot\xi\). For \(G=\mathbb Z\), the dual is the circle and the transform produces a Fourier series. If \(G\) is compact, \(\widehat G\) is discrete; if \(G\) is discrete, \(\widehat G\) is compact.
 
-The general LCA construction, inversion, and duality are treated in [Rudin, the opening chapters](https://doi.org/10.1002/9781118165621).
-
 ## References
 
 1. Walter Rudin, *Fourier Analysis on Groups*, Wiley-Interscience, 1962. [Wiley DOI record](https://doi.org/10.1002/9781118165621). Relevant: the opening chapters on LCA groups, Fourier transforms, inversion, and duality.

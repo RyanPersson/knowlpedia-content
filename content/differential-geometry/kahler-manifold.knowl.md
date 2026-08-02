@@ -20,11 +20,24 @@ Thus a Kähler manifold is a [[differential-geometry/complex-manifold|complex ma
 
 ## Equivalent characterizations
 
-For a Hermitian manifold, the Kähler condition is equivalent to \(\nabla J=0\), where \(\nabla\) is the Levi–Civita connection of \(g\). Equivalently, parallel transport preserves both \(g\) and \(J\), so the holonomy acts through \(U(n)\). The connection and holonomy formulation is treated in [Huybrechts, Appendix 4.A](https://doi.org/10.1007/b137952).
+For a Hermitian manifold, the Kähler condition is equivalent to \(\nabla J=0\), where \(\nabla\) is the Levi–Civita connection of \(g\). Equivalently, parallel transport preserves both \(g\) and \(J\), so the holonomy acts through \(U(n)\).
 
 ## Structure and consequences
 
 The closed, nondegenerate form \(\omega\) makes \(M\) a [[differential-geometry/symplectic-manifold|symplectic manifold]]. In complex dimension \(n\), the form \(\omega^n/n!\) is the Riemannian volume form for the compatible orientation. Kähler geometry therefore ties together complex, Riemannian, and symplectic structures without making those structures identical.
+
+## Morphisms
+
+There is no single convention for a “Kähler morphism,” so the preserved data
+must be named. A [[differential-geometry/holomorphic-map|holomorphic map]]
+preserves the complex structures but need not preserve the metrics or Kähler
+forms. A
+[[differential-geometry/holomorphic-isometric-immersion|holomorphic
+isometric immersion]], also called a Kähler immersion, additionally satisfies
+\(f^*g_N=g_M\), equivalently \(f^*\omega_N=\omega_M\). If such a map is a
+diffeomorphism, it is simultaneously a
+[[differential-geometry/biholomorphism|biholomorphism]], Riemannian isometry,
+and [[differential-geometry/symplectomorphism|symplectomorphism]].
 
 ## Examples and non-examples
 

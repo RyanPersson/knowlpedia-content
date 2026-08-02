@@ -40,8 +40,7 @@ fail to be norm closed and is then strictly smaller than \(C^*(S)\).
 When \(A\) is nonunital, \(C^*(S)\) is never made unital by adjoining an
 external identity unless this is explicitly stated. When \(A\) is unital,
 authors differ on whether “subalgebra” means “unital subalgebra”; the
-notations \(C^*(S)\) and \(C^*(S,1_A)\) separate these conventions
-[Murphy, §2.1](https://doi.org/10.1016/C2009-0-22289-6).
+notations \(C^*(S)\) and \(C^*(S,1_A)\) separate these conventions.
 
 ## References
 

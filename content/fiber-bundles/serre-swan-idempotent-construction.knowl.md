@@ -17,8 +17,7 @@ p^2=p.
 Here \(C^\infty(M,\mathbb F)\) is the [[differential-geometry/algebra-of-smooth-functions|algebra of smooth \(\mathbb F\)-valued functions]].
 The **[[fiber-bundles/vector-bundle|vector bundle]] defined by \(p\)** is
 \[
-E_p
-:=
+E_p:=
 \{(x,v)\in M\times\mathbb F^n:p(x)v=v\}
 =
 \coprod_{x\in M}\operatorname{im}p(x).
@@ -31,7 +30,7 @@ A [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of \(E_p\) is preci
 \[
 \Gamma(E_p)\cong p\,C^\infty(M,\mathbb F)^n.
 \]
-This module is a direct summand of the [[algebra-modules/free-module|free module]] \(C^\infty(M,\mathbb F)^n\), so it is a finitely generated [[algebra-modules/projective-module|projective module]]. Conversely, every finitely generated projective module is the image of an idempotent endomorphism of a finite free module. This is the concrete reconstruction step in the Serre–Swan correspondence; compare [Swan, §§1–3](https://doi.org/10.1090/S0002-9947-1962-0143225-6).
+This module is a direct summand of the [[algebra-modules/free-module|free module]] \(C^\infty(M,\mathbb F)^n\), so it is a finitely generated [[algebra-modules/projective-module|projective module]]. Conversely, every finitely generated projective module is the image of an idempotent endomorphism of a finite free module. This is the concrete reconstruction step in the Serre–Swan correspondence.
 
 ## Geometry of the construction
 
@@ -45,7 +44,13 @@ is a smooth self-adjoint idempotent whose image is \(T_xS^m\). Thus the [[fiber-
 
 ## Scope and near-misses
 
-The construction itself works on any smooth manifold. The familiar equivalence between smooth vector bundles and finitely generated projective \(C^\infty(M)\)-modules is most often stated for compact \(M\); noncompact variants require care about finite generation and the chosen function algebra.
+The construction itself works on any smooth manifold. For a connected
+finite-dimensional Hausdorff second-countable manifold, every finite-rank
+smooth bundle is obtained from such a finite idempotent, with no compactness
+assumption. For a disconnected base, finitely generated projective modules
+correspond to bundles whose ranks across components are globally bounded.
+Changing from \(C^\infty(M,\mathbb F)\) to an algebra of functions with a
+condition at infinity changes the relevant module category.
 
 A smooth matrix with varying rank does not define a vector bundle by taking images. For example, \(q(x)=[x]\) on \(\mathbb R\) has jumping image dimension at \(0\), and it fails the decisive axiom \(q^2=q\). The term “projector” here means idempotent, not necessarily orthogonal.
 

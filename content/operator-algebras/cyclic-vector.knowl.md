@@ -54,8 +54,7 @@ for \(M\) exactly when it is
 [[operator-algebras/separating-vector|separating]] for the commutant \(M'\).
 Indeed, an operator in \(M'\) that kills \(\xi\) kills the [[topology/dense-set|dense set]]
 \(M\xi\); the converse uses the projection onto \(\overline{M\xi}\), which
-belongs to \(M'\)
-[Kadison–Ringrose, §5.5](https://doi.org/10.1090/gsm/015).
+belongs to \(M'\).
 
 ## References
 

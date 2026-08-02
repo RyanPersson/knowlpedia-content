@@ -12,7 +12,7 @@ Let
 \(\mathcal H=\int_X^\oplus H_x\,d\mu(x)\) and
 \(\mathcal K=\int_X^\oplus K_x\,d\mu(x)\) be
 [[functional-analysis/direct-integral-hilbert-spaces|direct integrals of
-[[linear-algebra/hilbert-space|Hilbert spaces]]]]. A bounded operator \(T:\mathcal H\to\mathcal K\) is
+Hilbert spaces]]. A bounded operator \(T:\mathcal H\to\mathcal K\) is
 **decomposable** if there is a measurable field of bounded operators
 \(x\mapsto T_x:H_x\to K_x\), with
 \(\operatorname*{ess\,sup}_x\lVert T_x\rVert<\infty\), such that
@@ -45,8 +45,7 @@ For \(f\in L^\infty(X,\mu)\), let \(M_f\) act diagonally by
 \(\sigma\)-finiteness hypotheses used in direct-integral theory, the
 decomposable operators are precisely the bounded operators commuting with
 every \(M_f\). Thus decomposability is an intrinsic commutant condition, not
-a claim that the fibers \(T_x\) are diagonalizable
-[Takesaki, Chapter IV, §8](https://doi.org/10.1007/978-1-4612-6188-9).
+a claim that the fibers \(T_x\) are diagonalizable.
 
 ## Examples and scope
 

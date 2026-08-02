@@ -49,9 +49,7 @@ The proof first compares the closures of
 together with the polar decomposition, gives the inclusions
 \(JMJ\subseteq M'\) and
 \(\Delta^{it}M\Delta^{-it}\subseteq M\). Applying the same argument to the
-commutant and to \(-t\) upgrades both inclusions to equalities. The full
-argument is given in
-[Takesaki, Chapter VI, §1](https://doi.org/10.1007/978-1-4612-6188-9).
+commutant and to \(-t\) upgrades both inclusions to equalities.
 
 ## Consequences
 
@@ -62,7 +60,7 @@ anti-isomorphism between \(M\) and its commutant in standard position. The
 weight form of the theorem yields the
 [[operator-algebras/modular-automorphism-group|modular automorphism group]] of
 every [[operator-algebras/normal-semifinite-faithful-weight|normal semifinite
-[[operator-algebras/faithful-weight|faithful weight]]]], a central tool in the structure theory of type III
+faithful weight]], a central tool in the structure theory of type III
 algebras.
 
 ## Conventions and scope

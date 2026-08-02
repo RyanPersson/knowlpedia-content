@@ -20,7 +20,7 @@ Equivalently, \(F_A\) lies in the \(+1\) or \(-1\) eigenbundle of the Hodge star
 
 ## Why these connections are Yang–Mills
 
-The [[fiber-bundles/bianchi-identity|Bianchi identity]] gives \(d_AF_A=0\). If \(*F_A=\pm F_A\), it follows that \(d_A(*F_A)=0\), which is the [[fiber-bundles/yangmills-equation|Yang–Mills equation]] in the convention \(d_A(*F_A)=0\). Thus every self-dual or anti-self-dual connection is a [[fiber-bundles/yangmills-connection|Yang–Mills connection]]. The converse is false: the Yang–Mills equation is second order in the connection, whereas the self-duality equations impose the stronger first-order curvature condition [Donaldson–Kronheimer, §2.1](https://doi.org/10.1093/oso/9780198535539.001.0001).
+The [[fiber-bundles/bianchi-identity|Bianchi identity]] gives \(d_AF_A=0\). If \(*F_A=\pm F_A\), it follows that \(d_A(*F_A)=0\), which is the [[fiber-bundles/yangmills-equation|Yang–Mills equation]] in the convention \(d_A(*F_A)=0\). Thus every self-dual or anti-self-dual connection is a [[fiber-bundles/yangmills-connection|Yang–Mills connection]]. The converse is false: the Yang–Mills equation is second order in the connection, whereas the self-duality equations impose the stronger first-order curvature condition.
 
 ## Curvature splitting and examples
 

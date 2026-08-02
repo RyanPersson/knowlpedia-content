@@ -19,7 +19,7 @@ G\cong\mathbb R^n\times\mathbb T^m
 from the [[lie-groups/connected-abelian-lie-group-structure|structure theorem for connected abelian Lie groups]], its
 [[harmonic-analysis/unitary-dual|unitary dual]] is
 \[
-\widehat G\cong\mathbb R^n\times\mathbb Z^m .
+\widehat G\cong\mathbb R^n\times\mathbb Z^m.
 \]
 The point \((\xi,k)\) corresponds to
 \(\chi_{\xi,k}(x,z)=e^{i\langle\xi,x\rangle}z_1^{k_1}\cdots z_m^{k_m}\).
@@ -33,8 +33,7 @@ All operators in a unitary representation of an [[algebra-groups/abelian-group|a
 group element acts by a scalar of modulus one. Strong continuity makes the
 resulting scalar map \(G\to\mathbb T\) continuous. Thus the unitary dual agrees
 with the [[harmonic-analysis/pontryagin-dual|Pontryagin dual]], not merely as
-a set but with its natural topology
-[Folland, Chapter 4](https://doi.org/10.1201/B19172).
+a set but with its natural topology.
 
 ## Basic factors
 

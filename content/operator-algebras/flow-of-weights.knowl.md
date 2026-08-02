@@ -38,8 +38,7 @@ one-point flow. For type
 translation normalization its least positive period is
 \(\lvert\log\lambda\rvert\). Type \(\mathrm{III}_0\) gives a properly
 ergodic, nonperiodic flow. These correspondences connect the flow with the
-[[operator-algebras/connes-type-iii-classification|Connes type III classification]]
-[Connes–Takesaki, §§4–5](https://doi.org/10.2748/tmj/1178240493).
+[[operator-algebras/connes-type-iii-classification|Connes type III classification]].
 
 ## Why the center of the core appears
 
@@ -54,8 +53,7 @@ weight into a flow intrinsic to \(M\).
 The flow is much finer than the single parameter
 \(\lambda\) in the type label. In the separable approximately
 finite-dimensional type \(\mathrm{III}_0\) case, its conjugacy class is a
-complete isomorphism invariant
-[Takesaki, Chapter XII, §5](https://doi.org/10.1007/978-3-662-10451-4).
+complete isomorphism invariant.
 It is not a complete invariant for arbitrary
 [[operator-algebras/type-iii-factor|type III factors]].
 

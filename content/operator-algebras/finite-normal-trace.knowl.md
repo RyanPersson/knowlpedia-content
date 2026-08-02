@@ -33,9 +33,8 @@ Equivalently, a finite normal trace is a normal
 Its norm is \(\|\tau\|=\tau(1)\). Dividing a nonzero finite normal trace by
 \(\tau(1)\) produces a normal
 [[operator-algebras/tracial-state|tracial state]], but it does not repair a
-failure of faithfulness. The equivalence between the positive-cone weight and bounded
-functional formulations is standard in
-[Kadison–Ringrose, §7.2](https://bookstore.ams.org/GSM-16).
+failure of faithfulness. Thus the positive-cone weight and bounded-functional
+formulations are equivalent.
 
 ## Examples and consequences
 
@@ -50,8 +49,7 @@ operator trace is normal, semifinite, and faithful but not finite because
 A [[operator-algebras/von-neumann-algebra|von Neumann algebra]] admitting a faithful finite normal trace is finite, but
 the zero functional is a finite normal trace on every von Neumann algebra.
 Faithfulness is therefore essential in any trace-based characterization of
-finite algebras
-[Takesaki, Chapter V](https://doi.org/10.1007/978-1-4612-6188-9).
+finite algebras.
 
 ## References
 

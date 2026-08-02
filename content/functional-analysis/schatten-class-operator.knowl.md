@@ -36,7 +36,7 @@ For \(0<p<q<\infty\), one has
 also has an operator-ideal form: if \(1/r=1/p+1/q\), then products of
 \(\mathcal S^p\)- and \(\mathcal S^q\)-operators lie in
 \(\mathcal S^r\), with the usual qualification \(r\geq1\) when a Banach norm
-is desired [Simon, Chapters 1–2](https://doi.org/10.1090/surv/120).
+is desired.
 
 ## Distinguished cases
 

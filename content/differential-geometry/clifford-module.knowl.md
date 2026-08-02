@@ -4,7 +4,7 @@ title = "Clifford module"
 kind = "definition"
 summary = "A module carrying a compatible representation of a Clifford algebra."
 aliases = ["Clifford representation", "Clifford multiplication"]
-domains = ["differential-geometry", "algebra-modules"]
+domains = ["differential-geometry", "algebra-modules", "supergeometry"]
 section_mode = "progressive"
 +++
 
@@ -28,7 +28,26 @@ If \(E=E^0\oplus E^1\) is \(\mathbb Z/2\)-graded, it is a **graded Clifford modu
 \[
 c(v):E^j\longrightarrow E^{j+1\!\!\pmod 2}.
 \]
-Equivalently, the algebra representation preserves total degree: the even part of the Clifford algebra acts evenly and the odd part acts oddly. Ungraded Clifford modules are also standard, especially in odd dimension.
+Equivalently, the algebra representation preserves total degree: the even part
+of the Clifford algebra acts evenly and the odd part acts oddly. In categorical
+language, a graded Clifford module is precisely a
+[[supergeometry/supermodule|supermodule]] over the naturally graded
+[[supergeometry/superalgebra|superalgebra]]
+\(\operatorname{Cl}(V,q)\). Its ordinary morphisms are even intertwining maps;
+odd intertwiners belong to the internal Hom.
+
+Ungraded Clifford modules are also standard, especially in odd dimension. They
+are modules over the underlying ungraded algebra and should not be confused
+with graded modules whose grading has merely gone unmentioned.
+
+## Spinor modules and representations
+
+A [[differential-geometry/spinor-module|spinor module]] is a selected Clifford
+module, usually irreducible in a stated real, complex, graded, or ungraded
+module category, whose restriction to the spin group gives a spin
+representation. Consequently, “Clifford representation” is another name for
+a Clifford module, while “spin representation” refers to the restricted group
+action and includes additional choices.
 
 ## Clifford module bundles
 

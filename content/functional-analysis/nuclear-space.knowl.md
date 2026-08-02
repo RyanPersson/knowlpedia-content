@@ -28,8 +28,7 @@ The transition map condition forces finite-dimensional-like summability
 between successively stronger seminorms. It implies that the projective and
 injective locally convex tensor-product constructions with \(E\) agree after
 the appropriate Hausdorff completion. This removes a major ambiguity in
-[[functional-analysis/schwartz-kernel-theorem|kernel theorems]] and makes continuous multilinear maps unusually tractable
-[Trèves, Chapters 50–51](https://shop.elsevier.com/books/topological-vector-spaces-distributions-and-kernels/treves/978-1-4831-9859-0).
+[[functional-analysis/schwartz-kernel-theorem|kernel theorems]] and makes continuous multilinear maps unusually tractable.
 
 ## Examples and nonexamples
 
@@ -51,7 +50,7 @@ nor does it define a class of distributions. Those are properties of
 particular function spaces and their continuous duals. Changing the topology
 on a fixed vector space can change whether it is nuclear, because continuity
 of the seminorms and nuclearity of the completion maps both depend on that
-topology [Schaefer–Wolff, Chapter IV](https://doi.org/10.1007/978-1-4612-1468-7).
+topology.
 
 ## References
 

@@ -18,8 +18,6 @@ where \(f^*\omega_N\) is the [[fiber-bundles/pullback-of-differential-forms|pull
 
 The identity map is symplectic, and a composite of symplectic maps is symplectic by functoriality of pullback. If \(M\) and \(N\) have the same dimension, a symplectic map is a [[algebraic-geometry-foundations/local-diffeomorphism|local diffeomorphism]]. A [[fiber-bundles/diffeomorphism|diffeomorphism]] satisfying the pullback equation is a [[differential-geometry/symplectomorphism|symplectomorphism]]; its inverse also preserves the symplectic forms.
 
-These facts follow directly from the definition and the linear nondegeneracy argument in [Cannas da Silva, §1.1](https://doi.org/10.1007/978-3-540-45330-7).
-
 ## Examples and non-examples
 
 The inclusion of a [[differential-geometry/symplectic-submanifold|symplectic submanifold]] with its restricted form is a symplectic map. A constant map from a positive-dimensional symplectic manifold is not symplectic, because its pullback of every positive-degree form vanishes. A diffeomorphism need not be symplectic: it must satisfy the displayed pullback identity, not merely preserve orientation or volume.

@@ -25,7 +25,7 @@ The **1-jet bundle** \(J^1E\) is the set of all 1-jets \(j_x^1 s\) of local sect
 \]
 a smooth fiber bundle over \(E\), and the composite \(\pi\circ \pi_{1,0}\colon J^1E\to M\) a smooth fiber bundle over \(M\).
 
-The fiber of \(J^1E\to M\) at \(x\) encodes “value + first derivative” data at \(x\). More precisely, \(J^1E\to E\) is an affine bundle modeled on \(\mathrm{Hom}(T_xM, V_eE)\), where \(T_xM\) is the [[fiber-bundles/tangent-bundle|tangent space]] and \(V_eE\) is the vertical tangent space at \(e\in E_x\).
+The fiber of \(J^1E\to M\) at \(x\) encodes “value + first derivative” data at \(x\). More precisely, \(J^1E\to E\) is an affine bundle modeled on \(\mathrm{Hom}(T_xM, V_eE)\), where \(T_xM\) is the [[differential-geometry/tangent-space|tangent space]] and \(V_eE\) is the vertical tangent space at \(e\in E_x\).
 
 A fundamental application is that for a principal bundle \(P\to M\), the quotient \(J^1P/G\) is the [[fiber-bundles/bundle-of-connections|bundle of connections]].
 

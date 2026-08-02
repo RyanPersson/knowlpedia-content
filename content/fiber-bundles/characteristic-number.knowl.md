@@ -24,7 +24,7 @@ when \(E\) is oriented of rank \(n\).
 
 ## Geometric significance
 
-Characteristic numbers are unchanged by [[fiber-bundles/bundle-isomorphism|bundle isomorphisms]] over the identity. For tangent bundles they are invariants under orientation-preserving diffeomorphisms. Stiefel–Whitney numbers determine unoriented cobordism classes, while Pontryagin and Stiefel–Whitney numbers together determine [[differential-geometry/oriented-cobordism|oriented cobordism]] classes [Milnor–Stasheff, chapters 16–17](https://doi.org/10.1515/9781400881826).
+Characteristic numbers are unchanged by [[fiber-bundles/bundle-isomorphism|bundle isomorphisms]] over the identity. For tangent bundles they are invariants under orientation-preserving diffeomorphisms. Stiefel–Whitney numbers determine unoriented cobordism classes, while Pontryagin and Stiefel–Whitney numbers together determine [[differential-geometry/oriented-cobordism|oriented cobordism]] classes.
 
 ## Conventions and scope
 

@@ -42,9 +42,7 @@ algebra may have nonzero central summands of several types.
 The type I, II, and III decomposition is a decomposition by unique central
 projections whose sum is \(1\). Thus phrases such as “\(M\) has a type I
 part” refer to a central summand, whereas “\(M\) is type I” means that the
-other two central parts vanish. The abelian-projection formulation and the
-factor description are treated in
-[Takesaki, Chapter V](https://doi.org/10.1007/978-1-4612-6188-9).
+other two central parts vanish.
 
 ## References
 

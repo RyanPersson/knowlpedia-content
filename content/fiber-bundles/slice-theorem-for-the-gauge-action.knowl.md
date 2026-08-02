@@ -20,7 +20,7 @@ meets every sufficiently nearby gauge orbit. Moreover, a neighborhood of the orb
 
 ## Why the Coulomb condition is transverse
 
-The tangent to the gauge orbit at \(A\) is \(\operatorname{im}d_A\), while \(d_A^*a=0\) selects its \(L^2\)-orthogonal complement. Solving for a gauge transformation that places \(A+a\) in the slice reduces, after linearization, to the elliptic operator \(d_A^*d_A\). The implicit-function theorem then supplies existence and local uniqueness up to the [[fiber-bundles/stabilizer-of-a-connection|stabilizer of \(A\)]] [Freed–Uhlenbeck, Theorem 3.4](https://doi.org/10.1007/978-1-4613-9703-8).
+The tangent to the gauge orbit at \(A\) is \(\operatorname{im}d_A\), while \(d_A^*a=0\) selects its \(L^2\)-orthogonal complement. Solving for a gauge transformation that places \(A+a\) in the slice reduces, after linearization, to the elliptic operator \(d_A^*d_A\). The implicit-function theorem then supplies existence and local uniqueness up to the [[fiber-bundles/stabilizer-of-a-connection|stabilizer of \(A\)]].
 
 The offset in Sobolev regularity is essential: a \(W^{k+1,p}\) gauge transformation acts on a \(W^{k,p}\) connection without losing a derivative. The hypothesis \(kp>n\) provides the multiplication and continuity properties required by the nonlinear action.
 

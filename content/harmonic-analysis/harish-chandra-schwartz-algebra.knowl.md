@@ -37,8 +37,7 @@ and estimated without leaving the space. This is the standard
 \(\mathcal C^2(G)\) scale; it should not be confused with the
 \(L^1\)-Schwartz space \(\mathcal C^1(G)\), whose estimates use a different
 power of \(\Xi\). Closure under convolution is a substantive theorem of
-Harish-Chandra's Schwartz-space theory
-[Harish-Chandra, Schwartz-space construction](https://doi.org/10.1016/0022-1236%2875%2990034-8).
+Harish-Chandra's Schwartz-space theory.
 
 ## Representation-theoretic role
 
@@ -55,8 +54,7 @@ After choosing a
 commutative. The
 [[harmonic-analysis/spherical-transform|spherical transform]] identifies it
 with a Weyl-invariant Schwartz-type function algebra on the spectral
-parameter space; this is the content of the Trombi–Varadarajan theorem
-[Trombi–Varadarajan, main theorem](https://doi.org/10.2307/1970861).
+parameter space; this is the content of the Trombi–Varadarajan theorem.
 
 ## References
 

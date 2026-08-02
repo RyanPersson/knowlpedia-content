@@ -26,8 +26,7 @@ resolvent expansion
 =\sum_{n=0}^{\infty}\lambda^{-n-1}a^n
 \]
 converges whenever \(|\lambda|\) exceeds the limiting power-growth rate.
-Hence no spectral point can lie outside the corresponding disk. This
-standard argument is given in [Murphy, Theorem 1.2.3](https://doi.org/10.1016/C2009-0-22289-6).
+Hence no spectral point can lie outside the corresponding disk.
 
 ## Consequences and examples
 

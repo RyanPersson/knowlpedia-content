@@ -16,7 +16,7 @@ for all \(a,b\in A\). The inequality makes multiplication jointly continuous. Th
 
 ## Unitization and spectral notions
 
-Every nonunital complex Banach algebra has a unitization \(A^+=A\oplus\mathbb C1\) containing \(A\) as a closed ideal. For \(a\) in a unital complex Banach algebra, the spectrum is the set of \(\lambda\in\mathbb C\) for which \(\lambda1-a\) is not invertible. Completeness is essential to the standard theorem that this spectrum is nonempty and compact [Bonsall–Duncan, “Concepts and Elementary Results”](https://doi.org/10.1007/978-3-642-65669-9).
+Every nonunital complex Banach algebra has a unitization \(A^+=A\oplus\mathbb C1\) containing \(A\) as a closed ideal. For \(a\) in a unital complex Banach algebra, the spectrum is the set of \(\lambda\in\mathbb C\) for which \(\lambda1-a\) is not invertible. Completeness is essential to the standard theorem that this spectrum is nonempty and compact.
 
 ## Standard examples
 

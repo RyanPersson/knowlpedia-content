@@ -12,7 +12,7 @@ Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(A,B\s
 
 ## Construction
 
-Choose a locally finite [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|smooth partition of unity]] adapted to the two-set cover \(M\setminus A\) and \(M\setminus B\). The sum of the partition functions assigned to \(M\setminus A\) has value \(0\) on \(A\) and \(1\) on \(B\). Local finiteness makes the sum smooth. For the cutoff formulation, first choose a [[topology/neighborhood|neighborhood]] \(V\) of \(A\) whose closure lies in \(U\), then separate \(A\) from \(M\setminus V\). This partition-of-unity proof appears in [Lee, chapter on smooth functions and partitions of unity](https://doi.org/10.1007/978-1-4419-9982-5).
+Choose a locally finite [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|smooth partition of unity]] adapted to the two-set cover \(M\setminus A\) and \(M\setminus B\). The sum of the partition functions assigned to \(M\setminus A\) has value \(0\) on \(A\) and \(1\) on \(B\). Local finiteness makes the sum smooth. For the cutoff formulation, first choose a [[topology/neighborhood|neighborhood]] \(V\) of \(A\) whose closure lies in \(U\), then separate \(A\) from \(M\setminus V\).
 
 ## Relationship to bump functions
 

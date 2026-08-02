@@ -12,7 +12,7 @@ Let \(X\) be a locally compact [[topology/hausdorff-space|Hausdorff space]]. A *
 
 ## Field and bundle presentations
 
-The section axioms determine a topology on the disjoint union \(\bigsqcup_x A_x\). Fiberwise algebraic operations become continuous, and the norm is continuous on the total space. Conversely, the continuous sections of a continuous \(C^*\)-bundle recover a field satisfying the local approximation axiom. This equivalence is the reason the two terminologies are often interchanged [Nilsen, bundle realization](https://doi.org/10.1512/iumj.1996.45.1086).
+The section axioms determine a topology on the disjoint union \(\bigsqcup_x A_x\). Fiberwise algebraic operations become continuous, and the norm is continuous on the total space. Conversely, the continuous sections of a continuous \(C^*\)-bundle recover a field satisfying the local approximation axiom. This equivalence is the reason the two terminologies are often interchanged.
 
 The sections in \(\Gamma\) whose norm functions vanish at infinity form the [[operator-algebras/section-algebra-cstar-bundle|section algebra]] \(\Gamma_0(X,\mathcal A)\), which remembers the field as a \(C_0(X)\)-algebra. The continuity requirement is stronger than the upper-semicontinuity available for a general \(C_0(X)\)-algebra.
 

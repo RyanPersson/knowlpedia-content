@@ -37,8 +37,7 @@ resolvents to give [[functional-analysis/compact-resolvent|compact resolvent]]
 for \(D\) under the standard compact spectral-triple hypotheses. These signs
 are precisely the
 [[operator-algebras/graded-operator|graded-operator]] signs; omitting
-\(\Gamma_1\) generally destroys the simple square formula
-[Connes, Part VI.3](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+\(\Gamma_1\) generally destroys the simple square formula.
 
 ## Geometric example
 

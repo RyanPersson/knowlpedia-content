@@ -33,8 +33,7 @@ e_n=f_n(h),\qquad f_n(t)=\min\{nt,1\}.
 \]
 Conversely, a rapidly weighted sum of the terms of a countable approximate
 identity produces a strictly positive element. These equivalences are
-standard consequences of approximate-unit theory
-[Pedersen, §1.4](https://doi.org/10.1016/C2016-0-03431-9).
+standard consequences of approximate-unit theory.
 
 ## Examples and permanence
 
@@ -61,8 +60,7 @@ Countable approximate identities allow arguments with sequences instead of
 general nets. They are a standing hypothesis in much of multiplier-algebra,
 Hilbert-module, and \(C^*\)-classification theory. The condition is weaker
 than separability and stronger than merely possessing an approximate
-identity, since every \(C^*\)-algebra has the latter
-[Lance, Chapter 2](https://doi.org/10.1017/CBO9780511526206).
+identity, since every \(C^*\)-algebra has the latter.
 
 ## References
 

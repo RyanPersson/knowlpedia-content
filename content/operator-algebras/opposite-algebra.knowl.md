@@ -46,9 +46,8 @@ under the usual antiunitary convention. The order-zero condition requires
 additionally requires
 \(\bigl[\, [D,\pi(a)],\pi^{\mathrm{op}}(b^{\mathrm{op}})\,\bigr]=0\), where the inner
 commutator uses its
-[[functional-analysis/bounded-commutator|bounded extension]]. These
-conventions follow
-[Connes, §2](https://doi.org/10.1063/1.531241).
+[[functional-analysis/bounded-commutator|bounded extension]]. These are the
+standard bimodule conventions for a real spectral triple.
 
 ## Examples and cautions
 

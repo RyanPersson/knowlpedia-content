@@ -18,8 +18,6 @@ where \(V\) is a \(g\)-dimensional complex [[linear-algebra/vector-space|vector 
 
 As a real [[fiber-bundles/smooth-manifold|smooth manifold]], every \(g\)-dimensional complex torus is diffeomorphic to \((S^1)^{2g}\). A translation-invariant Hermitian [[linear-algebra/inner-product|inner product]] on \(V\) descends to a flat [[differential-geometry/kahler-metric|Kähler metric]] on \(X\). Translation-invariant holomorphic one-forms also descend and trivialize the [[differential-geometry/holomorphic-cotangent-bundle|holomorphic cotangent bundle]].
 
-These properties follow directly from the quotient presentation and are summarized in [Birkenhake–Lange, Chapter 1](https://doi.org/10.1007/978-1-4612-1566-0).
-
 ## Examples and algebraicity
 
 For \(g=1\), a complex torus is an elliptic curve with the identity as base point; analytically it has the form \(\mathbb C/(\mathbb Z+\tau\mathbb Z)\) with \(\operatorname{Im}\tau>0\). In higher dimensions, not every complex torus is projective. A projective complex torus is an abelian variety, and projectivity is equivalent to the existence of a suitable positive integral \((1,1)\)-class, or Riemann form. Thus “complex torus” and “abelian variety” are not synonyms.

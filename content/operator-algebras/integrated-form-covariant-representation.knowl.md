@@ -17,7 +17,7 @@ The integral is understood weakly, equivalently as a strong operator integral on
 
 ## Representation correspondence
 
-The integrated form therefore extends uniquely to a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] of the [[operator-algebras/full-crossed-product|full crossed product]] \(A\rtimes_\alpha G\). Conversely, every nondegenerate representation of \(A\rtimes_\alpha G\) determines a unique covariant pair, and reintegration recovers the original representation. This gives a bijection, compatible with unitary equivalence, between covariant representations of \((A,G,\alpha)\) and nondegenerate representations of the full crossed product [Williams, Proposition 2.40](https://doi.org/10.1090/surv/134).
+The integrated form therefore extends uniquely to a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] of the [[operator-algebras/full-crossed-product|full crossed product]] \(A\rtimes_\alpha G\). Conversely, every nondegenerate representation of \(A\rtimes_\alpha G\) determines a unique covariant pair, and reintegration recovers the original representation. This gives a bijection, compatible with unitary equivalence, between covariant representations of \((A,G,\alpha)\) and nondegenerate representations of the full crossed product.
 
 ## How the formula encodes covariance
 

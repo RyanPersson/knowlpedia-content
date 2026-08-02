@@ -16,13 +16,13 @@ where \(0_E\) is regarded as a map of pairs \((B,\varnothing)\to(E,E^\times)\). 
 
 ## Zeros of sections
 
-If a [[fiber-bundles/section-of-a-vector-bundle|smooth section]] \(s:B\to E\) is transverse to the zero section, its zero set is a codimension-\(r\) submanifold whose cohomological dual is \(e(E)\), with the induced orientation. This geometric interpretation follows from the Thom construction; see [Milnor and Stasheff, Chapter 9](https://doi.org/10.1515/9781400881826).
+If a [[fiber-bundles/section-of-a-vector-bundle|smooth section]] \(s:B\to E\) is transverse to the zero section, its zero set is a codimension-\(r\) submanifold whose cohomological dual is \(e(E)\), with the induced orientation. This geometric interpretation follows from the Thom construction.
 
 In particular, a [[fiber-bundles/nowhere-vanishing-section|nowhere-zero section]] has empty zero locus and forces \(e(E)=0\). The converse is false in general: vanishing of the primary [[fiber-bundles/euler-class-obstruction-to-nonzero-section|Euler obstruction]] need not produce a nowhere-zero section without additional dimension or obstruction-theoretic hypotheses.
 
 ## Relation to other definitions
 
-For an oriented even-rank smooth bundle with a metric connection, the image of this integral class in real cohomology agrees with the [[fiber-bundles/euler-class|Chern–Weil Euler class]] represented by the normalized Pfaffian of the curvature. Thus the zero-section construction supplies the integral topological class, while Chern–Weil theory supplies a differential-form representative of its real image; see [Bott and Tu, Chapter 6](https://doi.org/10.1007/978-1-4757-3951-0).
+For an oriented even-rank smooth bundle with a metric connection, the image of this integral class in real cohomology agrees with the [[fiber-bundles/euler-class|Chern–Weil Euler class]] represented by the normalized Pfaffian of the curvature. Thus the zero-section construction supplies the integral topological class, while Chern–Weil theory supplies a differential-form representative of its real image.
 
 For a closed oriented manifold \(B\), the [[fiber-bundles/tangent-bundle|tangent-bundle]] Euler class satisfies
 \[

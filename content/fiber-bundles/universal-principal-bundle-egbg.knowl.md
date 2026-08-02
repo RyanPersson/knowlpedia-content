@@ -16,7 +16,7 @@ and \(\pi\) is the quotient map. More explicitly:
 
 1. The right \(G\)-action on \(EG\) is free and \(\pi\) exhibits \(EG\) as a [[fiber-bundles/principal-g-bundle|principal G-bundle]] over \(BG\).
 2. The total space \(EG\) is contractible.
-3. (Universal property for paracompact bases) For every paracompact space \(X\) (in particular, any [[fiber-bundles/smooth-manifold|smooth manifold]]), every principal \(G\)-bundle \(P\to X\) is isomorphic to a pullback \(f^{*}(EG)\to X\) for some map \(f\colon X\to BG\). Such an \(f\) is a [[fiber-bundles/classifying-map-of-a-principal-bundle|classifying map]], and its homotopy class in [[fiber-bundles/homotopy-class-mbg|[X,BG]]] is determined uniquely by \(P\).
+3. (Universal property for paracompact bases) For every paracompact space \(X\) (in particular, any [[fiber-bundles/smooth-manifold|smooth manifold]]), every principal \(G\)-bundle \(P\to X\) is isomorphic to a pullback \(f^{*}(EG)\to X\) for some map \(f\colon X\to BG\). Such an \(f\) is a [[fiber-bundles/classifying-map-of-a-principal-bundle|classifying map]], and its homotopy class in [[fiber-bundles/homotopy-class-mbg|\([X,BG]\)]] is determined uniquely by \(P\).
 
 The pair \((EG, BG)\) is unique up to \(G\)-equivariant homotopy equivalence (and \(BG\) up to homotopy equivalence).
 

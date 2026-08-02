@@ -29,8 +29,7 @@ The Pfaffian is an invariant polynomial on the even-dimensional [[lie-groups/ort
 Chern’s intrinsic proof transgresses the Euler form to the unit tangent
 [[fiber-bundles/sphere-bundle|sphere bundle]] and applies Stokes’s theorem
 around the isolated zeros of a [[fiber-bundles/vector-field|vector field]];
-their local indices sum to the Euler characteristic
-[Chern, §§1–3](https://doi.org/10.2307/1969302).
+their local indices sum to the Euler characteristic.
 
 ## Surface case
 

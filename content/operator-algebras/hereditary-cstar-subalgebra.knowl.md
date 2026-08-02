@@ -32,8 +32,7 @@ For a \(C^*\)-subalgebra \(B\subseteq A\), the following are equivalent:
 
 These formulations connect order in the positive cone with algebraic
 compression. They also show that \(\overline{bAb}\) is a hereditary
-\(C^*\)-subalgebra whenever \(b\in A_+\)
-[Pedersen, §1.5](https://doi.org/10.1016/C2016-0-03431-9).
+\(C^*\)-subalgebra whenever \(b\in A_+\).
 
 ## Corners and generated hereditary subalgebras
 
@@ -51,8 +50,7 @@ closure of \(h^{1/2}Ah^{1/2}\).
 Hereditary subalgebras correspond, in the bidual
 [[operator-algebras/von-neumann-algebra|von Neumann algebra]] \(A^{**}\), to
 open projections. This correspondence is a principal reason they are useful
-for support, Morita equivalence, and the internal geometry of ideals
-[Blackadar, §II.3](https://doi.org/10.1007/3-540-28517-2).
+for support, Morita equivalence, and the internal geometry of ideals.
 
 ## Examples and distinctions
 

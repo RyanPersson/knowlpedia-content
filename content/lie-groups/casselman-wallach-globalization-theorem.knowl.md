@@ -16,7 +16,7 @@ from [[lie-groups/casselman-wallach-representation|Casselman–Wallach represent
 
 ## What uniqueness means
 
-A Harish–Chandra module can be completed in many inequivalent Banach or Hilbert norms. The theorem does not identify all such completions. It says that after passing to the smooth Fréchet, moderate-growth category, the globalization is canonical up to the categorical uniqueness stated in the core. In Casselman’s formulation, a finitely generated Harish–Chandra module has exactly one smooth representation of moderate growth with the prescribed underlying \((\mathfrak g,K)\)-module, up to canonical topological isomorphism [Casselman, introduction](https://doi.org/10.4153/CJM-1989-019-5).
+A Harish–Chandra module can be completed in many inequivalent Banach or Hilbert norms. The theorem does not identify all such completions. It says that after passing to the smooth Fréchet, moderate-growth category, the globalization is canonical up to the categorical uniqueness stated in the core. In Casselman’s formulation, a finitely generated Harish–Chandra module has exactly one smooth representation of moderate growth with the prescribed underlying \((\mathfrak g,K)\)-module, up to canonical topological isomorphism.
 
 ## Consequences
 
@@ -24,7 +24,7 @@ Submodules, quotients, extensions, and morphisms may be studied algebraically an
 \[
 V^\infty=\pi(\mathcal S(G))V,
 \]
-the span obtained by acting on \(V\) with the Harish–Chandra Schwartz algebra. Their proof also shows that minimal and maximal smooth Fréchet globalizations coincide [Bernstein–Krötz, Introduction and §8.3](https://doi.org/10.1007/s11856-013-0056-1).
+the span obtained by acting on \(V\) with the Harish–Chandra Schwartz algebra. Their proof also shows that minimal and maximal smooth Fréchet globalizations coincide.
 
 ## Boundary of the theorem
 

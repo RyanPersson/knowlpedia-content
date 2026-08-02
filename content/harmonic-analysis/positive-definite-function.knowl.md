@@ -34,8 +34,7 @@ realizes every continuous
 positive-definite function in this way with a
 [[lie-groups/cyclic-vector-and-cyclic-representation|cyclic vector]], uniquely up to
 [[lie-groups/unitary-equivalence-of-representations|unitary equivalence]] when
-the cyclic realization is minimal
-[Folland, §3.3](https://doi.org/10.1201/B19172).
+the cyclic realization is minimal.
 
 ## Basic properties
 

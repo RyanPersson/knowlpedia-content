@@ -27,8 +27,7 @@ The companion operator \(F_0(x'\Omega)=x'^*\Omega\) on \(M'\Omega\) is densely
 defined because separatingness for \(M\) is equivalent to cyclicity for the
 [[operator-algebras/commutant|commutant]] \(M'\). The inclusions
 \(S_0^*\supseteq F_0\) and \(F_0^*\supseteq S_0\) prove that both operators
-are closable. In fact, their closures satisfy \(S^*=F\)
-[Takesaki, Chapter VI, §1](https://doi.org/10.1007/978-1-4612-6188-9).
+are closable. In fact, their closures satisfy \(S^*=F\).
 
 ## Polar decomposition and modular data
 

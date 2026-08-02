@@ -16,7 +16,7 @@ for every \(g\in G\) and Borel set \(E\). A **right Haar measure** instead satis
 
 ## Existence and uniqueness
 
-Existence and uniqueness up to scale are the substantive content of Haar’s theorem, not formal consequences of invariance. The regularity and local finiteness conditions exclude pathological invariant set functions and make integration compatible with the topology. A left Haar measure has full support: every nonempty open set has positive measure [Folland, §§2.2–2.3](https://doi.org/10.1201/B19172).
+Existence and uniqueness up to scale are the substantive content of Haar’s theorem, not formal consequences of invariance. The regularity and local finiteness conditions exclude pathological invariant set functions and make integration compatible with the topology. A left Haar measure has full support: every nonempty open set has positive measure.
 
 ## Left, right, and the modular function
 

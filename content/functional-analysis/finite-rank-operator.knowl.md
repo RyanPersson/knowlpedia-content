@@ -34,7 +34,7 @@ for finitely many continuous linear functionals \(\varphi_j\in X'\) and
 vectors \(y_j\in Y\). Choosing the \(y_j\) as a basis for \(T(X)\) gives such
 a representation, while every displayed sum has range contained in their
 span. Rank-one operators \(x\mapsto\varphi(x)y\) are the elementary building
-blocks [Conway, Chapter II](https://doi.org/10.1007/978-1-4757-4383-8).
+blocks.
 
 ## Approximation and examples
 

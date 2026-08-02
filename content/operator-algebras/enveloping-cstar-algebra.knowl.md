@@ -29,8 +29,7 @@ If \(\pi:A\to B(H)\) is a bounded \(*\)-representation, there is a unique
 \(\pi=\widetilde\pi\circ\iota\). This property determines \(C^*(A)\) up to
 canonical \(*\)-isomorphism. The kernel of \(\iota\) is the intersection of
 the kernels of all bounded \(*\)-representations, so \(\iota\) need not be
-injective
-[Blackadar, §II.8](https://doi.org/10.1007/3-540-28517-2).
+injective.
 
 ## Existence and examples
 

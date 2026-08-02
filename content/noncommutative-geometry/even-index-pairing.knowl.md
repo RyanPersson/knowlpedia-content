@@ -20,7 +20,7 @@ It extends additively to differences of projections, giving a bilinear pairing \
 
 ## Why the compression is Fredholm
 
-Because \([F,\pi(a)]\) is compact, \(p^-F_n^+p^+\) has \(p^+F_n^-p^-\) as an inverse modulo [[linear-algebra/compact-operator|compact operators]]. The compressed operator is therefore Fredholm by Atkinson's characterization. Its index is unchanged under stabilization of \(p\), homotopy of the projection, compact perturbation of \(F\), and stable homotopy of the [[noncommutative-geometry/fredholm-module|Fredholm module]]. These facts make the formula descend to [[operator-algebras/k0-cstar-algebra|\(K_0(A)\)]] and [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]. [Connes, Chapter IV, Section 1, Proposition 2(a)](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+Because \([F,\pi(a)]\) is compact, \(p^-F_n^+p^+\) has \(p^+F_n^-p^-\) as an inverse modulo [[linear-algebra/compact-operator|compact operators]]. The compressed operator is therefore Fredholm by Atkinson's characterization. Its index is unchanged under stabilization of \(p\), homotopy of the projection, compact perturbation of \(F\), and stable homotopy of the [[noncommutative-geometry/fredholm-module|Fredholm module]]. These facts make the formula descend to [[operator-algebras/k0-cstar-algebra|\(K_0(A)\)]] and [[noncommutative-geometry/analytic-k-homology|analytic K-homology]].
 
 For a class \([p]-[q]\), the value is
 \[
@@ -30,7 +30,7 @@ This subtraction is essential: the pairing is defined on the Grothendieck group,
 
 ## Geometric example
 
-Let \(M\) be a closed even-dimensional spin manifold and take the even Fredholm module obtained from its [[noncommutative-geometry/dirac-operator|Dirac operator]]. A projection \(p\in M_n(C^\infty(M))\) determines a [[fiber-bundles/vector-bundle|vector bundle]] \(E\). The compression represents the Dirac operator twisted by \(E\), so the pairing is its Fredholm index. This is the operator-theoretic bridge from a \(K_0\)-class to an integer index. [Connes, Chapter IV, Section 1, example and Proposition 2](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+Let \(M\) be a closed even-dimensional spin manifold and take the even Fredholm module obtained from its [[noncommutative-geometry/dirac-operator|Dirac operator]]. A projection \(p\in M_n(C^\infty(M))\) determines a [[fiber-bundles/vector-bundle|vector bundle]] \(E\). The compression represents the Dirac operator twisted by \(E\), so the pairing is its Fredholm index. This is the operator-theoretic bridge from a \(K_0\)-class to an integer index.
 
 For \(A=\mathbb C\), pairing the class of a finite-rank projection with an even cycle scales the cycle's basic index by the rank.
 
@@ -38,7 +38,7 @@ For \(A=\mathbb C\), pairing the class of a finite-rank projection with an even 
 
 For nonunital \(A\), projections are taken in matrix algebras over the [[operator-algebras/unitization|unitization]], with the scalar projection subtracted so that the class lies in \(K_0(A)\). An unnormalized Fredholm module may be normalized or handled directly modulo compact operators before compression.
 
-Switching which grading summand is called positive, or replacing the Fredholm-index convention \(\dim\ker T-\dim\ker T^*\) by its negative, reverses the displayed sign. The convention in the core agrees with Connes's Proposition 2(a).
+Switching which grading summand is called positive, or replacing the Fredholm-index convention \(\dim\ker T-\dim\ker T^*\) by its negative, reverses the displayed sign. The displayed formula fixes the convention used here.
 
 ## References
 

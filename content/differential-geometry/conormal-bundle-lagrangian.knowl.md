@@ -24,7 +24,7 @@ If \(\xi\in T_{\alpha_q}N^*S\), then \(d\pi(\xi)\in T_qS\), while \(\alpha_q\) a
 \[
 \dim N^*S=\dim S+\operatorname{codim}_Q S=n=\tfrac12\dim T^*Q.
 \]
-Isotropy plus this dimension count proves the theorem [Hörmander, §21.2](https://doi.org/10.1007/978-3-642-96750-4).
+Isotropy plus this dimension count proves the theorem.
 
 ## Examples and local coordinates
 

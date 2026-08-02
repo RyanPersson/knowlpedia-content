@@ -34,8 +34,7 @@ For \(1\leq p<\infty\) and conjugate exponent \(q\), the pairing
 \((x,y)\mapsto\tau(xy)\) identifies the Banach dual of \(L^p(M,\tau)\) with
 \(L^q(M,\tau)\), with the usual endpoint interpretation. The spaces also form
 the expected complex interpolation scale. These results extend classical
-\(L^p\) inequalities to noncommuting products
-[Fack–Kosaki, §4](https://doi.org/10.2140/pjm.1986.123.269).
+\(L^p\) inequalities to noncommuting products.
 
 ## Canonical examples
 
@@ -46,8 +45,7 @@ Schatten class: [[linear-algebra/compact-operator|compact operators]] whose sing
 [[operator-algebras/finite-von-neumann-algebra|finite von Neumann algebra]]
 with normalized trace, every bounded element belongs to every finite \(L^p\),
 and completing the bounded finite-trace ideal in
-\(\lVert\cdot\rVert_p\) gives the same space
-[Nelson, pp. 107–116](https://doi.org/10.1016/0022-1236%2874%2990014-7).
+\(\lVert\cdot\rVert_p\) gives the same space.
 
 ## Dependence and scope
 

@@ -18,11 +18,11 @@ where \(d_{A_0}^*\) is the [[fiber-bundles/formal-adjoint-of-covariant-exterior-
 
 The space of connections is affine, so the expression \(A-A_0\) is an adjoint-bundle-valued one-form even though neither connection is itself a globally defined one-form. Infinitesimally, the tangent to the gauge orbit through \(A_0\) is \(\operatorname{im}d_{A_0}\). The Coulomb condition selects its formal \(L^2\)-orthogonal complement \(\ker d_{A_0}^*\).
 
-After suitable Sobolev completions and under standard regularity hypotheses, this complement yields a local slice modulo the stabilizer of \(A_0\) [Freed–Uhlenbeck, chapter 3](https://doi.org/10.1007/978-1-4613-9703-8). It is therefore local analytical structure, not a canonical global section of the gauge-orbit map.
+After suitable Sobolev completions and under standard regularity hypotheses, this complement yields a local slice modulo the stabilizer of \(A_0\). It is therefore local analytical structure, not a canonical global section of the gauge-orbit map.
 
 ## Local trivializations and Uhlenbeck gauge
 
-On a trivial bundle over a coordinate ball, with the product connection as reference, the condition becomes \(d^*a=0\). Uhlenbeck's gauge theorem says, roughly, that a connection with sufficiently small scale-invariant curvature norm can be gauge transformed into such a Coulomb gauge with quantitative Sobolev control [Uhlenbeck, theorem 1.3](https://doi.org/10.1007/BF01947069).
+On a trivial bundle over a coordinate ball, with the product connection as reference, the condition becomes \(d^*a=0\). Uhlenbeck's gauge theorem says, roughly, that a connection with sufficiently small scale-invariant curvature norm can be gauge transformed into such a Coulomb gauge with quantitative Sobolev control.
 
 Boundary versions normally add a condition on the normal component of \(a\). Without that extra condition, [[real-analysis/integration-by-parts|integration by parts]] does not identify \(\ker d^*\) as the full [[linear-algebra/orthogonal-complement|orthogonal complement]] of exact gauge directions.
 

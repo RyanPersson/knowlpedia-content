@@ -20,11 +20,11 @@ The flow formulation follows from
 \[
 \frac{d}{dt}F(\varphi_t(x))=dF_{\varphi_t(x)}(X_H)=\{F,H\}(\varphi_t(x)).
 \]
-Thus a first integral confines every trajectory to a level set of \(F\). Several independent first integrals can reduce the effective dimension of the motion; when half the phase-space dimension is supplied by pairwise commuting integrals, one obtains a [[differential-geometry/completely-integrable-hamiltonian-system|completely integrable Hamiltonian system]]. This criterion is developed in [Arnol'd, Chapters 9–10](https://doi.org/10.1007/978-1-4757-1693-1).
+Thus a first integral confines every trajectory to a level set of \(F\). Several independent first integrals can reduce the effective dimension of the motion; when half the phase-space dimension is supplied by pairwise commuting integrals, one obtains a [[differential-geometry/completely-integrable-hamiltonian-system|completely integrable Hamiltonian system]].
 
 ## Examples and non-examples
 
-The Hamiltonian \(H\) itself is a first integral because \(\{H,H\}=0\). If a Lie-group symmetry preserves \(H\), the corresponding component of a [[fiber-bundles/moment-map|moment map]] is another standard example [Abraham–Marsden, Chapters 3–4](https://doi.org/10.1090/chel/364). A function that is constant on one selected trajectory but not on all trajectories is not a first integral on \(M\); the defining identity must hold everywhere in its stated domain.
+The Hamiltonian \(H\) itself is a first integral because \(\{H,H\}=0\). If a Lie-group symmetry preserves \(H\), the corresponding component of a [[fiber-bundles/moment-map|moment map]] is another standard example. A function that is constant on one selected trajectory but not on all trajectories is not a first integral on \(M\); the defining identity must hold everywhere in its stated domain.
 
 ## Conventions and scope
 

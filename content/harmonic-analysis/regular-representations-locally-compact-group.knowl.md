@@ -34,9 +34,8 @@ Left invariance of \(\mu\) gives
 \(\lVert\lambda(g)\xi\rVert_2=\lVert\xi\rVert_2\). Right translation changes
 the squared \(L^2\)-norm by \(\Delta(g)^{-1}\), so the factor
 \(\Delta(g)^{1/2}\) makes \(\rho(g)\) unitary. Strong continuity follows
-first for compactly supported
-continuous functions and then for all of \(L^2(G)\) by density, as in
-[Folland, §§2.4 and 3.1](https://doi.org/10.1201/B19172).
+first for compactly supported continuous functions and then for all of
+\(L^2(G)\) by density.
 
 ## Relation to convolution
 

@@ -31,7 +31,7 @@ induced]] from the trivial one-dimensional representation of \(H\). This
 interpretation explains why it is central to harmonic analysis on quotients:
 its [[harmonic-analysis/coefficient-function|matrix coefficients]] and invariant vectors record how \(G\) acts on
 \(G/H\), while induction connects those data to representations of the
-subgroup [Folland, Chapter 6](https://doi.org/10.1201/B19172).
+subgroup.
 
 ## Examples and measure-class independence
 

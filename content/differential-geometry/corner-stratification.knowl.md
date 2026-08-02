@@ -48,8 +48,6 @@ depth-\(r\) stratum of \(M\times N\) is the disjoint union of
 **Warning.** A depth stratum does not label the local boundary hypersurfaces
 that meet there. A [[topology/connected-component|connected component]] of \(S^r(M)\), a closed face, and an
 iterated-boundary component are related but convention-dependent notions.
-Joyce distinguishes these structures and their incidence data in
-[Joyce, §§2–3](https://arxiv.org/abs/0910.3518).
 
 ## References
 

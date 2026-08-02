@@ -16,7 +16,7 @@ A line bundle is trivial exactly when it admits a nowhere-vanishing [[fiber-bund
 
 The [[fiber-bundles/dual-vector-bundle|dual]] \(L^*\) and the [[fiber-bundles/tensor-product-vector-bundle|tensor product]] \(L\otimes K\) are again line bundles. The evaluation isomorphism \(L\otimes L^*\cong M\times\mathbb F\) makes dualization the inverse operation under tensor product. Isomorphism classes of line bundles therefore form an [[algebra-groups/abelian-group|abelian group]], often called a Picard group.
 
-Over a paracompact space, complex line bundles are classified by their first Chern class in \(H^2(M;\mathbb Z)\). Real line bundles are classified by their first [[fiber-bundles/stiefel-whitney-class|Stiefel–Whitney class]] in \(H^1(M;\mathbb Z/2)\) [Husemoller, chapter 3](https://doi.org/10.1007/978-1-4757-4008-0).
+Over a paracompact space, complex line bundles are classified by their first Chern class in \(H^2(M;\mathbb Z)\). Real line bundles are classified by their first [[fiber-bundles/stiefel-whitney-class|Stiefel–Whitney class]] in \(H^1(M;\mathbb Z/2)\).
 
 ## Examples and non-examples
 

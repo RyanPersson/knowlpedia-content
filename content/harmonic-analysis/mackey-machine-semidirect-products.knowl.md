@@ -16,7 +16,7 @@ where \(\widetilde\chi(a,k)=\chi(a)\) and \(\sigma\) is an irreducible unitary r
 
 ## Why the classification works
 
-Restricting a representation of \(G\) to the abelian [[algebra-groups/normal-subgroup|normal subgroup]] \(A\) produces spectral data on \(\widehat A\). Under the regularity hypothesis, irreducibility concentrates that data on one \(K\)-orbit. The resulting transitive [[harmonic-analysis/system-of-imprimitivity|system of imprimitivity]] is classified by the [[harmonic-analysis/mackey-imprimitivity-theorem|Mackey imprimitivity theorem]], which recovers a representation of \(K_\chi\); [[harmonic-analysis/unitary-induced-representation|unitary induction]] then reconstructs the original representation [Folland, §6.6, Theorem 6.43](https://doi.org/10.1201/B19172).
+Restricting a representation of \(G\) to the abelian [[algebra-groups/normal-subgroup|normal subgroup]] \(A\) produces spectral data on \(\widehat A\). Under the regularity hypothesis, irreducibility concentrates that data on one \(K\)-orbit. The resulting transitive [[harmonic-analysis/system-of-imprimitivity|system of imprimitivity]] is classified by the [[harmonic-analysis/mackey-imprimitivity-theorem|Mackey imprimitivity theorem]], which recovers a representation of \(K_\chi\); [[harmonic-analysis/unitary-induced-representation|unitary induction]] then reconstructs the original representation.
 
 ## Example: Euclidean motion groups
 
@@ -24,7 +24,7 @@ For \(G=\mathbb R^n\rtimes SO(n)\), the dual of the translation subgroup is \(\w
 
 ## Hypotheses and scope
 
-Regularity may be expressed by the existence of a Borel cross-section for the [[lie-groups/orbit-space|orbit space]]; it prevents pathologies in which orbit data do not provide a usable measurable parametrization. The theorem above exploits both the abelianness of \(A\) and the splitting \(G=A\rtimes K\). For a general normal subgroup, one replaces characters by irreducible representations and may encounter projective representations and a Mackey obstruction. “Mackey machine” is also used for that broader analysis [Mackey, group-extension analysis](https://doi.org/10.1007/BF02392428).
+Regularity may be expressed by the existence of a Borel cross-section for the [[lie-groups/orbit-space|orbit space]]; it prevents pathologies in which orbit data do not provide a usable measurable parametrization. The theorem above exploits both the abelianness of \(A\) and the splitting \(G=A\rtimes K\). For a general normal subgroup, one replaces characters by irreducible representations and may encounter projective representations and a Mackey obstruction. “Mackey machine” is also used for that broader analysis.
 
 ## References
 

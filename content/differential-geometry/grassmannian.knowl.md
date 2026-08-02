@@ -32,7 +32,7 @@ With a Hermitian inner product, the complex Grassmannian is \(U(n)/(U(k)\times U
 
 ## Algebraic and bundle structure
 
-For complex \(V\), the Plücker map sends \(W\) to the line \(\bigwedge^kW\subseteq\bigwedge^kV\), realizing the Grassmannian as a smooth projective algebraic variety cut out by quadratic Plücker relations [Harris, Lecture 6](https://doi.org/10.1007/978-1-4757-2189-8). Over the Grassmannian, the fibers \(W\) themselves form the tautological rank-\(k\) [[fiber-bundles/vector-bundle|vector bundle]].
+For complex \(V\), the Plücker map sends \(W\) to the line \(\bigwedge^kW\subseteq\bigwedge^kV\), realizing the Grassmannian as a smooth projective algebraic variety cut out by quadratic Plücker relations. Over the Grassmannian, the fibers \(W\) themselves form the tautological rank-\(k\) [[fiber-bundles/vector-bundle|vector bundle]].
 
 ## References
 

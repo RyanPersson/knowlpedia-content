@@ -31,8 +31,7 @@ combination. Conversely, a
 by \(\varphi\) is represented by a positive contraction in that commutant; a
 nontrivial convex decomposition therefore produces a nonscalar commutant.
 [[algebra-representation-theory/schurs-lemma|Schur's lemma]],
-\(\pi_\varphi(A)'=\mathbb C I\), completes the equivalence
-[Murphy, Theorem 3.3.8](https://doi.org/10.1016/C2009-0-22289-6).
+\(\pi_\varphi(A)'=\mathbb C I\), completes the equivalence.
 
 ## Converse realization
 

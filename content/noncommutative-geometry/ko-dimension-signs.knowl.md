@@ -32,8 +32,6 @@ The convention above gives the following complete lookup:
 - \(n=6\): \((\varepsilon,\varepsilon',\varepsilon'')=(+,+,-)\).
 - \(n=7\): \((\varepsilon,\varepsilon')=(+,+)\).
 
-This is [Connes and Marcolli, Definition 1.124](https://doi.org/10.1090/coll/055).
-
 ## Conventions and use
 
 The table packages the real Clifford-algebra periodicity behind KO-homology. In particular, KO-dimension \(2\) gives \(J^2=-1\), \(JD=DJ\), and \(J\Gamma=-\Gamma J\), while KO-dimension \(6\) changes only \(J^2\) among these three relations.

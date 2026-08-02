@@ -29,8 +29,7 @@ A vector \(\xi\) is separating for \(M\) exactly when it is
 proof uses the [[linear-algebra/orthogonal-projection|orthogonal projection]] onto \(\overline{M'\xi}\): this
 projection belongs to \(M''\), and for a
 [[operator-algebras/von-neumann-algebra|von Neumann algebra]] the identity
-\(M''=M\) turns separation into density
-[Kadison–Ringrose, §5.5](https://doi.org/10.1090/gsm/015).
+\(M''=M\) turns separation into density.
 
 ## Examples and failure
 

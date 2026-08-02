@@ -32,7 +32,7 @@ defines a bounded operator between the corresponding direct integrals. Such [[fu
 
 ## Conventions and use
 
-The phrase “measurable field” includes the chosen measurable structure on sections; a bare family of Hilbert spaces is not enough. Changing fibers or sections on a [[measure-theory/null-set|null set]] does not change the direct integral. Standard decomposition theorems usually impose \(\sigma\)-finiteness and separability hypotheses, which must be stated separately from the construction [Takesaki, Chapter IV, §8](https://doi.org/10.1007/978-1-4612-6188-9).
+The phrase “measurable field” includes the chosen measurable structure on sections; a bare family of Hilbert spaces is not enough. Changing fibers or sections on a [[measure-theory/null-set|null set]] does not change the direct integral. Standard decomposition theorems usually impose \(\sigma\)-finiteness and separability hypotheses, which must be stated separately from the construction.
 
 ## References
 

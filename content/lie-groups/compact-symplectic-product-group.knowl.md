@@ -24,7 +24,7 @@ It is a compact connected [[lie-groups/lie-subgroup|Lie subgroup]] of \(\operato
 
 ## Action on quaternionic structures
 
-The left \(\operatorname{Sp}(n)\)-factor commutes with right quaternionic multiplication. The right \(\operatorname{Sp}(1)\)-factor conjugates the three-dimensional space \(\operatorname{Im}\mathbb H\) of imaginary units, inducing the standard rotation action through \(\operatorname{Sp}(1)/\{\pm1\}\cong\operatorname{SO}(3)\). Thus the quotient preserves the rank-three family of complex structures while generally rotating its local basis \(I,J,K\). This is why the group, rather than \(\operatorname{Sp}(n)\) alone, is natural in quaternionic Kähler geometry [Besse, §14.G](https://doi.org/10.1007/978-3-540-74311-8).
+The left \(\operatorname{Sp}(n)\)-factor commutes with right quaternionic multiplication. The right \(\operatorname{Sp}(1)\)-factor conjugates the three-dimensional space \(\operatorname{Im}\mathbb H\) of imaginary units, inducing the standard rotation action through \(\operatorname{Sp}(1)/\{\pm1\}\cong\operatorname{SO}(3)\). Thus the quotient preserves the rank-three family of complex structures while generally rotating its local basis \(I,J,K\). This is why the group, rather than \(\operatorname{Sp}(n)\) alone, is natural in quaternionic Kähler geometry.
 
 ## Low-rank case and dimensions
 
@@ -36,7 +36,7 @@ For \(n=1\), the action identifies \(\operatorname{Sp}(1)\operatorname{Sp}(1)\) 
 
 ## Relation to geometric structures
 
-A Riemannian \(4n\)-manifold whose frame bundle reduces to this subgroup has an almost quaternionic Hermitian structure. If its Levi–Civita [[fiber-bundles/holonomy-group|holonomy group]] lies in \(\operatorname{Sp}(n)\operatorname{Sp}(1)\), it is quaternionic Kähler under the standard higher-dimensional convention. By contrast, holonomy contained in the smaller subgroup \(\operatorname{Sp}(n)\) is the hyperkähler condition. The two conditions should not be conflated [Salamon, pp. 143–145](https://doi.org/10.1007/BF01393378).
+A Riemannian \(4n\)-manifold whose frame bundle reduces to this subgroup has an almost quaternionic Hermitian structure. If its Levi–Civita [[fiber-bundles/holonomy-group|holonomy group]] lies in \(\operatorname{Sp}(n)\operatorname{Sp}(1)\), it is quaternionic Kähler under the standard higher-dimensional convention. By contrast, holonomy contained in the smaller subgroup \(\operatorname{Sp}(n)\) is the hyperkähler condition. The two conditions should not be conflated.
 
 ## Conventions and scope
 

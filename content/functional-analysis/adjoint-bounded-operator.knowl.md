@@ -38,8 +38,7 @@ It is conjugate-linear in the operator:
 \]
 When \(T\in B(H)\), the identity
 \(\lVert T^*T\rVert=\lVert T\rVert^2\) makes the adjoint the involution in
-the \(C^*\)-algebra \(B(H)\)
-[Conway, Chapter II](https://doi.org/10.1007/978-1-4757-4383-8).
+the \(C^*\)-algebra \(B(H)\).
 
 ## Kernels, ranges, and matrices
 

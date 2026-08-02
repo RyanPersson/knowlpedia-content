@@ -40,7 +40,7 @@ Using the convention \(R^\nabla(X,Y)=[\nabla_X,\nabla_Y]-\nabla_{[X,Y]}\), the d
 \left(R^{\nabla^*}(X,Y)\lambda\right)(s)
 =-\lambda\!\left(R^\nabla(X,Y)s\right).
 \]
-Hence the curvature matrix of the dual connection is the negative transpose of the original curvature matrix. This functorial construction is treated in [Tu, Chapter 12](https://doi.org/10.1007/978-3-319-55084-8).
+Hence the curvature matrix of the dual connection is the negative transpose of the original curvature matrix.
 
 ## Conventions and scope
 

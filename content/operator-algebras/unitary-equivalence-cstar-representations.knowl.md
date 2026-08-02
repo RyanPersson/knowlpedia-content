@@ -38,9 +38,7 @@ decompositions. Moreover, their
 \[
 U\pi(A)'U^*=\rho(A)',
 \]
-so they are spatially isomorphic. These basic invariances are part of the
-[[operator-algebras/standard-form|standard representation]] theory developed in
-[Pedersen, Chapter 3](https://doi.org/10.1016/C2016-0-03431-9).
+so they are spatially isomorphic.
 
 ## Pointed cyclic representations
 

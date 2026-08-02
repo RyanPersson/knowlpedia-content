@@ -20,7 +20,7 @@ is the local orientation generator at every \(x\in M\). Thus \([M]\) is the glob
 
 ## Existence and variants
 
-A connected closed manifold has an integral fundamental class exactly when it is orientable. Every closed manifold has a canonical mod-\(2\) fundamental class. If \(M\) has boundary, the oriented class lies instead in \(H_n(M,\partial M;R)\); if \(M\) is noncompact, the corresponding object belongs to locally finite homology. These variants preserve the same local-generator condition [Hatcher, §3.3](https://pi.math.cornell.edu/~hatcher/AT/ATchapters.html).
+A connected closed manifold has an integral fundamental class exactly when it is orientable. Every closed manifold has a canonical mod-\(2\) fundamental class. If \(M\) has boundary, the oriented class lies instead in \(H_n(M,\partial M;R)\); if \(M\) is noncompact, the corresponding object belongs to locally finite homology. These variants preserve the same local-generator condition.
 
 ## Pairings and consequences
 

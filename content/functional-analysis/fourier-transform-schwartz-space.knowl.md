@@ -11,7 +11,7 @@ section_mode = "progressive"
 For \(f\) in the [[functional-analysis/schwartz-space|Schwartz space]]
 \(\mathcal S(\mathbb R^n)\), its **Fourier transform** is
 \[
-\widehat f(\xi)=\int_{\mathbb R^n}e^{-2\pi i x\cdot\xi}f(x)\,dx .
+\widehat f(\xi)=\int_{\mathbb R^n}e^{-2\pi i x\cdot\xi}f(x)\,dx.
 \]
 The integral is a [[measure-theory/lebesgue-integral|Lebesgue integral]];
 rapid decay makes \(f\) [[measure-theory/lebesgue-integrable-function|Lebesgue
@@ -34,8 +34,7 @@ derivatives with polynomial factors:
 \]
 Every polynomially weighted derivative of \(f\) remains integrable, so these
 identities bound every Schwartz seminorm of \(\widehat f\). They also show
-continuity of \(\mathcal F\) in the Schwartz topology
-[Hörmander, §7.1](https://doi.org/10.1007/978-3-642-61497-2).
+continuity of \(\mathcal F\) in the Schwartz topology.
 
 ## Structural role
 
@@ -45,7 +44,7 @@ automorphism property therefore makes \(\mathcal S(\mathbb R^n)\) a common
 invariant domain for both operations. Taking the transpose of this
 automorphism defines the
 [[functional-analysis/fourier-transform-tempered-distributions|Fourier
-transform of [[functional-analysis/tempered-distribution|tempered distributions]]]].
+transform of tempered distributions]].
 
 ## Conventions and scope
 

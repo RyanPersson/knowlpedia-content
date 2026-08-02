@@ -26,8 +26,7 @@ structure.
 Every \(*\)-homomorphism between \(C^*\)-algebras is positive and contractive,
 so no continuity hypothesis is needed. It is isometric exactly when it is
 injective. These conclusions are special to the \(C^*\)-setting and follow
-from spectral theory and the \(C^*\)-identity
-[Murphy, §2.1](https://doi.org/10.1016/C2009-0-22289-6). A merely
+from spectral theory and the \(C^*\)-identity. A merely
 multiplicative complex-linear map need not preserve the involution or enjoy
 these properties.
 

@@ -38,8 +38,7 @@ simultaneously diagonalizable over \(\mathbb R\), giving
 Choosing a positive subsystem \(\Sigma^+\) defines the nilpotent algebra
 \(\mathfrak n=\bigoplus_{\alpha\in\Sigma^+}\mathfrak g_\alpha\), the key
 ingredient in the
-[[lie-groups/iwasawa-decomposition|Iwasawa decomposition]]
-[Knapp, Chapter VI, §4](https://link.springer.com/book/9780817642594).
+[[lie-groups/iwasawa-decomposition|Iwasawa decomposition]].
 
 ## Weyl group and chambers
 

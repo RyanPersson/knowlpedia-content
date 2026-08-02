@@ -29,8 +29,7 @@ the other two.
 The displayed expression suppresses universal coefficients involving
 factorials and gamma functions. Their exact form depends on whether one uses
 the even or odd cocycle, how \(D\)'s kernel is removed, and the normalization
-of the \((b,B)\)-complex. The complete formulas appear in
-[Connes–Moscovici, Theorems II.1 and II.2](https://doi.org/10.1007/BF01895667).
+of the \((b,B)\)-complex.
 
 ## Meaning of locality
 
@@ -53,8 +52,7 @@ Because the residue cocycle represents the
 pairing it with \(K\)-theory computes the same Fredholm index. The theorem
 therefore turns an index defined by a compressed operator into a finite sum
 of residues that can often be calculated from heat-kernel or symbol
-asymptotics. A detailed derivation of this cohomological replacement is given
-in [Higson, §§5–7](https://nigel.higson.ca/uploads/1/2/1/4/121496570/higson_-_2004_-_the_local_index_formula_in_noncommutative_geometry.pdf).
+asymptotics.
 
 ## Conventions and scope
 

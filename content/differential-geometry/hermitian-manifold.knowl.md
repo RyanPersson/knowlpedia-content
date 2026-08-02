@@ -22,7 +22,7 @@ Every complex manifold under the usual second-countable convention admits a Herm
 
 ## Relationship to Kähler geometry
 
-Hermitian compatibility does not require \(d\omega=0\). A Hermitian manifold is [[differential-geometry/kahler-manifold|Kähler]] precisely when its fundamental form is closed. This separates integrability of \(J\), already built into the complex-manifold hypothesis, from the additional differential condition on \(\omega\); see [Huybrechts, §3.1](https://doi.org/10.1007/b137952).
+Hermitian compatibility does not require \(d\omega=0\). A Hermitian manifold is [[differential-geometry/kahler-manifold|Kähler]] precisely when its fundamental form is closed. This separates integrability of \(J\), already built into the complex-manifold hypothesis, from the additional differential condition on \(\omega\).
 
 ## Examples and non-examples
 

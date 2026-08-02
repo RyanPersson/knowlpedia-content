@@ -20,7 +20,7 @@ The cylinder \(M\times[0,1]\) is a cobordism from \(M\) to itself. Reversing the
 
 ## Handle viewpoint
 
-A Morse function on a cobordism, constant on its boundary components and with critical points in the interior, decomposes the cobordism into elementary handle attachments. The index of each critical point records the handle index. This translates geometric questions about \(W\) into changes of level manifolds and is the bridge between cobordism, handle theory, and surgery [Milnor, Chapter 3](https://doi.org/10.1515/9781400881802).
+A Morse function on a cobordism, constant on its boundary components and with critical points in the interior, decomposes the cobordism into elementary handle attachments. The index of each critical point records the handle index. This translates geometric questions about \(W\) into changes of level manifolds and is the bridge between cobordism, handle theory, and surgery.
 
 ## Examples
 

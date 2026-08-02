@@ -31,8 +31,7 @@ has zero expectation on \(a^*a\) only when \(a=0\). It implies that the
 associated GNS representation is faithful, but the converse can fail: a
 faithful representation may have a cyclic vector whose
 [[operator-algebras/vector-state|vector state]] vanishes on a nonzero positive
-element. See
-[Pedersen, §3.3](https://doi.org/10.1016/C2016-0-03431-9).
+element.
 
 ## Examples and existence
 
@@ -41,8 +40,7 @@ On \(M_n(\mathbb C)\), a state has the form
 trace one; it is faithful exactly when \(\rho\) is invertible. On \(C_0(X)\),
 states correspond to probability Radon measures, and the state is faithful
 exactly when the measure has full support. Not every \(C^*\)-algebra has a
-faithful state, although every nonzero separable \(C^*\)-algebra does
-[Pedersen, §3.3](https://doi.org/10.1016/C2016-0-03431-9).
+faithful state, although every nonzero separable \(C^*\)-algebra does.
 
 ## Distinctions
 

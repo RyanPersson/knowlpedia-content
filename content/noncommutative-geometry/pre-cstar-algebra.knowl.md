@@ -17,7 +17,7 @@ The involution and multiplication are therefore compatible with the norm, but in
 
 ## Completion
 
-The involution is isometric and therefore extends continuously to the Banach-space completion \(\overline A\). Multiplication extends as well, and the \(C^*\)-identity passes to limits, so \(\overline A\) is a \(C^*\)-algebra in which \(A\) is a dense \(*\)-subalgebra. Conversely, every \(*\)-subalgebra of a \(C^*\)-algebra, equipped with the inherited norm, is a pre-\(C^*\)-algebra. These standard completion facts follow from the basic \(C^*\)-norm identities in [Murphy, §2.1](https://doi.org/10.1016/C2009-0-22289-6).
+The involution is isometric and therefore extends continuously to the Banach-space completion \(\overline A\). Multiplication extends as well, and the \(C^*\)-identity passes to limits, so \(\overline A\) is a \(C^*\)-algebra in which \(A\) is a dense \(*\)-subalgebra. Conversely, every \(*\)-subalgebra of a \(C^*\)-algebra, equipped with the inherited norm, is a pre-\(C^*\)-algebra.
 
 ## Examples and non-examples
 
@@ -25,7 +25,7 @@ For a compact [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), \(C^\inft
 
 ## Conventions and scope
 
-**Warning.** “Pre-\(C^*\)-algebra” records only the inherited \(C^*\)-norm structure. It does not imply closure under the [[functional-analysis/holomorphic-functional-calculus-banach-algebra|holomorphic functional calculus]]. Blackadar calls a pre-\(C^*\)-normed algebra satisfying an additional matrix-level spectral-invariance condition a local \(C^*\)-algebra [Blackadar, Chapter II, §3.1](https://doi.org/10.1017/9781009701907.004); that is a strictly richer notion.
+**Warning.** “Pre-\(C^*\)-algebra” records only the inherited \(C^*\)-norm structure. It does not imply closure under the [[functional-analysis/holomorphic-functional-calculus-banach-algebra|holomorphic functional calculus]]. Blackadar calls a pre-\(C^*\)-normed algebra satisfying an additional matrix-level spectral-invariance condition a local \(C^*\)-algebra; that is a strictly richer notion.
 
 ## References
 

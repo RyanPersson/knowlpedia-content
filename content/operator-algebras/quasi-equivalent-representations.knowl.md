@@ -20,7 +20,7 @@ extends to a \(*\)-isomorphism
 \]
 between their
 [[operator-algebras/von-neumann-algebra-generated-by-representation|generated
-[[operator-algebras/von-neumann-algebra|von Neumann algebras]]]], and \(\Phi\) is a
+von Neumann algebras]], and \(\Phi\) is a
 [[operator-algebras/normal-star-homomorphism|normal \(*\)-homomorphism]] with
 normal inverse. In particular, the two representations must have the same
 kernel. Normality is essential: it requires the isomorphism to preserve the
@@ -45,7 +45,7 @@ representation theory while retaining the distinguished copy of \(A\). It
 preserves factoriality and the type of the [[operator-algebras/von-neumann-algebra-generated-by-representation|generated von Neumann algebra]].
 For [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representations]] it is also characterized by equality of
 the sets of [[operator-algebras/positive-linear-functional|positive functionals]] on \(A\) that are normal relative to the
-representations [Takesaki, Chapter III, §2](https://doi.org/10.1007/978-1-4612-6188-9).
+representations.
 
 ## Conventions and near misses
 

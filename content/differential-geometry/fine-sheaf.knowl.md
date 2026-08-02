@@ -22,7 +22,7 @@ In particular, the [[differential-geometry/sheaf-of-smooth-functions|sheaf of sm
 
 ## Cohomological consequence
 
-On a [[fiber-bundles/paracompact-topological-space|paracompact]] [[topology/hausdorff-space|Hausdorff space]], every fine sheaf is acyclic for the global-section functor: its higher sheaf cohomology groups vanish. This theorem is the sheaf-theoretic reason partitions of unity make many smooth resolutions compute cohomology. Bott and Tu use this mechanism in their treatment of de Rham theory and fine resolutions [Bott and Tu, Chapter I](https://doi.org/10.1007/978-1-4757-3951-0).
+On a [[fiber-bundles/paracompact-topological-space|paracompact]] [[topology/hausdorff-space|Hausdorff space]], every fine sheaf is acyclic for the global-section functor: its higher sheaf cohomology groups vanish. This theorem is the sheaf-theoretic reason partitions of unity make many smooth resolutions compute cohomology. Bott and Tu use this mechanism in their treatment of de Rham theory and fine resolutions.
 
 ## Conventions and scope
 

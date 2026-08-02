@@ -20,7 +20,7 @@ Every pair of [[differential-geometry/transverse-submanifolds|transverse submani
 \[
 e=\operatorname{codim}_M S+\operatorname{codim}_M T-\operatorname{codim}_M C
 \]
-equals the codimension of \(T_pS+T_pT\) in \(T_pM\). Thus \(e=0\) precisely in the transverse case. Clean intersections and their excess directions are treated in [Abraham and Marsden, Chapter 3](https://doi.org/10.1090/chel/364).
+equals the codimension of \(T_pS+T_pT\) in \(T_pM\). Thus \(e=0\) precisely in the transverse case.
 
 ## Examples and non-examples
 
@@ -30,7 +30,7 @@ The \(x\)-axis and the parabola \(y=x^2\) in \(\mathbb R^2\) meet only at the or
 
 ## Conventions and scope
 
-**Warning.** Merely having a smooth intersection of the expected set-theoretic dimension is not enough: the tangent-space equality is part of the definition. Some treatments formulate clean intersection for maps or for several submanifolds; this knowl concerns two embedded submanifolds. The formulation follows the clean-intersection convention used in [Guillemin and Sternberg, Chapter I](https://doi.org/10.1090/surv/014).
+**Warning.** Merely having a smooth intersection of the expected set-theoretic dimension is not enough: the tangent-space equality is part of the definition. Some treatments formulate clean intersection for maps or for several submanifolds; this knowl concerns two embedded submanifolds.
 
 ## References
 

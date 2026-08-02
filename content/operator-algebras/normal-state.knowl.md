@@ -29,8 +29,7 @@ For a positive linear functional on \(M\), membership in \(M_*\), ultraweak
 continuity, and preservation of suprema of bounded increasing nets in \(M_+\)
 are equivalent. Normality can also be characterized by complete additivity on
 orthogonal families of projections. These equivalences are part of the
-standard predual theory of von Neumann algebras
-[Takesaki, Chapter III, §2](https://doi.org/10.1007/978-1-4612-6188-9).
+standard predual theory of von Neumann algebras.
 
 ## Concrete form on \(B(H)\)
 
@@ -43,8 +42,7 @@ Conversely, every such [[quantum-foundations/density-operator|density
 operator]] defines a normal state.
 [[operator-algebras/vector-state|Vector states]]
 \(x\mapsto\langle x\xi,\xi\rangle\), with \(\|\xi\|=1\), correspond to
-rank-one [[quantum-foundations/density-operator|density operators]] and are normal
-[Kadison–Ringrose, vol. II, §7.1](https://doi.org/10.1090/gsm/016).
+rank-one [[quantum-foundations/density-operator|density operators]] and are normal.
 
 ## Distinctions
 

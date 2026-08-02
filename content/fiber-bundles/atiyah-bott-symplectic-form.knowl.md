@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(\Sigma\) be a closed oriented surface, let \(G\) be a [[lie-groups/compact-lie-group|compact Lie group]] whose [[lie-groups/lie-algebra|Lie algebra]] has an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] \(\langle-,-\rangle\), and let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]]. The [[fiber-bundles/bundle-of-connections|space of connections]] \(\mathcal A(P)\) is affine with [[differential-geometry/tangent-space|tangent space]] \(\Omega^1(\Sigma;\operatorname{ad}P)\). Its **Atiyah–Bott symplectic form** is the constant two-form
 \[
-\omega_A(a,b)=\int_\Sigma\langle a\wedge b\rangle ,
+\omega_A(a,b)=\int_\Sigma\langle a\wedge b\rangle,
 \qquad
 a,b\in T_A\mathcal A(P).
 \]
@@ -24,7 +24,7 @@ The formula does not depend on \(A\), so \(\omega\) is closed. If \(a\ne0\), cho
 \]
 Thus the pairing is nondegenerate on smooth tangent vectors. In the Fréchet setting this is commonly called a weak symplectic form: the induced map from the tangent space to its continuous dual need not be onto.
 
-The [[fiber-bundles/gauge-group|gauge group]] preserves \(\omega\), because its action on \(\operatorname{ad}P\) preserves the chosen inner product. These properties are part of the symplectic formulation developed in [Atiyah–Bott, §9](https://doi.org/10.1098/rsta.1983.0017).
+The [[fiber-bundles/gauge-group|gauge group]] preserves \(\omega\), because its action on \(\operatorname{ad}P\) preserves the chosen inner product. Together these properties provide the symplectic setup for gauge-theoretic reduction.
 
 ## Role in gauge theory
 

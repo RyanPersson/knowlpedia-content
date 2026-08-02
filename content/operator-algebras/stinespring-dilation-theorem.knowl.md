@@ -24,7 +24,7 @@ On the algebraic tensor product \(A\odot H\), define
 Complete positivity makes this form nonnegative. Quotienting its null space
 and completing gives \(K\); left multiplication gives \(\pi\), and
 \(V\xi\) is represented by \(1_A\otimes\xi\). This is Stinespring's original
-construction [Stinespring, Theorem 1](https://doi.org/10.1090/S0002-9939-1955-0069403-4).
+construction.
 
 ## Norm and unitality consequences
 

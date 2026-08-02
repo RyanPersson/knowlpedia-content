@@ -20,7 +20,7 @@ The second tangent bundle has two natural projections to \(TM\):
 \[
 \tau_{TM}:TTM\to TM,\qquad T\tau_M:TTM\to TM,
 \]
-where \(\tau_M:TM\to M\) is the tangent-bundle projection. Each projection makes \(TTM\) a [[fiber-bundles/vector-bundle|vector bundle]] over \(TM\), and the two structures satisfy compatibility axioms. Thus \(TTM\) is the basic example of a double vector bundle, not merely an ordinary vector bundle with duplicated notation; see [Mackenzie, Chapter 9](https://doi.org/10.1017/CBO9781107325883).
+where \(\tau_M:TM\to M\) is the tangent-bundle projection. Each projection makes \(TTM\) a [[fiber-bundles/vector-bundle|vector bundle]] over \(TM\), and the two structures satisfy compatibility axioms. Thus \(TTM\) is the basic example of a double vector bundle, not merely an ordinary vector bundle with duplicated notation.
 
 ## Canonical involution
 

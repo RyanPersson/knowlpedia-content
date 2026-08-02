@@ -27,7 +27,7 @@ At each \(p\in M\), compatibility says that \(J_p\) is a complex structure on th
 
 ## Existence and deformation
 
-Every symplectic [[fiber-bundles/vector-bundle|vector bundle]] admits compatible complex structures. Consequently every symplectic manifold has compatible almost-complex structures, and the space of all such structures is nonempty and contractible. This flexibility is central to constructions whose final invariant should not depend on the auxiliary choice of \(J\); see [McDuff and Salamon, §2.5](https://doi.org/10.1090/coll/052).
+Every symplectic [[fiber-bundles/vector-bundle|vector bundle]] admits compatible complex structures. Consequently every symplectic manifold has compatible almost-complex structures, and the space of all such structures is nonempty and contractible. This flexibility is central to constructions whose final invariant should not depend on the auxiliary choice of \(J\).
 
 ## Relation to complex and Kähler geometry
 

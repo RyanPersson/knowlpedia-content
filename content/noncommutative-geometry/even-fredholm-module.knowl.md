@@ -31,7 +31,7 @@ F=
 F^+&0
 \end{pmatrix}.
 \]
-For a normalized module, \(F^-=(F^+)^*\) and the two off-diagonal operators are mutual inverses. Before normalization they are inverses modulo the locally compact defects specified in the Fredholm-module axioms. This is the form used to construct the [[noncommutative-geometry/even-index-pairing|even index pairing]]. [Connes, Chapter IV, Section 1, Definition 1 and Proposition 2(a)](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+For a normalized module, \(F^-=(F^+)^*\) and the two off-diagonal operators are mutual inverses. Before normalization they are inverses modulo the locally compact defects specified in the Fredholm-module axioms. This is the form used to construct the [[noncommutative-geometry/even-index-pairing|even index pairing]].
 
 ## Structure and consequences
 
@@ -41,7 +41,7 @@ If an unbounded cycle has a grading that commutes with the algebra and anticommu
 
 ## Examples and non-examples
 
-Let \(M\) be a closed even-dimensional spin manifold. The spinor [[linear-algebra/hilbert-space|Hilbert space]] splits into positive and negative chirality, multiplication by \(C(M)\) preserves the split, and the bounded transform of the [[noncommutative-geometry/dirac-operator|Dirac operator]] interchanges the two summands. It therefore defines an even Fredholm module. [Connes, Chapter IV, Section 1 and Appendix A, Theorem 15](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+Let \(M\) be a closed even-dimensional spin manifold. The spinor [[linear-algebra/hilbert-space|Hilbert space]] splits into positive and negative chirality, multiplication by \(C(M)\) preserves the split, and the bounded transform of the [[noncommutative-geometry/dirac-operator|Dirac operator]] interchanges the two summands. It therefore defines an even Fredholm module.
 
 An [[noncommutative-geometry/odd-fredholm-module|ungraded Fredholm module]] is not automatically even: a grading \(\Gamma\) must exist and satisfy both displayed compatibility rules. In particular, a grading commuting with \(F\) fails the oddness axiom.
 

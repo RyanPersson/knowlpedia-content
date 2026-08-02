@@ -32,8 +32,7 @@ A\xrightarrow{\ \phi_\lambda\ }M_{n(\lambda)}(\mathbb C)
 \xrightarrow{\ \psi_\lambda\ }A
 \]
 through [[operator-algebras/matrix-cstar-algebra|matrix algebras]], where both
-maps are [[operator-algebras/completely-positive-contraction|completely positive contractions]]
-[Brown–Ozawa, Theorem 2.3.8](https://doi.org/10.1090/gsm/088). This converts a
+maps are [[operator-algebras/completely-positive-contraction|completely positive contractions]]. This converts a
 global tensor-norm condition into finite-dimensional local approximations.
 
 ## Examples and permanence
@@ -47,7 +46,7 @@ ideals, quotients, inductive limits, and extensions, but not to arbitrary
 
 For a discrete group \(\Gamma\), the
 [[operator-algebras/nuclearity-reduced-group-cstar-algebra-discrete-amenability|
-[[operator-algebras/nuclearity-reduced-group-cstar-algebra-discrete-amenability|Lance theorem]]]] states that \(C_r^*(\Gamma)\) is nuclear exactly when
+Lance theorem]] states that \(C_r^*(\Gamma)\) is nuclear exactly when
 \(\Gamma\) is amenable. Hence the reduced \(C^*\)-algebra of the free group on
 two generators, a [[algebra-groups/free-group|free group]], is a standard
 non-example.
@@ -64,8 +63,7 @@ Banach-space approximation properties.
 The original tensor-norm theory and its completely positive formulation were
 developed through several equivalent characterizations; the approximation
 form is especially useful because it behaves well under limits and
-constructions
-[Choi–Effros, pp. 61–79](https://doi.org/10.2307/2373876).
+constructions.
 
 ## Conventions and scope
 

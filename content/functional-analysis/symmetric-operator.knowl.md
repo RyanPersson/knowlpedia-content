@@ -20,7 +20,7 @@ Every symmetric operator is closable, and its closure is again symmetric. Its ei
 
 ## Relationship to self-adjointness
 
-A [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint unbounded operator]] is symmetric, but a symmetric operator can have a strictly larger adjoint domain. [[functional-analysis/self-adjoint-extension|Self-adjoint extensions]] are controlled by the two deficiency subspaces \(\ker(A^*-iI)\) and \(\ker(A^*+iI)\); equal deficiency dimensions permit extensions, while both dimensions zero force self-adjointness [Schmüdgen, chapter 1 and part VI](https://doi.org/10.1007/978-94-007-4753-1).
+A [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint unbounded operator]] is symmetric, but a symmetric operator can have a strictly larger adjoint domain. [[functional-analysis/self-adjoint-extension|Self-adjoint extensions]] are controlled by the two deficiency subspaces \(\ker(A^*-iI)\) and \(\ker(A^*+iI)\); equal deficiency dimensions permit extensions, while both dimensions zero force self-adjointness.
 
 ## Example and warning
 

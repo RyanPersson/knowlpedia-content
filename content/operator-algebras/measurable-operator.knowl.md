@@ -25,22 +25,19 @@ Measurability is equivalent to the existence of \(s\geq0\) for which the
 spectral tail \(E^{|T|}((s,\infty))\) is a finite projection. Once one such
 tail is finite, every higher tail is finite and the projections
 \(E^{|T|}([0,n])\) supply a strongly dense domain. This formulation makes the
-definition independent of a chosen approximating sequence
-[Nelson, pp. 103–106](https://doi.org/10.1016/0022-1236%2874%2990014-7).
+definition independent of a chosen approximating sequence.
 
 ## Algebra and examples
 
 The measurable operators form a unital [[operator-algebras/involutive-algebra|involutive algebra]] \(S(M)\) when sums,
 products, and adjoints are taken with their natural closed extensions. This is
 the noncommutative analogue of the algebra of almost-everywhere finite
-[[measure-theory/measurable-function|measurable functions]]
-[Segal, pp. 401–457](https://doi.org/10.2307/1969729).
+[[measure-theory/measurable-function|measurable functions]].
 
 If \(M\) is finite, every closed densely defined affiliated operator is
 measurable. At the other extreme, for \(M=B(H)\) on an infinite-dimensional
 [[linear-algebra/hilbert-space|Hilbert space]], finite projections have finite-dimensional range and
-\(S(M)=B(H)\); the definition admits no genuinely unbounded operators there
-[Nelson, pp. 103–106](https://doi.org/10.1016/0022-1236%2874%2990014-7).
+\(S(M)=B(H)\); the definition admits no genuinely unbounded operators there.
 
 ## Conventions and scope
 

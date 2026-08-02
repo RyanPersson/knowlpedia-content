@@ -34,8 +34,7 @@ compatible with left and right multiplication by \(A\). Faithfulness makes
 forming \(x^*x\) and extracting its identity coefficient. The construction is
 canonical, so it does not depend on a choice of faithful representation used
 to realize the [[operator-algebras/reduced-crossed-product|reduced crossed
-product]]
-[Brown–Ozawa, §4.1](https://doi.org/10.1090/gsm/088).
+product]].
 
 ## Example
 

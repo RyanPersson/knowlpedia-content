@@ -38,3 +38,16 @@ so \(\rho\) is a \(2\)-fold covering map. For \(n\ge 3\), \(\mathrm{Spin}(n)\) i
 
 ## Lie algebra and context
 The differential \(d\rho_e\) is an isomorphism of Lie algebras, so the Lie algebra of \(\mathrm{Spin}(n)\) is canonically identified with the [[lie-groups/orthogonal-lie-algebra|orthogonal Lie algebra]] \(\mathfrak{so}(n)\). This makes \(\mathrm{Spin}(n)\) fundamental in topology and representation theory: “spin representations” are representations of \(\mathrm{Spin}(n)\) that do not descend to \(SO(n)\), reflecting the nontriviality of the covering.
+
+## Positive-definite scope
+
+This knowl uses a positive-definite inner product, which has signature \((0,n)\) in this collection's negative-first ordering, and the Clifford convention \(v^2=-\langle v,v\rangle\). For a quadratic form of mixed signature, the related groups \(\operatorname{Pin}(p,q)\), \(\operatorname{Spin}(p,q)\), and their identity components require additional component bookkeeping; see [[lie-groups/indefinite-spin-group|indefinite spin group]]. In the Lorentzian case,
+\[
+\operatorname{Spin}^+(1,3)\cong SL(2,\mathbb C)_{\mathbb R}.
+\]
+This link does not redefine the compact group \(\operatorname{Spin}(n)\) treated above.
+
+## References
+
+1. H. Blaine Lawson and Marie-Louise Michelsohn, *Spin Geometry*, Princeton University Press, 1989, Chapter I, §§2–5. [Publisher record](https://doi.org/10.1515/9781400883912).
+2. Thomas Friedrich, *Dirac Operators in Riemannian Geometry*, AMS, 2000, §1.3. [Publisher record](https://doi.org/10.1090/gsm/025).

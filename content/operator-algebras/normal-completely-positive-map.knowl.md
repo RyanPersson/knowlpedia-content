@@ -30,8 +30,7 @@ Normality is equivalent to the existence of a bounded preadjoint
 \qquad(\omega\in N_*,\ x\in M).
 \]
 This makes normal CP maps compatible with the intrinsic preduals of von
-Neumann algebras. The order and predual characterizations of normality are
-developed in [Takesaki, Chapter III, §§2–3](https://doi.org/10.1007/978-1-4612-6188-9).
+Neumann algebras.
 
 ## Examples and closure properties
 
@@ -50,7 +49,7 @@ normality does not imply complete positivity. A
 positive. A normal CP map need not preserve the identity; imposing
 \(\Phi(1_M)=1_N\) gives a
 [[operator-algebras/normal-unital-completely-positive-map|normal unital
-[[operator-algebras/completely-positive-map|completely positive map]]]].
+completely positive map]].
 
 ## References
 

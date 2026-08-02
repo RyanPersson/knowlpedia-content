@@ -26,8 +26,7 @@ unitarity is an additional property of particular Langlands parameters.
 
 Every irreducible [[lie-groups/admissible-representation-real-reductive-group|admissible representation]] of \(G\) is the Langlands quotient
 of some standard module. With a fixed positive system, the inducing data are
-unique up to the standard conjugacies and equivalences on the Levi factor
-[Langlands, §3, Lemmas 3.13–3.14, and §4, Lemma 4.2](https://publications.ias.edu/sites/default/files/classification-algebraic-groups_rpl_7.pdf).
+unique up to the standard conjugacies and equivalences on the Levi factor.
 This makes the quotient construction a parametrization theorem, not merely a
 way to manufacture examples.
 

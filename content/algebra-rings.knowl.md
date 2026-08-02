@@ -173,3 +173,15 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-rings/prime-subfield|Every field has prime subfield ≅ ℚ or 𝔽_p]]
 - [[algebra-rings/finite-integral-domain-is-field|Every finite integral domain is a field]]
 - [[algebra-rings/finite-division-ring-commutative|Every finite division ring is commutative (Wedderburn)]]
+
+## Formal power series and generalized coefficient systems
+
+- [[algebra-rings/formal-power-series-ring|Formal power series ring]]
+- [[algebra-rings/multivariable-formal-power-series-ring|Multivariable formal power series ring]]
+- [[algebra-rings/substitution-of-formal-power-series|Substitution of formal power series]]
+- [[algebra-rings/formal-inverse-function-theorem|Formal inverse function theorem]]
+- [[algebra-rings/semiring|Semiring]]
+- [[algebra-rings/semifield|Semifield]]
+- [[algebra-rings/idempotent-semiring|Idempotent semiring]]
+- [[algebra-rings/idempotent-semifield|Idempotent semifield]]
+- [[algebra-rings/tropical-semifield|Tropical semifield]]

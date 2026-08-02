@@ -27,7 +27,7 @@ More generally, the axiom ensures that represented one-forms
 \[
 \sum_j a_j[D,b_j]
 \]
-are compatible with the right \(\mathcal A\)-module structure. This is the reason the condition is separated from the bimodule-producing order-zero axiom [Connes and Marcolli, equation (1.473)](https://doi.org/10.1090/coll/055).
+are compatible with the right \(\mathcal A\)-module structure. This is the reason the condition is separated from the bimodule-producing order-zero axiom.
 
 ## Example and near miss
 

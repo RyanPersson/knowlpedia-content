@@ -21,7 +21,7 @@ For local coordinates \(q^1,\ldots,q^n\) on \(M\) and induced fiber coordinates 
 \[
 \theta=\sum_{i=1}^n p_i\,dq^i.
 \]
-Although this formula is coordinate-dependent in appearance, the defining evaluation formula proves that the one-form is intrinsic. The construction and its coordinate calculation are given in [Cannas da Silva, §1.2](https://doi.org/10.1007/978-3-540-45330-7).
+Although this formula is coordinate-dependent in appearance, the defining evaluation formula proves that the one-form is intrinsic.
 
 ## Canonical symplectic form
 

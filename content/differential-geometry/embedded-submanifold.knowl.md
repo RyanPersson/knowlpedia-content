@@ -10,13 +10,13 @@ section_mode = "progressive"
 
 Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. A subset \(S\subseteq M\) is a \(k\)-dimensional **embedded submanifold** if every \(p\in S\) has a [[fiber-bundles/smooth-chart|smooth chart]] \((U,\varphi)\) of \(M\) such that
 \[
-\varphi(U\cap S)=\varphi(U)\cap(\mathbb R^k\times\{0\}) .
+\varphi(U\cap S)=\varphi(U)\cap(\mathbb R^k\times\{0\}).
 \]
 The set \(S\) is given the [[topology/subspace-topology|subspace topology]] and the smooth structure induced by these [[differential-geometry/submanifold-chart|slice charts]]. With this structure the inclusion \(S\hookrightarrow M\) is a [[fiber-bundles/smooth-embedding|smooth embedding]], and the codimension of \(S\) is \(n-k\).
 
 ## Equivalent intrinsic formulation
 
-Equivalently, \(S\) is a smooth manifold with its subspace topology such that its inclusion into \(M\) is a smooth embedding. The local coordinate-plane condition determines this smooth structure uniquely. A map \(f:N\to S\) from a smooth manifold is smooth exactly when the composite \(N\to S\hookrightarrow M\) is smooth [Lee, Chapter 5](https://doi.org/10.1007/978-1-4419-9982-5).
+Equivalently, \(S\) is a smooth manifold with its subspace topology such that its inclusion into \(M\) is a smooth embedding. The local coordinate-plane condition determines this smooth structure uniquely. A map \(f:N\to S\) from a smooth manifold is smooth exactly when the composite \(N\to S\hookrightarrow M\) is smooth.
 
 ## Standard constructions
 

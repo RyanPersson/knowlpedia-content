@@ -36,7 +36,7 @@ For \(G=\mathbb R^n\), one recovers the ordinary Schwartz space. If \(G\) is dis
 
 ## Conventions and scope
 
-The notations \(\mathcal S(G)\), \(\mathcal D(G)\), and “Bruhat space” vary across sources. The quotient-based definition is essential: a general locally compact [[algebra-groups/abelian-group|abelian group]] need not itself be a [[fiber-bundles/lie-group|Lie group]] or admit coordinates in which derivatives and polynomial weights can be written directly. Bruhat’s construction and its Fourier invariance are developed in [Bruhat, pp. 60–61](https://doi.org/10.24033/bsmf.1559).
+The notations \(\mathcal S(G)\), \(\mathcal D(G)\), and “Bruhat space” vary across sources. The quotient-based definition is essential: a general locally compact [[algebra-groups/abelian-group|abelian group]] need not itself be a [[fiber-bundles/lie-group|Lie group]] or admit coordinates in which derivatives and polynomial weights can be written directly.
 
 ## References
 

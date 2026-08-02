@@ -24,7 +24,7 @@ If \(\dim M<\dim N\), no differential \(T_pM\to T_{f(p)}N\) can be surjective, s
 
 ## Conventions and scope
 
-“Singular point” is often used synonymously with critical point. In immersion theory, however, an author may instead call a point singular when \(df_p\) fails to be injective. The convention here is the one used for [[fiber-bundles/regular-value|regular values]] and [[differential-geometry/sards-theorem|Sard's theorem]]: critical means failure of surjectivity. Compare [Guillemin–Pollack, Chapter 1](https://doi.org/10.1090/chel/370).
+“Singular point” is often used synonymously with critical point. In immersion theory, however, an author may instead call a point singular when \(df_p\) fails to be injective. The convention here is the one used for [[fiber-bundles/regular-value|regular values]] and [[differential-geometry/sards-theorem|Sard's theorem]]: critical means failure of surjectivity.
 
 ## References
 

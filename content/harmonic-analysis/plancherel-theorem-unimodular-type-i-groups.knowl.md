@@ -33,8 +33,7 @@ Second countability supplies the standard measurable framework, and the type
 I condition makes irreducible direct-integral decomposition essentially
 unique. Unimodularity removes the Duflo–Moore operators required in the
 general nonunimodular formula. Thus the theorem is not merely an \(L^2\)
-estimate: its clean operator-valued target depends on all three hypotheses
-[Folland, Theorem 7.50](https://doi.org/10.1201/B19172).
+estimate: its clean operator-valued target depends on all three hypotheses.
 
 ## Regular-representation disintegration
 

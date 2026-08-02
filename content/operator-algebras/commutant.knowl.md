@@ -20,7 +20,7 @@ The commutant is a unital [[operator-algebras/involutive-algebra|\(*\)-subalgebr
 
 ## Bicommutants and operator algebras
 
-The [[operator-algebras/von-neumann-bicommutant-theorem|von Neumann bicommutant theorem]] says that for a unital self-adjoint subalgebra \(A\subseteq\mathcal B(\mathcal H)\), the bicommutant \(A''\) equals both its strong-operator and weak-operator closures [Takesaki, Chapter III, §2](https://doi.org/10.1007/978-1-4612-6188-9). This makes commutants a central bridge between algebraic relations and operator-topological closure.
+The [[operator-algebras/von-neumann-bicommutant-theorem|von Neumann bicommutant theorem]] says that for a unital self-adjoint subalgebra \(A\subseteq\mathcal B(\mathcal H)\), the bicommutant \(A''\) equals both its strong-operator and weak-operator closures. This makes commutants a central bridge between algebraic relations and operator-topological closure.
 
 ## Examples
 

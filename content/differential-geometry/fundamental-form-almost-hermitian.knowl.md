@@ -24,7 +24,7 @@ Conversely, compatible pairs among \(J\), \(g\), and \(\omega\), together with t
 
 ## Closedness and integrability
 
-If \(d\omega=0\), the almost-Hermitian structure is called almost Kähler, and \(\omega\) is a symplectic form. If \(J\) is [[differential-geometry/integrable-almost-complex-structure|integrable]], the structure is Hermitian. It is Kähler when both conditions hold. Neither [[fiber-bundles/closed-differential-form|closedness]] of \(\omega\) nor integrability of \(J\) follows from compatibility alone; see [Huybrechts, Chapter 3](https://doi.org/10.1007/b137952).
+If \(d\omega=0\), the almost-Hermitian structure is called almost Kähler, and \(\omega\) is a symplectic form. If \(J\) is [[differential-geometry/integrable-almost-complex-structure|integrable]], the structure is Hermitian. It is Kähler when both conditions hold. Neither [[fiber-bundles/closed-differential-form|closedness]] of \(\omega\) nor integrability of \(J\) follows from compatibility alone.
 
 ## Conventions and scope
 

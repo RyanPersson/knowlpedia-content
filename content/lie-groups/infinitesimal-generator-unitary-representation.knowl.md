@@ -36,8 +36,7 @@ d\pi(X)=iA_X,
 \]
 The first equality denotes equality of the two actions on the smooth-vector
 domain, not equality of maximal operators. The derived operator is
-essentially skew-adjoint there, and its closure is \(iA_X\)
-[Warner, §4.4](https://doi.org/10.1007/978-3-642-50275-0).
+essentially skew-adjoint there, and its closure is \(iA_X\).
 
 ## Covariance and common domains
 

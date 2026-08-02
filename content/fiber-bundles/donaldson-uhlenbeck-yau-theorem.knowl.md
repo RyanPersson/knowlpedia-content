@@ -30,18 +30,13 @@ The differential-geometric direction shows that a Hermitian Yang–Mills
 connection forces the slope inequalities and a splitting at equality; hence
 the associated holomorphic bundle is polystable. The analytic direction
 constructs a Hermitian–Einstein metric from stability by solving a nonlinear
-elliptic equation. Donaldson established the correspondence for complex
-algebraic surfaces, while Uhlenbeck and Yau proved the stable existence
-theorem on compact Kähler manifolds
-[Donaldson, pp. 1–26](https://doi.org/10.1112/plms/s3-50.1.1);
-[Uhlenbeck–Yau, pp. S257–S293](https://doi.org/10.1002/cpa.3160390714).
+elliptic equation.
 
 ## Stable and polystable forms
 
 If \(E\) is stable, its Hermitian–Einstein metric is unique up to multiplication
 by a positive scalar, and its Hermitian Yang–Mills connection is irreducible
-and unique up to unitary gauge
-[Uhlenbeck–Yau, pp. S257–S293](https://doi.org/10.1002/cpa.3160390714).
+and unique up to unitary gauge.
 If \(E\) is polystable, write
 \[
 E=\bigoplus_j E_j

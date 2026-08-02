@@ -31,8 +31,7 @@ Every UCP map has norm one and is contractive. It also satisfies the
 \]
 Complete positivity is stronger than needed for this inequality—unital
 \(2\)-positivity suffices—but it supplies stable matrix-level control.
-Compositions and [[convex-analysis/convex-combination|convex combinations]] of UCP maps are again UCP
-[Paulsen, Chapters 2–3](https://doi.org/10.1017/CBO9780511546631).
+Compositions and [[convex-analysis/convex-combination|convex combinations]] of UCP maps are again UCP.
 
 The elements \(a\) for which equality holds both for \(a^*a\) and \(aa^*\)
 form the multiplicative domain of \(\Phi\). On that \(C^*\)-subalgebra,
@@ -49,8 +48,7 @@ where \(\pi:A\to\mathcal B(K)\) is a unital
 [[operator-algebras/cstar-representation|representation]] and \(V:H\to K\)
 is an isometry. Conversely, every such compression is UCP.
 Unitality is exactly what changes the general Stinespring operator \(V\) into
-an isometry, since \(\Phi(1_A)=V^*V\)
-[Paulsen, Chapter 4](https://doi.org/10.1017/CBO9780511546631).
+an isometry, since \(\Phi(1_A)=V^*V\).
 
 ## Examples and distinctions
 

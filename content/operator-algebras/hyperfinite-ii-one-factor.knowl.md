@@ -18,10 +18,9 @@ A_1\subseteq A_2\subseteq\cdots\subseteq M
 whose union is
 [[operator-algebras/strong-operator-topology|strong-operator dense]] in
 \(M\). Such a factor is also called
-approximately finite-dimensional. Murray and von Neumann proved that any two
-factors satisfying these conditions are isomorphic, so the definition
-determines a single isomorphism class, conventionally denoted \(R\)
-[Murray–von Neumann, uniqueness theorem for approximately finite factors](https://doi.org/10.2307/1969107).
+approximately finite-dimensional. Any two factors satisfying these
+conditions are isomorphic, so the definition determines a single isomorphism
+class, conventionally denoted \(R\).
 Hyperfiniteness is
 an approximation property; \(R\) itself is infinite-dimensional.
 
@@ -42,10 +41,8 @@ sequences of matrix algebras produces the same factor up to isomorphism.
 ## Injectivity and uniqueness
 
 For factors with separable predual, hyperfiniteness is equivalent to
-injectivity. Connes proved this implication in the course of classifying
-injective factors; in type \(\mathrm{II}_1\), it identifies every injective
-factor with \(R\)
-[Connes, main classification theorem in the type II₁ case](https://doi.org/10.2307/1971057).
+injectivity. In type \(\mathrm{II}_1\), the equivalence identifies every
+injective factor with \(R\).
 This equivalence is a theorem, not part of the defining approximation
 property.
 

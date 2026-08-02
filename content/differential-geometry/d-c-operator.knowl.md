@@ -37,7 +37,7 @@ d^c_{\mathrm{Dem}}=\frac{1}{2\pi i}(\partial-\bar\partial)
 \qquad
 dd^c_{\mathrm{Dem}}=\frac{i}{\pi}\partial\bar\partial
 \]
-in [Chapter III, §3](https://www-fourier.univ-grenoble-alpes.fr/~demailly/manuscripts/agbook.pdf). Other texts insert a factor \(1/2\) or reverse the sign. Formulas involving \(d^c\), \(dd^c\), curvature, or [[differential-geometry/local-kahler-potential|Kähler potentials]] must therefore be interpreted with their stated convention.
+Other texts insert a factor \(1/2\) or reverse the sign. Formulas involving \(d^c\), \(dd^c\), curvature, or [[differential-geometry/local-kahler-potential|Kähler potentials]] must therefore be interpreted with their stated convention.
 
 ## References
 

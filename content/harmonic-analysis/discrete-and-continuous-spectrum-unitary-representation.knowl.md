@@ -20,13 +20,13 @@ The discrete part can be organized as a [[harmonic-analysis/hilbert-direct-sum-u
 
 ## Standard examples
 
-The [[harmonic-analysis/regular-representations-locally-compact-group|regular representation]] of a compact group is purely discrete: the [[lie-groups/peter-weyl-theorem|Peter–Weyl theorem]] decomposes it as a Hilbert sum of finite-dimensional irreducibles [Folland, chapter on compact groups](https://doi.org/10.1201/B19172). The translation representation of \(\mathbb R\) on \(L^2(\mathbb R)\) is purely continuous; Fourier transformation diagonalizes translations over the continuum of characters, but no character occurs as an \(L^2\) invariant line.
+The [[harmonic-analysis/regular-representations-locally-compact-group|regular representation]] of a compact group is purely discrete: the [[lie-groups/peter-weyl-theorem|Peter–Weyl theorem]] decomposes it as a Hilbert sum of finite-dimensional irreducibles. The translation representation of \(\mathbb R\) on \(L^2(\mathbb R)\) is purely continuous; Fourier transformation diagonalizes translations over the continuum of characters, but no character occurs as an \(L^2\) invariant line.
 
 ## Conventions and scope
 
 **Warning.** This terminology concerns decomposition of a [[algebra-representation-theory/group-representation|group representation]]. It is not the point, continuous, or residual spectrum of a single operator, although the notions agree in some one-parameter examples after applying the spectral theorem. Some authors reserve “discrete series” for irreducible representations occurring discretely in a [[algebra-representation-theory/regular-representation|regular representation]], which is a narrower use.
 
-For separable representations of type I groups, the direct-integral formulation and the distinction between atomic and nonatomic spectral measure are treated in [Folland, §7.4](https://doi.org/10.1201/B19172).
+For separable representations of type I groups.
 
 ## References
 

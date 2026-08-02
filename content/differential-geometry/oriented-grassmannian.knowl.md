@@ -31,7 +31,7 @@ The corresponding quotient for the ordinary Grassmannian uses \(S(O(k)\times O(n
 
 ## Tautological orientation and universal role
 
-The pullback of the [[differential-geometry/tautological-bundle-grassmannian|tautological rank-\(k\) bundle]] from \(\operatorname{Gr}_k(V)\) has fiber \(W\) over \((W,o)\), equipped with the orientation \(o\). It is therefore canonically an [[fiber-bundles/orientation-of-a-real-vector-bundle|oriented vector bundle]]. In the stable limit, oriented Grassmannians serve as classifying spaces for oriented real [[fiber-bundles/vector-bundle|vector bundles]], and the tautological orientation supports the [[fiber-bundles/euler-class|Euler class]] and oriented characteristic constructions; see [Milnor–Stasheff, §§5 and 9](https://doi.org/10.1515/9781400881826).
+The pullback of the [[differential-geometry/tautological-bundle-grassmannian|tautological rank-\(k\) bundle]] from \(\operatorname{Gr}_k(V)\) has fiber \(W\) over \((W,o)\), equipped with the orientation \(o\). It is therefore canonically an [[fiber-bundles/orientation-of-a-real-vector-bundle|oriented vector bundle]]. In the stable limit, oriented Grassmannians serve as classifying spaces for oriented real [[fiber-bundles/vector-bundle|vector bundles]], and the tautological orientation supports the [[fiber-bundles/euler-class|Euler class]] and oriented characteristic constructions.
 
 ## Examples and boundary cases
 

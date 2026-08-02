@@ -14,7 +14,7 @@ Let \(M\subseteq B(H)\) be a concrete
 \(\xi,\eta\in H\), the **vector functional**
 \(\omega_{\xi,\eta}:M\to\mathbb C\) is
 \[
-\omega_{\xi,\eta}(x)=\langle x\xi,\eta\rangle .
+\omega_{\xi,\eta}(x)=\langle x\xi,\eta\rangle.
 \]
 Here the [[linear-algebra/inner-product|inner product]] is taken to be linear
 in its first variable. The functional is bounded and normal, and
@@ -36,8 +36,7 @@ Every vector functional belongs to the
 \]
 Thus vector functionals linearly generate the predual, although a given
 [[operator-algebras/normal-functional|normal functional]] need not be a
-single vector functional in the chosen representation
-[Kadison–Ringrose, §5.2](https://doi.org/10.1090/gsm/015).
+single vector functional in the chosen representation.
 
 ## Concrete examples
 

@@ -20,7 +20,7 @@ Equivalently, every point has a neighborhood [[differential-geometry/symplectomo
 
 ## Proof idea
 
-Moser's path method interpolates between \(\omega\) and its constant value at \(x\), after arranging equality along the chosen point. One solves a time-dependent contraction equation for a [[fiber-bundles/vector-field|vector field]] and integrates its local flow. The resulting isotopy pulls the interpolating forms back to the initial one; see [Cannas da Silva, §1.3](https://doi.org/10.1007/978-3-540-45330-7).
+Moser's path method interpolates between \(\omega\) and its constant value at \(x\), after arranging equality along the chosen point. One solves a time-dependent contraction equation for a [[fiber-bundles/vector-field|vector field]] and integrates its local flow. The resulting isotopy pulls the interpolating forms back to the initial one.
 
 ## Consequences
 

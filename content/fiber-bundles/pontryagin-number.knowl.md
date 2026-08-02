@@ -10,8 +10,7 @@ section_mode = "progressive"
 
 Let \(M\) be a closed oriented \(4k\)-manifold and let \(E\to M\) be a real [[fiber-bundles/vector-bundle|vector bundle]]. For a partition \(\lambda=(\lambda_1,\ldots,\lambda_\ell)\) of \(k\), the associated **Pontryagin number** is
 \[
-p_\lambda(E)[M]
-:=
+p_\lambda(E)[M]:=
 \left\langle
 p_{\lambda_1}(E)\smile\cdots\smile p_{\lambda_\ell}(E),
 [M]\right\rangle\in\mathbb Z.
@@ -23,7 +22,7 @@ orientation of \(M\).
 
 ## Bordism and the signature
 
-Tangent-bundle Pontryagin numbers are [[fiber-bundles/characteristic-number|characteristic numbers]] and are invariant under [[differential-geometry/oriented-cobordism|oriented bordism]]. Together with Stiefel–Whitney numbers they detect oriented bordism classes. Rationally, the Pontryagin numbers alone detect the oriented bordism class modulo torsion [Milnor–Stasheff, §§16–17](https://doi.org/10.1515/9781400881826).
+Tangent-bundle Pontryagin numbers are [[fiber-bundles/characteristic-number|characteristic numbers]] and are invariant under [[differential-geometry/oriented-cobordism|oriented bordism]]. Together with Stiefel–Whitney numbers they detect oriented bordism classes. Rationally, the Pontryagin numbers alone detect the oriented bordism class modulo torsion.
 
 The Hirzebruch signature theorem expresses the signature of a closed oriented \(4k\)-manifold as evaluation of the \(L\)-polynomial in its [[fiber-bundles/pontryagin-class|Pontryagin classes]]. In dimension four this reads
 \[

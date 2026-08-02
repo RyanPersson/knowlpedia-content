@@ -32,8 +32,6 @@ Writing \(L_y g(x)=g(y^{-1}x)\), the value \((f*g)(x)\) averages the left transl
 
 For non-unimodular groups, inversion does not preserve a left Haar measure. The natural star operation on the convolution algebra must therefore include the [[harmonic-analysis/modular-function|modular function]]. The precise correction is recorded in the [[harmonic-analysis/convolution-involution|involution on a group convolution algebra]]; omitting it generally breaks the identity \((f*g)^*=g^{*}*f^{*}\).
 
-The construction and its measure-theoretic normalization are developed in [Folland, Chapter 2](https://www.routledge.com/A-Course-in-Abstract-Harmonic-Analysis/Folland/p/book/9781032922218).
-
 ## References
 
 1. Gerald B. Folland, *A Course in Abstract Harmonic Analysis*, 2nd ed., CRC Press, 2016. [Routledge publisher record](https://www.routledge.com/A-Course-in-Abstract-Harmonic-Analysis/Folland/p/book/9781032922218). Relevant: Chapter 2, “Convolutions.”

@@ -1,7 +1,7 @@
 +++
 id = "algebra-representation-theory/completely-reducible-representation"
 title = "Completely reducible representation"
-kind = "knowl"
+kind = "definition"
 summary = "A representation that splits as a direct sum of irreducible subrepresentations."
 aliases = ["completely-reducible-representation", "Completely reducible representation"]
 domains = ["algebra-representation-theory"]
@@ -26,7 +26,7 @@ In module language, this is exactly: \(V\) is a [[algebra-modules/semisimple-mod
 
 ### Maschke’s criterion
 If \(G\) is finite and \(\mathrm{char}(k)\nmid |G|\), then **every** finite-dimensional \(k\)-representation of \(G\) is completely reducible: this is [[algebra-representation-theory/maschkes-theorem|Maschke’s theorem]].
-In particular, over \(k=\mathbb{C}\), all finite-group representations are completely reducible (see [[algebra-representation-theory/complete-reducibility-complex|complete reducibility over \u211d/\u2102]]).
+In particular, over \(k=\mathbb{C}\), all finite-group representations are completely reducible (see [[algebra-representation-theory/complete-reducibility-complex|complete reducibility over \(\mathbb C\)]]).
 
 ## Examples
 1. **A completely reducible permutation representation of \(S_3\) over \(\mathbb{C}\).**

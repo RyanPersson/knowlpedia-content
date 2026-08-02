@@ -24,7 +24,7 @@ If \(g:B'\to B\), then
 \[
 c(g^*P)=g^*c(P),
 \]
-so a universal class determines a natural [[fiber-bundles/characteristic-class|characteristic class]] of principal \(G\)-bundles. Conversely, in the standard homotopy-theoretic setting, every such cohomological natural assignment is obtained by evaluating it on the universal bundle \(EG\to BG\). This representability principle is developed for characteristic classes in [Milnor and Stasheff, Chapter 4](https://doi.org/10.1515/9781400881826).
+so a universal class determines a natural [[fiber-bundles/characteristic-class|characteristic class]] of principal \(G\)-bundles. Conversely, in the standard homotopy-theoretic setting, every such cohomological natural assignment is obtained by evaluating it on the universal bundle \(EG\to BG\).
 
 Changing the model of \(BG\) transports \(c\) through a [[topology/homotopy-equivalence|homotopy equivalence]] and therefore does not change the resulting assignment.
 

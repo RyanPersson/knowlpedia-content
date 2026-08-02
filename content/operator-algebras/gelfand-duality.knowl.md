@@ -15,8 +15,7 @@ asserts that the [[operator-algebras/gelfand-transform|Gelfand transform]]
 A\longrightarrow C_0(\Delta(A)),\qquad a\longmapsto
 (\chi\mapsto\chi(a)),
 \]
-is an isometric \(*\)-isomorphism
-[Murphy, Theorem 2.1.10](https://doi.org/10.1016/C2009-0-22289-6), while
+is an isometric \(*\)-isomorphism, while
 evaluation gives a homeomorphism \(X\cong\Delta(C_0(X))\) for every
 [[topology/locally-compact-space|locally compact]]
 [[topology/hausdorff-space|Hausdorff space]] \(X\). Moreover, a proper

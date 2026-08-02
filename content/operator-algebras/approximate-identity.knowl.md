@@ -28,7 +28,7 @@ approximate identity, so that form is usually meant by “approximate unit” in
 One construction directs the positive contractions of \(A\) by how well they
 act as identities on finite subsets. Functional calculus applied to finite
 sums of elements \(a^*a\) then produces a net that works simultaneously on
-both sides [Pedersen, §1.4](https://doi.org/10.1016/C2016-0-03431-9).
+both sides.
 For a [[operator-algebras/closed-two-sided-ideal|closed two-sided ideal]]
 \(I\), the same theorem supplies an approximate identity lying inside \(I\).
 In a unital algebra the constant net \(e_\lambda=1_A\) is the simplest

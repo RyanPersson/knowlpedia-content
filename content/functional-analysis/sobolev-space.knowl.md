@@ -29,8 +29,7 @@ When \(p=2\), \(W^{k,2}(\Omega)\) is a
 a fractional Sobolev space defined by Fourier multipliers, interpolation, or
 local charts. On sufficiently regular domains these constructions agree in
 their appropriate ranges, but boundary behavior and quotient-versus-
-restriction definitions must be specified
-[Adams--Fournier, Chapters 3 and 7](https://www.sciencedirect.com/book/9780120441433/sobolev-spaces).
+restriction definitions must be specified.
 
 ## Completeness, density, and traces
 

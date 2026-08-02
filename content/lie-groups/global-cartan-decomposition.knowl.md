@@ -30,8 +30,8 @@ This refinement is the **\(KAK\) decomposition**.
 The polar coordinates \(g=k\exp X\) are unique. In a \(KAK\) expression the
 two compact factors need not be unique, but the chamber element \(H\) is
 unique. Without restricting \(H\) to a closed chamber, its orbit under the
-[[lie-groups/restricted-root-system|restricted Weyl group]] is the invariant
-datum [Knapp, Chapters VI–VII](https://link.springer.com/book/9780817642594).
+[[lie-groups/restricted-weyl-group|restricted Weyl group]] is the invariant
+datum.
 
 ## Geometric meaning
 

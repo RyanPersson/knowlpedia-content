@@ -34,8 +34,7 @@ Fourier integral.
 The \(p=1\) estimate follows directly from the defining integral:
 \(\lvert\widehat f(\gamma)\rvert\leq\lVert f\rVert_1\). The \(p=2\) estimate
 is equality by Plancherel's theorem. Complex interpolation between these
-endpoint operators gives the intermediate exponents
-[Folland, Chapter 4](https://doi.org/10.1201/B19172). The constant \(1\) is
+endpoint operators gives the intermediate exponents. The constant \(1\) is
 the interpolation bound for the paired Haar normalization, not necessarily
 the sharp interior constant in every concrete model.
 

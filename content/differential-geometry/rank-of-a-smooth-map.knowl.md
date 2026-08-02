@@ -26,7 +26,7 @@ If the rank is constantly \(r\) on a neighborhood of \(p\), the constant-rank th
 \[
 (x^1,\ldots,x^m)\longmapsto(x^1,\ldots,x^r,0,\ldots,0).
 \]
-This normal form explains both the image dimension \(r\) and the local fiber dimension \(m-r\). It is a theorem requiring local constancy of rank, not an alternative definition of the rank at a single point; see [Lee, Chapter 4](https://doi.org/10.1007/978-1-4419-9982-5).
+This normal form explains both the image dimension \(r\) and the local fiber dimension \(m-r\). It is a theorem requiring local constancy of rank, not an alternative definition of the rank at a single point.
 
 ## Semicontinuity and conventions
 

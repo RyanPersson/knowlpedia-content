@@ -32,7 +32,7 @@ A proper [[differential-geometry/symplectic-submanifold|symplectic submanifold]]
 
 ## Role in reduction
 
-The leaf space of the characteristic foliation is the candidate [[differential-geometry/classical-phase-space|reduced phase space]]. When that leaf space is a [[fiber-bundles/smooth-manifold|smooth manifold]] and the quotient map is a submersion, there is a unique symplectic form downstairs whose pullback is \(\omega|_C\). Without these regularity hypotheses, the quotient may be singular or non-Hausdorff, even though \(C\) is a perfectly smooth coisotropic submanifold.
+The leaf space of the characteristic foliation is the candidate [[differential-geometry/symplectic-quotient|reduced phase space]]. When that leaf space is a [[fiber-bundles/smooth-manifold|smooth manifold]] and the quotient map is a submersion, there is a unique symplectic form downstairs whose pullback is \(\omega|_C\). Without these regularity hypotheses, the quotient may be singular or non-Hausdorff, even though \(C\) is a perfectly smooth coisotropic submanifold.
 
 ## References
 

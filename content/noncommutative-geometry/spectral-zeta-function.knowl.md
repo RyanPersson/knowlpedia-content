@@ -37,8 +37,7 @@ For \(\operatorname{Re}s\) sufficiently large, Mellin transformation gives
 This relation connects small-time heat asymptotics with poles and residues of
 the zeta function. Under regularity and suitable asymptotic hypotheses,
 weighted zeta functions are the analytic input for the dimension spectrum and
-local index formula
-[Connes–Moscovici, §II](https://doi.org/10.1007/BF01895667).
+local index formula.
 
 ## Conventions and scope
 

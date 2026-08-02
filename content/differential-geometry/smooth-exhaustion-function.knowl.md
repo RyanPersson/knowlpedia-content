@@ -16,7 +16,7 @@ is a [[topology/compact-set|compact set]], and the increasing family \((M_c)_{c\
 
 ## Existence and construction
 
-Every standard smooth manifold admits a smooth exhaustion function. One construction chooses a countable locally finite coordinate cover, compactly supported [[differential-geometry/bump-function|cutoff functions]] subordinate to it, and coefficients increasing rapidly enough that the resulting locally finite sum becomes proper. This is a smooth refinement of the fact that a second-countable manifold is \(\sigma\)-compact; see [Lee, chapter on smooth functions and partitions of unity](https://doi.org/10.1007/978-1-4419-9982-5).
+Every standard smooth manifold admits a smooth exhaustion function. One construction chooses a countable locally finite coordinate cover, compactly supported [[differential-geometry/bump-function|cutoff functions]] subordinate to it, and coefficients increasing rapidly enough that the resulting locally finite sum becomes proper. This is a smooth refinement of the fact that a second-countable manifold is \(\sigma\)-compact.
 
 Moreover, one can arrange additional properties, such as agreement with a prescribed function on a compact set, by modifying the construction with cutoff functions. Requiring all [[differential-geometry/critical-point-of-a-smooth-map|critical points]] to be nondegenerate is an extra Morse-theoretic refinement, not part of exhaustion.
 

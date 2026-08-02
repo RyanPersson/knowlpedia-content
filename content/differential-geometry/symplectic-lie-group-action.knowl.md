@@ -33,8 +33,7 @@ infinitesimal generator. A symplectic action satisfies
 Since \(d\omega=0\), Cartan's formula makes this equivalent to
 \(d(\iota_{\xi_M}\omega)=0\). Conversely, this infinitesimal condition implies
 that the identity component of \(G\) acts symplectically. If \(G\) is
-disconnected, its other components must still be checked separately
-[Cannas da Silva, Chapter 5](https://doi.org/10.1007/978-3-540-45330-7).
+disconnected, its other components must still be checked separately.
 
 ## Relationship to Hamiltonian actions
 

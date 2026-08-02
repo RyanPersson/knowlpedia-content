@@ -16,7 +16,7 @@ Irreducibility is equivalent to the [[operator-algebras/commutant|commutant]] co
 \[
 \pi(A)'=\mathbb C I_H.
 \]
-It is also equivalent to every nonzero vector of \(H\) being cyclic, since the closure of \(\pi(A)\xi\) is an invariant subspace. These equivalences are standard forms of [[algebra-representation-theory/schurs-lemma|Schur's lemma]] for \(C^*\)-representations [Murphy, section 3.3](https://shop.elsevier.com/books/c-algebras-and-operator-theory/murphy/978-0-08-092496-0).
+It is also equivalent to every nonzero vector of \(H\) being cyclic, since the closure of \(\pi(A)\xi\) is an invariant subspace. These equivalences are standard forms of [[algebra-representation-theory/schurs-lemma|Schur's lemma]] for \(C^*\)-representations.
 
 ## Kernels and states
 

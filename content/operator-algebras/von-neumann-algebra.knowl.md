@@ -30,8 +30,7 @@ bicommutant theorem identifies its weak-operator closure, strong-operator
 closure, and [[operator-algebras/bicommutant|double commutant]] \(A''\).
 The hypotheses matter: an arbitrary weakly closed nonself-adjoint operator
 algebra is not a von Neumann algebra. Norm closure alone produces only a
-\(C^*\)-algebra and is generally smaller
-[Takesaki, Chapter III](https://doi.org/10.1007/978-1-4612-6188-9).
+\(C^*\)-algebra and is generally smaller.
 
 ## The predual and normality
 

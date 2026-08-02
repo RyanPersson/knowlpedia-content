@@ -25,7 +25,7 @@ The compact commutator \([P,\pi(a)]\) implies that
 \[
 P_n\pi_n(u^{-1})P_n
 \]
-is a two-sided inverse to \(P_n\pi_n(u)P_n\) modulo [[linear-algebra/compact-operator|compact operators]]. Atkinson's characterization therefore makes the compression Fredholm. Homotopy of \(u\), stabilization, compact perturbation of \(F\), and stable homotopy of the cycle preserve its index. Hence the formula descends to [[operator-algebras/k1-cstar-algebra|\(K_1(A)\)]] and odd [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]. [Connes, Chapter IV, Section 1, Proposition 2(b)](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+is a two-sided inverse to \(P_n\pi_n(u)P_n\) modulo [[linear-algebra/compact-operator|compact operators]]. Atkinson's characterization therefore makes the compression Fredholm. Homotopy of \(u\), stabilization, compact perturbation of \(F\), and stable homotopy of the cycle preserve its index. Hence the formula descends to [[operator-algebras/k1-cstar-algebra|\(K_1(A)\)]] and odd [[noncommutative-geometry/analytic-k-homology|analytic K-homology]].
 
 The same construction works with an invertible representative. For a \(C^*\)-algebra, polar decomposition lets one use unitary representatives without changing the \(K_1\)-class.
 
@@ -41,7 +41,7 @@ This sign uses the convention \(\operatorname{ind}T=\dim\ker T-\dim\ker T^*\). R
 
 For nonunital \(A\), use a unitary in a matrix algebra over the [[operator-algebras/unitization|unitization]] whose scalar image is the identity. The resulting class lies in \(K_1(A)\).
 
-Some authors define the odd pairing with an overall minus sign, often to align a chosen orientation or boundary-map convention. A stated sign convention is therefore part of a numerical computation. The formula in the core agrees with Connes's Proposition 2(b).
+Some authors define the odd pairing with an overall minus sign, often to align a chosen orientation or boundary-map convention. A stated sign convention is therefore part of a numerical computation. The displayed formula fixes the convention used here.
 
 ## References
 

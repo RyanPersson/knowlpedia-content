@@ -8,7 +8,7 @@ domains = ["differential-geometry", "fiber-bundles"]
 section_mode = "progressive"
 +++
 
-Let \((M,g)\) be an oriented Riemannian \(n\)-manifold equipped with a [[fiber-bundles/spin-structure|spin structure]] \(P_{\mathrm{Spin}}(M)\to M\), and let \(\Delta_n\) be a real or complex spinor module, restricted to its spin representation of \(\mathrm{Spin}(n)\). The corresponding **spinor bundle** is the [[fiber-bundles/associated-vector-bundle|associated vector bundle]]
+Let \((M,g)\) be an oriented Riemannian \(n\)-manifold equipped with a [[fiber-bundles/spin-structure|spin structure]] \(P_{\mathrm{Spin}}(M)\to M\), and let \(\Delta_n\) be a real or complex [[differential-geometry/spinor-module|spinor module]], restricted to its spin representation of \(\mathrm{Spin}(n)\). The corresponding **spinor bundle** is the [[fiber-bundles/associated-vector-bundle|associated vector bundle]]
 \[
 S=P_{\mathrm{Spin}}(M)\times_{\mathrm{Spin}(n)}\Delta_n.
 \]
@@ -52,6 +52,29 @@ is the operator in the canonical commutative [[noncommutative-geometry/spectral-
 ## Variants
 
 A \(\mathrm{Spin}^c\) structure produces a complex spinor bundle using a representation of \(\mathrm{Spin}^c(n)\); it does not require an ordinary spin structure. Depending on dimension and signature, spin representations may also admit real or quaternionic structures. These variants should not be identified with the complex Riemannian spinor bundle without stating the relevant structure group and representation.
+
+## Pseudo-Riemannian signatures
+
+For a [[differential-geometry/pseudo-riemannian-manifold|pseudo-Riemannian
+manifold]] of constant signature \((p,q)\), the analogous construction starts
+from a \(\operatorname{Spin}(p,q)\)-structure and a specified real or complex
+\(\operatorname{Cl}(p,q)\)-module:
+\[
+S=P_{\operatorname{Spin}(p,q)}(M)
+\times_{\operatorname{Spin}(p,q)}\Delta_{p,q}.
+\]
+The ordering of \((p,q)\) and the convention \(v^2=\pm g(v,v)\) must be stated,
+because both affect the real Clifford algebra and hence the possible Majorana
+or quaternionic structures. Over \(\mathbb C\), signature does not affect the
+complexified Clifford algebra, but it still affects the real geometric group
+acting on the bundle.
+
+The analytic behavior also changes with signature. On a Riemannian manifold
+the spin Dirac operator is elliptic. For the dedicated Lorentzian construction,
+see the [[differential-geometry/lorentzian-spinor-bundle|Lorentzian spinor
+bundle]]. Its relativistic Dirac operator is of hyperbolic type, so the
+closed-Riemannian self-adjointness statement above must not be transferred
+without specifying a spacetime, a Cauchy problem, and an analytic realization.
 
 ## References
 

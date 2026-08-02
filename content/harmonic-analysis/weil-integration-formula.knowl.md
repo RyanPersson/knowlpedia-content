@@ -14,7 +14,7 @@ Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]
 \]
 and a regular measure \(d\dot g\) on the
 [[harmonic-analysis/locally-compact-homogeneous-space|locally compact
-[[lie-groups/homogeneous-space|homogeneous space]]]] \(G/H\) such that every \(f\in C_c(G)\) satisfies
+homogeneous space]] \(G/H\) such that every \(f\in C_c(G)\) satisfies
 \[
 \int_G f(g)\rho(g)\,dg
 =\int_{G/H}\int_H f(gh)\,dh\,d\dot g.
@@ -27,7 +27,7 @@ The quotient \(G/H\) admits a nonzero \(G\)-invariant regular measure exactly wh
 \[
 \Delta_G|_H=\Delta_H.
 \]
-Under this condition one may take \(\rho=1\), so the formula becomes a literal decomposition of Haar integration into integration along the fibers \(gH\) and integration over the quotient. The quotient measure is then unique up to a positive scalar; its normalization changes inversely when the Haar measure on \(H\) is rescaled [Folland, Chapter 2](https://doi.org/10.1201/B19172).
+Under this condition one may take \(\rho=1\), so the formula becomes a literal decomposition of Haar integration into integration along the fibers \(gH\) and integration over the quotient. The quotient measure is then unique up to a positive scalar; its normalization changes inversely when the Haar measure on \(H\) is rescaled.
 
 ## Role of the rho-function
 

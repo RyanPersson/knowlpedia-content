@@ -16,7 +16,7 @@ for all \(g\in G\) and \(v\in E\), where \(\lVert\cdot\rVert\) is any fixed alge
 
 ## The role of the three conditions
 
-Smoothness requires every [[fiber-bundles/orbit-map|orbit map]] \(g\mapsto\pi(g)v\) to be smooth. Admissibility is algebraic: \(E_K\) has finite \(K\)-multiplicities and is finitely generated over \(U(\mathfrak g)\). Moderate growth controls every defining seminorm uniformly by a polynomial scale on \(G\). Replacing the algebraic scale by an equivalent one does not change the condition. Bernstein and Krötz formulate these objects as smooth admissible moderate-growth Fréchet representations, the objects of their category \(\mathcal{SAF}\) [Bernstein–Krötz, Introduction and §1.3](https://doi.org/10.1007/s11856-013-0056-1).
+Smoothness requires every [[fiber-bundles/orbit-map|orbit map]] \(g\mapsto\pi(g)v\) to be smooth. Admissibility is algebraic: \(E_K\) has finite \(K\)-multiplicities and is finitely generated over \(U(\mathfrak g)\). Moderate growth controls every defining seminorm uniformly by a polynomial scale on \(G\). Replacing the algebraic scale by an equivalent one does not change the condition. Bernstein and Krötz formulate these objects as smooth admissible moderate-growth Fréchet representations, the objects of their category \(\mathcal{SAF}\).
 
 ## Structure and consequences
 
@@ -24,7 +24,7 @@ The underlying Fréchet space of a Casselman–Wallach representation is nuclear
 
 ## Examples and near-misses
 
-If \(V\) is a Harish–Chandra module, its canonical smooth globalization \(V^\infty\) is the basic example. Smooth vectors in a Hilbert globalization also give a Casselman–Wallach representation once their \(K\)-finite part is \(V\) and moderate growth is verified [Bernstein–Krötz, §4.1](https://doi.org/10.1007/s11856-013-0056-1). A smooth Fréchet representation of moderate growth whose \(K\)-finite vectors have an infinite \(K\)-type multiplicity is a near-miss: it fails admissibility.
+If \(V\) is a Harish–Chandra module, its canonical smooth globalization \(V^\infty\) is the basic example. Smooth vectors in a Hilbert globalization also give a Casselman–Wallach representation once their \(K\)-finite part is \(V\) and moderate growth is verified. A smooth Fréchet representation of moderate growth whose \(K\)-finite vectors have an infinite \(K\)-type multiplicity is a near-miss: it fails admissibility.
 
 ## Conventions and scope
 

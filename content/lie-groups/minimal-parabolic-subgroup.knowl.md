@@ -29,9 +29,7 @@ The [[lie-groups/iwasawa-decomposition|Iwasawa multiplication map]]
 \(K\times A\times N\to G\) is a diffeomorphism.
 Replacing \(K\) by its centralizer \(M=Z_K(A)\) gives the subgroup \(P_0=MAN\),
 and the Iwasawa decomposition implies \(G=KP_0\). The quotient \(G/P_0\) is
-therefore compact and identifies with \(K/M\). These structural facts are
-developed in
-[Knapp, Chapter VI, §§4–5 and Chapter VII, §7](https://www.math.stonybrook.edu/~aknapp/books/beyond2.html).
+therefore compact and identifies with \(K/M\).
 
 ## Examples
 

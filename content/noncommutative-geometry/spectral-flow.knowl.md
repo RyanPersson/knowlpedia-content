@@ -17,13 +17,13 @@ It is independent of these choices; a crossing from negative to positive contrib
 
 ## Meaning of the local formula
 
-Fredholmness isolates \(0\) from the essential spectrum, so only finitely many eigenvalues lie in a sufficiently small interval around \(0\). The subdivision allows that interval to vary along the path without letting eigenvalues escape through its endpoints. Comparing the nonnegative parts at the ends of each subinterval counts the signed crossings, including multiplicity. Phillips proves choice-independence in [the definition and Proposition 2](https://doi.org/10.4153/CMB-1996-054-4).
+Fredholmness isolates \(0\) from the essential spectrum, so only finitely many eigenvalues lie in a sufficiently small interval around \(0\). The subdivision allows that interval to vary along the path without letting eigenvalues escape through its endpoints. Comparing the nonnegative parts at the ends of each subinterval counts the signed crossings, including multiplicity.
 
 No differentiability or generic-crossing assumption is required. For paths with simple transverse crossings, however, the formula reduces to the intuitive count of upward crossings minus downward crossings.
 
 ## Structure and consequences
 
-Spectral flow is invariant under fixed-endpoint homotopy, additive under concatenation, and additive under direct sums. On loops in the indefinite component of bounded self-adjoint Fredholm operators, it realizes the fundamental-group isomorphism with \(\mathbb Z\). These statements are proved in [Phillips, Proposition 3 and the theorem on pages 464–467](https://doi.org/10.4153/CMB-1996-054-4).
+Spectral flow is invariant under fixed-endpoint homotopy, additive under concatenation, and additive under direct sums. On loops in the indefinite component of bounded self-adjoint Fredholm operators, it realizes the fundamental-group isomorphism with \(\mathbb Z\).
 
 When a path joins invertible endpoints, spectral flow is stable under sufficiently small endpoint-preserving perturbations. Endpoint conventions require care when a path begins or ends with a nontrivial kernel.
 
@@ -39,9 +39,9 @@ A path of self-adjoint operators that reaches an operator with \(0\) in its esse
 
 ## Unbounded and semifinite extensions
 
-For paths of [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint unbounded Fredholm operators]], continuity must be specified. Gap-continuous paths admit a spectral-flow theory through graph projections or the Cayley transform; Riesz-continuous paths can be treated through bounded transforms. These topologies are not interchangeable without hypotheses. [Booss-Bavnbek, Lesch, and Phillips](https://arxiv.org/abs/math/0108014) give equivalent rigorous constructions for the unbounded setting.
+For paths of [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint unbounded Fredholm operators]], continuity must be specified. Gap-continuous paths admit a spectral-flow theory through graph projections or the Cayley transform; Riesz-continuous paths can be treated through bounded transforms. These topologies are not interchangeable without hypotheses.
 
-In a [[operator-algebras/semifinite-von-neumann-algebra|semifinite von Neumann algebra]], self-adjoint Breuer-Fredholm paths have a trace-valued analogue. In type \(\mathrm{II}_\infty\), it can be real-valued rather than integer-valued and is expressed using the trace dimension of spectral projections. [Carey and Phillips](https://arxiv.org/abs/math/0308161) develop this version and relate it to odd unbounded [[noncommutative-geometry/fredholm-module|Fredholm modules]] and the K-theory/K-homology pairing.
+In a [[operator-algebras/semifinite-von-neumann-algebra|semifinite von Neumann algebra]], self-adjoint Breuer-Fredholm paths have a trace-valued analogue. In type \(\mathrm{II}_\infty\), it can be real-valued rather than integer-valued and is expressed using the trace dimension of spectral projections.
 
 ## References
 

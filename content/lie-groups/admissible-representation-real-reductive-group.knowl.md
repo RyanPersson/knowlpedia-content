@@ -17,7 +17,7 @@ representation \(\tau\) of \(K\) occurs in its
 [[lie-groups/k-finite-vector|\(K\)-finite part]] \(V_K\) with finite
 multiplicity:
 \[
-\dim\operatorname{Hom}_K(E_\tau,V_K)<\infty .
+\dim\operatorname{Hom}_K(E_\tau,V_K)<\infty.
 \]
 If \(V\) is already an algebraic \(K\)-module, take \(V_K=V\). For a
 continuous unitary Hilbert representation, this says that every
@@ -38,7 +38,13 @@ length.
 
 ## Harish–Chandra's finiteness theorem
 
-For real reductive groups in the standard Harish–Chandra class, [[lie-groups/irreducible-unitary-representation|irreducible unitary representations]] are admissible. This deep theorem converts an infinite-dimensional Hilbert representation into a discrete family of finite-dimensional \(K\)-isotypic pieces; it is developed in [Wallach, §3.4](https://shop.elsevier.com/books/real-reductive-groups-i/wallach/978-0-12-732960-4) and [Knapp, Chapter VIII](https://doi.org/10.1515/9781400883974). Admissibility of a reducible representation is not automatic: an infinite Hilbert direct sum of the trivial representation has infinite multiplicity for the trivial \(K\)-type.
+For real reductive groups in the standard Harish–Chandra class,
+[[lie-groups/irreducible-unitary-representation|irreducible unitary
+representations]] are admissible. This deep theorem converts an
+infinite-dimensional Hilbert representation into a discrete family of
+finite-dimensional \(K\)-isotypic pieces. Admissibility of a reducible
+representation is not automatic: an infinite Hilbert direct sum of the
+trivial representation has infinite multiplicity for the trivial \(K\)-type.
 
 ## Conventions and scope
 

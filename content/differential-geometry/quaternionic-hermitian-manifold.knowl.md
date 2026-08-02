@@ -38,7 +38,7 @@ is unchanged by rotating the admissible frame, so it defines a global differenti
 
 ## Relationship to quaternion-Kähler geometry
 
-The quaternionic-Hermitian condition is algebraic. A quaternion-Kähler metric additionally requires its [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]] to preserve \(Q\), or equivalently that its holonomy lie in \(Sp(n)Sp(1)\); see [Besse, Chapter 14](https://doi.org/10.1007/978-3-540-74311-8). Thus a compatible metric need not be quaternion-Kähler. A [[differential-geometry/hyperhermitian-manifold|hyper-Hermitian manifold]] provides a quaternionic-Hermitian example by taking \(Q=\operatorname{span}\{I,J,K\}\), but the global triple is extra data invisible to \((Q,g)\).
+The quaternionic-Hermitian condition is algebraic. A quaternion-Kähler metric additionally requires its [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]] to preserve \(Q\), or equivalently that its holonomy lie in \(Sp(n)Sp(1)\). Thus a compatible metric need not be quaternion-Kähler. A [[differential-geometry/hyperhermitian-manifold|hyper-Hermitian manifold]] provides a quaternionic-Hermitian example by taking \(Q=\operatorname{span}\{I,J,K\}\), but the global triple is extra data invisible to \((Q,g)\).
 
 ## Conventions and scope
 

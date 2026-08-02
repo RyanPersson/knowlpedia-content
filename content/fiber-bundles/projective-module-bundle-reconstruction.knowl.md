@@ -8,7 +8,14 @@ domains = ["fiber-bundles", "algebra-modules"]
 section_mode = "progressive"
 +++
 
-Let \(M\) be a compact [[fiber-bundles/smooth-manifold|smooth manifold]], let \(\mathbb F=\mathbb R\) or \(\mathbb C\), and put \(A=C^\infty(M,\mathbb F)\). For a finitely generated [[algebra-modules/projective-summand-of-free|projective \(A\)-module]] \(Q\), choose \(N\) and an idempotent \(p\in M_N(A)\) with \(Q\cong pA^N\). The **vector bundle reconstructed from \(Q\)** is the [[fiber-bundles/vector-bundle|smooth vector bundle]]
+Let \(M\) be a finite-dimensional Hausdorff second-countable
+[[fiber-bundles/smooth-manifold|smooth manifold]], let
+\(\mathbb F\in\{\mathbb R,\mathbb C\}\), and put
+\(A=C^\infty(M,\mathbb F)\). For a finitely generated
+[[algebra-modules/projective-summand-of-free|projective \(A\)-module]] \(Q\),
+choose \(N\) and an idempotent \(p\in M_N(A)\) with \(Q\cong pA^N\). The
+**vector bundle reconstructed from \(Q\)** is the
+[[fiber-bundles/vector-bundle|smooth vector bundle]]
 \[
 E_Q=\coprod_{x\in M}\operatorname{im}p(x)\longrightarrow M.
 \]
@@ -31,11 +38,11 @@ Q\longrightarrow \Gamma(E_Q),
 \qquad
 q\longmapsto \bigl(x\mapsto q\bmod I_xQ\bigr),
 \]
-is an \(A\)-module isomorphism. Swan’s construction proves this reconstruction and the converse passage from bundles to projective section modules [Swan, §§1–3](https://doi.org/10.1090/S0002-9947-1962-0143225-6).
+is an \(A\)-module isomorphism. Swan’s construction proves this reconstruction and the converse passage from bundles to projective section modules.
 
 ## Functoriality and equivalence
 
-An \(A\)-linear map \(Q\to Q'\) induces fiber maps \(Q/I_xQ\to Q'/I_xQ'\) varying smoothly with \(x\). Consequently, reconstruction is functorial and is inverse, up to [[algebra-category-theory/natural-isomorphism|natural isomorphism]], to taking smooth sections. On compact \(M\), this gives the Serre–Swan equivalence between finite-rank smooth vector bundles and finitely generated projective \(C^\infty(M)\)-modules.
+An \(A\)-linear map \(Q\to Q'\) induces fiber maps \(Q/I_xQ\to Q'/I_xQ'\) varying smoothly with \(x\). Consequently, reconstruction is functorial and is inverse, up to [[algebra-category-theory/natural-isomorphism|natural isomorphism]], to taking smooth sections. For connected \(M\), this gives the Serre–Swan equivalence between finite-rank smooth vector bundles and finitely generated projective \(C^\infty(M,\mathbb F)\)-modules without a compactness assumption.
 
 For \(Q=eA^N\), the construction is exactly the [[fiber-bundles/serre-swan-idempotent-construction|image bundle of the idempotent]] \(e\). If \(Q=A^r\), it yields the trivial rank-\(r\) bundle.
 
@@ -47,7 +54,12 @@ idempotent splitting and constant local rank. A merely
 [[algebra-modules/finitely-generated-module|finitely generated module]] can
 have jumping fiber dimension and need not define a vector bundle.
 
-Compactness is the standard hypothesis guaranteeing the stated equivalence without conditions at infinity. Noncompact versions require care about the function algebra, finite type, support, or bounded geometry.
+On a disconnected base, a finitely generated projective module reconstructs a
+bundle whose locally constant rank is globally bounded by \(N\). Conversely,
+that bounded-rank condition is needed if the vector-bundle convention permits
+different ranks on different components. No condition at infinity is needed
+because the coefficient algebra is all of \(C^\infty(M,\mathbb F)\), rather
+than an algebra of functions vanishing at infinity.
 
 ## References
 

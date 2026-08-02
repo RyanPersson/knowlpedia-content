@@ -28,8 +28,7 @@ Every compact subgroup of \(G\) is contained in a maximal compact subgroup,
 and any two maximal compact subgroups are conjugate in \(G\). Moreover, the
 inclusion \(K\hookrightarrow G\) is a [[topology/homotopy-equivalence|homotopy equivalence]] in the standard
 Cartan setting because \(G\) is diffeomorphic to \(K\times\mathfrak p\).
-Thus many topological invariants of \(G\) can be computed from \(K\)
-[Knapp, Chapter VI, §4](https://link.springer.com/book/9780817642594).
+Thus many topological invariants of \(G\) can be computed from \(K\).
 
 ## Role in representation theory
 

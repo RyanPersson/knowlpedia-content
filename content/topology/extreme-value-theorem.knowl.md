@@ -1,14 +1,17 @@
 +++
 id = "topology/extreme-value-theorem"
 title = "Extreme value theorem"
-kind = "knowl"
-summary = "A continuous function on a compact set attains its maximum and minimum."
+kind = "theorem"
+summary = "A continuous real-valued function on a nonempty compact set attains its maximum and minimum."
 aliases = ["extreme-value-theorem", "Extreme value theorem"]
 domains = ["topology"]
 legacy_source_path = "topology/extreme-value-theorem.md"
 +++
 
-The **extreme value theorem** states: if \(f: K \to \mathbb{R}\) is a [[topology/continuous-map|continuous function]] on a [[topology/compact-set|compact set]] \(K\), then \(f\) attains its maximum and minimum values.
+The **extreme value theorem** states: if \(K\) is a nonempty
+[[topology/compact-set|compact set]] and
+\(f:K\to\mathbb R\) is a [[topology/continuous-map|continuous function]],
+then \(f\) attains its maximum and minimum values.
 
 That is, there exist \(x_{\max}, x_{\min} \in K\) such that
 \[
@@ -17,7 +20,8 @@ f(x_{\min}) \leq f(x) \leq f(x_{\max}) \quad \text{for all } x \in K.
 
 ## Classical version
 
-Every continuous function \(f:[a,b]\to\mathbb R\) attains a maximum and a minimum on \([a,b]\).
+If \(a\leq b\), every continuous function \(f:[a,b]\to\mathbb R\) attains
+a maximum and a minimum on \([a,b]\).
 
 ## Why compactness matters
 

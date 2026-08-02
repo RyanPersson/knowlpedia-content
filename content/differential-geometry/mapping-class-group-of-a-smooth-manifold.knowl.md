@@ -25,7 +25,7 @@ With the standard \(C^\infty\) topology in the compact-manifold setting, the quo
 
 ## Examples and scope
 
-For a closed oriented surface \(S_g\), the usual mapping class group is the group of orientation-preserving diffeomorphisms modulo isotopy; this convention and its variants are set out in [Farb–Margalit, §1.1](https://doi.org/10.1515/9781400839049). In higher dimensions, “mapping class group” may instead be defined using homeomorphisms, [[topology/homotopy-equivalence|homotopy equivalences]], or boundary-relative diffeomorphisms. The category must therefore be read from context.
+For a closed oriented surface \(S_g\), the usual mapping class group is the group of orientation-preserving diffeomorphisms modulo isotopy. In higher dimensions, “mapping class group” may instead be defined using homeomorphisms, [[topology/homotopy-equivalence|homotopy equivalences]], or boundary-relative diffeomorphisms. The category must therefore be read from context.
 
 ## References
 

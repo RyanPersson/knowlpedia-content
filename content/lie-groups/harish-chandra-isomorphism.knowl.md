@@ -16,7 +16,7 @@ The **Harish–Chandra isomorphism theorem** states that \(\gamma\) is an algebr
 
 ## Construction
 
-For the triangular decomposition \(\mathfrak g=\mathfrak n^-\oplus\mathfrak h\oplus\mathfrak n^+\), the [[lie-groups/pbw-theorem|PBW theorem]] gives a direct-sum complement to \(U(\mathfrak h)\) containing \(\mathfrak n^-U(\mathfrak g)+U(\mathfrak g)\mathfrak n^+\). Projecting a central element along this complement gives its unshifted Harish–Chandra projection. The \(\rho\)-translation converts invariance for the shifted Weyl action into ordinary \(W\)-invariance [Dixmier, §7.4](https://doi.org/10.1090/gsm/011).
+For the triangular decomposition \(\mathfrak g=\mathfrak n^-\oplus\mathfrak h\oplus\mathfrak n^+\), the [[lie-groups/pbw-theorem|PBW theorem]] gives a direct-sum complement to \(U(\mathfrak h)\) containing \(\mathfrak n^-U(\mathfrak g)+U(\mathfrak g)\mathfrak n^+\). Projecting a central element along this complement gives its unshifted Harish–Chandra projection. The \(\rho\)-translation converts invariance for the shifted Weyl action into ordinary \(W\)-invariance.
 
 ## Consequences for central characters
 

@@ -28,8 +28,7 @@ involution is conjugate transpose, its positive elements are the positive
 semidefinite matrices, and its norm is the largest singular value. Every
 finite-dimensional \(C^*\)-algebra is isomorphic to a finite direct sum of
 such full matrix algebras, although that classification is a theorem rather
-than part of the definition
-[Murphy, §2.1](https://doi.org/10.1016/C2009-0-22289-6).
+than part of the definition.
 
 ## Matrices over a general algebra
 

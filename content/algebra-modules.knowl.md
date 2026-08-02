@@ -62,6 +62,7 @@ This section collects definitions and results on modules over rings: submodules,
 - [[algebra-modules/artinian-module|Artinian module]]
 
 ### Projective, Injective, and Flat Modules
+- [[algebra-modules/category-of-finitely-generated-projective-modules|Category of finitely generated projective modules \(\mathbf{Proj}(A)\)]]
 - [[algebra-modules/projective-module|Projective module]]
 - [[algebra-modules/injective-module|Injective module]]
 - [[algebra-modules/flat-module|Flat module]]

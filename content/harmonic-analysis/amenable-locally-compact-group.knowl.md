@@ -35,8 +35,6 @@ Compact groups are amenable because normalized Haar integration is an invariant 
 
 Amenability can also be detected by [[harmonic-analysis/weak-containment-unitary-representations|weak containment]] of the trivial representation in the [[harmonic-analysis/regular-representations-locally-compact-group|regular representation]]. For group operator algebras, it is equivalent to injectivity of the canonical map from the full to the reduced group \(C^*\)-algebra; this equivalence is isolated in [[operator-algebras/amenability-full-reduced-equivalence|amenability and equality of full and reduced group \(C^*\)-algebras]].
 
-The invariant-mean and Reiter formulations are developed in [Paterson, *Amenability*](https://doi.org/10.1090/surv/029).
-
 ## References
 
 1. Alan L. T. Paterson, *Amenability*, Mathematical Surveys and Monographs 29, American Mathematical Society, 1988. [AMS DOI record](https://doi.org/10.1090/surv/029). Relevant: invariant means and amenability of locally compact groups.

@@ -16,7 +16,7 @@ The [[differential-geometry/atiyah-guillemin-sternberg-convexity-theorem|Atiyahâ
 
 ## Fixed points and lattice structure
 
-The polytope is the [[convex-analysis/convex-hull|convex hull]] of the moment-map values on the [[algebra-groups/fixed-point-set|fixed-point set]] \(M^T\). Every component of \(M^T\) maps to a single point. Its faces and edge directions reflect the isotropy weights of the torus action, hence are rational relative to the weight lattice determined by \(\ker(\exp:\mathfrak t\to T)\) [Guillemin, Chapter 1](https://doi.org/10.1007/978-1-4612-0269-1).
+The polytope is the [[convex-analysis/convex-hull|convex hull]] of the moment-map values on the [[algebra-groups/fixed-point-set|fixed-point set]] \(M^T\). Every component of \(M^T\) maps to a single point. Its faces and edge directions reflect the isotropy weights of the torus action, hence are rational relative to the weight lattice determined by \(\ker(\exp:\mathfrak t\to T)\).
 
 Translation does not change face directions or the normal fan, but it does change the numerical coordinates of vertices. Integrality of the vertices is an extra prequantization condition, not a consequence of Hamiltonianity alone.
 

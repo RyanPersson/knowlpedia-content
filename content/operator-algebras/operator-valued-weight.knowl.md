@@ -34,8 +34,7 @@ The weight \(T\) is normal when it preserves suprema of increasing nets in
 \]
 is ultraweakly dense in \(M\). If \(T\) is normal, faithful, and semifinite
 and \(\varphi\) is a normal semifinite faithful scalar weight on \(N\), then
-\(\varphi\circ T\) is such a weight on \(M\)
-[Haagerup, §2](https://doi.org/10.1016/0022-1236%2879%2990053-3).
+\(\varphi\circ T\) is such a weight on \(M\).
 
 ## Conditional expectations
 

@@ -32,8 +32,7 @@ Thus its range is closed, and \(\phi\) is a
 [[operator-algebras/star-isomorphism|\(*\)-isomorphism]] from \(A\) onto the
 [[operator-algebras/cstar-subalgebra|\(C^*\)-subalgebra]] \(\phi(A)\).
 This automatic isometry is a specifically \(C^*\)-algebraic consequence of
-the \(C^*\)-identity and spectral theory
-[Murphy, §2.1](https://doi.org/10.1016/C2009-0-22289-6).
+the \(C^*\)-identity and spectral theory.
 
 The [[operator-algebras/gelfand-naimark-theorem|Gelfand–Naimark theorem]]
 therefore says that every abstract \(C^*\)-algebra admits a faithful

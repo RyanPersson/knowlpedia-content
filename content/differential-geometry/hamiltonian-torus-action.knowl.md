@@ -26,7 +26,7 @@ Lattice conventions vary: some authors define \(T=\mathfrak t/\Lambda\), while o
 
 ## Convexity and toric actions
 
-If \(M\) is compact and connected, the [[differential-geometry/atiyah-guillemin-sternberg-convexity-theorem|Atiyah–Guillemin–Sternberg convexity theorem]] says that \(\mu(M)\) is the [[convex-analysis/convex-hull|convex hull]] of the images of the \(T\)-fixed-point components; in particular it is a convex polytope [Guillemin, chapter 1](https://doi.org/10.1007/978-1-4612-0269-1). This special convexity is one reason torus actions are more rigid than general Hamiltonian [[algebra-groups/group-action|group actions]].
+If \(M\) is compact and connected, the [[differential-geometry/atiyah-guillemin-sternberg-convexity-theorem|Atiyah–Guillemin–Sternberg convexity theorem]] says that \(\mu(M)\) is the [[convex-analysis/convex-hull|convex hull]] of the images of the \(T\)-fixed-point components; in particular it is a convex polytope. This special convexity is one reason torus actions are more rigid than general Hamiltonian [[algebra-groups/group-action|group actions]].
 
 When the action is effective and \(\dim T=\frac12\dim M\), the Hamiltonian \(T\)-space is called symplectic toric. Compact connected symplectic toric manifolds are classified, up to the appropriate equivariant [[differential-geometry/symplectomorphism|symplectomorphism]], by Delzant polytopes.
 

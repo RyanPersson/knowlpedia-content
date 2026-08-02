@@ -37,9 +37,7 @@ Breuer index is
 =\tau(P_{\ker T})-\tau(P_{\ker T^*}).
 \]
 Unlike the classical Fredholm index, this value may be any real number because
-the trace of a projection in a semifinite algebra need not be integral. The
-criterion and index originate in
-[Breuer, §§1–3](https://doi.org/10.1007/BF01350663).
+the trace of a projection in a semifinite algebra need not be integral.
 
 ## Stability and examples
 
@@ -48,8 +46,7 @@ index is locally constant. Adding an element of
 \(\mathcal K(\mathcal M,\tau)\) preserves Breuer–Fredholmness and the index.
 For \(\mathcal M=B(H)\) with the ordinary trace, tau-compact operators are the
 usual [[linear-algebra/compact-operator|compact operators]], so the definition
-and index reduce to classical Fredholm theory
-[Breuer, §§1–3](https://doi.org/10.1007/BF01350663).
+and index reduce to classical Fredholm theory.
 
 If \(\tau(1)<\infty\), then
 \(\mathcal K(\mathcal M,\tau)=\mathcal M\), the quotient is zero, and the
@@ -69,8 +66,7 @@ is Breuer–Fredholm. Equivalent formulations use invertibility modulo
 tau-compact operators for the resolvent or spectral projections near zero.
 This unbounded form is the one used in
 [[noncommutative-geometry/semifinite-spectral-triple|semifinite spectral
-triples]] and [[noncommutative-geometry/spectral-flow|spectral flow]]
-[Carey–Phillips–Rennie–Sukochev, §2](https://arxiv.org/abs/math/0411019).
+triples]] and [[noncommutative-geometry/spectral-flow|spectral flow]].
 
 ## References
 

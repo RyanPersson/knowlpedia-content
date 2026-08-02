@@ -18,7 +18,7 @@ Here \(\partial M\) is intrinsic to the manifold-with-boundary structure, not th
 
 ## Intrinsic structure
 
-The invariance-of-boundary theorem makes the chart-based definition intrinsic; see [Lee, Chapter 1, “Smooth Manifolds”](https://doi.org/10.1007/978-1-4419-9982-5). The interior is an open \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] without boundary. When \(\partial M\) is nonempty, it inherits a canonical smooth structure of dimension \(n-1\) by restricting boundary charts to \(x^n=0\). In particular, the boundary of a smooth manifold with boundary is itself a smooth manifold without boundary.
+The invariance-of-boundary theorem makes the chart-based definition intrinsic. The interior is an open \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] without boundary. When \(\partial M\) is nonempty, it inherits a canonical smooth structure of dimension \(n-1\) by restricting boundary charts to \(x^n=0\). In particular, the boundary of a smooth manifold with boundary is itself a smooth manifold without boundary.
 
 Every diffeomorphism of manifolds with boundary preserves the two strata: it sends \(\partial M\) to the target boundary and \(\operatorname{Int}M\) to the target interior.
 

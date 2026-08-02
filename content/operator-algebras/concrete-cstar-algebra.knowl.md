@@ -23,7 +23,7 @@ require \(A\) to contain the identity operator unless “unital concrete
 
 The Gelfand--Naimark representation theorem says that every abstract
 \(C^*\)-algebra admits an isometric \(*\)-isomorphism onto a concrete
-\(C^*\)-algebra [Murphy, Theorem 3.4.1](https://doi.org/10.1016/C2009-0-22289-6).
+\(C^*\)-algebra.
 Thus the abstract axioms capture exactly the norm-closed adjoint-stable
 operator algebras, although a given abstract algebra can have many inequivalent
 realizations on Hilbert spaces. “Concrete” records a chosen faithful operator

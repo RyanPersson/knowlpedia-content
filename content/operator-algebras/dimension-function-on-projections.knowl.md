@@ -38,8 +38,7 @@ factor types. They are
 [[operator-algebras/type-iii-factor|type III factor]] the only scalar
 dimension function has values \(0\) and \(\infty\). This is the
 continuous-dimension
-theory underlying the classification of factors
-[Takesaki, Chapter V, §§1–2](https://doi.org/10.1007/978-1-4612-6188-9).
+theory underlying the classification of factors.
 
 ## Finite factors and traces
 

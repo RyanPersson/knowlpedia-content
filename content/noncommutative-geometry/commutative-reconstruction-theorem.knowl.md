@@ -18,7 +18,7 @@ Moreover, \(H\) is the \(L^2\)-space of sections of a finite-rank Hermitian bund
 
 The \(C^*\)-closure of \(\mathcal A\) first determines a compact [[topology/hausdorff-space|Hausdorff space]] by commutative [[operator-algebras/gelfand-duality|Gelfand duality]]. [[functional-analysis/bounded-commutator|Bounded commutators]] with \(D\), regularity, and the orienting [[noncommutative-geometry/hochschild-cycle|Hochschild cycle]] then supply smooth coordinates and show that the algebra is all of \(C^\infty(X)\), rather than merely a dense [[real-analysis/subalgebra-of-continuous-functions|subalgebra of continuous functions]]. Finiteness reconstructs the bundle of smooth sections, while [[analysis/absolute-continuity|absolute continuity]] reconstructs its \(L^2\)-measure class.
 
-Connes proves the manifold statement and uniqueness in [Theorem 11.3](https://doi.org/10.4171/JNCG/108). The associated distance formula recovers the geodesic metric once the operator has the canonical Clifford-symbol normalization.
+The associated distance formula recovers the geodesic metric once the operator has the canonical Clifford-symbol normalization.
 
 ## Hypotheses are a package
 
@@ -26,8 +26,7 @@ No single named axiom implies the conclusion. A commutative algebra with a compa
 
 The versions of the theorem also differ. Rennie and Várilly impose hypotheses
 slightly stronger than Connes’s original list and reconstruct a compact
-manifold with a [[fiber-bundles/spin-structure|spin structure]]
-[Rennie–Várilly, Theorems 7.20 and 7.26](https://arxiv.org/abs/math/0610418).
+manifold with a [[fiber-bundles/spin-structure|spin structure]].
 Connes’s later spectral-characterization theorem isolates a robust
 oriented-manifold conclusion.
 

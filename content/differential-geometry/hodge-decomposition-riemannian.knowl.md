@@ -23,7 +23,7 @@ where \(\mathcal H^k(M,g)=\ker\Delta\) is the space of
 \(\delta\Omega^{k+1}(M)\) consists of coexact forms. Thus every smooth
 \(k\)-form has a unique harmonic, exact, and coexact component. The
 decomposition depends on \(g\) and uses compactness and the absence of a
-boundary [de Cataldo, Theorem 2.3.3](https://www.math.stonybrook.edu/~mde/papers/MyHodgeTheoryBook.pdf).
+boundary.
 
 ## Orthogonality and uniqueness
 
@@ -36,8 +36,7 @@ Harmonic forms are closed and coclosed, so they are orthogonal to both
 summands. These identities show uniqueness once existence is known.
 Existence is the analytic part: elliptic theory for the
 [[differential-geometry/hodge-laplacian|Hodge Laplacian]] gives a Green
-operator on the [[linear-algebra/orthogonal-complement|orthogonal complement]] of its finite-dimensional kernel
-[Wells, Chapter IV, §2](https://doi.org/10.1007/978-0-387-73892-5).
+operator on the [[linear-algebra/orthogonal-complement|orthogonal complement]] of its finite-dimensional kernel.
 
 Equivalently,
 \[

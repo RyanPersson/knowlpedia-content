@@ -37,8 +37,6 @@ and distributional differentiation satisfy
 Either inclusion may be strict: multiplication can cancel a singularity, and
 differentiation in a direction along which a singular distribution is
 invariant can annihilate it.
-These local properties are developed in
-[Hörmander, Chapter 2](https://doi.org/10.1007/978-3-642-61497-2).
 
 ## Examples and relation to wavefront set
 

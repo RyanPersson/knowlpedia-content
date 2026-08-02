@@ -32,8 +32,7 @@ E_*:N_*\longrightarrow M_*,
 \]
 It is also equivalent to preservation of suprema of bounded increasing nets
 of projections. Tomiyama's theorem supplies positivity, complete positivity,
-and \(N\)-bimodularity from the norm-one projection hypothesis
-[Takesaki, Chapter IV, §2](https://doi.org/10.1007/978-1-4612-6188-9).
+and \(N\)-bimodularity from the norm-one projection hypothesis.
 
 ## Examples and a near-miss
 
@@ -64,8 +63,7 @@ a [[operator-algebras/faithful-normal-state|faithful normal state]]
 existence of a \(\varphi\)-preserving normal conditional expectation onto
 \(N\) by invariance of \(N\) under the
 [[operator-algebras/modular-automorphism-group|modular automorphism group]]
-\(\sigma^\varphi\)
-[Takesaki, Chapter IX, §4](https://doi.org/10.1007/978-3-662-10451-4).
+\(\sigma^\varphi\).
 
 ## References
 

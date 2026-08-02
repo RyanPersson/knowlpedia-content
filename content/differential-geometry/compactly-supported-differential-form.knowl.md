@@ -20,7 +20,7 @@ The [[fiber-bundles/exterior-derivative|exterior derivative]] maps \(\Omega_c^k(
 
 ## Integration and cohomology
 
-On an oriented \(n\)-manifold, every \(\omega\in\Omega_c^n(M)\) has a well-defined finite integral, even when \(M\) is noncompact. The complex \((\Omega_c^\bullet(M),d)\) defines [[differential-geometry/compactly-supported-de-rham-cohomology|compactly supported de Rham cohomology]]. Compact support is also the hypothesis that removes contributions “at infinity” in the compact-support version of [[differential-geometry/stokes-theorem|Stokes' theorem]]; see [Bott and Tu, chapter on de Rham theory](https://doi.org/10.1007/978-1-4757-3951-0).
+On an oriented \(n\)-manifold, every \(\omega\in\Omega_c^n(M)\) has a well-defined finite integral, even when \(M\) is noncompact. The complex \((\Omega_c^\bullet(M),d)\) defines [[differential-geometry/compactly-supported-de-rham-cohomology|compactly supported de Rham cohomology]]. Compact support is also the hypothesis that removes contributions “at infinity” in the compact-support version of [[differential-geometry/stokes-theorem|Stokes' theorem]].
 
 ## Examples and boundary cases
 

@@ -36,8 +36,7 @@ there is a unique unital \(*\)-homomorphism
 extending \(\varphi\). This property characterizes the unitization up to
 canonical unital \(*\)-isomorphism. It also records why the algebraic
 construction must be equipped with its \(C^*\)-norm and involution rather than
-treated as merely adjoining a ring identity
-[Murphy, §2.1](https://doi.org/10.1016/C2009-0-22289-6).
+treated as merely adjoining a ring identity.
 
 ## Spectra, characters, and multipliers
 

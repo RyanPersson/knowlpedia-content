@@ -30,8 +30,7 @@ contractive, with norm and completely bounded norm equal to one when the
 codomain is nonzero. It preserves spectra in the one-sided sense
 \(\sigma_B(\phi(a))\subseteq\sigma_A(a)\); equality holds when \(\phi\) is
 injective. It also commutes with continuous and holomorphic functional
-calculus. These are consequences of the \(C^*\)-identity, not extra axioms
-[Murphy, §2.1](https://doi.org/10.1016/C2009-0-22289-6).
+calculus. These are consequences of the \(C^*\)-identity, not extra axioms.
 
 ## Examples and near-misses
 
@@ -49,8 +48,7 @@ when regarded as a map into the corner \(pBp\).
 convention used here, state it separately. Universal properties must therefore
 specify whether their test morphisms are unital. A surjective
 \(*\)-homomorphism between unital \(C^*\)-algebras is automatically unital, as
-is every [[operator-algebras/star-isomorphism|\(*\)-isomorphism]] between them
-[Pedersen, §1.2](https://doi.org/10.1016/C2016-0-03431-9).
+is every [[operator-algebras/star-isomorphism|\(*\)-isomorphism]] between them.
 
 ## References
 

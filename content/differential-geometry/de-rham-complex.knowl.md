@@ -30,7 +30,7 @@ The quotient
 H_{\mathrm{dR}}^k(M)=\ker(d:\Omega^k\to\Omega^{k+1})/
 \operatorname{im}(d:\Omega^{k-1}\to\Omega^k)
 \]
-is the [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology group]]. De Rham's theorem identifies it with singular cohomology with real coefficients, so a complex built from smooth forms recovers a topological invariant [Bott and Tu, Chapter I](https://doi.org/10.1007/978-1-4757-3951-0).
+is the [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology group]]. De Rham's theorem identifies it with singular cohomology with real coefficients, so a complex built from smooth forms recovers a topological invariant.
 
 ## Functoriality
 

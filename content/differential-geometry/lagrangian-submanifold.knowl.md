@@ -25,7 +25,7 @@ for every \(x\in L\). The dimension hypothesis matters: lower-dimensional isotro
 
 ## Standard local model
 
-The [[fiber-bundles/zero-section|zero section]] of a [[fiber-bundles/cotangent-bundle|cotangent bundle]] \(T^*Q\), equipped with its canonical symplectic form, is Lagrangian. More generally, the graph of a one-form \(\alpha\) on \(Q\) is Lagrangian precisely when \(d\alpha=0\); it is the graph of \(df\) when \(\alpha\) is exact. The [[differential-geometry/lagrangian-neighborhood-theorem|Lagrangian neighborhood theorem]] says a neighborhood of any Lagrangian is symplectomorphic to a neighborhood of the zero section in \(T^*L\) [Cannas da Silva, §2.3](https://doi.org/10.1007/978-3-540-45330-7).
+The [[fiber-bundles/zero-section|zero section]] of a [[fiber-bundles/cotangent-bundle|cotangent bundle]] \(T^*Q\), equipped with its canonical symplectic form, is Lagrangian. More generally, the graph of a one-form \(\alpha\) on \(Q\) is Lagrangian precisely when \(d\alpha=0\); it is the graph of \(df\) when \(\alpha\) is exact. The [[differential-geometry/lagrangian-neighborhood-theorem|Lagrangian neighborhood theorem]] says a neighborhood of any Lagrangian is symplectomorphic to a neighborhood of the zero section in \(T^*L\).
 
 ## Constructions and examples
 

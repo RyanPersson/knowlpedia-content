@@ -28,7 +28,7 @@ The graph of \(T\) is the linear subspace \(\{(x,Tx):x\in D(T)\}\subseteq H\oplu
 
 ## Conventions and scope
 
-**Warning.** “Densely defined” does not mean “defined everywhere,” and it implies neither boundedness nor self-adjointness. An everywhere-defined closed operator between [[linear-algebra/banach-space|Banach spaces]] is bounded, but unbounded closed operators avoid that conclusion by having proper domains. The basic domain, adjoint, and closure conventions used here follow [Schmüdgen, Chapter 1](https://doi.org/10.1007/978-94-007-4753-1).
+**Warning.** “Densely defined” does not mean “defined everywhere,” and it implies neither boundedness nor self-adjointness. An everywhere-defined closed operator between [[linear-algebra/banach-space|Banach spaces]] is bounded, but unbounded closed operators avoid that conclusion by having proper domains.
 
 ## References
 

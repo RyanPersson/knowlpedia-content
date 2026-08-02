@@ -20,7 +20,7 @@ A rank-\(r\) bundle is holomorphically trivial over \(U\) exactly when it has \(
 
 ## Comparison with smooth sections
 
-Every holomorphic section is smooth, but a smooth section need not be holomorphic. In a holomorphic frame, the distinction is precisely whether its coefficient functions are holomorphic. This is stronger than pointwise complex-linearity, which is automatic for the selected vectors and imposes no differential condition [Huybrechts, §2.2](https://doi.org/10.1007/b137952).
+Every holomorphic section is smooth, but a smooth section need not be holomorphic. In a holomorphic frame, the distinction is precisely whether its coefficient functions are holomorphic. This is stronger than pointwise complex-linearity, which is automatic for the selected vectors and imposes no differential condition.
 
 ## References
 

@@ -18,7 +18,7 @@ K(\mathcal H)=\overline{\{T\in B(\mathcal H):
 \operatorname{rank}T<\infty\}}^{\lVert\cdot\rVert}.
 \]
 It is a [[operator-algebras/closed-two-sided-ideal|norm-closed,
-adjoint-closed [[algebra-rings/two-sided-ideal|two-sided ideal]]]] in the
+adjoint-closed two-sided ideal]] in the
 [[operator-algebras/bounded-operator-cstar-algebra|bounded-operator algebra]]
 \(B(\mathcal H)\), and therefore a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]].
 It is unital exactly when \(\mathcal H\) is finite-dimensional.
@@ -46,8 +46,7 @@ representation]] is unitarily equivalent to its defining action on
 [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate
 representation]] is an amplification of that action. These facts make
 compact-operator algebras the elementary pieces in the representation theory
-of type I \(C^*\)-algebras
-[Davidson, §I.4](https://bookstore.ams.org/fim-6).
+of type I \(C^*\)-algebras.
 
 ## Multiplier algebra and examples
 

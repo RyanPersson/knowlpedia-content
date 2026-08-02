@@ -16,7 +16,7 @@ Here \((\nabla_X I)Y=\nabla_X(IY)-I\nabla_XY\), and similarly for \(J,K\); torsi
 
 ## Characterization and holonomy
 
-Obata's construction gives an equivalence: an almost-hypercomplex triple admits a torsion-free connection preserving \(I,J,K\) exactly when the triple is hypercomplex. Parallel transport is therefore quaternionic-linear, and the holonomy of \(\nabla^{\mathrm{Ob}}\) is contained in \(GL(n,\mathbb H)\) when \(\dim_{\mathbb R}M=4n\). The original construction and uniqueness statement appear in [Obata, pp. 43–77](https://doi.org/10.4099/jjm1924.26.0_43).
+Obata's construction gives an equivalence: an almost-hypercomplex triple admits a torsion-free connection preserving \(I,J,K\) exactly when the triple is hypercomplex. Parallel transport is therefore quaternionic-linear, and the holonomy of \(\nabla^{\mathrm{Ob}}\) is contained in \(GL(n,\mathbb H)\) when \(\dim_{\mathbb R}M=4n\).
 
 ## Relation to a compatible metric
 

@@ -34,8 +34,7 @@ given action on \(H\), so
 \(R^\Psi(\xi)R^\Psi(\xi)^*\in M\) and \(\phi\) can evaluate it. The weight
 \(\Psi\) supplies a reference measure on the commuting algebra rather than on
 \(M\) itself. This makes \(d\phi/d\Psi\) available in any faithful concrete
-representation, which explains the adjective “spatial”
-[Hiai, §13, Definition 13.4](https://arxiv.org/abs/2004.02383).
+representation, which explains the adjective “spatial”.
 
 ## Relation to modular theory
 
@@ -47,8 +46,7 @@ commutant weight obtained from a second weight by
 [[operator-algebras/modular-conjugation|modular conjugation]], the spatial
 derivative becomes the corresponding relative
 [[operator-algebras/modular-operator|modular operator]]. Connes introduced
-this construction as a noncommutative Radon–Nikodym derivative
-[Connes, pp. 19–143](https://doi.org/10.1007/BFb0062614).
+this construction as a noncommutative Radon–Nikodym derivative.
 
 ## Commutative model and scope
 

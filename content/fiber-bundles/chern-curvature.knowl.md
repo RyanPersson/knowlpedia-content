@@ -20,7 +20,7 @@ Thus it is determined jointly by the holomorphic structure and the Hermitian met
 
 ## Type and local formula
 
-The vanishing of the \((0,2)\)-part expresses the integrability of the holomorphic structure, while metric compatibility eliminates the conjugate \((2,0)\)-part. Thus the Chern connection packages the holomorphic and Hermitian data into an \(\operatorname{End}E\)-valued [[differential-geometry/differential-form-of-type-pq|\((1,1)\)-form]]. The matrix formula and its transformation law are developed in [Kobayashi, Chapter I, §5](https://doi.org/10.1515/9781400858682).
+The vanishing of the \((0,2)\)-part expresses the integrability of the holomorphic structure, while metric compatibility eliminates the conjugate \((2,0)\)-part. Thus the Chern connection packages the holomorphic and Hermitian data into an \(\operatorname{End}E\)-valued [[differential-geometry/differential-form-of-type-pq|\((1,1)\)-form]].
 
 For a [[differential-geometry/holomorphic-line-bundle|holomorphic line bundle]] with a local holomorphic frame \(e\) and \(H=h(e,e)\), the formula reduces to
 \[

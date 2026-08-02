@@ -16,7 +16,7 @@ locally extends around \(\varphi(p)\) to a smooth map between open subsets of \(
 
 ## Equivalent local tests
 
-It suffices to verify the extension condition in one pair of compatible charts around each point: smooth transition maps and their local Euclidean extensions transfer it to every other pair. Equivalently, each component of the coordinate representative is the restriction of an ordinary smooth real-valued function near every point of its half-space domain. These formulations are developed in [Lee, Chapter 2, “Smooth Maps”](https://doi.org/10.1007/978-1-4419-9982-5).
+It suffices to verify the extension condition in one pair of compatible charts around each point: smooth transition maps and their local Euclidean extensions transfer it to every other pair. Equivalently, each component of the coordinate representative is the restriction of an ordinary smooth real-valued function near every point of its half-space domain.
 
 For real-valued functions on \(M\), no target boundary is involved: a function is smooth precisely when its expression in every boundary chart extends smoothly across the hyperplane \(x^m=0\).
 

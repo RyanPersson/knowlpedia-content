@@ -24,7 +24,7 @@ and \(\mathcal L^p\subset\mathcal L^{p,\infty}\). The diagonal operator on \(\el
 
 ## Role in noncommutative geometry
 
-Weak ideals express borderline spectral dimension: an inverse or resolvent whose singular values behave like \(n^{-1/p}\) is weakly \(p\)-summable. At \(p=1\), suitable positive operators can support singular traces, including Dixmier-type constructions. Membership alone does not ensure that every generalized limit produces the same trace value; that stronger property is measurability in the sense of singular traces. See [Lord, Sukochev, and Zanin, chapters 3 and 5](https://doi.org/10.1515/9783110262551).
+Weak ideals express borderline spectral dimension: an inverse or resolvent whose singular values behave like \(n^{-1/p}\) is weakly \(p\)-summable. At \(p=1\), suitable positive operators can support singular traces, including Dixmier-type constructions. Membership alone does not ensure that every generalized limit produces the same trace value; that stronger property is measurability in the sense of singular traces.
 
 ## Conventions and scope
 

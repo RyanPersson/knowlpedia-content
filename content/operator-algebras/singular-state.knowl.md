@@ -25,8 +25,7 @@ decomposition.
 Takesaki's projection criterion says that a
 [[operator-algebras/positive-linear-functional|positive functional]]
 \(\varphi\) on \(M\) is singular exactly when every nonzero projection
-\(e\in M\) dominates a nonzero projection \(f\leq e\) with \(\varphi(f)=0\)
-[Takesaki, Theorem 1](https://doi.org/10.3792/pja/1195524290).
+\(e\in M\) dominates a nonzero projection \(f\leq e\) with \(\varphi(f)=0\).
 This formulation shows that singularity is distributed throughout the
 projection lattice; it is not simply failure of ultraweak continuity at one
 particular increasing net.
@@ -42,8 +41,7 @@ singular. For a state, the two summands are positive but need not themselves
 be states: their values at \(1\) add to \(1\). The state is normal precisely
 when \(\omega_{\mathrm s}=0\), and singular precisely when
 \(\omega_{\mathrm n}=0\). This is the operator-algebraic
-normal-singular decomposition
-[Takesaki, pp. 365–366](https://doi.org/10.3792/pja/1195524290).
+normal-singular decomposition.
 
 ## Examples and non-examples
 

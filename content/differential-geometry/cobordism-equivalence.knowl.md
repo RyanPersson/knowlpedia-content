@@ -13,7 +13,7 @@ The dimension and structural category are fixed before the relation is formed.
 
 ## Proof that it is an equivalence relation
 
-Reflexivity is represented by the cylinder \(M\times[0,1]\). Symmetry follows by interchanging the incoming and outgoing boundary designations; in the oriented theory one also tracks the induced signs. For transitivity, glue a cobordism \(W_{01}\) to \(W_{12}\) along their common copy of \(M_1\). The [[differential-geometry/collar-neighborhood-theorem|collar neighborhood theorem]] supplies product neighborhoods that make this gluing smooth [Stong, Chapter I](https://press.princeton.edu/books/paperback/9780691622728/notes-on-cobordism-theory).
+Reflexivity is represented by the cylinder \(M\times[0,1]\). Symmetry follows by interchanging the incoming and outgoing boundary designations; in the oriented theory one also tracks the induced signs. For transitivity, glue a cobordism \(W_{01}\) to \(W_{12}\) along their common copy of \(M_1\). The [[differential-geometry/collar-neighborhood-theorem|collar neighborhood theorem]] supplies product neighborhoods that make this gluing smooth.
 
 ## Classes and null-cobordism
 

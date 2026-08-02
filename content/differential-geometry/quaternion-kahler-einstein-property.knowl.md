@@ -16,7 +16,7 @@ Equivalently, its scalar curvature is constant and equals \(4n\lambda\). The con
 
 ## Geometric mechanism
 
-The [[fiber-bundles/holonomy-representation|holonomy representation]] of \(\operatorname{Sp}(n)\operatorname{Sp}(1)\) sharply restricts the curvature tensor. The Ricci contraction of the allowed curvature components has only the metric as an invariant symmetric two-tensor, forcing proportionality to \(g\). Constancy of the proportionality factor then follows from the contracted [[fiber-bundles/bianchi-identity|Bianchi identity]]. Besse states the result as [Theorem 14.39](https://doi.org/10.1007/978-3-540-74311-8).
+The [[fiber-bundles/holonomy-representation|holonomy representation]] of \(\operatorname{Sp}(n)\operatorname{Sp}(1)\) sharply restricts the curvature tensor. The Ricci contraction of the allowed curvature components has only the metric as an invariant symmetric two-tensor, forcing proportionality to \(g\). Constancy of the proportionality factor then follows from the contracted [[fiber-bundles/bianchi-identity|Bianchi identity]].
 
 ## Sign and examples
 

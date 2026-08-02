@@ -34,7 +34,7 @@ Moreover,
 \(\|a\|=\|\widehat a\|_\infty\), and the range of \(\widehat a\), with zero
 added when required in the nonunital case, determines \(\sigma_A(a)\).
 Surjectivity onto \(C_0(\Delta(A))\) is the substantive \(C^*\)-algebra
-theorem [Murphy, chapter on the Gelfand transform](https://doi.org/10.1016/C2009-0-22289-6).
+theorem.
 
 ## Canonical model
 

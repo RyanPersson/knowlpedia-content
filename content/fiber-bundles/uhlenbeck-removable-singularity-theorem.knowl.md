@@ -16,7 +16,7 @@ then there is a gauge in which \(A\) extends across \(0\) to a smooth [[fiber-bu
 
 ## Proof mechanism
 
-Finite total energy implies that the curvature energy on sufficiently small annuli tends to zero. Uhlenbeck’s small-curvature theorem supplies compatible [[fiber-bundles/coulomb-gauge|Coulomb gauges]] with critical Sobolev control. In these gauges the Yang–Mills equation becomes an elliptic system, and decay estimates improve the connection’s regularity until standard elliptic bootstrapping gives a smooth extension [Uhlenbeck, main theorem](https://doi.org/10.1007/BF01947068).
+Finite total energy implies that the curvature energy on sufficiently small annuli tends to zero. Uhlenbeck’s small-curvature theorem supplies compatible [[fiber-bundles/coulomb-gauge|Coulomb gauges]] with critical Sobolev control. In these gauges the Yang–Mills equation becomes an elliptic system, and decay estimates improve the connection’s regularity until standard elliptic bootstrapping gives a smooth extension.
 
 The conclusion concerns the connection modulo gauge, not the coefficients in an arbitrary trivialization. A badly chosen gauge may remain singular even when the underlying connection extends smoothly.
 

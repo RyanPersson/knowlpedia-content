@@ -10,13 +10,13 @@ section_mode = "progressive"
 
 Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]] of complex dimension \(n\). A subset \(Y\subseteq X\) is a **complex submanifold of complex dimension \(k\)** if every \(p\in Y\) has a [[differential-geometry/complex-coordinate-chart|complex chart]] \((U,\varphi)\) of \(X\), with \(\varphi(p)=0\), such that
 \[
-\varphi(U\cap Y)=\varphi(U)\cap(\mathbb C^k\times\{0\}) .
+\varphi(U\cap Y)=\varphi(U)\cap(\mathbb C^k\times\{0\}).
 \]
 The induced charts make \(Y\) a complex manifold, and its inclusion into \(X\) is [[differential-geometry/holomorphic-map|holomorphic]]. In particular, \(Y\) is an [[differential-geometry/embedded-submanifold|embedded submanifold]] of the underlying [[fiber-bundles/smooth-manifold|smooth manifold]], of real dimension \(2k\) and real codimension \(2(n-k)\).
 
 ## Equivalent formulation
 
-An injective holomorphic immersion \(i:Y\to X\) whose underlying map is a topological embedding identifies \(Y\) biholomorphically with a complex submanifold of \(X\). Conversely, every complex submanifold inclusion has these properties. The local coordinate form follows from the holomorphic constant-rank theorem [Wells, Chapter I, §3](https://doi.org/10.1007/978-0-387-73892-5).
+An injective holomorphic immersion \(i:Y\to X\) whose underlying map is a topological embedding identifies \(Y\) biholomorphically with a complex submanifold of \(X\). Conversely, every complex submanifold inclusion has these properties. The local coordinate form follows from the holomorphic constant-rank theorem.
 
 ## Tangent spaces and local equations
 

@@ -37,8 +37,7 @@ a=(\langle x,x\rangle_A+\varepsilon1)^{-1}\langle x,y\rangle_A.
 Expanding the positive element and letting \(\varepsilon\downarrow0\) yields
 the displayed order inequality. The scalar proof by direct division cannot simply be
 copied, because \(\langle y,y\rangle_A\) need not be invertible or commute
-with \(\langle x,y\rangle_A\)
-[Lance, Proposition 1.1](https://doi.org/10.1017/CBO9780511526206).
+with \(\langle x,y\rangle_A\).
 
 ## Consequences
 

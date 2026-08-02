@@ -13,7 +13,7 @@ Let \(\pi:A\to\mathcal B(H)\) be a
 \(C^*\)-algebra]]. It is a **factorial representation**, or **factor
 representation**, if its
 [[operator-algebras/von-neumann-algebra-generated-by-representation|generated
-[[operator-algebras/von-neumann-algebra|von Neumann algebra]]]]
+von Neumann algebra]]
 \[
 \pi(A)''
 \]
@@ -37,8 +37,7 @@ representation]] is factorial because
 acts by left multiplication on \(L^2(M)\), then the generated algebra is a
 factor, but the commuting right action is nontrivial. Factoriality therefore
 captures indecomposability at the level of central summands, not the absence
-of all invariant subspaces
-[Takesaki, Chapter V](https://doi.org/10.1007/978-1-4612-6188-9).
+of all invariant subspaces.
 
 ## Central projections and decomposition
 

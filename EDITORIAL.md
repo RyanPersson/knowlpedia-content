@@ -38,3 +38,11 @@ Knowls of kind `document`, `index`, `page`, or `section` remain continuous by de
 - Prefer one representative example that exposes the mechanism over a long unstructured list.
 - Link a term when expanding it would answer a plausible reader question at that point.
 - Avoid link saturation: ordinary words and notation defined locally do not need knowls.
+
+## References and citations
+
+Put bibliographic sources and clickable external links only in a final
+`## References` section. Do not place source attributions in the core or other
+sections, either as hyperlinks or as plain text such as `[Author, Chapter 3]`.
+Body prose should state the mathematics directly and may use internal knowl
+links where a definition or theorem is a genuine dependency.

@@ -20,7 +20,7 @@ A [[differential-geometry/holomorphic-section|holomorphic section]] is represent
 
 ## Standard examples
 
-The trivial bundle \(X\times\mathbb C\) is holomorphic. The top exterior power of the [[differential-geometry/holomorphic-cotangent-bundle|holomorphic cotangent bundle]] is the canonical [[fiber-bundles/line-bundle|line bundle]]. Holomorphic line bundles also encode divisors and the Picard group; this relationship depends on the analytic setting and is developed in [Griffiths–Harris, Chapter 1, §1](https://doi.org/10.1002/9781118032527).
+The trivial bundle \(X\times\mathbb C\) is holomorphic. The top exterior power of the [[differential-geometry/holomorphic-cotangent-bundle|holomorphic cotangent bundle]] is the canonical [[fiber-bundles/line-bundle|line bundle]]. Holomorphic line bundles also encode divisors and the Picard group.
 
 ## References
 

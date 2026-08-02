@@ -24,7 +24,7 @@ Local existence and uniqueness produce evolution maps \(\Phi_{t,s}\) with \(\Phi
 \[
 \Phi_{t,r}\circ\Phi_{r,s}=\Phi_{t,s}
 \]
-wherever all terms are defined. Each \(\Phi_{t,s}\) is symplectic because every instantaneous field \(X_{H_t}\) preserves \(\omega\). In general there is no one-parameter group \(\Phi_t\): the evolution depends on both initial and final time. This distinction is emphasized in [Abraham and Marsden, §3.3](https://doi.org/10.1090/chel/364).
+wherever all terms are defined. Each \(\Phi_{t,s}\) is symplectic because every instantaneous field \(X_{H_t}\) preserves \(\omega\). In general there is no one-parameter group \(\Phi_t\): the evolution depends on both initial and final time.
 
 ## Energy balance and autonomous extension
 
@@ -34,7 +34,7 @@ Along a trajectory,
 \]
 because \(d_MH_t(X_{H_t})=0\). Thus explicit time dependence obstructs conservation of the instantaneous Hamiltonian.
 
-The system can be encoded as an [[differential-geometry/hamiltonian-system|autonomous Hamiltonian system]] on an extended phase space by adjoining time and its conjugate momentum. This construction, including its coordinate equations, is developed in [Arnol'd, Chapter 9](https://doi.org/10.1007/978-1-4757-1693-1).
+The system can be encoded as an [[differential-geometry/hamiltonian-system|autonomous Hamiltonian system]] on an extended phase space by adjoining time and its conjugate momentum.
 
 ## Conventions and scope
 

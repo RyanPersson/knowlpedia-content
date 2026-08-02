@@ -16,7 +16,7 @@ where \(\mathcal L_X\omega\) is the [[fiber-bundles/lie-derivative-of-a-differen
 
 ## Flow characterization
 
-A vector field is symplectic exactly when each map in its local flow preserves \(\omega\) wherever defined. If \(X\) is complete, this yields a one-parameter group of [[differential-geometry/symplectomorphism|symplectomorphisms]]. The equivalence follows by differentiating the pullback of \(\omega\) along the flow, as developed in [McDuff and Salamon, Chapter 10](https://doi.org/10.1093/oso/9780198794899.001.0001).
+A vector field is symplectic exactly when each map in its local flow preserves \(\omega\) wherever defined. If \(X\) is complete, this yields a one-parameter group of [[differential-geometry/symplectomorphism|symplectomorphisms]].
 
 ## Closed versus exact
 

@@ -34,8 +34,7 @@ into the central part supported by
 no nonzero finite projection. These are the type II and type III summands.
 Because each defining class is stable under central summands and central
 orthogonal sums, the three largest central supports are forced, which proves
-uniqueness. A detailed proof appears in
-[Kadison–Ringrose, Theorem 6.5.2](https://doi.org/10.1090/gsm/016).
+uniqueness.
 
 ## Finer decomposition
 

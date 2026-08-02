@@ -28,7 +28,7 @@ the representation variety is the common zero locus of
 \[
 R_j(g_1,\ldots,g_r)=e_G,\qquad 1\leq j\leq s,
 \]
-inside \(G^r\). Changing the finite presentation changes this embedding but not the represented affine functor. The foundational construction and its scheme-theoretic refinements are treated by [Lubotzky–Magid, chapter 1](https://bookstore.ams.org/memo-58-336).
+inside \(G^r\). Changing the finite presentation changes this embedding but not the represented affine functor.
 
 ## Conjugation and moduli
 

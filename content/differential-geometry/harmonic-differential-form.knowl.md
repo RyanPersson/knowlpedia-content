@@ -25,8 +25,7 @@ determined by \(g\) and the orientation. Harmonicity therefore depends on
 the Riemannian metric. On a compact manifold without boundary, it is
 equivalent to the pair of first-order conditions
 \(d\alpha=0\) and \(\delta\alpha=0\); that equivalence need not hold for
-arbitrary smooth forms on a noncompact manifold
-[de Cataldo, Lemma 2.3.2](https://www.math.stonybrook.edu/~mde/papers/MyHodgeTheoryBook.pdf).
+arbitrary smooth forms on a noncompact manifold.
 
 ## Energy characterization
 
@@ -40,8 +39,7 @@ theorem give
 Thus \(\Delta\alpha=0\) forces both summands to vanish. Conversely, a closed
 and coclosed form is harmonic directly from the definition of \(\Delta\).
 The compactness and boundary hypotheses justify the integrated identity
-without extra boundary terms or decay assumptions
-[Wells, Chapter IV, §2](https://doi.org/10.1007/978-0-387-73892-5).
+without extra boundary terms or decay assumptions.
 
 The space of harmonic \(k\)-forms is denoted
 \(\mathcal H^k(M,g)=\ker(\Delta:\Omega^k(M)\to\Omega^k(M))\). On a compact

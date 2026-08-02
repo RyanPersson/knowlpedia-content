@@ -30,7 +30,7 @@ For an oriented \(n\)-manifold, wedge product followed by [[differential-geometr
 \[
 H_{c,\mathrm{dR}}^k(M)\times H_{\mathrm{dR}}^{n-k}(M)\longrightarrow\mathbb R.
 \]
-Its nondegeneracy is the compact-support form of Poincaré duality [Bott and Tu, Chapter I](https://doi.org/10.1007/978-1-4757-3951-0). If \(M\) is compact, compactly supported and ordinary de Rham cohomology coincide. For \(\mathbb R^n\), only the top-degree compactly supported group is nonzero, and integration identifies it with \(\mathbb R\).
+Its nondegeneracy is the compact-support form of Poincaré duality. If \(M\) is compact, compactly supported and ordinary de Rham cohomology coincide. For \(\mathbb R^n\), only the top-degree compactly supported group is nonzero, and integration identifies it with \(\mathbb R\).
 
 ## References
 

@@ -18,7 +18,24 @@ Reflection exchanges the two copies and fixes this hypersurface pointwise.
 
 ## Smooth construction
 
-Choose a collar \(c:\partial M\times[0,\varepsilon)\to M\). Use \(t\) on the positive copy and \(-t\) on the negative copy to form charts across the seam. Different choices of collar produce diffeomorphic smooth doubles, so the diffeomorphism type depends only on \(M\). The collar is essential: the bare quotient describes the topology but does not by itself specify compatible smooth charts [Lee, Chapter 9](https://doi.org/10.1007/978-1-4419-9982-5).
+Choose a collar
+\[
+c:\partial M\times[0,\varepsilon)\longrightarrow M.
+\]
+It gives a chart across the seam by
+\[
+\widetilde c(x,t)=
+\begin{cases}
+[(c(x,t),+)],&t\geq0,\\
+[(c(x,-t),-)],&t\leq0,
+\end{cases}
+\qquad
+(x,t)\in\partial M\times(-\varepsilon,\varepsilon).
+\]
+Together with the original smooth charts away from the seam, these maps define
+the smooth structure on \(DM\). Different collar choices produce
+diffeomorphic smooth structures, so the smooth double is well defined up to
+diffeomorphism.
 
 ## Examples and consequences
 

@@ -36,9 +36,7 @@ one Schrödinger model is
 =e^{i\lambda(z+y\cdot u+\frac12x\cdot y)}f(u+x).
 \]
 Translations and modulations therefore fail to commute by exactly the central
-phase encoded by the Heisenberg group law. The uniqueness theorem and this
-model are developed in
-[Folland, §1.5](https://doi.org/10.1515/9781400882427).
+phase encoded by the Heisenberg group law.
 
 ## Why the hypotheses matter
 
@@ -56,8 +54,7 @@ unitary groups satisfying the Weyl commutation relations and an irreducibility
 condition. The theorem says that such a finite-dimensional system of canonical
 commutation relations is unitarily equivalent to the standard position and
 momentum model. This exponentiated formulation avoids the domain ambiguities
-of writing commutators of unbounded operators
-[Hall, Chapter 14](https://doi.org/10.1007/978-1-4614-7116-5).
+of writing commutators of unbounded operators.
 
 ## References
 

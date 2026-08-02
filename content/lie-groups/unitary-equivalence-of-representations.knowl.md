@@ -44,8 +44,7 @@ unitary representations up to this relation. In particular, the
 [[harmonic-analysis/unitary-dual|unitary dual]]
 of a [[topology/locally-compact-group|locally compact group]] consists of
 unitary-equivalence classes of
-[[lie-groups/irreducible-unitary-representation|irreducible unitary representations]]; see
-[Folland, §3.1](https://doi.org/10.1201/B19172).
+[[lie-groups/irreducible-unitary-representation|irreducible unitary representations]].
 
 ## Conventions and scope
 

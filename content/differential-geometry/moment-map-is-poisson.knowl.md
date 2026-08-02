@@ -12,7 +12,7 @@ Let \(G\) act on the [[differential-geometry/symplectic-manifold|symplectic mani
 \[
 \{\ell_\xi,\ell_\eta\}_{\mathfrak g^*}(\alpha)
 =\langle\alpha,[\xi,\eta]\rangle,
-\qquad \ell_\xi(\alpha)=\langle\alpha,\xi\rangle .
+\qquad \ell_\xi(\alpha)=\langle\alpha,\xi\rangle.
 \]
 Then \(\mu\) is a [[differential-geometry/poisson-map|Poisson map]]. Conversely, a [[fiber-bundles/moment-map|moment map]] that is Poisson is infinitesimally equivariant; if \(G\) is connected, this infinitesimal condition implies coadjoint equivariance. Equivalently, pullback by \(\mu\) preserves Poisson brackets of smooth functions. The forward implication requires no connectedness hypothesis.
 
@@ -22,7 +22,7 @@ Write \(\mu^\xi=\ell_\xi\circ\mu\). The moment-map identity says \(X_{\mu^\xi}=\
 \[
 \{\mu^\xi,\mu^\eta\}_M=\mu^{[\xi,\eta]}.
 \]
-This verifies preservation of the Lie–Poisson bracket on linear functions. The Leibniz rule and a local-coordinate argument then extend the equality to arbitrary smooth functions on \(\mathfrak g^*\). Conversely, the Poisson property applied to linear functions gives the displayed infinitesimal identity. See [Marsden and Ratiu, §12.4](https://doi.org/10.1007/978-0-387-21792-5) and [Ortega and Ratiu, §4.2](https://doi.org/10.1007/978-1-4757-3811-7).
+This verifies preservation of the Lie–Poisson bracket on linear functions. The Leibniz rule and a local-coordinate argument then extend the equality to arbitrary smooth functions on \(\mathfrak g^*\). Conversely, the Poisson property applied to linear functions gives the displayed infinitesimal identity.
 
 ## Coadjoint orbits
 

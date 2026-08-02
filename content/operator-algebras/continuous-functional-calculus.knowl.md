@@ -22,7 +22,7 @@ For every \(f\in C(\sigma_A(a))\),
 \quad\text{and}\quad
 \sigma_A(f(a))=f(\sigma_A(a)).
 \]
-The first identity is the norm formula; the second is [[operator-algebras/spectral-mapping-theorem|spectral mapping]]. For self-adjoint \(a\), real-valued functions give self-adjoint elements. In particular, nonnegative continuous functions construct positive square roots and [[real-analysis/absolute-value|absolute values]] [Murphy, Theorem 2.1.10](https://doi.org/10.1016/C2009-0-22289-6).
+The first identity is the norm formula; the second is [[operator-algebras/spectral-mapping-theorem|spectral mapping]]. For self-adjoint \(a\), real-valued functions give self-adjoint elements. In particular, nonnegative continuous functions construct positive square roots and [[real-analysis/absolute-value|absolute values]].
 
 ## Nonunital algebras
 

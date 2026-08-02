@@ -26,8 +26,7 @@ net is called a **Reiter net**.
 ## Equivalence with amenability
 
 Reiter's theorem states that \(G\) satisfies \(P_1\) exactly when \(G\) is
-[[harmonic-analysis/amenable-locally-compact-group|amenable]]
-[Reiter–Stegeman, Chapter 8](https://doi.org/10.1093/oso/9780198511892.001.0001).
+[[harmonic-analysis/amenable-locally-compact-group|amenable]].
 Weak-star cluster points of the associated averaging functionals produce an
 [[harmonic-analysis/invariant-mean|invariant mean]]. Conversely, an invariant
 mean yields almost invariant
@@ -40,8 +39,7 @@ measure is exactly invariant, so a constant net verifies \(P_1\). For a
 discrete group, [[topology/compact-set|compact sets]] are finite and the condition becomes the
 existence of probability masses in \(\ell^1(G)\) that are asymptotically
 invariant under translation on every finite set. Normalized indicators of a
-[[harmonic-analysis/folner-condition|Følner net]] give the basic example
-[Paterson, Chapter 4](https://doi.org/10.1090/surv/029).
+[[harmonic-analysis/folner-condition|Følner net]] give the basic example.
 
 ## Variants and conventions
 
@@ -49,8 +47,7 @@ Equivalent formulations allow signed functions of norm one after taking
 [[real-analysis/absolute-value|absolute values]], or require convergence separately for each \(x\) together
 with standard uniformization on compact sets. Conditions \(P_p\) for
 \(1\leq p<\infty\) use almost invariant unit vectors in \(L^p(G)\); they are
-also equivalent to amenability under the usual locally compact hypotheses
-[Reiter–Stegeman, Chapter 8](https://doi.org/10.1093/oso/9780198511892.001.0001).
+also equivalent to amenability under the usual locally compact hypotheses.
 
 ## References
 

@@ -34,8 +34,7 @@ Normality is equivalent to the existence of a bounded preadjoint
 For positive maps, it is enough to test monotone preservation on increasing
 nets of projections. These formulations let one pass between weak-star
 continuity, [[operator-algebras/normal-functional|normal functionals]], and
-order convergence
-[Takesaki, chapters on normal maps and positive maps](https://doi.org/10.1007/978-1-4612-6188-9).
+order convergence.
 
 ## Examples and a non-example
 
@@ -57,7 +56,7 @@ increase to \(1\).
 Compositions and positive scalar multiples of normal positive maps remain
 normal and positive. Matrix amplification introduces a separate condition:
 a normal positive map need not be completely positive, while a
-[[operator-algebras/completely-positive-map|normal completely positive map]]
+[[operator-algebras/normal-completely-positive-map|normal completely positive map]]
 is normal at every matrix level.
 
 **Warning.** “Normal” is not a synonym for positive, unital, or

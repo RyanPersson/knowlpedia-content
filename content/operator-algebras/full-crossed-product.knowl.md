@@ -21,7 +21,7 @@ There are canonical nondegenerate maps \(i_A:A\to M(A\rtimes_\alpha G)\) and \(i
 \[
 i_A(a)\int_G f(s)i_G(s)\,ds
 \]
-is dense as \(a\) and \(f\) vary. Every covariant pair \((\pi,U)\) factors uniquely through a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] of \(A\rtimes_\alpha G\). In this sense the full crossed product is a [[operator-algebras/universal-cstar-algebra|universal \(C^*\)-algebra]] for covariant representations [Williams, §§2.3 and 2.6](https://doi.org/10.1090/surv/134).
+is dense as \(a\) and \(f\) vary. Every covariant pair \((\pi,U)\) factors uniquely through a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] of \(A\rtimes_\alpha G\). In this sense the full crossed product is a [[operator-algebras/universal-cstar-algebra|universal \(C^*\)-algebra]] for covariant representations.
 
 ## Relation to the reduced completion
 

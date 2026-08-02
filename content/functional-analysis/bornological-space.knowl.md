@@ -12,7 +12,7 @@ Let \(E\) be a Hausdorff [[functional-analysis/locally-convex-space|locally conv
 
 ## Mapping characterization
 
-The defining condition is equivalent to a useful test: for every locally convex space \(F\), a [[linear-algebra/linear-map|linear map]] \(T:E\to F\) is continuous whenever it maps bounded subsets of \(E\) to bounded subsets of \(F\). Thus boundedness controls continuity on the source. The converse implication—continuous linear maps preserve bounded sets—holds for every [[functional-analysis/topological-vector-space|topological vector space]] and does not require bornologicality [Hogbe-Nlend, Chapters I–II](https://shop.elsevier.com/books/bornologies-and-functional-analysis/hogbe-nlend/978-0-7204-0712-9).
+The defining condition is equivalent to a useful test: for every locally convex space \(F\), a [[linear-algebra/linear-map|linear map]] \(T:E\to F\) is continuous whenever it maps bounded subsets of \(E\) to bounded subsets of \(F\). Thus boundedness controls continuity on the source. The converse implication—continuous linear maps preserve bounded sets—holds for every [[functional-analysis/topological-vector-space|topological vector space]] and does not require bornologicality.
 
 ## Examples and permanence
 

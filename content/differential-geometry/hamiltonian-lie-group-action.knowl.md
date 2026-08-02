@@ -21,7 +21,7 @@ Symplecticity gives \(d(\iota_{\xi_M}\omega)=0\). A moment map exists only if th
 \{\langle\mu,\xi\rangle,\langle\mu,\eta\rangle\}
 =\langle\mu,[\xi,\eta]\rangle
 \]
-with the compatible Poisson-bracket convention. For connected \(G\), this infinitesimal bracket identity is equivalent to global coadjoint equivariance [Ortega and Ratiu, §4.2](https://doi.org/10.1007/978-1-4757-3811-7).
+with the compatible Poisson-bracket convention. For connected \(G\), this infinitesimal bracket identity is equivalent to global coadjoint equivariance.
 
 ## Examples and non-examples
 
@@ -31,7 +31,7 @@ Translations on a symplectic torus preserve its symplectic form but need not be 
 
 ## Conventions and scope
 
-**Warning.** Some authors call an action Hamiltonian as soon as it has a not-necessarily-equivariant moment map, while others include equivariance in the definition. This knowl adopts the latter convention, standard in reduction theory; under the former convention, “Hamiltonian with an [[differential-geometry/equivariant-moment-map|equivariant moment map]]” names the notion defined here [Guillemin and Sternberg, Chapter 3](https://doi.org/10.1017/CBO9780511624110).
+**Warning.** Some authors call an action Hamiltonian as soon as it has a not-necessarily-equivariant moment map, while others include equivariance in the definition. This knowl adopts the latter convention, standard in reduction theory; under the former convention, “Hamiltonian with an [[differential-geometry/equivariant-moment-map|equivariant moment map]]” names the notion defined here.
 
 ## References
 

@@ -32,8 +32,7 @@ identity for the displayed cochain. If one starts with an unnormalized
 periodic class. Operator homotopies, unitary equivalence, and addition of
 degenerate modules also leave the class unchanged. Consequently the
 construction factors through [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]
-rather than depending on a chosen cycle representative
-[Connes, Chapter IV, §1, Propositions 1–2](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+rather than depending on a chosen cycle representative.
 
 The constants in the trace formula are chosen so that representatives in
 degrees \(n,n+2,\ldots\) match under Connes's periodicity operator. Omitting
@@ -46,8 +45,7 @@ Pairing the Chern character with a \(K\)-theory class reproduces the
 Fredholm-module index pairing. In even parity, a projection is paired with
 the index of the compressed off-diagonal part of \(F\); in odd parity, a
 unitary is compressed by the positive spectral projection of \(F\). Thus the
-cohomological expression is integral on \(K\)-theory classes
-[Connes, Chapter IV, §1, Proposition 2](https://alainconnes.org/wp-content/uploads/book94bigpdf.pdf).
+cohomological expression is integral on \(K\)-theory classes.
 
 This equality is the bridge used by local index formulas: a trace cocycle
 defined from the bounded phase \(F\) may be replaced, in the same cyclic

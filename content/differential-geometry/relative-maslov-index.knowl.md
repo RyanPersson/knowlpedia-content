@@ -30,7 +30,7 @@ When it is nondegenerate, the crossing is regular. The signature formula is
 +\sum_{a<t<b}\operatorname{sign}\Gamma(t)
 +\tfrac12\operatorname{sign}\Gamma(b).
 \]
-Robbin and Salamon prove that this agrees with the diagonal construction [Robbin–Salamon, Theorem 3.2](https://doi.org/10.1016/0040-9383(93)90052-W).
+This agrees with the diagonal construction.
 
 ## Properties
 
@@ -38,7 +38,7 @@ The relative index is natural under a common path of symplectic transformations,
 \[
 \mu(\Lambda_1,\Lambda_0)=-\mu(\Lambda_0,\Lambda_1).
 \]
-If \(\Lambda_1(t)\equiv L_0\) is constant, it reduces to the path index relative to \(L_0\). When both endpoint pairs are transverse, it is integer-valued and invariant under homotopies that preserve endpoint transversality [Robbin–Salamon, Corollary 3.3](https://doi.org/10.1016/0040-9383(93)90052-W).
+If \(\Lambda_1(t)\equiv L_0\) is constant, it reduces to the path index relative to \(L_0\). When both endpoint pairs are transverse, it is integer-valued and invariant under homotopies that preserve endpoint transversality.
 
 ## Example and near-miss
 
@@ -46,9 +46,9 @@ In \(\mathbb R^2\), keep \(\Lambda_1=\mathbb R\) fixed and rotate \(\Lambda_0\) 
 
 ## Relation to spectral flow
 
-For suitable paths of self-adjoint first-order operators with Lagrangian boundary data, [[noncommutative-geometry/spectral-flow|spectral flow]] is expressed by a relative Maslov index. Cappell, Lee, and Miller compare several definitions and develop this relation systematically [Cappell–Lee–Miller, 1994](https://doi.org/10.1002/cpa.3160470202). Analytic applications may reverse the order of the two boundary-data paths, which reverses the sign.
+For suitable paths of self-adjoint first-order operators with Lagrangian boundary data, [[noncommutative-geometry/spectral-flow|spectral flow]] is expressed by a relative Maslov index. Several equivalent definitions make this relation precise. Analytic applications may reverse the order of the two boundary-data paths, which reverses the sign.
 
 ## References
 
-1. Joel Robbin and Dietmar Salamon, “The Maslov index for paths,” *Topology* 32 (1993), 827–844. [DOI record](https://doi.org/10.1016/0040-9383(93)90052-W). Relevant: §3, especially Theorem 3.2 and Corollary 3.3.
+1. Joel Robbin and Dietmar Salamon, “The Maslov index for paths,” *Topology* 32 (1993), 827–844. [DOI record](https://doi.org/10.1016/0040-9383%2893%2990052-W). Relevant: §3, especially Theorem 3.2 and Corollary 3.3.
 2. Sylvain E. Cappell, Ronnie Lee, and Edward Y. Miller, “On the Maslov index,” *Communications on Pure and Applied Mathematics* 47 (1994), 121–186. [DOI record](https://doi.org/10.1002/cpa.3160470202). Relevant: equivalent definitions and the relation to spectral flow.

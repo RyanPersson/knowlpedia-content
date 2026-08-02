@@ -46,8 +46,7 @@ bimodule]], Rieffel induction is an equivalence between the categories of
 nondegenerate representations of \(B\) and \(A\). Induction through the
 conjugate bimodule \(\widetilde E\) is a quasi-inverse. Consequently, strong
 Morita equivalence preserves the representation-theoretic structure encoded
-by ideals and [[algebra-representation-theory/irreducible-representation|irreducible representations]]
-[Rieffel, §§5–6](https://doi.org/10.1016/0001-8708%2874%2990068-1).
+by ideals and [[algebra-representation-theory/irreducible-representation|irreducible representations]].
 
 ## Examples and scope
 

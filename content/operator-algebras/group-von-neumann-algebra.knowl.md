@@ -28,23 +28,20 @@ The [[operator-algebras/commutant|commutant]] of
 [[algebra-representation-theory/regular-representation|regular representation]]. The algebra therefore records the
 regular representation rather than merely the abstract multiplication law.
 For general locally compact \(G\), its canonical noncommutative integral is
-the Plancherel weight; this need not be a finite trace
-[Takesaki, vol. II, Chapter VII, §3](https://doi.org/10.1007/978-3-662-10451-4).
+the Plancherel weight; this need not be a finite trace.
 
 ## Discrete and abelian cases
 
 If \(G\) is discrete, the vector \(\delta_e\) defines the canonical faithful
 normal trace
 \[
-\tau(x)=\langle x\delta_e,\delta_e\rangle .
+\tau(x)=\langle x\delta_e,\delta_e\rangle.
 \]
 In this case \(L(G)\) is a factor exactly when every nonidentity conjugacy
-class of \(G\) is infinite
-[Takesaki, vol. I, Chapter V, §7](https://doi.org/10.1007/978-1-4612-6188-9).
+class of \(G\) is infinite.
 If \(G\) is abelian, Fourier transformation
 identifies \(\operatorname{VN}(G)\) with the multiplication algebra
-\(L^\infty(\widehat G)\); thus the group von Neumann algebra is commutative
-[Takesaki, vol. II, Chapter VII, §3](https://doi.org/10.1007/978-3-662-10451-4).
+\(L^\infty(\widehat G)\); thus the group von Neumann algebra is commutative.
 
 ## Conventions and scope
 

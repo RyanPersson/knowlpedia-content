@@ -20,7 +20,7 @@ The theorem permits intrinsic manifold questions to be studied using ambient Euc
 
 ## Proof architecture
 
-A weak form first constructs an embedding into a sufficiently large Euclidean space using coordinate charts and a [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|partition of unity]]. Generic linear projections then lower the ambient dimension while avoiding both tangent-direction collapses and coincidences of distinct points. The final \(2n\) bound requires controlling these two bad loci simultaneously [Hirsch, Chapter 2](https://doi.org/10.1007/978-1-4684-9449-5).
+A weak form first constructs an embedding into a sufficiently large Euclidean space using coordinate charts and a [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|partition of unity]]. Generic linear projections then lower the ambient dimension while avoiding both tangent-direction collapses and coincidences of distinct points. The final \(2n\) bound requires controlling these two bad loci simultaneously.
 
 ## Dimension and variants
 

@@ -24,7 +24,7 @@ The standard inclusion \(\mathbb R^{2k}\hookrightarrow\mathbb R^{2n}\), with coo
 
 ## Role in symplectic geometry
 
-Existence of a symplectic embedding is more rigid than existence of a smooth embedding. Symplectic capacities and Gromov's non-squeezing theorem supply obstructions invisible to dimension and topology; see [McDuff and Salamon, Chapter 12](https://doi.org/10.1093/oso/9780198794899.001.0001).
+Existence of a symplectic embedding is more rigid than existence of a smooth embedding. Symplectic capacities and Gromov's non-squeezing theorem supply obstructions invisible to dimension and topology.
 
 ## References
 

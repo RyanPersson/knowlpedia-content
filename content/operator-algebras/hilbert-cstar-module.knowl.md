@@ -42,8 +42,7 @@ An \(A\)-linear map \(T:E\to F\) is **adjointable** if there is an
 automatically bounded, but bounded \(A\)-linear maps need not be adjointable.
 The [[linear-algebra/compact-operator|compact operators]] on \(E\) are the norm closure of the span of
 \(\theta_{x,y}(z)=x\langle y,z\rangle_A\); “compact” here is a module-theoretic
-notion and need not mean compact as a Banach-space operator
-[Lance, Chapter 1](https://doi.org/10.1017/CBO9780511526206).
+notion and need not mean compact as a Banach-space operator.
 
 ## Conventions and scope
 

@@ -29,7 +29,7 @@ relevant operator topologies. This matters for a degenerate representation:
 the weak closure of \(\pi(A)\) can act as zero on a complementary subspace
 and therefore need not contain \(I_H\), while \(\pi(A)''\) is unital. Adding
 \(I_H\) before taking the weak closure gives the same algebra as the
-bicommutant [Takesaki, Chapter III, §2](https://doi.org/10.1007/978-1-4612-6188-9).
+bicommutant.
 
 ## Dependence on the representation
 

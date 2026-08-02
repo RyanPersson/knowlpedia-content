@@ -26,7 +26,7 @@ Analytic constructions normally complete connections and gauge transformations i
 
 If \(M\) is connected, choosing a basepoint and a point of the fiber assigns to \(A\) its [[fiber-bundles/holonomy-representation|holonomy representation]] \(\pi_1(M)\to G\). Changing the chosen fiber point conjugates the representation. The [[fiber-bundles/holonomy-correspondence-for-flat-connections|holonomy correspondence]] therefore identifies isomorphism classes of flat bundles with [[algebra-groups/conjugacy-class|conjugacy classes]] of representations. Restricting to a fixed \(P\) selects only those representations whose associated flat bundle has the topological type of \(P\).
 
-For a closed oriented surface, the smooth irreducible locus inherits a symplectic form from the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott form]]; this surface-moduli geometry is treated in [Atiyah–Bott, §§6 and 9](https://doi.org/10.1098/rsta.1983.0017) and [Goldman, §§1–2](https://doi.org/10.1016/0001-8708%2884%2990040-9).
+For a closed oriented surface, the smooth irreducible locus inherits a symplectic form from the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott form]].
 
 ## Example
 

@@ -23,11 +23,11 @@ unique local boundary component of \(X\) at \(x\).
 
 “Smooth in corner charts,” called **weakly smooth** by Joyce, means that each coordinate representative extends locally to a smooth map between open subsets of [[linear-algebra/euclidean-space|Euclidean spaces]]. If the target has no boundary, the extra boundary condition is vacuous, so this reduces to the ordinary notion of a [[fiber-bundles/smooth-map|smooth map]].
 
-The boundary condition is independent of the chosen defining function. It ensures that a target boundary hypersurface either contains the local image or pulls back with first-order vanishing along one source boundary hypersurface [Joyce, Definition 3.1](https://arxiv.org/abs/0910.3518).
+The boundary condition is independent of the chosen defining function. It ensures that a target boundary hypersurface either contains the local image or pulls back with first-order vanishing along one source boundary hypersurface.
 
 ## Category and examples
 
-Identity maps, composites, products, boundary inclusions, and projections are smooth in this sense; hence these maps form Joyce's category \(\mathbf{Man}^c\) [Joyce, Theorem 3.4](https://arxiv.org/abs/0910.3518). The inclusion \([0,\infty)\hookrightarrow\mathbb R\) is smooth because the target has no boundary.
+Identity maps, composites, products, boundary inclusions, and projections are smooth in this sense; hence these maps form Joyce's category \(\mathbf{Man}^c\). The inclusion \([0,\infty)\hookrightarrow\mathbb R\) is smooth because the target has no boundary.
 
 The map
 \[

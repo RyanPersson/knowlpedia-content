@@ -24,8 +24,7 @@ through the \((n-1)\)-skeleton. The first possible obstruction lies in degree
 \(n\), with coefficients \(\pi_{n-1}(S^{n-1})\cong\mathbb Z\). The orientation
 trivializes this local coefficient system, and the resulting class is \(e(E)\).
 There are no cells on which a higher obstruction could live when
-\(\dim X\le n\)
-[Milnor–Stasheff, discussion of the Euler obstruction](https://doi.org/10.1515/9781400881826).
+\(\dim X\le n\).
 
 ## Geometric interpretation
 

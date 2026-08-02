@@ -19,7 +19,7 @@ Its component of bidegree \((p,q)\), where \(p+q=k\), is
 
 ## Equivalent harmonic description
 
-Choose the [[differential-geometry/kahler-metric|Kähler metric]] determined by the [[differential-geometry/kahler-form|Kähler form]], and represent a class by its unique [[differential-geometry/harmonic-differential-form|harmonic form]]. The class is primitive exactly when this representative is annihilated by the adjoint Lefschetz operator \(\Lambda\). This identifies the cohomological kernel above with the pointwise notion of a primitive harmonic form [Voisin, §6.2, Proposition 6.24](https://doi.org/10.1017/CBO9780511615344).
+Choose the [[differential-geometry/kahler-metric|Kähler metric]] determined by the [[differential-geometry/kahler-form|Kähler form]], and represent a class by its unique [[differential-geometry/harmonic-differential-form|harmonic form]]. The class is primitive exactly when this representative is annihilated by the adjoint Lefschetz operator \(\Lambda\). This identifies the cohomological kernel above with the pointwise notion of a primitive harmonic form.
 
 ## Lefschetz decomposition
 
@@ -28,7 +28,7 @@ The [[differential-geometry/hard-lefschetz-theorem|hard Lefschetz theorem]] yiel
 H^k(X,\mathbb C)
 =\bigoplus_{r\geq \max(0,k-n)}L^rP^{k-2r}(X,\mathbb C).
 \]
-Every cohomology class is therefore uniquely assembled from primitive classes and powers of the Kähler class. The decomposition respects bidegree because \(L\) has type \((1,1)\); see [Voisin, §6.2, Theorem 6.25](https://doi.org/10.1017/CBO9780511615344).
+Every cohomology class is therefore uniquely assembled from primitive classes and powers of the Kähler class. The decomposition respects bidegree because \(L\) has type \((1,1)\).
 
 ## Examples and scope
 
