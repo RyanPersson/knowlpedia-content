@@ -8,7 +8,7 @@ domains = ["differential-geometry", "category-theory"]
 section_mode = "progressive"
 +++
 
-For finite-dimensional Hausdorff second-countable smooth manifolds \(M,N\),
+For finite-dimensional Hausdorff second-countable [[fiber-bundles/smooth-manifold|smooth manifolds]] \(M,N\),
 pullback gives a natural bijection
 \[
 \operatorname{Hom}_{\mathbf{Man}}(M,N)

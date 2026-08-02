@@ -24,7 +24,7 @@ element \(0\), and a unary inverse \(a\mapsto-a\) such that, for all
 
 ## Reversibility as subtraction
 
-In an abelian group, \(c=a+b\) is equivalent to \(b=c-a\).
+In an [[algebra-groups/abelian-group|abelian group]], \(c=a+b\) is equivalent to \(b=c-a\).
 Reversibility is the set-valued version of this implication and prevents a
 general associative hyperoperation from being called an additive
 hypergroup without an adequate subtraction law.

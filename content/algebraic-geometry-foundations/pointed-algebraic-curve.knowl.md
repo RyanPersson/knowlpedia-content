@@ -28,7 +28,7 @@ definition.
 
 ## Langlands role
 
-Ramified geometric Langlands studies local systems on \(U\) with specified
+[[langlands/ramified-geometric-langlands|Ramified geometric Langlands]] studies local systems on \(U\) with specified
 behavior around \(D\), and \(G\)-bundles on \(X\) with compatible
 [[langlands/level-structure-on-g-bundle|level or parabolic structure]] at the
 marked points.

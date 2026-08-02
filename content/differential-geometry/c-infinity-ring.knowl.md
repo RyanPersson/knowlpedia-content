@@ -24,7 +24,7 @@ for the coordinate projections and
 \]
 for composites of smooth maps. Nullary operations encode real constants.
 Equivalently, a \(C^\infty\)-ring is a product-preserving functor from the
-category of Euclidean spaces and smooth maps to sets.
+category of [[linear-algebra/euclidean-space|Euclidean spaces]] and smooth maps to sets.
 
 ## Underlying ordinary algebra
 

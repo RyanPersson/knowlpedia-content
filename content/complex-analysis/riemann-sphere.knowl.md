@@ -12,7 +12,7 @@ The **Riemann sphere** is the one-point compactification
 \[
 \widehat{\mathbb C}=\mathbb C\cup\{\infty\}
 \]
-equipped with the complex atlas whose coordinate near finite points is \(z\) and whose coordinate near \(\infty\) is \(w=1/z\). It is a compact [[differential-geometry/riemann-surface|Riemann surface]] analytically isomorphic to the complex projective line \(\mathbb P^1(\mathbb C)\).
+equipped with the [[differential-geometry/complex-atlas|complex atlas]] whose coordinate near finite points is \(z\) and whose coordinate near \(\infty\) is \(w=1/z\). It is a compact [[differential-geometry/riemann-surface|Riemann surface]] analytically isomorphic to the complex projective line \(\mathbb P^1(\mathbb C)\).
 
 ## Projective description
 

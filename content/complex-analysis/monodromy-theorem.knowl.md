@@ -12,7 +12,7 @@ Let \(D\subseteq\mathbb C\) be a [[topology/simply-connected-space|simply connec
 
 ## Homotopy form
 
-More generally, analytic continuations along two paths with the same endpoints give the same terminal germ when the paths are homotopic relative to their endpoints and continuation exists throughout the homotopy. Simple connectivity makes every two such paths homotopic, which yields the core statement.
+More generally, [[complex-analysis/analytic-continuation|analytic continuations]] along two paths with the same endpoints give the same terminal germ when the paths are homotopic relative to their endpoints and continuation exists throughout the homotopy. Simple connectivity makes every two such paths homotopic, which yields the core statement.
 
 ## Why the hypotheses matter
 

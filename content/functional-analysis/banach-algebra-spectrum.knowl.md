@@ -33,7 +33,9 @@ r(a)=\max_{\lambda\in\sigma_A(a)}|\lambda|
      =\inf_{n\geq 1}\|a^n\|^{1/n}.
 \]
 The nonemptiness assertion uses completeness and complex scalars; it can fail
-for real Banach algebras unless one passes to a complexification. These
+for real Banach algebras unless one passes to a complexification. The displayed
+limit is the [[functional-analysis/banach-algebra-spectral-radius-formula|
+Banach-algebra spectral-radius formula]].
 
 ## The \(C^*\)-algebra case
 

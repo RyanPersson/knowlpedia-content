@@ -18,9 +18,9 @@ N_J(X,Y)
 \]
 for smooth vector fields \(X,Y\).
 
-Although the formula uses Lie brackets, its value at a point depends only on
+Although the formula uses [[fiber-bundles/lie-bracket|Lie brackets]], its value at a point depends only on
 the values of \(X\) and \(Y\) there, so
-\(N_J\in\Omega^2(M;TM)\). After complexifying the tangent bundle, \(N_J=0\)
+\(N_J\in\Omega^2(M;TM)\). After complexifying the [[fiber-bundles/tangent-bundle|tangent bundle]], \(N_J=0\)
 exactly when the \(+i\)-eigenbundle of \(J\) is closed under Lie brackets.
 
 The [[differential-geometry/newlander-nirenberg-theorem|Newlander–Nirenberg

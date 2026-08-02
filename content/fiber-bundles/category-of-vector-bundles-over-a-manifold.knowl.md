@@ -19,11 +19,11 @@ map is exactly \(\operatorname{id}_M\).
 
 The house convention is that \(M\) has no boundary. If \(M\) is disconnected,
 the rank may be any finite locally constant function on \(M\); it need not be
-bounded across all connected components.
+bounded across all [[topology/connected-component|connected components]].
 
 Composition is composition of total-space maps. Fiberwise addition and scalar
 multiplication make each morphism set an \(\mathbb F\)-vector space, and
-direct sum gives a biproduct. Bundle isomorphisms over \(M\) are precisely the
+direct sum gives a biproduct. [[fiber-bundles/bundle-isomorphism|Bundle isomorphisms]] over \(M\) are precisely the
 isomorphisms in this category.
 
 ## Why the base is fixed
@@ -38,7 +38,7 @@ The fixed-base convention is essential for the
 \(\Phi:E\to F\) over \(\operatorname{id}_M\) sends a section \(s\) to
 \(\Phi\circ s\) and thereby gives a \(C^\infty(M,\mathbb F)\)-linear map.
 If \(\Phi\) covers a nonidentity map, postcomposition does not have this
-source and target and is not a homomorphism between section modules over one
+source and target and is not a homomorphism between [[fiber-bundles/module-of-smooth-sections|section modules]] over one
 fixed ring.
 
 ## Sheaf formulation
@@ -49,7 +49,7 @@ Taking local sections defines a covariant functor from
 local and includes arbitrary finite locally constant rank on a disconnected
 base.
 
-The global-section Serre–Swan equivalence uses a smaller full subcategory when
+The global-section Serre–Swan equivalence uses a smaller [[algebra-category-theory/full-subcategory|full subcategory]] when
 \(M\) is disconnected. Write
 \[
 \mathbf{Vect}^{\mathrm{bd}}_{\mathbb F}(M)

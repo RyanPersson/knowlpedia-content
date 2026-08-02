@@ -16,7 +16,7 @@ algebraic group]]. The **moduli stack of \(G\)-bundles**,
 of [[algebraic-geometry-foundations/principal-g-bundle-on-scheme|principal
 \(G_S\)-bundles]] on \(X\times_k S\).
 
-Morphisms are bundle isomorphisms, so this construction retains automorphism
+Morphisms are [[fiber-bundles/bundle-isomorphism|bundle isomorphisms]], so this construction retains automorphism
 groups rather than merely recording isomorphism classes. Under the stated
 hypotheses, \(\operatorname{Bun}_G(X)\) is an
 [[algebraic-geometry-foundations/algebraic-stack|algebraic stack]] locally of
@@ -34,8 +34,11 @@ point of \(X\) and define functors on this category.
 
 For \(G=GL_n\), principal \(G\)-bundles are equivalent to rank-\(n\) vector
 bundles. For \(G=\mathbb G_m\), \(\operatorname{Bun}_G\) is the Picard stack.
-When \(X\) is geometrically connected, its connected components are indexed
-by degree.
+When \(X\) is geometrically connected, the components for \(GL_n\) are
+indexed by degree. More generally, over an algebraically closed field, the
+components for a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] are indexed by its algebraic
+fundamental group \(\pi_1(G)\); degree is the resulting invariant for
+\(GL_n\) and \(\mathbb G_m\).
 
 The notation suppresses the fixed curve. It also suppresses derived
 enhancements used in the modern correspondence.

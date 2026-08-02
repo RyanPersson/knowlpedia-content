@@ -8,7 +8,7 @@ domains = ["differential-geometry", "mathematical-physics"]
 section_mode = "progressive"
 +++
 
-Let \(V\) be an even-dimensional oriented quadratic space and let
+Let \(V\) be an even-dimensional oriented [[linear-algebra/quadratic-form|quadratic space]] and let
 \[
 \Delta=\Delta^+\oplus\Delta^-
 \]
@@ -19,7 +19,7 @@ spinor** of positive or negative chirality is an element of \(\Delta^+\) or
 \(\Delta^-\), respectively.
 
 On an even-dimensional spin manifold, a Weyl spinor field is a section of one
-of the half-spinor bundles \(S^+\) or \(S^-\). Clifford multiplication by a
+of the half-spinor bundles \(S^+\) or \(S^-\). [[differential-geometry/clifford-module|Clifford multiplication]] by a
 vector reverses chirality:
 \[
 c(v):\Delta^\pm\longrightarrow\Delta^\mp.

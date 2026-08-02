@@ -15,7 +15,7 @@ locally isomorphic to a [[supergeometry/superdomain|superdomain]]
 These objects and morphisms form the category
 \(\mathbf{SMan}_{\mathbb R}^{\mathrm{sm}}\).
 
-Let \(\mathcal J_X\subseteq\mathcal O_X\) be the sheaf of nilpotent elements,
+Let \(\mathcal J_X\subseteq\mathcal O_X\) be the sheaf of [[algebra-rings/nilpotent-element|nilpotent elements]],
 equivalently in this smooth model the ideal generated locally by odd
 functions. Then
 \[
@@ -34,7 +34,7 @@ even nilpotent expressions and the odd coordinates with odd expressions.
 Consequently, being locally an exterior-algebra model does not itself choose
 a global [[supergeometry/split-supermanifold|splitting]].
 
-Ordinary smooth manifolds embed fully faithfully as supermanifolds of
+Ordinary [[fiber-bundles/smooth-manifold|smooth manifolds]] embed fully faithfully as supermanifolds of
 dimension \(p|0\). Complex-analytic and algebraic supermanifolds use different
 local function sheaves; unlike the smooth real case, they need not split.
 

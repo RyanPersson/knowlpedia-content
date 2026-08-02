@@ -8,8 +8,10 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a smooth projective curve over a field of characteristic \(0\),
-let \(G\) be a connected reductive group, and let \(\widehat G\) be its
+Let \(X\) be a [[algebraic-geometry-foundations/smooth-projective-curve|smooth
+projective connected curve]] over an algebraically closed
+field of characteristic \(0\), let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]], and
+let \(\widehat G\) be its
 [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]. The
 modern de Rham **categorical geometric Langlands theorem** gives an
 equivalence
@@ -41,10 +43,9 @@ This is a sheaf-theoretic analogue of simultaneous Hecke eigenfunctions.
 
 ## Scope and status
 
-A five-paper preprint series by Dennis Gaitsgory and Sam Raskin proves this
-characteristic-zero de Rham theorem and an equivalent Betti form. Earlier
-work established the torus case and numerous special cases and constructed
-important families of eigensheaves.
+The characteristic-zero de Rham theorem and an equivalent Betti form have
+been established. Earlier work proved the torus case and numerous special
+cases and constructed important families of eigensheaves.
 
 Étale, positive-characteristic, quantum, and
 [[langlands/ramified-geometric-langlands|ramified]] versions require their

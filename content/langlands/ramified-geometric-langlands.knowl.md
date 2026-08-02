@@ -28,7 +28,7 @@ Langlands” does not name a single pair of categories without them.
 ## Tame examples
 
 For [[langlands/regular-singular-connection|regular-singular]] local systems,
-one may prescribe monodromy conjugacy classes at punctures. Borel or Iwahori
+one may prescribe monodromy [[algebra-groups/conjugacy-class|conjugacy classes]] at punctures. Borel or Iwahori
 level structures are common automorphic counterparts. The precise
 correspondence depends on whether monodromy is semisimple, unipotent, or
 carries additional residue data.
@@ -42,15 +42,15 @@ counterparts use deeper level structures and character sheaves.
 ## The projective line
 
 An ordinary complex local system on unmarked \(\mathbb P^1\) has trivial
-monodromy because the analytic sphere is simply connected. If
+monodromy because the analytic sphere is [[topology/simply-connected-space|simply connected]]. If
 \(U=\mathbb P^1\setminus\{x_1,\ldots,x_n\}\), then
 \[
 \pi_1(U)=
 \langle m_1,\ldots,m_n\mid m_1m_2\cdots m_n=1\rangle,
 \]
-so prescribed local monodromies produce nontrivial ramified spectral data.
-Nadler and Yun proved a rank-one geometric Langlands equivalence for
-\(SL_2\) and \(PGL_2\) on the three-punctured projective line with
+so prescribed local monodromies produce nontrivial ramified spectral data. A
+rank-one geometric Langlands equivalence is known for \(SL_2\) and \(PGL_2\)
+on the three-punctured [[algebraic-geometry-foundations/projective-line|projective line]] with
 [[langlands/tame-ramification|tame ramification]].
 
 ## References

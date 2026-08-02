@@ -13,11 +13,11 @@ The matrix group
 SL(2,\mathbb C)=
 \left\{\begin{pmatrix}a&b\\c&d\end{pmatrix}:ad-bc=1\right\}
 \]
-is a [[lie-groups/complex-lie-group|complex Lie group]] of complex dimension \(3\). Its [[lie-groups/underlying-real-lie-group|underlying real Lie group]] \(SL(2,\mathbb C)_{\mathbb R}\) is the same topological group with the same multiplication, but has real dimension \(6\).
+is a [[lie-groups/complex-lie-group|complex Lie group]] of complex dimension \(3\). Its [[lie-groups/underlying-real-lie-group|underlying real Lie group]] \(SL(2,\mathbb C)_{\mathbb R}\) is the same [[topology/topological-group|topological group]] with the same multiplication, but has real dimension \(6\).
 
 ## Lie algebras and dimensions
 
-Its complex Lie algebra is
+Its complex [[lie-groups/lie-algebra|Lie algebra]] is
 \[
 \mathfrak{sl}_2(\mathbb C)
 =\left\{\begin{pmatrix}z&w\\u&-z\end{pmatrix}:z,w,u\in\mathbb C\right\},
@@ -27,7 +27,7 @@ The real Lie algebra of \(SL(2,\mathbb C)_{\mathbb R}\) is \(\mathfrak{sl}_2(\ma
 
 ## Global relationships
 
-The center is \(\{\pm I\}\), and quotienting by it gives [[lie-groups/psl2-complex|\(PSL(2,\mathbb C)\)]]. As a real Lie group, \(SL(2,\mathbb C)_{\mathbb R}\) is isomorphic to \(\operatorname{Spin}^+(1,3)\) and double-covers [[lie-groups/proper-orthochronous-lorentz-group|\(SO^+(1,3)\)]]. It is also simply connected; the quotient by its center is not.
+The center is \(\{\pm I\}\), and quotienting by it gives [[lie-groups/psl2-complex|\(PSL(2,\mathbb C)\)]]. As a real Lie group, \(SL(2,\mathbb C)_{\mathbb R}\) is isomorphic to \(\operatorname{Spin}^+(1,3)\) and double-covers [[lie-groups/proper-orthochronous-lorentz-group|\(SO^+(1,3)\)]]. It is also [[topology/simply-connected-space|simply connected]]; the quotient by its center is not.
 
 ## References
 

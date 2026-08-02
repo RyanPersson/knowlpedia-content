@@ -24,11 +24,11 @@ Here \(\operatorname{Scal}_g\) is the [[differential-geometry/scalar-curvature|s
 
 ## Initial data and propagation
 
-Because the Klein–Gordon operator is [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic]], its characteristics are null even when \(m>0\). Its global existence, uniqueness, and finite-propagation properties on globally hyperbolic spacetimes follow from the [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|Cauchy theorem for normally hyperbolic operators]].
+Because the Klein–Gordon operator is [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic]], its characteristics are null even when \(m>0\). Its global existence, uniqueness, and finite-propagation properties on [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetimes]] follow from the [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|Cauchy theorem for normally hyperbolic operators]].
 
 ## Relation to the Dirac equation
 
-In flat spacetime the free [[mathematical-physics/dirac-equation|Dirac equation]] factors a Klein–Gordon operator: each component of a free Dirac spinor satisfies the Klein–Gordon equation. Curvature and gauge coupling add lower-order terms to the corresponding squared Dirac operator, so the flat factorization should not be transferred unchanged to general backgrounds.
+In flat spacetime the free [[mathematical-physics/dirac-equation|Dirac equation]] factors a Klein–Gordon operator: each component of a free [[differential-geometry/dirac-spinor|Dirac spinor]] satisfies the Klein–Gordon equation. Curvature and gauge coupling add lower-order terms to the corresponding squared Dirac operator, so the flat factorization should not be transferred unchanged to general backgrounds.
 
 ## Terminology
 

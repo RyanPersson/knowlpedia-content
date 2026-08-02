@@ -20,12 +20,12 @@ The first sends a [[algebra-rings/field|field]] to its underlying
 [[algebra-hyperstructures/hyperfield|hyperfield]].
 
 The essential image of the first embedding consists of the semifields whose
-additive commutative monoid is an abelian group. The essential image of the
+additive commutative monoid is an [[algebra-groups/abelian-group|abelian group]]. The essential image of the
 second consists of the hyperfields whose every hyper-sum is a singleton.
 
 ## Full faithfulness
 
-A unit-preserving semiring homomorphism between fields preserves additive
+A unit-preserving [[algebra-rings/semiring-homomorphism|semiring homomorphism]] between fields preserves additive
 inverses, because
 \[
 f(a)+f(-a)=f(0)=0.
@@ -43,7 +43,7 @@ This theorem identifies two copies of the category of fields; it does not
 identify all semifields with all hyperfields. Semifield addition is a
 single-valued operation without required additive inverses, whereas
 hyperfield addition is nonempty-set-valued and satisfies the inverse and
-reversibility axioms of a canonical hypergroup.
+reversibility axioms of a [[algebra-hyperstructures/canonical-hypergroup|canonical hypergroup]].
 
 ## References
 

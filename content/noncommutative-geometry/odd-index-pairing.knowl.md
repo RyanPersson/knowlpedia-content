@@ -41,7 +41,7 @@ This sign uses the convention \(\operatorname{ind}T=\dim\ker T-\dim\ker T^*\). R
 
 For nonunital \(A\), use a unitary in a matrix algebra over the [[operator-algebras/unitization|unitization]] whose scalar image is the identity. The resulting class lies in \(K_1(A)\).
 
-Some authors define the odd pairing with an overall minus sign, often to align a chosen orientation or boundary-map convention. A stated sign convention is therefore part of a numerical computation. The formula in the core agrees with Connes's Proposition 2(b).
+Some authors define the odd pairing with an overall minus sign, often to align a chosen orientation or boundary-map convention. A stated sign convention is therefore part of a numerical computation. The displayed formula fixes the convention used here.
 
 ## References
 

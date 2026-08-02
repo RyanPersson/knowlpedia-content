@@ -37,7 +37,7 @@ Breuer index is
 =\tau(P_{\ker T})-\tau(P_{\ker T^*}).
 \]
 Unlike the classical Fredholm index, this value may be any real number because
-the trace of a projection in a semifinite algebra need not be integral. The
+the trace of a projection in a semifinite algebra need not be integral.
 
 ## Stability and examples
 

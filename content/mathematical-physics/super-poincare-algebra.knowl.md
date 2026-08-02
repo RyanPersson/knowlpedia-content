@@ -44,7 +44,7 @@ multiple supercharge copies (\(\mathcal N>1\)), \(R\)-symmetry derivations,
 central charges, and tensorial brane charges. These choices change the
 algebra and must be stated explicitly.
 
-The Lie superalgebra is infinitesimal data. Its integration to a global
+The [[supergeometry/lie-superalgebra|Lie superalgebra]] is infinitesimal data. Its integration to a global
 [[supergeometry/lie-supergroup|Lie supergroup]] additionally requires a
 compatible choice of global reduced Poincaré or spin-cover group, naturally
 expressed as a

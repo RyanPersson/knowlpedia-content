@@ -8,7 +8,7 @@ domains = ["algebra-rings", "formal-groups"]
 section_mode = "progressive"
 +++
 
-Let \(R\) be a commutative ring and let
+Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let
 \[
 f=(f_1,\ldots,f_n)\in(X_1,\ldots,X_n)R[[X_1,\ldots,X_n]]^n.
 \]

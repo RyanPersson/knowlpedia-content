@@ -33,7 +33,7 @@ therefore essential for this realization.
 
 ## Boolean comparison
 
-The Boolean semifield also has carrier \(\{0,1\}\) and ordinary
+The [[algebra-rings/boolean-semifield|Boolean semifield]] also has carrier \(\{0,1\}\) and ordinary
 multiplication, but \(1+1=1\) there. The Krasner hyperfield has a genuinely
 multivalued sum containing both \(0\) and \(1\), so the two structures are
 not isomorphic and should not be conflated.

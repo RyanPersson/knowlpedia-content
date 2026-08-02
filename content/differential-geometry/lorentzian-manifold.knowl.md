@@ -32,7 +32,7 @@ on \(I\times\Sigma\), where each \(h_t\) is Riemannian, is Lorentzian and time-o
 
 ## Sign warning
 
-Sources that list positive directions first call the same \((-+\cdots+)\) metric's signature \((n-1,1)\), while its timelike vectors still have negative squared length. Other sources reverse the metric to \((+-\cdots-)\) and call vectors with positive squared length timelike; in this collection's negative-first ordering, that opposite metric also has signature \((n-1,1)\). Formulas for the wave operator and Clifford multiplication must be translated consistently when the overall sign changes.
+Sources that list positive directions first call the same \((-+\cdots+)\) metric's signature \((n-1,1)\), while its timelike vectors still have negative squared length. Other sources reverse the metric to \((+-\cdots-)\) and call vectors with positive squared length timelike; in this collection's negative-first ordering, that opposite metric also has signature \((n-1,1)\). Formulas for the [[mathematical-physics/dalembert-operator|wave operator]] and [[differential-geometry/clifford-module|Clifford multiplication]] must be translated consistently when the overall sign changes.
 
 ## References
 

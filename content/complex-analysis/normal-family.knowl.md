@@ -12,7 +12,7 @@ Let \(D\subseteq\mathbb C\) be a domain. A family \(\mathcal F\) of holomorphic 
 
 ## Spherical formulation
 
-View each function as a map into the [[complex-analysis/riemann-sphere|Riemann sphere]] with its spherical metric. Then the two alternatives in the core can be expressed as locally uniform spherical convergence. For families of meromorphic functions, this spherical formulation is the standard definition and permits meromorphic limits.
+View each function as a map into the [[complex-analysis/riemann-sphere|Riemann sphere]] with its spherical metric. Then the two alternatives in the core can be expressed as locally uniform spherical convergence. For families of [[complex-analysis/meromorphic-function|meromorphic functions]], this spherical formulation is the standard definition and permits meromorphic limits.
 
 ## Compactness criterion
 

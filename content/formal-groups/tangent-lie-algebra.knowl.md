@@ -15,7 +15,7 @@ Let \(\mathcal G\) be a finite-dimensional
 \operatorname{Lie}(\mathcal G):=T_e\mathcal G
 \]
 with the bracket obtained by extending tangent vectors uniquely to
-left-invariant formal vector fields and taking their commutator.
+left-invariant formal [[fiber-bundles/vector-field|vector fields]] and taking their commutator.
 
 ## Invariant derivations
 
@@ -23,7 +23,7 @@ In affine coordinates, formal vector fields are continuous derivations of the
 complete coordinate ring. Multiplication on \(\mathcal G\) defines the
 left-translation condition. Evaluation at \(e\) identifies left-invariant
 derivations with \(T_e\mathcal G\), and the commutator of derivations preserves
-left invariance. Transporting that commutator back to the tangent space gives
+left invariance. Transporting that commutator back to the [[differential-geometry/tangent-space|tangent space]] gives
 the bilinear alternating bracket satisfying the Jacobi identity.
 
 ## Formula from a formal group law

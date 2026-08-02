@@ -27,7 +27,7 @@ and
 =
 (\operatorname{id}\otimes\varepsilon)\Delta,
 \]
-after the canonical identifications \(k\otimes_k C\cong C\cong C\otimes_k k\). Thus a coalgebra is a comonoid in the monoidal category of \(k\)-modules.
+after the canonical identifications \(k\otimes_k C\cong C\cong C\otimes_k k\). Thus a coalgebra is a comonoid in the [[algebra-category-theory/monoidal-category|monoidal category]] of \(k\)-modules.
 
 ## How to read the axioms
 

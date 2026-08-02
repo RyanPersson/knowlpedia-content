@@ -14,7 +14,7 @@ A^*=A,
 \qquad\text{equivalently}\qquad
 a_{ij}=\overline{a_{ji}},
 \]
-where \(A^*=\overline A^{\,T}\) is the conjugate transpose. Hermitian matrices are the matrices of self-adjoint linear operators on finite-dimensional complex inner-product spaces in orthonormal bases.
+where \(A^*=\overline A^{\,T}\) is the conjugate transpose. Hermitian matrices are the matrices of self-adjoint linear operators on finite-dimensional complex inner-product spaces in [[linear-algebra/orthonormal-basis|orthonormal bases]].
 
 ## Spectral theorem
 

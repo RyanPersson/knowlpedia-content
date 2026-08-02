@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 An **integral hyperring**, also called a **hyperdomain**, is a commutative
 [[algebra-hyperstructures/hyperring|hyperring]] \(R\) with \(0\ne1\) and no
-multiplicative zero divisors:
+multiplicative [[algebra-rings/zero-divisor|zero divisors]]:
 \[
 ab=0\quad\Longrightarrow\quad a=0\ \text{or}\ b=0.
 \]
@@ -29,7 +29,7 @@ to multiply without producing zero, but they need not all be units.
 
 ## Role in partial hyperfields
 
-A partial hyperfield selects a multiplicative subgroup of the units of an
+A [[algebra-hyperstructures/partial-hyperfield|partial hyperfield]] selects a multiplicative subgroup of the units of an
 integral hyperring. The no-zero-divisors condition ensures that the selected
 nonzero coefficients retain field-like multiplicative behavior even though
 only part of the ambient hyperaddition is visible.

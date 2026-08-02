@@ -30,7 +30,7 @@ elsewhere in this collection does **not** impose commutativity, even when
 
 Dimension counts formal parameters, not the number of variables appearing in
 the multiplication: a one-dimensional law uses the two inputs \(X\) and
-\(Y\), but its underlying formal disc has one coordinate.
+\(Y\), but its underlying [[formal-groups/formal-affine-space|formal disc]] has one coordinate.
 
 ## The \(m\)-series
 

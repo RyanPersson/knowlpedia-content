@@ -52,7 +52,7 @@ R[[X]]\longrightarrow R[[Y]],\qquad X_i\longmapsto g_i.
 This is the algebraic form of
 [[algebra-rings/substitution-of-formal-power-series|substituting formal power
 series with zero constant term]]. The direction reverses when the rings are
-viewed as coordinate rings of formal affine spaces.
+viewed as coordinate rings of [[formal-groups/formal-affine-space|formal affine spaces]].
 
 ## References
 

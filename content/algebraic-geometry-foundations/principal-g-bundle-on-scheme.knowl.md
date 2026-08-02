@@ -8,7 +8,7 @@ domains = ["algebraic-geometry-foundations", "langlands"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a group scheme over a base \(S\), and let \(X\) be an
+Let \(G\) be a [[algebraic-geometry-foundations/group-scheme|group scheme]] over a base \(S\), and let \(X\) be an
 \(S\)-scheme. A **principal \(G\)-bundle on \(X\)** is a
 [[algebraic-geometry-foundations/g-torsor-on-a-site|\(G_X\)-torsor]] on a
 specified site of \(X\), commonly the fppf or étale site, whose underlying
@@ -23,7 +23,7 @@ P\times_S G \longrightarrow P\times_XP,\qquad (p,g)\longmapsto(p,pg).
 
 ## Relation to differential geometry
 
-When \(S=\operatorname{Spec}\mathbb C\), \(G\) is a complex algebraic group,
+When \(S=\operatorname{Spec}\mathbb C\), \(G\) is a complex [[algebraic-geometry-foundations/algebraic-group|algebraic group]],
 and \(X\) is a complex algebraic variety, analytification produces a
 holomorphic principal \(G(\mathbb C)\)-bundle. Its underlying smooth bundle is
 a

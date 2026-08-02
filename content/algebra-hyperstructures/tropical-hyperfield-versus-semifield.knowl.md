@@ -43,7 +43,7 @@ The semifield's natural order is defined algebraically by
 \(x\le y\iff x\oplus y=y\), and in the max presentation it is the usual
 order. The hyperfield uses that same external order to describe its tied
 hyper-sum, but hyperaddition itself is not a join operation and does not make
-the hyperfield an idempotent semiring.
+the hyperfield an [[algebra-rings/idempotent-semiring|idempotent semiring]].
 
 In the min-plus presentation all displayed numerical inequalities reverse.
 One must switch both the distinguished infinity and the order convention,

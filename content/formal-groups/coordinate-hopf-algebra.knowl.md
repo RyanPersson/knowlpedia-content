@@ -12,7 +12,7 @@ Let \(k\) be a commutative ring and let
 \(G=\operatorname{Spf}(A)\) be an affine [[formal-groups/formal-group|formal
 group]] over \(k\), where \(A\) is a complete separated commutative
 topological \(k\)-algebra. Pullback along the multiplication, identity, and
-inverse of \(G\) gives continuous maps
+inverse of \(G\) gives [[topology/continuous-map|continuous maps]]
 \[
 \Delta:A\longrightarrow A\widehat\otimes_k A,\qquad
 \varepsilon:A\longrightarrow k,\qquad
@@ -48,7 +48,7 @@ m_A(S\widehat\otimes\operatorname{id})\Delta
 Thus \(\Delta\), \(\varepsilon\), and \(S\) encode multiplication, identity,
 and inversion on \(G\), respectively. Although \(A\) is commutative as an
 algebra, \(\Delta\) need not be cocommutative; cocommutativity of \(\Delta\)
-is equivalent to commutativity of the formal group.
+is equivalent to commutativity of the [[formal-groups/formal-group|formal group]].
 
 ## Scope
 

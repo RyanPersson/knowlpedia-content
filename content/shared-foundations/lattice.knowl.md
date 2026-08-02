@@ -9,8 +9,8 @@ section_mode = "progressive"
 +++
 
 A **lattice** is a [[shared-foundations/partial-order|partially ordered set]]
-\((L,\leq)\) in which every pair \(a,b\in L\) has both a least upper bound,
-called its **join** \(a\vee b\), and a greatest lower bound, called its
+\((L,\leq)\) in which every pair \(a,b\in L\) has both a least [[shared-foundations/upper-bound|upper bound]],
+called its **join** \(a\vee b\), and a greatest [[shared-foundations/lower-bound|lower bound]], called its
 **meet** \(a\wedge b\).
 
 ## Algebraic laws
@@ -31,7 +31,7 @@ Thus order-theoretic and algebraic definitions of a lattice are equivalent.
 ## Examples and scope
 
 The subsets of a set form a lattice under inclusion, with union as join and
-intersection as meet. Every total order is a lattice, with maximum as join
+intersection as meet. Every [[shared-foundations/total-order|total order]] is a lattice, with maximum as join
 and minimum as meet, but a lattice need not be totally ordered.
 
 A **lattice homomorphism** preserves binary joins and binary meets. A bounded

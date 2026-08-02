@@ -21,7 +21,7 @@ is locally the restriction of a [[complex-analysis/mobius-transformation|Möbius
 
 ## Underlying complex structure
 
-Möbius transformations are biholomorphic, so a complex projective atlas is in particular a complex atlas. Thus a projective structure refines the complex structure of \(X\); it is extra data, not merely the assertion that \(X\) is a Riemann surface.
+Möbius transformations are biholomorphic, so a complex projective atlas is in particular a [[differential-geometry/complex-atlas|complex atlas]]. Thus a projective structure refines the complex structure of \(X\); it is extra data, not merely the assertion that \(X\) is a Riemann surface.
 
 ## Developing map and holonomy
 
@@ -29,7 +29,7 @@ Analytically continuing projective charts on the universal cover produces a loca
 \[
 \operatorname{dev}:\widetilde X\to\mathbb P^1(\mathbb C)
 \]
-and a holonomy representation
+and a [[fiber-bundles/holonomy-representation|holonomy representation]]
 \[
 \rho:\pi_1(X)\to PGL_2(\mathbb C)
 \]

@@ -34,7 +34,7 @@ completion.
 
 ## Continuous maps
 
-If \(B\) has its \(J\)-adic topology, a ring homomorphism
+If \(B\) has its \(J\)-adic topology, a [[algebra-rings/ring-homomorphism|ring homomorphism]]
 \(\varphi:A\to B\) is continuous exactly when, for every \(m\), there is an
 \(n\) such that
 \[

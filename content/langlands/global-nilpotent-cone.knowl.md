@@ -8,11 +8,11 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a smooth projective curve and \(G\) a reductive group. A point of
+Let \(X\) be a [[algebraic-geometry-foundations/smooth-projective-curve|smooth projective curve]] and \(G\) a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]. A point of
 the scheme of singularities of
 [[langlands/moduli-stack-of-g-local-systems|\(\operatorname{LocSys}_G(X)\)]]
 can be represented by a pair \((E,\phi)\), where \(E\) is a \(G\)-local
-system and \(\phi\) is a horizontal section of the coadjoint local system
+system and \(\phi\) is a horizontal section of the coadjoint [[fiber-bundles/local-system|local system]]
 \(\operatorname{ad}(E)^*\).
 
 The **global nilpotent cone**

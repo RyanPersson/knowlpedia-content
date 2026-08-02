@@ -22,7 +22,7 @@ on \(S\)-schemes. Equivalently, it is characterized by natural bijections
 
 ## Existence and structure
 
-If \(X\) is affine over \(S'\), the Weil restriction exists and is affine over \(S\). It also exists under standard broader hypotheses, including when \(X\) is quasi-projective and \(S'\to S\) is finite locally free. Constructions such as products and group laws transport through the representing property, so the Weil restriction of a group scheme is a group scheme.
+If \(X\) is affine over \(S'\), the Weil restriction exists and is affine over \(S\). It also exists under standard broader hypotheses, including when \(X\) is quasi-projective and \(S'\to S\) is finite locally free. Constructions such as products and group laws transport through the representing property, so the Weil restriction of a [[algebraic-geometry-foundations/group-scheme|group scheme]] is a group scheme.
 
 ## Complex groups viewed over the real numbers
 
@@ -33,7 +33,7 @@ For a group scheme \(G\) over \(\mathbb C\),
 \]
 For example, the real points of \(\operatorname{Res}_{\mathbb C/\mathbb R}SL_2\) form \(SL(2,\mathbb C)_{\mathbb R}\). This explains algebraically why its real dimension is twice the complex dimension.
 
-After base change back to \(\mathbb C\), one obtains
+After [[algebraic-geometry-foundations/base-change|base change]] back to \(\mathbb C\), one obtains
 \[
 \bigl(\operatorname{Res}_{\mathbb C/\mathbb R}G\bigr)_{\mathbb C}
 \cong G\times\overline G,

@@ -13,7 +13,7 @@ Let \(G\) be a connected
 algebraic group]] over a field \(k\). A smooth closed subgroup \(P\subseteq G\)
 is **parabolic** if the quotient \(G/P\) is proper over \(k\).
 
-Over an algebraically closed field, this is equivalent to requiring \(P\) to
+Over an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]], this is equivalent to requiring \(P\) to
 contain a [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]].
 Every Borel subgroup is therefore parabolic.
 

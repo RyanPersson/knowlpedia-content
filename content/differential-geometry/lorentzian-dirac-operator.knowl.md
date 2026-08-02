@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \((M,g)\) be a Lorentzian spin manifold, \(S\to M\) its
 [[differential-geometry/lorentzian-spinor-bundle|Lorentzian spinor bundle]],
-and \(\nabla^S\) its spin connection. The **Lorentzian Dirac operator** is
+and \(\nabla^S\) its [[fiber-bundles/spin-connection|spin connection]]. The **Lorentzian Dirac operator** is
 Clifford contraction of the covariant derivative:
 \[
 D_g=c\circ\nabla^S:
@@ -42,8 +42,8 @@ operator]].
 
 ## Cauchy problem
 
-On a globally hyperbolic spacetime, compactly supported initial spinor data on
-a smooth spacelike Cauchy hypersurface determine a unique solution with
+On a [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetime]], compactly supported initial spinor data on
+a smooth spacelike [[differential-geometry/cauchy-hypersurface|Cauchy hypersurface]] determine a unique solution with
 finite propagation speed. This is the
 [[mathematical-physics/cauchy-problem-for-the-lorentzian-dirac-operator|Cauchy
 theorem for the Lorentzian Dirac operator]].
@@ -54,7 +54,7 @@ The Lorentzian Dirac operator is the signature-\((1,n-1)\) counterpart of the
 Riemannian spin [[noncommutative-geometry/dirac-operator|Dirac operator]], but
 their analytic theories differ. The flat model is the
 [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]].
-Choices of invariant spinor pairing and time orientation are required before
+Choices of invariant spinor pairing and [[differential-geometry/time-orientation|time orientation]] are required before
 formulating formal-adjoint or Hilbert-space statements.
 
 ## References

@@ -8,7 +8,7 @@ domains = ["formal-groups"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be an \(n\)-dimensional [[formal-groups/formal-group-law|formal group
+Let \(F\) be an \(n\)-dimensional [[formal-groups/formal-group-law|[[formal-groups/formal-group|formal group]]
 law]] over \(R\), and let \(G\) be \(m\)-dimensional. A **morphism of formal
 group laws**
 \[
@@ -19,7 +19,7 @@ is a tuple \(f(X)\in(X)R[[X_1,\ldots,X_n]]^m\) satisfying
 f(F(X,Y))=G(f(X),f(Y)).
 \]
 Composition is [[algebra-rings/substitution-of-formal-power-series|formal
-substitution]], and the identity morphism is the coordinate tuple \(X\).
+substitution]], and the [[algebra-category-theory/identity-morphism|identity morphism]] is the coordinate tuple \(X\).
 
 ## Isomorphisms and strict isomorphisms
 

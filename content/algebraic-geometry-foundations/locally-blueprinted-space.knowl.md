@@ -8,13 +8,13 @@ domains = ["algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-A **blueprinted space** is a topological space \(X\) together with a sheaf \(\mathcal O_X\) of [[algebraic-geometry-foundations/blueprint|blueprints]]. It is **locally blueprinted** if every stalk \(\mathcal O_{X,x}\) is a local blueprint, meaning that it has a unique maximal ideal \(\mathfrak m_x\).
+A **blueprinted space** is a topological space \(X\) together with a sheaf \(\mathcal O_X\) of [[algebraic-geometry-foundations/blueprint|blueprints]]. It is **locally blueprinted** if every stalk \(\mathcal O_{X,x}\) is a local blueprint, meaning that it has a unique [[algebra-rings/maximal-ideal|maximal ideal]] \(\mathfrak m_x\).
 
 A morphism
 \[
 (f,f^\#):(X,\mathcal O_X)\longrightarrow(Y,\mathcal O_Y)
 \]
-of locally blueprinted spaces consists of a continuous map \(f:X\to Y\) and a morphism of sheaves
+of locally blueprinted spaces consists of a continuous map \(f:X\to Y\) and a [[algebraic-geometry-foundations/morphism-of-sheaves|morphism of sheaves]]
 \[
 f^\#:\mathcal O_Y\longrightarrow f_*\mathcal O_X
 \]

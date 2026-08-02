@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 For a [[supergeometry/supermanifold|supermanifold]] \(X\), its **functor of
-points** is the contravariant functor
+points** is the [[algebra-category-theory/contravariant-functor|contravariant functor]]
 \[
 h_X:\mathbf{SMan}_{\mathbb R}^{\mathrm{sm},\mathrm{op}}
 \longrightarrow\mathbf{Set},
@@ -18,9 +18,9 @@ h_X(S)=\operatorname{Hom}_{\mathbf{SMan}}(S,X).
 \]
 An element of \(h_X(S)\) is an **\(S\)-point** of \(X\), or equivalently a
 family of points of \(X\) parametrized by the test supermanifold \(S\).
-A morphism \(X\to Y\) induces a natural transformation \(h_X\to h_Y\).
+A morphism \(X\to Y\) induces a [[algebra-category-theory/natural-transformation|natural transformation]] \(h_X\to h_Y\).
 
-By the Yoneda lemma, \(X\mapsto h_X\) is fully faithful. Consequently, a
+By the [[algebra-category-theory/yoneda-lemma|Yoneda lemma]], \(X\mapsto h_X\) is fully faithful. Consequently, a
 supermanifold and every one of its morphisms can be characterized by all
 \(S\)-points and their naturality in \(S\).
 

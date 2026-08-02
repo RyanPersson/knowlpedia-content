@@ -20,11 +20,11 @@ Small circles around \(a\) therefore wind \(m\) times around \(f(a)\), forcing t
 
 ## Consequences
 
-A bijective holomorphic map between plane domains has holomorphic inverse: continuity of the inverse follows because the map is open, and local complex differentiability follows away from critical points; injectivity rules those out. The theorem also gives a short proof of the [[complex-analysis/maximum-modulus-principle|maximum modulus principle]].
+A bijective holomorphic map between plane domains has holomorphic inverse: continuity of the inverse follows because the map is open, and local [[complex-analysis/complex-derivative|complex differentiability]] follows away from critical points; injectivity rules those out. The theorem also gives a short proof of the [[complex-analysis/maximum-modulus-principle|maximum modulus principle]].
 
 ## Disambiguation
 
-This result is distinct from the Banach-space open mapping theorem for bounded surjective linear operators. Its hypotheses and proof are specifically complex analytic.
+This result is distinct from the Banach-space [[functional-analysis/open-mapping-theorem|open mapping theorem]] for bounded surjective linear operators. Its hypotheses and proof are specifically complex analytic.
 
 ## References
 

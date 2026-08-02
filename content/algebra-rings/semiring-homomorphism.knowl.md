@@ -20,7 +20,7 @@ unit-preserving in the house convention.
 ## Categorical role
 
 Identity functions and composites are semiring homomorphisms, so semirings
-and these maps form a category. Restricting to commutative semirings gives the
+and these maps form a category. Restricting to [[algebra-rings/commutative-semiring|commutative semirings]] gives the
 category used in the tropical-algebra pages.
 
 ## Convention warning

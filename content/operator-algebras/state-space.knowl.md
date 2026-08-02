@@ -28,7 +28,7 @@ A state is [[operator-algebras/pure-state-cstar-algebra|pure]] exactly when it
 is an extreme point of \(S(A)\). Thus convex decompositions express mixed
 states as combinations of other states. The Krein–Milman theorem implies that,
 for unital \(A\), the compact convex set \(S(A)\) is the closed
-[[convex-analysis/convex-hull|convex hull]] of its pure states. This convex
+[[convex-analysis/convex-hull|convex hull]] of its pure states.
 
 ## Standard examples
 

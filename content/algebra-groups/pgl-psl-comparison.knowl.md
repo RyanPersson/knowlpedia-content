@@ -44,11 +44,11 @@ For \(k=\mathbb R\), the quotient is trivial when \(n\) is odd and has two eleme
 \]
 whereas \(\operatorname{PSL}_n(\mathbb R)\) has index \(2\) in \(\operatorname{PGL}_n(\mathbb R)\) for even \(n\). In particular, \(\operatorname{PSL}_2(\mathbb R)\ne\operatorname{PGL}_2(\mathbb R)\).
 
-For a finite field \(\mathbb F_q\), the quotient has order \(\gcd(n,q-1)\), since \(\mathbb F_q^\times\) is cyclic. Thus equality is controlled by arithmetic in the ground field, not by notation.
+For a [[algebra-fields-galois/finite-field|finite field]] \(\mathbb F_q\), the quotient has order \(\gcd(n,q-1)\), since \(\mathbb F_q^\times\) is cyclic. Thus equality is controlled by arithmetic in the ground field, not by notation.
 
 ## Scope warning
 
-This exact sequence concerns groups of \(k\)-valued matrices modulo scalar matrices. It should not be confused with an exact sequence of group schemes followed blindly by \(k\)-points: taking rational points of a quotient need not be right-exact.
+This exact sequence concerns groups of \(k\)-valued matrices modulo scalar matrices. It should not be confused with an exact sequence of [[algebraic-geometry-foundations/group-scheme|group schemes]] followed blindly by \(k\)-points: taking rational points of a quotient need not be right-exact.
 
 ## References
 

@@ -8,7 +8,7 @@ domains = ["complex-analysis", "partial-differential-equations"]
 section_mode = "progressive"
 +++
 
-Write \(f(x+iy)=u(x,y)+iv(x,y)\). At a point where the real partial derivatives exist, the **Cauchy–Riemann equations** are
+Write \(f(x+iy)=u(x,y)+iv(x,y)\). At a point where the real [[real-analysis/partial-derivative|partial derivatives]] exist, the **Cauchy–Riemann equations** are
 \[
 u_x=v_y,\qquad u_y=-v_x.
 \]

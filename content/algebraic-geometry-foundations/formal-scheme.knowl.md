@@ -41,9 +41,9 @@ when their underlying topological spaces are small.
 ## Ordinary schemes and formal completions
 
 An ordinary [[algebraic-geometry-foundations/scheme|scheme]] becomes a formal
-scheme by giving its structure sheaf the discrete topology. More importantly,
+scheme by giving its [[algebraic-geometry-foundations/structure-sheaf|structure sheaf]] the discrete topology. More importantly,
 completing a scheme along a closed subscheme produces a genuinely formal
-scheme. For a group scheme, completion along the identity produces a
+scheme. For a [[algebraic-geometry-foundations/group-scheme|group scheme]], completion along the identity produces a
 [[formal-groups/formal-completion-at-identity|formal group]].
 
 ## Group objects
@@ -51,7 +51,7 @@ scheme. For a group scheme, completion along the identity produces a
 Finite products exist in the category of formal schemes over a base. Hence one
 can form [[algebra-category-theory/group-object|group objects]] in this
 category. This coordinate-free definition is the natural home of
-[[formal-groups/formal-group|formal groups]]; a formal group law appears only
+[[formal-groups/formal-group|formal groups]]; a [[formal-groups/formal-group-law|formal group law]] appears only
 after choosing parameters on the underlying formal scheme.
 
 ## Convention

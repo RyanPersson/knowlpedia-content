@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(F=(G,N_F)\) be a [[algebra-hyperstructures/tract|tract]]. Adjoin an
 absorbing zero to \(G\), take the free ambient semiring
-\(\mathbb N[G]\), and generate a partial order by
+\(\mathbb N[G]\), and generate a [[shared-foundations/partial-order|partial order]] by
 \[
 0\leq\sum_i g_i
 \qquad\text{for every }\sum_i g_i\in N_F.

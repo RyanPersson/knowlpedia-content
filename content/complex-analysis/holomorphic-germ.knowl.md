@@ -12,7 +12,7 @@ Let \(X\) be a complex manifold and \(a\in X\). Two holomorphic functions \(f:U\
 
 ## Local ring
 
-Holomorphic germs at \(a\) form a local ring \(\mathcal O_{X,a}\) under pointwise addition and multiplication of representatives. Its unique maximal ideal consists of germs vanishing at \(a\); a germ is a unit exactly when its value at \(a\) is nonzero.
+Holomorphic germs at \(a\) form a [[algebra-commutative/local-ring|local ring]] \(\mathcal O_{X,a}\) under pointwise addition and multiplication of representatives. Its unique [[algebra-rings/maximal-ideal|maximal ideal]] consists of germs vanishing at \(a\); a germ is a unit exactly when its value at \(a\) is nonzero.
 
 ## One complex variable
 

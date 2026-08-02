@@ -8,7 +8,7 @@ domains = ["linear-algebra", "algebra-fields-galois"]
 section_mode = "progressive"
 +++
 
-Let \(V\) be a vector space over a field \(k\), let \(W\) be a vector space over a field \(\ell\), and let \(\sigma:k\to\ell\) be a field homomorphism. A map \(T:V\to W\) is **\(\sigma\)-semilinear** if
+Let \(V\) be a [[linear-algebra/vector-space|vector space]] over a field \(k\), let \(W\) be a vector space over a field \(\ell\), and let \(\sigma:k\to\ell\) be a field homomorphism. A map \(T:V\to W\) is **\(\sigma\)-semilinear** if
 \[
 T(v+w)=T(v)+T(w),\qquad T(av)=\sigma(a)T(v)
 \]

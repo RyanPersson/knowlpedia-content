@@ -20,7 +20,7 @@ collection, the **restricted spin group** is the full preimage
 :=
 \rho^{-1}\bigl(SO^+(p,q)\bigr)
 \]
-of the identity component of the special orthogonal group.
+of the identity component of the [[lie-groups/special-orthogonal-group|special orthogonal group]].
 
 Its restricted homomorphism
 \[

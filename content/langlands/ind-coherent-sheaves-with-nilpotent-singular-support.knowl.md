@@ -8,7 +8,7 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a smooth projective curve and let \(\widehat G\) be a reductive
+Let \(X\) be a [[algebraic-geometry-foundations/smooth-projective-curve|smooth projective curve]] and let \(\widehat G\) be a reductive
 group. For the quasi-smooth derived stack
 \(\operatorname{LocSys}_{\widehat G}(X)\), let
 \(\mathcal N_{\widehat G}\) denote its
@@ -28,7 +28,7 @@ where \(\operatorname{SS}\) is
 
 This is the spectral category in the modern de Rham
 [[langlands/geometric-langlands-correspondence|geometric Langlands
-correspondence]] for a general reductive group.
+correspondence]] for a general [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]].
 
 ## Why QCoh is not enough
 

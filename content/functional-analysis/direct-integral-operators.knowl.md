@@ -44,7 +44,8 @@ everywhere. Fiberwise functional calculus then gives
 \[
 f(A)=\int_X^\oplus f(A_x)\,d\mu(x)
 \]
-for bounded Borel \(f\). These results are part of the direct-integral
+for bounded Borel \(f\). Thus bounded Borel functional calculus commutes with
+this direct-integral decomposition.
 
 ## Examples and scope
 

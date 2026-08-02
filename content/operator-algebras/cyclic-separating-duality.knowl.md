@@ -18,6 +18,7 @@ Let \(M\subseteq B(H)\) be a
 \quad\Longleftrightarrow\quad
 \xi\text{ is separating for }M',
 \]
+and
 \[
 \xi\text{ is separating for }M
 \quad\Longleftrightarrow\quad

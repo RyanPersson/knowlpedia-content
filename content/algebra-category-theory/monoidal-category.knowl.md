@@ -12,7 +12,7 @@ A **monoidal category** is a [[algebra-category-theory/category|category]] \(\ma
 \[
 \otimes:\mathcal C\times\mathcal C\longrightarrow\mathcal C,
 \]
-an object \(\mathbb 1\), and natural isomorphisms
+an object \(\mathbb 1\), and [[algebra-category-theory/natural-isomorphism|natural isomorphisms]]
 \[
 \alpha_{X,Y,Z}:(X\otimes Y)\otimes Z\overset{\sim}{\longrightarrow}X\otimes(Y\otimes Z),\qquad
 \lambda_X:\mathbb 1\otimes X\overset{\sim}{\longrightarrow}X,\qquad

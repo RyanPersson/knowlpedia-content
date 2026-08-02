@@ -8,7 +8,7 @@ domains = ["mathematical-physics", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \((V,g)\) be a finite-dimensional real or complex quadratic space with
+Let \((V,g)\) be a finite-dimensional real or complex [[linear-algebra/quadratic-form|quadratic space]] with
 basis \(e_a\), and let
 \(c:\operatorname{Cl}(V,g)\to\operatorname{End}(\Delta)\) be a
 [[differential-geometry/spinor-module|spinor module]] written in a basis of

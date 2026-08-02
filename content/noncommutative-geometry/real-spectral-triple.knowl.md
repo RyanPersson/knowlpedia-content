@@ -36,7 +36,7 @@ For a closed Riemannian spin manifold \(M\), the data
 \]
 form a real spectral triple, with chirality added in even dimension. Functions act by multiplication, \(J\) is charge conjugation, and \([\not D,f]\) is Clifford multiplication by \(df\); hence it commutes with the right action by functions.
 
-**Warning.** Some authors use “real spectral triple” for the sign relations alone and list the order conditions separately. The definition here follows the package in equations (1.470)–(1.473) of Connes–Marcolli.
+**Warning.** Some authors use “real spectral triple” for the sign relations alone and list the order conditions separately. The definition here includes the full package of sign and order conditions.
 
 ## References
 

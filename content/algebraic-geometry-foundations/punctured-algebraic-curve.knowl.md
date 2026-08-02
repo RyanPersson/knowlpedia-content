@@ -25,7 +25,7 @@ sections and their labels, while \(U\) generally does not.
 
 ## Langlands role
 
-Ramified local systems live on \(U\) together with conditions describing
+Ramified [[fiber-bundles/local-system|local systems]] live on \(U\) together with conditions describing
 their behavior around the missing divisor \(D\). Those boundary conditions
 are extra data, not part of the definition of the punctured curve.
 

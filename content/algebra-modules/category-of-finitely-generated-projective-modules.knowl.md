@@ -14,8 +14,8 @@ projective \(A\)-modules**, denoted \(\mathbf{Proj}(A)\), has
 \(A\)-modules]] as objects and
 [[algebra-modules/module-homomorphism|\(A\)-linear maps]] as morphisms.
 
-This is a full subcategory of the category of \(A\)-modules. It is additive:
-the zero module is a zero object and finite direct sums are biproducts. Every
+This is a [[algebra-category-theory/full-subcategory|full subcategory]] of the category of \(A\)-modules. It is additive:
+the zero module is a [[algebra-category-theory/zero-object|zero object]] and finite direct sums are biproducts. Every
 object is isomorphic to the image of an idempotent matrix
 \(p\in M_n(A)\), or equivalently to a direct summand of \(A^n\).
 
@@ -27,7 +27,7 @@ carry the standard split exact structure, and direct sums and direct
 summands remain inside the category.
 
 The ring \(A\) is fixed. A homomorphism \(A\to B\) leads to extension and
-restriction of scalars between different module categories, but it is not
+[[algebra-commutative/restriction-of-scalars|restriction of scalars]] between different module categories, but it is not
 itself a morphism in \(\mathbf{Proj}(A)\).
 
 For a noncommutative ring one must instead specify left or right modules and

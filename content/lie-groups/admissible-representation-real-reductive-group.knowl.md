@@ -38,7 +38,13 @@ length.
 
 ## Harish–Chandra's finiteness theorem
 
-For real reductive groups in the standard Harish–Chandra class, [[lie-groups/irreducible-unitary-representation|irreducible unitary representations]] are admissible. This deep theorem converts an infinite-dimensional Hilbert representation into a discrete family of finite-dimensional \(K\)-isotypic pieces. Admissibility of a reducible representation is not automatic: an infinite Hilbert direct sum of the trivial representation has infinite multiplicity for the trivial \(K\)-type.
+For real reductive groups in the standard Harish–Chandra class,
+[[lie-groups/irreducible-unitary-representation|irreducible unitary
+representations]] are admissible. This deep theorem converts an
+infinite-dimensional Hilbert representation into a discrete family of
+finite-dimensional \(K\)-isotypic pieces. Admissibility of a reducible
+representation is not automatic: an infinite Hilbert direct sum of the
+trivial representation has infinite multiplicity for the trivial \(K\)-type.
 
 ## Conventions and scope
 

@@ -40,3 +40,8 @@ subalgebra is a nilpotent, self-normalizing subalgebra. Under that convention,
 the displayed equality is part of the definition rather than a separate
 lemma. The substantive semisimple statement above is that the alternative
 “maximal toral” characterization implies self-normalization.
+
+## References
+
+1. James E. Humphreys, *Introduction to Lie Algebras and Representation Theory*, Springer, 1972, §8. [Publisher record](https://doi.org/10.1007/978-1-4612-6398-2).
+2. Anthony W. Knapp, *Lie Groups Beyond an Introduction*, 2nd ed., Birkhäuser, 2002, Chapter II. [Publisher record](https://doi.org/10.1007/978-1-4757-2453-0).

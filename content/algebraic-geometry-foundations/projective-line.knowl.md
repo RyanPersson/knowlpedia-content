@@ -16,7 +16,7 @@ Its \(k\)-points are the one-dimensional subspaces of \(k^2\), written in [[alge
 
 ## Two affine charts
 
-The open set \(U_1=\{x_1\ne0\}\) has coordinate \(z=x_0/x_1\) and is isomorphic to the affine line \(\mathbb A_k^1\). The other open set \(U_0=\{x_0\ne0\}\) has coordinate \(w=x_1/x_0\). On their overlap,
+The open set \(U_1=\{x_1\ne0\}\) has coordinate \(z=x_0/x_1\) and is isomorphic to the [[algebraic-geometry-foundations/affine-line|affine line]] \(\mathbb A_k^1\). The other open set \(U_0=\{x_0\ne0\}\) has coordinate \(w=x_1/x_0\). On their overlap,
 \[
 w=z^{-1}.
 \]
@@ -30,7 +30,7 @@ In the \(z\)-chart, the complement is the single \(k\)-point
 \]
 so at the level of \(k\)-points one often writes \(\mathbb P^1(k)=k\cup\{\infty\}\). The label \(\infty\) depends on the chosen affine chart: no point of the projective line is intrinsically distinguished.
 
-For \(k=\mathbb C\), the associated complex manifold is the [[complex-analysis/riemann-sphere|Riemann sphere]]. Projective linear transformations act on \(\mathbb P_k^1\); after coordinates are chosen, these are fractional linear transformations.
+For \(k=\mathbb C\), the associated [[differential-geometry/complex-manifold|complex manifold]] is the [[complex-analysis/riemann-sphere|Riemann sphere]]. Projective linear transformations act on \(\mathbb P_k^1\); after coordinates are chosen, these are fractional linear transformations.
 
 ## References
 

@@ -17,7 +17,7 @@ ringed space whose underlying topological space is
 \{\mathfrak p\in\operatorname{Spec}(A):\mathfrak p\text{ is open}\}
 =V(I)\cong\operatorname{Spec}(A/I),
 \]
-and whose structure sheaf retains the compatible structure sheaves of all
+and whose [[algebraic-geometry-foundations/structure-sheaf|structure sheaf]] retains the compatible structure sheaves of all
 quotients \(A/I^n\). It may be viewed as the system of infinitesimal
 thickenings
 \[
@@ -40,7 +40,7 @@ homomorphisms give morphisms in the opposite direction:
 \cong
 \operatorname{Hom}_{\mathrm{cont}}(A,B).
 \]
-Continuity is essential because the sheaves remember the adic topologies.
+Continuity is essential because the sheaves remember the [[algebra-commutative/i-adic-topology|adic topologies]].
 
 ## Relation to ordinary spectra
 

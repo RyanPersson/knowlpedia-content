@@ -13,7 +13,7 @@ Let \(\mathbb F=\mathbb R\) or \(\mathbb C\), and let \(n\ge2\). The **projectiv
 \operatorname{PGL}_n(\mathbb F)
 =\operatorname{GL}_n(\mathbb F)/(\mathbb F^\times I_n).
 \]
-The scalar subgroup is closed and central. Therefore the abstract [[algebra-groups/projective-general-linear-group|projective general linear group]] carries the unique quotient manifold structure for which the projection is a smooth submersion.
+The scalar subgroup is closed and central. Therefore the abstract [[algebra-groups/projective-general-linear-group|projective general linear group]] carries the unique quotient manifold structure for which the projection is a [[fiber-bundles/smooth-submersion|smooth submersion]].
 
 ## Dimension and Lie algebra
 
@@ -23,7 +23,7 @@ The scalar subgroup has dimension \(1\) over \(\mathbb F\), so
 \qquad
 \dim_{\mathbb C}\operatorname{PGL}_n(\mathbb C)=n^2-1.
 \]
-The complex group consequently has underlying real dimension \(2(n^2-1)\). Its Lie algebra is
+The complex group consequently has underlying real dimension \(2(n^2-1)\). Its [[lie-groups/lie-algebra|Lie algebra]] is
 \[
 \mathfrak{pgl}_n(\mathbb F)
 =\mathfrak{gl}_n(\mathbb F)/(\mathbb F I_n).
@@ -32,7 +32,7 @@ Because \(\mathbb F\) has characteristic zero, \(X\mapsto X-\frac{\operatorname{
 
 ## Connected components over \(\mathbb R\) and \(\mathbb C\)
 
-The complex Lie group \(\operatorname{PGL}_n(\mathbb C)\) is connected. For the real group, scalar multiplication changes determinant by \(\lambda^n\). It follows that
+The [[lie-groups/complex-lie-group|complex Lie group]] \(\operatorname{PGL}_n(\mathbb C)\) is connected. For the real group, scalar multiplication changes determinant by \(\lambda^n\). It follows that
 \[
 \pi_0(\operatorname{PGL}_n(\mathbb R))\cong
 \begin{cases}

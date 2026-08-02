@@ -19,7 +19,7 @@ commutes with scalar multiplication:
 \qquad(V\subseteq U).
 \]
 Equivalently, \(\mathcal F\) is a module object over the ring object
-\(\mathcal O_X\) in sheaves of abelian groups.
+\(\mathcal O_X\) in sheaves of [[algebra-groups/abelian-group|abelian groups]].
 
 ## Morphisms and stalks
 
@@ -32,14 +32,14 @@ is \(\mathcal O_X(U)\)-linear. It induces an
 \]
 on every stalk. Kernels are computed sectionwise, while a cokernel is the
 sheafification of the sectionwise presheaf cokernel. These constructions make
-the category of \(\mathcal O_X\)-modules an abelian category.
+the category of \(\mathcal O_X\)-modules an [[algebra-category-theory/abelian-category|abelian category]].
 
 ## Examples
 
 The structure sheaf \(\mathcal O_X\) is a module over itself, as is every
 finite direct sum \(\mathcal O_X^{\oplus r}\). Ideals of \(\mathcal O_X\)
 form subsheaves of modules. On a smooth manifold, smooth sections of a vector
-bundle form a sheaf of modules over the sheaf of smooth functions.
+bundle form a sheaf of modules over the [[differential-geometry/sheaf-of-smooth-functions|sheaf of smooth functions]].
 
 A sheaf of modules is not merely one module with a topology attached. Its
 sections and scalar rings vary over all open sets and retain gluing data that

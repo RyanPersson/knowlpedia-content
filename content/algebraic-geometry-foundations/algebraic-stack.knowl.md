@@ -20,7 +20,7 @@ The morphism \(U\to\mathcal X\) is a **smooth atlas**. Some conventions impose
 additional separation or finiteness conditions, which must be stated
 separately.
 
-Unlike a coarse moduli space, a stack retains the automorphism group of every
+Unlike a coarse moduli space, a stack retains the [[algebra-groups/automorphism-group|automorphism group]] of every
 object. This is essential for
 [[algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve|\(\operatorname{Bun}_G\)]],
 because a principal bundle can have nontrivial automorphisms.

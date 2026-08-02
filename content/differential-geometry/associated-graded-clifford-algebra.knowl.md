@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(V\) be a finite-dimensional vector space over a field \(k\) of
-characteristic different from \(2\), and let \(q\) be a quadratic form on
+characteristic different from \(2\), and let \(q\) be a [[linear-algebra/quadratic-form|quadratic form]] on
 \(V\). Give the [[differential-geometry/clifford-algebra|Clifford algebra]]
 \(\operatorname{Cl}(V,q)\) the filtration \(F^r\) induced by tensors of degree
 at most \(r\). Then there is a canonical isomorphism of graded algebras

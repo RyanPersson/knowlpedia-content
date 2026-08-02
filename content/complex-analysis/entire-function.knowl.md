@@ -16,11 +16,11 @@ By [[complex-analysis/holomorphic-functions-are-analytic|analyticity of holomorp
 \[
 f(z)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(z-a)^n.
 \]
-Conversely, any complex power series of infinite radius defines an entire function.
+Conversely, any complex [[real-analysis/power-series|power series]] of infinite radius defines an entire function.
 
 ## Growth and rigidity
 
-Polynomials, \(e^z\), \(\sin z\), and \(\cos z\) are entire. Rational functions with poles are not. The [[complex-analysis/liouville-theorem|Liouville theorem]] says that a bounded entire function is constant. More generally, if \(|f(z)|\le C(1+|z|^m)\), then \(f\) is a polynomial of degree at most \(m\).
+Polynomials, \(e^z\), \(\sin z\), and \(\cos z\) are entire. [[complex-analysis/rational-function|Rational functions]] with poles are not. The [[complex-analysis/liouville-theorem|Liouville theorem]] says that a bounded entire function is constant. More generally, if \(|f(z)|\le C(1+|z|^m)\), then \(f\) is a polynomial of degree at most \(m\).
 
 ## Behavior at infinity
 

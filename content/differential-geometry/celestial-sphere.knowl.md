@@ -29,7 +29,7 @@ This identification equips the celestial sphere with its standard complex struct
 
 ## Geometric meaning
 
-At an event in Minkowski space, future null directions are possible directions of incoming or outgoing light. A choice of inertial observer identifies this abstract sphere with ordinary viewing directions; a different observer acts by a Lorentz transformation, which becomes a Möbius transformation in the projective coordinate.
+At an event in Minkowski space, future null directions are possible directions of incoming or outgoing light. A choice of inertial observer identifies this abstract sphere with ordinary viewing directions; a different observer acts by a Lorentz transformation, which becomes a [[complex-analysis/mobius-transformation|Möbius transformation]] in the projective coordinate.
 
 ## References
 

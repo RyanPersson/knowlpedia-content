@@ -20,7 +20,7 @@ Thus the matrix of \(\eta\) is \(\operatorname{diag}(-1,1,1,1)\); throughout thi
 
 ## Causal types
 
-A nonzero vector \(v\) is **timelike**, **null** (or lightlike), or **spacelike** according as \(q(v)<0\), \(q(v)=0\), or \(q(v)>0\). The timelike cone has two connected components. Choosing one as the future cone is a [[differential-geometry/time-orientation|time orientation]].
+A nonzero vector \(v\) is **timelike**, **null** (or lightlike), or **spacelike** according as \(q(v)<0\), \(q(v)=0\), or \(q(v)>0\). The timelike cone has two [[topology/connected-component|connected components]]. Choosing one as the future cone is a [[differential-geometry/time-orientation|time orientation]].
 
 Sources that list positive directions first call the displayed form's signature \((3,1)\). Other sources reverse the overall sign and use \(t^2-x^2-y^2-z^2\); in this collection's negative-first ordering, that opposite form has signature \((3,1)\). Formulas in linked knowls use the displayed \((-+++)\) form, so the [[lie-groups/hermitian-matrix-model-of-minkowski-space|Hermitian matrix model]] satisfies \(\det X(v)=-q(v)\), not \(\det X(v)=q(v)\).
 

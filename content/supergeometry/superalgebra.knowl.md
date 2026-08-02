@@ -35,7 +35,7 @@ Clifford relation usually gives a nonzero anticommutator of odd vectors.
 
 ## Morphisms
 
-A morphism of superalgebras is an even unital algebra homomorphism. Requiring
+A morphism of superalgebras is an even unital [[algebra-modules/algebra-homomorphism|algebra homomorphism]]. Requiring
 evenness is part of the standard category: it preserves the stated grading,
 not merely the underlying ungraded multiplication.
 

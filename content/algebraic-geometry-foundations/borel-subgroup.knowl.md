@@ -9,12 +9,12 @@ section_mode = "progressive"
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/algebraic-group|
-linear algebraic group]] over an algebraically closed field. A **Borel
+linear algebraic group]] over an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]]. A **Borel
 subgroup** \(B\subseteq G\) is a maximal connected solvable closed subgroup.
 
 For a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 group]], a Borel subgroup contains a maximal torus \(T\), and the choice
-\(T\subseteq B\) determines a set of positive roots. Any two Borel subgroups
+\(T\subseteq B\) determines a set of [[lie-groups/positive-root|positive roots]]. Any two Borel subgroups
 are conjugate over an algebraically closed field.
 
 ## Examples
@@ -29,7 +29,7 @@ basis vector.
 The quotient \(G/B\) is the complete [[algebraic-geometry-foundations/flag-variety|flag variety]] of \(G\).
 Over a field that is not algebraically closed, one distinguishes Borel
 subgroups defined over the base field from geometric Borel subgroups after
-base change.
+[[algebraic-geometry-foundations/base-change|base change]].
 
 ## References
 

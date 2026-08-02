@@ -34,7 +34,7 @@ identifies
 \]
 Here [[lie-groups/unitary-group|\(\operatorname{U}(2n)\)]] preserves the
 standard Hermitian form, while the complex symplectic factor preserves the
-standard nondegenerate alternating complex [[linear-algebra/bilinear-form|bilinear form]]. This equivalence is.
+standard nondegenerate alternating complex [[linear-algebra/bilinear-form|bilinear form]].
 
 ## Structure and low-rank example
 

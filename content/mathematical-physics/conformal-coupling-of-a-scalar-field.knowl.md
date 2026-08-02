@@ -8,7 +8,7 @@ domains = ["mathematical-physics", "partial-differential-equations", "differenti
 section_mode = "progressive"
 +++
 
-On an \(n\)-dimensional pseudo-Riemannian manifold with \(n\geq3\), the **conformally coupled scalar operator** in the convention
+On an \(n\)-dimensional [[differential-geometry/pseudo-riemannian-manifold|pseudo-Riemannian manifold]] with \(n\geq3\), the **conformally coupled scalar operator** in the convention
 \(\Box_g=-\operatorname{tr}_g\nabla d\) is
 \[
 L_g=\Box_g+\frac{n-2}{4(n-1)}\operatorname{Scal}_g,

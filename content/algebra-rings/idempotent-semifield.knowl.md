@@ -29,12 +29,12 @@ algebraic basis of tropical linear constructions.
 Removing the additive zero produces a lattice-ordered multiplicative group,
 and adjoining a bottom element reverses this construction. See the
 [[algebra-rings/idempotent-semifields-and-lattice-ordered-groups|categorical
-equivalence with lattice-ordered abelian groups]].
+equivalence with [[algebra-groups/lattice-ordered-abelian-group|lattice-ordered abelian groups]]]].
 
 ## Examples and scope
 
-The Boolean semifield is the smallest example. The max-plus and min-plus
-tropical semifields are linearly ordered examples. Some authors use
+The [[algebra-rings/boolean-semifield|Boolean semifield]] is the smallest example. The max-plus and min-plus
+[[algebra-rings/tropical-semifield|tropical semifields]] are linearly ordered examples. Some authors use
 **tropical semifield** for any idempotent semifield; this corpus reserves that
 name without qualification for the standard max-plus object.
 

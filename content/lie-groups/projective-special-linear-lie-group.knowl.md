@@ -18,7 +18,7 @@ Its denominator is the finite center of the [[lie-groups/special-linear-group|sp
 
 ## Lie algebra and dimension
 
-Quotienting by a discrete subgroup does not change the Lie algebra. Hence
+Quotienting by a [[lie-groups/discrete-subgroup|discrete subgroup]] does not change the [[lie-groups/lie-algebra|Lie algebra]]. Hence
 \[
 \operatorname{Lie}(\operatorname{PSL}_n(\mathbb F))
 \cong\mathfrak{sl}_n(\mathbb F).
@@ -34,7 +34,7 @@ Over \(\mathbb C\), every nonzero complex number has an \(n\)-th root, so
 \operatorname{PSL}_n(\mathbb C)\cong
 \operatorname{PGL}_n(\mathbb C)
 \]
-as complex Lie groups. Over \(\mathbb R\), \(\operatorname{PSL}_n(\mathbb R)\) is the identity component of \(\operatorname{PGL}_n(\mathbb R)\). The two groups agree for odd \(n\), while \(\operatorname{PSL}_n(\mathbb R)\) has index \(2\) for even \(n\). In particular,
+as [[lie-groups/complex-lie-group|complex Lie groups]]. Over \(\mathbb R\), \(\operatorname{PSL}_n(\mathbb R)\) is the identity component of \(\operatorname{PGL}_n(\mathbb R)\). The two groups agree for odd \(n\), while \(\operatorname{PSL}_n(\mathbb R)\) has index \(2\) for even \(n\). In particular,
 \[
 \operatorname{PSL}_2(\mathbb R)
 =\operatorname{PGL}_2(\mathbb R)^\circ
@@ -43,7 +43,7 @@ as complex Lie groups. Over \(\mathbb R\), \(\operatorname{PSL}_n(\mathbb R)\) i
 
 ## Center versus simple terminology
 
-The quotient removes the scalar center of \(\operatorname{SL}_n\), but the word “simple” depends on whether one means a Lie algebra, a connected Lie group, an algebraic group, or an abstract group of points. Low-dimensional and small-finite-field exceptions should not be suppressed by a blanket simplicity claim.
+The quotient removes the scalar center of \(\operatorname{SL}_n\), but the word “simple” depends on whether one means a Lie algebra, a [[lie-groups/connected-lie-group|connected Lie group]], an [[algebraic-geometry-foundations/algebraic-group|algebraic group]], or an abstract group of points. Low-dimensional and small-finite-field exceptions should not be suppressed by a blanket simplicity claim.
 
 ## References
 

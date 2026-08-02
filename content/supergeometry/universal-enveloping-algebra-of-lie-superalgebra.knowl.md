@@ -20,7 +20,7 @@ x\otimes y-(-1)^{|x||y|}y\otimes x-[x,y]
 \]
 where \(x,y\) range over homogeneous elements and
 \(T(\mathfrak g)\) is the [[algebra-modules/tensor-algebra|tensor algebra]].
-The canonical map \(\mathfrak g\to U(\mathfrak g)\) sends the Lie bracket to
+The canonical map \(\mathfrak g\to U(\mathfrak g)\) sends the [[fiber-bundles/lie-bracket|Lie bracket]] to
 the supercommutator.
 
 ## Universal property

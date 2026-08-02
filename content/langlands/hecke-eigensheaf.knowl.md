@@ -17,7 +17,7 @@ H_V(\mathcal F)\simeq \mathcal F\boxtimes E_V
 \]
 for every finite-dimensional representation \(V\) of \(\widehat G\). Here
 [[langlands/hecke-functor|\(H_V\)]] is the geometric Hecke functor and
-\(E_V\) is the vector local system associated to \(E\) through \(V\).
+\(E_V\) is the vector [[fiber-bundles/local-system|local system]] associated to \(E\) through \(V\).
 
 The isomorphisms must be tensor-compatible in \(V\) and compatible with
 fusion at several points. A single eigen-isomorphism for one representation

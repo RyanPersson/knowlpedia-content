@@ -12,7 +12,7 @@ A **meromorphic function** on a [[complex-analysis/complex-domain|domain]] \(D\)
 
 ## Riemann-sphere viewpoint
 
-After assigning the value \(\infty\) at each pole, a meromorphic function is the same as a holomorphic map not identically equal to \(\infty\),
+After assigning the value \(\infty\) at each pole, a meromorphic function is the same as a [[differential-geometry/holomorphic-map|holomorphic map]] not identically equal to \(\infty\),
 \[
 D\longrightarrow\widehat{\mathbb C},
 \]

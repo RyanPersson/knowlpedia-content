@@ -61,7 +61,7 @@ The empty manifold may be included as an
 [[algebra-category-theory/initial-object|initial object]]; statements whose
 algebraic conventions exclude the zero ring will say so separately.
 Arbitrary set-theoretic fiber products need not be smooth manifolds;
-transverse fiber products are the standard well-behaved case. The basic
+transverse fiber products are the standard well-behaved case.
 
 ## References
 

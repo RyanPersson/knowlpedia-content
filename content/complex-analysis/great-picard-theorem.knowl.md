@@ -16,7 +16,7 @@ The [[complex-analysis/casorati-weierstrass-theorem|Casorati–Weierstrass theor
 
 ## Entire-function consequence
 
-Applying the theorem at infinity gives the [[complex-analysis/little-picard-theorem|little Picard theorem]] for nonconstant entire functions.
+Applying the theorem at infinity gives the [[complex-analysis/little-picard-theorem|little Picard theorem]] for nonconstant [[complex-analysis/entire-function|entire functions]].
 
 ## Sharpness
 

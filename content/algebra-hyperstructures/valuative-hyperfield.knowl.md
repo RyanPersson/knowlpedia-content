@@ -28,14 +28,14 @@ Together with the group multiplication, this makes
 The hyper-additive identity is \(\mathbf0\), while the multiplicative identity
 is the group identity \(1_\Gamma\). Every \(x\in\Gamma\) is its own additive
 hyperinverse because \(\mathbf0\in x\boxplus x\). Translation-invariance of
-the total order makes multiplication distribute over hyperaddition.
+the [[shared-foundations/total-order|total order]] makes multiplication distribute over hyperaddition.
 
 ## Relation to tropical hyperfields
 
 Taking \(\Gamma=(\mathbb R,+,\leq)\) in additive notation and writing the
 adjoined bottom as \(-\infty\) gives the max-convention
 [[algebra-hyperstructures/tropical-hyperfield|tropical hyperfield]]. Taking
-the trivial one-element ordered group gives the Krasner hyperfield. Thus
+the trivial one-element ordered group gives the [[algebra-hyperstructures/krasner-hyperfield|Krasner hyperfield]]. Thus
 **valuative hyperfield** names the whole ordered-value-group construction,
 not only the real-valued example.
 
@@ -48,7 +48,7 @@ valuation and max convention, the corresponding statement is the
 as a tropical-hyperfield morphism]] proposition.
 
 This does not assert that \(\Gamma_{\max}\) is an orbit quotient of every
-field carrying such a valuation. Quotient hyperfields retain the realized
+field carrying such a valuation. [[algebra-hyperstructures/hyperfield-of-a-field-quotient|Quotient hyperfields]] retain the realized
 orbit sums, whereas this construction depends only on the ordered group.
 
 ## References

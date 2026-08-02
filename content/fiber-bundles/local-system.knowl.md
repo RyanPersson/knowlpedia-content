@@ -29,7 +29,7 @@ and makes transport along paths intrinsic.
 
 ## Relation to flat bundles
 
-A finite-rank complex local system determines a vector bundle with a
+A finite-rank complex local system determines a [[fiber-bundles/vector-bundle|vector bundle]] with a
 [[fiber-bundles/flat-vector-bundle-connection|flat connection]]. Conversely,
 horizontal sections of a flat bundle form a local system. This analytic
 correspondence should not be confused with the algebraic de Rham formulation

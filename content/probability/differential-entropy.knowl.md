@@ -39,3 +39,7 @@ Unlike [[probability/shannon-entropy|Shannon entropy]], differential entropy can
   h(X)=\frac12\log\!\bigl((2\pi e)^d\det\Sigma\bigr).
   \]
 - If \(X\) is uniform on a measurable set \(A\subset\mathbb R^d\) with \(0<\lambda(A)<\infty\), then \(h(X)=\log\lambda(A)\).
+
+## References
+
+1. Thomas M. Cover and Joy A. Thomas, *Elements of Information Theory*, 2nd ed., Wiley, 2006, Chapter 8. [Publisher record](https://doi.org/10.1002/047174882X).

@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(X\) be a finite-dimensional smooth real
 [[supergeometry/supermanifold|supermanifold]] whose reduced manifold is
 Hausdorff and paracompact. The **Batchelor theorem** states that there is a
-vector bundle \(E\to X_{\mathrm{red}}\) and an isomorphism
+[[fiber-bundles/vector-bundle|vector bundle]] \(E\to X_{\mathrm{red}}\) and an isomorphism
 \[
 X\cong \Pi E
 \]

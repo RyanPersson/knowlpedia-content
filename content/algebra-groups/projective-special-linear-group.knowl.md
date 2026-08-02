@@ -21,13 +21,13 @@ Z(\operatorname{SL}_n(k))
 
 ## Projective realization
 
-The inclusion \(\operatorname{SL}_n(k)\hookrightarrow\operatorname{GL}_n(k)\) followed by the quotient to the [[algebra-groups/projective-general-linear-group|projective general linear group]] has kernel \(Z(\operatorname{SL}_n(k))\). It therefore identifies \(\operatorname{PSL}_n(k)\) with a normal subgroup of \(\operatorname{PGL}_n(k)\), acting faithfully on \(\mathbb P^{n-1}(k)\).
+The inclusion \(\operatorname{SL}_n(k)\hookrightarrow\operatorname{GL}_n(k)\) followed by the quotient to the [[algebra-groups/projective-general-linear-group|projective general linear group]] has kernel \(Z(\operatorname{SL}_n(k))\). It therefore identifies \(\operatorname{PSL}_n(k)\) with a [[algebra-groups/normal-subgroup|normal subgroup]] of \(\operatorname{PGL}_n(k)\), acting faithfully on \(\mathbb P^{n-1}(k)\).
 
-This is a definition of the abstract group of \(k\)-points. The central quotient of the corresponding algebraic group and its \(k\)-points require care over non-algebraically closed fields; the present page makes no assertion that taking \(k\)-points commutes with every quotient construction.
+This is a definition of the abstract group of \(k\)-points. The central quotient of the corresponding [[algebraic-geometry-foundations/algebraic-group|algebraic group]] and its \(k\)-points require care over non-algebraically closed fields; the present page makes no assertion that taking \(k\)-points commutes with every quotient construction.
 
 ## Comparison with \(\operatorname{PGL}\)
 
-Over an algebraically closed field, every nonzero scalar has an \(n\)-th root, and \(\operatorname{PSL}_n(k)=\operatorname{PGL}_n(k)\) as subgroups of projective transformations. Over a general field they may differ; the precise quotient is \(k^\times/(k^\times)^n\).
+Over an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]], every nonzero scalar has an \(n\)-th root, and \(\operatorname{PSL}_n(k)=\operatorname{PGL}_n(k)\) as subgroups of projective transformations. Over a general field they may differ; the precise quotient is \(k^\times/(k^\times)^n\).
 
 ## References
 

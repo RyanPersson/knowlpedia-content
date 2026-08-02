@@ -18,7 +18,7 @@ where the second isomorphism uses the existence of square roots in \(\mathbb C\)
 
 ## Action on triples
 
-The action on the Riemann sphere is [[complex-analysis/sharp-three-transitivity-of-mobius-group|sharply three-transitive]]: for any two ordered triples of distinct points, there is exactly one Möbius transformation carrying the first triple to the second. The [[complex-analysis/cross-ratio|cross-ratio]] is the corresponding invariant of ordered quadruples.
+The action on the [[complex-analysis/riemann-sphere|Riemann sphere]] is [[complex-analysis/sharp-three-transitivity-of-mobius-group|sharply three-transitive]]: for any two ordered triples of distinct points, there is exactly one Möbius transformation carrying the first triple to the second. The [[complex-analysis/cross-ratio|cross-ratio]] is the corresponding invariant of ordered quadruples.
 
 ## Complex Lie group
 
@@ -26,7 +26,7 @@ The group has complex dimension \(3\) and underlying real dimension \(6\). In th
 
 ## Conformal group of the round sphere
 
-Under stereographic projection, the Möbius group is exactly the group of orientation-preserving conformal diffeomorphisms of the round \(2\)-sphere. The full conformal diffeomorphism group also contains orientation-reversing [[complex-analysis/anti-mobius-transformation|anti-Möbius transformations]], such as complex conjugation composed with a Möbius transformation.
+Under stereographic projection, the Möbius group is exactly the group of orientation-preserving conformal diffeomorphisms of the round \(2\)-sphere. The full conformal [[differential-geometry/diffeomorphism-group|diffeomorphism group]] also contains orientation-reversing [[complex-analysis/anti-mobius-transformation|anti-Möbius transformations]], such as complex conjugation composed with a Möbius transformation.
 
 ## References
 

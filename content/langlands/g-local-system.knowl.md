@@ -8,7 +8,7 @@ domains = ["langlands", "fiber-bundles"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be an algebraic group and \(X\) a smooth complex curve. A
+Let \(G\) be an [[algebraic-geometry-foundations/algebraic-group|algebraic group]] and \(X\) a smooth complex curve. A
 **\(G\)-local system** in the de Rham sense is a
 [[algebraic-geometry-foundations/principal-g-bundle-on-scheme|principal
 \(G\)-bundle]] \(P\) on \(X\) equipped with an integrable, or flat,
@@ -41,7 +41,7 @@ structures on the two moduli spaces.
 
 ## Langlands role
 
-For a reductive group \(G\), the spectral parameter in geometric Langlands is
+For a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\), the spectral parameter in geometric Langlands is
 a local system for the
 [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]
 \(\widehat G\), not generally for \(G\) itself.

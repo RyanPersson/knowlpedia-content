@@ -27,7 +27,7 @@ f(V_{\bar i})\subseteq W_{\bar i+\epsilon}.
 \]
 Thus even maps preserve parity and odd maps reverse it. Unless stated
 otherwise, morphisms between super vector spaces are even maps; odd maps
-belong to the graded internal Hom rather than the ordinary morphism set.
+belong to the [[supergeometry/super-internal-hom|graded internal Hom]] rather than the ordinary morphism set.
 
 If both summands are finite-dimensional, the **graded dimension** is
 \[

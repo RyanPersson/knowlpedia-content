@@ -16,9 +16,9 @@ consisting of a topological space \(|X|\) and a sheaf
 \(\mathcal O_X=\mathcal O_{X,\bar 0}\oplus\mathcal O_{X,\bar 1}\) of
 [[supergeometry/supercommutative-algebra|supercommutative real
 superalgebras]] whose stalks are local superalgebras. Thus each stalk has a
-unique maximal homogeneous ideal, and its residue field is \(\mathbb R\).
+unique maximal homogeneous ideal, and its [[algebra-commutative/residue-field|residue field]] is \(\mathbb R\).
 
-A morphism \(f:X\to Y\) is a continuous map
+A morphism \(f:X\to Y\) is a [[topology/continuous-map|continuous map]]
 \(|f|:|X|\to |Y|\) together with a parity-preserving local morphism of
 sheaves
 \[

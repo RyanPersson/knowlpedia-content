@@ -34,7 +34,7 @@ At a pole of order \(m\),
 
 ## Role
 
-Only the coefficient of \((z-a)^{-1}\) contributes to a contour integral around \(a\). The [[complex-analysis/residue-theorem|residue theorem]] turns this local coefficient into a global integration tool.
+Only the coefficient of \((z-a)^{-1}\) contributes to a [[complex-analysis/complex-contour-integral|contour integral]] around \(a\). The [[complex-analysis/residue-theorem|residue theorem]] turns this local coefficient into a global integration tool.
 
 ## References
 

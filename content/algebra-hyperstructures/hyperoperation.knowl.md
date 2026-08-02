@@ -29,7 +29,7 @@ subsets intersect.
 
 ## Ordinary operations as a special case
 
-An ordinary binary operation \(*\) determines the singleton-valued
+An ordinary [[shared-foundations/binary-operation|binary operation]] \(*\) determines the singleton-valued
 hyperoperation \(a\boxplus b=\{a*b\}\). Hyperoperations therefore include
 ordinary operations, but a genuinely multivalued operation cannot be treated
 as a function \(X\times X\to X\) without discarding information.

@@ -8,7 +8,7 @@ domains = ["algebra-hyperstructures", "algebra-rings"]
 section_mode = "progressive"
 +++
 
-Let \(R\) be a commutative ring and let \(G\le R^\times\) be a multiplicative
+Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \(G\le R^\times\) be a multiplicative
 subgroup of its [[algebra-rings/group-of-units|units]]. The **quotient
 hyperring** \(R/G\) is the set of multiplicative orbits
 \[
@@ -20,7 +20,7 @@ with multiplication \([a][b]=[ab]\) and hyperaddition
 =\{[ag+bh]:g,h\in G\}.
 \]
 These operations are independent of the chosen representatives and make
-\(R/G\) a Krasner hyperring.
+\(R/G\) a [[algebra-hyperstructures/hyperring|Krasner hyperring]].
 
 ## Why addition is multivalued
 
@@ -36,7 +36,7 @@ The orbit map
 \[
 \pi:R\longrightarrow R/G,\qquad a\longmapsto[a]
 \]
-is a weak hyperring homomorphism after \(R\) is viewed as a singleton-valued
+is a [[algebra-hyperstructures/hyperring-homomorphism|weak hyperring homomorphism]] after \(R\) is viewed as a singleton-valued
 hyperring. It is generally not strong: the image \(\{[a+b]\}\) can be a
 proper subset of \([a]\boxplus[b]\).
 
@@ -45,8 +45,8 @@ proper subset of \([a]\boxplus[b]\).
 If \(R=K\) is a field, every nonzero orbit has a multiplicative inverse, so
 \(K/G\) is a
 [[algebra-hyperstructures/hyperfield-of-a-field-quotient|quotient
-hyperfield]]. The Krasner and sign hyperfields arise this way. This
-multiplicative-orbit construction is not the ordinary quotient ring \(R/I\)
+hyperfield]]. The Krasner and [[algebra-hyperstructures/sign-hyperfield|sign hyperfields]] arise this way. This
+multiplicative-orbit construction is not the ordinary [[algebra-rings/quotient-ring|quotient ring]] \(R/I\)
 by an additive ideal.
 
 ## References

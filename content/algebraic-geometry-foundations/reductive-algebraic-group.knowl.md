@@ -15,13 +15,13 @@ group]] \(G\) whose geometric unipotent radical is trivial:
 R_u(G_{\overline k})=1.
 \]
 
-Passing to an algebraic closure in this definition makes reductivity a
+Passing to an [[algebra-fields-galois/algebraic-closure|algebraic closure]] in this definition makes reductivity a
 geometric property. A connected semisimple group is reductive, as is a torus;
 \(GL_n\), \(SL_n\), \(PGL_n\), and \(Sp_{2n}\) are standard examples.
 
 ## Role of Borel and parabolic subgroups
 
-After base change to an algebraic closure, \(G\) has
+After [[algebraic-geometry-foundations/base-change|base change]] to an algebraic closure, \(G\) has
 [[algebraic-geometry-foundations/borel-subgroup|Borel subgroups]].
 Its [[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroups]]
 give projective homogeneous quotients \(G/P\).

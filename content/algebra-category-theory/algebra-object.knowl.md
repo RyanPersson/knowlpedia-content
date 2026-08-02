@@ -20,7 +20,7 @@ If \(\mathcal C\) is [[algebra-category-theory/symmetric-monoidal-category|symme
 \[
 \mu\circ\beta_{A,A}=\mu.
 \]
-This formulation makes the meaning of commutativity depend on the ambient symmetry. It produces ordinary commutative algebras in modules and supercommutative algebras in super vector spaces.
+This formulation makes the meaning of commutativity depend on the ambient symmetry. It produces ordinary commutative algebras in modules and [[supergeometry/supercommutative-algebra|supercommutative algebras]] in [[supergeometry/super-vector-space|super vector spaces]].
 
 ## Examples
 

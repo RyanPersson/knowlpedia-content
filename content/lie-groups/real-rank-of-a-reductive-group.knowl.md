@@ -29,7 +29,8 @@ to \(\dim\mathfrak a\) even though every restricted root vanishes on them.
 For a linear real algebraic group, \(\operatorname{rank}_{\mathbb R}G\) is the
 dimension of a maximal \(\mathbb R\)-split torus. On the Lie-group side, the
 connected subgroup \(A=\exp(\mathfrak a)\) is the corresponding maximal split
-abelian subgroup. Conjugacy of the possible \(\mathfrak a\)'s and the
+abelian subgroup. Any two maximal abelian subspaces of \(\mathfrak p\) are
+conjugate under \(K\), so their common dimension is well-defined.
 
 ## Examples
 

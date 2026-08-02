@@ -27,7 +27,7 @@ and constantly on each connected component.
 
 ## Kähler-form formulation
 
-If \((\omega_M)_a\) and \((\omega_N)_b\) are the three Kähler forms, the
+If \((\omega_M)_a\) and \((\omega_N)_b\) are the three [[differential-geometry/kahler-form|Kähler forms]], the
 definition is equivalently
 \[
 f^*(\omega_N)_b

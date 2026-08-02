@@ -33,7 +33,8 @@ Equivalently, a finite normal trace is a normal
 Its norm is \(\|\tau\|=\tau(1)\). Dividing a nonzero finite normal trace by
 \(\tau(1)\) produces a normal
 [[operator-algebras/tracial-state|tracial state]], but it does not repair a
-failure of faithfulness. The equivalence between the positive-cone weight and bounded
+failure of faithfulness. Thus the positive-cone weight and bounded-functional
+formulations are equivalent.
 
 ## Examples and consequences
 

@@ -34,7 +34,7 @@ topology.
 
 ## Important general-ring caution
 
-In well-behaved settings, such as a Noetherian ring with any ideal \(I\), the
+In well-behaved settings, such as a [[algebra-commutative/noetherian-ring|Noetherian ring]] with any ideal \(I\), the
 inverse-limit topology agrees with the \(I\widehat A\)-adic topology and the
 completion operation is idempotent. For arbitrary non-Noetherian rings and
 non-finitely generated ideals, these assertions can fail. Thus

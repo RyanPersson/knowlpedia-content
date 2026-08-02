@@ -20,8 +20,8 @@ It is an [[algebra-rings/idempotent-semifield|idempotent semifield]] because
 ## Order and universal behavior
 
 The natural order is \(0<1\), and addition is join. For every nontrivial
-idempotent semiring \(S\), the map \(\mathbb B\to S\) sending \(0\) to \(0\)
-and \(1\) to \(1\) is the unique unit-preserving semiring homomorphism from
+[[algebra-rings/idempotent-semiring|idempotent semiring]] \(S\), the map \(\mathbb B\to S\) sending \(0\) to \(0\)
+and \(1\) to \(1\) is the unique unit-preserving [[algebra-rings/semiring-homomorphism|semiring homomorphism]] from
 \(\mathbb B\).
 
 ## Not the Krasner hyperfield

@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(X\) be an irreducible complex algebraic variety of dimension \(d\), let
 \(j:U\hookrightarrow X\) be a smooth dense open subset, and let
-\(\mathcal L\) be a local system on \(U\). The **intersection-cohomology
+\(\mathcal L\) be a [[fiber-bundles/local-system|local system]] on \(U\). The **intersection-cohomology
 complex** is the [[langlands/perverse-sheaf|perverse middle extension]]
 \[
 \operatorname{IC}_X(\mathcal L)=j_{!*}\bigl(\mathcal L[d]\bigr).
@@ -19,3 +19,8 @@ complex** is the [[langlands/perverse-sheaf|perverse middle extension]]
 It is characterized as the extension having no nonzero perverse subobject or
 quotient supported on \(X\setminus U\). For the constant local system, its
 hypercohomology is the intersection cohomology of \(X\).
+
+## References
+
+1. Alexander Beilinson, Joseph Bernstein, and Pierre Deligne, *Faisceaux
+   pervers*, Astérisque 100, Société Mathématique de France, 1982.

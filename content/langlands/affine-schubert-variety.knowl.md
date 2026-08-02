@@ -8,9 +8,9 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a split connected reductive group over an algebraically closed
+Let \(G\) be a split connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over an algebraically closed
 field, choose a split maximal torus, and let \(\lambda\) be a
-[[langlands/dominant-coweight|dominant coweight]]. The positive loop group
+[[langlands/dominant-coweight|dominant coweight]]. The [[langlands/positive-loop-group|positive loop group]]
 \(L^+G\) acts on the [[langlands/affine-grassmannian|affine Grassmannian]],
 and the orbit through \(t^\lambda\) is the affine Schubert cell
 \(\operatorname{Gr}_G^\lambda\).
@@ -23,3 +23,10 @@ The **affine Schubert variety**
 is its reduced closure. It is a finite-dimensional projective variety, and
 its boundary is the union of cells indexed by dominant coweights below
 \(\lambda\) in the dominance order.
+
+## References
+
+1. Ivan Mirković and Kari Vilonen, “Geometric Langlands duality and
+   representations of algebraic groups over commutative rings,” *Annals of
+   Mathematics* 166 (2007), 95–143.
+   [arXiv](https://arxiv.org/abs/math/0401222).

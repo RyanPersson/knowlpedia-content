@@ -12,11 +12,11 @@ An **ordered blueprint** is a triple
 \[
 B=(B^\bullet,B^+,\leq)
 \]
-in which \((B^+,\leq)\) is an [[algebra-rings/ordered-semiring|ordered semiring]] and \(B^\bullet\subseteq B^+\) is a multiplicatively closed subset containing \(0\) and \(1\) that generates \(B^+\) as a semiring. A morphism is an order-preserving semiring homomorphism \(f^+:B^+\to C^+\) satisfying \(f^+(B^\bullet)\subseteq C^\bullet\).
+in which \((B^+,\leq)\) is an [[algebra-rings/ordered-semiring|ordered semiring]] and \(B^\bullet\subseteq B^+\) is a multiplicatively closed subset containing \(0\) and \(1\) that generates \(B^+\) as a semiring. A morphism is an order-preserving [[algebra-rings/semiring-homomorphism|semiring homomorphism]] \(f^+:B^+\to C^+\) satisfying \(f^+(B^\bullet)\subseteq C^\bullet\).
 
 ## Presentation form
 
-Equivalently, begin with a commutative monoid \(A\) with zero and impose a compatible partial order on its free semiring \(\mathbb N[A]\), possibly identifying elements first. One writes
+Equivalently, begin with a [[algebra-groups/commutative-monoid|commutative monoid]] \(A\) with zero and impose a compatible [[shared-foundations/partial-order|partial order]] on its free semiring \(\mathbb N[A]\), possibly identifying elements first. One writes
 \[
 A/\!/\langle{\text{generating inequalities}}\rangle.
 \]

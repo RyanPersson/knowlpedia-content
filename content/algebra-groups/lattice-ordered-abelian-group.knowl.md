@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 A **lattice-ordered abelian group**, or **abelian
 \(\ell\)-group**, is an [[algebra-groups/abelian-group|abelian group]]
-\((\Gamma,+,0)\) with a partial order \(\leq\) such that:
+\((\Gamma,+,0)\) with a [[shared-foundations/partial-order|partial order]] \(\leq\) such that:
 
 1. \((\Gamma,\leq)\) is a [[shared-foundations/lattice|lattice]];
 2. the order is translation-invariant:
@@ -26,7 +26,7 @@ Equivalently, translation by \(c\) preserves joins and meets:
 
 ## Morphisms
 
-An **\(\ell\)-group homomorphism** is a group homomorphism that preserves
+An **\(\ell\)-group homomorphism** is a [[algebra-groups/group-homomorphism|group homomorphism]] that preserves
 binary joins, equivalently binary meets. An order-preserving group
 homomorphism need not preserve joins when the order is not total, so this
 extra condition matters categorically.
@@ -46,7 +46,7 @@ Writing
 x^+=x\vee0,\qquad x^-=(-x)\vee0,
 \]
 one has \(x=x^+-x^-\) and \(x^+\wedge x^-=0\). These lattice decompositions
-are useful when passing between \(\ell\)-groups and idempotent semifields.
+are useful when passing between \(\ell\)-groups and [[algebra-rings/idempotent-semifield|idempotent semifields]].
 
 ## References
 

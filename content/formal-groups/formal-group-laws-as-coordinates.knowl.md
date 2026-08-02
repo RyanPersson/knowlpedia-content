@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Fix a commutative base field \(k\) and \(n\geq0\). Giving a group-object
-structure on the pointed formal disc
+structure on the pointed [[formal-groups/formal-affine-space|formal disc]]
 \[
 \widehat{\mathbb A}^{\,n}_k
 =\operatorname{Spf}k[[X_1,\ldots,X_n]]
@@ -37,7 +37,7 @@ X_i\longmapsto F_i(X,Y).
 The unit, associativity, and inverse diagrams dualize exactly to the unit,
 associativity, and inverse identities for \(F\).
 
-A pointed formal map \(f\) between two such group objects is represented by a
+A pointed formal map \(f\) between two such [[algebra-category-theory/group-object|group objects]] is represented by a
 tuple of zero-constant-term series. The group-homomorphism square dualizes to
 \[
 f(F(X,Y))=G(f(X),f(Y)).
@@ -61,7 +61,7 @@ formal group.
 ## Chosen coordinates versus intrinsic objects
 
 For a [[formal-groups/formal-group|formal group]] whose underlying pointed
-formal scheme is merely *isomorphic* to a formal disc, one must first choose
+[[algebraic-geometry-foundations/formal-scheme|formal scheme]] is merely *isomorphic* to a formal disc, one must first choose
 such an isomorphism. A different choice transports \(F\) by an invertible
 pointed substitution. The coordinate-free group is independent of that
 choice.

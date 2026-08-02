@@ -20,7 +20,7 @@ A stronger standard formulation replaces null-homotopy by the requirement that \
 
 ## Local and primitive forms
 
-On a disc, the theorem follows from the Cauchy–Goursat theorem without assuming continuity of \(f'\). On a domain, all closed contour integrals of \(f\) vanish exactly when \(f\) has a holomorphic primitive. The local theorem drives the [[complex-analysis/cauchy-integral-formula|Cauchy integral formula]].
+On a disc, the theorem follows from the Cauchy–Goursat theorem without assuming continuity of \(f'\). On a domain, all closed [[complex-analysis/complex-contour-integral|contour integrals]] of \(f\) vanish exactly when \(f\) has a holomorphic primitive. The local theorem drives the [[complex-analysis/cauchy-integral-formula|Cauchy integral formula]].
 
 ## References
 

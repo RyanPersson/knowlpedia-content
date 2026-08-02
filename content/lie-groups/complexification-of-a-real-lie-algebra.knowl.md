@@ -16,11 +16,11 @@ with the unique complex-bilinear bracket satisfying
 \[
 [X\otimes z,Y\otimes w]=[X,Y]\otimes zw.
 \]
-The map \(X\mapsto X\otimes1\) identifies \(\mathfrak h\) with a real Lie subalgebra, and \(\dim_{\mathbb C}\mathfrak h_{\mathbb C}=\dim_{\mathbb R}\mathfrak h\).
+The map \(X\mapsto X\otimes1\) identifies \(\mathfrak h\) with a real [[lie-groups/lie-subalgebra|Lie subalgebra]], and \(\dim_{\mathbb C}\mathfrak h_{\mathbb C}=\dim_{\mathbb R}\mathfrak h\).
 
 ## Universal property and conjugation
 
-Every real-linear Lie algebra homomorphism from \(\mathfrak h\) to the underlying real algebra of a complex Lie algebra extends uniquely to a complex-linear homomorphism from \(\mathfrak h_{\mathbb C}\). Complex conjugation on the second tensor factor is an antilinear involution whose fixed Lie algebra is \(\mathfrak h\).
+Every real-linear [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]] from \(\mathfrak h\) to the underlying real algebra of a complex Lie algebra extends uniquely to a complex-linear homomorphism from \(\mathfrak h_{\mathbb C}\). Complex conjugation on the second tensor factor is an antilinear involution whose fixed Lie algebra is \(\mathfrak h\).
 
 Complexification must not be confused with [[lie-groups/underlying-real-lie-algebra|forgetting complex scalars]]. If \(\mathfrak g\) is complex, then
 \[

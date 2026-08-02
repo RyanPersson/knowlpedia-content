@@ -25,7 +25,7 @@ whose restriction to the degree-one summand \(M\) is \(f\). Thus \(T_R(M)\) is t
 
 ## Quotients
 
-Many familiar algebras impose relations on this free algebra. The symmetric algebra kills commutators, the exterior algebra kills squares of generators, and a Clifford algebra imposes quadratic Clifford relations.
+Many familiar algebras impose relations on this free algebra. The [[algebra-modules/symmetric-algebra|symmetric algebra]] kills commutators, the [[algebra-modules/exterior-algebra|exterior algebra]] kills squares of generators, and a [[differential-geometry/clifford-algebra|Clifford algebra]] imposes quadratic Clifford relations.
 
 ## References
 

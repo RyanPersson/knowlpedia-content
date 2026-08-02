@@ -8,7 +8,7 @@ domains = ["algebra-category-theory"]
 section_mode = "progressive"
 +++
 
-A **symmetric monoidal category** is a [[algebra-category-theory/monoidal-category|monoidal category]] \((\mathcal C,\otimes,\mathbb 1)\) equipped with natural isomorphisms
+A **symmetric monoidal category** is a [[algebra-category-theory/monoidal-category|monoidal category]] \((\mathcal C,\otimes,\mathbb 1)\) equipped with [[algebra-category-theory/natural-isomorphism|natural isomorphisms]]
 \[
 \beta_{X,Y}:X\otimes Y\overset{\sim}{\longrightarrow}Y\otimes X
 \]
@@ -16,7 +16,7 @@ such that \(\beta_{Y,X}\circ\beta_{X,Y}=\operatorname{id}_{X\otimes Y}\) and the
 
 ## Examples
 
-For modules over a commutative ring, \(\beta(x\otimes y)=y\otimes x\). For super vector spaces the symmetry instead includes the Koszul sign:
+For modules over a commutative ring, \(\beta(x\otimes y)=y\otimes x\). For [[supergeometry/super-vector-space|super vector spaces]] the symmetry instead includes the Koszul sign:
 \[
 \beta(v\otimes w)=(-1)^{|v||w|}w\otimes v
 \]

@@ -12,7 +12,7 @@ Four-dimensional **Minkowski spacetime** is the affine space underlying \(\mathb
 \[
 \eta=-dt^2+dx^2+dy^2+dz^2.
 \]
-After choosing an origin it is identified with [[linear-algebra/minkowski-vector-space|Minkowski vector space]], whose quadratic form is the same displayed \((-+++)\) form: \(q(v)=\eta(v,v)\). The affine formulation distinguishes events from displacement vectors. The coordinate field \(\partial_t\) supplies the standard [[differential-geometry/time-orientation|time orientation]].
+After choosing an origin it is identified with [[linear-algebra/minkowski-vector-space|Minkowski vector space]], whose [[linear-algebra/quadratic-form|quadratic form]] is the same displayed \((-+++)\) form: \(q(v)=\eta(v,v)\). The affine formulation distinguishes events from displacement vectors. The coordinate field \(\partial_t\) supplies the standard [[differential-geometry/time-orientation|time orientation]].
 
 ## Causal structure
 
@@ -28,7 +28,7 @@ The full affine isometry group is the [[lie-groups/poincare-group|Poincaré grou
 \[
 \operatorname{ISO}(1,3)=\mathbb R^{1,3}\rtimes O(1,3).
 \]
-Its identity component uses the proper orthochronous Lorentz group and preserves both spatial orientation and time orientation. Minkowski spacetime is flat: its Levi–Civita connection has zero curvature in inertial coordinates.
+Its identity component uses the [[lie-groups/proper-orthochronous-lorentz-group|proper orthochronous Lorentz group]] and preserves both spatial orientation and time orientation. Minkowski spacetime is flat: its Levi–Civita connection has zero curvature in inertial coordinates.
 
 ## Differential operators
 
@@ -36,7 +36,7 @@ The scalar [[mathematical-physics/dalembert-operator|d’Alembert operator]] is
 \[
 \Box_\eta=\partial_t^2-\partial_x^2-\partial_y^2-\partial_z^2
 \]
-in the convention used in this collection. A spin structure and constant spin frame give the [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]].
+in the convention used in this collection. A [[fiber-bundles/spin-structure|spin structure]] and constant spin frame give the [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]].
 
 ## Dimension and notation
 

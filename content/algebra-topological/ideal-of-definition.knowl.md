@@ -16,7 +16,7 @@ I,\ I^2,\ I^3,\ldots
 is a neighborhood basis of \(0\). Equivalently, the given topology on \(A\)
 is the \(I\)-adic topology.
 
-In the classical adic convention used for formal schemes, an ideal of
+In the classical adic convention used for [[algebraic-geometry-foundations/formal-scheme|formal schemes]], an ideal of
 definition is required to be finitely generated. A topological ring that has
 such an ideal is an [[algebra-topological/adic-ring|adic ring]].
 

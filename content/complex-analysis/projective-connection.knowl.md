@@ -8,7 +8,7 @@ domains = ["complex-analysis", "differential-geometry", "projective-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a Riemann surface with local coordinates \(z\). In the convention of this knowl, a **holomorphic projective connection** is a collection of holomorphic functions \(R_z\), one in each coordinate, such that under a change of coordinate \(w=w(z)\),
+Let \(X\) be a [[differential-geometry/riemann-surface|Riemann surface]] with local coordinates \(z\). In the convention of this knowl, a **holomorphic projective connection** is a collection of holomorphic functions \(R_z\), one in each coordinate, such that under a change of coordinate \(w=w(z)\),
 \[
 R_z(z)=R_w(w(z))\bigl(w'(z)\bigr)^2+S(w)(z),
 \]
@@ -16,7 +16,7 @@ where \(S(w)\) is the [[complex-analysis/schwarzian-derivative|Schwarzian deriva
 
 ## Why this transformation law
 
-If \(f\) is a locally univalent projective coordinate, set \(R_z=S(f)(z)\). The [[complex-analysis/schwarzian-chain-rule|Schwarzian chain rule]] gives exactly the displayed change-of-coordinate formula. Postcomposing \(f\) with a Möbius transformation leaves \(R_z\) unchanged.
+If \(f\) is a locally univalent projective coordinate, set \(R_z=S(f)(z)\). The [[complex-analysis/schwarzian-chain-rule|Schwarzian chain rule]] gives exactly the displayed change-of-coordinate formula. Postcomposing \(f\) with a [[complex-analysis/mobius-transformation|Möbius transformation]] leaves \(R_z\) unchanged.
 
 ## Relation to projective structures
 

@@ -8,7 +8,7 @@ domains = ["algebra-groups", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(V\) be a nonzero finite-dimensional vector space over a field \(k\). The **projective general linear group** is the [[algebra-groups/quotient-group|quotient group]]
+Let \(V\) be a nonzero finite-dimensional [[linear-algebra/vector-space|vector space]] over a field \(k\). The **projective general linear group** is the [[algebra-groups/quotient-group|quotient group]]
 \[
 \operatorname{PGL}(V)
 :=\operatorname{GL}(V)/(k^\times I),
@@ -19,7 +19,7 @@ where \(k^\times I=\{\lambda I_V:\lambda\in k^\times\}\) is the central subgroup
 
 The action of \(\operatorname{GL}(V)\) on [[algebraic-geometry-foundations/projective-space|\(\mathbb P(V)\)]] has kernel \(k^\times I\), so it descends to a faithful action of \(\operatorname{PGL}(V)\). Its elements are exactly the [[algebraic-geometry-foundations/projective-transformation|projective transformations]] induced by invertible linear maps.
 
-For \(\dim_kV\ge2\), this action is sharply determined by its effect on a projective frame. It is generally smaller than the full collineation group when \(k\) has nontrivial field automorphisms; the latter is the [[algebraic-geometry-foundations/projective-semilinear-group|projective semilinear group]].
+For \(\dim_kV\ge2\), this action is sharply determined by its effect on a projective frame. It is generally smaller than the full collineation group when \(k\) has nontrivial [[algebra-fields-galois/field-automorphism|field automorphisms]]; the latter is the [[algebraic-geometry-foundations/projective-semilinear-group|projective semilinear group]].
 
 ## Relation to \(\operatorname{PSL}\)
 

@@ -27,8 +27,7 @@ Weyl-group equivalences.
 The theorem has three parts: a standard module has a unique irreducible
 quotient; every irreducible admissible representation occurs as such a
 quotient; and ordered inducing data determine that quotient uniquely up to
-the standard equivalences. Langlands proves the quotient and uniqueness in
-§3 and exhaustion in §4.
+the standard equivalences.
 
 The result classifies the admissible dual, not just the
 [[harmonic-analysis/unitary-dual|unitary dual]]. A Langlands quotient may

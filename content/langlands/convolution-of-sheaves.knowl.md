@@ -25,3 +25,10 @@ The map \(m\) is ind-proper on the relevant finite-dimensional supports, so
 \(m_!=m_*\). With the Satake normalization, convolution preserves
 [[langlands/perverse-sheaf|perverse sheaves]] and defines the tensor product
 used in [[langlands/geometric-satake-equivalence|geometric Satake]].
+
+## References
+
+1. Ivan Mirković and Kari Vilonen, “Geometric Langlands duality and
+   representations of algebraic groups over commutative rings,” *Annals of
+   Mathematics* 166 (2007), 95–143.
+   [arXiv](https://arxiv.org/abs/math/0401222).

@@ -43,7 +43,7 @@ k[[y_1,\ldots,y_n]]
 \cong
 k[[x_1,\ldots,x_m,y_1,\ldots,y_n]]
 \]
-with the adic topologies defined by the variables.
+with the [[algebra-commutative/i-adic-topology|adic topologies]] defined by the variables.
 
 ## Continuous bilinear maps
 
@@ -54,7 +54,7 @@ images of
 M_r\otimes_kN+M\otimes_kN_s,
 \]
 its separated completion is the displayed inverse limit. Consequently a
-continuous bilinear map \(b:M\times N\to P\) into a complete separated
+continuous [[algebra-modules/bilinear-map|bilinear map]] \(b:M\times N\to P\) into a complete separated
 linearly topologized \(k\)-module factors uniquely through
 \(M\widehat\otimes_kN\) provided that, for every open submodule
 \(P_0\subseteq P\), there are \(r,s\) such that
@@ -76,7 +76,7 @@ identified with a Banach- or \(C^*\)-algebra tensor product.
 ## Role in formal geometry
 
 If \(X=\operatorname{Spf}A\) and \(Y=\operatorname{Spf}B\) are affine adic
-formal schemes over \(k\), their fiber product has coordinate algebra
+[[algebraic-geometry-foundations/formal-scheme|formal schemes]] over \(k\), their fiber product has coordinate algebra
 \(A\widehat\otimes_k B\) in the standard affine setup. Consequently, a
 multiplication \(G\times G\to G\) on an affine formal group pulls back to a
 continuous comultiplication

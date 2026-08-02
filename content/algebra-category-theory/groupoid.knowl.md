@@ -12,11 +12,11 @@ A **groupoid** is a [[algebra-category-theory/category|category]] \(\mathcal G\)
 
 ## Groups and equivalence relations
 
-A group is the same thing as a groupoid with one object: its morphisms are the group elements and composition is multiplication. An equivalence relation on a set determines a groupoid having one arrow \(x\to y\) exactly when \(x\) and \(y\) are equivalent. General groupoids allow several arrows between two objects and nontrivial automorphism groups.
+A group is the same thing as a groupoid with one object: its morphisms are the group elements and composition is multiplication. An [[shared-foundations/equivalence-relation|equivalence relation]] on a set determines a groupoid having one arrow \(x\to y\) exactly when \(x\) and \(y\) are equivalent. General groupoids allow several arrows between two objects and nontrivial automorphism groups.
 
 ## Geometric role
 
-Groupoids record objects together with reversible identifications. They arise from group actions, atlases, moduli problems, and the isomorphisms inside any category. Keeping the arrows retains symmetry information that the set of isomorphism classes discards.
+Groupoids record objects together with reversible identifications. They arise from [[algebra-groups/group-action|group actions]], atlases, moduli problems, and the isomorphisms inside any category. Keeping the arrows retains symmetry information that the set of isomorphism classes discards.
 
 ## References
 

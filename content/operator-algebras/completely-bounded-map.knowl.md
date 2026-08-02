@@ -54,6 +54,8 @@ Ordinary boundedness controls only the level \(n=1\). The transpose map on
 \(M_k(\mathbb C)\) has operator norm \(1\) but completely bounded norm \(k\),
 so amplification can reveal behavior invisible at the first level. On a fixed
 finite-dimensional operator space every bounded map is completely bounded,
+but there is no dimension-free comparison between the bounded and completely
+bounded norms.
 
 **Warning.** Complete boundedness and
 [[operator-algebras/positive-linear-map|positivity]] are independent without

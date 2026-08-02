@@ -2,7 +2,7 @@
 id = "knowlification/july-30-additions-index"
 title = "July 30 mathematical knowl expansion"
 kind = "index"
-summary = "Review index for 372 new and 64 modified production knowls in the July 30 mathematical expansion, organized by durable subject and dependency order."
+summary = "Review index for 372 new and 64 substantively refined production knowls in the July 30 mathematical expansion, organized by durable subject and dependency order."
 aliases = ["July 30 additions", "July 30 mathematical expansion", "July 30 knowl review index"]
 domains = ["knowlification", "algebra-hyperstructures", "formal-groups", "langlands", "complex-analysis", "differential-geometry", "mathematical-physics", "supergeometry"]
 section_mode = "progressive"
@@ -10,9 +10,10 @@ section_mode = "progressive"
 
 This page is a review and navigation index for the July 30 mathematical
 expansion. It lists every current new production knowl exactly once, followed
-by every pre-existing knowl changed relative to `develop`. The lists follow
-durable mathematical subjects and place foundations before their principal
-applications.
+by the pre-existing knowls selected for substantive integration review. Purely
+mechanical reference-placement updates elsewhere in the corpus are not repeated
+in that second list. The lists follow durable mathematical subjects and place
+foundations before their principal applications.
 
 The atomicity re-audit folded broad survey-style records into subject maps or
 replaced them with focused definitions, constructions, propositions, and
@@ -464,11 +465,12 @@ surviving content is reached through the atomic entries below.
 - [[langlands/tame-ramification|Tame ramification]]
 - [[langlands/wild-ramification|Wild ramification]]
 
-## Pre-existing knowls modified for integration review (64)
+## Pre-existing knowls substantively refined for integration review (64)
 
 These records existed on `develop` and were expanded, corrected, cross-linked,
-or updated as section maps during the July 30 integration. This is the exact
-comparison set used by the old/new review page.
+or updated as section maps during the July 30 integration. This is the curated
+comparison set used by the old/new review page; it excludes corpus-wide
+reference-placement cleanup.
 
 ### Algebra and algebraic-geometry records (7)
 

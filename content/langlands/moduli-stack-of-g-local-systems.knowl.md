@@ -8,8 +8,8 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a smooth projective curve over a characteristic-zero field and
-let \(G\) be a reductive algebraic group. The de Rham **moduli stack of
+Let \(X\) be a [[algebraic-geometry-foundations/smooth-projective-curve|smooth projective curve]] over a characteristic-zero field and
+let \(G\) be a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive algebraic group]]. The de Rham **moduli stack of
 \(G\)-local systems** is the derived mapping stack
 \[
 \operatorname{LocSys}^{\mathrm{dR}}_G(X)
@@ -18,7 +18,7 @@ let \(G\) be a reductive algebraic group. The de Rham **moduli stack of
 It parametrizes [[langlands/g-local-system|principal \(G\)-bundles with flat
 connection]] in families.
 
-When \(X\) is a compact Riemann surface, the Betti moduli stack is the
+When \(X\) is a compact [[differential-geometry/riemann-surface|Riemann surface]], the Betti moduli stack is the
 derived character stack
 \[
 \operatorname{LocSys}^{\mathrm{B}}_G(X)

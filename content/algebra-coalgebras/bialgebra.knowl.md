@@ -33,18 +33,18 @@ and
 \]
 Together with coassociativity and the counit identities, these conditions say
 that \(H\) is simultaneously a monoid and a comonoid, with each structure
-compatible with the other, in the symmetric monoidal category of \(k\)-modules.
+compatible with the other, in the [[algebra-category-theory/symmetric-monoidal-category|symmetric monoidal category]] of \(k\)-modules.
 
 ## Morphisms
 
-A **bialgebra homomorphism** is a unital algebra homomorphism that is also a
+A **bialgebra homomorphism** is a unital [[algebra-modules/algebra-homomorphism|algebra homomorphism]] that is also a
 coalgebra homomorphism. Bialgebras may be commutative as algebras,
 cocommutative as coalgebras, both, or neither; these are independent
 conditions.
 
 ## Examples
 
-- For a [[algebra-groups/group|group]] \(G\), the group algebra \(k[G]\) has
+- For a [[algebra-groups/group|group]] \(G\), the [[algebra-representation-theory/group-algebra|group algebra]] \(k[G]\) has
   \(\Delta(g)=g\otimes g\) and \(\varepsilon(g)=1\), extended linearly and
   multiplicatively. It is cocommutative, but it is commutative exactly when
   \(G\) is abelian.

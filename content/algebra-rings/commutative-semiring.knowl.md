@@ -17,13 +17,13 @@ absorbing.
 
 Unless a page says otherwise, semirings in the tropical and hyperstructure
 parts of this corpus are commutative and unital. This convention makes their
-multiplicative monoids compatible with the commutative hyperrings and
+multiplicative monoids compatible with the [[algebra-hyperstructures/hyperring|commutative hyperrings]] and
 hyperfields used there.
 
 ## Examples
 
 Every [[algebra-rings/commutative-ring|commutative ring]] is a commutative
-semiring. The natural numbers, the Boolean semifield, and the max-plus tropical
+semiring. The natural numbers, the [[algebra-rings/boolean-semifield|Boolean semifield]], and the max-plus tropical
 semifield are commutative semirings. A matrix semiring over a commutative
 semiring is generally not commutative when the matrix size exceeds one.
 

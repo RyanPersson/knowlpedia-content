@@ -13,7 +13,7 @@ Its **natural order** is
 \[
 a\le_S b\quad\Longleftrightarrow\quad a+b=b.
 \]
-This relation is a partial order, \(a+b\) is the join \(a\vee b\), and both
+This relation is a [[shared-foundations/partial-order|partial order]], \(a+b\) is the join \(a\vee b\), and both
 addition and multiplication are monotone in each variable.
 
 ## Why it is an order
@@ -26,7 +26,7 @@ The additive identity \(0\) is the least element.
 
 ## Tropical order warning
 
-For the max-plus tropical semifield, \(\le_S\) is the usual order:
+For the [[algebra-rings/tropical-semifield|max-plus tropical semifield]], \(\le_S\) is the usual order:
 \(\max(a,b)=b\) exactly when \(a\le b\). For the min-plus presentation,
 \[
 a\le_S b\quad\Longleftrightarrow\quad \min(a,b)=b,

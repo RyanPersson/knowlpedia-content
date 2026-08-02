@@ -8,7 +8,7 @@ domains = ["linear-algebra"]
 section_mode = "progressive"
 +++
 
-Let \(B\) be a symmetric [[linear-algebra/bilinear-form|bilinear form]] on a finite-dimensional real vector space. There is a basis in which
+Let \(B\) be a symmetric [[linear-algebra/bilinear-form|bilinear form]] on a finite-dimensional real [[linear-algebra/vector-space|vector space]]. There is a basis in which
 \[
 B(x,x)=-x_1^2-\cdots-x_p^2+x_{p+1}^2+\cdots+x_{p+q}^2,
 \]

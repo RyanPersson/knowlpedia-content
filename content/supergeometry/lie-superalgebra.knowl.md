@@ -29,7 +29,7 @@ identity**.
 The even part \(\mathfrak g_{\bar0}\) is an ordinary
 [[lie-groups/lie-algebra|Lie algebra]]. The odd part
 \(\mathfrak g_{\bar1}\) is a representation of \(\mathfrak g_{\bar0}\), and
-the bracket on two odd elements is a symmetric equivariant map
+the bracket on two odd elements is a symmetric [[fiber-bundles/equivariant-map|equivariant map]]
 \[
 \mathfrak g_{\bar1}\otimes\mathfrak g_{\bar1}
 \longrightarrow\mathfrak g_{\bar0}.

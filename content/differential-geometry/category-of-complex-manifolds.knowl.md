@@ -26,7 +26,7 @@ holomorphic.
 
 ## Relation to smooth manifolds
 
-Forgetting the complex charts gives a functor
+Forgetting the [[differential-geometry/complex-coordinate-chart|complex charts]] gives a functor
 \[
 U:\mathbf{CMan}\longrightarrow\mathbf{Man}.
 \]
@@ -43,7 +43,7 @@ smooth manifold admits a complex structure.
 The product \(X\times Y\), with product complex charts, is a categorical
 product, and a point is terminal.
 
-The maximal subgroupoid of \(\mathbf{CMan}\) retains all complex manifolds but
+The [[algebra-category-theory/core-of-a-category|maximal subgroupoid]] of \(\mathbf{CMan}\) retains all complex manifolds but
 only biholomorphisms. It should not be confused with \(\mathbf{CMan}\) itself,
 which contains noninvertible holomorphic maps such as constant maps and
 branched maps.

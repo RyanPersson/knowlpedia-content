@@ -31,7 +31,7 @@ multivalued.
 ## Related theorems
 
 - [[algebra-hyperstructures/doubly-distributive-hyperfields-are-stringent|Every
-  doubly distributive hyperfield is stringent]], but the converse fails.
+  [[algebra-hyperstructures/doubly-distributive-hyperfield|doubly distributive hyperfield]] is stringent]], but the converse fails.
 - The [[algebra-hyperstructures/classification-of-stringent-hyperfields|classification
   of stringent hyperfields]] describes them as tropical extensions with
   residue layer an ordinary field, the Krasner hyperfield, or the sign

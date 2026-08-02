@@ -26,8 +26,8 @@ is monotone in each variable.
 
 ## Examples
 
-The power set of a set, with union as addition and intersection as
-multiplication, is an idempotent commutative semiring. The Boolean and
+The [[shared-foundations/power-set|power set]] of a set, with union as addition and intersection as
+multiplication, is an idempotent [[algebra-rings/commutative-semiring|commutative semiring]]. The Boolean and
 tropical semifields are further examples. An ordinary nonzero ring cannot
 be additively idempotent: \(a+a=a\) and additive cancellation would force
 \(a=0\).

@@ -34,7 +34,7 @@ which vanishes exactly on null covectors. Thus \(\Box_g\) is hyperbolic rather t
 
 ## Geometric role
 
-The operator is [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic]]. A hypersurface is characteristic for \(\Box_g\) precisely where its conormal covector is null. This local symbol statement is distinct from the global [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|Cauchy theorem]] and the [[mathematical-physics/existence-of-advanced-and-retarded-green-operators|existence of advanced and retarded Green operators]], which require global hyperbolicity.
+The operator is [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic]]. A hypersurface is characteristic for \(\Box_g\) precisely where its conormal covector is null. This local symbol statement is distinct from the global [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|Cauchy theorem]] and the [[mathematical-physics/existence-of-advanced-and-retarded-green-operators|existence of advanced and retarded Green operators]], which require [[differential-geometry/globally-hyperbolic-spacetime|global hyperbolicity]].
 
 ## Sign convention
 

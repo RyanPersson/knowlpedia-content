@@ -8,7 +8,7 @@ domains = ["formal-groups", "algebra-rings"]
 section_mode = "progressive"
 +++
 
-Let \(R\) be a commutative ring and write
+Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and write
 \(X=(X_1,\ldots,X_n)\), \(Y=(Y_1,\ldots,Y_n)\). An
 **\(n\)-dimensional formal group law over \(R\)** is a tuple
 \[
@@ -68,7 +68,7 @@ is the bracket on the
 [[formal-groups/tangent-lie-algebra|tangent Lie algebra]]. Over a
 characteristic-zero field this tangent algebra determines the isomorphism
 class of the finite-dimensional law. More precisely, every specified
-homomorphism of tangent Lie algebras integrates to a unique formal-group-law
+homomorphism of tangent [[lie-groups/lie-algebra|Lie algebras]] integrates to a unique formal-group-law
 homomorphism; an isomorphism of tangent Lie algebras therefore integrates to a
 unique isomorphism of laws.
 

@@ -23,14 +23,14 @@ the augmentation \(k[[X_1,\ldots,X_n]]\to k\), \(X_i\mapsto0\).
 
 The elements \(X_1,\ldots,X_n\) are formal coordinates. If
 \(\mathfrak m=(X_1,\ldots,X_n)\), the cotangent space at the origin is
-\(\mathfrak m/\mathfrak m^2\), and the tangent space is
+\(\mathfrak m/\mathfrak m^2\), and the [[differential-geometry/tangent-space|tangent space]] is
 \[
 T_0\widehat{\mathbb A}^{\,n}_k
 =\operatorname{Hom}_k(\mathfrak m/\mathfrak m^2,k)
 \cong k^n.
 \]
 Thus the dimension \(n\) is the dimension of the tangent space, even though
-the underlying topological space of the formal spectrum has only one point.
+the underlying topological space of the [[algebraic-geometry-foundations/formal-spectrum|formal spectrum]] has only one point.
 
 ## Pointed maps
 
@@ -53,7 +53,7 @@ The product of formal discs is again a formal disc:
 \cong
 \widehat{\mathbb A}^{\,n+m}_k.
 \]
-On coordinate rings this uses the completed tensor product
+On coordinate rings this uses the [[algebra-topological/completed-tensor-product|completed tensor product]]
 \(k[[X]]\widehat\otimes_k k[[Y]]\cong k[[X,Y]]\).
 Consequently a multiplication map on a formal \(n\)-disc is represented by an
 \(n\)-tuple of series in the \(2n\) variables \(X,Y\).

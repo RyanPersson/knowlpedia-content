@@ -20,7 +20,7 @@ It is the identity component of the [[lie-groups/lorentz-group|Lorentz group]] \
 
 ## Structure
 
-The group is connected, noncompact, and has real dimension \(6\). Its Lie algebra is
+The group is connected, noncompact, and has real dimension \(6\). Its [[lie-groups/lie-algebra|Lie algebra]] is
 \[
 \mathfrak{so}(1,3)
 =\{X\in M_4(\mathbb R):X^{\mathsf T}\eta+\eta X=0\}.
@@ -33,7 +33,7 @@ with kernel \(\{\pm I\}\), and hence a real-Lie-group isomorphism
 \[
 PSL(2,\mathbb C)_{\mathbb R}\cong SO^+(1,3).
 \]
-The subscript \(\mathbb R\) is essential: the target is a real Lie group, not a complex Lie group.
+The subscript \(\mathbb R\) is essential: the target is a real Lie group, not a [[lie-groups/complex-lie-group|complex Lie group]].
 
 ## References
 

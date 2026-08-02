@@ -74,7 +74,7 @@ The assignment
 \[
 \mathfrak g\longmapsto\operatorname{BCH}(\mathfrak g)
 \]
-is a functor from complete bracket-filtered Lie algebras over \(k\) to
+is a functor from complete bracket-filtered [[lie-groups/lie-algebra|Lie algebras]] over \(k\) to
 complete filtered groups. In formulations using prounipotent affine group
 schemes, exponential and logarithm give an equivalence between pronilpotent
 Lie algebras and prounipotent groups over a characteristic-zero field.
@@ -98,7 +98,7 @@ The resulting formal BCH law is the local construction used in the
 [[formal-groups/lie-algebra-formal-group-equivalence|equivalence between
 finite-dimensional Lie algebras and formal groups]].
 
-When \(\mathfrak g\) is nilpotent, its lower central series terminates and the
+When \(\mathfrak g\) is nilpotent, its [[algebra-groups/lower-central-series|lower central series]] terminates and the
 BCH expression truncates to a finite Lie polynomial. In that special case
 the construction agrees with the usual exponential group of a nilpotent Lie
 algebra.

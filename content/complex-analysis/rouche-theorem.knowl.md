@@ -16,7 +16,7 @@ then \(f\) and \(f+g\) have the same number of zeros inside \(\gamma\), counted 
 
 ## Argument-principle proof
 
-For \(0\le t\le1\), the inequality ensures that \(f+tg\) never vanishes on \(\gamma\). Hence the winding number of \((f+tg)\circ\gamma\) about \(0\) is constant in \(t\). The [[complex-analysis/argument-principle|argument principle]] identifies that winding number with the number of interior zeros.
+For \(0\le t\le1\), the inequality ensures that \(f+tg\) never vanishes on \(\gamma\). Hence the [[complex-analysis/winding-number|winding number]] of \((f+tg)\circ\gamma\) about \(0\) is constant in \(t\). The [[complex-analysis/argument-principle|argument principle]] identifies that winding number with the number of interior zeros.
 
 ## Typical use
 

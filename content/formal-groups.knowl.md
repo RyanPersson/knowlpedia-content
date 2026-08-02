@@ -9,7 +9,7 @@ section_mode = "continuous"
 +++
 
 Formal group theory studies group multiplication in completed infinitesimal
-neighborhoods. A **formal group** is the intrinsic group object; a **formal
+neighborhoods. A **formal group** is the intrinsic [[algebra-category-theory/group-object|group object]]; a **formal
 group law** is its multiplication written in chosen power-series coordinates.
 This section uses general finite-dimensional, possibly noncommutative laws
 unless an entry explicitly invokes the classical one-dimensional commutative

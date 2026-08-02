@@ -33,7 +33,7 @@ Integrating around a contour gives
 \frac{1}{2\pi i}\int_\gamma\frac{f'}f\,dz
 =\sum_a\operatorname{Ind}(\gamma,a)\operatorname{ord}_a(f).
 \]
-This is the [[complex-analysis/argument-principle|argument principle]]: the logarithmic derivative converts multiplicative zero-and-pole data into an additive contour integral.
+This is the [[complex-analysis/argument-principle|argument principle]]: the logarithmic derivative converts multiplicative zero-and-pole data into an additive [[complex-analysis/complex-contour-integral|contour integral]].
 
 ## Product behavior
 

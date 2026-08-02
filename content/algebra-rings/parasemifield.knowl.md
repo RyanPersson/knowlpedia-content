@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 A **parasemifield** is a set \(S\) with associative, commutative operations
 \(+\) and \(\cdot\) such that multiplication distributes over addition and
-\((S,\cdot,1)\) is an abelian group. No additive identity is required.
+\((S,\cdot,1)\) is an [[algebra-groups/abelian-group|abelian group]]. No additive identity is required.
 
 Thus a parasemifield differs from a [[algebra-rings/semifield|semifield]]:
 a semifield has an additive zero \(0\), which is absorbing for

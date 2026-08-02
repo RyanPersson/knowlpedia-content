@@ -30,7 +30,9 @@ Choose the subset of simple restricted roots defining \(P\). The [[lie-groups/li
 \(\mathfrak a_P\) is the common kernel in \(\mathfrak a\) of those roots,
 \(A=\exp(\mathfrak a_P)\), and \(\mathfrak n\) is the sum of the positive
 restricted-root spaces not belonging to the Levi subsystem. The remaining
-centralizer data determine \(\mathfrak m\). This construction and the
+centralizer data determine \(\mathfrak m\). For the fixed Cartan involution
+and positive restricted-root data, this construction determines the three
+factors with their standard uniqueness properties.
 
 ## Role in normalized induction
 

@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(V\) be an \(n\)-dimensional complex vector space with a nondegenerate
-quadratic form. Up to isomorphism, its complex
+[[linear-algebra/quadratic-form|quadratic form]]. Up to isomorphism, its complex
 [[differential-geometry/clifford-algebra|Clifford algebra]] is
 \[
 \operatorname{Cl}(V)\cong
@@ -27,7 +27,7 @@ modules, each of dimension \(2^m\).
 ## Restriction to the spin group
 
 In dimension \(2m\), the restriction of the irreducible Clifford module to
-the even Clifford algebra, and hence to the spin group, decomposes as
+the even Clifford algebra, and hence to the [[lie-groups/spin-group|spin group]], decomposes as
 \[
 \Delta_{2m}=\Delta_{2m}^{+}\oplus\Delta_{2m}^{-}.
 \]

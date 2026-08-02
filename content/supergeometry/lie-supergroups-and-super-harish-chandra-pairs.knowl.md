@@ -8,7 +8,7 @@ domains = ["supergeometry", "lie-groups"]
 section_mode = "progressive"
 +++
 
-There is an equivalence of categories
+There is an [[algebra-category-theory/equivalence-of-categories|equivalence of categories]]
 \[
 \left\{
 \begin{array}{c}
@@ -29,7 +29,7 @@ The forward functor sends a [[supergeometry/lie-supergroup|Lie supergroup]]
 \[
 \left(G_{\mathrm{red}},\operatorname{Lie}(G)\right),
 \]
-with the conjugation action of \(G_{\mathrm{red}}\) on its
+with the [[algebra-groups/conjugation-action|conjugation action]] of \(G_{\mathrm{red}}\) on its
 [[supergeometry/lie-superalgebra-of-lie-supergroup|Lie superalgebra]].
 
 Conversely, a [[supergeometry/super-harish-chandra-pair|super
@@ -49,7 +49,7 @@ This theorem concerns the finite-dimensional smooth real
 Berezin–Leites/Kostant category and even morphisms. Analogous equivalences
 exist in complex-analytic and algebraic settings under their appropriate
 hypotheses, but those are distinct statements. The equivalence also explains
-why a Lie superalgebra by itself does not choose the global topology of the
+why a [[supergeometry/lie-superalgebra|Lie superalgebra]] by itself does not choose the global topology of the
 reduced Lie group.
 
 ## References

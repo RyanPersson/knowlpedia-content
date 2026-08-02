@@ -57,9 +57,9 @@ such tuples, with composition given by substitution.
 
 Over a ring containing nilpotents, a series with nonzero nilpotent constant
 term may also admit some substitutions. The zero-constant-term convention is
-the clean, base-preserving pointed construction used for formal group laws; it
+the clean, base-preserving pointed construction used for [[formal-groups/formal-group-law|formal group laws]]; it
 should not be misread as a classification of every possible continuous map
-between arbitrary adic rings.
+between arbitrary [[algebra-topological/adic-ring|adic rings]].
 
 ## References
 

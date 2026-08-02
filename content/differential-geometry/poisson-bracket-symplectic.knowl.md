@@ -39,7 +39,7 @@ If \(H\) generates a Hamiltonian trajectory \(\gamma\), then
 \[
 \frac{d}{dt}f(\gamma(t))=\{f,H\}.
 \]
-Thus \(\{f,H\}=0\) precisely when \(f\) is constant along the [[differential-geometry/hamiltonian-flow|Hamiltonian flow]]; this is.
+Thus \(\{f,H\}=0\) precisely when \(f\) is constant along the [[differential-geometry/hamiltonian-flow|Hamiltonian flow]].
 
 ## Conventions
 

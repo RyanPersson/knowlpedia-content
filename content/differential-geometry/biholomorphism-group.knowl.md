@@ -23,7 +23,7 @@ It is generally a proper subgroup because a smooth diffeomorphism need not have 
 
 ## Examples
 
-The holomorphic automorphism group of \(\mathbb C\) consists of affine maps \(z\mapsto az+b\) with \(a\neq0\). The automorphism group of the [[complex-analysis/riemann-sphere|Riemann sphere]] is the Möbius group
+The holomorphic automorphism group of \(\mathbb C\) consists of affine maps \(z\mapsto az+b\) with \(a\neq0\). The automorphism group of the [[complex-analysis/riemann-sphere|Riemann sphere]] is the [[complex-analysis/mobius-transformation-group|Möbius group]]
 \[
 \operatorname{Aut}_{\mathrm{hol}}(\mathbb P^1(\mathbb C))
 \cong PGL_2(\mathbb C).

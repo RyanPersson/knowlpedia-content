@@ -52,7 +52,7 @@ than a choice of bases, characterizes the construction.
 ## Relation to Lie superalgebras
 
 The symmetric superalgebra appears as the associated graded algebra in the
-Poincaré–Birkhoff–Witt theorem for the
+[[lie-groups/pbw-theorem|Poincaré–Birkhoff–Witt theorem]] for the
 [[supergeometry/universal-enveloping-algebra-of-lie-superalgebra|universal
 enveloping algebra of a Lie superalgebra]].
 

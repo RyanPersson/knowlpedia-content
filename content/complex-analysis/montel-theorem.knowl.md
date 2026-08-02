@@ -21,7 +21,7 @@ Every sequence in \(\mathcal F\) has a subsequence converging uniformly on compa
 
 ## Proof idea
 
-On every relatively compact disc, the [[complex-analysis/cauchy-integral-formula|Cauchy estimates]] give common derivative bounds. The family is therefore equicontinuous there. The Arzelà–Ascoli theorem gives convergent subsequences on an exhaustion by compact sets, and a diagonal argument produces one subsequence converging locally uniformly throughout \(D\).
+On every relatively compact disc, the [[complex-analysis/cauchy-integral-formula|Cauchy estimates]] give common derivative bounds. The family is therefore equicontinuous there. The [[real-analysis/arzela-ascoli-theorem|Arzelà–Ascoli theorem]] gives convergent subsequences on an exhaustion by compact sets, and a diagonal argument produces one subsequence converging locally uniformly throughout \(D\).
 
 ## References
 

@@ -8,7 +8,7 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a reductive group over \(k\), choose a
+Let \(G\) be a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over \(k\), choose a
 [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]]
 \(B\subseteq G\), and let
 \[
@@ -22,3 +22,9 @@ The Iwahori subgroup is a
 [[langlands/parahoric-level-structure|parahoric]] subgroup; equivalently, an
 Iwahori level structure is a reduction of the fiber at the marked point to
 \(B\).
+
+## References
+
+1. Georgios Pappas and Michael Rapoport, “Twisted loop groups and their
+   affine flag varieties,” *Advances in Mathematics* 219 (2008), 118–198.
+   [arXiv](https://arxiv.org/abs/math/0607130).

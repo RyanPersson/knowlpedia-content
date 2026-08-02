@@ -19,7 +19,7 @@ than its ordinary abelian heart.
 
 ## Examples
 
-The structure sheaf \(\mathcal O_X\), vector bundles, and sheaves associated to
+The structure sheaf \(\mathcal O_X\), [[fiber-bundles/vector-bundle|vector bundles]], and sheaves associated to
 modules on an affine scheme are quasi-coherent. Coherent sheaves impose
 additional finiteness conditions; see
 [[algebraic-geometry-foundations/coherent-sheaf|coherent sheaf]].

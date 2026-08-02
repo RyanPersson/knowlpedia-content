@@ -8,7 +8,7 @@ domains = ["algebraic-geometry-foundations", "algebra-rings"]
 section_mode = "progressive"
 +++
 
-Let \(A\) be a [[algebra-groups/commutative-monoid|commutative monoid with zero]], and let \(\mathbb N[A]\) denote the semiring of finite formal sums of elements of \(A\). A **pre-addition** on \(A\) is an equivalence relation \(\mathcal R\) on \(\mathbb N[A]\), written
+Let \(A\) be a [[algebra-groups/commutative-monoid|commutative monoid with zero]], and let \(\mathbb N[A]\) denote the semiring of finite formal sums of elements of \(A\). A **pre-addition** on \(A\) is an [[shared-foundations/equivalence-relation|equivalence relation]] \(\mathcal R\) on \(\mathbb N[A]\), written
 \[
 \sum a_i\equiv\sum b_j,
 \]
@@ -22,6 +22,7 @@ Explicitly, if \(\sum a_i\equiv\sum b_j\) and \(\sum c_k\equiv\sum d_\ell\), the
 \[
 \sum a_i+\sum c_k\equiv\sum b_j+\sum d_\ell
 \]
+and
 \[
 \sum_{i,k}a_ic_k\equiv\sum_{j,\ell}b_jd_\ell.
 \]

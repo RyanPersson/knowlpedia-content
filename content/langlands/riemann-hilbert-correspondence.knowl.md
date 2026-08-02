@@ -16,7 +16,7 @@ connections]] on \(X\) and the category of finite-dimensional complex
 
 For a smooth projective \(X\), every algebraic flat connection is regular
 singular. On an open variety, the regular-singular condition refers to the
-boundary of a smooth compactification. Irregular connections require an
+boundary of a smooth compactification. [[langlands/irregular-singular-connection|Irregular connections]] require an
 enhanced correspondence incorporating [[langlands/stokes-data|Stokes data]].
 
 ## References

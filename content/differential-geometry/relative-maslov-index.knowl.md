@@ -30,7 +30,7 @@ When it is nondegenerate, the crossing is regular. The signature formula is
 +\sum_{a<t<b}\operatorname{sign}\Gamma(t)
 +\tfrac12\operatorname{sign}\Gamma(b).
 \]
-Robbin and Salamon prove that this agrees with the diagonal construction.
+This agrees with the diagonal construction.
 
 ## Properties
 
@@ -46,7 +46,7 @@ In \(\mathbb R^2\), keep \(\Lambda_1=\mathbb R\) fixed and rotate \(\Lambda_0\) 
 
 ## Relation to spectral flow
 
-For suitable paths of self-adjoint first-order operators with Lagrangian boundary data, [[noncommutative-geometry/spectral-flow|spectral flow]] is expressed by a relative Maslov index. Cappell, Lee, and Miller compare several definitions and develop this relation systematically. Analytic applications may reverse the order of the two boundary-data paths, which reverses the sign.
+For suitable paths of self-adjoint first-order operators with Lagrangian boundary data, [[noncommutative-geometry/spectral-flow|spectral flow]] is expressed by a relative Maslov index. Several equivalent definitions make this relation precise. Analytic applications may reverse the order of the two boundary-data paths, which reverses the sign.
 
 ## References
 

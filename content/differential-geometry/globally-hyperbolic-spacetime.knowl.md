@@ -14,7 +14,7 @@ J^+(p)\cap J^-(q)
 \]
 is compact.
 
-The [[differential-geometry/global-hyperbolicity-and-cauchy-hypersurfaces|Cauchy-hypersurface characterization]] and the [[differential-geometry/smooth-splitting-of-globally-hyperbolic-spacetimes|smooth splitting theorem]] are equivalent global descriptions and consequences, not additional clauses in this definition. Global hyperbolicity is also the geometric hypothesis in the [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|global Cauchy theorem]] for normally hyperbolic operators.
+The [[differential-geometry/global-hyperbolicity-and-cauchy-hypersurfaces|Cauchy-hypersurface characterization]] and the [[differential-geometry/smooth-splitting-of-globally-hyperbolic-spacetimes|smooth splitting theorem]] are equivalent global descriptions and consequences, not additional clauses in this definition. Global hyperbolicity is also the geometric hypothesis in the [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|global Cauchy theorem]] for [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic operators]].
 
 ## Examples and non-examples
 

@@ -27,7 +27,7 @@ The codomain of a valuation is commonly an ordered abelian group, often enlarged
 
 ## Terminology
 
-Some sources use “ordered abelian group” for a translation-invariant partial order and say **linearly ordered** or **totally ordered** when every pair is comparable. Here the term uses the total-order convention standard for valuation value groups.
+Some sources use “ordered abelian group” for a translation-invariant [[shared-foundations/partial-order|partial order]] and say **linearly ordered** or **totally ordered** when every pair is comparable. Here the term uses the total-order convention standard for [[algebra-fields-galois/value-group|valuation value groups]].
 
 ## References
 

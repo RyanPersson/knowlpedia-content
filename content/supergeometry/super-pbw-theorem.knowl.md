@@ -12,7 +12,7 @@ Let \(\mathfrak g\) be a [[supergeometry/lie-superalgebra|Lie superalgebra]]
 over a field of characteristic \(0\). Filter its
 [[supergeometry/universal-enveloping-algebra-of-lie-superalgebra|universal
 enveloping algebra]] \(U(\mathfrak g)\) by tensor degree. The **super
-Poincaré–Birkhoff–Witt theorem** gives a canonical graded-superalgebra
+[[lie-groups/pbw-theorem|Poincaré–Birkhoff–Witt theorem]]** gives a canonical graded-superalgebra
 isomorphism
 \[
 \operatorname{gr}U(\mathfrak g)

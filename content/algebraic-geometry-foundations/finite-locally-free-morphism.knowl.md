@@ -8,7 +8,7 @@ domains = ["algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-A morphism of schemes \(f:X\to S\) is **finite locally free** if every point of \(S\) has an affine neighborhood \(U=\operatorname{Spec}R\) for which
+A [[algebraic-geometry-foundations/morphism-of-schemes|morphism of schemes]] \(f:X\to S\) is **finite locally free** if every point of \(S\) has an affine neighborhood \(U=\operatorname{Spec}R\) for which
 \[
 f^{-1}(U)=\operatorname{Spec}A
 \]

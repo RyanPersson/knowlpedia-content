@@ -18,7 +18,7 @@ The preserved bundle \(Q\) makes every quaternion-Kähler manifold of dimension 
 
 Quaternionic projective space \(\mathbb H P^n\) with its standard metric is the compact positive-curvature model. Quaternionic hyperbolic space is the corresponding negative-curvature model. A [[differential-geometry/hyperkahler-manifold|hyperkähler manifold]] also satisfies the inclusive holonomy condition because \(\operatorname{Sp}(n)\subset\operatorname{Sp}(n)\operatorname{Sp}(1)\), but its Levi-Civita connection preserves a global triple and its [[differential-geometry/ricci-curvature|Ricci curvature]] vanishes.
 
-Some authors reserve “quaternion-Kähler” for the nonzero-scalar-curvature case, thereby excluding hyperkähler manifolds; the core uses the inclusive holonomy convention of.
+Some authors reserve “quaternion-Kähler” for the nonzero-scalar-curvature case, thereby excluding hyperkähler manifolds; the core uses the inclusive holonomy convention.
 
 ## Four-dimensional convention
 

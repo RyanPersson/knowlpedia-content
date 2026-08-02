@@ -30,10 +30,10 @@ Under the convention \(c(v)^2=-g(v,v)\), slash notation satisfies
 =-g^{-1}(\xi,\xi)\operatorname{id}_\Delta.
 \]
 This identity is the principal-symbol calculation behind the fact that the
-square of a Dirac operator has metric quadratic principal symbol.
+square of a [[noncommutative-geometry/dirac-operator|Dirac operator]] has metric quadratic principal symbol.
 
 The musical isomorphism in the covector formula is essential: Clifford
-multiplication is defined on vectors unless the Clifford algebra has instead
+multiplication is defined on vectors unless the [[differential-geometry/clifford-algebra|Clifford algebra]] has instead
 been constructed directly from the cotangent quadratic form.
 
 ## References

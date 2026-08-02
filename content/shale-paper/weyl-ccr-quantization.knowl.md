@@ -35,11 +35,11 @@ In particular \(V(z)=e^{iR(z)}\). The unbounded operators \(R(z)\) need not
 share a domain, so the Weyl relations are the domain-free formulation of the
 canonical commutation relations.
 
-## Continuity convention in Shale's paper
+## Continuity convention
 
 For unitary-valued maps, strong and weak continuity of each one-parameter
-subgroup are equivalent. Shale states regularity as weak continuity of
-\(V\) on every finite-dimensional subspace of \(K\); this implies, and in
+subgroup are equivalent. Regularity may equivalently be stated as weak
+continuity of \(V\) on every finite-dimensional subspace of \(K\); this implies, and in
 this setting is equivalent to, the one-parameter condition above. Compare
 [[shale-paper/weak-continuity|weak continuity of a representation]].
 

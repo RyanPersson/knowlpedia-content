@@ -28,7 +28,7 @@ Evaluation is an even map
 \qquad f\otimes v\longmapsto f(v).
 \]
 Together with the [[supergeometry/koszul-sign-rule|Koszul sign rule]], this
-object makes the category of super vector spaces closed symmetric monoidal.
+object makes the [[supergeometry/category-of-super-vector-spaces|category of super vector spaces]] closed symmetric monoidal.
 The [[supergeometry/parity-shift|parity shift]] identifies odd maps
 \(V\to W\) with even maps \(V\to\Pi W\), up to the chosen sign convention for
 the natural identifications.

@@ -25,7 +25,7 @@ Without normalization, two Riemann maps differ by a holomorphic automorphism of 
 
 ## Excluded cases and scope
 
-The properness hypothesis excludes \(D=\mathbb C\), which cannot be biholomorphic to the disc by [[complex-analysis/liouville-theorem|Liouville's theorem]]. Simple connectivity is essential: an annulus is not biholomorphic to a disc. The theorem classifies domains as Riemann surfaces, not their boundary regularity; extending \(f\) continuously or smoothly to the boundary needs additional hypotheses.
+The properness hypothesis excludes \(D=\mathbb C\), which cannot be biholomorphic to the disc by [[complex-analysis/liouville-theorem|Liouville's theorem]]. Simple connectivity is essential: an annulus is not biholomorphic to a disc. The theorem classifies domains as [[differential-geometry/riemann-surface|Riemann surfaces]], not their boundary regularity; extending \(f\) continuously or smoothly to the boundary needs additional hypotheses.
 
 ## Proof architecture
 

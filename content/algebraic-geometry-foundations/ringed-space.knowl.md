@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 A **ringed space** is a pair \((X,\mathcal O_X)\) consisting of a
 [[topology/topological-space|topological space]] \(X\) and a
-[[algebraic-geometry-foundations/sheaf|sheaf]] of commutative rings
+[[algebraic-geometry-foundations/sheaf|sheaf]] of [[algebra-rings/commutative-ring|commutative rings]]
 \(\mathcal O_X\) on \(X\). The sheaf \(\mathcal O_X\) is called the
 [[algebraic-geometry-foundations/structure-sheaf|structure sheaf]].
 
@@ -18,7 +18,7 @@ A morphism of ringed spaces
 \[
 (f,f^\#):(X,\mathcal O_X)\longrightarrow(Y,\mathcal O_Y)
 \]
-consists of a continuous map \(f:X\to Y\) and a morphism of sheaves of rings
+consists of a [[topology/continuous-map|continuous map]] \(f:X\to Y\) and a [[algebraic-geometry-foundations/morphism-of-sheaves|morphism of sheaves]] of rings
 \[
 f^\#:\mathcal O_Y\longrightarrow f_*\mathcal O_X.
 \]
@@ -27,7 +27,7 @@ The arrow on functions points opposite to the map on spaces: a function near
 
 ## Stalkwise form
 
-At every \(x\in X\), the sheaf morphism induces a ring homomorphism
+At every \(x\in X\), the sheaf morphism induces a [[algebra-rings/ring-homomorphism|ring homomorphism]]
 \[
 f_x^\#:\mathcal O_{Y,f(x)}\longrightarrow\mathcal O_{X,x}
 \]
@@ -37,7 +37,7 @@ the continuous maps and these pullback homomorphisms.
 ## Important refinements
 
 A [[algebraic-geometry-foundations/locally-ringed-space|locally ringed
-space]] additionally requires every stalk to be a local ring and its
+space]] additionally requires every stalk to be a [[algebra-commutative/local-ring|local ring]] and its
 morphisms to induce local homomorphisms on stalks. Schemes, complex
 manifolds with their holomorphic functions, and smooth manifolds with their
 smooth functions carry such refinements. A bare ringed space imposes no

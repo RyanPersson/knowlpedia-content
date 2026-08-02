@@ -8,7 +8,7 @@ domains = ["complex-analysis", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a Riemann surface. If the set of [[complex-analysis/projective-connection|holomorphic projective connections]] on \(X\) is nonempty, it is an affine space modeled on the vector space
+Let \(X\) be a [[differential-geometry/riemann-surface|Riemann surface]]. If the set of [[complex-analysis/projective-connection|holomorphic projective connections]] on \(X\) is nonempty, it is an affine space modeled on the vector space
 \[
 H^0(X,K_X^{\otimes2})
 \]

@@ -24,7 +24,7 @@ The theorem gives a complex-analytic proof of the [[complex-analysis/fundamental
 
 ## Disambiguation
 
-This theorem is unrelated to Liouville's theorem in Hamiltonian mechanics or the Liouville–Arnold theorem.
+This theorem is unrelated to Liouville's theorem in Hamiltonian mechanics or the [[differential-geometry/liouville-arnold-theorem|Liouville–Arnold theorem]].
 
 ## References
 

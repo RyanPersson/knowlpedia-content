@@ -17,7 +17,7 @@ with the usual extensions at a zero of the denominator and at \(\infty\). Equiva
 
 ## Conformal orientation
 
-Anti-Möbius transformations are antiholomorphic, conformal, and orientation reversing. They are not holomorphic maps of Riemann surfaces. Every orientation-reversing conformal automorphism of the round \(2\)-sphere is anti-Möbius.
+Anti-Möbius transformations are antiholomorphic, conformal, and orientation reversing. They are not [[differential-geometry/holomorphic-map|holomorphic maps]] of Riemann surfaces. Every orientation-reversing conformal automorphism of the round \(2\)-sphere is anti-Möbius.
 
 ## Composition
 

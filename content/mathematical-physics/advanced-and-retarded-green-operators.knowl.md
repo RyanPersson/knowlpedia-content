@@ -8,7 +8,7 @@ domains = ["mathematical-physics", "partial-differential-equations"]
 section_mode = "progressive"
 +++
 
-Let \(P:\Gamma^\infty(E)\to\Gamma^\infty(E)\) be a differential operator on a time-oriented Lorentzian manifold. A **future Green operator** \(G^+\) and a **past Green operator** \(G^-\) are linear maps
+Let \(P:\Gamma^\infty(E)\to\Gamma^\infty(E)\) be a differential operator on a time-oriented [[differential-geometry/lorentzian-manifold|Lorentzian manifold]]. A **future Green operator** \(G^+\) and a **past Green operator** \(G^-\) are linear maps
 \[
 G^\pm:\Gamma^\infty_c(E)\longrightarrow\Gamma^\infty(E)
 \]
@@ -24,7 +24,7 @@ Here \(J^\pm\) are the [[differential-geometry/chronological-and-causal-future|c
 
 These are often called the **advanced** and **retarded** Green operators. Naming conventions for “advanced” and “retarded” vary, so the signs and causal support conditions above fix the meaning unambiguously in this collection.
 
-The [[mathematical-physics/existence-of-advanced-and-retarded-green-operators|Green-operator existence theorem]] supplies a unique pair for every normally hyperbolic operator on a globally hyperbolic spacetime.
+The [[mathematical-physics/existence-of-advanced-and-retarded-green-operators|Green-operator existence theorem]] supplies a unique pair for every [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic operator]] on a [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetime]].
 
 ## References
 

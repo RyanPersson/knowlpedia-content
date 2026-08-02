@@ -37,7 +37,7 @@ For a smooth real or complex vector bundle, the
 [[fiber-bundles/sheaf-of-smooth-sections|sheaf of smooth sections]] is
 finite-rank locally free over \(C^\infty_M\). Conversely, a finite-rank
 locally free \(C^\infty_M\)-module sheaf glues trivial bundles to recover a
-smooth vector bundle.
+smooth [[fiber-bundles/vector-bundle|vector bundle]].
 
 The adjective “locally free” applies to the sheaf. Its global section module
 need not be free: a global basis would be a global frame and would trivialize

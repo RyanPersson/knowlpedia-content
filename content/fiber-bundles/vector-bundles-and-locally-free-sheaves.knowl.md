@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(M\) be a smooth manifold and
 \(\mathbb F\in\{\mathbb R,\mathbb C\}\). Taking local smooth sections defines
-an equivalence of categories
+an [[algebra-category-theory/equivalence-of-categories|equivalence of categories]]
 \[
 \mathbf{Vect}_{\mathbb F}(M)
 \;\simeq\;
@@ -24,7 +24,7 @@ category of finite-rank vector bundles]], and the target consists of
 [[algebraic-geometry-foundations/locally-free-sheaf|locally free sheaves]]
 of \(C^\infty_M(\mathbb F)\)-modules whose rank is finite and locally
 constant. Neither side requires that rank to be globally bounded across the
-connected components of \(M\). On morphisms, a bundle map over
+[[topology/connected-component|connected components]] of \(M\). On morphisms, a bundle map over
 \(\operatorname{id}_M\) acts on local sections by postcomposition.
 
 ## Reconstruction from a sheaf
@@ -37,12 +37,12 @@ frame are smooth maps
 g_{ij}:U_i\cap U_j\longrightarrow GL_r(\mathbb F)
 \]
 satisfying the cocycle identities. Gluing the trivial bundles
-\(U_i\times\mathbb F^r\) with these transition functions produces a smooth
-vector bundle \(E\to M\). Its section sheaf is naturally isomorphic to
+\(U_i\times\mathbb F^r\) with these [[fiber-bundles/transition-function|transition functions]] produces a smooth
+vector bundle \(E\to M\). Its [[fiber-bundles/sheaf-of-smooth-sections|section sheaf]] is naturally isomorphic to
 \(\mathcal E\).
 
 Likewise, a morphism of locally free sheaves is locally a matrix of smooth
-functions. These matrices glue to a unique bundle morphism over
+functions. These matrices glue to a unique [[fiber-bundles/bundle-morphism|bundle morphism]] over
 \(\operatorname{id}_M\), proving full faithfulness.
 
 ## No compactness requirement

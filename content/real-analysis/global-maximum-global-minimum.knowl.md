@@ -24,7 +24,7 @@ Let \(f:E\to\mathbb{R}\) and let \(a\in E\).
 
 ## Remarks
 
-Global extrema are stronger than local extrema and need not exist in general. A central theorem in analysis is that continuous functions on compact sets attain both a global maximum and a global minimum.
+Global extrema are stronger than local extrema and need not exist in general. The [[topology/extreme-value-theorem|extreme value theorem]] states that continuous real-valued functions on compact spaces attain both a global maximum and a global minimum.
 
 ## Examples
 

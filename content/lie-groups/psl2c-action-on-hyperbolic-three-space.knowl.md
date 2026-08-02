@@ -31,7 +31,7 @@ These isomorphisms are in the category of real Lie groups.
 
 ## Boundary action and quotients
 
-The action extends continuously to \(\partial_\infty\mathbb H^3\cong\mathbb{CP}^1\), where it is the [[lie-groups/celestial-sphere-and-mobius-action|Möbius action]]. Thus a discrete subgroup \(\Gamma<PSL(2,\mathbb C)\) acts simultaneously on \(\mathbb H^3\) and its sphere at infinity. The quotient \(\Gamma\backslash\mathbb H^3\) is a hyperbolic orbifold, and is a manifold when \(\Gamma\) acts freely. Arithmetic choices of \(\Gamma\) connect this geometry with automorphic forms and representation theory.
+The action extends continuously to \(\partial_\infty\mathbb H^3\cong\mathbb{CP}^1\), where it is the [[lie-groups/celestial-sphere-and-mobius-action|Möbius action]]. Thus a [[lie-groups/discrete-subgroup|discrete subgroup]] \(\Gamma<PSL(2,\mathbb C)\) acts simultaneously on \(\mathbb H^3\) and its sphere at infinity. The quotient \(\Gamma\backslash\mathbb H^3\) is a hyperbolic orbifold, and is a manifold when \(\Gamma\) acts freely. Arithmetic choices of \(\Gamma\) connect this geometry with automorphic forms and representation theory.
 
 ## References
 

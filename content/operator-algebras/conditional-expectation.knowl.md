@@ -27,9 +27,10 @@ then \(E\) is automatically unital.
 Tomiyama's theorem states that a bounded linear projection \(P:A\to B\) onto
 a \(C^*\)-subalgebra, with \(\lVert P\rVert=1\), is positive,
 \(B\)-bimodular, and completely positive. Conversely, every conditional
-expectation in the core definition is such a norm-one projection. Thus many
-sources define a conditional expectation simply as a contractive projection
-onto \(B\).
+expectation in the core definition is such a norm-one projection. Equivalently,
+a conditional expectation can be defined as a contractive projection onto
+\(B\); positivity, complete positivity, and \(B\)-bimodularity then follow
+automatically.
 
 ## Basic properties
 

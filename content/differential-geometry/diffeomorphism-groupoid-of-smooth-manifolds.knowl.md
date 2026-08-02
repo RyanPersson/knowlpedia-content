@@ -34,7 +34,7 @@ covering projections that are not one-sheeted, and smooth functions
 In particular, “the category whose morphisms are diffeomorphisms” is a
 reasonable classification groupoid, but it is not the usual category of
 smooth manifolds. Constructions such as pullback of smooth functions and the
-tangent functor are defined on the larger category.
+[[differential-geometry/tangent-functor|tangent functor]] are defined on the larger category.
 
 ## Automorphisms
 

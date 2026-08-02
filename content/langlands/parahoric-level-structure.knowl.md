@@ -8,16 +8,22 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a reductive group over the local field \(k((t))\), and let
-\(\mathcal G\) be the Bruhat–Tits parahoric group scheme on
+Let \(G\) be a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over the local field \(k((t))\), and let
+\(\mathcal G\) be the Bruhat–Tits parahoric [[algebraic-geometry-foundations/group-scheme|group scheme]] on
 \(\operatorname{Spec}k\lbrack\!\lbrack t\rbrack\!\rbrack\) attached to a
 facet of the Bruhat–Tits building. A **parahoric level structure** on a
 punctured-disc \(G\)-bundle is an extension to a \(\mathcal G\)-torsor on the
-formal disc.
+[[formal-groups/formal-affine-space|formal disc]].
 
 Its formal-disc points
 \(K=\mathcal G(k\lbrack\!\lbrack t\rbrack\!\rbrack)\) form the corresponding
 parahoric subgroup of \(G(k((t)))\). When \(K\) embeds in a chosen positive
-loop group, the same datum can be expressed as a
+[[langlands/loop-group|loop group]], the same datum can be expressed as a
 [[langlands/level-structure-on-g-bundle|reduction of the formal-frame
 torsor]] to \(K\).
+
+## References
+
+1. Georgios Pappas and Michael Rapoport, “Twisted loop groups and their
+   affine flag varieties,” *Advances in Mathematics* 219 (2008), 118–198.
+   [arXiv](https://arxiv.org/abs/math/0607130).

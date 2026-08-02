@@ -18,7 +18,7 @@ where \(B\) is the distinguished multiplicative monoid, \(B^+\) is its ambient s
 \quad\Longleftrightarrow\quad
 \sum a_i\in N_B.
 \]
-A band morphism extends termwise to an order-preserving semiring homomorphism, and this construction defines a fully faithful functor
+A band morphism extends termwise to an order-preserving [[algebra-rings/semiring-homomorphism|semiring homomorphism]], and this construction defines a fully faithful functor
 \[
 (-)^{\mathrm{oblpr}}:\mathbf{Bands}\hookrightarrow
 \mathbf{OBlpr}_{\mathbb F_1^\pm}.

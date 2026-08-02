@@ -8,7 +8,7 @@ domains = ["differential-geometry", "algebraic-geometry-foundations", "topology"
 section_mode = "progressive"
 +++
 
-For \(n\ge0\), **real projective \(n\)-space** is the set of one-dimensional real linear subspaces of \(\mathbb R^{n+1}\):
+For \(n\ge0\), **real projective \(n\)-space** is the set of one-dimensional real [[convex-analysis/linear-subspace|linear subspaces]] of \(\mathbb R^{n+1}\):
 \[
 \mathbb{RP}^n=\mathbb P(\mathbb R^{n+1}).
 \]
@@ -29,11 +29,11 @@ The sphere map \(S^n\to\mathbb{RP}^n\) is a two-sheeted covering for \(n\ge1\). 
 
 ## Homogeneous-space descriptions
 
-The orthogonal group acts transitively on real lines, and the stabilizer of the first coordinate line is \(O(1)\times O(n)\). Hence
+The [[lie-groups/orthogonal-group|orthogonal group]] acts transitively on real lines, and the stabilizer of the first coordinate line is \(O(1)\times O(n)\). Hence
 \[
 \mathbb{RP}^n\cong O(n+1)/(O(1)\times O(n))
 \]
-as a [[lie-groups/homogeneous-space|homogeneous space]]. The projective general linear group \(\operatorname{PGL}_{n+1}(\mathbb R)\) also acts transitively; the stabilizer of a line is a projective parabolic subgroup.
+as a [[lie-groups/homogeneous-space|homogeneous space]]. The [[algebra-groups/projective-general-linear-group|projective general linear group]] \(\operatorname{PGL}_{n+1}(\mathbb R)\) also acts transitively; the stabilizer of a line is a projective parabolic subgroup.
 
 ## Geometry and topology
 

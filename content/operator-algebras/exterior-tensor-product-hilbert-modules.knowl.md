@@ -13,6 +13,7 @@ complex tensor product \(E\odot F\), define
 \[
 (x\otimes y)(a\otimes b)=xa\otimes yb
 \]
+and
 \[
 \langle x_1\otimes y_1,x_2\otimes y_2\rangle
 =\langle x_1,x_2\rangle_A\otimes\langle y_1,y_2\rangle_B,

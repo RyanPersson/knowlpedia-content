@@ -8,9 +8,9 @@ domains = ["langlands", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected reductive group, choose a maximal torus
-\(T\subseteq B\) in a Borel subgroup, and let \(\Phi^+\) be the resulting
-positive roots. A coweight \(\lambda\in X_*(T)\) is **dominant** if
+Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]], choose a maximal torus
+\(T\subseteq B\) in a [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]], and let \(\Phi^+\) be the resulting
+[[lie-groups/positive-root|positive roots]]. A coweight \(\lambda\in X_*(T)\) is **dominant** if
 \[
 \langle\alpha,\lambda\rangle\geq 0
 \qquad\text{for every }\alpha\in\Phi^+.
@@ -19,3 +19,8 @@ positive roots. A coweight \(\lambda\in X_*(T)\) is **dominant** if
 Every Weyl-group orbit in \(X_*(T)\) contains a unique dominant coweight.
 Dominant coweights index the positive-loop-group orbits on the
 [[langlands/affine-grassmannian|affine Grassmannian]].
+
+## References
+
+1. T. A. Springer, *Linear Algebraic Groups*, 2nd ed., Birkhäuser, 1998,
+   Chapters 7–8.

@@ -8,11 +8,11 @@ domains = ["algebraic-geometry-foundations", "algebra-modules"]
 section_mode = "progressive"
 +++
 
-Let \((X,\mathcal O_X)\) be a ringed space. An
+Let \((X,\mathcal O_X)\) be a [[algebraic-geometry-foundations/ringed-space|ringed space]]. An
 \(\mathcal O_X\)-[[algebraic-geometry-foundations/sheaf-of-modules|module]]
 \(\mathcal F\) is **coherent** if:
 
-1. \(\mathcal F\) is locally of finite type; and
+1. \(\mathcal F\) is [[algebraic-geometry-foundations/locally-of-finite-type|locally of finite type]]; and
 2. for every open \(U\subseteq X\), every \(n\geq0\), and every morphism
    \(\mathcal O_U^{\oplus n}\to\mathcal F|_U\), its kernel is locally of
    finite type.

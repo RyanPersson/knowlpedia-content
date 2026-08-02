@@ -31,7 +31,7 @@ A band satisfying the displayed generation condition is called a
 fusion band that is also an idyll. It is not merely an arbitrary ordered blue
 field or tract.
 
-Fields, partial fields, and hyperfields have associated pastures. The
+Fields, [[algebra-hyperstructures/partial-field|partial fields]], and hyperfields have associated pastures. The
 three-term condition is substantive: a general idyll can contain higher-arity
 null relations not generated from its three-term ones by fusion.
 

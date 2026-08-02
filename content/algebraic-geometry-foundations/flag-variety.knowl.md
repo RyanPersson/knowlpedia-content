@@ -27,7 +27,7 @@ The complete flag variety uses every dimension \(1,\ldots,n-1\).
 
 Flag varieties are smooth and projective. The group \(G\) acts transitively,
 and the stabilizer of the base flag is \(P\). Their Bruhat decompositions are
-indexed by suitable cosets in the Weyl group.
+indexed by suitable cosets in the [[lie-groups/weyl-group|Weyl group]].
 
 The rank-one case
 [[algebraic-geometry-foundations/projective-line-as-rank-one-flag-variety|\(SL_2/B\simeq\mathbb P^1\)]]

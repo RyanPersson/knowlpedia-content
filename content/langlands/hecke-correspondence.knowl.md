@@ -8,7 +8,7 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a smooth projective curve. The **Hecke stack**
+Let \(X\) be a [[algebraic-geometry-foundations/smooth-projective-curve|smooth projective curve]]. The **Hecke stack**
 \(\operatorname{Hecke}_G\) classifies tuples
 \((x,E,E',\beta)\), where \(x\in X\), \(E,E'\in\operatorname{Bun}_G(X)\), and
 \(\beta\) is a [[langlands/hecke-modification|Hecke modification]] from \(E\)
@@ -29,7 +29,7 @@ choice consistently.
 
 For each [[langlands/dominant-coweight|dominant coweight]] \(\lambda\), a closed substack
 \(\operatorname{Hecke}_{G,\leq\lambda}\) bounds the relative position by
-\(\lambda\). More generally, a spherical sheaf on the affine Grassmannian
+\(\lambda\). More generally, a spherical sheaf on the [[langlands/affine-grassmannian|affine Grassmannian]]
 provides a kernel on the Hecke stack.
 
 ## Use

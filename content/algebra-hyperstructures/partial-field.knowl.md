@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 A **partial field** in normalized ambient form is a pair \(P=(G,R)\), where
-\(R\) is a commutative unital ring and \(G\leq R^\times\) is a subgroup such
+\(R\) is a commutative [[algebra-rings/unital-ring|unital ring]] and \(G\leq R^\times\) is a subgroup such
 that \(-1\in G\) and \(G\) generates \(R\) as a ring. Its underlying pointed
 set is
 \[

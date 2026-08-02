@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \((V,\eta)\) be a finite-dimensional real Minkowski vector space, so
 \(\eta\) has Lorentzian signature. Its **Poincaré algebra** is the
-semidirect-product Lie algebra
+semidirect-product [[lie-groups/lie-algebra|Lie algebra]]
 \[
 \mathfrak{iso}(V,\eta)
 =\mathfrak{so}(V,\eta)\ltimes V,
@@ -42,7 +42,7 @@ semidirect structure is extended in the
 [[mathematical-physics/super-poincare-algebra|super-Poincaré algebra]] by
 odd supercharges whose bracket produces translations.
 
-Central extensions, internal \(R\)-symmetries, and conformal extensions are
+[[algebra-groups/central-extension|Central extensions]], internal \(R\)-symmetries, and conformal extensions are
 additional structures, not part of the unextended Poincaré algebra.
 
 ## References

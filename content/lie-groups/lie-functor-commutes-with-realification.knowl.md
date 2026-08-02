@@ -8,7 +8,7 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-For every [[lie-groups/complex-lie-group|complex Lie group]] \(G\), there is a natural isomorphism of real Lie algebras
+For every [[lie-groups/complex-lie-group|complex Lie group]] \(G\), there is a [[algebra-category-theory/natural-isomorphism|natural isomorphism]] of real Lie algebras
 \[
 \operatorname{Lie}_{\mathbb R}(G_{\mathbb R})
 \cong
@@ -18,7 +18,7 @@ Here \(G_{\mathbb R}\) is the [[lie-groups/underlying-real-lie-group|underlying 
 
 ## Why the identification holds
 
-Both sides have the same real tangent space \(T_eG\). Their brackets are obtained from the same left-invariant vector fields and therefore agree. Naturality means that for a holomorphic homomorphism \(f:G\to H\), this identification intertwines the real differential of \(f_{\mathbb R}\) with the scalar restriction of the complex differential of \(f\).
+Both sides have the same real [[differential-geometry/tangent-space|tangent space]] \(T_eG\). Their brackets are obtained from the same [[lie-groups/left-invariant-vector-field|left-invariant vector fields]] and therefore agree. Naturality means that for a holomorphic homomorphism \(f:G\to H\), this identification intertwines the real differential of \(f_{\mathbb R}\) with the scalar restriction of the complex differential of \(f\).
 
 Consequently, if \(G\) has complex dimension \(n\), its complex Lie algebra has complex dimension \(n\), while the Lie algebra of \(G_{\mathbb R}\) has real dimension \(2n\).
 

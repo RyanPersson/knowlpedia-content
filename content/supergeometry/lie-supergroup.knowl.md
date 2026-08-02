@@ -20,7 +20,7 @@ e:* \to G
 \]
 satisfying the associative, inverse, and unit diagrams.
 
-Taking reduced manifolds gives an ordinary real Lie group \(G_{\mathrm{red}}\).
+Taking reduced manifolds gives an ordinary real [[fiber-bundles/lie-group|Lie group]] \(G_{\mathrm{red}}\).
 For every test supermanifold \(S\), the
 [[supergeometry/functor-of-points-of-supermanifold|set of \(S\)-points]]
 \(G(S)\) is a group, naturally in \(S\). The ordinary group

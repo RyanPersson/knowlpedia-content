@@ -53,8 +53,8 @@ an additive valuation by \(v(x)=-w(x)\) for \(x\ne0\) and \(v(0)=\infty\).
 Thus the hyperfield-morphism axiom packages the ultrametric inequality.
 
 The minus sign is forced by the house **max** convention. With a min
-tropical hyperfield, one may instead send \(x\) directly to \(v(x)\). A
-multiplicative non-Archimedean absolute value maps directly to the
+[[algebra-hyperstructures/tropical-hyperfield|tropical hyperfield]], one may instead send \(x\) directly to \(v(x)\). A
+multiplicative [[algebra-fields-galois/non-archimedean-absolute-value|non-Archimedean absolute value]] maps directly to the
 nonnegative multiplicative presentation of the max tropical hyperfield.
 
 ## Weak, not usually strong

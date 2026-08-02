@@ -18,6 +18,11 @@ of the middle-perversity \(t\)-structure on the constructible derived
 category.
 
 Equivalently, its ordinary cohomology sheaves obey the support and cosupport
-dimension inequalities. The shift is normalized so that a local system on a
+dimension inequalities. The shift is normalized so that a [[fiber-bundles/local-system|local system]] on a
 smooth complex variety of dimension \(d\), placed in degree \(d\), is
 perverse.
+
+## References
+
+1. Alexander Beilinson, Joseph Bernstein, and Pierre Deligne, *Faisceaux
+   pervers*, Astérisque 100, Société Mathématique de France, 1982.

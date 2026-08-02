@@ -18,11 +18,11 @@ is **normally hyperbolic** in the convention used here if its [[differential-geo
 \]
 Equivalently, in local coordinates its second-order part is \(-g^{\mu\nu}\partial_\mu\partial_\nu\) times the identity.
 
-The principal-symbol condition is local. It implies the [[mathematical-physics/connection-form-of-a-normally-hyperbolic-operator|unique connection form]] of \(P\), but global existence and causal support require additional hypotheses. On a globally hyperbolic spacetime they are supplied by the [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|Cauchy theorem]] and the [[mathematical-physics/existence-of-advanced-and-retarded-green-operators|Green-operator existence theorem]].
+The principal-symbol condition is local. It implies the [[mathematical-physics/connection-form-of-a-normally-hyperbolic-operator|unique connection form]] of \(P\), but global existence and causal support require additional hypotheses. On a [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetime]] they are supplied by the [[mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators|Cauchy theorem]] and the [[mathematical-physics/existence-of-advanced-and-retarded-green-operators|Green-operator existence theorem]].
 
 ## Examples
 
-The scalar [[mathematical-physics/dalembert-operator|d’Alembert operator]] is normally hyperbolic. Adding a mass term or any smooth endomorphism preserves normal hyperbolicity, so the [[mathematical-physics/klein-gordon-operator|Klein–Gordon operator]] is another example. The square of a Lorentzian Dirac-type operator is normally hyperbolic up to the convention-dependent overall sign.
+The scalar [[mathematical-physics/dalembert-operator|d’Alembert operator]] is normally hyperbolic. Adding a mass term or any smooth endomorphism preserves normal hyperbolicity, so the [[mathematical-physics/klein-gordon-operator|Klein–Gordon operator]] is another example. The square of a Lorentzian [[noncommutative-geometry/dirac-type-operator|Dirac-type operator]] is normally hyperbolic up to the convention-dependent overall sign.
 
 ## Distinction from ellipticity
 

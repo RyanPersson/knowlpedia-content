@@ -27,7 +27,7 @@ The assignment \(B\mapsto B^{\mathrm{ord}}\) defines a fully faithful functor
 \[
 \mathbf{Blpr}\hookrightarrow\mathbf{OBlpr}.
 \]
-Indeed, a blueprint morphism induces an order-preserving semiring homomorphism of completions that preserves the distinguished monoids. Conversely, a morphism between equality-ordered objects preserves precisely the additive equalities defining the original blueprints.
+Indeed, a blueprint morphism induces an order-preserving [[algebra-rings/semiring-homomorphism|semiring homomorphism]] of completions that preserves the distinguished monoids. Conversely, a morphism between equality-ordered objects preserves precisely the additive equalities defining the original blueprints.
 
 ## References
 Oliver Lorscheid, [*A unifying approach to tropicalization*, §2.7](https://arxiv.org/abs/1508.07949).

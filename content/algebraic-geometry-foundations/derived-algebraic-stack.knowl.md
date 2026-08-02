@@ -23,7 +23,7 @@ A **derived algebraic stack**, or **derived Artin stack**, is a stack
 The precise definition is made recursively by geometric level: the
 representability required of the diagonal is one level lower than that
 required of \(\mathcal X\). It also depends on a chosen model of derived
-commutative rings and a Grothendieck topology.
+commutative rings and a [[algebraic-geometry-foundations/grothendieck-topology|Grothendieck topology]].
 
 ## Classical truncation
 

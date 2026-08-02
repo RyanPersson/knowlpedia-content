@@ -30,7 +30,7 @@ f([p]_F(X))=[p]_G(f(X)).
 \]
 Because \(f\) has an invertible linear coefficient, the first nonzero
 exponent is unchanged. Height is therefore an isomorphism invariant and is
-preserved by field extension.
+preserved by [[algebra-fields-galois/field-extension|field extension]].
 
 ## Standard examples
 

@@ -25,7 +25,7 @@ df\circ I_M=I_N\circ df,\qquad
 df\circ J_M=J_N\circ df,\qquad
 df\circ K_M=K_N\circ df.
 \]
-It is therefore both a Riemannian isometry and a [[differential-geometry/triholomorphic-map|triholomorphic map]]. Equivalently, it preserves the metric and each of the three Kähler forms.
+It is therefore both a Riemannian isometry and a [[differential-geometry/triholomorphic-map|triholomorphic map]]. Equivalently, it preserves the metric and each of the three [[differential-geometry/kahler-form|Kähler forms]].
 
 It is equivalently a
 [[differential-geometry/hyperkahler-isometric-immersion|hyperkähler

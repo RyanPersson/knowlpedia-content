@@ -12,7 +12,7 @@ Under the [[lie-groups/hermitian-matrix-model-of-minkowski-space|Hermitian matri
 \[
 X\longmapsto AXA^\dagger
 \]
-defines a surjective real Lie group homomorphism
+defines a surjective real [[lie-groups/lie-group-homomorphism|Lie group homomorphism]]
 \[
 \rho:SL(2,\mathbb C)_{\mathbb R}\longrightarrow SO^+(1,3)
 \]
@@ -23,9 +23,9 @@ SL(2,\mathbb C)_{\mathbb R}\cong\operatorname{Spin}^+(1,3).
 
 ## Kernel, image, and differential
 
-If \(AXA^\dagger=X\) for every Hermitian \(X\), then \(A\) commutes with the resulting full matrix algebra and is scalar; determinant one leaves \(A=\pm I\). The image lies in the identity component because \(SL(2,\mathbb C)\) is connected. Its differential is an injective map between real Lie algebras of dimension \(6\), so the image is open; connectedness and the standard structure of \(SO^+(1,3)\) give surjectivity.
+If \(AXA^\dagger=X\) for every Hermitian \(X\), then \(A\) commutes with the resulting full matrix algebra and is scalar; determinant one leaves \(A=\pm I\). The image lies in the identity component because \(SL(2,\mathbb C)\) is connected. Its differential is an injective map between real [[lie-groups/lie-algebra|Lie algebras]] of dimension \(6\), so the image is open; connectedness and the standard structure of \(SO^+(1,3)\) give surjectivity.
 
-Differentiating yields the real Lie algebra isomorphism
+Differentiating yields the real [[lie-groups/lie-algebra-isomorphism|Lie algebra isomorphism]]
 \[
 \mathfrak{sl}_2(\mathbb C)_{\mathbb R}
 \xrightarrow{\;\sim\;}

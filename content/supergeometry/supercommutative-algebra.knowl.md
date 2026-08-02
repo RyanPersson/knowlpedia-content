@@ -15,7 +15,7 @@ Let \(k\) be a field of characteristic different from \(2\). A
 ab=(-1)^{|a||b|}ba.
 \]
 Equivalently, its multiplication is unchanged by the Koszul braiding in
-\(\mathbf{SuperVect}_k\), so \(A\) is a commutative algebra object in the
+\(\mathbf{SuperVect}_k\), so \(A\) is a commutative [[algebra-category-theory/algebra-object|algebra object]] in the
 [[supergeometry/category-of-super-vector-spaces|category of super vector
 spaces]].
 

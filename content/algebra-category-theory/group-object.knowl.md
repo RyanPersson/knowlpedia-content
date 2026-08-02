@@ -25,8 +25,8 @@ a group, naturally in \(T\). This is a reliable way to read the internal axioms,
 ## Examples
 
 - Group objects in sets are ordinary [[algebra-groups/group|groups]].
-- Group objects in topological spaces are topological groups.
-- Group objects in smooth manifolds are Lie groups.
+- Group objects in topological spaces are [[topology/topological-group|topological groups]].
+- Group objects in smooth manifolds are [[fiber-bundles/lie-group|Lie groups]].
 - Group objects in schemes are [[algebraic-geometry-foundations/group-scheme|group schemes]].
 
 ## References

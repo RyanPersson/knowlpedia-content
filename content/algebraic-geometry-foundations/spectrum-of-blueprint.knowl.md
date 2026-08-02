@@ -12,13 +12,13 @@ For a [[algebraic-geometry-foundations/blueprint|blueprint]] \(B\), its **spectr
 \[
 \operatorname{Spec}B
 \]
-is the set of prime [[algebraic-geometry-foundations/k-ideal-of-a-blueprint|\(k\)-ideals]] of \(B\). It has the Zariski topology whose basic opens are
+is the set of prime [[algebraic-geometry-foundations/k-ideal-of-a-blueprint|\(k\)-ideals]] of \(B\). It has the [[algebra-commutative/zariski-topology|Zariski topology]] whose basic opens are
 \[
 U_h=\{\mathfrak p\mid h\notin\mathfrak p\}
 \]
-for \(h\in B\), together with a structure sheaf \(\mathcal O_{\operatorname{Spec}B}\) locally modeled on [[algebraic-geometry-foundations/localization-of-blueprint|blueprint localizations]].
+for \(h\in B\), together with a [[algebraic-geometry-foundations/structure-sheaf|structure sheaf]] \(\mathcal O_{\operatorname{Spec}B}\) locally modeled on [[algebraic-geometry-foundations/localization-of-blueprint|blueprint localizations]].
 
-This is the prime-\(k\)-ideal spectrum used in the original theory of blue schemes. Other blueprint geometries also use congruence spectra, which need not have the same points.
+This is the prime-\(k\)-ideal spectrum used in the original theory of [[algebraic-geometry-foundations/blue-scheme|blue schemes]]. Other blueprint geometries also use congruence spectra, which need not have the same points.
 
 ## Basic affine calculation
 

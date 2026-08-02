@@ -13,7 +13,7 @@ Let \(\mathbb M^{V|S}\) be
 supertranslation bracket
 \(\Gamma:\operatorname{Sym}^2S\to V\). Its **supertranslation
 distribution** \(\mathcal D\) is the rank \(0|{\dim S}\) distribution spanned
-by the odd left-invariant vector fields corresponding to \(S\).
+by the odd [[lie-groups/left-invariant-vector-field|left-invariant vector fields]] corresponding to \(S\).
 
 The Levi bracket of \(\mathcal D\) is induced by \(\Gamma\):
 \[

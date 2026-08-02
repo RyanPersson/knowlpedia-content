@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(E\) be a principal \(G\)-bundle on a smooth curve \(X\), let \(x\in X\),
 and choose a subgroup \(K\subseteq G(\mathcal O_x)\) of the positive loop
-group. The trivializations of \(E\) on the formal disc at \(x\) form a
+group. The trivializations of \(E\) on the [[formal-groups/formal-affine-space|formal disc]] at \(x\) form a
 \(G(\mathcal O_x)\)-torsor. A **\(K\)-level structure on \(E\) at \(x\)** is
 a reduction of this torsor to \(K\), equivalently a section of its quotient
 by \(K\).

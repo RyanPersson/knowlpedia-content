@@ -8,7 +8,7 @@ domains = ["topology"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a noncompact, locally compact [[topology/hausdorff-space|Hausdorff space]]. Its **one-point compactification** is the set
+Let \(X\) be a noncompact, [[topology/locally-compact-space|locally compact]] [[topology/hausdorff-space|Hausdorff space]]. Its **one-point compactification** is the set
 \[
 X^+=X\sqcup\{\infty\}
 \]
@@ -26,7 +26,7 @@ Up to a homeomorphism fixing \(X\), \(X^+\) is the unique compact Hausdorff spac
 
 - The one-point compactification of \(\mathbb R\) is a circle.
 - The one-point compactification of \(\mathbb R^n\) is the sphere \(S^n\).
-- The one-point compactification of \(\mathbb C\) is the Riemann sphere \(\mathbb C\cup\{\infty\}\).
+- The one-point compactification of \(\mathbb C\) is the [[complex-analysis/riemann-sphere|Riemann sphere]] \(\mathbb C\cup\{\infty\}\).
 
 ## Convention
 

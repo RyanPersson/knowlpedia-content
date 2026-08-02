@@ -31,7 +31,7 @@ v(x+y)=\min\{v(x),v(y)\}.
 \]
 When \(v(x)=v(y)\), equality may fail because leading terms can cancel,
 raising the valuation. This unequal-versus-tied dichotomy is exactly what
-the tropical hyperfield records.
+the [[algebra-hyperstructures/tropical-hyperfield|tropical hyperfield]] records.
 
 ## Valuation ring and residue field
 
@@ -43,8 +43,8 @@ ideal are
 \]
 respectively. The quotient
 \(\kappa(v)=\mathcal O_v/\mathfrak m_v\) is the
-[[algebra-commutative/residue-field|residue field]]. The subgroup generated
-by \(v(K^\times)\) is the
+[[algebra-commutative/residue-field|residue field]]. The subgroup
+\(v(K^\times)\) is the
 [[algebra-fields-galois/value-group|value group]]; one may replace
 \(\Gamma\) by this subgroup when a surjective valuation is desired.
 

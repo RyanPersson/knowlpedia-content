@@ -11,7 +11,7 @@ section_mode = "progressive"
 A **hyperring** in the Krasner convention is a set \(R\) such that
 \((R,\boxplus,0)\) is a
 [[algebra-hyperstructures/canonical-hypergroup|canonical hypergroup]],
-\((R,\cdot,1)\) is a commutative monoid, \(0r=0\), and multiplication
+\((R,\cdot,1)\) is a [[algebra-groups/commutative-monoid|commutative monoid]], \(0r=0\), and multiplication
 distributes over hyperaddition as an equality of subsets:
 \[
 a(b\boxplus c)=ab\boxplus ac.
@@ -21,7 +21,7 @@ allowed to be multivalued.
 
 ## Rings as hyperrings
 
-Every commutative ring becomes a hyperring by interpreting \(a+b\) as the
+Every [[algebra-rings/commutative-ring|commutative ring]] becomes a hyperring by interpreting \(a+b\) as the
 singleton \(\{a+b\}\). A hyperring whose every hyper-sum is a singleton is
 therefore exactly a commutative ring.
 

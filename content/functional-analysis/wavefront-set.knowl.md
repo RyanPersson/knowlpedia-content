@@ -48,7 +48,8 @@ wavefront directions:
 \operatorname{WF}(aT)\subseteq\operatorname{WF}(T).
 \]
 More delicate transversality conditions on wavefront sets govern whether
-products and pullbacks of distributions exist. These microlocal criteria, and
+products and pullbacks of distributions exist. Wavefront sets also transform
+naturally under diffeomorphisms.
 
 ## Examples and geometric meaning
 

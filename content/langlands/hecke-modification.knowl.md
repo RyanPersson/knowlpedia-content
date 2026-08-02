@@ -31,7 +31,7 @@ relative position of the modification. The bound “relative position at most
 
 ## Example for GL_n
 
-For \(G=GL_n\), a modification is a pair of vector bundles identified away
+For \(G=GL_n\), a modification is a pair of [[fiber-bundles/vector-bundle|vector bundles]] identified away
 from \(x\). An elementary modification can replace \(E\) by the kernel of a
 surjection \(E\to i_{x*}Q\), changing the degree by \(-\dim Q\).
 

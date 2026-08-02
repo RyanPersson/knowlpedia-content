@@ -8,7 +8,7 @@ domains = ["algebraic-geometry-foundations", "algebra-groups"]
 section_mode = "progressive"
 +++
 
-Let \(V\ne0\) be a finite-dimensional vector space over a field \(k\). The group \(\Gamma L(V)\) consists of all bijective [[linear-algebra/semilinear-map|semilinear self-maps]] of \(V\), allowing every automorphism of \(k\). Its **projective semilinear group** is
+Let \(V\ne0\) be a finite-dimensional [[linear-algebra/vector-space|vector space]] over a field \(k\). The group \(\Gamma L(V)\) consists of all bijective [[linear-algebra/semilinear-map|semilinear self-maps]] of \(V\), allowing every automorphism of \(k\). Its **projective semilinear group** is
 \[
 \operatorname{P\Gamma L}(V):=\Gamma L(V)/(k^\times I).
 \]
@@ -27,7 +27,7 @@ For \(V=k^n\), choosing a basis lifts \(\sigma\in\operatorname{Aut}(k)\) by appl
 
 ## Collineations
 
-In projective dimension at least two, the [[algebraic-geometry-foundations/fundamental-theorem-of-projective-geometry|fundamental theorem of projective geometry]] identifies \(\operatorname{P\Gamma L}(V)\) with the full group of collineations of the Desarguesian projective space \(\mathbb P(V)\). If \(\operatorname{Aut}(k)\) is trivial, then \(\operatorname{P\Gamma L}(V)=\operatorname{PGL}(V)\).
+In projective dimension at least two, the [[algebraic-geometry-foundations/fundamental-theorem-of-projective-geometry|fundamental theorem of projective geometry]] identifies \(\operatorname{P\Gamma L}(V)\) with the full group of collineations of the Desarguesian [[algebraic-geometry-foundations/projective-space|projective space]] \(\mathbb P(V)\). If \(\operatorname{Aut}(k)\) is trivial, then \(\operatorname{P\Gamma L}(V)=\operatorname{PGL}(V)\).
 
 ## References
 

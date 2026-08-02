@@ -21,7 +21,7 @@ v(xy)=v(x)+v(y),
 and the order is inherited from \(\Gamma\).
 
 Replacing the original codomain by \(\Gamma_v\cup\{\infty\}\) makes the
-valuation surjective without changing its valuation ring or residue field.
+valuation surjective without changing its valuation ring or [[algebra-commutative/residue-field|residue field]].
 Thus the value group is intrinsic to the valued field, whereas a larger
 chosen codomain need not be.
 

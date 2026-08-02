@@ -13,7 +13,7 @@ For a [[algebra-fields-galois/valuation-on-a-field|valued field]]
 \[
 \mathcal O_v=\{x\in K:v(x)\geq0\}.
 \]
-Its group of units and maximal ideal are
+Its [[algebra-rings/group-of-units|group of units]] and [[algebra-rings/maximal-ideal|maximal ideal]] are
 \[
 \mathcal O_v^\times=\{x\in K:v(x)=0\},
 \qquad

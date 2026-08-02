@@ -12,7 +12,7 @@ An **affine blue scheme** is a [[algebraic-geometry-foundations/locally-blueprin
 \[
 \operatorname{Spec}B
 \]
-for some [[algebraic-geometry-foundations/blueprint|blueprint]] \(B\), where the spectrum carries its Zariski topology and structure sheaf.
+for some [[algebraic-geometry-foundations/blueprint|blueprint]] \(B\), where the spectrum carries its [[algebra-commutative/zariski-topology|Zariski topology]] and [[algebraic-geometry-foundations/structure-sheaf|structure sheaf]].
 
 Contravariantly, blueprint morphisms induce morphisms of affine blue schemes:
 \[
@@ -23,7 +23,7 @@ Contravariantly, blueprint morphisms induce morphisms of affine blue schemes:
 
 ## Role in blue geometry
 
-Affine blue schemes are the local models for [[algebraic-geometry-foundations/blue-scheme|blue schemes]]. Principal opens \(U_h\subseteq\operatorname{Spec}B\) are affine and correspond to blueprint localizations \(B[h^{-1}]\), so the usual scheme-theoretic gluing pattern survives.
+Affine blue schemes are the local models for [[algebraic-geometry-foundations/blue-scheme|blue schemes]]. Principal opens \(U_h\subseteq\operatorname{Spec}B\) are affine and correspond to [[algebraic-geometry-foundations/localization-of-blueprint|blueprint localizations]] \(B[h^{-1}]\), so the usual scheme-theoretic gluing pattern survives.
 
 Semiring schemes and ordinary affine schemes enter through the [[algebraic-geometry-foundations/semiring-as-a-blueprint|canonical embedding of commutative semirings into blueprints]]. The resulting base-extension functors carry extra hypotheses and should not be read as identifying all blue schemes with classical schemes.
 

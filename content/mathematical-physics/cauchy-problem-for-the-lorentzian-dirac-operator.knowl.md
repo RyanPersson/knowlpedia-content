@@ -30,7 +30,7 @@ The solution has finite propagation speed:
 \subseteq
 J\!\left(\operatorname{supp}f\cup\operatorname{supp}\psi_0\right).
 \]
-Thus the Lorentzian Dirac equation has one freely prescribed spinor trace on
+Thus the Lorentzian [[mathematical-physics/dirac-equation|Dirac equation]] has one freely prescribed spinor trace on
 \(\Sigma\), unlike the two traces required by a second-order normally
 hyperbolic equation.
 

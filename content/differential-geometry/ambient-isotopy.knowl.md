@@ -28,7 +28,7 @@ An ambient isotopy produces a
 [[differential-geometry/smooth-isotopy|smooth isotopy]] of every embedding by
 \(f_t=\Phi_t\circ f_0\). The converse is the content of an isotopy-extension
 theorem and requires hypotheses, typically including properness or compact
-support conditions. Hirsch proves standard extension results for
+support conditions.
 
 ## Examples and invariants
 

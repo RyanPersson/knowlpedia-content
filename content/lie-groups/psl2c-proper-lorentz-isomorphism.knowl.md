@@ -20,7 +20,7 @@ in the category of real Lie groups. Explicitly, a class \([A]\) acts on Hermitia
 
 ## Why the qualifiers matter
 
-The map \(SL(2,\mathbb C)\to SO^+(1,3)\) itself is not an isomorphism: it has kernel \(\{\pm I\}\). Quotienting by this kernel gives [[lie-groups/psl2-complex|\(PSL(2,\mathbb C)\)]]. The subscript \(\mathbb R\) records that its complex manifold structure has been forgotten; \(SO^+(1,3)\) is not a complex Lie group in this statement.
+The map \(SL(2,\mathbb C)\to SO^+(1,3)\) itself is not an isomorphism: it has kernel \(\{\pm I\}\). Quotienting by this kernel gives [[lie-groups/psl2-complex|\(PSL(2,\mathbb C)\)]]. The subscript \(\mathbb R\) records that its [[differential-geometry/complex-manifold|complex manifold]] structure has been forgotten; \(SO^+(1,3)\) is not a [[lie-groups/complex-lie-group|complex Lie group]] in this statement.
 
 The target is also only the identity component of \(O(1,3)\). Spatial parity and time reversal lie in other components and are not represented by \(PSL(2,\mathbb C)\).
 

@@ -10,11 +10,11 @@ section_mode = "progressive"
 
 Let \((V,\eta)\) be a real pseudo-Euclidean vector space, let \(S\) be a real
 [[differential-geometry/spinor-module|spinor module]], and choose a
-\(\operatorname{Spin}(V,\eta)\)-equivariant symmetric bilinear map
+\(\operatorname{Spin}(V,\eta)\)-equivariant symmetric [[algebra-modules/bilinear-map|bilinear map]]
 \[
 \Gamma:\operatorname{Sym}^2 S\longrightarrow V.
 \]
-The corresponding **supertranslation algebra** is the Lie superalgebra
+The corresponding **supertranslation algebra** is the [[supergeometry/lie-superalgebra|Lie superalgebra]]
 \[
 \mathfrak t=V_{\bar0}\oplus S_{\bar1}
 \]

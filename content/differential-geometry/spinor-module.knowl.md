@@ -13,7 +13,7 @@ space. A **spinor module** \(\Delta\) is a specified
 [[differential-geometry/clifford-module|module]] for the corresponding real,
 complex, or complexified [[differential-geometry/clifford-algebra|Clifford
 algebra]], usually chosen irreducible in the relevant module category. Since
-the spin group lies in the group of units of the even Clifford algebra, the
+the [[lie-groups/spin-group|spin group]] lies in the group of units of the even Clifford algebra, the
 Clifford action restricts to a representation
 \[
 \rho:\operatorname{Spin}(V,q)\longrightarrow\operatorname{GL}(\Delta),
@@ -39,10 +39,10 @@ interchangeable names for elements of \(\Delta\).
 
 ## From modules to bundles
 
-Given a spin structure on a manifold, a chosen spinor module produces the
+Given a [[fiber-bundles/spin-structure|spin structure]] on a manifold, a chosen spinor module produces the
 [[differential-geometry/spinor-bundle|spinor bundle]] by the associated-bundle
 construction. Clifford multiplication then acts fiberwise, and a lifted
-metric connection yields the corresponding Dirac operator.
+metric connection yields the corresponding [[noncommutative-geometry/dirac-operator|Dirac operator]].
 
 ## References
 

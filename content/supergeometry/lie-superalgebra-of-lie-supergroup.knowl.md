@@ -9,16 +9,16 @@ section_mode = "progressive"
 +++
 
 Let \(G\) be a [[supergeometry/lie-supergroup|Lie supergroup]] with identity
-\(e\). Its **Lie superalgebra** is the tangent super vector space
+\(e\). Its **Lie superalgebra** is the tangent [[supergeometry/super-vector-space|super vector space]]
 \[
 \operatorname{Lie}(G)=T_eG.
 \]
-Left translation identifies \(T_eG\) with the left-invariant vector fields
+Left translation identifies \(T_eG\) with the [[lie-groups/left-invariant-vector-field|left-invariant vector fields]]
 on \(G\). Transporting the supercommutator of derivations through this
 identification gives a [[supergeometry/lie-superalgebra|Lie superbracket]]
 on \(T_eG\).
 
-The even part is canonically the ordinary Lie algebra of the reduced group:
+The even part is canonically the ordinary [[lie-groups/lie-algebra|Lie algebra]] of the reduced group:
 \[
 \operatorname{Lie}(G)_{\bar 0}
 \cong \operatorname{Lie}(G_{\mathrm{red}}).

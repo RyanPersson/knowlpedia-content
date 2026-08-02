@@ -8,11 +8,11 @@ domains = ["lie-groups", "complex-analysis"]
 section_mode = "progressive"
 +++
 
-The complex projective special linear group is
+The complex [[algebra-groups/projective-special-linear-group|projective special linear group]] is
 \[
 PSL(2,\mathbb C):=SL(2,\mathbb C)/\{\pm I\}.
 \]
-It is a connected [[lie-groups/complex-lie-group|complex Lie group]] of complex dimension \(3\). Its underlying real Lie group has real dimension \(6\), and its Lie algebra is \(\mathfrak{sl}_2(\mathbb C)_{\mathbb R}\).
+It is a connected [[lie-groups/complex-lie-group|complex Lie group]] of complex dimension \(3\). Its [[lie-groups/underlying-real-lie-group|underlying real Lie group]] has real dimension \(6\), and its [[lie-groups/lie-algebra|Lie algebra]] is \(\mathfrak{sl}_2(\mathbb C)_{\mathbb R}\).
 
 ## Equivalent matrix description
 
@@ -27,7 +27,7 @@ Its principal geometric actions are recorded by focused theorem knowls: the
 sphere]], the [[lie-groups/psl2c-proper-lorentz-isomorphism|proper Lorentz
 isomorphism]], and the [[lie-groups/psl2c-action-on-hyperbolic-three-space|
 action on hyperbolic three-space]]. Its separate role as the complex points
-of the adjoint algebraic group of type \(A_1\) is treated in the
+of the adjoint [[algebraic-geometry-foundations/algebraic-group|algebraic group]] of type \(A_1\) is treated in the
 [[langlands-letter/knowls/langlands-dual-group|Langlands-dual-group]]
 context.
 

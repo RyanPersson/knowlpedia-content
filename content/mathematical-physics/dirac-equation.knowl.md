@@ -12,7 +12,7 @@ For a spinor field \(\psi\) of mass \(m\geq0\) on [[mathematical-physics/minkows
 \[
 (iD_{\mathrm M}-m)\psi=0,
 \]
-where \(D_{\mathrm M}=\gamma^\mu\partial_\mu\) is the [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]] and the Clifford matrices obey
+where \(D_{\mathrm M}=\gamma^\mu\partial_\mu\) is the [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]] and the [[mathematical-physics/gamma-matrices|Clifford matrices]] obey
 \[
 \gamma^\mu\gamma^\nu+\gamma^\nu\gamma^\mu=-2\eta^{\mu\nu}I
 \]
@@ -28,7 +28,7 @@ Thus each spinor component satisfies the [[mathematical-physics/klein-gordon-equ
 
 ## Massless equation
 
-For \(m=0\), the equation is \(D_{\mathrm M}\psi=0\). In even spacetime dimension the complex spin representation has a chirality decomposition, and the massless equation can split into equations for chiral spinors. A nonzero mass term couples the two chiralities.
+For \(m=0\), the equation is \(D_{\mathrm M}\psi=0\). In even spacetime dimension the complex spin representation has a chirality decomposition, and the massless equation can split into equations for [[differential-geometry/weyl-spinor|chiral spinors]]. A nonzero mass term couples the two chiralities.
 
 ## Curved and coupled forms
 
@@ -37,11 +37,11 @@ On a [[differential-geometry/lorentzian-spinor-bundle|Lorentzian spinor bundle]]
 (iD_g-m)\psi=0,
 \qquad D_g=c\circ\nabla^S.
 \]
-A gauge potential replaces the spin connection by a coupled connection. Squaring a curved or gauge-coupled equation produces curvature or field-strength terms, so only the flat free equation has the elementary componentwise factorization stated above.
+A gauge potential replaces the [[fiber-bundles/spin-connection|spin connection]] by a coupled connection. Squaring a curved or gauge-coupled equation produces curvature or field-strength terms, so only the flat free equation has the elementary componentwise factorization stated above.
 
 ## Convention warning
 
-Some sources use the mostly-minus metric and matrices satisfying \(\{\gamma^\mu,\gamma^\nu\}=2\eta^{\mu\nu}I\); others absorb the factor \(i\) into the geometric Dirac operator. Equivalent formulas can therefore look different. The metric, Clifford relation, and differential operator must be compared together.
+Some sources use the mostly-minus metric and matrices satisfying \(\{\gamma^\mu,\gamma^\nu\}=2\eta^{\mu\nu}I\); others absorb the factor \(i\) into the [[noncommutative-geometry/dirac-operator|geometric Dirac operator]]. Equivalent formulas can therefore look different. The metric, Clifford relation, and differential operator must be compared together.
 
 ## References
 

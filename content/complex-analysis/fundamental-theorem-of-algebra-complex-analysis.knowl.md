@@ -20,7 +20,7 @@ If \(p\) had no zero, then \(1/p\) would be entire. Since \(|p(z)|\to\infty\) as
 
 ## Scope
 
-The theorem says that \(\mathbb C\) is algebraically closed. The proof recorded here is analytic; algebraic and topological proofs establish the same statement by different methods. The theorem does not say that polynomial roots can always be expressed by radicals.
+The theorem says that \(\mathbb C\) is [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed]]. The proof recorded here is analytic; algebraic and topological proofs establish the same statement by different methods. The theorem does not say that polynomial roots can always be expressed by radicals.
 
 ## References
 

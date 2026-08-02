@@ -38,7 +38,7 @@ D\text{-}\operatorname{mod}(\operatorname{Bun}_G\times X).
 ## Tensor compatibility
 
 The functors are compatible with tensor products:
-\(H_{V\otimes W}\) is obtained from iterated Hecke modification and fusion.
+\(H_{V\otimes W}\) is obtained from iterated [[langlands/hecke-modification|Hecke modification]] and fusion.
 This factorization compatibility is what lets an eigenvalue be a
 \(\widehat G\)-local system rather than an unrelated collection of vector
 bundles.

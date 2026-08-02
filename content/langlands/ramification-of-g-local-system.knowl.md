@@ -8,7 +8,7 @@ domains = ["langlands", "fiber-bundles"]
 section_mode = "progressive"
 +++
 
-Fix a Betti, de Rham, or étale category of local systems, and let
+Fix a Betti, de Rham, or étale category of [[fiber-bundles/local-system|local systems]], and let
 \(U=X\setminus D\) be a punctured smooth curve. A
 [[langlands/g-local-system|\(G\)-local system]] on \(U\) is **ramified at a
 marked point \(x\in D\)** when it does not extend across \(x\) as an

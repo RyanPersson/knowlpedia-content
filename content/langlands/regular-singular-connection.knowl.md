@@ -9,12 +9,12 @@ section_mode = "progressive"
 +++
 
 Let \(U=X\setminus D\) be the complement of finitely many points in a smooth
-complex algebraic curve. A flat connection \((V,\nabla)\) on \(U\) is
+complex [[algebraic-geometry-foundations/algebraic-curve|algebraic curve]]. A flat connection \((V,\nabla)\) on \(U\) is
 **regular singular along \(D\)** if, locally at every \(x\in D\), there is a
-meromorphic extension of \(V\) for which
+locally free extension \(\overline V\) across \(x\) for which
 \[
-\nabla:V\longrightarrow
-V\otimes\Omega_X^1(D)
+\nabla:\overline V\longrightarrow
+\overline V\otimes\Omega_X^1(D)
 \]
 has at most a logarithmic pole. Equivalently, its horizontal sections have
 moderate growth near each puncture.
@@ -25,8 +25,8 @@ faithful linear representation of \(G\).
 ## Riemann–Hilbert consequence
 
 Regular-singular algebraic flat connections correspond analytically to
-local systems on \(U\). Thus ordinary monodromy records the connection on the
-punctured curve, although choosing a logarithmic extension across \(D\) may
+[[fiber-bundles/local-system|local systems]] on \(U\). Thus ordinary monodromy records the connection on the
+[[algebraic-geometry-foundations/punctured-algebraic-curve|punctured curve]], although choosing a logarithmic extension across \(D\) may
 require additional extension data.
 
 ## References

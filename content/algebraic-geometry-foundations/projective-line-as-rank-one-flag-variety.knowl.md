@@ -23,9 +23,9 @@ type \(A_1\).
 
 ## What this does and does not identify
 
-The displayed isomorphisms concern homogeneous spaces. They do not identify
+The displayed isomorphisms concern [[lie-groups/homogeneous-space|homogeneous spaces]]. They do not identify
 \(\mathbb P^1\) with either group. Over \(\mathbb C\), \(PGL_2(\mathbb C)\)
-also acts as the holomorphic automorphism group of the Riemann sphere, while
+also acts as the holomorphic automorphism group of the [[complex-analysis/riemann-sphere|Riemann sphere]], while
 in Langlands duality \(PGL_2\) occurs as the dual group of \(SL_2\). These are
 different roles of the same algebraic group.
 

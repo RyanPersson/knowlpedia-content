@@ -20,7 +20,7 @@ The house convention includes a multiplicative identity but does not require
 
 Every [[algebra-rings/unital-ring|unital ring]] is a semiring after one
 forgets that additive inverses are part of the specified structure.
-Conversely, a semiring whose additive monoid is an abelian group is a unital
+Conversely, a semiring whose additive monoid is an [[algebra-groups/abelian-group|abelian group]] is a unital
 ring. Thus semirings weaken the additive part of unital ring theory while
 keeping addition single-valued.
 

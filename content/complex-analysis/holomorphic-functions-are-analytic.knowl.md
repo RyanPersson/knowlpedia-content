@@ -13,7 +13,7 @@ If \(f\) is holomorphic on an open set \(U\subseteq\mathbb C\), then at every \(
 f(z)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(z-a)^n
 \qquad (|z-a|<r).
 \]
-One may take any \(r\) for which the closed disc centered at \(a\) lies in \(U\). Thus one-variable complex differentiability implies complex analyticity.
+One may take any \(r\) for which the closed disc centered at \(a\) lies in \(U\). Thus one-variable [[complex-analysis/complex-derivative|complex differentiability]] implies complex analyticity.
 
 ## Proof mechanism
 

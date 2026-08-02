@@ -8,7 +8,7 @@ section_mode = "progressive"
 +++
 
 A **hyperfield** is a [[algebra-hyperstructures/hyperring|hyperring]] \(F\)
-with \(0\ne1\) such that \(F\setminus\{0\}\) is an abelian group under its
+with \(0\ne1\) such that \(F\setminus\{0\}\) is an [[algebra-groups/abelian-group|abelian group]] under its
 single-valued multiplication. Hyperaddition remains a canonical
 hypergroup operation and may be genuinely multivalued.
 

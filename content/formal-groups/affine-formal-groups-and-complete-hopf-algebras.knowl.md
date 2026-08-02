@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Fix a commutative base ring \(k\) and an adic category in which affine formal
 schemes are formal spectra of complete separated \(k\)-algebras with specified
-ideals of definition. Formal spectrum restricts to a contravariant
+ideals of definition. [[algebraic-geometry-foundations/formal-spectrum|Formal spectrum]] restricts to a contravariant
 equivalence
 \[
 \left\{\text{affine adic formal groups over \(k\)}\right\}
@@ -39,11 +39,11 @@ The reversal of arrows is the ordinary pullback-of-functions variance.
 
 ## Scope
 
-The topology and the admissible class of adic rings are part of the theorem.
+The topology and the admissible class of [[algebra-topological/adic-ring|adic rings]] are part of the theorem.
 Forgetting them loses the completed tensor product and can make formal
 spectrum unavailable. The statement is affine; a non-affine formal group is
 encoded by a sheaf of complete coordinate algebras rather than by one global
-Hopf algebra.
+[[algebra-coalgebras/hopf-algebra|Hopf algebra]].
 
 ## References
 

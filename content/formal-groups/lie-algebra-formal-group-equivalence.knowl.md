@@ -11,9 +11,9 @@ section_mode = "progressive"
 Let \(k\) be a field of characteristic \(0\). Let
 \(\mathbf{LieAlg}^{\mathrm{fd}}_k\) be the category of finite-dimensional
 [[lie-groups/lie-algebra|Lie algebras]] over \(k\), and let
-\(\mathbf{FGrp}^{\mathrm{disc}}_k\) be the category of formal groups over \(k\)
+\(\mathbf{FGrp}^{\mathrm{disc}}_k\) be the category of [[formal-groups/formal-group|formal groups]] over \(k\)
 whose pointed underlying formal scheme is isomorphic to a finite-dimensional
-formal disc \(\operatorname{Spf}k[[X_1,\ldots,X_n]]\). Then the
+[[formal-groups/formal-affine-space|formal disc]] \(\operatorname{Spf}k[[X_1,\ldots,X_n]]\). Then the
 [[formal-groups/tangent-lie-algebra|tangent functor]]
 \[
 \operatorname{Lie}:
@@ -21,7 +21,7 @@ formal disc \(\operatorname{Spf}k[[X_1,\ldots,X_n]]\). Then the
 \longrightarrow
 \mathbf{LieAlg}^{\mathrm{fd}}_k
 \]
-is an equivalence of categories.
+is an [[algebra-category-theory/equivalence-of-categories|equivalence of categories]].
 
 Equivalently, every finite-dimensional Lie algebra integrates to a formal
 group, every homomorphism of such Lie algebras integrates uniquely to a formal
@@ -34,7 +34,7 @@ isomorphism.
 ## The BCH quasi-inverse
 
 Given \(\mathfrak g\in\mathbf{LieAlg}^{\mathrm{fd}}_k\), take the formal
-completion of its underlying affine space at \(0\). On formal points define
+completion of its underlying [[algebraic-geometry-foundations/affine-n-space|affine space]] at \(0\). On formal points define
 \[
 X*Y:=\operatorname{BCH}_{\mathfrak g}(X,Y),
 \]
@@ -44,7 +44,7 @@ universal completed Lie series. Characteristic zero allows all its rational
 coefficients. The formal BCH identity gives associativity, \(0\) is the
 identity, and \(-X\) is the inverse.
 
-A Lie algebra homomorphism preserves every iterated bracket, hence every
+A [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]] preserves every iterated bracket, hence every
 homogeneous BCH term, so it gives a formal group homomorphism. This constructs
 a functor
 \[
@@ -60,7 +60,7 @@ quasi-inverse to \(\operatorname{Lie}\).
 After choosing coordinates on each formal disc,
 [[formal-groups/formal-group-laws-as-coordinates|formal groups become formal
 group laws]]. Therefore the category of finite-dimensional, possibly
-noncommutative formal group laws over \(k\), with formal-group-law morphisms,
+noncommutative [[formal-groups/formal-group-law|formal group laws]] over \(k\), with formal-group-law morphisms,
 is also equivalent to \(\mathbf{LieAlg}^{\mathrm{fd}}_k\). Its tangent functor
 takes
 \[
@@ -75,7 +75,7 @@ space; the intrinsic formal-group equivalence does not.
 ## Commutative one-dimensional case
 
 A one-dimensional Lie algebra is abelian. Consequently every
-one-dimensional formal group law over a characteristic-zero field is
+[[formal-groups/one-dimensional-formal-group-law|one-dimensional formal group law]] over a characteristic-zero field is
 isomorphic to the additive law, and every
 [[formal-groups/one-dimensional-formal-group-law|commutative one-dimensional
 law]] has its more explicit [[formal-groups/formal-group-logarithm|formal
@@ -85,14 +85,14 @@ because that logarithm may require unavailable denominators.
 ## What the theorem does not say
 
 - It is not an equivalence between Lie algebras and global Lie groups.
-  Fundamental groups, disconnected components, lattices, and other global
+  [[topology/fundamental-group|Fundamental groups]], disconnected components, lattices, and other global
   data disappear upon formal completion.
 - It does not classify arbitrary formal schemes carrying group structures;
   the underlying pointed object must be a finite-dimensional formally smooth
   formal disc.
 - It fails in characteristic \(p>0\): tangent brackets do not see height,
   Frobenius, or the full \(p\)-series.
-- Pronilpotent and complete filtered Lie algebras admit broader BCH
+- Pronilpotent and [[lie-groups/complete-filtered-lie-algebra|complete filtered Lie algebras]] admit broader BCH
   correspondences, but they require their own completeness hypotheses and are
   not part of this finite-dimensional statement.
 

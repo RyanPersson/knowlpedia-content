@@ -8,7 +8,7 @@ domains = ["formal-groups"]
 section_mode = "progressive"
 +++
 
-Over a commutative ring \(R\), the **additive formal group law** and
+Over a [[algebra-rings/commutative-ring|commutative ring]] \(R\), the **additive formal group law** and
 **multiplicative formal group law** are
 \[
 F_a(X,Y)=X+Y,

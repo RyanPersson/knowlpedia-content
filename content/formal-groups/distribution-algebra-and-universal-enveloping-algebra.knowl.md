@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(k\) be a field of characteristic zero and let \(G\) be a
 finite-dimensional formally smooth affine [[formal-groups/formal-group|formal
-group]] over \(k\), with tangent Lie algebra
+group]] over \(k\), with tangent [[lie-groups/lie-algebra|Lie algebra]]
 \(\mathfrak g=\operatorname{Lie}(G)\). Inclusion of the primitive
 distributions extends uniquely to a canonical isomorphism of filtered Hopf
 algebras

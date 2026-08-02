@@ -22,8 +22,8 @@ projective curve]] is the standard base in the unramified geometric Langlands
 program.
 
 When \(k=\mathbb C\), the analytification of a smooth proper connected
-algebraic curve is a compact Riemann surface. Removing finitely many closed
-points produces a punctured curve, the usual base for ramified local systems.
+algebraic curve is a compact [[differential-geometry/riemann-surface|Riemann surface]]. Removing finitely many closed
+points produces a [[algebraic-geometry-foundations/punctured-algebraic-curve|punctured curve]], the usual base for ramified local systems.
 
 ## References
 

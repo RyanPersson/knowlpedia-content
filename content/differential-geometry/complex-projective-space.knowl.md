@@ -38,7 +38,7 @@ These descriptions exhibit \(\mathbb{CP}^n\) as a compact connected smooth [[lie
 
 ## Complex, symplectic, and Kähler structure
 
-The [[differential-geometry/fubini-study-metric|Fubini–Study metric]] is invariant under the projective unitary action, and its fundamental two-form is closed. Consequently \(\mathbb{CP}^n\) is a [[differential-geometry/kahler-manifold|Kähler manifold]]. Its Kähler class lies on the positive ray through the canonical integral generator of \(H^2(\mathbb{CP}^n;\mathbb Z)\).
+The [[differential-geometry/fubini-study-metric|Fubini–Study metric]] is invariant under the projective unitary action, and its fundamental two-form is closed. Consequently \(\mathbb{CP}^n\) is a [[differential-geometry/kahler-manifold|Kähler manifold]]. Its [[differential-geometry/kahler-class|Kähler class]] lies on the positive ray through the canonical integral generator of \(H^2(\mathbb{CP}^n;\mathbb Z)\).
 With the normalization
 \(\omega_{\mathrm{FS}}=i\partial\bar\partial\log(1+\lVert z\rVert^2)\),
 the integral generator is \([\omega_{\mathrm{FS}}/(2\pi)]\).

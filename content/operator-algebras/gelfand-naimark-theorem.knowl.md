@@ -43,10 +43,9 @@ representation theorem.
 
 ## Historical formulation
 
-Gelfand and Naimark established the representation result in 1943 in the
-language of normed rings with involution. Modern presentations usually prove
-it by combining [[operator-algebras/positive-linear-functional|positive functionals]] with the GNS construction. The original
-article is.
+One standard proof combines
+[[operator-algebras/positive-linear-functional|positive functionals]] with
+the GNS construction.
 
 ## References
 

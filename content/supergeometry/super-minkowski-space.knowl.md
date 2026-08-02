@@ -44,7 +44,7 @@ distribution]], whose Levi bracket is induced by \(\Gamma\).
 
 A general [[supergeometry/superspace|superspace]] is merely a locally
 superringed space. Even an affine superdomain \(V^{d|s}\) is not
-super-Minkowski space until the spin representation, bilinear map
+super-Minkowski space until the spin representation, [[algebra-modules/bilinear-map|bilinear map]]
 \(\Gamma\), and corresponding supertranslation structure have been chosen.
 Curved supergravity superspaces require further torsion and connection data
 and are not super-Minkowski space.

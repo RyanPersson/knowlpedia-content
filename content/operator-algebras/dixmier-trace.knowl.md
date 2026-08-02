@@ -30,7 +30,7 @@ For \(T\in\mathcal M_{1,\infty}\), the [[real-analysis/partial-sums|partial sums
 most logarithmically, so the sequence supplied to \(\omega\) is bounded. The
 generalized limit extracts an asymptotic coefficient even when the ordinary
 limit does not exist. Dilation invariance is the ingredient that makes the
-result a trace rather than merely a unitarily invariant functional. The
+result a trace rather than merely a unitarily invariant functional.
 
 ## Measurable operators
 
@@ -48,7 +48,8 @@ singular values and is finite on the trace-class ideal. The Dixmier trace
 instead detects the critical \(1/n\) decay scale and vanishes on that smaller
 ideal. This singular behavior permits the noncommutative integral of a
 critical-order infinitesimal in a
-[[noncommutative-geometry/spectral-triple|spectral triple]]; Connes develops
+[[noncommutative-geometry/spectral-triple|spectral triple]]. This provides a
+model for noncommutative integration at the critical decay scale.
 
 ## Conventions and scope
 

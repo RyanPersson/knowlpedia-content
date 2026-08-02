@@ -15,7 +15,7 @@ Let \((M,g)\) be a [[differential-geometry/pseudo-riemannian-manifold|pseudo-Rie
 \]
 obtained by contracting the [[differential-geometry/ricci-curvature|Ricci tensor]] with the inverse metric.
 
-Scalar curvature is a single contraction of the curvature tensor and therefore does not determine the full curvature in dimensions greater than two. Its sign depends on the sign convention for the Riemann curvature tensor. The convention here agrees with the linked Ricci-curvature knowl.
+Scalar curvature is a single contraction of the curvature tensor and therefore does not determine the full curvature in dimensions greater than two. Its sign depends on the sign convention for the [[differential-geometry/riemann-curvature-tensor|Riemann curvature tensor]]. The convention here agrees with the linked Ricci-curvature knowl.
 
 Scalar curvature appears as the curvature term in [[mathematical-physics/conformal-coupling-of-a-scalar-field|conformal scalar coupling]] and in geometric operators such as the conformal Laplacian.
 

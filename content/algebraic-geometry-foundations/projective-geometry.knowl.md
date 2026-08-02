@@ -8,7 +8,7 @@ domains = ["algebraic-geometry-foundations", "linear-algebra"]
 section_mode = "progressive"
 +++
 
-Let \(V\) be a vector space of dimension at least \(2\) over a field \(k\). The **projective geometry of \(V\)** is the incidence structure whose points are the one-dimensional linear subspaces of \(V\), and whose projective subspaces are the sets
+Let \(V\) be a [[linear-algebra/vector-space|vector space]] of dimension at least \(2\) over a field \(k\). The **projective geometry of \(V\)** is the incidence structure whose points are the one-dimensional linear subspaces of \(V\), and whose projective subspaces are the sets
 \[
 \mathbb P(W)=\{L\subseteq W:\dim_kL=1\}
 \]
@@ -22,7 +22,7 @@ Two distinct points represented by lines \(L_1,L_2\subset V\) lie on the unique 
 
 ## Coordinates and transformations
 
-Choosing a basis identifies this incidence geometry with the \(k\)-points of [[algebraic-geometry-foundations/projective-space|\(\mathbb P_k^{n}\)]], where \(n=\dim_kV-1\). Its linear symmetries form the [[algebra-groups/projective-general-linear-group|projective general linear group]]. Allowing field automorphisms produces the larger [[algebraic-geometry-foundations/projective-semilinear-group|projective semilinear group]].
+Choosing a basis identifies this incidence geometry with the \(k\)-points of [[algebraic-geometry-foundations/projective-space|\(\mathbb P_k^{n}\)]], where \(n=\dim_kV-1\). Its linear symmetries form the [[algebra-groups/projective-general-linear-group|projective general linear group]]. Allowing [[algebra-fields-galois/field-automorphism|field automorphisms]] produces the larger [[algebraic-geometry-foundations/projective-semilinear-group|projective semilinear group]].
 
 This construction is called **Desarguesian** projective geometry. Abstract projective planes need not arise from vector spaces over fields, so the vector-space hypothesis is substantive.
 

@@ -26,7 +26,7 @@ For a Weyl reflection carrying \(\lambda\) to \(-\lambda\), a suitably
 normalized [[lie-groups/knapp-stein-intertwining-operator|Knapp–Stein intertwining operator]] can define a \(G\)-invariant Hermitian form on
 \(I(\lambda)\). Complementary series occur precisely on those real parameter
 regions where this form is positive definite; degeneracy often marks
-reducibility or an endpoint. The invariant form and the distinction between
+reducibility or an endpoint.
 
 ## Rank-one example
 

@@ -8,7 +8,7 @@ domains = ["differential-geometry", "mathematical-physics"]
 section_mode = "progressive"
 +++
 
-Let \(V\) be an oriented complex quadratic space of even dimension, and let
+Let \(V\) be an oriented complex [[linear-algebra/quadratic-form|quadratic space]] of even dimension, and let
 \(\Delta\) be a complex
 [[differential-geometry/spinor-module|spinor module]]. The oriented Clifford
 volume element has a scalar normalization \(\omega_{\mathbb C}\) satisfying
@@ -23,8 +23,8 @@ The normalizing scalar depends on the dimension, signature, and convention
 \(c(v)^2=\pm g(v,v)\); the defining requirements are
 \(\Gamma^2=1\) and the chosen orientation.
 
-The chirality operator commutes with the even Clifford algebra and
-anticommutes with Clifford multiplication by every vector:
+The chirality operator commutes with the even [[differential-geometry/clifford-algebra|Clifford algebra]] and
+anticommutes with [[differential-geometry/clifford-module|Clifford multiplication]] by every vector:
 \[
 \Gamma c(v)=-c(v)\Gamma.
 \]

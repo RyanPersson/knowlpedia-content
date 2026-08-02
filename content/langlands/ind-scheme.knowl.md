@@ -18,3 +18,8 @@ by schemes \(X_i\) whose transition maps are closed immersions. It is
 
 The presentation is not part of the object: two filtered systems define the
 same ind-scheme when their colimit functors are isomorphic.
+
+## References
+
+1. Alexander Beilinson and Vladimir Drinfeld, *Chiral Algebras*, American
+   Mathematical Society, 2004, §7.11.

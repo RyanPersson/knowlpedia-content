@@ -33,8 +33,6 @@ where \((a-\varepsilon)_+\) is obtained by
 comparison theory. The tracial identity also implies invariance under unitary
 conjugation in the [[operator-algebras/unitization|unitization]].
 
-The extended-trace convention and its use in comparing positive elements are
-
 ## Domains and extra adjectives
 
 The finite positive domain is

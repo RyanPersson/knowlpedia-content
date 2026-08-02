@@ -25,7 +25,7 @@ Consequently, taking the core is functorial.
 
 ## Interpretation
 
-Passing to the core forgets all noninvertible maps but retains automorphism groups. Passing further to isomorphism classes forgets those automorphisms too. For example, the core of the category of smooth manifolds has diffeomorphisms as its morphisms, while the original category also contains arbitrary smooth maps.
+Passing to the core forgets all noninvertible maps but retains automorphism groups. Passing further to isomorphism classes forgets those automorphisms too. For example, the [[differential-geometry/diffeomorphism-groupoid-of-smooth-manifolds|core of the category of smooth manifolds]] has diffeomorphisms as its morphisms, while the original category also contains arbitrary smooth maps.
 
 ## References
 

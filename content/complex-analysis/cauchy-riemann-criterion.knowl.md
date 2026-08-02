@@ -12,7 +12,7 @@ Let \(U\subseteq\mathbb C\) be open and write \(f=u+iv:U\to\mathbb C\). If \(u\)
 
 ## Pointwise form
 
-At a single point, real differentiability of \(f\) together with the Cauchy–Riemann equations is equivalent to existence of the [[complex-analysis/complex-derivative|complex derivative]] at that point. Continuity of the partial derivatives near the point is a convenient sufficient condition for real differentiability.
+At a single point, real differentiability of \(f\) together with the Cauchy–Riemann equations is equivalent to existence of the [[complex-analysis/complex-derivative|complex derivative]] at that point. Continuity of the [[real-analysis/partial-derivative|partial derivatives]] near the point is a convenient sufficient condition for real differentiability.
 
 ## Regularity warning
 

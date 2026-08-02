@@ -25,7 +25,7 @@ connection]]. General \(D\)-modules need not be coherent over
 
 ## Stacks and derived categories
 
-For a suitable algebraic stack \(\mathcal X\), \(D\)-modules can be defined by
+For a suitable [[algebraic-geometry-foundations/algebraic-stack|algebraic stack]] \(\mathcal X\), \(D\)-modules can be defined by
 descent from smooth charts. In geometric Langlands,
 \(D\text{-}\operatorname{mod}(\mathcal X)\) usually denotes a stable derived
 category; its precise descent and functorial conventions must be fixed

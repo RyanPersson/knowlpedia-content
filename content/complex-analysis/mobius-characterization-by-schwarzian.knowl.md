@@ -21,7 +21,7 @@ Every Möbius transformation has zero Schwarzian by direct substitution. Convers
 f(z)=\frac{az+b}{cz+d},
 \qquad ad-bc\ne0.
 \]
-These local Möbius transformations agree on overlaps because they agree with \(f\). Connectedness and the identity theorem therefore produce one Möbius transformation on all of \(D\).
+These local Möbius transformations agree on overlaps because they agree with \(f\). Connectedness and the [[complex-analysis/identity-theorem|identity theorem]] therefore produce one Möbius transformation on all of \(D\).
 
 ## Relation to equal Schwarzians
 

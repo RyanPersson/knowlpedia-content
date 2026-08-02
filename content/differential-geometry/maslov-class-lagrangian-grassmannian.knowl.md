@@ -25,7 +25,7 @@ If \(\ell:S^1\to\Lambda(n)\) is a loop and \(A(t)\) is a path of unitary represe
 \langle\mu_\Lambda,[\ell]\rangle
 =\operatorname{wind}\bigl(\det(A(t))^2\bigr).
 \]
-Although \(A(1)\) may differ from \(A(0)\) by an orthogonal matrix, squaring the determinant makes the phase close. Robbin and Salamon give the equivalent formula using a unitary frame and its determinant phase.
+Although \(A(1)\) may differ from \(A(0)\) by an orthogonal matrix, squaring the determinant makes the phase close. Equivalently, one may compute the same index using a unitary frame and its determinant phase.
 
 ## Duality with the Maslov cycle
 

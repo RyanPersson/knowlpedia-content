@@ -41,10 +41,10 @@ produce several orbits in \([a]\boxplus[b]\).
 ## Standard examples
 
 - \(G=\{1\}\) recovers the original field with singleton-valued addition.
-- If \(|K|\geq3\), then \(K/K^\times\) is the Krasner hyperfield. For
+- If \(|K|\geq3\), then \(K/K^\times\) is the [[algebra-hyperstructures/krasner-hyperfield|Krasner hyperfield]]. For
   \(K=\mathbb F_2\), the same orbit construction recovers the ordinary field
   \(\mathbb F_2\), so the size hypothesis is real.
-- \(\mathbb R/\mathbb R_{>0}\) is the sign hyperfield.
+- \(\mathbb R/\mathbb R_{>0}\) is the [[algebra-hyperstructures/sign-hyperfield|sign hyperfield]].
 - \(\mathbb C/\mathbb R_{>0}\) is the
   [[algebra-hyperstructures/phase-hyperfield|phase hyperfield]].
 

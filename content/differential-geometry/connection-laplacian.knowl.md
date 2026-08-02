@@ -8,7 +8,7 @@ domains = ["differential-geometry", "partial-differential-equations"]
 section_mode = "progressive"
 +++
 
-Let \(E\to M\) be a smooth vector bundle with connection \(\nabla^E\), and let \(g\) be a [[differential-geometry/pseudo-riemannian-manifold|pseudo-Riemannian metric]] with [[fiber-bundles/levicivita-connection-connection|Levi–Civita connection]] \(\nabla^{\mathrm{LC}}\). The second covariant derivative of a section \(s\) is
+Let \(E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] with connection \(\nabla^E\), and let \(g\) be a [[differential-geometry/pseudo-riemannian-manifold|pseudo-Riemannian metric]] with [[fiber-bundles/levicivita-connection-connection|Levi–Civita connection]] \(\nabla^{\mathrm{LC}}\). The second [[fiber-bundles/covariant-derivative-of-a-section|covariant derivative of a section]] \(s\) is
 \[
 (\nabla^E)^2_{X,Y}s
 =\nabla^E_X\nabla^E_Ys-\nabla^E_{\nabla^{\mathrm{LC}}_X Y}s.

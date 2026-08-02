@@ -20,7 +20,7 @@ such that
 \]
 The **formal group logarithm** is therefore a strict
 [[formal-groups/formal-group-law-morphism|isomorphism]] from \(F\) to the
-\(n\)-dimensional additive formal group law.
+\(n\)-dimensional [[formal-groups/additive-and-multiplicative-formal-group-laws|additive formal group law]].
 
 ## Construction from invariant differentials
 
@@ -52,10 +52,10 @@ It satisfies
 
 ## Scope
 
-The theorem requires commutativity. A noncommutative formal group in
+The theorem requires commutativity. A noncommutative [[formal-groups/formal-group|formal group]] in
 characteristic zero is instead put into
 [[lie-groups/baker-campbell-hausdorff-formula|BCH coordinates]], where its
-tangent Lie bracket remains visible. Over rings not containing
+tangent [[fiber-bundles/lie-bracket|Lie bracket]] remains visible. Over rings not containing
 \(\mathbb Q\), logarithm coefficients may have forbidden denominators, and
 height and other integral phenomena survive.
 

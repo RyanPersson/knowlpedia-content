@@ -13,7 +13,7 @@ Let \(\gamma\) be a closed piecewise \(C^1\) contour in \(\mathbb C\), and let \
 \operatorname{Ind}(\gamma,a)
 =\frac{1}{2\pi i}\int_\gamma\frac{dz}{z-a}.
 \]
-This number is an integer and is constant as \(a\) varies within a connected component of \(\mathbb C\setminus\gamma\).
+This number is an integer and is constant as \(a\) varies within a [[topology/connected-component|connected component]] of \(\mathbb C\setminus\gamma\).
 
 ## Interpretation
 

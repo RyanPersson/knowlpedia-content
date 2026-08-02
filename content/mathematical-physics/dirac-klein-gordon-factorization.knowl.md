@@ -43,7 +43,7 @@ The converse is false without additional data: a tuple of Klein–Gordon solutio
 
 ## Curvature and gauge warning
 
-On a curved spin manifold, the square of the Dirac operator contains a scalar-curvature term; coupling to a gauge field adds Clifford contraction of its curvature. Thus the free flat identity acquires lower-order corrections. The principal part remains a normally hyperbolic connection operator, but one cannot replace it by the scalar \(\Box_g\) componentwise in an arbitrary frame.
+On a curved spin manifold, the square of the [[noncommutative-geometry/dirac-operator|Dirac operator]] contains a scalar-curvature term; coupling to a gauge field adds Clifford contraction of its curvature. Thus the free flat identity acquires lower-order corrections. The principal part remains a normally hyperbolic connection operator, but one cannot replace it by the scalar \(\Box_g\) componentwise in an arbitrary frame.
 
 ## References
 

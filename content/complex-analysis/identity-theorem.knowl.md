@@ -16,7 +16,7 @@ has an accumulation point in \(D\), then \(f=g\) on all of \(D\).
 
 ## Equivalent zero-set form
 
-A nonzero holomorphic function on a domain has isolated zeros. Indeed, at any zero \(a\), its convergent power series factors as
+A nonzero holomorphic function on a domain has isolated zeros. Indeed, at any zero \(a\), its [[real-analysis/power-series|convergent power series]] factors as
 \[
 f(z)=(z-a)^m h(z)
 \]

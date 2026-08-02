@@ -8,7 +8,7 @@ domains = ["algebra-modules"]
 section_mode = "progressive"
 +++
 
-Let \(M\) be a [[algebra-modules/module|module]] over a commutative ring \(R\). Its **symmetric algebra** is
+Let \(M\) be a [[algebra-modules/module|module]] over a [[algebra-rings/commutative-ring|commutative ring]] \(R\). Its **symmetric algebra** is
 \[
 \operatorname{Sym}_R(M)
 =T_R(M)\big/\langle x\otimes y-y\otimes x:x,y\in M\rangle,

@@ -44,7 +44,7 @@ coefficients,
 =\operatorname{Tr}(TT^*).
 \]
 These formulas also show that \(T\) is Hilbert–Schmidt exactly when \(T^*\)
-is.
+is Hilbert–Schmidt.
 
 ## Hilbert-space and ideal structure
 

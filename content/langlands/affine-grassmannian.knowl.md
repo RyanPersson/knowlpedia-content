@@ -8,7 +8,7 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(k\) be an algebraically closed field and \(G\) a connected reductive
+Let \(k\) be an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]] and \(G\) a connected reductive
 group over \(k\). Its **affine Grassmannian** is the
 [[langlands/ind-scheme|ind-projective ind-scheme]]
 \[
@@ -20,7 +20,7 @@ for \(k\)-algebras \(R\), where \(LG\) is the
 [[langlands/loop-group|loop group]], \(L^+G\) is the
 [[langlands/positive-loop-group|positive loop group]], and the quotient is
 fpqc-sheafified.
-Functorially, it classifies a principal \(G\)-bundle on the formal disc
+Functorially, it classifies a principal \(G\)-bundle on the [[formal-groups/formal-affine-space|formal disc]]
 \(\operatorname{Spec}k\lbrack\!\lbrack t\rbrack\!\rbrack\) together with a
 trivialization on the punctured disc \(\operatorname{Spec}k((t))\).
 
@@ -37,8 +37,8 @@ The coweight records the relative position of a
 With a specified sheaf theory and coefficients satisfying the hypotheses of
 [[langlands/geometric-satake-equivalence|geometric Satake]], the spherical
 equivariant sheaf category on \(\operatorname{Gr}_G\) is identified with
-representations of the Langlands dual group. This supplies the labels for
-geometric Hecke functors.
+representations of the [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]. This supplies the labels for
+[[langlands/hecke-functor|geometric Hecke functors]].
 
 ## References
 

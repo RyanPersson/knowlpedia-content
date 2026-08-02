@@ -8,7 +8,7 @@ domains = ["algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-A **blue scheme** is a [[algebraic-geometry-foundations/locally-blueprinted-space|locally blueprinted space]] \(X\) that admits an open cover by [[algebraic-geometry-foundations/affine-blue-scheme|affine blue schemes]]
+A **blue scheme** is a [[algebraic-geometry-foundations/locally-blueprinted-space|locally blueprinted space]] \(X\) that admits an [[topology/open-cover|open cover]] by [[algebraic-geometry-foundations/affine-blue-scheme|affine blue schemes]]
 \[
 U_i\simeq\operatorname{Spec}B_i.
 \]
@@ -16,13 +16,13 @@ Morphisms are local morphisms of the corresponding sheaves of blueprints.
 
 ## Construction by gluing
 
-As with ordinary schemes, spectra are glued along open affine subspaces. The local coordinate objects are [[algebraic-geometry-foundations/blueprint|blueprints]], and the structure sheaf records their [[algebraic-geometry-foundations/localization-of-blueprint|localizations]].
+As with ordinary schemes, spectra are glued along open affine subspaces. The local coordinate objects are [[algebraic-geometry-foundations/blueprint|blueprints]], and the [[algebraic-geometry-foundations/structure-sheaf|structure sheaf]] records their [[algebraic-geometry-foundations/localization-of-blueprint|localizations]].
 
-The framework simultaneously contains geometric objects induced by commutative monoids, semirings, and rings. Base extension sends suitable blue schemes to semiring schemes or ordinary schemes, but it can forget the monomial skeleton and additive-relation data.
+The framework simultaneously contains geometric objects induced by [[algebra-groups/commutative-monoid|commutative monoids]], semirings, and rings. Base extension sends suitable blue schemes to semiring schemes or ordinary schemes, but it can forget the monomial skeleton and additive-relation data.
 
 ## Distinguish ordered blue schemes
 
-An [[algebraic-geometry-foundations/ordered-blue-scheme|ordered blue scheme]] is locally modeled on ordered blueprints and is the setting used for scheme-theoretic tropicalization and matroid moduli. It generalizes this construction, but “blue scheme” and “ordered blue scheme” are not interchangeable labels.
+An [[algebraic-geometry-foundations/ordered-blue-scheme|ordered blue scheme]] is locally modeled on [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprints]] and is the setting used for scheme-theoretic tropicalization and matroid moduli. It generalizes this construction, but “blue scheme” and “ordered blue scheme” are not interchangeable labels.
 
 There are also functor-of-points approaches to relative blue schemes. Their comparison with blue schemes as locally blueprinted spaces is subtle and is not an unrestricted equivalence.
 

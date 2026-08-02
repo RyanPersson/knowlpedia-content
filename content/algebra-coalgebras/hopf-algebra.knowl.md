@@ -53,7 +53,7 @@ commutes with antipodes by their uniqueness.
 
 ## Examples
 
-- The group algebra \(k[G]\) is a Hopf algebra with \(S(g)=g^{-1}\).
+- The [[algebra-representation-theory/group-algebra|group algebra]] \(k[G]\) is a Hopf algebra with \(S(g)=g^{-1}\).
 - For a [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\), its
   [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]]
   has the cocommutative Hopf structure
@@ -63,7 +63,7 @@ commutes with antipodes by their uniqueness.
   S(x)=-x
   \qquad(x\in\mathfrak g).
   \]
-- Coordinate rings of affine group schemes are commutative Hopf algebras.
+- Coordinate rings of affine [[algebraic-geometry-foundations/group-scheme|group schemes]] are commutative Hopf algebras.
   For affine formal groups, ordinary tensor products are replaced by
   [[algebra-topological/completed-tensor-product|completed tensor products]].
 

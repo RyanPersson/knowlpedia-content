@@ -46,13 +46,13 @@ then give the stated isomorphism.
 
 ## Interpretation
 
-The odd bracket in \(\mathfrak h_q\) stores the quadratic form as a central
+The odd bracket in \(\mathfrak h_q\) stores the [[linear-algebra/quadratic-form|quadratic form]] as a central
 even value. The quotient \(z=1\) chooses a nonzero central character. Choosing
 \(z=0\) instead gives
 \[
 U(\mathfrak h_q)/(z)\cong\Lambda V,
 \]
-so the exterior and Clifford algebras appear as two central fibers of the same
+so the exterior and [[differential-geometry/clifford-algebra|Clifford algebras]] appear as two central fibers of the same
 super-enveloping construction.
 
 ## Conventions

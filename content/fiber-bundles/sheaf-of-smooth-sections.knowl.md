@@ -39,7 +39,7 @@ If \(E|_U\cong U\times\mathbb F^r\), a local frame identifies
 Hence the section sheaf is a finite-rank
 [[algebraic-geometry-foundations/locally-free-sheaf|locally free sheaf]].
 Its stalk \(\mathcal E_x\) consists of germs of local sections near \(x\);
-it is a free module of rank \(r\) over the local ring
+it is a [[algebra-modules/free-module|free module]] of rank \(r\) over the [[algebra-commutative/local-ring|local ring]]
 \(C^\infty_{M,x}(\mathbb F)\), the stalk of
 \(C^\infty_M(\mathbb F)\) at \(x\).
 
@@ -54,7 +54,7 @@ over \(C^\infty(M,\mathbb F)\). The sheaf \(\mathcal E\) includes sections over 
 open set and their gluing data. Local freeness of \(\mathcal E\) does not
 assert that \(\Gamma^\infty(M,E)\) is a free module.
 
-A bundle morphism \(E\to F\) covering \(\operatorname{id}_M\) induces a
+A [[fiber-bundles/bundle-morphism|bundle morphism]] \(E\to F\) covering \(\operatorname{id}_M\) induces a
 morphism \(\mathcal E\to\mathcal F\) of \(C^\infty_M\)-module sheaves by
 postcomposition.
 

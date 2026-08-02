@@ -17,7 +17,7 @@ in which the first map is a closed immersion and the second is the canonical
 projection.
 
 Projective morphisms are proper and of finite type. They are preserved by
-base change and composition. If the base is locally Noetherian, then a
+[[algebraic-geometry-foundations/base-change|base change]] and composition. If the base is locally Noetherian, then a
 projective morphism is also of finite presentation.
 
 ## Relative ample line bundles

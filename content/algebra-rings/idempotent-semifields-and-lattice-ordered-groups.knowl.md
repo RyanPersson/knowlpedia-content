@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 The category of commutative [[algebra-rings/idempotent-semifield|idempotent
-semifields]] with unit-preserving semiring homomorphisms is equivalent to the
+semifields]] with unit-preserving [[algebra-rings/semiring-homomorphism|semiring homomorphisms]] is equivalent to the
 category of [[algebra-groups/lattice-ordered-abelian-group|lattice-ordered
 abelian groups]] with \(\ell\)-group homomorphisms.
 
@@ -49,12 +49,12 @@ an idempotent semifield.
 
 ## Morphisms and examples
 
-A semiring homomorphism restricts to a group homomorphism preserving joins;
+A semiring homomorphism restricts to a [[algebra-groups/group-homomorphism|group homomorphism]] preserving joins;
 an \(\ell\)-group homomorphism extends uniquely by sending \(\bot\) to
 \(\bot\). These assignments are mutually inverse on morphisms as well as on
 objects.
 
-The trivial \(\ell\)-group corresponds to the Boolean semifield.
+The trivial \(\ell\)-group corresponds to the [[algebra-rings/boolean-semifield|Boolean semifield]].
 The totally ordered additive group \(\mathbb R\) corresponds to the max-plus
 tropical semifield. Partially ordered \(\ell\)-groups give idempotent
 semifields whose natural orders are not total.

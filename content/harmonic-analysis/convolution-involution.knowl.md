@@ -31,7 +31,8 @@ for this change of measure. It makes the integrated form of a
 unitary representation]]
 satisfy
 \(\pi(f^*)=\pi(f)^*\), where
-\(\pi(f)=\int_G f(x)\pi(x)\,d\mu(x)\). This convention and its compatibility
+\(\pi(f)=\int_G f(x)\pi(x)\,d\mu(x)\). Thus this convention is compatible with
+[[harmonic-analysis/integrated-form-unitary-representation|integrated representations]].
 
 ## The unimodular case
 

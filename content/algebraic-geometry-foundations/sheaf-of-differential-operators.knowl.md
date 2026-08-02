@@ -19,8 +19,8 @@ relations include multiplication in \(\mathcal O_X\), the
 \qquad
 \xi\eta-\eta\xi=[\xi,\eta]
 \]
-for local functions \(f\) and vector fields \(\xi,\eta\). Equivalently,
-\(\mathcal D_X\) is the universal enveloping algebra of the Lie algebroid
+for local functions \(f\) and [[fiber-bundles/vector-field|vector fields]] \(\xi,\eta\). Equivalently,
+\(\mathcal D_X\) is the universal [[lie-groups/universal-enveloping-algebra|enveloping algebra]] of the Lie algebroid
 \(\mathcal T_X\).
 
 It has the order filtration
@@ -31,7 +31,7 @@ associated graded algebra is canonically
 ## Left and right conventions
 
 Left and right \(\mathcal D_X\)-modules are equivalent after twisting by the
-canonical line bundle, but formulas for pullback and pushforward depend on the
+canonical [[fiber-bundles/line-bundle|line bundle]], but formulas for pullback and pushforward depend on the
 choice. A geometric-Langlands statement must fix one convention.
 
 ## References

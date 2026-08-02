@@ -8,7 +8,7 @@ domains = ["algebraic-geometry-foundations", "linear-algebra"]
 section_mode = "progressive"
 +++
 
-Let \(V\) be a finite-dimensional vector space over a field \(k\). An invertible [[linear-algebra/linear-map|linear map]] \(A:V\to V\) induces a **projective transformation**
+Let \(V\) be a finite-dimensional [[linear-algebra/vector-space|vector space]] over a field \(k\). An invertible [[linear-algebra/linear-map|linear map]] \(A:V\to V\) induces a **projective transformation**
 \[
 \mathbb P(A):\mathbb P(V)\longrightarrow\mathbb P(V),
 \qquad [v]\longmapsto[Av].

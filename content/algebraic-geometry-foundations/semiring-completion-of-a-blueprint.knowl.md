@@ -22,7 +22,7 @@ sends each element of the multiplicative monoid to its one-term sum. Properness 
 
 ## Functoriality
 
-A blueprint morphism \(f:B\to C\) extends termwise to formal sums and therefore induces a semiring homomorphism
+A blueprint morphism \(f:B\to C\) extends termwise to formal sums and therefore induces a [[algebra-rings/semiring-homomorphism|semiring homomorphism]]
 \[
 f^+:B^+\longrightarrow C^+.
 \]

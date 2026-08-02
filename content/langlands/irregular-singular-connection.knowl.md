@@ -12,7 +12,7 @@ Let \(U=X\setminus D\) be a punctured smooth complex curve. A meromorphic flat
 connection on \(U\) has an **irregular singularity** at \(x\in D\) if it is
 not [[langlands/regular-singular-connection|regular singular]] there.
 
-After a finite ramified cover and a formal gauge transformation, an
+After a finite ramified cover and a formal [[fiber-bundles/gauge-transformation|gauge transformation]], an
 irregular connection decomposes into pieces containing nonconstant
 exponential factors. These factors, together with formal monodromy, describe
 its formal type.

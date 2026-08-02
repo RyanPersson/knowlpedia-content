@@ -16,7 +16,7 @@ Additive inverses are not required.
 ## Examples and non-examples
 
 Every [[algebra-rings/field|field]] is a semifield. The nonnegative real
-numbers, the Boolean semifield, and tropical semifields are semifields that
+numbers, the [[algebra-rings/boolean-semifield|Boolean semifield]], and [[algebra-rings/tropical-semifield|tropical semifields]] are semifields that
 are not fields. The natural numbers are not a semifield because, for example,
 \(2\) has no multiplicative inverse in \(\mathbb N\).
 

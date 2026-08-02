@@ -46,6 +46,11 @@ There are two standard projectivization conventions. This knowl uses
 
 ## Examples and related structures
 
+Projective space is the ambient incidence space of
+[[algebraic-geometry-foundations/projective-geometry|projective geometry]]:
+its projective lines and higher-dimensional projective subspaces come from
+linear subspaces of \(V\).
+
 The [[algebraic-geometry-foundations/projective-line|projective line]] \(\mathbb P_k^1\) is the [[algebraic-geometry-foundations/affine-line|affine line]] together with one point at infinity. For \(k=\mathbb R\) or \(\mathbb C\), the sets of lines carry their familiar smooth structures as [[differential-geometry/real-projective-space|real projective space]] and [[differential-geometry/complex-projective-space|complex projective space]]. Invertible linear maps act through the [[algebra-groups/projective-general-linear-group|projective general linear group]].
 
 Unlike affine space, projective space of positive dimension is not an [[algebraic-geometry-foundations/affine-scheme|affine scheme]].

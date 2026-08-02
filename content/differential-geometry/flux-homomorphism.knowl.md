@@ -22,7 +22,7 @@ Consequently it defines a homomorphism
 \widetilde{\operatorname{Symp}}_0(M,\omega)
 \longrightarrow H^1_{\mathrm{dR}}(M;\mathbb R),
 \]
-where the domain is the universal covering group of the identity component of the [[differential-geometry/symplectomorphism-group|symplectomorphism group]]. The action of a map isotopic to the identity on cohomology is trivial, which makes the concatenation formula additive.
+where the domain is the [[lie-groups/universal-covering-group|universal covering group]] of the identity component of the [[differential-geometry/symplectomorphism-group|symplectomorphism group]]. The action of a map isotopic to the identity on cohomology is trivial, which makes the concatenation formula additive.
 
 ## Hamiltonian kernel
 

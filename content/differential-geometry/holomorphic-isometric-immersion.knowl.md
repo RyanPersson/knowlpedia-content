@@ -31,7 +31,7 @@ Hence a holomorphic isometric immersion between [[differential-geometry/kahler-m
 
 ## Isomorphisms and near misses
 
-If \(f\) is a diffeomorphism, it is a biholomorphic Riemannian isometry and therefore a strict isomorphism of the Kähler data. A holomorphic map alone need not preserve either metric or Kähler form. A Riemannian isometric immersion alone need not be holomorphic.
+If \(f\) is a diffeomorphism, it is a biholomorphic Riemannian isometry and therefore a strict isomorphism of the Kähler data. A holomorphic map alone need not preserve either metric or [[differential-geometry/kahler-form|Kähler form]]. A Riemannian isometric immersion alone need not be holomorphic.
 
 The definition is strict: a homothetic holomorphic immersion satisfying \(f^*g_N=cg_M\) for \(c\neq1\) is not isometric unless the metrics are rescaled.
 

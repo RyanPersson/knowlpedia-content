@@ -35,7 +35,7 @@ consists of a continuous map \(f:X\to Y\) and a morphism of structure sheaves
 f^\#:\mathcal O_Y\longrightarrow f_*\mathcal O_X
 \]
 whose maps on sections are continuous and whose induced homomorphisms on
-stalks are local. Formal schemes use morphisms of this kind.
+stalks are local. [[algebraic-geometry-foundations/formal-scheme|Formal schemes]] use morphisms of this kind.
 
 ## References
 The Stacks Project Authors, “Formal schemes à la EGA.”

@@ -23,7 +23,7 @@ the factors of \(ad-bc\) and the denominators cancel. Equivalently, the [[comple
 
 ## Consequence
 
-The cross-ratio is the basic invariant of ordered quadruples under the Möbius group. In fact, equality of cross-ratios is sufficient for two ordered quadruples of distinct points to lie in the same Möbius orbit, by the [[complex-analysis/sharp-three-transitivity-of-mobius-group|sharp three-transitivity of the Möbius group]].
+The cross-ratio is the basic invariant of ordered quadruples under the [[complex-analysis/mobius-transformation-group|Möbius group]]. In fact, equality of cross-ratios is sufficient for two ordered quadruples of distinct points to lie in the same Möbius orbit, by the [[complex-analysis/sharp-three-transitivity-of-mobius-group|sharp three-transitivity of the Möbius group]].
 
 ## References
 

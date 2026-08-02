@@ -8,7 +8,7 @@ domains = ["supergeometry", "fiber-bundles"]
 section_mode = "progressive"
 +++
 
-Let \(M\) be a smooth manifold and let \(E\to M\) be a real vector bundle of
+Let \(M\) be a smooth manifold and let \(E\to M\) be a real [[fiber-bundles/vector-bundle|vector bundle]] of
 rank \(q\). The **split supermanifold** associated to \(E\), often denoted
 \(\Pi E\), is
 \[

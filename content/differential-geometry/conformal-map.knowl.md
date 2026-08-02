@@ -30,7 +30,7 @@ A nonconstant holomorphic map may have critical points. It is conformal in the s
 
 ## Classical complex-analysis examples
 
-The [[complex-analysis/riemann-mapping-theorem|Riemann mapping theorem]] produces a biholomorphic—and hence orientation-preserving conformal—diffeomorphism from every nonempty proper simply connected plane domain to the unit disc. Every [[complex-analysis/mobius-transformation|Möbius transformation]] is an orientation-preserving conformal diffeomorphism of the [[complex-analysis/riemann-sphere|Riemann sphere]]. In fact, the [[complex-analysis/mobius-transformation-group|Möbius group]] is the full orientation-preserving conformal diffeomorphism group of the round sphere; adjoining anti-Möbius maps gives the orientation-reversing component.
+The [[complex-analysis/riemann-mapping-theorem|Riemann mapping theorem]] produces a biholomorphic—and hence orientation-preserving conformal—diffeomorphism from every nonempty proper [[topology/simply-connected-space|simply connected]] plane domain to the unit disc. Every [[complex-analysis/mobius-transformation|Möbius transformation]] is an orientation-preserving conformal diffeomorphism of the [[complex-analysis/riemann-sphere|Riemann sphere]]. In fact, the [[complex-analysis/mobius-transformation-group|Möbius group]] is the full orientation-preserving conformal diffeomorphism group of the round sphere; adjoining anti-Möbius maps gives the orientation-reversing component.
 
 ## References
 

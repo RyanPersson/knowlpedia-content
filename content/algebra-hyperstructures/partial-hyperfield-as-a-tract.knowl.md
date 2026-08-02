@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(P=(G,R)\) be a
 [[algebra-hyperstructures/partial-hyperfield|partial hyperfield]], with
-\(G\) a subgroup of the units of the ambient integral hyperring \(R\). Its
+\(G\) a subgroup of the units of the ambient [[algebra-hyperstructures/integral-hyperring|integral hyperring]] \(R\). Its
 associated [[algebra-hyperstructures/tract|tract]] has multiplicative group
 \(G\) and null set
 \[

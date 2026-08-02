@@ -8,7 +8,7 @@ domains = ["complex-analysis", "projective-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(D\subseteq\mathbb C\) be simply connected, let \(q\) be holomorphic on \(D\), and let \(y_1,y_2\) be linearly independent solutions of
+Let \(D\subseteq\mathbb C\) be [[topology/simply-connected-space|simply connected]], let \(q\) be holomorphic on \(D\), and let \(y_1,y_2\) be linearly independent solutions of
 \[
 y''+\frac12q\,y=0.
 \]
@@ -27,7 +27,7 @@ Replacing \((y_1,y_2)\) by another basis of the two-dimensional solution space p
 
 ## Converse
 
-Locally, every locally univalent meromorphic function \(f\) arises as such a ratio with \(q=S(f)\). One may take
+Locally, every locally univalent [[complex-analysis/meromorphic-function|meromorphic function]] \(f\) arises as such a ratio with \(q=S(f)\). One may take
 \[
 y_2=(f')^{-1/2},
 \qquad

@@ -8,7 +8,7 @@ domains = ["complex-analysis", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(f\) be holomorphic and locally univalent on a plane domain, so \(f'\ne0\). Its **Schwarzian derivative** is
+Let \(f\) be holomorphic and locally univalent on a [[complex-analysis/complex-domain|plane domain]], so \(f'\ne0\). Its **Schwarzian derivative** is
 \[
 S(f)
 =\frac{f'''}{f'}-\frac32\left(\frac{f''}{f'}\right)^2.

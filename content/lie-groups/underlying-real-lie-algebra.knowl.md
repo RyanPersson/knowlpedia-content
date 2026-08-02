@@ -12,7 +12,7 @@ For a complex [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\), the **unde
 \[
 \dim_{\mathbb R}\mathfrak g_{\mathbb R}=2n.
 \]
-Complex-linear Lie algebra homomorphisms become real-linear homomorphisms, so \((-)_{\mathbb R}\) is a functor.
+Complex-linear [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphisms]] become real-linear homomorphisms, so \((-)_{\mathbb R}\) is a functor.
 
 ## Complex structure retained as extra data
 

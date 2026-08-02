@@ -35,7 +35,7 @@ for some finite \(n\). The isomorphism is not part of the coordinate-free
 formal group; choosing one supplies coordinates.
 
 Broader usages include commutative formal groups over general bases and formal
-groups not represented by a finite-dimensional formal disc. Those objects are
+groups not represented by a finite-dimensional [[formal-groups/formal-affine-space|formal disc]]. Those objects are
 not silently included in the finite-dimensional equivalence.
 
 ## Coordinates
@@ -51,7 +51,7 @@ the law is a presentation.
 
 ## Tangent structure
 
-The tangent space at the identity carries a canonical Lie bracket, producing
+The [[differential-geometry/tangent-space|tangent space]] at the identity carries a canonical [[fiber-bundles/lie-bracket|Lie bracket]], producing
 the [[formal-groups/tangent-lie-algebra|tangent Lie algebra]]
 \(\operatorname{Lie}(\mathcal G)\). In characteristic zero and within the
 finite-dimensional formal-disc category, this construction is an equivalence

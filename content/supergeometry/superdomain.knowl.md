@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(U\subseteq\mathbb R^p\) be open. The **superdomain** \(U^{p|q}\)
 is the [[supergeometry/superspace|superspace]] with underlying space \(U\)
-and structure sheaf
+and [[algebraic-geometry-foundations/structure-sheaf|structure sheaf]]
 \[
 \mathcal O_{U^{p|q}}(W)
   =C^\infty(W)\otimes_{\mathbb R}

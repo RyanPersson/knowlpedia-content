@@ -36,7 +36,7 @@ component convention are treated by the
 
 Authors also use Clifford relations \(v^2=+q(v)\) or interchange the order of
 \(p\) and \(q\). These choices can alter the notation for the Clifford
-algebra and its components but not the associated orthogonal group. The
+algebra and its components but not the associated [[lie-groups/orthogonal-group|orthogonal group]]. The
 positive-definite construction is treated separately at
 [[lie-groups/spin-group|spin group]].
 

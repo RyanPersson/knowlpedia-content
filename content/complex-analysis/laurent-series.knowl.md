@@ -24,7 +24,7 @@ c_n=\frac{1}{2\pi i}\int_{|\zeta-a|=\rho}
 
 ## Two-sided convergence
 
-The nonnegative powers form an ordinary power series converging for \(|z-a|<R\); the negative powers become a power series in \(1/(z-a)\) converging for \(|z-a|>r\). Their common annulus is the natural domain of the Laurent expansion.
+The nonnegative powers form an ordinary [[real-analysis/power-series|power series]] converging for \(|z-a|<R\); the negative powers become a power series in \(1/(z-a)\) converging for \(|z-a|>r\). Their common annulus is the natural domain of the Laurent expansion.
 
 ## Principal part
 

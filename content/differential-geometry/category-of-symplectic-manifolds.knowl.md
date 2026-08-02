@@ -28,11 +28,11 @@ Identity maps are symplectic, and pullback functoriality gives
 \]
 so these data do form a category.
 
-Nondegeneracy forces \(df\) to be injective at every point. Morphisms in this category are therefore smooth immersions and may increase dimension; they are not assumed to be diffeomorphisms. An isomorphism in the category is exactly a [[differential-geometry/symplectomorphism|symplectomorphism]].
+Nondegeneracy forces \(df\) to be injective at every point. Morphisms in this category are therefore [[fiber-bundles/smooth-immersion|smooth immersions]] and may increase dimension; they are not assumed to be diffeomorphisms. An isomorphism in the category is exactly a [[differential-geometry/symplectomorphism|symplectomorphism]].
 
 ## Maximal subgroupoid
 
-Keeping every object but only the isomorphisms gives the maximal subgroupoid of symplectic manifolds and symplectomorphisms. The automorphism group of \((M,\omega)\) in this subgroupoid is the [[differential-geometry/symplectomorphism-group|symplectomorphism group]]
+Keeping every object but only the isomorphisms gives the [[algebra-category-theory/core-of-a-category|maximal subgroupoid]] of symplectic manifolds and symplectomorphisms. The automorphism group of \((M,\omega)\) in this subgroupoid is the [[differential-geometry/symplectomorphism-group|symplectomorphism group]]
 \[
 \operatorname{Symp}(M,\omega).
 \]
@@ -41,7 +41,7 @@ This subgroupoid should **not** be called a “symplectic groupoid.” In standa
 
 ## Terminology
 
-Some sources reserve “symplectic map” for a symplectomorphism. Under that convention, their category is already a groupoid. The present corpus uses the broader pullback-preserving convention, under which a symplectic embedding of positive codimension is a morphism.
+Some sources reserve “symplectic map” for a symplectomorphism. Under that convention, their category is already a groupoid. The present corpus uses the broader pullback-preserving convention, under which a [[differential-geometry/symplectic-embedding|symplectic embedding]] of positive codimension is a morphism.
 
 ## References
 

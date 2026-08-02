@@ -8,7 +8,7 @@ domains = ["differential-geometry", "lie-groups"]
 section_mode = "progressive"
 +++
 
-**Hyperbolic three-space** \(\mathbb H^3\) is the simply connected complete \(3\)-dimensional [[differential-geometry/riemannian-manifold|Riemannian manifold]] of constant sectional curvature \(-1\), unique up to isometry.
+**Hyperbolic three-space** \(\mathbb H^3\) is the [[topology/simply-connected-space|simply connected]] complete \(3\)-dimensional [[differential-geometry/riemannian-manifold|Riemannian manifold]] of constant sectional curvature \(-1\), unique up to isometry.
 
 ## Standard models
 
@@ -32,7 +32,7 @@ The ideal or conformal boundary is
 \[
 \partial_\infty\mathbb H^3\cong S^2\cong\mathbb{CP}^1.
 \]
-The orientation-preserving isometry group is \(PSL(2,\mathbb C)\), and its boundary action is the Möbius action. Discrete subgroups of this group are Kleinian groups; torsion-free discrete subgroups give hyperbolic \(3\)-manifolds as quotients.
+The orientation-preserving isometry group is \(PSL(2,\mathbb C)\), and its boundary action is the Möbius action. [[lie-groups/discrete-subgroup|Discrete subgroups]] of this group are Kleinian groups; torsion-free discrete subgroups give hyperbolic \(3\)-manifolds as quotients.
 
 ## References
 

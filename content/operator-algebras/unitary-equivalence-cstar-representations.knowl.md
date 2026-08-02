@@ -38,7 +38,7 @@ decompositions. Moreover, their
 \[
 U\pi(A)'U^*=\rho(A)',
 \]
-so they are spatially isomorphic. These basic invariances are part of the
+so they are spatially isomorphic.
 
 ## Pointed cyclic representations
 

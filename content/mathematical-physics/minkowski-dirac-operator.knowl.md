@@ -8,7 +8,7 @@ domains = ["mathematical-physics", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-On four-dimensional [[mathematical-physics/minkowski-spacetime|Minkowski spacetime]], choose a constant complex spinor module \(S\) and [[mathematical-physics/gamma-matrices|gamma matrices]] \(\gamma^\mu=c(dx^\mu)\) satisfying
+On four-dimensional [[mathematical-physics/minkowski-spacetime|Minkowski spacetime]], choose a constant [[differential-geometry/dirac-spinor|complex spinor]] module \(S\) and [[mathematical-physics/gamma-matrices|gamma matrices]] \(\gamma^\mu=c(dx^\mu)\) satisfying
 \[
 \gamma^\mu\gamma^\nu+\gamma^\nu\gamma^\mu=-2\eta^{\mu\nu}I,
 \qquad \eta=\operatorname{diag}(-1,1,1,1).
@@ -39,7 +39,7 @@ With the metric convention above, the matrices \(\gamma^\mu=c(dx^\mu)\) square t
 
 ## Curved analogue
 
-On a [[differential-geometry/lorentzian-spinor-bundle|Lorentzian spinor bundle]], ordinary differentiation is replaced by the spin connection and \(D_g=c\circ\nabla^S\). Squaring then produces curvature terms. By contrast, the Riemannian [[noncommutative-geometry/dirac-operator|spin Dirac operator]] is elliptic and belongs to a different analytic theory.
+On a [[differential-geometry/lorentzian-spinor-bundle|Lorentzian spinor bundle]], ordinary differentiation is replaced by the [[fiber-bundles/spin-connection|spin connection]] and \(D_g=c\circ\nabla^S\). Squaring then produces curvature terms. By contrast, the Riemannian [[noncommutative-geometry/dirac-operator|spin Dirac operator]] is elliptic and belongs to a different analytic theory.
 
 ## References
 

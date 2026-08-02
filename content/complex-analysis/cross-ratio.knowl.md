@@ -21,7 +21,7 @@ Cases involving \(\infty\) are defined by taking limits; for example,
 
 ## Projective meaning
 
-There is a unique Möbius transformation sending \(z_2,z_3,z_4\) to \(1,0,\infty\). Its value at \(z_1\) is the displayed cross-ratio. This makes projective invariance immediate.
+There is a unique [[complex-analysis/mobius-transformation|Möbius transformation]] sending \(z_2,z_3,z_4\) to \(1,0,\infty\). Its value at \(z_1\) is the displayed cross-ratio. This makes projective invariance immediate.
 
 The precise invariance statement is the [[complex-analysis/cross-ratio-invariance-under-mobius-transformations|cross-ratio invariance theorem]]. Conversely, a bijection of the sphere preserving all complex cross-ratios is [[complex-analysis/cross-ratio-preserving-bijections-are-mobius|necessarily Möbius]].
 

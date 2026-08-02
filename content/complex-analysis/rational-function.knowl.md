@@ -12,7 +12,7 @@ A **rational function** is a quotient
 \[
 R(z)=\frac{P(z)}{Q(z)}
 \]
-of complex polynomials \(P,Q\in\mathbb C[z]\) with \(Q\ne0\), where two quotients represent the same function when they agree after cancellation. It defines a [[complex-analysis/meromorphic-function|meromorphic function]] on \(\mathbb C\) and extends uniquely to a holomorphic map
+of complex polynomials \(P,Q\in\mathbb C[z]\) with \(Q\ne0\), where two quotients represent the same function when they agree after cancellation. It defines a [[complex-analysis/meromorphic-function|meromorphic function]] on \(\mathbb C\) and extends uniquely to a [[differential-geometry/holomorphic-map|holomorphic map]]
 \[
 R:\widehat{\mathbb C}\longrightarrow\widehat{\mathbb C}
 \]
@@ -36,7 +36,7 @@ Every value of the sphere has \(\deg R\) preimages counted with multiplicity. De
 
 ## Characterization
 
-Every holomorphic map \(\widehat{\mathbb C}\to\widehat{\mathbb C}\) is rational. Equivalently, the field of meromorphic functions on the projective line is \(\mathbb C(z)\).
+Every holomorphic map \(\widehat{\mathbb C}\to\widehat{\mathbb C}\) is rational. Equivalently, the field of meromorphic functions on the [[algebraic-geometry-foundations/projective-line|projective line]] is \(\mathbb C(z)\).
 
 ## References
 

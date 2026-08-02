@@ -26,11 +26,11 @@ When structures exist, their isomorphism classes form a torsor for \(H^1(M;\math
 
 ## Associated geometry
 
-The Lorentzian Levi–Civita connection lifts uniquely to the spin principal bundle. Choosing a real or complex representation of the signature-dependent spin group produces a [[differential-geometry/lorentzian-spinor-bundle|Lorentzian spinor bundle]] and its [[fiber-bundles/spin-connection|spin connection]]. Clifford contraction of that connection gives a Lorentzian Dirac operator; on flat Minkowski spacetime this specializes to the [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]].
+The Lorentzian Levi–Civita connection lifts uniquely to the spin principal bundle. Choosing a real or complex representation of the signature-dependent spin group produces a [[differential-geometry/lorentzian-spinor-bundle|Lorentzian spinor bundle]] and its [[fiber-bundles/spin-connection|spin connection]]. Clifford contraction of that connection gives a [[differential-geometry/lorentzian-dirac-operator|Lorentzian Dirac operator]]; on flat Minkowski spacetime this specializes to the [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]].
 
 ## Convention warning
 
-Labels such as \(\mathrm{Spin}(1,n-1)\) and \(\mathrm{Spin}(n-1,1)\) are not interchangeable until the sign convention for the Clifford algebra has been stated. Here \(g\) has one negative direction and Clifford multiplication satisfies \(c(v)^2=-g(v,v)\).
+Labels such as \(\mathrm{Spin}(1,n-1)\) and \(\mathrm{Spin}(n-1,1)\) are not interchangeable until the sign convention for the [[differential-geometry/clifford-algebra|Clifford algebra]] has been stated. Here \(g\) has one negative direction and [[differential-geometry/clifford-module|Clifford multiplication]] satisfies \(c(v)^2=-g(v,v)\).
 
 ## References
 

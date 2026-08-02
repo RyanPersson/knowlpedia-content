@@ -8,7 +8,7 @@ domains = ["algebra-modules", "linear-algebra"]
 section_mode = "progressive"
 +++
 
-Let \(M\) be a [[algebra-modules/module|module]] over a commutative ring \(R\). Its **exterior algebra**, also called its **Grassmann algebra**, is
+Let \(M\) be a [[algebra-modules/module|module]] over a [[algebra-rings/commutative-ring|commutative ring]] \(R\). Its **exterior algebra**, also called its **Grassmann algebra**, is
 \[
 \bigwedge_R M
 =T_R(M)\big/\langle x\otimes x:x\in M\rangle,

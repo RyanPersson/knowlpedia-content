@@ -44,7 +44,7 @@ a\boxplus b=
 \]
 Some sources instead use a min convention. The max convention here is chosen
 to align weak morphisms \(K\to\mathbb T\) with non-Archimedean absolute
-values, or with the negative of an additive valuation.
+values, or with the negative of an [[algebra-fields-galois/valuation-on-a-field|additive valuation]].
 
 ## References
 

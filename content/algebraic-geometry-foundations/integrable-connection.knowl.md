@@ -24,13 +24,15 @@ The connection extends to
 \(\mathcal E\otimes\Omega^\bullet_{X/k}\). It is **integrable**, or **flat**,
 if its curvature vanishes:
 \[
-\nabla^2:\mathcal E\longrightarrow
-\mathcal E\otimes\Omega^2_{X/k}=0.
+\nabla^2:
+\mathcal E\longrightarrow
+\mathcal E\otimes\Omega^2_{X/k},
+\qquad \nabla^2=0.
 \]
 
 ## Relation to D-modules
 
-In characteristic \(0\), a finite-rank locally free sheaf with an integrable
+In characteristic \(0\), a [[algebraic-geometry-foundations/locally-free-sheaf|finite-rank locally free sheaf]] with an integrable
 connection is equivalently an \(\mathcal O_X\)-coherent
 [[algebraic-geometry-foundations/d-module|\(D\)-module]].
 

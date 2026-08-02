@@ -16,7 +16,11 @@ where \(L\subset\mathbb C\) is a Euclidean straight line.
 
 ## Spherical picture
 
-Under stereographic projection, generalized circles correspond exactly to intersections of the round sphere with affine planes in \(\mathbb R^3\). A spherical circle through the projection point becomes a line together with \(\infty\); all other spherical circles become ordinary plane circles.
+Under stereographic projection, generalized circles correspond exactly to
+the circles cut out on the round sphere by affine planes that meet it
+transversely. A spherical circle through the projection point becomes a line
+together with \(\infty\); all other spherical circles become ordinary plane
+circles.
 
 ## Möbius invariance
 

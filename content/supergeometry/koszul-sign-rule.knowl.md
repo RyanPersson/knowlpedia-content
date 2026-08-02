@@ -18,7 +18,7 @@ symmetry
 \[
 v\otimes w\longmapsto(-1)^{|v||w|}w\otimes v
 \]
-of the symmetric monoidal category, rather than a correction added after a
+of the [[algebra-category-theory/symmetric-monoidal-category|symmetric monoidal category]], rather than a correction added after a
 calculation.
 
 For homogeneous maps \(f:V\to V'\) and \(g:W\to W'\), the tensor product is

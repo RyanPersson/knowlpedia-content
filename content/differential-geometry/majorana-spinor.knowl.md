@@ -32,7 +32,7 @@ real structure in the sense above.
 
 The Majorana condition is invariantly a reality condition on the
 representation. It is not the basis-dependent assertion that the coordinates
-of a spinor, or all of its gamma matrices, are real.
+of a spinor, or all of its [[mathematical-physics/gamma-matrices|gamma matrices]], are real.
 
 ## References
 

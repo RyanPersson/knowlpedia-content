@@ -8,7 +8,7 @@ domains = ["langlands", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(k\) be an algebraically closed field, let \(G\) be a connected reductive
+Let \(k\) be an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]], let \(G\) be a connected reductive
 group over \(k\), and choose a characteristic-zero coefficient field \(E\)
 and an appropriate sheaf theory (for example, \(E=\mathbb C\) for classical
 sheaves when \(k=\mathbb C\), or \(E=\overline{\mathbb Q}_\ell\) with

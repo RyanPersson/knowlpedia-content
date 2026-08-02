@@ -19,7 +19,7 @@ topology.
 
 ## Infinitesimal criterion
 
-For morphisms locally of finite presentation, smoothness is equivalent to
+For morphisms [[algebraic-geometry-foundations/locally-of-finite-presentation|locally of finite presentation]], smoothness is equivalent to
 formal smoothness: maps from a nilpotent closed subscheme lift locally across
 the thickening. This is the scheme-theoretic analogue of having no
 infinitesimal singularities in the fibers.

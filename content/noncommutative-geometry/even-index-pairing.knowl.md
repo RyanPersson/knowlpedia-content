@@ -38,7 +38,7 @@ For \(A=\mathbb C\), pairing the class of a finite-rank projection with an even 
 
 For nonunital \(A\), projections are taken in matrix algebras over the [[operator-algebras/unitization|unitization]], with the scalar projection subtracted so that the class lies in \(K_0(A)\). An unnormalized Fredholm module may be normalized or handled directly modulo compact operators before compression.
 
-Switching which grading summand is called positive, or replacing the Fredholm-index convention \(\dim\ker T-\dim\ker T^*\) by its negative, reverses the displayed sign. The convention in the core agrees with Connes's Proposition 2(a).
+Switching which grading summand is called positive, or replacing the Fredholm-index convention \(\dim\ker T-\dim\ker T^*\) by its negative, reverses the displayed sign. The displayed formula fixes the convention used here.
 
 ## References
 

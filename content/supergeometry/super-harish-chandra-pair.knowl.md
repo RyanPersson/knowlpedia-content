@@ -11,7 +11,7 @@ section_mode = "progressive"
 A **super Harish–Chandra pair** over \(\mathbb R\) is a pair
 \((G_0,\mathfrak g)\) consisting of:
 
-1. a finite-dimensional real Lie group \(G_0\);
+1. a finite-dimensional real [[fiber-bundles/lie-group|Lie group]] \(G_0\);
 2. a finite-dimensional real
    [[supergeometry/lie-superalgebra|Lie superalgebra]]
    \(\mathfrak g=\mathfrak g_{\bar0}\oplus\mathfrak g_{\bar1}\);
@@ -29,10 +29,10 @@ A morphism
 \((G_0,\mathfrak g)\to(H_0,\mathfrak h)\) is a Lie-group homomorphism
 \(\Phi_0:G_0\to H_0\) and an even Lie-superalgebra homomorphism
 \(\phi:\mathfrak g\to\mathfrak h\), compatible with the even-part
-identifications and the two group actions.
+identifications and the two [[algebra-groups/group-action|group actions]].
 
 The adjective “super” is important: this object is not a
-Harish–Chandra module from the representation theory of real reductive
+[[lie-groups/harish-chandra-module|Harish–Chandra module]] from the representation theory of real reductive
 groups.
 
 ## References

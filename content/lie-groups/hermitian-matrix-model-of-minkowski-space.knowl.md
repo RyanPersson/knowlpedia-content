@@ -2,7 +2,7 @@
 id = "lie-groups/hermitian-matrix-model-of-minkowski-space"
 title = "Hermitian matrix model of Minkowski space"
 kind = "construction"
-summary = "Hermitian 2×2 matrices model Minkowski space, with determinant equal to the negative of the collection's quadratic form."
+summary = "Hermitian 2×2 matrices model Minkowski space, with determinant equal to the negative of the chosen (−+++) quadratic form."
 aliases = ["Pauli matrix model of Minkowski space", "Hermitian 2 by 2 model of spacetime"]
 domains = ["lie-groups", "linear-algebra", "mathematical-physics"]
 section_mode = "progressive"

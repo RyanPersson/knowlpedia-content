@@ -8,8 +8,8 @@ domains = ["formal-groups", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Over a field \(k\) of characteristic \(p>0\), the tangent Lie algebra functor
-from finite-dimensional formal groups is **not** an equivalence. Distinct
+Over a field \(k\) of characteristic \(p>0\), the tangent [[lie-groups/lie-algebra|Lie algebra]] functor
+from finite-dimensional [[formal-groups/formal-group|formal groups]] is **not** an equivalence. Distinct
 formal groups can have isomorphic tangent Lie algebras because the tangent
 space records only first-order multiplication, while Frobenius and the
 \(p\)-series begin at higher order.
@@ -26,7 +26,7 @@ both tangent Lie algebras are the one-dimensional abelian algebra. Yet
 \qquad
 [p]_{F_m}(X)=(1+X)^p-1=X^p.
 \]
-An isomorphism of formal group laws must intertwine the \(p\)-series, so these
+An isomorphism of [[formal-groups/formal-group-law|formal group laws]] must intertwine the \(p\)-series, so these
 two laws are not isomorphic.
 
 Equivalently, the two laws have different
@@ -36,7 +36,7 @@ invisible in the ordinary one-dimensional tangent Lie algebra.
 
 ## Additional structure is not a complete repair
 
-For suitable group schemes, tangent Lie algebras in characteristic \(p\) carry
+For suitable [[algebraic-geometry-foundations/group-scheme|group schemes]], tangent Lie algebras in characteristic \(p\) carry
 a restricted \(p\)-operation. This is an important enrichment, but it still
 does not replace the full formal group, its Frobenius and Verschiebung
 operators, or its complete \(p\)-series. Cartier–Dieudonné modules and related
@@ -45,7 +45,7 @@ finiteness, and perfection hypotheses.
 
 ## Consequence for the characteristic-zero theorem
 
-The rational coefficients in the BCH series and formal logarithm are not
+The rational coefficients in the BCH series and [[formal-groups/formal-group-logarithm|formal logarithm]] are not
 cosmetic. Division by integers is precisely what allows higher formal data to
 be reconstructed from the bracket in characteristic zero. No such
 reconstruction can be asserted after reducing modulo \(p\).
