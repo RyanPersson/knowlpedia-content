@@ -17,7 +17,7 @@ d f_x : T_x M \longrightarrow T_y N
 is surjective (with [[fiber-bundles/tangent-space-at-a-point|tangent spaces]] understood in the usual sense).
 
 ## Equivalent characterizations
-Equivalently: \(y\) is regular if \(f\) is a [[fiber-bundles/smooth-submersion|submersion]] at every point of the [[fiber-bundles/fiber-of-a-map-preimage-fiber|fiber]] \(f^{-1}(y)\). Points of \(N\) that are not regular values are called **critical values**.
+Equivalently: \(y\) is regular if \(f\) is a [[fiber-bundles/smooth-submersion|submersion]] at every point of the [[fiber-bundles/fiber-of-a-map|fiber]] \(f^{-1}(y)\). Points of \(N\) that are not regular values are called **critical values**.
 
 ## Examples
 1. **Distance-squared on the plane.** For \(f:\mathbb{R}^2\to \mathbb{R}\), \(f(x,y)=x^2+y^2\), every \(r>0\) is a regular value: along \(f^{-1}(r)\) the gradient \((2x,2y)\) is never zero, so the differential is surjective. The value \(0\) is not regular, since the differential vanishes at \((0,0)\in f^{-1}(0)\).

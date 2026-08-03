@@ -40,6 +40,7 @@ Click any term to expand its definition inline.
 
 - [[linear-algebra/determinant|Determinant]]
 - [[linear-algebra/positive-semidefinite-matrix|Positive semidefinite matrix]]
+- [[linear-algebra/symmetric-positive-definite-matrix|Symmetric positive-definite matrix]]
 - [[linear-algebra/trace|Trace]]
 
 ---

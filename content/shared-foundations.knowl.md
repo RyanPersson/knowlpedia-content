@@ -47,6 +47,7 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/surjective-function|Surjective function]]
 - [[shared-foundations/bijective-function|Bijective function]]
 - [[shared-foundations/sequence|Sequence]]
+- [[shared-foundations/support-of-a-function|Support of a function]]
 
 ---
 
@@ -56,6 +57,7 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/equivalence-relation|Equivalence relation]]
 - [[shared-foundations/equivalence-class|Equivalence class]]
 - [[shared-foundations/quotient-set|Quotient set]]
+- [[shared-foundations/pointed-set|Pointed set]]
 
 ---
 

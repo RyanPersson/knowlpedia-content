@@ -31,7 +31,7 @@ covering \(F\) (meaning \(\pi_N\circ dF = F\circ \pi_M\), where \(\pi_M:TM\to M\
 d(G\circ F)_p = dG_{F(p)}\circ dF_p.
 \]
 
-The differential detects local rank properties: \(F\) is a [[fiber-bundles/smooth-immersion|smooth immersion]] iff \(dF_p\) is injective for all \(p\), and a [[fiber-bundles/smooth-submersion|smooth submersion]] iff \(dF_p\) is surjective for all \(p\). In particular, the notion of [[fiber-bundles/regular-value|regular value]] is expressed in terms of surjectivity of \(dF_p\) along a [[fiber-bundles/fiber-of-a-map-preimage-fiber|fiber]].
+The differential detects local rank properties: \(F\) is a [[fiber-bundles/smooth-immersion|smooth immersion]] iff \(dF_p\) is injective for all \(p\), and a [[fiber-bundles/smooth-submersion|smooth submersion]] iff \(dF_p\) is surjective for all \(p\). In particular, the notion of [[fiber-bundles/regular-value|regular value]] is expressed in terms of surjectivity of \(dF_p\) along a [[fiber-bundles/fiber-of-a-map|fiber]].
 
 ### Examples
 

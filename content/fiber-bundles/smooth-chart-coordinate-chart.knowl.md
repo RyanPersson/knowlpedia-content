@@ -15,7 +15,7 @@ Let \(M\) be an \(n\)-dimensional topological manifold (in particular, any [[fib
 
 The component functions of \(\varphi\) are the **local coordinates** on \(U\): writing \(\varphi(p)=(x^1(p),\dots,x^n(p))\) defines coordinate functions \(x^i:U\to\mathbb{R}\).
 
-Given two charts \((U,\varphi)\) and \((V,\psi)\) with \(U\cap V\neq\varnothing\), the **transition map** is the map \(\psi\circ\varphi^{-1}\) from \(\varphi(U\cap V)\) to \(\psi(U\cap V)\). A collection of charts forms a [[fiber-bundles/smooth-atlas|smooth atlas]] precisely when all such transition maps are smooth in the usual multivariable sense.
+Given two charts \((U,\varphi)\) and \((V,\psi)\) with \(U\cap V\neq\varnothing\), their [[fiber-bundles/coordinate-transition-map|coordinate transition map]] is \(\psi\circ\varphi^{-1}\) from \(\varphi(U\cap V)\) to \(\psi(U\cap V)\). A collection of charts forms a [[fiber-bundles/smooth-atlas|smooth atlas]] precisely when all such transition maps are smooth in the usual multivariable sense.
 
 ## Examples
 1. On \(\mathbb{R}^n\), the pair \((\mathbb{R}^n,\mathrm{id})\) is a global chart; restricting \(\mathrm{id}\) to any open set \(U\subset\mathbb{R}^n\) gives a chart \((U,\mathrm{id}|_U)\).

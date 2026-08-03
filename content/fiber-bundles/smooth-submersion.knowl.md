@@ -46,4 +46,4 @@ If \(f : M^m \to N^n\) is a smooth submersion and \(p\in M\), then there exist s
 \]
 So a submersion is locally just a projection map.
 
-A useful viewpoint is that if \(f\) is a smooth submersion, then every \(y\in N\) is a [[fiber-bundles/regular-value|regular value]] of \(f\). Consequently, each [[fiber-bundles/fiber-of-a-map-preimage-fiber|fiber]] \(f^{-1}(y)\) is (locally) a smooth submanifold of codimension \(n\).
+A useful viewpoint is that if \(f\) is a smooth submersion, then every \(y\in N\) is a [[fiber-bundles/regular-value|regular value]] of \(f\). Consequently, each [[fiber-bundles/fiber-of-a-map|fiber]] \(f^{-1}(y)\) is (locally) a smooth submanifold of codimension \(n\).
