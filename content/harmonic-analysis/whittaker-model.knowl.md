@@ -8,9 +8,15 @@ domains = ["harmonic-analysis", "langlands", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a quasi-split [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a local field, let \(B=TU\) be
+Let \(G\) be a
+[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split
+reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|local field]], let
+\(B=TU\) be
 an \(F\)-rational [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]], and let
-\(\psi:U(F)\to\mathbb C^\times\) be a nondegenerate [[harmonic-analysis/unitary-character|unitary character]]. A
+\(\psi:U(F)\to\mathbb C^\times\) be a nondegenerate
+[[harmonic-analysis/unitary-character|unitary character]] of its
+[[algebraic-geometry-foundations/unipotent-radical|unipotent radical]]. A
 **Whittaker functional** on a representation \((\pi,V)\) of \(G(F)\) is a
 [[linear-algebra/linear-map|linear map]] \(\lambda:V\to\mathbb C\) satisfying
 
@@ -43,8 +49,10 @@ after normalizations are chosen.
 
 ## Role in local Langlands
 
-A Whittaker datum normalizes the internal parametrization of an \(L\)-packet.
-For a tempered packet of a quasi-split group, the generic-packet conjecture
+A Whittaker datum normalizes the internal parametrization of an
+[[langlands/l-packet|\(L\)-packet]]. For a
+[[harmonic-analysis/tempered-representation-p-adic-group|tempered]] packet of
+a quasi-split \(p\)-adic group, the generic-packet conjecture
 predicts a unique member generic for the chosen datum.
 
 ## References

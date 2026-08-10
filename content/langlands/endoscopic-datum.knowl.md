@@ -8,22 +8,31 @@ domains = ["langlands", "algebraic-geometry-foundations", "representation-theory
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a local or global field \(F\).
+Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|local or global
+field]] \(F\).
 An **endoscopic datum** for \(G\) is, in a commonly used shorthand, a triple
 
 \[
 \mathfrak e=(H,s,\eta),
 \]
 
-where \(H\) is a quasi-split connected reductive \(F\)-group,
-\(s\in\widehat G\) is semisimple, and
+where \(H\) is a
+[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]]
+connected reductive \(F\)-group, \(s\in\widehat G\) is
+[[langlands-letter/knowls/semisimple-element-and-class|semisimple]], and
 
 \[
 \eta:{}^L H\longrightarrow {}^L G
 \]
 
-is an \(L\)-homomorphism identifying \(\widehat H\) with the identity
-component \(\operatorname{Cent}(s,\widehat G)^\circ\), subject to the
+\(\eta\) is an
+[[langlands-letter/knowls/langlands-functoriality-l-homomorphism|\(L\)-homomorphism]]
+between [[langlands/l-group|\(L\)-groups]], identifying the
+[[langlands-letter/knowls/langlands-dual-group|dual group]] \(\widehat H\)
+with the identity component
+\(\operatorname{Cent}(s,\widehat G)^\circ\) of a
+[[algebra-groups/centralizer|centralizer]], subject to the
 standard Galois-action and central conditions. Data are taken up to an
 [[shared-foundations/equivalence-relation|equivalence relation]] involving \(\widehat G\)-conjugacy.
 
@@ -57,7 +66,8 @@ trivial. Elliptic data govern discrete terms.
 Endoscopic data index correction terms in the
 [[langlands/stable-trace-formula|stable trace formula]]. A
 [[langlands/transfer-factor|transfer factor]] and matching functions compare
-[[langlands/stable-orbital-integral|stable orbital integrals]] on \(H\) with \(\kappa\)-orbital integrals on \(G\).
+[[langlands/stable-orbital-integral|stable orbital integrals]] on \(H\) with
+[[langlands/kappa-orbital-integral|\(\kappa\)-orbital integrals]] on \(G\).
 On the spectral side this becomes a relation among packet characters.
 
 ## Ordinary versus twisted endoscopy

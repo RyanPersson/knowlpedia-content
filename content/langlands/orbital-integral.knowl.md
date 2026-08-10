@@ -8,8 +8,13 @@ domains = ["langlands", "harmonic-analysis", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a local field, let \(G\) be a connected reductive \(F\)-group,
-and let \(\gamma\in G(F)\) be semisimple. For a [[functional-analysis/test-function-space|test function]]
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|local field]], let
+\(G\) be a connected
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive
+\(F\)-group]], and let \(\gamma\in G(F)\) be
+[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]. For a
+[[harmonic-analysis/test-function-space-local-group|test function]]
 \(f\in C_c^\infty(G(F))\), the **orbital integral** of \(f\) at \(\gamma\)
 is
 
@@ -20,12 +25,14 @@ O_\gamma(f)
 f(x^{-1}\gamma x)\,d\dot x,
 \]
 
-where \(G_\gamma\) is the centralizer of \(\gamma\) and the quotient measure
+where \(G_\gamma\) is the
+[[algebra-groups/centralizer|centralizer]] of \(\gamma\) and the quotient measure
 comes from chosen [[harmonic-analysis/haar-measure|Haar measures]].
 
 ## Invariance
 
-The distribution \(O_\gamma\) depends only on the \(G(F)\)-conjugacy class
+The [[harmonic-analysis/distribution-local-group|distribution]]
+\(O_\gamma\) depends only on the \(G(F)\)-conjugacy class
 of \(\gamma\). It is invariant under conjugating the test function.
 Its numerical value depends on the Haar-measure normalization, so measure
 choices are part of any exact transfer identity.
@@ -49,7 +56,9 @@ For a factorizable adelic test function \(f=\bigotimes_v f_v\), a regular
 elliptic global orbital term factors, after compatible measure choices, as a
 centralizer volume times a product of local orbital integrals. The geometric
 side of the [[langlands/arthur-selberg-trace-formula|Arthur–Selberg trace
-formula]] also contains weighted orbital integrals attached to Levi
+formula]] also contains
+[[langlands/weighted-orbital-integral|weighted orbital integrals]] attached to
+[[algebraic-geometry-foundations/levi-subgroup|Levi]]
 subgroups and nonelliptic classes.
 
 ## Lie algebra version

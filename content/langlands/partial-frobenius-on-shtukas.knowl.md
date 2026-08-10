@@ -10,7 +10,9 @@ section_mode = "progressive"
 
 For a multiple-leg [[langlands/g-shtuka|\(G\)-shtuka]] with legs indexed by
 \(I\), a **partial Frobenius** associated to a subset \(J\subset I\) applies
-the \(q\)-power Frobenius to the leg coordinates in \(J\) while leaving the
+the \(q\)-power
+[[algebra-fields-galois/frobenius-endomorphism|Frobenius endomorphism]] to
+the leg coordinates in \(J\) while leaving the
 other legs fixed, together with the corresponding rotation of the
 Frobenius-modification chain.
 
@@ -40,14 +42,18 @@ appropriately ordered shtuka stacks.
 Partial Frobenius operators for disjoint individual legs commute. Their
 product over all legs is the total Frobenius action. On the inductive system
 of truncated shtuka cohomology, an operator may enlarge the
-Harder–Narasimhan bound; it is therefore naturally a map in that inductive
+[[algebraic-geometry-foundations/harder-narasimhan-filtration|Harder–Narasimhan
+bound]]; it is therefore naturally a map in that inductive
 system rather than always an endomorphism of one finite-type truncation.
 
 ## From Frobenius to Galois
 
-Drinfeld's lemma turns a sheaf over a power of a curve equipped with
-commuting partial Frobenius structures into a representation of a product
-of fundamental groups. This is the source of the independent Galois actions
+[[langlands/drinfeld-lemma|Drinfeld's lemma]] turns a
+[[algebraic-geometry-foundations/lisse-ell-adic-sheaf|lisse
+\(\ell\)-adic sheaf]] over a power of a curve equipped with commuting
+partial Frobenius structures into a representation of a product of
+[[topology/fundamental-group|fundamental groups]]. This is the source of the
+independent Galois actions
 \((\gamma_i)_{i\in I}\) in an
 [[langlands/excursion-operator|excursion operator]].
 

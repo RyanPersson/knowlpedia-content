@@ -8,7 +8,7 @@ domains = ["harmonic-analysis", "langlands", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a totally disconnected [[topology/locally-compact-group|locally compact group]]. A
+Let \(G\) be a [[topology/locally-profinite-group|locally profinite group]]. A
 [[harmonic-analysis/smooth-representation-totally-disconnected-group|smooth]]
 complex representation \(V\) of \(G\) is **admissible** if
 
@@ -17,12 +17,13 @@ complex representation \(V\) of \(G\) is **admissible** if
 \]
 
 for every compact open subgroup \(K\leq G\). For a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
-\(\mathbf G\) over a nonarchimedean local field, local Langlands concerns
+\(\mathbf G\) over a [[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local field]], local Langlands concerns
 irreducible admissible representations of \(G=\mathbf G(F)\).
 
 ## Why compact-open fixed spaces appear
 
-Each \(V^K\) is a finite-dimensional module over the Hecke algebra
+Each \(V^K\) is a finite-dimensional module over the
+[[harmonic-analysis/hecke-algebra-locally-compact-group-pair|Hecke algebra]]
 \(\mathcal H(G,K)\). Admissibility is therefore the nonarchimedean analogue of
 finite \(K\)-multiplicities for representations of real reductive groups, but
 the two definitions live in different representation categories.

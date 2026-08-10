@@ -8,9 +8,12 @@ domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 section_mode = "progressive"
 +++
 
-Let \(X\) be a [[algebraic-geometry-foundations/smooth-projective-curve|smooth projective curve]] over \(\mathbb F_q\), let \(S\) be an
-\(\mathbb F_q\)-scheme, and let \(x_i:S\to X\) be finitely many **legs**. In
-the multiple-leg form, a rank-\(n\) **shtuka** consists of a [[fiber-bundles/vector-bundle|vector bundle]]
+Let \(X\) be a [[algebraic-geometry-foundations/smooth-projective-curve|smooth projective curve]] over the
+[[algebra-fields-galois/finite-field|finite field]] \(\mathbb F_q\), let
+\(S\) be an \(\mathbb F_q\)-scheme, and let \(x_i:S\to X\) be finitely many
+**legs**. In
+the multiple-leg form, a rank-\(n\) **shtuka** consists of an
+[[algebraic-geometry-foundations/locally-free-sheaf|algebraic vector bundle]]
 \(\mathcal E\) on \(X\times S\) and an isomorphism
 
 \[
@@ -22,13 +25,16 @@ the multiple-leg form, a rank-\(n\) **shtuka** consists of a [[fiber-bundles/vec
 \]
 
 with prescribed bounds on the relative positions at the graphs
-\(\Gamma_{x_i}\).
+\(\Gamma_{x_i}\). Here \({\rm Frob}_S\) denotes the
+[[algebra-fields-galois/frobenius-endomorphism|absolute Frobenius
+endomorphism]] of \(S\).
 
 ## Frobenius bundle with controlled singularities
 
 Without legs, \(\varphi\) is a global Frobenius descent datum. The legs allow
 \(\varphi\) to have controlled zeros or poles, expressed invariantly as
-modifications of vector bundles. Classical Drinfeld shtukas often have two
+[[langlands/hecke-modification|modifications]] of vector bundles. Classical
+Drinfeld shtukas often have two
 distinguished legs, customarily called a zero and a pole.
 
 The rank-\(n\) definition is the
@@ -37,14 +43,18 @@ The rank-\(n\) definition is the
 ## Moduli interpretation
 
 Allowing the legs and bundle to vary gives an [[algebraic-geometry-foundations/algebraic-stack|algebraic stack]] over \(X^I\).
-Bounds by [[langlands/dominant-coweight|dominant coweights]] produce finite-type truncations after imposing
-level and Harder–Narasimhan conditions. The fibers carry actions of Hecke
+Bounds by [[langlands/dominant-coweight|dominant coweights]] produce
+finite-type truncations after imposing level and
+[[algebraic-geometry-foundations/harder-narasimhan-filtration|Harder–Narasimhan]]
+conditions. The fibers carry actions of Hecke
 correspondences and [[langlands/partial-frobenius-on-shtukas|partial Frobenius morphisms]].
 
 ## Arithmetic role
 
 Drinfeld used shtukas to prove the [[langlands/global-langlands-reciprocity|global Langlands correspondence]] for
-\(\operatorname{GL}_2\) over function fields; Laurent Lafforgue extended
+\(\operatorname{GL}_2\) over
+[[langlands-letter/knowls/global-local-fields-completions|function fields]];
+Laurent Lafforgue extended
 this to \(\operatorname{GL}_n\). Vincent Lafforgue's construction for
 general [[algebraic-geometry-foundations/reductive-algebraic-group|reductive groups]] uses multiple-leg \(G\)-shtukas, the
 [[langlands/geometric-satake-equivalence|geometric Satake equivalence]], and
@@ -53,7 +63,9 @@ general [[algebraic-geometry-foundations/reductive-algebraic-group|reductive gro
 ## Not the same as a local shtuka
 
 A [[langlands/local-shtuka|local shtuka]] in the Fargues–Fontaine setting is
-a local modification object over a nonarchimedean local field. It is inspired
+a local modification object over a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]]. It is inspired
 by the same Frobenius-and-modification pattern but lives in a different
 geometry.
 

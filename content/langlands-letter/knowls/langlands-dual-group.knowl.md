@@ -9,8 +9,10 @@ legacy_source_path = "langlands-letter/knowls/langlands-dual-group.md"
 section_mode = "progressive"
 +++
 
-Let \(G\) be a split connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] with split maximal torus
-\(T\) and based root datum
+Let \(G\) be a [[langlands-letter/knowls/split-reductive-group|split]]
+connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] with split
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]]
+\(T\) and [[langlands-letter/knowls/roots-weights-weyl|based root datum]]
 
 \[
 \Psi(G)=
@@ -31,13 +33,16 @@ X^*(T),\Delta
 \bigr).
 \]
 
-A pinning makes \(\widehat G\) and automorphisms of its based root datum
+A [[langlands-letter/knowls/pinned-automorphisms|pinning]] makes
+\(\widehat G\) and automorphisms of its based root datum
 usable coherently, although the unpinned group is intrinsically determined
 only up to inner isomorphism.
 
 ## Nonsplit groups
 
-For a nonsplit \(G/F\), the absolute Galois or [[langlands/weil-group|Weil group]] acts on the based
+For a nonsplit \(G/F\), the
+[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+or [[langlands/weil-group|Weil group]] acts on the based
 root datum and hence by pinned automorphisms on \(\widehat G\). The
 [[langlands/l-group|\(L\)-group]] combines these data as an extension or
 [[algebra-groups/semidirect-product|semidirect product]]. The dual group alone does not record the \(F\)-form.
@@ -49,19 +54,27 @@ root datum and hence by pinned automorphisms on \(\widehat G\). The
 - \(\widehat{\operatorname{PGL}_n}=\operatorname{SL}_n(\mathbb C)\).
 - \(\widehat{\operatorname{Sp}_{2n}}=\operatorname{SO}_{2n+1}(\mathbb C)\).
 
-Duality exchanges simply connected and adjoint semisimple isogeny forms.
+Duality exchanges
+[[langlands-letter/knowls/simply-connected-semisimple-group|simply
+connected]] and
+[[langlands-letter/knowls/root-vs-weight-lattice-isogeny|adjoint
+semisimple isogeny forms]].
 
 ## Relation to the letter
 
 The letter writes \(\widehat G\) as \(cG\) and uses \(cL\) for the dual
-lattice. Its construction is the root-datum origin of the modern dual
+lattice, now represented by the
+[[langlands-letter/knowls/dual-lattice|dual-lattice construction]]. Its
+construction is the root-datum origin of the modern dual
 group; the later \(L\)-group adds the Galois action needed for nonsplit
 groups and local parameters.
 
 ## Rank-one scope warning
 
 Over \(\mathbb C\), \(\operatorname{PGL}_2\) is also the [[algebra-groups/automorphism-group|automorphism group]]
-of the projective line. That action does not define Langlands duality:
+of the
+[[algebraic-geometry-foundations/projective-line|projective line]]. That
+action does not define Langlands duality:
 \(\widehat{\operatorname{SL}_2}=\operatorname{PGL}_2\) because roots and
 coroots, with their character and cocharacter lattices, are exchanged.
 

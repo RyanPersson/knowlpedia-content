@@ -8,8 +8,13 @@ domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be an unramified connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a nonarchimedean
-local field \(F\), choose a hyperspecial subgroup \(K\leq G(F)\), and let
+Let \(G\) be an
+[[algebraic-geometry-foundations/unramified-reductive-group|unramified
+connected reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]] \(F\), choose a
+[[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial subgroup]]
+\(K\leq G(F)\), and let
 \(\pi\) be an irreducible
 [[harmonic-analysis/unramified-representation-p-adic-group|unramified
 representation]]. Its **Satake parameter** is the semisimple

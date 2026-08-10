@@ -10,10 +10,13 @@ section_mode = "progressive"
 +++
 
 Let \(H\) be a complex linear [[algebraic-geometry-foundations/algebraic-group|algebraic group]] whose identity component
-\(H^\circ\) is reductive. A semisimple element \(s\in H\) normalizes some
-maximal torus of \(H^\circ\). Since maximal tori of \(H^\circ\) are
+\(H^\circ\) is reductive. A
+[[langlands-letter/knowls/semisimple-element-and-class|semisimple element]]
+\(s\in H\) normalizes some
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]] of
+\(H^\circ\). Since maximal tori of \(H^\circ\) are
 \(H^\circ\)-conjugate, after conjugation one may place \(s\) in the
-normalizer
+[[algebra-groups/normalizer|normalizer]]
 
 \[
 N_H(T)
@@ -23,14 +26,16 @@ of a fixed maximal torus \(T\subset H^\circ\).
 
 This is the normalizer-representative principle used in the letter for a
 disconnected group such as
-\(\widehat G\rtimes\Gamma\).
+[[langlands-letter/knowls/langlands-dual-group|\(\widehat G\)]]
+\(\rtimes\Gamma\).
 
 ## Based data
 
 A representative in \(N_H(T)\) induces an automorphism of the [[lie-groups/root-system|root system]].
 Composing with a Weyl-group element can arrange preservation of a chosen
 positive system when the induced component admits such a representative.
-This is a statement about a component and its twisted conjugacy, not the
+This is a statement about a component and its
+[[langlands/twisted-conjugacy|twisted conjugacy]], not the
 ordinary assertion that every semisimple element of a connected group lies
 in \(T\).
 
@@ -41,9 +46,12 @@ If \(H\) is connected reductive, every semisimple element is conjugate into
 
 ## Langlands role
 
-In an \(L\)-group, an unramified parameter lies in a Frobenius coset
+In an [[langlands/l-group|\(L\)-group]], an
+[[langlands/satake-parameter|unramified parameter]] lies in a
+[[langlands-letter/knowls/frobenius-unramified|Frobenius]] coset
 \(\widehat G\rtimes\operatorname{Frob}\). Conjugacy inside that coset is a
-twisted-conjugacy problem. A torus-normalizer representative makes the
+[[langlands/twisted-conjugacy|twisted-conjugacy problem]]. A
+torus-normalizer representative makes the
 root-theoretic Satake description possible, but modern formulations use the
 invariant quotient of the Frobenius fiber rather than treating the coset as
 a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]].

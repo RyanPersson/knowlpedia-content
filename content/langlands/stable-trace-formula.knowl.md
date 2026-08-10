@@ -23,22 +23,28 @@ I^G(f)
 \widehat S^{H_{\mathfrak e}}(f^{\mathfrak e}),
 \]
 
-where \(\mathfrak e\) ranges over elliptic endoscopic data,
-\(f^{\mathfrak e}\) is an endoscopic transfer of \(f\), and
-\(\widehat S^{H_{\mathfrak e}}\) is a stable distribution for the
-endoscopic group. The actual formula includes Levi, central, and measure
+where \(\mathfrak e\) ranges over elliptic
+[[langlands/endoscopic-datum|endoscopic data]], \(f^{\mathfrak e}\) is an
+[[langlands/endoscopic-transfer|endoscopic transfer]] of \(f\), and
+\(\widehat S^{H_{\mathfrak e}}\) is a
+[[langlands/stable-distribution|stable distribution]] for the endoscopic
+group. The actual formula includes
+[[algebraic-geometry-foundations/levi-subgroup|Levi]], central, and measure
 data suppressed here.
 
 ## Why stabilization is needed
 
-The invariant trace formula is invariant under conjugating a [[functional-analysis/test-function-space|test function]],
+The invariant trace formula is invariant under conjugating a
+[[harmonic-analysis/test-function-space-local-group|test function]],
 but its individual geometric terms can distinguish rational conjugacy
 classes inside one [[langlands/stable-conjugacy|stable class]]. On the
 spectral side, individual characters inside an \(L\)-packet are likewise
 unstable.
 
-Fourier analysis on the cohomological obstruction groups separates these
-unstable terms into \(\kappa\)-pieces. Endoscopic transfer identifies each
+Fourier analysis on the
+[[langlands-letter/knowls/nonabelian-h1-galois-cohomology|cohomological
+obstruction groups]] separates these unstable terms into
+[[langlands/kappa-orbital-integral|\(\kappa\)-pieces]]. Endoscopic transfer identifies each
 piece with a stable distribution on an endoscopic group.
 
 ## Inputs
@@ -57,7 +63,9 @@ Stabilization uses:
 Arthur developed the stabilization of the general invariant trace formula,
 initially conditional on fundamental lemmas that are now theorems in the
 required standard settings. Specialized stable formulas may impose
-quasi-splitness, central-character, test-function, or characteristic
+[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-splitness]],
+[[algebra-representation-theory/central-character|central-character]],
+test-function, or characteristic
 hypotheses. “The stable trace formula” names this framework and its precise
 instances, not one hypothesis-free finite sum.
 

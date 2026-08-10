@@ -10,7 +10,9 @@ section_mode = "progressive"
 
 Let \(X/\mathbb F_q\) be a [[algebraic-geometry-foundations/smooth-projective-curve|smooth projective curve]], let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]], and let \(I\) be a finite set. A **\(G\)-shtuka with legs
-\((x_i)_{i\in I}\)** over \(S\) consists of a \(G\)-bundle \(\mathcal G\) on
+\((x_i)_{i\in I}\)** over \(S\) consists of a
+[[algebraic-geometry-foundations/principal-g-bundle-on-scheme|\(G\)-bundle]]
+\(\mathcal G\) on
 \(X\times S\) and an isomorphism
 
 \[
@@ -23,19 +25,26 @@ Let \(X/\mathbb F_q\) be a [[algebraic-geometry-foundations/smooth-projective-cu
 {}^\tau\mathcal G=({\rm id}_X\times{\rm Frob}_S)^*\mathcal G,
 \]
 
-whose relative position at each leg is bounded by prescribed dominant
-coweight data.
+whose relative position at each leg is bounded by prescribed
+[[langlands/dominant-coweight|dominant coweight]] data. Here
+\({\rm Frob}_S\) is the
+[[algebra-fields-galois/frobenius-endomorphism|absolute Frobenius
+endomorphism]] of \(S\).
 
 ## Level and boundedness data
 
 A level structure along a finite subscheme \(N\subset X\), disjoint from the
 legs, trivializes the bundle compatibly with \(\varphi\). If a representation
-\(W\) of \(\widehat G^I\) is used instead of a tuple of coweights, geometric
-Satake supplies the corresponding bound and intersection complex.
+\(W\) of the [[langlands-letter/knowls/langlands-dual-group|dual group]]
+\(\widehat G^I\) is used instead of a tuple of coweights,
+[[langlands/geometric-satake-equivalence|geometric Satake]] supplies the
+corresponding bound and
+[[langlands/intersection-cohomology-complex|intersection complex]].
 
 Because the stack is generally not of finite type, one also uses
-Harder–Narasimhan truncations and a quotient by a lattice in the adelic
-center.
+[[algebraic-geometry-foundations/harder-narasimhan-filtration|Harder–Narasimhan
+truncations]] and a quotient by a lattice in the
+[[langlands-letter/knowls/adeles-restricted-product|adelic]] center.
 
 ## Iterated modifications
 
@@ -54,7 +63,8 @@ operations.
 
 ## Cohomological structure
 
-The intersection cohomology of stacks of bounded \(G\)-shtukas carries
+The [[langlands/intersection-cohomology-complex|intersection cohomology]] of
+stacks of bounded \(G\)-shtukas carries
 commuting Hecke and partial-Frobenius actions. Fusion or
 [[langlands/coalescence-of-shtuka-legs|coalescence]] identifies the
 cohomology when legs merge. These operations provide the creation,

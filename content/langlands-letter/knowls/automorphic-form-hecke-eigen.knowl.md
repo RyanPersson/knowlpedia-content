@@ -9,7 +9,11 @@ legacy_source_path = "langlands-letter/knowls/automorphic-form-hecke-eigen.md"
 section_mode = "progressive"
 +++
 
-Let \(F\) be a number field and \(G\) a connected reductive \(F\)-group. An
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|number field]] and
+\(G\) a connected
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive
+\(F\)-group]]. An
 [[langlands/automorphic-form|automorphic form]] is a suitably smooth,
 finite, moderate-growth function on
 
@@ -17,9 +21,12 @@ finite, moderate-growth function on
 G(F)\backslash G(\mathbb A_F),
 \]
 
-usually with a prescribed central character. At an unramified finite place
-\(v\), a vector fixed by a hyperspecial subgroup \(K_v\) is a **spherical
-Hecke eigenvector** if there is a character
+usually with a prescribed
+[[algebra-representation-theory/central-character|central character]]. At
+an unramified finite place \(v\), a vector fixed by a
+[[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial
+subgroup]] \(K_v\) is a **spherical Hecke eigenvector** if there is a
+[[algebra-representation-theory/character|character]]
 
 \[
 \chi_v:\mathcal H(G(F_v),K_v)\longrightarrow\mathbb C
@@ -36,9 +43,15 @@ The right translates of an eigenform can generate an
 \pi\simeq\bigotimes_v'\pi_v.
 \]
 
-For almost every finite \(v\), \(\pi_v\) is unramified and
+This is the
+[[langlands/restricted-tensor-product-automorphic-representation|restricted
+tensor product]] of the local components. For almost every finite \(v\),
+\(\pi_v\) is
+[[harmonic-analysis/unramified-representation-p-adic-group|unramified]] and
 \(\pi_v^{K_v}\) is one-dimensional. The [[harmonic-analysis/hecke-algebra-locally-compact-group-pair|spherical Hecke algebra]] acts on
-that line by \(\chi_v\). The normalized Satake isomorphism converts
+that line by \(\chi_v\). The
+[[langlands-letter/knowls/spherical-hecke-algebra-satake|normalized Satake
+isomorphism]] converts
 \(\chi_v\) into the [[langlands/satake-parameter|Satake parameter]] of
 \(\pi_v\).
 
@@ -47,7 +60,9 @@ that line by \(\chi_v\). The normalized Satake isomorphism converts
 1. The automorphic form \(\phi\) is a vector in a function space.
 2. The automorphic representation \(\pi\) is an irreducible global
    representation generated or detected by such vectors.
-3. The Satake parameter is an unramified local semisimple [[algebra-groups/conjugacy-class|conjugacy class]].
+3. The Satake parameter is an unramified local
+   [[langlands-letter/knowls/semisimple-element-and-class|semisimple]]
+   [[algebra-groups/conjugacy-class|conjugacy class]].
 
 A single form can be a simultaneous eigenvector at many places, while the
 restricted tensor product records the entire automorphic representation.
@@ -56,7 +71,8 @@ restricted tensor product records the entire automorphic representation.
 
 The letter moves directly from unramified Hecke eigencharacters to
 semisimple dual-group classes. That is the seed of the modern local
-parameter language, but it precedes \(L\)-packets, refined local Langlands,
+parameter language, but it precedes [[langlands/l-packet|\(L\)-packets]],
+[[langlands/refined-local-langlands-correspondence|refined local Langlands]],
 and the global automorphic-spectrum formalism.
 
 ## References

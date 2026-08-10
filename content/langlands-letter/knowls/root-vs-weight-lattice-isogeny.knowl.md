@@ -9,8 +9,10 @@ legacy_source_path = "langlands-letter/knowls/root-vs-weight-lattice-isogeny.md"
 section_mode = "progressive"
 +++
 
-Let \(G\) be a split semisimple group with maximal torus \(T\) and root
-system \(\Phi\subset X^*(T)\). The
+Let \(G\) be a
+[[langlands-letter/knowls/split-reductive-group|split semisimple group]]
+with [[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]]
+\(T\) and root system \(\Phi\subset X^*(T)\). The
 [[lie-groups/root-lattice|root lattice]] and abstract
 [[lie-groups/weight-lattice|weight lattice]] are
 
@@ -29,8 +31,11 @@ The actual character lattice satisfies
 Q\subseteq X^*(T)\subseteq P.
 \]
 
-Intermediate lattices classify the central isogeny forms with the given
-[[lie-groups/root-system|root system]]. The simply connected form has character lattice \(P\), while
+Intermediate lattices classify the
+[[langlands-letter/knowls/simply-connected-semisimple-group|central isogeny
+forms]] with the given [[lie-groups/root-system|root system]]. The
+[[langlands-letter/knowls/simply-connected-semisimple-group|simply connected
+form]] has character lattice \(P\), while
 the adjoint form has character lattice \(Q\).
 
 ## Dual statement
@@ -41,7 +46,9 @@ On cocharacters one has
 Q^\vee\subseteq X_*(T)\subseteq P^\vee,
 \]
 
-where \(Q^\vee\) here denotes the coroot lattice and \(P^\vee\) the
+where \(Q^\vee\) here denotes the
+[[langlands-letter/knowls/coroots-and-pairing|coroot lattice]] and
+\(P^\vee\) the
 coweight lattice—not the integral duals of \(Q\) and \(P\) with the same
 symbols. The simply connected form has \(X_*(T)=Q^\vee\), while the adjoint
 form has the full coweight lattice. The

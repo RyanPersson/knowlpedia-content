@@ -8,12 +8,16 @@ domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a number field \(F\), and let
+Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|number field]]
+\(F\), and let
 \(\pi\) be an [[langlands/automorphic-representation|automorphic
 representation]] of \(G(\mathbb A_F)\). It is **\(C\)-algebraic** if every
 archimedean component \(\pi_v\) is \(C\)-algebraic.
 
-Concretely, after choosing a maximal torus and [[lie-groups/positive-root|positive roots]], write the
+Concretely, after choosing a
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]] and
+[[lie-groups/positive-root|positive roots]], write the
 restriction of the archimedean [[langlands/local-l-parameter|Langlands parameter]] to
 \(\mathbb C^\times\) using a cocharacter exponent
 \(\lambda_\sigma\in X_*(\widehat T)\otimes_\mathbb Z\mathbb C\). If
@@ -32,7 +36,8 @@ the [[lie-groups/infinitesimal-character|infinitesimal character]] is integral i
 appropriate to the infinitesimal character of a finite-dimensional
 algebraic representation.
 
-For isobaric representations of \(\operatorname{GL}_n\), this agrees with
+For [[langlands/isobaric-automorphic-representation|isobaric
+representations]] of \(\operatorname{GL}_n\), this agrees with
 Clozel's convention for an
 [[langlands/algebraic-automorphic-representation|algebraic automorphic
 representation]].

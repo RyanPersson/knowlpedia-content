@@ -9,7 +9,10 @@ legacy_source_path = "langlands-letter/knowls/ideles-artin-reciprocity-hecke-cha
 section_mode = "progressive"
 +++
 
-Let \(F\) be a number field. Its **idele group** is the restricted product
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|number field]].
+Its **idele group** is the
+[[langlands-letter/knowls/adeles-restricted-product|restricted product]]
 
 \[
 \mathbb A_F^\times
@@ -24,12 +27,15 @@ with respect to \(\mathcal O_v^\times\) at the finite places, and its
 C_F=F^\times\backslash\mathbb A_F^\times.
 \]
 
-A **Hecke character** or Grössencharakter is a continuous quasicharacter
+A **Hecke character** or Grössencharakter is a continuous
+[[algebra-representation-theory/character|quasicharacter]]
 \(\chi:C_F\to\mathbb C^\times\).
 
 ## Hecke L-function
 
-Writing \(\chi=\bigotimes_v'\chi_v\), the Hecke \(L\)-function has local
+Writing \(\chi=\bigotimes_v'\chi_v\) as a restricted tensor product, the
+Hecke [[langlands-letter/knowls/euler-product-and-local-factor|\(L\)-function]]
+has local
 factors. At an unramified finite place,
 
 \[
@@ -38,8 +44,10 @@ L_v(s,\chi_v)
 \left(1-\chi_v(\varpi_v)q_v^{-s}\right)^{-1},
 \]
 
-with the inverse altered if the local reciprocity map uses the opposite
-Frobenius convention.
+with the inverse altered if the
+[[langlands/local-class-field-theory|local reciprocity map]] uses the
+opposite [[langlands-letter/knowls/frobenius-unramified|Frobenius
+convention]].
 
 ## Artin reciprocity
 
@@ -53,12 +61,15 @@ Global class field theory supplies a continuous reciprocity map
 
 For a number field it is surjective with kernel the identity component
 \(C_F^\circ\), so it induces an isomorphism from the profinite completion of
-\(C_F\) to the abelianized absolute [[algebra-fields-galois/galois-group|Galois group]]. Some authors send a local
-uniformizer to arithmetic Frobenius and others to geometric Frobenius.
+\(C_F\) to the abelianized
+[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]].
+Some authors send a local [[algebra-commutative/dvr|uniformizer]] to
+arithmetic Frobenius and others to geometric Frobenius.
 
 Finite-order Hecke characters therefore correspond to finite-order
 one-dimensional Galois characters. Algebraic Hecke characters give
-compatible one-dimensional \(\ell\)-adic characters after choosing
+[[langlands/compatible-system-of-galois-representations|compatible
+one-dimensional \(\ell\)-adic characters]] after choosing
 coefficient embeddings.
 
 ## Modern placement

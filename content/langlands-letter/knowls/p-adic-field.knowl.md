@@ -19,7 +19,9 @@ Its normalized discrete valuation
 v_F:F^\times\longrightarrow\mathbb Z
 \]
 
-determines the valuation ring, [[algebra-rings/maximal-ideal|maximal ideal]], and [[algebra-commutative/residue-field|residue field]]:
+determines the [[algebra-fields-galois/valuation-ring|valuation ring]],
+[[algebra-rings/maximal-ideal|maximal ideal]], and
+[[algebra-commutative/residue-field|residue field]]:
 
 \[
 \mathcal O_F=\{x:v_F(x)\geq0\},
@@ -29,15 +31,19 @@ determines the valuation ring, [[algebra-rings/maximal-ideal|maximal ideal]], an
 k_F=\mathcal O_F/\mathfrak p_F.
 \]
 
-The residue field is finite, of cardinality \(q_F=p^f\). A
-**uniformizer** \(\varpi_F\) satisfies \(v_F(\varpi_F)=1\) and generates
+The residue field is
+[[algebra-fields-galois/finite-field|finite]], of cardinality \(q_F=p^f\).
+A **[[algebra-commutative/dvr|uniformizer]]** \(\varpi_F\) satisfies
+\(v_F(\varpi_F)=1\) and generates
 \(\mathfrak p_F\).
 
 ## Topology
 
 The ideals \(\mathfrak p_F^n\) form a neighborhood basis of \(0\).
 The ring \(\mathcal O_F\) is compact and open, while \(F\) is [[topology/locally-compact-space|locally compact]]
-and totally disconnected. The absolute value is commonly normalized by
+and totally disconnected; its additive group is
+[[topology/locally-profinite-group|locally profinite]]. The absolute value
+is commonly normalized by
 
 \[
 |x|_F=q_F^{-v_F(x)}.

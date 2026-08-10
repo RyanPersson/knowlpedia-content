@@ -10,7 +10,8 @@ section_mode = "progressive"
 
 An **algebraic automorphic representation** is an
 [[langlands/automorphic-representation|automorphic representation]] over a
-number field whose archimedean [[langlands/local-l-parameter|Langlands parameters]] have integral
+[[langlands-letter/knowls/global-local-fields-completions|number field]] whose
+archimedean [[langlands/local-l-parameter|Langlands parameters]] have integral
 infinitesimal data. This phrase is incomplete unless its normalization is
 specified.
 
@@ -21,7 +22,8 @@ differ by the half-sum of the [[lie-groups/positive-root|positive roots]].
 
 ## Classical convention for general linear groups
 
-For an isobaric automorphic representation of
+For an [[langlands/isobaric-automorphic-representation|isobaric automorphic
+representation]] of
 \(\operatorname{GL}_n(\mathbb A_F)\), Clozel's “algebraic” condition agrees
 with the modern \(C\)-algebraic condition: its [[lie-groups/infinitesimal-character|infinitesimal character]] at
 each archimedean place is that of a finite-dimensional algebraic

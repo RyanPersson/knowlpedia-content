@@ -8,9 +8,13 @@ domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G^*\) be a quasi-split connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a local field,
+Let \(G^*\) be a
+[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split
+connected reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|local field]],
 choose a [[langlands/whittaker-datum|Whittaker datum]] \(\mathfrak w\), and
-let \(\varphi:L_F\to{}^LG^*\) be a relevant parameter. The **refined local
+let \(\varphi:L_F\to{}^LG^*\) be a relevant
+[[langlands/local-l-parameter|parameter]]. The **refined local
 Langlands correspondence** predicts a canonical internal parametrization of
 the compound packet of \(\varphi\) by [[algebra-representation-theory/irreducible-representation|irreducible representations]] of the
 refined centralizer group:
@@ -21,9 +25,12 @@ refined centralizer group:
 \operatorname{Irr}\!\left(\pi_0(S_\varphi^+)\right).
 \]
 
-Here the left side ranges over appropriately rigidified inner forms of
-\(G^*\); on the right, the central character of an irreducible representation
-records the inner form on which the corresponding packet member lives.
+Here the left side ranges over
+[[langlands/rigid-inner-twist|rigid inner twists]] of
+\(G^*\); on the right, the
+[[algebra-representation-theory/central-character|central character]] of an
+irreducible representation records the inner form on which the corresponding
+packet member lives.
 
 ## Quasi-split fiber
 
@@ -44,8 +51,9 @@ and pure inner forms are reviewed in
 ## Character identities
 
 The parametrization is characterized not just as a bijection but through
-stable and endoscopic character identities. The trivial component-group
-element gives a stable packet distribution, while other elements select
+[[langlands/stable-distribution|stable distributions]] and endoscopic
+character identities. The trivial component-group element gives a stable
+packet distribution, while other elements select
 [[langlands/endoscopic-transfer|endoscopic transfers]]. Dependence on the Whittaker datum and rigidifying
 cocycle is governed by explicit character twists.
 

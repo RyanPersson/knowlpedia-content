@@ -8,8 +8,11 @@ domains = ["langlands", "number-theory", "spectral-theory"]
 section_mode = "progressive"
 +++
 
-The **residual automorphic spectrum** of a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\)
-over a global field \(F\) is the [[linear-algebra/orthogonal-complement|orthogonal complement]] of the cuspidal
+The **residual automorphic spectrum** of a connected
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
+\(G\) over a
+[[langlands-letter/knowls/global-local-fields-completions|global field]] \(F\)
+is the [[linear-algebra/orthogonal-complement|orthogonal complement]] of the cuspidal
 spectrum inside the [[langlands/discrete-automorphic-spectrum|discrete
 automorphic spectrum]]:
 
@@ -26,10 +29,14 @@ representation**.
 
 Start with a
 [[langlands/cuspidal-automorphic-representation|cuspidal automorphic
-representation]] \(\sigma\) of a Levi subgroup \(M\). Normalized
-parabolic induction produces a meromorphic family of representations and
-Eisenstein series. Residues at suitable poles can be square-integrable even
-though their constant terms do not vanish. Their irreducible constituents
+representation]] \(\sigma\) of a
+[[algebraic-geometry-foundations/levi-subgroup|Levi subgroup]] \(M\).
+[[harmonic-analysis/normalized-parabolic-induction-p-adic-group|Normalized
+parabolic induction]] at the finite places produces a meromorphic family of
+representations and [[langlands-letter/knowls/eisenstein-series|Eisenstein
+series]]. Residues at suitable poles can be square-integrable even
+though their [[langlands/automorphic-constant-term|constant terms]] do not
+vanish. Their irreducible constituents
 generate the residual spectrum.
 
 This construction is recursive in the Levi subgroups and is controlled by

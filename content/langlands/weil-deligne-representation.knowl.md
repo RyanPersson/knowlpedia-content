@@ -8,7 +8,9 @@ domains = ["langlands", "algebra-fields-galois"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a nonarchimedean local field. A **Weil–Deligne
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]]. A **Weil–Deligne
 representation** on a finite-dimensional complex [[linear-algebra/vector-space|vector space]] \(V\) is a pair
 \((r,N)\), where
 
@@ -16,7 +18,9 @@ representation** on a finite-dimensional complex [[linear-algebra/vector-space|v
 r:W_F\longrightarrow\operatorname{GL}(V)
 \]
 
-is continuous with open kernel on inertia, \(N\in\operatorname{End}(V)\) is
+is a representation of the [[langlands/weil-group|Weil group]], continuous
+with open kernel on the [[algebra-fields-galois/inertia-subgroup|inertia
+subgroup]], \(N\in\operatorname{End}(V)\) is
 nilpotent, and
 
 \[
@@ -31,7 +35,8 @@ group]].
 ## Frobenius semisimplification
 
 The pair is **Frobenius-semisimple** if \(r(\operatorname{Fr}_F)\) is
-semisimple. Replacing the Frobenius action by its semisimple part gives the
+[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]. Replacing
+the Frobenius action by its semisimple part gives the
 Frobenius semisimplification. Local Langlands for
 \(\operatorname{GL}_n\) is normally stated using isomorphism classes of
 Frobenius-semisimple Weil–Deligne representations.
@@ -50,6 +55,10 @@ L(s,r,N)=
 
 Changing to arithmetic Frobenius changes the displayed convention, not the
 underlying representation.
+
+The corresponding [[langlands/local-epsilon-factor|epsilon factor]] and
+[[langlands/local-gamma-factor|gamma factor]] enter the local functional
+equation.
 
 ## Monodromy-free case
 

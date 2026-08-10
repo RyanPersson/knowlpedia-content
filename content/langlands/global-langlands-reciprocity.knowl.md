@@ -20,14 +20,16 @@ It is a program of correspondences rather than one unconditional bijection.
 
 ## Abelian case
 
-For \(G=\operatorname{GL}_1\), global class field theory identifies
-characters of the idèle class group
+For \(G=\operatorname{GL}_1\),
+[[langlands-letter/knowls/ideles-artin-reciprocity-hecke-character|global
+class field theory]] identifies characters of the idèle class group
 
 \[
 F^\times\backslash\mathbb A_F^\times
 \]
 
-with one-dimensional representations of the abelianized global [[algebra-fields-galois/galois-group|Galois group]],
+with one-dimensional representations of the abelianized global
+[[langlands-letter/knowls/galois-extension-and-group|Galois group]],
 subject to the chosen reciprocity and Frobenius normalization. This is the
 abelian model for the general principle.
 
@@ -55,9 +57,12 @@ The conjecture includes more than matching sets. It should preserve:
 
 - localization at every place;
 - unramified [[langlands/satake-parameter|Satake parameters]];
-- global and local \(L\)- and \(\varepsilon\)-factors;
-- central characters and duality;
-- functorial transfer under homomorphisms of \(L\)-groups.
+- global and local \(L\)- and [[langlands/local-epsilon-factor|epsilon
+  factors]];
+- [[algebra-representation-theory/central-character|central characters]] and
+  duality;
+- [[langlands-letter/knowls/langlands-functoriality-l-homomorphism|functorial
+  transfer]] under homomorphisms of \(L\)-groups.
 
 A result proving only one direction or only equality of almost-all
 unramified parameters should be named accordingly.

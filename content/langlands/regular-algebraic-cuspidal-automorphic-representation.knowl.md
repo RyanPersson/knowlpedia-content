@@ -8,7 +8,9 @@ domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a number field. A **regular algebraic cuspidal automorphic
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|number field]]. A
+**regular algebraic cuspidal automorphic
 representation** of \(\operatorname{GL}_n(\mathbb A_F)\), often abbreviated
 RACAR, is a
 [[langlands/cuspidal-automorphic-representation|cuspidal automorphic
@@ -42,7 +44,9 @@ RACAR representations are a principal theorem-level setting for the
 [[langlands/automorphic-galois-correspondence|automorphic–Galois
 correspondence]]. Under hypotheses that vary with the base field and
 polarization, they have associated [[langlands/compatible-system-of-galois-representations|compatible systems]] of
-\(n\)-dimensional \(\ell\)-adic Galois representations, with extensive
+\(n\)-dimensional \(\ell\)-adic Galois representations, whose local
+representations above \(\ell\) have prescribed
+[[langlands/hodge-tate-representation|Hodge–Tate weights]], with extensive
 [[langlands/local-global-compatibility|local–global compatibility]].
 
 ## Variants

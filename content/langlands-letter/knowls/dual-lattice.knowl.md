@@ -33,11 +33,13 @@ cocharacter lattices]] of an algebraic torus \(T\),
 X_*(T)\simeq X^*(T)^\vee.
 \]
 
-If \(T\) is defined over a nonsplit field, both lattices carry a Galois
-action and the evaluation pairing is Galois-equivariant.
+If \(T\) is defined over a nonsplit field, both lattices carry an
+[[langlands-letter/knowls/galois-extension-and-group|absolute Galois-group
+action]] and the evaluation pairing is Galois-equivariant.
 
 The coordinate ring of a complex torus with character lattice \(L\) is the
-group algebra \(\mathbb C[L]\). Thus passing to a dual torus exchanges its
+[[algebra-representation-theory/group-algebra|group algebra]]
+\(\mathbb C[L]\). Thus passing to a dual torus exchanges its
 character and cocharacter lattices.
 
 ## Distinctions

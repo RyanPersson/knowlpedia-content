@@ -18,9 +18,12 @@ In Fargues–Scholze theory, the **spectral action** is a monoidal action
 D_{\mathrm{lis}}(\operatorname{Bun}_G)
 \]
 
-of perfect complexes on the
+of [[algebraic-geometry-foundations/perfect-complex|perfect complexes]] on
+the
 [[langlands/stack-of-l-parameters|stack of local \(L\)-parameters]] on the
-derived category of lisse \(\ell\)-adic sheaves on the stack of
+derived category of
+[[algebraic-geometry-foundations/lisse-ell-adic-sheaf|lisse
+\(\ell\)-adic sheaves]] on the stack of
 [[langlands/g-bundle-on-fargues-fontaine-curve|\(G\)-bundles on the
 Fargues–Fontaine curve]].
 
@@ -29,8 +32,11 @@ theorem.
 
 ## Construction principle
 
-Geometric Satake supplies [[langlands/hecke-functor|Hecke functors]] indexed by representations of
-\(\widehat G^I\), and the leg divisors carry independent Weil-group
+[[langlands/geometric-satake-equivalence|Geometric Satake]] supplies
+[[langlands/hecke-functor|Hecke functors]] indexed by representations of the
+[[langlands-letter/knowls/langlands-dual-group|dual group]]
+\(\widehat G^I\), and the leg divisors carry independent
+[[langlands/weil-group|Weil-group]]
 actions. Their compatibility for all finite sets \(I\) satisfies the
 relations of perfect complexes on the cocycle stack. This categorical
 upgrade packages the local [[langlands/excursion-operator|excursion operators]].
@@ -39,18 +45,22 @@ upgrade packages the local [[langlands/excursion-operator|excursion operators]].
 
 Taking endomorphisms of the tensor unit gives the map from the
 [[langlands/spectral-bernstein-center|spectral Bernstein center]] to the
-ordinary Bernstein center. The action also decomposes the sheaf category
+ordinary [[harmonic-analysis/bernstein-center|Bernstein center]]. The action
+also decomposes the sheaf category
 according to connected components of the parameter stack.
 
-For a point \(\phi\) with centralizer \(S_\phi\), the fiber category remembers
+For a point \(\phi\) with
+[[algebra-groups/centralizer|centralizer]] \(S_\phi\), the fiber category remembers
 representations of \(S_\phi\), which is the structure expected to encode the
-members of an \(L\)-packet across the groups \(G_b(E)\).
+members of an [[langlands/l-packet|\(L\)-packet]] across the groups
+\(G_b(E)\).
 
 ## Theorem versus categorical conjecture
 
 The spectral action itself is constructed. A much stronger conjecture says
-that acting on a Whittaker sheaf gives a fully faithful functor from perfect
-complexes on the parameter stack and extends to an equivalence between an
+that acting on a Whittaker sheaf gives a fully faithful functor from
+[[algebraic-geometry-foundations/perfect-complex|perfect complexes]] on the
+parameter stack and extends to an equivalence between an
 appropriate coherent spectral category and the automorphic sheaf category.
 That categorical local Langlands equivalence is not proved in full
 generality.

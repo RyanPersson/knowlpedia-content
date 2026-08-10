@@ -9,7 +9,8 @@ section_mode = "progressive"
 +++
 
 Assume the [[langlands/local-langlands-correspondence|basic local Langlands
-correspondence]] for a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a local field. For
+correspondence]] for a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a
+[[langlands-letter/knowls/global-local-fields-completions|local field]]. For
 a relevant parameter \(\varphi\), its **\(L\)-packet** is the fiber
 
 \[
@@ -30,15 +31,21 @@ parameter. Their internal distinctions are encoded by a finite
 
 ## Stable character
 
-For a tempered packet, an appropriately weighted sum of the Harish-Chandra
-characters of its members is expected to be stable. Other linear combinations
+For a [[harmonic-analysis/tempered-representation-p-adic-group|tempered]]
+packet of a \(p\)-adic group, an appropriately weighted sum of the
+[[harmonic-analysis/harish-chandra-character-p-adic-group|Harish–Chandra
+characters]] of its members is expected to be a
+[[langlands/stable-distribution|stable distribution]]. Other linear combinations
 are related by [[langlands/endoscopic-transfer|endoscopic transfer]]. This character-theoretic structure is part
 of what makes the partition into packets mathematically meaningful.
 
 ## Inner forms
 
 The notation \(\Pi_\varphi(G)\) fixes one group \(G(F)\). A **compound packet**
-ranges over suitable pure or rigid inner forms of a quasi-split group. The
+ranges over suitable pure or
+[[langlands/rigid-inner-twist|rigid inner forms]] of a
+[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split
+group]]. The
 refined correspondence uses the compound packet because its component-group
 parametrization naturally records which inner form contains each member.
 

@@ -8,11 +8,19 @@ domains = ["langlands", "representation-theory", "number-theory"]
 section_mode = "progressive"
 +++
 
-For a local [[langlands/arthur-parameter|Arthur parameter]] \(\psi\) of a
-[[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\), its **Arthur packet** or **\(A\)-packet**
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|local field]]. For a
+local [[langlands/arthur-parameter|Arthur parameter]] \(\psi\) of a
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
+\(G\) over \(F\), its **Arthur packet** or **\(A\)-packet**
 \(\Pi_\psi(G)\) is a finite collection, more precisely often a finite
-multiset, of irreducible admissible representations of \(G(F)\), equipped
-with a pairing against a component group associated to \(\psi\).
+multiset, of irreducible admissible representations of \(G(F)\), where
+admissibility has its
+[[harmonic-analysis/admissible-representation-p-adic-group|nonarchimedean]]
+or
+[[lie-groups/admissible-representation-real-reductive-group|archimedean]]
+meaning according to \(F\). The packet is equipped with a pairing against a
+component group associated to \(\psi\).
 
 ## Relation to L-packets
 
@@ -29,12 +37,15 @@ Write \(\mathcal S_\psi\) for an appropriate finite quotient of the
 component group of the centralizer of \(\psi\) in \(\widehat G\). After
 normalization by a [[langlands/whittaker-datum|Whittaker datum]], members of
 the packet carry characters or representations of \(\mathcal S_\psi\).
-The exact enhancement depends on the group and on inner-form data.
+The exact enhancement depends on the group and on
+[[langlands/rigid-inner-twist|inner-form data]].
 
 ## Global packet
 
-A global parameter has localizations \(\psi_v\). Its global packet is built
-from restricted tensor products
+A [[langlands/global-langlands-parameter|global parameter]] has localizations
+\(\psi_v\). Its global packet is built from
+[[langlands/restricted-tensor-product-automorphic-representation|restricted
+tensor products]]
 
 \[
 \pi=\bigotimes_v'\pi_v,
@@ -42,14 +53,18 @@ from restricted tensor products
 \pi_v\in\Pi_{\psi_v},
 \]
 
-subject to almost-all unramified normalization. Not every such tensor
+subject to almost-all
+[[harmonic-analysis/unramified-representation-p-adic-group|unramified]]
+normalization. Not every such tensor
 product occurs in the [[langlands/discrete-automorphic-spectrum|discrete automorphic spectrum]]. The
 [[langlands/arthur-multiplicity-formula|Arthur multiplicity formula]]
 imposes a global component-group character condition.
 
 ## Status
 
-For quasisplit symplectic and [[lie-groups/special-orthogonal-group|special orthogonal groups]], Arthur constructed
+For
+[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]]
+symplectic and [[lie-groups/special-orthogonal-group|special orthogonal groups]], Arthur constructed
 the relevant packets and classification; extensions cover inner forms and
 unitary groups in specified settings. For a general connected reductive
 group, \(A\)-packets remain conjectural and several candidate constructions

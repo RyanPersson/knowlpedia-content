@@ -8,7 +8,9 @@ domains = ["langlands", "representation-theory", "algebraic-geometry-foundations
 section_mode = "progressive"
 +++
 
-For a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a nonarchimedean local field \(E\) and a
+For a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]] \(E\) and a
 coefficient ring \(\Lambda\), the **spectral Bernstein center** is
 
 \[
@@ -25,8 +27,10 @@ the ring of global functions on the
 
 ## Comparison with the ordinary center
 
-The ordinary Bernstein center \(Z(G(E),\Lambda)\) is the center of the
-category of smooth \(G(E)\)-representations, equivalently the
+The ordinary [[harmonic-analysis/bernstein-center|Bernstein center]]
+\(Z(G(E),\Lambda)\) is the center of the category of
+[[harmonic-analysis/smooth-representation-totally-disconnected-group|smooth
+\(G(E)\)-representations]], equivalently the
 endomorphisms of its identity functor. Fargues–Scholze construct, under
 their coefficient hypotheses, a canonical [[algebra-modules/algebra-homomorphism|algebra homomorphism]]
 
@@ -38,12 +42,14 @@ Z(G(E),\Lambda).
 \]
 
 Evaluating the image on an [[algebra-representation-theory/irreducible-representation|irreducible representation]] recovers the
-semisimple \(L\)-parameter attached by [[langlands/excursion-operator|excursion operators]].
+[[langlands/local-l-parameter|semisimple \(L\)-parameter]] attached by
+[[langlands/excursion-operator|excursion operators]].
 
 ## Why global functions are coarser than the stack
 
 An invariant regular function sees the semisimple closed orbit of a
-parameter but not a representation of its centralizer. Consequently the
+parameter but not a representation of its
+[[algebra-groups/centralizer|centralizer]]. Consequently the
 center can decompose categories into parameter components without by itself
 giving the internal parameterization of an \(L\)-packet.
 
@@ -51,7 +57,9 @@ giving the internal parameterization of an \(L\)-packet.
 
 The existence of the map is a theorem in the Fargues–Scholze framework,
 with precise restrictions on coefficients, including inversion of relevant
-component-group orders. For quasisplit \(G\), injectivity and a
+[[langlands/component-group-of-l-parameter|component-group]] orders. For
+[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]]
+\(G\), injectivity and a
 characterization of its image as the stable part of the Bernstein center
 belong to further conjectures in general.
 
@@ -60,7 +68,8 @@ It is therefore incorrect to call \(\Psi_G\) an unconditional isomorphism.
 ## Categorical refinement
 
 The ring is the degree-zero shadow of the
-[[langlands/spectral-action|spectral action]] of perfect complexes on the
+[[langlands/spectral-action|spectral action]] of
+[[algebraic-geometry-foundations/perfect-complex|perfect complexes]] on the
 entire parameter stack. That action retains derived and stabilizer
 information not visible to global functions alone.
 

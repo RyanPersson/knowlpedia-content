@@ -8,9 +8,15 @@ domains = ["harmonic-analysis", "langlands", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(G=\mathbf G(F)\) for a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a nonarchimedean
-local field, let \(P=MN\) be a [[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroup]] with Levi factor \(M\), and
-let \(\sigma\) be a smooth representation of \(M\), inflated across \(N\).
+Let \(G=\mathbf G(F)\) for a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]], let \(P=MN\) be a
+[[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroup]] with
+[[algebraic-geometry-foundations/levi-subgroup|Levi factor]] \(M\) and
+[[algebraic-geometry-foundations/unipotent-radical|unipotent radical]] \(N\),
+and let \(\sigma\) be a
+[[harmonic-analysis/smooth-representation-totally-disconnected-group|smooth
+representation]] of \(M\), inflated across \(N\).
 The **normalized parabolic induction** is
 
 \[
@@ -18,8 +24,9 @@ i_P^G(\sigma)=\operatorname{Ind}_P^G
 \bigl(\delta_P^{1/2}\otimes\sigma\bigr),
 \]
 
-where \(\delta_P(p)=|\det(\operatorname{Ad}(p)|_{\mathfrak n})|_F\) is the
-parabolic modulus. The half-modulus factor makes induction carry unitary
+where \(\delta_P\) is the
+[[harmonic-analysis/parabolic-modulus-character|parabolic modulus character]].
+The half-modulus factor makes induction carry unitary
 representations to unitary representations.
 
 ## Function model
@@ -36,8 +43,11 @@ The group \(G\) acts by [[lie-groups/left-translation|left translation]].
 
 ## Role in the Langlands classification
 
-Every irreducible admissible representation is the unique irreducible quotient
-of \(i_P^G(\tau\otimes\chi)\) for suitable tempered \(\tau\) on a Levi subgroup
+The [[harmonic-analysis/langlands-classification-p-adic-group|p-adic Langlands
+classification]] says that every irreducible admissible representation is the
+unique irreducible quotient of \(i_P^G(\tau\otimes\chi)\) for suitable
+[[harmonic-analysis/tempered-representation-p-adic-group|tempered]]
+\(\tau\) on a Levi subgroup
 and a character \(\chi\) in a positive chamber. [[harmonic-analysis/supercuspidal-representation|Supercuspidal representations]]
 provide the primitive inducing data further down the classification.
 

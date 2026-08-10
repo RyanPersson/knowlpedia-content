@@ -8,7 +8,11 @@ domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a local field and \(G\) a connected reductive \(F\)-group. Put
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|local field]], let
+\(W_F\) denote its [[langlands/weil-group|Weil group]], and let \(G\) be a
+connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
+\(F\)-group]].  The local Langlands group used here is
 
 \[
 L_F=
@@ -25,14 +29,18 @@ continuous homomorphism
 \varphi:L_F\longrightarrow{}^LG
 \]
 
-whose composite with \({}^LG\to W_F\) is the natural projection, whose
+to the [[langlands/l-group|\(L\)-group]] whose composite with
+\({}^LG\to W_F\) is the natural projection, whose
 restriction to \(\operatorname{SL}_2(\mathbb C)\) is algebraic when that factor
-is present, and whose Weil-group elements have semisimple dual-group part.
+is present, and whose Weil-group elements have
+[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]
+[[langlands-letter/knowls/langlands-dual-group|dual-group]] part.
 Parameters are considered up to conjugation by \(\widehat G\).
 
 ## Relevance
 
-For a non-quasi-split inner form, not every parameter for the common
+For a non-[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]]
+[[langlands-letter/knowls/galois-descent-forms|inner form]], not every parameter for the common
 \(L\)-group corresponds to a representation of that particular form. A
 parameter is **relevant** to \(G\) when every [[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroup]] of
 \({}^LG\) containing its image corresponds to a parabolic subgroup defined
@@ -42,11 +50,17 @@ for \(G\). Basic local Langlands uses relevant parameters.
 
 A parameter is **tempered** when the image of \(W_F\) in \(\widehat G\) is
 bounded after the standard projection, and **discrete** when its image is not
-contained in any proper Levi subgroup of \({}^LG\). These conditions parallel
-tempered and essentially square-integrable representations.
+contained in any proper
+[[algebraic-geometry-foundations/levi-subgroup|Levi subgroup]] of
+\({}^LG\). These conditions parallel
+[[harmonic-analysis/tempered-representation-p-adic-group|tempered]] and
+[[lie-groups/square-integrable-modulo-center-representation|essentially
+square-integrable]] representations.
 
-A parameter trivial on the Deligne \(\operatorname{SL}_2\) has zero monodromy.
-An unramified parameter is additionally trivial on inertia and is determined
+A parameter trivial on the Deligne \(\operatorname{SL}_2\) has zero
+[[langlands/weil-deligne-group|monodromy]]. An unramified parameter is
+additionally trivial on the
+[[algebra-fields-galois/inertia-subgroup|inertia subgroup]] and is determined
 by a [[langlands/satake-parameter|Satake parameter]].
 
 ## Weil–Deligne form for \(\mathrm{GL}_n\)

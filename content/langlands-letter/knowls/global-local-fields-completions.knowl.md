@@ -24,7 +24,8 @@ A number field has:
 - real and complex archimedean places, with completions \(\mathbb R\) or
   \(\mathbb C\);
 - nonarchimedean places, whose completions are finite extensions of
-  \(\mathbb Q_p\).
+  \(\mathbb Q_p\), hence
+  [[langlands-letter/knowls/p-adic-field|\(p\)-adic fields]].
 
 ## Function fields
 
@@ -34,7 +35,12 @@ of a Laurent-series field \(\mathbb F_q((t))\).
 
 ## Local fields
 
-A **local field** is a nondiscrete [[topology/locally-compact-space|locally compact]] topological field.
+A **local field** is a nondiscrete
+[[topology/locally-compact-space|locally compact]] topological field. A
+nonarchimedean local field has a
+[[algebra-fields-galois/valuation-ring|valuation ring]] with a
+[[algebra-commutative/dvr|uniformizer]] and finite
+[[algebra-commutative/residue-field|residue field]].
 In the Langlands program it is often useful to state separately whether the
 field is archimedean, nonarchimedean of characteristic \(0\), or
 nonarchimedean of positive characteristic, since representation-theoretic

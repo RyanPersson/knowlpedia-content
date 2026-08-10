@@ -8,9 +8,14 @@ domains = ["langlands", "harmonic-analysis", "algebraic-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a nonarchimedean local field, let \(G\) be an unramified
-[[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]], and let \(H\) be an unramified endoscopic group. Choose
-hyperspecial subgroups \(K\subset G(F)\) and \(K_H\subset H(F)\), with
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]], let \(G\) be an
+[[algebraic-geometry-foundations/unramified-reductive-group|unramified
+reductive group]], and let \(H\) be an unramified
+[[langlands/endoscopic-datum|endoscopic group]]. Choose
+[[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial
+subgroups]] \(K\subset G(F)\) and \(K_H\subset H(F)\), with
 volume \(1\). The **fundamental lemma** states that the unit functions
 
 \[
@@ -26,7 +31,10 @@ transfer]]. Equivalently, their matching [[langlands/strongly-regular-semisimple
 ## Hecke-algebra form
 
 More generally, the transfer homomorphism between unramified spherical
-Hecke algebras, defined through the Satake isomorphism, sends a spherical
+[[harmonic-analysis/hecke-algebra-locally-compact-group-pair|Hecke algebras]],
+defined through the
+[[langlands-letter/knowls/spherical-hecke-algebra-satake|Satake isomorphism]],
+sends a spherical
 Hecke function on \(G\) to a function on \(H\) with matching stable orbital
 integrals. The unit-element statement is the historically central case.
 
@@ -35,14 +43,17 @@ integrals. The unit-element statement is the historically central case.
 The statement is a deep theorem. Langlands and Shelstad formulated it as the
 local identity needed to stabilize the trace formula. Ngô Bảo Châu proved
 the [[lie-groups/lie-algebra|Lie algebra]] fundamental lemma by interpreting the relevant orbital
-integrals through the geometry of the Hitchin fibration. Reduction and
+integrals through the geometry of the
+[[langlands/hitchin-fibration|Hitchin fibration]]. Reduction and
 transfer results of Waldspurger, Hales, Cluckers–Loeser, and others connect
 the Lie algebra, group, and characteristic-zero formulations.
 
 ## Geometric content
 
 Over a function field, orbital integrals become weighted point counts on
-fibers related to affine Springer fibers. Globally, the Hitchin fibration
+fibers related to
+[[langlands/affine-springer-fiber|affine Springer fibers]]. Globally, the
+Hitchin fibration
 organizes these fibers. A support theorem and comparison of endoscopic
 summands in its \(\ell\)-adic cohomology yield the required identities.
 

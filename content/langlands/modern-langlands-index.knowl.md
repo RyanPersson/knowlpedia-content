@@ -18,6 +18,11 @@ collection. Its bundled vocabulary now points into this reusable graph.
 Geometric Langlands has a separate
 [[langlands/geometric-langlands-index|guided index]].
 
+The campaign's page-by-page interlinking audit also has a dedicated
+[[langlands/modern-langlands-dependency-index|dependency closure index]] for
+the 57 reusable prerequisites added across arithmetic, harmonic analysis,
+endoscopy, étale cohomology, and perfectoid geometry.
+
 ## Local groups and representations
 
 ### Parameter input

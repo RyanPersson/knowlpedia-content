@@ -8,7 +8,8 @@ domains = ["langlands", "harmonic-analysis", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(\gamma\in G(F)\) be [[langlands/strongly-regular-semisimple-element|strongly regular semisimple]] over a local field.
+Let \(\gamma\in G(F)\) be [[langlands/strongly-regular-semisimple-element|strongly regular semisimple]] over a
+[[langlands-letter/knowls/global-local-fields-completions|local field]].
 Write
 
 \[
@@ -16,7 +17,10 @@ A_\gamma=
 \ker\!\left[H^1(F,G_\gamma)\to H^1(F,G)\right],
 \]
 
-which parametrizes the rational [[algebra-groups/conjugacy-class|conjugacy classes]] in the
+which is a kernel in
+[[langlands-letter/knowls/nonabelian-h1-galois-cohomology|nonabelian Galois
+cohomology]] and parametrizes the rational
+[[algebra-groups/conjugacy-class|conjugacy classes]] in the
 [[langlands/stable-conjugacy|stable class]] of \(\gamma\). Given a character
 \(\kappa:A_\gamma\to\mathbb C^\times\), the **\(\kappa\)-orbital integral**
 is
@@ -43,9 +47,13 @@ For the trivial character \(\kappa=1\), the expression is the
 
 ## Dual interpretation
 
-Tate–Nakayama duality relates characters of the cohomological group
-\(A_\gamma\) to component-group data in the dual centralizer. The
-corresponding semisimple dual-group element determines an endoscopic group.
+[[langlands/tate-nakayama-duality|Tate–Nakayama duality]] relates characters
+of the cohomological group \(A_\gamma\) to
+[[langlands/component-group-of-l-parameter|component-group]] data in the dual
+centralizer. The corresponding
+[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]
+[[langlands-letter/knowls/langlands-dual-group|dual-group]] element determines
+an [[langlands/endoscopic-datum|endoscopic group]].
 Thus the Fourier decomposition of ordinary orbital terms across a stable
 class produces the endoscopic pieces of the trace formula.
 

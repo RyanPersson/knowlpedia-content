@@ -8,8 +8,10 @@ domains = ["langlands", "harmonic-analysis", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(H\) be an endoscopic group for \(G\). For related strongly regular
-semisimple elements \(\gamma_H\in H(F)\) and \(\delta\in G(F)\), an
+Let \(H\) be the endoscopic group in an
+[[langlands/endoscopic-datum|endoscopic datum]] for \(G\). For related
+[[langlands/strongly-regular-semisimple-element|strongly regular
+semisimple]] elements \(\gamma_H\in H(F)\) and \(\delta\in G(F)\), an
 **endoscopic transfer factor** is a nonzero complex scalar
 
 \[
@@ -19,7 +21,8 @@ semisimple elements \(\gamma_H\in H(F)\) and \(\delta\in G(F)\), an
 used to compare [[langlands/stable-orbital-integral|stable orbital integrals]] on \(H\) with weighted sums of
 [[langlands/orbital-integral|orbital integrals]] on \(G\).
 
-With one standard convention, matching [[functional-analysis/test-function-space|test functions]] satisfy
+With one standard convention, matching
+[[harmonic-analysis/test-function-space-local-group|test functions]] satisfy
 
 \[
 SO_{\gamma_H}(f^H)
@@ -30,7 +33,7 @@ SO_{\gamma_H}(f^H)
 
 where the sum runs over rational [[algebra-groups/conjugacy-class|conjugacy classes]] in the matching stable
 class. Equivalently the right side is a normalized
-\(\kappa\)-orbital integral.
+[[langlands/kappa-orbital-integral|\(\kappa\)-orbital integral]].
 
 ## What the factor corrects
 
@@ -49,8 +52,9 @@ The Langlands–Shelstad factor is assembled from terms customarily denoted
 
 Its construction uses choices such as splittings, \(a\)-data, \(\chi\)-data,
 and compatible [[harmonic-analysis/haar-measure|Haar measures]]. Absolute normalizations can instead be fixed
-by a [[langlands/whittaker-datum|Whittaker datum]] or by rigid inner-twist
-data. The resulting transfer identity is independent of auxiliary choices
+by a [[langlands/whittaker-datum|Whittaker datum]] or by
+[[langlands/rigid-inner-twist|rigid inner-twist data]]. The resulting
+transfer identity is independent of auxiliary choices
 when all terms are normalized coherently.
 
 ## Convention warning

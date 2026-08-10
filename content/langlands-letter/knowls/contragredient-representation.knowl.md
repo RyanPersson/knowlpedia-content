@@ -22,7 +22,10 @@ In a basis, \(\pi^\vee(g)\) is the transpose of
 
 ## Smooth representations
 
-If \(G\) is locally profinite and \(V\) is a smooth representation, the
+If \(G\) is [[topology/locally-profinite-group|locally profinite]] and \(V\)
+is a
+[[harmonic-analysis/smooth-representation-totally-disconnected-group|smooth
+representation]], the
 correct contragredient space is the **smooth dual**
 
 \[
@@ -31,8 +34,10 @@ V^\vee
 \{\ell\in V^*:\ell\text{ is fixed by some compact open subgroup}\},
 \]
 
-not generally the entire algebraic dual. If \(V\) is admissible, then
-\(V^\vee\) is admissible and the natural map \(V\to(V^\vee)^\vee\) is an
+not generally the entire algebraic dual. If \(V\) is
+[[harmonic-analysis/admissible-representation-p-adic-group|admissible]],
+then \(V^\vee\) is admissible and the natural map
+\(V\to(V^\vee)^\vee\) is an
 isomorphism.
 
 ## Unitary distinction
@@ -44,7 +49,8 @@ being used.
 
 ## Langlands compatibility
 
-Local Langlands is expected, and known in established cases, to carry
+The [[langlands/local-langlands-correspondence|local Langlands
+correspondence]] is expected, and known in established cases, to carry
 contragredients to the Chevalley-dual parameter. This compatibility is
 listed separately in
 [[langlands/local-langlands-compatibilities|local Langlands

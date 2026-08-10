@@ -9,9 +9,13 @@ section_mode = "progressive"
 +++
 
 Let \(\mathfrak e\) be an [[langlands/endoscopic-datum|endoscopic datum]]
-for a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\), with endoscopic group \(H\). A [[functional-analysis/test-function-space|test function]]
+for a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
+group]] \(G\), with endoscopic group \(H\). A
+[[harmonic-analysis/test-function-space-local-group|test function]]
 \(f^H\in C_c^\infty(H(F))\) is an **endoscopic transfer** of
-\(f\in C_c^\infty(G(F))\) if, for every strongly \(G\)-regular element
+\(f\in C_c^\infty(G(F))\) if, for every
+[[langlands/strongly-regular-semisimple-element|strongly
+\(G\)-regular]] element
 \(\gamma_H\in H(F)\),
 
 \[
@@ -39,9 +43,14 @@ transfers to the corresponding unit, with normalized measures.
 
 ## Spectral transfer
 
-Duality of invariant distributions converts geometric transfer into
-character identities. Stable sums of characters on \(H(F)\) transfer to
-linear combinations of characters in \(L\)- or \(A\)-packets on \(G(F)\).
+Duality of
+[[harmonic-analysis/distribution-local-group|invariant distributions]]
+converts geometric transfer into
+character identities.
+[[langlands/stable-distribution|Stable distributions]] built from characters
+on \(H(F)\) transfer to linear combinations of characters in
+[[langlands/l-packet|\(L\)-packets]] or
+[[langlands/a-packet|\(A\)-packets]] on \(G(F)\).
 This is the mechanism by which endoscopy describes packet structure.
 
 ## Global use
@@ -49,7 +58,8 @@ This is the mechanism by which endoscopy describes packet structure.
 For factorizable functions, compatible local transfers define an adelic
 transfer. Comparing the trace formula for \(G\) with [[langlands/stable-trace-formula|stable trace formulas]]
 for its endoscopic groups yields endoscopic classification and instances of
-Langlands functoriality.
+[[langlands-letter/knowls/langlands-functoriality-l-homomorphism|Langlands
+functoriality]].
 
 ## Scope
 

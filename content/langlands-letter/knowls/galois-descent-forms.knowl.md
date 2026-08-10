@@ -59,7 +59,7 @@ the resulting \(k\)-group. Not every inner form admits a pure inner twist.
 
 The [[langlands/refined-local-langlands-correspondence|refined local
 Langlands correspondence]] often needs the still more flexible rigid
-inner-twist formalism.
+[[langlands/rigid-inner-twist|rigid inner-twist formalism]].
 
 ## Relation to the letter
 

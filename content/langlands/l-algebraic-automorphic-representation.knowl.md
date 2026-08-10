@@ -8,12 +8,16 @@ domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a number field \(F\), and let
+Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|number field]]
+\(F\), and let
 \(\pi\) be an [[langlands/automorphic-representation|automorphic
 representation]] of \(G(\mathbb A_F)\). It is **\(L\)-algebraic** if every
 archimedean component \(\pi_v\) is \(L\)-algebraic.
 
-After choosing a maximal torus, write the restriction of the archimedean
+After choosing a
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]], write
+the restriction of the archimedean
 [[langlands/local-l-parameter|Langlands parameter]] to \(\mathbb C^\times\) with exponent
 
 \[
@@ -43,7 +47,8 @@ representation is expected to take values directly in the
 \]
 
 This assertion is a general conjecture. It includes compatibility with
-unramified [[langlands/satake-parameter|Satake parameters]] and predicted Hodge–Tate cocharacters.
+unramified [[langlands/satake-parameter|Satake parameters]] and predicted
+[[langlands/hodge-tate-representation|Hodge–Tate cocharacters]].
 
 ## Difference from C-algebraicity
 

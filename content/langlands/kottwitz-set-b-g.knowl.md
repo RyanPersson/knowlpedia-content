@@ -8,15 +8,21 @@ domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 section_mode = "progressive"
 +++
 
-Let \(E\) be a nonarchimedean local field, let \(\breve E\) be the completion
-of its maximal unramified extension, and let \(\sigma\) be Frobenius. For a
-connected reductive \(E\)-group \(G\), the **Kottwitz set**
+Let \(E\) be a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]], let \(\breve E\) be the completion of its maximal
+[[langlands-letter/knowls/unramified-extension-local|unramified extension]],
+and let \(\sigma\) be
+[[langlands-letter/knowls/frobenius-unramified|Frobenius]]. For a connected
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive
+\(E\)-group]] \(G\), the **Kottwitz set**
 
 \[
 B(G)=G(\breve E)/{\sim_\sigma}
 \]
 
-is the set of \(\sigma\)-conjugacy classes, where
+is the set of
+[[langlands/twisted-conjugacy|\(\sigma\)-conjugacy classes]], where
 
 \[
 b'\sim_\sigma b
@@ -39,12 +45,17 @@ A class \([b]\) has two principal invariants:
 \kappa_G(b)\in\pi_1(G)_\Gamma.
 \]
 
-The Newton point records slopes, while the Kottwitz invariant is the
+Here \(X_*(T)\) is the
+[[langlands-letter/knowls/maximal-torus-weight-lattice|cocharacter lattice]]
+of a maximal torus and \(\Gamma\) is the relevant
+[[langlands-letter/knowls/galois-extension-and-group|Galois group]]. The
+Newton point records slopes, while the Kottwitz invariant is the
 generalized degree. Their compatible pair determines \([b]\); more
 precisely, the map \((\nu,\kappa)\) is injective with a characterized image.
 
 For \(G=\operatorname{GL}_n\), \(B(G)\) is the set of isomorphism classes of
-rank-\(n\) isocrystals, \(\nu_b\) is the Newton-slope polygon, and
+rank-\(n\) [[algebraic-geometry-foundations/isocrystal|isocrystals]],
+\(\nu_b\) is the Newton-slope polygon, and
 \(\kappa_G(b)\) is its endpoint.
 
 ## Basic classes
@@ -57,8 +68,12 @@ G_b(R)=
 g\,b=b\,\sigma(g)\}
 \]
 
-is then an inner form of \(G\). Basic classes correspond to semistable
-\(G\)-bundles on the [[langlands/fargues-fontaine-curve|Fargues–Fontaine curve]].
+is then an
+[[langlands-letter/knowls/galois-descent-forms|inner form]] of \(G\). Basic
+classes correspond to
+[[algebraic-geometry-foundations/harder-narasimhan-filtration|semistable]]
+\(G\)-bundles on the
+[[langlands/fargues-fontaine-curve|Fargues–Fontaine curve]].
 
 ## Bundle classification
 

@@ -8,7 +8,9 @@ domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a number field \(F\), and write
+Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|number field]]
+\(F\), and write
 \(\pi=\bigotimes_v'\pi_v\) for an
 [[langlands/automorphic-representation|automorphic representation]]. It is
 **cohomological** if, for every archimedean place \(v\), there is a
@@ -19,13 +21,17 @@ integer \(q\geq 0\) such that
 H^q(\mathfrak g_v,K_v;\pi_v\otimes E_v)\neq 0.
 \]
 
-Here \(\mathfrak g_v\) is the [[lie-groups/complexification-of-a-real-lie-algebra|complexified Lie algebra]] and \(K_v\) is a
-maximal compact subgroup, with the usual modification for a disconnected
+Here \(\mathfrak g_v\) is the
+[[lie-groups/complexification-of-a-real-lie-algebra|complexified Lie algebra]]
+and \(K_v\) is a
+[[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact
+subgroup]], with the usual modification for a disconnected
 \(K_v\).
 
 ## Geometric role
 
-Relative [[lie-groups/lie-algebra|Lie algebra]] cohomology connects automorphic representations to the
+[[lie-groups/relative-lie-algebra-cohomology|Relative Lie algebra cohomology]]
+connects automorphic representations to the
 cohomology of locally symmetric spaces. With suitable level \(K_f\), a
 cohomological \(\pi\) can contribute to the cohomology of
 

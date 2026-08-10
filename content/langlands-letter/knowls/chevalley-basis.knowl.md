@@ -18,7 +18,9 @@ characteristic-zero field, with split [[lie-groups/cartan-subalgebra|Cartan suba
 \{h_1,\ldots,h_\ell\}\cup\{e_\alpha\}_{\alpha\in\Phi},
 \]
 
-where \(h_i\) represents the simple coroot and \(e_\alpha\) spans
+where \(h_i\) represents the
+[[langlands-letter/knowls/coroots-and-pairing|simple coroot]] and
+\(e_\alpha\) spans
 \(\mathfrak g_\alpha\), normalized so that
 
 \[
@@ -72,9 +74,11 @@ page]].
 
 ## Role in the letter
 
-Root-vector normalization rigidifies the pinning and gives integral
-structures from which almost-all local integral models and spherical Hecke
-algebras can be obtained.
+Root-vector normalization rigidifies the
+[[langlands-letter/knowls/pinned-automorphisms|pinning]] and gives integral
+structures from which almost-all local integral models and
+[[harmonic-analysis/hecke-algebra-locally-compact-group-pair|spherical Hecke
+algebras]] can be obtained.
 
 ## References
 

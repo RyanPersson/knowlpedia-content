@@ -8,17 +8,25 @@ domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a global field and \(G\) a connected reductive \(F\)-group. An
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|global field]] and
+\(G\) a connected reductive \(F\)-group. An
 **automorphic representation** of \(G(\mathbb A_F)\) is an irreducible
-subquotient of the right-regular representation on an appropriate space
+subquotient of the
+[[harmonic-analysis/regular-representations-locally-compact-group|right-regular
+representation]] on an appropriate space
 \(\mathcal A(G)\) of [[langlands/automorphic-form|automorphic forms]], usually
-with a fixed central character.
+with a fixed [[algebra-representation-theory/central-character|central
+character]].
 
 ## Representation category
 
-At finite places one works with smooth admissible representations. At the
+At finite places one works with
+[[harmonic-analysis/admissible-representation-p-adic-group|smooth admissible
+representations]]. At the
 archimedean places one ordinarily records the underlying
-\((\mathfrak g_\infty,K_\infty)\)-module. Consequently, the displayed adelic
+\((\mathfrak g_\infty,K_\infty)\)-[[lie-groups/harish-chandra-module|Harish–Chandra
+module]]. Consequently, the displayed adelic
 representation is shorthand for a compatible archimedean Harish-Chandra
 module and a smooth representation of \(G(\mathbb A_F^\infty)\).
 
@@ -38,15 +46,17 @@ tensor product]]
 \pi \simeq \bigotimes_v' \pi_v .
 \]
 
-Almost every finite-place component \(\pi_v\) is unramified. These local
+Almost every finite-place component \(\pi_v\) is
+[[harmonic-analysis/unramified-representation-p-adic-group|unramified]]. These local
 components carry [[langlands/satake-parameter|Satake parameters]] or [[langlands/local-l-parameter|local Langlands parameters]] and are the
 inputs to Euler products.
 
 ## Nearly equivalent representations
 
 Two automorphic representations are **nearly equivalent** if their local
-components are isomorphic at all but finitely many places. Strong
-multiplicity one makes near equivalence very rigid for
+components are isomorphic at all but finitely many places.
+[[langlands/strong-multiplicity-one-theorem|Strong multiplicity one]] makes
+near equivalence very rigid for
 \(\operatorname{GL}_n\), but it need not identify representations for a
 general [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]. Global packets and multiplicity formulas account for
 this distinction.

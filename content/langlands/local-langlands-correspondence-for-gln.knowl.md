@@ -8,7 +8,9 @@ domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a nonarchimedean local field. There is a unique canonical
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]]. There is a unique canonical
 bijection
 
 \[
@@ -18,12 +20,16 @@ bijection
 \operatorname{WD}_n(F)
 \]
 
-from irreducible smooth complex representations of
+from irreducible
+[[harmonic-analysis/smooth-representation-totally-disconnected-group|smooth
+complex representations]] of
 \(\operatorname{GL}_n(F)\) to isomorphism classes of \(n\)-dimensional
 Frobenius-semisimple
 [[langlands/weil-deligne-representation|Weil–Deligne representations]],
-normalized so that \(n=1\) agrees with local class field theory and so that
-standard local \(L\)- and \(\varepsilon\)-factors agree.
+normalized so that \(n=1\) agrees with
+[[langlands/local-class-field-theory|local class field theory]] and so that
+standard local \(L\)- and [[langlands/local-epsilon-factor|epsilon factors]]
+agree.
 
 ## Packet consequence
 
@@ -33,18 +39,26 @@ local correspondence is an actual bijection rather than a finite-to-one map.
 ## Compatibility properties
 
 The correspondence is compatible with twisting by characters and taking
-contragredients. The determinant of the parameter corresponds, through local
-class field theory, to the central character of the representation. Under the
-Langlands classification, direct sums of Weil–Deligne parameters correspond
-to the appropriate irreducible quotients of normalized parabolic inductions.
+[[langlands-letter/knowls/contragredient-representation|contragredients]]. The
+determinant of the parameter corresponds, through local class field theory, to
+the [[algebra-representation-theory/central-character|central character]] of
+the representation. Under the
+[[harmonic-analysis/langlands-classification-p-adic-group|p-adic Langlands
+classification]], direct sums of Weil–Deligne parameters correspond to the
+appropriate irreducible quotients of
+[[harmonic-analysis/normalized-parabolic-induction-p-adic-group|normalized
+parabolic inductions]].
 
 ## Special classes
 
 [[harmonic-analysis/supercuspidal-representation|Supercuspidal representations]] correspond to irreducible \(n\)-dimensional
 representations of \(W_F\), necessarily with zero monodromy. Essentially
-square-integrable representations correspond to indecomposable
+[[lie-groups/square-integrable-modulo-center-representation|Essentially
+square-integrable representations]] correspond to indecomposable
 Weil–Deligne representations. Unramified representations correspond to
-parameters trivial on inertia with zero monodromy.
+parameters trivial on the
+[[algebra-fields-galois/inertia-subgroup|inertia subgroup]] with zero
+monodromy.
 
 ## Proof history
 

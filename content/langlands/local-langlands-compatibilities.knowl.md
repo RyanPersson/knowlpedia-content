@@ -13,18 +13,28 @@ correspondence]] is expected to commute with the natural structures on its two
 sides. For a representation \(\pi\) with parameter \(\varphi_\pi\), the
 standard compatibilities include:
 
-- unramified representations correspond to their
+- [[harmonic-analysis/unramified-representation-p-adic-group|unramified
+  representations]] correspond to their
   [[langlands/satake-parameter|Satake parameters]];
-- tempered and essentially square-integrable representations correspond to
-  tempered and discrete parameters;
-- central characters are obtained from the parameter through the center of
-  the \(L\)-group and local class field theory;
+- [[harmonic-analysis/tempered-representation-p-adic-group|tempered]] and
+  [[lie-groups/square-integrable-modulo-center-representation|essentially
+  square-integrable representations]] correspond to tempered and discrete
+  parameters;
+- [[algebra-representation-theory/central-character|central characters]] are
+  obtained from the parameter through the center of the \(L\)-group and
+  [[langlands/local-class-field-theory|local class field theory]];
 - twisting \(\pi\) by a character twists \(\varphi_\pi\) by the corresponding
   one-dimensional parameter;
-- contragredients correspond to the dual, or Chevalley-transformed, parameter;
-- [[lie-groups/langlands-quotient|Langlands quotients]] of normalized parabolic induction correspond to the
-  associated Levi parameters embedded in \({}^LG\);
-- local \(L\)-, \(\varepsilon\)-, and \(\gamma\)-factors agree whenever both
+- [[langlands-letter/knowls/contragredient-representation|contragredients]]
+  correspond to the dual, or Chevalley-transformed, parameter;
+- [[harmonic-analysis/langlands-classification-p-adic-group|Langlands
+  quotients]] of
+  [[harmonic-analysis/normalized-parabolic-induction-p-adic-group|normalized
+  parabolic induction]] correspond to the associated
+  [[algebraic-geometry-foundations/levi-subgroup|Levi]] parameters embedded in
+  \({}^LG\);
+- local \(L\)-, [[langlands/local-epsilon-factor|epsilon]], and
+  [[langlands/local-gamma-factor|gamma factors]] agree whenever both
   sides have an intrinsic definition.
 
 ## Theorem versus characterization
@@ -38,7 +48,8 @@ an intrinsic definition, and many entries in the list remain conjectural.
 
 The [[langlands/refined-local-langlands-correspondence|refined
 correspondence]] adds transformation laws for changing a [[langlands/whittaker-datum|Whittaker datum]] or
-rigidifying cocycle, compatibility with automorphisms and homomorphisms of
+[[langlands/rigid-inner-twist|rigidifying cocycle]], compatibility with
+automorphisms and homomorphisms of
 groups, and endoscopic character identities. These data distinguish
 parametrizations that the basic finite-to-one map cannot distinguish.
 

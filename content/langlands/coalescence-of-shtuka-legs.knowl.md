@@ -23,7 +23,9 @@ fiber of \(\zeta\) have merged.
 
 ## Representation-theoretic label
 
-If \(W\) is a representation of \(\widehat G^I\), restriction along
+If \(W\) is a representation of the
+[[langlands-letter/knowls/langlands-dual-group|dual group]]
+\(\widehat G^I\), restriction along
 
 \[
 \widehat G^J\longrightarrow\widehat G^I,
@@ -53,8 +55,10 @@ than the evident identification on the open locus of distinct legs.
 
 Starting with no legs, an invariant vector
 \(x:\mathbf 1\to W\) creates several coincident legs. Coalescence separates
-or groups the representation labels, partial Frobenius supplies independent
-Galois actions, and a covector \(\xi:W\to\mathbf 1\) annihilates the legs.
+or groups the representation labels,
+[[langlands/partial-frobenius-on-shtukas|partial Frobenius]] supplies
+independent Galois actions, and a covector
+\(\xi:W\to\mathbf 1\) annihilates the legs.
 Functoriality of coalescence is essential for the relations among
 [[langlands/excursion-operator|excursion operators]].
 

@@ -19,9 +19,12 @@ general program remains conjectural.
 - [[langlands/modern-langlands-index|Modern Langlands foundations]] — local
   packets, the global automorphic–Galois dictionary, endoscopy, shtukas, and
   Fargues–Scholze local geometrization.
+- [[langlands/modern-langlands-dependency-index|Modern Langlands dependency
+  closure]] — 57 reusable prerequisite pages exposed by the semantic
+  interlinking audit.
 - [[langlands/geometric-langlands-index|Geometric Langlands]] — curves,
-  \(\operatorname{Bun}_G\), local systems, geometric Satake, Hecke
-  eigensheaves, and the categorical theorem.
+  \(\operatorname{Bun}_G\), [[langlands/g-local-system|local systems]],
+  geometric Satake, Hecke eigensheaves, and the categorical theorem.
 - [[langlands-letter|Langlands Letter]] — a historical annotated reading of
   the 1967 letter, cross-linked to the modern vocabulary.
 

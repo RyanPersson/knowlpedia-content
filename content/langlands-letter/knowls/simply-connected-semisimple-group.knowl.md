@@ -10,24 +10,29 @@ section_mode = "progressive"
 +++
 
 A connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive algebraic group]] is **semisimple** if its connected
-center is trivial, equivalently if it has no positive-dimensional central
+[[algebra-groups/center-of-group|center]] is trivial, equivalently if it has
+no positive-dimensional central
 torus.
 
-A **central isogeny** \(f:H\to G\) of connected semisimple groups is a
+A **[[langlands-letter/knowls/root-vs-weight-lattice-isogeny|central
+isogeny]]** \(f:H\to G\) of connected semisimple groups is a
 surjective morphism with finite central kernel. The group \(G\) is
 **simply connected** in the algebraic sense if every central isogeny
 \(H\to G\) is an isomorphism.
 
 ## Root-datum criterion
 
-For a maximal torus \(T\subset G\), semisimple \(G\) is simply connected
+For a
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]]
+\(T\subset G\), semisimple \(G\) is simply connected
 exactly when
 
 \[
 X_*(T)=\mathbb Z\Phi^\vee,
 \]
 
-the coroot lattice. Equivalently, its character lattice is the full
+the [[langlands-letter/knowls/coroots-and-pairing|coroot lattice]].
+Equivalently, its character lattice is the full
 [[lie-groups/weight-lattice|weight lattice]].
 
 Every connected semisimple group has a simply connected central cover
@@ -51,7 +56,7 @@ whereas \(\operatorname{PGL}_n\) is adjoint and not simply connected.
 The [[langlands-letter/knowls/langlands-dual-group|Langlands dual]] of a
 simply connected semisimple group is adjoint, and the dual of an adjoint
 group is simply connected. This is the isogeny-form information carried by
-the root datum.
+the [[langlands-letter/knowls/roots-weights-weyl|root datum]].
 
 ## Relation to the letter
 

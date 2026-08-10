@@ -8,8 +8,11 @@ domains = ["langlands", "harmonic-analysis", "number-theory"]
 section_mode = "progressive"
 +++
 
-For a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a global field and a suitable
-adelic [[functional-analysis/test-function-space|test function]] \(f\), the **Arthur–Selberg trace formula** is an
+For a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a
+[[langlands-letter/knowls/global-local-fields-completions|global field]]
+\(F\) and a suitable [[langlands-letter/knowls/adeles-restricted-product|adelic]]
+[[harmonic-analysis/test-function-space-local-group|test function]] \(f\), the
+**Arthur–Selberg trace formula** is an
 identity
 
 \[
@@ -17,7 +20,9 @@ J_{\mathrm{geom}}(f)=J_{\mathrm{spec}}(f)
 \]
 
 between a geometric expansion indexed by conjugacy data in \(G(F)\) and a
-spectral expansion indexed by [[langlands/automorphic-representation|automorphic representations]] and Levi data.
+spectral expansion indexed by
+[[langlands/automorphic-representation|automorphic representations]] and
+[[algebraic-geometry-foundations/levi-subgroup|Levi subgroups]].
 
 ## Kernel heuristic
 
@@ -30,18 +35,22 @@ K_f(x,y)=\sum_{\gamma\in G(F)}f(x^{-1}\gamma y).
 If the automorphic quotient were compact, integrating \(K_f(x,x)\) would
 give both a sum of [[langlands/orbital-integral|orbital integrals]] and a
 sum of traces of automorphic representations. For a general reductive group,
-the quotient and the continuous spectrum make this naive integral diverge.
+the quotient and the
+[[langlands/continuous-automorphic-spectrum|continuous spectrum]] make this
+naive integral diverge.
 
-Arthur's truncation operator removes the divergent constant-term
+[[langlands/arthur-truncation|Arthur's truncation operator]] removes the
+divergent [[langlands/automorphic-constant-term|constant-term]]
 contributions and produces the actual formula.
 
 ## Geometric side
 
-The fine geometric expansion is a sum over Levi subgroups and conjugacy
-classes of coefficients times weighted orbital integrals. Elliptic regular
-terms resemble centralizer volumes multiplied by products of ordinary local
-orbital integrals. Unipotent and singular terms require separate
-distributions.
+The fine geometric expansion is a sum over Levi subgroups and
+[[algebra-groups/conjugacy-class|conjugacy classes]] of coefficients times
+[[langlands/weighted-orbital-integral|weighted orbital integrals]]. Elliptic
+regular terms resemble [[algebra-groups/centralizer|centralizer]] volumes
+multiplied by products of ordinary local orbital integrals. Unipotent and
+singular terms require separate distributions.
 
 ## Spectral side
 

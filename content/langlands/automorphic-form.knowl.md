@@ -8,17 +8,26 @@ domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a global field and \(G\) a connected reductive \(F\)-group. An
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|global field]] and
+\(G\) a connected
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive
+\(F\)-group]]. An
 **automorphic form** on \(G\) is a complex-valued function on
 
 \[
 G(F)\backslash G(\mathbb A_F)
 \]
 
-that is smooth, of moderate growth, right finite under a maximal compact group
+where \(\mathbb A_F\) is the
+[[langlands-letter/knowls/adeles-restricted-product|adele ring]], and that is
+smooth, of moderate growth, right
+[[lie-groups/k-finite-vector|finite under a maximal compact group]]
 at the archimedean places, right fixed by some compact open subgroup at the
 finite places, and finite under the center of the archimedean universal
-[[lie-groups/universal-enveloping-algebra|enveloping algebra]]. A central character may be prescribed.
+[[lie-groups/universal-enveloping-algebra|enveloping algebra]]. A
+[[algebra-representation-theory/central-character|central character]] may be
+prescribed.
 
 ## Why the finiteness conditions appear
 
@@ -42,14 +51,20 @@ usually imposes
 f(zg)=\omega(z)f(g).
 \]
 
-Square-integrability is then measured either modulo the center or on the
+Square-integrability, with the quotient measure compatibly normalized (often
+from [[langlands/tamagawa-measure|Tamagawa measure]]), is then measured either
+modulo the center or on the
 kernel \(G(\mathbb A_F)^1\) of all adelic absolute-value characters. These
 equivalent-looking presentations encode a real convention and should not be
 silently interchanged.
 
 ## Constant terms
 
-For a [[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroup]] \(P=MN\), the constant term of \(f\) along \(P\) is
+For a [[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroup]]
+\(P=MN\), with [[algebraic-geometry-foundations/levi-subgroup|Levi subgroup]]
+\(M\) and [[algebraic-geometry-foundations/unipotent-radical|unipotent
+radical]] \(N\), the
+[[langlands/automorphic-constant-term|constant term]] of \(f\) along \(P\) is
 
 \[
 f_P(g)=
@@ -58,7 +73,9 @@ f_P(g)=
 
 Its vanishing for every proper parabolic defines a
 [[langlands/cuspidal-automorphic-representation|cuspidal]] automorphic form.
-Nonzero constant terms lead to Eisenstein series and the continuous or
+Nonzero constant terms lead to
+[[langlands-letter/knowls/eisenstein-series|Eisenstein series]] and the
+[[langlands/continuous-automorphic-spectrum|continuous]] or
 [[langlands/residual-automorphic-spectrum|residual]] spectrum.
 
 ## From forms to representations

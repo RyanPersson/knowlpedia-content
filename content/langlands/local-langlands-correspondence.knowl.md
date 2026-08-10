@@ -8,7 +8,18 @@ domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a local field and \(G\) a connected reductive \(F\)-group. The
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|local field]] and
+\(G\) a connected
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive
+\(F\)-group]]. Write \(\operatorname{Irr}(G(F))\) for the
+[[shared-foundations/equivalence-class|equivalence classes]] of irreducible
+admissible representations of \(G(F)\), where admissibility has its
+[[harmonic-analysis/admissible-representation-p-adic-group|nonarchimedean]]
+or
+[[lie-groups/admissible-representation-real-reductive-group|archimedean]]
+meaning according to \(F\), and write \(\Phi(G)\) for
+the \(\widehat G\)-conjugacy classes of relevant local L-parameters. The
 **basic local Langlands correspondence** predicts a surjective finite-to-one
 map
 
@@ -20,9 +31,11 @@ map
 \pi\longmapsto\varphi_\pi,
 \]
 
-from [[shared-foundations/equivalence-class|equivalence classes]] of irreducible admissible representations of \(G(F)\)
-to \(\widehat G\)-conjugacy classes of relevant
-[[langlands/local-l-parameter|local \(L\)-parameters]]. The finite fiber
+from those representations to
+[[langlands/local-l-parameter|local \(L\)-parameters]]. For a
+nonarchimedean \(F\), “admissible” means
+[[harmonic-analysis/admissible-representation-p-adic-group|smooth
+admissible]]. The finite fiber
 
 \[
 \Pi_\varphi(G)=
@@ -47,18 +60,23 @@ must still be distinguished from the existence of that semisimplified map.
 ## Structural requirements
 
 A correspondence is not characterized by cardinality alone. It is expected to
-respect unramified [[langlands/satake-parameter|Satake parameters]], central characters, twists,
-contragredients, temperedness, parabolic induction, local \(L\)- and
-\(\varepsilon\)-factors where defined, and endoscopic character identities.
+respect unramified [[langlands/satake-parameter|Satake parameters]],
+[[algebra-representation-theory/central-character|central characters]],
+twists, [[langlands-letter/knowls/contragredient-representation|contragredients]],
+[[harmonic-analysis/tempered-representation-p-adic-group|temperedness]],
+[[harmonic-analysis/normalized-parabolic-induction-p-adic-group|parabolic
+induction]], local \(L\)- and [[langlands/local-epsilon-factor|epsilon
+factors]] where defined, and endoscopic character identities.
 The [[langlands/refined-local-langlands-correspondence|refined
 correspondence]] supplies the internal structure of each packet.
 
 ## Basic examples
 
-For a torus, packets are singletons and the correspondence is local class
-field theory in dual-group form. For \(\operatorname{GL}_n\), packets are also
-singletons, but the parameter is an \(n\)-dimensional Weil–Deligne
-representation.
+For a torus, packets are singletons and the correspondence is
+[[langlands/local-class-field-theory|local class field theory]] in dual-group
+form. For \(\operatorname{GL}_n\), packets are also singletons, but the
+parameter is an \(n\)-dimensional
+[[langlands/weil-deligne-representation|Weil–Deligne representation]].
 
 ## References
 

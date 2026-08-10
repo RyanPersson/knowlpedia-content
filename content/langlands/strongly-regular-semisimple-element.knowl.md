@@ -9,14 +9,16 @@ section_mode = "progressive"
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a field \(F\). An element
-\(\gamma\in G(F)\) is **strongly regular semisimple** if it is semisimple and
-its centralizer
+\(\gamma\in G(F)\) is **strongly regular semisimple** if it is
+[[langlands-letter/knowls/semisimple-element-and-class|semisimple]] and its
+[[algebra-groups/centralizer|centralizer]]
 
 \[
 G_\gamma=\{g\in G:g\gamma=\gamma g\}
 \]
 
-is a maximal torus of \(G\).
+is a [[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]]
+of \(G\).
 
 ## Regular versus strongly regular
 
@@ -37,7 +39,8 @@ when it has \(n\) distinct eigenvalues over an [[algebra-fields-galois/algebraic
 
 A regular diagonal element in a split reductive group is strongly regular
 when no root takes the value \(1\) on it. In the Lie algebra, the analogous
-condition is \(\alpha(X)\neq 0\) for every root.
+condition is \(\alpha(X)\neq 0\) for every
+[[langlands-letter/knowls/roots-weights-weyl|root]].
 
 ## Why this locus is used
 
@@ -47,7 +50,8 @@ On the strongly regular semisimple locus:
 - centralizer quotients carry natural invariant measures;
 - [[langlands/orbital-integral|orbital integrals]] are well behaved;
 - [[langlands/stable-conjugacy|stable conjugacy]] splits into finitely many
-  rational conjugacy classes over a local field;
+  rational conjugacy classes over a
+  [[langlands-letter/knowls/global-local-fields-completions|local field]];
 - [[langlands/endoscopic-transfer|endoscopic transfer]] compares matching classes on different groups.
 
 Singular semisimple and unipotent terms still occur in the trace formula, but

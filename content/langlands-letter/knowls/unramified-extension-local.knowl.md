@@ -9,7 +9,9 @@ legacy_source_path = "langlands-letter/knowls/unramified-extension-local.md"
 section_mode = "progressive"
 +++
 
-Let \(L/F\) be a finite extension of nonarchimedean local fields. Write
+Let \(L/F\) be a finite extension of
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean
+local fields]]. Write
 
 \[
 [L:F]=e(L/F)f(L/F),
@@ -23,7 +25,9 @@ e(L/F)=1
 \]
 
 and the residue extension \(k_L/k_F\) is separable. For local fields with
-finite [[algebra-commutative/residue-field|residue fields]], separability is automatic.
+[[algebra-fields-galois/finite-field|finite]]
+[[algebra-commutative/residue-field|residue fields]], separability is
+automatic.
 
 Equivalently,
 
@@ -31,12 +35,16 @@ Equivalently,
 [L:F]=[k_L:k_F]
 \]
 
-and a uniformizer of \(F\) remains a uniformizer of \(L\).
+and a [[algebra-commutative/dvr|uniformizer]] of \(F\) remains a uniformizer
+of \(L\).
 
 ## Classification
 
-Inside a fixed separable closure, for every \(n\geq1\) there is a unique
-unramified extension of degree \(n\). It is Galois and cyclic. Reduction
+Inside a fixed
+[[algebra-fields-galois/algebraic-closure|algebraic closure]], for every
+\(n\geq1\) there is a unique unramified extension of degree \(n\). It is
+[[langlands-letter/knowls/galois-extension-and-group|Galois]] and cyclic.
+Reduction
 gives
 
 \[
@@ -45,8 +53,10 @@ gives
 \operatorname{Gal}(k_L/k_F).
 \]
 
-The arithmetic Frobenius acts on \(k_L\) by \(x\mapsto x^{q_F}\) and
-generates this cyclic group; geometric Frobenius is its inverse.
+The
+[[langlands-letter/knowls/frobenius-unramified|arithmetic Frobenius]] acts
+on \(k_L\) by \(x\mapsto x^{q_F}\) and generates this cyclic group;
+geometric Frobenius is its inverse.
 
 ## Maximal unramified extension
 
@@ -56,8 +66,12 @@ group \(\widehat{\mathbb Z}\). The [[langlands/weil-group|Weil group]] retains t
 
 ## Langlands role
 
-An unramified representation or parameter is trivial on inertia. Its local
-data are therefore determined by the semisimple [[algebra-groups/conjugacy-class|conjugacy class]] of one
+An [[harmonic-analysis/unramified-representation-p-adic-group|unramified
+representation]] or parameter is trivial on the
+[[algebra-fields-galois/inertia-subgroup|inertia subgroup]]. Its local data
+are therefore determined by the
+[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]
+[[algebra-groups/conjugacy-class|conjugacy class]] of one
 Frobenius element, producing the [[langlands/satake-parameter|Satake parameter]].
 
 ## References

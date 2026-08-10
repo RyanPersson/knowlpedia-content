@@ -44,29 +44,37 @@ By [[algebra-representation-theory/character-orthogonality|character orthogonali
 
 ## Meaning
 
-Local packets supply many possible restricted tensor products. The formula
+Local packets supply many possible
+[[langlands/restricted-tensor-product-automorphic-representation|restricted
+tensor products]]. The formula
 is a global reciprocity constraint: local component-group labels must
 multiply to the distinguished global sign. It therefore explains why a
 global packet is not simply the Cartesian product of its local packets.
 
 ## Source of the sign
 
-The character \(\epsilon_\psi\) is built from global root numbers of pairs of
-the cuspidal general-linear-group constituents of \(\psi\). It is not an
+The character \(\epsilon_\psi\) is built from
+[[langlands/root-number|global root numbers]] of pairs of the
+[[langlands/cuspidal-automorphic-representation|cuspidal
+general-linear-group constituents]] of \(\psi\). It is not an
 arbitrary choice and can force a representation out of the discrete
 spectrum even when all of its local components lie in the prescribed
 packets.
 
 ## Scope and variants
 
-The displayed formula is the clean form for the quasisplit classical
+The displayed formula is the clean form for the
+[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]]
+classical
 settings of Arthur's classification. Central quotients, even orthogonal
-outer automorphisms, non-quasisplit inner forms, and parameters with
+outer automorphisms, non-quasi-split
+[[langlands/rigid-inner-twist|inner forms]], and parameters with
 multiplicity require refinements of the packet and coefficient conventions.
 
-The formula is a theorem for the symplectic and [[lie-groups/orthogonal-group|orthogonal groups]] treated by
-Arthur and in corresponding established extensions, such as quasisplit
-unitary groups. It remains part of the conjectural general theory for
+The formula is a theorem for the symplectic and
+[[lie-groups/orthogonal-group|orthogonal groups]] treated by Arthur and in
+corresponding established extensions, such as quasi-split unitary groups. It
+remains part of the conjectural general theory for
 arbitrary [[algebraic-geometry-foundations/reductive-algebraic-group|reductive groups]].
 
 ## References

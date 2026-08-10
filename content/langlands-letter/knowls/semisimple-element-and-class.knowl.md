@@ -15,7 +15,9 @@ every, faithful algebraic representation is a semisimple linear operator.
 Over \(\mathbb C\), this means diagonalizable.
 
 In a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]], an element is semisimple exactly when it
-lies in a maximal torus. Its [[algebra-groups/conjugacy-class|conjugacy class]] is Zariski closed.
+lies in a
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]]. Its
+[[algebra-groups/conjugacy-class|conjugacy class]] is Zariski closed.
 
 ## Jordan decomposition
 
@@ -34,8 +36,9 @@ quotient records the semisimple class.
 If \(G\) is defined over a non-algebraically-closed field \(F\), elements of
 \(G(F)\) that are conjugate over \(\overline F\) need not be conjugate over
 \(F\). For [[langlands/strongly-regular-semisimple-element|strongly regular semisimple elements]] this distinction is
-organized by [[langlands/stable-conjugacy|stable conjugacy]] and Galois
-cohomology.
+organized by [[langlands/stable-conjugacy|stable conjugacy]] and
+[[langlands-letter/knowls/nonabelian-h1-galois-cohomology|Galois
+cohomology]].
 
 ## Examples
 
@@ -46,10 +49,14 @@ cohomology.
 
 ## Langlands role
 
-Satake and [[langlands/local-l-parameter|Langlands parameters]] are taken up to semisimple conjugacy because
-characters and invariant functions detect closed orbits. A semisimplified
-parameter can lose inertia or monodromy information, so “semisimple” is not
-a harmless adjective.
+[[langlands/satake-parameter|Satake]] and
+[[langlands/local-l-parameter|Langlands parameters]] are taken up to
+semisimple conjugacy because
+[[langlands-letter/knowls/characters-separate-semisimple-classes|characters
+and invariant functions detect closed orbits]]. A semisimplified parameter
+can lose [[algebra-fields-galois/inertia-subgroup|inertia]] or
+[[langlands/weil-deligne-representation|monodromy]] information, so
+“semisimple” is not a harmless adjective.
 
 ## References
 

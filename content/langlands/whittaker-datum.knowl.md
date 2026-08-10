@@ -8,9 +8,14 @@ domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a quasi-split connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a local field \(F\).
+Let \(G\) be a
+[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split
+connected reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|local field]] \(F\).
 A **Whittaker datum** for \(G\) is a \(G(F)\)-conjugacy class of pairs
-\(\mathfrak w=(B,\psi)\), where \(B=TU\) is an \(F\)-rational [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]]
+\(\mathfrak w=(B,\psi)\), where \(B=TU\) is an \(F\)-rational
+[[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]] with
+[[algebraic-geometry-foundations/unipotent-radical|unipotent radical]] \(U\)
 and
 
 \[
@@ -30,9 +35,13 @@ A representation is \(\mathfrak w\)-generic if it has a
 ## Normalizing packet parametrizations
 
 A Whittaker datum chooses an origin for the internal parametrization of a
-tempered \(L\)-packet on a quasi-split group: the conjecturally unique
+[[harmonic-analysis/tempered-representation-p-adic-group|tempered]]
+[[langlands/l-packet|\(L\)-packet]] on a quasi-split \(p\)-adic group: the
+conjecturally unique
 \(\mathfrak w\)-generic member corresponds to the trivial representation of
-the appropriate component group. Changing the datum twists that
+the appropriate
+[[langlands/component-group-of-l-parameter|component group]]. Changing the
+datum twists that
 parametrization by a character; it does not change the underlying packet.
 
 ## Existence and multiplicity

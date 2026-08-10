@@ -8,7 +8,9 @@ domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a local or global field \(F\),
+Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|local or global
+field]] \(F\),
 and let \(\widehat G\) be its pinned complex
 [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]. The
 **\(L\)-group** of \(G\) is
@@ -18,7 +20,9 @@ and let \(\widehat G\) be its pinned complex
 \]
 
 where the [[langlands/weil-group|Weil group]] acts on \(\widehat G\) through
-the pinned action on its based root datum. It comes with an exact sequence
+the [[langlands-letter/knowls/pinned-automorphisms|pinned action]] on its
+[[langlands-letter/knowls/roots-weights-weyl|based root datum]]. It comes with
+an exact sequence
 
 \[
 1\longrightarrow\widehat G\longrightarrow{}^LG

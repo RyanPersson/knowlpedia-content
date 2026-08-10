@@ -9,8 +9,12 @@ legacy_source_path = "langlands-letter/knowls/adeles-restricted-product.md"
 section_mode = "progressive"
 +++
 
-Let \(F\) be a global field. For each nonarchimedean place \(v\), let
-\(\mathcal O_v\subset F_v\) be the valuation ring. The **finite adele ring**
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|global field]]. For
+each nonarchimedean place \(v\), let
+\(\mathcal O_v\subset F_v\) be the
+[[algebra-fields-galois/valuation-ring|valuation ring]]. The **finite adele
+ring**
 is the restricted product
 
 \[
@@ -24,7 +28,8 @@ is the restricted product
 \right\}.
 \]
 
-For a number field,
+For a [[langlands-letter/knowls/global-local-fields-completions|number
+field]],
 
 \[
 \mathbb A_F
@@ -33,7 +38,8 @@ For a number field,
 \times\mathbb A_{F,f}.
 \]
 
-A global function field has no archimedean places, so its full adele ring is
+A [[langlands-letter/knowls/global-local-fields-completions|global function
+field]] has no archimedean places, so its full adele ring is
 the corresponding restricted product over all [[algebraic-geometry-foundations/closed-point|closed points]] of its curve.
 
 ## Restricted-product topology
@@ -50,15 +56,18 @@ and the additive quotient \(\mathbb A_F/F\) is compact. These facts underlie
 adelic Fourier analysis and the product formula.
 
 For an [[algebraic-geometry-foundations/algebraic-group|algebraic group]] \(G\), its adelic points are themselves a restricted
-product, using integral models or hyperspecial subgroups at almost all
+product, using integral models or
+[[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial
+subgroups]] at almost all
 places. [[langlands/automorphic-form|Automorphic forms]] then live on
 \(G(F)\backslash G(\mathbb A_F)\).
 
 ## Measures
 
 A restricted product of local [[harmonic-analysis/haar-measure|Haar measures]] requires almost-all
-normalizations, often \(\operatorname{vol}(\mathcal O_v)=1\). Tamagawa
-measures incorporate convergence factors and are additional global data;
+normalizations, often \(\operatorname{vol}(\mathcal O_v)=1\).
+[[langlands/tamagawa-measure|Tamagawa measures]] incorporate convergence
+factors and are additional global data;
 they are not automatic from the set-theoretic restricted product.
 
 ## References

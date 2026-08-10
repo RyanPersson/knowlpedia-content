@@ -11,7 +11,9 @@ section_mode = "progressive"
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a field \(F\). Two
 [[langlands/strongly-regular-semisimple-element|strongly regular semisimple]]
 elements \(\gamma,\gamma'\in G(F)\) are **stably conjugate** if they are
-conjugate by \(G(\overline F)\): there is \(g\in G(\overline F)\) such that
+conjugate over an
+[[algebra-fields-galois/algebraic-closure|algebraic closure]]: there is
+\(g\in G(\overline F)\) such that
 
 \[
 \gamma'=g\gamma g^{-1}.
@@ -19,13 +21,17 @@ conjugate by \(G(\overline F)\): there is \(g\in G(\overline F)\) such that
 
 For more general semisimple elements, the standard definition additionally
 requires the cocycle \(g^{-1}\sigma(g)\) to lie in the identity component of
-the centralizer \(G_\gamma\) for every
-\(\sigma\in\operatorname{Gal}(\overline F/F)\).
+the [[algebra-groups/centralizer|centralizer]] \(G_\gamma\) for every
+\(\sigma\) in the
+[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+\(\operatorname{Gal}(\overline F/F)\).
 
 ## Rational classes inside a stable class
 
 Fix strongly regular \(\gamma\) and write \(T=G_\gamma\). The
-\(G(F)\)-conjugacy classes in its stable class are parametrized by the kernel
+\(G(F)\)-conjugacy classes in its stable class are parametrized by a kernel in
+[[langlands-letter/knowls/nonabelian-h1-galois-cohomology|nonabelian Galois
+cohomology]]:
 
 \[
 \ker\!\left[
@@ -33,7 +39,8 @@ H^1(F,T)\longrightarrow H^1(F,G)
 \right].
 \]
 
-Thus stable conjugacy is coarser than rational conjugacy. Over a local field,
+Thus stable conjugacy is coarser than rational conjugacy. Over a
+[[langlands-letter/knowls/global-local-fields-completions|local field]],
 the displayed kernel is finite.
 
 For \(\operatorname{GL}_n\), two regular semisimple elements that are
@@ -51,7 +58,7 @@ stably conjugate.
 
 Ordinary [[langlands/orbital-integral|orbital integrals]] distinguish
 rational [[algebra-groups/conjugacy-class|conjugacy classes]]. Endoscopy reorganizes their combinations into
-stable distributions, beginning with
+[[langlands/stable-distribution|stable distributions]], beginning with
 [[langlands/stable-orbital-integral|stable orbital integrals]]. Matching
 stable classes on an endoscopic group and on \(G\) is a prerequisite for
 defining the [[langlands/transfer-factor|transfer factor]].

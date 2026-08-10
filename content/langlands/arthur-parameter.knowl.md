@@ -8,15 +8,20 @@ domains = ["langlands", "representation-theory", "number-theory"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a local field and \(G\) a connected reductive \(F\)-group. A
-**local Arthur parameter** is an admissible homomorphism
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|local field]] and
+\(G\) a connected
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive
+\(F\)-group]]. A **local Arthur parameter** is an admissible
+[[langlands/local-l-parameter|\(L\)-homomorphism]]
 
 \[
 \psi:L_F\times\operatorname{SL}_2(\mathbb C)
 \longrightarrow {}^L G
 \]
 
-such that the restriction to \(L_F\) is bounded modulo the center and the
+such that the restriction to \(L_F\) is bounded modulo the
+[[algebra-groups/center-of-group|center]] and the
 restriction to the displayed \(\operatorname{SL}_2(\mathbb C)\) is
 algebraic. Parameters are considered up to \(\widehat G\)-conjugacy.
 
@@ -51,20 +56,27 @@ w,
 
 with the evident extension over the Deligne factor and with \(|w|\)
 depending on the stated reciprocity convention. If the Arthur
-\(\operatorname{SL}_2\) is trivial, the associated parameter is tempered.
+\(\operatorname{SL}_2\) is trivial, the associated parameter is tempered;
+for nonarchimedean \(F\), this is the parameter-side condition corresponding
+to a [[harmonic-analysis/tempered-representation-p-adic-group|tempered
+representation]].
 
 ## Global form
 
-A general global Langlands group is conjectural over number fields. In the
+A general [[langlands/global-langlands-parameter|global Langlands group]] is
+conjectural over
+[[langlands-letter/knowls/global-local-fields-completions|number fields]]. In the
 classification of classical groups, global Arthur parameters are therefore
-encoded concretely as formal isobaric sums
+encoded concretely as formal
+[[langlands/isobaric-automorphic-representation|isobaric sums]]
 
 \[
 \psi=\boxplus_i\,\pi_i[d_i],
 \]
 
-where the \(\pi_i\) are suitable self-dual cuspidal automorphic
-representations of general linear groups and \([d_i]\) denotes the
+where the \(\pi_i\) are suitable self-dual
+[[langlands/cuspidal-automorphic-representation|cuspidal automorphic
+representations]] of general linear groups and \([d_i]\) denotes the
 \(d_i\)-dimensional [[algebra-representation-theory/irreducible-representation|irreducible representation]] of
 \(\operatorname{SL}_2(\mathbb C)\), subject to dimension, parity, and
 ellipticity conditions.
@@ -74,14 +86,16 @@ ellipticity conditions.
 The parameter determines an [[langlands/a-packet|\(A\)-packet]] and a
 component group. A global character of that component group enters the
 [[langlands/arthur-multiplicity-formula|Arthur multiplicity formula]].
-This formalism captures both cuspidal and residual discrete automorphic
+This formalism captures both cuspidal and
+[[langlands/residual-automorphic-spectrum|residual]] discrete automorphic
 representations.
 
 ## Status
 
 Arthur parameters and packets are theorems for major classical families,
 including Arthur's symplectic and orthogonal classification and Mok's
-quasi-split unitary classification. Their expected general form for every
+[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]]
+unitary classification. Their expected general form for every
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] remains conjectural.
 
 ## References

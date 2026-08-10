@@ -10,7 +10,7 @@ section_mode = "progressive"
 +++
 
 Let \(H\) be a connected complex [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]. If \(h,h'\in H\) are
-semisimple, then
+[[langlands-letter/knowls/semisimple-element-and-class|semisimple]], then
 
 \[
 h\sim_H h'
@@ -25,7 +25,9 @@ It suffices to range over [[algebra-representation-theory/irreducible-representa
 
 ## Invariant-theory explanation
 
-Choose a maximal torus \(T\) with [[lie-groups/weyl-group|Weyl group]] \(W\). Semisimple conjugacy
+Choose a
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]] \(T\)
+with [[lie-groups/weyl-group|Weyl group]] \(W\). Semisimple conjugacy
 classes are identified with \(W\)-orbits in \(T\), and restriction gives
 
 \[
@@ -33,20 +35,27 @@ classes are identified with \(W\)-orbits in \(T\), and restriction gives
 \]
 
 The characters of irreducible algebraic representations span the
-representation ring and generate enough Weyl-invariant regular functions
+[[algebra-representation-theory/representation-ring|representation ring]]
+and generate enough Weyl-invariant regular functions
 to distinguish the closed, hence semisimple, [[algebra-groups/conjugacy-class|conjugacy classes]].
 
 ## Closed-orbit qualification
 
 Invariant regular functions separate closed orbits in the affine quotient.
 For a general element they recover the semisimple part of its Jordan
-decomposition, not its full conjugacy class. This is why excursion-operator
+[[langlands-letter/knowls/semisimple-element-and-class|decomposition]], not
+its full conjugacy class. This is why
+[[langlands/excursion-operator|excursion-operator]]
 reconstruction naturally produces semisimple parameters.
 
 ## Disconnected and twisted scope
 
-A Frobenius fiber in an \(L\)-group is a coset of \(\widehat G\), not a
-connected group. Its conjugacy is twisted by the Weil action. The analogous
+A [[langlands-letter/knowls/frobenius-unramified|Frobenius]] fiber in an
+[[langlands/l-group|\(L\)-group]] is a coset of the
+[[langlands-letter/knowls/langlands-dual-group|dual group]] \(\widehat G\),
+not a connected group. Its conjugacy is
+[[langlands/twisted-conjugacy|twisted]] by the
+[[langlands/weil-group|Weil-group]] action. The analogous
 separation statement uses invariant functions on the twisted quotient;
 the connected theorem should not be applied to that coset without this
 modification.

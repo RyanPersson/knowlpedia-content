@@ -9,17 +9,21 @@ legacy_source_path = "langlands-letter/knowls/langlands-functoriality-l-homomorp
 section_mode = "progressive"
 +++
 
-Let \(G'\) and \(G\) be connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive groups]] over a local or global
-field \(F\). An **\(L\)-homomorphism** between their
+Let \(G'\) and \(G\) be connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive groups]] over a
+[[langlands-letter/knowls/global-local-fields-completions|local or global
+field]] \(F\). An **\(L\)-homomorphism** between their
 [[langlands/l-group|\(L\)-groups]] is a map
 
 \[
 \omega:{}^LG'\longrightarrow{}^LG
 \]
 
-commutes with the projections to the Weil or Galois factor and is algebraic
-on the dual-group identity components. It is considered up to
-\(\widehat G\)-conjugacy and may require the standard admissibility
+\(\omega\) commutes with the projections to the
+[[langlands/weil-group|Weil]] or Galois factor and is algebraic on the
+[[langlands-letter/knowls/langlands-dual-group|dual-group]] identity
+components. It is considered up to
+[[algebra-groups/conjugacy-class|\(\widehat G\)-conjugacy]] and may require
+the standard admissibility
 conditions.
 
 ## Parameter-level statement
@@ -52,7 +56,8 @@ ramified and archimedean local behavior.
 
 ## L-functions
 
-For \(r:{}^LG\to\operatorname{GL}(V)\),
+For \(r:{}^LG\to\operatorname{GL}(V)\), the identity between incomplete
+[[langlands-letter/knowls/euler-product-and-local-factor|Euler products]]
 
 \[
 L^S(s,\pi,r)
@@ -67,8 +72,10 @@ packet-level transfer.
 ## Status and methods
 
 General functoriality remains conjectural. Established families arise from
-cyclic base change and automorphic induction, endoscopic classification,
-theta correspondences, converse theorems, trace-formula comparisons, and
+cyclic base change and automorphic induction,
+[[langlands/endoscopic-transfer|endoscopic classification]],
+theta correspondences, converse theorems,
+[[langlands/arthur-selberg-trace-formula|trace-formula comparisons]], and
 specific symmetric-power or tensor-product constructions. Endoscopy is a
 structured part of functoriality, not the whole principle.
 

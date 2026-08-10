@@ -11,9 +11,12 @@ section_mode = "progressive"
 
 A **maximal compact subgroup** of a [[topology/locally-compact-group|locally compact group]] is a compact
 subgroup maximal under inclusion. For a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-nonarchimedean local field \(F\), maximal compact subgroups are open.
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean
+local field]] \(F\), maximal compact subgroups are open.
 
-Let \(\mathcal O_F\) be the valuation ring. A compact open subgroup
+Let \(\mathcal O_F\) be the
+[[algebra-fields-galois/valuation-ring|valuation ring]]. A
+[[topology/locally-profinite-group|compact open subgroup]]
 \(K\subset G(F)\) is **hyperspecial** if there is a smooth affine reductive
 [[algebraic-geometry-foundations/group-scheme|group scheme]] \(\mathcal G/\mathcal O_F\), with generic fiber \(G\), such
 that
@@ -28,8 +31,12 @@ distinguishes a hyperspecial subgroup from a general parahoric subgroup.
 ## Existence
 
 A connected reductive \(F\)-group admits a hyperspecial subgroup exactly
-when it is unramified: it is quasi-split over \(F\) and becomes split over
-an unramified extension. Every hyperspecial subgroup is maximal compact,
+when it is
+[[algebraic-geometry-foundations/unramified-reductive-group|unramified]]: it
+is [[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]]
+over \(F\) and becomes split over an
+[[langlands-letter/knowls/unramified-extension-local|unramified extension]].
+Every hyperspecial subgroup is maximal compact,
 but a maximal compact subgroup need not be hyperspecial.
 
 For \(\operatorname{GL}_n(F)\), the subgroup

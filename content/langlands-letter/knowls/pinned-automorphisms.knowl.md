@@ -15,13 +15,16 @@ A **pinning** of a split connected [[algebraic-geometry-foundations/reductive-al
 (B,T,\{X_\alpha\}_{\alpha\in\Delta}),
 \]
 
-where \(B\) is a [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]], \(T\subset B\) a maximal torus, and
+where \(B\) is a [[algebraic-geometry-foundations/borel-subgroup|Borel
+subgroup]], \(T\subset B\) a
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]], and
 \(X_\alpha\) a nonzero vector, or equivalently a root-group
 parametrization, for every [[lie-groups/simple-root|simple root]].
 
 A **pinned automorphism** preserves \(B\) and \(T\) and carries the chosen
 simple-root parametrizations according to its induced permutation of the
-based root datum. If the simple roots are regarded as individually labeled
+[[langlands-letter/knowls/roots-weights-weyl|based root datum]]. If the
+simple roots are regarded as individually labeled
 and each \(X_\alpha\) is required to be fixed pointwise, the resulting
 automorphism is usually the identity; diagram automorphisms require the
 permutation-compatible formulation.
@@ -44,9 +47,13 @@ inner-automorphism ambiguity.
 
 ## L-group role
 
-For a reductive group over a nonsplit field, Galois acts on its based root
-datum. A pinning of \(\widehat G\) lifts this action to automorphisms of the
-dual group and defines the semidirect-product presentation of the
+For a reductive group over a nonsplit field, the
+[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+acts on its based root
+datum. A pinning of the
+[[langlands-letter/knowls/langlands-dual-group|dual group]] \(\widehat G\)
+lifts this action to automorphisms and defines the
+[[algebra-groups/semidirect-product|semidirect-product]] presentation of the
 [[langlands/l-group|\(L\)-group]]. Changing the pinning changes the
 presentation by an inner isomorphism.
 

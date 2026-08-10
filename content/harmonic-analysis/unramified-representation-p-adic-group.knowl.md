@@ -8,10 +8,15 @@ domains = ["harmonic-analysis", "langlands", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(\mathbf G\) be an unramified connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-nonarchimedean local field \(F\), and let \(K\leq G=\mathbf G(F)\) be a
-hyperspecial maximal compact subgroup. An irreducible admissible smooth
-representation \(\pi\) of \(G\) is **unramified with respect to \(K\)** if
+Let \(\mathbf G\) be an
+[[algebraic-geometry-foundations/unramified-reductive-group|unramified
+connected reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]] \(F\), and let \(K\leq G=\mathbf G(F)\) be a
+[[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial maximal
+compact subgroup]]. An irreducible
+[[harmonic-analysis/admissible-representation-p-adic-group|admissible smooth
+representation]] \(\pi\) of \(G\) is **unramified with respect to \(K\)** if
 
 \[
 \pi^K\ne0.

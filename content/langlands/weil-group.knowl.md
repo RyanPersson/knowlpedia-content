@@ -8,9 +8,14 @@ domains = ["langlands", "algebra-fields-galois"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a nonarchimedean local field, let
-\(\Gamma_F=\operatorname{Gal}(F^{\mathrm s}/F)\), and let \(I_F\) be its
-inertia subgroup. The **Weil group** \(W_F\) is the inverse image of
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]], let
+\(\Gamma_F=\operatorname{Gal}(F^{\mathrm s}/F)\) be its
+[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]],
+and let \(I_F\) be its
+[[algebra-fields-galois/inertia-subgroup|inertia subgroup]]. The **Weil group**
+\(W_F\) is the inverse image of
 \(\mathbb Z\subset\widehat{\mathbb Z}\) under
 
 \[
@@ -20,7 +25,8 @@ inertia subgroup. The **Weil group** \(W_F\) is the inverse image of
 
 It is topologized so that \(I_F\) is an open subgroup with its profinite
 topology and \(W_F/I_F\simeq\mathbb Z\) is discrete. Thus \(W_F\) is dense in
-\(\Gamma_F\), but its finer [[topology/locally-compact-space|locally compact]] topology allows continuous complex
+\(\Gamma_F\), but its finer
+[[topology/locally-profinite-group|locally profinite]] topology allows continuous complex
 representations with noncompact Frobenius image.
 
 ## Frobenius convention
@@ -59,6 +65,9 @@ A global Weil group is not obtained by simply repeating the inverse-image
 construction above. It is an extension built from global class formations and
 maps to the local Weil groups. This knowl uses \(W_F\) locally unless the word
 “global” is explicit.
+
+For local fields, abelianization is identified with \(F^\times\) by
+[[langlands/local-class-field-theory|local class field theory]].
 
 ## References
 

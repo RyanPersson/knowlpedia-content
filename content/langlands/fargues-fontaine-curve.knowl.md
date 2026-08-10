@@ -8,33 +8,48 @@ domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 section_mode = "progressive"
 +++
 
-Let \(E\) be a nonarchimedean local field with [[algebra-commutative/residue-field|residue field]]
-\(\mathbb F_q\), and let \(S\) be a perfectoid space over \(\mathbb F_q\).
+Let \(E\) be a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]] with [[algebra-commutative/residue-field|residue field]]
+\(\mathbb F_q\), and let \(S\) be a
+[[algebraic-geometry-foundations/perfectoid-space|perfectoid space]] over
+\(\mathbb F_q\).
 The relative **Fargues–Fontaine curve** \(X_{S,E}\) is the quotient
 
 \[
 X_{S,E}=Y_{S,E}/\varphi^{\mathbb Z},
 \]
 
-where \(Y_{S,E}\) is a punctured adic space built from relative ramified
-Witt vectors of \(S\), and \(\varphi\) is the Frobenius automorphism. The
+where \(Y_{S,E}\) is a punctured
+[[algebraic-geometry-foundations/adic-space|adic space]] built from relative
+ramified Witt vectors of \(S\), and \(\varphi\) is the
+[[algebra-fields-galois/frobenius-endomorphism|Frobenius automorphism]]. The
 Frobenius action on the relevant punctured locus is free and properly
 discontinuous.
 
 ## Geometric case
 
 For \(S=\operatorname{Spa}(C^\flat,C^{\flat+})\), where \(C\) is an
-[[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed]] perfectoid field containing \(E\), one obtains the
+[[algebraic-geometry-foundations/algebraically-closed-field|algebraically
+closed]] [[algebraic-geometry-foundations/perfectoid-field|perfectoid
+field]] containing \(E\), one obtains the
 curve \(X_{C^\flat,E}\). Its algebraic avatar is a regular noetherian
-one-dimensional scheme. Degree-one [[algebraic-geometry-foundations/closed-point|closed points]] encode untilts of
+one-dimensional scheme. Degree-one
+[[algebraic-geometry-foundations/closed-point|closed points]] encode
+[[algebraic-geometry-foundations/tilt-and-untilt|untilts]] of
 \(C^\flat\) to characteristic \(0\), together with an embedding of \(E\).
 
 ## Vector bundles and isocrystals
 
-An isocrystal \((D,\varphi_D)\) over the completed maximal unramified
-extension of \(E\) produces a [[fiber-bundles/vector-bundle|vector bundle]] \(\mathcal E(D,\varphi_D)\) on
-the curve. Over an algebraically closed perfectoid base, every vector bundle
-decomposes uniquely into slope bundles
+An [[algebraic-geometry-foundations/isocrystal|isocrystal]]
+\((D,\varphi_D)\) over the completed maximal unramified
+extension of \(E\) produces a
+[[algebraic-geometry-foundations/locally-free-sheaf|vector bundle]]
+\(\mathcal E(D,\varphi_D)\) on the curve. Over an
+[[algebraic-geometry-foundations/algebraically-closed-field|algebraically
+closed]] perfectoid base, every vector bundle
+decomposes uniquely into
+[[algebraic-geometry-foundations/harder-narasimhan-filtration|slope bundles]]
 
 \[
 \bigoplus_{\lambda\in\mathbb Q}

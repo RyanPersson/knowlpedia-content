@@ -9,7 +9,9 @@ legacy_source_path = "langlands-letter/knowls/coroots-and-pairing.md"
 section_mode = "progressive"
 +++
 
-For a maximal torus \(T\), characters and cocharacters have the perfect
+For a
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]]
+\(T\), its characters and cocharacters have the perfect
 pairing
 
 \[
@@ -23,7 +25,8 @@ defined by
 \lambda\circ\mu(z)=z^{\langle\lambda,\mu\rangle}.
 \]
 
-For every root \(\alpha\in\Phi\subset X^*(T)\), the root datum specifies a
+For every [[langlands-letter/knowls/roots-weights-weyl|root]]
+\(\alpha\in\Phi\subset X^*(T)\), the root datum specifies a
 **coroot** \(\alpha^\vee\in X_*(T)\) satisfying
 
 \[
@@ -44,7 +47,8 @@ s_\alpha(\mu)
 \mu-\langle\alpha,\mu\rangle\alpha^\vee.
 \]
 
-A character \(\lambda\) is dominant relative to a Borel if
+A character \(\lambda\) is dominant relative to a
+[[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]] if
 \(\langle\lambda,\alpha^\vee\rangle\geq0\) for every [[lie-groups/simple-root|simple root]]
 \(\alpha\).
 
@@ -59,7 +63,9 @@ d\lambda(H_\alpha)
 \langle\lambda,\alpha^\vee\rangle.
 \]
 
-In positive characteristic, group-scheme root data remain the safer
+In positive characteristic,
+[[algebraic-geometry-foundations/group-scheme|group-scheme]]
+[[langlands-letter/knowls/roots-weights-weyl|root data]] remain the safer
 definition because differential maps can lose information.
 
 ## Langlands duality

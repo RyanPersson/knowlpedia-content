@@ -8,16 +8,21 @@ domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|number field]] and let
 
 \[
 \pi=\bigotimes_v'\pi_v
 \]
 
-be an [[langlands/algebraic-automorphic-representation|algebraic automorphic representation]] and let
+be an [[langlands/restricted-tensor-product-automorphic-representation|restricted
+tensor product]] defining an
+[[langlands/algebraic-automorphic-representation|algebraic automorphic
+representation]], and let
 \(\rho_{\pi,\lambda}\) be an associated \(\ell\)-adic Galois
 representation. **Local–global compatibility at \(v\)** asserts that the
-restriction of \(\rho_{\pi,\lambda}\) to a decomposition group at \(v\)
+restriction of \(\rho_{\pi,\lambda}\) to a
+[[algebra-fields-galois/decomposition-group|decomposition group]] at \(v\)
 matches the [[langlands/local-l-parameter|local Langlands parameter]] of
 \(\pi_v\), after choosing an identification between complex and
 \(\ell\)-adic coefficient fields and applying the stated normalization.
@@ -38,7 +43,10 @@ For \(v\nmid\ell\), the comparison for
 \]
 
 with the twist altered if a different local Langlands normalization is used.
-The superscript denotes Frobenius semisimplification. Some theorems prove
+The superscript denotes Frobenius semisimplification: replace the Frobenius
+action in the [[langlands/weil-deligne-representation|Weil–Deligne
+representation]] by its semisimple part while retaining monodromy. Some
+theorems prove
 only ordinary semisimplification and therefore do not identify the
 monodromy operator.
 
@@ -48,9 +56,11 @@ At an unramified place, the statement reduces to equality of the Frobenius
 ## At places above ell
 
 For \(v\mid\ell\), the comparison uses \(p\)-adic Hodge theory: the Galois
-representation should be de Rham, its Hodge–Tate cocharacters should match
+representation should be [[langlands/de-rham-galois-representation|de Rham]],
+its [[langlands/hodge-tate-representation|Hodge–Tate cocharacters]] should match
 the archimedean algebraic weights through the chosen embedding, and its
-potentially semistable Weil–Deligne parameter should match \(\pi_v\).
+[[langlands/semistable-galois-representation|potentially semistable]]
+Weil–Deligne parameter should match \(\pi_v\).
 This is a different and generally harder assertion than compatibility away
 from \(\ell\).
 

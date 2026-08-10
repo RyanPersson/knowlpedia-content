@@ -8,7 +8,9 @@ domains = ["langlands", "algebra-fields-galois"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a nonarchimedean local field. The **Weil–Deligne group** is the
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]]. The **Weil–Deligne group** is the
 semidirect-product [[algebraic-geometry-foundations/group-scheme|group scheme]]
 
 \[

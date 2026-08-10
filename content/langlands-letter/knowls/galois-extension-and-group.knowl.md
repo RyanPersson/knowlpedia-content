@@ -38,13 +38,18 @@ and is profinite. The **absolute Galois group** is
 \(\Gamma_k=\operatorname{Gal}(k_s/k)\).
 
 Continuous finite quotients of \(\Gamma_k\) correspond to finite Galois
-extensions. Continuous \(\ell\)-adic representations can have infinite
+extensions. Continuous
+[[langlands/compatible-system-of-galois-representations|\(\ell\)-adic
+representations]] can have infinite
 image and therefore do not generally factor through one finite extension.
 
 ## Langlands role
 
-Finite Galois groups act on split root data in descent constructions. Weil
-groups and absolute Galois groups supply the parameter side of local and
+Finite Galois groups act on
+[[langlands-letter/knowls/roots-weights-weyl|split root data]] in
+[[langlands-letter/knowls/galois-descent-forms|descent constructions]].
+[[langlands/weil-group|Weil groups]] and absolute Galois groups supply the
+parameter side of local and
 global Langlands. The [[langlands/l-group|\(L\)-group]] usually uses a Weil
 group whose action on the pinned dual group factors through a finite Galois
 quotient.

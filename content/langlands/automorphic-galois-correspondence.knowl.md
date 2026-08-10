@@ -11,7 +11,8 @@ section_mode = "progressive"
 The **automorphic–Galois correspondence** predicts that suitably
 [[langlands/l-algebraic-automorphic-representation|\(L\)-algebraic]]
 [[langlands/automorphic-representation|automorphic representations]] of a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a
-number field \(F\) have associated continuous \(\ell\)-adic representations
+[[langlands-letter/knowls/global-local-fields-completions|number field]]
+\(F\) have associated continuous \(\ell\)-adic homomorphisms
 
 \[
 \rho_{\pi,\iota}:
@@ -20,7 +21,9 @@ number field \(F\) have associated continuous \(\ell\)-adic representations
 {}^L G(\overline{\mathbb Q}_\ell),
 \]
 
-whose projection to the Galois factor is the canonical one. The
+from the [[langlands-letter/knowls/galois-extension-and-group|absolute Galois
+group]] into the [[langlands/l-group|\(L\)-group]], whose projection to the
+Galois factor is the canonical one. The
 representation should be unramified almost everywhere and satisfy
 [[langlands/local-global-compatibility|local–global compatibility]].
 
@@ -29,7 +32,9 @@ full generality.
 
 ## Unramified characterization
 
-For almost every finite place \(v\nmid\ell\), the [[algebra-groups/conjugacy-class|conjugacy class]] of
+For almost every finite place \(v\nmid\ell\), the
+[[algebra-groups/conjugacy-class|conjugacy class]] of the
+[[langlands-letter/knowls/frobenius-unramified|Frobenius element]]
 \(\rho_{\pi,\iota}(\operatorname{Frob}_v)\) should equal the image under
 \(\iota\) of the [[langlands/satake-parameter|Satake parameter]] of
 \(\pi_v\). Applying an algebraic representation

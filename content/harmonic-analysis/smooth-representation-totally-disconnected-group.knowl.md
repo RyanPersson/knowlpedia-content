@@ -8,9 +8,9 @@ domains = ["harmonic-analysis", "langlands", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a totally disconnected [[topology/locally-compact-group|locally compact group]]. A complex
+Let \(G\) be a [[topology/locally-profinite-group|locally profinite group]]. A complex
 representation \((\pi,V)\) of \(G\) is **smooth** if every vector has an open
-stabilizer:
+[[algebra-groups/stabilizer|stabilizer]]:
 
 \[
 V=\bigcup_{K\leq G\text{ open}}V^K,
@@ -29,7 +29,8 @@ different from differentiable smooth vectors for a real [[fiber-bundles/lie-grou
 
 ## Hecke action
 
-For compact open \(K\leq G\), the fixed space \(V^K\) carries an action of the
+For a [[topology/locally-profinite-group|compact open subgroup]]
+\(K\leq G\), the fixed space \(V^K\) carries an action of the
 [[harmonic-analysis/hecke-algebra-locally-compact-group-pair|Hecke algebra]]
 \(\mathcal H(G,K)\). Much of nonarchimedean representation theory studies a
 smooth representation through these fixed spaces as \(K\) varies.

@@ -8,7 +8,11 @@ domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a global field and \(G\) a connected reductive \(F\)-group. In
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|global field]] and
+\(G\) a connected
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive
+\(F\)-group]]. In
 the conjectural Langlands formalism, a **global Langlands parameter** is an
 admissible homomorphism
 
@@ -17,8 +21,10 @@ admissible homomorphism
 \]
 
 from a global Langlands group \(\mathcal L_F\) to the
-[[langlands/l-group|\(L\)-group]], considered up to conjugacy by
-\(\widehat G\). For every place \(v\), localization should produce a
+[[langlands/l-group|\(L\)-group]], considered up to
+[[algebra-groups/conjugacy-class|conjugacy]] by \(\widehat G\). For every
+[[langlands-letter/knowls/global-local-fields-completions|place]] \(v\),
+localization should produce a
 [[langlands/local-l-parameter|local \(L\)-parameter]]
 \(\varphi_v\).
 
@@ -36,17 +42,22 @@ related but are not interchangeable without hypotheses.
 
 ## Function-field status
 
-For a global function field, the absolute [[algebra-fields-galois/galois-group|Galois group]] is concrete.
+For a global function field, the
+[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+is concrete.
 Vincent Lafforgue's [[langlands/excursion-operator|excursion operators]] attach semisimple
-\(\widehat G\)-valued global Galois parameters to cuspidal automorphic data.
+\(\widehat G\)-valued global Galois parameters to
+[[langlands/cuspidal-automorphic-representation|cuspidal automorphic data]].
 This is a major theorem, but it does not turn the entire general packet and
 multiplicity formalism into a literal bijection.
 
 ## Expected information
 
-A global parameter should determine compatible local packets
+A global parameter should determine compatible
+[[langlands/l-packet|local packets]]
 \(\Pi_{\varphi_v}\), global \(L\)-functions, and a global packet inside the
-restricted product of the local packets. A multiplicity formula is then
+[[langlands/restricted-tensor-product-automorphic-representation|restricted
+product]] of the local packets. A multiplicity formula is then
 needed to decide which tensor products occur automorphically and with what
 multiplicity.
 

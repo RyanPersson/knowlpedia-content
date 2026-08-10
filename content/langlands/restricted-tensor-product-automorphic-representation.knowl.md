@@ -8,7 +8,9 @@ domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a global field \(F\). An
+Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|global field]]
+\(F\). An
 irreducible admissible [[langlands/automorphic-representation|automorphic
 representation]] has a factorization
 
@@ -16,13 +18,16 @@ representation]] has a factorization
 \pi \simeq \bigotimes_v' \pi_v
 \]
 
-into irreducible admissible representations \(\pi_v\) of \(G(F_v)\). The
-restricted tensor product is taken with respect to distinguished spherical
-vectors at almost all finite places.
+into irreducible admissible representations \(\pi_v\) of the groups over the
+[[langlands-letter/knowls/global-local-fields-completions|completions]]
+\(F_v\). The restricted tensor product is taken with respect to distinguished
+[[harmonic-analysis/unramified-representation-p-adic-group|spherical vectors]]
+at almost all finite places.
 
 ## Construction
 
-Choose compact open subgroups \(K_v\subset G(F_v)\) such that, outside a
+Choose [[topology/locally-profinite-group|compact open subgroups]]
+\(K_v\subset G(F_v)\) such that, outside a
 finite set \(S\), the space \(\pi_v^{K_v}\) is one-dimensional. Choose a
 nonzero vector \(e_v\in\pi_v^{K_v}\). Algebraically,
 
@@ -42,7 +47,8 @@ where \(S'\) ranges over finite sets containing \(S\). Rescaling finitely many
 
 At archimedean places one uses the appropriate completed topological tensor
 product or, more commonly in algebraic statements, the tensor product of
-Harish-Chandra modules together with the finite-adelic restricted product.
+[[lie-groups/harish-chandra-module|Harish–Chandra modules]] together with the
+finite-adelic restricted product.
 
 ## The theorem and its converse
 
@@ -55,9 +61,13 @@ of \(G(\mathbb A_F)\); being automorphic is an additional global condition.
 ## Arithmetic role
 
 The factorization makes local-to-global constructions possible. For almost
-all \(v\), the unramified \(\pi_v\) has a
+all \(v\), the
+[[harmonic-analysis/unramified-representation-p-adic-group|unramified]]
+\(\pi_v\) has a
 [[langlands/satake-parameter|Satake parameter]]. Applying a representation of
-the [[langlands/l-group|\(L\)-group]] gives the local Euler factor. The
+the [[langlands/l-group|\(L\)-group]] gives the
+[[langlands-letter/knowls/euler-product-and-local-factor|local Euler factor]].
+The
 resulting Euler product depends on the global representation, not merely on
 an arbitrary collection of local factors.
 

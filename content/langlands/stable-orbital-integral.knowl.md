@@ -8,8 +8,11 @@ domains = ["langlands", "harmonic-analysis", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a local field and let \(\gamma\in G(F)\) be strongly regular
-semisimple. The **stable orbital integral** of
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|local field]] and
+let \(\gamma\in G(F)\) be
+[[langlands/strongly-regular-semisimple-element|strongly regular
+semisimple]]. The **stable orbital integral** of
 \(f\in C_c^\infty(G(F))\) is
 
 \[
@@ -27,8 +30,11 @@ compatibly transported [[harmonic-analysis/haar-measure|Haar measures]] on their
 ## Stability
 
 Unlike an individual orbital integral, \(SO_\gamma\) depends only on the
-stable conjugacy class. A distribution assembled from such expressions is
-called stable when it vanishes on [[functional-analysis/test-function-space|test functions]] whose stable orbital
+stable conjugacy class. A
+[[langlands/stable-distribution|stable distribution]] assembled from such
+expressions vanishes on
+[[harmonic-analysis/test-function-space-local-group|test functions]] whose
+stable orbital
 integrals all vanish.
 
 The displayed unweighted sum is the basic strongly regular definition.
@@ -39,7 +45,9 @@ stated.
 ## Kappa refinements
 
 The rational classes inside the stable class are parametrized by a finite
-cohomological kernel \(A_\gamma\). For a character
+[[langlands-letter/knowls/nonabelian-h1-galois-cohomology|cohomological
+kernel]] \(A_\gamma\). For a
+[[algebra-representation-theory/character|character]]
 \(\kappa:A_\gamma\to\mathbb C^\times\), the associated
 [[langlands/kappa-orbital-integral|\(\kappa\)-orbital integral]] weights the
 summands by \(\kappa\). The stable orbital integral is the case of the

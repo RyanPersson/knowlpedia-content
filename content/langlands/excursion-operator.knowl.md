@@ -8,7 +8,10 @@ domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a global function field and \(G\) a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]].
+Let \(F\) be a
+[[langlands-letter/knowls/global-local-fields-completions|global function
+field]] and \(G\) a connected
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]].
 An **excursion operator** is indexed by
 
 \[
@@ -16,9 +19,13 @@ An **excursion operator** is indexed by
 \]
 
 where \(I\) is a finite set,
-\(f\in\mathcal O(\widehat G\backslash\widehat G^I/\widehat G)\) is invariant
+\(f\in\mathcal O(\widehat G\backslash\widehat G^I/\widehat G)\) is an
+invariant function on powers of the
+[[langlands-letter/knowls/langlands-dual-group|dual group]], invariant
 under diagonal left and [[lie-groups/right-translation|right translation]], and
-\(\gamma_i\in\operatorname{Gal}(\overline F/F)\). It defines an endomorphism
+\(\gamma_i\) lies in the
+[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+\(\operatorname{Gal}(\overline F/F)\). It defines an endomorphism
 
 \[
 S_{I,f,(\gamma_i)}
@@ -40,17 +47,20 @@ The operator is the composite:
 
 1. **create** \(I\) coincident shtuka legs using \(x:\mathbf 1\to W\);
 2. act on the legs by the independent Galois elements \((\gamma_i)\), using
-   partial Frobenius and Drinfeld's lemma;
+   [[langlands/partial-frobenius-on-shtukas|partial Frobenius]] and
+   [[langlands/drinfeld-lemma|Drinfeld's lemma]];
 3. **annihilate** the legs using \(\xi:W\to\mathbf 1\).
 
-Coalescence of legs supplies the comparison maps. The resulting operator
+[[langlands/coalescence-of-shtuka-legs|Coalescence of legs]] supplies the
+comparison maps. The resulting operator
 depends only on \(I,f,(\gamma_i)\), not on the chosen realization
 \((W,x,\xi)\).
 
 ## Why many legs are necessary
 
-Characters of single dual-group elements do not distinguish all
-semisimple homomorphisms into a general reductive group. Simultaneous
+[[langlands-letter/knowls/characters-separate-semisimple-classes|Characters
+of single dual-group elements do not distinguish all semisimple
+homomorphisms]] into a general reductive group. Simultaneous
 invariant functions on \(\widehat G^I\) for all finite \(I\) retain the
 pseudocharacter data needed to reconstruct a semisimple
 \(\widehat G\)-valued Galois parameter.

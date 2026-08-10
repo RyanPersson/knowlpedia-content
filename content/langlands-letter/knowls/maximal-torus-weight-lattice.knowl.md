@@ -9,8 +9,11 @@ legacy_source_path = "langlands-letter/knowls/maximal-torus-weight-lattice.md"
 section_mode = "progressive"
 +++
 
-A **torus** over a field \(k\) is a \(k\)-group \(T\) such that
-\(T_{\overline k}\simeq\mathbb G_m^r\). It is **split** if this isomorphism
+A **torus** over a field \(k\) is an
+[[algebraic-geometry-foundations/algebraic-group|algebraic \(k\)-group]]
+\(T\) such that \(T_{\overline k}\simeq\mathbb G_m^r\) over an
+[[algebra-fields-galois/algebraic-closure|algebraic closure]]. It is
+**split** if this isomorphism
 already exists over \(k\). A **maximal torus** \(T\subset G\) is a torus not
 properly contained in another torus of \(G\).
 
@@ -26,7 +29,9 @@ X_*(T)=
 (\mathbb G_m,T_{\overline k}).
 \]
 
-They are dual finite free [[algebra-groups/abelian-group|abelian groups]] with a natural action of
+They are dual finite free [[algebra-groups/abelian-group|abelian groups]]
+with a natural action of the
+[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
 \(\Gamma_k\). The characters defined over \(k\) are
 \(X^*(T)^{\Gamma_k}\), not generally all of \(X^*(T)\).
 
@@ -35,7 +40,9 @@ They are dual finite free [[algebra-groups/abelian-group|abelian groups]] with a
 For a representation of \(G_{\overline k}\), its weights are characters in
 \(X^*(T)\). The abstract [[lie-groups/weight-lattice|weight lattice]] of the [[lie-groups/root-system|root system]] can be larger
 than the actual character lattice of \(T\); the intermediate lattice records
-the isogeny form of a semisimple group.
+the
+[[langlands-letter/knowls/root-vs-weight-lattice-isogeny|isogeny form]] of a
+semisimple group.
 
 ## Example
 
@@ -50,8 +57,10 @@ X^*(T)\simeq\mathbb Z^n,
 
 ## Langlands role
 
-The full based root datum uses both \(X^*(T)\) and \(X_*(T)\). Exchanging
-them, and roots with coroots, defines the
+The full [[langlands-letter/knowls/roots-weights-weyl|based root datum]] uses
+both \(X^*(T)\) and \(X_*(T)\). Exchanging them, and
+[[langlands-letter/knowls/coroots-and-pairing|roots with coroots]], defines
+the
 [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]].
 
 ## References

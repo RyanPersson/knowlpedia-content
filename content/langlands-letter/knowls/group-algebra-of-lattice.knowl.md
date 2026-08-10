@@ -9,7 +9,8 @@ legacy_source_path = "langlands-letter/knowls/group-algebra-of-lattice.md"
 section_mode = "progressive"
 +++
 
-Let \(L\) be a finite free [[algebra-groups/abelian-group|abelian group]]. The **group algebra**
+Let \(L\) be a finite free [[algebra-groups/abelian-group|abelian group]].
+The **[[algebra-representation-theory/group-algebra|group algebra]]**
 \(\mathbb C[L]\) has basis \(\{e^\lambda\}_{\lambda\in L}\) and
 multiplication
 
@@ -25,9 +26,12 @@ After choosing a basis \(L\simeq\mathbb Z^r\),
 \mathbb C[x_1^{\pm1},\ldots,x_r^{\pm1}].
 \]
 
+This is a [[algebra-rings/laurent-polynomial-ring|Laurent polynomial ring]].
+
 ## Coordinate ring of a torus
 
-If \(T\) is a complex algebraic torus with character lattice
+If \(T\) is a complex algebraic torus with
+[[langlands-letter/knowls/maximal-torus-weight-lattice|character lattice]]
 \(X^*(T)=L\), then
 
 \[
@@ -49,13 +53,16 @@ a point of \(T\).
 
 If a [[lie-groups/weyl-group|Weyl group]] \(W\) acts on \(L\), then
 \(\mathbb C[L]^W\) is the coordinate ring of the affine quotient \(T/W\).
-Its complex points encode semisimple [[algebra-groups/conjugacy-class|conjugacy classes]] in a connected
+Its complex points encode
+[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]
+[[algebra-groups/conjugacy-class|conjugacy classes]] in a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] with maximal torus \(T\).
 
 ## Satake role
 
-For a split group \(G\), normalized Satake identifies the spherical Hecke
-algebra with
+For a [[langlands-letter/knowls/split-reductive-group|split group]] \(G\),
+the [[langlands-letter/knowls/spherical-hecke-algebra-satake|normalized
+Satake isomorphism]] identifies the spherical Hecke algebra with
 
 \[
 \mathbb C[X_*(T)]^W

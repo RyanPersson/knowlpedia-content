@@ -8,30 +8,37 @@ domains = ["harmonic-analysis", "langlands", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(G=\mathbf G(F)\) for a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a nonarchimedean
-local field. An irreducible
+Let \(G=\mathbf G(F)\) for a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
+[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
+field]]. An irreducible
 [[harmonic-analysis/admissible-representation-p-adic-group|admissible smooth
-representation]] \(\pi\) of \(G\) is **supercuspidal** if its Jacquet module
+representation]] \(\pi\) of \(G\) is **supercuspidal** if its
+[[harmonic-analysis/jacquet-module|Jacquet module]]
 along every proper [[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroup]] of \(\mathbf G\) is zero. Equivalently,
-\(\pi\) is not a subquotient of parabolic induction from a proper Levi
-subgroup.
+\(\pi\) is not a subquotient of parabolic induction from a proper
+[[algebraic-geometry-foundations/levi-subgroup|Levi subgroup]].
 
 ## Matrix-coefficient criterion
 
-After fixing a central character, \(\pi\) is supercuspidal exactly when its
+After fixing a [[algebra-representation-theory/central-character|central
+character]], \(\pi\) is supercuspidal exactly when its
 [[harmonic-analysis/coefficient-function|matrix coefficients]] are compactly supported modulo the center of \(G\). This
 criterion explains the term “cuspidal”: proper parabolic constant terms
 vanish.
 
 ## Position in the classification
 
-Supercuspidal representations are the primitive inputs for the Bernstein and
-Langlands classifications. Parabolic induction from supercuspidal
+Supercuspidal representations are the primitive inputs for the
+[[harmonic-analysis/bernstein-decomposition|Bernstein decomposition]] and the
+[[harmonic-analysis/langlands-classification-p-adic-group|p-adic Langlands
+classification]]. [[harmonic-analysis/normalized-parabolic-induction-p-adic-group|Parabolic induction]] from supercuspidal
 representations of Levi subgroups generates every irreducible smooth
 representation through subquotients, but a supercuspidal representation
 itself does not arise from a proper Levi.
 
-Every supercuspidal representation is square-integrable modulo the center, but
+Every supercuspidal representation is
+[[lie-groups/square-integrable-modulo-center-representation|square-integrable
+modulo the center]], but
 not every essentially discrete-series representation is supercuspidal.
 
 ## Parameter-side warning
