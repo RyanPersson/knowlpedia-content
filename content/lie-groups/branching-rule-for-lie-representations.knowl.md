@@ -8,7 +8,7 @@ domains = ["lie-groups", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(i:H\to G\) be a homomorphism of Lie groups and let \((\pi,V)\) be a finite-dimensional [[lie-groups/representation-of-a-lie-group|representation]] of \(G\). The **branching rule** for \(V\) along \(i\) is the decomposition of the restricted representation
+Let \(i:H\to G\) be a homomorphism of [[fiber-bundles/lie-group|Lie groups]] and let \((\pi,V)\) be a finite-dimensional [[lie-groups/representation-of-a-lie-group|representation]] of \(G\). The **branching rule** for \(V\) along \(i\) is the decomposition of the [[algebra-representation-theory/restricted-representation|restricted representation]]
 \[
 \operatorname{Res}^{G}_{H}V,
 \qquad h\longmapsto \pi(i(h)),
@@ -20,17 +20,17 @@ into irreducible \(H\)-representations. When restriction is completely reducible
 \]
 and the branching rule records the occurring irreducibles \(W_\mu\) and their [[lie-groups/multiplicity-of-an-irreducible-representation|multiplicities]] \(m_\mu\).
 
-The same terminology applies to a homomorphism of Lie algebras \(\mathfrak h\to\mathfrak g\): one restricts a [[lie-groups/representation-of-a-lie-algebra|\(\mathfrak g\)-representation]] to \(\mathfrak h\) and decomposes it there.
+The same terminology applies to a homomorphism of [[lie-groups/lie-algebra|Lie algebras]] \(\mathfrak h\to\mathfrak g\): one restricts a [[lie-groups/representation-of-a-lie-algebra|\(\mathfrak g\)-representation]] to \(\mathfrak h\) and decomposes it there.
 
 ## Typical settings
 
-Complete reducibility holds, for example, for finite-dimensional representations of compact groups and for finite-dimensional representations of complex semisimple Lie algebras. For a complex reductive Lie algebra, one must additionally require the center to act semisimply. In a highest-weight setting a branching rule is often presented as a formula
+Complete reducibility holds, for example, for finite-dimensional representations of compact groups and for finite-dimensional representations of complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebras]]. For a complex [[lie-groups/reductive-lie-algebra|reductive Lie algebra]], one must additionally require the center to act semisimply. In a highest-weight setting a branching rule is often presented as a formula
 \[
 V_\lambda\big|_H\cong\bigoplus_\mu m_{\lambda\mu}W_\mu
 \]
 relating the highest-weight labels for \(G\) and \(H\).
 
-Restriction may be computed by comparing characters, by decomposing weight spaces, or by using invariant tensors. A multiplicity-free branching rule is one for which every coefficient \(m_{\lambda\mu}\) is at most one.
+Restriction may be computed by comparing characters, by decomposing [[lie-groups/weight-space|weight spaces]], or by using invariant tensors. A multiplicity-free branching rule is one for which every coefficient \(m_{\lambda\mu}\) is at most one.
 
 ## Example
 
@@ -42,7 +42,7 @@ where the last summand is the trivial representation carried by the fixed coordi
 
 ## Global and infinitesimal cautions
 
-A Lie-group branching rule differentiates to the corresponding Lie-algebra restriction, but the converse need not determine the group-level rule. A Lie algebra cannot see disconnected components, and a representation of a Lie algebra may integrate only to a covering group rather than to the chosen global form of \(G\). Central quotients can therefore remove representations that are allowed infinitesimally.
+A Lie-group branching rule differentiates to the corresponding Lie-algebra restriction, but the converse need not determine the group-level rule. A Lie algebra cannot see disconnected components, and a representation of a Lie algebra may integrate only to a covering group rather than to the chosen global form of \(G\). [[lie-groups/central-quotient-of-a-lie-group|Central quotients]] can therefore remove representations that are allowed infinitesimally.
 
 If the restricted representation is not semisimple, a direct-sum branching formula may not exist. One must then specify whether the desired data are composition-factor multiplicities, a filtration, or a decomposition into indecomposable modules.
 

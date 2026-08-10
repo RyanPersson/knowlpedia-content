@@ -14,7 +14,7 @@ X\cong\mathfrak h_2(\mathbb C),
 \qquad
 B\cong\mathfrak h_3(\mathbb C).
 \]
-Writing \(\operatorname{Stab}_{F_4}(-)\) for setwise stabilizers and \((-)^0\) for the identity component,
+Writing \(\operatorname{Stab}_{F_4}(-)\) for setwise stabilizers and \((-)^0\) for the [[lie-groups/identity-component-of-a-lie-group|identity component]],
 \[
 \operatorname{Stab}_{F_4}(X)\cap
 \operatorname{Stab}_{F_4}(B)^0
@@ -50,7 +50,7 @@ is strictly larger than the Standard Model group. The superscript \(0\) is part 
 
 ## Interpretation and scope
 
-The two complex Jordan algebras are observable algebras of a [[quantum-foundations/qubit|qubit]] and a [[quantum-foundations/qutrit|qutrit]], motivating an “octonionic qutrit” interpretation of \(J\). The theorem is a precise group-theoretic characterization; by itself it does not construct the Standard Model Lagrangian, select its fermion representation, or prove that \(F_4\) is a physical gauge symmetry.
+The two complex [[nonassociative-algebra/jordan-algebra|Jordan algebras]] are observable algebras of a [[quantum-foundations/qubit|qubit]] and a [[quantum-foundations/qutrit|qutrit]], motivating an “octonionic qutrit” interpretation of \(J\). The theorem is a precise group-theoretic characterization; by itself it does not construct the Standard Model Lagrangian, select its fermion representation, or prove that \(F_4\) is a physical gauge symmetry.
 
 ## References
 

@@ -10,11 +10,11 @@ section_mode = "progressive"
 
 The **exceptional complex Lie algebra** \(\mathfrak e_8\) is the unique [[lie-groups/simple-lie-algebra|simple complex Lie algebra]] whose [[lie-groups/root-system|root system]] has Dynkin type \(E_8\). It has complex dimension \(248\), rank \(8\), and \(240\) roots.
 
-Its smallest nontrivial finite-dimensional irreducible representation is its \(248\)-dimensional [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint representation]]. Equivalently, \(E_8\) has no analogue of the smaller defining modules \(\mathbf{27}\) for \(E_6\) or \(\mathbf{56}\) for \(E_7\).
+Its smallest nontrivial finite-dimensional [[algebra-representation-theory/irreducible-representation|irreducible representation]] is its \(248\)-dimensional [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint representation]]. Equivalently, \(E_8\) has no analogue of the smaller defining modules \(\mathbf{27}\) for \(E_6\) or \(\mathbf{56}\) for \(E_7\).
 
 ## Root lattice and groups
 
-The \(E_8\) root lattice is even, positive definite, and unimodular of rank \(8\). Because the root and weight lattices coincide, the simply connected and adjoint complex groups of type \(E_8\) are the same; their center is trivial. The compact group [[lie-groups/compact-exceptional-lie-group-e8|compact \(E_8\)]] and the split real form \(E_{8(8)}\) both complexify to \(\mathfrak e_8\), but have very different real geometry.
+The \(E_8\) [[lie-groups/root-lattice|root lattice]] is even, positive definite, and unimodular of rank \(8\). Because the root and [[lie-groups/weight-lattice|weight lattices]] coincide, the [[lie-groups/simply-connected-lie-group|simply connected]] and adjoint complex groups of type \(E_8\) are the same; their center is trivial. The compact group [[lie-groups/compact-exceptional-lie-group-e8|compact \(E_8\)]] and the split real form \(E_{8(8)}\) both complexify to \(\mathfrak e_8\), but have very different real geometry.
 
 ## Distinguished branchings
 
@@ -28,7 +28,7 @@ Two standard maximal-rank branchings of the adjoint module are
 \quad\mathbf{248}&=\mathbf{120}\oplus\mathbf{128},
 \end{aligned}
 \]
-where \(\mathbf{128}\) is a half-spin module.
+where \(\mathbf{128}\) is a [[lie-groups/half-spin-representation|half-spin module]].
 
 ## Paper context
 

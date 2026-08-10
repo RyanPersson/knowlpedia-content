@@ -8,8 +8,8 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(\mathfrak g\) be a finite-dimensional semisimple Lie algebra over an
-algebraically closed field of characteristic zero. Its **rank** is
+Let \(\mathfrak g\) be a finite-dimensional [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] over an
+[[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]] of characteristic zero. Its **rank** is
 \[
 \operatorname{rank}\mathfrak g=\dim\mathfrak h,
 \]
@@ -21,7 +21,7 @@ of \(\mathfrak h\). It is also the rank of the associated
 
 ## Examples
 
-The classical complex Lie algebras satisfy
+The classical complex [[lie-groups/lie-algebra|Lie algebras]] satisfy
 \[
 \operatorname{rank}\mathfrak{sl}_n(\mathbb C)=n-1,
 \qquad
@@ -33,9 +33,9 @@ and \(G_2\) have ranks \(6,7,8,4\), and \(2\), respectively.
 
 ## Relation to rank in other settings
 
-For a compact connected Lie group \(G\), the rank of \(G\) is the dimension of
+For a compact [[lie-groups/connected-lie-group|connected Lie group]] \(G\), the rank of \(G\) is the dimension of
 a maximal torus. Its Lie algebra has the same rank after complexification. For
-a general real reductive Lie algebra, **complex rank** and **real rank** are
+a general real [[lie-groups/reductive-lie-algebra|reductive Lie algebra]], **complex rank** and **real rank** are
 different invariants: complex rank is the rank of its complexification,
 whereas real rank is the dimension of a maximal abelian subspace in the
 noncompact part of a Cartan decomposition. The unqualified definition above is

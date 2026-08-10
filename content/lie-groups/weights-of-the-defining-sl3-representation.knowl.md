@@ -8,7 +8,7 @@ domains = ["lie-groups", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(V=\mathbb C^3\) be the [[lie-groups/defining-representation-of-a-classical-lie-algebra|defining representation]] of \(\mathfrak{sl}_3(\mathbb C)\), and take the Cartan subalgebra
+Let \(V=\mathbb C^3\) be the [[lie-groups/defining-representation-of-a-classical-lie-algebra|defining representation]] of \(\mathfrak{sl}_3(\mathbb C)\), and take the [[lie-groups/cartan-subalgebra|Cartan subalgebra]]
 \[
 \mathfrak h=\left\{\operatorname{diag}(h_1,h_2,h_3):
 h_1+h_2+h_3=0\right\}.
@@ -23,13 +23,13 @@ each with multiplicity one. The standard basis vector \(e_i\) spans the \(\varep
 
 ## Simple-root coordinates
 
-Choose the simple roots
+Choose the [[lie-groups/simple-root|simple roots]]
 \[
 \alpha_1=\varepsilon_1-\varepsilon_2,
 \qquad
 \alpha_2=\varepsilon_2-\varepsilon_3.
 \]
-With the corresponding positive roots, the highest weight is
+With the corresponding [[lie-groups/positive-root|positive roots]], the [[lie-groups/highest-weight|highest weight]] is
 \[
 \omega_1=\varepsilon_1.
 \]
@@ -39,7 +39,7 @@ The three weights form the string
 \omega_1-\alpha_1,\qquad
 \omega_1-\alpha_1-\alpha_2.
 \]
-Geometrically they are the vertices of an equilateral triangle centered at the origin in the two-dimensional real span of the roots. The Weyl group \(S_3\) permutes the three vertices.
+Geometrically they are the vertices of an equilateral triangle centered at the origin in the two-dimensional real span of the roots. The [[lie-groups/weyl-group|Weyl group]] \(S_3\) permutes the three vertices.
 
 ## Exterior power and dual
 
@@ -55,7 +55,7 @@ The determinant volume form identifies
 \[
 \Lambda^2V\cong V^*,
 \]
-whose highest weight is \(\omega_2=-\varepsilon_3\). This realizes the nontrivial symmetry of the \(A_2\) Dynkin diagram as the exchange of the defining representation with its [[lie-groups/dual-representation-lie|dual]].
+whose highest weight is \(\omega_2=-\varepsilon_3\). This realizes the nontrivial symmetry of the \(A_2\) [[lie-groups/dynkin-diagram|Dynkin diagram]] as the exchange of the defining representation with its [[lie-groups/dual-representation-lie|dual]].
 
 ## Group-level form
 

@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 A **Jordan subalgebra** of a [[nonassociative-algebra/jordan-algebra|Jordan
-algebra]] \(J\) over \(k\) is a linear subspace \(B\subseteq J\) such that
+algebra]] \(J\) over \(k\) is a [[convex-analysis/linear-subspace|linear subspace]] \(B\subseteq J\) such that
 \[
 x,y\in B\quad\Longrightarrow\quad x\circ y\in B.
 \]
@@ -51,8 +51,8 @@ of \(B\) is
 \operatorname{Stab}_G(B)=\{g\in G:g(B)=B\}.
 \]
 This is different from the pointwise stabilizer, whose elements fix every
-element of \(B\). In the exceptional Jordan algebra, stabilizers of selected
-complex and octonionic matrix subalgebras recover important compact Lie groups.
+element of \(B\). In the [[nonassociative-algebra/exceptional-jordan-algebra|exceptional Jordan algebra]], stabilizers of selected
+complex and octonionic matrix subalgebras recover important [[lie-groups/compact-lie-group|compact Lie groups]].
 
 ## References
 

@@ -8,7 +8,7 @@ domains = ["lie-groups", "algebra-modules", "linear-algebra"]
 section_mode = "progressive"
 +++
 
-Let \(V\) and \(W\) be modules over a commutative ring. There is a canonical isomorphism of graded algebras
+Let \(V\) and \(W\) be modules over a [[algebra-rings/commutative-ring|commutative ring]]. There is a canonical isomorphism of graded algebras
 \[
 \Lambda(V\oplus W)\cong \Lambda V\,\widehat\otimes\,\Lambda W,
 \]
@@ -19,7 +19,7 @@ where \(\widehat\otimes\) is the graded tensor product. Under this isomorphism,
 (0,w)\longmapsto1\otimes w.
 \]
 
-The multiplication on the right uses the Koszul sign rule
+The multiplication on the right uses the [[supergeometry/koszul-sign-rule|Koszul sign rule]]
 \[
 (a\otimes b)(a'\otimes b')
 =(-1)^{\deg(b)\deg(a')}(a\wedge a')\otimes(b\wedge b')
@@ -43,7 +43,7 @@ to the wedge of the corresponding vectors in \(V\oplus W\), with all \(V\)-vecto
 
 ## Equivariance
 
-If a group or Lie algebra acts on both \(V\) and \(W\), the direct sum carries the diagonal action and the displayed isomorphisms are equivariant. In terms of [[lie-groups/exterior-power-representation|exterior-power representations]],
+If a group or [[lie-groups/lie-algebra|Lie algebra]] acts on both \(V\) and \(W\), the direct sum carries the diagonal action and the displayed isomorphisms are equivariant. In terms of [[lie-groups/exterior-power-representation|exterior-power representations]],
 \[
 \Lambda^k(V\oplus W)
 \cong

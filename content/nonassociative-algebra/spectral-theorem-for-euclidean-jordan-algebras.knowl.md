@@ -62,10 +62,10 @@ exactly when every eigenvalue is nonnegative.
 
 For \(J=H_n(\mathbb R)\) with product
 \(a\circ b=(ab+ba)/2\), this is the ordinary spectral theorem for real
-symmetric matrices. The \(c_i\) are rank-one orthogonal projections, and the
+symmetric matrices. The \(c_i\) are rank-one [[linear-algebra/orthogonal-projection|orthogonal projections]], and the
 Jordan trace and determinant agree with the usual matrix invariants. The
-Jordan theorem extends the same mechanism to spin factors, quaternionic
-Hermitian matrices, and the exceptional Albert algebra.
+Jordan theorem extends the same mechanism to [[nonassociative-algebra/spin-factor-jordan-algebra|spin factors]], quaternionic
+Hermitian matrices, and the exceptional [[nonassociative-algebra/exceptional-jordan-algebra|Albert algebra]].
 
 ## References
 

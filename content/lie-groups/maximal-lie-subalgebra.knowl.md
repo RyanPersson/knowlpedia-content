@@ -16,10 +16,10 @@ is either \(\mathfrak m\) or \(\mathfrak g\). Thus maximality is relative to the
 
 ## What maximal does not mean
 
-- It does not mean “having the greatest possible dimension”; distinct conjugacy classes of maximal subalgebras can have different dimensions.
+- It does not mean “having the greatest possible dimension”; distinct [[algebra-groups/conjugacy-class|conjugacy classes]] of maximal subalgebras can have different dimensions.
 - It does not mean [[lie-groups/maximal-rank-lie-subalgebra|maximal rank]]. Rank and inclusion maximality are independent conditions.
-- It does not mean [[lie-groups/maximal-levi-subalgebra|maximal Levi]]. A maximal Levi is maximal only inside the family of proper Levi subalgebras and is generally contained in a larger proper parabolic subalgebra.
-- A maximal subalgebra need not be an [[lie-groups/ideal-lie-algebra|ideal]], so \(\mathfrak g/\mathfrak m\) need not inherit a quotient Lie bracket.
+- It does not mean [[lie-groups/maximal-levi-subalgebra|maximal Levi]]. A maximal Levi is maximal only inside the family of proper [[lie-groups/levi-subalgebra|Levi subalgebras]] and is generally contained in a larger proper parabolic subalgebra.
+- A maximal subalgebra need not be an [[lie-groups/ideal-lie-algebra|ideal]], so \(\mathfrak g/\mathfrak m\) need not inherit a quotient [[fiber-bundles/lie-bracket|Lie bracket]].
 
 ## Adjoint quotient module
 
@@ -31,7 +31,7 @@ If this \(\mathfrak m\)-module is irreducible, then \(\mathfrak m\) is maximal, 
 
 ## Semisimple ambient algebras
 
-For complex simple ambient algebras, maximal subalgebras include regular examples controlled by root data and nonregular examples arising from irreducible representations. Dynkin’s classification organizes these possibilities up to inner automorphism.
+For complex simple ambient algebras, maximal subalgebras include regular examples controlled by root data and nonregular examples arising from [[algebra-representation-theory/irreducible-representation|irreducible representations]]. Dynkin’s classification organizes these possibilities up to [[algebra-groups/inner-automorphism|inner automorphism]].
 
 ## References
 

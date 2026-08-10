@@ -15,7 +15,7 @@ idempotents]] \(e_1,e_2\) such that
 \[
 e=e_1+e_2.
 \]
-For finite-dimensional Euclidean Jordan algebras, “primitive” is also often
+For finite-dimensional [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebras]], “primitive” is also often
 called **minimal**.
 
 ## Rank-one meaning

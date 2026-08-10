@@ -8,11 +8,11 @@ domains = ["nonassociative-algebra"]
 section_mode = "progressive"
 +++
 
-For an idempotent \(e\) in a Jordan algebra \(J\), the **Peirce-one corner** is
+For an idempotent \(e\) in a [[nonassociative-algebra/jordan-algebra|Jordan algebra]] \(J\), the **Peirce-one corner** is
 \[
 J_1(e)=\{x\in J:e\circ x=x\}.
 \]
-It is a Jordan subalgebra of \(J\), and \(e\) is its unit. Notice that the
+It is a [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] of \(J\), and \(e\) is its unit. Notice that the
 defining equation is \(e\circ x=x\), not \(e\circ x=1\).
 
 ## Hermitian \(3\)-by-\(3\) case

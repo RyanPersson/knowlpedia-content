@@ -49,7 +49,7 @@ With a cyclic choice of indices and a compatible convention for the maps
 Changing which entry receives \(x\) rather than \(x^*\) changes the displayed
 conjugations and order, but not the structural point: multiplying adjacent
 pair spaces lands in the third pair space. In the octonionic case these three
-eight-dimensional spaces carry the vector and two half-spin representations
+eight-dimensional spaces carry the vector and two [[lie-groups/half-spin-representation|half-spin representations]]
 under the frame-fixing \(\mathrm{Spin}(8)\).
 
 ## References

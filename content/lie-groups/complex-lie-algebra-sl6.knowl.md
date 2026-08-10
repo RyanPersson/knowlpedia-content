@@ -14,7 +14,7 @@ Its defining module is \(\mathbf6=\mathbb C^6\). The [[lie-groups/fundamental-re
 
 ## Root data and groups
 
-The roots are \(\varepsilon_i-\varepsilon_j\), and the five consecutive differences form a simple system of type \(A_5\). The simply connected complex group is \(SL(6,\mathbb C)\), with center \(\mu_6\), and its compact real form is \(SU(6)\). Neither should be identified with the adjoint group \(PSL(6,\mathbb C)\), even though all have the expected closely related Lie algebras.
+The roots are \(\varepsilon_i-\varepsilon_j\), and the five consecutive differences form a simple system of type \(A_5\). The [[lie-groups/simply-connected-lie-group|simply connected]] complex group is \(SL(6,\mathbb C)\), with center \(\mu_6\), and its [[lie-groups/compact-real-form|compact real form]] is \(SU(6)\). Neither should be identified with the adjoint group \(PSL(6,\mathbb C)\), even though all have the expected closely related [[lie-groups/lie-algebra|Lie algebras]].
 
 ## Paper context
 
@@ -28,9 +28,9 @@ under \(\mathfrak{sl}_6\oplus\mathfrak{sl}_3\), where
 \(\mathbf{15}=\Lambda^2\mathbb C^6\) and
 \(\mathbf{15}^*=\Lambda^4\mathbb C^6\).
 
-The paper also uses the common intersection \(\mathfrak{sl}_6\oplus\mathbb C^2\) of three \(\mathfrak{sl}_2\oplus\mathfrak{so}_{12}\) subalgebras and the chain
+The paper also uses the common intersection \(\mathfrak{sl}_6\oplus\mathbb C^2\) of three \(\mathfrak{sl}_2\oplus\mathfrak{so}_{12}\) subalgebras and a chain through the [[lie-groups/complex-lie-algebra-sl5|complex Lie algebra \(\mathfrak{sl}_5\)]]:
 \[
-\mathfrak g_{\mathrm{SM}}\subset [[lie-groups/complex-lie-algebra-sl5|\mathfrak{sl}_5]]
+\mathfrak g_{\mathrm{SM}}\subset\mathfrak{sl}_5
 \subset\mathfrak{sl}_6\subset\mathfrak{sl}_6\oplus\mathbb C^2
 \subset\mathfrak e_7.
 \]

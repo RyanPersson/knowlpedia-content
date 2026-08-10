@@ -10,15 +10,15 @@ section_mode = "progressive"
 
 The **exceptional complex Lie algebra** \(\mathfrak f_4\) is the unique [[lie-groups/simple-lie-algebra|simple complex Lie algebra]] whose [[lie-groups/root-system|root system]] has Dynkin type \(F_4\). It has complex dimension \(52\), rank \(4\), and \(48\) roots, occurring in two root lengths.
 
-Its smallest nontrivial irreducible representation is the \(26\)-dimensional fundamental module \(\mathbf{26}\); its adjoint representation is \(\mathbf{52}\).
+Its smallest nontrivial [[algebra-representation-theory/irreducible-representation|irreducible representation]] is the \(26\)-dimensional fundamental module \(\mathbf{26}\); its adjoint representation is \(\mathbf{52}\).
 
 ## Exceptional Jordan-algebra realization
 
-Let \(J_{\mathbb C}=H_3(\mathbb O)\otimes_{\mathbb R}\mathbb C\) be the complex Albert algebra. Then
+Let \(J_{\mathbb C}=H_3(\mathbb O)\otimes_{\mathbb R}\mathbb C\) be the complex [[nonassociative-algebra/exceptional-jordan-algebra|Albert algebra]]. Then
 \[
 \mathfrak f_4\cong\operatorname{Der}(J_{\mathbb C}),
 \]
-the Lie algebra of derivations of its Jordan product. The decomposition
+the [[lie-groups/lie-algebra|Lie algebra]] of derivations of its Jordan product. The decomposition
 \[
 J_{\mathbb C}=\mathbb C I\oplus J_{\mathbb C,0}
 \]
@@ -26,16 +26,16 @@ separates the fixed identity line from the trace-zero subspace; \(J_{\mathbb C,0
 
 ## Groups and real forms
 
-Type \(F_4\) has trivial fundamental group and trivial diagram automorphism group, so its simply connected and adjoint complex groups coincide and have trivial center. The real automorphism group of the Euclidean Albert algebra is the [[lie-groups/compact-exceptional-lie-group-f4|compact exceptional group \(F_4\)]]. Its Lie algebra complexifies to \(\mathfrak f_4\). The split real form instead acts on the split Albert algebra.
+Type \(F_4\) has trivial fundamental group and trivial diagram automorphism group, so its [[lie-groups/simply-connected-lie-group|simply connected]] and adjoint complex groups coincide and have trivial center. The real automorphism group of the Euclidean Albert algebra is the [[lie-groups/compact-exceptional-lie-group-f4|compact exceptional group \(F_4\)]]. Its Lie algebra complexifies to \(\mathfrak f_4\). The split real form instead acts on the split Albert algebra.
 
 ## Paper context
 
-The exceptional-Jordan-algebra construction works with compact \(F_4=\operatorname{Aut}(H_3(\mathbb O))\). For suitable nested Jordan subalgebras \(X\cong H_2(\mathbb C)\subset B\cong H_3(\mathbb C)\), it gives
+The exceptional-Jordan-algebra construction works with compact \(F_4=\operatorname{Aut}(H_3(\mathbb O))\). For suitable nested [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebras]] \(X\cong H_2(\mathbb C)\subset B\cong H_3(\mathbb C)\), it gives
 \[
 \operatorname{Stab}(X)\cap\operatorname{Stab}(B)^0
 \cong S(U(2)\times U(3)),
 \]
-the Standard Model gauge group. This is a group statement in the compact real form; passing to \(\mathfrak f_4\) complexifies its infinitesimal symmetry algebra but discards global stabilizer information.
+the [[mathematical-physics/standard-model-gauge-group|Standard Model gauge group]]. This is a group statement in the [[lie-groups/compact-real-form|compact real form]]; passing to \(\mathfrak f_4\) complexifies its infinitesimal symmetry algebra but discards global stabilizer information.
 
 ## References
 

@@ -28,7 +28,7 @@ U(1)\times SU(2)\times SU(3)
 \quad\text{and}\quad
 \bigl(U(1)\times SU(2)\times SU(3)\bigr)/\mathbb Z_6
 \]
-have the same real Lie algebra, because a finite central quotient does not change infinitesimal data. Thus the Lie algebra cannot distinguish the two global forms of the [[mathematical-physics/standard-model-gauge-group|Standard Model gauge group]].
+have the same real [[lie-groups/lie-algebra|Lie algebra]], because a finite [[lie-groups/central-quotient-of-a-lie-group|central quotient]] does not change infinitesimal data. Thus the Lie algebra cannot distinguish the two global forms of the [[mathematical-physics/standard-model-gauge-group|Standard Model gauge group]].
 
 ## Complexified matrix realization inside \(\mathfrak{sl}_5(\mathbb C)\)
 

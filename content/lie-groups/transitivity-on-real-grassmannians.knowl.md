@@ -36,8 +36,8 @@ Consequently,
 
 ## Proof mechanism
 
-Given \(k\)-planes \(W,W'\), choose orthonormal bases of them and of their
-orthogonal complements. The linear map carrying the first combined basis to
+Given \(k\)-planes \(W,W'\), choose [[linear-algebra/orthonormal-basis|orthonormal bases]] of them and of their
+[[linear-algebra/orthogonal-complement|orthogonal complements]]. The linear map carrying the first combined basis to
 the second is orthogonal and sends \(W\) to \(W'\). If its determinant is
 \(-1\) and \(0<k<n\), composing with a reflection that preserves \(W'\)
 setwise changes the determinant without changing the image plane. This gives
@@ -50,7 +50,7 @@ determinant condition above.
 
 ## Connected versus full stabilizers
 
-For \(0<k<n\), the identity component of the \(SO(n)\)-stabilizer is
+For \(0<k<n\), the [[lie-groups/identity-component-of-a-lie-group|identity component]] of the \(SO(n)\)-stabilizer is
 
 \[
 SO(k)\times SO(n-k),

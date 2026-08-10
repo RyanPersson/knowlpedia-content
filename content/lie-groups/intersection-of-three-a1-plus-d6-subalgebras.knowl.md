@@ -26,7 +26,7 @@ where \(P\) is the [[lie-groups/generation-plane|generation plane]]. In fact, fo
 =\mathfrak m_1\cap\mathfrak m_2\cap\mathfrak m_3.
 \]
 
-These are equalities of embedded Lie subalgebras, not merely vector-space isomorphisms. On the right, the [[lie-groups/standard-sl6-in-e7|standard \(\mathfrak{sl}_6\)]] commutes with the two-dimensional abelian Cartan algebra \(\mathbb C\otimes P\), so the displayed sum is also a Lie-algebra direct sum.
+These are equalities of embedded [[lie-groups/lie-subalgebra|Lie subalgebras]], not merely vector-space isomorphisms. On the right, the [[lie-groups/standard-sl6-in-e7|standard \(\mathfrak{sl}_6\)]] commutes with the two-dimensional abelian Cartan algebra \(\mathbb C\otimes P\), so the displayed sum is also a Lie-algebra direct sum.
 
 ## Root-space calculation
 
@@ -37,7 +37,7 @@ With \(\Phi_0\) and \(\Phi_k\) from the generation-plane partition,
 \bigoplus_{r\in\{\pm\beta_k\}\sqcup\Phi_0\sqcup\Phi_k}
 (\mathfrak e_7)_r.
 \]
-For \(i\ne k\), the only root spaces common to \(\mathfrak m_i\) and \(\mathfrak m_k\) are those indexed by \(\Phi_0\). The full Cartan \(\mathfrak h\) remains and splits as the Cartan of \(\mathfrak{sl}_6^{\mathrm{SM}}\) plus \(\mathbb C\otimes P\).
+For \(i\ne k\), the only [[lie-groups/root-space|root spaces]] common to \(\mathfrak m_i\) and \(\mathfrak m_k\) are those indexed by \(\Phi_0\). The full Cartan \(\mathfrak h\) remains and splits as the Cartan of \(\mathfrak{sl}_6^{\mathrm{SM}}\) plus \(\mathbb C\otimes P\).
 
 ## Dependence on choices
 

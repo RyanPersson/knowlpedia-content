@@ -28,7 +28,7 @@ source unit acts as a unit on every element of the target.
 
 ## Kernels and images
 
-The kernel is a Jordan ideal: if \(x\in\ker\varphi\) and \(y\in J\), then
+The kernel is a [[nonassociative-algebra/ideal-in-a-jordan-algebra|Jordan ideal]]: if \(x\in\ker\varphi\) and \(y\in J\), then
 \(\varphi(x\circ y)=0\). The image is a
 [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] of \(K\). An
 injective homomorphism is a Jordan embedding, while a bijective one is a Jordan

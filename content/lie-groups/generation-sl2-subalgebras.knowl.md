@@ -37,7 +37,7 @@ For each \(k\), the roots orthogonal to \(\beta_k\) form the [[lie-groups/three-
 
 ## Dependence on choices
 
-The unordered set of three root-line subalgebras is determined after choosing a Cartan subalgebra of \(\mathfrak{sl}_3^{\mathrm{gen}}\). Their labels \(1,2,3\) and the signs of the \(\beta_k\) are conventions. Without a Cartan choice, the generation \(\mathfrak{sl}_3\) is intrinsic but no distinguished triple of these \(\mathfrak{sl}_2\)'s is selected.
+The unordered set of three root-line subalgebras is determined after choosing a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] of \(\mathfrak{sl}_3^{\mathrm{gen}}\). Their labels \(1,2,3\) and the signs of the \(\beta_k\) are conventions. Without a Cartan choice, the generation \(\mathfrak{sl}_3\) is intrinsic but no distinguished triple of these \(\mathfrak{sl}_2\)'s is selected.
 
 ## References
 

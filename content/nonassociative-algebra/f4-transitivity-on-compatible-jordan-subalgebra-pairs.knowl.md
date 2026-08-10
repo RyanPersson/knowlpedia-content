@@ -9,8 +9,8 @@ section_mode = "progressive"
 +++
 
 Let \(J=H_3(\mathbb O)\). The compact group
-\(F_4=\operatorname{Aut}(J)\) acts transitively on ordered pairs \((A,B)\) of
-Jordan subalgebras satisfying
+\(F_4=\operatorname{Aut}(J)\) acts transitively on [[shared-foundations/ordered-pair|ordered pairs]] \((A,B)\) of
+[[nonassociative-algebra/jordan-subalgebra|Jordan subalgebras]] satisfying
 \[
 A\cong H_2(\mathbb O),
 \qquad B\cong H_3(\mathbb C),
@@ -49,7 +49,7 @@ applies to every compatible pair. In particular it is the geometric step
 behind the characterization
 [[mathematical-physics/standard-model-gauge-group-as-f4-stabilizer-intersection|of
 the Standard Model gauge group as an \(F_4\) stabilizer intersection]], where
-the identity component of the qutrit stabilizer must be used.
+the [[lie-groups/identity-component-of-a-lie-group|identity component]] of the qutrit stabilizer must be used.
 
 ## References
 

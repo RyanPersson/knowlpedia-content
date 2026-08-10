@@ -8,7 +8,7 @@ domains = ["lie-groups", "representation-theory"]
 section_mode = "progressive"
 +++
 
-The **defining representation** of a classical matrix Lie algebra \(\mathfrak g\subseteq\mathfrak{gl}(V)\) is the natural action on \(V\):
+The **defining representation** of a classical matrix [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\subseteq\mathfrak{gl}(V)\) is the natural action on \(V\):
 \[
 \rho:\mathfrak g\hookrightarrow\mathfrak{gl}(V),
 \qquad
@@ -28,7 +28,7 @@ The same phrase is used for \(\mathfrak{gl}_n\) and for real forms acting on the
 
 ## Preserved tensors
 
-The matrix realization can be characterized by tensors preserved infinitesimally. The algebra \(\mathfrak{sl}(V)\) consists of endomorphisms preserving a nonzero volume form to first order. The algebra \(\mathfrak{so}(V,q)\) preserves a nondegenerate symmetric bilinear form \(q\), while \(\mathfrak{sp}(V,\omega)\) preserves a nondegenerate alternating form \(\omega\):
+The matrix realization can be characterized by tensors preserved infinitesimally. The algebra \(\mathfrak{sl}(V)\) consists of endomorphisms preserving a nonzero volume form to first order. The algebra \(\mathfrak{so}(V,q)\) preserves a nondegenerate symmetric [[linear-algebra/bilinear-form|bilinear form]] \(q\), while \(\mathfrak{sp}(V,\omega)\) preserves a nondegenerate alternating form \(\omega\):
 \[
 q(Xv,w)+q(v,Xw)=0,
 \qquad
@@ -37,19 +37,19 @@ q(Xv,w)+q(v,Xw)=0,
 
 ## Highest weights and constructions
 
-With the standard numbering of simple roots, the defining representation has highest weight \(\omega_1\) in each classical family. It is therefore a [[lie-groups/fundamental-representation|fundamental representation]]. Tensor, symmetric, and [[lie-groups/exterior-power-representation|exterior powers]] of the defining module produce many other representations.
+With the standard numbering of [[lie-groups/simple-root|simple roots]], the defining representation has [[lie-groups/highest-weight|highest weight]] \(\omega_1\) in each classical family. It is therefore a [[lie-groups/fundamental-representation|fundamental representation]]. Tensor, symmetric, and [[lie-groups/exterior-power-representation|exterior powers]] of the defining module produce many other representations.
 
-For \(\mathfrak{sl}_n\), every fundamental representation is an exterior power \(\Lambda^k\mathbb C^n\). For orthogonal algebras, the defining module is also called the **vector representation** to distinguish it from spin representations, which live naturally on the spin group.
+For \(\mathfrak{sl}_n\), every fundamental representation is an exterior power \(\Lambda^k\mathbb C^n\). For orthogonal algebras, the defining module is also called the **vector representation** to distinguish it from spin representations, which live naturally on the [[lie-groups/spin-group|spin group]].
 
 ## Group versus Lie algebra
 
-The defining representations of \(SL_n\), \(SO_n\), and \(Sp_{2n}\) differentiate to the displayed Lie-algebra representations. For the simply connected group \(\operatorname{Spin}(n)\), however, the vector representation is the composite
+The defining representations of \(SL_n\), \(SO_n\), and \(Sp_{2n}\) differentiate to the displayed Lie-algebra representations. For the [[lie-groups/simply-connected-lie-group|simply connected]] group \(\operatorname{Spin}(n)\), however, the vector representation is the composite
 \[
 \operatorname{Spin}(n)\longrightarrow SO(n)\longrightarrow GL(\mathbb R^n)
 \]
 and has kernel \(\{\pm1\}\). Thus it is faithful as a representation of \(\mathfrak{so}_n\) but not as a representation of \(\operatorname{Spin}(n)\).
 
-“Standard representation” can mean a different preferred module in other contexts, especially for induced representations of reductive groups. The adjective “defining” should be tied to an explicit matrix realization \(\mathfrak g\subseteq\mathfrak{gl}(V)\).
+“Standard representation” can mean a different preferred module in other contexts, especially for [[algebra-representation-theory/induced-representation|induced representations]] of reductive groups. The adjective “defining” should be tied to an explicit matrix realization \(\mathfrak g\subseteq\mathfrak{gl}(V)\).
 
 ## References
 

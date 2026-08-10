@@ -13,7 +13,7 @@ algebra]] \(J\) is a **Jordan idempotent** when
 \[
 e\circ e=e.
 \]
-In a special Jordan algebra whose product is
+In a [[nonassociative-algebra/special-and-exceptional-jordan-algebras|special Jordan algebra]] whose product is
 \(x\circ y=(xy+yx)/2\), this is exactly the usual equation \(e^2=e\).
 
 ## Role in the structure theory
@@ -21,10 +21,10 @@ In a special Jordan algebra whose product is
 Left Jordan multiplication by \(e\),
 \(L_e(x)=e\circ x\), organizes \(J\) into its
 [[nonassociative-algebra/peirce-decomposition|Peirce spaces]]. In a unital
-Euclidean Jordan algebra, idempotents behave like orthogonal projections:
+[[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]], idempotents behave like [[linear-algebra/orthogonal-projection|orthogonal projections]]:
 they can be decomposed into
 [[nonassociative-algebra/primitive-jordan-idempotent|primitive idempotents]],
-and maximal compatible decompositions form Jordan frames.
+and maximal compatible decompositions form [[nonassociative-algebra/jordan-frame|Jordan frames]].
 
 The comparison with projections is exact for
 [[nonassociative-algebra/hermitian-matrix-jordan-algebra|Hermitian-matrix

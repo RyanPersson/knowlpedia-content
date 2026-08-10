@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(e\) be an [[nonassociative-algebra/jordan-idempotent|idempotent]] in a
-Jordan algebra \(J\) over a field of characteristic different from \(2\). Its
+[[nonassociative-algebra/jordan-algebra|Jordan algebra]] \(J\) over a field of characteristic different from \(2\). Its
 **Peirce spaces** are
 \[
 J_\lambda(e)=\{x\in J:e\circ x=\lambda x\},
@@ -33,10 +33,10 @@ J_1\circ J_0&=0,\\
 J_{1/2}\circ J_{1/2}&\subseteq J_0+J_1.
 \end{aligned}
 \]
-Thus \(J_1(e)\) and \(J_0(e)\) are Jordan subalgebras, while the middle space
+Thus \(J_1(e)\) and \(J_0(e)\) are [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebras]], while the middle space
 mediates between them.
 
-For a Euclidean Jordan algebra the three summands are mutually orthogonal for
+For a [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]] the three summands are mutually orthogonal for
 the [[nonassociative-algebra/trace-form-of-a-euclidean-jordan-algebra|trace
 inner product]].
 

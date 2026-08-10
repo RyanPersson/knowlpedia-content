@@ -25,13 +25,13 @@ Every root pairs integrally with every coroot, so the root lattice is contained 
 \[
 Q\subseteq P.
 \]
-The quotient \(P/Q\) is finite. For a connected simply connected compact semisimple group, it is naturally dual to the center; equivalently, its character data measure which highest weights are trivial on central subgroups.
+The quotient \(P/Q\) is finite. For a connected [[lie-groups/simply-connected-lie-group|simply connected]] compact semisimple group, it is naturally dual to the center; equivalently, its character data measure which [[lie-groups/highest-weight|highest weights]] are trivial on central subgroups.
 
-If \(V_\lambda\) is an irreducible highest-weight representation, every weight \(\mu\) of \(V_\lambda\) satisfies
+If \(V_\lambda\) is an irreducible [[lie-groups/highest-weight-representation|highest-weight representation]], every weight \(\mu\) of \(V_\lambda\) satisfies
 \[
 \lambda-\mu\in Q.
 \]
-More precisely, after choosing positive roots, \(\lambda-\mu\) is a nonnegative integer combination of simple roots. Thus all weights of an irreducible module occupy one coset of \(Q\) inside \(P\).
+More precisely, after choosing [[lie-groups/positive-root|positive roots]], \(\lambda-\mu\) is a nonnegative integer combination of simple roots. Thus all weights of an irreducible module occupy one coset of \(Q\) inside \(P\).
 
 ## Examples
 
@@ -49,7 +49,7 @@ Q=\{(a_1,\ldots,a_n)\in\mathbb Z^n:\textstyle\sum_i a_i=0\}.
 
 ## Lie algebra and group data
 
-The root lattice depends only on the root system, hence on the complex semisimple Lie algebra. It does not distinguish the different global Lie groups with that Lie algebra. Those global forms are detected by an intermediate character lattice between \(Q\) and \(P\): the adjoint form uses \(Q\), while the simply connected form uses \(P\).
+The root lattice depends only on the root system, hence on the complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]]. It does not distinguish the different global [[fiber-bundles/lie-group|Lie groups]] with that Lie algebra. Those global forms are detected by an intermediate character lattice between \(Q\) and \(P\): the adjoint form uses \(Q\), while the simply connected form uses \(P\).
 
 ## References
 

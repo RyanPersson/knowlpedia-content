@@ -16,13 +16,13 @@ Their ranks are \(6,7,8\), respectively. They are “exceptional” because, unl
 
 ## Numerical data
 
-| Type | Rank | Number of roots | Dimension of the associated simple Lie algebra |
+| Type | Rank | Number of roots | Dimension of the associated [[lie-groups/simple-lie-algebra|simple Lie algebra]] |
 |---|---:|---:|---:|
 | \(E_6\) | 6 | 72 | 78 |
 | \(E_7\) | 7 | 126 | 133 |
 | \(E_8\) | 8 | 240 | 248 |
 
-For any complex semisimple Lie algebra, its dimension is its rank plus the number of roots, because every root space is one-dimensional.
+For any complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]], its dimension is its rank plus the number of roots, because every [[lie-groups/root-space|root space]] is one-dimensional.
 
 ## Dynkin diagrams
 
@@ -36,7 +36,7 @@ This description distinguishes them from the forked type \(D_n\) diagrams, whose
 
 ## A coordinate model for E8
 
-In \(\mathbb R^8\) with orthonormal basis \(e_1,\ldots,e_8\), the \(E_8\) roots are the 112 vectors
+In \(\mathbb R^8\) with [[linear-algebra/orthonormal-basis|orthonormal basis]] \(e_1,\ldots,e_8\), the \(E_8\) roots are the 112 vectors
 \[
 \pm e_i\pm e_j\qquad(i<j)
 \]
@@ -44,7 +44,7 @@ together with the 128 vectors
 \[
 \frac12(\pm e_1\pm\cdots\pm e_8)
 \]
-having an even number of minus signs. Suitable hyperplane sections give root subsystems of types \(E_7\) and \(E_6\).
+having an even number of minus signs. Suitable hyperplane sections give [[lie-groups/root-subsystem|root subsystems]] of types \(E_7\) and \(E_6\).
 
 Under the [[lie-groups/classification-simple-lie-algebras|classification theorem]], these systems correspond to the exceptional complex simple Lie algebras \(\mathfrak e_6,\mathfrak e_7,\mathfrak e_8\). In particular, root subsystems inside \(E_7\) organize many of the subalgebras used in constructions involving the 133-dimensional algebra \(\mathfrak e_7\).
 

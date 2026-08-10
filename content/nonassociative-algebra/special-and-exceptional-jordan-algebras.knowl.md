@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 A [[nonassociative-algebra/jordan-algebra|Jordan algebra]] \(J\) is **special**
-if it is isomorphic to a Jordan subalgebra of \(A^+\) for some associative
+if it is isomorphic to a [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] of \(A^+\) for some associative
 algebra \(A\), where
 \[
 x\circ y=\frac12(xy+yx).
@@ -22,7 +22,7 @@ A Jordan algebra that is not special is **exceptional**.
 mean that the Jordan product itself is associative. Likewise, “exceptional”
 is a property, not the name of a unique algebra. Nevertheless, the phrase
 **the exceptional Jordan algebra** conventionally denotes the 27-dimensional
-real Albert algebra \(\mathfrak h_3(\mathbb O)\).
+real [[nonassociative-algebra/exceptional-jordan-algebra|Albert algebra]] \(\mathfrak h_3(\mathbb O)\).
 
 The embedding in the definition need not preserve units unless a unital
 embedding is explicitly required. This distinction is useful when Jordan
@@ -38,7 +38,7 @@ symmetrized matrix product.
 The real algebra \(\mathfrak h_3(\mathbb O)\) is exceptional: it satisfies the
 Jordan identity but admits no embedding into \(A^+\) for any associative
 algebra \(A\). Its existence is the exceptional case in the classification of
-finite-dimensional simple Euclidean Jordan algebras.
+finite-dimensional [[nonassociative-algebra/simple-euclidean-jordan-algebra|simple Euclidean Jordan algebras]].
 
 ## Identities
 

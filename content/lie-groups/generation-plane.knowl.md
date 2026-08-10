@@ -8,11 +8,11 @@ domains = ["lie-groups", "mathematical-physics"]
 section_mode = "progressive"
 +++
 
-Fix a [[lie-groups/good-standard-model-embedding-in-e7|good]] \(\mathfrak g_{\mathrm{SM}}\subset\mathfrak e_7\), its [[lie-groups/generation-sl3-in-e7|generation algebra]] \(\mathfrak{sl}_3^{\mathrm{gen}}\), and [[lie-groups/compatible-cartan-subalgebras|compatible Cartan subalgebras]]. If \(A\) is the resulting \(A_2\) root system of \(\mathfrak{sl}_3^{\mathrm{gen}}\) inside the real span \(V\) of the \(E_7\) roots, the **generation plane** is
+Fix a [[lie-groups/good-standard-model-embedding-in-e7|good]] \(\mathfrak g_{\mathrm{SM}}\subset\mathfrak e_7\), its [[lie-groups/generation-sl3-in-e7|generation algebra]] \(\mathfrak{sl}_3^{\mathrm{gen}}\), and [[lie-groups/compatible-cartan-subalgebras|compatible Cartan subalgebras]]. If \(A\) is the resulting \(A_2\) [[lie-groups/root-system|root system]] of \(\mathfrak{sl}_3^{\mathrm{gen}}\) inside the real span \(V\) of the \(E_7\) roots, the **generation plane** is
 \[
 P:=\operatorname{span}_{\mathbb R}(A)\subset V.
 \]
-It is a two-dimensional Euclidean subspace. Its complexification \(\mathbb C\otimes_{\mathbb R}P\) is the Cartan subalgebra of \(\mathfrak{sl}_3^{\mathrm{gen}}\).
+It is a two-dimensional Euclidean subspace. Its complexification \(\mathbb C\otimes_{\mathbb R}P\) is the [[lie-groups/cartan-subalgebra|Cartan subalgebra]] of \(\mathfrak{sl}_3^{\mathrm{gen}}\).
 
 ## Geometry of the A2 roots
 
@@ -34,7 +34,7 @@ The subalgebra \(\mathfrak{sl}_3^{\mathrm{gen}}\) is determined by the embedded 
 
 ## Role in decompositions
 
-Orthogonal projection \(\pi:V\to P\) partitions the \(E_7\) roots through the [[lie-groups/e7-root-projection-trichotomy|root-projection trichotomy]]. The Cartan summand \(\mathbb C\otimes P\), rather than all of \(\mathfrak{sl}_3^{\mathrm{gen}}\), appears in the [[lie-groups/three-generation-decomposition-of-e7|three-generation vector-space decomposition]].
+[[linear-algebra/orthogonal-projection|Orthogonal projection]] \(\pi:V\to P\) partitions the \(E_7\) roots through the [[lie-groups/e7-root-projection-trichotomy|root-projection trichotomy]]. The Cartan summand \(\mathbb C\otimes P\), rather than all of \(\mathfrak{sl}_3^{\mathrm{gen}}\), appears in the [[lie-groups/three-generation-decomposition-of-e7|three-generation vector-space decomposition]].
 
 ## References
 

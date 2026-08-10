@@ -9,8 +9,8 @@ section_mode = "progressive"
 +++
 
 Let \(J=H_3(\mathbb O)\), let \(F_4=\operatorname{Aut}(J)\), and let
-\(B\subset J\) be a Jordan subalgebra isomorphic to \(H_3(\mathbb C)\). The
-identity component of its setwise stabilizer is
+\(B\subset J\) be a [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] isomorphic to \(H_3(\mathbb C)\). The
+[[lie-groups/identity-component-of-a-lie-group|identity component]] of its setwise stabilizer is
 \[
 \operatorname{Stab}_{F_4}(B)^0
 \cong\frac{\mathrm{SU}(3)\times\mathrm{SU}(3)}{\mu_3},
@@ -30,14 +30,14 @@ Representatives \((g,h)\in\mathrm{SU}(3)\times\mathrm{SU}(3)\) act by
 (X,M)\longmapsto(gXg^\dagger,hMg^\dagger).
 \]
 The first factor acts by unitary conjugation on the complex qutrit algebra;
-the second fixes that algebra pointwise and acts on its orthogonal complement.
+the second fixes that algebra pointwise and acts on its [[linear-algebra/orthogonal-complement|orthogonal complement]].
 The diagonal \(\mu_3\) is precisely the kernel.
 
 ## Why the identity component matters
 
 The full stabilizer \(\operatorname{Stab}_{F_4}(B)\) is disconnected. Besides
 its unitary component, it has elements whose restriction to \(B\) is induced
-by an antiunitary transformation. Consequently one must not replace
+by an [[quantum-foundations/antiunitary-operator|antiunitary transformation]]. Consequently one must not replace
 \(\operatorname{Stab}_{F_4}(B)^0\) by the full stabilizer in intersection
 theorems without changing the resulting group.
 

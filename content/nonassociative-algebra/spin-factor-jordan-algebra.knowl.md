@@ -9,12 +9,12 @@ section_mode = "progressive"
 +++
 
 Let \(V\) be a finite-dimensional real inner-product space. The **spin
-factor** \(J(V)\) is the real vector space \(\mathbb R\oplus V\) with product
+factor** \(J(V)\) is the real [[linear-algebra/vector-space|vector space]] \(\mathbb R\oplus V\) with product
 \[
 (\lambda,u)\circ(\mu,v)
 =\bigl(\lambda\mu+\langle u,v\rangle,\lambda v+\mu u\bigr).
 \]
-Its unit is \(e=(1,0)\). With inner product
+Its unit is \(e=(1,0)\). With [[linear-algebra/inner-product|inner product]]
 \(\langle(\lambda,u),(\mu,v)\rangle_J
 =\lambda\mu+\langle u,v\rangle\), it is a
 [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]].

@@ -16,7 +16,7 @@ for all \(x,y\in A\). Here “composition algebra” means *unital* composition 
 
 ## Trace and conjugation
 
-Polarizing \(N\) gives the symmetric bilinear form
+Polarizing \(N\) gives the symmetric [[linear-algebra/bilinear-form|bilinear form]]
 \[
  \langle x,y\rangle=N(x+y)-N(x)-N(y).
 \]
@@ -38,7 +38,7 @@ Every composition algebra is [[nonassociative-algebra/alternative-algebra|altern
 
 ## Convention warning
 
-Some authors allow a composition algebra without a multiplicative identity. This broader class includes symmetric composition algebras such as Okubo algebras. The unital convention used here is the one relevant to [[nonassociative-algebra/hurwitz-theorem|Hurwitz's theorem]] and the classical real normed division algebras.
+Some authors allow a composition algebra without a multiplicative identity. This broader class includes symmetric composition algebras such as Okubo algebras. The unital convention used here is the one relevant to [[nonassociative-algebra/hurwitz-theorem|Hurwitz's theorem]] and the classical [[nonassociative-algebra/real-normed-division-algebra|real normed division algebras]].
 
 ## References
 

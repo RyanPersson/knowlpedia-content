@@ -27,7 +27,7 @@ is a [[lie-groups/maximal-lie-subalgebra|maximal embedded Lie subalgebra]] of ty
 
 ## Root-system description
 
-For a compatible generation plane \(P\), let
+For a compatible [[lie-groups/generation-plane|generation plane]] \(P\), let
 \[
 \Phi_0=\{r\in\Phi(E_7):r\perp P\}.
 \]
@@ -35,11 +35,11 @@ The [[lie-groups/e7-root-projection-trichotomy|projection analysis]] shows that 
 
 ## Intrinsic status
 
-Although the root-system proof uses a compatible Cartan subalgebra, \(\mathfrak{sl}_6^{\mathrm{SM}}\) is intrinsically characterized as the centralizer of \(\mathfrak{sl}_3^{\mathrm{gen}}\). Thus it depends only on the chosen good embedded Standard Model algebra, not on the later choice that labels three generation root lines.
+Although the root-system proof uses a compatible [[lie-groups/cartan-subalgebra|Cartan subalgebra]], \(\mathfrak{sl}_6^{\mathrm{SM}}\) is intrinsically characterized as the centralizer of \(\mathfrak{sl}_3^{\mathrm{gen}}\). Thus it depends only on the chosen good embedded Standard Model algebra, not on the later choice that labels three generation root lines.
 
 ## Branching
 
-Restriction of the adjoint \(\mathfrak e_7\)-module to this maximal \(A_2+A_5\) subalgebra gives the [[lie-groups/e7-branching-under-a2-plus-a5|\(A_2+A_5\) branching rule]]. The direct sum \(\mathfrak{sl}_3^{\mathrm{gen}}\oplus\mathfrak{sl}_6^{\mathrm{SM}}\) is a Lie-algebra direct sum; the other branching summands are modules, not Lie subalgebras.
+Restriction of the adjoint \(\mathfrak e_7\)-module to this maximal \(A_2+A_5\) subalgebra gives the [[lie-groups/e7-branching-under-a2-plus-a5|\(A_2+A_5\) branching rule]]. The direct sum \(\mathfrak{sl}_3^{\mathrm{gen}}\oplus\mathfrak{sl}_6^{\mathrm{SM}}\) is a Lie-algebra direct sum; the other branching summands are modules, not [[lie-groups/lie-subalgebra|Lie subalgebras]].
 
 ## References
 

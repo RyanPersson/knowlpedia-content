@@ -20,7 +20,7 @@ If \(d\rho:\mathfrak g\to\mathfrak{gl}(V)\) is a [[lie-groups/representation-of-
 =\sum_{j=1}^k
 v_1\wedge\cdots\wedge d\rho(X)v_j\wedge\cdots\wedge v_k.
 \]
-Thus the Lie algebra acts as a degree-zero derivation, while a group element acts by an algebra automorphism.
+Thus the [[lie-groups/lie-algebra|Lie algebra]] acts as a degree-zero derivation, while a group element acts by an algebra automorphism.
 
 ## Basic cases
 
@@ -42,7 +42,7 @@ has weight \(\lambda_{i_1}+\cdots+\lambda_{i_k}\). Antisymmetry forces repeated 
 
 ## Group versus Lie algebra
 
-Differentiating the group formula gives the displayed derivation formula. Conversely, an exterior power of a Lie-algebra representation integrates whenever the original representation does, but the global representation still belongs naturally to the same covering group as the original. Passing to a quotient group requires its kernel to act trivially on \(\Lambda^kV\), which can occur even when it does not act trivially on \(V\).
+Differentiating the group formula gives the displayed derivation formula. Conversely, an exterior power of a Lie-algebra representation integrates whenever the original representation does, but the global representation still belongs naturally to the same covering group as the original. Passing to a [[algebra-groups/quotient-group|quotient group]] requires its kernel to act trivially on \(\Lambda^kV\), which can occur even when it does not act trivially on \(V\).
 
 ## References
 

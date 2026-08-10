@@ -12,7 +12,7 @@ For \(n\geq1\), the **root system of type \(A_n\)** is
 \[
 A_n=\{e_i-e_j:1\leq i\neq j\leq n+1\}
 \]
-in the \(n\)-dimensional Euclidean space
+in the \(n\)-dimensional [[linear-algebra/euclidean-space|Euclidean space]]
 \[
 V=\left\{(x_1,\ldots,x_{n+1})\in\mathbb R^{n+1}:\sum_i x_i=0\right\}.
 \]

@@ -8,7 +8,7 @@ domains = ["nonassociative-algebra"]
 section_mode = "progressive"
 +++
 
-As a real vector space, the [[nonassociative-algebra/octonion-algebra|octonions]] can be written
+As a real [[linear-algebra/vector-space|vector space]], the [[nonassociative-algebra/octonion-algebra|octonions]] can be written
 \[
  \mathbb O\cong\mathbb C\oplus\mathbb C^3.
 \]
@@ -42,7 +42,7 @@ This makes \(\mathbb C\oplus\mathbb C^3\) an eight-dimensional [[nonassociative-
 
 ## Geometric origin of the splitting
 
-Choose a unit imaginary octonion \(i\). Then \(\operatorname{span}_{\mathbb R}\{1,i\}\) is an embedded copy of \(\mathbb C\), and its orthogonal complement is six-dimensional. In the displayed convention, right multiplication by \(i\) equips that complement with the complex structure corresponding to ordinary multiplication by \(i\) on \(\mathbb C^3\); left multiplication corresponds to multiplication by \(-i\). The resulting decomposition is orthogonal for the [[nonassociative-algebra/octonion-conjugation-norm-and-inner-product|octonion inner product]].
+Choose a unit imaginary octonion \(i\). Then \(\operatorname{span}_{\mathbb R}\{1,i\}\) is an embedded copy of \(\mathbb C\), and its [[linear-algebra/orthogonal-complement|orthogonal complement]] is six-dimensional. In the displayed convention, right multiplication by \(i\) equips that complement with the complex structure corresponding to ordinary multiplication by \(i\) on \(\mathbb C^3\); left multiplication corresponds to multiplication by \(-i\). The resulting decomposition is orthogonal for the [[nonassociative-algebra/octonion-conjugation-norm-and-inner-product|octonion inner product]].
 
 ## Convention warning
 

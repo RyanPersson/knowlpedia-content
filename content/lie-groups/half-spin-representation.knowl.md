@@ -8,15 +8,15 @@ domains = ["lie-groups", "representation-theory", "differential-geometry"]
 section_mode = "progressive"
 +++
 
-Let \(V\) be an oriented complex quadratic space of even dimension \(2m\), and let \(\Delta\) be an irreducible module for its complex Clifford algebra. The [[differential-geometry/chirality-operator|chirality operator]] decomposes the [[differential-geometry/spinor-module|spinor module]] as
+Let \(V\) be an oriented complex [[linear-algebra/quadratic-form|quadratic space]] of even dimension \(2m\), and let \(\Delta\) be an irreducible module for its [[differential-geometry/clifford-algebra|complex Clifford algebra]]. The [[differential-geometry/chirality-operator|chirality operator]] decomposes the [[differential-geometry/spinor-module|spinor module]] as
 \[
 \Delta=\Delta^+\oplus\Delta^-.
 \]
-The two eigenspaces \(\Delta^+\) and \(\Delta^-\) are invariant under \(\operatorname{Spin}(V)\) and carry the two **half-spin representations**. Each has complex dimension \(2^{m-1}\), and Clifford multiplication by a vector interchanges them.
+The two eigenspaces \(\Delta^+\) and \(\Delta^-\) are invariant under \(\operatorname{Spin}(V)\) and carry the two **half-spin representations**. Each has complex dimension \(2^{m-1}\), and [[differential-geometry/clifford-module|Clifford multiplication]] by a vector interchanges them.
 
 ## Highest weights
 
-For \(m\geq4\), the complex Lie algebra \(\mathfrak{so}_{2m}(\mathbb C)\) has Dynkin type \(D_m\). With a standard labeling of its two spin nodes, the half-spin modules have highest weights
+For \(m\geq4\), the complex [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{so}_{2m}(\mathbb C)\) has Dynkin type \(D_m\). With a standard labeling of its two spin nodes, the half-spin modules have [[lie-groups/highest-weight|highest weights]]
 \[
 \omega_{m-1}\quad\text{and}\quad\omega_m.
 \]
@@ -26,7 +26,7 @@ The central element \(-1\in\operatorname{Spin}(2m)\) acts nontrivially on spinor
 
 ## Low-dimensional examples
 
-The accidental isomorphism \(\operatorname{Spin}(4)\cong SU(2)\times SU(2)\) identifies \(\Delta^+\) and \(\Delta^-\) with the defining two-dimensional representations of the two respective factors. Under \(\operatorname{Spin}(6)\cong SU(4)\), the two half-spin representations become the defining four-dimensional representation and its dual. In dimension eight, the two half-spin representations and the vector representation all have dimension eight and participate in [[lie-groups/spin8-triality|triality]].
+The accidental isomorphism \(\operatorname{Spin}(4)\cong SU(2)\times SU(2)\) identifies \(\Delta^+\) and \(\Delta^-\) with the defining two-dimensional representations of the two respective factors. Under \(\operatorname{Spin}(6)\cong SU(4)\), the two half-spin representations become the defining four-dimensional representation and its dual. In dimension eight, the two half-spin representations and the [[lie-groups/defining-representation-of-a-classical-lie-algebra|vector representation]] all have dimension eight and participate in [[lie-groups/spin8-triality|triality]].
 
 ## Chirality and real forms
 

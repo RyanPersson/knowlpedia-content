@@ -35,7 +35,7 @@ Over a field of characteristic different from \(2\), linearizing the alternative
 - Every associative algebra is alternative.
 - Every unital [[nonassociative-algebra/composition-algebra|composition algebra]] is alternative.
 - The [[nonassociative-algebra/octonion-algebra|octonions]] are the standard alternative, nonassociative division algebra.
-- A general Jordan algebra is power-associative but need not be alternative.
+- A general [[nonassociative-algebra/jordan-algebra|Jordan algebra]] is power-associative but need not be alternative.
 
 ## References
 

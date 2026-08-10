@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 For an inclusion \(\mathfrak k\subseteq\mathfrak g\) of finite-dimensional Lie
-algebras, Cartan subalgebras \(\mathfrak t\subseteq\mathfrak k\) and
+algebras, [[lie-groups/cartan-subalgebra|Cartan subalgebras]] \(\mathfrak t\subseteq\mathfrak k\) and
 \(\mathfrak h\subseteq\mathfrak g\) are **compatible with the inclusion** if
 \[
 \mathfrak t=\mathfrak k\cap\mathfrak h.
@@ -27,7 +27,7 @@ ambient algebra. If \(\mathfrak k\) is a
 \(\mathfrak g\) and normalized by \(\mathfrak h\), then \(\mathfrak k\) is assembled from a subspace of
 \(\mathfrak h\) and selected \(\mathfrak g\)-root spaces. Its roots can
 therefore be recorded as a [[lie-groups/root-subsystem|root subsystem]] of the
-ambient root system, subject to the relevant span and closure conditions.
+ambient [[lie-groups/root-system|root system]], subject to the relevant span and closure conditions.
 
 For inclusions that are not of maximal rank, roots of \(\mathfrak g\) restrict
 from \(\mathfrak h^*\) to \(\mathfrak t^*\). Several ambient roots may have the

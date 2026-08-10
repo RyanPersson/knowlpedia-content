@@ -8,7 +8,7 @@ domains = ["lie-groups", "representation-theory", "mathematical-physics"]
 section_mode = "progressive"
 +++
 
-Fix a good embedded \(\mathfrak g_{\mathrm{SM}}\subset\mathfrak e_7\), a compatible Cartan subalgebra, and a labeling of the three generation root lines. Then
+Fix a good embedded \(\mathfrak g_{\mathrm{SM}}\subset\mathfrak e_7\), a compatible [[lie-groups/cartan-subalgebra|Cartan subalgebra]], and a labeling of the three generation root lines. Then
 \[
 \mathfrak e_7
 =\mathfrak{sl}_6^{\mathrm{SM}}
@@ -27,7 +27,7 @@ Hence each \(V_k\) restricts to one full Standard Model generation, including th
 
 ## What the direct sum means
 
-The theorem is a direct-sum decomposition of the underlying vector space and of the \(\mathfrak{sl}_6^{\mathrm{SM}}\)-module:
+The theorem is a direct-sum decomposition of the underlying [[linear-algebra/vector-space|vector space]] and of the \(\mathfrak{sl}_6^{\mathrm{SM}}\)-module:
 \[
 133=35+2+32+32+32.
 \]
@@ -36,11 +36,11 @@ Only
 \mathfrak{sl}_6^{\mathrm{SM}}
 \oplus(\mathbb C\otimes P)
 \]
-is asserted to be a Lie subalgebra; it is the [[lie-groups/intersection-of-three-a1-plus-d6-subalgebras|common intersection of the three \(A_1+D_6\) subalgebras]]. The \(V_k\) are invariant linear subspaces, not Lie subalgebras, and the displayed decomposition is not a direct sum of Lie algebras.
+is asserted to be a [[lie-groups/lie-subalgebra|Lie subalgebra]]; it is the [[lie-groups/intersection-of-three-a1-plus-d6-subalgebras|common intersection of the three \(A_1+D_6\) subalgebras]]. The \(V_k\) are invariant linear subspaces, not Lie subalgebras, and the displayed decomposition is not a [[lie-groups/direct-sum-of-lie-algebras|direct sum of Lie algebras]].
 
 ## Root-space content
 
-The common Lie subalgebra consists of the full Cartan together with the \(30\) root spaces in \(\Phi_0\). Each
+The common Lie subalgebra consists of the full Cartan together with the \(30\) [[lie-groups/root-space|root spaces]] in \(\Phi_0\). Each
 \[
 V_k=\bigoplus_{r\in\{\pm\beta_k\}\sqcup\Phi_k}(\mathfrak e_7)_r
 \]

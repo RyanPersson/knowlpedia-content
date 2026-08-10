@@ -8,9 +8,9 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-The **compact exceptional Lie group \(F_4\)** is the compact connected simple [[lie-groups/compact-lie-group|Lie group]] of rank \(4\) and real dimension \(52\) whose root system has Dynkin type \(F_4\). It is both simply connected and centerless. Its real Lie algebra is the compact real form of [[lie-groups/exceptional-lie-algebra-f4|\(\mathfrak f_4\)]].
+The **compact exceptional Lie group \(F_4\)** is the compact connected simple [[lie-groups/compact-lie-group|Lie group]] of rank \(4\) and real dimension \(52\) whose [[lie-groups/root-system|root system]] has Dynkin type \(F_4\). It is both [[lie-groups/simply-connected-lie-group|simply connected]] and centerless. Its real [[lie-groups/lie-algebra|Lie algebra]] is the [[lie-groups/compact-real-form|compact real form]] of [[lie-groups/exceptional-lie-algebra-f4|\(\mathfrak f_4\)]].
 
-Its distinguished \(26\)-dimensional real representation is the action on the trace-zero part of the exceptional Euclidean Jordan algebra.
+Its distinguished \(26\)-dimensional real representation is the action on the trace-zero part of the exceptional [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]].
 
 ## Automorphisms of the Albert algebra
 
@@ -18,7 +18,7 @@ Let
 \[
 H_3(\mathbb O)=\{x\in M_3(\mathbb O):x=x^*\}
 \]
-with Jordan product \(x\circ y=(xy+yx)/2\). Although octonionic matrix multiplication is not associative, this symmetrized product makes \(H_3(\mathbb O)\) a \(27\)-dimensional real Jordan algebra. There is a natural isomorphism
+with Jordan product \(x\circ y=(xy+yx)/2\). Although octonionic matrix multiplication is not associative, this symmetrized product makes \(H_3(\mathbb O)\) a \(27\)-dimensional real [[nonassociative-algebra/jordan-algebra|Jordan algebra]]. There is a natural isomorphism
 \[
 F_4\cong\operatorname{Aut}(H_3(\mathbb O)).
 \]
@@ -28,7 +28,7 @@ This realization specifies the **compact** group because \(\mathbb O\) is the re
 
 ## Stabilizers and the Standard Model gauge group
 
-In the exceptional-Jordan-algebra construction, \(F_4\) acts on Jordan subalgebras of \(H_3(\mathbb O)\). For nested subalgebras
+In the exceptional-Jordan-algebra construction, \(F_4\) acts on [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebras]] of \(H_3(\mathbb O)\). For nested subalgebras
 \[
 X\cong H_2(\mathbb C)\subset B\cong H_3(\mathbb C),
 \]

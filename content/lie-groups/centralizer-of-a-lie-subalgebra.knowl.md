@@ -45,7 +45,7 @@ C_{\mathfrak g}(\mathfrak k)\subseteq N_{\mathfrak g}(\mathfrak k).
 
 ## Matrix interpretation
 
-If \(\mathfrak g\) is a matrix Lie algebra, then \(C_{\mathfrak g}(\mathfrak k)\) consists of the matrices in \(\mathfrak g\) commuting, in the ordinary matrix sense, with every element of \(\mathfrak k\). For [[lie-groups/regular-lie-subalgebra|regular reductive subalgebras]] of a semisimple algebra, the centralizer can often be read directly from roots.
+If \(\mathfrak g\) is a matrix [[lie-groups/lie-algebra|Lie algebra]], then \(C_{\mathfrak g}(\mathfrak k)\) consists of the matrices in \(\mathfrak g\) commuting, in the ordinary matrix sense, with every element of \(\mathfrak k\). For [[lie-groups/regular-lie-subalgebra|regular reductive subalgebras]] of a semisimple algebra, the centralizer can often be read directly from roots.
 
 ## References
 

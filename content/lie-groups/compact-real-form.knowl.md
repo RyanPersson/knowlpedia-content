@@ -8,23 +8,23 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(\mathfrak g\) be a finite-dimensional complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]]. A real Lie subalgebra \(\mathfrak u\subset\mathfrak g\) is a **compact real form** of \(\mathfrak g\) if
+Let \(\mathfrak g\) be a finite-dimensional complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]]. A real [[lie-groups/lie-subalgebra|Lie subalgebra]] \(\mathfrak u\subset\mathfrak g\) is a **compact real form** of \(\mathfrak g\) if
 \[
 \mathfrak u\otimes_{\mathbb R}\mathbb C\cong\mathfrak g
 \]
 through the complex-linear extension of the inclusion, and the [[lie-groups/killing-form|Killing form]] of \(\mathfrak u\) is negative definite.
 
-Equivalently, \(\mathfrak u\) is a real form of \(\mathfrak g\) that is the Lie algebra of a compact semisimple Lie group.
+Equivalently, \(\mathfrak u\) is a real form of \(\mathfrak g\) that is the [[lie-groups/lie-algebra|Lie algebra]] of a compact semisimple [[fiber-bundles/lie-group|Lie group]].
 
 ## Existence and uniqueness
 
-Every complex semisimple Lie algebra has a compact real form. Any two compact real forms are conjugate by an inner automorphism of the complex Lie algebra.
+Every complex semisimple Lie algebra has a compact real form. Any two compact real forms are conjugate by an [[algebra-groups/inner-automorphism|inner automorphism]] of the complex Lie algebra.
 
-One construction starts from a Chevalley basis \(h_i,e_\alpha\) and takes the real span of
+One construction starts from a [[langlands-letter/knowls/chevalley-basis|Chevalley basis]] \(h_i,e_\alpha\) and takes the real span of
 \[
 i h_i,\qquad e_\alpha-e_{-\alpha},\qquad i(e_\alpha+e_{-\alpha})
 \]
-for the simple coroot directions and positive roots \(\alpha\). The resulting real algebra has negative-definite Killing form.
+for the simple coroot directions and [[lie-groups/positive-root|positive roots]] \(\alpha\). The resulting real algebra has negative-definite Killing form.
 
 ## Classical and exceptional examples
 
@@ -40,13 +40,13 @@ The compact real form of \(\mathfrak e_7\) is often denoted \(\mathfrak e_{7(-13
 
 ## Compact conjugation
 
-Complex conjugation with respect to the real vector space \(\mathfrak u\) is an antilinear involutive Lie algebra automorphism
+Complex conjugation with respect to the real vector space \(\mathfrak u\) is an antilinear involutive [[lie-groups/lie-algebra-automorphism|Lie algebra automorphism]]
 \[
 \sigma:\mathfrak g\to\mathfrak g,
 \qquad
 \mathfrak g^\sigma=\mathfrak u.
 \]
-Conversely, an antilinear involution whose fixed algebra has negative-definite Killing form determines a compact real form. This turns statements about complex roots and representations into statements about compact Lie groups after imposing the appropriate reality condition.
+Conversely, an antilinear involution whose fixed algebra has negative-definite Killing form determines a compact real form. This turns statements about complex roots and representations into statements about [[lie-groups/compact-lie-group|compact Lie groups]] after imposing the appropriate reality condition.
 
 ## References
 

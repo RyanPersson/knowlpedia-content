@@ -40,7 +40,7 @@ Every \(x\in J\) admits a spectral decomposition
 x=\lambda_1c_1+\cdots+\lambda_rc_r,
 \]
 where the \(c_i\) are pairwise orthogonal primitive idempotents summing to the
-unit. A maximal such family is a Jordan frame, and its cardinality is the
+unit. A maximal such family is a [[nonassociative-algebra/jordan-frame|Jordan frame]], and its cardinality is the
 rank. This gives a functional calculus, the Jordan trace
 \(\operatorname{tr}_J(x)=\sum_i\lambda_i\), and the determinant
 \(\det_J(x)=\prod_i\lambda_i\).
@@ -60,7 +60,7 @@ This is the bridge between Jordan theory and symmetric cones.
 Every Euclidean Jordan algebra is an orthogonal direct sum of
 [[nonassociative-algebra/simple-euclidean-jordan-algebra|simple Euclidean
 Jordan algebras]]. The simple factors are the real, complex, and quaternionic
-Hermitian matrix families, spin factors, and
+Hermitian matrix families, [[nonassociative-algebra/spin-factor-jordan-algebra|spin factors]], and
 \(\mathfrak h_3(\mathbb O)\).
 
 ## References

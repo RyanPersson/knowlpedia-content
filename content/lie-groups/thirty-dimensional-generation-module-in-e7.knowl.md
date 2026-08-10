@@ -21,7 +21,7 @@ N_k\cong
 \]
 as \(\mathfrak{sl}_6^{\mathrm{SM}}\)-modules, where the summands are [[lie-groups/exterior-power-representation|exterior-power representations]].
 
-This is a [[lie-groups/representation-of-a-lie-algebra|module]] and vector-space decomposition. In general \(N_k\) is not a Lie subalgebra of \(\mathfrak e_7\).
+This is a [[lie-groups/representation-of-a-lie-algebra|module]] and vector-space decomposition. In general \(N_k\) is not a [[lie-groups/lie-subalgebra|Lie subalgebra]] of \(\mathfrak e_7\).
 
 ## Restriction to the standard sl5
 
@@ -41,7 +41,7 @@ On restriction to \(\mathfrak g_{\mathrm{SM}}\), this is the [[mathematical-phys
 
 ## Dependence on choices and conventions
 
-The three spaces \(N_k\) require a compatible Cartan subalgebra and a labeling of the three defining weights. Reversing highest-weight conventions exchanges \(\Lambda^2\mathbb C^6\) with its dual \(\Lambda^4\mathbb C^6\); their direct sum is unaffected. The particle/antiparticle and chirality labels additionally depend on the chosen Standard Model representation conventions.
+The three spaces \(N_k\) require a compatible [[lie-groups/cartan-subalgebra|Cartan subalgebra]] and a labeling of the three defining weights. Reversing highest-weight conventions exchanges \(\Lambda^2\mathbb C^6\) with its dual \(\Lambda^4\mathbb C^6\); their direct sum is unaffected. The particle/antiparticle and chirality labels additionally depend on the chosen Standard Model representation conventions.
 
 ## References
 

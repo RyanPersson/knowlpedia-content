@@ -8,7 +8,7 @@ domains = ["nonassociative-algebra", "complex-analysis"]
 section_mode = "progressive"
 +++
 
-A **Hermitian Jordan triple system** is a complex vector space \(V\) with a
+A **Hermitian Jordan triple system** is a complex [[linear-algebra/vector-space|vector space]] \(V\) with a
 sesquilinear triple product
 \[
 \{x,y,z\}:V\times V\times V\longrightarrow V
@@ -42,7 +42,7 @@ with this triple product is a basic analytic example.
 
 ## Relation to Jordan algebras
 
-A unital Hermitian Jordan algebra gives a triple system, but the triple-system
+A unital Hermitian [[nonassociative-algebra/jordan-algebra|Jordan algebra]] gives a triple system, but the triple-system
 language does not require a distinguished unit or even a binary product.
 Conversely, choosing a suitable tripotent can produce Peirce spaces and binary
 Jordan products on appropriate components. Thus a Hermitian Jordan triple

@@ -25,7 +25,7 @@ V_k\cong
 \]
 the [[lie-groups/even-and-odd-exterior-algebra|even exterior algebra]] of the defining module.
 
-This is an isomorphism of modules and vector spaces. The subspace \(V_k\) is not generally a Lie subalgebra of \(\mathfrak e_7\).
+This is an isomorphism of modules and [[linear-algebra/vector-space|vector spaces]]. The subspace \(V_k\) is not generally a [[lie-groups/lie-subalgebra|Lie subalgebra]] of \(\mathfrak e_7\).
 
 ## Restriction to sl5 and the Standard Model
 
@@ -42,11 +42,11 @@ Consequently \(V_k\cong\Lambda\mathbb C^5\) as an \(\mathfrak{sl}_5^{\mathrm{SM}
 
 ## The two added singlets
 
-The root spaces \((\mathfrak e_7)_{\pm\beta_k}\) commute with \(\mathfrak{sl}_6^{\mathrm{SM}}\), so they supply the trivial modules \(\Lambda^0\mathbb C^6\) and \(\Lambda^6\mathbb C^6\). Under \(\mathfrak g_{\mathrm{SM}}\) they model the [[mathematical-physics/right-handed-neutrino-gauge-singlet|right-handed neutrino gauge singlet]] and its antiparticle, completing the [[lie-groups/thirty-dimensional-generation-module-in-e7|30-dimensional module]].
+The [[lie-groups/root-space|root spaces]] \((\mathfrak e_7)_{\pm\beta_k}\) commute with \(\mathfrak{sl}_6^{\mathrm{SM}}\), so they supply the trivial modules \(\Lambda^0\mathbb C^6\) and \(\Lambda^6\mathbb C^6\). Under \(\mathfrak g_{\mathrm{SM}}\) they model the [[mathematical-physics/right-handed-neutrino-gauge-singlet|right-handed neutrino gauge singlet]] and its antiparticle, completing the [[lie-groups/thirty-dimensional-generation-module-in-e7|30-dimensional module]].
 
 ## Dependence on choices and conventions
 
-The spaces \(V_k\) require a compatible Cartan subalgebra and a labeling of the three root lines. Exchanging \(\beta_k\) with \(-\beta_k\) preserves \(V_k\) but swaps the two singlet root spaces and hence the conventional degree-zero/degree-six assignment. Particle and antiparticle labels are likewise conventional; the module isomorphism is the invariant statement.
+The spaces \(V_k\) require a compatible [[lie-groups/cartan-subalgebra|Cartan subalgebra]] and a labeling of the three root lines. Exchanging \(\beta_k\) with \(-\beta_k\) preserves \(V_k\) but swaps the two singlet root spaces and hence the conventional degree-zero/degree-six assignment. Particle and antiparticle labels are likewise conventional; the module isomorphism is the invariant statement.
 
 ## References
 

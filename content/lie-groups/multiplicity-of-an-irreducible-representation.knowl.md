@@ -8,7 +8,7 @@ domains = ["lie-groups", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(V\) be a finite-dimensional completely reducible representation over an algebraically closed field, and let \(S\) be an [[lie-groups/irreducible-representation-lie-group|irreducible representation]] of the same group. If
+Let \(V\) be a finite-dimensional [[algebra-representation-theory/completely-reducible-representation|completely reducible representation]] over an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]], and let \(S\) be an [[lie-groups/irreducible-representation-lie-group|irreducible representation]] of the same group. If
 \[
 V\cong\bigoplus_{[T]}m_TT,
 \]
@@ -29,12 +29,12 @@ and is isomorphic to \(S^{\oplus m_S}\). The choice of individual copies of \(S\
 
 ## Computing multiplicity
 
-For compact groups, irreducible characters are orthonormal, so
+For compact groups, [[algebra-representation-theory/irreducible-character|irreducible characters]] are orthonormal, so
 \[
 m_S=\langle\chi_V,\chi_S\rangle
 =\int_G\chi_V(g)\overline{\chi_S(g)}\,dg.
 \]
-For finite groups the normalized integral becomes \(|G|^{-1}\sum_{g\in G}\). In highest-weight representations, character formulas and weight data provide another route to the same irreducible multiplicities.
+For finite groups the normalized integral becomes \(|G|^{-1}\sum_{g\in G}\). In [[lie-groups/highest-weight-representation|highest-weight representations]], character formulas and weight data provide another route to the same irreducible multiplicities.
 
 The multiplicity of the trivial representation is \(\dim V^G\), the dimension of the [[lie-groups/fixed-vector-subspace|fixed-vector subspace]]. Multiplicities appearing after restriction are the coefficients in a [[lie-groups/branching-rule-for-lie-representations|branching rule]].
 

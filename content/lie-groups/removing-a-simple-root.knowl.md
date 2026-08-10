@@ -8,7 +8,7 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] with Cartan subalgebra \(\mathfrak h\), root system \(\Phi\), and simple roots \(\Delta\). To **remove the simple root** \(\alpha_0\in\Delta\), set
+Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] with [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\), [[lie-groups/root-system|root system]] \(\Phi\), and [[lie-groups/simple-root|simple roots]] \(\Delta\). To **remove the simple root** \(\alpha_0\in\Delta\), set
 \[
 I=\Delta\setminus\{\alpha_0\},
 \qquad

@@ -36,7 +36,7 @@ Indeed, the inclusion \(G^{\circ}\hookrightarrow G\) induces an isomorphism
 \operatorname{Lie}(G^{\circ})\cong\operatorname{Lie}(G).
 \]
 
-Thus a Lie algebra determines the local group structure but does not determine
+Thus a [[lie-groups/lie-algebra|Lie algebra]] determines the local group structure but does not determine
 the component group.
 
 ## Why it is normal and open

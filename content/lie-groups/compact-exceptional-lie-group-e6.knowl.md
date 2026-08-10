@@ -8,15 +8,15 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-The **compact exceptional Lie group \(E_6\)** means here the compact, connected, **simply connected** simple [[lie-groups/compact-lie-group|Lie group]] with root system of Dynkin type \(E_6\). It has rank \(6\), real dimension \(78\), and center isomorphic to \(\mathbb Z/3\mathbb Z\). Its Lie algebra is the compact real form whose complexification is [[lie-groups/exceptional-lie-algebra-e6|\(\mathfrak e_6\)]].
+The **compact exceptional Lie group \(E_6\)** means here the compact, connected, **simply connected** simple [[lie-groups/compact-lie-group|Lie group]] with [[lie-groups/root-system|root system]] of Dynkin type \(E_6\). It has rank \(6\), real dimension \(78\), and center isomorphic to \(\mathbb Z/3\mathbb Z\). Its [[lie-groups/lie-algebra|Lie algebra]] is the [[lie-groups/compact-real-form|compact real form]] whose complexification is [[lie-groups/exceptional-lie-algebra-e6|\(\mathfrak e_6\)]].
 
 Its distinguished smallest complex representations are the dual \(27\)-dimensional modules \(\mathbf{27}\) and \(\mathbf{27}^*\); the center acts on them by nontrivial cube roots of unity. The adjoint representation has dimension \(78\) and factors through the centerless adjoint quotient \(E_6/(\mathbb Z/3\mathbb Z)\).
 
 ## Global-form convention
 
-Authors sometimes use “compact \(E_6\)” for the adjoint group rather than the simply connected group. Both have the same compact Lie algebra and the same rank and dimension, but their centers and which representations descend differ. The convention in this knowl is the simply connected one.
+Authors sometimes use “compact \(E_6\)” for the adjoint group rather than the [[lie-groups/simply-connected-lie-group|simply connected]] group. Both have the same compact Lie algebra and the same rank and dimension, but their centers and which representations descend differ. The convention in this knowl is the simply connected one.
 
-Compact \(E_6\) is also distinct from the complex group \(E_6(\mathbb C)\) and from noncompact real forms such as \(E_{6(6)}\) and \(E_{6(-26)}\). The latter is closely tied to determinant-preserving transformations of the real exceptional Jordan algebra; that realization does not define the compact group.
+Compact \(E_6\) is also distinct from the complex group \(E_6(\mathbb C)\) and from noncompact real forms such as \(E_{6(6)}\) and \(E_{6(-26)}\). The latter is closely tied to determinant-preserving transformations of the real [[nonassociative-algebra/exceptional-jordan-algebra|exceptional Jordan algebra]]; that realization does not define the compact group.
 
 ## Relation to the E-series chain
 
@@ -25,7 +25,7 @@ Compact forms exist for the regular inclusions represented infinitesimally by
 \mathfrak{so}_{10}\oplus\mathfrak u(1)\subset\mathfrak e_6
 \subset\mathfrak e_7.
 \]
-Their precise group-level form involves finite central quotients, so a Lie-algebra inclusion should not be silently promoted to a direct-product subgroup. In the three-generation construction, the complex Lie algebra \(\mathfrak e_6\), rather than this compact group, appears in the root-removal chain.
+Their precise group-level form involves finite [[lie-groups/central-quotient-of-a-lie-group|central quotients]], so a Lie-algebra inclusion should not be silently promoted to a direct-product subgroup. In the three-generation construction, the complex Lie algebra \(\mathfrak e_6\), rather than this compact group, appears in the root-removal chain.
 
 ## References
 

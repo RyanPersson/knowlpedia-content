@@ -8,7 +8,7 @@ domains = ["lie-groups", "representation-theory"]
 section_mode = "progressive"
 +++
 
-The compact simply connected Lie group \(\operatorname{Spin}(8)\) has outer automorphism group
+The compact [[lie-groups/simply-connected-lie-group|simply connected Lie group]] \(\operatorname{Spin}(8)\) has [[algebra-groups/outer-automorphism-group|outer automorphism group]]
 \[
 \operatorname{Out}(\operatorname{Spin}(8))\cong S_3.
 \]
@@ -16,21 +16,21 @@ Under twisting by these automorphisms, \(S_3\) permutes the three inequivalent e
 \[
 8_v,\qquad 8_s=\Delta^+,\qquad 8_c=\Delta^-.
 \]
-Here \(8_v\) is the vector representation factoring through \(SO(8)\), while \(8_s\) and \(8_c\) are the two [[lie-groups/half-spin-representation|half-spin representations]]. This symmetry is called **triality**.
+Here \(8_v\) is the [[lie-groups/defining-representation-of-a-classical-lie-algebra|vector representation]] factoring through \(SO(8)\), while \(8_s\) and \(8_c\) are the two [[lie-groups/half-spin-representation|half-spin representations]]. This symmetry is called **triality**.
 
 ## Dynkin-diagram origin
 
-The [[lie-groups/dynkin-diagram|Dynkin diagram]] of type \(D_4\) has one central node joined to three outer nodes. Every permutation of the outer nodes preserves the diagram, giving its automorphism group \(S_3\). The three outer nodes label the highest weights of \(8_v,8_s,8_c\), so the diagram symmetry permutes these representations.
+The [[lie-groups/dynkin-diagram|Dynkin diagram]] of type \(D_4\) has one central node joined to three outer nodes. Every permutation of the outer nodes preserves the diagram, giving its [[algebra-groups/automorphism-group|automorphism group]] \(S_3\). The three outer nodes label the [[lie-groups/highest-weight|highest weights]] of \(8_v,8_s,8_c\), so the diagram symmetry permutes these representations.
 
 Triality is exceptional to \(D_4\). For \(D_m\) with \(m\geq5\), the two spin nodes can still be exchanged, but the vector node is distinguished and the diagram automorphism group has only two elements.
 
 ## Invariant trilinear form
 
-Clifford multiplication gives a nonzero \(\operatorname{Spin}(8)\)-equivariant map
+[[differential-geometry/clifford-module|Clifford multiplication]] gives a nonzero \(\operatorname{Spin}(8)\)-equivariant map
 \[
 8_v\otimes8_s\longrightarrow8_c.
 \]
-After choosing invariant inner products, this is equivalent to an invariant trilinear form
+After choosing invariant [[linear-algebra/inner-product|inner products]], this is equivalent to an invariant trilinear form
 \[
 t:8_v\otimes8_s\otimes8_c\longrightarrow\mathbb R.
 \]

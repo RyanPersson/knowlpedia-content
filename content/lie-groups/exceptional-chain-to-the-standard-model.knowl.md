@@ -8,7 +8,7 @@ domains = ["lie-groups", "mathematical-physics"]
 section_mode = "progressive"
 +++
 
-For a compatible choice of Cartan subalgebra and simple roots in \(\mathfrak e_7\), repeated [[lie-groups/removing-a-simple-root|simple-root removal]] gives a chain of [[lie-groups/regular-lie-subalgebra|regular semisimple Lie subalgebras]]
+For a compatible choice of [[lie-groups/cartan-subalgebra|Cartan subalgebra]] and [[lie-groups/simple-root|simple roots]] in \(\mathfrak e_7\), repeated [[lie-groups/removing-a-simple-root|simple-root removal]] gives a chain of [[lie-groups/regular-lie-subalgebra|regular semisimple Lie subalgebras]]
 \[
 \mathfrak{sl}_3\oplus\mathfrak{sl}_2
 \subset \mathfrak{sl}_5
@@ -34,7 +34,7 @@ Given simple roots \(\alpha_1,\ldots,\alpha_n\), retain the roots in the integer
 \[
 E_7\supset E_6\supset E_5=D_5\supset E_4=A_4\supset E_3=A_2+A_1.
 \]
-The last equality is an equality of root-system types and hence of the associated complex semisimple Lie algebras.
+The last equality is an equality of root-system types and hence of the associated complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebras]].
 
 ## Role in the E7 construction
 

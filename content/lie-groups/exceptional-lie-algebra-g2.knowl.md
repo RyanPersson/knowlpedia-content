@@ -10,14 +10,14 @@ section_mode = "progressive"
 
 The **exceptional complex Lie algebra** \(\mathfrak g_2\) is the unique [[lie-groups/simple-lie-algebra|simple complex Lie algebra]] whose [[lie-groups/root-system|root system]] has Dynkin type \(G_2\). It has complex dimension \(14\), rank \(2\), and \(12\) roots, with squared-length ratio \(3\) between long and short roots.
 
-Its smallest nontrivial irreducible representation is the \(7\)-dimensional fundamental module \(\mathbf7\). Its adjoint representation is \(\mathbf{14}\), and
+Its smallest nontrivial [[algebra-representation-theory/irreducible-representation|irreducible representation]] is the \(7\)-dimensional fundamental module \(\mathbf7\). Its adjoint representation is \(\mathbf{14}\), and
 \[
 \Lambda^2\mathbf7\cong\mathbf7\oplus\mathbf{14}.
 \]
 
 ## Octonionic realization
 
-For the complexified octonion algebra \(\mathbb O_{\mathbb C}\),
+For the complexified [[nonassociative-algebra/octonion-algebra|octonion algebra]] \(\mathbb O_{\mathbb C}\),
 \[
 \mathfrak g_2\cong\operatorname{Der}(\mathbb O_{\mathbb C}).
 \]
@@ -25,7 +25,7 @@ Derivations kill the identity and act irreducibly on the seven-dimensional imagi
 
 ## Groups and real forms
 
-The simply connected and adjoint complex groups of type \(G_2\) coincide and have trivial center. The automorphism group of the real division octonions is the [[lie-groups/compact-exceptional-lie-group-g2|compact exceptional group \(G_2\)]]. The split octonions instead yield the split real form \(G_{2(2)}\).
+The [[lie-groups/simply-connected-lie-group|simply connected]] and adjoint complex groups of type \(G_2\) coincide and have trivial center. The [[algebra-groups/automorphism-group|automorphism group]] of the real division octonions is the [[lie-groups/compact-exceptional-lie-group-g2|compact exceptional group \(G_2\)]]. The split octonions instead yield the split real form \(G_{2(2)}\).
 
 ## Paper context
 
@@ -33,7 +33,7 @@ Compact \(G_2=\operatorname{Aut}(\mathbb O)\) acts on the choices of complex sub
 \[
 \mathbb O\cong\mathbb C\oplus\mathbb C^3
 \]
-as real vector spaces equipped with compatible complex structure. This supplies the \(SU(3)\)-invariant inner product and conjugated cross product used in the exceptional-Jordan-algebra construction of octonion multiplication.
+as real vector spaces equipped with compatible complex structure. This supplies the \(SU(3)\)-invariant [[linear-algebra/inner-product|inner product]] and conjugated cross product used in the exceptional-Jordan-algebra construction of octonion multiplication.
 
 ## References
 

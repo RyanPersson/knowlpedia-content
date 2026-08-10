@@ -8,7 +8,7 @@ domains = ["nonassociative-algebra"]
 section_mode = "progressive"
 +++
 
-The **octonionic spin factor** is the ten-dimensional real Jordan algebra
+The **octonionic spin factor** is the ten-dimensional real [[nonassociative-algebra/jordan-algebra|Jordan algebra]]
 \[
 \mathfrak h_2(\mathbb O)
 =\left\{
@@ -44,12 +44,12 @@ X\longmapsto
 \begin{pmatrix}X&0\\0&0\end{pmatrix}.
 \]
 It is not unital: the source unit becomes
-\(\operatorname{diag}(1,1,0)\), a proper idempotent of the Albert algebra.
+\(\operatorname{diag}(1,1,0)\), a proper idempotent of the [[nonassociative-algebra/exceptional-jordan-algebra|Albert algebra]].
 
 The setwise stabilizer of this corner inside
 \(\operatorname{Aut}(\mathfrak h_3(\mathbb O))\cong F_4\) is
 \(\operatorname{Spin}(9)\). This ambient stabilizer is not the abstract
-automorphism group \(O(9)\) of the spin factor: its action on the whole
+automorphism group \(O(9)\) of the [[nonassociative-algebra/spin-factor-jordan-algebra|spin factor]]: its action on the whole
 27-dimensional Albert algebra contains additional information.
 
 ## Degree caveat

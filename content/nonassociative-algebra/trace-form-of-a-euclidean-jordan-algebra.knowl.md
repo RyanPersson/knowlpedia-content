@@ -21,7 +21,7 @@ The form \(\tau\) is symmetric, positive definite, and associative:
 \[
 \tau(x\circ y,z)=\tau(x,y\circ z).
 \]
-Thus it is a canonical compatible Euclidean inner product. A Euclidean Jordan
+Thus it is a canonical compatible Euclidean [[linear-algebra/inner-product|inner product]]. A Euclidean Jordan
 algebra may be presented with another compatible inner product; on each simple
 ideal, every such form is a positive scalar multiple of the canonical trace
 form. Different simple summands may carry different positive scalings.
@@ -43,13 +43,13 @@ For \(J(V)=\mathbb R\oplus V\),
 
 ## Operator-trace convention
 
-Another bilinear form, also sometimes called “the trace form,” is
+Another [[linear-algebra/bilinear-form|bilinear form]], also sometimes called “the trace form,” is
 \[
 \beta(x,y)=\operatorname{Tr}(L_{x\circ y}),
 \qquad L_x(z)=x\circ z.
 \]
 Here \(\operatorname{Tr}\) is the trace of a vector-space endomorphism. On a
-simple Euclidean Jordan algebra of dimension \(N\) and rank \(r\),
+[[nonassociative-algebra/simple-euclidean-jordan-algebra|simple Euclidean Jordan algebra]] of dimension \(N\) and rank \(r\),
 \[
 \beta(x,y)=\frac Nr\,\tau(x,y).
 \]
@@ -58,7 +58,7 @@ formula should identify its normalization.
 
 Every Jordan automorphism preserves spectral eigenvalues and hence
 \(\operatorname{tr}_J\) and \(\tau\). This realizes
-\(\operatorname{Aut}(J)\) as a closed subgroup of the orthogonal group of the
+\(\operatorname{Aut}(J)\) as a closed subgroup of the [[lie-groups/orthogonal-group|orthogonal group]] of the
 trace form.
 
 ## References

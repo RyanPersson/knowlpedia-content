@@ -13,7 +13,7 @@ Use the generation-plane partition
 \[
 \{r\in\Phi:r\perp\beta_k\}=\Phi_0\sqcup\Phi_k
 \]
-is a rank-six [[lie-groups/root-subsystem|root subsystem]] with \(60\) roots, hence is of [[lie-groups/type-d-root-system|type \(D_6\)]]. Its regular Lie subalgebra is denoted
+is a rank-six [[lie-groups/root-subsystem|root subsystem]] with \(60\) roots, hence is of [[lie-groups/type-d-root-system|type \(D_6\)]]. Its [[lie-groups/regular-lie-subalgebra|regular Lie subalgebra]] is denoted
 \[
 \mathfrak{so}_{12}(\beta_k)\subset\mathfrak e_7.
 \]
@@ -22,7 +22,7 @@ The three \(D_6\) subsystems, and therefore the three embedded copies of [[lie-g
 
 ## Orthogonality test
 
-Projection to the generation plane reduces the condition \(r\perp\beta_k\) to \(\pi(r)\perp\beta_k\). In the [[lie-groups/e7-root-projection-trichotomy|projection trichotomy]], zero and \(\pm w_k\) are orthogonal to \(\beta_k\); the other four defining weights and all six \(A_2\) roots are not. This gives exactly \(\Phi_0\sqcup\Phi_k\).
+Projection to the [[lie-groups/generation-plane|generation plane]] reduces the condition \(r\perp\beta_k\) to \(\pi(r)\perp\beta_k\). In the [[lie-groups/e7-root-projection-trichotomy|projection trichotomy]], zero and \(\pm w_k\) are orthogonal to \(\beta_k\); the other four defining weights and all six \(A_2\) roots are not. This gives exactly \(\Phi_0\sqcup\Phi_k\).
 
 ## Centralizer statement
 
@@ -32,7 +32,7 @@ The regular subalgebras
 \quad\text{and}\quad
 \mathfrak{so}_{12}(\beta_k)
 \]
-are mutual centralizers in \(\mathfrak e_7\). Their sum is therefore a [[lie-groups/maximal-rank-lie-subalgebra|maximal-rank]] embedded Lie subalgebra of type \(A_1+D_6\). The associated [[lie-groups/e7-branching-under-a1-plus-d6|branching rule]] describes the complementary \(64\)-dimensional module.
+are mutual centralizers in \(\mathfrak e_7\). Their sum is therefore a [[lie-groups/maximal-rank-lie-subalgebra|maximal-rank]] embedded [[lie-groups/lie-subalgebra|Lie subalgebra]] of type \(A_1+D_6\). The associated [[lie-groups/e7-branching-under-a1-plus-d6|branching rule]] describes the complementary \(64\)-dimensional module.
 
 ## Dependence on choices
 

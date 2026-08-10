@@ -21,7 +21,7 @@ Thus “good” specifies an automorphism class of embeddings, not merely an abs
 
 ## Equivalent construction through SU(5)
 
-Start with the block-diagonal [[mathematical-physics/georgi-glashow-su5-embedding|Standard Model embedding in \(SU(5)\)]], pass to complex Lie algebras
+Start with the block-diagonal [[mathematical-physics/georgi-glashow-su5-embedding|Standard Model embedding in \(SU(5)\)]], pass to complex [[lie-groups/lie-algebra|Lie algebras]]
 \[
 \mathfrak g_{\mathrm{SM}}\subset\mathfrak{sl}_5(\mathbb C),
 \]
@@ -29,11 +29,11 @@ and embed \(\mathfrak{sl}_5\) as a regular \(A_4\)-subalgebra of \(\mathfrak e_7
 
 ## Why the qualification matters
 
-An abstract inclusion of a copy of \(\mathfrak{sl}_3\oplus\mathfrak{sl}_2\oplus\mathbb C\) in \(\mathfrak e_7\) need not have the centralizers and branching rules used in the three-generation construction. The adjective “good” records the regular-position hypothesis from which the [[lie-groups/generation-sl3-in-e7|generation \(\mathfrak{sl}_3\)]], [[lie-groups/standard-sl6-in-e7|standard \(\mathfrak{sl}_6\)]], and subsequent decompositions follow.
+An abstract inclusion of a copy of \(\mathfrak{sl}_3\oplus\mathfrak{sl}_2\oplus\mathbb C\) in \(\mathfrak e_7\) need not have the centralizers and [[lie-groups/branching-rule-for-lie-representations|branching rules]] used in the three-generation construction. The adjective “good” records the regular-position hypothesis from which the [[lie-groups/generation-sl3-in-e7|generation \(\mathfrak{sl}_3\)]], [[lie-groups/standard-sl6-in-e7|standard \(\mathfrak{sl}_6\)]], and subsequent decompositions follow.
 
 ## Dependence on choices
 
-The definition is invariant under automorphisms of \(\mathfrak e_7\). Choosing a particular representative embedding is still necessary to regard the constructed algebras as literal subalgebras rather than only as conjugacy classes. Later choices of Cartan subalgebra and roots are additional and are not part of “goodness.”
+The definition is invariant under automorphisms of \(\mathfrak e_7\). Choosing a particular representative embedding is still necessary to regard the constructed algebras as literal subalgebras rather than only as conjugacy classes. Later choices of [[lie-groups/cartan-subalgebra|Cartan subalgebra]] and roots are additional and are not part of “goodness.”
 
 ## References
 

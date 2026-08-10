@@ -8,9 +8,9 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-A **maximal Levi subalgebra** of a complex semisimple Lie algebra \(\mathfrak g\) is a proper [[lie-groups/levi-subalgebra|Levi subalgebra]] that is maximal, under inclusion, among proper Levi subalgebras of \(\mathfrak g\).
+A **maximal Levi subalgebra** of a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] \(\mathfrak g\) is a proper [[lie-groups/levi-subalgebra|Levi subalgebra]] that is maximal, under inclusion, among proper Levi subalgebras of \(\mathfrak g\).
 
-After choosing simple roots \(\Delta\), every standard maximal Levi subalgebra has the form
+After choosing [[lie-groups/simple-root|simple roots]] \(\Delta\), every standard maximal Levi subalgebra has the form
 \[
 \mathfrak l_{\Delta\setminus\{\alpha_0\}}
 =\mathfrak h\oplus
@@ -18,11 +18,11 @@ After choosing simple roots \(\Delta\), every standard maximal Levi subalgebra h
 \operatorname{span}_{\mathbb Z}(\Delta\setminus\{\alpha_0\})}
 \mathfrak g_\beta
 \]
-for one \(\alpha_0\in\Delta\). Thus it is obtained by [[lie-groups/removing-a-simple-root|removing one simple root]] from the semisimple root data while retaining the full Cartan subalgebra \(\mathfrak h\).
+for one \(\alpha_0\in\Delta\). Thus it is obtained by [[lie-groups/removing-a-simple-root|removing one simple root]] from the semisimple root data while retaining the full [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\).
 
 ## Structure
 
-If \(\mathfrak g\) is semisimple, the derived algebra of this maximal Levi has the Dynkin diagram obtained by deleting the vertex \(\alpha_0\) and all incident edges. Its center is one-dimensional:
+If \(\mathfrak g\) is semisimple, the derived algebra of this maximal Levi has the [[lie-groups/dynkin-diagram|Dynkin diagram]] obtained by deleting the vertex \(\alpha_0\) and all incident edges. Its center is one-dimensional:
 \[
 \dim Z\!\left(\mathfrak l_{\Delta\setminus\{\alpha_0\}}\right)=1.
 \]

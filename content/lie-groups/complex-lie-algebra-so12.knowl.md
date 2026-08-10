@@ -8,20 +8,20 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-The **complex Lie algebra** \(\mathfrak{so}_{12}(\mathbb C)\) is the Lie algebra of infinitesimal transformations preserving a nondegenerate symmetric bilinear form on \(\mathbb C^{12}\). It is [[lie-groups/simple-lie-algebra|simple]], of complex dimension \(66\), rank \(6\), and [[lie-groups/dynkin-diagram|Dynkin type]] \(D_6\).
+The **complex Lie algebra** \(\mathfrak{so}_{12}(\mathbb C)\) is the [[lie-groups/lie-algebra|Lie algebra]] of infinitesimal transformations preserving a nondegenerate symmetric [[linear-algebra/bilinear-form|bilinear form]] on \(\mathbb C^{12}\). It is [[lie-groups/simple-lie-algebra|simple]], of complex dimension \(66\), rank \(6\), and [[lie-groups/dynkin-diagram|Dynkin type]] \(D_6\).
 
-Its standard module has dimension \(12\). Its two half-spin modules \(S^+\) and \(S^-\) each have dimension \(2^{6-1}=32\), and its adjoint representation is \(\Lambda^2\mathbb C^{12}\), of dimension \(66\).
+Its standard module has dimension \(12\). Its two [[lie-groups/half-spin-representation|half-spin modules]] \(S^+\) and \(S^-\) each have dimension \(2^{6-1}=32\), and its adjoint representation is \(\Lambda^2\mathbb C^{12}\), of dimension \(66\).
 
 ## Groups and real forms
 
-The half-spin modules integrate to the simply connected group \(\operatorname{Spin}(12,\mathbb C)\), but generally not to \(SO(12,\mathbb C)\). The compact real form integrates to compact \(\operatorname{Spin}(12)\); the split real form is \(\mathfrak{so}(6,6)\). A notation such as \(\mathfrak{so}_{12}\) in a complex-Lie-algebra calculation suppresses these global and real-form choices.
+The half-spin modules integrate to the [[lie-groups/simply-connected-lie-group|simply connected]] group \(\operatorname{Spin}(12,\mathbb C)\), but generally not to \(SO(12,\mathbb C)\). The [[lie-groups/compact-real-form|compact real form]] integrates to compact \(\operatorname{Spin}(12)\); the split real form is \(\mathfrak{so}(6,6)\). A notation such as \(\mathfrak{so}_{12}\) in a complex-Lie-algebra calculation suppresses these global and real-form choices.
 
 ## Role inside E7
 
-There is a maximal-rank regular inclusion
+There is a maximal-rank regular inclusion into the [[lie-groups/exceptional-lie-algebra-e7|exceptional Lie algebra \(\mathfrak e_7\)]]:
 \[
 \mathfrak{sl}_2\oplus\mathfrak{so}_{12}
-\subset [[lie-groups/exceptional-lie-algebra-e7|\mathfrak e_7]].
+\subset\mathfrak e_7.
 \]
 Under this subalgebra, the adjoint representation branches as
 \[

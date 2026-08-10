@@ -24,7 +24,7 @@ The minimal Standard Model does not contain \(\nu_R\). It is a common extension 
 
 In the [[mathematical-physics/standard-model-exterior-algebra-representation|\(\Lambda\mathbb C^5\) model]], the two trivial lines \(\Lambda^0\mathbb C^5\) and \(\Lambda^5\mathbb C^5\) represent a right-handed neutrino and its antiparticle. Removing them leaves the \(30\)-dimensional representation for a generation and its antiparticles without \(\nu_R\).
 
-In the \(E_7\) construction, the six neutrino and antineutrino lines for three generations arise from root spaces of a commuting generation \(\mathfrak{sl}_3\), unlike the other \(90\) fermionic directions. Their gauge-singlet property says that \(\mathfrak g_{\mathrm{SM}}\) acts trivially on them.
+In the \(E_7\) construction, the six neutrino and antineutrino lines for three generations arise from [[lie-groups/root-space|root spaces]] of a commuting generation \(\mathfrak{sl}_3\), unlike the other \(90\) fermionic directions. Their gauge-singlet property says that \(\mathfrak g_{\mathrm{SM}}\) acts trivially on them.
 
 ## References
 

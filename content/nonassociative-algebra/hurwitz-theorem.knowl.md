@@ -24,7 +24,7 @@ Over a field of characteristic different from \(2\), every unital [[nonassociati
 
 ## Relation to sums of squares
 
-Choosing an orthonormal basis turns norm multiplicativity into an identity expressing a product of two sums of \(n\) squares as another sum of \(n\) squares with bilinear entries. Hurwitz's theorem is therefore also called the \(1\)-\(2\)-\(4\)-\(8\) theorem for composition of quadratic forms.
+Choosing an [[linear-algebra/orthonormal-basis|orthonormal basis]] turns norm multiplicativity into an identity expressing a product of two sums of \(n\) squares as another sum of \(n\) squares with bilinear entries. Hurwitz's theorem is therefore also called the \(1\)-\(2\)-\(4\)-\(8\) theorem for composition of [[linear-algebra/quadratic-form|quadratic forms]].
 
 ## References
 

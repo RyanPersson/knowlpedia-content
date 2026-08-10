@@ -8,19 +8,19 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-The **compact exceptional Lie group \(E_8\)** is the compact connected simple [[lie-groups/compact-lie-group|Lie group]] with root system of Dynkin type \(E_8\). It has rank \(8\) and real dimension \(248\). It is both simply connected and centerless, so its simply connected and adjoint forms coincide. Its Lie algebra is the compact real form whose complexification is [[lie-groups/exceptional-lie-algebra-e8|\(\mathfrak e_8\)]].
+The **compact exceptional Lie group \(E_8\)** is the compact connected simple [[lie-groups/compact-lie-group|Lie group]] with [[lie-groups/root-system|root system]] of Dynkin type \(E_8\). It has rank \(8\) and real dimension \(248\). It is both [[lie-groups/simply-connected-lie-group|simply connected]] and centerless, so its simply connected and adjoint forms coincide. Its [[lie-groups/lie-algebra|Lie algebra]] is the [[lie-groups/compact-real-form|compact real form]] whose complexification is [[lie-groups/exceptional-lie-algebra-e8|\(\mathfrak e_8\)]].
 
-The smallest nontrivial complex representation is the complexified adjoint representation, of dimension \(248\). The absence of a nontrivial center agrees with the equality of the \(E_8\) root and weight lattices.
+The smallest nontrivial complex representation is the complexified adjoint representation, of dimension \(248\). The absence of a nontrivial center agrees with the equality of the \(E_8\) root and [[lie-groups/weight-lattice|weight lattices]].
 
 ## Distinguishing the forms
 
-Compact \(E_8\) is not the complex group \(E_8(\mathbb C)\) and not the split real group \(E_{8(8)}\). They share the complex Lie algebra \(\mathfrak e_8\), but compact \(E_8\) has negative-definite Killing form on its real Lie algebra and every finite-dimensional complex representation is unitarizable.
+Compact \(E_8\) is not the complex group \(E_8(\mathbb C)\) and not the split real group \(E_{8(8)}\). They share the complex Lie algebra \(\mathfrak e_8\), but compact \(E_8\) has negative-definite [[lie-groups/killing-form|Killing form]] on its real Lie algebra and every finite-dimensional complex representation is unitarizable.
 
-Unlike types \(E_6\) and \(E_7\), there is no ambiguity between simply connected and adjoint compact forms for \(E_8\). There can still be finite central quotients in descriptions of its proper connected subgroups.
+Unlike types \(E_6\) and \(E_7\), there is no ambiguity between simply connected and adjoint compact forms for \(E_8\). There can still be finite [[lie-groups/central-quotient-of-a-lie-group|central quotients]] in descriptions of its proper connected subgroups.
 
 ## Paper context
 
-Neither construction uses compact \(E_8\) as its ambient symmetry group: the three-generation construction uses complex \(\mathfrak e_7\), and the exceptional-Jordan-algebra construction uses compact \(F_4\). Compact \(E_8\) belongs to the wider [[lie-groups/en-series-of-lie-algebras|\(E_n\) family]] and provides context for why extending an \(E_7\) construction is mathematically tempting. Such an extension does not follow merely from the inclusion of Dynkin diagrams, and known representation-theoretic obstructions apply.
+Neither construction uses compact \(E_8\) as its ambient symmetry group: the three-generation construction uses complex \(\mathfrak e_7\), and the exceptional-Jordan-algebra construction uses compact \(F_4\). Compact \(E_8\) belongs to the wider [[lie-groups/en-series-of-lie-algebras|\(E_n\) family]] and provides context for why extending an \(E_7\) construction is mathematically tempting. Such an extension does not follow merely from the inclusion of [[lie-groups/dynkin-diagram|Dynkin diagrams]], and known representation-theoretic obstructions apply.
 
 ## References
 

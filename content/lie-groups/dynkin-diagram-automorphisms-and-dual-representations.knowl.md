@@ -8,13 +8,13 @@ domains = ["lie-groups", "representation-theory"]
 section_mode = "progressive"
 +++
 
-Let \(\mathfrak g\) be a complex semisimple Lie algebra with chosen simple roots \(\Delta=\{\alpha_i\}\). A **Dynkin-diagram automorphism** is a permutation of \(\Delta\) preserving the Cartan matrix. It permutes the fundamental weights and, after choosing a compatible automorphism of \(\mathfrak g\), sends irreducible highest-weight representations to irreducible highest-weight representations with the correspondingly permuted labels.
+Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] with chosen [[lie-groups/simple-root|simple roots]] \(\Delta=\{\alpha_i\}\). A **Dynkin-diagram automorphism** is a permutation of \(\Delta\) preserving the [[lie-groups/cartan-matrix|Cartan matrix]]. It permutes the fundamental weights and, after choosing a compatible automorphism of \(\mathfrak g\), sends irreducible [[lie-groups/highest-weight-representation|highest-weight representations]] to irreducible highest-weight representations with the correspondingly permuted labels.
 
-Let \(w_0\) be the longest element of the [[lie-groups/weyl-group|Weyl group]]. The **opposition involution** of the based root system is characterized by
+Let \(w_0\) be the longest element of the [[lie-groups/weyl-group|Weyl group]]. The **opposition involution** of the based [[lie-groups/root-system|root system]] is characterized by
 \[
 \alpha_i\longmapsto -w_0(\alpha_i).
 \]
-If \(V_\lambda\) is the irreducible representation of [[lie-groups/highest-weight|highest weight]] \(\lambda\), then its [[lie-groups/dual-representation-lie|dual representation]] has highest weight
+If \(V_\lambda\) is the [[algebra-representation-theory/irreducible-representation|irreducible representation]] of [[lie-groups/highest-weight|highest weight]] \(\lambda\), then its [[lie-groups/dual-representation-lie|dual representation]] has highest weight
 \[
 \lambda^*=-w_0\lambda.
 \]
@@ -28,7 +28,7 @@ For an irreducible root system, the opposition involution is nontrivial exactly 
 - in type \(D_{2k+1}\), it exchanges the two spin nodes;
 - in type \(E_6\), it is the unique nontrivial diagram symmetry.
 
-It is the identity in types \(A_1\), \(B_n\), \(C_n\), \(D_{2k}\), \(E_7\), \(E_8\), \(F_4\), and \(G_2\). In those types every finite-dimensional irreducible complex representation is self-dual, although its invariant bilinear form may be symmetric or alternating.
+It is the identity in types \(A_1\), \(B_n\), \(C_n\), \(D_{2k}\), \(E_7\), \(E_8\), \(F_4\), and \(G_2\). In those types every finite-dimensional irreducible complex representation is self-dual, although its invariant [[linear-algebra/bilinear-form|bilinear form]] may be symmetric or alternating.
 
 ## Other diagram symmetries
 
@@ -36,7 +36,7 @@ Not every diagram automorphism is the duality involution. The clearest example i
 
 ## Group-level caution
 
-The highest-weight formula is initially a statement for the complex semisimple Lie algebra, or equivalently for its simply connected complex group. For a non-simply-connected group, only some dominant integral weights exponentiate to representations. Diagram automorphisms that preserve the relevant character lattice descend to that global group; others may exist only on a covering group or on the Lie algebra.
+The highest-weight formula is initially a statement for the complex semisimple Lie algebra, or equivalently for its [[lie-groups/simply-connected-lie-group|simply connected]] complex group. For a non-simply-connected group, only some dominant integral weights exponentiate to representations. Diagram automorphisms that preserve the relevant character lattice descend to that global group; others may exist only on a covering group or on the [[lie-groups/lie-algebra|Lie algebra]].
 
 The formula \(-w_0\lambda\) is independent of a numbering of diagram nodes. Translating it into named fundamental weights requires a declared Dynkin-labeling convention.
 

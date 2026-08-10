@@ -54,7 +54,7 @@ triple product obeys Peirce arithmetic:
 \]
 
 with a summand interpreted as zero when its index is outside
-\(\{0,1,2\}\). The top space \(V_2(e)\) is a unital complex Jordan algebra
+\(\{0,1,2\}\). The top space \(V_2(e)\) is a unital complex [[nonassociative-algebra/jordan-algebra|Jordan algebra]]
 under
 \[
 x\circ_e z=\{x,e,z\},

@@ -33,11 +33,11 @@ Its kernel is
 \ker\phi=\{(z,z^{-3}I_2,z^2I_3):z^6=1\}\cong\mathbb Z_6.
 \]
 The codomain is the [[lie-groups/special-block-unitary-group|special block unitary group]].
-This finite [[lie-groups/central-quotient-of-a-lie-group|central quotient]] leaves the [[mathematical-physics/standard-model-lie-algebra|Standard Model Lie algebra]] unchanged, but it restricts which group representations and principal bundles are globally allowed.
+This finite [[lie-groups/central-quotient-of-a-lie-group|central quotient]] leaves the [[mathematical-physics/standard-model-lie-algebra|Standard Model Lie algebra]] unchanged, but it restricts which [[algebra-representation-theory/group-representation|group representations]] and principal bundles are globally allowed.
 
 ## Physics labels
 
-The factors encode weak hypercharge, weak isospin acting on left-handed doublets, and color. The subscripts \(Y,L,C\) are physical labels, not additional mathematical operations. The matter representations factor through \(G_{\mathrm{SM}}^{\mathrm{eff}}\).
+The factors encode [[mathematical-physics/hypercharge|weak hypercharge]], weak isospin acting on left-handed doublets, and color. The subscripts \(Y,L,C\) are physical labels, not additional mathematical operations. The matter representations factor through \(G_{\mathrm{SM}}^{\mathrm{eff}}\).
 
 ## Warning: two meanings of gauge group
 

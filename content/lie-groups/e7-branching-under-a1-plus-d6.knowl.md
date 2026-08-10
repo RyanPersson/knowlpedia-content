@@ -26,18 +26,18 @@ Here \(\mathbf3\) and \(\mathbf2\) are respectively the adjoint and [[lie-groups
 
 ## What the direct sum means
 
-Equivalently, as an \(\mathfrak m_k\)-module and hence as a vector space,
+Equivalently, as an \(\mathfrak m_k\)-module and hence as a [[linear-algebra/vector-space|vector space]],
 \[
 \mathfrak e_7
 =\mathfrak{sl}_2(\beta_k)
 \oplus\mathfrak{so}_{12}(\beta_k)
 \oplus(\mathbf2\otimes\mathbf{32}).
 \]
-The first two summands together form the Lie subalgebra \(\mathfrak m_k\). The \(64\)-dimensional last summand is an invariant module, not a Lie subalgebra and not asserted to be closed under the \(\mathfrak e_7\) bracket.
+The first two summands together form the [[lie-groups/lie-subalgebra|Lie subalgebra]] \(\mathfrak m_k\). The \(64\)-dimensional last summand is an invariant module, not a Lie subalgebra and not asserted to be closed under the \(\mathfrak e_7\) bracket.
 
 ## Weight-space explanation
 
-The roots not belonging to the \(A_1+D_6\) subsystem pair with \(\beta_k\) by \(\pm1\). Thus their root spaces form copies of the defining \(\mathfrak{sl}_2\)-module. Either \(\pm1\) eigenspace has dimension \(32\), with distinct equal-length \(D_6\) weights, identifying it as a half-spin module.
+The roots not belonging to the \(A_1+D_6\) subsystem pair with \(\beta_k\) by \(\pm1\). Thus their [[lie-groups/root-space|root spaces]] form copies of the defining \(\mathfrak{sl}_2\)-module. Either \(\pm1\) eigenspace has dimension \(32\), with distinct equal-length \(D_6\) weights, identifying it as a half-spin module.
 
 ## Convention for 32
 

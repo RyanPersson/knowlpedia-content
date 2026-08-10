@@ -8,7 +8,7 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]], choose a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\), a root system \(\Phi\), and a base \(\Delta\) of [[lie-groups/simple-root|simple roots]]. For \(I\subseteq\Delta\), put
+Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]], choose a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\), a [[lie-groups/root-system|root system]] \(\Phi\), and a base \(\Delta\) of [[lie-groups/simple-root|simple roots]]. For \(I\subseteq\Delta\), put
 \[
 \Phi_I=\Phi\cap\operatorname{span}_{\mathbb Z}(I).
 \]
@@ -17,11 +17,11 @@ The associated **standard Levi subalgebra** is
 \mathfrak l_I
 =\mathfrak h\oplus\bigoplus_{\alpha\in\Phi_I}\mathfrak g_\alpha.
 \]
-A **Levi subalgebra** of \(\mathfrak g\) is a subalgebra conjugate under an inner automorphism to some \(\mathfrak l_I\).
+A **Levi subalgebra** of \(\mathfrak g\) is a subalgebra conjugate under an [[algebra-groups/inner-automorphism|inner automorphism]] to some \(\mathfrak l_I\).
 
 ## Structure
 
-The Lie algebra \(\mathfrak l_I\) is [[lie-groups/reductive-lie-algebra|reductive]]. Its derived algebra and center are
+The [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak l_I\) is [[lie-groups/reductive-lie-algebra|reductive]]. Its derived algebra and center are
 \[
 [\mathfrak l_I,\mathfrak l_I]
 =\mathfrak h_I\oplus\bigoplus_{\alpha\in\Phi_I}\mathfrak g_\alpha,

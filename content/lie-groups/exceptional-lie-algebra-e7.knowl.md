@@ -10,11 +10,11 @@ section_mode = "progressive"
 
 The **exceptional complex Lie algebra** \(\mathfrak e_7\) is the unique [[lie-groups/simple-lie-algebra|simple complex Lie algebra]] whose [[lie-groups/root-system|root system]] has Dynkin type \(E_7\). It has complex dimension \(133\), rank \(7\), and \(126\) roots.
 
-Its smallest nontrivial irreducible representation is the \(56\)-dimensional minuscule module \(\mathbf{56}\), which admits a nondegenerate invariant alternating form. Its adjoint module is \(\mathbf{133}\).
+Its smallest nontrivial [[algebra-representation-theory/irreducible-representation|irreducible representation]] is the \(56\)-dimensional minuscule module \(\mathbf{56}\), which admits a nondegenerate invariant alternating form. Its adjoint module is \(\mathbf{133}\).
 
 ## Distinguished structure and subalgebras
 
-The \(\mathbf{56}\) may be modeled using the Freudenthal space attached to the exceptional Jordan algebra; in addition to its alternating form it carries an invariant quartic form. Infinitesimal transformations preserving this structure give \(\mathfrak e_7\).
+The \(\mathbf{56}\) may be modeled using the Freudenthal space attached to the [[nonassociative-algebra/exceptional-jordan-algebra|exceptional Jordan algebra]]; in addition to its alternating form it carries an invariant quartic form. Infinitesimal transformations preserving this structure give \(\mathfrak e_7\).
 
 Three useful maximal-rank subalgebras and adjoint branchings are
 \[
@@ -34,7 +34,7 @@ dimensions \(8+35+45+45=133\).
 
 ## Groups and real forms
 
-The simply connected complex group of type \(E_7\) has center of order \(2\), acting nontrivially on \(\mathbf{56}\); the adjoint complex group is its centerless quotient. The compact simply connected real form is [[lie-groups/compact-exceptional-lie-group-e7|compact \(E_7\)]], and the split real form is commonly denoted \(E_{7(7)}\). Statements about the complex Lie algebra alone do not select one of these global or real forms.
+The [[lie-groups/simply-connected-lie-group|simply connected]] complex group of type \(E_7\) has center of order \(2\), acting nontrivially on \(\mathbf{56}\); the adjoint complex group is its centerless quotient. The compact simply connected real form is [[lie-groups/compact-exceptional-lie-group-e7|compact \(E_7\)]], and the split real form is commonly denoted \(E_{7(7)}\). Statements about the complex [[lie-groups/lie-algebra|Lie algebra]] alone do not select one of these global or real forms.
 
 ## Three generations
 
@@ -49,7 +49,7 @@ It identifies a commuting generation-symmetry \(\mathfrak{sl}_3\), three associa
 \oplus V_1\oplus V_2\oplus V_3,
 \qquad \dim V_i=32.
 \]
-Each \(V_i\), under the adjoint action restricted to \(\mathfrak g_{\mathrm{SM}}\), is equivalent to the action on \(\Lambda\mathbb C^5\) describing one generation of fermions and antifermions, including a right-handed neutrino and its antiparticle.
+Each \(V_i\), under the adjoint action restricted to \(\mathfrak g_{\mathrm{SM}}\), is equivalent to the action on \(\Lambda\mathbb C^5\) describing [[mathematical-physics/standard-model-fermion-generation|one generation of fermions]] and antifermions, including a [[mathematical-physics/right-handed-neutrino-gauge-singlet|right-handed neutrino]] and its antiparticle.
 
 ## References
 

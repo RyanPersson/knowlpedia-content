@@ -9,14 +9,14 @@ section_mode = "progressive"
 +++
 
 Let \(J\) be a [[nonassociative-algebra/jordan-algebra|Jordan algebra]]. A
-**derivation** of \(J\) is a linear map \(D:J\to J\) satisfying
+**derivation** of \(J\) is a [[linear-algebra/linear-map|linear map]] \(D:J\to J\) satisfying
 
 \[
 D(x\circ y)=D(x)\circ y+x\circ D(y)
 \qquad(x,y\in J).
 \]
 
-The vector space of all derivations is denoted \(\operatorname{Der}(J)\).
+The [[linear-algebra/vector-space|vector space]] of all derivations is denoted \(\operatorname{Der}(J)\).
 With the commutator bracket
 \([D,E]=D\circ E-E\circ D\), it is a
 [[lie-groups/lie-algebra|Lie algebra]].
@@ -25,7 +25,7 @@ With the commutator bracket
 
 For a finite-dimensional real Jordan algebra, the
 [[nonassociative-algebra/automorphism-group-of-a-jordan-algebra|automorphism
-group]] is a Lie group and
+group]] is a [[fiber-bundles/lie-group|Lie group]] and
 
 \[
 \operatorname{Lie}(\operatorname{Aut}(J))=\operatorname{Der}(J).
@@ -50,7 +50,7 @@ not be confused with the associative-algebra formula \(a\mapsto xa-ax\),
 since the Jordan product itself is commutative.
 
 For finite-dimensional semisimple Jordan algebras over a field of
-characteristic zero, every derivation is inner. In a Euclidean Jordan algebra,
+characteristic zero, every derivation is inner. In a [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]],
 derivations are skew-adjoint for the canonical
 [[nonassociative-algebra/trace-form-of-a-euclidean-jordan-algebra|trace inner
 product]], reflecting compactness of the automorphism group.

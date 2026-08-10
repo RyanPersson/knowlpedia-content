@@ -8,33 +8,33 @@ domains = ["nonassociative-algebra", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(J=H_3(\mathbb O)\) be the compact real Albert algebra. Its automorphism
+Let \(J=H_3(\mathbb O)\) be the compact real [[nonassociative-algebra/exceptional-jordan-algebra|Albert algebra]]. Its automorphism
 group \(F_4\) acts transitively on the set
 \[
 \{B\subset J:B\text{ is a Jordan subalgebra and }B\cong H_3(\mathbb C)\}.
 \]
-Equivalently, every complex-qutrit Jordan subalgebra can be carried to the
+Equivalently, every complex-qutrit [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] can be carried to the
 standard \(H_3(\mathbb C)\subset H_3(\mathbb O)\) by an automorphism of \(J\).
 
 ## Proof mechanism
 
-First use transitivity of \(F_4\) on Jordan frames to arrange that \(B\)
+First use transitivity of \(F_4\) on [[nonassociative-algebra/jordan-frame|Jordan frames]] to arrange that \(B\)
 contains the standard frame. The associated
 [[nonassociative-algebra/albert-algebra-complex-subalgebra-decomposition|three
 octonionic two-planes]] can then be normalized by the pointwise frame
-stabilizer \(\mathrm{Spin}(8)\). Its vector representation makes the first
+stabilizer \(\mathrm{Spin}(8)\). Its [[lie-groups/defining-representation-of-a-classical-lie-algebra|vector representation]] makes the first
 two-plane the standard \(\mathbb C\subset\mathbb O\); the residual
-\(\mathrm{Spin}(6)\cong\mathrm{SU}(4)\) acts transitively on the unit sphere
-in a half-spin representation and normalizes the remaining parameter. The
+\(\mathrm{Spin}(6)\cong\mathrm{SU}(4)\) acts transitively on the [[linear-algebra/unit-sphere|unit sphere]]
+in a [[lie-groups/half-spin-representation|half-spin representation]] and normalizes the remaining parameter. The
 resulting subalgebra is the standard one.
 
 ## Orbit and stabilizer
 
-For a fixed \(B\), the orbit is the homogeneous space
+For a fixed \(B\), the orbit is the [[lie-groups/homogeneous-space|homogeneous space]]
 \[
 F_4/\operatorname{Stab}_{F_4}(B).
 \]
-Its isotropy group is not connected. Only its identity component is
+Its isotropy group is not connected. Only its [[lie-groups/identity-component-of-a-lie-group|identity component]] is
 \((\mathrm{SU}(3)\times\mathrm{SU}(3))/\mu_3\), as described in
 [[nonassociative-algebra/complex-qutrit-stabilizer-in-f4|the complex-qutrit
 stabilizer theorem]].

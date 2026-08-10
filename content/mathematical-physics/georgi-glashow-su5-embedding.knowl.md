@@ -54,7 +54,7 @@ Restricting the natural \(SU(5)\)-action on \(\bigwedge\mathbb C^5\) along \(\Ph
 
 ## Physics scope
 
-Mathematically, this is a group homomorphism and representation extension. The original Georgi–Glashow model additionally interprets \(SU(5)\) as a unified gauge symmetry and introduces dynamics and symmetry breaking; those claims are extra structure.
+Mathematically, this is a [[algebra-groups/group-homomorphism|group homomorphism]] and representation extension. The original Georgi–Glashow model additionally interprets \(SU(5)\) as a unified gauge symmetry and introduces dynamics and symmetry breaking; those claims are extra structure.
 
 ## References
 

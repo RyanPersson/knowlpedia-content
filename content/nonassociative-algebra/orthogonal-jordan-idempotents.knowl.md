@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Two [[nonassociative-algebra/jordan-idempotent|Jordan idempotents]] \(e,f\)
-in a Jordan algebra \(J\) are **orthogonal** when
+in a [[nonassociative-algebra/jordan-algebra|Jordan algebra]] \(J\) are **orthogonal** when
 \[
 e\circ f=0.
 \]
@@ -19,11 +19,11 @@ Their sum is then again an idempotent, because
 ## Euclidean interpretation
 
 In a [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan
-algebra]] with trace inner product
+algebra]] with trace [[linear-algebra/inner-product|inner product]]
 \(\langle x,y\rangle=\operatorname{tr}(x\circ y)\), two idempotents are
 orthogonal in the Jordan sense if and only if they are orthogonal for this
 inner product. For Hermitian matrices this says that the corresponding
-orthogonal projections have mutually orthogonal ranges.
+[[linear-algebra/orthogonal-projection|orthogonal projections]] have mutually orthogonal ranges.
 
 Pairwise orthogonal primitive idempotents which sum to the unit form a
 [[nonassociative-algebra/jordan-frame|Jordan frame]].

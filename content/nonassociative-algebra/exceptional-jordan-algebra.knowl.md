@@ -50,7 +50,7 @@ t^3-\operatorname{tr}_J(X)t^2+s(X)t-\det_J(X).
 
 It is **exceptional** because it cannot be embedded in \(A^+\) for any
 associative algebra \(A\). Over \(\mathbb R\) it is the unique exceptional
-simple Euclidean Jordan algebra. Other fields and other real forms admit
+[[nonassociative-algebra/simple-euclidean-jordan-algebra|simple Euclidean Jordan algebra]]. Other fields and other real forms admit
 Albert algebras with different behavior, so this knowl concerns the compact
 Euclidean real form.
 

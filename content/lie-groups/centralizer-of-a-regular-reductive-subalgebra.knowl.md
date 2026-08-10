@@ -8,7 +8,7 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] with Cartan subalgebra \(\mathfrak h\) and root-space decomposition
+Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] with [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\) and root-space decomposition
 \[
 \mathfrak g=\mathfrak h\oplus\bigoplus_{\alpha\in\Phi}\mathfrak g_\alpha.
 \]
@@ -43,7 +43,7 @@ Assume \(\Phi\) is [[lie-groups/simply-laced-root-system|simply laced]]. Because
 \Omega=\{\beta\in\Phi:\beta|_{\mathfrak t}=0\}.
 \]
 
-Using the [[lie-groups/killing-form|Killing form]] to identify \(\mathfrak h\) and \(\mathfrak h^*\), this says: retain the Cartan directions orthogonal to the root span of \(\mathfrak k\), and retain exactly those ambient root spaces whose roots are orthogonal to the entire toral part \(\mathfrak t\).
+Using the [[lie-groups/killing-form|Killing form]] to identify \(\mathfrak h\) and \(\mathfrak h^*\), this says: retain the Cartan directions orthogonal to the root span of \(\mathfrak k\), and retain exactly those ambient [[lie-groups/root-space|root spaces]] whose roots are orthogonal to the entire toral part \(\mathfrak t\).
 
 ## Why the toral part matters
 
@@ -51,7 +51,7 @@ If \(\mathfrak k\) has a nontrivial center, then \(\mathfrak t\) can be strictly
 
 ## Non-simply-laced caution
 
-In a non-simply-laced root system, two orthogonal roots can have a sum that is a root. The bracket condition in the definition of \(\Omega\) must then be checked explicitly; orthogonality alone is insufficient.
+In a non-simply-laced [[lie-groups/root-system|root system]], two orthogonal roots can have a sum that is a root. The bracket condition in the definition of \(\Omega\) must then be checked explicitly; orthogonality alone is insufficient.
 
 ## References
 

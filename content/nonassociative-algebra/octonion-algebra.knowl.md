@@ -12,7 +12,7 @@ The **octonion algebra** \(\mathbb O\) is the eight-dimensional [[nonassociative
 
 ## A multiplication table from the Fano plane
 
-As a real vector space,
+As a real [[linear-algebra/vector-space|vector space]],
 \[
  \mathbb O=\mathbb R1\oplus\bigoplus_{i=1}^{7}\mathbb R e_i,
  \qquad e_i^2=-1.
@@ -29,7 +29,7 @@ Then \(xx^*=x^*x=\lVert x\rVert^2 1\), where \(\lVert x\rVert^2=\sum_{i=0}^7x_i^
 
 ## Exceptional symmetry
 
-The real algebra automorphism group of \(\mathbb O\) is the [[lie-groups/compact-exceptional-lie-group-g2|compact exceptional Lie group \(G_2\)]], whose Lie algebra is [[lie-groups/exceptional-lie-algebra-g2|\(\mathfrak g_2\)]]. Choosing an embedded copy of \(\mathbb C\) reduces this symmetry to the [[nonassociative-algebra/su3-stabilizer-of-a-complex-octonion-subalgebra|pointwise stabilizer \(SU(3)\)]]. The octonions also form the coefficient algebra for the [[nonassociative-algebra/exceptional-jordan-algebra|exceptional Jordan algebra]].
+The real algebra automorphism group of \(\mathbb O\) is the [[lie-groups/compact-exceptional-lie-group-g2|compact exceptional Lie group \(G_2\)]], whose [[lie-groups/lie-algebra|Lie algebra]] is [[lie-groups/exceptional-lie-algebra-g2|\(\mathfrak g_2\)]]. Choosing an embedded copy of \(\mathbb C\) reduces this symmetry to the [[nonassociative-algebra/su3-stabilizer-of-a-complex-octonion-subalgebra|pointwise stabilizer \(SU(3)\)]]. The octonions also form the coefficient algebra for the [[nonassociative-algebra/exceptional-jordan-algebra|exceptional Jordan algebra]].
 
 ## Convention warning
 

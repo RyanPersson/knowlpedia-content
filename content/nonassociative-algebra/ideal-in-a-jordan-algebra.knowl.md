@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(J\) be a [[nonassociative-algebra/jordan-algebra|Jordan algebra]]. An
-**ideal** of \(J\) is a linear subspace \(I\subseteq J\) such that
+**ideal** of \(J\) is a [[convex-analysis/linear-subspace|linear subspace]] \(I\subseteq J\) such that
 
 \[
 x\circ y\in I
@@ -22,7 +22,7 @@ and right-ideal conditions are needed.
 
 ## Quotients and kernels
 
-The quotient vector space \(J/I\) has the well-defined Jordan product
+The quotient [[linear-algebra/vector-space|vector space]] \(J/I\) has the well-defined Jordan product
 
 \[
 (x+I)\circ(y+I)=x\circ y+I.

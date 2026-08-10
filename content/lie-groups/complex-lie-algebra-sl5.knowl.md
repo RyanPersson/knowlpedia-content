@@ -19,11 +19,11 @@ of dimensions \(5,10,10,5\). After choosing a volume form, the last two are dual
 
 ## Root data
 
-For the diagonal Cartan subalgebra, the roots are \(\varepsilon_i-\varepsilon_j\) for \(i\ne j\). The simple roots \(\varepsilon_i-\varepsilon_{i+1}\), \(1\leq i\leq4\), give the four-node chain \(A_4\). The Weyl group is the symmetric group \(S_5\), acting by permuting the diagonal coordinates.
+For the diagonal [[lie-groups/cartan-subalgebra|Cartan subalgebra]], the roots are \(\varepsilon_i-\varepsilon_j\) for \(i\ne j\). The [[lie-groups/simple-root|simple roots]] \(\varepsilon_i-\varepsilon_{i+1}\), \(1\leq i\leq4\), give the four-node chain \(A_4\). The [[lie-groups/weyl-group|Weyl group]] is the symmetric group \(S_5\), acting by permuting the diagonal coordinates.
 
 ## Groups and real forms
 
-The simply connected complex group is \(SL(5,\mathbb C)\), whose center is \(\mu_5\); its adjoint quotient is \(PSL(5,\mathbb C)\). The compact real form integrates to \(SU(5)\). The finite-dimensional complex representations of the compact and complex forms share the same highest-weight classification, but the groups and their real Lie algebras are different objects.
+The [[lie-groups/simply-connected-lie-group|simply connected]] complex group is \(SL(5,\mathbb C)\), whose center is \(\mu_5\); its adjoint quotient is \(PSL(5,\mathbb C)\). The [[lie-groups/compact-real-form|compact real form]] integrates to \(SU(5)\). The finite-dimensional complex representations of the compact and complex forms share the same highest-weight classification, but the groups and their real [[lie-groups/lie-algebra|Lie algebras]] are different objects.
 
 ## Paper context
 
@@ -31,13 +31,13 @@ The block-diagonal subgroup
 \[
 S(U(2)\times U(3))\subset SU(5)
 \]
-is isomorphic to \((U(1)\times SU(2)\times SU(3))/\mathbb Z_6\). Restricting the \(32\)-dimensional exterior algebra \(\Lambda\mathbb C^5\) to this subgroup gives one Standard Model generation together with antiparticles and a right-handed neutrino.
+is isomorphic to \((U(1)\times SU(2)\times SU(3))/\mathbb Z_6\). Restricting the \(32\)-dimensional [[algebra-modules/exterior-algebra|exterior algebra]] \(\Lambda\mathbb C^5\) to this subgroup gives one Standard Model generation together with antiparticles and a [[mathematical-physics/right-handed-neutrino-gauge-singlet|right-handed neutrino]].
 
-In the three-generation construction, a unique compatible copy of \(\mathfrak{sl}_5\) fits into
+In the three-generation construction, a unique compatible copy of \(\mathfrak{sl}_5\) fits into a chain through the [[lie-groups/complex-lie-algebra-sl6|complex Lie algebra \(\mathfrak{sl}_6\)]] and the [[lie-groups/exceptional-lie-algebra-e7|exceptional Lie algebra \(\mathfrak e_7\)]]:
 \[
 \mathfrak g_{\mathrm{SM}}\subset\mathfrak{sl}_5
-\subset [[lie-groups/complex-lie-algebra-sl6|\mathfrak{sl}_6]]
-\subset [[lie-groups/exceptional-lie-algebra-e7|\mathfrak e_7]].
+\subset\mathfrak{sl}_6
+\subset\mathfrak e_7.
 \]
 This is also the \(A_4\) term of the regular-subalgebra chain summarized by the [[lie-groups/en-series-of-lie-algebras|\(E_n\) series]].
 

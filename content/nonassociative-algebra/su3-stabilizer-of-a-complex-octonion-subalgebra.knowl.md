@@ -16,7 +16,7 @@ that fixes \(i\), equivalently fixes \(\mathbb C_i\) pointwise, is isomorphic to
 
 ## The defining representation
 
-The orthogonal complement \(\mathbb C_i^\perp\subset\mathbb O\) is a complex three-dimensional vector space. In the multiplication convention used by the [[nonassociative-algebra/octonions-as-complex-vectors|complex-vector model]], its complex structure is right multiplication by \(i\). Under an identification \(\mathbb C_i^\perp\cong\mathbb C^3\), the stabilizer acts by the defining representation of \(SU(3)\). This gives the orthogonal splitting
+The [[linear-algebra/orthogonal-complement|orthogonal complement]] \(\mathbb C_i^\perp\subset\mathbb O\) is a complex three-dimensional [[linear-algebra/vector-space|vector space]]. In the multiplication convention used by the [[nonassociative-algebra/octonions-as-complex-vectors|complex-vector model]], its complex structure is right multiplication by \(i\). Under an identification \(\mathbb C_i^\perp\cong\mathbb C^3\), the stabilizer acts by the defining representation of \(SU(3)\). This gives the orthogonal splitting
 \[
  \mathbb O\cong\mathbb C_i\oplus\mathbb C_i^\perp
  \cong\mathbb C\oplus\mathbb C^3
@@ -33,11 +33,11 @@ is consequently by algebra automorphisms and is trivial on \(\mathbb C_i\).
 
 ## Homogeneous-space interpretation
 
-The compact group \(G_2\) acts transitively on the unit sphere in \(\operatorname{Im}(\mathbb O)\cong\mathbb R^7\). Since the stabilizer of a unit imaginary octonion is \(SU(3)\),
+The compact group \(G_2\) acts transitively on the [[linear-algebra/unit-sphere|unit sphere]] in \(\operatorname{Im}(\mathbb O)\cong\mathbb R^7\). Since the stabilizer of a unit imaginary octonion is \(SU(3)\),
 \[
  G_2/SU(3)\cong S^6.
 \]
-At the Lie-algebra level, the stabilizer has Lie algebra \(\mathfrak{su}(3)\) inside the [[lie-groups/exceptional-lie-algebra-g2|exceptional Lie algebra \(\mathfrak g_2\)]].
+At the Lie-algebra level, the stabilizer has [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{su}(3)\) inside the [[lie-groups/exceptional-lie-algebra-g2|exceptional Lie algebra \(\mathfrak g_2\)]].
 
 ## Pointwise versus setwise stabilizer
 

@@ -8,7 +8,7 @@ domains = ["lie-groups", "mathematical-physics"]
 section_mode = "progressive"
 +++
 
-Let \(\Phi\subset V\) be the \(E_7\) root system, let \(A\subset\Phi\) be the \(A_2\) root system of the [[lie-groups/generation-sl3-in-e7|generation \(\mathfrak{sl}_3\)]], let \(P=\operatorname{span}_{\mathbb R}A\), and let \(\pi:V\to P\) be orthogonal projection. If \(w_1,w_2,w_3\) are the defining \(A_2\) weights, then every \(r\in\Phi\) satisfies
+Let \(\Phi\subset V\) be the \(E_7\) [[lie-groups/root-system|root system]], let \(A\subset\Phi\) be the \(A_2\) root system of the [[lie-groups/generation-sl3-in-e7|generation \(\mathfrak{sl}_3\)]], let \(P=\operatorname{span}_{\mathbb R}A\), and let \(\pi:V\to P\) be [[linear-algebra/orthogonal-projection|orthogonal projection]]. If \(w_1,w_2,w_3\) are the defining \(A_2\) weights, then every \(r\in\Phi\) satisfies
 \[
 \pi(r)\in
 \{0\}\;\sqcup\;
@@ -25,7 +25,7 @@ For every \(\delta\in A\), integrality of Cartan integers gives
 \(\langle\pi(r),\delta\rangle=\langle r,\delta\rangle\in\mathbb Z\). Hence \(\pi(r)\) lies in the [[lie-groups/weight-lattice|\(A_2\) weight lattice]]. With \(E_7\) roots normalized to squared length \(2\), orthogonal projection gives
 \(\lVert\pi(r)\rVert^2\le 2\). The weight-lattice vectors within this bound are precisely zero, the six vectors \(\pm w_i\) of squared length \(2/3\), and the six roots of squared length \(2\).
 
-Equality of lengths forces \(r=\pi(r)\in P\). The only rank-two [[lie-groups/simply-laced-root-system|simply laced]] root subsystem containing \(A_2\) is \(A_2\), proving the final equivalence.
+Equality of lengths forces \(r=\pi(r)\in P\). The only rank-two [[lie-groups/simply-laced-root-system|simply laced]] [[lie-groups/root-subsystem|root subsystem]] containing \(A_2\) is \(A_2\), proving the final equivalence.
 
 ## The induced partition
 

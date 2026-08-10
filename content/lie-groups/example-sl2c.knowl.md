@@ -41,13 +41,13 @@ For every integer \(m\geq 0\), the symmetric power
 \[
 \operatorname{Sym}^m(\mathbb C^2)
 \]
-is the irreducible highest-weight module of highest weight \(m\) and dimension \(m+1\). Every finite-dimensional irreducible \(\mathfrak{sl}_2(\mathbb C)\)-module is obtained this way. In particular, \(\operatorname{Sym}^2(\mathbb C^2)\) is the three-dimensional adjoint module.
+is the irreducible highest-weight module of [[lie-groups/highest-weight|highest weight]] \(m\) and dimension \(m+1\). Every finite-dimensional irreducible \(\mathfrak{sl}_2(\mathbb C)\)-module is obtained this way. In particular, \(\operatorname{Sym}^2(\mathbb C^2)\) is the three-dimensional adjoint module.
 
-The \(E,F,H\) relations occur inside every complex semisimple Lie algebra: the root spaces for a root \(\alpha\) and \(-\alpha\), together with the coroot, generate an \(\mathfrak{sl}_2\)-subalgebra. This is why rank-one calculations control root strings and much of [[lie-groups/highest-weight-representation|highest-weight representation]] theory.
+The \(E,F,H\) relations occur inside every complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]]: the [[lie-groups/root-space|root spaces]] for a root \(\alpha\) and \(-\alpha\), together with the coroot, generate an \(\mathfrak{sl}_2\)-subalgebra. This is why rank-one calculations control root strings and much of [[lie-groups/highest-weight-representation|highest-weight representation]] theory.
 
 ## Groups and real forms
 
-The connected simply connected complex Lie group with this Lie algebra is \(SL(2,\mathbb C)\); its adjoint quotient is \(PSL(2,\mathbb C)=SL(2,\mathbb C)/\{\pm I\}\). These complex groups should not be confused with real forms having the same complexification. The compact real form is \(\mathfrak{su}(2)\), while the split real form is \(\mathfrak{sl}_2(\mathbb R)\). As a real Lie algebra, \(\mathfrak{sl}_2(\mathbb C)\) has real dimension \(6\) and is isomorphic to \(\mathfrak{so}(1,3)\).
+The connected [[lie-groups/simply-connected-lie-group|simply connected]] [[lie-groups/complex-lie-group|complex Lie group]] with this Lie algebra is \(SL(2,\mathbb C)\); its adjoint quotient is \(PSL(2,\mathbb C)=SL(2,\mathbb C)/\{\pm I\}\). These complex groups should not be confused with real forms having the same complexification. The [[lie-groups/compact-real-form|compact real form]] is \(\mathfrak{su}(2)\), while the split real form is \(\mathfrak{sl}_2(\mathbb R)\). As a real Lie algebra, \(\mathfrak{sl}_2(\mathbb C)\) has real dimension \(6\) and is isomorphic to \(\mathfrak{so}(1,3)\).
 
 ## Role in the E7 three-generation construction
 
@@ -60,7 +60,7 @@ In the three-generation construction, three distinguished \(\mathfrak{sl}_2\)-su
 \]
 where \(\mathbf 3\) and \(\mathbf{66}\) are the adjoint modules of
 \(\mathfrak{sl}_2\) and \(\mathfrak{so}_{12}\), respectively, and
-\(\mathbf{32}\) is a half-spin module.
+\(\mathbf{32}\) is a [[lie-groups/half-spin-representation|half-spin module]].
 
 ## References
 

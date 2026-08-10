@@ -8,7 +8,7 @@ domains = ["nonassociative-algebra"]
 section_mode = "continuous"
 +++
 
-Nonassociative algebra studies vector spaces with bilinear multiplication
+Nonassociative algebra studies [[linear-algebra/vector-space|vector spaces]] with bilinear multiplication
 without assuming the associative law. This section develops the structures
 needed for the octonions, Jordan algebras, and their exceptional symmetry
 groups, from general definitions through the Albert algebra and Peirce theory.
@@ -31,7 +31,7 @@ groups, from general definitions through the Albert algebra and Peirce theory.
 
 ## Exceptional structures
 
-The automorphism group of the octonions is the [[lie-groups/compact-exceptional-lie-group-g2|compact exceptional Lie group \(G_2\)]], with Lie algebra [[lie-groups/exceptional-lie-algebra-g2|\(\mathfrak g_2\)]]. Octonions also supply the entries of the exceptional Jordan algebra.
+The automorphism group of the octonions is the [[lie-groups/compact-exceptional-lie-group-g2|compact exceptional Lie group \(G_2\)]], with [[lie-groups/lie-algebra|Lie algebra]] [[lie-groups/exceptional-lie-algebra-g2|\(\mathfrak g_2\)]]. Octonions also supply the entries of the exceptional Jordan algebra.
 
 ### Jordan-algebra foundations
 

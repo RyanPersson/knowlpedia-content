@@ -8,7 +8,7 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(\mathfrak g\) be a complex semisimple Lie algebra with
+Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] with
 [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\), and let
 \(\alpha\) be a [[lie-groups/root-lie-algebra|root]]. Choose nonzero root
 vectors \(e_\alpha\in\mathfrak g_\alpha\) and
@@ -43,7 +43,7 @@ resulting subalgebra.
 
 Restricting the [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint
 representation]] of \(\mathfrak g\) to \(\mathfrak s_\alpha\) organizes roots
-into finite \(\alpha\)-strings. On a root space \(\mathfrak g_\beta\), the
+into finite \(\alpha\)-strings. On a [[lie-groups/root-space|root space]] \(\mathfrak g_\beta\), the
 element \(h_\alpha\) acts with integral weight
 \[
 \beta(h_\alpha)=\langle\beta,\alpha^\vee\rangle.
@@ -51,7 +51,7 @@ element \(h_\alpha\) acts with integral weight
 The raising and lowering operators \(e_\alpha\) and \(f_\alpha\) move between
 the root spaces indexed by \(\beta+\alpha\) and \(\beta-\alpha\) whenever
 those are roots. This rank-one representation theory is the source of the
-integrality and root-string restrictions in a crystallographic root system.
+integrality and root-string restrictions in a crystallographic [[lie-groups/root-system|root system]].
 
 ## Scope
 

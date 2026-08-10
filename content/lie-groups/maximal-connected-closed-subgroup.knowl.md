@@ -8,7 +8,7 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. A **maximal connected closed subgroup** is a proper subgroup \(H<G\) that is connected and closed, and for which every connected closed subgroup \(K\) satisfying
+Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. A **maximal connected closed subgroup** is a [[algebra-groups/proper-subgroup|proper subgroup]] \(H<G\) that is connected and closed, and for which every connected closed subgroup \(K\) satisfying
 \[
 H\subseteq K\subseteq G
 \]
@@ -28,7 +28,7 @@ For the [[lie-groups/compact-exceptional-lie-group-f4|compact exceptional group 
 \qquad\text{and}\qquad
 \bigl(SU(3)\times SU(3)\bigr)/\mathbb Z_3
 \]
-occur as maximal connected closed subgroups. In the exceptional-Jordan-algebra model, the second is the identity component of the stabilizer of a copy of \(\mathfrak h_3(\mathbb C)\). Its full stabilizer is disconnected, illustrating why connected maximality and unrestricted closed maximality differ.
+occur as maximal connected closed subgroups. In the exceptional-Jordan-algebra model, the second is the [[lie-groups/identity-component-of-a-lie-group|identity component]] of the stabilizer of a copy of \(\mathfrak h_3(\mathbb C)\). Its full stabilizer is disconnected, illustrating why connected maximality and unrestricted closed maximality differ.
 
 ## References
 

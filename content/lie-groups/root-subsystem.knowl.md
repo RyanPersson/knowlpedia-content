@@ -8,7 +8,7 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(\Phi\) be a [[lie-groups/root-system|root system]] in a Euclidean space \(V\). A subset \(\Psi\subseteq\Phi\) is a **root subsystem** if \(\Psi\) is itself a root system in \(\operatorname{span}_{\mathbb R}(\Psi)\) with the induced inner product. Equivalently, \(\Psi\) spans its ambient subspace and
+Let \(\Phi\) be a [[lie-groups/root-system|root system]] in a [[linear-algebra/euclidean-space|Euclidean space]] \(V\). A subset \(\Psi\subseteq\Phi\) is a **root subsystem** if \(\Psi\) is itself a root system in \(\operatorname{span}_{\mathbb R}(\Psi)\) with the induced [[linear-algebra/inner-product|inner product]]. Equivalently, \(\Psi\) spans its ambient subspace and
 \[
 s_\alpha(\Psi)=\Psi
 \qquad\text{for every }\alpha\in\Psi,
@@ -28,7 +28,7 @@ If \(I\) is a subset of a chosen base \(\Delta\) of [[lie-groups/simple-root|sim
 \Phi_I:=\Phi\cap\operatorname{span}_{\mathbb Z}(I)
 =\Phi\cap\operatorname{span}_{\mathbb R}(I)
 \]
-is a full closed subsystem. Its Dynkin diagram is obtained by retaining the vertices in \(I\) and the edges between them.
+is a full closed subsystem. Its [[lie-groups/dynkin-diagram|Dynkin diagram]] is obtained by retaining the vertices in \(I\) and the edges between them.
 
 ## Lie-algebra interpretation
 
@@ -36,7 +36,7 @@ For a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] with 
 \[
 \mathfrak g=\mathfrak h\oplus\bigoplus_{\alpha\in\Phi}\mathfrak g_\alpha,
 \]
-closed subsystems select collections of root spaces that can participate in [[lie-groups/regular-lie-subalgebra|regular subalgebras]]. The subsystem \(\Phi_I\) gives the semisimple part of the [[lie-groups/levi-subalgebra|Levi subalgebra]] attached to \(I\).
+closed subsystems select collections of [[lie-groups/root-space|root spaces]] that can participate in [[lie-groups/regular-lie-subalgebra|regular subalgebras]]. The subsystem \(\Phi_I\) gives the semisimple part of the [[lie-groups/levi-subalgebra|Levi subalgebra]] attached to \(I\).
 
 ## References
 

@@ -24,7 +24,7 @@ Its [[lie-groups/lie-algebra|Lie algebra]] is
 \operatorname{tr}X+\operatorname{tr}Y=0\}.
 \]
 It is isomorphic as a real Lie algebra to
-\(\mathfrak u(1)\oplus\mathfrak{su}(p)\oplus\mathfrak{su}(q)\), although the corresponding connected Lie group need not be the direct product.
+\(\mathfrak u(1)\oplus\mathfrak{su}(p)\oplus\mathfrak{su}(q)\), although the corresponding [[lie-groups/connected-lie-group|connected Lie group]] need not be the direct product.
 
 ## Central-quotient presentation
 

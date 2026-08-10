@@ -10,19 +10,19 @@ section_mode = "progressive"
 
 The **exceptional complex Lie algebra** \(\mathfrak e_6\) is the unique [[lie-groups/simple-lie-algebra|simple complex Lie algebra]] whose [[lie-groups/root-system|root system]] has Dynkin type \(E_6\). It has complex dimension \(78\), rank \(6\), and \(72\) roots.
 
-Its two dual \(27\)-dimensional minuscule modules \(\mathbf{27}\) and \(\mathbf{27}^*\) are its smallest nontrivial irreducible representations. Its [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint representation]] is \(\mathbf{78}\).
+Its two dual \(27\)-dimensional minuscule modules \(\mathbf{27}\) and \(\mathbf{27}^*\) are its smallest nontrivial [[algebra-representation-theory/irreducible-representation|irreducible representations]]. Its [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint representation]] is \(\mathbf{78}\).
 
 ## Jordan-algebra realization
 
-Let \(J_{\mathbb C}=H_3(\mathbb O)\otimes_{\mathbb R}\mathbb C\) be the complexified exceptional Jordan algebra. It is \(27\)-dimensional and carries a cubic determinant. The Lie algebra \(\mathfrak e_6\) can be realized as the infinitesimal determinant-preserving linear transformations of \(J_{\mathbb C}\). This realizes \(J_{\mathbb C}\) as a \(\mathbf{27}\), and its trace dual as \(\mathbf{27}^*\).
+Let \(J_{\mathbb C}=H_3(\mathbb O)\otimes_{\mathbb R}\mathbb C\) be the complexified [[nonassociative-algebra/exceptional-jordan-algebra|exceptional Jordan algebra]]. It is \(27\)-dimensional and carries a cubic determinant. The [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak e_6\) can be realized as the infinitesimal determinant-preserving linear transformations of \(J_{\mathbb C}\). This realizes \(J_{\mathbb C}\) as a \(\mathbf{27}\), and its trace dual as \(\mathbf{27}^*\).
 
 ## Groups and real forms
 
-The simply connected complex group of type \(E_6\) has center \(\mu_3\); its adjoint quotient is centerless. The compact simply connected real form is [[lie-groups/compact-exceptional-lie-group-e6|compact \(E_6\)]]. Other real forms include the split form \(E_{6(6)}\) and the real form \(E_{6(-26)}\) acting as determinant-preserving transformations of the real Albert algebra. These groups share a complexified Lie algebra but are not interchangeable.
+The [[lie-groups/simply-connected-lie-group|simply connected]] complex group of type \(E_6\) has center \(\mu_3\); its adjoint quotient is centerless. The compact simply connected real form is [[lie-groups/compact-exceptional-lie-group-e6|compact \(E_6\)]]. Other real forms include the split form \(E_{6(6)}\) and the real form \(E_{6(-26)}\) acting as determinant-preserving transformations of the real Albert algebra. These groups share a [[lie-groups/complexification-of-a-real-lie-algebra|complexified Lie algebra]] but are not interchangeable.
 
 ## Branching and paper context
 
-Deleting an end node from the \(E_6\) Dynkin diagram gives a regular subalgebra \(\mathfrak{so}_{10}\oplus\mathbb C\). With one common charge normalization,
+Deleting an end node from the \(E_6\) [[lie-groups/dynkin-diagram|Dynkin diagram]] gives a regular subalgebra \(\mathfrak{so}_{10}\oplus\mathbb C\). With one common charge normalization,
 \[
 \mathbf{27}\cong\mathbf1_{4}\oplus\mathbf{10}_{-2}\oplus\mathbf{16}_{1},
 \]

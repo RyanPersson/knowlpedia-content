@@ -26,7 +26,7 @@ The [[lie-groups/dynkin-diagram|Dynkin diagram]] is a chain that forks into two 
 
 ## Lie-algebra realization
 
-Type \(D_n\) is the root system of the complex [[lie-groups/orthogonal-lie-algebra|orthogonal Lie algebra]]
+Type \(D_n\) is the [[lie-groups/root-system|root system]] of the complex [[lie-groups/orthogonal-lie-algebra|orthogonal Lie algebra]]
 \[
 \mathfrak{so}_{2n}(\mathbb C),
 \]

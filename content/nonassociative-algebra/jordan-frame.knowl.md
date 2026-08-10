@@ -29,13 +29,13 @@ Jordan algebra]] \(H_n(\mathbb K)\), the diagonal matrix units
 E_{11},E_{22},\ldots,E_{nn}
 \]
 form the standard Jordan frame. A frame is the Jordan-algebraic analogue of
-an orthonormal basis of rank-one projections.
+an [[linear-algebra/orthonormal-basis|orthonormal basis]] of rank-one projections.
 
 ## Why labels matter
 
 An automorphism can fix every \(e_i\), or merely preserve the frame as an
 unordered set while permuting its members. These are different stabilizer
-conventions. For the Albert algebra, the pointwise stabilizer of a labelled
+conventions. For the [[nonassociative-algebra/exceptional-jordan-algebra|Albert algebra]], the pointwise stabilizer of a labelled
 frame is \(\mathrm{Spin}(8)\), whereas the setwise stabilizer can additionally
 permute the three idempotents; see
 [[nonassociative-algebra/spin8-stabilizer-of-an-albert-algebra-frame|the

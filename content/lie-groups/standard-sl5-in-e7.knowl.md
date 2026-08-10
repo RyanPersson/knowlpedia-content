@@ -8,7 +8,7 @@ domains = ["lie-groups", "mathematical-physics"]
 section_mode = "progressive"
 +++
 
-For a good embedded Standard Model Lie algebra and its [[lie-groups/standard-sl6-in-e7|standard \(\mathfrak{sl}_6\)]], there is a unique Lie subalgebra \(\mathfrak s\cong\mathfrak{sl}_5(\mathbb C)\) such that
+For a good embedded [[mathematical-physics/standard-model-lie-algebra|Standard Model Lie algebra]] and its [[lie-groups/standard-sl6-in-e7|standard \(\mathfrak{sl}_6\)]], there is a unique [[lie-groups/lie-subalgebra|Lie subalgebra]] \(\mathfrak s\cong\mathfrak{sl}_5(\mathbb C)\) such that
 \[
 \mathfrak g_{\mathrm{SM}}
 \subset\mathfrak s
@@ -27,7 +27,7 @@ is a chain, not a direct-sum decomposition.
 
 ## Root-system construction
 
-Let \(\mathfrak h_{\mathrm{SM}}\) be the Cartan subalgebra of the regular \(\mathfrak g_{\mathrm{SM}}\), and let \(U\) be its real form in the \(E_7\) root space. The roots in \(\Phi(E_7)\cap U\) form an \(A_4\) subsystem of \(20\) roots, hence define a regular copy of [[lie-groups/complex-lie-algebra-sl5|\(\mathfrak{sl}_5\)]]. Since \(U\perp P\), this subsystem lies in the \(A_5\) roots of \(\mathfrak{sl}_6^{\mathrm{SM}}\).
+Let \(\mathfrak h_{\mathrm{SM}}\) be the [[lie-groups/cartan-subalgebra|Cartan subalgebra]] of the regular \(\mathfrak g_{\mathrm{SM}}\), and let \(U\) be its real form in the \(E_7\) root space. The roots in \(\Phi(E_7)\cap U\) form an \(A_4\) subsystem of \(20\) roots, hence define a regular copy of [[lie-groups/complex-lie-algebra-sl5|\(\mathfrak{sl}_5\)]]. Since \(U\perp P\), this subsystem lies in the \(A_5\) roots of \(\mathfrak{sl}_6^{\mathrm{SM}}\).
 
 ## Why uniqueness does not require regularity
 
@@ -37,7 +37,7 @@ View the defining module of \(\mathfrak{sl}_6^{\mathrm{SM}}\) as \(\mathbb C^6\)
 \qquad \dim W=5,
 \qquad \dim L=1,
 \]
-with \(W\) the defining module and \(L\) trivial. Under \(\mathfrak g_{\mathrm{SM}}\), the [[lie-groups/fixed-vector-subspace|fixed-vector subspace]] of the defining \(\mathbb C^6\) is exactly one line, so \(L\) is forced. The remaining irreducible \(3\)- and \(2\)-dimensional Standard Model summands admit no equivariant map to \(L\), so their invariant complement \(W\), and hence the embedded \(\mathfrak{sl}(W)\), are forced as well.
+with \(W\) the defining module and \(L\) trivial. Under \(\mathfrak g_{\mathrm{SM}}\), the [[lie-groups/fixed-vector-subspace|fixed-vector subspace]] of the defining \(\mathbb C^6\) is exactly one line, so \(L\) is forced. The remaining irreducible \(3\)- and \(2\)-dimensional Standard Model summands admit no [[fiber-bundles/equivariant-map|equivariant map]] to \(L\), so their invariant complement \(W\), and hence the embedded \(\mathfrak{sl}(W)\), are forced as well.
 
 ## Physical representation-theory role
 

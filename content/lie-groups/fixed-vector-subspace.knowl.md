@@ -26,11 +26,11 @@ V^G=\bigcap_{g\in G}\ker(\rho(g)-I),
 \qquad
 V^{\mathfrak g}=\bigcap_{X\in\mathfrak g}\ker(d\rho(X)).
 \]
-Equivalently, \(V^G\) is naturally the space \(\operatorname{Hom}_G(\mathbf1,V)\) of equivariant maps from the trivial one-dimensional representation. Thus \(\dim V^G\) is the [[lie-groups/multiplicity-of-an-irreducible-representation|multiplicity]] of the trivial representation whenever \(V\) is completely reducible.
+Equivalently, \(V^G\) is naturally the space \(\operatorname{Hom}_G(\mathbf1,V)\) of [[fiber-bundles/equivariant-map|equivariant maps]] from the trivial one-dimensional representation. Thus \(\dim V^G\) is the [[lie-groups/multiplicity-of-an-irreducible-representation|multiplicity]] of the trivial representation whenever \(V\) is completely reducible.
 
 ## Compact-group averaging
 
-If \(G\) is compact and \(V\) is a continuous finite-dimensional representation, normalized Haar measure defines the Reynolds projection
+If \(G\) is compact and \(V\) is a continuous finite-dimensional representation, normalized [[harmonic-analysis/haar-measure|Haar measure]] defines the Reynolds projection
 \[
 P(v)=\int_G\rho(g)v\,dg.
 \]
@@ -42,7 +42,7 @@ Every group-fixed vector is fixed infinitesimally. If \(G\) is connected, then
 \[
 V^G=V^{\mathfrak g}.
 \]
-For disconnected \(G\), the equality can fail because \(V^{\mathfrak g}\) only records invariance under the identity component. The remaining component group may act nontrivially on \(V^{\mathfrak g}\).
+For disconnected \(G\), the equality can fail because \(V^{\mathfrak g}\) only records invariance under the [[lie-groups/identity-component-of-a-lie-group|identity component]]. The remaining component group may act nontrivially on \(V^{\mathfrak g}\).
 
 The term “invariant vector” means a fixed vector. It should not be confused with an invariant subspace, whose individual vectors may move within that subspace.
 

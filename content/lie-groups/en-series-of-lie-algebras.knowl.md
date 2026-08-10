@@ -33,7 +33,7 @@ A compatible choice of roots gives a chain of [[lie-groups/semisimple-lie-algebr
 \subset\mathfrak e_7
 \subset\mathfrak e_8.
 \]
-Combinatorially, successive terms are obtained by adding a node to a compatible Dynkin diagram, or in the reverse direction by deleting an appropriate node. The inclusions are additional structure: an abstract isomorphism class named in the table does not by itself select a particular embedded copy in the next algebra.
+Combinatorially, successive terms are obtained by adding a node to a compatible [[lie-groups/dynkin-diagram|Dynkin diagram]], or in the reverse direction by deleting an appropriate node. The inclusions are additional structure: an abstract isomorphism class named in the table does not by itself select a particular embedded copy in the next algebra.
 
 Useful adjacent branching patterns include
 \[
@@ -46,13 +46,13 @@ Useful adjacent branching patterns include
 \oplus(\mathbf{56},\mathbf2).
 \end{aligned}
 \]
-Charge signs and the labeling of dual spin modules depend on conventions.
+Charge signs and the labeling of dual [[differential-geometry/spinor-module|spin modules]] depend on conventions.
 
 ## Lower indices and convention warning
 
 Extensions below \(E_3\) are not uniform across the literature. A common convention sets \(E_2\) to \(A_1\) plus a one-dimensional abelian algebra and \(E_1=A_1\), but other contexts use different global groups, real forms, or extra \(U(1)\) factors. For this reason, a bare symbol \(E_n\) with \(n<6\) should be accompanied by an explicit algebra or group.
 
-The table concerns **complex Lie algebras**. Compact group versions require choices of global form and sometimes finite central quotients; one cannot recover those choices from a Dynkin diagram alone.
+The table concerns **complex Lie algebras**. Compact group versions require choices of global form and sometimes finite [[lie-groups/central-quotient-of-a-lie-group|central quotients]]; one cannot recover those choices from a Dynkin diagram alone.
 
 ## Paper context
 

@@ -8,7 +8,7 @@ domains = ["nonassociative-algebra"]
 section_mode = "progressive"
 +++
 
-A **real normed division algebra** is a finite-dimensional unital [[nonassociative-algebra/nonassociative-algebra|algebra]] \(A\) over [[shared-foundations/real-numbers|\(\mathbb R\)]] with a positive-definite Euclidean norm \(\lVert\cdot\rVert\) satisfying
+A **real normed division algebra** is a finite-dimensional unital [[nonassociative-algebra/nonassociative-algebra|algebra]] \(A\) over [[shared-foundations/real-numbers|\(\mathbb R\)]] with a positive-definite [[linear-algebra/euclidean-norm|Euclidean norm]] \(\lVert\cdot\rVert\) satisfying
 \[
  \lVert xy\rVert=\lVert x\rVert\,\lVert y\rVert
 \]

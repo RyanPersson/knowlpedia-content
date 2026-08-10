@@ -21,12 +21,12 @@ The group operation is composition.
 
 If \(J\) is unital, every automorphism fixes its unit: \(g(e)\) acts as a unit
 on the surjective image \(g(J)=J\), and the unit is unique. Automorphisms also
-preserve idempotents, Jordan frames, rank, and the coefficients of the Jordan
+preserve idempotents, [[nonassociative-algebra/jordan-frame|Jordan frames]], rank, and the coefficients of the Jordan
 characteristic polynomial.
 
-For a Euclidean Jordan algebra, automorphisms preserve the canonical
+For a [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]], automorphisms preserve the canonical
 [[nonassociative-algebra/trace-form-of-a-euclidean-jordan-algebra|trace form]].
-Consequently \(\operatorname{Aut}(J)\) is a compact Lie group. Its Lie algebra
+Consequently \(\operatorname{Aut}(J)\) is a [[lie-groups/compact-lie-group|compact Lie group]]. Its [[lie-groups/lie-algebra|Lie algebra]]
 is the derivation algebra
 \[
 \operatorname{Der}(J)=
@@ -35,8 +35,8 @@ is the derivation algebra
 
 ## Examples
 
-- For a spin factor \(J(V)\), \(\operatorname{Aut}(J(V))\cong O(V)\).
-- The identity component of
+- For a [[nonassociative-algebra/spin-factor-jordan-algebra|spin factor]] \(J(V)\), \(\operatorname{Aut}(J(V))\cong O(V)\).
+- The [[lie-groups/identity-component-of-a-lie-group|identity component]] of
   \(\operatorname{Aut}(\mathfrak h_n(\mathbb C))\) is \(PU(n)\), acting by
   unitary conjugation. For \(n\geq3\), complex conjugation supplies another
   component.
@@ -45,7 +45,7 @@ is the derivation algebra
 
 ## Automorphisms versus stabilizers
 
-If \(B\subset J\) is a Jordan subalgebra, restriction gives a homomorphism
+If \(B\subset J\) is a [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]], restriction gives a homomorphism
 \[
 \operatorname{Stab}_{\operatorname{Aut}(J)}(B)\longrightarrow
 \operatorname{Aut}(B).

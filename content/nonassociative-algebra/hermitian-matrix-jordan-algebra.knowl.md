@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 For \(\mathbb K=\mathbb R,\mathbb C\), or \(\mathbb H\), the **Hermitian
-matrix Jordan algebra** \(\mathfrak h_n(\mathbb K)\) is the real vector space
+matrix Jordan algebra** \(\mathfrak h_n(\mathbb K)\) is the real [[linear-algebra/vector-space|vector space]]
 of matrices \(X\in M_n(\mathbb K)\) satisfying \(X^*=X\), with product
 \[
 X\circ Y=\frac12(XY+YX).
@@ -28,8 +28,8 @@ For \(\mathbb K=\mathbb O\), the same displayed formula gives a Jordan algebra
 only for \(n=1,2,3\):
 
 - \(\mathfrak h_1(\mathbb O)\cong\mathbb R\);
-- \(\mathfrak h_2(\mathbb O)\) is a spin factor;
-- \(\mathfrak h_3(\mathbb O)\) is the exceptional Albert algebra.
+- \(\mathfrak h_2(\mathbb O)\) is a [[nonassociative-algebra/spin-factor-jordan-algebra|spin factor]];
+- \(\mathfrak h_3(\mathbb O)\) is the exceptional [[nonassociative-algebra/exceptional-jordan-algebra|Albert algebra]].
 
 For \(n\geq4\), octonionic matrix multiplication does not satisfy the Jordan
 identity on all Hermitian matrices, so \(\mathfrak h_n(\mathbb O)\) is not a

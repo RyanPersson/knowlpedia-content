@@ -8,8 +8,8 @@ domains = ["nonassociative-algebra"]
 section_mode = "progressive"
 +++
 
-Let \(B\subset H_3(\mathbb O)\) be a Jordan subalgebra isomorphic to
-\(H_3(\mathbb C)\), and suppose that \(B\) contains the standard Jordan frame
+Let \(B\subset H_3(\mathbb O)\) be a [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] isomorphic to
+\(H_3(\mathbb C)\), and suppose that \(B\) contains the standard [[nonassociative-algebra/jordan-frame|Jordan frame]]
 \((e_1,e_2,e_3)\). Relative to the standard frame decomposition there are
 real two-dimensional subspaces \(V_{12},V_{23},V_{31}\subset\mathbb O\) such
 that
@@ -46,7 +46,7 @@ take \(a\) to \(1\), turning \(B\) into the standard \(H_3(\mathbb C)\).
 
 ## Why the decomposition is useful
 
-It converts an embedded Jordan algebra into linear data inside the octonions.
+It converts an embedded [[nonassociative-algebra/jordan-algebra|Jordan algebra]] into linear data inside the octonions.
 The [[nonassociative-algebra/frame-decomposition-of-hermitian-jordan-algebras|frame
 decomposition]] supplies the six summands, while
 [[lie-groups/spin8-triality|triality]] coordinates their transformation laws.

@@ -16,7 +16,7 @@ Every octonion \(x\in\mathbb O\) splits uniquely as \(x=\operatorname{Re}(x)+\op
  \qquad
  \langle x,y\rangle=\operatorname{Re}(xy^*).
 \]
-The last formula is the standard Euclidean [[linear-algebra/inner-product|inner product]] on the eight-dimensional real vector space \(\mathbb O\).
+The last formula is the standard Euclidean [[linear-algebra/inner-product|inner product]] on the eight-dimensional real [[linear-algebra/vector-space|vector space]] \(\mathbb O\).
 
 ## Identities
 
@@ -43,11 +43,11 @@ One also encounters
  =\frac12\bigl(N(x+y)-N(x)-N(y)\bigr)
  =\frac12(xy^*+yx^*).
 \]
-The final expression is real, so it is identified with a scalar multiple of the unit. Some composition-algebra texts define the polar form without the factor \(1/2\); their trace bilinear form is therefore twice the Euclidean inner product.
+The final expression is real, so it is identified with a scalar multiple of the unit. Some composition-algebra texts define the polar form without the factor \(1/2\); their trace [[linear-algebra/bilinear-form|bilinear form]] is therefore twice the Euclidean inner product.
 
 ## Orthogonal splittings
 
-The imaginary octonions are the orthogonal complement of \(1\), giving
+The imaginary octonions are the [[linear-algebra/orthogonal-complement|orthogonal complement]] of \(1\), giving
 \[
  \mathbb O=\mathbb R1\oplus\operatorname{Im}(\mathbb O).
 \]

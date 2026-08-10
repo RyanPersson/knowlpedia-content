@@ -24,17 +24,17 @@ Thus \(A\) is associative exactly when its associator vanishes identically. Weak
 
 ## Morphisms and subalgebras
 
-An algebra homomorphism \(f:A\to B\) is a linear map satisfying \(f(xy)=f(x)f(y)\). If units are part of the chosen category, one usually also requires \(f(1_A)=1_B\). A linear subspace \(S\subseteq A\) closed under multiplication is a subalgebra; whether it must contain the ambient unit is a separate convention.
+An algebra homomorphism \(f:A\to B\) is a [[linear-algebra/linear-map|linear map]] satisfying \(f(xy)=f(x)f(y)\). If units are part of the chosen category, one usually also requires \(f(1_A)=1_B\). A [[convex-analysis/linear-subspace|linear subspace]] \(S\subseteq A\) closed under multiplication is a subalgebra; whether it must contain the ambient unit is a separate convention.
 
 ## Convention warning
 
-The word *algebra* by itself often means an associative unital algebra. In nonassociative algebra it commonly means only a vector space with bilinear multiplication, and authors vary on whether a unit is included. A statement involving Jordan, alternative, or composition algebras should therefore be read with its unit and characteristic hypotheses made explicit.
+The word *algebra* by itself often means an associative unital algebra. In nonassociative algebra it commonly means only a vector space with bilinear multiplication, and authors vary on whether a unit is included. A statement involving Jordan, alternative, or [[nonassociative-algebra/composition-algebra|composition algebras]] should therefore be read with its unit and characteristic hypotheses made explicit.
 
 ## Examples
 
 - Every associative algebra is nonassociative in the inclusive sense “not necessarily associative.”
-- Lie algebras are nonassociative algebras whose multiplication is alternating and satisfies the Jacobi identity.
-- Jordan algebras are commutative nonassociative algebras satisfying the Jordan identity.
+- [[lie-groups/lie-algebra|Lie algebras]] are nonassociative algebras whose multiplication is alternating and satisfies the Jacobi identity.
+- [[nonassociative-algebra/jordan-algebra|Jordan algebras]] are commutative nonassociative algebras satisfying the Jordan identity.
 - The [[nonassociative-algebra/octonion-algebra|octonions]] are unital and alternative but not associative.
 
 ## References

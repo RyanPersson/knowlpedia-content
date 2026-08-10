@@ -8,7 +8,7 @@ domains = ["quantum-foundations", "mathematical-physics"]
 section_mode = "progressive"
 +++
 
-A **qubit** is a quantum system whose state Hilbert space is two-dimensional over \(\mathbb C\), hence isomorphic after choosing an orthonormal basis to
+A **qubit** is a quantum system whose state [[linear-algebra/hilbert-space|Hilbert space]] is two-dimensional over \(\mathbb C\), hence isomorphic after choosing an [[linear-algebra/orthonormal-basis|orthonormal basis]] to
 \[
 H\cong\mathbb C^2.
 \]
@@ -16,7 +16,7 @@ A pure state is a ray in \(H\), equivalently a rank-one density operator, and a 
 
 ## States and observables
 
-After choosing \(\{|0\rangle,|1\rangle\}\), a normalized state vector is
+After choosing \(\{|0\rangle,|1\rangle\}\), a [[quantum-foundations/normalized-state-vector|normalized state vector]] is
 \[
 |\psi\rangle=\alpha|0\rangle+\beta|1\rangle,
 \qquad |\alpha|^2+|\beta|^2=1,
@@ -40,7 +40,7 @@ Pure states form the boundary sphere; mixed states fill the ball.
 
 ## Relation to the \(F_4\) construction
 
-In the \(F_4\) stabilizer characterization of the Standard Model group, a Jordan subalgebra \(X\cong\mathfrak h_2(\mathbb C)\) is interpreted as the observable algebra of a qubit inside a qutrit observable algebra \(B\cong\mathfrak h_3(\mathbb C)\).
+In the \(F_4\) stabilizer characterization of the [[mathematical-physics/standard-model-gauge-group|Standard Model group]], a [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] \(X\cong\mathfrak h_2(\mathbb C)\) is interpreted as the observable algebra of a qubit inside a qutrit observable algebra \(B\cong\mathfrak h_3(\mathbb C)\).
 
 ## References
 

@@ -51,7 +51,7 @@ An action on \(V\) by linear maps extends to the [[lie-groups/exterior-power-rep
 \]
 are subrepresentations whenever \(V\) is a representation.
 
-This parity decomposition resembles the even/odd grading of a Clifford algebra, but the products differ: exterior generators square to zero, while Clifford generators square to the value prescribed by a quadratic form.
+This parity decomposition resembles the even/odd grading of a [[differential-geometry/clifford-algebra|Clifford algebra]], but the products differ: exterior generators square to zero, while Clifford generators square to the value prescribed by a [[linear-algebra/quadratic-form|quadratic form]].
 
 ## Characteristic two
 

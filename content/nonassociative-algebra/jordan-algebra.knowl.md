@@ -22,7 +22,7 @@ associative or unital unless those conditions are stated separately.
 
 ## Why this identity
 
-The Jordan identity implies power associativity: every expression involving
+The Jordan identity implies [[nonassociative-algebra/power-associative-algebra|power associativity]]: every expression involving
 only one element \(x\) has an unambiguous value. Thus \(x^n\), polynomials in
 \(x\), and spectral notions can be defined even though arbitrary products of
 three elements may depend on their parentheses.
@@ -52,7 +52,7 @@ non-surjective map to preserve units.
 Jordan algebras that embed in some \(A^+\) are
 [[nonassociative-algebra/special-and-exceptional-jordan-algebras|special]];
 those that do not are exceptional. Finite-dimensional real Jordan algebras
-with a compatible positive-definite inner product are
+with a compatible positive-definite [[linear-algebra/inner-product|inner product]] are
 [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebras]].
 
 ## Characteristic caveat

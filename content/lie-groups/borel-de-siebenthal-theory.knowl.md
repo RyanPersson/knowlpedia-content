@@ -9,16 +9,16 @@ section_mode = "progressive"
 +++
 
 **Borel–de Siebenthal theory** classifies the closed connected subgroups of
-maximal rank in a compact connected Lie group by reducing the problem to
-closed subsystems of its root system. In particular, if \(G\) is compact,
+maximal rank in a compact [[lie-groups/connected-lie-group|connected Lie group]] by reducing the problem to
+closed subsystems of its [[lie-groups/root-system|root system]]. In particular, if \(G\) is compact,
 connected, and simple, the maximal proper connected subgroups \(H\subset G\)
 that contain a [[lie-groups/maximal-torus-theorem|maximal torus]] can be read
-from the extended Dynkin diagram, with finite central quotients restored at
+from the extended [[lie-groups/dynkin-diagram|Dynkin diagram]], with finite [[lie-groups/central-quotient-of-a-lie-group|central quotients]] restored at
 the group level.
 
 ## Extended-Dynkin-diagram procedure
 
-Choose simple roots \(\alpha_1,\ldots,\alpha_r\), and let
+Choose [[lie-groups/simple-root|simple roots]] \(\alpha_1,\ldots,\alpha_r\), and let
 \[
 \theta=\sum_{i=1}^r m_i\alpha_i
 \]
@@ -33,17 +33,17 @@ subsystem of full rank. These coefficient conditions are what ensure
 maximality among proper closed connected maximal-rank subgroups.
 
 This procedure is related to, but not identical with, deleting a node from an
-ordinary Dynkin diagram to obtain a Levi subalgebra. Borel–de Siebenthal theory
+ordinary Dynkin diagram to obtain a [[lie-groups/levi-subalgebra|Levi subalgebra]]. Borel–de Siebenthal theory
 uses the **extended** diagram and concerns compact-group subgroups of maximal
 rank; Levi subalgebras arise from parabolic subalgebras of a complex reductive
-algebraic or Lie algebra.
+algebraic or [[lie-groups/lie-algebra|Lie algebra]].
 
 ## Group-level cautions
 
 Root systems determine Lie algebras but not the global isogeny form of a Lie
 group. Consequently a subgroup identified infinitesimally as
 \(\mathfrak h_1\oplus\mathfrak h_2\) may be globally a finite central quotient
-of \(H_1\times H_2\). Moreover, “maximal connected subgroup” does not imply
+of \(H_1\times H_2\). Moreover, “[[lie-groups/maximal-connected-closed-subgroup|maximal connected subgroup]]” does not imply
 maximal among all closed subgroups: a disconnected normalizer may be larger.
 Both distinctions are essential in applications involving stabilizer identity
 components.
@@ -53,8 +53,8 @@ components.
 For the compact exceptional group \(F_4\), the theory yields maximal-rank
 connected subgroups including \(\operatorname{Spin}(9)\) and a subgroup with
 global form \((SU(3)\times SU(3))/\mathbb Z_3\). In the exceptional Jordan
-algebra, these appear as identity components of stabilizers of distinguished
-Jordan subalgebras.
+algebra, these appear as [[lie-groups/identity-component-of-a-lie-group|identity components]] of stabilizers of distinguished
+[[nonassociative-algebra/jordan-subalgebra|Jordan subalgebras]].
 
 ## References
 

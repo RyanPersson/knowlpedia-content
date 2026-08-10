@@ -8,7 +8,7 @@ domains = ["quantum-foundations", "functional-analysis"]
 section_mode = "progressive"
 +++
 
-An **antiunitary operator** between complex Hilbert spaces
+An **antiunitary operator** between complex [[linear-algebra/hilbert-space|Hilbert spaces]]
 \(\mathcal H\) and \(\mathcal K\) is a conjugate-linear bijection
 \(A:\mathcal H\to\mathcal K\) such that
 \[
@@ -16,7 +16,7 @@ An **antiunitary operator** between complex Hilbert spaces
 =\overline{\langle x,y\rangle_{\mathcal H}}
 \qquad(x,y\in\mathcal H),
 \]
-when the inner product is linear in its first argument. Equivalently, \(A\) is
+when the [[linear-algebra/inner-product|inner product]] is linear in its first argument. Equivalently, \(A\) is
 a surjective conjugate-linear isometry. This differs from a
 [[functional-analysis/unitary-operator|unitary operator]], which is linear.
 
@@ -24,7 +24,7 @@ a surjective conjugate-linear isometry. This differs from a
 
 Every antiunitary operator preserves norms and orthogonality. Its inverse and
 adjoint are antiunitary, while the product of two antiunitaries is unitary.
-After choosing an orthonormal basis, any antiunitary on one Hilbert space can
+After choosing an [[linear-algebra/orthonormal-basis|orthonormal basis]], any antiunitary on one Hilbert space can
 be written
 \[
 A=UK,

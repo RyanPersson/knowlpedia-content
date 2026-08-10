@@ -17,7 +17,7 @@ X\circ Y=\frac12(XY+YX).
 \]
 It is the four-dimensional real
 [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]]
-of observables of a complex two-level quantum system.
+of observables of a complex [[quantum-foundations/qubit|two-level quantum system]].
 
 ## Pauli and spin-factor descriptions
 
@@ -45,7 +45,7 @@ The eigenvalues of \(X=\lambda I+u\cdot\sigma\) are
 
 ## Embedding in a qutrit algebra
 
-The upper-left \(2\times2\) corner is a Jordan subalgebra of
+The upper-left \(2\times2\) corner is a [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] of
 \(\mathfrak h_3(\mathbb C)\). This inclusion is not unital: it sends
 \(I_2\) to \(\operatorname{diag}(1,1,0)\), rather than to \(I_3\).
 

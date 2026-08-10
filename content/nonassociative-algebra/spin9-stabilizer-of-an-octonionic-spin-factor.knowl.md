@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(J=H_3(\mathbb O)\), let \(F_4=\operatorname{Aut}(J)\), and let
-\(A\subset J\) be a Jordan subalgebra isomorphic to \(H_2(\mathbb O)\). Then
+\(A\subset J\) be a [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] isomorphic to \(H_2(\mathbb O)\). Then
 its setwise stabilizer is connected and
 \[
 \operatorname{Stab}_{F_4}(A)\cong\mathrm{Spin}(9).
@@ -28,7 +28,7 @@ and the transitive orbit description is
 Here \(F_4\) and \(\mathrm{Spin}(9)\) denote their compact real forms.
 
 The connectedness is unlike the stabilizer of a complex-qutrit subalgebra,
-whose full stabilizer has more than one connected component.
+whose full stabilizer has more than one [[topology/connected-component|connected component]].
 
 ## References
 

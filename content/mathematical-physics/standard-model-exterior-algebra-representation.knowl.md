@@ -16,11 +16,11 @@ The **Standard Model exterior-algebra representation** is the restriction along 
 \[
 \bigwedge(E\oplus C)=\bigoplus_{k=0}^{5}\bigwedge^k\mathbb C^5.
 \]
-It has complex dimension \(2^5=32\) and is isomorphic to the internal-symmetry representation on one [[mathematical-physics/standard-model-fermion-generation|fermion generation]] together with its antiparticles, when a gauge-singlet right-handed neutrino is included. Lorentz-spin degrees of freedom are not part of this identification.
+It has complex dimension \(2^5=32\) and is isomorphic to the internal-symmetry representation on one [[mathematical-physics/standard-model-fermion-generation|fermion generation]] together with its antiparticles, when a gauge-singlet [[mathematical-physics/right-handed-neutrino-gauge-singlet|right-handed neutrino]] is included. Lorentz-spin degrees of freedom are not part of this identification.
 
 ## Decomposition into Standard Model multiplets
 
-Write \((d_2,d_3)_Y\) for an \(SU(2)\times SU(3)\) multiplet with weak hypercharge \(Y\), using \(Q=T_3+Y/2\). Since
+Write \((d_2,d_3)_Y\) for an \(SU(2)\times SU(3)\) multiplet with [[mathematical-physics/hypercharge|weak hypercharge]] \(Y\), using \(Q=T_3+Y/2\). Since
 \[
 E=(2,1)_1,\qquad C=(1,3)_{-2/3},
 \]

@@ -24,7 +24,7 @@ there is \(k\in K\) satisfying \(k(c_i)=d_i\) for every \(i\).
 ## Homogeneous frame space
 
 Fix an ordered frame \(\mathbf c=(c_1,\ldots,c_r)\). Its space of ordered
-frames is therefore the homogeneous space
+frames is therefore the [[lie-groups/homogeneous-space|homogeneous space]]
 
 \[
 K/K_{\mathbf c},
@@ -33,7 +33,7 @@ K_{\mathbf c}=\{k\in K:k(c_i)=c_i\text{ for every }i\}.
 \]
 
 Here \(K_{\mathbf c}\) is the **pointwise** stabilizer of all labelled frame
-entries. This transitivity is what lets the Jordan spectral theorem move a
+entries. This transitivity is what lets the [[nonassociative-algebra/spectral-theorem-for-euclidean-jordan-algebras|Jordan spectral theorem]] move a
 diagonalization from one chosen frame to any other convenient frame.
 
 ## Ordered, unordered, and connected stabilizers
@@ -52,7 +52,7 @@ strictly larger than the pointwise stabilizer even though the acting group
 in \(K_{\mathbf c}\), but the pointwise stabilizer itself need not be replaced
 by its identity component without a separate connectedness argument.
 
-For the Albert algebra \(H_3(\mathbb O)\), \(K=F_4\), the pointwise stabilizer
+For the [[nonassociative-algebra/exceptional-jordan-algebra|Albert algebra]] \(H_3(\mathbb O)\), \(K=F_4\), the pointwise stabilizer
 of a labelled frame is \(\mathrm{Spin}(8)\), while the setwise stabilizer also
 contains permutations of the three idempotents. This is the distinction used
 in the [[nonassociative-algebra/spin8-stabilizer-of-an-albert-algebra-frame|Albert

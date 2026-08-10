@@ -8,7 +8,7 @@ domains = ["lie-groups"]
 section_mode = "progressive"
 +++
 
-Two Lie subalgebras \(\mathfrak a,\mathfrak b\subseteq\mathfrak g\) are **mutual centralizers in \(\mathfrak g\)** if
+Two [[lie-groups/lie-subalgebra|Lie subalgebras]] \(\mathfrak a,\mathfrak b\subseteq\mathfrak g\) are **mutual centralizers in \(\mathfrak g\)** if
 \[
 C_{\mathfrak g}(\mathfrak a)=\mathfrak b
 \qquad\text{and}\qquad
@@ -41,7 +41,7 @@ If both subalgebras are semisimple, their centers vanish, so the intersection is
 
 ## Exceptional examples
 
-Inside the complex exceptional Lie algebra \(\mathfrak e_7\), there are embeddings for which
+Inside the complex exceptional [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak e_7\), there are embeddings for which
 \[
 \mathfrak{sl}_2\quad\text{and}\quad\mathfrak{so}_{12}
 \]

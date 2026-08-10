@@ -8,7 +8,7 @@ domains = ["nonassociative-algebra", "lie-groups"]
 section_mode = "progressive"
 +++
 
-Let \(J=H_3(\mathbb O)\) be the compact real Albert algebra, let
+Let \(J=H_3(\mathbb O)\) be the compact real [[nonassociative-algebra/exceptional-jordan-algebra|Albert algebra]], let
 \(F_4=\operatorname{Aut}(J)\), and let \((e_1,e_2,e_3)\) be a labelled
 [[nonassociative-algebra/jordan-frame|Jordan frame]]. Its **pointwise
 stabilizer** is
@@ -27,7 +27,7 @@ J=\mathbb R e_1\oplus\mathbb R e_2\oplus\mathbb R e_3
 \]
 is invariant under the frame stabilizer. The three eight-dimensional
 off-diagonal summands carry, in a suitable ordering, the vector, left half-spin,
-and right half-spin representations of \(\mathrm{Spin}(8)\). Their coupled
+and right [[lie-groups/half-spin-representation|half-spin representations]] of \(\mathrm{Spin}(8)\). Their coupled
 action is [[lie-groups/spin8-triality|Spin(8) triality]].
 
 ## Pointwise versus setwise stabilizers
@@ -40,7 +40,7 @@ set, its setwise stabilizer is
 The quotient \(S_3\) permutes \(e_1,e_2,e_3\) and acts on \(\mathrm{Spin}(8)\)
 through the outer automorphisms associated with triality. Thus the unqualified
 statement “the setwise stabilizer is \(\mathrm{Spin}(8)\)” is false. Its
-identity component is the pointwise \(\mathrm{Spin}(8)\).
+[[lie-groups/identity-component-of-a-lie-group|identity component]] is the pointwise \(\mathrm{Spin}(8)\).
 
 ## References
 

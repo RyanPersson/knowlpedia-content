@@ -8,11 +8,11 @@ domains = ["lie-groups", "representation-theory"]
 section_mode = "progressive"
 +++
 
-There is an isomorphism of compact Lie groups
+There is an isomorphism of [[lie-groups/compact-lie-group|compact Lie groups]]
 \[
 \operatorname{Spin}(6)\cong SU(4).
 \]
-Infinitesimally it gives an isomorphism of real Lie algebras
+Infinitesimally it gives an isomorphism of real [[lie-groups/lie-algebra|Lie algebras]]
 \[
 \mathfrak{spin}(6)\cong\mathfrak{so}(6)
 \cong\mathfrak{su}(4),
@@ -32,7 +32,7 @@ Under a choice of this isomorphism, the two complex [[lie-groups/half-spin-repre
 \]
 Interchanging chirality interchanges the two right-hand representations.
 
-The complexification of the six-dimensional vector representation corresponds to the second [[lie-groups/exterior-power-representation|exterior power]]:
+The complexification of the six-dimensional [[lie-groups/defining-representation-of-a-classical-lie-algebra|vector representation]] corresponds to the second [[lie-groups/exterior-power-representation|exterior power]]:
 \[
 \mathbb C^6\cong\Lambda^2\mathbb C^4.
 \]
@@ -44,7 +44,7 @@ Its kernel is \(\{\pm I\}\), so it is the spin double covering.
 
 ## Why the group isomorphism follows
 
-The compact groups \(\operatorname{Spin}(6)\) and \(SU(4)\) are both connected and simply connected, and their Lie algebras are isomorphic. A Lie-algebra isomorphism between connected simply connected Lie groups integrates uniquely to a Lie-group isomorphism.
+The compact groups \(\operatorname{Spin}(6)\) and \(SU(4)\) are both connected and simply connected, and their Lie algebras are isomorphic. A Lie-algebra isomorphism between connected [[lie-groups/simply-connected-lie-group|simply connected Lie groups]] integrates uniquely to a Lie-group isomorphism.
 
 This is stronger than \(SO(6)\cong SU(4)\): that latter statement is false. Instead,
 \[

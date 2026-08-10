@@ -10,8 +10,8 @@ section_mode = "progressive"
 
 A **simple Euclidean Jordan algebra** is a nonzero
 [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]]
-\(J\) whose only Jordan ideals are \(0\) and \(J\). A Jordan ideal is a
-linear subspace \(I\subseteq J\) satisfying \(J\circ I\subseteq I\).
+\(J\) whose only [[nonassociative-algebra/ideal-in-a-jordan-algebra|Jordan ideals]] are \(0\) and \(J\). A Jordan ideal is a
+[[convex-analysis/linear-subspace|linear subspace]] \(I\subseteq J\) satisfying \(J\circ I\subseteq I\).
 
 ## Classification
 

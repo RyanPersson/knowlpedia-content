@@ -33,7 +33,7 @@ Equivalently, as a module for \(\mathfrak{sl}_3^{\mathrm{gen}}\oplus\mathfrak{sl
 
 ## What the decomposition means
 
-This is a decomposition of the adjoint module and of the underlying vector space. The first two terms together form the Lie subalgebra
+This is a decomposition of the adjoint module and of the underlying [[linear-algebra/vector-space|vector space]]. The first two terms together form the [[lie-groups/lie-subalgebra|Lie subalgebra]]
 \(\mathfrak{sl}_3^{\mathrm{gen}}\oplus\mathfrak{sl}_6^{\mathrm{SM}}\). The two \(45\)-dimensional tensor-product summands are irreducible modules; they are not asserted to be Lie subalgebras.
 
 ## Identification of the 15s

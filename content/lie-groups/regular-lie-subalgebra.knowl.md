@@ -20,7 +20,7 @@ Write
 \[
 \mathfrak g=\mathfrak h\oplus\bigoplus_{\alpha\in\Phi}\mathfrak g_\alpha
 \]
-for the [[lie-groups/root-space-decomposition|root-space decomposition]]. Since the root spaces are the simultaneous weight spaces for \(\operatorname{ad}(\mathfrak h)\), regularity is equivalent to a decomposition
+for the [[lie-groups/root-space-decomposition|root-space decomposition]]. Since the [[lie-groups/root-space|root spaces]] are the simultaneous [[lie-groups/weight-space|weight spaces]] for \(\operatorname{ad}(\mathfrak h)\), regularity is equivalent to a decomposition
 \[
 \mathfrak k=(\mathfrak k\cap\mathfrak h)
 \oplus\bigoplus_{\alpha\in\Psi}\mathfrak g_\alpha
@@ -35,7 +35,7 @@ When \(\mathfrak k\) is **reductive in \(\mathfrak g\)**—so that the restricte
 - A reductive regular subalgebra that contains an ambient Cartan has [[lie-groups/maximal-rank-lie-subalgebra|maximal rank]], but regular subalgebras can have smaller rank.
 - Regularity depends on an embedding \(\mathfrak k\hookrightarrow\mathfrak g\), not merely on the abstract isomorphism type of \(\mathfrak k\).
 
-Regular embeddings let root-system calculations replace matrix calculations. This is the mechanism behind deleting simple roots, constructing [[lie-groups/levi-subalgebra|Levi subalgebras]], and computing many centralizers in exceptional Lie algebras.
+Regular embeddings let root-system calculations replace matrix calculations. This is the mechanism behind deleting [[lie-groups/simple-root|simple roots]], constructing [[lie-groups/levi-subalgebra|Levi subalgebras]], and computing many centralizers in exceptional [[lie-groups/lie-algebra|Lie algebras]].
 
 ## References
 
