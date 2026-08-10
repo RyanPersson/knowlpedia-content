@@ -1,52 +1,87 @@
 +++
 id = "langlands-letter/knowls/langlands-functoriality-l-homomorphism"
-title = "Langlands Functoriality and \\(L\\)-Homomorphisms"
+title = "Langlands functoriality and L-homomorphisms"
 kind = "knowl"
-summary = "An L-group homomorphism that predicts transfer of automorphic representations and their local parameters."
+summary = "An L-group homomorphism predicting compatible transfer of local parameters and global automorphic representations."
 aliases = ["langlands-functoriality-l-homomorphism", "Langlands Functoriality and \\(L\\)-Homomorphisms"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/langlands-functoriality-l-homomorphism.md"
+section_mode = "progressive"
 +++
 
-Let \(G'\) and \(G\) be connected reductive groups over a local or global field \(F\), with \(L\)-groups
-\[
-{}^LG'=\widehat G'\rtimes W_F,
-\qquad
-{}^LG=\widehat G\rtimes W_F.
-\]
-An **\(L\)-homomorphism**
+Let \(G'\) and \(G\) be connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive groups]] over a local or global
+field \(F\). An **\(L\)-homomorphism** between their
+[[langlands/l-group|\(L\)-groups]] is a map
+
 \[
 \omega:{}^LG'\longrightarrow{}^LG
 \]
-is a continuous group homomorphism that commutes with the projections to the Weil group \(W_F\) and whose restriction
+
+commutes with the projections to the Weil or Galois factor and is algebraic
+on the dual-group identity components. It is considered up to
+\(\widehat G\)-conjugacy and may require the standard admissibility
+conditions.
+
+## Parameter-level statement
+
+The most direct operation is composition:
+
 \[
-\widehat G'\longrightarrow\widehat G
+\varphi'\longmapsto\omega\circ\varphi'.
 \]
-is a homomorphism of complex algebraic groups. It is normally considered up to conjugation by \(\widehat G\).
 
-## Functorial transfer
+Locally, functoriality predicts that the
+[[langlands/l-packet|\(L\)-packet]] for the
+[[langlands/local-l-parameter|local \(L\)-parameter]] \(\varphi'\) transfers
+to representations in the packet for \(\omega\circ\varphi'\). For groups
+with nontrivial packets this is not naturally a function from one individual
+representation to one individual representation without additional data.
 
-Langlands functoriality predicts that \(\omega\) transfers suitable automorphic representations
+## Global transfer
+
+Globally, if \(\pi'\) is an [[langlands/automorphic-representation|automorphic representation]] of \(G'(\mathbb A_F)\),
+functoriality predicts an automorphic representation or packet on
+\(G(\mathbb A_F)\) whose unramified [[langlands/satake-parameter|Satake parameters]] satisfy
+
 \[
-\Pi'\ \text{of }G'(\mathbb A_F)
-\quad\longmapsto\quad
-\Pi\ \text{of }G(\mathbb A_F).
+c(\pi_v)\sim\omega(c(\pi_v'))
 \]
-At every place \(v\) where both representations and groups are unramified, their Satake parameters should satisfy
-\[
-\alpha_v(\Pi)\sim\omega\!\left(\alpha_v(\Pi')\right)
-\]
-as semisimple conjugacy classes in \({}^LG\). This is a conjectural transfer statement, not merely the application of \(\omega\) to a single automorphic function.
 
-## Compatibility with L-functions
+at almost every place. A complete transfer should also have the expected
+ramified and archimedean local behavior.
 
-If \(r:{}^LG\to\mathrm{GL}(V)\) is a finite-dimensional complex representation, the unramified local factors are predicted to obey
+## L-functions
+
+For \(r:{}^LG\to\operatorname{GL}(V)\),
+
 \[
-L_v(s,\Pi,r)
+L^S(s,\pi,r)
 =
-L_v(s,\Pi',r\circ\omega).
+L^S(s,\pi',r\circ\omega)
 \]
 
-## Role in the letter
+follows formally from matching almost-all unramified parameters. Equality
+of incomplete \(L\)-functions alone does not establish the full local or
+packet-level transfer.
 
-This is the letter's “second question,” expressed as the transfer of automorphic data whose unramified parameters are pushed forward by \(\omega\).
+## Status and methods
+
+General functoriality remains conjectural. Established families arise from
+cyclic base change and automorphic induction, endoscopic classification,
+theta correspondences, converse theorems, trace-formula comparisons, and
+specific symmetric-power or tensor-product constructions. Endoscopy is a
+structured part of functoriality, not the whole principle.
+
+## Relation to the letter
+
+This is the letter's second broad question. Its unramified formulation
+already contains the modern parameter-level idea; the later theory adds
+local packets, [[langlands/stable-trace-formula|stable trace formulas]], [[langlands/arthur-parameter|Arthur parameters]], and explicit
+theorem-status boundaries.
+
+## References
+
+1. Robert P. Langlands, “Problems in the theory of automorphic forms,”
+   1970. [IAS copy](https://publications.ias.edu/sites/default/files/problems-in-the-theory-of-automorphic-forms_rpl.pdf).
+2. James Arthur, “The principle of functoriality,” 2002.
+   [Clay copy](https://www.claymath.org/library/cw/arthur/pdf/57.pdf).

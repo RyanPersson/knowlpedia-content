@@ -1,52 +1,82 @@
 +++
 id = "langlands-letter/knowls/root-vs-weight-lattice-isogeny"
-title = "Root Lattice, Weight Lattice, and Isogeny Forms"
+title = "Root, weight, and isogeny lattices"
 kind = "knowl"
-summary = "For a semisimple group, intermediate lattices between the root and weight lattices encode its central isogeny form."
+summary = "Intermediate character lattices between the root and weight lattices encode central isogeny forms."
 aliases = ["root-vs-weight-lattice-isogeny", "Root Lattice, Weight Lattice, and Isogeny Forms"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/root-vs-weight-lattice-isogeny.md"
+section_mode = "progressive"
 +++
 
-Let \(G\) be a split semisimple group with split maximal torus \(T\) and root system \(\Phi\subset X^*(T)\).
+Let \(G\) be a split semisimple group with maximal torus \(T\) and root
+system \(\Phi\subset X^*(T)\). The
+[[lie-groups/root-lattice|root lattice]] and abstract
+[[lie-groups/weight-lattice|weight lattice]] are
 
-The **root lattice** is \(Q:=\mathbb{Z}\Phi\). The **weight lattice** is
 \[
-P:=\{\lambda\in X^*(T)\otimes_{\mathbb Z}\mathbb Q:
-\langle \lambda,\alpha^\vee\rangle\in\mathbb Z
-\text{ for every }\alpha\in\Phi\}.
+Q=\mathbb Z\Phi,
+\qquad
+P=
+\{\lambda\in X^*(T)_\mathbb Q:
+\langle\lambda,\alpha^\vee\rangle\in\mathbb Z
+\text{ for all }\alpha\in\Phi\}.
 \]
-The character lattice lies between them:
+
+The actual character lattice satisfies
+
 \[
 Q\subseteq X^*(T)\subseteq P.
 \]
-These intermediate lattices encode the central isogeny forms of the semisimple group. In particular, \(X^*(T)=P\) for the simply connected form.
 
-## Interpretation
+Intermediate lattices classify the central isogeny forms with the given
+[[lie-groups/root-system|root system]]. The simply connected form has character lattice \(P\), while
+the adjoint form has character lattice \(Q\).
 
-The letter's intermediate lattice \(L\) controls the isogeny form of \(G\). Dually, the corresponding cocharacter lattice controls the isogeny form of the [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]].
+## Dual statement
+
+On cocharacters one has
+
+\[
+Q^\vee\subseteq X_*(T)\subseteq P^\vee,
+\]
+
+where \(Q^\vee\) here denotes the coroot lattice and \(P^\vee\) the
+coweight lattice—not the integral duals of \(Q\) and \(P\) with the same
+symbols. The simply connected form has \(X_*(T)=Q^\vee\), while the adjoint
+form has the full coweight lattice. The
+[[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]
+exchanges the two lattice diagrams.
 
 ## Type A1
 
-For type \(A_1\), let \(\omega\) be the fundamental weight and let
-\(\alpha=2\omega\) be the positive root. Then
+Let \(\omega\) be the fundamental weight and
+\(\alpha=2\omega\). Then
+
 \[
-Q=\mathbb Z\alpha=2\mathbb Z\omega
+Q=2\mathbb Z\omega
 \subset
 P=\mathbb Z\omega,
-\qquad P/Q\cong\mathbb Z/2\mathbb Z.
+\qquad
+P/Q\simeq\mathbb Z/2\mathbb Z.
 \]
-The simply connected form \(SL_2\) has character lattice \(P\), while the
-adjoint form \(PGL_2\) has character lattice \(Q\). The central isogeny
+
+Thus \(\operatorname{SL}_2\to\operatorname{PGL}_2\) is the central isogeny
+with kernel \(\mu_2\), and
+
 \[
-SL_2\longrightarrow PGL_2
+\widehat{\operatorname{SL}_2}=\operatorname{PGL}_2(\mathbb C),
+\qquad
+\widehat{\operatorname{PGL}_2}=\operatorname{SL}_2(\mathbb C).
 \]
-has kernel \(\mu_2\). Exchanging character and cocharacter lattices under
-Langlands duality gives
-\(\widehat{SL_2}=PGL_2(\mathbb C)\) and
-\(\widehat{PGL_2}=SL_2(\mathbb C)\).
+
+## Relation to the letter
+
+The letter's intermediate lattice \(L\) fixes the isogeny form; its
+[[langlands-letter/knowls/dual-lattice|dual lattice]] fixes the dual group's
+form. Recording only the abstract root system would lose this information.
 
 ## References
 
-1. Robert Steinberg, *Lectures on Chevalley Groups*, Yale University lecture
-   notes, 1968; revised AMS edition, 2016.
+1. Robert Steinberg, *Lectures on Chevalley Groups*, AMS, 2016.
+2. A. Borel, *Linear Algebraic Groups*, second edition, Springer, 1991.

@@ -1,19 +1,64 @@
 +++
 id = "langlands-letter/knowls/embeddings-qbar-to-q_p"
-title = "Choosing Embeddings \\(\\\\overline{\\\\mathbb{Q}}\\\\hookrightarrow \\\\overline{\\\\mathbb{Q}}_p\\)"
+title = "Choosing an embedding \\(\\overline{\\mathbb Q}\\hookrightarrow\\overline{\\mathbb Q}_p\\)"
 kind = "knowl"
-summary = "How a choice of -adic embedding fixes a decomposition group and conjugates Frobenius/Satake data"
-aliases = ["embeddings-qbar-to-q_p", "Choosing Embeddings \\(\\\\overline{\\\\mathbb{Q}}\\\\hookrightarrow \\\\overline{\\\\mathbb{Q}}_p\\)"]
+summary = "How a p-adic embedding selects a place and a decomposition subgroup, with changes acting by conjugacy."
+aliases = ["embeddings-qbar-to-q_p", "p-adic embedding of the algebraic closure"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/embeddings-qbar-to-q_p.md"
+section_mode = "progressive"
 +++
 
-Choosing an embedding \(\iota_p:\overline{\mathbb{Q}}\hookrightarrow \overline{\mathbb{Q}}_p\) is equivalent to choosing a prime of \(\overline{\mathbb{Q}}\) above \(p\).
+Choosing an embedding
 
-This identifies a **decomposition group** in \(\mathrm{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})\) with the local Galois group \(\mathrm{Gal}(\overline{\mathbb{Q}}_p/\mathbb{Q}_p)\), and hence fixes a notion of [[langlands-letter/knowls/frobenius-unramified|Frobenius]] at \(p\).
+\[
+\iota_p:\overline{\mathbb Q}
+\hookrightarrow
+\overline{\mathbb Q}_p
+\]
 
-Changing \(\iota_p\) conjugates the resulting Frobenius and therefore conjugates the Satake parameter \(\alpha_p\) in the [[langlands-letter/knowls/l-group-satake-parameter|\(L\)-group]].
+extending \(\mathbb Q\hookrightarrow\mathbb Q_p\) is equivalent to choosing
+a place of \(\overline{\mathbb Q}\) above \(p\). It identifies the
+decomposition subgroup at that place with
 
-## Remarks
+\[
+\operatorname{Gal}(\overline{\mathbb Q}_p/\mathbb Q_p),
+\]
 
-**Consequence used in the letter:** the Euler product [[langlands-letter/knowls/euler-product-and-local-factor|\(L(s)=\\prod_p L_p(s)\)]] changes only by finitely many local factors (the "bad primes").
+up to the usual conjugacy in
+\(\operatorname{Gal}(\overline{\mathbb Q}/\mathbb Q)\).
+
+## Effect of changing the embedding
+
+A different choice gives a conjugate decomposition subgroup. At an
+unramified prime, the corresponding
+[[langlands-letter/knowls/frobenius-unramified|Frobenius elements]] are
+conjugate.
+Therefore conjugacy-invariant data such as [[linear-algebra/characteristic-polynomial|characteristic polynomials]],
+[[langlands/satake-parameter|Satake conjugacy classes]], and local \(L\)-factors do **not** change.
+
+This choice should not be confused with omitting finitely many ramified or
+bad places from an Euler product; that finite set is determined by the
+global arithmetic data, not by changing \(\iota_p\).
+
+## General number-field form
+
+For a number field \(F\) and a finite place \(v\), an embedding
+\(\overline F\hookrightarrow\overline{F_v}\) extending \(F\hookrightarrow
+F_v\) selects a decomposition subgroup \(\Gamma_{F_v}\subset\Gamma_F\).
+It is needed to formulate the localization of a global Galois
+representation and hence [[langlands/local-global-compatibility|local–global
+compatibility]], while the final local
+[[algebra-groups/conjugacy-class|conjugacy class]] is independent of the
+choice.
+
+## Coefficient embeddings are separate
+
+Comparing a complex automorphic parameter with an \(\ell\)-adic Galois
+representation also requires an isomorphism
+\(\iota:\overline{\mathbb Q}_\ell\simeq\mathbb C\). That coefficient-field
+choice is logically distinct from selecting a place above \(p\).
+
+## References
+
+1. Jean-Pierre Serre, *Local Fields*, Springer, 1979, Chapters I and IV.

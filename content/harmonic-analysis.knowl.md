@@ -81,6 +81,18 @@ Click any term to expand its definition inline.
 - [[harmonic-analysis/system-of-imprimitivity|System of imprimitivity]]
 - [[harmonic-analysis/unitary-frobenius-reciprocity|Unitary Frobenius reciprocity]]
 
+### Smooth representations of nonarchimedean groups
+
+- [[harmonic-analysis/smooth-representation-totally-disconnected-group|Smooth representation of a totally disconnected group]]
+- [[harmonic-analysis/admissible-representation-p-adic-group|Admissible representation of a p-adic group]]
+- [[harmonic-analysis/supercuspidal-representation|Supercuspidal representation]]
+- [[harmonic-analysis/unramified-representation-p-adic-group|Unramified representation]]
+- [[harmonic-analysis/normalized-parabolic-induction-p-adic-group|Normalized parabolic induction for a p-adic group]]
+- [[harmonic-analysis/whittaker-model|Whittaker model]]
+
+These provide the representation-theoretic input to the
+[[langlands/modern-langlands-index|modern Langlands foundations]].
+
 ### Direct integrals and nonabelian Plancherel theory
 
 - [[harmonic-analysis/direct-integral-unitary-representations|Direct integral of unitary representations]]

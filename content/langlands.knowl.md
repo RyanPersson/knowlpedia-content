@@ -1,71 +1,61 @@
 +++
 id = "langlands"
-title = "Geometric Langlands"
+title = "Langlands program"
 kind = "section"
-summary = "Index of geometric-Langlands foundations, Hecke structures, spectral parameters, and ramified examples."
-aliases = ["geometric Langlands index"]
+summary = "Index of local and global Langlands correspondences, automorphic representations, endoscopy, function-field methods, and geometric Langlands."
+aliases = ["Langlands index", "Langlands program index"]
 domains = ["langlands"]
 section_mode = "progressive"
 +++
 
-The **geometric Langlands** collection develops the categorical correspondence
-from its curve, bundle, local-system, and Hecke-theoretic dependencies. The
-[[langlands/geometric-langlands-correspondence|correspondence]] is a program
-with several formulations and theorem statuses, not a direct identification
-of the Riemann sphere with the Möbius group or with Langlands duality.
+The **Langlands program** relates harmonic analysis on [[algebraic-geometry-foundations/reductive-algebraic-group|reductive groups]] to
+Galois and motivic parameters through local and global correspondences,
+\(L\)-functions, functoriality, trace formulas, and geometric
+categorification. Many parts are theorems in specified settings; the
+general program remains conjectural.
 
-## Curves and moduli stacks
+## Guided collections
 
-- [[algebraic-geometry-foundations/algebraic-curve|Algebraic curve]]
-- [[algebraic-geometry-foundations/smooth-projective-curve|Smooth projective curve]]
-- [[algebraic-geometry-foundations/pointed-algebraic-curve|Pointed algebraic curve]]
-- [[algebraic-geometry-foundations/algebraic-stack|Algebraic stack]]
-- [[algebraic-geometry-foundations/principal-g-bundle-on-scheme|Principal \(G\)-bundle on a scheme]]
-- [[algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve|\(\operatorname{Bun}_G(X)\)]]
-- [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]
-- [[langlands/g-local-system|\(G\)-local system]]
-- [[langlands/moduli-stack-of-g-local-systems|\(\operatorname{LocSys}_G(X)\)]]
-- [[langlands/global-nilpotent-cone|Global nilpotent cone]]
+- [[langlands/modern-langlands-index|Modern Langlands foundations]] — local
+  packets, the global automorphic–Galois dictionary, endoscopy, shtukas, and
+  Fargues–Scholze local geometrization.
+- [[langlands/geometric-langlands-index|Geometric Langlands]] — curves,
+  \(\operatorname{Bun}_G\), local systems, geometric Satake, Hecke
+  eigensheaves, and the categorical theorem.
+- [[langlands-letter|Langlands Letter]] — a historical annotated reading of
+  the 1967 letter, cross-linked to the modern vocabulary.
 
-## Sheaf categories
+## Core correspondences
 
-- [[algebraic-geometry-foundations/quasi-coherent-sheaf|Quasi-coherent sheaf]]
-- [[algebraic-geometry-foundations/sheaf-of-differential-operators|Sheaf of differential operators]]
-- [[algebraic-geometry-foundations/d-module|\(D\)-module]]
-- [[langlands/ind-coherent-sheaf|Ind-coherent sheaf]]
-- [[langlands/singular-support-of-coherent-sheaf|Singular support of a coherent sheaf]]
-- [[langlands/ind-coherent-sheaves-with-nilpotent-singular-support|\(\operatorname{IndCoh}_{\mathcal N}\)]]
+- [[langlands/local-langlands-correspondence|Basic local Langlands correspondence]]
+- [[langlands/refined-local-langlands-correspondence|Refined local Langlands correspondence]]
+- [[langlands/local-langlands-correspondence-for-gln|Local Langlands for \(\operatorname{GL}_n\)]]
+- [[langlands/global-langlands-reciprocity|Global Langlands reciprocity]]
+- [[langlands/automorphic-galois-correspondence|Automorphic–Galois correspondence]]
+- [[langlands/geometric-langlands-correspondence|Categorical geometric Langlands theorem]]
 
-## Hecke structures
+## Parameters and packets
 
-- [[langlands/ind-scheme|Ind-scheme]]
-- [[langlands/loop-group|Loop group]]
-- [[langlands/positive-loop-group|Positive loop group]]
-- [[langlands/dominant-coweight|Dominant coweight]]
-- [[langlands/affine-schubert-variety|Affine Schubert variety]]
-- [[langlands/hecke-modification|Hecke modification]]
-- [[langlands/affine-grassmannian|Affine Grassmannian]]
-- [[langlands/perverse-sheaf|Perverse sheaf]]
-- [[langlands/intersection-cohomology-complex|Intersection-cohomology complex]]
-- [[langlands/convolution-of-sheaves|Convolution of sheaves]]
-- [[langlands/geometric-satake-equivalence|Geometric Satake equivalence]]
-- [[langlands/hecke-correspondence|Hecke correspondence]]
-- [[langlands/hecke-functor|Geometric Hecke functor]]
-- [[langlands/hecke-eigensheaf|Hecke eigensheaf]]
+- [[langlands/l-group|\(L\)-group]]
+- [[langlands/local-l-parameter|Local \(L\)-parameter]]
+- [[langlands/l-packet|\(L\)-packet]]
+- [[langlands/global-langlands-parameter|Global Langlands parameter]]
+- [[langlands/arthur-parameter|Arthur parameter]]
+- [[langlands/a-packet|Arthur packet]]
+- [[langlands/stack-of-l-parameters|Stack of local \(L\)-parameters]]
 
-## Rank one and ramification
+## Automorphic and spectral tools
 
-- [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]]
-- [[algebraic-geometry-foundations/flag-variety|Flag variety]]
-- [[algebraic-geometry-foundations/projective-line-as-rank-one-flag-variety|\(\mathbb P^1\) as a rank-one flag variety]]
-- [[langlands/ramification-of-g-local-system|Ramification of a \(G\)-local system]]
-- [[langlands/riemann-hilbert-correspondence|Riemann–Hilbert correspondence]]
-- [[langlands/regular-singular-connection|Regular-singular connection]]
-- [[langlands/irregular-singular-connection|Irregular-singular connection]]
-- [[langlands/stokes-data|Stokes data]]
-- [[langlands/tame-ramification|Tame ramification]]
-- [[langlands/wild-ramification|Wild ramification]]
-- [[langlands/level-structure-on-g-bundle|Level structure on a \(G\)-bundle]]
-- [[langlands/parahoric-level-structure|Parahoric level structure]]
-- [[langlands/iwahori-level-structure|Iwahori level structure]]
-- [[langlands/ramified-geometric-langlands|Ramified geometric Langlands]]
+- [[langlands/automorphic-representation|Automorphic representation]]
+- [[langlands/cuspidal-automorphic-representation|Cuspidal automorphic representation]]
+- [[langlands/arthur-selberg-trace-formula|Arthur–Selberg trace formula]]
+- [[langlands/stable-trace-formula|Stable trace formula]]
+- [[langlands/endoscopic-transfer|Endoscopic transfer]]
+- [[langlands/arthur-multiplicity-formula|Arthur multiplicity formula]]
+
+## Arithmetic geometry routes
+
+- [[langlands/lafforgue-global-parameterization|Function-field global parameterization]]
+- [[langlands/fargues-scholze-parameter-map|Fargues–Scholze local parameter map]]
+- [[langlands/spectral-action|Fargues–Scholze spectral action]]
+- [[langlands/geometric-langlands-correspondence|Geometric Langlands]]

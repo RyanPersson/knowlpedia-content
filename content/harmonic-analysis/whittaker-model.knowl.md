@@ -1,0 +1,56 @@
++++
+id = "harmonic-analysis/whittaker-model"
+title = "Whittaker model"
+kind = "definition"
+summary = "A realization of a generic representation using functions transforming by a nondegenerate character of a maximal unipotent subgroup."
+aliases = ["Whittaker functional", "generic representation", "Whittaker realization"]
+domains = ["harmonic-analysis", "langlands", "lie-groups"]
+section_mode = "progressive"
++++
+
+Let \(G\) be a quasi-split [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a local field, let \(B=TU\) be
+an \(F\)-rational [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]], and let
+\(\psi:U(F)\to\mathbb C^\times\) be a nondegenerate [[harmonic-analysis/unitary-character|unitary character]]. A
+**Whittaker functional** on a representation \((\pi,V)\) of \(G(F)\) is a
+[[linear-algebra/linear-map|linear map]] \(\lambda:V\to\mathbb C\) satisfying
+
+\[
+\lambda(\pi(u)v)=\psi(u)\lambda(v)
+\qquad(u\in U(F)).
+\]
+
+If a nonzero such functional exists, \(\pi\) is **\(\psi\)-generic**. The
+associated **Whittaker model** is the realization by functions
+
+\[
+W_v(g)=\lambda(\pi(g)v),
+\qquad
+W_v(ug)=\psi(u)W_v(g).
+\]
+
+## Nondegeneracy
+
+Nondegeneracy means that \(\psi\) is nontrivial on every simple-root quotient
+of \(U\) determined by \(B\). The \(G(F)\)-conjugacy class of the pair
+\((B,\psi)\) is a [[langlands/whittaker-datum|Whittaker datum]].
+
+## Uniqueness
+
+For irreducible admissible representations in the standard quasi-split local
+setting, the Whittaker functional is unique up to scalar when it exists. This
+multiplicity-one result makes the Whittaker model a canonical realization
+after normalizations are chosen.
+
+## Role in local Langlands
+
+A Whittaker datum normalizes the internal parametrization of an \(L\)-packet.
+For a tempered packet of a quasi-split group, the generic-packet conjecture
+predicts a unique member generic for the chosen datum.
+
+## References
+
+1. François Rodier, “Whittaker models for admissible representations of
+   reductive \(p\)-adic split groups,” in *Harmonic Analysis on Homogeneous
+   Spaces*, Proceedings of Symposia in Pure Mathematics 26, 1973.
+2. Tasho Kaletha, “Representations of reductive groups over local fields,”
+   §§2.2–2.3, 2022. [arXiv](https://arxiv.org/abs/2201.07741).

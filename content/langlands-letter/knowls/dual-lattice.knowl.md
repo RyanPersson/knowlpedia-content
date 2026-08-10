@@ -1,25 +1,64 @@
 +++
 id = "langlands-letter/knowls/dual-lattice"
-title = "Dual Lattice"
+title = "Dual lattice"
 kind = "knowl"
-summary = "The integral dual Hom(L, ℤ) of a lattice and its role in dual root data."
+summary = "The integral dual Hom(L,Z) of a finite free abelian group and its role in dual root data."
 aliases = ["dual-lattice", "Dual Lattice"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/dual-lattice.md"
+section_mode = "progressive"
 +++
 
-A **lattice** is a finitely generated free abelian group \(L\cong\mathbb Z^r\). Its **dual lattice** is
+A **lattice** is a finite free [[algebra-groups/abelian-group|abelian group]] \(L\simeq\mathbb Z^r\). Its
+**integral dual lattice** is
+
 \[
-L^\vee := \operatorname{Hom}_{\mathbb Z}(L,\mathbb Z).
+L^\vee=\operatorname{Hom}_{\mathbb Z}(L,\mathbb Z).
 \]
 
 Evaluation gives a perfect pairing
+
 \[
-\langle\cdot,\cdot\rangle:L\times L^\vee\to\mathbb Z,
-\qquad
-\langle\lambda,\mu\rangle=\mu(\lambda).
+L\times L^\vee\longrightarrow\mathbb Z.
 \]
 
-## Remarks
+The bidual map \(L\to L^{\vee\vee}\) is an isomorphism.
 
-In the letter, the “conjugate lattice” \(cL\) is a dual lattice used to build the [[langlands-letter/knowls/langlands-dual-group|dual root datum]] and the Satake parameter space.
+## Torus lattices
+
+For the [[langlands-letter/knowls/maximal-torus-weight-lattice|character and
+cocharacter lattices]] of an algebraic torus \(T\),
+
+\[
+X_*(T)\simeq X^*(T)^\vee.
+\]
+
+If \(T\) is defined over a nonsplit field, both lattices carry a Galois
+action and the evaluation pairing is Galois-equivariant.
+
+The coordinate ring of a complex torus with character lattice \(L\) is the
+group algebra \(\mathbb C[L]\). Thus passing to a dual torus exchanges its
+character and cocharacter lattices.
+
+## Distinctions
+
+The integral dual \(L^\vee\) is not the same object as:
+
+- the real or complex linear dual of \(L\otimes\mathbb R\);
+- the [[harmonic-analysis/pontryagin-dual|Pontryagin dual]] of \(L\) as a discrete [[topology/topological-group|topological group]];
+- the discriminant dual of a lattice equipped with a [[linear-algebra/bilinear-form|bilinear form]].
+
+These constructions can be related after extra choices but should not be
+identified by notation alone.
+
+## Relation to the letter
+
+The letter's “conjugate lattice” \(cL\) participates in the root datum of
+the [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]].
+Modern notation records both character and cocharacter lattices explicitly,
+which avoids hiding the isogeny form.
+
+## References
+
+1. T. A. Springer, *Linear Algebraic Groups*, second edition, Birkhäuser,
+   1998.

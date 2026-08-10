@@ -1,17 +1,64 @@
 +++
 id = "langlands-letter/knowls/p-adic-field"
-title = "p-Adic Field"
+title = "p-adic field"
 kind = "knowl"
-summary = "A finite extension of ℚₚ, with a valuation ring, a principal maximal ideal, and a finite residue field."
+summary = "A finite extension of Q_p with a discrete valuation, compact valuation ring, and finite residue field."
 aliases = ["p-adic-field", "\\(p\\)-Adic Field"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/p-adic-field.md"
+section_mode = "progressive"
 +++
 
-A **\(p\)-adic field** is a finite extension \(k/\mathbb{Q}_p\), and hence a nonarchimedean local field.
+A **\(p\)-adic field** is a finite extension \(F/\mathbb Q_p\). It is a
+nonarchimedean [[langlands-letter/knowls/global-local-fields-completions|local
+field]] of characteristic \(0\).
 
-Its **ring of integers** is \(\mathcal O_k=\{x\in k:|x|_p\le 1\}\), with maximal ideal \(\mathfrak p_k=\{x\in k:|x|_p<1\}\).
+Its normalized discrete valuation
 
-A **uniformizer** is an element \(\varpi\in\mathfrak p_k\) that generates \(\mathfrak p_k\).
+\[
+v_F:F^\times\longrightarrow\mathbb Z
+\]
 
-The **residue field** is \(\kappa_k=\mathcal O_k/\mathfrak p_k\), a finite field.
+determines the valuation ring, [[algebra-rings/maximal-ideal|maximal ideal]], and [[algebra-commutative/residue-field|residue field]]:
+
+\[
+\mathcal O_F=\{x:v_F(x)\geq0\},
+\qquad
+\mathfrak p_F=\{x:v_F(x)>0\},
+\qquad
+k_F=\mathcal O_F/\mathfrak p_F.
+\]
+
+The residue field is finite, of cardinality \(q_F=p^f\). A
+**uniformizer** \(\varpi_F\) satisfies \(v_F(\varpi_F)=1\) and generates
+\(\mathfrak p_F\).
+
+## Topology
+
+The ideals \(\mathfrak p_F^n\) form a neighborhood basis of \(0\).
+The ring \(\mathcal O_F\) is compact and open, while \(F\) is [[topology/locally-compact-space|locally compact]]
+and totally disconnected. The absolute value is commonly normalized by
+
+\[
+|x|_F=q_F^{-v_F(x)}.
+\]
+
+## Scope
+
+Every nonarchimedean local field of characteristic \(0\) is \(p\)-adic.
+Local fields of positive characteristic are finite extensions of
+\(\mathbb F_q((t))\); they share much of the smooth representation theory
+but not every \(p\)-adic Hodge-theoretic construction.
+
+## Langlands role
+
+[[harmonic-analysis/admissible-representation-p-adic-group|Smooth
+admissible representations]] of \(G(F)\), the [[langlands/weil-group|Weil]]
+and [[langlands/weil-deligne-group|Weil–Deligne]] groups of \(F\),
+[[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial
+subgroups]], and [[langlands/local-l-parameter|local \(L\)-parameters]] form
+the nonarchimedean local side of the program.
+
+## References
+
+1. Jean-Pierre Serre, *Local Fields*, Springer, 1979.

@@ -1,25 +1,72 @@
 +++
 id = "langlands-letter/knowls/group-algebra-of-lattice"
-title = "Group Algebra of a Lattice and Multiplicative Basis"
+title = "Group algebra of a lattice"
 kind = "knowl"
-summary = "The complex algebra with basis indexed by a lattice and multiplication induced by the lattice addition law."
+summary = "The Laurent monomial algebra with basis indexed by a lattice, serving as the coordinate ring of a complex torus."
 aliases = ["group-algebra-of-lattice", "Group Algebra of a Lattice and Multiplicative Basis"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/group-algebra-of-lattice.md"
+section_mode = "progressive"
 +++
 
-Let \(L\) be a free abelian group, called a **lattice**; for example, \(L=X^*(T)\).
+Let \(L\) be a finite free [[algebra-groups/abelian-group|abelian group]]. The **group algebra**
+\(\mathbb C[L]\) has basis \(\{e^\lambda\}_{\lambda\in L}\) and
+multiplication
 
-The **group algebra** \(\mathbb C[L]\) is the \(\mathbb C\)-vector space with basis \(\{\xi_\lambda\}_{\lambda\in L}\) and multiplication
 \[
-\xi_\lambda\cdot \xi_\mu=\xi_{\lambda+\mu}.
+e^\lambda e^\mu=e^{\lambda+\mu}.
 \]
 
-When \(L=X^*(T)\) is the [[langlands-letter/knowls/maximal-torus-weight-lattice|character lattice]] of a torus, each \(t\in T(\mathbb C)\) defines an algebra homomorphism
+After choosing a basis \(L\simeq\mathbb Z^r\),
+
 \[
-\mathbb C[L]\longrightarrow\mathbb C,\qquad \xi_\lambda\longmapsto\lambda(t).
+\mathbb C[L]
+\simeq
+\mathbb C[x_1^{\pm1},\ldots,x_r^{\pm1}].
 \]
 
-## Remarks
+## Coordinate ring of a torus
 
-**In the letter:** Satake identifies the spherical Hecke algebra with invariants in such a group algebra on a dual lattice.
+If \(T\) is a complex algebraic torus with character lattice
+\(X^*(T)=L\), then
+
+\[
+\mathcal O(T)=\mathbb C[L].
+\]
+
+A point \(t\in T(\mathbb C)\) defines the evaluation character
+
+\[
+\mathbb C[L]\longrightarrow\mathbb C,
+\qquad
+e^\lambda\longmapsto\lambda(t).
+\]
+
+Conversely, every complex [[algebra-modules/algebra-homomorphism|algebra homomorphism]] to \(\mathbb C\) arises from
+a point of \(T\).
+
+## Weyl invariants
+
+If a [[lie-groups/weyl-group|Weyl group]] \(W\) acts on \(L\), then
+\(\mathbb C[L]^W\) is the coordinate ring of the affine quotient \(T/W\).
+Its complex points encode semisimple [[algebra-groups/conjugacy-class|conjugacy classes]] in a connected
+[[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] with maximal torus \(T\).
+
+## Satake role
+
+For a split group \(G\), normalized Satake identifies the spherical Hecke
+algebra with
+
+\[
+\mathbb C[X_*(T)]^W
+=
+\mathbb C[X^*(\widehat T)]^W.
+\]
+
+The letter describes this using the group algebra of its [[langlands-letter/knowls/dual-lattice|dual lattice]].
+
+## References
+
+1. Ichirō Satake, “Theory of spherical functions on reductive algebraic
+   groups over \(p\)-adic fields,” *PMIHÉS* 18 (1963), 5–69.
+   [Numdam](https://www.numdam.org/item/PMIHES_1963__18__5_0/).
