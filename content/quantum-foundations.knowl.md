@@ -25,6 +25,8 @@ legacy_source_path = "quantum-foundations/_index.md"
 
 ## Quantum Information
 
+- [[quantum-foundations/qubit|Qubit]]
+- [[quantum-foundations/qutrit|Qutrit]]
 - [[quantum-foundations/von-neumann-entropy|Von Neumann entropy]]
 - [[quantum-foundations/quantum-relative-entropy|Quantum relative entropy]]
 
@@ -39,3 +41,8 @@ legacy_source_path = "quantum-foundations/_index.md"
 - [[quantum-foundations/positive-operator-valued-measure|Positive operator-valued measure]]
 - [[quantum-foundations/positive-semidefinite-operator|Positive semidefinite operator]]
 - [[quantum-foundations/normal-operator|Normal operator]]
+- [[quantum-foundations/antiunitary-operator|Antiunitary operator]]
+
+## Exceptional-algebra reading index
+
+- [[knowlification/baez-e7-jordan-paper-expansion|Complete E7 and exceptional Jordan-algebra paper index]]

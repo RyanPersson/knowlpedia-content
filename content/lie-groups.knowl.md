@@ -356,3 +356,51 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/psl2c-proper-lorentz-isomorphism|\(PSL(2,\mathbb C)_{\mathbb R}\cong SO^+(1,3)\)]]
 - [[lie-groups/celestial-sphere-and-mobius-action|Celestial sphere and Möbius action]]
 - [[lie-groups/psl2c-action-on-hyperbolic-three-space|\(PSL(2,\mathbb C)\) action on hyperbolic three-space]]
+
+## Exceptional Lie theory and the three-generation construction
+
+### Root-theoretic foundations
+
+- [[lie-groups/regular-lie-subalgebra|Regular Lie subalgebra]]
+- [[lie-groups/root-subsystem|Root subsystem]]
+- [[lie-groups/levi-subalgebra|Levi subalgebra]]
+- [[lie-groups/removing-a-simple-root|Removing a simple root]]
+- [[lie-groups/maximal-rank-lie-subalgebra|Maximal-rank Lie subalgebra]]
+- [[lie-groups/centralizer-of-a-regular-reductive-subalgebra|Centralizer of a regular reductive subalgebra]]
+- [[lie-groups/borel-de-siebenthal-theory|Borel–de Siebenthal theory]]
+
+### Exceptional algebras and compact groups
+
+- [[lie-groups/exceptional-lie-algebra-e6|Exceptional Lie algebra \(\mathfrak e_6\)]]
+- [[lie-groups/exceptional-lie-algebra-e7|Exceptional Lie algebra \(\mathfrak e_7\)]]
+- [[lie-groups/exceptional-lie-algebra-e8|Exceptional Lie algebra \(\mathfrak e_8\)]]
+- [[lie-groups/exceptional-lie-algebra-f4|Exceptional Lie algebra \(\mathfrak f_4\)]]
+- [[lie-groups/exceptional-lie-algebra-g2|Exceptional Lie algebra \(\mathfrak g_2\)]]
+- [[lie-groups/compact-exceptional-lie-group-e6|Compact exceptional Lie group \(E_6\)]]
+- [[lie-groups/compact-exceptional-lie-group-e7|Compact exceptional Lie group \(E_7\)]]
+- [[lie-groups/compact-exceptional-lie-group-e8|Compact exceptional Lie group \(E_8\)]]
+- [[lie-groups/compact-exceptional-lie-group-f4|Compact exceptional Lie group \(F_4\)]]
+- [[lie-groups/compact-exceptional-lie-group-g2|Compact exceptional Lie group \(G_2\)]]
+- [[lie-groups/spin8-triality|\(\operatorname{Spin}(8)\) triality]]
+
+### E7 generation geometry and branchings
+
+- [[lie-groups/good-standard-model-embedding-in-e7|Good Standard Model embedding in \(\mathfrak e_7\)]]
+- [[lie-groups/exceptional-chain-to-the-standard-model|Exceptional chain to the Standard Model Lie algebra]]
+- [[lie-groups/generation-sl3-in-e7|Generation \(\mathfrak{sl}_3\) in \(\mathfrak e_7\)]]
+- [[lie-groups/generation-plane|Generation plane in \(\mathfrak e_7\)]]
+- [[lie-groups/generation-sl2-subalgebras|Generation \(\mathfrak{sl}_2\)-subalgebras]]
+- [[lie-groups/e7-root-projection-trichotomy|\(E_7\) root-projection trichotomy]]
+- [[lie-groups/three-d6-subsystems-in-e7|Three \(D_6\) subsystems in \(E_7\)]]
+- [[lie-groups/e7-branching-under-a1-plus-d6|\(E_7\) branching under \(A_1+D_6\)]]
+- [[lie-groups/standard-sl6-in-e7|Standard \(\mathfrak{sl}_6\) in \(\mathfrak e_7\)]]
+- [[lie-groups/intersection-of-three-a1-plus-d6-subalgebras|Intersection of the three \(A_1+D_6\) subalgebras]]
+- [[lie-groups/standard-sl5-in-e7|Standard \(\mathfrak{sl}_5\) in \(\mathfrak e_7\)]]
+- [[lie-groups/thirty-dimensional-generation-module-in-e7|Thirty-dimensional generation module in \(\mathfrak e_7\)]]
+- [[lie-groups/e7-branching-under-a2-plus-a5|\(E_7\) branching under \(A_2+A_5\)]]
+- [[lie-groups/generation-module-as-even-exterior-algebra|Generation module as an even exterior algebra]]
+- [[lie-groups/three-generation-decomposition-of-e7|Three-generation decomposition of \(\mathfrak e_7\)]]
+
+### Complete paper expansion
+
+- [[knowlification/baez-e7-jordan-paper-expansion|Complete E7 and exceptional Jordan-algebra paper index]]

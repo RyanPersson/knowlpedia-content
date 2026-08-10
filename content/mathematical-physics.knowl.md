@@ -77,6 +77,18 @@ Thus on Minkowski spacetime \(\Box=\partial_t^2-\sum_i\partial_i^2\). Every oper
 - [[mathematical-physics/dirac-klein-gordon-factorization|Dirac–Klein–Gordon factorization]]
 - [[noncommutative-geometry/dirac-operator|Riemannian spin Dirac operator]]
 
+## Internal gauge symmetry and exceptional algebra
+
+- [[mathematical-physics/standard-model-gauge-group|Standard Model gauge group]]
+- [[mathematical-physics/standard-model-lie-algebra|Standard Model Lie algebra]]
+- [[mathematical-physics/hypercharge|Weak hypercharge]]
+- [[mathematical-physics/georgi-glashow-su5-embedding|Georgi–Glashow \(SU(5)\) embedding]]
+- [[mathematical-physics/standard-model-exterior-algebra-representation|Standard Model exterior-algebra representation]]
+- [[mathematical-physics/standard-model-fermion-generation|Standard Model fermion generation]]
+- [[mathematical-physics/right-handed-neutrino-gauge-singlet|Right-handed neutrino gauge singlet]]
+- [[mathematical-physics/standard-model-gauge-group-as-f4-stabilizer-intersection|Standard Model gauge group as an \(F_4\) stabilizer intersection]]
+- [[knowlification/baez-e7-jordan-paper-expansion|Complete E7 and exceptional Jordan-algebra paper index]]
+
 ## Analytic boundary
 
 Riemannian scalar and Dirac operators are elliptic; Lorentzian wave operators are normally hyperbolic, and Lorentzian Dirac operators have the null cone as their characteristic set. Compact-spectrum statements from Riemannian geometry therefore do not transfer to relativistic evolution problems. Conversely, Cauchy evolution and finite propagation speed belong to the Lorentzian setting and require causal hypotheses such as global hyperbolicity.
