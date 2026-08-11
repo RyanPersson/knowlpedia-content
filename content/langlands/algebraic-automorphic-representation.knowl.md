@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 An **algebraic automorphic representation** is an
 [[langlands/automorphic-representation|automorphic representation]] over a
-[[langlands-letter/knowls/global-local-fields-completions|number field]] whose
+[[algebra-fields-galois/number-field|number field]] whose
 archimedean [[langlands/local-l-parameter|Langlands parameters]] have integral
 infinitesimal data. This phrase is incomplete unless its normalization is
 specified.

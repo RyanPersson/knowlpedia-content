@@ -10,7 +10,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|number field]] and
+[[algebra-fields-galois/number-field|number field]] and
 \(G\) a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]]. An

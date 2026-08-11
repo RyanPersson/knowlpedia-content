@@ -46,7 +46,7 @@ A split reductive root datum determines a smooth [[algebraic-geometry-foundation
 
 is [[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial]]. For
 a reductive group originally defined over a
-[[langlands-letter/knowls/global-local-fields-completions|number field]],
+[[algebra-fields-galois/number-field|number field]],
 such a reductive integral model exists outside a finite set of bad
 places rather than canonically at every place.
 

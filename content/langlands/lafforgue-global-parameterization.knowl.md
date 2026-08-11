@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F=\mathbb F_q(X)\) be the
-[[langlands-letter/knowls/global-local-fields-completions|function field]] of
+[[algebra-fields-galois/global-function-field|function field]] of
 a [[algebraic-geometry-foundations/smooth-projective-curve|smooth projective
 geometrically connected curve]], let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive

@@ -10,8 +10,7 @@ section_mode = "progressive"
 +++
 
 Let \(L/F\) be a finite extension of
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean
-local fields]]. Write
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local fields]]. Write
 
 \[
 [L:F]=e(L/F)f(L/F),

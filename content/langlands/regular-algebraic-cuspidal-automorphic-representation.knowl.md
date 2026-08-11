@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|number field]]. A
+[[algebra-fields-galois/number-field|number field]]. A
 **regular algebraic cuspidal automorphic
 representation** of \(\operatorname{GL}_n(\mathbb A_F)\), often abbreviated
 RACAR, is a

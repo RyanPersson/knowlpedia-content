@@ -10,8 +10,7 @@ section_mode = "progressive"
 +++
 
 Let \(G'\) and \(G\) be connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive groups]] over a
-[[langlands-letter/knowls/global-local-fields-completions|local or global
-field]] \(F\). An **\(L\)-homomorphism** between their
+[[algebra-fields-galois/local-field|local]] or [[langlands-letter/knowls/global-local-fields-completions|global field]] \(F\). An **\(L\)-homomorphism** between their
 [[langlands/l-group|\(L\)-groups]] is a map
 
 \[

@@ -23,7 +23,7 @@ admissible homomorphism
 from a global Langlands group \(\mathcal L_F\) to the
 [[langlands/l-group|\(L\)-group]], considered up to
 [[algebra-groups/conjugacy-class|conjugacy]] by \(\widehat G\). For every
-[[langlands-letter/knowls/global-local-fields-completions|place]] \(v\),
+[[algebra-fields-galois/place-of-global-field|place]] \(v\),
 localization should produce a
 [[langlands/local-l-parameter|local \(L\)-parameter]]
 \(\varphi_v\).

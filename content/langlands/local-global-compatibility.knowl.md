@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|number field]] and let
+[[algebra-fields-galois/number-field|number field]] and let
 
 \[
 \pi=\bigotimes_v'\pi_v

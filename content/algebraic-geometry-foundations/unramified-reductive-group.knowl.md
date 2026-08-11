@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]]. A connected
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]]. A connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]] \(G\) is **unramified** if it is
 [[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]] over

@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
-over a [[langlands-letter/knowls/global-local-fields-completions|local field]],
+over a [[algebra-fields-galois/local-field|local field]],
 let \(M\) be a
 [[algebraic-geometry-foundations/levi-subgroup|Levi subgroup]], and let
 \(\gamma\in M(F)\) be regular enough for the integral below.  An **Arthur

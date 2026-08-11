@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|local field]] and
+[[algebra-fields-galois/local-field|local field]] and
 \(G\) a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]]. A **local Arthur parameter** is an admissible
@@ -65,7 +65,7 @@ representation]].
 
 A general [[langlands/global-langlands-parameter|global Langlands group]] is
 conjectural over
-[[langlands-letter/knowls/global-local-fields-completions|number fields]]. In the
+[[algebra-fields-galois/number-field|number fields]]. In the
 classification of classical groups, global Arthur parameters are therefore
 encoded concretely as formal
 [[langlands/isobaric-automorphic-representation|isobaric sums]]

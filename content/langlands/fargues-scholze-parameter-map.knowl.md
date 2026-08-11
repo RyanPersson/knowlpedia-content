@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(E\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]] of residue characteristic \(p\), let \(G\) be a connected
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] of residue characteristic \(p\), let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(E\)-group]], and let
 \(\ell\neq p\). After the coefficient and square-root-of-\(q\)

@@ -40,7 +40,7 @@ H^1(F,T)\longrightarrow H^1(F,G)
 \]
 
 Thus stable conjugacy is coarser than rational conjugacy. Over a
-[[langlands-letter/knowls/global-local-fields-completions|local field]],
+[[algebra-fields-galois/local-field|local field]],
 the displayed kernel is finite.
 
 For \(\operatorname{GL}_n\), two regular semisimple elements that are

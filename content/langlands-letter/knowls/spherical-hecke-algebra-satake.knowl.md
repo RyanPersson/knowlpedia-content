@@ -10,8 +10,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean
-local field]], let \(G/F\) be
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let \(G/F\) be
 [[algebraic-geometry-foundations/unramified-reductive-group|unramified]],
 and let \(K\) be a
 [[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial

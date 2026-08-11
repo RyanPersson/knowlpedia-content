@@ -10,8 +10,7 @@ section_mode = "progressive"
 
 Let \(L_w/K_v\) be a finite
 [[langlands-letter/knowls/galois-extension-and-group|Galois extension]] of
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean
-local fields]].
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local fields]].
 The **inertia subgroup** is
 
 \[

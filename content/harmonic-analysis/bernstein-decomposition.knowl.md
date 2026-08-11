@@ -11,8 +11,7 @@ section_mode = "progressive"
 Let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
 over a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]] \(F\).
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] \(F\).
 A **cuspidal pair** is a pair \((M,\sigma)\) consisting of a
 [[algebraic-geometry-foundations/levi-subgroup|Levi subgroup]] and an
 irreducible [[harmonic-analysis/supercuspidal-representation|supercuspidal

@@ -49,8 +49,7 @@ global arithmetic data, not by changing \(\iota_p\).
 
 ## General number-field form
 
-For a [[langlands-letter/knowls/global-local-fields-completions|number
-field]] \(F\) and a finite place \(v\), an embedding
+For a [[algebra-fields-galois/number-field|number field]] \(F\) and a finite place \(v\), an embedding
 \(\overline F\hookrightarrow\overline{F_v}\) extending \(F\hookrightarrow
 F_v\) selects a [[algebra-fields-galois/decomposition-group|decomposition
 subgroup]] \(\Gamma_{F_v}\subset\Gamma_F\).

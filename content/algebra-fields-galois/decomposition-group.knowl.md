@@ -19,7 +19,7 @@ D_w=\{\sigma\in\operatorname{Gal}(L/K):\sigma w=w\}.
 \]
 
 Restriction to the
-[[langlands-letter/knowls/global-local-fields-completions|completion]]
+[[algebra-fields-galois/completion-at-place|completion]]
 identifies \(D_w\simeq\operatorname{Gal}(L_w/K_v)\). Its action on
 [[algebra-commutative/residue-field|residue fields]] gives a
 surjection

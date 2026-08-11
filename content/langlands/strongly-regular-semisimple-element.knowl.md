@@ -51,7 +51,7 @@ On the strongly regular semisimple locus:
 - [[langlands/orbital-integral|orbital integrals]] are well behaved;
 - [[langlands/stable-conjugacy|stable conjugacy]] splits into finitely many
   rational conjugacy classes over a
-  [[langlands-letter/knowls/global-local-fields-completions|local field]];
+  [[algebra-fields-galois/local-field|local field]];
 - [[langlands/endoscopic-transfer|endoscopic transfer]] compares matching classes on different groups.
 
 Singular semisimple and unipotent terms still occur in the trace formula, but

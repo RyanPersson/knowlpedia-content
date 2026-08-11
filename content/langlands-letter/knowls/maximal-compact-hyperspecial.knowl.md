@@ -11,8 +11,7 @@ section_mode = "progressive"
 
 A **maximal compact subgroup** of a [[topology/locally-compact-group|locally compact group]] is a compact
 subgroup maximal under inclusion. For a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean
-local field]] \(F\), maximal compact subgroups are open.
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] \(F\), maximal compact subgroups are open.
 
 Let \(\mathcal O_F\) be the
 [[algebra-fields-galois/valuation-ring|valuation ring]]. A

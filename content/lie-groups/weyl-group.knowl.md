@@ -25,6 +25,6 @@ for \(\alpha\in\Delta\), where \(H_\alpha\) is the coroot.
 
 ## Why it matters
 The Weyl group controls much of the combinatorics of semisimple Lie theory:
-- it permutes the roots and the [[lie-groups/weights-in-dual-cartan|weight lattice]];
+- it permutes the roots and the [[lie-groups/weight-lattice|weight lattice]];
 - it identifies different choices of positive roots and simple roots (compare [[lie-groups/positive-root|positive roots]] and [[lie-groups/simple-root|simple roots]]);
 - it is encoded by the [[lie-groups/dynkin-diagram|Dynkin diagram]] and appears in classification and character formulas.

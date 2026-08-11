@@ -30,8 +30,7 @@ a [[langlands-letter/knowls/semisimple-element-and-class|semisimple]]
 ## Unramified class
 
 Let \(F_v\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean
-local field]], let \(G/F_v\) be
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let \(G/F_v\) be
 [[algebraic-geometry-foundations/unramified-reductive-group|unramified]],
 and choose a
 [[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial

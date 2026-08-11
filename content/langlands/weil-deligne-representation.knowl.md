@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]]. A **Weil–Deligne
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]]. A **Weil–Deligne
 representation** on a finite-dimensional complex [[linear-algebra/vector-space|vector space]] \(V\) is a pair
 \((r,N)\), where
 

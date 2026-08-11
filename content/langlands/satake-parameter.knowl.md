@@ -11,8 +11,7 @@ section_mode = "progressive"
 Let \(G\) be an
 [[algebraic-geometry-foundations/unramified-reductive-group|unramified
 connected reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]] \(F\), choose a
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] \(F\), choose a
 [[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial subgroup]]
 \(K\leq G(F)\), and let
 \(\pi\) be an irreducible

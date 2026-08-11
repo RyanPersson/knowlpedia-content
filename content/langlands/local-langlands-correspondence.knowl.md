@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|local field]] and
+[[algebra-fields-galois/local-field|local field]] and
 \(G\) a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]]. Write \(\operatorname{Irr}(G(F))\) for the

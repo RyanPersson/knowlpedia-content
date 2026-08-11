@@ -10,8 +10,7 @@ section_mode = "progressive"
 
 Let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
-over a [[langlands-letter/knowls/global-local-fields-completions|global
-field]] \(F\). After fixing a
+over a [[langlands-letter/knowls/global-local-fields-completions|global field]] \(F\). After fixing a
 [[algebra-representation-theory/central-character|central-character]] or
 split-center convention, the right regular
 representation on the automorphic

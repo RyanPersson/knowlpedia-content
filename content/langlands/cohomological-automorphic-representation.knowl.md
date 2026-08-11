@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|number field]]
+[[algebra-fields-galois/number-field|number field]]
 \(F\), and write
 \(\pi=\bigotimes_v'\pi_v\) for an
 [[langlands/automorphic-representation|automorphic representation]]. It is

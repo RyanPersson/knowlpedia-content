@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]], let \(G\) be an
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let \(G\) be an
 [[algebraic-geometry-foundations/unramified-reductive-group|unramified
 reductive group]], and let \(H\) be an unramified
 [[langlands/endoscopic-datum|endoscopic group]]. Choose

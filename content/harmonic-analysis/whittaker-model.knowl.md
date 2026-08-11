@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(G\) be a
 [[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split
 reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|local field]], let
+[[algebra-fields-galois/local-field|local field]], let
 \(B=TU\) be
 an \(F\)-rational [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]], and let
 \(\psi:U(F)\to\mathbb C^\times\) be a nondegenerate

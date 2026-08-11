@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|local field]] and
+[[algebra-fields-galois/local-field|local field]] and
 let \(\gamma\in G(F)\) be
 [[langlands/strongly-regular-semisimple-element|strongly regular
 semisimple]]. The **stable orbital integral** of

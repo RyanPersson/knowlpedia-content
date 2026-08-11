@@ -8,7 +8,7 @@ domains = ["langlands", "algebra-fields-galois", "number-theory"]
 section_mode = "progressive"
 +++
 
-For a nonarchimedean [[langlands-letter/knowls/global-local-fields-completions|local field]] \(F\),
+For a [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] \(F\),
 **local class field theory** supplies a canonical topological isomorphism
 
 \[

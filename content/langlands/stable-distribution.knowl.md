@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
-over a [[langlands-letter/knowls/global-local-fields-completions|local field]]
+over a [[algebra-fields-galois/local-field|local field]]
 \(F\). An
 [[harmonic-analysis/distribution-local-group|invariant distribution]]
 \(D\) on \(C_c^\infty(G(F))\) is **stable** if

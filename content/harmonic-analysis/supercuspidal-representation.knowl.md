@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(G=\mathbf G(F)\) for a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]]. An irreducible
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]]. An irreducible
 [[harmonic-analysis/admissible-representation-p-adic-group|admissible smooth
 representation]] \(\pi\) of \(G\) is **supercuspidal** if its
 [[harmonic-analysis/jacquet-module|Jacquet module]]

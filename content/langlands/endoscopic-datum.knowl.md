@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|local or global
-field]] \(F\).
+[[algebra-fields-galois/local-field|local]] or [[langlands-letter/knowls/global-local-fields-completions|global field]] \(F\).
 An **endoscopic datum** for \(G\) is, in a commonly used shorthand, a triple
 
 \[

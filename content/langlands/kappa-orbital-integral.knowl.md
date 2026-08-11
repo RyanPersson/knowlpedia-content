@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(\gamma\in G(F)\) be [[langlands/strongly-regular-semisimple-element|strongly regular semisimple]] over a
-[[langlands-letter/knowls/global-local-fields-completions|local field]].
+[[algebra-fields-galois/local-field|local field]].
 Write
 
 \[

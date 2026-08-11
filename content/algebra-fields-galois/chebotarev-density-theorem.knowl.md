@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(L/K\) be a finite
 [[langlands-letter/knowls/galois-extension-and-group|Galois extension]] of
-[[langlands-letter/knowls/global-local-fields-completions|number fields]]
+[[algebra-fields-galois/number-field|number fields]]
 with [[algebra-fields-galois/galois-group|Galois group]] \(G\), and let
 \(C\subseteq G\) be a
 [[algebra-groups/conjugacy-class|conjugacy class]]. The **Chebotarev density
@@ -41,8 +41,7 @@ compatibility]].
 ## Function fields
 
 There is a corresponding theorem for
-[[langlands-letter/knowls/global-local-fields-completions|global function
-fields]]. When the
+[[algebra-fields-galois/global-function-field|global function fields]]. When the
 constant field grows inside \(L\), Frobenius classes and degrees satisfy a
 compatibility condition; equidistribution is stated degree by degree in the
 permitted congruence classes.  Omitting this constant-field qualification can

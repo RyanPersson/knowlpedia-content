@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]], and let \(r\) be a finite-dimensional representation of its
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], and let \(r\) be a finite-dimensional representation of its
 [[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
 or [[langlands/weil-group|Weil group]] with finite inertia image. Choose a
 finite [[algebra-fields-galois/galois-extension|Galois extension]] through which the

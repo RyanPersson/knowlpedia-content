@@ -53,7 +53,7 @@ correspondences and [[langlands/partial-frobenius-on-shtukas|partial Frobenius m
 
 Drinfeld used shtukas to prove the [[langlands/global-langlands-reciprocity|global Langlands correspondence]] for
 \(\operatorname{GL}_2\) over
-[[langlands-letter/knowls/global-local-fields-completions|function fields]];
+[[algebra-fields-galois/global-function-field|function fields]];
 Laurent Lafforgue extended
 this to \(\operatorname{GL}_n\). Vincent Lafforgue's construction for
 general [[algebraic-geometry-foundations/reductive-algebraic-group|reductive groups]] uses multiple-leg \(G\)-shtukas, the
@@ -64,8 +64,7 @@ general [[algebraic-geometry-foundations/reductive-algebraic-group|reductive gro
 
 A [[langlands/local-shtuka|local shtuka]] in the Fargues–Fontaine setting is
 a local modification object over a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]]. It is inspired
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]]. It is inspired
 by the same Frobenius-and-modification pattern but lives in a different
 geometry.
 

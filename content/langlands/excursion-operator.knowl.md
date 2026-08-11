@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|global function
-field]] and \(G\) a connected
+[[algebra-fields-galois/global-function-field|global function field]] and \(G\) a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]].
 An **excursion operator** is indexed by
 

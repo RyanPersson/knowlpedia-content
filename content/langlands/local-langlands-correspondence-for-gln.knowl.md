@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]]. There is a unique canonical
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]]. There is a unique canonical
 bijection
 
 \[

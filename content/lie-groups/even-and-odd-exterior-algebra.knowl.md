@@ -43,7 +43,7 @@ The full integer grading retains more information than parity, but parity is the
 
 ## Representations
 
-An action on \(V\) by linear maps extends to the [[lie-groups/exterior-power-representation|exterior algebra]]. It preserves degree and hence preserves the even and odd summands. Thus
+An action on \(V\) by linear maps extends to the [[algebra-modules/exterior-algebra|exterior algebra]]. It preserves degree and hence preserves the even and odd summands. Thus
 \[
 \Lambda^{\mathrm{even}}V
 \quad\text{and}\quad

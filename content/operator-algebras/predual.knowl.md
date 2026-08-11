@@ -32,7 +32,7 @@ has the form
 x\longmapsto \operatorname{Tr}(ax),
 \]
 after restricting a
-[[functional-analysis/schatten-class-operator|trace-class operator]] \(a\) on \(H\) to
+[[shale-paper/trace-class-operator|trace-class operator]] \(a\) on \(H\) to
 \(M\). Different trace-class operators can induce the same functional. More
 precisely, \(M_*\) is isometrically the quotient of the trace-class operators
 by the annihilator of \(M\), rather than generally a distinguished subspace

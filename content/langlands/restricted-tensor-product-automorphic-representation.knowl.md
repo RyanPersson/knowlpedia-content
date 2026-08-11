@@ -19,7 +19,7 @@ representation]] has a factorization
 \]
 
 into irreducible admissible representations \(\pi_v\) of the groups over the
-[[langlands-letter/knowls/global-local-fields-completions|completions]]
+[[algebra-fields-galois/completion-at-place|completions]]
 \(F_v\). The restricted tensor product is taken with respect to distinguished
 [[harmonic-analysis/unramified-representation-p-adic-group|spherical vectors]]
 at almost all finite places.

@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Assume the [[langlands/local-langlands-correspondence|basic local Langlands
 correspondence]] for a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a
-[[langlands-letter/knowls/global-local-fields-completions|local field]]. For
+[[algebra-fields-galois/local-field|local field]]. For
 a relevant parameter \(\varphi\), its **\(L\)-packet** is the fiber
 
 \[

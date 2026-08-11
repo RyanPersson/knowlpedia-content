@@ -38,7 +38,7 @@ D_n & \xrightarrow{d^D_n} & D_{n-1}.
 ## Remarks
 - Two chain maps may be equivalent “up to homotopy”: [[algebra-homological/chain-homotopy|chain homotopy]].
 - Chain maps are morphisms in the category of complexes; more generally in an [[algebra-category-theory/abelian-category|abelian category]].
-- In degree 0, chain maps recover ordinary [[algebra-modules/algebra-homomorphism|module homomorphisms]].
+- In degree 0, chain maps recover ordinary [[algebra-modules/module-homomorphism|module homomorphisms]].
 
 ## Examples
 1. **A module homomorphism as a chain map.**

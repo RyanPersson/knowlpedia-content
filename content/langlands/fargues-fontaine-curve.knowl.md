@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(E\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]] with [[algebra-commutative/residue-field|residue field]]
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] with [[algebra-commutative/residue-field|residue field]]
 \(\mathbb F_q\), and let \(S\) be a
 [[algebraic-geometry-foundations/perfectoid-space|perfectoid space]] over
 \(\mathbb F_q\).

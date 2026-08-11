@@ -11,8 +11,7 @@ section_mode = "progressive"
 Let \(\mathbf G\) be an
 [[algebraic-geometry-foundations/unramified-reductive-group|unramified
 connected reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]] \(F\), and let \(K\leq G=\mathbf G(F)\) be a
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] \(F\), and let \(K\leq G=\mathbf G(F)\) be a
 [[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial maximal
 compact subgroup]]. An irreducible
 [[harmonic-analysis/admissible-representation-p-adic-group|admissible smooth

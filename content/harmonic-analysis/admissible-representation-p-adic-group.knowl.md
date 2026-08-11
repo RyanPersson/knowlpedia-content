@@ -17,7 +17,7 @@ complex representation \(V\) of \(G\) is **admissible** if
 \]
 
 for every compact open subgroup \(K\leq G\). For a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
-\(\mathbf G\) over a [[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local field]], local Langlands concerns
+\(\mathbf G\) over a [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], local Langlands concerns
 irreducible admissible representations of \(G=\mathbf G(F)\).
 
 ## Why compact-open fixed spaces appear

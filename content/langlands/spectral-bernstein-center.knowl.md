@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 For a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]] \(E\) and a
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] \(E\) and a
 coefficient ring \(\Lambda\), the **spectral Bernstein center** is
 
 \[

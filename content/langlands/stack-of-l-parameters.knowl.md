@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(E\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]], let \(W_E\) be its [[langlands/weil-group|Weil group]], and let the
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let \(W_E\) be its [[langlands/weil-group|Weil group]], and let the
 [[langlands-letter/knowls/langlands-dual-group|dual group]] \(\widehat G\)
 carry the [[langlands-letter/knowls/pinned-automorphisms|pinned]]
 \(W_E\)-action determined by a

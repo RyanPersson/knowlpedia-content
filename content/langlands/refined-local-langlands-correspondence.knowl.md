@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(G^*\) be a
 [[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split
 connected reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|local field]],
+[[algebra-fields-galois/local-field|local field]],
 choose a [[langlands/whittaker-datum|Whittaker datum]] \(\mathfrak w\), and
 let \(\varphi:L_F\to{}^LG^*\) be a relevant
 [[langlands/local-l-parameter|parameter]]. The **refined local

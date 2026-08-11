@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|local field]], let
+[[algebra-fields-galois/local-field|local field]], let
 \(G(F)\) be a local group, and let
 \(\mathcal D(G(F))\) be its
 [[harmonic-analysis/test-function-space-local-group|test-function space]]. A

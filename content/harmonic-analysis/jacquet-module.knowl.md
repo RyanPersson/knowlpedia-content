@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]], let \(G\) be a connected
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]], and write \(P=MN\) for a
 [[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroup]] with

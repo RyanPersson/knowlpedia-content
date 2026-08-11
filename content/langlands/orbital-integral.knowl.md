@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|local field]], let
+[[algebra-fields-galois/local-field|local field]], let
 \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]], and let \(\gamma\in G(F)\) be

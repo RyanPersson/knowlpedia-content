@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|local field]], let
+[[algebra-fields-galois/local-field|local field]], let
 \(V=(r,N)\) be a finite-dimensional
 [[langlands/weil-deligne-representation|Weil–Deligne representation]], and
 choose a nontrivial additive

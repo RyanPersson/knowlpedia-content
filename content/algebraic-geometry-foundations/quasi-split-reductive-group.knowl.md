@@ -25,8 +25,7 @@ every connected reductive group becomes split and hence quasi-split.
 ## Role among inner forms
 
 An [[langlands-letter/knowls/galois-descent-forms|inner class]] over a
-[[langlands-letter/knowls/global-local-fields-completions|local or global
-field]] has a quasi-split representative, unique up to isomorphism. The
+[[algebra-fields-galois/local-field|local]] or [[langlands-letter/knowls/global-local-fields-completions|global field]] has a quasi-split representative, unique up to isomorphism. The
 [[langlands/l-group|\(L\)-group]] and the basic
 [[langlands/local-l-parameter|local Langlands parameter space]] are normally
 attached

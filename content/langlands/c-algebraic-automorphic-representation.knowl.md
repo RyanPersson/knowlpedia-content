@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|number field]]
+[[algebra-fields-galois/number-field|number field]]
 \(F\), and let
 \(\pi\) be an [[langlands/automorphic-representation|automorphic
 representation]] of \(G(\mathbb A_F)\). It is **\(C\)-algebraic** if every

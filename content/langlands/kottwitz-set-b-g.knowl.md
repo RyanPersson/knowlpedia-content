@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(E\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]], let \(\breve E\) be the completion of its maximal
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let \(\breve E\) be the completion of its maximal
 [[langlands-letter/knowls/unramified-extension-local|unramified extension]],
 and let \(\sigma\) be
 [[langlands-letter/knowls/frobenius-unramified|Frobenius]]. For a connected

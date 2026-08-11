@@ -41,8 +41,7 @@ Examples include \(\operatorname{GL}_n\), \(\operatorname{SL}_n\), and
 A split root datum defines a Chevalley–Demazure reductive
 [[algebraic-geometry-foundations/group-scheme|group scheme]] over
 \(\mathbb Z\). Over a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean
-local field]] this provides a
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] this provides a
 [[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial
 subgroup]] after [[algebraic-geometry-foundations/base-change|base change]]
 to the [[algebra-fields-galois/valuation-ring|valuation ring]]. For a

@@ -29,7 +29,7 @@ The **twisted centralizer** of \(x\) is the
 
 If \(G\) is defined over a
 [[algebra-fields-galois/finite-field|finite field]] or
-[[langlands-letter/knowls/global-local-fields-completions|local field]] and
+[[algebra-fields-galois/local-field|local field]] and
 \(\sigma\) is
 [[algebra-fields-galois/frobenius-endomorphism|Frobenius]],
 then twisted conjugacy is usually called **\(\sigma\)-conjugacy**.  The

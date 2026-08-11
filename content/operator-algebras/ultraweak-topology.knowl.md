@@ -12,7 +12,7 @@ Let \(\mathcal H\) be a [[linear-algebra/hilbert-space|Hilbert space]]. The **ul
 \[
 \operatorname{Tr}(T_iS)\longrightarrow\operatorname{Tr}(TS)
 \]
-for every [[functional-analysis/schatten-class-operator|trace-class operator]] \(S\). Equivalently, it is the weakest locally convex topology making all such trace-pairing functionals continuous. This realizes \(\mathcal B(\mathcal H)\) as a dual [[linear-algebra/banach-space|Banach space]].
+for every [[shale-paper/trace-class-operator|trace-class operator]] \(S\). Equivalently, it is the weakest locally convex topology making all such trace-pairing functionals continuous. This realizes \(\mathcal B(\mathcal H)\) as a dual [[linear-algebra/banach-space|Banach space]].
 
 ## Equivalent seminorm description
 

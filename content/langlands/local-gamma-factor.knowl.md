@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 For a [[langlands/weil-deligne-representation|Weil–Deligne representation]]
 \(V\) of a
-[[langlands-letter/knowls/global-local-fields-completions|local field]]
+[[algebra-fields-galois/local-field|local field]]
 \(F\) and a nontrivial additive
 [[algebra-representation-theory/character|character]] \(\psi\), the **local
 gamma factor** is

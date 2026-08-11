@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|local field]]. For a
+[[algebra-fields-galois/local-field|local field]]. For a
 local [[langlands/arthur-parameter|Arthur parameter]] \(\psi\) of a
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
 \(G\) over \(F\), its **Arthur packet** or **\(A\)-packet**

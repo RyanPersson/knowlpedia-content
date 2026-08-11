@@ -59,7 +59,13 @@ Click any term to expand its definition inline.
 
 ### Number Fields and Local Fields
 
-- [[langlands-letter/knowls/global-local-fields-completions|Global and local fields; completions]]
+- [[langlands-letter/knowls/global-local-fields-completions|Global field]]
+- [[algebra-fields-galois/number-field|Number field]]
+- [[algebra-fields-galois/global-function-field|Global function field]]
+- [[algebra-fields-galois/place-of-global-field|Place of a global field]]
+- [[algebra-fields-galois/completion-at-place|Completion at a place]]
+- [[algebra-fields-galois/local-field|Local field]]
+- [[algebra-fields-galois/nonarchimedean-local-field|Nonarchimedean local field]]
 - [[langlands-letter/knowls/p-adic-field|p-adic field]]
 - [[langlands-letter/knowls/galois-extension-and-group|Galois extension and Galois group]]
 - [[langlands-letter/knowls/unramified-extension-local|Unramified extension of a p-adic field]]

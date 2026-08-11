@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]], let
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let
 \(\Gamma_F=\operatorname{Gal}(F^{\mathrm s}/F)\) be its
 [[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]],
 and let \(I_F\) be its

@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) and \(E\) be
-[[langlands-letter/knowls/global-local-fields-completions|number fields]]. A
+[[algebra-fields-galois/number-field|number fields]]. A
 **weakly compatible system of
 \(n\)-dimensional Galois representations over \(E\)** consists of continuous
 semisimple representations

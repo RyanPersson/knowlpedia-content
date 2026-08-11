@@ -10,8 +10,7 @@ section_mode = "progressive"
 +++
 
 A **\(p\)-adic field** is a finite extension \(F/\mathbb Q_p\). It is a
-nonarchimedean [[langlands-letter/knowls/global-local-fields-completions|local
-field]] of characteristic \(0\).
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] of characteristic \(0\).
 
 Its normalized discrete valuation
 

@@ -10,8 +10,7 @@ section_mode = "progressive"
 +++
 
 Let \(F_v\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean
-local field]] with residue cardinality \(q_v\), let
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] with residue cardinality \(q_v\), let
 \(\pi_v\) be
 [[harmonic-analysis/unramified-representation-p-adic-group|unramified]] with
 [[langlands/satake-parameter|Satake parameter]] \(c(\pi_v)\), and let

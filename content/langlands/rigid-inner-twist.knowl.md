@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|local field]], let
+[[algebra-fields-galois/local-field|local field]], let
 \(G^*\) be a
 [[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split
 connected reductive group]], and choose a finite

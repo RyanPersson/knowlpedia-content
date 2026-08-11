@@ -11,7 +11,7 @@ section_mode = "progressive"
 Let \(G\) be a
 [[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split
 connected reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|local field]] \(F\).
+[[algebra-fields-galois/local-field|local field]] \(F\).
 A **Whittaker datum** for \(G\) is a \(G(F)\)-conjugacy class of pairs
 \(\mathfrak w=(B,\psi)\), where \(B=TU\) is an \(F\)-rational
 [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]] with

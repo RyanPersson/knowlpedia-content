@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]] and let \(G\) be a connected
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] and let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]]. The **Langlands classification** says that every irreducible
 [[harmonic-analysis/admissible-representation-p-adic-group|admissible

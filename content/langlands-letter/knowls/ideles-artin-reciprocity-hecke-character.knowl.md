@@ -10,7 +10,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|number field]].
+[[algebra-fields-galois/number-field|number field]].
 Its **idele group** is the
 [[langlands-letter/knowls/adeles-restricted-product|restricted product]]
 

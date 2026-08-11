@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]] \(E\). A **\(G\)-bundle on the Fargues–Fontaine curve** is a
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] \(E\). A **\(G\)-bundle on the Fargues–Fontaine curve** is a
 [[algebraic-geometry-foundations/principal-g-bundle-on-scheme|principal
 \(G\)-bundle]] on \(X_{S,E}\); equivalently, in
 [[algebra-category-theory/tannakian-category|Tannakian]] form, it is an exact

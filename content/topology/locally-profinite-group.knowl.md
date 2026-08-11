@@ -19,8 +19,7 @@ locally profinite group is a profinite group.
 ## Examples
 
 - The additive and multiplicative groups of a
-  [[langlands-letter/knowls/global-local-fields-completions|nonarchimedean
-  local field]] are
+  [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] are
   locally profinite.
 - If \(G\) is an
   [[algebraic-geometry-foundations/algebraic-group|algebraic group]] over

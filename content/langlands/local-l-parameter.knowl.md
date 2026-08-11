@@ -9,7 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|local field]], let
+[[algebra-fields-galois/local-field|local field]], let
 \(W_F\) denote its [[langlands/weil-group|Weil group]], and let \(G\) be a
 connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]].  The local Langlands group used here is

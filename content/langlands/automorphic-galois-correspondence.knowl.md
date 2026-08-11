@@ -11,7 +11,7 @@ section_mode = "progressive"
 The **automorphic–Galois correspondence** predicts that suitably
 [[langlands/l-algebraic-automorphic-representation|\(L\)-algebraic]]
 [[langlands/automorphic-representation|automorphic representations]] of a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a
-[[langlands-letter/knowls/global-local-fields-completions|number field]]
+[[algebra-fields-galois/number-field|number field]]
 \(F\) have associated continuous \(\ell\)-adic homomorphisms
 
 \[

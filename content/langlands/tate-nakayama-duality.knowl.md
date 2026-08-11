@@ -8,8 +8,7 @@ domains = ["langlands", "algebra-fields-galois", "algebra-homological"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a nonarchimedean
-[[langlands-letter/knowls/global-local-fields-completions|local field]], let
+Let \(F\) be a [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let
 \(T\) be an \(F\)-torus, and let \(\widehat T\) be its complex
 [[langlands-letter/knowls/langlands-dual-group|dual torus]] with
 [[langlands-letter/knowls/galois-extension-and-group|Galois action]]. **Local

@@ -8,8 +8,7 @@ domains = ["harmonic-analysis", "langlands", "functional-analysis"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be a [[langlands-letter/knowls/global-local-fields-completions|local
-field]] and let \(G(F)\) be a local group. Its **test-function space** is
+Let \(F\) be a [[algebra-fields-galois/local-field|local field]] and let \(G(F)\) be a local group. Its **test-function space** is
 denoted
 
 \[

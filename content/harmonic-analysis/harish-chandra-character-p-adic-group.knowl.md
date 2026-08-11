@@ -11,8 +11,7 @@ section_mode = "progressive"
 Let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
 over a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]] \(F\), and let \(\pi\) be an
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] \(F\), and let \(\pi\) be an
 [[harmonic-analysis/admissible-representation-p-adic-group|admissible
 representation]] of \(G(F)\). For a
 [[harmonic-analysis/test-function-space-local-group|test function]]

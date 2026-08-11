@@ -9,8 +9,7 @@ section_mode = "progressive"
 +++
 
 Let \(G=\mathbf G(F)\) for a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|nonarchimedean local
-field]], let \(P=MN\) be a
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let \(P=MN\) be a
 [[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroup]] with
 [[algebraic-geometry-foundations/levi-subgroup|Levi factor]] \(M\) and
 [[algebraic-geometry-foundations/unipotent-radical|unipotent radical]] \(N\),

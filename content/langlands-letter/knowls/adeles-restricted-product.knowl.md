@@ -28,8 +28,7 @@ is the restricted product
 \right\}.
 \]
 
-For a [[langlands-letter/knowls/global-local-fields-completions|number
-field]],
+For a [[algebra-fields-galois/number-field|number field]],
 
 \[
 \mathbb A_F
@@ -38,8 +37,7 @@ field]],
 \times\mathbb A_{F,f}.
 \]
 
-A [[langlands-letter/knowls/global-local-fields-completions|global function
-field]] has no archimedean places, so its full adele ring is
+A [[algebra-fields-galois/global-function-field|global function field]] has no archimedean places, so its full adele ring is
 the corresponding restricted product over all [[algebraic-geometry-foundations/closed-point|closed points]] of its curve.
 
 ## Restricted-product topology
