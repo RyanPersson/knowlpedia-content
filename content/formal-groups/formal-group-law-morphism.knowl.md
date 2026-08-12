@@ -8,8 +8,9 @@ domains = ["formal-groups"]
 section_mode = "progressive"
 +++
 
-Let \(F\) be an \(n\)-dimensional [[formal-groups/formal-group-law|[[formal-groups/formal-group|formal group]]
-law]] over \(R\), and let \(G\) be \(m\)-dimensional. A **morphism of formal
+Let \(F\) be an \(n\)-dimensional
+[[formal-groups/formal-group-law|formal group law]] over \(R\), and let \(G\)
+be \(m\)-dimensional. A **morphism of formal
 group laws**
 \[
 f:F\longrightarrow G

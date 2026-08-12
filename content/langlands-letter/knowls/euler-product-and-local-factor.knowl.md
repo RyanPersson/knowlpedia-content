@@ -1,47 +1,96 @@
 +++
 id = "langlands-letter/knowls/euler-product-and-local-factor"
-title = "Euler Product and Determinant Local \\(L\\)-Factor"
+title = "Euler product and determinant local L-factor"
 kind = "definition"
-summary = "The determinant local L-factor attached to a Satake parameter and its Euler product over unramified places."
+summary = "Unramified and Weil-Deligne local L-factors and their incomplete global Euler product."
 aliases = ["euler-product-and-local-factor", "Euler Product and Determinant Local \\(L\\)-Factor"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/euler-product-and-local-factor.md"
+section_mode = "progressive"
 +++
 
-Let \(F_v\) be a nonarchimedean local field with residue-field cardinality \(q_v\). Let \(\Pi_v\) be an unramified representation with [[langlands-letter/knowls/l-group-satake-parameter|Satake parameter]] \(\alpha_v\), and let
+Let \(F_v\) be a
+[[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] with residue cardinality \(q_v\), let
+\(\pi_v\) be
+[[harmonic-analysis/unramified-representation-p-adic-group|unramified]] with
+[[langlands/satake-parameter|Satake parameter]] \(c(\pi_v)\), and let
+
 \[
-r:{}^LG\longrightarrow\mathrm{GL}(V_r)
+r:{}^LG\longrightarrow\operatorname{GL}(V_r)
 \]
-be a finite-dimensional complex representation. The **unramified local \(L\)-factor** is
+
+be a finite-dimensional algebraic representation of the
+[[langlands/l-group|\(L\)-group]]. The **unramified local
+\(L\)-factor** is
+
 \[
-L_v(s,\Pi_v,r)
+L_v(s,\pi_v,r)
 =
-\det\!\left(1-r(\alpha_v)q_v^{-s}\mid V_r\right)^{-1}.
+\det\!\left(
+1-r(c(\pi_v))q_v^{-s}\mid V_r
+\right)^{-1}.
 \]
-It depends only on the conjugacy class of \(\alpha_v\).
+
+It depends only on the
+[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]
+[[algebra-groups/conjugacy-class|conjugacy class]] and on the chosen
+[[langlands-letter/knowls/frobenius-unramified|Frobenius]] and normalization
+conventions.
 
 ## Euler product
 
-For a global automorphic representation \(\Pi=\bigotimes'_v\Pi_v\), choose a finite set \(S\) containing the archimedean and ramified places. The associated **incomplete Euler product** is
+For a [[langlands/automorphic-representation|global automorphic
+representation]]
+\(\pi=\bigotimes_v'\pi_v\), written as a
+[[langlands/restricted-tensor-product-automorphic-representation|restricted
+tensor product]], let \(S\) contain the
+archimedean places and all places where the data are ramified. The
+**incomplete Euler product** is
+
 \[
-L^S(s,\Pi,r)
-=
-\prod_{v\notin S}L_v(s,\Pi_v,r).
+L^S(s,\pi,r)=\prod_{v\notin S}L_v(s,\pi_v,r).
 \]
-When convergence is known, this product converges in a right half-plane. A completed \(L\)-function also includes the archimedean and ramified local factors.
 
-## Ramified local factors
+It converges absolutely in a right half-plane in the standard automorphic
+settings. A completed \(L\)-function includes specified ramified factors and
+archimedean [[langlands/local-gamma-factor|gamma factors]].
 
-If the local Langlands parameter at \(v\) yields a Weil–Deligne representation \((\rho_v,N_v)\) on \(V_r\), the standard ramified factor is
+## Ramified Weil-Deligne factor
+
+Suppose the composite of a local parameter with \(r\) gives the
+[[langlands/weil-deligne-representation|Weil–Deligne representation]]
+\((\rho_{v,r},N_{v,r})\). With
+[[langlands-letter/knowls/frobenius-unramified|arithmetic Frobenius]] in the
+displayed
+formula, one common convention is
+
 \[
-L_v(s,\Pi_v,r)
+L_v(s,\pi_v,r)
 =
 \det\!\left(
-1-q_v^{-s}\rho_v(\operatorname{Fr}_v)
+1-q_v^{-s}\rho_{v,r}(\operatorname{Frob}_v)
 \;\middle|\;
-(\ker N_v)^{I_v}
-\right)^{-1},
+(\ker N_{v,r})^{I_v}
+\right)^{-1}.
 \]
-with the inverse Frobenius convention adjusted if arithmetic rather than geometric Frobenius is used.
 
-The unramified formula is the special case in which inertia acts trivially and \(N_v=0\).
+Using [[langlands-letter/knowls/frobenius-unramified|geometric Frobenius]]
+replaces the operator by its inverse. Different normalizations of
+[[langlands/local-langlands-correspondence|local Langlands]] can also insert
+a norm twist.
+
+## What the letter could not yet encode
+
+The letter's unramified determinant formula is foundational, but a canonical
+ramified factor needs the later Weil–Deligne and local Langlands
+formalism. Equality of almost-all unramified factors is weaker than full
+local compatibility because it does not recover the
+[[algebra-fields-galois/inertia-subgroup|inertia action]] or
+[[langlands/weil-deligne-representation|monodromy]].
+
+## References
+
+1. Pierre Deligne, “Les constantes des équations fonctionnelles des
+   fonctions \(L\),” in *Modular Functions of One Variable II*, 1973.
+2. A. Borel, “Automorphic \(L\)-functions,” Proc. Sympos. Pure Math. 33,
+   part 2, 1979.

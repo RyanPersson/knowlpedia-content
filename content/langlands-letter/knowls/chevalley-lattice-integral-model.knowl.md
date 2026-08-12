@@ -1,19 +1,67 @@
 +++
 id = "langlands-letter/knowls/chevalley-lattice-integral-model"
-title = "Chevalley Lattice and Integral Model"
+title = "Chevalley lattice and integral model"
 kind = "knowl"
-summary = "A lattice in a representation stable under a Chevalley integral form, yielding integral models at good primes."
+summary = "Integral Lie and representation lattices and the reductive Chevalley group scheme determined by a root datum."
 aliases = ["chevalley-lattice-integral-model", "Chevalley Lattice and Integral Model"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/chevalley-lattice-integral-model.md"
+section_mode = "progressive"
 +++
 
-For split semisimple \(G\), a Chevalley basis yields a **Chevalley \(\mathbb{Z}\)-form** \(\mathfrak g_\mathbb{Z}\subset \mathfrak g\).
+A [[langlands-letter/knowls/chevalley-basis|Chevalley basis]] of a split
+[[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] defines a Lie lattice
+\(\mathfrak g_{\mathbb Z}\) with integral structure constants. To integrate
+this to representations and groups, one uses the Kostant integral form of
+the universal [[lie-groups/universal-enveloping-algebra|enveloping algebra]], including divided powers, and the
+Chevalley–Demazure [[algebraic-geometry-foundations/group-scheme|group
+scheme]] attached to the full
+[[langlands-letter/knowls/roots-weights-weyl|root datum]].
 
-A **Chevalley lattice** in a representation \(V\) is a \(\mathbb{Z}\)-lattice \(V_\mathbb{Z}\subset V\) stable under the action of \(\mathfrak g_\mathbb{Z}\) (equivalently, stable under the corresponding group scheme over \(\mathbb{Z}\)).
+## Representation lattice
 
-For a prime \(p\), base change gives a group scheme \(G_{\mathbb{Z}_p}\) and a canonical compact subgroup \(G(\mathbb{Z}_p)\) (hyperspecial when \(p\) is good; see [[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial]]).
+For a rational representation \(V\), a **Chevalley or admissible lattice**
+is a full \(\mathbb Z\)-lattice \(V_{\mathbb Z}\subset V\) stable under the
+appropriate Kostant \(\mathbb Z\)-form, equivalently under the resulting
+integral
+[[algebraic-geometry-foundations/group-scheme|group-scheme]] action when that
+action has been constructed.
 
-## Remarks
+Stability merely under the Lie lattice
+\(\mathfrak g_{\mathbb Z}\) is not, by itself, equivalent in every
+representation to stability under the integral group scheme; divided-power
+integrality is the stronger condition.
 
-**In the letter:** this is the "lattice-stabilizer" definition of \(G_{\mathbb{Z}_p}\) used to define the spherical Hecke algebra.
+## Integral group model
+
+A split reductive root datum determines a smooth [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] scheme
+\(\mathcal G/\mathbb Z\). [[algebraic-geometry-foundations/base-change|Base change]] gives
+\(\mathcal G_{\mathbb Z_p}\), and
+
+\[
+\mathcal G(\mathbb Z_p)
+\subset
+\mathcal G(\mathbb Q_p)
+\]
+
+is [[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial]]. For
+a reductive group originally defined over a
+[[algebra-fields-galois/number-field|number field]],
+such a reductive integral model exists outside a finite set of bad
+places rather than canonically at every place.
+
+## Relation to the letter
+
+The letter uses lattices to define integral points and hence the
+[[algebraic-geometry-foundations/unramified-reductive-group|unramified]]
+[[harmonic-analysis/hecke-algebra-locally-compact-group-pair|spherical Hecke
+algebra]] at almost all primes. Modern language separates the
+Lie-algebra integral form, an integral representation lattice, and the
+reductive group scheme.
+
+## References
+
+1. Claude Chevalley, “Sur certains groupes simples,” *Tohoku Mathematical
+   Journal* 7 (1955), 14–66.
+2. Michel Demazure and Alexander Grothendieck, eds., *Schémas en groupes
+   (SGA 3)*, Exposés XXII–XXV.

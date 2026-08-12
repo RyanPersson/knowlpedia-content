@@ -2,10 +2,11 @@
 id = "algebra-fields-galois/frobenius-endomorphism"
 title = "Frobenius endomorphism"
 kind = "knowl"
-summary = "In characteristic p, the map x ↦ x^p is a ring endomorphism; on finite fields it is an automorphism."
-aliases = ["frobenius-endomorphism", "Frobenius endomorphism"]
-domains = ["algebra-fields-galois"]
+summary = "In characteristic p, the p-power map is a ring endomorphism and induces the absolute Frobenius morphism of a scheme."
+aliases = ["frobenius-endomorphism", "Frobenius endomorphism", "absolute Frobenius morphism", "absolute Frobenius"]
+domains = ["algebra-fields-galois", "algebraic-geometry-foundations"]
 legacy_source_path = "algebra-fields-galois/frobenius-endomorphism.md"
+section_mode = "progressive"
 +++
 
 Let \(F\) be a [[algebra-rings/field|field]] of [[algebra-rings/characteristic|characteristic]] \(p>0\). The **Frobenius endomorphism** of \(F\) is the map
@@ -20,6 +21,29 @@ If \(F\) is a [[algebra-fields-galois/finite-field|finite field]], then \(\mathr
 
 For \(F=\mathbb{F}_{q^n}\) over \(\mathbb{F}_q\), the \(q\)-power Frobenius \(x\mapsto x^q\) generates the [[algebra-fields-galois/galois-group|Galois group]] of the extension (see [[algebra-fields-galois/finite-field-galois-group-cyclic|finite-field Galois group is cyclic]]), and the fixed field of \(x\mapsto x^q\) is \(\mathbb{F}_q\) (compare [[algebra-fields-galois/fixed-field|fixed field]]).
 
+## Absolute Frobenius of a scheme
+
+If \(X\) is a scheme of characteristic \(p\), the ring maps
+\(a\mapsto a^p\) glue contravariantly to the **absolute Frobenius morphism**
+
+\[
+F_X:X\longrightarrow X.
+\]
+
+It is the identity on the underlying
+[[topology/topological-space|topological space]] and raises local functions to
+their \(p\)th powers. It is a
+[[algebraic-geometry-foundations/morphism-of-schemes|morphism of schemes]] over
+\(\mathbb F_p\), but generally not a morphism over a larger base field \(k\):
+on constants it acts by the Frobenius of \(k\).
+
+For a \(k\)-scheme one therefore also uses the **relative Frobenius**
+\(F_{X/k}:X\to X^{(p)}\), where \(X^{(p)}\) is obtained by
+[[algebraic-geometry-foundations/base-change|base change]] along Frobenius on
+\(k\). [[langlands/partial-frobenius-on-shtukas|Partial Frobenius morphisms]]
+on products and shtuka spaces
+apply relative Frobenius in selected factors.
+
 ## Examples
 
 1. **Prime field.** On \(\mathbb{F}_p\), Frobenius is the identity map since \(a^p=a\) for all \(a\in\mathbb{F}_p\).
@@ -27,3 +51,8 @@ For \(F=\mathbb{F}_{q^n}\) over \(\mathbb{F}_q\), the \(q\)-power Frobenius \(x\
 2. **\(\mathbb{F}_4\).** In \(\mathbb{F}_4=\mathbb{F}_2(\alpha)\) with \(\alpha^2=\alpha+1\), the Frobenius is \(x\mapsto x^2\). It satisfies \(\alpha\mapsto \alpha^2=\alpha+1\) and \(\alpha+1\mapsto (\alpha+1)^2=\alpha\), so it is a nontrivial automorphism of order \(2\).
 
 3. **A non-surjective Frobenius (imperfect field).** Let \(F=\mathbb{F}_p(t)\), the rational function field. Then Frobenius sends \(t\mapsto t^p\), so \(t\) is not a \(p\)th power in \(F\); hence Frobenius is not surjective and not an automorphism.
+
+## References
+
+1. The Stacks Project Authors, “Varieties,” §33.36, “Frobenii.”
+   [Stacks Project](https://stacks.math.columbia.edu/tag/0CC6).

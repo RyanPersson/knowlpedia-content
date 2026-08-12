@@ -2,13 +2,31 @@
 id = "langlands-letter"
 title = "Langlands Letter"
 kind = "section"
-summary = "An annotated reading of Langlands' letter to Weil"
+summary = "A historical annotated reading of Langlands' 1967 letter to Weil, cross-linked to modern Langlands vocabulary."
 aliases = ["langlands-letter", "Langlands Letter"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/_index.md"
 +++
 
-An annotated reading of Robert Langlands' famous 1967 letter to Andre Weil, which launched the Langlands program.
+An annotated reading of Robert Langlands' 1967 letter to André Weil, which
+launched the Langlands program. This collection preserves the language and
+logical route of the source while linking bundled historical pages to the
+separate [[langlands/modern-langlands-index|modern Langlands foundations]].
+
+The letter predates local packets and their refinements, [[langlands/arthur-parameter|Arthur parameters]],
+[[langlands/stable-trace-formula|stabilized trace formulas]], [[langlands/excursion-operator|excursion operators]], categorical geometric
+Langlands, and Fargues--Scholze local geometrization. It should therefore be
+read as a foundational historical document, not as a complete statement of
+the current program.
+
+## Modern companion paths
+
+- [[langlands/local-langlands-correspondence|Local Langlands and packets]]
+- [[langlands/global-langlands-reciprocity|Global reciprocity]]
+- [[langlands/arthur-selberg-trace-formula|Trace formula and endoscopy]]
+- [[langlands/lafforgue-global-parameterization|Function-field parameterization]]
+- [[langlands/fargues-scholze-parameter-map|Local geometrization]]
+- [[langlands/geometric-langlands-index|Geometric Langlands]]
 
 ---
 
@@ -41,7 +59,13 @@ Click any term to expand its definition inline.
 
 ### Number Fields and Local Fields
 
-- [[langlands-letter/knowls/global-local-fields-completions|Global and local fields; completions]]
+- [[langlands-letter/knowls/global-local-fields-completions|Global field]]
+- [[algebra-fields-galois/number-field|Number field]]
+- [[algebra-fields-galois/global-function-field|Global function field]]
+- [[algebra-fields-galois/place-of-global-field|Place of a global field]]
+- [[algebra-fields-galois/completion-at-place|Completion at a place]]
+- [[algebra-fields-galois/local-field|Local field]]
+- [[algebra-fields-galois/nonarchimedean-local-field|Nonarchimedean local field]]
 - [[langlands-letter/knowls/p-adic-field|p-adic field]]
 - [[langlands-letter/knowls/galois-extension-and-group|Galois extension and Galois group]]
 - [[langlands-letter/knowls/unramified-extension-local|Unramified extension of a p-adic field]]

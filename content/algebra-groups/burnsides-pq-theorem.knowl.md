@@ -18,4 +18,4 @@ for primes \(p,q\) and integers \(a,b \ge 0\). Then \(G\) is a [[algebra-groups/
 
 ## Remarks
 
-This theorem is a landmark result: finiteness together with "at most two prime divisors" forces strong structural constraints. Standard proofs use tools from [[algebra-representation-theory/group-representation|representation theory]], especially properties of [[algebra-representation-theory/character|characters]] of finite groups, to produce a nontrivial normal subgroup and then argue by induction on \(|G|\).
+This theorem is a landmark result: finiteness together with "at most two prime divisors" forces strong structural constraints. Standard proofs use tools from [[algebra-representation-theory|representation theory]], especially properties of [[algebra-representation-theory/character|characters]] of finite groups, to produce a nontrivial normal subgroup and then argue by induction on \(|G|\).

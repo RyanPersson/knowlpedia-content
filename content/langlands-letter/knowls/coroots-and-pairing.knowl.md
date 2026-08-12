@@ -1,28 +1,87 @@
 +++
 id = "langlands-letter/knowls/coroots-and-pairing"
-title = "Coroots and the Weight–Coroot Pairing"
+title = "Coroots and the character-cocharacter pairing"
 kind = "knowl"
-summary = "Coroots and their integer pairing with weights, which control dominance and root-system duality."
+summary = "Coroots and their integral pairing with characters, controlling dominance and dual root data."
 aliases = ["coroots-and-pairing", "Coroots and the Weight–Coroot Pairing"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/coroots-and-pairing.md"
+section_mode = "progressive"
 +++
 
-For a root \(\alpha\in \Phi\subset X^*(T)\), the associated **coroot** is the distinguished cocharacter \(\alpha^\vee\in X_*(T)\) in the root datum. A weight \(\lambda\in X^*(T)\) pairs with it by composition:
+For a
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]]
+\(T\), its characters and cocharacters have the perfect
+pairing
+
 \[
-\lambda\circ\alpha^\vee:\mathbb G_m\longrightarrow\mathbb G_m,
-\qquad
-z\longmapsto z^{\langle\lambda,\alpha^\vee\rangle},
+\langle\ ,\ \rangle:
+X^*(T)\times X_*(T)\longrightarrow\mathbb Z
 \]
-which defines the integer \(\langle\lambda,\alpha^\vee\rangle\). In particular,
-\(\langle\alpha,\alpha^\vee\rangle=2\).
+
+defined by
+
+\[
+\lambda\circ\mu(z)=z^{\langle\lambda,\mu\rangle}.
+\]
+
+For every [[langlands-letter/knowls/roots-weights-weyl|root]]
+\(\alpha\in\Phi\subset X^*(T)\), the root datum specifies a
+**coroot** \(\alpha^\vee\in X_*(T)\) satisfying
+
+\[
+\langle\alpha,\alpha^\vee\rangle=2.
+\]
+
+## Reflections and dominance
+
+The root and coroot define reflections
+
+\[
+s_\alpha(\lambda)
+=
+\lambda-\langle\lambda,\alpha^\vee\rangle\alpha,
+\qquad
+s_\alpha(\mu)
+=
+\mu-\langle\alpha,\mu\rangle\alpha^\vee.
+\]
+
+A character \(\lambda\) is dominant relative to a
+[[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]] if
+\(\langle\lambda,\alpha^\vee\rangle\geq0\) for every [[lie-groups/simple-root|simple root]]
+\(\alpha\).
 
 ## Lie-algebra interpretation
 
-Differentiating \(\alpha^\vee\) gives \(H_\alpha=d\alpha^\vee(1)\) in the split Cartan Lie algebra. With the standard identification of differentials, \(d\lambda(H_\alpha)=\langle\lambda,\alpha^\vee\rangle\).
+Differentiating \(\alpha^\vee\) gives a Cartan element \(H_\alpha\). With
+the standard normalization,
 
-## Remarks
+\[
+d\lambda(H_\alpha)
+=
+\langle\lambda,\alpha^\vee\rangle.
+\]
 
-**Key uses:**
-- Dominance: \(\lambda\) is dominant iff \(\langle \lambda,\alpha^\vee\rangle\ge 0\) for all simple \(\alpha\) (see [[langlands-letter/knowls/roots-weights-weyl|dominant weights]]).
-- Duality: swapping roots and coroots produces the [[langlands-letter/knowls/langlands-dual-group|dual group]].
+In positive characteristic,
+[[algebraic-geometry-foundations/group-scheme|group-scheme]]
+[[langlands-letter/knowls/roots-weights-weyl|root data]] remain the safer
+definition because differential maps can lose information.
+
+## Langlands duality
+
+The dual based root datum exchanges
+
+\[
+(X^*(T),\Phi)
+\quad\text{with}\quad
+(X_*(T),\Phi^\vee).
+\]
+
+This exchange defines the
+[[langlands-letter/knowls/langlands-dual-group|Langlands dual group]] and
+turns [[langlands/dominant-coweight|dominant coweights]] of \(G\) into dominant weights of \(\widehat G\).
+
+## References
+
+1. A. Borel, *Linear Algebraic Groups*, second edition, Springer, 1991.

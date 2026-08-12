@@ -1,50 +1,93 @@
 +++
 id = "langlands-letter/knowls/nonabelian-h1-galois-cohomology"
-title = "Nonabelian \\(H^1(\\\\Gamma,G)\\) and 1-Cocycles"
+title = "Nonabelian H1 and Galois 1-cocycles"
 kind = "definition"
-summary = "The pointed set of Galois 1-cocycles modulo twisted conjugacy, classifying torsors under the coefficient group."
-aliases = ["nonabelian-h1-galois-cohomology", "Nonabelian \\(H^1(\\\\Gamma,G)\\) and 1-Cocycles"]
+summary = "The pointed set of continuous Galois 1-cocycles modulo twisted conjugacy."
+aliases = ["nonabelian-h1-galois-cohomology", "Nonabelian \\(H^1(\\Gamma,G)\\) and 1-Cocycles"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/knowls/nonabelian-h1-galois-cohomology.md"
+section_mode = "progressive"
 +++
 
-Let \(K/k\) be a finite Galois extension with group
-\(\Gamma=\operatorname{Gal}(K/k)\), and let an algebraic \(k\)-group \(G\) give the natural action of \(\Gamma\) on \(G(K)\).
+Let a group \(\Gamma\) act on a group \(A\). A **nonabelian
+\(1\)-cocycle** is a map \(z:\Gamma\to A\) satisfying
 
-A **nonabelian \(1\)-cocycle** is a map \(a:\Gamma\to G(K)\) satisfying
 \[
-a_{\sigma\tau}=a_\sigma\cdot {}^\sigma a_\tau.
+z_{\sigma\tau}
+=
+z_\sigma\,{}^\sigma z_\tau.
 \]
 
-Two cocycles are **cohomologous** if
+Two cocycles are cohomologous when they differ by
+[[langlands/twisted-conjugacy|twisted conjugacy]]:
+
 \[
-a'_\sigma=g^{-1}a_\sigma\,{}^\sigma g
+z'_\sigma
+=
+a^{-1}z_\sigma\,{}^\sigma a
 \]
-for some \(g\in G(K)\). The quotient is the **nonabelian cohomology set**
+
+for some \(a\in A\). Their classes form the [[shared-foundations/pointed-set|pointed set]]
+
 \[
-H^1(\Gamma,G(K)).
+H^1(\Gamma,A),
 \]
-It is a pointed set, whose distinguished point is the class of the trivial cocycle \(a_\sigma=1\).
 
-## Torsors and forms
+whose basepoint is the trivial cocycle. Unless \(A\) is abelian, this is not
+naturally a group.
 
-The set \(H^1(k,G)\) classifies \(G\)-torsors over \(k\) up to isomorphism. It should not be identified indiscriminately with the set of inner forms of \(G\):
+## Galois form
 
-- forms of \(G\) are classified by \(H^1(k,\operatorname{Aut}(G_{k_s}))\);
-- inner forms are represented by classes coming from
-  \(H^1(k,G_{\mathrm{ad}})\) through the conjugation map
-  \(G_{\mathrm{ad}}\to\operatorname{Aut}(G)\);
-- a cocycle with values in \(G\) itself defines the more restrictive notion of a **pure inner twist**.
+For an algebraic \(k\)-group \(G\), one writes
 
-Thus the coefficient group is part of the statement and must be recorded.
+\[
+H^1(k,G)
+=
+H^1(\Gamma_k,G(k_s)),
+\]
 
-## Absolute Galois version
+using continuous cocycles for the
+[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]].
+It classifies
+[[algebraic-geometry-foundations/g-torsor-on-a-site|\(G\)-torsors]] over
+\(k\) up to
+isomorphism. If \(K/k\) is finite Galois, then
+\(H^1(\operatorname{Gal}(K/k),G(K))\) records torsors split by \(K\).
 
-For the absolute Galois group
-\(\Gamma_k=\operatorname{Gal}(k_s/k)\), cocycles
-\(\Gamma_k\to G(k_s)\) are required to be continuous. A finite-extension set
-\(H^1(\operatorname{Gal}(K/k),G(K))\) records classes that become trivial after base change to \(K\).
+## Forms require a different coefficient group
 
-## Role in the letter
+[[langlands-letter/knowls/galois-descent-forms|Forms of \(G\)]] are
+classified by \(H^1(k,\operatorname{Aut}(G_{k_s}))\).
+Inner forms come from \(H^1(k,G_{\mathrm{ad}})\), while a pure inner twist
+uses a lift in \(Z^1(k,G)\). Suppressing the coefficient group loses the
+mathematical content.
 
-An inner twisting in the letter is specified by a cocycle in the appropriate inner-automorphism group. “Splitting locally at almost all \(p\)” means that the restricted class becomes trivial for the corresponding local decomposition groups.
+## Stable conjugacy
+
+For a [[langlands/strongly-regular-semisimple-element|strongly regular semisimple]] \(\gamma\) with torus centralizer
+[[algebra-groups/centralizer|\(G_\gamma\)]], rational
+[[algebra-groups/conjugacy-class|conjugacy classes]] inside its
+[[langlands/stable-conjugacy|stable class]] are
+parametrized by
+
+\[
+\ker\!\left[
+H^1(k,G_\gamma)\to H^1(k,G)
+\right].
+\]
+
+This is the cohomological obstruction whose Fourier analysis leads to
+[[langlands/endoscopic-datum|endoscopy]] and
+[[langlands/kappa-orbital-integral|\(\kappa\)-orbital integrals]].
+
+## Relation to the letter
+
+The letter's inner twisting is a class in the appropriate inner
+[[algebra-groups/automorphism-group|automorphism group]]. “Locally trivial at almost all places” means that its
+restriction to the corresponding local cohomology sets is the basepoint.
+
+## References
+
+1. Jean-Pierre Serre, *Galois Cohomology*, Springer, 1997.
+2. Robert E. Kottwitz, “Stable trace formula: cuspidal tempered terms,”
+   *Duke Mathematical Journal* 51 (1984), 611–650.
