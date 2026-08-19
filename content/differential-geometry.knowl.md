@@ -311,6 +311,9 @@ legacy_source_path = "differential-geometry/_index.md"
 
 ## Spectral and gauge-analytic geometry
 
+- [[differential-geometry/geodesic-flow|Geodesic flow]]
+- [[differential-geometry/anosov-flow|Anosov flow]]
+- [[differential-geometry/horocycle-flow|Horocycle flow]]
 - [[differential-geometry/clifford-algebra|Clifford algebra]]
 - [[differential-geometry/clifford-module|Clifford module]]
 - [[differential-geometry/differential-operator-vector-bundles|Differential operator between vector bundles]]

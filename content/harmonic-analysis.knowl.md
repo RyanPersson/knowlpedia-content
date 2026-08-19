@@ -49,6 +49,32 @@ Click any term to expand its definition inline.
 - [[harmonic-analysis/pontryagin-dual|Pontryagin dual]]
 - [[harmonic-analysis/pontryagin-duality-theorem|Pontryagin duality theorem]]
 
+### Fractal uncertainty and Beurling–Malliavin theory
+
+- [[harmonic-analysis/bounded-fourier-support|Bounded Fourier support]]
+- [[harmonic-analysis/paley-wiener-bounded-fourier-support|Paley–Wiener theorem for bounded Fourier support]]
+- [[harmonic-analysis/hilbert-transform|Hilbert transform]]
+- [[harmonic-analysis/poisson-kernel-upper-half-plane|Poisson kernel of the upper half-plane]]
+- [[harmonic-analysis/poisson-extension-upper-half-plane|Poisson extension to the upper half-plane]]
+- [[harmonic-analysis/dirichlet-to-neumann-upper-half-plane|Dirichlet-to-Neumann operator on the upper half-plane]]
+- [[harmonic-analysis/x-ray-transform|X-ray transform]]
+- [[harmonic-analysis/oscillatory-integral|Oscillatory integral]]
+- [[harmonic-analysis/beurling-malliavin-multiplier-theorem|Beurling–Malliavin multiplier theorem]]
+- [[harmonic-analysis/radial-line-growth-functional|Radial-line growth functional of a weight]]
+- [[harmonic-analysis/beurling-malliavin-extension-operator|Linewise Poisson extension operator]]
+- [[harmonic-analysis/exact-plurisubharmonic-beurling-malliavin-proposition|Exact plurisubharmonic Beurling–Malliavin extension]]
+- [[harmonic-analysis/plurisubharmonic-beurling-malliavin-proposition|Plurisubharmonic Beurling–Malliavin proposition]]
+- [[harmonic-analysis/analytic-beurling-malliavin-proposition|Analytic Beurling–Malliavin proposition]]
+- [[harmonic-analysis/higher-dimensional-beurling-malliavin-theorem|Higher-dimensional Beurling–Malliavin multiplier theorem]]
+- [[harmonic-analysis/damping-function|Damping function for a frequency set]]
+- [[harmonic-analysis/damping-function-fup-theorem|Damping-function fractal uncertainty theorem]]
+- [[harmonic-analysis/line-porosity-damping-function-theorem|Damping functions from line porosity]]
+- [[harmonic-analysis/fractal-uncertainty-principle|Fractal uncertainty principle]]
+- [[harmonic-analysis/higher-dimensional-line-porous-fup|Higher-dimensional line-porous fractal uncertainty principle]]
+
+See the [[knowlification/quantum-chaos-index|dependency-ordered batch index]]
+for the associated porosity, several-complex-variables, and quantum-chaos knowls.
+
 ### Positive-definite functions and duality
 
 - [[harmonic-analysis/bochner-theorem-lca|Bochner's theorem for locally compact abelian groups]]

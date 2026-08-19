@@ -110,6 +110,20 @@ Click any term to expand its definition inline.
 - [[differential-geometry/biholomorphism|Biholomorphism]]
 - [[differential-geometry/sheaf-of-holomorphic-functions|Sheaf of holomorphic functions]]
 
+## Potential theory and several complex variables
+
+- [[complex-analysis/harmonic-function|Harmonic function]]
+- [[complex-analysis/harmonic-maximum-principle|Maximum principle for harmonic functions]]
+- [[complex-analysis/upper-semicontinuous-function|Upper-semicontinuous function]]
+- [[complex-analysis/subharmonic-function|Subharmonic function]]
+- [[complex-analysis/log-modulus-subharmonic|Subharmonicity of the logarithmic modulus]]
+- [[complex-analysis/entire-function-several-variables|Entire function of several complex variables]]
+- [[complex-analysis/levi-form|Levi form of a function]]
+- [[complex-analysis/plurisubharmonic-function|Plurisubharmonic function]]
+- [[complex-analysis/strictly-plurisubharmonic-function|Strictly plurisubharmonic function]]
+- [[complex-analysis/hormander-l2-dbar-theorem|Hörmander L2 theorem for the d-bar equation]]
+- [[complex-analysis/holomorphic-l2-mean-value-estimate|Holomorphic L2 mean-value estimate]]
+
 ## References
 
 1. Lars V. Ahlfors, *Complex Analysis*, 3rd ed., McGraw–Hill, 1979.
