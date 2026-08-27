@@ -24,6 +24,10 @@ u(x)=\frac1{|B_r|}\int_{B_r(x)}u(y)\,dy.
 \]
 Equivalently, one may use averages over boundary spheres.
 
+Because the mean-value equality gives both sub-mean inequalities, \(u\) is
+harmonic exactly when both \(u\) and \(-u\) are
+[[complex-analysis/subharmonic-function|subharmonic]].
+
 ## Complex-analytic source
 
 The real and imaginary parts of a holomorphic function are harmonic. Conversely,

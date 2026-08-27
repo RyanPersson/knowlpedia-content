@@ -24,6 +24,15 @@ The metric determines three real two-forms
 \]
 They encode the same pointwise compatibility as the metric, but they need not be closed. The structure is hyperkähler precisely when all three forms are closed; equivalently, the [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]] preserves \(I,J,K\).
 
+## HKT condition
+
+An [[differential-geometry/hkt-metric|HKT metric]] is a hyper-Hermitian metric
+whose three Hermitian Bismut connections coincide. Equivalently, after fixing
+one complex structure, the corresponding complex two-form satisfies a
+\(\partial\)-closedness condition. Thus HKT adds a differential condition to
+the pointwise hyper-Hermitian data but is weaker than the hyperkähler
+condition.
+
 ## Examples and scope
 
 Quaternionic [[linear-algebra/euclidean-space|Euclidean space]] \(\mathbb H^n\), with its flat metric and complex structures given by multiplication by \(i,j,k\), is hyper-Hermitian and in fact hyperkähler. More generally, every [[differential-geometry/hyperkahler-manifold|hyperkähler manifold]] is hyper-Hermitian after forgetting the closedness of its three [[differential-geometry/kahler-form|Kähler forms]].

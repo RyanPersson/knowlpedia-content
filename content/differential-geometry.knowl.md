@@ -189,6 +189,10 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/holomorphic-symplectic-manifold|Holomorphic symplectic manifold]]
 - [[differential-geometry/hyperhermitian-manifold|Hyper-Hermitian manifold]]
 - [[differential-geometry/hypercomplex-manifold|Hypercomplex manifold]]
+- [[differential-geometry/del-j-operator|The del-J operator]]
+- [[differential-geometry/quaternionic-plurisubharmonic-function-hypercomplex|Quaternionic plurisubharmonic function on a hypercomplex manifold]]
+- [[differential-geometry/hkt-metric|HKT metric]]
+- [[differential-geometry/local-hkt-potential|Local HKT potential theorem]]
 - [[differential-geometry/hyperkahler-isometric-immersion|Hyperkähler isometric immersion]]
 - [[differential-geometry/hyperkahler-manifold|Hyperkähler manifold]]
 - [[differential-geometry/hyperkahler-isometry|Hyperkähler isometry]]
@@ -201,6 +205,7 @@ legacy_source_path = "differential-geometry/_index.md"
 - [[differential-geometry/rotating-hyperkahler-isometry|Rotating hyperkähler isometry]]
 - [[differential-geometry/twistor-space-quaternionic-manifold|Twistor space of a quaternionic manifold]]
 - [[differential-geometry/triholomorphic-map|Triholomorphic map]]
+- [[differential-geometry/octonionic-projective-line|Octonionic projective line]]
 
 ## Grassmannians and linear symplectic geometry
 

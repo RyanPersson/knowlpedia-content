@@ -32,6 +32,16 @@ is an [[differential-geometry/almost-quaternionic-manifold|almost-quaternionic s
 
 If \(M\) also has a Riemannian metric that is Hermitian for \(I,J,K\) and whose Levi-Civita connection preserves the triple, then \(M\) is hyperkähler. Metric compatibility alone gives a [[differential-geometry/hyperhermitian-manifold|hyper-Hermitian manifold]] and does not force the associated two-forms to be closed.
 
+## Quaternionic potential theory
+
+After choosing \(I\), the [[differential-geometry/del-j-operator|
+\(\partial_J\) operator]] combines with the Dolbeault operator to form
+\(\partial\partial_Ju\). Positivity of this form defines a
+[[differential-geometry/quaternionic-plurisubharmonic-function-hypercomplex|
+quaternionic plurisubharmonic function on a hypercomplex manifold]]. Its
+strictly positive smooth local potentials produce
+[[differential-geometry/hkt-metric|HKT metrics]].
+
 ## Examples and non-examples
 
 The quaternionic vector space \(\mathbb H^n\), and every quotient of it by a lattice acting by translations, has the constant hypercomplex triple given by left multiplication by \(i,j,k\). More generally, a [[differential-geometry/hyperkahler-manifold|hyperkähler manifold]] is hypercomplex after forgetting its metric.

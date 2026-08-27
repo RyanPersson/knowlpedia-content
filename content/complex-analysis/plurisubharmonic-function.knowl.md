@@ -9,9 +9,9 @@ section_mode = "progressive"
 +++
 
 Let \(U\subseteq\mathbb C^d\) be open. A function
-\(u:U\to[-\infty,\infty\)) is **plurisubharmonic** if it is
+\(u:U\to[-\infty,\infty)\) is **plurisubharmonic** if it is
 [[complex-analysis/upper-semicontinuous-function|upper-semicontinuous]] and,
-for every affine complex line \(L\\), the restriction \(u|_{U\cap L}\) is
+for every affine complex line \(L\), the restriction \(u|_{U\cap L}\) is
 [[complex-analysis/subharmonic-function|subharmonic]] or identically
 \(-\infty\) on each component.
 
@@ -25,6 +25,21 @@ semidefiniteness of its [[complex-analysis/levi-form|Levi form]]:
 v_j\overline{v_k}\ge0
 \]
 for all \(z\in U\) and \(v\in\mathbb C^d\).
+
+## Comparison with ordinary subharmonicity
+
+Every plurisubharmonic function is
+[[complex-analysis/subharmonic-function|subharmonic]] on the underlying real
+domain in \(\mathbb R^{2d}\). For a \(C^2\) function, the ordinary Laplacian is
+four times the trace of the Levi matrix, so positivity of the whole Levi form
+implies positivity of its trace. The converse fails when \(d>1\): ordinary
+subharmonicity controls only that trace.
+
+The exact relationship with [[complex-analysis/harmonic-function|harmonic]]
+and [[complex-analysis/pluriharmonic-function|pluriharmonic]] functions is
+recorded in the
+[[complex-analysis/harmonic-subharmonic-pluriharmonic-relations|H/SH/PSH/PH
+comparison theorem]].
 
 ## Holomorphic logarithms
 

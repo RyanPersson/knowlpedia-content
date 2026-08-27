@@ -25,6 +25,7 @@ groups, from general definitions through the Albert algebra and Peirce theory.
 
 - [[nonassociative-algebra/octonion-algebra|Octonion algebra]]
 - [[nonassociative-algebra/octonion-conjugation-norm-and-inner-product|Octonion conjugation, norm, and inner product]]
+- [[nonassociative-algebra/octonionic-two-by-two-determinant|Determinant of a two-by-two octonionic Hermitian matrix]]
 - [[nonassociative-algebra/octonions-as-complex-vectors|Octonions as complex vectors]]
 - [[nonassociative-algebra/conjugated-cross-product-on-c3|Conjugated cross product on \(\mathbb C^3\)]]
 - [[nonassociative-algebra/su3-stabilizer-of-a-complex-octonion-subalgebra|\(SU(3)\) stabilizer of a complex octonion subalgebra]]
@@ -83,3 +84,4 @@ The automorphism group of the octonions is the [[lie-groups/compact-exceptional-
 ## Paper-guided expansion
 
 - [[knowlification/baez-e7-jordan-paper-expansion|Complete E7 and exceptional Jordan-algebra paper index]]
+- [[knowlification/quaternionic-psh-convexity-expansion|Complete quaternionic PSH, convexity, and octonionic paper index]]

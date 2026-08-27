@@ -116,13 +116,42 @@ Click any term to expand its definition inline.
 - [[complex-analysis/harmonic-maximum-principle|Maximum principle for harmonic functions]]
 - [[complex-analysis/upper-semicontinuous-function|Upper-semicontinuous function]]
 - [[complex-analysis/subharmonic-function|Subharmonic function]]
+- [[complex-analysis/pluriharmonic-function|Pluriharmonic function]]
+- [[complex-analysis/harmonic-subharmonic-pluriharmonic-relations|Relations among H, SH, PSH, and PH]]
 - [[complex-analysis/log-modulus-subharmonic|Subharmonicity of the logarithmic modulus]]
 - [[complex-analysis/entire-function-several-variables|Entire function of several complex variables]]
 - [[complex-analysis/levi-form|Levi form of a function]]
 - [[complex-analysis/plurisubharmonic-function|Plurisubharmonic function]]
 - [[complex-analysis/strictly-plurisubharmonic-function|Strictly plurisubharmonic function]]
+- [[complex-analysis/complex-monge-ampere-operator|Complex Monge–Ampère operator]]
 - [[complex-analysis/hormander-l2-dbar-theorem|Hörmander L2 theorem for the d-bar equation]]
 - [[complex-analysis/holomorphic-l2-mean-value-estimate|Holomorphic L2 mean-value estimate]]
+
+## Quaternionic pluripotential theory
+
+- [[complex-analysis/cauchy-fueter-operators|Cauchy–Fueter operators]]
+- [[complex-analysis/quaternionic-hessian|Quaternionic Hessian]]
+- [[complex-analysis/quaternionic-plurisubharmonic-function|Quaternionic plurisubharmonic function]]
+- [[complex-analysis/strictly-quaternionic-plurisubharmonic-function|Strictly quaternionic plurisubharmonic function]]
+- [[complex-analysis/quaternionic-monge-ampere-measure|Quaternionic Monge–Ampère measure]]
+- [[complex-analysis/mixed-quaternionic-monge-ampere-measure|Mixed quaternionic Monge–Ampère measure]]
+- [[complex-analysis/quaternionic-monge-ampere-continuity-theorem|Continuity of quaternionic Monge–Ampère measures]]
+- [[complex-analysis/quaternionic-blocki-formula|Quaternionic Błocki formula]]
+- [[complex-analysis/quaternionic-monge-ampere-equation|Quaternionic Monge–Ampère equation]]
+- [[complex-analysis/strictly-quaternionically-pseudoconvex-domain|Strictly quaternionically pseudoconvex domain]]
+- [[complex-analysis/quaternionic-monge-ampere-dirichlet-theorem|Dirichlet theorem for the quaternionic Monge–Ampère equation]]
+
+## Octonionic pluripotential theory on the plane
+
+- [[complex-analysis/octonionic-affine-line|Affine octonionic line]]
+- [[complex-analysis/octonionic-radon-transform|Octonionic Radon transform]]
+- [[complex-analysis/octonionic-hessian|Octonionic Hessian]]
+- [[complex-analysis/octonionic-plurisubharmonic-function|Octonionic plurisubharmonic function]]
+- [[complex-analysis/octonionic-monge-ampere-measure|Octonionic Monge–Ampère measure]]
+
+## Paper-guided expansion
+
+- [[knowlification/quaternionic-psh-convexity-expansion|Complete quaternionic PSH, convexity, HKT, and octonionic index]]
 
 ## References
 
