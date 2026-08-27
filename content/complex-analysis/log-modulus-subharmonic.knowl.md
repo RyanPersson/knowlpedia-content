@@ -19,7 +19,7 @@ in the sense of [[functional-analysis/distribution|distributions]],
 ## Away from the zeros
 
 Where \(f\ne0\), a local holomorphic logarithm exists and
-\(\log|f|\\) is the real part of that logarithm, hence harmonic. All positive
+\(\log|f|\) is the real part of that logarithm, hence harmonic. All positive
 Laplacian mass is concentrated at the zeros.
 
 ## Multiplicity

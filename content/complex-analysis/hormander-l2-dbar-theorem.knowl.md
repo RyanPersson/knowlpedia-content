@@ -38,5 +38,5 @@ ensuring \(f\) is nonzero.
 
 ## References
 
-1. Lars Hörmander, “(L^2) estimates and existence theorems for the (\bar\partial) operator,” *Acta Mathematica* 113 (1965), 89–152. [DOI record](https://doi.org/10.1007/BF02391775).
+1. Lars Hörmander, “\(L^2\) estimates and existence theorems for the \(\bar\partial\) operator,” *Acta Mathematica* 113 (1965), 89–152. [DOI record](https://doi.org/10.1007/BF02391775).
 2. Lars Hörmander, *An Introduction to Complex Analysis in Several Variables*, 3rd ed., North-Holland, 1990.

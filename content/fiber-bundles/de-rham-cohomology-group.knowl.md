@@ -11,8 +11,8 @@ legacy_source_path = "fiber-bundles/de-rham-cohomology-group.md"
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. The [[fiber-bundles/exterior-derivative|exterior derivative]] makes the graded vector space of [[fiber-bundles/differential-k-form|differential forms]] into a cochain complex \((\Omega^\ast(M),d)\). Its cohomology is the **de Rham cohomology**.
 
 Define
-- \(Z^k(M)\) as the space of [[fiber-bundles/closed-differential-form|closed \\(k\\)-forms]] (those \(\omega\) with \(d\omega=0\)),
-- \(B^k(M)\) as the space of [[fiber-bundles/exact-differential-form|exact \\(k\\)-forms]] (those \(\omega\) with \(\omega=d\eta\)).
+- \(Z^k(M)\) as the space of [[fiber-bundles/closed-differential-form|closed \(k\)-forms]] (those \(\omega\) with \(d\omega=0\)),
+- \(B^k(M)\) as the space of [[fiber-bundles/exact-differential-form|exact \(k\)-forms]] (those \(\omega\) with \(\omega=d\eta\)).
 
 Because \(d^2=0\), every exact form is closed, so \(B^k(M)\subseteq Z^k(M)\). The **\(k\)th de Rham cohomology group** is the quotient vector space
 \[

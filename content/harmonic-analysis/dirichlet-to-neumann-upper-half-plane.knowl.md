@@ -10,7 +10,7 @@ section_mode = "progressive"
 
 Let \(u\) be the
 [[harmonic-analysis/poisson-extension-upper-half-plane|Poisson extension]] of
-sufficiently regular boundary data \(f\\) on \(\mathbb R\). The
+sufficiently regular boundary data \(f\) on \(\mathbb R\). The
 **Dirichlet-to-Neumann operator** sends \(f\) to the boundary normal derivative
 \[
 \Lambda f=-\partial_yu(\,\cdot\,+i0).

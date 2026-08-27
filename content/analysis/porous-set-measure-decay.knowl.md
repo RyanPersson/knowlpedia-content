@@ -26,7 +26,7 @@ saving.
 
 ## Quantitative exponent
 
-One may choose \(\gamma\\) comparable from below to
+One may choose \(\gamma\) comparable from below to
 \(\nu^d/|\log\nu|\), with a dimension-dependent constant. Sharpness of this
 particular expression is not asserted.
 

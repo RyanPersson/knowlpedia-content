@@ -22,7 +22,7 @@ Equivalently,
 \[
 \operatorname{ht}(\mathfrak p)=\dim(R_{\mathfrak p}),
 \]
-where \(R_{\mathfrak p}\) is the [[algebra-commutative/localization-at-prime|localization at \mathfrak p]] and \(\dim\) denotes [[algebra-commutative/krull-dimension|Krull dimension]]. In particular, the dimension of \(R\) is the supremum of the heights of its prime ideals.
+where \(R_{\mathfrak p}\) is the [[algebra-commutative/localization-at-prime|localization at \(\mathfrak p\)]] and \(\dim\) denotes [[algebra-commutative/krull-dimension|Krull dimension]]. In particular, the dimension of \(R\) is the supremum of the heights of its prime ideals.
 
 ### Examples
 

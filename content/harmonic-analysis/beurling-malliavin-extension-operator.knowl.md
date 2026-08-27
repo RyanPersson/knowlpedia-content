@@ -18,7 +18,7 @@ When \(y=0\), the formula gives \(E\omega(x)=\omega(x)\).
 
 ## Linewise harmonicity
 
-For fixed \(x\\) and nonzero \(y\), restriction to the complex line
+For fixed \(x\) and nonzero \(y\), restriction to the complex line
 \(z\mapsto x+zy\) is the
 [[harmonic-analysis/poisson-extension-upper-half-plane|Poisson extension]] of
 the restriction of \(\omega\) to the real line \(x+\mathbb R y\). Thus it is

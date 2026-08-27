@@ -15,7 +15,7 @@ The **maximal spectrum** of \(R\) is the set
 \operatorname{MaxSpec}(R) := \{\mathfrak m \subset R \mid \mathfrak m \text{ is a maximal ideal}\}.
 \]
 
-There is always an inclusion \(\operatorname{MaxSpec}(R)\subseteq \operatorname{Spec}(R)\) (see [[algebra-commutative/prime-spectrum|prime spectrum]]), since every maximal ideal is prime. One typically topologizes \(\operatorname{MaxSpec}(R)\) by the subspace topology induced from the [[algebra-commutative/zariski-topology|Zariski topology on \operatorname{Spec}(R)]]. Concretely, for an ideal \(I\subseteq R\) the corresponding closed subset of \(\operatorname{MaxSpec}(R)\) is
+There is always an inclusion \(\operatorname{MaxSpec}(R)\subseteq \operatorname{Spec}(R)\) (see [[algebra-commutative/prime-spectrum|prime spectrum]]), since every maximal ideal is prime. One typically topologizes \(\operatorname{MaxSpec}(R)\) by the subspace topology induced from the [[algebra-commutative/zariski-topology|Zariski topology on \(\operatorname{Spec}(R)\)]]. Concretely, for an ideal \(I\subseteq R\) the corresponding closed subset of \(\operatorname{MaxSpec}(R)\) is
 \[
 V(I)\cap \operatorname{MaxSpec}(R)=\{\mathfrak m\in \operatorname{MaxSpec}(R)\mid I\subseteq \mathfrak m\}.
 \]
