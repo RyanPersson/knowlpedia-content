@@ -5,6 +5,7 @@ kind = "knowl"
 summary = "A vector space together with a norm, giving a notion of distance and convergence."
 aliases = ["normed-vector-space", "Normed vector space"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/norm"]
 legacy_source_path = "linear-algebra/normed-vector-space.md"
 +++
 

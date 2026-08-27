@@ -5,6 +5,7 @@ kind = "knowl"
 summary = "A complete normed vector space."
 aliases = ["banach-space", "Banach space"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/normed-vector-space", "topology/complete-metric-space"]
 legacy_source_path = "linear-algebra/banach-space.md"
 +++
 

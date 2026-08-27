@@ -5,6 +5,7 @@ kind = "knowl"
 summary = "A complete inner product space."
 aliases = ["hilbert-space", "Hilbert space"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/inner-product-space", "topology/complete-metric-space"]
 legacy_source_path = "linear-algebra/hilbert-space.md"
 +++
 
