@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Notation convention that the adjoint bundle is formed using the conjugation action of the structure group on itself"
 aliases = ["convention-ad-p-g-g-uses-conjugation-action-gh-ghg-1", "Convention: Ad(P) uses the conjugation action on G"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/associated-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/convention-ad-p-g-g-uses-conjugation-action-gh-ghg-1.md"
 +++
 

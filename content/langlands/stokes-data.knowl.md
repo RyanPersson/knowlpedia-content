@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The sectorial transition data that, together with formal type, classify an irregular meromorphic connection analytically."
 aliases = ["Stokes matrices", "Stokes local system"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["langlands/irregular-singular-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

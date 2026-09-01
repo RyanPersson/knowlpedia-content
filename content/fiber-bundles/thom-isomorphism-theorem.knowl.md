@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Cup product with the Thom class shifts the cohomology of a bundle base into the relative cohomology of its total space."
 aliases = ["Thom isomorphism", "Thom-Gysin isomorphism"]
 domains = ["fiber-bundles", "topology"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/thom-class"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

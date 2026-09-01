@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The decomposition of a real reductive Lie algebra into the two eigenspaces of a Cartan involution."
 aliases = ["k plus p decomposition", "infinitesimal Cartan decomposition"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/cartan-involution-real-lie-algebra", "lie-groups/reductive-lie-algebra", "lie-groups/lie-algebra-automorphism", "lie-groups/lie-subalgebra", "linear-algebra/inner-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

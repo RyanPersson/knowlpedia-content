@@ -54,6 +54,17 @@ This section covers field theory and Galois theory: field extensions, algebraic 
 - [[algebra-fields-galois/frobenius-endomorphism|Frobenius endomorphism]]
 - [[algebra-fields-galois/cyclotomic-polynomial|Cyclotomic polynomial]]
 
+### Global and Local Fields
+- [[langlands-letter/knowls/global-local-fields-completions|Global field]]
+- [[algebra-fields-galois/number-field|Number field]]
+- [[algebra-fields-galois/global-function-field|Global function field]]
+- [[algebra-fields-galois/place-of-global-field|Place of a global field]]
+- [[algebra-fields-galois/completion-at-place|Completion of a field at a place]]
+- [[algebra-fields-galois/local-field|Local field]]
+- [[algebra-fields-galois/archimedean-local-field|Archimedean local field]]
+- [[algebra-fields-galois/nonarchimedean-local-field|Nonarchimedean local field]]
+- [[langlands-letter/knowls/p-adic-field|\(p\)-adic field]]
+
 ### Cyclotomic Extensions
 - [[algebra-fields-galois/primitive-root-of-unity|Primitive root of unity]]
 - [[algebra-fields-galois/cyclotomic-extension|Cyclotomic extension]]

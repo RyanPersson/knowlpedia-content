@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A linear operator whose unit ball image has compact closure."
 aliases = ["compact-operator", "Compact operator"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/linear-operator", "linear-algebra/normed-vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/compact-operator.md"
 +++
 

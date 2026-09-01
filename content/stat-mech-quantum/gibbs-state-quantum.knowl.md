@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For a finite quantum system, the Gibbs state is the normalized exponential of minus inverse temperature times the Hamiltonian."
 aliases = ["gibbs-state-quantum", "Quantum Gibbs state"]
 domains = ["stat-mech-quantum"]
+prerequisites = ["stat-mech-quantum/quantum-hamiltonian", "quantum-foundations/density-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "stat-mech-quantum/gibbs-state-quantum.md"
 +++
 

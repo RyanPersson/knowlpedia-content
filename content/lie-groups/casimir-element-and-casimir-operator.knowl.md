@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A basis-independent central element of an enveloping algebra and the operator through which it acts in a representation."
 aliases = ["quadratic Casimir", "Casimir invariant"]
 domains = ["lie-groups", "algebra-representation-theory"]
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/killing-form", "lie-groups/universal-enveloping-algebra", "lie-groups/center-of-universal-enveloping-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

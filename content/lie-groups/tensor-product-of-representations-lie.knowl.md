@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The diagonal action on a tensor product, defined by tensoring group actions or by the Leibniz rule for Lie algebras."
 aliases = ["tensor-product-of-representations-lie", "Tensor product of representations"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/representation-of-a-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/tensor-product-of-representations-lie.md"
 +++
 

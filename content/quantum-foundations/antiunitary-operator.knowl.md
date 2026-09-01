@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A conjugate-linear surjective isometry of a complex Hilbert space."
 aliases = ["antiunitary transformation", "anti-unitary operator"]
 domains = ["quantum-foundations", "functional-analysis"]
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/inner-product", "functional-analysis/unitary-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

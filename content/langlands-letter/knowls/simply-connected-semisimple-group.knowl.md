@@ -1,19 +1,72 @@
 +++
 id = "langlands-letter/knowls/simply-connected-semisimple-group"
-title = "Simply Connected Semisimple Algebraic Group"
+title = "Simply connected semisimple algebraic group"
 kind = "knowl"
-summary = "A semisimple group with no nontrivial central isogeny covers (in the sense of algebraic groups)"
+summary = "A semisimple algebraic group with no nontrivial central isogeny cover."
 aliases = ["simply-connected-semisimple-group", "Simply Connected Semisimple Algebraic Group"]
 domains = ["langlands-letter"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-groups/center-of-group", "langlands-letter/knowls/root-vs-weight-lattice-isogeny"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "langlands-letter/knowls/simply-connected-semisimple-group.md"
+section_mode = "progressive"
 +++
 
-A **semisimple** algebraic group is a connected reductive group with trivial connected center (equivalently, its root datum has no torus factor).
+A connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive algebraic group]] is **semisimple** if its connected
+[[algebra-groups/center-of-group|center]] is trivial, equivalently if it has
+no positive-dimensional central
+torus.
 
-A **central isogeny** \(f:G_1\to G_2\) is a surjective morphism of connected algebraic groups with finite kernel contained in the center of \(G_1\).
+A **[[langlands-letter/knowls/root-vs-weight-lattice-isogeny|central
+isogeny]]** \(f:H\to G\) of connected semisimple groups is a
+surjective morphism with finite central kernel. The group \(G\) is
+**simply connected** in the algebraic sense if every central isogeny
+\(H\to G\) is an isomorphism.
 
-A semisimple group \(G\) is **simply connected** if every central isogeny \(H\to G\) is an isomorphism (equivalently, the **cocharacter lattice** \(X_*(T)\) equals the **coroot lattice** for a maximal torus \(T\)).
+## Root-datum criterion
 
-## Remarks
+For a
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]]
+\(T\subset G\), semisimple \(G\) is simply connected
+exactly when
 
-**In the letter:** \(G_e\) is chosen with "simply connected non-abelian factors" so that lattices and duals behave cleanly.
+\[
+X_*(T)=\mathbb Z\Phi^\vee,
+\]
+
+the [[langlands-letter/knowls/coroots-and-pairing|coroot lattice]].
+Equivalently, its character lattice is the full
+[[lie-groups/weight-lattice|weight lattice]].
+
+Every connected semisimple group has a simply connected central cover
+
+\[
+G_{\mathrm{sc}}\longrightarrow G.
+\]
+
+## Not topological simple connectedness
+
+This is a notion in the category of [[algebraic-geometry-foundations/algebraic-group|algebraic groups]]. Over
+\(\mathbb C\), it is closely related to simple connectedness of the
+associated [[lie-groups/complex-lie-group|complex Lie group]], but over \(\mathbb R\) or a nonarchimedean
+field it should not be defined from the topology of \(G(F)\).
+
+For example, \(\operatorname{SL}_n\) is algebraically simply connected,
+whereas \(\operatorname{PGL}_n\) is adjoint and not simply connected.
+
+## Langlands duality
+
+The [[langlands-letter/knowls/langlands-dual-group|Langlands dual]] of a
+simply connected semisimple group is adjoint, and the dual of an adjoint
+group is simply connected. This is the isogeny-form information carried by
+the [[langlands-letter/knowls/roots-weights-weyl|root datum]].
+
+## Relation to the letter
+
+The letter chooses simply connected nonabelian factors so that the root,
+weight, and [[langlands-letter/knowls/dual-lattice|dual lattice]] constructions have their clean extremal form.
+
+## References
+
+1. A. Borel, *Linear Algebraic Groups*, second edition, Springer, 1991.
+2. Robert Steinberg, *Lectures on Chevalley Groups*, AMS, 2016.

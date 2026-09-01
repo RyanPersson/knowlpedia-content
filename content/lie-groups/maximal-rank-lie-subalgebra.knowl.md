@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A subalgebra reductive in its ambient reductive Lie algebra and having the same rank as the ambient algebra."
 aliases = ["maximal-rank Lie subalgebra", "subalgebra of maximal rank", "equal-rank Lie subalgebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/reductive-lie-algebra", "lie-groups/cartan-subalgebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

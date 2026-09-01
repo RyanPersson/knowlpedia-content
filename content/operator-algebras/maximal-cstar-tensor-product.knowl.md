@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The universal C*-completion of an algebraic tensor product, defined by taking the supremum over representations with commuting ranges."
 aliases = ["universal C*-tensor product", "maximal tensor product"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/cstar-representation", "linear-algebra/hilbert-space", "operator-algebras/cstar-tensor-norm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

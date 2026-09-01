@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If f≠0 is linear, then codim(ker f)=1."
 aliases = ["kernel-of-a-nonzero-linear-functional-has-codimension-one", "Kernel of a Nonzero Functional Has Codimension One"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/image-and-kernel-linear-isomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/kernel-of-a-nonzero-linear-functional-has-codimension-one.md"
 +++
 

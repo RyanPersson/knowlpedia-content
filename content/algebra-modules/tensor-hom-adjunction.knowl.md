@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The natural identification Hom(M⊗N,P) ≅ Hom(M,Hom(N,P))."
 aliases = ["tensor-hom-adjunction", "Tensor–Hom adjunction"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/tensor-product", "algebra-modules/hom-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/tensor-hom-adjunction.md"
 +++
 

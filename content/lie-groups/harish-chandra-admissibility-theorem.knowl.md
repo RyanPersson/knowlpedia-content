@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Every irreducible unitary representation of a real reductive group has finite multiplicity for each irreducible maximal-compact-subgroup type."
 aliases = ["admissibility theorem for irreducible unitary representations"]
 domains = ["lie-groups", "representation-theory"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/irreducible-unitary-representation", "lie-groups/k-type"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

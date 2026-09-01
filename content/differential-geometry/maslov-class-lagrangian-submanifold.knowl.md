@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The pullback of the universal Maslov class along the Lagrangian Gauss map of a Lagrangian immersion."
 aliases = ["Lagrangian Maslov class"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/lagrangian-gauss-map", "differential-geometry/maslov-class-lagrangian-grassmannian", "differential-geometry/symplectic-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

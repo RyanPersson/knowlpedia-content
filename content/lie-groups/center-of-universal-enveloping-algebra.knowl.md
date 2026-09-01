@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The commutative subalgebra of enveloping-algebra elements that commute with every element."
 aliases = ["infinitesimal center", "Z(U(g))"]
 domains = ["lie-groups", "algebra-rings"]
+prerequisites = ["lie-groups/lie-algebra", "algebra-rings/field", "lie-groups/universal-enveloping-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

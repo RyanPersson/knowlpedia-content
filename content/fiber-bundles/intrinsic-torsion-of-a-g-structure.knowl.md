@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The connection-independent torsion class that obstructs a G-structure from admitting a torsion-free compatible connection."
 aliases = ["intrinsic torsion", "torsion class of a G-structure"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["lie-groups/lie-algebra", "fiber-bundles/g-structure", "fiber-bundles/connection-compatible-with-a-reduction", "fiber-bundles/associated-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

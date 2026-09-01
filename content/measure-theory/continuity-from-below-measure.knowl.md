@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For increasing measurable sets, the measure of the union is the limit of the measures."
 aliases = ["continuity-from-below-measure", "Continuity from below"]
 domains = ["measure-theory"]
+prerequisites = ["measure-theory/measure-space", "measure-theory/continuity-from-above-measure", "measure-theory/measure", "measure-theory/measurable-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/continuity-from-below-measure.md"
 +++
 

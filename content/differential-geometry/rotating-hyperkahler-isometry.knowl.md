@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Riemannian isometry that carries one specified hyperkähler triple to a constant SO(3)-rotation of the other."
 aliases = ["rotating hyper-Kähler isometry", "SO(3)-rotating hyperkähler isometry"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/hyperkahler-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

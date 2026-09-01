@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Invertible operators whose positive part differs from I by a Hilbert–Schmidt operator"
 aliases = ["restricted-general-linear-group-rgl", "Restricted General Linear Group rGL(H)"]
 domains = ["shale-paper"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shale-paper/restricted-general-linear-group-rgl.md"
 +++
 

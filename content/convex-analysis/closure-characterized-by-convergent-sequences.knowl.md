@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In a metric space, a point lies in a set's closure exactly when a sequence from the set converges to it."
 aliases = ["closure-characterized-by-convergent-sequences", "Closure via sequences"]
 domains = ["convex-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/closure-characterized-by-convergent-sequences.md"
 +++
 

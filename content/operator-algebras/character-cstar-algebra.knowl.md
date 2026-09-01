@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A nonzero multiplicative star-homomorphism from a C-star algebra to the complex numbers."
 aliases = ["C*-character", "multiplicative state"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/star-homomorphism", "operator-algebras/state-cstar-algebra", "algebra-rings/two-sided-ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

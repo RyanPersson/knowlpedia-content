@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The largest subgroup in which a given subgroup becomes normal"
 aliases = ["normalizer"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/normalizer.md"
 +++
 

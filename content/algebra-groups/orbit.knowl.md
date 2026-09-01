@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set of points reachable from a given point under a group action"
 aliases = ["orbit"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group-action"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/orbit.md"
 +++
 

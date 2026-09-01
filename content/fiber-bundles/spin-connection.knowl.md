@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The lift of the Levi–Civita connection from the oriented orthonormal frame bundle to a chosen spin structure."
 aliases = ["lifted Levi–Civita connection", "connection on a spin bundle"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/spin-structure", "fiber-bundles/principal-connection", "fiber-bundles/levicivita-connection-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

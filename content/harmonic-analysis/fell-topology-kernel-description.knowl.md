@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The kernel description of Fell topology expresses closure of irreducible representations through containment of intersections of their kernels."
 aliases = ["primitive-ideal description of Fell topology", "hull-kernel convergence"]
 domains = ["harmonic-analysis", "operator-algebras"]
+prerequisites = ["topology/locally-compact-group", "operator-algebras/full-group-cstar-algebra", "algebra-representation-theory/irreducible-representation", "harmonic-analysis/unitary-dual", "harmonic-analysis/fell-topology"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

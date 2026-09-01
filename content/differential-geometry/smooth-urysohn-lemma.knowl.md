@@ -5,6 +5,9 @@ kind = "lemma"
 summary = "Disjoint closed subsets of a smooth manifold can be separated by a smooth function valued between zero and one."
 aliases = ["smooth separation lemma", "smooth cutoff lemma"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "topology/closed-set", "fiber-bundles/smooth-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

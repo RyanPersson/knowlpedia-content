@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A locally ringed space obtained as the prime spectrum of a commutative ring."
 aliases = ["affine-scheme", "Affine scheme"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/locally-ringed-space", "algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum", "algebra-commutative/zariski-topology", "algebraic-geometry-foundations/structure-sheaf"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebraic-geometry-foundations/affine-scheme.md"
 +++
 
@@ -16,5 +19,7 @@ for some [[algebra-rings/commutative-ring|commutative ring]] \(A\). Here \(\oper
 \[
 \Gamma(\operatorname{Spec}A,\mathcal O_{\operatorname{Spec}A})\cong A.
 \]
+
+## Examples
 
 For example, if \(k\) is a field, \(\operatorname{Spec}k\) is a one-point affine scheme whose local ring is \(k\). The [[algebraic-geometry-foundations/affine-line|affine line]] \(\operatorname{Spec}k[x]\) is another affine scheme, but it contains more than the familiar \(k\)-valued points: it also has points corresponding to other prime ideals, including a [[algebraic-geometry-foundations/generic-point|generic point]]. General [[algebraic-geometry-foundations/scheme|schemes]] are assembled by gluing affine schemes along open subsets.

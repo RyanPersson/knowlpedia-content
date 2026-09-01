@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The effective domain of an extended-real-valued convex function is a convex set."
 aliases = ["domain-of-a-convex-function-is-convex", "Domain of a convex function is convex"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/convex-function-via-epigraph", "convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/convex-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/domain-of-a-convex-function-is-convex.md"
 +++
 

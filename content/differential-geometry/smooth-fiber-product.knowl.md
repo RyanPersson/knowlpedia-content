@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The manifold of pairs having the same image under two transverse smooth maps."
 aliases = ["fiber product of smooth manifolds", "transverse pullback manifold"]
 domains = ["differential-geometry", "algebra-category-theory"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/transverse-smooth-maps", "differential-geometry/embedded-submanifold", "differential-geometry/product-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

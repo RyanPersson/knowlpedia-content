@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The degree-two real de Rham cohomology class represented by a Kähler form."
 aliases = ["cohomology class of a Kähler form"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/kahler-form", "fiber-bundles/de-rham-cohomology-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

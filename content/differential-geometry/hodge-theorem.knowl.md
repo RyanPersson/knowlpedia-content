@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Every de Rham cohomology class on a compact oriented Riemannian manifold has a unique harmonic representative."
 aliases = ["Hodge isomorphism theorem", "harmonic representative theorem"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/de-rham-cohomology-group", "differential-geometry/harmonic-differential-form", "linear-algebra/vector-space", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

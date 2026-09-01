@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A space with a free and transitive action of a Lie group, also called a torsor."
 aliases = ["principal-homogeneous-space", "Principal Homogeneous Space"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/principal-homogeneous-space.md"
 +++
 

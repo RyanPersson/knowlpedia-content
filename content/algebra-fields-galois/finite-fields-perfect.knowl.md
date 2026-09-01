@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every finite field has all algebraic extensions separable (equivalently, Frobenius is an automorphism)."
 aliases = ["finite-fields-perfect", "Finite fields are perfect"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/frobenius-endomorphism", "algebra-fields-galois/separable-extension", "algebra-fields-galois/perfect-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/finite-fields-perfect.md"
 +++
 

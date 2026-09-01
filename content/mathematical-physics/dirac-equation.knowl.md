@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The relativistic first-order field equation for a spinor of prescribed mass."
 aliases = ["free Dirac equation", "relativistic spinor equation", "massive Dirac equation"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
+prerequisites = ["mathematical-physics/minkowski-spacetime", "mathematical-physics/minkowski-dirac-operator", "mathematical-physics/gamma-matrices"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

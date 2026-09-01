@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The connection form evaluates to the generating Lie algebra element on each fundamental vector field."
 aliases = ["reproduction-property-x", "Reproduction property"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/vector-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/reproduction-property-x.md"
 +++
 

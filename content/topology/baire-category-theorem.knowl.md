@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In a complete metric space, countable intersections of dense open sets are dense."
 aliases = ["baire-category-theorem", "Baire category theorem"]
 domains = ["topology"]
+prerequisites = ["topology/complete-metric-space", "topology/dense-set", "topology/open-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/baire-category-theorem.md"
 +++
 

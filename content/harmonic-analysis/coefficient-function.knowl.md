@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A scalar-valued function obtained by pairing the orbit of one Hilbert-space vector with another."
 aliases = ["coefficient function", "matrix coefficient"]
 domains = ["harmonic-analysis", "lie-groups"]
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "linear-algebra/inner-product", "harmonic-analysis/positive-definite-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

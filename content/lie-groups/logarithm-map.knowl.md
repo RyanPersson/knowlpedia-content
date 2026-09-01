@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A local inverse to the exponential map near the identity of a Lie group."
 aliases = ["logarithm-map", "Logarithm map"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/exponential-map-lie-group", "lie-groups/exponential-local-diffeomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/logarithm-map.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The matrix-valued function describing how two local frames are related on an overlap."
 aliases = ["transition-matrix-of-a-local-frame", "Transition matrix of a local frame"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/local-frame-of-a-vector-bundle", "fiber-bundles/smooth-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/transition-matrix-of-a-local-frame.md"
 +++
 

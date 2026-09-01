@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A densely defined Hilbert-space operator is self-adjoint when it equals its adjoint both in action and in domain."
 aliases = ["self-adjoint operator with domain", "unbounded Hermitian operator"]
 domains = ["functional-analysis"]
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/adjoint-unbounded-operator", "functional-analysis/closed-linear-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

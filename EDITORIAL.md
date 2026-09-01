@@ -2,6 +2,26 @@
 
 Knowls should support two reading speeds: a reader who needs the definition now, and a reader who wants to explore why it matters.
 
+## Concept ownership
+
+An ordinary knowl owns one independently reusable definition, theorem,
+construction, example, or convention. Progressive sections may explain that
+subject, state variants, introduce indispensable auxiliary notation, and
+compare neighboring concepts; they must not serve as hidden homes for other
+concepts that readers may need to link directly.
+
+In particular, do not send labels for distinct terms to an umbrella knowl that
+defines each term in a different section. Give each term a canonical knowl and
+link the relationship between them. Genuine surveys, source transcripts,
+historical bridges, and navigation collections should declare an appropriate
+container kind such as `document`, `page`, `section`, or `index` rather than
+masquerading as a single definition.
+
+Conjunctions are not violations by themselves. A theorem relating two
+conditions, a comparison page, inverse constructions, or the data and
+universal property of one construction may be a coherent single subject. Use
+semantic judgment rather than splitting titles mechanically.
+
 ## Canonical core
 
 Place the smallest sufficient statement before the first level-two heading. The core should:

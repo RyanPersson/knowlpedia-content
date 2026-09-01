@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A nonempty subset of a group is a subgroup iff it is closed under products and inverses"
 aliases = ["subgroup-test-two-step", "Subgroup Test (two-step)"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "shared-foundations/subset", "algebra-groups/subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/subgroup-test-two-step.md"
 +++
 

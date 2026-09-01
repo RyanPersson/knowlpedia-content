@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Existence and uniqueness of a density for one measure that is absolutely continuous with respect to another."
 aliases = ["radon-nikodym-theorem", "Radon–Nikodym theorem"]
 domains = ["probability"]
+prerequisites = ["measure-theory/measure-space", "measure-theory/measure", "measure-theory/measurable-function", "probability/probability-measure", "probability/probability-space", "probability/expectation", "probability/conditional-expectation", "measure-theory/sigma-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/radon-nikodym-theorem.md"
 +++
 

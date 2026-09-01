@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Convergence of functions pointwise outside a null set."
 aliases = ["convergence-almost-everywhere", "Almost everywhere convergence"]
 domains = ["measure-theory"]
+prerequisites = ["shared-foundations/sequence", "measure-theory/measurable-function", "measure-theory/measure-space", "measure-theory/null-set", "real-analysis/limit-of-a-sequence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/convergence-almost-everywhere.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A standard module is a normalized parabolically induced representation with tempered Levi data and an inducing parameter in a chosen positive chamber."
 aliases = ["Langlands standard representation", "standard induced module"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/langlands-decomposition-of-a-parabolic", "lie-groups/positive-root", "lie-groups/normalized-parabolic-induction"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

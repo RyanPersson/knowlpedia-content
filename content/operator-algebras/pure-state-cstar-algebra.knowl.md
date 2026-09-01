@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A state that is an extreme point of the C*-algebra's state space."
 aliases = ["extreme state", "C*-pure state"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/state-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

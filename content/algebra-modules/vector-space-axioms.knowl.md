@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The module axioms specialized to scalars in a field."
 aliases = ["vector-space-axioms", "Vector space axioms"]
 domains = ["algebra-modules"]
+prerequisites = ["linear-algebra/vector-space", "algebra-rings/field", "algebra-modules/module-axioms"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/vector-space-axioms.md"
 +++
 
@@ -12,5 +15,7 @@ The **vector space axioms** define a [[linear-algebra/vector-space|vector space]
 \[
 (a+b)v=av+bv,\quad a(v+w)=av+aw,\quad (ab)v=a(bv),\quad 1v=v.
 \]
+
+## Consequences
 
 The field structure on \(k\) (in particular, inverses for nonzero scalars) enables linear algebra constructions such as bases, dimension, and canonical forms.

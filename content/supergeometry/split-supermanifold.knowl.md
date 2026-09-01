@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A supermanifold globally presented by the exterior algebra of the dual of a vector bundle."
 aliases = ["split smooth supermanifold", "Pi E supermanifold"]
 domains = ["supergeometry", "fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

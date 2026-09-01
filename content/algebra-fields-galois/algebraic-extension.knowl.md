@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An extension E/F in which every element of E is algebraic over F."
 aliases = ["algebraic-extension", "Algebraic extension"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-element"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/algebraic-extension.md"
 +++
 

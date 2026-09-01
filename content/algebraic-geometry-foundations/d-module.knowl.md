@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A quasi-coherent sheaf module over the sheaf of differential operators on a smooth algebraic variety."
 aliases = ["D-module", "D module"]
 domains = ["algebraic-geometry-foundations", "langlands"]
+prerequisites = ["algebraic-geometry-foundations/sheaf-of-differential-operators"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

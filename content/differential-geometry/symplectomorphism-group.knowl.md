@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The group of all self-symplectomorphisms of a fixed symplectic manifold."
 aliases = ["group of symplectomorphisms", "Symp(M, omega)", "symplectic diffeomorphism group"]
 domains = ["differential-geometry", "algebra-groups"]
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/category-of-symplectic-manifolds", "differential-geometry/symplectic-isotopy", "differential-geometry/hamiltonian-diffeomorphism", "differential-geometry/flux-homomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

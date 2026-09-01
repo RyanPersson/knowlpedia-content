@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The element g⁻¹h⁻¹gh, which is trivial exactly when g and h commute."
 aliases = ["commutator"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/commutator.md"
 +++
 

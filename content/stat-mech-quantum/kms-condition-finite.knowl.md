@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An analytic boundary condition on equilibrium correlation functions at inverse temperature beta."
 aliases = ["kms-condition-finite", "KMS condition in finite quantum systems"]
 domains = ["stat-mech-quantum"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "stat-mech-quantum/kms-condition-finite.md"
 +++
 

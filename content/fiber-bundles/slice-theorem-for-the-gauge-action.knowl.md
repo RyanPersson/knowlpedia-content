@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A local normal-form theorem modeling a neighborhood of a gauge orbit by a Coulomb slice modulo the connection stabilizer."
 aliases = ["Coulomb slice theorem", "local slice theorem for gauge transformations"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations", "fiber-bundles/gauge-transformation", "fiber-bundles/coulomb-gauge"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A condition ensuring events measurable with respect to different sigma-algebras are independent"
 aliases = ["independence-sigma-algebras", "Independence of sigma-algebras"]
 domains = ["probability"]
+prerequisites = ["probability/probability-space", "measure-theory/sigma-algebra", "probability/independence-random-variables"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/independence-sigma-algebras.md"
 +++
 

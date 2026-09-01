@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A nonempty set is affine exactly when it is a translate of a linear subspace."
 aliases = ["affine-sets-are-translates-of-subspaces", "Affine Sets are Translates of Subspaces"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set", "convex-analysis/linear-subspace"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/affine-sets-are-translates-of-subspaces.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A Lie algebra that decomposes as a direct sum of its center and a semisimple ideal."
 aliases = ["reductive-lie-algebra", "Reductive Lie algebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/reductive-lie-algebra.md"
 +++
 

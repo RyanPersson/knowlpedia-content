@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A net of positive contractions that converges to an identity through multiplication on every algebra element."
 aliases = ["approximate unit", "contractive approximate identity", "approximate identity", "two-sided approximate identity"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-element"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

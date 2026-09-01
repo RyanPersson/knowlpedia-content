@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A map of fiber bundles compatible with the projections and covering a specified base map."
 aliases = ["bundle-morphism", "Bundle morphism"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-map", "fiber-bundles/fiber-preserving-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/bundle-morphism.md"
 +++
 

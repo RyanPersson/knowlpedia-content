@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The covariant endofunctor on smooth manifolds that assigns tangent bundles to manifolds and differentials to smooth maps."
 aliases = ["tangent bundle functor"]
 domains = ["differential-geometry", "category-theory"]
+prerequisites = ["algebra-category-theory/functor", "differential-geometry/category-of-smooth-manifolds", "fiber-bundles/tangent-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/differential-of-a-smooth-map", "real-analysis/chain-rule"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

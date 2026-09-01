@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The quotient of a general linear group by its subgroup of nonzero scalar maps."
 aliases = ["PGL", "projective linear group", "full projective group"]
 domains = ["algebra-groups", "algebraic-geometry-foundations"]
+prerequisites = ["linear-algebra/vector-space", "algebra-groups/quotient-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

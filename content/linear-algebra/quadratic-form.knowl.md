@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A homogeneous degree-two scalar-valued function whose polarization is bilinear."
 aliases = ["quadratic space"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/vector-space", "algebra-rings/field", "linear-algebra/bilinear-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

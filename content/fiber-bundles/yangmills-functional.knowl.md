@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The energy of a connection defined as the L2 norm of its curvature on a Riemannian manifold."
 aliases = ["yangmills-functional", "Yang–Mills functional"]
 domains = ["fiber-bundles"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/yangmills-functional.md"
 +++
 

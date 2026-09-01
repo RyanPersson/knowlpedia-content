@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A compact Hilbert-space operator whose singular-value sequence is summable to a specified power."
 aliases = ["Schatten p-class", "Schatten ideal"]
 domains = ["functional-analysis", "operator-algebras"]
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/compact-operator", "functional-analysis/singular-values", "algebra-rings/two-sided-ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

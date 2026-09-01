@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A meromorphic flat connection whose singularity is not regular singular and whose local classification requires exponential and Stokes data."
 aliases = ["irregular connection", "irregular singularity"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["langlands/regular-singular-connection", "fiber-bundles/gauge-transformation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

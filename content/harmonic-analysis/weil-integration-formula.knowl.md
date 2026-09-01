@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The Weil integration formula decomposes integration on a locally compact group into integration along a closed subgroup and over its homogeneous space."
 aliases = ["quotient integral formula", "integration over G/H"]
 domains = ["harmonic-analysis", "measure-theory", "lie-groups"]
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/locally-compact-homogeneous-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

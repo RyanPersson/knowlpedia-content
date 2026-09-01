@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A residue formula representing the cyclic Chern character of suitable regular finitely summable spectral triples."
 aliases = ["Connes–Moscovici index formula", "Connes–Moscovici local index formula"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/regular-spectral-triple", "noncommutative-geometry/dimension-spectrum", "convex-analysis/linear-combination"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

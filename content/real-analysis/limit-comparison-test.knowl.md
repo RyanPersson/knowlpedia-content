@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Two positive series with asymptotically proportional terms converge or diverge together."
 aliases = ["limit-comparison-test", "Limit Comparison Test"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/series"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/limit-comparison-test.md"
 +++
 

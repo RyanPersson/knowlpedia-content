@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Under each generation sl2 plus so12 subalgebra, the adjoint module of e7 branches as (3,1) plus (1,66) plus (2,32)."
 aliases = ["E7 to A1 D6 branching", "e7 under sl2 plus so12", "133 branching to 3 66 64"]
 domains = ["lie-groups", "representation-theory", "mathematical-physics"]
+prerequisites = ["lie-groups/branching-rule-for-lie-representations", "lie-groups/defining-representation-of-a-classical-lie-algebra", "lie-groups/half-spin-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

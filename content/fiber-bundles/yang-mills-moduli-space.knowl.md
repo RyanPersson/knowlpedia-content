@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The gauge-equivalence classes of Yang–Mills connections on a fixed principal bundle over a Riemannian manifold."
 aliases = ["moduli space of Yang–Mills connections", "Yang–Mills gauge quotient"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["differential-geometry/riemannian-manifold", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/gauge-group", "fiber-bundles/yangmills-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

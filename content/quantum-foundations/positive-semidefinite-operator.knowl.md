@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A self-adjoint operator whose quadratic form is nonnegative on every vector."
 aliases = ["positive semidefinite operator", "positive operator", "positive semidefinite"]
 domains = ["quantum-foundations", "linear-algebra"]
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 Let \(H\) be a complex [[linear-algebra/hilbert-space|Hilbert space]]. A bounded linear operator \(A:H\to H\) is **positive semidefinite**, written \(A\ge0\), if

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set equipped with a metric that measures distances between its points."
 aliases = ["metric-space", "Metric space"]
 domains = ["topology"]
+prerequisites = ["shared-foundations/set", "topology/metric", "topology/topological-space", "topology/metric-induced-topology", "topology/open-ball"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/metric-space.md"
 +++
 

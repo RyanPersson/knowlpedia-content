@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A morphism of fibered manifolds, i.e. a smooth map of total spaces compatible with the projections."
 aliases = ["bundle-map", "Bundle map"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/fibered-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/bundle-map.md"
 +++
 

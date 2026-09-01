@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For fixed N, the functor -⊗_R N preserves cokernels (exactness on the right); its failure to be left exact is measured by Tor."
 aliases = ["tensor-right-exact", "Tensor product is right exact"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-rings/ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/tensor-right-exact.md"
 +++
 

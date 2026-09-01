@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function obtained by limiting another function's domain to a subset."
 aliases = ["restriction-of-a-function", "Restriction of a function"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/restriction-of-a-function.md"
 +++
 

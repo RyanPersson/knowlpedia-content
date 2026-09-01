@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set of all elements equivalent to a given element under an equivalence relation."
 aliases = ["equivalence-class", "Equivalence class"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/equivalence-relation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/equivalence-class.md"
 +++
 

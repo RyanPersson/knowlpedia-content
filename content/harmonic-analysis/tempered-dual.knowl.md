@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The part of a group's unitary dual represented by irreducible unitary representations weakly contained in the regular representation."
 aliases = ["reduced dual", "Plancherel-supported dual"]
 domains = ["harmonic-analysis", "lie-groups", "operator-algebras"]
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/unitary-dual", "harmonic-analysis/tempered-unitary-representation", "harmonic-analysis/regular-representations-locally-compact-group", "harmonic-analysis/weak-containment-unitary-representations", "harmonic-analysis/fell-topology", "topology/subspace-topology"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

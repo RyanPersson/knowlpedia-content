@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subnormal series with simple successive quotients"
 aliases = ["composition-series-group", "Composition series"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/subnormal-series", "algebra-groups/quotient-group", "algebra-groups/simple-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/composition-series-group.md"
 +++
 

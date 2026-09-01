@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A smooth vector bundle whose fibers are complex vector spaces and whose transition functions are complex linear."
 aliases = ["complex-vector-bundle", "Complex vector bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/rank-of-a-vector-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/complex-vector-bundle.md"
 +++
 

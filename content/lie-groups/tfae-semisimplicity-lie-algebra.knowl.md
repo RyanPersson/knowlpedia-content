@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Semisimplicity is equivalent to nondegeneracy of the Killing form and to decomposition into simple ideals."
 aliases = ["tfae-semisimplicity-lie-algebra", "Equivalent characterizations of semisimplicity for Lie algebras"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/killing-form", "lie-groups/killing-form-nondegenerate-iff-semisimple", "lie-groups/direct-sum-of-lie-algebras", "lie-groups/simple-lie-algebra", "lie-groups/semisimple-direct-sum-simple"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/tfae-semisimplicity-lie-algebra.md"
 +++
 

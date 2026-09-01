@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The canonical g-valued 1-form on a Lie group obtained by translating tangent vectors to the identity on the right."
 aliases = ["right-maurer-cartan-form", "Right Maurer–Cartan form"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra-of-a-lie-group", "lie-groups/right-translation", "lie-groups/right-invariant-differential-form", "lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/lie-bracket", "lie-groups/maurer-cartan-equation", "lie-groups/left-maurer-cartan-form", "lie-groups/right-invariant-vector-field", "lie-groups/one-parameter-subgroup", "lie-groups/exponential-map-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/right-maurer-cartan-form.md"
 +++
 

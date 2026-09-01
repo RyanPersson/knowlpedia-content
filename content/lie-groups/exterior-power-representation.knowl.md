@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The representation induced on an exterior power by applying each group element, or infinitesimally by a derivation formula."
 aliases = ["exterior power of a representation", "wedge-power representation", "alternating-power representation"]
 domains = ["lie-groups", "representation-theory", "linear-algebra"]
+prerequisites = ["lie-groups/representation-of-a-lie-group", "algebra-modules/exterior-algebra", "lie-groups/representation-of-a-lie-algebra", "lie-groups/lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

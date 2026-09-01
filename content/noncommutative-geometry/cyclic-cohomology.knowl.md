@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A cohomology theory of associative algebras built from multilinear cochains invariant under cyclic permutation."
 aliases = ["Connes cyclic cohomology", "(b,B)-cohomology"]
 domains = ["noncommutative-geometry", "algebra-homological"]
+prerequisites = ["algebra-homological/cohomology-module", "noncommutative-geometry/hochschild-chain-complex"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

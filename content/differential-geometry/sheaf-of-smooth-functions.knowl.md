@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The sheaf assigning to each open subset of a smooth manifold its algebra of smooth real-valued functions."
 aliases = ["smooth structure sheaf", "C-infinity sheaf", "C∞_M"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "algebraic-geometry-foundations/sheaf", "algebraic-geometry-foundations/locally-ringed-space", "differential-geometry/c-infinity-ring", "differential-geometry/locally-c-infinity-ringed-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

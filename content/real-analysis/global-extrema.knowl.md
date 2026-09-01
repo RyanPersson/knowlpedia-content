@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A continuous real function on a compact set attains its maximum and minimum."
 aliases = ["global-extrema", "Global extrema"]
 domains = ["real-analysis"]
+prerequisites = ["topology/continuous-map", "real-analysis/interval"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/global-extrema.md"
 +++
 

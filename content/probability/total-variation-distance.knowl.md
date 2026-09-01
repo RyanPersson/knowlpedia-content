@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A distance between two probability distributions defined by the largest possible difference they assign to the same event."
 aliases = ["total-variation-distance", "Total variation distance"]
 domains = ["probability"]
+prerequisites = ["measure-theory/measurable-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/total-variation-distance.md"
 +++
 

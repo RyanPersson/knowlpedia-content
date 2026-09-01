@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The representation of one C-star algebra obtained by tensoring a correspondence with a representation of its coefficient algebra."
 aliases = ["induction by a Hilbert C*-module", "induced representation via correspondence"]
 domains = ["operator-algebras", "algebra-representation-theory"]
+prerequisites = ["operator-algebras/cstar-correspondence", "operator-algebras/nondegenerate-cstar-representation", "operator-algebras/internal-tensor-product-correspondences", "linear-algebra/inner-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

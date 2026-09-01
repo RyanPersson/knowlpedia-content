@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Epsilon–delta, sequential continuity, and open-set preimages are equivalent in metric spaces"
 aliases = ["equivalent-definitions-continuity", "Equivalent definitions of continuity (metric spaces)"]
 domains = ["real-analysis"]
+prerequisites = ["topology/metric-space", "topology/convergent-sequence", "topology/open-set", "real-analysis/continuity-on-a-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/equivalent-definitions-continuity.md"
 +++
 

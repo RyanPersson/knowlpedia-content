@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Near a regular point, a level set is locally the graph of a differentiable map."
 aliases = ["local-implicit-function-parameterization", "Local implicit-function parameterization"]
 domains = ["real-analysis"]
+prerequisites = ["topology/open-set", "real-analysis/regular-point"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/local-implicit-function-parameterization.md"
 +++
 

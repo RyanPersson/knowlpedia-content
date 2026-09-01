@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every principal bundle over a smooth manifold admits a principal connection, using partitions of unity."
 aliases = ["existence-of-principal-connections-on-smooth-manifolds", "Theorem: Existence of principal connections on smooth manifolds"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/existence-of-principal-connections-on-smooth-manifolds.md"
 +++
 

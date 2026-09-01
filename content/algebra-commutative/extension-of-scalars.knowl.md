@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Given a ring map R→S, the S-module S⊗_R M obtained from an R-module M by base change."
 aliases = ["extension-of-scalars", "Extension of scalars"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/extension-of-scalars.md"
 +++
 

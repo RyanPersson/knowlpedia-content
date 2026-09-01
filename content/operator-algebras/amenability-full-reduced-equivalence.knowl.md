@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A locally compact group is amenable exactly when its canonical full-to-reduced group C*-algebra quotient is injective."
 aliases = ["Hulanicki theorem", "amenability criterion by group C*-algebras"]
 domains = ["operator-algebras", "harmonic-analysis"]
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/amenable-locally-compact-group", "operator-algebras/full-to-reduced-group-cstar-quotient"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

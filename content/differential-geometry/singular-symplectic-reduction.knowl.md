@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Symplectic reduction without regularity or freeness, producing a stratified quotient rather than generally a manifold."
 aliases = ["stratified symplectic quotient"]
 domains = ["differential-geometry"]
+prerequisites = ["lie-groups/compact-lie-group", "differential-geometry/hamiltonian-lie-group-action", "differential-geometry/symplectic-manifold", "fiber-bundles/moment-map", "lie-groups/orbit-space", "fiber-bundles/regular-value", "topology/connected-component", "differential-geometry/shifting-trick"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

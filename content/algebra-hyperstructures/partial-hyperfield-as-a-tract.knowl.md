@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The tract obtained from the ambient null hypersums of a partial hyperfield."
 aliases = ["partial hyperfield tract"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
+prerequisites = ["algebra-hyperstructures/partial-hyperfield", "algebra-hyperstructures/integral-hyperring", "algebra-hyperstructures/tract", "algebra-hyperstructures/partial-field-as-a-tract", "algebra-hyperstructures/hyperfield-as-a-tract"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

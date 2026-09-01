@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A subspace of a symplectic vector space that contains its symplectic orthogonal complement."
 aliases = ["coisotropic linear subspace", "co-isotropic subspace"]
 domains = ["differential-geometry", "linear-algebra"]
+prerequisites = ["differential-geometry/symplectic-vector-space", "convex-analysis/linear-subspace", "differential-geometry/symplectic-orthogonal-complement", "differential-geometry/coisotropic-reduction"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

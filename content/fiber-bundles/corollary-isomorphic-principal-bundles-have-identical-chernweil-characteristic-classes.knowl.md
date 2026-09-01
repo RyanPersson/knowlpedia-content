@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Chern–Weil characteristic classes agree for isomorphic principal bundles."
 aliases = ["corollary-isomorphic-principal-bundles-have-identical-chernweil-characteristic-classes", "Isomorphic principal bundles have the same Chern–Weil classes"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/diffeomorphism", "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/corollary-isomorphic-principal-bundles-have-identical-chernweil-characteristic-classes.md"
 +++
 

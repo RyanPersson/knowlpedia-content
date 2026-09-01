@@ -5,6 +5,9 @@ kind = "definition"
 summary = "For a connected abelian Lie group, every irreducible unitary representation is a character and the dual is Euclidean-discrete."
 aliases = ["characters of abelian Lie groups", "Pontryagin dual of Euclidean spaces and tori"]
 domains = ["lie-groups", "harmonic-analysis"]
+prerequisites = ["lie-groups/abelian-lie-group", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "harmonic-analysis/unitary-character", "lie-groups/connected-abelian-lie-group-structure", "harmonic-analysis/unitary-dual"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

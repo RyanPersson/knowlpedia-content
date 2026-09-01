@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set with addition forming an abelian group and multiplication that is associative and distributive over addition."
 aliases = ["ring"]
 domains = ["algebra-rings"]
+prerequisites = ["shared-foundations/binary-operation", "algebra-groups/abelian-group", "algebra-rings/ring-axioms", "algebra-rings/unital-ring", "algebra-rings/commutative-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/ring.md"
 +++
 
@@ -15,7 +18,7 @@ A **ring** is a set \(R\) equipped with two [[shared-foundations/binary-operatio
 
 These conditions are often summarized as the [[algebra-rings/ring-axioms|ring axioms]]. Many texts additionally impose a multiplicative identity, leading to a [[algebra-rings/unital-ring|unital ring]]; commutativity of multiplication leads to a [[algebra-rings/commutative-ring|commutative ring]].
 
-**Examples:**
+## Examples
 - \(\mathbb Z\) with usual \(+\) and \(\cdot\) is a (unital, commutative) ring.
 - \(M_n(\mathbb Z)\) is a ring under matrix addition and multiplication, typically noncommutative for \(n\ge 2\).
 - The even integers \(2\mathbb Z\) form a ring (under inherited operations) but are not unital.

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Hilbert-space representation obtained by completing the finite left ideal of a weight."
 aliases = ["GNS representation of a weight"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/left-ideal-of-weight"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

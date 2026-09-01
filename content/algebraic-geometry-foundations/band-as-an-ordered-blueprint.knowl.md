@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The fully faithful, coreflective embedding of bands into ordered blueprints."
 aliases = ["ordered blueprint of a band", "bands embedded in ordered blueprints"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures", "algebra-category-theory"]
+prerequisites = ["algebra-hyperstructures/band", "algebraic-geometry-foundations/ordered-blueprint", "algebra-rings/semiring-homomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

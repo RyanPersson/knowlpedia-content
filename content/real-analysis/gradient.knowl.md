@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Vector of first partial derivatives of a scalar function"
 aliases = ["gradient"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/partial-derivative", "linear-algebra/inner-product", "real-analysis/directional-derivative", "real-analysis/differentiable-map", "real-analysis/critical-point"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/gradient.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Holomorphic functions have zero integral around null-homologous closed contours."
 aliases = ["Cauchy's theorem", "Cauchy–Goursat theorem"]
 domains = ["complex-analysis"]
+prerequisites = ["complex-analysis/complex-domain", "topology/simply-connected-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

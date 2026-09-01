@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The commutant of the commutant of a family of operators."
 aliases = ["double commutant"]
 domains = ["operator-algebras"]
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/commutant", "operator-algebras/von-neumann-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

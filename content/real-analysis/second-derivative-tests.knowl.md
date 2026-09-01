@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Using the second derivative to classify local maxima and minima at critical points."
 aliases = ["second-derivative-tests", "Second derivative tests"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/critical-point", "real-analysis/local-extremum", "real-analysis/higher-derivatives"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/second-derivative-tests.md"
 +++
 

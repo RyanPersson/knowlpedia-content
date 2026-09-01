@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The Hilbert direct sum of the symmetric tensor powers of a complex Hilbert space, with its vacuum vector."
 aliases = ["symmetric-fock-space", "Symmetric Fock Space S(H)"]
 domains = ["shale-paper"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shale-paper/symmetric-fock-space.md"
 +++
 

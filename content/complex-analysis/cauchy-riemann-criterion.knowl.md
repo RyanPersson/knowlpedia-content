@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A regularity-sensitive criterion for a function to be holomorphic."
 aliases = ["Cauchy-Riemann criterion"]
 domains = ["complex-analysis"]
+prerequisites = ["complex-analysis/cauchy-riemann-equations", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

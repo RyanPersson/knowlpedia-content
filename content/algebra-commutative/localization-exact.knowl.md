@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Localizing a sequence of modules at a multiplicative set preserves exactness."
 aliases = ["localization-exact", "Exactness of localization"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-commutative/localization-ring", "algebra-commutative/localization-module", "algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-modules/exact-sequence-modules"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/localization-exact.md"
 +++
 

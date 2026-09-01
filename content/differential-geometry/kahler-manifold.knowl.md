@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Hermitian manifold whose fundamental two-form is closed."
 aliases = ["Kählerian manifold", "Kahler manifold"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/hermitian-manifold", "differential-geometry/fundamental-form-almost-hermitian", "differential-geometry/complex-manifold", "fiber-bundles/hermitian-metric", "differential-geometry/holomorphic-tangent-bundle", "linear-algebra/bilinear-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subgroup that is strictly smaller than the whole group"
 aliases = ["proper-subgroup", "Proper Subgroup"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "shared-foundations/proper-subset"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/proper-subgroup.md"
 +++
 

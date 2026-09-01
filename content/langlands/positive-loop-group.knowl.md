@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The subgroup-valued functor of G-valued loops that extend to the formal disc."
 aliases = ["arc group", "L+G"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "langlands/loop-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

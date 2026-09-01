@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The block-diagonal subgroup of a special unitary group with unitary blocks and total determinant one."
 aliases = ["S(U(p) x U(q))", "S(U(2) x U(3))", "special product of unitary groups"]
 domains = ["lie-groups", "mathematical-physics"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

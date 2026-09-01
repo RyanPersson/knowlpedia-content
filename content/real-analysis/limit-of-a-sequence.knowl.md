@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A point x such that x_n becomes arbitrarily close to x as n→∞."
 aliases = ["limit-of-a-sequence", "Limit of a sequence"]
 domains = ["real-analysis"]
+prerequisites = ["topology/metric-space", "topology/convergent-sequence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/limit-of-a-sequence.md"
 +++
 

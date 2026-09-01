@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Every bounded entire function is constant."
 aliases = ["Liouville theorem for entire functions"]
 domains = ["complex-analysis"]
+prerequisites = ["complex-analysis/entire-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

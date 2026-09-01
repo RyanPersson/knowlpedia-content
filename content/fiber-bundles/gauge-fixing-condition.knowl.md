@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A supplementary condition used to choose local representatives of gauge-equivalence classes of fields."
 aliases = ["gauge fixing", "choice of gauge", "local gauge condition"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/bundle-of-connections", "fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-group", "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

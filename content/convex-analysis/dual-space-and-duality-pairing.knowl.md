@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The continuous dual X* and the pairing ⟨x*,x⟩=x*(x)."
 aliases = ["dual-space-and-duality-pairing", "Dual Space and Duality Pairing"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/bounded-linear-functional-norm-of-a-functional"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/dual-space-and-duality-pairing.md"
 +++
 
@@ -16,5 +19,7 @@ For \(x^\ast \in X^\ast \) and \(x\in X\), the **duality pairing** is
 \[
 \langle x^\ast ,x\rangle:=x^\ast (x).
 \]
+
+## Applications
 
 This pairing is the standard language used in separation theorems such as [[convex-analysis/separation-by-a-closed-hyperplane|separation by a closed hyperplane]] and [[convex-analysis/strict-separation-by-a-closed-hyperplane|strict separation]].

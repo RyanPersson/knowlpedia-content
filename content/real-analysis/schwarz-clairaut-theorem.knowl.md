@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Under continuity, mixed second partial derivatives agree."
 aliases = ["schwarz-clairaut-theorem", "Schwarz–Clairaut theorem"]
 domains = ["real-analysis"]
+prerequisites = ["topology/open-set", "real-analysis/mixed-partial-derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/schwarz-clairaut-theorem.md"
 +++
 
@@ -12,5 +15,7 @@ legacy_source_path = "real-analysis/schwarz-clairaut-theorem.md"
 \[
 \frac{\partial^2 f}{\partial x_i\partial x_j}(a)=\frac{\partial^2 f}{\partial x_j\partial x_i}(a).
 \]
+
+## Consequences
 
 This justifies treating the [[real-analysis/hessian-matrix|Hessian matrix]] of a sufficiently smooth function as symmetric, and it is a standard hypothesis in second-order local analysis such as the [[real-analysis/second-derivative-tests|second derivative tests]].

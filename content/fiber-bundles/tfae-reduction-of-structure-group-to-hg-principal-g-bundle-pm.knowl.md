@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Reduction of a principal G bundle to a subgroup H is equivalent to an H subbundle, H valued transition functions, or a section of the G mod H bundle."
 aliases = ["tfae-reduction-of-structure-group-to-hg-principal-g-bundle-pm", "Equivalent conditions for reduction of structure group"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/lie-subgroup", "fiber-bundles/reduction-of-structure-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/tfae-reduction-of-structure-group-to-hg-principal-g-bundle-pm.md"
 +++
 

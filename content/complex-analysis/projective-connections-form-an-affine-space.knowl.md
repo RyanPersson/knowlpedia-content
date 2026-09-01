@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Holomorphic projective connections, when they exist, form an affine space over holomorphic quadratic differentials."
 aliases = ["affine space of projective connections"]
 domains = ["complex-analysis", "differential-geometry"]
+prerequisites = ["differential-geometry/riemann-surface", "complex-analysis/projective-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

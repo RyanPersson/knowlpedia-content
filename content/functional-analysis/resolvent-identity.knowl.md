@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An algebraic identity relating resolvent operators at different parameters or for different operators."
 aliases = ["first resolvent identity", "second resolvent identity"]
 domains = ["functional-analysis"]
+prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/resolvent-set-closed-operator", "functional-analysis/bounded-linear-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

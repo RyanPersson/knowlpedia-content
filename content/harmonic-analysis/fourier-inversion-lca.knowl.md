@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The Fourier inversion theorem reconstructs a function on a locally compact abelian group from an integrable Fourier transform."
 aliases = ["LCA Fourier inversion", "group Fourier inversion"]
 domains = ["harmonic-analysis"]
+prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/dual-haar-measure", "harmonic-analysis/fourier-transform-lca", "measure-theory/almost-everywhere"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

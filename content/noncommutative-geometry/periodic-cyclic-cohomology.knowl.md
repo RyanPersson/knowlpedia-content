@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Z/2-graded stabilization of cyclic cohomology under Connes's degree-two periodicity operator."
 aliases = ["HP cohomology", "periodic (b,B)-cohomology"]
 domains = ["noncommutative-geometry", "algebra-homological"]
+prerequisites = ["noncommutative-geometry/cyclic-cohomology"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

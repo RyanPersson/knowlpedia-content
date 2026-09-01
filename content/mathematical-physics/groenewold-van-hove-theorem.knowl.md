@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The obstruction to extending canonical quantization consistently to every polynomial observable on a finite-dimensional linear phase space."
 aliases = ["Groenewold-Van Hove theorem", "Groenewold-Van Hove obstruction", "no-go theorem for canonical quantization"]
 domains = ["mathematical-physics", "differential-geometry", "functional-analysis"]
+prerequisites = ["mathematical-physics/quantization-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

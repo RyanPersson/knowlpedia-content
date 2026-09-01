@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The space of trace-measurable operators whose p-th absolute powers have finite trace."
 aliases = ["Lp(M,tau)", "semifinite noncommutative Lp space"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/faithful-normal-semifinite-trace", "operator-algebras/tau-measurable-operator", "linear-algebra/operator-norm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

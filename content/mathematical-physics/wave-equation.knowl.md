@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The massless hyperbolic field equation determined by a Lorentzian metric."
 aliases = ["scalar wave equation", "homogeneous wave equation", "d'Alembert equation"]
 domains = ["mathematical-physics", "partial-differential-equations"]
+prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/dalembert-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

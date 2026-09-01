@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The smooth manifold of real lines through the origin in real Euclidean space."
 aliases = ["RPn", "real projective n-space", "real projective manifold"]
 domains = ["differential-geometry", "algebraic-geometry-foundations", "topology"]
+prerequisites = ["convex-analysis/linear-subspace", "algebraic-geometry-foundations/projective-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

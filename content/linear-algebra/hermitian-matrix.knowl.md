@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A complex square matrix equal to its conjugate transpose."
 aliases = ["self-adjoint matrix"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/orthonormal-basis"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

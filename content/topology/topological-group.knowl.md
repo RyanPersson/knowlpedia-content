@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A group with a topology making multiplication and inversion continuous."
 aliases = ["topological-group", "Topological group"]
 domains = ["topology"]
+prerequisites = ["algebra-groups/group", "topology/topological-space", "topology/continuous-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/topological-group.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Hom preserves kernels: Hom_R(M,-) is left exact (covariant) and Hom_R(-,N) is left exact (contravariant); Ext measures the failure of exactness beyond that."
 aliases = ["hom-left-exact", "Hom is left exact"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-rings/ring", "algebra-modules/hom-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/hom-left-exact.md"
 +++
 

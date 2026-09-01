@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A hereditary C*-subalgebra contains every positive ambient element dominated by one of its positive elements."
 aliases = ["hereditary subalgebra"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-subalgebra", "operator-algebras/positive-element", "operator-algebras/closed-two-sided-ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

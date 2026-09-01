@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The greatest lower bound of a nonempty set of real numbers."
 aliases = ["infimum"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/bounded-below", "real-analysis/minimum", "real-analysis/completeness-axiom"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/infimum.md"
 +++
 

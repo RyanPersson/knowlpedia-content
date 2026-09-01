@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set is convex if it contains the line segment between any two of its points"
 aliases = ["convex-set", "Convex set"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/line-segments-in-a-vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/convex-set.md"
 +++
 

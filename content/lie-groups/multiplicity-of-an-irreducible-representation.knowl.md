@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The number of copies of an irreducible representation in a semisimple decomposition."
 aliases = ["irreducible multiplicity", "representation multiplicity", "isotypic multiplicity"]
 domains = ["lie-groups", "representation-theory"]
+prerequisites = ["algebra-representation-theory/completely-reducible-representation", "algebraic-geometry-foundations/algebraically-closed-field", "lie-groups/irreducible-representation-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

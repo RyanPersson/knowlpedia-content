@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The target set in the definition of a function"
 aliases = ["codomain"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/codomain.md"
 +++
 

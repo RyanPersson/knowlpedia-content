@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A semiring-like algebra whose multiplicative reduct is a group but which has no required additive zero."
 aliases = ["semifield without zero"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
+prerequisites = ["algebra-groups/abelian-group", "algebra-rings/semifield"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A sequence converges if the norm of its difference to the limit goes to zero"
 aliases = ["convergence-in-normed-spaces", "Convergence in normed spaces"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/norm-induces-a-metric-and-conversely", "convex-analysis/convergence-of-a-sequence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/convergence-in-normed-spaces.md"
 +++
 

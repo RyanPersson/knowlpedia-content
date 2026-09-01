@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The numbers of negative and positive squares in a real symmetric bilinear form."
 aliases = ["inertia of a real symmetric bilinear form", "signature of a quadratic form"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/bilinear-form", "linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

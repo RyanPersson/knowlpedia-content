@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Any nonempty linearly independent set sits inside some Hamel basis"
 aliases = ["extension-of-a-linearly-independent-set-to-a-basis", "Extension of a linearly independent set to a basis"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/linearly-independent-and-linearly-dependent-sets", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/extension-of-a-linearly-independent-set-to-a-basis.md"
 +++
 

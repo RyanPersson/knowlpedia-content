@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Upper triangular matrices form a Lie algebra whose derived subalgebra is strictly upper triangular, giving an explicit derived series."
 aliases = ["example-upper-triangular", "Example: upper triangular matrices (a solvable Lie algebra)"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/general-linear-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/example-upper-triangular.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A divisibility criterion implying that a polynomial is irreducible over the fraction field of a UFD."
 aliases = ["eisensteins-criterion", "Eisenstein's criterion"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ufd", "algebra-rings/prime-element", "algebra-rings/polynomial-ring", "algebra-rings/irreducible-polynomial", "algebra-rings/fraction-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/eisensteins-criterion.md"
 +++
 

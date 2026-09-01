@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The ideal of formal sums declared null in a band."
 aliases = ["null set of a band", "band nullset", "band null set"]
 domains = ["algebra-hyperstructures"]
+prerequisites = ["algebra-hyperstructures/band", "algebra-hyperstructures/fusion-rule-for-bands"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

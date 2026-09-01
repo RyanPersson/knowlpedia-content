@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The unique vector field dual to a chosen primitive of an exact symplectic form."
 aliases = ["symplectic dilation vector field"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/exact-symplectic-manifold", "fiber-bundles/vector-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

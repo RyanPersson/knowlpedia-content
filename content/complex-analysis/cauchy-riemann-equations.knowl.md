@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The coordinate equations characterizing complex-linear real derivatives."
 aliases = ["Cauchy-Riemann equations", "CR equations"]
 domains = ["complex-analysis", "partial-differential-equations"]
+prerequisites = ["real-analysis/partial-derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

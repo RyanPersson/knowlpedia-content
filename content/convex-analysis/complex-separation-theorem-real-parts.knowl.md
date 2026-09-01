@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In complex vector spaces, separation holds via the real part of a complex linear functional."
 aliases = ["complex-separation-theorem-real-parts", "Complex Separation Theorem (Real Parts)"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/complex-separation-theorem-real-parts.md"
 +++
 

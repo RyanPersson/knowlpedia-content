@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An algebraic extension is normal iff it is a splitting field of polynomials over the base field."
 aliases = ["normality-splitting-field", "Normal extensions and splitting fields"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/normal-extension", "algebra-fields-galois/splitting-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/normality-splitting-field.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The decreasing eigenvalue sequence of the absolute value of a compact Hilbert-space operator."
 aliases = ["s-numbers", "singular-value sequence", "approximation numbers"]
 domains = ["functional-analysis"]
+prerequisites = ["linear-algebra/compact-operator", "linear-algebra/hilbert-space", "real-analysis/absolute-value"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

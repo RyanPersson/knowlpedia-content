@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The descending series defined by iterated commutators with the whole group"
 aliases = ["lower-central-series", "Lower central series"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/commutator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/lower-central-series.md"
 +++
 

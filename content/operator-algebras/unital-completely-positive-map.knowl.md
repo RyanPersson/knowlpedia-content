@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A unital completely positive map preserves the identity and is positive at every matrix level."
 aliases = ["UCP map"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/unital-cstar-algebra", "operator-algebras/completely-positive-map", "linear-algebra/linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

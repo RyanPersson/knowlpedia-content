@@ -1,23 +1,75 @@
 +++
 id = "langlands-letter/knowls/pinned-automorphisms"
-title = "Pinning and Pinned Automorphisms"
+title = "Pinning and pinned automorphisms"
 kind = "knowl"
-summary = "A pinning of a split reductive group and the automorphisms that preserve it."
+summary = "A Borel, maximal torus, and simple-root vectors that canonically lift automorphisms of a based root datum."
 aliases = ["pinned-automorphisms", "Pinning and Pinned Automorphisms"]
 domains = ["langlands-letter"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup", "langlands-letter/knowls/maximal-torus-weight-lattice", "lie-groups/simple-root", "langlands-letter/knowls/roots-weights-weyl"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "langlands-letter/knowls/pinned-automorphisms.md"
+section_mode = "progressive"
 +++
 
-A **pinning** of a split connected reductive group \(G\) is a tuple
+A **pinning** of a split connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) is data
+
 \[
 (B,T,\{X_\alpha\}_{\alpha\in\Delta}),
 \]
-where \(B\) is a Borel subgroup, \(T\subseteq B\) is a maximal torus, \(\Delta\) is the corresponding set of simple roots, and \(X_\alpha\) is a chosen nonzero vector in the root space for each \(\alpha\in\Delta\).
 
-A **pinned automorphism** is an automorphism of \(G\) preserving \(B\), \(T\), and every chosen root vector \(X_\alpha\).
+where \(B\) is a [[algebraic-geometry-foundations/borel-subgroup|Borel
+subgroup]], \(T\subset B\) a
+[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]], and
+\(X_\alpha\) a nonzero vector, or equivalently a root-group
+parametrization, for every [[lie-groups/simple-root|simple root]].
 
-In the letter, \(\Omega\) is a group of pinning-preserving automorphisms satisfying additional lattice conditions. Its contragredient action induces an action on the [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]].
+A **pinned automorphism** preserves \(B\) and \(T\) and carries the chosen
+simple-root parametrizations according to its induced permutation of the
+[[langlands-letter/knowls/roots-weights-weyl|based root datum]]. If the
+simple roots are regarded as individually labeled
+and each \(X_\alpha\) is required to be fixed pointwise, the resulting
+automorphism is usually the identity; diagram automorphisms require the
+permutation-compatible formulation.
 
-## Examples
+## Splitting outer automorphisms
 
-- Pinned automorphisms act on the based root datum and hence induce automorphisms of its Dynkin diagram.
+For a pinned reductive group there is a canonical splitting
+
+\[
+\operatorname{Out}(G)
+\simeq
+\operatorname{Aut}(\Psi_0(G))
+\longrightarrow
+\operatorname{Aut}(G)
+\]
+
+of the passage from automorphisms to the based root datum. This realizes
+Dynkin-diagram automorphisms as actual group automorphisms without an
+inner-automorphism ambiguity.
+
+## L-group role
+
+For a reductive group over a nonsplit field, the
+[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+acts on its based root
+datum. A pinning of the
+[[langlands-letter/knowls/langlands-dual-group|dual group]] \(\widehat G\)
+lifts this action to automorphisms and defines the
+[[algebra-groups/semidirect-product|semidirect-product]] presentation of the
+[[langlands/l-group|\(L\)-group]]. Changing the pinning changes the
+presentation by an inner isomorphism.
+
+## Relation to the letter
+
+The letter's group \(\Omega\) acts on pinned root data and hence on the dual
+construction. Modern terminology makes explicit whether an automorphism
+fixes labels pointwise or permutes them through a diagram automorphism.
+
+## References
+
+1. T. A. Springer, *Linear Algebraic Groups*, second edition, Birkhäuser,
+   1998.
+2. Kevin Buzzard and Toby Gee, “The conjectural connections between
+   automorphic representations and Galois representations,” §2.1.
+   [arXiv](https://arxiv.org/abs/1009.0785).

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A vector bundle section whose value is nonzero in every fiber."
 aliases = ["nonvanishing section", "nowhere-zero section"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/zero-section", "linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

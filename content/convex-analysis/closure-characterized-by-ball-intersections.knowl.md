@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A point is in the closure iff every ball around it meets the set"
 aliases = ["closure-characterized-by-ball-intersections", "Closure via balls"]
 domains = ["convex-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/closure-characterized-by-ball-intersections.md"
 +++
 

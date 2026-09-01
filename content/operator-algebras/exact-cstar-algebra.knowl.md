@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A C-star algebra whose minimal tensor product preserves every short exact sequence of C-star algebras."
 aliases = ["exactness of a C*-algebra"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/minimal-cstar-tensor-product", "operator-algebras/cstar-exact-sequence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

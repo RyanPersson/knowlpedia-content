@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every Cauchy sequence in a metric space is bounded."
 aliases = ["cauchy-sequences-are-bounded", "Cauchy sequences are bounded"]
 domains = ["convex-analysis"]
+prerequisites = ["topology/cauchy-sequence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/cauchy-sequences-are-bounded.md"
 +++
 

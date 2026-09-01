@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The left Maurer–Cartan form on a Lie group satisfies the structure equation dθ + 1/2[θ∧θ] = 0."
 aliases = ["lemma-maurercartan-equation-for-the-left-maurercartan-form", "Maurer–Cartan equation for the left Maurer–Cartan form"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/lemma-maurercartan-equation-for-the-left-maurercartan-form.md"
 +++
 

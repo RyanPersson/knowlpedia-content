@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A module map between Hilbert C*-modules that admits an adjoint with respect to their module-valued inner products."
 aliases = ["adjointable module map", "L(E,F)"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["operator-algebras/hilbert-cstar-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -24,7 +27,7 @@ for all \(x\in E\) and \(y\in F\). The adjoint, when it exists, is unique, and
 ## Comparison with Hilbert-space operators
 
 For \(A=\mathbb C\), Hilbert \(A\)-modules are [[linear-algebra/hilbert-space|Hilbert spaces]] and every
-[[functional-analysis/bounded-linear-operator|bounded operator on a Hilbert
+[[quantum-foundations/bounded-operator-hilbert|bounded operator on a Hilbert
 space]] has an adjoint. For general coefficient algebras, a bounded
 \(A\)-linear map need not be adjointable. Thus boundedness alone is not the
 standard morphism condition for Hilbert \(C^*\)-modules. Adjointability is

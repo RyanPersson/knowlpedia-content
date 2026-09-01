@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Closure conditions that characterize when a subset is a submodule."
 aliases = ["submodule-criterion", "Submodule criterion"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/submodule", "algebra-modules/module-axioms", "algebra-modules/module", "algebra-rings/ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/submodule-criterion.md"
 +++
 

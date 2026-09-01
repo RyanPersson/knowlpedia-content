@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth manifold carrying three integrable complex structures that satisfy the quaternion relations."
 aliases = ["hypercomplex structure"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/integrable-almost-complex-structure", "differential-geometry/complex-manifold", "differential-geometry/tangent-space", "linear-algebra/quaternionic-vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -31,6 +34,16 @@ Q=\operatorname{span}_{\mathbb R}\{I,J,K\}\subseteq\operatorname{End}(TM)
 is an [[differential-geometry/almost-quaternionic-manifold|almost-quaternionic structure]]. Because the Obata connection is torsion-free and preserves \(Q\), it makes \(M\) a [[differential-geometry/quaternionic-manifold|quaternionic manifold]]. The converse need not hold: a quaternionic manifold generally has only local admissible triples, related on overlaps by rotations, and need not admit any globally distinguished \(I,J,K\).
 
 If \(M\) also has a Riemannian metric that is Hermitian for \(I,J,K\) and whose Levi-Civita connection preserves the triple, then \(M\) is hyperkähler. Metric compatibility alone gives a [[differential-geometry/hyperhermitian-manifold|hyper-Hermitian manifold]] and does not force the associated two-forms to be closed.
+
+## Quaternionic potential theory
+
+After choosing \(I\), the [[differential-geometry/del-j-operator|
+\(\partial_J\) operator]] combines with the Dolbeault operator to form
+\(\partial\partial_Ju\). Positivity of this form defines a
+[[differential-geometry/quaternionic-plurisubharmonic-function-hypercomplex|
+quaternionic plurisubharmonic function on a hypercomplex manifold]]. Its
+strictly positive smooth local potentials produce
+[[differential-geometry/hkt-metric|HKT metrics]].
 
 ## Examples and non-examples
 

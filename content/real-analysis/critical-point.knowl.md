@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A point where the first derivative of a scalar function vanishes"
 aliases = ["critical-point", "Critical point"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/frechet-derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/critical-point.md"
 +++
 

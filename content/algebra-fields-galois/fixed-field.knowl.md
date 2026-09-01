@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The subfield consisting of elements fixed by every automorphism in a given group."
 aliases = ["fixed-field", "Fixed field"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/intermediate-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/fixed-field.md"
 +++
 

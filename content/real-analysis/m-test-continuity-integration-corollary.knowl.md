@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Under the M-test, a function series converges uniformly, giving continuity and term-by-term integration"
 aliases = ["m-test-continuity-integration-corollary", "M-test continuity and integration corollary"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/continuity-on-a-set", "topology/metric-space", "real-analysis/convergent-series", "real-analysis/uniform-convergence-of-a-sequence-of-functions", "real-analysis/weierstrass-m-test", "real-analysis/uniform-limit-theorem", "real-analysis/riemann-integrable-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/m-test-continuity-integration-corollary.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subset that is simultaneously a left ideal and a right ideal."
 aliases = ["two-sided-ideal", "Two-sided ideal"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ring", "algebra-rings/ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/two-sided-ideal.md"
 +++
 

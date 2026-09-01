@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Under chain conditions, direct-product decompositions into indecomposable normal factors are unique up to order and isomorphism."
 aliases = ["krull-remak-schmidt-theorem-groups", "Krull–Remak–Schmidt Theorem (Groups)"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/direct-product-groups", "algebra-groups/group-isomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/krull-remak-schmidt-theorem-groups.md"
 +++
 

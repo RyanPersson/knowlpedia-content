@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A map between smooth manifolds that becomes an ordinary smooth function in local coordinates."
 aliases = ["smooth-map", "Smooth map"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/smooth-atlas", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/pullback-of-covectors", "fiber-bundles/pullback-of-differential-forms"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/smooth-map.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A self-adjoint energy operator that generates time evolution and determines thermal weights."
 aliases = ["quantum-hamiltonian", "Quantum Hamiltonian"]
 domains = ["stat-mech-quantum"]
+prerequisites = ["stat-mech-quantum/observable-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "stat-mech-quantum/quantum-hamiltonian.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A value attained at some point where the derivative is not surjective"
 aliases = ["critical-value", "Critical value"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/regular-point"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/critical-value.md"
 +++
 

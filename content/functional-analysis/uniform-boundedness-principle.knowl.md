@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A pointwise bounded family of bounded operators on a Banach space is uniformly bounded in operator norm."
 aliases = ["Banach–Steinhaus theorem", "uniform boundedness theorem"]
 domains = ["functional-analysis"]
+prerequisites = ["linear-algebra/banach-space", "linear-algebra/normed-vector-space", "functional-analysis/bounded-linear-operator", "linear-algebra/operator-norm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

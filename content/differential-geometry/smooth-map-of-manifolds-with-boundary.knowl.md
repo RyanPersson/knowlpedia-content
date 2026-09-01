@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth map between manifolds with boundary has coordinate representatives that extend smoothly across the bounding hyperplanes."
 aliases = ["boundary-smooth map", "smooth map on manifolds with boundary"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/manifold-with-boundary", "differential-geometry/boundary-chart", "fiber-bundles/smooth-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

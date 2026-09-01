@@ -254,3 +254,17 @@ Click any term to expand its definition inline.
 
 - [[convex-analysis/semialgebraic-set|Semialgebraic set]]
 - [[convex-analysis/piecewise-polynomial-function|Piecewise-polynomial function]]
+
+---
+
+## Convex bodies, mixed volumes, and valuations
+
+- [[convex-analysis/convex-body|Convex body]]
+- [[topology/hausdorff-distance|Hausdorff distance]]
+- [[convex-analysis/support-function|Support function of a convex body]]
+- [[convex-analysis/minkowski-sum|Minkowski sum]]
+- [[convex-analysis/mixed-volume|Mixed volume]]
+- [[convex-analysis/valuation-on-convex-bodies|Valuation on convex bodies]]
+- [[convex-analysis/pluripotential-valuation-construction|Pluripotential construction of convex-body valuations]]
+- [[convex-analysis/octonionic-pseudovolume|Octonionic pseudovolume]]
+- [[knowlification/quaternionic-psh-convexity-expansion|Complete quaternionic PSH and convexity expansion index]]

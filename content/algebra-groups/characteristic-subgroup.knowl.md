@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subgroup preserved by every automorphism of the ambient group."
 aliases = ["characteristic-subgroup", "Characteristic Subgroup"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/characteristic-subgroup.md"
 +++
 

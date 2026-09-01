@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Compactness is equivalent to nonempty intersection for families of closed sets with the finite intersection property"
 aliases = ["finite-intersection-property-theorem", "Finite intersection property theorem"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "topology/subspace-topology", "topology/compact-set", "topology/closed-set", "topology/finite-intersection-property", "topology/open-cover"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/finite-intersection-property-theorem.md"
 +++
 

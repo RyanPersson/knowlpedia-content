@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An inequality bounding total variation distance by the square root of Kullback–Leibler divergence."
 aliases = ["pinsker-inequality", "Pinsker's inequality"]
 domains = ["probability"]
+prerequisites = ["probability/probability-measure", "probability/total-variation-distance", "probability/relative-entropy-kl-divergence", "probability/gibbs-inequality-kl"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/pinsker-inequality.md"
 +++
 

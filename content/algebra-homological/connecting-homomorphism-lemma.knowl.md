@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "From a short exact sequence of complexes (or of objects with a left/right exact functor), one constructs natural connecting maps yielding a long exact sequence in homology/cohomology."
 aliases = ["connecting-homomorphism-lemma", "Connecting homomorphism (boundary map) lemma"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-homological/chain-complex", "algebra-category-theory/abelian-category", "algebra-homological/homology-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/connecting-homomorphism-lemma.md"
 +++
 

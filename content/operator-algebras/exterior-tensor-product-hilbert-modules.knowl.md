@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Hilbert module obtained by tensoring two Hilbert modules over the minimal tensor product of their coefficient algebras."
 aliases = ["external tensor product of Hilbert modules"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/hilbert-cstar-module", "operator-algebras/minimal-cstar-tensor-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

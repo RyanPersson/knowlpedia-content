@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A continuous homomorphism from a topological group to the circle group."
 aliases = ["unitary character", "circle-valued character"]
 domains = ["harmonic-analysis", "representation-theory"]
+prerequisites = ["topology/topological-group", "algebra-groups/group-homomorphism", "lie-groups/strongly-continuous-unitary-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth admissible Fréchet representation of a real reductive group whose action has moderate growth."
 aliases = ["smooth admissible Fréchet representation", "SAF representation"]
 domains = ["lie-groups", "representation-theory", "functional-analysis"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "functional-analysis/frechet-space", "lie-groups/k-finite-vector", "lie-groups/harish-chandra-module", "convex-analysis/seminorm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

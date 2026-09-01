@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set equipped with a topology, specifying which subsets are open."
 aliases = ["topological-space", "Topological space"]
 domains = ["topology"]
+prerequisites = ["shared-foundations/ordered-pair", "shared-foundations/set", "topology/topology"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/topological-space.md"
 +++
 
@@ -12,6 +15,8 @@ A **topological space** is an [[shared-foundations/ordered-pair|ordered pair]] \
 - \(\varnothing\in\mathcal{T}\) and \(X\in\mathcal{T}\),
 - if \(\{U_i\}_{i\in I}\subseteq\mathcal{T}\) then \(\bigcup_{i\in I}U_i\in\mathcal{T}\),
 - if \(U,V\in\mathcal{T}\) then \(U\cap V\in\mathcal{T}\).
+
+## Constructions
 
 Here \(\mathcal{P}(X)\) denotes the [[shared-foundations/power-set|power set]] of \(X\), and the members of \(\mathcal{T}\) are the [[topology/open-set|open sets]] (whose complements are the [[topology/closed-set|closed sets]]). Many standard constructions—such as the [[topology/subspace-topology|subspace topology]], [[topology/product-topology|product topology]], and [[topology/quotient-topology|quotient topology]]—produce new topological spaces from existing ones.
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Fell topology is the hull-kernel topology on equivalence classes of irreducible unitary representations."
 aliases = ["Fell topology", "hull-kernel topology on the unitary dual", "Jacobson topology on irreducible representations"]
 domains = ["harmonic-analysis", "operator-algebras"]
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/unitary-dual", "operator-algebras/full-group-cstar-algebra", "harmonic-analysis/weak-containment-unitary-representations"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

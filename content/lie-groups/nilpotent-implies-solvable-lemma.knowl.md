@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every nilpotent Lie algebra is solvable (derived series terminates)."
 aliases = ["nilpotent-implies-solvable-lemma", "Nilpotent implies solvable"]
 domains = ["lie-groups"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/nilpotent-implies-solvable-lemma.md"
 +++
 

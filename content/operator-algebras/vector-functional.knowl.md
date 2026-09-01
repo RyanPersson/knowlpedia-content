@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A vector functional evaluates a concrete von Neumann algebra between two fixed Hilbert-space vectors."
 aliases = ["matrix coefficient functional"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/hilbert-space", "linear-algebra/inner-product", "operator-algebras/vector-state"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -45,7 +48,7 @@ For \(M=B(H)\),
 \omega_{\xi,\eta}(x)=\operatorname{Tr}(\theta_{\xi,\eta}x),
 \]
 where \(\theta_{\xi,\eta}\) is the rank-one
-[[functional-analysis/schatten-class-operator|trace-class operator]] determined by the
+[[shale-paper/trace-class-operator|trace-class operator]] determined by the
 same inner-product convention. Hence vector functionals are exactly the
 predual functionals represented by rank-one trace-class operators. A
 [[operator-algebras/normal-state|normal state]] with a

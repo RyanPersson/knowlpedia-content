@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The scalar normally hyperbolic operator obtained from a Lorentzian metric."
 aliases = ["d'Alembertian", "wave operator", "box operator", "dalembert operator"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/laplace-beltrami-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

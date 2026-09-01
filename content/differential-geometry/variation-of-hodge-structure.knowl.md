@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A local system whose fibers carry Hodge structures varying holomorphically and satisfying Griffiths transversality."
 aliases = ["VHS"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-vector-bundle", "fiber-bundles/flat-vector-bundle-connection", "linear-algebra/bilinear-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

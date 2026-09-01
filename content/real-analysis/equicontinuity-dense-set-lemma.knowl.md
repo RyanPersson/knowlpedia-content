@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "On a compact metric space, equicontinuity allows pointwise Cauchy behavior on a dense set to upgrade to uniform Cauchy behavior."
 aliases = ["equicontinuity-dense-set-lemma", "Equicontinuity and dense sets lemma"]
 domains = ["real-analysis"]
+prerequisites = ["topology/metric-space", "topology/dense-set", "real-analysis/equicontinuity", "real-analysis/uniform-cauchy"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/equicontinuity-dense-set-lemma.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A sheaf admitting endomorphism-valued partitions of unity subordinate to locally finite open covers."
 aliases = ["fine module sheaf"]
 domains = ["differential-geometry"]
+prerequisites = ["algebraic-geometry-foundations/sheaf", "algebra-groups/abelian-group", "topology/topological-space", "topology/open-cover", "algebraic-geometry-foundations/stalk"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

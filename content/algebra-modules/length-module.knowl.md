@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The number of simple factors in a composition series (when finite)."
 aliases = ["length-module", "Length of a module"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/module", "algebra-modules/composition-series-module", "algebra-modules/noetherian-module", "algebra-modules/artinian-module", "algebra-modules/artinian-noetherian-finite-length"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/length-module.md"
 +++
 

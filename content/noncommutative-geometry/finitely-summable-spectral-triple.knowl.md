@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A spectral triple that is strictly p-summable for at least one finite exponent."
 aliases = ["finite summability", "finitely summable triple"]
 domains = ["noncommutative-geometry", "functional-analysis"]
+prerequisites = ["noncommutative-geometry/spectral-triple", "noncommutative-geometry/p-summable-spectral-triple"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

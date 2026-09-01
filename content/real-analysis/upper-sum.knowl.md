@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A Riemann upper sum built from suprema on each subinterval."
 aliases = ["upper-sum", "Upper sum"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/supremum"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/upper-sum.md"
 +++
 

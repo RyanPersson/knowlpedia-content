@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The vector bundle whose fiber over each point is the dual space of the original fiber."
 aliases = ["dual-vector-bundle", "Dual vector bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/local-trivialization", "fiber-bundles/vector-bundle-morphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/dual-vector-bundle.md"
 +++
 

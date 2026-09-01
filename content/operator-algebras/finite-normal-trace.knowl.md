@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A normal tracial weight on a von Neumann algebra whose value at the identity is finite."
 aliases = ["finite normal tracial weight"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/tracial-weight", "operator-algebras/normal-weight"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

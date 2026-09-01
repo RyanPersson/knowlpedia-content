@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The curve t ↦ exp(tX) is the unique one-parameter subgroup with initial velocity X."
 aliases = ["exponential-one-parameter-subgroup-lemma", "Exponentials and one-parameter subgroups"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/exponential-map-lie-group", "lie-groups/one-parameter-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/exponential-one-parameter-subgroup-lemma.md"
 +++
 

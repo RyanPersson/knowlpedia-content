@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The symmetrization of a pure tensor, obtained by averaging over all permutations of its factors."
 aliases = ["symmetric-tensor-product", "Symmetric Tensor Product (·)_s"]
 domains = ["shale-paper"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shale-paper/symmetric-tensor-product.md"
 +++
 

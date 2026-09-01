@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The complement of a finite reduced divisor in an algebraic curve."
 aliases = ["punctured curve"]
 domains = ["algebraic-geometry-foundations", "langlands"]
+prerequisites = ["algebraic-geometry-foundations/algebraic-curve", "algebraic-geometry-foundations/pointed-algebraic-curve"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

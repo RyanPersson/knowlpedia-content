@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The nonabelian Fourier transform is an L2 isometry onto a direct integral of Hilbert–Schmidt operator spaces."
 aliases = ["nonabelian Plancherel theorem", "abstract Plancherel formula"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
+prerequisites = ["harmonic-analysis/unimodular-group", "lie-groups/type-i-locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/plancherel-measure-nonabelian", "harmonic-analysis/group-fourier-transform-nonabelian", "linear-algebra/hilbert-space", "functional-analysis/hilbert-schmidt-operator", "linear-algebra/inner-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

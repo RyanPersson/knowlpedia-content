@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every connected abelian Lie group is isomorphic to R^n × T^m."
 aliases = ["connected-abelian-lie-group-structure", "Structure of connected abelian Lie groups"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/connected-lie-group", "lie-groups/abelian-lie-group", "lie-groups/lie-algebra-of-a-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/connected-abelian-lie-group-structure.md"
 +++
 

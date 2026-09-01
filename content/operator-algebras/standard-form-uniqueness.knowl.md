@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A normal isomorphism between von Neumann algebras in standard form has a unique cone-preserving unitary implementation."
 aliases = ["spatial uniqueness of standard form"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/standard-form", "operator-algebras/von-neumann-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

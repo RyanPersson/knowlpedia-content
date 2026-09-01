@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The tensor measuring the failure of an almost-complex structure to be integrable."
 aliases = ["Nijenhuis tensor"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/almost-complex-structure", "fiber-bundles/lie-bracket", "fiber-bundles/tangent-bundle", "differential-geometry/newlander-nirenberg-theorem"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

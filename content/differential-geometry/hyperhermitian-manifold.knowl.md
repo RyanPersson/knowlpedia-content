@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A hypercomplex manifold with a Riemannian metric Hermitian for all three complex structures."
 aliases = ["hyperhermitian manifold", "hyper-Hermitian metric"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/hypercomplex-manifold", "differential-geometry/riemannian-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -23,6 +26,15 @@ The metric determines three real two-forms
 \omega_K(X,Y)=g(KX,Y).
 \]
 They encode the same pointwise compatibility as the metric, but they need not be closed. The structure is hyperkähler precisely when all three forms are closed; equivalently, the [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]] preserves \(I,J,K\).
+
+## HKT condition
+
+An [[differential-geometry/hkt-metric|HKT metric]] is a hyper-Hermitian metric
+whose three Hermitian Bismut connections coincide. Equivalently, after fixing
+one complex structure, the corresponding complex two-form satisfies a
+\(\partial\)-closedness condition. Thus HKT adds a differential condition to
+the pointwise hyper-Hermitian data but is weaker than the hyperkähler
+condition.
 
 ## Examples and scope
 

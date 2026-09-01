@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Natural numbers are unbounded in the real numbers."
 aliases = ["archimedean-property", "Archimedean Property"]
 domains = ["real-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/archimedean-property.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A normalized positive linear functional on a translation-invariant function space that is fixed by translations."
 aliases = ["left-invariant mean", "translation-invariant mean"]
 domains = ["harmonic-analysis", "functional-analysis", "topology"]
+prerequisites = ["topology/topological-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

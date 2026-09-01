@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Weights are elements of ; integrality conditions define weight lattices tied to maximal tori and characters."
 aliases = ["weights-in-dual-cartan", "Weights in the dual Cartan"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/weight-of-a-representation", "lie-groups/root-system"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/weights-in-dual-cartan.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The 35-dimensional simple complex Lie algebra of rank 5 and Dynkin type A5."
 aliases = ["complex-lie-algebra-sl6", "sl6(C)", "sl(6,C)", "complex Lie algebra sl6"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/fundamental-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

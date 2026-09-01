@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The filtered sheaf D_X generated locally by functions and vector fields acting as differential operators."
 aliases = ["D_X", "differential-operator sheaf"]
 domains = ["algebraic-geometry-foundations", "langlands"]
+prerequisites = ["algebraic-geometry-foundations/tangent-sheaf", "fiber-bundles/vector-field", "lie-groups/universal-enveloping-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

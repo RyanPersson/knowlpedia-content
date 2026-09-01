@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A sigma-unital C*-algebra has an approximate identity indexed by the natural numbers."
 aliases = ["countable approximate identity"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/approximate-identity"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

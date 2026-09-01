@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function with continuous derivatives up to order k."
 aliases = ["class-ck-function", "Class C^k function"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/class-ck-function.md"
 +++
 

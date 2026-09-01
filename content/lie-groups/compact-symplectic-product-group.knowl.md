@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The central quotient of the product of two compact symplectic groups acting on quaternionic Euclidean space."
 aliases = ["Sp(n) dot Sp(1)", "Sp(n)·Sp(1)"]
 domains = ["lie-groups", "differential-geometry"]
+prerequisites = ["lie-groups/compact-symplectic-group", "lie-groups/lie-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

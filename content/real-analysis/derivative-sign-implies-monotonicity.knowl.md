@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A nonnegative derivative forces a function to be nondecreasing, and a nonpositive derivative forces it to be nonincreasing."
 aliases = ["derivative-sign-implies-monotonicity", "Derivative sign implies monotonicity"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/derivative-sign-implies-monotonicity.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The gauge-equivalence classes of anti-self-dual connections on a fixed principal bundle over an oriented Riemannian four-manifold."
 aliases = ["instanton moduli space", "ASD connection moduli"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "differential-geometry/riemannian-manifold", "fiber-bundles/gauge-group", "fiber-bundles/instanton"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

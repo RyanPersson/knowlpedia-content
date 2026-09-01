@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A principal bundle isomorphism from a principal bundle to itself, possibly covering a nontrivial base diffeomorphism."
 aliases = ["principal-bundle-automorphism", "Principal bundle automorphism"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-isomorphism", "fiber-bundles/diffeomorphism", "fiber-bundles/gauge-transformation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/principal-bundle-automorphism.md"
 +++
 

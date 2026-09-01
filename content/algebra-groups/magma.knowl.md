@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set with a binary operation (no other axioms)"
 aliases = ["magma"]
 domains = ["algebra-groups"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/magma.md"
 +++
 

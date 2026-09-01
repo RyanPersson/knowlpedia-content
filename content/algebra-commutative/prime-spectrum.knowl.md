@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set Spec(R) of prime ideals of a commutative ring, naturally equipped with the Zariski topology."
 aliases = ["prime-spectrum", "Prime spectrum"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/zariski-topology", "algebra-commutative/localization-ring", "algebra-commutative/localization-at-prime", "algebra-commutative/residue-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/prime-spectrum.md"
 +++
 
@@ -18,7 +21,7 @@ An element \(\mathfrak p\in \operatorname{Spec}(R)\) is called a **point** of \(
 
 In commutative algebra one usually studies \(\operatorname{Spec}(R)\) together with the [[algebra-commutative/zariski-topology|Zariski topology]]; this turns \(\operatorname{Spec}(R)\) into a topological space whose basic opens are closely related to [[algebra-commutative/localization-ring|localizations]]. For a point \(\mathfrak p\in\operatorname{Spec}(R)\), the associated local data are the [[algebra-commutative/localization-at-prime|localization \(R_{\mathfrak p}\)]] and its [[algebra-commutative/residue-field|residue field \(\kappa(\mathfrak p)\)]].
 
-### Examples
+## Examples
 
 1. **A field has a one-point spectrum.**
    If \(k\) is a [[algebra-rings/field|field]], the only prime ideal is \((0)\), so \(\operatorname{Spec}(k)=\{(0)\}\).

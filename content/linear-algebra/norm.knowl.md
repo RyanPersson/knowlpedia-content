@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function assigning a nonnegative length to vectors."
 aliases = ["norm"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/vector-space", "real-analysis/absolute-value"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/norm.md"
 +++
 

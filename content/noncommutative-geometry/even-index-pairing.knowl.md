@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The integer obtained by compressing the off-diagonal operator of an even Fredholm module by a K-zero projection."
 aliases = ["even index pairing", "K0 index pairing", "projection index pairing"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/even-fredholm-module", "operator-algebras/projection-cstar-algebra", "operator-algebras/k0-cstar-algebra", "functional-analysis/fredholm-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

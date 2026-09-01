@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A quasi-regular representation is the unitary action of a locally compact group on square-integrable functions over a homogeneous space."
 aliases = ["representation on L2(G/H)", "homogeneous-space representation"]
 domains = ["harmonic-analysis", "representation-theory", "lie-groups"]
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/quasi-invariant-measure", "harmonic-analysis/locally-compact-homogeneous-space", "measure-theory/lp-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

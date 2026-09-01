@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The rank of a linear map or matrix is the dimension of its image."
 aliases = ["rank"]
 domains = ["linear-algebra"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/rank.md"
 +++
 

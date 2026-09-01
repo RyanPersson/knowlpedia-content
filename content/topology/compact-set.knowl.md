@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set in which every open cover has a finite subcover."
 aliases = ["compact-set", "Compact set"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "topology/open-cover"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/compact-set.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical Banach space whose continuous dual is a von Neumann algebra."
 aliases = ["normal functional space", "von Neumann algebra predual"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/banach-space", "functional-analysis/weak-star-topology", "operator-algebras/ultraweak-topology", "operator-algebras/normal-functional"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -32,7 +35,7 @@ has the form
 x\longmapsto \operatorname{Tr}(ax),
 \]
 after restricting a
-[[functional-analysis/schatten-class-operator|trace-class operator]] \(a\) on \(H\) to
+[[shale-paper/trace-class-operator|trace-class operator]] \(a\) on \(H\) to
 \(M\). Different trace-class operators can induce the same functional. More
 precisely, \(M_*\) is isometrically the quotient of the trace-class operators
 by the annihilator of \(M\), rather than generally a distinguished subspace

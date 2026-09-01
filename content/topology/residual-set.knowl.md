@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set whose complement is meager"
 aliases = ["residual-set", "Residual set"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "shared-foundations/complement", "topology/meager-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/residual-set.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An integer obtained by evaluating a top-degree monomial in Pontryagin classes on an oriented fundamental class."
 aliases = ["Pontryagin characteristic number"]
 domains = ["fiber-bundles", "topology"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "topology/cup-product-and-cohomology-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The smooth vector bundle whose fiber at each point is the dual of the tangent space."
 aliases = ["cotangent-bundle", "Cotangent bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/tangent-bundle", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/cotangent-bundle.md"
 +++
 
@@ -36,7 +39,7 @@ together with the projection map \(\pi:T^*M\to M\) sending a covector \(\alpha\i
 
 Smooth sections of \(T^*M\) are exactly differential \(1\)-forms, i.e. the case \(k=1\) of a [[fiber-bundles/differential-k-form|differential \(k\)-form]].
 
-### Examples
+## Examples
 
 1. **Euclidean space.** For \(M=\mathbb{R}^n\) with standard coordinates, each \(T_p\mathbb{R}^n\cong \mathbb{R}^n\) canonically, hence \(T_p^*\mathbb{R}^n\cong (\mathbb{R}^n)^*\). Using the standard basis \(dx^1,\dots,dx^n\), one gets a global trivialization
    \[

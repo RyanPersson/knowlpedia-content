@@ -57,6 +57,22 @@ Thus on Minkowski spacetime \(\Box=\partial_t^2-\sum_i\partial_i^2\). Every oper
 - [[mathematical-physics/klein-gordon-equation|Klein–Gordon equation]]
 - [[mathematical-physics/conformal-coupling-of-a-scalar-field|Conformal coupling of a scalar field]]
 
+## Quantum chaos and fractal uncertainty
+
+- [[mathematical-physics/compact-hyperbolic-surface|Compact hyperbolic surface]]
+- [[differential-geometry/geodesic-flow|Geodesic flow]]
+- [[differential-geometry/anosov-flow|Anosov flow]]
+- [[differential-geometry/horocycle-flow|Horocycle flow]]
+- [[analysis/unique-ergodicity|Unique ergodicity]]
+- [[mathematical-physics/hyperbolic-poisson-kernel|Hyperbolic Poisson kernel]]
+- [[mathematical-physics/hyperbolic-plane-wave|Hyperbolic plane wave]]
+- [[mathematical-physics/laplace-beltrami-eigenfunction|Laplace–Beltrami eigenfunction]]
+- [[mathematical-physics/semiclassical-measure|Semiclassical measure]]
+- [[harmonic-analysis/fractal-uncertainty-principle|Fractal uncertainty principle]]
+- [[harmonic-analysis/higher-dimensional-line-porous-fup|Higher-dimensional line-porous fractal uncertainty principle]]
+- [[mathematical-physics/uniform-eigenfunction-mass-lower-bound|Uniform mass lower bound for hyperbolic-surface eigenfunctions]]
+- [[knowlification/quantum-chaos-index|Complete fractal uncertainty and quantum chaos batch index]]
+
 ## Spinors and first-order fields
 
 - [[differential-geometry/spinor-module|Spinor module]]

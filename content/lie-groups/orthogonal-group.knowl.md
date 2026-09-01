@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The Lie group of linear transformations preserving a nondegenerate symmetric bilinear form."
 aliases = ["orthogonal-group", "Orthogonal group"]
 domains = ["lie-groups"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/orthogonal-group.md"
 +++
 

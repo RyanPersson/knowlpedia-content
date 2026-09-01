@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A bundle whose points record the value and first derivative of a local section at a basepoint."
 aliases = ["jet-bundle", "Jet bundle (first jets of sections)"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/jet-bundle.md"
 +++
 

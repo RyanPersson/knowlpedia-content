@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The signed count of eigenvalues crossing zero along a continuous path of self-adjoint Fredholm operators."
 aliases = ["net eigenvalue crossing", "spectral-flow index"]
 domains = ["noncommutative-geometry", "functional-analysis", "operator-algebras"]
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/fredholm-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

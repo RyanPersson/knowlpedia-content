@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A real Lie group satisfying the reductivity and finiteness hypotheses used in Harish–Chandra theory."
 aliases = ["reductive group over the real numbers", "Harish-Chandra class group"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/reductive-lie-algebra", "algebra-groups/inner-automorphism", "topology/connected-component"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

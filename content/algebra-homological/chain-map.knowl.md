@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A degreewise module homomorphism between chain complexes commuting with differentials."
 aliases = ["chain-map", "Chain map"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-homological/chain-complex", "algebra-homological/homology-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/chain-map.md"
 +++
 
@@ -38,7 +41,7 @@ D_n & \xrightarrow{d^D_n} & D_{n-1}.
 ## Remarks
 - Two chain maps may be equivalent “up to homotopy”: [[algebra-homological/chain-homotopy|chain homotopy]].
 - Chain maps are morphisms in the category of complexes; more generally in an [[algebra-category-theory/abelian-category|abelian category]].
-- In degree 0, chain maps recover ordinary [[algebra-modules/algebra-homomorphism|module homomorphisms]].
+- In degree 0, chain maps recover ordinary [[algebra-modules/module-homomorphism|module homomorphisms]].
 
 ## Examples
 1. **A module homomorphism as a chain map.**

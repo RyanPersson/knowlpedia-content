@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An action that is both free and transitive"
 aliases = ["regular-action", "Regular Action"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group-action", "algebra-groups/free-action", "algebra-groups/transitive-action"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/regular-action.md"
 +++
 

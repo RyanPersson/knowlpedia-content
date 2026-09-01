@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "An everywhere-defined linear operator between Banach spaces is bounded when its graph is closed."
 aliases = ["closed graph theorem for Banach spaces"]
 domains = ["functional-analysis"]
+prerequisites = ["linear-algebra/banach-space", "functional-analysis/closed-linear-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

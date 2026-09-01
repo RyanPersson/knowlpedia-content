@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A distance function on a set satisfying positivity, symmetry, and the triangle inequality."
 aliases = ["metric"]
 domains = ["topology"]
+prerequisites = ["shared-foundations/set", "shared-foundations/function", "topology/metric-space", "topology/open-ball", "topology/metric-induced-topology"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/metric.md"
 +++
 

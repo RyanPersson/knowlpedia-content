@@ -48,6 +48,7 @@ Click any term to expand its definition inline.
 - [[topology/metric-sphere|Metric sphere]]
 - [[topology/diameter|Diameter]]
 - [[topology/bounded-set|Bounded set]]
+- [[topology/hausdorff-distance|Hausdorff distance]]
 
 ### Completeness
 - [[topology/cauchy-sequence|Cauchy sequence]]

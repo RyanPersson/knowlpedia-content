@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In a metric space, every compact set can be covered by finitely many small balls."
 aliases = ["compactness-implies-total-boundedness", "Compactness implies total boundedness"]
 domains = ["topology"]
+prerequisites = ["topology/metric-space", "topology/compact-set", "topology/totally-bounded-set", "topology/open-ball"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/compactness-implies-total-boundedness.md"
 +++
 

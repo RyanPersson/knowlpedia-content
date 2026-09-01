@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The parity decomposition of an exterior algebra into its even-degree and odd-degree parts."
 aliases = ["parity decomposition of the exterior algebra", "even exterior algebra", "odd exterior algebra"]
 domains = ["lie-groups", "algebra-modules", "supergeometry"]
+prerequisites = ["algebra-modules/exterior-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -43,7 +46,7 @@ The full integer grading retains more information than parity, but parity is the
 
 ## Representations
 
-An action on \(V\) by linear maps extends to the [[lie-groups/exterior-power-representation|exterior algebra]]. It preserves degree and hence preserves the even and odd summands. Thus
+An action on \(V\) by linear maps extends to the [[algebra-modules/exterior-algebra|exterior algebra]]. It preserves degree and hence preserves the even and odd summands. Thus
 \[
 \Lambda^{\mathrm{even}}V
 \quad\text{and}\quad

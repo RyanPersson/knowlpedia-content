@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The integral inner product on bundle-valued differential forms induced by metrics on the base and coefficient bundle."
 aliases = ["L2 pairing on bundle-valued forms", "gauge-theoretic L2 metric"]
 domains = ["fiber-bundles", "differential-geometry", "functional-analysis"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "linear-algebra/inner-product", "fiber-bundles/vector-bundle-valued-differential-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

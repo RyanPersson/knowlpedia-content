@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For a multiplicative subset S of a commutative ring R, the localization S^{-1}M is the module obtained by making every element of S act invertibly."
 aliases = ["localization-module", "Localization of a module"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/localization-module.md"
 +++
 

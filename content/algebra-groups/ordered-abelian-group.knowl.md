@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An abelian group with a translation-invariant total order."
 aliases = ["totally ordered abelian group", "ordered commutative group"]
 domains = ["algebra-groups", "order-theory"]
+prerequisites = ["algebra-groups/abelian-group", "shared-foundations/total-order"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

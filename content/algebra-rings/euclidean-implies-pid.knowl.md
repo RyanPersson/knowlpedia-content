@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every Euclidean domain has all ideals principal."
 aliases = ["euclidean-implies-pid", "Euclidean domain ⇒ PID"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/euclidean-domain", "algebra-rings/pid", "algebra-rings/ideal", "algebra-rings/principal-ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/euclidean-implies-pid.md"
 +++
 

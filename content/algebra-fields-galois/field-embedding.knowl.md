@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An injective field homomorphism, often required to fix a base field in extension theory."
 aliases = ["field-embedding", "Field embedding"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/field-automorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/field-embedding.md"
 +++
 

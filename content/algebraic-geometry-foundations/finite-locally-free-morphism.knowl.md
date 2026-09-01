@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A scheme morphism whose direct-image algebra is locally a finite-rank free module."
 aliases = ["finite flat morphism of finite presentation", "finite locally free map"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/morphism-of-schemes", "algebraic-geometry-foundations/finite-morphism", "algebraic-geometry-foundations/flat-morphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

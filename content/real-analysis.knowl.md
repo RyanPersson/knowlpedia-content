@@ -308,7 +308,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/chain-rule-multivariable|Chain rule (multivariable)]]
 - [[real-analysis/continuity-via-sequences|Continuity via sequences]]
 - [[real-analysis/convergent-series-terms-go-to-zero|Convergent series terms go to zero]]
-- [[real-analysis/density-of-r-minus-q-in-r|Density of ℝ \\ ℚ in ℝ]]
+- [[real-analysis/density-of-r-minus-q-in-r|Density of \(\mathbb R\setminus\mathbb Q\) in \(\mathbb R\)]]
 - [[real-analysis/difference-quotient|Difference quotient]]
 - [[real-analysis/equicontinuity-pointwise-bounded-uniform-bounded|Equicontinuity + pointwise boundedness implies uniform boundedness on compact sets]]
 - [[real-analysis/equivalent-definitions-continuity|Equivalent definitions of continuity (metric spaces)]]

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An invariant subspace of a representation, closed under the group action."
 aliases = ["subrepresentation"]
 domains = ["algebra-representation-theory"]
+prerequisites = ["algebra-representation-theory/group-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-representation-theory/subrepresentation.md"
 +++
 

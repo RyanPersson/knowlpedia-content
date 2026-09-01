@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The Lie group GL(V) of invertible linear maps on a finite-dimensional vector space."
 aliases = ["general-linear-group", "General linear group"]
 domains = ["lie-groups"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/general-linear-group.md"
 +++
 

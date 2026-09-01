@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An étale sheaf admitting a representable diagonal and a surjective étale atlas by a scheme."
 aliases = ["algebraic space"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/etale-morphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

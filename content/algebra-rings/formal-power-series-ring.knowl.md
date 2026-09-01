@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The complete x-adic ring of one-variable formal coefficient sequences with Cauchy multiplication."
 aliases = ["formal-power-series-ring", "Formal power series ring"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/formal-power-series-ring.md"
 section_mode = "progressive"
 +++

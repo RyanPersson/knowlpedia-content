@@ -5,6 +5,9 @@ kind = "definition"
 summary = "One repeated family of quark and lepton multiplets with the same internal gauge quantum numbers."
 aliases = ["fermion generation", "Standard Model family", "one generation of fermions"]
 domains = ["mathematical-physics"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

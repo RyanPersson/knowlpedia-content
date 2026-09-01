@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The compact connected simple 52-dimensional Lie group of rank 4 that is the automorphism group of the real Albert algebra."
 aliases = ["compact-exceptional-lie-group-f4", "compact F4", "compact Lie group F4", "Aut(H3(O))"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/root-system", "lie-groups/simply-connected-lie-group", "lie-groups/lie-algebra", "lie-groups/compact-real-form", "lie-groups/exceptional-lie-algebra-f4", "nonassociative-algebra/euclidean-jordan-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

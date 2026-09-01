@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The minimal closed extension obtained by closing the graph of a closable operator."
 aliases = ["operator closure", "minimal closed extension"]
 domains = ["functional-analysis", "operator-theory"]
+prerequisites = ["functional-analysis/closable-operator", "linear-algebra/banach-space", "functional-analysis/graph-of-operator", "functional-analysis/closed-linear-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

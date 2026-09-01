@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A numerical summary of a distribution given by derivatives of the cumulant generating function at zero."
 aliases = ["cumulant"]
 domains = ["probability"]
+prerequisites = ["probability/random-variable", "probability/cumulant-generating-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/cumulant.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The obstruction to commuting covariant derivatives, yielding an endomorphism-valued 2-form."
 aliases = ["curvature-of-a-vector-bundle-connection", "Curvature of a vector bundle connection"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/lie-bracket", "fiber-bundles/differential-k-form", "fiber-bundles/curvature-2-form-in-a-frame"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/curvature-of-a-vector-bundle-connection.md"
 +++
 

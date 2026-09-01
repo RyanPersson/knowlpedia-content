@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The self-adjoint Stone generator associated with a one-parameter subgroup of a unitary Lie-group representation."
 aliases = ["Stone generator", "generator dπ(X)"]
 domains = ["lie-groups", "functional-analysis"]
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/stone-theorem-one-parameter-unitary-groups"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

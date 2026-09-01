@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A map from a selected Poisson algebra of classical observables to operators on a quantum state space."
 aliases = ["canonical quantization map", "Dirac quantization map", "operator quantization"]
 domains = ["mathematical-physics", "differential-geometry", "functional-analysis"]
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/poisson-algebra-smooth-functions", "linear-algebra/hilbert-space", "functional-analysis/symmetric-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

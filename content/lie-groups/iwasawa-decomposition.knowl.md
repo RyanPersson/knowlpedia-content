@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The canonical KAN factorization of a real reductive Lie group after choices of Cartan and positive restricted-root data."
 aliases = ["KAN decomposition", "Iwasawa theorem"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

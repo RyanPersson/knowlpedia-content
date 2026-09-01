@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The stable homotopy group of unitary elements over a C*-algebra."
 aliases = ["operator K-one", "unitary K-theory", "odd K-theory"]
 domains = ["operator-algebras", "k-theory"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/unitary-element", "operator-algebras/matrix-cstar-algebra", "operator-algebras/unitization"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

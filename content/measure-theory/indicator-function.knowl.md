@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function that equals 1 on a set and 0 outside it."
 aliases = ["indicator-function", "Indicator function"]
 domains = ["measure-theory"]
+prerequisites = ["measure-theory/simple-function", "measure-theory/measurable-space", "measure-theory/measurable-function", "measure-theory/measurable-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/indicator-function.md"
 +++
 

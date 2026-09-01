@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A decomposition of the unit of a Euclidean Jordan algebra into pairwise orthogonal primitive idempotents."
 aliases = ["complete system of primitive orthogonal idempotents", "Jordan algebra frame"]
 domains = ["nonassociative-algebra"]
+prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "nonassociative-algebra/primitive-jordan-idempotent"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

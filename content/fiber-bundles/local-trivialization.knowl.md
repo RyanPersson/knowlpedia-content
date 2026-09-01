@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A local trivialization identifies a bundle over an open set with a product of that open set and the fiber."
 aliases = ["local-trivialization", "Local trivialization"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/bundle-atlas", "fiber-bundles/transition-function", "fiber-bundles/cocycle-condition-for-transition-functions", "fiber-bundles/equivariant-local-trivialization", "fiber-bundles/construction-local-trivialization-from-a-local-section"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/local-trivialization.md"
 +++
 

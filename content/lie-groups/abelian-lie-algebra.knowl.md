@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A Lie algebra whose bracket vanishes identically."
 aliases = ["abelian-lie-algebra", "Abelian Lie algebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/abelian-lie-algebra.md"
 +++
 

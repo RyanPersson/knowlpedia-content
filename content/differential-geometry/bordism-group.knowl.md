@@ -5,10 +5,13 @@ kind = "definition"
 summary = "The abelian group of bordism classes of closed manifolds under disjoint union."
 aliases = ["cobordism group", "unoriented bordism group", "oriented bordism group"]
 domains = ["differential-geometry", "topology"]
+prerequisites = ["differential-geometry/cobordism-equivalence", "topology/closed-manifold", "differential-geometry/disjoint-union-of-smooth-manifolds", "algebra-groups/abelian-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
-Fix \(n\geq0\) and a bordism theory, such as unoriented or [[differential-geometry/oriented-cobordism|oriented smooth bordism]]. The **\(n\)-dimensional bordism group** is the set of [[differential-geometry/cobordism-equivalence|bordism-equivalence classes]] of [[topology/closed-manifold|closed]] \(n\)-manifolds with the chosen structure, with operation
+Fix \(n\geq0\) and a bordism theory. The **\(n\)-dimensional bordism group** is the set of [[differential-geometry/cobordism-equivalence|bordism-equivalence classes]] of [[topology/closed-manifold|closed]] \(n\)-manifolds with the chosen structure, with operation
 \[
 [M]+[N]=[M\sqcup N].
 \]
@@ -32,6 +35,7 @@ Changing the allowed structure changes both the [[shared-foundations/equivalence
 
 ## Examples
 
+Two standard choices are unoriented bordism and [[differential-geometry/oriented-cobordism|oriented smooth bordism]].
 The class of any boundary is zero by definition. In unoriented dimension zero, a closed manifold is a finite set of points, and a compact one-manifold has an even number of [[differential-geometry/boundary-and-interior-of-a-manifold|boundary points]]; therefore \(\Omega_0^O\cong\mathbb Z/2\). With orientations, signed point counts give \(\Omega_0^{SO}\cong\mathbb Z\). These examples also exhibit the different inverse conventions.
 
 ## References

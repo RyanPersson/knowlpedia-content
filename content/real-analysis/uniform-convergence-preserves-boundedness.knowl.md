@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A uniform limit of bounded functions is bounded, and a uniformly convergent sequence of bounded functions is uniformly bounded."
 aliases = ["uniform-convergence-preserves-boundedness", "Uniform convergence preserves boundedness"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/uniform-convergence", "real-analysis/uniformly-bounded-family", "real-analysis/uniform-convergence-supnorm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/uniform-convergence-preserves-boundedness.md"
 +++
 

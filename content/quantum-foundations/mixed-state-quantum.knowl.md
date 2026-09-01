@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A quantum state described by a density operator that is not a rank-one projector."
 aliases = ["mixed-state-quantum", "Mixed quantum state"]
 domains = ["quantum-foundations"]
+prerequisites = ["quantum-foundations/density-operator", "quantum-foundations/pure-state-quantum"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "quantum-foundations/mixed-state-quantum.md"
 +++
 

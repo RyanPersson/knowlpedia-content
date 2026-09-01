@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every nonempty subset of the real numbers that is bounded below has a real infimum."
 aliases = ["greatest-lower-bound-theorem", "Greatest Lower Bound Theorem"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/bounded-below"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/greatest-lower-bound-theorem.md"
 +++
 

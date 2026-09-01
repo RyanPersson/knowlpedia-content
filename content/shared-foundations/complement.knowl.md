@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The elements of an ambient universe that are not in a given set."
 aliases = ["complement"]
 domains = ["shared-foundations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/complement.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The representation sending an element to the linear map given by bracketing with it."
 aliases = ["adjoint-representation-of-a-lie-algebra", "Adjoint Representation of a Lie Algebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/adjoint-representation-of-a-lie-algebra.md"
 +++
 

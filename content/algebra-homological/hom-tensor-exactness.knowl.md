@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Hom is left exact and tensor is right exact; flatness, projectivity, and injectivity are exactly the conditions that make these functors exact."
 aliases = ["hom-tensor-exactness", "Exactness properties of Hom and tensor"]
 domains = ["algebra-homological"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/hom-tensor-exactness.md"
 +++
 

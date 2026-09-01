@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A quaternionic vector space is a left or right module over the quaternion division algebra, with the scalar side fixed as part of the convention."
 aliases = ["right quaternionic vector space", "ℍ-vector space"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/quaternion-division-algebra", "algebra-groups/abelian-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A conditionally convergent real series can be rearranged to converge to any real value or diverge."
 aliases = ["riemann-rearrangement-theorem", "Riemann rearrangement theorem"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/convergent-series", "real-analysis/absolutely-convergent-series", "real-analysis/conditionally-convergent-series", "real-analysis/rearrangement-theorem-absolute"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/riemann-rearrangement-theorem.md"
 +++
 

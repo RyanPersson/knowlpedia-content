@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For a principal connection, the covariant exterior derivative sends tensorial forms to tensorial forms."
 aliases = ["lemma-covariant-exterior-derivative-preserves-tensoriality", "Covariant exterior derivative preserves tensoriality"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/representation-of-a-lie-group", "fiber-bundles/vertical-subbundle", "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action", "fiber-bundles/equivariant-map", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/lemma-covariant-exterior-derivative-preserves-tensoriality.md"
 +++
 

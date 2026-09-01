@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A property of a family of functions distinguishing any two different points."
 aliases = ["separates-points", "Separates points"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/stone-weierstrass-theorem"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/separates-points.md"
 +++
 

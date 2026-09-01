@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A measurable space equipped with a measure."
 aliases = ["measure-space", "Measure space"]
 domains = ["measure-theory"]
+prerequisites = ["measure-theory/measurable-space", "measure-theory/measure", "measure-theory/almost-everywhere"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/measure-space.md"
 +++
 

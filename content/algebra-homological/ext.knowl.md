@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The right derived functors of Hom; measures extension classes and failure of exactness of Hom."
 aliases = ["ext"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-homological/derived-functor"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/ext.md"
 +++
 

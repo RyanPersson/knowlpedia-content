@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A projection whose compressed von Neumann algebra is commutative."
 aliases = ["commutative corner projection"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/center-of-von-neumann-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

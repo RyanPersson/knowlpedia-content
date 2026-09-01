@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A smooth section of the tangent bundle; equivalently, an assignment of a tangent vector to each point varying smoothly."
 aliases = ["vector-field", "Vector field"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/cotangent-bundle", "fiber-bundles/smooth-map", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/vector-field.md"
 +++
 
@@ -23,7 +26,7 @@ A vector field can also be viewed as a derivation on smooth functions: for each 
 
 Given a [[fiber-bundles/smooth-map|smooth map]] \(F:M\to N\), the [[fiber-bundles/differential-pushforward-of-a-smooth-map|differential (pushforward)]] \(dF_p\) transports tangent vectors, and when \(F\) is a [[fiber-bundles/diffeomorphism|diffeomorphism]] one can push vector fields forward along \(F\) by applying \(dF\) pointwise.
 
-### Examples
+## Examples
 
 1. **Coordinate vector fields on \(\mathbb{R}^n\).** On \(M=\mathbb{R}^n\) with coordinates \((x^1,\dots,x^n)\), the vector field \(\partial/\partial x^i\) is defined by
    \[

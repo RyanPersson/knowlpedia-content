@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Unitary induction through an intermediate closed subgroup is equivalent to direct induction."
 aliases = ["transitivity of unitary induction", "induction by stages"]
 domains = ["harmonic-analysis", "representation-theory"]
+prerequisites = ["topology/locally-compact-group", "lie-groups/strongly-continuous-unitary-representation", "harmonic-analysis/unitary-induced-representation", "lie-groups/homogeneous-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

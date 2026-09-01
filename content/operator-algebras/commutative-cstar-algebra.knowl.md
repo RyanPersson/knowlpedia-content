@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A C*-algebra in which every pair of elements commutes."
 aliases = ["abelian C*-algebra"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

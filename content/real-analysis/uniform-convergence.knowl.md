@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Convergence of functions with an error bound that is uniform in the domain variable."
 aliases = ["uniform-convergence", "Uniform convergence"]
 domains = ["real-analysis"]
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/uniform-convergence.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A linear map between Lie algebras that preserves the Lie bracket."
 aliases = ["lie-algebra-homomorphism", "Lie algebra homomorphism"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/lie-algebra-homomorphism.md"
 +++
 

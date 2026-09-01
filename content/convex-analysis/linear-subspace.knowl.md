@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subset containing zero and closed under addition and scalar multiplication."
 aliases = ["linear-subspace", "Linear subspace"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/linear-subspace.md"
 +++
 

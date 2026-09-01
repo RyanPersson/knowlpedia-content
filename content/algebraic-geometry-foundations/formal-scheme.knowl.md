@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A locally topologically ringed space locally modeled on formal spectra of complete adic rings."
 aliases = ["adic formal scheme", "EGA formal scheme"]
 domains = ["algebraic-geometry-foundations", "formal-groups"]
+prerequisites = ["algebraic-geometry-foundations/locally-topologically-ringed-space", "algebraic-geometry-foundations/formal-spectrum", "algebra-topological/adic-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

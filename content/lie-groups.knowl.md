@@ -330,6 +330,8 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 
 - [[lie-groups/compact-symplectic-group|Compact symplectic group]]
 - [[lie-groups/compact-symplectic-product-group|The group Sp(n)Sp(1)]]
+- [[lie-groups/octonionic-special-linear-group|Octonionic special linear group \(SL_2(\mathbb O)\)]]
+- [[lie-groups/spin9-spin-representation|Spin representation of \(\operatorname{Spin}(9)\)]]
 
 ## Complex, projective, and Lorentz Lie groups
 

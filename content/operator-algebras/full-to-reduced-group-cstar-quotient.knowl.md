@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The regular representation induces the canonical surjection from the full group C*-algebra onto the reduced group C*-algebra."
 aliases = ["full-to-reduced quotient", "regular quotient of a group C*-algebra"]
 domains = ["operator-algebras", "harmonic-analysis"]
+prerequisites = ["topology/locally-compact-group", "algebra-representation-theory/regular-representation", "operator-algebras/full-group-cstar-algebra", "operator-algebras/reduced-group-cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

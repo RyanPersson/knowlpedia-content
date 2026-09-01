@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The quotient of a product P × F by the diagonal action of the structure group, yielding the associated bundle."
 aliases = ["bundle-of-orbits", "Bundle of orbits"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/right-principal-action", "fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/associated-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/bundle-of-orbits.md"
 +++
 

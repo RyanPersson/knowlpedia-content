@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A topological space in which countable intersections of dense open sets are dense"
 aliases = ["baire-space", "Baire space"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "topology/open-set", "topology/dense-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/baire-space.md"
 +++
 

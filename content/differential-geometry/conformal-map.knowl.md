@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth map that pulls the target Riemannian metric back to a positive pointwise multiple of the source metric."
 aliases = ["conformal mapping", "conformal immersion", "angle-preserving map"]
 domains = ["differential-geometry", "complex-analysis"]
+prerequisites = ["differential-geometry/riemannian-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

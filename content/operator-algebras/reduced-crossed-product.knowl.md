@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The C*-completion of a dynamical system obtained from a faithful regular covariant representation."
 aliases = ["reduced C*-crossed product"]
 domains = ["operator-algebras", "dynamical-systems"]
+prerequisites = ["operator-algebras/cstar-dynamical-system", "operator-algebras/nondegenerate-star-homomorphism", "operator-algebras/regular-covariant-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subset of real affine space described by finitely many polynomial equalities and inequalities."
 aliases = ["semialgebraic", "semialgebraic set"]
 domains = ["convex-analysis", "algebraic-geometry-foundations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 A subset \(S\subseteq\mathbb R^n\) is **semialgebraic** if it can be obtained from finitely many sets of the form

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A weight on a von Neumann algebra that preserves suprema of increasing positive nets."
 aliases = ["order-continuous weight", "ultraweakly lower-semicontinuous weight"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/weight-on-von-neumann-algebra", "measure-theory/continuity-from-below-measure", "operator-algebras/normal-functional", "operator-algebras/positive-linear-functional"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

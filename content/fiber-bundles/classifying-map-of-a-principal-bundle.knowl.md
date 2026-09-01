@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A map from the base into BG whose pullback of EG reproduces a given principal G-bundle."
 aliases = ["classifying-map-of-a-principal-bundle", "Classifying map of a principal bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/universal-principal-bundle-egbg", "fiber-bundles/smooth-manifold", "fiber-bundles/classification-theorem-principal-g-bundles-over-m-are-classified-by-homotopy-classes-mbg"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/classifying-map-of-a-principal-bundle.md"
 +++
 

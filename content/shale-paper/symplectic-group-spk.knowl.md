@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Bounded invertible real-linear maps preserving the symplectic form B"
 aliases = ["symplectic-group-spk", "Symplectic Group Sp(K)"]
 domains = ["shale-paper"]
+prerequisites = ["shale-paper/symplectic-hilbert-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shale-paper/symplectic-group-spk.md"
 +++
 

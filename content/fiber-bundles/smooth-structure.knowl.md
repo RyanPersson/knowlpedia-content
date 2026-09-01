@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A choice of mutually compatible smooth coordinate charts on a topological manifold, represented by their maximal smooth atlas."
 aliases = ["smooth manifold structure", "differentiable structure", "C-infinity structure"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/maximal-smooth-atlas", "fiber-bundles/smooth-atlas", "fiber-bundles/smooth-compatibility-of-charts-and-atlases", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

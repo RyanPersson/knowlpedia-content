@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A monotone, countably subadditive set function defined on all subsets."
 aliases = ["outer-measure", "Outer measure"]
 domains = ["measure-theory"]
+prerequisites = ["shared-foundations/power-set", "measure-theory/caratheodory-measurable-set", "measure-theory/caratheodory-construction", "measure-theory/measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/outer-measure.md"
 +++
 

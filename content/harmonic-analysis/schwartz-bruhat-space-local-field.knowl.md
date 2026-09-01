@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The test-function space on a local field, given by Schwartz functions at archimedean places and locally constant compactly supported functions otherwise."
 aliases = ["Schwartz-Bruhat functions", "Bruhat-Schwartz functions on a local field"]
 domains = ["harmonic-analysis", "number-theory"]
+prerequisites = ["functional-analysis/schwartz-space", "topology/compact-set", "harmonic-analysis/schwartz-bruhat-space-lca"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

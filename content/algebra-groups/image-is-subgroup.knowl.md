@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The image of a group homomorphism is a subgroup of the codomain"
 aliases = ["image-is-subgroup", "Image is a subgroup"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/image-group", "algebra-groups/subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/image-is-subgroup.md"
 +++
 

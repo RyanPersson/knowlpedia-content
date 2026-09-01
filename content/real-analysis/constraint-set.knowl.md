@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subset defined by one or more equations or inequalities that restrict admissible points"
 aliases = ["constraint-set", "Constraint set"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/function", "shared-foundations/preimage", "real-analysis/lagrange-multipliers-theorem", "fiber-bundles/regular-value", "real-analysis/implicitly-defined-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/constraint-set.md"
 +++
 

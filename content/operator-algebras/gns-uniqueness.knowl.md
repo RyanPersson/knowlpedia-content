@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Any two cyclic representations implementing the same positive functional are canonically unitarily equivalent."
 aliases = ["uniqueness of the GNS representation", "GNS representation theorem"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/positive-linear-functional", "operator-algebras/cstar-algebra", "operator-algebras/gns-construction", "operator-algebras/cyclic-cstar-representation", "operator-algebras/unitary-equivalence-cstar-representations"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

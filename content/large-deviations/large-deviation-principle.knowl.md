@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Asymptotic exponential bounds for probabilities of rare events at a given speed."
 aliases = ["large-deviation-principle", "Large deviation principle"]
 domains = ["large-deviations"]
+prerequisites = ["large-deviations/rate-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "large-deviations/large-deviation-principle.md"
 +++
 
@@ -18,6 +21,8 @@ A **large deviation principle (LDP)** for a sequence of probability measures \((
   \[
   \liminf_{n\to\infty}\frac{1}{a_n}\log \mu_n(G)\ge -\inf_{x\in G} I(x).
   \]
+
+## Typical setting
 
 In many applications, \(\mu_n\) is the [[probability/distribution-law|law]] of a sequence of [[probability/random-variable|random variables]] defined on a [[probability/probability-space|probability space]]. Additional structure such as a [[large-deviations/good-rate-function|good rate function]] or [[large-deviations/exponential-tightness|exponential tightness]] often ensures useful compactness properties and helps upgrade “local” bounds to a full LDP.
 

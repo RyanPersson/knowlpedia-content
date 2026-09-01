@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A C-star algebra decomposed into even and odd closed subspaces compatible with multiplication and involution."
 aliases = ["Z/2-graded C*-algebra", "super C*-algebra"]
 domains = ["operator-algebras", "algebra-representation-theory"]
+prerequisites = ["operator-algebras/cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For a,b≥0 and θ∈(0,1): a^θ b^(1−θ) ≤ θa+(1−θ)b"
 aliases = ["weighted-arithmeticgeometric-mean-inequality", "Weighted arithmetic–geometric mean inequality"]
 domains = ["convex-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/weighted-arithmeticgeometric-mean-inequality.md"
 +++
 

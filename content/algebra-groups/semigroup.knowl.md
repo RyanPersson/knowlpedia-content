@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set equipped with an associative binary operation"
 aliases = ["semigroup"]
 domains = ["algebra-groups"]
+prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation", "algebra-groups/monoid", "algebra-groups/group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/semigroup.md"
 +++
 
@@ -15,7 +18,7 @@ A **semigroup** is a [[shared-foundations/set|set]] \(S\) together with an assoc
 
 Semigroups are the weakest common algebraic setting in which repeated products are unambiguous (associativity lets you omit parentheses). A [[algebra-groups/monoid|monoid]] is a semigroup with an identity element, and a [[algebra-groups/group|group]] is a monoid in which every element has an inverse.
 
-**Examples:**
+## Examples
 - \((\mathbb{N},+)\) is a semigroup (addition is associative).
 - \((\mathbb{N}_{\ge 1},\times)\) is a semigroup (multiplication is associative).
 - The set of all \(n\times n\) real matrices under matrix multiplication is a semigroup.

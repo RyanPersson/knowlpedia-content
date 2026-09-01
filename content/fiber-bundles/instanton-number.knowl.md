@@ -5,6 +5,9 @@ kind = "definition"
 summary = "For an SU(r)-connection on a closed oriented four-manifold, the instanton number is the integral second Chern number represented by curvature."
 aliases = ["topological charge", "second Chern number of an instanton"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/hermitian-connection", "fiber-bundles/chern-number", "fiber-bundles/instanton"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

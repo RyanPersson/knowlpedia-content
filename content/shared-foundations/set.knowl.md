@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A fundamental object determined entirely by which elements it contains."
 aliases = ["set"]
 domains = ["shared-foundations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/set.md"
 +++
 

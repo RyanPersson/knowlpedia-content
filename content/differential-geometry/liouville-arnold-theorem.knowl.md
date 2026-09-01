@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A compact connected regular fiber of a completely integrable Hamiltonian system is a torus with local action-angle coordinates."
 aliases = ["action-angle theorem"]
 domains = ["differential-geometry", "classical-mechanics"]
+prerequisites = ["differential-geometry/symplectic-manifold", "topology/connected-component", "differential-geometry/regular-level-set", "differential-geometry/action-angle-coordinates"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

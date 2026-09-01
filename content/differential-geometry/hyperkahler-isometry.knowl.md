@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A diffeomorphism of hyperkähler manifolds that preserves the metric and each member of the specified quaternionic triple."
 aliases = ["hyper-Kähler isometry", "strict hyperkähler isometry"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/hyperkahler-manifold", "differential-geometry/triholomorphic-map", "differential-geometry/kahler-form", "differential-geometry/hyperkahler-isometric-immersion"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

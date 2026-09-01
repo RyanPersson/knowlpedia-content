@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The quotient of the multiplier algebra of a C-star algebra by its canonical essential ideal."
 aliases = ["corona algebra", "M(A)/A", "Calkin-type corona"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/essential-ideal", "operator-algebras/multiplier-algebra", "operator-algebras/quotient-cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

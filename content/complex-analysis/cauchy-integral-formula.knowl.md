@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A holomorphic function and all its derivatives are recovered from boundary values."
 aliases = ["Cauchy's integral formula"]
 domains = ["complex-analysis"]
+prerequisites = ["complex-analysis/winding-number"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

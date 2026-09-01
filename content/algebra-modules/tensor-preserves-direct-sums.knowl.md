@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Tensoring with a fixed module distributes over arbitrary direct sums."
 aliases = ["tensor-preserves-direct-sums", "Tensor product preserves direct sums"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/tensor-product", "algebra-modules/direct-sum-modules", "algebra-modules/tensor-hom-adjunction"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/tensor-preserves-direct-sums.md"
 +++
 

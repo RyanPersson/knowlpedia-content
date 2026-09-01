@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In an irreducible representation, algebra elements can move one vector to another"
 aliases = ["kadison-transitivity", "Kadison Transitivity (Used in §6)"]
 domains = ["shale-paper"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shale-paper/kadison-transitivity.md"
 +++
 

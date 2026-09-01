@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The dual representation acts on linear functionals by precomposition with the inverse group action; infinitesimally, it is the negative transpose."
 aliases = ["dual-representation-lie", "Dual (contragredient) representation"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/representation-of-a-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/dual-representation-lie.md"
 +++
 

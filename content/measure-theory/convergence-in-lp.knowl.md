@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Norm convergence in an Lp space."
 aliases = ["convergence-in-lp", "Convergence in \\(L^p\\)"]
 domains = ["measure-theory"]
+prerequisites = ["shared-foundations/sequence", "measure-theory/lp-space", "measure-theory/measure-space", "measure-theory/essential-supremum"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/convergence-in-lp.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The difference of two operator products, defined only where both products make sense."
 aliases = ["operator commutator", "commutator on a common domain", "AB minus BA"]
 domains = ["functional-analysis"]
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/densely-defined-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

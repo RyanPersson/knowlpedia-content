@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An extended nonnegative additive and positively homogeneous functional on the positive cone of a von Neumann algebra."
 aliases = ["positive weight", "extended positive functional"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/positive-cone", "operator-algebras/positive-linear-functional"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The prime spectrum of a blueprint with its Zariski topology and structure sheaf."
 aliases = ["blueprint spectrum", "Spec of a blueprint", "blue spectrum"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/blueprint", "algebraic-geometry-foundations/k-ideal-of-a-blueprint", "algebra-commutative/zariski-topology", "algebraic-geometry-foundations/structure-sheaf", "algebraic-geometry-foundations/localization-of-blueprint", "algebraic-geometry-foundations/blue-scheme"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

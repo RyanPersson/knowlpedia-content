@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The gauge group of a principal G bundle is the group of principal bundle automorphisms that cover the identity map of the base."
 aliases = ["gauge-group", "Gauge group"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-automorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/gauge-group.md"
 +++
 

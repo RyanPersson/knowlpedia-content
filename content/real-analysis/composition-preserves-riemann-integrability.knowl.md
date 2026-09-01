@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Composing a Riemann integrable function with a continuous function preserves integrability."
 aliases = ["composition-preserves-riemann-integrability", "Composition preserves Riemann integrability"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/riemann-integrable-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/composition-preserves-riemann-integrability.md"
 +++
 

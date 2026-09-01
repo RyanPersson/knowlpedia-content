@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A proper Levi subalgebra maximal among proper Levi subalgebras, obtained by deleting one simple root."
 aliases = ["maximal Levi subalgebra", "maximal proper Levi subalgebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/levi-subalgebra", "lie-groups/simple-root", "lie-groups/removing-a-simple-root", "lie-groups/cartan-subalgebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

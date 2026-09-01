@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The polynomial Φ_n(x) whose roots are the primitive n-th roots of unity; it factors x^n−1 and is irreducible over Q."
 aliases = ["cyclotomic-polynomial", "Cyclotomic polynomial"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/algebraic-closure", "algebra-fields-galois/primitive-root-of-unity"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/cyclotomic-polynomial.md"
 +++
 

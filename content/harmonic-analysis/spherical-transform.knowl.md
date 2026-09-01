@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The scalar transform of a bi-invariant function obtained by integrating it against elementary spherical functions."
 aliases = ["spherical transform", "Harish-Chandra spherical transform"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "harmonic-analysis/haar-measure", "harmonic-analysis/spherical-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

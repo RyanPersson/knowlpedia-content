@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A commutator on a dense domain that extends uniquely to a bounded operator on the ambient Hilbert space."
 aliases = ["bounded extension of a commutator", "bounded [D,a]"]
 domains = ["functional-analysis"]
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/operator-commutator", "functional-analysis/bounded-linear-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

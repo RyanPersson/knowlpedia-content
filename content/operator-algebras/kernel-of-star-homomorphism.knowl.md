@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The closed two-sided ideal sent to zero by a *-homomorphism."
 aliases = ["C*-homomorphism kernel", "kernel ideal"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/star-homomorphism", "operator-algebras/cstar-algebra", "operator-algebras/closed-two-sided-ideal", "linear-algebra/closed-linear-subspace"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

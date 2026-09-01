@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A finite group decomposes into its center and nontrivial conjugacy classes"
 aliases = ["class-equation-decomposition", "Class equation decomposition"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/conjugation-action-self", "algebra-groups/center-of-group", "algebra-groups/centralizer", "algebra-groups/class-equation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/class-equation-decomposition.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The compact-operator ideal defined by logarithmic bounds on partial sums of singular values."
 aliases = ["Macaev ideal", "logarithmic Marcinkiewicz ideal", "M-1-infinity ideal"]
 domains = ["operator-algebras", "noncommutative-geometry", "functional-analysis"]
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/singular-values", "linear-algebra/compact-operator", "real-analysis/partial-sums"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

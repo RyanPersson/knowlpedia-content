@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A choice of consistent orientation in each fiber of a real vector bundle, varying continuously across the base."
 aliases = ["orientation-of-a-real-vector-bundle", "Orientation of a real vector bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/local-trivialization", "fiber-bundles/transition-function", "fiber-bundles/oriented-frame", "fiber-bundles/line-bundle", "fiber-bundles/exterior-power-bundle", "fiber-bundles/nowhere-vanishing-section"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/orientation-of-a-real-vector-bundle.md"
 +++
 

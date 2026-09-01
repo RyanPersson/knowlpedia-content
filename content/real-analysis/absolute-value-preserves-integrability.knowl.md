@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If a function is Riemann integrable then so is its absolute value, with a triangle inequality."
 aliases = ["absolute-value-preserves-integrability", "Absolute value preserves integrability"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/interval", "real-analysis/absolute-value"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/absolute-value-preserves-integrability.md"
 +++
 

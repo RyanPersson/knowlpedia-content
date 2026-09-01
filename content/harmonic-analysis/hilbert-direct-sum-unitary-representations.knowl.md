@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The unitary representation obtained by acting coordinatewise on the Hilbert direct sum of representation spaces."
 aliases = ["orthogonal direct sum of representations"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
+prerequisites = ["topology/topological-group", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

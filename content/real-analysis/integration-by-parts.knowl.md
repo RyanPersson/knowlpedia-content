@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An identity relating the integral of a product to boundary terms and another integral."
 aliases = ["integration-by-parts", "Integration by parts"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/riemann-integrable-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/integration-by-parts.md"
 +++
 

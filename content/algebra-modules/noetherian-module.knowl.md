@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A module satisfying the ascending chain condition on submodules."
 aliases = ["noetherian-module", "Noetherian module"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/module", "algebra-modules/submodule"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/noetherian-module.md"
 +++
 

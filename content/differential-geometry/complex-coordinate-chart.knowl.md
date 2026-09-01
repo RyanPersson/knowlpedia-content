@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A homeomorphism from an open manifold neighborhood to an open subset of complex Euclidean space."
 aliases = ["holomorphic chart", "complex chart", "complex coordinate system"]
 domains = ["differential-geometry"]
+prerequisites = ["topology/topological-manifold", "topology/homeomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

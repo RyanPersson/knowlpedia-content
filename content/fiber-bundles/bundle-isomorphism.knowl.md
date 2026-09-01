@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An invertible bundle morphism whose total-space map and base map are diffeomorphisms."
 aliases = ["bundle-isomorphism", "Bundle isomorphism"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/bundle-morphism", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/bundle-isomorphism.md"
 +++
 

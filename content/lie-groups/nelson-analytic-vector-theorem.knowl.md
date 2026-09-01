@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A symmetric operator with a dense set of analytic vectors is essentially self-adjoint."
 aliases = ["analytic-vector essential self-adjointness theorem"]
 domains = ["lie-groups", "functional-analysis"]
+prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "topology/dense-set", "functional-analysis/essentially-self-adjoint-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

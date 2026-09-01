@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The space of connections modulo gauge transformations is the set of orbits for the gauge group action"
 aliases = ["corollary-conn-gauge-is-a-well-defined-orbit-space", "Gauge equivalence classes of connections form an orbit space"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space.md"
 +++
 

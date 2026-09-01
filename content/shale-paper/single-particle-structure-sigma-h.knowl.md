@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Segal's package (K,B) extracted from a complex Hilbert space H for CCR quantization"
 aliases = ["single-particle-structure-sigma-h", "Single Particle Structure Σ(H)"]
 domains = ["shale-paper"]
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shale-paper/single-particle-structure-sigma-h.md"
 +++
 

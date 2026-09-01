@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A hyperfield whose sum is single-valued unless the summands are additive inverses."
 aliases = ["stringent commutative hyperfield"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
+prerequisites = ["algebra-hyperstructures/hyperfield"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -31,7 +34,7 @@ multivalued.
 ## Related theorems
 
 - [[algebra-hyperstructures/doubly-distributive-hyperfields-are-stringent|Every
-  [[algebra-hyperstructures/doubly-distributive-hyperfield|doubly distributive hyperfield]] is stringent]], but the converse fails.
+  doubly distributive hyperfield is stringent]], but the converse fails.
 - The [[algebra-hyperstructures/classification-of-stringent-hyperfields|classification
   of stringent hyperfields]] describes them as tropical extensions with
   residue layer an ordinary field, the Krasner hyperfield, or the sign

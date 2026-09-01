@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A graded module over a superalgebra with degree-preserving action."
 aliases = ["graded module over a superalgebra", "superalgebra module"]
 domains = ["supergeometry", "algebra-modules"]
+prerequisites = ["supergeometry/superalgebra", "supergeometry/super-vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

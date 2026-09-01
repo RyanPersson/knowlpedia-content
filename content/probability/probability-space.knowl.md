@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A sample space with a sigma-algebra of events and a probability measure."
 aliases = ["probability-space", "Probability space"]
 domains = ["probability"]
+prerequisites = ["shared-foundations/set", "measure-theory/sigma-algebra", "probability/probability-measure", "probability/event-probability", "probability/random-variable"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/probability-space.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A direct-integral realization of a von Neumann algebra whose fibers are factors and whose center acts by scalar fields."
 aliases = ["direct integral decomposition into factors", "factor decomposition"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/hilbert-space", "measure-theory/measure-space", "operator-algebras/von-neumann-factor", "measure-theory/almost-everywhere", "operator-algebras/center-of-von-neumann-algebra", "measure-theory/null-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

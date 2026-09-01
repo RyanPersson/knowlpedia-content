@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The identity component of the F_4 stabilizer of an H_3(C) subalgebra is (SU(3) times SU(3))/Z_3."
 aliases = ["H3(C) stabilizer in F4", "complex qutrit isotropy in F4", "SU(3) SU(3) subgroup of F4"]
 domains = ["nonassociative-algebra", "lie-groups"]
+prerequisites = ["nonassociative-algebra/jordan-subalgebra", "lie-groups/identity-component-of-a-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

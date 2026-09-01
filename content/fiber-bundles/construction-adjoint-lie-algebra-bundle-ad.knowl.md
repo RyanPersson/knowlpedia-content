@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The Lie algebra bundle associated to a principal G-bundle via the adjoint representation on the Lie algebra."
 aliases = ["construction-adjoint-lie-algebra-bundle-ad", "Adjoint Lie algebra bundle ad(P)"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/principal-g-bundle", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad.md"
 +++
 

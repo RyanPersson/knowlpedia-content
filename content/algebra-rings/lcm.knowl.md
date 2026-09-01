@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A common multiple m of a and b that divides every other common multiple (defined up to associates)."
 aliases = ["lcm", "Least common multiple"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/integral-domain"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/lcm.md"
 +++
 

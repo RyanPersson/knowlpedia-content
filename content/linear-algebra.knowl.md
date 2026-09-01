@@ -90,6 +90,9 @@ Click any term to expand its definition inline.
 - [[linear-algebra/complexification|Complexification]]
 - [[linear-algebra/quaternion-division-algebra|Quaternion division algebra]]
 - [[linear-algebra/quaternionic-vector-space|Quaternionic vector space]]
+- [[linear-algebra/hyperhermitian-form|Hyperhermitian form and matrix]]
+- [[linear-algebra/moore-determinant|Moore determinant]]
+- [[linear-algebra/mixed-discriminant|Mixed discriminant]]
 
 ## Quadratic, Hermitian, and projective linear algebra
 

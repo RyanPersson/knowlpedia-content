@@ -1,7 +1,7 @@
 +++
 id = "convex-analysis/convex-lecture-notes"
 title = "Modern Analysis: Lecture Notes and Further Reading Materials"
-kind = "knowl"
+kind = "document"
 summary = "Lecture notes on vector spaces, metric spaces, normed vector spaces, convex sets, convex functions, and convex separation"
 aliases = ["convex-lecture-notes", "Modern Analysis: Lecture Notes and Further Reading Materials"]
 domains = ["convex-analysis"]

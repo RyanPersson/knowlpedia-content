@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Basic neighborhoods defined by a metric"
 aliases = ["open-and-closed-balls-in-a-metric-space", "Open and closed balls"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/open-subset"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/open-and-closed-balls-in-a-metric-space.md"
 +++
 

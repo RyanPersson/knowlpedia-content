@@ -5,6 +5,9 @@ kind = "proposition"
 summary = "Two moment maps for the same action differ by a locally constant dual-Lie-algebra-valued function, constrained by equivariance."
 aliases = ["moment-map normalization"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/moment-map", "topology/connected-component", "differential-geometry/equivariant-moment-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

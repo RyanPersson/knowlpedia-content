@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Supremum and infimum behave predictably under inclusion, translation, scaling, and unions"
 aliases = ["algebraic-properties-sup-inf", "Algebraic properties of sup and inf"]
 domains = ["real-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/algebraic-properties-sup-inf.md"
 +++
 

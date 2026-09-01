@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A compact manifold whose boundary is identified with a pair of closed manifolds."
 aliases = ["smooth cobordism", "cobordant manifolds"]
 domains = ["differential-geometry", "topology"]
+prerequisites = ["topology/closed-manifold", "differential-geometry/manifold-with-boundary"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -12,7 +15,7 @@ Let \(M_0\) and \(M_1\) be [[topology/closed-manifold|closed smooth manifolds]] 
 \[
 \partial W\cong M_0\sqcup M_1.
 \]
-The two identified boundary pieces are regarded respectively as the incoming and outgoing boundary. The manifolds \(M_0\) and \(M_1\) are **cobordant** if such a \(W\) exists. Additional structures—such as orientations, framings, [[fiber-bundles/spin-structure|spin structures]], or maps to a space—must extend over \(W\) when one speaks of cobordism with that structure.
+The two identified boundary pieces are regarded respectively as the incoming and outgoing boundary. The manifolds \(M_0\) and \(M_1\) are **cobordant** if such a \(W\) exists.
 
 ## Basic constructions
 
@@ -24,6 +27,7 @@ A Morse function on a cobordism, constant on its boundary components and with cr
 
 ## Examples
 
+For cobordism with additional structure—orientation, framing, a [[fiber-bundles/spin-structure|spin structure]], or a map to a space—the chosen structure must extend over \(W\).
 The disk \(D^{n+1}\) is a cobordism from the empty manifold to \(S^n\), so a sphere is null-cobordant. A pair of pants is a two-dimensional cobordism from two circles to one circle. A compact manifold with boundary is not by itself a cobordism between specified manifolds until its entire boundary has been identified and partitioned into incoming and outgoing pieces.
 
 ## Conventions and scope

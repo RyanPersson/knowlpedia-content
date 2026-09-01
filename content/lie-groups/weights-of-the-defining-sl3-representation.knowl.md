@@ -5,6 +5,9 @@ kind = "example"
 summary = "The three multiplicity-one weights of the natural three-dimensional representation of sl3."
 aliases = ["weights of the standard sl3 representation", "sl3 defining weights", "weight diagram of the 3 of sl3"]
 domains = ["lie-groups", "representation-theory"]
+prerequisites = ["lie-groups/defining-representation-of-a-classical-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/weight-of-a-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

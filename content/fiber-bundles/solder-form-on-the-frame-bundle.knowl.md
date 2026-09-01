@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The canonical R^n-valued 1-form expressing projected tangent vectors in their moving frame."
 aliases = ["solder-form-on-the-frame-bundle", "Solder form on the frame bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/differential-k-form", "fiber-bundles/tangent-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/solder-form-on-the-frame-bundle.md"
 +++
 

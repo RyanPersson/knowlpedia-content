@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The 27-dimensional Euclidean Jordan algebra of three-by-three Hermitian octonionic matrices, also called the Albert algebra."
 aliases = ["exceptional Jordan algebra", "Albert algebra", "h_3(O)", "octonionic qutrit"]
 domains = ["nonassociative-algebra", "mathematical-physics"]
+prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

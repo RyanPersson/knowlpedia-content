@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The triangle axiom coherently relating cones of two composable morphisms and their composite."
 aliases = ["octahedral axiom", "octahedron axiom", "TR4"]
 domains = ["algebra-category-theory", "algebra-homological"]
+prerequisites = ["algebra-category-theory/pretriangulated-category", "algebra-category-theory/distinguished-triangle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 Let \(\mathcal T\) be a [[algebra-category-theory/pretriangulated-category|pretriangulated category]], and let \(X\xrightarrow{f}Y\xrightarrow{g}Z\) be composable morphisms. Complete \(f\), \(g\), and \(gf\) to distinguished triangles, with third objects \(C_f\), \(C_g\), and \(C_{gf}\). The **octahedral axiom** asserts that these triangles can be connected by morphisms

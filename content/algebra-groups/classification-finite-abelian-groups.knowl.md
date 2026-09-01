@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every finite abelian group is a direct product of cyclic prime-power groups, uniquely up to isomorphism."
 aliases = ["classification-finite-abelian-groups", "Classification of Finite Abelian Groups"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/abelian-group", "algebra-groups/direct-product-groups", "algebra-groups/cyclic-subgroup", "algebra-groups/p-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/classification-finite-abelian-groups.md"
 +++
 

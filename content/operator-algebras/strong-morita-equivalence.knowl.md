@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An equivalence of C*-algebras witnessed by a full imprimitivity bimodule."
 aliases = ["C*-Morita equivalence", "Rieffel Morita equivalence"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/imprimitivity-bimodule"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

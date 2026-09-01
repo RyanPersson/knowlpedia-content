@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The real closed (1,1)-form obtained from the Ricci curvature of a Kähler metric."
 aliases = ["Ricci (1,1)-form", "Kähler Ricci form"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/kahler-metric", "differential-geometry/ricci-curvature"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An element b in an R-algebra is integral over R if it satisfies a monic polynomial with coefficients in R."
 aliases = ["integral-element", "Integral element"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/integral-extension", "algebra-commutative/integral-closure", "algebra-commutative/integrally-closed-domain"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/integral-element.md"
 +++
 
@@ -24,7 +27,7 @@ An element \(b\in B\) is integral over \(A\) if and only if the \(A\)-subalgebra
 
 This notion is the element-wise building block of an [[algebra-commutative/integral-extension|integral extension]]. It also underlies the definitions of [[algebra-commutative/integral-closure|integral closure]] and [[algebra-commutative/integrally-closed-domain|integrally closed domains]].
 
-### Examples
+## Examples
 
 1. **Quadratic integers.**
    In \(B=\mathbb{Z}[\sqrt2]\), the element \(\sqrt2\) is integral over \(A=\mathbb{Z}\) because it satisfies the monic polynomial \(T^2-2\).

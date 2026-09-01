@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The composite correspondence obtained by balancing two Hilbert modules, quotienting null vectors, and completing."
 aliases = ["interior tensor product", "balanced tensor product of Hilbert modules"]
 domains = ["operator-algebras", "algebra-modules"]
+prerequisites = ["operator-algebras/cstar-correspondence", "algebra-modules/tensor-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

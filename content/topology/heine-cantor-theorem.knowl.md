@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A continuous function on a compact metric space is uniformly continuous."
 aliases = ["heine-cantor-theorem", "Heine-Cantor theorem"]
 domains = ["topology"]
+prerequisites = ["topology/continuous-map", "topology/compact-set", "topology/metric-space", "real-analysis/uniform-continuity"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/heine-cantor-theorem.md"
 +++
 

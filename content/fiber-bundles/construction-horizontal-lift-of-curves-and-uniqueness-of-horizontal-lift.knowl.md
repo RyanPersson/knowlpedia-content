@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Existence and uniqueness of the horizontal lift of a base curve for a given starting point in the total space."
 aliases = ["construction-horizontal-lift-of-curves-and-uniqueness-of-horizontal-lift", "Horizontal lift of curves and uniqueness"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/horizontal-distribution", "fiber-bundles/parallel-transport"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-horizontal-lift-of-curves-and-uniqueness-of-horizontal-lift.md"
 +++
 

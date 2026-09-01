@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A finite increasing sequence of points that subdivides a closed interval."
 aliases = ["partition-of-an-interval", "Partition of an interval"]
 domains = ["real-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/partition-of-an-interval.md"
 +++
 

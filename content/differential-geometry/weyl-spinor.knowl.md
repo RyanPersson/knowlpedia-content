@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A complex spinor lying in one of the two half-spin representations in even dimension."
 aliases = ["chiral spinor", "half-spinor"]
 domains = ["differential-geometry", "mathematical-physics"]
+prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/spinor-module", "differential-geometry/chirality-operator", "differential-geometry/clifford-module", "differential-geometry/majorana-weyl-spinor"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

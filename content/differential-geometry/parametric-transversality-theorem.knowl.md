@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A smooth family transverse to a submanifold has transverse members for almost every parameter."
 aliases = ["transversality theorem with parameters", "parametric Sard theorem"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/embedded-submanifold", "fiber-bundles/smooth-map", "differential-geometry/map-transverse-to-a-submanifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

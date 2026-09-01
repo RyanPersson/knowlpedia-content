@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In metric spaces, compactness is equivalent to sequential compactness"
 aliases = ["sequential-compactness-equals-compactness", "Sequential compactness equals compactness"]
 domains = ["topology"]
+prerequisites = ["topology/metric-space", "topology/compact-set", "topology/sequentially-compact-set", "real-analysis/subsequence", "topology/convergent-sequence", "topology/topological-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/sequential-compactness-equals-compactness.md"
 +++
 

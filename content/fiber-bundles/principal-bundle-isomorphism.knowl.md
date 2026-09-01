@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An invertible principal bundle morphism, equivalently an equivariant diffeomorphism of total spaces covering a base diffeomorphism."
 aliases = ["principal-bundle-isomorphism", "Principal bundle isomorphism"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-morphism", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/principal-bundle-isomorphism.md"
 +++
 

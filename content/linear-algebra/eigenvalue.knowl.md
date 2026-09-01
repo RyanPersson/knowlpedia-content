@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A scalar for which a linear operator has a nonzero vector it only scales."
 aliases = ["eigenvalue"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/linear-operator", "linear-algebra/eigenvector", "linear-algebra/eigenspace", "linear-algebra/characteristic-polynomial"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/eigenvalue.md"
 +++
 

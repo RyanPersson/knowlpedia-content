@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The boundary and interior of a manifold with boundary are the points represented respectively on and off the bounding hyperplane in half-space coordinates."
 aliases = ["manifold boundary", "manifold interior", "boundary point", "interior point"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/manifold-with-boundary", "differential-geometry/boundary-chart"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

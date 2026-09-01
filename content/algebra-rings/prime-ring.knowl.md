@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A ring in which the product of nonzero ideals is never zero."
 aliases = ["prime-ring", "Prime ring"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ring", "algebra-rings/two-sided-ideal", "algebra-rings/product-of-ideals"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/prime-ring.md"
 +++
 

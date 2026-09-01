@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The tangent space at the identity of a formal group, with bracket induced by invariant formal vector fields."
 aliases = ["Lie algebra of a formal group", "formal-group tangent algebra", "Lie functor for formal groups"]
 domains = ["formal-groups", "lie-groups"]
+prerequisites = ["formal-groups/formal-group", "fiber-bundles/vector-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

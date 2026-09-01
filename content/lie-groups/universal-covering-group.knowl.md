@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A simply connected covering Lie group of a connected Lie group, unique up to isomorphism."
 aliases = ["universal-covering-group", "Universal covering group"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/simply-connected-lie-group", "lie-groups/lie-group-homomorphism", "lie-groups/covering-lie-group", "lie-groups/universal-covering-group-existence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/universal-covering-group.md"
 +++
 

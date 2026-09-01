@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Sample averages of iid variables converge almost surely to the mean."
 aliases = ["strong-law-large-numbers", "Strong law of large numbers"]
 domains = ["probability"]
+prerequisites = ["probability/iid-sequence", "probability/random-variable", "probability/expectation", "probability/weak-law-large-numbers", "measure-theory/convergence-almost-everywhere", "probability/probability-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/strong-law-large-numbers.md"
 +++
 

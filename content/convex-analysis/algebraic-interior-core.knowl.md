@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Points from which every vector-space direction remains in the set for a sufficiently short segment."
 aliases = ["algebraic-interior-core", "Algebraic Interior (Core)"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/algebraic-interior-core.md"
 +++
 

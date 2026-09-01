@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Every smooth manifold with boundary has a neighborhood of its boundary diffeomorphic to a product with a half-open interval."
 aliases = ["collar theorem", "boundary collar"]
 domains = ["differential-geometry", "topology"]
+prerequisites = ["differential-geometry/manifold-with-boundary", "fiber-bundles/smooth-embedding", "differential-geometry/product-manifold", "differential-geometry/smooth-map-of-manifolds-with-boundary"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -12,7 +15,7 @@ Let \(M\) be a [[differential-geometry/manifold-with-boundary|smooth manifold wi
 \[
 c:\partial M\times[0,1)\longrightarrow M
 \]
-such that \(c(x,0)=x\) for every \(x\in\partial M\), and whose image is an open neighborhood of \(\partial M\) in \(M\). Such an embedding is called a **collar** of the boundary. Equivalently, \(c\) is a diffeomorphism from the [[differential-geometry/product-manifold|product manifold]] \(\partial M\times.
+such that \(c(x,0)=x\) for every \(x\in\partial M\), and whose image is an open neighborhood of \(\partial M\) in \(M\). Such an embedding is called a **collar** of the boundary. Equivalently, \(c\) is a diffeomorphism from the [[differential-geometry/product-manifold|product manifold]] \(\partial M\times[0,1)\) onto its image.
 Here smoothness is understood in the
 [[differential-geometry/smooth-map-of-manifolds-with-boundary|manifold-with-boundary
 sense]], including extension across the endpoint.

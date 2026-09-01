@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The finite sums obtained by truncating a series."
 aliases = ["partial-sums", "Partial sums"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/series", "real-analysis/convergent-series"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/partial-sums.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In a pointed category, the kernel of f:A→B is the equalizer of f and the zero morphism A→B."
 aliases = ["kernel-categorical", "Kernel (categorical)"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/additive-category"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-category-theory/kernel-categorical.md"
 +++
 

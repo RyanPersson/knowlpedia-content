@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Large deviations for empirical means of independent identically distributed real random variables."
 aliases = ["cramers-theorem", "Cramér's theorem"]
 domains = ["large-deviations"]
+prerequisites = ["probability/iid-sequence", "probability/random-variable", "probability/moment-generating-function", "large-deviations/log-moment-generating-function", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function", "large-deviations/cramer-transform", "convex-analysis/legendre-fenchel-transform", "convex-analysis/convex-conjugate-fenchel"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "large-deviations/cramers-theorem.md"
 +++
 

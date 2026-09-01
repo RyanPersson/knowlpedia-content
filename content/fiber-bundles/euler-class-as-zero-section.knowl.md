@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The topological Euler class obtained by pulling a vector bundle's Thom class back along its zero section."
 aliases = ["zero-section definition of Euler class", "Euler class via Thom class"]
 domains = ["fiber-bundles", "topology"]
+prerequisites = ["fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/thom-class", "fiber-bundles/zero-section"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

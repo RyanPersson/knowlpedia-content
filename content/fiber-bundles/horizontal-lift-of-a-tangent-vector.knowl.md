@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The unique horizontal vector at a point in the total space that projects to a given base tangent vector."
 aliases = ["horizontal-lift-of-a-tangent-vector", "Horizontal lift of a tangent vector"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/horizontal-subbundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/horizontal-lift-of-a-tangent-vector.md"
 +++
 

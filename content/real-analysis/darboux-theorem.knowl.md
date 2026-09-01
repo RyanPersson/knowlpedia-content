@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Derivatives satisfy the intermediate value property even when they are not continuous."
 aliases = ["darboux-theorem", "Darboux's theorem"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/interval", "real-analysis/intermediate-value-theorem", "topology/continuous-map", "real-analysis/discontinuity-point"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/darboux-theorem.md"
 +++
 

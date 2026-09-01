@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The number of Sylow p-subgroups divides the p'-part of |G| and is ≡ 1 mod p"
 aliases = ["sylows-third-theorem", "Sylow's Third Theorem"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/sylow-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/sylows-third-theorem.md"
 +++
 

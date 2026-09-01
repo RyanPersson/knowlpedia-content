@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A nonzero weight for the adjoint action of a Cartan subalgebra on a semisimple Lie algebra."
 aliases = ["root-lie-algebra", "Root of a Lie algebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/dynkin-diagram", "lie-groups/classification-simple-lie-algebras"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/root-lie-algebra.md"
 +++
 

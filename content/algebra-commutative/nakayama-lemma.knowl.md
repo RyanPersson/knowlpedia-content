@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In a local ring, a finitely generated module cannot equal its maximal-ideal multiple unless it is zero."
 aliases = ["nakayama-lemma", "Nakayama's lemma"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-commutative/local-ring", "algebra-rings/commutative-ring", "algebra-commutative/jacobson-radical-intersection-maximals"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/nakayama-lemma.md"
 +++
 

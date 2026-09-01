@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The natural topology on Spec(R) whose closed sets are defined by vanishing of ideals."
 aliases = ["zariski-topology", "Zariski topology"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/zariski-topology.md"
 +++
 

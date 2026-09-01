@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The linear map on tangent spaces induced by a smooth map, satisfying the chain rule."
 aliases = ["differential-pushforward-of-a-smooth-map", "Differential (pushforward) of a smooth map"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/tangent-bundle", "fiber-bundles/smooth-immersion", "fiber-bundles/smooth-submersion", "fiber-bundles/regular-value", "fiber-bundles/fiber-of-a-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/differential-pushforward-of-a-smooth-map.md"
 +++
 
@@ -33,7 +36,7 @@ d(G\circ F)_p = dG_{F(p)}\circ dF_p.
 
 The differential detects local rank properties: \(F\) is a [[fiber-bundles/smooth-immersion|smooth immersion]] iff \(dF_p\) is injective for all \(p\), and a [[fiber-bundles/smooth-submersion|smooth submersion]] iff \(dF_p\) is surjective for all \(p\). In particular, the notion of [[fiber-bundles/regular-value|regular value]] is expressed in terms of surjectivity of \(dF_p\) along a [[fiber-bundles/fiber-of-a-map|fiber]].
 
-### Examples
+## Examples
 
 1. **A map \(\mathbb{R}^2\to\mathbb{R}^2\).** Let \(F(x,y)=(x^2,y^2)\). Then in standard coordinates,
    \[

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Under a change of local section, the local connection form transforms as A^g = g^{-1}Ag + g^{-1}dg."
 aliases = ["lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg", "Local gauge transformation law for a connection"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/smooth-map", "fiber-bundles/lemma-maurercartan-equation-for-the-left-maurercartan-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg.md"
 +++
 

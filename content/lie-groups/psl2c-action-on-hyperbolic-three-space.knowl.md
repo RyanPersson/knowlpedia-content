@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "PSL(2,C) is the orientation-preserving isometry group of hyperbolic three-space."
 aliases = ["PSL2C hyperbolic action", "orientation-preserving isometries of H3"]
 domains = ["lie-groups", "differential-geometry"]
+prerequisites = ["differential-geometry/hyperbolic-three-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A representation whose generated von Neumann algebra is a factor."
 aliases = ["factor representation", "primary representation"]
 domains = ["operator-algebras", "algebra-representation-theory"]
+prerequisites = ["operator-algebras/cstar-representation", "operator-algebras/von-neumann-algebra-generated-by-representation", "operator-algebras/von-neumann-factor"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

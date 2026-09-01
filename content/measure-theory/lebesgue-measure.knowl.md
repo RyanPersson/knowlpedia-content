@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The standard complete translation-invariant measure on Euclidean space built from covering by rectangles."
 aliases = ["lebesgue-measure", "Lebesgue measure"]
 domains = ["measure-theory"]
+prerequisites = ["measure-theory/measure", "measure-theory/outer-measure", "measure-theory/caratheodory-measurable-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/lebesgue-measure.md"
 +++
 

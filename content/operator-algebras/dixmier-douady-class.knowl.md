@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The degree-three integral cohomology class measuring the twisting of a continuous-trace C*-algebra over its spectrum."
 aliases = ["Dixmier-Douady invariant", "DD class", "Dixmier-Douady class"]
 domains = ["operator-algebras", "topology"]
+prerequisites = ["operator-algebras/continuous-trace-cstar-algebra", "linear-algebra/hilbert-space", "topology/singular-cohomology-group", "functional-analysis/unitary-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

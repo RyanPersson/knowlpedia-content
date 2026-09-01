@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set is closed iff it contains limits of all convergent sequences from it"
 aliases = ["closed-sets-characterized-by-sequences-version-ii", "Closed sets via sequences (proof II)"]
 domains = ["convex-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/closed-sets-characterized-by-sequences-version-ii.md"
 +++
 

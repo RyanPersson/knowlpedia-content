@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Local holomorphic coefficients transforming by the Schwarzian cocycle on a Riemann surface."
 aliases = ["projective connection", "complex projective connection"]
 domains = ["complex-analysis", "differential-geometry", "projective-geometry"]
+prerequisites = ["differential-geometry/riemann-surface", "complex-analysis/schwarzian-derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

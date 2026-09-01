@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The compact internal-symmetry group of the Standard Model, with an important finite central-quotient convention."
 aliases = ["Standard Model internal symmetry group", "Standard Model group"]
 domains = ["mathematical-physics", "lie-groups"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

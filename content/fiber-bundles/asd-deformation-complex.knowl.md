@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The elliptic complex whose cohomology records infinitesimal gauge symmetries, deformations, and obstructions of an anti-self-dual connection."
 aliases = ["anti-self-dual deformation complex", "instanton deformation complex"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/self-dual-and-anti-self-dual-connection", "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms", "fiber-bundles/gauge-transformation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

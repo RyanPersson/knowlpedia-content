@@ -1,10 +1,13 @@
 +++
 id = "real-analysis/density-of-r-minus-q-in-r"
-title = "Density of ℝ \\\\ ℚ in ℝ"
+title = "Density of ℝ ∖ ℚ in ℝ"
 kind = "knowl"
 summary = "Between any two real numbers there is an irrational number"
-aliases = ["density-of-r-minus-q-in-r", "Density of ℝ \\\\ ℚ in ℝ"]
+aliases = ["density-of-r-minus-q-in-r", "Density of ℝ ∖ ℚ in ℝ"]
 domains = ["real-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/density-of-r-minus-q-in-r.md"
 +++
 

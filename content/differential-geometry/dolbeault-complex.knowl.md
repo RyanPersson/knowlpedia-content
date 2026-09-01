@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The cochain complex of smooth forms of fixed holomorphic degree with differential given by the d-bar operator."
 aliases = ["d-bar complex", "∂̄-complex"]
 domains = ["differential-geometry", "algebra-homological"]
+prerequisites = ["differential-geometry/complex-manifold", "algebra-homological/cochain-complex", "linear-algebra/vector-space", "differential-geometry/dolbeault-operators"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

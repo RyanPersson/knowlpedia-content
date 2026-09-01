@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A convergence test for sums of products using bounded partial sums and monotone factors."
 aliases = ["dirichlet-test", "Dirichlet test"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/partial-sums", "real-analysis/convergent-series"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/dirichlet-test.md"
 +++
 

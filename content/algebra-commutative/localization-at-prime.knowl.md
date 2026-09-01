@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The ring R_p obtained by inverting all elements outside a prime ideal p."
 aliases = ["localization-at-prime", "Localization at a prime ideal"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring", "algebra-commutative/local-ring", "algebra-commutative/localization-prime-correspondence", "algebra-commutative/residue-field", "algebra-commutative/prime-spectrum"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/localization-at-prime.md"
 +++
 
@@ -29,7 +32,7 @@ i.e. the [[algebra-commutative/localization-ring|localization of a ring]] obtain
 
 Geometrically, points of [[algebra-commutative/prime-spectrum|Spec(R)]] are prime ideals, and \(R_{\mathfrak p}\) is the algebraic “stalk” of \(R\) at the point \(\mathfrak p\).
 
-### Examples
+## Examples
 
 1. **Integers localized at \((p)\).** For \(R=\mathbb Z\) and \(\mathfrak p=(p)\) with \(p\) prime,
    \[

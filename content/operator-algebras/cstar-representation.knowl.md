@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A *-homomorphism from a C*-algebra to the bounded operators on a Hilbert space."
 aliases = ["*-representation", "C*-representation"]
 domains = ["operator-algebras", "algebra-representation-theory"]
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/hilbert-space", "operator-algebras/star-homomorphism", "operator-algebras/bounded-operator-cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

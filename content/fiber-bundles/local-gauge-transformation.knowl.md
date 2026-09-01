@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A smooth group-valued function on an open set that represents a gauge transformation in a chosen local trivialization."
 aliases = ["local-gauge-transformation", "Local gauge transformation"]
 domains = ["fiber-bundles"]
+prerequisites = ["topology/open-cover", "fiber-bundles/equivariant-local-trivialization", "fiber-bundles/gauge-transformation", "fiber-bundles/principal-connection", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/local-gauge-transformation.md"
 +++
 

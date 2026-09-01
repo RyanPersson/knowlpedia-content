@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A norm on bounded functions given by the supremum of absolute values."
 aliases = ["supremum-norm", "Supremum norm"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/supremum", "real-analysis/absolute-value"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/supremum-norm.md"
 +++
 

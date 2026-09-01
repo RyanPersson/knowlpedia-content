@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical orthogonal positive elements whose difference is a given self-adjoint element."
 aliases = ["positive part", "negative part", "Jordan decomposition of a self-adjoint element"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/self-adjoint-element", "operator-algebras/cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

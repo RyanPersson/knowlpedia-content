@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A graph encoding the angles and relative lengths among simple roots of a semisimple Lie algebra via the Cartan matrix."
 aliases = ["dynkin-diagram", "Dynkin diagram"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "lie-groups/cartan-matrix"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/dynkin-diagram.md"
 +++
 

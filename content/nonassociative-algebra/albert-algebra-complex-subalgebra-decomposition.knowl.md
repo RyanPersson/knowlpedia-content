@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A framed H_3(C) subalgebra of H_3(O) is encoded by three compatible real 2-planes in the octonions."
 aliases = ["complex qutrit subalgebra normal form", "framed H3(C) subalgebra decomposition"]
 domains = ["nonassociative-algebra"]
+prerequisites = ["nonassociative-algebra/jordan-subalgebra", "nonassociative-algebra/jordan-frame"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

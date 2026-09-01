@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A scalar invariant of a square matrix measuring volume scaling and invertibility."
 aliases = ["determinant"]
 domains = ["linear-algebra"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/determinant.md"
 +++
 

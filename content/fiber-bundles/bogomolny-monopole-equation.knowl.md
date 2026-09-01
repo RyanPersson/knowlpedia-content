@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A first-order gauge equation equating the curvature of a connection on a three-manifold with the Hodge dual of the covariant derivative of a Higgs field."
 aliases = ["Bogomolny equation", "magnetic monopole equation"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "differential-geometry/hodge-star-operator", "fiber-bundles/gauge-transformation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

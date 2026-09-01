@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Every positive-dimensional smooth manifold embeds smoothly in Euclidean space of twice its dimension."
 aliases = ["smooth Whitney embedding theorem"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-embedding", "differential-geometry/embedded-submanifold", "linear-algebra/euclidean-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

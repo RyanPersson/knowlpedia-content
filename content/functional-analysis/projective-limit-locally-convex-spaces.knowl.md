@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The compatible-tuple subspace of a product of locally convex spaces."
 aliases = ["inverse limit of locally convex spaces", "locally convex projective limit"]
 domains = ["functional-analysis"]
+prerequisites = ["functional-analysis/locally-convex-space", "topology/subspace-topology", "topology/product-topology", "linear-algebra/linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

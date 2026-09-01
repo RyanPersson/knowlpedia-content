@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The orthogonal projection onto the line spanned by a normalized vector."
 aliases = ["rank-one projector", "rank-one projection"]
 domains = ["quantum-foundations", "linear-algebra"]
+prerequisites = ["quantum-foundations/normalized-state-vector", "linear-algebra/orthogonal-projection", "quantum-foundations/positive-semidefinite-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 For a [[quantum-foundations/normalized-state-vector|normalized vector]] \(\psi\) in a complex Hilbert space, the **rank-one projector** onto its span is the operator

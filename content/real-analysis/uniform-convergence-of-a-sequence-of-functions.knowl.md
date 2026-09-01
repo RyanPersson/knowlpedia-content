@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Convergence f_n→f with a single N(ε) working for all x in the domain."
 aliases = ["uniform-convergence-of-a-sequence-of-functions", "Uniform convergence (sequence of functions)"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/set", "topology/metric-space", "real-analysis/supremum", "real-analysis/continuity-on-a-set", "real-analysis/pointwise-convergence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/uniform-convergence-of-a-sequence-of-functions.md"
 +++
 

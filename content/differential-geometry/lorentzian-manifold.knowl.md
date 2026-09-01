@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A pseudo-Riemannian manifold with one timelike direction at every point."
 aliases = ["Lorentz manifold", "Lorentzian metric manifold"]
 domains = ["differential-geometry", "mathematical-physics"]
+prerequisites = ["differential-geometry/pseudo-riemannian-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

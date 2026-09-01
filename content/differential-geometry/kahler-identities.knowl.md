@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Commutator formulas relating the Dolbeault operators, their formal adjoints, and the Lefschetz operators of a Kähler metric."
 aliases = ["commutator identities in Kähler geometry"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/formal-adjoint-differential-operator", "differential-geometry/dolbeault-operators"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

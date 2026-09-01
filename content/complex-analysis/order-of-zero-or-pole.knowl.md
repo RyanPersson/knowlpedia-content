@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The integer exponent in the local factorization of a meromorphic function."
 aliases = ["multiplicity of a zero", "order of vanishing", "pole order"]
 domains = ["complex-analysis"]
+prerequisites = ["complex-analysis/meromorphic-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Upper bound on deviation probability using variance."
 aliases = ["chebyshev-inequality", "Chebyshev's inequality"]
 domains = ["probability"]
+prerequisites = ["probability/random-variable", "probability/expectation", "probability/variance"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/chebyshev-inequality.md"
 +++
 

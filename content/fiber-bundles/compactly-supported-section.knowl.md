@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A vector bundle section whose support is a compact subset of the base."
 aliases = ["section with compact support", "Gamma_c(E)"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/support-of-a-section", "topology/compact-set", "linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

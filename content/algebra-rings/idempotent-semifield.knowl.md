@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A semifield with idempotent addition."
 aliases = ["tropical semifield in the broad sense"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
+prerequisites = ["algebra-rings/semifield", "algebra-rings/idempotent-semiring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -29,7 +32,7 @@ algebraic basis of tropical linear constructions.
 Removing the additive zero produces a lattice-ordered multiplicative group,
 and adjoining a bottom element reverses this construction. See the
 [[algebra-rings/idempotent-semifields-and-lattice-ordered-groups|categorical
-equivalence with [[algebra-groups/lattice-ordered-abelian-group|lattice-ordered abelian groups]]]].
+equivalence with lattice-ordered abelian groups]].
 
 ## Examples and scope
 

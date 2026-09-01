@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A finite-dimensional Hilbert space with an observable algebra and a self-adjoint Hamiltonian."
 aliases = ["quantum-system-stat-mech", "Finite quantum statistical system"]
 domains = ["stat-mech-quantum"]
+prerequisites = ["stat-mech-quantum/observable-algebra", "stat-mech-quantum/quantum-hamiltonian", "quantum-foundations/density-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "stat-mech-quantum/quantum-system-stat-mech.md"
 +++
 

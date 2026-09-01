@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A representation of a real reductive group obtained by normalized induction from a minimal parabolic subgroup."
 aliases = ["principal series", "minimal principal series"]
 domains = ["lie-groups", "harmonic-analysis"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/minimal-parabolic-subgroup", "lie-groups/irreducible-unitary-representation", "lie-groups/normalized-parabolic-induction"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

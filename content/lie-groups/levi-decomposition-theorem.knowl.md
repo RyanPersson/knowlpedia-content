@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Any finite-dimensional Lie algebra splits as a semidirect product of semisimple part and solvable radical."
 aliases = ["levi-decomposition-theorem", "Levi decomposition"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/solvable-lie-algebra", "lie-groups/ideal-lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/levi-decomposition-theorem.md"
 +++
 

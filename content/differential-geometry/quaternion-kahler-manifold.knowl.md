@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Riemannian manifold of dimension at least eight whose holonomy is contained in Sp(n)Sp(1)."
 aliases = ["quaternionic-Kähler manifold"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/holonomy-group", "lie-groups/compact-symplectic-product-group", "differential-geometry/quaternionic-hermitian-manifold", "fiber-bundles/levicivita-connection-connection", "differential-geometry/kahler-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The weak-star topology on the bounded operators induced by their trace-class predual."
 aliases = ["sigma-weak topology", "weak-star operator topology"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "functional-analysis/weak-star-topology", "shale-paper/trace-class-operator", "linear-algebra/banach-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -12,7 +15,7 @@ Let \(\mathcal H\) be a [[linear-algebra/hilbert-space|Hilbert space]]. The **ul
 \[
 \operatorname{Tr}(T_iS)\longrightarrow\operatorname{Tr}(TS)
 \]
-for every [[functional-analysis/schatten-class-operator|trace-class operator]] \(S\). Equivalently, it is the weakest locally convex topology making all such trace-pairing functionals continuous. This realizes \(\mathcal B(\mathcal H)\) as a dual [[linear-algebra/banach-space|Banach space]].
+for every [[shale-paper/trace-class-operator|trace-class operator]] \(S\). Equivalently, it is the weakest locally convex topology making all such trace-pairing functionals continuous. This realizes \(\mathcal B(\mathcal H)\) as a dual [[linear-algebra/banach-space|Banach space]].
 
 ## Equivalent seminorm description
 

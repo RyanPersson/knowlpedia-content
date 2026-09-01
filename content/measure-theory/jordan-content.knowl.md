@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A finite-additivity notion of volume for certain bounded subsets of Euclidean space."
 aliases = ["jordan-content", "Jordan content"]
 domains = ["measure-theory"]
+prerequisites = ["real-analysis/interval", "measure-theory/lebesgue-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/jordan-content.md"
 +++
 

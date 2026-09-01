@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The smallest convex set containing a given set"
 aliases = ["convex-hull", "Convex hull"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/convex-set", "convex-analysis/intersections-of-convex-sets-are-convex"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/convex-hull.md"
 +++
 

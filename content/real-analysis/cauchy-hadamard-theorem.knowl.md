@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A formula for the radius of convergence of a power series using a limsup of nth roots of coefficients."
 aliases = ["cauchy-hadamard-theorem", "Cauchy–Hadamard theorem"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/power-series"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/cauchy-hadamard-theorem.md"
 +++
 

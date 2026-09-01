@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A moment map that intertwines a Lie group action with the coadjoint action on the dual Lie algebra."
 aliases = ["coadjoint-equivariant moment map"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/moment-map", "fiber-bundles/coadjoint-action-of-a-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

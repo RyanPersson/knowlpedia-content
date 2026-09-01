@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A lower semicontinuous function that governs exponential decay rates in large deviations."
 aliases = ["rate-function", "Rate function"]
 domains = ["large-deviations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "large-deviations/rate-function.md"
 +++
 

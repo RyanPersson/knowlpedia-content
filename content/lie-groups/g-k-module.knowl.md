@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A compatible locally finite action of a complexified Lie algebra and a compact subgroup."
 aliases = ["Harish-Chandra pair module", "compatible Lie algebra and compact-group module"]
 domains = ["lie-groups", "representation-theory"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "linear-algebra/vector-space", "lie-groups/representation-of-a-lie-algebra", "lie-groups/k-finite-vector"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

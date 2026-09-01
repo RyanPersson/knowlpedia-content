@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The cancellation rule that combines two null formal sums containing opposite terms."
 aliases = ["fusion axiom for bands", "band fusion rule"]
 domains = ["algebra-hyperstructures"]
+prerequisites = ["algebra-hyperstructures/band"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

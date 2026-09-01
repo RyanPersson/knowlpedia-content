@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A linear map between C*-algebras that sends positive elements to positive elements."
 aliases = ["positive map", "order-preserving linear map"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-cone"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

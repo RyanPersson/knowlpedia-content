@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Either irreducible chiral summand of the complex spin representation in even dimension."
 aliases = ["half-spin module", "chiral spin representation", "positive half-spin representation", "negative half-spin representation"]
 domains = ["lie-groups", "representation-theory", "differential-geometry"]
+prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/clifford-algebra", "differential-geometry/chirality-operator", "differential-geometry/spinor-module", "differential-geometry/clifford-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

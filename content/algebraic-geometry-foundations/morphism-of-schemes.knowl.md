@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A continuous map of schemes equipped with a compatible local map of structure sheaves."
 aliases = ["morphism-of-schemes", "Morphism of schemes", "scheme morphism"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/morphism-of-locally-ringed-spaces", "topology/continuous-map", "algebraic-geometry-foundations/morphism-of-sheaves", "algebraic-geometry-foundations/structure-sheaf", "algebraic-geometry-foundations/direct-image-sheaf", "algebraic-geometry-foundations/stalk", "algebra-rings/ring-homomorphism", "algebraic-geometry-foundations/affine-scheme"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebraic-geometry-foundations/morphism-of-schemes.md"
 +++
 

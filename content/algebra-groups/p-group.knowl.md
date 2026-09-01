@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A group whose elements have order a power of a fixed prime p"
 aliases = ["p-group"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "shared-foundations/cardinality"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/p-group.md"
 +++
 

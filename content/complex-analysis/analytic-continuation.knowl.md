@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Extension of a holomorphic function through overlapping domains, uniquely controlled by the identity theorem."
 aliases = ["holomorphic continuation"]
 domains = ["complex-analysis"]
+prerequisites = ["complex-analysis/complex-domain", "topology/connected-component", "complex-analysis/identity-theorem"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A smooth map of locally constant rank has coordinates in which it is a coordinate projection followed by a coordinate inclusion."
 aliases = ["rank theorem for smooth maps", "constant-rank normal form"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-map", "differential-geometry/rank-of-a-smooth-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
