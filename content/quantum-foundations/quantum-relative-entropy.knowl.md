@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Noncommutative generalization of Kullback-Leibler divergence for density operators."
 aliases = ["quantum-relative-entropy", "Quantum relative entropy"]
 domains = ["quantum-foundations"]
+prerequisites = ["quantum-foundations/density-operator", "quantum-foundations/spectrum-self-adjoint-finite"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "quantum-foundations/quantum-relative-entropy.md"
 +++
 

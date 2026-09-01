@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In a finite group, the order of any element divides the order of the group."
 aliases = ["order-divides-group-order", "Order of Element Divides Order of Group"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/order-divides-group-order.md"
 +++
 

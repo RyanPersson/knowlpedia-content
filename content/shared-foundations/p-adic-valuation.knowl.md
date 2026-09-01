@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The exponent of a prime in an integer, extended to a valuation on rational numbers."
 aliases = ["p-adic valuation", "prime-adic valuation"]
 domains = ["shared-foundations", "algebra-fields-galois"]
+prerequisites = ["shared-foundations/rational-numbers"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 Fix a prime \(p\). For a nonzero integer \(m\), the **\(p\)-adic valuation** \(v_p(m)\) is the unique nonnegative integer \(r\) such that \(p^r\mid m\) but \(p^{r+1}\nmid m\). Set \(v_p(0)=+\infty\), and extend to nonzero [[shared-foundations/rational-numbers|rational numbers]] by

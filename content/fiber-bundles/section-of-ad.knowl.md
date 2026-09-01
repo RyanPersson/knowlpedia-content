@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A smooth choice of an element in each fiber of the adjoint bundle, equivalently a globally defined gauge function with conjugation gluing laws."
 aliases = ["section-of-ad", "Section of Ad(P)"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action", "fiber-bundles/smooth-map", "fiber-bundles/gauge-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/section-of-ad.md"
 +++
 

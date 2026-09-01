@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A family of l-adic Galois representations with coefficient-independent Frobenius polynomials at almost all places."
 aliases = ["compatible system", "weakly compatible system", "compatible family of l-adic representations"]
 domains = ["langlands", "number-theory", "algebraic-geometry"]
+prerequisites = ["algebra-fields-galois/number-field", "langlands-letter/knowls/galois-extension-and-group", "algebra-fields-galois/inertia-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

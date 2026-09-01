@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Condition that two vectors have inner product equal to zero."
 aliases = ["orthogonality"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/inner-product-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/orthogonality.md"
 +++
 

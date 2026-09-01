@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A smooth fiber bundle with a free and transitive right action of a Lie group on each fiber and local trivializations compatible with the action."
 aliases = ["principal-g-bundle", "Principal G-bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism", "fiber-bundles/principal-connection", "fiber-bundles/parallel-transport", "fiber-bundles/holonomy-group", "fiber-bundles/curvature"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/principal-g-bundle.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Exponential tail bound using moment generating functions."
 aliases = ["chernoff-bound", "Chernoff bound"]
 domains = ["probability"]
+prerequisites = ["probability/random-variable"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/chernoff-bound.md"
 +++
 

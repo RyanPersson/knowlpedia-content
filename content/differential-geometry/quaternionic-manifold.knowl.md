@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An almost-quaternionic manifold whose rank-three quaternionic structure is preserved by a torsion-free connection."
 aliases = ["integrable quaternionic manifold"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/almost-quaternionic-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

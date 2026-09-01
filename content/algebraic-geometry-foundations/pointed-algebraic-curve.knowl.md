@@ -5,13 +5,15 @@ kind = "definition"
 summary = "An algebraic curve equipped with an ordered or labeled collection of marked points."
 aliases = ["marked algebraic curve"]
 domains = ["algebraic-geometry-foundations", "langlands"]
+prerequisites = ["algebraic-geometry-foundations/punctured-algebraic-curve"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
 A **pointed algebraic curve** over a scheme \(S\) is a family of algebraic
 curves \(\pi:X\to S\) together with specified sections
-\(x_1,\ldots,x_n:S\to X\). Conditions such as pairwise disjointness of the
-sections or their passage through the smooth locus are additional hypotheses.
+\(x_1,\ldots,x_n:S\to X\).
 
 Over a field, pairwise distinct rational marked points determine the reduced
 effective divisor
@@ -25,6 +27,10 @@ and the complement
 The sections may be ordered, labeled, or merely collected into a divisor;
 these are different moduli problems. Stability is not part of the bare
 definition.
+
+## Additional hypotheses
+
+Common additional hypotheses require the marked sections to be pairwise disjoint or to pass through the smooth locus.
 
 ## Langlands role
 

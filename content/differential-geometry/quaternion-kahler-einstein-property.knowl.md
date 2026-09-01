@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Every quaternion-Kähler manifold of real dimension at least eight has Ricci tensor proportional to its metric."
 aliases = ["Einstein property of quaternion-Kähler manifolds"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/quaternion-kahler-manifold", "differential-geometry/einstein-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

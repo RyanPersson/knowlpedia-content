@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A blueprinted space isomorphic to the spectrum of a blueprint."
 aliases = ["affine blueprint scheme"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/locally-blueprinted-space", "algebraic-geometry-foundations/blueprint", "algebra-commutative/zariski-topology", "algebraic-geometry-foundations/structure-sheaf"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

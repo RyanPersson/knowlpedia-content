@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The extended-real function that is zero on a set and positive infinity outside it."
 aliases = ["indicator-function-of-a-set", "Indicator function of a set"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/extended-real-number-system-and-conventions", "convex-analysis/domain-and-epigraph-proper-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/indicator-function-of-a-set.md"
 +++
 

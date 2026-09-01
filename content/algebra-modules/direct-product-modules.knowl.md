@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The product of modules: all tuples with coordinatewise operations."
 aliases = ["direct-product-modules", "Direct product of modules"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/module", "shared-foundations/cartesian-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/direct-product-modules.md"
 +++
 

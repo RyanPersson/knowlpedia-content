@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A proper ideal P such that ab in P forces a in P or b in P."
 aliases = ["prime-ideal", "Prime ideal"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/prime-ideal.md"
 +++
 

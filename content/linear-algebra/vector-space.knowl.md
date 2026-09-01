@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set with addition and scalar multiplication satisfying the vector space axioms."
 aliases = ["vector-space", "Vector space"]
 domains = ["linear-algebra"]
+prerequisites = ["algebra-rings/field", "shared-foundations/set", "shared-foundations/function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/vector-space.md"
 +++
 
@@ -18,9 +21,11 @@ A **vector space** over a [[algebra-rings/field|field]] \(\mathbb{F}\) is a [[sh
 \end{aligned}
 \]
 
-Vector spaces are the basic objects studied via [[linear-algebra/linear-map|linear maps]] and invariants such as the [[linear-algebra/determinant|determinant]] and [[linear-algebra/eigenvalue|eigenvalues]] of operators.
+## Context
 
-**Examples:**
+Vector spaces are the basic objects studied via [[linear-algebra/linear-map|linear maps]] and invariants including the [[linear-algebra/determinant|determinant]] and [[linear-algebra/eigenvalue|eigenvalues]] of operators.
+
+## Examples
 - \(\mathbb{R}^n\) with componentwise addition and scalar multiplication is a vector space over \(\mathbb{R}\).
 - The set of polynomials \(\mathbb{F}[x]\) with the usual addition and scalar multiplication is a vector space over \(\mathbb{F}\).
 - The set of \(m\times n\) matrices over \(\mathbb{F}\) is a vector space over \(\mathbb{F}\).

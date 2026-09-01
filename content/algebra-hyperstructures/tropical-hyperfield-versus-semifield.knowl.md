@@ -5,6 +5,9 @@ kind = "proposition"
 summary = "The tropical semifield and hyperfield share their carrier and multiplication but differ exactly at tied addition."
 aliases = ["tropical hyperfield and tropical semiring comparison"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
+prerequisites = ["algebra-rings/tropical-semifield", "algebra-hyperstructures/tropical-hyperfield"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

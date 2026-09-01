@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Given a connection, any curve in the base has a unique horizontal lift through a chosen point in the fiber."
 aliases = ["existenceuniqueness-of-horizontal-lift-of-a-curve", "Theorem: Existence and uniqueness of horizontal lifts of curves"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve.md"
 +++
 

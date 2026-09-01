@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A Lie group action is free if all stabilizers are trivial."
 aliases = ["free-action-lie", "Free smooth Lie group action"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group", "lie-groups/stabilizer-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/free-action-lie.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The character of an irreducible complex representation; these form an orthonormal basis of class functions."
 aliases = ["irreducible-character", "Irreducible character"]
 domains = ["algebra-representation-theory"]
+prerequisites = ["algebra-representation-theory/character", "algebra-representation-theory/irreducible-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-representation-theory/irreducible-character.md"
 +++
 

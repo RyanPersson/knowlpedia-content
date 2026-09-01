@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A product of groups twisted by an action by automorphisms"
 aliases = ["semidirect-product", "Semidirect Product"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/group-homomorphism", "algebra-groups/automorphism-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/semidirect-product.md"
 +++
 

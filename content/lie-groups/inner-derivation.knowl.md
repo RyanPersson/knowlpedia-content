@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A derivation of the form ad_x(y) = [x,y]."
 aliases = ["inner-derivation", "Inner derivation"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/derivation-lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/inner-derivation.md"
 +++
 

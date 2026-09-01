@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A series that converges after taking absolute values term-by-term."
 aliases = ["absolutely-convergent-series", "Absolutely convergent series"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/convergent-series"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/absolutely-convergent-series.md"
 +++
 

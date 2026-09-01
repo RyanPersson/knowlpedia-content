@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The group of field automorphisms of an extension that fix the base field pointwise."
 aliases = ["galois-group", "Galois group"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/field-automorphism", "algebra-groups/automorphism-group", "algebra-fields-galois/galois-extension", "algebra-fields-galois/fixed-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/galois-group.md"
 +++
 

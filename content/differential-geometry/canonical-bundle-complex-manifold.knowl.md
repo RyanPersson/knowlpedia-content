@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The holomorphic line bundle of holomorphic differential forms of top degree on a complex manifold."
 aliases = ["holomorphic canonical bundle", "bundle of holomorphic top forms"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-cotangent-bundle", "differential-geometry/holomorphic-line-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Any two algebraic closures of a field are isomorphic over the base field."
 aliases = ["algebraic-closure-uniqueness", "Uniqueness of Algebraic Closures"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure", "algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-extension"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/algebraic-closure-uniqueness.md"
 +++
 

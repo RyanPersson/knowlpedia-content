@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Constructing a principal H-subbundle when transition functions take values in a subgroup H."
 aliases = ["construction-reduction-of-structure-group-to-h-via-transition-functions-valued-in-h", "Reduction of structure group via H-valued transition functions"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections", "lie-groups/lie-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-reduction-of-structure-group-to-h-via-transition-functions-valued-in-h.md"
 +++
 

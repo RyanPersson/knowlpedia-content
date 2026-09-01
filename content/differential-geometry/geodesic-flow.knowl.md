@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The flow on the unit tangent bundle that advances each unit tangent vector along its geodesic."
 aliases = ["unit-speed geodesic flow"]
 domains = ["differential-geometry", "dynamical-systems", "quantum-chaos"]
+prerequisites = ["differential-geometry/riemannian-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

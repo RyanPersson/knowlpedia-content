@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The fully faithful functor sending an object to its Hom functor (a representable presheaf)."
 aliases = ["yoneda-embedding", "Yoneda embedding"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/representable-functor", "algebra-category-theory/natural-transformation", "algebra-category-theory/opposite-category"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-category-theory/yoneda-embedding.md"
 +++
 

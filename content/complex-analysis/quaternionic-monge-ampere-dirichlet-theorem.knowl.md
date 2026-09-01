@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Existence and uniqueness of a continuous quaternionic PSH solution on a bounded strictly pseudoconvex domain."
 aliases = ["quaternionic Monge-Ampere Dirichlet theorem", "Dirichlet problem for quaternionic Monge–Ampère"]
 domains = ["complex-analysis", "quaternionic-analysis", "partial-differential-equations"]
+prerequisites = ["complex-analysis/strictly-quaternionically-pseudoconvex-domain"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

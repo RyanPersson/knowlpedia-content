@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If N is a closed normal Lie subgroup of G, then G/N carries a natural Lie group structure."
 aliases = ["quotient-lie-group", "Quotient Lie group"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/normal-lie-subgroup", "lie-groups/closed-subgroup-theorem", "lie-groups/lie-group-homomorphism", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/quotient-lie-algebra", "lie-groups/covering-lie-group", "lie-groups/universal-covering-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/quotient-lie-group.md"
 +++
 

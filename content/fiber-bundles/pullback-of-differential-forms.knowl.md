@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Given a smooth map, pull back a k-form by applying the differential to each argument."
 aliases = ["pullback-of-differential-forms", "Pullback of differential forms"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/pullback-of-covectors", "fiber-bundles/wedge-product-of-differential-forms", "fiber-bundles/exterior-derivative", "fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form", "fiber-bundles/de-rham-cohomology-group", "fiber-bundles/diffeomorphism", "fiber-bundles/smooth-embedding"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/pullback-of-differential-forms.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The integral of a random variable with respect to the underlying probability measure."
 aliases = ["expectation"]
 domains = ["probability"]
+prerequisites = ["probability/random-variable"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/expectation.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An open subset of a smooth manifold with the smooth structure obtained by restricting charts."
 aliases = ["open smooth submanifold", "open subset as a submanifold"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-structure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

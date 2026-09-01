@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The pointwise supremum of any family of convex functions is convex"
 aliases = ["supremum-of-convex-functions-is-convex", "Supremum of Convex Functions"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-function-via-epigraph"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/supremum-of-convex-functions-is-convex.md"
 +++
 

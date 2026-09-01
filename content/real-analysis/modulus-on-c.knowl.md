@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The nonnegative magnitude |z| of a complex number z, equal to its distance from 0."
 aliases = ["modulus-on-c", "Modulus (absolute value) on ℂ"]
 domains = ["real-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/modulus-on-c.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The epsilon-delta definition of the limit of a function as x approaches a."
 aliases = ["limit-at-a-point", "Limit at a point"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/function", "topology/limit-point", "real-analysis/absolute-value", "real-analysis/one-sided-limit"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/limit-at-a-point.md"
 +++
 

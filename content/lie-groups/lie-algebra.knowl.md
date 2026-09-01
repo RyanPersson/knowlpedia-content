@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A vector space over a stated field with an alternating bilinear bracket satisfying the Jacobi identity."
 aliases = ["lie-algebra", "Lie Algebra"]
 domains = ["lie-groups"]
+prerequisites = ["linear-algebra/vector-space", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/lie-algebra.md"
 section_mode = "progressive"
 +++

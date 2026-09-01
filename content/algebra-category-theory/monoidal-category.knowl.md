@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A category with an associative tensor product and a tensor unit, coherently up to specified isomorphisms."
 aliases = ["tensor category in the weak sense"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/natural-isomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

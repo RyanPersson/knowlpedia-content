@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An irreducible highest-weight representation whose highest weight is a fundamental weight."
 aliases = ["fundamental-representation", "Fundamental representation"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/simple-root", "lie-groups/highest-weight-representation", "lie-groups/highest-weight"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/fundamental-representation.md"
 +++
 

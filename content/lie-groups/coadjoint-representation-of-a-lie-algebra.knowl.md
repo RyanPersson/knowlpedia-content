@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The dual of the adjoint representation, acting on the dual space g*."
 aliases = ["coadjoint-representation-of-a-lie-algebra", "Coadjoint representation of a Lie algebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/coadjoint-representation-of-a-lie-algebra.md"
 +++
 

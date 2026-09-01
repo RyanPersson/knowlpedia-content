@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A quantum state represented by a rank-one projector onto a unit vector."
 aliases = ["pure-state-quantum", "Pure quantum state"]
 domains = ["quantum-foundations"]
+prerequisites = ["quantum-foundations/complex-hilbert-space-finite", "quantum-foundations/density-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "quantum-foundations/pure-state-quantum.md"
 +++
 

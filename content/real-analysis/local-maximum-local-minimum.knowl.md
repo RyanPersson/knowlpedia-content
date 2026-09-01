@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A point where a function attains a maximum/minimum relative to nearby points."
 aliases = ["local-maximum-local-minimum", "Local maximum and local minimum"]
 domains = ["real-analysis"]
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/local-maximum-local-minimum.md"
 +++
 

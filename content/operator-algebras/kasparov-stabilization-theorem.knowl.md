@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A countably generated Hilbert C-star module is absorbed by the standard Hilbert module."
 aliases = ["stabilization theorem for Hilbert C*-modules"]
 domains = ["operator-algebras", "noncommutative-geometry"]
+prerequisites = ["operator-algebras/countably-generated-hilbert-cstar-module", "operator-algebras/standard-hilbert-cstar-module", "operator-algebras/adjointable-operator-hilbert-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

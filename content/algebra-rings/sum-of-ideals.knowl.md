@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The ideal consisting of all sums of an element from each of two ideals."
 aliases = ["sum-of-ideals", "Sum of ideals"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ring", "algebra-rings/ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/sum-of-ideals.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A linear functional dominated by a sublinear function extends to the whole space."
 aliases = ["hahn-banach-theorem-in-real-vector-spaces", "Hahn–Banach Theorem (Real Vector Spaces)"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions", "convex-analysis/linear-operator-linear-transformation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/hahn-banach-theorem-in-real-vector-spaces.md"
 +++
 

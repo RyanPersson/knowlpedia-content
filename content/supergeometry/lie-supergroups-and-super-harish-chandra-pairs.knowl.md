@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Finite-dimensional smooth real Lie supergroups are equivalent to finite-dimensional smooth real super Harish–Chandra pairs."
 aliases = ["Lie supergroup Harish-Chandra pair equivalence", "Kostant equivalence"]
 domains = ["supergeometry", "lie-groups"]
+prerequisites = ["algebra-category-theory/equivalence-of-categories", "supergeometry/lie-supergroup", "algebra-groups/conjugation-action", "supergeometry/lie-superalgebra-of-lie-supergroup", "supergeometry/super-harish-chandra-pair"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

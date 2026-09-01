@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An exact sequence 0 → A → B → C → 0 capturing a module extension."
 aliases = ["short-exact-sequence", "Short exact sequence"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/exact-sequence-modules", "shared-foundations/injective-function", "shared-foundations/surjective-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/short-exact-sequence.md"
 +++
 

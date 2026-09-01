@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A norm-one positive linear functional on a C*-algebra."
 aliases = ["C*-state", "algebraic state", "normalized positive functional"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-linear-functional", "operator-algebras/von-neumann-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

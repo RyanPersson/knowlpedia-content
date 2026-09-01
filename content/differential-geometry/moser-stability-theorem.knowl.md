@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A cohomologically constant smooth family of symplectic forms on a compact manifold is trivialized by an isotopy."
 aliases = ["Moser trick", "Moser isotopy theorem"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/symplectic-manifold", "differential-geometry/smooth-isotopy", "differential-geometry/symplectomorphism", "fiber-bundles/vector-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A sequence of homomorphisms where image equals kernel at each stage"
 aliases = ["exact-sequence-groups", "Exact Sequence of Groups"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/image-group", "algebra-groups/kernel-group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/exact-sequence-groups.md"
 +++
 

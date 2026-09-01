@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Coulomb gauge imposes a covariant divergence-free condition on the difference between a connection and a reference connection."
 aliases = ["Coulomb gauge condition", "divergence-free gauge"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/principal-g-bundle", "differential-geometry/riemannian-manifold", "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative", "fiber-bundles/gauge-fixing-condition"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

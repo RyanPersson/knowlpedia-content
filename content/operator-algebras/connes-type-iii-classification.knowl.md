@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The subdivision of type III factors into types III_0, III_lambda, and III_1 by the Connes S-invariant."
 aliases = ["type III_lambda classification", "Connes S-invariant classification"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/type-iii-factor", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/modular-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

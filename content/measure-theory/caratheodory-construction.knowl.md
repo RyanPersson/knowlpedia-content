@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A method that turns an outer measure into a measure by selecting Carathéodory measurable sets."
 aliases = ["caratheodory-construction", "Carathéodory construction"]
 domains = ["measure-theory"]
+prerequisites = ["measure-theory/outer-measure", "measure-theory/sigma-algebra", "measure-theory/measure", "measure-theory/caratheodory-measurable-set", "measure-theory/measurable-space", "measure-theory/lebesgue-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/caratheodory-construction.md"
 +++
 

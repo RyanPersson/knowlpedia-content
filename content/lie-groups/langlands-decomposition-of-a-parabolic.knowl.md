@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A real parabolic subgroup decomposes into a reductive factor, a split abelian factor, and a nilpotent radical."
 aliases = ["Levi decomposition P=MAN", "Langlands decomposition"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/cartan-involution-real-lie-algebra", "lie-groups/parabolic-subgroup-real-reductive-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

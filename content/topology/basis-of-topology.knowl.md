@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A collection of sets whose unions give all open sets."
 aliases = ["basis-of-topology", "Basis of a topology"]
 domains = ["topology"]
+prerequisites = ["topology/open-set", "topology/topology", "topology/continuous-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/basis-of-topology.md"
 +++
 

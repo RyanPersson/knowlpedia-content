@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Hilbert C*-module of square-summable sequences with entries in a C-star algebra."
 aliases = ["standard module H_A", "ell2(A)"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "real-analysis/partial-sums", "operator-algebras/hilbert-cstar-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

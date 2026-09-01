@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A contraction on a complete metric space has a unique fixed point, found by iteration"
 aliases = ["banach-fixed-point-theorem", "Banach Fixed Point Theorem"]
 domains = ["real-analysis"]
+prerequisites = ["topology/complete-metric-space", "shared-foundations/contraction-mapping", "real-analysis/fixed-point", "topology/convergent-sequence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/banach-fixed-point-theorem.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A weighted sum of infima of f over subintervals of a partition."
 aliases = ["lower-sum-riemann", "Lower sum (Riemann)"]
 domains = ["real-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/lower-sum-riemann.md"
 +++
 

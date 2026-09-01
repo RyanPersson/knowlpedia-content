@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If x_n→x, then ||x_n||→||x||"
 aliases = ["convergence-implies-convergence-of-norms", "Convergence implies convergence of norms"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/convergence-in-normed-spaces", "real-analysis/reverse-triangle-inequality"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/convergence-implies-convergence-of-norms.md"
 +++
 

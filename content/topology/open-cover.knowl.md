@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A cover consisting entirely of open sets in a topological space."
 aliases = ["open-cover", "Open cover"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "topology/open-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/open-cover.md"
 +++
 

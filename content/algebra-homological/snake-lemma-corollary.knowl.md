@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A short exact sequence of chain complexes induces a natural long exact sequence in homology."
 aliases = ["snake-lemma-corollary", "Snake lemma corollary: long exact sequence in homology"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-homological/chain-complex", "algebra-modules/exact-sequence-modules", "algebra-homological/homology-module", "algebra-homological/snake-lemma", "algebra-homological/connecting-homomorphism-lemma"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/snake-lemma-corollary.md"
 +++
 

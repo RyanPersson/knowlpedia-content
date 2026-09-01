@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Integral of a measurable function defined from its positive and negative parts."
 aliases = ["lebesgue-integral", "Lebesgue integral"]
 domains = ["measure-theory"]
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative", "measure-theory/lebesgue-integrable-function", "measure-theory/ae-equality"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/lebesgue-integral.md"
 +++
 

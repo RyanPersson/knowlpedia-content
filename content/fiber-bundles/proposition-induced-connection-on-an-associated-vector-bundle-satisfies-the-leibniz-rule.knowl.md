@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The induced covariant derivative on an associated vector bundle is a derivation with respect to multiplying sections by functions."
 aliases = ["proposition-induced-connection-on-an-associated-vector-bundle-satisfies-the-leibniz-rule", "Leibniz rule for induced connections on associated bundles"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/associated-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/proposition-induced-connection-on-an-associated-vector-bundle-satisfies-the-leibniz-rule.md"
 +++
 

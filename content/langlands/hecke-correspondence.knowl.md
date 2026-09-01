@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The moduli correspondence relating two G-bundles by a modification at a point of the curve."
 aliases = ["Hecke stack", "geometric Hecke correspondence"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "langlands/hecke-modification"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

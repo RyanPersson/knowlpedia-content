@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A boundary limit theorem relating a convergent series to its associated power series near the radius 1."
 aliases = ["abels-theorem", "Abel's theorem"]
 domains = ["real-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/abels-theorem.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The quotient of the codomain by the image of a module homomorphism."
 aliases = ["cokernel-module", "Cokernel"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/quotient-module", "algebra-modules/image-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/cokernel-module.md"
 +++
 

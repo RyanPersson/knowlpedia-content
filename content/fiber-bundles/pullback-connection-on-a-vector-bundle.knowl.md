@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical connection on a pullback vector bundle induced by a connection on the original bundle."
 aliases = ["pulled-back covariant derivative", "connection on f-star E"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/pullback-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle-valued-differential-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The complex-valued function t ↦ E[exp(i t X)] associated with a real-valued random variable."
 aliases = ["characteristic-function-probability", "Characteristic function"]
 domains = ["probability"]
+prerequisites = ["probability/random-variable"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/characteristic-function-probability.md"
 +++
 

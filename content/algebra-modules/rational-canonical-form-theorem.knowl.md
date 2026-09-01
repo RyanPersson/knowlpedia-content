@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every linear operator is similar to a block diagonal companion-matrix form determined by invariant factors."
 aliases = ["rational-canonical-form-theorem", "Rational canonical form theorem"]
 domains = ["algebra-modules"]
+prerequisites = ["linear-algebra/linear-map", "linear-algebra/vector-space", "algebra-modules/basis-module", "algebra-modules/matrix-representation", "linear-algebra/minimal-polynomial", "linear-algebra/characteristic-polynomial", "algebra-rings/polynomial-ring", "algebra-modules/structure-theorem-pid"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/rational-canonical-form-theorem.md"
 +++
 

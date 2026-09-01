@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The vector space of derivations at a point of a smooth manifold."
 aliases = ["tangent-space", "Tangent Space"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "differential-geometry/tangent-space.md"
 +++
 

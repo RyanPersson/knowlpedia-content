@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The universal C*-algebra for representations of a correspondence satisfying Katsura's covariance relation."
 aliases = ["Cuntz-Pimsner C*-algebra", "correspondence C*-algebra"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-correspondence", "operator-algebras/compact-operator-hilbert-module", "operator-algebras/toeplitz-representation-cstar-correspondence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

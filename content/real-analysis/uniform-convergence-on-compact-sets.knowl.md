@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Uniform convergence on every compact subset of the domain."
 aliases = ["uniform-convergence-on-compact-sets", "Uniform convergence on compact sets"]
 domains = ["real-analysis"]
+prerequisites = ["topology/metric-space", "real-analysis/uniform-convergence", "shared-foundations/restriction-of-a-function", "real-analysis/power-series", "real-analysis/power-series-uniform-convergence-on-compacts"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/uniform-convergence-on-compact-sets.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An open cover whose nonempty finite intersections are contractible."
 aliases = ["good-cover", "Good cover"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/paracompact-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/good-cover.md"
 +++
 
@@ -16,9 +19,11 @@ U_{i_0}\cap \cdots \cap U_{i_k}
 \]
 is contractible.
 
-Good covers are especially useful because many global invariants can be computed from the combinatorics of the cover, and because they behave well with constructions built from local trivializations (for example, principal bundles and their transition functions).
-
 On a [[fiber-bundles/paracompact-manifold|paracompact manifold]], one can often refine a given cover to a good cover by taking sufficiently small coordinate neighborhoods (or sufficiently small geodesically convex balls when a Riemannian metric is available).
+
+## Applications
+
+Good covers are especially useful because many global invariants can be computed from the combinatorics of the cover, and because they behave well with constructions built from local trivializations (for example, principal bundles and their transition functions).
 
 ## Examples
 1. **Convex covers of \(\mathbb R^n\).**

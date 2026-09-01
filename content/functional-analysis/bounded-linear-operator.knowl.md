@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A linear map between normed spaces whose output norm is bounded by a fixed multiple of the input norm."
 aliases = ["bounded operator between normed spaces"]
 domains = ["functional-analysis"]
+prerequisites = ["linear-algebra/normed-vector-space", "linear-algebra/linear-map", "linear-algebra/operator-norm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

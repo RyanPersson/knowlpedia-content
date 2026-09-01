@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A p-adic Galois representation that splits over C_p into integral Tate twists."
 aliases = ["Hodge-Tate representation", "Hodge–Tate weights", "Hodge-Tate weights"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
+prerequisites = ["langlands-letter/knowls/galois-extension-and-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A topological space equipped with a sheaf of rings."
 aliases = ["space with a sheaf of rings", "ringed topological space"]
 domains = ["algebraic-geometry-foundations", "category-theory"]
+prerequisites = ["topology/topological-space", "algebraic-geometry-foundations/sheaf", "algebra-rings/commutative-ring", "algebraic-geometry-foundations/structure-sheaf", "topology/continuous-map", "algebraic-geometry-foundations/morphism-of-sheaves"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

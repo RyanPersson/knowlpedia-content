@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Limits commute with addition and scalar multiplication"
 aliases = ["algebra-of-limits-in-normed-spaces", "Algebra of limits in normed spaces"]
 domains = ["convex-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/algebra-of-limits-in-normed-spaces.md"
 +++
 

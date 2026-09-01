@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The classical limit theorem stating that normalized sums of i.i.d. variables converge in distribution to a normal law."
 aliases = ["central-limit-theorem", "Central limit theorem"]
 domains = ["probability"]
+prerequisites = ["probability/iid-sequence", "probability/random-variable"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/central-limit-theorem.md"
 +++
 

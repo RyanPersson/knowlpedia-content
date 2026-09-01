@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An equivalence class of nontrivial absolute values on a global field."
 aliases = ["place", "places", "place of a number field", "place of a function field"]
 domains = ["algebra-fields-galois", "langlands"]
+prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "algebra-fields-galois/completion-at-place"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

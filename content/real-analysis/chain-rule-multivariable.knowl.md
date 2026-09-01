@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The derivative of a composition is the composition (product) of derivatives"
 aliases = ["chain-rule-multivariable", "Chain rule (multivariable)"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/differentiable-map", "real-analysis/jacobian-matrix"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/chain-rule-multivariable.md"
 +++
 

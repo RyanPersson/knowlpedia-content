@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The subgroup of a Galois group that stabilizes a chosen prime above a prime of the base field."
 aliases = ["decomposition subgroup", "decomposition group at a place", "D_w"]
 domains = ["algebra-fields-galois", "langlands"]
+prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/global-local-fields-completions", "algebra-fields-galois/completion-at-place", "algebra-commutative/residue-field", "algebra-fields-galois/inertia-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

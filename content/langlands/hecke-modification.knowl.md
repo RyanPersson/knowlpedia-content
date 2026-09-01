@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A change of a G-bundle at one point, given by an isomorphism away from that point."
 aliases = ["modification of a G-bundle"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/principal-g-bundle-on-scheme"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

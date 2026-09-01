@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In a Hausdorff space, every compact set is closed"
 aliases = ["compactness-implies-closedness", "Compactness implies closedness"]
 domains = ["topology"]
+prerequisites = ["topology/hausdorff-space", "topology/compact-set", "topology/closed-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/compactness-implies-closedness.md"
 +++
 

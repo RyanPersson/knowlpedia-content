@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A differentiable function on an interval is convex iff its derivative is nondecreasing"
 aliases = ["convexity-characterized-by-monotonicity-of-derivative", "Convexity characterized by monotonicity of the derivative"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/convex-function-via-epigraph", "convex-analysis/slope-inequalities-for-convex-functions"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/convexity-characterized-by-monotonicity-of-derivative.md"
 +++
 

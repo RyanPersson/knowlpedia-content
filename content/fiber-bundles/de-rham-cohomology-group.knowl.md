@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The quotient of closed differential forms by exact forms."
 aliases = ["de-rham-cohomology-group", "de Rham cohomology group"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/exterior-derivative", "fiber-bundles/differential-k-form", "fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/de-rham-cohomology-group.md"
 +++
 

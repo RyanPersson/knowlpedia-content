@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An invariant distribution that depends only on stable orbital-integral data."
 aliases = ["stable invariant distribution", "stable character distribution", "stable virtual character"]
 domains = ["langlands", "harmonic-analysis"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "harmonic-analysis/distribution-local-group", "langlands/strongly-regular-semisimple-element", "langlands/stable-orbital-integral", "algebra-groups/conjugacy-class", "langlands/stable-conjugacy"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

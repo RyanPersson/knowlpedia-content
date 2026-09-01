@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A conical subset of the scheme of singularities of a quasi-smooth derived stack that records the derived directions in which a coherent sheaf is singular."
 aliases = ["coherent singular support", "Arinkin-Gaitsgory singular support"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["langlands/ind-coherent-sheaf"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

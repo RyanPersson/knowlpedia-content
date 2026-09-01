@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A smooth alternating covariant k-tensor field; equivalently, a smooth section of the kth exterior power of the cotangent bundle."
 aliases = ["differential-k-form", "Differential k-form"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/cotangent-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/pullback-of-covectors", "fiber-bundles/pullback-of-differential-forms", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/wedge-product-of-differential-forms", "fiber-bundles/exterior-derivative", "fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form", "fiber-bundles/de-rham-cohomology-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/differential-k-form.md"
 +++
 
@@ -27,7 +30,7 @@ with smooth coefficient functions \(a_{i_1\cdots i_k}\in C^\infty(U)\), using th
 
 Two fundamental operations on forms are the wedge product \(\wedge\) and the [[fiber-bundles/exterior-derivative|exterior derivative]] \(d:\Omega^k(M)\to \Omega^{k+1}(M)\), which leads to the notions of [[fiber-bundles/closed-differential-form|closed forms]], [[fiber-bundles/exact-differential-form|exact forms]], and [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology]].
 
-### Examples
+## Examples
 
 1. **A \(0\)-form and its differential.** Any smooth function \(f\in C^\infty(M)\) is a \(0\)-form. Its exterior derivative \(df\) is a \(1\)-form characterized by \(df_p(v)=v(f)\) for \(v\in T_pM\).
 

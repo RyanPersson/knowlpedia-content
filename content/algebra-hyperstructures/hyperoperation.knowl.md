@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A binary operation whose value is a nonempty set of possible outputs."
 aliases = ["multivalued operation", "binary hyperoperation"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

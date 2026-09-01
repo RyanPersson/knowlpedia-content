@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The diffeomorphism of a Lie group given by multiplying on the left by a fixed element."
 aliases = ["left-translation", "Left Translation"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/left-translation.md"
 +++
 

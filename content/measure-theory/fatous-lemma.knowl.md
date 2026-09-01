@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For nonnegative measurable functions, the integral of the liminf is bounded by the liminf of the integrals."
 aliases = ["fatous-lemma", "Fatou's lemma"]
 domains = ["measure-theory"]
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/lebesgue-integral", "measure-theory/monotone-convergence-theorem", "measure-theory/dominated-convergence-theorem"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/fatous-lemma.md"
 +++
 

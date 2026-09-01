@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Locally uniform convergence of continuous quaternionic PSH functions implies weak convergence of their Hessian measures."
 aliases = ["quaternionic Aleksandrov theorem", "quaternionic Chern–Levine–Nirenberg theorem"]
 domains = ["complex-analysis", "quaternionic-analysis", "potential-theory"]
+prerequisites = ["complex-analysis/quaternionic-plurisubharmonic-function", "complex-analysis/mixed-quaternionic-monge-ampere-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A metric on bounded functions defined by the supremum of pointwise distances."
 aliases = ["uniform-metric", "Uniform metric"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/supremum-norm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/uniform-metric.md"
 +++
 

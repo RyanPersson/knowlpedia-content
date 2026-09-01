@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A semiring whose addition satisfies a+a=a."
 aliases = ["additively idempotent semiring", "dioid"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
+prerequisites = ["algebra-rings/semiring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

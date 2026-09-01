@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A nonconstant entire function assumes every complex value with at most one exception."
 aliases = ["Picard's little theorem"]
 domains = ["complex-analysis"]
+prerequisites = ["complex-analysis/entire-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

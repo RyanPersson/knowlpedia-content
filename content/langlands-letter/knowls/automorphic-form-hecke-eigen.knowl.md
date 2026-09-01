@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The historical passage from an automorphic form to unramified spherical Hecke eigencharacters and Satake parameters."
 aliases = ["automorphic-form-hecke-eigen", "Automorphic Form and Hecke Eigenvalues"]
 domains = ["langlands-letter"]
+prerequisites = ["algebra-fields-galois/number-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/automorphic-form", "algebra-representation-theory/central-character", "langlands-letter/knowls/maximal-compact-hyperspecial", "algebra-representation-theory/character"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "langlands-letter/knowls/automorphic-form-hecke-eigen.md"
 section_mode = "progressive"
 +++

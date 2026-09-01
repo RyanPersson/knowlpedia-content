@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The parity decomposition of an exterior algebra into its even-degree and odd-degree parts."
 aliases = ["parity decomposition of the exterior algebra", "even exterior algebra", "odd exterior algebra"]
 domains = ["lie-groups", "algebra-modules", "supergeometry"]
+prerequisites = ["algebra-modules/exterior-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

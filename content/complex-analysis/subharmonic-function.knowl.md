@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An upper-semicontinuous function dominated at each point by its local spherical averages."
 aliases = ["subharmonicity", "SH function"]
 domains = ["complex-analysis", "potential-theory", "partial-differential-equations"]
+prerequisites = ["complex-analysis/upper-semicontinuous-function", "topology/closed-ball"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

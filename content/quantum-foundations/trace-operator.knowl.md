@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A basis-independent scalar associated to a linear operator, equal to the sum of diagonal entries or eigenvalues in finite dimension."
 aliases = ["trace-operator", "Trace of an Operator"]
 domains = ["quantum-foundations"]
+prerequisites = ["linear-algebra/trace"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "quantum-foundations/trace-operator.md"
 +++
 

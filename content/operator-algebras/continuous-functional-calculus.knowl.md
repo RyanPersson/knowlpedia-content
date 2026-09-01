@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A normal element of a C*-algebra canonically determines a star-homomorphism from continuous functions on its spectrum."
 aliases = ["continuous C*-functional calculus", "continuous calculus for a normal element"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["functional-analysis/banach-algebra-spectrum", "operator-algebras/commutative-cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

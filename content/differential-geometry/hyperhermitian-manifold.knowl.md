@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A hypercomplex manifold with a Riemannian metric Hermitian for all three complex structures."
 aliases = ["hyperhermitian manifold", "hyper-Hermitian metric"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/hypercomplex-manifold", "differential-geometry/riemannian-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

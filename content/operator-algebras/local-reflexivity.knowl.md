@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Finite-dimensional pieces of a C*-algebra's bidual can be approximated inside the algebra with asymptotically optimal matrix norm."
 aliases = ["locally reflexive C*-algebra"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/linear-map", "operator-algebras/completely-bounded-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

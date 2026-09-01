@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A representation of a C*-algebra is cyclic when the orbit of one vector has dense linear span in its Hilbert space."
 aliases = ["cyclic *-representation", "cyclic vector representation"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-representation", "operator-algebras/cyclic-vector", "linear-algebra/hilbert-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A nonconstant holomorphic function cannot attain a local maximum of its modulus."
 aliases = ["maximum modulus theorem"]
 domains = ["complex-analysis"]
+prerequisites = ["complex-analysis/complex-domain"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

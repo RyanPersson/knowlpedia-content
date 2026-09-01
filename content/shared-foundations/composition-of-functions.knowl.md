@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The function obtained by applying one function after another."
 aliases = ["composition-of-functions", "Composition of functions"]
 domains = ["shared-foundations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/composition-of-functions.md"
 +++
 

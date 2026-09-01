@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A superalgebra whose homogeneous elements commute with the Koszul sign."
 aliases = ["graded-commutative superalgebra", "commutative superalgebra"]
 domains = ["supergeometry", "algebra-commutative"]
+prerequisites = ["supergeometry/superalgebra", "algebra-category-theory/algebra-object", "supergeometry/category-of-super-vector-spaces"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

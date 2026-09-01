@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A semigroup with an identity element"
 aliases = ["monoid"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/semigroup", "algebra-groups/group", "shared-foundations/composition"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/monoid.md"
 +++
 
@@ -15,7 +18,7 @@ e\cdot a = a \quad\text{and}\quad a\cdot e = a.
 
 Monoids generalize [[algebra-groups/group|groups]] by dropping the requirement that elements have inverses. Many monoids arise from [[shared-foundations/composition|composition]] of endomorphisms (self-maps).
 
-**Examples:**
+## Examples
 - \((\mathbb{N},+,0)\) is a monoid.
 - \((\mathbb{N},\times,1)\) is a monoid.
 - For any set \(X\), the set of all [[shared-foundations/function|functions]] \(X\to X\) is a monoid under composition, with identity \(\mathrm{id}_X\).

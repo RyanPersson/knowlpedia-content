@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A measurable map from a probability space into a finite-dimensional real vector space."
 aliases = ["random-vector", "Random vector"]
 domains = ["probability"]
+prerequisites = ["measure-theory/measurable-function", "probability/probability-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/random-vector.md"
 +++
 

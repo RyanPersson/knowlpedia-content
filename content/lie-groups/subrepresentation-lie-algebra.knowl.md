@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subspace invariant under every operator in a Lie algebra representation."
 aliases = ["subrepresentation-lie-algebra", "Subrepresentation of a Lie algebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/representation-of-a-lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/subrepresentation-lie-algebra.md"
 +++
 

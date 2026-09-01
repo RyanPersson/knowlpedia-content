@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A Lie group action on a manifold given by a smooth map G×M→M satisfying the action axioms."
 aliases = ["smooth-action-lie-group", "Smooth action of a Lie group"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/orbit-lie-group", "lie-groups/stabilizer-lie-group", "lie-groups/homogeneous-space", "lie-groups/principal-homogeneous-space", "lie-groups/transitive-action-lie", "lie-groups/free-action-lie", "lie-groups/one-parameter-subgroup", "lie-groups/exponential-map-lie-group", "lie-groups/effective-action"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/smooth-action-lie-group.md"
 +++
 

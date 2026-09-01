@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Nested closed sets with diameters going to zero intersect in a single point in a complete metric space"
 aliases = ["cantor-intersection-theorem", "Cantor intersection theorem"]
 domains = ["topology"]
+prerequisites = ["topology/complete-metric-space", "topology/closed-set", "topology/diameter", "topology/nested-interval-theorem"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/cantor-intersection-theorem.md"
 +++
 

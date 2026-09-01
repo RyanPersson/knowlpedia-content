@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Distinct K-embeddings of a field are linearly independent as functions."
 aliases = ["dedekind-independence-lemma", "Dedekind independence lemma"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/field-embedding", "shared-foundations/function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/dedekind-independence-lemma.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Intermediate character lattices between the root and weight lattices encode central isogeny forms."
 aliases = ["root-vs-weight-lattice-isogeny", "Root Lattice, Weight Lattice, and Isogeny Forms"]
 domains = ["langlands-letter"]
+prerequisites = ["langlands-letter/knowls/split-reductive-group", "langlands-letter/knowls/maximal-torus-weight-lattice", "lie-groups/root-lattice", "lie-groups/weight-lattice", "langlands-letter/knowls/simply-connected-semisimple-group", "lie-groups/root-system"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "langlands-letter/knowls/root-vs-weight-lattice-isogeny.md"
 section_mode = "progressive"
 +++

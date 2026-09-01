@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Hausdorff locally convex inductive limit of a countable sequence of Fréchet spaces."
 aliases = ["countable inductive limit of Fréchet spaces"]
 domains = ["functional-analysis"]
+prerequisites = ["functional-analysis/locally-convex-space", "functional-analysis/inductive-limit-locally-convex-spaces", "functional-analysis/frechet-space", "linear-algebra/linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

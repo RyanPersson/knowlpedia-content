@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Determinant of the Jacobian matrix for a map from Rn to Rn"
 aliases = ["jacobian-determinant", "Jacobian determinant"]
 domains = ["real-analysis"]
+prerequisites = ["linear-algebra/determinant", "real-analysis/jacobian-matrix", "real-analysis/inverse-function-theorem-rk", "real-analysis/change-of-variables-formula"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/jacobian-determinant.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Strict separation means there is a positive gap between the two sets under a continuous functional."
 aliases = ["strict-separation-by-a-closed-hyperplane", "Strict Separation by a Closed Hyperplane"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/dual-space-and-duality-pairing"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/strict-separation-by-a-closed-hyperplane.md"
 +++
 

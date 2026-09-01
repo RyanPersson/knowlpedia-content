@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The closed operator determined by the vectors on which an unbounded operator's inner-product pairing is bounded."
 aliases = ["unbounded adjoint", "Hilbert-space operator adjoint"]
 domains = ["functional-analysis", "operator-theory"]
+prerequisites = ["functional-analysis/densely-defined-operator", "linear-algebra/hilbert-space", "functional-analysis/riesz-representation-hilbert-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

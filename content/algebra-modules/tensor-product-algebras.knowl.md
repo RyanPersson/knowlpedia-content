@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The tensor product A⊗_R B equipped with the induced algebra structure."
 aliases = ["tensor-product-algebras", "Tensor product of algebras"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/tensor-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/tensor-product-algebras.md"
 +++
 

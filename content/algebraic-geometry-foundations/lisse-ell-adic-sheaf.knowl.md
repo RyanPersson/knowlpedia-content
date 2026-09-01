@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An ell-adic sheaf that is locally a finite free constant sheaf in the étale topology."
 aliases = ["lisse ℓ-adic sheaf", "smooth ell-adic sheaf", "ell-adic local system", "lisse Q_l-sheaf"]
 domains = ["algebraic-geometry-foundations", "langlands", "algebra-fields-galois"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/small-etale-site"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

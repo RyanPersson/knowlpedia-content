@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A target point whose fiber contains a critical point of the smooth map."
 aliases = ["singular value of a smooth map", "critical value on a manifold"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-map", "differential-geometry/critical-point-of-a-smooth-map", "fiber-bundles/regular-value"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subset of the real line that contains every point between any two of its points."
 aliases = ["interval"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/subset"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/interval.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every module admits a projective (in fact free) resolution."
 aliases = ["projective-resolutions-exist", "Existence of projective resolutions"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-modules/module", "algebra-homological/projective-resolution", "algebra-homological/chain-complex", "algebra-modules/projective-module", "algebra-homological/exact-complex", "algebra-modules/free-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/projective-resolutions-exist.md"
 +++
 

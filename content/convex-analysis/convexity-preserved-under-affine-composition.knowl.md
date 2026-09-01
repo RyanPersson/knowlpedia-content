@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Precomposition of a convex function with an affine map preserves convexity."
 aliases = ["convexity-preserved-under-affine-composition", "Convexity Preserved Under Affine Composition"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/affine-mapping", "linear-algebra/vector-space", "convex-analysis/convex-function-via-epigraph"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/convexity-preserved-under-affine-composition.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The theorem that unramified unit Hecke functions have matching endoscopic orbital integrals."
 aliases = ["fundamental lemma", "Langlands-Shelstad fundamental lemma", "endoscopic fundamental lemma"]
 domains = ["langlands", "harmonic-analysis", "algebraic-geometry"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/unramified-reductive-group", "langlands/endoscopic-datum", "langlands-letter/knowls/maximal-compact-hyperspecial", "langlands/endoscopic-transfer", "langlands/strongly-regular-semisimple-element", "langlands/orbital-integral"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

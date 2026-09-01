@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A complete discretely valued field with finite residue field."
 aliases = ["non-archimedean local field", "nonarchimedean local fields", "non-archimedean local fields"]
 domains = ["algebra-fields-galois", "topology", "langlands"]
+prerequisites = ["algebra-fields-galois/valuation-on-a-field", "algebra-commutative/residue-field", "algebra-fields-galois/non-archimedean-absolute-value"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

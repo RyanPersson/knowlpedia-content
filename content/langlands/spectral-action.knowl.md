@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The action of perfect complexes on the local parameter stack on sheaves over the stack of G-bundles."
 aliases = ["spectral action", "action of the stack of L-parameters", "Fargues–Scholze spectral action"]
 domains = ["langlands", "representation-theory", "algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/perfect-complex", "langlands/stack-of-l-parameters", "algebraic-geometry-foundations/lisse-ell-adic-sheaf", "langlands/g-bundle-on-fargues-fontaine-curve"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

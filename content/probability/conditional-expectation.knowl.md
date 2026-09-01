@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An integrable random variable characterized by its averages over events in a given sigma-algebra."
 aliases = ["conditional-expectation", "Conditional expectation"]
 domains = ["probability"]
+prerequisites = ["probability/random-variable", "probability/probability-space", "measure-theory/measurable-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/conditional-expectation.md"
 +++
 

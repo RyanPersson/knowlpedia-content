@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A field extension obtained by adjoining a primitive nth root of unity."
 aliases = ["cyclotomic-extension", "Cyclotomic extension"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/primitive-root-of-unity", "algebra-fields-galois/algebraic-closure", "algebra-fields-galois/simple-extension", "algebra-fields-galois/separable-extension", "algebra-fields-galois/splitting-field", "algebra-fields-galois/normal-extension", "algebra-fields-galois/galois-extension", "algebra-fields-galois/separable-normal-galois"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/cyclotomic-extension.md"
 +++
 

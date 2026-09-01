@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The subgroup of a direct product with finite support"
 aliases = ["direct-sum-groups", "Direct Sum of Groups"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/direct-product-groups"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/direct-sum-groups.md"
 +++
 

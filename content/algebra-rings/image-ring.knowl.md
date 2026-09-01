@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The subset of the codomain attained by a ring homomorphism."
 aliases = ["image-ring", "Image of a ring homomorphism"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ring-homomorphism", "shared-foundations/image", "algebra-rings/subring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/image-ring.md"
 +++
 

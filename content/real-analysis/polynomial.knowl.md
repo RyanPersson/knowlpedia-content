@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A finite linear combination of powers of a variable with real coefficients."
 aliases = ["polynomial"]
 domains = ["real-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/polynomial.md"
 +++
 

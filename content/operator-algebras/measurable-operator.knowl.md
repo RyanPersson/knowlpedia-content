@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An affiliated closed operator whose domain contains an increasing family of almost-full projections with finite complements."
 aliases = ["Segal measurable operator", "measurable affiliated operator"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/semifinite-von-neumann-algebra", "operator-algebras/affiliated-operator", "operator-algebras/finite-projection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The locus of affine-Grassmannian lattices on which a fixed loop-Lie-algebra element becomes integral."
 aliases = ["affine Springer fibre", "Kazhdan-Lusztig affine Springer fiber", "affine Springer variety"]
 domains = ["langlands", "algebraic-geometry-foundations", "algebra-representation-theory"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands/strongly-regular-semisimple-element", "lie-groups/lie-algebra", "langlands/affine-grassmannian"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

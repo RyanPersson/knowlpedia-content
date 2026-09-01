@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A nonzero function transformed into a scalar multiple of itself by the Laplace–Beltrami operator."
 aliases = ["Laplace eigenfunction", "Riemannian Laplacian eigenfunction"]
 domains = ["mathematical-physics", "spectral-theory", "differential-geometry"]
+prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/laplace-beltrami-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

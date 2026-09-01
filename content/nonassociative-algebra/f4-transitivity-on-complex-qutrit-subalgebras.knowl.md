@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Compact F_4 acts transitively on the H_3(C) Jordan subalgebras of the Albert algebra."
 aliases = ["transitivity on H3(C) subalgebras", "complex qutrit subalgebra orbit in F4"]
 domains = ["nonassociative-algebra", "lie-groups"]
+prerequisites = ["nonassociative-algebra/exceptional-jordan-algebra", "nonassociative-algebra/jordan-subalgebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

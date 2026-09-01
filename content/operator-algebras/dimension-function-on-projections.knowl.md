@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An additive normal numerical invariant of Murray-von Neumann equivalence classes of projections in a factor."
 aliases = ["Murray–von Neumann dimension"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/murray-von-neumann-equivalence", "linear-algebra/orthogonal-projection", "operator-algebras/type-i-factor", "operator-algebras/minimal-projection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

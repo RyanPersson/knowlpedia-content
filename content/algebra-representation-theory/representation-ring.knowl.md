@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Grothendieck ring of finite-dimensional representations, with direct sum as addition and tensor product as multiplication."
 aliases = ["Grothendieck ring of representations", "representation ring R(G)", "character ring"]
 domains = ["algebra-representation-theory", "algebra-groups", "langlands"]
+prerequisites = ["algebra-groups/group", "topology/topological-group", "algebraic-geometry-foundations/group-scheme", "algebra-rings/field", "algebra-representation-theory/group-representation", "algebra-modules/short-exact-sequence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

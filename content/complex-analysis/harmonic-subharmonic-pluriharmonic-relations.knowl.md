@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The inclusion and intersection relations among H, SH, PSH, and PH on a complex domain."
 aliases = ["H SH PSH PH relations", "harmonic plurisubharmonic Venn diagram"]
 domains = ["complex-analysis", "several-complex-variables", "potential-theory"]
+prerequisites = ["complex-analysis/harmonic-function", "complex-analysis/subharmonic-function", "complex-analysis/plurisubharmonic-function", "complex-analysis/pluriharmonic-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

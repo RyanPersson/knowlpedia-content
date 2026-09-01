@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A comparison test giving uniform convergence of a series of functions from an absolutely convergent numerical majorant."
 aliases = ["weierstrass-m-test", "Weierstrass M-test"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/convergent-series", "real-analysis/series-of-functions", "real-analysis/uniform-convergence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/weierstrass-m-test.md"
 +++
 

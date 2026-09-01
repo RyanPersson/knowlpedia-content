@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A limit taken from the left or from the right of a point."
 aliases = ["one-sided-limit", "One-sided limit"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/function", "real-analysis/limit-at-a-point", "real-analysis/interval", "real-analysis/discontinuity-point"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/one-sided-limit.md"
 +++
 

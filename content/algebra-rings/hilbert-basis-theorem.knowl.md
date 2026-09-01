@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If a commutative ring is Noetherian, then its polynomial ring in finitely many variables is Noetherian."
 aliases = ["hilbert-basis-theorem", "Hilbert basis theorem"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal", "algebra-rings/polynomial-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/hilbert-basis-theorem.md"
 +++
 

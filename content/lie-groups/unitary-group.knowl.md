@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The compact Lie group of complex matrices preserving the standard Hermitian inner product."
 aliases = ["unitary-group", "Unitary group \\(U(n)\\)"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/general-linear-group", "lie-groups/closed-subgroup-theorem", "lie-groups/compact-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/unitary-group.md"
 +++
 

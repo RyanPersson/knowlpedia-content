@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A linear map between C*-algebras whose every matrix amplification is positive."
 aliases = ["CP map", "completely positive linear map"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/linear-map", "operator-algebras/n-positive-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Definition of when random variables have factorizing joint probabilities."
 aliases = ["independence-random-variables", "Independence of random variables"]
 domains = ["probability"]
+prerequisites = ["probability/probability-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/independence-random-variables.md"
 +++
 

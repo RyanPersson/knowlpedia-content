@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A locally compact refinement of an absolute Galois group used in local and global class field theory and Langlands parameters."
 aliases = ["local Weil group", "W_F"]
 domains = ["langlands", "algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/galois-extension-and-group", "algebra-fields-galois/inertia-subgroup", "topology/locally-profinite-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

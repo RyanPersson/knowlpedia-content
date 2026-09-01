@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If 0 lies in the interior of a convex set, its gauge is continuous and recovers int(Ω) and cl(Ω)."
 aliases = ["continuity-and-level-sets-of-the-minkowski-functional", "Continuity and Level Sets of the Minkowski Gauge"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/interior-of-a-set", "convex-analysis/minkowski-function-gauge-of-a-set", "convex-analysis/closure-of-a-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/continuity-and-level-sets-of-the-minkowski-functional.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A hyperfield whose sum is single-valued unless the summands are additive inverses."
 aliases = ["stringent commutative hyperfield"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
+prerequisites = ["algebra-hyperstructures/hyperfield"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

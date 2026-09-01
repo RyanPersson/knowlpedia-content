@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A locally finite type scheme morphism whose relative differentials vanish."
 aliases = ["unramified-morphism", "Unramified morphism"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/locally-of-finite-type", "algebraic-geometry-foundations/relative-kahler-differentials", "algebraic-geometry-foundations/diagonal-morphism", "algebra-fields-galois/separable-extension"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 A morphism \(f:Y\to X\) of [[algebraic-geometry-foundations/scheme|schemes]] is **unramified** if it is [[algebraic-geometry-foundations/locally-of-finite-type|locally of finite type]] and its [[algebraic-geometry-foundations/relative-kahler-differentials|sheaf of relative Kähler differentials]] vanishes:

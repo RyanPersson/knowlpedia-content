@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A complex differential form whose covector factors have a fixed holomorphic and antiholomorphic bidegree."
 aliases = ["(p,q)-form", "form of bidegree (p,q)", "complex differential form of type (p,q)"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/complexified-tangent-bundle-splitting", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/wedge-product-of-differential-forms"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

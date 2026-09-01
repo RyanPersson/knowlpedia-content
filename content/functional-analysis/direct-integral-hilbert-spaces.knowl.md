@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The Hilbert space of square-integrable measurable sections of a measurable field of Hilbert spaces."
 aliases = ["Hilbert direct integral", "continuous Hilbert sum", "continuous direct sum"]
 domains = ["functional-analysis", "measure-theory"]
+prerequisites = ["measure-theory/measure-space", "functional-analysis/measurable-field-hilbert-spaces", "measure-theory/almost-everywhere", "measure-theory/lebesgue-integral", "linear-algebra/hilbert-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The requirement that a Hochschild cycle be represented by the grading in even parity or the identity in odd parity."
 aliases = ["orientability cycle", "Hochschild orientation", "chirality Hochschild cycle"]
 domains = ["noncommutative-geometry", "algebra-homological"]
+prerequisites = ["noncommutative-geometry/real-spectral-triple", "noncommutative-geometry/hochschild-cycle", "noncommutative-geometry/even-spectral-triple"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

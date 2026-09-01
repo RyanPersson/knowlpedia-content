@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The bundle of groups associated to a principal G-bundle via the conjugation action of G on itself."
 aliases = ["construction-adjoint-bundle-ad", "Adjoint bundle Ad(P)"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-adjoint-bundle-ad.md"
 +++
 

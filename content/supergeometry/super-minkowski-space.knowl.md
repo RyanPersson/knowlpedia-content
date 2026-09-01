@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The affine superspace of spacetime and spinor coordinates equipped with the Lie supergroup structure integrating supertranslations."
 aliases = ["Minkowski superspace", "super Minkowski spacetime"]
 domains = ["supergeometry", "mathematical-physics"]
+prerequisites = ["supergeometry/lie-supergroup", "mathematical-physics/supertranslation-algebra", "lie-groups/baker-campbell-hausdorff-formula", "supergeometry/supertranslation-distribution"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

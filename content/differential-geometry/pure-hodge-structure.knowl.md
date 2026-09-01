@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A finite-dimensional real vector space whose complexification decomposes into conjugate bidegree pieces of fixed total weight."
 aliases = ["Hodge structure of weight n"]
 domains = ["differential-geometry"]
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/complexification", "algebra-groups/abelian-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

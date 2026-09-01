@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A Lie group whose underlying smooth manifold is connected (equivalently, equal to its identity component)."
 aliases = ["connected-lie-group", "Connected Lie group"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup", "lie-groups/normal-lie-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/connected-lie-group.md"
 +++
 

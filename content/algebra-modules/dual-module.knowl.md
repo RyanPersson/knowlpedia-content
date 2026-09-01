@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The Hom module Hom_R(M,R) for a module over a commutative ring."
 aliases = ["dual-module", "Dual module"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/tensor-hom-adjunction", "algebra-modules/free-module", "algebra-modules/basis-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/dual-module.md"
 +++
 

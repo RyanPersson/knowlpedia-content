@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Equivalence between horizontal equivariant Lie-algebra-valued forms on a principal bundle and differential forms on the base with values in the adjoint bundle."
 aliases = ["tfae-tensorial-forms-vs-ad-valued-forms-principal-g-bundle-pm", "Tensorial forms and ad(P)-valued forms"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/associated-vector-bundle", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/tfae-tensorial-forms-vs-ad-valued-forms-principal-g-bundle-pm.md"
 +++
 

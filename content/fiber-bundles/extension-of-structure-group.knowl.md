@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A construction that turns a principal G-bundle into a principal H-bundle using a homomorphism from G to H."
 aliases = ["extension-of-structure-group", "Extension of structure group"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/associated-bundle", "fiber-bundles/principal-bundle-morphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/extension-of-structure-group.md"
 +++
 

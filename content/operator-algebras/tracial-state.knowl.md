@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A normalized positive functional invariant under cyclic interchange of two factors."
 aliases = ["trace state"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/trace-cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

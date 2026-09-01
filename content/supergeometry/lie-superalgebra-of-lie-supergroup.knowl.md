@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The tangent superspace at the identity of a Lie supergroup, with bracket induced by invariant vector fields."
 aliases = ["Lie functor for Lie supergroups", "tangent Lie superalgebra"]
 domains = ["supergeometry", "lie-groups"]
+prerequisites = ["supergeometry/lie-supergroup", "supergeometry/super-vector-space", "lie-groups/left-invariant-vector-field", "supergeometry/lie-superalgebra", "lie-groups/lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

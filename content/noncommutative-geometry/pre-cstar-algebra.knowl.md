@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A possibly incomplete normed involutive algebra satisfying the C*-identity."
 aliases = ["pre-C*-algebra", "pre-C-star algebra"]
 domains = ["noncommutative-geometry", "operator-algebras", "functional-analysis"]
+prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

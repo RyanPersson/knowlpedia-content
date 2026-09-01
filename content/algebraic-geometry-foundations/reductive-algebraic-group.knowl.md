@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth connected affine algebraic group with trivial geometric unipotent radical."
 aliases = ["reductive group", "reductive algebraic group"]
 domains = ["algebraic-geometry-foundations", "langlands"]
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebra-fields-galois/algebraic-closure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

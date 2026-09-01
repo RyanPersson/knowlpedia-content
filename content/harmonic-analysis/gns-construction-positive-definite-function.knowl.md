@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The canonical cyclic unitary representation whose distinguished coefficient is a continuous positive-definite function."
 aliases = ["cyclic representation from a positive-definite function", "Gelfand-Naimark-Segal construction for groups", "cyclic representation from a positive-type function", "GNS representation of a positive-definite function"]
 domains = ["harmonic-analysis", "lie-groups", "operator-algebras"]
+prerequisites = ["topology/topological-group", "harmonic-analysis/positive-definite-function", "linear-algebra/hilbert-space", "lie-groups/strongly-continuous-unitary-representation", "lie-groups/cyclic-vector-and-cyclic-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

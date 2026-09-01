@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A map between metric spaces where one delta works uniformly for all points for a given epsilon."
 aliases = ["uniformly-continuous-map", "Uniformly continuous map"]
 domains = ["topology"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/uniformly-continuous-map.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The quotient of the ambient tangent bundle along an embedded submanifold by its tangent bundle."
 aliases = ["normal vector bundle", "normal bundle of an embedding"]
 domains = ["differential-geometry", "fiber-bundles"]
+prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/vector-subbundle", "fiber-bundles/tangent-bundle", "fiber-bundles/quotient-vector-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

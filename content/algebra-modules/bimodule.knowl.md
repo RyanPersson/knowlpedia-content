@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A module with commuting left and right actions by (possibly different) rings."
 aliases = ["bimodule"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-modules/tensor-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/bimodule.md"
 +++
 

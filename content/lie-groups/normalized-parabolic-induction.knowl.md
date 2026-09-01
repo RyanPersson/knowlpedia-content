@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Parabolic induction with a half-modular correction that preserves unitarity on the unitary parameter axis."
 aliases = ["unitary parabolic induction", "normalized induction"]
 domains = ["lie-groups", "harmonic-analysis"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/parabolic-subgroup-real-reductive-group", "lie-groups/langlands-decomposition-of-a-parabolic", "harmonic-analysis/modular-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

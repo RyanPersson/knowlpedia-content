@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A topological ring whose topology is defined by the powers of a finitely generated ideal."
 aliases = ["I-adic ring"]
 domains = ["algebra-topological", "algebraic-geometry-foundations"]
+prerequisites = ["algebra-topological/ideal-of-definition"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

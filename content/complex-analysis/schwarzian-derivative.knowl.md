@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A third-order differential invariant of a locally univalent holomorphic function."
 aliases = ["Schwarzian", "Schwarz derivative"]
 domains = ["complex-analysis", "differential-geometry"]
+prerequisites = ["complex-analysis/complex-domain"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Standard notions of boundary for a finite subset of a graph or lattice."
 aliases = ["boundary-finite-region", "Boundary of a finite region"]
 domains = ["discrete-structures"]
+prerequisites = ["discrete-structures/nearest-neighbor-zd"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "discrete-structures/boundary-finite-region.md"
 +++
 

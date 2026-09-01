@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The compact ring obtained as the inverse limit of the residue rings modulo powers of a prime."
 aliases = ["p-adic integers", "ring of p-adic integers"]
 domains = ["shared-foundations", "algebra-fields-galois", "topology"]
+prerequisites = ["shared-foundations/integers", "shared-foundations/sequence", "shared-foundations/p-adic-valuation", "topology/locally-compact-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 Fix a prime \(p\). The ring of **\(p\)-adic [[shared-foundations/integers|integers]]** is the inverse limit

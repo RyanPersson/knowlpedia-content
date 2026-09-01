@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The continuous dual equipped with the topology of uniform convergence on bounded subsets."
 aliases = ["strong dual topology", "β(E′,E)"]
 domains = ["functional-analysis"]
+prerequisites = ["functional-analysis/locally-convex-space", "functional-analysis/topological-dual", "real-analysis/uniform-convergence", "functional-analysis/bounded-subset-tvs"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

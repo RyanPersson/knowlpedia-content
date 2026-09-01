@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Pullback gives a right action of the gauge group on principal connections."
 aliases = ["proposition-gauge-group-acts-on-conn-by-pullback", "Gauge group action on connections by pullback"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback.md"
 +++
 

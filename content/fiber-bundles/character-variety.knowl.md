@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The affine geometric-invariant-theory quotient of a representation variety by conjugation."
 aliases = ["G-character variety", "affine character variety"]
 domains = ["fiber-bundles", "algebraic-geometry-foundations", "lie-groups"]
+prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "fiber-bundles/representation-variety"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An integral domain where every element factors uniquely into irreducibles up to associates and order."
 aliases = ["ufd", "Unique factorization domain"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/integral-domain", "algebra-rings/irreducible-element", "algebra-rings/associated-elements"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/ufd.md"
 +++
 

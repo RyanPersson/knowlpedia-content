@@ -5,6 +5,9 @@ kind = "example"
 summary = "The three-element hyperfield recording only whether a real number is negative, zero, or positive."
 aliases = ["hyperfield of signs"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

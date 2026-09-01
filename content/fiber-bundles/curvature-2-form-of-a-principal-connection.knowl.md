@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A Lie-algebra-valued 2-form measuring the non-integrability of the horizontal distribution of a principal connection."
 aliases = ["curvature-2-form-of-a-principal-connection", "Curvature 2-form of a principal connection"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket", "fiber-bundles/curvature", "fiber-bundles/principal-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/curvature-2-form-of-a-principal-connection.md"
 +++
 

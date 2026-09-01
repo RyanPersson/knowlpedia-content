@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A linear map on smooth bundle sections whose value at a point depends on only finitely many derivatives of the section there."
 aliases = ["linear differential operator", "order of a differential operator", "bundle differential operator"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "linear-algebra/linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

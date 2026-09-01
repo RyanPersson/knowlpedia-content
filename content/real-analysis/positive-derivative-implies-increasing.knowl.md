@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If a differentiable function has positive derivative everywhere on an interval, then it is strictly increasing."
 aliases = ["positive-derivative-implies-increasing", "Positive derivative implies increasing"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d", "real-analysis/mean-value-theorem"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/positive-derivative-implies-increasing.md"
 +++
 

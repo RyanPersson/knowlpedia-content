@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A Lie algebra whose lower central series reaches zero after finitely many steps."
 aliases = ["nilpotent-lie-algebra", "Nilpotent Lie algebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/lower-central-series-lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/nilpotent-lie-algebra.md"
 +++
 

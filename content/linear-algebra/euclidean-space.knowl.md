@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A finite-dimensional real inner product space."
 aliases = ["euclidean-space", "Euclidean space"]
 domains = ["linear-algebra"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/euclidean-space.md"
 +++
 

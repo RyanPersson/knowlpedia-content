@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The multiplicative group consisting of all units in a unital ring."
 aliases = ["group-of-units", "Group of units"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-groups/group", "algebra-rings/unit"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/group-of-units.md"
 +++
 

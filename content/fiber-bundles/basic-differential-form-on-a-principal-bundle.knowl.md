@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A differential form on a principal bundle that is horizontal and invariant, hence the pullback of a unique form on the base."
 aliases = ["basic-differential-form-on-a-principal-bundle", "Basic differential form on a principal bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/horizontal-differential-form-on-a-principal-bundle", "fiber-bundles/invariant-differential-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/basic-differential-form-on-a-principal-bundle.md"
 +++
 

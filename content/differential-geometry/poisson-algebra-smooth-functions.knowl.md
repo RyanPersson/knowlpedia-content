@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The commutative algebra of smooth functions equipped with the Poisson bracket induced by a symplectic form."
 aliases = ["classical observable algebra"]
 domains = ["differential-geometry", "classical-mechanics"]
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/poisson-bracket-symplectic", "lie-groups/lie-algebra", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Hilbert C*-module generated densely by the right module span of a countable family."
 aliases = ["countably generated Hilbert module"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/hilbert-cstar-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

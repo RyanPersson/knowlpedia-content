@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The C*-algebra of continuous complex-valued functions that vanish at infinity on a locally compact space."
 aliases = ["continuous functions vanishing at infinity", "C0(X)"]
 domains = ["operator-algebras", "topology"]
+prerequisites = ["topology/locally-compact-space", "topology/compact-set", "operator-algebras/commutative-cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical self-adjoint extension obtained by closing the quadratic form of a semibounded symmetric operator."
 aliases = ["Friedrichs self-adjoint extension"]
 domains = ["functional-analysis"]
+prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "functional-analysis/closed-quadratic-form", "functional-analysis/self-adjoint-extension"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

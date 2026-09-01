@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A unit vector representing a pure quantum state up to multiplication by a phase."
 aliases = ["normalized state vector", "unit state vector"]
 domains = ["quantum-foundations", "linear-algebra"]
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/unit-sphere", "quantum-foundations/rank-one-projector"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 A **normalized state vector** in a complex [[linear-algebra/hilbert-space|Hilbert space]] \(H\) is a vector \(\psi\in H\) with \(\lVert\psi\rVert=1\). It lies on the [[linear-algebra/unit-sphere|unit sphere]].

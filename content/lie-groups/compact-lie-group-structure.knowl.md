@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A compact connected Lie group is a torus times a compact semisimple group modulo a finite central subgroup."
 aliases = ["compact-lie-group-structure", "Structure of compact connected Lie groups"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/connected-lie-group", "lie-groups/center-of-a-lie-algebra", "lie-groups/cartans-criterion-semisimplicity"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/compact-lie-group-structure.md"
 +++
 

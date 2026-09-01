@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The groupoid whose objects are Čech cocycles and whose morphisms are changes of local trivialization."
 aliases = ["cocycle groupoid", "groupoid of Cech cocycles", "descent cocycle groupoid"]
 domains = ["fiber-bundles", "category-theory", "topology"]
+prerequisites = ["fiber-bundles/smooth-g-valued-cech-1-cocycle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

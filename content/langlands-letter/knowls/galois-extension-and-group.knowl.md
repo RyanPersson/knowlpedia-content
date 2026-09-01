@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A normal separable field extension and its group of base-field automorphisms."
 aliases = ["galois-extension-and-group", "Galois Extension and Galois Group"]
 domains = ["langlands-letter"]
+prerequisites = ["algebra-fields-galois/fixed-field", "linear-algebra/minimal-polynomial"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "langlands-letter/knowls/galois-extension-and-group.md"
 section_mode = "progressive"
 +++

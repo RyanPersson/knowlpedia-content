@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Necessary first-order condition for constrained extrema in terms of gradients."
 aliases = ["lagrange-multiplier-condition", "Lagrange multiplier condition"]
 domains = ["real-analysis"]
+prerequisites = ["topology/open-set", "real-analysis/constraint-set", "real-analysis/local-extremum", "real-analysis/regular-point", "real-analysis/gradient", "real-analysis/critical-point"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/lagrange-multiplier-condition.md"
 +++
 

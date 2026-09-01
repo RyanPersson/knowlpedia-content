@@ -5,6 +5,9 @@ kind = "construction"
 summary = "A complex Lie algebra regarded as a real Lie algebra by restricting scalars."
 aliases = ["realification of a complex Lie algebra", "restriction of scalars of a complex Lie algebra"]
 domains = ["lie-groups", "linear-algebra"]
+prerequisites = ["lie-groups/lie-algebra", "linear-algebra/realification-of-a-complex-vector-space", "lie-groups/lie-algebra-homomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

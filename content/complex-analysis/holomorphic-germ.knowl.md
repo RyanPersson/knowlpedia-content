@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The local behavior of a holomorphic function near one point, modulo restriction to smaller neighborhoods."
 aliases = ["germ of a holomorphic function", "analytic germ"]
 domains = ["complex-analysis", "sheaf-theory"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

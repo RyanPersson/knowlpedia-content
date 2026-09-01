@@ -5,12 +5,17 @@ kind = "knowl"
 summary = "An algebraic extension in which every element is separable over the base field."
 aliases = ["separable-extension", "Separable extension"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/separable-element"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/separable-extension.md"
 +++
 
 Let \(K/F\) be an algebraic [[algebra-fields-galois/field-extension|field extension]].
 
 **Definition (separable extension).** The extension \(K/F\) is *separable* if every element \(\alpha\in K\) is a [[algebra-fields-galois/separable-element|separable element]] over \(F\).
+
+## Equivalent characterizations
 
 When \(K/F\) is finite, separability admits useful equivalent formulations. For example, if \(\overline F\) is an [[algebra-fields-galois/algebraic-closure|algebraic closure]] of \(F\), then \(K/F\) is separable iff there are exactly \([K:F]\) distinct \(F\)-[[algebra-fields-galois/field-embedding|embeddings]] \(K\hookrightarrow \overline F\). Separability behaves well in towers, as summarized in [[algebra-fields-galois/separability-towers|separability in towers]].
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A family of functions that is bounded at each fixed point of the domain."
 aliases = ["pointwise-bounded-family", "Pointwise bounded family"]
 domains = ["real-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/pointwise-bounded-family.md"
 +++
 

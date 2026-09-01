@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A way to break a set into disjoint nonempty blocks that cover it."
 aliases = ["partition"]
 domains = ["shared-foundations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/partition.md"
 +++
 

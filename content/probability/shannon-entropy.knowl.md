@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A measure of uncertainty of a discrete random variable, defined from its probability mass function."
 aliases = ["shannon-entropy", "Shannon entropy"]
 domains = ["probability"]
+prerequisites = ["probability/random-variable"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/shannon-entropy.md"
 +++
 

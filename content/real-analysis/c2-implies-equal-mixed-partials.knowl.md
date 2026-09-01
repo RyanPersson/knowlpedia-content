@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A twice continuously differentiable real function has equal mixed second partial derivatives."
 aliases = ["c2-implies-equal-mixed-partials", "C^2 implies equal mixed partials"]
 domains = ["real-analysis"]
+prerequisites = ["topology/open-set", "real-analysis/class-ck-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/c2-implies-equal-mixed-partials.md"
 +++
 

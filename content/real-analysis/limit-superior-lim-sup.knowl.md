@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The largest limit point of a bounded sequence, or equivalently the infimum of suprema of tails."
 aliases = ["limit-superior-lim-sup", "Limit superior (lim sup)"]
 domains = ["real-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/limit-superior-lim-sup.md"
 +++
 

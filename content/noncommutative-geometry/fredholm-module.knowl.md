@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A representation of a complex C*-algebra equipped with an operator whose commutators and local self-adjointness and involutivity defects are compact."
 aliases = ["bounded Fredholm module", "bounded K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/cstar-representation", "linear-algebra/compact-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Compact F_4 acts transitively on incident octonionic-spin-factor and complex-qutrit subalgebra pairs with complex-qubit intersection."
 aliases = ["F4 transitivity on compatible H2(O) H3(C) pairs", "transitivity on Albert algebra incidence pairs"]
 domains = ["nonassociative-algebra", "lie-groups"]
+prerequisites = ["shared-foundations/ordered-pair", "nonassociative-algebra/jordan-subalgebra", "nonassociative-algebra/unique-octonionic-spin-factor-corner"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

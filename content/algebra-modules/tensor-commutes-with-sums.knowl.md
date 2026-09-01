@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Tensoring is a left adjoint, hence it preserves direct sums and filtered colimits."
 aliases = ["tensor-commutes-with-sums", "Tensor commutes with direct limits and sums"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/tensor-hom-adjunction", "algebra-modules/tensor-preserves-direct-sums", "algebra-modules/direct-sum-modules"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/tensor-commutes-with-sums.md"
 +++
 

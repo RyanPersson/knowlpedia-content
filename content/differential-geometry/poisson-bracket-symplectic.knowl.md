@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Lie bracket on smooth functions induced by the inverse of a symplectic form."
 aliases = ["symplectic Poisson bracket"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-vector-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

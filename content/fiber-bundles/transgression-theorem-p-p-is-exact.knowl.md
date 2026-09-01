@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The difference of Chern–Weil forms for two connections is exact, with an explicit transgression form."
 aliases = ["transgression-theorem-p-p-is-exact", "Transgression theorem (Chern–Simons)"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/transgression-theorem-p-p-is-exact.md"
 +++
 

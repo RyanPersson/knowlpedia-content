@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subalgebra of continuous functions on a compact space that separates points and contains constants is dense in the full algebra."
 aliases = ["stone-weierstrass-theorem", "Stone–Weierstrass theorem"]
 domains = ["real-analysis"]
+prerequisites = ["topology/topological-space", "real-analysis/subalgebra-of-continuous-functions", "real-analysis/separates-points", "real-analysis/supremum-norm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/stone-weierstrass-theorem.md"
 +++
 
@@ -12,5 +15,7 @@ legacy_source_path = "real-analysis/stone-weierstrass-theorem.md"
 \[
 \sup_{x\in K}|f(x)-g(x)|<\varepsilon.
 \]
+
+## Examples
 
 This theorem explains many uniform approximation results as density statements in the [[real-analysis/space-of-continuous-functions|space of continuous functions]]; for example, the [[real-analysis/weierstrass-approximation-theorem|Weierstrass approximation theorem]] arises from a suitable choice of \(K\) and \(A\).

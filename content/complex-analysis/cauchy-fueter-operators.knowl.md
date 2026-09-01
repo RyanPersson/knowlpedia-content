@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The first-order quaternionic differential operators analogous to the complex d-bar and d operators."
 aliases = ["quaternionic Dirac operators", "Cauchy-Fueter operator", "quaternionic d-bar operator"]
 domains = ["complex-analysis", "quaternionic-analysis", "partial-differential-equations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

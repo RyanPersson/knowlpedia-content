@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A variational limit for exponential integrals that encodes large-deviation behavior."
 aliases = ["laplace-principle", "Laplace principle"]
 domains = ["large-deviations"]
+prerequisites = ["probability/probability-measure", "large-deviations/rate-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "large-deviations/laplace-principle.md"
 +++
 
@@ -13,6 +16,8 @@ A **Laplace principle** for a sequence of [[probability/probability-measure|prob
 \lim_{n\to\infty}\frac{1}{a_n}\log \int_X \exp\bigl(-a_n\varphi(x)\bigr)\,\mu_n(dx)
 = -\inf_{x\in X}\bigl\{\varphi(x)+I(x)\bigr\}.
 \]
+
+## Relation to the large deviation principle
 
 This is the Laplace-transform formulation of the [[large-deviations/large-deviation-principle|large deviation principle]]. Under standard hypotheses (for example, \(X\) Polish and \((\mu_n)\) [[large-deviations/exponential-tightness|exponentially tight]]), the Laplace principle with a [[large-deviations/good-rate-function|good rate function]] is equivalent to an LDP with the same rate function.
 

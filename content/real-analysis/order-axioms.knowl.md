@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Axioms for a total order compatible with addition and multiplication on the real numbers."
 aliases = ["order-axioms", "Order axioms"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/field-axioms", "shared-foundations/relation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/order-axioms.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The gauge-invariant symplectic form on the affine space of connections over an oriented closed surface."
 aliases = ["symplectic form on the space of connections", "Atiyah–Bott form"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/lie-algebra", "linear-algebra/inner-product", "fiber-bundles/principal-g-bundle", "fiber-bundles/bundle-of-connections", "differential-geometry/tangent-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

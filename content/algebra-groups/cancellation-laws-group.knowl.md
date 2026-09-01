@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Left and right cancellation hold in every group"
 aliases = ["cancellation-laws-group", "Cancellation laws"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/cancellation-laws-group.md"
 +++
 

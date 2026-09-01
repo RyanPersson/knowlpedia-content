@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The Peirce 1-space of an idempotent, a unital Jordan subalgebra with that idempotent as its unit."
 aliases = ["Peirce one space", "Jordan corner", "Peirce 1-space"]
 domains = ["nonassociative-algebra"]
+prerequisites = ["nonassociative-algebra/jordan-algebra", "nonassociative-algebra/jordan-subalgebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

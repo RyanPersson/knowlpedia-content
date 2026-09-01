@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Submodules of M containing N correspond to submodules of M/N."
 aliases = ["correspondence-theorem-modules", "Correspondence theorem for modules"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/submodule", "algebra-modules/quotient-module", "shared-foundations/preimage"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/correspondence-theorem-modules.md"
 +++
 

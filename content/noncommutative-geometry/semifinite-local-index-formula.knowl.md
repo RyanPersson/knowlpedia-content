@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A residue-cocycle formula computing trace-valued index pairings for regular summable spectral triples in semifinite von Neumann algebras."
 aliases = ["semifinite residue cocycle", "local index formula relative to tau"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/tau-summable-spectral-triple", "noncommutative-geometry/semifinite-index-pairing", "noncommutative-geometry/spectral-flow"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

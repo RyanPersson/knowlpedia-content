@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A measure of how spread out a random variable is around its mean."
 aliases = ["variance"]
 domains = ["probability"]
+prerequisites = ["probability/random-variable", "probability/expectation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/variance.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The set of complex scalars for which an element shifted by that scalar fails to be invertible."
 aliases = ["element spectrum", "C*-algebra spectrum", "sigma(a)"]
 domains = ["functional-analysis"]
+prerequisites = ["functional-analysis/banach-algebra", "functional-analysis/banach-algebra-invertible-element", "functional-analysis/banach-algebra-resolvent", "operator-algebras/unitization"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

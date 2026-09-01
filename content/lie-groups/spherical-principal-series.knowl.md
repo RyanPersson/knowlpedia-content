@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The spherical principal series is the normalized minimal-parabolic induction of a character of the split factor with trivial compact and nilpotent data."
 aliases = ["class-one principal series", "unramified real principal series"]
 domains = ["lie-groups", "harmonic-analysis"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/minimal-parabolic-subgroup", "lie-groups/normalized-parabolic-induction", "lie-groups/principal-series-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

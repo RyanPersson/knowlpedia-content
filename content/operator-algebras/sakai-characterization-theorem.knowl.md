@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A C*-algebra is a W*-algebra exactly when it is isometrically a Banach dual space."
 aliases = ["Sakai theorem", "dual C*-algebra characterization", "W*-algebra characterization theorem"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/banach-space", "operator-algebras/predual", "operator-algebras/normal-representation", "operator-algebras/von-neumann-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

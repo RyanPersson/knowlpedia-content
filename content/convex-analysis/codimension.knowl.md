@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The dimension of the quotient space X/L for a subspace L⊂X."
 aliases = ["codimension"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "convex-analysis/quotient-vector-space-codimension", "convex-analysis/hyperplane"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/codimension.md"
 +++
 

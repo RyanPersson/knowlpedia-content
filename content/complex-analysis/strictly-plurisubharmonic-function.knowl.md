@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A plurisubharmonic function whose Levi form has a locally positive lower bound."
 aliases = ["strict plurisubharmonicity", "strictly PSH function"]
 domains = ["complex-analysis", "several-complex-variables"]
+prerequisites = ["complex-analysis/levi-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

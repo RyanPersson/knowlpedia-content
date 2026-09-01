@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The strict topology records norm convergence after multiplication on either side by every algebra element."
 aliases = ["strict convergence", "multiplier strict topology", "strictly convergent multiplier net"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/multiplier-algebra", "operator-algebras/essential-ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

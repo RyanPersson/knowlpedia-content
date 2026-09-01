@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A lower-semibounded symmetric form whose domain is complete in its shifted form norm."
 aliases = ["closed semibounded form", "closed symmetric form"]
 domains = ["functional-analysis"]
+prerequisites = ["linear-algebra/hilbert-space", "shared-foundations/lower-bound", "functional-analysis/closed-linear-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

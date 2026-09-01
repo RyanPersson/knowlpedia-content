@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The limit of a function's difference quotient at an interior point."
 aliases = ["derivative"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/derivative.md"
 +++
 

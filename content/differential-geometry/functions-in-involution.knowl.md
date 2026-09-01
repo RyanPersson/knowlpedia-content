@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A family of smooth functions whose pairwise Poisson brackets vanish."
 aliases = ["commuting Hamiltonians"]
 domains = ["differential-geometry", "classical-mechanics"]
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/poisson-bracket-symplectic"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

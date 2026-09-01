@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The holomorphic vector bundle whose fibers are the complex tangent spaces of a complex manifold."
 aliases = ["complex tangent bundle", "holomorphic tangent sheaf"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-vector-bundle", "differential-geometry/complexified-tangent-bundle-splitting", "differential-geometry/almost-complex-structure", "linear-algebra/complexification", "fiber-bundles/tangent-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

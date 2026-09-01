@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A vector space with a bilinear multiplication, with no associative law assumed."
 aliases = ["non-associative algebra", "not necessarily associative algebra"]
 domains = ["nonassociative-algebra"]
+prerequisites = ["algebra-rings/field", "linear-algebra/vector-space", "algebra-modules/bilinear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -12,7 +15,7 @@ Let \(k\) be a [[algebra-rings/field|field]]. A **nonassociative algebra** over 
 \[
  A\times A\longrightarrow A,\qquad (x,y)\longmapsto xy.
 \]
-No identity such as \((xy)z=x(yz)\) is imposed. The algebra is **unital** if it has an element \(1\) satisfying \(1x=x1=x\) for every \(x\in A\).
+Associativity is not required. The algebra is **unital** if it has an element \(1\) satisfying \(1x=x1=x\) for every \(x\in A\).
 
 ## The associator
 

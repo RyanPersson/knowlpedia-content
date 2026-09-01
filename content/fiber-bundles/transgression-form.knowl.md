@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A differential form whose exterior derivative is the difference of two characteristic forms coming from different connections"
 aliases = ["transgression-form", "Transgression form"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/chernweil-form", "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/transgression-form.md"
 +++
 

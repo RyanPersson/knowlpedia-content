@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A real ordered vector space with an Archimedean positive element that bounds every vector."
 aliases = ["Archimedean order-unit space", "AOU space"]
 domains = ["operator-algebras", "functional-analysis", "convex-analysis"]
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

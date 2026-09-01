@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The sphere bundle whose fiber consists of the compatible complex structures in a quaternionic structure."
 aliases = ["quaternionic twistor space", "twistor bundle"]
 domains = ["differential-geometry", "fiber-bundles"]
+prerequisites = ["differential-geometry/quaternionic-manifold", "fiber-bundles/sphere-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

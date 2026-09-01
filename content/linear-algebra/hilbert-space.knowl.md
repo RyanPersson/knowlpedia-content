@@ -6,6 +6,8 @@ summary = "A complete inner product space."
 aliases = ["hilbert-space", "Hilbert space"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/inner-product-space", "topology/complete-metric-space"]
+dependency_heuristic = "authored+definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/hilbert-space.md"
 +++
 

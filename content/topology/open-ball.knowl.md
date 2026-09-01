@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set of points within a given radius of a center point in a metric space, using strict inequality."
 aliases = ["open-ball", "Open ball"]
 domains = ["topology"]
+prerequisites = ["topology/open-set", "topology/metric-induced-topology", "topology/basis-of-topology", "topology/neighborhood"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/open-ball.md"
 +++
 

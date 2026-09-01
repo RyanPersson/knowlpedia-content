@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Every von Neumann algebra decomposes uniquely into central summands of types I, II, and III."
 aliases = ["Murray–von Neumann type classification", "I-II-III decomposition"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/type-i-von-neumann-algebra", "operator-algebras/type-ii-von-neumann-algebra", "operator-algebras/type-iii-von-neumann-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

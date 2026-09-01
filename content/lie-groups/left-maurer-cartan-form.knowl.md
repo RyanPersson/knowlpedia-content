@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The canonical Lie-algebra-valued one-form obtained by left-translating tangent vectors to the identity."
 aliases = ["left-maurer-cartan-form", "Left Maurer–Cartan form"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/left-maurer-cartan-form.md"
 +++
 

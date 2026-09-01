@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A functor between abelian categories that preserves all short exact sequences."
 aliases = ["exact-functor", "Exact functor"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/functor"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-category-theory/exact-functor.md"
 +++
 

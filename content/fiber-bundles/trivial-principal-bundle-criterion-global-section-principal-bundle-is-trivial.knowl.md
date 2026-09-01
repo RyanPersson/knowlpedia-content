@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A principal bundle admitting a smooth global section is isomorphic to the product bundle."
 aliases = ["trivial-principal-bundle-criterion-global-section-principal-bundle-is-trivial", "Theorem: Global section implies a principal bundle is trivial"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/trivial-principal-bundle-criterion-global-section-principal-bundle-is-trivial.md"
 +++
 

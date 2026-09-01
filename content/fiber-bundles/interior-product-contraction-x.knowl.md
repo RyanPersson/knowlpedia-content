@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Insertion of a vector field into a differential form, producing a form of one lower degree."
 aliases = ["interior-product-contraction-x", "Interior product (contraction) ι_X"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/differential-k-form", "fiber-bundles/wedge-product-of-differential-forms", "fiber-bundles/lie-derivative-of-a-differential-form", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/interior-product-contraction-x.md"
 +++
 

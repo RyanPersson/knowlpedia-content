@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The elements that bracket to zero with every element of a Lie algebra."
 aliases = ["center-of-a-lie-algebra", "Center of a Lie algebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra", "lie-groups/ideal-lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra", "lie-groups/abelian-lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/center-of-a-lie-algebra.md"
 +++
 

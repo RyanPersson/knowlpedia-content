@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The Hermitian-matrix action gives a two-to-one covering SL(2,C)→SO⁺(1,3)."
 aliases = ["spin covering of SO+(1,3)", "SL2C Lorentz double cover"]
 domains = ["lie-groups", "mathematical-physics"]
+prerequisites = ["lie-groups/hermitian-matrix-model-of-minkowski-space", "lie-groups/lie-group-homomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

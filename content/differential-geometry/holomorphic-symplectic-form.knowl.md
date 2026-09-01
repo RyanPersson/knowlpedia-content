@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A closed holomorphic two-form that is nondegenerate at every point of a complex manifold."
 aliases = ["complex symplectic form", "nondegenerate closed holomorphic 2-form"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-section", "differential-geometry/holomorphic-cotangent-bundle", "fiber-bundles/bundle-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

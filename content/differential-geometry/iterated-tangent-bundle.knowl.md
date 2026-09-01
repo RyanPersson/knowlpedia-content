@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A tangent bundle obtained by repeatedly applying the tangent functor to a smooth manifold."
 aliases = ["second tangent bundle", "TTM"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/tangent-functor", "fiber-bundles/tangent-bundle", "fiber-bundles/smooth-map", "algebra-category-theory/functor"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

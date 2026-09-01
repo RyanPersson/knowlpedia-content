@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The module of all smooth sections of a vector bundle under pointwise operations by smooth functions."
 aliases = ["section module", "space of smooth sections", "C-infinity module of sections"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "differential-geometry/algebra-of-smooth-functions"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

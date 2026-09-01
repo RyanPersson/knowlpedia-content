@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A vector field whose local flow preserves the symplectic form."
 aliases = ["locally Hamiltonian vector field"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/vector-field", "fiber-bundles/lie-derivative-of-a-differential-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

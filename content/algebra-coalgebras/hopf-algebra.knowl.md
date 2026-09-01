@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A bialgebra with an antipode implementing algebraic inversion."
 aliases = ["Hopf algebra over a ring", "antipode"]
 domains = ["algebra-coalgebras", "algebra-rings"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-coalgebras/bialgebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An ordered blueprint in which every element has exactly one additive weak inverse."
 aliases = ["pasteurized ordered blueprint", "ordered blueprint with unique weak inverse"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
+prerequisites = ["algebraic-geometry-foundations/ordered-blueprint"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

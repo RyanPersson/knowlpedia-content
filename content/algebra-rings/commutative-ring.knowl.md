@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A ring in which multiplication is commutative."
 aliases = ["commutative-ring", "Commutative ring"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/commutative-ring.md"
 +++
 

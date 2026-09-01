@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The topology of pointwise convergence of all matrix coefficients on an algebra of Hilbert-space operators."
 aliases = ["WOT", "weak operator convergence", "matrix-coefficient topology"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

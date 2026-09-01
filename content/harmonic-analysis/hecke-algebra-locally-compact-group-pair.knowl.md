@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Hecke algebra of a locally compact group and compact subgroup is the convolution algebra of compactly supported continuous bi-invariant functions."
 aliases = ["Hecke convolution algebra", "C_c(K backslash G slash K)", "spherical Hecke algebra", "Hecke algebra of compactly supported bi-invariant functions"]
 domains = ["harmonic-analysis", "representation-theory", "operator-algebras"]
+prerequisites = ["topology/locally-compact-group", "algebra-groups/subgroup", "harmonic-analysis/haar-measure", "harmonic-analysis/convolution-on-locally-compact-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

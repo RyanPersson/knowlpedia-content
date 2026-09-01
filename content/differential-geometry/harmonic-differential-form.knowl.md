@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A differential form annihilated by the Hodge Laplacian of a Riemannian metric."
 aliases = ["harmonic form"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/hodge-laplacian", "differential-geometry/codifferential"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

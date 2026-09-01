@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The local functional-equation factor combining epsilon and the ratio of dual L-factors."
 aliases = ["gamma factor", "local gamma factor of a representation", "gamma(s,V,psi)"]
 domains = ["langlands", "number-theory", "harmonic-analysis"]
+prerequisites = ["langlands/weil-deligne-representation", "algebra-fields-galois/local-field", "algebra-representation-theory/character", "langlands/local-epsilon-factor", "langlands-letter/knowls/contragredient-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

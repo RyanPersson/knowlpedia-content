@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The group of fractional linear automorphisms of the Riemann sphere."
 aliases = ["Möbius group", "Mobius group", "fractional linear group"]
 domains = ["complex-analysis", "lie-groups", "projective-geometry"]
+prerequisites = ["complex-analysis/mobius-transformation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

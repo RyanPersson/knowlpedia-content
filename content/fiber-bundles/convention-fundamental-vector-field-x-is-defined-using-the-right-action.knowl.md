@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The fundamental vector field X-sharp is defined by differentiating the right action p·exp(tX)."
 aliases = ["convention-fundamental-vector-field-x-is-defined-using-the-right-action", "Convention: fundamental vector field uses the right action"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "lie-groups/lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action.md"
 +++
 

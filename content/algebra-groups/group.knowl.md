@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A monoid in which every element has an inverse"
 aliases = ["group"]
 domains = ["algebra-groups"]
+prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation", "algebra-groups/monoid", "algebra-groups/subgroup", "algebra-groups/group-homomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/group.md"
 +++
 
@@ -16,7 +19,7 @@ A **group** is a [[shared-foundations/set|set]] \(G\) together with a [[shared-f
 
 Equivalently, a group is a [[algebra-groups/monoid|monoid]] in which every element is invertible. Much of group theory studies [[algebra-groups/subgroup|subgroups]] and structure-preserving maps called [[algebra-groups/group-homomorphism|group homomorphisms]].
 
-**Examples:**
+## Examples
 - \((\mathbb{Z},+)\) is a group (identity \(0\), inverse of \(n\) is \(-n\)).
 - \((\mathbb{Q}^{\times},\times)\) is a group (nonzero rationals under multiplication).
 - The symmetric group \(S_n\) of permutations of \(\{1,\dots,n\}\) is a group under composition.

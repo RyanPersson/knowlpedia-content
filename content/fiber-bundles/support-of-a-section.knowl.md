@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The closure of the set of base points where a vector bundle section is nonzero."
 aliases = ["section support", "support of a vector bundle section"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "topology/closed-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

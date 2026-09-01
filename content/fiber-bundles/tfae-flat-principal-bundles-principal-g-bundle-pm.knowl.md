@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Equivalent conditions for a principal bundle connection to be flat, including vanishing curvature and homotopy-invariant parallel transport."
 aliases = ["tfae-flat-principal-bundles-principal-g-bundle-pm", "TFAE: Flat principal bundles (principal G-bundle with connection)"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/parallel-transport", "fiber-bundles/holonomy-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm.md"
 +++
 

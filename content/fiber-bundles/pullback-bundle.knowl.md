@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The fiber bundle over N obtained by pulling back a bundle over M along a smooth map f: N to M."
 aliases = ["pullback-bundle", "Pullback bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-map", "fiber-bundles/bundle-morphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/pullback-bundle.md"
 +++
 

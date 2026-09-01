@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A vector bundle connection with zero curvature, admitting local parallel frames and homotopy-invariant transport."
 aliases = ["flat-vector-bundle-connection", "Flat vector bundle connection"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/curvature-of-a-vector-bundle-connection", "fiber-bundles/parallel-transport", "topology/fundamental-group", "fiber-bundles/holonomy-group", "fiber-bundles/integrable-horizontal-distribution"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/flat-vector-bundle-connection.md"
 +++
 

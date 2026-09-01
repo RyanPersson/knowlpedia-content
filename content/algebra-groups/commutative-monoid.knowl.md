@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A monoid whose multiplication is commutative."
 aliases = ["abelian monoid", "commutative multiplicative monoid"]
 domains = ["algebra-groups", "algebra-rings"]
+prerequisites = ["algebra-groups/monoid"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

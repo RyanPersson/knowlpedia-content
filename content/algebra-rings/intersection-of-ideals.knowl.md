@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set-theoretic intersection of two ideals, which is again an ideal."
 aliases = ["intersection-of-ideals", "Intersection of ideals"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ring", "shared-foundations/intersection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/intersection-of-ideals.md"
 +++
 

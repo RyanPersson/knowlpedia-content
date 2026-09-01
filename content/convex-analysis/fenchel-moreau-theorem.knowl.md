@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A closed proper convex function equals its Fenchel biconjugate."
 aliases = ["fenchel-moreau-theorem", "Fenchel-Moreau theorem"]
 domains = ["convex-analysis"]
+prerequisites = ["shared-foundations/function", "convex-analysis/biconjugate", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/closed-convex-function", "convex-analysis/convex-duality-primal-dual"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/fenchel-moreau-theorem.md"
 +++
 

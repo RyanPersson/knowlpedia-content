@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The compactly supported A-valued convolution algebra associated with a C*-dynamical system."
 aliases = ["covariant convolution algebra", "C_c(G,A)"]
 domains = ["operator-algebras", "harmonic-analysis"]
+prerequisites = ["operator-algebras/cstar-dynamical-system", "harmonic-analysis/haar-measure", "harmonic-analysis/modular-function", "linear-algebra/vector-space", "operator-algebras/involutive-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

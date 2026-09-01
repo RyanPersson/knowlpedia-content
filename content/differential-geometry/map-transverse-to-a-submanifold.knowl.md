@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth map whose differential and the submanifold tangent space span the target at every inverse-image point."
 aliases = ["transversality to a submanifold", "f transverse to S"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/transverse-smooth-maps"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

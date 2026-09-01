@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A finite-dimensional vector space over a Witt-vector fraction field equipped with a bijective semilinear Frobenius."
 aliases = ["F-isocrystal", "isocrystal over a perfect field", "rational Dieudonné module"]
 domains = ["algebraic-geometry-foundations", "algebra-fields-galois", "langlands"]
+prerequisites = ["algebra-fields-galois/perfect-field", "linear-algebra/vector-space", "linear-algebra/semilinear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

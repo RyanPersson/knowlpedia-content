@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth manifold equipped with a smoothly varying positive-definite inner product on its tangent spaces."
 aliases = ["Riemannian metric on a manifold", "Riemannian structure", "Riemannian metric manifold"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "linear-algebra/inner-product", "fiber-bundles/bundle-metric", "fiber-bundles/tangent-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

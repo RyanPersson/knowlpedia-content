@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical covariant pair on L2(G,H) induced from a representation of the coefficient C*-algebra."
 aliases = ["induced regular covariant representation"]
 domains = ["operator-algebras", "representation-theory", "harmonic-analysis"]
+prerequisites = ["operator-algebras/cstar-dynamical-system", "operator-algebras/nondegenerate-star-homomorphism", "harmonic-analysis/haar-measure", "harmonic-analysis/regular-representations-locally-compact-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

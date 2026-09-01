@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A symmetric operator is a densely defined Hilbert-space operator whose inner products agree with those of its adjoint on its own domain."
 aliases = ["Hermitian operator on a dense domain", "formally symmetric operator"]
 domains = ["functional-analysis"]
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/densely-defined-operator", "functional-analysis/adjoint-unbounded-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

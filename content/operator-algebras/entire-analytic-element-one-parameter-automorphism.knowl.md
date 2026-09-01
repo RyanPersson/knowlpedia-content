@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An element whose orbit under a one-parameter automorphism group extends to an entire algebra-valued function."
 aliases = ["entire analytic element", "analytic element for an automorphism group"]
 domains = ["operator-algebras", "functional-analysis", "dynamical-systems"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/star-automorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -17,9 +20,7 @@ one-parameter group of
 t\longmapsto\alpha_t(a)
 \]
 extends to an entire \(A\)-valued function on \(\mathbb C\). The extension is
-unique and its value at \(z\in\mathbb C\) is denoted \(\alpha_z(a)\). Thus an
-expression such as \(\alpha_{-i}(a)\) is defined only for analytic \(a\), not
-by extending the [[algebra-groups/automorphism-group|automorphism group]] to all complex times.
+unique and its value at \(z\in\mathbb C\) is denoted \(\alpha_z(a)\).
 
 ## Algebraic properties
 
@@ -44,6 +45,7 @@ smoothing proves density and gives the extension by replacing
 
 ## Modular-theory use and conventions
 
+In particular, \(\alpha_{-i}(a)\) is defined only for analytic \(a\); it does not come from extending the [[algebra-groups/automorphism-group|automorphism group]] to all complex times.
 There is a parallel \(W^*\)-algebra convention. If
 \(\sigma:\mathbb R\to\operatorname{Aut}(M)\) is only point-ultraweakly
 continuous, an element \(a\in M\) is entire analytic when its orbit has an

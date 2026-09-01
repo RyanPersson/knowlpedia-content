@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A symmetric limiting prescription for certain singular or non-absolutely convergent integrals."
 aliases = ["principal value integral", "p.v. integral", "PV integral"]
 domains = ["real-analysis", "harmonic-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

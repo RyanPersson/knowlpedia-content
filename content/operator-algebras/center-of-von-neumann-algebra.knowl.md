@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The commutative von Neumann subalgebra consisting of elements that commute with every element of the original algebra."
 aliases = ["central algebra Z(M)"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/commutant", "operator-algebras/commutative-von-neumann-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

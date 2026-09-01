@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A Clifford algebra is obtained by fixing the central character in the enveloping algebra of a quadratic Lie superalgebra."
 aliases = ["Clifford algebra from a Lie superalgebra"]
 domains = ["differential-geometry", "supergeometry"]
+prerequisites = ["supergeometry/lie-superalgebra", "supergeometry/universal-enveloping-algebra-of-lie-superalgebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

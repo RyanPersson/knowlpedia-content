@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A character-weighted sum of orbital integrals inside one stable conjugacy class."
 aliases = ["κ-orbital integral", "kappa orbital integral", "endoscopic orbital integral"]
 domains = ["langlands", "harmonic-analysis", "representation-theory"]
+prerequisites = ["langlands/strongly-regular-semisimple-element", "algebra-fields-galois/local-field", "langlands-letter/knowls/nonabelian-h1-galois-cohomology", "algebra-groups/conjugacy-class", "langlands/stable-conjugacy"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

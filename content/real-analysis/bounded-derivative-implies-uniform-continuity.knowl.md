@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A differentiable function with bounded derivative is Lipschitz, hence uniformly continuous."
 aliases = ["bounded-derivative-implies-uniform-continuity", "Bounded derivative implies uniform continuity"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/bounded-derivative-implies-uniform-continuity.md"
 +++
 

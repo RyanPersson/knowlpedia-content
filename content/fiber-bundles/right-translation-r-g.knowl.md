@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For g G, the diffeomorphism R_g:G G, R_g(h)=hg, used to transport geometric data by right multiplication."
 aliases = ["right-translation-r-g", "Right Translation on a Lie Group"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-map", "fiber-bundles/diffeomorphism", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/tangent-space-at-a-point", "lie-groups/right-invariant-vector-field", "differential-geometry/diffeomorphism-group", "fiber-bundles/left-translation-l-g"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/right-translation-r-g.md"
 +++
 
@@ -29,7 +32,7 @@ R_g\circ R_h=R_{hg},\qquad R_e=\mathrm{id}_G,
 \]
 so the assignment \(g\mapsto R_g\) is an antihomomorphism into the [[differential-geometry/diffeomorphism-group|diffeomorphism group]]. For a left-multiplicative analogue, compare with [[fiber-bundles/left-translation-l-g|left translations]].
 
-### Examples
+## Examples
 
 1. **\((\mathbb R^n,+)\).**
    For the additive Lie group, \(R_a(x)=x+a\). As with left translation, \((dR_a)_x\) is the identity on \(\mathbb R^n\).

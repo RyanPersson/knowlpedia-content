@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A locally finitely presented flat morphism with geometrically regular fibers."
 aliases = ["smooth map of schemes", "smooth morphism"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/flat-morphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

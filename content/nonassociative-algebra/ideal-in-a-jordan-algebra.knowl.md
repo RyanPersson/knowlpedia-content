@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A linear subspace stable under multiplication by every element of the ambient Jordan algebra."
 aliases = ["Jordan ideal", "ideal of a Jordan algebra", "Jordan algebra ideal"]
 domains = ["nonassociative-algebra"]
+prerequisites = ["nonassociative-algebra/jordan-algebra", "convex-analysis/linear-subspace"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Ordered monomials in an ordered basis of a Lie algebra form a basis of its universal enveloping algebra."
 aliases = ["PBW theorem", "symmetrization theorem"]
 domains = ["lie-groups", "algebra"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/universal-enveloping-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Semisimple Artinian rings are exactly finite products of matrix rings over division rings."
 aliases = ["artin-wedderburn-theorem", "Artin–Wedderburn theorem"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/artinian-semisimple-ring", "algebra-rings/division-ring", "algebra-rings/matrix-ring", "algebra-rings/simple-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/artin-wedderburn-theorem.md"
 +++
 

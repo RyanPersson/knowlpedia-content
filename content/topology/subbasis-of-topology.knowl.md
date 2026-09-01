@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A collection of sets whose finite intersections form a basis."
 aliases = ["subbasis-of-topology", "Subbasis of a topology"]
 domains = ["topology"]
+prerequisites = ["topology/basis-of-topology"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/subbasis-of-topology.md"
 +++
 

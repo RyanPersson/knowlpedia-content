@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The exponent of the first nonzero term of the p-series of a one-dimensional commutative formal group law in characteristic p."
 aliases = ["height of a formal group law", "formal group height"]
 domains = ["formal-groups"]
+prerequisites = ["formal-groups/one-dimensional-formal-group-law"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

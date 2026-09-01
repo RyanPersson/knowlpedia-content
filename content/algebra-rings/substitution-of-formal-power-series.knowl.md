@@ -5,6 +5,9 @@ kind = "construction"
 summary = "Composition f(g_1,...,g_n) defined adically when each substituted series has zero constant term."
 aliases = ["composition of formal power series", "formal power series substitution", "pointed formal substitution"]
 domains = ["algebra-rings", "formal-groups"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

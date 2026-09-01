@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The incidence geometry of lines and subspaces in a vector space, viewed projectively."
 aliases = ["Desarguesian projective geometry", "classical projective geometry"]
 domains = ["algebraic-geometry-foundations", "linear-algebra"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

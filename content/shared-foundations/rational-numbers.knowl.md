@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Numbers expressible as a ratio of two integers with nonzero denominator."
 aliases = ["rational-numbers", "Rational numbers"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/rational-numbers.md"
 +++
 

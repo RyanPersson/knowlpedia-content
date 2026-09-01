@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A proper connected closed subgroup maximal among connected closed subgroups."
 aliases = ["maximal connected subgroup", "maximal connected proper closed subgroup"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "algebra-groups/proper-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The universal blueprint in which a chosen multiplicative subset becomes invertible."
 aliases = ["blueprint localization", "localization of blueprints"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/blueprint"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

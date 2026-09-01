@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A unitary representation whose matrix coefficients are continuous functions of the group element."
 aliases = ["weakly continuous representation", "matrix-coefficient continuous unitary representation"]
 domains = ["lie-groups", "functional-analysis"]
+prerequisites = ["topology/topological-group", "linear-algebra/hilbert-space", "algebra-groups/group-homomorphism", "harmonic-analysis/coefficient-function", "operator-algebras/weak-operator-topology", "lie-groups/weak-strong-continuity-equivalence-unitary-representations", "lie-groups/strongly-continuous-unitary-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

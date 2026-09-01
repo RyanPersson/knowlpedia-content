@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The derivative defined by a complex difference quotient independent of direction."
 aliases = ["complex differentiability", "complex-differentiable"]
 domains = ["complex-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A finite group of order p^n always has a center of size divisible by p"
 aliases = ["p-group-nontrivial-center", "A p-group has nontrivial center"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/p-group", "algebra-groups/center-of-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/p-group-nontrivial-center.md"
 +++
 

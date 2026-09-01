@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A canonical adelic Haar measure assembled from an invariant differential form and global convergence factors."
 aliases = ["Tamagawa measure on an algebraic group", "Tamagawa number", "adelic Tamagawa measure"]
 domains = ["langlands", "number-theory", "harmonic-analysis"]
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "harmonic-analysis/haar-measure", "langlands-letter/knowls/adeles-restricted-product", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/maximal-torus-weight-lattice"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

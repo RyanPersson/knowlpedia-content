@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The normalizer theorem used in the letter to place semisimple elements of a disconnected reductive extension in standard torus data."
 aliases = ["borel-mostow-semisimple-normalizer", "Borel–Mostow Normalizer Representative (Semisimple Class)"]
 domains = ["langlands-letter"]
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "langlands-letter/knowls/maximal-torus-weight-lattice", "algebra-groups/normalizer"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "langlands-letter/knowls/borel-mostow-semisimple-normalizer.md"
 section_mode = "progressive"
 +++
@@ -24,11 +27,6 @@ N_H(T)
 
 of a fixed maximal torus \(T\subset H^\circ\).
 
-This is the normalizer-representative principle used in the letter for a
-disconnected group such as
-[[langlands-letter/knowls/langlands-dual-group|\(\widehat G\)]]
-\(\rtimes\Gamma\).
-
 ## Based data
 
 A representative in \(N_H(T)\) induces an automorphism of the [[lie-groups/root-system|root system]].
@@ -46,6 +44,10 @@ If \(H\) is connected reductive, every semisimple element is conjugate into
 
 ## Langlands role
 
+This is the normalizer-representative principle used in the letter for a
+disconnected group such as
+[[langlands-letter/knowls/langlands-dual-group|\(\widehat G\)]]
+\(\rtimes\Gamma\).
 In an [[langlands/l-group|\(L\)-group]], an
 [[langlands/satake-parameter|unramified parameter]] lies in a
 [[langlands-letter/knowls/frobenius-unramified|Frobenius]] coset

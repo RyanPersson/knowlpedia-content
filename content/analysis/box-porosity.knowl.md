@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A discrete multiscale porosity condition expressed by an empty child in every occupied cube."
 aliases = ["box porous set", "L-adic box porosity"]
 domains = ["analysis", "geometric-measure-theory", "harmonic-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

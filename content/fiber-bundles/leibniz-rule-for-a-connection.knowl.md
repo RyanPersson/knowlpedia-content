@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The product rule relating differentiation of a scaled section to derivatives of the function and the section."
 aliases = ["leibniz-rule-for-a-connection", "Leibniz rule for a connection"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/connection-on-a-vector-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/leibniz-rule-for-a-connection.md"
 +++
 

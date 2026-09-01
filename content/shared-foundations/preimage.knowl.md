@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set of inputs that a function sends into a specified subset of its codomain"
 aliases = ["preimage"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/preimage.md"
 +++
 

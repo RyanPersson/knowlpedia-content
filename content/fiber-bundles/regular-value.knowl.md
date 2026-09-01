@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A point in the target such that the differential is surjective along its fiber."
 aliases = ["regular-value", "Regular value"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/tangent-space-at-a-point"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/regular-value.md"
 +++
 

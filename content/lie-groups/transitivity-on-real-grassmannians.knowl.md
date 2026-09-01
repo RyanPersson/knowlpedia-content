@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The orthogonal and special orthogonal groups act transitively on real Grassmannians, with stabilizers determined by block orthogonal groups."
 aliases = ["orthogonal transitivity on the Grassmannian", "real Grassmannian homogeneous space", "SO(n) action on Gr(k,n)"]
 domains = ["lie-groups", "differential-geometry"]
+prerequisites = ["lie-groups/orthogonal-group", "differential-geometry/grassmannian", "lie-groups/special-orthogonal-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

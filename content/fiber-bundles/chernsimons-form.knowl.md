@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A differential form whose exterior derivative is the difference of two Chern Weil forms."
 aliases = ["chernsimons-form", "Chern–Simons form"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/chernweil-form", "fiber-bundles/gauge-theory", "fiber-bundles/transgression-form", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/chernsimons-form.md"
 +++
 

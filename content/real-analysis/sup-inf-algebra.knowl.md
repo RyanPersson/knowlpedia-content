@@ -5,12 +5,15 @@ kind = "knowl"
 summary = "How supremum and infimum interact with basic set operations such as translation and scaling."
 aliases = ["sup-inf-algebra", "Supremum and Infimum Algebra"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/subset"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/sup-inf-algebra.md"
 +++
 
 **Supremum/infimum algebra:** Let \(A,B \subseteq \mathbb{R}\) be nonempty [[shared-foundations/subset|subsets]]. Define
 \(A+B=\{a+b:\ a\in A,\ b\in B\}\) and, for \(c\in\mathbb{R}\), \(cA=\{ca:\ a\in A\}\).
-Assume the displayed quantities are finite (for example, by assuming the relevant [[real-analysis/bounded-above|bounded above]] or [[real-analysis/bounded-below|bounded below]] hypotheses). Then:
+Assume the displayed quantities are finite. Then:
 
 - \(\sup(A+B)=\sup(A)+\sup(B)\) and \(\inf(A+B)=\inf(A)+\inf(B)\).
 - If \(c\ge 0\), then \(\sup(cA)=c\,\sup(A)\) and \(\inf(cA)=c\,\inf(A)\).
@@ -19,4 +22,5 @@ Assume the displayed quantities are finite (for example, by assuming the relevan
 
 ## Remarks
 
+Finiteness follows, for example, from the relevant [[real-analysis/bounded-above|bounded-above]] or [[real-analysis/bounded-below|bounded-below]] hypotheses.
 These rules are frequently paired with the [[real-analysis/supremum-approximation-lemma|supremum approximation lemma]] to turn statements about [[real-analysis/supremum|suprema]] and [[real-analysis/infimum|infima]] into \(\varepsilon\)-estimates.

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The associated bundle with fiber G where the structure group acts on G by conjugation, yielding a bundle of groups over the base."
 aliases = ["adjoint-bundle-p-g-g-with-conjugation-action", "Adjoint bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action.md"
 +++
 

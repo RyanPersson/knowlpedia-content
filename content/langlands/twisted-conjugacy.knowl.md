@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Conjugacy modified by an automorphism, including Frobenius and sigma-conjugacy as basic cases."
 aliases = ["theta-conjugacy", "twisted conjugacy class", "sigma-conjugacy"]
 domains = ["langlands", "algebra-groups"]
+prerequisites = ["algebra-groups/automorphism-group", "fiber-bundles/orbit-map", "algebra-groups/stabilizer"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

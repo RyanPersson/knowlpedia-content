@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The derivative of a multivariable function as a best linear approximation at a point"
 aliases = ["frechet-derivative", "Fréchet derivative"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/function", "linear-algebra/linear-map", "linear-algebra/euclidean-norm", "real-analysis/jacobian-matrix", "real-analysis/differentiable-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/frechet-derivative.md"
 +++
 

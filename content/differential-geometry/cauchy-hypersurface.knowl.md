@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A subset of a spacetime met exactly once by every inextendible timelike curve."
 aliases = ["Cauchy surface"]
 domains = ["differential-geometry", "mathematical-physics", "partial-differential-equations"]
+prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators", "differential-geometry/globally-hyperbolic-spacetime", "differential-geometry/global-hyperbolicity-and-cauchy-hypersurfaces"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

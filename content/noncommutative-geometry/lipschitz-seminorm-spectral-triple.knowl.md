@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The extended seminorm that measures an algebra element by the norm of its commutator with a spectral triple's Dirac operator."
 aliases = ["commutator Lipschitz seminorm", "Dirac Lipschitz seminorm"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/bounded-commutator", "real-analysis/triangle-inequality"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

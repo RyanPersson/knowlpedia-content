@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The parameter space of fixed-dimensional isotropic subspaces of a symplectic vector space."
 aliases = ["symplectic Grassmannian of isotropic planes"]
 domains = ["differential-geometry", "linear-algebra"]
+prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/grassmannian", "differential-geometry/isotropic-subspace"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A twice differentiable function annihilated by the Laplacian, equivalently a continuous function with the local mean-value property."
 aliases = ["harmonicity", "solution of Laplace's equation"]
 domains = ["complex-analysis", "potential-theory", "partial-differential-equations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

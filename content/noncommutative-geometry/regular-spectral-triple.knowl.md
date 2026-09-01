@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A spectral triple whose algebra and Dirac commutators are smooth for every iterated commutator with the absolute Dirac operator."
 aliases = ["QC-infinity spectral triple", "smooth spectral triple"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/bounded-commutator", "noncommutative-geometry/smooth-domain-delta"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

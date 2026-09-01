@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every continuous function on a closed interval can be uniformly approximated by polynomials."
 aliases = ["weierstrass-approximation-theorem", "Weierstrass approximation theorem"]
 domains = ["real-analysis"]
+prerequisites = ["topology/continuous-map", "real-analysis/polynomial", "real-analysis/space-of-continuous-functions", "real-analysis/supremum-norm", "real-analysis/uniform-convergence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/weierstrass-approximation-theorem.md"
 +++
 

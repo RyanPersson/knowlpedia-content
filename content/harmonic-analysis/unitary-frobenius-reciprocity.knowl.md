@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "For a compact group, bounded intertwiners into an induced representation correspond to subgroup intertwiners."
 aliases = ["Frobenius reciprocity for compact groups", "compact unitary reciprocity"]
 domains = ["harmonic-analysis", "representation-theory"]
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "lie-groups/intertwining-operator-unitary-representations", "harmonic-analysis/haar-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A self-map that strictly shrinks distances by a uniform factor <1"
 aliases = ["contraction-mapping", "Contraction mapping"]
 domains = ["shared-foundations"]
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/contraction-mapping.md"
 +++
 

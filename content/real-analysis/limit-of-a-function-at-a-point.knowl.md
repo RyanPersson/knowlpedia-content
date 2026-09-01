@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The value L that f(x) approaches as x approaches x0, defined by an ε–δ condition."
 aliases = ["limit-of-a-function-at-a-point", "Limit of a function at a point"]
 domains = ["real-analysis"]
+prerequisites = ["topology/metric-space", "topology/limit-point", "topology/neighborhood"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/limit-of-a-function-at-a-point.md"
 +++
 

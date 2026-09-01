@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function that combines two elements of a set to produce another element of the same set"
 aliases = ["binary-operation", "Binary operation"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/function", "shared-foundations/cartesian-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/binary-operation.md"
 +++
 

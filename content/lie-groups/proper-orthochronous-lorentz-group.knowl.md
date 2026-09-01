@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The identity component SO⁺(1,3) of the four-dimensional Lorentz group."
 aliases = ["SO+(1,3)", "restricted Lorentz group", "identity component of the Lorentz group"]
 domains = ["lie-groups", "mathematical-physics"]
+prerequisites = ["lie-groups/lorentz-group", "differential-geometry/time-orientation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

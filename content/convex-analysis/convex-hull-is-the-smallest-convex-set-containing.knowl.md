@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "co(Ω) is convex, contains Ω, and lies in every convex superset of Ω"
 aliases = ["convex-hull-is-the-smallest-convex-set-containing", "Convex hull is the smallest convex set containing Ω"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/convex-hull", "convex-analysis/convex-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/convex-hull-is-the-smallest-convex-set-containing.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A unique Möbius transformation carries any ordered triple of distinct sphere points to any other."
 aliases = ["Möbius transformations are sharply three-transitive"]
 domains = ["complex-analysis", "algebra-groups", "projective-geometry"]
+prerequisites = ["complex-analysis/riemann-sphere", "complex-analysis/mobius-transformation", "complex-analysis/mobius-transformation-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

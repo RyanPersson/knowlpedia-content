@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The smallest closed set containing a given subset."
 aliases = ["closure"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/closure.md"
 +++
 

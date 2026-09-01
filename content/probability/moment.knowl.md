@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Expected power of a random variable, used to summarize features of its distribution"
 aliases = ["moment"]
 domains = ["probability"]
+prerequisites = ["probability/expectation", "probability/random-variable"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/moment.md"
 +++
 

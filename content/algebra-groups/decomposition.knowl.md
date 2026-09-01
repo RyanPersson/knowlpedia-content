@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Ways to describe a group in terms of simpler subgroups, factors, or extensions."
 aliases = ["decomposition", "Group decomposition"]
 domains = ["algebra-groups"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/decomposition.md"
 +++
 

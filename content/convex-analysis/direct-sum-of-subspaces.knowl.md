@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A sum of subspaces with trivial intersection"
 aliases = ["direct-sum-of-subspaces", "Direct sum of subspaces"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/linear-subspace", "convex-analysis/characterization-of-direct-sums"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/direct-sum-of-subspaces.md"
 +++
 

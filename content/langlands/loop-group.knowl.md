@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The group-valued functor LG(R)=G(R((t))) associated with an affine algebraic group G."
 aliases = ["algebraic loop group", "LG"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "formal-groups/formal-affine-space", "langlands/positive-loop-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

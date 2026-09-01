@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A choice of “half” of a root set, compatible with addition, used to organize roots into positive and negative."
 aliases = ["positive-root", "Positive root"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/root-system"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/positive-root.md"
 +++
 
@@ -12,6 +15,8 @@ Let \(\Phi\) be a root system in a real inner product space \(V\) (see [[lie-gro
 
 1. \(\Phi\) is the disjoint union \(\Phi = \Phi^+ \sqcup (-\Phi^+)\), and
 2. if \(\alpha,\beta \in \Phi^+\) and \(\alpha+\beta \in \Phi\), then \(\alpha+\beta \in \Phi^+\).
+
+## Lie algebra context
 
 In the Lie algebra setting, for a semisimple Lie algebra with a [[lie-groups/cartan-subalgebra|Cartan subalgebra]], the roots (see [[lie-groups/root-lie-algebra|roots of a Lie algebra]]) can be split into positive and negative ones, producing a triangular decomposition (see [[lie-groups/root-space-decomposition|root space decomposition]]). This choice is essential for defining [[lie-groups/simple-root|simple roots]], constructing highest-weight theory, and stating results such as the [[lie-groups/highest-weight-theorem|highest weight theorem]].
 

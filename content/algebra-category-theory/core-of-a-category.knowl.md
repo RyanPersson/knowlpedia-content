@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The maximal subgroupoid of a category, retaining all objects but only the isomorphisms."
 aliases = ["maximal subgroupoid", "underlying groupoid of a category"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/groupoid"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

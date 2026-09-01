@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The semisimple dual-group conjugacy class classifying an unramified representation."
 aliases = ["unramified Langlands parameter", "Hecke parameter", "Satake conjugacy class"]
 domains = ["langlands", "harmonic-analysis"]
+prerequisites = ["algebraic-geometry-foundations/unramified-reductive-group", "algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/maximal-compact-hyperspecial", "harmonic-analysis/unramified-representation-p-adic-group", "harmonic-analysis/hecke-algebra-locally-compact-group-pair", "algebra-groups/conjugacy-class"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

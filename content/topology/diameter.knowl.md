@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The supremum of all distances between pairs of points in a set within a metric space."
 aliases = ["diameter"]
 domains = ["topology"]
+prerequisites = ["real-analysis/supremum"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/diameter.md"
 +++
 

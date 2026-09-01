@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An algebraic field extension that is both normal and separable."
 aliases = ["galois-extension", "Galois extension"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/normal-extension", "algebra-fields-galois/separable-extension"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/galois-extension.md"
 +++
 

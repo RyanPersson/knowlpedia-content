@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Grothendieck topology in which jointly surjective families of étale morphisms are covers."
 aliases = ["etale-topology", "Etale topology", "Étale topology"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/grothendieck-topology", "algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/covering-family", "algebraic-geometry-foundations/etale-morphism", "algebra-commutative/zariski-topology", "algebraic-geometry-foundations/scheme-over-a-base", "algebraic-geometry-foundations/small-etale-site"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 The **étale topology** is the [[algebraic-geometry-foundations/grothendieck-topology|Grothendieck topology]] on [[algebraic-geometry-foundations/scheme|schemes]] in which a family

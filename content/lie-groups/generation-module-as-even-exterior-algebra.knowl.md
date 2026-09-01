@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Adding two generation-root singlets to each 30-dimensional module gives Λeven C6, which restricts to ΛC5 and hence one full Standard Model generation."
 aliases = ["32-dimensional generation module in e7", "generation module Lambda even C6", "V k generation module"]
 domains = ["lie-groups", "representation-theory", "mathematical-physics"]
+prerequisites = ["lie-groups/even-and-odd-exterior-algebra", "linear-algebra/vector-space", "lie-groups/lie-subalgebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

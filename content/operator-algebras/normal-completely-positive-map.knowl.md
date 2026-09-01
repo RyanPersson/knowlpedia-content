@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A completely positive map between von Neumann algebras that is ultraweakly continuous."
 aliases = ["normal CP map", "ultraweakly continuous completely positive map"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/linear-map", "operator-algebras/completely-positive-map", "operator-algebras/normal-linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

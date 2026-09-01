@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "On a compact metric space, equicontinuity plus pointwise boundedness implies uniform boundedness."
 aliases = ["equicontinuity-boundedness-criterion", "Equicontinuity–boundedness criterion"]
 domains = ["real-analysis"]
+prerequisites = ["topology/metric-space", "real-analysis/equicontinuous-family", "real-analysis/pointwise-bounded-family", "real-analysis/uniformly-bounded-family"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/equicontinuity-boundedness-criterion.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A convergence test using the limsup of the nth roots of the term magnitudes."
 aliases = ["root-test", "Root test"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/series", "real-analysis/absolutely-convergent-series", "real-analysis/divergent-series"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/root-test.md"
 +++
 

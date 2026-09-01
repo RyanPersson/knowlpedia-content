@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set where every sequence has a convergent subsequence with limit in the set."
 aliases = ["sequentially-compact-set", "Sequentially compact set"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "real-analysis/subsequence", "topology/convergent-sequence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/sequentially-compact-set.md"
 +++
 

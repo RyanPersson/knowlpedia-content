@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An operator on cuspidal automorphic forms built by creating shtuka legs, moving them by Galois elements, and annihilating them."
 aliases = ["excursion operators", "Lafforgue excursion operator"]
 domains = ["langlands", "number-theory", "representation-theory"]
+prerequisites = ["algebra-fields-galois/global-function-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/langlands-dual-group", "lie-groups/right-translation", "langlands-letter/knowls/galois-extension-and-group", "langlands/automorphic-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

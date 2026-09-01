@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The kernel of a ring homomorphism is a two-sided ideal of the domain."
 aliases = ["kernel-is-ideal", "Kernel is an ideal"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ring-homomorphism", "algebra-rings/ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/kernel-is-ideal.md"
 +++
 

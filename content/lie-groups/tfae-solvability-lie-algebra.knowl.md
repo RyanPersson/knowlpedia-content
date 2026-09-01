@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Solvability can be detected via the derived series, triangular representations, or Cartan’s trace criterion."
 aliases = ["tfae-solvability-lie-algebra", "Equivalent characterizations of solvability for Lie algebras"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/derived-series-lie-algebra", "lie-groups/solvable-lie-algebra", "lie-groups/ados-theorem", "lie-groups/example-upper-triangular", "lie-groups/cartans-criterion-solvability"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/tfae-solvability-lie-algebra.md"
 +++
 

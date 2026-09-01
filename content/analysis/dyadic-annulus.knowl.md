@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A radial shell whose outer radius is twice its inner radius, used to organize estimates by scale."
 aliases = ["dyadic shell"]
 domains = ["analysis", "harmonic-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

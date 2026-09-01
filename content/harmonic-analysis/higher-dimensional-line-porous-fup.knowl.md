@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Ball porosity in physical space and line porosity in Fourier space imply an L2 power-saving uncertainty estimate in every dimension."
 aliases = ["Cohen higher-dimensional FUP", "line-porous FUP"]
 domains = ["harmonic-analysis", "mathematical-physics", "quantum-chaos"]
+prerequisites = ["analysis/porosity-on-balls", "analysis/porosity-on-lines"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A continuous linear functional on the Schwartz space of rapidly decreasing smooth functions."
 aliases = ["S-prime", "continuous functional on Schwartz space", "space S-prime", "distribution of slow growth"]
 domains = ["functional-analysis", "distribution-theory", "harmonic-analysis"]
+prerequisites = ["functional-analysis/schwartz-space", "functional-analysis/topological-dual", "functional-analysis/test-function-space", "functional-analysis/distribution"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

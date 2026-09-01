@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The probability measure induced by a random variable on its state space."
 aliases = ["distribution-law", "Distribution (law)"]
 domains = ["probability"]
+prerequisites = ["probability/random-variable", "probability/probability-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/distribution-law.md"
 +++
 

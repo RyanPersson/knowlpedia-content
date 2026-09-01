@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A choice of smooth local sections that form a basis of each fiber over an open set."
 aliases = ["local-frame-of-a-vector-bundle", "Local frame of a vector bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/transition-matrix-of-a-local-frame"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/local-frame-of-a-vector-bundle.md"
 +++
 

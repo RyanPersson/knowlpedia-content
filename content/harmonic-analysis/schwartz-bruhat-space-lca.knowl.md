@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical test-function space on a locally compact abelian group, assembled from Schwartz functions on elementary quotients."
 aliases = ["Bruhat space", "Schwartz-Bruhat space", "Bruhat test functions"]
 domains = ["harmonic-analysis", "functional-analysis"]
+prerequisites = ["topology/locally-compact-group", "algebra-groups/generated-subgroup", "functional-analysis/schwartz-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

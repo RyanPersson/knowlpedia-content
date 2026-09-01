@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function whose preimage of every open set is open."
 aliases = ["continuous-map", "Continuous map"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "shared-foundations/function", "topology/open-set", "shared-foundations/preimage"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/continuous-map.md"
 +++
 

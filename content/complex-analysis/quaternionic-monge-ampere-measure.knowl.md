@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Moore-determinant Hessian measure of a continuous quaternionic plurisubharmonic function."
 aliases = ["quaternionic Monge-Ampere operator", "quaternionic Monge–Ampère operator", "quaternionic Hessian measure"]
 domains = ["complex-analysis", "quaternionic-analysis", "partial-differential-equations"]
+prerequisites = ["complex-analysis/quaternionic-plurisubharmonic-function", "linear-algebra/moore-determinant", "measure-theory/lebesgue-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

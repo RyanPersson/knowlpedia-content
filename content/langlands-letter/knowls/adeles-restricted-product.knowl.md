@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The locally compact restricted product of all completions of a global field."
 aliases = ["adeles-restricted-product", "Adeles and Restricted Products"]
 domains = ["langlands-letter"]
+prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "algebra-fields-galois/valuation-ring", "algebra-fields-galois/number-field", "algebra-fields-galois/global-function-field", "algebraic-geometry-foundations/closed-point"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "langlands-letter/knowls/adeles-restricted-product.md"
 section_mode = "progressive"
 +++

@@ -5,6 +5,9 @@ kind = "construction"
 summary = "Deleting a Dynkin-diagram vertex to obtain a full root subsystem, a regular semisimple subalgebra, and a Levi subalgebra."
 aliases = ["removing a simple root", "deleting a simple root", "deleting a Dynkin node"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "lie-groups/root-subsystem", "lie-groups/dynkin-diagram"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

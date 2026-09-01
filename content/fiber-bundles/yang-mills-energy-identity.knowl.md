@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The four-dimensional decomposition of Yang–Mills energy into a topological curvature integral and a nonnegative self-dual or anti-self-dual term."
 aliases = ["topological Yang–Mills energy bound", "instanton energy bound", "Bogomolny decomposition"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/curvature-2-form-of-a-principal-connection", "shared-foundations/lower-bound"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

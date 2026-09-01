@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A complex vector bundle pulls back to a sum of line bundles on a flag bundle without losing cohomological information."
 aliases = ["splitting principle for characteristic classes", "flag-bundle splitting"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/pullback-bundle", "fiber-bundles/line-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/characteristic-class"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

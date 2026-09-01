@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A differential form that is the exterior derivative of a form of one lower degree."
 aliases = ["exact-differential-form", "Exact differential form"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/exterior-derivative", "fiber-bundles/differential-k-form", "fiber-bundles/closed-differential-form", "fiber-bundles/de-rham-cohomology-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/exact-differential-form.md"
 +++
 

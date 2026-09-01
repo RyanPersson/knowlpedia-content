@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A collection of subsets declared open, closed under unions and finite intersections."
 aliases = ["topology"]
 domains = ["topology"]
+prerequisites = ["shared-foundations/set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/topology.md"
 +++
 
@@ -12,6 +15,8 @@ A **topology** on a [[shared-foundations/set|set]] \(X\) is a collection \(\math
 - \(\varnothing\in\mathcal{T}\) and \(X\in\mathcal{T}\),
 - if \(\{U_i\}_{i\in I}\subseteq\mathcal{T}\) then \(\bigcup_{i\in I}U_i\in\mathcal{T}\),
 - if \(U,V\in\mathcal{T}\) then \(U\cap V\in\mathcal{T}\).
+
+## Related notions
 
 The elements of \(\mathcal{T}\) are the [[topology/open-set|open sets]], and they determine notions such as [[topology/closed-set|closed sets]], [[topology/neighborhood|neighborhoods]], [[topology/interior|interior]], [[topology/closure|closure]], and [[topology/continuous-map|continuity]]. A [[topology/topological-space|topological space]] is a set together with a chosen topology.
 

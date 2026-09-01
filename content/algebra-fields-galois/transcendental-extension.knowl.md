@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An extension E/F that contains at least one element transcendental over F (i.e. is not algebraic)."
 aliases = ["transcendental-extension", "Transcendental extension"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-extension", "algebra-fields-galois/transcendental-element"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/transcendental-extension.md"
 +++
 

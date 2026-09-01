@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Closed ideals and quotient algebras of a type I C*-algebra are again type I."
 aliases = ["type I ideal theorem", "GCR ideals and quotients"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/closed-two-sided-ideal", "operator-algebras/type-i-cstar-algebra", "operator-algebras/cstar-exact-sequence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

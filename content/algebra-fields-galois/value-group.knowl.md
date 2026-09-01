@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The ordered abelian subgroup consisting of the finite values of a field valuation."
 aliases = ["valuation value group"]
 domains = ["algebra-fields-galois", "algebra-groups"]
+prerequisites = ["algebra-fields-galois/valuation-on-a-field", "algebra-commutative/residue-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Any rearrangement of an absolutely convergent series converges to the same sum."
 aliases = ["rearrangement-theorem-absolute", "Rearrangement theorem for absolutely convergent series"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/absolutely-convergent-series"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/rearrangement-theorem-absolute.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Linearity in the integrand and additivity over subintervals for Riemann and Riemann–Stieltjes integrals"
 aliases = ["additivity-linearity-riemann-integral", "Additivity and linearity lemmas for Riemann and Riemann–Stieltjes integrals"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/monotone-function", "real-analysis/riemann-stieltjes-integral"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/additivity-linearity-riemann-integral.md"
 +++
 

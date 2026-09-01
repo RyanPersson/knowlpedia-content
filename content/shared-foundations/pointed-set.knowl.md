@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A set equipped with a distinguished element called its basepoint."
 aliases = ["based set", "set with basepoint", "pointed object in Set"]
 domains = ["shared-foundations", "category-theory", "topology"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

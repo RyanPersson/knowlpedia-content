@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A bound on the change of a differentiable map using a bound on its derivative."
 aliases = ["mean-value-inequality", "Mean value inequality"]
 domains = ["real-analysis"]
+prerequisites = ["linear-algebra/operator-norm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/mean-value-inequality.md"
 +++
 

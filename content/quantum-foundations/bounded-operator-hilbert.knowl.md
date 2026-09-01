@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A linear operator whose action does not increase vector norms by more than a fixed constant; equivalently, a continuous linear map."
 aliases = ["bounded-operator-hilbert", "Bounded Operator on a Hilbert Space"]
 domains = ["quantum-foundations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "quantum-foundations/bounded-operator-hilbert.md"
 +++
 

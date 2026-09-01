@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every finite-dimensional Lie algebra is the Lie algebra of a connected, simply connected Lie group."
 aliases = ["lies-third-theorem", "Lie’s third theorem"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/simply-connected-lie-group", "lie-groups/lie-algebra-isomorphism", "fiber-bundles/lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/lies-third-theorem.md"
 +++
 

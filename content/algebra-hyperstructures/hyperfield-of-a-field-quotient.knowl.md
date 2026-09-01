@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The quotient hyperfield K/G formed from a field and a multiplicative subgroup."
 aliases = ["quotient hyperfield", "factor hyperfield", "Krasner quotient hyperfield"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
+prerequisites = ["algebra-hyperstructures/quotient-hyperring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The End(E)-valued curvature two-form of a Hermitian holomorphic vector bundle's Chern connection."
 aliases = ["Chern curvature", "Hermitian curvature"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/complex-manifold", "fiber-bundles/hermitian-metric", "fiber-bundles/chern-connection", "fiber-bundles/curvature-of-a-vector-bundle-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

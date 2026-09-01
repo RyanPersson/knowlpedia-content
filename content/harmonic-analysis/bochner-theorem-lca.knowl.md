@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Bochner's theorem identifies continuous positive-definite functions on a locally compact abelian group with Fourier transforms of finite positive measures on its dual."
 aliases = ["Bochner theorem", "positive-definite Fourier representation"]
 domains = ["harmonic-analysis", "measure-theory"]
+prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/positive-definite-function", "probability/probability-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

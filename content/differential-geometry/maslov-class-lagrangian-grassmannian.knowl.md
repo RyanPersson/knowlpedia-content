@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical generator of the first integral cohomology of the real Lagrangian Grassmannian."
 aliases = ["universal Maslov class"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/lagrangian-grassmannian", "topology/fundamental-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

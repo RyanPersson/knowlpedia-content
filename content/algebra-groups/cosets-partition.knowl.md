@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Left (or right) cosets of a subgroup form a partition of the ambient group"
 aliases = ["cosets-partition", "Cosets Partition a Group"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/coset", "shared-foundations/partition"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/cosets-partition.md"
 +++
 

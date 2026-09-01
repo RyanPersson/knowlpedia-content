@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Group structures on a formal disc, expressed in chosen parameters, are exactly formal group laws."
 aliases = ["coordinate equivalence for formal groups", "formal groups with parameters", "formal group law coordinate presentation"]
 domains = ["formal-groups"]
+prerequisites = ["formal-groups/formal-affine-space", "formal-groups/formal-group-law", "formal-groups/formal-group-law-morphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

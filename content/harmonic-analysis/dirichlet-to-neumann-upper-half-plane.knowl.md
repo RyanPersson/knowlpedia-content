@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The boundary operator sending Dirichlet data to the normal derivative of its harmonic Poisson extension."
 aliases = ["upper-half-plane Dirichlet-to-Neumann map", "half-Laplacian on the line"]
 domains = ["harmonic-analysis", "partial-differential-equations", "complex-analysis"]
+prerequisites = ["harmonic-analysis/poisson-extension-upper-half-plane", "harmonic-analysis/hilbert-transform"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

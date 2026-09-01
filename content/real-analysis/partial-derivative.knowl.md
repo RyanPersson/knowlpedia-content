@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Derivative of a multivariable function with respect to one coordinate"
 aliases = ["partial-derivative", "Partial derivative"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/jacobian-matrix", "real-analysis/differentiable-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/partial-derivative.md"
 +++
 

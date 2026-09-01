@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A nonconstant polynomial that cannot be factored into lower-degree nonunits."
 aliases = ["irreducible-polynomial", "Irreducible polynomial"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/integral-domain", "algebra-rings/unit"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/irreducible-polynomial.md"
 +++
 

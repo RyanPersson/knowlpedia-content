@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The 14-dimensional simple complex Lie algebra of rank 2 and exceptional Dynkin type G2."
 aliases = ["exceptional-lie-algebra-g2", "g2", "complex Lie algebra g2", "exceptional Lie algebra G2"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

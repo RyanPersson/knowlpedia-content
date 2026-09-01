@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Z/2-graded cyclic cohomology of Banach algebras whose infinite cochain sequences satisfy a factorial analytic-growth condition."
 aliases = ["entire (b,B)-cohomology", "HE cohomology"]
 domains = ["noncommutative-geometry", "operator-algebras", "algebra-homological"]
+prerequisites = ["functional-analysis/banach-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The sign and bracket convention relating a local connection 1 form to its local curvature 2 form."
 aliases = ["convention-local-curvature-convention-f-da-aa", "Convention: local curvature is F = dA + A wedge A"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/principal-g-bundle", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/local-connection-1-form", "fiber-bundles/local-curvature-2-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/convention-local-curvature-convention-f-da-aa.md"
 +++
 

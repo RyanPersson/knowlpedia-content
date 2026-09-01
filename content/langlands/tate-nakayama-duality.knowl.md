@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Duality identifying Galois cohomology of a local torus with characters of the component group of its dual torus."
 aliases = ["Tate-Nakayama duality", "local Tate–Nakayama pairing", "Tate-Nakayama pairing"]
 domains = ["langlands", "algebra-fields-galois", "algebra-homological"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/langlands-dual-group", "langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/nonabelian-h1-galois-cohomology", "algebra-groups/abelian-group", "topology/connected-component"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An ideal Q such that ab in Q forces a in Q or a power of b in Q."
 aliases = ["primary-ideal", "Primary ideal"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/primary-ideal.md"
 +++
 

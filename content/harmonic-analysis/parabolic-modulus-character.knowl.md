@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The positive character measuring how a parabolic Levi acts on its unipotent radical."
 aliases = ["modulus character of a parabolic", "modular character delta_P", "delta_P"]
 domains = ["harmonic-analysis", "langlands", "lie-groups"]
+prerequisites = ["algebra-fields-galois/local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/unipotent-radical", "algebra-representation-theory/character", "lie-groups/lie-algebra", "algebraic-geometry-foundations/levi-subgroup", "harmonic-analysis/modular-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

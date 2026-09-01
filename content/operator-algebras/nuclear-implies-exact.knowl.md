@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Every nuclear C-star algebra is exact, although exact C-star algebras need not be nuclear."
 aliases = ["nuclearity implies exactness"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/nuclear-cstar-algebra", "operator-algebras/exact-cstar-algebra", "operator-algebras/cstar-exact-sequence", "operator-algebras/maximal-cstar-tensor-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

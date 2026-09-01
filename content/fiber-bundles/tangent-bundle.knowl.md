@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The smooth vector bundle whose fiber at p is the tangent space T_pM."
 aliases = ["tangent-bundle", "Tangent bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/smooth-atlas", "fiber-bundles/vector-bundle", "fiber-bundles/local-trivialization"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/tangent-bundle.md"
 +++
 

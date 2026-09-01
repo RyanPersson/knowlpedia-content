@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A space where any two distinct points have disjoint neighborhoods."
 aliases = ["hausdorff-space", "Hausdorff space"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "topology/neighborhood"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/hausdorff-space.md"
 +++
 

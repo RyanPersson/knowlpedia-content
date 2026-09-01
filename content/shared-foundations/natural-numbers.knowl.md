@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set of nonnegative integers used for counting and indexing."
 aliases = ["natural-numbers", "Natural numbers"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/natural-numbers.md"
 +++
 

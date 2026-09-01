@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Ext¹_R(C,A) is naturally identified with equivalence classes of short exact sequences 0→A→E→C→0."
 aliases = ["ext1-classifies-extensions", "Ext¹ classifies extensions"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-modules/short-exact-sequence", "algebra-homological/ext", "algebra-modules/hom-module", "algebra-homological/derived-functor"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/ext1-classifies-extensions.md"
 +++
 

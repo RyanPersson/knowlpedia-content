@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Construction of the parallel transport map determined by a connection along a smooth curve."
 aliases = ["construction-parallel-transport-map-along-a-curve", "Parallel transport map along a curve"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-parallel-transport-map-along-a-curve.md"
 +++
 

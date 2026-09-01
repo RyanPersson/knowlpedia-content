@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A scalar obtained by evaluating a top-degree product of characteristic classes on a fundamental class."
 aliases = ["characteristic class number", "characteristic number of a manifold"]
 domains = ["fiber-bundles", "topology"]
+prerequisites = ["topology/closed-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/characteristic-class", "topology/cup-product-and-cohomology-ring", "topology/fundamental-class", "fiber-bundles/tangent-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

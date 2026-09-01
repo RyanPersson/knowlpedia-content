@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Any subgroup with exactly two cosets is invariant under conjugation"
 aliases = ["index-2-normal", "Subgroup of Index 2 is Normal"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/index-of-subgroup", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/index-2-normal.md"
 +++
 

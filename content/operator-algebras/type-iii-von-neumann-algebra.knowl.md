@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A von Neumann algebra with no nonzero finite projections."
 aliases = ["type III W*-algebra"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/finite-projection", "operator-algebras/infinite-projection", "operator-algebras/von-neumann-factor"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

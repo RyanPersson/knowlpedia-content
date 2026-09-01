@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A subset that is eventually contained in every sufficiently large scalar multiple of each zero-neighborhood."
 aliases = ["von Neumann bounded set", "TVS-bounded set"]
 domains = ["functional-analysis", "topology"]
+prerequisites = ["functional-analysis/topological-vector-space", "topology/neighborhood", "convex-analysis/balanced-and-absorbing-sets"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The Fenchel conjugate of a function's conjugate, central to lower-semicontinuous convex relaxation."
 aliases = ["biconjugate"]
 domains = ["convex-analysis"]
+prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/fenchel-moreau-theorem", "convex-analysis/closed-convex-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/biconjugate.md"
 +++
 

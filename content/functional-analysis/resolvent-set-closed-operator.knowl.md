@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The scalars for which a closed operator has an everywhere-defined bounded inverse."
 aliases = ["operator resolvent set", "regular set"]
 domains = ["functional-analysis"]
+prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/bounded-linear-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

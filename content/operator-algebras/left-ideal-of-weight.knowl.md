@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The elements whose positive square has finite value under a weight."
 aliases = ["square-integrable ideal of a weight"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/weight-on-von-neumann-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

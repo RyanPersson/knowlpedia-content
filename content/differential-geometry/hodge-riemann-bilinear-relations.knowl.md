@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The positivity theorem for the Hermitian intersection form on primitive cohomology of a compact Kähler manifold."
 aliases = ["Riemann bilinear relations"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/kahler-class", "differential-geometry/primitive-cohomology"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A bounded linear operator commuting with the actions of a group on two Hilbert spaces."
 aliases = ["intertwiner", "equivariant bounded operator"]
 domains = ["lie-groups", "harmonic-analysis"]
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "functional-analysis/bounded-linear-operator", "linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

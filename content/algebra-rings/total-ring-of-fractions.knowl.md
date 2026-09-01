@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Localization of a commutative ring obtained by inverting all regular elements (non-zero-divisors)."
 aliases = ["total-ring-of-fractions", "Total ring of fractions"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/regular-element", "algebra-rings/zero-divisor", "algebra-rings/unit"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/total-ring-of-fractions.md"
 +++
 

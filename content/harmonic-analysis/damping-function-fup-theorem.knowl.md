@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Uniform damping functions for affine rescalings of a frequency set imply a fractal uncertainty principle against porous physical sets."
 aliases = ["Han–Schlag FUP theorem", "damping functions imply FUP"]
 domains = ["harmonic-analysis"]
+prerequisites = ["analysis/porosity-on-balls", "harmonic-analysis/damping-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

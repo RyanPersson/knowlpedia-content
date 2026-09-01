@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set of outputs a function attains on a given subset of inputs"
 aliases = ["image"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/image.md"
 +++
 

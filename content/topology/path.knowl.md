@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A continuous map from the unit interval into a space."
 aliases = ["path"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "topology/continuous-map", "real-analysis/interval", "topology/path-connected-set", "topology/curve"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/path.md"
 +++
 

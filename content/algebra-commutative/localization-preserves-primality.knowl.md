@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A prime ideal disjoint from the multiplicative set extends to a prime ideal in the localized ring."
 aliases = ["localization-preserves-primality", "Localization preserves prime ideals"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-commutative/localization-ring", "algebra-commutative/localization-prime-correspondence", "algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/localization-preserves-primality.md"
 +++
 

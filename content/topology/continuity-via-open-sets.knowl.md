@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function is continuous iff the preimage of every open set is open"
 aliases = ["continuity-via-open-sets", "Continuity via open sets"]
 domains = ["topology"]
+prerequisites = ["topology/metric-space", "real-analysis/continuity-on-a-set", "topology/open-set", "real-analysis/preimage-inverse-image", "shared-foundations/composition-of-functions"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/continuity-via-open-sets.md"
 +++
 

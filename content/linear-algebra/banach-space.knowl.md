@@ -5,7 +5,9 @@ kind = "knowl"
 summary = "A complete normed vector space."
 aliases = ["banach-space", "Banach space"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/normed-vector-space", "topology/complete-metric-space"]
+prerequisites = ["linear-algebra/normed-vector-space", "topology/complete-metric-space", "topology/cauchy-sequence"]
+dependency_heuristic = "authored+definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/banach-space.md"
 +++
 

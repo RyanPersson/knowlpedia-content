@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A nonassociative algebra in which repeated adjacent factors associate."
 aliases = ["alternative ring", "left and right alternative algebra"]
 domains = ["nonassociative-algebra"]
+prerequisites = ["nonassociative-algebra/nonassociative-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

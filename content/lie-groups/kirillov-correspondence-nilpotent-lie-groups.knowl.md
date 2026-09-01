@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The classification of irreducible unitary representations of a connected simply connected nilpotent Lie group by its coadjoint orbits."
 aliases = ["orbit-method theorem for nilpotent groups", "Kirillov homeomorphism"]
 domains = ["lie-groups", "representation-theory", "harmonic-analysis"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/orbit-method-induced-representation", "differential-geometry/coadjoint-orbit", "harmonic-analysis/unitary-dual", "topology/quotient-topology", "lie-groups/strongly-continuous-unitary-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A scheme morphism whose induced homomorphisms on local rings are flat."
 aliases = ["flat-morphism", "Flat morphism"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-modules/flat-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 A morphism \(f:Y\to X\) of [[algebraic-geometry-foundations/scheme|schemes]] is **flat at** \(y\in Y\) if the induced homomorphism of local rings

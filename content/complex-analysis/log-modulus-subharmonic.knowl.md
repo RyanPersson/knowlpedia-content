@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The logarithm of the modulus of a nonzero holomorphic function is subharmonic, with Laplacian equal to its zero-counting measure."
 aliases = ["log modulus is subharmonic", "Poincaré–Lelong formula in one variable"]
 domains = ["complex-analysis", "potential-theory"]
+prerequisites = ["complex-analysis/subharmonic-function", "functional-analysis/distribution"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

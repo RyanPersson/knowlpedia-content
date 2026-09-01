@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Over an algebraically closed field, the ideal of a variety is the radical of the defining ideal."
 aliases = ["nullstellensatz-strong", "Hilbert's Nullstellensatz (strong)"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/field", "algebra-rings/ideal", "algebra-rings/polynomial-ring", "algebra-rings/radical-of-ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/nullstellensatz-strong.md"
 +++
 
@@ -17,5 +20,7 @@ Then
 I(V(I))=\sqrt{I},
 \]
 where \(\sqrt{I}\) denotes the [[algebra-rings/radical-of-ideal|radical of an ideal]].
+
+## Consequences
 
 This identifies geometric vanishing with algebraic nilpotence modulo \(I\) and implies, for instance, that varieties correspond to radical ideals and irreducible varieties correspond to [[algebra-rings/prime-ideal|prime ideals]].

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every nontrivial unital commutative ring has a maximal ideal (via Zorn's lemma)."
 aliases = ["existence-of-maximal-ideals", "Existence of maximal ideals"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/unital-ring", "algebra-rings/maximal-ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/existence-of-maximal-ideals.md"
 +++
 

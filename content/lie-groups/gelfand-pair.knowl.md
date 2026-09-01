@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A locally compact group and compact subgroup whose bi-invariant convolution algebra is commutative."
 aliases = ["commutative homogeneous pair", "spherical pair"]
 domains = ["lie-groups", "harmonic-analysis"]
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "lie-groups/homogeneous-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

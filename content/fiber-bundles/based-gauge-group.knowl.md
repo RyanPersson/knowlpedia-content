@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The subgroup of gauge transformations that fixes a chosen point in a principal-bundle fiber."
 aliases = ["pointed gauge group", "framed gauge group"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-group", "fiber-bundles/gauge-transformation", "fiber-bundles/equivariant-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

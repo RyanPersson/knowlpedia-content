@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A metric space is compact exactly when it is complete and totally bounded."
 aliases = ["compact-iff-complete-totally-bounded", "Compact iff complete and totally bounded"]
 domains = ["topology"]
+prerequisites = ["topology/metric-space", "topology/compact-set", "topology/complete-metric-space", "topology/totally-bounded-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/compact-iff-complete-totally-bounded.md"
 +++
 

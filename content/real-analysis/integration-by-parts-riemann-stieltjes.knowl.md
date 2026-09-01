@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A boundary-term identity relating two Riemann–Stieltjes integrals."
 aliases = ["integration-by-parts-riemann-stieltjes", "Integration by parts for Riemann–Stieltjes integrals"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/bounded-variation-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/integration-by-parts-riemann-stieltjes.md"
 +++
 

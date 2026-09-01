@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A boundary chart gives local coordinates on a manifold with boundary in a relatively open subset of a Euclidean half-space."
 aliases = ["half-space chart", "boundary coordinate chart"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/manifold-with-boundary", "fiber-bundles/smooth-atlas"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

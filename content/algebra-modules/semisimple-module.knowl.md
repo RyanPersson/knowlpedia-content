@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A module that is a direct sum of simple modules; equivalently, all short exact sequences split."
 aliases = ["semisimple-module", "Semisimple module"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/direct-sum-modules", "algebra-modules/simple-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/semisimple-module.md"
 +++
 

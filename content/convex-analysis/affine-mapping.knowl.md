@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A map of the form x↦Ax+b, i.e., linear plus a translation"
 aliases = ["affine-mapping", "Affine mapping"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/linear-operator-linear-transformation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/affine-mapping.md"
 +++
 

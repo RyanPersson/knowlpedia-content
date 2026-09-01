@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An element α is algebraic over F if it satisfies a nonzero polynomial with coefficients in F."
 aliases = ["algebraic-element", "Algebraic element"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/transcendental-element"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/algebraic-element.md"
 +++
 

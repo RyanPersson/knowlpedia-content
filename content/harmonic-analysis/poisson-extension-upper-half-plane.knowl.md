@@ -5,6 +5,9 @@ kind = "construction"
 summary = "Boundary data on the real line convolved with the Poisson kernel to produce a harmonic function on the upper half-plane."
 aliases = ["harmonic Poisson extension", "Poisson integral"]
 domains = ["harmonic-analysis", "complex-analysis", "partial-differential-equations"]
+prerequisites = ["harmonic-analysis/poisson-kernel-upper-half-plane", "complex-analysis/harmonic-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

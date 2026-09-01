@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Fredholm module on a graded Hilbert space whose representation is even and whose Fredholm operator is odd."
 aliases = ["graded Fredholm module", "even bounded K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/fredholm-module", "functional-analysis/z2-graded-hilbert-space", "operator-algebras/graded-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

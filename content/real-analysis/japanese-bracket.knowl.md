@@ -5,6 +5,9 @@ kind = "notation"
 summary = "The smooth positive weight (1 + norm-squared)^(1/2) used to combine local and asymptotic estimates."
 aliases = ["Peetre bracket", "angle bracket weight"]
 domains = ["real-analysis", "harmonic-analysis", "partial-differential-equations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

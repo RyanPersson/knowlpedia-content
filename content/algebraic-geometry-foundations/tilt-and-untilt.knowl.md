@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The passage between perfectoid fields of mixed and positive characteristic via inverse-limit Frobenius."
 aliases = ["tilting equivalence", "perfectoid tilt", "untilt", "K-flat"]
 domains = ["algebraic-geometry-foundations", "number-theory", "langlands"]
+prerequisites = ["algebraic-geometry-foundations/perfectoid-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

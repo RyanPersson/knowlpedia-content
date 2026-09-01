@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Smooth strictly quaternionic PSH functions are exactly the local potentials of HKT metrics."
 aliases = ["HKT potential", "local potential of an HKT metric"]
 domains = ["differential-geometry", "quaternionic-analysis"]
+prerequisites = ["differential-geometry/hypercomplex-manifold", "differential-geometry/quaternionic-plurisubharmonic-function-hypercomplex", "differential-geometry/hkt-metric"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

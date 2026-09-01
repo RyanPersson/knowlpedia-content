@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An immersed submanifold is a manifold equipped with an injective immersion into an ambient smooth manifold."
 aliases = ["injectively immersed submanifold"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-immersion"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

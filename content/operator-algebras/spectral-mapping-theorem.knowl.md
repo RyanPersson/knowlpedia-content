@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Functional calculus carries the spectrum of an element to the image of that spectrum under the function."
 aliases = ["spectrum of f(a)", "spectral mapping"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["functional-analysis/banach-algebra", "functional-analysis/banach-algebra-spectrum", "functional-analysis/holomorphic-functional-calculus-banach-algebra", "operator-algebras/continuous-functional-calculus"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

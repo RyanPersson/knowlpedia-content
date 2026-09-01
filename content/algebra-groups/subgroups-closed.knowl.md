@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subgroup contains the identity and is closed under multiplication and inversion"
 aliases = ["subgroups-closed", "Subgroups are closed under inverses and products"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/subgroup", "algebra-groups/group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/subgroups-closed.md"
 +++
 

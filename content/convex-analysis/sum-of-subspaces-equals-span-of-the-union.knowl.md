@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The sum of two subspaces is a subspace and equals the span of their union"
 aliases = ["sum-of-subspaces-equals-span-of-the-union", "Sum of subspaces and span of the union"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/linear-subspace", "convex-analysis/set-operations-sum-scalar-multiple-difference"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/sum-of-subspaces-equals-span-of-the-union.md"
 +++
 

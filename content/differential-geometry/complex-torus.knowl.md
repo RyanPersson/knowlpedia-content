@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A quotient of a finite-dimensional complex vector space by a full lattice."
 aliases = ["complex analytic torus"]
 domains = ["differential-geometry", "lie-groups"]
+prerequisites = ["linear-algebra/vector-space", "lie-groups/discrete-subgroup", "differential-geometry/complex-manifold", "fiber-bundles/lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

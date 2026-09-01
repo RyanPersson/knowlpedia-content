@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The singular incidence hypersurface of Lagrangian planes that fail to be transverse to a fixed Lagrangian plane."
 aliases = ["train of a Lagrangian", "Maslov hypersurface"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/lagrangian-grassmannian", "differential-geometry/maslov-index"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

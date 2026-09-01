@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A module in which every element is torsion (over an integral domain)."
 aliases = ["torsion-module", "Torsion module"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-rings/integral-domain", "algebra-modules/module", "algebra-modules/torsion-element", "algebra-modules/torsion-free-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/torsion-module.md"
 +++
 

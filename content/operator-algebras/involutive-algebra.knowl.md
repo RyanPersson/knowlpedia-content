@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A complex associative algebra equipped with a conjugate-linear involution reversing products."
 aliases = ["*-algebra"]
 domains = ["operator-algebras", "algebra-rings"]
+prerequisites = ["algebra-modules/algebra-over-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

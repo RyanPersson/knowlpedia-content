@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A representation that splits as a direct sum of irreducible subrepresentations."
 aliases = ["completely-reducible-representation", "Completely reducible representation"]
 domains = ["algebra-representation-theory"]
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-modules/direct-sum-modules"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-representation-theory/completely-reducible-representation.md"
 +++
 

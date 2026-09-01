@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The finite group of connected components of the dual-group centralizer of a Langlands parameter, with refinements used to index packets."
 aliases = ["Langlands component group", "Arthur component group", "A_phi", "S_phi"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["langlands/local-l-parameter", "algebra-groups/centralizer", "langlands-letter/knowls/langlands-dual-group", "langlands/l-packet"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

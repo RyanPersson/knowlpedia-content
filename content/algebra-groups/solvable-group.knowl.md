@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A group whose derived series terminates at the trivial subgroup"
 aliases = ["solvable-group", "Solvable Group"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/derived-series", "algebra-groups/trivial-subgroup", "algebra-groups/commutator-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/solvable-group.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Within its radius of convergence, a power series defines a function with derivatives given by termwise differentiation."
 aliases = ["power-series-analytic-on-disk", "Power series is analytic on its disk of convergence"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/power-series"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/power-series-analytic-on-disk.md"
 +++
 

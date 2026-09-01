@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An ideal containing no nonzero nilpotent ideal modulo it; in commutative rings, the same as a radical ideal."
 aliases = ["semiprime-ideal", "Semiprime ideal"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/two-sided-ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/semiprime-ideal.md"
 +++
 

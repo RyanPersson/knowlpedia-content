@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The symplectic quotient of a coisotropic subspace by its characteristic subspace."
 aliases = ["symplectic reduction of a vector space", "coisotropic quotient"]
 domains = ["differential-geometry", "linear-algebra"]
+prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/coisotropic-subspace", "convex-analysis/quotient-vector-space-codimension", "differential-geometry/symplectic-orthogonal-complement"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

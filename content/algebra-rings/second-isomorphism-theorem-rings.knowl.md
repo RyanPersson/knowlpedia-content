@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subring modulo its intersection with an ideal is isomorphic to its image in the corresponding quotient."
 aliases = ["second-isomorphism-theorem-rings", "Second isomorphism theorem for rings"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/subring", "algebra-rings/ideal", "algebra-rings/quotient-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/second-isomorphism-theorem-rings.md"
 +++
 

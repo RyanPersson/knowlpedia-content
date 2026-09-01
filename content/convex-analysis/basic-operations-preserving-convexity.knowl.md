@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Nonnegative scaling, finite sums, and finite maxima preserve convexity"
 aliases = ["basic-operations-preserving-convexity", "Operations Preserving Convexity"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-function-via-epigraph"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/basic-operations-preserving-convexity.md"
 +++
 

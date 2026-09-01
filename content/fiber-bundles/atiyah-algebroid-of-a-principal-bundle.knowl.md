@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The quotient TP/G with its natural Lie algebroid structure induced by G-invariant vector fields on the total space."
 aliases = ["atiyah-algebroid-of-a-principal-bundle", "Atiyah algebroid of a principal bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/tangent-bundle", "fiber-bundles/quotient-vector-bundle", "fiber-bundles/bundle-map", "fiber-bundles/vector-field", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/atiyah-algebroid-of-a-principal-bundle.md"
 +++
 

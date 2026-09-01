@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An upper-semicontinuous function on quaternionic space whose restriction to every right quaternionic line is subharmonic."
 aliases = ["quaternionic PSH function", "quaternionic plurisubharmonicity", "qPSH function"]
 domains = ["complex-analysis", "quaternionic-analysis", "potential-theory"]
+prerequisites = ["complex-analysis/upper-semicontinuous-function", "complex-analysis/subharmonic-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

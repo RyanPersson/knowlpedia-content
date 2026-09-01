@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An inequality relating a function and its Fenchel conjugate via the dual pairing."
 aliases = ["fenchel-young-inequality", "Fenchel-Young inequality"]
 domains = ["convex-analysis"]
+prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/subdifferential"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/fenchel-young-inequality.md"
 +++
 

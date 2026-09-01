@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every open cover of a compact subset of a metric space has a finite subcover."
 aliases = ["finite-subcover-lemma", "Finite subcover lemma"]
 domains = ["real-analysis"]
+prerequisites = ["topology/metric-space", "topology/compact-set", "topology/open-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/finite-subcover-lemma.md"
 +++
 

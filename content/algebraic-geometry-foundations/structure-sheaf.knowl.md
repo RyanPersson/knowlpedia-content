@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The sheaf of rings that supplies the local algebraic functions on a scheme."
 aliases = ["structure-sheaf", "Structure sheaf"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/sheaf", "algebraic-geometry-foundations/scheme", "algebra-commutative/prime-spectrum", "algebra-commutative/localization-ring", "algebraic-geometry-foundations/stalk", "algebra-commutative/local-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebraic-geometry-foundations/structure-sheaf.md"
 +++
 
@@ -18,4 +21,8 @@ by
 \[
 \mathcal O_X(D(f))=A_f,
 \]
-the [[algebra-commutative/localization-ring|localization]] obtained by inverting \(f\). At a point \(\mathfrak p\), its [[algebraic-geometry-foundations/stalk|stalk]] is \(\mathcal O_{X,\mathfrak p}\cong A_{\mathfrak p}\), a [[algebra-commutative/local-ring|local ring]]. For example, on \(\operatorname{Spec}k[x]\), the section \(1/x\) is regular on \(D(x)\), although it is not a global polynomial.
+the [[algebra-commutative/localization-ring|localization]] obtained by inverting \(f\). At a point \(\mathfrak p\), its [[algebraic-geometry-foundations/stalk|stalk]] is \(\mathcal O_{X,\mathfrak p}\cong A_{\mathfrak p}\), a [[algebra-commutative/local-ring|local ring]].
+
+## Examples
+
+On \(\operatorname{Spec}k[x]\), the section \(1/x\) is regular on \(D(x)\), although it is not a global polynomial.

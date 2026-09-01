@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The cohomology of the cochain complex dual to the singular chain complex of a topological space."
 aliases = ["ordinary cohomology", "integral cohomology", "H^k(X,R)"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "algebra-groups/abelian-group", "topology/continuous-map", "algebra-homological/cohomology-module", "algebra-homological/cochain-complex"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

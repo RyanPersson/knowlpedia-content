@@ -5,6 +5,9 @@ kind = "construction"
 summary = "A Spin(9)-invariant continuous valuation obtained from the octonionic Hessian measure of a support function."
 aliases = ["octonionic pseudo-volume", "Spin(9)-invariant octonionic valuation", "P_O valuation"]
 domains = ["convex-analysis", "octonionic-analysis", "lie-groups"]
+prerequisites = ["convex-analysis/convex-body", "convex-analysis/support-function", "complex-analysis/octonionic-monge-ampere-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

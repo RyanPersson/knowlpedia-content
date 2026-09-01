@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The smooth manifold structure on an orbit space arising from a free and proper Lie group action."
 aliases = ["quotient-manifold", "Quotient manifold (for a free proper action)"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/quotient-manifold.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function represented by polynomial formulas on a finite semialgebraic cover."
 aliases = ["piecewise polynomial", "piecewise-polynomial function"]
 domains = ["convex-analysis", "algebra-rings"]
+prerequisites = ["convex-analysis/semialgebraic-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 A function \(f:\mathbb R^n\to\mathbb R\) is **piecewise polynomial** if there are finitely many closed [[convex-analysis/semialgebraic-set|semialgebraic sets]] \(S_1,\ldots,S_m\) covering \(\mathbb R^n\), and polynomials \(p_i\in\mathbb R[x_1,\ldots,x_n]\), such that \(f(x)=p_i(x)\) whenever \(x\in S_i\).

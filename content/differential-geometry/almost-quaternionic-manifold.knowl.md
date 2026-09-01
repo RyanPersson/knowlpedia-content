@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A real manifold whose tangent bundle carries a rank-three family of endomorphisms locally satisfying the quaternion relations."
 aliases = ["almost quaternionic structure"]
 domains = ["differential-geometry", "fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

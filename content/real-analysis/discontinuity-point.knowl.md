@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A point where a function fails to be continuous"
 aliases = ["discontinuity-point", "Discontinuity point"]
 domains = ["real-analysis"]
+prerequisites = ["topology/continuous-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/discontinuity-point.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A state is pure exactly when its GNS representation is irreducible."
 aliases = ["pure iff GNS irreducible", "GNS purity criterion"]
 domains = ["operator-algebras", "representation-theory"]
+prerequisites = ["operator-algebras/state-cstar-algebra", "operator-algebras/gns-construction", "operator-algebras/pure-state-cstar-algebra", "operator-algebras/irreducible-cstar-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

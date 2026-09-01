@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set containing the entire line through any two of its points."
 aliases = ["affine-set", "Affine Set"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/line-connecting-two-points"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/affine-set.md"
 +++
 

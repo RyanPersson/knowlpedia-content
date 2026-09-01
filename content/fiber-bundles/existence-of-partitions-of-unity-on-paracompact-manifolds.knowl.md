@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "On a paracompact smooth manifold, every open cover admits a smooth partition of unity subordinate to it."
 aliases = ["existence-of-partitions-of-unity-on-paracompact-manifolds", "Existence of partitions of unity on paracompact manifolds"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/existence-of-partitions-of-unity-on-paracompact-manifolds.md"
 +++
 

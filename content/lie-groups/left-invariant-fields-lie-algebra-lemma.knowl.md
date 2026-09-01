@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Left-invariant vector fields are closed under bracket and identify with T_eG."
 aliases = ["left-invariant-fields-lie-algebra-lemma", "Left-invariant vector fields form the Lie algebra"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/left-translation", "lie-groups/lie-algebra-of-a-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/left-invariant-fields-lie-algebra-lemma.md"
 +++
 

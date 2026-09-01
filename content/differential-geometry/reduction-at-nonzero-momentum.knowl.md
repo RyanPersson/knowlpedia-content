@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Regular reduction at a nonzero moment-map value uses the coadjoint stabilizer of that value."
 aliases = ["nonzero-level reduction", "reduction at a coadjoint value"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/lie-group", "differential-geometry/hamiltonian-lie-group-action", "fiber-bundles/moment-map", "fiber-bundles/regular-value", "differential-geometry/symplectic-quotient", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Tomita operator is the closed antilinear operator obtained from the adjoint operation relative to a cyclic separating vector."
 aliases = ["involutive Tomita operator"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/cyclic-vector", "operator-algebras/separating-vector"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The subgroup of gauge transformations that leave a connection fixed."
 aliases = ["gauge stabilizer", "isotropy group of a connection"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-group", "fiber-bundles/principal-connection", "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback", "algebra-groups/stabilizer", "fiber-bundles/gauge-transformation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

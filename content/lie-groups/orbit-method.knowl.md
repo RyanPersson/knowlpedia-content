@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A program relating irreducible unitary representations of a Lie group to symplectic coadjoint orbits."
 aliases = ["Kirillov orbit method", "method of coadjoint orbits"]
 domains = ["lie-groups", "representation-theory", "differential-geometry"]
+prerequisites = ["lie-groups/irreducible-unitary-representation", "fiber-bundles/lie-group", "differential-geometry/coadjoint-orbit", "lie-groups/polarization-of-a-coadjoint-orbit"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

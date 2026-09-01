@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A group acts on itself by left translation"
 aliases = ["left-multiplication-action", "Left multiplication action"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/group-action", "algebra-groups/regular-action"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/left-multiplication-action.md"
 +++
 

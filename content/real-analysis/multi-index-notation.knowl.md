@@ -5,6 +5,9 @@ kind = "notation"
 summary = "Compact notation for products, factorials, and iterated partial derivatives in several variables."
 aliases = ["multiindex notation", "multi-index derivative"]
 domains = ["real-analysis", "partial-differential-equations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

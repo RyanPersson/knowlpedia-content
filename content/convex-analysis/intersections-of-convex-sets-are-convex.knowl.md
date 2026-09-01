@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Any intersection of convex sets is convex"
 aliases = ["intersections-of-convex-sets-are-convex", "Intersections of convex sets are convex"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/convex-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/intersections-of-convex-sets-are-convex.md"
 +++
 

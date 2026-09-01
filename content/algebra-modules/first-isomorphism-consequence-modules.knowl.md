@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For a homomorphism f, the induced map M/ker(f) → im(f) is an isomorphism."
 aliases = ["first-isomorphism-consequence-modules", "Quotient by kernel is isomorphic to image"]
 domains = ["algebra-modules"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/first-isomorphism-consequence-modules.md"
 +++
 
