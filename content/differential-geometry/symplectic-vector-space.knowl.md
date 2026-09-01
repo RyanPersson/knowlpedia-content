@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A finite-dimensional real vector space equipped with a nondegenerate alternating bilinear form."
 aliases = ["linear symplectic space"]
 domains = ["differential-geometry", "linear-algebra"]
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/bilinear-form", "linear-algebra/linear-map", "linear-algebra/inner-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

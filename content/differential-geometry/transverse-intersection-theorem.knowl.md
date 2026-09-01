@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Transverse embedded submanifolds intersect in an embedded submanifold of the expected codimension."
 aliases = ["intersection theorem for transverse submanifolds"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "differential-geometry/transverse-submanifolds"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A principal connection can be specified by a horizontal distribution, a splitting of the tangent sequence, or a connection one-form."
 aliases = ["tfae-principal-connection-data-principal-g-bundle-pm", "Equivalent descriptions of a principal connection"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/tangent-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/tfae-principal-connection-data-principal-g-bundle-pm.md"
 +++
 

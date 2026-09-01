@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The crossed-product C*-algebra obtained from a continuous action of a locally compact group on a locally compact space."
 aliases = ["transformation group algebra", "crossed product of a transformation group"]
 domains = ["operator-algebras"]
+prerequisites = ["topology/locally-compact-space", "topology/locally-compact-group", "operator-algebras/full-crossed-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

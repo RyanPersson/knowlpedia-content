@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A commutative associative hyperoperation with zero, unique inverses, and reversibility."
 aliases = ["canonical commutative hypergroup", "Krasner hypergroup"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
+prerequisites = ["algebra-hyperstructures/hyperoperation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

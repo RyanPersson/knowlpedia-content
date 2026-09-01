@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A positive element is a self-adjoint C*-algebra element whose spectrum is contained in the nonnegative real axis."
 aliases = ["positive C*-element", "nonnegative element of a C*-algebra"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/self-adjoint-element", "functional-analysis/banach-algebra-spectrum", "operator-algebras/continuous-functional-calculus"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The moment-map image of a compact connected Hamiltonian torus space is the convex hull of its fixed-point images, and its fibers are connected."
 aliases = ["convexity theorem for moment maps", "moment-map convexity theorem"]
 domains = ["differential-geometry", "lie-groups"]
+prerequisites = ["differential-geometry/hamiltonian-torus-action", "differential-geometry/symplectic-manifold", "fiber-bundles/moment-map", "convex-analysis/convex-hull", "topology/connected-component"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

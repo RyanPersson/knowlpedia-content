@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A space whose homotopy classes of maps from a base classify principal G-bundles up to isomorphism."
 aliases = ["classifying-space-bg", "Classifying space BG"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/classifying-space-bg.md"
 +++
 

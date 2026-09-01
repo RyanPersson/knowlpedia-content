@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A lift of the oriented orthonormal frame bundle through the double covering Spin(n) to SO(n)."
 aliases = ["spin lift of the frame bundle", "principal Spin bundle"]
 domains = ["fiber-bundles", "differential-geometry", "topology"]
+prerequisites = ["fiber-bundles/special-orthonormal-frame-bundle-reduction", "fiber-bundles/bundle-map", "lie-groups/spin-group", "algebra-groups/group-action"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An irreducible representation occurring as a subquotient of a space of automorphic forms."
 aliases = ["automorphic representations"]
 domains = ["langlands", "number-theory", "representation-theory"]
+prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "harmonic-analysis/regular-representations-locally-compact-group", "langlands/automorphic-form", "algebra-representation-theory/central-character"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

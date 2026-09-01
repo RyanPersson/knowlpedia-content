@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set whose closure has empty interior"
 aliases = ["nowhere-dense-set", "Nowhere dense set"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/interior", "topology/closure", "shared-foundations/empty-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/nowhere-dense-set.md"
 +++
 

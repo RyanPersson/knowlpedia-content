@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "From a commutative diagram with exact rows, produces an exact sequence of kernels and cokernels with a canonical connecting map."
 aliases = ["snake-lemma", "Snake lemma"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical", "algebra-modules/cokernel-module", "algebra-modules/exact-sequence-modules"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/snake-lemma.md"
 +++
 

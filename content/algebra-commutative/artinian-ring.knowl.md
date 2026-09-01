@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A ring in which descending chains of ideals stabilize."
 aliases = ["artinian-ring", "Artinian ring"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/artinian-ring.md"
 +++
 

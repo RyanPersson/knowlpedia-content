@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A vector bundle on a curve equipped with a Frobenius isomorphism away from finitely many moving legs."
 aliases = ["chtouca", "Drinfeld shtuka", "multiple-leg shtuka"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
+prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "algebra-fields-galois/finite-field", "algebraic-geometry-foundations/locally-free-sheaf", "algebra-fields-galois/frobenius-endomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The band definition of an idyll agrees with its purely positive ordered-blue-field realization."
 aliases = ["ordered-blueprint realization of an idyll"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
+prerequisites = ["algebra-hyperstructures/band", "algebraic-geometry-foundations/ordered-blueprint", "algebra-hyperstructures/idyll", "algebraic-geometry-foundations/ordered-blue-field", "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

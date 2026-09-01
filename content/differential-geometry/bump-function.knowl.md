@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth function with compact support, often chosen to equal one on a prescribed closed set."
 aliases = ["smooth bump function", "smooth cutoff function"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "topology/compact-set", "topology/closed-set", "topology/neighborhood"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

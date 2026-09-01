@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Points where the derivative of a map has maximal rank, versus points where it fails to"
 aliases = ["regular-point-critical-point-multivariable", "Regular point and critical point"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/differentiable-map", "real-analysis/jacobian-matrix"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/regular-point-critical-point-multivariable.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If a prime p divides |G|, then G contains an element (and subgroup) of order p"
 aliases = ["cauchys-theorem-groups", "Cauchy's Theorem (Finite Groups)"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/cyclic-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/cauchys-theorem-groups.md"
 +++
 

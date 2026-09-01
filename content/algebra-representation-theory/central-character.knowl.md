@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The character by which the center of a group acts on a representation."
 aliases = ["central character", "central quasicharacter", "character of the center of a representation"]
 domains = ["algebra-representation-theory", "harmonic-analysis", "langlands"]
+prerequisites = ["algebra-groups/center-of-group", "algebra-representation-theory/character", "algebra-representation-theory/irreducible-representation", "algebraic-geometry-foundations/algebraically-closed-field", "algebra-representation-theory/schurs-lemma", "topology/topological-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

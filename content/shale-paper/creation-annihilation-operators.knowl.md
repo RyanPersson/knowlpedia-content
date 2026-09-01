@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Operators adding/removing one symmetric tensor factor in bosonic Fock space"
 aliases = ["creation-annihilation-operators", "Creation and Annihilation Operators"]
 domains = ["shale-paper"]
+prerequisites = ["shale-paper/symmetric-fock-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shale-paper/creation-annihilation-operators.md"
 +++
 

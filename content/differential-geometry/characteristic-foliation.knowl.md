@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The foliation integrating the null distribution of the symplectic form restricted to a coisotropic submanifold."
 aliases = ["null foliation"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/coisotropic-submanifold", "differential-geometry/symplectic-manifold", "differential-geometry/characteristic-distribution-coisotropic"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

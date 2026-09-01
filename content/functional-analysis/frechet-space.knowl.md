@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Hausdorff locally convex space whose topology is induced by a complete metric."
 aliases = ["F-space in the locally convex sense", "complete metrizable locally convex space"]
 domains = ["functional-analysis"]
+prerequisites = ["functional-analysis/locally-convex-space", "convex-analysis/complete-metric-space-complete-subset"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

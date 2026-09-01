@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Matrix coefficients of distinct irreducible unitary representations are orthogonal in L²(G), with a sharp normalization."
 aliases = ["schur-orthogonality-lie-groups", "Schur orthogonality for compact Lie groups"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/compact-lie-group", "harmonic-analysis/haar-measure", "lie-groups/representation-of-a-lie-group", "lie-groups/irreducible-representation-lie-group", "lie-groups/peter-weyl-theorem", "lie-groups/completely-reducible-representation-lie"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/schur-orthogonality-lie-groups.md"
 +++
 

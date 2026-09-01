@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A sheaf carrying module structures over a fixed sheaf of rings, compatibly with restriction."
 aliases = ["module sheaf", "O-module sheaf", "sheaf of O-modules"]
 domains = ["algebraic-geometry-foundations", "algebra-modules"]
+prerequisites = ["algebraic-geometry-foundations/ringed-space", "algebra-groups/abelian-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

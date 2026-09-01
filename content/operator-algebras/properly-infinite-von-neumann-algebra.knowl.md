@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A properly infinite von Neumann algebra is one whose identity is equivalent to two orthogonal subprojections of itself."
 aliases = ["properly infinite W*-algebra"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/orthogonal-projection", "operator-algebras/murray-von-neumann-equivalence", "operator-algebras/infinite-projection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

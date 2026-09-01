@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A nonzero intertwiner between irreducible representations is an isomorphism; equivariant endomorphisms form a division ring and, under standard hypotheses, are scalars."
 aliases = ["schurs-lemma", "Schur's Lemma"]
 domains = ["algebra-representation-theory"]
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/irreducible-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-representation-theory/schurs-lemma.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The curvature 2-form expressed on the base via pullback along a local section."
 aliases = ["local-curvature-2-form", "Local curvature 2-form"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket", "fiber-bundles/gauge-transform-of-a-local-connection-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/local-curvature-2-form.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A degreewise module homomorphism between chain complexes commuting with differentials."
 aliases = ["chain-map", "Chain map"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-homological/chain-complex", "algebra-homological/homology-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/chain-map.md"
 +++
 

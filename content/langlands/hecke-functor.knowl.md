@@ -5,6 +5,9 @@ kind = "construction"
 summary = "A pull-push functor on automorphic sheaves defined from the Hecke correspondence and a dual-group representation."
 aliases = ["Hecke functor", "geometric Hecke operator"]
 domains = ["langlands"]
+prerequisites = ["langlands/geometric-satake-equivalence", "langlands/hecke-correspondence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A family of continuous linear maps that satisfies one continuity estimate uniformly across all its members."
 aliases = ["equicontinuous operator family", "equicontinuous set of functionals"]
 domains = ["functional-analysis"]
+prerequisites = ["functional-analysis/topological-vector-space", "functional-analysis/continuous-linear-map", "topology/neighborhood", "linear-algebra/linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

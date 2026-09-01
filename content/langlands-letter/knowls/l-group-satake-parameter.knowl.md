@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The letter's bundled passage from the L-group to the semisimple conjugacy class encoding unramified local data."
 aliases = ["l-group-satake-parameter", "\\(L\\)-Group and Satake Parameter"]
 domains = ["langlands-letter"]
+prerequisites = ["langlands/l-group", "langlands-letter/knowls/pinned-automorphisms", "langlands/weil-group", "langlands-letter/knowls/langlands-dual-group", "langlands/satake-parameter", "langlands-letter/knowls/semisimple-element-and-class", "langlands-letter/knowls/frobenius-unramified"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "langlands-letter/knowls/l-group-satake-parameter.md"
 section_mode = "progressive"
 +++

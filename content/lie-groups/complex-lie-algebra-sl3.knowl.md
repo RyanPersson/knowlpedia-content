@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The eight-dimensional simple complex Lie algebra of rank 2 and Dynkin type A2."
 aliases = ["complex-lie-algebra-sl3", "sl3(C)", "sl(3,C)", "complex Lie algebra sl3"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/fundamental-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

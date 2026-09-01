@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A canonical principal G-bundle whose pullbacks classify principal G-bundles over paracompact bases."
 aliases = ["universal-principal-bundle-egbg", "Universal principal bundle EG→BG"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/classifying-map-of-a-principal-bundle", "fiber-bundles/homotopy-class-mbg"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/universal-principal-bundle-egbg.md"
 +++
 

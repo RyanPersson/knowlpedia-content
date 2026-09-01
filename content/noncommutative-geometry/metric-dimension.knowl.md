@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The critical exponent at which powers of a spectral triple's regularized inverse Dirac operator become trace class."
 aliases = ["spectral dimension", "summability dimension"]
 domains = ["noncommutative-geometry", "functional-analysis"]
+prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/schatten-class-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

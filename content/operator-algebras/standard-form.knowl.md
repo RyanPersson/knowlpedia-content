@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A faithful representation of a von Neumann algebra equipped with its canonical conjugation and self-dual positive cone."
 aliases = ["Haagerup standard form", "standard representation"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/natural-positive-cone", "operator-algebras/modular-conjugation", "linear-algebra/hilbert-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Two smooth maps are transverse exactly when their product map is transverse to the diagonal."
 aliases = ["transversality via the diagonal", "fiber product diagonal criterion"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/product-manifold", "differential-geometry/transverse-smooth-maps", "differential-geometry/embedded-submanifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

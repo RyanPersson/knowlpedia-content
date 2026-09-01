@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The 24-dimensional simple complex Lie algebra of rank 4 and Dynkin type A4."
 aliases = ["complex-lie-algebra-sl5", "sl5(C)", "sl(5,C)", "complex Lie algebra sl5"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/fundamental-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

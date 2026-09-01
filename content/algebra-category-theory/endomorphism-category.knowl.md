@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A morphism whose domain and codomain are the same object."
 aliases = ["endomorphism-category", "Endomorphism"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-category-theory/endomorphism-category.md"
 +++
 

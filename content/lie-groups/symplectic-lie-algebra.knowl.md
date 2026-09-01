@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The Lie algebra of the symplectic group, consisting of matrices satisfying XᵀJ + JX = 0."
 aliases = ["symplectic-lie-algebra", "Symplectic Lie algebra"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-bracket", "lie-groups/symplectic-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/symplectic-lie-algebra.md"
 +++
 

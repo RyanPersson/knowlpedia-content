@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The compact connected exceptional Lie group of type E8, rank 8 and dimension 248; it is simply connected and centerless."
 aliases = ["compact-exceptional-lie-group-e8", "compact E8", "compact Lie group E8"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/root-system", "lie-groups/simply-connected-lie-group", "lie-groups/lie-algebra", "lie-groups/compact-real-form", "lie-groups/exceptional-lie-algebra-e8", "lie-groups/weight-lattice"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

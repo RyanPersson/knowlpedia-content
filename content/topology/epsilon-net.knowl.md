@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set of points that approximates a set in a metric space within a fixed tolerance."
 aliases = ["epsilon-net"]
 domains = ["topology"]
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/epsilon-net.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The pinned connected complex reductive group whose based root datum is dual to that of a reductive group."
 aliases = ["langlands-dual-group", "Langlands Dual Group"]
 domains = ["langlands-letter"]
+prerequisites = ["langlands-letter/knowls/split-reductive-group", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/maximal-torus-weight-lattice", "langlands-letter/knowls/roots-weights-weyl", "langlands-letter/knowls/pinned-automorphisms"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "langlands-letter/knowls/langlands-dual-group.md"
 section_mode = "progressive"
 +++

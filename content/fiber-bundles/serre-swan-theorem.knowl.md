@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "On a finite-dimensional smooth manifold, taking smooth sections gives an equivalence between vector bundles and finitely generated projective modules."
 aliases = ["Serre-Swan correspondence", "Serre-Swan duality", "vector bundles versus projective modules", "categorical Serre-Swan equivalence"]
 domains = ["fiber-bundles", "algebra-category-theory"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/category-of-vector-bundles-over-a-manifold", "fiber-bundles/vector-bundle", "algebra-modules/category-of-finitely-generated-projective-modules", "algebra-category-theory/equivalence-of-categories", "fiber-bundles/section-module-is-finitely-generated-projective", "fiber-bundles/module-of-smooth-sections"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A fiber bundle globally isomorphic to a product M times F over the base."
 aliases = ["trivial-fiber-bundle", "Trivial fiber bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/bundle-isomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/trivial-fiber-bundle.md"
 +++
 

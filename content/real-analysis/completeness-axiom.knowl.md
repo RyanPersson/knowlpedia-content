@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every nonempty set of real numbers that is bounded above has a least upper bound."
 aliases = ["completeness-axiom", "Completeness Axiom"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/bounded-above", "real-analysis/supremum"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/completeness-axiom.md"
 +++
 

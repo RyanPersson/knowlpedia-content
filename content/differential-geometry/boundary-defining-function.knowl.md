@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth nonnegative function that vanishes simply and exactly on the boundary of a manifold."
 aliases = ["defining function for a boundary", "local boundary defining function"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/manifold-with-boundary", "fiber-bundles/regular-value"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

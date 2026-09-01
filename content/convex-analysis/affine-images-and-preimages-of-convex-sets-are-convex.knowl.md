@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Affine maps preserve convexity under both images and inverse images"
 aliases = ["affine-images-and-preimages-of-convex-sets-are-convex", "Affine images and preimages of convex sets are convex"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/affine-mapping", "convex-analysis/convex-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/affine-images-and-preimages-of-convex-sets-are-convex.md"
 +++
 

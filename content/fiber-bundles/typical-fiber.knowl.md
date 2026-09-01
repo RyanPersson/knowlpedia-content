@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A chosen model manifold F that locally represents every fiber of a smooth fiber bundle."
 aliases = ["typical-fiber", "Typical fiber"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/local-trivialization"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/typical-fiber.md"
 +++
 

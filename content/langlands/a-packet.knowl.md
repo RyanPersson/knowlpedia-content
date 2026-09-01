@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A finite packet of irreducible representations attached to an Arthur parameter."
 aliases = ["A-packet", "Arthur packets", "local Arthur packet", "global Arthur packet"]
 domains = ["langlands", "representation-theory", "number-theory"]
+prerequisites = ["algebra-fields-galois/local-field", "langlands/arthur-parameter", "algebraic-geometry-foundations/reductive-algebraic-group", "harmonic-analysis/admissible-representation-p-adic-group", "lie-groups/admissible-representation-real-reductive-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

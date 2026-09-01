@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The linear map Df(a) giving the best first-order approximation f(a+h)=f(a)+Df(a)h+o(‖h‖)."
 aliases = ["total-derivative-frechet-derivative", "Total derivative (Fréchet derivative in ℝ^k)"]
 domains = ["real-analysis"]
+prerequisites = ["topology/open-set", "linear-algebra/linear-map", "real-analysis/jacobian-matrix", "real-analysis/partial-derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/total-derivative-frechet-derivative.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A jointly convex objective minimized over a convex feasible graph has a convex marginal value function."
 aliases = ["convexity-of-the-marginal-optimal-value-function", "Convexity of the Marginal (Optimal Value) Function"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-function-via-epigraph", "convex-analysis/marginal-optimal-value-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/convexity-of-the-marginal-optimal-value-function.md"
 +++
 

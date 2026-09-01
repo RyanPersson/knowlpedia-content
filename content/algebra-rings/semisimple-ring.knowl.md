@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A ring whose module theory is completely reducible; equivalently a finite product of matrix rings over division rings."
 aliases = ["semisimple-ring", "Semisimple ring"]
 domains = ["algebra-rings"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/semisimple-ring.md"
 +++
 

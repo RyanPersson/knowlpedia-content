@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Continuity of partial derivatives at a point implies differentiability of a multivariable function there."
 aliases = ["sufficient-condition-for-differentiability", "Sufficient condition for differentiability"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/function", "real-analysis/partial-derivative", "real-analysis/differentiable-map", "real-analysis/frechet-derivative", "real-analysis/jacobian-matrix", "linear-algebra/linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/sufficient-condition-for-differentiability.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The contragredient diffeomorphism of cotangent bundles induced by a diffeomorphism of base manifolds."
 aliases = ["cotangent functor on diffeomorphisms", "lifted diffeomorphism of cotangent bundles", "cotangent-lifted diffeomorphism", "canonical lift"]
 domains = ["differential-geometry", "fiber-bundles"]
+prerequisites = ["fiber-bundles/diffeomorphism", "fiber-bundles/pullback-of-covectors"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

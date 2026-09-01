@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The unit-modulus constant in a normalized local or global L-function functional equation."
 aliases = ["local root number", "global root number", "sign of the functional equation"]
 domains = ["langlands", "number-theory"]
+prerequisites = ["langlands-letter/knowls/euler-product-and-local-factor", "langlands-letter/knowls/contragredient-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A map between categories that preserves identities and composition."
 aliases = ["functor"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-category-theory/functor.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Over a UFD, primitive polynomials factor over the fraction field exactly when they factor over the ring."
 aliases = ["gauss-lemma", "Gauss's lemma"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ufd", "algebra-rings/fraction-field", "algebra-rings/primitive-polynomial", "algebra-rings/polynomial-ring", "algebra-rings/irreducible-polynomial"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/gauss-lemma.md"
 +++
 

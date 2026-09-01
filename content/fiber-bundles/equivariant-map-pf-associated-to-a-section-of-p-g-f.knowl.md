@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "How a section of an associated bundle corresponds to an equivariant map from the principal bundle to the fiber"
 aliases = ["equivariant-map-pf-associated-to-a-section-of-p-g-f", "Equivariant map associated to a section of an associated bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "fiber-bundles/smooth-manifold", "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f", "fiber-bundles/associated-bundle", "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/equivariant-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/equivariant-map-pf-associated-to-a-section-of-p-g-f.md"
 +++
 

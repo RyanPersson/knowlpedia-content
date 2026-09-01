@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A measurable function that is essentially bounded on a measure space."
 aliases = ["l-infinity-function", "L-infinity function"]
 domains = ["measure-theory"]
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/essential-supremum", "measure-theory/ae-equality", "measure-theory/null-set", "measure-theory/lp-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/l-infinity-function.md"
 +++
 

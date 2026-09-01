@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A relation that formalizes when two elements should be regarded as the same type."
 aliases = ["equivalence-relation", "Equivalence relation"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/relation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/equivalence-relation.md"
 +++
 

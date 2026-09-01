@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An antiunitary operator encoding charge conjugation, KO-dimensional signs, and the opposite-algebra action of a spectral triple."
 aliases = ["charge conjugation", "real spectral data", "antiunitary J"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/opposite-algebra", "noncommutative-geometry/order-zero-condition", "noncommutative-geometry/first-order-condition"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

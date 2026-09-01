@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A universal morphism that forces two parallel morphisms to become equal."
 aliases = ["coequalizer"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-category-theory/coequalizer.md"
 +++
 

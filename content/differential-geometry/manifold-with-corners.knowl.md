@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth space locally modeled on Euclidean orthants of possibly varying codimension."
 aliases = ["manifold with corners", "cornered manifold"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/manifold-with-boundary"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

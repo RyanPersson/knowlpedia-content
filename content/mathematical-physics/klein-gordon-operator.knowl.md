@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The normally hyperbolic scalar operator obtained by adding mass and curvature coupling to the wave operator."
 aliases = ["massive wave operator", "Klein-Gordon operator", "Klein Gordon operator"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
+prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/dalembert-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

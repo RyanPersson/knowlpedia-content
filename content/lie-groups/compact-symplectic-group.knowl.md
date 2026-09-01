@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The compact Lie group of quaternionic linear transformations preserving the standard quaternionic Hermitian form."
 aliases = ["quaternionic unitary group", "USp(2n)"]
 domains = ["lie-groups", "linear-algebra"]
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/quaternion-division-algebra", "fiber-bundles/lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

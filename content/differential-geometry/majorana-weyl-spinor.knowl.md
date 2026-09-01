@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A chiral spinor fixed by a compatible real structure that preserves chirality."
 aliases = ["Majorana-Weyl spinor", "real chiral spinor"]
 domains = ["differential-geometry", "mathematical-physics"]
+prerequisites = ["differential-geometry/majorana-spinor", "differential-geometry/weyl-spinor"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

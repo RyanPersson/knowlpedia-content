@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The natural long exact sequence in Tor induced by a short exact sequence of modules."
 aliases = ["long-exact-sequence-tor", "Long exact sequence for Tor"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-modules/short-exact-sequence", "algebra-homological/connecting-homomorphism-lemma", "algebra-homological/long-exact-sequence-derived"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/long-exact-sequence-tor.md"
 +++
 

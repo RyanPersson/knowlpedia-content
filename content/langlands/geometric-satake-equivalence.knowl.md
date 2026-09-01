@@ -5,14 +5,15 @@ kind = "theorem"
 summary = "The tensor category of spherical perverse sheaves on Gr_G is equivalent to representations of the Langlands dual group."
 aliases = ["geometric Satake correspondence"]
 domains = ["langlands", "representation-theory"]
+prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "langlands/perverse-sheaf", "langlands/affine-grassmannian", "langlands-letter/knowls/langlands-dual-group", "langlands/intersection-cohomology-complex", "langlands/affine-schubert-variety", "langlands/dominant-coweight"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
 Let \(k\) be an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]], let \(G\) be a connected reductive
 group over \(k\), and choose a characteristic-zero coefficient field \(E\)
-and an appropriate sheaf theory (for example, \(E=\mathbb C\) for classical
-sheaves when \(k=\mathbb C\), or \(E=\overline{\mathbb Q}_\ell\) with
-\(\ell\ne\operatorname{char}k\) in the étale setting). The **geometric Satake
+and an appropriate sheaf theory. The **geometric Satake
 equivalence** identifies the convolution tensor category of
 \(G\lbrack\!\lbrack t\rbrack\!\rbrack\)-equivariant
 \(E\)-[[langlands/perverse-sheaf|perverse sheaves]] on the
@@ -34,6 +35,7 @@ weight \(\lambda\).
 
 ## Coefficients and versions
 
+For classical sheaves over \(k=\mathbb C\), one may take \(E=\mathbb C\). In the étale setting, a standard choice is \(E=\overline{\mathbb Q}_\ell\) with \(\ell\ne\operatorname{char}k\).
 The classical statement uses perverse sheaves with characteristic-zero
 coefficients and the fiber functor of global cohomology. There are integral,
 modular, motivic, and derived versions with distinct technical hypotheses and

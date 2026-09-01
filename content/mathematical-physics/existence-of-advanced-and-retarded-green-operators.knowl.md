@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A normally hyperbolic operator on a globally hyperbolic spacetime has unique future and past Green operators."
 aliases = ["existence of causal Green operators", "Green hyperbolicity of normally hyperbolic operators"]
 domains = ["mathematical-physics", "partial-differential-equations"]
+prerequisites = ["mathematical-physics/normally-hyperbolic-operator", "differential-geometry/globally-hyperbolic-spacetime", "mathematical-physics/advanced-and-retarded-green-operators"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

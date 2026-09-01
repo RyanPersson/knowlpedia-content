@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The sublinear function recording the maximal value of each linear functional on a convex body."
 aliases = ["supporting functional of a convex body", "support function", "h_K"]
 domains = ["convex-analysis", "integral-geometry"]
+prerequisites = ["convex-analysis/convex-body", "linear-algebra/inner-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

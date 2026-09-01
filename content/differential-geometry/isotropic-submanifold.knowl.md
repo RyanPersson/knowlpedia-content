@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An immersed submanifold on which the ambient symplectic form pulls back to zero."
 aliases = ["isotropic immersed submanifold"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-immersion", "differential-geometry/isotropic-subspace", "differential-geometry/symplectic-vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

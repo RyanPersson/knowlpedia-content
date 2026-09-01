@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Taking maximal-compact-subgroup-finite vectors is an equivalence from smooth admissible moderate-growth representations to Harish–Chandra modules."
 aliases = ["unique smooth globalization theorem"]
 domains = ["lie-groups", "representation-theory", "functional-analysis"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/casselman-wallach-representation", "lie-groups/harish-chandra-module", "algebra-category-theory/equivalence-of-categories"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An algebraic extension in which every irreducible polynomial having one root splits completely."
 aliases = ["normal-extension", "Normal extension"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/field-extension"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/normal-extension.md"
 +++
 

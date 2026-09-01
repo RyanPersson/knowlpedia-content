@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Continuous antilinear functionals on the Fréchet space of smooth vectors of a Lie-group representation."
 aliases = ["generalized vectors", "distribution globalization", "H-infinity dual"]
 domains = ["lie-groups", "functional-analysis"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-vector-unitary-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

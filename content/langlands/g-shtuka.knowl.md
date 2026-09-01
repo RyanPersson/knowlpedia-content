@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A principal G-bundle on a curve with a Frobenius identification away from bounded modification legs."
 aliases = ["G-chtouca", "G-shtukas", "global G-shtuka", "multiple-leg G-shtuka"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
+prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/principal-g-bundle-on-scheme", "langlands/dominant-coweight", "algebra-fields-galois/frobenius-endomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

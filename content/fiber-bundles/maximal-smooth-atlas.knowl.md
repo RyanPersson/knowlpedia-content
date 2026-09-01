@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth atlas containing every coordinate chart smoothly compatible with all of its charts."
 aliases = ["maximal atlas", "maximal compatible smooth atlas", "maximal smooth structure atlas"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-atlas", "fiber-bundles/smooth-compatibility-of-charts-and-atlases"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

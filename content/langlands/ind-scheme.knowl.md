@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A functor presented as a filtered colimit of schemes, usually along closed immersions."
 aliases = ["ind-algebraic scheme"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

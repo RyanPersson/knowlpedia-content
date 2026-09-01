@@ -5,6 +5,9 @@ kind = "example"
 summary = "The center quotient of SL(2,C), viewed either as a complex Lie group or as a six-dimensional real Lie group."
 aliases = ["projective special linear group PSL(2,C)", "PSL2C"]
 domains = ["lie-groups", "complex-analysis"]
+prerequisites = ["algebra-groups/projective-special-linear-group", "lie-groups/complex-lie-group", "lie-groups/underlying-real-lie-group", "lie-groups/lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

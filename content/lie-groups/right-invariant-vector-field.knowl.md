@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A vector field on a Lie group that is unchanged by all right translations."
 aliases = ["right-invariant-vector-field", "Right-Invariant Vector Field"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/vector-field", "lie-groups/right-translation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/right-invariant-vector-field.md"
 +++
 

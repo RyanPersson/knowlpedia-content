@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An integral domain cannot have composite positive characteristic."
 aliases = ["characteristic-zero-or-prime", "Characteristic of an integral domain is 0 or prime"]
 domains = ["algebra-rings"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/characteristic-zero-or-prime.md"
 +++
 

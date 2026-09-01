@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set of all ordered pairs from two sets."
 aliases = ["cartesian-product", "Cartesian product"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/ordered-pair"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/cartesian-product.md"
 +++
 

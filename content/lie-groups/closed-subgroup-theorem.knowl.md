@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A closed subgroup of a Lie group is an embedded Lie subgroup, and the quotient G/H is a smooth manifold."
 aliases = ["closed-subgroup-theorem", "Closed subgroup theorem"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/closed-subgroup-lie-group", "lie-groups/lie-subgroup", "lie-groups/lie-algebra-of-subgroup-lemma", "lie-groups/coset-space", "lie-groups/homogeneous-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/closed-subgroup-theorem.md"
 +++
 

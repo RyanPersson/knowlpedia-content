@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The cohomology of the de Rham complex restricted to compactly supported differential forms."
 aliases = ["de Rham cohomology with compact support", "compact-support de Rham cohomology"]
 domains = ["differential-geometry", "topology"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/exterior-derivative", "differential-geometry/compactly-supported-differential-form", "differential-geometry/de-rham-complex"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An entire cyclic cocycle constructed from heat kernels and Dirac commutators of a theta-summable spectral triple."
 aliases = ["JLO cocycle", "entire Chern character", "heat-kernel Chern character"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/theta-summable-spectral-triple", "noncommutative-geometry/entire-cyclic-cohomology"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

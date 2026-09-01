@@ -5,6 +5,9 @@ kind = "construction"
 summary = "An operator extending a function on real Euclidean space by taking a Poisson average along the real line determined by the imaginary direction."
 aliases = ["Cohen extension operator", "linewise harmonic extension"]
 domains = ["harmonic-analysis", "several-complex-variables"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

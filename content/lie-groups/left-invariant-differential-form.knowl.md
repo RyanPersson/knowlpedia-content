@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A differential form on a Lie group fixed by all left translations."
 aliases = ["left-invariant-differential-form", "Left-invariant differential form"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/left-translation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/left-invariant-differential-form.md"
 +++
 

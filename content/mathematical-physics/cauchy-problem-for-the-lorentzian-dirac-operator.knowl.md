@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Initial spinor data on a smooth spacelike Cauchy hypersurface determine a unique Lorentzian Dirac solution with causal propagation."
 aliases = ["Lorentzian Dirac Cauchy theorem", "well-posedness of the Dirac equation on globally hyperbolic spacetimes"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
+prerequisites = ["differential-geometry/lorentzian-dirac-operator", "differential-geometry/globally-hyperbolic-spacetime", "differential-geometry/cauchy-hypersurface", "mathematical-physics/dirac-equation", "mathematical-physics/advanced-and-retarded-green-operators"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

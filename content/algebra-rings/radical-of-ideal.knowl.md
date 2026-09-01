@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set of elements whose some power lies in a given ideal."
 aliases = ["radical-of-ideal", "Radical of an ideal"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/radical-of-ideal.md"
 +++
 

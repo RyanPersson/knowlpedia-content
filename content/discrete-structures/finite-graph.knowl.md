@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A graph with finitely many vertices (and edges)."
 aliases = ["finite-graph", "Finite graph"]
 domains = ["discrete-structures"]
+prerequisites = ["discrete-structures/graph-vertex-edge"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "discrete-structures/finite-graph.md"
 +++
 

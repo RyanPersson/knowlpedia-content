@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A conditional expectation is a completely positive contractive bimodule retraction onto a C*-subalgebra."
 aliases = ["C*-conditional expectation", "conditional expectation onto a subalgebra"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-subalgebra", "operator-algebras/completely-positive-map", "linear-algebra/linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

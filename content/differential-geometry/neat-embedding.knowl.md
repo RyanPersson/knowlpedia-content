@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth embedding between manifolds with boundary that is exactly boundary preserving and transverse to the target boundary."
 aliases = ["boundary-compatible embedding"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/manifold-with-boundary", "fiber-bundles/smooth-embedding"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

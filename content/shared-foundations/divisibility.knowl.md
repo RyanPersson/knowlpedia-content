@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The relation that one integer is an exact multiplicative factor of another."
 aliases = ["divides", "divisibility", "divisor"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/integers", "shared-foundations/p-adic-valuation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 For [[shared-foundations/integers|integers]] \(a\) and \(b\), one says that **\(a\) divides \(b\)**, written \(a\mid b\), if there exists an integer \(c\) such that \(b=ac\). Then \(a\) is a divisor of \(b\), and \(b\) is a multiple of \(a\).

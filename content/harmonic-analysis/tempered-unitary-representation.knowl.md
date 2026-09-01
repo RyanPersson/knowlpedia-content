@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A unitary representation weakly contained in the regular representation of its locally compact group."
 aliases = ["representation weakly contained in the regular representation", "tempered representation"]
 domains = ["harmonic-analysis", "lie-groups", "operator-algebras"]
+prerequisites = ["topology/locally-compact-group", "lie-groups/strongly-continuous-unitary-representation", "harmonic-analysis/weak-containment-unitary-representations", "harmonic-analysis/regular-representations-locally-compact-group", "operator-algebras/reduced-group-cstar-algebra", "algebra-representation-theory/irreducible-representation", "linear-algebra/hilbert-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "construction"
 summary = "A compact space obtained by adjoining one point whose neighborhoods have compact complements."
 aliases = ["Alexandroff compactification", "point at infinity"]
 domains = ["topology"]
+prerequisites = ["topology/locally-compact-space", "topology/hausdorff-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

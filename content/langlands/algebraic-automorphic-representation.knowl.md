@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An automorphic representation with integral archimedean infinitesimal data, with the normalization stated explicitly."
 aliases = ["algebraic automorphic representations", "automorphic representation of algebraic type"]
 domains = ["langlands", "number-theory", "representation-theory"]
+prerequisites = ["langlands/automorphic-representation", "algebra-fields-galois/number-field", "langlands/local-l-parameter", "langlands/c-algebraic-automorphic-representation", "langlands/l-algebraic-automorphic-representation", "lie-groups/positive-root"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

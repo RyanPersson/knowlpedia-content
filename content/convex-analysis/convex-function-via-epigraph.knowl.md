@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function is convex if and only if its epigraph is a convex set"
 aliases = ["convex-function-via-epigraph", "Convex function via epigraph"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/extended-real-number-system-and-conventions", "convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/convex-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/convex-function-via-epigraph.md"
 +++
 
@@ -15,6 +18,8 @@ The function \(f\) is **convex** if its [[convex-analysis/domain-and-epigraph-pr
 \operatorname{epi}(f)=\{(x,r)\in X\times\mathbb R:f(x)\le r\}
 \]
 is a [[convex-analysis/convex-set|convex set]] in \(X\times\mathbb{R}\).
+
+## Equivalent characterizations
 
 **Context.** This geometric definition is equivalent to analytic inequalities such as Jensen's inequality; see [[convex-analysis/equivalent-characterizations-of-convex-functions|equivalent characterizations of convexity]].
 

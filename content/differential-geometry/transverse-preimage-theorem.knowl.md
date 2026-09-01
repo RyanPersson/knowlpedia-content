@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The inverse image of an embedded submanifold under a transverse map is an embedded submanifold of the same codimension."
 aliases = ["preimage theorem for transverse maps", "transversality preimage theorem"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/map-transverse-to-a-submanifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

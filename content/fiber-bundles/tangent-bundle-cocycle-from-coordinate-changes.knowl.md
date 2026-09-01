@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Differentiating coordinate transitions produces the GL(n,R)-valued cocycle of the tangent bundle."
 aliases = ["tangent bundle transition functions from an atlas", "Jacobian cocycle of a smooth atlas"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-atlas", "fiber-bundles/smooth-g-valued-cech-1-cocycle", "fiber-bundles/tangent-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

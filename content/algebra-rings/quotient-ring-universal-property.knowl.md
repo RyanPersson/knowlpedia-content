@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A homomorphism that kills an ideal factors uniquely through the quotient."
 aliases = ["quotient-ring-universal-property", "Universal property of quotient rings"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ideal", "algebra-rings/quotient-ring", "algebra-rings/ring-homomorphism", "algebra-rings/kernel-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/quotient-ring-universal-property.md"
 +++
 

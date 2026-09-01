@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A cohomology theory for manifolds with a Lie group action, computed by the Cartan complex of equivariant differential forms."
 aliases = ["equivariant-cohomology", "Equivariant cohomology (Cartan model)"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/universal-principal-bundle-egbg"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/equivariant-cohomology.md"
 +++
 

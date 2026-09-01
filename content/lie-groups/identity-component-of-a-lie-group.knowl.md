@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The connected component containing the identity; it is an open normal Lie subgroup with discrete quotient."
 aliases = ["identity component", "neutral component", "connected component of the identity", "G zero"]
 domains = ["lie-groups", "topology"]
+prerequisites = ["fiber-bundles/lie-group", "topology/connected-component", "lie-groups/normal-lie-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

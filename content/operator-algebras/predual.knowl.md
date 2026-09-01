@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical Banach space whose continuous dual is a von Neumann algebra."
 aliases = ["normal functional space", "von Neumann algebra predual"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/banach-space", "functional-analysis/weak-star-topology", "operator-algebras/ultraweak-topology", "operator-algebras/normal-functional"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

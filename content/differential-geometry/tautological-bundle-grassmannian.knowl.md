@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The rank-k vector bundle over a Grassmannian whose fiber over a k-plane is that plane itself."
 aliases = ["universal subbundle", "tautological subbundle"]
 domains = ["differential-geometry", "fiber-bundles"]
+prerequisites = ["linear-algebra/vector-space", "differential-geometry/grassmannian", "fiber-bundles/vector-bundle", "fiber-bundles/vector-subbundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

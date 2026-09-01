@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "is simply connected; is 3D with Pauli-matrix commutators, and is a 2-fold cover."
 aliases = ["example-su2", "Example: \\(SU(2)\\) and its Lie algebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/special-unitary-group", "lie-groups/special-unitary-lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/example-su2.md"
 +++
 

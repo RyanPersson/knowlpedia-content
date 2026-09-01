@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The vector field obtained from the differential of a Hamiltonian function through a symplectic form."
 aliases = ["Hamiltonian field"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-function", "fiber-bundles/vector-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

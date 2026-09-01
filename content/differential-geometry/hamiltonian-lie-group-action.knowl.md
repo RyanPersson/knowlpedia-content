@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A symplectic Lie group action equipped with a compatible equivariant moment map."
 aliases = ["Hamiltonian action"]
 domains = ["differential-geometry", "lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "differential-geometry/symplectic-lie-group-action", "fiber-bundles/moment-map", "algebra-groups/group-action"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

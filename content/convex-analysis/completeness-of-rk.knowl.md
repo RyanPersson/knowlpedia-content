@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every Cauchy sequence in Euclidean space converges"
 aliases = ["completeness-of-rk", "Completeness of R^k"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/complete-metric-space-complete-subset"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/completeness-of-rk.md"
 +++
 

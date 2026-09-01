@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The irreducible ungraded modules of a complex Clifford algebra are determined by the parity of the dimension."
 aliases = ["complex Clifford algebra classification", "classification of complex spinor modules"]
 domains = ["differential-geometry", "algebra-modules", "representation-theory"]
+prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/clifford-algebra", "differential-geometry/clifford-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

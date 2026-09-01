@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A C*-algebra whose every irreducible represented image is the algebra of compact operators."
 aliases = ["CCR C*-algebra", "completely continuous C*-algebra"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/irreducible-cstar-representation", "operator-algebras/compact-operator-cstar-algebra", "algebra-representation-theory/irreducible-representation", "operator-algebras/elementary-cstar-algebra", "linear-algebra/compact-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

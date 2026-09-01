@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The kernel of the appropriate power of the Lefschetz operator on the cohomology of a compact Kähler manifold."
 aliases = ["primitive part of cohomology"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/lefschetz-operator", "differential-geometry/kahler-class"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

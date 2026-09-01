@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The integral defines an antiderivative at points where the integrand is continuous."
 aliases = ["fundamental-theorem-of-calculus-i", "Fundamental theorem of calculus I"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/differentiability-1d"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/fundamental-theorem-of-calculus-i.md"
 +++
 

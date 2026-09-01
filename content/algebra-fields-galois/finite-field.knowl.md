@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A field with finitely many elements; necessarily of size p^n and unique up to isomorphism for each p^n."
 aliases = ["finite-field", "Finite field"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-rings/field", "algebra-rings/characteristic", "algebra-fields-galois/field-extension", "algebra-fields-galois/degree-of-extension"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/finite-field.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A linear map satisfying the Leibniz rule for the Lie bracket; derivations form a Lie algebra."
 aliases = ["derivation-lie-algebra", "Derivation of a Lie algebra"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/derivation-lie-algebra.md"
 +++
 

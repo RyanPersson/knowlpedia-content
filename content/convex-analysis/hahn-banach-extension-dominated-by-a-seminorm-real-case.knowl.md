@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A real linear functional bounded by a seminorm extends with the same bound."
 aliases = ["hahn-banach-extension-dominated-by-a-seminorm-real-case", "Hahn–Banach Extension Dominated by a Seminorm (Real Case)"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "convex-analysis/seminorm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case.md"
 +++
 

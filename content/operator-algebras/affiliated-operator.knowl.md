@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A closed densely defined operator whose domain and action are invariant under every unitary in the commutant."
 aliases = ["affiliated operator"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "functional-analysis/densely-defined-operator", "functional-analysis/closed-linear-operator", "operator-algebras/commutant"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

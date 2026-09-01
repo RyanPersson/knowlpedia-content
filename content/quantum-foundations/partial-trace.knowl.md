@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Linear map that traces out one tensor factor to produce a reduced operator."
 aliases = ["partial-trace", "Partial trace"]
 domains = ["quantum-foundations"]
+prerequisites = ["quantum-foundations/trace-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "quantum-foundations/partial-trace.md"
 +++
 

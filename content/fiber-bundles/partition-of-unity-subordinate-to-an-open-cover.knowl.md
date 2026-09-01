@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A locally finite family of smooth functions that sum to one and have supports contained in prescribed open sets."
 aliases = ["partition-of-unity-subordinate-to-an-open-cover", "Partition of unity subordinate to an open cover"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/paracompact-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover.md"
 +++
 

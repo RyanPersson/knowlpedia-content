@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An associative algebra whose multiplication preserves Z/2-degree."
 aliases = ["Z/2-graded algebra", "associative superalgebra"]
 domains = ["supergeometry", "algebra-rings"]
+prerequisites = ["algebra-category-theory/algebra-object", "supergeometry/super-vector-space", "supergeometry/supercommutator", "supergeometry/lie-superalgebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The smallest subgroup containing a given subset"
 aliases = ["generated-subgroup", "Generated Subgroup"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "shared-foundations/subset", "shared-foundations/intersection", "algebra-groups/subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/generated-subgroup.md"
 +++
 

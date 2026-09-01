@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The orientation on a manifold boundary determined by placing an outward normal before a positive boundary basis."
 aliases = ["induced orientation on the boundary", "outward-normal-first convention"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "differential-geometry/manifold-with-boundary", "differential-geometry/boundary-and-interior-of-a-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

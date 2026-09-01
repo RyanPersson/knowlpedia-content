@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If a Lie group acts freely and properly on a smooth manifold P, the orbit space P/G is a smooth manifold and the projection is a submersion."
 aliases = ["construction-quotient-manifold-pg-for-a-free-proper-g-action", "Construction: quotient manifold P/G for a free proper action"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-quotient-manifold-pg-for-a-free-proper-g-action.md"
 +++
 

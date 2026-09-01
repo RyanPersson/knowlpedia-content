@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A proper injective smooth immersion between manifolds is a smooth embedding."
 aliases = ["proper immersion embedding criterion"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-immersion", "differential-geometry/proper-smooth-map", "fiber-bundles/smooth-embedding", "topology/subspace-topology"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

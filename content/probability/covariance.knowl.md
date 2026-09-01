@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Expectation of a centered product measuring joint linear variability of two random variables"
 aliases = ["covariance"]
 domains = ["probability"]
+prerequisites = ["probability/random-variable"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/covariance.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The stabilizer in compact F_4 of an H_2(O) corner of the Albert algebra is Spin(9)."
 aliases = ["Spin(9) subgroup of F4", "octonionic spin-factor stabilizer", "Cayley-plane isotropy"]
 domains = ["nonassociative-algebra", "lie-groups"]
+prerequisites = ["nonassociative-algebra/jordan-subalgebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

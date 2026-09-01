@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In a metric space, every Cauchy sequence is bounded"
 aliases = ["cauchy-sequence-is-bounded", "Cauchy sequence is bounded"]
 domains = ["topology"]
+prerequisites = ["topology/metric-space", "topology/cauchy-sequence", "topology/bounded-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/cauchy-sequence-is-bounded.md"
 +++
 

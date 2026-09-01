@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The commutative unramified Hecke algebra and its normalized identification with the representation ring of the dual group."
 aliases = ["spherical-hecke-algebra-satake", "Spherical Hecke Algebra and Satake Isomorphism"]
 domains = ["langlands-letter"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/unramified-reductive-group", "langlands-letter/knowls/maximal-compact-hyperspecial", "harmonic-analysis/haar-measure", "harmonic-analysis/convolution-on-locally-compact-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "langlands-letter/knowls/spherical-hecke-algebra-satake.md"
 section_mode = "progressive"
 +++

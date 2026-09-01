@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A path-connected topological space with trivial fundamental group."
 aliases = ["simply connected", "simple connectivity"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "topology/fundamental-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

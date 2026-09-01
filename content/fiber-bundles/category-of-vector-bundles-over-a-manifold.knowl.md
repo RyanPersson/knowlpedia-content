@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The fixed-base category of finite-rank vector bundles whose morphisms cover the identity of the base."
 aliases = ["Vect of M", "fixed-base vector-bundle category", "category of bundles over M"]
 domains = ["fiber-bundles", "category-theory"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/vector-bundle-morphism", "topology/connected-component", "fiber-bundles/bundle-isomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

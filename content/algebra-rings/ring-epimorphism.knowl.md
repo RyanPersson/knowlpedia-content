@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A ring homomorphism that is right-cancellative among ring homomorphisms."
 aliases = ["ring-epimorphism", "Ring epimorphism"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ring-homomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/ring-epimorphism.md"
 +++
 

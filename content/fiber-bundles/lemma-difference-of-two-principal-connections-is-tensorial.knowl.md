@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The difference of two principal connection 1-forms is a tensorial one-form with values in the Lie algebra."
 aliases = ["lemma-difference-of-two-principal-connections-is-tensorial", "Difference of two principal connections is tensorial"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial.md"
 +++
 

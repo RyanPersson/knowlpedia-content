@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A group scheme of finite type over a field."
 aliases = ["algebraic group"]
 domains = ["algebraic-geometry-foundations", "lie-groups"]
+prerequisites = ["algebraic-geometry-foundations/group-scheme"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -16,6 +19,8 @@ morphisms
 m:G\times_kG\to G,\qquad e:\operatorname{Spec}k\to G,\qquad i:G\to G
 \]
 satisfying the group axioms as identities of morphisms.
+
+## Linear and projective cases
 
 An algebraic group is **linear** if its underlying scheme is affine.
 Equivalently, it admits a closed immersion into \(GL_n\) for some \(n\).

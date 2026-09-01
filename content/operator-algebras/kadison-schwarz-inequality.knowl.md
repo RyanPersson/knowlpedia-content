@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A unital two-positive map bounds the product of an image by the image of the corresponding product."
 aliases = ["Schwarz inequality for positive maps", "Kadison inequality"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/n-positive-map", "operator-algebras/unital-completely-positive-map", "operator-algebras/positive-element", "linear-algebra/cauchy-schwarz-inequality"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

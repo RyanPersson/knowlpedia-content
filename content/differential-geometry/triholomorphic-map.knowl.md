@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth map between hypercomplex manifolds that preserves each member of the ordered quaternionic triple."
 aliases = ["hypercomplex map", "triholomorphic morphism"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/hypercomplex-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

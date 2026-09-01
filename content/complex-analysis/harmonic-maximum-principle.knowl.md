@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A nonconstant harmonic function cannot attain an interior maximum or minimum."
 aliases = ["harmonic maximum principle", "strong maximum principle for harmonic functions"]
 domains = ["complex-analysis", "potential-theory", "partial-differential-equations"]
+prerequisites = ["complex-analysis/harmonic-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

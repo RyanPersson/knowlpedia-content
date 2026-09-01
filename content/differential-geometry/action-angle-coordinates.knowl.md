@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Canonical coordinates adapted to invariant tori in which an integrable Hamiltonian depends only on action variables."
 aliases = ["angle-action variables"]
 domains = ["differential-geometry", "classical-mechanics"]
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/completely-integrable-hamiltonian-system", "differential-geometry/hamiltons-equations"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

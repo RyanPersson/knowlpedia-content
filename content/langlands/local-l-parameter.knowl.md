@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An admissible homomorphism from the local Langlands group to the L-group of a reductive group."
 aliases = ["local L-parameter", "Langlands parameter", "admissible L-parameter"]
 domains = ["langlands", "harmonic-analysis"]
+prerequisites = ["algebra-fields-galois/local-field", "langlands/weil-group", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/l-group", "langlands-letter/knowls/semisimple-element-and-class", "langlands-letter/knowls/langlands-dual-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

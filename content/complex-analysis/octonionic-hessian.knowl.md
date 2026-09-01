@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The octonionic Hermitian matrix of mixed Dirac derivatives of a real-valued function on the octonionic plane."
 aliases = ["octonionic Hessian matrix", "Hessian over the octonions"]
 domains = ["complex-analysis", "octonionic-analysis", "partial-differential-equations"]
+prerequisites = ["nonassociative-algebra/octonionic-spin-factor"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

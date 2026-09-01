@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Unitary map identifying bosonic Fock space with Gaussian L₂(M,n)"
 aliases = ["duality-transform-D", "Duality Transform D (Segal)"]
 domains = ["shale-paper"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shale-paper/duality-transform-D.md"
 +++
 

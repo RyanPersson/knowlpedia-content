@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A nonzero module with no proper nontrivial submodules."
 aliases = ["simple-module", "Simple module"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/module", "algebra-modules/submodule", "algebra-modules/composition-series-module", "algebra-rings/maximal-ideal", "algebra-modules/quotient-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/simple-module.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A scheme morphism that factors as a closed immersion into relative projective space."
 aliases = ["projective map of schemes", "projective morphism"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/base-change"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

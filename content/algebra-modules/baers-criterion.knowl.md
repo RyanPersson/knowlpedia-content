@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Characterization of injective modules by extension of maps from ideals."
 aliases = ["baers-criterion", "Baer's criterion"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/injective-module", "algebra-modules/module-homomorphism", "algebra-rings/ideal", "algebra-rings/unital-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/baers-criterion.md"
 +++
 

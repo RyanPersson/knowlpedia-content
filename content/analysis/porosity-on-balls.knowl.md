@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A quantitative hole condition requiring every ball in a range of scales to contain a comparably sized ball disjoint from the set."
 aliases = ["ball porosity", "porous on balls", "nu-porous on balls"]
 domains = ["analysis", "geometric-measure-theory", "harmonic-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

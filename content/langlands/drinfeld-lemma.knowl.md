@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Partial Frobenius structures on a product over a finite field produce an action of a product of Weil or fundamental groups."
 aliases = ["Drinfeld lemma", "Drinfeld's lemma on partial Frobenius", "Drinfeld lemma for products"]
 domains = ["langlands", "algebraic-geometry-foundations", "algebra-fields-galois"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-fields-galois/finite-field", "algebraic-geometry-foundations/lisse-ell-adic-sheaf", "langlands/partial-frobenius-on-shtukas"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

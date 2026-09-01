@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Central idempotents split a ring as a product of two quotient-like pieces."
 aliases = ["idempotent-product-decomposition", "Idempotents and product decompositions"]
 domains = ["algebra-rings"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/idempotent-product-decomposition.md"
 +++
 

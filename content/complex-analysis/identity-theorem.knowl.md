@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Holomorphic functions agreeing on a set with an interior accumulation point agree everywhere on a domain."
 aliases = ["identity principle", "uniqueness theorem for holomorphic functions"]
 domains = ["complex-analysis"]
+prerequisites = ["complex-analysis/complex-domain"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

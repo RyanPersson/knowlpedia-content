@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The Euler–Lagrange equation for the Yang–Mills functional, expressed as a covariant divergence-free condition on curvature."
 aliases = ["yangmills-equation", "Yang–Mills equation"]
 domains = ["fiber-bundles"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/principal-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/yangmills-equation.md"
 +++
 

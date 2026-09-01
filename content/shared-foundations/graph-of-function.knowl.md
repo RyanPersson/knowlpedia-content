@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set of ordered pairs consisting of each input and its output"
 aliases = ["graph-of-function", "Graph of a function"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/graph-of-function.md"
 +++
 

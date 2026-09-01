@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Two-sided Green operators on compactly supported sections whose outputs have future- or past-causal support."
 aliases = ["causal Green operators", "advanced Green operator", "retarded Green operator"]
 domains = ["mathematical-physics", "partial-differential-equations"]
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/chronological-and-causal-future", "mathematical-physics/existence-of-advanced-and-retarded-green-operators", "mathematical-physics/normally-hyperbolic-operator", "differential-geometry/globally-hyperbolic-spacetime"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

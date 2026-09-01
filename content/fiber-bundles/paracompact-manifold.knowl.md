@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A smooth manifold whose underlying topological space is paracompact, enabling global constructions via partitions of unity."
 aliases = ["paracompact-manifold", "Paracompact manifold"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/paracompact-topological-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/paracompact-manifold.md"
 +++
 

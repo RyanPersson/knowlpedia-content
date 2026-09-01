@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A vector whose orbit under a represented algebra has dense linear span in the representation space."
 aliases = ["cyclic vector for an operator algebra"]
 domains = ["operator-algebras", "algebra-representation-theory"]
+prerequisites = ["operator-algebras/cstar-representation", "linear-algebra/hilbert-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

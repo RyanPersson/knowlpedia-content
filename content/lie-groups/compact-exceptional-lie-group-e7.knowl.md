@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The compact simply connected exceptional Lie group of type E7, rank 7, dimension 133, and center of order 2."
 aliases = ["compact-exceptional-lie-group-e7", "compact E7", "compact Lie group E7"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/root-system", "lie-groups/lie-algebra", "lie-groups/compact-real-form", "lie-groups/exceptional-lie-algebra-e7"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

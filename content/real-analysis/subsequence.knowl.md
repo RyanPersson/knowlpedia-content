@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A sequence obtained by restricting to a strictly increasing sequence of indices."
 aliases = ["subsequence"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/limit-superior", "real-analysis/limit-inferior", "real-analysis/monotone-subsequence-lemma"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/subsequence.md"
 +++
 

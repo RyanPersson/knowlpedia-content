@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The dimensions of the two nonreal eigenspaces of the adjoint of a symmetric operator."
 aliases = ["defect indices", "deficiency numbers"]
 domains = ["functional-analysis"]
+prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "functional-analysis/adjoint-unbounded-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

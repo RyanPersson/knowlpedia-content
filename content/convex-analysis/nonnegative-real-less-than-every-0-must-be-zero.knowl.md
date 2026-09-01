@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A nonnegative real number smaller than every positive real number must be zero."
 aliases = ["nonnegative-real-less-than-every-0-must-be-zero", "A nonnegative real below every epsilon is zero"]
 domains = ["convex-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/nonnegative-real-less-than-every-0-must-be-zero.md"
 +++
 

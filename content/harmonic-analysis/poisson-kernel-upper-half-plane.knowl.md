@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The positive unit-mass kernel that harmonically extends boundary data from the real line to the upper half-plane."
 aliases = ["upper-half-plane Poisson kernel", "Poisson kernel on H"]
 domains = ["harmonic-analysis", "complex-analysis", "partial-differential-equations"]
+prerequisites = ["complex-analysis/harmonic-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

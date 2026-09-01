@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A function into an ordered abelian group that converts products to sums and satisfies the ultrametric inequality."
 aliases = ["Krull valuation", "additive valuation", "valued field"]
 domains = ["algebra-fields-galois", "algebra-rings", "algebra-hyperstructures"]
+prerequisites = ["algebra-rings/field", "algebra-groups/ordered-abelian-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

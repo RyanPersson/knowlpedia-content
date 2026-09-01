@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The spectral triple formed by smooth functions, square-integrable spinors, and the spin Dirac operator on a closed Riemannian spin manifold."
 aliases = ["commutative spin spectral triple", "Dirac spectral triple"]
 domains = ["noncommutative-geometry", "differential-geometry"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/spin-structure", "differential-geometry/spinor-bundle", "noncommutative-geometry/dirac-operator", "noncommutative-geometry/spectral-triple"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

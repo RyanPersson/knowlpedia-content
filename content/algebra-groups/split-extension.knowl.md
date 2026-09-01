@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An extension admitting a homomorphic section, equivalently a semidirect product"
 aliases = ["split-extension", "Split Extension"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group-homomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/split-extension.md"
 +++
 

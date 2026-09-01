@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Two spectral triples are unitarily equivalent when a unitary identifies their algebra representations and Dirac operators."
 aliases = ["isomorphic spectral triples", "unitarily equivalent triples"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/star-isomorphism", "linear-algebra/surjective-linear-isometry"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

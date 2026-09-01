@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A locally compact group admitting a normalized positive mean invariant under left translation."
 aliases = ["amenable group", "group amenability"]
 domains = ["harmonic-analysis", "functional-analysis", "algebra-groups"]
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/invariant-mean", "harmonic-analysis/haar-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

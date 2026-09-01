@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A von Neumann algebra whose center consists only of scalar multiples of its identity."
 aliases = ["primary von Neumann algebra"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/center-of-von-neumann-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -16,10 +19,11 @@ Z(M)=\mathbb C1_M.
 \]
 Equivalently, \(0\) and \(1_M\) are the only central projections in \(M\).
 This condition means that \(M\) cannot be decomposed as a nontrivial direct
-sum along central projections. It does not mean that \(M\) has no proper
-norm-closed ideals as a \(C^*\)-algebra; for example, \(B(H)\) on an
-infinite-dimensional [[linear-algebra/hilbert-space|Hilbert space]] is a
-factor but contains the [[linear-algebra/compact-operator|compact operators]] as a proper norm-closed ideal.
+sum along central projections.
+
+## Example and warning
+
+Being a factor does not mean having no proper norm-closed ideals as a \(C^*\)-algebra. For example, \(B(H)\) on an infinite-dimensional [[linear-algebra/hilbert-space|Hilbert space]] is a factor but contains the [[linear-algebra/compact-operator|compact operators]] as a proper norm-closed ideal.
 
 ## Closed ideals and central decomposition
 

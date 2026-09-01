@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A spectral triple equipped with a KO-dimensional real structure satisfying the order-zero and first-order conditions."
 aliases = ["real even spectral triple", "real odd spectral triple", "real K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/spectral-triple", "noncommutative-geometry/real-structure-spectral-triple", "noncommutative-geometry/ko-dimension-signs", "noncommutative-geometry/order-zero-condition", "noncommutative-geometry/first-order-condition"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

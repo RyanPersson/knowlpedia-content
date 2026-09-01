@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subset that belongs to the chosen topology on a space."
 aliases = ["open-set", "Open set"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/neighborhood", "topology/interior", "topology/closure", "topology/continuous-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/open-set.md"
 +++
 

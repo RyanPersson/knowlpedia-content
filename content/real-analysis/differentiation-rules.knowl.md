@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Formulas for derivatives of sums, products, quotients, and compositions."
 aliases = ["differentiation-rules", "Differentiation rules"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/differentiation-rules.md"
 +++
 

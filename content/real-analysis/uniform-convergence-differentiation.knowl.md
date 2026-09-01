@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If derivatives converge uniformly and one point converges, then the functions converge uniformly and the limit may be differentiated term by term."
 aliases = ["uniform-convergence-differentiation", "Uniform convergence and differentiation"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/differentiability-1d", "real-analysis/uniform-convergence", "real-analysis/derivative", "real-analysis/differentiability-implies-continuity", "real-analysis/uniform-limit-of-continuous-is-continuous"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/uniform-convergence-differentiation.md"
 +++
 

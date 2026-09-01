@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The R^n-valued 2-form on a frame bundle that measures failure of a connection to be torsion-free."
 aliases = ["torsion-2-form", "Torsion 2-form"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/solder-form-on-the-frame-bundle", "fiber-bundles/principal-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/torsion-2-form.md"
 +++
 

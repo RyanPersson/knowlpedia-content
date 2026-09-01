@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Weil-group representation together with a compatible nilpotent monodromy operator."
 aliases = ["Weil-Deligne representation", "WD representation", "Frobenius-semisimple Weil–Deligne representation"]
 domains = ["langlands", "algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "linear-algebra/vector-space", "langlands/weil-group", "algebra-fields-galois/inertia-subgroup", "langlands/weil-deligne-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

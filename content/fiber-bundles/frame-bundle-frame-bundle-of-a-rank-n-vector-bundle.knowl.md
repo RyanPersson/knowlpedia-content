@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The principal bundle whose fiber consists of ordered bases of the fibers of a rank-n vector bundle."
 aliases = ["frame-bundle-frame-bundle-of-a-rank-n-vector-bundle", "Frame bundle of a rank-n vector bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/rank-of-a-vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/transition-matrix-of-a-local-frame"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A nontrivial group with no nontrivial proper normal subgroups."
 aliases = ["simple-group", "Simple Group"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/trivial-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/simple-group.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For a finite Galois extension L/K, intermediate fields correspond to subgroups of Gal(L/K)."
 aliases = ["fundamental-theorem-galois-theory", "Fundamental theorem of Galois theory"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/galois-extension", "algebra-fields-galois/galois-group", "algebra-fields-galois/fixed-field", "algebra-fields-galois/intermediate-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/fundamental-theorem-galois-theory.md"
 +++
 

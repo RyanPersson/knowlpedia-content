@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The supremum of sums of absolute increments over all partitions."
 aliases = ["total-variation", "Total variation"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/partition-of-an-interval"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/total-variation.md"
 +++
 

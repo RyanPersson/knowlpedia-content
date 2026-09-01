@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical invariant symplectic form on a coadjoint orbit."
 aliases = ["KKS form", "Kirillov form", "Kostant–Kirillov form"]
 domains = ["differential-geometry", "lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "differential-geometry/coadjoint-orbit", "differential-geometry/symplectic-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

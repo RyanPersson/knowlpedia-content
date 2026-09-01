@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The ideal of scalars that kill the entire module."
 aliases = ["annihilator-module", "Annihilator of a module"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/module", "shared-foundations/intersection", "algebra-modules/annihilator-element", "algebra-rings/two-sided-ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/annihilator-module.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Expressing an ideal as an intersection of primary ideals, with existence guaranteed in Noetherian rings."
 aliases = ["primary-decomposition", "Primary decomposition"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/primary-decomposition.md"
 +++
 

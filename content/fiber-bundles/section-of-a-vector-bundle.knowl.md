@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth choice of one vector in every fiber of a smooth vector bundle."
 aliases = ["vector bundle section", "smooth vector bundle section"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/smooth-map", "linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

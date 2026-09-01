@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Each element of a group has a unique two-sided inverse"
 aliases = ["uniqueness-of-inverses-group", "Uniqueness of inverses"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/uniqueness-of-inverses-group.md"
 +++
 

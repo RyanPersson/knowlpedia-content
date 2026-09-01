@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A topological bundle of C*-algebras whose fiber norm is upper semicontinuous."
 aliases = ["upper semicontinuous C*-algebra bundle", "USC C*-bundle"]
 domains = ["operator-algebras", "topology"]
+prerequisites = ["topology/topological-space", "operator-algebras/cstar-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

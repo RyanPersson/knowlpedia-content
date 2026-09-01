@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set in which any two points can be joined by a continuous path lying in the set."
 aliases = ["path-connected-set", "Path-connected set"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "topology/path", "topology/connected-set", "topology/connected-component"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/path-connected-set.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The 78-dimensional simple complex Lie algebra of rank 6 and exceptional Dynkin type E6."
 aliases = ["exceptional-lie-algebra-e6", "e6", "complex Lie algebra e6", "exceptional Lie algebra E6"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation", "lie-groups/adjoint-representation-of-a-lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

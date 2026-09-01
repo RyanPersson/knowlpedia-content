@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The reconstruction axiom requiring the smooth spinor domain to be finite projective and its Hilbert product to arise from noncommutative integration."
 aliases = ["finiteness axiom", "absolute-continuity axiom"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/regular-spectral-triple", "noncommutative-geometry/noncommutative-integral"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

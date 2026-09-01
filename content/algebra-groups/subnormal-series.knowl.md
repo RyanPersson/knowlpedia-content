@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A finite chain from the trivial subgroup to a group in which each term is normal in the next."
 aliases = ["subnormal-series", "Subnormal series"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/subnormal-series.md"
 +++
 

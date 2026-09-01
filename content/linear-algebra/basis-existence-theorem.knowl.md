@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every vector space has a basis."
 aliases = ["basis-existence-theorem", "Basis existence theorem"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/basis-existence-theorem.md"
 +++
 

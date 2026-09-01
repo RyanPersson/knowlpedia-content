@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Fredholm index of a unitary compressed by the positive projection of an odd Fredholm module."
 aliases = ["odd index pairing", "K1 index pairing", "compressed-unitary pairing"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/odd-fredholm-module", "operator-algebras/unitary-element", "operator-algebras/k1-cstar-algebra", "functional-analysis/fredholm-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

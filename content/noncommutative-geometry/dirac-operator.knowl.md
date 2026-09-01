@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The spin-geometric first-order operator obtained by Clifford contraction of the spin connection."
 aliases = ["Atiyah-Singer Dirac operator", "spin Dirac operator", "geometric Dirac operator"]
 domains = ["noncommutative-geometry", "differential-geometry"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/spin-structure", "differential-geometry/spinor-bundle", "fiber-bundles/spin-connection", "noncommutative-geometry/dirac-type-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

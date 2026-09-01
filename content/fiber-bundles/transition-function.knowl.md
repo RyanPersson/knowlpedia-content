@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The change-of-trivialization data on overlaps, encoding how local bundle charts glue."
 aliases = ["transition-function", "Transition function"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/local-trivialization", "fiber-bundles/diffeomorphism", "fiber-bundles/smooth-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/transition-function.md"
 +++
 

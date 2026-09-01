@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The vector bundle whose fiber at each point is the k-th symmetric power of the original fiber."
 aliases = ["symmetric-power-bundle", "Symmetric power bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/tensor-product-vector-bundle", "fiber-bundles/bundle-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/symmetric-power-bundle.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For decreasing measurable sets, the measure of the intersection is the limit of the measures under a finiteness hypothesis."
 aliases = ["continuity-from-above-measure", "Continuity from above"]
 domains = ["measure-theory"]
+prerequisites = ["measure-theory/measure-space", "measure-theory/continuity-from-below-measure", "measure-theory/measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "measure-theory/continuity-from-above-measure.md"
 +++
 

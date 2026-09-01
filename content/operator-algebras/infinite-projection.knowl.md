@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A projection that is Murray–von Neumann equivalent to one of its proper subprojections."
 aliases = ["Murray–von Neumann infinite projection"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/murray-von-neumann-equivalence", "functional-analysis/partial-isometry", "operator-algebras/finite-projection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

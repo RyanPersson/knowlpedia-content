@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The geometric construction that represents all classical observables on sections of a line bundle before imposing a polarization."
 aliases = ["Kostant-Souriau prequantization", "geometric prequantization", "prequantum line bundle construction"]
 domains = ["mathematical-physics", "differential-geometry", "fiber-bundles"]
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/line-bundle", "fiber-bundles/connection-on-a-vector-bundle", "mathematical-physics/quantization-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

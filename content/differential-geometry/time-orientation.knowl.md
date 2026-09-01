@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A continuous choice of one component of the timelike cone on a Lorentzian manifold."
 aliases = []
 domains = ["differential-geometry", "mathematical-physics"]
+prerequisites = ["differential-geometry/lorentzian-manifold", "linear-algebra/minkowski-vector-space", "differential-geometry/causal-curve"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

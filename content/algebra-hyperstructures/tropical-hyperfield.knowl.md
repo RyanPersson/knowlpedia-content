@@ -5,6 +5,9 @@ kind = "example"
 summary = "The max-plus hyperfield whose tied sum is the full lower interval."
 aliases = ["tropical real hyperfield", "max tropical hyperfield"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

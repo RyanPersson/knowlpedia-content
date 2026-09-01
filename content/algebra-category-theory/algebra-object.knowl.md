@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An internal associative unital algebra in a monoidal category."
 aliases = ["monoid object in a monoidal category", "associative algebra object"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/monoidal-category"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

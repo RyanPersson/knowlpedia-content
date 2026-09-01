@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A closed Hilbert subspace preserved by every operator in a unitary group representation."
 aliases = ["reducing subspace", "invariant Hilbert subspace"]
 domains = ["lie-groups", "harmonic-analysis"]
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/closed-linear-subspace", "linear-algebra/orthogonal-complement"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

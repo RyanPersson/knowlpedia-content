@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The logarithm of the moment generating function, when the latter is finite near zero."
 aliases = ["cumulant-generating-function", "Cumulant generating function"]
 domains = ["probability"]
+prerequisites = ["shared-foundations/function", "probability/random-variable", "probability/moment-generating-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "probability/cumulant-generating-function.md"
 +++
 

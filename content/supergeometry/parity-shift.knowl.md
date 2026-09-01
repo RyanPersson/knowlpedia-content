@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The functor that interchanges the even and odd parts of a super vector space."
 aliases = ["parity reversal", "Pi functor"]
 domains = ["supergeometry", "linear-algebra"]
+prerequisites = ["supergeometry/super-vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

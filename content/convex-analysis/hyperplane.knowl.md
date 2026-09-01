@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An affine set whose direction subspace has codimension one."
 aliases = ["hyperplane"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set", "convex-analysis/codimension", "convex-analysis/parallel-subspace-to-an-affine-set-is", "convex-analysis/hyperplanes-are-level-sets-of-nonzero-linear-functionals"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/hyperplane.md"
 +++
 

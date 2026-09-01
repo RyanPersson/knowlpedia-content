@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A morphism between functors given by components that commute with all structure maps."
 aliases = ["natural-transformation", "Natural transformation"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-category-theory/natural-transformation.md"
 +++
 

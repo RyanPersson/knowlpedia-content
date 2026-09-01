@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The inverse limit A-hat = lim A/I^n that completes a ring along the powers of an ideal."
 aliases = ["adic completion", "I-adic completion", "completion along an ideal"]
 domains = ["algebra-commutative", "algebra-rings", "algebraic-geometry-foundations"]
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A differential form whose value at each point lies in a specified vector-bundle fiber."
 aliases = ["E-valued differential form", "bundle-valued differential form"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-field", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

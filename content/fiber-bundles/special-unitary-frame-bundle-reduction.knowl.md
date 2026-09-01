@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The principal SU(n)-bundle of unitary frames calibrated by a chosen unit determinant trivialization."
 aliases = ["special-unitary-frame-bundle-reduction", "Special unitary frame bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/nowhere-vanishing-section", "fiber-bundles/unitary-frame-bundle-reduction"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/special-unitary-frame-bundle-reduction.md"
 +++
 

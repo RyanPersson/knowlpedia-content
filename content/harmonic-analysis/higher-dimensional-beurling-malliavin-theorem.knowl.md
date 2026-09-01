@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Regular negative weights with summable radial-line growth admit nontrivial band-limited multipliers with controlled decay."
 aliases = ["higher-dimensional BM theorem", "Cohen multiplier theorem"]
 domains = ["harmonic-analysis", "several-complex-variables"]
+prerequisites = ["harmonic-analysis/radial-line-growth-functional"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A linear map that pulls the target symplectic form back to the source symplectic form."
 aliases = ["linear symplectic map"]
 domains = ["differential-geometry", "linear-algebra"]
+prerequisites = ["differential-geometry/symplectic-vector-space", "linear-algebra/linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

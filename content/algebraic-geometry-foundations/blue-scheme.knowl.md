@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A locally blueprinted space covered by spectra of blueprints."
 aliases = ["blueprint scheme", "blue scheme over F1"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/locally-blueprinted-space", "topology/open-cover", "algebraic-geometry-foundations/affine-blue-scheme"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

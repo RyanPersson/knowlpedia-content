@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Lie-algebra representation obtained by differentiating a strongly continuous unitary representation on its smooth vectors."
 aliases = ["infinitesimal representation", "differential of a unitary representation"]
 domains = ["lie-groups", "functional-analysis"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "lie-groups/smooth-vector-unitary-representation", "lie-groups/representation-of-a-lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

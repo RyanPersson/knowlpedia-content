@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The elements that lie in exactly one of two sets."
 aliases = ["symmetric-difference", "Symmetric difference"]
 domains = ["shared-foundations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/symmetric-difference.md"
 +++
 

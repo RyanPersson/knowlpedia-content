@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The conjugation-invariant distribution obtained by tracing the integrated operators of an admissible representation."
 aliases = ["Harish-Chandra character", "distribution character"]
 domains = ["lie-groups", "harmonic-analysis"]
+prerequisites = ["fiber-bundles/lie-group", "harmonic-analysis/haar-measure", "lie-groups/admissible-representation-real-reductive-group", "harmonic-analysis/integrated-operator-continuous-representation", "functional-analysis/distribution"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

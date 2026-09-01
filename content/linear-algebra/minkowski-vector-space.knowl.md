@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Four-dimensional real vector space with the Lorentzian quadratic form −t²+x²+y²+z²."
 aliases = ["Minkowski quadratic space", "Lorentzian vector space R1,3"]
 domains = ["linear-algebra", "mathematical-physics"]
+prerequisites = ["linear-algebra/bilinear-form", "linear-algebra/quadratic-form", "linear-algebra/signature-of-symmetric-bilinear-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A multiplicative group selected inside an integral hyperring, with a possibly empty multivalued partial addition."
 aliases = ["partial Krasner hyperfield"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
+prerequisites = ["algebra-hyperstructures/integral-hyperring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

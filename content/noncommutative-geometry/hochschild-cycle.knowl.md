@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Hochschild chain annihilated by the Hochschild boundary."
 aliases = ["Hochschild homology cycle", "b-cycle"]
 domains = ["noncommutative-geometry", "algebra-homological"]
+prerequisites = ["algebra-modules/algebra-over-ring", "noncommutative-geometry/hochschild-chain-complex", "algebra-homological/homology-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

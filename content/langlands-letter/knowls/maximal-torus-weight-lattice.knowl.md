@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A maximal torus with its geometric character and cocharacter lattices, carrying a Galois action over a nonsplit field."
 aliases = ["maximal-torus-weight-lattice", "Maximal Torus and Weight Lattice"]
 domains = ["langlands-letter"]
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebra-fields-galois/algebraic-closure", "algebra-groups/abelian-group", "langlands-letter/knowls/galois-extension-and-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "langlands-letter/knowls/maximal-torus-weight-lattice.md"
 section_mode = "progressive"
 +++

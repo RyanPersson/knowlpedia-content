@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A compact self-adjoint operator on a separable Hilbert space has an orthonormal eigenbasis, with nonzero eigenvalues tending to zero."
 aliases = ["spectral-theorem-compact-selfadjoint", "Spectral Theorem for Compact Selfadjoint Operators"]
 domains = ["shale-paper"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shale-paper/spectral-theorem-compact-selfadjoint.md"
 +++
 

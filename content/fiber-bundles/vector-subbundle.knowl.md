@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smoothly varying family of linear subspaces inside the fibers of a vector bundle."
 aliases = ["smooth vector subbundle", "subbundle of a vector bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle", "convex-analysis/linear-subspace", "fiber-bundles/local-trivialization", "fiber-bundles/smooth-embedding"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

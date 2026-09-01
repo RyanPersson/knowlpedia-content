@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Prime ideals in a localization S^{-1}R correspond to primes of R disjoint from S via extension and contraction."
 aliases = ["localization-prime-correspondence", "Prime correspondence under localization"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring", "algebra-commutative/localization-preserves-primality"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/localization-prime-correspondence.md"
 +++
 

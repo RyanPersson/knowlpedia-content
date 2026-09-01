@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The decreasing filtration obtained by collecting the Hodge components whose first bidegree is at least a prescribed integer."
 aliases = ["decreasing Hodge filtration"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/pure-hodge-structure", "differential-geometry/complex-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

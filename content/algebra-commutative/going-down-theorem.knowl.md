@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For an integral extension of domains with integrally closed base, prime chains descend inside a prescribed prime upstairs."
 aliases = ["going-down-theorem", "Going-down theorem"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-commutative/integral-extension", "algebra-commutative/integrally-closed-domain"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/going-down-theorem.md"
 +++
 

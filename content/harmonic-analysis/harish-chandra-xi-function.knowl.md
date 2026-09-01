@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The normalized positive spherical matrix coefficient that controls decay on a real semisimple Lie group."
 aliases = ["Xi function", "elementary spherical function Xi"]
 domains = ["harmonic-analysis", "lie-groups"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/minimal-parabolic-subgroup", "lie-groups/spherical-principal-series", "harmonic-analysis/coefficient-function", "lie-groups/iwasawa-decomposition", "lie-groups/restricted-root-system", "probability/probability-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

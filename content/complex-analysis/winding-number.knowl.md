@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The integer measuring how a closed contour winds around a point."
 aliases = ["index of a curve", "contour index"]
 domains = ["complex-analysis", "topology"]
+prerequisites = ["topology/connected-component"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A line-porous set occupies only a power-decaying fraction of every line segment in the controlled scale range."
 aliases = ["line porous intersection estimate", "line-section measure bound"]
 domains = ["analysis", "geometric-measure-theory"]
+prerequisites = ["analysis/porosity-on-lines", "measure-theory/lebesgue-measure"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

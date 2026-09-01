@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical flow induced by the dual action on the center of the continuous core of a von Neumann algebra."
 aliases = ["Connes–Takesaki flow"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/continuous-core-von-neumann-algebra", "operator-algebras/von-neumann-crossed-product", "operator-algebras/modular-automorphism-group", "operator-algebras/dual-action-von-neumann-crossed-product", "operator-algebras/center-of-von-neumann-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

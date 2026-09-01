@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A sequence trapped between two sequences with the same limit has that limit as well."
 aliases = ["squeeze-theorem", "Squeeze Theorem"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/limit-at-a-point"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/squeeze-theorem.md"
 +++
 

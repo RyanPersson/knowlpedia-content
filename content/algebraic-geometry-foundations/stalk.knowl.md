@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The collection of germs near one point of a sheaf."
 aliases = ["stalk", "germ at a point"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/sheaf", "topology/topological-space", "algebraic-geometry-foundations/structure-sheaf", "algebraic-geometry-foundations/affine-scheme"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebraic-geometry-foundations/stalk.md"
 +++
 

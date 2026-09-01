@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An affine function whose graph supports the epigraph of a convex function."
 aliases = ["supporting-hyperplane-convex-function", "Supporting hyperplane of a convex function"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/hyperplane", "convex-analysis/convex-set", "convex-analysis/subgradient", "convex-analysis/subdifferential"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/supporting-hyperplane-convex-function.md"
 +++
 

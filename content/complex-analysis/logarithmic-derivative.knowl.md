@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The meromorphic function f prime over f, whose residues record zeros and poles."
 aliases = ["log derivative"]
 domains = ["complex-analysis"]
+prerequisites = ["complex-analysis/meromorphic-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

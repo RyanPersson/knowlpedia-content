@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Rules for limits of sums, products, and quotients of convergent sequences."
 aliases = ["limit-algebra-for-sequences", "Limit Algebra for Sequences"]
 domains = ["real-analysis"]
+prerequisites = ["topology/convergent-sequence", "real-analysis/absolute-value"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/limit-algebra-for-sequences.md"
 +++
 

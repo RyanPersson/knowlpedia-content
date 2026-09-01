@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A classification of irreducible unitary representations of regular semidirect products with an abelian normal factor."
 aliases = ["little-group method"]
 domains = ["harmonic-analysis", "representation-theory"]
+prerequisites = ["topology/locally-compact-group", "algebra-groups/semidirect-product", "harmonic-analysis/pontryagin-dual", "algebra-groups/stabilizer", "lie-groups/irreducible-unitary-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

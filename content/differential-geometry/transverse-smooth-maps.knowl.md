@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Smooth maps to a common target whose differentials jointly span the target tangent space over every coincidence."
 aliases = ["transverse maps", "maps transverse to each other"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-of-a-smooth-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

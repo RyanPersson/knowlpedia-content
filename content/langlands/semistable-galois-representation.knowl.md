@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A p-adic Galois representation whose semistable period module has full dimension."
 aliases = ["semistable p-adic representation", "potentially semistable representation", "semistable representation in p-adic Hodge theory"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
+prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands/fontaine-period-rings"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

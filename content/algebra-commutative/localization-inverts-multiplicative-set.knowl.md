@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In the localization S^{-1}R, every element of S becomes a unit, and S^{-1}R is universal with that property."
 aliases = ["localization-inverts-multiplicative-set", "Localization inverts a multiplicative set"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring", "algebra-commutative/localization-at-prime", "algebra-commutative/local-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/localization-inverts-multiplicative-set.md"
 +++
 
@@ -27,7 +30,7 @@ If \(T\) is any commutative ring and \(\varphi:R\to T\) is a homomorphism such t
 
 This perspective explains why [[algebra-commutative/localization-at-prime|localizing at a prime]] produces a [[algebra-commutative/local-ring|local ring]]: inverting all elements outside a prime ideal forces exactly those elements to become units.
 
-### Examples
+## Examples
 1. **Inverting a single integer.**
    Take \(R=\mathbb Z\) and \(S=\{1,2,2^2,2^3,\dots\}\). Then \(S^{-1}R\cong \mathbb Z[1/2]\), and \(2\) becomes a unit with inverse \(1/2\).
 

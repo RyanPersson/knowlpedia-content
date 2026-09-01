@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The condition that two points in the same fiber differ by a unique group element."
 aliases = ["torsor condition", "principal homogeneous space condition"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/group-scheme", "algebra-groups/group-action", "algebraic-geometry-foundations/fiber-product-of-schemes"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 Let \(G\to X\) be a [[algebraic-geometry-foundations/group-scheme|group scheme]] and let \(P\to X\) carry a right [[algebra-groups/group-action|\(G\)-action]]. The **torsor condition** is that \(P\to X\) is a cover in the chosen topology and the morphism

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A differential form on a Lie group fixed by all right translations, determined by its value at the identity."
 aliases = ["right-invariant-differential-form", "Right-invariant differential form"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/right-translation", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/right-maurer-cartan-form", "lie-groups/maurer-cartan-equation", "lie-groups/left-invariant-differential-form", "lie-groups/bi-invariant-differential-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/right-invariant-differential-form.md"
 +++
 

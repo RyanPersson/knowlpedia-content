@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Two elements that differ by multiplication by a unit."
 aliases = ["associated-elements", "Associated elements"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/integral-domain", "algebra-rings/unit"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/associated-elements.md"
 +++
 

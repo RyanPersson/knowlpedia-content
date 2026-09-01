@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A minimal positive root; simple roots form a basis for the root system and generate all positive roots."
 aliases = ["simple-root", "Simple root"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/root-system", "lie-groups/positive-root", "lie-groups/root-lie-algebra", "lie-groups/root-space-decomposition", "lie-groups/cartan-matrix", "lie-groups/dynkin-diagram", "lie-groups/highest-weight", "lie-groups/highest-weight-theorem"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/simple-root.md"
 +++
 

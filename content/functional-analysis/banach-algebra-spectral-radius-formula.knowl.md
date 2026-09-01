@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The spectral radius of a Banach-algebra element is the asymptotic growth rate of the norms of its powers."
 aliases = ["Gelfand spectral radius formula", "Beurling formula", "spectral radius formula"]
 domains = ["functional-analysis", "operator-algebras"]
+prerequisites = ["functional-analysis/banach-algebra", "functional-analysis/banach-algebra-spectral-radius"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For a flat connection, holonomy around a loop depends only on the loop's based homotopy class."
 aliases = ["proposition-flatness-implies-holonomy-depends-only-on-homotopy-class-of-loops", "Flatness implies holonomy depends only on homotopy class of loops"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/holonomy-group", "fiber-bundles/curvature"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/proposition-flatness-implies-holonomy-depends-only-on-homotopy-class-of-loops.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A convenient list of axioms characterizing abelian categories."
 aliases = ["abelian-category-axioms", "Axioms for an abelian category"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/additive-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical", "algebra-category-theory/monomorphism-category", "algebra-category-theory/epimorphism-category"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-category-theory/abelian-category-axioms.md"
 +++
 

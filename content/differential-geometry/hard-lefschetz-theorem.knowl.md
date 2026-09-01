@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Powers of a Kähler class give isomorphisms between complementary cohomological degrees on a compact Kähler manifold."
 aliases = ["Lefschetz isomorphism theorem"]
 domains = ["differential-geometry", "topology"]
+prerequisites = ["differential-geometry/kahler-manifold", "topology/cup-product-and-cohomology-ring", "differential-geometry/kahler-class"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

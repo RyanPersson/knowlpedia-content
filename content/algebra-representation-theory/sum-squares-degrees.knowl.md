@@ -5,10 +5,13 @@ kind = "knowl"
 summary = "For a finite group, the sum of the squares of the dimensions of its irreducible complex representations equals the group order."
 aliases = ["sum-squares-degrees", "Sum of squares of degrees"]
 domains = ["algebra-representation-theory"]
+prerequisites = ["algebra-representation-theory/irreducible-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-representation-theory/sum-squares-degrees.md"
 +++
 
-Let \(G\) be a finite group and let \(k\) be an algebraically closed field with \(\operatorname{char}(k)\nmid |G|\), for example \(k=\mathbb C\). Let
+Let \(G\) be a finite group and let \(k\) be an algebraically closed field with \(\operatorname{char}(k)\nmid |G|\). Let
 \[
 \{V_1,\dots,V_r\}
 \]
@@ -29,6 +32,7 @@ This decomposition follows from [[algebra-representation-theory/maschkes-theorem
 
 ## Examples
 
+The characteristic hypothesis holds for \(k=\mathbb C\), the standard complex-representation setting.
 1. **Cyclic group \(C_n\).**
    Over \(\mathbb C\), every irreducible representation of \(C_n\) is \(1\)-dimensional (a character). There are \(n\) such characters, so
    \[

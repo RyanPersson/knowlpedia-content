@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A smooth right action of a Lie group on a bundle total space that is free and transitive along each fiber."
 aliases = ["right-principal-action", "Right principal action"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/right-principal-action.md"
 +++
 

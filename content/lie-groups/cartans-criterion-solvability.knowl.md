@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A Lie algebra over characteristic 0 is solvable iff a certain trace pairing vanishes on g × [g,g]."
 aliases = ["cartans-criterion-solvability", "Cartan’s criterion for solvability"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/killing-form", "lie-groups/derived-subalgebra", "lie-groups/solvable-lie-algebra", "lie-groups/derived-series-lie-algebra", "lie-groups/cartans-criterion-semisimplicity"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/cartans-criterion-solvability.md"
 +++
 

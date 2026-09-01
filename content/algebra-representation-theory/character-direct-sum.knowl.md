@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For complex representations, the character of a direct sum is the sum of the characters."
 aliases = ["character-direct-sum", "Character of a Direct Sum"]
 domains = ["algebra-representation-theory"]
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/character", "linear-algebra/trace", "algebra-modules/direct-sum-modules"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-representation-theory/character-direct-sum.md"
 +++
 

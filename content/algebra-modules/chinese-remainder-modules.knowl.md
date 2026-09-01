@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Module quotients by comaximal ideal multiples split as a direct sum of smaller quotients."
 aliases = ["chinese-remainder-modules", "Chinese remainder for modules"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-rings/chinese-remainder-theorem", "algebra-rings/ideal", "algebra-rings/commutative-ring", "algebra-modules/quotient-module", "algebra-modules/direct-sum-modules"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/chinese-remainder-modules.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If the sum of supremum norms is finite, then the corresponding series of functions converges uniformly."
 aliases = ["m-test-corollary", "Corollary of the M-test"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/uniform-convergence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/m-test-corollary.md"
 +++
 

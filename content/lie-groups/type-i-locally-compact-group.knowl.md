@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A locally compact group is type I when its full group C*-algebra is a type I C*-algebra."
 aliases = ["type I group", "postliminal group"]
 domains = ["lie-groups", "harmonic-analysis", "operator-algebras"]
+prerequisites = ["topology/locally-compact-group", "operator-algebras/full-group-cstar-algebra", "operator-algebras/type-i-cstar-algebra", "operator-algebras/factorial-representation", "operator-algebras/type-i-factor", "harmonic-analysis/unitary-dual"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

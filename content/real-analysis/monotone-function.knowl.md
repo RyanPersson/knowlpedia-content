@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function that preserves or reverses order on an interval."
 aliases = ["monotone-function", "Monotone function"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/interval"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/monotone-function.md"
 +++
 

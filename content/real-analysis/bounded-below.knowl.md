@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set of real numbers that has a lower bound."
 aliases = ["bounded-below", "Bounded below"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/subset"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/bounded-below.md"
 +++
 

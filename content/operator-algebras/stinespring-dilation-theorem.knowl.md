@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Every completely positive map into bounded operators is a compression of a star-representation."
 aliases = ["Stinespring representation theorem", "Stinespring theorem"]
 domains = ["operator-algebras"]
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/completely-positive-map", "operator-algebras/cstar-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

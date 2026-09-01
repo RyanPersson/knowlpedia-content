@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A partition together with a chosen sample point in each subinterval."
 aliases = ["tagged-partition", "Tagged partition"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/riemann-sum", "real-analysis/riemann-stieltjes-integral"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/tagged-partition.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set that is a countable union of nowhere dense sets"
 aliases = ["meager-set", "Meager set"]
 domains = ["topology"]
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "shared-foundations/union", "topology/nowhere-dense-set", "shared-foundations/complement", "topology/residual-set", "topology/baire-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/meager-set.md"
 +++
 

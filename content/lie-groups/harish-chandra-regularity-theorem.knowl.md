@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The theorem representing invariant eigendistributions by locally integrable functions analytic on regular semisimple elements."
 aliases = ["regularity of invariant eigendistributions", "character regularity theorem"]
 domains = ["lie-groups", "harmonic-analysis"]
+prerequisites = ["fiber-bundles/lie-group", "functional-analysis/distribution", "algebra-groups/centralizer"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

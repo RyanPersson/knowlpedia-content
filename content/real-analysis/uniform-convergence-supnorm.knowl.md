@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For bounded real-valued functions, uniform convergence is equivalent to convergence in the supremum norm."
 aliases = ["uniform-convergence-supnorm", "Uniform convergence in supremum norm"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/uniform-convergence", "real-analysis/supremum-norm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/uniform-convergence-supnorm.md"
 +++
 

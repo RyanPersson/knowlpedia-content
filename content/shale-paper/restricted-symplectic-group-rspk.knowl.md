@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The implementable symplectic transformations in Shale's Fock representation"
 aliases = ["restricted-symplectic-group-rspk", "Restricted Symplectic Group rSp(K)"]
 domains = ["shale-paper"]
+prerequisites = ["shale-paper/restricted-general-linear-group-rgl", "shale-paper/hilbert-schmidt-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shale-paper/restricted-symplectic-group-rspk.md"
 +++
 

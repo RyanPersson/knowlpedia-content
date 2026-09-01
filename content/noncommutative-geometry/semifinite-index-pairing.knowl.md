@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The pairing of a semifinite spectral triple with K-theory through a trace-valued Breuer index."
 aliases = ["Breuer index pairing", "tau-index pairing", "semifinite spectral-flow pairing"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/semifinite-spectral-triple", "operator-algebras/breuer-fredholm-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

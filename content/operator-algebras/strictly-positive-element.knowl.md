@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A strictly positive element is a positive element whose generated hereditary subalgebra is the whole C*-algebra."
 aliases = ["strictly positive C*-element"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-element", "operator-algebras/hereditary-cstar-subalgebra", "operator-algebras/positive-linear-functional"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

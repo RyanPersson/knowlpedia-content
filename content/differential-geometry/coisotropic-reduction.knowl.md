@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A smooth quotient of a coisotropic submanifold by its characteristic leaves inherits a unique symplectic form."
 aliases = ["characteristic reduction", "presymplectic reduction"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/coisotropic-submanifold", "differential-geometry/characteristic-foliation", "fiber-bundles/smooth-manifold", "differential-geometry/symplectic-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A Lie algebra valued 1-form on an open set obtained by pulling back a principal connection along a local section"
 aliases = ["local-connection-1-form", "Local connection 1-form"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/principal-connection", "fiber-bundles/construction-local-trivialization-from-a-local-section", "fiber-bundles/local-gauge-transformation", "fiber-bundles/lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg", "fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections", "fiber-bundles/local-curvature-2-form", "fiber-bundles/local-curvature-formula-f-da-aa", "fiber-bundles/lemma-local-curvature-transformation-law-fg-g-1fg"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/local-connection-1-form.md"
 +++
 

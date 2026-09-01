@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The subspace of a representation on which every group or Lie-algebra element acts trivially."
 aliases = ["invariant-vector subspace", "space of invariants", "fixed vectors", "G-invariants"]
 domains = ["lie-groups", "representation-theory"]
+prerequisites = ["lie-groups/representation-of-a-lie-group", "lie-groups/representation-of-a-lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

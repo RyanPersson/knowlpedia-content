@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Between any two real numbers there is a rational number."
 aliases = ["density-of-q", "Density of the Rationals"]
 domains = ["real-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/density-of-q.md"
 +++
 

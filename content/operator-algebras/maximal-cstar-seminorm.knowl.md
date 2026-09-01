@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The maximal C*-seminorm of an involutive algebra is the supremum of the operator norms of an element over all bounded Hilbert-space representations."
 aliases = ["universal C*-norm", "maximal representation seminorm", "Universal C*-seminorm"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/cstar-representation", "convex-analysis/seminorm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

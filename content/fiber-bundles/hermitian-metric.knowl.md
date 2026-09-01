@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A smoothly varying Hermitian inner product on the fibers of a complex vector bundle."
 aliases = ["hermitian-metric", "Hermitian metric"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/unitary-frame-bundle-reduction"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/hermitian-metric.md"
 +++
 

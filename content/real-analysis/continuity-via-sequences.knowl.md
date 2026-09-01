@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In metric spaces, f is continuous at x iff it preserves limits of sequences converging to x"
 aliases = ["continuity-via-sequences", "Continuity via sequences"]
 domains = ["real-analysis"]
+prerequisites = ["topology/metric-space", "real-analysis/continuity-at-a-point"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/continuity-via-sequences.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The unique expansion of a holomorphic function in positive and negative powers on an annulus."
 aliases = ["Laurent expansion"]
 domains = ["complex-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

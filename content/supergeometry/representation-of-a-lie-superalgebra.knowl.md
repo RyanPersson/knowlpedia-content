@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An even Lie-superalgebra morphism from a Lie superalgebra to the super-endomorphisms of a super vector space."
 aliases = ["Lie superalgebra representation", "superrepresentation of a Lie superalgebra"]
 domains = ["supergeometry", "representation-theory"]
+prerequisites = ["supergeometry/lie-superalgebra", "supergeometry/super-vector-space", "supergeometry/super-internal-hom", "supergeometry/supercommutator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

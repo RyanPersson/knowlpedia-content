@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Chern–Weil forms and their de Rham classes commute with pullback of principal bundles."
 aliases = ["naturality-of-chernweil-classes-under-pullback", "Naturality of Chern–Weil classes under pullback"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/smooth-map", "fiber-bundles/chernweil-form", "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/naturality-of-chernweil-classes-under-pullback.md"
 +++
 

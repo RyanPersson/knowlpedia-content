@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth map whose pullback of the target Riemannian metric is the source metric."
 aliases = ["isometric immersion", "Riemannian immersion"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/smooth-immersion"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

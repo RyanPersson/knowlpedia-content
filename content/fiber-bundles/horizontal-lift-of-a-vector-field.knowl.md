@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The unique horizontal vector field on the total space that projects to a given vector field on the base."
 aliases = ["horizontal-lift-of-a-vector-field", "Horizontal lift of a vector field"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/vector-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/horizontal-lift-of-a-vector-field.md"
 +++
 

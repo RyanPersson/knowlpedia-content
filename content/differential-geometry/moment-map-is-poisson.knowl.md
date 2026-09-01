@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "An equivariant moment map is a Poisson map to the dual Lie algebra with its compatible Lie–Poisson bracket."
 aliases = ["equivariant moment map is Poisson"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/equivariant-moment-map", "differential-geometry/poisson-map", "fiber-bundles/moment-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

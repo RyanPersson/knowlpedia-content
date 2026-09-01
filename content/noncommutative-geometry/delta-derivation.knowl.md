@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The closed commutator derivation with the absolute value of the Dirac operator in a spectral triple."
 aliases = ["absolute-Dirac derivation", "delta derivation", "smoothness derivation"]
 domains = ["noncommutative-geometry", "functional-analysis"]
+prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/operator-commutator", "linear-algebra/operator-norm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

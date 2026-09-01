@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A unital self-adjoint operator algebra has the same strong closure, weak closure, and bicommutant."
 aliases = ["double commutant theorem"]
 domains = ["operator-algebras"]
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/strong-operator-topology", "operator-algebras/weak-operator-topology", "operator-algebras/bicommutant", "operator-algebras/von-neumann-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A one-dimensional change of variables formula for definite integrals"
 aliases = ["substitution-rule-for-one-variable-riemann-integrals", "Substitution rule (change of variables) for Riemann integrals"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/continuity-on-a-set", "real-analysis/differentiability-one-variable", "real-analysis/change-of-variables-formula"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/substitution-rule-for-one-variable-riemann-integrals.md"
 +++
 

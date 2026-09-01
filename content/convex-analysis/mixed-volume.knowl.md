@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The symmetric multilinear polarization of volume with respect to Minkowski addition."
 aliases = ["mixed volume of convex bodies", "Minkowski mixed volume"]
 domains = ["convex-analysis", "integral-geometry"]
+prerequisites = ["convex-analysis/convex-body"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

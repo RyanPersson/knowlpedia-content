@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A finite field extension of the rational numbers."
 aliases = ["algebraic number field", "number fields"]
 domains = ["algebra-fields-galois", "langlands"]
+prerequisites = ["algebra-fields-galois/field-extension", "shared-foundations/rational-numbers"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

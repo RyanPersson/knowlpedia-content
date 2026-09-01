@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A quasigroup with an identity element"
 aliases = ["loop"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/quasigroup", "algebra-groups/group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/loop.md"
 +++
 

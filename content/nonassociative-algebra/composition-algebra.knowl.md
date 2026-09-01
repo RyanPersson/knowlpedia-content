@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A unital algebra with a nondegenerate quadratic norm that composes under multiplication."
 aliases = ["Hurwitz algebra", "unital composition algebra"]
 domains = ["nonassociative-algebra"]
+prerequisites = ["nonassociative-algebra/nonassociative-algebra", "linear-algebra/quadratic-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

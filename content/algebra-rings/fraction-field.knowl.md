@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The field obtained from an integral domain by adjoining inverses to all nonzero elements."
 aliases = ["fraction-field", "Fraction field"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/integral-domain", "algebra-rings/field", "algebra-rings/ring-monomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/fraction-field.md"
 +++
 

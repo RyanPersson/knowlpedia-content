@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function that undoes a bijective function"
 aliases = ["inverse-function", "Inverse function"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/bijective-function", "shared-foundations/identity-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/inverse-function.md"
 +++
 

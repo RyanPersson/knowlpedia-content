@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set has at most one least upper bound and at most one greatest lower bound."
 aliases = ["uniqueness-of-sup-inf", "Uniqueness of Supremum and Infimum"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/supremum", "real-analysis/infimum", "real-analysis/completeness-axiom"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/uniqueness-of-sup-inf.md"
 +++
 

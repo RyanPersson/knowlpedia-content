@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The real or complex special linear Lie group modulo its finite scalar center."
 aliases = ["PSL Lie group", "projective unimodular Lie group"]
 domains = ["lie-groups", "algebra-groups"]
+prerequisites = ["lie-groups/special-linear-group", "lie-groups/quotient-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

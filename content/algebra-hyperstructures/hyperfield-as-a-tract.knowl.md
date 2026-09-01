@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The tract whose null formal sums are precisely the hypersums containing zero."
 aliases = ["hyperfield tract"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
+prerequisites = ["algebra-hyperstructures/hyperfield", "algebra-hyperstructures/tract"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

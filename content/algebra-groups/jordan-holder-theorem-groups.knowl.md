@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Any two composition series have the same length and the same composition factors up to order"
 aliases = ["jordan-holder-theorem-groups", "Jordan–Hölder Theorem (Groups)"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/composition-series-group", "algebra-groups/simple-group", "algebra-groups/group-isomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/jordan-holder-theorem-groups.md"
 +++
 

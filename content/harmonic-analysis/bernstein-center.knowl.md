@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The algebra of natural endomorphisms of the identity functor on smooth representations of a reductive p-adic group."
 aliases = ["Bernstein centre", "categorical Bernstein center", "center of the category of smooth representations"]
 domains = ["harmonic-analysis", "langlands", "algebra-representation-theory"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "harmonic-analysis/smooth-representation-totally-disconnected-group", "algebra-representation-theory/irreducible-representation", "algebra-representation-theory/schurs-lemma"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

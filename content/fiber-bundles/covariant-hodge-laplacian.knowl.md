@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The covariant Hodge Laplacian is the second-order operator obtained by anticommuting a covariant exterior derivative with its formal adjoint."
 aliases = ["gauge-covariant Laplacian", "Delta_A"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "differential-geometry/riemannian-manifold", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

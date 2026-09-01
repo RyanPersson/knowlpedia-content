@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A functor that is invertible up to natural isomorphism."
 aliases = ["equivalence-of-categories", "Equivalence of categories"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/natural-isomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-category-theory/equivalence-of-categories.md"
 +++
 

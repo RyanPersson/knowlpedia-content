@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every field contains a smallest subfield isomorphic to Q or to F_p."
 aliases = ["prime-subfield", "Prime subfield"]
 domains = ["algebra-rings"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/prime-subfield.md"
 +++
 

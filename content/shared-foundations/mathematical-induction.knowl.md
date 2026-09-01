@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A principle for proving statements for all natural numbers."
 aliases = ["mathematical-induction", "Mathematical induction"]
 domains = ["shared-foundations"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/mathematical-induction.md"
 +++
 

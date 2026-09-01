@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A convergence test that compares a nonnegative decreasing series to an improper integral."
 aliases = ["integral-test", "Integral test"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/series", "real-analysis/convergent-series"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/integral-test.md"
 +++
 

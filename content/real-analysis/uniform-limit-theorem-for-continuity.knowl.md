@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A uniform limit of continuous functions between metric spaces is continuous."
 aliases = ["uniform-limit-theorem-for-continuity", "Uniform limit theorem for continuity"]
 domains = ["real-analysis"]
+prerequisites = ["topology/metric-space", "real-analysis/continuity-on-a-set", "real-analysis/uniform-convergence-of-a-sequence-of-functions", "real-analysis/pointwise-convergence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/uniform-limit-theorem-for-continuity.md"
 +++
 

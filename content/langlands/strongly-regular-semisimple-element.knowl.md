@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A semisimple element of a reductive group whose centralizer is a maximal torus."
 aliases = ["strongly regular semisimple", "strongly regular element", "regular semisimple element with torus centralizer"]
 domains = ["langlands", "algebraic-geometry-foundations", "representation-theory"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "algebra-groups/centralizer", "langlands-letter/knowls/maximal-torus-weight-lattice"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

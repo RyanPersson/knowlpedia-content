@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The semidirect-product Lie algebra of Lorentz transformations and spacetime translations."
 aliases = ["inhomogeneous Lorentz algebra", "Poincare Lie algebra", "iso(1,3)"]
 domains = ["mathematical-physics", "lie-groups"]
+prerequisites = ["lie-groups/lie-algebra", "linear-algebra/minkowski-vector-space", "lie-groups/poincare-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

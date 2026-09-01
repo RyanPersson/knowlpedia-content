@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A module over a C-star algebra that is complete for the norm induced by an algebra-valued inner product."
 aliases = ["Hilbert module", "right Hilbert A-module"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "algebra-modules/module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The odd left-invariant distribution on super-Minkowski space whose Levi bracket is the supertranslation bracket."
 aliases = ["supersymmetry distribution", "flat supertranslation distribution"]
 domains = ["supergeometry", "mathematical-physics"]
+prerequisites = ["supergeometry/super-minkowski-space", "lie-groups/left-invariant-vector-field", "supergeometry/supermanifold", "mathematical-physics/supertranslation-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The determinant-1 subgroup of the orthogonal group preserving a quadratic form."
 aliases = ["special-orthogonal-group", "Special orthogonal group"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/orthogonal-group", "lie-groups/closed-subgroup-lie-group", "lie-groups/spin-group", "lie-groups/lorentz-group", "lie-groups/orthogonal-lie-algebra", "lie-groups/compact-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/special-orthogonal-group.md"
 +++
 

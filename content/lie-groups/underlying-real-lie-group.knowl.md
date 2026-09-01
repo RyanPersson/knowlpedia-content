@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The real Lie group obtained from a complex Lie group by forgetting its complex structure."
 aliases = ["realification of a complex Lie group", "restriction of scalars of a complex Lie group"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/complex-lie-group", "differential-geometry/complex-manifold", "algebra-groups/group-homomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

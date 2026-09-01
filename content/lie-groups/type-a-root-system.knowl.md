@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The simply laced root system A_n formed by the differences e_i-e_j in the sum-zero hyperplane of R^{n+1}."
 aliases = ["type A root system", "A_n root system", "root system of type A"]
 domains = ["lie-groups"]
+prerequisites = ["linear-algebra/euclidean-space", "lie-groups/simply-laced-root-system"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The smallest closed set containing a given set"
 aliases = ["closure-of-a-set", "Closure"]
 domains = ["convex-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/closure-of-a-set.md"
 +++
 

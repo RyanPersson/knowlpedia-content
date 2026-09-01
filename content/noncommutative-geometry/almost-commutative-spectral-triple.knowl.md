@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A spectral triple obtained by multiplying the canonical spin geometry of a manifold by a finite spectral triple."
 aliases = ["almost-commutative geometry", "product geometry with a finite triple"]
 domains = ["noncommutative-geometry", "differential-geometry"]
+prerequisites = ["noncommutative-geometry/canonical-spin-spectral-triple", "noncommutative-geometry/product-spectral-triple"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

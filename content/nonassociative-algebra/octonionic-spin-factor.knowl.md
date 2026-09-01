@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The ten-dimensional Euclidean Jordan algebra of two-by-two Hermitian octonionic matrices."
 aliases = ["octonionic spin factor", "h_2(O)", "octonionic qubit"]
 domains = ["nonassociative-algebra"]
+prerequisites = ["nonassociative-algebra/jordan-algebra", "nonassociative-algebra/euclidean-jordan-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

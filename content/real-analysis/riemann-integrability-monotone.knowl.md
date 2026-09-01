@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every monotone function on a closed interval is Riemann integrable."
 aliases = ["riemann-integrability-monotone", "Riemann integrability of monotone functions"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/monotone-function", "real-analysis/riemann-integrable-function", "real-analysis/discontinuity-point", "real-analysis/oscillation-criterion"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/riemann-integrability-monotone.md"
 +++
 

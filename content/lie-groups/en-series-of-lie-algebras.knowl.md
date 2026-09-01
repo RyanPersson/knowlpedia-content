@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The extended E_n convention linking the exceptional types E6, E7, E8 to D5, A4, and A2+A1 by successive Dynkin-node deletion."
 aliases = ["en-series-of-lie-algebras", "E_n series", "En series", "extended E-series"]
 domains = ["lie-groups"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

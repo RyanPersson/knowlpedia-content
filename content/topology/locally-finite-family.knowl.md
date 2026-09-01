@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A family of subsets for which every point has a neighborhood meeting only finitely many members."
 aliases = ["locally finite collection", "local finiteness of a family"]
 domains = ["topology"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

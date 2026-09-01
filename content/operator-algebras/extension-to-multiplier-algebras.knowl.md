@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A nondegenerate homomorphism between C*-algebras extends uniquely to a unital strictly continuous homomorphism of their multiplier algebras."
 aliases = ["strict extension theorem", "multiplier extension theorem"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/nondegenerate-star-homomorphism", "operator-algebras/multiplier-algebra", "operator-algebras/strict-topology"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A distribution whose distributional support is compact in its open domain."
 aliases = ["space E-prime", "distribution with compact support"]
 domains = ["functional-analysis", "distribution-theory"]
+prerequisites = ["functional-analysis/distribution", "functional-analysis/support-of-distribution", "differential-geometry/bump-function", "functional-analysis/test-function-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

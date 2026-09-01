@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For functions into a complete metric space, uniform convergence is equivalent to being uniformly Cauchy."
 aliases = ["uniform-cauchy-iff-uniform-convergence", "Uniform Cauchy criterion"]
 domains = ["real-analysis"]
+prerequisites = ["topology/complete-metric-space", "real-analysis/uniform-convergence", "real-analysis/uniform-cauchy", "real-analysis/uniform-metric", "real-analysis/supremum-norm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/uniform-cauchy-iff-uniform-convergence.md"
 +++
 

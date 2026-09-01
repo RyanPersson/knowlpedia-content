@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The perverse middle extension of a shifted local system from a smooth dense stratum."
 aliases = ["IC complex", "intersection-cohomology sheaf"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["fiber-bundles/local-system", "langlands/perverse-sheaf"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

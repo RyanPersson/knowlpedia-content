@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A principal U(1) connection on the Hopf bundle whose curvature is a nonzero two-form on the 2-sphere."
 aliases = ["dirac-monopole-connection-on-the-hopf-bundle", "Dirac monopole connection on the Hopf bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/dirac-monopole-connection-on-the-hopf-bundle.md"
 +++
 

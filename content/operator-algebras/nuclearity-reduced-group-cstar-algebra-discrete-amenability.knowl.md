@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A discrete group is amenable exactly when its reduced group C*-algebra is nuclear."
 aliases = ["Lance theorem", "nuclear C_r*(G)", "amenable discrete group criterion", "Nuclearity of reduced group C*-algebras and amenability"]
 domains = ["operator-algebras", "harmonic-analysis"]
+prerequisites = ["harmonic-analysis/invariant-mean", "operator-algebras/reduced-group-cstar-algebra", "algebra-representation-theory/regular-representation", "harmonic-analysis/amenable-locally-compact-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

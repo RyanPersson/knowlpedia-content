@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The symmetric covariant two-tensor obtained by tracing the Riemann curvature tensor."
 aliases = ["Ricci tensor", "Ricci curvature tensor"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/riemann-curvature-tensor"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

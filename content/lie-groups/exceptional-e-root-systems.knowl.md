@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The three exceptional simply laced irreducible root systems E_6, E_7, and E_8."
 aliases = ["exceptional E root systems", "E-type root systems", "E6 E7 E8 root systems"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/simply-laced-root-system"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

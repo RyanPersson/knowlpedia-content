@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A point where a differentiable map has maximal rank or a surjective derivative"
 aliases = ["regular-point", "Regular point"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/frechet-derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/regular-point.md"
 +++
 

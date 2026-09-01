@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A C*-algebra whose algebraic tensor product with every C*-algebra has a unique C*-tensor norm."
 aliases = ["C*-nuclearity", "nuclearity of a C*-algebra"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/cstar-tensor-norm", "operator-algebras/maximal-cstar-tensor-product", "operator-algebras/minimal-cstar-tensor-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

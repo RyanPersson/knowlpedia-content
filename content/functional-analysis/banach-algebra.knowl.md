@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A complete normed algebra whose norm is submultiplicative."
 aliases = ["complete normed algebra"]
 domains = ["functional-analysis"]
+prerequisites = ["algebra-modules/algebra-over-ring", "linear-algebra/norm", "linear-algebra/banach-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

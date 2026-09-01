@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A subfield K with F ⊆ K ⊆ E inside a given field extension E/F."
 aliases = ["intermediate-field", "Intermediate field"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/field-extension"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/intermediate-field.md"
 +++
 

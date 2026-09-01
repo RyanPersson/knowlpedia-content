@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "In a unique factorization domain, any two elements admit a gcd unique up to associates."
 aliases = ["ufd-implies-gcd-exists", "UFD implies GCDs exist"]
 domains = ["algebra-rings"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/ufd-implies-gcd-exists.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Two elements of a group are conjugate if one is obtained from the other by an inner automorphism"
 aliases = ["conjugate-element", "Conjugate element"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/inner-automorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/conjugate-element.md"
 +++
 

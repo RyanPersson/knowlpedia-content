@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Ramification of an etale local system for which wild inertia acts trivially."
 aliases = ["tamely ramified local system"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["algebra-fields-galois/valuation-on-a-field", "fiber-bundles/local-system", "langlands/regular-singular-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

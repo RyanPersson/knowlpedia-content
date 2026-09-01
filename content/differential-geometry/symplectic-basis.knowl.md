@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An ordered basis in which a symplectic form has its standard block matrix."
 aliases = ["Darboux basis"]
 domains = ["differential-geometry", "linear-algebra"]
+prerequisites = ["differential-geometry/symplectic-vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

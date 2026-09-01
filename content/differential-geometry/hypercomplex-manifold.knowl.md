@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth manifold carrying three integrable complex structures that satisfy the quaternion relations."
 aliases = ["hypercomplex structure"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/integrable-almost-complex-structure", "differential-geometry/complex-manifold", "differential-geometry/tangent-space", "linear-algebra/quaternionic-vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

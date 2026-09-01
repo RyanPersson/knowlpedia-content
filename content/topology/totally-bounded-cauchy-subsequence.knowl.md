@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every sequence in a totally bounded metric space has a Cauchy subsequence"
 aliases = ["totally-bounded-cauchy-subsequence", "Totally bounded implies Cauchy subsequence"]
 domains = ["topology"]
+prerequisites = ["topology/metric-space", "topology/totally-bounded-set", "real-analysis/subsequence", "topology/cauchy-sequence", "topology/epsilon-net"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/totally-bounded-cauchy-subsequence.md"
 +++
 

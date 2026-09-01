@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The 32-dimensional restriction of the SU(5) exterior-algebra representation to the Standard Model group."
 aliases = ["Lambda C5 Standard Model representation", "SU(5) exterior algebra fermion representation"]
 domains = ["mathematical-physics", "lie-groups", "algebra-modules"]
+prerequisites = ["mathematical-physics/standard-model-fermion-generation", "mathematical-physics/right-handed-neutrino-gauge-singlet"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The coproduct of modules: tuples with finite support under coordinatewise operations."
 aliases = ["direct-sum-modules", "Direct sum of modules"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/module", "algebra-modules/direct-product-modules", "shared-foundations/cartesian-product", "algebra-modules/direct-sum-universal-property"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/direct-sum-modules.md"
 +++
 

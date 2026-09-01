@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The decomposition of complex de Rham cohomology into Dolbeault cohomology groups of fixed bidegree."
 aliases = ["Kähler Hodge decomposition", "Hodge decomposition by bidegree"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/dolbeault-cohomology", "differential-geometry/hodge-theorem"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

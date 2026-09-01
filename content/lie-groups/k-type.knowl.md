@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An irreducible compact-group representation occurring in the restriction of a representation to K."
 aliases = ["isotypic K-type", "compact-subgroup type"]
 domains = ["lie-groups", "representation-theory"]
+prerequisites = ["lie-groups/k-finite-vector", "lie-groups/strongly-continuous-unitary-representation", "shared-foundations/equivalence-class", "lie-groups/irreducible-representation-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A principal connection induces a compatible connection on every associated bundle and every associated vector bundle."
 aliases = ["associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles", "Associated connection theorem"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/horizontal-distribution", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "fiber-bundles/associated-bundle", "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f", "fiber-bundles/horizontal-lift-of-a-tangent-vector", "fiber-bundles/construction-parallel-transport-map-along-a-curve", "fiber-bundles/parallel-transport"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles.md"
 +++
 

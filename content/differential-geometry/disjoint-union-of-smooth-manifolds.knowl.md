@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A finite or countable disjoint union inherits a smooth structure component by component and is the categorical coproduct of its components."
 aliases = ["coproduct manifold", "smooth coproduct"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-atlas", "fiber-bundles/smooth-embedding", "algebra-category-theory/coproduct", "differential-geometry/category-of-smooth-manifolds"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A smooth manifold whose smooth functions carry a Lie bracket that is a derivation in each argument."
 aliases = ["Poisson space"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/algebra-of-smooth-functions"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

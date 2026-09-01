@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The topology on a metric space in which a set is open if it contains an open ball around each of its points."
 aliases = ["metric-induced-topology", "Metric-induced topology"]
 domains = ["topology"]
+prerequisites = ["topology/open-ball", "topology/basis-of-topology", "topology/open-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/metric-induced-topology.md"
 +++
 

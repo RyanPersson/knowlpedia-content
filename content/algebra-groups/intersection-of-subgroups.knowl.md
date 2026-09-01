@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Any intersection of subgroups of a fixed group is again a subgroup"
 aliases = ["intersection-of-subgroups", "Intersection of subgroups is a subgroup"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/intersection-of-subgroups.md"
 +++
 

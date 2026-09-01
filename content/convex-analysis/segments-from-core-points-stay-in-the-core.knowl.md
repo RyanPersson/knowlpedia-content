@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If a is in core(Ω) and b in Ω, then points on [a,b) remain in core(Ω)."
 aliases = ["segments-from-core-points-stay-in-the-core", "Segments from Core Points Stay in the Core"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core", "convex-analysis/line-segments-in-a-vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/segments-from-core-points-stay-in-the-core.md"
 +++
 
@@ -16,6 +19,8 @@ Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(\Omega\sub
 \]
 
 where \([a,b)\) is the half-open [[convex-analysis/line-segments-in-a-vector-space|line segment]] from \(a\) to \(b\).
+
+## Context
 
 **Context:**
 This is the "core" analogue of [[convex-analysis/segments-from-interior-points-stay-in-the-interior|the interior segment lemma]] for normed spaces. It is used to prove structural properties of \(\operatorname{core}(\Omega)\) such as idempotence.

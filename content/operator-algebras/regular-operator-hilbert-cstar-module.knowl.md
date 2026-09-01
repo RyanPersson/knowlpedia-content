@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A closed densely defined Hilbert-module operator whose adjoint is densely defined and whose graph has the required complementability."
 aliases = ["regular Hilbert-module operator", "regular unbounded operator"]
 domains = ["operator-algebras", "functional-analysis"]
+prerequisites = ["operator-algebras/hilbert-cstar-module", "functional-analysis/densely-defined-operator"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

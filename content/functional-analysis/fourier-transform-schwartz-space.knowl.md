@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Fourier transform restricts to a continuous linear automorphism of the Schwartz space."
 aliases = ["Schwartz Fourier transform", "Fourier automorphism of S(R^n)", "Fourier automorphism of S"]
 domains = ["functional-analysis", "harmonic-analysis"]
+prerequisites = ["functional-analysis/schwartz-space", "measure-theory/lebesgue-integral", "measure-theory/lebesgue-integrable-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

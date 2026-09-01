@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A bijective holomorphic map whose inverse is holomorphic."
 aliases = ["biholomorphic map", "holomorphic isomorphism"]
 domains = ["differential-geometry", "complex-analysis"]
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

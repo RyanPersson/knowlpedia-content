@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An algebraic extension that is not separable; it contains an element with a repeated-root minimal polynomial."
 aliases = ["inseparable-extension", "Inseparable extension"]
 domains = ["algebra-fields-galois"]
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/separable-extension", "algebra-rings/characteristic"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-fields-galois/inseparable-extension.md"
 +++
 

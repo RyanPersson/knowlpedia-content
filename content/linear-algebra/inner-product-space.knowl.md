@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A vector space equipped with an inner product."
 aliases = ["inner-product-space", "Inner product space"]
 domains = ["linear-algebra"]
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/inner-product"]
+dependency_heuristic = "authored+definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "linear-algebra/inner-product-space.md"
 +++
 

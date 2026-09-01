@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The natural long exact sequence in Ext induced by a short exact sequence of modules."
 aliases = ["long-exact-sequence-ext", "Long exact sequence for Ext"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-modules/short-exact-sequence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/long-exact-sequence-ext.md"
 +++
 

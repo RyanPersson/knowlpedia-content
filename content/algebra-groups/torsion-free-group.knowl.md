@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A group in which the identity is the only element of finite order."
 aliases = ["torsion-free group", "torsion free group"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/free-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 A [[algebra-groups/group|group]] \(G\) is **torsion-free** if

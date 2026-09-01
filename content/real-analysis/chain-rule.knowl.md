@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Derivative of a composition equals the composition of derivatives."
 aliases = ["chain-rule", "Chain rule"]
 domains = ["real-analysis"]
+prerequisites = ["topology/open-set", "real-analysis/differentiable-map", "shared-foundations/composition", "real-analysis/jacobian-matrix"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/chain-rule.md"
 +++
 

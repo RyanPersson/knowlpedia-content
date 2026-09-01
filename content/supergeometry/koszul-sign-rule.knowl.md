@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The sign convention in which exchanging homogeneous factors of parities p and q contributes (-1)^(pq)."
 aliases = ["Koszul rule of signs", "super sign rule"]
 domains = ["supergeometry", "algebra-category-theory"]
+prerequisites = ["supergeometry/category-of-super-vector-spaces", "algebra-category-theory/symmetric-monoidal-category"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

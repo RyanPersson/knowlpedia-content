@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set of ring elements that kill a given subset under multiplication."
 aliases = ["annihilator-ideal", "Annihilator ideal"]
 domains = ["algebra-rings"]
+prerequisites = ["shared-foundations/subset", "algebra-rings/ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/annihilator-ideal.md"
 +++
 

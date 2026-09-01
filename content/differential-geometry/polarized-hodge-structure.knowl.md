@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A pure Hodge structure equipped with a parity-compatible bilinear form satisfying Hodge orthogonality and positivity."
 aliases = ["Hodge polarization", "polarization of a Hodge structure"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/pure-hodge-structure", "linear-algebra/bilinear-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

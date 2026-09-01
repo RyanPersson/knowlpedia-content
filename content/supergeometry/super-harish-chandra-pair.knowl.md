@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Lie group and Lie superalgebra with compatible adjoint data encoding a smooth Lie supergroup."
 aliases = ["Harish-Chandra pair for a Lie supergroup", "SHCP"]
 domains = ["supergeometry", "lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "supergeometry/lie-superalgebra", "algebra-groups/group-action", "lie-groups/harish-chandra-module"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

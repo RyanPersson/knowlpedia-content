@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An absolutely convergent series has Cauchy partial sums."
 aliases = ["absolute-convergence-implies-cauchy", "Absolute convergence implies Cauchy"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/partial-sums"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/absolute-convergence-implies-cauchy.md"
 +++
 

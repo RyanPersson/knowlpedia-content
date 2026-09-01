@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A sheaf with a locally trivial simply transitive action of a group sheaf."
 aliases = ["G-torsor on a site", "torsor on a site", "sheaf torsor"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/site", "algebraic-geometry-foundations/sheaf-of-groups", "algebra-groups/group-action", "algebra-category-theory/terminal-object", "algebraic-geometry-foundations/covering-family", "algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/torsor-condition"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 Let \(\mathcal C\) be a [[algebraic-geometry-foundations/site|site]], let \(G\) be a [[algebraic-geometry-foundations/sheaf-of-groups|sheaf of groups]] on \(\mathcal C\), and let \(P\) be a sheaf with a right [[algebra-groups/group-action|\(G\)-action]]. The sheaf \(P\) is a **right \(G\)-torsor** if:

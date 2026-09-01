@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An irreducible unitary representation of a reductive group containing a nonzero vector fixed by a maximal compact subgroup."
 aliases = ["class-one representation", "K-spherical representation"]
 domains = ["lie-groups", "harmonic-analysis"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/irreducible-unitary-representation", "lie-groups/gelfand-pair", "real-analysis/absolute-value"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

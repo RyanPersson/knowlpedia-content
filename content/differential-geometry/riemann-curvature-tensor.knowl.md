@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Riemann curvature tensor measures the failure of Levi–Civita covariant derivatives to commute."
 aliases = ["Riemannian curvature tensor", "Riemann tensor"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "fiber-bundles/vector-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

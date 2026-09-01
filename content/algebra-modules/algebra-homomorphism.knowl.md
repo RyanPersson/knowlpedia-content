@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A ring homomorphism that respects the chosen base-ring action."
 aliases = ["algebra-homomorphism", "Algebra homomorphism"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-rings/ring-homomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/algebra-homomorphism.md"
 +++
 

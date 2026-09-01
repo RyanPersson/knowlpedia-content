@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A divisor d of a and b that is divisible by every common divisor (defined up to associates)."
 aliases = ["gcd", "Greatest common divisor"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/integral-domain"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/gcd.md"
 +++
 

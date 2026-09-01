@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If N and M are normal subgroups of G, then NM is a normal subgroup and NM = MN."
 aliases = ["product-of-normal-subgroups", "Product of normal subgroups is normal"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/product-of-normal-subgroups.md"
 +++
 

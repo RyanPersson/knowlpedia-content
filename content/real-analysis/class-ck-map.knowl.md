@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A map with continuous partial derivatives up to order k."
 aliases = ["class-ck-map", "Class C^k map"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/function", "real-analysis/jacobian-matrix", "real-analysis/frechet-derivative", "real-analysis/schwarz-clairaut-theorem"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/class-ck-map.md"
 +++
 

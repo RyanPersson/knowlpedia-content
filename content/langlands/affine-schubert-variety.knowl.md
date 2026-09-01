@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The closure of a positive-loop-group orbit in the affine Grassmannian."
 aliases = ["Schubert variety in the affine Grassmannian"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands/dominant-coweight", "langlands/positive-loop-group", "langlands/affine-grassmannian"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

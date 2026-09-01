@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "If the holonomy of a connection lies in a closed Lie subgroup H, the principal bundle admits an H-reduction preserved by the connection."
 aliases = ["holonomy-reduction-principle", "Holonomy reduction principle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/principal-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/holonomy-reduction-principle.md"
 +++
 

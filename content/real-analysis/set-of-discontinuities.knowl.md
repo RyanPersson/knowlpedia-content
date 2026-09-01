@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The set of points where a function is discontinuous."
 aliases = ["set-of-discontinuities", "Set of discontinuities"]
 domains = ["real-analysis"]
+prerequisites = ["shared-foundations/function", "real-analysis/discontinuity-point"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/set-of-discontinuities.md"
 +++
 

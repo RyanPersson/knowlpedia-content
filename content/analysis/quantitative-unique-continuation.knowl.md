@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An estimate that gives an explicit lower bound for the mass of a function on an observation set from analytic or spectral constraints."
 aliases = ["quantitative uniqueness estimate", "observability inequality"]
 domains = ["analysis", "partial-differential-equations", "harmonic-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

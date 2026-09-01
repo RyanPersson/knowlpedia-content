@@ -5,10 +5,13 @@ kind = "knowl"
 summary = "Characteristic classes obtained from invariant polynomials in curvature do not depend on the chosen principal connection."
 aliases = ["corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle", "Chern–Weil classes are independent of the connection"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/curvature"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle.md"
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle, and let \(p\) be an \(\mathrm{Ad}\)-invariant polynomial on the Lie algebra (for example, a symmetric \(k\)-linear form on \(\mathfrak g\) invariant under the adjoint action). Given a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) with [[fiber-bundles/curvature|curvature]] \(\Omega\), the Chern–Weil construction produces a differential form on \(M\) by applying \(p\) to \(\Omega\) and using the fact that the resulting form is basic.
+Let \(\pi:P\to M\) be a principal \(G\)-bundle, and let \(p\) be an \(\mathrm{Ad}\)-invariant polynomial on the Lie algebra. Given a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) with [[fiber-bundles/curvature|curvature]] \(\Omega\), the Chern–Weil construction produces a differential form on \(M\) by applying \(p\) to \(\Omega\) and using the fact that the resulting form is basic.
 
 ## Corollary (independence of connection)
 For each invariant polynomial \(p\) of degree \(k\), there is a canonically defined de Rham cohomology class
@@ -26,6 +29,8 @@ Equivalently, if \(\omega_0,\omega_1\) are two connections on \(P\), then
 is an exact [[fiber-bundles/differential-k-form|differential form]] on \(M\). Thus Chern–Weil characteristic classes are invariants of the underlying principal bundle.
 
 ## Examples
+
+A symmetric \(k\)-linear form on \(\mathfrak g\) invariant under the adjoint action is one source of an \(\mathrm{Ad}\)-invariant polynomial.
 1. **First Chern class of a [[fiber-bundles/line-bundle|line bundle]].** For a principal \(U(1)\)-bundle (complex line bundle), choosing \(p\) to be the identity on \(\mathfrak u(1)\) gives a closed 2-form representing the first Chern class in real cohomology; changing the connection changes the representative by an exact form.
 2. **Pontryagin classes.** For a principal \(SO(n)\)-bundle, invariant polynomials built from traces of powers of curvature produce the Pontryagin classes. For \(TM\), this shows Pontryagin classes are independent of the chosen Riemannian metric and its Levi–Civita connection.
 3. **Second Chern class for \(SU(2)\).** For a principal \(SU(2)\)-bundle over a 4-manifold, the invariant polynomial \(p(X,Y)=\mathrm{tr}(XY)\) yields a 4-form representing the second Chern class ([[fiber-bundles/instanton-number|instanton number]]), independent of the chosen connection.

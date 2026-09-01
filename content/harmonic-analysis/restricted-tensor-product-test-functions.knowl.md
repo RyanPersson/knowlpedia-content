@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The tensor product of local test-function spaces in which almost every factor equals a fixed standard test function."
 aliases = ["restricted tensor product of Schwartz spaces", "restricted tensor product of local functions"]
 domains = ["harmonic-analysis", "number-theory"]
+prerequisites = ["harmonic-analysis/schwartz-bruhat-space-local-field", "functional-analysis/test-function-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A nonconstant holomorphic function on a domain sends open sets to open sets."
 aliases = ["holomorphic open mapping theorem"]
 domains = ["complex-analysis"]
+prerequisites = ["complex-analysis/complex-domain"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

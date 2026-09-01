@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A nonzero irreducible representation obtained by extending the discrete-series parameter construction to a singular dominant Harish-Chandra parameter."
 aliases = ["limit discrete-series representation"]
 domains = ["lie-groups", "harmonic-analysis"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/discrete-series-representation", "lie-groups/irreducible-unitary-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

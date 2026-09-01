@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An integral with a rapidly varying phase whose cancellation, rather than absolute size, governs its asymptotics."
 aliases = ["oscillatory integral operator"]
 domains = ["harmonic-analysis", "partial-differential-equations", "microlocal-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

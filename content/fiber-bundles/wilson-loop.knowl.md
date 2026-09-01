@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The trace of connection holonomy around a closed loop in a chosen representation."
 aliases = ["Wilson observable", "trace of holonomy"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "lie-groups/representation-of-a-lie-group", "fiber-bundles/parallel-transport", "linear-algebra/trace"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

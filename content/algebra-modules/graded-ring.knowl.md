@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A ring decomposed into homogeneous pieces compatible with multiplication."
 aliases = ["graded-ring", "Graded ring"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-rings/ring", "algebra-modules/direct-sum-modules", "algebra-modules/graded-module", "algebra-modules/associated-graded-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/graded-ring.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A reduced root system whose Dynkin diagram has only single edges."
 aliases = ["simply-laced root system", "simply laced root system", "simply-laced"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/root-system", "lie-groups/dynkin-diagram"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

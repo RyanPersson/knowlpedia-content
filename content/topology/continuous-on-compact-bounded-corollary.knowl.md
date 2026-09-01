@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Continuous functions on compact domains have finite upper and lower bounds"
 aliases = ["continuous-on-compact-bounded-corollary", "Continuous function on a compact set is bounded"]
 domains = ["topology"]
+prerequisites = ["topology/compact-set", "topology/metric-space", "real-analysis/continuity-on-a-set", "topology/bounded-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/continuous-on-compact-bounded-corollary.md"
 +++
 

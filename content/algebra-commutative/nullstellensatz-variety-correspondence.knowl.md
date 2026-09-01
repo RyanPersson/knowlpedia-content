@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Over an algebraically closed field, Zariski-closed subsets of affine space correspond to radical ideals in a polynomial ring."
 aliases = ["nullstellensatz-variety-correspondence", "Nullstellensatz: varieties and radical ideals"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-rings/field", "algebra-commutative/zariski-topology", "algebra-commutative/maximal-spectrum", "algebra-commutative/residue-field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/nullstellensatz-variety-correspondence.md"
 +++
 
@@ -36,7 +39,7 @@ Consequently, the assignments \(I\mapsto V(I)\) and \(X\mapsto I(X)\) restrict t
 
 A useful special case is the "weak" form: maximal ideals of \(A\) are exactly the ideals \((x_1-a_1,\dots,x_n-a_n)\) for points \(a=(a_1,\dots,a_n)\in k^n\). In other words, the [[algebra-commutative/maximal-spectrum|maximal spectrum]] \(\operatorname{MaxSpec}(A)\) can be identified with \(k^n\), and the corresponding [[algebra-commutative/residue-field|residue field]] at such a maximal ideal is (canonically) \(k\).
 
-### Examples
+## Examples
 1. **A non-radical ideal with the same zero set as its radical.**
    In \(k[x]\), let \(I=(x^2)\). Then \(V(I)=\{0\}\), but
    \[

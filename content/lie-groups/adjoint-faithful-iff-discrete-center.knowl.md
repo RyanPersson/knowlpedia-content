@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For connected Lie groups, ker(Ad)=Z(G), so Ad has discrete kernel exactly when the center is discrete."
 aliases = ["adjoint-faithful-iff-discrete-center", "Adjoint representation: discrete kernel iff discrete center"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/connected-lie-group", "lie-groups/adjoint-action-of-a-lie-group", "lie-groups/center-of-a-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/adjoint-faithful-iff-discrete-center.md"
 +++
 

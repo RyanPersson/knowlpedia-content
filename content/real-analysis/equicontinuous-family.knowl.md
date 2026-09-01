@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A family of functions that satisfies the equicontinuity condition at every point."
 aliases = ["equicontinuous-family", "Equicontinuous family"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/pointwise-bounded-family", "real-analysis/arzela-ascoli-theorem", "real-analysis/space-of-continuous-functions", "real-analysis/uniform-metric"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/equicontinuous-family.md"
 +++
 

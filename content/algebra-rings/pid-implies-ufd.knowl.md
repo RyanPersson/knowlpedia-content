@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every principal ideal domain is a unique factorization domain."
 aliases = ["pid-implies-ufd", "PID ⇒ UFD"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/pid", "algebra-rings/ufd", "algebra-rings/irreducible-element", "algebra-rings/prime-element"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/pid-implies-ufd.md"
 +++
 

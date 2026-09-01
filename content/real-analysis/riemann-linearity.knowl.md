@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Linearity of the Riemann integral with respect to addition and scalar multiplication."
 aliases = ["riemann-linearity", "Riemann linearity"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/interval", "real-analysis/riemann-integral"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/riemann-linearity.md"
 +++
 

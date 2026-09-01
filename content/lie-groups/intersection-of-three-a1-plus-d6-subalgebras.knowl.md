@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The three generation sl2 plus so12 subalgebras have common intersection sl6 plus the complexified generation plane; pairwise intersections already agree."
 aliases = ["intersection of three sl2 plus so12 subalgebras", "common intersection of generation A1 D6 subalgebras"]
 domains = ["lie-groups", "mathematical-physics"]
+prerequisites = ["lie-groups/generation-plane", "lie-groups/lie-subalgebra", "lie-groups/standard-sl6-in-e7"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

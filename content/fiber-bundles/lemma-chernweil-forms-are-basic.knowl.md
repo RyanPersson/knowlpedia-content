@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Applying an invariant polynomial to the curvature of a principal connection produces a basic differential form."
 aliases = ["lemma-chernweil-forms-are-basic", "Lemma: Chern–Weil forms are basic"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/basic-differential-form-on-a-principal-bundle"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/lemma-chernweil-forms-are-basic.md"
 +++
 

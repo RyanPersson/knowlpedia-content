@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Characterization of differentiability via a best linear approximation."
 aliases = ["differentiability-criterion", "Differentiability criterion"]
 domains = ["real-analysis"]
+prerequisites = ["topology/open-set", "real-analysis/differentiable-map", "real-analysis/frechet-derivative", "linear-algebra/linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/differentiability-criterion.md"
 +++
 

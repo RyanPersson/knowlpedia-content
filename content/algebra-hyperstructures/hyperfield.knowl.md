@@ -4,6 +4,9 @@ title = "Hyperfield"
 kind = "definition"
 summary = "A nontrivial hyperring whose nonzero elements form a multiplicative group."
 domains = ["algebra-hyperstructures", "algebra-rings"]
+prerequisites = ["algebra-hyperstructures/hyperring", "algebra-groups/abelian-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

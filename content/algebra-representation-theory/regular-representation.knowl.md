@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The canonical representation of a group on the vector space with basis the group, via left multiplication."
 aliases = ["regular-representation", "Regular representation"]
 domains = ["algebra-representation-theory"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-representation-theory/regular-representation.md"
 +++
 

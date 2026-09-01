@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The subgroup of elements fixing a point under a group action"
 aliases = ["stabilizer"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group-action", "algebra-groups/subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/stabilizer.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "construction"
 summary = "The sheaf obtained by external product on the convolution Grassmannian followed by proper pushforward along multiplication."
 aliases = ["spherical convolution", "convolution product of spherical sheaves"]
 domains = ["langlands", "representation-theory"]
+prerequisites = ["langlands/perverse-sheaf", "langlands/geometric-satake-equivalence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

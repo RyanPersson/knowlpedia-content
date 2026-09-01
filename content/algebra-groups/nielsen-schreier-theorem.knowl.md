@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Every subgroup of a free group is free (with a rank formula in finite index)"
 aliases = ["nielsen-schreier-theorem", "Nielsen–Schreier Theorem"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/free-group", "algebra-groups/subgroup", "algebra-groups/index-of-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/nielsen-schreier-theorem.md"
 +++
 

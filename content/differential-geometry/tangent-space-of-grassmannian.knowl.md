@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The tangent space at a subspace in a Grassmannian is canonically the space of linear maps from that subspace to its quotient."
 aliases = ["tangent space to Gr(k,V)"]
 domains = ["differential-geometry", "linear-algebra"]
+prerequisites = ["linear-algebra/vector-space", "differential-geometry/grassmannian", "differential-geometry/tangent-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

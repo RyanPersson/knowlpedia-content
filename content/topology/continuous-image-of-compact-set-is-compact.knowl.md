@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A continuous map sends compact subsets of its domain to compact subsets of its codomain."
 aliases = ["continuous-image-of-compact-set-is-compact", "Continuous image of compact set is compact"]
 domains = ["topology"]
+prerequisites = ["topology/continuous-map", "topology/topological-space", "topology/compact-set", "shared-foundations/image", "topology/continuous-attains-max-min-compact"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/continuous-image-of-compact-set-is-compact.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An ideal is maximal exactly when the corresponding quotient ring is a field."
 aliases = ["maximal-iff-quotient-field", "Maximal ideal iff quotient is a field"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/ideal", "algebra-rings/maximal-ideal", "algebra-rings/quotient-ring", "algebra-rings/field"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/maximal-iff-quotient-field.md"
 +++
 

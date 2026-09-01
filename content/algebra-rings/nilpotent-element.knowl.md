@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "An element whose sufficiently high power is zero."
 aliases = ["nilpotent-element", "Nilpotent element"]
 domains = ["algebra-rings"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/nilpotent-element.md"
 +++
 

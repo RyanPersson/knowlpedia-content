@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A semifinite spectral triple whose resolvent has finite noncommutative lp norm with respect to the chosen trace."
 aliases = ["semifinite p-summability", "tau-p-summable triple"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["noncommutative-geometry/semifinite-spectral-triple", "operator-algebras/faithful-normal-semifinite-trace"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

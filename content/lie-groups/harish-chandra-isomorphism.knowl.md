@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The theorem identifying the center of a semisimple enveloping algebra with Weyl-invariant polynomials on a Cartan subalgebra."
 aliases = ["radial component isomorphism for Z(U(g))", "Harish-Chandra homomorphism"]
 domains = ["lie-groups", "algebra-representation-theory"]
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/center-of-universal-enveloping-algebra", "lie-groups/weyl-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

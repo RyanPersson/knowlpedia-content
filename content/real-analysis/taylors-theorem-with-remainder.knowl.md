@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Taylor expansion with an explicit remainder term for a smooth real function."
 aliases = ["taylors-theorem-with-remainder", "Taylor's theorem with remainder"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/interval", "real-analysis/higher-derivatives", "real-analysis/taylor-polynomial"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/taylors-theorem-with-remainder.md"
 +++
 

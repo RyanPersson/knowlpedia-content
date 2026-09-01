@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The tangent bundle of the 2-sphere is a rank-2 real vector bundle that admits no global nowhere-zero vector field."
 aliases = ["tangent-bundle-ts2-as-a-nontrivial-rank-2-real-vector-bundle", "The tangent bundle of the 2-sphere is nontrivial"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/tangent-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/trivial-vector-bundle-mvm", "fiber-bundles/nowhere-vanishing-section"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/tangent-bundle-ts2-as-a-nontrivial-rank-2-real-vector-bundle.md"
 +++
 

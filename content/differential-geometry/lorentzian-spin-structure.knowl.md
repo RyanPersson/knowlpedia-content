@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A lift of the oriented, time-oriented Lorentz frame bundle through the spin double cover."
 aliases = ["spin structure on a Lorentzian manifold", "Lorentzian spin lift"]
 domains = ["differential-geometry", "fiber-bundles", "mathematical-physics"]
+prerequisites = ["differential-geometry/time-orientation", "differential-geometry/lorentzian-manifold", "lie-groups/restricted-spin-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

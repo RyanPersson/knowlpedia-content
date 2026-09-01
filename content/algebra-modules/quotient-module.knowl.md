@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The module obtained by collapsing a submodule to zero."
 aliases = ["quotient-module", "Quotient module"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/submodule", "shared-foundations/equivalence-relation", "shared-foundations/quotient-set", "algebra-modules/quotient-module-universal-property"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/quotient-module.md"
 +++
 

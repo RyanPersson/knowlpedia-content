@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Double distributivity forces every nonopposite binary hypersum to be a singleton."
 aliases = ["double distributivity implies stringency"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
+prerequisites = ["algebra-hyperstructures/doubly-distributive-hyperfield", "algebra-hyperstructures/stringent-hyperfield"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

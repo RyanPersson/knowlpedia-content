@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A manifold with a transitive Lie group action; equivalently a quotient G/H by a stabilizer."
 aliases = ["homogeneous-space", "Homogeneous space"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group", "lie-groups/transitive-action-lie", "lie-groups/stabilizer-lie-group", "lie-groups/coset-space", "lie-groups/closed-subgroup-lie-group", "lie-groups/closed-subgroup-theorem"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/homogeneous-space.md"
 +++
 

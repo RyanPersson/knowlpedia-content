@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A boundary-compatible embedded submanifold that meets the ambient boundary transversely and has no other boundary."
 aliases = ["neat embedded submanifold"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/manifold-with-boundary", "differential-geometry/embedded-submanifold", "differential-geometry/transverse-submanifolds", "differential-geometry/boundary-and-interior-of-a-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

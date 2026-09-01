@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Along an integral extension, prime ideals can be lifted to extend prime chains."
 aliases = ["going-up-theorem", "Going-up theorem"]
 domains = ["algebra-commutative"]
+prerequisites = ["algebra-commutative/integral-extension", "algebra-rings/commutative-ring", "algebra-commutative/lying-over-theorem", "algebra-commutative/prime-spectrum"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-commutative/going-up-theorem.md"
 +++
 
@@ -21,7 +24,7 @@ More generally, for any chain of prime ideals \(\mathfrak p_0\subseteq \cdots \s
 
 In terms of the [[algebra-commutative/prime-spectrum|prime spectrum]], going-up says the contraction map \(\operatorname{Spec}(B)\to \operatorname{Spec}(A)\) has the property that prime inclusions downstairs can be realized upstairs, provided one starts with a prime lying over the smaller one.
 
-### Examples
+## Examples
 1. **A chain in \(\mathbb Z\) lifted to \(\mathbb Z[i]\).**
    The extension \(\mathbb Z\subset \mathbb Z[i]\) is integral. Consider the chain \((0)\subset (5)\) in \(\mathbb Z\). The prime \((0)\subset \mathbb Z[i]\) lies over \((0)\). Going-up produces a prime \(\mathfrak q'\subset \mathbb Z[i]\) with \((0)\subset \mathfrak q'\) and \(\mathfrak q'\cap \mathbb Z=(5)\); one choice is \(\mathfrak q'=(2+i)\).
 

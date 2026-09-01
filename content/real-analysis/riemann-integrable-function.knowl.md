@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A bounded function whose upper and lower sums can be made arbitrarily close."
 aliases = ["riemann-integrable-function", "Riemann integrable function"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/upper-sum", "real-analysis/lower-sum"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/riemann-integrable-function.md"
 +++
 

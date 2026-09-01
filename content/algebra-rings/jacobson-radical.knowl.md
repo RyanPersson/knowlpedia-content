@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The intersection of all maximal ideals, equivalently the elements acting trivially on simple modules."
 aliases = ["jacobson-radical", "Jacobson radical"]
 domains = ["algebra-rings"]
+prerequisites = ["algebra-rings/maximal-ideal", "algebra-rings/unit", "algebra-rings/ideal"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-rings/jacobson-radical.md"
 +++
 

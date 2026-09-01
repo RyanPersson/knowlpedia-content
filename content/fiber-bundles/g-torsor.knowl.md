@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A nonempty set or smooth space with a free and transitive action of a group G."
 aliases = ["principal homogeneous G-space", "G-principal homogeneous space", "right G-torsor"]
 domains = ["fiber-bundles", "group-theory"]
+prerequisites = ["algebra-groups/group", "algebra-groups/group-action", "fiber-bundles/lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

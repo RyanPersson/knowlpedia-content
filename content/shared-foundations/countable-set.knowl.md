@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A set that can be listed in a sequence, possibly with finitely many elements"
 aliases = ["countable-set", "Countable set"]
 domains = ["shared-foundations"]
+prerequisites = ["shared-foundations/injective-function", "shared-foundations/natural-numbers", "shared-foundations/bijective-function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shared-foundations/countable-set.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The associated graded algebra of a Lie superalgebra's enveloping algebra is its symmetric superalgebra."
 aliases = ["super Poincare-Birkhoff-Witt theorem", "PBW theorem for Lie superalgebras"]
 domains = ["supergeometry", "lie-groups"]
+prerequisites = ["supergeometry/lie-superalgebra", "supergeometry/universal-enveloping-algebra-of-lie-superalgebra", "lie-groups/pbw-theorem", "supergeometry/symmetric-algebra-of-a-super-vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

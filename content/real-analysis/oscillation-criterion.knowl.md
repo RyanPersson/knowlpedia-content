@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A bounded function is Riemann integrable exactly when its total oscillation can be made small by a partition."
 aliases = ["oscillation-criterion", "Oscillation criterion for Riemann integrability"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/oscillation", "real-analysis/riemann-integrable-function", "real-analysis/upper-sum", "real-analysis/lower-sum", "real-analysis/riemann-integrability-finite-discontinuities"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/oscillation-criterion.md"
 +++
 

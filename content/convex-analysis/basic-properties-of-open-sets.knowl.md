@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Unions of open sets are open; finite intersections of open sets are open"
 aliases = ["basic-properties-of-open-sets", "Basic properties of open sets"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/open-subset"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/basic-properties-of-open-sets.md"
 +++
 

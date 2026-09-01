@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A normal series with no intermediate normal subgroups between successive terms"
 aliases = ["chief-series", "Chief series"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/chief-series.md"
 +++
 

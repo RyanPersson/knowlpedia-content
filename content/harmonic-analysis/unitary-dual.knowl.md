@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The space of unitary-equivalence classes of irreducible continuous unitary representations of a locally compact group."
 aliases = ["unitary dual", "dual object of a group", "G-hat", "irreducible dual"]
 domains = ["harmonic-analysis", "lie-groups", "operator-algebras"]
+prerequisites = ["topology/locally-compact-group", "lie-groups/unitary-equivalence-of-representations", "lie-groups/irreducible-unitary-representation", "linear-algebra/hilbert-space", "harmonic-analysis/fell-topology", "harmonic-analysis/pontryagin-dual"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

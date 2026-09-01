@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A module whose tensor product functor preserves exactness."
 aliases = ["flat-module", "Flat module"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/short-exact-sequence", "algebra-modules/tensor-product", "algebra-modules/projective-module", "algebra-modules/projective-implies-flat", "algebra-modules/free-module", "algebra-rings/commutative-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/flat-module.md"
 +++
 

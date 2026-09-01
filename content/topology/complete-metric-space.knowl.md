@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A metric space in which every Cauchy sequence converges to a point of the space."
 aliases = ["complete-metric-space", "Complete metric space"]
 domains = ["topology"]
+prerequisites = ["topology/cauchy-sequence", "topology/convergent-sequence"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "topology/complete-metric-space.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "An object in the heart of the middle-perversity t-structure on a constructible derived category."
 aliases = ["middle-perversity sheaf"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["fiber-bundles/local-system"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

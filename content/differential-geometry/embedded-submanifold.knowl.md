@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A subset of a smooth manifold that is locally a coordinate plane in ambient smooth charts."
 aliases = ["regular submanifold", "smoothly embedded submanifold", "smooth submanifold"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart", "topology/subspace-topology", "differential-geometry/submanifold-chart", "fiber-bundles/smooth-embedding"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

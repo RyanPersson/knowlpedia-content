@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A bounded linear functional on a von Neumann algebra that is continuous for the ultraweak topology."
 aliases = ["ultraweakly continuous functional"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/ultraweak-topology", "operator-algebras/predual", "operator-algebras/normal-linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

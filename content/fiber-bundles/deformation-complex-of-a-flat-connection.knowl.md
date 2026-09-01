@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The twisted de Rham complex whose cohomology records infinitesimal symmetries, deformations, and obstructions of a flat connection."
 aliases = ["twisted de Rham complex", "flat-connection deformation complex"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["fiber-bundles/flat-principal-connection", "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms", "fiber-bundles/gauge-transformation", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

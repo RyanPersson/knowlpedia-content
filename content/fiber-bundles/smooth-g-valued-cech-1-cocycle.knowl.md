@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Smooth transition functions on double overlaps satisfying the identity, inverse, and triple-overlap cocycle laws."
 aliases = ["principal bundle Čech cocycle", "nonabelian transition cocycle", "G-valued 1-cocycle"]
 domains = ["fiber-bundles", "topology"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/cocycle-condition-for-transition-functions"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

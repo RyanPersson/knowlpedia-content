@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A nonzero representation of a C*-algebra is irreducible when it has no nontrivial closed invariant Hilbert subspaces."
 aliases = ["topologically irreducible *-representation", "irreducible C*-representation"]
 domains = ["operator-algebras"]
+prerequisites = ["operator-algebras/cstar-representation", "linear-algebra/orthogonal-complement"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

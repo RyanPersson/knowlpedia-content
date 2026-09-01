@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A Lie group action whose only element fixing every point is the identity."
 aliases = ["effective-action", "Effective action"]
 domains = ["lie-groups"]
+prerequisites = ["fiber-bundles/lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "lie-groups/effective-action.md"
 +++
 

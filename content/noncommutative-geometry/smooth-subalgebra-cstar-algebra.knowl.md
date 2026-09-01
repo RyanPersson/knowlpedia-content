@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A dense Fréchet *-subalgebra of a C*-algebra whose finer topology records regularity and which is closed under holomorphic functional calculus."
 aliases = ["smooth dense *-subalgebra", "spectrally invariant subalgebra", "holomorphically closed subalgebra"]
 domains = ["noncommutative-geometry", "operator-algebras"]
+prerequisites = ["operator-algebras/cstar-algebra", "functional-analysis/holomorphic-functional-calculus-banach-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

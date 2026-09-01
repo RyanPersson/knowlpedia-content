@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Set addition, scalar multiplication, and difference inside a vector space"
 aliases = ["set-operations-sum-scalar-multiple-difference", "Operations on subsets of a vector space"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/set-operations-sum-scalar-multiple-difference.md"
 +++
 
@@ -26,6 +29,8 @@ Define:
    \]
 
 These operations produce subsets of \(X\), and one always has \(M+N=N+M\).
+
+## Applications
 
 These constructions are used throughout linear and convex analysis; for instance, sums of [[convex-analysis/linear-subspace|subspaces]] are defined using \(M+N\), and Minkowski sums of sets are central in convexity.
 

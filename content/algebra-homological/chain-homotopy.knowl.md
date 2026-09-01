@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A degree +1 family of maps witnessing that two chain maps differ by a boundary operator."
 aliases = ["chain-homotopy", "Chain homotopy"]
 domains = ["algebra-homological"]
+prerequisites = ["algebra-homological/chain-map", "algebra-homological/chain-complex"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-homological/chain-homotopy.md"
 +++
 

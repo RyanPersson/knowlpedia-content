@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The subset of points fixed by every group element in an action."
 aliases = ["fixed-point-set", "Fixed-Point Set"]
 domains = ["algebra-groups"]
+prerequisites = ["algebra-groups/group-action"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-groups/fixed-point-set.md"
 +++
 

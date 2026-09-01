@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A canonical mod-2 characteristic class of a real vector bundle."
 aliases = ["total Stiefel-Whitney class"]
 domains = ["fiber-bundles", "topology"]
+prerequisites = ["fiber-bundles/vector-bundle", "topology/singular-cohomology-group", "fiber-bundles/whitney-sum-formula"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

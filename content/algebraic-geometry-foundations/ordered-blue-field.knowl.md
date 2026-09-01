@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A nontrivial ordered blueprint whose nonzero monomials are all units."
 aliases = ["blue field", "ordered blueprint field"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
+prerequisites = ["algebraic-geometry-foundations/ordered-blueprint"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

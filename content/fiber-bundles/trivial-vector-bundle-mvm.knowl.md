@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The product bundle M times V with constant fiber V and a global frame of constant sections."
 aliases = ["trivial-vector-bundle-mvm", "Trivial vector bundle"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/trivial-principal-bundle-mgm"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/trivial-vector-bundle-mvm.md"
 +++
 

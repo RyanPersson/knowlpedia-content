@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The smooth subbundles formed by the pointwise kernels and images of a constant-rank vector bundle morphism."
 aliases = ["kernel bundle", "image bundle", "constant-rank bundle map theorem"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/vector-bundle-morphism", "fiber-bundles/vector-subbundle", "topology/connected-component"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

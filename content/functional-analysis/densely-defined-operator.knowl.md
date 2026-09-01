@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A linear operator whose specified domain is dense in its ambient Hilbert space."
 aliases = ["densely defined linear operator", "operator with dense domain"]
 domains = ["functional-analysis"]
+prerequisites = ["linear-algebra/hilbert-space", "convex-analysis/linear-subspace", "topology/dense-set", "linear-algebra/linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

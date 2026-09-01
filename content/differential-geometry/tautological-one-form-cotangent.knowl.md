@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical one-form that evaluates a cotangent vector on the projection of a tangent vector to the base."
 aliases = ["canonical one-form", "Liouville one-form", "Poincaré one-form"]
 domains = ["differential-geometry", "fiber-bundles"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/cotangent-bundle", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

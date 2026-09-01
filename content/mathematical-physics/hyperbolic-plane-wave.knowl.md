@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A generalized Laplace eigenfunction on the Poincaré disk obtained from a boundary Poisson kernel raised to a complex power."
 aliases = ["incoming hyperbolic wave", "outgoing hyperbolic wave", "Helgason plane wave"]
 domains = ["mathematical-physics", "harmonic-analysis", "quantum-chaos"]
+prerequisites = ["mathematical-physics/hyperbolic-poisson-kernel"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

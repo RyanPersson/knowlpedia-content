@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A ring equipped with a compatible structure map from a commutative base ring."
 aliases = ["algebra-over-ring", "Algebra over a commutative ring"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-rings/unital-ring", "algebra-rings/ring-homomorphism", "algebra-rings/commutative-ring"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/algebra-over-ring.md"
 +++
 

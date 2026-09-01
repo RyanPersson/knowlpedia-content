@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Natural transformations from a representable functor correspond to elements of the target functor."
 aliases = ["yoneda-lemma", "Yoneda lemma"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/functor", "algebra-category-theory/representable-functor", "algebra-category-theory/natural-transformation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-category-theory/yoneda-lemma.md"
 +++
 

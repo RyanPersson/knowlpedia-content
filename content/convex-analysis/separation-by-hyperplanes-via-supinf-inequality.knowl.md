@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Hyperplane separation is equivalent to sup_{Ω1}f ≤ inf_{Ω2}f for some f≠0."
 aliases = ["separation-by-hyperplanes-via-supinf-inequality", "Separation via Sup/Inf Inequality"]
 domains = ["convex-analysis"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/separation-by-a-hyperplane"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/separation-by-hyperplanes-via-supinf-inequality.md"
 +++
 

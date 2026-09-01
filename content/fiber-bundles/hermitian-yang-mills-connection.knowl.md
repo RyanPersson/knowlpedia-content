@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A unitary integrable connection whose curvature has constant central contraction with the Hermitian form."
 aliases = ["Hermitian–Einstein connection", "HYM connection"]
 domains = ["fiber-bundles", "differential-geometry"]
+prerequisites = ["differential-geometry/hermitian-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/hermitian-connection", "fiber-bundles/chern-connection", "fiber-bundles/chern-curvature"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

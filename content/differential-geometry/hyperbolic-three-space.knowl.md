@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The simply connected complete three-dimensional Riemannian manifold of constant sectional curvature −1."
 aliases = ["hyperbolic 3-space", "H3", "three-dimensional hyperbolic space"]
 domains = ["differential-geometry", "lie-groups"]
+prerequisites = ["topology/simply-connected-space", "differential-geometry/riemannian-manifold"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

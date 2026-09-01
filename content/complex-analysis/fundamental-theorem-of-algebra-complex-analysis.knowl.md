@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Every nonconstant complex polynomial has a complex root, with a proof via Liouville's theorem."
 aliases = ["fundamental theorem of algebra"]
 domains = ["complex-analysis", "algebra"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

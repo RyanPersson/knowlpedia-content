@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A hyperfield in which the product of two binary hypersums equals the four-term hyper-sum of pairwise products."
 aliases = ["double-distributive hyperfield", "doubly distributive commutative hyperfield"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
+prerequisites = ["algebra-hyperstructures/hyperfield"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

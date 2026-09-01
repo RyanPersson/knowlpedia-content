@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A closed operator whose resolvent is compact at one, equivalently every, resolvent point."
 aliases = ["compact-resolvent operator", "compact resolvent"]
 domains = ["functional-analysis", "operator-theory", "spectral-theory"]
+prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/resolvent-set-closed-operator", "linear-algebra/compact-operator", "functional-analysis/resolvent-identity"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

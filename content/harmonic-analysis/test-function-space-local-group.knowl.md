@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The compactly supported smooth functions on an archimedean Lie group or locally constant compactly supported functions on a locally profinite group."
 aliases = ["test functions on a local group", "C_c infinity of a local group", "local-group test-function space"]
 domains = ["harmonic-analysis", "langlands", "functional-analysis"]
+prerequisites = ["algebra-fields-galois/local-field", "fiber-bundles/lie-group", "topology/locally-profinite-group", "harmonic-analysis/distribution-local-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

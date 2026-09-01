@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A function is differentiable at a point if the limit defining its derivative exists there."
 aliases = ["differentiability-one-variable", "Differentiability at a point (one variable)"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/differentiability-one-variable.md"
 +++
 

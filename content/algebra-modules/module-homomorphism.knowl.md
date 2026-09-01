@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A map preserving addition and scalar multiplication between modules."
 aliases = ["module-homomorphism", "Module homomorphism"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-modules/module", "shared-foundations/function"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/module-homomorphism.md"
 +++
 

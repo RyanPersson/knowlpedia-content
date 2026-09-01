@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Every finite-dimensional symplectic vector space has even dimension and a basis in standard symplectic form."
 aliases = ["linear Darboux theorem", "symplectic Gram–Schmidt theorem"]
 domains = ["differential-geometry", "linear-algebra"]
+prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/symplectic-basis", "linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Poisson map is a smooth map whose pullback preserves Poisson brackets."
 aliases = ["Poisson morphism"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/poisson-manifold", "fiber-bundles/smooth-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

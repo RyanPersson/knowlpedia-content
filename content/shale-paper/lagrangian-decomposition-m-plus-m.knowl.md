@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A choice of real subspace M giving coordinates (x,y) for phase space K"
 aliases = ["lagrangian-decomposition-m-plus-m", "Decomposition K = M ⊕ M"]
 domains = ["shale-paper"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "shale-paper/lagrangian-decomposition-m-plus-m.md"
 +++
 

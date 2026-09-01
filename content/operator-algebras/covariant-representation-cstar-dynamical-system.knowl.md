@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A compatible pair consisting of a nondegenerate representation of the coefficient algebra and a strongly continuous unitary representation of the acting group."
 aliases = ["covariant pair"]
 domains = ["operator-algebras", "representation-theory"]
+prerequisites = ["operator-algebras/cstar-dynamical-system", "linear-algebra/hilbert-space", "operator-algebras/nondegenerate-star-homomorphism", "lie-groups/strongly-continuous-unitary-representation", "algebra-groups/group-action"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A unitary representation assembled fiberwise from a measurable field of representations on a direct-integral Hilbert space."
 aliases = ["continuous direct sum of representations", "disintegration of representations"]
 domains = ["harmonic-analysis", "functional-analysis", "lie-groups"]
+prerequisites = ["topology/locally-compact-group", "measure-theory/measure-space", "functional-analysis/measurable-field-hilbert-spaces", "lie-groups/strongly-continuous-unitary-representation", "functional-analysis/direct-integral-hilbert-spaces", "measure-theory/almost-everywhere"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

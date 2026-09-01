@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical unitary representation of the metaplectic group on square-integrable functions."
 aliases = ["oscillator representation of the metaplectic group", "Segal-Shale-Weil representation", "Weil representation over the real numbers"]
 domains = ["lie-groups", "harmonic-analysis", "mathematical-physics"]
+prerequisites = ["lie-groups/metaplectic-group", "lie-groups/projective-unitary-representation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

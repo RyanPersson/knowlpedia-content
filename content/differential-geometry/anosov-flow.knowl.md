@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A flow whose tangent dynamics split uniformly into flow, exponentially contracting, and exponentially expanding directions."
 aliases = ["uniformly hyperbolic flow"]
 domains = ["differential-geometry", "dynamical-systems", "quantum-chaos"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

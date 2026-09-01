@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A subgroup whose Lie algebra contains a minimal parabolic subalgebra of a real reductive Lie algebra."
 aliases = ["real parabolic subgroup", "parabolic P"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/lie-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

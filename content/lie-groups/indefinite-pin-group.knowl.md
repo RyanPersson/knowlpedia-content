@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The Clifford group Pin(p,q) that double-covers the orthogonal group of a real quadratic space."
 aliases = ["Pin(p,q)", "pseudo-Riemannian pin group"]
 domains = ["lie-groups", "differential-geometry"]
+prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/clifford-algebra"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

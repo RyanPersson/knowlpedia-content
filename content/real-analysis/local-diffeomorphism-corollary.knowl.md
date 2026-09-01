@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Nonvanishing Jacobian determinant implies a map is a diffeomorphism in a neighborhood of each point."
 aliases = ["local-diffeomorphism-corollary", "Local diffeomorphism corollary"]
 domains = ["real-analysis"]
+prerequisites = ["topology/open-set", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/local-diffeomorphism-corollary.md"
 +++
 

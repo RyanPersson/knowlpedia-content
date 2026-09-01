@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The strong topology on smooth mapping spaces defined by locally varying control of all finite jets."
 aliases = ["Whitney topology", "strong C∞ topology", "fine C∞ topology"]
 domains = ["differential-geometry"]
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/jet-of-a-smooth-map", "fiber-bundles/jet-bundle", "topology/compact-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

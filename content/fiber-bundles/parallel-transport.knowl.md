@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "Transport along a base curve defined by taking the endpoint of its horizontal lift in the total space."
 aliases = ["parallel-transport", "Parallel transport for an Ehresmann connection"]
 domains = ["fiber-bundles"]
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/horizontal-lift-of-a-curve", "fiber-bundles/principal-connection"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "fiber-bundles/parallel-transport.md"
 +++
 

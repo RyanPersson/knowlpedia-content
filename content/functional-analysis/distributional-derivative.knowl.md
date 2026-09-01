@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The distributional derivative transfers differentiation to test functions with the sign dictated by integration by parts."
 aliases = ["weak derivative of a distribution", "derivative of a distribution", "generalized derivative"]
 domains = ["functional-analysis", "distribution-theory", "partial-differential-equations"]
+prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space", "real-analysis/integration-by-parts", "real-analysis/partial-derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

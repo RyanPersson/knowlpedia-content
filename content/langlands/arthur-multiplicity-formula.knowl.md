@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The component-group character formula selecting representations and multiplicities in a global Arthur packet."
 aliases = ["Arthur's multiplicity formula", "automorphic multiplicity formula", "A-packet multiplicity formula"]
 domains = ["langlands", "representation-theory", "number-theory"]
+prerequisites = ["langlands/arthur-parameter", "langlands/a-packet", "algebra-representation-theory/character-orthogonality"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

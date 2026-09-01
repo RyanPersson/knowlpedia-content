@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "The associativity and identity laws governing composition in a category."
 aliases = ["category-axioms", "Category axioms"]
 domains = ["algebra-category-theory"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/composition-category", "algebra-category-theory/identity-morphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-category-theory/category-axioms.md"
 +++
 

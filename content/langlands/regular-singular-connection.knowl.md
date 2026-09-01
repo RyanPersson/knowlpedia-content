@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A flat connection on a punctured curve that has at worst logarithmic poles after extension across the punctures."
 aliases = ["regular singular connection", "regular singularity"]
 domains = ["langlands", "algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/algebraic-curve"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

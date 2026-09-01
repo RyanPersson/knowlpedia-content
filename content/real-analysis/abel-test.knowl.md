@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A convergence test for sums of products when one series converges and the other factor is monotone and bounded."
 aliases = ["abel-test", "Abel test"]
 domains = ["real-analysis"]
+prerequisites = ["real-analysis/convergent-series"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "real-analysis/abel-test.md"
 +++
 

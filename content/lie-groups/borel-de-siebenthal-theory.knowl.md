@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "The root-theoretic classification of connected maximal-rank subgroups of compact Lie groups."
 aliases = ["Borel-de Siebenthal theory", "Borel–de Siebenthal classification"]
 domains = ["lie-groups"]
+prerequisites = ["lie-groups/connected-lie-group", "lie-groups/root-system", "lie-groups/maximal-torus-theorem", "lie-groups/dynkin-diagram", "lie-groups/central-quotient-of-a-lie-group"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The collineation group obtained from invertible semilinear maps modulo scalar maps."
 aliases = ["PGammaL", "PΓL", "projective semilinear transformations"]
 domains = ["algebraic-geometry-foundations", "algebra-groups"]
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/semilinear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A finite algebra whose spectrum is étale over the spectrum of the base ring."
 aliases = ["finite étale algebra", "finite etale algebra"]
 domains = ["algebraic-geometry-foundations"]
+prerequisites = ["algebra-rings/commutative-ring", "algebraic-geometry-foundations/etale-morphism"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]]. A commutative \(R\)-algebra \(A\) is a **finite étale \(R\)-algebra** if the induced morphism

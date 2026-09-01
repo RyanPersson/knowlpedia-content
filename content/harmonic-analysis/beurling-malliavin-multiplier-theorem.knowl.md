@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "A Lipschitz negative weight with finite logarithmic integral majorizes the modulus of a nonzero band-limited L2 function."
 aliases = ["BM multiplier theorem", "Beurling–Malliavin theorem"]
 domains = ["harmonic-analysis", "complex-analysis"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "definition"
 summary = "Smooth parabolic induction with the half-modulus normalization."
 aliases = ["normalized p-adic parabolic induction", "unitary parabolic induction for p-adic groups"]
 domains = ["harmonic-analysis", "langlands", "lie-groups"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/levi-subgroup", "algebraic-geometry-foundations/unipotent-radical", "harmonic-analysis/smooth-representation-totally-disconnected-group", "harmonic-analysis/parabolic-modulus-character"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

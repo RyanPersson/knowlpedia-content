@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A globally chosen connected boundary hypersurface obtained by continuing one local boundary component through a manifold with corners."
 aliases = ["face of a manifold with corners"]
 domains = ["differential-geometry"]
+prerequisites = ["differential-geometry/manifold-with-corners", "topology/connected-component"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

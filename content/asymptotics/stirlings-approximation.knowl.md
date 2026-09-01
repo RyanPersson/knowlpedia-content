@@ -5,12 +5,12 @@ kind = "knowl"
 summary = "Asymptotic formulas and bounds for factorials and log-factorials for large n."
 aliases = ["stirlings-approximation", "Stirling's approximation"]
 domains = ["asymptotics"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "asymptotics/stirlings-approximation.md"
 +++
 
-Stirling's approximation gives accurate large-\(n\) estimates for the factorial (factorial function) and related quantities such as binomial and multinomial coefficients.
-
-## Core asymptotic form
 For integers \(n \to \infty\),
 \[
 n! \sim \sqrt{2\pi n}\left(\frac{n}{e}\right)^n.

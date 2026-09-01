@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "For convex sets with nonempty interior: cl(int Ω)=cl Ω and int(cl Ω)=int Ω"
 aliases = ["interior-and-closure-relations-for-convex-sets-with-nonempty-interior", "Interior and closure relations for convex sets with nonempty interior"]
 domains = ["convex-analysis"]
+prerequisites = ["convex-analysis/convex-set"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "convex-analysis/interior-and-closure-relations-for-convex-sets-with-nonempty-interior.md"
 +++
 

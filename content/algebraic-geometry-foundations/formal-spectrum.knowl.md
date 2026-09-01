@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The affine formal scheme Spf(A) associated to a complete adic ring A."
 aliases = ["Spf", "affine formal scheme", "formal affine spectrum"]
 domains = ["algebraic-geometry-foundations", "formal-groups"]
+prerequisites = ["algebra-topological/adic-ring", "algebra-topological/ideal-of-definition", "algebraic-geometry-foundations/structure-sheaf"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

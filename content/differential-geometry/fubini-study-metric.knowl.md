@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The canonical unitary-invariant Kähler metric on complex projective space."
 aliases = ["Fubini Study metric", "Fubini–Study Kähler form"]
 domains = ["differential-geometry"]
+prerequisites = ["algebraic-geometry-foundations/projective-space", "differential-geometry/kahler-metric", "differential-geometry/kahler-form"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

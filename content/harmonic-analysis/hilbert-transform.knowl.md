@@ -5,6 +5,9 @@ kind = "definition"
 summary = "The singular integral operator with principal-value kernel 1/(pi x), equivalently the Fourier multiplier -i sign(xi)."
 aliases = ["Hilbert singular integral", "conjugate-function operator"]
 domains = ["harmonic-analysis", "complex-analysis"]
+prerequisites = ["functional-analysis/schwartz-space", "linear-algebra/linear-map"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

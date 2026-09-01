@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A Möbius-invariant coordinate of an ordered quadruple on the projective line."
 aliases = ["anharmonic ratio", "double ratio"]
 domains = ["complex-analysis", "projective-geometry"]
+prerequisites = []
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
@@ -14,7 +17,11 @@ For an ordered quadruple of distinct points \(z_1,z_2,z_3,z_4\in\widehat{\mathbb
 =\frac{(z_1-z_3)(z_2-z_4)}
 {(z_1-z_4)(z_2-z_3)}.
 \]
-Cases involving \(\infty\) are defined by taking limits; for example,
+Cases involving \(\infty\) are defined by taking limits.
+
+## Examples
+
+For instance, taking the fourth point to infinity gives
 \[
 [z_1,z_2;z_3,\infty]=\frac{z_1-z_3}{z_2-z_3}.
 \]

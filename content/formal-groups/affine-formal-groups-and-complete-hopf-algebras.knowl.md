@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Formal spectrum gives a contravariant equivalence between affine adic formal groups and admissible complete commutative Hopf algebras."
 aliases = ["complete Hopf algebra anti-equivalence", "formal groups and complete Hopf algebras"]
 domains = ["formal-groups", "algebra-coalgebras", "algebraic-geometry-foundations"]
+prerequisites = ["algebraic-geometry-foundations/formal-spectrum", "algebra-topological/completed-tensor-product"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

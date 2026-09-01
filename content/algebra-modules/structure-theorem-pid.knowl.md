@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A finitely generated module over a PID splits as a free part plus cyclic torsion factors."
 aliases = ["structure-theorem-pid", "Structure theorem for finitely generated modules over a PID"]
 domains = ["algebra-modules"]
+prerequisites = ["algebra-rings/pid", "algebra-modules/finitely-generated-module", "algebra-modules/direct-sum-modules"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 legacy_source_path = "algebra-modules/structure-theorem-pid.md"
 +++
 

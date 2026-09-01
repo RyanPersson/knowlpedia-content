@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A complex-valued function holomorphic on all of complex Euclidean space."
 aliases = ["entire function on C^d", "entire holomorphic function of several variables"]
 domains = ["complex-analysis", "several-complex-variables"]
+prerequisites = ["real-analysis/power-series", "complex-analysis/analytic-continuation"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

@@ -5,6 +5,9 @@ kind = "theorem"
 summary = "Ratios of independent solutions of a second-order linear equation have prescribed Schwarzian."
 aliases = ["Schwarzian ODE correspondence"]
 domains = ["complex-analysis", "projective-geometry"]
+prerequisites = ["topology/simply-connected-space", "complex-analysis/schwarzian-derivative"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 

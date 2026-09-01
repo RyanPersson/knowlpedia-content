@@ -5,6 +5,9 @@ kind = "definition"
 summary = "A barreled locally convex space in which every closed bounded subset is compact."
 aliases = ["Montel locally convex space"]
 domains = ["functional-analysis"]
+prerequisites = ["functional-analysis/barreled-space", "functional-analysis/bounded-subset-tvs", "linear-algebra/vector-space"]
+dependency_heuristic = "definition-links-v1"
+dependency_review_count = 0
 section_mode = "progressive"
 +++
 
