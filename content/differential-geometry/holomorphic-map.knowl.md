@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A complex-differentiable map between open subsets or complex manifolds."
 aliases = ["holomorphic", "analytic map"]
 domains = ["differential-geometry", "complex-analysis"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/complex-coordinate-chart", "differential-geometry/biholomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/complex-coordinate-chart"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

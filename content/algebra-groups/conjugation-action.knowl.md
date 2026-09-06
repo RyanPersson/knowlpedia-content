@@ -6,8 +6,7 @@ summary = "The action of a group on itself or its subgroups by conjugation."
 aliases = ["conjugation-action", "Conjugation Action"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/group-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/conjugation-action.md"
 +++
 

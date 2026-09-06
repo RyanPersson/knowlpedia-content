@@ -6,8 +6,7 @@ summary = "The LF-space of compactly supported smooth functions on an open subse
 aliases = ["test function", "compactly supported smooth function", "C_c^\\infty", "C_c^infinity", "D(Omega)", "space D(U)", "compactly supported smooth test functions"]
 domains = ["functional-analysis", "distribution-theory", "real-analysis"]
 prerequisites = ["linear-algebra/vector-space", "topology/compact-set", "functional-analysis/lf-space", "functional-analysis/inductive-limit-locally-convex-spaces"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

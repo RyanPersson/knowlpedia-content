@@ -6,8 +6,7 @@ summary = "An ideal containing no nonzero nilpotent ideal modulo it; in commutat
 aliases = ["semiprime-ideal", "Semiprime ideal"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/two-sided-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/semiprime-ideal.md"
 +++
 

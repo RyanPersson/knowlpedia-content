@@ -6,8 +6,7 @@ summary = "The vector space of tangent vectors to a smooth manifold at a given p
 aliases = ["tangent-space-at-a-point", "Tangent space at a point"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/tangent-space-at-a-point.md"
 +++
 

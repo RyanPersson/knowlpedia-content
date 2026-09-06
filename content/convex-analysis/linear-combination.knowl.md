@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A finite sum of scalar multiples of vectors"
 aliases = ["linear-combination", "Linear combination"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/subspace-generated-by-a-set-span", "convex-analysis/basis-hamel-basis-and-dimension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/subspace-generated-by-a-set-span"]
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/linear-combination.md"
 +++
 

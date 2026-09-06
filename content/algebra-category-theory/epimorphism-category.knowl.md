@@ -6,8 +6,7 @@ summary = "A morphism that is right-cancellative; the categorical analogue of a 
 aliases = ["epimorphism-category", "Epimorphism"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/epimorphism-category.md"
 +++
 

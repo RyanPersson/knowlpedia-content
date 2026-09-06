@@ -6,8 +6,7 @@ summary = "The ideal of ring elements that kill a given module element."
 aliases = ["annihilator-element", "Annihilator of an element"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/module", "algebra-rings/ideal", "algebra-rings/ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/annihilator-element.md"
 +++
 

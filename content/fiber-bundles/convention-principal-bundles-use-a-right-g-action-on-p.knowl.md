@@ -6,8 +6,7 @@ summary = "A principal G-bundle is written with a right action of G on the total
 aliases = ["convention-principal-bundles-use-a-right-g-action-on-p", "Convention: principal bundles use a right G-action on P"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p.md"
 +++
 

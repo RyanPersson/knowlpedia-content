@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A functional occurring as a simultaneous eigenvalue for the action of a Cartan subalgebra."
 aliases = ["weight-of-a-representation", "Weight of a representation"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/weight-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/weight-of-a-representation.md"
 +++
 

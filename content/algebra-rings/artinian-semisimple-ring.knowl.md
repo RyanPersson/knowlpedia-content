@@ -6,8 +6,7 @@ summary = "A semisimple ring that satisfies the descending chain condition on id
 aliases = ["artinian-semisimple-ring", "Artinian semisimple ring"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/semisimple-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/artinian-semisimple-ring.md"
 +++
 

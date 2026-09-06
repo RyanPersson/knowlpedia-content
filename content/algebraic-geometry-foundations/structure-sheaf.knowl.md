@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The sheaf of rings that supplies the local algebraic functions on a scheme."
 aliases = ["structure-sheaf", "Structure sheaf"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/sheaf", "algebraic-geometry-foundations/scheme", "algebra-commutative/prime-spectrum", "algebra-commutative/localization-ring", "algebraic-geometry-foundations/stalk", "algebra-commutative/local-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/sheaf", "algebra-commutative/prime-spectrum", "algebra-commutative/localization-ring", "algebra-commutative/local-ring"]
+dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/structure-sheaf.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A bounded operator on direct integrals that is given almost everywher
 aliases = ["fiberwise operator", "direct-integral decomposable operator"]
 domains = ["functional-analysis", "operator-algebras"]
 prerequisites = ["functional-analysis/direct-integral-hilbert-spaces", "measure-theory/almost-everywhere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

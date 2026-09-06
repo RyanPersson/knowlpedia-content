@@ -6,8 +6,7 @@ summary = "A square matrix satisfies its own characteristic polynomial."
 aliases = ["cayley-hamilton-theorem", "Cayley–Hamilton theorem"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/linear-operator", "linear-algebra/characteristic-polynomial"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/cayley-hamilton-theorem.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "An action with trivial kernel, equivalently an injective permutation 
 aliases = ["faithful-action", "Faithful Action"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group-action", "algebra-groups/kernel-of-action", "algebra-groups/trivial-subgroup", "algebra-groups/group-monomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/faithful-action.md"
 +++
 

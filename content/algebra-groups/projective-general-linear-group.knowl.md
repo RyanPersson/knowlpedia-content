@@ -6,8 +6,7 @@ summary = "The quotient of a general linear group by its subgroup of nonzero sca
 aliases = ["PGL", "projective linear group", "full projective group"]
 domains = ["algebra-groups", "algebraic-geometry-foundations"]
 prerequisites = ["linear-algebra/vector-space", "algebra-groups/quotient-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

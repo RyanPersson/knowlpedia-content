@@ -6,8 +6,7 @@ summary = "A module that is both Artinian and Noetherian has a finite compositio
 aliases = ["artinian-noetherian-finite-length", "Artinian and Noetherian implies finite length"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/artinian-module", "algebra-modules/noetherian-module", "algebra-modules/composition-series-module", "algebra-modules/length-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/artinian-noetherian-finite-length.md"
 +++
 

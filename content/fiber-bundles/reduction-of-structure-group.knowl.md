@@ -6,8 +6,7 @@ summary = "A way to replace the structure group G of a principal bundle by a sub
 aliases = ["reduction-of-structure-group", "Reduction of structure group"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/smooth-map", "fiber-bundles/principal-bundle-isomorphism", "fiber-bundles/principal-h-subbundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/reduction-of-structure-group.md"
 +++
 

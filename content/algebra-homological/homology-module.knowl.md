@@ -6,8 +6,7 @@ summary = "The nth homology H_n(C) = ker(d_n)/im(d_{n+1}) of a chain complex of 
 aliases = ["homology-module", "Homology module"]
 domains = ["algebra-homological"]
 prerequisites = ["algebra-rings/ring", "algebra-homological/chain-complex", "algebra-modules/module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/homology-module.md"
 +++
 

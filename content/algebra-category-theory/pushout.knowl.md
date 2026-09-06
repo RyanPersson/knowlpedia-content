@@ -6,8 +6,7 @@ summary = "A universal object obtained by gluing two objects along a common sour
 aliases = ["pushout"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category", "algebra-category-theory/isomorphism-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/pushout.md"
 +++
 

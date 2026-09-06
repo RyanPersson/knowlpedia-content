@@ -6,8 +6,7 @@ summary = "The unique monic irreducible polynomial over K annihilating a given a
 aliases = ["minimal-polynomial-field", "Minimal polynomial over a field"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/irreducible-polynomial"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/minimal-polynomial-field.md"
 +++
 

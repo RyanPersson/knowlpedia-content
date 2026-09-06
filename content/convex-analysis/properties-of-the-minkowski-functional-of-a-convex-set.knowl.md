@@ -6,8 +6,7 @@ summary = "For absorbing convex Ω, pΩ is sublinear and its level sets describe
 aliases = ["properties-of-the-minkowski-functional-of-a-convex-set", "Properties of the Minkowski Gauge of a Convex Set"]
 domains = ["convex-analysis"]
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/balanced-and-absorbing-sets", "convex-analysis/convex-set", "convex-analysis/minkowski-function-gauge-of-a-set", "convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions", "convex-analysis/algebraic-interior-core", "convex-analysis/linear-closure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/properties-of-the-minkowski-functional-of-a-convex-set.md"
 +++
 

@@ -6,12 +6,11 @@ summary = "Vector of first partial derivatives of a scalar function"
 aliases = ["gradient"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/partial-derivative", "linear-algebra/inner-product", "real-analysis/directional-derivative", "real-analysis/differentiable-map", "real-analysis/critical-point"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/gradient.md"
 +++
 
-A **gradient** of a differentiable function \(f:U\to \mathbb{R}\) (with \(U\subseteq \mathbb{R}^n\)) at a point \(a\in U\) is the vector
+A **gradient** of a differentiable function \(f:U\to \mathbb{R}\), where \(U\subseteq\mathbb R^n\) is open, at a point \(a\in U\) is the vector
 \[
 \nabla f(a)=\left(\frac{\partial f}{\partial x_1}(a),\dots,\frac{\partial f}{\partial x_n}(a)\right),
 \]

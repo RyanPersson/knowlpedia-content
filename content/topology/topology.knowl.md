@@ -6,8 +6,7 @@ summary = "A collection of subsets declared open, closed under unions and finite
 aliases = ["topology"]
 domains = ["topology"]
 prerequisites = ["shared-foundations/set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/topology.md"
 +++
 

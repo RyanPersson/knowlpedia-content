@@ -6,8 +6,7 @@ summary = "A group with a topology making multiplication and inversion continuou
 aliases = ["topological-group", "Topological group"]
 domains = ["topology"]
 prerequisites = ["algebra-groups/group", "topology/topological-space", "topology/continuous-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/topological-group.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The complete ordered number system containing the rationals."
 aliases = ["real-numbers", "Real numbers"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/set", "shared-foundations/rational-numbers", "shared-foundations/total-order", "shared-foundations/upper-bound"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/real-numbers.md"
 +++
 

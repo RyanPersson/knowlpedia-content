@@ -5,13 +5,12 @@ kind = "knowl"
 summary = "The set of points where every neighborhood meets both the set and its complement."
 aliases = ["boundary"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "topology/closure", "topology/interior"]
+dependency_review_count = 1
 legacy_source_path = "topology/boundary.md"
 +++
 
-Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(A\subseteq X\). The **boundary** of \(A\), denoted \(\partial A\), is
+Let \(X\) be a [[topology/topological-space|topological space]] and let \(A\subseteq X\). The **boundary** of \(A\), denoted \(\partial A\), is
 \[\partial A := \overline{A}\setminus \operatorname{int}(A).\]
 
 ## Equivalent characterizations
@@ -19,7 +18,7 @@ Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(A\subseteq X
 Equivalently,
 \[\partial A = \overline{A}\cap \overline{X\setminus A}\]
 
-(see [[topology/closure|closure]] and [[topology/interior|interior]]). Equivalently again, \(x\in\partial A\) iff every [[topology/open-ball|open ball]] \(B(x,r)\) meets both \(A\) and \(X\setminus A\).
+(see [[topology/closure|closure]] and [[topology/interior|interior]]). Equivalently again, \(x\in\partial A\) iff every [[topology/neighborhood|neighborhood]] of \(x\) meets both \(A\) and \(X\setminus A\).
 
 ## Remarks
 

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A finite-dimensional semisimple Lie algebra splits uniquely as a direct sum of simple Lie algebras."
 aliases = ["semisimple-direct-sum-simple", "Semisimple Lie algebra as a direct sum of simple ideals"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/simple-lie-algebra", "lie-groups/ideal-lie-algebra", "lie-groups/direct-sum-of-lie-algebras", "lie-groups/killing-form", "lie-groups/killing-form-nondegenerate-iff-semisimple", "lie-groups/classification-simple-lie-algebras"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/simple-lie-algebra", "lie-groups/ideal-lie-algebra", "lie-groups/direct-sum-of-lie-algebras", "lie-groups/killing-form", "lie-groups/classification-simple-lie-algebras"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/semisimple-direct-sum-simple.md"
 +++
 

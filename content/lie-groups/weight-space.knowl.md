@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The simultaneous eigenspace of a representation corresponding to a weight on an abelian subalgebra."
 aliases = ["weight-space", "Weight space"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/weight-of-a-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = []
+dependency_review_count = 1
 legacy_source_path = "lie-groups/weight-space.md"
 +++
 

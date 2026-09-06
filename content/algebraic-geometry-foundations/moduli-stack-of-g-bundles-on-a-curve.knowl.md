@@ -6,8 +6,7 @@ summary = "The algebraic stack Bun_G whose families are principal G-bundles on a
 aliases = ["Bun_G", "stack of G-bundles"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/principal-g-bundle-on-scheme", "fiber-bundles/bundle-isomorphism", "algebraic-geometry-foundations/algebraic-stack"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

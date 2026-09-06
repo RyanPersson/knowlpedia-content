@@ -6,8 +6,7 @@ summary = "Balanced bilinear maps out of M×N correspond to linear maps out of M
 aliases = ["tensor-product-universal-property", "Universal property of the tensor product"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/tensor-product", "algebra-modules/module-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/tensor-product-universal-property.md"
 +++
 

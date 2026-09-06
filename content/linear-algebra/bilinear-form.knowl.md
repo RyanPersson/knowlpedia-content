@@ -6,8 +6,7 @@ summary = "A function of two vector arguments that is linear in each argument."
 aliases = ["bilinear-form", "Bilinear form"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/bilinear-form.md"
 +++
 

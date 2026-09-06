@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Every finite-dimensional representation of a finite-dimensional semisimple Lie algebra in characteristic zero is completely reducible."
 aliases = ["weyls-theorem-complete-reducibility", "Weyl’s theorem on complete reducibility"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/completely-reducible-representation-lie", "lie-groups/subrepresentation-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/subrepresentation-lie-algebra"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/weyls-theorem-complete-reducibility.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A finite Galois field extension gives a connected finite étale torso
 aliases = ["Galois extension as an étale torsor", "Galois torsor of spectra"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebra-fields-galois/galois-extension", "algebraic-geometry-foundations/connected-scheme", "algebraic-geometry-foundations/constant-finite-group-scheme", "algebraic-geometry-foundations/small-etale-site", "algebraic-geometry-foundations/g-torsor-on-a-site", "algebraic-geometry-foundations/galois-tensor-product-identity"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 Let \(K/F\) be a finite [[algebra-fields-galois/galois-extension|Galois extension]], let \(G=\operatorname{Gal}(K/F)\), and set \(P=\operatorname{Spec}K\) and \(X=\operatorname{Spec}F\). Then \(P\to X\) is finite étale and [[algebraic-geometry-foundations/connected-scheme|connected]]. The action of \(G\) on \(K\) by \(F\)-algebra automorphisms induces, contravariantly, an action on \(P\). With \(G_X\) the [[algebraic-geometry-foundations/constant-finite-group-scheme|constant finite group scheme]], the map

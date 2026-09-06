@@ -6,8 +6,7 @@ summary = "A module decomposed into degrees compatible with a graded ring action
 aliases = ["graded-module", "Graded module"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/module", "algebra-modules/direct-sum-modules", "algebra-modules/graded-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/graded-module.md"
 +++
 

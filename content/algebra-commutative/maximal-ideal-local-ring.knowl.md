@@ -6,8 +6,7 @@ summary = "In a local ring, the unique maximal ideal is exactly the set of nonun
 aliases = ["maximal-ideal-local-ring", "Maximal ideal of a local ring"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/local-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/maximal-ideal-local-ring.md"
 +++
 

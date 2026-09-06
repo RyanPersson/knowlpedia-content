@@ -6,8 +6,7 @@ summary = "If N is contained in K and both are normal in G, then (G/N)/(K/N) is 
 aliases = ["third-isomorphism-theorem-groups", "Third Isomorphism Theorem (Groups)"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/third-isomorphism-theorem-groups.md"
 +++
 

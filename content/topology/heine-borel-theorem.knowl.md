@@ -6,8 +6,7 @@ summary = "In Euclidean space, compactness is equivalent to being closed and bou
 aliases = ["heine-borel-theorem", "Heine–Borel theorem"]
 domains = ["topology"]
 prerequisites = ["topology/compact-set", "topology/closed-set", "topology/bounded-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/heine-borel-theorem.md"
 +++
 

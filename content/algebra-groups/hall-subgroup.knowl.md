@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A subgroup whose order is coprime to its index in the ambient finite group"
 aliases = ["hall-subgroup", "Hall subgroup"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/index-of-subgroup", "algebra-groups/sylow-subgroup", "algebra-groups/solvable-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/index-of-subgroup"]
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/hall-subgroup.md"
 +++
 

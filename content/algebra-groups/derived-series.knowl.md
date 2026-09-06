@@ -6,8 +6,7 @@ summary = "The descending series obtained by repeatedly taking commutator subgro
 aliases = ["derived-series", "Derived series"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/commutator-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/derived-series.md"
 +++
 

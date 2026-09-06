@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A set that cannot be split into two disjoint nonempty open pieces in the subspace topology."
 aliases = ["connected-set", "Connected set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/open-set", "topology/subspace-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "topology/open-set", "topology/subspace-topology", "topology/closed-set"]
+dependency_review_count = 1
 legacy_source_path = "topology/connected-set.md"
 +++
 

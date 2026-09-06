@@ -6,8 +6,7 @@ summary = "Finite fields exist exactly in prime power cardinalities, and can be 
 aliases = ["finite-field-existence", "Existence of Finite Fields"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/finite-field", "algebra-rings/field", "algebra-rings/characteristic", "algebra-fields-galois/field-extension", "algebra-fields-galois/degree-of-extension", "algebra-fields-galois/simple-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/finite-field-existence.md"
 +++
 

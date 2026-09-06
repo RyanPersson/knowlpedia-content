@@ -5,8 +5,7 @@ kind = "knowl"
 summary = "Continuity where a single delta works for the whole set, not point by point."
 aliases = ["uniform-continuity", "Uniform continuity"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/continuity-on-a-set", "topology/complete-metric-space", "topology/compact-set"]
-dependency_heuristic = "definition-links-v1"
+prerequisites = ["topology/metric-space"]
 dependency_review_count = 0
 legacy_source_path = "real-analysis/uniform-continuity.md"
 +++

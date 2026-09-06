@@ -6,8 +6,7 @@ summary = "If R is a UFD, then the polynomial ring R[x] is again a UFD (and like
 aliases = ["ufd-polynomial-ring", "Gauss's theorem (UFD ⇒ polynomial ring is UFD)"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ufd", "algebra-rings/polynomial-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/ufd-polynomial-ring.md"
 +++
 

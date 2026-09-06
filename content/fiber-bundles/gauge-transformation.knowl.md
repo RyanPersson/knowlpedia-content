@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A principal bundle automorphism that covers the identity map on the base manifold."
 aliases = ["gauge-transformation", "Gauge transformation"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-automorphism", "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action", "fiber-bundles/section-of-ad"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-automorphism", "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/gauge-transformation.md"
 +++
 

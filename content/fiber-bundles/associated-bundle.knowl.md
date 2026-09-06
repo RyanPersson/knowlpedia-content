@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A fiber bundle built from a principal bundle and a left group action on a model fiber by taking a quotient of the product."
 aliases = ["associated-bundle", "Associated bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/bundle-of-orbits", "fiber-bundles/associated-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/associated-bundle.md"
 +++
 

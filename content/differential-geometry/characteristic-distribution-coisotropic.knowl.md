@@ -6,8 +6,7 @@ summary = "The null distribution of the restricted symplectic form on a coisotro
 aliases = ["null distribution", "characteristic subbundle"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/coisotropic-submanifold", "differential-geometry/symplectic-manifold", "fiber-bundles/vector-subbundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

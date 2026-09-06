@@ -6,8 +6,7 @@ summary = "A chain of field extensions F ⊆ K ⊆ E, used to analyze E/F in sta
 aliases = ["tower-of-fields", "Tower of fields"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/intermediate-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/tower-of-fields.md"
 +++
 

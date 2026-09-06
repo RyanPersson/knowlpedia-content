@@ -6,8 +6,7 @@ summary = "A sequence converges if points eventually lie arbitrarily close to th
 aliases = ["convergence-of-a-sequence", "Convergence of a sequence in a metric space"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/closure-characterized-by-convergent-sequences", "topology/cauchy-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/convergence-of-a-sequence.md"
 +++
 

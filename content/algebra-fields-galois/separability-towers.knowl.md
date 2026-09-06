@@ -6,8 +6,7 @@ summary = "Separability is stable under passing up and down a tower of fields."
 aliases = ["separability-towers", "Separability in towers"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/tower-of-fields", "algebra-fields-galois/separable-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/separability-towers.md"
 +++
 

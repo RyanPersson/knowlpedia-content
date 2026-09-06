@@ -6,8 +6,7 @@ summary = "A common multiple m of a and b that divides every other common multip
 aliases = ["lcm", "Least common multiple"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/integral-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/lcm.md"
 +++
 

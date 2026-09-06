@@ -6,8 +6,7 @@ summary = "A set equipped with a topology, specifying which subsets are open."
 aliases = ["topological-space", "Topological space"]
 domains = ["topology"]
 prerequisites = ["shared-foundations/ordered-pair", "shared-foundations/set", "topology/topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/topological-space.md"
 +++
 

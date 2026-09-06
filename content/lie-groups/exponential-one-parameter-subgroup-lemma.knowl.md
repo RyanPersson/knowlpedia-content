@@ -5,24 +5,23 @@ kind = "knowl"
 summary = "The curve t ↦ exp(tX) is the unique one-parameter subgroup with initial velocity X."
 aliases = ["exponential-one-parameter-subgroup-lemma", "Exponentials and one-parameter subgroups"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/exponential-map-lie-group", "lie-groups/one-parameter-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/one-parameter-subgroup"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/exponential-one-parameter-subgroup-lemma.md"
 +++
 
-Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra]] \(\mathfrak g = T_eG\), and let \(\exp:\mathfrak g\to G\) be the [[lie-groups/exponential-map-lie-group|exponential map]].
+Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra]] \(\mathfrak g=T_eG\).
 
 **Lemma (Exponential–one-parameter subgroup).**
-For each \(X\in\mathfrak g\), the map
+For each \(X\in\mathfrak g\), there is a unique smooth [[lie-groups/one-parameter-subgroup|one-parameter subgroup]]
 \[
-\gamma_X:\mathbb R\to G,\qquad \gamma_X(t)=\exp(tX)
+\gamma_X:\mathbb R\to G
 \]
-is a smooth group homomorphism \((\mathbb R,+)\to G\), i.e. a [[lie-groups/one-parameter-subgroup|one-parameter subgroup]]. Moreover,
+with \(\gamma_X'(0)=X\). Conversely, every one-parameter subgroup \(\gamma\) is uniquely determined by \(X=\gamma'(0)\).
+Moreover, after the [[lie-groups/exponential-map-lie-group|exponential map]] is defined by this correspondence,
 \[
-\gamma_X'(0)=X \in T_eG.
+\gamma_X(t)=\exp(tX).
 \]
-Conversely, if \(\gamma:\mathbb R\to G\) is a one-parameter subgroup, then there exists a unique \(X\in\mathfrak g\) such that \(\gamma(t)=\exp(tX)\) for all \(t\); equivalently \(X=\gamma'(0)\).
 
 ## Remarks
 

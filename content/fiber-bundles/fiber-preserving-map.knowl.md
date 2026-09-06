@@ -6,8 +6,7 @@ summary = "A smooth map between total spaces that sends fibers to fibers over a 
 aliases = ["fiber-preserving-map", "Fiber-preserving map"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/fibered-manifold", "fiber-bundles/bundle-map", "fiber-bundles/tangent-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/fiber-preserving-map.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The symmetric monoidal category of Z/2-graded vector spaces and even 
 aliases = ["SuperVect", "category of Z/2-graded vector spaces"]
 domains = ["supergeometry", "algebra-category-theory"]
 prerequisites = ["supergeometry/super-vector-space", "algebra-category-theory/symmetric-monoidal-category", "supergeometry/koszul-sign-rule"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

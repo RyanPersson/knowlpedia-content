@@ -6,8 +6,7 @@ summary = "A differentiable function attains its average slope at some interior 
 aliases = ["mean-value-theorem", "Mean value theorem"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/differentiability-1d"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/mean-value-theorem.md"
 +++
 

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The fiber dimension of a real or complex vector bundle, which is locally constant on the base."
 aliases = ["rank-of-a-vector-bundle", "Rank of a vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/complex-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = []
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/rank-of-a-vector-bundle.md"
 +++
 

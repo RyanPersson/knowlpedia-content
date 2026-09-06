@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A short exact sequence that decomposes as a direct sum."
 aliases = ["split-exact-sequence", "Split exact sequence"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/short-exact-sequence", "shared-foundations/identity-function", "algebra-modules/direct-sum-modules", "algebra-modules/splitting-lemma"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/short-exact-sequence", "shared-foundations/identity-function", "algebra-modules/direct-sum-modules"]
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/split-exact-sequence.md"
 +++
 

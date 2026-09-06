@@ -6,8 +6,7 @@ summary = "A domain that already contains every element of its fraction field th
 aliases = ["integrally-closed-domain", "Integrally closed domain"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-commutative/integral-element"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/integrally-closed-domain.md"
 +++
 

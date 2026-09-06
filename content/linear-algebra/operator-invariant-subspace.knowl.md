@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A linear subspace mapped into itself by a linear operator."
 aliases = ["invariant subspace", "operator-invariant subspace"]
 domains = ["linear-algebra", "analysis"]
-prerequisites = ["linear-algebra/linear-map", "linear-algebra/closed-linear-subspace", "linear-algebra/eigenvector"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/linear-map"]
+dependency_review_count = 1
 +++
 
 Let \(T:E\to E\) be a [[linear-algebra/linear-map|linear operator]]. A linear subspace \(M\subseteq E\) is **invariant under \(T\)** if

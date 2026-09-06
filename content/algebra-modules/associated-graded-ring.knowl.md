@@ -6,8 +6,7 @@ summary = "The graded ring gr_F(R)=⊕ F_nR/F_{n-1}R attached to a filtered ring
 aliases = ["associated-graded-ring", "Associated graded ring"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/filtered-ring", "algebra-rings/quotient-ring", "algebra-modules/direct-sum-modules", "algebra-modules/graded-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/associated-graded-ring.md"
 +++
 

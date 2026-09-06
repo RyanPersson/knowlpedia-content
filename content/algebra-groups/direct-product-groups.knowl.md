@@ -6,8 +6,7 @@ summary = "The product group with componentwise multiplication"
 aliases = ["direct-product-groups", "Direct Product of Groups"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "shared-foundations/cartesian-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/direct-product-groups.md"
 +++
 

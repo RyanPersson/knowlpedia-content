@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A continuous real-valued function on a compact set achieves a maximum and a minimum"
 aliases = ["continuous-attains-max-min-compact", "Continuous attains max/min on compact set"]
 domains = ["topology"]
-prerequisites = ["topology/compact-set", "topology/continuous-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/compact-set", "topology/continuous-map", "topology/continuous-image-of-compact-set-is-compact"]
+dependency_review_count = 1
 legacy_source_path = "topology/continuous-attains-max-min-compact.md"
 +++
 

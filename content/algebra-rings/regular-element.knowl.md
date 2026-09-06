@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "An element that is not a zero divisor (equivalently, multiplication by it is injective)."
 aliases = ["regular-element", "Regular element"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/zero-divisor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ring", "algebra-rings/zero-divisor"]
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/regular-element.md"
 +++
 

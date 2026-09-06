@@ -6,8 +6,7 @@ summary = "The additive order of 1 in a unital ring; either 0 or a positive inte
 aliases = ["characteristic"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/unital-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/characteristic.md"
 +++
 
@@ -15,7 +14,7 @@ Let \(R\) be a [[algebra-rings/unital-ring|unital ring]] with identity \(1_R\). 
 
 ## Remarks
 
-Characteristic controls the arithmetic inside \(R\): the prime field (or prime subring) embeds via \(\mathbb{Z}\to R\) with kernel \(n\mathbb{Z}\). If \(R\) is an [[algebra-rings/integral-domain|integral domain]] (in particular, a [[algebra-rings/field|field]]), then \(\mathrm{char}(R)\) is either \(0\) or a prime number (see [[algebra-rings/characteristic-zero-or-prime|characteristic is zero or prime]]).
+Characteristic controls the arithmetic inside \(R\): the prime subring is the image of \(\mathbb{Z}\to R\), whose kernel is \(n\mathbb{Z}\) when \(\operatorname{char}(R)=n\). When \(R\) is a field, this image is its prime field. If \(R\) is an [[algebra-rings/integral-domain|integral domain]] (in particular, a [[algebra-rings/field|field]]), then \(\mathrm{char}(R)\) is either \(0\) or a prime number (see [[algebra-rings/characteristic-zero-or-prime|characteristic is zero or prime]]).
 
 ## Examples
 

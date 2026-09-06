@@ -5,9 +5,8 @@ kind = "definition"
 summary = "An algebraic curve equipped with an ordered or labeled collection of marked points."
 aliases = ["marked algebraic curve"]
 domains = ["algebraic-geometry-foundations", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/punctured-algebraic-curve"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/algebraic-curve"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

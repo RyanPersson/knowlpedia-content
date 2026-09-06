@@ -6,8 +6,7 @@ summary = "A distribution on an open Euclidean set is a continuous linear functi
 aliases = ["generalized function", "continuous linear functional on test functions", "Schwartz distribution", "Distribution (generalized function)"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/topological-dual", "functional-analysis/test-function-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

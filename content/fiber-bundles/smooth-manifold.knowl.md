@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A topological manifold equipped with a maximal smooth atlas, enabling calculus in local coordinates."
 aliases = ["smooth-manifold", "Smooth manifold"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/maximal-smooth-atlas", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/smooth-structure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/maximal-smooth-atlas"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-manifold.md"
 +++
 

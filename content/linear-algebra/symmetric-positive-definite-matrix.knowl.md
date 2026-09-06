@@ -6,8 +6,7 @@ summary = "A real symmetric matrix whose quadratic form is strictly positive on 
 aliases = ["positive-definite symmetric matrix", "SPD matrix", "Sym++(n,R)", "positive-definite cone"]
 domains = ["linear-algebra"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

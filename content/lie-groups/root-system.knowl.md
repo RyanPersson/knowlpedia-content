@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A finite set of vectors closed under reflections and satisfying integrality; the combinatorial data behind semisimple Lie theory."
 aliases = ["root-system", "Root system"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/weyl-group", "lie-groups/cartan-subalgebra", "lie-groups/killing-form", "lie-groups/root-space-decomposition", "lie-groups/positive-root", "lie-groups/simple-root", "lie-groups/cartan-matrix", "lie-groups/dynkin-diagram", "lie-groups/classification-simple-lie-algebras"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/weyl-group", "lie-groups/cartan-subalgebra", "lie-groups/killing-form", "lie-groups/classification-simple-lie-algebras"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/root-system.md"
 +++
 

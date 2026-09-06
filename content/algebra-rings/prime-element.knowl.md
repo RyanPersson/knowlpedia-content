@@ -6,8 +6,7 @@ summary = "A nonzero nonunit p such that p | ab implies p | a or p | b."
 aliases = ["prime-element", "Prime element"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/integral-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/prime-element.md"
 +++
 

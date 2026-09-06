@@ -6,8 +6,7 @@ summary = "The set of all limit points of a subset."
 aliases = ["derived-set", "Derived set"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/limit-point", "topology/closure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/derived-set.md"
 +++
 

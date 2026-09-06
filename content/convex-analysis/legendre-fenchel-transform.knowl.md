@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The general convex-conjugation transform defined by a supremum pairing, without smoothness assumptions."
 aliases = ["legendre-fenchel-transform", "Legendre–Fenchel transform"]
 domains = ["convex-analysis"]
-prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/fenchel-young-inequality", "convex-analysis/biconjugate", "convex-analysis/legendre-transform"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel"]
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/legendre-fenchel-transform.md"
 +++
 

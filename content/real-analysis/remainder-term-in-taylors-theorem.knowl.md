@@ -6,8 +6,7 @@ summary = "The difference f(x)−T_k f(x;a), measuring Taylor approximation erro
 aliases = ["remainder-term-in-taylors-theorem", "Remainder term in Taylor's theorem"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/remainder-term-in-taylors-theorem.md"
 +++
 

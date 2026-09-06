@@ -6,8 +6,7 @@ summary = "A convergence test for alternating series with decreasing term magnit
 aliases = ["alternating-series-test", "Alternating series test"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/series", "real-analysis/convergent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/alternating-series-test.md"
 +++
 

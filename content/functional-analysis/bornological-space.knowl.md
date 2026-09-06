@@ -6,8 +6,7 @@ summary = "A locally convex space whose topology is determined by its bounded su
 aliases = ["bornologic space"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/locally-convex-space", "functional-analysis/bounded-subset-tvs"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

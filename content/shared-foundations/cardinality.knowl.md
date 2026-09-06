@@ -6,8 +6,7 @@ summary = "The size of a set, understood up to bijection"
 aliases = ["cardinality"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/set", "shared-foundations/bijective-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/cardinality.md"
 +++
 

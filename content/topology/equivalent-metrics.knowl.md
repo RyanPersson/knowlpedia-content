@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Two metrics on the same set that generate the same open sets, hence the same topology."
 aliases = ["equivalent-metrics", "Equivalent metrics"]
 domains = ["topology"]
-prerequisites = ["topology/metric-induced-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/metric-induced-topology", "topology/homeomorphism"]
+dependency_review_count = 1
 legacy_source_path = "topology/equivalent-metrics.md"
 +++
 

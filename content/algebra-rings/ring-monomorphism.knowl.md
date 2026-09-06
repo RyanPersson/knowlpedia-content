@@ -6,8 +6,7 @@ summary = "An injective ring homomorphism."
 aliases = ["ring-monomorphism", "Ring monomorphism"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ring-homomorphism", "shared-foundations/injective-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/ring-monomorphism.md"
 +++
 

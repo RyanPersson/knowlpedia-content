@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A sequence in a metric space whose terms become arbitrarily close to each other."
 aliases = ["cauchy-sequence", "Cauchy sequence"]
 domains = ["topology"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/metric-space"]
+dependency_review_count = 1
 legacy_source_path = "topology/cauchy-sequence.md"
 +++
 

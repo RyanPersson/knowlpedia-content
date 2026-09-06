@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A smooth manifold E equipped with a surjective submersion onto a base manifold M."
 aliases = ["fibered-manifold", "Fibered manifold"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/embedded-submanifold", "fiber-bundles/vertical-tangent-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/fibered-manifold.md"
 +++
 

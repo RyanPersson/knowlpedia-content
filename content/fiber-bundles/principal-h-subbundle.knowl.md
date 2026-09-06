@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "An H-invariant submanifold of a principal G-bundle that is itself a principal H-bundle over the same base."
 aliases = ["principal-h-subbundle", "Principal H-subbundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/right-principal-action", "fiber-bundles/reduction-of-structure-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/right-principal-action"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/principal-h-subbundle.md"
 +++
 

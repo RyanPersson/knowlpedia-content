@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A bijective field homomorphism; automorphisms fixing a base field form the Galois group."
 aliases = ["field-automorphism", "Field automorphism"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-groups/automorphism-group", "algebra-fields-galois/field-extension", "algebra-fields-galois/galois-extension", "algebra-fields-galois/galois-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/field", "algebra-groups/automorphism-group", "algebra-fields-galois/field-extension"]
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/field-automorphism.md"
 +++
 

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A uniform L1 bound together with uniformly vanishing large-value tails."
 aliases = ["uniform-integrability", "Uniform integrability"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space", "shared-foundations/sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measure-space","shared-foundations/sequence"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/uniform-integrability.md"
 +++
 

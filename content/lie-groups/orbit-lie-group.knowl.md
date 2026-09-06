@@ -6,8 +6,7 @@ summary = "The set of points reachable from x under the action; it is an immerse
 aliases = ["orbit-lie-group", "Orbit of a Lie group action"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group", "lie-groups/stabilizer-lie-group", "lie-groups/closed-subgroup-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/orbit-lie-group.md"
 +++
 

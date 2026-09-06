@@ -5,9 +5,8 @@ kind = "definition"
 summary = "The condition that overlapping coordinate charts have smooth transition maps, extended to compatibility of smooth atlases."
 aliases = ["smoothly compatible charts", "compatible smooth charts", "compatible smooth atlases", "smooth atlas compatibility"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-atlas"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = []
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

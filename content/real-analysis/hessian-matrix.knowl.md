@@ -6,8 +6,7 @@ summary = "Matrix of second partial derivatives of a scalar function"
 aliases = ["hessian-matrix", "Hessian matrix"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/hessian-matrix.md"
 +++
 

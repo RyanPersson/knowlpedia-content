@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Every nonempty affine set is parallel to a unique subspace L=Ω−Ω."
 aliases = ["parallel-subspace-to-an-affine-set-is", "Parallel Subspace to an Affine Set is Ω−Ω"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set", "convex-analysis/linear-subspace", "convex-analysis/hyperplane", "convex-analysis/codimension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set", "convex-analysis/linear-subspace"]
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/parallel-subspace-to-an-affine-set-is.md"
 +++
 

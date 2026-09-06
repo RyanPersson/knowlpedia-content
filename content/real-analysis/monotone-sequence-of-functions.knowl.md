@@ -6,8 +6,7 @@ summary = "A sequence of functions that is monotone at each point of the domain.
 aliases = ["monotone-sequence-of-functions", "Monotone sequence of functions"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/monotone-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/monotone-sequence-of-functions.md"
 +++
 

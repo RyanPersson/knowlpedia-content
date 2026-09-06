@@ -6,8 +6,7 @@ summary = "The functional calculus that assigns a possibly unbounded operator to
 aliases = ["bounded Borel functional calculus", "measurable functional calculus"]
 domains = ["functional-analysis", "operator-algebras"]
 prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/projection-valued-measure", "functional-analysis/spectral-theorem-unbounded-self-adjoint", "functional-analysis/spectral-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

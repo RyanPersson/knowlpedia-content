@@ -6,8 +6,7 @@ summary = "Every continuous function on a closed interval has a Riemann integral
 aliases = ["existence-of-riemann-integral-for-continuous-functions", "Continuous functions are Riemann integrable"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/continuity-on-a-set", "real-analysis/riemann-integrable-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/existence-of-riemann-integral-for-continuous-functions.md"
 +++
 

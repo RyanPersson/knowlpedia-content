@@ -6,8 +6,7 @@ summary = "A matrix encoding a linear map relative to chosen bases."
 aliases = ["matrix-representation", "Matrix representation"]
 domains = ["algebra-modules"]
 prerequisites = ["linear-algebra/linear-map", "linear-algebra/matrix"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/matrix-representation.md"
 +++
 

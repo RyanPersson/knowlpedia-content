@@ -6,8 +6,7 @@ summary = "A rectangular array of numbers, symbols, or expressions arranged in r
 aliases = ["matrix"]
 domains = ["linear-algebra"]
 prerequisites = ["algebra-rings/ring", "algebra-rings/field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/matrix.md"
 +++
 

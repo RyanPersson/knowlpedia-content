@@ -6,8 +6,7 @@ summary = "The unital commutative algebra of scalar-valued smooth functions on a
 aliases = ["C-infinity algebra", "smooth function algebra"]
 domains = ["differential-geometry", "algebra-rings"]
 prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

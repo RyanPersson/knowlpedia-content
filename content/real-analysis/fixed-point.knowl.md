@@ -6,8 +6,7 @@ summary = "A point x satisfying T(x)=x for a self-map T"
 aliases = ["fixed-point", "Fixed point"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/fixed-point.md"
 +++
 

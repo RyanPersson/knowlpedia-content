@@ -6,8 +6,7 @@ summary = "A linear operator whose graph closure is still the graph of an operat
 aliases = ["preclosed operator"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/graph-of-operator", "functional-analysis/closed-linear-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

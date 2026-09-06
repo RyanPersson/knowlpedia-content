@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A smooth manifold equipped with a closed, nondegenerate 2-form."
 aliases = ["symplectic structure"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/almost-symplectic-manifold", "differential-geometry/stokes-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold"]
+dependency_review_count = 1
 legacy_source_path = "differential-geometry/symplectic-manifold.md"
 section_mode = "progressive"
 +++

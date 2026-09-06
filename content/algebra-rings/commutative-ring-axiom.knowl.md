@@ -6,8 +6,7 @@ summary = "Axiom requiring multiplication in a ring to be commutative."
 aliases = ["commutative-ring-axiom", "Commutative ring axiom"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/commutative-ring-axiom.md"
 +++
 

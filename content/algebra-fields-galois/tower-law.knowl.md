@@ -6,8 +6,7 @@ summary = "In a finite tower K ⊂ L ⊂ M, degrees multiply: [M:K]=[M:L][L:K]."
 aliases = ["tower-law", "Tower law"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/tower-of-fields", "algebra-fields-galois/intermediate-field", "algebra-fields-galois/field-extension", "algebra-fields-galois/degree-of-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/tower-law.md"
 +++
 

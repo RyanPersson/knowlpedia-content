@@ -6,8 +6,7 @@ summary = "A smooth equivariant map between principal bundles covering a smooth 
 aliases = ["principal-bundle-morphism", "Principal bundle morphism"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/right-principal-action", "fiber-bundles/smooth-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/principal-bundle-morphism.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A compact metric space is complete: every Cauchy sequence converges."
 aliases = ["compactness-implies-completeness", "Compactness implies completeness"]
 domains = ["topology"]
 prerequisites = ["topology/metric-space", "topology/compact-set", "topology/complete-metric-space", "topology/cauchy-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/compactness-implies-completeness.md"
 +++
 

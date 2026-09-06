@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Holding except on a set of measure zero."
 aliases = ["almost-everywhere", "Almost everywhere"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/null-set", "measure-theory/measure-space", "shared-foundations/symmetric-difference"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/null-set","measure-theory/measure-space"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/almost-everywhere.md"
 +++
 

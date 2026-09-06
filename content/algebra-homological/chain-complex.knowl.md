@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A graded sequence of modules with differentials d lowering degree and satisfying d∘d=0."
 aliases = ["chain-complex", "Chain complex"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-modules/module", "algebra-homological/homology-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/module"]
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/chain-complex.md"
 +++
 

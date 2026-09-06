@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "In a Euclidean domain, the Euclidean algorithm computes a gcd and expresses it as a linear combination."
 aliases = ["euclidean-algorithm", "Euclidean algorithm yields gcd and Bézout identity"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/euclidean-domain", "algebra-rings/gcd", "algebra-rings/ideal-generated", "algebra-rings/principal-ideal"]
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/euclidean-algorithm.md"
 +++
 

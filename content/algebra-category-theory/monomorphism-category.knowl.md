@@ -6,8 +6,7 @@ summary = "A morphism that is left-cancellative under composition."
 aliases = ["monomorphism-category", "Monomorphism"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/composition-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/monomorphism-category.md"
 +++
 

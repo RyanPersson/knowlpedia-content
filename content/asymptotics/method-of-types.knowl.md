@@ -6,8 +6,7 @@ summary = "Counting and probability estimates for sequences grouped by their emp
 aliases = ["method-of-types", "Method of types"]
 domains = ["asymptotics"]
 prerequisites = ["asymptotics/entropy-multinomial-coefficients"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "asymptotics/method-of-types.md"
 +++
 

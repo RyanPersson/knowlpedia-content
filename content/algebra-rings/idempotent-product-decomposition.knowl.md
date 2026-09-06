@@ -5,13 +5,12 @@ kind = "knowl"
 summary = "Central idempotents split a ring as a product of two quotient-like pieces."
 aliases = ["idempotent-product-decomposition", "Idempotents and product decompositions"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/unital-ring", "algebra-rings/idempotent-element", "algebra-rings/ideal", "shared-foundations/cartesian-product"]
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/idempotent-product-decomposition.md"
 +++
 
-**Idempotents and product decompositions**: Let \(R\) be a ring and let \(e\in R\) be a central idempotent (so \(e^2=e\) and \(er=re\) for all \(r\in R\)). Then \(eR\) and \((1-e)R\) are two-sided ideals, and the map
+**Idempotents and product decompositions**: Let \(R\) be a unital ring and let \(e\in R\) be a central idempotent (so \(e^2=e\) and \(er=re\) for all \(r\in R\)). Then \(eR\) and \((1-e)R\) are two-sided ideals, and the map
 \[
 R\longrightarrow eR\times (1-e)R,\qquad r\longmapsto (er,(1-e)r)
 \]

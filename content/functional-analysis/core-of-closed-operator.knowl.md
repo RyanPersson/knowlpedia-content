@@ -6,8 +6,7 @@ summary = "A subdomain whose graph closure recovers the entire closed operator."
 aliases = ["operator core", "essential domain"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "convex-analysis/linear-subspace", "functional-analysis/graph-norm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

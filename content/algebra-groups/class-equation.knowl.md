@@ -6,8 +6,7 @@ summary = "The order of a finite group is the order of its center plus the sizes
 aliases = ["class-equation", "Class Equation"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/centralizer", "algebra-groups/conjugacy-class"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/class-equation.md"
 +++
 

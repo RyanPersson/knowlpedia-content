@@ -6,8 +6,7 @@ summary = "The compatibility identities on double and triple overlaps needed to 
 aliases = ["cocycle-condition-for-transition-functions", "Cocycle condition for transition functions"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/bundle-atlas", "fiber-bundles/typical-fiber", "fiber-bundles/transition-function", "fiber-bundles/smooth-fiber-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/cocycle-condition-for-transition-functions.md"
 +++
 

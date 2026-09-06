@@ -6,8 +6,7 @@ summary = "A set of ordered pairs encoding which elements are related."
 aliases = ["relation"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/cartesian-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/relation.md"
 +++
 

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A subset that belongs to the sigma-algebra of a measurable space."
 aliases = ["measurable-set", "Measurable set"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure", "measure-theory/measurable-function", "measure-theory/indicator-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measurable-space"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/measurable-set.md"
 +++
 

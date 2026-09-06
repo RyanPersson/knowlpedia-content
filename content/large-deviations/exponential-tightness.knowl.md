@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A compact-containment condition ensuring probabilities outside compacts decay exponentially fast."
 aliases = ["exponential-tightness", "Exponential tightness"]
 domains = ["large-deviations"]
-prerequisites = ["probability/probability-measure", "large-deviations/rate-function", "large-deviations/large-deviation-principle", "large-deviations/gartner-ellis-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["probability/probability-measure"]
+dependency_review_count = 1
 legacy_source_path = "large-deviations/exponential-tightness.md"
 +++
 

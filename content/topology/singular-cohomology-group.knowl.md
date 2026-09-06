@@ -6,8 +6,7 @@ summary = "The cohomology of the cochain complex dual to the singular chain comp
 aliases = ["ordinary cohomology", "integral cohomology", "H^k(X,R)"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "algebra-groups/abelian-group", "topology/continuous-map", "algebra-homological/cohomology-module", "algebra-homological/cochain-complex"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

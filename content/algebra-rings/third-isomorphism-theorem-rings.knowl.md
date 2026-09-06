@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Quotienting by an intermediate ideal is the same as quotienting in one step."
 aliases = ["third-isomorphism-theorem-rings", "Third isomorphism theorem for rings"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ideal", "algebra-rings/ring-isomorphism", "algebra-rings/quotient-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/two-sided-ideal", "algebra-rings/ideal", "algebra-rings/ring-isomorphism", "algebra-rings/quotient-ring"]
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/third-isomorphism-theorem-rings.md"
 +++
 

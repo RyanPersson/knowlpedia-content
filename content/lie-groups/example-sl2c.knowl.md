@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The three-dimensional simple complex Lie algebra of trace-zero 2 by 2 matrices, of rank 1 and Dynkin type A1."
 aliases = ["example-sl2c", "sl2(C)", "sl(2,C)", "complex Lie algebra sl2", "complex special linear Lie algebra sl2"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "lie-groups/dynkin-diagram", "lie-groups/adjoint-representation-of-a-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "lie-groups/adjoint-representation-of-a-lie-algebra"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/example-sl2c.md"
 section_mode = "progressive"
 +++

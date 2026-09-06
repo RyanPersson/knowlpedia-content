@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The image of a ring homomorphism is closed under the ring operations."
 aliases = ["image-is-subring", "Image is a subring"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ring-homomorphism", "algebra-rings/subring"]
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/image-is-subring.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "An inequality relating a function and its Fenchel conjugate via the d
 aliases = ["fenchel-young-inequality", "Fenchel-Young inequality"]
 domains = ["convex-analysis"]
 prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/subdifferential"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/fenchel-young-inequality.md"
 +++
 

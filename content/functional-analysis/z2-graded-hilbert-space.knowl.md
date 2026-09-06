@@ -6,8 +6,7 @@ summary = "A Hilbert space decomposed orthogonally into closed even and odd subs
 aliases = ["even Hilbert space", "graded Hilbert space", "super Hilbert space"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/hilbert-space", "algebra-modules/graded-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

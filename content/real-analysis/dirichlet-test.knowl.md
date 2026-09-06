@@ -6,12 +6,11 @@ summary = "A convergence test for sums of products using bounded partial sums an
 aliases = ["dirichlet-test", "Dirichlet test"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/partial-sums", "real-analysis/convergent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/dirichlet-test.md"
 +++
 
-**Dirichlet test:** Consider a series \(\sum_{n=1}^\infty a_n b_n\) of real or complex numbers. Let
+**Dirichlet test:** Consider a series \(\sum_{n=1}^\infty a_n b_n\), where \(a_n\) may be real or complex and \(b_n\) is real. Let
 \[
 A_n=\sum_{k=1}^n a_k
 \]

@@ -6,8 +6,7 @@ summary = "The topology on a subset obtained by intersecting with open sets of t
 aliases = ["subspace-topology", "Subspace topology"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/open-set", "topology/continuous-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/subspace-topology.md"
 +++
 

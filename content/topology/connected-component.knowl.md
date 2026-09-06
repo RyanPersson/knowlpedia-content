@@ -6,8 +6,7 @@ summary = "A maximal connected subset of a topological space."
 aliases = ["connected-component", "Connected component"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/connected-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/connected-component.md"
 +++
 

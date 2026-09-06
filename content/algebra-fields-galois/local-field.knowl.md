@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A nondiscrete locally compact topological field."
 aliases = ["local fields", "locally compact nondiscrete field"]
 domains = ["algebra-fields-galois", "topology", "langlands"]
-prerequisites = ["topology/locally-compact-space", "algebra-fields-galois/archimedean-local-field", "algebra-fields-galois/nonarchimedean-local-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/locally-compact-space", "algebra-fields-galois/nonarchimedean-local-field"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

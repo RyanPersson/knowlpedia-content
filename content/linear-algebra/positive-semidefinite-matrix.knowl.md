@@ -6,8 +6,7 @@ summary = "A real symmetric or complex Hermitian matrix whose quadratic form is 
 aliases = ["nonnegative definite matrix", "PSD matrix", "positive semidefinite Hermitian matrix", "positive matrix in Loewner order"]
 domains = ["linear-algebra", "functional-analysis"]
 prerequisites = ["linear-algebra/matrix", "linear-algebra/inner-product-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

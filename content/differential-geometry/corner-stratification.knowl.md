@@ -6,8 +6,7 @@ summary = "The corner stratification partitions a manifold with corners accordin
 aliases = ["depth stratification", "boundary strata of a manifold with corners"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/manifold-with-corners", "differential-geometry/depth-of-a-point-in-a-manifold-with-corners", "fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

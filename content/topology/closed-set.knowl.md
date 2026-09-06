@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A subset whose complement is open in the ambient space."
 aliases = ["closed-set", "Closed set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/open-set", "topology/closure", "topology/continuous-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/open-set"]
+dependency_review_count = 1
 legacy_source_path = "topology/closed-set.md"
 +++
 

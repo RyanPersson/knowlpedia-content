@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A family of morphisms whose generated sieve is covering in the site's Grothendieck topology."
 aliases = ["covering-family", "Covering family", "Covering family in a site"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/site", "algebraic-geometry-foundations/sieve", "algebraic-geometry-foundations/grothendieck-topology", "algebraic-geometry-foundations/etale-topology", "algebraic-geometry-foundations/etale-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/site", "algebraic-geometry-foundations/sieve", "algebraic-geometry-foundations/grothendieck-topology"]
+dependency_review_count = 1
 +++
 
 Let \((\mathcal C,J)\) be a [[algebraic-geometry-foundations/site|site]] and let \(U\) be an object of \(\mathcal C\). A family of morphisms

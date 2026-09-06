@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The diffeomorphism of a Lie group given by multiplication by a fixed element on the left."
 aliases = ["left-translation-l-g", "Left Translation on a Lie Group"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-map", "fiber-bundles/diffeomorphism", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/tangent-space-at-a-point", "lie-groups/left-invariant-vector-field", "lie-groups/exponential-map-lie-group", "fiber-bundles/right-translation-r-g"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-map", "fiber-bundles/diffeomorphism"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/left-translation-l-g.md"
 +++
 

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A Lie algebra with no nonzero solvable ideals; equivalently, one with nondegenerate Killing form (char 0)."
 aliases = ["semisimple-lie-algebra", "Semisimple Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/solvable-lie-algebra", "lie-groups/ideal-lie-algebra", "lie-groups/killing-form", "lie-groups/killing-form-nondegenerate-iff-semisimple", "lie-groups/cartans-criterion-semisimplicity", "lie-groups/levi-decomposition-theorem", "lie-groups/simple-lie-algebra", "lie-groups/semisimple-direct-sum-simple", "lie-groups/root-lie-algebra", "lie-groups/root-system"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/solvable-lie-algebra", "lie-groups/ideal-lie-algebra", "lie-groups/simple-lie-algebra"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/semisimple-lie-algebra.md"
 +++
 

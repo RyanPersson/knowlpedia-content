@@ -6,8 +6,7 @@ summary = "A point where a function attains its maximum or minimum value on its 
 aliases = ["global-maximum-global-minimum", "Global maximum and global minimum"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/global-maximum-global-minimum.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A bounded function with only finitely many discontinuities is Riemann
 aliases = ["riemann-integrability-finite-discontinuities", "Riemann integrability with finitely many discontinuities"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/discontinuity-point", "real-analysis/riemann-integrable-function", "real-analysis/set-of-discontinuities", "real-analysis/oscillation-criterion"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-integrability-finite-discontinuities.md"
 +++
 

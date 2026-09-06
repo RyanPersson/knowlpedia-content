@@ -6,8 +6,7 @@ summary = "A function that never takes the same value on two different inputs"
 aliases = ["injective-function", "Injective function"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/injective-function.md"
 +++
 

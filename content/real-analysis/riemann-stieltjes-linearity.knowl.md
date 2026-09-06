@@ -6,8 +6,7 @@ summary = "The Riemann–Stieltjes integral is linear in both the integrand and 
 aliases = ["riemann-stieltjes-linearity", "Linearity of the Riemann–Stieltjes integral"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/riemann-stieltjes-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 legacy_source_path = "real-analysis/riemann-stieltjes-linearity.md"
 +++
 

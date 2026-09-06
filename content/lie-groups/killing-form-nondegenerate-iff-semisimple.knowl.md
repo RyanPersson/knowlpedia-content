@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A finite-dimensional Lie algebra is semisimple iff its Killing form is nondegenerate."
 aliases = ["killing-form-nondegenerate-iff-semisimple", "Killing form nondegeneracy criterion"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/killing-form", "lie-groups/semisimple-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/killing-form"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/killing-form-nondegenerate-iff-semisimple.md"
 +++
 

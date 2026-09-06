@@ -6,8 +6,7 @@ summary = "A finite increasing sequence of points that subdivides a closed inter
 aliases = ["partition-of-an-interval", "Partition of an interval"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/partition-of-an-interval.md"
 +++
 

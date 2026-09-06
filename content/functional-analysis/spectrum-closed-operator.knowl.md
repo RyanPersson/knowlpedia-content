@@ -6,8 +6,7 @@ summary = "The complement of the resolvent set for a closed, possibly unbounded 
 aliases = ["operator spectrum for an unbounded operator", "spectrum of an unbounded operator"]
 domains = ["functional-analysis", "operator-theory", "spectral-theory"]
 prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/resolvent-set-closed-operator", "functional-analysis/closed-graph-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

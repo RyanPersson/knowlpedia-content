@@ -6,8 +6,7 @@ summary = "The minimal closed extension obtained by closing the graph of a closa
 aliases = ["operator closure", "minimal closed extension"]
 domains = ["functional-analysis", "operator-theory"]
 prerequisites = ["functional-analysis/closable-operator", "linear-algebra/banach-space", "functional-analysis/graph-of-operator", "functional-analysis/closed-linear-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

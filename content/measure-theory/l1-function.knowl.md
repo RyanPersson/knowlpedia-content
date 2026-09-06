@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A measurable function with finite integral of absolute value, modulo a.e. equality."
 aliases = ["l1-function", "L^1 function"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/ae-equality", "measure-theory/lp-norm", "measure-theory/lp-space", "measure-theory/lebesgue-integrable-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measure-space","measure-theory/measurable-function","measure-theory/ae-equality","measure-theory/lp-norm"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/l1-function.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "For a finite extension L/K, the norm N_{L/K}(α) is the determinant o
 aliases = ["norm-field", "Field norm"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/field-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/norm-field.md"
 +++
 

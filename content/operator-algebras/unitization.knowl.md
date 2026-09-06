@@ -5,9 +5,8 @@ kind = "definition"
 summary = "The canonical unital C*-algebra formed by adjoining an identity to a nonunital C*-algebra."
 aliases = ["minimal unitization", "adjoining an identity to a C*-algebra", "A tilde", "unitisation"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/vector-space", "operator-algebras/unital-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/cstar-algebra","linear-algebra/vector-space","operator-algebras/unital-cstar-algebra"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

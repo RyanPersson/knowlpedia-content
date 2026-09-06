@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A structure of objects and morphisms with associative composition and identity morphisms."
 aliases = ["category"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/composition-category", "algebra-category-theory/identity-morphism", "algebra-category-theory/category-axioms"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set", "shared-foundations/function"]
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/category.md"
 +++
 

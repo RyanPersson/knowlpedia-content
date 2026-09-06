@@ -6,8 +6,7 @@ summary = "The complete topological field obtained from a field and one of its p
 aliases = ["completion at a place", "local completion", "completion of a global field"]
 domains = ["algebra-fields-galois", "topology", "langlands"]
 prerequisites = ["algebra-fields-galois/place-of-global-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

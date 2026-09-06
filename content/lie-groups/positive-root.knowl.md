@@ -6,8 +6,7 @@ summary = "A choice of “half” of a root set, compatible with addition, used 
 aliases = ["positive-root", "Positive root"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/root-system"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/positive-root.md"
 +++
 

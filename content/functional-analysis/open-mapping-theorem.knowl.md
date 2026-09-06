@@ -6,8 +6,7 @@ summary = "A surjective bounded linear operator between Banach spaces maps open 
 aliases = ["Banach–Schauder theorem"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/banach-space", "functional-analysis/bounded-linear-operator", "convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

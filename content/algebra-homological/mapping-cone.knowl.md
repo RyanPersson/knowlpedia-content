@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A complex combining the source and target of a chain map and measuring its failure to be an equivalence."
 aliases = ["mapping cone", "cone of a chain map"]
 domains = ["algebra-homological", "algebra-category-theory"]
-prerequisites = ["algebra-homological/chain-map", "algebra-category-theory/distinguished-triangle", "algebra-category-theory/octahedral-axiom"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-homological/chain-map"]
+dependency_review_count = 1
 +++
 
 For a [[algebra-homological/chain-map|chain map]] \(f:X^\bullet\to Y^\bullet\), its **mapping cone** is the complex with graded object

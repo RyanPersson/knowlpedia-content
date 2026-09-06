@@ -6,8 +6,7 @@ summary = "The subgroup consisting of all integer powers of one group element."
 aliases = ["cyclic-subgroup", "Cyclic Subgroup"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/generated-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/cyclic-subgroup.md"
 +++
 

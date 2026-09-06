@@ -6,8 +6,7 @@ summary = "A locally convex space whose defining Banach-space transition maps ar
 aliases = ["nuclear locally convex space", "Grothendieck nuclear space"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/locally-convex-space", "linear-algebra/vector-space", "functional-analysis/topological-dual"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

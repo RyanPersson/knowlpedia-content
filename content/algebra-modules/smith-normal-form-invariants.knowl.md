@@ -6,8 +6,7 @@ summary = "The Smith normal form diagonal entries are canonical invariants and c
 aliases = ["smith-normal-form-invariants", "Smith normal form invariants"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/smith-normal-form-theorem", "algebra-modules/structure-theorem-pid", "algebra-modules/cokernel-module", "algebra-rings/pid"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/smith-normal-form-invariants.md"
 +++
 

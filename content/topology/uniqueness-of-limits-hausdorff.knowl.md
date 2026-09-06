@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "In a Hausdorff space, a convergent sequence has at most one limit."
 aliases = ["uniqueness-of-limits-hausdorff", "Uniqueness of limits in Hausdorff spaces"]
 domains = ["topology"]
-prerequisites = ["topology/hausdorff-space", "topology/convergent-sequence", "topology/compact-subset-of-hausdorff-is-closed"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/hausdorff-space", "topology/convergent-sequence"]
+dependency_review_count = 1
 legacy_source_path = "topology/uniqueness-of-limits-hausdorff.md"
 +++
 

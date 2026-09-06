@@ -5,17 +5,16 @@ kind = "knowl"
 summary = "Over a UFD, content(fg) is associate to content(f)content(g) for polynomials."
 aliases = ["content-formula", "Content formula"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ufd", "algebra-rings/content-polynomial", "algebra-rings/polynomial-ring", "algebra-rings/associated-elements", "algebra-rings/primitive-polynomial"]
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/content-formula.md"
 +++
 
-**Content formula**: Let \(R\) be a UFD and let \(f,g\in R[x]\). Then the content satisfies
+**Content formula**: Let \(R\) be a UFD and let \(f,g\in R[x]\). Choose elements \(c(f),c(g),c(fg)\) generating the coefficient ideals (the content ideals). Then
 \[
-\operatorname{cont}(fg)\sim \operatorname{cont}(f)\operatorname{cont}(g),
+c(fg)\sim c(f)c(g),
 \]
-i.e., \(\operatorname{cont}(fg)\) is associate to \(\operatorname{cont}(f)\operatorname{cont}(g)\). In particular, the product of primitive polynomials is primitive.
+i.e., the chosen generator of the content ideal of \(fg\) is associate to the product of the chosen generators for \(f\) and \(g\). In particular, the product of primitive polynomials is primitive.
 
 ## Remarks
 

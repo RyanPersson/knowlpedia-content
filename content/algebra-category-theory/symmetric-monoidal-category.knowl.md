@@ -6,8 +6,7 @@ summary = "A monoidal category whose tensor factors can be exchanged by a cohere
 aliases = ["symmetric tensor category"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/monoidal-category", "algebra-category-theory/natural-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

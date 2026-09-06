@@ -6,8 +6,7 @@ summary = "A function space whose weak derivatives through a specified order are
 aliases = ["W^{k,p} space", "H^k space"]
 domains = ["functional-analysis", "partial-differential-equations"]
 prerequisites = ["shared-foundations/equivalence-class", "functional-analysis/weak-derivative", "linear-algebra/banach-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

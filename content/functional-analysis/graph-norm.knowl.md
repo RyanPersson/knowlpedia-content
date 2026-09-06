@@ -6,8 +6,7 @@ summary = "The norm on an operator domain that controls both a vector and its im
 aliases = ["operator graph norm"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/normed-vector-space", "functional-analysis/graph-of-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

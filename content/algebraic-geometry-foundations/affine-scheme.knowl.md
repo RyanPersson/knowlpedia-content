@@ -6,8 +6,7 @@ summary = "A locally ringed space obtained as the prime spectrum of a commutativ
 aliases = ["affine-scheme", "Affine scheme"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/locally-ringed-space", "algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum", "algebra-commutative/zariski-topology", "algebraic-geometry-foundations/structure-sheaf"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/affine-scheme.md"
 +++
 

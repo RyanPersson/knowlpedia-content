@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A morphism that has a two-sided inverse in a category."
 aliases = ["isomorphism-category", "Isomorphism"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category", "algebra-category-theory/automorphism-category", "algebra-category-theory/monomorphism-category", "algebra-category-theory/epimorphism-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category", "algebra-category-theory/monomorphism-category", "algebra-category-theory/epimorphism-category"]
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/isomorphism-category.md"
 +++
 

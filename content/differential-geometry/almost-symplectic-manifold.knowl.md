@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A smooth manifold equipped with a pointwise nondegenerate two-form, without a closedness requirement."
 aliases = ["nondegenerate 2-form manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "differential-geometry/tangent-space", "differential-geometry/symplectic-vector-space", "differential-geometry/symplectic-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "differential-geometry/tangent-space", "differential-geometry/symplectic-vector-space"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A Riemann lower sum built from infima on each subinterval."
 aliases = ["lower-sum", "Lower sum"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/infimum", "real-analysis/upper-sum", "real-analysis/riemann-integrable-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/infimum", "real-analysis/upper-sum"]
+dependency_review_count = 1
 legacy_source_path = "real-analysis/lower-sum.md"
 +++
 

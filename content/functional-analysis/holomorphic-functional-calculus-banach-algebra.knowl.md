@@ -6,8 +6,7 @@ summary = "A contour-integral calculus that evaluates functions holomorphic near
 aliases = ["analytic functional calculus", "Riesz–Dunford calculus", "holomorphic functional calculus"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/banach-algebra", "functional-analysis/banach-algebra-spectrum", "functional-analysis/banach-algebra-resolvent"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

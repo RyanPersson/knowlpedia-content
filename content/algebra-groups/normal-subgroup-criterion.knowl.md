@@ -6,8 +6,7 @@ summary = "A subgroup is normal iff it is stable under conjugation by every grou
 aliases = ["normal-subgroup-criterion", "Normal Subgroup Criterion"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/normal-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/normal-subgroup-criterion.md"
 +++
 

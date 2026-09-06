@@ -6,8 +6,7 @@ summary = "The finest topology on a codomain that makes a given surjection conti
 aliases = ["quotient-topology", "Quotient topology"]
 domains = ["topology"]
 prerequisites = ["shared-foundations/surjective-function", "topology/topological-space", "topology/open-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/quotient-topology.md"
 +++
 

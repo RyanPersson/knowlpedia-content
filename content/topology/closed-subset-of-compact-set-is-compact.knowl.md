@@ -6,8 +6,7 @@ summary = "A closed subset of a compact set is compact"
 aliases = ["closed-subset-of-compact-set-is-compact", "Closed subset of compact set is compact"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/compact-set", "topology/closed-set", "topology/subspace-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/closed-subset-of-compact-set-is-compact.md"
 +++
 

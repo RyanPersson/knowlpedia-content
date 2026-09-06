@@ -6,8 +6,7 @@ summary = "A linear map that is continuous for the given vector-space topologies
 aliases = ["continuous linear operator", "continuous linear transformation"]
 domains = ["functional-analysis", "topology", "linear-algebra"]
 prerequisites = ["functional-analysis/topological-vector-space", "linear-algebra/linear-map", "topology/neighborhood"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

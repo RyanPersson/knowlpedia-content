@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A smooth tangent-bundle endomorphism whose square is minus the identity."
 aliases = ["almost complex structure"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/tangent-space", "differential-geometry/complex-manifold", "differential-geometry/complex-coordinate-chart", "differential-geometry/integrable-almost-complex-structure", "differential-geometry/almost-complex-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/tangent-space", "differential-geometry/complex-coordinate-chart"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

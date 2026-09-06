@@ -6,8 +6,7 @@ summary = "Solves an equation F(x,y)=0 locally for y as a function of x under a 
 aliases = ["implicit-function-theorem", "Implicit function theorem"]
 domains = ["real-analysis"]
 prerequisites = ["topology/open-set", "real-analysis/jacobian-matrix"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/implicit-function-theorem.md"
 +++
 

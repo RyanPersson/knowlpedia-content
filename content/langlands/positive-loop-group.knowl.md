@@ -6,8 +6,7 @@ summary = "The subgroup-valued functor of G-valued loops that extend to the form
 aliases = ["arc group", "L+G"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/algebraic-group", "langlands/loop-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

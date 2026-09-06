@@ -6,8 +6,7 @@ summary = "Natural isomorphism between Hom out of a tensor product and Hom into 
 aliases = ["tensor-hom-adjunction-lemma", "Tensor–Hom adjunction lemma"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-rings/unital-ring", "algebra-modules/bimodule", "algebra-modules/module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/tensor-hom-adjunction-lemma.md"
 +++
 

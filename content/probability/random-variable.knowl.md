@@ -6,8 +6,7 @@ summary = "A measurable real-valued function on a probability space."
 aliases = ["random-variable", "Random variable"]
 domains = ["probability"]
 prerequisites = ["measure-theory/measurable-function", "probability/probability-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "probability/random-variable.md"
 +++
 

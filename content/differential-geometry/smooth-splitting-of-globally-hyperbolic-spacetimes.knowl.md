@@ -6,8 +6,7 @@ summary = "Every globally hyperbolic spacetime has a smooth Cauchy temporal func
 aliases = ["Bernal-Sánchez splitting theorem", "smooth Geroch splitting theorem"]
 domains = ["differential-geometry", "mathematical-physics"]
 prerequisites = ["differential-geometry/globally-hyperbolic-spacetime", "differential-geometry/cauchy-hypersurface"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

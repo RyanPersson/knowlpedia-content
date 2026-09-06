@@ -5,9 +5,8 @@ kind = "definition"
 summary = "The modular operator is the positive self-adjoint part of the polar decomposition of a Tomita operator."
 aliases = ["Delta operator", "Tomita modular operator"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/cyclic-vector", "operator-algebras/separating-vector", "operator-algebras/tomita-operator", "operator-algebras/modular-conjugation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/von-neumann-algebra","operator-algebras/cyclic-vector","operator-algebras/separating-vector","operator-algebras/tomita-operator"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

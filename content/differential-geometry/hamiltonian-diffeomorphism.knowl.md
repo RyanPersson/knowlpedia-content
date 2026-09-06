@@ -6,8 +6,7 @@ summary = "A symplectomorphism obtained as the time-one map of a Hamiltonian iso
 aliases = ["Hamiltonian symplectomorphism"]
 domains = ["differential-geometry", "classical-mechanics"]
 prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/time-dependent-hamiltonian-system", "differential-geometry/hamiltonian-isotopy"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

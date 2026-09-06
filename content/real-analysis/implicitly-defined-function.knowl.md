@@ -6,8 +6,7 @@ summary = "A function specified indirectly by an equation involving its inputs a
 aliases = ["implicitly-defined-function", "Implicitly defined function"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/implicitly-defined-function.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "An ideal is prime exactly when the corresponding quotient ring has no
 aliases = ["prime-iff-quotient-domain", "Prime ideal iff quotient is an integral domain"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ideal", "algebra-rings/prime-ideal", "algebra-rings/quotient-ring", "algebra-rings/integral-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/prime-iff-quotient-domain.md"
 +++
 

@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A space locally modeled on complex Euclidean space with holomorphic transition maps."
 aliases = ["holomorphic manifold", "complex-manifold structure", "complex structure on a manifold"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["differential-geometry/holomorphic-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = []
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

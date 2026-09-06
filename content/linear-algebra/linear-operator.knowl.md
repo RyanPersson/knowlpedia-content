@@ -6,8 +6,7 @@ summary = "A linear map from a vector space to itself."
 aliases = ["linear-operator", "Linear operator"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/linear-map", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/linear-operator.md"
 +++
 

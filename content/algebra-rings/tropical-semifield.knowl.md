@@ -6,8 +6,7 @@ summary = "The max-plus idempotent semifield on the extended real line."
 aliases = ["max-plus semifield", "max-plus tropical semifield", "tropical semiring"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
 prerequisites = ["algebra-rings/idempotent-semifield"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A smooth quotient of a coisotropic submanifold by its characteristic 
 aliases = ["characteristic reduction", "presymplectic reduction"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/coisotropic-submanifold", "differential-geometry/characteristic-foliation", "fiber-bundles/smooth-manifold", "differential-geometry/symplectic-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

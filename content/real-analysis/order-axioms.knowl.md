@@ -6,8 +6,7 @@ summary = "Axioms for a total order compatible with addition and multiplication 
 aliases = ["order-axioms", "Order axioms"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/field-axioms", "shared-foundations/relation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/order-axioms.md"
 +++
 

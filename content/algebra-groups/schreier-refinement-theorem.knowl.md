@@ -6,8 +6,7 @@ summary = "Any two subnormal series admit equivalent refinements with isomorphic
 aliases = ["schreier-refinement-theorem", "Schreier Refinement Theorem"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/subnormal-series", "algebra-groups/quotient-group", "algebra-groups/group-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/schreier-refinement-theorem.md"
 +++
 

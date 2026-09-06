@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A smooth choice of horizontal tangent subspaces complementing the vertical spaces in a fiber bundle."
 aliases = ["horizontal-distribution", "Horizontal distribution"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/horizontal-subbundle", "fiber-bundles/integrable-horizontal-distribution"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/horizontal-subbundle"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/horizontal-distribution.md"
 +++
 

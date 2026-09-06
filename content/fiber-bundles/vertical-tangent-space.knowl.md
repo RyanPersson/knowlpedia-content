@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The subspace of a tangent space consisting of vectors tangent to a fiber of a surjective submersion."
 aliases = ["vertical-tangent-space", "Vertical tangent space"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/bundle-map", "fiber-bundles/tangent-bundle", "differential-geometry/embedded-submanifold", "fiber-bundles/vertical-subbundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/bundle-map", "fiber-bundles/tangent-bundle"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/vertical-tangent-space.md"
 +++
 

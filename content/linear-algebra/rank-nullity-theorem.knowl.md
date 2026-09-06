@@ -6,8 +6,7 @@ summary = "For a linear map on a finite-dimensional space, dimension equals rank
 aliases = ["rank-nullity-theorem", "Rank–nullity theorem"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/linear-map", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/rank-nullity-theorem.md"
 +++
 

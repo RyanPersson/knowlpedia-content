@@ -6,8 +6,7 @@ summary = "A maximal toral subalgebra of a complex semisimple Lie algebra equals
 aliases = ["cartan-subalgebra-self-normalizing-lemma", "Cartan subalgebras are self-normalizing"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/cartan-subalgebra-self-normalizing-lemma.md"
 +++
 

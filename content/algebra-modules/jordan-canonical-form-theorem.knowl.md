@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Over a splitting field, every linear operator is similar to a direct sum of Jordan blocks."
 aliases = ["jordan-canonical-form-theorem", "Jordan canonical form theorem"]
 domains = ["algebra-modules"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/linear-map", "linear-algebra/vector-space", "linear-algebra/eigenvector", "linear-algebra/minimal-polynomial"]
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/jordan-canonical-form-theorem.md"
 +++
 

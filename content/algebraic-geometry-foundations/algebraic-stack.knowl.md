@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A stack in groupoids with a representable diagonal and a smooth surjective atlas by a scheme."
 aliases = ["Artin stack"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/algebraic-space", "algebra-groups/automorphism-group", "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/algebraic-space", "algebra-groups/automorphism-group"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

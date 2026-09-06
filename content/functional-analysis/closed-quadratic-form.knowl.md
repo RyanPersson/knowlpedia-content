@@ -6,8 +6,7 @@ summary = "A lower-semibounded symmetric form whose domain is complete in its sh
 aliases = ["closed semibounded form", "closed symmetric form"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/hilbert-space", "shared-foundations/lower-bound", "functional-analysis/closed-linear-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -15,13 +14,14 @@ Let \(H\) be a [[linear-algebra/hilbert-space|Hilbert space]] and let
 \(\mathfrak a\) be a densely defined symmetric sesquilinear form, linear in
 the second variable, with domain \(D(\mathfrak a)\subseteq H\). Suppose
 \(\mathfrak a[u,u]\geq m\|u\|^2\) for some \(m\in\mathbb R\). The associated
-quadratic form is \(q[u]=\mathfrak a[u,u]\). It is **closed** if
+quadratic form is \(q[u]=\mathfrak a[u,u]\). Choose any real \(c>-m\). It is **closed** if
 \(D(\mathfrak a)\) is complete for the form norm
 \[
-\|u\|_{\mathfrak a}=
-\bigl(\mathfrak a[u,u]+(1-m)\|u\|^2\bigr)^{1/2}.
+\|u\|_{\mathfrak a,c}=
+\bigl(\mathfrak a[u,u]+c\|u\|^2\bigr)^{1/2}.
 \]
-Replacing \(m\) by another [[shared-foundations/lower-bound|lower bound]] gives an equivalent norm. Unlike a
+Different choices of \(c>-m\), or replacing \(m\) by another
+[[shared-foundations/lower-bound|lower bound]], give equivalent norms. Unlike a
 [[functional-analysis/closed-linear-operator|closed operator]], a closed form
 is not defined by closure of the graph of the scalar-valued function \(q\).
 

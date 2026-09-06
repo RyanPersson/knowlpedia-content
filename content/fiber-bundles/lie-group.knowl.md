@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A group that is also a smooth manifold, with smooth multiplication and inversion."
 aliases = ["lie-group", "Lie group"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/left-translation-l-g", "fiber-bundles/right-translation-r-g", "fiber-bundles/diffeomorphism", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/exponential-map-lie-group", "lie-groups/lie-group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/lie-group.md"
 +++
 

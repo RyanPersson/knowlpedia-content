@@ -6,8 +6,7 @@ summary = "A bijective group homomorphism"
 aliases = ["group-isomorphism", "Group isomorphism"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group-homomorphism", "shared-foundations/bijective-function", "shared-foundations/inverse-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/group-isomorphism.md"
 +++
 

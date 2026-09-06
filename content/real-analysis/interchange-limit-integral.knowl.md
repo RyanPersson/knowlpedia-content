@@ -6,8 +6,7 @@ summary = "Under uniform convergence, the limit of Riemann integrals equals the 
 aliases = ["interchange-limit-integral", "Interchanging limit and integral"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/uniform-convergence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/interchange-limit-integral.md"
 +++
 

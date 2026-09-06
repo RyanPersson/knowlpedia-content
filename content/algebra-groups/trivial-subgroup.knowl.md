@@ -6,8 +6,7 @@ summary = "The subgroup consisting only of the identity element"
 aliases = ["trivial-subgroup", "Trivial Subgroup"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/trivial-subgroup.md"
 +++
 

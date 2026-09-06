@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The cardinality of a basis of a free module."
 aliases = ["rank-module", "Rank of a free module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/free-module", "shared-foundations/cardinality", "algebra-modules/basis-module", "convex-analysis/basis-hamel-basis-and-dimension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/free-module", "shared-foundations/cardinality", "algebra-modules/basis-module"]
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/rank-module.md"
 +++
 

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A subgroup invariant under conjugation"
 aliases = ["normal-subgroup", "Normal Subgroup"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/conjugation-action", "algebra-groups/coset", "algebra-groups/quotient-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/conjugation-action"]
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/normal-subgroup.md"
 +++
 

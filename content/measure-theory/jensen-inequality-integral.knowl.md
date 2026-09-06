@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A convexity inequality comparing a convex function of an average with the average of a convex function."
 aliases = ["jensen-inequality-integral", "Jensen's inequality for integrals"]
 domains = ["measure-theory"]
-prerequisites = ["convex-analysis/convex-function-via-epigraph", "measure-theory/lebesgue-integral", "measure-theory/l1-function", "measure-theory/measure", "measure-theory/measure-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["convex-analysis/convex-function-via-epigraph","measure-theory/lebesgue-integral","measure-theory/l1-function","measure-theory/measure-space"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/jensen-inequality-integral.md"
 +++
 

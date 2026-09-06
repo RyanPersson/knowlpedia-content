@@ -6,8 +6,7 @@ summary = "An element killed by a nonzero scalar in a module over an integral do
 aliases = ["torsion-element", "Torsion element"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-rings/integral-domain", "algebra-modules/module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/torsion-element.md"
 +++
 

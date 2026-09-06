@@ -6,8 +6,7 @@ summary = "A module homomorphism induces an isomorphism M/ker f ≅ im f."
 aliases = ["first-isomorphism-theorem-modules", "First isomorphism theorem for modules"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/kernel-module", "algebra-modules/image-module", "algebra-modules/quotient-module", "algebra-modules/exact-sequence-modules", "algebra-rings/first-isomorphism-theorem-rings"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/first-isomorphism-theorem-modules.md"
 +++
 

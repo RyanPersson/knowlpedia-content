@@ -6,8 +6,7 @@ summary = "The Killing form satisfies B([x,y],z)=B(x,[y,z])."
 aliases = ["killing-form-ad-invariant-lemma", "Ad-invariance of the Killing form"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/killing-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/killing-form-ad-invariant-lemma.md"
 +++
 

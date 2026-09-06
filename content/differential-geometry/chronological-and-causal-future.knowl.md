@@ -5,9 +5,8 @@ kind = "definition"
 summary = "The sets reachable from an event by future-directed timelike or causal curves."
 aliases = ["chronological future", "causal future", "chronological past", "causal past", "I plus", "J plus"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/causal-diamond"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/causal-curve"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

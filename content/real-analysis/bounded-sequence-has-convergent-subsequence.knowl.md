@@ -6,8 +6,7 @@ summary = "A direct corollary form of the Bolzano–Weierstrass theorem"
 aliases = ["bounded-sequence-has-convergent-subsequence", "Every bounded sequence in R^k has a convergent subsequence"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/bounded-sequence", "real-analysis/subsequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/bounded-sequence-has-convergent-subsequence.md"
 +++
 

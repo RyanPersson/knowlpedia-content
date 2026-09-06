@@ -6,8 +6,7 @@ summary = "A vector field on a Lie group that is unchanged by all left translati
 aliases = ["left-invariant-vector-field", "Left-Invariant Vector Field"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/vector-field", "lie-groups/left-translation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/left-invariant-vector-field.md"
 +++
 

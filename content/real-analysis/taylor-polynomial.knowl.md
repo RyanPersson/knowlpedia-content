@@ -5,8 +5,7 @@ kind = "knowl"
 summary = "The polynomial built from derivatives of a function at a point."
 aliases = ["taylor-polynomial", "Taylor polynomial"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/higher-derivatives", "real-analysis/polynomial", "real-analysis/taylors-theorem-with-remainder"]
-dependency_heuristic = "definition-links-v1"
+prerequisites = ["real-analysis/higher-derivatives", "real-analysis/polynomial"]
 dependency_review_count = 0
 legacy_source_path = "real-analysis/taylor-polynomial.md"
 +++

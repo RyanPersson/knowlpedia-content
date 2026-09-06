@@ -6,8 +6,7 @@ summary = "An autoequivalence representing an integral degree shift in a categor
 aliases = ["shift functor", "shift autoequivalence", "translation functor"]
 domains = ["algebra-category-theory", "algebra-homological"]
 prerequisites = ["algebra-category-theory/equivalence-of-categories"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 A **shift functor** on a category \(\mathcal C\) is an [[algebra-category-theory/equivalence-of-categories|autoequivalence]]

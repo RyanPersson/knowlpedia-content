@@ -5,13 +5,12 @@ kind = "definition"
 summary = "The complete augmentation-adic ring of formal series in finitely many variables."
 aliases = ["formal power series in several variables", "R[[X_1,...,X_n]]", "multivariate formal power series ring"]
 domains = ["algebra-rings", "formal-groups"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
-Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let
+Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] with \(1\) and let
 \(X=(X_1,\ldots,X_n)\). The **multivariable formal power series ring**
 \[
 R[[X_1,\ldots,X_n]]

@@ -6,8 +6,7 @@ summary = "A vector space with a Hausdorff topology for which addition and scala
 aliases = ["TVS", "linear topological space"]
 domains = ["functional-analysis", "topology"]
 prerequisites = ["linear-algebra/vector-space", "topology/topological-space", "topology/continuous-map", "topology/product-topology", "topology/neighborhood"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

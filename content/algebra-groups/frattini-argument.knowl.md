@@ -6,8 +6,7 @@ summary = "If N is normal and P is a Sylow p-subgroup of N, then G = N N_G(P)"
 aliases = ["frattini-argument", "Frattini Argument"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/sylow-subgroup", "algebra-groups/normalizer"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/frattini-argument.md"
 +++
 

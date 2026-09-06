@@ -6,8 +6,7 @@ summary = "A partial order in which any two elements are comparable."
 aliases = ["total-order", "Total order"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/set", "shared-foundations/partial-order"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/total-order.md"
 +++
 

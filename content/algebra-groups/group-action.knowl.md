@@ -6,8 +6,7 @@ summary = "A homomorphism from a group to permutations of a set, equivalently a 
 aliases = ["group-action", "Group Action"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "shared-foundations/set", "shared-foundations/function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/group-action.md"
 +++
 

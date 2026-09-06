@@ -6,8 +6,7 @@ summary = "A continuous real-valued function on a compact set has finite sup nor
 aliases = ["continuous-on-compact-is-bounded", "Continuous functions on compact sets are bounded"]
 domains = ["topology"]
 prerequisites = ["topology/metric-space", "topology/compact-set", "real-analysis/continuity-on-a-set", "topology/bounded-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/continuous-on-compact-is-bounded.md"
 +++
 

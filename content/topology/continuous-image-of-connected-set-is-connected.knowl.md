@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Continuous maps preserve connectedness."
 aliases = ["continuous-image-of-connected-set-is-connected", "Continuous image of a connected set is connected"]
 domains = ["topology"]
-prerequisites = ["topology/continuous-map", "topology/connected-set", "topology/connected-subsets-of-r-are-intervals"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/continuous-map", "topology/connected-set"]
+dependency_review_count = 1
 legacy_source_path = "topology/continuous-image-of-connected-set-is-connected.md"
 +++
 

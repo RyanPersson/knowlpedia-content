@@ -6,8 +6,7 @@ summary = "An ordered basis of a real vector space or fiber that is compatible w
 aliases = ["oriented-frame", "Oriented frame"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/oriented-frame.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A Hilbert-space operator whose squared norms on an orthonormal basis 
 aliases = ["Hilbert–Schmidt class", "Hilbert Schmidt operator", "Schatten 2-class operator"]
 domains = ["functional-analysis", "operator-algebras"]
 prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/bounded-linear-operator", "linear-algebra/orthonormal-basis", "functional-analysis/schatten-class-operator", "linear-algebra/compact-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

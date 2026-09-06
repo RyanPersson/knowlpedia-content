@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A choice of horizontal subspaces complementary to the vertical tangent spaces of a fibered manifold."
 aliases = ["ehresmann-connection", "Ehresmann connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/tangent-bundle", "fiber-bundles/horizontal-subbundle", "fiber-bundles/parallel-transport", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/tangent-bundle"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/ehresmann-connection.md"
 +++
 

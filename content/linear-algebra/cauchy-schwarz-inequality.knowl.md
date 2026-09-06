@@ -6,8 +6,7 @@ summary = "In an inner product space, the absolute value of an inner product is 
 aliases = ["cauchy-schwarz-inequality", "Cauchy–Schwarz inequality"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/inner-product-space", "linear-algebra/norm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/cauchy-schwarz-inequality.md"
 +++
 

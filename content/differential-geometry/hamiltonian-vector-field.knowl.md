@@ -6,8 +6,7 @@ summary = "The vector field obtained from the differential of a Hamiltonian func
 aliases = ["Hamiltonian field"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-function", "fiber-bundles/vector-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -38,7 +37,7 @@ Every Hamiltonian vector field preserves \(\omega\), but the converse can fail g
 
 ## Conventions
 
-**Warning.** Some authors define \(\iota_{X_H}\omega=-dH\). Changing that sign reverses \(X_H\) and changes the related coordinate and Poisson-bracket formulas. The plus-sign convention here agrees with  and with Cannas da Silva.
+**Warning.** Some authors define \(\iota_{X_H}\omega=-dH\). Changing that sign reverses \(X_H\) and changes the related coordinate and Poisson-bracket formulas. The plus-sign convention here agrees with Cannas da Silva.
 
 ## References
 

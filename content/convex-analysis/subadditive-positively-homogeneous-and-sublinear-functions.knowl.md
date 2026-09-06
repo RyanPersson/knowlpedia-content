@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Key algebraic properties for gauges and Hahn–Banach domination."
 aliases = ["subadditive-positively-homogeneous-and-sublinear-functions", "Subadditive, Positively Homogeneous, and Sublinear Functions"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/hahn-banach-theorem-in-real-vector-spaces", "convex-analysis/minkowski-function-gauge-of-a-set", "convex-analysis/balanced-and-absorbing-sets", "convex-analysis/convex-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space"]
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions.md"
 +++
 

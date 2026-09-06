@@ -6,14 +6,13 @@ summary = "One-sided derivatives defined by one-sided limits of the difference q
 aliases = ["right-derivative-left-derivative", "Right derivative and left derivative"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/right-derivative-left-derivative.md"
 +++
 
-Let \(f:E\to\mathbb{R}\) (or \(\mathbb{C}\)) with \(E\subseteq\mathbb{R}\), and let \(a\in E\) be a limit point of \(E\cap(a,\infty)\) and of \(E\cap(-\infty,a)\). The **right derivative** of \(f\) at \(a\) is
+Let \(f:E\to\mathbb{R}\) (or \(\mathbb{C}\)) with \(E\subseteq\mathbb{R}\), and let \(a\in E\). If \(a\) is a limit point of \(E\cap(a,\infty)\), the **right derivative** of \(f\) at \(a\) is
 \[f'_+(a):=\lim_{h\downarrow 0}\frac{f(a+h)-f(a)}{h},\]
-provided the limit exists. The **left derivative** is
+provided the limit exists. If \(a\) is a limit point of \(E\cap(-\infty,a)\), the **left derivative** is
 \[f'_-(a):=\lim_{h\uparrow 0}\frac{f(a+h)-f(a)}{h},\]
 provided the limit exists.
 

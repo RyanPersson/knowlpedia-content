@@ -6,8 +6,7 @@ summary = "The matrix of 2-forms computed from a local connection 1-form by dA p
 aliases = ["curvature-2-form-in-a-frame", "Curvature 2-form in a frame"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/local-connection-1-form", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative", "fiber-bundles/curvature-of-a-vector-bundle-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/curvature-2-form-in-a-frame.md"
 +++
 

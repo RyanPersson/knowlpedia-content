@@ -6,8 +6,7 @@ summary = "The module axioms specialized to scalars in a field."
 aliases = ["vector-space-axioms", "Vector space axioms"]
 domains = ["algebra-modules"]
 prerequisites = ["linear-algebra/vector-space", "algebra-rings/field", "algebra-modules/module-axioms"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/vector-space-axioms.md"
 +++
 

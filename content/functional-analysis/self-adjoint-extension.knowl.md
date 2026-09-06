@@ -6,8 +6,7 @@ summary = "A self-adjoint operator that extends a given symmetric operator witho
 aliases = ["self-adjoint operator extension"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "functional-analysis/self-adjoint-unbounded-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

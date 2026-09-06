@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A unital self-adjoint algebra of bounded Hilbert-space operators that is closed in the weak operator topology."
 aliases = ["W*-algebra", "concrete von Neumann algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "operator-algebras/weak-operator-topology", "operator-algebras/strong-operator-topology", "operator-algebras/bicommutant", "operator-algebras/cstar-algebra", "linear-algebra/banach-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/hilbert-space","operator-algebras/bounded-operator-cstar-algebra","operator-algebras/weak-operator-topology","operator-algebras/strong-operator-topology","operator-algebras/bicommutant","operator-algebras/cstar-algebra","linear-algebra/banach-space"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

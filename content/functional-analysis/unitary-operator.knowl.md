@@ -6,8 +6,7 @@ summary = "A surjective linear isometry between complex Hilbert spaces."
 aliases = ["unitary transformation", "unitary isomorphism"]
 domains = ["functional-analysis", "linear-algebra"]
 prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/linear-map", "linear-algebra/inner-product", "functional-analysis/adjoint-bounded-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

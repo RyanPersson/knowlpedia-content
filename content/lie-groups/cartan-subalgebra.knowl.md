@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A maximal nilpotent, self-normalizing subalgebra; in the semisimple case, a maximal toral subalgebra."
 aliases = ["cartan-subalgebra", "Cartan subalgebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/nilpotent-lie-algebra", "lie-groups/cartan-subalgebra-self-normalizing-lemma", "lie-groups/semisimple-lie-algebra", "lie-groups/root-space-decomposition", "lie-groups/root-lie-algebra", "lie-groups/root-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/nilpotent-lie-algebra"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/cartan-subalgebra.md"
 +++
 

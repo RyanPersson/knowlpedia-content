@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A nonempty topological space that is not the union of two proper closed subsets."
 aliases = ["irreducible space", "irreducible topological space", "irreducible subset"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/closed-set", "topology/subspace-topology", "topology/closure", "algebraic-geometry-foundations/generic-point", "algebra-rings/integral-domain", "algebra-commutative/prime-spectrum", "topology/connected-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "topology/closed-set", "topology/subspace-topology", "topology/closure", "algebra-rings/integral-domain", "algebra-commutative/prime-spectrum"]
+dependency_review_count = 1
 +++
 
 A nonempty [[topology/topological-space|topological space]] \(X\) is **irreducible** if it cannot be written as the union of two proper [[topology/closed-set|closed subsets]]. Equivalently, every two nonempty open subsets of \(X\) intersect.

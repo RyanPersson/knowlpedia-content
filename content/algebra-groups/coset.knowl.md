@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A left or right translate of a subgroup by a group element"
 aliases = ["coset"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/subgroup", "algebra-groups/group", "shared-foundations/equivalence-class", "shared-foundations/equivalence-relation", "shared-foundations/partition", "algebra-groups/index-of-subgroup", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/subgroup", "algebra-groups/group", "shared-foundations/equivalence-class", "shared-foundations/equivalence-relation", "shared-foundations/partition"]
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/coset.md"
 +++
 

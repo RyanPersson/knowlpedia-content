@@ -6,8 +6,7 @@ summary = "A nonzero nonunit that cannot be written as a product of two nonunits
 aliases = ["irreducible-element", "Irreducible element"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/integral-domain", "algebra-rings/unit"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/irreducible-element.md"
 +++
 

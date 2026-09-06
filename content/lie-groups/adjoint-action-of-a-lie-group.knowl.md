@@ -6,8 +6,7 @@ summary = "The conjugation action of a Lie group on itself and the induced linea
 aliases = ["adjoint-action-of-a-lie-group", "Adjoint Action of a Lie Group"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/adjoint-action-of-a-lie-group.md"
 +++
 

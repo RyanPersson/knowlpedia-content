@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A triangle selected to play the role of an exact sequence in a shifted additive category."
 aliases = ["distinguished triangle", "distinguished triangles"]
 domains = ["algebra-category-theory", "algebra-homological"]
-prerequisites = ["algebra-category-theory/triangle", "algebra-homological/mapping-cone", "algebra-modules/short-exact-sequence", "algebra-category-theory/abelian-category", "algebra-category-theory/pretriangulated-category", "algebra-category-theory/preadditive-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/triangle", "algebra-category-theory/pretriangulated-category", "algebra-category-theory/preadditive-category"]
+dependency_review_count = 1
 +++
 
 A **distinguished triangle** is a [[algebra-category-theory/triangle|triangle]]

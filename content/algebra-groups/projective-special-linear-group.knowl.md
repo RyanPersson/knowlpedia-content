@@ -5,9 +5,8 @@ kind = "definition"
 summary = "The special linear group modulo its scalar center."
 aliases = ["PSL", "unimodular projective group", "projective unimodular group"]
 domains = ["algebra-groups", "algebraic-geometry-foundations"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/quotient-group", "algebra-groups/normal-subgroup", "algebra-groups/projective-general-linear-group"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

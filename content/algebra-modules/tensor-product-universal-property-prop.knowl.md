@@ -6,8 +6,7 @@ summary = "The tensor product represents balanced bilinear maps out of a pair of
 aliases = ["tensor-product-universal-property-prop", "Tensor product universal property"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/tensor-product", "algebra-modules/bilinear-map", "algebra-modules/tensor-product-universal-property"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/tensor-product-universal-property-prop.md"
 +++
 

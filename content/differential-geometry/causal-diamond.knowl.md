@@ -5,9 +5,8 @@ kind = "definition"
 summary = "The events causally after one event and causally before another."
 aliases = ["causal interval"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/chronological-and-causal-future", "differential-geometry/strong-causality", "differential-geometry/globally-hyperbolic-spacetime"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/chronological-and-causal-future"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

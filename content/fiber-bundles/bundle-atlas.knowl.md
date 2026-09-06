@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A collection of compatible local trivializations covering the base of a fiber bundle."
 aliases = ["bundle-atlas", "Bundle atlas"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/local-trivialization", "fiber-bundles/transition-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/typical-fiber", "fiber-bundles/local-trivialization", "fiber-bundles/transition-function"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/bundle-atlas.md"
 +++
 

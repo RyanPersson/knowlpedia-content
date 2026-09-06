@@ -5,8 +5,7 @@ kind = "knowl"
 summary = "The least upper bound of a nonempty set of real numbers."
 aliases = ["supremum"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-above", "real-analysis/maximum", "real-analysis/completeness-axiom"]
-dependency_heuristic = "definition-links-v1"
+prerequisites = ["real-analysis/bounded-above"]
 dependency_review_count = 0
 legacy_source_path = "real-analysis/supremum.md"
 +++

@@ -6,8 +6,7 @@ summary = "A sequence of module homomorphisms where each image equals the next k
 aliases = ["exact-sequence-modules", "Exact sequence of modules"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/kernel-module", "algebra-modules/image-module", "algebra-modules/exactness-via-kernels-images"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/exact-sequence-modules.md"
 +++
 

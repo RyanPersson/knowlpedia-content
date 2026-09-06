@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Every module embeds into an injective module, hence admits an injective resolution."
 aliases = ["injective-resolutions-exist", "Existence of injective resolutions"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-modules/module", "algebra-homological/injective-resolution", "algebra-homological/cochain-complex", "algebra-modules/injective-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/module", "algebra-modules/injective-module", "algebra-homological/injective-resolution", "algebra-homological/cochain-complex"]
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/injective-resolutions-exist.md"
 +++
 

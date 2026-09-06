@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The universal recipient of balanced bilinear maps from a pair of modules."
 aliases = ["tensor-product", "Tensor product of modules"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/ring", "algebra-modules/bilinear-map", "algebra-modules/tensor-product-universal-property", "algebra-modules/module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ring", "algebra-modules/bilinear-map", "algebra-modules/module"]
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/tensor-product.md"
 +++
 

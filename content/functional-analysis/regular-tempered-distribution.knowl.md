@@ -6,8 +6,7 @@ summary = "A regular tempered distribution is a tempered distribution represente
 aliases = ["tempered distribution induced by a function", "slow-growth function as a distribution"]
 domains = ["functional-analysis", "distribution-theory", "harmonic-analysis"]
 prerequisites = ["functional-analysis/tempered-distribution", "functional-analysis/schwartz-space", "measure-theory/lebesgue-integrable-function", "topology/compact-set", "measure-theory/almost-everywhere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A family of functions that is bounded at each fixed point of the doma
 aliases = ["pointwise-bounded-family", "Pointwise bounded family"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/pointwise-bounded-family.md"
 +++
 

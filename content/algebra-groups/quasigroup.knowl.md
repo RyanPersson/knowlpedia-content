@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A magma where division is always possible"
 aliases = ["quasigroup"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/loop"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/magma"]
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/quasigroup.md"
 +++
 

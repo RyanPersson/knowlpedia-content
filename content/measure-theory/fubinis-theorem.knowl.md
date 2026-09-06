@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Interchange of iterated integrals for absolutely integrable functions on a product measure space."
 aliases = ["fubinis-theorem", "Fubini's theorem"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/l1-function", "measure-theory/product-measure", "measure-theory/lebesgue-integral", "measure-theory/tonellis-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/l1-function","measure-theory/product-measure","measure-theory/lebesgue-integral"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/fubinis-theorem.md"
 +++
 

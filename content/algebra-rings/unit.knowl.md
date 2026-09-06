@@ -6,8 +6,7 @@ summary = "An element of a unital ring that has a multiplicative inverse."
 aliases = ["unit"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/unital-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/unit.md"
 +++
 

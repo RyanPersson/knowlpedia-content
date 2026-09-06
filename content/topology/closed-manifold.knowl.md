@@ -6,8 +6,7 @@ summary = "A compact manifold without boundary."
 aliases = ["closed manifold", "closed smooth manifold", "closed topological manifold"]
 domains = ["topology", "fiber-bundles"]
 prerequisites = ["topology/topological-manifold", "fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 A **closed manifold** is a [[topology/topological-manifold|topological manifold]] that is compact and has no boundary. A closed smooth manifold is a [[fiber-bundles/smooth-manifold|smooth manifold]] whose underlying topological manifold is closed.

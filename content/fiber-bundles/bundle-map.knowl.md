@@ -6,8 +6,7 @@ summary = "A morphism of fibered manifolds, i.e. a smooth map of total spaces co
 aliases = ["bundle-map", "Bundle map"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/fibered-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/bundle-map.md"
 +++
 

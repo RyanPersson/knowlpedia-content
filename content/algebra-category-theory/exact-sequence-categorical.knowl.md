@@ -6,8 +6,7 @@ summary = "In an abelian category, a sequence is exact at an object when the ima
 aliases = ["exact-sequence-categorical", "Exact sequence (categorical)"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/exact-sequence-categorical.md"
 +++
 
@@ -58,7 +57,7 @@ Here \(0\) denotes a [[algebra-category-theory/zero-object|zero object]].
    \]
    is short exact: the quotient \(\mathbb Q/\mathbb Z\) measures how \(\mathbb Q\) differs from \(\mathbb Z\).
 
-3. **In \(R\)\(-\)\(\mathbf{Mod}\): principal ideal quotient.** For a ring \(R\) and an element \(x\in R\),
+3. **In \(R\)\(-\)\(\mathbf{Mod}\): principal ideal quotient.** For a commutative ring \(R\) and an element \(x\in R\),
    \[
    R \xrightarrow{\ \cdot x\ } R \to R/(x) \to 0
    \]

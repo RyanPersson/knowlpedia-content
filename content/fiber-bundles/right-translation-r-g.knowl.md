@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "For g G, the diffeomorphism R_g:G G, R_g(h)=hg, used to transport geometric data by right multiplication."
 aliases = ["right-translation-r-g", "Right Translation on a Lie Group"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-map", "fiber-bundles/diffeomorphism", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/tangent-space-at-a-point", "lie-groups/right-invariant-vector-field", "differential-geometry/diffeomorphism-group", "fiber-bundles/left-translation-l-g"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-map", "fiber-bundles/diffeomorphism"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/right-translation-r-g.md"
 +++
 

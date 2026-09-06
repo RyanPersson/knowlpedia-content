@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The smooth vector bundle whose fiber at each point is the dual of the tangent space."
 aliases = ["cotangent-bundle", "Cotangent bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/tangent-bundle", "fiber-bundles/differential-k-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/tangent-bundle"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/cotangent-bundle.md"
 +++
 

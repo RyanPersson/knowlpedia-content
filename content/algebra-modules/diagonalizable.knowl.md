@@ -6,8 +6,7 @@ summary = "A linear operator that has a basis of eigenvectors."
 aliases = ["diagonalizable", "Diagonalizable operator"]
 domains = ["algebra-modules"]
 prerequisites = ["linear-algebra/linear-map", "linear-algebra/vector-space", "linear-algebra/eigenvector"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/diagonalizable.md"
 +++
 

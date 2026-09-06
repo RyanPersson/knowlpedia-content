@@ -6,8 +6,7 @@ summary = "A function whose derivative equals a given function."
 aliases = ["antiderivative"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/differentiable-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/antiderivative.md"
 +++
 

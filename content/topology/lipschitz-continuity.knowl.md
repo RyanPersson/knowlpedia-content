@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A strong form of continuity where distances in the image are bounded by a constant times distances in the domain."
 aliases = ["lipschitz-continuity", "Lipschitz continuity"]
 domains = ["topology"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/metric-space"]
+dependency_review_count = 1
 legacy_source_path = "topology/lipschitz-continuity.md"
 +++
 

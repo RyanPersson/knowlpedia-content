@@ -6,8 +6,7 @@ summary = "The ratio (f(x)-f(a))/(x-a) measuring average rate of change from a t
 aliases = ["difference-quotient", "Difference quotient"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/difference-quotient.md"
 +++
 

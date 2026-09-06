@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A differentiable function with nonzero derivative has a differentiable local inverse."
 aliases = ["inverse-function-theorem-1d", "Inverse function theorem in one dimension"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/inverse-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/inverse-function", "real-analysis/differentiability-1d", "real-analysis/chain-rule"]
+dependency_review_count = 1
 legacy_source_path = "real-analysis/inverse-function-theorem-1d.md"
 +++
 

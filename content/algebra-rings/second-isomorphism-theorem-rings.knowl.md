@@ -5,13 +5,12 @@ kind = "knowl"
 summary = "A subring modulo its intersection with an ideal is isomorphic to its image in the corresponding quotient."
 aliases = ["second-isomorphism-theorem-rings", "Second isomorphism theorem for rings"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/subring", "algebra-rings/ideal", "algebra-rings/quotient-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/subring", "algebra-rings/two-sided-ideal", "algebra-rings/ideal", "algebra-rings/quotient-ring"]
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/second-isomorphism-theorem-rings.md"
 +++
 
-**Second isomorphism theorem (rings)**: Let \(R\) be a ring, let \(A\subseteq R\) be a [[algebra-rings/subring|subring]], and let \(I\triangleleft R\) be an [[algebra-rings/ideal|ideal]]. Then \(A\cap I\triangleleft A\), \(A+I:=\{a+i:a\in A,\ i\in I\}\) is a subring of \(R\), and there is a natural isomorphism
+**Second isomorphism theorem (rings)**: Let \(R\) be a ring, let \(A\subseteq R\) be a [[algebra-rings/subring|subring]], and let \(I\triangleleft R\) be a two-sided [[algebra-rings/ideal|ideal]]. Then \(A\cap I\triangleleft A\), \(A+I:=\{a+i:a\in A,\ i\in I\}\) is a subring of \(R\), and there is a natural isomorphism
 \[
 A/(A\cap I)\ \cong\ (A+I)/I
 \]

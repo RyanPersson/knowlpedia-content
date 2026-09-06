@@ -6,8 +6,7 @@ summary = "A multivariable substitution rule involving the Jacobian determinant.
 aliases = ["change-of-variables-formula", "Change of variables formula"]
 domains = ["real-analysis"]
 prerequisites = ["topology/open-set", "fiber-bundles/diffeomorphism", "real-analysis/jacobian-determinant"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/change-of-variables-formula.md"
 +++
 

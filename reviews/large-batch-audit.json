@@ -1,0 +1,19 @@
+{
+  "baseline_content_ref": "c1e30e06",
+  "full_review_assignments": 1090,
+  "accepted_new_full_reviews": 1026,
+  "deferred_full_reviews": 64,
+  "additional_dependency_assignments": 514,
+  "substantive_body_changes": 36,
+  "independent_auditors": 3,
+  "cycle_repairs": "Semantically audited; necessary antecedents restored; band/nullset kept one-way because the complete band data are defined inline.",
+  "graph": {
+    "nodes": 3491,
+    "edges": 9889,
+    "cycles": 0,
+    "missing": 0,
+    "self": 0
+  },
+  "incomplete_final_lane": "One accepted full review; three targeted records; 45 unreported IDs. Reverted 41 unsupported metadata-only edits and kept seven authored list fixes with review count zero.",
+  "evidence_policy": "Specific direct reasoning is valid for elementary claims; bibliographic evidence must identify inspected relevant material. The ledger records AI editorial review, not mathematical certification."
+}

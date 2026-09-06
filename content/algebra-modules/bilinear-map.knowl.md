@@ -6,8 +6,7 @@ summary = "A map of modules that is linear in each variable; over a noncommutati
 aliases = ["bilinear-map", "Bilinear map"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-rings/commutative-ring", "shared-foundations/cartesian-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/bilinear-map.md"
 +++
 

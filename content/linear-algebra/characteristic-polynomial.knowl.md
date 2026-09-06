@@ -6,8 +6,7 @@ summary = "The basis-independent determinant polynomial attached to a finite-dim
 aliases = ["characteristic-polynomial", "Characteristic polynomial"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/linear-operator", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/characteristic-polynomial.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "Total characteristic classes multiply when vector bundles are combine
 aliases = ["Whitney product formula", "multiplicativity of total characteristic classes"]
 domains = ["fiber-bundles", "topology"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/characteristic-class", "fiber-bundles/direct-sum-vector-bundle", "fiber-bundles/chern-class", "fiber-bundles/stiefel-whitney-class", "topology/singular-cohomology-group", "topology/cup-product-and-cohomology-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

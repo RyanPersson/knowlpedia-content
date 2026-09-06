@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Over a PID, a finitely generated module decomposes into primary cyclic summands."
 aliases = ["elementary-divisor-theorem", "Elementary divisor theorem"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/pid"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/pid", "algebra-modules/finitely-generated-module", "algebra-modules/structure-theorem-pid"]
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/elementary-divisor-theorem.md"
 +++
 

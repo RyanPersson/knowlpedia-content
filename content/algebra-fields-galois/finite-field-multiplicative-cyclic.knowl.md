@@ -6,8 +6,7 @@ summary = "For a finite field 𝔽_q, the group 𝔽_q× of nonzero elements is 
 aliases = ["finite-field-multiplicative-cyclic", "Multiplicative Group of a Finite Field Is Cyclic"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/finite-field", "algebra-groups/abelian-group", "algebra-fields-galois/primitive-root-of-unity"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/finite-field-multiplicative-cyclic.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "An element that is greater than or equal to every element of a subset
 aliases = ["upper-bound", "Upper bound"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/partial-order"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/upper-bound.md"
 +++
 

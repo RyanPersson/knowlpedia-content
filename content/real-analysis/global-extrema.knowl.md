@@ -6,8 +6,7 @@ summary = "A continuous real function on a compact set attains its maximum and m
 aliases = ["global-extrema", "Global extrema"]
 domains = ["real-analysis"]
 prerequisites = ["topology/continuous-map", "real-analysis/interval"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/global-extrema.md"
 +++
 

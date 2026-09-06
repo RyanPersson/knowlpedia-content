@@ -6,8 +6,7 @@ summary = "A smooth map defining a group action of a Lie group on a smooth manif
 aliases = ["smooth-action-of-a-lie-group-on-a-manifold", "Smooth action of a Lie group on a manifold"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold.md"
 +++
 

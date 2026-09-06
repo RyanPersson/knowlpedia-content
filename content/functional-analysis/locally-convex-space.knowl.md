@@ -6,8 +6,7 @@ summary = "A topological vector space whose origin has a neighborhood basis of c
 aliases = ["locally convex topological vector space", "LCTVS"]
 domains = ["functional-analysis", "convex-analysis", "topology"]
 prerequisites = ["functional-analysis/topological-vector-space", "topology/neighborhood", "convex-analysis/convex-set", "convex-analysis/seminorm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

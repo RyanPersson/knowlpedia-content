@@ -6,8 +6,7 @@ summary = "The direct sum is characterized by a universal mapping property from 
 aliases = ["direct-sum-universal-property", "Direct sum universal property"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/direct-sum-modules", "algebra-modules/module-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/direct-sum-universal-property.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A homomorphism that kills a normal subgroup factors uniquely through 
 aliases = ["quotient-group-universal-property", "Universal Property of Quotient Groups"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group", "algebra-groups/group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/quotient-group-universal-property.md"
 +++
 

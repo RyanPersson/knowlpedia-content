@@ -6,8 +6,7 @@ summary = "The subspace of vectors orthogonal to every vector in a given subset.
 aliases = ["orthogonal complement"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/inner-product-space", "linear-algebra/closed-linear-subspace", "linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 For a subset \(S\) of an [[linear-algebra/inner-product-space|inner-product space]] \(H\), its **orthogonal complement** is

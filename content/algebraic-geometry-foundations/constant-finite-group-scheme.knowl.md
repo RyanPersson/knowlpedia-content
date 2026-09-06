@@ -5,9 +5,8 @@ kind = "definition"
 summary = "The group scheme obtained by placing one copy of the base scheme at each element of a finite group."
 aliases = ["constant finite group scheme", "constant group scheme"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-groups/group", "algebraic-geometry-foundations/group-scheme", "algebraic-geometry-foundations/galois-extension-as-etale-torsor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-groups/group", "algebraic-geometry-foundations/group-scheme"]
+dependency_review_count = 1
 +++
 
 To let the abstract Galois group \(G=\operatorname{Gal}(K/F)\) act on \(\operatorname{Spec}K\) over \(\operatorname{Spec}F\), regard \(G\) as a [[algebraic-geometry-foundations/scheme|scheme]]: put one copy of the base at every group element, with multiplication dictated by the multiplication table of \(G\).

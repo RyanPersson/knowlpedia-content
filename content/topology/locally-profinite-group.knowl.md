@@ -6,8 +6,7 @@ summary = "A locally compact totally disconnected Hausdorff group, equivalently 
 aliases = ["locally profinite topological group", "totally disconnected locally compact group", "tdlc group", "t.d.l.c. group"]
 domains = ["topology", "harmonic-analysis", "langlands"]
 prerequisites = ["topology/topological-group", "topology/locally-compact-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

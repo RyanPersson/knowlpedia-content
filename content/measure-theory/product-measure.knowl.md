@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A measure on a product space determined by its values on measurable rectangles."
 aliases = ["product-measure", "Product measure"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/cartesian-product", "measure-theory/measure-space", "measure-theory/sigma-algebra", "measure-theory/tonellis-theorem", "measure-theory/fubinis-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/cartesian-product","measure-theory/measure-space","measure-theory/sigma-algebra"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/product-measure.md"
 +++
 

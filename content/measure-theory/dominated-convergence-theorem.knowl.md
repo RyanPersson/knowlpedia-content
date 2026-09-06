@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "If measurable functions converge almost everywhere and are dominated by an integrable function, then integrals and L1 norms converge."
 aliases = ["dominated-convergence-theorem", "Dominated convergence theorem"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/almost-everywhere", "measure-theory/l1-function", "measure-theory/lebesgue-integrable-function", "measure-theory/convergence-in-lp", "measure-theory/monotone-convergence-theorem", "measure-theory/fatous-lemma", "measure-theory/lebesgue-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measure-space","measure-theory/measurable-function","measure-theory/almost-everywhere","measure-theory/l1-function","measure-theory/lebesgue-integral"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/dominated-convergence-theorem.md"
 +++
 

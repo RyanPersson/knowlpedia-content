@@ -6,8 +6,7 @@ summary = "A smooth fiber bundle whose fibers are vector spaces and whose local 
 aliases = ["vector-bundle", "Vector bundle"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/local-trivialization"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/vector-bundle.md"
 +++
 

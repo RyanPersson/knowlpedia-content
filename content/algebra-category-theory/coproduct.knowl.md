@@ -6,8 +6,7 @@ summary = "An object A ⊔ B with injections, universal among cocones from A and
 aliases = ["coproduct"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/composition-category", "algebra-category-theory/isomorphism-category", "algebra-category-theory/categorical-product", "algebra-category-theory/opposite-category", "algebra-category-theory/colimit"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/coproduct.md"
 +++
 

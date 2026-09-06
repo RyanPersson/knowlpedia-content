@@ -6,8 +6,7 @@ summary = "Refining a partition decreases upper sums and increases lower sums."
 aliases = ["refinement-lemma-upper-lower-sums", "Refinement lemma for upper and lower sums"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/refinement-of-a-partition", "real-analysis/partition-of-an-interval", "real-analysis/upper-sum", "real-analysis/lower-sum"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/refinement-lemma-upper-lower-sums.md"
 +++
 

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The rule that composes morphisms in a category, generalizing function composition."
 aliases = ["composition-category", "Composition of morphisms"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/identity-morphism", "shared-foundations/composition"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "shared-foundations/composition"]
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/composition-category.md"
 +++
 

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A subset that is strictly smaller than the set it sits inside."
 aliases = ["proper-subset", "Proper subset"]
 domains = ["shared-foundations"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/subset"]
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/proper-subset.md"
 +++
 

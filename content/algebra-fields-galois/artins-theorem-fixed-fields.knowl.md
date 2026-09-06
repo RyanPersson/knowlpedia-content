@@ -6,8 +6,7 @@ summary = "A finite group of field automorphisms yields a finite Galois extensio
 aliases = ["artins-theorem-fixed-fields", "Artin's theorem on fixed fields"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/field-automorphism", "algebra-fields-galois/fixed-field", "algebra-fields-galois/galois-extension", "algebra-fields-galois/galois-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/artins-theorem-fixed-fields.md"
 +++
 

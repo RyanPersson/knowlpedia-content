@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A repeated one-variable integration over a rectangle or product of intervals."
 aliases = ["iterated-integral", "Iterated integral"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integral", "real-analysis/multiple-riemann-integral", "real-analysis/fubini-theorem-riemann"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/riemann-integral", "real-analysis/multiple-riemann-integral"]
+dependency_review_count = 1
 legacy_source_path = "real-analysis/iterated-integral.md"
 +++
 

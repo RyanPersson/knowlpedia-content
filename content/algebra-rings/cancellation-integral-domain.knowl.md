@@ -6,8 +6,7 @@ summary = "In an integral domain, nonzero elements satisfy left and right cancel
 aliases = ["cancellation-integral-domain", "Cancellation in integral domains"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/integral-domain", "algebra-rings/regular-element", "algebra-rings/zero-divisor", "algebra-rings/fraction-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/cancellation-integral-domain.md"
 +++
 

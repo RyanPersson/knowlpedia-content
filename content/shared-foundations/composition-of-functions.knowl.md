@@ -7,8 +7,7 @@ redirect_to = "shared-foundations/composition"
 redirect_sections = { "remarks" = "remarks", "examples" = "examples" }
 aliases = ["composition-of-functions", "Composition of functions"]
 domains = ["shared-foundations"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function"]
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/composition-of-functions.md"
 +++

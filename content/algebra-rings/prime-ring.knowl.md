@@ -6,8 +6,7 @@ summary = "A ring in which the product of nonzero ideals is never zero."
 aliases = ["prime-ring", "Prime ring"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ring", "algebra-rings/two-sided-ideal", "algebra-rings/product-of-ideals"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/prime-ring.md"
 +++
 
@@ -15,7 +14,7 @@ A **prime ring** is a [[algebra-rings/ring|ring]] \(R\) such that for any nonzer
 
 ## Remarks
 
-In the commutative case, primeness is closely related to being an [[algebra-rings/integral-domain|integral domain]]: if \(R\) is commutative (and \(1\neq 0\)), the “ideal” condition forces \(ab=0\) to imply \(a=0\) or \(b=0\).
+In the commutative unital case with \(1\neq 0\), primeness is equivalent to being an [[algebra-rings/integral-domain|integral domain]]: the ideals \((a)\) and \((b)\) show that \(ab=0\) forces \(a=0\) or \(b=0\).
 
 ## Examples
 

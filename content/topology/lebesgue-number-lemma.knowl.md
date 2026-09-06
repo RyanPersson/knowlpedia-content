@@ -6,8 +6,7 @@ summary = "Every open cover of a compact metric space has a uniform scale that f
 aliases = ["lebesgue-number-lemma", "Lebesgue number lemma"]
 domains = ["topology"]
 prerequisites = ["topology/metric-space", "topology/compact-set", "topology/open-cover", "topology/open-ball"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/lebesgue-number-lemma.md"
 +++
 

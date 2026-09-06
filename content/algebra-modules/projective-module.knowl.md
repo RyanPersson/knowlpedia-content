@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A module with the lifting property against surjections; equivalently, a direct summand of a free module."
 aliases = ["projective-module", "Projective module"]
 domains = ["algebra-modules"]
-prerequisites = ["shared-foundations/surjective-function", "algebra-modules/module-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/module", "shared-foundations/surjective-function", "algebra-modules/module-homomorphism"]
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/projective-module.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "In a metric space, every compact set can be covered by finitely many 
 aliases = ["compactness-implies-total-boundedness", "Compactness implies total boundedness"]
 domains = ["topology"]
 prerequisites = ["topology/metric-space", "topology/compact-set", "topology/totally-bounded-set", "topology/open-ball"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/compactness-implies-total-boundedness.md"
 +++
 

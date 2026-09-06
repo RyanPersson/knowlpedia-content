@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A set whose complement is open"
 aliases = ["closed-subset", "Closed set"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/open-subset", "convex-analysis/basic-properties-of-closed-sets", "convex-analysis/closure-of-a-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/open-subset", "convex-analysis/closure-of-a-set"]
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/closed-subset.md"
 +++
 

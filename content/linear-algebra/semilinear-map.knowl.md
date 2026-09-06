@@ -6,8 +6,7 @@ summary = "An additive map between vector spaces that twists scalar multiplicati
 aliases = ["semilinear transformation", "sigma-semilinear map", "semilinear isomorphism"]
 domains = ["linear-algebra", "algebra-fields-galois"]
 prerequisites = ["linear-algebra/vector-space", "algebra-fields-galois/field-automorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "Every nonconstant polynomial has a splitting field, unique up to K-is
 aliases = ["splitting-field-existence-uniqueness", "Existence and uniqueness of splitting fields"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/splitting-field", "algebra-fields-galois/algebraic-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/splitting-field-existence-uniqueness.md"
 +++
 

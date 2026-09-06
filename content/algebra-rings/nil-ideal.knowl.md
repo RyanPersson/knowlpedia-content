@@ -6,8 +6,7 @@ summary = "An ideal all of whose elements are nilpotent."
 aliases = ["nil-ideal", "Nil ideal"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ideal", "algebra-rings/nilpotent-element"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/nil-ideal.md"
 +++
 

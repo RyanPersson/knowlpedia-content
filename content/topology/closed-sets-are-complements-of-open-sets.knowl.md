@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A set is closed iff its complement is open; closed sets are stable under intersections"
 aliases = ["closed-sets-are-complements-of-open-sets", "Closed sets are complements of open sets"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/closed-set", "topology/open-set", "topology/closure", "topology/limit-point"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "topology/closed-set", "topology/open-set"]
+dependency_review_count = 1
 legacy_source_path = "topology/closed-sets-are-complements-of-open-sets.md"
 +++
 

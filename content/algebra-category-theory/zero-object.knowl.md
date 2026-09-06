@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "An object that is simultaneously initial and terminal."
 aliases = ["zero object"]
 domains = ["algebra-category-theory", "algebra-homological"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/initial-object", "algebra-category-theory/terminal-object", "algebra-category-theory/preadditive-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/initial-object", "algebra-category-theory/terminal-object"]
+dependency_review_count = 1
 +++
 
 A **zero object** in a [[algebra-category-theory/category|category]] \(\mathcal C\) is an object \(0\) that is both [[algebra-category-theory/initial-object|initial]] and [[algebra-category-theory/terminal-object|terminal]]. Thus for every object \(X\), there is exactly one morphism \(0\to X\) and exactly one morphism \(X\to0\).

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Triangle inequality for the Lp norm."
 aliases = ["minkowski-inequality-lp", "Minkowski inequality in Lp"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/lp-norm", "measure-theory/lp-space", "measure-theory/essential-supremum", "measure-theory/l-infinity-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/lp-norm","measure-theory/lp-space"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/minkowski-inequality-lp.md"
 +++
 

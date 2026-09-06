@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "An arrow between objects in a category."
 aliases = ["morphism"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/composition-category", "algebra-category-theory/identity-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/category"]
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/morphism.md"
 +++
 

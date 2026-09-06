@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A curve in the total space projecting to a base curve and whose velocity is everywhere horizontal."
 aliases = ["horizontal-lift-of-a-curve", "Horizontal lift of a curve"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/smooth-map", "fiber-bundles/parallel-transport"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/smooth-map"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/horizontal-lift-of-a-curve.md"
 +++
 

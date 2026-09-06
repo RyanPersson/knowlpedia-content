@@ -6,8 +6,7 @@ summary = "An injective field homomorphism, often required to fix a base field i
 aliases = ["field-embedding", "Field embedding"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/field-automorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/field-embedding.md"
 +++
 

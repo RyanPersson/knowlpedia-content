@@ -6,8 +6,7 @@ summary = "The least-upper-bound, Cauchy, monotone-convergence, and nested-inter
 aliases = ["completeness-equivalences", "Completeness Equivalences"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/bounded-above", "real-analysis/supremum", "topology/cauchy-sequence", "real-analysis/monotone-sequence", "real-analysis/interval"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/completeness-equivalences.md"
 +++
 

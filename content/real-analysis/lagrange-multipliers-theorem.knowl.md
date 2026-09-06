@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Constrained extrema give critical points of a Lagrangian under a regularity hypothesis."
 aliases = ["lagrange-multipliers-theorem", "Lagrange multipliers theorem"]
 domains = ["real-analysis"]
-prerequisites = ["topology/open-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/open-set", "real-analysis/constraint-set", "real-analysis/local-extremum", "real-analysis/regular-point", "real-analysis/lagrange-multiplier-condition"]
+dependency_review_count = 1
 legacy_source_path = "real-analysis/lagrange-multipliers-theorem.md"
 +++
 

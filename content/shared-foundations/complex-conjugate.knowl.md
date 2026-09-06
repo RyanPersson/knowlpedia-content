@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The map a+bi ↦ a-bi on complex numbers."
 aliases = ["complex-conjugate", "Complex conjugate"]
 domains = ["shared-foundations"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/complex-numbers-c"]
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/complex-conjugate.md"
 +++
 

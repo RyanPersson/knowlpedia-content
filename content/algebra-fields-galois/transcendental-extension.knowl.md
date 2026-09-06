@@ -6,8 +6,7 @@ summary = "An extension E/F that contains at least one element transcendental ov
 aliases = ["transcendental-extension", "Transcendental extension"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-extension", "algebra-fields-galois/transcendental-element"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/transcendental-extension.md"
 +++
 

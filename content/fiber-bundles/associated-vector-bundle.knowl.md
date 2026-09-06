@@ -6,8 +6,7 @@ summary = "A vector bundle obtained from a principal bundle and a linear represe
 aliases = ["associated-vector-bundle", "Associated vector bundle"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/associated-bundle", "fiber-bundles/principal-g-bundle", "lie-groups/representation-of-a-lie-group", "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f", "fiber-bundles/vector-bundle", "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/associated-vector-bundle.md"
 +++
 

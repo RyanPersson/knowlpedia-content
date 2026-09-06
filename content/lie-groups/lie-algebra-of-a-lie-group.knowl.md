@@ -6,8 +6,7 @@ summary = "The tangent space at the identity of a Lie group, equipped with a can
 aliases = ["lie-algebra-of-a-lie-group", "Lie Algebra of a Lie Group"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "differential-geometry/tangent-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-algebra-of-a-lie-group.md"
 +++
 

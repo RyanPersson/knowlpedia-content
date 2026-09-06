@@ -6,8 +6,7 @@ summary = "A differentiable function equal at two endpoints has a critical point
 aliases = ["rolles-theorem", "Rolle's theorem"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/differentiability-1d", "real-analysis/local-extremum", "real-analysis/mean-value-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/rolles-theorem.md"
 +++
 

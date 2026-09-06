@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A subset whose closure is compact in the ambient space."
 aliases = ["relatively-compact-set", "Relatively compact set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/closure", "topology/compact-set", "topology/totally-bounded-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "topology/closure", "topology/compact-set"]
+dependency_review_count = 1
 legacy_source_path = "topology/relatively-compact-set.md"
 +++
 

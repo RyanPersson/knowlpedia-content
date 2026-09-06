@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A measurable function that takes only finitely many values."
 aliases = ["simple-function", "Simple function"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measurable-function", "measure-theory/measurable-set", "measure-theory/indicator-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measurable-space","measure-theory/measurable-function","measure-theory/measurable-set","measure-theory/indicator-function"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/simple-function.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The smallest field extension over which a given polynomial factors co
 aliases = ["splitting-field", "Splitting field"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/tower-of-fields", "algebra-fields-galois/simple-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/splitting-field.md"
 +++
 

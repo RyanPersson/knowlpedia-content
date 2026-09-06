@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A product set whose factors are measurable in their respective spaces."
 aliases = ["measurable-rectangle", "Measurable rectangle"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/cartesian-product", "measure-theory/measurable-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/cartesian-product","measure-theory/measurable-set"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/measurable-rectangle.md"
 +++
 

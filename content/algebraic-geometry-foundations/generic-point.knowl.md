@@ -6,8 +6,7 @@ summary = "A point whose closure is an entire irreducible closed subset."
 aliases = ["generic point", "generic point of an irreducible subset"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "topology/irreducible-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[algebraic-geometry-foundations/scheme|scheme]] and \(Z\subseteq X\) an [[topology/irreducible-space|irreducible closed subset]]. A point \(\eta\in Z\) is a **generic point of \(Z\)** if

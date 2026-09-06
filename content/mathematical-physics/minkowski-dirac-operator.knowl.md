@@ -5,9 +5,8 @@ kind = "definition"
 summary = "The flat Lorentzian first-order operator obtained by Clifford contraction of ordinary differentiation."
 aliases = ["flat Lorentzian Dirac operator", "free Dirac operator", "slash partial"]
 domains = ["mathematical-physics", "differential-geometry"]
-prerequisites = ["mathematical-physics/minkowski-spacetime", "differential-geometry/dirac-spinor", "mathematical-physics/gamma-matrices"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["mathematical-physics/minkowski-spacetime","differential-geometry/dirac-spinor","mathematical-physics/gamma-matrices"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

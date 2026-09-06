@@ -5,9 +5,8 @@ kind = "construction"
 summary = "The graded commutator ab - (-1)^(|a||b|)ba in an associative superalgebra."
 aliases = ["graded commutator", "super bracket of an associative superalgebra"]
 domains = ["supergeometry", "algebra-rings"]
-prerequisites = ["supergeometry/superalgebra", "supergeometry/lie-superalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["supergeometry/superalgebra"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

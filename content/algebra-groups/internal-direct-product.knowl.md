@@ -6,8 +6,7 @@ summary = "A group built from two normal subgroups whose product is the whole gr
 aliases = ["internal-direct-product", "Internal Direct Product"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/normal-subgroup", "algebra-groups/trivial-subgroup", "algebra-groups/group-isomorphism", "algebra-groups/direct-product-groups"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/internal-direct-product.md"
 +++
 

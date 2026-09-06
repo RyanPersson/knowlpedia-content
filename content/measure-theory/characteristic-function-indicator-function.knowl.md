@@ -6,8 +6,7 @@ summary = "The function that records membership in a set by 0/1 values."
 aliases = ["characteristic-function-indicator-function", "Characteristic function (indicator function)"]
 domains = ["measure-theory"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "measure-theory/characteristic-function-indicator-function.md"
 +++
 

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A family of subsets whose union contains a given set."
 aliases = ["cover"]
 domains = ["topology"]
-prerequisites = ["shared-foundations/indexed-family-of-sets", "shared-foundations/union", "topology/open-cover"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/indexed-family-of-sets", "shared-foundations/union"]
+dependency_review_count = 1
 legacy_source_path = "topology/cover.md"
 +++
 

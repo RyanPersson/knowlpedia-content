@@ -6,8 +6,7 @@ summary = "A local section of a principal bundle determines a canonical local tr
 aliases = ["construction-local-trivialization-from-a-local-section", "Construction: local trivialization from a local section"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-local-trivialization-from-a-local-section.md"
 +++
 

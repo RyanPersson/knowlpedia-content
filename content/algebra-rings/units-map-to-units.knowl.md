@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A unital ring homomorphism sends invertible elements to invertible elements."
 aliases = ["units-map-to-units", "Units map to units"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/unital-ring", "algebra-rings/unit", "algebra-rings/ring-homomorphism"]
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/units-map-to-units.md"
 +++
 

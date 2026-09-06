@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Function of a real parameter defined by the expected exponential of t times a random variable"
 aliases = ["moment-generating-function", "Moment generating function"]
 domains = ["probability"]
-prerequisites = ["shared-foundations/function", "probability/random-variable", "probability/moment", "probability/cumulant-generating-function", "probability/characteristic-function-probability"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function", "probability/random-variable", "probability/moment", "probability/characteristic-function-probability"]
+dependency_review_count = 1
 legacy_source_path = "probability/moment-generating-function.md"
 +++
 

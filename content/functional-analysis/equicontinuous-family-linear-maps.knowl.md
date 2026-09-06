@@ -6,8 +6,7 @@ summary = "A family of continuous linear maps that satisfies one continuity esti
 aliases = ["equicontinuous operator family", "equicontinuous set of functionals"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/topological-vector-space", "functional-analysis/continuous-linear-map", "topology/neighborhood", "linear-algebra/linear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

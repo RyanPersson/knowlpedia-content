@@ -6,8 +6,7 @@ summary = "Set of vectors sent to scalar multiples of themselves for a fixed eig
 aliases = ["eigenspace"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/linear-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/eigenspace.md"
 +++
 

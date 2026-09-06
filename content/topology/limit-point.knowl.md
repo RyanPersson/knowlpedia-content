@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A point whose every neighborhood meets a set away from that point."
 aliases = ["limit-point", "Limit point"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/neighborhood", "topology/derived-set", "topology/closure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "topology/neighborhood", "topology/closure"]
+dependency_review_count = 1
 legacy_source_path = "topology/limit-point.md"
 +++
 

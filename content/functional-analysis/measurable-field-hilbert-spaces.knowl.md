@@ -6,8 +6,7 @@ summary = "A family of Hilbert spaces equipped with a countably generated measur
 aliases = ["measurable Hilbert bundle", "Borel field of Hilbert spaces", "measurable family of Hilbert spaces"]
 domains = ["functional-analysis", "measure-theory"]
 prerequisites = ["measure-theory/measurable-space", "linear-algebra/hilbert-space", "convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

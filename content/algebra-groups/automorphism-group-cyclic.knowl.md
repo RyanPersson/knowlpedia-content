@@ -6,8 +6,7 @@ summary = "Aut(C_n) is naturally isomorphic to (ℤ/nℤ)×"
 aliases = ["automorphism-group-cyclic", "Automorphisms of a cyclic group"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-rings/group-of-units"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/automorphism-group-cyclic.md"
 +++
 

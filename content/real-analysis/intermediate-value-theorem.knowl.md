@@ -6,8 +6,7 @@ summary = "A continuous function on an interval takes all values between its end
 aliases = ["intermediate-value-theorem", "Intermediate value theorem"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/intermediate-value-theorem.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The number of orbits equals the average number of fixed points"
 aliases = ["burnsides-lemma", "Burnside's Lemma"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/group-action", "algebra-groups/fixed-point-set", "algebra-groups/orbit"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/burnsides-lemma.md"
 +++
 

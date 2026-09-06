@@ -6,8 +6,7 @@ summary = "A sequence whose range is a bounded subset of its metric space."
 aliases = ["bounded-sequence", "Bounded sequence"]
 domains = ["real-analysis"]
 prerequisites = ["topology/metric-space", "topology/bounded-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/bounded-sequence.md"
 +++
 

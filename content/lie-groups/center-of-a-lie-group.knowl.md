@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Elements commuting with all group elements; a closed normal subgroup."
 aliases = ["center-of-a-lie-group", "Center of a Lie group"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/normal-lie-subgroup", "lie-groups/conjugation-action-of-a-lie-group", "lie-groups/adjoint-action-of-a-lie-group", "lie-groups/adjoint-faithful-iff-discrete-center"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/normal-lie-subgroup", "lie-groups/conjugation-action-of-a-lie-group", "lie-groups/adjoint-action-of-a-lie-group"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/center-of-a-lie-group.md"
 +++
 

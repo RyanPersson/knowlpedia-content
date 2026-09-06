@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "In a metric space, every convergent sequence is Cauchy"
 aliases = ["convergent-sequence-is-cauchy", "Convergent sequence is Cauchy"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "topology/convergent-sequence", "topology/cauchy-sequence", "topology/complete-metric-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/metric-space", "topology/convergent-sequence", "topology/cauchy-sequence"]
+dependency_review_count = 1
 legacy_source_path = "topology/convergent-sequence-is-cauchy.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The subgroup of elements mapped to the identity by a group homomorphi
 aliases = ["kernel-group", "Kernel of a group homomorphism"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/kernel-group.md"
 +++
 

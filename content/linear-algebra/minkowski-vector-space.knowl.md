@@ -6,8 +6,7 @@ summary = "Four-dimensional real vector space with the Lorentzian quadratic form
 aliases = ["Minkowski quadratic space", "Lorentzian vector space R1,3"]
 domains = ["linear-algebra", "mathematical-physics"]
 prerequisites = ["linear-algebra/bilinear-form", "linear-algebra/quadratic-form", "linear-algebra/signature-of-symmetric-bilinear-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

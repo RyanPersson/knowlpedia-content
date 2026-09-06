@@ -6,8 +6,7 @@ summary = "The property of having a finite derivative at a point or on an interv
 aliases = ["differentiability-1d", "Differentiability in one variable"]
 domains = ["real-analysis"]
 prerequisites = ["shared-foundations/function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/differentiability-1d.md"
 +++
 

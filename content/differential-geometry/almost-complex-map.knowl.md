@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A smooth map whose tangent map intertwines the almost-complex structures."
 aliases = ["J-holomorphic map", "pseudoholomorphic map"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/almost-complex-structure", "differential-geometry/integrable-almost-complex-structure", "differential-geometry/holomorphic-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/almost-complex-structure"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

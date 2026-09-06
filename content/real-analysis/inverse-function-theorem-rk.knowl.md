@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A map with invertible derivative at a point has a differentiable local inverse."
 aliases = ["inverse-function-theorem-rk", "Inverse function theorem in R^k"]
 domains = ["real-analysis"]
-prerequisites = ["topology/open-set", "real-analysis/jacobian-determinant", "fiber-bundles/diffeomorphism", "topology/homeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/open-set", "real-analysis/jacobian-determinant"]
+dependency_review_count = 1
 legacy_source_path = "real-analysis/inverse-function-theorem-rk.md"
 +++
 

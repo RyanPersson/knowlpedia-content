@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A sheaf whose sections form groups compatibly with restriction."
 aliases = ["sheaf of groups", "group sheaf", "group object in sheaves"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/site", "algebraic-geometry-foundations/sheaf", "algebra-groups/group", "algebra-groups/group-action", "algebraic-geometry-foundations/morphism-of-sheaves", "algebraic-geometry-foundations/g-torsor-on-a-site"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/site", "algebraic-geometry-foundations/sheaf", "algebra-groups/group", "algebra-groups/group-action", "algebraic-geometry-foundations/morphism-of-sheaves"]
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebraic-geometry-foundations/site|site]]. A **sheaf of groups** on \(\mathcal C\) is a [[algebraic-geometry-foundations/sheaf|sheaf]] \(G\) such that every set of sections \(G(U)\) is a [[algebra-groups/group|group]] and every restriction map associated to a morphism \(V\to U\),

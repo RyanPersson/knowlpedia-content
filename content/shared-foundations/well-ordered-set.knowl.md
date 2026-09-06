@@ -6,8 +6,7 @@ summary = "A totally ordered set in which every nonempty subset has a least elem
 aliases = ["well-ordered-set", "Well-ordered set"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/set", "shared-foundations/total-order"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/well-ordered-set.md"
 +++
 

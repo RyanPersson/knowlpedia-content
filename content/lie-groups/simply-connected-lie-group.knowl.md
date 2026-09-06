@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A Lie group whose underlying manifold is simply connected (connected with trivial fundamental group)."
 aliases = ["simply-connected-lie-group", "Simply connected Lie group"]
 domains = ["lie-groups"]
-prerequisites = ["topology/fundamental-group", "lie-groups/connected-lie-group", "lie-groups/universal-covering-group", "lie-groups/universal-covering-group-existence", "lie-groups/covering-lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/simply-connected-determined-by-algebra", "lie-groups/lie-algebra-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/fundamental-group", "lie-groups/connected-lie-group", "lie-groups/covering-lie-group", "lie-groups/lie-algebra-homomorphism"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/simply-connected-lie-group.md"
 +++
 

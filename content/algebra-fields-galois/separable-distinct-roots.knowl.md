@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A polynomial is separable iff it has no repeated roots in an algebraic closure (equivalently gcd(f,f')=1)."
 aliases = ["separable-distinct-roots", "Separable polynomials have distinct roots"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure", "algebra-fields-galois/splitting-field", "algebra-fields-galois/algebraic-element", "algebra-fields-galois/separable-element"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure", "algebra-fields-galois/splitting-field"]
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/separable-distinct-roots.md"
 +++
 

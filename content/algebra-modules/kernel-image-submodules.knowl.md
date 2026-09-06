@@ -6,8 +6,7 @@ summary = "For a module homomorphism, both kernel and image are submodules."
 aliases = ["kernel-image-submodules", "Kernel and image are submodules"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/kernels-are-submodules", "algebra-modules/image-module", "algebra-modules/module-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/kernel-image-submodules.md"
 +++
 

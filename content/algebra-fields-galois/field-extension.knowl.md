@@ -6,8 +6,7 @@ summary = "An inclusion of fields F ⊆ E (written E/F) and the basic language u
 aliases = ["field-extension", "Field extension"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-rings/field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/field-extension.md"
 +++
 

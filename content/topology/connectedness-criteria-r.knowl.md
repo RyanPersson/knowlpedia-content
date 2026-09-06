@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Equivalent ways to recognize when a subset of the real line is connected."
 aliases = ["connectedness-criteria-r", "Connectedness criteria in R"]
 domains = ["topology"]
-prerequisites = ["topology/connected-set", "real-analysis/interval", "topology/continuous-image-of-connected-set-is-connected"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/connected-set", "real-analysis/interval"]
+dependency_review_count = 1
 legacy_source_path = "topology/connectedness-criteria-r.md"
 +++
 

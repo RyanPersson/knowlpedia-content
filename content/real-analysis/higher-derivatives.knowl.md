@@ -6,8 +6,7 @@ summary = "Derivatives of order two and higher, defined iteratively."
 aliases = ["higher-derivatives", "Higher derivatives"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/higher-derivatives.md"
 +++
 
@@ -20,4 +19,4 @@ Higher derivatives quantify finer local behavior and are central in approximatio
 ## Examples
 
 - For \(f(x)=e^x\), one has \(f^{(n)}(x)=e^x\) for every \(n\ge 0\).
-- For \(f(x)=x^m\) (a polynomial), \(f^{(n)}\equiv 0\) for all \(n>m\).
+- For \(f(x)=x^m\), where \(m\) is a nonnegative integer, one has \(f^{(n)}\equiv 0\) for all \(n>m\).

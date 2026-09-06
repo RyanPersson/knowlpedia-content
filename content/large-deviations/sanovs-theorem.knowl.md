@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Large deviations for empirical measures of an independent identically distributed sample."
 aliases = ["sanovs-theorem", "Sanov's theorem"]
 domains = ["large-deviations"]
-prerequisites = ["probability/iid-sequence", "probability/distribution-law", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function", "probability/relative-entropy-kl-divergence", "large-deviations/contraction-principle-ldp"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["probability/iid-sequence", "probability/distribution-law", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function", "probability/relative-entropy-kl-divergence"]
+dependency_review_count = 1
 legacy_source_path = "large-deviations/sanovs-theorem.md"
 +++
 

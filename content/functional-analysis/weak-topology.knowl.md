@@ -6,8 +6,7 @@ summary = "The coarsest vector topology making every continuous linear functiona
 aliases = ["sigma(E,E-prime)", "weak vector topology"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/topological-vector-space", "functional-analysis/topological-dual", "functional-analysis/topology-generated-by-seminorms"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A local field isomorphic to the real or complex numbers."
 aliases = ["archimedean local fields", "archimedean completion"]
 domains = ["algebra-fields-galois", "topology", "langlands"]
 prerequisites = ["algebra-fields-galois/local-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

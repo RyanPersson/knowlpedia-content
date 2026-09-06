@@ -6,8 +6,7 @@ summary = "A point of a set that has a neighborhood containing no other points o
 aliases = ["isolated-point", "Isolated point"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/isolated-point.md"
 +++
 

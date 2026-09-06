@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Hom out of a direct sum canonically identifies with the product of Homs."
 aliases = ["hom-sums-to-products", "Hom turns sums into products"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/hom-module", "algebra-modules/direct-sum-modules", "algebra-modules/direct-product-modules", "algebra-modules/tensor-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/hom-module", "algebra-modules/direct-sum-modules", "algebra-modules/direct-product-modules"]
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/hom-sums-to-products.md"
 +++
 

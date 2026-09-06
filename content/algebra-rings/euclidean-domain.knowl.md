@@ -6,8 +6,7 @@ summary = "An integral domain admitting division with remainder controlled by a 
 aliases = ["euclidean-domain", "Euclidean domain"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/integral-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/euclidean-domain.md"
 +++
 

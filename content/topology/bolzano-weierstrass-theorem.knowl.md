@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Every bounded sequence in Euclidean space has a convergent subsequence"
 aliases = ["bolzano-weierstrass-theorem", "Bolzano–Weierstrass theorem"]
 domains = ["topology"]
-prerequisites = ["linear-algebra/euclidean-space", "topology/bounded-set", "real-analysis/subsequence", "topology/convergent-sequence", "topology/heine-borel-theorem", "topology/sequentially-compact-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/euclidean-space", "topology/bounded-set", "real-analysis/subsequence", "topology/convergent-sequence"]
+dependency_review_count = 1
 legacy_source_path = "topology/bolzano-weierstrass-theorem.md"
 +++
 

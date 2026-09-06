@@ -6,8 +6,7 @@ summary = "Every finite abelian group is a direct product of cyclic prime-power 
 aliases = ["classification-finite-abelian-groups", "Classification of Finite Abelian Groups"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/abelian-group", "algebra-groups/direct-product-groups", "algebra-groups/cyclic-subgroup", "algebra-groups/p-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/classification-finite-abelian-groups.md"
 +++
 
@@ -16,8 +15,9 @@ legacy_source_path = "algebra-groups/classification-finite-abelian-groups.md"
 
 where \(p_1,\dots,p_t\) are primes, each \(e_{ij}\ge 1\), and \(C_{p^e}\) denotes a cyclic group of order \(p^e\) (a finite [[algebra-groups/p-group|p-group]]).
 
-Equivalently (the **invariant factor form**), there exist integers \(1<n_1\mid n_2\mid \cdots \mid n_r\) such that
+For nontrivial \(G\), equivalently (the **invariant factor form**), there exist integers \(1<n_1\mid n_2\mid \cdots \mid n_r\) such that
 \[G \cong C_{n_1}\times C_{n_2}\times \cdots \times C_{n_r}.\]
+The trivial group is represented by the empty product.
 
 In either form, the invariants (prime powers in the first form, or the chain \(n_1\mid\cdots\mid n_r\) in the second form) are uniquely determined by \(G\) up to reordering of isomorphic factors.
 

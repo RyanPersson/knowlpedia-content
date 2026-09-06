@@ -6,8 +6,7 @@ summary = "A function on a group that is constant on conjugacy classes"
 aliases = ["class-function", "Class function"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "shared-foundations/function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/class-function.md"
 +++
 

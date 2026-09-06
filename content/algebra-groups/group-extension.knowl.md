@@ -6,8 +6,7 @@ summary = "A group fitting into a short exact sequence from a normal subgroup to
 aliases = ["group-extension", "Group Extension"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/exact-sequence-groups", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/group-extension.md"
 +++
 

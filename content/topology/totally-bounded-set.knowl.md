@@ -6,8 +6,7 @@ summary = "A set in a metric space that can be covered by finitely many small ba
 aliases = ["totally-bounded-set", "Totally bounded set"]
 domains = ["topology"]
 prerequisites = ["topology/metric-space", "topology/open-ball"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/totally-bounded-set.md"
 +++
 

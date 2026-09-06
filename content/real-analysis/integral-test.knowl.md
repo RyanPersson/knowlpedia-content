@@ -6,8 +6,7 @@ summary = "A convergence test that compares a nonnegative decreasing series to a
 aliases = ["integral-test", "Integral test"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/series", "real-analysis/convergent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/integral-test.md"
 +++
 

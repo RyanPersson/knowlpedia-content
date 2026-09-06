@@ -6,8 +6,7 @@ summary = "Idempotent semifields are equivalent to lattice-ordered abelian group
 aliases = ["idempotent semifield l-group equivalence", "characteristic-one semifields and l-groups"]
 domains = ["algebra-rings", "algebra-groups", "algebra-hyperstructures"]
 prerequisites = ["algebra-rings/idempotent-semifield", "algebra-rings/semiring-homomorphism", "algebra-groups/lattice-ordered-abelian-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

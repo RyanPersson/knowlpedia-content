@@ -6,8 +6,7 @@ summary = "A finite weighted sum approximating an integral using a tagged partit
 aliases = ["riemann-sum", "Riemann sum"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/tagged-partition", "real-analysis/riemann-integral", "real-analysis/mesh-of-a-partition"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-sum.md"
 +++
 

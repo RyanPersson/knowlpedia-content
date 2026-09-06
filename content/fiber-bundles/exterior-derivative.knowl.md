@@ -6,8 +6,7 @@ summary = "The differential operator on differential forms that squares to zero 
 aliases = ["exterior-derivative", "Exterior derivative"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/exterior-derivative.md"
 +++
 

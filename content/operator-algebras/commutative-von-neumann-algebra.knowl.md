@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A von Neumann algebra whose elements commute, modeled by an algebra of essentially bounded functions."
 aliases = ["abelian von Neumann algebra", "L-infinity algebra"]
 domains = ["operator-algebras", "measure-theory"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/center-of-von-neumann-algebra", "measure-theory/measure-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/von-neumann-algebra","measure-theory/measure-space"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

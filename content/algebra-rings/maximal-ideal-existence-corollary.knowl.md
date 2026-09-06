@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A commutative ring with 1 and 1≠0 contains at least one maximal ideal."
 aliases = ["maximal-ideal-existence-corollary", "Every nontrivial commutative ring has a maximal ideal"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal", "algebra-rings/maximal-ideal", "algebra-rings/existence-of-maximal-ideals", "shared-foundations/zorns-lemma"]
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/maximal-ideal-existence-corollary.md"
 +++
 

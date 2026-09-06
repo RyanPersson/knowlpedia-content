@@ -6,8 +6,7 @@ summary = "A Banach space whose canonical embedding into its continuous bidual i
 aliases = ["reflexive space", "canonical bidual isomorphism"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/banach-space", "functional-analysis/topological-dual"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

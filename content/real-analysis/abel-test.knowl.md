@@ -6,8 +6,7 @@ summary = "A convergence test for sums of products when one series converges and
 aliases = ["abel-test", "Abel test"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/convergent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/abel-test.md"
 +++
 

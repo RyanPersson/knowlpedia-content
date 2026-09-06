@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A bounded infinite set in Euclidean space has an accumulation point"
 aliases = ["bounded-infinite-set-has-limit-point", "Every bounded infinite subset of R^k has a limit point"]
 domains = ["shared-foundations"]
-prerequisites = ["topology/bounded-set", "topology/limit-point", "topology/open-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/bounded-set", "topology/limit-point", "topology/open-ball"]
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/bounded-infinite-set-has-limit-point.md"
 +++
 

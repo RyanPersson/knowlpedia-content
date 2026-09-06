@@ -6,8 +6,7 @@ summary = "A magma with an identity element"
 aliases = ["unital-magma", "Unital Magma"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/magma"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/unital-magma.md"
 +++
 

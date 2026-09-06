@@ -6,8 +6,7 @@ summary = "A group specified as a quotient of a free group by the normal closure
 aliases = ["group-presentation", "Group Presentation"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/free-group", "algebra-groups/normal-closure", "algebra-groups/quotient-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/group-presentation.md"
 +++
 

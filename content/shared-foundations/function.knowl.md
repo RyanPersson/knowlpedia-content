@@ -6,8 +6,7 @@ summary = "A relation that assigns each input exactly one output"
 aliases = ["function"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/relation", "shared-foundations/set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/function.md"
 +++
 

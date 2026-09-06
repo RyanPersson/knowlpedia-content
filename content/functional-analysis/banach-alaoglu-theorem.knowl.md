@@ -6,8 +6,7 @@ summary = "The closed unit ball of the continuous dual of a normed space is comp
 aliases = ["Alaoglu theorem", "weak-star compactness theorem"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/normed-vector-space", "functional-analysis/topological-dual", "functional-analysis/weak-star-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

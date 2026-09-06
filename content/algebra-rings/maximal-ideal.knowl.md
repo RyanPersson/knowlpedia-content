@@ -6,8 +6,7 @@ summary = "A proper ideal maximal under inclusion; in the commutative unital cas
 aliases = ["maximal-ideal", "Maximal ideal"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/maximal-ideal.md"
 +++
 

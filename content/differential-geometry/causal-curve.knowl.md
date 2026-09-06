@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A curve in a time-oriented Lorentzian manifold whose tangent vectors are everywhere future-directed or everywhere past-directed and nonspacelike."
 aliases = ["nonspacelike curve"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/time-orientation", "differential-geometry/chronological-and-causal-future"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/time-orientation"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "The kernel of a group homomorphism is a normal subgroup"
 aliases = ["kernel-is-normal", "Kernel is normal"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/kernel-group", "algebra-groups/normal-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/kernel-is-normal.md"
 +++
 

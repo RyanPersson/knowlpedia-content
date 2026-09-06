@@ -6,8 +6,7 @@ summary = "A locally convex space in which every closed, convex, balanced, absor
 aliases = ["barrelled space"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/locally-convex-space", "convex-analysis/convex-set", "convex-analysis/balanced-and-absorbing-sets", "topology/neighborhood"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

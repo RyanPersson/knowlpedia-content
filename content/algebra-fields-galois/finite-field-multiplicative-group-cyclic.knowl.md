@@ -6,8 +6,7 @@ summary = "For a finite field F_q, the group F_q^× is cyclic of order q−1."
 aliases = ["finite-field-multiplicative-group-cyclic", "Multiplicative group of a finite field is cyclic"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/finite-field", "algebra-groups/abelian-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/finite-field-multiplicative-group-cyclic.md"
 +++
 

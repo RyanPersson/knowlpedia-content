@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A map between vector spaces preserving addition and scalar multiplication"
 aliases = ["linear-operator-linear-transformation", "Linear operator"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/image-and-kernel-linear-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space"]
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/linear-operator-linear-transformation.md"
 +++
 

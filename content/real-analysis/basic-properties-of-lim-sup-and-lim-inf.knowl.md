@@ -6,8 +6,7 @@ summary = "Key identities and inequalities for limsup and liminf of a sequence"
 aliases = ["basic-properties-of-lim-sup-and-lim-inf", "Basic properties of lim sup and lim inf"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/subsequence", "real-analysis/limit-superior-lim-sup", "real-analysis/limit-inferior-lim-inf"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/basic-properties-of-lim-sup-and-lim-inf.md"
 +++
 
@@ -24,7 +23,7 @@ Then:
   \]
 - always \(\liminf a_n\le \limsup a_n\),
 - if \(\liminf a_n=\limsup a_n=L\in\mathbb{R}\), then \(a_n\to L\),
-- if \(\ell=\limsup a_n\) is finite, then there exists a [[real-analysis/subsequence|subsequence]] \((a_{n_j})\) with \(a_{n_j}\to \ell\) (and similarly for \(\liminf\)). See [[real-analysis/limit-superior-lim-sup|limit superior]] and [[real-analysis/limit-inferior-lim-inf|limit inferior]].
+- if \(\ell=\limsup a_n\) is a finite real number, then there exists a [[real-analysis/subsequence|subsequence]] \((a_{n_j})\) with \(a_{n_j}\to \ell\) (and similarly for \(\liminf\)). See [[real-analysis/limit-superior-lim-sup|limit superior]] and [[real-analysis/limit-inferior-lim-inf|limit inferior]].
 
 ## Examples
 

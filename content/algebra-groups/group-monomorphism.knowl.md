@@ -6,8 +6,7 @@ summary = "An injective group homomorphism"
 aliases = ["group-monomorphism", "Group monomorphism"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group-homomorphism", "shared-foundations/injective-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/group-monomorphism.md"
 +++
 

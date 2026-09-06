@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The set of points at exactly a fixed distance from a given center point in a metric space."
 aliases = ["metric-sphere", "Metric sphere"]
 domains = ["topology"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/metric"]
+dependency_review_count = 1
 legacy_source_path = "topology/metric-sphere.md"
 +++
 

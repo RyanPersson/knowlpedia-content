@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "Definition of the Lebesgue integral for nonnegative measurable functions."
 aliases = ["lebesgue-integral-nonnegative", "Lebesgue integral of a nonnegative function"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space", "measure-theory/simple-function", "measure-theory/indicator-function", "measure-theory/measurable-function", "measure-theory/lebesgue-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measure-space","measure-theory/simple-function","measure-theory/measurable-function"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/lebesgue-integral-nonnegative.md"
 +++
 

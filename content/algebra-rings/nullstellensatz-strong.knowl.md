@@ -6,8 +6,7 @@ summary = "Over an algebraically closed field, the ideal of a variety is the rad
 aliases = ["nullstellensatz-strong", "Hilbert's Nullstellensatz (strong)"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/field", "algebra-rings/ideal", "algebra-rings/polynomial-ring", "algebra-rings/radical-of-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/nullstellensatz-strong.md"
 +++
 

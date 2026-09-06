@@ -6,8 +6,7 @@ summary = "Axioms for addition and multiplication in a field, as used for the re
 aliases = ["field-axioms", "Field axioms"]
 domains = ["real-analysis"]
 prerequisites = ["shared-foundations/set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/field-axioms.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The maximum discrepancy between two nonempty compact subsets of a met
 aliases = ["Hausdorff metric", "Hausdorff convergence"]
 domains = ["topology", "metric-geometry", "convex-analysis"]
 prerequisites = ["topology/metric-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

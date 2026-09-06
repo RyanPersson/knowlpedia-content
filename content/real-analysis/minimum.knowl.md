@@ -6,8 +6,7 @@ summary = "The smallest element of a set of real numbers, when it exists."
 aliases = ["minimum"]
 domains = ["real-analysis"]
 prerequisites = ["shared-foundations/subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/minimum.md"
 +++
 

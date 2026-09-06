@@ -6,8 +6,7 @@ summary = "The fixed-ring category whose objects are finitely generated projecti
 aliases = ["Proj A", "category of finite projective modules", "finite projective module category"]
 domains = ["algebra-modules", "category-theory"]
 prerequisites = ["algebra-modules/projective-module", "algebra-modules/module-homomorphism", "algebra-category-theory/full-subcategory", "algebra-category-theory/zero-object"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -39,7 +38,7 @@ notation on this page.
 
 ## Geometric example
 
-For a connected finite-dimensional Hausdorff second-countable smooth
+For a compact finite-dimensional Hausdorff second-countable smooth
 manifold \(M\), the
 [[fiber-bundles/serre-swan-theorem|Serre–Swan theorem]] gives a covariant
 equivalence
@@ -48,10 +47,9 @@ equivalence
 \mathbf{Proj}\bigl(C^\infty(M,\mathbb F)\bigr).
 \]
 Both sides use morphisms over one fixed base or one fixed ring. This is not
-the contravariant reconstruction of maps between different manifolds from
-their smooth-function algebras. No compactness hypothesis is needed here;
-on a disconnected base the matching bundle category has globally bounded
-rank.
+contravariant reconstruction of maps between different manifolds from
+their smooth-function algebras. On a disconnected compact base, the
+matching bundle category has globally bounded rank.
 
 ## References
 

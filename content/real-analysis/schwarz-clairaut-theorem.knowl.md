@@ -6,8 +6,7 @@ summary = "Under continuity, mixed second partial derivatives agree."
 aliases = ["schwarz-clairaut-theorem", "Schwarz–Clairaut theorem"]
 domains = ["real-analysis"]
 prerequisites = ["topology/open-set", "real-analysis/mixed-partial-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/schwarz-clairaut-theorem.md"
 +++
 

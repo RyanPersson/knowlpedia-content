@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A subset of a metric space that lies inside some ball of finite radius."
 aliases = ["bounded-set", "Bounded set"]
 domains = ["topology"]
-prerequisites = ["topology/open-ball"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/open-ball", "topology/diameter"]
+dependency_review_count = 1
 legacy_source_path = "topology/bounded-set.md"
 +++
 

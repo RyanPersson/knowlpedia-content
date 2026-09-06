@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A continuous bijection from a compact space to a Hausdorff space has continuous inverse"
 aliases = ["continuous-bijection-from-compact-homeomorphism-criterion", "Continuous bijection from compact is a homeomorphism criterion"]
 domains = ["topology"]
-prerequisites = ["shared-foundations/bijective-function", "topology/homeomorphism", "topology/metric-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/bijective-function", "topology/continuous-map", "topology/compact-set", "topology/hausdorff-space", "topology/homeomorphism"]
+dependency_review_count = 1
 legacy_source_path = "topology/continuous-bijection-from-compact-homeomorphism-criterion.md"
 +++
 

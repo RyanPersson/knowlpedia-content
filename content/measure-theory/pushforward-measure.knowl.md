@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The measure obtained by transporting a measure through a measurable map."
 aliases = ["pushforward-measure", "Pushforward measure"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-space", "measure-theory/measurable-function", "measure-theory/measure", "measure-theory/change-of-variables-pushforward"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measure-space","measure-theory/measurable-space","measure-theory/measurable-function","measure-theory/measure"]
+dependency_review_count = 1
 legacy_source_path = "measure-theory/pushforward-measure.md"
 +++
 
@@ -21,7 +20,7 @@ The definition measures subsets of \(Y\) by pulling them back to \(X\). Pushforw
 ## Examples
 
 - Let \(\lambda\) be Lebesgue measure on \([0,1]\) and let \(T(x)=x^2\). Then \(\nu=T_\#\lambda\) satisfies \(\nu([0,t])=\sqrt t\) for \(0\le t\le1\), so \(\nu\) has density \(1/(2\sqrt y)\) on \((0,1]\).
-- If \(\pi_X:X\times Y\to X\) is projection and \(\mu\otimes\nu\) is a [[measure-theory/product-measure|product measure]], then
+- If \(\pi_X:X\times Y\to X\) is projection and \(\mu\otimes\nu\) is a [[measure-theory/product-measure|product measure]] with \(\nu(Y)<\infty\), then
   \[
   (\pi_X)_\#(\mu\otimes\nu)(A)=(\mu\otimes\nu)(A\times Y)=\mu(A)\nu(Y)
   \]

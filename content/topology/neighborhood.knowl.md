@@ -6,8 +6,7 @@ summary = "A set that contains an open set around a given point."
 aliases = ["neighborhood"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/open-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/neighborhood.md"
 +++
 

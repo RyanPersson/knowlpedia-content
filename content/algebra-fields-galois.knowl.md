@@ -5,6 +5,7 @@ kind = "section"
 summary = "Field extensions, splitting fields, Galois groups, and the fundamental theorem."
 aliases = ["algebra-fields-galois", "Algebra: Fields and Galois Theory"]
 domains = ["algebra-fields-galois"]
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/_index.md"
 +++
 

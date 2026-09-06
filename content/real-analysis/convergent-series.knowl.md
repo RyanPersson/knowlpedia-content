@@ -6,8 +6,7 @@ summary = "A series whose partial sums approach a finite limit."
 aliases = ["convergent-series", "Convergent series"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/series", "real-analysis/partial-sums"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/convergent-series.md"
 +++
 

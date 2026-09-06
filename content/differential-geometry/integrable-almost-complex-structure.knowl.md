@@ -5,9 +5,8 @@ kind = "definition"
 summary = "An almost-complex structure induced locally by holomorphic coordinate charts."
 aliases = ["integrable almost complex structure"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/almost-complex-structure", "differential-geometry/holomorphic-map", "differential-geometry/complex-manifold", "differential-geometry/nijenhuis-tensor", "differential-geometry/newlander-nirenberg-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/almost-complex-structure"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A group homomorphism induces an isomorphism from the quotient by its 
 aliases = ["first-isomorphism-theorem-groups", "First Isomorphism Theorem (Groups)"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/kernel-group", "algebra-groups/normal-subgroup", "algebra-groups/group-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/first-isomorphism-theorem-groups.md"
 +++
 

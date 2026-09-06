@@ -6,8 +6,7 @@ summary = "The standard partition of an operator spectrum according to injectivi
 aliases = ["point-continuous-residual decomposition of the spectrum"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/densely-defined-operator", "linear-algebra/banach-space", "functional-analysis/closed-linear-operator", "functional-analysis/spectrum-closed-operator", "linear-algebra/eigenvalue"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

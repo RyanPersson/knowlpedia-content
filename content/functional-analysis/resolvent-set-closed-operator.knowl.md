@@ -6,8 +6,7 @@ summary = "The scalars for which a closed operator has an everywhere-defined bou
 aliases = ["operator resolvent set", "regular set"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/bounded-linear-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "For F ⊣ G, the unit η: Id_C ⇒ G∘F is the natural transformatio
 aliases = ["unit-adjunction", "Unit of an adjunction"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/functor", "algebra-category-theory/adjoint-functors", "algebra-category-theory/natural-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/unit-adjunction.md"
 +++
 

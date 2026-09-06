@@ -6,8 +6,7 @@ summary = "The center of a group is invariant under every automorphism."
 aliases = ["center-is-characteristic", "Center is characteristic"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/center-of-group", "algebra-groups/characteristic-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/center-is-characteristic.md"
 +++
 

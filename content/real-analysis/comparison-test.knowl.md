@@ -6,8 +6,7 @@ summary = "A nonnegative series is controlled by a larger or smaller nonnegative
 aliases = ["comparison-test", "Comparison Test"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/series", "real-analysis/convergent-series", "real-analysis/divergent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/comparison-test.md"
 +++
 

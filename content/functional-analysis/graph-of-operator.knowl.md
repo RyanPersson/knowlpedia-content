@@ -5,9 +5,8 @@ kind = "definition"
 summary = "The subspace of a product space consisting of each domain vector paired with its image."
 aliases = ["operator graph"]
 domains = ["functional-analysis", "linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "functional-analysis/densely-defined-operator", "topology/product-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "topology/product-topology"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

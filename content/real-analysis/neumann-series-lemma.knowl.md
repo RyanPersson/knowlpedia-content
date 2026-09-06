@@ -6,8 +6,7 @@ summary = "Invertibility is stable under small perturbations, with a quantitativ
 aliases = ["neumann-series-lemma", "Determinant nonvanishing implies local invertibility lemma"]
 domains = ["real-analysis"]
 prerequisites = ["linear-algebra/linear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/neumann-series-lemma.md"
 +++
 

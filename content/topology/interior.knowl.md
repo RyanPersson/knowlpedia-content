@@ -6,8 +6,7 @@ summary = "The largest open set contained in a given subset."
 aliases = ["interior"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/interior.md"
 +++
 

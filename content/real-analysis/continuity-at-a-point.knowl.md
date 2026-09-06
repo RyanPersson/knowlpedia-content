@@ -6,8 +6,7 @@ summary = "The epsilon-delta condition that a function preserves closeness near 
 aliases = ["continuity-at-a-point", "Continuity at a point"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/continuity-at-a-point.md"
 +++
 

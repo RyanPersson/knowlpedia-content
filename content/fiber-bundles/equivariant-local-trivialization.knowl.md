@@ -6,8 +6,7 @@ summary = "A local trivialization of a principal bundle that intertwines the rig
 aliases = ["equivariant-local-trivialization", "Equivariant local trivialization"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/right-principal-action", "topology/open-cover", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/equivariant-local-trivialization.md"
 +++
 

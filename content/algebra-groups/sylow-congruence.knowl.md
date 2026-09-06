@@ -6,8 +6,7 @@ summary = "The number n_p of Sylow p-subgroups satisfies n_p ≡ 1 (mod p)."
 aliases = ["sylow-congruence", "Sylow Congruence"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/sylow-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/sylow-congruence.md"
 +++
 

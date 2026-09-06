@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The eigenspace g_α for the adjoint action of a Cartan subalgebra corresponding to a root α."
 aliases = ["root-space", "Root space"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/root-lie-algebra", "lie-groups/root-space-decomposition", "lie-groups/example-sl2c"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/root-lie-algebra"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/root-space.md"
 +++
 

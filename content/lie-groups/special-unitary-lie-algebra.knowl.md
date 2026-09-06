@@ -6,8 +6,7 @@ summary = "The Lie algebra of SU(n): traceless skew-Hermitian matrices with the 
 aliases = ["special-unitary-lie-algebra", "Special unitary Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/special-unitary-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/special-unitary-lie-algebra.md"
 +++
 

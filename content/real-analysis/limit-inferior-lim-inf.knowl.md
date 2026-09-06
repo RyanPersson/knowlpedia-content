@@ -6,8 +6,7 @@ summary = "The smallest limit point of a bounded sequence, or equivalently the s
 aliases = ["limit-inferior-lim-inf", "Limit inferior (lim inf)"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-inferior-lim-inf.md"
 +++
 
@@ -19,7 +18,7 @@ The **limit inferior** (or **lim inf**) of a bounded sequence \((x_n)\) in \(\ma
 ## Characterizations
 For a [[real-analysis/bounded-sequence|bounded sequence]] \((x_n)\), the lim inf equals:
 
-1. The smallest [[topology/limit-point|limit point]] of the sequence.
+1. The smallest subsequential limit (when the sequence is bounded; this includes limits of eventually constant subsequences).
 2. The infimum of the set of all [[real-analysis/subsequence|subsequential]] limits.
 
 ## Properties
@@ -29,7 +28,7 @@ For a [[real-analysis/bounded-sequence|bounded sequence]] \((x_n)\), the lim inf
 - \(\liminf(x_n + y_n) \geq \liminf x_n + \liminf y_n\) (superadditivity).
 
 ## Extended values
-For unbounded sequences: \(\liminf x_n = -\infty\) if \((x_n)\) is unbounded below, and \(\liminf x_n = +\infty\) if \(x_n \to +\infty\).
+For an unbounded sequence, the lim inf is determined by the tail behavior: it is \(-\infty\) when every tail is unbounded below. A finite initial outlier does not affect the lim inf. If \(x_n\to +\infty\), then \(\liminf x_n=+\infty\).
 
 ## Examples
 For \(x_n = (-1)^n + 1/n\): \(\liminf x_n = -1\), \(\limsup x_n = 1\).

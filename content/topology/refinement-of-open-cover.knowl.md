@@ -6,8 +6,7 @@ summary = "A cover that is finer than another, with each set contained in a memb
 aliases = ["refinement-of-open-cover", "Refinement of an open cover"]
 domains = ["topology"]
 prerequisites = ["topology/open-cover", "topology/basis-of-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/refinement-of-open-cover.md"
 +++
 

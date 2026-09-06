@@ -6,8 +6,7 @@ summary = "The natural graded multiplication on singular cohomology induced by m
 aliases = ["cup product", "cohomology ring", "graded cohomology ring"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "algebra-rings/commutative-ring", "topology/singular-cohomology-group", "algebra-modules/graded-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

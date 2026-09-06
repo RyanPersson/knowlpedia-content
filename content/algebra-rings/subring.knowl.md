@@ -6,8 +6,7 @@ summary = "A subset of a ring that is itself a ring under the inherited operatio
 aliases = ["subring"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ring", "shared-foundations/subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/subring.md"
 +++
 

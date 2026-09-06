@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A simple Artinian ring is isomorphic to a full matrix ring over a division ring."
 aliases = ["simple-artinian-matrix-ring", "Simple Artinian rings are matrix rings over division rings"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/artinian-ring", "algebra-rings/division-ring", "algebra-rings/artin-wedderburn-theorem", "algebra-commutative/semisimple-artinian-product", "algebra-rings/field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-commutative/artinian-ring", "algebra-rings/division-ring", "algebra-rings/artin-wedderburn-theorem"]
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/simple-artinian-matrix-ring.md"
 +++
 

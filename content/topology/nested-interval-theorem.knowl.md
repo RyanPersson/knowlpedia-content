@@ -6,8 +6,7 @@ summary = "A nested sequence of nonempty bounded closed intervals in the real li
 aliases = ["nested-interval-theorem", "Nested interval theorem"]
 domains = ["topology"]
 prerequisites = ["real-analysis/interval", "real-analysis/supremum", "real-analysis/infimum"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/nested-interval-theorem.md"
 +++
 

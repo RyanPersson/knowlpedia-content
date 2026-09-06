@@ -5,9 +5,8 @@ kind = "definition"
 summary = "The change-of-coordinates map between the Euclidean images of two overlapping manifold charts."
 aliases = ["change of coordinates", "coordinate change", "chart transition map", "coordinate transformation"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-compatibility-of-charts-and-atlases", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-compatibility-of-charts-and-atlases"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

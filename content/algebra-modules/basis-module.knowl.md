@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A set of elements giving unique finite linear combinations in a free module."
 aliases = ["basis-module", "Basis of a free module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/free-module", "algebra-modules/module", "convex-analysis/linearly-independent-and-linearly-dependent-sets", "convex-analysis/linear-combination", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/module", "convex-analysis/linearly-independent-and-linearly-dependent-sets", "convex-analysis/linear-combination", "linear-algebra/vector-space"]
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/basis-module.md"
 +++
 

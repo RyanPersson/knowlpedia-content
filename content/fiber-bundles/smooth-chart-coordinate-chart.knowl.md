@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A homeomorphism from an open subset of a manifold to an open subset of Euclidean space, providing local coordinates."
 aliases = ["smooth-chart-coordinate-chart", "Smooth chart (coordinate chart)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/coordinate-transition-map", "fiber-bundles/smooth-atlas"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/coordinate-transition-map"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-chart-coordinate-chart.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The image and kernel of a linear operator; bijective linear maps are 
 aliases = ["image-and-kernel-linear-isomorphism", "Image, kernel, and linear isomorphism"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/linear-operator-linear-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/image-and-kernel-linear-isomorphism.md"
 +++
 

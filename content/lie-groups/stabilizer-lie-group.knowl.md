@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "For a smooth action , the stabilizer fixes a point and is a closed Lie subgroup."
 aliases = ["stabilizer-lie-group", "Stabilizer (isotropy subgroup) in a Lie group action"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group", "lie-groups/closed-subgroup-lie-group", "lie-groups/closed-subgroup-theorem", "lie-groups/lie-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/closed-subgroup-lie-group", "lie-groups/lie-subgroup"]
+dependency_review_count = 1
 legacy_source_path = "lie-groups/stabilizer-lie-group.md"
 +++
 

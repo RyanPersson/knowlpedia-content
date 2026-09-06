@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The convex conjugate of an extended-real-valued function, defined by a supremum of affine functionals."
 aliases = ["convex-conjugate-fenchel", "Fenchel conjugate"]
 domains = ["convex-analysis"]
-prerequisites = ["shared-foundations/function", "convex-analysis/convex-function-via-epigraph", "real-analysis/supremum", "convex-analysis/legendre-fenchel-transform"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function", "convex-analysis/convex-function-via-epigraph", "real-analysis/supremum"]
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/convex-conjugate-fenchel.md"
 +++
 

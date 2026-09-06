@@ -6,8 +6,7 @@ summary = "Every projective module is flat, so tensoring with it preserves exact
 aliases = ["projective-implies-flat", "Projective implies flat"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/projective-module", "algebra-modules/flat-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/projective-implies-flat.md"
 +++
 

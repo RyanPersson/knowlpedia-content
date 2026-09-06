@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A differential form whose exterior derivative vanishes."
 aliases = ["closed-differential-form", "Closed differential form"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative", "fiber-bundles/exact-differential-form", "fiber-bundles/de-rham-cohomology-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/closed-differential-form.md"
 +++
 

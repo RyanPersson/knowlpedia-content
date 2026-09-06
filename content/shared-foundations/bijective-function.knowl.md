@@ -6,8 +6,7 @@ summary = "A function that is both injective and surjective."
 aliases = ["bijective-function", "Bijective function"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/function", "shared-foundations/injective-function", "shared-foundations/surjective-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/bijective-function.md"
 +++
 

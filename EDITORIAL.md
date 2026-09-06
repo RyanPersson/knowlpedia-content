@@ -69,7 +69,7 @@ links where a definition or theorem is a genuine dependency.
 
 For editorial review, distinguish three scopes. A full review reads the
 complete knowl and its direct prerequisite definitions, checks the adopted
-conventions, and records source evidence plus a SHA-256 hash of the reviewed
+conventions, and records mathematical evidence plus a SHA-256 hash of the reviewed
 source. A targeted review covers only named claims or sections and does not
 close the full-review queue. A dependencies review checks the complete
 prerequisite list and its provenance; metadata-only changes are not content
@@ -81,3 +81,17 @@ monographs or standard texts for established definitions. Record the exact
 section, theorem, page, or equivalent locator that was actually checked.
 Never describe a rendered build or an automated validation pass as proof of
 mathematical truth.
+
+For elementary claims, specific direct reasoning is valid evidence; leave the
+source list empty when no external source was used. Do not attach a syllabus,
+publisher page, or unrelated chapter to imply a theorem was checked. Unresolved
+claims keep the review targeted. Record partial results early and count only
+accepted full reviews whose source hashes still match.
+
+Prerequisites must form a DAG even before their lists receive an editorial
+review. A definition may mention a later theorem without depending on it.
+Do not remove a theorem's hypotheses or an object's defining ingredients just
+to break a cycle. Resolve circular exposition at its definition boundary and
+retain useful ordinary links. A component already defined within the complete
+data of an object need not become a prerequisite merely because a companion
+knowl extracts that component.

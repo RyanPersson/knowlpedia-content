@@ -6,8 +6,7 @@ summary = "Two functions are a.e. equal if they differ only on a null set."
 aliases = ["ae-equality", "Almost-everywhere equality"]
 domains = ["measure-theory"]
 prerequisites = ["measure-theory/measure-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "measure-theory/ae-equality.md"
 +++
 

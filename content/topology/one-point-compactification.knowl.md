@@ -6,8 +6,7 @@ summary = "A compact space obtained by adjoining one point whose neighborhoods h
 aliases = ["Alexandroff compactification", "point at infinity"]
 domains = ["topology"]
 prerequisites = ["topology/locally-compact-space", "topology/hausdorff-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

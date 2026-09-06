@@ -6,8 +6,7 @@ summary = "A continuous map from an interval of real numbers into a space."
 aliases = ["curve"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/continuous-map", "real-analysis/interval", "topology/path"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "topology/curve.md"
 +++
 

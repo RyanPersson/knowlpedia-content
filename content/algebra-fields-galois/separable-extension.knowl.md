@@ -6,8 +6,7 @@ summary = "An algebraic extension in which every element is separable over the b
 aliases = ["separable-extension", "Separable extension"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/separable-element"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/separable-extension.md"
 +++
 

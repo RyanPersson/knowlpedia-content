@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The submodule mapped to zero by a module homomorphism."
 aliases = ["kernel-module", "Kernel of a module homomorphism"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/submodule", "algebra-modules/kernels-are-submodules", "algebra-modules/exact-sequence-modules"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/submodule"]
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/kernel-module.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A map preserving zero, one, addition, and multiplication."
 aliases = ["homomorphism of semirings", "semiring map"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
 prerequisites = ["algebra-rings/semiring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

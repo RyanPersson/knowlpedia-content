@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The infimum of an objective over a set-valued constraint mapping"
 aliases = ["marginal-optimal-value-function", "Marginal (Optimal Value) Function"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/set-valued-mapping-multifunction-domain-and-graph-convex-set-valued-mapping", "convex-analysis/convexity-of-the-marginal-optimal-value-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["convex-analysis/set-valued-mapping-multifunction-domain-and-graph-convex-set-valued-mapping"]
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/marginal-optimal-value-function.md"
 +++
 

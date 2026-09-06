@@ -6,8 +6,7 @@ summary = "A bilinear alternating operation satisfying the Jacobi identity; for 
 aliases = ["lie-bracket", "Lie bracket"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/left-invariant-vector-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/lie-bracket.md"
 +++
 

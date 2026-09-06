@@ -6,8 +6,7 @@ summary = "A free module on a set represents functions out of that set by unique
 aliases = ["free-module-universal-property", "Free module universal property"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/free-module", "shared-foundations/set", "shared-foundations/function", "algebra-modules/module-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/free-module-universal-property.md"
 +++
 

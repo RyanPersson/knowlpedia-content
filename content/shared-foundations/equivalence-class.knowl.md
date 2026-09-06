@@ -6,8 +6,7 @@ summary = "The set of all elements equivalent to a given element under an equiva
 aliases = ["equivalence-class", "Equivalence class"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/equivalence-relation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/equivalence-class.md"
 +++
 

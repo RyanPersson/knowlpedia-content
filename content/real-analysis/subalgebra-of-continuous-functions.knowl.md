@@ -5,8 +5,7 @@ kind = "knowl"
 summary = "A subset of continuous functions closed under linear combinations and pointwise products."
 aliases = ["subalgebra-of-continuous-functions", "Subalgebra of continuous functions"]
 domains = ["real-analysis"]
-prerequisites = ["topology/topological-space", "real-analysis/space-of-continuous-functions", "algebra-rings/ring", "real-analysis/separates-points", "real-analysis/stone-weierstrass-theorem"]
-dependency_heuristic = "definition-links-v1"
+prerequisites = ["real-analysis/space-of-continuous-functions", "algebra-rings/ring"]
 dependency_review_count = 0
 legacy_source_path = "real-analysis/subalgebra-of-continuous-functions.md"
 +++

@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A rule for differentiating sections along vector fields, linear over constants and satisfying a Leibniz rule."
 aliases = ["connection-on-a-vector-bundle", "Connection on a vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/module-of-smooth-sections", "fiber-bundles/vector-field", "fiber-bundles/leibniz-rule-for-a-connection", "fiber-bundles/covariant-derivative-of-a-section"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/module-of-smooth-sections", "fiber-bundles/vector-field"]
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/connection-on-a-vector-bundle.md"
 +++
 

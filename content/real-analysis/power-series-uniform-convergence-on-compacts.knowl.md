@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "A power series converges uniformly (and absolutely) on every compact subset inside its interval of convergence."
 aliases = ["power-series-uniform-convergence-on-compacts", "Uniform convergence of power series on compact sets"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/power-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/power-series", "topology/compact-set"]
+dependency_review_count = 1
 legacy_source_path = "real-analysis/power-series-uniform-convergence-on-compacts.md"
 +++
 
