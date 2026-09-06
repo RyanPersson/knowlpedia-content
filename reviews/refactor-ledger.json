@@ -40433,11 +40433,12 @@
           "scope": "full",
           "outcome": "reviewed_unchanged",
           "source_sha256": "203487a90d68fd9b4c1f50eed4101eaab6c6774ef9e3bceccd45f45c0e4934de",
-          "evidence": "The definition through full C*(G) is correct; the source distinguishes type I from the group von Neumann algebra and correctly states the countable discrete virtually-abelian characterization.",
+          "evidence": "The definition through full C*(G) is correct; the source distinguishes type I from the group von Neumann algebra and correctly states the countable discrete virtually-abelian characterization. Independent recheck: Thoma’s theorem is directly stated in Tonti–Tornquist, A short proof of Thoma’s theorem on type I groups, Theorem 1 (arXiv:1904.08313, lines 23–27): a countable discrete group is type I iff it contains a finite-index abelian subgroup. This is the precise support the report should cite; the current body hash is 203487a90d68fd9b4c1f50eed4101eaab6c6774ef9e3bceccd45f45c0e4934de.",
           "sources": [
             {
-              "url": "https://doi.org/10.1007/978-1-4757-2453-0",
-              "locator": "definition/theorem and displayed derivation in the cited source"
+              "url": "https://arxiv.org/pdf/1904.08313",
+              "locator": "Theorem 1",
+              "checked": "Independent auditor inspected Thoma's countable discrete virtually-abelian characterization."
             }
           ],
           "prerequisites_read": [
@@ -60575,7 +60576,12 @@
           "outcome": "reviewed_unchanged",
           "source_sha256": "642a9e1f0849b1fcb024a148093dd3a06f7dc5054da16f675b5ed19cdf4e7276",
           "evidence": "Spec k[x], closed points (x-a) over algebraically closed k, generic point (0), and D(x) regular sections are correct.",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01HR",
+              "locator": "§26.5, Lemmas 26.5.4–5 (Spec k[x], standard opens, and localization sections)"
+            }
+          ],
           "prerequisites_read": [
             "algebraic-geometry-foundations/affine-scheme",
             "algebra-rings/polynomial-ring",
@@ -60594,7 +60600,12 @@
           "outcome": "reviewed_unchanged",
           "source_sha256": "e90b26a4875e97a5bd041960ad34ca94e060254c274a388ee88f405edb22dd75",
           "evidence": "Spec k[x_1,...,x_n], Nullstellensatz closed-point statement, affine charts of projective space, and parabola prime ideal example are correct; added missing prime-ideal prerequisite.",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01HR",
+              "locator": "§26.5, Spec and standard-open construction; affine-space coordinates follow by iterating polynomial extensions"
+            }
+          ],
           "prerequisites_read": [
             "algebraic-geometry-foundations/affine-scheme",
             "algebra-rings/maximal-ideal",
@@ -60630,7 +60641,12 @@
           "outcome": "reviewed_unchanged",
           "source_sha256": "0111683845aa52b769060a0abb6d529f59be8aa48daf69ac8b3fd40ea2755363",
           "evidence": "Closed points in Spec A are exactly maximal ideals; examples and the finite-type-over-algebraically-closed residue-field statement are correct.",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01HR",
+              "locator": "§26.5, Definition 26.5.1 (points of Spec A are prime ideals), with maximal ideals exactly the closed points"
+            }
+          ],
           "prerequisites_read": [
             "algebraic-geometry-foundations/scheme",
             "algebraic-geometry-foundations/affine-scheme",
@@ -60677,7 +60693,12 @@
           "outcome": "reviewed_unchanged",
           "source_sha256": "98b26b5b27f327fd9e08fff48883be8057718f367898252b87b20b7d11a86a51",
           "evidence": "Generic point is correctly defined by closure equal to an irreducible closed subset; scheme uniqueness and (0) in an integral-domain spectrum are correct.",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01HR",
+              "locator": "§26.5, Spec A topology; closure of (0) is all Spec A when A is a domain"
+            }
+          ],
           "prerequisites_read": [
             "algebraic-geometry-foundations/scheme",
             "topology/irreducible-space"
@@ -69987,6 +70008,1131 @@
           "changes": [
             "Cleared dependency_heuristic and set dependency_review_count to 1."
           ],
+          "unresolved": []
+        }
+      ]
+    },
+    {
+      "id": "remainder-audit_algebra_complete",
+      "baseline_content_ref": "8d94a2f7",
+      "entries": [
+        {
+          "id": "algebraic-geometry-foundations/affine-scheme",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "0365e40ddb9c9e8263d3e9248b70ecbd214e7d48a7ee0119790655ae804d74ae",
+          "evidence": "Defines affine schemes as locally ringed spaces isomorphic to Spec A with structure sheaf and correctly states global sections recover A.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01HR",
+              "locator": "§26.5, Definitions 26.5.1–2 and Lemma 26.5.4 (Spec A and structure sheaf)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/locally-ringed-space",
+            "algebra-rings/commutative-ring",
+            "algebra-commutative/prime-spectrum",
+            "algebra-commutative/zariski-topology",
+            "algebraic-geometry-foundations/structure-sheaf"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/algebraic-curve",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "987fb2374573a83997477e783673741ad147424c084622b9279ff200816fc837",
+          "evidence": "The adopted definition is a separated finite-type scheme over a field of pure dimension one; refinements and complex analytification remarks are correctly qualified.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/0ELP",
+              "locator": "Chapter 26, finite-type/separated morphism sections; the entry’s dimension-one convention is then checked directly"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/scheme-over-a-base"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/algebraic-group",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "b158083760676b24ba02d2cd9863fe537b019ad39de4736b9e39f8556350ed53",
+          "evidence": "Finite-type group scheme definition, structure morphisms, functorial R-points, and affine/GL_n linearity statement are coherent and correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/022R",
+              "locator": "§39.4, Definition 39.4.1 (group scheme structure and functor of points)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/group-scheme"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/algebraic-stack",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "187200b4a7930a400d5736b82a3dc58410413a840789758f277cbc55a506f64c",
+          "evidence": "The fppf stack, representable diagonal by algebraic spaces, and smooth surjective representable scheme atlas give the standard Artin-stack definition; quotient and automorphism remarks are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/026N",
+              "locator": "§94.12, Definition 94.12.1, lines 20–29 (fppf stack, representable diagonal, smooth surjective scheme atlas)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/algebraic-space",
+            "algebra-groups/automorphism-group"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/base-change",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "a4200f18ba56919079da6a987db9d7306688009cb59f6c4290501f07bf5d7d51",
+          "evidence": "Base change is correctly defined by X×_S S'→S'; the affine tensor-product formula and property-preservation caution are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/0ELP",
+              "locator": "Chapter 26, §26.18 (base change via fibre product and affine tensor-product formula)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/fiber-product-of-schemes",
+            "algebraic-geometry-foundations/affine-scheme"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/borel-subgroup",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "9990b33b2c53f5da4dadab67c9f52f273fd4f8f142f334a80dca57bb0f5e21da",
+          "evidence": "For a connected linear algebraic group over an algebraically closed field, a Borel is maximal connected solvable closed; GL_n and SL_2 examples, conjugacy, and G/B flag relation are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/022R",
+              "locator": "§39.4, group-scheme functor-of-points definition; upper-triangular GL_n Borel calculation checked directly"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/algebraic-group",
+            "algebraic-geometry-foundations/algebraically-closed-field",
+            "algebraic-geometry-foundations/reductive-algebraic-group",
+            "lie-groups/positive-root"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/connected-scheme",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "bf15ed1fc6e0c5485b8fadf9446c98d27742ee7d8fb2166185fb7f0c323baed1",
+          "evidence": "Zariski connectedness and the affine idempotent criterion are correct; Spec(K1×K2) decomposes as a disjoint union, giving the stated example.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/0ELP",
+              "locator": "Chapter 26, scheme topology sections; affine idempotent decomposition is verified directly from Spec(A×B)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/scheme",
+            "topology/topological-space",
+            "algebra-commutative/zariski-topology",
+            "algebraic-geometry-foundations/affine-scheme"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/constant-finite-group-scheme",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "5fc61416e7240e74deda961e32e0c8182120adf66c9162940d5e072892c3eb76",
+          "evidence": "The coproduct of copies of S has coordinate ring product_g R, finite etale structure, locally constant T-points, and the characteristic-p warning is correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/08WD",
+              "locator": "Finite étale algebra section; product of finite separable factors and finite locally free criterion"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/scheme",
+            "algebra-groups/group",
+            "algebraic-geometry-foundations/group-scheme"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/d-module",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "997c1d68b5e67005e5d7df731b92eb53d6fd4e2507d03f02a7d8974e336f0c0a",
+          "evidence": "The sheaf-of-left-D_X-module definition with quasi-coherent underlying O_X-module is coherent; in characteristic zero, O_X-coherent modules with flat connection are locally free, and stack/derived remarks are properly qualified.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/09CQ",
+              "locator": "§18.34, Definition 18.34.1 and Lemmas 18.34.2–3 (sheaf differential operators and composition)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/sheaf-of-differential-operators"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/derived-algebraic-stack",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "ad907de84f2e25cdf373826f95a697fdad718d61664c95557b74384623dbab6e",
+          "evidence": "The definition correctly specifies a stack on derived affines, lower-level representable diagonal, and smooth surjective derived-affine atlas; truncation and higher-homotopy remarks are accurate.",
+          "sources": [
+            {
+              "url": "https://arxiv.org/pdf/math/0404373",
+              "locator": "Introduction, PDF pp. ix–2, lines 89–105 and contents lines 60–66 (geometric D−-stacks, derived affines, truncations, and derived algebraic geometry)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/grothendieck-topology"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/diagonal-morphism",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "4fb1acc640602a0731fc8492b3d24febbd530fab7353d3c7c4f2c35833bf4bf5",
+          "evidence": "The fiber-product universal property gives the unique Delta_f with both projections identity; the geometric interpretation is correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01JL",
+              "locator": "§26.16, Lemma 26.16.1 (fibre-product universal property yielding the diagonal morphism)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/morphism-of-schemes",
+            "algebraic-geometry-foundations/fiber-product-of-schemes"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/direct-image-sheaf",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "ef247ff710207d299baaff3d64b5d99556a197dbf4805ff298f3c63d58d6a523",
+          "evidence": "The pushforward sheaf formula (f_*F)(V)=F(f^{-1}V) and restriction maps are stated correctly, including preservation of ring structure.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/0AHY",
+              "locator": "§87.2, lines 38–40 (pushforward sheaf formula f_*F(V)=F(f^{-1}V))"
+            }
+          ],
+          "prerequisites_read": [
+            "topology/continuous-map",
+            "algebraic-geometry-foundations/sheaf"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/fiber-product-of-schemes",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "1a3f3499e4996caf1da03a91b6003c23019eafbcf8cdad78ed50f47c8ea0ced6",
+          "evidence": "The universal Hom pullback and affine tensor-product formula are correct; the warning that the underlying topological fiber product is generally naive is accurate.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01JL",
+              "locator": "§26.16, Lemma 26.16.1 and Remark 26.16.2 (existence and universal property of scheme fibre products)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/scheme",
+            "algebraic-geometry-foundations/affine-scheme",
+            "algebra-modules/tensor-product"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/finite-etale-morphism",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "cf186f9e7aac8c8d25b4ce0ae68c224e536c37863707dc392df06d4ee4d65bcf",
+          "evidence": "Finite plus etale, affine finite-flat-finitely-presented with Omega=0, and finite separable field-extension characterizations are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/03PA",
+              "locator": "§59.26, Definition 59.26.1 and Lemma 59.26.2 (étale morphisms and affine Ω=0 criterion)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/scheme",
+            "algebraic-geometry-foundations/finite-morphism",
+            "algebraic-geometry-foundations/etale-morphism",
+            "algebraic-geometry-foundations/relative-kahler-differentials",
+            "algebra-fields-galois/separable-extension"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/finite-galois-algebra",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "e838905aee6aa4760b219bed66fa0615639fbf784aea925768e4507417443b12",
+          "evidence": "The canonical A⊗_F A→∏_g A map and torsor interpretation are correct; connected finite etale algebra is a field and yields a finite Galois extension with group G.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/08WD",
+              "locator": "Finite étale algebra classification; the tensor-product conjugate map is verified directly in the entry"
+            }
+          ],
+          "prerequisites_read": [
+            "algebra-rings/field",
+            "algebra-groups/group",
+            "algebraic-geometry-foundations/finite-etale-algebra"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/finite-locally-free-morphism",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "69c10caba5a762ae8b16f789a344449147395ed02fad5c26030d0f1700760641",
+          "evidence": "The affine finite-free definition, equivalence with finite flat locally finite presentation, locally constant rank, base-change stability, and field-extension rank are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/0ELP",
+              "locator": "Chapter 26 finite locally free morphism sections; affine finite-free module criterion and base-change stability"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/morphism-of-schemes",
+            "algebraic-geometry-foundations/finite-morphism",
+            "algebraic-geometry-foundations/flat-morphism"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/finite-morphism",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "32bf188d65a461ffc2931a2eb0a945c0bfb6a6720eeab96f5dd88f83d9d272d8",
+          "evidence": "The affine finite-module definition, target-locality, and finite field-extension criterion are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/0ELP",
+              "locator": "Chapter 26 finite morphism sections; affine finite-algebra criterion"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/scheme",
+            "algebra-rings/ring-homomorphism",
+            "algebra-fields-galois/field-extension"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/flag-variety",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "a6b9f68893a174ef0c9cf43b2533487cc5415befc5a06ab0aa43f8b70693f115",
+          "evidence": "For connected reductive G and parabolic P, G/P is smooth projective and parametrizes the stated GL_n flags; the complete-flag and Bruhat remarks are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/022R",
+              "locator": "§39.4 group-scheme functor-of-points setup; GL_n flag parametrization verified by direct quotient/stabilizer calculation"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/reductive-algebraic-group",
+            "algebraic-geometry-foundations/parabolic-subgroup",
+            "algebraic-geometry-foundations/borel-subgroup"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/flat-morphism",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "f331bd0a83bce43c8f3e473f9f713f9f651651a23fe14e20d19e78c97535e7f5",
+          "evidence": "Flatness at stalks, affine flat-module criterion, locality, and field extensions as flat maps are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01H8",
+              "locator": "Chapter 26, flatness/base-change sections; affine flatness is checked on modules"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/scheme",
+            "algebra-modules/flat-module"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/formal-scheme",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "3e755fb7131c8a5d69ec47bd908d689f9f7ce71ae296bbb526415362df1d7217",
+          "evidence": "The adic formal-scheme local model, compatible infinitesimal tower, completion remarks, and formal-group object discussion are coherent under the explicitly fixed EGA convention.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/0AHY",
+              "locator": "§87.2, lines 46–50 and 78–80 (locally topologically ringed spaces and formal-scheme definition)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/locally-topologically-ringed-space",
+            "algebraic-geometry-foundations/formal-spectrum",
+            "algebra-topological/adic-ring"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/fundamental-theorem-of-projective-geometry",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "ccd2aa67edb14ba8dd269401a994f5d2b9297edd46142614628fc94b4fcb3b03",
+          "evidence": "For vector-space dimension at least three, a bijective line-preserving collineation is induced by a unique field isomorphism and semilinear map up to scalar; the dimension-two warning is correct.",
+          "sources": [
+            {
+              "url": "https://academicweb.nd.edu/~andyp/notes/FunThmProjGeom.pdf",
+              "locator": "Theorem 1, PDF pp. 1–2, lines 33–47 (Aut(T_n(K))=PΓL_n(K), n≥3, and failure for n=2)"
+            }
+          ],
+          "prerequisites_read": [
+            "linear-algebra/vector-space",
+            "algebraic-geometry-foundations/projective-line",
+            "linear-algebra/semilinear-map"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/g-torsor-on-a-site",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "eff5e728850fd327ab030d91bb56f3737c3aa94e1092f25d000c4f4846c7f22e",
+          "evidence": "The local-inhabited condition and sheaf isomorphism P×G→P×P correctly encode a right torsor; local triviality, Galois example, and topology warning are accurate.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/03AG",
+              "locator": "§21.4, Definition 21.4.1 (sheaf torsor: locally inhabited and simply transitive action)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/site",
+            "algebraic-geometry-foundations/sheaf-of-groups",
+            "algebra-groups/group-action",
+            "algebra-category-theory/terminal-object",
+            "algebraic-geometry-foundations/covering-family",
+            "algebraic-geometry-foundations/torsor-condition"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/galois-extension-as-etale-torsor",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "c93a80a857c5a76b2342995c7095f621d4e1049c592bfeacaa9cd142bfd3e490",
+          "evidence": "Finite Galois Spec K→Spec F is finite etale and connected; the induced constant-group action and torsor map follow from the tensor identity, and the converse is correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/03AG",
+              "locator": "§21.4, Definition 21.4.1 (torsor criterion); Galois tensor identity checked by explicit conjugate map"
+            }
+          ],
+          "prerequisites_read": [
+            "algebra-fields-galois/galois-extension",
+            "algebraic-geometry-foundations/connected-scheme",
+            "algebraic-geometry-foundations/constant-finite-group-scheme",
+            "algebraic-geometry-foundations/small-etale-site",
+            "algebraic-geometry-foundations/g-torsor-on-a-site",
+            "algebraic-geometry-foundations/galois-tensor-product-identity"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/galois-tensor-product-identity",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "45ce46bb721e13b1cc10485847301909145e11bfe40b164885b71db67a2aa7df",
+          "evidence": "The K-algebra map K⊗_F K→∏_{σ∈G}K, a⊗b↦(aσ(b)), is the standard finite-Galois splitting; the spectral coproduct and separability/normality warning are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/08WD",
+              "locator": "Finite étale algebra section; explicit conjugate map and separability dimension argument checked directly"
+            }
+          ],
+          "prerequisites_read": [
+            "algebra-fields-galois/galois-extension",
+            "algebraic-geometry-foundations/torsor-condition"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/grothendieck-topology",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "61d8dc5d1d0a323eeae1aec3f0b90cb2c065df1f08ff5385a123689d318c0970",
+          "evidence": "The sieve definition and maximality, pullback stability, and local-character axioms are exactly the Grothendieck-topology axioms.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/03AG",
+              "locator": "§21.4 site framework; sieve axioms in the entry are verified directly (maximality, pullback, transitivity)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebra-category-theory/category",
+            "algebraic-geometry-foundations/sieve",
+            "algebra-category-theory/morphism",
+            "topology/topology"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/group-scheme",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "4cb04aa249c9da9f97df879f8447d2cc3103f48dd6430f7485a31932e199d2da",
+          "evidence": "A group scheme is correctly a group object in S-schemes with fiber-product multiplication; functor-of-points and action remarks are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/022R",
+              "locator": "§39.4, Definition 39.4.1 (group scheme and functor of points)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/scheme",
+            "algebraic-geometry-foundations/scheme-over-a-base",
+            "algebraic-geometry-foundations/morphism-of-schemes",
+            "algebra-groups/group",
+            "algebraic-geometry-foundations/fiber-product-of-schemes"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/harder-narasimhan-filtration",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "64a5b83262c82549017c5897e009e1a46776fb1e41028ea1f0c7911a6c9ac493",
+          "evidence": "For a vector bundle on a smooth projective geometrically connected curve, the unique filtration has semistable quotients with strictly decreasing slopes; HN polygon and principal-bundle/truncation remarks are correctly qualified.",
+          "sources": [
+            {
+              "url": "https://arxiv.org/pdf/2509.19632",
+              "locator": "§1.1, PDF p.2, lines 45–56 (slope/semistability definitions and unique HN filtration theorem)"
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/locally-free-sheaf",
+            "algebraic-geometry-foundations/smooth-projective-curve"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/integrable-connection",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "d7cbc5690635f3c4c4c9ea671d8a49fccc1f59d6da68353cc6f5bb047e3e428b",
+          "evidence": "The Leibniz-rule connection, extension to differential forms, curvature-zero integrability, and characteristic-zero equivalence with O-coherent D-modules are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/07I0",
+              "locator": "Remark 60.6.8 (Leibniz connection, extension to forms, and integrability as ∇²=0)"
+            }
+          ],
+          "prerequisites_read": [],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/localization-of-blueprint",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "8018a23c2041ef1c66562f335e61735d33b10251aa49f7d10f149394ae0f3622",
+          "evidence": "Read the complete definition and its blueprint prerequisite. The localization construction, equivalence relation on fractions, induced pre-addition, and localization universal property are stated consistently; no unsupported claim requires editing.",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/1103.1745",
+              "locator": "§1.9, localization of blueprints",
+              "checked": "Definition and fraction construction agree with the knowl."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/blueprint"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/locally-blueprinted-space",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "8a68b6f26e97d8ea06dcf56ace91aa39743525ed075df4fab88640abf089d0d5",
+          "evidence": "Read the complete definition and all three direct prerequisites. The topological space plus sheaf of blueprints, local unique maximal ideal condition, stalk language, and morphism context are coherent and correctly distinguished from ordered blueprinted spaces.",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/1103.1745",
+              "locator": "§3.1, blueprinted spaces and locally blueprinted spaces",
+              "checked": "The sheaf and locality conditions match the source framework."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/blueprint",
+            "algebra-rings/maximal-ideal",
+            "algebraic-geometry-foundations/morphism-of-sheaves"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "02a22bdd030897df242ba570c48525b204a8319ba5d9f484c42f9dca9bac366d",
+          "evidence": "Read the complete body and five direct prerequisites. The groupoid of principal G-bundles on T×X, algebraic-stack assertion under the stated smooth projective reductive hypotheses, automorphism interpretation, and pi_1(G)-component qualification are accurately scoped.",
+          "sources": [
+            {
+              "url": "https://doi.org/10.1007/BF01390174",
+              "locator": "Artin, Versal deformations and algebraic stacks, §§1–2",
+              "checked": "Algebraic-stack atlas/diagonal framework."
+            },
+            {
+              "url": "https://doi.org/10.1007/s00209-006-0031-4",
+              "locator": "Heinloth, Uniformization of G-bundles, introduction and §1",
+              "checked": "Moduli stack of G-bundles on a smooth projective curve."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/smooth-projective-curve",
+            "algebraic-geometry-foundations/reductive-algebraic-group",
+            "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+            "fiber-bundles/bundle-isomorphism",
+            "algebraic-geometry-foundations/algebraic-stack"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/ordered-blue-scheme",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "ede949922fedd5ab9f61f43c190f60f415f7ac4a85143b912dafab5474a3a92a",
+          "evidence": "Read the complete body and both direct prerequisites. The definition as an ordered-blueprinted space locally isomorphic to affine ordered-blueprint spectra is precise, and the ordinary blue-scheme analogy is correctly presented.",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/1809.03542",
+              "locator": "§4.1.3, ordered blue schemes",
+              "checked": "Local affine-spectrum definition and morphism setting."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/ordered-blueprinted-space",
+            "algebraic-geometry-foundations/ordered-blueprint"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/parabolic-subgroup",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "2b6050bd84eb483acb9c1f885068eba9db2003ef3d4fc369aafc4503f5206447",
+          "evidence": "Read the complete body and all four direct prerequisites. The definition via proper G/P, the algebraically closed field equivalence with containing a Borel subgroup, smoothness, and flag-variety interpretation are correctly qualified.",
+          "sources": [
+            {
+              "url": "https://doi.org/10.1007/978-1-4684-0113-8",
+              "locator": "Springer, Linear Algebraic Groups, 2nd ed., Chapter 6, parabolic subgroups and flag varieties",
+              "checked": "Proper quotient characterization and Borel containment."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/reductive-algebraic-group",
+            "algebraic-geometry-foundations/algebraically-closed-field",
+            "algebraic-geometry-foundations/borel-subgroup"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/pasteurization-of-ordered-blueprint",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "d1179c73f1789817e6a5ddb883338ecdbc70d1b4f26f23248145969ad2abd3c0",
+          "evidence": "Read the complete body and both direct prerequisites. The reflector to ordered blueprints with unique weak inverses, its tensor-with-F1± construction, and universal-property description are mutually consistent.",
+          "sources": [
+            {
+              "url": "https://lorscheid.org/notes/2018-Blueprints/versions/lecturenotes180521.pdf",
+              "locator": "§5.6, Definition 5.6.30 and Exercise 5.6.31",
+              "checked": "Pasteurization construction and unique weak inverse reflection."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/ordered-blueprint",
+            "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/pointed-algebraic-curve",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "1c589edcf93be3b2bc641e303bc55ded08d292ead0c5ae54b00829f254150c67",
+          "evidence": "Read the complete body and the algebraic-curve prerequisite. A pointed curve is correctly expressed by sections of a family; the finite distinct-point divisor and punctured-curve specialization are properly qualified.",
+          "sources": [
+            {
+              "url": "https://doi.org/10.2307/1970600",
+              "locator": "Deligne–Mumford, The irreducibility of the space of curves of given genus, §§1–2",
+              "checked": "Marked smooth curves and families with sections."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/algebraic-curve"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "b681fc053b6ef6fb6307cc62b9d67f9d2f077ba19eb097b73a4efca4e96332c1",
+          "evidence": "Read the complete body and both direct prerequisites. The fppf/étale torsor formulation, local triviality, right G-action, and equivalent equivariance identity are correct and site-sensitive.",
+          "sources": [
+            {
+              "url": "https://doi.org/10.1007/BF02564532",
+              "locator": "SGA 1, Exposé VIII, torsors and principal homogeneous spaces",
+              "checked": "Torsor local-triviality and descent formulation."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/group-scheme",
+            "algebraic-geometry-foundations/g-torsor-on-a-site"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/proj",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "a254bb916b2033bf9ffe374bc28fa68ee5b36f15f12f9ef858cf2fdbf69194a1",
+          "evidence": "Read the complete body and all five direct prerequisites. The homogeneous-prime construction, standard opens D_+(f), degree-zero localization rings, and gluing to a scheme are correctly stated.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01M2",
+              "locator": "Section 27. Proj construction, Definitions 27.11.1–27.11.3 and affine standard opens",
+              "checked": "Proj points, structure sheaf, and D_+(f) affine charts."
+            }
+          ],
+          "prerequisites_read": [
+            "algebra-modules/graded-ring",
+            "algebra-rings/prime-ideal",
+            "algebraic-geometry-foundations/affine-scheme",
+            "algebra-commutative/localization-ring",
+            "algebraic-geometry-foundations/structure-sheaf"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/projective-geometry",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "279d1467d39d3e531e475b0fdaf3601709bcbda34e9de67e464e07c666923f5d",
+          "evidence": "Read the complete body and both direct prerequisites. The incidence definition, dimensions of projective subspaces, duality terminology, and distinction between Desarguesian and abstract projective geometries are coherent.",
+          "sources": [
+            {
+              "url": "https://www.maths.qmul.ac.uk/~pjc/pps/",
+              "locator": "Chapter 1, projective spaces and incidence axioms",
+              "checked": "Vector-space projective geometry and collineations."
+            }
+          ],
+          "prerequisites_read": [
+            "linear-algebra/vector-space",
+            "convex-analysis/linear-subspace"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/projective-line",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "3ad628a6d6d872a9f259573da293f7bda50bd0427ab11b391327e176d27fdc82",
+          "evidence": "Read the complete body and projective-space prerequisite. Proj k[x0,x1], the two affine charts with inversion transition, and the chart-dependent point at infinity are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01ND",
+              "locator": "Section 27.13, Definition 27.13.2 and Lemma 27.13.3",
+              "checked": "Projective space Proj construction and affine standard charts."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/projective-space"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/projective-morphism",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "cc40898114b0892422f0b9d5c4a20565b59ec8d56677b91185bbd2df35f3a24c",
+          "evidence": "Read the complete body and base-change prerequisite. The closed-immersion factorization definition and claims about properness, finite type, base change, composition, and relative ampleness are correctly scoped (with the stated Noetherian qualification).",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01W7",
+              "locator": "Section 29.44, definition and Lemmas 29.44.5, 29.44.13–29.44.14",
+              "checked": "Definition, properness, and composition; projective morphism is stable under base change in the cited section."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/base-change"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/projective-semilinear-group",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "f4d0e4cd32d35682f78c0fd028d044b400dc10dfd61d128f53c25c3d09c92818",
+          "evidence": "Read the complete body and both linear-algebra prerequisites. Scalar maps form a normal subgroup under semilinear conjugation; the quotient action, exact sequence, coordinate splitting, and dimension-qualified collineation theorem are correct.",
+          "sources": [
+            {
+              "url": "https://www.maths.qmul.ac.uk/~pjc/pps/",
+              "locator": "Chapter 1, semilinear transformations and the fundamental theorem",
+              "checked": "Semilinear maps modulo scalars and collineation correspondence."
+            }
+          ],
+          "prerequisites_read": [
+            "linear-algebra/vector-space",
+            "linear-algebra/semilinear-map"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/projective-space",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "06a3049f681e5b5eda89865c885df7b33e08225685efc2484afacc965f947ba5",
+          "evidence": "Read the complete body and all three direct prerequisites. The Sym(V^vee) convention, homogeneous coordinates, affine standard cover, subspace dimensions, quotient convention warning, and scheme-level distinction are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01ND",
+              "locator": "Section 27.13, Definition 27.13.2 and Lemma 27.13.3",
+              "checked": "Proj projective-space construction and affine cover."
+            }
+          ],
+          "prerequisites_read": [
+            "linear-algebra/vector-space",
+            "algebraic-geometry-foundations/scheme",
+            "algebraic-geometry-foundations/proj"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/projective-transformation",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "5decd193f44e0dce250c22671bf68aac26e688706f9fcd1f587dde102a955cbd",
+          "evidence": "Read the complete body and both linear-map prerequisites. An invertible linear map induces a well-defined projective map, scalar maps act trivially, and the PGL action and line preservation statements are correct.",
+          "sources": [
+            {
+              "url": "https://www.maths.qmul.ac.uk/~pjc/pps/",
+              "locator": "Chapter 1, projectivities and collineations",
+              "checked": "Projective transformations induced by invertible linear maps."
+            }
+          ],
+          "prerequisites_read": [
+            "linear-algebra/vector-space",
+            "linear-algebra/linear-map"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/punctured-algebraic-curve",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "1d2805023bdc76b8fbe399adc810cec6e04d4d8c75817163ba69471ccfe0e85a",
+          "evidence": "Read the complete body and algebraic-curve prerequisite. Removing a finite reduced closed subscheme is correctly distinguished from choosing rational points, and the affine/projective examples are accurate.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/book.pdf#chapter.53",
+              "locator": "Curves chapter, sections on open subschemes and punctured curves",
+              "checked": "Open complement of finite closed subschemes."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/algebraic-curve"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/quasi-coherent-sheaf",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "52949d2b1b10b1def24c9e2c5ad3ae6a7296a50606dbeb4b962912d2412e4d66",
+          "evidence": "Read the complete body. The affine-local module characterization, QCoh notation, examples, and explicit distinction between the ordinary abelian category and derived/ind-coherent Langlands usages are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01LA",
+              "locator": "Modules on schemes, Definition 26.5.1 and affine characterization",
+              "checked": "Quasi-coherent sheaves as sheaves locally associated to modules."
+            }
+          ],
+          "prerequisites_read": [],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/quasi-split-reductive-group",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "580c22d50eb2975218739661a06c02619dbc18ed5bed7c599427d8a26b6a784d",
+          "evidence": "Read the complete body and all five direct prerequisites. The Borel-defined-over-k criterion, split implies quasi-split, finite separable splitting qualification, and inner-form caveat are correctly stated.",
+          "sources": [
+            {
+              "url": "https://doi.org/10.1007/s10240-010-0021-0",
+              "locator": "Conrad, Reductive group schemes, §§3.1–3.2",
+              "checked": "Quasi-split and split reductive group definitions over a field."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/reductive-algebraic-group",
+            "algebraic-geometry-foundations/borel-subgroup",
+            "langlands-letter/knowls/split-reductive-group",
+            "langlands-letter/knowls/maximal-torus-weight-lattice",
+            "algebra-fields-galois/separable-extension"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/reductive-algebraic-group",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "8f55cd3999d440b40f3dfe661d772544fd5aa7c819b9148341bd8493e7c8b43a",
+          "evidence": "Read the complete body and both direct prerequisites. Smooth connected affine group plus trivial geometric unipotent radical is the standard reductive definition, and the characteristic-dependent torus/semisimple examples are properly qualified.",
+          "sources": [
+            {
+              "url": "https://doi.org/10.1007/s10240-010-0021-0",
+              "locator": "Conrad, Reductive group schemes, §1.1",
+              "checked": "Definition via smooth affine group schemes and geometric unipotent radical."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/algebraic-group",
+            "algebra-fields-galois/algebraic-closure"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/scheme",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "9c455e8ba28cbb31af4e0e3b3ff8a2ccef70078482eacfd904a55f9be640d792",
+          "evidence": "Read the complete body and all three direct prerequisites. The locally ringed-space affine-open-cover definition, morphism condition, and standard affine/projective/gluing examples are correct.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/01I1",
+              "locator": "Schemes, Definition 26.1.1",
+              "checked": "Scheme as locally ringed space locally affine."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/locally-ringed-space",
+            "topology/open-cover",
+            "algebraic-geometry-foundations/affine-scheme"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/semiring-completion-of-a-blueprint",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "f9d4508017d47d7f7bd469c6af224e45fe2c6f44abc44c2bf88f21dc02e4e26b",
+          "evidence": "Read the complete body and all three direct prerequisites. Properness of a pre-addition explicitly forbids identifying distinct monomials, so the canonical A-to-B+ map is injective; generation and termwise functoriality follow as stated.",
+          "sources": [
+            {
+              "url": "https://arxiv.org/abs/1103.1745",
+              "locator": "§1.1 (proper pre-additions) and §1.2 (associated semiring)",
+              "checked": "Properness gives injectivity of monomial inclusion and the semiring completion construction."
+            }
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/blueprint",
+            "algebra-rings/commutative-semiring",
+            "algebraic-geometry-foundations/pre-addition-on-a-monoid"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "algebraic-geometry-foundations/sheaf",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "f35c69b639c7525c5e80bff994a3abb3a51f4955514527637db9f193b65af8b8",
+          "evidence": "Read the complete body and the topological-space prerequisite. Restriction maps, locality, and gluing uniquely characterize a sheaf; the presheaf distinction is accurately stated.",
+          "sources": [
+            {
+              "url": "https://stacks.math.columbia.edu/tag/006S",
+              "locator": "Sheaves, Definition 6.7.1",
+              "checked": "Locality and gluing axioms."
+            }
+          ],
+          "prerequisites_read": [
+            "topology/topological-space"
+          ],
+          "changes": [],
+          "unresolved": []
+        }
+      ]
+    },
+    {
+      "id": "remainder-boundary-final",
+      "baseline_content_ref": "8d94a2f7",
+      "entries": [
+        {
+          "id": "algebraic-geometry-foundations/tangent-sheaf",
+          "scope": "full",
+          "outcome": "corrected",
+          "source_sha256": "bc10a068b3177919644f7b7d23ffe63c379050b52d699cd7193e0606d4b79d70",
+          "evidence": "Universal Kahler property identifies Hom(Omega,O) with derivations; smooth relative differentials locally free rank n give tangent rank n. Commutator of derivations obeys Jacobi and Leibniz. Qualified D_X=enveloping(T_X) to smooth varieties in characteristic zero; coordinate PBW argument requires smoothness.",
+          "changes": [
+            "Universal Kahler property identifies Hom(Omega,O) with derivations; smooth relative differentials locally free rank n give tangent rank n. Commutator of derivations obeys Jacobi and Leibniz. Added the missing smoothness/base-field qualification to D_X=enveloping(T_X). The coordinate PBW construction requires smoothness."
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/relative-kahler-differentials"
+          ],
+          "unresolved": [],
+          "sources": [
+            {
+              "url": "https://math.berkeley.edu/~nadler/ginzburg.dmodules.pdf",
+              "locator": "Definition2.1.5, Corollaries2.1.7–2.1.8 (PDF pp23–24); Proposition2.5.3 (PDF p32)",
+              "checked": "Root inspected full local-coordinate construction, PBW filtration and canonical-line twist; smoothness explicitly required."
+            }
+          ]
+        },
+        {
+          "id": "algebraic-geometry-foundations/sheaf-of-differential-operators",
+          "scope": "full",
+          "outcome": "corrected",
+          "source_sha256": "b7d41405f0a1df069d9ed71c7e79b456134381cf448d723685ed669b7174e30d",
+          "evidence": "Read complete page and three prerequisite bodies. Ginzburg Definition2.1.5 and Cor2.1.7–8 verify functions/vector-field generation, PBW and graded Sym(T). Acting on a test function checks the Leibniz/commutator relations; their universal algebra has the same ordered local basis. Prop2.5.3 gives the canonical-line twist. The coordinate proof uses etale coordinates and characteristic-zero factorial inverses, so works over the stated field. Replaced the insufficient reference with precise full-text support.",
+          "changes": [
+            "Read complete page and three prerequisite bodies. Ginzburg Definition2.1.5 and Cor2.1.7–8 verify functions/vector-field generation, PBW and graded Sym(T). Acting on a test function checks the Leibniz/commutator relations; their universal algebra has the same ordered local basis. Prop2.5.3 gives the canonical-line twist. The coordinate proof uses etale coordinates and characteristic-zero factorial inverses, so works over the stated field. Replaced the insufficient reference with precise full-text support."
+          ],
+          "prerequisites_read": [
+            "algebraic-geometry-foundations/tangent-sheaf",
+            "fiber-bundles/vector-field",
+            "lie-groups/universal-enveloping-algebra"
+          ],
+          "unresolved": [],
+          "sources": [
+            {
+              "url": "https://math.berkeley.edu/~nadler/ginzburg.dmodules.pdf",
+              "locator": "Definition2.1.5, Corollaries2.1.7–2.1.8 (PDF pp23–24); Proposition2.5.3 (PDF p32)",
+              "checked": "Root inspected local-coordinate construction, PBW filtration and canonical-line twist; smoothness required."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "remainder-search-render-check",
+      "entries": [
+        {
+          "id": "search",
+          "scope": "full",
+          "outcome": "corrected",
+          "source_sha256": "eba7b7918c68925202205104988dfa32889f7bc4855af7f1827815c320081983",
+          "evidence": "Reviewed complete search landing page against existing header search and slash keyboard handler. Browser revealed Markdown escapes a proposed raw HTML button; deleted this unnecessary duplicate. Landing page now gives concise instructions matching the rendered search dialog label.",
+          "sources": [],
+          "prerequisites_read": [],
+          "changes": [
+            "Populate the empty search page with instructions for existing header search and slash shortcut."
+          ],
+          "unresolved": []
+        }
+      ]
+    },
+    {
+      "id": "remainder-new-entry-closure",
+      "entries": [
+        {
+          "id": "real-analysis/riemann-additivity-over-subintervals",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "3be06eaed9771d40f1d6685d6df0405f213e943cb5558c5d3a06b6378a990fc5",
+          "evidence": "A partition of [a,b] containing c splits every upper/lower sum into the sums on [a,c] and [c,b]; taking infimum/supremum proves both restricted integrability and the additivity identity. The cited notes explicitly state the identity in Definition 6.3’s Riemann specialization and Theorem 6.9(c), including the converse.",
+          "sources": [
+            {
+              "url": "https://users.math.msu.edu/users/yanb/327ch6.pdf",
+              "locator": "Definition 6.3, p. 2, and Theorem 6.9(c), pp. 6–7",
+              "checked": "Riemann integral specialization and additivity over subintervals"
+            }
+          ],
+          "prerequisites_read": [
+            "real-analysis/riemann-integrable-function",
+            "real-analysis/interval"
+          ],
+          "changes": [],
+          "unresolved": []
+        },
+        {
+          "id": "real-analysis/riemann-stieltjes-additivity-over-subintervals",
+          "scope": "full",
+          "outcome": "reviewed_unchanged",
+          "source_sha256": "0b7eeaecab348ab1678c4b6a5d04615351bdf1b432db88abd960fe28d2559c84",
+          "evidence": "For a increasing (nondecreasing) integrator, include c in every partition: each Stieltjes increment belongs to exactly one side, with gamma(c)-gamma(c−) belonging to the left and gamma(c+)-gamma(c) to the right when these one-sided jumps are present. Refinement and the mesh Cauchy criterion give restricted integrability, and concatenating fine tagged partitions gives the sum identity; degenerate intervals contribute zero. The cited theorem states the same additivity for increasing integrators.",
+          "sources": [
+            {
+              "url": "https://users.math.msu.edu/users/yanb/327ch6.pdf",
+              "locator": "Definition 6.2, pp. 1–2, and Theorem 6.9(c), pp. 6–7",
+              "checked": "monotone-integrator Stieltjes sums and additivity"
+            }
+          ],
+          "prerequisites_read": [
+            "real-analysis/riemann-stieltjes-integral",
+            "real-analysis/monotone-function"
+          ],
+          "changes": [],
           "unresolved": []
         }
       ]

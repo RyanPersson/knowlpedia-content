@@ -38,6 +38,4 @@ choice. A geometric-Langlands statement must fix one convention.
 
 ## References
 
-1. Joseph Bernstein, “Algebraic theory of D-modules,” unpublished lecture
-   notes, 1983; English translation hosted by
-   [MPIM](https://www.mpim-bonn.mpg.de/node/6072).
+1. Victor Ginzburg, [*Lectures on D-modules*](https://math.berkeley.edu/~nadler/ginzburg.dmodules.pdf), §2.1, Definition 2.1.5 and Corollaries 2.1.7–2.1.8 (generators and order filtration); §2.5.2, Proposition 2.5.3 (left and right modules).

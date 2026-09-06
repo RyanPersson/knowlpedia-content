@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "complete",
   "baseline_content_ref": "8d94a2f7",
   "fixed_corpus_baseline": "ea7256bd",
   "starting_full_reviews": 1049,
@@ -1529,8 +1529,8 @@
           "path": "content/algebraic-geometry-foundations/integrable-connection.knowl.md"
         }
       ],
-      "accepted_full_reviews": 22,
-      "status": "independent_review"
+      "accepted_full_reviews": 50,
+      "status": "accepted"
     },
     {
       "lane": "algebraic_geometry_foundations_2",
@@ -1790,8 +1790,8 @@
           "path": "content/algebraic-geometry-foundations/sheaf-of-differential-operators.knowl.md"
         }
       ],
-      "accepted_full_reviews": 27,
-      "status": "independent_review"
+      "accepted_full_reviews": 50,
+      "status": "accepted"
     },
     {
       "lane": "algebraic_geometry_foundations_3",
@@ -13128,5 +13128,24 @@
       "posts_1"
     ],
     "note": "29 authors own the first 34 lanes; three independent auditor slots reserved. Later lanes dispatch as authors finish."
+  },
+  "completed_full_reviews": 2442,
+  "remaining_full_reviews": 0,
+  "validation": {
+    "fixed_corpus_fully_reviewed": 3491,
+    "fixed_corpus_remaining": 0,
+    "all_current_source_entries_fully_reviewed": 3493,
+    "stale_full_reviews": 0,
+    "cumulative_content_corrections": 120,
+    "canonical_prerequisite_nodes": 3491,
+    "canonical_prerequisite_edges": 9892,
+    "cycles": 0,
+    "missing_targets": 0,
+    "self_dependencies": 0,
+    "python_tests_passed": 102,
+    "production_render_errors": 0,
+    "production_canonical_entries": 3491,
+    "development_canonical_entries": 4677,
+    "existing_alias_warnings": 10
   }
 }

@@ -28,10 +28,9 @@ smooth over \(S\) of relative dimension \(n\), then
 
 ## Lie bracket
 
-The commutator of derivations gives \(\mathcal T_{X/S}\) a [[fiber-bundles/lie-bracket|Lie bracket]]. Along
-with its action on \(\mathcal O_X\), this makes it the Lie algebroid whose
-[[lie-groups/universal-enveloping-algebra|enveloping algebra]] is the sheaf \(\mathcal D_X\) of differential operators in
-characteristic \(0\).
+The commutator of derivations gives \(\mathcal T_{X/S}\) a [[fiber-bundles/lie-bracket|Lie bracket]]. Together with its action on \(\mathcal O_X\), this gives a Lie algebroid.
+When \(X\) is smooth over a field of characteristic \(0\), the
+[[lie-groups/universal-enveloping-algebra|enveloping algebra]] of \(\mathcal T_X\) is the sheaf \(\mathcal D_X\) of differential operators.
 
 ## References
 
