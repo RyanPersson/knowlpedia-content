@@ -6,8 +6,7 @@ summary = "Metric coefficient matrices transform by inverse congruence under a c
 aliases = ["Riemannian metric change of coordinates", "metric tensor coordinate transformation law"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/riemannian-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

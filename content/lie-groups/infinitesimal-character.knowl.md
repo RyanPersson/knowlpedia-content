@@ -6,8 +6,7 @@ summary = "An algebra character through which the center of an enveloping algebr
 aliases = ["central character of U(g)", "Harish-Chandra infinitesimal character"]
 domains = ["lie-groups", "algebra-representation-theory"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/universal-enveloping-algebra", "algebra-modules/algebra-homomorphism", "lie-groups/center-of-universal-enveloping-algebra", "lie-groups/harish-chandra-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

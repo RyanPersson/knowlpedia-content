@@ -6,8 +6,7 @@ summary = "The internal parametrization of local L-packets, simultaneously acros
 aliases = ["refined LLC", "internal parametrization of L-packets", "enhanced local Langlands correspondence"]
 domains = ["langlands", "harmonic-analysis"]
 prerequisites = ["algebraic-geometry-foundations/quasi-split-reductive-group", "algebra-fields-galois/local-field", "langlands/whittaker-datum", "langlands/local-l-parameter", "algebra-representation-theory/irreducible-representation", "langlands/rigid-inner-twist", "algebra-representation-theory/central-character"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A hyper-Hermitian metric whose three Hermitian structures share a met
 aliases = ["hyperkähler with torsion metric", "hyper-Kähler with torsion", "HKT geometry"]
 domains = ["differential-geometry", "quaternionic-analysis"]
 prerequisites = ["differential-geometry/hyperhermitian-manifold", "differential-geometry/fundamental-form-almost-hermitian"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

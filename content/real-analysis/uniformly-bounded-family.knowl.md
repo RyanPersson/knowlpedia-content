@@ -6,8 +6,7 @@ summary = "A family of functions bounded by a single constant on the whole domai
 aliases = ["uniformly-bounded-family", "Uniformly bounded family"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/supremum-norm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/uniformly-bounded-family.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "Strictly upper triangular matrices form a nilpotent Lie algebra under
 aliases = ["example-strictly-upper-triangular", "Example: strictly upper triangular matrices"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/nilpotent-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/example-strictly-upper-triangular.md"
 +++
 

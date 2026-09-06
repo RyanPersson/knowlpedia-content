@@ -6,8 +6,7 @@ summary = "The fully faithful embedding that regards additive equalities as an o
 aliases = ["blueprints embedded in ordered blueprints", "canonical ordered blueprint of a blueprint"]
 domains = ["algebraic-geometry-foundations", "algebra-category-theory"]
 prerequisites = ["algebraic-geometry-foundations/blueprint", "algebraic-geometry-foundations/ordered-blueprint", "algebraic-geometry-foundations/semiring-completion-of-a-blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

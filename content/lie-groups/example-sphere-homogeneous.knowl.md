@@ -6,12 +6,11 @@ summary = "The sphere is a homogeneous space under the standard transitive actio
 aliases = ["example-sphere-homogeneous", "Example: the sphere as a homogeneous space"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/special-orthogonal-group", "lie-groups/smooth-action-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/example-sphere-homogeneous.md"
 +++
 
-Consider the standard action of [[lie-groups/special-orthogonal-group|\(SO(n{+}1)\)]] on \(\mathbb R^{n+1}\), hence on the unit sphere
+For \(n\geq1\), consider the standard action of [[lie-groups/special-orthogonal-group|\(SO(n{+}1)\)]] on \(\mathbb R^{n+1}\), hence on the unit sphere
 \[
 S^n=\{x\in\mathbb R^{n+1}:\|x\|=1\}.
 \]

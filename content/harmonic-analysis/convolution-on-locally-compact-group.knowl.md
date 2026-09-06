@@ -6,8 +6,7 @@ summary = "The product of functions obtained by integrating one function against
 aliases = ["group convolution", "convolution of functions on a group", "f star g"]
 domains = ["harmonic-analysis", "functional-analysis", "algebra-groups"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "measure-theory/lebesgue-integral", "measure-theory/ae-equality"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

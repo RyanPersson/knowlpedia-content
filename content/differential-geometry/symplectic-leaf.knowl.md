@@ -6,8 +6,7 @@ summary = "A symplectic leaf is a maximal connected integral manifold of the cha
 aliases = ["leaf of a Poisson manifold"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/poisson-manifold", "differential-geometry/immersed-submanifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

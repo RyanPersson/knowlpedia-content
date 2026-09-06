@@ -6,8 +6,7 @@ summary = "Principal GL(n) bundle of ordered tangent frames on a smooth n-manifo
 aliases = ["frame-bundle-fr-of-a-manifold-m", "Frame bundle of a manifold"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/principal-g-bundle", "fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/frame-bundle-fr-of-a-manifold-m.md"
 +++
 

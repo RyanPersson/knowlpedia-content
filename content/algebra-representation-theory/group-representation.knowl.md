@@ -6,8 +6,7 @@ summary = "A linear action of a group on a vector space, equivalently a homomorp
 aliases = ["group-representation", "Group representation"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/group-representation.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A scheme equipped with a specified morphism to a fixed base scheme."
 aliases = ["scheme-over-a-base", "Scheme over a base", "scheme over a scheme", "S-scheme"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/morphism-of-schemes"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 Let \(S\) be a [[algebraic-geometry-foundations/scheme|scheme]]. A **scheme over \(S\)**, or **\(S\)-scheme**, is a scheme \(X\) equipped with a specified [[algebraic-geometry-foundations/morphism-of-schemes|morphism of schemes]]

@@ -6,8 +6,7 @@ summary = "A real Hilbert space with a continuous skew form, weakly or strongly 
 aliases = ["symplectic-hilbert-space", "Symplectic Hilbert Space (K,B)"]
 domains = ["shale-paper"]
 prerequisites = ["linear-algebra/hilbert-space", "shale-paper/symplectic-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/symplectic-hilbert-space.md"
 +++
 

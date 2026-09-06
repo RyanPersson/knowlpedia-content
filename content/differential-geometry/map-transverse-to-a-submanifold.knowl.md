@@ -6,8 +6,7 @@ summary = "A smooth map whose differential and the submanifold tangent space spa
 aliases = ["transversality to a submanifold", "f transverse to S"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/transverse-smooth-maps"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A unitary transform on Gaussian L₂ intertwining T with T^{*-1}"
 aliases = ["wiener-transform", "Wiener Transform W"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/wiener-transform.md"
 +++
 

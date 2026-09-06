@@ -14,8 +14,11 @@ section_mode = "progressive"
 Let \(k\) be a field, put \(F=k((t))\) and \(\mathcal O=k[[t]]\), and let \(G\)
 be a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 group]]. For a
-[[langlands/strongly-regular-semisimple-element|regular semisimple]] element
-\(\gamma\) of its [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g(F)\),
+regular semisimple element \(\gamma\) of its
+[[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g(F)\) whose Lie-algebra
+centralizer is a maximal torus (the Lie-algebra analogue of a
+[[langlands/strongly-regular-semisimple-element|strongly regular semisimple
+element]]),
 the **affine Springer fiber** is the subspace
 
 \[

@@ -6,8 +6,7 @@ summary = "An irreducible unitary representation having a nonzero matrix coeffic
 aliases = ["relative discrete series", "square-integrable modulo Z"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["harmonic-analysis/unimodular-group", "lie-groups/irreducible-unitary-representation", "harmonic-analysis/coefficient-function", "algebra-representation-theory/schurs-lemma", "real-analysis/absolute-value"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

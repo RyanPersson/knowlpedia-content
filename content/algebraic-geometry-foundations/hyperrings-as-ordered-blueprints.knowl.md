@@ -6,8 +6,7 @@ summary = "The fully faithful encoding of Krasner hyperrings by monomial inequal
 aliases = ["ordered blueprint associated with a hyperring", "hyperring ordered blueprint embedding"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
 prerequisites = ["algebra-hyperstructures/hyperring", "algebraic-geometry-foundations/ordered-blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -41,4 +40,3 @@ Not every ordered blueprint arises from a hyperring. Hyperring images satisfy ad
 
 ## References
 Matthew Baker and Oliver Lorscheid, [*The moduli space of matroids*, §2.8.5](https://arxiv.org/abs/1809.03542).
-

@@ -6,8 +6,7 @@ summary = "A band-limited L2 function with nontrivial local mass, global polynom
 aliases = ["damping function", "Han–Schlag damping function"]
 domains = ["harmonic-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

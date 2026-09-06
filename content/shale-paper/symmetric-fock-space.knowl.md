@@ -6,8 +6,7 @@ summary = "The Hilbert direct sum of the symmetric tensor powers of a complex Hi
 aliases = ["symmetric-fock-space", "Symmetric Fock Space S(H)"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/symmetric-fock-space.md"
 +++
 

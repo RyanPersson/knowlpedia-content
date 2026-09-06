@@ -6,8 +6,7 @@ summary = "A nonzero positive linear functional on compactly supported continuou
 aliases = ["invariant integral", "left invariant integral"]
 domains = ["harmonic-analysis", "measure-theory", "topology"]
 prerequisites = ["topology/locally-compact-group", "operator-algebras/positive-linear-functional", "harmonic-analysis/haar-measure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

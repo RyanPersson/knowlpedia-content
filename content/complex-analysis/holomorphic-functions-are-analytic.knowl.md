@@ -6,8 +6,7 @@ summary = "Complex differentiability on an open set forces a local convergent po
 aliases = ["analyticity of holomorphic functions"]
 domains = ["complex-analysis"]
 prerequisites = ["complex-analysis/complex-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

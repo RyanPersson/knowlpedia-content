@@ -6,7 +6,7 @@ summary = "A partition together with a chosen sample point in each subinterval."
 aliases = ["tagged-partition", "Tagged partition"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/partition-of-an-interval"]
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/tagged-partition.md"
 +++
 

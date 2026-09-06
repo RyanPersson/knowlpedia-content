@@ -7,7 +7,7 @@ aliases = ["class-one principal series", "unramified real principal series"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/minimal-parabolic-subgroup", "lie-groups/normalized-parabolic-induction", "lie-groups/principal-series-representation"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

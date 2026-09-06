@@ -6,8 +6,7 @@ summary = "The simply laced root system D_n consisting of the vectors ±e_i±e_j
 aliases = ["type D root system", "D_n root system", "root system of type D"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/simply-laced-root-system"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

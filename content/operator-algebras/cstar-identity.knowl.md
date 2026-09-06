@@ -6,8 +6,7 @@ summary = "The norm identity equating the squared norm of an element with the no
 aliases = ["C*-norm identity"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/involutive-algebra", "functional-analysis/banach-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

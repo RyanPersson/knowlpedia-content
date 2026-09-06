@@ -6,8 +6,7 @@ summary = "If n1<n2<… are positive integers, then nk≥k"
 aliases = ["subsequence-index-bound-n_k-k", "Index bound for subsequences"]
 domains = ["convex-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/subsequence-index-bound-n_k-k.md"
 +++
 

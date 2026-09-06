@@ -39,5 +39,5 @@ so the gauge group acts on the set of horizontal distributions defining connecti
    \[
    A \longmapsto A + g^{-1}dg,
    \]
-   i.e. gauge transformations act by translation by an exact 1-form (in a trivialization).
+   i.e. gauge transformations act by translation by the closed 1-form (g^{-1}dg) (locally exact; globally it can have nonzero integral periods).
 3. **Frame bundle viewpoint.** If \(P\) is a frame bundle of a vector bundle, a gauge transformation is a change of frame covering \(\mathrm{id}_M\). Pulling back the connection corresponds to the usual transformation rule for connection matrices under a change of frame.

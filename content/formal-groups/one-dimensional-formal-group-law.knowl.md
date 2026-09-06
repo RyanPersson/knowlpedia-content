@@ -6,8 +6,7 @@ summary = "The classical one-variable commutative formal group law F(X,Y) over a
 aliases = ["one-dimensional formal group law", "one-parameter formal group law", "commutative formal group law in one dimension"]
 domains = ["formal-groups"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

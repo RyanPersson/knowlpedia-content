@@ -6,8 +6,7 @@ summary = "The first-order hyperbolic-type operator obtained by Clifford contrac
 aliases = ["spacetime Dirac operator", "pseudo-Riemannian spin Dirac operator"]
 domains = ["differential-geometry", "mathematical-physics"]
 prerequisites = ["differential-geometry/lorentzian-spinor-bundle", "fiber-bundles/spin-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

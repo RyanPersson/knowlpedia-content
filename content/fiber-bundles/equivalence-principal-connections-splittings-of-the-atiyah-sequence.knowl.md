@@ -6,8 +6,7 @@ summary = "A principal connection is the same as a vector bundle splitting of th
 aliases = ["equivalence-principal-connections-splittings-of-the-atiyah-sequence", "Theorem: Principal connections are equivalent to splittings of the Atiyah sequence"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/atiyah-sequence-tpgtm0", "fiber-bundles/short-exact-sequence-of-vector-bundles"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/equivalence-principal-connections-splittings-of-the-atiyah-sequence.md"
 +++
 

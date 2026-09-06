@@ -6,8 +6,7 @@ summary = "The basis-independent extended sum of diagonal matrix coefficients of
 aliases = ["trace on positive operators", "Hilbert-space trace", "Tr"]
 domains = ["operator-algebras"]
 prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/orthonormal-basis", "real-analysis/partial-sums"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "The n-torus is a compact connected abelian Lie group with Lie algebra
 aliases = ["example-torus", "Example: the torus \\(T^n\\)"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/abelian-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/example-torus.md"
 +++
 

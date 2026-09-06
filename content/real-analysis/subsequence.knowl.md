@@ -6,7 +6,7 @@ summary = "A sequence obtained by restricting to a strictly increasing sequence 
 aliases = ["subsequence"]
 domains = ["real-analysis"]
 prerequisites = ["shared-foundations/sequence"]
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/subsequence.md"
 +++
 

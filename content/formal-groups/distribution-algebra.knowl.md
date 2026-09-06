@@ -6,8 +6,7 @@ summary = "The filtered Hopf algebra of finite-order functionals supported at th
 aliases = ["hyperalgebra of a formal group", "algebra of distributions at the identity", "Dist(G)"]
 domains = ["formal-groups", "lie-groups", "algebra-coalgebras"]
 prerequisites = ["formal-groups/formal-group", "formal-groups/formal-affine-space", "formal-groups/coordinate-hopf-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

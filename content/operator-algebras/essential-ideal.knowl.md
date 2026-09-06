@@ -6,8 +6,7 @@ summary = "A closed two-sided ideal that meets every nonzero closed two-sided id
 aliases = ["essential C*-ideal", "large ideal", "essential two-sided ideal"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/closed-two-sided-ideal", "algebra-rings/two-sided-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

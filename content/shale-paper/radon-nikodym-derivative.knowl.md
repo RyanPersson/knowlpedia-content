@@ -6,8 +6,7 @@ summary = "The almost-everywhere unique density dν/dμ representing an absolute
 aliases = ["radon-nikodym-derivative", "Radon–Nikodym Derivative"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/radon-nikodym-derivative.md"
 +++
 

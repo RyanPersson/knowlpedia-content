@@ -6,8 +6,7 @@ summary = "A smooth function constant along the orbits of a Lie group action."
 aliases = ["invariant-function", "Invariant function"]
 domains = ["fiber-bundles"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/invariant-function.md"
 +++
 

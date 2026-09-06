@@ -6,8 +6,7 @@ summary = "A specification of covering sieves on each object of a category, stab
 aliases = ["grothendieck-topology", "Grothendieck topology"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebra-category-theory/category", "algebraic-geometry-foundations/sieve", "algebra-category-theory/morphism", "topology/topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]]. A **[[algebraic-geometry-foundations/sieve|sieve]]** \(S\) on an object \(U\) is a collection of [[algebra-category-theory/morphism|morphisms]] with codomain \(U\) that is closed under precomposition: if \(V\to U\) belongs to \(S\), then every composite \(W\to V\to U\) belongs to \(S\).

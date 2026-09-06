@@ -6,8 +6,7 @@ summary = "A reduction of the frame bundle of a smooth manifold to a specified L
 aliases = ["G-structure on a manifold", "reduction of the frame bundle"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["lie-groups/lie-subgroup", "fiber-bundles/reduction-of-structure-group", "fiber-bundles/frame-bundle-fr-of-a-manifold-m"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

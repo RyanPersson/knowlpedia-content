@@ -6,8 +6,7 @@ summary = "Separation using a nonzero continuous functional in the dual space."
 aliases = ["separation-by-a-closed-hyperplane", "Separation by a Closed Hyperplane"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/dual-space-and-duality-pairing", "convex-analysis/hyperplane", "convex-analysis/closed-subset", "convex-analysis/continuity-of-linear-functionals-via-closed-level-sets"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/separation-by-a-closed-hyperplane.md"
 +++
 

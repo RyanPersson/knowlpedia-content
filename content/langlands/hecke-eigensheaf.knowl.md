@@ -6,8 +6,7 @@ summary = "An automorphic sheaf on Bun_G whose geometric Hecke transforms are go
 aliases = ["Hecke eigen-D-module", "automorphic eigensheaf"]
 domains = ["langlands"]
 prerequisites = ["langlands/g-local-system", "langlands/hecke-functor", "fiber-bundles/local-system"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

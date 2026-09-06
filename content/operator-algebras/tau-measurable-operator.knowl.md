@@ -6,8 +6,7 @@ summary = "An affiliated closed operator whose domain is arbitrarily close to fu
 aliases = ["τ-measurable operator", "trace-measurable operator"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/faithful-normal-semifinite-trace", "operator-algebras/affiliated-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

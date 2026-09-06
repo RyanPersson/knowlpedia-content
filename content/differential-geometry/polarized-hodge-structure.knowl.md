@@ -6,8 +6,7 @@ summary = "A pure Hodge structure equipped with a parity-compatible bilinear for
 aliases = ["Hodge polarization", "polarization of a Hodge structure"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/pure-hodge-structure", "linear-algebra/bilinear-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

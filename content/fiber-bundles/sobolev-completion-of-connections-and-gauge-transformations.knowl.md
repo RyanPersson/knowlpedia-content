@@ -6,8 +6,7 @@ summary = "The Banach configuration space obtained by completing connections and
 aliases = ["Sobolev gauge group", "completed connection space"]
 domains = ["fiber-bundles", "functional-analysis"]
 prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/gauge-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

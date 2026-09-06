@@ -6,8 +6,7 @@ summary = "An immersed submanifold on which the ambient symplectic form pulls ba
 aliases = ["isotropic immersed submanifold"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-immersion", "differential-geometry/isotropic-subspace", "differential-geometry/symplectic-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

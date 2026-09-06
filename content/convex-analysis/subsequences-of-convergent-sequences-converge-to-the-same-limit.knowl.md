@@ -6,8 +6,7 @@ summary = "Any subsequence of a convergent sequence converges to the same limit"
 aliases = ["subsequences-of-convergent-sequences-converge-to-the-same-limit", "Subsequences of convergent sequences converge to the same limit"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/convergence-of-a-sequence", "real-analysis/subsequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/subsequences-of-convergent-sequences-converge-to-the-same-limit.md"
 +++
 

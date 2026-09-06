@@ -6,8 +6,7 @@ summary = "A subspace equal to its symplectic orthogonal, equivalently a maximal
 aliases = ["maximal isotropic subspace", "Lagrangian linear subspace"]
 domains = ["differential-geometry", "linear-algebra"]
 prerequisites = ["differential-geometry/symplectic-vector-space", "convex-analysis/linear-subspace", "differential-geometry/symplectic-orthogonal-complement", "differential-geometry/isotropic-subspace", "differential-geometry/coisotropic-subspace", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

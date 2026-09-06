@@ -25,8 +25,8 @@ Key properties:
   \]
 - **Maurer–Cartan equation (right form):**
   \[
-  d\theta^R - \tfrac12[\theta^R,\theta^R]=0,
+  d\theta^R - [\theta^R,\theta^R]=0,
   \]
-  where the bracket is induced from the [[fiber-bundles/lie-bracket|Lie bracket]] on \(\mathfrak g\) (compare [[lie-groups/maurer-cartan-equation|Maurer–Cartan equation]] and the [[lie-groups/left-maurer-cartan-form|left Maurer–Cartan form]]).
+  where, in the convention used by the [[lie-groups/maurer-cartan-equation|Maurer–Cartan equation]], \([\theta^R,\theta^R](X,Y)=[\theta^R(X),\theta^R(Y)]\).
 
 If \(X\) is a [[lie-groups/right-invariant-vector-field|right-invariant vector field]], then \(\theta^R(X)\) is constant in \(G\) and recovers the corresponding element of \(\mathfrak g\). This is one way to see the tight relationship between invariant vector fields, [[lie-groups/one-parameter-subgroup|one-parameter subgroups]], and the [[lie-groups/exponential-map-lie-group|exponential map]].

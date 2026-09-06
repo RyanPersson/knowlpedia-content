@@ -6,8 +6,7 @@ summary = "The short exact sequence 0 to ad(P) to TP/G to TM to 0 associated to 
 aliases = ["atiyah-sequence-tpgtm0", "Atiyah sequence"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/atiyah-algebroid-of-a-principal-bundle", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/atiyah-sequence-tpgtm0.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The Clifford module bundle associated to a Lorentzian spin structure 
 aliases = ["spinor bundle of a Lorentzian manifold", "bundle of Lorentzian spinors"]
 domains = ["differential-geometry", "fiber-bundles", "mathematical-physics"]
 prerequisites = ["differential-geometry/lorentzian-spin-structure", "differential-geometry/clifford-algebra", "differential-geometry/clifford-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

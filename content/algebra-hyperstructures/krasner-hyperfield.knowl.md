@@ -6,8 +6,7 @@ summary = "The two-element hyperfield with 1⊞1={0,1}."
 aliases = ["Krasner field", "field of one element as a hyperfield"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

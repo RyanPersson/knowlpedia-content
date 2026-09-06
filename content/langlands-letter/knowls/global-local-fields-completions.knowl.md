@@ -7,7 +7,7 @@ aliases = ["global field", "global fields"]
 domains = ["algebra-fields-galois", "langlands-letter"]
 prerequisites = ["algebra-fields-galois/number-field", "algebra-fields-galois/global-function-field"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/global-local-fields-completions.md"
 section_mode = "progressive"
 +++

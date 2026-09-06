@@ -6,8 +6,7 @@ summary = "A holomorphic vector bundle whose fibers have complex dimension one."
 aliases = ["analytic line bundle", "invertible holomorphic bundle"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-vector-bundle", "topology/open-cover", "fiber-bundles/transition-function", "differential-geometry/holomorphic-vector-bundle-morphism", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

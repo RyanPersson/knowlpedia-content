@@ -6,8 +6,7 @@ summary = "Every quaternion-Kähler manifold of real dimension at least eight ha
 aliases = ["Einstein property of quaternion-Kähler manifolds"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/quaternion-kahler-manifold", "differential-geometry/einstein-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A translate in the octonionic plane of an eight-dimensional direction
 aliases = ["octonionic line in O^2", "affine Cayley line", "AOP^1 line"]
 domains = ["complex-analysis", "octonionic-analysis", "differential-geometry"]
 prerequisites = ["differential-geometry/octonionic-projective-line"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

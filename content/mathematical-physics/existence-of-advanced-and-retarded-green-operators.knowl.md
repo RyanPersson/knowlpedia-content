@@ -12,7 +12,7 @@ section_mode = "progressive"
 
 Every [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic operator]] on a vector bundle over a [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetime]] has unique future and past [[mathematical-physics/advanced-and-retarded-green-operators|Green operators]] \(G^+\) and \(G^-\).
 
-For each compactly supported source \(f\), the section \(G^+f\) is the unique solution of \(Pu=f\) supported in \(J^+(\operatorname{supp}f)\), and \(G^-f\) is the unique solution supported in \(J^-(\operatorname{supp}f)\). Their difference
+For each compactly supported source \(f\), the sections \(G^+f\) and \(G^-f\) solve \(Pu=f\) with supports in \(J^+(\operatorname{supp}f)\) and \(J^-(\operatorname{supp}f)\), respectively. The uniqueness is as Green operators satisfying both-sided identities on compactly supported sections; the one-sided equation and support condition alone do not state operator-level uniqueness. Their difference
 \[
 G=G^+-G^-
 \]

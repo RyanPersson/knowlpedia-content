@@ -25,14 +25,14 @@ where \(J^1P\) is the [[fiber-bundles/jet-bundle|1-jet bundle]] of \(P\) and \(G
 
 The bundle \(\mathcal{C}(P)\to M\) is modeled on the vector bundle
 \[
-T^*M \otimes \mathrm{Ad}(P),
+T^*M \otimes \mathrm{ad}(P),
 \]
-so the difference of two connections is an \(\mathrm{Ad}(P)\)-valued \(1\)-form. Here \(T^*M\) is the [[fiber-bundles/cotangent-bundle|cotangent bundle]] and \(\mathrm{Ad}(P)\) is the adjoint bundle associated to \(P\).
+so the difference of two connections is an \(\mathrm{ad}(P)\)-valued \(1\)-form. Here \(T^*M\) is the [[fiber-bundles/cotangent-bundle|cotangent bundle]] and \(\mathrm{ad}(P)\) is the adjoint Lie-algebra bundle associated to \(P\).
 
 ## Vector bundle variant
 If \(E\to M\) is a vector bundle, the set of [[fiber-bundles/connection-on-a-vector-bundle|connections on E]] is an affine space modeled on \(\Omega^1(M;\mathrm{End}(E))\), and there is an analogous affine bundle over \(M\) whose sections correspond to connections on \(E\).
 
 ## Examples
 1. **Trivial principal bundle.** If \(P=M\times G\), then choosing the product trivialization identifies connections with \(\mathfrak{g}\)-valued 1-forms on \(M\), so \(\mathcal{C}(P)\) is (noncanonically) isomorphic to an affine bundle modeled on \(T^*M\otimes (M\times \mathfrak{g})\).
-2. **[[fiber-bundles/line-bundle|Line bundles]].** For a principal \(U(1)\)-bundle, the difference of two connections is an ordinary real 1-form on \(M\), reflecting that \(\mathrm{Ad}(P)\) is a trivial real line bundle.
+2. **[[fiber-bundles/line-bundle|Line bundles]].** For a principal \(U(1)\)-bundle, the difference of two connections is an ordinary real 1-form on \(M\), reflecting that \(\mathrm{ad}(P)\cong M\times i\mathbb R\) is a trivial real line bundle.
 3. **Levi–Civita as a section.** The Levi–Civita connection determines a distinguished section of the connection bundle of the orthonormal frame bundle of a [[differential-geometry/riemannian-manifold|Riemannian manifold]].

@@ -6,8 +6,7 @@ summary = "A von Neumann algebra in which every nonzero projection dominates a n
 aliases = ["semifinite W*-algebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/finite-projection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

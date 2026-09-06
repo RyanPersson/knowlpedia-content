@@ -18,7 +18,7 @@ legacy_source_path = "lie-groups/compact-lie-group.md"
 **Core structural features.**
 - Compactness implies the existence of a bi-invariant [[harmonic-analysis/haar-measure|Haar measure]], enabling averaging arguments throughout geometry and representation theory.
 - Every compact Lie group admits a [[lie-groups/bi-invariant-metric|bi-invariant Riemannian metric]]; see [[lie-groups/compact-lie-group-bi-invariant-metric|bi-invariant metrics on compact Lie groups]].
-- Maximal tori control much of the structure: every element lies in some maximal torus, and conjugacy classes intersect a fixed maximal torus in Weyl-group orbits (see [[lie-groups/maximal-torus-theorem|the maximal torus theorem]] and [[lie-groups/weyl-group|the Weyl group]]).
+- For a connected compact Lie group, maximal tori control much of the structure: every element lies in some maximal torus, and conjugacy classes intersect a fixed maximal torus in Weyl-group orbits (see [[lie-groups/maximal-torus-theorem|the maximal torus theorem]] and [[lie-groups/weyl-group|the Weyl group]]). For disconnected compact groups, component-group data require a separate qualification.
 
 **Representation-theoretic context.** Finite-dimensional continuous representations of compact Lie groups are [[lie-groups/completely-reducible-representation-lie|completely reducible]], and the regular representation on \(L^2(G)\) decomposes discretely (compare [[lie-groups/peter-weyl-theorem|the Peter–Weyl theorem]]).
 

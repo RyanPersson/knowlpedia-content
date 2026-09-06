@@ -6,8 +6,7 @@ summary = "A nontrivial commutative hyperring without multiplicative zero diviso
 aliases = ["hyperdomain", "integral hyperdomain"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
 prerequisites = ["algebra-hyperstructures/hyperring", "algebra-rings/zero-divisor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

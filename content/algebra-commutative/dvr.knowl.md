@@ -6,8 +6,7 @@ summary = "A one-dimensional Noetherian local domain with principal maximal idea
 aliases = ["dvr", "Discrete valuation ring"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-commutative/local-ring", "algebra-commutative/maximal-ideal-local-ring", "algebra-commutative/noetherian-ring", "algebra-commutative/krull-dimension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/dvr.md"
 +++
 

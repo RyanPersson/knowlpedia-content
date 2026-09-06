@@ -6,8 +6,7 @@ summary = "The Langlands quotient is the unique irreducible quotient of a standa
 aliases = ["unique irreducible quotient of a standard module", "Langlands subquotient"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/standard-module-real-reductive-group", "lie-groups/real-reductive-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

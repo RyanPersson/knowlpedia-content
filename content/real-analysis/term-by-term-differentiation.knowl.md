@@ -6,8 +6,7 @@ summary = "Inside the radius of convergence, a power series can be differentiate
 aliases = ["term-by-term-differentiation", "Term-by-term differentiation for power series"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/power-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/term-by-term-differentiation.md"
 +++
 

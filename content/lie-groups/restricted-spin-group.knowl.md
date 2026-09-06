@@ -7,7 +7,7 @@ aliases = ["Spin+(p,q)", "proper orthochronous spin group"]
 domains = ["lie-groups", "differential-geometry", "mathematical-physics"]
 prerequisites = ["lie-groups/indefinite-spin-group", "lie-groups/special-orthogonal-group"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

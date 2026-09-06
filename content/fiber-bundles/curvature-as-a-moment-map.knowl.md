@@ -6,8 +6,7 @@ summary = "The moment-map interpretation of curvature for the gauge action on co
 aliases = ["Atiyah–Bott moment map", "gauge moment map"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/atiyah-bott-symplectic-form", "fiber-bundles/gauge-group", "fiber-bundles/moment-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

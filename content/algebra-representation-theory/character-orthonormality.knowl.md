@@ -6,8 +6,7 @@ summary = "With respect to the standard inner product on class functions, irredu
 aliases = ["character-orthonormality", "Orthonormality of irreducible characters"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-groups/class-function", "linear-algebra/inner-product", "algebra-groups/conjugacy-class"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/character-orthonormality.md"
 +++
 

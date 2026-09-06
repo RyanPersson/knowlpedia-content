@@ -6,8 +6,7 @@ summary = "If core(Ω1)≠∅ and core(Ω1) is disjoint from Ω2, then Ω1 and �
 aliases = ["separation-of-two-convex-sets-via-the-core-condition", "Separation of Two Convex Sets via the Core Condition"]
 domains = ["convex-analysis"]
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core", "convex-analysis/separation-by-a-hyperplane", "convex-analysis/idempotence-of-the-core-operator", "convex-analysis/auxiliary-separation-lemma-for-disjoint-convex-sets-with-nonempty-core"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/separation-of-two-convex-sets-via-the-core-condition.md"
 +++
 

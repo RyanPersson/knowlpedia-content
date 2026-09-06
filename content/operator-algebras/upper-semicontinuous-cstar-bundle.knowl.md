@@ -6,8 +6,7 @@ summary = "A topological bundle of C*-algebras whose fiber norm is upper semicon
 aliases = ["upper semicontinuous C*-algebra bundle", "USC C*-bundle"]
 domains = ["operator-algebras", "topology"]
 prerequisites = ["topology/topological-space", "operator-algebras/cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "Every symplectic form is locally equivalent to the standard constant 
 aliases = ["symplectic Darboux theorem", "Darboux local normal-form theorem"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-chart-coordinate-chart", "differential-geometry/symplectomorphism", "differential-geometry/symplectic-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

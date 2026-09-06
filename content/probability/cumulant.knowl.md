@@ -6,8 +6,7 @@ summary = "A numerical summary of a distribution given by derivatives of the cum
 aliases = ["cumulant"]
 domains = ["probability"]
 prerequisites = ["probability/random-variable", "probability/cumulant-generating-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "probability/cumulant.md"
 +++
 

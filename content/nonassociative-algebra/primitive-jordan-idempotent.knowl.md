@@ -6,8 +6,7 @@ summary = "A nonzero Jordan idempotent admitting no decomposition into two nonze
 aliases = ["minimal Jordan idempotent", "primitive idempotent in a Jordan algebra"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/jordan-idempotent", "nonassociative-algebra/orthogonal-jordan-idempotents", "nonassociative-algebra/euclidean-jordan-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

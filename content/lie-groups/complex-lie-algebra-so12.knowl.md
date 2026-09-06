@@ -6,8 +6,7 @@ summary = "The 66-dimensional simple complex orthogonal Lie algebra of rank 6 an
 aliases = ["complex-lie-algebra-so12", "so12(C)", "so(12,C)", "complex Lie algebra so12"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "linear-algebra/bilinear-form", "lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/half-spin-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

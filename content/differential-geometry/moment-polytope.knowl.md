@@ -6,8 +6,7 @@ summary = "The convex-polytope image of the moment map for a compact connected H
 aliases = ["momentum polytope"]
 domains = ["differential-geometry", "lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "differential-geometry/symplectic-manifold", "fiber-bundles/moment-map", "differential-geometry/atiyah-guillemin-sternberg-convexity-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

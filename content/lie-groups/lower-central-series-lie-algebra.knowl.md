@@ -6,8 +6,7 @@ summary = "A descending sequence defined by iterated commutators, used to define
 aliases = ["lower-central-series-lie-algebra", "Lower central series of a Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/ideal-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/lower-central-series-lie-algebra.md"
 +++
 

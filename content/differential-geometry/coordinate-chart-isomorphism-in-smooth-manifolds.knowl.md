@@ -6,8 +6,7 @@ summary = "The coordinate map of a smooth chart is a diffeomorphism between two 
 aliases = ["chart isomorphism in Diff", "coordinate chart is a diffeomorphism"]
 domains = ["differential-geometry", "category-theory"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/diffeomorphism", "differential-geometry/category-of-smooth-manifolds"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

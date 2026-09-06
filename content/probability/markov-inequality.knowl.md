@@ -6,8 +6,7 @@ summary = "An upper bound on the tail probability of a nonnegative random variab
 aliases = ["markov-inequality", "Markov inequality"]
 domains = ["probability"]
 prerequisites = ["probability/random-variable"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "probability/markov-inequality.md"
 +++
 

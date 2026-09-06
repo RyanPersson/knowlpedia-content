@@ -6,8 +6,7 @@ summary = "A C_0(X)-algebra whose quotient-fiber norms are continuous functions 
 aliases = ["continuous C*-algebra over X"]
 domains = ["operator-algebras", "topology"]
 prerequisites = ["topology/hausdorff-space", "operator-algebras/c0-x-algebra", "operator-algebras/fiber-c0-x-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

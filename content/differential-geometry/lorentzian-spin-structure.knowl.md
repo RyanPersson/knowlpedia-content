@@ -6,8 +6,7 @@ summary = "A lift of the oriented, time-oriented Lorentz frame bundle through th
 aliases = ["spin structure on a Lorentzian manifold", "Lorentzian spin lift"]
 domains = ["differential-geometry", "fiber-bundles", "mathematical-physics"]
 prerequisites = ["differential-geometry/time-orientation", "differential-geometry/lorentzian-manifold", "lie-groups/restricted-spin-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

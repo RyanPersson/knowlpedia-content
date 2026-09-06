@@ -6,8 +6,7 @@ summary = "A cobordism whose orientation induces the reversed incoming and given
 aliases = ["oriented bordism", "orientation-preserving cobordism"]
 domains = ["differential-geometry", "topology"]
 prerequisites = ["differential-geometry/boundary-orientation", "differential-geometry/cobordism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

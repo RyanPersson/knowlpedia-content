@@ -6,8 +6,7 @@ summary = "A regular unitary representation of the Weyl relations for a real sym
 aliases = ["weyl-ccr-quantization", "Weyl CCR Quantization"]
 domains = ["shale-paper"]
 prerequisites = ["shale-paper/symplectic-hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/weyl-ccr-quantization.md"
 +++
 

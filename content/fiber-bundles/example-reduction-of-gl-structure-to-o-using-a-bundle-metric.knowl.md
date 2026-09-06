@@ -6,8 +6,7 @@ summary = "A fiberwise inner product reduces the structure group of a frame bund
 aliases = ["example-reduction-of-gl-structure-to-o-using-a-bundle-metric", "Reducing a GL(n)-structure to O(n) using a bundle metric"]
 domains = ["fiber-bundles"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/example-reduction-of-gl-structure-to-o-using-a-bundle-metric.md"
 +++
 
@@ -27,7 +26,7 @@ Given such a metric, define
 O(E):=\{u\in \mathrm{Fr}(E): u:\mathbb R^n\to E_x \text{ is an isometry for the standard inner product}\}.
 \]
 Then:
-- \(O(E)\to M\) is a principal \(\mathrm{O}(n)\)-bundle, where \(\mathrm{O}(n)\) is a [[fiber-bundles/lie-group|Lie group]] acting by postcomposition on frames.
+- \(O(E)\to M\) is a principal \(\mathrm{O}(n)\)-bundle, where \(\mathrm{O}(n)\) is a [[fiber-bundles/lie-group|Lie group]] acting on the right by precomposition on frames.
 - The inclusion \(O(E)\subset \mathrm{Fr}(E)\) is a reduction of the principal [[fiber-bundles/principal-g-bundle|principal G-bundle]] \(\mathrm{Fr}(E)\to M\) from \(\mathrm{GL}(n)\) to \(\mathrm{O}(n)\).
 - Conversely, any principal \(\mathrm{O}(n)\)-subbundle \(Q\subset \mathrm{Fr}(E)\) determines a unique bundle metric by declaring frames in \(Q\) to be orthonormal.
 

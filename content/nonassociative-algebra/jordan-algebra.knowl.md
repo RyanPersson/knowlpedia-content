@@ -6,8 +6,7 @@ summary = "A commutative algebra satisfying the Jordan identity."
 aliases = ["Jordan algebra", "Jordan-algebra"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

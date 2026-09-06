@@ -6,8 +6,7 @@ summary = "The manifold whose points are fixed-dimensional real subspaces equipp
 aliases = ["oriented Grassmann manifold"]
 domains = ["differential-geometry", "topology"]
 prerequisites = ["linear-algebra/vector-space", "fiber-bundles/smooth-manifold", "differential-geometry/grassmannian"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "The decreasing filtration obtained by collecting the Hodge components
 aliases = ["decreasing Hodge filtration"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/pure-hodge-structure", "differential-geometry/complex-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,7 +6,7 @@ summary = "A set has at most one least upper bound and at most one greatest lowe
 aliases = ["uniqueness-of-sup-inf", "Uniqueness of Supremum and Infimum"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/supremum", "real-analysis/infimum"]
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/uniqueness-of-sup-inf.md"
 +++
 

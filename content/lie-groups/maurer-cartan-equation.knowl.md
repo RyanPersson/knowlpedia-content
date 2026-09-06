@@ -6,8 +6,7 @@ summary = "The structure equation satisfied by the Maurer–Cartan form on a Lie
 aliases = ["maurer-cartan-equation", "Maurer–Cartan equation"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/left-maurer-cartan-form", "fiber-bundles/lie-bracket"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/maurer-cartan-equation.md"
 +++
 
@@ -19,7 +18,7 @@ Let \(\theta\) denote the [[lie-groups/left-maurer-cartan-form|left Maurer–Car
 
 Then \(\theta\) satisfies the **Maurer–Cartan equation**
 \[
-d\theta + \frac12[\theta,\theta]=0.
+d\theta + [\theta,\theta]=0.
 \]
 
 Here \([\theta,\theta]\) denotes the \(\mathfrak g\)-valued 2-form obtained by combining wedge product with the [[fiber-bundles/lie-bracket|Lie bracket]]:

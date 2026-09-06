@@ -6,8 +6,7 @@ summary = "A half-dimensional submanifold on which the ambient symplectic form v
 aliases = ["Lagrangian embedding", "maximal isotropic submanifold"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/tangent-space", "differential-geometry/lagrangian-subspace", "differential-geometry/symplectic-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

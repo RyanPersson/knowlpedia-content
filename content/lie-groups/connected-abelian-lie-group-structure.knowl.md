@@ -6,8 +6,7 @@ summary = "Every connected abelian Lie group is isomorphic to R^n × T^m."
 aliases = ["connected-abelian-lie-group-structure", "Structure of connected abelian Lie groups"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/connected-lie-group", "lie-groups/abelian-lie-group", "lie-groups/lie-algebra-of-a-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/connected-abelian-lie-group-structure.md"
 +++
 
@@ -25,7 +24,7 @@ where \(\mathbb{T}^m\) is an \(m\)-torus (isomorphic to \((S^1)^m\)). In particu
 
 **Idea of proof (covering + lattice).**
 - Since \(G\) is connected and abelian, its universal cover \(\widetilde{G}\) is a connected simply connected abelian Lie group. Such a group is isomorphic to the additive group of its Lie algebra, so \(\widetilde{G}\cong (\mathfrak{g},+) \cong \mathbb{R}^{n+m}\); compare [[lie-groups/universal-covering-group|universal covering groups]].
-- The covering map \(\widetilde{G}\to G\) has kernel a [[lie-groups/discrete-subgroup|discrete subgroup]] of \(\widetilde{G}\), hence a lattice in \(\mathbb{R}^{n+m}\) up to linear change of coordinates.
-- Splitting \(\mathbb{R}^{n+m}\) into directions along the lattice and transverse directions produces \(\mathbb{R}^n\times (\mathbb{R}^m/\mathbb{Z}^m)\).
+- The covering map \(\widetilde{G}\to G\) has kernel a [[lie-groups/discrete-subgroup|discrete subgroup]] of \(\widetilde{G}\). After a linear change of coordinates, every discrete subgroup of \(\mathbb{R}^{n+m}\) is \(\mathbb{Z}^m\) in an \(m\)-dimensional subspace; it need not be cocompact in all of \(\mathbb{R}^{n+m}\).
+- Splitting \(\mathbb{R}^{n+m}\) into directions along this subgroup and a complementary subspace produces \(\mathbb{R}^n\times (\mathbb{R}^m/\mathbb{Z}^m)\).
 
 **Context.** This result explains why the basic connected abelian examples are \(\mathbb{R}^n\), circles, and tori; see [[lie-groups/example-u1-circle|the circle group]] and [[lie-groups/example-torus|the torus]]. It also matches the infinitesimal picture: \(\mathfrak{g}\) is an [[lie-groups/abelian-lie-algebra|abelian Lie algebra]], so the [[lie-groups/exponential-map-lie-group|exponential map]] is a local group isomorphism whose global kernel records the lattice.

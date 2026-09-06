@@ -6,8 +6,7 @@ summary = "The smallest linear subspace containing a given set"
 aliases = ["subspace-generated-by-a-set-span", "Span"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/subspace-generated-by-a-set-span.md"
 +++
 

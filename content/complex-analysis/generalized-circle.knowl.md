@@ -6,8 +6,7 @@ summary = "A circle in the complex plane or a straight line completed by the poi
 aliases = ["generalised circle", "circle on the Riemann sphere", "circline"]
 domains = ["complex-analysis", "geometry"]
 prerequisites = ["complex-analysis/riemann-sphere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

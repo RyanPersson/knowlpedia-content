@@ -6,8 +6,7 @@ summary = "Every locally uniformly bounded family of holomorphic functions is no
 aliases = ["Montel's theorem for holomorphic functions"]
 domains = ["complex-analysis"]
 prerequisites = ["complex-analysis/complex-domain", "complex-analysis/normal-family"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

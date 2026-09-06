@@ -6,8 +6,7 @@ summary = "Given a representation of a group and a subgroup, the restriction is 
 aliases = ["restricted-representation", "Restricted representation"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-representation-theory/group-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/restricted-representation.md"
 +++
 

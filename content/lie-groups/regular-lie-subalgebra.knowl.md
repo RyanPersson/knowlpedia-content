@@ -7,7 +7,7 @@ aliases = ["regular Lie subalgebra", "regular subalgebra of a Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/lie-subalgebra"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

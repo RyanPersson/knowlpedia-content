@@ -6,8 +6,7 @@ summary = "A hyperfield whose sum is single-valued unless the summands are addit
 aliases = ["stringent commutative hyperfield"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
 prerequisites = ["algebra-hyperstructures/hyperfield"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

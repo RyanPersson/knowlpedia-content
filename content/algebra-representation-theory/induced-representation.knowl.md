@@ -6,8 +6,7 @@ summary = "A construction Ind_H^G that extends a representation of a subgroup H 
 aliases = ["induced-representation", "Induced representation"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-representation-theory/group-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/induced-representation.md"
 +++
 

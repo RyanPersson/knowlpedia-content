@@ -6,8 +6,7 @@ summary = "The canonical morphism from the monoid blueprint of a semiring to its
 aliases = ["Semirings and monoids as blueprints", "canonical blueprints of semirings and monoids"]
 domains = ["algebraic-geometry-foundations", "algebra-rings", "algebra-groups"]
 prerequisites = ["algebra-rings/commutative-semiring", "algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint", "algebraic-geometry-foundations/semiring-as-a-blueprint", "algebraic-geometry-foundations/semiring-completion-of-a-blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

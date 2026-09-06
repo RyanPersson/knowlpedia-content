@@ -6,8 +6,7 @@ summary = "A finite-dimensional real unital algebra with a positive multiplicati
 aliases = ["normed division algebra over the reals", "real normed division algebra"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/nonassociative-algebra", "shared-foundations/real-numbers", "linear-algebra/euclidean-norm", "nonassociative-algebra/composition-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A point lies in the interior iff a ball around it is contained in the
 aliases = ["interior-characterized-by-existence-of-a-ball", "Interior via balls"]
 domains = ["convex-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/interior-characterized-by-existence-of-a-ball.md"
 +++
 

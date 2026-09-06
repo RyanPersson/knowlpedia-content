@@ -6,8 +6,7 @@ summary = "Every smooth manifold with boundary has a neighborhood of its boundar
 aliases = ["collar theorem", "boundary collar"]
 domains = ["differential-geometry", "topology"]
 prerequisites = ["differential-geometry/manifold-with-boundary", "fiber-bundles/smooth-embedding", "differential-geometry/product-manifold", "differential-geometry/smooth-map-of-manifolds-with-boundary"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A self-adjoint operator A is nonnegative if ⟨Ax,x⟩≥0 for all x"
 aliases = ["nonnegative-positive-semidefinite-operator", "Nonnegative (positive-semidefinite) operator"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/self-adjoint-linear-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/nonnegative-positive-semidefinite-operator.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The module or sheaf that universally records first-order variation re
 aliases = ["relative-kahler-differentials", "Relative Kahler differentials", "Relative Kähler differentials", "Kahler differentials", "Kähler differentials", "relative differentials"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebra-rings/commutative-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 For a homomorphism of [[algebra-rings/commutative-ring|commutative rings]] \(A\to B\), the **module of relative Kähler differentials** \(\Omega_{B/A}\) is the \(B\)-module equipped with an \(A\)-derivation

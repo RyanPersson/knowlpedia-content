@@ -6,8 +6,7 @@ summary = "Jordan idempotents e and f are orthogonal when their Jordan product v
 aliases = ["orthogonal idempotents in a Jordan algebra", "Jordan-orthogonal idempotents"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/jordan-idempotent", "nonassociative-algebra/jordan-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

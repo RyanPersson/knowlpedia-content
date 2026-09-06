@@ -6,8 +6,7 @@ summary = "Assuming the axiom of choice, every vector space admits a Hamel basis
 aliases = ["existence-of-a-basis-hamel-basis", "Existence of a basis"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/basis-hamel-basis-and-dimension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/existence-of-a-basis-hamel-basis.md"
 +++
 

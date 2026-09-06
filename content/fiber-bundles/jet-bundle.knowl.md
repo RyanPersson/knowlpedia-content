@@ -6,8 +6,7 @@ summary = "A bundle whose points record the value and first derivative of a loca
 aliases = ["jet-bundle", "Jet bundle (first jets of sections)"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/jet-bundle.md"
 +++
 

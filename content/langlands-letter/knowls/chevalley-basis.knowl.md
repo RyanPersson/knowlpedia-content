@@ -7,7 +7,7 @@ aliases = ["chevalley-basis", "Chevalley Basis"]
 domains = ["langlands-letter"]
 prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "langlands-letter/knowls/coroots-and-pairing"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/chevalley-basis.md"
 section_mode = "progressive"
 +++

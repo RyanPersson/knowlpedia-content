@@ -6,8 +6,7 @@ summary = "Disjoint convex sets can be separated strictly on the side of an open
 aliases = ["strict-separation-with-an-open-convex-set", "Strict Separation When One Set is Open"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/open-subset", "convex-analysis/dual-space-and-duality-pairing"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/strict-separation-with-an-open-convex-set.md"
 +++
 

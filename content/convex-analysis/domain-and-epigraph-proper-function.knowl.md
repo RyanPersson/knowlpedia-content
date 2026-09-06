@@ -6,8 +6,7 @@ summary = "dom(f) is where f is finite; epi(f) is the set above the graph; prope
 aliases = ["domain-and-epigraph-proper-function", "Domain, epigraph, and proper function"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/extended-real-number-system-and-conventions"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/domain-and-epigraph-proper-function.md"
 +++
 

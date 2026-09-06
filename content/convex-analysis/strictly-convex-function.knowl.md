@@ -6,8 +6,7 @@ summary = "A convex function with strict inequality for distinct points"
 aliases = ["strictly-convex-function", "Strictly convex function"]
 domains = ["convex-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/strictly-convex-function.md"
 +++
 

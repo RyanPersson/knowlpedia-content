@@ -6,8 +6,7 @@ summary = "An exact augmented chain complex of projective modules resolving a gi
 aliases = ["projective-resolution", "Projective resolution"]
 domains = ["algebra-homological"]
 prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-homological/chain-complex", "algebra-modules/projective-module", "algebra-homological/exact-complex"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/projective-resolution.md"
 +++
 

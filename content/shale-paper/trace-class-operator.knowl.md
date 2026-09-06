@@ -6,8 +6,7 @@ summary = "A bounded operator on a Hilbert space whose singular values are summa
 aliases = ["trace-class-operator", "Trace-Class Operator"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/trace-class-operator.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The value of a holomorphic function is controlled by its L2 norm on a
 aliases = ["L2-to-pointwise holomorphic estimate", "holomorphic mean-value bound"]
 domains = ["complex-analysis", "several-complex-variables"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

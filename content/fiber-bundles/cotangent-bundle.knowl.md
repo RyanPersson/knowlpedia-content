@@ -49,7 +49,7 @@ Smooth sections of \(T^*M\) are exactly differential \(1\)-forms, i.e. the case 
    \[
    T^*S^1 \cong S^1\times \mathbb{R}.
    \]
-   Concretely, in the angle coordinate \(\theta\), every covector at \(p\in S^1\) is of the form \(a\, d\theta|_p\) for a unique \(a\in\mathbb{R}\).
+   Concretely, on any local angular chart, every covector at \(p\in S^1\) is of the form \(a\, d\theta|_p\) for a unique \(a\in\mathbb{R}\). These local descriptions patch to the global trivialization; there is no single-valued global angular coordinate on \(S^1\).
 
 3. **Lie groups.** If \(G\) is a [[fiber-bundles/lie-group|Lie group]], then
    left translation canonically identifies each \(T_gG\) with \(T_eG\).

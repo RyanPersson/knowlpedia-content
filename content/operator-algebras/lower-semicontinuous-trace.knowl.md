@@ -6,8 +6,7 @@ summary = "An extended-valued tracial weight on a C-star algebra that is lower s
 aliases = ["lower-semicontinuous C-star trace", "lsc C-star trace"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

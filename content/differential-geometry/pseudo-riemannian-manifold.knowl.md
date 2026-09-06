@@ -6,8 +6,7 @@ summary = "A smooth manifold equipped with a nondegenerate symmetric metric whos
 aliases = ["semi-Riemannian manifold", "indefinite Riemannian manifold", "pseudo-Riemannian metric"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "topology/connected-component", "linear-algebra/signature-of-symmetric-bilinear-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

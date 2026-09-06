@@ -6,14 +6,13 @@ summary = "The right derived functors of Hom; measures extension classes and fai
 aliases = ["ext"]
 domains = ["algebra-homological"]
 prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-homological/derived-functor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/ext.md"
 +++
 
 Let \(R\) be a [[algebra-rings/ring|ring]] and let \(M,N\) be left [[algebra-modules/module|\(R\)-modules]].
 
-For \(n\ge 0\), the group \(\operatorname{Ext}^n_R(M,N)\) is the \(n\)-th [[algebra-homological/derived-functor|right derived functor]] of \(\operatorname{Hom}_R(-,N)\), evaluated at \(M\). It may be computed from a projective resolution of \(M\):
+For \(n\ge 0\), the group \(\operatorname{Ext}^n_R(M,N)\) is the \(n\)-th right derived functor of \(\operatorname{Hom}_R(M,-)\), evaluated at \(N\). Equivalently, by deriving in the first (contravariant) variable, it is computed from a projective resolution of \(M\):
 \[
 \operatorname{Ext}^n_R(M,N)
 =H^n\!\bigl(\operatorname{Hom}_R(P_\bullet,N)\bigr).

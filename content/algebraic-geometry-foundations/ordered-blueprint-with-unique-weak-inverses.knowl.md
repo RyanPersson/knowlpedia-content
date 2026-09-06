@@ -6,8 +6,7 @@ summary = "An ordered blueprint in which every element has exactly one additive 
 aliases = ["pasteurized ordered blueprint", "ordered blueprint with unique weak inverse"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
 prerequisites = ["algebraic-geometry-foundations/ordered-blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -38,4 +37,3 @@ Hyperrings and tracts have associated ordered blueprints with unique weak invers
 
 - Matthew Baker and Oliver Lorscheid, [*The moduli space of matroids*, §§2.6, 2.9](https://arxiv.org/abs/1809.03542).
 - Oliver Lorscheid, [*Blueprints and tropical scheme theory*, §5.6](https://lorscheid.org/notes/2018-Blueprints/versions/lecturenotes180521.pdf).
-

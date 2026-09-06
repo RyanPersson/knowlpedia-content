@@ -6,8 +6,7 @@ summary = "In any metric space, every open ball is an open set"
 aliases = ["open-balls-are-open-sets", "Open balls are open"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/open-subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/open-balls-are-open-sets.md"
 +++
 

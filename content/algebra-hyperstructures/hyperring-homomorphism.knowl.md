@@ -6,8 +6,7 @@ summary = "A unit-preserving multiplicative map that weakly or strongly preserve
 aliases = ["weak hyperring homomorphism", "strong hyperring homomorphism", "strict hyperring homomorphism"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
 prerequisites = ["algebra-hyperstructures/hyperring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

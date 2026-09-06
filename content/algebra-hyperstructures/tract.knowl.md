@@ -6,8 +6,7 @@ summary = "An abelian multiplicative group equipped with a null set of formal su
 aliases = ["tract in matroid theory", "Baker-Bowler tract"]
 domains = ["algebra-hyperstructures", "algebraic-geometry-foundations"]
 prerequisites = ["algebra-groups/abelian-group", "algebra-groups/group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

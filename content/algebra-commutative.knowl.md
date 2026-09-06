@@ -6,6 +6,7 @@ summary = "Localization, Noetherian rings, primary decomposition, and integral e
 aliases = ["algebra-commutative", "Algebra: Commutative Algebra"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/_index.md"
+dependency_review_count = 1
 +++
 
 This section covers commutative algebra: localization of rings and modules, local rings, Noetherian and Artinian rings, Krull dimension, integral extensions, and primary decomposition.

@@ -6,8 +6,7 @@ summary = "A condition ensuring knowledge of one event does not change the proba
 aliases = ["independence-events", "Independence of events"]
 domains = ["probability"]
 prerequisites = ["probability/probability-space", "probability/conditional-probability", "probability/independence-sigma-algebras", "probability/independence-random-variables"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "probability/independence-events.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A pair of bundle morphisms whose induced sequence is exact in every f
 aliases = ["exact sequence of smooth vector bundles"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism", "fiber-bundles/bundle-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

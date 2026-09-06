@@ -6,8 +6,7 @@ summary = "The determinant of the Levi matrix, extended as a measure for suitabl
 aliases = ["complex Monge-Ampere operator", "complex Monge–Ampère measure"]
 domains = ["complex-analysis", "several-complex-variables", "partial-differential-equations"]
 prerequisites = ["complex-analysis/levi-form", "complex-analysis/plurisubharmonic-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

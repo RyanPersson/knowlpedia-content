@@ -6,8 +6,7 @@ summary = "Every closed differential form of positive degree is locally exact."
 aliases = ["local exactness of differential forms"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form", "fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

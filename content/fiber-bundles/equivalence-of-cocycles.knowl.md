@@ -6,8 +6,7 @@ summary = "Two transition function cocycles are equivalent if they differ by a c
 aliases = ["equivalence-of-cocycles", "Equivalence of cocycles"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/cocycle-condition-for-transition-functions", "fiber-bundles/principal-bundle-transition-function", "fiber-bundles/bundle-atlas"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/equivalence-of-cocycles.md"
 +++
 
@@ -41,7 +40,7 @@ Equivalent cocycles define isomorphic principal bundles; the corresponding isomo
 1. **Trivial cocycle and coboundaries.**
    The trivial bundle \(M\times G\) has cocycle \(g_{ij}=e\). A cocycle \(\{g_{ij}\}\) is equivalent to the trivial cocycle exactly when there exist \(h_i\) with
    \[
-   g_{ij}=h_i\,h_j^{-1}.
+   g_{ij}=h_i^{-1}h_j.
    \]
    This is the transition-function version of the [[fiber-bundles/trivial-principal-bundle-criterion-global-section-principal-bundle-is-trivial|global section criterion for triviality]].
 

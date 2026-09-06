@@ -6,8 +6,7 @@ summary = "An operator A with ⟨Ax,y⟩=⟨x,Ay⟩ on an inner product space"
 aliases = ["self-adjoint-linear-operator", "Self-adjoint linear operator"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/linear-operator-linear-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/self-adjoint-linear-operator.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The conormal bundle of an embedded submanifold is Lagrangian in the a
 aliases = ["Lagrangian conormal theorem"]
 domains = ["differential-geometry", "fiber-bundles"]
 prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/cotangent-bundle", "differential-geometry/canonical-symplectic-form-cotangent", "differential-geometry/lagrangian-submanifold", "fiber-bundles/zero-section"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -8,14 +8,14 @@ domains = ["posts"]
 legacy_source_path = "posts/semigroup-quasigroup-structure.md"
 +++
 
-{{< euler-diagram >}}
+These structures impose different conditions on a binary operation. Here, **division** means that each equation \(ax=b\) and \(ya=b\) has a unique solution for every pair \(a,b\).
 
-## Definitions
-
-- [[algebra-groups/magma|Magma]] — a set with a binary operation
-- [[algebra-groups/semigroup|Semigroup]] — associative magma
-- [[algebra-groups/unital-magma|Unital Magma]] — magma with identity
-- [[algebra-groups/monoid|Monoid]] — semigroup with identity
-- [[algebra-groups/quasigroup|Quasigroup]] — magma with division
-- [[algebra-groups/loop|Loop]] — quasigroup with identity
-- [[algebra-groups/group|Group]] — monoid with inverses (equivalently: associative loop)
+| Structure | Required properties |
+| --- | --- |
+| [[algebra-groups/magma|Magma]] | A set with a binary operation |
+| [[algebra-groups/semigroup|Semigroup]] | An associative magma |
+| [[algebra-groups/unital-magma|Unital magma]] | A magma with a two-sided identity |
+| [[algebra-groups/monoid|Monoid]] | An associative magma with a two-sided identity |
+| [[algebra-groups/quasigroup|Quasigroup]] | A magma with division |
+| [[algebra-groups/loop|Loop]] | A quasigroup with a two-sided identity |
+| [[algebra-groups/group|Group]] | A monoid in which every element has a two-sided inverse; equivalently, an associative loop |

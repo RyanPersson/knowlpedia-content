@@ -6,8 +6,7 @@ summary = "Fixing a unit imaginary octonion reduces the octonion automorphism gr
 aliases = ["SU3 in G2", "SU(3) stabilizer in G2", "complex stabilizer of the octonions"]
 domains = ["nonassociative-algebra", "lie-groups"]
 prerequisites = ["lie-groups/compact-exceptional-lie-group-g2"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

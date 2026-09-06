@@ -6,8 +6,7 @@ summary = "The symmetric monoidal structure on a cobordism category whose tensor
 aliases = ["disjoint-union monoidal structure on cobordisms", "symmetric monoidal bordism category"]
 domains = ["differential-geometry", "category-theory"]
 prerequisites = ["differential-geometry/cobordism-category", "differential-geometry/cobordism", "differential-geometry/disjoint-union-of-smooth-manifolds"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

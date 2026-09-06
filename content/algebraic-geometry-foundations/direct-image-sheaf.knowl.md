@@ -6,8 +6,7 @@ summary = "The sheaf on the target whose sections are sections over inverse imag
 aliases = ["direct image sheaf", "pushforward sheaf", "pushforward of a sheaf"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["topology/continuous-map", "algebraic-geometry-foundations/sheaf"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 Let \(f:X\to Y\) be a [[topology/continuous-map|continuous map]] and let \(\mathcal F\) be a [[algebraic-geometry-foundations/sheaf|sheaf]] on \(X\). The **direct image**, or **pushforward**, of \(\mathcal F\) is the sheaf \(f_*\mathcal F\) on \(Y\) defined by

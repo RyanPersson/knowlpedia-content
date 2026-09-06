@@ -6,8 +6,7 @@ summary = "A compatible pair consisting of a nondegenerate representation of the
 aliases = ["covariant pair"]
 domains = ["operator-algebras", "representation-theory"]
 prerequisites = ["operator-algebras/cstar-dynamical-system", "linear-algebra/hilbert-space", "operator-algebras/nondegenerate-star-homomorphism", "lie-groups/strongly-continuous-unitary-representation", "algebra-groups/group-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

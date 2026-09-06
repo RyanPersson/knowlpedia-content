@@ -6,8 +6,7 @@ summary = "The sheaf assigning to each open subset of a complex manifold its alg
 aliases = ["structure sheaf of a complex manifold", "holomorphic structure sheaf"]
 domains = ["differential-geometry", "complex-analysis"]
 prerequisites = ["differential-geometry/complex-manifold", "algebraic-geometry-foundations/sheaf", "algebraic-geometry-foundations/locally-ringed-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

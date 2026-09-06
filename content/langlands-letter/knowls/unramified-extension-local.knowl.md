@@ -7,7 +7,7 @@ aliases = ["unramified-extension-local", "Unramified Extension of a p-Adic Field
 domains = ["langlands-letter"]
 prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebra-fields-galois/finite-field", "algebra-commutative/residue-field", "algebra-commutative/dvr"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/unramified-extension-local.md"
 section_mode = "progressive"
 +++

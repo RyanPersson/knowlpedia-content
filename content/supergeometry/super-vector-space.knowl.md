@@ -6,8 +6,7 @@ summary = "A vector space decomposed into even and odd subspaces."
 aliases = ["Z/2-graded vector space", "graded vector space with parity"]
 domains = ["supergeometry", "linear-algebra"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

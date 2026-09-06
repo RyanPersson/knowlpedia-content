@@ -6,8 +6,7 @@ summary = "The integral of |fg| is bounded by the product of the conjugate L^p a
 aliases = ["holder-inequality-integrals", "Hölder inequality (integrals)"]
 domains = ["convex-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/holder-inequality-integrals.md"
 +++
 

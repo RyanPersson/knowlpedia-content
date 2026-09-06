@@ -6,8 +6,7 @@ summary = "A bounded real-linear operator Λ with Λ² = −I; when orthogonal, 
 aliases = ["complex-structure-lambda", "Complex Structure Λ on K"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/complex-structure-lambda.md"
 +++
 

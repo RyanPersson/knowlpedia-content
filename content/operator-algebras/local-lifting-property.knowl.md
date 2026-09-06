@@ -6,8 +6,7 @@ summary = "A C*-algebraic property requiring completely positive quotient maps t
 aliases = ["LLP"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "algebra-rings/two-sided-ideal", "operator-algebras/completely-positive-map", "convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

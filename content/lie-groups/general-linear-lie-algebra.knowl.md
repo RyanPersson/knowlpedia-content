@@ -6,8 +6,7 @@ summary = "The Lie algebra gl(V) of all endomorphisms with commutator bracket."
 aliases = ["general-linear-lie-algebra", "General linear Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-bracket"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/general-linear-lie-algebra.md"
 +++
 

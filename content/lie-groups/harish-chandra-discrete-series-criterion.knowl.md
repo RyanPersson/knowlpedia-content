@@ -6,8 +6,7 @@ summary = "A connected semisimple real group with finite center has discrete ser
 aliases = ["equal-rank criterion", "compact Cartan criterion"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/discrete-series-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

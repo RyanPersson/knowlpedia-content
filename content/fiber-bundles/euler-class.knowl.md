@@ -6,8 +6,7 @@ summary = "The top-degree characteristic class of an oriented even-rank real vec
 aliases = ["euler-class", "Euler class via Chern–Weil theory"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature", "fiber-bundles/exterior-derivative", "fiber-bundles/smooth-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/euler-class.md"
 +++
 
@@ -22,7 +21,7 @@ e(\nabla)\;:=\;\mathrm{Pf}\!\Big(\frac{1}{2\pi}F_\nabla\Big)\in\Omega^{2m}(M).
 Then:
 1. \(d\,e(\nabla)=0\), where \(d\) is the [[fiber-bundles/exterior-derivative|exterior derivative]].
 2. The de Rham class \([e(\nabla)]\in H^{2m}_{\mathrm{dR}}(M)\) is independent of the choice of metric-compatible oriented connection.
-3. The **Euler class** \(e(E)\in H^{2m}(M;\mathbb Z)\) is the unique integral class mapping to \([e(\nabla)]\) under the natural map to real (or de Rham) cohomology.
+3. The **Euler class** \(e(E)\in H^{2m}(M;\mathbb Z)\) is the canonical integral class whose image under the natural map to real (or de Rham) cohomology is \([e(\nabla)]\). Its real image does not by itself determine the integral class when cohomology has torsion.
 
 Naturality holds: for any [[fiber-bundles/smooth-map|smooth map]] \(f:N\to M\),
 \[

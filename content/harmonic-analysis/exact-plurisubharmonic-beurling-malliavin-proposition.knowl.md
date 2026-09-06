@@ -6,8 +6,7 @@ summary = "Uniform Hilbert-transform and transverse Hessian bounds make a linewi
 aliases = ["Exact PSH-BM", "exact PSH Beurling–Malliavin proposition"]
 domains = ["harmonic-analysis", "several-complex-variables"]
 prerequisites = ["complex-analysis/plurisubharmonic-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

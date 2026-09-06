@@ -6,8 +6,7 @@ summary = "The canonical decomposition of cuspidal automorphic forms over a func
 aliases = ["Lafforgue parameterization", "global Langlands parameterization for reductive groups over function fields", "Vincent Lafforgue theorem"]
 domains = ["langlands", "number-theory", "representation-theory"]
 prerequisites = ["algebra-fields-galois/global-function-field", "algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/automorphic-form", "algebra-groups/conjugacy-class", "langlands-letter/knowls/semisimple-element-and-class", "langlands/global-langlands-parameter", "langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/langlands-dual-group", "langlands/l-group", "langlands/rigid-inner-twist"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

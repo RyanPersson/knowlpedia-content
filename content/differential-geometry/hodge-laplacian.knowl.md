@@ -6,8 +6,7 @@ summary = "The Hodge Laplacian is the degree-preserving elliptic operator obtain
 aliases = ["Laplace–de Rham operator", "de Rham Laplacian", "Hodge–de Rham Laplacian"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/exterior-derivative", "differential-geometry/codifferential"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

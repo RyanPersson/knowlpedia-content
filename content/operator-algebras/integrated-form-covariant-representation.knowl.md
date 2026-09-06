@@ -6,8 +6,7 @@ summary = "The representation of a crossed-product convolution algebra obtained 
 aliases = ["integrated covariant representation", "pi cross U"]
 domains = ["operator-algebras", "representation-theory"]
 prerequisites = ["operator-algebras/covariant-representation-cstar-dynamical-system", "harmonic-analysis/haar-measure", "operator-algebras/crossed-product-convolution-star-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

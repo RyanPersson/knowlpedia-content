@@ -6,8 +6,7 @@ summary = "The unitary representation obtained by inducing the character defined
 aliases = ["orbit representation", "Kirillov induced representation"]
 domains = ["lie-groups", "representation-theory", "harmonic-analysis"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/polarization-of-a-coadjoint-orbit", "fiber-bundles/exponential-map", "harmonic-analysis/unitary-induced-representation", "lie-groups/strongly-continuous-unitary-representation", "shared-foundations/equivalence-class", "differential-geometry/coadjoint-orbit"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

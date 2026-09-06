@@ -6,8 +6,7 @@ summary = "A nonzero intertwiner between irreducible representations is an isomo
 aliases = ["schurs-lemma", "Schur's Lemma"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/irreducible-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/schurs-lemma.md"
 +++
 

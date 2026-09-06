@@ -6,8 +6,7 @@ summary = "A locally superringed space, the ambient geometric object from which 
 aliases = ["locally superringed space", "super ringed space"]
 domains = ["supergeometry"]
 prerequisites = ["supergeometry/supercommutative-algebra", "algebra-commutative/residue-field", "topology/continuous-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

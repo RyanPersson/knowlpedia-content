@@ -6,8 +6,7 @@ summary = "The largest open set contained in a given set"
 aliases = ["interior-of-a-set", "Interior"]
 domains = ["convex-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/interior-of-a-set.md"
 +++
 

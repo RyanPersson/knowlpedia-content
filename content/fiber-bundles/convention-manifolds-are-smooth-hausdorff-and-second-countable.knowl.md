@@ -6,8 +6,7 @@ summary = "Throughout, a manifold means a smooth Hausdorff second-countable mani
 aliases = ["convention-manifolds-are-smooth-hausdorff-and-second-countable", "Convention: manifolds are smooth, Hausdorff, and second countable"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/convention-manifolds-are-smooth-hausdorff-and-second-countable.md"
 +++
 

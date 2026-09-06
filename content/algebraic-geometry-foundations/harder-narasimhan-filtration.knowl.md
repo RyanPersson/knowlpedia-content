@@ -6,8 +6,7 @@ summary = "The canonical filtration of a bundle by semistable pieces of strictly
 aliases = ["Harder-Narasimhan filtration", "Harder–Narasimhan polygon", "HN filtration", "Harder–Narasimhan truncation"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 prerequisites = ["algebraic-geometry-foundations/locally-free-sheaf", "algebraic-geometry-foundations/smooth-projective-curve"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

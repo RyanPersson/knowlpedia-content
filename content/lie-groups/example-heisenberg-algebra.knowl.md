@@ -6,8 +6,7 @@ summary = "The three-dimensional nilpotent Lie algebra with basis X, Y, Z and br
 aliases = ["example-heisenberg-algebra", "Example: the Heisenberg Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/nilpotent-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/example-heisenberg-algebra.md"
 +++
 

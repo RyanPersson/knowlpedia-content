@@ -6,8 +6,7 @@ summary = "The metric trace of the Ricci curvature."
 aliases = ["Ricci scalar", "scalar curvature function"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/pseudo-riemannian-manifold", "differential-geometry/ricci-curvature", "differential-geometry/riemann-curvature-tensor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

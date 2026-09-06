@@ -6,8 +6,7 @@ summary = "The probability measure induced by a random variable on its state spa
 aliases = ["distribution-law", "Distribution (law)"]
 domains = ["probability"]
 prerequisites = ["probability/random-variable", "probability/probability-measure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "probability/distribution-law.md"
 +++
 

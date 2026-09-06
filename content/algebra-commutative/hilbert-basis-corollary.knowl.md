@@ -6,8 +6,7 @@ summary = "Polynomial rings (and finitely generated algebras) over a Noetherian 
 aliases = ["hilbert-basis-corollary", "Hilbert basis corollary"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-commutative/noetherian-ring", "algebra-rings/field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/hilbert-basis-corollary.md"
 +++
 

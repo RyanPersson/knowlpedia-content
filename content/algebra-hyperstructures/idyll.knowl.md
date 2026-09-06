@@ -6,8 +6,7 @@ summary = "A band in which every nonzero element is multiplicatively invertible.
 aliases = ["idyll in matroid theory", "field-like band", "ordered-blueprint idyll"]
 domains = ["algebra-hyperstructures", "algebraic-geometry-foundations"]
 prerequisites = ["algebra-hyperstructures/band", "algebra-hyperstructures/null-set-of-a-band", "algebra-hyperstructures/partial-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

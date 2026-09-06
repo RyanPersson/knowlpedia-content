@@ -6,8 +6,7 @@ summary = "An element of a semifinite von Neumann algebra lying in the norm-clos
 aliases = ["tau-compact ideal", "compact relative to a trace", "K(M,tau)"]
 domains = ["operator-algebras", "noncommutative-geometry"]
 prerequisites = ["operator-algebras/semifinite-von-neumann-algebra", "operator-algebras/faithful-normal-semifinite-trace", "algebra-rings/two-sided-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

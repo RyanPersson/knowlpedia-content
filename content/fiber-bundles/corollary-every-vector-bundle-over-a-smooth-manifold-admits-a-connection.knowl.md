@@ -6,8 +6,7 @@ summary = "Any smooth vector bundle over a smooth manifold admits at least one c
 aliases = ["corollary-every-vector-bundle-over-a-smooth-manifold-admits-a-connection", "Every vector bundle admits a connection"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/corollary-every-vector-bundle-over-a-smooth-manifold-admits-a-connection.md"
 +++
 

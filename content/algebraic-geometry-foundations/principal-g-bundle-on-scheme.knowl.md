@@ -6,8 +6,7 @@ summary = "A G-torsor over a scheme in a specified Grothendieck topology."
 aliases = ["algebraic principal G-bundle", "G-bundle on a scheme"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 prerequisites = ["algebraic-geometry-foundations/group-scheme", "algebraic-geometry-foundations/g-torsor-on-a-site"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A rule for selecting a probability distribution by maximizing entropy
 aliases = ["maximum-entropy-principle", "Maximum entropy principle"]
 domains = ["probability"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "probability/maximum-entropy-principle.md"
 +++
 

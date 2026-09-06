@@ -6,8 +6,7 @@ summary = "A power-saving estimate forbidding simultaneous concentration on poro
 aliases = ["FUP", "fractal uncertainty estimate"]
 domains = ["harmonic-analysis", "mathematical-physics", "quantum-chaos"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

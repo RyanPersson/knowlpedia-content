@@ -6,8 +6,7 @@ summary = "A nonzero representation with no proper, nontrivial invariant subspac
 aliases = ["irreducible-representation", "Irreducible representation"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/subrepresentation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/irreducible-representation.md"
 +++
 

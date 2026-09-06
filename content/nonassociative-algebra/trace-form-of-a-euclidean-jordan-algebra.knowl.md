@@ -6,8 +6,7 @@ summary = "The canonical positive-definite associative bilinear form obtained fr
 aliases = ["Jordan trace form", "trace form of a Euclidean Jordan algebra", "canonical trace inner product"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "The sheaf of derivations, equivalently the dual of the sheaf of Kähl
 aliases = ["algebraic tangent sheaf", "tangent sheaf"]
 domains = ["algebraic-geometry-foundations", "differential-geometry"]
 prerequisites = ["algebraic-geometry-foundations/relative-kahler-differentials"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A smooth map whose differential is invertible at a point is a diffeom
 aliases = ["manifold inverse function theorem", "local inverse theorem"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-of-a-smooth-map", "algebraic-geometry-foundations/local-diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

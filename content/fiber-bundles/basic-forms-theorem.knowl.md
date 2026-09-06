@@ -6,8 +6,7 @@ summary = "Characterizes which differential forms on a principal bundle descend 
 aliases = ["basic-forms-theorem", "Basic forms theorem"]
 domains = ["fiber-bundles"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/basic-forms-theorem.md"
 +++
 

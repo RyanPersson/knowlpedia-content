@@ -6,8 +6,7 @@ summary = "A point lies in core(Ω) iff translating Ω by that point makes it ab
 aliases = ["core-characterized-by-absorbing-translations", "Core Characterized by Absorbing Translations"]
 domains = ["convex-analysis"]
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/set-operations-sum-scalar-multiple-difference", "convex-analysis/algebraic-interior-core", "convex-analysis/balanced-and-absorbing-sets"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/core-characterized-by-absorbing-translations.md"
 +++
 

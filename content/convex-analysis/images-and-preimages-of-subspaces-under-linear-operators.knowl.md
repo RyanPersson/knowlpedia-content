@@ -6,8 +6,7 @@ summary = "Linear maps send subspaces to subspaces and pull back subspaces to su
 aliases = ["images-and-preimages-of-subspaces-under-linear-operators", "Images and preimages of subspaces under linear maps"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/images-and-preimages-of-subspaces-under-linear-operators.md"
 +++
 

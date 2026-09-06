@@ -6,8 +6,7 @@ summary = "A topological space with a sheaf of topological rings whose underlyin
 aliases = ["locally topological ringed space", "locally ringed space with topological structure sheaf"]
 domains = ["algebraic-geometry-foundations", "algebra-topological"]
 prerequisites = ["topology/topological-space", "algebraic-geometry-foundations/locally-ringed-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

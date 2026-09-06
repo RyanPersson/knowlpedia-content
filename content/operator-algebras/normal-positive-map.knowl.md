@@ -6,8 +6,7 @@ summary = "A positive linear map between von Neumann algebras that is ultraweakl
 aliases = ["normal order-positive map"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/positive-linear-map", "operator-algebras/normal-linear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

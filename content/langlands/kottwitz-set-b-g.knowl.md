@@ -6,8 +6,7 @@ summary = "The set of Frobenius-conjugacy classes in a reductive group over the 
 aliases = ["Kottwitz set", "sigma-conjugacy classes in G", "G-isocrystals"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/unramified-extension-local", "langlands-letter/knowls/frobenius-unramified", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/twisted-conjugacy", "shared-foundations/pointed-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

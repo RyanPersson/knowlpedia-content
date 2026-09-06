@@ -6,8 +6,7 @@ summary = "The Lie algebra of the orthogonal group: skew-symmetric endomorphisms
 aliases = ["orthogonal-lie-algebra", "Orthogonal Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/orthogonal-group", "fiber-bundles/lie-bracket", "lie-groups/general-linear-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/orthogonal-lie-algebra.md"
 +++
 

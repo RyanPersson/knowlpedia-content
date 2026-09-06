@@ -6,8 +6,7 @@ summary = "In a morphism of short exact sequences, isomorphisms on the ends forc
 aliases = ["five-lemma-corollary", "Corollary of the five lemma: the short five lemma"]
 domains = ["algebra-homological"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/five-lemma-corollary.md"
 +++
 

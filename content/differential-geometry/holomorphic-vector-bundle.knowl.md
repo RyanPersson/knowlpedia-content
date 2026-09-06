@@ -6,8 +6,7 @@ summary = "A holomorphic vector bundle is a complex vector bundle whose local tr
 aliases = ["complex analytic vector bundle"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/complex-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/local-trivialization", "differential-geometry/holomorphic-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

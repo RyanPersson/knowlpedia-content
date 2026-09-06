@@ -6,8 +6,7 @@ summary = "A derived operator on smooth vectors closes to the skew-adjoint gener
 aliases = ["essentially self-adjoint infinitesimal generators", "closure of dπ(X)"]
 domains = ["lie-groups", "functional-analysis"]
 prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/derived-representation-on-smooth-vectors", "lie-groups/infinitesimal-generator-unitary-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

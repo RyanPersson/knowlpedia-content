@@ -6,8 +6,7 @@ summary = "A type I C*-algebra is one whose every irreducible represented image 
 aliases = ["GCR C*-algebra", "GCR algebra", "postliminal C*-algebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/irreducible-cstar-representation", "operator-algebras/compact-operator-cstar-algebra", "operator-algebras/von-neumann-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

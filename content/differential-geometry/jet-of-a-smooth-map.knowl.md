@@ -6,8 +6,7 @@ summary = "A finite-order jet records the derivatives of a smooth map at one poi
 aliases = ["r-jet", "jet equivalence of maps"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "real-analysis/partial-derivative", "shared-foundations/equivalence-class", "fiber-bundles/jet-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A vector space of cosets modulo a subspace; its dimension defines cod
 aliases = ["quotient-vector-space-codimension", "Quotient vector space and codimension"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/quotient-vector-space-codimension.md"
 +++
 

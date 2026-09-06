@@ -6,8 +6,7 @@ summary = "The Maslov index of a pair of moving Lagrangian subspaces, including 
 aliases = ["Maslov index of a pair", "Robbin–Salamon index"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/lagrangian-subspace", "differential-geometry/symplectic-vector-space", "differential-geometry/maslov-index"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

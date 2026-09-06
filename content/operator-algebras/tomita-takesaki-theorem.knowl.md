@@ -6,8 +6,7 @@ summary = "The Tomita–Takesaki theorem identifies the commutant through modula
 aliases = ["fundamental theorem of modular theory"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/cyclic-vector", "operator-algebras/separating-vector", "operator-algebras/tomita-operator", "operator-algebras/modular-conjugation", "operator-algebras/modular-operator", "operator-algebras/commutant"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

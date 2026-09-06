@@ -6,8 +6,7 @@ summary = "A smooth map between symplectic manifolds that pulls the target sympl
 aliases = ["symplectic morphism", "form-preserving smooth map"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-map", "fiber-bundles/pullback-of-differential-forms", "fiber-bundles/smooth-immersion"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

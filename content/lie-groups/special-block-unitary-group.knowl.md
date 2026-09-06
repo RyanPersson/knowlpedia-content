@@ -7,7 +7,7 @@ aliases = ["S(U(p) x U(q))", "S(U(2) x U(3))", "special product of unitary group
 domains = ["lie-groups", "mathematical-physics"]
 prerequisites = []
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

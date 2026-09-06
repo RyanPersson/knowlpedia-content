@@ -6,8 +6,7 @@ summary = "The partial order whose nonnegative elements are the positive element
 aliases = ["C*-algebra order"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-cone", "shared-foundations/partial-order"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

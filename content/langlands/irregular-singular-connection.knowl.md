@@ -6,13 +6,13 @@ summary = "A meromorphic flat connection whose singularity is not regular singul
 aliases = ["irregular connection", "irregular singularity"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 prerequisites = ["langlands/regular-singular-connection", "fiber-bundles/gauge-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
-Let \(U=X\setminus D\) be a punctured smooth complex curve. A meromorphic flat
-connection on \(U\) has an **irregular singularity** at \(x\in D\) if it is
+Let \(X\) be a smooth complex curve, let \(D\subset X\) be a finite set, and
+write \(U=X\setminus D\). A meromorphic flat connection on \(X\), with poles
+along \(D\), has an **irregular singularity** at \(x\in D\) if it is
 not [[langlands/regular-singular-connection|regular singular]] there.
 
 After a finite ramified cover and a formal [[fiber-bundles/gauge-transformation|gauge transformation]], an

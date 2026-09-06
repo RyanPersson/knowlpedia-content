@@ -6,8 +6,7 @@ summary = "d_Ω(x)=inf{||x−w||: w∈Ω} in a normed space"
 aliases = ["distance-function-to-a-set", "Distance function to a set"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/norm-normed-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/distance-function-to-a-set.md"
 +++
 

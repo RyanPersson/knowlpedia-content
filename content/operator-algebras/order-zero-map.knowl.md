@@ -6,8 +6,7 @@ summary = "A completely positive map that sends orthogonal positive elements to 
 aliases = ["order zero map", "orthogonality-preserving CP map"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/completely-positive-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

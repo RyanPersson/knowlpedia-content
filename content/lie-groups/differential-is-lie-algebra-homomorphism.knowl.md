@@ -6,8 +6,7 @@ summary = "If is a Lie group homomorphism, then is a Lie algebra homomorphism."
 aliases = ["differential-is-lie-algebra-homomorphism", "Differential of a Lie group homomorphism"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-group-homomorphism", "fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/lie-algebra-homomorphism", "lie-groups/exponential-map-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/differential-is-lie-algebra-homomorphism.md"
 +++
 

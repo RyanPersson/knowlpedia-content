@@ -6,8 +6,7 @@ summary = "The smooth parameter space of all Lagrangian subspaces of a finite-di
 aliases = ["Grassmannian of Lagrangian subspaces", "space of Lagrangian subspaces", "Λ(n)"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/lagrangian-subspace", "differential-geometry/embedded-submanifold", "differential-geometry/grassmannian"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -7,7 +7,7 @@ aliases = ["noncompact symmetric space", "G/K symmetric space"]
 domains = ["lie-groups", "differential-geometry"]
 prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/homogeneous-space"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

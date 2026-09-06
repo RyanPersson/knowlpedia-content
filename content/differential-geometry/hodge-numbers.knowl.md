@@ -6,8 +6,7 @@ summary = "The dimensions of the bidegree components in the Hodge decomposition 
 aliases = []
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/hodge-decomposition-kahler"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

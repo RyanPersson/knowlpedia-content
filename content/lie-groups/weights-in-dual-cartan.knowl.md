@@ -6,8 +6,7 @@ summary = "Weights are elements of ; integrality conditions define weight lattic
 aliases = ["weights-in-dual-cartan", "Weights in the dual Cartan"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/weight-of-a-representation", "lie-groups/root-system"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/weights-in-dual-cartan.md"
 +++
 
@@ -22,4 +21,4 @@ P=\{\lambda\in\mathfrak h^\ast\mid \lambda(H_\alpha)\in\mathbb Z\ \text{for all 
 A weight is **dominant** if \(\lambda(H_\alpha)\ge 0\) for all simple roots. Highest-weight classification says finite-dimensional irreducibles are parametrized by dominant integral weights (compare [[lie-groups/highest-weight-theorem|highest-weight classification]]).
 
 ## Link with compact groups and maximal tori
-If \(G\) is a compact connected Lie group with maximal torus \(T\) (see [[lie-groups/maximal-torus-theorem|the maximal torus theorem]]), then characters \(T\to U(1)\) differentiate to linear functionals on \(\mathfrak t=\mathrm{Lie}(T)\), producing an integral lattice in \(\mathfrak t^\ast\). After complexification, this lattice matches the integral weights in \(\mathfrak h^\ast\) for the complexified Lie algebra. The [[lie-groups/weyl-group|Weyl group]] acts on these lattices and preserves integrality.
+If \(G\) is a compact connected Lie group with maximal torus \(T\) (see [[lie-groups/maximal-torus-theorem|the maximal torus theorem]]), then characters \(T\to U(1)\) differentiate to linear functionals on \(\mathfrak t=\mathrm{Lie}(T)\), producing an integral lattice in \(\mathfrak t^\ast\). After complexification, its restriction to the Cartan of the semisimple part matches the integral weights in \(\mathfrak h^\ast\) for the complexified semisimple Lie algebra. The [[lie-groups/weyl-group|Weyl group]] acts on these lattices and preserves integrality.

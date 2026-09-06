@@ -6,12 +6,13 @@ summary = "A nonconstant holomorphic function cannot attain a local maximum of i
 aliases = ["maximum modulus theorem"]
 domains = ["complex-analysis"]
 prerequisites = ["complex-analysis/complex-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
 Let \(D\subseteq\mathbb C\) be a [[complex-analysis/complex-domain|domain]] and let \(f:D\to\mathbb C\) be holomorphic. If \(|f|\) has a local maximum at an interior point of \(D\), then \(f\) is constant on \(D\).
+
+For a closed disc around the maximum point, Cauchy's formula expresses \(f(a)\) as the average of its boundary values. The triangle inequality gives \(|f(a)|\) at most the boundary maximum. Equality forces all boundary values to have the same argument and modulus; applying the same argument on smaller discs makes \(f\) constant on a neighborhood of \(a\). The identity theorem then makes it constant on the connected domain.
 
 ## Boundary form
 

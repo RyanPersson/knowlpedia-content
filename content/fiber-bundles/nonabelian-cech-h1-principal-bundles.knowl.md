@@ -6,8 +6,7 @@ summary = "Nonabelian Čech 1-cohomology classifies principal G-bundles as a poi
 aliases = ["Čech classification of principal bundles", "nonabelian H1 of a manifold", "principal bundles classified by H1"]
 domains = ["fiber-bundles", "topology"]
 prerequisites = ["fiber-bundles/principal-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

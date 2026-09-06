@@ -6,8 +6,7 @@ summary = "Over a Q-algebra, a commutative formal group law has a unique strict 
 aliases = ["logarithm of a formal group law", "formal logarithm", "log_F"]
 domains = ["formal-groups"]
 prerequisites = ["formal-groups/formal-group-law", "formal-groups/formal-group-law-morphism", "formal-groups/additive-and-multiplicative-formal-group-laws"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

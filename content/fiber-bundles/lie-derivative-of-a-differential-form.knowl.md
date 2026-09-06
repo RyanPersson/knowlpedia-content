@@ -6,8 +6,7 @@ summary = "The derivative of a differential form along the flow of a vector fiel
 aliases = ["lie-derivative-of-a-differential-form", "Lie derivative of a differential form"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/pullback-of-differential-forms"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/lie-derivative-of-a-differential-form.md"
 +++
 

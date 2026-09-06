@@ -6,8 +6,7 @@ summary = "A function that is constant on each subinterval of some partition."
 aliases = ["step-function", "Step function"]
 domains = ["real-analysis"]
 prerequisites = ["shared-foundations/function", "real-analysis/partition-of-an-interval"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/step-function.md"
 +++
 

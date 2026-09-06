@@ -6,8 +6,7 @@ summary = "A chosen Clifford module whose restriction to the spin group is a spi
 aliases = ["spin module", "space of algebraic spinors"]
 domains = ["differential-geometry", "representation-theory"]
 prerequisites = ["differential-geometry/clifford-module", "differential-geometry/clifford-algebra", "lie-groups/spin-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

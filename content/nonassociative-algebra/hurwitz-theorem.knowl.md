@@ -6,8 +6,7 @@ summary = "The only finite-dimensional real normed division algebras are R, C, H
 aliases = ["Hurwitz theorem", "Hurwitz classification theorem", "1-2-4-8 theorem"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/real-normed-division-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

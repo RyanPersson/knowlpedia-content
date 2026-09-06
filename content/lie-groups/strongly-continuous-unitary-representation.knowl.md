@@ -6,8 +6,7 @@ summary = "A unitary group representation whose orbit map at every vector is nor
 aliases = ["continuous unitary representation"]
 domains = ["lie-groups", "functional-analysis"]
 prerequisites = ["topology/topological-group", "linear-algebra/hilbert-space", "algebra-groups/group-homomorphism", "fiber-bundles/orbit-map", "linear-algebra/operator-norm", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

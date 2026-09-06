@@ -6,8 +6,7 @@ summary = "Over ℂ, the number of irreducible representations equals the number
 aliases = ["number-irreducibles-conjugacy-classes", "Irreducibles and Conjugacy Classes"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-groups/conjugacy-class", "algebra-groups/class-function", "algebra-representation-theory/group-representation", "algebra-representation-theory/character", "algebra-representation-theory/irreducible-character"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/number-irreducibles-conjugacy-classes.md"
 +++
 

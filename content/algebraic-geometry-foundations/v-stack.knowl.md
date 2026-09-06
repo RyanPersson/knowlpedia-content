@@ -6,8 +6,7 @@ summary = "A stack on perfectoid spaces for the very fine v-topology."
 aliases = ["v stack", "small v-stack", "v-sheaf"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 prerequisites = ["algebraic-geometry-foundations/perfectoid-space", "algebraic-geometry-foundations/base-change"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

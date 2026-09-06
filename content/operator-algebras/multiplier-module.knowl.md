@@ -6,8 +6,7 @@ summary = "The multiplier module of a Hilbert module consists of adjointable mod
 aliases = ["multiplier Hilbert module", "M(E)"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/hilbert-cstar-module", "operator-algebras/adjointable-operator-hilbert-module", "operator-algebras/multiplier-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

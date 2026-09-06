@@ -6,8 +6,7 @@ summary = "The distinction between Jordan algebras realizable by symmetrizing as
 aliases = ["special Jordan algebra", "special versus exceptional Jordan algebra"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/jordan-algebra", "nonassociative-algebra/jordan-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

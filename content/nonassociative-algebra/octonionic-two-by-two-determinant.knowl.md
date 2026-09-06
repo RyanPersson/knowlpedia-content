@@ -6,8 +6,7 @@ summary = "The quadratic determinant on the octonionic spin factor."
 aliases = ["octonionic two-by-two determinant", "determinant on H_2(O)", "determinant of a 2 by 2 octonionic Hermitian matrix"]
 domains = ["nonassociative-algebra", "linear-algebra", "octonionic-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

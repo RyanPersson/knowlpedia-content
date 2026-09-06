@@ -52,9 +52,9 @@ Using the [[lie-groups/killing-form|Killing form]] to identify \(\mathfrak h\) a
 
 If \(\mathfrak k\) has a nontrivial center, then \(\mathfrak t\) can be strictly larger than the span of its coroots. A root can be orthogonal to every root of \(\mathfrak k\) while failing to vanish on these extra central directions. Such a root space does **not** centralize \(\mathfrak k\). Thus replacing \(\beta|_{\mathfrak t}=0\) merely by orthogonality to \(\Psi\) is not valid without an additional hypothesis.
 
-## Non-simply-laced caution
+## General root-system caution
 
-In a non-simply-laced [[lie-groups/root-system|root system]], two orthogonal roots can have a sum that is a root. The bracket condition in the definition of \(\Omega\) must then be checked explicitly; orthogonality alone is insufficient.
+The bracket condition in the definition of \(\Omega\) is the general criterion. In a crystallographic root system, once \(\beta\) vanishes on \(\mathfrak t\) and \(\mathfrak t\) contains the coroots of \(\Psi\), orthogonality to every \(\alpha\in\Psi\) forces \(\beta\pm\alpha\notin\Phi\) by the root-string property, so the simply-laced simplification extends to this setting. Orthogonality to \(\Psi\) alone remains insufficient when \(\mathfrak t\) has extra central directions.
 
 ## References
 

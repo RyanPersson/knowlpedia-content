@@ -6,8 +6,7 @@ summary = "A strictly plurisubharmonic weight gives a weighted L2 solution of th
 aliases = ["Hörmander d-bar estimate", "Hörmander L2 existence theorem"]
 domains = ["complex-analysis", "several-complex-variables", "partial-differential-equations"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

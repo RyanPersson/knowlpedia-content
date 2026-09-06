@@ -55,7 +55,7 @@ Equivalently, \(\operatorname{im}(d_n)\subseteq \ker(d_{n-1})\) for all \(n\).
    using [[algebra-rings/kernel-ring|kernel]] / [[algebra-modules/cokernel-module|cokernel]].
 
 3. **“Multiplication by \(x\)” complex.**
-   For \(x\in R\), the 2-term complex
+   For a commutative ring \(R\) and \(x\in R\), the 2-term complex
    \[
    0 \to R \xrightarrow{\,\cdot x\,} R \to 0
    \]

@@ -6,8 +6,7 @@ summary = "Truncated ball porosity forces a quantitative power saving in local L
 aliases = ["porosity volume bound", "porous-set volume decay"]
 domains = ["analysis", "geometric-measure-theory", "measure-theory"]
 prerequisites = ["analysis/porosity-on-balls"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

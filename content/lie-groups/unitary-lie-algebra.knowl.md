@@ -6,8 +6,7 @@ summary = "The Lie algebra of the unitary group: skew-Hermitian matrices with th
 aliases = ["unitary-lie-algebra", "Unitary Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/unitary-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/unitary-lie-algebra.md"
 +++
 

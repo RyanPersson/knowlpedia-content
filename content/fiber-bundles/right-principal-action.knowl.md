@@ -25,12 +25,12 @@ A smooth right action is called a **right principal action** (relative to \(\pi\
 4. (Free) If \(p\cdot g=p\), then \(g=e\).
 5. (Fiberwise transitive) If \(\pi(p)=\pi(q)\), then there exists a unique \(g\in G\) with \(q=p\cdot g\).
 
-## Equivalent characterizations
-Equivalently, the map
+## Principal-bundle criterion
+The additional smoothness condition needed for a principal bundle can be expressed by requiring that the map
 \[
 P\times G \longrightarrow P\times_M P,\qquad (p,g)\longmapsto (p,\,p\cdot g)
 \]
-is a [[fiber-bundles/diffeomorphism|diffeomorphism]]. When \(\pi\) is a surjective submersion and \(P\) carries a right principal action, \((P,\pi,M,G)\) is a [[fiber-bundles/principal-g-bundle|principal G-bundle]].
+is a [[fiber-bundles/diffeomorphism|diffeomorphism]]. Under this condition, \((P,\pi,M,G)\) is a [[fiber-bundles/principal-g-bundle|principal G-bundle]]; fiberwise freeness and transitivity alone do not imply smoothness of the inverse division map.
 
 ## Examples
 1. **Trivial principal bundle.** For \(P=M\times G\) with \(\pi(x,h)=x\), the action \((x,h)\cdot g=(x,hg)\) is right principal.

@@ -6,8 +6,7 @@ summary = "A finitely additive functional on convex bodies, with continuity and 
 aliases = ["convex-body valuation", "continuous translation-invariant valuation", "valuation on convex sets"]
 domains = ["convex-analysis", "integral-geometry"]
 prerequisites = ["convex-analysis/convex-body", "linear-algebra/vector-space", "algebra-groups/abelian-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

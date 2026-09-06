@@ -6,8 +6,7 @@ summary = "The integral of the Euler curvature form of a closed oriented even-di
 aliases = ["Gauss–Bonnet–Chern theorem", "generalized Gauss–Bonnet theorem"]
 domains = ["fiber-bundles", "differential-geometry", "topology"]
 prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/levicivita-connection-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

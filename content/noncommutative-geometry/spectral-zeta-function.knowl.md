@@ -6,8 +6,7 @@ summary = "A Dirichlet-type trace function that records the spectral growth of t
 aliases = ["Dirac zeta function", "zeta_D", "zeta function of D"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/operator-trace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "The extended E_n convention linking the exceptional types E6, E7, E8 
 aliases = ["en-series-of-lie-algebras", "E_n series", "En series", "extended E-series"]
 domains = ["lie-groups"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

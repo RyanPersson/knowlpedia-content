@@ -6,8 +6,7 @@ summary = "A line-preserving bijection of projective spaces of dimension at leas
 aliases = ["fundamental theorem of projective geometries", "collineation theorem"]
 domains = ["algebraic-geometry-foundations", "linear-algebra"]
 prerequisites = ["linear-algebra/vector-space", "algebraic-geometry-foundations/projective-line", "linear-algebra/semilinear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

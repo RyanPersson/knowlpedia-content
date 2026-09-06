@@ -6,8 +6,7 @@ summary = "For a unitary representation, continuity of all matrix coefficients, 
 aliases = ["weak continuity theorem", "continuity of matrix coefficients"]
 domains = ["lie-groups", "harmonic-analysis", "functional-analysis"]
 prerequisites = ["topology/topological-group", "algebra-groups/group-homomorphism", "linear-algebra/hilbert-space", "lie-groups/strongly-continuous-unitary-representation", "harmonic-analysis/coefficient-function", "operator-algebras/weak-operator-topology", "operator-algebras/strong-operator-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

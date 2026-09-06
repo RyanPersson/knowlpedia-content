@@ -6,8 +6,7 @@ summary = "A short exact sequence induces a long exact sequence on left/right de
 aliases = ["long-exact-sequence-derived", "Long exact sequence for derived functors"]
 domains = ["algebra-homological"]
 prerequisites = ["algebra-homological/derived-functor", "algebra-homological/snake-lemma", "algebra-homological/connecting-homomorphism-lemma"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/long-exact-sequence-derived.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A Lie algebra complete for a bracket-compatible descending filtration
 aliases = ["complete descendingly filtered Lie algebra", "pronilpotent filtered Lie algebra"]
 domains = ["lie-groups", "algebra-topological"]
 prerequisites = ["algebra-rings/field", "lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

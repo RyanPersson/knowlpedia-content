@@ -6,8 +6,7 @@ summary = "An extension of a punctured-disc G-bundle to a torsor for a Bruhat-Ti
 aliases = ["parahoric structure on a G-bundle"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/group-scheme", "formal-groups/formal-affine-space", "langlands/loop-group", "langlands/level-structure-on-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

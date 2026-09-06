@@ -6,8 +6,7 @@ summary = "A nowhere-zero section forces the Euler class to vanish, and in base 
 aliases = ["Euler obstruction", "nonvanishing-section obstruction"]
 domains = ["fiber-bundles", "topology"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

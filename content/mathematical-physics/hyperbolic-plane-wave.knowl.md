@@ -6,8 +6,7 @@ summary = "A generalized Laplace eigenfunction on the Poincaré disk obtained fr
 aliases = ["incoming hyperbolic wave", "outgoing hyperbolic wave", "Helgason plane wave"]
 domains = ["mathematical-physics", "harmonic-analysis", "quantum-chaos"]
 prerequisites = ["mathematical-physics/hyperbolic-poisson-kernel"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

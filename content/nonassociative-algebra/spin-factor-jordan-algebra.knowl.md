@@ -6,8 +6,7 @@ summary = "The rank-two Euclidean Jordan algebra built from a real inner-product
 aliases = ["spin factor", "spin-factor Jordan algebra", "Jordan spin factor"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["linear-algebra/vector-space", "linear-algebra/inner-product", "nonassociative-algebra/euclidean-jordan-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

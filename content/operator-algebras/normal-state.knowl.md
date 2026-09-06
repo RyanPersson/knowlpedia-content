@@ -6,8 +6,7 @@ summary = "A state on a von Neumann algebra that belongs to its predual."
 aliases = ["sigma-weakly continuous state"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/normal-functional", "operator-algebras/predual", "operator-algebras/positive-linear-functional"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

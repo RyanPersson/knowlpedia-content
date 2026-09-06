@@ -6,8 +6,7 @@ summary = "The Lie subalgebra spanned by commutators; it measures how far a Lie 
 aliases = ["derived-subalgebra", "Derived subalgebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/ideal-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/derived-subalgebra.md"
 +++
 

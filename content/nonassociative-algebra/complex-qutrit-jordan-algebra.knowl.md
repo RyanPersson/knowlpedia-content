@@ -6,8 +6,7 @@ summary = "The nine-dimensional Euclidean Jordan algebra of Hermitian three-by-t
 aliases = ["complex qutrit Jordan algebra", "qutrit Jordan algebra", "h_3(C)"]
 domains = ["nonassociative-algebra", "quantum-foundations"]
 prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "quantum-foundations/qutrit"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

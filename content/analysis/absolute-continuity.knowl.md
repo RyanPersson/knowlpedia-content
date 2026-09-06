@@ -6,8 +6,7 @@ summary = "A strong continuity condition on an interval controlling total change
 aliases = ["absolute-continuity", "Absolute continuity"]
 domains = ["analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "analysis/absolute-continuity.md"
 +++
 
@@ -24,4 +23,4 @@ Absolute continuity is stronger than [[real-analysis/uniform-continuity|uniform 
 
 - If \(g\) is Lebesgue integrable on \([a,b]\) and \(f(x)=\int_a^x g(t)\,dt\), then \(f\) is absolutely continuous.
 - Every [[topology/lipschitz-continuity|Lipschitz continuous]] function on \([a,b]\) is absolutely continuous.
-- The Cantor function is continuous and of bounded variation but not absolutely continuous; it increases on a [[measure-theory/set-of-measure-zero-in-rk|set of measure zero]].
+- The Cantor function is continuous and of bounded variation but not absolutely continuous.

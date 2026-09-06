@@ -6,8 +6,7 @@ summary = "A derived stack with representable diagonal and a smooth surjective a
 aliases = ["derived Artin stack", "derived algebraic stack"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 prerequisites = ["algebraic-geometry-foundations/grothendieck-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

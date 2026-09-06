@@ -7,7 +7,7 @@ aliases = ["realification of SL(2,C)", "SL2C as a real Lie group"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/complex-lie-group", "lie-groups/underlying-real-lie-group", "topology/topological-group"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

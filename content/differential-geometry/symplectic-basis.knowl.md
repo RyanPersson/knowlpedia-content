@@ -6,8 +6,7 @@ summary = "An ordered basis in which a symplectic form has its standard block ma
 aliases = ["Darboux basis"]
 domains = ["differential-geometry", "linear-algebra"]
 prerequisites = ["differential-geometry/symplectic-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

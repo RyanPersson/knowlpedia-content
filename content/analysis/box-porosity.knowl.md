@@ -6,8 +6,7 @@ summary = "A discrete multiscale porosity condition expressed by an empty child 
 aliases = ["box porous set", "L-adic box porosity"]
 domains = ["analysis", "geometric-measure-theory", "harmonic-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

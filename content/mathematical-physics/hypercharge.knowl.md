@@ -6,8 +6,7 @@ summary = "The U(1) weight that combines with weak isospin to determine electric
 aliases = ["hypercharge", "weak hypercharge", "U(1)_Y"]
 domains = ["mathematical-physics", "lie-groups"]
 prerequisites = ["mathematical-physics/standard-model-gauge-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -11,7 +11,7 @@ dependency_review_count = 0
 legacy_source_path = "fiber-bundles/yangmills-functional.md"
 +++
 
-Let \(M\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with an \(\mathrm{Ad}\)-invariant inner product on its Lie algebra, and let \(\pi\colon P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]].
+Let \(M\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with an \(\mathrm{Ad}\)-invariant positive-definite inner product on its Lie algebra (as for a compact structure group), and let \(\pi\colon P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]].
 
 Fix a [[fiber-bundles/principal-connection|principal connection]] \(A\) on \(P\) with [[fiber-bundles/curvature|curvature]] \(F_A\in \Omega^2(M;\mathrm{Ad}(P))\).
 

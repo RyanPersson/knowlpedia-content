@@ -6,8 +6,7 @@ summary = "A closed real positive form of type one-one on a complex manifold."
 aliases = ["fundamental form of a Kähler metric"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/symplectic-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

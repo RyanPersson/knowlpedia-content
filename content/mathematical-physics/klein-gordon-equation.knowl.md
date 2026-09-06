@@ -6,8 +6,7 @@ summary = "The relativistic field equation for a free massive scalar field."
 aliases = ["Klein-Gordon equation", "Klein Gordon equation", "relativistic scalar wave equation"]
 domains = ["mathematical-physics", "partial-differential-equations"]
 prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/klein-gordon-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

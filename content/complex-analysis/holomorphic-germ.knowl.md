@@ -6,8 +6,7 @@ summary = "The local behavior of a holomorphic function near one point, modulo r
 aliases = ["germ of a holomorphic function", "analytic germ"]
 domains = ["complex-analysis", "sheaf-theory"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

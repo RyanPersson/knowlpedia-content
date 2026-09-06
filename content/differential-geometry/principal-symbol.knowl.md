@@ -6,8 +6,7 @@ summary = "The homogeneous bundle map on the cotangent bundle obtained from the 
 aliases = ["symbol of a differential operator", "leading symbol"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/differential-operator-vector-bundles", "fiber-bundles/bundle-map", "fiber-bundles/cotangent-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

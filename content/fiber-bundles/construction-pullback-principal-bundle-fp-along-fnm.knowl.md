@@ -33,6 +33,6 @@ This construction is functorial: if \(g:K\to N\) is another smooth map, then \((
 ## Examples
 1. **Restriction to a submanifold.** If \(i:U\hookrightarrow M\) is the inclusion of an open set (or an [[differential-geometry/embedded-submanifold|embedded submanifold]]), then \(i^*P\to U\) is the restriction of \(P\) to \(U\).
 
-2. **Pullback of a trivial bundle.** If \(P\cong M\times G\), then \(f^*P\cong N\times G\) canonically.
+2. **Pullback of a trivial bundle.** After choosing a trivialization, the pullback identifies with \(N\times G\); the identification depends on that choice.
 
 3. **Pullback of local trivializations.** If \(P\) is described by transition functions \(g_{ij}\) on a cover of \(M\), then \(f^*P\) is described by the pulled-back transition functions \(g_{ij}\circ f\) on the induced cover \(\{f^{-1}(U_i)\}\) of \(N\).

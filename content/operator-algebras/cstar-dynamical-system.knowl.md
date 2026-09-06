@@ -6,8 +6,7 @@ summary = "A C*-algebra equipped with a point-norm continuous action of a locall
 aliases = ["C*-algebraic dynamical system", "group action on a C*-algebra"]
 domains = ["operator-algebras", "dynamical-systems"]
 prerequisites = ["operator-algebras/cstar-algebra", "topology/locally-compact-group", "algebra-groups/group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

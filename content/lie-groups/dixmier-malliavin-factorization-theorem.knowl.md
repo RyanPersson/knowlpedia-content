@@ -6,8 +6,7 @@ summary = "Every compactly supported smooth function on a Lie group is a finite 
 aliases = ["smooth-vector factorization theorem", "Dixmier–Malliavin theorem"]
 domains = ["lie-groups", "harmonic-analysis", "functional-analysis"]
 prerequisites = ["fiber-bundles/lie-group", "harmonic-analysis/convolution-on-locally-compact-group", "functional-analysis/frechet-space", "lie-groups/garding-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

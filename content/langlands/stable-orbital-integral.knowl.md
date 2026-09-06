@@ -6,8 +6,7 @@ summary = "The sum of orbital integrals over rational conjugacy classes in one s
 aliases = ["stable orbital integrals", "stable orbital distribution"]
 domains = ["langlands", "harmonic-analysis", "representation-theory"]
 prerequisites = ["algebra-fields-galois/local-field", "langlands/strongly-regular-semisimple-element", "langlands/stable-conjugacy", "langlands/orbital-integral", "harmonic-analysis/haar-measure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

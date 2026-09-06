@@ -6,8 +6,7 @@ summary = "Expected power of a random variable, used to summarize features of it
 aliases = ["moment"]
 domains = ["probability"]
 prerequisites = ["probability/expectation", "probability/random-variable"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "probability/moment.md"
 +++
 

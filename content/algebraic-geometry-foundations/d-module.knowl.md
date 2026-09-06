@@ -6,8 +6,7 @@ summary = "A quasi-coherent sheaf module over the sheaf of differential operator
 aliases = ["D-module", "D module"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 prerequisites = ["algebraic-geometry-foundations/sheaf-of-differential-operators"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

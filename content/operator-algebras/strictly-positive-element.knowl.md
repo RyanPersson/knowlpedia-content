@@ -6,8 +6,7 @@ summary = "A strictly positive element is a positive element whose generated her
 aliases = ["strictly positive C*-element"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-element", "operator-algebras/hereditary-cstar-subalgebra", "operator-algebras/positive-linear-functional"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

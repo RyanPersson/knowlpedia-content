@@ -6,8 +6,7 @@ summary = "A finite étale algebra with a group action satisfying the Galois tor
 aliases = ["finite Galois algebra", "G-Galois algebra", "Galois algebra"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebra-rings/field", "algebra-groups/group", "algebraic-geometry-foundations/finite-etale-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 Let \(F\) be a [[algebra-rings/field|field]] and \(G\) a finite [[algebra-groups/group|group]]. A **finite \(G\)-Galois \(F\)-algebra** is a [[algebraic-geometry-foundations/finite-etale-algebra|finite étale \(F\)-algebra]] \(A\) with an action of \(G\) by \(F\)-algebra automorphisms such that the canonical map

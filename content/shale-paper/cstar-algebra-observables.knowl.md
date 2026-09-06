@@ -6,8 +6,7 @@ summary = "The observable algebra is the operator-norm closure of the algebra ge
 aliases = ["cstar-algebra-observables", "C*-Algebra of Field Observables 𝔄"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/cstar-algebra-observables.md"
 +++
 

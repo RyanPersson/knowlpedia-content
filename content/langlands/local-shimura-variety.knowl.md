@@ -6,8 +6,7 @@ summary = "A tower of p-adic moduli spaces attached to local Shimura data and pa
 aliases = ["local Shimura space", "local Shimura datum", "local Shimura tower"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/p-adic-field", "langlands/kottwitz-set-b-g", "algebra-groups/conjugacy-class", "langlands/dominant-coweight", "algebraic-geometry-foundations/adic-space", "algebraic-geometry-foundations/v-stack", "langlands/local-shtuka", "langlands/g-bundle-on-fargues-fontaine-curve", "algebraic-geometry-foundations/tilt-and-untilt"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

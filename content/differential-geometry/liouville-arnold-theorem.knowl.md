@@ -6,8 +6,7 @@ summary = "A compact connected regular fiber of a completely integrable Hamilton
 aliases = ["action-angle theorem"]
 domains = ["differential-geometry", "classical-mechanics"]
 prerequisites = ["differential-geometry/symplectic-manifold", "topology/connected-component", "differential-geometry/regular-level-set", "differential-geometry/action-angle-coordinates"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

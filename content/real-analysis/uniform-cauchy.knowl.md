@@ -6,8 +6,7 @@ summary = "A Cauchy condition for function sequences with a uniform bound over t
 aliases = ["uniform-cauchy", "Uniform Cauchy sequence"]
 domains = ["real-analysis"]
 prerequisites = ["topology/metric-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-cauchy.md"
 +++
 

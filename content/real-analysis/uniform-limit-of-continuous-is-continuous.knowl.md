@@ -6,8 +6,7 @@ summary = "A uniform limit of continuous functions is continuous."
 aliases = ["uniform-limit-of-continuous-is-continuous", "Uniform limit of continuous functions is continuous"]
 domains = ["real-analysis"]
 prerequisites = ["topology/metric-space", "topology/continuous-map", "real-analysis/uniform-convergence", "real-analysis/pointwise-convergence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-limit-of-continuous-is-continuous.md"
 +++
 

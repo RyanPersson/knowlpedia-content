@@ -7,7 +7,7 @@ aliases = ["nonabelian-h1-galois-cohomology", "Nonabelian \\(H^1(\\Gamma,G)\\) a
 domains = ["langlands-letter"]
 prerequisites = ["langlands/twisted-conjugacy", "shared-foundations/pointed-set"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/nonabelian-h1-galois-cohomology.md"
 section_mode = "progressive"
 +++

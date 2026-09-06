@@ -6,8 +6,7 @@ summary = "The Fredholm determinant on identity-plus-trace-class operators."
 aliases = ["fredholm-determinant-trace-log", "Determinant on I + Trace-Class"]
 domains = ["shale-paper"]
 prerequisites = ["linear-algebra/determinant"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/fredholm-determinant-trace-log.md"
 +++
 

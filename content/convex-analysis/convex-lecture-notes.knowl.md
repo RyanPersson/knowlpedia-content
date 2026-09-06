@@ -191,7 +191,7 @@ The operations on sets introduced in this section provide convenient tools to de
 **Definition 1.14.** Let \(M\) be a subset of a vector space \(X\) over a field \(K\) (either \(\mathbb{R}\) or \(\mathbb{C}\)).
 
 (i) The set \(M\) is said to be [[convex-analysis/balanced-and-absorbing-sets|balanced]] if \(\lambda M\subset M\) whenever \(\lambda\in K\) and \(|\lambda|\le 1\).
-(ii) The set \(M\subset X\) is said to be [[convex-analysis/balanced-and-absorbing-sets|absorbing]] if for every \(x\in X\), there exists \(\lambda>0\) such that \(x\in \alpha M\) whenever \(\alpha\in K\) and \(|\alpha|\ge \lambda\).
+(ii) The set \(M\subset X\) is said to be [[convex-analysis/balanced-and-absorbing-sets|absorbing]] if for every \(x\in X\), there exists \(t>0\) such that \(x\in sM\) for every real \(s\ge t\).
 
 ### 1.1.4 Linear Subspaces of a Vector Space
 
@@ -923,10 +923,10 @@ The following proposition provides a characterization of affine mappings.
 B\big(\lambda x_1 + (1-\lambda)x_2\big)=\lambda B(x_1)+(1-\lambda)B(x_2) \qquad (2.3)
 \]
 
-for all \(\lambda\in\mathbb{R}\) and \(x_1,x_2\in X\).
+for all \(\lambda\in K\) and \(x_1,x_2\in X\).
 
 *Proof.*
-To prove the "only if" part, suppose that \(B\) is an affine mapping. Then there exist a linear mapping \(A:X\to Y\) and a vector \(b\in Y\) such that (2.2) is satisfied. Given any \(x_1,x_2\in X\) and \(\lambda\in\mathbb{R}\), it follows that
+To prove the "only if" part, suppose that \(B\) is an affine mapping. Then there exist a linear mapping \(A:X\to Y\) and a vector \(b\in Y\) such that (2.2) is satisfied. Given any \(x_1,x_2\in X\) and \(\lambda\in K\), it follows that
 \[
 \begin{aligned}
 B\big(\lambda x_1+(1-\lambda)x_2\big)
@@ -938,12 +938,12 @@ B\big(\lambda x_1+(1-\lambda)x_2\big)
 \]
 which therefore verifies the validity of (2.3).
 
-To prove the reverse implication, suppose that \(B:X\to Y\) satisfies (2.3) for all \(\lambda\in\mathbb{R}\) and \(x_1,x_2\in X\). Let \(b:=B(0)\), define the mapping
+To prove the reverse implication, suppose that \(B:X\to Y\) satisfies (2.3) for all \(\lambda\in K\) and \(x_1,x_2\in X\). Let \(b:=B(0)\), define the mapping
 \[
 A(x):=B(x)-b \quad \text{for } x\in X, \qquad (2.4)
 \]
 
-and show that it is linear. Indeed, for any \(x_1,x_2\in X\) and \(\lambda\in\mathbb{R}\) we employ (2.3) and (2.4) to verify that
+and show that it is linear. Indeed, for any \(x_1,x_2\in X\) and \(\lambda\in K\) we employ (2.3) and (2.4) to verify that
 \[
 A\big(\lambda x_1+(1-\lambda)x_2\big)=\lambda A(x_1)+(1-\lambda)A(x_2)
 \quad\text{and}\quad A(0)=0.
@@ -1259,14 +1259,14 @@ Given such a function \(f:X\to \overline{\mathbb{R}}\), let us associate with it
 \[
 \operatorname{dom}(f):=\{x\in X \mid f(x)<\infty\},
 \qquad
-\operatorname{epi}(f):=\{(x,\alpha)\in X\times \overline{\mathbb{R}} \mid f(x)\le \alpha\},
+\operatorname{epi}(f):=\{(x,\alpha)\in X\times \mathbb{R} \mid f(x)\le \alpha\},
 \]
 
 respectively. We say that \(f\) is **proper** if \(\operatorname{dom}(f)\neq \emptyset\).
 
 Developing a geometric approach to convex analysis, we define the convexity of a function via the convexity of its epigraphical set; see Figures 2.5 and 2.6. This makes it possible to widely employ geometric results on set convexity in the study and applications of convex functions.
 
-**Definition 2.16.** ([[convex-analysis/convex-function-via-epigraph|Convex function via epigraph]]) Let \(f:X\to \overline{\mathbb{R}}\) be an extended-real-valued function on a vector space \(X\). We say that \(f\) is **convex** if \(\operatorname{epi}(f)\) is a convex set in \(X\times \overline{\mathbb{R}}\).
+**Definition 2.16.** ([[convex-analysis/convex-function-via-epigraph|Convex function via epigraph]]) Let \(f:X\to \overline{\mathbb{R}}\) be an extended-real-valued function on a vector space \(X\). We say that \(f\) is **convex** if \(\operatorname{epi}(f)\) is a convex set in the real vector space \(X\times \mathbb{R}\).
 
 *Fig. 2.5. Convex and nonconvex functions (figure omitted).*
 *Fig. 2.6. Epigraphs of convex and nonconvex functions (figure omitted).*
@@ -1295,7 +1295,7 @@ which immediately implies that
 \lambda(x,s)+(1-\lambda)(y,t)=\big(\lambda x+(1-\lambda)y,\ \lambda s+(1-\lambda)t\big)\in \operatorname{epi}(f)
 \]
 
-and shows that the epigraph \(\operatorname{epi}(f)\) is a convex subset of \(X\times\overline{\mathbb{R}}\).
+and shows that the epigraph \(\operatorname{epi}(f)\) is a convex subset of the real vector space \(X\times\mathbb{R}\).
 
 Conversely, suppose that \(f\) is convex and pick \(x,y\in \operatorname{dom}(f)\) and \(\lambda\in(0,1)\). Then \((x,f(x)),(y,f(y))\in \operatorname{epi}(f)\). Definition 2.16 tells us that
 \[
@@ -2678,7 +2678,7 @@ Now, fix an element \(a \in \operatorname{core}\Omega_1\) and any real number \(
 f(z) = t f(a) + (1-t)f(x) \le f(y).
 \]
 
-Letting \(t \to 0+\) gives us \(f(x) \le f(z)\). Therefore, \(\Omega_1\) and \(\Omega_2\) can be separated by a hyperplane. \(\square\)
+Letting \(t \to 0+\) gives \(f(x) \le f(y)\). Therefore, \(\Omega_1\) and \(\Omega_2\) can be separated by a hyperplane. \(\square\)
 
 **Theorem 3.37.** ([[convex-analysis/complex-separation-theorem-real-parts|Complex separation theorem (real parts)]]) Let \(\Omega_1\) and \(\Omega_2\) be two nonempty convex sets in a complex vector space \(X\). Suppose that \(\operatorname{core}\Omega_1 \ne \emptyset\) and \((\operatorname{core}\Omega_1)\cap \Omega_2 = \emptyset\). Then there exists a nonzero linear functional \(F \in X'\) such that
 
@@ -2763,7 +2763,7 @@ Note that in the setting of Definition 3.42, the sets \(\Omega_1\) and \(\Omega_
 
 **Theorem 3.43.** ([[convex-analysis/strict-separation-of-compact-and-closed-convex-sets|Strict separation of compact and closed convex sets]]) Let \(K\) and \(F\) be two nonempty convex sets in a real normed space \(X\). Suppose that \(K\) is compact, \(F\) is [[convex-analysis/closed-subset|closed]], and \(K \cap F = \emptyset\). Then \(K\) and \(F\) can be strictly separated by a closed hyperplane.
 
-*Proof.* Consider the set \(\Theta = F - K\). Then \(\Theta\) is a convex set and \(0 \notin \Theta\) because \(\Omega_1\) and \(\Omega_2\) are disjoint convex sets. Since \(K\) is compact and \(F\) is closed, we see that \(\Theta\) is closed. Choose \(\delta > 0\) such that \(B(0;\delta) \cap \Theta = \emptyset\). Consider two nonempty convex sets: \(\Omega_1 = B(0;\delta)\) and \(\Omega_2 = \Theta\). By Theorem 3.40, there exists \(x^\ast  \in X^\ast \) such that
+*Proof.* Consider the set \(\Theta = F - K\). Then \(\Theta\) is a convex set and \(0 \notin \Theta\) because \(K\cap F=\emptyset\). Since \(K\) is compact and \(F\) is closed, we see that \(\Theta\) is closed. Choose \(\delta > 0\) such that \(B(0;\delta) \cap \Theta = \emptyset\). Consider two nonempty convex sets: \(\Omega_1 = B(0;\delta)\) and \(\Omega_2 = \Theta\). By Theorem 3.40, there exists \(x^\ast  \in X^\ast \) such that
 
 \[
 \sup_{x \in B(0;\delta)} \langle x^\ast ,x\rangle \le \inf_{z \in \Theta} \langle x^\ast ,z\rangle.
@@ -2772,20 +2772,20 @@ Note that in the setting of Definition 3.42, the sets \(\Omega_1\) and \(\Omega_
 This implies that
 
 \[
-0 < \delta \le \inf_{z \in \Theta} \langle x^\ast ,z\rangle.
+0 < \delta\|x^\ast\| \le \inf_{z \in \Theta} \langle x^\ast ,z\rangle.
 \]
 
 Now, for any \(x \in K\) and \(y \in F\) we have \(z = y - x \in \Theta\). Thus,
 
 \[
-\delta \le \langle x^\ast ,y-x\rangle = \langle x^\ast ,y\rangle - \langle x^\ast ,x\rangle,
+\delta\|x^\ast\| \le \langle x^\ast ,y-x\rangle = \langle x^\ast ,y\rangle - \langle x^\ast ,x\rangle,
 \]
 
-and hence \(\delta + \langle x^\ast ,x\rangle \le \langle x^\ast ,y\rangle\) whenever \(x \in K\) and \(y \in F\). It follows that
+and hence \(\delta\|x^\ast\| + \langle x^\ast ,x\rangle \le \langle x^\ast ,y\rangle\) whenever \(x \in K\) and \(y \in F\). It follows that
 
 \[
 \sup_{x \in K} \langle x^\ast ,x\rangle
-< \delta + \sup_{x \in K} \langle x^\ast ,x\rangle
+< \delta\|x^\ast\| + \sup_{x \in K} \langle x^\ast ,x\rangle
 \le \inf_{y \in F} \langle x^\ast ,y\rangle.
 \]
 

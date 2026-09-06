@@ -6,8 +6,7 @@ summary = "A scheme whose underlying Zariski topological space cannot be split i
 aliases = ["connected scheme", "scheme connectedness"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "topology/topological-space", "algebra-commutative/zariski-topology", "algebraic-geometry-foundations/affine-scheme"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 A [[algebraic-geometry-foundations/scheme|scheme]] \(X\) is **connected** if its underlying [[topology/topological-space|topological space]] in the [[algebra-commutative/zariski-topology|Zariski topology]] is connected: there do not exist disjoint nonempty open subsets \(U,V\subseteq X\) with \(X=U\cup V\). Equivalently, the only subsets that are both open and closed are \(\varnothing\) and \(X\).

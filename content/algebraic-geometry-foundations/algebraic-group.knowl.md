@@ -6,8 +6,7 @@ summary = "A group scheme of finite type over a field."
 aliases = ["algebraic group"]
 domains = ["algebraic-geometry-foundations", "lie-groups"]
 prerequisites = ["algebraic-geometry-foundations/group-scheme"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

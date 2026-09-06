@@ -7,7 +7,7 @@ aliases = ["borel-mostow-semisimple-normalizer", "Borel–Mostow Normalizer Repr
 domains = ["langlands-letter"]
 prerequisites = ["algebraic-geometry-foundations/algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "langlands-letter/knowls/maximal-torus-weight-lattice", "algebra-groups/normalizer"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/borel-mostow-semisimple-normalizer.md"
 section_mode = "progressive"
 +++

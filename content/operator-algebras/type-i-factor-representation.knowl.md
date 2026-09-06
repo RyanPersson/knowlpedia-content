@@ -6,8 +6,7 @@ summary = "A factor representation whose generated von Neumann algebra is a type
 aliases = ["type I representation", "factor representation of type I"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/cstar-representation", "operator-algebras/von-neumann-algebra", "operator-algebras/type-i-factor", "operator-algebras/bicommutant"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

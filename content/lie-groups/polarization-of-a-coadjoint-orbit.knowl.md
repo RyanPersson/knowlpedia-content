@@ -6,8 +6,7 @@ summary = "A maximal-dimensional Lie subalgebra on which the alternating form de
 aliases = ["subordinate subalgebra of maximal dimension", "real polarization", "complex polarization"]
 domains = ["lie-groups", "representation-theory", "differential-geometry"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra", "fiber-bundles/lie-bracket"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

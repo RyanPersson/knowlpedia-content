@@ -6,8 +6,7 @@ summary = "Set addition, scalar multiplication, and difference inside a vector s
 aliases = ["set-operations-sum-scalar-multiple-difference", "Operations on subsets of a vector space"]
 domains = ["convex-analysis"]
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/set-operations-sum-scalar-multiple-difference.md"
 +++
 

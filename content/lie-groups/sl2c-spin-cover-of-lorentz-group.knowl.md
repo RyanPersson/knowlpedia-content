@@ -7,7 +7,7 @@ aliases = ["spin covering of SO+(1,3)", "SL2C Lorentz double cover"]
 domains = ["lie-groups", "mathematical-physics"]
 prerequisites = ["lie-groups/hermitian-matrix-model-of-minkowski-space", "lie-groups/lie-group-homomorphism"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

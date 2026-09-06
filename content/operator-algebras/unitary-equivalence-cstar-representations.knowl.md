@@ -6,8 +6,7 @@ summary = "The equivalence relation on Hilbert-space representations implemented
 aliases = ["equivalent *-representations"]
 domains = ["operator-algebras", "representation-theory"]
 prerequisites = ["operator-algebras/cstar-representation", "functional-analysis/unitary-operator", "linear-algebra/inner-product", "shared-foundations/equivalence-relation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

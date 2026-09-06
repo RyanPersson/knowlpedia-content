@@ -6,8 +6,7 @@ summary = "The positive sum of squares of infinitesimal generators used to detec
 aliases = ["representation Laplacian", "Nelson operator"]
 domains = ["lie-groups", "harmonic-analysis", "functional-analysis"]
 prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/smooth-vector-unitary-representation", "functional-analysis/symmetric-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "An invariant distribution that depends only on stable orbital-integra
 aliases = ["stable invariant distribution", "stable character distribution", "stable virtual character"]
 domains = ["langlands", "harmonic-analysis"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "harmonic-analysis/distribution-local-group", "langlands/strongly-regular-semisimple-element", "langlands/stable-orbital-integral", "algebra-groups/conjugacy-class", "langlands/stable-conjugacy"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -16,19 +15,14 @@ Let \(G\) be a connected
 over a [[algebra-fields-galois/local-field|local field]]
 \(F\). An
 [[harmonic-analysis/distribution-local-group|invariant distribution]]
-\(D\) on \(C_c^\infty(G(F))\) is **stable** if
-
-\[
-D(f)=0
-\]
-
-whenever all [[langlands/strongly-regular-semisimple-element|strongly regular
-semisimple]]
-[[langlands/stable-orbital-integral|stable orbital integrals]] of \(f\) vanish.
-Equivalently, \(D\) factors through the space of stable orbital-integral data
-rather than depending on the individual
-[[algebra-groups/conjugacy-class|\(G(F)\)-conjugacy classes]] inside a
-[[langlands/stable-conjugacy|stable class]].
+\(D\) on \(C_c^\infty(G(F))\) is **stable** when its regular-semisimple part
+depends only on [[langlands/stable-conjugacy|stable conjugacy]]. Equivalently,
+on test functions supported in the strongly regular semisimple locus, \(D\)
+factors through the space of [[langlands/stable-orbital-integral|stable orbital
+integral]] data rather than depending on the individual
+[[algebra-groups/conjugacy-class|\(G(F)\)-conjugacy classes]] inside a stable
+class. A distribution may also have singular support; its extension across
+the nonregular locus must satisfy the corresponding stable-germ conditions.
 
 This functional definition remains meaningful when a distribution has no
 pointwise character function.

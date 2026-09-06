@@ -6,8 +6,7 @@ summary = "The unique torsion-free metric-compatible connection on a Riemannian 
 aliases = ["levicivita-connection-connection", "Levi–Civita connection as a principal O(n)-connection"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/levicivita-connection-connection.md"
 +++
 
@@ -28,6 +27,6 @@ This unique connection is the **Levi–Civita connection** of \(g\).
 Equivalently, there exists a unique [[fiber-bundles/principal-connection|principal connection]] on the principal bundle \(O(M)\to M\) whose associated connection on \(TM\) (via the defining representation of \(O(n)\)) is \(\nabla\), and whose torsion 2-form (defined using the [[fiber-bundles/solder-form-on-the-frame-bundle|solder form]]) vanishes; this torsion is precisely the object defined in [[fiber-bundles/torsion-2-form|torsion 2-form]].
 
 ## Examples
-1. **Euclidean space.** On \((\mathbb{R}^n,\text{standard }g)\), \(\nabla\) is ordinary differentiation in standard coordinates; in the standard global orthonormal frame, the connection 1-form on \(O(\mathbb{R}^n)\) is identically zero.
+1. **Euclidean space.** On \((\mathbb{R}^n,\text{standard }g)\), \(\nabla\) is ordinary differentiation in standard coordinates; the pullback of the connection 1-form along the standard global orthonormal frame is zero.
 2. **Round sphere.** On \(S^n\) with the round metric, \(\nabla\) is the tangential component of the ambient derivative in \(\mathbb{R}^{n+1}\); its holonomy is typically all of \(SO(n)\) for \(n\ge 2\).
 3. **Bi-invariant metric on a Lie group.** If a Lie group carries a bi-invariant metric, then for left-invariant vector fields \(X,Y\) one has \(\nabla_XY=\tfrac12[X,Y]\).

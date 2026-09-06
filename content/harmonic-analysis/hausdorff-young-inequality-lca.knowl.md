@@ -6,8 +6,7 @@ summary = "The Fourier transform maps Lp of a locally compact abelian group boun
 aliases = ["Hausdorff-Young inequality", "Lp Fourier estimate"]
 domains = ["harmonic-analysis", "measure-theory", "functional-analysis"]
 prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/haar-measure", "harmonic-analysis/fourier-transform-lca", "shared-foundations/equivalence-class", "measure-theory/lp-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

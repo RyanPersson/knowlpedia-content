@@ -6,8 +6,7 @@ summary = "The hyperring of multiplicative orbits R/G of a ring under a subgroup
 aliases = ["Krasner quotient hyperring", "factor hyperring by a multiplicative subgroup"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/group-of-units", "algebra-hyperstructures/hyperring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

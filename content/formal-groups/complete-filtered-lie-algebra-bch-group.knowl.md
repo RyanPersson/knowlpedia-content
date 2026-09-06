@@ -6,8 +6,7 @@ summary = "The convergent BCH series turns a complete pronilpotent Lie algebra i
 aliases = ["pronilpotent BCH group", "exponential group of a complete Lie algebra", "exp(g) for a pronilpotent Lie algebra"]
 domains = ["formal-groups", "lie-groups"]
 prerequisites = ["lie-groups/complete-filtered-lie-algebra", "lie-groups/baker-campbell-hausdorff-formula"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

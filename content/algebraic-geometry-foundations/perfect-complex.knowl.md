@@ -6,8 +6,7 @@ summary = "A complex locally quasi-isomorphic to a bounded complex of finite-ran
 aliases = ["perfect object", "strictly perfect complex", "Perf(X)"]
 domains = ["algebraic-geometry-foundations", "algebra-homological", "langlands"]
 prerequisites = ["algebraic-geometry-foundations/ringed-space", "algebraic-geometry-foundations/algebraic-stack", "algebra-homological/cochain-complex", "algebraic-geometry-foundations/sheaf-of-modules", "algebraic-geometry-foundations/locally-free-sheaf", "algebra-modules/projective-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "The set obtained by adding every point of one subset of a vector spac
 aliases = ["set addition", "Minkowski addition"]
 domains = ["convex-analysis", "analysis"]
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

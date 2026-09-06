@@ -7,7 +7,7 @@ aliases = ["quotient-lie-algebra", "Quotient Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/ideal-lie-algebra", "lie-groups/lie-algebra-homomorphism"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/quotient-lie-algebra.md"
 +++
 

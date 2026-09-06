@@ -6,8 +6,7 @@ summary = "A smooth Lie group action is proper if the action graph map is proper
 aliases = ["proper-action-lie", "Proper action"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/smooth-action-lie-group", "lie-groups/orbit-space", "lie-groups/stabilizer-lie-group", "lie-groups/orbit-lie-group", "lie-groups/free-action-lie", "lie-groups/principal-homogeneous-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/proper-action-lie.md"
 +++
 

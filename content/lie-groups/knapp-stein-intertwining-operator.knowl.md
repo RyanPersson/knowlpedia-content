@@ -6,8 +6,7 @@ summary = "A Knapp–Stein operator is the meromorphically continued and normali
 aliases = ["standard intertwining operator", "normalized intertwiner"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/normalized-parabolic-induction", "lie-groups/intertwining-operator-unitary-representations"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

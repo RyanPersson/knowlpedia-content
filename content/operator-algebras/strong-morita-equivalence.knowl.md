@@ -6,14 +6,13 @@ summary = "An equivalence of C*-algebras witnessed by a full imprimitivity bimod
 aliases = ["C*-Morita equivalence", "Rieffel Morita equivalence"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/imprimitivity-bimodule"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
 Two [[operator-algebras/cstar-algebra|\(C^*\)-algebras]] \(A\) and \(B\) are **strongly Morita equivalent** when there exists an [[operator-algebras/imprimitivity-bimodule|\(A\)-\(B\) imprimitivity bimodule]] \(X\). Concretely, \(X\) is a full right Hilbert \(B\)-module with a nondegenerate \(*\)-homomorphism
 \[
-A\longrightarrow\mathcal L_B(X)
+A\cong\mathcal K_B(X)\subseteq\mathcal L_B(X)
 \]
 whose image is exactly \(\mathcal K_B(X)\), the \(C^*\)-algebra of compact adjointable operators on \(X\). Equivalently, \(X\) carries compatible full \(A\)- and \(B\)-valued inner products satisfying
 \[

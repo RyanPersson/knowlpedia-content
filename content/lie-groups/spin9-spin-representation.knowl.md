@@ -6,8 +6,7 @@ summary = "The real 16-dimensional spin representation of Spin(9), realized on t
 aliases = ["16-dimensional spin representation of Spin(9)", "Spin(9) action on O^2", "real Spin(9) spin module"]
 domains = ["lie-groups", "representation-theory", "nonassociative-algebra"]
 prerequisites = ["lie-groups/spin-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/octonionic-special-linear-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

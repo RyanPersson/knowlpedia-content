@@ -6,8 +6,7 @@ summary = "The effective Standard Model group arises as the intersection of two 
 aliases = ["F4 stabilizer characterization of the Standard Model group", "Standard Model group from the exceptional Jordan algebra"]
 domains = ["mathematical-physics", "lie-groups", "nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/exceptional-jordan-algebra", "lie-groups/compact-exceptional-lie-group-f4", "nonassociative-algebra/automorphism-group-of-a-jordan-algebra", "nonassociative-algebra/jordan-subalgebra", "lie-groups/identity-component-of-a-lie-group", "mathematical-physics/standard-model-gauge-group", "nonassociative-algebra/complex-qubit-jordan-algebra", "nonassociative-algebra/complex-qutrit-jordan-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

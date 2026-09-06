@@ -6,8 +6,7 @@ summary = "Characteristic classes obtained from invariant polynomials in curvatu
 aliases = ["corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle", "Chern–Weil classes are independent of the connection"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/curvature"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The set of all real-valued continuous functions on a given topologica
 aliases = ["space-of-continuous-functions", "Space of continuous functions"]
 domains = ["real-analysis"]
 prerequisites = ["topology/topological-space", "topology/continuous-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/space-of-continuous-functions.md"
 +++
 

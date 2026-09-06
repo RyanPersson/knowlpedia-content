@@ -6,8 +6,7 @@ summary = "A complex manifold equipped with a Riemannian metric invariant under 
 aliases = ["Hermitian complex manifold", "Hermitian metric on a complex manifold"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/complex-manifold", "fiber-bundles/tangent-bundle", "differential-geometry/almost-hermitian-manifold", "differential-geometry/almost-complex-structure", "differential-geometry/integrable-almost-complex-structure", "fiber-bundles/hermitian-metric", "differential-geometry/holomorphic-tangent-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

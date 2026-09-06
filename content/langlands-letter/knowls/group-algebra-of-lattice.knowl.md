@@ -7,7 +7,7 @@ aliases = ["group-algebra-of-lattice", "Group Algebra of a Lattice and Multiplic
 domains = ["langlands-letter"]
 prerequisites = ["algebra-groups/abelian-group", "algebra-representation-theory/group-algebra", "algebra-rings/laurent-polynomial-ring"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/group-algebra-of-lattice.md"
 section_mode = "progressive"
 +++

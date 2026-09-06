@@ -6,8 +6,7 @@ summary = "The natural representation obtained from the matrix realization of a 
 aliases = ["natural representation of a classical Lie algebra", "standard representation of a classical Lie algebra", "vector representation"]
 domains = ["lie-groups", "representation-theory"]
 prerequisites = ["lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A cohomologically constant smooth family of symplectic forms on a com
 aliases = ["Moser trick", "Moser isotopy theorem"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/symplectic-manifold", "differential-geometry/smooth-isotopy", "differential-geometry/symplectomorphism", "fiber-bundles/vector-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

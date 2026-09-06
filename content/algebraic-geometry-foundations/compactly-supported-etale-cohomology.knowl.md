@@ -6,8 +6,7 @@ summary = "Étale cohomology formed with the exceptional direct image, retaining
 aliases = ["étale cohomology with compact support", "compact support etale cohomology", "H_c etale"]
 domains = ["algebraic-geometry-foundations", "langlands", "algebra-homological"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/small-etale-site", "algebra-homological/cochain-complex"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

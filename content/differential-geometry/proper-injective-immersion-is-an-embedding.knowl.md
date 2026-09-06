@@ -6,8 +6,7 @@ summary = "A proper injective smooth immersion between manifolds is a smooth emb
 aliases = ["proper immersion embedding criterion"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-immersion", "differential-geometry/proper-smooth-map", "fiber-bundles/smooth-embedding", "topology/subspace-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "The canonical involution and Euclidean geometry carried by the octoni
 aliases = ["octonion conjugation", "octonion norm", "octonion inner product"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["linear-algebra/inner-product", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

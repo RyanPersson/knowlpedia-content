@@ -6,8 +6,7 @@ summary = "The Lie group GL(V) of invertible linear maps on a finite-dimensional
 aliases = ["general-linear-group", "General linear group"]
 domains = ["lie-groups"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/general-linear-group.md"
 +++
 

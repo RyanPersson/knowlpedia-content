@@ -6,8 +6,7 @@ summary = "A linear subspace on which the ambient symplectic form remains nondeg
 aliases = ["nondegenerate subspace"]
 domains = ["differential-geometry", "linear-algebra"]
 prerequisites = ["differential-geometry/symplectic-vector-space", "convex-analysis/linear-subspace", "differential-geometry/symplectic-orthogonal-complement"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A nontrivial ordered blueprint whose nonzero monomials are all units.
 aliases = ["blue field", "ordered blueprint field"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
 prerequisites = ["algebraic-geometry-foundations/ordered-blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -25,4 +24,3 @@ Fields, [[algebra-hyperstructures/partial-field|partial fields]], and hyperfield
 
 ## References
 Matthew Baker and Oliver Lorscheid, [*The moduli space of matroids*, §§2.6 and 6.4](https://arxiv.org/abs/1809.03542).
-

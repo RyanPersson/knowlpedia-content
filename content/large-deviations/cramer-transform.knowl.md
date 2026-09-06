@@ -6,8 +6,7 @@ summary = "The convex dual of a log moment generating function, giving a canonic
 aliases = ["cramer-transform", "Cramér transform"]
 domains = ["large-deviations"]
 prerequisites = ["convex-analysis/legendre-fenchel-transform", "convex-analysis/convex-conjugate-fenchel"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "large-deviations/cramer-transform.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A locally superringed space locally isomorphic to a finite-dimensiona
 aliases = ["smooth supermanifold", "Berezin-Leites supermanifold", "Kostant supermanifold"]
 domains = ["supergeometry", "differential-geometry"]
 prerequisites = ["supergeometry/superspace", "supergeometry/superdomain", "algebra-rings/nilpotent-element"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

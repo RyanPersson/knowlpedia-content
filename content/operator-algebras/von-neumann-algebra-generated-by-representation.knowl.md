@@ -6,8 +6,7 @@ summary = "The bicommutant, equivalently the weak operator closure of the unital
 aliases = ["generated von Neumann algebra", "pi(A) double commutant", "weak closure of a representation"]
 domains = ["operator-algebras", "algebra-representation-theory"]
 prerequisites = ["operator-algebras/cstar-representation", "operator-algebras/von-neumann-bicommutant-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

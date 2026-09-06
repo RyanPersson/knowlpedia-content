@@ -6,8 +6,7 @@ summary = "Matrices representing Clifford multiplication in a chosen basis of a 
 aliases = ["Dirac gamma matrices", "Clifford matrices"]
 domains = ["mathematical-physics", "differential-geometry"]
 prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/spinor-module", "differential-geometry/clifford-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

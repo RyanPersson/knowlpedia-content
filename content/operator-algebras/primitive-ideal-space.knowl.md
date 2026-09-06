@@ -6,8 +6,7 @@ summary = "The primitive ideal space is the set of primitive ideals equipped wit
 aliases = ["Prim(A)", "C*-spectrum"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/primitive-ideal", "operator-algebras/hull-kernel-topology", "algebra-rings/two-sided-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

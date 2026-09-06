@@ -16,7 +16,7 @@ Choose any \(W\)-invariant inner product on the real span of \(\Phi\).
 
 **Definition.** The **Cartan matrix** \(A=(a_{ij})_{1\le i,j\le \ell}\) is defined by
 \[
-a_{ij} \;=\; 2\,\frac{(\alpha_i,\alpha_j)}{(\alpha_j,\alpha_j)}.
+a_{ij} \;=\; 2\,\frac{(\alpha_i,\alpha_j)}{(\alpha_i,\alpha_i)}.
 \]
 
 **Basic properties.**

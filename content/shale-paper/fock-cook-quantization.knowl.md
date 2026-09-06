@@ -6,8 +6,7 @@ summary = "The bosonic canonical-commutation-relation representation defined by 
 aliases = ["fock-cook-quantization", "Fock–Cook Quantization"]
 domains = ["shale-paper"]
 prerequisites = ["shale-paper/symmetric-fock-space", "shale-paper/creation-annihilation-operators"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/fock-cook-quantization.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The ordered real line with positive and negative infinity, together w
 aliases = ["extended-real-number-system-and-conventions", "Extended real number system and conventions"]
 domains = ["convex-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/extended-real-number-system-and-conventions.md"
 +++
 

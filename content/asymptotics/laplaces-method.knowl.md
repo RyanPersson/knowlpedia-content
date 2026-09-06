@@ -6,8 +6,7 @@ summary = "Asymptotic evaluation of integrals dominated by a single interior max
 aliases = ["laplaces-method", "Laplace's method"]
 domains = ["asymptotics"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "asymptotics/laplaces-method.md"
 +++
 

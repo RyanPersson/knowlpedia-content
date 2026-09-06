@@ -6,8 +6,7 @@ summary = "The compact complex manifold of complex lines in complex Euclidean sp
 aliases = ["CPn", "complex projective n-space", "complex projective manifold"]
 domains = ["differential-geometry", "algebraic-geometry-foundations", "complex-analysis"]
 prerequisites = ["algebraic-geometry-foundations/projective-space", "differential-geometry/complex-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

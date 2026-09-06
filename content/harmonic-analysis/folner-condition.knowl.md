@@ -6,8 +6,7 @@ summary = "A small-boundary condition requiring finite-measure sets that are nea
 aliases = ["Folner condition", "Følner net"]
 domains = ["harmonic-analysis", "algebra-groups"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

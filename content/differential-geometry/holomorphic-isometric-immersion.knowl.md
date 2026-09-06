@@ -6,8 +6,7 @@ summary = "A holomorphic map between Hermitian manifolds that pulls the target m
 aliases = ["Kähler immersion", "Hermitian isometric immersion"]
 domains = ["differential-geometry", "complex-analysis"]
 prerequisites = ["differential-geometry/hermitian-manifold", "differential-geometry/holomorphic-map", "differential-geometry/riemannian-isometric-immersion"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

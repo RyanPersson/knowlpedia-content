@@ -6,8 +6,7 @@ summary = "Double distributivity forces every nonopposite binary hypersum to be 
 aliases = ["double distributivity implies stringency"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
 prerequisites = ["algebra-hyperstructures/doubly-distributive-hyperfield", "algebra-hyperstructures/stringent-hyperfield"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

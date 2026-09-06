@@ -6,8 +6,7 @@ summary = "Two atlases are equivalent if they define the same smooth bundle stru
 aliases = ["equivalent-bundle-atlases", "Equivalent bundle atlases"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/bundle-atlas", "fiber-bundles/transition-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/equivalent-bundle-atlases.md"
 +++
 

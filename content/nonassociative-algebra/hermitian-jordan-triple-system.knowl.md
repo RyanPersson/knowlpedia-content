@@ -6,8 +6,7 @@ summary = "A complex vector space with a symmetric outer, conjugate-linear middl
 aliases = ["positive Hermitian Jordan triple system", "Hermitian Jordan triple"]
 domains = ["nonassociative-algebra", "complex-analysis"]
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

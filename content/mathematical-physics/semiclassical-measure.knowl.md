@@ -6,8 +6,7 @@ summary = "A weak-star limit in phase space of quadratic observables evaluated o
 aliases = ["defect measure", "microlocal defect measure", "quantum limit"]
 domains = ["mathematical-physics", "microlocal-analysis", "quantum-chaos"]
 prerequisites = ["differential-geometry/classical-phase-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

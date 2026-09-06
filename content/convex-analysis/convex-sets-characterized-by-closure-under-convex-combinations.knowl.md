@@ -6,8 +6,7 @@ summary = "A set is convex iff it contains convex combinations of its points"
 aliases = ["convex-sets-characterized-by-closure-under-convex-combinations", "Convex sets via convex combinations"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/convex-set", "convex-analysis/convex-combination"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/convex-sets-characterized-by-closure-under-convex-combinations.md"
 +++
 

@@ -7,7 +7,7 @@ aliases = ["local G-shtuka", "moduli space of local shtukas", "p-adic shtuka"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 prerequisites = ["algebra-fields-galois/frobenius-endomorphism", "langlands/hecke-modification", "algebraic-geometry-foundations/tilt-and-untilt", "algebra-groups/conjugacy-class", "langlands-letter/knowls/maximal-torus-weight-lattice", "langlands/g-bundle-on-fargues-fontaine-curve", "topology/locally-profinite-group"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -48,7 +48,7 @@ by the cocharacters.
 ## Group actions
 
 The tower over varying \(K\) carries commuting actions associated to
-\(G(E)\), the self-quasi-isogeny group \(G_b(E)\), and [[langlands/weil-group|Weil groups]] of the
+\(G(E)\), the self-quasi-isogeny group \(J_b(E)\), and [[langlands/weil-group|Weil groups]] of the
 reflex fields of the legs. Its
 [[algebraic-geometry-foundations/compactly-supported-etale-cohomology|compactly
 supported cohomology]] therefore

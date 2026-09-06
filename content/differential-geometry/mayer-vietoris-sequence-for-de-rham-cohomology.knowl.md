@@ -6,8 +6,7 @@ summary = "An open two-set cover produces a long exact sequence relating the de 
 aliases = ["de Rham Mayer–Vietoris sequence"]
 domains = ["differential-geometry"]
 prerequisites = ["topology/open-cover", "fiber-bundles/smooth-manifold", "algebra-modules/short-exact-sequence", "differential-geometry/de-rham-complex"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

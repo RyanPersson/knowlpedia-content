@@ -6,8 +6,7 @@ summary = "The dimension of the image of a smooth map's differential at a specif
 aliases = ["rank of the differential", "rank at a point"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/differential-of-a-smooth-map", "linear-algebra/linear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A von Neumann algebra whose center consists only of scalar multiples 
 aliases = ["primary von Neumann algebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/center-of-von-neumann-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

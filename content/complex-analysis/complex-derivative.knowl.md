@@ -6,8 +6,7 @@ summary = "The derivative defined by a complex difference quotient independent o
 aliases = ["complex differentiability", "complex-differentiable"]
 domains = ["complex-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

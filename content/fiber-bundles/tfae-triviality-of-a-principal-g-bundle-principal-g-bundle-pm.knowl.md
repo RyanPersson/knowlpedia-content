@@ -34,7 +34,7 @@ The following are equivalent:
    \[
    f(pg)=g^{-1}f(p)\qquad\text{for all }p\in P,\ g\in G.
    \]
-   (This is the condition that \(f\) is equivariant for the right action on \(P\) and the right-translation action on \(G\); compare [[fiber-bundles/equivariant-map|equivariant maps]].)
+   (This is the condition that \(f\) is equivariant for the right action on \(P\) and the right action \(h\cdot g=g^{-1}h\) on \(G\); compare [[fiber-bundles/equivariant-map|equivariant maps]].)
 
 The equivalence (1) \(\Leftrightarrow\) (2) is the most frequently used in practice: a global section picks a preferred point in each fiber, and translating that point by \(G\) produces the explicit trivialization.
 

@@ -6,8 +6,7 @@ summary = "Approximates a smooth multivariable function by a polynomial in a nei
 aliases = ["taylors-theorem-in-several-variables", "Taylor's Theorem in several variables"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/class-ck-map", "topology/neighborhood"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/taylors-theorem-in-several-variables.md"
 +++
 

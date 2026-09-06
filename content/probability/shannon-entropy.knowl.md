@@ -6,8 +6,7 @@ summary = "A measure of uncertainty of a discrete random variable, defined from 
 aliases = ["shannon-entropy", "Shannon entropy"]
 domains = ["probability"]
 prerequisites = ["probability/random-variable"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "probability/shannon-entropy.md"
 +++
 

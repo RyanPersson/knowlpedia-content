@@ -6,8 +6,7 @@ summary = "A construction that turns a principal G-bundle into a principal H-bun
 aliases = ["extension-of-structure-group", "Extension of structure group"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/associated-bundle", "fiber-bundles/principal-bundle-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/extension-of-structure-group.md"
 +++
 
@@ -40,6 +39,6 @@ P\to P\times_\varphi H,\qquad p\mapsto [p,e],
 covering \(\mathrm{id}_M\).
 
 ## Examples
-1. **From orthonormal frames to all frames.** The inclusion \(SO(n)\hookrightarrow GL(n)\) extends the principal \(SO(n)\)-bundle of oriented orthonormal frames to the full \(GL(n)\)-frame bundle.
+1. **From oriented orthonormal frames to oriented frames.** The inclusion \(SO(n)\hookrightarrow GL^+(n)\) extends the principal \(SO(n)\)-bundle of oriented orthonormal frames to the principal \(GL^+(n)\)-bundle of oriented frames. (Using \(O(n)\hookrightarrow GL(n)\) gives the full frame bundle.)
 2. **Nonzero vectors in a [[fiber-bundles/line-bundle|line bundle]].** Extending a principal \(U(1)\)-bundle along \(U(1)\hookrightarrow \mathbb{C}^\ast\) produces the principal \(\mathbb{C}^\ast\)-bundle of nonzero vectors in the associated complex line bundle.
 3. **From SU(n) to U(n).** Extending a principal \(SU(n)\)-bundle along \(SU(n)\hookrightarrow U(n)\) yields a principal \(U(n)\)-bundle; geometrically this forgets the determinant-one constraint.

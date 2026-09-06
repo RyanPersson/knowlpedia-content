@@ -6,13 +6,12 @@ summary = "An estimate that gives an explicit lower bound for the mass of a func
 aliases = ["quantitative uniqueness estimate", "observability inequality"]
 domains = ["analysis", "partial-differential-equations", "harmonic-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
 A **quantitative unique-continuation estimate** for a class
-\(\mathcal F\subseteq L^2(\mathbb R^d)\) and an observation set
+\(\mathcal F\subseteq L^2(\mathbb R^d)\) and a measurable observation set
 \(U\subseteq\mathbb R^d\) is an inequality
 \[
 \|f\mathbf 1_U\|_2\ge c\|f\|_2,

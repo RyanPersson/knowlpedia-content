@@ -6,8 +6,7 @@ summary = "For a finite group, the sum of the squares of the dimensions of its i
 aliases = ["sum-squares-degrees", "Sum of squares of degrees"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-representation-theory/irreducible-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/sum-squares-degrees.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "An embedded submanifold on which the ambient symplectic form restrict
 aliases = ["nondegenerate submanifold"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-embedding", "differential-geometry/symplectic-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

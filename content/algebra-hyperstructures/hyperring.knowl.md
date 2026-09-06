@@ -6,8 +6,7 @@ summary = "A canonical additive hypergroup with a single-valued distributive mul
 aliases = ["Krasner hyperring", "commutative hyperring"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
 prerequisites = ["algebra-hyperstructures/canonical-hypergroup", "algebra-groups/commutative-monoid"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

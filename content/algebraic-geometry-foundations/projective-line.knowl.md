@@ -6,8 +6,7 @@ summary = "The one-dimensional projective space formed by lines in a two-dimensi
 aliases = ["projective 1-space", "projective one-space", "P1"]
 domains = ["algebraic-geometry-foundations", "linear-algebra"]
 prerequisites = ["algebraic-geometry-foundations/projective-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

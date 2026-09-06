@@ -6,8 +6,7 @@ summary = "The fundamental inequality relating the distance between three points
 aliases = ["triangle-inequality", "Triangle inequality"]
 domains = ["real-analysis"]
 prerequisites = ["topology/metric-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/triangle-inequality.md"
 +++
 

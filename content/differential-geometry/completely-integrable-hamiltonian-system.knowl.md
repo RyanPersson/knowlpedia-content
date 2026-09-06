@@ -6,8 +6,7 @@ summary = "A Hamiltonian system in dimension two n with n independent first inte
 aliases = ["Liouville integrable system"]
 domains = ["differential-geometry", "classical-mechanics"]
 prerequisites = ["differential-geometry/hamiltonian-system", "differential-geometry/functions-in-involution"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

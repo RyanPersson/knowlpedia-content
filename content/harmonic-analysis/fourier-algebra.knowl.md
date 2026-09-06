@@ -6,8 +6,7 @@ summary = "The Banach algebra of coefficient functions of a group's left regular
 aliases = ["Fourier algebra", "A(G)", "regular coefficient algebra"]
 domains = ["harmonic-analysis", "operator-algebras"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/regular-representations-locally-compact-group", "harmonic-analysis/coefficient-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

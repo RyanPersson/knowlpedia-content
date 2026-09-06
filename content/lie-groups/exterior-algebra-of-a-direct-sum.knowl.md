@@ -6,8 +6,7 @@ summary = "The canonical graded-algebra isomorphism between the exterior algebra
 aliases = ["exterior algebra direct-sum formula", "wedge algebra of a direct sum", "Lambda of V direct sum W"]
 domains = ["lie-groups", "algebra-modules", "linear-algebra"]
 prerequisites = ["algebra-rings/commutative-ring", "supergeometry/koszul-sign-rule"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -54,7 +53,7 @@ If a group or [[lie-groups/lie-algebra|Lie algebra]] acts on both \(V\) and \(W\
 \]
 is therefore an isomorphism of representations.
 
-Setting \(k=\dim V+\dim W\) recovers the determinant identity
+If \(V\) and \(W\) are finite projective (in particular, finite free) modules, setting \(k=\operatorname{rank}V+\operatorname{rank}W\) recovers the determinant-line identity
 \[
 \det(V\oplus W)\cong\det(V)\otimes\det(W).
 \]

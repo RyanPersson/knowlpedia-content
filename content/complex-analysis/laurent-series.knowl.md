@@ -6,8 +6,7 @@ summary = "The unique expansion of a holomorphic function in positive and negati
 aliases = ["Laurent expansion"]
 domains = ["complex-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -28,6 +27,8 @@ c_n=\frac{1}{2\pi i}\int_{|\zeta-a|=\rho}
 ## Two-sided convergence
 
 The nonnegative powers form an ordinary [[real-analysis/power-series|power series]] converging for \(|z-a|<R\); the negative powers become a power series in \(1/(z-a)\) converging for \(|z-a|>r\). Their common annulus is the natural domain of the Laurent expansion.
+
+For \(r<\rho<R\), apply Cauchy's formula on \(|\zeta-a|=\rho\) and expand the kernel geometrically on either side of the circle. The resulting integrals are the displayed \(c_n\) and converge locally uniformly on the annulus. If two such series agree, integrating their difference against \((z-a)^{-n-1}\) on an intermediate circle gives every coefficient as zero, proving uniqueness.
 
 ## Principal part
 

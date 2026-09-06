@@ -6,8 +6,7 @@ summary = "The associative algebra k[G] whose basis is a group G and whose multi
 aliases = ["group-algebra", "Group algebra"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/group-algebra.md"
 +++
 

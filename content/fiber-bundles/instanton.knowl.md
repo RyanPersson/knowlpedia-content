@@ -6,8 +6,7 @@ summary = "A finite-action self-dual or anti-self-dual connection on an oriented
 aliases = ["instanton", "gauge instanton", "ASD instanton"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/self-dual-and-anti-self-dual-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

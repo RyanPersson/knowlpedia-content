@@ -6,8 +6,7 @@ summary = "The meromorphic coefficient governing spherical-function asymptotics 
 aliases = ["c-function", "spherical scattering coefficient"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/iwasawa-decomposition", "lie-groups/restricted-root-system", "harmonic-analysis/haar-measure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

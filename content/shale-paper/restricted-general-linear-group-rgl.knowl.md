@@ -6,8 +6,7 @@ summary = "Invertible operators whose positive part differs from I by a Hilbertâ
 aliases = ["restricted-general-linear-group-rgl", "Restricted General Linear Group rGL(H)"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/restricted-general-linear-group-rgl.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The covariant codifferential is the formal adjoint of the covariant e
 aliases = ["covariant codifferential", "d_A star"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/l2-inner-product-on-bundle-valued-forms"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

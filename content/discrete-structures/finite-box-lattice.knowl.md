@@ -6,8 +6,7 @@ summary = "A finite cube-shaped subset of the integer lattice used as a finite r
 aliases = ["finite-box-lattice", "Finite box in the lattice"]
 domains = ["discrete-structures"]
 prerequisites = ["discrete-structures/lattice-zd", "shared-foundations/natural-numbers"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "discrete-structures/finite-box-lattice.md"
 +++
 

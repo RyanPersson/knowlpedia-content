@@ -6,8 +6,7 @@ summary = "Connected Lie subgroups correspond to Lie subalgebras via the tangent
 aliases = ["lie-correspondence", "Lie correspondence"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-correspondence.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "For fixed N, the functor -⊗_R N preserves cokernels (exactness on t
 aliases = ["tensor-right-exact", "Tensor product is right exact"]
 domains = ["algebra-homological"]
 prerequisites = ["algebra-rings/ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/tensor-right-exact.md"
 +++
 

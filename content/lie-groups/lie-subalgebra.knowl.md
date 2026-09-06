@@ -6,8 +6,7 @@ summary = "A linear subspace closed under the Lie bracket."
 aliases = ["lie-subalgebra", "Lie subalgebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-algebra-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-subalgebra.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The Kullback–Leibler divergence is always nonnegative, and it is ze
 aliases = ["gibbs-inequality-kl", "Gibbs' inequality (nonnegativity of KL divergence)"]
 domains = ["probability"]
 prerequisites = ["probability/probability-measure", "shared-foundations/set", "measure-theory/sigma-algebra", "probability/relative-entropy-kl-divergence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "probability/gibbs-inequality-kl.md"
 +++
 

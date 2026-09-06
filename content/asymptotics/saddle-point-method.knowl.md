@@ -6,8 +6,7 @@ summary = "Asymptotic evaluation of contour integrals and coefficient formulas u
 aliases = ["saddle-point-method", "Saddle-point method"]
 domains = ["asymptotics"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "asymptotics/saddle-point-method.md"
 +++
 

@@ -7,7 +7,7 @@ aliases = ["characters-separate-semisimple-classes", "Characters Separate Semisi
 domains = ["langlands-letter"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "algebra-representation-theory/irreducible-representation"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/characters-separate-semisimple-classes.md"
 section_mode = "progressive"
 +++

@@ -6,8 +6,7 @@ summary = "A regularity-sensitive criterion for a function to be holomorphic."
 aliases = ["Cauchy-Riemann criterion"]
 domains = ["complex-analysis"]
 prerequisites = ["complex-analysis/cauchy-riemann-equations", "differential-geometry/holomorphic-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -16,6 +15,8 @@ Let \(U\subseteq\mathbb C\) be open and write \(f=u+iv:U\to\mathbb C\). If \(u\)
 ## Pointwise form
 
 At a single point, real differentiability of \(f\) together with the Cauchy–Riemann equations is equivalent to existence of the [[complex-analysis/complex-derivative|complex derivative]] at that point. Continuity of the [[real-analysis/partial-derivative|partial derivatives]] near the point is a convenient sufficient condition for real differentiability.
+
+Indeed, if \(Df(a)\) is real-linear, the complex difference quotient can have a limit only when \(Df(a)(h)=ch\) for one complex number \(c\). This complex-linearity condition is exactly \(u_x=v_y\) and \(u_y=-v_x\); under the \(C^1\) hypothesis the first-order remainder is \(o(|h|)\), so the quotient tends to \(c=u_x+iv_x\).
 
 ## Regularity warning
 

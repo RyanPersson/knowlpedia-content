@@ -6,8 +6,7 @@ summary = "The orbit space of a moment-map level set by the stabilizer of its va
 aliases = ["reduced phase space", "Marsden–Weinstein quotient"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/hamiltonian-lie-group-action", "fiber-bundles/moment-map", "algebra-groups/stabilizer", "fiber-bundles/coadjoint-action-of-a-lie-group", "lie-groups/orbit-space", "differential-geometry/symplectic-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

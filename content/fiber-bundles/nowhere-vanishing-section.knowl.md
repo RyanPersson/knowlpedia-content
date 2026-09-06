@@ -6,8 +6,7 @@ summary = "A vector bundle section whose value is nonzero in every fiber."
 aliases = ["nonvanishing section", "nowhere-zero section"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/zero-section", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -21,7 +20,7 @@ for every \(x\in M\), where \(0_x\) is the value of the [[fiber-bundles/zero-sec
 
 A nowhere-vanishing section spans a rank-one subbundle
 \[
-L_s=\{(x,\lambda s(x))\mid x\in M,\ \lambda\in\mathbb F\}\subseteq E,
+L_s=\{\lambda s(x)\mid x\in M,\ \lambda\in\mathbb F\}\subseteq E,
 \]
 canonically trivialized by \(s\). After choosing a [[fiber-bundles/bundle-metric|bundle metric]], the [[linear-algebra/orthogonal-complement|orthogonal complement]] gives a splitting
 \[

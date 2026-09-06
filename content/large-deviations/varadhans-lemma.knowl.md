@@ -6,8 +6,7 @@ summary = "Asymptotic evaluation of exponential integrals under a large deviatio
 aliases = ["varadhans-lemma", "Varadhan's lemma"]
 domains = ["large-deviations"]
 prerequisites = ["probability/probability-measure", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function", "large-deviations/laplace-principle", "large-deviations/exponential-tightness"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "large-deviations/varadhans-lemma.md"
 +++
 

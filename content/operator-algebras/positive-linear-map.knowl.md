@@ -6,8 +6,7 @@ summary = "A linear map between C*-algebras that sends positive elements to posi
 aliases = ["positive map", "order-preserving linear map"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-cone"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

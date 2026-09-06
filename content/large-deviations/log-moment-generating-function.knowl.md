@@ -6,8 +6,7 @@ summary = "The logarithm of the moment generating function, viewed as a convex f
 aliases = ["log-moment-generating-function", "Log moment generating function"]
 domains = ["large-deviations"]
 prerequisites = ["probability/random-variable", "probability/expectation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "large-deviations/log-moment-generating-function.md"
 +++
 

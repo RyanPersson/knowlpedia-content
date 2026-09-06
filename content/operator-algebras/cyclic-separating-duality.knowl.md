@@ -6,8 +6,7 @@ summary = "For a von Neumann algebra and its commutant, cyclicity for either alg
 aliases = ["commutant cyclic-separating theorem"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/hilbert-space", "operator-algebras/commutant"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

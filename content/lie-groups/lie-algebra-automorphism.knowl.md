@@ -6,8 +6,7 @@ summary = "An invertible linear map preserving the Lie bracket."
 aliases = ["lie-algebra-automorphism", "Lie algebra automorphism"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-algebra-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-algebra-automorphism.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "The bundle over a common base whose fiber is the direct sum of the fi
 aliases = ["direct-sum-vector-bundle", "Direct sum vector bundle (Whitney sum)"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/rank-of-a-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/direct-sum-vector-bundle.md"
 +++
 

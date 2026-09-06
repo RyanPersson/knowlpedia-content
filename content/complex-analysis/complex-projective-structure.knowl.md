@@ -6,8 +6,7 @@ summary = "An atlas of local coordinates in the Riemann sphere whose transition 
 aliases = ["holomorphic projective structure", "CP1-structure"]
 domains = ["complex-analysis", "differential-geometry", "projective-geometry"]
 prerequisites = ["differential-geometry/riemann-surface", "complex-analysis/mobius-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

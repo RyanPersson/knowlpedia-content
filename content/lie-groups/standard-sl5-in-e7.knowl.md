@@ -6,8 +6,7 @@ summary = "There is a unique sl5 subalgebra between a good Standard Model algebr
 aliases = ["standard sl5", "Standard Model sl5 in e7", "sl5 SM"]
 domains = ["lie-groups", "mathematical-physics"]
 prerequisites = ["mathematical-physics/standard-model-lie-algebra", "lie-groups/standard-sl6-in-e7", "lie-groups/lie-subalgebra", "lie-groups/regular-lie-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

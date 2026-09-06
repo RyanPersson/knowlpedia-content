@@ -6,8 +6,7 @@ summary = "A bijective Lie algebra homomorphism (equivalently, a bracket-preserv
 aliases = ["lie-algebra-isomorphism", "Lie algebra isomorphism"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-algebra-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-algebra-isomorphism.md"
 +++
 

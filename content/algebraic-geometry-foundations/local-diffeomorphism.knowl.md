@@ -6,8 +6,7 @@ summary = "A smooth map that restricts near every point to a diffeomorphism onto
 aliases = ["local diffeomorphism", "locally diffeomorphic map"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 A **local diffeomorphism** is a smooth map \(f:M\to N\) between smooth manifolds such that every \(x\in M\) has an open neighborhood \(U\) for which \(f(U)\) is open in \(N\) and

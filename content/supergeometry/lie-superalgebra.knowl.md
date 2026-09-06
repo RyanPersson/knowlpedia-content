@@ -6,8 +6,7 @@ summary = "A Z/2-graded vector space with a graded-skew bracket satisfying the s
 aliases = ["super Lie algebra", "Z/2-graded Lie algebra"]
 domains = ["supergeometry", "lie-groups"]
 prerequisites = ["supergeometry/super-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

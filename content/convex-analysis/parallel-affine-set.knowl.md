@@ -6,8 +6,7 @@ summary = "An affine set Ω is parallel to a subspace L if Ω=ω+L for some ω�
 aliases = ["parallel-affine-set", "Parallel Affine Set"]
 domains = ["convex-analysis"]
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set", "convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/parallel-affine-set.md"
 +++
 

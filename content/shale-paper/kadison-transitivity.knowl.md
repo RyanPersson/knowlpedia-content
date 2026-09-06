@@ -6,8 +6,7 @@ summary = "In an irreducible representation, algebra elements can move one vecto
 aliases = ["kadison-transitivity", "Kadison Transitivity (Used in §6)"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/kadison-transitivity.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "A compatible pair of left and right multiplier maps on a C*-algebra."
 aliases = ["double multiplier", "double centralizer pair"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/linear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

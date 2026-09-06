@@ -6,8 +6,7 @@ summary = "Quotienting the SL(2,C) spin cover gives PSL(2,C)ℝ≅SO⁺(1,3) as 
 aliases = ["PSL2C isomorphism with SO+(1,3)", "projective spin-Lorentz isomorphism"]
 domains = ["lie-groups", "mathematical-physics"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

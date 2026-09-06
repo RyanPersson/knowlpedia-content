@@ -6,7 +6,7 @@ summary = "Continuity where a single delta works for the whole set, not point by
 aliases = ["uniform-continuity", "Uniform continuity"]
 domains = ["real-analysis"]
 prerequisites = ["topology/metric-space"]
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-continuity.md"
 +++
 

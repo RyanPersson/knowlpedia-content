@@ -6,8 +6,7 @@ summary = "A compatible pair representing a C*-correspondence and its coefficien
 aliases = ["covariant representation of a correspondence", "Toeplitz pair"]
 domains = ["operator-algebras", "algebra-representation-theory"]
 prerequisites = ["operator-algebras/cstar-correspondence", "linear-algebra/linear-map", "operator-algebras/star-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "Positive normalized functionals, with purity and CCR-regularity condi
 aliases = ["state-pure-regular", "State, Pure State, Regular State (CCR context)"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/state-pure-regular.md"
 +++
 

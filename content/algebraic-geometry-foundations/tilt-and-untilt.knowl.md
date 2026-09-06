@@ -6,8 +6,7 @@ summary = "The passage between perfectoid fields of mixed and positive character
 aliases = ["tilting equivalence", "perfectoid tilt", "untilt", "K-flat"]
 domains = ["algebraic-geometry-foundations", "number-theory", "langlands"]
 prerequisites = ["algebraic-geometry-foundations/perfectoid-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -21,7 +20,8 @@ presentation
 =\varprojlim_{x\mapsto x^p}\mathcal O_K/p.
 \]
 
-Addition is reconstructed from the inverse-limit multiplication.  The map
+Addition is defined by taking limits of compatible sums in the inverse
+system.  The map
 \(x\mapsto x^\sharp\) sends a compatible sequence to its multiplicative limit
 in \(K\); it is multiplicative but generally not additive.
 

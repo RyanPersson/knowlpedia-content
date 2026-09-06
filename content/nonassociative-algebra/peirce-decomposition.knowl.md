@@ -6,8 +6,7 @@ summary = "The splitting of a Jordan algebra into the 0, one-half, and 1 eigensp
 aliases = ["Jordan Peirce decomposition", "Peirce spaces", "Peirce eigenspaces"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/jordan-idempotent", "nonassociative-algebra/jordan-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "The SU(3)-equivariant conjugate-bilinear cross product on complex thr
 aliases = ["Hermitian cross product", "conjugate cross product on C3", "conjugated complex cross product"]
 domains = ["nonassociative-algebra"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

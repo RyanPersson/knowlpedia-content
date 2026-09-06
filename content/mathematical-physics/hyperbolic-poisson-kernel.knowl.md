@@ -6,8 +6,7 @@ summary = "The positive kernel comparing a point in the Poincaré disk with a po
 aliases = ["Poincaré-disk Poisson kernel", "hyperbolic Poisson kernel"]
 domains = ["mathematical-physics", "harmonic-analysis", "hyperbolic-geometry"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

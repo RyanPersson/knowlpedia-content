@@ -6,8 +6,7 @@ summary = "The C-star algebra of square matrices over a C-star algebra with its 
 aliases = ["full matrix algebra", "M_n(C)"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/hilbert-space", "linear-algebra/operator-norm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "The standard one-dimensional laws F_a(X,Y)=X+Y and F_m(X,Y)=X+Y+XY."
 aliases = ["additive formal group law", "multiplicative formal group law", "formal additive group", "formal multiplicative group"]
 domains = ["formal-groups"]
 prerequisites = ["algebra-rings/commutative-ring", "formal-groups/one-dimensional-formal-group-law"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

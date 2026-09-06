@@ -6,8 +6,7 @@ summary = "The *-automorphism induced by sending Weyl operators V(z) to V(Tz)"
 aliases = ["automorphism-thetaT", "Field Automorphism θ(T) from a Symplectic Map"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/automorphism-thetaT.md"
 +++
 

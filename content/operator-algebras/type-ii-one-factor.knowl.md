@@ -6,8 +6,7 @@ summary = "A finite type II von Neumann factor, equivalently a continuous factor
 aliases = ["finite continuous factor", "Type II_1 factor"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/type-ii-von-neumann-algebra", "operator-algebras/finite-projection", "operator-algebras/finite-von-neumann-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

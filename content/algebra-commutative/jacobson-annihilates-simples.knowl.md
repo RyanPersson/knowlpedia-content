@@ -6,8 +6,7 @@ summary = "For every simple right R-module S, the Jacobson radical satisfies S J
 aliases = ["jacobson-annihilates-simples", "Jacobson radical annihilates simple modules"]
 domains = ["algebra-commutative"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/jacobson-annihilates-simples.md"
 +++
 

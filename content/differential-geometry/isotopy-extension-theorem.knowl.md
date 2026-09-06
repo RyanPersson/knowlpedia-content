@@ -6,8 +6,7 @@ summary = "A smooth isotopy of a compact embedded manifold extends to a smooth a
 aliases = ["ambient isotopy extension theorem"]
 domains = ["differential-geometry", "topology"]
 prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/smooth-isotopy", "differential-geometry/ambient-isotopy"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "Holomorphic functions agreeing on a set with an interior accumulation
 aliases = ["identity principle", "uniqueness theorem for holomorphic functions"]
 domains = ["complex-analysis"]
 prerequisites = ["complex-analysis/complex-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -24,6 +23,8 @@ A nonzero holomorphic function on a domain has isolated zeros. Indeed, at any ze
 f(z)=(z-a)^m h(z)
 \]
 with \(m\ge1\) and \(h(a)\ne0\). The integer \(m\) is the [[complex-analysis/order-of-zero-or-pole|order of the zero]].
+
+To see the factorization, expand \(f\) in its Taylor series at \(a\). If \(f\) is not identically zero, let \(m\) be the first index with nonzero coefficient; factoring \((z-a)^m\) leaves a holomorphic \(h\) with \(h(a)\ne0\), so the zero is isolated. An accumulation point of zeros forces every Taylor coefficient there to vanish, hence \(f-g\) vanishes on a neighborhood. The zero set is then both open and closed in the connected domain, and therefore is all of \(D\).
 
 ## Hypotheses matter
 

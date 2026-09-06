@@ -6,8 +6,7 @@ summary = "A C-star-subalgebra computes the same spectrum as its ambient C-star-
 aliases = ["inverse-closed C*-subalgebra", "spectrum permanence", "spectral invariance for C*-subalgebras"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["operator-algebras/cstar-subalgebra", "functional-analysis/banach-algebra-spectrum"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

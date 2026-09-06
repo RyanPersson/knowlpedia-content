@@ -6,8 +6,7 @@ summary = "A smooth connected affine algebraic group with trivial geometric unip
 aliases = ["reductive group", "reductive algebraic group"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebra-fields-galois/algebraic-closure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

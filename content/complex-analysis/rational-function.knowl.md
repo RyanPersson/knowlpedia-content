@@ -39,7 +39,7 @@ Every value of the sphere has \(\deg R\) preimages counted with multiplicity. De
 
 ## Characterization
 
-Every holomorphic map \(\widehat{\mathbb C}\to\widehat{\mathbb C}\) is rational. Equivalently, the field of meromorphic functions on the [[algebraic-geometry-foundations/projective-line|projective line]] is \(\mathbb C(z)\).
+Every nonconstant holomorphic map \(\widehat{\mathbb C}\to\widehat{\mathbb C}\) is rational. More generally, every such map that is not identically \(\infty\) is represented by a quotient \(P/Q\); the constant map with value \(\infty\) is represented projectively by \([1:0]\). Equivalently, the field of meromorphic functions on the [[algebraic-geometry-foundations/projective-line|projective line]] is \(\mathbb C(z)\).
 
 ## References
 

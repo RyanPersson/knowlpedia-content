@@ -6,8 +6,7 @@ summary = "A method that constructs a quantum state space from prequantum line-b
 aliases = ["Kostant-Souriau geometric quantization", "polarized geometric quantization"]
 domains = ["mathematical-physics", "differential-geometry", "fiber-bundles"]
 prerequisites = ["differential-geometry/symplectic-manifold", "mathematical-physics/prequantization"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

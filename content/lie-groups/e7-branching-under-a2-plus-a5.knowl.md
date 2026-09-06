@@ -6,8 +6,7 @@ summary = "The adjoint E7 module branches under the mutually centralizing genera
 aliases = ["E7 to A2 A5 branching", "e7 under sl3 plus sl6", "133 branching to 8 35 45 45"]
 domains = ["lie-groups", "representation-theory", "mathematical-physics"]
 prerequisites = ["lie-groups/branching-rule-for-lie-representations"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

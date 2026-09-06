@@ -15,7 +15,7 @@ Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] 
 
 ## Statement (name-level, with standard formula)
 
-There is a canonical Chern–Simons \((2k-1)\)-form \(\mathrm{CS}_P(A)\) on \(M\) (defined locally from \(A\)) satisfying
+On a local trivialization (or globally after choosing a trivialization or reference datum), the Chern–Simons \((2k-1)\)-form \(\mathrm{CS}_P(A)\) satisfies
 \[
 d\,\mathrm{CS}_P(A)=P(F_A),
 \]
@@ -33,11 +33,11 @@ where:
 - \(\alpha_P(A,g)\) is an explicit \((2k-2)\)-form built from \(A\) and \(g^{-1}dg\), and
 - \(\eta_P\) is a closed \((2k-1)\)-form on \(G\) determined by \(P\) (the “group term”), expressed using the [[fiber-bundles/lie-bracket|Lie bracket]] and wedge products on \(\mathfrak{g}\)-valued forms.
 
-Consequences on closed manifolds: if \(P\) corresponds (via Chern–Weil theory) to an integral characteristic class, then for every closed oriented \((2k-1)\)-manifold \(M\) the number
+Consequences on a closed manifold with the extra data needed to define the Chern–Simons functional (for example, a trivial bundle and a chosen global trivialization): if \(P\) corresponds (via Chern–Weil theory) to an integral characteristic class, then the number
 \[
 \int_M \mathrm{CS}_P(A)
 \]
-is invariant under gauge transformations modulo integers (with the conventional \(2\pi\)-normalization built into \(P\)).
+is invariant under gauge transformations modulo integers (with the conventional \(2\pi\)-normalization built into \(P\)). For a nontrivial bundle, the corresponding global object requires additional differential-cohomological or extension data; the local form alone need not glue to a form on \(M\).
 
 ## Examples
 

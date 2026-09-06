@@ -6,8 +6,7 @@ summary = "A Lie algebra homomorphism assigning to each infinitesimal symmetry i
 aliases = ["co-moment map"]
 domains = ["differential-geometry", "lie-groups"]
 prerequisites = ["differential-geometry/symplectic-lie-group-action", "lie-groups/lie-algebra", "linear-algebra/linear-map", "lie-groups/lie-algebra-homomorphism", "differential-geometry/poisson-algebra-smooth-functions", "differential-geometry/infinitesimal-generator-lie-action", "fiber-bundles/vector-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

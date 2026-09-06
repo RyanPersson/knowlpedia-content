@@ -6,8 +6,7 @@ summary = "The differentiated Lie-algebra action on smooth vectors extended uniq
 aliases = ["U(g)-module of smooth vectors", "differentiated enveloping-algebra action"]
 domains = ["lie-groups", "functional-analysis"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/strongly-continuous-unitary-representation", "lie-groups/derived-representation-on-smooth-vectors", "algebra-modules/algebra-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

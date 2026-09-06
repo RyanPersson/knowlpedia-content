@@ -6,8 +6,7 @@ summary = "Unitary action of rGL(M) on Gaussian L₂ by change of variables and 
 aliases = ["segal-unitary-representation-Ufrak", "Segal/Shale Representation 𝔘(T) on L₂(M,n)"]
 domains = ["shale-paper"]
 prerequisites = ["functional-analysis/unitary-operator", "shale-paper/jacobian-xT"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/segal-unitary-representation-Ufrak.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "Given a short exact sequence of modules, compatible projective (or in
 aliases = ["horseshoe-lemma", "Horseshoe lemma"]
 domains = ["algebra-homological"]
 prerequisites = ["algebra-modules/short-exact-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/horseshoe-lemma.md"
 +++
 

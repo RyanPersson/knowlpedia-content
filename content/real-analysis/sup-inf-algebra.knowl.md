@@ -6,8 +6,7 @@ summary = "How supremum and infimum interact with basic set operations such as t
 aliases = ["sup-inf-algebra", "Supremum and Infimum Algebra"]
 domains = ["real-analysis"]
 prerequisites = ["shared-foundations/subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/sup-inf-algebra.md"
 +++
 

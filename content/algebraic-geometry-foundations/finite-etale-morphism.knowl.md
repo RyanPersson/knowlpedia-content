@@ -6,8 +6,7 @@ summary = "A scheme morphism that is both finite and étale."
 aliases = ["finite-etale-morphism", "Finite etale morphism", "Finite étale morphism"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/finite-morphism", "algebraic-geometry-foundations/etale-morphism", "algebraic-geometry-foundations/relative-kahler-differentials", "algebra-fields-galois/separable-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 A morphism of [[algebraic-geometry-foundations/scheme|schemes]] is **finite étale** if it is both a [[algebraic-geometry-foundations/finite-morphism|finite morphism]] and an [[algebraic-geometry-foundations/etale-morphism|étale morphism]].

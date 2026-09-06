@@ -6,8 +6,7 @@ summary = "A neighborhood of a Lagrangian submanifold has the cotangent bundle a
 aliases = ["Weinstein neighborhood theorem", "Lagrangian tubular-neighborhood theorem"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/lagrangian-submanifold", "differential-geometry/symplectic-manifold", "fiber-bundles/zero-section", "fiber-bundles/cotangent-bundle", "differential-geometry/symplectomorphism", "differential-geometry/canonical-symplectic-form-cotangent"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

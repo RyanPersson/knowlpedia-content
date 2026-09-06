@@ -6,8 +6,7 @@ summary = "An affiliated closed operator whose domain contains an increasing fam
 aliases = ["Segal measurable operator", "measurable affiliated operator"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/semifinite-von-neumann-algebra", "operator-algebras/affiliated-operator", "operator-algebras/finite-projection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

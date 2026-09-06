@@ -6,8 +6,7 @@ summary = "The algebraic representation obtained by retaining the K-finite vecto
 aliases = ["underlying (g,K)-module", "K-finite module construction"]
 domains = ["lie-groups", "representation-theory"]
 prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/admissible-representation-real-reductive-group", "lie-groups/k-finite-vector", "lie-groups/harish-chandra-module", "lie-groups/derived-representation-on-smooth-vectors"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

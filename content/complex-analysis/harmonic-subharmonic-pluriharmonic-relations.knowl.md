@@ -6,8 +6,7 @@ summary = "The inclusion and intersection relations among H, SH, PSH, and PH on 
 aliases = ["H SH PSH PH relations", "harmonic plurisubharmonic Venn diagram"]
 domains = ["complex-analysis", "several-complex-variables", "potential-theory"]
 prerequisites = ["complex-analysis/harmonic-function", "complex-analysis/subharmonic-function", "complex-analysis/plurisubharmonic-function", "complex-analysis/pluriharmonic-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -47,6 +46,8 @@ A positive-semidefinite [[linear-algebra/hermitian-matrix|Hermitian matrix]]
 with zero trace is zero. Hence a harmonic PSH function has vanishing
 [[complex-analysis/levi-form|Levi form]] and is pluriharmonic. The same
 conclusion holds without smoothness by distributional regularity.
+
+For the inclusions, restrict a harmonic or plurisubharmonic function to each complex line. The restriction of a harmonic function is subharmonic, giving \(H\subseteq SH\), while the definition of PSH requires subharmonicity on every such line, giving \(PSH\subseteq SH\). Vanishing Levi form is locally equivalent to \(u=\operatorname{Re}h\) for holomorphic \(h\), which is pluriharmonic; mollification gives the distributional version. In one complex dimension the Levi trace is the planar Laplacian, so the classes collapse as stated.
 
 ## Separating examples
 

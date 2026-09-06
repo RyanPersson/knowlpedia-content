@@ -6,8 +6,7 @@ summary = "A scheme over a base whose multiplication, identity, and inverse are 
 aliases = ["group scheme", "group object in schemes"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/scheme-over-a-base", "algebraic-geometry-foundations/morphism-of-schemes", "algebra-groups/group", "algebraic-geometry-foundations/fiber-product-of-schemes"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 Fix a base [[algebraic-geometry-foundations/scheme|scheme]] \(S\). A **group scheme over \(S\)** is an [[algebraic-geometry-foundations/scheme-over-a-base|\(S\)-scheme]] \(G\to S\) equipped with [[algebraic-geometry-foundations/morphism-of-schemes|morphisms of schemes]] over \(S\)

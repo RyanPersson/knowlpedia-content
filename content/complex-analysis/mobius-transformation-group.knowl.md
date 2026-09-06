@@ -6,8 +6,7 @@ summary = "The group of fractional linear automorphisms of the Riemann sphere."
 aliases = ["Möbius group", "Mobius group", "fractional linear group"]
 domains = ["complex-analysis", "lie-groups", "projective-geometry"]
 prerequisites = ["complex-analysis/mobius-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -22,6 +21,8 @@ where the second isomorphism uses the existence of square roots in \(\mathbb C\)
 ## Action on triples
 
 The action on the [[complex-analysis/riemann-sphere|Riemann sphere]] is [[complex-analysis/sharp-three-transitivity-of-mobius-group|sharply three-transitive]]: for any two ordered triples of distinct points, there is exactly one Möbius transformation carrying the first triple to the second. The [[complex-analysis/cross-ratio|cross-ratio]] is the corresponding invariant of ordered quadruples.
+
+For finite triples, first send the three points to \(0,1,\infty\) by the cross-ratio formula; composing the map for the target triple gives existence. A nonidentity fractional-linear map has at most two fixed points, so a map fixing \(0,1,\infty\) is the identity. This proves uniqueness, and the matrix formula shows composition and inversion remain in \(PGL_2(\mathbb C)\).
 
 ## Complex Lie group
 

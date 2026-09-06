@@ -6,8 +6,7 @@ summary = "Every normalized Laplace eigenfunction on a compact hyperbolic surfac
 aliases = ["Dyatlov–Jin eigenfunction mass theorem", "full support of semiclassical measures on hyperbolic surfaces"]
 domains = ["mathematical-physics", "spectral-theory", "quantum-chaos"]
 prerequisites = ["mathematical-physics/compact-hyperbolic-surface", "mathematical-physics/laplace-beltrami-eigenfunction", "differential-geometry/laplace-beltrami-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

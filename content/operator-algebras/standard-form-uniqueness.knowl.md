@@ -6,8 +6,7 @@ summary = "A normal isomorphism between von Neumann algebras in standard form ha
 aliases = ["spatial uniqueness of standard form"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/standard-form", "operator-algebras/von-neumann-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

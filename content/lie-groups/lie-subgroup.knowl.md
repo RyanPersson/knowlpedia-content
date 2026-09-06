@@ -6,8 +6,7 @@ summary = "A subgroup of a Lie group that carries a compatible immersed submanif
 aliases = ["lie-subgroup", "Lie Subgroup"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-subgroup.md"
 +++
 

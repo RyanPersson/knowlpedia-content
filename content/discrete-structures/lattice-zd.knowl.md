@@ -6,8 +6,7 @@ summary = "The set of all d-dimensional vectors with integer coordinates."
 aliases = ["lattice-zd", "Integer lattice Z^d"]
 domains = ["discrete-structures"]
 prerequisites = ["shared-foundations/integers"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "discrete-structures/lattice-zd.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "Generalization of the fundamental theorem of calculus to differential
 aliases = ["stokes-theorem", "Stokes' theorem"]
 domains = ["differential-geometry"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "differential-geometry/stokes-theorem.md"
 +++
 

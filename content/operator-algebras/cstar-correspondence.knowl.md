@@ -6,8 +6,7 @@ summary = "A right Hilbert C*-module equipped with a nondegenerate left action b
 aliases = ["C*-correspondence from A to B", "Hilbert C*-bimodule", "C*-module correspondence"]
 domains = ["operator-algebras", "algebra-modules"]
 prerequisites = ["operator-algebras/hilbert-cstar-module", "operator-algebras/nondegenerate-star-homomorphism", "algebra-modules/bimodule", "operator-algebras/adjointable-operator-hilbert-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

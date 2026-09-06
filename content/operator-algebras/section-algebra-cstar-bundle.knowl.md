@@ -6,8 +6,7 @@ summary = "The C*-algebra of continuous bundle sections that vanish at infinity.
 aliases = ["C_0-sections of a C*-bundle", "Gamma_0(X,A)"]
 domains = ["operator-algebras", "topology"]
 prerequisites = ["operator-algebras/upper-semicontinuous-cstar-bundle", "topology/locally-compact-space", "topology/hausdorff-space", "operator-algebras/cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

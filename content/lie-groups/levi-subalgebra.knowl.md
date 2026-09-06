@@ -6,8 +6,7 @@ summary = "A reductive subalgebra obtained from a subset of simple roots by reta
 aliases = ["Levi subalgebra", "standard Levi subalgebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "algebra-groups/inner-automorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

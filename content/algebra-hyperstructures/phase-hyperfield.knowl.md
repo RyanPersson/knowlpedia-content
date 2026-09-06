@@ -6,8 +6,7 @@ summary = "The quotient hyperfield of the complex numbers by positive real scali
 aliases = ["complex phase hyperfield", "hyperfield of phases"]
 domains = ["algebra-hyperstructures", "complex-analysis"]
 prerequisites = ["algebra-hyperstructures/hyperfield-of-a-field-quotient"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

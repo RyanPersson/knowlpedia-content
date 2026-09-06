@@ -6,8 +6,7 @@ summary = "A type II von Neumann algebra is semifinite and has no nonzero abelia
 aliases = ["type II W*-algebra", "continuous semifinite von Neumann algebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/semifinite-von-neumann-algebra", "operator-algebras/abelian-projection", "operator-algebras/finite-projection", "operator-algebras/faithful-normal-semifinite-trace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

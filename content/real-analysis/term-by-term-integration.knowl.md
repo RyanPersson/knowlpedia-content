@@ -6,8 +6,7 @@ summary = "Inside its radius of convergence, a power series can be integrated by
 aliases = ["term-by-term-integration", "Term-by-term integration of a power series"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/power-series", "real-analysis/power-series-uniform-convergence-on-compacts", "real-analysis/uniform-convergence-integration", "real-analysis/riemann-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/term-by-term-integration.md"
 +++
 

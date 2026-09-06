@@ -6,8 +6,7 @@ summary = "The universal blueprint in which a chosen multiplicative subset becom
 aliases = ["blueprint localization", "localization of blueprints"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -23,4 +22,3 @@ For \(h\in B\), one writes \(B[h^{-1}]\) for localization at \(\{1,h,h^2,\ldots\
 
 ## References
 Oliver Lorscheid, [*The geometry of blueprints, Part I*, §1.9](https://arxiv.org/abs/1103.1745).
-

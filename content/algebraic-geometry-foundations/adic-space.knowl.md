@@ -6,8 +6,7 @@ summary = "A locally ringed space locally modeled on continuous valuations of a 
 aliases = ["Huber adic space", "affinoid adic space", "Spa(A,A+)"]
 domains = ["algebraic-geometry-foundations", "langlands", "number-theory"]
 prerequisites = ["algebra-topological/ideal-of-definition", "shared-foundations/equivalence-class", "algebraic-geometry-foundations/locally-ringed-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

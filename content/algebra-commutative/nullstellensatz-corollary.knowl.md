@@ -6,8 +6,7 @@ summary = "Over an algebraically closed field, maximal ideals of a polynomial ri
 aliases = ["nullstellensatz-corollary", "Nullstellensatz corollary: maximal ideals are points"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-rings/field", "algebra-commutative/maximal-spectrum", "algebra-commutative/residue-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/nullstellensatz-corollary.md"
 +++
 

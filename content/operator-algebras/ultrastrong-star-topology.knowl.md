@@ -6,8 +6,7 @@ summary = "The involution-compatible refinement of the ultrastrong topology on a
 aliases = ["sigma-strong-star topology"]
 domains = ["operator-algebras", "functional-analysis", "topology"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-functional", "operator-algebras/ultrastrong-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

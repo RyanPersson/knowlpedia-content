@@ -6,8 +6,7 @@ summary = "Asymptotic formulas and bounds for factorials and log-factorials for 
 aliases = ["stirlings-approximation", "Stirling's approximation"]
 domains = ["asymptotics"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "asymptotics/stirlings-approximation.md"
 +++
 

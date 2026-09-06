@@ -5,12 +5,12 @@ kind = "knowl"
 summary = "A simple Artinian ring is isomorphic to a full matrix ring over a division ring."
 aliases = ["simple-artinian-matrix-ring", "Simple Artinian rings are matrix rings over division rings"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/artinian-ring", "algebra-rings/division-ring", "algebra-rings/artin-wedderburn-theorem"]
+prerequisites = ["algebra-rings/division-ring", "algebra-rings/artin-wedderburn-theorem"]
 dependency_review_count = 1
 legacy_source_path = "algebra-commutative/simple-artinian-matrix-ring.md"
 +++
 
-Let \(R\) be a nonzero ring, not necessarily commutative. If \(R\) is **simple**, meaning that it has no nonzero proper two-sided ideals, and [[algebra-commutative/artinian-ring|Artinian]], then there are an integer \(n\ge 1\) and a [[algebra-rings/division-ring|division ring]] \(D\) such that
+Let \(R\) be a nonzero ring, not necessarily commutative. If \(R\) is **simple**, meaning that it has no nonzero proper two-sided ideals, and **left Artinian**, meaning that every descending chain of left ideals stabilizes, then there are an integer \(n\ge 1\) and a [[algebra-rings/division-ring|division ring]] \(D\) such that
 \[
 R\cong M_n(D)
 \]

@@ -6,8 +6,7 @@ summary = "A complex-valued function holomorphic on all of complex Euclidean spa
 aliases = ["entire function on C^d", "entire holomorphic function of several variables"]
 domains = ["complex-analysis", "several-complex-variables"]
 prerequisites = ["real-analysis/power-series", "complex-analysis/analytic-continuation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -23,6 +22,8 @@ An entire function restricts to an [[complex-analysis/entire-function|entire
 function of one variable]] on every affine complex line. Conversely, a
 locally bounded function whose restriction to every complex line is
 holomorphic is holomorphic on \(\mathbb C^d\).
+
+For the Taylor claim, Cauchy's coefficient estimates on an arbitrary finite polydisc bound each coefficient by the supremum divided by the corresponding radii. Since the radii are arbitrary, the resulting multiple series converges at every point. The converse is Hartogs' line theorem: local boundedness and line holomorphy supply a joint power series on each coordinate polydisc.
 
 ## Exponential type
 

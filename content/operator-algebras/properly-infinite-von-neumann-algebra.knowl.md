@@ -6,8 +6,7 @@ summary = "A properly infinite von Neumann algebra is one whose identity is equi
 aliases = ["properly infinite W*-algebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/orthogonal-projection", "operator-algebras/murray-von-neumann-equivalence", "operator-algebras/infinite-projection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

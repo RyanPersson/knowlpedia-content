@@ -6,8 +6,7 @@ summary = "A Lie subalgebra stable under bracketing with the whole algebra."
 aliases = ["ideal-lie-algebra", "Ideal in a Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra", "lie-groups/adjoint-representation-of-a-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/ideal-lie-algebra.md"
 +++
 

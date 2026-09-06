@@ -6,8 +6,7 @@ summary = "The low-rank isomorphism between the simply connected compact groups 
 aliases = ["Spin(6) isomorphic to SU(4)", "D3 A3 isomorphism", "spin6 su4 accidental isomorphism"]
 domains = ["lie-groups", "representation-theory"]
 prerequisites = ["lie-groups/compact-lie-group", "lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

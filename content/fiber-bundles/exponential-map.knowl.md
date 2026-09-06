@@ -6,8 +6,7 @@ summary = "The map from a Lie algebra to its Lie group defined by flowing left-i
 aliases = ["exponential-map", "Exponential map"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/exponential-map.md"
 +++
 

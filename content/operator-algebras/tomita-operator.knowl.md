@@ -6,8 +6,7 @@ summary = "The Tomita operator is the closed antilinear operator obtained from t
 aliases = ["involutive Tomita operator"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/cyclic-vector", "operator-algebras/separating-vector"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

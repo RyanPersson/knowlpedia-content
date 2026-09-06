@@ -7,7 +7,7 @@ aliases = ["langlands-functoriality-l-homomorphism", "Langlands Functoriality an
 domains = ["langlands-letter"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "langlands-letter/knowls/global-local-fields-completions", "langlands/l-group", "langlands/weil-group", "langlands-letter/knowls/langlands-dual-group", "algebra-groups/conjugacy-class"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/langlands-functoriality-l-homomorphism.md"
 section_mode = "progressive"
 +++

@@ -6,8 +6,7 @@ summary = "The quotient stack of the space of connections by gauge transformatio
 aliases = ["connection quotient stack", "stack of connections modulo gauge"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/bundle-of-connections", "fiber-bundles/gauge-group", "fiber-bundles/gauge-transformation", "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space", "fiber-bundles/stabilizer-of-a-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "The unique connection on a dual vector bundle for which differentiati
 aliases = ["connection on the dual bundle", "contragredient connection"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/dual-vector-bundle", "fiber-bundles/vector-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

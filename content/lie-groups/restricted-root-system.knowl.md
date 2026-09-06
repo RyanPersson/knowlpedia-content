@@ -7,7 +7,7 @@ aliases = ["real root system", "roots relative to a"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/cartan-decomposition-real-reductive-lie-algebra", "lie-groups/reductive-lie-algebra", "lie-groups/root-system"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

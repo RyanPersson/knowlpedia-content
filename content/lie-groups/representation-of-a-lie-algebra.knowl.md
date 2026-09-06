@@ -7,7 +7,7 @@ aliases = ["representation-of-a-lie-algebra", "Representation of a Lie Algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "linear-algebra/vector-space", "lie-groups/lie-algebra-homomorphism", "linear-algebra/linear-operator"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/representation-of-a-lie-algebra.md"
 +++
 

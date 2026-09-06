@@ -6,8 +6,7 @@ summary = "The Hodge star is the degree-complementing operator on differential f
 aliases = ["Hodge star", "star operator", "Hodge dual", "star operator on differential forms"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/orientation-of-a-smooth-manifold", "linear-algebra/inner-product", "fiber-bundles/wedge-product-of-differential-forms"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

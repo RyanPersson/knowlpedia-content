@@ -6,8 +6,7 @@ summary = "Compatible maps between the sections of two sheaves."
 aliases = ["morphism of sheaves", "sheaf morphism", "map of sheaves"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/sheaf", "topology/topological-space", "algebraic-geometry-foundations/stalk"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 +++
 
 Let \(\mathcal F\) and \(\mathcal G\) be [[algebraic-geometry-foundations/sheaf|sheaves]] on a [[topology/topological-space|topological space]] \(X\). A **morphism of sheaves** \(\varphi:\mathcal F\to\mathcal G\) consists of a map

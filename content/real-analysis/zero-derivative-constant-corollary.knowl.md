@@ -6,8 +6,7 @@ summary = "If f' vanishes everywhere on an interval, the function is constant"
 aliases = ["zero-derivative-constant-corollary", "Zero derivative implies constant"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/continuity-on-a-set", "real-analysis/differentiability-one-variable", "real-analysis/mean-value-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/zero-derivative-constant-corollary.md"
 +++
 

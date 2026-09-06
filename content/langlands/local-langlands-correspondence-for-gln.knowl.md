@@ -6,8 +6,7 @@ summary = "The canonical bijection between irreducible smooth representations of
 aliases = ["LLC for GL_n", "local Langlands theorem for the general linear group"]
 domains = ["langlands", "harmonic-analysis"]
 prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "harmonic-analysis/smooth-representation-totally-disconnected-group", "langlands/weil-deligne-representation", "langlands/local-class-field-theory", "langlands/local-epsilon-factor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

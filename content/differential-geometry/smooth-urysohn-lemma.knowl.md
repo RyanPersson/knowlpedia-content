@@ -6,8 +6,7 @@ summary = "Disjoint closed subsets of a smooth manifold can be separated by a sm
 aliases = ["smooth separation lemma", "smooth cutoff lemma"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "topology/closed-set", "fiber-bundles/smooth-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -7,7 +7,7 @@ aliases = ["simple-lie-algebra-trivial-center", "Center of a simple Lie algebra 
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/center-of-a-lie-algebra"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/simple-lie-algebra-trivial-center.md"
 +++
 

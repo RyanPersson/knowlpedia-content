@@ -6,8 +6,7 @@ summary = "The Banach algebra of coefficient functions of continuous unitary rep
 aliases = ["Fourier-Stieltjes algebra", "B(G)", "algebra of unitary representation coefficients"]
 domains = ["harmonic-analysis", "operator-algebras"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/coefficient-function", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

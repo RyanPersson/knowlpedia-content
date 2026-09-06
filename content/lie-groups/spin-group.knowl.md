@@ -6,8 +6,7 @@ summary = "For n at least 2, the connected double cover Spin(n) of SO(n), constr
 aliases = ["spin-group", "Spin group"]
 domains = ["lie-groups"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/spin-group.md"
 +++
 

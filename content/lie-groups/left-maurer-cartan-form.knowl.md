@@ -6,8 +6,7 @@ summary = "The canonical Lie-algebra-valued one-form obtained by left-translatin
 aliases = ["left-maurer-cartan-form", "Left Maurer–Cartan form"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/left-maurer-cartan-form.md"
 +++
 
@@ -28,9 +27,9 @@ Equivalently, \(\theta^L\) is characterized by:
 **Maurer–Cartan equation.**
 \(\theta^L\) satisfies the [[lie-groups/maurer-cartan-equation|Maurer–Cartan equation]]
 \[
-d\theta^L + \tfrac12[\theta^L,\theta^L]=0,
+d\theta^L + [\theta^L,\theta^L]=0,
 \]
-where the bracket combines the Lie bracket on \(\mathfrak g\) with wedge product.
+where, in this page's convention, \([\theta^L,\theta^L](X,Y)=[\theta^L(X),\theta^L(Y)]\).
 
 **Context and use.**
 The left Maurer–Cartan form identifies tangent vectors on \(G\) with elements of \(\mathfrak g\) in a left-translation invariant way, and it packages all [[lie-groups/left-invariant-differential-form|left-invariant forms]] as alternating tensors on \(\mathfrak g\). The right-handed analogue is the [[lie-groups/right-maurer-cartan-form|right Maurer–Cartan form]].

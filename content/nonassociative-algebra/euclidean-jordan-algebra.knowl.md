@@ -6,8 +6,7 @@ summary = "A finite-dimensional real Jordan algebra with a positive-definite inn
 aliases = ["Euclidean Jordan algebra", "EJA", "formally real Jordan algebra"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/jordan-algebra", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

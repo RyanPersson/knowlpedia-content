@@ -6,8 +6,7 @@ summary = "From an interior point, the segment to any other point stays interior
 aliases = ["segments-from-interior-points-stay-in-the-interior", "Segments from interior points stay in the interior"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/line-segments-in-a-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/segments-from-interior-points-stay-in-the-interior.md"
 +++
 

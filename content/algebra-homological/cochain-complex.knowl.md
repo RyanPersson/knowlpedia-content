@@ -50,7 +50,7 @@ see [[algebra-homological/cohomology-module|cohomology module]].
    Then \(\delta^{n+1}\circ \delta^n=0\) because \(d\circ d=0\), so this is a cochain complex. This construction underlies the computation of [[algebra-homological/ext|Ext]] from a [[algebra-homological/projective-resolution|projective resolution]].
 
 3. **“Multiplication by \(x\)” as a cochain complex.**
-   For \(x\in R\), the 2-term cochain complex
+   For a commutative ring \(R\) and \(x\in R\), the 2-term cochain complex
    \[
    0 \to R \xrightarrow{\,\cdot x\,} R \to 0
    \]

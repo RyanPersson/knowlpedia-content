@@ -6,7 +6,7 @@ summary = "A subset of continuous functions closed under linear combinations and
 aliases = ["subalgebra-of-continuous-functions", "Subalgebra of continuous functions"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/space-of-continuous-functions", "algebra-rings/ring"]
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "real-analysis/subalgebra-of-continuous-functions.md"
 +++
 

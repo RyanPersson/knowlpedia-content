@@ -6,8 +6,7 @@ summary = "The convolution involution reverses a function by group inversion, co
 aliases = ["group-algebra involution", "convolution star operation", "f-star"]
 domains = ["harmonic-analysis", "functional-analysis", "operator-algebras"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/modular-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

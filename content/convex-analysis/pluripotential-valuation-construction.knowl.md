@@ -6,8 +6,7 @@ summary = "Complex and quaternionic Hessian measures of support functions define
 aliases = ["PSH construction of valuations", "Hessian-measure valuation construction"]
 domains = ["convex-analysis", "complex-analysis", "quaternionic-analysis"]
 prerequisites = ["convex-analysis/support-function", "convex-analysis/valuation-on-convex-bodies"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

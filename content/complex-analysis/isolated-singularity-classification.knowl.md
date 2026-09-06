@@ -6,8 +6,7 @@ summary = "An isolated singularity is removable, a pole, or essential according 
 aliases = ["isolated singularity classification"]
 domains = ["complex-analysis"]
 prerequisites = ["complex-analysis/laurent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -18,6 +17,8 @@ Let \(f\) be holomorphic on a punctured disc \(0<|z-a|<R\). Exactly one of the f
 3. \(a\) is **essential**, when it is neither removable nor a pole.
 
 In the [[complex-analysis/laurent-series|Laurent expansion]], these cases correspond respectively to no negative terms, finitely many negative terms, and infinitely many negative terms.
+
+This correspondence follows directly from the Laurent series. With no principal part the series converges at \(a\), giving a removable extension. If the principal part has largest exponent \(-m\), then \((z-a)^m f(z)\) extends holomorphically and is nonzero at \(a\), so \(f\) has a pole of order \(m\). An infinite principal part is neither of these, hence is essential; uniqueness makes the alternatives mutually exclusive.
 
 ## Analytic criteria
 

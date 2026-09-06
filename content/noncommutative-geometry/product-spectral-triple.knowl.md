@@ -6,8 +6,7 @@ summary = "The graded tensor product combines spectral triples using the Dirac o
 aliases = ["tensor product of spectral triples", "graded product triple"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/even-spectral-triple", "linear-algebra/hilbert-space", "algebra-modules/tensor-product-algebras"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A function holomorphic away from isolated poles, equivalently locally
 aliases = ["meromorphic map to the Riemann sphere"]
 domains = ["complex-analysis", "differential-geometry"]
 prerequisites = ["complex-analysis/complex-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

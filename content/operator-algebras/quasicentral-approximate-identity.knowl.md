@@ -6,8 +6,7 @@ summary = "A quasicentral approximate identity for an ideal also asymptotically 
 aliases = ["quasi-central approximate unit", "quasicentral approximate unit"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/closed-two-sided-ideal", "operator-algebras/cstar-algebra", "operator-algebras/approximate-identity"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

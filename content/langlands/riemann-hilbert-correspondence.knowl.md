@@ -6,8 +6,7 @@ summary = "Regular-singular algebraic flat connections on a smooth complex varie
 aliases = ["regular-singular Riemann-Hilbert correspondence"]
 domains = ["langlands", "fiber-bundles"]
 prerequisites = ["langlands/regular-singular-connection", "fiber-bundles/local-system", "langlands/irregular-singular-connection", "langlands/stokes-data"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

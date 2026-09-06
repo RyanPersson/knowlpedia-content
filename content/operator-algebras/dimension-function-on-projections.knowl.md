@@ -6,8 +6,7 @@ summary = "An additive normal numerical invariant of Murray-von Neumann equivale
 aliases = ["Murray–von Neumann dimension"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/murray-von-neumann-equivalence", "linear-algebra/orthogonal-projection", "operator-algebras/type-i-factor", "operator-algebras/minimal-projection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

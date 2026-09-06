@@ -6,8 +6,7 @@ summary = "The closed or open metric neighborhood obtained by adding a radius-r 
 aliases = ["r-neighborhood of a set", "parallel set", "Minkowski neighborhood"]
 domains = ["analysis", "topology", "convex-analysis"]
 prerequisites = ["convex-analysis/minkowski-sum", "topology/closed-ball"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

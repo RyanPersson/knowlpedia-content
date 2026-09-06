@@ -6,8 +6,7 @@ summary = "The canonical unital C*-algebra in which a C*-algebra sits as an esse
 aliases = ["M(A)", "multiplier C*-algebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/double-centralizer", "linear-algebra/linear-map", "operator-algebras/essential-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

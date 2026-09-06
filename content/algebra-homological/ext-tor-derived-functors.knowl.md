@@ -6,8 +6,7 @@ summary = "Ext and Tor are the right/left derived functors of Hom and tensor, co
 aliases = ["ext-tor-derived-functors", "Ext and Tor as derived functors"]
 domains = ["algebra-homological"]
 prerequisites = ["algebra-homological/hom-left-exact", "algebra-homological/tensor-right-exact", "algebra-homological/ext", "algebra-homological/tor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/ext-tor-derived-functors.md"
 +++
 

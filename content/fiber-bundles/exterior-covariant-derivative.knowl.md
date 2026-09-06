@@ -6,8 +6,7 @@ summary = "A differential operator on tensorial forms on a principal bundle obta
 aliases = ["exterior-covariant-derivative", "Exterior covariant derivative"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/exterior-derivative", "fiber-bundles/curvature-2-form-of-a-principal-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/exterior-covariant-derivative.md"
 +++
 

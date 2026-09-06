@@ -6,8 +6,7 @@ summary = "The canonical action of the dual group on a von Neumann crossed produ
 aliases = ["von Neumann dual action", "W*-crossed-product dual action"]
 domains = ["operator-algebras", "harmonic-analysis", "dynamical-systems"]
 prerequisites = ["topology/locally-compact-group", "operator-algebras/von-neumann-algebra", "operator-algebras/von-neumann-crossed-product", "harmonic-analysis/pontryagin-dual"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

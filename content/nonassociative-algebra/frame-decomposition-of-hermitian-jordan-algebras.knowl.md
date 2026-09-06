@@ -6,8 +6,7 @@ summary = "The diagonal-line and off-diagonal-pair decomposition of H_3(K) deter
 aliases = ["six-space decomposition of H3(K)", "Jordan frame decomposition of Hermitian matrices"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/jordan-frame", "nonassociative-algebra/exceptional-jordan-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

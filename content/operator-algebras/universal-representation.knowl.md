@@ -6,8 +6,7 @@ summary = "The faithful representation obtained by summing the GNS representatio
 aliases = ["universal GNS representation", "sum of all GNS representations"]
 domains = ["operator-algebras", "representation-theory"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/gns-construction", "operator-algebras/direct-sum-cstar-representations", "operator-algebras/nondegenerate-cstar-representation", "algebra-category-theory/terminal-object"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

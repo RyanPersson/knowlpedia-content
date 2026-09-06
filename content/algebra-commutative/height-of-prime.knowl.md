@@ -6,8 +6,7 @@ summary = "The codimension of a prime ideal, measured by the maximum length of c
 aliases = ["height-of-prime", "Height of a prime"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/height-of-prime.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "Agreement between the localization of a global Galois representation 
 aliases = ["local-global compatibility for Galois representations", "local-global compatibility in the Langlands correspondence"]
 domains = ["langlands", "number-theory", "representation-theory"]
 prerequisites = ["algebra-fields-galois/number-field", "langlands/restricted-tensor-product-automorphic-representation", "langlands/algebraic-automorphic-representation", "algebra-fields-galois/decomposition-group", "langlands/local-l-parameter"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

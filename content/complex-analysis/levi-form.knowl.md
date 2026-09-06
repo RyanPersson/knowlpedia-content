@@ -6,8 +6,7 @@ summary = "The Hermitian form defined by the mixed complex second derivatives of
 aliases = ["complex Hessian", "ddbar Hessian"]
 domains = ["complex-analysis", "several-complex-variables", "differential-geometry"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

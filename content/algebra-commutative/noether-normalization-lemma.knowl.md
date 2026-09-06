@@ -6,8 +6,7 @@ summary = "A finitely generated algebra over a field is integral over a polynomi
 aliases = ["noether-normalization-lemma", "Noether normalization lemma"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-rings/field", "algebra-commutative/integral-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/noether-normalization-lemma.md"
 +++
 

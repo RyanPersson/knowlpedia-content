@@ -6,8 +6,7 @@ summary = "A Lipschitz negative weight with finite logarithmic integral majorize
 aliases = ["BM multiplier theorem", "Beurling–Malliavin theorem"]
 domains = ["harmonic-analysis", "complex-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

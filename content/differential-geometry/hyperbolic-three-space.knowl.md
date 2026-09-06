@@ -6,8 +6,7 @@ summary = "The simply connected complete three-dimensional Riemannian manifold o
 aliases = ["hyperbolic 3-space", "H3", "three-dimensional hyperbolic space"]
 domains = ["differential-geometry", "lie-groups"]
 prerequisites = ["topology/simply-connected-space", "differential-geometry/riemannian-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

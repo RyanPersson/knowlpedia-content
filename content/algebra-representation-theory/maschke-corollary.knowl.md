@@ -6,8 +6,7 @@ summary = "When char(k) does not divide |G|, the group algebra is semisimple and
 aliases = ["maschke-corollary", "Maschke corollary (regular representation decomposition)"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-representation-theory/irreducible-representation", "algebra-representation-theory/regular-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/maschke-corollary.md"
 +++
 

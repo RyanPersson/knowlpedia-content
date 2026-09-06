@@ -5,9 +5,8 @@ kind = "knowl"
 summary = "The affine scheme Spec(k[x_1,...,x_n]) representing n algebraic coordinates."
 aliases = ["affine-n-space", "Affine n-space", "affine space"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/affine-scheme", "algebra-rings/maximal-ideal", "algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/closed-point", "topology/irreducible-space", "algebraic-geometry-foundations/affine-line", "algebraic-geometry-foundations/projective-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/affine-scheme", "algebra-rings/maximal-ideal", "algebra-rings/prime-ideal", "algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/closed-point", "topology/irreducible-space", "algebraic-geometry-foundations/affine-line", "algebraic-geometry-foundations/projective-space"]
+dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/affine-n-space.md"
 +++
 

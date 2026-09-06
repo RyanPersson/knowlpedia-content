@@ -6,8 +6,7 @@ summary = "The dual representation acts on linear functionals by precomposition 
 aliases = ["dual-representation-lie", "Dual (contragredient) representation"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/representation-of-a-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "lie-groups/dual-representation-lie.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "Cuspidal automorphic representations of GL_n are determined by their 
 aliases = ["strong multiplicity one", "multiplicity one for GL_n", "strong multiplicity one for automorphic representations"]
 domains = ["langlands", "number-theory"]
 prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "langlands/cuspidal-automorphic-representation", "langlands-letter/knowls/adeles-restricted-product", "langlands/satake-parameter"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

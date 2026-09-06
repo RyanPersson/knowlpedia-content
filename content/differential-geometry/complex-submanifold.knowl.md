@@ -6,8 +6,7 @@ summary = "A subset of a complex manifold that is locally a complex coordinate s
 aliases = ["holomorphic submanifold", "complex analytic submanifold"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/complex-coordinate-chart", "differential-geometry/holomorphic-map", "differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

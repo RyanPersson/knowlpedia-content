@@ -6,8 +6,7 @@ summary = "The real-algebra model of the octonions on C ⊕ C³ with an SU(3)-eq
 aliases = ["C plus C3 model of octonions", "complex vector model of octonions", "O equals C plus C3"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["linear-algebra/vector-space", "nonassociative-algebra/octonion-algebra", "nonassociative-algebra/conjugated-cross-product-on-c3"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

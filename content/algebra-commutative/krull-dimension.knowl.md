@@ -6,8 +6,7 @@ summary = "The supremum of lengths of chains of prime ideals in a ring (equivale
 aliases = ["krull-dimension", "Krull dimension"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-rings/commutative-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/krull-dimension.md"
 +++
 

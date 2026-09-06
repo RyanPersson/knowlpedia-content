@@ -25,4 +25,4 @@ Equivalently, \(A\) is a Yang–Mills connection if it is a critical point of th
 ## Examples
 1. **Flat connections.** Any flat connection is Yang–Mills, since its curvature vanishes.
 2. **Anti-self-dual connections.** On an oriented 4-manifold, ASD (or SD) connections are Yang–Mills; these are the basic instanton solutions in [[fiber-bundles/gauge-theory|gauge theory]].
-3. **Constant central curvature on surfaces.** On a closed oriented surface, Yang–Mills connections are precisely those whose curvature is covariantly constant and takes values in the center of the Lie algebra (a two-dimensional special feature).
+3. **Constant curvature on surfaces.** On a closed oriented surface, the Yang–Mills equation says that the curvature coefficient \(*F_A\) is covariantly constant. For an irreducible connection this coefficient is central; for reducible connections it may lie in a larger holonomy centralizer.

@@ -7,7 +7,7 @@ aliases = ["split rank"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/cartan-decomposition-real-reductive-lie-algebra", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/restricted-root-system"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

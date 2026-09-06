@@ -6,8 +6,7 @@ summary = "A free proper Hamiltonian action reduces a regular zero level to a sy
 aliases = ["symplectic reduction theorem", "regular reduction theorem"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/lie-group", "differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-lie-group-action", "fiber-bundles/moment-map", "fiber-bundles/regular-value", "fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

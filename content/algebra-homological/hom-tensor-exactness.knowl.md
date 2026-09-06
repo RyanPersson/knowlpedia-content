@@ -6,12 +6,11 @@ summary = "Hom is left exact and tensor is right exact; flatness, projectivity, 
 aliases = ["hom-tensor-exactness", "Exactness properties of Hom and tensor"]
 domains = ["algebra-homological"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/hom-tensor-exactness.md"
 +++
 
-Let \(R\) be a ring, and let \(M\) and \(N\) be left \(R\)-modules. The functors \(\operatorname{Hom}_R(M,-)\) and \(\operatorname{Hom}_R(-,N)\) on left \(R\)-modules are left exact, with the latter reversing arrows. The functor \(-\otimes_R N\) from right \(R\)-modules to abelian groups is right exact. These functors are exact precisely when \(M\) is projective, \(N\) is injective, and \(N\) is flat, respectively.
+Let \(R\) be a commutative ring, and let \(M\) and \(N\) be \(R\)-modules. The functors \(\operatorname{Hom}_R(M,-)\) and \(\operatorname{Hom}_R(-,N)\) on \(R\)-modules are left exact, with the latter reversing arrows. The functor \(-\otimes_R N\) is right exact. These functors are exact precisely when \(M\) is projective, \(N\) is injective, and \(N\) is flat, respectively.
 
 ## Basic exactness statements
 

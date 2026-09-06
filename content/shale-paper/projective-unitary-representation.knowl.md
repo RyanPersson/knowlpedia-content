@@ -6,8 +6,7 @@ summary = "A group action by unitaries defined only up to phase (unitary rays)"
 aliases = ["Shale-paper projective unitary representation"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/projective-unitary-representation.md"
 +++
 

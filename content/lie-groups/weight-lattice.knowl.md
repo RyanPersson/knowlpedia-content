@@ -6,8 +6,7 @@ summary = "The lattice of vectors pairing integrally with every coroot."
 aliases = ["integral weight lattice", "weight lattice P", "lattice of integral weights"]
 domains = ["lie-groups", "representation-theory"]
 prerequisites = ["lie-groups/root-system", "lie-groups/simple-root"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,7 @@ summary = "A Möbius-invariant coordinate of an ordered quadruple on the project
 aliases = ["anharmonic ratio", "double ratio"]
 domains = ["complex-analysis", "projective-geometry"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

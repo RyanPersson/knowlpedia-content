@@ -6,8 +6,7 @@ summary = "For a finitely generated module over a local ring, generators of M/mM
 aliases = ["nakayama-corollary", "Nakayama corollary: generators mod the maximal ideal lift"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-commutative/local-ring", "algebra-commutative/residue-field", "algebra-commutative/nakayama-lemma", "algebra-modules/cyclic-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/nakayama-corollary.md"
 +++
 

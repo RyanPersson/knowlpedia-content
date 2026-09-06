@@ -6,8 +6,7 @@ summary = "An isonormal Gaussian process indexed by a real Hilbert space, realiz
 aliases = ["gaussian-measure-hilbert-space", "Gaussian Measure on a Hilbert Space (Segal)"]
 domains = ["shale-paper"]
 prerequisites = ["linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "shale-paper/gaussian-measure-hilbert-space.md"
 +++
 

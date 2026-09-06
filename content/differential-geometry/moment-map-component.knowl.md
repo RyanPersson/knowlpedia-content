@@ -6,8 +6,7 @@ summary = "The scalar Hamiltonian obtained by pairing a moment map with one Lie 
 aliases = ["component function of a moment map", "Hamiltonian for an infinitesimal generator"]
 domains = ["differential-geometry", "lie-groups"]
 prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/moment-map", "differential-geometry/hamiltonian-function", "differential-geometry/infinitesimal-generator-lie-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

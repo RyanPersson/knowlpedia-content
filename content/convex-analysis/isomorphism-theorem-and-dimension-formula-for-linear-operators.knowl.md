@@ -6,8 +6,7 @@ summary = "The image of a linear map is isomorphic to the quotient by its kernel
 aliases = ["isomorphism-theorem-and-dimension-formula-for-linear-operators", "Isomorphism theorem for linear operators"]
 domains = ["convex-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/isomorphism-theorem-and-dimension-formula-for-linear-operators.md"
 +++
 

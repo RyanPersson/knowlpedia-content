@@ -6,8 +6,7 @@ summary = "Chern–Weil forms representing Chern classes have integral periods a
 aliases = ["integrality-of-chern-classes", "Integrality of Chern classes"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/integrality-of-chern-classes.md"
 +++
 

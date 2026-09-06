@@ -6,8 +6,7 @@ summary = "A characteristic class of complex vector bundles defined as the trace
 aliases = ["chern-character", "Chern character via Chern–Weil theory"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/chern-character.md"
 +++
 

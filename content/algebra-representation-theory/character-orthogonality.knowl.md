@@ -6,8 +6,7 @@ summary = "Irreducible complex characters are orthonormal under the standard inn
 aliases = ["character-orthogonality", "Character orthogonality"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-representation-theory/character", "algebra-groups/class-function", "algebra-groups/conjugacy-class", "linear-algebra/inner-product", "linear-algebra/orthogonality", "algebra-representation-theory/irreducible-character", "algebra-representation-theory/character-orthonormality", "algebra-representation-theory/number-irreducibles-conjugacy-classes", "algebra-groups/centralizer", "algebra-representation-theory/maschkes-theorem", "algebra-representation-theory/schurs-lemma"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/character-orthogonality.md"
 +++
 

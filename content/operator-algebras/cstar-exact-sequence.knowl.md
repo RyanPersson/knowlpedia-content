@@ -6,8 +6,7 @@ summary = "An injective ideal inclusion followed by a surjective C*-quotient map
 aliases = ["C*-extension", "extension of C*-algebras", "Exact sequence of C*-algebras"]
 domains = ["operator-algebras", "algebra-category-theory"]
 prerequisites = ["operator-algebras/star-homomorphism", "operator-algebras/closed-two-sided-ideal", "operator-algebras/quotient-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

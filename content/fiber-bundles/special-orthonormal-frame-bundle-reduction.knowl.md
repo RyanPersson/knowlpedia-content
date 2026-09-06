@@ -6,8 +6,7 @@ summary = "The principal SO(n)-bundle of oriented orthonormal frames for an orie
 aliases = ["special-orthonormal-frame-bundle-reduction", "Special orthonormal frame bundle"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/bundle-metric", "fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle", "fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/special-orthonormal-frame-bundle-reduction.md"
 +++
 

@@ -6,8 +6,7 @@ summary = "Strongly continuous one-parameter unitary groups are exactly exponent
 aliases = ["Stone theorem", "infinitesimal generator theorem"]
 domains = ["lie-groups", "functional-analysis"]
 prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "lie-groups/one-parameter-subgroup", "functional-analysis/self-adjoint-unbounded-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

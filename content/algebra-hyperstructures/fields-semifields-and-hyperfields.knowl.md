@@ -6,8 +6,7 @@ summary = "Fields embed fully faithfully as semifields and as singleton-addition
 aliases = ["fields semifields and hyperfields", "field as a semifield and hyperfield"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
 prerequisites = ["algebra-rings/field", "algebra-rings/semifield", "algebra-hyperstructures/hyperfield", "algebra-groups/abelian-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

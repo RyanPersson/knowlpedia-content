@@ -6,8 +6,7 @@ summary = "The symmetric multilinear polarization of volume with respect to Mink
 aliases = ["mixed volume of convex bodies", "Minkowski mixed volume"]
 domains = ["convex-analysis", "integral-geometry"]
 prerequisites = ["convex-analysis/convex-body"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

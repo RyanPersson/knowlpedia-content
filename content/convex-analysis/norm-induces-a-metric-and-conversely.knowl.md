@@ -6,8 +6,7 @@ summary = "A norm defines a metric by d(x,y)=||x−y||; conversely, certain metr
 aliases = ["norm-induces-a-metric-and-conversely", "Norm induces a metric (and conversely)"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/metric-metric-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/norm-induces-a-metric-and-conversely.md"
 +++
 

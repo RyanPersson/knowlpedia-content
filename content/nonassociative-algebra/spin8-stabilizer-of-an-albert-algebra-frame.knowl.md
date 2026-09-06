@@ -6,8 +6,7 @@ summary = "The pointwise stabilizer in compact F_4 of a labelled Albert-algebra 
 aliases = ["Albert algebra frame stabilizer", "Spin(8) in F4", "Jordan frame isotropy in F4"]
 domains = ["nonassociative-algebra", "lie-groups"]
 prerequisites = ["nonassociative-algebra/exceptional-jordan-algebra", "nonassociative-algebra/jordan-frame"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

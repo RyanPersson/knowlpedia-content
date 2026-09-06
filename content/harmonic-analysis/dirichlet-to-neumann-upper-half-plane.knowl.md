@@ -6,8 +6,7 @@ summary = "The boundary operator sending Dirichlet data to the normal derivative
 aliases = ["upper-half-plane Dirichlet-to-Neumann map", "half-Laplacian on the line"]
 domains = ["harmonic-analysis", "partial-differential-equations", "complex-analysis"]
 prerequisites = ["harmonic-analysis/poisson-extension-upper-half-plane", "harmonic-analysis/hilbert-transform"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

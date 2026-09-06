@@ -6,8 +6,7 @@ summary = "A smooth representation whose compact-open fixed spaces are finite-di
 aliases = ["admissible smooth representation", "admissible p-adic representation"]
 domains = ["harmonic-analysis", "langlands", "lie-groups"]
 prerequisites = ["topology/locally-profinite-group", "harmonic-analysis/smooth-representation-totally-disconnected-group", "algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

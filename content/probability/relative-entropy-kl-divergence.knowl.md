@@ -6,8 +6,7 @@ summary = "A directed measure of discrepancy between two probability distributio
 aliases = ["relative-entropy-kl-divergence", "Relative entropy (KL divergence)"]
 domains = ["probability"]
 prerequisites = ["probability/probability-measure", "probability/radon-nikodym-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "probability/relative-entropy-kl-divergence.md"
 +++
 

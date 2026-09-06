@@ -6,8 +6,7 @@ summary = "An open cover whose nonempty finite intersections are contractible."
 aliases = ["good-cover", "Good cover"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/paracompact-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/good-cover.md"
 +++
 

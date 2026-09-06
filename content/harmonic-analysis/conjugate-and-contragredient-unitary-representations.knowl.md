@@ -6,8 +6,7 @@ summary = "The conjugate action on the conjugate Hilbert space and the correspon
 aliases = ["conjugate representation", "dual unitary representation"]
 domains = ["harmonic-analysis", "lie-groups"]
 prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
