@@ -13,9 +13,32 @@ section_mode = "progressive"
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] with finite [[algebra-category-theory/categorical-product|products]] and [[algebra-category-theory/terminal-object|terminal object]] \(1\). A **group object** in \(\mathcal C\) is an object \(G\) with morphisms
 \[
-m:G\times G\to G,\qquad e:1\to G,\qquad i:G\to G
+\begin{aligned}
+m&:G\times G\to G,\\
+e&:1\to G,\\
+i&:G\to G.
+\end{aligned}
 \]
-that satisfy the associativity, identity, and inverse diagrams obtained by writing the ordinary group axioms using products, the diagonal \(G\to G\times G\), and the unique map \(G\to1\).
+For every object \(T\), write \(!_T:T\to1\) for the unique morphism and define
+operations on generalized elements \(f,g:T\to G\) using their product pairing
+\(\langle f,g\rangle:T\to G\times G\):
+\[
+\begin{aligned}
+f*g&=m\circ\langle f,g\rangle,\\
+e_T&=e\circ !_T,\\
+f^{-1}&=i\circ f.
+\end{aligned}
+\]
+The group-object axioms require, for all \(f,g,h:T\to G\),
+\[
+\begin{aligned}
+(f*g)*h&=f*(g*h),\\
+e_T*f&=f=f*e_T,\\
+f^{-1}*f&=e_T=f*f^{-1}.
+\end{aligned}
+\]
+These are the associativity, identity, and inverse laws, tested on generalized
+elements from every object \(T\).
 
 ## Generalized elements
 
@@ -23,7 +46,11 @@ For every object \(T\), composition with \(m,e,i\) makes
 \[
 \operatorname{Hom}_{\mathcal C}(T,G)
 \]
-a group, naturally in \(T\). This is a reliable way to read the internal axioms, although ordinary elements alone may not detect all morphisms in every category.
+a group under the operations above.
+The construction is contravariantly natural in \(T\): precomposition with a
+morphism \(S\to T\) is a group homomorphism. This is a reliable way to read
+the internal axioms, although ordinary elements alone may not detect all
+morphisms in every category.
 
 ## Examples
 

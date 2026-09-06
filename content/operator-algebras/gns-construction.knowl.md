@@ -43,6 +43,30 @@ equivalently an
 [[operator-algebras/approximate-identity|approximate identity]], produces the
 canonical [[operator-algebras/cyclic-vector|cyclic vector]].
 
+## Example: evaluation on continuous functions
+
+Take \(A=C(X)\) for a compact Hausdorff space \(X\), choose \(x_0\in X\), and
+let \(\varphi(f)=f(x_0)\). This is a positive functional. With the convention
+that inner products are linear in the first variable,
+\[
+\langle[f],[g]\rangle_\varphi
+=\varphi(\overline g f)
+=f(x_0)\,\overline{g(x_0)}.
+\]
+Here \(N_\varphi=\{f:f(x_0)=0\}\), so the quotient is one-dimensional and
+\([f]\mapsto f(x_0)\) identifies \(H_\varphi\) with \(\mathbb C\). The cyclic
+vector is \([1]\), and
+\[
+\begin{aligned}
+\pi_\varphi(h)z&=h(x_0)z,\\
+\pi_\varphi(h)[1]&=[h],\\
+\langle\pi_\varphi(h)[1],[1]\rangle&=h(x_0)=\varphi(h).
+\end{aligned}
+\]
+The example makes the quotient concrete: functions indistinguishable at
+\(x_0\) become the same vector, and the representation remembers only their
+value there.
+
 ## Uniqueness and faithfulness
 
 If \((\pi,H,\xi)\) is another cyclic realization of \(\varphi\), the rule
