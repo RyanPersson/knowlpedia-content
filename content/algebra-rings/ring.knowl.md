@@ -6,7 +6,7 @@ summary = "A set with addition forming an abelian group and multiplication that 
 aliases = ["ring"]
 domains = ["algebra-rings"]
 prerequisites = ["shared-foundations/binary-operation", "algebra-groups/abelian-group"]
-dependency_review_count = 1
+dependency_review_count = 2
 legacy_source_path = "algebra-rings/ring.md"
 +++
 

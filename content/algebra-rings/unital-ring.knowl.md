@@ -6,11 +6,11 @@ summary = "A ring whose multiplication has an identity element."
 aliases = ["unital-ring", "Unital ring"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ring"]
-dependency_review_count = 1
+dependency_review_count = 2
 legacy_source_path = "algebra-rings/unital-ring.md"
 +++
 
-A **unital ring** is a [[algebra-rings/ring|ring]] \(R\) together with an element \(1\in R\) such that \(1a=a1=a\) for all \(a\in R\).
+A **unital ring** is a [[algebra-rings/ring|ring]] \(R\) together with an element \(1\in R\) such that \(1a=a1=a\) for all \(a\in R\). Since rings in this collection are not required to be unital, constructions and definitions that use \(1\) (including [[algebra-rings/unit|units]] and [[algebra-rings/field|fields]]) require this extra hypothesis.
 
 ## Remarks
 

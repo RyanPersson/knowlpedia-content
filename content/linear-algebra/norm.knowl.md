@@ -6,8 +6,7 @@ summary = "A function assigning a nonnegative length to vectors."
 aliases = ["norm"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/vector-space", "real-analysis/absolute-value"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/norm.md"
 +++
 
@@ -19,9 +18,16 @@ Here \(|a|\) denotes the [[real-analysis/absolute-value|absolute value]] of the 
 
 ## Remarks
 
+Throughout this entry the scalar field is \(\mathbb{R}\) or \(\mathbb{C}\),
+with its usual absolute value.
+
 A norm induces a [[topology/metric|metric]] by \(d(u,v)=\|u-v\|\), making \(V\) into a [[topology/metric-space|metric space]] and thus giving notions of convergence and continuity.
 
 ## Examples
+
+The norm records length, while the induced metric records separation:
+\(d(u,v)=\|u-v\|\). Different norms can give different lengths on the same
+vector space, even when they induce the same topology in finite dimensions.
 
 - On \(\mathbb{R}^n\), the Euclidean norm \(\|x\|_2=\sqrt{\sum_{i=1}^n x_i^2}\) is a norm.
 - On \(\mathbb{R}^n\), the \(\ell^1\) norm \(\|x\|_1=\sum_{i=1}^n |x_i|\) and the max norm \(\|x\|_\infty=\max_i |x_i|\) are norms.

@@ -66,3 +66,18 @@ Put bibliographic sources and clickable external links only in a final
 sections, either as hyperlinks or as plain text such as `[Author, Chapter 3]`.
 Body prose should state the mathematics directly and may use internal knowl
 links where a definition or theorem is a genuine dependency.
+
+For editorial review, distinguish three scopes. A full review reads the
+complete knowl and its direct prerequisite definitions, checks the adopted
+conventions, and records source evidence plus a SHA-256 hash of the reviewed
+source. A targeted review covers only named claims or sections and does not
+close the full-review queue. A dependencies review checks the complete
+prerequisite list and its provenance; metadata-only changes are not content
+corrections. Record these reviews in reviews/refactor-ledger.json and
+regenerate progress with scripts/review_progress.py.
+
+Use primary papers for distinctive technical claims and authoritative
+monographs or standard texts for established definitions. Record the exact
+section, theorem, page, or equivalent locator that was actually checked.
+Never describe a rendered build or an automated validation pass as proof of
+mathematical truth.

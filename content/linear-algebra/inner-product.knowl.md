@@ -6,8 +6,7 @@ summary = "A positive-definite product on a vector space that defines lengths an
 aliases = ["inner-product", "Inner product"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/inner-product.md"
 +++
 
@@ -23,6 +22,10 @@ such that for all \(u,v,w\in V\) and \(a,b\in\mathbb{F}\):
 \]
 
 ## Remarks
+
+This convention is linear in the first argument and conjugate-linear in the
+second. In particular, \(\langle v,v\rangle\) is real, so positivity is an
+inequality of real numbers.
 
 An inner product is closely related to a [[linear-algebra/bilinear-form|bilinear form]] (or sesquilinear form in the complex case). It induces a [[linear-algebra/norm|norm]] via \(\|v\|=\sqrt{\langle v,v\rangle}\) and defines [[linear-algebra/orthogonality|orthogonality]] through the condition \(\langle u,v\rangle=0\).
 

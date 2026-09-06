@@ -5,9 +5,8 @@ kind = "definition"
 summary = "A Banach *-algebra whose norm and involution satisfy the C*-identity."
 aliases = []
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/involutive-algebra", "functional-analysis/banach-algebra", "operator-algebras/star-homomorphism", "operator-algebras/faithful-star-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/involutive-algebra", "functional-analysis/banach-algebra"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -19,6 +18,10 @@ A **\(C^*\)-algebra** is a complex [[operator-algebras/involutive-algebra|involu
 The definition does not require \(A\) to have an identity element. In every nonzero unital \(C^*\)-algebra, the \(C^*\)-identity forces \(\lVert 1_A\rVert=1\). Morphisms in the standard category are [[operator-algebras/star-homomorphism|*-homomorphism]]s, often with continuity left unstated because every *-homomorphism between \(C^*\)-algebras is automatically contractive. An [[operator-algebras/faithful-star-homomorphism|injective *-homomorphism]] is isometric.
 
 ## Abstract and concrete forms
+
+For a concrete example, \(M_n(\mathbb C)\) uses the operator norm and the
+conjugate-transpose involution. The identity becomes
+\(\|A^*A\|=\|A\|^2\), the finite-dimensional model for the abstract axiom.
 
 A concrete \(C^*\)-algebra is a norm-closed self-adjoint subalgebra of \(B(H)\) for a complex Hilbert space \(H\). The Gelfand–Naimark representation theorem says that every abstract \(C^*\)-algebra admits an isometric *-representation of this form. Thus the abstract axioms capture exactly the operator-norm structure of closed operator algebras, without choosing a preferred [[linear-algebra/hilbert-space|Hilbert space]] representation.
 

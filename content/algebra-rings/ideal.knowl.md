@@ -6,8 +6,7 @@ summary = "A left, right, or two-sided additive subgroup stable under the corres
 aliases = ["ideal"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/ideal.md"
 +++
 

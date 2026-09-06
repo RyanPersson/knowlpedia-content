@@ -7,7 +7,7 @@ aliases = ["riemann-linearity", "Riemann linearity"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/interval", "real-analysis/riemann-integral"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 3
 legacy_source_path = "real-analysis/riemann-linearity.md"
 +++
 

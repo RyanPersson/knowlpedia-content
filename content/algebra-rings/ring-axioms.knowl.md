@@ -6,7 +6,7 @@ summary = "Axioms defining a ring as an abelian group under addition with associ
 aliases = ["ring-axioms", "Ring axioms"]
 domains = ["algebra-rings"]
 prerequisites = ["shared-foundations/binary-operation", "algebra-groups/abelian-group"]
-dependency_review_count = 1
+dependency_review_count = 2
 legacy_source_path = "algebra-rings/ring-axioms.md"
 +++
 

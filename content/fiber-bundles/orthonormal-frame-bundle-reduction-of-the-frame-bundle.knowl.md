@@ -7,7 +7,7 @@ aliases = ["orthonormal-frame-bundle-reduction-of-the-frame-bundle", "Orthonorma
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/bundle-metric", "fiber-bundles/principal-g-bundle"]
 dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 3
 legacy_source_path = "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle.md"
 +++
 

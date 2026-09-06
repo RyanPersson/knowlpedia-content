@@ -6,14 +6,17 @@ summary = "A complete inner product space."
 aliases = ["hilbert-space", "Hilbert space"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/inner-product-space", "topology/complete-metric-space"]
-dependency_heuristic = "authored+definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/hilbert-space.md"
 +++
 
 A **Hilbert space** is an [[linear-algebra/inner-product-space|inner product space]] \((H,\langle\cdot,\cdot\rangle)\) that is complete with respect to the induced norm \(\|x\|=\sqrt{\langle x,x\rangle}\).
 
 ## Remarks
+
+Here \(L^2(X,\mu)\) consists of equivalence classes of functions that agree
+\(\mu\)-almost everywhere; this identification makes the positivity
+condition definite.
 
 With this induced norm, every Hilbert space is a [[linear-algebra/banach-space|Banach space]]. The [[linear-algebra/cauchy-schwarz-inequality|Cauchy–Schwarz inequality]] is a fundamental tool for relating inner products to norms in Hilbert space geometry.
 

@@ -1,0 +1,568 @@
+{
+  "baseline_content_ref": "ea7256bd",
+  "batches": [
+    {
+      "id": "reader-baseline",
+      "entries": [
+        {
+          "id": "complex-analysis/subharmonic-function",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "evidence": "Representative qualification and point-spike counterexample; compiler docs/reader-experience-roadmap.md mathematical evidence."
+        },
+        {
+          "id": "algebra-category-theory/group-object",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "evidence": "Complete generalized-element axioms; compiler docs/reader-experience-roadmap.md mathematical evidence."
+        },
+        {
+          "id": "operator-algebras/gns-construction",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "evidence": "Computed evaluation example; compiler docs/reader-experience-roadmap.md mathematical evidence."
+        },
+        {
+          "id": "algebra-rings/ring",
+          "scope": "dependencies",
+          "outcome": "reviewed_unchanged",
+          "evidence": "Complete direct prerequisite-list review documented in roadmap milestone 1."
+        },
+        {
+          "id": "algebra-rings/ring-axioms",
+          "scope": "dependencies",
+          "outcome": "reviewed_unchanged",
+          "evidence": "Complete direct prerequisite-list review documented in roadmap milestone 1."
+        },
+        {
+          "id": "algebra-rings/unital-ring",
+          "scope": "dependencies",
+          "outcome": "reviewed_unchanged",
+          "evidence": "Complete direct prerequisite-list review documented in roadmap milestone 1."
+        },
+        {
+          "id": "algebra-rings/commutative-ring",
+          "scope": "dependencies",
+          "outcome": "reviewed_unchanged",
+          "evidence": "Complete direct prerequisite-list review documented in roadmap milestone 1."
+        }
+      ]
+    },
+    {
+      "id": "functional-path",
+      "entries": [
+        {
+          "id": "linear-algebra/vector-space",
+          "outcome": "corrected",
+          "changes": [
+            "Explained the roles of the axiom groups; made the common additive identity explicit; clarified that the zero vector space is allowed and that the scalar field and scalar multiplication are part of the structure."
+          ],
+          "sources": [
+            "https://www.math.ucla.edu/~chernikov/teaching/19S-MATH115B/115aF18_lecture_notes.pdf"
+          ],
+          "assumptions": [
+            "Vector spaces are over arbitrary fields; UCLA MATH 115A notes Definition 1.4 and axioms (VS1)\u2013(VS8) provide the substantive comparison."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Explained the roles of the axiom groups; made the common additive identity explicit; clarified that the zero vector space is allowed and that the scalar field and scalar multiplication are part of the structure. Vector spaces are over arbitrary fields; UCLA MATH 115A notes Definition 1.4 and axioms (VS1)\u2013(VS8) provide the substantive comparison.",
+          "source_sha256": "422acbe6fb515e8d61f48bc2dc224dfc2a9f7fd625e6de7ec883436d24991a86"
+        },
+        {
+          "id": "linear-algebra/inner-product",
+          "outcome": "corrected",
+          "changes": [
+            "Made the linear-in-first-argument convention explicit and explained why positivity is real-valued."
+          ],
+          "sources": [
+            "https://www.math.ucdavis.edu/~hunter/book/ch6.pdf"
+          ],
+          "assumptions": [
+            "Scalars are real or complex; Hunter Chapter 6 discusses inner products and induced norms."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Made the linear-in-first-argument convention explicit and explained why positivity is real-valued. Scalars are real or complex; Hunter Chapter 6 discusses inner products and induced norms.",
+          "source_sha256": "c0bb00cbd36f512129b746b1ffa4206be1e6363ca3fae903b6eb79d14f9240ca"
+        },
+        {
+          "id": "linear-algebra/inner-product-space",
+          "outcome": "corrected",
+          "changes": [
+            "Specified the conjugate in the complex polynomial example and distinguished incompleteness from the Hilbert-space condition."
+          ],
+          "sources": [
+            "https://www2.math.upenn.edu/~gressman/analysis/10-hilbertspaces.html"
+          ],
+          "assumptions": [
+            "The displayed integral polynomial example is real-valued unless conjugation is inserted."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Specified the conjugate in the complex polynomial example and distinguished incompleteness from the Hilbert-space condition. The displayed integral polynomial example is real-valued unless conjugation is inserted.",
+          "source_sha256": "6444b6a90574c9b29c213343f6cb878dd59d9d5e73f01f8e525f92a9fa2b4dd3"
+        },
+        {
+          "id": "linear-algebra/norm",
+          "outcome": "corrected",
+          "changes": [
+            "Restricted the scalar field to R or C and added the length-versus-metric perspective."
+          ],
+          "sources": [
+            "https://www.math.ucdavis.edu/~hunter/book/ch6.pdf"
+          ],
+          "assumptions": [
+            "The absolute value is the usual one on R or C."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Restricted the scalar field to R or C and added the length-versus-metric perspective. The absolute value is the usual one on R or C.",
+          "source_sha256": "794f0192d0684079cf153a28af5fbe53610ee410b9f6da30e2d461880041f1e5"
+        },
+        {
+          "id": "linear-algebra/normed-vector-space",
+          "outcome": "corrected",
+          "changes": [
+            "Specified the scalar field and added a finite-dimensional comparison with a warning about infinite dimensions."
+          ],
+          "sources": [
+            "https://www.math.ucdavis.edu/~hunter/book/ch6.pdf"
+          ],
+          "assumptions": [
+            "Normed spaces use real or complex scalar fields in this path; Hunter Chapter 6 discusses the normed/Hilbert-space setting."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Specified the scalar field and added a finite-dimensional comparison with a warning about infinite dimensions. Normed spaces use real or complex scalar fields in this path; Hunter Chapter 6 discusses the normed/Hilbert-space setting.",
+          "source_sha256": "f591427e0cb87a25376e854aee804059fe07f6f337cb5fa710bd1254701ebb19"
+        },
+        {
+          "id": "linear-algebra/banach-space",
+          "outcome": "corrected",
+          "changes": [
+            "Added the polynomial subspace as a concrete incomplete normed space."
+          ],
+          "sources": [
+            "https://www.math.ucdavis.edu/~hunter/book/ch6.pdf"
+          ],
+          "assumptions": [
+            "We use the standard sup norm on continuous functions and polynomials; Hunter Chapter 6 provides the surrounding normed-space treatment."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Added the polynomial subspace as a concrete incomplete normed space. We use the standard sup norm on continuous functions and polynomials; Hunter Chapter 6 provides the surrounding normed-space treatment.",
+          "source_sha256": "24eada2d371944b800611a8b75a648c59f81eb5bac48b3e0fbe3dc6dd6f1b34c"
+        },
+        {
+          "id": "linear-algebra/hilbert-space",
+          "outcome": "corrected",
+          "changes": [
+            "Clarified that L2 consists of almost-everywhere equivalence classes."
+          ],
+          "sources": [
+            "https://www2.math.upenn.edu/~gressman/analysis/10-hilbertspaces.html"
+          ],
+          "assumptions": [
+            "The measure is positive and L2 uses the standard almost-everywhere quotient; Gressman Hilbert-space notes Sections 1\u20135 cover the induced norm and completeness."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Clarified that L2 consists of almost-everywhere equivalence classes. The measure is positive and L2 uses the standard almost-everywhere quotient; Gressman Hilbert-space notes Sections 1\u20135 cover the induced norm and completeness.",
+          "source_sha256": "fbdeed43c4b3ca7e7e9f38a89726d34d9998405f1dc0f68cfefee749c5e39ca3"
+        },
+        {
+          "id": "topology/complete-metric-space",
+          "outcome": "corrected",
+          "changes": [
+            "Added the rational truncations of sqrt(2) as a concrete incompleteness witness."
+          ],
+          "sources": [
+            "https://www2.math.upenn.edu/~gressman/analysis/10-hilbertspaces.html"
+          ],
+          "assumptions": [
+            "Decimal truncations are chosen rational and converge in R; the UPenn Hilbert-space notes explain completeness for the induced metric."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Added the rational truncations of sqrt(2) as a concrete incompleteness witness. Decimal truncations are chosen rational and converge in R; the UPenn Hilbert-space notes explain completeness for the induced metric.",
+          "source_sha256": "1b421afb3a049af2fd35b1e0ce52065ae80e9fd93cf00ea43c04a2e19b6eb91c"
+        },
+        {
+          "id": "operator-algebras/cstar-algebra",
+          "outcome": "corrected",
+          "changes": [
+            "Removed consequence-level morphism prerequisites that created graph cycles; added a concrete matrix-algebra model."
+          ],
+          "sources": [
+            "https://www.ltcc.ac.uk/media/london-taught-course-centre/documents/C-Star-Algebras-Notes-5.pdf",
+            "https://ncatlab.org/nlab/files/Putnam-CStarAlgebras.pdf"
+          ],
+          "assumptions": [
+            "Unqualified C*-algebras are complex and may be nonunital; Putnam Chapter 1 \u00a71.1 gives the basic definition, while LTCC \u00a78 gives the representation context."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Removed consequence-level morphism prerequisites that created graph cycles; added a concrete matrix-algebra model. Unqualified C*-algebras are complex and may be nonunital; Putnam Chapter 1 \u00a71.1 gives the basic definition, while LTCC \u00a78 gives the representation context.",
+          "source_sha256": "f6c58e30a009b2e81d052ab6a42d6aebf2e3218e1cc3ce338c948731dfd96358"
+        },
+        {
+          "id": "operator-algebras/positive-linear-functional",
+          "outcome": "corrected",
+          "changes": [
+            "Added integration against a finite positive measure as a concrete family of examples."
+          ],
+          "sources": [
+            "https://www.ltcc.ac.uk/media/london-taught-course-centre/documents/C-Star-Algebras-Notes-5.pdf",
+            "https://ncatlab.org/nlab/files/Putnam-CStarAlgebras.pdf"
+          ],
+          "assumptions": [
+            "C(X) is commutative and X is compact in this example; LTCC \u00a78 and Putnam notes discuss positive functionals and GNS."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Added integration against a finite positive measure as a concrete family of examples. C(X) is commutative and X is compact in this example; LTCC \u00a78 and Putnam notes discuss positive functionals and GNS.",
+          "source_sha256": "675fbb222f93306c0392fc42f88fb3ed5ea477fde65a42546f5f082f8c3104d0"
+        },
+        {
+          "id": "operator-algebras/cstar-representation",
+          "outcome": "corrected",
+          "changes": [
+            "Added the identity representation of a matrix algebra as a basic faithful nondegenerate example."
+          ],
+          "sources": [
+            "https://www.ltcc.ac.uk/media/london-taught-course-centre/documents/C-Star-Algebras-Notes-5.pdf"
+          ],
+          "assumptions": [
+            "B(H) denotes bounded operators on a Hilbert space; LTCC \u00a78 covers representations."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Added the identity representation of a matrix algebra as a basic faithful nondegenerate example. B(H) denotes bounded operators on a Hilbert space; LTCC \u00a78 covers representations.",
+          "source_sha256": "d78e5d384d2d612688d7fdd488f71fa62b458731ce55becc13e61b3ca218fb4d"
+        },
+        {
+          "id": "operator-algebras/cyclic-cstar-representation",
+          "outcome": "reviewed_unchanged",
+          "changes": [],
+          "sources": [
+            "https://www.ltcc.ac.uk/media/london-taught-course-centre/documents/C-Star-Algebras-Notes-5.pdf"
+          ],
+          "assumptions": [
+            "Cyclicity is defined by dense linear span and therefore implies nondegeneracy; LTCC \u00a78 notes cyclic representations."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Cyclicity is defined by dense linear span and therefore implies nondegeneracy; LTCC \u00a78 notes cyclic representations.",
+          "source_sha256": "c97fd149b88a18668b0233f34795eb916b74eae1ac99be74ec284d5f55feeaaa"
+        },
+        {
+          "id": "operator-algebras/gns-construction",
+          "outcome": "corrected",
+          "changes": [
+            "Removed the output-level cyclic-representation prerequisite to break a circular learning edge; documented the zero-functional edge case."
+          ],
+          "sources": [
+            "https://www.ltcc.ac.uk/media/london-taught-course-centre/documents/C-Star-Algebras-Notes-5.pdf",
+            "https://ncatlab.org/nlab/files/Putnam-CStarAlgebras.pdf"
+          ],
+          "assumptions": [
+            "The inner product convention is linear in the first variable; the zero Hilbert space is permitted; LTCC \u00a78 and Putnam notes give the GNS construction."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Removed the output-level cyclic-representation prerequisite to break a circular learning edge; documented the zero-functional edge case. The inner product convention is linear in the first variable; the zero Hilbert space is permitted; LTCC \u00a78 and Putnam notes give the GNS construction.",
+          "source_sha256": "86f59aeb795ff1df3c866fd039296707c51ebdc52a45f08fee391b3bd0121be1"
+        }
+      ]
+    },
+    {
+      "id": "ring-path",
+      "entries": [
+        {
+          "id": "shared-foundations/binary-operation",
+          "outcome": "reviewed_unchanged",
+          "changes": [],
+          "sources": [
+            "https://ece.uprm.edu/~domingo/inel8396/Smith,%20Jonathan%20D.%20H%20-%20Introduction%20to%20abstract%20algebra%20(2015).pdf"
+          ],
+          "assumptions": [
+            "The existing definition is adequate for the ring and group pages; closure is expressed by the codomain S. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1 and Remark 6.3, pp. 129\u2013130 (PDF pages 142\u2013143)."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "The existing definition is adequate for the ring and group pages; closure is expressed by the codomain S. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1 and Remark 6.3, pp. 129\u2013130 (PDF pages 142\u2013143).",
+          "source_sha256": "ba788a493d1f8384efc91f091a64dee2529453c7cef6fb6ab7654a5ea94bfdaa"
+        },
+        {
+          "id": "algebra-groups/group",
+          "outcome": "reviewed_unchanged",
+          "changes": [
+            "Dependency metadata cleanup: removed subgroup and group-homomorphism from prerequisites because they are downstream applications, not requirements for the definition; this metadata change is excluded from corrected-content counts."
+          ],
+          "sources": [
+            "https://ece.uprm.edu/~domingo/inel8396/Smith,%20Jonathan%20D.%20H%20-%20Introduction%20to%20abstract%20algebra%20(2015).pdf"
+          ],
+          "assumptions": [
+            "The monoid page supplies the set, binary operation, associativity, and identity context. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1, pp. 129\u2013130 (PDF pages 142\u2013143)."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Dependency metadata cleanup: removed subgroup and group-homomorphism from prerequisites because they are downstream applications, not requirements for the definition; this metadata change is excluded from corrected-content counts. The monoid page supplies the set, binary operation, associativity, and identity context. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1, pp. 129\u2013130 (PDF pages 142\u2013143).",
+          "source_sha256": "37c817ade6e4a44ca802cf03a3a721379d26f12b402358991d458eb20496adfd"
+        },
+        {
+          "id": "algebra-groups/abelian-group",
+          "outcome": "reviewed_unchanged",
+          "changes": [],
+          "sources": [
+            "https://ece.uprm.edu/~domingo/inel8396/Smith,%20Jonathan%20D.%20H%20-%20Introduction%20to%20abstract%20algebra%20(2015).pdf"
+          ],
+          "assumptions": [
+            "The group prerequisite is sufficient; examples and additive notation are clear."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "The group prerequisite is sufficient; examples and additive notation are clear.",
+          "source_sha256": "67e29a4acafed582c5f3efd4aa345e71ade2d947b591e26c3bb54bfe20a646ee"
+        },
+        {
+          "id": "algebra-rings/ring",
+          "outcome": "reviewed_unchanged",
+          "changes": [],
+          "sources": [
+            "https://ece.uprm.edu/~domingo/inel8396/Smith,%20Jonathan%20D.%20H%20-%20Introduction%20to%20abstract%20algebra%20(2015).pdf"
+          ],
+          "assumptions": [
+            "This collection intentionally permits nonunital rings; the page already states that convention and distinguishes unital and commutative variants. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1 and Remark 6.3, pp. 129\u2013130 (PDF pages 142\u2013143). Reading exercise: binary operation -> abelian group -> ring -> unital ring -> field; branch ring -> ideal."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "This collection intentionally permits nonunital rings; the page already states that convention and distinguishes unital and commutative variants. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1 and Remark 6.3, pp. 129\u2013130 (PDF pages 142\u2013143). Reading exercise: binary operation -> abelian group -> ring -> unital ring -> field; branch ring -> ideal.",
+          "source_sha256": "e9236f678b0a5e54aad0a38ff23b27e17a00a1463f36a190b7f02c200ada4acc"
+        },
+        {
+          "id": "algebra-rings/ring-axioms",
+          "outcome": "reviewed_unchanged",
+          "changes": [],
+          "sources": [
+            "https://ece.uprm.edu/~domingo/inel8396/Smith,%20Jonathan%20D.%20H%20-%20Introduction%20to%20abstract%20algebra%20(2015).pdf"
+          ],
+          "assumptions": [
+            "The duplicate axiomatic presentation is useful as a compact reference and does not create a prerequisite cycle. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1, pp. 129\u2013130 (PDF pages 142\u2013143)."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "The duplicate axiomatic presentation is useful as a compact reference and does not create a prerequisite cycle. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1, pp. 129\u2013130 (PDF pages 142\u2013143).",
+          "source_sha256": "d27df7a7c1f39786134e7304a7d1abdff9f30938ac50ae087fce1a1206f226c2"
+        },
+        {
+          "id": "algebra-rings/unital-ring",
+          "outcome": "corrected",
+          "changes": [
+            "Made explicit that 1-dependent notions such as units and fields require the additional unital hypothesis under this collection's convention."
+          ],
+          "sources": [
+            "https://ece.uprm.edu/~domingo/inel8396/Smith,%20Jonathan%20D.%20H%20-%20Introduction%20to%20abstract%20algebra%20(2015).pdf"
+          ],
+          "assumptions": [
+            "The repository's ring convention is intentionally nonunital. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1(d) and Remark 6.3, pp. 129\u2013130 (PDF pages 142\u2013143)."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Made explicit that 1-dependent notions such as units and fields require the additional unital hypothesis under this collection's convention. The repository's ring convention is intentionally nonunital. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1(d) and Remark 6.3, pp. 129\u2013130 (PDF pages 142\u2013143).",
+          "source_sha256": "43dc9d79d6c3676de5922a72bf29b61f6515235153e343299c54b2a70866243a"
+        },
+        {
+          "id": "algebra-rings/commutative-ring",
+          "outcome": "reviewed_unchanged",
+          "changes": [],
+          "sources": [
+            "https://ece.uprm.edu/~domingo/inel8396/Smith,%20Jonathan%20D.%20H%20-%20Introduction%20to%20abstract%20algebra%20(2015).pdf"
+          ],
+          "assumptions": [
+            "Commutativity is an added condition on the repository's general, possibly nonunital ring. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1(e) and Remark 6.2, pp. 129\u2013130 (PDF pages 142\u2013143)."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Commutativity is an added condition on the repository's general, possibly nonunital ring. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.1(e) and Remark 6.2, pp. 129\u2013130 (PDF pages 142\u2013143).",
+          "source_sha256": "953715088f7426d7d1a52395cf3f05b7bdb74266489a6c21f56d3440e370a467"
+        },
+        {
+          "id": "algebra-rings/ring-homomorphism",
+          "outcome": "corrected",
+          "changes": [
+            "Clarified the distinction between the repository's homomorphisms, which need not preserve 1, and the unital convention used by some authors."
+          ],
+          "sources": [
+            "https://ece.uprm.edu/~domingo/inel8396/Smith,%20Jonathan%20D.%20H%20-%20Introduction%20to%20abstract%20algebra%20(2015).pdf"
+          ],
+          "assumptions": [
+            "The displayed definition applies to nonunital rings; preservation of 1 is an optional strengthened condition here. Source locator checked: Smith, Introduction to Abstract Algebra (2015), \u00a76.4, pp. 137\u2013140 (PDF pages 150\u2013153), including the explicit unital/nonunital homomorphism distinction and inclusion example."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Clarified the distinction between the repository's homomorphisms, which need not preserve 1, and the unital convention used by some authors. The displayed definition applies to nonunital rings; preservation of 1 is an optional strengthened condition here. Source locator checked: Smith, Introduction to Abstract Algebra (2015), \u00a76.4, pp. 137\u2013140 (PDF pages 150\u2013153), including the explicit unital/nonunital homomorphism distinction and inclusion example.",
+          "source_sha256": "e74a0d53daf74e39e07a53862ddf3156d8753dce2066085eafa1fc74e2fd5548"
+        },
+        {
+          "id": "algebra-rings/field",
+          "outcome": "corrected",
+          "changes": [
+            "Added unital-ring as a direct prerequisite and stated explicitly that fields are unital under the collection's nonunital ring convention.",
+            "Scoped the ideal characterization to commutative unital nonzero rings and added a warning that the hypotheses matter for nonunital rings."
+          ],
+          "sources": [
+            "https://ece.uprm.edu/~domingo/inel8396/Smith,%20Jonathan%20D.%20H%20-%20Introduction%20to%20abstract%20algebra%20(2015).pdf"
+          ],
+          "assumptions": [
+            "The existing unit prerequisite remains useful because the definition quantifies over units. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Remark 6.2, p. 130 (PDF page 143), and Definition 6.1(d), p. 130 (PDF page 143)."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "Added unital-ring as a direct prerequisite and stated explicitly that fields are unital under the collection's nonunital ring convention. Scoped the ideal characterization to commutative unital nonzero rings and added a warning that the hypotheses matter for nonunital rings. The existing unit prerequisite remains useful because the definition quantifies over units. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Remark 6.2, p. 130 (PDF page 143), and Definition 6.1(d), p. 130 (PDF page 143).",
+          "source_sha256": "395d0f3917c7b7271f4ba8252768ac90ae1f1052406293e0baf3d313dae68922"
+        },
+        {
+          "id": "algebra-rings/ideal",
+          "outcome": "reviewed_unchanged",
+          "changes": [],
+          "sources": [
+            "https://ece.uprm.edu/~domingo/inel8396/Smith,%20Jonathan%20D.%20H%20-%20Introduction%20to%20abstract%20algebra%20(2015).pdf"
+          ],
+          "assumptions": [
+            "The left, right, and two-sided definitions are appropriate for possibly noncommutative and nonunital rings; the quotient statement is scoped to two-sided ideals. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.26 and Proposition 6.27, pp. 139\u2013140 (PDF pages 152\u2013153)."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "full",
+          "evidence": "The left, right, and two-sided definitions are appropriate for possibly noncommutative and nonunital rings; the quotient statement is scoped to two-sided ideals. Source locator checked: Smith, Introduction to Abstract Algebra (2015), Definition 6.26 and Proposition 6.27, pp. 139\u2013140 (PDF pages 152\u2013153).",
+          "source_sha256": "14c6119fac5d72c2dcae7b4d57fb4a2a013cedcc03d30a908dcaa3e16702b65e"
+        }
+      ]
+    },
+    {
+      "id": "bounded-consolidation",
+      "entries": [
+        {
+          "id": "shared-foundations/composition-of-functions",
+          "outcome": "redirected",
+          "changes": [
+            "Compatibility redirect to shared-foundations/composition; remarks and examples fragments map to the canonical sections."
+          ],
+          "sources": [],
+          "assumptions": [
+            "The canonical entry has the same definition and retains the historical examples' mathematical content."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "targeted",
+          "evidence": "Compatibility redirect to shared-foundations/composition; remarks and examples fragments map to the canonical sections. The canonical entry has the same definition and retains the historical examples' mathematical content."
+        },
+        {
+          "id": "shared-foundations/composition",
+          "outcome": "reviewed_unchanged",
+          "changes": [],
+          "sources": [],
+          "assumptions": [],
+          "dependencies_reviewed": true,
+          "scope": "targeted",
+          "evidence": "Read canonical destination and its direct prerequisite list during bounded consolidation review; no full mathematical review claimed."
+        },
+        {
+          "id": "fiber-bundles/orthonormal-frame-bundle-o-of-a-riemannian-manifold",
+          "outcome": "redirected",
+          "changes": [
+            "Compatibility redirect to the general bundle-metric construction; historical examples fragment maps to the canonical examples section."
+          ],
+          "sources": [],
+          "assumptions": [
+            "The canonical general construction subsumes the tangent-bundle case and retains Euclidean, oriented, and sphere examples."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "targeted",
+          "evidence": "Compatibility redirect to the general bundle-metric construction; historical examples fragment maps to the canonical examples section. The canonical general construction subsumes the tangent-bundle case and retains Euclidean, oriented, and sphere examples."
+        },
+        {
+          "id": "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle",
+          "outcome": "reviewed_unchanged",
+          "changes": [],
+          "sources": [],
+          "assumptions": [],
+          "dependencies_reviewed": true,
+          "scope": "targeted",
+          "evidence": "Read canonical destination and its direct prerequisite list during bounded consolidation review; no full mathematical review claimed."
+        },
+        {
+          "id": "real-analysis/additivity-linearity-riemann-integral",
+          "outcome": "corrected",
+          "changes": [
+            "Replaced the mixed theorem bundle with links to four independently reusable results."
+          ],
+          "sources": [
+            "https://users.math.msu.edu/users/yanb/327ch6.pdf (B. Yan, The Riemann\u2013Stieltjes Integral, Definition 6.3 and Theorem 6.9(c), pp. 2 and 6\u20137)"
+          ],
+          "assumptions": [
+            "The standard tagged-partition Riemann\u2013Stieltjes definition used by the neighboring knowl is intended."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "targeted",
+          "evidence": "Replaced the mixed theorem bundle with links to four independently reusable results. The standard tagged-partition Riemann\u2013Stieltjes definition used by the neighboring knowl is intended."
+        },
+        {
+          "id": "real-analysis/riemann-linearity",
+          "outcome": "reviewed_unchanged",
+          "changes": [],
+          "sources": [
+            "https://users.math.msu.edu/users/yanb/327ch6.pdf (B. Yan, The Riemann\u2013Stieltjes Integral, Definition 6.3 and Theorem 6.9(c), pp. 2 and 6\u20137, with identity integrator)"
+          ],
+          "assumptions": [],
+          "dependencies_reviewed": true,
+          "scope": "targeted",
+          "evidence": "Read canonical destination and its direct prerequisite list during bounded consolidation review; no full mathematical review claimed."
+        },
+        {
+          "id": "real-analysis/riemann-stieltjes-linearity",
+          "outcome": "reviewed_unchanged",
+          "changes": [],
+          "sources": [
+            "https://users.math.msu.edu/users/yanb/327ch6.pdf (B. Yan, The Riemann\u2013Stieltjes Integral, Theorem 6.9(a), p. 6)"
+          ],
+          "assumptions": [],
+          "dependencies_reviewed": true,
+          "scope": "targeted",
+          "evidence": "Read canonical destination and its direct prerequisite list during bounded consolidation review; no full mathematical review claimed."
+        },
+        {
+          "id": "real-analysis/riemann-additivity-over-subintervals",
+          "outcome": "new",
+          "changes": [
+            "Added a standalone interval-additivity theorem, endpoint convention, and worked example."
+          ],
+          "sources": [
+            "https://users.math.msu.edu/users/yanb/327ch6.pdf (B. Yan, The Riemann\u2013Stieltjes Integral, Definition 6.3 and Theorem 6.9(c), pp. 2 and 6\u20137, with identity integrator)"
+          ],
+          "assumptions": [
+            "A degenerate endpoint interval has integral zero."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "targeted",
+          "evidence": "Added a standalone interval-additivity theorem, endpoint convention, and worked example. A degenerate endpoint interval has integral zero."
+        },
+        {
+          "id": "real-analysis/riemann-stieltjes-additivity-over-subintervals",
+          "outcome": "new",
+          "changes": [
+            "Added a standalone interval-additivity theorem under the explicit hypothesis that the full Riemann\u2013Stieltjes integral exists."
+          ],
+          "sources": [
+            "https://users.math.msu.edu/users/yanb/327ch6.pdf (B. Yan, The Riemann\u2013Stieltjes Integral, Theorem 6.9(c), pp. 6\u20137)"
+          ],
+          "assumptions": [
+            "Increasing integrator, full mesh-limit integral exists; restriction follows by the tagged-sum Cauchy criterion. Endpoint integrals are zero. The reference uses upper/lower sums; no blanket equivalence is claimed."
+          ],
+          "dependencies_reviewed": true,
+          "scope": "targeted",
+          "evidence": "Added a standalone interval-additivity theorem under the explicit hypothesis that the full Riemann\u2013Stieltjes integral exists. Increasing integrator, full mesh-limit integral exists; restriction follows by the tagged-sum Cauchy criterion. Endpoint integrals are zero. The reference uses upper/lower sums; no blanket equivalence is claimed."
+        }
+      ]
+    }
+  ]
+}

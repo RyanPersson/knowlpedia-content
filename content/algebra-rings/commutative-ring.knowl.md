@@ -6,7 +6,7 @@ summary = "A ring in which multiplication is commutative."
 aliases = ["commutative-ring", "Commutative ring"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ring"]
-dependency_review_count = 1
+dependency_review_count = 2
 legacy_source_path = "algebra-rings/commutative-ring.md"
 +++
 

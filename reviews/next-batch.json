@@ -1,0 +1,91 @@
+{
+  "status": "planned",
+  "baseline_content_ref": "ea7256bd",
+  "lanes": [
+    {
+      "lane": "linear_geometry",
+      "ids": [
+        "linear-algebra/linear-map",
+        "linear-algebra/linear-operator",
+        "linear-algebra/bilinear-form",
+        "linear-algebra/cauchy-schwarz-inequality",
+        "linear-algebra/orthogonality",
+        "linear-algebra/orthogonal-complement",
+        "linear-algebra/orthogonal-projection",
+        "linear-algebra/orthonormal-basis",
+        "linear-algebra/operator-norm",
+        "linear-algebra/closed-linear-subspace",
+        "linear-algebra/euclidean-norm",
+        "linear-algebra/euclidean-space"
+      ]
+    },
+    {
+      "lane": "ring_conventions",
+      "ids": [
+        "algebra-rings/unit",
+        "algebra-rings/group-of-units",
+        "algebra-rings/units-map-to-units",
+        "algebra-rings/division-ring",
+        "algebra-rings/integral-domain",
+        "algebra-rings/zero-divisor",
+        "algebra-rings/subring",
+        "algebra-rings/quotient-ring",
+        "algebra-rings/kernel-ring",
+        "algebra-rings/image-ring",
+        "algebra-rings/ring-isomorphism",
+        "algebra-rings/first-isomorphism-theorem-rings"
+      ]
+    },
+    {
+      "lane": "metric_foundations",
+      "ids": [
+        "topology/metric",
+        "topology/metric-space",
+        "topology/cauchy-sequence",
+        "topology/convergent-sequence",
+        "topology/convergent-sequence-is-cauchy",
+        "topology/cauchy-sequence-is-bounded",
+        "topology/open-ball",
+        "topology/closed-ball",
+        "topology/metric-induced-topology",
+        "topology/equivalent-metrics",
+        "topology/isometry",
+        "topology/uniformly-continuous-map"
+      ]
+    },
+    {
+      "lane": "integration_foundations",
+      "ids": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/tagged-partition",
+        "real-analysis/mesh-of-a-partition",
+        "real-analysis/riemann-sum",
+        "real-analysis/riemann-integral",
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/riemann-stieltjes-integral",
+        "real-analysis/integrator-function",
+        "real-analysis/lower-sum-riemann",
+        "real-analysis/upper-sum-riemann",
+        "real-analysis/riemann-stieltjes-integrability-theorem",
+        "real-analysis/integration-by-parts-riemann-stieltjes"
+      ]
+    },
+    {
+      "lane": "functions_and_quotients",
+      "ids": [
+        "shared-foundations/function",
+        "shared-foundations/domain",
+        "shared-foundations/codomain",
+        "shared-foundations/image",
+        "shared-foundations/preimage",
+        "shared-foundations/injective-function",
+        "shared-foundations/surjective-function",
+        "shared-foundations/bijective-function",
+        "shared-foundations/inverse-function",
+        "shared-foundations/equivalence-relation",
+        "shared-foundations/equivalence-class",
+        "shared-foundations/quotient-set"
+      ]
+    }
+  ]
+}

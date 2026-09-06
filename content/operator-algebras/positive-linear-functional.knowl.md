@@ -6,8 +6,7 @@ summary = "A complex linear functional on a C*-algebra that is nonnegative on ev
 aliases = ["positive functional", "positive form on a C*-algebra"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-cone"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -28,6 +27,14 @@ Positivity of the quadratic form \(a\mapsto\varphi(a^*a)\) yields
 |\varphi(b^*a)|^2\leq\varphi(a^*a)\varphi(b^*b).
 \]
 This inequality controls continuity and identifies the null space used in the [[operator-algebras/gns-construction|GNS construction]]. In the unital case, a bounded functional \(\varphi\) is positive exactly when \(\lVert\varphi\rVert=\varphi(1)\); the equality includes the assertion that \(\varphi(1)\) is real and nonnegative.
+
+## Example: integration
+
+For a compact Hausdorff space \(X\), integration against a finite positive
+Borel measure \(\mu\) gives a positive functional on \(C(X)\):
+\(\varphi(f)=\int_X f\,d\mu\). Point evaluation is the special case
+\(\mu=\delta_{x_0}\); its one-dimensional GNS representation is worked out
+in the [[operator-algebras/gns-construction|GNS construction]].
 
 ## GNS construction
 

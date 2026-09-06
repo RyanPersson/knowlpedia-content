@@ -5,9 +5,8 @@ kind = "definition"
 summary = "The canonical construction of a cyclic Hilbert-space representation from a positive functional on a C*-algebra."
 aliases = ["Gelfand–Naimark–Segal construction", "cyclic representation from a positive functional"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-linear-functional", "linear-algebra/hilbert-space", "operator-algebras/cyclic-cstar-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-linear-functional", "linear-algebra/hilbert-space"]
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
@@ -78,6 +77,10 @@ its kernel consists of those elements acting trivially on the quotient, a
 stronger condition than merely belonging to \(N_\varphi\).
 
 ## States and von Neumann algebras
+
+The zero functional gives the zero Hilbert space and the zero representation;
+the zero vector is cyclic there. This edge case is included by the definition,
+although states are usually used when a nonzero cyclic vector is desired.
 
 When \(A\) is unital, \(\|\xi_\varphi\|^2=\varphi(1)=\|\varphi\|\); in
 particular a state gives a unit cyclic vector. If \(A=M\) is a

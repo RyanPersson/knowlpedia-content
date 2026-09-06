@@ -5,17 +5,20 @@ kind = "knowl"
 summary = "A commutative unital ring in which every nonzero element is invertible."
 aliases = ["field"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unit"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring", "algebra-rings/unit"]
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/field.md"
 +++
 
-A **field** is a [[algebra-rings/commutative-ring|commutative ring]] with \(1\neq 0\) such that every nonzero element is a [[algebra-rings/unit|unit]] (equivalently, every \(a\neq 0\) has a multiplicative inverse).
+A **field** is a [[algebra-rings/commutative-ring|commutative ring]] that is also [[algebra-rings/unital-ring|unital]], with \(1\neq 0\), such that every nonzero element is a [[algebra-rings/unit|unit]] (equivalently, every \(a\neq 0\) has a multiplicative inverse). Thus, under the convention used here that a ring need not have a multiplicative identity, the unital condition is part of the definition of a field.
 
 ## Remarks
 
-Fields are precisely rings with only the “trivial” ideals: \(R\) is a field iff its only [[algebra-rings/ideal|ideals]] are \((0)\) and \(R\), and iff \((0)\) is [[algebra-rings/maximal-ideal|maximal]].
+For a commutative unital ring \(R\) with \(1\neq 0\), the following are
+equivalent: \(R\) is a field; its only [[algebra-rings/ideal|ideals]] are
+\((0)\) and \(R\); and \((0)\) is [[algebra-rings/maximal-ideal|maximal]].
+The hypotheses matter: a nonunital ring can have only two ideals without
+being a field.
 
 ## Examples
 
