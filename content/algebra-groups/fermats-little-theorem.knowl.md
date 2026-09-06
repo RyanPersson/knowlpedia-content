@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For a prime p, every integer a satisfies a^p congruent to a modulo p."
 aliases = ["fermats-little-theorem", "Fermat's Little Theorem"]
 domains = ["algebra-groups"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/integers", "algebra-rings/group-of-units", "algebra-groups/lagranges-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/fermats-little-theorem.md"
 +++
 

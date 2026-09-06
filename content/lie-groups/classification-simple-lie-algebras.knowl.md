@@ -6,8 +6,8 @@ summary = "Complex simple Lie algebras are classified by connected Dynkin diagra
 aliases = ["classification-simple-lie-algebras", "Classification of complex simple Lie algebras"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/simple-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/classification-simple-lie-algebras.md"
 +++
 

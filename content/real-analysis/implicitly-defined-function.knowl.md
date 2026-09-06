@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A function specified indirectly by an equation involving its inputs and outputs"
 aliases = ["implicitly-defined-function", "Implicitly defined function"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/implicitly-defined-function.md"
 +++
 

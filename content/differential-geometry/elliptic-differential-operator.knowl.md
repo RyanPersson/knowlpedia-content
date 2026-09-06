@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A differential operator whose principal symbol is invertible at every nonzero cotangent vector."
 aliases = ["elliptic operator", "ellipticity"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/vector-bundle", "differential-geometry/principal-symbol", "convex-analysis/image-and-kernel-linear-isomorphism", "topology/connected-component"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/vector-bundle", "differential-geometry/differential-operator-vector-bundles", "differential-geometry/principal-symbol", "convex-analysis/image-and-kernel-linear-isomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The maximal C*-seminorm of an involutive algebra is the supremum of t
 aliases = ["universal C*-norm", "maximal representation seminorm", "Universal C*-seminorm"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/cstar-representation", "convex-analysis/seminorm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

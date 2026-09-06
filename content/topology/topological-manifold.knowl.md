@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A Hausdorff, second-countable space locally homeomorphic to a fixed Euclidean space."
 aliases = ["topological manifold", "topological n-manifold"]
 domains = ["topology", "fiber-bundles"]
-prerequisites = ["topology/topological-space", "topology/homeomorphism", "fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "topology/homeomorphism", "topology/hausdorff-space"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 An **\(n\)-dimensional topological manifold** is a Hausdorff, second-countable [[topology/topological-space|topological space]] \(M\) such that every point has an open neighborhood [[topology/homeomorphism|homeomorphic]] to an open subset of \(\mathbb R^n\). The local homeomorphisms are coordinate charts; their collection covers \(M\).

@@ -6,8 +6,8 @@ summary = "A complex linear functional on a C*-algebra that is nonnegative on ev
 aliases = ["positive functional", "positive form on a C*-algebra"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-cone"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

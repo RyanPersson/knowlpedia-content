@@ -6,8 +6,8 @@ summary = "Defines vertices and edges in a graph, along with incidence and adjac
 aliases = ["graph-vertex-edge", "Graph: vertices and edges"]
 domains = ["discrete-structures"]
 prerequisites = ["shared-foundations/set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "discrete-structures/graph-vertex-edge.md"
 +++
 

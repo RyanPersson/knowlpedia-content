@@ -6,8 +6,8 @@ summary = "A cohomology theory of associative algebras built from multilinear co
 aliases = ["Connes cyclic cohomology", "(b,B)-cohomology"]
 domains = ["noncommutative-geometry", "algebra-homological"]
 prerequisites = ["algebra-homological/cohomology-module", "noncommutative-geometry/hochschild-chain-complex"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

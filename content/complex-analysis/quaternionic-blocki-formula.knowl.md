@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "An inclusion–exclusion identity for quaternionic Monge–Ampère measures under maxima and minima."
 aliases = ["quaternionic max-min Monge-Ampere formula", "quaternionic Błocki identity"]
 domains = ["complex-analysis", "quaternionic-analysis", "potential-theory"]
-prerequisites = ["complex-analysis/quaternionic-plurisubharmonic-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/quaternionic-plurisubharmonic-function", "complex-analysis/mixed-quaternionic-monge-ampere-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

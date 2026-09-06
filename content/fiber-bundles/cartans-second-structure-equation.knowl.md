@@ -6,8 +6,8 @@ summary = "On the frame bundle, the curvature form is given by d omega plus one 
 aliases = ["cartans-second-structure-equation", "Cartan's second structure equation (curvature) in the frame bundle"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/cartans-second-structure-equation.md"
 +++
 

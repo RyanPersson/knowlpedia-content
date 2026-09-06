@@ -6,8 +6,8 @@ summary = "An automorphic representation whose archimedean Langlands-parameter e
 aliases = ["L-algebraic representation", "L-algebraic automorphic representations"]
 domains = ["langlands", "number-theory", "representation-theory"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/number-field", "langlands/automorphic-representation", "langlands-letter/knowls/maximal-torus-weight-lattice", "langlands/local-l-parameter"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

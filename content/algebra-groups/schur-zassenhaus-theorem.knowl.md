@@ -6,8 +6,8 @@ summary = "A normal Hall subgroup has a complement, unique up to conjugacy"
 aliases = ["schur-zassenhaus-theorem", "Schur–Zassenhaus Theorem"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/hall-subgroup", "algebra-groups/semidirect-product", "algebra-groups/conjugation-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/schur-zassenhaus-theorem.md"
 +++
 

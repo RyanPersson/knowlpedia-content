@@ -6,8 +6,8 @@ summary = "The splitting of a complexified tangent bundle into the positive and 
 aliases = ["holomorphic-antiholomorphic tangent splitting", "T one zero and T zero one splitting"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/almost-complex-structure", "fiber-bundles/tangent-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

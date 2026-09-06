@@ -6,8 +6,8 @@ summary = "Two unitary representations are unitarily equivalent when a unitary o
 aliases = ["equivalent unitary representations"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "topology/topological-group", "functional-analysis/unitary-operator", "lie-groups/intertwining-operator-unitary-representations", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A multiplicative ideal of a blueprint that is closed under subtraction encoded by additive relations."
 aliases = ["subtractive ideal of a blueprint", "blueprint k-ideal"]
 domains = ["algebraic-geometry-foundations", "algebra-rings"]
-prerequisites = ["algebraic-geometry-foundations/blueprint", "algebraic-geometry-foundations/spectrum-of-blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/blueprint"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

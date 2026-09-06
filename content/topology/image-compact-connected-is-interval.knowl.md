@@ -6,8 +6,8 @@ summary = "A continuous real-valued function on a compact connected space has an
 aliases = ["image-compact-connected-is-interval", "Image of a compact connected set is an interval"]
 domains = ["topology"]
 prerequisites = ["topology/compact-set", "topology/connected-set", "topology/continuous-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/image-compact-connected-is-interval.md"
 +++
 

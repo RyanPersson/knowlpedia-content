@@ -6,8 +6,8 @@ summary = "Every finite-dimensional complex representation of a finite group spl
 aliases = ["complete-reducibility-complex", "Complete reducibility over ℂ"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/completely-reducible-representation", "algebra-representation-theory/irreducible-representation", "algebra-representation-theory/subrepresentation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/complete-reducibility-complex.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A bounded linear operator commuting with the actions of a group on tw
 aliases = ["intertwiner", "equivariant bounded operator"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "functional-analysis/bounded-linear-operator", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

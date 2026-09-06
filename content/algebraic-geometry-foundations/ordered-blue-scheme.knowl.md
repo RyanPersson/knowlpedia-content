@@ -6,8 +6,8 @@ summary = "A scheme locally modeled on spectra of ordered blueprints."
 aliases = ["ordered blueprint scheme", "ordered blue geometry"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
 prerequisites = ["algebraic-geometry-foundations/ordered-blueprinted-space", "algebraic-geometry-foundations/ordered-blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

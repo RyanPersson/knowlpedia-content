@@ -6,6 +6,9 @@ summary = "Foundations of probability theory and information theory"
 aliases = ["probability", "Probability Theory"]
 domains = ["probability"]
 legacy_source_path = "probability/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## Foundations

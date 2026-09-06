@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The primitive ideal space is the set of primitive ideals equipped with the hull-kernel topology."
 aliases = ["Prim(A)", "C*-spectrum"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/primitive-ideal", "operator-algebras/hull-kernel-topology", "algebra-rings/two-sided-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/primitive-ideal", "operator-algebras/hull-kernel-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The graph of a continuous map from a compact space is compact in the 
 aliases = ["compactness-of-graphs-lemma", "Compactness of graphs lemma"]
 domains = ["topology"]
 prerequisites = ["topology/continuous-map", "topology/product-topology", "topology/compact-set", "topology/hausdorff-space", "topology/closed-set", "topology/compact-subset-of-hausdorff-is-closed", "topology/homeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/compactness-of-graphs-lemma.md"
 +++
 

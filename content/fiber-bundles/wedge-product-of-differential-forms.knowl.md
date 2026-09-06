@@ -6,8 +6,8 @@ summary = "An alternating product that combines a k-form and an ℓ-form into a 
 aliases = ["wedge-product-of-differential-forms", "Wedge product of differential forms"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/tangent-space-at-a-point"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/wedge-product-of-differential-forms.md"
 +++
 

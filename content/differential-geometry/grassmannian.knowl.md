@@ -6,8 +6,8 @@ summary = "The parameter space of all subspaces of a fixed dimension in a finite
 aliases = ["Grassmann manifold", "k-plane Grassmannian"]
 domains = ["differential-geometry", "algebraic-geometry-foundations"]
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

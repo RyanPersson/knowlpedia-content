@@ -6,8 +6,8 @@ summary = "The geometric construction that represents all classical observables 
 aliases = ["Kostant-Souriau prequantization", "geometric prequantization", "prequantum line bundle construction"]
 domains = ["mathematical-physics", "differential-geometry", "fiber-bundles"]
 prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/line-bundle", "fiber-bundles/connection-on-a-vector-bundle", "mathematical-physics/quantization-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

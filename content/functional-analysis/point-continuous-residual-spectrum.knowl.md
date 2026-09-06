@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The standard partition of an operator spectrum according to injectivity and density of the range."
 aliases = ["point-continuous-residual decomposition of the spectrum"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/densely-defined-operator", "linear-algebra/banach-space", "functional-analysis/closed-linear-operator", "functional-analysis/spectrum-closed-operator", "linear-algebra/eigenvalue"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["functional-analysis/densely-defined-operator", "linear-algebra/banach-space", "functional-analysis/closed-linear-operator", "functional-analysis/spectrum-closed-operator", "linear-algebra/eigenvalue", "shared-foundations/injective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

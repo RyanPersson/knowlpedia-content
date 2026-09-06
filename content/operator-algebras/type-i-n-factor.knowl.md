@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A type I factor isomorphic to the algebra of complex n by n matrices for a positive integer n."
 aliases = ["finite type I factor", "matrix factor", "Type I_n factor"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/type-i-factor", "operator-algebras/minimal-projection", "operator-algebras/finite-von-neumann-algebra", "linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/type-i-factor", "operator-algebras/minimal-projection", "operator-algebras/finite-von-neumann-algebra", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

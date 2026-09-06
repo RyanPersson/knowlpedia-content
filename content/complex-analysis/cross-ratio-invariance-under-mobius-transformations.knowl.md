@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Every Möbius transformation preserves the cross-ratio of an ordered quadruple."
 aliases = ["cross-ratio invariance"]
 domains = ["complex-analysis", "projective-geometry"]
-prerequisites = ["complex-analysis/mobius-transformation", "complex-analysis/riemann-sphere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/mobius-transformation", "complex-analysis/riemann-sphere", "complex-analysis/cross-ratio"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

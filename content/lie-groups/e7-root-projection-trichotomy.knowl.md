@@ -6,8 +6,8 @@ summary = "Projection of an E7 root to the generation plane is zero, a defining 
 aliases = ["root projection trichotomy in E7", "generation-plane projection lemma"]
 domains = ["lie-groups", "mathematical-physics"]
 prerequisites = ["lie-groups/root-system", "lie-groups/generation-sl3-in-e7", "linear-algebra/orthogonal-projection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

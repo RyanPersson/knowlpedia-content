@@ -6,8 +6,8 @@ summary = "The positive cone of a von Neumann algebra predual consists of its no
 aliases = ["normal positive functional cone"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/predual", "operator-algebras/positive-cone", "operator-algebras/normal-functional"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

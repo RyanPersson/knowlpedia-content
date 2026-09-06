@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The scheme built from homogeneous prime ideals of a graded ring."
 aliases = ["Proj", "Proj construction", "Proj of a graded ring"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebra-modules/graded-ring", "algebra-rings/prime-ideal", "algebraic-geometry-foundations/affine-scheme", "algebra-commutative/localization-ring", "algebraic-geometry-foundations/structure-sheaf", "algebraic-geometry-foundations/projective-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/graded-ring", "algebra-rings/prime-ideal", "algebraic-geometry-foundations/affine-scheme", "algebra-commutative/localization-ring", "algebraic-geometry-foundations/structure-sheaf"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S=\bigoplus_{d\ge 0}S_d\) be a commutative [[algebra-modules/graded-ring|graded ring]], and let

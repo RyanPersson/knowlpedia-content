@@ -6,8 +6,8 @@ summary = "The finite-to-one parameterization of irreducible admissible represen
 aliases = ["local Langlands correspondence", "local Langlands conjecture", "basic LLC"]
 domains = ["langlands", "harmonic-analysis"]
 prerequisites = ["algebra-fields-galois/local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "shared-foundations/equivalence-class", "harmonic-analysis/admissible-representation-p-adic-group", "lie-groups/admissible-representation-real-reductive-group", "langlands/local-l-parameter", "langlands/l-packet"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

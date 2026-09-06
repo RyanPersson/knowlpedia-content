@@ -6,8 +6,8 @@ summary = "Identity relating integrals with respect to a pushforward measure to 
 aliases = ["change-of-variables-pushforward", "Change of variables for pushforward measures"]
 domains = ["measure-theory"]
 prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-space", "measure-theory/measurable-function", "measure-theory/pushforward-measure", "measure-theory/lebesgue-integrable-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/change-of-variables-pushforward.md"
 +++
 

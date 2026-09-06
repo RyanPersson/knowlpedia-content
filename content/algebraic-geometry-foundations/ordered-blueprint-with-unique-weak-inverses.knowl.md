@@ -6,8 +6,8 @@ summary = "An ordered blueprint in which every element has exactly one additive 
 aliases = ["pasteurized ordered blueprint", "ordered blueprint with unique weak inverse"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
 prerequisites = ["algebraic-geometry-foundations/ordered-blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

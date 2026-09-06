@@ -6,8 +6,8 @@ summary = "A family of sets whose multiplicity function is uniformly bounded."
 aliases = ["bounded overlap family", "uniformly finite overlap"]
 domains = ["analysis", "measure-theory"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

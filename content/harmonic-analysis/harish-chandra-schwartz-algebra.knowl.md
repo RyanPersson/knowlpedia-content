@@ -6,8 +6,8 @@ summary = "The Harish-Chandra Schwartz space equipped with group convolution, in
 aliases = ["Harish-Chandra convolution algebra", "Schwartz algebra of a real reductive group"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis", "operator-algebras"]
 prerequisites = ["lie-groups/real-reductive-lie-group", "harmonic-analysis/harish-chandra-schwartz-space", "harmonic-analysis/convolution-on-locally-compact-group", "harmonic-analysis/convolution-involution", "harmonic-analysis/harish-chandra-xi-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

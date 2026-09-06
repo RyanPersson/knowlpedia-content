@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The category obtained by reversing the direction of every morphism."
 aliases = ["opposite-category", "Opposite Category"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/opposite-category.md"
 +++
 

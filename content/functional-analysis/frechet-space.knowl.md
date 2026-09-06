@@ -6,8 +6,8 @@ summary = "A Hausdorff locally convex space whose topology is induced by a compl
 aliases = ["F-space in the locally convex sense", "complete metrizable locally convex space"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/locally-convex-space", "convex-analysis/complete-metric-space-complete-subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

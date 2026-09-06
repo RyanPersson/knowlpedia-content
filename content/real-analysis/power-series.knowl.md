@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A real or complex series in powers of a variable about a chosen center."
 aliases = ["power-series", "Power series", "convergent power series"]
 domains = ["real-analysis", "complex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/power-series.md"
 section_mode = "progressive"
 +++

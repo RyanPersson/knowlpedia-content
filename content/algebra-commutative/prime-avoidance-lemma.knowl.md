@@ -6,8 +6,8 @@ summary = "If an ideal is contained in a finite union of prime ideals, then it i
 aliases = ["prime-avoidance-lemma", "Prime avoidance lemma"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-rings/commutative-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/prime-avoidance-lemma.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A point whose singleton is closed in the underlying topological space
 aliases = ["closed point", "closed scheme point"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/affine-scheme", "algebra-rings/prime-ideal", "algebra-rings/maximal-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A point \(x\) of a [[algebraic-geometry-foundations/scheme|scheme]] \(X\) is a **closed point** if its singleton is closed:

@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Every holomorphic automorphism of the Riemann sphere is a Möbius transformation."
 aliases = ["holomorphic automorphisms of CP1"]
 domains = ["complex-analysis", "differential-geometry"]
-prerequisites = ["complex-analysis/riemann-sphere", "complex-analysis/mobius-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/riemann-sphere", "complex-analysis/mobius-transformation", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The relativistic first-order field equation for a spinor of prescribe
 aliases = ["free Dirac equation", "relativistic spinor equation", "massive Dirac equation"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
 prerequisites = ["mathematical-physics/minkowski-spacetime", "mathematical-physics/minkowski-dirac-operator", "mathematical-physics/gamma-matrices"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

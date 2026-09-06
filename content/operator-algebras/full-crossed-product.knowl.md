@@ -6,8 +6,8 @@ summary = "The universal C*-completion of the convolution algebra of a C*-dynami
 aliases = ["universal crossed product", "maximal crossed product"]
 domains = ["operator-algebras", "dynamical-systems"]
 prerequisites = ["operator-algebras/cstar-dynamical-system", "operator-algebras/crossed-product-convolution-star-algebra", "operator-algebras/covariant-representation-cstar-dynamical-system", "operator-algebras/integrated-form-covariant-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The non-discrete part of the automorphic L2 spectrum, assembled from 
 aliases = ["continuous spectrum of automorphic forms", "continuous automorphic L2 spectrum", "Eisenstein spectrum"]
 domains = ["langlands", "harmonic-analysis"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "algebra-representation-theory/central-character", "linear-algebra/hilbert-space", "langlands/discrete-automorphic-spectrum", "harmonic-analysis/direct-integral-unitary-representations", "algebraic-geometry-foundations/levi-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

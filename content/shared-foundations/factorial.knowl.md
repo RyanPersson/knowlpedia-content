@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The product of all positive integers up to a given nonnegative integer."
 aliases = ["factorial", "factorials"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/natural-numbers", "shared-foundations/p-adic-valuation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/natural-numbers"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a [[shared-foundations/natural-numbers|natural number]] \(n\), the **factorial** of \(n\) is

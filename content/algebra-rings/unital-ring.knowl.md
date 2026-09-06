@@ -6,8 +6,8 @@ summary = "A ring whose multiplication has an identity element."
 aliases = ["unital-ring", "Unital ring"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/unital-ring.md"
 +++
 

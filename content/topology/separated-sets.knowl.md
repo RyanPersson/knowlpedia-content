@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Two sets in a topological space that do not meet each other's closure."
 aliases = ["separated-sets", "Separated sets"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/closure", "topology/connected-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "topology/closure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/separated-sets.md"
 +++
 

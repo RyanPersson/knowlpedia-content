@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A vector field on the total space of a fibered manifold that is tangent to every fiber."
 aliases = ["vertical-vector-field", "Vertical vector field"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/vector-field", "fiber-bundles/vertical-tangent-space", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vertical-subbundle", "fiber-bundles/diffeomorphism", "fiber-bundles/fiber-preserving-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/vector-field", "fiber-bundles/vertical-tangent-space", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vertical-subbundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/vertical-vector-field.md"
 +++
 

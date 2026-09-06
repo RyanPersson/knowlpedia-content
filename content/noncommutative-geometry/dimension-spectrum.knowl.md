@@ -6,8 +6,8 @@ summary = "The discrete set of possible poles of weighted spectral zeta function
 aliases = ["spectral dimension spectrum", "simple dimension spectrum"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/regular-spectral-triple", "noncommutative-geometry/spectral-zeta-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

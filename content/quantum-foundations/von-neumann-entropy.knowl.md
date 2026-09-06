@@ -6,8 +6,8 @@ summary = "Entropy of a quantum state defined as minus the trace of rho log rho.
 aliases = ["von-neumann-entropy", "Von Neumann entropy"]
 domains = ["quantum-foundations"]
 prerequisites = ["quantum-foundations/density-operator", "quantum-foundations/spectrum-self-adjoint-finite"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "quantum-foundations/von-neumann-entropy.md"
 +++
 

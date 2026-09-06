@@ -6,8 +6,8 @@ summary = "The requirement that a Hochschild cycle be represented by the grading
 aliases = ["orientability cycle", "Hochschild orientation", "chirality Hochschild cycle"]
 domains = ["noncommutative-geometry", "algebra-homological"]
 prerequisites = ["noncommutative-geometry/real-spectral-triple", "noncommutative-geometry/hochschild-cycle", "noncommutative-geometry/even-spectral-triple"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

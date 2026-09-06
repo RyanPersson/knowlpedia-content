@@ -6,8 +6,8 @@ summary = "Trace inequality bounding Tr exp(A+B) by Tr(exp(A)exp(B)) for Hermiti
 aliases = ["golden-thompson-inequality", "Golden-Thompson inequality"]
 domains = ["quantum-foundations"]
 prerequisites = ["quantum-foundations/self-adjoint-operator-observable", "quantum-foundations/trace-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "quantum-foundations/golden-thompson-inequality.md"
 +++
 

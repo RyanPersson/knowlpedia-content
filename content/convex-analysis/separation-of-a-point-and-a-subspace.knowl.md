@@ -6,8 +6,8 @@ summary = "If a point has positive distance to a subspace, a bounded functional 
 aliases = ["separation-of-a-point-and-a-subspace", "Separation of a Point and a Subspace"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/linear-subspace", "convex-analysis/bounded-linear-functional-norm-of-a-functional"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/separation-of-a-point-and-a-subspace.md"
 +++
 

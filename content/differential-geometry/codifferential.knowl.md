@@ -6,8 +6,8 @@ summary = "The degree-lowering formal adjoint of the exterior derivative on an o
 aliases = ["formal adjoint of the exterior derivative", "delta operator on forms"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/formal-adjoint-differential-operator", "fiber-bundles/exterior-derivative", "differential-geometry/hodge-star-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "For a finite Galois extension, the self-tensor product splits into one copy for each automorphism."
 aliases = ["Galois tensor-product identity", "Galois tensor identity", "K tensor K decomposition"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebra-fields-galois/galois-extension", "algebraic-geometry-foundations/torsor-condition", "algebraic-geometry-foundations/galois-extension-as-etale-torsor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-fields-galois/galois-extension", "algebra-modules/tensor-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Base-changing \(\operatorname{Spec}K\to\operatorname{Spec}F\) along itself should reveal one sheet for every \(F\)-automorphism of \(K\). On coordinate rings, that geometric splitting is exactly the following identity.

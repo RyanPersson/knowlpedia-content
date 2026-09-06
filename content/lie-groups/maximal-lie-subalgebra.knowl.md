@@ -6,8 +6,8 @@ summary = "A proper Lie subalgebra not contained in any other proper Lie subalge
 aliases = ["maximal Lie subalgebra", "maximal proper Lie subalgebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

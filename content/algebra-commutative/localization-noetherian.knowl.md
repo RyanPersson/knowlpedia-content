@@ -6,8 +6,8 @@ summary = "If a ring is Noetherian, then any localization at a multiplicative se
 aliases = ["localization-noetherian", "Localization preserves Noetherian rings"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/multiplicative-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-noetherian.md"
 +++
 

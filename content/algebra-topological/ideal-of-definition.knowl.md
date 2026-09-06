@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An ideal whose powers form a neighborhood basis of zero in a linearly topologized ring."
 aliases = ["adic ideal of definition", "defining ideal of an adic ring"]
 domains = ["algebra-topological", "algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/formal-scheme", "algebra-topological/adic-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

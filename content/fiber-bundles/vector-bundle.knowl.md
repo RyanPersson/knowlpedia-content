@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A smooth fiber bundle whose fibers are vector spaces and whose local trivializations are fiberwise linear."
 aliases = ["vector-bundle", "Vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/local-trivialization"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/local-trivialization", "linear-algebra/vector-space", "linear-algebra/linear-map", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 2
 legacy_source_path = "fiber-bundles/vector-bundle.md"
 +++
 

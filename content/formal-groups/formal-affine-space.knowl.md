@@ -6,8 +6,8 @@ summary = "The formal n-disc with its origin, coordinates, and n-dimensional tan
 aliases = ["formal n-disc", "formal disk", "formal disc", "formal affine n-space"]
 domains = ["formal-groups", "algebraic-geometry-foundations"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

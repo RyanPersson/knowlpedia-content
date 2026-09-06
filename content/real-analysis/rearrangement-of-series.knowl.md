@@ -6,8 +6,8 @@ summary = "A series obtained by permuting the terms of another series."
 aliases = ["rearrangement-of-series", "Rearrangement of a series"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/absolutely-convergent-series", "real-analysis/rearrangement-theorem-absolute", "real-analysis/conditionally-convergent-series", "real-analysis/riemann-rearrangement-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/rearrangement-of-series.md"
 +++
 

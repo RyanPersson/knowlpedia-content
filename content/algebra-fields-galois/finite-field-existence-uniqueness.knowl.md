@@ -6,8 +6,8 @@ summary = "For each prime power q=p^n there is a unique (up to isomorphism) fiel
 aliases = ["finite-field-existence-uniqueness", "Existence and uniqueness of finite fields"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/finite-field", "algebra-rings/characteristic"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/finite-field-existence-uniqueness.md"
 +++
 

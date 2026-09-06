@@ -6,8 +6,8 @@ summary = "Over an algebraically closed field, every proper ideal in a polynomia
 aliases = ["nullstellensatz-weak", "Hilbert's Nullstellensatz (weak)"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/field", "algebra-rings/ideal", "algebra-rings/polynomial-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/nullstellensatz-weak.md"
 +++
 

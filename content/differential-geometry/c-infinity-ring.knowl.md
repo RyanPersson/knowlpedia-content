@@ -6,8 +6,8 @@ summary = "An algebraic object carrying an operation for every smooth map betwee
 aliases = ["C∞-ring", "C-infty ring"]
 domains = ["differential-geometry", "algebra-rings"]
 prerequisites = ["linear-algebra/euclidean-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

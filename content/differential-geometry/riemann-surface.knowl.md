@@ -6,8 +6,8 @@ summary = "A connected complex manifold of complex dimension one."
 aliases = ["complex curve", "one-dimensional complex manifold"]
 domains = ["differential-geometry", "complex-analysis"]
 prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map", "fiber-bundles/smooth-manifold", "differential-geometry/complex-coordinate-chart"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

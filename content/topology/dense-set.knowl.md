@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A subset whose closure is the whole space."
 aliases = ["dense-set", "Dense set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/closure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "topology/closure", "shared-foundations/subset"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/dense-set.md"
 +++
 

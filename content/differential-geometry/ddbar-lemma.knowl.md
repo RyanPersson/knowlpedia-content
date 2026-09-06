@@ -6,8 +6,8 @@ summary = "On a compact Kähler manifold, a pure-type closed form that is exact 
 aliases = ["ddbar lemma", "d d-c lemma"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/complex-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

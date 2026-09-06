@@ -6,8 +6,8 @@ summary = "The double-commutator axiom requiring Dirac commutators to be linear 
 aliases = ["order-one condition", "first order axiom"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/order-zero-condition", "functional-analysis/bounded-commutator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

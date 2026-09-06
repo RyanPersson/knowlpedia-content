@@ -6,8 +6,8 @@ summary = "The dual Haar measure is the uniquely normalized Haar measure on the 
 aliases = ["Plancherel-normalized Haar measure", "dual measure on the Pontryagin dual"]
 domains = ["harmonic-analysis", "measure-theory", "functional-analysis"]
 prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/haar-measure", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/fourier-transform-lca", "functional-analysis/unitary-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

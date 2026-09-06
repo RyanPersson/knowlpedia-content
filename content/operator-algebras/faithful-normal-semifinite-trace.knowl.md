@@ -6,8 +6,8 @@ summary = "A tracial weight on a von Neumann algebra that is faithful, normal, a
 aliases = ["f.n.s. trace", "semifinite faithful normal trace"]
 domains = ["operator-algebras", "noncommutative-geometry"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/tracial-weight", "operator-algebras/normal-semifinite-faithful-weight"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

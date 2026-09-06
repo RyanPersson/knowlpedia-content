@@ -6,8 +6,8 @@ summary = "A set of points that approximates a set in a metric space within a fi
 aliases = ["epsilon-net"]
 domains = ["topology"]
 prerequisites = ["topology/metric-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/epsilon-net.md"
 +++
 

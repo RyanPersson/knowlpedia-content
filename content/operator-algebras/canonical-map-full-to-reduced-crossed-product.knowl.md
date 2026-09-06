@@ -6,8 +6,8 @@ summary = "The surjective star-homomorphism obtained by completing the identity 
 aliases = ["regular quotient of a crossed product", "canonical regular quotient"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-dynamical-system", "operator-algebras/star-homomorphism", "real-analysis/bounded-above", "operator-algebras/regular-covariant-representation", "algebra-representation-theory/regular-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

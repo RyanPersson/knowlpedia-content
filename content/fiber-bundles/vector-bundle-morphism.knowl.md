@@ -6,8 +6,8 @@ summary = "A smooth map between total spaces of vector bundles that covers a bas
 aliases = ["fiberwise linear bundle map"]
 domains = ["fiber-bundles", "category-theory"]
 prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/smooth-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 legacy_source_path = "fiber-bundles/vector-bundle-morphism.md"
 +++

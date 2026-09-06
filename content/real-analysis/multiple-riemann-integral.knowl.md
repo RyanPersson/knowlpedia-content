@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Riemann integration of a bounded function over a rectangular region in Euclidean space."
 aliases = ["multiple-riemann-integral", "Multiple Riemann integral"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/riemann-integrable-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/multiple-riemann-integral.md"
 +++
 

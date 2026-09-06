@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The map sending a Lie-algebra element X to the time-one value of its one-parameter subgroup."
 aliases = ["exponential-map-lie-group", "Exponential map of a Lie group"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/one-parameter-subgroup", "lie-groups/exponential-one-parameter-subgroup-lemma"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/one-parameter-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/exponential-map-lie-group.md"
 +++
 

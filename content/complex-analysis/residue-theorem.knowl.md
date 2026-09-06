@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "A contour integral of a meromorphic function is the winding-number-weighted sum of its residues."
 aliases = ["Cauchy residue theorem"]
 domains = ["complex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/meromorphic-function", "complex-analysis/winding-number", "complex-analysis/residue", "complex-analysis/complex-contour-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

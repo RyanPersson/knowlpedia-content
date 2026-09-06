@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A weighted average of finitely many points with nonnegative weights summing to one"
 aliases = ["convex-combination", "Convex combination"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-hull"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/convex-combination.md"
 +++
 

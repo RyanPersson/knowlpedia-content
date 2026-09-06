@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "In a metric space, a set is closed iff it contains limits of all convergent sequences from it."
 aliases = ["sequential-characterization-closed", "Sequential characterization of closed sets"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "topology/closed-set", "topology/convergent-sequence", "topology/sequential-characterization-closure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/metric-space", "topology/closed-set", "topology/convergent-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/sequential-characterization-closed.md"
 +++
 

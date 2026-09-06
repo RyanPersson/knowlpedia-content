@@ -6,8 +6,8 @@ summary = "A smooth embedding between manifolds with boundary that is exactly bo
 aliases = ["boundary-compatible embedding"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/manifold-with-boundary", "fiber-bundles/smooth-embedding"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

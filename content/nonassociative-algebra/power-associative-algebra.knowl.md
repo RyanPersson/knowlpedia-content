@@ -6,8 +6,8 @@ summary = "A possibly nonassociative algebra in which each subalgebra generated 
 aliases = ["power associativity", "power-associative algebra"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/nonassociative-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

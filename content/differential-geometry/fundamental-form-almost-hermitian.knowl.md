@@ -6,8 +6,8 @@ summary = "The nondegenerate real 2-form obtained by pairing an almost-complex s
 aliases = ["associated 2-form", "fundamental form"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/almost-hermitian-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/differential-k-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

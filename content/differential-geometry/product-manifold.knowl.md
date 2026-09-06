@@ -6,8 +6,8 @@ summary = "The Cartesian product of smooth manifolds with the smooth structure g
 aliases = ["smooth product manifold", "product of smooth manifolds"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "shared-foundations/cartesian-product", "topology/product-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

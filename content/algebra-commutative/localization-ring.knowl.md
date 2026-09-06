@@ -6,8 +6,8 @@ summary = "The universal ring in which every element of a multiplicative subset 
 aliases = ["localization-ring", "Localization of a ring"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-ring.md"
 +++
 

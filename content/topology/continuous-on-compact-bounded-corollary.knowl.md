@@ -6,8 +6,8 @@ summary = "Continuous functions on compact domains have finite upper and lower b
 aliases = ["continuous-on-compact-bounded-corollary", "Continuous function on a compact set is bounded"]
 domains = ["topology"]
 prerequisites = ["topology/compact-set", "topology/metric-space", "real-analysis/continuity-on-a-set", "topology/bounded-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/continuous-on-compact-bounded-corollary.md"
 +++
 

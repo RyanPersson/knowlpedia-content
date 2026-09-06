@@ -6,8 +6,8 @@ summary = "The closed operator determined by the vectors on which an unbounded o
 aliases = ["unbounded adjoint", "Hilbert-space operator adjoint"]
 domains = ["functional-analysis", "operator-theory"]
 prerequisites = ["functional-analysis/densely-defined-operator", "linear-algebra/hilbert-space", "functional-analysis/riesz-representation-hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

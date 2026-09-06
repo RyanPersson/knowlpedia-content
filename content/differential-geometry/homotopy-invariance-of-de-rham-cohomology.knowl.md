@@ -6,8 +6,8 @@ summary = "Smoothly homotopic maps induce the same pullback homomorphism on de R
 aliases = ["smooth-homotopy invariance of de Rham cohomology"]
 domains = ["differential-geometry", "topology"]
 prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/smooth-homotopy", "fiber-bundles/de-rham-cohomology-group", "differential-geometry/de-rham-homotopy-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "A series whose partial sums do not converge to a finite limit."
 aliases = ["divergent-series", "Divergent series"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/series", "real-analysis/partial-sums", "real-analysis/convergent-series", "real-analysis/terms-go-to-zero"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/divergent-series.md"
 +++
 

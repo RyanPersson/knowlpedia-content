@@ -6,8 +6,8 @@ summary = "A change of variables formula for one-dimensional Riemann integrals."
 aliases = ["substitution-rule", "Substitution rule"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/change-of-variables-formula", "real-analysis/chain-rule", "real-analysis/fundamental-theorem-of-calculus-ii"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/substitution-rule.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "An element that is less than or equal to every element of a subset in
 aliases = ["lower-bound", "Lower bound"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/partial-order"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/lower-bound.md"
 +++
 

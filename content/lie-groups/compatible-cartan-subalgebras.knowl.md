@@ -6,8 +6,8 @@ summary = "Cartan subalgebras chosen along an inclusion so that the smaller one 
 aliases = ["compatible Cartans", "compatible choice of Cartan subalgebras"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/cartan-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

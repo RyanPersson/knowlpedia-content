@@ -6,8 +6,8 @@ summary = "The site of schemes étale over a fixed scheme, covered by jointly su
 aliases = ["small-etale-site", "Small etale site", "Small étale site"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/site", "algebraic-geometry-foundations/etale-morphism", "algebraic-geometry-foundations/scheme-over-a-base"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[algebraic-geometry-foundations/scheme|scheme]]. The **small étale site** \(X_{\acute et}\) is the [[algebraic-geometry-foundations/site|site]] defined as follows:

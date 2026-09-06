@@ -6,8 +6,8 @@ summary = "The comparison relation saying that one projection is equivalent to a
 aliases = ["subordinate equivalence", "p preccurlyeq q"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/murray-von-neumann-equivalence", "functional-analysis/partial-isometry"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

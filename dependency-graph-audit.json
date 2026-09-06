@@ -1,0 +1,1907 @@
+{
+  "baseline_ref": "HEAD before graph iteration (d35aed96)",
+  "edge_direction": "id depends on prerequisite (opposite the visualization arrows)",
+  "original_nodes": 3501,
+  "original_edges": 10443,
+  "original_cyclic_components": 153,
+  "final_edges": 10064,
+  "final_cyclic_components": 0,
+  "restored_during_integration": 88,
+  "removed_edges": [
+    {
+      "id": "algebra-category-theory/category-axioms",
+      "prerequisite": "algebra-category-theory/category",
+      "reason": "Category axioms state the structure conditions and therefore should not require the completed category as a prerequisite."
+    },
+    {
+      "id": "algebra-category-theory/composition-category",
+      "prerequisite": "algebra-category-theory/category",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "algebra-category-theory/composition-category",
+      "prerequisite": "algebra-category-theory/identity-morphism",
+      "reason": "Composition is specified independently of the identity-law article."
+    },
+    {
+      "id": "algebra-category-theory/composition-category",
+      "prerequisite": "algebra-category-theory/morphism",
+      "reason": "Composition is a primitive operation on morphisms; its definition does not require the morphism article as a downstream category node."
+    },
+    {
+      "id": "algebra-category-theory/distinguished-triangle",
+      "prerequisite": "algebra-category-theory/pretriangulated-category",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "algebra-category-theory/identity-morphism",
+      "prerequisite": "algebra-category-theory/category",
+      "reason": "Identity morphisms are part of the structure used to define a category."
+    },
+    {
+      "id": "algebra-category-theory/initial-object",
+      "prerequisite": "algebra-category-theory/zero-object",
+      "reason": "Initiality is defined directly by universal arrows; zero object is a later special case."
+    },
+    {
+      "id": "algebra-category-theory/isomorphism-category",
+      "prerequisite": "algebra-category-theory/automorphism-category",
+      "reason": "Automorphism category is downstream from or an equivalent reformulation of isomorphism category; isomorphism category can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "algebra-category-theory/morphism",
+      "prerequisite": "algebra-category-theory/category",
+      "reason": "Morphisms are primitive data of a category, so the completed category article is downstream."
+    },
+    {
+      "id": "algebra-category-theory/object",
+      "prerequisite": "algebra-category-theory/category",
+      "reason": "Objects are primitive data of a category, so the completed category article is downstream."
+    },
+    {
+      "id": "algebra-category-theory/object",
+      "prerequisite": "algebra-category-theory/morphism",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "algebra-category-theory/preadditive-category",
+      "prerequisite": "algebra-category-theory/distinguished-triangle",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "algebra-category-theory/pretriangulated-category",
+      "prerequisite": "algebra-category-theory/octahedral-axiom",
+      "reason": "The octahedral axiom is an additional triangulated axiom, not part of the pretriangulated definition."
+    },
+    {
+      "id": "algebra-category-theory/subcategory",
+      "prerequisite": "algebra-category-theory/full-subcategory",
+      "reason": "Removed because the definition of algebra-category-theory/subcategory does not require algebra-category-theory/full-subcategory as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-category-theory/triangle",
+      "prerequisite": "algebra-category-theory/distinguished-triangle",
+      "reason": "A triangle is the ambient diagram; distinguishedness is an additional chosen property."
+    },
+    {
+      "id": "algebra-commutative/integral-element",
+      "prerequisite": "algebra-commutative/integral-closure",
+      "reason": "The closure is formed from integral elements; it is downstream of the element definition."
+    },
+    {
+      "id": "algebra-commutative/integral-element",
+      "prerequisite": "algebra-commutative/integral-extension",
+      "reason": "Integrality of individual elements is the primitive notion used to define an integral extension."
+    },
+    {
+      "id": "algebra-commutative/integral-element",
+      "prerequisite": "algebra-commutative/integrally-closed-domain",
+      "reason": "Integral elements define integral closure and integrally closedness is a later property."
+    },
+    {
+      "id": "algebra-commutative/local-ring",
+      "prerequisite": "algebra-commutative/maximal-ideal-local-ring",
+      "reason": "Removed because the definition of algebra-commutative/local-ring does not require algebra-commutative/maximal-ideal-local-ring as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-commutative/local-ring",
+      "prerequisite": "algebra-commutative/residue-field",
+      "reason": "Removed because the definition of algebra-commutative/local-ring does not require algebra-commutative/residue-field as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-commutative/localization-at-prime",
+      "prerequisite": "algebra-commutative/residue-field",
+      "reason": "Removed because the definition of algebra-commutative/localization-at-prime does not require algebra-commutative/residue-field as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-commutative/localization-preserves-primality",
+      "prerequisite": "algebra-commutative/localization-prime-correspondence",
+      "reason": "Removed because the definition of algebra-commutative/localization-preserves-primality does not require algebra-commutative/localization-prime-correspondence as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-commutative/multiplicative-set",
+      "prerequisite": "algebra-commutative/localization-at-prime",
+      "reason": "Removed because the definition of algebra-commutative/multiplicative-set does not require algebra-commutative/localization-at-prime as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-commutative/multiplicative-set",
+      "prerequisite": "algebra-commutative/localization-ring",
+      "reason": "Removed because the definition of algebra-commutative/multiplicative-set does not require algebra-commutative/localization-ring as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-commutative/prime-spectrum",
+      "prerequisite": "algebra-commutative/localization-at-prime",
+      "reason": "Removed because the definition of algebra-commutative/prime-spectrum does not require algebra-commutative/localization-at-prime as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-commutative/prime-spectrum",
+      "prerequisite": "algebra-commutative/residue-field",
+      "reason": "Removed because the definition of algebra-commutative/prime-spectrum does not require algebra-commutative/residue-field as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-commutative/prime-spectrum",
+      "prerequisite": "algebra-commutative/zariski-topology",
+      "reason": "Removed because the definition of algebra-commutative/prime-spectrum does not require algebra-commutative/zariski-topology as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-commutative/simple-artinian-matrix-ring",
+      "prerequisite": "algebra-commutative/semisimple-artinian-product",
+      "reason": "The matrix-ring classification is the specialized component used to describe semisimple products, not a prerequisite for its own definition."
+    },
+    {
+      "id": "algebra-fields-galois/decomposition-group",
+      "prerequisite": "algebra-fields-galois/inertia-subgroup",
+      "reason": "The decomposition group is defined from the place action; inertia is the later kernel/subgroup inside it."
+    },
+    {
+      "id": "algebra-fields-galois/galois-group",
+      "prerequisite": "algebra-fields-galois/field-automorphism",
+      "reason": "A Galois group is built from field automorphisms, so the group is downstream."
+    },
+    {
+      "id": "algebra-fields-galois/local-field",
+      "prerequisite": "algebra-fields-galois/archimedean-local-field",
+      "reason": "Archimedean local field is downstream from or an equivalent reformulation of local field; local field can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "algebra-fields-galois/place-of-global-field",
+      "prerequisite": "algebra-fields-galois/completion-at-place",
+      "reason": "Removed because the definition of algebra-fields-galois/place-of-global-field does not require algebra-fields-galois/completion-at-place as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-fields-galois/separable-element",
+      "prerequisite": "algebra-fields-galois/separable-distinct-roots",
+      "reason": "algebra-fields-galois/separable-distinct-roots is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-fields-galois/separable-element; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-fields-galois/transcendental-element",
+      "prerequisite": "algebra-fields-galois/algebraic-element",
+      "reason": "Algebraic elements are defined independently of transcendence."
+    },
+    {
+      "id": "algebra-groups/coset",
+      "prerequisite": "algebra-groups/index-of-subgroup",
+      "reason": "algebra-groups/index-of-subgroup is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/coset; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/coset",
+      "prerequisite": "algebra-groups/normal-subgroup",
+      "reason": "algebra-groups/normal-subgroup is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/coset; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/coset",
+      "prerequisite": "algebra-groups/quotient-group",
+      "reason": "algebra-groups/quotient-group is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/coset; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/group",
+      "prerequisite": "algebra-groups/group-homomorphism",
+      "reason": "algebra-groups/group-homomorphism is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/group; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/group",
+      "prerequisite": "algebra-groups/subgroup",
+      "reason": "algebra-groups/subgroup is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/group; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/group-homomorphism",
+      "prerequisite": "algebra-groups/first-isomorphism-theorem-groups",
+      "reason": "algebra-groups/first-isomorphism-theorem-groups is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/group-homomorphism; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/group-homomorphism",
+      "prerequisite": "algebra-groups/image-group",
+      "reason": "algebra-groups/image-group is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/group-homomorphism; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/group-homomorphism",
+      "prerequisite": "algebra-groups/kernel-group",
+      "reason": "algebra-groups/kernel-group is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/group-homomorphism; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/index-of-subgroup",
+      "prerequisite": "algebra-groups/index-2-normal",
+      "reason": "algebra-groups/index-2-normal is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/index-of-subgroup; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/index-of-subgroup",
+      "prerequisite": "algebra-groups/lagranges-theorem",
+      "reason": "algebra-groups/lagranges-theorem is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/index-of-subgroup; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/kernel-of-action",
+      "prerequisite": "algebra-groups/faithful-action",
+      "reason": "Faithful action is downstream from or an equivalent reformulation of kernel of action; kernel of action can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "algebra-groups/monoid",
+      "prerequisite": "algebra-groups/group",
+      "reason": "algebra-groups/group is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/monoid; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/normal-subgroup",
+      "prerequisite": "algebra-groups/quotient-group",
+      "reason": "algebra-groups/quotient-group is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/normal-subgroup; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/quasigroup",
+      "prerequisite": "algebra-groups/loop",
+      "reason": "Removed because the definition of algebra-groups/quasigroup does not require algebra-groups/loop as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-groups/semigroup",
+      "prerequisite": "algebra-groups/group",
+      "reason": "algebra-groups/group is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/semigroup; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-groups/semigroup",
+      "prerequisite": "algebra-groups/monoid",
+      "reason": "algebra-groups/monoid is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-groups/semigroup; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-homological/chain-complex",
+      "prerequisite": "algebra-homological/homology-module",
+      "reason": "A chain complex is defined from modules and differentials; homology is computed from it afterward."
+    },
+    {
+      "id": "algebra-homological/cochain-complex",
+      "prerequisite": "algebra-homological/cohomology-module",
+      "reason": "A cochain complex is defined by differentials with square zero. Its cohomology is a construction from that complex, not an input to it."
+    },
+    {
+      "id": "algebra-homological/injective-resolution",
+      "prerequisite": "algebra-homological/injective-resolutions-exist",
+      "reason": "algebra-homological/injective-resolutions-exist is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-homological/injective-resolution; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-homological/mapping-cone",
+      "prerequisite": "algebra-category-theory/distinguished-triangle",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "algebra-homological/mapping-cone",
+      "prerequisite": "algebra-category-theory/octahedral-axiom",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "algebra-hyperstructures/band",
+      "prerequisite": "algebra-hyperstructures/null-set-of-a-band",
+      "reason": "algebra-hyperstructures/null-set-of-a-band is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-hyperstructures/band; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-modules/composition-series-module",
+      "prerequisite": "algebra-modules/length-module",
+      "reason": "Removed because the definition of algebra-modules/composition-series-module does not require algebra-modules/length-module as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-modules/direct-sum-modules",
+      "prerequisite": "algebra-modules/direct-sum-universal-property",
+      "reason": "Direct sum universal property is downstream from or an equivalent reformulation of direct sum modules; direct sum modules can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "algebra-modules/exact-sequence-modules",
+      "prerequisite": "algebra-modules/exactness-via-kernels-images",
+      "reason": "The checklist theorem is a reformulation derived from the exact-sequence definition; using it as an input reverses the foundational direction and closes a cycle."
+    },
+    {
+      "id": "algebra-modules/filtered-ring",
+      "prerequisite": "algebra-modules/associated-graded-ring",
+      "reason": "A filtration is the input from which the associated graded ring is constructed."
+    },
+    {
+      "id": "algebra-modules/flat-module",
+      "prerequisite": "algebra-modules/projective-implies-flat",
+      "reason": "Removed because the definition of algebra-modules/flat-module does not require algebra-modules/projective-implies-flat as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-modules/free-module",
+      "prerequisite": "algebra-modules/basis-module",
+      "reason": "Basis module is downstream from or an equivalent reformulation of free module; free module can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "algebra-modules/free-module",
+      "prerequisite": "algebra-modules/free-module-universal-property",
+      "reason": "The free module can be defined directly by its universal property; the universal-property theorem is not a prerequisite for that construction."
+    },
+    {
+      "id": "algebra-modules/graded-ring",
+      "prerequisite": "algebra-modules/associated-graded-ring",
+      "reason": "A graded ring is the output structure of the associated graded construction, not its prerequisite."
+    },
+    {
+      "id": "algebra-modules/graded-ring",
+      "prerequisite": "algebra-modules/graded-module",
+      "reason": "A graded module uses an existing graded ring action; it is not needed to define a graded ring."
+    },
+    {
+      "id": "algebra-modules/kernel-module",
+      "prerequisite": "algebra-modules/exact-sequence-modules",
+      "reason": "Exact sequence modules is downstream from or an equivalent reformulation of kernel module; kernel module can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "algebra-modules/kernel-module",
+      "prerequisite": "algebra-modules/kernels-are-submodules",
+      "reason": "Kernels are submodules is downstream from or an equivalent reformulation of kernel module; kernel module can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "algebra-modules/length-module",
+      "prerequisite": "algebra-modules/artinian-noetherian-finite-length",
+      "reason": "Removed because the definition of algebra-modules/length-module does not require algebra-modules/artinian-noetherian-finite-length as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-modules/module-axioms",
+      "prerequisite": "algebra-modules/module",
+      "reason": "Removed because the definition of algebra-modules/module-axioms does not require algebra-modules/module as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-modules/quotient-module",
+      "prerequisite": "algebra-modules/quotient-module-universal-property",
+      "reason": "The universal property characterizes the quotient after its construction; it is not needed to define the quotient module itself."
+    },
+    {
+      "id": "algebra-modules/simple-module",
+      "prerequisite": "algebra-modules/composition-series-module",
+      "reason": "Removed because the definition of algebra-modules/simple-module does not require algebra-modules/composition-series-module as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-modules/smith-normal-form-invariants",
+      "prerequisite": "algebra-modules/smith-normal-form-theorem",
+      "reason": "The invariant factors are outputs of Smith normal form, so their definition should precede the theorem."
+    },
+    {
+      "id": "algebra-modules/split-exact-sequence",
+      "prerequisite": "algebra-modules/splitting-lemma",
+      "reason": "A split exact sequence is the object characterized by the splitting lemma, so the lemma is downstream."
+    },
+    {
+      "id": "algebra-modules/tensor-product",
+      "prerequisite": "algebra-modules/tensor-product-universal-property",
+      "reason": "algebra-modules/tensor-product-universal-property is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-modules/tensor-product; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-modules/vector-space-axioms",
+      "prerequisite": "algebra-modules/module-axioms",
+      "reason": "Removed because the definition of algebra-modules/vector-space-axioms does not require algebra-modules/module-axioms as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-rings/pid",
+      "prerequisite": "algebra-rings/pid-implies-ufd",
+      "reason": "Pid implies ufd is downstream from or an equivalent reformulation of pid; pid can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "algebra-rings/quotient-ring",
+      "prerequisite": "algebra-rings/quotient-ring-universal-property",
+      "reason": "Removed because the definition of algebra-rings/quotient-ring does not require algebra-rings/quotient-ring-universal-property as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebra-rings/ring",
+      "prerequisite": "algebra-rings/commutative-ring",
+      "reason": "Commutative rings are a specialization of rings, so the general ring definition should not require the specialization."
+    },
+    {
+      "id": "algebra-rings/ring",
+      "prerequisite": "algebra-rings/unital-ring",
+      "reason": "Unital rings are a specialization of rings, so the general ring definition should not require the specialization."
+    },
+    {
+      "id": "algebra-topological/ideal-of-definition",
+      "prerequisite": "algebra-topological/adic-ring",
+      "reason": "algebra-topological/adic-ring is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-topological/ideal-of-definition; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebra-topological/ideal-of-definition",
+      "prerequisite": "algebraic-geometry-foundations/formal-scheme",
+      "reason": "algebraic-geometry-foundations/formal-scheme is a downstream consequence, theorem, example, or equivalent characterization referenced by algebra-topological/ideal-of-definition; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebraic-geometry-foundations/algebraic-stack",
+      "prerequisite": "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve",
+      "reason": "The moduli stack is a later example of an algebraic stack; it cannot be a prerequisite for the general algebraic-stack concept."
+    },
+    {
+      "id": "algebraic-geometry-foundations/constant-finite-group-scheme",
+      "prerequisite": "algebraic-geometry-foundations/galois-extension-as-etale-torsor",
+      "reason": "Removed because the definition of algebraic-geometry-foundations/constant-finite-group-scheme does not require algebraic-geometry-foundations/galois-extension-as-etale-torsor as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebraic-geometry-foundations/covering-family",
+      "prerequisite": "algebraic-geometry-foundations/etale-topology",
+      "reason": "Etale topology is downstream from or an equivalent reformulation of covering family; covering family can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "algebraic-geometry-foundations/covering-family",
+      "prerequisite": "algebraic-geometry-foundations/site",
+      "reason": "A covering family is part of the Grothendieck topology data derived from a site, so it is not needed to introduce the site."
+    },
+    {
+      "id": "algebraic-geometry-foundations/galois-extension-as-etale-torsor",
+      "prerequisite": "algebraic-geometry-foundations/galois-tensor-product-identity",
+      "reason": "Removed because the definition of algebraic-geometry-foundations/galois-extension-as-etale-torsor does not require algebraic-geometry-foundations/galois-tensor-product-identity as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebraic-geometry-foundations/k-ideal-of-a-blueprint",
+      "prerequisite": "algebraic-geometry-foundations/spectrum-of-blueprint",
+      "reason": "algebraic-geometry-foundations/spectrum-of-blueprint is a downstream consequence, theorem, example, or equivalent characterization referenced by algebraic-geometry-foundations/k-ideal-of-a-blueprint; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-blueprinted-space",
+      "prerequisite": "algebraic-geometry-foundations/blue-scheme",
+      "reason": "algebraic-geometry-foundations/blue-scheme is a downstream consequence, theorem, example, or equivalent characterization referenced by algebraic-geometry-foundations/locally-blueprinted-space; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebraic-geometry-foundations/morphism-of-locally-ringed-spaces",
+      "prerequisite": "algebraic-geometry-foundations/morphism-of-schemes",
+      "reason": "Morphism of schemes is downstream from or an equivalent reformulation of morphism of locally ringed spaces; morphism of locally ringed spaces can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "algebraic-geometry-foundations/ordered-blueprinted-space",
+      "prerequisite": "algebraic-geometry-foundations/ordered-blue-scheme",
+      "reason": "Removed because the definition of algebraic-geometry-foundations/ordered-blueprinted-space does not require algebraic-geometry-foundations/ordered-blue-scheme as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "algebraic-geometry-foundations/pointed-algebraic-curve",
+      "prerequisite": "algebraic-geometry-foundations/punctured-algebraic-curve",
+      "reason": "A pointed curve supplies the marked point from which a punctured curve is formed."
+    },
+    {
+      "id": "algebraic-geometry-foundations/proj",
+      "prerequisite": "algebraic-geometry-foundations/projective-space",
+      "reason": "Proj construction gives projective space, so projective space is downstream."
+    },
+    {
+      "id": "algebraic-geometry-foundations/sheaf-of-groups",
+      "prerequisite": "algebraic-geometry-foundations/g-torsor-on-a-site",
+      "reason": "A sheaf of groups is defined independently; a torsor is additional structure on such a sheaf."
+    },
+    {
+      "id": "algebraic-geometry-foundations/smooth-projective-curve",
+      "prerequisite": "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve",
+      "reason": "Moduli stack of g bundles on a curve is downstream from or an equivalent reformulation of smooth projective curve; smooth projective curve can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "algebraic-geometry-foundations/stalk",
+      "prerequisite": "algebraic-geometry-foundations/affine-scheme",
+      "reason": "algebraic-geometry-foundations/affine-scheme is a downstream consequence, theorem, example, or equivalent characterization referenced by algebraic-geometry-foundations/stalk; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebraic-geometry-foundations/stalk",
+      "prerequisite": "algebraic-geometry-foundations/structure-sheaf",
+      "reason": "algebraic-geometry-foundations/structure-sheaf is a downstream consequence, theorem, example, or equivalent characterization referenced by algebraic-geometry-foundations/stalk; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "algebraic-geometry-foundations/structure-sheaf",
+      "prerequisite": "algebraic-geometry-foundations/scheme",
+      "reason": "algebraic-geometry-foundations/scheme is a downstream consequence, theorem, example, or equivalent characterization referenced by algebraic-geometry-foundations/structure-sheaf; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "asymptotics/entropy-multinomial-coefficients",
+      "prerequisite": "asymptotics/method-of-types",
+      "reason": "asymptotics/method-of-types is a downstream consequence, theorem, example, or equivalent characterization referenced by asymptotics/entropy-multinomial-coefficients; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "convex-analysis/biconjugate",
+      "prerequisite": "convex-analysis/fenchel-moreau-theorem",
+      "reason": "The biconjugate operation is defined before the Fenchel–Moreau theorem that characterizes it."
+    },
+    {
+      "id": "convex-analysis/closed-subset",
+      "prerequisite": "convex-analysis/basic-properties-of-closed-sets",
+      "reason": "Removed because the definition of convex-analysis/closed-subset does not require convex-analysis/basic-properties-of-closed-sets as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "convex-analysis/codimension",
+      "prerequisite": "convex-analysis/hyperplane",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "convex-analysis/convex-conjugate-fenchel",
+      "prerequisite": "convex-analysis/legendre-fenchel-transform",
+      "reason": "The Fenchel conjugate is the foundational definition; the Legendre–Fenchel transform article is a later equivalent presentation."
+    },
+    {
+      "id": "convex-analysis/hyperplane",
+      "prerequisite": "convex-analysis/hyperplanes-are-level-sets-of-nonzero-linear-functionals",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "convex-analysis/line-connecting-two-points",
+      "prerequisite": "convex-analysis/affine-set",
+      "reason": "Affine set is downstream from or an equivalent reformulation of line connecting two points; line connecting two points can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "convex-analysis/linear-combination",
+      "prerequisite": "convex-analysis/basis-hamel-basis-and-dimension",
+      "reason": "Linear combinations are defined without choosing a basis; bases are constructed afterward."
+    },
+    {
+      "id": "convex-analysis/linear-operator-linear-transformation",
+      "prerequisite": "convex-analysis/image-and-kernel-linear-isomorphism",
+      "reason": "The image/kernel isomorphism is a result about a linear operator, not needed to define the operator."
+    },
+    {
+      "id": "convex-analysis/linearly-independent-and-linearly-dependent-sets",
+      "prerequisite": "convex-analysis/basis-hamel-basis-and-dimension",
+      "reason": "Linear independence is defined via linear combinations and does not require a basis."
+    },
+    {
+      "id": "convex-analysis/marginal-optimal-value-function",
+      "prerequisite": "convex-analysis/convexity-of-the-marginal-optimal-value-function",
+      "reason": "Removed because the definition of convex-analysis/marginal-optimal-value-function does not require convex-analysis/convexity-of-the-marginal-optimal-value-function as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "convex-analysis/metric-metric-space",
+      "prerequisite": "convex-analysis/convergence-of-a-sequence",
+      "reason": "Convergence is defined using an already given metric space."
+    },
+    {
+      "id": "convex-analysis/metric-metric-space",
+      "prerequisite": "convex-analysis/open-and-closed-balls-in-a-metric-space",
+      "reason": "Balls are constructed from a metric, so they are downstream of the metric definition."
+    },
+    {
+      "id": "convex-analysis/minkowski-function-gauge-of-a-set",
+      "prerequisite": "convex-analysis/properties-of-the-minkowski-functional-of-a-convex-set",
+      "reason": "The properties theorem is a consequence of the Minkowski gauge construction."
+    },
+    {
+      "id": "convex-analysis/open-subset",
+      "prerequisite": "convex-analysis/basic-properties-of-open-sets",
+      "reason": "Removed because the definition of convex-analysis/open-subset does not require convex-analysis/basic-properties-of-open-sets as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "convex-analysis/open-subset",
+      "prerequisite": "convex-analysis/closed-subset",
+      "reason": "Removed because the definition of convex-analysis/open-subset does not require convex-analysis/closed-subset as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "convex-analysis/parallel-subspace-to-an-affine-set-is",
+      "prerequisite": "convex-analysis/hyperplane",
+      "reason": "The parallel-subspace result derives a hyperplane in its conclusion and does not require the hyperplane article."
+    },
+    {
+      "id": "convex-analysis/seminorm",
+      "prerequisite": "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case",
+      "reason": "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case is a downstream consequence, theorem, example, or equivalent characterization referenced by convex-analysis/seminorm; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "convex-analysis/seminorm",
+      "prerequisite": "convex-analysis/hahn-banach-theorem-in-complex-vector-spaces",
+      "reason": "convex-analysis/hahn-banach-theorem-in-complex-vector-spaces is a downstream consequence, theorem, example, or equivalent characterization referenced by convex-analysis/seminorm; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions",
+      "prerequisite": "convex-analysis/hahn-banach-theorem-in-real-vector-spaces",
+      "reason": "Sublinear functions provide the domination data for Hahn–Banach; the theorem does not define sublinearity."
+    },
+    {
+      "id": "convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions",
+      "prerequisite": "convex-analysis/minkowski-function-gauge-of-a-set",
+      "reason": "The gauge is defined directly from the set; its later properties are not prerequisites."
+    },
+    {
+      "id": "convex-analysis/subgradient",
+      "prerequisite": "convex-analysis/subdifferential",
+      "reason": "Subdifferential is downstream from or an equivalent reformulation of subgradient; subgradient can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "convex-analysis/supporting-hyperplane-convex-function",
+      "prerequisite": "convex-analysis/subdifferential",
+      "reason": "Subdifferential is downstream from or an equivalent reformulation of supporting hyperplane convex function; supporting hyperplane convex function can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "convex-analysis/supporting-hyperplane-convex-function",
+      "prerequisite": "convex-analysis/subgradient",
+      "reason": "Subgradient is downstream from or an equivalent reformulation of supporting hyperplane convex function; supporting hyperplane convex function can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/almost-complex-structure",
+      "prerequisite": "differential-geometry/almost-complex-map",
+      "reason": "Removed because the definition of differential-geometry/almost-complex-structure does not require differential-geometry/almost-complex-map as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "differential-geometry/almost-complex-structure",
+      "prerequisite": "differential-geometry/integrable-almost-complex-structure",
+      "reason": "Removed because the definition of differential-geometry/almost-complex-structure does not require differential-geometry/integrable-almost-complex-structure as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "differential-geometry/almost-symplectic-manifold",
+      "prerequisite": "differential-geometry/symplectic-manifold",
+      "reason": "A symplectic manifold is a special almost-symplectic manifold with closed form; the general almost-symplectic definition comes first."
+    },
+    {
+      "id": "differential-geometry/cauchy-hypersurface",
+      "prerequisite": "differential-geometry/global-hyperbolicity-and-cauchy-hypersurfaces",
+      "reason": "Global hyperbolicity and cauchy hypersurfaces is downstream from or an equivalent reformulation of cauchy hypersurface; cauchy hypersurface can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/cauchy-hypersurface",
+      "prerequisite": "mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators",
+      "reason": "Cauchy problem for normally hyperbolic operators is downstream from or an equivalent reformulation of cauchy hypersurface; cauchy hypersurface can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/causal-diamond",
+      "prerequisite": "differential-geometry/globally-hyperbolic-spacetime",
+      "reason": "Globally hyperbolic spacetime is downstream from or an equivalent reformulation of causal diamond; causal diamond can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/chirality-operator",
+      "prerequisite": "differential-geometry/weyl-spinor",
+      "reason": "The chirality operator is defined first; Weyl spinors are its eigenspace-based consequence."
+    },
+    {
+      "id": "differential-geometry/chronological-and-causal-future",
+      "prerequisite": "differential-geometry/causal-diamond",
+      "reason": "Causal diamond is downstream from or an equivalent reformulation of chronological and causal future; chronological and causal future can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/coisotropic-subspace",
+      "prerequisite": "differential-geometry/coisotropic-reduction",
+      "reason": "differential-geometry/coisotropic-reduction is a downstream consequence, theorem, example, or equivalent characterization referenced by differential-geometry/coisotropic-subspace; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "differential-geometry/complex-manifold",
+      "prerequisite": "differential-geometry/holomorphic-map",
+      "reason": "Removed because the definition of differential-geometry/complex-manifold does not require differential-geometry/holomorphic-map as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "differential-geometry/corner-stratification",
+      "prerequisite": "differential-geometry/depth-of-a-point-in-a-manifold-with-corners",
+      "reason": "differential-geometry/depth-of-a-point-in-a-manifold-with-corners is a downstream consequence, theorem, example, or equivalent characterization referenced by differential-geometry/corner-stratification; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "differential-geometry/embedded-submanifold",
+      "prerequisite": "differential-geometry/submanifold-chart",
+      "reason": "The coordinate-plane condition is stated explicitly using ambient smooth charts. The specialized name submanifold chart is introduced for a chart of an already defined embedded submanifold."
+    },
+    {
+      "id": "differential-geometry/globally-hyperbolic-spacetime",
+      "prerequisite": "differential-geometry/global-hyperbolicity-and-cauchy-hypersurfaces",
+      "reason": "Global hyperbolicity and cauchy hypersurfaces is downstream from or an equivalent reformulation of globally hyperbolic spacetime; globally hyperbolic spacetime can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/globally-hyperbolic-spacetime",
+      "prerequisite": "differential-geometry/smooth-splitting-of-globally-hyperbolic-spacetimes",
+      "reason": "Smooth splitting of globally hyperbolic spacetimes is downstream from or an equivalent reformulation of globally hyperbolic spacetime; globally hyperbolic spacetime can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/globally-hyperbolic-spacetime",
+      "prerequisite": "mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators",
+      "reason": "Cauchy problem for normally hyperbolic operators is downstream from or an equivalent reformulation of globally hyperbolic spacetime; globally hyperbolic spacetime can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/hamiltonian-function",
+      "prerequisite": "differential-geometry/hamiltonian-system",
+      "reason": "differential-geometry/hamiltonian-system is a downstream consequence, theorem, example, or equivalent characterization referenced by differential-geometry/hamiltonian-function; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "differential-geometry/hamiltonian-function",
+      "prerequisite": "differential-geometry/hamiltonian-vector-field",
+      "reason": "differential-geometry/hamiltonian-vector-field is a downstream consequence, theorem, example, or equivalent characterization referenced by differential-geometry/hamiltonian-function; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "differential-geometry/hamiltonian-isotopy",
+      "prerequisite": "differential-geometry/hamiltonian-diffeomorphism",
+      "reason": "Removed because the definition of differential-geometry/hamiltonian-isotopy does not require differential-geometry/hamiltonian-diffeomorphism as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "differential-geometry/holomorphic-map",
+      "prerequisite": "differential-geometry/biholomorphism",
+      "reason": "Removed because the definition of differential-geometry/holomorphic-map does not require differential-geometry/biholomorphism as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "differential-geometry/maslov-cycle",
+      "prerequisite": "differential-geometry/maslov-index",
+      "reason": "The Maslov cycle is geometric input; the Maslov index is defined afterward using it."
+    },
+    {
+      "id": "differential-geometry/nijenhuis-tensor",
+      "prerequisite": "differential-geometry/newlander-nirenberg-theorem",
+      "reason": "Removed because the definition of differential-geometry/nijenhuis-tensor does not require differential-geometry/newlander-nirenberg-theorem as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "differential-geometry/orientability-of-a-smooth-manifold",
+      "prerequisite": "differential-geometry/orientation-of-a-smooth-manifold",
+      "reason": "An orientation is a choice made on an orientable manifold, so orientability precedes orientation."
+    },
+    {
+      "id": "differential-geometry/strong-causality",
+      "prerequisite": "differential-geometry/causal-diamond",
+      "reason": "Causal diamond is downstream from or an equivalent reformulation of strong causality; strong causality can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/strong-causality",
+      "prerequisite": "differential-geometry/globally-hyperbolic-spacetime",
+      "reason": "Globally hyperbolic spacetime is downstream from or an equivalent reformulation of strong causality; strong causality can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/symplectomorphism-group",
+      "prerequisite": "differential-geometry/flux-homomorphism",
+      "reason": "Flux homomorphism is downstream from or an equivalent reformulation of symplectomorphism group; symplectomorphism group can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/time-orientation",
+      "prerequisite": "differential-geometry/causal-curve",
+      "reason": "Causal curve is downstream from or an equivalent reformulation of time orientation; time orientation can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "differential-geometry/weyl-spinor",
+      "prerequisite": "differential-geometry/majorana-weyl-spinor",
+      "reason": "Majorana–Weyl spinors are the later simultaneous specialization of Weyl and Majorana spinors."
+    },
+    {
+      "id": "fiber-bundles/associated-bundle",
+      "prerequisite": "fiber-bundles/associated-vector-bundle",
+      "reason": "fiber-bundles/associated-vector-bundle is a downstream consequence, theorem, example, or equivalent characterization referenced by fiber-bundles/associated-bundle; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "fiber-bundles/associated-bundle",
+      "prerequisite": "fiber-bundles/bundle-of-orbits",
+      "reason": "fiber-bundles/bundle-of-orbits is a downstream consequence, theorem, example, or equivalent characterization referenced by fiber-bundles/associated-bundle; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "fiber-bundles/bundle-metric",
+      "prerequisite": "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle",
+      "reason": "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle is a downstream consequence, theorem, example, or equivalent characterization referenced by fiber-bundles/bundle-metric; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "fiber-bundles/closed-differential-form",
+      "prerequisite": "fiber-bundles/de-rham-cohomology-group",
+      "reason": "This is a property or cohomological construction of forms, downstream from the underlying differential form data."
+    },
+    {
+      "id": "fiber-bundles/closed-differential-form",
+      "prerequisite": "fiber-bundles/exact-differential-form",
+      "reason": "This is a property or cohomological construction of forms, downstream from the underlying differential form data."
+    },
+    {
+      "id": "fiber-bundles/connection-1-form-on-a-principal-bundle",
+      "prerequisite": "fiber-bundles/curvature-2-form-of-a-principal-connection",
+      "reason": "This is a later curvature/Chern–Weil consequence, so it cannot be prerequisite input to the foundational object here."
+    },
+    {
+      "id": "fiber-bundles/connection-1-form-on-a-principal-bundle",
+      "prerequisite": "fiber-bundles/local-connection-1-form",
+      "reason": "fiber-bundles/local-connection-1-form is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/connection-1-form-on-a-principal-bundle."
+    },
+    {
+      "id": "fiber-bundles/connection-on-a-vector-bundle",
+      "prerequisite": "fiber-bundles/covariant-derivative-of-a-section",
+      "reason": "fiber-bundles/covariant-derivative-of-a-section is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/connection-on-a-vector-bundle."
+    },
+    {
+      "id": "fiber-bundles/coordinate-transition-map",
+      "prerequisite": "fiber-bundles/diffeomorphism",
+      "reason": "fiber-bundles/diffeomorphism is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/coordinate-transition-map."
+    },
+    {
+      "id": "fiber-bundles/coordinate-transition-map",
+      "prerequisite": "fiber-bundles/smooth-compatibility-of-charts-and-atlases",
+      "reason": "This is an equivalent characterization or resulting structure; the definition is anchored on the chosen atlas/chart data to avoid a circular prerequisite."
+    },
+    {
+      "id": "fiber-bundles/curvature",
+      "prerequisite": "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection",
+      "reason": "This is a later curvature/Chern–Weil consequence, so it cannot be prerequisite input to the foundational object here."
+    },
+    {
+      "id": "fiber-bundles/curvature-2-form-in-a-frame",
+      "prerequisite": "fiber-bundles/curvature-of-a-vector-bundle-connection",
+      "reason": "This is a later curvature/Chern–Weil consequence, so it cannot be prerequisite input to the foundational object here."
+    },
+    {
+      "id": "fiber-bundles/curvature-2-form-in-a-frame",
+      "prerequisite": "fiber-bundles/local-connection-1-form",
+      "reason": "fiber-bundles/local-connection-1-form is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/curvature-2-form-in-a-frame."
+    },
+    {
+      "id": "fiber-bundles/curvature-2-form-of-a-principal-connection",
+      "prerequisite": "fiber-bundles/curvature",
+      "reason": "This is a later curvature/Chern–Weil consequence, so it cannot be prerequisite input to the foundational object here."
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "prerequisite": "fiber-bundles/closed-differential-form",
+      "reason": "This is a property or cohomological construction of forms, downstream from the underlying differential form data."
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "prerequisite": "fiber-bundles/cotangent-bundle",
+      "reason": "fiber-bundles/cotangent-bundle is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/differential-k-form."
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "prerequisite": "fiber-bundles/de-rham-cohomology-group",
+      "reason": "This is a property or cohomological construction of forms, downstream from the underlying differential form data."
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "prerequisite": "fiber-bundles/exact-differential-form",
+      "reason": "This is a property or cohomological construction of forms, downstream from the underlying differential form data."
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "prerequisite": "fiber-bundles/pullback-of-differential-forms",
+      "reason": "Pullback data is constructed from the underlying map and covectors/forms; it is not needed to define this underlying differential object."
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "prerequisite": "fiber-bundles/wedge-product-of-differential-forms",
+      "reason": "fiber-bundles/wedge-product-of-differential-forms is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/differential-k-form."
+    },
+    {
+      "id": "fiber-bundles/differential-pushforward-of-a-smooth-map",
+      "prerequisite": "fiber-bundles/fiber-of-a-map",
+      "reason": "fiber-bundles/fiber-of-a-map is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/differential-pushforward-of-a-smooth-map."
+    },
+    {
+      "id": "fiber-bundles/differential-pushforward-of-a-smooth-map",
+      "prerequisite": "fiber-bundles/regular-value",
+      "reason": "fiber-bundles/regular-value is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/differential-pushforward-of-a-smooth-map."
+    },
+    {
+      "id": "fiber-bundles/differential-pushforward-of-a-smooth-map",
+      "prerequisite": "fiber-bundles/smooth-immersion",
+      "reason": "fiber-bundles/smooth-immersion is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/differential-pushforward-of-a-smooth-map."
+    },
+    {
+      "id": "fiber-bundles/differential-pushforward-of-a-smooth-map",
+      "prerequisite": "fiber-bundles/smooth-submersion",
+      "reason": "fiber-bundles/smooth-submersion is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/differential-pushforward-of-a-smooth-map."
+    },
+    {
+      "id": "fiber-bundles/differential-pushforward-of-a-smooth-map",
+      "prerequisite": "fiber-bundles/tangent-bundle",
+      "reason": "fiber-bundles/tangent-bundle is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/differential-pushforward-of-a-smooth-map."
+    },
+    {
+      "id": "fiber-bundles/exact-differential-form",
+      "prerequisite": "fiber-bundles/de-rham-cohomology-group",
+      "reason": "This is a property or cohomological construction of forms, downstream from the underlying differential form data."
+    },
+    {
+      "id": "fiber-bundles/fibered-manifold",
+      "prerequisite": "fiber-bundles/vertical-tangent-space",
+      "reason": "fiber-bundles/vertical-tangent-space is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/fibered-manifold."
+    },
+    {
+      "id": "fiber-bundles/flat-principal-connection",
+      "prerequisite": "fiber-bundles/holonomy-representation",
+      "reason": "Holonomy representation is defined from flatness; it is not foundational input to a flat connection."
+    },
+    {
+      "id": "fiber-bundles/hermitian-metric",
+      "prerequisite": "fiber-bundles/unitary-frame-bundle-reduction",
+      "reason": "Unitary frame bundle reduction is downstream from or an equivalent reformulation of hermitian metric; hermitian metric can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "fiber-bundles/horizontal-differential-form-on-a-principal-bundle",
+      "prerequisite": "fiber-bundles/basic-differential-form-on-a-principal-bundle",
+      "reason": "fiber-bundles/basic-differential-form-on-a-principal-bundle is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/horizontal-differential-form-on-a-principal-bundle."
+    },
+    {
+      "id": "fiber-bundles/horizontal-distribution",
+      "prerequisite": "fiber-bundles/integrable-horizontal-distribution",
+      "reason": "fiber-bundles/integrable-horizontal-distribution is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/horizontal-distribution."
+    },
+    {
+      "id": "fiber-bundles/horizontal-subbundle",
+      "prerequisite": "fiber-bundles/ehresmann-connection",
+      "reason": "A horizontal subbundle is defined directly as a complement to the vertical bundle. Calling that choice an Ehresmann connection is the equivalent connection formulation, which retains its dependency on the subbundle."
+    },
+    {
+      "id": "fiber-bundles/horizontal-subbundle",
+      "prerequisite": "fiber-bundles/horizontal-lift-of-a-tangent-vector",
+      "reason": "fiber-bundles/horizontal-lift-of-a-tangent-vector is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/horizontal-subbundle."
+    },
+    {
+      "id": "fiber-bundles/interior-product",
+      "prerequisite": "fiber-bundles/lie-derivative",
+      "reason": "fiber-bundles/lie-derivative is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/interior-product."
+    },
+    {
+      "id": "fiber-bundles/leibniz-rule-for-a-connection",
+      "prerequisite": "fiber-bundles/connection-on-a-vector-bundle",
+      "reason": "fiber-bundles/connection-on-a-vector-bundle is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/leibniz-rule-for-a-connection."
+    },
+    {
+      "id": "fiber-bundles/lie-group",
+      "prerequisite": "fiber-bundles/left-translation-l-g",
+      "reason": "fiber-bundles/left-translation-l-g is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/lie-group."
+    },
+    {
+      "id": "fiber-bundles/lie-group",
+      "prerequisite": "lie-groups/exponential-map-lie-group",
+      "reason": "lie-groups/exponential-map-lie-group is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/lie-group."
+    },
+    {
+      "id": "fiber-bundles/lie-group",
+      "prerequisite": "lie-groups/lie-algebra-of-a-lie-group",
+      "reason": "A Lie group is a smooth group. Its tangent Lie algebra is derived at the identity after the group has been defined."
+    },
+    {
+      "id": "fiber-bundles/lie-group",
+      "prerequisite": "lie-groups/lie-group-homomorphism",
+      "reason": "lie-groups/lie-group-homomorphism is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/lie-group."
+    },
+    {
+      "id": "fiber-bundles/local-connection-1-form",
+      "prerequisite": "fiber-bundles/lemma-local-curvature-transformation-law-fg-g-1fg",
+      "reason": "A local connection form is the input A to the curvature transformation theorem; that theorem is a property of its derived curvature."
+    },
+    {
+      "id": "fiber-bundles/local-frame-of-a-vector-bundle",
+      "prerequisite": "fiber-bundles/transition-matrix-of-a-local-frame",
+      "reason": "Removed because the definition of fiber-bundles/local-frame-of-a-vector-bundle does not require fiber-bundles/transition-matrix-of-a-local-frame as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "fiber-bundles/local-trivialization",
+      "prerequisite": "fiber-bundles/bundle-atlas",
+      "reason": "fiber-bundles/bundle-atlas is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/local-trivialization."
+    },
+    {
+      "id": "fiber-bundles/local-trivialization",
+      "prerequisite": "fiber-bundles/cocycle-condition-for-transition-functions",
+      "reason": "fiber-bundles/cocycle-condition-for-transition-functions is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/local-trivialization."
+    },
+    {
+      "id": "fiber-bundles/orbit-of-a-group-action",
+      "prerequisite": "fiber-bundles/orbit-map",
+      "reason": "Removed because the definition of fiber-bundles/orbit-of-a-group-action does not require fiber-bundles/orbit-map as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "fiber-bundles/orbit-of-a-group-action",
+      "prerequisite": "fiber-bundles/quotient-space-of-an-action",
+      "reason": "Removed because the definition of fiber-bundles/orbit-of-a-group-action does not require fiber-bundles/quotient-space-of-an-action as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "fiber-bundles/orientation-of-a-real-vector-bundle",
+      "prerequisite": "fiber-bundles/oriented-frame",
+      "reason": "An oriented frame is a frame satisfying an orientation condition and is downstream of bundle orientation."
+    },
+    {
+      "id": "fiber-bundles/parallel-transport",
+      "prerequisite": "fiber-bundles/ehresmann-connection",
+      "reason": "The horizontal subbundle is the chosen Ehresmann connection; the reverse lift dependency was removed to keep the definition oriented."
+    },
+    {
+      "id": "fiber-bundles/parallel-transport",
+      "prerequisite": "fiber-bundles/horizontal-lift-of-a-curve",
+      "reason": "fiber-bundles/horizontal-lift-of-a-curve is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/parallel-transport."
+    },
+    {
+      "id": "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover",
+      "prerequisite": "fiber-bundles/paracompact-manifold",
+      "reason": "The partition-of-unity theorem is the result obtained under paracompactness, not a prerequisite for the manifold notion."
+    },
+    {
+      "id": "fiber-bundles/principal-bundle-automorphism",
+      "prerequisite": "fiber-bundles/gauge-transformation",
+      "reason": "Gauge transformations/automorphisms are later symmetry constructions of a principal bundle, not defining input for the bundle or its gauge group."
+    },
+    {
+      "id": "fiber-bundles/principal-g-bundle",
+      "prerequisite": "fiber-bundles/curvature",
+      "reason": "This is a later curvature/Chern–Weil consequence, so it cannot be prerequisite input to the foundational object here."
+    },
+    {
+      "id": "fiber-bundles/principal-g-bundle",
+      "prerequisite": "fiber-bundles/holonomy-group",
+      "reason": "fiber-bundles/holonomy-group is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/principal-g-bundle."
+    },
+    {
+      "id": "fiber-bundles/principal-g-bundle",
+      "prerequisite": "fiber-bundles/parallel-transport",
+      "reason": "fiber-bundles/parallel-transport is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/principal-g-bundle."
+    },
+    {
+      "id": "fiber-bundles/principal-g-bundle",
+      "prerequisite": "fiber-bundles/principal-connection",
+      "reason": "fiber-bundles/principal-connection is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/principal-g-bundle."
+    },
+    {
+      "id": "fiber-bundles/principal-h-subbundle",
+      "prerequisite": "fiber-bundles/reduction-of-structure-group",
+      "reason": "A principal H-subbundle realizes a reduction of structure group; the reduction concept is downstream."
+    },
+    {
+      "id": "fiber-bundles/pullback-of-covectors",
+      "prerequisite": "fiber-bundles/cotangent-bundle",
+      "reason": "fiber-bundles/cotangent-bundle is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/pullback-of-covectors."
+    },
+    {
+      "id": "fiber-bundles/pullback-of-covectors",
+      "prerequisite": "fiber-bundles/pullback-of-differential-forms",
+      "reason": "Pullback data is constructed from the underlying map and covectors/forms; it is not needed to define this underlying differential object."
+    },
+    {
+      "id": "fiber-bundles/rank-of-a-vector-bundle",
+      "prerequisite": "fiber-bundles/complex-vector-bundle",
+      "reason": "fiber-bundles/complex-vector-bundle is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/rank-of-a-vector-bundle."
+    },
+    {
+      "id": "fiber-bundles/reproduction-property-x",
+      "prerequisite": "fiber-bundles/connection-1-form-on-a-principal-bundle",
+      "reason": "fiber-bundles/connection-1-form-on-a-principal-bundle is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/reproduction-property-x."
+    },
+    {
+      "id": "fiber-bundles/right-translation-r-g",
+      "prerequisite": "fiber-bundles/left-translation-l-g",
+      "reason": "fiber-bundles/left-translation-l-g is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/right-translation-r-g."
+    },
+    {
+      "id": "fiber-bundles/right-translation-r-g",
+      "prerequisite": "fiber-bundles/lie-group",
+      "reason": "fiber-bundles/lie-group is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/right-translation-r-g."
+    },
+    {
+      "id": "fiber-bundles/right-translation-r-g",
+      "prerequisite": "lie-groups/right-invariant-vector-field",
+      "reason": "lie-groups/right-invariant-vector-field is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/right-translation-r-g."
+    },
+    {
+      "id": "fiber-bundles/smooth-atlas",
+      "prerequisite": "fiber-bundles/maximal-smooth-atlas",
+      "reason": "An arbitrary smooth atlas is a compatible chart cover. Passing to its maximal enlargement is a later construction."
+    },
+    {
+      "id": "fiber-bundles/smooth-atlas",
+      "prerequisite": "fiber-bundles/smooth-compatibility-of-charts-and-atlases",
+      "reason": "This is an equivalent characterization or resulting structure; the definition is anchored on the chosen atlas/chart data to avoid a circular prerequisite."
+    },
+    {
+      "id": "fiber-bundles/smooth-atlas",
+      "prerequisite": "fiber-bundles/smooth-structure",
+      "reason": "This is an equivalent characterization or resulting structure; the definition is anchored on the chosen atlas/chart data to avoid a circular prerequisite."
+    },
+    {
+      "id": "fiber-bundles/smooth-chart-coordinate-chart",
+      "prerequisite": "fiber-bundles/smooth-atlas",
+      "reason": "fiber-bundles/smooth-atlas is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/smooth-chart-coordinate-chart."
+    },
+    {
+      "id": "fiber-bundles/smooth-chart-coordinate-chart",
+      "prerequisite": "fiber-bundles/smooth-manifold",
+      "reason": "fiber-bundles/smooth-manifold is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/smooth-chart-coordinate-chart."
+    },
+    {
+      "id": "fiber-bundles/smooth-embedding",
+      "prerequisite": "differential-geometry/embedded-submanifold",
+      "reason": "differential-geometry/embedded-submanifold is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/smooth-embedding."
+    },
+    {
+      "id": "fiber-bundles/smooth-fiber-bundle",
+      "prerequisite": "fiber-bundles/bundle-atlas",
+      "reason": "fiber-bundles/bundle-atlas is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/smooth-fiber-bundle."
+    },
+    {
+      "id": "fiber-bundles/smooth-fiber-bundle",
+      "prerequisite": "fiber-bundles/local-trivialization",
+      "reason": "fiber-bundles/local-trivialization is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/smooth-fiber-bundle."
+    },
+    {
+      "id": "fiber-bundles/smooth-fiber-bundle",
+      "prerequisite": "fiber-bundles/transition-function",
+      "reason": "fiber-bundles/transition-function is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/smooth-fiber-bundle."
+    },
+    {
+      "id": "fiber-bundles/smooth-map",
+      "prerequisite": "fiber-bundles/differential-pushforward-of-a-smooth-map",
+      "reason": "fiber-bundles/differential-pushforward-of-a-smooth-map is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/smooth-map."
+    },
+    {
+      "id": "fiber-bundles/smooth-map",
+      "prerequisite": "fiber-bundles/pullback-of-covectors",
+      "reason": "Pullback data is constructed from the underlying map and covectors/forms; it is not needed to define this underlying differential object."
+    },
+    {
+      "id": "fiber-bundles/smooth-map",
+      "prerequisite": "fiber-bundles/pullback-of-differential-forms",
+      "reason": "Pullback data is constructed from the underlying map and covectors/forms; it is not needed to define this underlying differential object."
+    },
+    {
+      "id": "fiber-bundles/smooth-structure",
+      "prerequisite": "fiber-bundles/smooth-manifold",
+      "reason": "fiber-bundles/smooth-manifold is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/smooth-structure."
+    },
+    {
+      "id": "fiber-bundles/stiefel-whitney-class",
+      "prerequisite": "fiber-bundles/whitney-sum-formula",
+      "reason": "fiber-bundles/whitney-sum-formula is a downstream consequence, theorem, example, or equivalent characterization referenced by fiber-bundles/stiefel-whitney-class; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "fiber-bundles/transition-function",
+      "prerequisite": "fiber-bundles/local-trivialization",
+      "reason": "fiber-bundles/local-trivialization is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/transition-function."
+    },
+    {
+      "id": "fiber-bundles/typical-fiber",
+      "prerequisite": "fiber-bundles/local-trivialization",
+      "reason": "fiber-bundles/local-trivialization is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/typical-fiber."
+    },
+    {
+      "id": "fiber-bundles/typical-fiber",
+      "prerequisite": "fiber-bundles/smooth-fiber-bundle",
+      "reason": "fiber-bundles/smooth-fiber-bundle is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/typical-fiber."
+    },
+    {
+      "id": "fiber-bundles/universal-principal-bundle-egbg",
+      "prerequisite": "fiber-bundles/classifying-map-of-a-principal-bundle",
+      "reason": "Classifying map of a principal bundle is downstream from or an equivalent reformulation of universal principal bundle egbg; universal principal bundle egbg can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "fiber-bundles/vertical-subbundle",
+      "prerequisite": "fiber-bundles/vertical-vector-field",
+      "reason": "fiber-bundles/vertical-vector-field is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/vertical-subbundle."
+    },
+    {
+      "id": "fiber-bundles/vertical-tangent-space",
+      "prerequisite": "fiber-bundles/vertical-subbundle",
+      "reason": "fiber-bundles/vertical-subbundle is explanatory or downstream material rather than a defining prerequisite for fiber-bundles/vertical-tangent-space."
+    },
+    {
+      "id": "functional-analysis/banach-algebra-spectrum",
+      "prerequisite": "functional-analysis/banach-algebra-resolvent",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "harmonic-analysis/test-function-space-local-group",
+      "prerequisite": "harmonic-analysis/distribution-local-group",
+      "reason": "Distribution local group is downstream from or an equivalent reformulation of test function space local group; test function space local group can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "harmonic-analysis/unitary-dual",
+      "prerequisite": "harmonic-analysis/fell-topology",
+      "reason": "Removed because the definition of harmonic-analysis/unitary-dual does not require harmonic-analysis/fell-topology as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "langlands-letter/knowls/simply-connected-semisimple-group",
+      "prerequisite": "langlands-letter/knowls/root-vs-weight-lattice-isogeny",
+      "reason": "Simply connectedness is defined from the group and its covering/center data; the root–weight isogeny comparison is a later consequence."
+    },
+    {
+      "id": "langlands/global-nilpotent-cone",
+      "prerequisite": "langlands/ind-coherent-sheaves-with-nilpotent-singular-support",
+      "reason": "Nilpotent singular support is a later refinement of IndCoh."
+    },
+    {
+      "id": "langlands/ind-coherent-sheaf",
+      "prerequisite": "langlands/singular-support-of-coherent-sheaf",
+      "reason": "IndCoh is the ambient category to which singular-support conditions are attached."
+    },
+    {
+      "id": "langlands/ind-coherent-sheaves-with-nilpotent-singular-support",
+      "prerequisite": "langlands/geometric-langlands-correspondence",
+      "reason": "The geometric Langlands correspondence is a downstream theorem relating automorphic and spectral categories."
+    },
+    {
+      "id": "langlands/l-packet",
+      "prerequisite": "langlands/local-langlands-correspondence",
+      "reason": "langlands/local-langlands-correspondence is a downstream consequence, theorem, example, or equivalent characterization referenced by langlands/l-packet; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "langlands/local-gamma-factor",
+      "prerequisite": "langlands/local-epsilon-factor",
+      "reason": "Local epsilon factor is downstream from or an equivalent reformulation of local gamma factor; local gamma factor can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "langlands/loop-group",
+      "prerequisite": "langlands/positive-loop-group",
+      "reason": "Removed because the definition of langlands/loop-group does not require langlands/positive-loop-group as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "langlands/weil-deligne-group",
+      "prerequisite": "langlands/weil-deligne-representation",
+      "reason": "The Weil–Deligne group is the structural source on which its representations are defined."
+    },
+    {
+      "id": "large-deviations/good-rate-function",
+      "prerequisite": "large-deviations/exponential-tightness",
+      "reason": "Exponential tightness is downstream from or an equivalent reformulation of good rate function; good rate function can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "large-deviations/sanovs-theorem",
+      "prerequisite": "large-deviations/contraction-principle-ldp",
+      "reason": "Sanov’s theorem is a specialized large-deviation result and is not needed for the general contraction principle."
+    },
+    {
+      "id": "lie-groups/cartan-matrix",
+      "prerequisite": "lie-groups/dynkin-diagram",
+      "reason": "A Dynkin diagram is constructed from the Cartan matrix, so it is downstream of the matrix."
+    },
+    {
+      "id": "lie-groups/cartan-subalgebra",
+      "prerequisite": "lie-groups/cartan-subalgebra-self-normalizing-lemma",
+      "reason": "The self-normalizing statement is a theorem about an already defined Cartan subalgebra."
+    },
+    {
+      "id": "lie-groups/cartan-subalgebra",
+      "prerequisite": "lie-groups/root-lie-algebra",
+      "reason": "A root is defined from the adjoint action after the Cartan subalgebra is available."
+    },
+    {
+      "id": "lie-groups/cartan-subalgebra",
+      "prerequisite": "lie-groups/root-space",
+      "reason": "A root space is defined as an eigenspace for an already defined root."
+    },
+    {
+      "id": "lie-groups/cartan-subalgebra",
+      "prerequisite": "lie-groups/root-space-decomposition",
+      "reason": "The decomposition theorem uses Cartan/root-space notions and is downstream of their definitions."
+    },
+    {
+      "id": "lie-groups/center-of-a-lie-group",
+      "prerequisite": "lie-groups/adjoint-faithful-iff-discrete-center",
+      "reason": "lie-groups/adjoint-faithful-iff-discrete-center is a downstream consequence, theorem, example, or equivalent characterization referenced by lie-groups/center-of-a-lie-group; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "lie-groups/closed-subgroup-theorem",
+      "prerequisite": "lie-groups/coset-space",
+      "reason": "lie-groups/coset-space is a downstream consequence, theorem, example, or equivalent characterization referenced by lie-groups/closed-subgroup-theorem; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "lie-groups/closed-subgroup-theorem",
+      "prerequisite": "lie-groups/homogeneous-space",
+      "reason": "lie-groups/homogeneous-space is a downstream consequence, theorem, example, or equivalent characterization referenced by lie-groups/closed-subgroup-theorem; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "lie-groups/completely-reducible-representation-lie",
+      "prerequisite": "lie-groups/weyls-theorem-complete-reducibility",
+      "reason": "Complete reducibility is the theorem conclusion, so Weyl’s theorem must not be treated as an input to the representation notion."
+    },
+    {
+      "id": "lie-groups/coset-space",
+      "prerequisite": "lie-groups/homogeneous-space",
+      "reason": "lie-groups/homogeneous-space is a downstream consequence, theorem, example, or equivalent characterization referenced by lie-groups/coset-space; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "lie-groups/exponential-map-lie-group",
+      "prerequisite": "lie-groups/exponential-one-parameter-subgroup-lemma",
+      "reason": "lie-groups/exponential-one-parameter-subgroup-lemma is explanatory or downstream material rather than a defining prerequisite for lie-groups/exponential-map-lie-group."
+    },
+    {
+      "id": "lie-groups/killing-form",
+      "prerequisite": "lie-groups/killing-form-ad-invariant-lemma",
+      "reason": "Removed because the definition of lie-groups/killing-form does not require lie-groups/killing-form-ad-invariant-lemma as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "lie-groups/lorentz-group",
+      "prerequisite": "lie-groups/proper-orthochronous-lorentz-group",
+      "reason": "The proper orthochronous Lorentz group is a distinguished subgroup of the Lorentz group."
+    },
+    {
+      "id": "lie-groups/product-lie-group",
+      "prerequisite": "lie-groups/lie-algebra-of-product",
+      "reason": "The product Lie group is defined geometrically; its Lie algebra decomposition is a derived property."
+    },
+    {
+      "id": "lie-groups/right-invariant-differential-form",
+      "prerequisite": "lie-groups/right-maurer-cartan-form",
+      "reason": "lie-groups/right-maurer-cartan-form is a downstream consequence, theorem, example, or equivalent characterization referenced by lie-groups/right-invariant-differential-form; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "lie-groups/root-space",
+      "prerequisite": "lie-groups/root-space-decomposition",
+      "reason": "The decomposition theorem uses Cartan/root-space notions and is downstream of their definitions."
+    },
+    {
+      "id": "lie-groups/root-system",
+      "prerequisite": "lie-groups/cartan-matrix",
+      "reason": "Cartan matrices summarize an established root system; they are not needed to define one."
+    },
+    {
+      "id": "lie-groups/root-system",
+      "prerequisite": "lie-groups/dynkin-diagram",
+      "reason": "A Dynkin diagram is constructed from the Cartan matrix, so it is downstream of the matrix."
+    },
+    {
+      "id": "lie-groups/root-system",
+      "prerequisite": "lie-groups/positive-root",
+      "reason": "Positive roots are a later choice inside an established root system."
+    },
+    {
+      "id": "lie-groups/root-system",
+      "prerequisite": "lie-groups/root-space-decomposition",
+      "reason": "The decomposition theorem uses Cartan/root-space notions and is downstream of their definitions."
+    },
+    {
+      "id": "lie-groups/root-system",
+      "prerequisite": "lie-groups/simple-root",
+      "reason": "Simple roots are selected from the positive roots of an established root system."
+    },
+    {
+      "id": "lie-groups/semisimple-lie-algebra",
+      "prerequisite": "lie-groups/cartans-criterion-semisimplicity",
+      "reason": "Cartan’s criterion is an equivalent theorem characterizing semisimplicity, so the basic semisimple definition does not depend on it."
+    },
+    {
+      "id": "lie-groups/semisimple-lie-algebra",
+      "prerequisite": "lie-groups/killing-form-nondegenerate-iff-semisimple",
+      "reason": "The nondegeneracy criterion is an equivalent characterization of semisimplicity and is downstream of the definition."
+    },
+    {
+      "id": "lie-groups/semisimple-lie-algebra",
+      "prerequisite": "lie-groups/root-lie-algebra",
+      "reason": "A root is defined from the adjoint action after the Cartan subalgebra is available."
+    },
+    {
+      "id": "lie-groups/semisimple-lie-algebra",
+      "prerequisite": "lie-groups/root-system",
+      "reason": "A root system is downstream combinatorial structure obtained from roots."
+    },
+    {
+      "id": "lie-groups/semisimple-lie-algebra",
+      "prerequisite": "lie-groups/semisimple-direct-sum-simple",
+      "reason": "The direct-sum decomposition theorem follows from semisimplicity."
+    },
+    {
+      "id": "lie-groups/simple-root",
+      "prerequisite": "lie-groups/cartan-matrix",
+      "reason": "Simple roots are selected from the root system and positive roots before forming the Cartan matrix."
+    },
+    {
+      "id": "lie-groups/simple-root",
+      "prerequisite": "lie-groups/dynkin-diagram",
+      "reason": "A Dynkin diagram is constructed from the Cartan matrix, so it is downstream of the matrix."
+    },
+    {
+      "id": "lie-groups/simple-root",
+      "prerequisite": "lie-groups/highest-weight",
+      "reason": "A highest weight is a later notion built from weights and positive roots."
+    },
+    {
+      "id": "lie-groups/simple-root",
+      "prerequisite": "lie-groups/highest-weight-theorem",
+      "reason": "The classification theorem is a consequence, not a prerequisite, of highest-weight definitions."
+    },
+    {
+      "id": "lie-groups/simple-root",
+      "prerequisite": "lie-groups/root-lie-algebra",
+      "reason": "A root is defined from the adjoint action after the Cartan subalgebra is available."
+    },
+    {
+      "id": "lie-groups/simple-root",
+      "prerequisite": "lie-groups/root-space-decomposition",
+      "reason": "The decomposition theorem uses Cartan/root-space notions and is downstream of their definitions."
+    },
+    {
+      "id": "lie-groups/simply-connected-lie-group",
+      "prerequisite": "lie-groups/simply-connected-determined-by-algebra",
+      "reason": "Simply connected determined by algebra is downstream from or an equivalent reformulation of simply connected lie group; simply connected lie group can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "lie-groups/smooth-action-lie-group",
+      "prerequisite": "lie-groups/free-action-lie",
+      "reason": "lie-groups/free-action-lie is a downstream consequence, theorem, example, or equivalent characterization referenced by lie-groups/smooth-action-lie-group; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "lie-groups/smooth-action-lie-group",
+      "prerequisite": "lie-groups/homogeneous-space",
+      "reason": "lie-groups/homogeneous-space is a downstream consequence, theorem, example, or equivalent characterization referenced by lie-groups/smooth-action-lie-group; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "lie-groups/smooth-action-lie-group",
+      "prerequisite": "lie-groups/orbit-lie-group",
+      "reason": "lie-groups/orbit-lie-group is a downstream consequence, theorem, example, or equivalent characterization referenced by lie-groups/smooth-action-lie-group; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "lie-groups/smooth-action-lie-group",
+      "prerequisite": "lie-groups/stabilizer-lie-group",
+      "reason": "lie-groups/stabilizer-lie-group is a downstream consequence, theorem, example, or equivalent characterization referenced by lie-groups/smooth-action-lie-group; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "lie-groups/solvable-lie-algebra",
+      "prerequisite": "lie-groups/cartans-criterion-solvability",
+      "reason": "Solvability is defined by the derived series; Cartan’s criterion is a later equivalent characterization."
+    },
+    {
+      "id": "lie-groups/solvable-lie-algebra",
+      "prerequisite": "lie-groups/levi-decomposition-theorem",
+      "reason": "Levi decomposition is a structural consequence of solvability/semisimplicity."
+    },
+    {
+      "id": "lie-groups/solvable-lie-algebra",
+      "prerequisite": "lie-groups/tfae-solvability-lie-algebra",
+      "reason": "The TFAE result collects equivalent characterizations of an already defined solvability notion."
+    },
+    {
+      "id": "lie-groups/special-linear-lie-algebra",
+      "prerequisite": "lie-groups/special-linear-group",
+      "reason": "Special linear group is downstream from or an equivalent reformulation of special linear lie algebra; special linear lie algebra can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "lie-groups/special-unitary-group",
+      "prerequisite": "lie-groups/example-su2",
+      "reason": "lie-groups/example-su2 is a downstream consequence, theorem, example, or equivalent characterization referenced by lie-groups/special-unitary-group; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "lie-groups/universal-covering-group",
+      "prerequisite": "lie-groups/simply-connected-lie-group",
+      "reason": "Simply connected lie group is downstream from or an equivalent reformulation of universal covering group; universal covering group can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "lie-groups/universal-covering-group",
+      "prerequisite": "lie-groups/universal-covering-group-existence",
+      "reason": "Existence establishes the universal covering group; the construction does not require its existence theorem as an input."
+    },
+    {
+      "id": "lie-groups/universal-covering-group-existence",
+      "prerequisite": "lie-groups/simply-connected-lie-group",
+      "reason": "Simply connected lie group is downstream from or an equivalent reformulation of universal covering group existence; universal covering group existence can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "lie-groups/weight-space",
+      "prerequisite": "lie-groups/weight-of-a-representation",
+      "reason": "A weight space is defined from a specified weight and its eigenspace; it is not needed to define weights."
+    },
+    {
+      "id": "linear-algebra/closed-linear-subspace",
+      "prerequisite": "linear-algebra/orthogonal-complement",
+      "reason": "Removed because the definition of linear-algebra/closed-linear-subspace does not require linear-algebra/orthogonal-complement as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "linear-algebra/eigenvector",
+      "prerequisite": "linear-algebra/eigenvalue",
+      "reason": "An eigenvector can be defined by existence of a scalar without requiring the separately named eigenvalue article."
+    },
+    {
+      "id": "mathematical-physics/advanced-and-retarded-green-operators",
+      "prerequisite": "mathematical-physics/existence-of-advanced-and-retarded-green-operators",
+      "reason": "Existence is a theorem about the already defined advanced and retarded Green operators, so it is not needed to define them."
+    },
+    {
+      "id": "mathematical-physics/minkowski-dirac-operator",
+      "prerequisite": "differential-geometry/dirac-spinor",
+      "reason": "The Minkowski Dirac operator is the differential operator; a spinor is its field argument, not a prerequisite for defining the operator."
+    },
+    {
+      "id": "mathematical-physics/normally-hyperbolic-operator",
+      "prerequisite": "differential-geometry/globally-hyperbolic-spacetime",
+      "reason": "Globally hyperbolic spacetime is downstream from or an equivalent reformulation of normally hyperbolic operator; normally hyperbolic operator can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "mathematical-physics/normally-hyperbolic-operator",
+      "prerequisite": "mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators",
+      "reason": "Cauchy problem for normally hyperbolic operators is downstream from or an equivalent reformulation of normally hyperbolic operator; normally hyperbolic operator can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "mathematical-physics/normally-hyperbolic-operator",
+      "prerequisite": "mathematical-physics/connection-form-of-a-normally-hyperbolic-operator",
+      "reason": "Connection form of a normally hyperbolic operator is downstream from or an equivalent reformulation of normally hyperbolic operator; normally hyperbolic operator can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "mathematical-physics/normally-hyperbolic-operator",
+      "prerequisite": "mathematical-physics/existence-of-advanced-and-retarded-green-operators",
+      "reason": "Existence of advanced and retarded green operators is downstream from or an equivalent reformulation of normally hyperbolic operator; normally hyperbolic operator can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "measure-theory/caratheodory-measurable-set",
+      "prerequisite": "measure-theory/caratheodory-construction",
+      "reason": "Removed because the definition of measure-theory/caratheodory-measurable-set does not require measure-theory/caratheodory-construction as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/continuity-from-below-measure",
+      "prerequisite": "measure-theory/continuity-from-above-measure",
+      "reason": "measure-theory/continuity-from-above-measure is a downstream consequence, theorem, example, or equivalent characterization referenced by measure-theory/continuity-from-below-measure; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "measure-theory/fatous-lemma",
+      "prerequisite": "measure-theory/dominated-convergence-theorem",
+      "reason": "Dominated convergence theorem is downstream from or an equivalent reformulation of fatous lemma; fatous lemma can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "measure-theory/indicator-function",
+      "prerequisite": "measure-theory/simple-function",
+      "reason": "Removed because the definition of measure-theory/indicator-function does not require measure-theory/simple-function as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/lebesgue-integrable-function",
+      "prerequisite": "measure-theory/l1-function",
+      "reason": "Removed because the definition of measure-theory/lebesgue-integrable-function does not require measure-theory/l1-function as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/lebesgue-integral",
+      "prerequisite": "measure-theory/lebesgue-integrable-function",
+      "reason": "Removed because the definition of measure-theory/lebesgue-integral does not require measure-theory/lebesgue-integrable-function as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/lebesgue-integral-nonnegative",
+      "prerequisite": "measure-theory/lebesgue-integral",
+      "reason": "Removed because the definition of measure-theory/lebesgue-integral-nonnegative does not require measure-theory/lebesgue-integral as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/lp-norm",
+      "prerequisite": "measure-theory/lp-space",
+      "reason": "Removed because the definition of measure-theory/lp-norm does not require measure-theory/lp-space as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/lp-space",
+      "prerequisite": "measure-theory/l-infinity-function",
+      "reason": "Removed because the definition of measure-theory/lp-space does not require measure-theory/l-infinity-function as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/lp-space",
+      "prerequisite": "measure-theory/l1-function",
+      "reason": "Removed because the definition of measure-theory/lp-space does not require measure-theory/l1-function as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/measurable-set",
+      "prerequisite": "measure-theory/indicator-function",
+      "reason": "Removed because the definition of measure-theory/measurable-set does not require measure-theory/indicator-function as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/measurable-set",
+      "prerequisite": "measure-theory/measure",
+      "reason": "Removed because the definition of measure-theory/measurable-set does not require measure-theory/measure as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/measurable-space",
+      "prerequisite": "measure-theory/measure-space",
+      "reason": "Removed because the definition of measure-theory/measurable-space does not require measure-theory/measure-space as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/measure",
+      "prerequisite": "measure-theory/almost-everywhere",
+      "reason": "Removed because the definition of measure-theory/measure does not require measure-theory/almost-everywhere as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/measure",
+      "prerequisite": "measure-theory/measure-space",
+      "reason": "Removed because the definition of measure-theory/measure does not require measure-theory/measure-space as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/measure-space",
+      "prerequisite": "measure-theory/almost-everywhere",
+      "reason": "Removed because the definition of measure-theory/measure-space does not require measure-theory/almost-everywhere as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/monotone-convergence-theorem",
+      "prerequisite": "measure-theory/dominated-convergence-theorem",
+      "reason": "Dominated convergence theorem is downstream from or an equivalent reformulation of monotone convergence theorem; monotone convergence theorem can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "measure-theory/monotone-convergence-theorem",
+      "prerequisite": "measure-theory/fatous-lemma",
+      "reason": "Fatous lemma is downstream from or an equivalent reformulation of monotone convergence theorem; monotone convergence theorem can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "measure-theory/null-set",
+      "prerequisite": "measure-theory/almost-everywhere",
+      "reason": "Removed because the definition of measure-theory/null-set does not require measure-theory/almost-everywhere as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/outer-measure",
+      "prerequisite": "measure-theory/caratheodory-construction",
+      "reason": "Removed because the definition of measure-theory/outer-measure does not require measure-theory/caratheodory-construction as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/product-measure",
+      "prerequisite": "measure-theory/fubinis-theorem",
+      "reason": "Removed because the definition of measure-theory/product-measure does not require measure-theory/fubinis-theorem as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/product-measure",
+      "prerequisite": "measure-theory/tonellis-theorem",
+      "reason": "Removed because the definition of measure-theory/product-measure does not require measure-theory/tonellis-theorem as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "measure-theory/pushforward-measure",
+      "prerequisite": "measure-theory/change-of-variables-pushforward",
+      "reason": "The pushforward measure is defined first; change of variables is a later theorem using it."
+    },
+    {
+      "id": "measure-theory/set-algebra",
+      "prerequisite": "measure-theory/premeasure",
+      "reason": "Premeasure is downstream from or an equivalent reformulation of set algebra; set algebra can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "measure-theory/tonellis-theorem",
+      "prerequisite": "measure-theory/fubinis-theorem",
+      "reason": "Removed because the definition of measure-theory/tonellis-theorem does not require measure-theory/fubinis-theorem as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "operator-algebras/bicommutant",
+      "prerequisite": "operator-algebras/von-neumann-algebra",
+      "reason": "The bicommutant is an algebraic closure operation and does not require the later von Neumann algebra article."
+    },
+    {
+      "id": "operator-algebras/bounded-operator-cstar-algebra",
+      "prerequisite": "operator-algebras/concrete-cstar-algebra",
+      "reason": "The bounded-operator algebra is a concrete example, not a prerequisite for its general notion."
+    },
+    {
+      "id": "operator-algebras/center-of-von-neumann-algebra",
+      "prerequisite": "operator-algebras/commutative-von-neumann-algebra",
+      "reason": "Removed because the definition of operator-algebras/center-of-von-neumann-algebra does not require operator-algebras/commutative-von-neumann-algebra as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "operator-algebras/commutant",
+      "prerequisite": "operator-algebras/bicommutant",
+      "reason": "A commutant is defined directly from operator commutation; the bicommutant is formed afterward."
+    },
+    {
+      "id": "operator-algebras/cstar-algebra",
+      "prerequisite": "operator-algebras/faithful-star-homomorphism",
+      "reason": "Faithfulness is a property of an existing *-homomorphism, not a prerequisite for C*-algebra definition."
+    },
+    {
+      "id": "operator-algebras/cstar-algebra",
+      "prerequisite": "operator-algebras/star-homomorphism",
+      "reason": "A *-homomorphism is defined between involutive algebras; it does not require C*-algebra theory."
+    },
+    {
+      "id": "operator-algebras/modular-operator",
+      "prerequisite": "operator-algebras/modular-conjugation",
+      "reason": "The modular operator is constructed from the Tomita data before modular conjugation."
+    },
+    {
+      "id": "operator-algebras/n-positive-map",
+      "prerequisite": "operator-algebras/completely-positive-map",
+      "reason": "Complete positivity is the all-n strengthening of n-positivity, so it is downstream of the fixed-n definition."
+    },
+    {
+      "id": "operator-algebras/predual",
+      "prerequisite": "operator-algebras/normal-functional",
+      "reason": "A predual is foundational; normal functionals are defined relative to it."
+    },
+    {
+      "id": "operator-algebras/trace-cstar-algebra",
+      "prerequisite": "operator-algebras/tracial-state",
+      "reason": "operator-algebras/tracial-state is a downstream consequence, theorem, example, or equivalent characterization referenced by operator-algebras/trace-cstar-algebra; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "operator-algebras/unitization",
+      "prerequisite": "operator-algebras/unital-cstar-algebra",
+      "reason": "Unitization constructs a unital algebra from a possibly nonunital one and does not require the later unital C*-algebra article."
+    },
+    {
+      "id": "probability/moment-generating-function",
+      "prerequisite": "probability/cumulant-generating-function",
+      "reason": "Cumulant generating function is downstream from or an equivalent reformulation of moment generating function; moment generating function can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "probability/probability-space",
+      "prerequisite": "probability/event-probability",
+      "reason": "Events are measurable subsets within a probability space and are not needed to define the space."
+    },
+    {
+      "id": "probability/probability-space",
+      "prerequisite": "probability/probability-measure",
+      "reason": "A probability space is the foundational measurable-space-plus-measure structure; the probability-measure article is a component/consequence."
+    },
+    {
+      "id": "probability/probability-space",
+      "prerequisite": "probability/random-variable",
+      "reason": "Random variables are later measurable maps on a probability space."
+    },
+    {
+      "id": "probability/weak-law-large-numbers",
+      "prerequisite": "probability/strong-law-large-numbers",
+      "reason": "Removed because the definition of probability/weak-law-large-numbers does not require probability/strong-law-large-numbers as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "quantum-foundations/normalized-state-vector",
+      "prerequisite": "quantum-foundations/rank-one-projector",
+      "reason": "A normalized vector is defined by its norm; the rank-one projector is constructed from it afterward."
+    },
+    {
+      "id": "real-analysis/differentiable-map",
+      "prerequisite": "real-analysis/jacobian-matrix",
+      "reason": "Jacobian matrix is downstream from or an equivalent reformulation of differentiable map; differentiable map can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "real-analysis/equicontinuous-family",
+      "prerequisite": "real-analysis/arzela-ascoli-theorem",
+      "reason": "real-analysis/arzela-ascoli-theorem is a downstream consequence, theorem, example, or equivalent characterization referenced by real-analysis/equicontinuous-family; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "real-analysis/frechet-derivative",
+      "prerequisite": "real-analysis/differentiable-map",
+      "reason": "Differentiable map is downstream from or an equivalent reformulation of frechet derivative; frechet derivative can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "real-analysis/frechet-derivative",
+      "prerequisite": "real-analysis/jacobian-matrix",
+      "reason": "Jacobian matrix is downstream from or an equivalent reformulation of frechet derivative; frechet derivative can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "real-analysis/integrator-function",
+      "prerequisite": "real-analysis/riemann-stieltjes-integral",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "real-analysis/iterated-integral",
+      "prerequisite": "real-analysis/fubini-theorem-riemann",
+      "reason": "real-analysis/fubini-theorem-riemann is a downstream consequence, theorem, example, or equivalent characterization referenced by real-analysis/iterated-integral; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "real-analysis/jacobian-determinant",
+      "prerequisite": "real-analysis/change-of-variables-formula",
+      "reason": "Change of variables formula is downstream from or an equivalent reformulation of jacobian determinant; jacobian determinant can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "real-analysis/jacobian-determinant",
+      "prerequisite": "real-analysis/inverse-function-theorem-rk",
+      "reason": "Inverse function theorem rk is downstream from or an equivalent reformulation of jacobian determinant; jacobian determinant can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "real-analysis/lower-sum",
+      "prerequisite": "real-analysis/riemann-integrable-function",
+      "reason": "Removed because the definition of real-analysis/lower-sum does not require real-analysis/riemann-integrable-function as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "real-analysis/one-sided-limit",
+      "prerequisite": "real-analysis/limit-at-a-point",
+      "reason": "Limit at a point is downstream from or an equivalent reformulation of one sided limit; one sided limit can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "real-analysis/partial-derivative",
+      "prerequisite": "real-analysis/jacobian-matrix",
+      "reason": "Jacobian matrix is downstream from or an equivalent reformulation of partial derivative; partial derivative can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "real-analysis/partial-sums",
+      "prerequisite": "real-analysis/convergent-series",
+      "reason": "Removed because the definition of real-analysis/partial-sums does not require real-analysis/convergent-series as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "real-analysis/partial-sums",
+      "prerequisite": "real-analysis/series",
+      "reason": "Removed because the definition of real-analysis/partial-sums does not require real-analysis/series as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "real-analysis/riemann-integrability-finite-discontinuities",
+      "prerequisite": "real-analysis/oscillation-criterion",
+      "reason": "Finite-discontinuity integrability is a consequence of the oscillation criterion."
+    },
+    {
+      "id": "real-analysis/separates-points",
+      "prerequisite": "real-analysis/stone-weierstrass-theorem",
+      "reason": "Separating points is a hypothesis of Stone–Weierstrass, so it precedes the theorem."
+    },
+    {
+      "id": "real-analysis/subalgebra-of-continuous-functions",
+      "prerequisite": "real-analysis/stone-weierstrass-theorem",
+      "reason": "The Stone–Weierstrass theorem applies to a subalgebra and is not needed to define one."
+    },
+    {
+      "id": "real-analysis/subsequence",
+      "prerequisite": "real-analysis/monotone-subsequence-lemma",
+      "reason": "A subsequence is defined by increasing indices; the monotone-subsequence lemma is a theorem about it."
+    },
+    {
+      "id": "real-analysis/supremum",
+      "prerequisite": "real-analysis/completeness-axiom",
+      "reason": "The completeness axiom asserts existence of suprema for bounded sets; the supremum concept itself is prior."
+    },
+    {
+      "id": "real-analysis/tagged-partition",
+      "prerequisite": "real-analysis/riemann-stieltjes-integral",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "real-analysis/tagged-partition",
+      "prerequisite": "real-analysis/riemann-sum",
+      "reason": "Removed feedback edge to preserve foundational-to-derived ordering."
+    },
+    {
+      "id": "real-analysis/taylor-polynomial",
+      "prerequisite": "real-analysis/taylors-theorem-with-remainder",
+      "reason": "real-analysis/taylors-theorem-with-remainder is a downstream consequence, theorem, example, or equivalent characterization referenced by real-analysis/taylor-polynomial; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "real-analysis/terms-go-to-zero",
+      "prerequisite": "real-analysis/divergent-series",
+      "reason": "Convergence tests use series concepts; divergence is a conclusion/application."
+    },
+    {
+      "id": "real-analysis/terms-go-to-zero",
+      "prerequisite": "real-analysis/ratio-test",
+      "reason": "The term test is a necessary condition for convergence; the ratio test is an independent later convergence test."
+    },
+    {
+      "id": "real-analysis/terms-go-to-zero",
+      "prerequisite": "real-analysis/root-test",
+      "reason": "The term test is a necessary condition for convergence; the root test is an independent later convergence test."
+    },
+    {
+      "id": "supergeometry/koszul-sign-rule",
+      "prerequisite": "supergeometry/category-of-super-vector-spaces",
+      "reason": "Removed because the definition of supergeometry/koszul-sign-rule does not require supergeometry/category-of-super-vector-spaces as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "supergeometry/lie-supergroup",
+      "prerequisite": "supergeometry/lie-superalgebra-of-lie-supergroup",
+      "reason": "The Lie superalgebra is obtained by differentiating a Lie supergroup at the identity."
+    },
+    {
+      "id": "supergeometry/super-minkowski-space",
+      "prerequisite": "supergeometry/supertranslation-distribution",
+      "reason": "Super-Minkowski space is the ambient superspace on which the translation distribution is defined."
+    },
+    {
+      "id": "supergeometry/superalgebra",
+      "prerequisite": "supergeometry/supercommutator",
+      "reason": "supergeometry/supercommutator is a downstream consequence, theorem, example, or equivalent characterization referenced by supergeometry/superalgebra; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "topology/continuous-image-of-connected-set-is-connected",
+      "prerequisite": "topology/connected-subsets-of-r-are-intervals",
+      "reason": "Connected subsets of r are intervals is downstream from or an equivalent reformulation of continuous image of connected set is connected; continuous image of connected set is connected can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "topology/curve",
+      "prerequisite": "topology/path",
+      "reason": "topology/path is a downstream consequence, theorem, example, or equivalent characterization referenced by topology/curve; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "topology/irreducible-space",
+      "prerequisite": "algebraic-geometry-foundations/generic-point",
+      "reason": "Generic points are consequences of irreducibility in the relevant schemes."
+    },
+    {
+      "id": "topology/limit-point",
+      "prerequisite": "topology/derived-set",
+      "reason": "Removed because the definition of topology/limit-point does not require topology/derived-set as input: the link is a theorem, characterization, specialization, or later construction reference that created a feedback edge. Foundational hypotheses remain in the prerequisite list."
+    },
+    {
+      "id": "topology/locally-compact-group",
+      "prerequisite": "shared-foundations/p-adic-integers",
+      "reason": "P adic integers is downstream from or an equivalent reformulation of locally compact group; locally compact group can be introduced from its foundational definitions without assuming this later result."
+    },
+    {
+      "id": "topology/meager-set",
+      "prerequisite": "topology/residual-set",
+      "reason": "Residuality is defined as having meager complement, so it is downstream of the meager-set definition."
+    },
+    {
+      "id": "topology/metric",
+      "prerequisite": "topology/metric-space",
+      "reason": "A metric space is defined by equipping a set with a metric; the metric notion is prior."
+    },
+    {
+      "id": "topology/open-ball",
+      "prerequisite": "topology/metric-induced-topology",
+      "reason": "topology/metric-induced-topology is a downstream consequence, theorem, example, or equivalent characterization referenced by topology/open-ball; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "topology/open-set",
+      "prerequisite": "topology/continuous-map",
+      "reason": "Continuity is defined using preimages of open sets; open sets do not require a continuous map."
+    },
+    {
+      "id": "topology/open-set",
+      "prerequisite": "topology/neighborhood",
+      "reason": "Neighborhoods are defined from open sets and are downstream."
+    },
+    {
+      "id": "topology/path",
+      "prerequisite": "topology/path-connected-set",
+      "reason": "topology/path-connected-set is a downstream consequence, theorem, example, or equivalent characterization referenced by topology/path; it is not needed to establish the definition or hypotheses."
+    },
+    {
+      "id": "topology/sequential-characterization-closure",
+      "prerequisite": "topology/sequential-characterization-closed",
+      "reason": "Sequential characterization closed is downstream from or an equivalent reformulation of sequential characterization closure; sequential characterization closure can be introduced from its foundational definitions without assuming this later result."
+    }
+  ]
+}

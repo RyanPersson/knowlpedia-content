@@ -6,6 +6,9 @@ summary = "Chain complexes, derived functors, Ext, Tor, and the fundamental lemm
 aliases = ["algebra-homological", "Homological Algebra"]
 domains = ["algebra-homological"]
 legacy_source_path = "algebra-homological/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This section covers the foundations of homological algebra, providing tools for measuring the failure of exactness and computing invariants of algebraic structures.

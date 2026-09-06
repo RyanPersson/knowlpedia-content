@@ -6,8 +6,8 @@ summary = "A meromorphic flat connection whose singularity is not regular singul
 aliases = ["irregular connection", "irregular singularity"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 prerequisites = ["langlands/regular-singular-connection", "fiber-bundles/gauge-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

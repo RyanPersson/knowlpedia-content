@@ -6,8 +6,8 @@ summary = "A module is projective iff it is a direct summand of a free module."
 aliases = ["projective-summand-of-free", "Projective modules are direct summands of free modules"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/projective-module", "algebra-modules/free-module", "algebra-modules/direct-sum-modules"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/projective-summand-of-free.md"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set of values attained by a group homomorphism"
 aliases = ["image-group", "Image of a group homomorphism"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/subgroup", "shared-foundations/image"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/image-group.md"
 +++
 

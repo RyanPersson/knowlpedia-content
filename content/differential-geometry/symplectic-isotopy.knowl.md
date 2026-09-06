@@ -6,8 +6,8 @@ summary = "A smooth path of symplectomorphisms beginning at the identity, genera
 aliases = ["isotopy through symplectomorphisms", "symplectic path"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

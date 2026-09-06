@@ -6,8 +6,8 @@ summary = "A function whose total variation on an interval is finite."
 aliases = ["bounded-variation-function", "Function of bounded variation"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/total-variation", "real-analysis/partition-of-an-interval"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/bounded-variation-function.md"
 +++
 

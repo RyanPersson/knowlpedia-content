@@ -6,8 +6,8 @@ summary = "A normal linear map between von Neumann algebras is a bounded linear 
 aliases = ["ultraweakly continuous map", "order-continuous map"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/predual", "linear-algebra/linear-map", "operator-algebras/ultraweak-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

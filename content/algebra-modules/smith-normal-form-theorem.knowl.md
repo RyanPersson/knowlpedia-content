@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A matrix over a PID can be diagonalized with divisibility conditions on the diagonal."
 aliases = ["smith-normal-form-theorem", "Smith normal form theorem"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/pid", "algebra-modules/smith-normal-form-invariants", "algebra-modules/matrix-representation", "algebra-modules/structure-theorem-pid"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/pid", "algebra-modules/matrix-representation", "algebra-modules/structure-theorem-pid"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "algebra-modules/smith-normal-form-theorem.md"
 +++
 

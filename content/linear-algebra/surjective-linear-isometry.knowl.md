@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A bijective linear map that preserves the norm exactly."
 aliases = ["surjective linear isometry", "linear isometric equivalence", "linear isometry group"]
 domains = ["linear-algebra", "topology"]
-prerequisites = ["linear-algebra/normed-vector-space", "linear-algebra/linear-map", "linear-algebra/unit-sphere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/normed-vector-space", "linear-algebra/linear-map", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) and \(F\) be [[linear-algebra/normed-vector-space|normed vector spaces]]. A **surjective linear isometry** is a surjective [[linear-algebra/linear-map|linear map]] \(T:E\to F\) satisfying

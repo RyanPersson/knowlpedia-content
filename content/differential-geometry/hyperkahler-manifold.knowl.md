@@ -6,8 +6,8 @@ summary = "A Riemannian manifold carrying a parallel quaternionic triple of comp
 aliases = ["hyper-Kähler manifold", "hyperkähler structure"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "differential-geometry/hyperhermitian-manifold", "differential-geometry/fundamental-form-almost-hermitian"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

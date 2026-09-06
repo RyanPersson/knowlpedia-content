@@ -6,8 +6,8 @@ summary = "A metric on bounded functions defined by the supremum of pointwise di
 aliases = ["uniform-metric", "Uniform metric"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/supremum-norm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-metric.md"
 +++
 

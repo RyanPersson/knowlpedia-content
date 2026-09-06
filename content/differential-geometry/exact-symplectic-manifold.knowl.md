@@ -6,8 +6,8 @@ summary = "A symplectic manifold whose symplectic form is the exterior derivativ
 aliases = ["exact symplectic form"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/exact-differential-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

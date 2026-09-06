@@ -6,8 +6,8 @@ summary = "The affine algebraic set parameterizing homomorphisms from a finitely
 aliases = ["homomorphism variety", "G-representation variety"]
 domains = ["fiber-bundles", "algebraic-geometry-foundations", "lie-groups"]
 prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "algebra-groups/group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

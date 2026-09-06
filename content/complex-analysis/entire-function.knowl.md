@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A complex-valued function holomorphic on the whole complex plane."
 aliases = ["entire holomorphic function"]
 domains = ["complex-analysis"]
-prerequisites = ["differential-geometry/holomorphic-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/complex-derivative", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

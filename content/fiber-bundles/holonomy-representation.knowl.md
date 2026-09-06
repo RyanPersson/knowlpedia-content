@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For a flat connection, the induced representation of the fundamental group into the structure group via parallel transport."
 aliases = ["holonomy-representation", "Holonomy representation"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/flat-principal-connection", "fiber-bundles/holonomy-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/flat-principal-connection", "fiber-bundles/holonomy-group", "topology/fundamental-group", "fiber-bundles/parallel-transport"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/holonomy-representation.md"
 +++
 

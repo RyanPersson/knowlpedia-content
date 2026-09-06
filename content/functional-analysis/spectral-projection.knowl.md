@@ -6,8 +6,8 @@ summary = "The projection assigned to a Borel subset of the spectrum by an opera
 aliases = ["spectral measure projection", "Borel spectral projection"]
 domains = ["functional-analysis", "operator-algebras"]
 prerequisites = ["quantum-foundations/normal-operator", "functional-analysis/borel-functional-calculus", "linear-algebra/orthogonal-projection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

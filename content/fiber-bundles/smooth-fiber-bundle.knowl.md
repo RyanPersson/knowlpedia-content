@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A surjective submersion that is locally a product with a fixed model fiber."
 aliases = ["smooth-fiber-bundle", "Smooth fiber bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/diffeomorphism", "fiber-bundles/local-trivialization", "fiber-bundles/typical-fiber", "fiber-bundles/bundle-atlas", "fiber-bundles/transition-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/diffeomorphism", "topology/open-set", "shared-foundations/preimage", "shared-foundations/cartesian-product", "differential-geometry/product-manifold", "shared-foundations/composition", "shared-foundations/restriction-of-a-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-fiber-bundle.md"
 +++
 

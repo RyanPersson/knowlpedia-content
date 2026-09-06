@@ -6,8 +6,8 @@ summary = "The map representing each element of a commutative C-star algebra as 
 aliases = ["Gelfand representation"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/commutative-cstar-algebra", "operator-algebras/character-space", "operator-algebras/star-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

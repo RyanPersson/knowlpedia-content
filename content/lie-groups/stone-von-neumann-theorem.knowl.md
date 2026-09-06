@@ -6,8 +6,8 @@ summary = "Irreducible unitary representations of the real Heisenberg group with
 aliases = ["uniqueness of the Schrödinger representation", "Heisenberg representation theorem"]
 domains = ["lie-groups", "harmonic-analysis", "functional-analysis"]
 prerequisites = ["lie-groups/heisenberg-group", "lie-groups/irreducible-unitary-representation", "lie-groups/strongly-continuous-unitary-representation", "algebra-representation-theory/irreducible-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

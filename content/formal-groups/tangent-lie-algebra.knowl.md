@@ -6,8 +6,8 @@ summary = "The tangent space at the identity of a formal group, with bracket ind
 aliases = ["Lie algebra of a formal group", "formal-group tangent algebra", "Lie functor for formal groups"]
 domains = ["formal-groups", "lie-groups"]
 prerequisites = ["formal-groups/formal-group", "fiber-bundles/vector-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

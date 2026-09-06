@@ -6,8 +6,8 @@ summary = "An integer obtained by evaluating a top-degree monomial in Chern clas
 aliases = ["Chern characteristic number"]
 domains = ["fiber-bundles", "topology"]
 prerequisites = ["fiber-bundles/vector-bundle", "topology/fundamental-class", "fiber-bundles/tangent-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

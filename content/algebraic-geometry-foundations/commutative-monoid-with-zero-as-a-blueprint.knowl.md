@@ -6,8 +6,8 @@ summary = "The blueprint obtained from a commutative monoid with zero by imposin
 aliases = ["canonical blueprint of a monoid with zero", "monoid blueprint"]
 domains = ["algebraic-geometry-foundations", "algebra-groups"]
 prerequisites = ["algebra-groups/commutative-monoid", "algebraic-geometry-foundations/pre-addition-on-a-monoid", "algebraic-geometry-foundations/semiring-completion-of-a-blueprint", "algebra-rings/commutative-semiring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

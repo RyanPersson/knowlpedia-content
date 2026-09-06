@@ -6,8 +6,8 @@ summary = "A full Hilbert module whose compact operators are identified with a s
 aliases = ["equivalence bimodule", "C*-equivalence bimodule", "full Hilbert bimodule"]
 domains = ["operator-algebras", "algebra-modules"]
 prerequisites = ["operator-algebras/cstar-correspondence", "algebra-modules/bimodule", "operator-algebras/compact-operator-hilbert-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The obstruction to extending canonical quantization consistently to e
 aliases = ["Groenewold-Van Hove theorem", "Groenewold-Van Hove obstruction", "no-go theorem for canonical quantization"]
 domains = ["mathematical-physics", "differential-geometry", "functional-analysis"]
 prerequisites = ["mathematical-physics/quantization-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

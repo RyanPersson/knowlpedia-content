@@ -6,8 +6,8 @@ summary = "The representation acting coordinatewise on the Hilbert direct sum of
 aliases = ["direct sum of *-representations", "Hilbert direct sum representation"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/cstar-representation", "convex-analysis/linear-combination"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

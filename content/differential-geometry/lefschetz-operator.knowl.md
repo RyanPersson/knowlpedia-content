@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The degree-two operator given by wedging with a symplectic form or multiplying by its cohomology class."
 aliases = ["L operator", "cup product with the Kähler class"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["differential-geometry/symplectic-manifold", "linear-algebra/linear-map", "fiber-bundles/exterior-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/symplectic-manifold", "linear-algebra/linear-map", "fiber-bundles/exterior-derivative", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

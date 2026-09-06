@@ -6,8 +6,8 @@ summary = "A system of imprimitivity is a unitary representation together with a
 aliases = ["covariant projection-valued measure", "imprimitivity system"]
 domains = ["harmonic-analysis", "representation-theory"]
 prerequisites = ["topology/locally-compact-group", "linear-algebra/hilbert-space", "lie-groups/strongly-continuous-unitary-representation", "functional-analysis/projection-valued-measure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

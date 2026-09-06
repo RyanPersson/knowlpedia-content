@@ -6,8 +6,8 @@ summary = "A G-invariant choice of horizontal subspaces complementing the vertic
 aliases = ["principal-connection", "Principal connection"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/principal-connection.md"
 +++
 

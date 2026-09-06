@@ -6,8 +6,8 @@ summary = "A category whose objects are closed manifolds and whose morphisms are
 aliases = ["bordism category", "category of cobordisms"]
 domains = ["differential-geometry", "category-theory"]
 prerequisites = ["topology/closed-manifold", "algebra-category-theory/morphism", "differential-geometry/cobordism", "algebra-category-theory/identity-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

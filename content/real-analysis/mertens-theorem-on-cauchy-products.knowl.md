@@ -6,8 +6,8 @@ summary = "The Cauchy product of two convergent series converges to the product 
 aliases = ["mertens-theorem-on-cauchy-products", "Mertens theorem on Cauchy products"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/series", "real-analysis/cauchy-product", "real-analysis/absolutely-convergent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/mertens-theorem-on-cauchy-products.md"
 +++
 

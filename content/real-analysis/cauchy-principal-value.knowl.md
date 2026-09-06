@@ -6,8 +6,8 @@ summary = "A symmetric limiting prescription for certain singular or non-absolut
 aliases = ["principal value integral", "p.v. integral", "PV integral"]
 domains = ["real-analysis", "harmonic-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

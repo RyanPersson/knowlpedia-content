@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The least upper bound of a nonempty set of real numbers."
 aliases = ["supremum"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-above", "real-analysis/maximum", "real-analysis/completeness-axiom"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/bounded-above", "shared-foundations/upper-bound", "shared-foundations/subset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/supremum.md"
 +++
 
@@ -20,4 +20,4 @@ The supremum is the “least upper bound” and may exist even when \(A\) has no
 ## Examples
 
 - If \(A=(0,1)\), then \(\sup A=1\).
-- If \(A=\{1-\tfrac1n : n\in\mathbb N\}\), then \(\sup A=1\) (even though \(1\notin A\)).
+- If \(A=\{1-\tfrac1n : n\in\mathbb N,\ n\ge 1\}\), then \(\sup A=1\) (even though \(1\notin A\)).

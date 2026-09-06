@@ -6,8 +6,8 @@ summary = "A bounded set porous on every line admits band-limited damping functi
 aliases = ["line porous sets admit damping functions"]
 domains = ["harmonic-analysis", "analysis"]
 prerequisites = ["analysis/porosity-on-lines", "harmonic-analysis/damping-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

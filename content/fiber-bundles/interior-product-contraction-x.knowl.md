@@ -6,8 +6,8 @@ summary = "Insertion of a vector field into a differential form, producing a for
 aliases = ["interior-product-contraction-x", "Interior product (contraction) ι_X"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/differential-k-form", "fiber-bundles/wedge-product-of-differential-forms", "fiber-bundles/lie-derivative-of-a-differential-form", "fiber-bundles/exterior-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/interior-product-contraction-x.md"
 +++
 

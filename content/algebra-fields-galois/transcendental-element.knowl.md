@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "An element is transcendental over a field if it satisfies no nonzero polynomial with coefficients in that field."
 aliases = ["transcendental-element", "Transcendental element"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-element"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-rings/polynomial-ring", "algebra-fields-galois/simple-extension", "algebra-fields-galois/degree-of-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/transcendental-element.md"
 +++
 

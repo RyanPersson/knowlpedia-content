@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "A strict boundary perturbation does not change the number of zeros inside a contour."
 aliases = ["Rouche theorem", "Rouché theorem"]
 domains = ["complex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/winding-number", "complex-analysis/argument-principle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

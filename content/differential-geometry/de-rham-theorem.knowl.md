@@ -6,8 +6,8 @@ summary = "Integration identifies de Rham cohomology naturally with singular coh
 aliases = ["de Rham isomorphism theorem"]
 domains = ["differential-geometry", "topology"]
 prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/integration-of-differential-forms", "differential-geometry/de-rham-complex", "topology/singular-cohomology-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

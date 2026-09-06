@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Approximations and bounds relating multinomial coefficients to Shannon entropy."
 aliases = ["entropy-multinomial-coefficients", "Entropy and multinomial coefficients"]
 domains = ["asymptotics"]
-prerequisites = ["asymptotics/method-of-types"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["asymptotics/stirlings-approximation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "asymptotics/entropy-multinomial-coefficients.md"
 +++
 

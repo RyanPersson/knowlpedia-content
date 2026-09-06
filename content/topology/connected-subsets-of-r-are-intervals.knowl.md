@@ -6,8 +6,8 @@ summary = "A subset of the real line is connected exactly when it is an interval
 aliases = ["connected-subsets-of-r-are-intervals", "Connected subsets of R are intervals"]
 domains = ["topology"]
 prerequisites = ["topology/connected-set", "real-analysis/interval", "topology/continuous-image-of-connected-set-is-connected"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/connected-subsets-of-r-are-intervals.md"
 +++
 

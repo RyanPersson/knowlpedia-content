@@ -6,8 +6,8 @@ summary = "On a locally compact abelian group, the Fourier transform changes con
 aliases = ["convolution theorem", "Fourier transform of convolution", "Fourier convolution theorem on an abelian group"]
 domains = ["harmonic-analysis", "functional-analysis", "algebra-groups"]
 prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/haar-measure", "harmonic-analysis/convolution-on-locally-compact-group", "harmonic-analysis/fourier-transform-lca", "harmonic-analysis/pontryagin-dual", "algebra-modules/algebra-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

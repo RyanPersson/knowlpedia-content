@@ -6,8 +6,8 @@ summary = "A collection of compatible local trivializations covering the base of
 aliases = ["bundle-atlas", "Bundle atlas"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/local-trivialization", "fiber-bundles/transition-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/bundle-atlas.md"
 +++
 

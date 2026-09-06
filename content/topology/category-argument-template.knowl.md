@@ -6,8 +6,8 @@ summary = "A standard Baire category method for producing a dense or residual se
 aliases = ["category-argument-template", "Category Argument Template"]
 domains = ["topology"]
 prerequisites = ["topology/baire-space", "topology/open-set", "topology/dense-set", "topology/residual-set", "topology/nowhere-dense-set", "topology/baire-category-theorem", "topology/intersection-of-dense-open-is-dense"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/category-argument-template.md"
 +++
 

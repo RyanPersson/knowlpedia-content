@@ -6,8 +6,8 @@ summary = "A superalgebra whose homogeneous elements commute with the Koszul sig
 aliases = ["graded-commutative superalgebra", "commutative superalgebra"]
 domains = ["supergeometry", "algebra-commutative"]
 prerequisites = ["supergeometry/superalgebra", "algebra-category-theory/algebra-object", "supergeometry/category-of-super-vector-spaces"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

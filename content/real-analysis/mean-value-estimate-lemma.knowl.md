@@ -6,8 +6,8 @@ summary = "A bound on the change in a function in terms of a bound on its deriva
 aliases = ["mean-value-estimate-lemma", "Mean value estimate"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/differentiability-1d"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/mean-value-estimate-lemma.md"
 +++
 

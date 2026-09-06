@@ -6,8 +6,8 @@ summary = "Construction of a principal G×H-bundle from principal G- and H-bundl
 aliases = ["construction-product-principal-bundle-when-defined", "Product principal bundle (fiber product over the base)"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "differential-geometry/embedded-submanifold", "fiber-bundles/principal-bundle-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-product-principal-bundle-when-defined.md"
 +++
 

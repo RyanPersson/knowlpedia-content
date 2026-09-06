@@ -6,8 +6,8 @@ summary = "A Clifford algebra is obtained by fixing the central character in the
 aliases = ["Clifford algebra from a Lie superalgebra"]
 domains = ["differential-geometry", "supergeometry"]
 prerequisites = ["supergeometry/lie-superalgebra", "supergeometry/universal-enveloping-algebra-of-lie-superalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "A map that kills a submodule factors uniquely through the quotient."
 aliases = ["quotient-module-universal-property", "Universal property of quotient modules"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/quotient-module", "algebra-modules/submodule", "algebra-modules/kernel-module", "algebra-modules/module-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/quotient-module-universal-property.md"
 +++
 

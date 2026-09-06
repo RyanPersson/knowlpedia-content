@@ -6,8 +6,8 @@ summary = "A subspace invariant under every operator in a Lie algebra representa
 aliases = ["subrepresentation-lie-algebra", "Subrepresentation of a Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/representation-of-a-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/subrepresentation-lie-algebra.md"
 +++
 

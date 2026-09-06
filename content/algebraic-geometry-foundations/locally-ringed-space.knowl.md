@@ -6,8 +6,8 @@ summary = "A topological space with a sheaf of rings whose stalks are local ring
 aliases = ["locally-ringed-space", "Locally ringed space"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["topology/topological-space", "algebraic-geometry-foundations/sheaf", "algebraic-geometry-foundations/stalk", "algebra-commutative/local-ring", "algebraic-geometry-foundations/structure-sheaf"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/locally-ringed-space.md"
 +++
 

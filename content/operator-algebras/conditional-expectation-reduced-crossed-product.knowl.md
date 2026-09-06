@@ -6,8 +6,8 @@ summary = "For a discrete-group action, the faithful conditional expectation tha
 aliases = ["Fourier coefficient expectation", "crossed-product expectation"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/reduced-crossed-product", "operator-algebras/conditional-expectation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A distance-preserving map between metric spaces."
 aliases = ["isometry"]
 domains = ["topology"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/isometry.md"
 +++
 

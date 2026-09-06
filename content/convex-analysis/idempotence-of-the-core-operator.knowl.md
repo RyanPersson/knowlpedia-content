@@ -6,8 +6,8 @@ summary = "Taking the core twice gives the same set: core(core(Ω))=core(Ω)."
 aliases = ["idempotence-of-the-core-operator", "Idempotence of the Core Operator"]
 domains = ["convex-analysis"]
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/idempotence-of-the-core-operator.md"
 +++
 

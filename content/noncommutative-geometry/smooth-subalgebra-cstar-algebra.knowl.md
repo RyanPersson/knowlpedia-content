@@ -6,8 +6,8 @@ summary = "A dense Fréchet *-subalgebra of a C*-algebra whose finer topology re
 aliases = ["smooth dense *-subalgebra", "spectrally invariant subalgebra", "holomorphically closed subalgebra"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "functional-analysis/holomorphic-functional-calculus-banach-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

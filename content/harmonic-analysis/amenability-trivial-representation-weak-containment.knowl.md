@@ -6,8 +6,8 @@ summary = "The representation-theoretic criterion that a locally compact group i
 aliases = ["Hulanicki-Reiter criterion"]
 domains = ["harmonic-analysis", "operator-algebras"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/regular-representations-locally-compact-group", "harmonic-analysis/weak-containment-unitary-representations", "algebra-representation-theory/regular-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

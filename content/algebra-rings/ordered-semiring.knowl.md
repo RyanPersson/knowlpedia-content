@@ -6,8 +6,8 @@ summary = "A semiring with a partial order compatible with addition and multipli
 aliases = ["partially ordered semiring", "ordered commutative semiring"]
 domains = ["algebra-rings", "algebraic-geometry-foundations"]
 prerequisites = ["algebra-rings/semiring", "shared-foundations/partial-order"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

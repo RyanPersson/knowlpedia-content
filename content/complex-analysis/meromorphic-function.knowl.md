@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A function holomorphic away from isolated poles, equivalently locally a quotient of holomorphic functions."
 aliases = ["meromorphic map to the Riemann sphere"]
 domains = ["complex-analysis", "differential-geometry"]
-prerequisites = ["complex-analysis/complex-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/complex-domain", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

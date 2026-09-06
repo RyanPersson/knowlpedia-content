@@ -6,8 +6,8 @@ summary = "A spectral triple represented in a semifinite von Neumann algebra wit
 aliases = ["semifinite unbounded Fredholm module", "spectral triple relative to (M,tau)"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/semifinite-von-neumann-algebra", "operator-algebras/faithful-normal-semifinite-trace", "operator-algebras/affiliated-operator", "operator-algebras/tau-compact-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

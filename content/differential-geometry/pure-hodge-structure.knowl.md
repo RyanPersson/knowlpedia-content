@@ -6,8 +6,8 @@ summary = "A finite-dimensional real vector space whose complexification decompo
 aliases = ["Hodge structure of weight n"]
 domains = ["differential-geometry"]
 prerequisites = ["linear-algebra/vector-space", "linear-algebra/complexification", "algebra-groups/abelian-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

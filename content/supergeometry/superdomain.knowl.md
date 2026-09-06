@@ -6,8 +6,8 @@ summary = "The local smooth model of dimension p|q with ordinary base U and exte
 aliases = ["coordinate superdomain", "smooth superdomain", "R p|q"]
 domains = ["supergeometry"]
 prerequisites = ["supergeometry/superspace", "algebraic-geometry-foundations/structure-sheaf"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Rational canonical form arises by viewing (V,T) as a module over F[x] and applying the PID structure theorem."
 aliases = ["rcf-from-structure-theorem", "Rational canonical form from the structure theorem"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/structure-theorem-pid", "algebra-rings/polynomial-ring", "algebra-rings/field", "linear-algebra/linear-map", "linear-algebra/vector-space", "algebra-modules/module", "algebra-modules/rational-canonical-form-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/structure-theorem-pid", "algebra-rings/polynomial-ring", "algebra-rings/field", "linear-algebra/linear-map", "linear-algebra/vector-space", "algebra-modules/module", "linear-algebra/matrix", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/rcf-from-structure-theorem.md"
 +++
 

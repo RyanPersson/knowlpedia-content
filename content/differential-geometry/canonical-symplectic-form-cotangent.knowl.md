@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The symplectic form obtained as minus the exterior derivative of the tautological one-form on a cotangent bundle."
 aliases = ["cotangent symplectic form"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/tautological-one-form-cotangent", "fiber-bundles/cotangent-bundle", "fiber-bundles/exterior-derivative", "differential-geometry/symplectic-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/tautological-one-form-cotangent", "fiber-bundles/cotangent-bundle", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

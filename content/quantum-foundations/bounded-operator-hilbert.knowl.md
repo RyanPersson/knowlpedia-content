@@ -6,8 +6,8 @@ summary = "A linear operator whose action does not increase vector norms by more
 aliases = ["bounded-operator-hilbert", "Bounded Operator on a Hilbert Space"]
 domains = ["quantum-foundations"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "quantum-foundations/bounded-operator-hilbert.md"
 +++
 

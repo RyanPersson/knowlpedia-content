@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Generalization of the fundamental theorem of calculus to differential forms on oriented manifolds with boundary."
 aliases = ["stokes-theorem", "Stokes' theorem"]
 domains = ["differential-geometry"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/manifold-with-boundary", "fiber-bundles/differential-k-form", "differential-geometry/integration-of-differential-forms", "differential-geometry/orientation-of-a-smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "differential-geometry/stokes-theorem.md"
 +++
 

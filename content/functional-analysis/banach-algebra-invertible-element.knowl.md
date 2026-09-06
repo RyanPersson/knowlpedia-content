@@ -6,8 +6,8 @@ summary = "An element admitting a two-sided multiplicative inverse in a unital B
 aliases = ["unit group of a Banach algebra", "Banach-algebra invertibility"]
 domains = ["functional-analysis", "operator-algebras"]
 prerequisites = ["functional-analysis/banach-algebra", "operator-algebras/unitization"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

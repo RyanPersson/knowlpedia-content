@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An element or field valued in a chosen complex spinor module."
 aliases = ["complex spinor", "Dirac spinor field"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/spinor-module", "differential-geometry/spinor-bundle", "differential-geometry/weyl-spinor", "mathematical-physics/dirac-equation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/spinor-module", "differential-geometry/spinor-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

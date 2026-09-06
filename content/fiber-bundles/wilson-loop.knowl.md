@@ -6,8 +6,8 @@ summary = "The trace of connection holonomy around a closed loop in a chosen rep
 aliases = ["Wilson observable", "trace of holonomy"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "lie-groups/representation-of-a-lie-group", "fiber-bundles/parallel-transport", "linear-algebra/trace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

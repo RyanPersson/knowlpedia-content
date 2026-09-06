@@ -6,8 +6,8 @@ summary = "A vector space over a stated field with an alternating bilinear brack
 aliases = ["lie-algebra", "Lie Algebra"]
 domains = ["lie-groups"]
 prerequisites = ["linear-algebra/vector-space", "fiber-bundles/lie-bracket"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "lie-groups/lie-algebra.md"
 section_mode = "progressive"
 +++

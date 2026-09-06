@@ -1,0 +1,2154 @@
+{
+  "version": 1,
+  "review_scope": "Independent risk-weighted semantic spot checks with bounded follow-up repairs. This is not a proof of correctness for every knowl or an estimate of corpus error prevalence.",
+  "selection": {
+    "selection": "8 new foundations, 8 highest direct-dependent hubs, 13 repaired-boundary definitions, 12 largest prerequisite removals (ties by dependent count/ID), 7 remaining controls sampled with seed 20260905. Risk-weighted sample; not an estimate of corpus error prevalence.",
+    "groups": {
+      "foundations": [
+        "shared-foundations/finite-permutation",
+        "shared-foundations/permutation-sign",
+        "algebraic-geometry-foundations/regular-local-ring",
+        "algebraic-geometry-foundations/regular-scheme",
+        "algebraic-geometry-foundations/geometric-fiber",
+        "differential-geometry/differentiable-flow",
+        "fiber-bundles/unit-tangent-bundle",
+        "differential-geometry/geodesic"
+      ],
+      "hubs": [
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/vector-space",
+        "fiber-bundles/lie-group",
+        "linear-algebra/hilbert-space",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/principal-g-bundle",
+        "algebra-groups/group",
+        "operator-algebras/cstar-algebra"
+      ],
+      "repairs": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "differential-geometry/complex-atlas",
+        "differential-geometry/holomorphic-map",
+        "differential-geometry/complex-manifold",
+        "algebra-modules/tensor-product",
+        "algebra-modules/tensor-product-universal-property",
+        "algebra-modules/smith-normal-form-invariants",
+        "algebra-modules/smith-normal-form-theorem",
+        "algebraic-geometry-foundations/site",
+        "algebraic-geometry-foundations/covering-family",
+        "harmonic-analysis/unitary-dual",
+        "harmonic-analysis/fell-topology"
+      ],
+      "removals": [
+        "fiber-bundles/differential-k-form",
+        "lie-groups/simply-connected-lie-group",
+        "lie-groups/smooth-action-lie-group",
+        "topology/irreducible-space",
+        "algebra-fields-galois/cyclotomic-extension",
+        "algebra-modules/module",
+        "fiber-bundles/vector-field",
+        "convex-analysis/legendre-fenchel-transform",
+        "algebra-category-theory/coproduct",
+        "convex-analysis/minkowski-function-gauge-of-a-set",
+        "lie-groups/special-linear-group",
+        "fiber-bundles/flat-vector-bundle-connection"
+      ],
+      "control": [
+        "linear-algebra/eigenspace",
+        "differential-geometry/dolbeault-complex",
+        "algebra-homological/hom-tensor-exactness",
+        "probability/moment-generating-function",
+        "lie-groups/type-i-locally-compact-group",
+        "lie-groups/commutator-subgroup-of-a-lie-group",
+        "differential-geometry/symplectic-lie-group-action"
+      ]
+    }
+  },
+  "require_full_review": true,
+  "reviews": [
+    {
+      "id": "shared-foundations/finite-permutation",
+      "before": [
+        "shared-foundations/bijective-function",
+        "shared-foundations/natural-numbers"
+      ],
+      "after": [
+        "shared-foundations/bijective-function",
+        "shared-foundations/natural-numbers"
+      ],
+      "review_count_before": 1,
+      "sha256": "4748477538db1d3850ac52b4da23ccd17005cb40d76ec87abe47b09a76fafa83",
+      "rationale": "The body correctly defines a permutation as a bijection [n] to itself, including the n=0 convention and one-line notation. Both prerequisites are directly used; the function prerequisite is transitively covered by bijective-function. No missing or reversed dependency was found.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-foundations",
+      "stratum": "foundations",
+      "source_path": "content/shared-foundations/finite-permutation.knowl.md",
+      "sha256_after": "36ad41c3aeda94f989b0fc6e2c424f8c0be11e0821754d3e99426185968a9532",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "shared-foundations/permutation-sign",
+      "before": [
+        "shared-foundations/finite-permutation",
+        "shared-foundations/natural-numbers"
+      ],
+      "after": [
+        "shared-foundations/finite-permutation"
+      ],
+      "review_count_before": 1,
+      "sha256": "4626bc65d143204542ddf5f5a743f9f09ee926d771c0007c51524e3f4017df16",
+      "rationale": "The inversion definition and (-1)^inv formula are correct, including the empty permutation. finite-permutation already supplies n in N and [n], so natural-numbers is a redundant direct prerequisite under transitive coverage; removing it leaves the needed concept. The remaining prerequisite is correctly oriented.",
+      "verdict": "revise",
+      "body_findings": [],
+      "reviewer": "independent-foundations",
+      "stratum": "foundations",
+      "source_path": "content/shared-foundations/permutation-sign.knowl.md",
+      "sha256_after": "106abae96a98f482b35c8ed41896bdf3179dd156a9b1c49b857dc002ba502863",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebraic-geometry-foundations/regular-local-ring",
+      "before": [
+        "algebra-commutative/local-ring",
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/krull-dimension",
+        "linear-algebra/vector-space",
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "algebra-modules/quotient-module",
+        "algebra-commutative/residue-field"
+      ],
+      "after": [
+        "algebra-commutative/local-ring",
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/krull-dimension",
+        "linear-algebra/vector-space",
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "algebra-modules/quotient-module",
+        "algebra-commutative/residue-field"
+      ],
+      "review_count_before": 1,
+      "sha256": "df1a532e02279e9f79a2503568978810eec9f51385d36d330b523896b4bf5ebc",
+      "rationale": "The definition agrees with the standard Noetherian-local definition: the maximal ideal has a minimal generating number equal to dim(R), equivalently dim_k(m/m^2)=dim(R). The cited Stacks definition states exactly this (https://stacks.math.columbia.edu/tag/02IR). Locality, Noetherianity, Krull dimension, the residue field, quotient module, vector-space structure, and the basis/dimension notion all support the displayed definition; no dependency is missing or reversed.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-foundations",
+      "stratum": "foundations",
+      "source_path": "content/algebraic-geometry-foundations/regular-local-ring.knowl.md",
+      "sha256_after": "9570d404ff855108d66594e0912c7e5101787e7fabd923be57b0741b0c8c6826",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebraic-geometry-foundations/regular-scheme",
+      "before": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/locally-ringed-space",
+        "algebraic-geometry-foundations/regular-local-ring"
+      ],
+      "after": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/regular-local-ring"
+      ],
+      "review_count_before": 1,
+      "sha256": "4a6cc4136ab8443d6482cfcd7ec93b7e357d546810838d0fae4decf7b57d00b4",
+      "rationale": "The body correctly says locally Noetherian with all stalks regular local, and correctly spells out affine Noetherian neighborhoods. This is equivalent to the Stacks definition (https://stacks.math.columbia.edu/tag/02IR), which gives the same locally Noetherian/stalk characterization. locally-ringed-space is already part of the scheme prerequisite and is therefore redundant; the remaining dependencies are correctly oriented.",
+      "verdict": "revise",
+      "body_findings": [],
+      "reviewer": "independent-foundations",
+      "stratum": "foundations",
+      "source_path": "content/algebraic-geometry-foundations/regular-scheme.knowl.md",
+      "sha256_after": "40648832e18f6a940fb4194da8f21e15a861ad6ecbb55b3ad0cef44b037a2e02",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebraic-geometry-foundations/geometric-fiber",
+      "before": [
+        "algebraic-geometry-foundations/morphism-of-schemes",
+        "algebraic-geometry-foundations/fiber-product-of-schemes",
+        "algebraic-geometry-foundations/scheme-over-a-base",
+        "algebra-commutative/residue-field",
+        "algebra-fields-galois/algebraic-closure"
+      ],
+      "after": [
+        "algebraic-geometry-foundations/morphism-of-schemes",
+        "algebraic-geometry-foundations/fiber-product-of-schemes",
+        "algebra-commutative/residue-field",
+        "algebra-fields-galois/algebraic-closure"
+      ],
+      "review_count_before": 1,
+      "sha256": "82f69ab8f6aa78e45662d1ad948930bc696bf2224bec0d4817ea40e400214740",
+      "rationale": "The body correctly defines X times_S Spec(overline{kappa(s)}) and distinguishes it from the ordinary residue-field fiber. A choice of algebraic closure together with the inclusion kappa(s) into it gives the stated geometric point. morphism-of-schemes, fiber-product, residue-field, and algebraic-closure are needed. scheme-over-a-base merely repackages the already-given morphism f:X to S and is redundant; the standard Stacks discussion confirms geometric fibers are formed by such base changes (https://stacks.math.columbia.edu/tag/038S).",
+      "verdict": "revise",
+      "body_findings": [],
+      "reviewer": "independent-foundations",
+      "stratum": "foundations",
+      "source_path": "content/algebraic-geometry-foundations/geometric-fiber.knowl.md",
+      "sha256_after": "1ff692bba1e9342bee22815a6f4290524f5070e15492b88de57b5f2fcff02aac",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "differential-geometry/differentiable-flow",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "real-analysis/differentiable-map",
+        "shared-foundations/real-numbers",
+        "shared-foundations/composition"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "real-analysis/differentiable-map",
+        "shared-foundations/real-numbers",
+        "shared-foundations/composition"
+      ],
+      "review_count_before": 1,
+      "sha256": "8c20c8c1becdbec357e74b2b997237700fb20758c742f255ecfd09757d8a2eb3",
+      "rationale": "The C1 map and action laws are a correct global flow definition; phi_{-t} is the inverse of phi_t by the laws, and is C1 because it is another time map. The real line, composition, manifold charts, and differentiability language are all used. The local-flow distinction is accurate. No missing, irrelevant, or reversed prerequisite was found.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-foundations",
+      "stratum": "foundations",
+      "source_path": "content/differential-geometry/differentiable-flow.knowl.md",
+      "sha256_after": "bd2ea5d663df12daaf08998165f681307982d7c2dcc4dc028db7b243711f4ed8",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/unit-tangent-bundle",
+      "before": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/tangent-bundle",
+        "linear-algebra/norm"
+      ],
+      "after": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "review_count_before": 1,
+      "sha256": "e145a5e92d44e6eae1d80261da6b2345ba237039e1ea3330b4ccf513338d2269",
+      "rationale": "The set of tangent vectors satisfying g_x(v,v)=1 is the correct unit tangent bundle, and the fiber description follows from the Riemannian metric. The separate norm prerequisite is redundant because the Riemannian-manifold body already defines the metric-induced length used here. The other two prerequisites are needed and correctly oriented.",
+      "verdict": "revise",
+      "body_findings": [],
+      "reviewer": "independent-foundations",
+      "stratum": "foundations",
+      "source_path": "content/fiber-bundles/unit-tangent-bundle.knowl.md",
+      "sha256_after": "4233a3f7310044c508702f0a1edd58267015dedf8a765df5937f2a6bcbd7a3b5",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "differential-geometry/geodesic",
+      "before": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/levicivita-connection-connection",
+        "fiber-bundles/covariant-derivative-of-a-section"
+      ],
+      "after": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/levicivita-connection-connection",
+        "fiber-bundles/covariant-derivative-of-a-section"
+      ],
+      "review_count_before": 1,
+      "sha256": "88ef247a4a47b4099c82065a58ee09c30ea17992a056cfacf424ce1834ae82c5",
+      "rationale": "The geodesic equation nabla_{dot gamma} dot gamma=0 is correct, and metric compatibility implies constant speed. The initial-value existence and uniqueness statement is the standard local ODE result for a smooth Riemannian manifold and its Levi-Civita connection; maximal extension and the unit-speed specialization are correctly stated. All three prerequisites are used and correctly oriented.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-foundations",
+      "stratum": "foundations",
+      "source_path": "content/differential-geometry/geodesic.knowl.md",
+      "sha256_after": "c1df3647921d90470cd8b21fe071cc782754d36efdcb0f068915d9ba3d897b24",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/smooth-manifold",
+      "before": [
+        "topology/topological-manifold",
+        "fiber-bundles/maximal-smooth-atlas",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/smooth-structure"
+      ],
+      "after": [
+        "topology/topological-manifold",
+        "fiber-bundles/maximal-smooth-atlas",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/smooth-structure"
+      ],
+      "review_count_before": 1,
+      "sha256": "18b4babdb0eed561201623662b1e56df52bbb35b965b8985edfdf3427d95293c",
+      "rationale": "Pass. The definition has exactly the needed ingredients: a Hausdorff second-countable topological manifold and a maximal compatible smooth atlas. The smooth-structure equivalence is a consequence/alternative presentation, and the transitive closure supplies topology, charts, and transition-map definitions without a missing prerequisite.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-hubs",
+      "stratum": "hubs",
+      "source_path": "content/fiber-bundles/smooth-manifold.knowl.md",
+      "sha256_after": "01d7ffbb5834fd7c610171d24183444824fb4587b55cbe6b408d40fb23b57d6f",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "linear-algebra/vector-space",
+      "before": [
+        "algebra-rings/field",
+        "shared-foundations/set",
+        "shared-foundations/function"
+      ],
+      "after": [
+        "algebra-rings/field",
+        "shared-foundations/set",
+        "shared-foundations/function"
+      ],
+      "review_count_before": 1,
+      "sha256": "f857e63fde73fc15eeca6578f4e926acbb240416c4e24cf945c075abc1c6c42a",
+      "rationale": "Pass. The field, carrier set, and typed operations are the definition's ingredients; Cartesian products and algebraic axioms are covered transitively through the prerequisite closure. The examples and context are optional consequences.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-hubs",
+      "stratum": "hubs",
+      "source_path": "content/linear-algebra/vector-space.knowl.md",
+      "sha256_after": "7c3cc7c715b6cb47fb5069b9ffe1907ce19c8fe9ca6a7db06719f5bf77128f28",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/lie-group",
+      "before": [
+        "algebra-groups/group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map"
+      ],
+      "review_count_before": 1,
+      "sha256": "07a9ecdfab0caa889415abf6a1844b200d1a5e3ea9c734e657dd28161e559734",
+      "rationale": "Pass. A group structure, smooth-manifold structure, and smoothness of multiplication and inversion are precisely the defining ingredients. Translation diffeomorphisms, tangent Lie algebras, and exponential maps are optional consequences.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-hubs",
+      "stratum": "hubs",
+      "source_path": "content/fiber-bundles/lie-group.knowl.md",
+      "sha256_after": "c1ab56377c036c898290b3cd56ea0570dbe5a11ea5eec4c7bda4ffd9c844fd9e",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "linear-algebra/hilbert-space",
+      "before": [
+        "linear-algebra/inner-product-space",
+        "linear-algebra/norm",
+        "topology/complete-metric-space"
+      ],
+      "after": [
+        "linear-algebra/inner-product-space",
+        "linear-algebra/norm",
+        "topology/complete-metric-space"
+      ],
+      "review_count_before": 1,
+      "sha256": "ff418de48c26c237647ec589e115bcddf80e42106bc6296097682ae3f17e1c80",
+      "rationale": "Pass. The definition requires an inner-product space and completeness for its induced norm. The explicit norm and complete-metric prerequisites are somewhat redundant because the inner product induces the norm, but they are relevant and not reversed; the transitive closure supplies the scalar and metric foundations. Banach-space status and examples are consequences.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-hubs",
+      "stratum": "hubs",
+      "source_path": "content/linear-algebra/hilbert-space.knowl.md",
+      "sha256_after": "d7db44f157e72b7d195c212a116340fd340abf6356e26ec5f6fe8aba216cbfe7",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "lie-groups/lie-algebra",
+      "before": [
+        "linear-algebra/vector-space",
+        "fiber-bundles/lie-bracket"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "fiber-bundles/lie-bracket"
+      ],
+      "review_count_before": 1,
+      "sha256": "2c88cfeef85698e3516f3b6ddec6c261431110b69fcd4e64f3d76a78591e7ce6",
+      "rationale": "Needs a prerequisite-content correction, while the target definition itself is correct. The target permits an arbitrary field k, but fiber-bundles/lie-bracket is stated only for a real vector space; that prerequisite is too narrow for the stated definition. Its bracket axioms are otherwise the right ingredients, and no target edge change resolves the field mismatch.",
+      "verdict": "needs_changes",
+      "body_findings": [
+        "fiber-bundles/lie-bracket is real-only although this definition is over an arbitrary field; generalize that prerequisite or explicitly restrict this definition to R."
+      ],
+      "reviewer": "independent-hubs",
+      "stratum": "hubs",
+      "source_path": "content/lie-groups/lie-algebra.knowl.md",
+      "sha256_after": "dce6c4737056d757f6f242ac94ba9915fef1951a81661e687ae04832a06ee03d",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/principal-g-bundle",
+      "before": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism",
+        "fiber-bundles/smooth-submersion",
+        "algebra-groups/group-action"
+      ],
+      "after": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism",
+        "fiber-bundles/smooth-submersion",
+        "algebra-groups/group-action"
+      ],
+      "review_count_before": 1,
+      "sha256": "cfad395d384d03194ee48d4004de992fa87e5e573b8ac62428e21e3790990cea",
+      "rationale": "Pass. The listed prerequisites cover the Lie group, smooth total and base manifolds, smooth surjective submersion, smooth action, free/transitive fiber action, and equivariant local diffeomorphisms. Product-manifold and action-map details are covered transitively. Connections, holonomy, curvature, and examples are optional consequences.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-hubs",
+      "stratum": "hubs",
+      "source_path": "content/fiber-bundles/principal-g-bundle.knowl.md",
+      "sha256_after": "bd66ae727d9b4fe26ba2c5e3b8e1e1240fffcf2eca2e1b504fba3629b779a05b",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-groups/group",
+      "before": [
+        "shared-foundations/set",
+        "shared-foundations/binary-operation",
+        "algebra-groups/monoid"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/binary-operation",
+        "algebra-groups/monoid"
+      ],
+      "review_count_before": 1,
+      "sha256": "8217904e3bf74828546fd0c7cb8f66be5807cc1ee1a33a143a32b4cab6b1bd33",
+      "rationale": "Pass. Set, closed binary operation, and monoid structure cover the group ingredients; inverses are then added explicitly. The direct binary-operation edge is useful even though the monoid branch also reaches it. Subgroups and homomorphisms are consequences.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-hubs",
+      "stratum": "hubs",
+      "source_path": "content/algebra-groups/group.knowl.md",
+      "sha256_after": "e1e0f9e51e069152ec2c7effedc079c2770b01a2c9b149e68190b38341a8b521",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "operator-algebras/cstar-algebra",
+      "before": [
+        "operator-algebras/involutive-algebra",
+        "functional-analysis/banach-algebra"
+      ],
+      "after": [
+        "operator-algebras/involutive-algebra",
+        "functional-analysis/banach-algebra"
+      ],
+      "review_count_before": 1,
+      "sha256": "7fccaf04a15be3a789d8559a98dd35a9e9f58e6320875f39a02e80bd459ab068",
+      "rationale": "Needs prerequisite-content correction. The target correctly allows nonunital C*-algebras, but both prerequisite branches inherit algebra-modules/algebra-over-ring, whose body requires A to be a unital ring. That makes the prerequisite path narrower than the target definition. A Berkeley functional-analysis text likewise defines a C*-algebra by a complete algebra norm and involution and treats the identity case separately: [Functional Analysis lecture notes](https://math.berkeley.edu/~ltomczak/notes/Lent2023/FuncAna_Notes.pdf). The target's spectral-radius and representation statements are consequences, not prerequisites.",
+      "verdict": "needs_changes",
+      "body_findings": [
+        "The inherited algebra-over-ring prerequisite is unital while this C*-algebra definition explicitly includes nonunital algebras; repair the algebra prerequisite or provide a nonunital complex-algebra prerequisite."
+      ],
+      "reviewer": "independent-hubs",
+      "stratum": "hubs",
+      "source_path": "content/operator-algebras/cstar-algebra.knowl.md",
+      "sha256_after": "5d0265c90bc169b5ef7af28dac46fb71a3c955a9b9c00e6263f2c0d8b157b407",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/lie-bracket",
+      "before": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ],
+      "review_count_before": 1,
+      "sha256": "fa6109c47b0c56ea282f13ac965ab576c2ecf923800e1f8e6a50997a742df868",
+      "rationale": "The metadata edges are sufficient, but the body must be generalized from real vector spaces to vector spaces over a field to support lie-groups/lie-algebra.",
+      "verdict": "repair",
+      "body_findings": [
+        "State k-bilinearity and alternatingity over an arbitrary field; state skew-symmetry as a consequence and its converse only when characteristic is not 2.",
+        "Over an arbitrary field, alternatingity implies skew symmetry, but skew symmetry alone does not imply alternatingity in characteristic 2."
+      ],
+      "reviewer": "independent-hubs",
+      "stratum": "follow-up",
+      "source_path": "content/fiber-bundles/lie-bracket.knowl.md",
+      "sha256_after": "cbb06e4ae7ab153c408004dfa5e00e17cc6bf90cad5794c0eb9624afa8e2a1b5",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-modules/algebra-over-ring",
+      "before": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ring-homomorphism"
+      ],
+      "after": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ring-homomorphism"
+      ],
+      "review_count_before": 1,
+      "sha256": "810544b3ed9d3edef42081c2a2d65dfae3f6022153d306b66340dcf4e31736b0",
+      "rationale": "Pass under the repository's unital algebra-over-ring convention. It should remain unital; nonunital analytic algebras must use self-contained definitions rather than weakening this foundation.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-hubs",
+      "stratum": "follow-up",
+      "source_path": "content/algebra-modules/algebra-over-ring.knowl.md",
+      "sha256_after": "182bfb2366adb03bd095ccf4c71f1d80a9e59750ca73b98cd2224dcf44677044",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "operator-algebras/involutive-algebra",
+      "before": [
+        "algebra-modules/algebra-over-ring"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "shared-foundations/complex-conjugate"
+      ],
+      "review_count_before": 1,
+      "sha256": "fd248285b4f7024652731442573a616ec995a3713021032705b298bf2e3d04a4",
+      "rationale": "Remove the unital algebra-over-ring edge and define the complex associative, possibly nonunital algebra structure directly in the body. This preserves support for nonunital C*-algebras without changing the unital algebra-over-ring convention. Complex conjugation is an essential input to the displayed conjugate-linearity axiom and is supplied explicitly.",
+      "verdict": "repair",
+      "body_findings": [
+        "Replace the linked algebra phrase with a self-contained complex vector space plus associative C-bilinear multiplication; retain the involution axioms and optional unital discussion.",
+        "The linked algebra-homomorphism convention is unital; spell out the possibly nonunital morphism convention consistently."
+      ],
+      "reviewer": "independent-hubs",
+      "stratum": "follow-up",
+      "source_path": "content/operator-algebras/involutive-algebra.knowl.md",
+      "sha256_after": "5e261bc3db655e587eb4cca07651d01b7592ea15fba38f4ff2bc26ee4c5aabb0",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "functional-analysis/banach-algebra",
+      "before": [
+        "algebra-modules/algebra-over-ring",
+        "linear-algebra/norm",
+        "linear-algebra/banach-space"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "linear-algebra/norm",
+        "linear-algebra/banach-space"
+      ],
+      "review_count_before": 1,
+      "sha256": "1f5ea77f926c91e34d7920f54c4081b5b4a61c85d3aeb058da697bdd5542c012",
+      "rationale": "Remove the unital algebra-over-ring edge and define an associative F-bilinear multiplication directly. The resulting prerequisites cover the vector, norm, and completeness ingredients while allowing nonunital Banach algebras used by the C*-algebra hub.",
+      "verdict": "needs_changes",
+      "body_findings": [
+        "Replace the linked F-algebra phrase with a self-contained F-vector space and associative F-bilinear multiplication; keep the existing explicit nonunital convention."
+      ],
+      "reviewer": "independent-hubs",
+      "stratum": "follow-up",
+      "source_path": "content/functional-analysis/banach-algebra.knowl.md",
+      "sha256_after": "4345573f130a567b93b5a95265d35d8d5d1c75abaa304b88fa6cdf2dfdd4960b",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-category-theory/category",
+      "before": [],
+      "after": [],
+      "review_count_before": 1,
+      "sha256": "1134c5bc8dfa08a54b2d7a500b53fcd3524f2413b41809a2abc6685a53962847",
+      "rationale": "PASS. The category entry correctly treats objects, hom collections, composition, and identities as the primitive package. Keeping morphism out of its prerequisite list is the minimal way to break the reciprocal boundary; the morphism entry can then define an arrow as an element of a hom collection. The object prerequisite is similarly downstream of the category package. The axioms and examples are correct.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/algebra-category-theory/category.knowl.md",
+      "sha256_after": "03fc0526f3fb88dea661077d4a1b0b0ab9f3138b2be6624f4ae140f834133247",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-category-theory/morphism",
+      "before": [
+        "algebra-category-theory/object",
+        "algebra-category-theory/category"
+      ],
+      "after": [
+        "algebra-category-theory/object",
+        "algebra-category-theory/category"
+      ],
+      "review_count_before": 1,
+      "sha256": "3cc99ba5cbf0463161683e8820e36d73db8e184e68a81a32f33e4a8dd3ced6ab",
+      "rationale": "PASS. Given a category and two of its objects, defining a morphism as an element of Hom_C(X,Y) is correct and supplies the reverse-boundary concept needed by the category entry. The special-morphism descriptions and Set/Grp/Top examples are accurate. No prerequisite change is needed.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/algebra-category-theory/morphism.knowl.md",
+      "sha256_after": "317cd4542433816161ae23dbb9b87a968d5d80d624f0c513768730393812d6c5",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "differential-geometry/complex-atlas",
+      "before": [
+        "topology/topological-manifold",
+        "differential-geometry/complex-coordinate-chart",
+        "shared-foundations/equivalence-class"
+      ],
+      "after": [
+        "topology/topological-manifold",
+        "differential-geometry/complex-coordinate-chart",
+        "shared-foundations/equivalence-class",
+        "differential-geometry/holomorphic-map"
+      ],
+      "review_count_before": 1,
+      "sha256": "7299143ab327029d8b3f1202f58f58607904a714388b20b40265de09d1c49562",
+      "rationale": "REPAIR. The atlas definition is mathematically correct, including the cover, overlap condition, equivalence relation, and maximal-atlas statement. Holomorphicity of transition maps is an essential ingredient, however, so the atlas should depend on the independently defined Euclidean holomorphic-map primitive. This direction is compatible with the proposed removal of complex-manifold from holomorphic-map and preserves an acyclic boundary.",
+      "verdict": "repair",
+      "body_findings": [
+        "The transition condition is essential rather than merely illustrative; add holomorphic-map as a prerequisite after making its Euclidean definition independent of complex-manifold."
+      ],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/differential-geometry/complex-atlas.knowl.md",
+      "sha256_after": "d60fcc3c3f5d76fea69eaeada5d7c017bee3f037b220af6f1abc8f3319b0427e",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "differential-geometry/holomorphic-map",
+      "before": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/complex-coordinate-chart",
+        "fiber-bundles/smooth-map"
+      ],
+      "after": [
+        "differential-geometry/complex-coordinate-chart",
+        "fiber-bundles/smooth-map"
+      ],
+      "review_count_before": 1,
+      "sha256": "d9821bb2d5e71f6fad21e02c135c0c231a66192528463bd0f72750b83f629c48",
+      "rationale": "REPAIR. The first paragraph gives the primitive Euclidean notion, so complex-manifold is not needed to define holomorphic maps. Removing that contextual prerequisite lets complex-atlas depend on this primitive and complex-manifold depend on the atlas without a cycle. The manifold-map paragraph remains useful but should be phrased as an application of the chart criterion rather than as a prerequisite to the primitive definition. The smoothness, chart invariance, differential, and one-variable qualifications are correct.",
+      "verdict": "repair",
+      "body_findings": [
+        "Rewrite the sentence beginning 'For complex manifolds' so it explicitly applies the already-defined Euclidean notion in compatible charts; do not make the complex-manifold definition a prerequisite."
+      ],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/differential-geometry/holomorphic-map.knowl.md",
+      "sha256_after": "87b3235d9d349c927eac45f910c7aabec9706373efea0d12d5fb82386a1f88d8",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "differential-geometry/complex-manifold",
+      "before": [
+        "topology/topological-manifold",
+        "differential-geometry/complex-atlas",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "after": [
+        "topology/topological-manifold",
+        "differential-geometry/complex-atlas",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "review_count_before": 1,
+      "sha256": "512ef461dc9f593dc13b0a2b08f4c721d96ed10b6ceb05aa0436495b26165f32",
+      "rationale": "PASS. The complex-manifold definition correctly requires Hausdorff and second countability, a complex-chart cover, and holomorphic transitions; the atlas prerequisite supplies the transition notion. The smooth and almost-complex discussion and Newlander–Nirenberg qualification are appropriate, and the holomorphic-map morphism discussion is correct once holomorphic-map is kept as a lower-level Euclidean/chart concept.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/differential-geometry/complex-manifold.knowl.md",
+      "sha256_after": "434f54d4687c168d58956b32072b413cee78fb9a9718e8cb271e4a63937fb680",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-modules/tensor-product",
+      "before": [
+        "algebra-rings/ring",
+        "algebra-modules/bilinear-map",
+        "algebra-modules/module",
+        "algebra-modules/tensor-product-universal-property"
+      ],
+      "after": [
+        "algebra-rings/ring",
+        "algebra-modules/bilinear-map",
+        "algebra-modules/module",
+        "algebra-modules/tensor-product-universal-property"
+      ],
+      "review_count_before": 1,
+      "sha256": "7c8de9e2ddfef81598e4741d3ae0db1dd36bc3a85224d1ad9cac416013558504",
+      "rationale": "PASS. The tensor product is correctly presented as the object equipped with the canonical balanced biadditive map and the universal factorization property. The noncommutative right-left convention, functoriality claim, examples, and quotient example are correct. The universal-property prerequisite is the proper direction of the boundary.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/algebra-modules/tensor-product.knowl.md",
+      "sha256_after": "1fca2e64bb005b095333a9c680f433360bc8091131ea1ff4a0827203eb7790fc",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-modules/tensor-product-universal-property",
+      "before": [
+        "algebra-modules/bilinear-map",
+        "algebra-modules/module-homomorphism"
+      ],
+      "after": [
+        "algebra-modules/bilinear-map",
+        "algebra-modules/module-homomorphism"
+      ],
+      "review_count_before": 1,
+      "sha256": "2e40b55cbaeef960047b3ede79c17f6722872329d1810e84c4e5d1db471f149a",
+      "rationale": "PASS. This entry correctly defines the universal pair using biadditivity and balancing and quantifies over every abelian-group target, which is the right generality for a right-module/left-module tensor product over a possibly noncommutative ring. It therefore can precede the tensor-product entry without depending on it. The examples are valid.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/algebra-modules/tensor-product-universal-property.knowl.md",
+      "sha256_after": "afbbe8bfd42631781446cc1f1979f4d0820a3fd957aa10337ad7f9dffaefb41b",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-modules/smith-normal-form-invariants",
+      "before": [
+        "algebra-modules/structure-theorem-pid",
+        "algebra-modules/cokernel-module",
+        "algebra-rings/pid"
+      ],
+      "after": [
+        "algebra-modules/structure-theorem-pid",
+        "algebra-modules/cokernel-module",
+        "algebra-rings/pid"
+      ],
+      "review_count_before": 1,
+      "sha256": "e091dad703b7cd222cd3366ebdb714c9ce7f0e7c0084298e84d15fce5930dad3",
+      "rationale": "PASS. Assuming a Smith diagonal form, the cokernel decomposition and uniqueness up to associates are correct, including the free rank m-r for an m-by-n matrix. The entry properly cites the theorem as justification in its body without making that theorem a prerequisite; this is the correct direction for the boundary.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/algebra-modules/smith-normal-form-invariants.knowl.md",
+      "sha256_after": "bf4c6cca033cdfc334a6539ca64ee9098d11db5cff3b369df62bfa1eb6b7c32d",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-modules/smith-normal-form-theorem",
+      "before": [
+        "algebra-rings/pid",
+        "algebra-modules/matrix-representation",
+        "algebra-modules/structure-theorem-pid",
+        "algebra-modules/smith-normal-form-invariants"
+      ],
+      "after": [
+        "algebra-rings/pid",
+        "algebra-modules/matrix-representation",
+        "algebra-modules/structure-theorem-pid"
+      ],
+      "review_count_before": 1,
+      "sha256": "54c3f52ece46e2c6c853a71cd8991d823620a09de18f15b7d5c1678755cb17fc",
+      "rationale": "REPAIR. The existence and divisibility statement is the primitive theorem, while invariant factors are its named consequence and should not be a prerequisite. Remove smith-normal-form-invariants from this prerequisite list. The rectangular matrix statement, invertible row and column operations, uniqueness up to units, and cokernel interpretation are mathematically correct.",
+      "verdict": "repair",
+      "body_findings": [
+        "The theorem currently depends on the invariants entry even though it introduces and proves the invariant diagonal entries; reverse that dependency by omitting the invariants prerequisite."
+      ],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/algebra-modules/smith-normal-form-theorem.knowl.md",
+      "sha256_after": "63917b2d96cb3c61ff9a8936fb8dd32100221eb8cf22f399839974c94cbc2e5e",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebraic-geometry-foundations/site",
+      "before": [
+        "algebra-category-theory/category",
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "algebraic-geometry-foundations/sieve"
+      ],
+      "after": [
+        "algebra-category-theory/category",
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "algebraic-geometry-foundations/sieve"
+      ],
+      "review_count_before": 1,
+      "sha256": "b1029edbb9118081d4f4dc2606e9951df6800e5a11cac127f3f883ecfe031d25",
+      "rationale": "PASS. A site is exactly a category together with a Grothendieck topology on it. The sieve prerequisite supports the topology and the covering-language explanation; the entry does not need covering-family as a prerequisite because covering families are derived from the site. No essential axiom is missing.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/algebraic-geometry-foundations/site.knowl.md",
+      "sha256_after": "1871d210ee00fe0816db2ca02aac33c421c80db6382ae0c516c83618d14c768c",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebraic-geometry-foundations/covering-family",
+      "before": [
+        "algebraic-geometry-foundations/sieve",
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "algebraic-geometry-foundations/site"
+      ],
+      "after": [
+        "algebraic-geometry-foundations/sieve",
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "algebraic-geometry-foundations/site"
+      ],
+      "review_count_before": 1,
+      "sha256": "f5167698ee77bf686338b725acf371446d83d645ce03974d37f1fa0878fb961c",
+      "rationale": "PASS. The definition correctly says that the generated sieve of a family belongs to J(U), and the factorization description of that sieve is right. The etale example is valid in the etale site, where the family members are already required to be etale; the site/topology prerequisites are in the correct direction.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/algebraic-geometry-foundations/covering-family.knowl.md",
+      "sha256_after": "cce360b439d83bb11d809dc93ed2f7b660b964eedefff05b1e4ec3826ed7803d",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "harmonic-analysis/unitary-dual",
+      "before": [
+        "topology/locally-compact-group",
+        "lie-groups/unitary-equivalence-of-representations",
+        "lie-groups/irreducible-unitary-representation",
+        "linear-algebra/hilbert-space",
+        "harmonic-analysis/pontryagin-dual"
+      ],
+      "after": [
+        "topology/locally-compact-group",
+        "lie-groups/unitary-equivalence-of-representations",
+        "lie-groups/irreducible-unitary-representation",
+        "linear-algebra/hilbert-space",
+        "harmonic-analysis/pontryagin-dual"
+      ],
+      "review_count_before": 1,
+      "sha256": "4d0845a6102660b6cc805d3ffe838e9c1cefba84080cd3e584d03cc144ff6323",
+      "rationale": "The irreducible representation classes define the underlying set. Fell topology is supplied afterward by its own entry, so the edge direction remains acyclic. Clarify the center/variable convention in the informal neighborhood description; the original could be read correctly with rho as center and was not a proved orientation error.",
+      "verdict": "repair",
+      "body_findings": [
+        "Clarify the neighborhood center and the underlying-set/topology construction order."
+      ],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/harmonic-analysis/unitary-dual.knowl.md",
+      "sha256_after": "33493b4561f8f85a95a8edcafcc3c5b505110c3ea6e9a18a27b97d1e5693db56",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "harmonic-analysis/fell-topology",
+      "before": [
+        "topology/locally-compact-group",
+        "harmonic-analysis/unitary-dual",
+        "operator-algebras/full-group-cstar-algebra",
+        "harmonic-analysis/weak-containment-unitary-representations"
+      ],
+      "after": [
+        "topology/locally-compact-group",
+        "harmonic-analysis/unitary-dual",
+        "operator-algebras/full-group-cstar-algebra",
+        "harmonic-analysis/weak-containment-unitary-representations"
+      ],
+      "review_count_before": 1,
+      "sha256": "a9289ef797ac1eeca2600323c680353798a50ce01096094f910c6dd0d33d69f9",
+      "rationale": "PASS. The hull-kernel closure formula has the correct inclusion direction, and its weak-containment reformulation is the standard C*-algebraic characterization. The coefficient paragraph points to the equivalent Fell description, while the type-I qualification correctly distinguishes kernels from representation classes. This entry appropriately depends on the already-defined unitary dual.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "independent-repairs",
+      "stratum": "repairs",
+      "source_path": "content/harmonic-analysis/fell-topology.knowl.md",
+      "sha256_after": "1cd3bfddd462715b03d7de430e7cd6efdb7fdc5840877f0c098469634581d6d3",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/exterior-power-bundle"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle"
+      ],
+      "review_count_before": 1,
+      "sha256": "7207d570e73101a5924718a985c01f264843a6bd6b8bfa2fbf63ecd45b825d20",
+      "rationale": "The definition is a smooth section of an exterior-power cotangent bundle. Its old closure supplied the bundle but omitted sections; restore that ingredient. Exterior differentiation and pullback are downstream operations.",
+      "verdict": "repair",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/fiber-bundles/differential-k-form.knowl.md",
+      "sha256_after": "4635fccbc59daa28c42a6f1c7d9af6bec1a749cd3a01aaf5a6ab7da89e1e4609",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "lie-groups/simply-connected-lie-group",
+      "before": [
+        "topology/fundamental-group",
+        "lie-groups/connected-lie-group"
+      ],
+      "after": [
+        "topology/fundamental-group",
+        "lie-groups/connected-lie-group"
+      ],
+      "review_count_before": 1,
+      "sha256": "2463aa4e946f7ac39f805818660ebdb21fb2f8c9a645b6b494457157c7345a43",
+      "rationale": "Connectedness and trivial fundamental group supply the definition. Covering groups and integration of Lie algebras are consequences. The connected-Lie-group prerequisite is corrected separately to supply connectedness without requiring its structural consequences.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/lie-groups/simply-connected-lie-group.knowl.md",
+      "sha256_after": "a840041875520ad08710693c214af927c816a2a88cf27a9c5dfca3ded2c4e24c",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "lie-groups/smooth-action-lie-group",
+      "before": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "after": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "review_count_before": 1,
+      "sha256": "7c3463c1169f29e40e349354d8fd960cdc517585273be81fd9fe919b8196f02d",
+      "rationale": "The Lie group and smooth manifold supply group operations and smooth maps transitively; the action axioms are stated locally. Free, effective and transitive actions are special properties, not defining inputs.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/lie-groups/smooth-action-lie-group.knowl.md",
+      "sha256_after": "04e7af291a6b6f304b704e7eebbad840ae398d1dd456f9b5e82115cb15cf5cbf",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "topology/irreducible-space",
+      "before": [
+        "topology/topological-space",
+        "topology/open-set",
+        "topology/closed-set"
+      ],
+      "after": [
+        "topology/topological-space",
+        "topology/open-set",
+        "topology/closed-set",
+        "topology/subspace-topology"
+      ],
+      "review_count_before": 1,
+      "sha256": "464a92ff1d0f887d3e53e0e3fa6864d467ab5f22a8f0cdd9c4d100c75f320ad6",
+      "rationale": "The definition explicitly tests a subset in its subspace topology; that construction was absent from the closure. Spectra, generic points and irreducible components are applications.",
+      "verdict": "repair",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/topology/irreducible-space.knowl.md",
+      "sha256_after": "4259e716ce2e5869b794d4e8860fa29bd5c4b42f168300a5540d495db3d9a2e3",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-fields-galois/cyclotomic-extension",
+      "before": [
+        "algebra-rings/field",
+        "algebra-fields-galois/primitive-root-of-unity",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-fields-galois/simple-extension"
+      ],
+      "after": [
+        "algebra-rings/field",
+        "algebra-fields-galois/primitive-root-of-unity",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-fields-galois/simple-extension"
+      ],
+      "review_count_before": 1,
+      "sha256": "675f3cd75b86d55619c282d19cc16f60cada8fac951aaf1d9842841c78f7e06e",
+      "rationale": "The field, primitive root of unity, algebraic closure and simple extension supply K(zeta_n). The stated root-existence qualification is needed in positive characteristic. Separability, normality and Galois descriptions are consequences.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/algebra-fields-galois/cyclotomic-extension.knowl.md",
+      "sha256_after": "63f065df4a6b18eaf28b6ecdca48cae0df58f7bb1edf69adae62f2d410f186ab",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-modules/module",
+      "before": [
+        "algebra-rings/ring",
+        "algebra-modules/module-axioms"
+      ],
+      "after": [
+        "algebra-rings/ring",
+        "algebra-modules/module-axioms"
+      ],
+      "review_count_before": 1,
+      "sha256": "74545f247b573808b0a598b95b0e4915f864e847f193c3e439ef3a079d504e9d",
+      "rationale": "The ring and module-axiom inputs supply the additive group and scalar action. The body explicitly distinguishes the unital axiom from its general ring convention. Vector spaces, ideals and submodules are examples or later constructions.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/algebra-modules/module.knowl.md",
+      "sha256_after": "6b8d65ff94e07797e3d7e427c1b3c1def804c0f37e2458ff29f4b2a742f0b4f9",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/vector-field",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/tangent-space-at-a-point"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/tangent-space-at-a-point"
+      ],
+      "review_count_before": 1,
+      "sha256": "5bcd7422274e6dcc2de71c6f5fb82c6d0f78feeb47f3d3f4f3ce6e7ca7835922",
+      "rationale": "A vector field is a smooth section of the tangent bundle. The list supplies that bundle, its fibers and sections; smooth-map information is inherited through sections. Cotangent and differential-operator descriptions are optional alternatives.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/fiber-bundles/vector-field.knowl.md",
+      "sha256_after": "1ce857ce4e94f0e40b403b6c785a24caa73f83778723c0c6e022dfea4eb8afdb",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "convex-analysis/legendre-fenchel-transform",
+      "before": [
+        "shared-foundations/function",
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "real-analysis/supremum"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "real-analysis/supremum",
+        "linear-algebra/inner-product"
+      ],
+      "review_count_before": 1,
+      "sha256": "cb8bd79b77ebf9fdad0a3e2c5cc2219b18a88aff3b816b57124e6d637d8dc571",
+      "rationale": "Supremum, extended-real conventions and a function do not yet supply the Euclidean pairing. Add the inner-product input. Also account for the allowed f identically +infinity, whose conjugate is identically -infinity.",
+      "verdict": "repair",
+      "body_findings": [
+        "The allowed input f identically +infinity gives f* identically -infinity, so the output codomain must include -infinity.",
+        "Make the pairing and improper-function case explicit, including the empty-set indicator example."
+      ],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/convex-analysis/legendre-fenchel-transform.knowl.md",
+      "sha256_after": "9b16106dd8141cb541195cc278ed2f6b297f88e871b02095202b595928c8f59e",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-category-theory/coproduct",
+      "before": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "after": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "review_count_before": 1,
+      "sha256": "5d614bb94a9f32649be5de1b047b2519a08ca939940b8d3937c3d0a22f564038",
+      "rationale": "Objects, morphisms and composition in a category suffice for the displayed universal property. Products and colimits are comparisons and consequences, rather than prerequisites to this definition.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/algebra-category-theory/coproduct.knowl.md",
+      "sha256_after": "f64eaef6cdf551141dac515216132011dcec43bfaca1de0903566ae8b7540069",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "convex-analysis/minkowski-function-gauge-of-a-set",
+      "before": [
+        "linear-algebra/vector-space",
+        "shared-foundations/set",
+        "real-analysis/infimum"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "shared-foundations/set",
+        "real-analysis/infimum"
+      ],
+      "review_count_before": 1,
+      "sha256": "ceeab298d9a1558bd8d49e238b5c33a45b1803a20394f603bab3f86f3b2cb39b",
+      "rationale": "A vector space, subset and infimum suffice for the raw extended-valued gauge. The nonempty-set assumption handles the t=0 convention. Convexity, absorption and balance are additional hypotheses for later properties, not prerequisites for defining this function.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/convex-analysis/minkowski-function-gauge-of-a-set.knowl.md",
+      "sha256_after": "77e377ca82747fb39c43853ab982b0fc1b6c64aeeb84c93fd39f5c7c2fc40009",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "lie-groups/special-linear-group",
+      "before": [
+        "lie-groups/general-linear-group",
+        "lie-groups/lie-subgroup",
+        "lie-groups/closed-subgroup-lie-group",
+        "lie-groups/underlying-real-lie-group"
+      ],
+      "after": [
+        "lie-groups/general-linear-group",
+        "lie-groups/lie-subgroup",
+        "lie-groups/closed-subgroup-lie-group",
+        "lie-groups/underlying-real-lie-group",
+        "linear-algebra/determinant"
+      ],
+      "review_count_before": 1,
+      "sha256": "03015e7f644d7e0325ac3c79bd0cc336e9955cb1da611ab2d9a9ee847491f312",
+      "rationale": "The defining determinant-one condition requires the determinant, previously missing from the entire closure. Its general-linear-group and subgroup inputs also receive bounded follow-up corrections. Lie algebras, roots and exponentials are subsequent structure.",
+      "verdict": "repair",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/lie-groups/special-linear-group.knowl.md",
+      "sha256_after": "17dad867bd8eb9d05541d5ef678873b9dc92d41b46eebf0c17ba7d74be851847",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/flat-vector-bundle-connection",
+      "before": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/curvature-of-a-vector-bundle-connection",
+        "fiber-bundles/connection-on-a-vector-bundle"
+      ],
+      "after": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/curvature-of-a-vector-bundle-connection",
+        "fiber-bundles/connection-on-a-vector-bundle"
+      ],
+      "review_count_before": 1,
+      "sha256": "7eed47bc99c5150eb90e9b600b9cdb71772dc256b45681788b34370c98611ef3",
+      "rationale": "Zero curvature of a vector-bundle connection defines flatness. Local systems and holonomy are consequences, so their removed edges stay removed. The circle example needs the negative sign determined by the parallel-section equation.",
+      "verdict": "repair",
+      "body_findings": [
+        "For the specified convention ∇=d+A dtheta, the parallel ODE is s′+As=0 and fixes the negative holonomy sign."
+      ],
+      "reviewer": "parent",
+      "stratum": "removals",
+      "source_path": "content/fiber-bundles/flat-vector-bundle-connection.knowl.md",
+      "sha256_after": "1535579cbdd9af14b1ddde63c4c87c6af04f7478afb3e4ded2fe42ed1daee922",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "linear-algebra/eigenspace",
+      "before": [
+        "linear-algebra/linear-operator"
+      ],
+      "after": [
+        "linear-algebra/linear-operator"
+      ],
+      "review_count_before": 1,
+      "sha256": "26dd10f121312001c934b49a8ed01e77f9440e8ea9552fc007a18acd61287386",
+      "rationale": "The linear-operator input supplies the vector-space setting. The entry defines the kernel equation directly and correctly includes the zero solution space when the scalar is not an eigenvalue; no reciprocal eigenvalue dependency is necessary.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "control",
+      "source_path": "content/linear-algebra/eigenspace.knowl.md",
+      "sha256_after": "2bd9b834336bfaed4132ec641e138e2e9a966a50cb5859ad857d75efe7d2ce05",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "differential-geometry/dolbeault-complex",
+      "before": [
+        "differential-geometry/complex-manifold",
+        "algebra-homological/cochain-complex",
+        "linear-algebra/vector-space",
+        "differential-geometry/dolbeault-operators"
+      ],
+      "after": [
+        "differential-geometry/complex-manifold",
+        "algebra-homological/cochain-complex",
+        "linear-algebra/vector-space",
+        "differential-geometry/dolbeault-operators"
+      ],
+      "review_count_before": 1,
+      "sha256": "747b3440a189113093715556a9cf9e60503f92252903c900f83788f0882059ff",
+      "rationale": "The complex-manifold, cochain-complex and Dolbeault-operator inputs supply bidegree forms and the square-zero differential. The grading and complex linearity are correct; cohomology and examples are later constructions.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "control",
+      "source_path": "content/differential-geometry/dolbeault-complex.knowl.md",
+      "sha256_after": "5256e4d8d378f19acd62f3eb32c1184dff051eed063b6288e2e21d1bf84951cf",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-homological/hom-tensor-exactness",
+      "before": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/hom-left-exact",
+        "algebra-homological/tensor-right-exact",
+        "algebra-modules/projective-module",
+        "algebra-modules/injective-module",
+        "algebra-modules/flat-module"
+      ],
+      "after": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/hom-left-exact",
+        "algebra-homological/tensor-right-exact",
+        "algebra-modules/projective-module",
+        "algebra-modules/injective-module",
+        "algebra-modules/flat-module"
+      ],
+      "review_count_before": 1,
+      "sha256": "66b50541ce2913cf04aed76242cb325c61bb342030b84a1dba8ca11475da629a",
+      "rationale": "The direct Hom and tensor exactness statements, module convention and projective/injective/flat criteria supply the theorem. Right-left variance is consistent. The cyclic-group counterexamples need n at least 2 to exclude the zero module and noninjective original map at n=0.",
+      "verdict": "repair",
+      "body_findings": [
+        "The claimed failure of exactness excludes n=1, while n=0 invalidates the displayed starting injection."
+      ],
+      "reviewer": "parent",
+      "stratum": "control",
+      "source_path": "content/algebra-homological/hom-tensor-exactness.knowl.md",
+      "sha256_after": "833b6c59a6e88378aa79643059c478fc8be2541cdc5d18b953a3821a38650879",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "probability/moment-generating-function",
+      "before": [
+        "shared-foundations/function",
+        "probability/random-variable",
+        "probability/expectation"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "probability/random-variable",
+        "probability/expectation"
+      ],
+      "review_count_before": 1,
+      "sha256": "41ef9a5ae689e6d8127195dd902140a728425aff8f7fb3a6e87f5db7b3ddff3c",
+      "rationale": "The real random variable, expectation and function inputs supply the definition and finiteness domain. Differentiation is correctly conditional on finiteness in a neighborhood of zero; the examples respect that condition.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "control",
+      "source_path": "content/probability/moment-generating-function.knowl.md",
+      "sha256_after": "fea84fa0e6c54acbc4913b3997afa0c9a8688f4e5707a91fb5f3d9018ed38fc1",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "lie-groups/type-i-locally-compact-group",
+      "before": [
+        "topology/locally-compact-group",
+        "operator-algebras/full-group-cstar-algebra",
+        "operator-algebras/type-i-cstar-algebra",
+        "operator-algebras/factorial-representation",
+        "operator-algebras/type-i-factor",
+        "harmonic-analysis/unitary-dual"
+      ],
+      "after": [
+        "topology/locally-compact-group",
+        "operator-algebras/full-group-cstar-algebra",
+        "operator-algebras/type-i-cstar-algebra",
+        "operator-algebras/factorial-representation",
+        "operator-algebras/type-i-factor"
+      ],
+      "review_count_before": 1,
+      "sha256": "c37537635f61aefdc6f018d98f20b8156b495a750e7e579482462835f87e24bb",
+      "rationale": "The full group C*-algebra and type-I algebra/factor definitions supply both stated characterizations. The unitary dual is used for the subsequent disintegration discussion, not to define type I, so its contextual edge is removed.",
+      "verdict": "repair",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "control",
+      "source_path": "content/lie-groups/type-i-locally-compact-group.knowl.md",
+      "sha256_after": "0be1ff5fb09a4a62f97accc0b9ab7811e62b34fa9973fbdb9b112abc02e4c68e",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "lie-groups/commutator-subgroup-of-a-lie-group",
+      "before": [
+        "fiber-bundles/lie-group"
+      ],
+      "after": [
+        "fiber-bundles/lie-group",
+        "algebra-groups/generated-subgroup"
+      ],
+      "review_count_before": 1,
+      "sha256": "69dee4ff14958900fcb50b5ab0485c87ceeab2ca40d34d733b6e3f558a8ba5ae",
+      "rationale": "The core is the abstract subgroup generated by all commutators. Group generation and even subgroup were absent from the old Lie-group-only closure. Add generated-subgroup; normality and abelianization are consequences explained in the text.",
+      "verdict": "repair",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "control",
+      "source_path": "content/lie-groups/commutator-subgroup-of-a-lie-group.knowl.md",
+      "sha256_after": "ca70e8f0d5937f2baf3a51777b3f831b7f54c3603dbc3cc2a6aa59b1ecc0cbd8",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "differential-geometry/symplectic-lie-group-action",
+      "before": [
+        "fiber-bundles/lie-group",
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "differential-geometry/symplectomorphism"
+      ],
+      "after": [
+        "fiber-bundles/lie-group",
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "differential-geometry/symplectomorphism"
+      ],
+      "review_count_before": 1,
+      "sha256": "f345818dae6e4e9172a362f6d8e7e5644f67e4054c8a09022fa972080a2f9f33",
+      "rationale": "The action, symplectic manifold and symplectomorphism definitions supply the preservation condition. The infinitesimal equivalence is correctly restricted to a connected acting group. The symplectic-manifold input needs its missing closed-form prerequisite, corrected separately.",
+      "verdict": "pass",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "control",
+      "source_path": "content/differential-geometry/symplectic-lie-group-action.knowl.md",
+      "sha256_after": "427bf815796008013f51712fde9d8c8dcfcdbf51f6af875780b3961a703e812a",
+      "resolution": "confirmed; related prerequisite corrections incorporated where noted",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "convex-analysis/convex-conjugate-fenchel",
+      "before": [
+        "shared-foundations/function",
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "real-analysis/supremum"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "real-analysis/supremum",
+        "linear-algebra/inner-product"
+      ],
+      "review_count_before": 1,
+      "sha256": "9aa36fcd5aafe70126d491fc5ed449144bcc0dd8167f31feb2e2ea43017447cb",
+      "rationale": "The paired definition has the same missing Euclidean pairing and improper-function codomain issue as the sampled Legendre-Fenchel entry; correct both together.",
+      "verdict": "repair",
+      "body_findings": [
+        "The allowed input f identically +infinity gives f* identically -infinity, so the output codomain must include -infinity.",
+        "State the actual pairing and separate the improper case.",
+        "The linked convex-function convention excludes -infinity, so qualify the assertion consistently."
+      ],
+      "reviewer": "parent",
+      "stratum": "follow-up",
+      "source_path": "content/convex-analysis/convex-conjugate-fenchel.knowl.md",
+      "sha256_after": "cfca9b3a732d95afdfc4e3dcff829b275f2ca56deff82b2869637222425f3ae1",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "lie-groups/connected-lie-group",
+      "before": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-subgroup",
+        "lie-groups/normal-lie-subgroup",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/exponential-map-lie-group"
+      ],
+      "after": [
+        "fiber-bundles/lie-group",
+        "topology/connected-set"
+      ],
+      "review_count_before": 1,
+      "sha256": "b6fe35eb11dbde9636be93f3c14461702f377b0b5c5c0f86d913f65f15954266",
+      "rationale": "Connectedness is defining and absent from the old closure. Lie subgroups, normality, Lie algebra and exponential generation describe the identity component after the definition and should not precede it.",
+      "verdict": "repair",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "follow-up",
+      "source_path": "content/lie-groups/connected-lie-group.knowl.md",
+      "sha256_after": "3e372a48b28f9f6e2e4a9efd72e7eeaf69a99fdbfefa59afea4f8cdcd4398922",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "lie-groups/general-linear-group",
+      "before": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "algebra-groups/group"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "algebra-groups/group",
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "linear-algebra/determinant"
+      ],
+      "review_count_before": 1,
+      "sha256": "00a71bd94d0fccd15fa337f336640fe7b3e9c953443504c8eecfff76fcd55192",
+      "rationale": "Finite dimension and basis choice are part of the stated setting; the matrix realization uses a determinant. Supply both inputs, leaving Lie group structure and exponential maps as subsequent facts.",
+      "verdict": "repair",
+      "body_findings": [
+        "The later claim of two real connected components presupposes positive dimension; GL of the zero-dimensional space is trivial."
+      ],
+      "reviewer": "parent",
+      "stratum": "follow-up",
+      "source_path": "content/lie-groups/general-linear-group.knowl.md",
+      "sha256_after": "fad3a4f3a7299850dc2bc5c7badf5341aca9a4b11675e11c9fcb646c7136f436",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "lie-groups/lie-subgroup",
+      "before": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "after": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "algebra-groups/subgroup",
+        "fiber-bundles/smooth-immersion"
+      ],
+      "review_count_before": 1,
+      "sha256": "2834eabd28860ed58a8090cb169c8352947755007850a5c48d29cf9c964aadd1",
+      "rationale": "The definition requires an abstract subgroup and a smooth immersion, neither supplied by the old closure. State explicitly that the subgroup carries a Lie group structure to make smooth group operations part of the definition.",
+      "verdict": "repair",
+      "body_findings": [
+        "Specify smooth group operations on H explicitly rather than leave them implicit in an immersed manifold description.",
+        "Link the defining immersion and remove the now-redundant parenthetical implication."
+      ],
+      "reviewer": "parent",
+      "stratum": "follow-up",
+      "source_path": "content/lie-groups/lie-subgroup.knowl.md",
+      "sha256_after": "f4b7ad3171e11508988e0b572a69c05a2e2f62f25aa1363dec504712c0d70d96",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "lie-groups/closed-subgroup-lie-group",
+      "before": [
+        "fiber-bundles/lie-group"
+      ],
+      "after": [
+        "fiber-bundles/lie-group",
+        "algebra-groups/subgroup",
+        "topology/closed-set"
+      ],
+      "review_count_before": 1,
+      "sha256": "685ddb0e85f8d8bb461185048393381dba7f98b76bd7399bfff211ae06c0656d",
+      "rationale": "A subgroup and closed subset are the defining ingredients, both missing from the Lie-group-only closure. The closed subgroup theorem supplies the subsequent Lie structure.",
+      "verdict": "repair",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "follow-up",
+      "source_path": "content/lie-groups/closed-subgroup-lie-group.knowl.md",
+      "sha256_after": "e7488001d66011ea5cc348c1f902b7ad448b72821039060c949a0947543e5f73",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/connection-on-a-vector-bundle",
+      "before": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/module-of-smooth-sections",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/leibniz-rule-for-a-connection"
+      ],
+      "after": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/module-of-smooth-sections",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/leibniz-rule-for-a-connection"
+      ],
+      "review_count_before": 1,
+      "sha256": "9420f0c0914fd96405d6258d17cf609ad1e7f68f76136bae9435f5c533937b9c",
+      "rationale": "The inputs supply sections, vector fields and the Leibniz identity. The primary two-slot definition needs section additivity, which is not implied by its displayed Leibniz rule; specify R-bilinearity consistently with the later equivalent characterization.",
+      "verdict": "repair",
+      "body_findings": [
+        "Leibniz and first-slot linearity alone do not state additivity in the section slot. Bilinearity makes the main definition match its equivalent operator formulation."
+      ],
+      "reviewer": "parent",
+      "stratum": "follow-up",
+      "source_path": "content/fiber-bundles/connection-on-a-vector-bundle.knowl.md",
+      "sha256_after": "a15b6762e1aee6b438629472db2054a9d860b39eb39b6a830ea4452712ff3b7d",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "differential-geometry/symplectic-manifold",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/almost-symplectic-manifold"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/almost-symplectic-manifold",
+        "fiber-bundles/closed-differential-form"
+      ],
+      "review_count_before": 1,
+      "sha256": "84968b9aa95dadb5ab4fed13623ae9a823814d830a509301b469077a36e3310b",
+      "rationale": "Almost-symplectic data supply nondegeneracy but no exterior derivative. The defining closedness condition needs the closed-differential-form prerequisite; Stokes and Darboux remain consequences.",
+      "verdict": "repair",
+      "body_findings": [],
+      "reviewer": "parent",
+      "stratum": "follow-up",
+      "source_path": "content/differential-geometry/symplectic-manifold.knowl.md",
+      "sha256_after": "b733be1c2665c2c4067f390893b46230802edc57edeb09eb18334fefa1ab358c",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-homological/hom-left-exact",
+      "before": [
+        "algebra-rings/ring",
+        "algebra-modules/hom-module",
+        "algebra-modules/short-exact-sequence"
+      ],
+      "after": [
+        "algebra-rings/ring",
+        "algebra-modules/hom-module",
+        "algebra-modules/short-exact-sequence"
+      ],
+      "review_count_before": 1,
+      "sha256": "876ceba41356f56fa9c0da7dad50f75859b520a296560d7403b40c83c44cc48c",
+      "rationale": "The Hom object and exact sequences supply both variance statements. Qualify the integer in the cyclic-group example and the finite rank in the direct-sum Hom example; no prerequisite change is required.",
+      "verdict": "repair",
+      "body_findings": [
+        "The claimed failure of exactness excludes n=1, while n=0 invalidates the displayed starting injection.",
+        "The displayed Hom identification with a direct sum is for finite rank; infinite rank gives a product."
+      ],
+      "reviewer": "parent",
+      "stratum": "follow-up",
+      "source_path": "content/algebra-homological/hom-left-exact.knowl.md",
+      "sha256_after": "689cf4f7ccb51293fb03e980907847cb71915a01ee377fbc48223e3e9b91b68e",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "algebra-homological/tensor-right-exact",
+      "before": [
+        "algebra-rings/ring",
+        "algebra-modules/tensor-product",
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/flat-module"
+      ],
+      "after": [
+        "algebra-rings/ring",
+        "algebra-modules/tensor-product",
+        "algebra-modules/short-exact-sequence"
+      ],
+      "review_count_before": 1,
+      "sha256": "7ba82ab7759fd30ca38bd9cbfa4a25416ebc755b0026e4f371e3384305ad504e",
+      "rationale": "Tensor products and exact sequences supply right exactness. Flatness is a later criterion, so remove that contextual prerequisite. Qualify n in the cyclic-group examples and r in the finite direct-sum example.",
+      "verdict": "repair",
+      "body_findings": [
+        "The claimed failure of exactness excludes n=1, while n=0 invalidates the displayed starting injection.",
+        "Specify the finite rank assumed by the ensuing finite-direct-sum argument."
+      ],
+      "reviewer": "parent",
+      "stratum": "follow-up",
+      "source_path": "content/algebra-homological/tensor-right-exact.knowl.md",
+      "sha256_after": "cebe9ac7caf64048316d10a28326bf1b913d536ca19eb4f7c1f89b937a75e7d6",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/parallel-transport",
+      "before": [
+        "fiber-bundles/principal-connection"
+      ],
+      "after": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve"
+      ],
+      "review_count_before": 1,
+      "sha256": "25f8b1c6ba9a296dcbc73fad0bbedd2b1a13f3fef3932b05a36892ebeb975327",
+      "rationale": "REPAIR. The definition begins with an arbitrary surjective submersion and Ehresmann connection, so principal-connection is an overly narrow prerequisite. Parallel transport is derived from a globally defined horizontal lift; depend on Ehresmann connection and horizontal-lift-of-a-curve, and remove principal-connection. A lift of an arbitrary Ehresmann connection need only exist on a maximal interval, so P_gamma is defined only when every initial point has a lift through the full parameter interval. The diffeomorphism claim is then correct by reversing the curve. The complex-line example needs a unitary/Hermitian connection for transport to be a phase; a general complex connection can change magnitude.",
+      "verdict": "repair",
+      "body_findings": [
+        "The current prerequisite makes a generic Ehresmann definition depend on a principal specialization.",
+        "Global existence/completeness must be stated as a condition for P_gamma to be a map on the whole fiber.",
+        "The complex line example should say unitary/Hermitian connection, or replace phase by a nonzero complex factor for a general connection.",
+        "An arbitrary Ehresmann connection need not have global lifts for all initial points; define the actual transport domain.",
+        "Restrict the displayed map to the domain where its endpoint exists.",
+        "Forward-complete flow can have a proper image (for example y′=-y³). Both forward and reverse domains are needed for a whole-fiber diffeomorphism.",
+        "The sign follows from the parallel ODE. A phase requires a Hermitian connection and unitary frame; general complex connections need not preserve norm.",
+        "A group of maps of the full fiber requires full-fiber transport, rather than only partially defined maps."
+      ],
+      "reviewer": "independent-transport",
+      "stratum": "follow-up",
+      "source_path": "content/fiber-bundles/parallel-transport.knowl.md",
+      "sha256_after": "8f5e7eeaef855c8d22bc14eeda6c31c6054cd3cf01b14a5dca5e3377ffe7b4d7",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/ehresmann-connection",
+      "before": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/horizontal-subbundle",
+        "fiber-bundles/parallel-transport",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection"
+      ],
+      "after": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/horizontal-subbundle"
+      ],
+      "review_count_before": 1,
+      "sha256": "da49c6fb021d3874d57348b61cbbb172db0fa058ee43339882158d1d58915524",
+      "rationale": "A complement to the vertical tangent bundle defines an Ehresmann connection. The horizontal-subbundle closure supplies the surjective submersion. Horizontal lifts and transport follow from this data; principal bundles and principal connections are specializations, so all three contextual prerequisites are removed.",
+      "verdict": "repair",
+      "body_findings": [
+        "Remove parallel-transport from prerequisites; it is downstream of the Ehresmann connection and horizontal-lift construction."
+      ],
+      "reviewer": "independent-transport",
+      "stratum": "follow-up",
+      "source_path": "content/fiber-bundles/ehresmann-connection.knowl.md",
+      "sha256_after": "35d7ba9bdca287aacc489c736267cff8fb818b65dce493ceeefb07f8b575648e",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/horizontal-lift-of-a-curve",
+      "before": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/parallel-transport"
+      ],
+      "after": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/smooth-map"
+      ],
+      "review_count_before": 1,
+      "sha256": "fb1dffa44761c255d4a56348d3ba9b91f5c14f74c057dab0edda91d503e42106",
+      "rationale": "REPAIR. A horizontal lift is defined directly from a curve and an Ehresmann horizontal distribution; parallel transport is the later construction that uses a lift, so remove parallel-transport. The local ODE existence/uniqueness and maximal-interval qualification are correct. This gives the acyclic chain Ehresmann connection -> horizontal lift -> parallel transport.",
+      "verdict": "repair",
+      "body_findings": [
+        "Remove parallel-transport from prerequisites because the lift is its input, not its consequence.",
+        "State the prescribed initial condition explicitly in the defining conditions."
+      ],
+      "reviewer": "independent-transport",
+      "stratum": "follow-up",
+      "source_path": "content/fiber-bundles/horizontal-lift-of-a-curve.knowl.md",
+      "sha256_after": "b880c197cadea398d1980169844cfc4037f3ce5883a58ed300c9158175ff76b0",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    },
+    {
+      "id": "fiber-bundles/leibniz-rule-for-a-connection",
+      "before": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/exterior-derivative"
+      ],
+      "after": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/module-of-smooth-sections"
+      ],
+      "review_count_before": 1,
+      "sha256": "4f70dd86389a7267d2bdad5fdbb897ee3448127cbc5313ad7146dca9afe40808",
+      "rationale": "Treat Leibniz as the primitive axiom on a bilinear operation and supply its vector fields and section module explicitly, rather than assume the connection that this axiom defines.",
+      "verdict": "repair",
+      "body_findings": [
+        "Make the rule an axiom on an operation, so the connection concept is a consequence rather than a hidden prerequisite.",
+        "Leibniz with constant functions gives homogeneity, not section additivity."
+      ],
+      "reviewer": "independent-transport",
+      "stratum": "follow-up",
+      "source_path": "content/fiber-bundles/leibniz-rule-for-a-connection.knowl.md",
+      "sha256_after": "f93f24789873d52856b3a47418443cf118d19daae20f6d23013bf8739a743b9f",
+      "resolution": "corrected",
+      "finding_status": "resolved"
+    }
+  ],
+  "content_corrections": [
+    {
+      "id": "fiber-bundles/lie-bracket",
+      "before": "A **Lie bracket** on a real vector space \\(\\mathfrak{g}\\) is a bilinear map",
+      "after": "A **Lie bracket** on a vector space \\(\\mathfrak{g}\\) over a field \\(k\\) is a \\(k\\)-bilinear map",
+      "rationale": "Generalize the opening definition to arbitrary fields. Replace the current ‘Alternating / skew-symmetry’ line with ‘Alternating: [X,X]=0’; then state that skew-symmetry follows, while the converse requires characteristic different from 2."
+    },
+    {
+      "id": "functional-analysis/banach-algebra",
+      "before": "A **Banach algebra over \\(\\mathbb F\\)** is an associative [[algebra-modules/algebra-over-ring|\\(\\mathbb F\\)-algebra]] \\(A\\) equipped with a [[linear-algebra/norm|norm]]",
+      "after": "A **Banach algebra over \\(\\mathbb F\\)** is a vector space \\(A\\) over \\(\\mathbb F\\) equipped with an associative \\(\\mathbb F\\)-bilinear multiplication \\(A\\times A\\to A\\) and a [[linear-algebra/norm|norm]]",
+      "rationale": "Define the possibly nonunital algebra structure directly, while preserving algebra-over-ring as a separate unital concept. This repairs both the body and the prerequisite boundary used by C*-algebras."
+    },
+    {
+      "id": "operator-algebras/involutive-algebra",
+      "before": "An **involutive algebra**, or **\\(*\\)-algebra**, is a complex associative [[algebra-modules/algebra-over-ring|algebra]] \\(A\\) equipped with a map",
+      "after": "An **involutive algebra**, or **\\(*\\)-algebra**, is a complex vector space \\(A\\) equipped with an associative \\(\\mathbb C\\)-bilinear multiplication \\(A\\times A\\to A\\) and a map",
+      "rationale": "Make the involutive algebra definition self-contained and explicitly possibly nonunital, so the C*-algebra hub can include nonunital examples without weakening the unital algebra-over-ring foundation."
+    },
+    {
+      "id": "differential-geometry/holomorphic-map",
+      "before": "For [[differential-geometry/complex-manifold|complex manifolds]], a map is holomorphic when its expression in every pair of [[differential-geometry/complex-coordinate-chart|complex coordinate charts]] is holomorphic in this Euclidean sense.",
+      "after": "For a map between spaces equipped with compatible complex atlases, the map is holomorphic when, in compatible charts about each source point and its image, its coordinate expression is holomorphic in the Euclidean sense defined above.",
+      "rationale": "This makes the Euclidean notion primitive and states the manifold criterion as an application, removing the reverse conceptual dependency on the complex-manifold definition while preserving the mathematical content."
+    },
+    {
+      "id": "convex-analysis/legendre-fenchel-transform",
+      "before": "f^*:\\mathbb{R}^n\\to(-\\infty,+\\infty]",
+      "after": "f^*:\\mathbb{R}^n\\to[-\\infty,+\\infty]",
+      "rationale": "The allowed input f identically +infinity gives f* identically -infinity, so the output codomain must include -infinity."
+    },
+    {
+      "id": "convex-analysis/convex-conjugate-fenchel",
+      "before": "f^*:\\mathbb R^n\\to(-\\infty,+\\infty]",
+      "after": "f^*:\\mathbb R^n\\to[-\\infty,+\\infty]",
+      "rationale": "The allowed input f identically +infinity gives f* identically -infinity, so the output codomain must include -infinity."
+    },
+    {
+      "id": "convex-analysis/legendre-fenchel-transform",
+      "before": "\\]\n\nThis is exactly",
+      "after": "\\]\nwhere \\(\\langle y,x\\rangle=\\sum_{i=1}^n y_i x_i\\) is the Euclidean [[linear-algebra/inner-product|inner product]]. If \\(f\\equiv+\\infty\\), then \\(f^*\\equiv-\\infty\\); otherwise \\(f\\) is finite somewhere and \\(f^*\\) never takes the value \\(-\\infty\\).\n\nThis is exactly",
+      "rationale": "Make the pairing and improper-function case explicit, including the empty-set indicator example."
+    },
+    {
+      "id": "convex-analysis/convex-conjugate-fenchel",
+      "before": "where \\(\\langle y,x\\rangle\\) is the Euclidean pairing.",
+      "after": "where \\(\\langle y,x\\rangle=\\sum_{i=1}^n y_i x_i\\) is the Euclidean [[linear-algebra/inner-product|inner product]]. If \\(f\\equiv+\\infty\\), then \\(f^*\\equiv-\\infty\\). Otherwise \\(f\\) is finite somewhere and \\(f^*\\) never takes the value \\(-\\infty\\).",
+      "rationale": "State the actual pairing and separate the improper case."
+    },
+    {
+      "id": "convex-analysis/convex-conjugate-fenchel",
+      "before": "The conjugate is always a (possibly extended-real-valued)",
+      "after": "When \\(f\\) is finite somewhere, its conjugate is a (possibly extended-real-valued)",
+      "rationale": "The linked convex-function convention excludes -infinity, so qualify the assertion consistently."
+    },
+    {
+      "id": "fiber-bundles/flat-vector-bundle-connection",
+      "before": "but parallel transport around the circle gives holonomy \\(\\exp(2\\pi A)\\), which can be nontrivial.",
+      "after": "but parallel transport in the positive direction from \\(\\theta=0\\) to \\(2\\pi\\) gives holonomy \\(\\exp(-2\\pi A)\\), which can be nontrivial. Indeed, a parallel section satisfies \\(s'(\\theta)+A s(\\theta)=0\\), hence \\(s(\\theta)=\\exp(-\\theta A)s(0)\\).",
+      "rationale": "For the specified convention ∇=d+A dtheta, the parallel ODE is s′+As=0 and fixes the negative holonomy sign."
+    },
+    {
+      "id": "fiber-bundles/connection-on-a-vector-bundle",
+      "before": "A (Koszul) connection on \\(E\\) is a map",
+      "after": "A (Koszul) connection on \\(E\\) is an \\(\\mathbb R\\)-bilinear map",
+      "rationale": "Leibniz and first-slot linearity alone do not state additivity in the section slot. Bilinearity makes the main definition match its equivalent operator formulation."
+    },
+    {
+      "id": "lie-groups/general-linear-group",
+      "before": "Let \\(V\\) be a finite-dimensional real or complex vector space.",
+      "after": "Let \\(V\\) be a real or complex vector space of finite dimension \\(n\\ge 1\\).",
+      "rationale": "The later claim of two real connected components presupposes positive dimension; GL of the zero-dimensional space is trivial."
+    },
+    {
+      "id": "lie-groups/lie-subgroup",
+      "before": "together with the structure of an immersed [[fiber-bundles/smooth-manifold|submanifold]] such that the inclusion map",
+      "after": "together with a Lie group structure such that the inclusion map",
+      "rationale": "Specify smooth group operations on H explicitly rather than leave them implicit in an immersed manifold description."
+    },
+    {
+      "id": "lie-groups/lie-subgroup",
+      "before": "is a smooth immersion and a group homomorphism (so the group operations on \\(H\\) are smooth).",
+      "after": "is a [[fiber-bundles/smooth-immersion|smooth immersion]] and a group homomorphism.",
+      "rationale": "Link the defining immersion and remove the now-redundant parenthetical implication."
+    },
+    {
+      "id": "algebra-homological/hom-tensor-exactness",
+      "before": "## Examples\n",
+      "after": "## Examples\n\nIn the cyclic-group examples, let \\(n\\ge 2\\) be an integer.\n",
+      "rationale": "The claimed failure of exactness excludes n=1, while n=0 invalidates the displayed starting injection."
+    },
+    {
+      "id": "algebra-homological/hom-left-exact",
+      "before": "## Examples\n",
+      "after": "## Examples\n\nIn the cyclic-group examples, let \\(n\\ge 2\\) be an integer.\n",
+      "rationale": "The claimed failure of exactness excludes n=1, while n=0 invalidates the displayed starting injection."
+    },
+    {
+      "id": "algebra-homological/tensor-right-exact",
+      "before": "## Examples\n",
+      "after": "## Examples\n\nIn the cyclic-group examples, let \\(n\\ge 2\\) be an integer.\n",
+      "rationale": "The claimed failure of exactness excludes n=1, while n=0 invalidates the displayed starting injection."
+    },
+    {
+      "id": "algebra-homological/hom-left-exact",
+      "before": "If \\(M\\cong R^{\\oplus r}\\) is free, then",
+      "after": "If \\(M\\cong R^{\\oplus r}\\) is free of finite rank \\(r\\), then",
+      "rationale": "The displayed Hom identification with a direct sum is for finite rank; infinite rank gives a product."
+    },
+    {
+      "id": "algebra-homological/tensor-right-exact",
+      "before": "If \\(N\\cong R^{\\oplus r}\\) is free, then",
+      "after": "If \\(N\\cong R^{\\oplus r}\\) is free of finite rank \\(r\\), then",
+      "rationale": "Specify the finite rank assumed by the ensuing finite-direct-sum argument."
+    },
+    {
+      "id": "harmonic-analysis/unitary-dual",
+      "before": "Informally, \\([\\pi]\\) is near a class \\([\\rho]\\) when selected diagonal\ncoefficients of \\(\\rho\\) can be approximated on a chosen compact subset of\n\\(G\\) by finite sums of diagonal coefficients of \\(\\pi\\).",
+      "after": "For a neighborhood centered at \\([\\pi]\\), the approximation condition asks\nthat selected diagonal coefficients of \\(\\pi\\) be approximated on a chosen\ncompact subset of \\(G\\) by finite sums of diagonal coefficients of the\nvariable representation \\(\\rho\\).",
+      "rationale": "Clarify which representation is the neighborhood center. The original informal near wording can be read correctly with rho as center; this is a precision improvement, not evidence of a reversed mathematical theorem."
+    },
+    {
+      "id": "harmonic-analysis/unitary-dual",
+      "before": "The set is\nequipped with the [[harmonic-analysis/fell-topology|Fell topology]], defined by approximation of coefficient\nfunctions uniformly on compact subsets.",
+      "after": "The set carries the [[harmonic-analysis/fell-topology|Fell topology]],\nwhose definition is supplied by the linked entry after the underlying set\nof representation classes has been constructed.",
+      "rationale": "Keep the standard topological meaning of the unitary dual while distinguishing construction of its underlying set from the downstream topology."
+    },
+    {
+      "id": "fiber-bundles/lie-bracket",
+      "before": "1. **Alternating / skew-symmetry:** \\([X,X]=0\\) for all \\(X\\in\\mathfrak{g}\\) (equivalently \\([X,Y]=-[Y,X]\\)).",
+      "after": "1. **Alternating:** \\([X,X]=0\\) for all \\(X\\in\\mathfrak{g}\\). This implies \\([X,Y]=-[Y,X]\\); the converse holds when the field has characteristic different from \\(2\\).",
+      "rationale": "Over an arbitrary field, alternatingity implies skew symmetry, but skew symmetry alone does not imply alternatingity in characteristic 2."
+    },
+    {
+      "id": "operator-algebras/involutive-algebra",
+      "before": "A \\(*\\)-homomorphism is an [[algebra-modules/algebra-homomorphism|algebra homomorphism]] \\(\\phi:A\\to B\\) satisfying \\(\\phi(a^*)=\\phi(a)^*\\).",
+      "after": "A \\(*\\)-homomorphism is a complex-linear map \\(\\phi:A\\to B\\) satisfying \\(\\phi(ab)=\\phi(a)\\phi(b)\\) and \\(\\phi(a^*)=\\phi(a)^*\\). It need not preserve an identity unless this is required separately.",
+      "rationale": "The linked algebra-homomorphism convention is unital; spell out the possibly nonunital morphism convention consistently."
+    },
+    {
+      "id": "fiber-bundles/parallel-transport",
+      "before": "**Definition.** The parallel transport along \\(\\gamma\\) is the map",
+      "after": "Let \\(D_\\gamma\\subset E_{\\gamma(0)}\\) be the open set of initial points whose horizontal lifts exist throughout \\([0,1]\\). **Definition.** The parallel transport along \\(\\gamma\\) is the map",
+      "rationale": "An arbitrary Ehresmann connection need not have global lifts for all initial points; define the actual transport domain."
+    },
+    {
+      "id": "fiber-bundles/parallel-transport",
+      "before": "P_\\gamma: E_{\\gamma(0)} \\longrightarrow E_{\\gamma(1)}",
+      "after": "P_\\gamma: D_\\gamma \\longrightarrow E_{\\gamma(1)}",
+      "rationale": "Restrict the displayed map to the domain where its endpoint exists."
+    },
+    {
+      "id": "fiber-bundles/parallel-transport",
+      "before": "When parallel transport is defined for all initial points in the fiber, \\(P_\\gamma\\) is a diffeomorphism between the fibers.",
+      "after": "For the reversed curve \\(\\bar\\gamma(t)=\\gamma(1-t)\\), uniqueness of horizontal lifts gives a diffeomorphism \\(P_\\gamma:D_\\gamma\\to D_{\\bar\\gamma}\\) with inverse \\(P_{\\bar\\gamma}\\). It is a diffeomorphism between the entire fibers when lifts exist throughout \\([0,1]\\) for every initial point in both directions. This holds for a complete connection. Forward existence alone need not give surjectivity.",
+      "rationale": "Forward-complete flow can have a proper image (for example y′=-y³). Both forward and reverse domains are needed for a whole-fiber diffeomorphism."
+    },
+    {
+      "id": "fiber-bundles/parallel-transport",
+      "before": "On a complex line bundle with connection given locally by a 1-form \\(A\\), parallel transport along \\(\\gamma\\) multiplies a vector in the fiber by a phase factor determined by integrating \\(A\\) along \\(\\gamma\\) (after choosing a local trivialization).",
+      "after": "In a trivialization along \\(\\gamma\\) where a complex line-bundle connection is \\(\\nabla=d+A\\), parallel transport multiplies the fiber coordinate by \\(\\exp(-\\int_\\gamma A)\\). For a Hermitian connection in a unitary frame, \\(A\\) is imaginary-valued and this multiplier is a phase. A general complex connection can also change its magnitude.",
+      "rationale": "The sign follows from the parallel ODE. A phase requires a Hermitian connection and unitary frame; general complex connections need not preserve norm."
+    },
+    {
+      "id": "fiber-bundles/parallel-transport",
+      "before": "Parallel transport along loops based at \\(x\\in M\\) generates",
+      "after": "For a complete connection, parallel transport along loops based at \\(x\\in M\\) generates",
+      "rationale": "A group of maps of the full fiber requires full-fiber transport, rather than only partially defined maps."
+    },
+    {
+      "id": "fiber-bundles/horizontal-lift-of-a-curve",
+      "before": "such that:\n1.",
+      "after": "such that \\(\\widetilde\\gamma(t_0)=e_0\\) and:\n1.",
+      "rationale": "State the prescribed initial condition explicitly in the defining conditions."
+    },
+    {
+      "id": "fiber-bundles/leibniz-rule-for-a-connection",
+      "before": "Let \\(E\\to M\\) be a vector bundle with a [[fiber-bundles/connection-on-a-vector-bundle|connection]] \\(\\nabla\\). Let \\(X\\) be a vector field on \\(M\\), \\(f\\in C^\\infty(M)\\), and \\(s\\in\\Gamma(E)\\).",
+      "after": "Let \\(E\\to M\\) be a vector bundle, and consider an \\(\\mathbb R\\)-bilinear operation \\((X,s)\\mapsto\\nabla_Xs\\) on smooth vector fields and smooth sections, with values in smooth sections. Assume this operation is \\(C^\\infty(M)\\)-linear in \\(X\\). For \\(f\\in C^\\infty(M)\\), the identity below is the additional axiom that defines a [[fiber-bundles/connection-on-a-vector-bundle|connection]].",
+      "rationale": "Make the rule an axiom on an operation, so the connection concept is a consequence rather than a hidden prerequisite."
+    },
+    {
+      "id": "fiber-bundles/leibniz-rule-for-a-connection",
+      "before": "expressing \\(\\mathbb R\\)-linearity in the section argument.",
+      "after": "expressing homogeneity over real constants in the section argument. Additivity is part of the separately assumed bilinearity.",
+      "rationale": "Leibniz with constant functions gives homogeneity, not section additivity."
+    }
+  ],
+  "learning_paths": [
+    {
+      "name": "spotcheck-section-before-form",
+      "concepts": [
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/differential-k-form"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "spotcheck-determinant-before-special-linear",
+      "concepts": [
+        "linear-algebra/determinant",
+        "lie-groups/general-linear-group",
+        "lie-groups/special-linear-group"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "spotcheck-pairing-before-conjugation",
+      "concepts": [
+        "linear-algebra/inner-product",
+        "convex-analysis/convex-conjugate-fenchel"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "spotcheck-closedness-before-symplectic-action",
+      "concepts": [
+        "fiber-bundles/closed-differential-form",
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/symplectic-lie-group-action"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "spotcheck-generation-before-commutator",
+      "concepts": [
+        "algebra-groups/generated-subgroup",
+        "lie-groups/commutator-subgroup-of-a-lie-group"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "spotcheck-holomorphic-before-complex-atlas",
+      "concepts": [
+        "differential-geometry/holomorphic-map",
+        "differential-geometry/complex-atlas",
+        "differential-geometry/complex-manifold"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "spotcheck-connection-lift-transport",
+      "concepts": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve",
+        "fiber-bundles/parallel-transport"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "spotcheck-connectedness-before-simply-connected",
+      "concepts": [
+        "topology/connected-set",
+        "lie-groups/connected-lie-group",
+        "lie-groups/simply-connected-lie-group"
+      ],
+      "max_unreviewed_prerequisites": 0
+    }
+  ],
+  "forbidden_prerequisite_ancestors": {
+    "differential-geometry/holomorphic-map": [
+      "differential-geometry/complex-manifold"
+    ],
+    "fiber-bundles/ehresmann-connection": [
+      "fiber-bundles/parallel-transport",
+      "fiber-bundles/principal-connection"
+    ],
+    "lie-groups/connected-lie-group": [
+      "lie-groups/exponential-map-lie-group"
+    ],
+    "operator-algebras/cstar-algebra": [
+      "algebra-modules/algebra-over-ring"
+    ]
+  },
+  "unresolved": [],
+  "coverage": {
+    "sampled": 48,
+    "follow_up": 17,
+    "reviewed": 65,
+    "changed_prerequisite_lists": 26,
+    "changed_bodies": 17,
+    "added_edges": 22,
+    "removed_edges": 19
+  },
+  "preapply_validation": {
+    "nodes": 3509,
+    "edges": 10938,
+    "cycles": 0,
+    "learning_paths": 47,
+    "source_hashes_verified": 65
+  },
+  "verification": {
+    "development": {
+      "cycles": 0,
+      "edges": 10938,
+      "invalid": 0,
+      "missing_targets": 0,
+      "nodes": 3509
+    },
+    "production": {
+      "cycles": 0,
+      "edges": 10912,
+      "invalid": 0,
+      "missing_targets": 0,
+      "nodes": 3499
+    },
+    "learning_paths": {
+      "passed": 47,
+      "reviewed_concepts": 3509,
+      "unreviewed_prerequisite_closure_nodes": 0
+    },
+    "python_tests": {
+      "passed": 124
+    },
+    "graph_model": "passed: ranks, cycles, long chains, subjects, components",
+    "graph_smoke": "passed: focused neighborhood, search, selection, desktop viewer, mobile sheet",
+    "graph_views": "passed: edge direction, all depths, subject/component clustering, history, zoom, keyboard, responsive views, empty/cyclic errors",
+    "rendered_corrected_views": {
+      "results": [
+        {
+          "id": "fiber-bundles/lie-bracket",
+          "mobile": true,
+          "renderedMath": 16
+        },
+        {
+          "id": "functional-analysis/banach-algebra",
+          "mobile": false,
+          "renderedMath": 11
+        },
+        {
+          "id": "operator-algebras/involutive-algebra",
+          "mobile": false,
+          "renderedMath": 11
+        },
+        {
+          "id": "differential-geometry/holomorphic-map",
+          "mobile": false,
+          "renderedMath": 3
+        },
+        {
+          "id": "convex-analysis/legendre-fenchel-transform",
+          "mobile": false,
+          "renderedMath": 12
+        },
+        {
+          "id": "convex-analysis/convex-conjugate-fenchel",
+          "mobile": false,
+          "renderedMath": 11
+        },
+        {
+          "id": "fiber-bundles/flat-vector-bundle-connection",
+          "mobile": false,
+          "renderedMath": 7
+        },
+        {
+          "id": "fiber-bundles/connection-on-a-vector-bundle",
+          "mobile": false,
+          "renderedMath": 19
+        },
+        {
+          "id": "lie-groups/general-linear-group",
+          "mobile": false,
+          "renderedMath": 8
+        },
+        {
+          "id": "lie-groups/lie-subgroup",
+          "mobile": false,
+          "renderedMath": 7
+        },
+        {
+          "id": "algebra-homological/hom-tensor-exactness",
+          "mobile": false,
+          "renderedMath": 12
+        },
+        {
+          "id": "algebra-homological/hom-left-exact",
+          "mobile": false,
+          "renderedMath": 2
+        },
+        {
+          "id": "algebra-homological/tensor-right-exact",
+          "mobile": false,
+          "renderedMath": 7
+        },
+        {
+          "id": "harmonic-analysis/unitary-dual",
+          "mobile": false,
+          "renderedMath": 7
+        },
+        {
+          "id": "fiber-bundles/parallel-transport",
+          "mobile": true,
+          "renderedMath": 18
+        },
+        {
+          "id": "fiber-bundles/horizontal-lift-of-a-curve",
+          "mobile": false,
+          "renderedMath": 17
+        },
+        {
+          "id": "fiber-bundles/leibniz-rule-for-a-connection",
+          "mobile": false,
+          "renderedMath": 10
+        }
+      ],
+      "errors": []
+    },
+    "rendering_scan": {
+      "files": 510,
+      "issues": []
+    },
+    "visual_inspection": [
+      "desktop flat-connection neighborhood",
+      "mobile parallel-transport sheet",
+      "subject-cluster overview",
+      "component graph detail",
+      "expanded flat-holonomy example and negative-sign formula"
+    ],
+    "builds": {
+      "development": 3509,
+      "production": 3499
+    },
+    "source_hashes_after_verified": 65,
+    "diff_whitespace_check": "passed in both repositories",
+    "limitations": [
+      "Risk-weighted sample is not a corpus-wide correctness certificate or an estimate of error prevalence.",
+      "Compiler still reports existing duplicate-alias warnings; resolving aliases was outside this semantic prerequisite review."
+    ],
+    "independent_sample_coverage": 48
+  },
+  "integration_review": [
+    "Fresh independent foundations reviewer confirmed the missing section, subspace, determinant and basis inputs, the conjugate codomain counterexample, connection bilinearity and flat-holonomy sign.",
+    "A final fresh-agent pass accepted the applied bracket, involutive/Banach algebra, conjugate, connection, transport, horizontal-lift and Leibniz statements.",
+    "Parent rejected the claim that informal unitary-dual near wording proved a reversed theorem; changed the text only to make the neighborhood center and construction order explicit.",
+    "Parent strengthened the initial transport proposal: forward global existence alone is insufficient for a full-fiber diffeomorphism; both reverse and forward domains are required.",
+    "Parent removed principal specializations from the generic Ehresmann definition, supplied the horizontal-lift initial condition, and made the Leibniz primitive explicitly independent of the connection it defines.",
+    "Fresh independent follow-up verified all seven control entries and seven remaining removal-stratum entries. The extra smooth-map edge suggested for vector-field was declined because sections/tangent-bundle already supply it transitively.",
+    "A suggested unitary-dual-to-Fell-topology edge was declined because it recreates a direct cycle; the body now explicitly constructs the underlying set before equipping it with the downstream topology.",
+    "The temporary registry remains the intentional pre-application snapshot for source-hash verification; current source hashes are recorded in sha256_after in this contract."
+  ]
+}

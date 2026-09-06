@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Continuity of matrix coefficients (π(g)x,y) in the group parameter g"
 aliases = ["weak-continuity", "Weak Continuity of a Representation"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shale-paper/weak-continuity.md"
 +++
 

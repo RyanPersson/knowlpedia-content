@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A connection whose curvature is a critical point of the Yang–Mills functional, equivalently satisfying the Yang–Mills equation."
 aliases = ["yangmills-connection", "Yang–Mills connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["differential-geometry/riemannian-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/principal-connection", "fiber-bundles/yangmills-equation", "fiber-bundles/curvature"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/yangmills-connection.md"
 +++
 

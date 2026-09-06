@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The contraction of a differential form with a vector field, lowering degree by one."
 aliases = ["interior-product", "Interior product"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/differential-k-form", "fiber-bundles/lie-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/interior-product.md"
 +++
 

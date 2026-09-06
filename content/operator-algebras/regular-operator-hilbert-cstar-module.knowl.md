@@ -6,8 +6,8 @@ summary = "A closed densely defined Hilbert-module operator whose adjoint is den
 aliases = ["regular Hilbert-module operator", "regular unbounded operator"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["operator-algebras/hilbert-cstar-module", "functional-analysis/densely-defined-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

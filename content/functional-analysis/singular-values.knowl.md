@@ -6,8 +6,8 @@ summary = "The decreasing eigenvalue sequence of the absolute value of a compact
 aliases = ["s-numbers", "singular-value sequence", "approximation numbers"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/compact-operator", "linear-algebra/hilbert-space", "real-analysis/absolute-value"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

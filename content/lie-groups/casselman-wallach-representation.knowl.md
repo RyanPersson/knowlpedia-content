@@ -6,8 +6,8 @@ summary = "A smooth admissible Fréchet representation of a real reductive group
 aliases = ["smooth admissible Fréchet representation", "SAF representation"]
 domains = ["lie-groups", "representation-theory", "functional-analysis"]
 prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "functional-analysis/frechet-space", "lie-groups/k-finite-vector", "lie-groups/harish-chandra-module", "convex-analysis/seminorm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

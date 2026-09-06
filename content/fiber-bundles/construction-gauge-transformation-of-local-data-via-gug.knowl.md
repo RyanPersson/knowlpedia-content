@@ -6,8 +6,8 @@ summary = "How transition functions and local connection forms change under a ch
 aliases = ["construction-gauge-transformation-of-local-data-via-gug", "Gauge transformation of local bundle data"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections", "fiber-bundles/local-connection-1-form", "fiber-bundles/local-gauge-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-gauge-transformation-of-local-data-via-gug.md"
 +++
 

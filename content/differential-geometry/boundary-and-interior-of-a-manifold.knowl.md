@@ -6,8 +6,8 @@ summary = "The boundary and interior of a manifold with boundary are the points 
 aliases = ["manifold boundary", "manifold interior", "boundary point", "interior point"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/manifold-with-boundary", "differential-geometry/boundary-chart"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

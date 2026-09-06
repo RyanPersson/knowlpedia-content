@@ -6,8 +6,8 @@ summary = "A smooth map between hypercomplex manifolds that preserves each membe
 aliases = ["hypercomplex map", "triholomorphic morphism"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/hypercomplex-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

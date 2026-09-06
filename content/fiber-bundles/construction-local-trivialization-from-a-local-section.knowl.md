@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A local section of a principal bundle determines a canonical local trivialization by multiplying by group elements."
 aliases = ["construction-local-trivialization-from-a-local-section", "Construction: local trivialization from a local section"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-local-trivialization-from-a-local-section.md"
 +++
 

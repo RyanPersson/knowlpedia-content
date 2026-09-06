@@ -6,8 +6,8 @@ summary = "Representations of a C-star algebra having no nonzero unitarily equiv
 aliases = ["disjoint C-star representations", "mutually disjoint representations"]
 domains = ["operator-algebras", "algebra-representation-theory"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/cstar-representation", "operator-algebras/unitary-equivalence-cstar-representations", "linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

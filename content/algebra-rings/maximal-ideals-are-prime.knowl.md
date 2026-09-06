@@ -6,8 +6,8 @@ summary = "In a commutative ring, every maximal ideal is a prime ideal."
 aliases = ["maximal-ideals-are-prime", "Maximal ideals are prime"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/maximal-ideal", "algebra-rings/prime-ideal", "algebra-rings/quotient-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/maximal-ideals-are-prime.md"
 +++
 

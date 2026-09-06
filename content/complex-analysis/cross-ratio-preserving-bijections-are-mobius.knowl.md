@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "A sphere bijection preserving every complex cross-ratio is a Möbius transformation."
 aliases = ["cross-ratio characterization of Möbius transformations"]
 domains = ["complex-analysis", "projective-geometry"]
-prerequisites = ["complex-analysis/mobius-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/cross-ratio", "complex-analysis/mobius-transformation", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

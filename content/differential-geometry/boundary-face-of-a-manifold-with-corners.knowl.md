@@ -6,8 +6,8 @@ summary = "A globally chosen connected boundary hypersurface obtained by continu
 aliases = ["face of a manifold with corners"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/manifold-with-corners", "topology/connected-component"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

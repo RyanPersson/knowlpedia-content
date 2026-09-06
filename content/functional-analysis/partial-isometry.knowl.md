@@ -6,8 +6,8 @@ summary = "A bounded Hilbert-space operator that is isometric on the orthogonal 
 aliases = ["partial-isometric operator"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/bounded-linear-operator", "linear-algebra/orthogonal-complement", "linear-algebra/closed-linear-subspace", "functional-analysis/adjoint-bounded-operator", "linear-algebra/orthogonal-projection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

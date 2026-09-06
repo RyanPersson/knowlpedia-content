@@ -6,8 +6,8 @@ summary = "Partial Frobenius structures on a product over a finite field produce
 aliases = ["Drinfeld lemma", "Drinfeld's lemma on partial Frobenius", "Drinfeld lemma for products"]
 domains = ["langlands", "algebraic-geometry-foundations", "algebra-fields-galois"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-fields-galois/finite-field", "algebraic-geometry-foundations/lisse-ell-adic-sheaf", "langlands/partial-frobenius-on-shtukas"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

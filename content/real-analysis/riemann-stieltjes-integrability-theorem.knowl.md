@@ -6,8 +6,8 @@ summary = "Continuity of the integrand and bounded variation of the integrator g
 aliases = ["riemann-stieltjes-integrability-theorem", "Riemann–Stieltjes integrability theorem"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/bounded-variation-function", "real-analysis/riemann-stieltjes-integral", "real-analysis/integrator-function", "real-analysis/monotone-function", "real-analysis/riemann-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-stieltjes-integrability-theorem.md"
 +++
 

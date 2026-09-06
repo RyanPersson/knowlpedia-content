@@ -6,8 +6,8 @@ summary = "A sheaf admitting endomorphism-valued partitions of unity subordinate
 aliases = ["fine module sheaf"]
 domains = ["differential-geometry"]
 prerequisites = ["algebraic-geometry-foundations/sheaf", "algebra-groups/abelian-group", "topology/topological-space", "topology/open-cover", "algebraic-geometry-foundations/stalk"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

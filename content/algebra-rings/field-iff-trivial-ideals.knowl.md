@@ -6,8 +6,8 @@ summary = "A nonzero commutative ring with identity is a field exactly when its 
 aliases = ["field-iff-trivial-ideals", "Fields and trivial ideals"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/field", "algebra-rings/ideal", "algebra-rings/unit"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/field-iff-trivial-ideals.md"
 +++
 

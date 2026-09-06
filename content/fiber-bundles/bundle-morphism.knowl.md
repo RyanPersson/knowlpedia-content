@@ -6,8 +6,8 @@ summary = "A map of fiber bundles compatible with the projections and covering a
 aliases = ["bundle-morphism", "Bundle morphism"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-map", "fiber-bundles/fiber-preserving-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/bundle-morphism.md"
 +++
 

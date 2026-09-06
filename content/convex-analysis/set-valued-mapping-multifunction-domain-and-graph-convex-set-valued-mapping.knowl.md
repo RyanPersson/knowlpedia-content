@@ -6,8 +6,8 @@ summary = "A set-valued map assigns a subset to each point and is convex when it
 aliases = ["set-valued-mapping-multifunction-domain-and-graph-convex-set-valued-mapping", "Set-valued mapping (multifunction), domain, graph, and convexity"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/product-space-cartesian-product", "convex-analysis/convex-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/set-valued-mapping-multifunction-domain-and-graph-convex-set-valued-mapping.md"
 +++
 

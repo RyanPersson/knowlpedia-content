@@ -6,8 +6,8 @@ summary = "Between any two real numbers there is an irrational number."
 aliases = ["density-of-irrationals", "Density of the Irrationals"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/density-of-q", "real-analysis/interval"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/density-of-irrationals.md"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "An abelian group equipped with a compatible scalar action by a ring (left or right)."
 aliases = ["module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/ring", "algebra-rings/unital-ring", "algebra-modules/module-axioms", "algebra-rings/field", "linear-algebra/vector-space", "algebra-rings/ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ring", "algebra-modules/module-axioms"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "algebra-modules/module.md"
 +++
 

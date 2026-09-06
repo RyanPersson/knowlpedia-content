@@ -6,8 +6,8 @@ summary = "A basis whose vectors have unit length and are pairwise orthogonal."
 aliases = ["orthonormal basis", "orthonormal bases"]
 domains = ["linear-algebra", "quantum-foundations"]
 prerequisites = ["linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **orthonormal basis** of a [[linear-algebra/hilbert-space|Hilbert space]] \(H\) is a family \((e_i)_{i\in I}\) whose closed linear span is \(H\) and which satisfies

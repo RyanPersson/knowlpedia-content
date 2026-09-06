@@ -6,8 +6,8 @@ summary = "Every finitely generated abelian group is a direct sum of copies of Z
 aliases = ["fundamental-theorem-fg-abelian-groups", "Fundamental Theorem of Finitely Generated Abelian Groups"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/abelian-group", "algebra-groups/direct-sum-groups"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/fundamental-theorem-fg-abelian-groups.md"
 +++
 

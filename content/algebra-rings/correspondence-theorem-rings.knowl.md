@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Ideals of a quotient ring correspond to ideals of the original ring containing the kernel."
 aliases = ["correspondence-theorem-rings", "Correspondence theorem for rings"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ideal", "algebra-rings/quotient-ring", "shared-foundations/preimage"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ideal", "algebra-rings/quotient-ring", "shared-foundations/preimage", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/correspondence-theorem-rings.md"
 +++
 

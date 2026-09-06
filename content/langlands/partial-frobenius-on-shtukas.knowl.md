@@ -6,8 +6,8 @@ summary = "The operation that applies Frobenius to selected shtuka legs and cycl
 aliases = ["partial Frobenius morphism", "partial Frobenii", "Frobenius on selected shtuka legs"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 prerequisites = ["langlands/g-shtuka", "algebra-fields-galois/frobenius-endomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

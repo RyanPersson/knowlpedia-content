@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set of points where every neighborhood meets both the set and its complement."
 aliases = ["boundary"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/metric-space", "topology/closure", "topology/interior"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/boundary.md"
 +++
 

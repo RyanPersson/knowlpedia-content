@@ -6,8 +6,8 @@ summary = "Affiliation is equivalent to membership of the polar partial isometry
 aliases = ["affiliation by spectral projections"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "functional-analysis/densely-defined-operator", "operator-algebras/affiliated-operator", "functional-analysis/partial-isometry", "functional-analysis/spectral-projection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

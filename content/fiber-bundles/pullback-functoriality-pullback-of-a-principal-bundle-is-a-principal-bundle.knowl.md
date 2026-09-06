@@ -6,8 +6,8 @@ summary = "The pullback construction sends principal bundles to principal bundle
 aliases = ["pullback-functoriality-pullback-of-a-principal-bundle-is-a-principal-bundle", "Theorem: Pullback of a principal bundle is a principal bundle"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/pullback-functoriality-pullback-of-a-principal-bundle-is-a-principal-bundle.md"
 +++
 

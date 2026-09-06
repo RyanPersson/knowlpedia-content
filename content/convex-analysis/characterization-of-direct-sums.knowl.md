@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A sum is direct iff every element has a unique decomposition into components"
 aliases = ["characterization-of-direct-sums", "Characterization of direct sums"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/characterization-of-direct-sums.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A sufficiently regular commutative spectral triple satisfying the geo
 aliases = ["Connes reconstruction theorem", "spectral reconstruction theorem"]
 domains = ["noncommutative-geometry", "differential-geometry"]
 prerequisites = ["noncommutative-geometry/spectral-triple", "noncommutative-geometry/hochschild-orientability-axiom", "noncommutative-geometry/finiteness-absolute-continuity-axiom", "fiber-bundles/smooth-manifold", "differential-geometry/elliptic-differential-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

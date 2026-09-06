@@ -6,8 +6,8 @@ summary = "A normalized bi-invariant function whose averaging product formula ma
 aliases = ["zonal spherical function", "spherical function", "K-bi-invariant spherical function", "elementary spherical function"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/convolution-on-locally-compact-group", "lie-groups/gelfand-pair", "harmonic-analysis/haar-measure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

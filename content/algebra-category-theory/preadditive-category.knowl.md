@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A category whose morphism sets are abelian groups and whose composition is bilinear."
 aliases = ["preadditive category", "preadditive"]
 domains = ["algebra-category-theory", "algebra-homological"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/additive-category", "algebra-category-theory/distinguished-triangle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-category-theory/category|category]] \(\mathcal C\) is **preadditive** if every morphism set \(\operatorname{Hom}_{\mathcal C}(X,Y)\) is an abelian group and composition is bilinear:

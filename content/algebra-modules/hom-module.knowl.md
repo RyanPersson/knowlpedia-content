@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The module (or abelian group) of module homomorphisms between two modules."
 aliases = ["hom-module", "Hom module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/module", "algebra-rings/commutative-ring", "algebra-modules/bimodule"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/module", "algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/hom-module.md"
 +++
 

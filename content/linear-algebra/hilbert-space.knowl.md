@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A complete inner product space."
 aliases = ["hilbert-space", "Hilbert space"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/inner-product-space", "topology/complete-metric-space"]
-dependency_heuristic = "authored+definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/inner-product-space", "linear-algebra/norm", "topology/complete-metric-space"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "linear-algebra/hilbert-space.md"
 +++
 

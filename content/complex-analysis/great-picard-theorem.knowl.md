@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Near an essential singularity, every complex value with at most one exception occurs infinitely often."
 aliases = ["Picard's great theorem", "big Picard theorem"]
 domains = ["complex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/casorati-weierstrass-theorem", "complex-analysis/isolated-singularity-classification"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

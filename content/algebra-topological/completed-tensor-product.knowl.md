@@ -6,8 +6,8 @@ summary = "The completion of a tensor product for the topology induced by specif
 aliases = ["complete tensor product", "adic completed tensor product", "hat tensor product"]
 domains = ["algebra-topological", "algebra-modules"]
 prerequisites = ["algebra-modules/tensor-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

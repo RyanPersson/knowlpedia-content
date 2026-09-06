@@ -5,13 +5,13 @@ kind = "knowl"
 summary = "Definition of when random variables have factorizing joint probabilities."
 aliases = ["independence-random-variables", "Independence of random variables"]
 domains = ["probability"]
-prerequisites = ["probability/probability-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["probability/probability-space", "probability/random-variable", "measure-theory/borel-sigma-algebra"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "probability/independence-random-variables.md"
 +++
 
-A **family of random variables** \((X_i)_{i\in I}\) on a [[probability/probability-space|probability space]] \((\Omega,\mathcal F,\mathbb P)\) is **independent** if for every finite choice of indices \(i_1,\dots,i_k\in I\) and every choice of Borel sets \(A_1,\dots,A_k\subseteq\mathbb R\),
+A **family of random variables** \((X_i)_{i\in I}\) on a [[probability/probability-space|probability space]] \((\Omega,\mathcal F,\mathbb P)\) is **independent** if for every finite choice of distinct indices \(i_1,\dots,i_k\in I\) and every choice of Borel sets \(A_1,\dots,A_k\subseteq\mathbb R\),
 \[
 \mathbb P\big(X_{i_1}\in A_1,\dots,X_{i_k}\in A_k\big)=\prod_{j=1}^k \mathbb P\big(X_{i_j}\in A_j\big).
 \]

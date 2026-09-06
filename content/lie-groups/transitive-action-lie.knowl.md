@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A smooth Lie group action is transitive when it has a single orbit, making the manifold a homogeneous space."
 aliases = ["transitive-action-lie", "Transitive Lie group action"]
 domains = ["lie-groups"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "fiber-bundles/orbit-of-a-group-action", "algebra-groups/stabilizer"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/transitive-action-lie.md"
 +++
 

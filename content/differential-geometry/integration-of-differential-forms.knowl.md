@@ -6,8 +6,8 @@ summary = "Integration assigns a real number to a compactly supported top-degree
 aliases = ["integral of a top form", "integration on a manifold"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "fiber-bundles/smooth-manifold", "differential-geometry/compactly-supported-differential-form", "fiber-bundles/differential-k-form", "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

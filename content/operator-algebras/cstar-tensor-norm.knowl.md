@@ -6,8 +6,8 @@ summary = "A norm on the algebraic tensor product of two C*-algebras whose compl
 aliases = ["C*-cross norm", "C*-tensor product norm"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

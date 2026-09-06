@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A compact manifold whose boundary is identified with a pair of closed manifolds."
 aliases = ["smooth cobordism", "cobordant manifolds"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["topology/closed-manifold", "differential-geometry/manifold-with-boundary"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/closed-manifold", "differential-geometry/manifold-with-boundary", "shared-foundations/equivalence-relation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

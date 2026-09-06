@@ -6,8 +6,8 @@ summary = "A smooth homotopy is a smoothly parameterized one-parameter deformati
 aliases = ["homotopy through smooth maps"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/smooth-map-of-manifolds-with-boundary", "differential-geometry/product-manifold", "differential-geometry/manifold-with-boundary", "shared-foundations/equivalence-relation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

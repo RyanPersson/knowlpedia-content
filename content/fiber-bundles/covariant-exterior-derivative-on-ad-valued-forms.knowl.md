@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The exterior derivative on differential forms with values in the adjoint bundle, defined using a principal connection."
 aliases = ["covariant-exterior-derivative-on-ad-valued-forms", "Covariant exterior derivative on ad(P)-valued forms"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/lie-algebra", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/lie-bracket", "fiber-bundles/exterior-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/lie-algebra", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/lie-bracket", "fiber-bundles/exterior-derivative", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms.md"
 +++
 

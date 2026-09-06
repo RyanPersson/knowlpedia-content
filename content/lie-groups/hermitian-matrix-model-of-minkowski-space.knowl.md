@@ -6,8 +6,8 @@ summary = "Hermitian 2×2 matrices model Minkowski space, with determinant equal
 aliases = ["Pauli matrix model of Minkowski space", "Hermitian 2 by 2 model of spacetime"]
 domains = ["lie-groups", "linear-algebra", "mathematical-physics"]
 prerequisites = ["linear-algebra/hermitian-matrix", "linear-algebra/minkowski-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

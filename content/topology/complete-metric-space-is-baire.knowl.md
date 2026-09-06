@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Every complete metric space is a Baire space."
 aliases = ["complete-metric-space-is-baire", "Complete metric space is Baire"]
 domains = ["topology"]
-prerequisites = ["topology/complete-metric-space", "topology/baire-space", "topology/dense-set", "topology/open-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/complete-metric-space", "topology/dense-set", "topology/open-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/complete-metric-space-is-baire.md"
 +++
 

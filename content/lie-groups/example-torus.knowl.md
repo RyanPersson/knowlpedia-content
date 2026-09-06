@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The n-torus is a compact connected abelian Lie group with Lie algebra R^n and quotient exponential map."
 aliases = ["example-torus", "Example: the torus \\(T^n\\)"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/abelian-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/abelian-lie-group", "lie-groups/abelian-lie-algebra", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/exponential-map-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/example-torus.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "Least upper bound of a measurable function after ignoring a null set.
 aliases = ["essential-supremum", "Essential supremum"]
 domains = ["measure-theory"]
 prerequisites = ["measure-theory/measurable-function", "measure-theory/measure-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/essential-supremum.md"
 +++
 

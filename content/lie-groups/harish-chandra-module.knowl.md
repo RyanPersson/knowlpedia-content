@@ -6,8 +6,8 @@ summary = "An admissible (g,K)-module that is finitely generated over the univer
 aliases = ["admissible finitely generated (g,K)-module"]
 domains = ["lie-groups", "representation-theory"]
 prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/g-k-module", "lie-groups/admissible-representation-real-reductive-group", "lie-groups/universal-enveloping-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

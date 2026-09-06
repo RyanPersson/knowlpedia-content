@@ -6,8 +6,8 @@ summary = "An integral with a rapidly varying phase whose cancellation, rather t
 aliases = ["oscillatory integral operator"]
 domains = ["harmonic-analysis", "partial-differential-equations", "microlocal-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

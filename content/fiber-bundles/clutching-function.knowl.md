@@ -6,8 +6,8 @@ summary = "A map on an overlap used to glue trivial bundles into a global bundle
 aliases = ["clutching-function", "Clutching function"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-bundle-transition-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/clutching-function.md"
 +++
 

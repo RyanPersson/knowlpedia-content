@@ -6,8 +6,8 @@ summary = "A subalgebra reductive in its ambient reductive Lie algebra and havin
 aliases = ["maximal-rank Lie subalgebra", "subalgebra of maximal rank", "equal-rank Lie subalgebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/reductive-lie-algebra", "lie-groups/cartan-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

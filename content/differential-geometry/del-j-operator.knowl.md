@@ -6,8 +6,8 @@ summary = "The first-order differential operator obtained by conjugating d-bar w
 aliases = ["partial-J operator", "∂_J operator", "quaternionic d-bar operator on a hypercomplex manifold"]
 domains = ["differential-geometry", "quaternionic-analysis", "complex-analysis"]
 prerequisites = ["differential-geometry/hypercomplex-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

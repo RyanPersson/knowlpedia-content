@@ -6,8 +6,8 @@ summary = "A p-adic Galois representation that splits over C_p into integral Tat
 aliases = ["Hodge-Tate representation", "Hodge–Tate weights", "Hodge-Tate weights"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
 prerequisites = ["langlands-letter/knowls/galois-extension-and-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

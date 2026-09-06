@@ -6,8 +6,8 @@ summary = "A Riemannian metric on a Lie group invariant under left and right tra
 aliases = ["bi-invariant-metric", "Bi-invariant metric"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/left-translation", "lie-groups/right-translation", "lie-groups/adjoint-action-of-a-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/bi-invariant-metric.md"
 +++
 

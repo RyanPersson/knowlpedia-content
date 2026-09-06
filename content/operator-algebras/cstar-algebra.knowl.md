@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A Banach *-algebra whose norm and involution satisfy the C*-identity."
 aliases = []
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/involutive-algebra", "functional-analysis/banach-algebra", "operator-algebras/star-homomorphism", "operator-algebras/faithful-star-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/involutive-algebra", "functional-analysis/banach-algebra"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 section_mode = "progressive"
 +++
 

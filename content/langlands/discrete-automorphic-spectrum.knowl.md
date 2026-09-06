@@ -6,8 +6,8 @@ summary = "The Hilbert direct sum of irreducible representations occurring discr
 aliases = ["automorphic discrete spectrum", "discrete spectrum of automorphic forms"]
 domains = ["langlands", "number-theory", "spectral-theory"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "algebra-representation-theory/central-character"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

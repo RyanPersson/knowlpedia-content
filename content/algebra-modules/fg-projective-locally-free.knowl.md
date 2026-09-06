@@ -6,8 +6,8 @@ summary = "Over a commutative ring, finitely generated projective modules become
 aliases = ["fg-projective-locally-free", "Finitely generated projectives are locally free"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/projective-module", "algebra-rings/commutative-ring", "algebra-rings/prime-ideal", "algebra-modules/finitely-generated-module", "algebra-modules/free-module", "algebra-modules/rank-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/fg-projective-locally-free.md"
 +++
 

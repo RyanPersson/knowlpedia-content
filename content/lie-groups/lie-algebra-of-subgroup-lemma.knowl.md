@@ -6,8 +6,8 @@ summary = "A Lie subgroup has Lie algebra equal to its tangent space at the iden
 aliases = ["lie-algebra-of-subgroup-lemma", "Lie algebra of a subgroup lemma"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-algebra-of-subgroup-lemma.md"
 +++
 

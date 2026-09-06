@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A bounded real-linear operator Λ with Λ² = −I; when orthogonal, it equips a real Hilbert space with a compatible complex Hilbert structure."
 aliases = ["complex-structure-lambda", "Complex Structure Λ on K"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shale-paper/complex-structure-lambda.md"
 +++
 

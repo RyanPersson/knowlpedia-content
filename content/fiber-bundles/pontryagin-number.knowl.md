@@ -6,8 +6,8 @@ summary = "An integer obtained by evaluating a top-degree monomial in Pontryagin
 aliases = ["Pontryagin characteristic number"]
 domains = ["fiber-bundles", "topology"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "topology/cup-product-and-cohomology-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

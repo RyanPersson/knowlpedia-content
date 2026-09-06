@@ -6,8 +6,8 @@ summary = "A maximal p-subgroup of a finite group, of order equal to the largest
 aliases = ["sylow-subgroup", "Sylow p-subgroup"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/p-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/sylow-subgroup.md"
 +++
 

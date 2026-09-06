@@ -6,8 +6,8 @@ summary = "A vector whose orbit under a compact subgroup spans a finite-dimensio
 aliases = ["finite vector for a compact subgroup", "K-finite part"]
 domains = ["lie-groups", "representation-theory"]
 prerequisites = ["linear-algebra/vector-space", "lie-groups/strongly-continuous-unitary-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

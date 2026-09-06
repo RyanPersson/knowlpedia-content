@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The smallest field extension over which a given polynomial factors completely into linear factors."
 aliases = ["splitting-field", "Splitting field"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/tower-of-fields", "algebra-fields-galois/simple-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/splitting-field.md"
 +++
 

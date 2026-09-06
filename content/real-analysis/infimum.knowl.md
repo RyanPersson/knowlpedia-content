@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The greatest lower bound of a nonempty set of real numbers."
 aliases = ["infimum"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-below", "real-analysis/minimum", "real-analysis/completeness-axiom"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/bounded-below", "shared-foundations/lower-bound", "shared-foundations/subset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/infimum.md"
 +++
 
@@ -20,4 +20,4 @@ The infimum is the “greatest lower bound” and may exist even when \(A\) has 
 ## Examples
 
 - If \(A=(0,1)\), then \(\inf A=0\).
-- If \(A=\{\tfrac1n : n\in\mathbb N\}\), then \(\inf A=0\) (even though \(0\notin A\)).
+- If \(A=\{\tfrac1n : n\in\mathbb N,\ n\ge 1\}\), then \(\inf A=0\) (even though \(0\notin A\)).

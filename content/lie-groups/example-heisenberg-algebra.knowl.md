@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The three-dimensional nilpotent Lie algebra with basis X, Y, Z and bracket [X,Y]=Z."
 aliases = ["example-heisenberg-algebra", "Example: the Heisenberg Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/nilpotent-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/nilpotent-lie-algebra", "lie-groups/derived-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/example-heisenberg-algebra.md"
 +++
 

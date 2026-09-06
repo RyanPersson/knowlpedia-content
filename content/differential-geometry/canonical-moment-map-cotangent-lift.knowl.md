@@ -6,8 +6,8 @@ summary = "The cotangent lift of a Lie group action is Hamiltonian with moment m
 aliases = ["cotangent-lift moment map"]
 domains = ["differential-geometry", "lie-groups"]
 prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "differential-geometry/cotangent-lift", "differential-geometry/equivariant-moment-map", "differential-geometry/hamiltonian-lie-group-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

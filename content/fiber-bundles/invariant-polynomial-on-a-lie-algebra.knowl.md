@@ -6,8 +6,8 @@ summary = "A polynomial on a Lie algebra that is unchanged by the adjoint action
 aliases = ["Ad-invariant polynomial", "invariant symmetric polynomial"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/adjoint-action-of-a-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

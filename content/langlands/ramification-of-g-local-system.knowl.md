@@ -6,8 +6,8 @@ summary = "The obstruction to extending a G-local system across a puncture as an
 aliases = ["ramified G-local system"]
 domains = ["langlands", "fiber-bundles"]
 prerequisites = ["fiber-bundles/local-system", "langlands/g-local-system", "langlands/regular-singular-connection", "langlands/irregular-singular-connection", "langlands/stokes-data", "langlands/tame-ramification", "langlands/wild-ramification"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

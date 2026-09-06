@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The subgroup acting trivially on every point of the set"
 aliases = ["kernel-of-action", "Kernel of an Action"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-action", "algebra-groups/normal-subgroup", "algebra-groups/kernel-group", "algebra-groups/faithful-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/group-action"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/kernel-of-action.md"
 +++
 

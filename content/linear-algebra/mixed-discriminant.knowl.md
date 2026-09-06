@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The symmetric multilinear polarization of a determinant on self-adjoint matrices."
 aliases = ["mixed determinant", "mixed Moore determinant"]
 domains = ["linear-algebra", "convex-analysis", "quaternionic-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

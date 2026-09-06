@@ -6,8 +6,8 @@ summary = "Under chain conditions, direct-product decompositions into indecompos
 aliases = ["krull-remak-schmidt-theorem-groups", "Krull–Remak–Schmidt Theorem (Groups)"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/direct-product-groups", "algebra-groups/group-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/krull-remak-schmidt-theorem-groups.md"
 +++
 

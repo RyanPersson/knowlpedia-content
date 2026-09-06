@@ -6,8 +6,8 @@ summary = "The subring of elements that commute with every element of the ring."
 aliases = ["center-of-ring", "Center of a ring"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ring", "algebra-rings/subring", "algebra-rings/commutative-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/center-of-ring.md"
 +++
 

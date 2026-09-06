@@ -6,8 +6,8 @@ summary = "A countably generated Hilbert C-star module is absorbed by the standa
 aliases = ["stabilization theorem for Hilbert C*-modules"]
 domains = ["operator-algebras", "noncommutative-geometry"]
 prerequisites = ["operator-algebras/countably-generated-hilbert-cstar-module", "operator-algebras/standard-hilbert-cstar-module", "operator-algebras/adjointable-operator-hilbert-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

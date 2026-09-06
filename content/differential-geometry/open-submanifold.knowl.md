@@ -6,8 +6,8 @@ summary = "An open subset of a smooth manifold with the smooth structure obtaine
 aliases = ["open smooth submanifold", "open subset as a submanifold"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-structure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

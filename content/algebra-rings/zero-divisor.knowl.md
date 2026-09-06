@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A nonzero element that multiplies with some nonzero element to give zero."
 aliases = ["zero-divisor", "Zero divisor"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ring", "algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/zero-divisor.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "Dual-group data defining a reductive endoscopic group and its L-embed
 aliases = ["endoscopy datum", "endoscopic data", "elliptic endoscopic datum"]
 domains = ["langlands", "algebraic-geometry-foundations", "representation-theory"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/quasi-split-reductive-group", "langlands-letter/knowls/semisimple-element-and-class", "langlands-letter/knowls/langlands-functoriality-l-homomorphism", "langlands/l-group", "langlands-letter/knowls/langlands-dual-group", "algebra-groups/centralizer", "shared-foundations/equivalence-relation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

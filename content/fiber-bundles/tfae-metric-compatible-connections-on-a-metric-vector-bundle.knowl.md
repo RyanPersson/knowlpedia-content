@@ -6,8 +6,8 @@ summary = "Equivalent conditions for a connection to preserve a fiber metric, in
 aliases = ["tfae-metric-compatible-connections-on-a-metric-vector-bundle", "TFAE: Metric-compatible connections on a metric vector bundle"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/tfae-metric-compatible-connections-on-a-metric-vector-bundle.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The finite group N_G(T)/T associated with a maximal torus, or equival
 aliases = ["weyl-group", "Weyl group"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/maximal-torus-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/weyl-group.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The spherical Fourier transform is a unitary decomposition of K-invar
 aliases = ["Plancherel formula for G/K", "spherical Fourier inversion"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "harmonic-analysis/spherical-function", "measure-theory/lebesgue-measure", "lie-groups/harish-chandra-c-function", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

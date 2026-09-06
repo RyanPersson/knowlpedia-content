@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For an increasing sequence of nonnegative measurable functions, the integral of the limit equals the limit of the integrals."
 aliases = ["monotone-convergence-theorem", "Monotone convergence theorem"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space", "shared-foundations/sequence", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative", "measure-theory/almost-everywhere", "measure-theory/null-set", "measure-theory/ae-equality", "measure-theory/fatous-lemma", "measure-theory/dominated-convergence-theorem", "measure-theory/lebesgue-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measure-space", "shared-foundations/sequence", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative", "measure-theory/almost-everywhere", "measure-theory/null-set", "measure-theory/ae-equality", "measure-theory/lebesgue-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/monotone-convergence-theorem.md"
 +++
 

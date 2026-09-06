@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The largest modulus of a spectral value of a Banach-algebra element."
 aliases = ["spectral radius of an element"]
 domains = ["functional-analysis", "operator-algebras"]
-prerequisites = ["functional-analysis/banach-algebra", "functional-analysis/banach-algebra-spectrum"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["functional-analysis/banach-algebra", "functional-analysis/banach-algebra-spectrum", "real-analysis/supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

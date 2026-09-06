@@ -6,8 +6,8 @@ summary = "A neighborhood of an embedded submanifold modeled by a neighborhood o
 aliases = ["tubular neighborhood embedding", "normal neighborhood"]
 domains = ["differential-geometry", "fiber-bundles"]
 prerequisites = ["differential-geometry/embedded-submanifold", "differential-geometry/normal-bundle", "fiber-bundles/zero-section", "fiber-bundles/smooth-embedding", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

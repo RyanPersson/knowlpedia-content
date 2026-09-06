@@ -6,8 +6,8 @@ summary = "A locally ringed space covered by open subsets that are affine scheme
 aliases = ["scheme"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/locally-ringed-space", "topology/open-cover", "algebraic-geometry-foundations/affine-scheme", "algebraic-geometry-foundations/structure-sheaf"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/scheme.md"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A continuous bijection from a compact space to a Hausdorff space is a homeomorphism."
 aliases = ["compact-to-hausdorff-homeomorphism-criterion", "Compact-to-Hausdorff homeomorphism criterion"]
 domains = ["topology"]
-prerequisites = ["topology/hausdorff-space", "topology/homeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/compact-set", "topology/hausdorff-space", "topology/homeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/compact-to-hausdorff-homeomorphism-criterion.md"
 +++
 

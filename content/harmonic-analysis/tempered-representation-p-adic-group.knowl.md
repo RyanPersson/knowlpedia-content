@@ -6,8 +6,8 @@ summary = "An irreducible admissible representation whose matrix coefficients ha
 aliases = ["p-adic tempered representation", "tempered smooth representation", "tempered representation of a reductive p-adic group"]
 domains = ["harmonic-analysis", "langlands"]
 prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "harmonic-analysis/admissible-representation-p-adic-group", "algebra-representation-theory/central-character", "algebra-groups/center-of-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

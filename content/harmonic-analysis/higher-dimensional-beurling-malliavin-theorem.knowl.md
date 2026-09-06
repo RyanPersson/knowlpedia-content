@@ -6,8 +6,8 @@ summary = "Regular negative weights with summable radial-line growth admit nontr
 aliases = ["higher-dimensional BM theorem", "Cohen multiplier theorem"]
 domains = ["harmonic-analysis", "several-complex-variables"]
 prerequisites = ["harmonic-analysis/radial-line-growth-functional"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

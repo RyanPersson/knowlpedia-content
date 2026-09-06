@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The coefficient of the inverse-linear term in a Laurent expansion."
 aliases = ["complex residue"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/laurent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/laurent-series", "complex-analysis/complex-contour-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

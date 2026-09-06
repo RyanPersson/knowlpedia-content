@@ -6,6 +6,9 @@ summary = "Sequences, series, continuity, differentiation, and integration on th
 aliases = ["real-analysis", "Real Analysis"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Click any term to expand its definition inline.

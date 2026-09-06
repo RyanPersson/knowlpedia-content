@@ -5,6 +5,9 @@ kind = "index"
 summary = "Definitions added in the July 2026 expansion of operator algebras, noncompact representation theory, noncommutative geometry, and differential geometry."
 aliases = ["July 2026 knowls", "July 26 additions", "operator algebra and geometry expansion"]
 domains = ["knowlification", "operator-algebras", "functional-analysis", "harmonic-analysis", "noncommutative-geometry", "lie-groups", "differential-geometry", "fiber-bundles"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This permanent provenance and review index records the definitions added in the July 2026 operator-algebra and geometry expansion. Click any term to expand it in place.

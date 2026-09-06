@@ -6,8 +6,8 @@ summary = "A positive element is a self-adjoint C*-algebra element whose spectru
 aliases = ["positive C*-element", "nonnegative element of a C*-algebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/self-adjoint-element", "functional-analysis/banach-algebra-spectrum", "operator-algebras/continuous-functional-calculus"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

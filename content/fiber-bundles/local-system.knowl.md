@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A locally constant sheaf, equivalently on a suitable space a representation of its fundamental groupoid."
 aliases = ["locally constant sheaf"]
 domains = ["fiber-bundles", "topology", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/sheaf"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/sheaf", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "A quaternionic vector space is a left or right module over the quater
 aliases = ["right quaternionic vector space", "ℍ-vector space"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/quaternion-division-algebra", "algebra-groups/abelian-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

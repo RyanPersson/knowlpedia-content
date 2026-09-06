@@ -6,8 +6,8 @@ summary = "A nonunital spectral triple replaces global compact resolvent by comp
 aliases = ["locally compact spectral triple", "noncompact spectral triple"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/nondegenerate-star-homomorphism", "linear-algebra/hilbert-space", "functional-analysis/self-adjoint-unbounded-operator", "functional-analysis/bounded-commutator", "linear-algebra/compact-operator", "noncommutative-geometry/spectral-triple"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

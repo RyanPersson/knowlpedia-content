@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The ring R_p obtained by inverting all elements outside a prime ideal p."
 aliases = ["localization-at-prime", "Localization at a prime ideal"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring", "algebra-commutative/local-ring", "algebra-commutative/localization-prime-correspondence", "algebra-commutative/residue-field", "algebra-commutative/prime-spectrum"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring", "algebra-commutative/local-ring", "algebra-commutative/localization-prime-correspondence", "algebra-commutative/prime-spectrum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-at-prime.md"
 +++
 

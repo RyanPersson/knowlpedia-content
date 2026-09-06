@@ -6,8 +6,8 @@ summary = "An L2 function is band limited exactly when it extends to an entire f
 aliases = ["L2 Paley–Wiener theorem", "Paley–Wiener criterion"]
 domains = ["harmonic-analysis", "complex-analysis"]
 prerequisites = ["complex-analysis/entire-function-several-variables"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A self-adjoint idempotent in a C*-algebra."
 aliases = ["self-adjoint idempotent", "C*-projection", "operator-algebra projection"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "algebra-rings/idempotent-element", "linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/cstar-algebra", "algebra-rings/idempotent-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

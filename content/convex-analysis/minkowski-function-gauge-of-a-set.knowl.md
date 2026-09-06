@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "An extended-real-valued functional measuring the dilation needed for a set to contain a vector."
 aliases = ["minkowski-function-gauge-of-a-set", "Minkowski Function (Gauge)"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/balanced-and-absorbing-sets", "convex-analysis/convex-set", "convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions", "convex-analysis/algebraic-interior-core", "convex-analysis/properties-of-the-minkowski-functional-of-a-convex-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "shared-foundations/set", "real-analysis/infimum"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "convex-analysis/minkowski-function-gauge-of-a-set.md"
 +++
 

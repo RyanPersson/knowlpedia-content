@@ -6,8 +6,8 @@ summary = "A finite-dimensional Hilbert space with an observable algebra and a s
 aliases = ["quantum-system-stat-mech", "Finite quantum statistical system"]
 domains = ["stat-mech-quantum"]
 prerequisites = ["stat-mech-quantum/observable-algebra", "stat-mech-quantum/quantum-hamiltonian", "quantum-foundations/density-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "stat-mech-quantum/quantum-system-stat-mech.md"
 +++
 

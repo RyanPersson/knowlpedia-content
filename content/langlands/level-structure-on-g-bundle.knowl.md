@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A reduction of the formal-frame torsor of a G-bundle at a marked point to a chosen subgroup of the positive loop group."
 aliases = ["K-level structure on a G-bundle"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["formal-groups/formal-affine-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/principal-g-bundle-on-scheme", "algebraic-geometry-foundations/smooth-projective-curve", "formal-groups/formal-affine-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "An operator with finite ℓ²-norm of matrix coefficients (Schatten class 2)"
 aliases = ["Shale-paper Hilbert–Schmidt operator"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shale-paper/hilbert-schmidt-operator.md"
 +++
 

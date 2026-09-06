@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A strong continuity condition on an interval controlling total change over collections of small subintervals"
 aliases = ["absolute-continuity", "Absolute continuity"]
 domains = ["analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/interval", "shared-foundations/function", "real-analysis/uniform-continuity"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "analysis/absolute-continuity.md"
 +++
 

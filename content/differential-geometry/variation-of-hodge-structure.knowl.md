@@ -6,8 +6,8 @@ summary = "A local system whose fibers carry Hodge structures varying holomorphi
 aliases = ["VHS"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-vector-bundle", "fiber-bundles/flat-vector-bundle-connection", "linear-algebra/bilinear-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

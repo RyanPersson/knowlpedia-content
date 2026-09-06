@@ -6,8 +6,8 @@ summary = "The relative cohomology class that restricts to the orientation gener
 aliases = ["orientation class of a vector bundle", "Thom cohomology class"]
 domains = ["fiber-bundles", "topology"]
 prerequisites = ["fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/zero-section", "topology/singular-cohomology-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

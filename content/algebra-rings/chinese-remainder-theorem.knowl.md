@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For pairwise comaximal ideals, the quotient by their intersection splits as a product of quotients."
 aliases = ["chinese-remainder-theorem", "Chinese remainder theorem"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal", "algebra-rings/sum-of-ideals", "algebra-rings/intersection-of-ideals", "algebra-rings/quotient-ring", "shared-foundations/cartesian-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal", "algebra-rings/sum-of-ideals", "algebra-rings/intersection-of-ideals", "algebra-rings/quotient-ring", "shared-foundations/cartesian-product", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/chinese-remainder-theorem.md"
 +++
 

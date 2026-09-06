@@ -6,8 +6,8 @@ summary = "An orbital integral multiplied by Arthur's parabolic weight, forming 
 aliases = ["Arthur weighted orbital integral", "weighted orbital integral J_M", "J_M(gamma,f)"]
 domains = ["langlands", "harmonic-analysis"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "algebraic-geometry-foundations/levi-subgroup", "convex-analysis/convex-hull", "algebraic-geometry-foundations/parabolic-subgroup", "langlands/orbital-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

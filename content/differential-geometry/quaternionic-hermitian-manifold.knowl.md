@@ -6,8 +6,8 @@ summary = "An almost-quaternionic manifold with a Riemannian metric invariant un
 aliases = ["almost quaternion-Hermitian manifold"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/almost-quaternionic-manifold", "differential-geometry/riemannian-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

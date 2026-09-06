@@ -6,6 +6,9 @@ summary = "Semigroup–Quasigroup Structure"
 aliases = ["semigroup-quasigroup-structure", "Semigroup–Quasigroup Structure"]
 domains = ["posts"]
 legacy_source_path = "posts/semigroup-quasigroup-structure.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 {{< euler-diagram >}}

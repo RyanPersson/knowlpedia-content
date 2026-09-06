@@ -6,6 +6,9 @@ summary = "Ring theory and ideal structure"
 aliases = ["algebra-rings", "Algebra: Rings"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This section contains definitions, theorems, lemmas, propositions, and corollaries from ring theory.

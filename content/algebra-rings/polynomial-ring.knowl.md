@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The ring R[x] of polynomials in an indeterminate x with coefficients in R."
 aliases = ["polynomial-ring", "Polynomial ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/polynomial-ring.md"
 +++
 

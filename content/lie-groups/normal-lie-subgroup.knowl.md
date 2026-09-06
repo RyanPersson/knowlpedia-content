@@ -6,8 +6,8 @@ summary = "A Lie subgroup invariant under conjugation; infinitesimally, it corre
 aliases = ["normal-lie-subgroup", "Normal Lie subgroup"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup", "lie-groups/conjugation-action-of-a-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/normal-lie-subgroup.md"
 +++
 

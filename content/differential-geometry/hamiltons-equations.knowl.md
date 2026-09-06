@@ -6,8 +6,8 @@ summary = "The canonical-coordinate differential equations determined by a Hamil
 aliases = ["canonical Hamilton equations"]
 domains = ["differential-geometry", "classical-mechanics"]
 prerequisites = ["differential-geometry/hamiltonian-system", "differential-geometry/darboux-theorem-symplectic"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

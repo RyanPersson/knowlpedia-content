@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A field in which every nonconstant one-variable polynomial has a root."
 aliases = ["algebraically closed field", "algebraically closed"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-rings/field|field]] \(k\) is **algebraically closed** if every nonconstant polynomial \(f(x)\in k[x]\) has a root in \(k\). Equivalently, every nonconstant polynomial factors completely into linear factors:

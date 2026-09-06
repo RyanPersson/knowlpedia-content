@@ -6,8 +6,8 @@ summary = "The requirement that the represented algebra commute with the opposit
 aliases = ["commutant condition", "zero-order condition"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["operator-algebras/opposite-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

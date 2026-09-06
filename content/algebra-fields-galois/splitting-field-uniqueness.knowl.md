@@ -6,8 +6,8 @@ summary = "Splitting fields are unique up to base-field isomorphism (and unique 
 aliases = ["splitting-field-uniqueness", "Uniqueness of splitting fields"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-rings/field", "algebra-fields-galois/splitting-field", "algebra-fields-galois/field-embedding"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/splitting-field-uniqueness.md"
 +++
 

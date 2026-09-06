@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A cohomology class on a classifying space whose pullbacks assign a natural characteristic class to every principal bundle."
 aliases = ["characteristic class on BG", "universal cohomological characteristic class"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["topology/topological-group", "fiber-bundles/classifying-space-bg", "fiber-bundles/classifying-map-of-a-principal-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-group", "fiber-bundles/classifying-space-bg", "fiber-bundles/classifying-map-of-a-principal-bundle", "topology/singular-cohomology-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

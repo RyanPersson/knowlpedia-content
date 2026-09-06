@@ -6,8 +6,8 @@ summary = "A set carrying a measure whose mass in centered balls is uniformly co
 aliases = ["AD-regular set", "Ahlfors regular set", "delta-regular set"]
 domains = ["analysis", "geometric-measure-theory", "measure-theory"]
 prerequisites = ["measure-theory/measure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

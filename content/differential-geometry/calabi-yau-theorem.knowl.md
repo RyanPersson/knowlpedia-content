@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Each Kähler class on a compact Kähler manifold contains a unique metric with any prescribed Ricci form representing the first Chern class."
 aliases = ["Yau theorem", "solution of the Calabi conjecture"]
 domains = ["differential-geometry", "partial-differential-equations"]
-prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/kahler-class", "differential-geometry/kahler-form", "differential-geometry/ricci-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/kahler-class", "differential-geometry/kahler-form", "differential-geometry/ricci-form", "differential-geometry/kahler-metric"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

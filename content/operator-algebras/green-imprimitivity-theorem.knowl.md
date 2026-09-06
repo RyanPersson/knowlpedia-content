@@ -6,8 +6,8 @@ summary = "An induced dynamical system crossed by its ambient group is Morita eq
 aliases = ["Green's imprimitivity theorem"]
 domains = ["operator-algebras", "harmonic-analysis"]
 prerequisites = ["topology/locally-compact-group", "lie-groups/left-translation", "operator-algebras/full-crossed-product", "operator-algebras/strong-morita-equivalence", "operator-algebras/imprimitivity-bimodule"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

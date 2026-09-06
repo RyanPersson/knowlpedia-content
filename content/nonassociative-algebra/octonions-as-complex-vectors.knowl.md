@@ -5,9 +5,9 @@ kind = "construction"
 summary = "The real-algebra model of the octonions on C ⊕ C³ with an SU(3)-equivariant product."
 aliases = ["C plus C3 model of octonions", "complex vector model of octonions", "O equals C plus C3"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["linear-algebra/vector-space", "nonassociative-algebra/octonion-algebra", "nonassociative-algebra/conjugated-cross-product-on-c3"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "nonassociative-algebra/octonion-algebra", "nonassociative-algebra/conjugated-cross-product-on-c3", "nonassociative-algebra/octonion-conjugation-norm-and-inner-product", "linear-algebra/orthogonal-complement", "nonassociative-algebra/real-normed-division-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

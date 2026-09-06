@@ -6,8 +6,8 @@ summary = "Every p-subgroup lies in a conjugate of a Sylow p-subgroup"
 aliases = ["sylow-conjugacy-lemma", "Sylow Conjugacy Lemma"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/sylow-subgroup", "algebra-groups/p-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/sylow-conjugacy-lemma.md"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A topological space containing a countable dense subset."
 aliases = ["separable", "separable space", "separability"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/metric-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "topology/metric-space", "topology/dense-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[topology/topological-space|topological space]] \(X\) is **separable** if it contains a countable dense subset: there is a countable set \(D\subseteq X\) whose closure is all of \(X\). Equivalently, every nonempty open subset of \(X\) meets \(D\).

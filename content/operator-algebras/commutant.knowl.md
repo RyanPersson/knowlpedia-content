@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The algebra of bounded operators that commute with every operator in a specified set."
 aliases = ["centralizer algebra", "operator commutant"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "operator-algebras/bicommutant"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

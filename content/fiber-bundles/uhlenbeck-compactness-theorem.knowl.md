@@ -6,8 +6,8 @@ summary = "A compactness theorem giving subsequential convergence of bounded-ene
 aliases = ["Uhlenbeck weak compactness", "bubbling compactness for instantons"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/instanton", "fiber-bundles/bundle-isomorphism", "fiber-bundles/gauge-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

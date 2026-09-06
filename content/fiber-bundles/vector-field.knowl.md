@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A smooth section of the tangent bundle; equivalently, an assignment of a tangent vector to each point varying smoothly."
 aliases = ["vector-field", "Vector field"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/cotangent-bundle", "fiber-bundles/smooth-map", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/tangent-space-at-a-point"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "fiber-bundles/vector-field.md"
 +++
 

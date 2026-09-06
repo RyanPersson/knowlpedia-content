@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Sum of diagonal entries of a square matrix, invariant under change of basis."
 aliases = ["trace"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/linear-operator", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/linear-operator", "linear-algebra/matrix", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/trace.md"
 +++
 

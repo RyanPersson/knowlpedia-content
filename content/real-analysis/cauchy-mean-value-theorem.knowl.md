@@ -6,8 +6,8 @@ summary = "A two-function mean value theorem relating ratios of increments to ra
 aliases = ["cauchy-mean-value-theorem", "Cauchy mean value theorem"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/differentiability-1d", "real-analysis/mean-value-theorem", "real-analysis/lhopitals-rule"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/cauchy-mean-value-theorem.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A two-level quantum system with state Hilbert space C^2."
 aliases = ["quantum bit", "two-level quantum system"]
 domains = ["quantum-foundations", "mathematical-physics"]
 prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/orthonormal-basis"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

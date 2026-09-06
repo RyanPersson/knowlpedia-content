@@ -6,6 +6,9 @@ summary = "Lecture notes on vector spaces, metric spaces, normed vector spaces, 
 aliases = ["convex-lecture-notes", "Modern Analysis: Lecture Notes and Further Reading Materials"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/convex-lecture-notes.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## Contents

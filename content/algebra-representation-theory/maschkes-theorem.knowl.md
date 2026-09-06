@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "If char(k) does not divide |G|, then every finite-dimensional k-representation of a finite group is completely reducible."
 aliases = ["maschkes-theorem", "Maschke's theorem"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/subrepresentation", "algebra-modules/semisimple-module", "algebra-representation-theory/completely-reducible-representation", "algebra-modules/module-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/maschkes-theorem.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "An element e of a Jordan triple system satisfying {e,e,e}=e, the trip
 aliases = ["tripotent", "Jordan tripotent", "triple-system tripotent"]
 domains = ["nonassociative-algebra", "functional-analysis"]
 prerequisites = ["nonassociative-algebra/hermitian-jordan-triple-system", "nonassociative-algebra/jordan-idempotent"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "Decomposition of a semisimple Lie algebra into a Cartan subalgebra pl
 aliases = ["root-space-decomposition", "Root space decomposition"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra", "lie-groups/root-space", "lie-groups/killing-form", "lie-groups/root-system", "lie-groups/positive-root", "lie-groups/dynkin-diagram"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/root-space-decomposition.md"
 +++
 

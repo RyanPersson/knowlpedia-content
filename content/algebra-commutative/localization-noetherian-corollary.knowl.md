@@ -6,8 +6,8 @@ summary = "If a ring is Noetherian, then any localization (in particular at a pr
 aliases = ["localization-noetherian-corollary", "Localization preserves Noetherianity"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-at-prime", "algebra-commutative/local-ring", "algebra-commutative/maximal-ideal-local-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-noetherian-corollary.md"
 +++
 

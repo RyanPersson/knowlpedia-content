@@ -6,8 +6,8 @@ summary = "The universal map from an ordered blueprint to one with unique weak i
 aliases = ["pasteurization of an ordered blueprint", "pasteurization functor", "unique weak inverse reflection"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
 prerequisites = ["algebraic-geometry-foundations/ordered-blueprint", "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

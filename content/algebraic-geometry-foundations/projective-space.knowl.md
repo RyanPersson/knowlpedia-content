@@ -6,8 +6,8 @@ summary = "The scheme of one-dimensional linear subspaces of a vector space, cov
 aliases = ["projective-space", "projective n-space", "projectivization of a vector space"]
 domains = ["algebraic-geometry-foundations", "linear-algebra"]
 prerequisites = ["linear-algebra/vector-space", "algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/proj"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 legacy_source_path = "algebraic-geometry-foundations/projective-space.md"
 +++

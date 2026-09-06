@@ -6,8 +6,8 @@ summary = "Transitive systems of imprimitivity are exactly those obtained by ind
 aliases = ["imprimitivity theorem", "imprimitivity classification"]
 domains = ["harmonic-analysis", "representation-theory"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/system-of-imprimitivity", "algebra-groups/transitive-action", "lie-groups/strongly-continuous-unitary-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

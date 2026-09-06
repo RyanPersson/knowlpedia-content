@@ -6,8 +6,8 @@ summary = "A real or complex vector bundle whose fibers have dimension one over 
 aliases = ["real line bundle", "complex line bundle", "rank-one vector bundle"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/rank-of-a-vector-bundle", "fiber-bundles/local-trivialization", "linear-algebra/linear-map", "fiber-bundles/transition-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set of whole numbers, positive, negative, and zero."
 aliases = ["integers"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set", "shared-foundations/natural-numbers"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/integers.md"
 +++
 

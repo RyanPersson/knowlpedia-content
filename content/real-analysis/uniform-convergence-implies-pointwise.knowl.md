@@ -6,8 +6,8 @@ summary = "Uniform convergence guarantees pointwise convergence at every point."
 aliases = ["uniform-convergence-implies-pointwise", "Uniform convergence implies pointwise convergence"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/uniform-convergence", "real-analysis/pointwise-convergence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-convergence-implies-pointwise.md"
 +++
 

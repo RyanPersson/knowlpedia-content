@@ -6,8 +6,8 @@ summary = "Extension of a holomorphic function through overlapping domains, uniq
 aliases = ["holomorphic continuation"]
 domains = ["complex-analysis"]
 prerequisites = ["complex-analysis/complex-domain", "topology/connected-component", "complex-analysis/identity-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

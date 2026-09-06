@@ -6,8 +6,8 @@ summary = "A polynomial whose coefficients generate the unit ideal (content 1)."
 aliases = ["primitive-polynomial", "Primitive polynomial"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/integral-domain", "algebra-rings/content-polynomial"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/primitive-polynomial.md"
 +++
 

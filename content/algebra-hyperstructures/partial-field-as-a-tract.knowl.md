@@ -6,8 +6,8 @@ summary = "The tract whose null sums are the formal sums vanishing in the ambien
 aliases = ["partial field tract"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
 prerequisites = ["algebra-hyperstructures/partial-field", "algebra-hyperstructures/tract"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

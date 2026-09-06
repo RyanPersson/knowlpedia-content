@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set of values a function actually attains."
 aliases = ["image-range", "Image (range)"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/image-range.md"
 +++
 

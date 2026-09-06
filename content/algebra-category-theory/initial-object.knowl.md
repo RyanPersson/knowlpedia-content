@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "An object admitting a unique morphism to every object of a category."
 aliases = ["initial object"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/terminal-object", "algebra-category-theory/zero-object"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/terminal-object"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]]. An **initial object** is an object \(0\) such that for every object \(X\), there is exactly one morphism \(0\to X\). Any two initial objects are uniquely isomorphic.

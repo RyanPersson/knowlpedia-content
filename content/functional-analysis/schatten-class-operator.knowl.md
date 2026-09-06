@@ -6,8 +6,8 @@ summary = "A compact Hilbert-space operator whose singular-value sequence is sum
 aliases = ["Schatten p-class", "Schatten ideal"]
 domains = ["functional-analysis", "operator-algebras"]
 prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/compact-operator", "functional-analysis/singular-values", "algebra-rings/two-sided-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

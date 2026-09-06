@@ -6,8 +6,8 @@ summary = "Ext¹_R(C,A) is naturally identified with equivalence classes of shor
 aliases = ["ext1-classifies-extensions", "Ext¹ classifies extensions"]
 domains = ["algebra-homological"]
 prerequisites = ["algebra-modules/short-exact-sequence", "algebra-homological/ext", "algebra-modules/hom-module", "algebra-homological/derived-functor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/ext1-classifies-extensions.md"
 +++
 

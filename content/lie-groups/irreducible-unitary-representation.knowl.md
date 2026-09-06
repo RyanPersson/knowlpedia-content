@@ -6,8 +6,8 @@ summary = "An irreducible unitary representation has no nonzero proper closed in
 aliases = ["topologically irreducible representation", "irreducible Hilbert representation"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "lie-groups/invariant-closed-subspace-unitary-representation", "linear-algebra/orthogonal-complement"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

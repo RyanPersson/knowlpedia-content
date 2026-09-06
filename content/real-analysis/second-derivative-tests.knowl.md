@@ -6,8 +6,8 @@ summary = "Using the second derivative to classify local maxima and minima at cr
 aliases = ["second-derivative-tests", "Second derivative tests"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/critical-point", "real-analysis/local-extremum", "real-analysis/higher-derivatives"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/second-derivative-tests.md"
 +++
 

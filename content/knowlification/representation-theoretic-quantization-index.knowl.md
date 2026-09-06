@@ -6,6 +6,9 @@ summary = "The new knowls added while annotating a discussion of symplectic symm
 aliases = ["Representation-theoretic quantization additions index", "Symplectic quantization conversation additions"]
 domains = ["knowlification", "mathematical-physics", "lie-groups", "differential-geometry"]
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This index records the genuinely missing concepts identified while knowlifying the representation-theoretic quantization conversation. Existing coverage already supplied the symplectic, Hamiltonian, moment-map, unitary-representation, smooth-vector, and derived-representation foundations.

@@ -6,8 +6,8 @@ summary = "An irreducible complex unitary representation has only scalar bounded
 aliases = ["unitary Schur lemma", "commutant criterion for irreducibility"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["linear-algebra/hilbert-space", "lie-groups/irreducible-unitary-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The relation in which two admissible representations have isomorphic 
 aliases = ["infinitesimally equivalent representations"]
 domains = ["lie-groups", "representation-theory"]
 prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/k-finite-vector", "lie-groups/harish-chandra-module", "lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "A state obtained by evaluating a represented algebra against a unit v
 aliases = ["state induced by a unit vector"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/nondegenerate-cstar-representation", "operator-algebras/cstar-representation", "operator-algebras/state-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The transform integrating an integrable function against the characte
 aliases = ["group Fourier transform", "LCA Fourier transform"]
 domains = ["harmonic-analysis", "functional-analysis", "algebra-groups"]
 prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/haar-measure", "measure-theory/l1-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

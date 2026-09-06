@@ -6,8 +6,8 @@ summary = "The fully faithful encoding of Krasner hyperrings by monomial inequal
 aliases = ["ordered blueprint associated with a hyperring", "hyperring ordered blueprint embedding"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
 prerequisites = ["algebra-hyperstructures/hyperring", "algebraic-geometry-foundations/ordered-blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A mode of convergence where the set of large errors has measure tending to zero."
 aliases = ["convergence-in-measure", "Convergence in measure"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/sequence", "measure-theory/measurable-function", "measure-theory/measure-space", "measure-theory/convergence-almost-everywhere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/sequence", "measure-theory/measurable-function", "measure-theory/measure-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/convergence-in-measure.md"
 +++
 

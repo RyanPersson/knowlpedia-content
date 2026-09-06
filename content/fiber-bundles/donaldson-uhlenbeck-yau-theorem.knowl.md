@@ -6,8 +6,8 @@ summary = "The equivalence between slope-polystability of a holomorphic vector b
 aliases = ["DUY theorem", "Kobayashi-Hitchin correspondence for vector bundles"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/holomorphic-vector-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/chern-connection", "fiber-bundles/hermitian-yang-mills-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

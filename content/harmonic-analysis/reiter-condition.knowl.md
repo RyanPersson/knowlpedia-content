@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An analytic approximation condition asserting the existence of normalized nonnegative L1 functions that are uniformly almost invariant on compact sets."
 aliases = ["Reiter property P1", "Reiter net", "almost invariant L1 functions"]
 domains = ["harmonic-analysis", "functional-analysis", "topology"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/l1-group-algebra", "harmonic-analysis/haar-measure", "real-analysis/pointwise-convergence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/l1-group-algebra", "harmonic-analysis/haar-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

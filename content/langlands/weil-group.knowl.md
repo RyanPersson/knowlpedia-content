@@ -6,8 +6,8 @@ summary = "A locally compact refinement of an absolute Galois group used in loca
 aliases = ["local Weil group", "W_F"]
 domains = ["langlands", "algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/galois-extension-and-group", "algebra-fields-galois/inertia-subgroup", "topology/locally-profinite-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

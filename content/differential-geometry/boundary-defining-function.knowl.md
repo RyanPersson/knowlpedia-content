@@ -6,8 +6,8 @@ summary = "A smooth nonnegative function that vanishes simply and exactly on the
 aliases = ["defining function for a boundary", "local boundary defining function"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/manifold-with-boundary", "fiber-bundles/regular-value"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

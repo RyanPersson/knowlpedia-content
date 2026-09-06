@@ -6,8 +6,8 @@ summary = "The first cohomology of the flat-connection deformation complex is th
 aliases = ["first cohomology with local coefficients", "infinitesimal flat deformations"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/deformation-complex-of-a-flat-connection", "fiber-bundles/irreducible-connection", "differential-geometry/tangent-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

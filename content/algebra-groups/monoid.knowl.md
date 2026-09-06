@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A semigroup with an identity element"
 aliases = ["monoid"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/semigroup", "algebra-groups/group", "shared-foundations/composition"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/semigroup"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/monoid.md"
 +++
 

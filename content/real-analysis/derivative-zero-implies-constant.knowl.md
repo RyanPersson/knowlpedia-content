@@ -6,8 +6,8 @@ summary = "If the derivative of a differentiable function is zero everywhere on 
 aliases = ["derivative-zero-implies-constant", "Derivative zero implies constant"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/derivative-zero-implies-constant.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "Every finitely generated abelian group splits as a free part plus fin
 aliases = ["classification-fg-abelian-groups", "Classification of finitely generated abelian groups"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/structure-theorem-pid", "algebra-rings/pid", "algebra-modules/finitely-generated-module", "algebra-modules/direct-sum-modules", "algebra-modules/cyclic-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/classification-fg-abelian-groups.md"
 +++
 

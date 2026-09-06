@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A countably additive set function defined on a set algebra."
 aliases = ["premeasure"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/empty-set", "measure-theory/set-algebra", "measure-theory/measure", "measure-theory/caratheodory-construction"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/empty-set", "measure-theory/set-algebra", "shared-foundations/function", "shared-foundations/sequence", "shared-foundations/union"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/premeasure.md"
 +++
 

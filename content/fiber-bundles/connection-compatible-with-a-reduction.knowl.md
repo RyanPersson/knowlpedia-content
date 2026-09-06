@@ -6,8 +6,8 @@ summary = "A principal connection whose horizontal spaces restrict to a chosen r
 aliases = ["connection preserving an H-reduction", "adapted connection", "reduction-compatible connection"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["lie-groups/lie-subgroup", "fiber-bundles/reduction-of-structure-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

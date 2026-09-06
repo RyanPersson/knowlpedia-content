@@ -6,8 +6,8 @@ summary = "An operator obtained by integrating a measurable scalar function agai
 aliases = ["integration against a projection-valued measure", "operator-valued spectral integral"]
 domains = ["functional-analysis", "measure-theory"]
 prerequisites = ["functional-analysis/projection-valued-measure", "measure-theory/measurable-function", "measure-theory/lebesgue-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

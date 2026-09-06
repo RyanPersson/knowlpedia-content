@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For complex representations, the character of a tensor product is the pointwise product of characters."
 aliases = ["character-tensor-product", "Character of a Tensor Product"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation", "algebra-modules/tensor-product", "algebra-representation-theory/character"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-modules/tensor-product", "algebra-representation-theory/character", "linear-algebra/trace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/character-tensor-product.md"
 +++
 

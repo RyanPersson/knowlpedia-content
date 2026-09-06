@@ -6,8 +6,8 @@ summary = "The topological space obtained by identifying points lying in the sam
 aliases = ["quotient-space-of-an-action", "Quotient space of an action (orbit space)"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/orbit-of-a-group-action", "fiber-bundles/principal-action", "fiber-bundles/quotient-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/quotient-space-of-an-action.md"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A rate function whose sublevel sets are compact."
 aliases = ["good-rate-function", "Good rate function"]
 domains = ["large-deviations"]
-prerequisites = ["large-deviations/rate-function", "large-deviations/large-deviation-principle", "large-deviations/exponential-tightness"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["large-deviations/rate-function", "topology/topological-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "large-deviations/good-rate-function.md"
 +++
 

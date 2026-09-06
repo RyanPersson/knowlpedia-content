@@ -6,8 +6,8 @@ summary = "The modular KMS condition is the analytic boundary relation that char
 aliases = ["KMS characterization of modular flow"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/faithful-normal-state", "operator-algebras/modular-automorphism-group", "operator-algebras/entire-analytic-element-one-parameter-automorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

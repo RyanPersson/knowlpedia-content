@@ -6,8 +6,8 @@ summary = "The category of smooth representations of a reductive p-adic group de
 aliases = ["Bernstein block decomposition", "Bernstein components", "Bernstein blocks"]
 domains = ["harmonic-analysis", "langlands", "algebra-representation-theory"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/levi-subgroup", "harmonic-analysis/supercuspidal-representation", "algebra-representation-theory/character", "harmonic-analysis/smooth-representation-totally-disconnected-group", "algebra-category-theory/full-subcategory"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The group of invertible linear maps preserving a Jordan product."
 aliases = ["Jordan automorphism group", "automorphism of a Jordan algebra", "Aut(J)"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/jordan-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

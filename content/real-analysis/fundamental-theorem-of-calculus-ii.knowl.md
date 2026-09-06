@@ -6,8 +6,8 @@ summary = "A Riemann integral can be computed from any antiderivative."
 aliases = ["fundamental-theorem-of-calculus-ii", "Fundamental theorem of calculus II"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/differentiability-1d", "real-analysis/fundamental-theorem-of-calculus-i", "real-analysis/riemann-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/fundamental-theorem-of-calculus-ii.md"
 +++
 

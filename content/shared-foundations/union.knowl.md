@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set of elements that belong to at least one of the given sets."
 aliases = ["union"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/indexed-family-of-sets"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set", "shared-foundations/indexed-family-of-sets"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/union.md"
 +++
 

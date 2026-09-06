@@ -6,8 +6,8 @@ summary = "A commutative multiplicative monoid together with compatible formal a
 aliases = ["algebraic blueprint", "blueprint algebra"]
 domains = ["algebraic-geometry-foundations", "algebra-rings"]
 prerequisites = ["algebra-groups/commutative-monoid", "algebraic-geometry-foundations/pre-addition-on-a-monoid"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

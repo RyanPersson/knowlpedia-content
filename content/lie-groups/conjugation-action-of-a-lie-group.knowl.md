@@ -6,8 +6,8 @@ summary = "The smooth action of a Lie group on itself by conjugation."
 aliases = ["conjugation-action-of-a-lie-group", "Conjugation action of a Lie group"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/conjugation-action-of-a-lie-group.md"
 +++
 

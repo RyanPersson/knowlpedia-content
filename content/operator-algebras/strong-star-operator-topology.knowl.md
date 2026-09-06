@@ -6,8 +6,8 @@ summary = "The operator topology of pointwise norm convergence for both operator
 aliases = ["strong star topology", "SOT-star", "strong-* convergence"]
 domains = ["operator-algebras", "functional-analysis", "topology"]
 prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "operator-algebras/von-neumann-algebra", "operator-algebras/strong-operator-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

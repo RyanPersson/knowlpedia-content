@@ -6,8 +6,8 @@ summary = "A series converges absolutely if successive terms shrink by a uniform
 aliases = ["ratio-test", "Ratio Test"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/series", "real-analysis/absolutely-convergent-series", "real-analysis/divergent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/ratio-test.md"
 +++
 

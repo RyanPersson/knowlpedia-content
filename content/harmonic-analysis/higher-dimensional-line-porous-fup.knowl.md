@@ -6,8 +6,8 @@ summary = "Ball porosity in physical space and line porosity in Fourier space im
 aliases = ["Cohen higher-dimensional FUP", "line-porous FUP"]
 domains = ["harmonic-analysis", "mathematical-physics", "quantum-chaos"]
 prerequisites = ["analysis/porosity-on-balls", "analysis/porosity-on-lines"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

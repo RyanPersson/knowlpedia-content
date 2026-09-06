@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "An algebraic extension of a field that is algebraically closed, unique up to non-canonical isomorphism."
 aliases = ["algebraic-closure", "Algebraic closure"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-extension", "algebra-fields-galois/splitting-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/algebraic-closure.md"
 +++
 

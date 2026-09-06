@@ -6,8 +6,8 @@ summary = "The top-dimensional homology class determined by an orientation of a 
 aliases = ["orientation class", "fundamental homology class"]
 domains = ["topology", "fiber-bundles"]
 prerequisites = ["topology/closed-manifold", "fiber-bundles/smooth-manifold", "fiber-bundles/orientation-of-a-real-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

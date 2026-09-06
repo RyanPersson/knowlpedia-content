@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A measurable set of measure zero."
 aliases = ["null-set", "Null set"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measurable-set", "measure-theory/almost-everywhere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measurable-set", "measure-theory/measure-space"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/null-set.md"
 +++
 

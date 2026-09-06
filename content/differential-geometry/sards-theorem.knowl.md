@@ -6,8 +6,8 @@ summary = "Sard's theorem states that the critical values of a smooth map betwee
 aliases = ["Morse-Sard theorem", "Sard theorem"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/critical-value-of-a-smooth-map", "measure-theory/lebesgue-measure", "fiber-bundles/regular-value"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

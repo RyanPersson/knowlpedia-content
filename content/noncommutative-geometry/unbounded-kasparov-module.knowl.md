@@ -6,8 +6,8 @@ summary = "A Hilbert C-star module cycle with a regular self-adjoint operator wh
 aliases = ["unbounded KK-cycle", "Baaj–Julg cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["operator-algebras/graded-cstar-algebra", "operator-algebras/countably-generated-hilbert-cstar-module", "operator-algebras/adjointable-operator-hilbert-module", "operator-algebras/regular-operator-hilbert-cstar-module", "operator-algebras/compact-operator-hilbert-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

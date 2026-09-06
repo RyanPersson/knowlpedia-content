@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "A derived operator on smooth vectors closes to the skew-adjoint generator of the corresponding one-parameter unitary group."
 aliases = ["essentially self-adjoint infinitesimal generators", "closure of dπ(X)"]
 domains = ["lie-groups", "functional-analysis"]
-prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/derived-representation-on-smooth-vectors", "lie-groups/infinitesimal-generator-unitary-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/derived-representation-on-smooth-vectors", "lie-groups/infinitesimal-generator-unitary-representation", "lie-groups/stone-theorem-one-parameter-unitary-groups"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

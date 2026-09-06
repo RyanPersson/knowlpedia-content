@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Near an essential singularity, the image of every punctured neighborhood is dense in the complex plane."
 aliases = ["Casorati-Weierstrass theorem", "Weierstrass–Casorati theorem"]
 domains = ["complex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/isolated-singularity-classification", "complex-analysis/holomorphic-functions-are-analytic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

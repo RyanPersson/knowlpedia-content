@@ -6,8 +6,8 @@ summary = "A set of real numbers that has an upper bound."
 aliases = ["bounded-above", "Bounded above"]
 domains = ["real-analysis"]
 prerequisites = ["shared-foundations/subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/bounded-above.md"
 +++
 

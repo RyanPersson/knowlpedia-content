@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A family of holomorphic functions for which every sequence has a locally uniformly convergent subsequence."
 aliases = ["normal family of holomorphic functions"]
 domains = ["complex-analysis", "topology"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/complex-domain", "complex-analysis/riemann-sphere"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

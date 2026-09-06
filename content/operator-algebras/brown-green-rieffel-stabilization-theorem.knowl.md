@@ -6,8 +6,8 @@ summary = "For sigma-unital C-star algebras, strong Morita equivalence is equiva
 aliases = ["stable isomorphism and strong Morita equivalence"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/approximate-identity", "operator-algebras/compact-operator-cstar-algebra", "linear-algebra/hilbert-space", "operator-algebras/strong-morita-equivalence", "linear-algebra/compact-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

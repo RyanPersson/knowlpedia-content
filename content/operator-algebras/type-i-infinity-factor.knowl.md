@@ -6,8 +6,8 @@ summary = "A type I-infinity factor is a type I von Neumann factor acting on an 
 aliases = ["infinite type I factor"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/type-i-factor", "linear-algebra/hilbert-space", "operator-algebras/infinite-projection", "operator-algebras/minimal-projection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

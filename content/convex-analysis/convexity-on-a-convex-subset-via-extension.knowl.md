@@ -6,8 +6,8 @@ summary = "A function on a convex set is convex exactly when its extension by po
 aliases = ["convexity-on-a-convex-subset-via-extension", "Convexity on a convex subset via extension"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/convex-set", "convex-analysis/convex-function-via-epigraph"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/convexity-on-a-convex-subset-via-extension.md"
 +++
 

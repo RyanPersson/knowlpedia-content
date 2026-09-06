@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The conical locus in the scheme of singularities of LocSys_G consisting of local systems equipped with a horizontal nilpotent coadjoint section."
 aliases = ["spectral global nilpotent cone", "Nilp_LocSys"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/moduli-stack-of-g-local-systems", "fiber-bundles/local-system", "langlands/ind-coherent-sheaves-with-nilpotent-singular-support"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/moduli-stack-of-g-local-systems", "fiber-bundles/local-system"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

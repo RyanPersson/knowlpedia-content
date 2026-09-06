@@ -6,8 +6,8 @@ summary = "The inverse-transpose action on an algebraic dual, or on the smooth d
 aliases = ["contragredient-representation", "Contragredient (Dual) Representation"]
 domains = ["langlands-letter"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/contragredient-representation.md"
 section_mode = "progressive"
 +++

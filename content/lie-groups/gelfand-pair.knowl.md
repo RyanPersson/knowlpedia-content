@@ -6,8 +6,8 @@ summary = "A locally compact group and compact subgroup whose bi-invariant convo
 aliases = ["commutative homogeneous pair", "spherical pair"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "lie-groups/homogeneous-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

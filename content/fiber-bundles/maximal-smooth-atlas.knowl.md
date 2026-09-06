@@ -6,8 +6,8 @@ summary = "A smooth atlas containing every coordinate chart smoothly compatible 
 aliases = ["maximal atlas", "maximal compatible smooth atlas", "maximal smooth structure atlas"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-atlas", "fiber-bundles/smooth-compatibility-of-charts-and-atlases"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

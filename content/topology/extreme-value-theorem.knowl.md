@@ -6,8 +6,8 @@ summary = "A continuous real-valued function on a nonempty compact set attains i
 aliases = ["extreme-value-theorem", "Extreme value theorem"]
 domains = ["topology"]
 prerequisites = ["topology/compact-set", "topology/continuous-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/extreme-value-theorem.md"
 +++
 

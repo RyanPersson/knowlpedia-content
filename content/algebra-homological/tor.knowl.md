@@ -6,8 +6,8 @@ summary = "The left derived functors of tensor product; measures failure of tens
 aliases = ["tor"]
 domains = ["algebra-homological"]
 prerequisites = ["algebra-rings/ring", "algebra-modules/tensor-product", "algebra-homological/projective-resolution", "algebra-homological/chain-complex", "algebra-homological/homology-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/tor.md"
 +++
 

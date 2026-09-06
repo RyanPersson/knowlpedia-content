@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A subadditive, absolutely homogeneous function p(λx)=|λ|p(x)."
 aliases = ["seminorm"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/norm-normed-vector-space", "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case", "convex-analysis/hahn-banach-theorem-in-complex-vector-spaces"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/seminorm.md"
 +++
 

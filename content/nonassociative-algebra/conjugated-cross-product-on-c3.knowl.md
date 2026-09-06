@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The SU(3)-equivariant conjugate-bilinear cross product on complex three-space."
 aliases = ["Hermitian cross product", "conjugate cross product on C3", "conjugated complex cross product"]
 domains = ["nonassociative-algebra"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/inner-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

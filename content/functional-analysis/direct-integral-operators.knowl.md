@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A direct integral operator acts fiberwise by a measurable family of closed operators on a direct integral Hilbert space."
 aliases = ["direct integral operator", "fiber integral of operators"]
 domains = ["functional-analysis", "operator-algebras"]
-prerequisites = ["functional-analysis/measurable-field-hilbert-spaces", "functional-analysis/densely-defined-operator", "measure-theory/almost-everywhere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["functional-analysis/measurable-field-hilbert-spaces", "functional-analysis/densely-defined-operator", "measure-theory/almost-everywhere", "functional-analysis/direct-integral-hilbert-spaces", "functional-analysis/closed-linear-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The set of points reachable from a given point under a group action"
 aliases = ["orbit"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/orbit.md"
 +++
 

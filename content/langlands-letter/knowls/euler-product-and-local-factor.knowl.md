@@ -6,8 +6,8 @@ summary = "Unramified and Weil-Deligne local L-factors and their incomplete glob
 aliases = ["euler-product-and-local-factor", "Euler Product and Determinant Local \\(L\\)-Factor"]
 domains = ["langlands-letter"]
 prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "harmonic-analysis/unramified-representation-p-adic-group", "langlands/satake-parameter", "langlands/l-group", "langlands-letter/knowls/semisimple-element-and-class", "algebra-groups/conjugacy-class", "langlands-letter/knowls/frobenius-unramified"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/euler-product-and-local-factor.md"
 section_mode = "progressive"
 +++

@@ -6,8 +6,8 @@ summary = "A divisor d of a and b that is divisible by every common divisor (def
 aliases = ["gcd", "Greatest common divisor"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/integral-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/gcd.md"
 +++
 

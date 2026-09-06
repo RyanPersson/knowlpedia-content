@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "An infinite sum of functions defined through its partial sums."
 aliases = ["series-of-functions", "Series of functions"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/series", "shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/series-of-functions.md"
 +++
 

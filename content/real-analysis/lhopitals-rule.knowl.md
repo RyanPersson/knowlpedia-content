@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A method for evaluating certain indeterminate limits by comparing derivatives."
 aliases = ["lhopitals-rule", "L'Hôpital's rule"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/limit-at-a-point", "real-analysis/differentiability-1d"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/lhopitals-rule.md"
 +++
 

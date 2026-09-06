@@ -6,8 +6,8 @@ summary = "An extension admitting a homomorphic section, equivalently a semidire
 aliases = ["split-extension", "Split Extension"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/split-extension.md"
 +++
 

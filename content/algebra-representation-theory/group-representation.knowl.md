@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A linear action of a group on a vector space, equivalently a homomorphism into a general linear group."
 aliases = ["group-representation", "Group representation"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/group", "linear-algebra/vector-space", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/group-representation.md"
 +++
 

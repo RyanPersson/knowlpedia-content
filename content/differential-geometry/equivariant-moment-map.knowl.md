@@ -6,8 +6,8 @@ summary = "A moment map that intertwines a Lie group action with the coadjoint a
 aliases = ["coadjoint-equivariant moment map"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/moment-map", "fiber-bundles/coadjoint-action-of-a-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

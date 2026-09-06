@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set of points reachable from a given point under a group action."
 aliases = ["orbit-of-a-group-action", "Orbit of a group action"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "fiber-bundles/orbit-map", "fiber-bundles/quotient-space-of-an-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/orbit-of-a-group-action.md"
 +++
 

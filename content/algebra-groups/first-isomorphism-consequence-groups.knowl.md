@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For a homomorphism f, the quotient G/ker(f) is isomorphic to im(f)"
 aliases = ["first-isomorphism-consequence-groups", "First isomorphism consequence for groups"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/quotient-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/quotient-group", "algebra-groups/kernel-group", "algebra-groups/image-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/first-isomorphism-consequence-groups.md"
 +++
 

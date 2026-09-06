@@ -6,8 +6,8 @@ summary = "Any two cyclic representations implementing the same positive functio
 aliases = ["uniqueness of the GNS representation", "GNS representation theorem"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/positive-linear-functional", "operator-algebras/cstar-algebra", "operator-algebras/gns-construction", "operator-algebras/cyclic-cstar-representation", "operator-algebras/unitary-equivalence-cstar-representations"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "After choosing generation root lines, e7 decomposes as sl6 plus a two
 aliases = ["three generations in e7 decomposition", "e7 equals sl6 plus C2 plus three generations", "E7 three-generation theorem"]
 domains = ["lie-groups", "representation-theory", "mathematical-physics"]
 prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/generation-module-as-even-exterior-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

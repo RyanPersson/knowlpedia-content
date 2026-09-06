@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Connected Lie subgroups correspond to Lie subalgebras via the tangent space at the identity."
 aliases = ["lie-correspondence", "Lie correspondence"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup", "lie-groups/lie-subalgebra", "lie-groups/lie-algebra-of-subgroup-lemma", "lie-groups/exponential-map-lie-group", "lie-groups/closed-subgroup-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-correspondence.md"
 +++
 

@@ -6,6 +6,9 @@ summary = "Definitions and results in differential geometry, including manifolds
 aliases = ["differential-geometry", "Differential Geometry"]
 domains = ["differential-geometry"]
 legacy_source_path = "differential-geometry/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## Complex geometry

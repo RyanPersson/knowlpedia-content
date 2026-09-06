@@ -6,8 +6,8 @@ summary = "A root-space formula for the centralizer of a regular reductive subal
 aliases = ["centralizer of a regular reductive subalgebra", "root formula for a Lie centralizer"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/regular-lie-subalgebra", "lie-groups/centralizer-of-a-lie-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

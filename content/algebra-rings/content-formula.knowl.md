@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Over a UFD, content(fg) is associate to content(f)content(g) for polynomials."
 aliases = ["content-formula", "Content formula"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ufd", "algebra-rings/polynomial-ring", "algebra-rings/content-polynomial", "algebra-rings/primitive-polynomial"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/content-formula.md"
 +++
 

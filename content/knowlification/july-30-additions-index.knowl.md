@@ -6,6 +6,9 @@ summary = "Review index for 372 new and 64 substantively refined production know
 aliases = ["July 30 additions", "July 30 mathematical expansion", "July 30 knowl review index"]
 domains = ["knowlification", "algebra-hyperstructures", "formal-groups", "langlands", "complex-analysis", "differential-geometry", "mathematical-physics", "supergeometry"]
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This page is a review and navigation index for the July 30 mathematical

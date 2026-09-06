@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Convention for forming an associated bundle from a right principal action and a left action on the typical fiber"
 aliases = ["convention-associated-bundles-use-a-left-g-action-on-the-fiber-f", "Convention: associated bundles use a left action on the fiber"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/right-principal-action", "fiber-bundles/principal-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/right-principal-action", "fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f.md"
 +++
 

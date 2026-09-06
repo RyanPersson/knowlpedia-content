@@ -6,8 +6,8 @@ summary = "A von Neumann factor containing a nonzero abelian projection."
 aliases = ["type I von Neumann factor"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/type-i-von-neumann-algebra", "operator-algebras/abelian-projection", "linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

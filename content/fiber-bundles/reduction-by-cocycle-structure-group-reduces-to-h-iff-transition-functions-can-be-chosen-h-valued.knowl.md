@@ -6,8 +6,8 @@ summary = "A principal G-bundle reduces to a subgroup H exactly when its transit
 aliases = ["reduction-by-cocycle-structure-group-reduces-to-h-iff-transition-functions-can-be-chosen-h-valued", "Theorem: Reduction by cocycle (H-reduction iff H-valued transition functions exist)"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/construction-reduction-of-structure-group-to-h-via-transition-functions-valued-in-h"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/reduction-by-cocycle-structure-group-reduces-to-h-iff-transition-functions-can-be-chosen-h-valued.md"
 +++
 

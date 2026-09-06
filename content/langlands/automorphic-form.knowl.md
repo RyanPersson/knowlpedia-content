@@ -6,8 +6,8 @@ summary = "A smooth, finite, moderate-growth function on an adelic automorphic q
 aliases = ["automorphic forms", "adelic automorphic form"]
 domains = ["langlands", "number-theory", "representation-theory"]
 prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/adeles-restricted-product", "lie-groups/k-finite-vector", "lie-groups/universal-enveloping-algebra", "algebra-representation-theory/central-character"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

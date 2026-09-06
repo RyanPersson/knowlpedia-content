@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "When the relevant polynomials split, rational canonical form refines to Jordan form."
 aliases = ["jcf-from-rcf", "Jordan canonical form from rational canonical form"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/rcf-from-structure-theorem", "algebra-modules/jordan-canonical-form-theorem", "linear-algebra/characteristic-polynomial"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/rcf-from-structure-theorem", "algebra-modules/jordan-canonical-form-theorem", "linear-algebra/characteristic-polynomial", "linear-algebra/linear-map", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/jcf-from-rcf.md"
 +++
 

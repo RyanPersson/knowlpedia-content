@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The unital C*-algebra of all bounded linear operators on a Hilbert space."
 aliases = ["B(H)", "bounded operator algebra"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/bounded-linear-operator", "linear-algebra/operator-norm", "operator-algebras/concrete-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/bounded-linear-operator", "linear-algebra/operator-norm"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An atlas of local coordinates in the Riemann sphere whose transition maps are Möbius."
 aliases = ["holomorphic projective structure", "CP1-structure"]
 domains = ["complex-analysis", "differential-geometry", "projective-geometry"]
-prerequisites = ["differential-geometry/riemann-surface", "complex-analysis/mobius-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/riemann-surface", "differential-geometry/complex-atlas", "complex-analysis/mobius-transformation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

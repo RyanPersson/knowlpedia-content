@@ -6,8 +6,8 @@ summary = "In a Noetherian ring, any prime ideal minimal over a principal ideal 
 aliases = ["krull-principal-ideal-theorem", "Krull's principal ideal theorem"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/height-of-prime"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/krull-principal-ideal-theorem.md"
 +++
 

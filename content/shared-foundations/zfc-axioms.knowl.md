@@ -6,8 +6,8 @@ summary = "Standard axioms of set theory: Zermelo-Fraenkel axioms plus the Axiom
 aliases = ["zfc-axioms", "ZFC axioms"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/axiom-of-choice", "shared-foundations/empty-set", "shared-foundations/union", "shared-foundations/power-set", "shared-foundations/natural-numbers", "shared-foundations/subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/zfc-axioms.md"
 +++
 

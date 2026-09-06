@@ -6,6 +6,9 @@ summary = "Asymptotic methods and approximations"
 aliases = ["asymptotics"]
 domains = ["asymptotics"]
 legacy_source_path = "asymptotics/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## Approximations

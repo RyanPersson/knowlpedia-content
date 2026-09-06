@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A sequence of module homomorphisms where each image equals the next kernel."
 aliases = ["exact-sequence-modules", "Exact sequence of modules"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/kernel-module", "algebra-modules/image-module", "algebra-modules/exactness-via-kernels-images"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/kernel-module", "algebra-modules/image-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/exact-sequence-modules.md"
 +++
 

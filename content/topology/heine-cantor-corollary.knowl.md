@@ -6,8 +6,8 @@ summary = "A continuous map from a compact metric space to a metric space is uni
 aliases = ["heine-cantor-corollary", "Continuous function on a compact set is uniformly continuous"]
 domains = ["topology"]
 prerequisites = ["topology/metric-space", "topology/compact-set", "real-analysis/uniform-continuity"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/heine-cantor-corollary.md"
 +++
 

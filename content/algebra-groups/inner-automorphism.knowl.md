@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "An automorphism given by conjugation by an element"
 aliases = ["inner-automorphism", "Inner Automorphism"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/automorphism-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/group", "algebra-groups/automorphism-group", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/inner-automorphism.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "An invariant subspace of a representation, closed under the group act
 aliases = ["subrepresentation"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-representation-theory/group-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/subrepresentation.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The spectral sequence of the type filtration on the complex de Rham c
 aliases = ["Dolbeault-to-de Rham spectral sequence"]
 domains = ["differential-geometry", "algebra-homological"]
 prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/de-rham-complex", "differential-geometry/dolbeault-cohomology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

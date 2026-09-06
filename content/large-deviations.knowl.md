@@ -6,6 +6,9 @@ summary = "Large deviation principles and rate functions"
 aliases = ["large-deviations", "Large Deviations"]
 domains = ["large-deviations"]
 legacy_source_path = "large-deviations/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## Foundations

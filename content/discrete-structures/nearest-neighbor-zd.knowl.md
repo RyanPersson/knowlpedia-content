@@ -6,8 +6,8 @@ summary = "The standard notion of adjacency on the integer lattice where points 
 aliases = ["nearest-neighbor-zd", "Nearest-neighbor adjacency on Z^d"]
 domains = ["discrete-structures"]
 prerequisites = ["discrete-structures/lattice-zd"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "discrete-structures/nearest-neighbor-zd.md"
 +++
 

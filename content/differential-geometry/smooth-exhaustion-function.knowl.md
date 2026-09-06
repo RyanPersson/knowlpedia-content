@@ -6,8 +6,8 @@ summary = "A proper smooth nonnegative function whose compact sublevel sets exha
 aliases = ["proper smooth exhaustion", "exhausting function"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/proper-smooth-map", "topology/compact-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

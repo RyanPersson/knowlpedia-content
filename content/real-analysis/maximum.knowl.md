@@ -6,8 +6,8 @@ summary = "The largest element of a set of real numbers, when it exists."
 aliases = ["maximum"]
 domains = ["real-analysis"]
 prerequisites = ["shared-foundations/subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/maximum.md"
 +++
 

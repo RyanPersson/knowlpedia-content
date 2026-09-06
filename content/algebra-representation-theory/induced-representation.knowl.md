@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A construction Ind_H^G that extends a representation of a subgroup H to a representation of the whole group G."
 aliases = ["induced-representation", "Induced representation"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-modules/tensor-product", "algebra-modules/module-homomorphism", "algebra-groups/coset"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/induced-representation.md"
 +++
 

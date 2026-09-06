@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A map between Euclidean spaces is differentiable at a point when it has a first-order linear approximation there."
 aliases = ["differentiable-map", "Differentiable map"]
 domains = ["real-analysis"]
-prerequisites = ["linear-algebra/euclidean-norm", "real-analysis/frechet-derivative", "real-analysis/jacobian-matrix"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/euclidean-norm", "real-analysis/frechet-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/differentiable-map.md"
 +++
 

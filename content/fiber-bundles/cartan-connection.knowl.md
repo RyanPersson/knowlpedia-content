@@ -6,8 +6,8 @@ summary = "A g-valued 1-form on a principal H-bundle that models the geometry of
 aliases = ["cartan-connection", "Cartan connection"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/cartan-connection.md"
 +++
 

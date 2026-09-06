@@ -6,8 +6,8 @@ summary = "The operator ideal of compact operators whose singular values decay a
 aliases = ["Lorentz operator ideal", "L-p-infinity", "weak trace ideal"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/compact-operator", "functional-analysis/schatten-class-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

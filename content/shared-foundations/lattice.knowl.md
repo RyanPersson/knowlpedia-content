@@ -6,8 +6,8 @@ summary = "A partially ordered set in which every pair has a join and a meet."
 aliases = ["order lattice", "lattice in order theory"]
 domains = ["shared-foundations", "order-theory", "algebra-groups"]
 prerequisites = ["shared-foundations/partial-order", "shared-foundations/upper-bound", "shared-foundations/lower-bound"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

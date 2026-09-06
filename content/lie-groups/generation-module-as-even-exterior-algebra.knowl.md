@@ -6,8 +6,8 @@ summary = "Adding two generation-root singlets to each 30-dimensional module giv
 aliases = ["32-dimensional generation module in e7", "generation module Lambda even C6", "V k generation module"]
 domains = ["lie-groups", "representation-theory", "mathematical-physics"]
 prerequisites = ["lie-groups/even-and-odd-exterior-algebra", "linear-algebra/vector-space", "lie-groups/lie-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

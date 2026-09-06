@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set of inputs that a function maps into a given subset of the codomain."
 aliases = ["preimage-inverse-image", "Preimage (inverse image)"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function", "shared-foundations/set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/preimage-inverse-image.md"
 +++
 

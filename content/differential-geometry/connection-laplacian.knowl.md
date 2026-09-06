@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The negative metric trace of the second covariant derivative on sections of a vector bundle."
 aliases = ["rough Laplacian", "Bochner Laplacian"]
 domains = ["differential-geometry", "partial-differential-equations"]
-prerequisites = ["fiber-bundles/vector-bundle", "differential-geometry/pseudo-riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "fiber-bundles/covariant-derivative-of-a-section", "mathematical-physics/normally-hyperbolic-operator", "differential-geometry/laplace-beltrami-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/vector-bundle", "differential-geometry/pseudo-riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "fiber-bundles/covariant-derivative-of-a-section"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

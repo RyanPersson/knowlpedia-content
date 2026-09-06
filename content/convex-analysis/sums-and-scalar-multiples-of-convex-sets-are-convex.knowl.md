@@ -6,8 +6,8 @@ summary = "Minkowski sums and dilations preserve convexity"
 aliases = ["sums-and-scalar-multiples-of-convex-sets-are-convex", "Sums and scalar multiples of convex sets are convex"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/convex-set", "convex-analysis/set-operations-sum-scalar-multiple-difference"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/sums-and-scalar-multiples-of-convex-sets-are-convex.md"
 +++
 

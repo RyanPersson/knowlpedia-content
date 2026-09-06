@@ -6,8 +6,8 @@ summary = "The unique vector field dual to a chosen primitive of an exact symple
 aliases = ["symplectic dilation vector field"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/exact-symplectic-manifold", "fiber-bundles/vector-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "Every complex-qubit Jordan subalgebra of the Albert algebra lies in a
 aliases = ["unique H2(O) corner containing H2(C)", "octonionic completion of a complex qubit"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/exceptional-jordan-algebra", "nonassociative-algebra/jordan-subalgebra", "nonassociative-algebra/octonionic-spin-factor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

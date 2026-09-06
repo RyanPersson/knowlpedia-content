@@ -6,8 +6,8 @@ summary = "The conjectural and partially proved association between algebraic au
 aliases = ["automorphic to Galois correspondence", "automorphic Galois representation", "Galois representations attached to automorphic representations"]
 domains = ["langlands", "number-theory", "representation-theory"]
 prerequisites = ["langlands/l-algebraic-automorphic-representation", "langlands/automorphic-representation", "algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/number-field", "langlands-letter/knowls/galois-extension-and-group", "langlands/l-group", "langlands/local-global-compatibility"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "An entire cyclic cocycle constructed from heat kernels and Dirac comm
 aliases = ["JLO cocycle", "entire Chern character", "heat-kernel Chern character"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/theta-summable-spectral-triple", "noncommutative-geometry/entire-cyclic-cohomology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

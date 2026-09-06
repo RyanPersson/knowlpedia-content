@@ -6,8 +6,8 @@ summary = "The group of cosets of a normal subgroup."
 aliases = ["quotient-group", "Quotient Group"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/normal-subgroup", "algebra-groups/group", "algebra-groups/coset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/quotient-group.md"
 +++
 

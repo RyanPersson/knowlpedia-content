@@ -6,8 +6,8 @@ summary = "Invariant polynomials in curvature yield closed forms whose cohomolog
 aliases = ["chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection", "Chern–Weil theorem"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/lemma-chernweil-forms-are-basic", "fiber-bundles/basic-forms-theorem", "fiber-bundles/transgression-theorem-p-p-is-exact"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection.md"
 +++
 

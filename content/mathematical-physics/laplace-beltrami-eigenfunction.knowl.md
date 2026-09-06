@@ -6,8 +6,8 @@ summary = "A nonzero function transformed into a scalar multiple of itself by th
 aliases = ["Laplace eigenfunction", "Riemannian Laplacian eigenfunction"]
 domains = ["mathematical-physics", "spectral-theory", "differential-geometry"]
 prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/laplace-beltrami-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

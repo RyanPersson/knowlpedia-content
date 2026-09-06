@@ -5,9 +5,9 @@ kind = "definition"
 summary = "One unitary representation is weakly contained in another when its diagonal coefficients are locally approximable by finite sums from the other."
 aliases = ["weak containment", "Fell weak containment", "representation weakly contained"]
 domains = ["harmonic-analysis", "lie-groups", "operator-algebras"]
-prerequisites = ["topology/locally-compact-group", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "topology/compact-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/locally-compact-group", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "topology/compact-set", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

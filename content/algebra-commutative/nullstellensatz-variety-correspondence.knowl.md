@@ -6,8 +6,8 @@ summary = "Over an algebraically closed field, Zariski-closed subsets of affine 
 aliases = ["nullstellensatz-variety-correspondence", "Nullstellensatz: varieties and radical ideals"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-rings/field", "algebra-commutative/zariski-topology", "algebra-commutative/maximal-spectrum", "algebra-commutative/residue-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/nullstellensatz-variety-correspondence.md"
 +++
 

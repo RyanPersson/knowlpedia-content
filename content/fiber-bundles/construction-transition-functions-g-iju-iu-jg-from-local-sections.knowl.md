@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "How local sections determine transition functions on overlaps in a principal bundle."
 aliases = ["construction-transition-functions-g-iju-iu-jg-from-local-sections", "Transition functions from local sections"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/smooth-map", "fiber-bundles/cocycle-condition-for-transition-functions"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections.md"
 +++
 

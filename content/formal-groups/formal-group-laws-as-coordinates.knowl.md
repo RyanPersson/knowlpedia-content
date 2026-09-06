@@ -6,8 +6,8 @@ summary = "Group structures on a formal disc, expressed in chosen parameters, ar
 aliases = ["coordinate equivalence for formal groups", "formal groups with parameters", "formal group law coordinate presentation"]
 domains = ["formal-groups"]
 prerequisites = ["formal-groups/formal-affine-space", "formal-groups/formal-group-law", "formal-groups/formal-group-law-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

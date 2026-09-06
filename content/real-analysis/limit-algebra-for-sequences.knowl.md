@@ -6,8 +6,8 @@ summary = "Rules for limits of sums, products, and quotients of convergent seque
 aliases = ["limit-algebra-for-sequences", "Limit Algebra for Sequences"]
 domains = ["real-analysis"]
 prerequisites = ["topology/convergent-sequence", "real-analysis/absolute-value"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-algebra-for-sequences.md"
 +++
 

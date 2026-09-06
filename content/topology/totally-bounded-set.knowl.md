@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A set in a metric space that can be covered by finitely many small balls for every radius."
 aliases = ["totally-bounded-set", "Totally bounded set"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "topology/open-ball"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/metric-space", "topology/open-ball", "shared-foundations/union"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/totally-bounded-set.md"
 +++
 

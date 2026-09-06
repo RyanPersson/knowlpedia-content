@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A Lie algebra whose derived series eventually becomes zero; the Lie-algebra analogue of solvable groups."
 aliases = ["solvable-lie-algebra", "Solvable Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/derived-series-lie-algebra", "fiber-bundles/lie-bracket", "lie-groups/derived-subalgebra", "lie-groups/derived-subalgebra-is-ideal-lemma", "lie-groups/levi-decomposition-theorem", "lie-groups/cartans-criterion-solvability", "lie-groups/tfae-solvability-lie-algebra", "lie-groups/nilpotent-lie-algebra", "lie-groups/nilpotent-implies-solvable-lemma"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/derived-series-lie-algebra", "fiber-bundles/lie-bracket", "lie-groups/derived-subalgebra", "lie-groups/derived-subalgebra-is-ideal-lemma"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/solvable-lie-algebra.md"
 +++
 

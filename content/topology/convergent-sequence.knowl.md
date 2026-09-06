@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A sequence whose terms eventually remain in every neighborhood of a limit point."
 aliases = ["convergent-sequence", "Convergent sequence"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/neighborhood", "topology/metric-space", "topology/hausdorff-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/sequence", "topology/topological-space", "topology/neighborhood"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/convergent-sequence.md"
 +++
 

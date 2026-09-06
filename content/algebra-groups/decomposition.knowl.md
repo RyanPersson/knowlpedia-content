@@ -6,8 +6,8 @@ summary = "Ways to describe a group in terms of simpler subgroups, factors, or e
 aliases = ["decomposition", "Group decomposition"]
 domains = ["algebra-groups"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/decomposition.md"
 +++
 

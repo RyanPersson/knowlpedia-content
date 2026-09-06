@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A smoothly varying inner product on the fibers of a real vector bundle."
 aliases = ["bundle-metric", "Bundle metric"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle", "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/bundle-metric.md"
 +++
 

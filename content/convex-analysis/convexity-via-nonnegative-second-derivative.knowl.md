@@ -6,8 +6,8 @@ summary = "A twice differentiable function is convex iff f''≥0 on the interval
 aliases = ["convexity-via-nonnegative-second-derivative", "Convexity via nonnegative second derivative"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/convexity-characterized-by-monotonicity-of-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/convexity-via-nonnegative-second-derivative.md"
 +++
 

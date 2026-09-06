@@ -6,8 +6,8 @@ summary = "On a compact metric space, equicontinuity allows pointwise Cauchy beh
 aliases = ["equicontinuity-dense-set-lemma", "Equicontinuity and dense sets lemma"]
 domains = ["real-analysis"]
 prerequisites = ["topology/metric-space", "topology/dense-set", "real-analysis/equicontinuity", "real-analysis/uniform-cauchy"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/equicontinuity-dense-set-lemma.md"
 +++
 

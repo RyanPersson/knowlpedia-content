@@ -6,6 +6,9 @@ summary = "Field extensions, splitting fields, Galois groups, and the fundamenta
 aliases = ["algebra-fields-galois", "Algebra: Fields and Galois Theory"]
 domains = ["algebra-fields-galois"]
 legacy_source_path = "algebra-fields-galois/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This section covers field theory and Galois theory: field extensions, algebraic and transcendental elements, splitting fields, algebraic closures, separability, normality, Galois extensions, and the fundamental theorem of Galois theory.

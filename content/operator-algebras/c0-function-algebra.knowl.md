@@ -6,8 +6,8 @@ summary = "The C*-algebra of continuous complex-valued functions that vanish at 
 aliases = ["continuous functions vanishing at infinity", "C0(X)"]
 domains = ["operator-algebras", "topology"]
 prerequisites = ["topology/locally-compact-space", "topology/compact-set", "operator-algebras/commutative-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

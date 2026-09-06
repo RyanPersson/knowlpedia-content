@@ -6,8 +6,8 @@ summary = "A differential form whose nonzero locus has compact closure."
 aliases = ["differential form with compact support", "compact-support differential form"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "topology/compact-set", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

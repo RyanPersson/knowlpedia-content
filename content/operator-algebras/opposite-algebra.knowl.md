@@ -6,8 +6,8 @@ summary = "The C*-algebra obtained by reversing multiplication while retaining t
 aliases = ["opposite C*-algebra", "A-opposite"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/vector-space", "algebra-rings/opposite-ring", "algebra-modules/algebra-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

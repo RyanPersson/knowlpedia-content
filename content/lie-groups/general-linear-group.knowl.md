@@ -5,13 +5,13 @@ kind = "knowl"
 summary = "The Lie group GL(V) of invertible linear maps on a finite-dimensional vector space."
 aliases = ["general-linear-group", "General linear group"]
 domains = ["lie-groups"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/linear-map", "algebra-groups/group", "convex-analysis/basis-hamel-basis-and-dimension", "linear-algebra/determinant"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "lie-groups/general-linear-group.md"
 +++
 
-Let \(V\) be a finite-dimensional real or complex vector space.
+Let \(V\) be a real or complex vector space of finite dimension \(n\ge 1\).
 
 **Definition (General linear group).**
 The **general linear group** of \(V\) is

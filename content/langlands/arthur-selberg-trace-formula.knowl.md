@@ -6,8 +6,8 @@ summary = "An equality between geometric orbital distributions and spectral auto
 aliases = ["Arthur trace formula", "Selberg trace formula for reductive groups", "invariant trace formula"]
 domains = ["langlands", "harmonic-analysis", "number-theory"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "langlands-letter/knowls/adeles-restricted-product", "harmonic-analysis/test-function-space-local-group", "langlands/automorphic-representation", "algebraic-geometry-foundations/levi-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

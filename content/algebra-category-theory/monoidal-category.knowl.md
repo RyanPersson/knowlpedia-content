@@ -6,8 +6,8 @@ summary = "A category with an associative tensor product and a tensor unit, cohe
 aliases = ["tensor category in the weak sense"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/natural-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

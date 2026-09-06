@@ -6,8 +6,8 @@ summary = "A representation whose image acts on a dense subspace of the whole re
 aliases = ["non-degenerate C*-representation", "essential representation"]
 domains = ["operator-algebras", "representation-theory"]
 prerequisites = ["operator-algebras/cstar-representation", "operator-algebras/nondegenerate-star-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

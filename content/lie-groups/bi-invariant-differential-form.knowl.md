@@ -6,8 +6,8 @@ summary = "A differential form on a Lie group invariant under both left and righ
 aliases = ["bi-invariant-differential-form", "Bi-invariant differential form"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/left-translation", "lie-groups/right-translation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/bi-invariant-differential-form.md"
 +++
 

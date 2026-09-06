@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A positive-definite product on a vector space that defines lengths and angles."
 aliases = ["inner-product", "Inner product"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "shared-foundations/complex-conjugate"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/inner-product.md"
 +++
 

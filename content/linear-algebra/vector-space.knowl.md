@@ -6,8 +6,8 @@ summary = "A set with addition and scalar multiplication satisfying the vector s
 aliases = ["vector-space", "Vector space"]
 domains = ["linear-algebra"]
 prerequisites = ["algebra-rings/field", "shared-foundations/set", "shared-foundations/function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "linear-algebra/vector-space.md"
 +++
 

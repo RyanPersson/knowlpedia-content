@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A smooth map between symplectic manifolds that pulls the target symplectic form back to the source symplectic form."
 aliases = ["symplectic morphism", "form-preserving smooth map"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-map", "fiber-bundles/pullback-of-differential-forms", "fiber-bundles/smooth-immersion"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-map", "fiber-bundles/pullback-of-differential-forms"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

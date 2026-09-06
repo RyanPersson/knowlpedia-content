@@ -6,8 +6,8 @@ summary = "The operator-norm closure of the integrated left regular representati
 aliases = ["regular group C*-algebra", "C_r*(G)"]
 domains = ["operator-algebras", "harmonic-analysis"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/regular-representations-locally-compact-group", "harmonic-analysis/l1-group-algebra", "algebra-representation-theory/regular-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

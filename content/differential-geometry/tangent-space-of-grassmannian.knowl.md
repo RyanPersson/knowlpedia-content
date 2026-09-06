@@ -6,8 +6,8 @@ summary = "The tangent space at a subspace in a Grassmannian is canonically the 
 aliases = ["tangent space to Gr(k,V)"]
 domains = ["differential-geometry", "linear-algebra"]
 prerequisites = ["linear-algebra/vector-space", "differential-geometry/grassmannian", "differential-geometry/tangent-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

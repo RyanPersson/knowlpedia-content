@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A norm assigns lengths to vectors and induces a metric"
 aliases = ["norm-normed-vector-space", "Norm and normed vector space"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/norm-normed-vector-space.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The canonical construction of a cyclic Hilbert-space representation f
 aliases = ["Gelfand–Naimark–Segal construction", "cyclic representation from a positive functional"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-linear-functional", "linear-algebra/hilbert-space", "operator-algebras/cyclic-cstar-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

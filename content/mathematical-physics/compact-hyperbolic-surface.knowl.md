@@ -6,8 +6,8 @@ summary = "A compact connected surface equipped with a complete Riemannian metri
 aliases = ["closed hyperbolic surface", "compact surface of constant negative curvature"]
 domains = ["mathematical-physics", "differential-geometry", "quantum-chaos"]
 prerequisites = ["differential-geometry/riemannian-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

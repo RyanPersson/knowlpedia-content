@@ -6,8 +6,8 @@ summary = "A convergence test for nonincreasing nonnegative series using dyadic 
 aliases = ["cauchy-condensation-test", "Cauchy condensation test"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/series", "real-analysis/convergent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/cauchy-condensation-test.md"
 +++
 

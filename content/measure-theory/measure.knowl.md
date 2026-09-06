@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A countably additive function on a sigma-algebra assigning sizes to sets."
 aliases = ["measure"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measurable-set", "measure-theory/measure-space", "measure-theory/null-set", "measure-theory/almost-everywhere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measurable-space", "measure-theory/measurable-set", "shared-foundations/function", "shared-foundations/sequence", "shared-foundations/union"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/measure.md"
 +++
 

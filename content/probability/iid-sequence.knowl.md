@@ -6,8 +6,8 @@ summary = "A sequence of random variables that are independent and identically d
 aliases = ["iid-sequence", "i.i.d. sequence"]
 domains = ["probability"]
 prerequisites = ["shared-foundations/sequence", "probability/random-variable", "probability/probability-space", "probability/independence-random-variables", "probability/identically-distributed", "probability/distribution-law"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "probability/iid-sequence.md"
 +++
 

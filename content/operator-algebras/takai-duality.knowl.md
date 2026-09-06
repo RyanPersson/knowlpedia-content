@@ -6,8 +6,8 @@ summary = "Crossing an abelian C*-dynamical system successively by an action and
 aliases = ["Imai-Takai duality", "crossed-product duality"]
 domains = ["operator-algebras", "harmonic-analysis", "dynamical-systems"]
 prerequisites = ["operator-algebras/cstar-dynamical-system", "operator-algebras/dual-action-crossed-product", "operator-algebras/compact-operator-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

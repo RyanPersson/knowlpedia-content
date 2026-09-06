@@ -6,8 +6,8 @@ summary = "The topology of pointwise convergence on the continuous dual of a top
 aliases = ["sigma(E-prime,E)"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/topological-vector-space", "functional-analysis/topological-dual", "functional-analysis/topology-generated-by-seminorms"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

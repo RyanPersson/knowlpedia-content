@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A map of modules that is linear in each variable; over a noncommutative ring, tensor products instead represent biadditive balanced maps."
 aliases = ["bilinear-map", "Bilinear map"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/commutative-ring", "shared-foundations/cartesian-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/module", "algebra-rings/commutative-ring", "shared-foundations/cartesian-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/bilinear-map.md"
 +++
 

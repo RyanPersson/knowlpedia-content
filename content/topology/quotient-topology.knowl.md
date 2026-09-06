@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The finest topology on a codomain that makes a given surjection continuous."
 aliases = ["quotient-topology", "Quotient topology"]
 domains = ["topology"]
-prerequisites = ["shared-foundations/surjective-function", "topology/topological-space", "topology/open-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/surjective-function", "topology/topological-space", "topology/open-set", "shared-foundations/preimage"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/quotient-topology.md"
 +++
 

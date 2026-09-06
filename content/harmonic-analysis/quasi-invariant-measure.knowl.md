@@ -6,8 +6,8 @@ summary = "A quasi-invariant measure has the same null sets as each of its trans
 aliases = ["invariant measure class", "G-quasi-invariant measure"]
 domains = ["harmonic-analysis", "measure-theory"]
 prerequisites = ["topology/locally-compact-group", "measure-theory/measurable-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

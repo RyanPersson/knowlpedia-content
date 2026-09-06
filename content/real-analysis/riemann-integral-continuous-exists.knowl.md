@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A function continuous on a closed interval is Riemann integrable."
 aliases = ["riemann-integral-continuous-exists", "Continuous functions are Riemann integrable"]
 domains = ["real-analysis"]
-prerequisites = ["topology/continuous-map", "real-analysis/riemann-integrable-function", "real-analysis/riemann-integral", "real-analysis/mean-value-theorem-for-integrals", "real-analysis/fundamental-theorem-of-calculus-i"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/continuous-map", "real-analysis/riemann-integrable-function", "real-analysis/riemann-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-integral-continuous-exists.md"
 +++
 

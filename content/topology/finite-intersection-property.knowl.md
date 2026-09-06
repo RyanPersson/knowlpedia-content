@@ -6,8 +6,8 @@ summary = "A property of a family of sets where every finite subfamily has nonem
 aliases = ["finite-intersection-property", "Finite intersection property"]
 domains = ["topology"]
 prerequisites = ["topology/closed-set", "topology/compact-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/finite-intersection-property.md"
 +++
 

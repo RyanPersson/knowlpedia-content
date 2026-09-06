@@ -6,8 +6,8 @@ summary = "The root system, Weyl action, positive chamber, and highest-weight cl
 aliases = ["roots-weights-weyl", "Roots, Weyl Group, and Dominant Weights"]
 domains = ["langlands-letter"]
 prerequisites = ["langlands-letter/knowls/split-reductive-group", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/maximal-torus-weight-lattice", "lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/roots-weights-weyl.md"
 section_mode = "progressive"
 +++

@@ -5,9 +5,9 @@ kind = "construction"
 summary = "The blueprint whose additive relations record every equality in a commutative semiring."
 aliases = ["canonical blueprint of a semiring", "semiring blueprint"]
 domains = ["algebraic-geometry-foundations", "algebra-rings"]
-prerequisites = ["algebra-rings/commutative-semiring", "algebraic-geometry-foundations/pre-addition-on-a-monoid", "algebraic-geometry-foundations/semiring-completion-of-a-blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-semiring", "algebraic-geometry-foundations/pre-addition-on-a-monoid"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

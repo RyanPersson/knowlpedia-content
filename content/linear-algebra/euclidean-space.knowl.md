@@ -6,8 +6,8 @@ summary = "A finite-dimensional real inner product space."
 aliases = ["euclidean-space", "Euclidean space"]
 domains = ["linear-algebra"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/euclidean-space.md"
 +++
 

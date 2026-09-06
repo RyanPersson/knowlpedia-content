@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The fusion isomorphism relating shtuka cohomology before and after several legs are identified."
 aliases = ["coalescence isomorphism", "fusion of shtuka legs", "merging shtuka legs"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["langlands/g-shtuka", "langlands/affine-grassmannian", "langlands/geometric-satake-equivalence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "A Lie group that is compact as a manifold (equivalently, as a topolog
 aliases = ["compact-lie-group", "Compact Lie group"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/compact-lie-group.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A non-abelian Lie algebra with no ideals other than 0 and itself."
 aliases = ["simple-lie-algebra", "Simple Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/abelian-lie-algebra", "lie-groups/ideal-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/simple-lie-algebra.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "document"
 summary = "The verbatim conversation transcript with mathematical terminology linked to Knowlpedia."
 aliases = ["Charts and morphisms in Diff conversation", "Principal bundle cocycle conversation"]
 domains = ["differential-geometry", "fiber-bundles", "category-theory"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## User

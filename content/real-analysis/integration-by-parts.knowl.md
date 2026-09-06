@@ -6,8 +6,8 @@ summary = "An identity relating the integral of a product to boundary terms and 
 aliases = ["integration-by-parts", "Integration by parts"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/riemann-integrable-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/integration-by-parts.md"
 +++
 

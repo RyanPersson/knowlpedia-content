@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An isonormal Gaussian process indexed by a real Hilbert space, realized on an auxiliary probability space."
 aliases = ["gaussian-measure-hilbert-space", "Gaussian Measure on a Hilbert Space (Segal)"]
 domains = ["shale-paper"]
-prerequisites = ["linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shale-paper/gaussian-measure-hilbert-space.md"
 +++
 

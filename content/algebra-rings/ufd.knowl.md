@@ -6,8 +6,8 @@ summary = "An integral domain where every element factors uniquely into irreduci
 aliases = ["ufd", "Unique factorization domain"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/integral-domain", "algebra-rings/irreducible-element", "algebra-rings/associated-elements"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/ufd.md"
 +++
 

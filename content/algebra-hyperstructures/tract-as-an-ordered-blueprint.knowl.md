@@ -6,8 +6,8 @@ summary = "A tract defines a purely positive ordered blueprint whose order is ge
 aliases = ["tract ordered blueprint", "ordered-blueprint avatar of a tract"]
 domains = ["algebra-hyperstructures", "algebraic-geometry-foundations"]
 prerequisites = ["algebra-hyperstructures/tract", "shared-foundations/partial-order", "algebraic-geometry-foundations/ordered-blueprint"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

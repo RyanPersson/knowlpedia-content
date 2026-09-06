@@ -6,8 +6,8 @@ summary = "A representation of a von Neumann algebra on a Hilbert space that is 
 aliases = ["ultraweakly continuous representation"]
 domains = ["operator-algebras", "algebra-representation-theory"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/hilbert-space", "operator-algebras/cstar-representation", "operator-algebras/normal-star-homomorphism", "operator-algebras/ultraweak-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

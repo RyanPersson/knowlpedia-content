@@ -6,8 +6,8 @@ summary = "The reconstruction axiom requiring the smooth spinor domain to be fin
 aliases = ["finiteness axiom", "absolute-continuity axiom"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/regular-spectral-triple", "noncommutative-geometry/noncommutative-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

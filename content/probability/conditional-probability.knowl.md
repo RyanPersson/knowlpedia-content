@@ -6,8 +6,8 @@ summary = "Probability of an event given another event or a sigma-algebra repres
 aliases = ["conditional-probability", "Conditional probability"]
 domains = ["probability"]
 prerequisites = ["measure-theory/sigma-algebra", "probability/probability-space", "probability/random-variable", "probability/conditional-expectation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "probability/conditional-probability.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "For a complex Lie group, taking the Lie algebra and forgetting comple
 aliases = ["Lie algebra of an underlying real Lie group"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/complex-lie-group", "algebra-category-theory/natural-isomorphism", "lie-groups/underlying-real-lie-group", "lie-groups/underlying-real-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

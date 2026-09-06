@@ -6,8 +6,8 @@ summary = "Cohomology of a Lie algebra relative to a subalgebra, computed by equ
 aliases = ["(g,K)-cohomology", "relative (g,K)-cohomology", "relative Lie algebra cohomology H(g,K;V)"]
 domains = ["lie-groups", "algebra-homological", "langlands"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra", "algebra-modules/module", "algebra-homological/cochain-complex"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

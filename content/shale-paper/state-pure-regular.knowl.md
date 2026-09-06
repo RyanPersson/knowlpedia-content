@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Positive normalized functionals, with purity and CCR-regularity conditions"
 aliases = ["state-pure-regular", "State, Pure State, Regular State (CCR context)"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shale-paper/cstar-algebra-observables"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shale-paper/state-pure-regular.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The canonical self-adjoint extension obtained by closing the quadrati
 aliases = ["Friedrichs self-adjoint extension"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "functional-analysis/closed-quadratic-form", "functional-analysis/self-adjoint-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

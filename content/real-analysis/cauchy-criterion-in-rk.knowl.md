@@ -6,8 +6,8 @@ summary = "In Euclidean space, a sequence converges exactly when it is Cauchy."
 aliases = ["cauchy-criterion-in-rk", "Cauchy Criterion in Rk"]
 domains = ["real-analysis"]
 prerequisites = ["linear-algebra/euclidean-norm", "topology/cauchy-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/cauchy-criterion-in-rk.md"
 +++
 

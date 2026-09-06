@@ -6,8 +6,8 @@ summary = "The smallest limit point of a bounded sequence, or equivalently the s
 aliases = ["limit-inferior-lim-inf", "Limit inferior (lim inf)"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-inferior-lim-inf.md"
 +++
 

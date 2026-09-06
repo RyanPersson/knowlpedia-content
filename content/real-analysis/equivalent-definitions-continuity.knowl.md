@@ -6,8 +6,8 @@ summary = "Epsilon–delta, sequential continuity, and open-set preimages are eq
 aliases = ["equivalent-definitions-continuity", "Equivalent definitions of continuity (metric spaces)"]
 domains = ["real-analysis"]
 prerequisites = ["topology/metric-space", "topology/convergent-sequence", "topology/open-set", "real-analysis/continuity-on-a-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/equivalent-definitions-continuity.md"
 +++
 

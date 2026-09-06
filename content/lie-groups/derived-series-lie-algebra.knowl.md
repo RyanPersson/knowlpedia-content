@@ -6,8 +6,8 @@ summary = "The descending sequence obtained by repeatedly taking derived subalge
 aliases = ["derived-series-lie-algebra", "Derived series of a Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/derived-subalgebra", "lie-groups/ideal-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/derived-series-lie-algebra.md"
 +++
 

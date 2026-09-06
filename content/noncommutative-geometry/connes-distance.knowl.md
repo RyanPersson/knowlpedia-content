@@ -6,8 +6,8 @@ summary = "The extended distance between states obtained by maximizing their dif
 aliases = ["spectral distance", "Connes distance formula"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/state-cstar-algebra", "noncommutative-geometry/lipschitz-seminorm-spectral-triple"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

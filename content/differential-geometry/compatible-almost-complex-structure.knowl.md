@@ -6,8 +6,8 @@ summary = "An almost-complex structure that preserves a symplectic form and make
 aliases = ["symplectic-compatible almost-complex structure", "omega-compatible almost-complex structure"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/almost-complex-structure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

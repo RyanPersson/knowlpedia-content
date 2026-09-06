@@ -6,8 +6,8 @@ summary = "Every ideal in a Noetherian ring can be written as a finite intersect
 aliases = ["lasker-noether-theorem", "Lasker–Noether theorem"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-commutative/noetherian-ring", "algebra-rings/commutative-ring", "algebra-commutative/primary-decomposition"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/lasker-noether-theorem.md"
 +++
 

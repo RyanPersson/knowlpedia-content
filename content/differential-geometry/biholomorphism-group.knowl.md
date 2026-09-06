@@ -6,8 +6,8 @@ summary = "The automorphism group of a complex manifold in the category of compl
 aliases = ["holomorphic automorphism group", "Aut_hol(X)", "group of biholomorphisms"]
 domains = ["differential-geometry", "complex-analysis", "algebra-groups"]
 prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/category-of-complex-manifolds"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

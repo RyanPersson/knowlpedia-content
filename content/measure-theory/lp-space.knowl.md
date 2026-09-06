@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Measurable functions with finite L^p norm, identified up to equality almost everywhere."
 aliases = ["lp-space", "L^p space"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space", "measure-theory/lp-norm", "measure-theory/almost-everywhere", "measure-theory/l1-function", "measure-theory/l-infinity-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measure-space", "measure-theory/lp-norm", "measure-theory/almost-everywhere"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/lp-space.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A symplectic Lie group action equipped with a compatible equivariant 
 aliases = ["Hamiltonian action"]
 domains = ["differential-geometry", "lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "differential-geometry/symplectic-lie-group-action", "fiber-bundles/moment-map", "algebra-groups/group-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

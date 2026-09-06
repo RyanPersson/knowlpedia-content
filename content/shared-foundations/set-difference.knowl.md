@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The elements of one set that are not in another set."
 aliases = ["set-difference", "Set difference"]
 domains = ["shared-foundations"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/set-difference.md"
 +++
 

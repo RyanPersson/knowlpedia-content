@@ -6,8 +6,8 @@ summary = "In a compact connected Lie group, maximal tori exist and are all conj
 aliases = ["maximal-torus-theorem", "Maximal torus theorem"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/compact-lie-group", "lie-groups/connected-lie-group", "lie-groups/example-torus", "lie-groups/connected-abelian-lie-group-structure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/maximal-torus-theorem.md"
 +++
 

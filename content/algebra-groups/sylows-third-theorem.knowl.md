@@ -6,8 +6,8 @@ summary = "The number of Sylow p-subgroups divides the p'-part of |G| and is ≡
 aliases = ["sylows-third-theorem", "Sylow's Third Theorem"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/sylow-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/sylows-third-theorem.md"
 +++
 

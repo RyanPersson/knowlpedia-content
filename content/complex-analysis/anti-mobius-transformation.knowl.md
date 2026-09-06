@@ -6,8 +6,8 @@ summary = "An orientation-reversing conformal automorphism of the Riemann sphere
 aliases = ["anti-Mobius transformation", "antiholomorphic Möbius transformation"]
 domains = ["complex-analysis", "differential-geometry"]
 prerequisites = ["complex-analysis/riemann-sphere", "complex-analysis/mobius-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The eight-dimensional real alternative normed division algebra."
 aliases = ["octonions", "Cayley numbers", "Cayley algebra", "𝕆"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/real-normed-division-algebra", "nonassociative-algebra/alternative-algebra", "nonassociative-algebra/hurwitz-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["nonassociative-algebra/real-normed-division-algebra", "nonassociative-algebra/alternative-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

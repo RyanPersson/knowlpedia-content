@@ -6,8 +6,8 @@ summary = "A sequence in X×Y converges iff each coordinate sequence converges"
 aliases = ["convergence-in-product-metric-spaces", "Convergence in product metric spaces"]
 domains = ["topology"]
 prerequisites = ["topology/metric-space", "shared-foundations/cartesian-product", "topology/cauchy-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/convergence-in-product-metric-spaces.md"
 +++
 

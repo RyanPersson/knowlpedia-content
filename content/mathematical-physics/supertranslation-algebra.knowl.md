@@ -6,8 +6,8 @@ summary = "A two-step nilpotent Lie superalgebra whose odd spinors bracket into 
 aliases = ["supersymmetry translation algebra", "supertranslation Lie superalgebra"]
 domains = ["mathematical-physics", "supergeometry"]
 prerequisites = ["differential-geometry/spinor-module", "algebra-modules/bilinear-map", "supergeometry/lie-superalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The product Ω1×Ω2 is convex when each factor is convex"
 aliases = ["cartesian-product-of-convex-sets-is-convex", "Cartesian product of convex sets is convex"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/convex-set", "convex-analysis/product-space-cartesian-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/cartesian-product-of-convex-sets-is-convex.md"
 +++
 

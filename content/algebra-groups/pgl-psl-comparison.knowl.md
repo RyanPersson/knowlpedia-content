@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Determinant modulo nth powers measures the difference between PGL_n(k) and PSL_n(k)."
 aliases = ["determinant modulo nth powers", "PGL versus PSL", "PGL PSL exact sequence"]
 domains = ["algebra-groups", "algebraic-geometry-foundations"]
-prerequisites = ["algebra-groups/projective-special-linear-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/projective-general-linear-group", "algebra-groups/projective-special-linear-group", "linear-algebra/determinant", "algebra-groups/exact-sequence-groups"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

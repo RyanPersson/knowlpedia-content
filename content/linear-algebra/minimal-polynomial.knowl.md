@@ -6,8 +6,8 @@ summary = "Smallest-degree monic polynomial that annihilates a linear operator."
 aliases = ["minimal-polynomial", "Minimal polynomial"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/linear-operator", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/minimal-polynomial.md"
 +++
 

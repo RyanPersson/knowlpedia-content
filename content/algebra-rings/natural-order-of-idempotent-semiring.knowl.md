@@ -6,8 +6,8 @@ summary = "Idempotent addition defines a partial order in which addition is bina
 aliases = ["canonical order of an idempotent semiring", "idempotent semiring order"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
 prerequisites = ["algebra-rings/idempotent-semiring", "shared-foundations/partial-order"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "Characterizations and closure properties of affine sets; representati
 aliases = ["properties-of-affine-sets-and-affine-hulls", "Properties of Affine Sets and Affine Hulls"]
 domains = ["convex-analysis"]
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set", "convex-analysis/affine-hull-affine-combination", "convex-analysis/affine-mapping", "convex-analysis/linear-subspace", "convex-analysis/convex-set", "convex-analysis/convex-hull"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/properties-of-affine-sets-and-affine-hulls.md"
 +++
 

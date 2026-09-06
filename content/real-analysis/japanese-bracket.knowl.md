@@ -6,8 +6,8 @@ summary = "The smooth positive weight (1 + norm-squared)^(1/2) used to combine l
 aliases = ["Peetre bracket", "angle bracket weight"]
 domains = ["real-analysis", "harmonic-analysis", "partial-differential-equations"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

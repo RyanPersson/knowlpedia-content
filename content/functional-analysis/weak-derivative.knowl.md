@@ -6,8 +6,8 @@ summary = "A weak derivative is a locally integrable function representing a fun
 aliases = ["Sobolev derivative", "generalized weak derivative"]
 domains = ["functional-analysis", "partial-differential-equations", "sobolev-spaces"]
 prerequisites = ["measure-theory/lebesgue-integrable-function", "functional-analysis/distributional-derivative", "measure-theory/almost-everywhere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

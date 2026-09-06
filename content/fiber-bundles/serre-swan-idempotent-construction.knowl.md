@@ -6,8 +6,8 @@ summary = "The vector bundle formed by the pointwise images of a smooth idempote
 aliases = ["idempotent projector bundle", "image bundle of a smooth projector"]
 domains = ["fiber-bundles", "algebra-modules"]
 prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/algebra-of-smooth-functions", "fiber-bundles/vector-bundle", "algebra-rings/idempotent-element", "fiber-bundles/vector-subbundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

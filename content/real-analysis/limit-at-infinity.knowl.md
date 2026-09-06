@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The epsilon-M definition of the limit of a function as x goes to plus or minus infinity."
 aliases = ["limit-at-infinity", "Limit at infinity"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-at-infinity.md"
 +++
 

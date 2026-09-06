@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A set with addition forming an abelian group and multiplication that is associative and distributive over addition."
 aliases = ["ring"]
 domains = ["algebra-rings"]
-prerequisites = ["shared-foundations/binary-operation", "algebra-groups/abelian-group", "algebra-rings/ring-axioms", "algebra-rings/unital-ring", "algebra-rings/commutative-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/binary-operation", "algebra-groups/abelian-group", "algebra-rings/ring-axioms"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/ring.md"
 +++
 

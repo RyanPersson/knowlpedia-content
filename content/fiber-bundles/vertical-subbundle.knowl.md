@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The smooth subbundle of TE consisting of vectors tangent to the fibers of a surjective submersion."
 aliases = ["vertical-subbundle", "Vertical subbundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/tangent-bundle", "fiber-bundles/vertical-tangent-space", "fiber-bundles/vector-subbundle", "fiber-bundles/vertical-vector-field", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/tangent-bundle", "fiber-bundles/vertical-tangent-space", "fiber-bundles/vector-subbundle", "fiber-bundles/section-of-a-fiber-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/vertical-subbundle.md"
 +++
 

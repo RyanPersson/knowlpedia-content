@@ -6,8 +6,8 @@ summary = "A unital C*-algebra has WEP when every faithful representation admits
 aliases = ["WEP"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/unital-cstar-algebra", "operator-algebras/unital-completely-positive-map", "operator-algebras/von-neumann-algebra", "operator-algebras/bicommutant"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

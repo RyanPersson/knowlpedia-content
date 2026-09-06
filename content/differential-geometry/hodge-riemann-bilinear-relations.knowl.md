@@ -6,8 +6,8 @@ summary = "The positivity theorem for the Hermitian intersection form on primiti
 aliases = ["Riemann bilinear relations"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/kahler-class", "differential-geometry/primitive-cohomology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

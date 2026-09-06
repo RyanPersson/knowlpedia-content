@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The function whose increments weight the sums in a Riemann–Stieltjes integral."
 aliases = ["integrator-function", "Integrator function"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-stieltjes-integral", "real-analysis/monotone-function", "real-analysis/bounded-variation-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/monotone-function", "real-analysis/bounded-variation-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/integrator-function.md"
 +++
 

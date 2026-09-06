@@ -6,8 +6,8 @@ summary = "The vector bundle whose fiber at each point is the k-th exterior powe
 aliases = ["exterior-power-bundle", "Exterior power bundle"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/tensor-product-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/exterior-power-bundle.md"
 +++
 

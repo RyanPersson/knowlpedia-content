@@ -6,8 +6,8 @@ summary = "A quaternionic Hermitian form, represented in a basis by a self-adjoi
 aliases = ["quaternionic Hermitian form", "hyperhermitian matrix", "quaternionic Hermitian matrix"]
 domains = ["linear-algebra", "quaternionic-analysis"]
 prerequisites = ["linear-algebra/quaternionic-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "A maximal averaged magnitude along radial lines used as the growth co
 aliases = ["Cohen growth functional", "radial growth function G-star"]
 domains = ["harmonic-analysis", "analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The unique connection on a Hermitian holomorphic vector bundle compatible with both structures."
 aliases = ["canonical Hermitian connection", "Chern covariant derivative", "Chern connection of a Hermitian holomorphic bundle"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/complex-manifold", "differential-geometry/holomorphic-map", "fiber-bundles/hermitian-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/hermitian-connection", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/complex-manifold", "fiber-bundles/hermitian-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/hermitian-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,6 +6,9 @@ summary = "Navigation for Lorentzian geometry, relativistic field equations, and
 aliases = ["mathematical physics index", "relativistic mathematical physics"]
 domains = ["mathematical-physics"]
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This section collects geometric and analytic structures used in classical relativistic field theory. The present convention is

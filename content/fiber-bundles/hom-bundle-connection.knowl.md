@@ -6,8 +6,8 @@ summary = "The connection on a homomorphism bundle induced by connections on its
 aliases = ["induced connection on Hom(E,F)", "endomorphism-bundle connection"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/tensor-product-connection", "fiber-bundles/dual-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

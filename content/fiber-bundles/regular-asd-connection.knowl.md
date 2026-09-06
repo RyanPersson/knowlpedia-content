@@ -6,8 +6,8 @@ summary = "An anti-self-dual connection whose deformation complex has vanishing 
 aliases = ["unobstructed instanton", "regular instanton"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/self-dual-and-anti-self-dual-connection", "fiber-bundles/asd-deformation-complex", "fiber-bundles/irreducible-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

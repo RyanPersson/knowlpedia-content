@@ -6,8 +6,8 @@ summary = "A chain complex whose homology vanishes in every degree (equivalently
 aliases = ["exact-complex", "Exact complex"]
 domains = ["algebra-homological"]
 prerequisites = ["algebra-homological/chain-complex", "algebra-homological/homology-module", "algebra-modules/exactness-via-kernels-images", "algebra-category-theory/abelian-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/exact-complex.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A connection whose gauge stabilizer is larger than the unavoidable ce
 aliases = ["reducible gauge field", "connection with noncentral stabilizer"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/stabilizer-of-a-connection", "fiber-bundles/gauge-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

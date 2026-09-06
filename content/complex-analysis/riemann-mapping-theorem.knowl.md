@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Every nonempty proper simply connected plane domain is biholomorphic to the unit disc."
 aliases = ["Riemann mapping theorem for plane domains"]
 domains = ["complex-analysis", "differential-geometry"]
-prerequisites = ["topology/simply-connected-space", "complex-analysis/complex-domain", "differential-geometry/biholomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/simply-connected-space", "complex-analysis/complex-domain", "differential-geometry/biholomorphism", "complex-analysis/normal-family"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

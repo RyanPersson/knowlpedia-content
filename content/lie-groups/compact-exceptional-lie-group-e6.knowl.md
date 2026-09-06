@@ -6,8 +6,8 @@ summary = "The compact simply connected exceptional Lie group of type E6, rank 6
 aliases = ["compact-exceptional-lie-group-e6", "compact E6", "compact Lie group E6"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/compact-lie-group", "lie-groups/root-system", "lie-groups/lie-algebra", "lie-groups/compact-real-form", "lie-groups/exceptional-lie-algebra-e6"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

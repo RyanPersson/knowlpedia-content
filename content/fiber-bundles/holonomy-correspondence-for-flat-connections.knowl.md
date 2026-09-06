@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "The classification of flat principal bundles by conjugacy classes of fundamental-group representations."
 aliases = ["Riemann–Hilbert correspondence for smooth flat bundles", "monodromy correspondence"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/holonomy-representation", "algebra-groups/conjugation-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/holonomy-representation", "algebra-groups/conjugation-action", "fiber-bundles/flat-principal-connection", "topology/fundamental-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "A smooth function that is constant along every trajectory of a dynami
 aliases = ["constant of motion", "conserved quantity"]
 domains = ["differential-geometry", "classical-mechanics"]
 prerequisites = ["differential-geometry/hamiltonian-system", "differential-geometry/hamiltonian-vector-field", "differential-geometry/hamiltonian-flow"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

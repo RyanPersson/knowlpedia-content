@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A smooth manifold is orientable when its tangent bundle admits an orientation."
 aliases = ["orientable manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/orientation-of-a-real-vector-bundle", "real-analysis/jacobian-determinant", "differential-geometry/orientation-of-a-smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/orientation-of-a-real-vector-bundle", "real-analysis/jacobian-determinant"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

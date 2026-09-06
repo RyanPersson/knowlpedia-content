@@ -6,8 +6,8 @@ summary = "A smooth embedding that preserves the symplectic forms by pullback."
 aliases = ["symplectic inclusion"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-embedding", "differential-geometry/symplectic-map", "fiber-bundles/tangent-space-at-a-point", "convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

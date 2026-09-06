@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A Riemannian manifold whose Ricci tensor is a constant multiple of the metric."
 aliases = ["Einstein metric", "Riemannian Einstein manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "topology/connected-component", "differential-geometry/ricci-curvature"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/ricci-curvature"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

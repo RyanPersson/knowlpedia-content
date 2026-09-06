@@ -6,8 +6,8 @@ summary = "A separated finite-type scheme of pure dimension one over a field."
 aliases = ["algebraic curve"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme-over-a-base"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

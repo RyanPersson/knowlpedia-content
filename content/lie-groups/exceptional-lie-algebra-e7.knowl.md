@@ -6,8 +6,8 @@ summary = "The 133-dimensional simple complex Lie algebra of rank 7 and exceptio
 aliases = ["exceptional-lie-algebra-e7", "e7", "complex Lie algebra e7", "exceptional Lie algebra E7"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

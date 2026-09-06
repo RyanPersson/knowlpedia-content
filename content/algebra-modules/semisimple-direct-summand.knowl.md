@@ -6,8 +6,8 @@ summary = "A module is semisimple exactly when all submodules split off as direc
 aliases = ["semisimple-direct-summand", "Semisimple iff every submodule is a direct summand"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/semisimple-module", "algebra-modules/submodule", "algebra-modules/direct-sum-modules", "algebra-modules/simple-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/semisimple-direct-summand.md"
 +++
 

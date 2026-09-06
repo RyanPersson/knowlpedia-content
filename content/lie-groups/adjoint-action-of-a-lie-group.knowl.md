@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The conjugation action of a Lie group on itself and the induced linear action on its Lie algebra."
 aliases = ["adjoint-action-of-a-lie-group", "Adjoint Action of a Lie Group"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/adjoint-action-of-a-lie-group.md"
 +++
 

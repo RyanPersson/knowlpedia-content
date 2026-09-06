@@ -6,8 +6,8 @@ summary = "A split extension yields a semidirect product decomposition"
 aliases = ["semidirect-product-splitting", "Semidirect product from a splitting exact sequence"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/exact-sequence-groups", "algebra-groups/split-extension", "algebra-groups/semidirect-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/semidirect-product-splitting.md"
 +++
 

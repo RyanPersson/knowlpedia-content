@@ -6,8 +6,8 @@ summary = "A spectral triple with a grading that commutes with the represented a
 aliases = ["graded spectral triple", "even K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/z2-graded-hilbert-space", "operator-algebras/graded-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

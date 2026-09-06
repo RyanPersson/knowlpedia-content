@@ -6,8 +6,8 @@ summary = "The conjectural relation between global arithmetic parameters and aut
 aliases = ["global Langlands correspondence", "Langlands reciprocity conjecture", "nonabelian reciprocity"]
 domains = ["langlands", "number-theory", "representation-theory"]
 prerequisites = ["langlands/global-langlands-parameter", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/automorphic-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

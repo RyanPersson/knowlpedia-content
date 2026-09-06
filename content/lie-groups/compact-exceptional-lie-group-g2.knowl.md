@@ -6,8 +6,8 @@ summary = "The compact connected simple 14-dimensional Lie group of rank 2 that 
 aliases = ["compact-exceptional-lie-group-g2", "compact G2", "compact Lie group G2", "Aut(O)"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/compact-lie-group", "lie-groups/root-system", "lie-groups/simply-connected-lie-group", "lie-groups/lie-algebra", "lie-groups/compact-real-form", "lie-groups/exceptional-lie-algebra-g2"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

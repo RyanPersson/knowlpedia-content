@@ -6,8 +6,8 @@ summary = "A construction that turns reduction at a coadjoint value into zero-le
 aliases = ["coadjoint-orbit shifting trick"]
 domains = ["differential-geometry", "lie-groups"]
 prerequisites = ["differential-geometry/hamiltonian-lie-group-action", "fiber-bundles/moment-map", "differential-geometry/coadjoint-orbit", "differential-geometry/kirillov-kostant-souriau-form", "algebra-groups/group-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

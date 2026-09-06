@@ -6,8 +6,8 @@ summary = "The ring of finite sums of a_i x^i allowing negative exponents."
 aliases = ["laurent-polynomial-ring", "Laurent polynomial ring"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/polynomial-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/laurent-polynomial-ring.md"
 +++
 

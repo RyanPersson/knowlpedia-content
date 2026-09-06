@@ -6,8 +6,8 @@ summary = "Every nontrivial unital commutative ring has a maximal ideal (via Zor
 aliases = ["existence-of-maximal-ideals", "Existence of maximal ideals"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/unital-ring", "algebra-rings/maximal-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/existence-of-maximal-ideals.md"
 +++
 

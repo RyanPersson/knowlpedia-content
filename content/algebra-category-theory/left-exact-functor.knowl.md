@@ -6,8 +6,8 @@ summary = "An additive functor that preserves kernels (equivalently, exactness a
 aliases = ["left-exact-functor", "Left exact functor"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/functor", "algebra-category-theory/limit", "algebra-category-theory/kernel-categorical"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/left-exact-functor.md"
 +++
 

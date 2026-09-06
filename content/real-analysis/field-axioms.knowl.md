@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Axioms for addition and multiplication in a field, as used for the real numbers."
 aliases = ["field-axioms", "Field axioms"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/field-axioms.md"
 +++
 

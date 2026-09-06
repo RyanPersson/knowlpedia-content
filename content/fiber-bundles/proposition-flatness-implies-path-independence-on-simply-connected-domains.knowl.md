@@ -6,8 +6,8 @@ summary = "On a simply connected region where the curvature vanishes, parallel t
 aliases = ["proposition-flatness-implies-path-independence-on-simply-connected-domains", "Flatness implies path-independence on simply connected domains"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature", "fiber-bundles/parallel-transport"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/proposition-flatness-implies-path-independence-on-simply-connected-domains.md"
 +++
 

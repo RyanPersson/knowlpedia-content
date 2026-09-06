@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A ring homomorphism preserves addition and multiplication and sends 0 (and 1 for unital maps) to 0 (and 1)."
 aliases = ["ring-homomorphism-properties", "Ring homomorphisms preserve structure"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ring-homomorphism", "algebra-rings/ring", "algebra-rings/unital-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/ring-homomorphism-properties.md"
 +++
 

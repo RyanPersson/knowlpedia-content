@@ -6,8 +6,8 @@ summary = "Every von Neumann algebra decomposes uniquely into central summands o
 aliases = ["Murray–von Neumann type classification", "I-II-III decomposition"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/type-i-von-neumann-algebra", "operator-algebras/type-ii-von-neumann-algebra", "operator-algebras/type-iii-von-neumann-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

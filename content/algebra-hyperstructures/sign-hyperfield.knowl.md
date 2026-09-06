@@ -6,8 +6,8 @@ summary = "The three-element hyperfield recording only whether a real number is 
 aliases = ["hyperfield of signs"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

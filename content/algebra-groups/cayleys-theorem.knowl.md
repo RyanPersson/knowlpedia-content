@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Every group embeds into a permutation group via the left regular action"
 aliases = ["cayleys-theorem", "Cayley's Theorem"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/group-homomorphism", "algebra-groups/group-monomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/group", "algebra-groups/group-homomorphism", "algebra-groups/group-monomorphism", "algebra-groups/left-multiplication-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/cayleys-theorem.md"
 +++
 

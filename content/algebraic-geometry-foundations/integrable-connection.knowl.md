@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An algebraic connection whose curvature vanishes."
 aliases = ["flat algebraic connection", "integrable connection"]
 domains = ["algebraic-geometry-foundations", "fiber-bundles"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

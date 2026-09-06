@@ -6,8 +6,8 @@ summary = "C_0(X)-algebras are precisely section algebras of upper-semicontinuou
 aliases = ["C_0(X)-algebra bundle correspondence", "sectional representation theorem"]
 domains = ["operator-algebras", "topology"]
 prerequisites = ["topology/locally-compact-space", "operator-algebras/c0-x-algebra", "operator-algebras/star-isomorphism", "operator-algebras/section-algebra-cstar-bundle", "operator-algebras/upper-semicontinuous-cstar-bundle", "operator-algebras/fiber-c0-x-algebra", "fiber-bundles/bundle-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

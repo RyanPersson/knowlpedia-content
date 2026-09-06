@@ -6,8 +6,8 @@ summary = "The tropical semifield and hyperfield share their carrier and multipl
 aliases = ["tropical hyperfield and tropical semiring comparison"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
 prerequisites = ["algebra-rings/tropical-semifield", "algebra-hyperstructures/tropical-hyperfield"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

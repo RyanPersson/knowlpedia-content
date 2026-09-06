@@ -6,8 +6,8 @@ summary = "A collection of morphisms into one object that is closed under precom
 aliases = ["sieve", "sieves", "sieve on an object"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] and let \(U\) be an object of \(\mathcal C\). A **sieve on \(U\)** is a collection \(S\) of [[algebra-category-theory/morphism|morphisms]] with codomain \(U\) that is closed under precomposition: if \(f:V\to U\) belongs to \(S\) and \(g:W\to V\) is any morphism, then

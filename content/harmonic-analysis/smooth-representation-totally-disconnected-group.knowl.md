@@ -6,8 +6,8 @@ summary = "A representation in which every vector is fixed by an open subgroup."
 aliases = ["smooth representation of a locally profinite group", "smooth p-adic representation"]
 domains = ["harmonic-analysis", "langlands", "lie-groups"]
 prerequisites = ["topology/locally-profinite-group", "algebra-groups/stabilizer"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

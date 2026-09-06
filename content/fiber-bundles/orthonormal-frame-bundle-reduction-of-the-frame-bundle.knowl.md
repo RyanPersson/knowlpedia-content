@@ -6,8 +6,8 @@ summary = "The principal O(n)-bundle of orthonormal frames determined by a bundl
 aliases = ["orthonormal-frame-bundle-reduction-of-the-frame-bundle", "Orthonormal frame bundle"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/bundle-metric", "fiber-bundles/principal-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle.md"
 +++
 

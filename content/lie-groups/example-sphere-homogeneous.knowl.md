@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The sphere is a homogeneous space under the standard transitive action of the special orthogonal group."
 aliases = ["example-sphere-homogeneous", "Example: the sphere as a homogeneous space"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/special-orthogonal-group", "lie-groups/smooth-action-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/special-orthogonal-group", "lie-groups/smooth-action-lie-group", "lie-groups/transitive-action-lie", "lie-groups/stabilizer-lie-group", "lie-groups/lie-subgroup", "lie-groups/coset-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/example-sphere-homogeneous.md"
 +++
 

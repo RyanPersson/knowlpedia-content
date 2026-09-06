@@ -6,8 +6,8 @@ summary = "A space in which every singleton set is closed."
 aliases = ["t1-space", "T1 space"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/closed-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/t1-space.md"
 +++
 

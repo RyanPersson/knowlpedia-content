@@ -6,8 +6,8 @@ summary = "A right-handed neutrino transforming in the trivial representation of
 aliases = ["right-handed neutrino", "sterile right-handed neutrino", "nu_R"]
 domains = ["mathematical-physics"]
 prerequisites = ["mathematical-physics/standard-model-gauge-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

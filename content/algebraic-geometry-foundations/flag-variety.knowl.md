@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A projective homogeneous variety parametrizing flags, realized for a reductive group as a quotient by a parabolic subgroup."
 aliases = ["flag variety", "generalized flag variety"]
 domains = ["algebraic-geometry-foundations", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/borel-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/parabolic-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

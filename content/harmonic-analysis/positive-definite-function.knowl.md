@@ -6,8 +6,8 @@ summary = "A positive-definite function is a continuous scalar function whose gr
 aliases = ["function of positive type", "positive type function"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
 prerequisites = ["topology/topological-group", "linear-algebra/positive-semidefinite-matrix"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

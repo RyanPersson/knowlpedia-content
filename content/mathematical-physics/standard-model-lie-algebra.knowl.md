@@ -6,8 +6,8 @@ summary = "The real compact Lie algebra of Standard Model internal symmetries an
 aliases = ["g_SM", "complexified Standard Model Lie algebra"]
 domains = ["mathematical-physics", "lie-groups"]
 prerequisites = ["lie-groups/complexification-of-a-real-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "For H ≤ G and K ⊲ G, there is a natural isomorphism H/(H∩K) ≅
 aliases = ["second-isomorphism-theorem-groups", "Second Isomorphism Theorem (Groups)"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/normal-subgroup", "algebra-groups/group-homomorphism", "algebra-groups/quotient-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/second-isomorphism-theorem-groups.md"
 +++
 

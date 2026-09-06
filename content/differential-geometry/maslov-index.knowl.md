@@ -6,8 +6,8 @@ summary = "The integer measuring the winding of a loop of Lagrangian subspaces, 
 aliases = ["Maslov index of a path", "Lagrangian path index"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/lagrangian-grassmannian", "differential-geometry/symplectic-vector-space", "differential-geometry/maslov-class-lagrangian-grassmannian", "differential-geometry/maslov-cycle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

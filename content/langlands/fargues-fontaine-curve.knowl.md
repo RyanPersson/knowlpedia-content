@@ -6,8 +6,8 @@ summary = "A one-dimensional curve built from a local field and a perfectoid cha
 aliases = ["Fargues–Fontaine curve", "Fargues Fontaine curve", "adic Fargues-Fontaine curve"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebra-commutative/residue-field", "algebraic-geometry-foundations/perfectoid-space", "algebraic-geometry-foundations/adic-space", "algebra-fields-galois/frobenius-endomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

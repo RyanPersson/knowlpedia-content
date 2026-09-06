@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The real polynomial determinant of a hyperhermitian quaternionic matrix."
 aliases = ["Moore determinant of a quaternionic Hermitian matrix", "quaternionic Moore determinant"]
 domains = ["linear-algebra", "quaternionic-analysis"]
-prerequisites = ["linear-algebra/hyperhermitian-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/hyperhermitian-form", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

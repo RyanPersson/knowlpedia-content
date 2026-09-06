@@ -6,8 +6,8 @@ summary = "A finite-dimensional complex inner product space, automatically compl
 aliases = ["complex-hilbert-space-finite", "Finite-Dimensional Complex Hilbert Space"]
 domains = ["quantum-foundations"]
 prerequisites = ["quantum-foundations/density-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "quantum-foundations/complex-hilbert-space-finite.md"
 +++
 

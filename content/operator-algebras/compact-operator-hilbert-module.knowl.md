@@ -6,8 +6,8 @@ summary = "An operator in the norm-closed span of rank-one operators between Hil
 aliases = ["generalized compact operator", "K(E,F)", "rank-one Hilbert-module operator"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["linear-algebra/operator-norm", "operator-algebras/adjointable-operator-hilbert-module", "topology/relatively-compact-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "A subset of a metric space that lies inside some ball of finite radiu
 aliases = ["bounded-set", "Bounded set"]
 domains = ["topology"]
 prerequisites = ["topology/open-ball"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/bounded-set.md"
 +++
 

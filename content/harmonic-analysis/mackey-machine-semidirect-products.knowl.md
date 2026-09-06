@@ -6,8 +6,8 @@ summary = "A classification of irreducible unitary representations of regular se
 aliases = ["little-group method"]
 domains = ["harmonic-analysis", "representation-theory"]
 prerequisites = ["topology/locally-compact-group", "algebra-groups/semidirect-product", "harmonic-analysis/pontryagin-dual", "algebra-groups/stabilizer", "lie-groups/irreducible-unitary-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

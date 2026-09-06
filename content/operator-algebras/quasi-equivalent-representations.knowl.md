@@ -6,8 +6,8 @@ summary = "Representations whose generated von Neumann algebras are normally iso
 aliases = ["quasi-equivalence of representations", "normally equivalent representations"]
 domains = ["operator-algebras", "algebra-representation-theory"]
 prerequisites = ["operator-algebras/cstar-representation", "operator-algebras/von-neumann-algebra-generated-by-representation", "operator-algebras/normal-star-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

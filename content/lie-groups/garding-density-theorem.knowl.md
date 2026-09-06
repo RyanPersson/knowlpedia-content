@@ -6,8 +6,8 @@ summary = "The Gårding subspace, and therefore the smooth-vector space, is dens
 aliases = ["density theorem for smooth vectors", "Gårding theorem"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/strongly-continuous-unitary-representation", "lie-groups/garding-subspace", "lie-groups/smooth-vector-unitary-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

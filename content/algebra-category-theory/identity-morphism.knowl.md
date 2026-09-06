@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A morphism 1_X : X → X acting as a two-sided unit for composition."
 aliases = ["identity-morphism", "Identity morphism"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/composition-category", "shared-foundations/identity-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/object", "algebra-category-theory/composition-category", "shared-foundations/identity-function", "algebra-category-theory/category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/identity-morphism.md"
 +++
 

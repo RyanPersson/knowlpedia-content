@@ -6,8 +6,8 @@ summary = "The three regular sl2 subalgebras associated with the three root line
 aliases = ["generation sl2s", "three generation sl2 subalgebras", "sl2 beta k"]
 domains = ["lie-groups", "mathematical-physics"]
 prerequisites = ["lie-groups/generation-plane", "lie-groups/root-sl2-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

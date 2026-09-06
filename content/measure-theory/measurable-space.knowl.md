@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A set equipped with a sigma-algebra of measurable subsets."
 aliases = ["measurable-space", "Measurable space"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/set", "measure-theory/sigma-algebra", "measure-theory/measurable-function", "measure-theory/measure", "measure-theory/measure-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set", "measure-theory/sigma-algebra"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/measurable-space.md"
 +++
 

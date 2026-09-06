@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A map between groups that preserves the group operation"
 aliases = ["group-homomorphism", "Group homomorphism"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "shared-foundations/function", "algebra-groups/kernel-group", "algebra-groups/image-group", "algebra-groups/first-isomorphism-theorem-groups"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/group", "shared-foundations/function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/group-homomorphism.md"
 +++
 

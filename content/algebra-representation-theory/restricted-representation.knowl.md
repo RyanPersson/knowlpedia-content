@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Given a representation of a group and a subgroup, the restriction is the same action viewed only on the subgroup."
 aliases = ["restricted-representation", "Restricted representation"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/group-algebra", "algebra-representation-theory/subrepresentation", "algebra-representation-theory/character"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/restricted-representation.md"
 +++
 

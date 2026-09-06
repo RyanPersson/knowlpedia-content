@@ -6,8 +6,8 @@ summary = "The fiber bundle of unit vectors in a positive-rank vector bundle equ
 aliases = ["unit sphere bundle", "spherical bundle"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

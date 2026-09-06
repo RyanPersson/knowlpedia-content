@@ -6,8 +6,8 @@ summary = "Every element of a Euclidean Jordan algebra is a real linear combinat
 aliases = ["Jordan spectral theorem", "spectral decomposition in a Euclidean Jordan algebra", "EJA spectral theorem"]
 domains = ["nonassociative-algebra", "linear-algebra"]
 prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "nonassociative-algebra/jordan-frame"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

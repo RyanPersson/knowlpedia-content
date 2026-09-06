@@ -6,6 +6,9 @@ summary = "A dependency-ordered index for harmonic, quaternionic, HKT, convex-va
 aliases = ["Alesker quaternionic PSH paper expansion", "quaternionic pluripotential theory knowl index", "H SH PSH PH and quaternionic PSH index"]
 domains = ["knowlification", "complex-analysis", "quaternionic-analysis", "convex-analysis", "differential-geometry", "nonassociative-algebra", "lie-groups"]
 section_mode = "continuous"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This dependency-ordered index develops the concepts surrounding quaternionic

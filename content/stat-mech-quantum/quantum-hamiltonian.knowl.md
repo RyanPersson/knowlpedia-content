@@ -6,8 +6,8 @@ summary = "A self-adjoint energy operator that generates time evolution and dete
 aliases = ["quantum-hamiltonian", "Quantum Hamiltonian"]
 domains = ["stat-mech-quantum"]
 prerequisites = ["stat-mech-quantum/observable-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "stat-mech-quantum/quantum-hamiltonian.md"
 +++
 

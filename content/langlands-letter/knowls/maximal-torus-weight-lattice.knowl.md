@@ -6,8 +6,8 @@ summary = "A maximal torus with its geometric character and cocharacter lattices
 aliases = ["maximal-torus-weight-lattice", "Maximal Torus and Weight Lattice"]
 domains = ["langlands-letter"]
 prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebra-fields-galois/algebraic-closure", "algebra-groups/abelian-group", "langlands-letter/knowls/galois-extension-and-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/maximal-torus-weight-lattice.md"
 section_mode = "progressive"
 +++

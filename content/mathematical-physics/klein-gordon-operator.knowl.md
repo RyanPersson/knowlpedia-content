@@ -6,8 +6,8 @@ summary = "The normally hyperbolic scalar operator obtained by adding mass and c
 aliases = ["massive wave operator", "Klein-Gordon operator", "Klein Gordon operator"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
 prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/dalembert-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

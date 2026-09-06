@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set of all subsets of a given set."
 aliases = ["power-set", "Power set"]
 domains = ["shared-foundations"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set", "shared-foundations/subset"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/power-set.md"
 +++
 

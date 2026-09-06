@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Complex differentiability on an open set forces a local convergent power-series expansion."
 aliases = ["analyticity of holomorphic functions"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/complex-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/complex-derivative", "complex-analysis/cauchy-integral-formula", "real-analysis/power-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

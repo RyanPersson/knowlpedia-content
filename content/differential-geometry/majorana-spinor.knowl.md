@@ -6,8 +6,8 @@ summary = "A complex spinor fixed by a compatible Spin-equivariant real structur
 aliases = ["Majorana condition"]
 domains = ["differential-geometry", "mathematical-physics"]
 prerequisites = ["differential-geometry/spinor-module", "mathematical-physics/gamma-matrices"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

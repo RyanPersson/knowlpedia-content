@@ -6,8 +6,8 @@ summary = "Given a connection, any curve in the base has a unique horizontal lif
 aliases = ["existenceuniqueness-of-horizontal-lift-of-a-curve", "Theorem: Existence and uniqueness of horizontal lifts of curves"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve.md"
 +++
 

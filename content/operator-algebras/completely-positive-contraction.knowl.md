@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A completely positive linear map whose operator norm is at most one."
 aliases = ["CP contraction", "CPC map"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/completely-positive-map", "linear-algebra/operator-norm", "operator-algebras/completely-bounded-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/completely-positive-map", "linear-algebra/operator-norm", "operator-algebras/completely-bounded-map", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The uniform limit of continuous functions is continuous."
 aliases = ["uniform-limit-theorem", "Uniform limit theorem"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "topology/continuous-map", "real-analysis/uniform-convergence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/continuous-map", "real-analysis/uniform-convergence"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-limit-theorem.md"
 +++
 

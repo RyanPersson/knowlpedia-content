@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The principal U(n)-bundle of unitary frames determined by a Hermitian metric on a complex rank-n bundle."
 aliases = ["unitary-frame-bundle-reduction", "Unitary frame bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/hermitian-metric", "fiber-bundles/principal-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/principal-g-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/unitary-frame-bundle-reduction.md"
 +++
 

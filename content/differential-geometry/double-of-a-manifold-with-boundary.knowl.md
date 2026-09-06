@@ -6,8 +6,8 @@ summary = "The boundaryless smooth manifold formed by gluing two copies of a man
 aliases = ["doubling a manifold", "double manifold"]
 domains = ["differential-geometry", "topology"]
 prerequisites = ["differential-geometry/manifold-with-boundary", "differential-geometry/collar-neighborhood-theorem", "fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A unital ring in which every nonzero element is invertible (not necessarily commutative)."
 aliases = ["division-ring", "Division ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/unital-ring", "algebra-rings/unit", "algebra-rings/group-of-units"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/unital-ring", "algebra-rings/unit"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/division-ring.md"
 +++
 

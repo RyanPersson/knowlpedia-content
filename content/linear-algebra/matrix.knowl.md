@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A rectangular array of numbers, symbols, or expressions arranged in rows and columns."
 aliases = ["matrix"]
 domains = ["linear-algebra"]
-prerequisites = ["algebra-rings/ring", "algebra-rings/field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ring"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/matrix.md"
 +++
 

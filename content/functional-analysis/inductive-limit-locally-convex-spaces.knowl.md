@@ -6,8 +6,8 @@ summary = "The algebraic direct limit equipped with the finest locally convex to
 aliases = ["direct limit topology", "locally convex inductive limit"]
 domains = ["functional-analysis"]
 prerequisites = ["functional-analysis/locally-convex-space", "functional-analysis/continuous-linear-map", "linear-algebra/linear-map", "topology/topological-space", "functional-analysis/topological-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The orthogonal and special orthogonal groups act transitively on real
 aliases = ["orthogonal transitivity on the Grassmannian", "real Grassmannian homogeneous space", "SO(n) action on Gr(k,n)"]
 domains = ["lie-groups", "differential-geometry"]
 prerequisites = ["lie-groups/orthogonal-group", "differential-geometry/grassmannian", "lie-groups/special-orthogonal-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

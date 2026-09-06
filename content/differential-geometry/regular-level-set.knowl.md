@@ -6,8 +6,8 @@ summary = "The preimage of a regular value of a smooth map between manifolds."
 aliases = ["regular fiber", "regular preimage"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/regular-value", "differential-geometry/embedded-submanifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

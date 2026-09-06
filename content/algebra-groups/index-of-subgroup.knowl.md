@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The number of cosets of a subgroup in a group"
 aliases = ["index-of-subgroup", "Index of a Subgroup"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/subgroup", "algebra-groups/group", "shared-foundations/cardinality", "algebra-groups/coset", "algebra-groups/lagranges-theorem", "algebra-groups/index-2-normal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/subgroup", "algebra-groups/group", "shared-foundations/cardinality", "algebra-groups/coset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/index-of-subgroup.md"
 +++
 

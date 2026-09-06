@@ -6,8 +6,8 @@ summary = "A smooth map for which the inverse image of every compact set is comp
 aliases = ["proper map of manifolds", "proper smooth mapping"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "topology/compact-set", "topology/continuous-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

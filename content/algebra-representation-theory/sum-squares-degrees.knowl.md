@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For a finite group, the sum of the squares of the dimensions of its irreducible complex representations equals the group order."
 aliases = ["sum-squares-degrees", "Sum of squares of degrees"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/irreducible-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-representation-theory/irreducible-representation", "algebra-representation-theory/maschkes-theorem", "algebra-representation-theory/schurs-lemma"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/sum-squares-degrees.md"
 +++
 

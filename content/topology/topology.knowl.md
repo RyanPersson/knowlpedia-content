@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A collection of subsets declared open, closed under unions and finite intersections."
 aliases = ["topology"]
 domains = ["topology"]
-prerequisites = ["shared-foundations/set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/power-set", "shared-foundations/union", "shared-foundations/intersection"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/topology.md"
 +++
 

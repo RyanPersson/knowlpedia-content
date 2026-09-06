@@ -6,8 +6,8 @@ summary = "A residue-cocycle formula computing trace-valued index pairings for r
 aliases = ["semifinite residue cocycle", "local index formula relative to tau"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/tau-summable-spectral-triple", "noncommutative-geometry/semifinite-index-pairing", "noncommutative-geometry/spectral-flow"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

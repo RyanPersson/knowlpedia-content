@@ -6,8 +6,8 @@ summary = "In a UFD, the content of a product equals the product of contents up 
 aliases = ["gauss-content-lemma", "Gauss lemma (content multiplicativity)"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ufd", "algebra-rings/polynomial-ring", "algebra-rings/content-polynomial", "algebra-rings/associated-elements", "algebra-rings/primitive-polynomial"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/gauss-content-lemma.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A functional occurring as a simultaneous eigenvalue for the action of
 aliases = ["weight-of-a-representation", "Weight of a representation"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/weight-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/weight-of-a-representation.md"
 +++
 

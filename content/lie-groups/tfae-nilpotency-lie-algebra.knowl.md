@@ -6,8 +6,8 @@ summary = "Nilpotency can be tested via the lower central series, Engel’s cond
 aliases = ["tfae-nilpotency-lie-algebra", "Equivalent characterizations of nilpotency for Lie algebras"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lower-central-series-lie-algebra", "lie-groups/nilpotent-lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra", "lie-groups/ados-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/tfae-nilpotency-lie-algebra.md"
 +++
 

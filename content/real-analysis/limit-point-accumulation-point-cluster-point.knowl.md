@@ -6,8 +6,8 @@ summary = "A point x such that every neighborhood of x contains a point of the s
 aliases = ["limit-point-accumulation-point-cluster-point", "Limit point (accumulation point, cluster point)"]
 domains = ["real-analysis"]
 prerequisites = ["topology/metric-space", "topology/open-ball", "topology/closed-set", "real-analysis/isolated-point"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-point-accumulation-point-cluster-point.md"
 +++
 

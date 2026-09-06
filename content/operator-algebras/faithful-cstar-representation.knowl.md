@@ -6,8 +6,8 @@ summary = "An injective representation of a C*-algebra by bounded operators on a
 aliases = ["faithful *-representation", "injective C*-representation"]
 domains = ["operator-algebras", "algebra-representation-theory"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/cstar-representation", "linear-algebra/hilbert-space", "operator-algebras/faithful-star-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

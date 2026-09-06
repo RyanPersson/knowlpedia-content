@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A weighted sum of suprema of f over subintervals of a partition."
 aliases = ["upper-sum-riemann", "Upper sum (Riemann)"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/upper-sum-riemann.md"
 +++
 

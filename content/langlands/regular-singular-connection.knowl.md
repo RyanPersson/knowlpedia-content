@@ -6,8 +6,8 @@ summary = "A flat connection on a punctured curve that has at worst logarithmic 
 aliases = ["regular singular connection", "regular singularity"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/algebraic-curve"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

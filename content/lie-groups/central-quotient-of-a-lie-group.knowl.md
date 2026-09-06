@@ -6,8 +6,8 @@ summary = "A Lie-group quotient by a closed subgroup of the center."
 aliases = ["central quotient", "quotient by a central subgroup"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/center-of-a-lie-group", "lie-groups/quotient-lie-group", "lie-groups/coset-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

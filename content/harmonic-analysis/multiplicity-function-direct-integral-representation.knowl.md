@@ -6,8 +6,8 @@ summary = "A multiplicity function records the dimension of the multiplicity spa
 aliases = ["spectral multiplicity", "representation multiplicity function"]
 domains = ["harmonic-analysis", "representation-theory"]
 prerequisites = ["topology/locally-compact-group", "linear-algebra/hilbert-space", "harmonic-analysis/direct-integral-unitary-representations", "harmonic-analysis/unitary-dual", "measure-theory/measurable-function", "measure-theory/almost-everywhere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

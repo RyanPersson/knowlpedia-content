@@ -6,6 +6,9 @@ summary = "A knowl-rich first lecture on completeness, sequences, Cauchy sequenc
 aliases = ["introductory-real-analysis", "Introductory Real Analysis"]
 domains = ["posts", "real-analysis"]
 knowls_open = true
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 # Introductory Real Analysis: [[real-analysis/completeness-axiom|Completeness]], [[shared-foundations/sequence|Sequences]], and [[topology/continuous-map|Continuity]]

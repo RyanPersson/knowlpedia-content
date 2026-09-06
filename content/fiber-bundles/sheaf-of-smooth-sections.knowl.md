@@ -6,8 +6,8 @@ summary = "The locally free sheaf assigning smooth local sections of a vector bu
 aliases = ["section sheaf", "sheaf of sections of a vector bundle", "Gamma sheaf of a bundle"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/vector-bundle", "algebraic-geometry-foundations/sheaf-of-modules", "differential-geometry/sheaf-of-smooth-functions"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

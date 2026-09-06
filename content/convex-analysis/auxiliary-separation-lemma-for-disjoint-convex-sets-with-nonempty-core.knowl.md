@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Disjoint convex sets are separable if one has nonempty core and the sets are disjoint."
 aliases = ["auxiliary-separation-lemma-for-disjoint-convex-sets-with-nonempty-core", "Auxiliary Separation Lemma"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/separation-by-a-hyperplane"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core", "convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core", "convex-analysis/separation-by-a-hyperplane"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/auxiliary-separation-lemma-for-disjoint-convex-sets-with-nonempty-core.md"
 +++
 

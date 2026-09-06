@@ -6,8 +6,8 @@ summary = "A boundary chart gives local coordinates on a manifold with boundary 
 aliases = ["half-space chart", "boundary coordinate chart"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/manifold-with-boundary", "fiber-bundles/smooth-atlas"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

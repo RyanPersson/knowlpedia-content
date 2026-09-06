@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Analytic continuation along all paths in a simply connected domain produces a single-valued holomorphic function."
 aliases = ["monodromy theorem for analytic continuation"]
 domains = ["complex-analysis", "topology"]
-prerequisites = ["topology/simply-connected-space", "complex-analysis/holomorphic-germ"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/simply-connected-space", "complex-analysis/holomorphic-germ", "complex-analysis/analytic-continuation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

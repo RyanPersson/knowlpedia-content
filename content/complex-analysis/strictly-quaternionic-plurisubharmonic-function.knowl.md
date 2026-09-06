@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A smooth quaternionic plurisubharmonic function with positive-definite quaternionic Hessian."
 aliases = ["strictly quaternionic PSH function", "strict qPSH function"]
 domains = ["complex-analysis", "quaternionic-analysis", "potential-theory"]
-prerequisites = ["complex-analysis/quaternionic-hessian"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/quaternionic-hessian", "complex-analysis/quaternionic-plurisubharmonic-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The vector bundle associated to a spin structure through a spin repre
 aliases = ["bundle of spinors", "spinor module bundle"]
 domains = ["differential-geometry", "fiber-bundles"]
 prerequisites = ["fiber-bundles/spin-structure", "differential-geometry/spinor-module", "fiber-bundles/associated-vector-bundle", "differential-geometry/clifford-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

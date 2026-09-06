@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A universal cocone from a diagram, generalizing coproducts, pushouts, and coequalizers."
 aliases = ["colimit"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/composition-category", "algebra-category-theory/isomorphism-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/colimit.md"
 +++
 

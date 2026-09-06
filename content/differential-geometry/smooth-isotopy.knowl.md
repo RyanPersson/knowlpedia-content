@@ -6,8 +6,8 @@ summary = "A smooth one-parameter family of smooth embeddings joining two given 
 aliases = ["isotopy of embeddings"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-embedding", "fiber-bundles/smooth-manifold", "differential-geometry/smooth-map-of-manifolds-with-boundary"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

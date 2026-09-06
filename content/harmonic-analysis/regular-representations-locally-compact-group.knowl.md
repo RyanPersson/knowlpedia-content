@@ -6,8 +6,8 @@ summary = "The regular representations act unitarily on square-integrable functi
 aliases = ["left regular representation on L2(G)", "right regular representation on L2(G)", "regular Hilbert representation", "left regular unitary representation of a locally compact group"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/modular-function", "measure-theory/lp-space", "lie-groups/strongly-continuous-unitary-representation", "lie-groups/right-translation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

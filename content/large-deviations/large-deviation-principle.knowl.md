@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Asymptotic exponential bounds for probabilities of rare events at a given speed."
 aliases = ["large-deviation-principle", "Large deviation principle"]
 domains = ["large-deviations"]
-prerequisites = ["large-deviations/rate-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["large-deviations/rate-function", "probability/probability-measure", "topology/topological-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "large-deviations/large-deviation-principle.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A group representation with no nontrivial invariant subspaces."
 aliases = ["irreducible-representation-lie-group", "Irreducible representation of a Lie group"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/representation-of-a-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/irreducible-representation-lie-group.md"
 +++
 

@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An upper-semicontinuous function whose restriction to every affine complex line is subharmonic."
 aliases = ["PSH function", "plurisubharmonicity"]
 domains = ["complex-analysis", "several-complex-variables", "potential-theory"]
-prerequisites = ["complex-analysis/upper-semicontinuous-function", "complex-analysis/subharmonic-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/upper-semicontinuous-function", "complex-analysis/subharmonic-function", "complex-analysis/levi-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

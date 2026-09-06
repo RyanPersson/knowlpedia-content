@@ -6,8 +6,8 @@ summary = "A smooth map between Lie groups that is also a group homomorphism."
 aliases = ["lie-group-homomorphism", "Lie Group Homomorphism"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-group-homomorphism.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The support of a distribution is the complement of the largest open s
 aliases = ["distributional support"]
 domains = ["functional-analysis", "distribution-theory"]
 prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space", "topology/closed-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

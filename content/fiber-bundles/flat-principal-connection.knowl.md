@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A principal connection whose curvature 2-form vanishes identically."
 aliases = ["flat-principal-connection", "Flat principal connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/parallel-transport", "fiber-bundles/holonomy-representation", "fiber-bundles/holonomy-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/flat-principal-connection.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The band definition of an idyll agrees with its purely positive order
 aliases = ["ordered-blueprint realization of an idyll"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
 prerequisites = ["algebra-hyperstructures/band", "algebraic-geometry-foundations/ordered-blueprint", "algebra-hyperstructures/idyll", "algebraic-geometry-foundations/ordered-blue-field", "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "A bijective star-homomorphism from a C-star algebra to itself."
 aliases = ["C*-automorphism", "automorphism of a C*-algebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/star-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

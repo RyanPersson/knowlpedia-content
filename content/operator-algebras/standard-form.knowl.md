@@ -6,8 +6,8 @@ summary = "A faithful representation of a von Neumann algebra equipped with its 
 aliases = ["Haagerup standard form", "standard representation"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/natural-positive-cone", "operator-algebras/modular-conjugation", "linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "Modular conjugation is the antiunitary involution in the polar decomp
 aliases = ["Tomita conjugation", "J operator"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/cyclic-vector", "operator-algebras/separating-vector", "operator-algebras/tomita-operator", "operator-algebras/modular-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

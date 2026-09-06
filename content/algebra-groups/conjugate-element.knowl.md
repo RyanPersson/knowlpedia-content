@@ -6,8 +6,8 @@ summary = "Two elements of a group are conjugate if one is obtained from the oth
 aliases = ["conjugate-element", "Conjugate element"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/inner-automorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/conjugate-element.md"
 +++
 

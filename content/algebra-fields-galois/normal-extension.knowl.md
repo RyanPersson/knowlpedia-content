@@ -6,8 +6,8 @@ summary = "An algebraic extension in which every irreducible polynomial having o
 aliases = ["normal-extension", "Normal extension"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/field-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/normal-extension.md"
 +++
 

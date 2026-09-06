@@ -6,8 +6,8 @@ summary = "A real smooth function whose complex Hessian is a given Kähler form 
 aliases = ["Kähler potential", "local potential for a Kähler form"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/kahler-form", "differential-geometry/complex-manifold", "differential-geometry/d-c-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

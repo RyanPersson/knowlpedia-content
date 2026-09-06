@@ -6,8 +6,8 @@ summary = "A possibly incomplete normed involutive algebra satisfying the C*-ide
 aliases = ["pre-C*-algebra", "pre-C-star algebra"]
 domains = ["noncommutative-geometry", "operator-algebras", "functional-analysis"]
 prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

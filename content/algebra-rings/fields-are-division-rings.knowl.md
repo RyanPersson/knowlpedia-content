@@ -6,8 +6,8 @@ summary = "A ring is a field iff it is a commutative division ring."
 aliases = ["fields-are-division-rings", "Fields are exactly commutative division rings"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/field", "algebra-rings/division-ring", "algebra-rings/commutative-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/fields-are-division-rings.md"
 +++
 

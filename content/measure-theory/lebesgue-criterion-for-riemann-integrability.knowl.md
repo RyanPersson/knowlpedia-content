@@ -6,8 +6,8 @@ summary = "A bounded function on a closed interval is Riemann integrable exactly
 aliases = ["lebesgue-criterion-for-riemann-integrability", "Lebesgue criterion for Riemann integrability"]
 domains = ["measure-theory"]
 prerequisites = ["real-analysis/interval", "measure-theory/null-set", "measure-theory/lebesgue-measure", "measure-theory/almost-everywhere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/lebesgue-criterion-for-riemann-integrability.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A Hilbert-space vector whose orbit map under a Lie-group representati
 aliases = ["C-infinity vector", "differentiable vector"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/orbit-map", "fiber-bundles/smooth-manifold", "linear-algebra/hilbert-space", "convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

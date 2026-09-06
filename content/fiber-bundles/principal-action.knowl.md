@@ -6,8 +6,8 @@ summary = "A smooth action that is both free and proper."
 aliases = ["principal-action", "Principal action"]
 domains = ["fiber-bundles"]
 prerequisites = ["algebra-groups/free-action", "lie-groups/proper-action-lie"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/principal-action.md"
 +++
 

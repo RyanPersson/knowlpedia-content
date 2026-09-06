@@ -6,8 +6,8 @@ summary = "The pullback of the universal Maslov class along the Lagrangian Gauss
 aliases = ["Lagrangian Maslov class"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/lagrangian-gauss-map", "differential-geometry/maslov-class-lagrangian-grassmannian", "differential-geometry/symplectic-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

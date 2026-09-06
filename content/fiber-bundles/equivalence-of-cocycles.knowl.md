@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Two transition function cocycles are equivalent if they differ by a change of local trivializations"
 aliases = ["equivalence-of-cocycles", "Equivalence of cocycles"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/cocycle-condition-for-transition-functions", "fiber-bundles/principal-bundle-transition-function", "fiber-bundles/bundle-atlas"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/cocycle-condition-for-transition-functions", "fiber-bundles/principal-bundle-transition-function", "fiber-bundles/equivalent-bundle-atlases"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/equivalence-of-cocycles.md"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The difference of norms is bounded by the norm of the difference"
 aliases = ["reverse-triangle-inequality", "Reverse triangle inequality"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/absolute-value", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/reverse-triangle-inequality.md"
 +++
 

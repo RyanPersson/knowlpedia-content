@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A covering family of complex coordinate charts whose transition maps are holomorphic."
 aliases = ["holomorphic atlas", "complex analytic atlas"]
 domains = ["differential-geometry"]
-prerequisites = ["topology/topological-manifold", "differential-geometry/complex-coordinate-chart", "differential-geometry/holomorphic-map", "shared-foundations/equivalence-class"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-manifold", "differential-geometry/complex-coordinate-chart", "shared-foundations/equivalence-class", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 section_mode = "progressive"
 +++
 

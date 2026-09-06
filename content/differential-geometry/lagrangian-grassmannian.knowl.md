@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The smooth parameter space of all Lagrangian subspaces of a finite-dimensional symplectic vector space."
 aliases = ["Grassmannian of Lagrangian subspaces", "space of Lagrangian subspaces", "Λ(n)"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/lagrangian-subspace", "differential-geometry/embedded-submanifold", "differential-geometry/grassmannian"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/lagrangian-subspace", "differential-geometry/grassmannian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

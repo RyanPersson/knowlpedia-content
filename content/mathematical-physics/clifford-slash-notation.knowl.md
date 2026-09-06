@@ -5,9 +5,9 @@ kind = "definition"
 summary = "Notation for Clifford multiplication by a vector or metric-dual covector."
 aliases = ["Feynman slash notation", "Dirac slash notation", "slash notation"]
 domains = ["mathematical-physics", "differential-geometry"]
-prerequisites = ["differential-geometry/clifford-module", "mathematical-physics/gamma-matrices", "noncommutative-geometry/dirac-operator", "differential-geometry/clifford-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/clifford-module", "mathematical-physics/gamma-matrices", "differential-geometry/clifford-algebra", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

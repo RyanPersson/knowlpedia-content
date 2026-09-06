@@ -6,8 +6,8 @@ summary = "The graded-algebra map from invariant polynomials on a Lie algebra to
 aliases = ["Chern-Weil map", "Weil homomorphism"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/lie-algebra", "fiber-bundles/invariant-polynomial-on-a-lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The locally compact space of nonzero characters of a commutative C-st
 aliases = ["Gelfand spectrum", "maximal ideal space"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/commutative-cstar-algebra", "operator-algebras/character-cstar-algebra", "functional-analysis/weak-star-topology", "topology/locally-compact-space", "topology/hausdorff-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

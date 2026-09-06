@@ -6,8 +6,8 @@ summary = "The moduli correspondence relating two G-bundles by a modification at
 aliases = ["Hecke stack", "geometric Hecke correspondence"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "langlands/hecke-modification"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

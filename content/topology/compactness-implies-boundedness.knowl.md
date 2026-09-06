@@ -6,8 +6,8 @@ summary = "In a metric space, every compact set is bounded"
 aliases = ["compactness-implies-boundedness", "Compactness implies boundedness"]
 domains = ["topology"]
 prerequisites = ["topology/metric-space", "topology/compact-set", "topology/bounded-set", "topology/diameter"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/compactness-implies-boundedness.md"
 +++
 

@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The Hodge star is the degree-complementing operator on differential forms determined by a metric and an orientation."
 aliases = ["Hodge star", "star operator", "Hodge dual", "star operator on differential forms"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/orientation-of-a-smooth-manifold", "linear-algebra/inner-product", "fiber-bundles/wedge-product-of-differential-forms"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/orientation-of-a-smooth-manifold", "linear-algebra/inner-product", "fiber-bundles/wedge-product-of-differential-forms", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

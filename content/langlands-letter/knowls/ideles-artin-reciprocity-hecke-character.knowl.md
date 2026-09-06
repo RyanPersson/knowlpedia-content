@@ -6,8 +6,8 @@ summary = "The idele class group, its continuous quasicharacters, and the global
 aliases = ["ideles-artin-reciprocity-hecke-character", "Ideles, Hecke Characters, and Artin Reciprocity"]
 domains = ["langlands-letter"]
 prerequisites = ["algebra-fields-galois/number-field", "langlands-letter/knowls/adeles-restricted-product", "algebra-representation-theory/character"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/ideles-artin-reciprocity-hecke-character.md"
 section_mode = "progressive"
 +++

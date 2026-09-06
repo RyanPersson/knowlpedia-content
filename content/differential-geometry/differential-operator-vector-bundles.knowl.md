@@ -6,8 +6,8 @@ summary = "A linear map on smooth bundle sections whose value at a point depends
 aliases = ["linear differential operator", "order of a differential operator", "bundle differential operator"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "linear-algebra/linear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

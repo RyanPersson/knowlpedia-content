@@ -6,8 +6,8 @@ summary = "A principal G bundle over the circle can be constructed by gluing a c
 aliases = ["principal-bundle-over-s1-defined-by-a-clutching-function", "Principal bundle over S1 from a clutching function"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/clutching-function", "fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/principal-bundle-over-s1-defined-by-a-clutching-function.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "An invertible principal bundle morphism, equivalently an equivariant 
 aliases = ["principal-bundle-isomorphism", "Principal bundle isomorphism"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-morphism", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/principal-bundle-isomorphism.md"
 +++
 

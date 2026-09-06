@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set of vectors having norm exactly one."
 aliases = ["unit sphere", "unit sphere of a normed space"]
 domains = ["linear-algebra", "topology"]
-prerequisites = ["linear-algebra/normed-vector-space", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/normed-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a [[linear-algebra/normed-vector-space|normed vector space]] \(E\), its **unit sphere** is

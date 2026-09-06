@@ -6,8 +6,8 @@ summary = "Values whose preimages contain only regular points, versus values hit
 aliases = ["regular-value-critical-value-multivariable", "Regular value and critical value"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/differentiable-map", "real-analysis/regular-point-critical-point-multivariable"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/regular-value-critical-value-multivariable.md"
 +++
 

@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A power-saving estimate forbidding simultaneous concentration on porous or fractal sets in physical and Fourier space."
 aliases = ["FUP", "fractal uncertainty estimate"]
 domains = ["harmonic-analysis", "mathematical-physics", "quantum-chaos"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["analysis/porosity-on-balls", "analysis/porosity-on-lines", "harmonic-analysis/higher-dimensional-line-porous-fup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

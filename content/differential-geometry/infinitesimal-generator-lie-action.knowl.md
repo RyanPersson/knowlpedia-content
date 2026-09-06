@@ -6,8 +6,8 @@ summary = "An infinitesimal generator is the vector field obtained by differenti
 aliases = ["fundamental vector field", "infinitesimal action"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/vector-field", "linear-algebra/linear-map", "lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

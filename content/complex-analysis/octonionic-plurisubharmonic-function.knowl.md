@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An upper-semicontinuous function on the octonionic plane whose restriction to every affine octonionic line is subharmonic."
 aliases = ["octonionic PSH function", "octonionic plurisubharmonicity", "oPSH function"]
 domains = ["complex-analysis", "octonionic-analysis", "potential-theory"]
-prerequisites = ["complex-analysis/upper-semicontinuous-function", "complex-analysis/octonionic-affine-line", "complex-analysis/subharmonic-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/upper-semicontinuous-function", "complex-analysis/octonionic-affine-line", "complex-analysis/subharmonic-function", "complex-analysis/octonionic-hessian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

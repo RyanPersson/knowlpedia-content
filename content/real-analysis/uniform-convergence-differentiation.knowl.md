@@ -6,8 +6,8 @@ summary = "If derivatives converge uniformly and one point converges, then the f
 aliases = ["uniform-convergence-differentiation", "Uniform convergence and differentiation"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/differentiability-1d", "real-analysis/uniform-convergence", "real-analysis/derivative", "real-analysis/differentiability-implies-continuity", "real-analysis/uniform-limit-of-continuous-is-continuous"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-convergence-differentiation.md"
 +++
 

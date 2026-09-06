@@ -6,8 +6,8 @@ summary = "The Hilbert-space representation obtained by completing the finite le
 aliases = ["GNS representation of a weight"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/left-ideal-of-weight"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

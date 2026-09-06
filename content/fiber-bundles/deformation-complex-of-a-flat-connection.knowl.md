@@ -6,8 +6,8 @@ summary = "The twisted de Rham complex whose cohomology records infinitesimal sy
 aliases = ["twisted de Rham complex", "flat-connection deformation complex"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/flat-principal-connection", "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms", "fiber-bundles/gauge-transformation", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

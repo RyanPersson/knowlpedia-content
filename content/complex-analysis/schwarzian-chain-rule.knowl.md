@@ -6,8 +6,8 @@ summary = "The Schwarzian derivative obeys a quadratic-differential cocycle rule
 aliases = ["chain rule for the Schwarzian derivative"]
 domains = ["complex-analysis", "projective-geometry"]
 prerequisites = ["complex-analysis/schwarzian-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "Smooth maps whose jet extensions are transverse to a fixed jet-space 
 aliases = ["jet transversality theorem", "Thom jet transversality"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/whitney-c-infinity-topology", "differential-geometry/jet-of-a-smooth-map", "differential-geometry/map-transverse-to-a-submanifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

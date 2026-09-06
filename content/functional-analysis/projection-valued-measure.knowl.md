@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A normalized, strongly countably additive measure whose values are orthogonal projections on a Hilbert space."
 aliases = ["spectral measure", "resolution of the identity"]
 domains = ["functional-analysis", "measure-theory"]
-prerequisites = ["measure-theory/measurable-space", "linear-algebra/hilbert-space", "linear-algebra/orthogonal-projection", "operator-algebras/strong-operator-topology", "measure-theory/measure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measurable-space", "linear-algebra/hilbert-space", "linear-algebra/orthogonal-projection", "operator-algebras/strong-operator-topology", "measure-theory/measure", "measure-theory/measurable-function", "measure-theory/indicator-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The foliation integrating the null distribution of the symplectic for
 aliases = ["null foliation"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/coisotropic-submanifold", "differential-geometry/symplectic-manifold", "differential-geometry/characteristic-distribution-coisotropic"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

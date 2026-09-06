@@ -6,8 +6,8 @@ summary = "A subset containing zero and closed under addition and scalar multipl
 aliases = ["linear-subspace", "Linear subspace"]
 domains = ["convex-analysis"]
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/linear-subspace.md"
 +++
 

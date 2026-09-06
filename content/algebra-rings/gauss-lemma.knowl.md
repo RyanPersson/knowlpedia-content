@@ -6,8 +6,8 @@ summary = "Over a UFD, primitive polynomials factor over the fraction field exac
 aliases = ["gauss-lemma", "Gauss's lemma"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/ufd", "algebra-rings/fraction-field", "algebra-rings/primitive-polynomial", "algebra-rings/polynomial-ring", "algebra-rings/irreducible-polynomial"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/gauss-lemma.md"
 +++
 

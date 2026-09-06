@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A finite chain of submodules with simple successive quotients."
 aliases = ["composition-series-module", "Composition series"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "algebra-modules/submodule", "algebra-modules/simple-module", "algebra-modules/quotient-module", "algebra-modules/length-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/module", "algebra-modules/submodule", "algebra-modules/simple-module", "algebra-modules/quotient-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/composition-series-module.md"
 +++
 

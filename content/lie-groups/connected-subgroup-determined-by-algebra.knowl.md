@@ -6,8 +6,8 @@ summary = "In a Lie group, a connected Lie subgroup is uniquely determined by it
 aliases = ["connected-subgroup-determined-by-algebra", "Connected subgroup determined by its Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup", "lie-groups/lie-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/connected-subgroup-determined-by-algebra.md"
 +++
 

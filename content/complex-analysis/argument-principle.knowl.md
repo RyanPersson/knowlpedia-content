@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "The logarithmic derivative counts zeros minus poles inside a contour."
 aliases = ["principle of the argument"]
 domains = ["complex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/meromorphic-function", "complex-analysis/complex-contour-integral", "complex-analysis/winding-number", "complex-analysis/logarithmic-derivative", "complex-analysis/residue-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

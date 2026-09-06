@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A two-component object where order matters."
 aliases = ["ordered-pair", "Ordered pair"]
 domains = ["shared-foundations"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/ordered-pair.md"
 +++
 

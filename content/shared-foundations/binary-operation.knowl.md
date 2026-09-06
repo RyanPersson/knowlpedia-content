@@ -6,8 +6,8 @@ summary = "A function that combines two elements of a set to produce another ele
 aliases = ["binary-operation", "Binary operation"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/function", "shared-foundations/cartesian-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/binary-operation.md"
 +++
 

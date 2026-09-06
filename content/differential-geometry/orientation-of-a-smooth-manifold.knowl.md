@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An orientation of a smooth manifold is a continuous choice of orientation for all of its tangent spaces."
 aliases = ["manifold orientation"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/tangent-bundle", "fiber-bundles/smooth-atlas", "real-analysis/jacobian-determinant", "topology/connected-component", "differential-geometry/orientability-of-a-smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/tangent-bundle", "fiber-bundles/smooth-atlas", "real-analysis/jacobian-determinant", "topology/connected-component"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

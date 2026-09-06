@@ -6,8 +6,8 @@ summary = "A function between rings preserving addition and multiplication."
 aliases = ["ring-homomorphism", "Ring homomorphism"]
 domains = ["algebra-rings"]
 prerequisites = ["shared-foundations/function", "algebra-rings/ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/ring-homomorphism.md"
 +++
 

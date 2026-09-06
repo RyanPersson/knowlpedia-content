@@ -5,15 +5,15 @@ kind = "knowl"
 summary = "A rule for differentiating sections along vector fields, linear over constants and satisfying a Leibniz rule."
 aliases = ["connection-on-a-vector-bundle", "Connection on a vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/module-of-smooth-sections", "fiber-bundles/vector-field", "fiber-bundles/leibniz-rule-for-a-connection", "fiber-bundles/covariant-derivative-of-a-section"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/module-of-smooth-sections", "fiber-bundles/vector-field", "fiber-bundles/leibniz-rule-for-a-connection"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "fiber-bundles/connection-on-a-vector-bundle.md"
 +++
 
 Let \(E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). Write \(\Gamma(E)\) for the [[fiber-bundles/module-of-smooth-sections|space of smooth sections]] of \(E\), and \(\mathfrak X(M)\) for the space of smooth [[fiber-bundles/vector-field|vector fields]] on \(M\).
 
-**Definition.** A (Koszul) connection on \(E\) is a map
+**Definition.** A (Koszul) connection on \(E\) is an \(\mathbb R\)-bilinear map
 \[
 \nabla:\mathfrak X(M)\times \Gamma(E)\to \Gamma(E),\quad (X,s)\mapsto \nabla_X s,
 \]

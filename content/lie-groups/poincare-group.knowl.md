@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The isometry group of Minkowski space: translations semidirect the Lorentz group."
 aliases = ["poincare-group", "Poincaré group"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lorentz-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/lorentz-group", "linear-algebra/minkowski-vector-space", "algebra-groups/semidirect-product", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/poincare-group.md"
 +++
 

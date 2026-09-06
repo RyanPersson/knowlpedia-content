@@ -6,8 +6,8 @@ summary = "The additive order of 1 in a unital ring; either 0 or a positive inte
 aliases = ["characteristic"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/unital-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/characteristic.md"
 +++
 

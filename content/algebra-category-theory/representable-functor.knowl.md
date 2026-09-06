@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A Set-valued functor naturally isomorphic to a Hom functor."
 aliases = ["representable-functor", "Representable functor"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "shared-foundations/set", "algebra-category-theory/functor", "algebra-category-theory/natural-isomorphism", "algebra-category-theory/contravariant-functor", "algebra-category-theory/opposite-category", "algebra-category-theory/isomorphism-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/category", "shared-foundations/set", "algebra-category-theory/functor", "algebra-category-theory/natural-isomorphism", "algebra-category-theory/contravariant-functor", "algebra-category-theory/opposite-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/representable-functor.md"
 +++
 

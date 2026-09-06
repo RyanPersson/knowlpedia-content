@@ -6,8 +6,8 @@ summary = "The Z/2-graded stabilization of cyclic cohomology under Connes's degr
 aliases = ["HP cohomology", "periodic (b,B)-cohomology"]
 domains = ["noncommutative-geometry", "algebra-homological"]
 prerequisites = ["noncommutative-geometry/cyclic-cohomology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

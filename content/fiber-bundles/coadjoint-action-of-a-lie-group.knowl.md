@@ -6,8 +6,8 @@ summary = "The induced action of a Lie group on the dual of its Lie algebra obta
 aliases = ["coadjoint-action-of-a-lie-group", "Coadjoint action of a Lie group"]
 domains = ["fiber-bundles"]
 prerequisites = ["lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/cotangent-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/coadjoint-action-of-a-lie-group.md"
 +++
 

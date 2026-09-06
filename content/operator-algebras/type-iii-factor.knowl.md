@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A von Neumann factor having no nonzero finite projection."
 aliases = ["type III von Neumann factor"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/type-iii-von-neumann-algebra", "operator-algebras/finite-projection", "operator-algebras/infinite-projection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/type-iii-von-neumann-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

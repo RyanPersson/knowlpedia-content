@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The Cartesian product of Lie groups, with componentwise multiplication, is again a Lie group."
 aliases = ["product-lie-group", "Product Lie group"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-group-homomorphism", "lie-groups/lie-algebra-of-product", "lie-groups/direct-sum-of-lie-algebras", "lie-groups/exponential-map-lie-group", "lie-groups/tensor-product-of-representations-lie", "lie-groups/irreducible-representation-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-group-homomorphism", "lie-groups/exponential-map-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/product-lie-group.md"
 +++
 

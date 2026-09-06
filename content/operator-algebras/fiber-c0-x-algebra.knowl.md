@@ -6,8 +6,8 @@ summary = "The quotient of a C_0(X)-algebra by the ideal of elements vanishing a
 aliases = ["fiber algebra A_x", "C*-fiber"]
 domains = ["operator-algebras", "topology"]
 prerequisites = ["operator-algebras/c0-x-algebra", "operator-algebras/quotient-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

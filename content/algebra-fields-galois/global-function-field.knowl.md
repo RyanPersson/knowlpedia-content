@@ -6,8 +6,8 @@ summary = "A finite extension of a rational function field over a finite field."
 aliases = ["function field over a finite field", "global function fields", "function field"]
 domains = ["algebra-fields-galois", "algebraic-geometry-foundations", "langlands"]
 prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/finite-field", "algebraic-geometry-foundations/smooth-projective-curve"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

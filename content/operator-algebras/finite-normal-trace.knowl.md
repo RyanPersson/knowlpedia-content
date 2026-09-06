@@ -6,8 +6,8 @@ summary = "A normal tracial weight on a von Neumann algebra whose value at the i
 aliases = ["finite normal tracial weight"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/tracial-weight", "operator-algebras/normal-weight"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

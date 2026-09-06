@@ -6,8 +6,8 @@ summary = "A faithful star-homomorphism is an injective star-homomorphism betwee
 aliases = ["injective *-homomorphism", "faithful C*-homomorphism"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/star-homomorphism", "algebra-rings/two-sided-ideal", "operator-algebras/cstar-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

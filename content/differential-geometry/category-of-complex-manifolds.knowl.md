@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The category whose objects are finite-dimensional complex manifolds and whose morphisms are holomorphic maps."
 aliases = ["complex-manifold category", "category of complex manifolds and holomorphic maps", "ComplexMan"]
 domains = ["differential-geometry", "complex-analysis", "category-theory"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map", "algebra-category-theory/category", "differential-geometry/biholomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map", "algebra-category-theory/category", "algebra-category-theory/core-of-a-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

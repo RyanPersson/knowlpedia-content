@@ -6,8 +6,8 @@ summary = "A level structure defined by the inverse image of a Borel subgroup un
 aliases = ["Borel level structure"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup", "langlands/level-structure-on-g-bundle", "langlands/parahoric-level-structure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

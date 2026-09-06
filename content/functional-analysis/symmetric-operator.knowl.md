@@ -6,8 +6,8 @@ summary = "A symmetric operator is a densely defined Hilbert-space operator whos
 aliases = ["Hermitian operator on a dense domain", "formally symmetric operator"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/densely-defined-operator", "functional-analysis/adjoint-unbounded-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

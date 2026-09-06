@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For convex sets with nonempty interior in a normed space, lin(Ω)=cl(Ω)."
 aliases = ["linear-closure-equals-closure-for-solid-convex-sets", "Linear Closure Equals Topological Closure for Solid Convex Sets"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/interior-of-a-set", "convex-analysis/closure-of-a-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/linear-closure", "convex-analysis/interior-of-a-set", "convex-analysis/closure-of-a-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/linear-closure-equals-closure-for-solid-convex-sets.md"
 +++
 

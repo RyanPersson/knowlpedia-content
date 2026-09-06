@@ -6,8 +6,8 @@ summary = "The equivalence relation on projections implemented by partial isomet
 aliases = ["equivalent projections", "MvN equivalence"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/projection-cstar-algebra", "functional-analysis/partial-isometry", "operator-algebras/cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

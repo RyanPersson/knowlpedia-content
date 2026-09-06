@@ -6,8 +6,8 @@ summary = "An object receiving a unique morphism from every object of a category
 aliases = ["terminal object", "final object"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]]. A **terminal object** is an [[algebra-category-theory/object|object]] \(1\) such that for every object \(X\) there is exactly one [[algebra-category-theory/morphism|morphism]]

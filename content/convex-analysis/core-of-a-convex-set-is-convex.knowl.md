@@ -6,8 +6,8 @@ summary = "Taking algebraic interior preserves convexity"
 aliases = ["core-of-a-convex-set-is-convex", "Core of a Convex Set is Convex"]
 domains = ["convex-analysis"]
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/core-of-a-convex-set-is-convex.md"
 +++
 

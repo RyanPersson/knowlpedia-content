@@ -6,8 +6,8 @@ summary = "A bounded variation function can be written as a difference of two in
 aliases = ["jordan-decomposition-lemma", "Jordan decomposition lemma"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/bounded-variation-function", "real-analysis/monotone-function", "real-analysis/total-variation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/jordan-decomposition-lemma.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "Exact formula relating characteristic forms computed from two differe
 aliases = ["construction-change-of-connection-formula-for-characteristic-forms-p", "Change of connection formula for Chern Weil characteristic forms"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/chernweil-form", "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection", "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial", "fiber-bundles/cartans-second-structure-equation", "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-change-of-connection-formula-for-characteristic-forms-p.md"
 +++
 

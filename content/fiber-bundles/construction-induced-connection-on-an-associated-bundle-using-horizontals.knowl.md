@@ -6,8 +6,8 @@ summary = "Construction of an Ehresmann connection on an associated bundle from 
 aliases = ["construction-induced-connection-on-an-associated-bundle-using-horizontals", "Induced connection on an associated bundle via horizontals"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f", "fiber-bundles/horizontal-distribution", "fiber-bundles/ehresmann-connection", "fiber-bundles/connection-on-a-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-induced-connection-on-an-associated-bundle-using-horizontals.md"
 +++
 

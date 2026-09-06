@@ -6,6 +6,9 @@ summary = "Foundational definitions and theorems in module theory over rings."
 aliases = ["algebra-modules", "Algebra: Module Theory"]
 domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This section collects definitions and results on modules over rings: submodules, quotient modules, homomorphisms, exact sequences, free and projective modules, tensor products, and structure theorems over principal ideal domains.

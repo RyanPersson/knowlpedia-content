@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Axiom asserting existence of a multiplicative identity element in a ring."
 aliases = ["unital-ring-axiom", "Unital ring axiom"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/unital-ring-axiom.md"
 +++
 

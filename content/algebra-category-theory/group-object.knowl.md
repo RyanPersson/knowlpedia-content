@@ -6,8 +6,8 @@ summary = "An object carrying multiplication, identity, and inverse morphisms th
 aliases = ["internal group"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/categorical-product", "algebra-category-theory/terminal-object"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

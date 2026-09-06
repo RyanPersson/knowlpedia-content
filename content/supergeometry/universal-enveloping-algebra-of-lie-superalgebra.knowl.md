@@ -6,8 +6,8 @@ summary = "The associative superalgebra universally realizing a Lie superalgebra
 aliases = ["super universal enveloping algebra", "enveloping superalgebra"]
 domains = ["supergeometry", "algebra-rings"]
 prerequisites = ["supergeometry/lie-superalgebra", "algebra-modules/tensor-algebra", "fiber-bundles/lie-bracket"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

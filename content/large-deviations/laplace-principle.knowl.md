@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A variational limit for exponential integrals that encodes large-deviation behavior."
 aliases = ["laplace-principle", "Laplace principle"]
 domains = ["large-deviations"]
-prerequisites = ["probability/probability-measure", "large-deviations/rate-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["probability/probability-measure", "large-deviations/rate-function", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "large-deviations/laplace-principle.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A Euclidean Jordan algebra with no nonzero proper Jordan ideals."
 aliases = ["simple Euclidean Jordan algebra", "simple formally real Jordan algebra"]
 domains = ["nonassociative-algebra"]
 prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "nonassociative-algebra/ideal-in-a-jordan-algebra", "convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

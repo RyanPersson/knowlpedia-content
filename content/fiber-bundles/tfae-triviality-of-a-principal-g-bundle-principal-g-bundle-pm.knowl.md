@@ -6,8 +6,8 @@ summary = "A principal G bundle is trivial exactly when it has a global section,
 aliases = ["tfae-triviality-of-a-principal-g-bundle-principal-g-bundle-pm", "Equivalent conditions for triviality of a principal bundle"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/tfae-triviality-of-a-principal-g-bundle-principal-g-bundle-pm.md"
 +++
 

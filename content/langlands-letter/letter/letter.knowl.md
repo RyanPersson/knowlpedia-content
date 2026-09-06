@@ -6,6 +6,9 @@ summary = "The 1967 letter that launched the Langlands program"
 aliases = ["letter", "Langlands' Letter to Weil"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/letter/letter.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 # Letter to Andre Weil — January 1967

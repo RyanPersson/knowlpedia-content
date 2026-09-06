@@ -6,8 +6,8 @@ summary = "The real or complex special linear Lie group modulo its finite scalar
 aliases = ["PSL Lie group", "projective unimodular Lie group"]
 domains = ["lie-groups", "algebra-groups"]
 prerequisites = ["lie-groups/special-linear-group", "lie-groups/quotient-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

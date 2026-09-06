@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "An element b in an R-algebra is integral over R if it satisfies a monic polynomial with coefficients in R."
 aliases = ["integral-element", "Integral element"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/integral-extension", "algebra-commutative/integral-closure", "algebra-commutative/integrally-closed-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/integral-element.md"
 +++
 

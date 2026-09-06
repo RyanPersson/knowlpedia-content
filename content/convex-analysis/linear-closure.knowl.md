@@ -6,8 +6,8 @@ summary = "The algebraic analogue of closure for subsets of vector spaces"
 aliases = ["linear-closure", "Linear Closure"]
 domains = ["convex-analysis"]
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/line-segments-in-a-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/linear-closure.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "In a topological space, the intersection of two dense open sets is ag
 aliases = ["intersection-of-dense-open-is-dense", "Intersection of Dense Open Sets is Dense"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/open-set", "topology/dense-set", "topology/topology", "shared-foundations/intersection", "topology/baire-category-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/intersection-of-dense-open-is-dense.md"
 +++
 

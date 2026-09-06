@@ -5,9 +5,9 @@ kind = "construction"
 summary = "The Standard Model central quotient embedded block-diagonally in SU(5)."
 aliases = ["SU(5) Standard Model embedding", "Georgi-Glashow embedding"]
 domains = ["mathematical-physics", "lie-groups"]
-prerequisites = ["lie-groups/special-block-unitary-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/special-block-unitary-group", "mathematical-physics/standard-model-gauge-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

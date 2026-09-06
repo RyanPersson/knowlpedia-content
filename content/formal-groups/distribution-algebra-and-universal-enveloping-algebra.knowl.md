@@ -6,8 +6,8 @@ summary = "In characteristic zero, the distribution algebra of a smooth formal g
 aliases = ["Dist(G) equals U(Lie(G))", "distribution–enveloping-algebra theorem"]
 domains = ["formal-groups", "lie-groups", "algebra-coalgebras"]
 prerequisites = ["formal-groups/formal-group", "lie-groups/lie-algebra", "lie-groups/universal-enveloping-algebra", "formal-groups/distribution-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

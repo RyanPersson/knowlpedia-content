@@ -6,8 +6,8 @@ summary = "The smooth manifold structure on an orbit space arising from a free a
 aliases = ["quotient-manifold", "Quotient manifold (for a free proper action)"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/quotient-manifold.md"
 +++
 

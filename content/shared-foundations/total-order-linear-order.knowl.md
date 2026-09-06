@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A partial order in which every pair of elements is comparable."
 aliases = ["total-order-linear-order", "Total order (linear order)"]
 domains = ["shared-foundations"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set", "shared-foundations/partial-order"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/total-order-linear-order.md"
 +++
 

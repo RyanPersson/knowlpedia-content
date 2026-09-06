@@ -6,8 +6,8 @@ summary = "The extended complex plane as a compact Riemann surface, analytically
 aliases = ["extended complex plane", "complex projective line as a Riemann surface", "CP1"]
 domains = ["complex-analysis", "differential-geometry", "projective-geometry"]
 prerequisites = ["differential-geometry/complex-atlas", "differential-geometry/riemann-surface"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An ultraweakly continuous completely positive map that preserves the identity."
 aliases = ["normal UCP map"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/linear-map", "operator-algebras/normal-completely-positive-map", "operator-algebras/unital-completely-positive-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/linear-map", "operator-algebras/normal-completely-positive-map", "operator-algebras/unital-completely-positive-map", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

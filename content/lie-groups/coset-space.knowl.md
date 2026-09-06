@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The quotient space of left cosets G/H, which is a smooth manifold when H is a closed Lie subgroup."
 aliases = ["coset-space", "Coset space"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup", "lie-groups/closed-subgroup-theorem", "lie-groups/smooth-action-lie-group", "lie-groups/homogeneous-space", "lie-groups/stabilizer-lie-group", "lie-groups/transitive-action-lie"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup", "lie-groups/closed-subgroup-theorem", "lie-groups/smooth-action-lie-group", "lie-groups/stabilizer-lie-group", "lie-groups/transitive-action-lie"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/coset-space.md"
 +++
 

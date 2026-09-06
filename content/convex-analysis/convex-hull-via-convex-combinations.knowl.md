@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The convex hull of a nonempty set consists of its finite convex combinations."
 aliases = ["convex-hull-via-convex-combinations", "Convex hull via convex combinations"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convex-hull"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["convex-analysis/convex-hull", "convex-analysis/convex-sets-characterized-by-closure-under-convex-combinations", "convex-analysis/convex-combination"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/convex-hull-via-convex-combinations.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "Nonvanishing Jacobian determinant implies a map is a diffeomorphism i
 aliases = ["local-diffeomorphism-corollary", "Local diffeomorphism corollary"]
 domains = ["real-analysis"]
 prerequisites = ["topology/open-set", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/local-diffeomorphism-corollary.md"
 +++
 

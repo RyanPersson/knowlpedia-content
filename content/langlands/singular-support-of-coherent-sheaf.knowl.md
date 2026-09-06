@@ -6,8 +6,8 @@ summary = "A conical subset of the scheme of singularities of a quasi-smooth der
 aliases = ["coherent singular support", "Arinkin-Gaitsgory singular support"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 prerequisites = ["langlands/ind-coherent-sheaf"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

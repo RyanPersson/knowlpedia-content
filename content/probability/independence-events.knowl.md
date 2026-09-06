@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A condition ensuring knowledge of one event does not change the probability of another"
 aliases = ["independence-events", "Independence of events"]
 domains = ["probability"]
-prerequisites = ["probability/probability-space", "probability/conditional-probability", "probability/independence-sigma-algebras", "probability/independence-random-variables"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["probability/probability-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "probability/independence-events.md"
 +++
 

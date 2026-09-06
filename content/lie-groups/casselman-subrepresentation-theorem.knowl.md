@@ -6,8 +6,8 @@ summary = "Every irreducible Harish–Chandra module for a real reductive group 
 aliases = ["subrepresentation theorem", "embedding into principal series"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/minimal-parabolic-subgroup", "lie-groups/harish-chandra-module", "algebra-representation-theory/irreducible-representation", "lie-groups/principal-series-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

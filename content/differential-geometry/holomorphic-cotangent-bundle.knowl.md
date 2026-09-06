@@ -6,8 +6,8 @@ summary = "The holomorphic dual of the holomorphic tangent bundle of a complex m
 aliases = ["holomorphic one-form bundle", "holomorphic cotangent sheaf"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-tangent-bundle", "differential-geometry/holomorphic-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

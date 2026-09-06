@@ -5,6 +5,9 @@ kind = "document"
 summary = "A full conversation transcript with expandable definitions for its mathematical terminology."
 aliases = ["Galois Extensions and Bundles transcript", "knowlified Galois conversation"]
 domains = ["knowlification"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 # Galois Extensions and Bundles

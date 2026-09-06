@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A subbundle of the tangent bundle of a total space that complements the vertical tangent bundle."
 aliases = ["horizontal-subbundle", "Horizontal subbundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/horizontal-lift-of-a-tangent-vector"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/vertical-subbundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/horizontal-subbundle.md"
 +++
 

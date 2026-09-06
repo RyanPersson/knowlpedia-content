@@ -6,8 +6,8 @@ summary = "An algebra represented on a Hilbert space together with a self-adjoin
 aliases = ["unbounded Fredholm module", "compact spectral triple", "K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["operator-algebras/involutive-algebra", "linear-algebra/hilbert-space", "operator-algebras/bounded-star-representation", "functional-analysis/self-adjoint-unbounded-operator", "functional-analysis/compact-resolvent", "functional-analysis/bounded-commutator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

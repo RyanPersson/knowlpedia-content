@@ -6,8 +6,8 @@ summary = "If a series converges, its terms must converge to 0"
 aliases = ["convergent-series-terms-go-to-zero", "Convergent series terms go to zero"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/convergent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/convergent-series-terms-go-to-zero.md"
 +++
 

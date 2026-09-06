@@ -6,8 +6,8 @@ summary = "The spectral localization condition that a Fourier transform vanish o
 aliases = ["compact Fourier support", "band-limited function", "frequency localization"]
 domains = ["harmonic-analysis", "functional-analysis"]
 prerequisites = ["measure-theory/almost-everywhere", "topology/bounded-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

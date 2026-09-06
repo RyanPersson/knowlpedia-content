@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "A locally univalent holomorphic function has zero Schwarzian exactly when it is Möbius."
 aliases = ["vanishing Schwarzian characterization", "zero Schwarzian theorem"]
 domains = ["complex-analysis", "projective-geometry"]
-prerequisites = ["complex-analysis/mobius-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/mobius-transformation", "complex-analysis/schwarzian-derivative", "complex-analysis/schwarzian-chain-rule"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

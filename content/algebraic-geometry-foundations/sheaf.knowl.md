@@ -6,8 +6,8 @@ summary = "A system of local data on open sets that can be uniquely glued when c
 aliases = ["sheaf"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["topology/topological-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/sheaf.md"
 +++
 

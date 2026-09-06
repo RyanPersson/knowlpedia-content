@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The Lie algebra of the orthogonal group: skew-symmetric endomorphisms (or their indefinite analogues)."
 aliases = ["orthogonal-lie-algebra", "Orthogonal Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/orthogonal-group", "fiber-bundles/lie-bracket", "lie-groups/general-linear-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/orthogonal-group", "fiber-bundles/lie-bracket", "lie-groups/general-linear-lie-algebra", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/orthogonal-lie-algebra.md"
 +++
 

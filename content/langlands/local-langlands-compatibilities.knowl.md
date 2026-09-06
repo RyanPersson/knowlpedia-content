@@ -6,8 +6,8 @@ summary = "The structural conditions relating representation operations, local f
 aliases = ["LLC compatibilities", "properties characterizing local Langlands"]
 domains = ["langlands", "harmonic-analysis"]
 prerequisites = ["langlands/local-langlands-correspondence", "harmonic-analysis/unramified-representation-p-adic-group", "langlands/satake-parameter", "harmonic-analysis/tempered-representation-p-adic-group", "lie-groups/square-integrable-modulo-center-representation", "algebra-representation-theory/central-character", "langlands/local-class-field-theory", "langlands-letter/knowls/contragredient-representation", "harmonic-analysis/langlands-classification-p-adic-group", "harmonic-analysis/normalized-parabolic-induction-p-adic-group", "algebraic-geometry-foundations/levi-subgroup", "langlands/local-epsilon-factor", "langlands/local-gamma-factor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

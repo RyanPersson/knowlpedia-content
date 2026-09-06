@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For F ⊣ G, the unit η: Id_C ⇒ G∘F is the natural transformation corresponding to identities under the adjunction bijection."
 aliases = ["unit-adjunction", "Unit of an adjunction"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/functor", "algebra-category-theory/adjoint-functors", "algebra-category-theory/natural-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/functor", "algebra-category-theory/adjoint-functors", "algebra-category-theory/natural-transformation", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/unit-adjunction.md"
 +++
 

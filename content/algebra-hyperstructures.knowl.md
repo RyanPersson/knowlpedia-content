@@ -5,6 +5,9 @@ kind = "section"
 summary = "Hyperoperations, semirings, hyperrings, tracts, bands, pastures, and ordered blueprints."
 aliases = ["algebra-hyperstructures", "hyperstructures and blueprints"]
 domains = ["algebra-hyperstructures", "algebra-rings", "algebraic-geometry-foundations"]
+prerequisites = ["algebra-rings/semiring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This section organizes generalized additive structures used in tropical

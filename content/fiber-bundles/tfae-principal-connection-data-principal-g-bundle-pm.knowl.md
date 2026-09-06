@@ -6,8 +6,8 @@ summary = "A principal connection can be specified by a horizontal distribution,
 aliases = ["tfae-principal-connection-data-principal-g-bundle-pm", "Equivalent descriptions of a principal connection"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/tangent-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/tfae-principal-connection-data-principal-g-bundle-pm.md"
 +++
 

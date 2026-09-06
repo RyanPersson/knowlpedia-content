@@ -6,8 +6,8 @@ summary = "The abelian group of bordism classes of closed manifolds under disjoi
 aliases = ["cobordism group", "unoriented bordism group", "oriented bordism group"]
 domains = ["differential-geometry", "topology"]
 prerequisites = ["differential-geometry/cobordism-equivalence", "topology/closed-manifold", "differential-geometry/disjoint-union-of-smooth-manifolds", "algebra-groups/abelian-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

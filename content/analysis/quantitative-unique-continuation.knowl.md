@@ -6,8 +6,8 @@ summary = "An estimate that gives an explicit lower bound for the mass of a func
 aliases = ["quantitative uniqueness estimate", "observability inequality"]
 domains = ["analysis", "partial-differential-equations", "harmonic-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

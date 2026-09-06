@@ -6,8 +6,8 @@ summary = "The real two-plane spanned by the A2 roots of the generation sl3 afte
 aliases = ["generation plane", "E7 generation plane"]
 domains = ["lie-groups", "mathematical-physics"]
 prerequisites = ["lie-groups/good-standard-model-embedding-in-e7", "lie-groups/generation-sl3-in-e7", "lie-groups/compatible-cartan-subalgebras", "lie-groups/root-system", "lie-groups/cartan-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

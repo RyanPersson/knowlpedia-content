@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "In an irreducible representation over an algebraically closed field, every central group element (and more generally every central group-algebra element) acts as a scalar."
 aliases = ["schur-corollary", "Schur corollary: central elements act by scalars"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/irreducible-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-representation-theory/schurs-lemma", "algebra-representation-theory/irreducible-representation", "algebra-groups/center-of-group", "algebra-representation-theory/group-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/schur-corollary.md"
 +++
 

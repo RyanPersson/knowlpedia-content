@@ -6,8 +6,8 @@ summary = "The unique torsion-free connection preserving the three complex struc
 aliases = ["canonical connection of a hypercomplex manifold"]
 domains = ["differential-geometry", "fiber-bundles"]
 prerequisites = ["differential-geometry/hypercomplex-manifold", "fiber-bundles/connection-on-a-vector-bundle", "differential-geometry/integrable-almost-complex-structure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

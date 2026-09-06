@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A proper ideal maximal under inclusion; in the commutative unital case, equivalently the quotient is a field."
 aliases = ["maximal-ideal", "Maximal ideal"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring", "algebra-rings/ideal"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/maximal-ideal.md"
 +++
 

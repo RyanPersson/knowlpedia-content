@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A dense nuclear test space inside a Hilbert space, together with its continuous anti-dual."
 aliases = ["Gelfand triple"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/nuclear-space", "functional-analysis/strong-dual", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/nuclear-space", "functional-analysis/strong-dual", "linear-algebra/inner-product", "functional-analysis/densely-defined-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

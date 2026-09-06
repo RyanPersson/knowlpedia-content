@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The descending series obtained by repeatedly taking commutator subgroups"
 aliases = ["derived-series", "Derived series"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/commutator-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/group", "algebra-groups/commutator-subgroup", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/derived-series.md"
 +++
 

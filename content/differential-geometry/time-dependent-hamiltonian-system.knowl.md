@@ -6,8 +6,8 @@ summary = "A symplectic phase space with a smoothly time-varying Hamiltonian tha
 aliases = ["nonautonomous Hamiltonian system"]
 domains = ["differential-geometry", "classical-mechanics"]
 prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/classical-phase-space", "differential-geometry/hamiltonian-vector-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

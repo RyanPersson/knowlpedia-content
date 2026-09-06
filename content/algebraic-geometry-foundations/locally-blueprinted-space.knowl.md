@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A topological space with a sheaf of blueprints whose stalks are local blueprints."
 aliases = ["locally blueprint ringed space", "LocBlpr-space"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/blueprint", "algebra-rings/maximal-ideal", "algebraic-geometry-foundations/morphism-of-sheaves", "algebraic-geometry-foundations/blue-scheme"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/blueprint", "algebra-rings/maximal-ideal", "algebraic-geometry-foundations/morphism-of-sheaves"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

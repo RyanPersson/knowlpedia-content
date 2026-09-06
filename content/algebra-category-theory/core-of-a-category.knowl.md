@@ -6,8 +6,8 @@ summary = "The maximal subgroupoid of a category, retaining all objects but only
 aliases = ["maximal subgroupoid", "underlying groupoid of a category"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/groupoid"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

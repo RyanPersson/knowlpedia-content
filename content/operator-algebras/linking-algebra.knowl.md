@@ -6,8 +6,8 @@ summary = "A block C-star algebra whose diagonal corners are Morita-equivalent a
 aliases = ["linking C*-algebra"]
 domains = ["operator-algebras", "algebra-modules"]
 prerequisites = ["operator-algebras/imprimitivity-bimodule", "operator-algebras/compact-operator-hilbert-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

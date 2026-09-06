@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Convergence of a sequence of functions at each fixed point of the domain."
 aliases = ["pointwise-convergence", "Pointwise convergence"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function", "real-analysis/uniform-convergence", "topology/convergent-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function", "topology/convergent-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/pointwise-convergence.md"
 +++
 

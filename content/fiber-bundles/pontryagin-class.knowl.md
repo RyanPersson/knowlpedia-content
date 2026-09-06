@@ -6,8 +6,8 @@ summary = "Characteristic cohomology classes of a real vector bundle defined fro
 aliases = ["pontryagin-class", "Pontryagin class via Chern–Weil theory"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/pontryagin-class.md"
 +++
 

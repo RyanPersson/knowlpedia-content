@@ -6,8 +6,8 @@ summary = "The crossed-product C*-algebra obtained from a continuous action of a
 aliases = ["transformation group algebra", "crossed product of a transformation group"]
 domains = ["operator-algebras"]
 prerequisites = ["topology/locally-compact-space", "topology/locally-compact-group", "operator-algebras/full-crossed-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

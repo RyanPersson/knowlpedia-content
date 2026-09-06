@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A horizontal distribution closed under Lie brackets, equivalently tangent to a foliation transverse to the fibers."
 aliases = ["integrable-horizontal-distribution", "Integrable horizontal distribution"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/horizontal-distribution", "fiber-bundles/vector-field", "fiber-bundles/lie-bracket", "fiber-bundles/curvature"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/horizontal-distribution", "fiber-bundles/vector-field", "fiber-bundles/lie-bracket", "fiber-bundles/curvature", "fiber-bundles/ehresmann-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/integrable-horizontal-distribution.md"
 +++
 

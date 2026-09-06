@@ -6,8 +6,8 @@ summary = "A norm-closed adjoint-stable subalgebra of a C*-algebra."
 aliases = ["closed *-subalgebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

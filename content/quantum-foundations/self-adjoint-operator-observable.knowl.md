@@ -6,8 +6,8 @@ summary = "A linear operator equal to its adjoint; in quantum theory it represen
 aliases = ["self-adjoint-operator-observable", "Self-Adjoint Operator (Observable)"]
 domains = ["quantum-foundations"]
 prerequisites = ["quantum-foundations/bounded-operator-hilbert"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "quantum-foundations/self-adjoint-operator-observable.md"
 +++
 

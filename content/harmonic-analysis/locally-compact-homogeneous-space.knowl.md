@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A quotient G/H of a locally compact group by a closed subgroup, equipped with its transitive continuous G-action."
 aliases = ["topological homogeneous space", "locally compact quotient homogeneous space", "homogeneous G-space G/H"]
 domains = ["harmonic-analysis", "topology", "lie-groups"]
-prerequisites = ["topology/locally-compact-group", "topology/quotient-topology", "topology/continuous-group-action", "topology/hausdorff-space", "fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/locally-compact-group", "topology/quotient-topology", "topology/continuous-group-action", "topology/hausdorff-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

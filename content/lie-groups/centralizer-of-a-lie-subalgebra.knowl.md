@@ -6,8 +6,8 @@ summary = "The Lie subalgebra of elements commuting with every element of a give
 aliases = ["centralizer of a Lie subalgebra", "Lie-algebra centralizer", "commutant in a Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

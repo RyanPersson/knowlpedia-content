@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Functors R^nF and L_nF obtained from resolutions, measuring the failure of exactness and yielding Ext and Tor."
 aliases = ["derived-functor", "Derived functor"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-category-theory/abelian-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/left-exact-functor", "algebra-category-theory/right-exact-functor", "algebra-homological/injective-resolution", "algebra-homological/projective-resolution", "algebra-homological/cohomology-module", "algebra-homological/homology-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/derived-functor.md"
 +++
 

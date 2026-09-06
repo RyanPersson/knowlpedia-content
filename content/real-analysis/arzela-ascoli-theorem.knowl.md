@@ -6,8 +6,8 @@ summary = "On a compact metric space, a uniformly bounded equicontinuous sequenc
 aliases = ["arzela-ascoli-theorem", "Arzelà–Ascoli theorem"]
 domains = ["real-analysis"]
 prerequisites = ["topology/metric-space", "topology/continuous-map", "real-analysis/uniformly-bounded-family", "real-analysis/equicontinuity", "real-analysis/subsequence", "real-analysis/uniform-convergence", "real-analysis/space-of-continuous-functions", "real-analysis/supremum-norm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/arzela-ascoli-theorem.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "Key identities and inequalities for limsup and liminf of a sequence"
 aliases = ["basic-properties-of-lim-sup-and-lim-inf", "Basic properties of lim sup and lim inf"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/subsequence", "real-analysis/limit-superior-lim-sup", "real-analysis/limit-inferior-lim-inf"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/basic-properties-of-lim-sup-and-lim-inf.md"
 +++
 

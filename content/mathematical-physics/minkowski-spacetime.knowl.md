@@ -6,8 +6,8 @@ summary = "The flat affine Lorentzian spacetime underlying special relativity."
 aliases = ["affine Minkowski spacetime"]
 domains = ["mathematical-physics", "differential-geometry", "lie-groups"]
 prerequisites = ["differential-geometry/lorentzian-manifold", "linear-algebra/minkowski-vector-space", "linear-algebra/quadratic-form", "differential-geometry/time-orientation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

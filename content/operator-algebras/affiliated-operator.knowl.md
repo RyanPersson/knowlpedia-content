@@ -6,8 +6,8 @@ summary = "A closed densely defined operator whose domain and action are invaria
 aliases = ["affiliated operator"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "functional-analysis/densely-defined-operator", "functional-analysis/closed-linear-operator", "operator-algebras/commutant"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

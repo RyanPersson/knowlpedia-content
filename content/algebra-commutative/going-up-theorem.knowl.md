@@ -6,8 +6,8 @@ summary = "Along an integral extension, prime ideals can be lifted to extend pri
 aliases = ["going-up-theorem", "Going-up theorem"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-commutative/integral-extension", "algebra-rings/commutative-ring", "algebra-commutative/lying-over-theorem", "algebra-commutative/prime-spectrum"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/going-up-theorem.md"
 +++
 

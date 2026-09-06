@@ -6,8 +6,8 @@ summary = "A nontrivial commutative semiring in which every nonzero element is m
 aliases = ["commutative semifield", "division semiring"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
 prerequisites = ["algebra-rings/commutative-semiring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

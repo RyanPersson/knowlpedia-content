@@ -5,6 +5,9 @@ kind = "section"
 summary = "Super linear algebra, smooth real supermanifolds, Lie supergroups, and their mathematical-physics enrichments."
 aliases = ["super geometry", "supermanifold theory"]
 domains = ["supergeometry"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This section uses finite-dimensional smooth real

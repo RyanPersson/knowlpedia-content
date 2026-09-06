@@ -6,8 +6,8 @@ summary = "An extension E/F of the form E = F(α1,…,αn) for finitely many gen
 aliases = ["fg-field-extension", "Finitely generated field extension"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/field-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/fg-field-extension.md"
 +++
 

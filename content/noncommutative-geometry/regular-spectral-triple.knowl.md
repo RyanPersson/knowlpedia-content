@@ -6,8 +6,8 @@ summary = "A spectral triple whose algebra and Dirac commutators are smooth for 
 aliases = ["QC-infinity spectral triple", "smooth spectral triple"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/bounded-commutator", "noncommutative-geometry/smooth-domain-delta"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

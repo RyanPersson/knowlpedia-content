@@ -6,8 +6,8 @@ summary = "Axioms defining a field as a commutative unital ring in which every n
 aliases = ["field-axioms-algebra", "Field axioms"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring", "algebra-rings/unit"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/field-axioms-algebra.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "For submodules A,B ≤ M, one has (A+B)/B ≅ A/(A∩B)."
 aliases = ["second-isomorphism-theorem-modules", "Second isomorphism theorem for modules"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/submodule", "shared-foundations/intersection", "algebra-modules/quotient-module", "algebra-modules/first-isomorphism-theorem-modules"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/second-isomorphism-theorem-modules.md"
 +++
 

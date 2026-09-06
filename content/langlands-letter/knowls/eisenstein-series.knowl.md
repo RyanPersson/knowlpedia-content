@@ -6,8 +6,8 @@ summary = "An automorphic series formed from parabolically induced cuspidal data
 aliases = ["eisenstein-series", "Eisenstein Series on a Reductive Group"]
 domains = ["langlands-letter"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/levi-subgroup", "algebraic-geometry-foundations/unipotent-radical", "lie-groups/k-finite-vector", "langlands/cuspidal-automorphic-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/eisenstein-series.md"
 section_mode = "progressive"
 +++

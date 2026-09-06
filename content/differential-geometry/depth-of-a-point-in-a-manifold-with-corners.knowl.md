@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The number of local boundary coordinates that vanish at a point of a manifold with corners."
 aliases = ["corner depth", "depth stratum"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/manifold-with-corners", "differential-geometry/corner-stratification"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/manifold-with-corners"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

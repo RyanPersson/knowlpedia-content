@@ -6,8 +6,8 @@ summary = "An action in which only the identity can fix a point"
 aliases = ["free-action", "Free Action"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group-action", "algebra-groups/stabilizer"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/free-action.md"
 +++
 

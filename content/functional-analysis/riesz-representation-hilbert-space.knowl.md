@@ -6,8 +6,8 @@ summary = "Every continuous linear functional on a Hilbert space is inner produc
 aliases = ["Fréchet–Riesz theorem", "Riesz representation theorem for functionals"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/inner-product", "functional-analysis/topological-dual"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

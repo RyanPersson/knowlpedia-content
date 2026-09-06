@@ -6,8 +6,8 @@ summary = "A positive semidefinite trace-one operator representing the state of 
 aliases = ["density-operator", "Density Operator"]
 domains = ["quantum-foundations"]
 prerequisites = ["quantum-foundations/trace-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "quantum-foundations/density-operator.md"
 +++
 

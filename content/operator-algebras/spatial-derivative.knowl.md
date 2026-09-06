@@ -6,8 +6,8 @@ summary = "Connes's positive self-adjoint Radon-Nikodym operator for a normal se
 aliases = ["Connes spatial derivative", "spatial Radon-Nikodym derivative"]
 domains = ["operator-algebras", "noncommutative-geometry"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/semifinite-weight", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/commutant", "functional-analysis/closed-quadratic-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

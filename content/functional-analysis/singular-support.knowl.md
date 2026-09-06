@@ -6,8 +6,8 @@ summary = "The singular support records the points near which a distribution can
 aliases = ["singular support", "distributional singular locus"]
 domains = ["functional-analysis", "distribution-theory"]
 prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space", "functional-analysis/support-of-distribution"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

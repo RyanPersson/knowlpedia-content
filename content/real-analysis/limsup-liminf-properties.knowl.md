@@ -6,8 +6,8 @@ summary = "Standard inequalities and identities involving limit superior and lim
 aliases = ["limsup-liminf-properties", "Basic Properties of limsup and liminf"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/limit-superior", "real-analysis/limit-inferior"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/limsup-liminf-properties.md"
 +++
 

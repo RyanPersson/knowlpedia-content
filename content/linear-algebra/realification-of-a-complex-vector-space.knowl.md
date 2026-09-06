@@ -6,8 +6,8 @@ summary = "A complex vector space regarded as a real vector space by restriction
 aliases = ["underlying real vector space", "restriction of scalars from complex to real"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

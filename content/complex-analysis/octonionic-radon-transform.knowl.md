@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The injective transform integrating a function on the octonionic plane over affine octonionic lines."
 aliases = ["Radon transform on O^2", "octonionic line transform"]
 domains = ["complex-analysis", "octonionic-analysis", "integral-geometry"]
-prerequisites = ["functional-analysis/test-function-space", "complex-analysis/octonionic-affine-line"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["functional-analysis/test-function-space", "complex-analysis/octonionic-affine-line", "complex-analysis/octonionic-hessian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

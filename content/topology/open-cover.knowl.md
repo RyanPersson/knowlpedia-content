@@ -6,8 +6,8 @@ summary = "A cover consisting entirely of open sets in a topological space."
 aliases = ["open-cover", "Open cover"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/open-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/open-cover.md"
 +++
 
@@ -24,4 +24,4 @@ Open covers are the basic input to the definition of [[topology/compact-set|comp
 ## Examples
 
 - In \(\mathbb{R}\) with the usual topology, the family \(\{(n-1,n+1)\}_{n\in\mathbb{Z}}\) is an open cover of \(\mathbb{R}\).
-- In \(\mathbb{R}\), the family \(\{(-1/n,\,1+1/n)\}_{n\in\mathbb{N}}\) is an open cover of \([0,1]\).
+- In \(\mathbb{R}\), the family \(\{(-1/n,\,1+1/n)\}_{n\in\mathbb{N},\ n\ge 1}\) is an open cover of \([0,1]\).

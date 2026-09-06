@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An ambient smooth chart in which an embedded submanifold becomes a coordinate plane."
 aliases = ["slice chart", "adapted chart for a submanifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart", "differential-geometry/embedded-submanifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A module admitting a basis; equivalently, a direct sum of copies of the ring."
 aliases = ["free-module", "Free module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "algebra-modules/basis-module", "algebra-modules/free-module-universal-property"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/module", "algebra-modules/basis-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/free-module.md"
 +++
 

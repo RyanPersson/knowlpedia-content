@@ -6,8 +6,8 @@ summary = "The decomposition of complex de Rham cohomology into Dolbeault cohomo
 aliases = ["Kähler Hodge decomposition", "Hodge decomposition by bidegree"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/dolbeault-cohomology", "differential-geometry/hodge-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

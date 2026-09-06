@@ -6,8 +6,8 @@ summary = "A local coordinate map from an open subset of a smooth manifold to an
 aliases = ["smooth-chart", "Smooth chart"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-chart.md"
 +++
 

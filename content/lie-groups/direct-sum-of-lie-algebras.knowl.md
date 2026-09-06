@@ -6,8 +6,8 @@ summary = "The product vector space with componentwise bracket, modeling Lie alg
 aliases = ["direct-sum-of-lie-algebras", "Direct sum of Lie algebras"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/direct-sum-of-lie-algebras.md"
 +++
 

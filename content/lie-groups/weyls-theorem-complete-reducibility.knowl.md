@@ -6,8 +6,8 @@ summary = "Every finite-dimensional representation of a finite-dimensional semis
 aliases = ["weyls-theorem-complete-reducibility", "Weyl’s theorem on complete reducibility"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/completely-reducible-representation-lie", "lie-groups/subrepresentation-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/weyls-theorem-complete-reducibility.md"
 +++
 

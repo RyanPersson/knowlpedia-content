@@ -6,8 +6,8 @@ summary = "The complete commutative topological Hopf algebra of functions on an 
 aliases = ["formal Hopf algebra", "complete coordinate Hopf algebra", "Hopf algebra of a formal group"]
 domains = ["formal-groups", "algebra-coalgebras", "algebraic-geometry-foundations"]
 prerequisites = ["formal-groups/formal-group", "topology/continuous-map", "algebra-coalgebras/hopf-algebra", "algebra-topological/completed-tensor-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

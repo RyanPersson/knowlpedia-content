@@ -6,8 +6,8 @@ summary = "An affine bundle over a manifold whose sections are connections on a 
 aliases = ["bundle-of-connections", "Bundle of connections"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/jet-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/bundle-of-connections.md"
 +++
 

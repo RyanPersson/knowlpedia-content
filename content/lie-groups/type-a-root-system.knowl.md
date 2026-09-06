@@ -6,8 +6,8 @@ summary = "The simply laced root system A_n formed by the differences e_i-e_j in
 aliases = ["type A root system", "A_n root system", "root system of type A"]
 domains = ["lie-groups"]
 prerequisites = ["linear-algebra/euclidean-space", "lie-groups/simply-laced-root-system"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

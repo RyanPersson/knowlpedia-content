@@ -6,8 +6,8 @@ summary = "Conjugate elements in a group have the same order."
 aliases = ["conjugation-preserves-order", "Conjugation preserves order"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/conjugate-element"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/conjugation-preserves-order.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A continuous function attains its average value somewhere on the inte
 aliases = ["mean-value-theorem-for-integrals", "Mean value theorem for integrals"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/mean-value-theorem-for-integrals.md"
 +++
 

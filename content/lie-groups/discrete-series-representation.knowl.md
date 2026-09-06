@@ -6,8 +6,8 @@ summary = "An irreducible unitary representation occurring as a closed subrepres
 aliases = ["square-integrable representation"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "lie-groups/irreducible-unitary-representation", "shared-foundations/equivalence-class", "lie-groups/invariant-closed-subspace-unitary-representation", "harmonic-analysis/regular-representations-locally-compact-group", "algebra-representation-theory/regular-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

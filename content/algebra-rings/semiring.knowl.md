@@ -6,8 +6,8 @@ summary = "An additive commutative monoid with a distributive, unital multiplica
 aliases = ["rig", "unital semiring"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
 prerequisites = ["algebra-groups/commutative-monoid", "algebra-groups/monoid"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

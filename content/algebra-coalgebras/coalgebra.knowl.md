@@ -6,8 +6,8 @@ summary = "A module with coassociative comultiplication and a counit."
 aliases = ["coalgebra over a ring", "counital coalgebra"]
 domains = ["algebra-coalgebras", "algebra-modules"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/module", "algebra-category-theory/monoidal-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

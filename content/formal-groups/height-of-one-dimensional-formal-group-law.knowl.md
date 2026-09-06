@@ -6,8 +6,8 @@ summary = "The exponent of the first nonzero term of the p-series of a one-dimen
 aliases = ["height of a formal group law", "formal group height"]
 domains = ["formal-groups"]
 prerequisites = ["formal-groups/one-dimensional-formal-group-law"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

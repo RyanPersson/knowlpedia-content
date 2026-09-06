@@ -6,8 +6,8 @@ summary = "A bounded Frobenius modification of G-bundles in local or Fargues-Fon
 aliases = ["local G-shtuka", "moduli space of local shtukas", "p-adic shtuka"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 prerequisites = ["algebra-fields-galois/frobenius-endomorphism", "langlands/hecke-modification", "algebraic-geometry-foundations/tilt-and-untilt", "algebra-groups/conjugacy-class", "langlands-letter/knowls/maximal-torus-weight-lattice", "langlands/g-bundle-on-fargues-fontaine-curve", "topology/locally-profinite-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

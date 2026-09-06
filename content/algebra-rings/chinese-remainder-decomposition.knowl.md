@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For comaximal ideals, a quotient ring decomposes as a product of quotients."
 aliases = ["chinese-remainder-decomposition", "Chinese remainder decomposition"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal", "algebra-rings/sum-of-ideals", "algebra-rings/intersection-of-ideals", "algebra-rings/quotient-ring", "shared-foundations/cartesian-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/chinese-remainder-decomposition.md"
 +++
 

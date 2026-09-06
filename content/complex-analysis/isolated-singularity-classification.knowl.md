@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "An isolated singularity is removable, a pole, or essential according to its Laurent principal part."
 aliases = ["isolated singularity classification"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/laurent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/laurent-series", "complex-analysis/holomorphic-functions-are-analytic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

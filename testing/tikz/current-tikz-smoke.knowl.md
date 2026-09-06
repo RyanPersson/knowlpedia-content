@@ -5,6 +5,9 @@ kind = "knowl"
 summary = "A development-only knowl used to verify the live TikZ rendering pipeline."
 aliases = ["current-tikz-smoke"]
 domains = ["testing"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This development-only knowl checks the current end-to-end TikZ rendering path.

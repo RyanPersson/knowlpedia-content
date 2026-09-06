@@ -6,8 +6,8 @@ summary = "The subspace of a representation on which every group or Lie-algebra 
 aliases = ["invariant-vector subspace", "space of invariants", "fixed vectors", "G-invariants"]
 domains = ["lie-groups", "representation-theory"]
 prerequisites = ["lie-groups/representation-of-a-lie-group", "lie-groups/representation-of-a-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

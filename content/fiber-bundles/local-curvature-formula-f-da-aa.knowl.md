@@ -6,8 +6,8 @@ summary = "Local expression for the curvature of a principal connection in a cho
 aliases = ["local-curvature-formula-f-da-aa", "Local curvature formula"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/local-curvature-formula-f-da-aa.md"
 +++
 

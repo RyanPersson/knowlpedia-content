@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A Lie group homomorphism that is a covering map; its kernel is discrete and central and it induces an isomorphism of Lie algebras."
 aliases = ["covering-lie-group", "Covering Lie group"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/discrete-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/covering-lie-group.md"
 +++
 

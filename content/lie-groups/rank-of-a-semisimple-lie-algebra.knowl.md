@@ -6,8 +6,8 @@ summary = "The dimension of a Cartan subalgebra, equivalently the rank of the as
 aliases = ["rank of a Lie algebra", "semisimple Lie algebra rank"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/semisimple-lie-algebra", "algebraic-geometry-foundations/algebraically-closed-field", "lie-groups/cartan-subalgebra", "lie-groups/root-system"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "A smooth choice of an element in each fiber of the adjoint bundle, eq
 aliases = ["section-of-ad", "Section of Ad(P)"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action", "fiber-bundles/smooth-map", "fiber-bundles/gauge-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/section-of-ad.md"
 +++
 

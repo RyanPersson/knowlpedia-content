@@ -6,8 +6,8 @@ summary = "A section of a holomorphic bundle that is holomorphic as a map into t
 aliases = ["analytic section", "holomorphic bundle section"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/holomorphic-map", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

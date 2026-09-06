@@ -6,8 +6,8 @@ summary = "A collection of sets labeled by elements of an index set."
 aliases = ["indexed-family-of-sets", "Indexed family of sets"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/indexed-family-of-sets.md"
 +++
 

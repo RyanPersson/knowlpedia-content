@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A smooth map whose differential is surjective at every point."
 aliases = ["smooth-submersion", "Smooth submersion"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/tangent-space-at-a-point"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/tangent-space-at-a-point", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-submersion.md"
 +++
 

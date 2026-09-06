@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The measure obtained by transporting a measure through a measurable map."
 aliases = ["pushforward-measure", "Pushforward measure"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-space", "measure-theory/measurable-function", "measure-theory/measure", "measure-theory/change-of-variables-pushforward"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-space", "measure-theory/measurable-function", "measure-theory/measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/pushforward-measure.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A module carrying a compatible representation of a Clifford algebra."
 aliases = ["Clifford representation", "Clifford multiplication"]
 domains = ["differential-geometry", "algebra-modules", "supergeometry"]
 prerequisites = ["differential-geometry/clifford-algebra", "algebra-modules/module", "algebra-modules/algebra-homomorphism", "linear-algebra/linear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

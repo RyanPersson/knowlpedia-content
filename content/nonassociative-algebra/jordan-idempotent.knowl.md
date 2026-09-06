@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An element e of a Jordan algebra satisfying e composed with e equals e."
 aliases = ["idempotent in a Jordan algebra", "Jordan algebra idempotent"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/jordan-algebra", "nonassociative-algebra/special-and-exceptional-jordan-algebras"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["nonassociative-algebra/jordan-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

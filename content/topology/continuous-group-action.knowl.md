@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A group action whose action map is continuous in the group element and the point."
 aliases = ["continuous action", "continuous group action", "topological group action"]
 domains = ["topology", "algebra-groups"]
-prerequisites = ["topology/topological-group", "topology/topological-space", "algebra-groups/group-action", "topology/continuous-map", "topology/product-topology", "topology/homeomorphism", "algebra-groups/faithful-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-group", "topology/topological-space", "algebra-groups/group-action", "topology/continuous-map", "topology/product-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/topological-group|topological group]] and \(X\) a [[topology/topological-space|topological space]]. A [[algebra-groups/group-action|group action]] \(\alpha:G\times X\to X\) is **continuous** when \(\alpha\) is a [[topology/continuous-map|continuous map]] for the [[topology/product-topology|product topology]] on \(G\times X\).

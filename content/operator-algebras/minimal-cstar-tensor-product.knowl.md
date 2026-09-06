@@ -6,8 +6,8 @@ summary = "The C*-completion defined by representing two C*-algebras faithfully 
 aliases = ["spatial C*-tensor product", "injective C*-tensor product"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/nondegenerate-star-homomorphism", "operator-algebras/cstar-tensor-norm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

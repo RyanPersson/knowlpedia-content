@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A connected open subset of the complex plane."
 aliases = ["domain in the complex plane", "plane domain", "region"]
 domains = ["complex-analysis", "topology"]
-prerequisites = ["topology/open-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/open-set", "shared-foundations/complex-numbers-c"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

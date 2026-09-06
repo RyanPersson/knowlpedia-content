@@ -6,8 +6,8 @@ summary = "An isomorphism from an object to itself; an invertible endomorphism."
 aliases = ["automorphism-category", "Automorphism"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/isomorphism-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/automorphism-category.md"
 +++
 

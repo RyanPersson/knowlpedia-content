@@ -6,8 +6,8 @@ summary = "Semisimple conjugacy classes in a connected complex reductive group a
 aliases = ["characters-separate-semisimple-classes", "Characters Separate Semisimple Conjugacy Classes"]
 domains = ["langlands-letter"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "algebra-representation-theory/irreducible-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/characters-separate-semisimple-classes.md"
 section_mode = "progressive"
 +++

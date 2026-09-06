@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The convex set of all positive norm-one functionals on a C*-algebra."
 aliases = ["S(A)", "C*-state space"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/state-cstar-algebra", "convex-analysis/convex-set", "functional-analysis/weak-star-topology", "operator-algebras/positive-linear-functional", "topology/compact-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/state-cstar-algebra", "convex-analysis/convex-set", "functional-analysis/weak-star-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

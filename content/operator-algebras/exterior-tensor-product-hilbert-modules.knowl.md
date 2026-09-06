@@ -6,8 +6,8 @@ summary = "The Hilbert module obtained by tensoring two Hilbert modules over the
 aliases = ["external tensor product of Hilbert modules"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/hilbert-cstar-module", "operator-algebras/minimal-cstar-tensor-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

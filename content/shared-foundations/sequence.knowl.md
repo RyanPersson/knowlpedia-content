@@ -6,8 +6,8 @@ summary = "A function from the natural numbers to a set."
 aliases = ["sequence"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/set", "shared-foundations/function", "shared-foundations/natural-numbers"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/sequence.md"
 +++
 

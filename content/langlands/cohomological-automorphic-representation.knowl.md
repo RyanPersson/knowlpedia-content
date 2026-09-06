@@ -6,8 +6,8 @@ summary = "An automorphic representation whose archimedean components have nonze
 aliases = ["cohomological representation", "cohomological automorphic representations"]
 domains = ["langlands", "number-theory", "representation-theory"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/number-field", "langlands/automorphic-representation", "lie-groups/complexification-of-a-real-lie-algebra", "lie-groups/maximal-compact-subgroup-real-reductive-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

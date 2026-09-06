@@ -6,8 +6,8 @@ summary = "Smooth maps to a common target whose differentials jointly span the t
 aliases = ["transverse maps", "maps transverse to each other"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-of-a-smooth-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

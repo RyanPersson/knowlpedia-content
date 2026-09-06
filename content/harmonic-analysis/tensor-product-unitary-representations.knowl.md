@@ -6,8 +6,8 @@ summary = "The unitary representation acting diagonally on the completed Hilbert
 aliases = ["Hilbert tensor product representation"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
 prerequisites = ["topology/topological-group", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "linear-algebra/inner-product", "functional-analysis/unitary-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

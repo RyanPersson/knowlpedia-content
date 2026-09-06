@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The integer matrix encoding the simple-root geometry of a semisimple Lie algebra."
 aliases = ["cartan-matrix", "Cartan matrix"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "lie-groups/dynkin-diagram"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "linear-algebra/inner-product", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/cartan-matrix.md"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A preadditive category with a zero object and finite biproducts (so finite products and coproducts agree)."
 aliases = ["additive-category", "Additive category"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/composition-category", "algebra-category-theory/categorical-product", "algebra-category-theory/coproduct"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/preadditive-category", "algebra-category-theory/categorical-product", "algebra-category-theory/coproduct", "algebra-category-theory/zero-object"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/additive-category.md"
 +++
 

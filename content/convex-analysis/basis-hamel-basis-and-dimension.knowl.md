@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A Hamel basis is a linearly independent set that spans the whole vector space"
 aliases = ["basis-hamel-basis-and-dimension", "Basis and dimension"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/linearly-independent-and-linearly-dependent-sets"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linearly-independent-and-linearly-dependent-sets", "convex-analysis/subspace-generated-by-a-set-span"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/basis-hamel-basis-and-dimension.md"
 +++
 

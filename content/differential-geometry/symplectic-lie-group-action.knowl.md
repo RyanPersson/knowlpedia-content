@@ -6,8 +6,8 @@ summary = "A smooth Lie group action whose transformations preserve the symplect
 aliases = ["symplectic action"]
 domains = ["differential-geometry", "lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "differential-geometry/symplectic-manifold", "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "differential-geometry/symplectomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 section_mode = "progressive"
 +++
 

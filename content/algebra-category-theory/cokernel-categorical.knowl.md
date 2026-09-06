@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "In a pointed category, the cokernel of f:A→B is the coequalizer of f and the zero morphism A→B."
 aliases = ["cokernel-categorical", "Cokernel (categorical)"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/kernel-categorical"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category", "algebra-category-theory/zero-object"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/cokernel-categorical.md"
 +++
 

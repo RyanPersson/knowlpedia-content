@@ -6,8 +6,8 @@ summary = "Finite-length modules decompose uniquely (up to permutation) into ind
 aliases = ["krull-schmidt-azumaya-theorem", "Krull–Schmidt–Azumaya theorem"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/length-module", "algebra-modules/composition-series-module", "algebra-modules/direct-sum-modules", "algebra-modules/artinian-module", "algebra-modules/noetherian-module", "algebra-modules/semisimple-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/krull-schmidt-azumaya-theorem.md"
 +++
 

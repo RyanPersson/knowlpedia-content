@@ -6,8 +6,8 @@ summary = "For a multiplicative subset S of a commutative ring R, the localizati
 aliases = ["localization-module", "Localization of a module"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-module.md"
 +++
 

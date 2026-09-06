@@ -6,8 +6,8 @@ summary = "The Lie group of linear transformations preserving a nondegenerate al
 aliases = ["symplectic-group", "Symplectic group"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/general-linear-group", "lie-groups/closed-subgroup-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/symplectic-group.md"
 +++
 

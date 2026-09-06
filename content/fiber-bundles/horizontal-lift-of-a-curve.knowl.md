@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A curve in the total space projecting to a base curve and whose velocity is everywhere horizontal."
 aliases = ["horizontal-lift-of-a-curve", "Horizontal lift of a curve"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/smooth-map", "fiber-bundles/parallel-transport"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "fiber-bundles/horizontal-lift-of-a-curve.md"
 +++
 
@@ -15,7 +15,7 @@ Let \(\pi:E\to M\) be a surjective submersion equipped with an [[fiber-bundles/e
 
 Let \(\gamma:I\to M\) be a [[fiber-bundles/smooth-map|smooth map]] from an interval \(I\subset\mathbb R\), and fix \(t_0\in I\) and \(e_0\in E\) with \(\pi(e_0)=\gamma(t_0)\).
 
-**Definition.** A horizontal lift of \(\gamma\) through \(e_0\) is a curve \(\widetilde\gamma:J\to E\) defined on an interval \(J\subset I\) containing \(t_0\) such that:
+**Definition.** A horizontal lift of \(\gamma\) through \(e_0\) is a curve \(\widetilde\gamma:J\to E\) defined on an interval \(J\subset I\) containing \(t_0\) such that \(\widetilde\gamma(t_0)=e_0\) and:
 1. \(\pi\circ \widetilde\gamma=\gamma|_J\), and
 2. \(\dot{\widetilde\gamma}(t)\in H_{\widetilde\gamma(t)}E\) for all \(t\in J\).
 

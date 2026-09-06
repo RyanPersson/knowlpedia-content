@@ -6,8 +6,8 @@ summary = "Two moment maps for the same action differ by a locally constant dual
 aliases = ["moment-map normalization"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/moment-map", "topology/connected-component", "differential-geometry/equivariant-moment-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,6 +6,9 @@ summary = "Differential geometry of fiber bundles, principal bundles, and connec
 aliases = ["fiber-bundles", "Fiber Bundles"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## Definitions

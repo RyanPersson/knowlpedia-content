@@ -6,8 +6,8 @@ summary = "The tensor chain complex of an associative algebra with coefficients 
 aliases = ["Hochschild chains", "Hochschild boundary b"]
 domains = ["noncommutative-geometry", "algebra-homological"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/bimodule", "algebra-homological/chain-complex"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

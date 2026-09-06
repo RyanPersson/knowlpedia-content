@@ -6,8 +6,8 @@ summary = "The unipotent coinvariants of a smooth representation, normalized to 
 aliases = ["Jacquet functor", "normalized Jacquet module", "parabolic restriction"]
 domains = ["harmonic-analysis", "langlands", "algebra-representation-theory"]
 prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/levi-subgroup", "algebraic-geometry-foundations/unipotent-radical", "harmonic-analysis/smooth-representation-totally-disconnected-group", "harmonic-analysis/parabolic-modulus-character"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

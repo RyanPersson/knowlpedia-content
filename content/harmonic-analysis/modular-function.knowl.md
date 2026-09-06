@@ -6,8 +6,8 @@ summary = "The positive continuous homomorphism measuring how a left Haar measur
 aliases = ["modular homomorphism", "Haar modular function", "Delta_G"]
 domains = ["harmonic-analysis", "measure-theory", "topology"]
 prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "algebra-groups/group-homomorphism", "lie-groups/right-translation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A commutative unital ring with no zero divisors."
 aliases = ["integral-domain", "Integral domain"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/zero-divisor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring", "algebra-rings/zero-divisor"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/integral-domain.md"
 +++
 

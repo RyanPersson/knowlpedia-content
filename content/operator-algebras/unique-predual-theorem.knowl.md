@@ -6,8 +6,8 @@ summary = "The Banach-space predual of a von Neumann algebra is uniquely determi
 aliases = ["uniqueness of the von Neumann algebra predual"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/predual", "linear-algebra/banach-space", "functional-analysis/weak-star-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

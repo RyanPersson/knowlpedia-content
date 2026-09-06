@@ -6,8 +6,8 @@ summary = "The map sending a Higgs field to the invariant-polynomial coefficient
 aliases = ["Hitchin map", "Hitchin system", "Hitchin morphism"]
 domains = ["langlands", "algebraic-geometry-foundations", "differential-geometry"]
 prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "lie-groups/lie-algebra", "algebraic-geometry-foundations/principal-g-bundle-on-scheme", "linear-algebra/characteristic-polynomial"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

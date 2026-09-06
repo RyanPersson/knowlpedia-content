@@ -6,8 +6,8 @@ summary = "A multiplicative group selected inside an integral hyperring, with a 
 aliases = ["partial Krasner hyperfield"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
 prerequisites = ["algebra-hyperstructures/integral-hyperring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

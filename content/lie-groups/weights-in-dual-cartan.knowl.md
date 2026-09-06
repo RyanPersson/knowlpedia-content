@@ -6,8 +6,8 @@ summary = "Weights are elements of ; integrality conditions define weight lattic
 aliases = ["weights-in-dual-cartan", "Weights in the dual Cartan"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/weight-of-a-representation", "lie-groups/root-system"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/weights-in-dual-cartan.md"
 +++
 

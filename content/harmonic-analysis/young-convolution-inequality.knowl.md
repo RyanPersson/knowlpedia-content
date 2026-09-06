@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Young's convolution inequality bounds the Lp norm of a convolution by the product of the norms of its factors."
 aliases = ["Young inequality for convolution", "Lp convolution estimate"]
 domains = ["harmonic-analysis", "functional-analysis", "measure-theory"]
-prerequisites = ["harmonic-analysis/unimodular-group", "topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/convolution-on-locally-compact-group", "algebra-modules/bilinear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["harmonic-analysis/unimodular-group", "topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/convolution-on-locally-compact-group", "algebra-modules/bilinear-map", "convex-analysis/holder-inequality-integrals", "measure-theory/tonellis-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The connection on a tensor product bundle obtained by differentiating
 aliases = ["product connection on vector bundles", "connection on E tensor F"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/tensor-product-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

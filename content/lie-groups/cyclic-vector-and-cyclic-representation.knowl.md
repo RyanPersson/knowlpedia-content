@@ -6,8 +6,8 @@ summary = "A vector whose group orbit has dense linear span, and a representatio
 aliases = ["cyclic representation", "cyclic subspace"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/closed-linear-subspace", "operator-algebras/cyclic-vector"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

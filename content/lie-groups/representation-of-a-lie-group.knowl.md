@@ -6,8 +6,8 @@ summary = "A smooth homomorphism from a Lie group to the group of invertible lin
 aliases = ["representation-of-a-lie-group", "Representation of a Lie Group"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group", "linear-algebra/vector-space", "lie-groups/lie-group-homomorphism", "linear-algebra/linear-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/representation-of-a-lie-group.md"
 +++
 

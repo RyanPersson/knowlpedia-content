@@ -6,8 +6,8 @@ summary = "A representation of a complex C*-algebra equipped with an operator wh
 aliases = ["bounded Fredholm module", "bounded K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/cstar-representation", "linear-algebra/compact-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

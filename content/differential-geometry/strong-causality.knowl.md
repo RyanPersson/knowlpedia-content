@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The condition that every event has arbitrarily small neighborhoods which causal curves cannot leave and then re-enter."
 aliases = ["strongly causal spacetime", "strong causality condition"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/causal-curve", "differential-geometry/causal-diamond", "differential-geometry/globally-hyperbolic-spacetime"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/causal-curve"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,6 +6,9 @@ summary = "Basic set theory, logic, and function concepts used across all mathem
 aliases = ["shared-foundations", "Shared Foundations"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This section contains foundational definitions from set theory and mathematical logic used throughout analysis and algebra.

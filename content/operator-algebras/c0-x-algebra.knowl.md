@@ -6,8 +6,8 @@ summary = "A C*-algebra equipped with a central nondegenerate action of C_0(X)."
 aliases = ["C0(X)-algebra", "C*-algebra over a space", "central C_0(X)-algebra"]
 domains = ["operator-algebras", "topology"]
 prerequisites = ["topology/locally-compact-space", "operator-algebras/cstar-algebra", "operator-algebras/nondegenerate-star-homomorphism", "operator-algebras/multiplier-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

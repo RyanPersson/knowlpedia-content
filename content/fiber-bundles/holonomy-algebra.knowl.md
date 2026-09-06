@@ -6,8 +6,8 @@ summary = "The Lie algebra of the holonomy group of a connection at a chosen poi
 aliases = ["holonomy-algebra", "Holonomy algebra"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/holonomy-group", "fiber-bundles/parallel-transport", "lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/holonomy-algebra.md"
 +++
 

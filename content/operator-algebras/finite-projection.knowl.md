@@ -6,8 +6,8 @@ summary = "A projection not Murray-von Neumann equivalent to any proper subproje
 aliases = ["Murray–von Neumann finite projection"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/murray-von-neumann-equivalence", "functional-analysis/partial-isometry"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

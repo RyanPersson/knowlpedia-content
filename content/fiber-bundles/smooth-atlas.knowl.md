@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A covering by coordinate charts whose overlap transition maps are smooth."
 aliases = ["smooth-atlas", "Smooth atlas"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/smooth-compatibility-of-charts-and-atlases", "fiber-bundles/maximal-smooth-atlas", "fiber-bundles/smooth-structure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/coordinate-transition-map"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-atlas.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The polynomial Φ_n(x) whose roots are the primitive n-th roots of un
 aliases = ["cyclotomic-polynomial", "Cyclotomic polynomial"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/algebraic-closure", "algebra-fields-galois/primitive-root-of-unity"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/cyclotomic-polynomial.md"
 +++
 

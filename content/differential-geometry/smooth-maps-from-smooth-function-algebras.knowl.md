@@ -6,8 +6,8 @@ summary = "Pullback identifies smooth maps with C-infinity-ring morphisms in the
 aliases = ["smooth maps from smooth-function algebras", "full faithfulness of smooth functions", "reconstruction of smooth maps from C-infinity rings", "C∞ functor is fully faithful"]
 domains = ["differential-geometry", "category-theory"]
 prerequisites = ["fiber-bundles/smooth-manifold", "algebra-category-theory/opposite-category", "differential-geometry/category-of-smooth-manifolds", "algebra-category-theory/contravariant-functor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

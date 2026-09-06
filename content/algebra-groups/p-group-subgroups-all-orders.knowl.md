@@ -6,8 +6,8 @@ summary = "If |G|=p^n then for each k there is a subgroup of order p^k"
 aliases = ["p-group-subgroups-all-orders", "Finite p-groups have subgroups of all p-power orders"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/p-group", "algebra-groups/subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/p-group-subgroups-all-orders.md"
 +++
 

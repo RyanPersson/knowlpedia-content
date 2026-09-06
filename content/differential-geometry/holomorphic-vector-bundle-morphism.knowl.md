@@ -6,8 +6,8 @@ summary = "A holomorphic map of vector-bundle total spaces that is linear on fib
 aliases = ["holomorphic bundle map", "analytic vector-bundle morphism"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/holomorphic-map", "fiber-bundles/vector-bundle-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

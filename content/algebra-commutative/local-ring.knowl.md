@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A commutative ring with exactly one maximal ideal."
 aliases = ["local-ring", "Local ring"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/maximal-ideal-local-ring", "algebra-commutative/residue-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/local-ring.md"
 +++
 

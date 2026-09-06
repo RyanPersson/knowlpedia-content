@@ -6,8 +6,8 @@ summary = "A linear map satisfying the Leibniz rule for the Lie bracket; derivat
 aliases = ["derivation-lie-algebra", "Derivation of a Lie algebra"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/derivation-lie-algebra.md"
 +++
 

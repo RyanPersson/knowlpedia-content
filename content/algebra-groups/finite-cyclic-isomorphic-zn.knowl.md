@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A cyclic group of order n is isomorphic to the additive group ℤ/nℤ."
 aliases = ["finite-cyclic-isomorphic-zn", "Finite cyclic group is isomorphic to ℤ/nℤ"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/group-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-groups/group", "algebra-groups/group-isomorphism", "algebra-groups/cyclic-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/finite-cyclic-isomorphic-zn.md"
 +++
 

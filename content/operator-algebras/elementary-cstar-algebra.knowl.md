@@ -6,8 +6,8 @@ summary = "A C*-algebra isomorphic to the compact operators on a nonzero Hilbert
 aliases = ["algebra of compact operators", "K(H)-algebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/hilbert-space", "operator-algebras/star-isomorphism", "operator-algebras/compact-operator-cstar-algebra", "functional-analysis/unitary-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

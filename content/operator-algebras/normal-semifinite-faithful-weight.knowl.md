@@ -6,8 +6,8 @@ summary = "A weight on a von Neumann algebra that is simultaneously normal, semi
 aliases = ["n.s.f. weight", "f.n.s. weight", "faithful normal semifinite weight"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/weight-on-von-neumann-algebra", "operator-algebras/normal-weight", "operator-algebras/semifinite-weight", "operator-algebras/faithful-weight"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

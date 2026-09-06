@@ -6,8 +6,8 @@ summary = "The invariant distribution obtained by integrating a test function ov
 aliases = ["orbital integrals", "semisimple orbital integral"]
 domains = ["langlands", "harmonic-analysis", "representation-theory"]
 prerequisites = ["algebra-fields-galois/local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "harmonic-analysis/test-function-space-local-group", "algebra-groups/centralizer", "harmonic-analysis/haar-measure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

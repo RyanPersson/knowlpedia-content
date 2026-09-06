@@ -6,8 +6,8 @@ summary = "On a compact set, an open cover can be refined by finitely many small
 aliases = ["lebesgue-number-lemma-auxiliary-refinement", "Lebesgue number lemma refinement lemma"]
 domains = ["measure-theory"]
 prerequisites = ["topology/metric-space", "topology/compact-set", "topology/open-set", "topology/lebesgue-number-lemma"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/lebesgue-number-lemma-auxiliary-refinement.md"
 +++
 

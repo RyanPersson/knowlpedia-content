@@ -6,8 +6,8 @@ summary = "The smooth manifold of real lines through the origin in real Euclidea
 aliases = ["RPn", "real projective n-space", "real projective manifold"]
 domains = ["differential-geometry", "algebraic-geometry-foundations", "topology"]
 prerequisites = ["convex-analysis/linear-subspace", "algebraic-geometry-foundations/projective-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

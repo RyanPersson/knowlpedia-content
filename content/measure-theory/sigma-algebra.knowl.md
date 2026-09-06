@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A collection of subsets closed under complements and countable unions."
 aliases = ["sigma-algebra"]
 domains = ["measure-theory"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/power-set", "shared-foundations/complement", "shared-foundations/union", "shared-foundations/sequence"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/sigma-algebra.md"
 +++
 

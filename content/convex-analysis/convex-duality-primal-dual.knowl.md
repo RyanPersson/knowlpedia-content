@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Primal and dual convex optimization problems and the relationship between their optimal values."
 aliases = ["convex-duality-primal-dual", "Convex duality: primal and dual problems"]
 domains = ["convex-analysis"]
-prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel", "real-analysis/infimum", "real-analysis/supremum", "convex-analysis/fenchel-young-inequality", "convex-analysis/subgradient"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function", "linear-algebra/linear-map", "convex-analysis/convex-conjugate-fenchel", "real-analysis/infimum", "real-analysis/supremum", "convex-analysis/fenchel-young-inequality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/convex-duality-primal-dual.md"
 +++
 

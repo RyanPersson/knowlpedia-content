@@ -6,8 +6,8 @@ summary = "A connection on a Hermitian vector bundle that preserves its fiberwis
 aliases = ["unitary connection", "metric-compatible complex connection"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/hermitian-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

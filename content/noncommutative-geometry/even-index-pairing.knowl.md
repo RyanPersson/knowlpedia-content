@@ -6,8 +6,8 @@ summary = "The integer obtained by compressing the off-diagonal operator of an e
 aliases = ["even index pairing", "K0 index pairing", "projection index pairing"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/even-fredholm-module", "operator-algebras/projection-cstar-algebra", "operator-algebras/k0-cstar-algebra", "functional-analysis/fredholm-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

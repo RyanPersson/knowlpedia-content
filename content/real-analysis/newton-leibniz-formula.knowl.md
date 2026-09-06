@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For continuous f and an antiderivative F, the integral of f over [a,b] equals F(b)-F(a)."
 aliases = ["newton-leibniz-formula", "Newton–Leibniz formula"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/continuity-on-a-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/continuity-on-a-set", "real-analysis/riemann-integral", "real-analysis/derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/newton-leibniz-formula.md"
 +++
 

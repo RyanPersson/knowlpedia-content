@@ -6,8 +6,8 @@ summary = "A spectral triple whose Dirac heat operator has finite trace at every
 aliases = ["heat-kernel summable triple", "theta summability"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/operator-trace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

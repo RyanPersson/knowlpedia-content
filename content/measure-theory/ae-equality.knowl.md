@@ -5,20 +5,24 @@ kind = "knowl"
 summary = "Two functions are a.e. equal if they differ only on a null set."
 aliases = ["ae-equality", "Almost-everywhere equality"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measure-space", "measure-theory/null-set", "measure-theory/almost-everywhere"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/ae-equality.md"
 +++
 
 An **almost-everywhere equality** (or **a.e. equality**) on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) is the relation on functions \(f,g:X\to \overline{\mathbb R}\) defined by
 \[
-f=g \text{ a.e.} \quad \Longleftrightarrow \quad \mu(\{x\in X: f(x)\neq g(x)\})=0.
+\begin{gathered}
+f=g\text{ a.e.}\quad\Longleftrightarrow\\
+\exists N\in\Sigma\text{ such that }\mu(N)=0\\
+\text{and }f(x)=g(x)\text{ for all }x\in X\setminus N.
+\end{gathered}
 \]
 
 ## Equivalent characterizations
 
-Equivalently, the set where \(f\) and \(g\) disagree is a [[measure-theory/null-set|null set]].
+Equivalently, \(f\) and \(g\) agree outside a measurable [[measure-theory/null-set|null set]]. If the disagreement set is measurable, this is the same as requiring its measure to be zero.
 
 ## Remarks
 

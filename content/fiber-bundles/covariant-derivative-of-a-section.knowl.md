@@ -6,8 +6,8 @@ summary = "The derivative of a vector bundle section along a vector field as def
 aliases = ["covariant-derivative-of-a-section", "Covariant derivative of a section"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/leibniz-rule-for-a-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/covariant-derivative-of-a-section.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The quotient stack of continuous dual-group-valued Weil cocycles by d
 aliases = ["stack of L-parameters", "moduli stack of Langlands parameters", "spectral parameter stack"]
 domains = ["langlands", "algebraic-geometry-foundations", "representation-theory"]
 prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands/weil-group", "langlands-letter/knowls/langlands-dual-group", "langlands-letter/knowls/pinned-automorphisms", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/algebraic-stack", "langlands/l-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

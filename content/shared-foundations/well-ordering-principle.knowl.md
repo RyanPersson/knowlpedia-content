@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Every nonempty subset of the natural numbers has a least element."
 aliases = ["well-ordering-principle", "Well-ordering principle"]
 domains = ["shared-foundations"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/natural-numbers"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/well-ordering-principle.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The smallest normal subgroup containing a given subset."
 aliases = ["normal-closure", "Normal Closure"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/generated-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/normal-closure.md"
 +++
 

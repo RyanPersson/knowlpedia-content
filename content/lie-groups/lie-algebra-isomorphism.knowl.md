@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A bijective Lie algebra homomorphism (equivalently, a bracket-preserving linear isomorphism)."
 aliases = ["lie-algebra-isomorphism", "Lie algebra isomorphism"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-algebra-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-algebra-homomorphism", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-algebra-isomorphism.md"
 +++
 

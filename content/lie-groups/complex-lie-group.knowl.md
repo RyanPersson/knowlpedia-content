@@ -6,8 +6,8 @@ summary = "A complex manifold whose multiplication and inversion maps are holomo
 aliases = ["complex analytic Lie group"]
 domains = ["lie-groups", "differential-geometry"]
 prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map", "algebra-groups/group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

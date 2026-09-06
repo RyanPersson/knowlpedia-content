@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The integral of |fg| is bounded by the product of the conjugate L^p and L^q norms."
 aliases = ["holder-inequality-integrals", "Hölder inequality (integrals)"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measurable-function", "measure-theory/lp-space", "convex-analysis/weighted-arithmeticgeometric-mean-inequality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/holder-inequality-integrals.md"
 +++
 

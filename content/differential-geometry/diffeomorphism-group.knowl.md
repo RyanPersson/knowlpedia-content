@@ -6,8 +6,8 @@ summary = "The group of all smooth self-diffeomorphisms of a smooth manifold und
 aliases = ["group of diffeomorphisms", "Diff(M)"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism", "algebra-groups/automorphism-group", "differential-geometry/category-of-smooth-manifolds"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

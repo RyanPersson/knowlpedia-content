@@ -6,8 +6,8 @@ summary = "The real or complex general linear Lie group modulo its closed centra
 aliases = ["PGL Lie group", "projective linear Lie group"]
 domains = ["lie-groups", "algebra-groups"]
 prerequisites = ["lie-groups/quotient-lie-group", "algebra-groups/projective-general-linear-group", "fiber-bundles/smooth-submersion"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

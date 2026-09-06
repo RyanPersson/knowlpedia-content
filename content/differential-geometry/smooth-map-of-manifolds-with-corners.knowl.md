@@ -6,8 +6,8 @@ summary = "In Joyce's convention, a coordinate-smooth map that pulls each target
 aliases = ["smooth map of cornered manifolds", "corner-smooth map"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/manifold-with-corners", "topology/continuous-map", "differential-geometry/boundary-face-of-a-manifold-with-corners", "differential-geometry/boundary-defining-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

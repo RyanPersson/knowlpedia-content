@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A subset of a ring closed under multiplication and containing 1, used to form localizations."
 aliases = ["multiplicative-set", "Multiplicative set"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/localization-ring", "algebra-commutative/localization-at-prime"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/multiplicative-set.md"
 +++
 

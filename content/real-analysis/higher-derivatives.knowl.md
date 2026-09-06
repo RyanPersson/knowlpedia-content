@@ -6,8 +6,8 @@ summary = "Derivatives of order two and higher, defined iteratively."
 aliases = ["higher-derivatives", "Higher derivatives"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/higher-derivatives.md"
 +++
 

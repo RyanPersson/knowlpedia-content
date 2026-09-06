@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The canonical involution and Euclidean geometry carried by the octonions."
 aliases = ["octonion conjugation", "octonion norm", "octonion inner product"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["linear-algebra/inner-product", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/inner-product", "linear-algebra/vector-space", "linear-algebra/bilinear-form", "linear-algebra/orthogonal-complement"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

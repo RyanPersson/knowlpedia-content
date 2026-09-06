@@ -6,8 +6,8 @@ summary = "How a p-adic embedding selects a place and a decomposition subgroup, 
 aliases = ["embeddings-qbar-to-q_p", "p-adic embedding of the algebraic closure"]
 domains = ["langlands-letter"]
 prerequisites = ["algebra-fields-galois/decomposition-group", "langlands-letter/knowls/galois-extension-and-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/embeddings-qbar-to-q_p.md"
 section_mode = "progressive"
 +++

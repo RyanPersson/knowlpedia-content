@@ -6,8 +6,8 @@ summary = "The intersection of any family of linear subspaces is a linear subspa
 aliases = ["intersection-of-subspaces-is-a-subspace", "Intersections of subspaces"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/intersection-of-subspaces-is-a-subspace.md"
 +++
 

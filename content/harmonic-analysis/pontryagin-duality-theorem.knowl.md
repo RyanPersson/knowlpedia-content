@@ -6,8 +6,8 @@ summary = "Every locally compact abelian group is canonically isomorphic as a to
 aliases = ["double-dual theorem for LCA groups", "Pontryagin-van Kampen duality"]
 domains = ["harmonic-analysis", "topology", "algebra-groups"]
 prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/pontryagin-dual", "algebra-groups/group-isomorphism", "topology/homeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

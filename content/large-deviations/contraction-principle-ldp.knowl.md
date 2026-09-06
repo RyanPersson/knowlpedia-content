@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "How a large deviation principle transfers through a continuous mapping."
 aliases = ["contraction-principle-ldp", "Contraction principle"]
 domains = ["large-deviations"]
-prerequisites = ["probability/probability-measure", "large-deviations/large-deviation-principle", "large-deviations/rate-function", "probability/random-variable", "large-deviations/sanovs-theorem", "large-deviations/cramers-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["probability/probability-measure", "large-deviations/large-deviation-principle", "large-deviations/rate-function", "probability/random-variable"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "large-deviations/contraction-principle-ldp.md"
 +++
 

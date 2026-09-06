@@ -6,8 +6,8 @@ summary = "The modular automorphism group is the canonical one-parameter automor
 aliases = ["modular group", "modular flow"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/modular-operator", "operator-algebras/gns-construction-for-weight", "operator-algebras/standard-form", "operator-algebras/tomita-takesaki-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

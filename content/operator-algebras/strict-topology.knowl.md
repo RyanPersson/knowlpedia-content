@@ -6,8 +6,8 @@ summary = "The strict topology records norm convergence after multiplication on 
 aliases = ["strict convergence", "multiplier strict topology", "strictly convergent multiplier net"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/multiplier-algebra", "operator-algebras/essential-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

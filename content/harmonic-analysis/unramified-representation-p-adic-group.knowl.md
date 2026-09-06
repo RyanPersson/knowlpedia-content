@@ -6,8 +6,8 @@ summary = "An irreducible admissible representation with a nonzero hyperspecial-
 aliases = ["unramified p-adic representation", "spherical unramified representation"]
 domains = ["harmonic-analysis", "langlands", "lie-groups"]
 prerequisites = ["algebraic-geometry-foundations/unramified-reductive-group", "algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/maximal-compact-hyperspecial", "harmonic-analysis/admissible-representation-p-adic-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

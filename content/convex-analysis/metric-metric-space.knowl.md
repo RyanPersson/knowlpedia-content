@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A distance function satisfying positivity, symmetry, and the triangle inequality"
 aliases = ["metric-metric-space", "Metric and metric space"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/open-and-closed-balls-in-a-metric-space", "convex-analysis/open-subset", "convex-analysis/convergence-of-a-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set", "shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/metric-metric-space.md"
 +++
 

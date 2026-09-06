@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A type II von Neumann factor whose identity projection is infinite."
 aliases = ["semifinite infinite factor"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/type-ii-von-neumann-algebra", "operator-algebras/properly-infinite-von-neumann-algebra", "operator-algebras/abelian-projection", "operator-algebras/finite-projection", "operator-algebras/faithful-normal-semifinite-trace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/type-ii-von-neumann-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

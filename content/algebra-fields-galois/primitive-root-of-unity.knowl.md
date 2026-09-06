@@ -6,8 +6,8 @@ summary = "An element whose multiplicative order is exactly a prescribed positiv
 aliases = ["primitive-root-of-unity", "Primitive root of unity"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/primitive-root-of-unity.md"
 +++
 

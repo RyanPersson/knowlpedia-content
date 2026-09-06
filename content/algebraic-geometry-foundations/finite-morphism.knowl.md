@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A scheme morphism that is affine and is locally induced by a ring map making the target a finite module over the source."
 aliases = ["finite-morphism", "Finite morphism"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-rings/ring-homomorphism", "algebra-fields-galois/field-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-rings/ring-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A morphism \(f:Y\to X\) of [[algebraic-geometry-foundations/scheme|schemes]] is **finite** if every affine open \(U=\operatorname{Spec}A\subseteq X\) has affine inverse image

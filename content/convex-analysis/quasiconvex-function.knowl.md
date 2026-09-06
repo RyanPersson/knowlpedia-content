@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A function whose value on a line segment never exceeds the larger endpoint value."
 aliases = ["quasiconvex-function", "Quasiconvex function"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/quasiconvex-function.md"
 +++
 

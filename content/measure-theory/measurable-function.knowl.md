@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A function whose preimages of measurable sets are measurable."
 aliases = ["measurable-function", "Measurable function"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/function", "shared-foundations/preimage"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/measurable-space", "measure-theory/measurable-set", "shared-foundations/function", "shared-foundations/preimage"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/measurable-function.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "Smooth strictly quaternionic PSH functions are exactly the local pote
 aliases = ["HKT potential", "local potential of an HKT metric"]
 domains = ["differential-geometry", "quaternionic-analysis"]
 prerequisites = ["differential-geometry/hypercomplex-manifold", "differential-geometry/quaternionic-plurisubharmonic-function-hypercomplex", "differential-geometry/hkt-metric"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

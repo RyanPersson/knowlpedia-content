@@ -6,8 +6,8 @@ summary = "A possibly unbounded linear operator whose graph is closed in the pro
 aliases = ["closed operator"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/normed-vector-space", "convex-analysis/linear-subspace", "functional-analysis/graph-of-operator", "topology/closed-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

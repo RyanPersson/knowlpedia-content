@@ -6,8 +6,8 @@ summary = "An extended-positive-valued bimodular weight from a von Neumann algeb
 aliases = ["operator valued weight"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/extended-positive-cone"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

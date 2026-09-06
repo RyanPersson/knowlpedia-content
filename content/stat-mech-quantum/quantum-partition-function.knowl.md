@@ -6,8 +6,8 @@ summary = "For a finite quantum system with Hamiltonian H, the canonical partiti
 aliases = ["quantum-partition-function", "Quantum partition function"]
 domains = ["stat-mech-quantum"]
 prerequisites = ["stat-mech-quantum/quantum-hamiltonian"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "stat-mech-quantum/quantum-partition-function.md"
 +++
 

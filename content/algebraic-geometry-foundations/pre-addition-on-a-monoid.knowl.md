@@ -6,8 +6,8 @@ summary = "An additive and multiplicative equivalence relation on formal sums of
 aliases = ["pre-addition of a blueprint", "blueprint pre-addition"]
 domains = ["algebraic-geometry-foundations", "algebra-rings"]
 prerequisites = ["algebra-groups/commutative-monoid", "shared-foundations/equivalence-relation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

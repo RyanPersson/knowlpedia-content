@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Diagram symmetries act on highest weights, while the opposition involution gives the highest weight of the dual representation."
 aliases = ["opposition involution", "dual highest-weight involution", "Dynkin automorphism and contragredient"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/simple-root", "lie-groups/cartan-matrix", "lie-groups/highest-weight-representation", "lie-groups/weyl-group", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation", "lie-groups/highest-weight", "lie-groups/dual-representation-lie"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/simple-root", "lie-groups/cartan-matrix", "lie-groups/highest-weight-representation", "lie-groups/weyl-group", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation", "lie-groups/highest-weight", "lie-groups/dual-representation-lie", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

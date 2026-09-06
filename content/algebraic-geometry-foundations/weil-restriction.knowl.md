@@ -5,9 +5,9 @@ kind = "construction"
 summary = "A representable restriction-of-scalars functor for schemes over a finite locally free base."
 aliases = ["restriction of scalars of schemes", "Res S prime over S", "Weil restriction of scalars"]
 domains = ["algebraic-geometry-foundations", "lie-groups"]
-prerequisites = ["algebraic-geometry-foundations/finite-locally-free-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/finite-locally-free-morphism", "algebraic-geometry-foundations/scheme-over-a-base"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

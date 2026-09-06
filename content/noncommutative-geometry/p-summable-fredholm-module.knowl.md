@@ -6,8 +6,8 @@ summary = "A Fredholm module whose algebra commutators belong to the Schatten id
 aliases = ["finitely summable Fredholm module", "p-summable bounded K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/fredholm-module", "operator-algebras/involutive-algebra", "functional-analysis/schatten-class-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

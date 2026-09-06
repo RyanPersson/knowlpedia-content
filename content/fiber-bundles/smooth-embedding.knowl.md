@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A smooth map that is an injective immersion and a homeomorphism onto its image."
 aliases = ["smooth-embedding", "Smooth embedding"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-immersion", "differential-geometry/embedded-submanifold", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-immersion", "shared-foundations/injective-function", "topology/homeomorphism", "shared-foundations/image"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-embedding.md"
 +++
 

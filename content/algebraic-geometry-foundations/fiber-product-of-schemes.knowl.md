@@ -6,8 +6,8 @@ summary = "The scheme representing pairs of points or maps with the same image o
 aliases = ["fiber product of schemes", "scheme fiber product", "pullback of schemes"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/affine-scheme", "algebra-modules/tensor-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Given morphisms of [[algebraic-geometry-foundations/scheme|schemes]] \(X\to S\leftarrow Y\), their **fiber product** is a scheme \(X\times_S Y\) with projections to \(X\) and \(Y\) whose composites to \(S\) agree, and which is universal with that property: for every scheme \(T\),

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Ideals of R containing I are in bijection with ideals of the quotient ring R/I."
 aliases = ["ideal-correspondence", "Ideal correspondence for quotients"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/correspondence-theorem-rings", "algebra-rings/ring-epimorphism", "algebra-rings/ideal", "algebra-rings/quotient-ring", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/ideal-correspondence.md"
 +++
 

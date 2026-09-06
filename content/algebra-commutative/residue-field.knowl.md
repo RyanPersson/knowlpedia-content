@@ -6,8 +6,8 @@ summary = "The field obtained from a local ring by reducing modulo its maximal i
 aliases = ["residue-field", "Residue field"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-commutative/local-ring", "algebra-rings/field", "algebra-commutative/maximal-ideal-local-ring", "algebra-commutative/localization-at-prime"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/residue-field.md"
 +++
 

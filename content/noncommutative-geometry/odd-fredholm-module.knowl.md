@@ -6,8 +6,8 @@ summary = "An ungraded Fredholm module representing an odd analytic K-homology c
 aliases = ["ungraded Fredholm module", "odd bounded K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/fredholm-module", "linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

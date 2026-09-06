@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The ring of square matrices over a ring, with entrywise addition and matrix multiplication."
 aliases = ["matrix-ring", "Matrix ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ring", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/matrix-ring.md"
 +++
 

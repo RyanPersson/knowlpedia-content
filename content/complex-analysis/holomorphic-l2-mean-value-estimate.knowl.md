@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "The value of a holomorphic function is controlled by its L2 norm on any contained Euclidean ball."
 aliases = ["L2-to-pointwise holomorphic estimate", "holomorphic mean-value bound"]
 domains = ["complex-analysis", "several-complex-variables"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/plurisubharmonic-function", "complex-analysis/harmonic-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

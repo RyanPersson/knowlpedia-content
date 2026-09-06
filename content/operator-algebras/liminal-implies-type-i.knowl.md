@@ -6,8 +6,8 @@ summary = "Every liminal C*-algebra is type I because each irreducible image equ
 aliases = ["CCR implies GCR", "liminal implies postliminal"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/liminal-cstar-algebra", "operator-algebras/type-i-cstar-algebra", "operator-algebras/irreducible-cstar-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

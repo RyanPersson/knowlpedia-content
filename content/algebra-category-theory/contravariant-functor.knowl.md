@@ -6,8 +6,8 @@ summary = "A functor that reverses the direction of morphisms; equivalently a fu
 aliases = ["contravariant-functor", "Contravariant functor"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/contravariant-functor.md"
 +++
 

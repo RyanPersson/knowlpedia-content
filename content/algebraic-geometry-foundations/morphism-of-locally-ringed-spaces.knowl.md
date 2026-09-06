@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A continuous map with a compatible sheaf map that is local on every stalk."
 aliases = ["morphism of locally ringed spaces", "locally ringed space morphism"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/locally-ringed-space", "topology/continuous-map", "algebraic-geometry-foundations/morphism-of-sheaves", "algebraic-geometry-foundations/direct-image-sheaf", "algebraic-geometry-foundations/stalk", "algebra-commutative/local-ring", "algebraic-geometry-foundations/morphism-of-schemes"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/locally-ringed-space", "topology/continuous-map", "algebraic-geometry-foundations/morphism-of-sheaves", "algebraic-geometry-foundations/direct-image-sheaf", "algebraic-geometry-foundations/stalk", "algebra-commutative/local-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,\mathcal O_X)\) and \((Y,\mathcal O_Y)\) be [[algebraic-geometry-foundations/locally-ringed-space|locally ringed spaces]]. A **morphism of locally ringed spaces** \(f:X\to Y\) consists of

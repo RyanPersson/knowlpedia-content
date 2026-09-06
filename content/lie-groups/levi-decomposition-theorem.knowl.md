@@ -6,8 +6,8 @@ summary = "Any finite-dimensional Lie algebra splits as a semidirect product of 
 aliases = ["levi-decomposition-theorem", "Levi decomposition"]
 domains = ["lie-groups"]
 prerequisites = ["lie-groups/lie-algebra", "lie-groups/solvable-lie-algebra", "lie-groups/ideal-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/levi-decomposition-theorem.md"
 +++
 

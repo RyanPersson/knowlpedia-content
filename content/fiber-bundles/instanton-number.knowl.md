@@ -6,8 +6,8 @@ summary = "For an SU(r)-connection on a closed oriented four-manifold, the insta
 aliases = ["topological charge", "second Chern number of an instanton"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/hermitian-connection", "fiber-bundles/chern-number", "fiber-bundles/instanton"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

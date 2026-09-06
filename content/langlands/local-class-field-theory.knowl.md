@@ -6,8 +6,8 @@ summary = "The reciprocity isomorphism between a local field's multiplicative gr
 aliases = ["local reciprocity", "local Artin reciprocity", "local reciprocity map"]
 domains = ["langlands", "algebra-fields-galois", "number-theory"]
 prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands/weil-group", "langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/frobenius-unramified", "algebra-commutative/dvr", "algebra-fields-galois/inertia-subgroup", "langlands-letter/knowls/euler-product-and-local-factor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

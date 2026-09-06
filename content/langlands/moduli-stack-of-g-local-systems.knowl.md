@@ -6,8 +6,8 @@ summary = "The derived moduli stack LocSys_G(X) of principal G-bundles with flat
 aliases = ["LocSys_G", "stack of G-local systems"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/g-local-system", "differential-geometry/riemann-surface"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

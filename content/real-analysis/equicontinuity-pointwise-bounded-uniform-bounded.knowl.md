@@ -6,8 +6,8 @@ summary = "On a compact metric space, an equicontinuous, pointwise bounded famil
 aliases = ["equicontinuity-pointwise-bounded-uniform-bounded", "Equicontinuity + pointwise boundedness implies uniform boundedness on compact sets"]
 domains = ["real-analysis"]
 prerequisites = ["topology/compact-set", "topology/metric-space", "real-analysis/equicontinuous-family", "real-analysis/pointwise-bounded-family", "real-analysis/uniformly-bounded-family"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/equicontinuity-pointwise-bounded-uniform-bounded.md"
 +++
 

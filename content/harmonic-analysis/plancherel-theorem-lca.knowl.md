@@ -6,8 +6,8 @@ summary = "The Plancherel theorem extends Fourier transformation to a unitary op
 aliases = ["L2 Fourier transform", "Parseval-Plancherel theorem"]
 domains = ["harmonic-analysis", "functional-analysis"]
 prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/dual-haar-measure", "harmonic-analysis/fourier-transform-lca", "functional-analysis/unitary-operator", "linear-algebra/hilbert-space", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

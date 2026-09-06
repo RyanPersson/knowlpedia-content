@@ -6,8 +6,8 @@ summary = "The complete x-adic ring of one-variable formal coefficient sequences
 aliases = ["formal-power-series-ring", "Formal power series ring"]
 domains = ["algebra-rings"]
 prerequisites = ["algebra-rings/commutative-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/formal-power-series-ring.md"
 section_mode = "progressive"
 +++

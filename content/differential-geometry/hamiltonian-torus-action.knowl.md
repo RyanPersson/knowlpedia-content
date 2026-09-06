@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A Hamiltonian torus action is a symplectic action of a compact torus equipped with a torus-invariant moment map."
 aliases = ["symplectic torus action with moment map"]
 domains = ["differential-geometry", "lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-lie-group-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/lie-algebra", "differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-lie-group-action", "fiber-bundles/moment-map", "differential-geometry/hamiltonian-function", "differential-geometry/hamiltonian-vector-field", "algebra-groups/group-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

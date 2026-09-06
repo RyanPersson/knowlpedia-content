@@ -6,8 +6,8 @@ summary = "A nonzero regular Borel measure on a locally compact group that is in
 aliases = ["left Haar measure", "right Haar measure", "Haar measure on a locally compact group"]
 domains = ["harmonic-analysis", "topology", "measure-theory"]
 prerequisites = ["topology/locally-compact-group", "measure-theory/measure", "topology/compact-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

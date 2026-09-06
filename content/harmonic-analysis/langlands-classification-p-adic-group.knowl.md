@@ -6,8 +6,8 @@ summary = "Every irreducible admissible representation is the unique irreducible
 aliases = ["p-adic Langlands classification", "Langlands quotient for a p-adic group", "standard module for a p-adic group"]
 domains = ["harmonic-analysis", "langlands"]
 prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "harmonic-analysis/admissible-representation-p-adic-group", "harmonic-analysis/normalized-parabolic-induction-p-adic-group", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/levi-subgroup", "harmonic-analysis/tempered-representation-p-adic-group", "algebra-representation-theory/character"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "Haagerup's weight-independent Lp space constructed from homogeneous m
 aliases = ["Lp space of a von Neumann algebra", "Haagerup Lp space"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/continuous-core-von-neumann-algebra", "operator-algebras/von-neumann-crossed-product", "operator-algebras/modular-automorphism-group", "operator-algebras/dual-action-von-neumann-crossed-product", "operator-algebras/tau-measurable-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

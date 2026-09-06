@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A set is totally bounded iff it has a finite ε-net for every ε>0"
 aliases = ["total-boundedness-epsilon-nets", "Total boundedness characterization via ε-nets"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "topology/open-ball", "topology/totally-bounded-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/totally-bounded-set", "topology/open-ball"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/total-boundedness-epsilon-nets.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The coarsest vector topology making every seminorm in a prescribed fa
 aliases = ["seminorm topology", "locally convex topology from seminorms"]
 domains = ["functional-analysis"]
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/seminorm", "functional-analysis/locally-convex-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

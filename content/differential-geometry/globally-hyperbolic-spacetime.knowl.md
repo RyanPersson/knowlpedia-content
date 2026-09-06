@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A strongly causal spacetime in which every causal diamond is compact."
 aliases = ["global hyperbolicity", "globally hyperbolic Lorentzian manifold"]
 domains = ["differential-geometry", "mathematical-physics", "partial-differential-equations"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/strong-causality", "differential-geometry/causal-diamond", "differential-geometry/global-hyperbolicity-and-cauchy-hypersurfaces", "differential-geometry/smooth-splitting-of-globally-hyperbolic-spacetimes", "mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators", "mathematical-physics/normally-hyperbolic-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/strong-causality", "differential-geometry/causal-diamond"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

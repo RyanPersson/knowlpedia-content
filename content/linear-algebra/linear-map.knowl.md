@@ -6,8 +6,8 @@ summary = "A function between vector spaces that respects addition and scalar mu
 aliases = ["linear-map", "Linear map"]
 domains = ["linear-algebra"]
 prerequisites = ["shared-foundations/function", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "linear-algebra/linear-map.md"
 +++
 

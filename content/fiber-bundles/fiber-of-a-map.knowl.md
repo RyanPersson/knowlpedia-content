@@ -6,8 +6,8 @@ summary = "The subset of the domain mapping to a fixed point in the codomain, al
 aliases = ["fiber-of-a-map", "Fiber of a map"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/regular-value", "fiber-bundles/differential-of-a-smooth-map", "differential-geometry/embedded-submanifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/fiber-of-a-map.md"
 +++
 

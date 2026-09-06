@@ -6,8 +6,8 @@ summary = "A bounded function whose upper and lower sums can be made arbitrarily
 aliases = ["riemann-integrable-function", "Riemann integrable function"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/upper-sum", "real-analysis/lower-sum"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-integrable-function.md"
 +++
 

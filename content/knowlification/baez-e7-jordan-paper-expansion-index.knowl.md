@@ -5,6 +5,9 @@ kind = "index"
 summary = "A permanent index of the Lie-theoretic, Standard Model, octonionic, and Jordan-algebra knowls added from two 2026 papers."
 aliases = ["Baez E7 knowl expansion", "exceptional Jordan algebra paper knowls", "E7 and F4 paper index"]
 domains = ["knowlification", "lie-groups", "mathematical-physics", "nonassociative-algebra", "quantum-foundations"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This permanent provenance and reading index records 125 new concept knowls,

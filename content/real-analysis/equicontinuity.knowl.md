@@ -6,8 +6,8 @@ summary = "A uniform form of continuity shared by all functions in a family."
 aliases = ["equicontinuity"]
 domains = ["real-analysis"]
 prerequisites = ["topology/metric-space", "topology/continuous-map", "real-analysis/equicontinuous-family"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/equicontinuity.md"
 +++
 

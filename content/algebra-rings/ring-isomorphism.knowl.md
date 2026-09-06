@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A bijective ring homomorphism with a homomorphic inverse."
 aliases = ["ring-isomorphism", "Ring isomorphism"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ring-homomorphism", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-rings/ring-isomorphism.md"
 +++
 

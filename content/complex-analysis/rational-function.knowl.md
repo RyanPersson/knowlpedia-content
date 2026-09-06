@@ -6,8 +6,8 @@ summary = "A quotient of complex polynomials, equivalently a holomorphic self-ma
 aliases = ["complex rational function", "rational map of the Riemann sphere"]
 domains = ["complex-analysis", "algebra"]
 prerequisites = ["complex-analysis/meromorphic-function", "differential-geometry/holomorphic-map", "complex-analysis/riemann-sphere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

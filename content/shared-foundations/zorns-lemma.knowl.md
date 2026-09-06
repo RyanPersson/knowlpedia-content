@@ -6,8 +6,8 @@ summary = "A maximal-element principle for partially ordered sets."
 aliases = ["zorns-lemma", "Zorn's lemma"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/partial-order", "shared-foundations/upper-bound", "shared-foundations/total-order"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/zorns-lemma.md"
 +++
 

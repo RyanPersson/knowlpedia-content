@@ -6,8 +6,8 @@ summary = "Transverse embedded submanifolds intersect in an embedded submanifold
 aliases = ["intersection theorem for transverse submanifolds"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "differential-geometry/transverse-submanifolds"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

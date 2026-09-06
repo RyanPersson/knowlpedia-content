@@ -6,8 +6,8 @@ summary = "A vector on which no nonzero operator from the represented algebra va
 aliases = ["separating vector for an operator algebra"]
 domains = ["operator-algebras", "algebra-representation-theory"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/hilbert-space", "linear-algebra/linear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

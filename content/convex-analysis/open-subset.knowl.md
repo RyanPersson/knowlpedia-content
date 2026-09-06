@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A set that contains a small open ball around each of its points"
 aliases = ["open-subset", "Open set"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/basic-properties-of-open-sets", "convex-analysis/closed-subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/open-and-closed-balls-in-a-metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/open-subset.md"
 +++
 

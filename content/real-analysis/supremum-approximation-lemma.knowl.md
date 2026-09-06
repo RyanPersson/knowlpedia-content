@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A supremum can be approximated from below by elements of the set."
 aliases = ["supremum-approximation-lemma", "Supremum Approximation Lemma"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-above", "real-analysis/supremum", "real-analysis/bounded-below"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/bounded-above", "real-analysis/supremum", "real-analysis/bounded-below", "real-analysis/infimum"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/supremum-approximation-lemma.md"
 +++
 

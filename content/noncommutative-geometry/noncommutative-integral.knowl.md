@@ -6,8 +6,8 @@ summary = "The Dixmier-trace functional that integrates represented algebra elem
 aliases = ["Connes integral", "Dixmier-trace integral"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/spectral-triple", "noncommutative-geometry/metric-dimension", "operator-algebras/dixmier-trace", "operator-algebras/positive-linear-functional"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

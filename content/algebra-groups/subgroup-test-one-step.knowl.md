@@ -6,8 +6,8 @@ summary = "A nonempty subset H of a group is a subgroup exactly when xy⁻¹ bel
 aliases = ["subgroup-test-one-step", "Subgroup Test (one-step)"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "shared-foundations/subset", "algebra-groups/subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/subgroup-test-one-step.md"
 +++
 

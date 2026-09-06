@@ -6,8 +6,8 @@ summary = "The canonical graded-algebra isomorphism between the exterior algebra
 aliases = ["exterior algebra direct-sum formula", "wedge algebra of a direct sum", "Lambda of V direct sum W"]
 domains = ["lie-groups", "algebra-modules", "linear-algebra"]
 prerequisites = ["algebra-rings/commutative-ring", "supergeometry/koszul-sign-rule"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

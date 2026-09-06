@@ -6,8 +6,8 @@ summary = "The even Clifford group Spin(p,q) associated with a nondegenerate rea
 aliases = ["Spin(p,q)", "pseudo-Riemannian spin group"]
 domains = ["lie-groups", "differential-geometry"]
 prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/clifford-algebra", "lie-groups/indefinite-pin-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

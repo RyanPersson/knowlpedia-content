@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The 45-dimensional simple complex orthogonal Lie algebra of rank 5 and Dynkin type D5."
 aliases = ["complex-lie-algebra-so10", "so10(C)", "so(10,C)", "complex Lie algebra so10"]
 domains = ["lie-groups"]
-prerequisites = ["linear-algebra/bilinear-form", "lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/half-spin-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/bilinear-form", "lie-groups/lie-algebra", "lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/half-spin-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

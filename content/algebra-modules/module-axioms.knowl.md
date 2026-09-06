@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The axioms defining a (left) module over a unital ring."
 aliases = ["module-axioms", "Module axioms"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "algebra-rings/unital-ring", "shared-foundations/binary-operation", "algebra-rings/ring", "algebra-modules/vector-space-axioms"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/unital-ring", "shared-foundations/binary-operation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/module-axioms.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "Given a ring map R→S, any S-module can be regarded as an R-module b
 aliases = ["restriction-of-scalars", "Restriction of scalars"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/extension-of-scalars"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/restriction-of-scalars.md"
 +++
 

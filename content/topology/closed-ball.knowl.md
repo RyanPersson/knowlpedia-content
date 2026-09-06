@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set of points within a given radius of a center point in a metric space, using non-strict inequality."
 aliases = ["closed-ball", "Closed ball"]
 domains = ["topology"]
-prerequisites = ["topology/open-ball", "topology/closed-set", "topology/metric-induced-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/closed-ball.md"
 +++
 

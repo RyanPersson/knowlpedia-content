@@ -6,8 +6,8 @@ summary = "The mod-eight rule assigning the commutation signs of the real struct
 aliases = ["KO-dimension modulo 8", "epsilon signs", "real parity signs"]
 domains = ["noncommutative-geometry"]
 prerequisites = ["noncommutative-geometry/real-structure-spectral-triple", "noncommutative-geometry/metric-dimension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Interchange of integrals for nonnegative measurable functions on a product measure space."
 aliases = ["tonellis-theorem", "Tonelli's theorem"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/product-measure", "shared-foundations/cartesian-product", "measure-theory/lebesgue-integral", "measure-theory/measurable-function", "measure-theory/fubinis-theorem"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["measure-theory/product-measure", "shared-foundations/cartesian-product", "measure-theory/lebesgue-integral", "measure-theory/measurable-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "measure-theory/tonellis-theorem.md"
 +++
 

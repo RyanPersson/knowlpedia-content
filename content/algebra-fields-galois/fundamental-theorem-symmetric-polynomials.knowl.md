@@ -6,8 +6,8 @@ summary = "A symmetric polynomial can be expressed uniquely in terms of the elem
 aliases = ["fundamental-theorem-symmetric-polynomials", "Fundamental theorem of symmetric polynomials"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-rings/commutative-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/fundamental-theorem-symmetric-polynomials.md"
 +++
 

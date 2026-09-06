@@ -6,8 +6,8 @@ summary = "A linear functional on a normed space is continuous iff one of its le
 aliases = ["continuity-of-linear-functionals-via-closed-level-sets", "Continuity of Linear Functionals via Closed Level Sets"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/closed-subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/continuity-of-linear-functionals-via-closed-level-sets.md"
 +++
 

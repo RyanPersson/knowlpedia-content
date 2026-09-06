@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The dimension [E:F] of E as a vector space over F (finite or infinite)."
 aliases = ["degree-of-extension", "Degree of a field extension"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-fields-galois/field-extension", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/degree-of-extension.md"
 +++
 

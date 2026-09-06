@@ -6,6 +6,9 @@ summary = "Representation theory of finite groups: linear actions, characters, M
 aliases = ["algebra-representation-theory", "Representation Theory"]
 domains = ["algebra-representation-theory"]
 legacy_source_path = "algebra-representation-theory/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This section covers the representation theory of finite groups over fields, focusing on the fundamental structure theorems and character theory.

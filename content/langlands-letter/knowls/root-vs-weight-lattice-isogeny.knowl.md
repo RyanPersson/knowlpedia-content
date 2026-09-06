@@ -6,8 +6,8 @@ summary = "Intermediate character lattices between the root and weight lattices 
 aliases = ["root-vs-weight-lattice-isogeny", "Root Lattice, Weight Lattice, and Isogeny Forms"]
 domains = ["langlands-letter"]
 prerequisites = ["langlands-letter/knowls/split-reductive-group", "langlands-letter/knowls/maximal-torus-weight-lattice", "lie-groups/root-lattice", "lie-groups/weight-lattice", "langlands-letter/knowls/simply-connected-semisimple-group", "lie-groups/root-system"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/root-vs-weight-lattice-isogeny.md"
 section_mode = "progressive"
 +++

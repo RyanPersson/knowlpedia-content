@@ -6,8 +6,8 @@ summary = "A chain of regular semisimple subalgebras obtained by deleting simple
 aliases = ["exceptional chain to gSM", "E7 E6 D5 A4 A2+A1 chain", "en chain to the Standard Model"]
 domains = ["lie-groups", "mathematical-physics"]
 prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/simple-root", "lie-groups/removing-a-simple-root", "lie-groups/regular-lie-subalgebra", "lie-groups/maximal-levi-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

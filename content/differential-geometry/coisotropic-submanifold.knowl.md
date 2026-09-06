@@ -6,8 +6,8 @@ summary = "A submanifold whose tangent spaces contain their symplectic orthogona
 aliases = ["co-isotropic submanifold"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/coisotropic-subspace", "fiber-bundles/smooth-embedding"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

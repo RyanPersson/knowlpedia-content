@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Every connected Lie group admits a unique (up to isomorphism) simply connected covering group compatible with multiplication."
 aliases = ["universal-covering-group-existence", "Existence of universal covering groups"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-group-homomorphism", "lie-groups/simply-connected-lie-group", "lie-groups/universal-covering-group", "lie-groups/differential-is-lie-algebra-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-group-homomorphism", "lie-groups/universal-covering-group", "lie-groups/differential-is-lie-algebra-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/universal-covering-group-existence.md"
 +++
 

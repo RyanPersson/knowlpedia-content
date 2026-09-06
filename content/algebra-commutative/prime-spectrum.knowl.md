@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set Spec(R) of prime ideals of a commutative ring, naturally equipped with the Zariski topology."
 aliases = ["prime-spectrum", "Prime spectrum"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/zariski-topology", "algebra-commutative/localization-ring", "algebra-commutative/localization-at-prime", "algebra-commutative/residue-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/localization-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/prime-spectrum.md"
 +++
 

@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A monoid in which every element has an inverse"
 aliases = ["group"]
 domains = ["algebra-groups"]
-prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation", "algebra-groups/monoid", "algebra-groups/subgroup", "algebra-groups/group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation", "algebra-groups/monoid"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "algebra-groups/group.md"
 +++
 

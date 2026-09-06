@@ -6,8 +6,8 @@ summary = "A smooth manifold whose underlying topological space is paracompact, 
 aliases = ["paracompact-manifold", "Paracompact manifold"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/paracompact-topological-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/paracompact-manifold.md"
 +++
 

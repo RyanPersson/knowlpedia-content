@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A reductive group over a nonarchimedean local field that is quasi-split and splits over an unramified extension."
 aliases = ["unramified group", "unramified connected reductive group"]
 domains = ["algebraic-geometry-foundations", "langlands", "algebra-groups"]
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/quasi-split-reductive-group", "langlands-letter/knowls/unramified-extension-local", "algebraic-geometry-foundations/algebraic-group", "topology/locally-compact-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/quasi-split-reductive-group", "langlands-letter/knowls/unramified-extension-local"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

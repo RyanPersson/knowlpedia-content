@@ -6,8 +6,8 @@ summary = "A representation that splits as a direct sum of irreducible subrepres
 aliases = ["completely-reducible-representation", "Completely reducible representation"]
 domains = ["algebra-representation-theory"]
 prerequisites = ["algebra-representation-theory/group-representation", "algebra-modules/direct-sum-modules"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/completely-reducible-representation.md"
 +++
 

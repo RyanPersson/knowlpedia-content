@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The set of equivalence classes of a set under an equivalence relation"
 aliases = ["quotient-set", "Quotient set"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/equivalence-relation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set", "shared-foundations/equivalence-relation", "shared-foundations/equivalence-class"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/quotient-set.md"
 +++
 

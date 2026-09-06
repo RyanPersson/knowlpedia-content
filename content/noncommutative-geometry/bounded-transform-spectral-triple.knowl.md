@@ -6,8 +6,8 @@ summary = "The bounded operator obtained from a spectral triple's Dirac operator
 aliases = ["bounded Fredholm transform", "bounded transform of an unbounded cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/compact-resolvent", "noncommutative-geometry/fredholm-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

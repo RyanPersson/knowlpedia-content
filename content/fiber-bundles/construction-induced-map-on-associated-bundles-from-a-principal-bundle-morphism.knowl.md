@@ -6,8 +6,8 @@ summary = "How a principal bundle morphism induces a map between associated bund
 aliases = ["construction-induced-map-on-associated-bundles-from-a-principal-bundle-morphism", "Induced map on associated bundles"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-induced-map-on-associated-bundles-from-a-principal-bundle-morphism.md"
 +++
 

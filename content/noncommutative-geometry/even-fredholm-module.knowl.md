@@ -6,8 +6,8 @@ summary = "A Fredholm module on a graded Hilbert space whose representation is e
 aliases = ["graded Fredholm module", "even bounded K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/fredholm-module", "functional-analysis/z2-graded-hilbert-space", "operator-algebras/graded-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

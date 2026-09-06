@@ -6,8 +6,8 @@ summary = "Supremum and infimum behave predictably under inclusion, translation,
 aliases = ["algebraic-properties-sup-inf", "Algebraic properties of sup and inf"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/algebraic-properties-sup-inf.md"
 +++
 

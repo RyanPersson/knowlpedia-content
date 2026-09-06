@@ -6,8 +6,8 @@ summary = "Two random variables with the same probability law."
 aliases = ["identically-distributed", "Identically distributed random variables"]
 domains = ["probability"]
 prerequisites = ["probability/random-variable", "probability/distribution-law"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "probability/identically-distributed.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A diffeomorphism of hyperkähler manifolds that preserves the metric 
 aliases = ["hyper-Kähler isometry", "strict hyperkähler isometry"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/hyperkahler-manifold", "differential-geometry/triholomorphic-map", "differential-geometry/kahler-form", "differential-geometry/hyperkahler-isometric-immersion"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

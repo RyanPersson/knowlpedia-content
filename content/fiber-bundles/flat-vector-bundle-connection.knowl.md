@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A vector bundle connection with zero curvature, admitting local parallel frames and homotopy-invariant transport."
 aliases = ["flat-vector-bundle-connection", "Flat vector bundle connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/curvature-of-a-vector-bundle-connection", "fiber-bundles/parallel-transport", "topology/fundamental-group", "fiber-bundles/holonomy-group", "fiber-bundles/integrable-horizontal-distribution"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/curvature-of-a-vector-bundle-connection", "fiber-bundles/connection-on-a-vector-bundle"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "fiber-bundles/flat-vector-bundle-connection.md"
 +++
 
@@ -31,4 +31,4 @@ Equivalently, in any local frame the curvature 2-form matrix is zero.
 ## Examples
 1. **Trivial bundle with the trivial connection.** On \(M\times\mathbb R^r\), the connection \(\nabla=d\) has \(R^\nabla=0\), so it is flat.
 2. **Local systems from representations.** Given a representation \(\rho:\pi_1(M)\to \mathrm{GL}(r,\mathbb R)\), one can form the associated flat vector bundle (a “local system”) whose parallel transport along loops realizes \(\rho\).
-3. **Flat but with nontrivial holonomy on the circle.** On \(S^1\), let \(E=S^1\times\mathbb R^r\) and define \(\nabla = d + A\,d\theta\) with a constant matrix \(A\). The curvature is zero (since \(d\theta\) is closed and \(A\) is constant), but parallel transport around the circle gives holonomy \(\exp(2\pi A)\), which can be nontrivial.
+3. **Flat but with nontrivial holonomy on the circle.** On \(S^1\), let \(E=S^1\times\mathbb R^r\) and define \(\nabla = d + A\,d\theta\) with a constant matrix \(A\). The curvature is zero (since \(d\theta\) is closed and \(A\) is constant), but parallel transport in the positive direction from \(\theta=0\) to \(2\pi\) gives holonomy \(\exp(-2\pi A)\), which can be nontrivial. Indeed, a parallel section satisfies \(s'(\theta)+A s(\theta)=0\), hence \(s(\theta)=\exp(-\theta A)s(0)\).

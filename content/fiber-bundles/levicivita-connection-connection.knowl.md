@@ -6,8 +6,8 @@ summary = "The unique torsion-free metric-compatible connection on a Riemannian 
 aliases = ["levicivita-connection-connection", "Levi–Civita connection as a principal O(n)-connection"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/levicivita-connection-connection.md"
 +++
 

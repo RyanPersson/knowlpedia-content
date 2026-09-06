@@ -6,8 +6,8 @@ summary = "A bijective continuous map with a continuous inverse."
 aliases = ["homeomorphism"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "shared-foundations/bijective-function", "topology/continuous-map", "shared-foundations/inverse-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/homeomorphism.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "Equivalence between covariant derivatives on a rank-n vector bundle a
 aliases = ["tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em", "Connections on vector bundles via frame bundles"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em.md"
 +++
 

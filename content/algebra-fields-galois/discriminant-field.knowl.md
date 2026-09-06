@@ -6,8 +6,8 @@ summary = "The determinant of the trace-pairing matrix associated with a basis o
 aliases = ["discriminant-field", "Discriminant (of a field basis)"]
 domains = ["algebra-fields-galois"]
 prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/trace-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/discriminant-field.md"
 +++
 

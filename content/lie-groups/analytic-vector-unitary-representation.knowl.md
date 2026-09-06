@@ -6,8 +6,8 @@ summary = "A representation vector whose orbit map is real analytic near the ide
 aliases = ["analytic vector"]
 domains = ["lie-groups", "functional-analysis"]
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/orbit-map", "lie-groups/derived-representation-on-smooth-vectors"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

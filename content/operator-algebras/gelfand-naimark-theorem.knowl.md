@@ -6,8 +6,8 @@ summary = "Every abstract C*-algebra has a faithful concrete representation by b
 aliases = ["abstract C*-algebras are operator algebras", "faithful representation theorem"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/faithful-cstar-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

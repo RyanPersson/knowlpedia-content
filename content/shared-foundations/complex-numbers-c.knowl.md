@@ -6,8 +6,8 @@ summary = "Numbers of the form a+bi with i^2=-1, forming a field extending the r
 aliases = ["complex-numbers-c", "Complex numbers"]
 domains = ["shared-foundations"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/complex-numbers-c.md"
 +++
 

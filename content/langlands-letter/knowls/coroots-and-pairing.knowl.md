@@ -6,8 +6,8 @@ summary = "Coroots and their integral pairing with characters, controlling domin
 aliases = ["coroots-and-pairing", "Coroots and the Weight–Coroot Pairing"]
 domains = ["langlands-letter"]
 prerequisites = ["langlands-letter/knowls/maximal-torus-weight-lattice", "langlands-letter/knowls/roots-weights-weyl"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/coroots-and-pairing.md"
 section_mode = "progressive"
 +++

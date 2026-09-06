@@ -6,8 +6,8 @@ summary = "An Ã©tale sheaf admitting a representable diagonal and a surjective Ã
 aliases = ["algebraic space"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/etale-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

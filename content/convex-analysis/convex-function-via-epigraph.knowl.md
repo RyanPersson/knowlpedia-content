@@ -6,8 +6,8 @@ summary = "A function is convex if and only if its epigraph is a convex set"
 aliases = ["convex-function-via-epigraph", "Convex function via epigraph"]
 domains = ["convex-analysis"]
 prerequisites = ["convex-analysis/extended-real-number-system-and-conventions", "convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/convex-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/convex-function-via-epigraph.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "The order-six outer symmetry of Spin(8) that permutes its vector and 
 aliases = ["triality", "D4 triality", "Spin(8) triality automorphism"]
 domains = ["lie-groups", "representation-theory"]
 prerequisites = ["lie-groups/simply-connected-lie-group", "algebra-groups/outer-automorphism-group", "lie-groups/defining-representation-of-a-classical-lie-algebra", "lie-groups/half-spin-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

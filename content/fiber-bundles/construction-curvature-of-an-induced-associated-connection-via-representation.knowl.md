@@ -6,8 +6,8 @@ summary = "How principal curvature induces curvature on an associated vector bun
 aliases = ["construction-curvature-of-an-induced-associated-connection-via-representation", "Curvature of an induced associated connection via a representation"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-curvature-of-an-induced-associated-connection-via-representation.md"
 +++
 

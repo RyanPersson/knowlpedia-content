@@ -6,8 +6,8 @@ summary = "A von Neumann algebra in which every nonzero central summand contains
 aliases = ["type I W*-algebra", "discrete von Neumann algebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/abelian-projection", "operator-algebras/central-support"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

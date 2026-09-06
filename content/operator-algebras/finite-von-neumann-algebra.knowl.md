@@ -6,8 +6,8 @@ summary = "A von Neumann algebra whose identity is a finite projection."
 aliases = ["finite W*-algebra"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/finite-projection", "operator-algebras/murray-von-neumann-equivalence", "linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

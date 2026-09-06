@@ -6,8 +6,8 @@ summary = "For a finite-dimensional self-adjoint operator, the spectrum is exact
 aliases = ["spectrum-self-adjoint-finite", "Spectrum of a Self-Adjoint Operator in Finite Dimension"]
 domains = ["quantum-foundations"]
 prerequisites = ["quantum-foundations/complex-hilbert-space-finite", "quantum-foundations/self-adjoint-operator-observable", "linear-algebra/eigenvalue"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "quantum-foundations/spectrum-self-adjoint-finite.md"
 +++
 

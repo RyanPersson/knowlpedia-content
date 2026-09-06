@@ -6,8 +6,8 @@ summary = "A geometric Langlands problem with fixed local singularity data on th
 aliases = ["geometric Langlands with ramification"]
 domains = ["langlands"]
 prerequisites = ["algebraic-geometry-foundations/pointed-algebraic-curve", "langlands/ramification-of-g-local-system", "langlands/level-structure-on-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

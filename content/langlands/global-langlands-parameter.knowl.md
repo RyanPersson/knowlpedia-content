@@ -6,8 +6,8 @@ summary = "A conjectural global admissible homomorphism into an L-group whose lo
 aliases = ["global L-parameter", "global Langlands parameterization"]
 domains = ["langlands", "number-theory", "representation-theory"]
 prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/l-group", "algebra-groups/conjugacy-class", "algebra-fields-galois/place-of-global-field", "langlands/local-l-parameter"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

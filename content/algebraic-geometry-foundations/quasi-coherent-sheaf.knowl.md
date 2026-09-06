@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A sheaf of modules on a scheme that locally comes from a module on each affine chart."
 aliases = ["quasicoherent sheaf", "QCoh"]
 domains = ["algebraic-geometry-foundations", "langlands"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/sheaf-of-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

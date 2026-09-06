@@ -6,8 +6,8 @@ summary = "One-sided derivatives defined by one-sided limits of the difference q
 aliases = ["right-derivative-left-derivative", "Right derivative and left derivative"]
 domains = ["real-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/right-derivative-left-derivative.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "A differential form built from the curvature of a principal connectio
 aliases = ["chernweil-form", "Chern–Weil form"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/lemma-chernweil-forms-are-basic"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/chernweil-form.md"
 +++
 

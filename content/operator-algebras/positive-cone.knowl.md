@@ -6,8 +6,8 @@ summary = "The closed convex cone of positive self-adjoint elements in a C*-alge
 aliases = ["C*-positive cone", "positive cone A_+"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/cstar-algebra", "convex-analysis/convex-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

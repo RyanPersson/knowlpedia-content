@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Diagram-chase criteria ensuring the middle map in a morphism of exact sequences is injective or surjective."
 aliases = ["four-lemma", "Four lemma"]
 domains = ["algebra-homological"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-modules/exact-sequence-modules", "shared-foundations/surjective-function", "shared-foundations/injective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-homological/four-lemma.md"
 +++
 

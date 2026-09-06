@@ -6,8 +6,8 @@ summary = "The diffeomorphism of a Lie group given by multiplying on the right b
 aliases = ["right-translation", "Right Translation"]
 domains = ["lie-groups"]
 prerequisites = ["fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/right-translation.md"
 +++
 

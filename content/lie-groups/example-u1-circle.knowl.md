@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The circle group has Lie algebra iR and a surjective exponential map with kernel 2πiZ."
 aliases = ["example-u1-circle", "Example: U(1) (the circle group)"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/abelian-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["lie-groups/abelian-lie-group", "lie-groups/abelian-lie-algebra", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/exponential-map-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/example-u1-circle.md"
 +++
 

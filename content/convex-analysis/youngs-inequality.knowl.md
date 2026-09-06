@@ -6,8 +6,8 @@ summary = "A conjugate-exponent bound: |xy| is controlled by |x|^p/p + |y|^q/q"
 aliases = ["youngs-inequality", "Young's Inequality"]
 domains = ["convex-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/youngs-inequality.md"
 +++
 

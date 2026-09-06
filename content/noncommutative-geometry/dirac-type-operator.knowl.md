@@ -6,8 +6,8 @@ summary = "A first-order differential operator whose principal symbol is Cliffor
 aliases = ["generalized Dirac operator", "Clifford-symbol operator"]
 domains = ["noncommutative-geometry", "differential-geometry"]
 prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/clifford-module", "differential-geometry/principal-symbol", "differential-geometry/elliptic-differential-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

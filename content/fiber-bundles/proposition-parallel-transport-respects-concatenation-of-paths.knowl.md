@@ -6,8 +6,8 @@ summary = "Parallel transport along a concatenated path equals the composition o
 aliases = ["proposition-parallel-transport-respects-concatenation-of-paths", "Parallel transport respects concatenation of paths"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/parallel-transport"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/proposition-parallel-transport-respects-concatenation-of-paths.md"
 +++
 

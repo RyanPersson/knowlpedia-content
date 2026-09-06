@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A smooth alternating covariant k-tensor field; equivalently, a smooth section of the kth exterior power of the cotangent bundle."
 aliases = ["differential-k-form", "Differential k-form"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/cotangent-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/pullback-of-covectors", "fiber-bundles/pullback-of-differential-forms", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/wedge-product-of-differential-forms", "fiber-bundles/exterior-derivative", "fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form", "fiber-bundles/de-rham-cohomology-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/cotangent-bundle", "fiber-bundles/exterior-power-bundle", "fiber-bundles/section-of-a-fiber-bundle"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "fiber-bundles/differential-k-form.md"
 +++
 

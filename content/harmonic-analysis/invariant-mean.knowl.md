@@ -6,8 +6,8 @@ summary = "A normalized positive linear functional on a translation-invariant fu
 aliases = ["left-invariant mean", "translation-invariant mean"]
 domains = ["harmonic-analysis", "functional-analysis", "topology"]
 prerequisites = ["topology/topological-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

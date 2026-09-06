@@ -6,8 +6,8 @@ summary = "A topological ring whose topology is defined by the powers of a finit
 aliases = ["I-adic ring"]
 domains = ["algebra-topological", "algebraic-geometry-foundations"]
 prerequisites = ["algebra-topological/ideal-of-definition"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

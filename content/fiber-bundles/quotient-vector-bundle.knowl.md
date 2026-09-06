@@ -6,8 +6,8 @@ summary = "The vector bundle whose fibers are the quotients of a vector bundle b
 aliases = ["vector bundle quotient"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/vector-subbundle", "shared-foundations/equivalence-relation", "fiber-bundles/vector-bundle-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

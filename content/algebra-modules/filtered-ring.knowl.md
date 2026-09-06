@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A ring equipped with an increasing multiplicative filtration."
 aliases = ["filtered-ring", "Filtered ring"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/ring", "algebra-modules/associated-graded-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/filtered-ring.md"
 +++
 

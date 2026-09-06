@@ -6,8 +6,8 @@ summary = "In the localization S^{-1}R, every element of S becomes a unit, and S
 aliases = ["localization-inverts-multiplicative-set", "Localization inverts a multiplicative set"]
 domains = ["algebra-commutative"]
 prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring", "algebra-commutative/localization-at-prime", "algebra-commutative/local-ring"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-inverts-multiplicative-set.md"
 +++
 

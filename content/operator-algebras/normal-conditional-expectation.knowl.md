@@ -6,8 +6,8 @@ summary = "An ultraweakly continuous conditional expectation from a von Neumann 
 aliases = ["von Neumann algebra conditional expectation", "normal expectation"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/conditional-expectation", "operator-algebras/normal-positive-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

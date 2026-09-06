@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The polarized measure obtained from quaternionic Hessians of several plurisubharmonic functions."
 aliases = ["mixed quaternionic Hessian measure", "mixed quaternionic Monge-Ampere measure"]
 domains = ["complex-analysis", "quaternionic-analysis", "partial-differential-equations"]
-prerequisites = ["complex-analysis/quaternionic-plurisubharmonic-function", "linear-algebra/mixed-discriminant"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/quaternionic-plurisubharmonic-function", "complex-analysis/quaternionic-hessian", "linear-algebra/mixed-discriminant", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

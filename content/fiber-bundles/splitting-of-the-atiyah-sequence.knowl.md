@@ -6,8 +6,8 @@ summary = "A right inverse TM to TP/G that is equivalent to choosing a principal
 aliases = ["splitting-of-the-atiyah-sequence", "Splitting of the Atiyah sequence"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/atiyah-sequence-tpgtm0", "fiber-bundles/principal-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/splitting-of-the-atiyah-sequence.md"
 +++
 

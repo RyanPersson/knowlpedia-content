@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The weak-star topology on the bounded operators induced by their trace-class predual."
 aliases = ["sigma-weak topology", "weak-star operator topology"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "functional-analysis/weak-star-topology", "shale-paper/trace-class-operator", "linear-algebra/banach-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "functional-analysis/weak-star-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

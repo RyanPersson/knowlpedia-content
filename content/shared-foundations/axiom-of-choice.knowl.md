@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Every family of nonempty sets has a choice function."
 aliases = ["axiom-of-choice", "Axiom of Choice"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function", "shared-foundations/indexed-family-of-sets", "shared-foundations/union", "shared-foundations/empty-set"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/axiom-of-choice.md"
 +++
 

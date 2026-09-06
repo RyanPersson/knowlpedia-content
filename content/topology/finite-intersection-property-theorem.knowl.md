@@ -6,8 +6,8 @@ summary = "Compactness is equivalent to nonempty intersection for families of cl
 aliases = ["finite-intersection-property-theorem", "Finite intersection property theorem"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/subspace-topology", "topology/compact-set", "topology/closed-set", "topology/finite-intersection-property", "topology/open-cover"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/finite-intersection-property-theorem.md"
 +++
 

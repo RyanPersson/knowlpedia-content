@@ -6,8 +6,8 @@ summary = "An alternating subtraction of parabolic constant terms that makes aut
 aliases = ["Arthur truncation operator", "Langlands-Arthur truncation", "Lambda^T truncation"]
 domains = ["langlands", "harmonic-analysis"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/parabolic-subgroup", "langlands/automorphic-form", "langlands/automorphic-constant-term"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

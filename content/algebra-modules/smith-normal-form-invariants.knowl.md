@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The Smith normal form diagonal entries are canonical invariants and control the cokernel module."
 aliases = ["smith-normal-form-invariants", "Smith normal form invariants"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/smith-normal-form-theorem", "algebra-modules/structure-theorem-pid", "algebra-modules/cokernel-module", "algebra-rings/pid"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-modules/structure-theorem-pid", "algebra-modules/cokernel-module", "algebra-rings/pid"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 legacy_source_path = "algebra-modules/smith-normal-form-invariants.md"
 +++
 

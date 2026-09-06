@@ -6,8 +6,8 @@ summary = "Two spectral triples are unitarily equivalent when a unitary identifi
 aliases = ["isomorphic spectral triples", "unitarily equivalent triples"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/star-isomorphism", "linear-algebra/surjective-linear-isometry"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

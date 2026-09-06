@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "∑|x_i y_i| is bounded by the product of ℓ^p and ℓ^q norms for conjugate exponents"
 aliases = ["holder-inequality-finite-sums", "Hölder inequality (finite sums)"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["convex-analysis/weighted-arithmeticgeometric-mean-inequality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/holder-inequality-finite-sums.md"
 +++
 

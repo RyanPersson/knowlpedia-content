@@ -6,8 +6,8 @@ summary = "A binary relation that is reflexive, antisymmetric, and transitive."
 aliases = ["partial-order", "Partial order"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/set", "shared-foundations/relation", "shared-foundations/cartesian-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shared-foundations/partial-order.md"
 +++
 

@@ -5,6 +5,9 @@ kind = "index"
 summary = "A temporary testing index for knowls using vague local convention language."
 aliases = ["temporary rewrite candidates", "house convention rewrite index"]
 domains = ["knowlification"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This temporary testing index links the knowls found by searching for the

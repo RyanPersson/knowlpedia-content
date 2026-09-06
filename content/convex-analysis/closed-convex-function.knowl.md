@@ -6,8 +6,8 @@ summary = "A convex function whose epigraph is closed, equivalently a lower semi
 aliases = ["closed-convex-function", "Closed convex function"]
 domains = ["convex-analysis"]
 prerequisites = ["shared-foundations/function", "convex-analysis/convex-function-via-epigraph", "convex-analysis/convex-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/closed-convex-function.md"
 +++
 

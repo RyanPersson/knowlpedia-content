@@ -6,8 +6,8 @@ summary = "The locally compact abelian group of continuous circle-valued charact
 aliases = ["Pontryagin dual group", "character group", "dual locally compact abelian group"]
 domains = ["harmonic-analysis", "topology"]
 prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "shared-foundations/complex-numbers-c", "algebra-groups/group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,6 +6,9 @@ summary = "Vector spaces, linear maps, inner products, and spectral theory"
 aliases = ["linear-algebra", "Linear Algebra"]
 domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Click any term to expand its definition inline.

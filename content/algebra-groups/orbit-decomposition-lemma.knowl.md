@@ -6,8 +6,8 @@ summary = "The orbits of a group action form a partition of the underlying set."
 aliases = ["orbit-decomposition-lemma", "Orbit Decomposition Lemma"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "shared-foundations/set", "algebra-groups/orbit", "shared-foundations/partition"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/orbit-decomposition-lemma.md"
 +++
 

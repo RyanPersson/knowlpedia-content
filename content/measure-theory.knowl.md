@@ -6,6 +6,9 @@ summary = "Sigma-algebras, measures, and foundations of Lebesgue integration."
 aliases = ["measure-theory", "Measure Theory"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## Sigma-Algebras

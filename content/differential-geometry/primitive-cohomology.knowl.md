@@ -6,8 +6,8 @@ summary = "The kernel of the appropriate power of the Lefschetz operator on the 
 aliases = ["primitive part of cohomology"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/lefschetz-operator", "differential-geometry/kahler-class"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

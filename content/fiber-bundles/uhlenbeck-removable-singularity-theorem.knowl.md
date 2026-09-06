@@ -6,8 +6,8 @@ summary = "A finite-energy Yang–Mills connection on a punctured four-ball exte
 aliases = ["removable singularity theorem for Yang–Mills connections", "instanton removable singularity theorem"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/yangmills-connection", "fiber-bundles/self-dual-and-anti-self-dual-connection", "fiber-bundles/yangmills-equation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

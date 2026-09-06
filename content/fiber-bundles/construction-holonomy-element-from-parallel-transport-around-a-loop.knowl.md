@@ -6,8 +6,8 @@ summary = "Definition of the holonomy element in G obtained by transporting a po
 aliases = ["construction-holonomy-element-from-parallel-transport-around-a-loop", "Holonomy element from parallel transport around a loop"]
 domains = ["fiber-bundles"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/construction-parallel-transport-map-along-a-curve", "fiber-bundles/holonomy-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-holonomy-element-from-parallel-transport-around-a-loop.md"
 +++
 

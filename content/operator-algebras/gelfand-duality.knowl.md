@@ -6,8 +6,8 @@ summary = "A contravariant equivalence between locally compact Hausdorff spaces 
 aliases = ["commutative Gelfand–Naimark theorem", "Gelfand representation theorem", "Gelfand duality theorem"]
 domains = ["operator-algebras", "topology", "algebra-category-theory"]
 prerequisites = ["operator-algebras/commutative-cstar-algebra", "operator-algebras/character-space", "operator-algebras/gelfand-transform", "topology/locally-compact-space", "topology/hausdorff-space", "topology/continuous-map", "operator-algebras/nondegenerate-star-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

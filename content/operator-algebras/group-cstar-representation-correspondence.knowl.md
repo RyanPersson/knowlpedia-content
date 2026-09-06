@@ -6,8 +6,8 @@ summary = "Integrated form gives a natural correspondence between continuous uni
 aliases = ["integrated-form correspondence", "universal representation correspondence"]
 domains = ["operator-algebras", "harmonic-analysis"]
 prerequisites = ["topology/locally-compact-group", "lie-groups/strongly-continuous-unitary-representation", "operator-algebras/nondegenerate-star-homomorphism", "operator-algebras/full-group-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

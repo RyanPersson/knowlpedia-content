@@ -6,8 +6,8 @@ summary = "Every continuous operator from test functions to distributions is rep
 aliases = ["kernel theorem", "distribution kernel", "kernel theorem for distributions", "distribution kernel theorem"]
 domains = ["functional-analysis", "distribution-theory"]
 prerequisites = ["functional-analysis/continuous-linear-map", "functional-analysis/test-function-space", "functional-analysis/distribution", "topology/continuous-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

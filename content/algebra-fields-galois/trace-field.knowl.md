@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For a finite extension L/K, the trace Tr_{L/K}(α) is the trace of multiplication-by-α as a K-linear map."
 aliases = ["trace-field", "Field trace"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/degree-of-extension"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/degree-of-extension", "linear-algebra/vector-space", "linear-algebra/linear-map", "linear-algebra/trace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/trace-field.md"
 +++
 

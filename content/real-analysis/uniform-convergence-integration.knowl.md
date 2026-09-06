@@ -6,8 +6,8 @@ summary = "A uniformly convergent series of Riemann integrable functions may be 
 aliases = ["uniform-convergence-integration", "Uniform convergence and integration"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/uniform-convergence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-convergence-integration.md"
 +++
 

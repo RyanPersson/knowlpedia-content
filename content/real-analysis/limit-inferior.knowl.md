@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The supremum of the infima of the tails of an extended-real sequence."
 aliases = ["limit-inferior", "Limit inferior"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["real-analysis/supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-inferior.md"
 +++
 

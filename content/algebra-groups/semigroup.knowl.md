@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A set equipped with an associative binary operation"
 aliases = ["semigroup"]
 domains = ["algebra-groups"]
-prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation", "algebra-groups/monoid", "algebra-groups/group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-groups/semigroup.md"
 +++
 

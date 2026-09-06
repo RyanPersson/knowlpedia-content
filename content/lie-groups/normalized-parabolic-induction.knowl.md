@@ -6,8 +6,8 @@ summary = "Parabolic induction with a half-modular correction that preserves uni
 aliases = ["unitary parabolic induction", "normalized induction"]
 domains = ["lie-groups", "harmonic-analysis"]
 prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/parabolic-subgroup-real-reductive-group", "lie-groups/langlands-decomposition-of-a-parabolic", "harmonic-analysis/modular-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "For continuous functions on a rectangle, iterated integrals exist and
 aliases = ["fubini-theorem-riemann", "Fubini theorem for Riemann integrals"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/multiple-riemann-integral", "real-analysis/iterated-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/fubini-theorem-riemann.md"
 +++
 

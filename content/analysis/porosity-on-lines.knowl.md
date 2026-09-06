@@ -6,8 +6,8 @@ summary = "A quantitative hole condition imposed on every line segment in a pres
 aliases = ["line porosity", "line porous set", "porous on lines", "nu-porous on lines"]
 domains = ["analysis", "geometric-measure-theory", "harmonic-analysis"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

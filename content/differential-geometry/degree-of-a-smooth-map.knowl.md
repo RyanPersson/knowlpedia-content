@@ -5,9 +5,9 @@ kind = "definition"
 summary = "An integer measuring the signed number of preimages of a regular value under a proper map of oriented manifolds."
 aliases = ["mapping degree", "topological degree of a smooth map"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "differential-geometry/proper-smooth-map", "fiber-bundles/regular-value"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "differential-geometry/proper-smooth-map", "fiber-bundles/regular-value", "fiber-bundles/smooth-map", "differential-geometry/integration-of-differential-forms"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "A subset of real affine space described by finitely many polynomial e
 aliases = ["semialgebraic", "semialgebraic set"]
 domains = ["convex-analysis", "algebraic-geometry-foundations"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A subset \(S\subseteq\mathbb R^n\) is **semialgebraic** if it can be obtained from finitely many sets of the form

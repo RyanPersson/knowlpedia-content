@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The largest open set contained in a given subset."
 aliases = ["interior"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/open-set"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/interior.md"
 +++
 

@@ -6,8 +6,8 @@ summary = "Two sets are separable if a nonzero linear functional orders them."
 aliases = ["separation-by-a-hyperplane", "Separation by a Hyperplane"]
 domains = ["convex-analysis"]
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/hyperplane"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "convex-analysis/separation-by-a-hyperplane.md"
 +++
 

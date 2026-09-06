@@ -6,8 +6,8 @@ summary = "A homogeneous bounded operator on a graded Hilbert space is even when
 aliases = ["homogeneous operator", "graded operator", "operator parity"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["functional-analysis/z2-graded-hilbert-space", "functional-analysis/bounded-linear-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

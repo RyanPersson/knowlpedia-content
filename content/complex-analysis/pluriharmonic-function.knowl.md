@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A function whose restriction to every affine complex line is harmonic."
 aliases = ["PH function", "pluriharmonicity"]
 domains = ["complex-analysis", "several-complex-variables", "potential-theory"]
-prerequisites = ["complex-analysis/harmonic-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["complex-analysis/harmonic-function", "complex-analysis/levi-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

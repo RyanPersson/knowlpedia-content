@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The splitting field of a separable degree-n polynomial has degree at most n! over the base field."
 aliases = ["splitting-field-degree-bounds", "Degree bounds for splitting fields"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure", "algebra-fields-galois/separable-distinct-roots", "algebra-fields-galois/splitting-field", "algebra-fields-galois/galois-extension", "algebra-fields-galois/separable-normal-galois"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/separable-distinct-roots", "algebra-fields-galois/splitting-field", "algebra-fields-galois/galois-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/splitting-field-degree-bounds.md"
 +++
 

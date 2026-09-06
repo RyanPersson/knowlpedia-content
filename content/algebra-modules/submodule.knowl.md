@@ -6,8 +6,8 @@ summary = "An additive subgroup closed under the scalar action of a module."
 aliases = ["submodule"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/module", "shared-foundations/subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/submodule.md"
 +++
 

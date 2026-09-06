@@ -6,8 +6,8 @@ summary = "Formulas for derivatives of sums, products, quotients, and compositio
 aliases = ["differentiation-rules", "Differentiation rules"]
 domains = ["real-analysis"]
 prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "real-analysis/differentiation-rules.md"
 +++
 

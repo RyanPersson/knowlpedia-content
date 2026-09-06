@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A compact connected Kähler manifold whose holomorphic canonical bundle is trivial."
 aliases = ["CY manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/canonical-bundle-complex-manifold", "differential-geometry/kahler-metric", "differential-geometry/kahler-class", "differential-geometry/holomorphic-symplectic-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/canonical-bundle-complex-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

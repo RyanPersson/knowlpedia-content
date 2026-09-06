@@ -6,8 +6,8 @@ summary = "The vector bundle whose fibers are obtained by evaluating a finitely 
 aliases = ["fiberwise evaluation reconstruction", "bundle associated to a projective smooth-function module"]
 domains = ["fiber-bundles", "algebra-modules"]
 prerequisites = ["fiber-bundles/smooth-manifold", "algebra-modules/projective-summand-of-free", "fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

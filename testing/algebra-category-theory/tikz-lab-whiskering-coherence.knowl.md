@@ -6,6 +6,9 @@ summary = "A TikZ-heavy test knowl for natural transformations, whiskering, and 
 aliases = ["tikz-lab-whiskering-coherence", "TikZ lab: whiskering and coherence"]
 domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/tikz-lab-whiskering-coherence.md"
+prerequisites = ["algebra-category-theory/natural-transformation", "algebra-category-theory/functor", "algebra-category-theory/composition-category", "algebra-category-theory/monoidal-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\eta:F\Rightarrow G\) be a

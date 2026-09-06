@@ -6,8 +6,8 @@ summary = "The algebra of natural endomorphisms of the identity functor on smoot
 aliases = ["Bernstein centre", "categorical Bernstein center", "center of the category of smooth representations"]
 domains = ["harmonic-analysis", "langlands", "algebra-representation-theory"]
 prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "harmonic-analysis/smooth-representation-totally-disconnected-group", "algebra-representation-theory/irreducible-representation", "algebra-representation-theory/schurs-lemma"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

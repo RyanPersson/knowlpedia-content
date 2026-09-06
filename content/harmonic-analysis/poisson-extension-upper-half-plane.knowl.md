@@ -6,8 +6,8 @@ summary = "Boundary data on the real line convolved with the Poisson kernel to p
 aliases = ["harmonic Poisson extension", "Poisson integral"]
 domains = ["harmonic-analysis", "complex-analysis", "partial-differential-equations"]
 prerequisites = ["harmonic-analysis/poisson-kernel-upper-half-plane", "complex-analysis/harmonic-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

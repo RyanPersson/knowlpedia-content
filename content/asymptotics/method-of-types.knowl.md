@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "Counting and probability estimates for sequences grouped by their empirical distribution."
 aliases = ["method-of-types", "Method of types"]
 domains = ["asymptotics"]
-prerequisites = ["asymptotics/entropy-multinomial-coefficients"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["asymptotics/entropy-multinomial-coefficients", "probability/probability-measure", "probability/relative-entropy-kl-divergence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "asymptotics/method-of-types.md"
 +++
 

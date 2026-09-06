@@ -6,8 +6,8 @@ summary = "A function on an infinite-dimensional Hilbert space depending on fini
 aliases = ["tame-function", "Tame Function (Segal)"]
 domains = ["shale-paper"]
 prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "shale-paper/tame-function.md"
 +++
 

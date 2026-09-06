@@ -6,6 +6,9 @@ summary = "Research Advice Analysis"
 aliases = ["research-advice-analysis", "Research Advice Analysis"]
 domains = ["posts"]
 legacy_source_path = "posts/research-advice-analysis.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 # Pattern Analysis: Research Advice from Mathematicians and Scientists

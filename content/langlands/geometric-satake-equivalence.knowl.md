@@ -6,8 +6,8 @@ summary = "The tensor category of spherical perverse sheaves on Gr_G is equivale
 aliases = ["geometric Satake correspondence"]
 domains = ["langlands", "representation-theory"]
 prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "langlands/perverse-sheaf", "langlands/affine-grassmannian", "langlands-letter/knowls/langlands-dual-group", "langlands/intersection-cohomology-complex", "langlands/affine-schubert-variety", "langlands/dominant-coweight"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

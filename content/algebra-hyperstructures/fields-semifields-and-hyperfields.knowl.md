@@ -5,9 +5,9 @@ kind = "theorem"
 summary = "Fields embed fully faithfully as semifields and as singleton-addition hyperfields."
 aliases = ["fields semifields and hyperfields", "field as a semifield and hyperfield"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
-prerequisites = ["algebra-rings/field", "algebra-rings/semifield", "algebra-hyperstructures/hyperfield", "algebra-groups/abelian-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-rings/field", "algebra-rings/semifield", "algebra-hyperstructures/hyperfield", "algebra-groups/abelian-group", "algebra-rings/semiring-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

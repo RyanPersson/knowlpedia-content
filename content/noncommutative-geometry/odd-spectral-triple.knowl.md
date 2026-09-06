@@ -6,8 +6,8 @@ summary = "An ungraded spectral triple representing the odd parity of analytic K
 aliases = ["ungraded spectral triple", "odd K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
 prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/involutive-algebra", "linear-algebra/hilbert-space", "noncommutative-geometry/analytic-k-homology", "noncommutative-geometry/even-spectral-triple"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

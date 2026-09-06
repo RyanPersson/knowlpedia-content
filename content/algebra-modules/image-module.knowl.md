@@ -6,8 +6,8 @@ summary = "The submodule consisting of all values attained by a module homomorph
 aliases = ["image-module", "Image of a module homomorphism"]
 domains = ["algebra-modules"]
 prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/submodule"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "algebra-modules/image-module.md"
 +++
 

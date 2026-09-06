@@ -6,8 +6,8 @@ summary = "A closed holomorphic two-form that is nondegenerate at every point of
 aliases = ["complex symplectic form", "nondegenerate closed holomorphic 2-form"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-section", "differential-geometry/holomorphic-cotangent-bundle", "fiber-bundles/bundle-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

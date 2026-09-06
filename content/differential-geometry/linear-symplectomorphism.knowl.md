@@ -6,8 +6,8 @@ summary = "An invertible linear map that preserves the symplectic forms on its s
 aliases = ["symplectic linear isomorphism", "linear canonical transformation"]
 domains = ["differential-geometry", "linear-algebra"]
 prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/symplectic-linear-map", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

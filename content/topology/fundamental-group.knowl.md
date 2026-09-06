@@ -6,8 +6,8 @@ summary = "The group of based loops in a space modulo endpoint-preserving homoto
 aliases = ["pi_1", "homotopy group in degree one"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/path", "shared-foundations/equivalence-class", "algebra-groups/group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

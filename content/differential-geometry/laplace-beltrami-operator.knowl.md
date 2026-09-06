@@ -6,8 +6,8 @@ summary = "The negative metric trace of the covariant Hessian, with a sign chose
 aliases = ["metric Laplacian", "scalar Laplacian", "Laplace-Beltrami operator"]
 domains = ["differential-geometry", "partial-differential-equations"]
 prerequisites = ["differential-geometry/pseudo-riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "differential-geometry/principal-symbol"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -5,9 +5,9 @@ kind = "definition"
 summary = "The closure of the set on which a function is nonzero."
 aliases = ["function support", "support of a scalar function"]
 domains = ["shared-foundations", "topology", "analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["shared-foundations/function", "topology/topological-space", "topology/closure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "Compactly supported source and Cauchy data determine a unique smooth 
 aliases = ["Cauchy theorem for normally hyperbolic operators", "well-posedness of the normally hyperbolic Cauchy problem"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
 prerequisites = ["mathematical-physics/normally-hyperbolic-operator", "differential-geometry/globally-hyperbolic-spacetime", "differential-geometry/cauchy-hypersurface", "mathematical-physics/connection-form-of-a-normally-hyperbolic-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

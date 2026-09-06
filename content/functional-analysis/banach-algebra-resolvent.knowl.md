@@ -6,8 +6,8 @@ summary = "The inverse of the scalar shift of a Banach-algebra element, defined 
 aliases = ["resolvent set", "resolvent function"]
 domains = ["functional-analysis", "operator-algebras"]
 prerequisites = ["functional-analysis/banach-algebra", "functional-analysis/banach-algebra-invertible-element", "functional-analysis/banach-algebra-spectrum", "operator-algebras/unitization"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

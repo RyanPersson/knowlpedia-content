@@ -6,8 +6,8 @@ summary = "A connection on an oriented Riemannian four-manifold whose curvature 
 aliases = ["self-dual connection", "anti-self-dual connection", "SD connection", "ASD connection"]
 domains = ["fiber-bundles", "differential-geometry"]
 prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "differential-geometry/hodge-star-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

@@ -6,8 +6,8 @@ summary = "The topology of pointwise convergence of all matrix coefficients on a
 aliases = ["WOT", "weak operator convergence", "matrix-coefficient topology"]
 domains = ["operator-algebras", "functional-analysis"]
 prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

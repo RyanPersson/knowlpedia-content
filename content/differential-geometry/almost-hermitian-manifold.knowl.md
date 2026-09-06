@@ -6,8 +6,8 @@ summary = "A smooth manifold with an almost-complex structure and a compatible R
 aliases = ["almost Hermitian manifold", "almost-Hermitian structure"]
 domains = ["differential-geometry"]
 prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/almost-complex-structure", "fiber-bundles/hermitian-metric", "fiber-bundles/complex-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

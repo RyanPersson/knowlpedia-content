@@ -6,8 +6,8 @@ summary = "The connected double cover of the real symplectic group."
 aliases = ["real metaplectic group", "Mp(2n,R)", "metaplectic double cover"]
 domains = ["lie-groups", "differential-geometry", "harmonic-analysis"]
 prerequisites = ["lie-groups/symplectic-group", "lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

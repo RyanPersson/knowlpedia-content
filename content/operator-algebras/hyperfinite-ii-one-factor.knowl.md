@@ -6,8 +6,8 @@ summary = "The separable type II₁ factor obtained as the strong closure of an 
 aliases = ["approximately finite-dimensional II_1 factor", "hyperfinite factor R"]
 domains = ["operator-algebras"]
 prerequisites = ["operator-algebras/type-ii-one-factor", "operator-algebras/strong-operator-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

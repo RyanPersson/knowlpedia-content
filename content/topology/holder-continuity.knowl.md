@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A condition controlling how fast a function can change, generalizing Lipschitz continuity by allowing a power less than one."
 aliases = ["holder-continuity", "Hölder continuity"]
 domains = ["topology"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "topology/holder-continuity.md"
 +++
 

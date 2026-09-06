@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "For n at least 2, the connected double cover Spin(n) of SO(n), constructed inside the even Clifford algebra."
 aliases = ["spin-group", "Spin group"]
 domains = ["lie-groups"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["differential-geometry/clifford-algebra", "lie-groups/universal-covering-group", "lie-groups/orthogonal-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "lie-groups/spin-group.md"
 +++
 

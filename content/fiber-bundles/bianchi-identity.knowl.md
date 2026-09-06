@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "The covariant exterior derivative of the curvature form of a connection vanishes."
 aliases = ["bianchi-identity", "Bianchi identity"]
 domains = ["fiber-bundles"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 legacy_source_path = "fiber-bundles/bianchi-identity.md"
 +++
 

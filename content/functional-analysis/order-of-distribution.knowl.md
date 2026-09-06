@@ -6,8 +6,8 @@ summary = "The order of a distribution is the least derivative degree needed in 
 aliases = ["finite-order distribution", "distribution of order m"]
 domains = ["functional-analysis", "distribution-theory"]
 prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 

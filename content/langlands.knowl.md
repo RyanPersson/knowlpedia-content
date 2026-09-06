@@ -6,6 +6,9 @@ summary = "Index of local and global Langlands correspondences, automorphic repr
 aliases = ["Langlands index", "Langlands program index"]
 domains = ["langlands"]
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **Langlands program** relates harmonic analysis on [[algebraic-geometry-foundations/reductive-algebraic-group|reductive groups]] to

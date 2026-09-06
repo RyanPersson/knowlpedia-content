@@ -5,9 +5,9 @@ kind = "knowl"
 summary = "A cyclic diagram of three objects whose last morphism lands in the shift of the first."
 aliases = ["triangle in a category", "triangle"]
 domains = ["algebra-category-theory", "algebra-homological"]
-prerequisites = ["algebra-category-theory/shift-functor", "algebra-category-theory/distinguished-triangle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["algebra-category-theory/shift-functor"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 In a category with a [[algebra-category-theory/shift-functor|shift functor]] \([1]\), a **triangle** is a diagram

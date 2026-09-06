@@ -6,8 +6,8 @@ summary = "The homomorphism sending a symplectic-isotopy class to the integrated
 aliases = ["symplectic flux", "flux of a symplectic isotopy"]
 domains = ["differential-geometry"]
 prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/symplectic-isotopy", "fiber-bundles/de-rham-cohomology-group", "lie-groups/universal-covering-group", "differential-geometry/symplectomorphism-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 section_mode = "progressive"
 +++
 
